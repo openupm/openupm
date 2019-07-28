@@ -1,0 +1,22 @@
+{
+  "name": "openupm",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Open source UPM registry and community for Unity",
+  "main": "index.js",
+  "authors": {
+    "name": "Favo Yang",
+    "email": "favoyang@gmail.com"
+  },
+  "repository": "https://github.com/openupm/openupm",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.2"
+  }
+}
