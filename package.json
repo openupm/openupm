@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "Open source UPM registry and community for Unity",
-  "main": "index.js",
+  "main": "server.js",
   "authors": {
     "name": "Favo Yang",
     "email": "favoyang@gmail.com"
@@ -11,12 +11,33 @@
   "repository": "https://github.com/openupm/openupm",
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "server": "node server.js",
+    "server:dev": "./node_modules/.bin/nodemon --watch app --watch server.js server.js",
+    "knex": "./node_modules/.bin/knex",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "nodemon": "^1.19.1",
     "vuepress": "^1.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bee-queue": "^1.2.2",
+    "body-parser": "^1.19.0",
+    "bottleneck": "^2.19.5",
+    "commander": "^3.0.0",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-reload": "^1.2.0",
+    "knex": "^0.19.1",
+    "moment": "^2.24.0",
+    "pg": "^7.12.0",
+    "promise-redis": "^0.0.5",
+    "redis": "^2.8.0",
+    "winston": "^3.2.1"
   }
 }
