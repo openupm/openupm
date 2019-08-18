@@ -14,3 +14,4 @@ public
 .vscode
 config.local.js
 basement_dist
+config/local.js

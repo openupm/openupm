@@ -1,4 +1,12 @@
 const config = require('config');
 
-var knex = require('knex')(config.knex);
+let knex = require('knex')(config.knex);
+
+knex.touchUpdateAt = function (row) {
+  if (typeof row === 'undefined' || row === null)
+    row = {};
+  row.updated_at = knex.fn.now();
+  return row;
+};
+
 module.exports = knex;

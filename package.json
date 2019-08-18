@@ -33,11 +33,15 @@
     "config": "^3.2.2",
     "express": "^4.17.1",
     "express-reload": "^1.2.0",
+    "graphql-request": "^1.8.2",
     "knex": "^0.19.1",
     "moment": "^2.24.0",
+    "parse-github-url": "^1.0.2",
     "pg": "^7.12.0",
     "promise-redis": "^0.0.5",
     "redis": "^2.8.0",
+    "semver-sort": "^0.0.4",
+    "spdx-license-list": "^6.1.0",
     "winston": "^3.2.1"
   }
 }

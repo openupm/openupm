@@ -36,6 +36,12 @@ module.exports = {
     keys: {
       project: 'proj',
     },
-  }
+  },
 
+  // GitHub.
+  gitHub: {
+    endpoint: 'https://api.github.com/graphql',
+    timeout: 10000,
+    token: '',
+  }
 };

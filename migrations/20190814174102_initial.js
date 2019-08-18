@@ -21,12 +21,19 @@ exports.up = function (knex) {
       table.string('owner').notNullable().defaultTo('');
       table.specificType('owner_avatar_url', 'CITEXT').notNullable().defaultTo('');
       table.text('description').notNullable().defaultTo('');
+      table.specificType('og_image_url', 'CITEXT').notNullable().defaultTo('');
+      table.boolean('use_og_image').notNullable().defaultTo(false);
       table.boolean('is_archived').notNullable().defaultTo(false);
+      table.boolean('is_fork').notNullable().defaultTo(false);
       table.string('license_key').notNullable().defaultTo('');
-      table.string('license_other').notNullable().defaultTo('');
+      table.string('license_name').notNullable().defaultTo('');
+      table.boolean('is_license_ok').notNullable().defaultTo(false);
+      table.string('repo_branch').notNullable().defaultTo('');
+      table.boolean('has_package').notNullable().defaultTo(false);
       table.integer('star').notNullable().defaultTo(0);
       table.integer('user_id');
       table.integer('category_id');
+      table.timestamp('pushed_at', { useTz: false });
       addTimestamps(knex, table);
       table.unique('url');
     })
@@ -37,7 +44,6 @@ exports.up = function (knex) {
       table.string('display_name').notNullable().defaultTo('');
       table.text('description').notNullable().defaultTo('');
       table.string('repo_branch').notNullable().defaultTo('');
-      table.string('repo_path').notNullable().defaultTo('');
       addTimestamps(knex, table);
       table.unique('name');
     })
