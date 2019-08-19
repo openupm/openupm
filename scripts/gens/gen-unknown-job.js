@@ -13,6 +13,6 @@ var buildUnknown = async function () {
 
 if (require.main === module) {
   buildUnknown()
-    .catch(console.log)
+    .catch(logger.error)
     .finally(() => process.exit(0));
 }

@@ -8,5 +8,7 @@ fi
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$SCRIPT_DIR/../"
 yarn knex migrate:down
+echo
 yarn knex migrate:up
+echo
 node ./fixtures/load-fixtures.js

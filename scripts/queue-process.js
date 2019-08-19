@@ -1,4 +1,4 @@
-// Job process.
+// Job queue process.
 
 const config = require('config');
 const { workerQueue } = require('./queue');
@@ -14,6 +14,12 @@ const logger = require('../app/utils/log')(module);
 // });
 
 var dispatch = function () {
+  workerQueue.on('ready', () => {
+    logger.info('queue ready.');
+  });
+  workerQueue.on('error', (err) => {
+    logger.error('queue error: ', err);
+  });
   workerQueue.process(config.job.concurrent, async function(job) {
     logger.info(`[job=${job.id}] start`);
     let sections = job.id.split(':');
@@ -25,7 +31,7 @@ var dispatch = function () {
         throw new Error(`unknown job type ${sections[0]}`);
       }
     } catch (err) {
-      logger.error(`[job=${job.id}] failed with error: ${err}`);
+      logger.error(`[job=${job.id}] failed with error: `, err);
       throw err;
     }
     logger.info(`[job=${job.id}] succeeded`);

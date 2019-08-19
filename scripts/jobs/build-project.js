@@ -229,7 +229,7 @@ if (require.main === module) {
     .action(function () {
       let id = parseInt(arguments[0]);
       buildProject(id)
-        .catch(console.log)
+        .catch(logger.error)
         .finally(() => process.exit(0));
     })
     .parse(process.argv);

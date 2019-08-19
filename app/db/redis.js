@@ -7,7 +7,7 @@ client.on('connect', function () {
   logger.info('connected to server');
 });
 client.on('error', function (err) {
-  logger.error('' + err);
+  logger.error(err);
 });
 client.on('reconnecting', function (context) {
   var delay = context.delay;

@@ -1,3 +1,5 @@
+// Default configurations.
+
 module.exports = {
   // Debug flag
   debug: true,
@@ -6,7 +8,6 @@ module.exports = {
   port: 3600,
 
   // Redis.
-  // redisUrl: "redis://127.0.0.1:6379/",
   redis: {
     host: '127.0.0.1',
     port: 6379,
@@ -14,7 +15,7 @@ module.exports = {
     options: {}
   },
 
-  // DB.
+  // Database.
   knex: {
     client: 'pg',
     connection: {
@@ -43,5 +44,5 @@ module.exports = {
     endpoint: 'https://api.github.com/graphql',
     timeout: 10000,
     token: '',
-  }
+  },
 };
