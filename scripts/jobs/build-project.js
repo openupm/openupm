@@ -1,9 +1,7 @@
 // Fetch project information and generate sub-jobs.
 
 'use strict';
-// const config = require('config');
 const path = require('path');
-const semverSort = require('semver-sort');
 const { semverRe } = require('../../app/utils/semver');
 const parseGitHubUrl = require('parse-github-url');
 const knex = require('../../app/db/postgres');
@@ -41,14 +39,14 @@ class ProjectBuilder {
 
   async build() {
     let row = knex.touchUpdateAt({});
-    // Fetch info.
+    // Update info.
     logger.info(`[id=${this.project.id}] fetch info.`);
     await this.updateInfo(row);
-    // Fetch license.
+    // Update license.
     logger.info(`[id=${this.project.id}] fetch license.`);
     await this.updateLicense(row);
     row.is_license_ok = Boolean(row.license_key);
-    // Fetch package.
+    // Detect package manifest.
     logger.info(`[id=${this.project.id}] fetch package manifest.`);
     let packageManifest = await this.fetchPackageManifest(row);
     row.has_package = Boolean(packageManifest);
@@ -62,15 +60,17 @@ class ProjectBuilder {
     // Save to database
     await knex('project').update(row).where({ id: this.project.id });
     this.project = await knex('project').where({ id: this.project.id }).first();
-    // Generate package
+    // Update package record and release records.
     if (row.has_package) {
-      let pkg = await this.createOrUpdatePackage(packageManifest);
-      await this.genReleaseJobs(pkg);
+      let pkg = await this.updatePackageRecord(packageManifest);
+      let releases = await this.updateReleaseRecords(pkg);
+      await this.genReleaseJobs(releases);
     }
     logger.info(`[id=${this.project.id}] done.`);
   }
 
-  async createOrUpdatePackage(packageManifest) {
+  // Update package record for given package manifest.
+  async updatePackageRecord(packageManifest) {
     logger.info(`[id=${this.project.id}] update package.`);
     let row = knex.touchUpdateAt({
       project_id: this.project.id,
@@ -87,19 +87,20 @@ class ProjectBuilder {
     return await knex('package').where({ name: row.name }).first();
   }
 
-  async genReleaseJobs(pkg) {
+  // Update release records for given package record.
+  async updateReleaseRecords(pkg) {
     logger.info(`[id=${this.project.id}] generate release jobs.`);
-    let tags = this.repo.tags.nodes
-      .map(x => x['name'])
-      .filter(x => semverRe.test(x));
-    try {
-      tags = semverSort.asc(tags)
-    } catch (err) { }
+    let tags = await this.getTagList()
+      .filter(x => semverRe.test(x))
+      .reverse();
+    let releases = [];
     for (let tag of tags)
-      await this.genReleaseJob(pkg, tag);
+      releases.push(await this.updateReleaseRecord(pkg, tag));
+    return releases;
   }
 
-  async genReleaseJob(pkg, tag) {
+  // Update release record for given package record and tag.
+  async updateReleaseRecord(pkg, tag) {
     let version = tag.startsWith('v') ? tag.substr(1) : tag;
     let nameWithVersion = pkg.name + '/' + version;
     let release = await knex('release').where({ name_with_version: nameWithVersion }).first();
@@ -113,8 +114,12 @@ class ProjectBuilder {
       });
       await knex('release').insert(row).returning('id');
       release = knex('release').where({ name_with_version: nameWithVersion }).first();
+      return release;
     }
-    // TODO: gen release job.
+  }
+
+  // Generate release jobs for given release records.
+  async genReleaseJobs(releases) {
   }
 
   //#region interface
@@ -126,6 +131,9 @@ class ProjectBuilder {
 
   // Return decoded package file (package.json).
   async fetchPackageManifest(row, packagePath) { }
+
+  // Return tag list of project repo.
+  async getTagList() { }
   //#endregion interface
 }
 
@@ -134,10 +142,13 @@ class GitHubProjectBuilder extends ProjectBuilder {
 
   constructor(project) {
     super(project);
+    // The parsed GitHub url.
     this.gitHubUrl = null;
+    // The RepositoryInfo object, see https://developer.github.com/v4/interface/repositoryinfo/
     this.repo = null;
   }
 
+  //#region interface
   async updateInfo(row) {
     // Parse url to get owner and name.
     this.gitHubUrl = parseGitHubUrl(this.project.url);
@@ -196,6 +207,13 @@ class GitHubProjectBuilder extends ProjectBuilder {
     }
   }
 
+  async getTagList() {
+    return this.repo.tags.nodes.map(x => x['name']);
+  }
+  //#endregion interface
+
+  //#region helpers
+  // Return fetched package.json file content.
   async fetchPackageManifest(row, packagePath) {
     if (!packagePath)
       packagePath = '';
@@ -204,7 +222,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
     return text ? JSON.parse(text) : null;
   }
 
-  // Helpers
+  // Return fetched git file content.
   async fetchGitFileContent(owner, name, branch, filename) {
     let graphQLClient = gitHubGraphQL.createGraphQLClient();
     let variables = {
@@ -218,6 +236,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
     else
       return null;
   }
+  //#endregion helpers
 }
 
 module.exports = buildProject;

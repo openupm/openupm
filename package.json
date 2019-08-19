@@ -40,7 +40,6 @@
     "pg": "^7.12.0",
     "promise-redis": "^0.0.5",
     "redis": "^2.8.0",
-    "semver-sort": "^0.0.4",
     "spdx-license-list": "^6.1.0",
     "winston": "^3.2.1"
   }
