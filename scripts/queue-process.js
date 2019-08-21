@@ -1,7 +1,8 @@
 // Job queue process.
 
 const config = require('config');
-const { workerQueue } = require('./queue');
+const { getQueue, QueueName } = require('./queue');
+const workerQueue = getQueue(QueueName.worker);
 const buildProject = require('./jobs/build-project');
 const logger = require('../app/utils/log')(module);
 
@@ -20,11 +21,12 @@ var dispatch = function () {
   workerQueue.on('error', (err) => {
     logger.error('queue error: ', err);
   });
-  workerQueue.process(config.job.concurrent, async function(job) {
+  workerQueue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
+  workerQueue.process(config.jobs.concurrent, async function (job) {
     logger.info(`[job=${job.id}] start`);
     let sections = job.id.split(':');
     try {
-      if (sections[0] == config.job.keys.project) {
+      if (sections[0] == config.jobs.project.key) {
         let projectId = parseInt(sections[1]);
         await buildProject(projectId);
       } else {

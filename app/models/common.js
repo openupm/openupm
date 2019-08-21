@@ -1,3 +1,5 @@
+// Common models and constants.
+
 const ProjectState = {
   // Project waiting for processing.
   pending: 'pending',
@@ -15,7 +17,19 @@ const ProjectSource = {
   git: 'git',
 };
 
+const ReleaseState = {
+  // Release waiting for processing.
+  pending: 'pending',
+  // Release in processing.
+  building: 'building',
+  // Release built successfully.
+  succeeded: 'succeeded',
+  // Release built unsuccessfully.
+  failed: 'failed',
+};
+
 module.exports = {
   ProjectState,
   ProjectSource,
+  ReleaseState,
 };

@@ -32,11 +32,19 @@ module.exports = {
   },
 
   // Jobs.
-  job: {
-    concurrent: 1,
-    keys: {
-      project: 'proj',
+  jobs: {
+    concurrent: 5,
+    checkStalledJobsInterval: 5000,
+    project: {
+      key: 'proj',
+      retries: 3,
+      backoff: ['fixed', 60 * 1000],
     },
+    release: {
+      key: 'rel',
+      retries: 3,
+      backoff: ['fixed', 60 * 1000],
+    }
   },
 
   // GitHub.

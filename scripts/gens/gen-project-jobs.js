@@ -2,7 +2,8 @@
 
 const config = require('config');
 const knex = require('../../app/db/postgres');
-const { queue } = require('../queue');
+const { getQueue, QueueName } = require('../queue');
+const emitterQueue = getQueue(QueueName.emitter);
 const logger = require('../../app/utils/log')(module);
 
 const genProjectJobs = async function (ids) {
@@ -11,13 +12,16 @@ const genProjectJobs = async function (ids) {
     query.whereIn('id', ids);
   let rows = await query;
   for (let row of rows) {
-    let jobId = config.job.keys.project + ':' + row.id;
+    let jobId = config.jobs.project.key + ':' + row.id;
     let payload = {};
-    let job = await queue.createJob(payload).setId(jobId).save();
+    let job = await emitterQueue.createJob(payload)
+      .setId(jobId)
+      .retries(config.jobs.project.retries)
+      .backoff(...config.jobs.project.backoff)
+      .save();
     if (job.id)
       logger.info(`job added ${job.id}`);
   }
-  logger.info('done');
 };
 
 if (require.main === module) {
@@ -26,7 +30,7 @@ if (require.main === module) {
   program
     .arguments('[id...]')
     .action(function (args) {
-      ids = args.map(x => parseInt(x)).filter(x => !isNaN(x))
+      ids = args.map(x => parseInt(x)).filter(x => !isNaN(x));
     })
     .parse(process.argv);
   genProjectJobs(ids)
