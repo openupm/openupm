@@ -15,7 +15,7 @@ const inspect = async function (relation, ids) {
 };
 
 if (require.main === module) {
-  let program = require('commander');
+  let program = require('../app/utils/commander');
   let relationVal = null;
   let idVals = null;
   program
@@ -24,13 +24,7 @@ if (require.main === module) {
       relationVal = relation;
       idVals = ids.map(x => parseInt(x)).filter(x => !isNaN(x));
     })
-    .parse(process.argv);
-  if (relationVal === null || idVals === null) {
-    program.outputHelp();
-    process.exit(1);
-  } else {
-    inspect(relationVal, idVals)
-      .catch(console.log)
-      .finally(() => process.exit(0));
-  }
+    .requiredArgument(2)
+    .parse(process.argv)
+    .run(inspect, relationVal, idVals);
 }

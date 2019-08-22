@@ -18,6 +18,8 @@ const logger = require('../../app/utils/log')(module);
 let buildProject = async function (id) {
   // Fetch project from database.
   let project = await knex('project').where({ id }).first();
+  if (!project)
+    throw new Error("Project record not found, id=" + id);
   let builder = ProjectBuilder.createBuilder(project);
   if (builder)
     await builder.build();
@@ -296,14 +298,12 @@ class GitHubProjectBuilder extends ProjectBuilder {
 module.exports = buildProject;
 
 if (require.main === module) {
-  let program = require('commander');
+  let program = require('../../app/utils/commander');
+  let projectId = null;
   program
     .arguments('<id>')
-    .action(function () {
-      let id = parseInt(arguments[0]);
-      buildProject(id)
-        .catch(logger.error)
-        .finally(() => process.exit(0));
-    })
-    .parse(process.argv);
+    .action((id) => { projectId = parseInt(id); })
+    .requiredArgument(1)
+    .parse(process.argv)
+    .run(buildProject, projectId);
 }

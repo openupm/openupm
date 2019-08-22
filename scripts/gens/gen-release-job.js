@@ -10,9 +10,8 @@ const logger = require('../../app/utils/log')(module);
 const genReleaseJobForNameWithVersion = async function (nameWithVersion) {
   let query = knex('release').where({ name_with_version: nameWithVersion }).first();
   let release = await query;
-  if (!release) {
+  if (!release)
     throw new Error("Release record not found, nameWithVersion=" + nameWithVersion);
-  }
   return genReleaseJob(release);
 }
 
@@ -37,21 +36,14 @@ module.exports = {
 };
 
 if (require.main === module) {
-  let program = require('commander');
+  let program = require('../../app/utils/commander');
   let nameWithVersion = null;
-  let verValue = null;
   program
     .arguments('<name> <version>')
     .action(function (name, version) {
       nameWithVersion = name + '/' + version;
     })
-    .parse(process.argv);
-  if (!process.argv.slice(2).length) {
-    program.outputHelp();
-    process.exit(1)
-  } else {
-    genReleaseJobForNameWithVersion(nameWithVersion)
-      .catch(logger.error)
-      .finally(() => process.exit(0));
-  }
+    .requiredArgument(2)
+    .parse(process.argv)
+    .run(genReleaseJobForNameWithVersion, nameWithVersion);
 }

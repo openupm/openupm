@@ -25,15 +25,13 @@ const genProjectJobs = async function (ids) {
 };
 
 if (require.main === module) {
-  let program = require('commander');
+  let program = require('../../app/utils/commander');
   let ids = null;
   program
     .arguments('[id...]')
     .action(function (args) {
       ids = args.map(x => parseInt(x)).filter(x => !isNaN(x));
     })
-    .parse(process.argv);
-  genProjectJobs(ids)
-    .catch(logger.error)
-    .finally(() => process.exit(0));
+    .parse(process.argv)
+    .run(genProjectJobs, ids);
 }
