@@ -53,4 +53,15 @@ module.exports = {
     timeout: 10000,
     token: '',
   },
+
+  // Azure devops
+  azureDevops: {
+    endpoint: 'https://dev.azure.com/openupm',
+    token: '',
+    project: 'openupm',
+    definitionId: 1,
+    retries: 10,
+    retryDurationStep: 15 * 1000,
+  }
+
 };

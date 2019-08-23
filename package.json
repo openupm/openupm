@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "azure-devops-node-api": "^9.0.1",
     "bee-queue": "^1.2.2",
     "body-parser": "^1.19.0",
     "bottleneck": "^2.19.5",
@@ -41,6 +42,7 @@
     "promise-redis": "^0.0.5",
     "redis": "^2.8.0",
     "spdx-license-list": "^6.1.0",
+    "ts-enum-util": "^4.0.1",
     "winston": "^3.2.1"
   }
 }
