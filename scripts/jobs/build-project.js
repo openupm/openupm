@@ -3,9 +3,9 @@
 'use strict';
 const path = require('path');
 const config = require('config');
-const parseGitHubUrl = require('parse-github-url');
 const knex = require('../../app/db/postgres');
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
+const { projectModel } = require('../../app/models/project');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
@@ -17,16 +17,17 @@ const logger = require('../../app/utils/log')(module);
 // Build project for given id.
 let buildProject = async function (id) {
   // Fetch project from database.
-  let project = await knex('project').where({ id }).first();
-  if (!project)
+  let record = await knex('project').where({ id }).first();
+  if (!record)
     throw new Error("Project record not found, id=" + id);
+  let project = projectModel(record);
   let builder = ProjectBuilder.createBuilder(project);
   if (builder)
     await builder.build();
   else {
     // No builder found, set project to backlog state.
-    let row = knex.touchUpdateAt({ state: ProjectState.backlog });
-    await knex('project').where({ id }).update(row);
+    let data = knex.touchUpdateAt({ state: ProjectState.backlog });
+    await knex('project').where({ id }).update(data);
   }
 }
 
@@ -44,30 +45,30 @@ class ProjectBuilder {
   }
 
   async build() {
-    let row = knex.touchUpdateAt({});
+    let record = knex.touchUpdateAt({});
     // Update info.
     logger.info(`[id=${this.project.id}] fetch info.`);
-    await this.updateInfo(row);
+    await this.updateInfo(record);
     // Update license.
     logger.info(`[id=${this.project.id}] fetch license.`);
-    await this.updateLicense(row);
-    row.is_license_ok = Boolean(row.license_key);
+    await this.updateLicense(record);
+    record.is_license_ok = Boolean(record.license_key);
     // Detect package manifest.
     logger.info(`[id=${this.project.id}] fetch package manifest.`);
-    let packageManifest = await this.fetchPackageManifest(row);
-    row.has_package = Boolean(packageManifest);
+    let packageManifest = await this.fetchPackageManifest(record);
+    record.has_package = Boolean(packageManifest);
     // Handle state.
-    if (!row.is_license_ok)
-      row.state = ProjectState.rejected;
-    else if (!row.has_package)
-      row.state = ProjectState.rejected;
+    if (!record.is_license_ok)
+      record.state = ProjectState.rejected;
+    else if (!record.has_package)
+      record.state = ProjectState.rejected;
     else
-      row.state = ProjectState.active;
+      record.state = ProjectState.active;
     // Save to database
-    await knex('project').update(row).where({ id: this.project.id });
-    this.project = await knex('project').where({ id: this.project.id }).first();
+    await knex('project').update(record).where({ id: this.project.id });
+    Object.assign(this.project, record);
     // Update package record and release records.
-    if (row.has_package) {
+    if (record.has_package) {
       let pkg = await this.updatePackageRecord(packageManifest);
       let releases = await this.updateReleaseRecords(pkg);
       await this.genReleaseJobs(releases);
@@ -77,19 +78,19 @@ class ProjectBuilder {
   // Update package record for given package manifest.
   async updatePackageRecord(packageManifest) {
     logger.info(`[id=${this.project.id}] update package record.`);
-    let row = knex.touchUpdateAt({
+    let record = knex.touchUpdateAt({
       project_id: this.project.id,
       name: packageManifest.name,
       display_name: packageManifest.displayName || '',
       description: packageManifest.description || this.project.description,
       repo_branch: this.project.repo_branch,
     });
-    let pkg = await knex('package').where({ name: row.name }).first();
+    let pkg = await knex('package').where({ name: record.name }).first();
     if (pkg)
-      await knex('package').update(row).where({ id: pkg.id });
+      await knex('package').update(record).where({ id: pkg.id });
     else
-      await knex('package').insert(row).returning('id');
-    return await knex('package').where({ name: row.name }).first();
+      await knex('package').insert(record).returning('id');
+    return await knex('package').where({ name: record.name }).first();
   }
 
   // Update release records for given package record.
@@ -121,7 +122,7 @@ class ProjectBuilder {
     let nameWithVersion = pkg.name + '/' + version;
     let release = await knex('release').where({ name_with_version: nameWithVersion }).first();
     if (!release) {
-      let row = knex.touchUpdateAt({
+      let record = knex.touchUpdateAt({
         package_id: pkg.id,
         name_with_version: nameWithVersion,
         version,
@@ -129,7 +130,7 @@ class ProjectBuilder {
         tag,
         state: ReleaseState.pending,
       });
-      await knex('release').insert(row).returning('id');
+      await knex('release').insert(record).returning('id');
       release = knex('release').where({ name_with_version: nameWithVersion }).first();
     }
     return release;
@@ -138,36 +139,22 @@ class ProjectBuilder {
   // Generate release jobs for given release records.
   async genReleaseJobs(releases) {
     for (let release of releases) {
-      switch (release.state) {
-        case ReleaseState.pending:
-        case ReleaseState.building:
+      if (release.state == ReleaseState.pending) {
           // Get the job.
           let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
-          if (job) {
-            // If run out of retries, Set job.state to failed, and clean it.
-            if (job.status == 'failed' && job.options.retries <= 0) {
-              // Change release.state state to failed.
-              await knex('release')
-                .where({ id: release.id })
-                .update(knex.touchUpdateAt({ state: ReleaseState.failed }));
-              await emitterQueue.removeJob(job.id);
-              logger.warn(`[id=${this.project.id}] [release_id=${release.id}] failed.`);
-            }
-          } else {
-            // Generate release job.
-            job = await genReleaseJob(release);
-            // Change release.state to building.
-            await knex('release')
-              .where({ id: release.id })
-              .update(knex.touchUpdateAt({ state: ReleaseState.building }));
+          // If job exists and completely failed (no more retries), remove the job.
+          if (job && job.status == 'failed' && job.options.retries <= 0) {
+            // // Change release.state state to failed.
+            // await knex('release')
+            //   .where({ id: release.id })
+            //   .update(knex.touchUpdateAt({ state: ReleaseState.failed }));
+            await emitterQueue.removeJob(job.id);
+            logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
+            job = null;
           }
-          break;
-        case ReleaseState.succeeded:
-          break;
-        case ReleaseState.failed:
-          break;
-        default:
-          logger.warn(`[id=${this.project.id}] [release_id=${release.id}] unknown state '${release.state}'`);
+          // Generate release job.
+          if (!job)
+            job = await genReleaseJob(release);
           break;
       }
     }
@@ -179,14 +166,14 @@ class ProjectBuilder {
   }
 
   //#region interface
-  // Update row for project info.
-  async updateInfo(row) { }
+  // Update record for project info.
+  async updateInfo(record) { }
 
-  // Update row for license info.
-  async updateLicense(row) { }
+  // Update record for license info.
+  async updateLicense(record) { }
 
   // Return decoded package file (package.json).
-  async fetchPackageManifest(row, packagePath) { }
+  async fetchPackageManifest(record, packagePath) { }
 
   // Return tag list of project repo, latest first.
   async getTagList() { }
@@ -198,27 +185,23 @@ class GitHubProjectBuilder extends ProjectBuilder {
 
   constructor(project) {
     super(project);
-    // The parsed GitHub url.
-    this.gitHubUrl = null;
     // The RepositoryInfo object, see https://developer.github.com/v4/interface/repositoryinfo/
     this.repo = null;
   }
 
   //#region interface
-  async updateInfo(row) {
-    // Parse url to get owner and name.
-    this.gitHubUrl = parseGitHubUrl(this.project.url);
+  async updateInfo(record) {
     // Fetch repo from github graphql.
     let variables = {
-      owner: this.gitHubUrl.owner,
-      name: this.gitHubUrl.name,
-      tree: this.gitHubUrl.branch + ':',
+      owner: this.project.gitHubUrl.owner,
+      name: this.project.gitHubUrl.name,
+      tree: this.project.gitHubUrl.branch + ':',
     };
     let graphQLClient = gitHubGraphQL.createGraphQLClient();
     let data = await graphQLClient.request(gitHubGraphQL.repoInfo, variables);
     this.repo = data.repository;
     // Update project info.
-    Object.assign(row, {
+    Object.assign(record, {
       url: this.repo.url,
       name: this.repo.name,
       owner: this.repo.nameWithOwner.split('/')[0],
@@ -226,7 +209,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
       description: this.repo.description || '',
       is_fork: this.repo.isFork,
       is_archived: this.repo.isArchived,
-      repo_branch: this.gitHubUrl.branch,
+      repo_branch: this.project.gitHubUrl.branch,
       use_og_image: this.repo.usesCustomOpenGraphImage,
       og_image_url: this.repo.openGraphImageUrl,
       star: this.repo.stargazers.totalCount,
@@ -234,11 +217,11 @@ class GitHubProjectBuilder extends ProjectBuilder {
     });
   }
 
-  async updateLicense(row) {
+  async updateLicense(record) {
     if (this.repo.licenseInfo && this.repo.licenseInfo.key != "other") {
       // Use github license info if possible.
-      row.license_key = this.repo.licenseInfo.key;
-      row.license_name = this.repo.licenseInfo.name;
+      record.license_key = this.repo.licenseInfo.key;
+      record.license_name = this.repo.licenseInfo.name;
       return;
     }
     // Find license file.
@@ -252,12 +235,12 @@ class GitHubProjectBuilder extends ProjectBuilder {
     }
     if (filename) {
       // Fetch license file.
-      let text = await this.fetchGitFileContent(row.owner, row.name, row.repo_branch, filename);
+      let text = await this.fetchGitFileContent(record.owner, record.name, record.repo_branch, filename);
       if (text) {
         let licenseKey = licenseUtil.detectLicenseKey(text);
         if (licenseKey) {
-          row.license_key = licenseKey;
-          row.license_name = licenseUtil.licenses[licenseKey]['name'];
+          record.license_key = licenseKey;
+          record.license_name = licenseUtil.licenses[licenseKey]['name'];
         }
       }
     }
@@ -270,11 +253,11 @@ class GitHubProjectBuilder extends ProjectBuilder {
 
   //#region helpers
   // Return fetched package.json file content.
-  async fetchPackageManifest(row, packagePath) {
+  async fetchPackageManifest(record, packagePath) {
     if (!packagePath)
       packagePath = '';
     let filename = path.join(packagePath, 'package.json');
-    let text = await this.fetchGitFileContent(row.owner, row.name, row.repo_branch, filename);
+    let text = await this.fetchGitFileContent(record.owner, record.name, record.repo_branch, filename);
     return text ? JSON.parse(text) : null;
   }
 
