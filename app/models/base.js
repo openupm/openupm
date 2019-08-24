@@ -21,7 +21,8 @@ const registerModel = function (cls, meta) {
   if (!obj.table)
     obj.table = cls.name.toLowerCase();
   cls.meta = obj;
-  // Add fetchOne method.
+
+  // Return one model instance by primary key or lookup condition.
   cls.fetchOne = async function (pkOrLookup) {
     let meta = this.meta;
     let lookup = {};
@@ -34,6 +35,14 @@ const registerModel = function (cls, meta) {
       return null;
     return new this(record);
   };
+
+  // Return created model instance.
+  cls.create = async function (record) {
+    let meta = this.meta;
+    let pks = await knex(meta.table).insert(record).returning(meta.primaryKey);
+    let pk = pks[0];
+    return await this.fetchOne(pk);
+  }
 };
 
 // Model base class.

@@ -6,6 +6,7 @@ const config = require('config');
 const knex = require('../../app/db/postgres');
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
 const { Project } = require('../../app/models/project');
+const { Package } = require('../../app/models/package');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
@@ -44,7 +45,7 @@ class ProjectBuilder {
   }
 
   async build() {
-    let record ={};
+    let record = {};
     // Update info.
     logger.info(`[id=${this.project.id}] fetch info.`);
     await this.updateInfo(record);
@@ -77,19 +78,19 @@ class ProjectBuilder {
   // Update package record for given package manifest.
   async updatePackageRecord(packageManifest) {
     logger.info(`[id=${this.project.id}] update package record.`);
-    let record = knex.touchUpdateAt({
+    let record = {
       project_id: this.project.id,
       name: packageManifest.name,
       display_name: packageManifest.displayName || '',
       description: packageManifest.description || this.project.description,
       repo_branch: this.project.repo_branch,
-    });
-    let pkg = await knex('package').where({ name: record.name }).first();
+    };
+    let pkg = await Package.fetchOne({ name: record.name });
     if (pkg)
-      await knex('package').update(record).where({ id: pkg.id });
+      await pkg.update(record);
     else
-      await knex('package').insert(record).returning('id');
-    return await knex('package').where({ name: record.name }).first();
+      pkg = await Package.create(record);
+    return pkg;
   }
 
   // Update release records for given package record.
