@@ -36,6 +36,19 @@ const registerModel = function (cls, meta) {
     return new this(record);
   };
 
+  // Return a list of model instances by lookup condition.
+  // If callback(query) provided, it shall return the query object.
+  cls.fetchAll = async function (lookupOrCallback) {
+    let meta = this.meta;
+    let query = knex(meta.table).select('*');
+    if (typeof lookupOrCallback == 'object')
+      query = query.where(lookupOrCallback);
+    else if (typeof lookupOrCallback == 'function')
+      query = lookupOrCallback(query);
+    let records = await query;
+    return records.map(x => new this(x));
+  };
+
   // Return created model instance.
   cls.create = async function (record) {
     let meta = this.meta;

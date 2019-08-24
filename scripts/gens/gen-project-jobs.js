@@ -1,18 +1,18 @@
 // Generate project jobs.
 
 const config = require('config');
-const knex = require('../../app/db/postgres');
+const { Project } = require('../../app/models/project');
 const { getQueue, QueueName } = require('../queue');
 const emitterQueue = getQueue(QueueName.emitter);
 const logger = require('../../app/utils/log')(module);
 
 const genProjectJobs = async function (ids) {
-  let query = knex('project').select();
-  if (ids !== null && ids.length)
-    query.whereIn('id', ids);
-  let rows = await query;
-  for (let row of rows) {
-    let jobId = config.jobs.project.key + ':' + row.id;
+  let lookup = null;
+  if (ids && ids.length)
+    lookup = (query) => query.whereIn('id', ids);
+  let projects = await Project.fetchAll(lookup);
+  for (let project of projects) {
+    let jobId = config.jobs.project.key + ':' + project.id;
     let payload = {};
     let job = await emitterQueue.createJob(payload)
       .setId(jobId)
