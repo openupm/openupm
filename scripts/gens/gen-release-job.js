@@ -2,14 +2,14 @@
 
 const config = require('config');
 const knex = require('../../app/db/postgres');
+const { Release } = require('../../app/models/release');
 const { getQueue, QueueName } = require('../queue');
 const emitterQueue = getQueue(QueueName.emitter);
 const logger = require('../../app/utils/log')(module);
 
 // Generate release job for given nameWithVersion.
 const genReleaseJobForNameWithVersion = async function (nameWithVersion) {
-  let query = knex('release').where({ name_with_version: nameWithVersion }).first();
-  let release = await query;
+  let release = await Release.fetchOne({ name_with_version: nameWithVersion });
   if (!release)
     throw new Error("Release record not found, nameWithVersion=" + nameWithVersion);
   return genReleaseJob(release);

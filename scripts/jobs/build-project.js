@@ -7,6 +7,7 @@ const knex = require('../../app/db/postgres');
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
 const { Project } = require('../../app/models/project');
 const { Package } = require('../../app/models/package');
+const { Release } = require('../../app/models/package');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
@@ -120,18 +121,17 @@ class ProjectBuilder {
   async updateReleaseRecord(pkg, tag) {
     let version = this.getVersionFromTag(tag);
     let nameWithVersion = pkg.name + '/' + version;
-    let release = await knex('release').where({ name_with_version: nameWithVersion }).first();
+    let release = await Release.fetchOne({ name_with_version: nameWithVersion });
     if (!release) {
-      let record = knex.touchUpdateAt({
+      let record = {
         package_id: pkg.id,
         name_with_version: nameWithVersion,
         version,
         commit: '',
         tag,
         state: ReleaseState.pending,
-      });
-      await knex('release').insert(record).returning('id');
-      release = knex('release').where({ name_with_version: nameWithVersion }).first();
+      };
+      release = await Release.create(record);
     }
     return release;
   }
@@ -144,10 +144,6 @@ class ProjectBuilder {
         let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
         // If job exists and completely failed (no more retries), remove the job.
         if (job && job.status == 'failed' && job.options.retries <= 0) {
-          // // Change release.state state to failed.
-          // await knex('release')
-          //   .where({ id: release.id })
-          //   .update(knex.touchUpdateAt({ state: ReleaseState.failed }));
           await emitterQueue.removeJob(job.id);
           logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
           job = null;
