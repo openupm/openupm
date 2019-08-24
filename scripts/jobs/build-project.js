@@ -68,7 +68,7 @@ class ProjectBuilder {
     await knex('project').update(record).where({ id: this.project.id });
     Object.assign(this.project, record);
     // Update package record and release records.
-    if (record.has_package) {
+    if (this.project.state == ProjectState.active) {
       let pkg = await this.updatePackageRecord(packageManifest);
       let releases = await this.updateReleaseRecords(pkg);
       await this.genReleaseJobs(releases);
