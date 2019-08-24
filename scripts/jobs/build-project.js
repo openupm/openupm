@@ -5,7 +5,7 @@ const path = require('path');
 const config = require('config');
 const knex = require('../../app/db/postgres');
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
-const { projectModel } = require('../../app/models/project');
+const { Project } = require('../../app/models/project');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
@@ -17,17 +17,16 @@ const logger = require('../../app/utils/log')(module);
 // Build project for given id.
 let buildProject = async function (id) {
   // Fetch project from database.
-  let record = await knex('project').where({ id }).first();
-  if (!record)
+  let project = await Project.fetchOne(id);
+  if (!project)
     throw new Error("Project record not found, id=" + id);
-  let project = projectModel(record);
   let builder = ProjectBuilder.createBuilder(project);
   if (builder)
     await builder.build();
   else {
     // No builder found, set project to backlog state.
-    let data = knex.touchUpdateAt({ state: ProjectState.backlog });
-    await knex('project').where({ id }).update(data);
+    await project.update({ state: ProjectState.backlog });
+    logger.info(`[id=${this.project.id}] change state to ${project.state}.`);
   }
 }
 
@@ -45,7 +44,7 @@ class ProjectBuilder {
   }
 
   async build() {
-    let record = knex.touchUpdateAt({});
+    let record ={};
     // Update info.
     logger.info(`[id=${this.project.id}] fetch info.`);
     await this.updateInfo(record);
@@ -65,8 +64,8 @@ class ProjectBuilder {
     else
       record.state = ProjectState.active;
     // Save to database
-    await knex('project').update(record).where({ id: this.project.id });
-    Object.assign(this.project, record);
+    await this.project.update(record);
+    logger.info(`[id=${this.project.id}] change state to ${this.project.state}.`);
     // Update package record and release records.
     if (this.project.state == ProjectState.active) {
       let pkg = await this.updatePackageRecord(packageManifest);
@@ -140,22 +139,22 @@ class ProjectBuilder {
   async genReleaseJobs(releases) {
     for (let release of releases) {
       if (release.state == ReleaseState.pending) {
-          // Get the job.
-          let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
-          // If job exists and completely failed (no more retries), remove the job.
-          if (job && job.status == 'failed' && job.options.retries <= 0) {
-            // // Change release.state state to failed.
-            // await knex('release')
-            //   .where({ id: release.id })
-            //   .update(knex.touchUpdateAt({ state: ReleaseState.failed }));
-            await emitterQueue.removeJob(job.id);
-            logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
-            job = null;
-          }
-          // Generate release job.
-          if (!job)
-            job = await genReleaseJob(release);
-          break;
+        // Get the job.
+        let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
+        // If job exists and completely failed (no more retries), remove the job.
+        if (job && job.status == 'failed' && job.options.retries <= 0) {
+          // // Change release.state state to failed.
+          // await knex('release')
+          //   .where({ id: release.id })
+          //   .update(knex.touchUpdateAt({ state: ReleaseState.failed }));
+          await emitterQueue.removeJob(job.id);
+          logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
+          job = null;
+        }
+        // Generate release job.
+        if (!job)
+          job = await genReleaseJob(release);
+        break;
       }
     }
   }
