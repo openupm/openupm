@@ -36,6 +36,7 @@
     "express-reload": "^1.2.0",
     "graphql-request": "^1.8.2",
     "knex": "^0.19.1",
+    "lazy-property": "^1.0.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "parse-github-url": "^1.0.2",

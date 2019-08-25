@@ -1,8 +1,7 @@
 // Job queue process.
 
 const config = require('config');
-const { getQueue, QueueName } = require('./queue');
-const workerQueue = getQueue(QueueName.worker);
+const workerQueue = require('./queues').worker;
 const buildProject = require('./jobs/build-project');
 const logger = require('../app/utils/log')(module);
 

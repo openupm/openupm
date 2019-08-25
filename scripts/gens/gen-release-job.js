@@ -3,8 +3,7 @@
 const config = require('config');
 const knex = require('../../app/db/postgres');
 const { Release } = require('../../app/models/release');
-const { getQueue, QueueName } = require('../queue');
-const emitterQueue = getQueue(QueueName.emitter);
+const emitterQueue =  require('../queues').emitter;
 const logger = require('../../app/utils/log')(module);
 
 // Generate release job for given nameWithVersion.

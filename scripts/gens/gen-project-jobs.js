@@ -2,8 +2,7 @@
 
 const config = require('config');
 const { Project } = require('../../app/models/project');
-const { getQueue, QueueName } = require('../queue');
-const emitterQueue = getQueue(QueueName.emitter);
+const emitterQueue =  require('../queues').emitter;
 const logger = require('../../app/utils/log')(module);
 
 const genProjectJobs = async function (ids) {

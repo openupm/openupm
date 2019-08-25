@@ -31,6 +31,28 @@ module.exports = {
     },
   },
 
+  // Queues
+  queues: {
+    emitter: {
+      removeOnSuccess: true,
+      removeOnFailure: false,
+      isWorker: false,
+      // The queue does not need to receive job events.
+      getEvents: false,
+      // The queue does not store jobs, so you can use Queue#getJob to check job status safely.
+      storeJobs: false,
+      // The queue is not responsible for activating delayed jobs.
+      activateDelayedJobs: false,
+    },
+    worker: {
+      removeOnSuccess: true,
+      removeOnFailure: false,
+      isWorker: true,
+      // The queue is responsible for activating delayed jobs.
+      activateDelayedJobs: true,
+    },
+  },
+
   // Jobs.
   jobs: {
     concurrent: 5,

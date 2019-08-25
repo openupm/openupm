@@ -11,8 +11,7 @@ const { Release } = require('../../app/models/package');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
-const { getQueue, QueueName } = require('../queue');
-const emitterQueue = getQueue(QueueName.emitter);
+const emitterQueue =  require('../queues').emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
 
