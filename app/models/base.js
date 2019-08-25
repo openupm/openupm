@@ -12,7 +12,7 @@ const modelMetaBase = {
   hasTimestamps: false,
 };
 
-// Add meta to class.
+// Register model.
 const registerModel = function (cls, meta) {
   // Add meta instance to cls.meta.
   let obj = {};
@@ -41,10 +41,12 @@ const registerModel = function (cls, meta) {
   cls.fetchAll = async function (lookupOrCallback) {
     let meta = this.meta;
     let query = knex(meta.table).select('*');
-    if (typeof lookupOrCallback == 'object')
-      query = query.where(lookupOrCallback);
-    else if (typeof lookupOrCallback == 'function')
-      query = lookupOrCallback(query);
+    if (lookupOrCallback) {
+      if (typeof lookupOrCallback == 'object')
+        query = query.where(lookupOrCallback);
+      else if (typeof lookupOrCallback == 'function')
+        query = lookupOrCallback(query);
+    }
     let records = await query;
     return records.map(x => new this(x));
   };
