@@ -12,7 +12,7 @@ const queueWrap = function (queueName, configName) {
   };
 }
 
-addLazyProperty(queue, 'emitter', queueWrap('build', 'emitter'));
-addLazyProperty(queue, 'worker', queueWrap('build', 'worker'));
+addLazyProperty(queues, 'emitter', queueWrap('build', 'emitter'));
+addLazyProperty(queues, 'worker', queueWrap('build', 'worker'));
 
 module.exports = queues;
