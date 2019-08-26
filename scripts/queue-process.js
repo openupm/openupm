@@ -1,8 +1,10 @@
 // Job queue process.
 
 const config = require('config');
+
 const workerQueue = require('./queues').worker;
-const buildProject = require('./jobs/build-project');
+const { buildProject } = require('./jobs/build-project');
+const { buildRelease } = require('./jobs/build-release');
 const logger = require('../app/utils/log')(module);
 
 // const Bottleneck = require('bottleneck');
@@ -28,6 +30,9 @@ var dispatch = function () {
       if (sections[0] == config.jobs.project.key) {
         let projectId = parseInt(sections[1]);
         await buildProject(projectId);
+      } else if (sections[0] == config.jobs.release.key) {
+        let releaseId = parseInt(sections[1]);
+        await buildRelease(releaseId);
       } else {
         throw new Error(`unknown job type ${sections[0]}`);
       }

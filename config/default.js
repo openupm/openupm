@@ -82,8 +82,8 @@ module.exports = {
     token: '',
     project: 'openupm',
     definitionId: 1,
-    retries: 10,
-    retryDurationStep: 15 * 1000,
+    retries: 5,
+    retryDurationStep: 20 * 1000,
   }
 
 };

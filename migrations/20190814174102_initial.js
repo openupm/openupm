@@ -61,6 +61,7 @@ exports.up = function (knex) {
       table.string('commit').notNullable().defaultTo('');
       table.string('tag').notNullable().defaultTo('');
       table.string('state').notNullable().defaultTo('');
+      table.string('build_id').notNullable().defaultTo('');
       addTimestamps(knex, table);
       table.unique('name_with_version');
     });

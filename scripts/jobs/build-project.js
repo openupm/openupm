@@ -7,11 +7,11 @@ const knex = require('../../app/db/postgres');
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
 const { Project } = require('../../app/models/project');
 const { Package } = require('../../app/models/package');
-const { Release } = require('../../app/models/package');
+const { Release } = require('../../app/models/release');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
-const emitterQueue =  require('../queues').emitter;
+const emitterQueue = require('../queues').emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
 
@@ -99,7 +99,7 @@ class ProjectBuilder {
     let tags = (await this.getTagList()).filter(x => semverRe.test(x));
     /* Remove protentional duplications. It is possible for a repo to
      * have both v1.0.0 and 1.1.0 tags. If that happens, simply keep
-     * the latest one.
+     * the first one meet.
      */
     let uniqueVersionSet = new Set();
     let cleanTagList = [];
@@ -119,7 +119,7 @@ class ProjectBuilder {
   // Update release record for given package record and tag.
   async updateReleaseRecord(pkg, tag) {
     let version = this.getVersionFromTag(tag);
-    let nameWithVersion = pkg.name + '/' + version;
+    let nameWithVersion = pkg.name + '@' + version;
     let release = await Release.fetchOne({ name_with_version: nameWithVersion });
     if (!release) {
       let record = {
@@ -150,7 +150,6 @@ class ProjectBuilder {
         // Generate release job.
         if (!job)
           job = await genReleaseJob(release);
-        break;
       }
     }
   }
@@ -273,7 +272,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
   //#endregion helpers
 }
 
-module.exports = buildProject;
+module.exports = { buildProject };
 
 if (require.main === module) {
   let program = require('../../app/utils/commander');

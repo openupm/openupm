@@ -22,9 +22,9 @@ const ReleaseState = {
   pending: 'pending',
   // Release in processing.
   building: 'building',
-  // Release built successfully.
+  // Release build succeeded.
   succeeded: 'succeeded',
-  // Release built unsuccessfully.
+  // Release build failed.
   failed: 'failed',
 };
 

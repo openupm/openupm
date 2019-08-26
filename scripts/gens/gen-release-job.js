@@ -40,7 +40,7 @@ if (require.main === module) {
   program
     .arguments('<name> <version>')
     .action(function (name, version) {
-      nameWithVersion = name + '/' + version;
+      nameWithVersion = name + '@' + version;
     })
     .requiredArgument(2)
     .parse(process.argv)

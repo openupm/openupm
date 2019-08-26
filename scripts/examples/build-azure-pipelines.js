@@ -13,14 +13,15 @@ const buildAzurePipelines = async function () {
   var buildApi = await conn.getBuildApi();
   let build = await buildApi.queueBuild({
     definition: {
-      id: config.azureDevops.definitionId
+      id: config.azureDevops.definitionId,
     },
     parameters:
       JSON.stringify(
         {
           repo_url: 'https://github.com/rotorz/unity3d-localized-strings.git',
-          repo_branch: 'v1.0.0',
-          build_tag: 'unity3d-localized-strings/1.0.0',
+          repo_branch: 'v1.0.3',
+          package_name: '@rotorz/unity3d-localized-strings',
+          package_ver: '1.0.3',
           // 'system.debug': true,
           // 'agent.diagnostic': true,
         }

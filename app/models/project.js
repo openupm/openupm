@@ -1,23 +1,19 @@
 // Project model.
 const parseGitHubUrl = require('parse-github-url');
+const urljoin = require('url-join');
 const { ModelBase, registerModel } = require('./base');
 const { ProjectSource } = require('./common');
 
 class Project extends ModelBase {
   // Git url.
   get gitUrl() {
-    if (this.source == ProjectSource.gitHub) {
-      // TODO:
-    }
+    let url = this.gitHubUrl;
+    return urljoin(url.protocol, url.host, url.repo + '.git');
   }
 
   // GitHub url parsed by parse-github-url lib.
   get gitHubUrl() {
-    if (!this.url)
-      return null;
-    if (!this._gitHubUrl)
-      this._gitHubUrl = parseGitHubUrl(this.url);
-    return this._gitHubUrl;
+    return parseGitHubUrl(this.url);
   }
 }
 
