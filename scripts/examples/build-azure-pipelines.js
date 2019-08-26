@@ -18,8 +18,11 @@ const buildAzurePipelines = async function () {
     parameters:
       JSON.stringify(
         {
-          repo_url: 'https://github.com/PixelWizards/com.newtonsoft.json.git',
-          repo_branch: 'master'
+          repo_url: 'https://github.com/rotorz/unity3d-localized-strings.git',
+          repo_branch: 'v1.0.0',
+          build_tag: 'unity3d-localized-strings/1.0.0',
+          // 'system.debug': true,
+          // 'agent.diagnostic': true,
         }
       )
   }, config.azureDevops.project);
