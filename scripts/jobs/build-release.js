@@ -86,6 +86,7 @@ class ReleaseBuilder {
             repo_branch: this.release.tag,
             package_name: pkg.name,
             package_ver: this.release.version,
+            build_name: getBuildName(this.release.id, pkg.name, this.release.version),
           }
         )
     }, config.azureDevops.project);
@@ -119,7 +120,18 @@ class ReleaseBuilder {
   }
 }
 
-module.exports = { buildRelease };
+const getBuildName = function (releaseId, packageName, packageVer) {
+  let buildName = packageName + '#' + packageVer;
+  // The maximum length of a build number is 255 characters, and leaves 55 for other runtime suffix.
+  // Characters which are not allowed include '"', '/', ':', '<', '>', '\', '|', '?', '@', and '*'.
+  if (buildName.startsWith('@'))
+    buildName = buildName.substr(1);
+  buildName = 'rel#' + releaseId + '-' + buildName;
+  buildName = buildName.replace(/[\/:<>\\|\?@\*]/g, '_');
+  return buildName.substr(0, 255 - 55);
+}
+
+module.exports = { buildRelease, getBuildName };
 
 if (require.main === module) {
   let program = require('../../app/utils/commander');

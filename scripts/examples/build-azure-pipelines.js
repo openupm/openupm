@@ -1,6 +1,7 @@
 // Build azure pipelines
-const azureDevops = require("azure-devops-node-api");
-const { BuildStatus, BuildResult } = require("azure-devops-node-api/interfaces/BuildInterfaces");
+const azureDevops = require('azure-devops-node-api');
+const { BuildStatus, BuildResult } = require('azure-devops-node-api/interfaces/BuildInterfaces');
+const { getBuildName } = require('../jobs/build-release');
 const config = require('config');
 const sleep = require('util').promisify(setTimeout);
 const { $enum } = require('ts-enum-util');
@@ -22,6 +23,7 @@ const buildAzurePipelines = async function () {
           repo_branch: 'v1.0.3',
           package_name: '@rotorz/unity3d-localized-strings',
           package_ver: '1.0.3',
+          build_name: getBuildName('x', '@rotorz/unity3d-localized-strings', '1.0.3'),
           // 'system.debug': true,
           // 'agent.diagnostic': true,
         }
