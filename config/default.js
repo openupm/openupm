@@ -59,12 +59,12 @@ module.exports = {
     checkStalledJobsInterval: 5000,
     project: {
       key: 'proj',
-      retries: 3,
+      retries: 2,
       backoff: ['fixed', 60 * 1000],
     },
     release: {
       key: 'rel',
-      retries: 3,
+      retries: 2,
       backoff: ['fixed', 60 * 1000],
     }
   },
