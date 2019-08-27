@@ -28,7 +28,7 @@ const buildAzurePipelines = async function () {
       )
   }, config.azureDevops.project);
   for (let i = 0; i < config.azureDevops.retries; i++) {
-    await sleep(config.azureDevops.retryDurationStep * (i + 1));
+    await sleep(config.azureDevops.retryIntervalStep * (i + 1));
     build = await buildApi.getBuild(config.azureDevops.project, build.id);
     let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
     let resultName = typeof build.result === 'undefined'

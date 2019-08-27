@@ -82,8 +82,14 @@ module.exports = {
     token: '',
     project: 'openupm',
     definitionId: 1,
-    retries: 5,
-    retryDurationStep: 20 * 1000,
+    check: {
+      // The estimated wait time for azure to process a build.
+      duration: 30 * 1000,
+      // Repeat check count.
+      retries: 5,
+      // Repeat interval step - [interval, interval * 2, ..., interval * retries].
+      retryIntervalStep: 15 * 1000,
+    }
   }
 
 };

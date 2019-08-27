@@ -47,6 +47,7 @@ class ReleaseBuilder {
     if (!this.release.build_id) {
       build = await this.CreateBuildPipelines();
       await this.release.update({ build_id: build.id });
+      await sleep(config.azureDevops.check.duration);
     }
     // Wait build pipelines to finish.
     build = await this.checkBuildPipelines();
@@ -95,8 +96,7 @@ class ReleaseBuilder {
   or cancelling status. Return null if run out of retries. */
   async checkBuildPipelines() {
     logger.info(`[id=${this.release.id}] [build_id=${this.release.build_id}] check build pipelines`);
-    for (let i = 0; i < config.azureDevops.retries; i++) {
-      await sleep(config.azureDevops.retryDurationStep * (i + 1));
+    for (let i = 0; i < config.azureDevops.check.retries; i++) {
       let build = await this.buildApi.getBuild(config.azureDevops.project, this.release.build_id);
       let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
       let resultName = typeof build.result === 'undefined'
@@ -105,6 +105,7 @@ class ReleaseBuilder {
       logger.info(`[id=${this.release.id}] [build_id=${this.release.build_id}] status ${statusName}, result ${resultName}, retries ${i}`);
       if (build.status == BuildStatus.Completed || build.status == BuildStatus.Cancelling)
         return build;
+      await sleep(config.azureDevops.check.retryIntervalStep * (i + 1));
     }
     return null;
   }
