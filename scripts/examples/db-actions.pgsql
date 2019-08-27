@@ -5,6 +5,13 @@ select project_id, release.* from release
   where project.id = 2
   order by version;
 
+-- Find failed release(s).
+select project_id, release.* from release
+  join package on release.package_id = package.id
+  join project on package.project_id = project.id
+  where release.state = 'failed'
+  order by version;
+
 -- Update failed release(s) to pending for project x.
 -- So it will rebuild with next project build.
 update release set state = 'pending' where id in (
