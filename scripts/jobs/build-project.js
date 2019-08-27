@@ -12,7 +12,7 @@ const { Release } = require('../../app/models/release');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe } = require('../../app/utils/semver');
-const emitterQueue = require('../queues').emitter;
+const emitterQueue =  require('../../app/queues').emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
 

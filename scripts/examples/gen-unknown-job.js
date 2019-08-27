@@ -1,6 +1,6 @@
 // Generate unknown job type for testing.
 
-const emitterQueue =  require('../queues').emitter;
+const emitterQueue =  require('../../app/queues').emitter;
 const logger = require('../../app/utils/log')(module);
 
 var buildUnknown = async function () {

@@ -1,4 +1,4 @@
-// Queue
+// Queues
 
 const config = require('config');
 const Queue = require('bee-queue');

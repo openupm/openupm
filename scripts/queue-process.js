@@ -2,7 +2,7 @@
 
 const config = require('config');
 
-const workerQueue = require('./queues').worker;
+const workerQueue =  require('../app/queues').worker;
 const { buildProject } = require('./jobs/build-project');
 const { buildRelease } = require('./jobs/build-release');
 const logger = require('../app/utils/log')(module);
