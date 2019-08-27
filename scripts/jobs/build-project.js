@@ -3,7 +3,8 @@
 'use strict';
 const path = require('path');
 const config = require('config');
-const knex = require('../../app/db/postgres');
+const semverCompare = require('semver-compare');
+
 const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
 const { Project } = require('../../app/models/project');
 const { Package } = require('../../app/models/package');
@@ -96,11 +97,11 @@ class ProjectBuilder {
   // Update release records for given package record.
   async updateReleaseRecords(pkg) {
     logger.info(`[id=${this.project.id}] update release records.`);
+    // Filter tags match with semver.
     let tags = (await this.getTagList()).filter(x => semverRe.test(x));
     /* Remove protentional duplications. It is possible for a repo to
-     * have both v1.0.0 and 1.1.0 tags. If that happens, simply keep
-     * the first one meet.
-     */
+    have both v1.0.0 and 1.1.0 tags. If that happens, simply keep
+    the first one meet. */
     let uniqueVersionSet = new Set();
     let cleanTagList = [];
     for (let tag of tags) {
@@ -110,6 +111,9 @@ class ProjectBuilder {
         cleanTagList.push(tag);
       }
     }
+    // Reverse list to older tag first.
+    cleanTagList.reverse()
+    // Update release record.
     let releases = [];
     for (let tag of cleanTagList)
       releases.push(await this.updateReleaseRecord(pkg, tag));
