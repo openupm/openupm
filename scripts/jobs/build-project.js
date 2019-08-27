@@ -145,7 +145,7 @@ class ProjectBuilder {
       if (release.state == ReleaseState.pending) {
         // Get the job.
         let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
-        // If job exists and completely failed (no more retries), remove the job.
+        // Remove completely failed jobs (no more retries) if exist.
         if (job && job.status == 'failed' && job.options.retries <= 0) {
           await emitterQueue.removeJob(job.id);
           logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
