@@ -84,12 +84,13 @@ module.exports = {
     definitionId: 1,
     check: {
       // The estimated wait time for azure to process a build.
-      duration: 30 * 1000,
+      duration: 35 * 1000,
       // Repeat check count.
       retries: 5,
       // Repeat interval step - [interval, interval * 2, ..., interval * retries].
       retryIntervalStep: 15 * 1000,
-    }
+    },
+    buildUrlBase: 'https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/',
   }
 
 };

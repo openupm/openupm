@@ -45,6 +45,7 @@
     "redis": "^2.8.0",
     "semver-compare": "^1.0.0",
     "spdx-license-list": "^6.1.0",
+    "superagent": "^5.1.0",
     "ts-enum-util": "^4.0.1",
     "url-join": "^4.0.1",
     "winston": "^3.2.1"

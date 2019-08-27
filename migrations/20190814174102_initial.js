@@ -62,6 +62,8 @@ exports.up = function (knex) {
       table.string('tag').notNullable().defaultTo('');
       table.string('state').notNullable().defaultTo('');
       table.string('build_id').notNullable().defaultTo('');
+      table.text('publish_log').notNullable().defaultTo('');
+      table.text('reason').notNullable().defaultTo('');
       addTimestamps(knex, table);
       table.unique('name_with_version');
     });

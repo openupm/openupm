@@ -1,6 +1,7 @@
 // Build release job.
 
 'use strict';
+const superagent = require('superagent');
 const config = require('config');
 const { $enum } = require('ts-enum-util');
 const sleep = require('util').promisify(setTimeout);
@@ -46,7 +47,7 @@ class ReleaseBuilder {
     let build = null;
     if (!this.release.build_id) {
       build = await this.CreateBuildPipelines();
-      await this.release.update({ build_id: build.id });
+      await this.release.update({ build_id: build.id + '' });
       await sleep(config.azureDevops.check.duration);
     }
     // Wait build pipelines to finish.
@@ -62,12 +63,30 @@ class ReleaseBuilder {
     } else {
       // Pipelines failed.
       await this.release.update({ state: ReleaseState.failed });
+      // Update publish_log.
+      if (build.status == BuildStatus.Completed && build.result == BuildResult.Failed) {
+        // Fetch build message.
+        let publishLog = await this.getPublishLog();
+        // Find reason.
+        let reason = '';
+        if (publishLog.includes('EPUBLISHCONFLICT'))
+          reason = 'EPUBLISHCONFLICT';
+        else if (publishLog.includes('ENOENT') && publishLog.includes('error path package.json'))
+          reason = 'NOPACKAGE';
+        await this.release.update({ publish_log: publishLog, reason });
+      }
       let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
       let resultName = typeof build.result === 'undefined'
         ? 'undefined'
         : BuildResultEnum.getKeyOrThrow(build.result);
       throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
     }
+  }
+
+  // Get publish log
+  async getPublishLog() {
+    let resp = await superagent.get(this.release.buildPublishResultUrl);
+    return resp.text;
   }
 
   // Create new build pipelines and return the build object.
