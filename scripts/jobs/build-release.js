@@ -82,7 +82,7 @@ class ReleaseBuilder {
         : BuildResultEnum.getKeyOrThrow(build.result);
       if (reason) {
         // Known failure, just log it.
-        logger.error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
+        logger.error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}, reason ${reason}`);
       }
       else {
         // Unknown failure, raise error to retry.
