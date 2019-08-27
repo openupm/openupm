@@ -54,7 +54,8 @@ class ReleaseBuilder {
     build = await this.checkBuildPipelines();
     if (build === null) {
       // Pipelines timeout.
-      await this.release.update({ state: ReleaseState.failed });
+      await this.release.update({ state: ReleaseState.failed, reason: 'timeout' });
+      // Raise error to retry.
       throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines timeout.`);
     } else if (build.status == BuildStatus.Completed && build.result == BuildResult.Succeeded) {
       // Pipelines succeeded.
@@ -63,23 +64,30 @@ class ReleaseBuilder {
     } else {
       // Pipelines failed.
       await this.release.update({ state: ReleaseState.failed });
+      let reason = '';
       // Update publish_log.
       if (build.status == BuildStatus.Completed && build.result == BuildResult.Failed) {
         // Fetch build message.
         let publishLog = await this.getPublishLog();
         // Find reason.
-        let reason = '';
         if (publishLog.includes('EPUBLISHCONFLICT'))
-          reason = 'EPUBLISHCONFLICT';
+          reason = 'epublish-conflict';
         else if (publishLog.includes('ENOENT') && publishLog.includes('error path package.json'))
-          reason = 'NOPACKAGE';
+          reason = 'no-package';
         await this.release.update({ publish_log: publishLog, reason });
       }
       let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
       let resultName = typeof build.result === 'undefined'
         ? 'undefined'
         : BuildResultEnum.getKeyOrThrow(build.result);
-      throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
+      if (reason) {
+        // Known failure, just log it.
+        logger.error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
+      }
+      else {
+        // Unknown failure, raise error to retry.
+        throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
+      }
     }
   }
 
