@@ -84,7 +84,7 @@ module.exports = {
     definitionId: 1,
     check: {
       // The estimated wait time for azure to process a build.
-      duration: 40 * 1000,
+      duration: 45 * 1000,
       // Repeat check count.
       retries: 5,
       // Repeat interval step - [interval, interval * 2, ..., interval * retries].
