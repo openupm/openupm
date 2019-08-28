@@ -28,8 +28,22 @@ const ReleaseState = {
   failed: 'failed',
 };
 
+const ReleaseReason = {
+  // Server 500 error, bad gateway.
+  serverError: 'server-error',
+  // Server 502 error, bad gate way.
+  badGateway: 'bad-gateway',
+  // Timeout.
+  timeout: 'timeout',
+  // Version conflict.
+  publishConflict: 'publish-conflict',
+  // package.json not found.
+  nonPackage: 'non-package'
+};
+
 module.exports = {
   ProjectState,
   ProjectSource,
   ReleaseState,
+  ReleaseReason,
 };

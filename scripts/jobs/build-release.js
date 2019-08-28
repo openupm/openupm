@@ -11,7 +11,7 @@ const BuildStatusEnum = $enum(BuildStatus);
 const BuildResultEnum = $enum(BuildResult);
 
 const { knex } = require('../../app/db/postgres');
-const { ReleaseState } = require('../../app/models/common');
+const { ReleaseState, ReleaseReason } = require('../../app/models/common');
 const { Project } = require('../../app/models/project');
 const { Package } = require('../../app/models/package');
 const { Release } = require('../../app/models/release');
@@ -54,7 +54,7 @@ class ReleaseBuilder {
     build = await this.checkBuildPipelines();
     if (build === null) {
       // Pipelines timeout.
-      await this.release.update({ state: ReleaseState.failed, reason: 'timeout' });
+      await this.release.update({ state: ReleaseState.failed, reason: ReleaseReason.timeout });
       // Raise error to retry.
       throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines timeout.`);
     } else if (build.status == BuildStatus.Completed && build.result == BuildResult.Succeeded) {
@@ -70,10 +70,8 @@ class ReleaseBuilder {
         // Fetch build message.
         let publishLog = await this.getPublishLog();
         // Find reason.
-        if (publishLog.includes('EPUBLISHCONFLICT'))
-          reason = 'epublish-conflict';
-        else if (publishLog.includes('ENOENT') && publishLog.includes('error path package.json'))
-          reason = 'no-package';
+        reason = this.getReasonFromPublishLog(publishLog);
+        // Update to database.
         await this.release.update({ publish_log: publishLog, reason });
       }
       let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
@@ -95,6 +93,19 @@ class ReleaseBuilder {
   async getPublishLog() {
     let resp = await superagent.get(this.release.buildPublishResultUrl);
     return resp.text;
+  }
+
+  // Return failure reason from publish log.
+  getReasonFromPublishLog(text) {
+    if (text.includes('EPUBLISHCONFLICT'))
+      return ReleaseReason.publishConflict;
+    else if (text.includes('ENOENT') && text.includes('error path package.json'))
+      return ReleaseReason.nonPackage;
+    else if (text.includes('error code E502'))
+      return ReleaseReason.badGateway;
+    else if (text.includes('error code E500'))
+      return ReleaseReason.serverError;
+    return '';
   }
 
   // Create new build pipelines and return the build object.
