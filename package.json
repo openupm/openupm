@@ -15,12 +15,13 @@
     "server": "node server.js",
     "server:dev": "./node_modules/.bin/nodemon --watch app --watch server.js server.js",
     "knex": "./node_modules/.bin/knex",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "mocha": "^6.2.0",
     "nodemon": "^1.19.1",
     "vuepress": "^1.0.2"
   },

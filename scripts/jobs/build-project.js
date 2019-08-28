@@ -11,7 +11,7 @@ const { Package } = require('../../app/models/package');
 const { Release } = require('../../app/models/release');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
-const { semverRe } = require('../../app/utils/semver');
+const { semverRe, getVersionFromTag } = require('../../app/utils/semver');
 const emitterQueue =  require('../../app/queues').emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
@@ -105,7 +105,7 @@ class ProjectBuilder {
     let uniqueVersionSet = new Set();
     let cleanTagList = [];
     for (let tag of tags) {
-      let version = this.getVersionFromTag(tag);
+      let version = getVersionFromTag(tag);
       if (!uniqueVersionSet.has(version)) {
         uniqueVersionSet.add(version);
         cleanTagList.push(tag);
@@ -122,7 +122,7 @@ class ProjectBuilder {
 
   // Update release record for given package record and tag.
   async updateReleaseRecord(pkg, tag) {
-    let version = this.getVersionFromTag(tag);
+    let version = getVersionFromTag(tag);
     let nameWithVersion = pkg.name + '@' + version;
     let release = await Release.fetchOne({ name_with_version: nameWithVersion });
     if (!release) {
@@ -156,11 +156,6 @@ class ProjectBuilder {
           job = await genReleaseJob(release);
       }
     }
-  }
-
-  // Return version string from given tag by removing leading letter 'v'
-  getVersionFromTag(tag) {
-    return tag.startsWith('v') ? tag.substr(1) : tag;
   }
 
   //#region interface
