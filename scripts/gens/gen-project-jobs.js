@@ -12,14 +12,22 @@ const genProjectJobs = async function (ids) {
   let projects = await Project.fetchAll(lookup);
   for (let project of projects) {
     let jobId = config.jobs.project.key + ':' + project.id;
-    let payload = {};
-    let job = await emitterQueue.createJob(payload)
+    let job = await emitterQueue.getJob(jobId);
+    if (emitterQueue.isJobFailedCompletely(job)) {
+      await emitterQueue.removeJob(job.id);
+      logger.info(`[id=${project.id}] removed completely failed job ${jobId}.`);
+      job = null;
+    } else if (job != null) {
+      logger.info(`[id=${project.id}] job existed. status=${job.status}, retries-left=${job.options.retries}.`);
+      continue;
+    }
+    job = await emitterQueue.createJob({})
       .setId(jobId)
       .retries(config.jobs.project.retries)
       .backoff(...config.jobs.project.backoff)
       .save();
     if (job.id)
-      logger.info(`job added ${job.id}`);
+      logger.info(`[id=${project.id}] job added ${jobId}.`);
   }
 };
 
