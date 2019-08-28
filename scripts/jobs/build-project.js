@@ -12,7 +12,7 @@ const { Release } = require('../../app/models/release');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe, getVersionFromTag } = require('../../app/utils/semver');
-const emitterQueue =  require('../../app/queues').emitter;
+const emitterQueue = require('../../app/queues').emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
 
@@ -50,6 +50,9 @@ class ProjectBuilder {
     // Update info.
     logger.info(`[id=${this.project.id}] fetch info.`);
     await this.updateInfo(record);
+    // TODO: potential optimization to avoid fetching more information each time.
+    let pushedAtUnchanged = Date.parse(this.project.pushed_at) == Date.parse(record.pushed_at);
+    logger.info(`[id=${this.project.id}] pushed_at unchanged.`);
     // Update license.
     logger.info(`[id=${this.project.id}] fetch license.`);
     await this.updateLicense(record);
