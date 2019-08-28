@@ -8,7 +8,12 @@ const queues = {};
 
 const queueWrap = function (queueName, configName) {
   return function () {
-    return new Queue(queueName, config.queues[configName]);
+    let queue = new Queue(queueName, config.queues[configName]);
+    // Return true if job failed with no more retries.
+    queue.isJobFailedCompletely = function (job) {
+      return job && job.status == 'failed' && job.options.retries <= 0;
+    };
+    return queue;
   };
 }
 
