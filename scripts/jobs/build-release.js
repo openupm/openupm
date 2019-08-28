@@ -78,12 +78,12 @@ class ReleaseBuilder {
       let resultName = typeof build.result === 'undefined'
         ? 'undefined'
         : BuildResultEnum.getKeyOrThrow(build.result);
-      if (reason) {
-        // Known failure, just log it.
+      if (reason != ReleaseReason.badGateway && reason != ReleaseReason.serverError) {
+        // Acceptable failure reason, just log it.
         logger.error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}, reason ${reason}`);
       }
       else {
-        // Unknown failure, raise error to retry.
+        // Other failure reason, raise error to retry.
         throw new Error(`[id=${this.release.id}] [build_id=${this.release.build_id}] build pipelines failed, status ${statusName}, result ${resultName}`);
       }
     }
