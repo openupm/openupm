@@ -38,8 +38,12 @@ class ReleaseBuilder {
       logger.info(`[id=${this.release.id}] skip for state ${this.release.state}.`);
       return;
     }
-    // Change release.state from pending/failed to building.
-    if (this.release.state == ReleaseState.pending || this.release.state == ReleaseState.failed)
+    // Handle building state.
+    if (this.release.state == ReleaseState.failed && this.release.reason == ReleaseReason.timeout)
+      // Previous build timeout, change state to building, without touching build_id.
+      await this.release.update({ state: ReleaseState.building });
+    else if (this.release.state == ReleaseState.pending || this.release.state == ReleaseState.failed)
+      // Previous build not exist or failed, change state to building and clean build_id.
       await this.release.update({ state: ReleaseState.building, build_id: '' });
     // Prepare build api.
     this.buildApi = await this.getBuildApi();
