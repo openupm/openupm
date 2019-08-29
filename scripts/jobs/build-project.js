@@ -12,7 +12,7 @@ const { Release } = require('../../app/models/release');
 const gitHubGraphQL = require('../../app/utils/github-graphql');
 const licenseUtil = require('../../app/utils/license');
 const { semverRe, getVersionFromTag } = require('../../app/utils/semver');
-const emitterQueue = require('../../app/queues').emitter;
+const queue = require('../../app/queues').background.emitter;
 const { genReleaseJob } = require('../gens/gen-release-job');
 const logger = require('../../app/utils/log')(module);
 
@@ -147,10 +147,10 @@ class ProjectBuilder {
     for (let release of releases) {
       if (release.state == ReleaseState.pending) {
         // Get the job.
-        let job = await emitterQueue.getJob(config.jobs.release.key + ':' + release.id);
+        let job = await queue.getJob(config.jobs.release.key + ':' + release.id);
         // Remove job if failed completely.
-        if (emitterQueue.isJobFailedCompletely(job)) {
-          await emitterQueue.removeJob(job.id);
+        if (queue.isJobFailedCompletely(job)) {
+          await queue.removeJob(job.id);
           logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
           job = null;
         }

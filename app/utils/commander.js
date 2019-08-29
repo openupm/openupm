@@ -10,15 +10,19 @@ program.requiredArgument = function (n) {
   return program;
 };
 
+// Return true if given value is a promise object.
+const isPromise = function (value) {
+  return Boolean(value && typeof value.then === 'function');
+}
+
 // Run method(...args) gracefully.
 program.run = function (method, ...args) {
-  method(...args)
-    .catch((err) => {
+  let ret = method(...args);
+  if (isPromise(ret))
+    ret.catch((err) => {
       console.log(err);
       process.exit(1);
-    })
-    .finally(() => process.exit(0));
-  return program;
+    }).finally(() => process.exit(0));
 };
 
 module.exports = program;

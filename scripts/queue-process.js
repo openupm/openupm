@@ -2,7 +2,7 @@
 
 const config = require('config');
 
-const workerQueue =  require('../app/queues').worker;
+const queues = require('../app/queues');
 const { buildProject } = require('./jobs/build-project');
 const { buildRelease } = require('./jobs/build-release');
 const logger = require('../app/utils/log')(module);
@@ -15,15 +15,15 @@ const logger = require('../app/utils/log')(module);
 // limiter.schedule(() => {
 // });
 
-var dispatch = function () {
-  workerQueue.on('ready', () => {
+var dispatch = function (queue) {
+  queue.on('ready', () => {
     logger.info('queue ready.');
   });
-  workerQueue.on('error', (err) => {
+  queue.on('error', (err) => {
     logger.error('queue error: ', err);
   });
-  workerQueue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
-  workerQueue.process(config.jobs.concurrent, async function (job) {
+  queue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
+  queue.process(config.jobs.concurrent, async function (job) {
     logger.info(`[job=${job.id}] start`);
     let sections = job.id.split(':');
     try {
@@ -40,9 +40,22 @@ var dispatch = function () {
       logger.error(`[job=${job.id}] failed with error: `, err);
       throw err;
     }
-    logger.info(`[job=${job.id}] succeeded`);
+    logger.info(`[job=${job.id}] completed`);
   });
 };
 
-if (require.main === module)
-  dispatch();
+if (require.main === module) {
+  let program = require('../app/utils/commander');
+  let queueWorker = null;
+  program
+    .arguments('<queue>')
+    .action(function (queueName) {
+      let queueHolder = queues[queueName];
+      if (typeof queueHolder == 'undefined')
+        throw new Error(`can not find queue name ${queueName}.`);
+      queueWorker = queueHolder.worker;
+    })
+    .requiredArgument(1)
+    .parse(process.argv)
+    .run(dispatch, queueWorker);
+}

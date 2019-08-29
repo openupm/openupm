@@ -2,7 +2,7 @@
 
 const config = require('config');
 const { Project } = require('../../app/models/project');
-const emitterQueue =  require('../../app/queues').emitter;
+const queue =  require('../../app/queues').background.emitter;
 const logger = require('../../app/utils/log')(module);
 
 const genProjectJobs = async function (ids) {
@@ -12,16 +12,16 @@ const genProjectJobs = async function (ids) {
   let projects = await Project.fetchAll(lookup);
   for (let project of projects) {
     let jobId = config.jobs.project.key + ':' + project.id;
-    let job = await emitterQueue.getJob(jobId);
-    if (emitterQueue.isJobFailedCompletely(job)) {
-      await emitterQueue.removeJob(job.id);
+    let job = await queue.getJob(jobId);
+    if (queue.isJobFailedCompletely(job)) {
+      await queue.removeJob(job.id);
       logger.info(`[id=${project.id}] removed completely failed job ${jobId}.`);
       job = null;
     } else if (job != null) {
       logger.info(`[id=${project.id}] job existed. status=${job.status}, retries-left=${job.options.retries}.`);
       continue;
     }
-    job = await emitterQueue.createJob({})
+    job = await queue.createJob({})
       .setId(jobId)
       .retries(config.jobs.project.retries)
       .backoff(...config.jobs.project.backoff)

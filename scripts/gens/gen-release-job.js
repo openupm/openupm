@@ -3,7 +3,7 @@
 const config = require('config');
 const knex = require('../../app/db/postgres');
 const { Release } = require('../../app/models/release');
-const emitterQueue =  require('../../app/queues').emitter;
+const queue =  require('../../app/queues').background.emitter;
 const logger = require('../../app/utils/log')(module);
 
 // Generate release job for given nameWithVersion.
@@ -18,7 +18,7 @@ const genReleaseJobForNameWithVersion = async function (nameWithVersion) {
 const genReleaseJob = async function (release) {
   let jobId = config.jobs.release.key + ':' + release.id;
   let payload = {};
-  let job = await emitterQueue.createJob(payload)
+  let job = await queue.createJob(payload)
     .setId(jobId)
     .retries(config.jobs.release.retries)
     .backoff(...config.jobs.release.backoff)
