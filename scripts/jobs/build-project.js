@@ -26,8 +26,8 @@ let buildProject = async function (id) {
   if (builder)
     await builder.build();
   else {
-    // No builder found, set project to backlog state.
-    await project.update({ state: ProjectState.backlog });
+    // No builder found, set project to unapproved state.
+    await project.update({ state: ProjectState.unapproved });
     logger.info(`[id=${this.project.id}] change state to ${project.state}.`);
   }
 }
@@ -63,9 +63,9 @@ class ProjectBuilder {
     record.has_package = Boolean(packageManifest);
     // Handle state.
     if (!record.is_license_ok)
-      record.state = ProjectState.rejected;
+      record.state = ProjectState.unapproved;
     else if (!record.has_package)
-      record.state = ProjectState.rejected;
+      record.state = ProjectState.unapproved;
     else
       record.state = ProjectState.active;
     // Save to database

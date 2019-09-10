@@ -5,10 +5,8 @@ const ProjectState = {
   pending: 'pending',
   // Project in use.
   active: 'active',
-  // Project not supported yet.
-  backlog: 'backlog',
-  // Project not qualified (not a package or missing license).
-  rejected: 'rejected',
+  // Project unapproved for reasons (not supported source, missing package.json, fuzzy license).
+  unapproved: 'unapproved',
 };
 
 const ProjectSource = {
