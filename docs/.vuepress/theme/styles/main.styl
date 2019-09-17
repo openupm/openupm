@@ -1,0 +1,57 @@
+h1, .h1
+  font-size: 1.8rem;
+h2, .h2
+  font-size: 1.3rem;
+h3, .h3
+  font-size: 1.1rem;
+h4, .h4
+  font-size: 1.0rem;
+h5, .h5
+  font-size: 1rem;
+h6, .h6
+  font-size: .8rem;
+
+main
+  padding $navbarHeight 0 0
+  max-width $pageWidth
+  margin 0px auto
+  &.page
+    padding-top 0
+
+.navbar
+  .logo
+    height 2.1rem
+    width 2.1rem
+    min-width auto
+    margin-right 0.3rem
+  .site-name
+    font-size 1.1rem
+    color $accentColor
+  .nav-links
+    .nav-item
+      line-height: 1.8rem;
+    a
+      font-size 0.7rem
+      font-weight 400
+      &,
+      &:focus,
+      &:hover,
+      &:visited,
+      &:active,
+      &.active,
+      &.router-link-active
+        color $accentColor !important
+        text-decoration none
+
+.search-box input
+  height 1.8rem
+  line-height 1.8rem
+  font-size 0.7rem
+  background-size 0.8rem
+
+.theme-default-content
+  p
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;

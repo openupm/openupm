@@ -1,16 +1,13 @@
 ---
 home: true
-heroText: Open Source UPM Registry
-heroImage: /images/openupm-icon-256.png
-tagline: blar
-actionText: GET STARTED
+heroText: Open Source Unity Package Registry
+actionText: Get Started Free
 actionLink: /guide/
-githubText: GITHUB
 features:
-- title: Curated Package List
-  details: Selective open source projects by community
+- title: Growing with Community
+  details: Hosting selective open source upm packages.
 - title: Continuous Publishing
-  details: Monitor new release and build with automatic pipeline
-- title: Package Manager Extension
-  details: Dedicated editor UI for third party registry
+  details: Automated package publishing based on GitHub Releases. No maintainer intervention.
+- title: Editor Integration
+  details: Improved user experience for third-party registry.
 ---

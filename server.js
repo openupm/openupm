@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const config = require('config');
-const projects = require('./app/projects');
+const projects = require('./app/views/projects');
 const logger = require('./app/utils/log')(module);
 const app = express();
 app.use(bodyParser.json());
