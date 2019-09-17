@@ -17,7 +17,7 @@
     "knex": "./node_modules/.bin/knex",
     "test": "./node_modules/.bin/mocha"
   },
-  "license": "MIT",
+  "license": "BSD 3-Clause",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0",
