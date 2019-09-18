@@ -10,8 +10,8 @@
   },
   "repository": "https://github.com/openupm/openupm",
   "scripts": {
-    "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "./node_modules/.bin/vuepress dev docs --temp .temp",
+    "docs:build": "./node_modules/.bin/vuepress build docs",
     "server": "node server.js",
     "server:dev": "./node_modules/.bin/nodemon --watch app --watch server.js server.js",
     "knex": "./node_modules/.bin/knex",
