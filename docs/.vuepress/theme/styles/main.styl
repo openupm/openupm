@@ -27,21 +27,22 @@ main
   .site-name
     font-size 1.1rem
     color $accentColor
+  a.router-link-active, .nav-item a
+    &,
+    &:focus,
+    &:hover,
+    &:visited,
+    &:active,
+    &.active,
+    &.router-link-active
+      color $accentColor
+      text-decoration none
   .nav-links
     .nav-item
       line-height: 1.8rem;
     a
       font-size 0.7rem
       font-weight 400
-      &,
-      &:focus,
-      &:hover,
-      &:visited,
-      &:active,
-      &.active,
-      &.router-link-active
-        color $accentColor !important
-        text-decoration none
 
 .search-box input
   height 1.8rem
