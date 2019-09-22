@@ -55,11 +55,11 @@
 </template>
 
 <script>
-import Navbar from '@theme/components/Navbar.vue'
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
 import Page from '@parent-theme/components/Page.vue'
 import Sidebar from '@parent-theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '@parent-theme/util'
-import Footer from '@theme/components/Footer.vue'
 
 export default {
   components: { Page, Sidebar, Navbar, Footer },
