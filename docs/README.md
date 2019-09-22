@@ -1,5 +1,5 @@
 ---
-home: true
+layout: Home
 heroText: Open Source Unity Package Registry
 actionText: Get Started Free
 actionLink: /guide/

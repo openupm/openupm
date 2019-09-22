@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <ParentLayout>
     <main class="home">
       <header class="hero">
         <div class="hero-body inner">
           <div>
-            <h1 id="main-title">{{ data.heroText }}</h1>
-            <p class="action" v-if="data.actionText && data.actionLink">
+            <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
+            <p class="action">
               <NavLink
                 class="btn btn-lg btn-primary"
                 :item="actionLink" />
@@ -18,10 +18,10 @@
       </header>
 
       <section class="features container"
-        v-if="data.features && data.features.length">
+        v-if="$page.frontmatter.features && $page.frontmatter.features.length">
         <div class="columns">
           <div class="feature column col-4 col-md-12"
-            v-for="(feature, index) in data.features"
+            v-for="(feature, index) in $page.frontmatter.features"
             :key="index">
             <h3>{{ feature.title }}</h3>
             <p>{{ feature.details }}</p>
@@ -30,40 +30,29 @@
       </section>
       <Content class="theme-default-content custom"/>
     </main>
-    <Footer></Footer>
-  </div>
+  </ParentLayout>
 </template>
 
 <script>
+import ParentLayout from '@theme/layouts/Layout.vue'
 import NavLink from '@parent-theme/components/NavLink.vue'
-import Footer from './Footer.vue'
 
 export default {
-  components: { NavLink, Footer },
+  components: { ParentLayout, NavLink },
 
   computed: {
-    data () {
-      return this.$page.frontmatter
-    },
-
     actionLink () {
       return {
-        link: this.data.actionLink,
-        text: this.data.actionText
+        link: this.$page.frontmatter.actionLink,
+        text: this.$page.frontmatter.actionText
       }
     },
-
     githubLink () {
       return {
-        link: this.repoLink,
+        link: this.$site.themeConfig.repo,
         text: 'GitHub'
       }
     },
-
-    repoLink () {
-      return this.$site.themeConfig.repo;
-    },
-
   }
 }
 </script>
@@ -94,6 +83,5 @@ export default {
     .action
       .btn
         width auto
-
 
 </style>
