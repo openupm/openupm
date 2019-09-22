@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import ParentLayout from './Layout.vue'
+import ParentLayout from '@theme/layouts/Layout.vue'
 import NavLink from '@parent-theme/components/NavLink.vue'
 
 export default {
