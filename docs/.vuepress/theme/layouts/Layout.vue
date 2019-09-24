@@ -1,3 +1,7 @@
+// Override default theme layouts/Layouts
+// - Added unnamed slot for extending.
+// - Added footer
+
 <template>
   <div
     class="theme-container"
@@ -56,10 +60,10 @@
 
 <script>
 import Navbar from '@theme/components/Navbar.vue'
+import Footer from '@theme/components/Footer.vue'
 import Page from '@parent-theme/components/Page.vue'
 import Sidebar from '@parent-theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '@parent-theme/util'
-import Footer from '@theme/components/Footer.vue'
 
 export default {
   components: { Page, Sidebar, Navbar, Footer },
@@ -158,10 +162,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-@import "../styles/spectre.scss";
-</style>
-<style lang="stylus">
-@import "../styles/main.styl";
-</style>
