@@ -12,6 +12,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
+    "docs:serve": "serve -s ./docs/.vuepress/dist",
     "server": "node server.js",
     "server:dev": "nodemon --watch app --watch server.js server.js",
     "knex": "knex",
@@ -25,6 +26,7 @@
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.1",
     "sass-loader": "^8.0.0",
+    "serve": "^11.1.0",
     "vuepress": "^1.1.0"
   },
   "dependencies": {

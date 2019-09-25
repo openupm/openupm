@@ -1,3 +1,2 @@
-# Temp redirects
-https://openupm.com/* https://github.com/openupm/openupm/ 200
-https://www.openupm.com/* https://github.com/openupm/openupm/ 200
+# SPA
+/* /index.html 200
