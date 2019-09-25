@@ -56,9 +56,9 @@ export default {
       a
         font-size 0.7rem
 
-  .wip
-    position absolute
-    z-index 1000
-    left 200px
-    top 8px
+.wip
+  position absolute
+  z-index 1000
+  left 200px
+  top 8px
 </style>
