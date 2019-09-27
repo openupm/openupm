@@ -44,5 +44,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  chainWebpack: (config, isServer) => {
+    config.module.rule('yaml')
+      .test(/\.ya?ml$/)
+      .use('js-yaml-loader')
+      .loader('js-yaml-loader')
+  },
 }
