@@ -1,30 +1,36 @@
 // Load custom styles
-@import "./spectre/spectre.styl";
-@import "./spectre/spectre-exp.styl";
-@import "./spectre/spectre-icons.styl";
+@import './spectre/spectre.styl'
+@import './spectre/spectre-exp.styl'
+@import './spectre/spectre-icons.styl'
 
 // Reset h1-h6 based on spectre default root font-size.
 h1, .h1
   font-size 1.8rem
+
 h2, .h2
   font-size 1.3rem
+
 h3, .h3
   font-size 1.1rem
+
 h4, .h4
-  font-size 1.0rem
+  font-size 1rem
+
 h5, .h5
   font-size 1rem
+
 h6, .h6
-  font-size .8rem
+  font-size 0.8rem
 
 h1, h2, h3, h4, h5, h6
-  font-family: $titleFontFamily
+  font-family $titleFontFamily
 
 // Page layout.
 main
   padding $navbarHeight 0 0
   max-width $pageWidth
-  margin 0px auto
+  margin 0 auto
+
   &.page
     padding-top 0
 
@@ -32,5 +38,5 @@ main
   p
     margin-block-start 1em
     margin-block-end 1em
-    margin-inline-start 0px
-    margin-inline-end 0px
+    margin-inline-start 0
+    margin-inline-end 0

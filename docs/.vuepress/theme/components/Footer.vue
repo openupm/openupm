@@ -9,7 +9,7 @@
         <div class="column col-2 col-md-2 col-sm-4">
           <h5>About</h5>
           <ul>
-            <li v-for="link in aboutLinks">
+            <li v-for="(link, index) in aboutLinks" :key="index">
               <NavLink class :item="link" />
             </li>
           </ul>
@@ -17,7 +17,7 @@
         <div class="column col-2 col-md-2 col-sm-4">
           <h5>Connect</h5>
           <ul>
-            <li v-for="link in connectLinks">
+            <li v-for="(link, index) in connectLinks" :key="index">
               <NavLink class :item="link" />
             </li>
           </ul>
@@ -25,7 +25,7 @@
         <div class="column col-2 col-md-2 col-sm-4">
           <h5>Operation</h5>
           <ul>
-            <li v-for="link in opLinks">
+            <li v-for="(link, index) in opLinks" :key="index">
               <NavLink class :item="link" />
             </li>
           </ul>
@@ -90,30 +90,39 @@ export default {
   background-color $primaryColor
   color $lightTextColor
   padding 1.7rem 0
+
   .inner
     max-width $pageWidth
     margin 0 auto
+
     h5
       font-weight 600
       margin-bottom 1rem
+
     h5, p, ul, li
       font-size 0.7rem
+
     ul
       list-style none
       margin 0 0 0.7rem
       line-height 1.7
+
       li
         margin-top 0
+
     .input-group
       margin-bottom 0.7rem
+
       .form-input
         font-size 0.7rem
         border-color white
+
       .input-group-btn
         font-size 0.7rem
         padding-left 0.8rem
         padding-right 0.8rem
         border-color white
+
   a
     color $lightTextColor !important
 </style>

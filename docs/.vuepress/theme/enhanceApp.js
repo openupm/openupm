@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /**
  * Client app enhancement file.
  *
@@ -11,4 +12,4 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
-}
+};
