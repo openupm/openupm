@@ -9,7 +9,7 @@ module.exports = {
 
   // Redis.
   redis: {
-    host: '127.0.0.1',
+    host: "127.0.0.1",
     port: 6379,
     db: 0,
     options: {}
@@ -17,7 +17,7 @@ module.exports = {
 
   // Database.
   knex: {
-    client: 'pg',
+    client: "pg",
     connection: {
       user: "openupm",
       password: "openupm",
@@ -27,8 +27,8 @@ module.exports = {
     },
     pool: { min: 0, max: 10 },
     migrations: {
-      tableName: 'knex_migrations'
-    },
+      tableName: "knex_migrations"
+    }
   },
 
   // Queues
@@ -42,15 +42,15 @@ module.exports = {
       // The queue does not store jobs, so you can use Queue#getJob to check job status safely.
       storeJobs: false,
       // The queue is not responsible for activating delayed jobs.
-      activateDelayedJobs: false,
+      activateDelayedJobs: false
     },
     worker: {
       removeOnSuccess: true,
       removeOnFailure: false,
       isWorker: true,
       // The queue is responsible for activating delayed jobs.
-      activateDelayedJobs: true,
-    },
+      activateDelayedJobs: true
+    }
   },
 
   // Jobs.
@@ -58,29 +58,29 @@ module.exports = {
     concurrent: 5,
     checkStalledJobsInterval: 5000,
     project: {
-      key: 'proj',
+      key: "proj",
       retries: 2,
-      backoff: ['fixed', 60 * 1000],
+      backoff: ["fixed", 60 * 1000]
     },
     release: {
-      key: 'rel',
+      key: "rel",
       retries: 2,
-      backoff: ['fixed', 60 * 1000],
+      backoff: ["fixed", 60 * 1000]
     }
   },
 
   // GitHub.
   gitHub: {
-    endpoint: 'https://api.github.com/graphql',
+    endpoint: "https://api.github.com/graphql",
     timeout: 10000,
-    token: '',
+    token: ""
   },
 
   // Azure devops
   azureDevops: {
-    endpoint: 'https://dev.azure.com/openupm',
-    token: '',
-    project: 'openupm',
+    endpoint: "https://dev.azure.com/openupm",
+    token: "",
+    project: "openupm",
     definitionId: 1,
     check: {
       // The estimated wait time for azure to process a build.
@@ -88,9 +88,9 @@ module.exports = {
       // Repeat check count.
       retries: 5,
       // Repeat interval step - [interval, interval * 2, ..., interval * retries].
-      retryIntervalStep: 15 * 1000,
+      retryIntervalStep: 15 * 1000
     },
-    buildUrlBase: 'https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/',
+    buildUrlBase:
+      "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/"
   }
-
 };

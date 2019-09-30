@@ -1,13 +1,16 @@
 // Generate unknown job type for testing.
 
-const queue =  require('../../app/queues').background.emitter;
-const logger = require('../../app/utils/log')(module);
+const queue = require("../../app/queues").background.emitter;
+const logger = require("../../app/utils/log")(module);
 
-var buildUnknown = async function () {
-  let jobId = 'blar:blar';
+var buildUnknown = async function() {
+  let jobId = "blar:blar";
   let payload = {};
-  let job = await queue.createJob(payload).setId(jobId).save();
-  logger.info('job added ' + job.id);
+  let job = await queue
+    .createJob(payload)
+    .setId(jobId)
+    .save();
+  logger.info("job added " + job.id);
   return job;
 };
 

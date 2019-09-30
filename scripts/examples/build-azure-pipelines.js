@@ -1,41 +1,51 @@
 // Build azure pipelines
-const azureDevops = require('azure-devops-node-api');
-const { BuildStatus, BuildResult } = require('azure-devops-node-api/interfaces/BuildInterfaces');
-const { getBuildName } = require('../jobs/build-release');
-const config = require('config');
-const sleep = require('util').promisify(setTimeout);
-const { $enum } = require('ts-enum-util');
+const azureDevops = require("azure-devops-node-api");
+const {
+  BuildStatus,
+  BuildResult
+} = require("azure-devops-node-api/interfaces/BuildInterfaces");
+const { getBuildName } = require("../jobs/build-release");
+const config = require("config");
+const sleep = require("util").promisify(setTimeout);
+const { $enum } = require("ts-enum-util");
 const BuildStatusEnum = $enum(BuildStatus);
 const BuildResultEnum = $enum(BuildResult);
 
-const buildAzurePipelines = async function () {
-  let authHandler = azureDevops.getPersonalAccessTokenHandler(config.azureDevops.token);
+const buildAzurePipelines = async function() {
+  let authHandler = azureDevops.getPersonalAccessTokenHandler(
+    config.azureDevops.token
+  );
   let conn = new azureDevops.WebApi(config.azureDevops.endpoint, authHandler);
   var buildApi = await conn.getBuildApi();
-  let build = await buildApi.queueBuild({
-    definition: {
-      id: config.azureDevops.definitionId,
+  let build = await buildApi.queueBuild(
+    {
+      definition: {
+        id: config.azureDevops.definitionId
+      },
+      parameters: JSON.stringify({
+        repo_url: "https://github.com/rotorz/unity3d-localized-strings.git",
+        repo_branch: "v1.0.3",
+        package_name: "@rotorz/unity3d-localized-strings",
+        package_ver: "1.0.3",
+        build_name: getBuildName(
+          "x",
+          "@rotorz/unity3d-localized-strings",
+          "1.0.3"
+        )
+        // 'system.debug': true,
+        // 'agent.diagnostic': true,
+      })
     },
-    parameters:
-      JSON.stringify(
-        {
-          repo_url: 'https://github.com/rotorz/unity3d-localized-strings.git',
-          repo_branch: 'v1.0.3',
-          package_name: '@rotorz/unity3d-localized-strings',
-          package_ver: '1.0.3',
-          build_name: getBuildName('x', '@rotorz/unity3d-localized-strings', '1.0.3'),
-          // 'system.debug': true,
-          // 'agent.diagnostic': true,
-        }
-      )
-  }, config.azureDevops.project);
+    config.azureDevops.project
+  );
   for (let i = 0; i < config.azureDevops.retries; i++) {
     await sleep(config.azureDevops.retryIntervalStep * (i + 1));
     build = await buildApi.getBuild(config.azureDevops.project, build.id);
     let statusName = BuildStatusEnum.getKeyOrThrow(build.status);
-    let resultName = typeof build.result === 'undefined'
-      ? 'undefined'
-      : BuildResultEnum.getKeyOrThrow(build.result);
+    let resultName =
+      typeof build.result === "undefined"
+        ? "undefined"
+        : BuildResultEnum.getKeyOrThrow(build.result);
     console.log(`status: ${statusName}, result: ${resultName}`);
     switch (build.status) {
       case BuildStatus.Completed:

@@ -1,14 +1,14 @@
 // Project model.
-const parseGitHubUrl = require('parse-github-url');
-const urljoin = require('url-join');
-const { ModelBase, registerModel } = require('./base');
-const { ProjectSource } = require('./common');
+const parseGitHubUrl = require("parse-github-url");
+const urljoin = require("url-join");
+const { ModelBase, registerModel } = require("./base");
+// const { ProjectSource } = require("./common");
 
 class Project extends ModelBase {
   // Git url.
   get gitUrl() {
     let url = this.gitHubUrl;
-    return urljoin(url.protocol, url.host, url.repo + '.git');
+    return urljoin(url.protocol, url.host, url.repo + ".git");
   }
 
   // GitHub url parsed by parse-github-url lib.
@@ -18,7 +18,7 @@ class Project extends ModelBase {
 }
 
 registerModel(Project, {
-  hasTimestamps: true,
+  hasTimestamps: true
 });
 
 module.exports = { Project };

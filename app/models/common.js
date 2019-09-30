@@ -2,46 +2,46 @@
 
 const ProjectState = {
   // Project waiting for processing.
-  pending: 'pending',
+  pending: "pending",
   // Project in use.
-  active: 'active',
+  active: "active",
   // Project unapproved for reasons (not supported source, missing package.json, fuzzy license).
-  unapproved: 'unapproved',
+  unapproved: "unapproved"
 };
 
 const ProjectSource = {
-  gitHub: 'github',
-  gitLab: 'gitlab',
-  git: 'git',
+  gitHub: "github",
+  gitLab: "gitlab",
+  git: "git"
 };
 
 const ReleaseState = {
   // Release waiting for processing.
-  pending: 'pending',
+  pending: "pending",
   // Release in processing.
-  building: 'building',
+  building: "building",
   // Release build succeeded.
-  succeeded: 'succeeded',
+  succeeded: "succeeded",
   // Release build failed.
-  failed: 'failed',
+  failed: "failed"
 };
 
 const ReleaseReason = {
   // Server 500 error, bad gateway.
-  serverError: 'server-error',
+  serverError: "server-error",
   // Server 502 error, bad gate way.
-  badGateway: 'bad-gateway',
+  badGateway: "bad-gateway",
   // Timeout.
-  timeout: 'timeout',
+  timeout: "timeout",
   // Version conflict.
-  publishConflict: 'publish-conflict',
+  publishConflict: "publish-conflict",
   // package.json not found.
-  nonPackage: 'non-package'
+  nonPackage: "non-package"
 };
 
 module.exports = {
   ProjectState,
   ProjectSource,
   ReleaseState,
-  ReleaseReason,
+  ReleaseReason
 };

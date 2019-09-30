@@ -1,11 +1,11 @@
 // Job queue process.
 
-const config = require('config');
+const config = require("config");
 
-const queues = require('../app/queues');
-const { buildProject } = require('./jobs/build-project');
-const { buildRelease } = require('./jobs/build-release');
-const logger = require('../app/utils/log')(module);
+const queues = require("../app/queues");
+const { buildProject } = require("./jobs/build-project");
+const { buildRelease } = require("./jobs/build-release");
+const logger = require("../app/utils/log")(module);
 
 // const Bottleneck = require('bottleneck');
 // const limiter = new Bottleneck({
@@ -15,17 +15,17 @@ const logger = require('../app/utils/log')(module);
 // limiter.schedule(() => {
 // });
 
-var dispatch = function (queue) {
-  queue.on('ready', () => {
-    logger.info('queue ready.');
+var dispatch = function(queue) {
+  queue.on("ready", () => {
+    logger.info("queue ready.");
   });
-  queue.on('error', (err) => {
-    logger.error('queue error: ', err);
+  queue.on("error", err => {
+    logger.error("queue error: ", err);
   });
   queue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
-  queue.process(config.jobs.concurrent, async function (job) {
+  queue.process(config.jobs.concurrent, async function(job) {
     logger.info(`[job=${job.id}] start`);
-    let sections = job.id.split(':');
+    let sections = job.id.split(":");
     try {
       if (sections[0] == config.jobs.project.key) {
         let projectId = parseInt(sections[1]);
@@ -45,13 +45,13 @@ var dispatch = function (queue) {
 };
 
 if (require.main === module) {
-  let program = require('../app/utils/commander');
+  let program = require("../app/utils/commander");
   let queueWorker = null;
   program
-    .arguments('<queue>')
-    .action(function (queueName) {
+    .arguments("<queue>")
+    .action(function(queueName) {
       let queueHolder = queues[queueName];
-      if (typeof queueHolder == 'undefined')
+      if (typeof queueHolder == "undefined")
         throw new Error(`can not find queue name ${queueName}.`);
       queueWorker = queueHolder.worker;
     })

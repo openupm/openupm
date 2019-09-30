@@ -1,12 +1,12 @@
-const config = require('config');
-const { GraphQLClient } = require('graphql-request');
+const config = require("config");
+const { GraphQLClient } = require("graphql-request");
 
-let createGraphQLClient = function () {
+let createGraphQLClient = function() {
   let client = new GraphQLClient(config.gitHub.endpoint, {
     timeout: config.gitHub.timeout,
     headers: {
-      authorization: 'Bearer ' + config.gitHub.token,
-    },
+      authorization: "Bearer " + config.gitHub.token
+    }
   });
   return client;
 };
@@ -81,11 +81,11 @@ query RepoInfo($owner: String!, $name: String!, $tree: String!) {
     }
   }
 }
-`
+`;
 
 module.exports = {
   createGraphQLClient,
   repoInfo,
   gitFileContent,
   gitTree
-}
+};

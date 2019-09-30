@@ -1,5 +1,5 @@
 // Production mode configurations.
 
 module.exports = {
-  debug: false,
+  debug: false
 };

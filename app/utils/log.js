@@ -1,16 +1,16 @@
 // Winston log util.
-const path = require('path');
-const winston = require('winston');
+const path = require("path");
+const winston = require("winston");
 
-const logDir = path.join(__dirname, '../../logs/');
+const logDir = path.join(__dirname, "../../logs/");
 
 // Return the last folder name of given module.
-const getFilename = function (module) {
+const getFilename = function(module) {
   return path.basename(module.filename, path.extname(module.filename));
 };
 
 // Customized format.
-const myFormat = winston.format.printf((info) => {
+const myFormat = winston.format.printf(info => {
   if (info.stack)
     return `${info.timestamp} [${info.label}] [${info.level}]: ${info.message}\n${info.stack}`;
   else
@@ -20,42 +20,40 @@ const myFormat = winston.format.printf((info) => {
 // Return logger for given module.
 function getLogger(module) {
   let logger = null;
-  if (process.env.NODE_ENV === 'production') {
+  if (process.env.NODE_ENV === "production") {
     // Log to files in production mode.
     logger = winston.createLogger({
-      level: 'info',
+      level: "info",
       format: winston.format.combine(
         winston.format.splat(),
         winston.format.timestamp(),
         winston.format.label({ label: getFilename(module) }),
-        myFormat,
+        myFormat
       ),
       transports: [
         new winston.transports.File({
-          filename: path.join(logDir, 'error.log'),
+          filename: path.join(logDir, "error.log"),
           // filename: 'error.log',
-          level: 'error'
+          level: "error"
         }),
         new winston.transports.File({
           // filename: 'combined.log',
-          filename: path.join(logDir, 'combined.log'),
-        }),
-      ],
+          filename: path.join(logDir, "combined.log")
+        })
+      ]
     });
   } else {
     // Log to console in development mode.
     logger = winston.createLogger({
-      level: 'info',
+      level: "info",
       format: winston.format.combine(
         winston.format.splat(),
         winston.format.timestamp(),
         winston.format.colorize(),
         winston.format.label({ label: getFilename(module) }),
-        myFormat,
+        myFormat
       ),
-      transports: [
-        new winston.transports.Console({}),
-      ],
+      transports: [new winston.transports.Console({})]
     });
   }
   return logger;

@@ -1,40 +1,42 @@
+/* eslint-disable no-unused-vars */
 // Fetch project information and generate sub-jobs.
 
-'use strict';
-const path = require('path');
-const config = require('config');
-const semverCompare = require('semver-compare');
+"use strict";
+const path = require("path");
+const config = require("config");
+// const semverCompare = require("semver-compare");
 
-const { ProjectState, ProjectSource, ReleaseState } = require('../../app/models/common');
-const { Project } = require('../../app/models/project');
-const { Package } = require('../../app/models/package');
-const { Release } = require('../../app/models/release');
-const gitHubGraphQL = require('../../app/utils/github-graphql');
-const licenseUtil = require('../../app/utils/license');
-const { semverRe, getVersionFromTag } = require('../../app/utils/semver');
-const queue = require('../../app/queues').background.emitter;
-const { genReleaseJob } = require('../gens/gen-release-job');
-const logger = require('../../app/utils/log')(module);
+const {
+  ProjectState,
+  ProjectSource,
+  ReleaseState
+} = require("../../app/models/common");
+const { Project } = require("../../app/models/project");
+const { Package } = require("../../app/models/package");
+const { Release } = require("../../app/models/release");
+const gitHubGraphQL = require("../../app/utils/github-graphql");
+const licenseUtil = require("../../app/utils/license");
+const { semverRe, getVersionFromTag } = require("../../app/utils/semver");
+const queue = require("../../app/queues").background.emitter;
+const { genReleaseJob } = require("../gens/gen-release-job");
+const logger = require("../../app/utils/log")(module);
 
 // Build project for given id.
-let buildProject = async function (id) {
+let buildProject = async function(id) {
   // Fetch project from database.
   let project = await Project.fetchOne(id);
-  if (!project)
-    throw new Error("Project record not found, id=" + id);
+  if (!project) throw new Error("Project record not found, id=" + id);
   let builder = ProjectBuilder.createBuilder(project);
-  if (builder)
-    await builder.build();
+  if (builder) await builder.build();
   else {
     // No builder found, set project to unapproved state.
     await project.update({ state: ProjectState.unapproved });
     logger.info(`[id=${this.project.id}] change state to ${project.state}.`);
   }
-}
+};
 
 // Base class of project builder.
 class ProjectBuilder {
-
   // Factory method.
   static createBuilder(project) {
     if (project.source == ProjectSource.gitHub)
@@ -51,7 +53,8 @@ class ProjectBuilder {
     logger.info(`[id=${this.project.id}] fetch info.`);
     await this.updateInfo(record);
     // TODO: potential optimization to avoid fetching more information each time.
-    let pushedAtUnchanged = Date.parse(this.project.pushed_at) == Date.parse(record.pushed_at);
+    // let pushedAtUnchanged =
+    //   Date.parse(this.project.pushed_at) == Date.parse(record.pushed_at);
     logger.info(`[id=${this.project.id}] pushed_at unchanged.`);
     // Update license.
     logger.info(`[id=${this.project.id}] fetch license.`);
@@ -62,15 +65,14 @@ class ProjectBuilder {
     let packageManifest = await this.fetchPackageManifest(record);
     record.has_package = Boolean(packageManifest);
     // Handle state.
-    if (!record.is_license_ok)
-      record.state = ProjectState.unapproved;
-    else if (!record.has_package)
-      record.state = ProjectState.unapproved;
-    else
-      record.state = ProjectState.active;
+    if (!record.is_license_ok) record.state = ProjectState.unapproved;
+    else if (!record.has_package) record.state = ProjectState.unapproved;
+    else record.state = ProjectState.active;
     // Save to database
     await this.project.update(record);
-    logger.info(`[id=${this.project.id}] change state to ${this.project.state}.`);
+    logger.info(
+      `[id=${this.project.id}] change state to ${this.project.state}.`
+    );
     // Update package record and release records.
     if (this.project.state == ProjectState.active) {
       let pkg = await this.updatePackageRecord(packageManifest);
@@ -85,15 +87,13 @@ class ProjectBuilder {
     let record = {
       project_id: this.project.id,
       name: packageManifest.name,
-      display_name: packageManifest.displayName || '',
+      display_name: packageManifest.displayName || "",
       description: packageManifest.description || this.project.description,
-      repo_branch: this.project.repo_branch,
+      repo_branch: this.project.repo_branch
     };
     let pkg = await Package.fetchOne({ name: record.name });
-    if (pkg)
-      await pkg.update(record);
-    else
-      pkg = await Package.create(record);
+    if (pkg) await pkg.update(record);
+    else pkg = await Package.create(record);
     return pkg;
   }
 
@@ -115,7 +115,7 @@ class ProjectBuilder {
       }
     }
     // Reverse list to older tag first.
-    cleanTagList.reverse()
+    cleanTagList.reverse();
     // Update release record.
     let releases = [];
     for (let tag of cleanTagList)
@@ -126,16 +126,18 @@ class ProjectBuilder {
   // Update release record for given package record and tag.
   async updateReleaseRecord(pkg, tag) {
     let version = getVersionFromTag(tag);
-    let nameWithVersion = pkg.name + '@' + version;
-    let release = await Release.fetchOne({ name_with_version: nameWithVersion });
+    let nameWithVersion = pkg.name + "@" + version;
+    let release = await Release.fetchOne({
+      name_with_version: nameWithVersion
+    });
     if (!release) {
       let record = {
         package_id: pkg.id,
         name_with_version: nameWithVersion,
         version,
-        commit: '',
+        commit: "",
         tag,
-        state: ReleaseState.pending,
+        state: ReleaseState.pending
       };
       release = await Release.create(record);
     }
@@ -147,38 +149,40 @@ class ProjectBuilder {
     for (let release of releases) {
       if (release.state == ReleaseState.pending) {
         // Get the job.
-        let job = await queue.getJob(config.jobs.release.key + ':' + release.id);
+        let job = await queue.getJob(
+          config.jobs.release.key + ":" + release.id
+        );
         // Remove job if failed completely.
         if (queue.isJobFailedCompletely(job)) {
           await queue.removeJob(job.id);
-          logger.info(`[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`);
+          logger.info(
+            `[id=${this.project.id}] [release_id=${release.id}] cleaned completely failed job.`
+          );
           job = null;
         }
         // Generate release job.
-        if (!job)
-          job = await genReleaseJob(release);
+        if (!job) job = await genReleaseJob(release);
       }
     }
   }
 
   //#region interface
   // Update record for project info.
-  async updateInfo(record) { }
+  async updateInfo(record) {}
 
   // Update record for license info.
-  async updateLicense(record) { }
+  async updateLicense(record) {}
 
   // Return decoded package file (package.json).
-  async fetchPackageManifest(record, packagePath) { }
+  async fetchPackageManifest(record, packagePath) {}
 
   // Return tag list of project repo, latest first.
-  async getTagList() { }
+  async getTagList() {}
   //#endregion interface
 }
 
 // GitHub project builder.
 class GitHubProjectBuilder extends ProjectBuilder {
-
   constructor(project) {
     super(project);
     // The RepositoryInfo object, see https://developer.github.com/v4/interface/repositoryinfo/
@@ -191,7 +195,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
     let variables = {
       owner: this.project.gitHubUrl.owner,
       name: this.project.gitHubUrl.name,
-      tree: this.project.gitHubUrl.branch + ':',
+      tree: this.project.gitHubUrl.branch + ":"
     };
     let graphQLClient = gitHubGraphQL.createGraphQLClient();
     let data = await graphQLClient.request(gitHubGraphQL.repoInfo, variables);
@@ -200,16 +204,16 @@ class GitHubProjectBuilder extends ProjectBuilder {
     Object.assign(record, {
       url: this.repo.url,
       name: this.repo.name,
-      owner: this.repo.nameWithOwner.split('/')[0],
+      owner: this.repo.nameWithOwner.split("/")[0],
       owner_avatar_url: this.repo.owner.avatarUrl,
-      description: this.repo.description || '',
+      description: this.repo.description || "",
       is_fork: this.repo.isFork,
       is_archived: this.repo.isArchived,
       repo_branch: this.project.gitHubUrl.branch,
       use_og_image: this.repo.usesCustomOpenGraphImage,
       og_image_url: this.repo.openGraphImageUrl,
       star: this.repo.stargazers.totalCount,
-      pushed_at: this.repo.pushedAt,
+      pushed_at: this.repo.pushedAt
     });
   }
 
@@ -221,7 +225,7 @@ class GitHubProjectBuilder extends ProjectBuilder {
       return;
     }
     // Find license file.
-    let filenames = this.repo.tree.entries.map(x => x['name']);
+    let filenames = this.repo.tree.entries.map(x => x["name"]);
     let filename = null;
     for (let x of filenames) {
       if (licenseUtil.licenseFilenames.includes(x.toLowerCase())) {
@@ -231,29 +235,40 @@ class GitHubProjectBuilder extends ProjectBuilder {
     }
     if (filename) {
       // Fetch license file.
-      let text = await this.fetchGitFileContent(record.owner, record.name, record.repo_branch, filename);
+      let text = await this.fetchGitFileContent(
+        record.owner,
+        record.name,
+        record.repo_branch,
+        filename
+      );
       if (text) {
         let licenseKey = licenseUtil.detectLicenseKey(text);
         if (licenseKey) {
+          // eslint-disable-next-line require-atomic-updates
           record.license_key = licenseKey;
-          record.license_name = licenseUtil.licenses[licenseKey]['name'];
+          // eslint-disable-next-line require-atomic-updates
+          record.license_name = licenseUtil.licenses[licenseKey]["name"];
         }
       }
     }
   }
 
   async getTagList() {
-    return this.repo.tags.nodes.map(x => x['name']);
+    return this.repo.tags.nodes.map(x => x["name"]);
   }
   //#endregion interface
 
   //#region helpers
   // Return fetched package.json file content.
   async fetchPackageManifest(record, packagePath) {
-    if (!packagePath)
-      packagePath = '';
-    let filename = path.join(packagePath, 'package.json');
-    let text = await this.fetchGitFileContent(record.owner, record.name, record.repo_branch, filename);
+    if (!packagePath) packagePath = "";
+    let filename = path.join(packagePath, "package.json");
+    let text = await this.fetchGitFileContent(
+      record.owner,
+      record.name,
+      record.repo_branch,
+      filename
+    );
     return text ? JSON.parse(text) : null;
   }
 
@@ -263,13 +278,14 @@ class GitHubProjectBuilder extends ProjectBuilder {
     let variables = {
       owner: owner,
       name: name,
-      tree: branch + ':' + filename,
+      tree: branch + ":" + filename
     };
-    let data = await graphQLClient.request(gitHubGraphQL.gitFileContent, variables);
-    if (data.repository.tree)
-      return data.repository.tree.text;
-    else
-      return null;
+    let data = await graphQLClient.request(
+      gitHubGraphQL.gitFileContent,
+      variables
+    );
+    if (data.repository.tree) return data.repository.tree.text;
+    else return null;
   }
   //#endregion helpers
 }
@@ -277,11 +293,13 @@ class GitHubProjectBuilder extends ProjectBuilder {
 module.exports = { buildProject };
 
 if (require.main === module) {
-  let program = require('../../app/utils/commander');
+  let program = require("../../app/utils/commander");
   let projectId = null;
   program
-    .arguments('<id>')
-    .action((id) => { projectId = parseInt(id); })
+    .arguments("<id>")
+    .action(id => {
+      projectId = parseInt(id);
+    })
     .requiredArgument(1)
     .parse(process.argv)
     .run(buildProject, projectId);
