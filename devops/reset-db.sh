@@ -10,5 +10,3 @@ cd "$SCRIPT_DIR/../"
 yarn knex migrate:down
 echo
 yarn knex migrate:up
-echo
-node ./fixtures/load-fixtures.js

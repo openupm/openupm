@@ -1,26 +1,21 @@
 // Packages
-const fs = require("fs");
 const parseGitHubUrl = require("parse-github-url");
-const path = require("path");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
-
-const packagesDir = path.resolve(__dirname, "../../packages");
+const {
+  loadPackageSync,
+  loadPackageNames
+} = require("../../app/utils/package");
 
 module.exports = {
   async additionalPages() {
+    let packageNames = await loadPackageNames();
     return (
-      fs
-        .readdirSync(packagesDir)
-        // Find paths with *.ya?ml ext.
-        .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)
-        // Convert to page info.
-        .map(function(p) {
+      packageNames
+        .map(function(packageName) {
           try {
-            const absPath = path.resolve(packagesDir, p);
-            // Load package yaml.
-            const doc = yaml.safeLoad(fs.readFileSync(absPath, "utf8"));
-            const ghUrl = parseGitHubUrl(doc.repoUrl);
+            let doc = loadPackageSync(packageName);
+            let ghUrl = parseGitHubUrl(doc.repoUrl);
             doc.repo = ghUrl.repo;
             doc.owner = ghUrl.owner;
             doc.ownerUrl = "https://" + ghUrl.hostname + "/" + ghUrl.owner;
@@ -34,12 +29,16 @@ module.exports = {
               doc.licenseName = spdx[doc.licenseSpdxId]["name"];
             }
             // Frontmatter.
+            let title = doc.displayName
+              ? `${doc.displayName} ${doc.name}`
+              : doc.name;
             const frontmatter = {
               layout: "PackageDetail",
+              title,
               package: doc
             };
             // Page info.
-            const pageUrl = "/packages/" + p.match(/(.*)\.(ya?ml)$/)[1];
+            const pageUrl = "/packages/" + packageName;
             const pageContent =
               "---\n" + yaml.safeDump(frontmatter) + "\n---\n";
             return { path: pageUrl, content: pageContent };

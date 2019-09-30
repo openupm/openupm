@@ -15,10 +15,8 @@ export default {
       if (option.linkBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.linkBaseUrl, href);
       }
-      console.log(href);
       let link = originalRendererLink(href, title, text);
       link = link.replace("<a", '<a target="_blank" rel="noopener noreferrer"');
-      console.log(link);
       return link;
     };
 

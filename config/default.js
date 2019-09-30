@@ -31,8 +31,8 @@ module.exports = {
     }
   },
 
-  // Queues
-  queues: {
+  // Queue settings.
+  queueSettings: {
     emitter: {
       removeOnSuccess: true,
       removeOnFailure: false,
@@ -57,15 +57,18 @@ module.exports = {
   jobs: {
     concurrent: 5,
     checkStalledJobsInterval: 5000,
-    project: {
-      key: "proj",
+    buildPackage: {
+      queue: "main",
+      key: "build-pkg",
       retries: 2,
       backoff: ["fixed", 60 * 1000]
     },
-    release: {
-      key: "rel",
+    buildRelease: {
+      queue: "main",
+      key: "build-rel",
       retries: 2,
-      backoff: ["fixed", 60 * 1000]
+      backoff: ["fixed", 60 * 1000],
+      delay: 10
     }
   },
 
@@ -88,7 +91,7 @@ module.exports = {
       // Repeat check count.
       retries: 5,
       // Repeat interval step - [interval, interval * 2, ..., interval * retries].
-      retryIntervalStep: 15 * 1000
+      retryIntervalStep: 10 * 1000
     },
     buildUrlBase:
       "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/"

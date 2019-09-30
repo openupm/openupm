@@ -1,47 +1,52 @@
+/* eslint-disable no-unused-vars */
 // Common models and constants.
 
-const ProjectState = {
-  // Project waiting for processing.
-  pending: "pending",
-  // Project in use.
-  active: "active",
-  // Project unapproved for reasons (not supported source, missing package.json, fuzzy license).
-  unapproved: "unapproved"
-};
+const Enum = require("enum");
 
-const ProjectSource = {
-  gitHub: "github",
-  gitLab: "gitlab",
-  git: "git"
-};
+const ReleaseState = new Enum({
+  Pending: 0,
+  Building: 1,
+  Succeeded: 2,
+  Failed: 3
+});
 
-const ReleaseState = {
-  // Release waiting for processing.
-  pending: "pending",
-  // Release in processing.
-  building: "building",
-  // Release build succeeded.
-  succeeded: "succeeded",
-  // Release build failed.
-  failed: "failed"
-};
+const ReleaseReason = new Enum({
+  None: 0,
+  // Unauthorized.
+  Unauthorized: 401,
+  // Permission error.
+  Forbidden: 403,
+  // Publish Version conflict.
+  VersionConflict: 409,
+  // Server internal error.
+  InternalError: 500,
+  // Server bad gateway.
+  BadGateway: 502,
+  // Server bad gateway.
+  ServiceUnavailable: 503,
+  // Build timeout.
+  BuildTimeout: 700,
+  // BuildCancellation
+  BuildCancellation: 701,
+  // Missing package.json.
+  PackageNotFound: 800
+});
 
-const ReleaseReason = {
-  // Server 500 error, bad gateway.
-  serverError: "server-error",
-  // Server 502 error, bad gate way.
-  badGateway: "bad-gateway",
-  // Timeout.
-  timeout: "timeout",
-  // Version conflict.
-  publishConflict: "publish-conflict",
-  // package.json not found.
-  nonPackage: "non-package"
-};
+/* Release reasons that considered as the failure of build service. The
+ * build should be retired whenever possible.
+ */
+const RetryableReleaseReason = [
+  ReleaseReason.Unauthorized,
+  ReleaseReason.Forbidden,
+  ReleaseReason.InternalError,
+  ReleaseReason.BadGateway,
+  ReleaseReason.ServiceUnavailable,
+  ReleaseReason.BuildTimeout,
+  ReleaseReason.BuildCancellation
+];
 
 module.exports = {
-  ProjectState,
-  ProjectSource,
   ReleaseState,
-  ReleaseReason
+  ReleaseReason,
+  RetryableReleaseReason
 };

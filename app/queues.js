@@ -3,30 +3,56 @@
 const config = require("config");
 const Queue = require("bee-queue");
 const addLazyProperty = require("lazy-property");
+const logger = require("./utils/log")(module);
 
 // Store all queues.
 const queues = {};
 
-// Queue wrapper method.
-const queueWrap = function(queueName, configName) {
-  return function() {
-    let queue = new Queue(queueName, config.queues[configName]);
-    // Return true if job failed with no more retries.
-    queue.isJobFailedCompletely = function(job) {
-      return job && job.status == "failed" && job.options.retries <= 0;
-    };
-    return queue;
-  };
+// Add a queue wrapper to queues with pre-defined settings.
+// To get the queue object, use queues.name.settings.
+const addQueueWrapper = function(name) {
+  let obj = {};
+  for (let preset in config.queueSettings) {
+    let settings = config.queueSettings[preset];
+    addLazyProperty(obj, preset, function() {
+      let queue = new Queue(name, settings);
+      // Return true if job failed with no more retries.
+      queue.isJobFailedCompletely = function(job) {
+        return job && job.status == "failed" && job.options.retries <= 0;
+      };
+      return queue;
+    });
+  }
+  queues[name] = obj;
 };
 
-// The queue to serve short web process jobs on demand.
-queues.web = {};
-addLazyProperty(queues.web, "emitter", queueWrap("web", "emitter"));
-addLazyProperty(queues.web, "worker", queueWrap("web", "worker"));
+// Main queue. Jobs in the queue expected to be run longer.
+addQueueWrapper("main");
 
-// The queue to serve regular scheduled background jobs.
-queues.background = {};
-addLazyProperty(queues.background, "emitter", queueWrap("bg", "emitter"));
-addLazyProperty(queues.background, "worker", queueWrap("bg", "worker"));
+// Add a job.
+const addJob = async function({ jobId, payload, queue, jobConfig, delay }) {
+  if (jobConfig === undefined)
+    jobConfig = {
+      retries: 0,
+      backoff: "immediate"
+    };
+  if (payload === undefined) payload = {};
+  if (queue === undefined) queue = queues[jobConfig.queue].emitter;
+  let job = await queue
+    .createJob(payload)
+    .setId(jobId)
+    .retries(jobConfig.retries)
+    .backoff(...jobConfig.backoff)
+    .delayUntil(delay || 0)
+    .save();
+  if (job.id) {
+    logger.info(`job added ${job.id}`);
+    return job;
+  }
+  return null;
+};
 
-module.exports = queues;
+module.exports = {
+  queues,
+  addJob
+};

@@ -23,7 +23,7 @@ if (require.main === module) {
       relationVal = relation;
       idVals = ids.map(x => parseInt(x)).filter(x => !isNaN(x));
     })
-    .requiredArgument(2)
+    .requiredArgs(2)
     .parse(process.argv)
     .run(inspect, relationVal, idVals);
 }

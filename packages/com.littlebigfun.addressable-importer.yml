@@ -8,7 +8,7 @@ licenseName: MIT License
 licenseUrl: https://github.com/favoyang/unity-addressable-importer/blob/master/LICENSE.md
 
 # Package info.
-name: com.littlebigfun.adderssable-importer
+name: com.littlebigfun.addressable-importer
 displayName: Unity Addressable Importer
 description: A simple rule based addressable asset importer
 

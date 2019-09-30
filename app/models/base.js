@@ -1,4 +1,5 @@
-// Base model.
+// A tiny ORM.
+
 const knex = require("../db/postgres");
 const _ = require("lodash");
 
@@ -12,7 +13,7 @@ const modelMetaBase = {
   hasTimestamps: false
 };
 
-// Register model.
+// Register model with meta data.
 const registerModel = function(cls, meta) {
   // Add meta instance to cls.meta.
   let obj = {};
@@ -32,6 +33,17 @@ const registerModel = function(cls, meta) {
       .first();
     if (!record) return null;
     return new this(record);
+  };
+
+  // Return one model instance by primary key or lookup condition,
+  // throw error if not found.
+  cls.fetchOneOrThrow = async function(pkOrLookup) {
+    let record = await cls.fetchOne(pkOrLookup);
+    if (record === null) {
+      let condStr = JSON.stringify(pkOrLookup);
+      throw new Error(`Failed to fetch ${cls.name} record, ${condStr}`);
+    }
+    return record;
   };
 
   // Return a list of model instances by lookup condition.
