@@ -23,14 +23,15 @@ const registerModel = function(cls, meta) {
   cls.meta = obj;
 
   // Return one model instance by primary key or lookup condition.
-  cls.fetchOne = async function(pkOrLookup) {
+  cls.fetchOne = async function(pkOrLookup, fields) {
     let meta = this.meta;
     let lookup = {};
     if (typeof pkOrLookup == "object") lookup = pkOrLookup;
     else lookup[meta.primaryKey] = pkOrLookup;
-    let record = await knex(meta.table)
-      .where(lookup)
-      .first();
+    let query = knex(meta.table);
+    if (fields) query = query.select(...fields);
+    else query.select("*");
+    let record = query.where(lookup).first();
     if (!record) return null;
     return new this(record);
   };
@@ -48,15 +49,18 @@ const registerModel = function(cls, meta) {
 
   // Return a list of model instances by lookup condition.
   // If callback(query) provided, it shall return the query object.
-  cls.fetchAll = async function(lookupOrCallback) {
+  cls.fetchAll = async function(lookupOrCallback, fields, orderBy) {
     let meta = this.meta;
-    let query = knex(meta.table).select("*");
+    let query = knex(meta.table);
+    if (fields) query = query.select(...fields);
+    else query = query.select("*");
     if (lookupOrCallback) {
       if (typeof lookupOrCallback == "object")
         query = query.where(lookupOrCallback);
       else if (typeof lookupOrCallback == "function")
         query = lookupOrCallback(query);
     }
+    if (orderBy) query = query.orderBy(...orderBy);
     let records = await query;
     return records.map(x => new this(x));
   };

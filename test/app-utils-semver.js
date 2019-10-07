@@ -18,10 +18,10 @@ describe("app/util/semver.js", function() {
       assert.equal(getVersionFromTag("v1.0.0-preview"), "1.0.0-preview");
     });
     it("test a.b.c.d", function() {
-      assert.equal(getVersionFromTag("1.0.0.0"), "1.0.0.0");
+      assert.equal(getVersionFromTag("1.0.0.0"), null);
     });
     it("test va.b.c.d", function() {
-      assert.equal(getVersionFromTag("v1.0.0.0"), "1.0.0.0");
+      assert.equal(getVersionFromTag("v1.0.0.0"), null);
     });
     it("test a.b.c-preview.d", function() {
       assert.equal(getVersionFromTag("1.0.0-preview.0"), "1.0.0-preview.0");

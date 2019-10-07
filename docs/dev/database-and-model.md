@@ -31,16 +31,22 @@ registerModel(Release, {
 let record = await MyModel.fetchOne(1);
 
 // Fetch record by condition.
-let record = await MyModel.fetchOne({name: 'package-name'});
+let record = await MyModel.fetchOne({name: "package-name"});
 
 // Fetch record by condition and throw error if no found.
-let record = await MyModel.fetchOneOrThrow({name: 'package-name'});
+let record = await MyModel.fetchOneOrThrow({name: "package-name"});
 
 // Fetch all records by condition.
-let record = await MyModel.fetchAll({name: 'package-name'});
+let record = await MyModel.fetchAll({name: "package-name"});
 
 // Fetch all records by callback.
 let record = await MyModel.fetchAll(query => { return query... });
+
+// Fetch all records by condition and return selected fields.
+let record = await MyModel.fetchAll({name: "package-name"}, ["id", "name"]);
+
+// Fetch all records by condition, order by id asc.
+let record = await MyModel.fetchAll({name: "package-name"}, null, ["id", "asc"]);
 
 // Create a record.
 let record = await MyModel.create({...});
