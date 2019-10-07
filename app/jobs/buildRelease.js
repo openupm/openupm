@@ -75,7 +75,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
     logger.info(`[id=${release.id}] queue build`);
     let definitionId = config.azureDevops.definitionId;
     let parameters = {
-      repoUrl: cleanRepoUrl(pkg.repoUrl),
+      repoUrl: cleanRepoUrl(pkg.repoUrl, "https"),
       repoBranch: release.tag,
       packageName: pkg.name,
       packageVersion: release.version,
@@ -125,7 +125,7 @@ const handleReleaseBuild = async function(build, release) {
     if (build === null) reason = ReleaseReason.BuildTimeout;
     else if (build.status == BuildStatus.Cancelling)
       reason = ReleaseReason.BuildCancellation;
-    else reason = await getReasonFromPublishLog(release.publish_log);
+    else reason = getReasonFromPublishLog(release.publish_log);
     await release.update({
       state: ReleaseState.Failed.value,
       reason: reason.value
@@ -156,7 +156,7 @@ const getPublishLog = async function(release) {
 };
 
 // Get reason from publish log.
-const getReasonFromPublishLog = async function(text) {
+const getReasonFromPublishLog = function(text) {
   if (text.includes("EPUBLISHCONFLICT")) return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;

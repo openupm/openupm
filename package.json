@@ -40,6 +40,7 @@
     "rewire": "^4.0.1",
     "sass-loader": "^8.0.0",
     "serve": "^11.1.0",
+    "should": "^13.2.3",
     "vuepress": "^1.1.0"
   },
   "dependencies": {

@@ -1,5 +1,4 @@
 // Packages util.
-const assert = require("assert");
 const fs = require("fs");
 const parseGitHubUrl = require("parse-github-url");
 const path = require("path");
@@ -37,8 +36,8 @@ const loadPackageNames = async function() {
 const cleanRepoUrl = function(url, format) {
   if (!format) format = "https";
   let ghUrl = parseGitHubUrl(url);
-  if (format == "git") return `git@${ghUrl.hostname}:${ghUrl.repo}.git`;
-  else if (format == "https") return `https://${ghUrl.hostname}/${ghUrl.repo}`;
+  if (format == "git") return `git@${ghUrl.host}:${ghUrl.repo}.git`;
+  else if (format == "https") return `https://${ghUrl.host}/${ghUrl.repo}`;
   else throw new Error("format should be either https or git.");
 };
 
