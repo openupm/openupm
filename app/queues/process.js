@@ -2,10 +2,10 @@
 
 const config = require("config");
 
-const { queues } = require("../app/queues");
-const { buildPackage } = require("./jobs/buildPackage");
-const { buildRelease } = require("./jobs/buildRelease");
-const logger = require("../app/utils/log")(module);
+const { queues } = require("./core");
+const { buildPackage } = require("../jobs/buildPackage");
+const { buildRelease } = require("../jobs/buildRelease");
+const logger = require("../utils/log")(module);
 
 var dispatch = function(queue) {
   queue.on("ready", () => {
@@ -37,7 +37,7 @@ var dispatch = function(queue) {
 };
 
 if (require.main === module) {
-  let program = require("../app/utils/commander");
+  let program = require("../utils/commander");
   let queue = null;
   program
     .arguments("<queue>")

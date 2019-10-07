@@ -11,17 +11,17 @@ const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../../app/models/common");
-const { Release } = require("../../app/models/release");
-const { cleanRepoUrl, loadPackage } = require("../../app/utils/package");
+} = require("../models/common");
+const { Release } = require("../models/release");
+const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const {
   getBuildApi,
   queueBuild,
   waitBuild,
   BuildStatus,
   BuildResult
-} = require("../../app/utils/azure");
-const logger = require("../../app/utils/log")(module);
+} = require("../utils/azure");
+const logger = require("../utils/log")(module);
 
 // Build release for given id.
 let buildRelease = async function(id) {
@@ -172,7 +172,7 @@ const getReasonFromPublishLog = async function(text) {
 module.exports = { buildRelease };
 
 if (require.main === module) {
-  let program = require("../../app/utils/commander");
+  let program = require("../utils/commander");
   let releaseId = null;
   program
     .arguments("<id>")

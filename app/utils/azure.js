@@ -10,7 +10,7 @@ const BuildStatus = new Enum(buildInterfaces.BuildStatus);
 const BuildResult = new Enum(buildInterfaces.BuildResult);
 const sleep = util.promisify(setTimeout);
 
-const logger = require("../../app/utils/log")(module);
+const logger = require("./log")(module);
 
 // Get build api.
 const getBuildApi = async function() {
@@ -44,7 +44,7 @@ const waitBuild = async function(buildApi, buildId) {
     let status = BuildStatus.get(build.status);
     let result = BuildResult.get(build.result);
     logger.info(
-      `[buildId=${buildId}] waitBuild build.status=${status} build.result=${result}`
+      `[buildId=${buildId}] wait build build.status=${status} build.result=${result}`
     );
     if (status == BuildStatus.Completed || status == BuildStatus.Cancelling)
       return build;

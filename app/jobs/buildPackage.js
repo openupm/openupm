@@ -2,17 +2,17 @@
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
 
-const { Release } = require("../../app/models/release");
+const { Release } = require("../models/release");
 const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../../app/models/common");
-const { queues, addJob } = require("../../app/queues");
-const { cleanRepoUrl, loadPackage } = require("../../app/utils/package");
-const { gitListRemoteTags } = require("../../app/utils/git");
-const { semverRe, getVersionFromTag } = require("../../app/utils/semver");
-const logger = require("../../app/utils/log")(module);
+} = require("../models/common");
+const { queues, addJob } = require("../queues/core");
+const { cleanRepoUrl, loadPackage } = require("../utils/package");
+const { gitListRemoteTags } = require("../utils/git");
+const { semverRe, getVersionFromTag } = require("../utils/semver");
+const logger = require("../utils/log")(module);
 
 // Build package with given name.
 const buildPackage = async function(name) {
@@ -96,7 +96,7 @@ const addReleaseJobs = async function(releases) {
     if (
       job ||
       release.state == ReleaseState.Succeeded ||
-      (job.state == ReleaseReason.Failed &&
+      (release.state == ReleaseReason.Failed &&
         !RetryableReleaseReason.includes(reason))
     )
       continue;
@@ -115,7 +115,7 @@ const addReleaseJobs = async function(releases) {
 module.exports = { buildPackage };
 
 if (require.main === module) {
-  let program = require("../../app/utils/commander");
+  let program = require("../utils/commander");
   let packageName = null;
   program
     .arguments("<name>")

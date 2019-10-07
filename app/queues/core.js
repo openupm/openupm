@@ -1,9 +1,9 @@
-// Queues
+// Queue core.
 
 const config = require("config");
 const Queue = require("bee-queue");
 const addLazyProperty = require("lazy-property");
-const logger = require("./utils/log")(module);
+const logger = require("../utils/log")(module);
 
 // Store all queues.
 const queues = {};

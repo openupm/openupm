@@ -1,9 +1,9 @@
 // Add build package job(s).
 
 const config = require("config");
-const { queues, addJob } = require("../../app/queues");
-const { loadPackageNames } = require("../../app/utils/package");
-const logger = require("../../app/utils/log")(module);
+const { queues, addJob } = require("../queues/core");
+const { loadPackageNames } = require("../utils/package");
+const logger = require("../utils/log")(module);
 
 // Add build package jobs for given package names.
 // If no package names provided, all packages under package folder are added.
@@ -30,7 +30,7 @@ const addBuildPackagerJobs = async function(packageNames) {
 };
 
 if (require.main === module) {
-  let program = require("../../app/utils/commander");
+  let program = require("../utils/commander");
   let packageNames = null;
   program
     .arguments("[name...]")
