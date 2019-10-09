@@ -25,7 +25,7 @@ describe("app/models/base.js", function() {
     done();
   });
 
-  describe("fetchOne", function() {
+  describe("fetchOne()", function() {
     it("simple", async function() {
       const result = {
         id: 1,
@@ -47,7 +47,7 @@ describe("app/models/base.js", function() {
     });
   });
 
-  describe("fetchOneOrThrow", function() {
+  describe("fetchOneOrThrow()", function() {
     it("simple", async function() {
       const result = {
         id: 1,
@@ -68,7 +68,7 @@ describe("app/models/base.js", function() {
     });
   });
 
-  describe("fetchAll", function() {
+  describe("fetchAll()", function() {
     it("simple", async function() {
       const results = [
         {
@@ -89,7 +89,7 @@ describe("app/models/base.js", function() {
     });
   });
 
-  describe("create", function() {
+  describe("create()", function() {
     it("simple", async function() {
       tracker.on("query", function sendResult(query, step) {
         [
@@ -106,7 +106,7 @@ describe("app/models/base.js", function() {
     });
   });
 
-  describe("update", function() {
+  describe("update()", function() {
     it("simple", async function() {
       tracker.on("query", function sendResult(query, step) {
         [
