@@ -31,7 +31,7 @@ const registerModel = function(cls, meta) {
     let query = knex(meta.table);
     if (fields) query = query.select(...fields);
     else query.select("*");
-    let record = query.where(lookup).first();
+    let record = await query.where(lookup).first();
     if (!record) return null;
     return new this(record);
   };

@@ -55,13 +55,10 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
   let releases = [];
   for (let remoteTag of remoteTags) {
     let version = getVersionFromTag(remoteTag.tag);
-    let release = await Release.fetchOne({
-      package_name: packageName,
-      version: version
-    });
+    let release = await Release.fetchOne({ packageName, version });
     if (!release) {
       let record = {
-        package_name: packageName,
+        packageName,
         version,
         commit: remoteTag.commit,
         tag: remoteTag.tag
@@ -85,7 +82,7 @@ const addReleaseJobs = async function(releases) {
     if (queue.isJobFailedCompletely(job)) {
       await queue.removeJob(job.id);
       logger.info(
-        `[release_id=${release.id}] cleaned complete failed job ${release.package_name}@${release.version}`
+        `[releaseId=${release.id}] cleaned complete failed job ${release.packageName}@${release.version}`
       );
       job = null;
     }

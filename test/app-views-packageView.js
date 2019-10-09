@@ -28,7 +28,7 @@ describe("app/views/packageView.js", function() {
           commit: "0000001",
           tag: "v0.1.0",
           state: 2,
-          build_id: "10",
+          buildId: "10",
           reason: 0
         }
       ];
@@ -53,7 +53,7 @@ describe("app/views/packageView.js", function() {
           commit: "0000001",
           tag: "v0.1.0",
           state: 2,
-          build_id: "10",
+          buildId: "10",
           reason: 0
         },
         {
@@ -61,7 +61,7 @@ describe("app/views/packageView.js", function() {
           commit: "0000002",
           tag: "v0.2.0",
           state: 2,
-          build_id: "16",
+          buildId: "16",
           reason: 0
         }
       ];

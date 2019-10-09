@@ -10,7 +10,7 @@ class Release extends ModelBase {
     return urljoin(
       config.azureDevops.buildUrlBase,
       "_apis/build/Builds/",
-      this.build_id
+      this.buildId
     );
   }
 
@@ -19,7 +19,7 @@ class Release extends ModelBase {
     return urljoin(
       config.azureDevops.buildUrlBase,
       "_build/results?buildId=",
-      this.build_id
+      this.buildId
     );
   }
 
@@ -28,7 +28,7 @@ class Release extends ModelBase {
     return urljoin(
       config.azureDevops.buildUrlBase,
       "_apis/build/builds/",
-      this.build_id,
+      this.buildId,
       "Timeline"
     );
   }
@@ -39,7 +39,7 @@ class Release extends ModelBase {
     return urljoin(
       config.azureDevops.buildUrlBase,
       "_apis/build/builds/",
-      this.build_id,
+      this.buildId,
       "logs/13"
     );
   }

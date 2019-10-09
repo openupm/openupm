@@ -28,7 +28,7 @@ let buildRelease = async function(id) {
   // Get release record.
   let release = await Release.fetchOneOrThrow(id);
   // Load package.
-  let pkg = await loadPackage(release.package_name);
+  let pkg = await loadPackage(release.packageName);
   // Update release state.
   let shouldContinue = await updateReleaseState(release);
   if (!shouldContinue) return;
@@ -64,14 +64,14 @@ const updateReleaseState = async function(release) {
     release.state == ReleaseState.Pending ||
     release.state == ReleaseState.Failed
   ) {
-    await release.update({ state: ReleaseState.Building.value, build_id: "" });
+    await release.update({ state: ReleaseState.Building.value, buildId: "" });
   }
   return true;
 };
 
 // Update release build.
 const updateReleaseBuild = async function(buildApi, pkg, release) {
-  if (!release.build_id) {
+  if (!release.buildId) {
     logger.info(`[id=${release.id}] queue build`);
     let definitionId = config.azureDevops.definitionId;
     let parameters = {
@@ -86,24 +86,24 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       })
     };
     let build = await queueBuild(buildApi, definitionId, parameters);
-    await release.update({ build_id: build.id + "" });
+    await release.update({ buildId: build.id + "" });
     await sleep(config.azureDevops.check.duration);
   }
 };
 
 // Wait release build.
 const waitReleaseBuild = async function(buildApi, release) {
-  logger.info(`[id=${release.id}] [buildId=${release.build_id}] wait build`);
-  let build = await waitBuild(buildApi, release.build_id);
+  logger.info(`[id=${release.id}] [buildId=${release.buildId}] wait build`);
+  let build = await waitBuild(buildApi, release.buildId);
   return build;
 };
 
 // Handle release build.
 const handleReleaseBuild = async function(build, release) {
   // Update publish log.
-  if (release.build_id) {
+  if (release.buildId) {
     let publishLog = await getPublishLog(release);
-    await release.update({ publish_log: publishLog });
+    await release.update({ publishLog });
   }
   // Handle build succeeded.
   if (
@@ -116,7 +116,7 @@ const handleReleaseBuild = async function(build, release) {
       reason: ReleaseReason.None.value
     });
     logger.info(
-      `[id=${release.id}] [buildId=${release.build_id}] build succeeded`
+      `[id=${release.id}] [buildId=${release.buildId}] build succeeded`
     );
   }
   // Handle build failed.
@@ -125,12 +125,12 @@ const handleReleaseBuild = async function(build, release) {
     if (build === null) reason = ReleaseReason.BuildTimeout;
     else if (build.status == BuildStatus.Cancelling)
       reason = ReleaseReason.BuildCancellation;
-    else reason = getReasonFromPublishLog(release.publish_log);
+    else reason = getReasonFromPublishLog(release.publishLog);
     await release.update({
       state: ReleaseState.Failed.value,
       reason: reason.value
     });
-    let msg = `[id=${release.id}] [buildId=${release.build_id}] build failed with reason ${reason.key}`;
+    let msg = `[id=${release.id}] [buildId=${release.buildId}] build failed with reason ${reason.key}`;
     logger.error(msg);
     // Throw error for retryable reason to retry.
     if (RetryableReleaseReason.includes(reason)) throw new Error(msg);

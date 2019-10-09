@@ -5,12 +5,12 @@ var semver = require("semver");
 const { Release } = require("../models/release");
 
 router.get("/:name", async function(req, res) {
-  let records = await Release.fetchAll({ package_name: req.params.name }, [
+  let records = await Release.fetchAll({ packageName: req.params.name }, [
     "version",
     "commit",
     "tag",
     "state",
-    "build_id",
+    "buildId",
     "reason"
   ]);
   records.sort(function(a, b) {

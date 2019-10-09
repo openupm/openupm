@@ -28,10 +28,11 @@ scripts/ - other scripts
 Use [bee-queue](https://github.com/bee-queue/bee-queue) as job queue.
 
 Define a job
-- Job id: `[job_type]:[main_id]`
+
+- Job id: `[jobType]:[key]`
 - Job payload: json object
 
-| job id              | job payload |
-|---------------------|-------------|
-| `proj:[project_id]` | `{}`        |
-| `rel:[release_id]`  | `{}`        |
+| job id                    | job payload |
+| ------------------------- | ----------- |
+| `build-pkg:[packageName]` | `{}`        |
+| `build-rel:[releaseId]`   | `{}`        |
