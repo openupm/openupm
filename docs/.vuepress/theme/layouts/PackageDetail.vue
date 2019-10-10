@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import superagent from "superagent";
 import marked from "marked";
 const urljoin = require("url-join");
 import TimeAgo from "javascript-time-ago";
@@ -144,11 +144,10 @@ export default {
       // Fetch repo readme.
       const title = "# " + this.packageName + "\n";
       try {
-        const resp = await axios.get(
-          urljoin(apiRepoUrl, this.$package.repo, "readme"),
-          { headers: { Accept: "application/vnd.github.v3.raw" } }
-        );
-        let readmeRaw = resp.data;
+        const resp = await superagent
+          .get(urljoin(apiRepoUrl, this.$package.repo, "readme"))
+          .set("accept", "application/vnd.github.v3.raw");
+        let readmeRaw = resp.text;
         // Insert h1 if need.
         if (!/^# /m.test(readmeRaw)) {
           readmeRaw = title + readmeRaw;
@@ -166,10 +165,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     async fetchRepoInfo() {
       try {
-        const resp = await axios.get(urljoin(apiRepoUrl, this.$package.repo), {
-          headers: { Accept: "application/vnd.github.v3.json" }
-        });
-        this.$data.repoInfo = resp.data;
+        const resp = await superagent
+          .get(urljoin(apiRepoUrl, this.$package.repo))
+          .set("accept", "application/vnd.github.v3.json");
+        this.$data.repoInfo = resp.body;
       } catch (error) {
         console.error(error);
       }
