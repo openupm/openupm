@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import superagent from "superagent";
+import axios from "axios";
 import marked from "marked";
 const urljoin = require("url-join");
 
@@ -225,10 +225,11 @@ export default {
       // Fetch repo readme.
       const title = "# " + this.packageName + "\n";
       try {
-        const resp = await superagent
-          .get(urljoin(apiRepoUrl, this.$package.repo, "readme"))
-          .set("accept", "application/vnd.github.v3.raw");
-        let readmeRaw = resp.text;
+        let resp = await axios.get(
+          urljoin(apiRepoUrl, this.$package.repo, "readme"),
+          { headers: { Accept: "application/vnd.github.v3.raw" } }
+        );
+        let readmeRaw = resp.data;
         // Insert h1 if need.
         if (!/^# /m.test(readmeRaw)) {
           readmeRaw = title + readmeRaw;
@@ -246,21 +247,20 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     async fetchRepoInfo() {
       try {
-        const resp = await superagent
-          .get(urljoin(apiRepoUrl, this.$package.repo))
-          .set("accept", "application/vnd.github.v3.json");
-        this.$data.repoInfo = resp.body;
+        let resp = await axios.get(urljoin(apiRepoUrl, this.$package.repo), {
+          headers: { Accept: "application/vnd.github.v3.json" }
+        });
+        this.$data.repoInfo = resp.data;
       } catch (error) {
         console.error(error);
       }
     },
     async fetchPackageInfo() {
       try {
-        const resp = await superagent
-          .get(urljoin(apiPackageUrl, this.$package.name))
-          .set("accept", "application/json");
-        this.$data.packageInfo = resp.body;
-        console.log(resp.body);
+        let resp = await axios.get(urljoin(apiPackageUrl, this.$package.name), {
+          headers: { Accept: "application/json" }
+        });
+        this.$data.packageInfo = resp.data;
       } catch (error) {
         console.error(error);
       }
