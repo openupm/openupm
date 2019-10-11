@@ -42,7 +42,7 @@
     "prettier": "^1.18.2",
     "rewire": "^4.0.1",
     "sass-loader": "^8.0.0",
-    "serve": "^11.1.0",
+    "serve": "^11.2.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
     "vuepress": "^1.1.0"
@@ -58,6 +58,7 @@
     "eol": "^0.9.1",
     "express": "^4.17.1",
     "express-reload": "^1.2.0",
+    "global": "^4.4.0",
     "graphql-request": "^1.8.2",
     "is-promise": "^2.1.0",
     "knex": "^0.19.1",
