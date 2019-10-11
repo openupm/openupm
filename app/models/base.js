@@ -85,7 +85,7 @@ class ModelBase {
   // Update given record to model and save to database.
   async update(record) {
     let meta = this.constructor.meta;
-    if (meta.hasTimestamps) knex.touchUpdateAt(record);
+    if (meta.hasTimestamps) knex.touchupdatedAt(record);
     Object.assign(this, record);
     let primaryKeyLookup = {};
     primaryKeyLookup[meta.primaryKey] = this[meta.primaryKey];

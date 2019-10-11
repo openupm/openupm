@@ -10,8 +10,8 @@ if (process.env.NODE_ENV === "test") {
   mockKnex.mock(knex);
 }
 
-// Update updateAt field to datetime now.
-knex.touchUpdateAt = function(record) {
+// Update updatedAt field to datetime now.
+knex.touchupdatedAt = function(record) {
   if (typeof record === "undefined" || record === null) record = {};
   record.updatedAt = knex.fn.now();
   return record;

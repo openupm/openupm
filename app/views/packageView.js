@@ -11,7 +11,8 @@ router.get("/:name", async function(req, res) {
     "tag",
     "state",
     "buildId",
-    "reason"
+    "reason",
+    "updatedAt"
   ]);
   records.sort(function(a, b) {
     return semver.rcompare(a["version"], b["version"]);
