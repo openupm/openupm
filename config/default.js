@@ -79,7 +79,7 @@ module.exports = {
     token: ""
   },
 
-  // Azure devops
+  // Azure devops.
   azureDevops: {
     endpoint: "https://dev.azure.com/openupm",
     token: "",

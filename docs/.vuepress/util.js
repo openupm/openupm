@@ -2,9 +2,13 @@
 
 const marked = require("marked");
 const urljoin = require("url-join");
+import TimeAgo from "javascript-time-ago";
+import en from "javascript-time-ago/locale/en";
+TimeAgo.addLocale(en);
+const timeAgo = new TimeAgo("en-US");
 
 export default {
-  // Get customized marked renderer
+  // Get customized marked renderer.
   markedRenderer: function(option) {
     const renderer = new marked.Renderer();
     const originalRendererLink = renderer.link.bind(renderer);
@@ -28,5 +32,25 @@ export default {
     };
 
     return renderer;
+  },
+
+  // Get api url.
+  apiUrl: (function() {
+    return process.env.NODE_ENV === "development"
+      ? "http://localhost:3600"
+      : "https://api.openupm.com";
+  })(),
+
+  // Get azure web build url.
+  getAzureWebBuildUrl: function(buildId) {
+    return (
+      "https://dev.azure.com/openupm/openupm/_build/results?view=logs&buildId=" +
+      buildId
+    );
+  },
+
+  // Time ago format.
+  timeAgoFormat: function(date) {
+    return timeAgo.format(date);
   }
 };

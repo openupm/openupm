@@ -4,6 +4,19 @@
     <main class="package-detail">
       <div class="main-container container">
         <div class="columns">
+          <div class="column col-12">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="/">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="/packages">Packages</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#">{{ $package.name }}</a>
+              </li>
+            </ul>
+          </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
               <div v-if="$data.readmeRaw">
@@ -43,19 +56,37 @@
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Version</h2>
-                  <span>TODO</span>
+                  <span>{{ packageVersion }}</span>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Published</h2>
-                  <span>TODO</span>
+                  <span>{{ packagePublishedAt }}</span>
                 </section>
                 <section class="col-12">
                   <h2>Build History</h2>
                   <div class="container">
-                    <div class="columns">
-                      <div class="col-6">TODO</div>
-                      <div class="col-6"></div>
-                    </div>
+                    <ul class="build-history">
+                      <li
+                        v-for="rel in packageReleases"
+                        :key="rel.id"
+                        class="columns"
+                      >
+                        <div class="col-6">
+                          <i :class="rel.class"></i>
+                          {{ rel.id }}
+                        </div>
+                        <div class="col-6">
+                          <a
+                            v-if="rel.rel.buildId"
+                            :href="rel.buildUrl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >{{ rel.text }}</a
+                          >
+                          <span v-else>{{ rel.text }}</span>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </section>
               </div>
@@ -72,23 +103,23 @@
 import superagent from "superagent";
 import marked from "marked";
 const urljoin = require("url-join");
-import TimeAgo from "javascript-time-ago";
-import en from "javascript-time-ago/locale/en";
-TimeAgo.addLocale(en);
-const timeAgo = new TimeAgo("en-US");
 
 import util from "@source/.vuepress/util";
+import { ReleaseState, ReleaseReason } from "@source/../app/models/common";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
 
 const apiRepoUrl = "https://api.github.com/repos/";
+
+const apiPackageUrl = urljoin(util.apiUrl, "/package/");
 
 export default {
   components: { ParentLayout, NavLink },
   data() {
     return {
       readmeRaw: "",
-      repoInfo: {}
+      repoInfo: {},
+      packageInfo: {}
     };
   },
   computed: {
@@ -97,6 +128,55 @@ export default {
     },
     packageName() {
       return this.$package.displayName || this.$package.name;
+    },
+    packageVersion() {
+      let releases = this.$data.packageInfo.releases;
+      if (releases && releases.length) return releases[0].version;
+      return "";
+    },
+    packagePublishedAt() {
+      let releases = this.$data.packageInfo.releases;
+      if (releases && releases.length) {
+        try {
+          const date = new Date(releases[0].updatedAt);
+          return util.timeAgoFormat(date);
+          // eslint-disable-next-line no-empty
+        } catch (error) {}
+      }
+      return "";
+    },
+    packageReleases() {
+      let releases = this.$data.packageInfo.releases;
+      if (releases && releases.length) {
+        let objs = [];
+        for (let rel of releases) {
+          let obj = {
+            id: rel.version,
+            rel: rel,
+            class: "",
+            text: "",
+            state: ReleaseState.get(rel.state),
+            reason: ReleaseReason.get(rel.reason),
+            buildUrl: util.getAzureWebBuildUrl(rel.buildId)
+          };
+          if (obj.state == ReleaseState.Pending) {
+            obj.class = "fa fa-clock-o";
+            rel.text = "pending";
+          } else if (obj.state == ReleaseState.Building) {
+            obj.class = "fa fa-spinner fa-spin";
+            rel.text = "building";
+          } else if (obj.state == ReleaseState.Succeeded) {
+            obj.class = "fa fa-check-circle text-success";
+            obj.text = "build " + rel.buildId;
+          } else if (obj.state == ReleaseState.Failed) {
+            obj.class = "fa fa-times-circle text-error";
+            rel.text = obj.reason.key;
+          }
+          objs.push(obj);
+        }
+        return objs;
+      }
+      return [];
     },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
@@ -138,6 +218,7 @@ export default {
   mounted() {
     this.fetchRepoReadme();
     this.fetchRepoInfo();
+    this.fetchPackageInfo();
   },
   methods: {
     async fetchRepoReadme() {
@@ -173,14 +254,15 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         console.error(error);
       }
     },
-    repoUpdateAt() {
+    async fetchPackageInfo() {
       try {
-        if (this.repoInfo.updated_at) {
-          const date = new Date(Date.parse(this.repoInfo.updated_at));
-          return timeAgo.format(date);
-        }
+        const resp = await superagent
+          .get(urljoin(apiPackageUrl, this.$package.name))
+          .set("accept", "application/json");
+        this.$data.packageInfo = resp.body;
+        console.log(resp.body);
       } catch (error) {
-        return "";
+        console.error(error);
       }
     }
   }
@@ -190,7 +272,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 <style lang="stylus">
 .package-detail
   .main-container
-    margin-top 2rem
+    margin-top 1rem
+    .breadcrumb
+      margin-bottom 0.8rem
 
     .theme-default-content
       max-width auto
@@ -207,11 +291,15 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         font-weight 600
         border-bottom none
 
-      a, h2, p, span
+      a, h2, p, span, ul, li
         font-size 0.75rem
 
       section
         border-bottom 1px solid $borderColor
         padding-bottom 0.5rem
         margin-bottom 0.7rem
+
+      ul.build-history
+        margin 0;
+        list-style none
 </style>
