@@ -38,7 +38,7 @@ module.exports = {
               package: doc
             };
             // Page info.
-            const pageUrl = "/packages/" + packageName;
+            const pageUrl = "/packages/" + packageName + ".html";
             const pageContent =
               "---\n" + yaml.safeDump(frontmatter) + "\n---\n";
             return { path: pageUrl, content: pageContent };
