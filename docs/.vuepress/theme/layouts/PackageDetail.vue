@@ -273,8 +273,6 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 .package-detail
   .main-container
     margin-top 1rem
-    .breadcrumb
-      margin-bottom 0.8rem
 
     .theme-default-content
       max-width auto

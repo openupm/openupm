@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
 const { description } = require("../../package");
-const packages = require("./packages");
 
 module.exports = {
   title: "OpenUPM",
@@ -56,25 +54,24 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: {
-    "@vuepress/plugin-back-to-top": {},
-    "@vuepress/plugin-medium-zoom": {},
-    "vuepress-plugin-clean-urls": {
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "vuepress-plugin-clean-urls",
+    {
       normalSuffix: "/",
       indexSuffix: "/",
       notFoundPath: "/404.html"
-    }
-  },
+    },
+    require("./plugins/openupm-packages")
+  ],
 
+  // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {
     config.module
       .rule("yaml")
       .test(/\.ya?ml$/)
       .use("js-yaml-loader")
       .loader("js-yaml-loader");
-  },
-
-  async additionalPages() {
-    return await packages.additionalPages();
   }
 };
