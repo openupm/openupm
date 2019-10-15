@@ -33,7 +33,7 @@ module.exports = (options, context) => ({
         package: pkg
       };
       pages.push({
-        path: "/packages/" + pkg.name + ".html",
+        path: "/packages/" + pkg.name + "/",
         content: createContent(frontmatter)
       });
     }
