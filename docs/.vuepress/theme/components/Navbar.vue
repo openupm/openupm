@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ParentLayout></ParentLayout>
+    <ParentLayout @toggle-sidebar="$emit('toggle-sidebar')"></ParentLayout>
     <div class="wip label label-secondary label-rounded">under development</div>
   </div>
 </template>

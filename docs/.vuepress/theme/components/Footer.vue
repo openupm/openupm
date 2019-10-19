@@ -2,41 +2,45 @@
   <div class="footer">
     <div class="inner container">
       <div class="columns">
-        <div class="column col-3 col-md-6 col-sm-12">
+        <div class="column col-4 col-md-6 col-sm-12">
           <h5>OpenUPM</h5>
           <p>{{ description }}</p>
         </div>
-        <div class="column col-2 col-md-2 col-sm-4">
-          <h5>About</h5>
-          <ul>
-            <li v-for="(link, index) in aboutLinks" :key="index">
-              <NavLink class :item="link" />
-            </li>
-          </ul>
+        <div class="column col-5 col-md-6 col-sm-12">
+          <div class="columns">
+            <div class="column col-4 col-md-4 col-sm-4">
+              <h5>About</h5>
+              <ul>
+                <li v-for="(link, index) in aboutLinks" :key="index">
+                  <NavLink class :item="link" />
+                </li>
+              </ul>
+            </div>
+            <div class="column col-4 col-md-4 col-sm-4">
+              <h5>Connect</h5>
+              <ul>
+                <li v-for="(link, index) in connectLinks" :key="index">
+                  <NavLink class :item="link" />
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="column col-4 col-md-4 col-sm-4">
+              <h5>Operation</h5>
+              <ul>
+                <li v-for="(link, index) in opLinks" :key="index">
+                  <NavLink class :item="link" />
+                </li>
+              </ul>
+            </div> -->
+          </div>
         </div>
-        <div class="column col-2 col-md-2 col-sm-4">
-          <h5>Connect</h5>
-          <ul>
-            <li v-for="(link, index) in connectLinks" :key="index">
-              <NavLink class :item="link" />
-            </li>
-          </ul>
-        </div>
-        <div class="column col-2 col-md-2 col-sm-4">
-          <h5>Operation</h5>
-          <ul>
-            <li v-for="(link, index) in opLinks" :key="index">
-              <NavLink class :item="link" />
-            </li>
-          </ul>
-        </div>
-        <div class="column col-3 col-md-6 col-sm-12">
+        <!-- <div class="column col-4 col-md-6 col-sm-12">
           <h5>Follow us to get the latest updates</h5>
           <div class="input-group">
             <input type="text" class="form-input" placeholder="email address" />
             <button class="btn btn-primary input-group-btn">Subscribe</button>
           </div>
-        </div>
+        </div> -->
         <div class="column col-12">
           <small>Copyright @ 2019 Favo Yang</small>
         </div>
@@ -67,9 +71,7 @@ export default {
     connectLinks() {
       return [
         { link: this.$site.themeConfig.repo, text: "GitHub" },
-        { link: "", text: "Blog" },
-        { link: "", text: "Twitter" },
-        { link: "", text: "Unity Connect" },
+        // { link: "", text: "Blog" },
         { link: "mailto:hello@openupm.com", text: "Contact" }
       ];
     },
