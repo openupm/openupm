@@ -9,7 +9,7 @@ const tracker = mockKnex.getTracker();
 
 const { app } = require("../app");
 
-describe("app/views/packageView.js", function() {
+describe("app/views/packagesView.js", function() {
   beforeEach(function(done) {
     tracker.install();
     done();
@@ -20,7 +20,7 @@ describe("app/views/packageView.js", function() {
     done();
   });
 
-  describe("/package/:name", function() {
+  describe("/packages/:name", function() {
     it("simple", function(done) {
       const results = [
         {
@@ -36,7 +36,7 @@ describe("app/views/packageView.js", function() {
         query.response(results);
       });
       request(app)
-        .get("/package/the-package-name")
+        .get("/packages/the-package-name")
         .set("Accept", "application/json")
         .expect("Content-Type", /json/)
         .expect(200)
@@ -69,7 +69,7 @@ describe("app/views/packageView.js", function() {
         query.response(results);
       });
       request(app)
-        .get("/package/the-package-name")
+        .get("/packages/the-package-name")
         .set("Accept", "application/json")
         .expect("Content-Type", /json/)
         .expect(200)
@@ -85,7 +85,7 @@ describe("app/views/packageView.js", function() {
         query.response(results);
       });
       request(app)
-        .get("/package/package-not-exist")
+        .get("/packages/package-not-exist")
         .set("Accept", "application/json")
         .expect("Content-Type", /json/)
         .expect(200)

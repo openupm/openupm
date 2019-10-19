@@ -9,8 +9,20 @@ const yaml = require("js-yaml");
 const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
 
-// Package path.
-const packagesDir = path.resolve(__dirname, "../../packages");
+// Paths.
+const dataDir = path.resolve(__dirname, "../../data");
+const packagesDir = path.resolve(dataDir, "packages");
+
+// Load topics.
+const loadTopics = async function() {
+  try {
+    let absPath = path.resolve(dataDir, "topics.yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8"));
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
+};
 
 // Load package by name.
 const loadPackage = async function(name) {
@@ -72,9 +84,8 @@ const preparePackage = function(doc) {
 
 module.exports = {
   cleanRepoUrl,
+  loadTopics,
   loadPackage,
   loadPackageSync,
-  loadPackageNames,
-  packagesDir,
-  preparePackage
+  loadPackageNames
 };

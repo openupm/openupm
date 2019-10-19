@@ -1,3 +1,4 @@
+const path = require("path");
 const { description } = require("../../package");
 
 module.exports = {
@@ -18,12 +19,10 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href:
-          "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        href: "https://use.fontawesome.com/releases/v5.11.2/css/all.css"
       }
     ]
   ],
-
   themeConfig: {
     repo: "https://github.com/openupm/openupm",
     editLinks: false,
@@ -50,7 +49,6 @@ module.exports = {
       }
     ]
   },
-
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
@@ -58,14 +56,8 @@ module.exports = {
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-clean-urls",
-    {
-      normalSuffix: "/",
-      indexSuffix: "/",
-      notFoundPath: "/404.html"
-    },
     require("./plugins/openupm-packages")
   ],
-
   // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {
     config.module
@@ -73,5 +65,8 @@ module.exports = {
       .test(/\.ya?ml$/)
       .use("js-yaml-loader")
       .loader("js-yaml-loader");
+  },
+  alias: {
+    "@root": path.resolve(__dirname, "../../")
   }
 };

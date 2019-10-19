@@ -12,7 +12,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
-    "docs:serve": "serve -s ./docs/.vuepress/dist",
+    "docs:serve": "serve ./docs/.vuepress/dist",
     "server": "node server.js",
     "server:dev": "nodemon --watch app server.js",
     "db:inspect": "node ./scripts/dbInspect.js",

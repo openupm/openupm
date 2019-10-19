@@ -10,8 +10,8 @@ licenseUrl: https://github.com/favoyang/unity-addressable-importer/blob/master/L
 # Package info.
 name: com.littlebigfun.addressable-importer
 displayName: Unity Addressable Importer
-description: A simple rule based addressable asset importer
+description: A simple rule based addressable asset importer.
 
 # Add-ons.
-category: asset-management
+topics: asset-management
 hunter:

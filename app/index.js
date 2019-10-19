@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const packageView = require("./views/packageView");
+const packagesView = require("./views/packagesView");
 const app = express();
 
 app.use(bodyParser.json());
@@ -28,6 +28,6 @@ app.get("/", (req, res) => {
 });
 
 // Package
-app.use("/package/", packageView);
+app.use("/packages/", packagesView);
 
 module.exports = { app };

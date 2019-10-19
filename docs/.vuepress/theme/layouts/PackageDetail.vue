@@ -3,14 +3,14 @@
   <ParentLayout>
     <main class="package-detail">
       <div class="main-container container">
-        <div class="columns">
+        <div class="columns breadcrumb-wrap">
           <div class="column col-12">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
                 <a href="/">Home</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="/packages">Packages</a>
+                <a href="/packages/">Packages</a>
               </li>
               <li class="breadcrumb-item">
                 <a href="#">{{ $package.name }}</a>
@@ -104,14 +104,14 @@ import axios from "axios";
 import marked from "marked";
 const urljoin = require("url-join");
 
-import util from "@source/.vuepress/util";
-import { ReleaseState, ReleaseReason } from "@source/../app/models/common";
+import util from "@root/docs/.vuepress/util";
+import { ReleaseState, ReleaseReason } from "@root/app/models/common";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
 
 const apiRepoUrl = "https://api.github.com/repos/";
 
-const apiPackageUrl = urljoin(util.apiUrl, "/package/");
+const apiPackageUrl = urljoin(util.apiUrl, "/packages/");
 
 export default {
   components: { ParentLayout, NavLink },

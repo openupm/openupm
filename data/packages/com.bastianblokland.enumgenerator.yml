@@ -1,0 +1,17 @@
+# Project info.
+repoUrl: https://github.com/BastianBlokland/enum-generator-unity
+repoBranch: master
+packagePath:
+isFork: false
+licenseSpdxId: MIT
+licenseName: MIT License
+licenseUrl: https://github.com/BastianBlokland/enum-generator-unity/blob/master/LICENSE
+
+# Package info.
+name: com.bastianblokland.enumgenerator
+displayName: Enum Generator
+description: Tool for generating c# enums based on json input files.
+
+# Add-ons.
+topics: utilities
+hunter:
