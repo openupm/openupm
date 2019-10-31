@@ -224,7 +224,7 @@ export default {
         );
         let readmeRaw = resp.data;
         // Insert h1 if need.
-        if (!/^# /m.test(readmeRaw)) {
+        if (!/^# /m.test(readmeRaw) && !/^====/m.test(readmeRaw)) {
           readmeRaw = title + readmeRaw;
         }
         this.$data.readmeRaw = readmeRaw;
