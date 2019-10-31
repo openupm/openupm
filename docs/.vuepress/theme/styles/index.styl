@@ -3,6 +3,16 @@
 @import './spectre/spectre-exp.styl'
 @import './spectre/spectre-icons.styl'
 
+.tooltip-click:hover::after {
+  opacity: 0;
+}
+
+.tooltip-click:focus::after,
+.tooltip-click:active::after {
+  opacity: 1;
+  transform: translate(-50%, -.2rem);
+}
+
 // Fix documentation style issues caused by spectre overriden.
 h1, .h1
   font-size 1.8rem

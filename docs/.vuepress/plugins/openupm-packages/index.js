@@ -1,4 +1,5 @@
 // OpenUPM Package Plugin.
+const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 const {
   loadTopics,
@@ -41,7 +42,7 @@ module.exports = (options, context) => ({
       else return pkg.topics == topicSlug;
     };
     // Load topics.
-    let topics = [{ name: "All", slug: "" }]
+    let topicsWithAll = [{ name: "All", slug: "" }]
       .concat((await loadTopics()).topics)
       .map(topic => {
         return {
@@ -51,23 +52,24 @@ module.exports = (options, context) => ({
             .length
         };
       });
+    let topics = topicsWithAll.slice(1);
     // Pages
     let pages = [];
-    let createContent = fm => "---\n" + yaml.safeDump(fm) + "\n---\n";
+    let createPageContent = fm => "---\n" + yaml.safeDump(fm) + "\n---\n";
     // List pages.
-    for (let topic of topics) {
+    for (let topic of topicsWithAll) {
       // Skip topic with no packages.
       if (topic.slug && topic.count == 0) continue;
       let frontmatter = {
         layout: "PackageList",
         title: topic.slug ? `Packages - ${topic.name}` : "Packages",
-        topics,
+        topics: topicsWithAll,
         topic,
         packages: packages.filter(pkg => packageTopicFilter(pkg, topic.slug))
       };
       pages.push({
         path: topic.link,
-        content: createContent(frontmatter)
+        content: createPageContent(frontmatter)
       });
     }
     // Detail pages.
@@ -79,9 +81,28 @@ module.exports = (options, context) => ({
       };
       pages.push({
         path: "/packages/" + pkg.name + "/",
-        content: createContent(frontmatter)
+        content: createPageContent(frontmatter)
       });
     }
+    // Add pages.
+    pages.push({
+      path: "/packages/add/",
+      content: createPageContent({
+        layout: "PackageAdd",
+        title: "Package Add",
+        licenses: Object.keys(spdx)
+          .sort(function(a, b) {
+            return spdx[a].name
+              .toLowerCase()
+              .localeCompare(spdx[b].name.toLowerCase());
+          })
+          .map(function(key) {
+            return { id: key, name: spdx[key].name };
+          }),
+        packageNames,
+        topics
+      })
+    });
     return pages;
   }
 });

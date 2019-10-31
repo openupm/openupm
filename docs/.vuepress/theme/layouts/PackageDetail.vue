@@ -44,8 +44,7 @@
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>License</h2>
-                  <NavLink v-if="$package.licenseUrl" :item="licenseNavLink" />
-                  <span v-else>{{ $package.licenseName }}</span>
+                  <span>{{ $package.licenseName }}</span>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Stars</h2>
@@ -206,12 +205,6 @@ export default {
       return {
         link: this.$package.hunterUrl,
         text: this.$package.hunter
-      };
-    },
-    licenseNavLink() {
-      return {
-        link: this.$package.licenseUrl,
-        text: this.$package.licenseName
       };
     }
   },

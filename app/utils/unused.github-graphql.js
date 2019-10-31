@@ -21,7 +21,7 @@ query RepoInfo($owner: String!, $name: String!, $tree: String!) {
       avatarUrl
     }
     description
-    isFork
+    fork
     isArchived
     stargazers {
       totalCount

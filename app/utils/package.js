@@ -77,7 +77,7 @@ const preparePackage = function(doc) {
     doc.hunterUrl = null;
   }
   if (doc.licenseSpdxId) {
-    doc.licenseName = spdx[doc.licenseSpdxId]["name"];
+    doc.licenseName = spdx[doc.licenseSpdxId].name;
   }
   return doc;
 };

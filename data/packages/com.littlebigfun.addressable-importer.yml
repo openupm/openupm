@@ -1,11 +1,10 @@
 # Project info.
 repoUrl: https://github.com/favoyang/unity-addressable-importer
 repoBranch: master
-packagePath:
-isFork: false
+packageFolder:
+fork: false
 licenseSpdxId: MIT
 licenseName: MIT License
-licenseUrl: https://github.com/favoyang/unity-addressable-importer/blob/master/LICENSE.md
 
 # Package info.
 name: com.littlebigfun.addressable-importer

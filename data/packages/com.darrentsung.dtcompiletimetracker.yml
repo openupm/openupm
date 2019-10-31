@@ -1,11 +1,10 @@
 # Project info.
 repoUrl: https://github.com/DarrenTsung/DTCompileTimeTracker
 repoBranch: master
-packagePath:
-isFork: false
+packageFolder:
+fork: false
 licenseSpdxId: MIT
 licenseName: MIT License
-licenseUrl: https://github.com/DarrenTsung/DTCompileTimeTracker/blob/master/License.md
 
 # Package info.
 name: com.darrentsung.dtcompiletimetracker

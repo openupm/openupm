@@ -35,6 +35,8 @@ topics:
   slug: particles-n-effects
 - name: Physics
   slug: physics
+- name: Shaders
+  slug: shaders
 - name: Sprite Management
   slug: sprite-management
 - name: Terrain
