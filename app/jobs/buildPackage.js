@@ -2,7 +2,7 @@
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
 
-const { Release } = require("../models/release");
+const Release = require("../models/release");
 const {
   ReleaseState,
   ReleaseReason,
@@ -24,6 +24,10 @@ const buildPackage = async function(name) {
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
   remoteTags = filterRemoteTags(remoteTags);
   remoteTags.reverse();
+  if (!remoteTags.length) {
+    logger.info(`[pkg=${name}] no valid tags found.`);
+    return;
+  }
   // Update release records.
   logger.info(`[pkg=${name}] update release records`);
   let releases = await updateReleaseRecords(pkg.name, remoteTags);
@@ -55,7 +59,7 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
   let releases = [];
   for (let remoteTag of remoteTags) {
     let version = getVersionFromTag(remoteTag.tag);
-    let release = await Release.fetchOne({ packageName, version });
+    let release = await Release.fetchOne(packageName, version);
     if (!release) {
       let record = {
         packageName,
@@ -63,7 +67,7 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
         commit: remoteTag.commit,
         tag: remoteTag.tag
       };
-      release = await Release.create(record);
+      release = await Release.save(record);
     }
     releases.push(release);
   }
@@ -74,15 +78,16 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
 const addReleaseJobs = async function(releases) {
   let queue = queues.main.emitter;
   let i = 0;
-  for (let release of releases) {
-    let reason = ReleaseReason.get(release.reason);
-    let jobId = config.jobs.buildRelease.key + ":" + release.id;
+  for (let rel of releases) {
+    let reason = ReleaseReason.get(rel.reason);
+    let jobId =
+      config.jobs.buildRelease.key + ":" + rel.packageName + ":" + rel.version;
     let job = await queue.getJob(jobId);
     // Clean complete failed job to continue
     if (queue.isJobFailedCompletely(job)) {
       await queue.removeJob(job.id);
       logger.info(
-        `[releaseId=${release.id}] cleaned complete failed job ${release.packageName}@${release.version}`
+        `[releaseId=${rel.id}] cleaned complete failed job ${rel.packageName}@${rel.version}`
       );
       job = null;
     }
@@ -92,8 +97,8 @@ const addReleaseJobs = async function(releases) {
     // - release failed and no need to retry.
     if (
       job ||
-      release.state == ReleaseState.Succeeded ||
-      (release.state == ReleaseReason.Failed &&
+      rel.state == ReleaseState.Succeeded ||
+      (rel.state == ReleaseReason.Failed &&
         !RetryableReleaseReason.includes(reason))
     )
       continue;

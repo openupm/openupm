@@ -55,6 +55,12 @@ const loadPackageNames = async function() {
     .map(p => p.replace(/\.ya?ml$/, ""));
 };
 
+// Verify package name.
+const packageExists = function(name) {
+  let absPath = path.resolve(packagesDir, name + ".yml");
+  return fs.existsSync(absPath);
+};
+
 // Get clean repo url.
 const cleanRepoUrl = function(url, format) {
   if (!format) format = "https";
@@ -87,5 +93,6 @@ module.exports = {
   loadTopics,
   loadPackage,
   loadPackageSync,
-  loadPackageNames
+  loadPackageNames,
+  packageExists
 };

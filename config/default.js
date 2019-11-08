@@ -15,22 +15,6 @@ module.exports = {
     options: {}
   },
 
-  // Database.
-  knex: {
-    client: "pg",
-    connection: {
-      user: "openupm",
-      password: "openupm",
-      host: "localhost",
-      port: 5432,
-      database: "openupm"
-    },
-    pool: { min: 0, max: 10 },
-    migrations: {
-      tableName: "knex_migrations"
-    }
-  },
-
   // Queue settings.
   queueSettings: {
     emitter: {

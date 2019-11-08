@@ -2,16 +2,20 @@
 
 const config = require("config");
 const { queues, addJob } = require("../queues/core");
-const { loadPackageNames } = require("../utils/package");
+const { loadPackageNames, packageExists } = require("../utils/package");
 const logger = require("../utils/log")(module);
 
 // Add build package jobs for given package names.
 // If no package names provided, all packages under package folder are added.
 const addBuildPackagerJobs = async function(packageNames) {
-  if (!packageNames || !packageNames.length)
-    packageNames = await loadPackageNames();
+  if (!packageNames) packageNames = [];
   let queue = queues.main.emitter;
   for (let name of packageNames) {
+    // Verify package.
+    if (!packageExists(name)) {
+      logger.error(`[pkg=${name}] package doesn't exist.`);
+      continue;
+    }
     let jobId = config.jobs.buildPackage.key + ":" + name;
     let job = await queue.getJob(jobId);
     // Clean complete failed job to continue.
@@ -33,10 +37,15 @@ if (require.main === module) {
   let program = require("../utils/commander");
   let packageNames = null;
   program
+    .option("--all", "add jobs for all packages")
     .arguments("[name...]")
     .action(function(names) {
       packageNames = names;
     })
     .parse(process.argv)
-    .run(addBuildPackagerJobs, packageNames);
+    .run(async function() {
+      if (program.all) packageNames = await loadPackageNames();
+      if (packageNames === null || !packageNames.length) program.help();
+      await addBuildPackagerJobs(packageNames);
+    });
 }

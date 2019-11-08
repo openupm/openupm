@@ -18,8 +18,9 @@ var dispatch = function(queue) {
           let packageName = sections[1];
           await buildPackage(packageName);
         } else if (sections[0] == config.jobs.buildRelease.key) {
-          let releaseId = parseInt(sections[1]);
-          await buildRelease(releaseId);
+          let packageName = sections[1];
+          let version = sections[2];
+          await buildRelease(packageName, version);
         } else {
           throw new Error(`unknown job type ${sections[0]}`);
         }

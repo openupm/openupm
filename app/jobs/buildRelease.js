@@ -12,7 +12,7 @@ const {
   ReleaseReason,
   RetryableReleaseReason
 } = require("../models/common");
-const { Release } = require("../models/release");
+const Release = require("../models/release");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const {
   getBuildApi,
@@ -23,10 +23,10 @@ const {
 } = require("../utils/azure");
 const logger = require("../utils/log")(module);
 
-// Build release for given id.
-let buildRelease = async function(id) {
+// Build release for given packageName and version.
+let buildRelease = async function(packageName, version) {
   // Get release record.
-  let release = await Release.fetchOneOrThrow(id);
+  let release = await Release.fetchOneOrThrow(packageName, version);
   // Load package.
   let pkg = await loadPackage(release.packageName);
   // Update release state.
@@ -55,16 +55,17 @@ const updateReleaseState = async function(release) {
   } else if (
     release.state == ReleaseState.Failed &&
     release.reason == ReleaseReason.BuildTimeout
-  )
-    await release.update({
-      state: ReleaseState.Building.value,
-      reason: ReleaseReason.None.value
-    });
-  else if (
+  ) {
+    release.state = ReleaseState.Building.value;
+    release.reason = ReleaseReason.None.value;
+    await Release.save(release);
+  } else if (
     release.state == ReleaseState.Pending ||
     release.state == ReleaseState.Failed
   ) {
-    await release.update({ state: ReleaseState.Building.value, buildId: "" });
+    release.state = ReleaseState.Building.value;
+    release.buildId = "";
+    await Release.save(release);
   }
   return true;
 };
@@ -86,7 +87,9 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       })
     };
     let build = await queueBuild(buildApi, definitionId, parameters);
-    await release.update({ buildId: build.id + "" });
+    // eslint-disable-next-line require-atomic-updates
+    release.buildId = build.id + "";
+    await Release.save(release);
     await sleep(config.azureDevops.check.duration);
   }
 };
@@ -101,20 +104,19 @@ const waitReleaseBuild = async function(buildApi, release) {
 // Handle release build.
 const handleReleaseBuild = async function(build, release) {
   // Update publish log.
-  if (release.buildId) {
-    let publishLog = await getPublishLog(release);
-    await release.update({ publishLog });
-  }
+  let publishLog = "";
+  if (release.buildId) publishLog = await getPublishLog(release);
   // Handle build succeeded.
   if (
     build &&
     build.status == BuildStatus.Completed &&
     build.result == BuildResult.Succeeded
   ) {
-    await release.update({
-      state: ReleaseState.Succeeded.value,
-      reason: ReleaseReason.None.value
-    });
+    // eslint-disable-next-line require-atomic-updates
+    release.state = ReleaseState.Succeeded.value;
+    // eslint-disable-next-line require-atomic-updates
+    release.reason = ReleaseReason.None.value;
+    await Release.save(release);
     logger.info(
       `[id=${release.id}] [buildId=${release.buildId}] build succeeded`
     );
@@ -125,11 +127,12 @@ const handleReleaseBuild = async function(build, release) {
     if (build === null) reason = ReleaseReason.BuildTimeout;
     else if (build.status == BuildStatus.Cancelling)
       reason = ReleaseReason.BuildCancellation;
-    else reason = getReasonFromPublishLog(release.publishLog);
-    await release.update({
-      state: ReleaseState.Failed.value,
-      reason: reason.value
-    });
+    else reason = getReasonFromPublishLog(publishLog);
+    // eslint-disable-next-line require-atomic-updates
+    release.state = ReleaseState.Failed.value;
+    // eslint-disable-next-line require-atomic-updates
+    release.reason = reason.value;
+    await Release.save(release);
     let msg = `[id=${release.id}] [buildId=${release.buildId}] build failed with reason ${reason.key}`;
     logger.error(msg);
     // Throw error for retryable reason to retry.
@@ -151,7 +154,7 @@ const getBuildName = function({ releaseId, packageName, packageVersion }) {
 
 // Get publish log
 const getPublishLog = async function(release) {
-  let resp = await superagent.get(release.buildPublishResultUrl);
+  let resp = await superagent.get(Release.buildPublishResultUrl(release));
   return resp.text;
 };
 
@@ -173,13 +176,15 @@ module.exports = { buildRelease };
 
 if (require.main === module) {
   let program = require("../utils/commander");
-  let releaseId = null;
+  let packageNameVal = null;
+  let versionVal = null;
   program
-    .arguments("<id>")
-    .action(function(id) {
-      releaseId = parseInt(id);
+    .arguments("<packageName> <version>")
+    .action(function(packageName, version) {
+      packageNameVal = packageName;
+      versionVal = version;
     })
     .requiredArgs(1)
     .parse(process.argv)
-    .run(buildRelease, releaseId);
+    .run(buildRelease, packageNameVal, versionVal);
 }
