@@ -4,7 +4,7 @@ const assert = require("assert");
 const should = require("should");
 const rewire = require("rewire");
 const request = require("supertest");
-const _ = require("lodash");
+const { omit } = require("lodash");
 
 const { app } = require("../app");
 const redis = require("../app/db/redis");
@@ -56,7 +56,7 @@ describe("app/views/packagesView.js", function() {
         .end(function(err, res) {
           if (err) return done(err);
           res.body.releases
-            .map(x => _.omit(x, ["updatedAt"]))
+            .map(x => omit(x, ["updatedAt"]))
             .should.deepEqual([releases[1], releases[0]]);
           done();
         });

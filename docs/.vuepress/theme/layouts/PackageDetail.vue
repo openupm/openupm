@@ -63,6 +63,7 @@
                 </section>
                 <section class="col-12">
                   <h2>Build History</h2>
+                  <p v-if="noTagsFound">No tags was found in <NavLink :item="tagsNavLink" />.</p>
                   <div class="container">
                     <ul class="build-history">
                       <li
@@ -87,6 +88,11 @@
                       </li>
                     </ul>
                   </div>
+                </section>
+                <section v-if="packageInvalidTags.length" class="col-12">
+                  <h2 class="tooltip tooltip-top" data-tooltip="Non-semver tags will not be built.">
+                    Non-semver Tags</h2>
+                   <p>{{ packageInvalidTagsString }}</p>
                 </section>
               </div>
             </div>
@@ -118,7 +124,8 @@ export default {
     return {
       readmeRaw: "",
       repoInfo: {},
-      packageInfo: {}
+      packageInfo: {},
+      noTagsFound: false
     };
   },
   computed: {
@@ -177,6 +184,22 @@ export default {
       }
       return [];
     },
+    packageInvalidTags() {
+      return this.$data.packageInfo.invalidTags || [];
+    },
+    packageInvalidTagsString() {
+      let tags = this.packageInvalidTags;
+      if (tags.length == 2)
+        return `${tags[0]} and ${tags[1]}.`;
+      else if (tags.length == 1)
+        return tags[0] + ".";
+      else if (tags.length == 0)
+        return "";
+      else {
+        let num = tags.length - 2;
+        return `${tags[0]}, ${tags[1]} and ${num} more.`;
+      }
+    },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
@@ -206,11 +229,18 @@ export default {
         link: this.$package.hunterUrl,
         text: this.$package.hunter
       };
+    },
+    tagsNavLink() {
+      return {
+        link: urljoin(this.$package.repoUrl, "tags"),
+        text: "releases/tags"
+      };
     }
   },
   mounted() {
     this.fetchRepoReadme();
     this.fetchRepoInfo();
+    this.fetchRepoTagsInfo();
     this.fetchPackageInfo();
   },
   methods: {
@@ -244,6 +274,16 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
           headers: { Accept: "application/vnd.github.v3.json" }
         });
         this.$data.repoInfo = resp.data;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async fetchRepoTagsInfo() {
+      try {
+        let resp = await axios.get(urljoin(apiRepoUrl, this.$package.repo, "tags"), {
+          headers: { Accept: "application/vnd.github.v3.json" }
+        });
+        this.$data.noTagsFound = resp.data.length == 0;
       } catch (error) {
         console.error(error);
       }

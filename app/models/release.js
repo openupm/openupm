@@ -10,7 +10,7 @@
 const config = require("config");
 const urljoin = require("url-join");
 const redis = require("../db/redis");
-const pick = require("lodash").pick;
+const { pick } = require("lodash");
 
 const releaseKey = "rel:";
 const releaseFields = [

@@ -1,8 +1,10 @@
 // Build package job
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
+const { difference } = require("lodash");
 
 const Release = require("../models/release");
+const PackageExtra = require("../models/packageExtra");
 const {
   ReleaseState,
   ReleaseReason,
@@ -22,15 +24,17 @@ const buildPackage = async function(name) {
   // Get remote tags.
   logger.info(`[pkg=${name}] get remote tags`);
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
-  remoteTags = filterRemoteTags(remoteTags);
-  remoteTags.reverse();
-  if (!remoteTags.length) {
+  let validTags = filterRemoteTags(remoteTags);
+  validTags.reverse();
+  let invalidTags = difference(remoteTags, validTags);
+  await PackageExtra.setInvalidTags(name, invalidTags);
+  if (!validTags.length) {
     logger.info(`[pkg=${name}] no valid tags found.`);
     return;
   }
   // Update release records.
   logger.info(`[pkg=${name}] update release records`);
-  let releases = await updateReleaseRecords(pkg.name, remoteTags);
+  let releases = await updateReleaseRecords(pkg.name, validTags);
   // Add necessary build release jobs.
   logger.info(`[pkg=${name}] add release jobs`);
   await addReleaseJobs(releases);
