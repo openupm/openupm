@@ -63,7 +63,9 @@
                 </section>
                 <section class="col-12">
                   <h2>Build History</h2>
-                  <p v-if="noTagsFound">No tags was found in <NavLink :item="tagsNavLink" />.</p>
+                  <p v-if="noTagsFound">
+                    No tags was found in <NavLink :item="tagsNavLink" />.
+                  </p>
                   <div class="container">
                     <ul class="build-history">
                       <li
@@ -90,9 +92,13 @@
                   </div>
                 </section>
                 <section v-if="packageInvalidTags.length" class="col-12">
-                  <h2 class="tooltip tooltip-top" data-tooltip="Non-semver tags will not be built.">
-                    Non-semver Tags</h2>
-                   <p>{{ packageInvalidTagsString }}</p>
+                  <h2
+                    class="tooltip tooltip-top"
+                    data-tooltip="Non-semver tags will not be built."
+                  >
+                    Non-semver Tags
+                  </h2>
+                  <p>{{ packageInvalidTagsString }}</p>
                 </section>
               </div>
             </div>
@@ -189,12 +195,9 @@ export default {
     },
     packageInvalidTagsString() {
       let tags = this.packageInvalidTags;
-      if (tags.length == 2)
-        return `${tags[0]} and ${tags[1]}.`;
-      else if (tags.length == 1)
-        return tags[0] + ".";
-      else if (tags.length == 0)
-        return "";
+      if (tags.length == 2) return `${tags[0]} and ${tags[1]}.`;
+      else if (tags.length == 1) return tags[0] + ".";
+      else if (tags.length == 0) return "";
       else {
         let num = tags.length - 2;
         return `${tags[0]}, ${tags[1]} and ${num} more.`;
@@ -280,9 +283,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     async fetchRepoTagsInfo() {
       try {
-        let resp = await axios.get(urljoin(apiRepoUrl, this.$package.repo, "tags"), {
-          headers: { Accept: "application/vnd.github.v3.json" }
-        });
+        let resp = await axios.get(
+          urljoin(apiRepoUrl, this.$package.repo, "tags"),
+          {
+            headers: { Accept: "application/vnd.github.v3.json" }
+          }
+        );
         this.$data.noTagsFound = resp.data.length == 0;
       } catch (error) {
         console.error(error);
