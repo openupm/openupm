@@ -16,6 +16,8 @@ const ReleaseReason = new Enum({
   Unauthorized: 401,
   // Permission error.
   Forbidden: 403,
+  // Entity too large
+  EntityTooLarge: 413,
   // Publish Version conflict.
   VersionConflict: 409,
   // Server internal error.
@@ -38,6 +40,7 @@ const ReleaseReason = new Enum({
 const RetryableReleaseReason = [
   ReleaseReason.Unauthorized,
   ReleaseReason.Forbidden,
+  ReleaseReason.EntityTooLarge,
   ReleaseReason.InternalError,
   ReleaseReason.BadGateway,
   ReleaseReason.ServiceUnavailable,

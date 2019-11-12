@@ -165,6 +165,7 @@ const getReasonFromPublishLog = function(text) {
     return ReleaseReason.PackageNotFound;
   else if (text.includes("error code E401")) return ReleaseReason.Unauthorized;
   else if (text.includes("error code E403")) return ReleaseReason.Forbidden;
+  else if (text.includes("error code E413")) return ReleaseReason.EntityTooLarge;
   else if (text.includes("error code E500")) return ReleaseReason.InternalError;
   else if (text.includes("error code E502")) return ReleaseReason.BadGateway;
   else if (text.includes("error code E503"))
