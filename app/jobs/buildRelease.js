@@ -50,7 +50,9 @@ let buildRelease = async function(packageName, version) {
  */
 const updateReleaseState = async function(release) {
   if (release.state == ReleaseState.Succeeded) {
-    logger.info(`[id=${release.id}] skip for succeeded state`);
+    logger.info(
+      `[rel=${release.packageName}@${release.version}] skip for succeeded state`
+    );
     return false;
   } else if (
     release.state == ReleaseState.Failed &&
@@ -73,7 +75,7 @@ const updateReleaseState = async function(release) {
 // Update release build.
 const updateReleaseBuild = async function(buildApi, pkg, release) {
   if (!release.buildId) {
-    logger.info(`[id=${release.id}] queue build`);
+    logger.info(`[rel=${release.packageName}@${release.version}] queue build`);
     let definitionId = config.azureDevops.definitionId;
     let parameters = {
       repoUrl: cleanRepoUrl(pkg.repoUrl, "https"),
@@ -81,7 +83,6 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       packageName: pkg.name,
       packageVersion: release.version,
       buildName: getBuildName({
-        releaseId: release.id,
         packageName: pkg.name,
         packageVersion: release.version
       })
@@ -96,7 +97,9 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
 
 // Wait release build.
 const waitReleaseBuild = async function(buildApi, release) {
-  logger.info(`[id=${release.id}] [buildId=${release.buildId}] wait build`);
+  logger.info(
+    `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] wait build`
+  );
   let build = await waitBuild(buildApi, release.buildId);
   return build;
 };
@@ -118,7 +121,7 @@ const handleReleaseBuild = async function(build, release) {
     release.reason = ReleaseReason.None.value;
     await Release.save(release);
     logger.info(
-      `[id=${release.id}] [buildId=${release.buildId}] build succeeded`
+      `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] build succeeded`
     );
   }
   // Handle build failed.
@@ -133,7 +136,7 @@ const handleReleaseBuild = async function(build, release) {
     // eslint-disable-next-line require-atomic-updates
     release.reason = reason.value;
     await Release.save(release);
-    let msg = `[id=${release.id}] [buildId=${release.buildId}] build failed with reason ${reason.key}`;
+    let msg = `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] build failed with reason ${reason.key}`;
     logger.error(msg);
     // Throw error for retryable reason to retry.
     if (RetryableReleaseReason.includes(reason)) throw new Error(msg);
@@ -141,10 +144,10 @@ const handleReleaseBuild = async function(build, release) {
 };
 
 // Get a custom build name.
-const getBuildName = function({ releaseId, packageName, packageVersion }) {
+const getBuildName = function({ packageName, packageVersion }) {
   // Remove leading @ character of packageName.
   if (packageName.startsWith("@")) packageName = packageName.substr(1);
-  let buildName = `rel${releaseId}-${packageName}#${packageVersion}`;
+  let buildName = `${packageName}-${packageVersion}`;
   // Replace not allowed characters (/:<>\|?@*) with underscore.
   buildName = buildName.replace(/[/:<>\\|?@*]/g, "_");
   /* The maximum length of a build number is 255 characters, and reserve 55
@@ -165,7 +168,8 @@ const getReasonFromPublishLog = function(text) {
     return ReleaseReason.PackageNotFound;
   else if (text.includes("error code E401")) return ReleaseReason.Unauthorized;
   else if (text.includes("error code E403")) return ReleaseReason.Forbidden;
-  else if (text.includes("error code E413")) return ReleaseReason.EntityTooLarge;
+  else if (text.includes("error code E413"))
+    return ReleaseReason.EntityTooLarge;
   else if (text.includes("error code E500")) return ReleaseReason.InternalError;
   else if (text.includes("error code E502")) return ReleaseReason.BadGateway;
   else if (text.includes("error code E503"))

@@ -91,7 +91,7 @@ const addReleaseJobs = async function(releases) {
     if (queue.isJobFailedCompletely(job)) {
       await queue.removeJob(job.id);
       logger.info(
-        `[releaseId=${rel.id}] cleaned complete failed job ${rel.packageName}@${rel.version}`
+        `[rel=${rel.packageName}@${rel.version}] cleaned complete failed job`
       );
       job = null;
     }
