@@ -1,0 +1,21 @@
+apps:
+  - name: queue-main
+    cwd: /home/openupm/openupm
+    script: yarn
+    args: 'queue:main'
+    instances: 1
+    error_file: ./logs/queue-main-error.log
+    out_file: ./logs/queue-main.log
+    max_memory_restart: 512M
+    max_restarts: 5
+    autorestart: true
+  # - name: pkg-build
+  #   cwd: /home/openupm/openupm
+  #   script: yarn
+  #   args: 'queue:build'
+  #   instances: 1
+  #   error_file: ./logs/pkg-build-error.log
+  #   out_file: ./logs/pkg-build.log
+  #   max_memory_restart: 512M
+  #   cron_restart: "*/5 * * * *",
+  #   autorestart: false
