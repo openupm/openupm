@@ -6,7 +6,7 @@ let _redis = {
   _client: null,
   get client() {
     if (this._client == null) {
-      let client = redis.createClient(config.redisUrl);
+      let client = redis.createClient(config.redis);
       client.on("connect", function() {
         logger.info("connected to server");
       });
