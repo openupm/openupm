@@ -1,9 +1,10 @@
 apps:
   - name: queue-main
     cwd: /home/openupm/openupm
-    script: yarn
-    args: 'queue:main'
+    script: app/queues/process.js
+    args: main
     instances: 1
+    exec_mode: fork
     error_file: ./logs/queue-main-error.log
     out_file: ./logs/queue-main.log
     max_memory_restart: 512M
