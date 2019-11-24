@@ -18,14 +18,14 @@ describe("app/jobs/buildRelease.js", function() {
         releaseId: 1,
         packageName: "com.littlebigfun.addressable-importer",
         packageVersion: "0.4.1"
-      }).should.equal("rel1-com.littlebigfun.addressable-importer#0.4.1");
+      }).should.equal("com.littlebigfun.addressable-importer-0.4.1");
     });
     it("unaccepted-character", function() {
       getBuildName({
         releaseId: 1,
         packageName: "/:<>\\|?@*",
         packageVersion: "0.4.1"
-      }).should.equal("rel1-_________#0.4.1");
+      }).should.equal("_________-0.4.1");
     });
   });
   describe("getReasonFromPublishLog()", function() {
