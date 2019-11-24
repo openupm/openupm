@@ -14,6 +14,7 @@ const addQueueWrapper = function(name) {
   let obj = {};
   for (let preset in config.queueSettings) {
     let settings = config.queueSettings[preset];
+    settings.redis = config.redis;
     addLazyProperty(obj, preset, function() {
       let queue = new Queue(name, settings);
       // Return true if job failed with no more retries.
