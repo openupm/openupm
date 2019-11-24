@@ -13,9 +13,10 @@
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "docs:serve": "serve ./docs/.vuepress/dist",
+    "queue:main": "node ./app/queues/process main",
+    "pkg:build": "node ./jobs/addBuildPackageJob.js --all",
     "server": "node server.js",
     "server:dev": "nodemon --watch app server.js",
-    "db:inspect": "node ./scripts/dbInspect.js",
     "test": "cross-env NODE_ENV=test mocha"
   },
   "license": "BSD 3-Clause",
