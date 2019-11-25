@@ -19,10 +19,10 @@ const logger = require("../utils/log")(module);
 // Build package with given name.
 const buildPackage = async function(name) {
   // Load package yaml file.
-  logger.info(`[pkg=${name}] load yaml file`);
+  logger.verbose(`[pkg=${name}] load yaml file`);
   let pkg = await loadPackage(name);
   // Get remote tags.
-  logger.info(`[pkg=${name}] get remote tags`);
+  logger.verbose(`[pkg=${name}] get remote tags`);
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
   let validTags = filterRemoteTags(remoteTags);
   validTags.reverse();
@@ -33,10 +33,10 @@ const buildPackage = async function(name) {
     return;
   }
   // Update release records.
-  logger.info(`[pkg=${name}] update release records`);
+  logger.verbose(`[pkg=${name}] update release records`);
   let releases = await updateReleaseRecords(pkg.name, validTags);
   // Add necessary build release jobs.
-  logger.info(`[pkg=${name}] add release jobs`);
+  logger.verbose(`[pkg=${name}] add release jobs`);
   await addReleaseJobs(releases);
 };
 
