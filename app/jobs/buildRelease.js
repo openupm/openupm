@@ -50,7 +50,7 @@ let buildRelease = async function(packageName, version) {
  */
 const updateReleaseState = async function(release) {
   if (release.state == ReleaseState.Succeeded) {
-    logger.info(
+    logger.verbose(
       `[rel=${release.packageName}@${release.version}] skip for succeeded state`
     );
     return false;
@@ -97,7 +97,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
 
 // Wait release build.
 const waitReleaseBuild = async function(buildApi, release) {
-  logger.info(
+  logger.verbose(
     `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] wait build`
   );
   let build = await waitBuild(buildApi, release.buildId);

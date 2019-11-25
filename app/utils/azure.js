@@ -43,7 +43,7 @@ const waitBuild = async function(buildApi, buildId) {
     let build = await buildApi.getBuild(config.azureDevops.project, buildId);
     let status = BuildStatus.get(build.status);
     let result = BuildResult.get(build.result);
-    logger.info(
+    logger.verbose(
       `[buildId=${buildId}] wait build build.status=${status} build.result=${result}`
     );
     if (status == BuildStatus.Completed || status == BuildStatus.Cancelling)
