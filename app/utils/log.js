@@ -2,7 +2,7 @@
 const path = require("path");
 const winston = require("winston");
 
-const logDir = path.join(__dirname, "../../logs/");
+// const logDir = path.join(__dirname, "../../logs/");
 
 // Return the last folder name of given module.
 const getFilename = function(module) {
@@ -30,7 +30,12 @@ function getLogger(module) {
         winston.format.label({ label: getFilename(module) }),
         myFormat
       ),
-      transports: [new winston.transports.Console({})]
+      transports: [
+        new winston.transports.Console({
+          stderrLevels: ["error"],
+          consoleWarnLevels: ["warn"]
+        })
+      ]
     });
   } else {
     logger = winston.createLogger({
@@ -42,7 +47,12 @@ function getLogger(module) {
         winston.format.label({ label: getFilename(module) }),
         myFormat
       ),
-      transports: [new winston.transports.Console({})]
+      transports: [
+        new winston.transports.Console({
+          stderrLevels: ["error"],
+          consoleWarnLevels: ["warn"]
+        })
+      ]
     });
   }
   return logger;
