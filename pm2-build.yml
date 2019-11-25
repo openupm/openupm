@@ -17,5 +17,5 @@ apps:
     error_file: ./logs/pkg-build-error.log
     out_file: ./logs/pkg-build.log
     max_memory_restart: 512M
-    cron_restart: "*/5 * * * *",
+    cron_restart: "*/5 * * * *"
     autorestart: false
