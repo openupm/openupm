@@ -102,7 +102,7 @@ const addReleaseJobs = async function(releases) {
     if (
       job ||
       rel.state == ReleaseState.Succeeded ||
-      (rel.state == ReleaseReason.Failed &&
+      (rel.state == ReleaseState.Failed &&
         !RetryableReleaseReason.includes(reason))
     )
       continue;
