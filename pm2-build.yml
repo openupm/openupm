@@ -6,7 +6,7 @@ apps:
     args: main
     error_file: ./logs/queue-main-error.log
     out_file: ./logs/queue-main.log
-    combine_logs: false
+    combine_logs: true
     max_memory_restart: 512M
     max_restarts: 5
     autorestart: true
@@ -17,7 +17,7 @@ apps:
     args: --all
     error_file: ./logs/pkg-build-error.log
     out_file: ./logs/pkg-build.log
-    combine_logs: false
+    combine_logs: true
     max_memory_restart: 512M
     cron_restart: "*/5 * * * *"
     autorestart: false
