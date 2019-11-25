@@ -19,9 +19,9 @@ const myFormat = winston.format.printf(info => {
 
 // Return logger for given module.
 function getLogger(module) {
+  // Just log to console, but colorize in non-production mode.
   let logger = null;
   if (process.env.NODE_ENV === "production") {
-    // Log to files in production mode.
     logger = winston.createLogger({
       level: "info",
       format: winston.format.combine(
@@ -30,20 +30,9 @@ function getLogger(module) {
         winston.format.label({ label: getFilename(module) }),
         myFormat
       ),
-      transports: [
-        new winston.transports.File({
-          filename: path.join(logDir, "error.log"),
-          // filename: 'error.log',
-          level: "error"
-        }),
-        new winston.transports.File({
-          // filename: 'combined.log',
-          filename: path.join(logDir, "combined.log")
-        })
-      ]
+      transports: [new winston.transports.Console({})]
     });
   } else {
-    // Log to console in development mode.
     logger = winston.createLogger({
       level: "info",
       format: winston.format.combine(
