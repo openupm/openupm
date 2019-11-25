@@ -12,7 +12,7 @@ apps:
   - name: pkg-build
     instance_var: pkg-build
     cwd: /home/openupm/openupm
-    script: ./jobs/addBuildPackageJob.js
+    script: ./app/jobs/addBuildPackageJob.js
     args: --all
     error_file: ./logs/pkg-build-error.log
     out_file: ./logs/pkg-build.log
