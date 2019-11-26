@@ -1,0 +1,13 @@
+apps:
+  - name: api
+    instance_var: api
+    cwd: /home/openupm/openupm
+    script: app/index.js
+    exec_mode: cluster
+    instances: max
+    error_file: ./logs/api-error.log
+    out_file: ./logs/api.log
+    combine_logs: true
+    max_memory_restart: 1G
+    max_restarts: 5
+    autorestart: true
