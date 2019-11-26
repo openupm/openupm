@@ -2,7 +2,7 @@ apps:
   - name: api
     instance_var: api
     cwd: /home/openupm/openupm
-    script: app/index.js
+    script: server.js
     exec_mode: cluster
     instances: max
     error_file: ./logs/api-error.log
