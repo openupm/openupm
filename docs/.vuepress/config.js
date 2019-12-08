@@ -38,14 +38,6 @@ module.exports = {
       {
         text: "Docs",
         link: "/docs/"
-      },
-      {
-        text: "Donate",
-        link: "/donate/"
-      },
-      {
-        text: "Login",
-        link: "/login/"
       }
     ]
   },
