@@ -62,6 +62,32 @@
                   <span>{{ packagePublishedAt }}</span>
                 </section>
                 <section class="col-12">
+                  <h2>Installation</h2>
+                  <div class="install-cli">
+                    <code
+                      class="bg-gray text-primary text-bold"
+                      data-lang="shell"
+                    >
+                      openupm add {{ $package.name }}
+                    </code>
+                    <div class="action text-right">
+                      <a
+                        :href="openupmCliRepoUrl"
+                        class="btn btn-secondary btn-sm "
+                      >
+                        Install openupm-cli
+                      </a>
+                      <button
+                        class="btn btn-primary btn-sm tooltip tooltip-click"
+                        data-tooltip="Copied"
+                        @click="onCopyClick"
+                      >
+                        Copy text
+                      </button>
+                    </div>
+                  </div>
+                </section>
+                <section class="col-12">
                   <h2>Build History</h2>
                   <p v-if="noTagsFound">
                     No tags was found in <NavLink :item="tagsNavLink" />.
@@ -112,6 +138,7 @@
 
 <script>
 import axios from "axios";
+import copy from "copy-to-clipboard";
 import marked from "marked";
 const urljoin = require("url-join");
 
@@ -131,7 +158,8 @@ export default {
       readmeRaw: "",
       repoInfo: {},
       packageInfo: {},
-      noTagsFound: false
+      noTagsFound: false,
+      openupmCliRepoUrl: "https://github.com/openupm/openupm-cli#openupm-cli"
     };
   },
   computed: {
@@ -303,6 +331,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       } catch (error) {
         console.error(error);
       }
+    },
+    onCopyClick() {
+      const text = `openupm add ${this.$package.name}`;
+      copy(text, { format: "text/plain" });
     }
   }
 };
@@ -339,4 +371,18 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       ul.build-history
         margin 0;
         list-style none
+
+      .install-cli
+        position relative
+        code
+          display block
+          margin-bottom 0.4rem
+          padding 0.6rem 0.4rem
+          &:before
+            color #bcc3ce
+            content attr(data-lang)
+            font-size .7rem
+            position absolute
+            right .4rem
+            top .1rem
 </style>
