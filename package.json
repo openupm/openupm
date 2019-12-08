@@ -2,7 +2,7 @@
   "name": "openupm",
   "private": true,
   "version": "0.0.1",
-  "description": "OpenUPM is an open source Unity package manager, a community baked UPM registry and building service.",
+  "description": "OpenUPM is a managed open source Unity package registry and building service",
   "main": "server.js",
   "authors": {
     "name": "Favo Yang",

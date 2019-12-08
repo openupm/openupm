@@ -24,7 +24,7 @@
             class="feature column col-4 col-md-12"
           >
             <h3>{{ feature.title }}</h3>
-            <p>{{ feature.details }}</p>
+            <p v-html="feature.details"></p>
           </div>
         </div>
       </section>
