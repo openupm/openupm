@@ -12,26 +12,28 @@ const ReleaseState = new Enum({
 
 const ReleaseReason = new Enum({
   None: 0,
-  // Unauthorized.
+  // Unauthorized
   Unauthorized: 401,
-  // Permission error.
+  // Permission error
   Forbidden: 403,
   // Entity too large
   EntityTooLarge: 413,
-  // Publish Version conflict.
+  // Publish Version conflict
   VersionConflict: 409,
-  // Server internal error.
+  // Server internal error
   InternalError: 500,
-  // Server bad gateway.
+  // Server bad gateway
   BadGateway: 502,
-  // Server bad gateway.
+  // Server bad gateway
   ServiceUnavailable: 503,
   // Build timeout.
   BuildTimeout: 700,
   // BuildCancellation
   BuildCancellation: 701,
-  // Missing package.json.
-  PackageNotFound: 800
+  // Missing package.json
+  PackageNotFound: 800,
+  // private repo
+  Private: 801
 });
 
 /* Release reasons that considered as the failure of build service. The

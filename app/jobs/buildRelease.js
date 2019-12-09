@@ -175,6 +175,7 @@ const getReasonFromPublishLog = function(text) {
   else if (text.includes("error code E502")) return ReleaseReason.BadGateway;
   else if (text.includes("error code E503"))
     return ReleaseReason.ServiceUnavailable;
+  else if (text.includes("error code EPRIVATE")) return ReleaseReason.Private;
   return ReleaseReason.None;
 };
 
