@@ -82,6 +82,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       repoBranch: release.tag,
       packageName: pkg.name,
       packageVersion: release.version,
+      packageFolder: release.packageFolder || "",
       buildName: getBuildName({
         packageName: pkg.name,
         packageVersion: release.version
