@@ -160,7 +160,7 @@
                     class="btn btn-primary btn-submit"
                     @click="onVerifyClick"
                   >
-                    Verify Package
+                    Verify package
                   </button>
                 </div>
               </div>
@@ -175,10 +175,10 @@
                   data-tooltip="Copied"
                   @click="onCopyClick"
                 >
-                  Copy to Clipboard
+                  Copy text
                 </button>
                 <button class="btn btn-error" @click="onStartOver">
-                  Start Over
+                  Start over
                 </button>
               </div>
             </div>
@@ -481,7 +481,7 @@ export default {
         }
       } catch (error) {
         if (error.message.includes("404"))
-          this.$data.form.repo.error = "Repository not found.";
+          this.$data.form.repo.error = "Repository not found";
         else this.$data.form.repo.error = error.message;
       } finally {
         this.$data.isSubmitting = false;
@@ -531,9 +531,7 @@ export default {
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
         if (this.$page.frontmatter.packageNames.includes(packageName))
-          throw new Error(
-            `Package ${packageName} already exists. Please search it instead.`
-          );
+          throw new Error(`Package ${packageName} already exists`);
         if (packageName.includes("@"))
           throw new Error(
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
@@ -545,7 +543,7 @@ export default {
       } catch (error) {
         VueScrollTo.scrollTo("#packageFolder", 500, { offset: -80 });
         if (error.message.includes("404"))
-          this.$data.form.packageFolder.error = "package.json not found.";
+          this.$data.form.packageFolder.error = "package.json not found";
         else this.$data.form.packageFolder.error = error.message;
       } finally {
         this.$data.isSubmitting = false;
