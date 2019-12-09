@@ -140,6 +140,7 @@
 import axios from "axios";
 import copy from "copy-to-clipboard";
 import marked from "marked";
+import { noCase } from "change-case";
 const urljoin = require("url-join");
 
 import util from "@root/docs/.vuepress/util";
@@ -201,16 +202,17 @@ export default {
           };
           if (obj.state == ReleaseState.Pending) {
             obj.class = "fa fa-clock-o";
-            rel.text = "pending";
+            obj.text = "pending";
           } else if (obj.state == ReleaseState.Building) {
             obj.class = "fa fa-spinner fa-spin";
-            rel.text = "building";
+            obj.text = "building";
           } else if (obj.state == ReleaseState.Succeeded) {
             obj.class = "fa fa-check-circle text-success";
-            obj.text = "build " + rel.buildId;
           } else if (obj.state == ReleaseState.Failed) {
             obj.class = "fa fa-times-circle text-error";
-            rel.text = obj.reason.key;
+            let reasonText = noCase(obj.reason.key);
+            if (reasonText == "none") reasonText = "unknown";
+            obj.text = `reason: ${reasonText}`;
           }
           objs.push(obj);
         }
