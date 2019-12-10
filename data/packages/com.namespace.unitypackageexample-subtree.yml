@@ -1,0 +1,11 @@
+name: com.namespace.unitypackageexample-subtree
+displayName: Unity Package Example Subtree
+description: null
+repoUrl: 'https://github.com/favoyang/unity-package-example-subtree'
+repoBranch: master
+packageFolder: Assets/Plugins/UnityPackageExample
+fork: true
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: ''
