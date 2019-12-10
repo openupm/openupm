@@ -72,6 +72,7 @@
     "promise-redis": "^0.0.5",
     "redis": "^2.8.0",
     "semver": "^6.3.0",
+    "serialize-javascript": "^2.1.1",
     "simple-git": "^1.126.0",
     "spdx-license-list": "^6.1.0",
     "superagent": "^5.1.0",
