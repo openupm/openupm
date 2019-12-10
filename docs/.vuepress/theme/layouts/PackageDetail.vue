@@ -356,6 +356,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       max-width auto
       margin 0
       padding 0 0 2.5rem
+      font-size 0.75rem
 
       :first-child
         margin-top 0
@@ -384,7 +385,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         code
           display block
           margin-bottom 0.4rem
-          padding 0.6rem 0.4rem
+          padding 1.1rem 0.4rem 0.8rem
           &:before
             color #bcc3ce
             content attr(data-lang)
