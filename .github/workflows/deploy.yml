@@ -30,4 +30,5 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git pull
-            git log --name-only -1 |grep -sqE '^app|^config|^data' && pm2 reload all
+            git log --name-only -1 |grep -sqE '^app|^config' && pm2 reload queue-main
+            git log --name-only -1 |grep -sqE '^app|^config|^data' && pm2 reload pkg-build
