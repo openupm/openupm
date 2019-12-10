@@ -16,7 +16,7 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git pull
-            pm2 reload all
+            git log --name-only -1 |grep -sqE '^app|^config|^server' && pm2 reload all
     - name: Deploy to upm-build
       uses: maddox/actions/ssh@master
       env:
@@ -27,4 +27,4 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git pull
-            pm2 reload all
+            git log --name-only -1 |grep -sqE '^app|^config|^data' && pm2 reload all
