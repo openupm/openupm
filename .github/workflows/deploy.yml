@@ -1,0 +1,30 @@
+name: deploy
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to upm-api
+      uses: maddox/actions/ssh@master
+      env:
+        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        HOST: ${{ secrets.HOST_UPM_API }}
+        USER: ${{ secrets.USER }}
+      with:
+        args: |
+            cd /home/openupm/openupm
+            git pull
+            pm2 reload all
+    - name: Deploy to upm-build
+      uses: maddox/actions/ssh@master
+      env:
+        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        HOST: ${{ secrets.HOST_UPM_BUILD }}
+        USER: ${{ secrets.USER }}
+      with:
+        args: |
+            cd /home/openupm/openupm
+            git pull
+            pm2 reload all
