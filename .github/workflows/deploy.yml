@@ -19,7 +19,7 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git pull
-            git log --name-only -1 |grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
   deploy-upm-build:
     runs-on: ubuntu-latest
     steps:
@@ -33,5 +33,5 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git pull
-            git log --name-only -1 |grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
-            git log --name-only -1 |grep -sqE '^app|^config|^data' && pm2 reload pkg-build || echo skip pm2 pkg-build reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload pkg-build || echo skip pm2 pkg-build reload
