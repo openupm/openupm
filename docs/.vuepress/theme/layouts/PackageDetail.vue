@@ -123,6 +123,7 @@
                     data-tooltip="Non-semver tags will not be built."
                   >
                     Non-semver Tags
+                    <i class="fa fa-info-circle"></i>
                   </h2>
                   <p>{{ packageInvalidTagsString }}</p>
                 </section>
@@ -171,20 +172,18 @@ export default {
       return this.$package.displayName || this.$package.name;
     },
     packageVersion() {
-      let releases = this.$data.packageInfo.releases;
-      if (releases && releases.length) return releases[0].version;
-      return "";
+      if (this.currentRelease) return this.currentRelease.rel.version;
+      else return "-";
     },
     packagePublishedAt() {
-      let releases = this.$data.packageInfo.releases;
-      if (releases && releases.length) {
+      if (this.currentRelease) {
         try {
-          const date = new Date(releases[0].updatedAt);
+          const date = new Date(this.currentRelease.rel.updatedAt);
           return util.timeAgoFormat(date);
           // eslint-disable-next-line no-empty
         } catch (error) {}
       }
-      return "";
+      return "-";
     },
     packageReleases() {
       let releases = this.$data.packageInfo.releases;
@@ -219,6 +218,12 @@ export default {
         return objs;
       }
       return [];
+    },
+    currentRelease() {
+      const pkgs = this.packageReleases.filter(
+        x => x.state == ReleaseState.Succeeded
+      );
+      return pkgs.length ? pkgs[0] : null;
     },
     packageInvalidTags() {
       return this.$data.packageInfo.invalidTags || [];
