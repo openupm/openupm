@@ -20,13 +20,19 @@ const getLogName = function(module) {
 // Create logger for given module
 function createLogger(module) {
   const name = _.isString(module) ? module : getLogName(module);
-  return bunyan.createLogger({
-    name,
-    streams: [
-      { level: "info", stream: process.stdout },
-      { level: "error", stream: process.stderr }
-    ]
-  });
+  if (process.env.NODE_ENV === "test")
+    return bunyan.createLogger({
+      name,
+      streams: [{ level: "fatal", stream: process.stdout }]
+    });
+  else
+    return bunyan.createLogger({
+      name,
+      streams: [
+        { level: "info", stream: process.stdout },
+        { level: "error", stream: process.stderr }
+      ]
+    });
 }
 
 module.exports = createLogger;
