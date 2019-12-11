@@ -9,8 +9,10 @@ jobs:
       matrix:
         node-version: [12.x]
     steps:
+    - name: setup redis
+      uses: zhulik/redis-action@v1.0.0
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: set node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
