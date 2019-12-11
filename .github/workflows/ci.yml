@@ -1,13 +1,32 @@
-name: deploy
+name: CI
 
-on:
-  push:
-    branches:
-    - master
+on: [push]
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: yarn install
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: install
+    - name: yarn test
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: test
+
   deploy-upm-api:
     runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master'
     steps:
     - name: deploy
       uses: maddox/actions/ssh@master
@@ -21,8 +40,11 @@ jobs:
             git pull
             yarn
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
+
   deploy-upm-build:
     runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master'
     steps:
     - name: deploy
       uses: maddox/actions/ssh@master
