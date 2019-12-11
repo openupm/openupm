@@ -4,5 +4,5 @@ const logger = require("./app/utils/log")(module);
 
 // Run server
 app.listen(config.port, function() {
-  logger.info(`app listening at port ${config.port}`);
+  logger.info({ port: config.port }, "app listening");
 });

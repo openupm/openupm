@@ -47,7 +47,7 @@ const addJob = async function({ jobId, payload, queue, jobConfig, delay }) {
     .delayUntil(delay || 0)
     .save();
   if (job.id) {
-    logger.info(`job added ${job.id}`);
+    logger.info({ jobId: job.id }, "new job");
     return job;
   }
   return null;

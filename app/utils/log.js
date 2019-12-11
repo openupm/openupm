@@ -1,61 +1,32 @@
 // Winston log util.
+const bunyan = require("bunyan");
 const path = require("path");
-const winston = require("winston");
+const _ = require("lodash");
 
-// const logDir = path.join(__dirname, "../../logs/");
-
-// Return the last folder name of given module.
-const getFilename = function(module) {
-  return path.basename(module.filename, path.extname(module.filename));
+// Return log name for given module
+const getLogName = function(module) {
+  const filename = path.basename(
+    module.filename,
+    path.extname(module.filename)
+  );
+  const dir = path
+    .dirname(module.filename)
+    .split(path.sep)
+    .splice(-1)[0];
+  let name = `${dir}.${filename}`;
+  return name;
 };
 
-// Customized format.
-const myFormat = winston.format.printf(info => {
-  if (info.stack)
-    return `${info.timestamp} [${info.label}] [${info.level}]: ${info.message}\n${info.stack}`;
-  else
-    return `${info.timestamp} [${info.label}] [${info.level}]: ${info.message}`;
-});
-
-// Return logger for given module.
-function getLogger(module) {
-  // Just log to console, but colorize in non-production mode.
-  let logger = null;
-  if (process.env.NODE_ENV === "production") {
-    logger = winston.createLogger({
-      level: "info",
-      format: winston.format.combine(
-        winston.format.splat(),
-        winston.format.timestamp(),
-        winston.format.label({ label: getFilename(module) }),
-        myFormat
-      ),
-      transports: [
-        new winston.transports.Console({
-          stderrLevels: ["error"],
-          consoleWarnLevels: ["warn"]
-        })
-      ]
-    });
-  } else {
-    logger = winston.createLogger({
-      level: "info",
-      format: winston.format.combine(
-        winston.format.splat(),
-        winston.format.timestamp(),
-        winston.format.colorize(),
-        winston.format.label({ label: getFilename(module) }),
-        myFormat
-      ),
-      transports: [
-        new winston.transports.Console({
-          stderrLevels: ["error"],
-          consoleWarnLevels: ["warn"]
-        })
-      ]
-    });
-  }
-  return logger;
+// Create logger for given module
+function createLogger(module) {
+  const name = _.isString(module) ? module : getLogName(module);
+  return bunyan.createLogger({
+    name,
+    streams: [
+      { level: "info", stream: process.stdout },
+      { level: "error", stream: process.stderr }
+    ]
+  });
 }
 
-module.exports = getLogger;
+module.exports = createLogger;

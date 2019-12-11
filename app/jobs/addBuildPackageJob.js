@@ -13,15 +13,16 @@ const addBuildPackagerJobs = async function(packageNames) {
   for (let name of packageNames) {
     // Verify package.
     if (!packageExists(name)) {
-      logger.error(`[pkg=${name}] package doesn't exist.`);
+      logger.error({ pkg: name }, "package doesn't exist");
       continue;
     }
     let jobId = config.jobs.buildPackage.key + ":" + name;
     let job = await queue.getJob(jobId);
     // Clean complete failed job to continue.
     if (queue.isJobFailedCompletely(job)) {
-      await queue.removeJob(job.id);
-      logger.info(`[pkg=${name}] removed complete failed job ${jobId}`);
+      const jobId = job.id;
+      await queue.removeJob(jobId);
+      logger.info({ pkg: name, jobId }, "removed job failed completely");
       job = null;
     }
     if (!job) {

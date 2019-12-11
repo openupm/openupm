@@ -19,24 +19,24 @@ const logger = require("../utils/log")(module);
 // Build package with given name.
 const buildPackage = async function(name) {
   // Load package yaml file.
-  logger.verbose(`[pkg=${name}] load yaml file`);
+  logger.debug({ pkg: name }, "load yaml file");
   let pkg = await loadPackage(name);
   // Get remote tags.
-  logger.verbose(`[pkg=${name}] get remote tags`);
+  logger.debug({ pkg: name }, "get remote tags");
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
   let validTags = filterRemoteTags(remoteTags);
   validTags.reverse();
   let invalidTags = difference(remoteTags, validTags);
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
-    logger.info(`[pkg=${name}] no valid tags found.`);
+    logger.info({ pkg: name }, "no valid tags found");
     return;
   }
   // Update release records.
-  logger.verbose(`[pkg=${name}] update release records`);
+  logger.debug({ pkg: name }, "update release records");
   let releases = await updateReleaseRecords(pkg.name, validTags);
   // Add necessary build release jobs.
-  logger.verbose(`[pkg=${name}] add release jobs`);
+  logger.debug({ pkg: name }, "add release jobs");
   await addReleaseJobs(releases);
 };
 
@@ -91,7 +91,8 @@ const addReleaseJobs = async function(releases) {
     if (queue.isJobFailedCompletely(job)) {
       await queue.removeJob(job.id);
       logger.info(
-        `[rel=${rel.packageName}@${rel.version}] cleaned complete failed job`
+        { rel: `${rel.packageName}@${rel.version}`, pkg: name },
+        "add release jobs"
       );
       job = null;
     }

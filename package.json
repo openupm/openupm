@@ -55,6 +55,7 @@
     "bee-queue": "^1.2.2",
     "body-parser": "^1.19.0",
     "bottleneck": "^2.19.5",
+    "bunyan": "^2.0.2",
     "commander": "^3.0.0",
     "config": "^3.2.2",
     "enum": "^2.5.0",
@@ -76,7 +77,6 @@
     "simple-git": "^1.126.0",
     "spdx-license-list": "^6.1.0",
     "superagent": "^5.1.0",
-    "url-join": "^4.0.1",
-    "winston": "^3.2.1"
+    "url-join": "^4.0.1"
   }
 }

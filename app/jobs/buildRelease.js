@@ -50,8 +50,9 @@ let buildRelease = async function(packageName, version) {
  */
 const updateReleaseState = async function(release) {
   if (release.state == ReleaseState.Succeeded) {
-    logger.verbose(
-      `[rel=${release.packageName}@${release.version}] skip for succeeded state`
+    logger.debug(
+      { rel: `${release.packageName}@${release.version}` },
+      "skip successful release"
     );
     return false;
   } else if (
@@ -75,7 +76,10 @@ const updateReleaseState = async function(release) {
 // Update release build.
 const updateReleaseBuild = async function(buildApi, pkg, release) {
   if (!release.buildId) {
-    logger.info(`[rel=${release.packageName}@${release.version}] queue build`);
+    logger.info(
+      { rel: `${release.packageName}@${release.version}` },
+      "queue build"
+    );
     let definitionId = config.azureDevops.definitionId;
     let parameters = {
       repoUrl: cleanRepoUrl(pkg.repoUrl, "https"),
@@ -98,8 +102,12 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
 
 // Wait release build.
 const waitReleaseBuild = async function(buildApi, release) {
-  logger.verbose(
-    `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] wait build`
+  logger.debug(
+    {
+      rel: `${release.packageName}@${release.version}`,
+      buildId: release.buildId
+    },
+    "wait build"
   );
   let build = await waitBuild(buildApi, release.buildId);
   return build;
@@ -122,7 +130,11 @@ const handleReleaseBuild = async function(build, release) {
     release.reason = ReleaseReason.None.value;
     await Release.save(release);
     logger.info(
-      `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] build succeeded`
+      {
+        rel: `${release.packageName}@${release.version}`,
+        build: release.buildId
+      },
+      "build succeeded"
     );
   }
   // Handle build failed.
@@ -137,8 +149,14 @@ const handleReleaseBuild = async function(build, release) {
     // eslint-disable-next-line require-atomic-updates
     release.reason = reason.value;
     await Release.save(release);
-    let msg = `[rel=${release.packageName}@${release.version}] [buildId=${release.buildId}] build failed with reason ${reason.key}`;
-    logger.error(msg);
+    logger.error(
+      {
+        rel: `${release.packageName}@${release.version}`,
+        build: release.buildId,
+        reason: reason.key
+      },
+      "build failed"
+    );
     // Throw error for retryable reason to retry.
     if (RetryableReleaseReason.includes(reason)) throw new Error(msg);
   }

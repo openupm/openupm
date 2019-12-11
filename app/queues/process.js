@@ -11,7 +11,7 @@ var dispatch = function(queue) {
   queue.on("ready", () => {
     logger.info("queue ready.");
     queue.process(config.jobs.concurrent, async function(job) {
-      logger.info(`[job=${job.id}] start`);
+      logger.info({ jobId: job.id }, "job start");
       let sections = job.id.split(":");
       try {
         if (sections[0] == config.jobs.buildPackage.key) {
@@ -22,17 +22,21 @@ var dispatch = function(queue) {
           let version = sections[2];
           await buildRelease(packageName, version);
         } else {
+          logger.error(
+            { jobId: job.id, jobType: sections[0] },
+            "unknown job type"
+          );
           throw new Error(`unknown job type ${sections[0]}`);
         }
       } catch (err) {
-        logger.error(`[job=${job.id}] failed with error: `, err);
+        logger.error({ jobId: job.id, err }, "job failed");
         throw err;
       }
-      logger.info(`[job=${job.id}] completed`);
+      logger.info({ jobId: job.id }, "job completed");
     });
   });
   queue.on("error", err => {
-    logger.error("queue error: ", err);
+    logger.info(err, "queue error");
   });
   queue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
 };
