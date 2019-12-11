@@ -17,13 +17,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install
-      uses: Borales/actions-yarn@v2.1.0
-      with:
-        cmd: install
-    - name: yarn test
-      uses: Borales/actions-yarn@v2.1.0
-      with:
-        cmd: test
+      run: yarn install
+    - name: yarn install
+      run: yarn test
 
   deploy-upm-api:
     runs-on: ubuntu-latest
