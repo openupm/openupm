@@ -18,13 +18,13 @@ const addBuildPackagerJobs = async function(packageNames) {
     }
     let jobId = config.jobs.buildPackage.key + ":" + name;
     let job = await queue.getJob(jobId);
-    // Clean complete failed job to continue.
-    if (queue.isJobFailedCompletely(job)) {
-      const jobId = job.id;
-      await queue.removeJob(jobId);
-      logger.info({ pkg: name, jobId }, "removed job failed completely");
-      job = null;
-    }
+    // // Clean complete failed job to continue.
+    // if (queue.isJobFailedCompletely(job)) {
+    //   const jobId = job.id;
+    //   await queue.removeJob(jobId);
+    //   logger.info({ pkg: name, jobId }, "removed job failed completely");
+    //   job = null;
+    // }
     if (!job) {
       job = await addJob({
         jobId,

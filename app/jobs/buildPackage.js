@@ -87,15 +87,15 @@ const addReleaseJobs = async function(releases) {
     let jobId =
       config.jobs.buildRelease.key + ":" + rel.packageName + ":" + rel.version;
     let job = await queue.getJob(jobId);
-    // Clean complete failed job to continue
-    if (queue.isJobFailedCompletely(job)) {
-      await queue.removeJob(job.id);
-      logger.info(
-        { rel: `${rel.packageName}@${rel.version}`, pkg: name },
-        "add release jobs"
-      );
-      job = null;
-    }
+    // // Clean complete failed job to continue
+    // if (queue.isJobFailedCompletely(job)) {
+    //   await queue.removeJob(job.id);
+    //   logger.info(
+    //     { rel: `${rel.packageName}@${rel.version}`, pkg: name },
+    //     "removed job failed completely"
+    //   );
+    //   job = null;
+    // }
     // Skip creating release job if,
     // - job already exists.
     // - release already succeeded.
