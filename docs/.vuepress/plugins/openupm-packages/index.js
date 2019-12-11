@@ -37,7 +37,8 @@ module.exports = (options, context) => ({
       });
     // Package topic filter function.
     let packageTopicFilter = (pkg, topicSlug) => {
-      if (!topicSlug) return true;
+      if (pkg.excludedFromList) return false;
+      else if (!topicSlug) return true;
       else if (Array.isArray(pkg.topics)) return pkg.topics.includes(topicSlug);
       else return pkg.topics == topicSlug;
     };

@@ -9,3 +9,4 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics: []
 hunter: ''
+excludedFromList: true
