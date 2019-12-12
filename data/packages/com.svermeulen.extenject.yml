@@ -1,0 +1,12 @@
+name: com.svermeulen.extenject
+displayName: Extenject
+description: 'Dependency Injection Framework for Unity3D '
+repoUrl: 'https://github.com/starikcetin/Extenject'
+repoBranch: master
+packageFolder: UnityProject/Assets/Plugins/Zenject
+fork: true
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - libraries
+hunter: starikcetin
