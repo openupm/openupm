@@ -2,7 +2,7 @@
 
 Open source UPM registry for Unity
 
-(under development)
+(alpha)
 
 ## Development
 
