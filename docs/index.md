@@ -6,11 +6,11 @@ actionText: Get Started
 actionLink: /guide/
 features:
 - title: Open Source UPM Registry
-  details: Hosting community selective open source UPM packages and keep growing
+  details: Hosting community selective open source UPM packages
 - title: Continuous Publishing
   details: Package publishing automation based on git tags
 - title: Command Line
-  details: The <a href="https://github.com/openupm/openupm-cli">openupm-cli</a> works with both official and 3rd-party registries
+  details: <a href="https://github.com/openupm/openupm-cli">Openupm-cli</a> for 3rd-party UPM registries
 ---
 
 ### Get Started
