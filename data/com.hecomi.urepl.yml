@@ -1,0 +1,12 @@
+name: com.hecomi.urepl
+displayName: uREPL
+description: In-game powerful REPL environment for Unity3D.
+repoUrl: 'https://github.com/starikcetin/uREPL'
+repoBranch: upm
+packageFolder: ''
+fork: true
+licenseSpdxId: null
+licenseName: MIT License
+topics:
+  - utilities
+hunter: starikcetin
