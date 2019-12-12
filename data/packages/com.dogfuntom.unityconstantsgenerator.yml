@@ -1,0 +1,15 @@
+name: com.dogfuntom.unityconstantsgenerator
+displayName: Unity Constants Generator
+description: >-
+  [Unity CodeDom] Editor-time code generator. Generates
+  constant-declaration-only classes for Tags, Layers, Sorting layers and Input
+  axes. Good for type-safety.
+repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
+repoBranch: upm
+packageFolder: ''
+fork: false
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: starikcetin
