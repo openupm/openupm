@@ -79,7 +79,7 @@ const preparePackage = function(doc) {
   if (doc.hunter) {
     doc.hunterUrl = "https://" + ghUrl.hostname + "/" + doc.hunter;
   } else {
-    doc.hunter = "anonymous";
+    doc.hunter = "-";
     doc.hunterUrl = null;
   }
   if (doc.licenseSpdxId) {
