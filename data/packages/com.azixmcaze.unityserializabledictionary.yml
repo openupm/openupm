@@ -1,0 +1,13 @@
+name: com.azixmcaze.unityserializabledictionary
+displayName: Unity Serializable Dictionary
+description: Serializable dictionary class for Unity
+repoUrl: 'https://github.com/starikcetin/Unity-SerializableDictionary'
+repoBranch: upm
+packageFolder: ''
+fork: true
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - libraries
+  - utilities
+hunter: starikcetin
