@@ -1,0 +1,12 @@
+name: com.glitchenzo.nugetforunity
+displayName: NuGet for Unity
+description: A NuGet Package Manager for Unity
+repoUrl: 'https://github.com/starikcetin/NuGetForUnity'
+repoBranch: upm
+packageFolder: ''
+fork: true
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: starikcetin
