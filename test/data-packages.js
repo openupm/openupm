@@ -14,7 +14,6 @@ const {
 describe("data/packages", async function() {
   const packageNames = await loadPackageNames();
   const validTopics = (await loadTopics()).topics;
-  console.log(validTopics);
   describe("verify packages", function() {
     for (const packageName of packageNames) {
       it("verify " + packageName, async function() {
@@ -24,6 +23,11 @@ describe("data/packages", async function() {
         should.exist(pkg.repoUrl, "repoUrl is required");
         should.exist(pkg.repoBranch, "repoBranch is required");
         should.exist(pkg.name, "name is required");
+        should.equal(
+          pkg.name,
+          packageName,
+          "pkg.name should be match with filename[.yml]"
+        );
         // check topics
         if (pkg.topics) {
           if (_.isString(pkg.topics)) pkg.topics = [pkg.topics];
