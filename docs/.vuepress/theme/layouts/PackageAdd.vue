@@ -177,8 +177,8 @@
                 >
                   Copy text
                 </button>
-                <button class="btn btn-error" @click="onStartOver">
-                  Start over
+                <button class="btn btn-error" @click="onBack">
+                  Back
                 </button>
               </div>
             </div>
@@ -425,7 +425,7 @@ export default {
     onCopyClick() {
       copy(this.$data.yaml, { format: "text/plain" });
     },
-    onStartOver() {
+    onBack() {
       this.$data.step = SubmitStep.FillForm;
       this.$data.hideOtherFields = true;
     },
