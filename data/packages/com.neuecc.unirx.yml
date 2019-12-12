@@ -1,0 +1,12 @@
+name: com.neuecc.unirx
+displayName: UniRx
+description: Reactive Extensions for Unity
+repoUrl: 'https://github.com/starikcetin/UniRx'
+repoBranch: master
+packageFolder: Assets/Plugins/UniRx
+fork: true
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - libraries
+hunter: starikcetin
