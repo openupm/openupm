@@ -1,0 +1,15 @@
+name: com.johannesmp.unityscenereference
+displayName: Unity Scene Reference
+description: >-
+  A SceneReference wrapper class that uses ISerializationCallbackReceiver and a
+  custom PropertyDrawer to provide safe, user-friendly scene references in
+  scripts.
+repoUrl: 'https://github.com/starikcetin/unity-scene-reference'
+repoBranch: upm
+packageFolder: ''
+fork: false
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: starikcetin
