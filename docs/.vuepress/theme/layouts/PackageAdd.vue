@@ -168,9 +168,9 @@
             <div v-else>
               <h6>File name: {{ yamlFilename }}</h6>
               <h6>File content</h6>
-              <div class="code file-content" data-lang="yaml">
+              <pre class="code file-content" data-lang="yaml">
                 <code>{{ yaml }}</code>
-              </div>
+              </pre>
               <div class="text-right">
                 <button class="btn btn-error" @click="onBack">
                   Back
@@ -554,9 +554,6 @@ export default {
 .package-add
   .main-container
     margin-top 1rem
-
-    .file-content
-      margin-bottom 1rem
 
     .btn-go
       width 3rem
