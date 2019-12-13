@@ -1,0 +1,13 @@
+name: com.unity.uiextensions
+displayName: Unity UI Extensions
+description: pulling daily from bitbucket repo
+repoUrl: 'https://github.com/JohannesDeml/unity-ui-extensions'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - libraries
+hunter: favoyang
