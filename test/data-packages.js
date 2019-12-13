@@ -5,6 +5,7 @@ const should = require("should");
 const rewire = require("rewire");
 const _ = require("lodash");
 const redis = require("../app/db/redis");
+const spdx = require("spdx-license-list");
 const {
   loadPackageNames,
   loadPackageSync,
@@ -36,6 +37,12 @@ describe("data/packages", async function() {
             should.exist(found, `topic ${topic} should be valid`);
           }
         }
+        // check license
+        if (pkg.licenseSpdxId)
+          should.exist(
+            spdx[pkg.licenseSpdxId],
+            `licenseSpdxId ${pkg.licenseSpdxId} should be valid`
+          );
       });
     }
   });
