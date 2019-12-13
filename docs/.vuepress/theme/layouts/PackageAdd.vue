@@ -166,25 +166,20 @@
               </div>
             </fieldset>
             <div v-else>
-              <pre class="code" data-lang="yaml">
+              <h6>File name: {{ yamlFilename }}</h6>
+              <h6>File content</h6>
+              <div class="code file-content" data-lang="yaml">
                 <code>{{ yaml }}</code>
-              </pre>
-              <div>
-                <button
-                  class="btn btn-primary tooltip tooltip-click"
-                  data-tooltip="Copied"
-                  @click="onCopyClick"
-                >
-                  Copy text
-                </button>
+              </div>
+              <div class="text-right">
                 <button class="btn btn-error" @click="onBack">
                   Back
                 </button>
+                <NavLink :item="uploadLink" class="btn btn-primary"></NavLink>
               </div>
             </div>
           </div>
-          <div class="column col-1 col-sm-12"></div>
-          <div class="column col-5 col-sm-12">
+          <div class="column col-7 col-sm-12">
             <div class="how-to-section container">
               <div class="columns">
                 <section class="col-12">
@@ -206,10 +201,10 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Fill the package form.
+                              Fill the package form
                             </p>
                             <p class="tile-subtitle">
-                              Please provide informations of the UPM package.
+                              Please provide informations of the UPM package
                             </p>
                           </div>
                         </div>
@@ -232,11 +227,10 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Package verified.
+                              Package verified
                             </p>
                             <p class="tile-subtitle">
-                              The package is verified and data was attached to
-                              the generated YAML file.
+                              The package YAML file is generated
                             </p>
                           </div>
                         </div>
@@ -260,26 +254,26 @@
                           <div class="tile-content">
                             <p class="tile-title">
                               Upload the YAML file to GitHub and start a pull
-                              request.
+                              request (PR)
                             </p>
-                            <ol>
+                            <ul>
                               <li>
-                                Copy the content of the YAML file. Then open
-                                <NavLink :item="uploadLink"></NavLink> page,
-                                paste content to it.
-                              </li>
-                              <li>
-                                Name the file as <code>{{ yamlFilename }}</code>
+                                Click the <b>create a pull request</b> button,
+                                to open the GitHub new file form with data
+                                pre-filled
                               </li>
                               <li>
                                 Scroll to the end of the page, click
-                                <b>purpose new file</b>.
+                                <b>purpose new file</b>
                               </li>
-                              <li>Click <b>create pull request</b>.</li>
-                            </ol>
+                              <li>
+                                Click <b>create pull request</b> on the next
+                                page
+                              </li>
+                            </ul>
                             <p class="tile-subtitle">
-                              The package will be added to our build queue, once
-                              the pull request get merged.
+                              The package will be added to a build queue, once
+                              the PR get merged
                             </p>
                           </div>
                         </div>
@@ -299,9 +293,10 @@
 
 <script>
 import axios from "axios";
-import copy from "copy-to-clipboard";
 import Enum from "enum";
 import urljoin from "url-join";
+import querystring from "querystring";
+
 import VueScrollTo from "vue-scrollto";
 const yaml = require("js-yaml");
 
@@ -373,9 +368,15 @@ export default {
       return this.$data.step > SubmitStep.GetYamlFile.value;
     },
     uploadLink() {
+      const qs = querystring.stringify({
+        filename: this.$data.yamlFilename,
+        value: this.$data.yaml,
+        message: `feat: new package ${this.$data.packageInfo.name}`
+      });
       return {
-        link: "https://github.com/openupm/openupm/new/master/data/packages",
-        text: "openupm/data/packages"
+        link:
+          "https://github.com/openupm/openupm/new/master/data/packages?" + qs,
+        text: "Create a pull request"
       };
     }
   },
@@ -421,9 +422,6 @@ export default {
       console.log("onVerifyClick");
       this.$data.isSubmitting = true;
       this.fetchPackageInfo();
-    },
-    onCopyClick() {
-      copy(this.$data.yaml, { format: "text/plain" });
     },
     onBack() {
       this.$data.step = SubmitStep.FillForm;
@@ -557,6 +555,9 @@ export default {
 .package-add
   .main-container
     margin-top 1rem
+
+    .file-content
+      margin-bottom 1rem
 
     .btn-go
       width 3rem
