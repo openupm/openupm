@@ -47,7 +47,9 @@
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>License</h2>
-                  <span>{{ $package.licenseName }}</span>
+                  <span>{{
+                    $package.licenseSpdxId || $package.licenseName
+                  }}</span>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Stars</h2>
