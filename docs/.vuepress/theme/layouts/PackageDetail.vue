@@ -90,31 +90,54 @@
                     </div>
                   </div>
                 </section>
-                <section class="col-12">
-                  <h2>Build History</h2>
-                  <p v-if="noTagsFound">
-                    No tags was found in <NavLink :item="tagsNavLink" />.
-                  </p>
+                <section v-if="!noTagsFound" class="col-12">
+                  <h2>Version History</h2>
                   <div class="container">
                     <ul class="build-history">
                       <li
-                        v-for="rel in packageReleases"
-                        :key="rel.id"
+                        v-for="build in packageSucceededBuilds"
+                        :key="build.id"
                         class="columns"
                       >
                         <div class="col-6">
-                          <i :class="rel.class"></i>
-                          {{ rel.id }}
+                          <i :class="build.class"></i>
+                          {{ build.build.version }}
+                        </div>
+                        <div class="col-6">
+                          {{ build.timeSince }}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <section
+                  v-if="noTagsFound || packageFailedBuilds.length"
+                  class="col-12"
+                >
+                  <h2>Build Issues</h2>
+                  <div v-if="noTagsFound">
+                    No tags found in <NavLink :item="tagsNavLink" />
+                  </div>
+                  <div class="container">
+                    <ul class="build-history">
+                      <li
+                        v-for="build in packageFailedBuilds"
+                        :key="build.id"
+                        class="columns"
+                      >
+                        <div class="col-6">
+                          <i :class="build.class"></i>
+                          {{ build.id }}
                         </div>
                         <div class="col-6">
                           <a
-                            v-if="rel.rel.buildId"
-                            :href="rel.buildUrl"
+                            v-if="build.build.buildId"
+                            :href="build.buildUrl"
                             target="_blank"
-                            rel="noopener noreferrer"
-                            >{{ rel.text }}</a
+                            build="noopener noreferrer"
+                            >{{ build.text }}</a
                           >
-                          <span v-else>{{ rel.text }}</span>
+                          <span v-else>{{ build.text }}</span>
                         </div>
                       </li>
                     </ul>
@@ -123,12 +146,12 @@
                 <section v-if="packageInvalidTags.length" class="col-12">
                   <h2
                     class="tooltip tooltip-top"
-                    data-tooltip="Non-semver tags will not be built."
+                    data-tooltip="Non-semver and duplicated tags are ignored"
                   >
                     Non-semver Tags
                     <i class="fa fa-info-circle"></i>
                   </h2>
-                  <p>{{ packageInvalidTagsString }}</p>
+                  <div>{{ packageInvalidTagsString }}</div>
                 </section>
               </div>
             </div>
@@ -175,32 +198,37 @@ export default {
       return this.$package.displayName || this.$package.name;
     },
     packageVersion() {
-      if (this.currentRelease) return this.currentRelease.rel.version;
-      else return "-";
+      return this.packageCurrentBuild
+        ? this.packageCurrentBuild.build.version
+        : "-";
     },
     packagePublishedAt() {
-      if (this.currentRelease) {
-        try {
-          const date = new Date(this.currentRelease.rel.updatedAt);
-          return util.timeAgoFormat(date);
-          // eslint-disable-next-line no-empty
-        } catch (error) {}
-      }
-      return "-";
+      return this.packageCurrentBuild
+        ? this.packageCurrentBuild.timeSince
+        : "-";
     },
-    packageReleases() {
-      let releases = this.$data.packageInfo.releases;
-      if (releases && releases.length) {
+    packageBuilds() {
+      let builds = this.$data.packageInfo.releases;
+      const getTimeSince = function(epochTime) {
+        try {
+          const date = new Date(epochTime);
+          return util.timeAgoFormat(date);
+        } catch (error) {
+          return "";
+        }
+      };
+      if (builds && builds.length) {
         let objs = [];
-        for (let rel of releases) {
+        for (let build of builds) {
           let obj = {
-            id: rel.version,
-            rel: rel,
+            id: build.version,
+            build,
             class: "",
             text: "",
-            state: ReleaseState.get(rel.state),
-            reason: ReleaseReason.get(rel.reason),
-            buildUrl: util.getAzureWebBuildUrl(rel.buildId)
+            state: ReleaseState.get(build.state),
+            reason: ReleaseReason.get(build.reason),
+            buildUrl: util.getAzureWebBuildUrl(build.buildId),
+            timeSince: getTimeSince(build.updatedAt)
           };
           if (obj.state == ReleaseState.Pending) {
             obj.class = "fa fa-clock-o";
@@ -222,11 +250,15 @@ export default {
       }
       return [];
     },
-    currentRelease() {
-      const pkgs = this.packageReleases.filter(
-        x => x.state == ReleaseState.Succeeded
-      );
-      return pkgs.length ? pkgs[0] : null;
+    packageSucceededBuilds() {
+      return this.packageBuilds.filter(x => x.state == ReleaseState.Succeeded);
+    },
+    packageFailedBuilds() {
+      return this.packageBuilds.filter(x => x.state == ReleaseState.Failed);
+    },
+    packageCurrentBuild() {
+      const builds = this.packageSucceededBuilds;
+      return builds.length ? builds[0] : null;
     },
     packageInvalidTags() {
       return this.$data.packageInfo.invalidTags || [];
@@ -234,11 +266,11 @@ export default {
     packageInvalidTagsString() {
       let tags = this.packageInvalidTags;
       if (tags.length == 2) return `${tags[0]} and ${tags[1]}.`;
-      else if (tags.length == 1) return tags[0] + ".";
+      else if (tags.length == 1) return tags[0];
       else if (tags.length == 0) return "";
       else {
         let num = tags.length - 2;
-        return `${tags[0]}, ${tags[1]} and ${num} more.`;
+        return `${tags[0]}, ${tags[1]} and ${num} more`;
       }
     },
     packageStargazersCount() {
@@ -289,7 +321,7 @@ export default {
     tagsNavLink() {
       return {
         link: urljoin(this.$package.repoUrl, "tags"),
-        text: "releases/tags"
+        text: "Github Tags"
       };
     }
   },
@@ -310,7 +342,11 @@ export default {
         );
         let readmeRaw = resp.data;
         // Insert h1 if need.
-        if (!/^# /m.test(readmeRaw) && !/^====/m.test(readmeRaw)) {
+        if (
+          !/^# /m.test(readmeRaw) &&
+          !/^====/m.test(readmeRaw) &&
+          !/^<h1/m.test(readmeRaw)
+        ) {
           readmeRaw = title + readmeRaw;
         }
         this.$data.readmeRaw = readmeRaw;
