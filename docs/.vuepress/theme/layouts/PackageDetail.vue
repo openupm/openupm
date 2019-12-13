@@ -146,9 +146,9 @@
                 <section v-if="packageInvalidTags.length" class="col-12">
                   <h2
                     class="tooltip tooltip-top"
-                    data-tooltip="Non-semver and duplicated tags are ignored"
+                    data-tooltip="These tags are ignored by build pipelines"
                   >
-                    Non-semver and duplicated tags
+                    Non-semver / duplicated tags
                     <i class="fa fa-info-circle"></i>
                   </h2>
                   <div>{{ packageInvalidTagsString }}</div>
