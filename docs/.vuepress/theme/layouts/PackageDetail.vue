@@ -242,7 +242,7 @@ export default {
             obj.class = "fa fa-times-circle text-error";
             let reasonText = noCase(obj.reason.key);
             if (reasonText == "none") reasonText = "unknown";
-            obj.text = `reason: ${reasonText}`;
+            obj.text = reasonText;
           }
           objs.push(obj);
         }
