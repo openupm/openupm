@@ -4,7 +4,7 @@ description: Outline Image Effect for Unity
 repoUrl: 'https://github.com/cakeslice/Outline-Effect'
 repoBranch: master
 packageFolder: ''
-fork: false
+parentUrl: null
 licenseSpdxId: MIT
 licenseName: The MIT License
 topics:

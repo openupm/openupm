@@ -30,12 +30,15 @@
               <div class="columns">
                 <section class="col-12">
                   <h2>Project</h2>
-                  <NavLink :item="repoNavLink" />
+                  <div><NavLink :item="repoNavLink" /></div>
+                  <div v-if="parentNavLink" class="fork">
+                    forked from
+                    <NavLink :item="parentNavLink" />
+                  </div>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Author</h2>
-                  <NavLink v-if="$package.ownerUrl" :item="ownerNavLink" />
-                  <span v-else>{{ $package.owner }}</span>
+                  <NavLink :item="ownerNavLink" />
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Discovered by</h2>
@@ -50,7 +53,7 @@
                   <h2>Stars</h2>
                   <span>
                     <i class="fa fa-star"></i>
-                    {{ repoInfo.stargazers_count }}
+                    {{ packageStargazersCount }}
                   </span>
                 </section>
                 <section class="col-6 col-sm-12">
@@ -238,6 +241,13 @@ export default {
         return `${tags[0]}, ${tags[1]} and ${num} more.`;
       }
     },
+    packageStargazersCount() {
+      const repoInfo = this.$data.repoInfo;
+      let count = 0;
+      count += repoInfo.stargazers_count || 0;
+      count += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
+      return count;
+    },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
@@ -255,6 +265,14 @@ export default {
         link: this.$package.repoUrl,
         text: this.$package.repo
       };
+    },
+    parentNavLink() {
+      if (this.$package.parentUrl)
+        return {
+          link: this.$package.parentUrl,
+          text: this.$package.parentRepo
+        };
+      return null;
     },
     ownerNavLink() {
       return {
@@ -393,4 +411,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             position absolute
             right .4rem
             top .1rem
+
+      .fork
+        font-size 0.6rem
+        a
+          font-size 0.6rem
 </style>

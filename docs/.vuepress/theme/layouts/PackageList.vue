@@ -58,6 +58,9 @@
                           <i class="fa fa-scroll"></i>
                           {{ pkg.licenseName }}
                         </span>
+                        <span v-if="pkg.parentUrl" class="chip">
+                          <i class="fa fa-code-branch"></i>Fork
+                        </span>
                       </div>
                     </div>
                   </div>

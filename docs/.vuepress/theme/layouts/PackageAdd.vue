@@ -440,7 +440,7 @@ export default {
         repoUrl: repoInfo.html_url,
         repoBranch: form.branch.value,
         packageFolder: form.packageFolder.value,
-        fork: repoInfo.fork,
+        parentUrl: repoInfo.parent ? repoInfo.parent.html_url : null,
         licenseSpdxId: form.licenseId.value,
         licenseName: form.licenseName.value,
         topics: form.topics.options.filter(x => x.value).map(x => x.slug),

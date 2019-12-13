@@ -4,7 +4,7 @@ description: Reactive Extensions for Unity
 repoUrl: 'https://github.com/starikcetin/UniRx'
 repoBranch: master
 packageFolder: Assets/Plugins/UniRx
-fork: true
+parentUrl: 'https://github.com/neuecc/UniRx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

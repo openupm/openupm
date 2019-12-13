@@ -82,9 +82,8 @@ const preparePackage = function(doc) {
     doc.hunter = "-";
     doc.hunterUrl = null;
   }
-  if (doc.licenseSpdxId) {
-    doc.licenseName = spdx[doc.licenseSpdxId].name;
-  }
+  if (doc.licenseSpdxId) doc.licenseName = spdx[doc.licenseSpdxId].name;
+  doc.parentRepo = doc.parentUrl ? parseGitHubUrl(doc.parentUrl).repo : null;
   return doc;
 };
 
