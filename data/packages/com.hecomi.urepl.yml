@@ -8,5 +8,5 @@ parentUrl: 'https://github.com/hecomi/uREPL'
 licenseSpdxId: null
 licenseName: MIT License
 topics:
-  - utilities
+  - utility
 hunter: starikcetin

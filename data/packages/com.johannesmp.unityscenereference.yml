@@ -11,5 +11,5 @@ fork: false
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utilities
+  - utility
 hunter: starikcetin

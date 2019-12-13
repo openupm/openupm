@@ -12,5 +12,5 @@ displayName: Enum Generator
 description: Tool for generating c# enums based on json input files.
 
 # Add-ons.
-topics: utilities
+topics: utility
 hunter:

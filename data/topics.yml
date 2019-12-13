@@ -1,51 +1,33 @@
 topics:
+- name: 2D
+  slug: 2d
 - name: AI
   slug: ai
 - name: Animation
   slug: animation
+- name: Asset
+  slug: asset
 - name: Asset Management
   slug: asset-management
-- name: Asset Packs
-  slug: asset-packs
-- name: Audio & Video
-  slug: audio-n-video
 - name: Camera
   slug: camera
 - name: DOTS
   slug: dots
-- name: Example Projects
-  slug: example-projects
-- name: GUI
-  slug: gui
-- name: Libraries
-  slug: libraries
-- name: Input Management
-  slug: input-management
-- name: Integration
-  slug: integration
-- name: Level Design
-  slug: level-design
+- name: Effect
+  slug: effect
+- name: Framework
+  slug: framework
 - name: Localization
   slug: localization
-- name: Modelling & Painting
-  slug: modelling-n-painting
 - name: Network
   slug: network
-- name: Particles & Effects
-  slug: particles-n-effects
 - name: Physics
   slug: physics
-- name: Shaders
-  slug: shaders
-- name: Sprite Management
-  slug: sprite-management
+- name: Shader
+  slug: shader
 - name: Terrain
   slug: terrain
-- name: Utilities
-  slug: utilities
-- name: Version Control
-  slug: version-control
-- name: Visual Scripting
-  slug: visual-scripting
-- name: Service
-  slug: service
+- name: UI
+  slug: ui
+- name: Utility
+  slug: utility

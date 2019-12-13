@@ -8,5 +8,5 @@ parentUrl: 'https://github.com/neuecc/UniRx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - libraries
+  - framework
 hunter: starikcetin

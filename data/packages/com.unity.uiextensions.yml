@@ -8,6 +8,6 @@ parentUrl: null
 licenseSpdxId: null
 licenseName: ''
 topics:
-  - gui
-  - libraries
+  - ui
+  - framework
 hunter: favoyang

@@ -8,5 +8,5 @@ parentUrl: 'https://github.com/svermeulen/Extenject'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - libraries
+  - framework
 hunter: starikcetin

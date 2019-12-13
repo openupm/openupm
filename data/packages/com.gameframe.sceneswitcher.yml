@@ -8,5 +8,5 @@ parentUrl: null
 licenseSpdxId: null
 licenseName: MIT License
 topics:
-  - utilities
+  - utility
 hunter: favoyang

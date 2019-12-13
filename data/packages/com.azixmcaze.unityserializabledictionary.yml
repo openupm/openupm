@@ -8,6 +8,5 @@ fork: true
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - libraries
-  - utilities
+  - utility
 hunter: starikcetin

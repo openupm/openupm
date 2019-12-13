@@ -12,5 +12,5 @@ displayName: Compile Time Tracker
 description: Unity editor extension which tracks compile time.
 
 # Add-ons.
-topics: utilities
+topics: utility
 hunter:
