@@ -91,7 +91,7 @@
                   </div>
                 </section>
                 <section v-if="!noTagsFound" class="col-12">
-                  <h2>Version History</h2>
+                  <h2>Version history</h2>
                   <div class="container">
                     <ul class="build-history">
                       <li
@@ -148,7 +148,7 @@
                     class="tooltip tooltip-top"
                     data-tooltip="Non-semver and duplicated tags are ignored"
                   >
-                    Non-semver Tags
+                    Non-semver and duplicated tags
                     <i class="fa fa-info-circle"></i>
                   </h2>
                   <div>{{ packageInvalidTagsString }}</div>
