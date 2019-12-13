@@ -4,9 +4,9 @@ description: pulling daily from bitbucket repo
 repoUrl: 'https://github.com/JohannesDeml/unity-ui-extensions'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
-licenseSpdxId: null
-licenseName: ''
+parentUrl: 'https://bitbucket.org/UnityUIExtensions/unity-ui-extensions'
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause
 topics:
   - ui
   - framework

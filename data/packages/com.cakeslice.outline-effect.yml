@@ -6,7 +6,7 @@ repoBranch: master
 packageFolder: ''
 parentUrl: null
 licenseSpdxId: MIT
-licenseName: The MIT License
+licenseName: MIT License
 topics:
   - effect
 hunter: favoyang
