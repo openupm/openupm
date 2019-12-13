@@ -369,13 +369,12 @@ export default {
     },
     uploadLink() {
       const qs = querystring.stringify({
-        filename: this.$data.yamlFilename,
+        filename: "data/packages/" + this.$data.yamlFilename,
         value: this.$data.yaml,
         message: `feat: new package ${this.$data.packageInfo.name}`
       });
       return {
-        link:
-          "https://github.com/openupm/openupm/new/master/data/packages?" + qs,
+        link: "https://github.com/openupm/openupm/new/master/?" + qs,
         text: "Create a pull request"
       };
     }
