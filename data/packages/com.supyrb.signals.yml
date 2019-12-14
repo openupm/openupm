@@ -1,0 +1,13 @@
+name: com.supyrb.signals
+displayName: "Signals"
+description: 'A typesafe, lightweight messaging system for Unity with UPM Support.'
+repoUrl: 'https://github.com/supyrb/signals'
+repoBranch: master
+packageFolder: ''
+parentUrl: 'https://github.com/yankooliveira/signals'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - framework
+  - utility
+hunter: JohannesDeml
