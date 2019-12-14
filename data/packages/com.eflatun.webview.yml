@@ -1,0 +1,13 @@
+name: com.eflatun.webview
+displayName: Eflatun.WebView
+description: WebView for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.WebView'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ui
+  - utility
+hunter: favoyang
