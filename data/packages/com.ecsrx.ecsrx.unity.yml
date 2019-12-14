@@ -1,0 +1,15 @@
+name: com.ecsrx.ecsrx.unity
+displayName: EcsRx.Unity
+description: >-
+  A simple framework for unity using the ECS paradigm but with unirx for fully
+  reactive systems.
+repoUrl: 'https://github.com/starikcetin/ecsrx.unity'
+repoBranch: upm
+packageFolder: ''
+parentUrl: 'https://github.com/EcsRx/ecsrx.unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - framework
+hunter: favoyang
