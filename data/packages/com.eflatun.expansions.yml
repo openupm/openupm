@@ -1,0 +1,12 @@
+name: com.eflatun.expansions
+displayName: Eflatun.Expansions
+description: 'C# Expansions'
+repoUrl: 'https://github.com/starikcetin/Eflatun.Expansions'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
