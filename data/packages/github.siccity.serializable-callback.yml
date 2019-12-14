@@ -1,0 +1,12 @@
+name: github.siccity.serializable-callback
+displayName: SerializableCallback
+description: UnityEvent and System.Func had a child
+repoUrl: 'https://github.com/MeikelLP/SerializableCallback'
+repoBranch: master
+packageFolder: ''
+parentUrl: 'https://github.com/Siccity/SerializableCallback'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
