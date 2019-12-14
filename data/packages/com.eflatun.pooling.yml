@@ -1,0 +1,12 @@
+name: com.eflatun.pooling
+displayName: Eflatun.Pooling
+description: Object pooling utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Pooling'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
