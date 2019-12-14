@@ -1,0 +1,12 @@
+name: com.eflatun.codepatterns
+displayName: Eflatun.CodePatterns
+description: Common code pattern utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.CodePatterns'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
