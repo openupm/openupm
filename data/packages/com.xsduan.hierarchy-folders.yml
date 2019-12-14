@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/xsduan/unity-hierarchy-folders'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - utility

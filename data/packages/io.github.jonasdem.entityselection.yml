@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/JonasDeM/EntitySelection'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - dots
   - utility

@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/SinyavtsevIlya/NanoECS'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - dots
   - framework
