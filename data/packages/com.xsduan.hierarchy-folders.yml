@@ -1,0 +1,13 @@
+name: com.xsduan.hierarchy-folders
+displayName: Heirarchy Folders
+description: Specialized folder objects for Unity Hierarchy.
+repoUrl: 'https://github.com/xsduan/unity-hierarchy-folders'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - utility
+hunter: favoyang
