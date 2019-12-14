@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/supyrb/signals'
 repoBranch: master
 packageFolder: ''
 parentUrl: 'https://github.com/yankooliveira/signals'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - framework
   - utility
