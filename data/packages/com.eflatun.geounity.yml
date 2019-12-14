@@ -1,0 +1,15 @@
+name: com.eflatun.geounity
+displayName: Eflatun.GeoUnity
+description: >-
+  Geographical (latitude, longitude) projection and calculation library for
+  Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.GeoUnity'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - framework
+  - utility
+hunter: favoyang
