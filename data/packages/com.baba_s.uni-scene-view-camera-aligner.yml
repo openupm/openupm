@@ -1,0 +1,12 @@
+name: com.baba_s.uni-scene-view-camera-aligner
+displayName: UniSceneViewCameraAligner
+description: Scene View のカメラの位置と角度をシーンのメインカメラに同期させるエディタ拡張
+repoUrl: 'https://github.com/baba-s/uni-scene-view-camera-aligner'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utility
+hunter: favoyang
