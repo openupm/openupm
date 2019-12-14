@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/JohannesDeml/LeanTween'
 repoBranch: master
 packageFolder: ''
 parentUrl: 'https://github.com/dentedpixel/LeanTween'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
   - utility

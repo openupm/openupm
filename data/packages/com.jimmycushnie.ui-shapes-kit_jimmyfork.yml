@@ -5,7 +5,7 @@ repoUrl: 'https://github.com/JimmyCushnie/ui-shapes-kit_jimmyfork'
 repoBranch: master
 packageFolder: ''
 parentUrl: 'https://github.com/thisotherthing/ui-shapes-kit'
-licenseSpdxId: null
+licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ui

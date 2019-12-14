@@ -5,7 +5,7 @@ repoUrl: 'https://github.com/coryleach/UnitySceneSwitcher'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
+licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utility

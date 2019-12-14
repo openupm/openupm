@@ -5,7 +5,7 @@ repoUrl: 'https://github.com/5argon/ECSLineRenderer'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
+licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - dots
