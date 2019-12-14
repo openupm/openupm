@@ -1,0 +1,12 @@
+name: com.eflatun.serialization
+displayName: Eflatun.Serialization
+description: Serialization utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Serialization'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
