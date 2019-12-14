@@ -1,0 +1,12 @@
+name: upm-embed
+displayName: Embed UPM Packages
+description: Unity editor extension for easily embedding UPM packages in your project
+repoUrl: 'https://github.com/liortal53/upm-embed'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: favoyang
