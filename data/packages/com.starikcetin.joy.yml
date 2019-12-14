@@ -1,0 +1,15 @@
+name: com.starikcetin.joy
+displayName: Joy
+description: >-
+  ECS framework for Unity3D game engine that uses MonoBehaviours as components
+  and GameObjects as entities.
+repoUrl: 'https://github.com/starikcetin/joy'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - framework
+hunter: favoyang
