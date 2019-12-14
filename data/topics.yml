@@ -19,6 +19,8 @@ topics:
   slug: framework
 - name: Localization
   slug: localization
+- name: Mobile
+  slug: mobile
 - name: Network
   slug: network
 - name: Physics
