@@ -1,0 +1,12 @@
+name: com.eflatun.hexmath
+displayName: Eflatun.HexMath
+description: Library for hexagonal grid calculations.
+repoUrl: 'https://github.com/starikcetin/Eflatun.HexMath'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
