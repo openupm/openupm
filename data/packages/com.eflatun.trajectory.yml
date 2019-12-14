@@ -1,0 +1,13 @@
+name: com.eflatun.trajectory
+displayName: Eflatun.Trajectory
+description: Trajectory calculation and visualizaiton utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Trajectory'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - utility
+hunter: favoyang
