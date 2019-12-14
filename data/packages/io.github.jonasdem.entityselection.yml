@@ -1,0 +1,13 @@
+name: io.github.jonasdem.entityselection
+displayName: Entity Selection
+description: A minimal solution for selecting entities in the unity sceneview.
+repoUrl: 'https://github.com/JonasDeM/EntitySelection'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - dots
+  - utility
+hunter: favoyang
