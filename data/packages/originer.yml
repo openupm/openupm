@@ -1,0 +1,12 @@
+name: originer
+displayName: Originer
+description: ":octocat:\U0001F9F3The package for Unity3d which makes it possible to automatically resolve UPM dependencies on projects located on Github"
+repoUrl: 'https://github.com/k0dep/Originer'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: null
+licenseName: MIT License
+topics:
+  - package-management
+hunter: favoyang
