@@ -23,6 +23,8 @@ topics:
   slug: mobile
 - name: Network
   slug: network
+- name: Package Management
+  slug: package-management
 - name: Physics
   slug: physics
 - name: Shader
