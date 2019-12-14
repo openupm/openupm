@@ -1,0 +1,14 @@
+name: com.yasirkula.ingame-debug-console
+displayName: Ingame Debug Console
+description: >-
+  A uGUI based console to see debug messages and execute commands during
+  gameplay in Unity
+repoUrl: 'https://github.com/starikcetin/UnityIngameDebugConsole'
+repoBranch: upm
+packageFolder: ''
+parentUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: starikcetin
