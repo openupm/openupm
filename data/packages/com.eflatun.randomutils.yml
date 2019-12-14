@@ -1,0 +1,12 @@
+name: com.eflatun.randomutils
+displayName: Eflatun.RandomUtils
+description: Random number generation (RNG) utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.RandomUtils'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
