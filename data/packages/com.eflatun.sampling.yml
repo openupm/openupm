@@ -1,0 +1,12 @@
+name: com.eflatun.sampling
+displayName: Eflatun.Sampling
+description: Sampling utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Sampling'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
