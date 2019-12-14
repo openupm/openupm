@@ -1,0 +1,12 @@
+name: com.johnsoncodehk.unity-asset-inspector
+displayName: Asset Inspector
+description: Unity sub-asset editor
+repoUrl: 'https://github.com/johnsoncodehk/unity-asset-inspector'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utility
+hunter: favoyang
