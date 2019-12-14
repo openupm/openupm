@@ -1,0 +1,13 @@
+name: com.eflatun.eventbus
+displayName: Eflatun.EventBus
+description: Generic event bus for Unity with Extenject.
+repoUrl: 'https://github.com/starikcetin/Eflatun.EventBus'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - framework
+  - utility
+hunter: favoyang
