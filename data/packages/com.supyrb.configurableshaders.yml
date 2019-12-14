@@ -1,0 +1,12 @@
+name: com.supyrb.configurableshaders
+displayName: Configurable Shaders
+description: Showing off the power of shader properties in Unity
+repoUrl: 'https://github.com/supyrb/ConfigurableShaders'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - shader
+hunter: JohannesDeml
