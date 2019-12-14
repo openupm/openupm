@@ -1,0 +1,12 @@
+name: com.eflatun.inspector
+displayName: Eflatun.Inspector
+description: Inspector utilities for Unity.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Inspector'
+repoBranch: upm
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
