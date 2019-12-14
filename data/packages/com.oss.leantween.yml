@@ -1,0 +1,13 @@
+name: com.oss.leantween
+displayName: Leantween
+description: LeanTween is an efficient animation engine for Unity
+repoUrl: 'https://github.com/JohannesDeml/LeanTween'
+repoBranch: master
+packageFolder: ''
+parentUrl: 'https://github.com/dentedpixel/LeanTween'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - animation
+  - utility
+hunter: JohannesDeml
