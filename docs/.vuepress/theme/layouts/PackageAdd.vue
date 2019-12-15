@@ -294,11 +294,11 @@
 <script>
 import axios from "axios";
 import Enum from "enum";
-import urljoin from "url-join";
 import querystring from "querystring";
-
 import VueScrollTo from "vue-scrollto";
-const yaml = require("js-yaml");
+import spdx from "spdx-license-list";
+import urljoin from "url-join";
+import yaml from "js-yaml";
 
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
@@ -445,6 +445,14 @@ export default {
       };
       return yaml.safeDump(content);
     },
+    guessLicenseId() {
+      if (this.form.licenseName.value && !this.form.licenseId.value) {
+        const spdxId = Object.keys(spdx).find(
+          x => spdx[x].name == this.form.licenseName.value
+        );
+        if (spdxId) this.form.licenseId.value = spdxId;
+      }
+    },
     resetFormError() {
       let form = this.$data.form;
       for (let key in form) {
@@ -534,6 +542,8 @@ export default {
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
           );
         this.step = SubmitStep.GetYamlFile.value;
+        // Guess license id.
+        this.guessLicenseId();
         // Generate YAML.
         this.$data.yaml = this.genYaml();
         this.$data.yamlFilename = this.$data.packageInfo.name + ".yml";
