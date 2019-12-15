@@ -73,7 +73,7 @@
                       class="bg-gray text-primary text-bold"
                       data-lang="shell"
                     >
-                      openupm add {{ $package.name }}
+                      {{ packageInstallCli }}
                     </code>
                     <div class="action text-right">
                       <a
@@ -288,6 +288,16 @@ export default {
       count += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
       return count;
     },
+    packageInstallCli() {
+      if (this.packageSucceededBuilds.length)
+        return `openupm add ${this.$package.name}`;
+      else if (!this.$package.packageFolder) {
+        let cli = `openupm add ${this.$package.name}@${this.$package.repoUrl}`;
+        if (this.$package.repoBranch != "master")
+          cli += "#this.$package.repoBranch";
+        return cli;
+      } else return "not available";
+    },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
@@ -412,8 +422,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       }
     },
     onCopyClick() {
-      const text = `openupm add ${this.$package.name}`;
-      copy(text, { format: "text/plain" });
+      copy(this.packageInstallCli, { format: "text/plain" });
     }
   }
 };
@@ -458,6 +467,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
           display block
           margin-bottom 0.4rem
           padding 1.1rem 0.4rem 0.8rem
+          overflow-wrap break-word
           &:before
             color #bcc3ce
             content attr(data-lang)
