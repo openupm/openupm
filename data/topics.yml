@@ -11,7 +11,7 @@ topics:
   slug: asset-management
 - name: Camera
   slug: camera
-- name: DOTS
+- name: DOTS/ECS
   slug: dots
 - name: Effect
   slug: effect
