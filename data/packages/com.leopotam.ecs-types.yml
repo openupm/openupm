@@ -1,0 +1,12 @@
+name: com.leopotam.ecs-types
+displayName: LeoECS Types
+description: Engine independent types for LeoECS Entity Component System framework.
+repoUrl: 'https://github.com/Leopotam/ecs-types'
+repoBranch: master
+packageFolder: ''
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+hunter: favoyang
