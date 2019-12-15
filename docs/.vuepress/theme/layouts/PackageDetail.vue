@@ -117,7 +117,7 @@
                   class="col-12"
                 >
                   <h2>Build Issues</h2>
-                  <div v-if="noTagsFound">
+                  <div v-if="noTagsFound" class="toast toast-warning">
                     No tags found in <NavLink :item="tagsNavLink" />
                   </div>
                   <div class="container">
@@ -440,7 +440,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         font-weight 600
         border-bottom none
 
-      a, h2, p, span, ul, li
+      a, h2, p, span, ul, li, div.toast
         font-size 0.75rem
 
       section
