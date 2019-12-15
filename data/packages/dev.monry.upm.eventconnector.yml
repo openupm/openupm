@@ -1,0 +1,14 @@
+name: dev.monry.upm.eventconnector
+displayName: Event Connector
+description: Connect presentation events
+repoUrl: 'https://github.com/monry/UniFlow'
+repoBranch: master
+packageFolder: Assets
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - framework
+  - ui
+  - utility
+hunter: favoyang
