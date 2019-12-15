@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/johnsoncodehk/unity-asset-inspector'
 repoBranch: master
 packageFolder: ''
 parentUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utility
 hunter: favoyang
