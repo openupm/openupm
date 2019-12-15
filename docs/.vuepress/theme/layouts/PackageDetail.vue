@@ -113,7 +113,7 @@
                   </div>
                 </section>
                 <section
-                  v-if="noTagsFound || packageFailedBuilds.length"
+                  v-if="noTagsFound || packageNotSucceededBuilds.length"
                   class="col-12"
                 >
                   <h2>Build Issues</h2>
@@ -123,7 +123,7 @@
                   <div class="container">
                     <ul class="build-history">
                       <li
-                        v-for="build in packageFailedBuilds"
+                        v-for="build in packageNotSucceededBuilds"
                         :key="build.id"
                         class="columns"
                       >
@@ -261,8 +261,8 @@ export default {
     packageSucceededBuilds() {
       return this.packageBuilds.filter(x => x.state == ReleaseState.Succeeded);
     },
-    packageFailedBuilds() {
-      return this.packageBuilds.filter(x => x.state == ReleaseState.Failed);
+    packageNotSucceededBuilds() {
+      return this.packageBuilds.filter(x => x.state != ReleaseState.Succeeded);
     },
     packageCurrentBuild() {
       const builds = this.packageSucceededBuilds;
