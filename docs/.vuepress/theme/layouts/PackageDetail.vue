@@ -181,16 +181,22 @@ const apiRepoUrl = "https://api.github.com/repos/";
 
 const apiPackageUrl = urljoin(util.apiUrl, "/packages/");
 
+const openupmCliRepoUrl = "https://github.com/openupm/openupm-cli#openupm-cli";
+
+const defaultData = function() {
+  return {
+    readmeRaw: "",
+    repoInfo: {},
+    packageInfo: {},
+    noTagsFound: false,
+    openupmCliRepoUrl
+  };
+};
+
 export default {
   components: { ParentLayout, NavLink },
   data() {
-    return {
-      readmeRaw: "",
-      repoInfo: {},
-      packageInfo: {},
-      noTagsFound: false,
-      openupmCliRepoUrl: "https://github.com/openupm/openupm-cli#openupm-cli"
-    };
+    return defaultData();
   },
   computed: {
     $package() {
@@ -327,13 +333,23 @@ export default {
       };
     }
   },
+  watch: {
+    // eslint-disable-next-line no-unused-vars
+    $route(to, from) {
+      Object.assign(this.$data, defaultData());
+      this.onStart();
+    }
+  },
   mounted() {
-    this.fetchRepoReadme();
-    this.fetchRepoInfo();
-    this.fetchRepoTagsInfo();
-    this.fetchPackageInfo();
+    this.onStart();
   },
   methods: {
+    onStart() {
+      this.fetchRepoReadme();
+      this.fetchRepoInfo();
+      this.fetchRepoTagsInfo();
+      this.fetchPackageInfo();
+    },
     async fetchRepoReadme() {
       // Fetch repo readme.
       const title = "# " + this.packageName + "\n";
