@@ -170,7 +170,7 @@ import axios from "axios";
 import copy from "copy-to-clipboard";
 import marked from "marked";
 import { noCase } from "change-case";
-const urljoin = require("url-join");
+import urljoin from "url-join";
 
 import util from "@root/docs/.vuepress/util";
 import { ReleaseState, ReleaseReason } from "@root/app/models/common";
