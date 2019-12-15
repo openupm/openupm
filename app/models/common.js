@@ -33,7 +33,9 @@ const ReleaseReason = new Enum({
   // Missing package.json
   PackageNotFound: 800,
   // private repo
-  Private: 801
+  Private: 801,
+  // private repo
+  PackageNameNotMatch: 802
 });
 
 /* Release reasons that considered as the failure of build service. The
