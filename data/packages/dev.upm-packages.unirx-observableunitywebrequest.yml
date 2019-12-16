@@ -1,0 +1,13 @@
+name: dev.upm-packages.unirx-observableunitywebrequest
+displayName: UniRx ObservableUnityWebRequest
+description: UnityWebRequest as IObservable
+repoUrl: 'https://github.com/upm-packages/UniRx-ObservableUnityWebRequest'
+repoBranch: master
+packageFolder: Assets
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utility
+hunter: favoyang
