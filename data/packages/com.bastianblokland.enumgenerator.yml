@@ -2,7 +2,7 @@
 repoUrl: https://github.com/BastianBlokland/enum-generator-unity
 repoBranch: master
 packageFolder:
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 

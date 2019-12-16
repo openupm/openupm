@@ -4,7 +4,7 @@ description: 'c#-Unity ECS framework '
 repoUrl: 'https://github.com/SinyavtsevIlya/NanoECS'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

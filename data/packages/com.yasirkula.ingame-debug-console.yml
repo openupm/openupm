@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/starikcetin/UnityIngameDebugConsole'
 repoBranch: upm
 packageFolder: ''
-parentUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
+parentRepoUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

@@ -4,7 +4,7 @@ description: UnityEvent and System.Func had a child
 repoUrl: 'https://github.com/MeikelLP/SerializableCallback'
 repoBranch: master
 packageFolder: ''
-parentUrl: 'https://github.com/Siccity/SerializableCallback'
+parentRepoUrl: 'https://github.com/Siccity/SerializableCallback'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

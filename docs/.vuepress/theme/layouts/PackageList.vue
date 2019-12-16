@@ -54,11 +54,15 @@
                           <i class="fa fa-user"></i>
                           {{ pkg.owner }}
                         </span>
+                        <span v-if="pkg.parentOwner" class="chip">
+                          <i class="fa fa-user"></i>
+                          {{ pkg.parentOwner }}
+                        </span>
                         <span class="chip">
                           <i class="fa fa-scroll"></i>
                           {{ pkg.licenseSpdxId || pkg.licenseName }}
                         </span>
-                        <span v-if="pkg.parentUrl" class="chip">
+                        <span v-if="pkg.parentRepoUrl" class="chip">
                           <i class="fa fa-code-branch"></i>Fork
                         </span>
                       </div>

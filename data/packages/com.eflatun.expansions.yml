@@ -4,7 +4,7 @@ description: 'C# Expansions'
 repoUrl: 'https://github.com/starikcetin/Eflatun.Expansions'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

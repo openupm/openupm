@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/mob-sakai/GitDependencyResolverForUnity'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

@@ -4,7 +4,7 @@ description: ":scroll:\U0001F5A5️Json rpc v1.0 server implementation for Unity
 repoUrl: 'https://github.com/k0dep/Unity-Json-Rpc'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

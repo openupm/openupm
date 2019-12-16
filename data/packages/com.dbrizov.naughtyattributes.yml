@@ -4,7 +4,7 @@ description: Attribute Extensions for Unity
 repoUrl: 'https://github.com/JimmyCushnie/NaughtyAttributes'
 repoBranch: master
 packageFolder: ''
-parentUrl: 'https://github.com/dbrizov/NaughtyAttributes'
+parentRepoUrl: 'https://github.com/dbrizov/NaughtyAttributes'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

@@ -4,7 +4,7 @@ description: 'Render listbox in Inspector for [Flags] enum'
 repoUrl: 'https://github.com/upm-packages/EnumFlags'
 repoBranch: master
 packageFolder: Assets
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

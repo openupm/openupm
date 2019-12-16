@@ -4,7 +4,7 @@ description: null
 repoUrl: 'https://github.com/favoyang/unity-package-example-subtree'
 repoBranch: master
 packageFolder: Assets/Plugins/UnityPackageExample
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics: []

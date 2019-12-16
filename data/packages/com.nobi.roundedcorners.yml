@@ -4,7 +4,7 @@ description: This components and shaders allows you to add rounded corners to UI
 repoUrl: 'https://github.com/Nobinator/Unity-UI-Rounded-Corners'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

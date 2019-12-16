@@ -4,7 +4,7 @@ description: Library for hexagonal grid calculations.
 repoUrl: 'https://github.com/starikcetin/Eflatun.HexMath'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

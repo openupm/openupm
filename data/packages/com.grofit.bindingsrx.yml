@@ -4,7 +4,7 @@ description: A 2 way binding system for unity using unirx
 repoUrl: 'https://github.com/starikcetin/bindingsrx'
 repoBranch: upm
 packageFolder: ''
-parentUrl: 'https://github.com/grofit/bindingsrx'
+parentRepoUrl: 'https://github.com/grofit/bindingsrx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

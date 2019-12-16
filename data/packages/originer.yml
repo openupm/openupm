@@ -4,7 +4,7 @@ description: ":octocat:\U0001F9F3The package for Unity3d which makes it possible
 repoUrl: 'https://github.com/k0dep/Originer'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

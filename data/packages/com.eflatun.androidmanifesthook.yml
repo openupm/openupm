@@ -4,7 +4,7 @@ description: Utilites for hooking into AndroidManifest.xml generation in Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.AndroidManifestHook'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

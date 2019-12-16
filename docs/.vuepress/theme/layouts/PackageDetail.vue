@@ -33,13 +33,18 @@
                 <section class="col-12">
                   <h2>Project</h2>
                   <div><NavLink :item="repoNavLink" /></div>
-                  <div v-if="parentNavLink" class="fork">
+                  <div v-if="parentRepoNavLink" class="fork">
                     forked from
-                    <NavLink :item="parentNavLink" />
+                    <NavLink :item="parentRepoNavLink" />
                   </div>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Author</h2>
+                  <NavLink
+                    v-if="parentOwnerNavLink"
+                    :item="parentOwnerNavLink"
+                  />
+                  <span v-if="parentOwnerNavLink">,</span>
                   <NavLink :item="ownerNavLink" />
                 </section>
                 <section class="col-6 col-sm-12">
@@ -321,10 +326,10 @@ export default {
         text: this.$package.repo
       };
     },
-    parentNavLink() {
-      if (this.$package.parentUrl)
+    parentRepoNavLink() {
+      if (this.$package.parentRepoUrl)
         return {
-          link: this.$package.parentUrl,
+          link: this.$package.parentRepoUrl,
           text: this.$package.parentRepo
         };
       return null;
@@ -334,6 +339,14 @@ export default {
         link: this.$package.ownerUrl,
         text: this.$package.owner
       };
+    },
+    parentOwnerNavLink() {
+      if (this.$package.parentRepoUrl)
+        return {
+          link: this.$package.parentOwnerUrl,
+          text: this.$package.parentOwner
+        };
+      return null;
     },
     hunterNavLink() {
       return {

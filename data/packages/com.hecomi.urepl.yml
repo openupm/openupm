@@ -4,7 +4,7 @@ description: In-game powerful REPL environment for Unity3D.
 repoUrl: 'https://github.com/starikcetin/uREPL'
 repoBranch: upm
 packageFolder: ''
-parentUrl: 'https://github.com/hecomi/uREPL'
+parentRepoUrl: 'https://github.com/hecomi/uREPL'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

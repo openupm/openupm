@@ -64,7 +64,7 @@ const packageExists = function(name) {
 // Get clean repo url.
 const cleanRepoUrl = function(url, format) {
   if (!format) format = "https";
-  let ghUrl = parseGitHubUrl(url);
+  const ghUrl = parseGitHubUrl(url);
   if (format == "git") return `git@${ghUrl.host}:${ghUrl.repo}.git`;
   else if (format == "https") return `https://${ghUrl.host}/${ghUrl.repo}`;
   else throw new Error("format should be either https or git.");
@@ -72,19 +72,31 @@ const cleanRepoUrl = function(url, format) {
 
 // Prepare package object, add or fix necessary properties.
 const preparePackage = function(doc) {
-  let ghUrl = parseGitHubUrl(doc.repoUrl);
+  const ghUrl = parseGitHubUrl(doc.repoUrl);
+  // repo
   doc.repo = ghUrl.repo;
+  // owner
   doc.owner = ghUrl.owner;
-  doc.ownerUrl = "https://" + ghUrl.hostname + "/" + ghUrl.owner;
+  doc.ownerUrl = `https://${ghUrl.hostname}/${ghUrl.owner}`;
+  // hunter
   if (doc.hunter) {
-    doc.hunterUrl = "https://" + ghUrl.hostname + "/" + doc.hunter;
+    doc.hunterUrl = `https://${ghUrl.hostname}/${doc.hunter}`;
   } else {
     doc.hunter = "-";
     doc.hunterUrl = null;
   }
+  // license
   if (doc.licenseSpdxId && spdx[doc.licenseSpdxId])
     doc.licenseName = spdx[doc.licenseSpdxId].name;
-  doc.parentRepo = doc.parentUrl ? parseGitHubUrl(doc.parentUrl).repo : null;
+  // parent
+  const parentGHUrl = doc.parentRepoUrl
+    ? parseGitHubUrl(doc.parentRepoUrl)
+    : null;
+  doc.parentRepo = parentGHUrl ? parentGHUrl.repo : null;
+  doc.parentOwner = parentGHUrl ? parentGHUrl.owner : null;
+  doc.parentOwnerUrl = parentGHUrl
+    ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}`
+    : null;
   return doc;
 };
 

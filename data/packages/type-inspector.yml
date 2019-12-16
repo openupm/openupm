@@ -4,7 +4,7 @@ description: "\U0001F52CPackage for unity3d which allow select type and members 
 repoUrl: 'https://github.com/k0dep/type-inspector'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

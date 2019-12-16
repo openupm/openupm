@@ -4,7 +4,7 @@ description: Grid building utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.GridBuilding'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

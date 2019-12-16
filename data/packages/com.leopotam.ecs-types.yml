@@ -4,7 +4,7 @@ description: Engine independent types for LeoECS Entity Component System framewo
 repoUrl: 'https://github.com/Leopotam/ecs-types'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

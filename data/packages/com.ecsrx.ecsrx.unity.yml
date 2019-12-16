@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/starikcetin/ecsrx.unity'
 repoBranch: upm
 packageFolder: ''
-parentUrl: 'https://github.com/EcsRx/ecsrx.unity'
+parentRepoUrl: 'https://github.com/EcsRx/ecsrx.unity'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

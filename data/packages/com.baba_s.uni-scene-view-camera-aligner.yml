@@ -4,7 +4,7 @@ description: Scene View のカメラの位置と角度をシーンのメイン�
 repoUrl: 'https://github.com/baba-s/uni-scene-view-camera-aligner'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:

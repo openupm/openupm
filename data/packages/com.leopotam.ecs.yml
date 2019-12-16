@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/Leopotam/ecs'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

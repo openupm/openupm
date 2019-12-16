@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/starikcetin/Eflatun.Tracking2D'
 repoBranch: upm
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

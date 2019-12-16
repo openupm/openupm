@@ -4,7 +4,7 @@ description: 'A typesafe, lightweight messaging system for Unity with UPM Suppor
 repoUrl: 'https://github.com/supyrb/signals'
 repoBranch: master
 packageFolder: ''
-parentUrl: 'https://github.com/yankooliveira/signals'
+parentRepoUrl: 'https://github.com/yankooliveira/signals'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

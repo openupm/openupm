@@ -4,7 +4,7 @@ description: procedural shapes for Unity UI
 repoUrl: 'https://github.com/JimmyCushnie/ui-shapes-kit_jimmyfork'
 repoBranch: master
 packageFolder: ''
-parentUrl: 'https://github.com/thisotherthing/ui-shapes-kit'
+parentRepoUrl: 'https://github.com/thisotherthing/ui-shapes-kit'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

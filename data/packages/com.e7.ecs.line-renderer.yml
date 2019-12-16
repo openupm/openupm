@@ -4,7 +4,7 @@ description: ECS approach to render a line.
 repoUrl: 'https://github.com/5argon/ECSLineRenderer'
 repoBranch: master
 packageFolder: ''
-parentUrl: null
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
