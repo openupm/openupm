@@ -293,12 +293,13 @@ export default {
       return count;
     },
     packageInstallCli() {
-      if (this.packageSucceededBuilds.length)
-        return `openupm add ${this.$package.name}`;
+      const name = this.$package.name;
+      const repoUrl = this.$package.repoUrl;
+      const repoBranch = this.$package.repoBranch;
+      if (this.packageSucceededBuilds.length) return `openupm add ${name}`;
       else if (!this.$package.packageFolder) {
-        let cli = `openupm add ${this.$package.name}@${this.$package.repoUrl}`;
-        if (this.$package.repoBranch != "master")
-          cli += "#this.$package.repoBranch";
+        let cli = `openupm add ${name}@${repoUrl}`;
+        if (this.$package.repoBranch != "master") cli += `#${repoBranch}`;
         return cli;
       } else return "not available";
     },
