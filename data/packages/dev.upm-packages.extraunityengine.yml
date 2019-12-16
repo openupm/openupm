@@ -1,0 +1,13 @@
+name: dev.upm-packages.extraunityengine
+displayName: Extra UnityEngine
+description: Extensions to extend UnityEngine classes/structs
+repoUrl: 'https://github.com/upm-packages/ExtraUnityEngine'
+repoBranch: master
+packageFolder: Assets
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utility
+hunter: favoyang
