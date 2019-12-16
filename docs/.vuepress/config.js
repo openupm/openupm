@@ -25,9 +25,8 @@ module.exports = {
   ],
   themeConfig: {
     repo: "https://github.com/openupm/openupm",
-    editLinks: false,
+    editLinks: true,
     docsDir: "",
-    editLinkText: "",
     lastUpdated: false,
     logo: "/images/openupm-icon-128.png",
     nav: [

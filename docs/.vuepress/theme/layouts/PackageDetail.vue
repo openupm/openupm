@@ -19,10 +19,12 @@
           </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
-              <div v-if="$data.readmeRaw">
+              <div v-if="$data.readmeRaw" class="readme-wrap">
                 <div v-html="readmeHtml"></div>
               </div>
-              <p v-else>loading...</p>
+              <p v-else class="readme-wrap">loading...</p>
+              <div class="divider"></div>
+              <p><NavLink :item="editNavLink" /></p>
             </div>
           </div>
           <div class="column col-4 col-sm-12">
@@ -183,6 +185,8 @@ const apiPackageUrl = urljoin(util.apiUrl, "/packages/");
 
 const openupmCliRepoUrl = "https://github.com/openupm/openupm-cli#openupm-cli";
 
+const openupmRepoUrl = "https://github.com/openupm/openupm";
+
 const defaultData = function() {
   return {
     readmeRaw: "",
@@ -341,6 +345,16 @@ export default {
         link: urljoin(this.$package.repoUrl, "tags"),
         text: "Github Tags"
       };
+    },
+    editNavLink() {
+      return {
+        link: urljoin(
+          openupmRepoUrl,
+          "/blob/master/data/packages",
+          this.$package.name + ".yml"
+        ),
+        text: "Edit this package"
+      };
     }
   },
   watch: {
@@ -432,6 +446,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 .package-detail
   .main-container
     margin-top 1rem
+
+    .readme-wrap
+      margin-bottom 2rem
 
     .theme-default-content
       max-width auto
