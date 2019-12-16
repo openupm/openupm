@@ -1,0 +1,13 @@
+name: dev.monry.unirx-observabletween
+displayName: UniRx Observable Tween
+description: Tweener library based on UniRx
+repoUrl: 'https://github.com/monry/UniRx-ObservableTween'
+repoBranch: master
+packageFolder: Assets
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utility
+hunter: favoyang
