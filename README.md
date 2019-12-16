@@ -1,8 +1,9 @@
-# OpenUPM
+# OpenUPM (Alpha)
 
 Open source UPM registry for Unity
 
-(alpha)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d66cc09-9f99-4b71-936a-317ee6a7b5d3/deploy-status)](https://app.netlify.com/sites/openupm/deploys)
+[![Build Pipelines Status](https://dev.azure.com/openupm/openupm/_apis/build/status/openupm.openupm-pipelines?branchName=master)](https://dev.azure.com/openupm/openupm/_build/latest?definitionId=1&branchName=master)
 
 ## Development
 
