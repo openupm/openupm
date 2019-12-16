@@ -1,0 +1,12 @@
+name: dev.upm-packages.enumflags
+displayName: Enum Flags
+description: 'Render listbox in Inspector for [Flags] enum'
+repoUrl: 'https://github.com/upm-packages/EnumFlags'
+repoBranch: master
+packageFolder: Assets
+parentUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
