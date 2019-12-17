@@ -11,7 +11,11 @@ const {
 module.exports = (options, context) => ({
   name: "openupm-packages",
 
-  // Additional pages.
+  async extendPageData($page) {
+    let packageNames = await loadPackageNames();
+    $page.packageCount = packageNames.length;
+  },
+
   async additionalPages() {
     // Load packages.
     let packageNames = await loadPackageNames();

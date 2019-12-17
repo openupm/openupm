@@ -24,7 +24,12 @@
             class="feature column col-4 col-md-12"
           >
             <h3>{{ feature.title }}</h3>
-            <p v-html="feature.details"></p>
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <p v-if="index != 0" v-html="feature.details"></p>
+            <p v-else>
+              Hosting <mark>{{ $page.packageCount }}</mark> community selective
+              open source UPM packages and counting
+            </p>
           </div>
         </div>
       </section>
@@ -80,6 +85,7 @@ export default {
 
     h3
       font-size 1.1rem
+      color: $accentColor
 
 // @media (max-width: $MQMobile)
 @media (max-width: $MQMobileNarrow)
