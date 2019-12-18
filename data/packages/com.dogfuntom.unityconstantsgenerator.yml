@@ -7,7 +7,6 @@ description: >-
 repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
 repoBranch: upm
 packageFolder: ''
-fork: false
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
