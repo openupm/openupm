@@ -27,8 +27,8 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              Hosting <mark>{{ $page.packageCount }}</mark> community selective
-              open source UPM packages and counting
+              Hosting <strong>{{ $page.packageCount }}</strong> community
+              selective open source UPM packages and counting
             </p>
           </div>
         </div>

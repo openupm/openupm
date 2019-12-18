@@ -2,8 +2,8 @@
 layout: Home
 title: Open Source Unity Package Registry
 heroText: Open Source Unity Package Registry
-actionText: Get Started
-actionLink: /guide/
+actionText: Learn More
+actionLink: /docs/
 features:
 - title: Open Source UPM Registry
   details: Hosting community selective open source UPM packages

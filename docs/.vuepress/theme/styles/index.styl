@@ -48,6 +48,9 @@ main
     padding-top 0
 
 .theme-default-content
+  font-size 15px
+  &:not(.custom)
+    padding 1rem
   p
     margin-block-start 1em
     margin-block-end 1em
@@ -59,3 +62,8 @@ main
 
 .hide
   display none
+
+a.sidebar-link
+  text-decoration none
+  &:focus
+    box-shadow none;
