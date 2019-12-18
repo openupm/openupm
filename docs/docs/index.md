@@ -66,6 +66,17 @@ The other 3rd-party registries like [xcrew.dev](https://xcrew.dev/), [upm-packag
 
 If the package repository is available and in compliance with open source license, upm structure and valid git tags, then it could be added to OpenUPM without changes, unless it requires a custom build process.
 
+In fact that openupm-cli can support any 3rd-party registries when passing [registry option](https://github.com/openupm/openupm-cli#command-options). An example to search unitynuget-registry.
+
+```sh
+$ openupm search memory --registry=https://unitynuget-registry.azurewebsites.net
+┌───────────────────────────┬──────────────────────┬────────────┬──────────┐
+│ Name                      │ Version              │ Author     │ Date     │
+├───────────────────────────┼──────────────────────┼────────────┼──────────┤
+│ org.nuget.system.memory   │ 4.5.3                │            │          │
+└───────────────────────────┴──────────────────────┴────────────┴──────────┘
+```
+
 ### Awesome-upm and UpmGitExtension
 
 [Awesome-upm](https://github.com/starikcetin/awesome-upm) is a curated list of upm git repositories. [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) provides a better way to install upm packages like git tag based version management and [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity). They work really well together.

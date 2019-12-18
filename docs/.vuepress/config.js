@@ -39,7 +39,7 @@ module.exports = {
         link: "/docs/"
       }
     ],
-    sidebar: ["/docs/"]
+    sidebar: ["/docs/", "/docs/getting-started"]
   },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/

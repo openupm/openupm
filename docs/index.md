@@ -39,6 +39,5 @@ manifest updated, please open unity project to apply changes
 ```
 
 ::: warning COMPATIBILITY NOTE
-openupm-cli tested with [Node.js 12](https://nodejs.org/en/)
-
+openupm-cli requires [Node.js 12](https://nodejs.org/en/)
 :::
