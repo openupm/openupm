@@ -204,7 +204,9 @@
                               Fill the package form
                             </p>
                             <p class="tile-subtitle">
-                              Please provide informations of the UPM package
+                              Please provide informations of the UPM package. If
+                              you need more help, please visit
+                              <NavLink :item="docLink" target="_blank" />.
                             </p>
                           </div>
                         </div>
@@ -230,7 +232,7 @@
                               Package verified
                             </p>
                             <p class="tile-subtitle">
-                              The package YAML file is generated
+                              The package YAML file is generated.
                             </p>
                           </div>
                         </div>
@@ -254,27 +256,60 @@
                           <div class="tile-content">
                             <p class="tile-title">
                               Upload the YAML file to GitHub and start a pull
-                              request (PR)
+                              request (PR).
                             </p>
                             <ul>
                               <li>
                                 Click the <b>create a pull request</b> button,
                                 to open the GitHub new file form with data
-                                pre-filled
+                                pre-filled.
                               </li>
                               <li>
                                 Scroll to the end of the page, click
-                                <b>purpose new file</b>
+                                <b>purpose new file</b>.
                               </li>
                               <li>
                                 Click <b>create pull request</b> on the next
-                                page
+                                page.
                               </li>
                             </ul>
-                            <p class="tile-subtitle">
-                              The package will be added to a build queue, once
-                              the PR get merged
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div v-if="isStepFillFormChecked" class="timeline-item">
+                      <div class="timeline-left">
+                        <a
+                          class="timeline-icon"
+                          :class="{ 'icon-lg': isStepGetYamlFileChecked }"
+                          href="#"
+                        >
+                          <i
+                            v-if="isStepGetYamlFileChecked"
+                            class="icon icon-check"
+                          ></i>
+                        </a>
+                      </div>
+                      <div class="timeline-content">
+                        <div class="tile">
+                          <div class="tile-content">
+                            <p class="tile-title">
+                              Once the pull request get merged, within a few
+                              minutes (for the CI to do the jobs)
                             </p>
+                            <ul>
+                              <li>
+                                You can visit the package at
+                                <NavLink :item="packageLink" target="_blank" />
+                              </li>
+                              <li>
+                                The package will be added to build pipelines,
+                                and results can be viewed from the
+                                <b>version history</b> and
+                                <b>build issues</b> sections on the package
+                                page.
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>
@@ -376,6 +411,18 @@ export default {
       return {
         link: "https://github.com/openupm/openupm/new/master/?" + qs,
         text: "Create a pull request"
+      };
+    },
+    docLink() {
+      return {
+        link: "/docs/adding-upm-package",
+        text: "docs/adding-upm-package"
+      };
+    },
+    packageLink() {
+      return {
+        link: "/packages/" + this.$data.packageInfo.name,
+        text: "/packages/" + this.$data.packageInfo.name
       };
     }
   },

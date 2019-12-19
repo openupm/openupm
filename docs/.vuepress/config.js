@@ -39,7 +39,7 @@ module.exports = {
         link: "/docs/"
       }
     ],
-    sidebar: ["/docs/", "/docs/getting-started"]
+    sidebar: ["/docs/", "/docs/getting-started", "/docs/adding-upm-package"]
   },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/

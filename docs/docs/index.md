@@ -29,7 +29,7 @@ $ npm install -g openupm-cli
 # Enter your unity project folder
 $ cd YOUR_UNITY_PROJECT_FOLDER
 
-# Search a **package**
+# Search a package
 $ openupm search addressable-importer
 ┌───────────────────────────────────────┬─────────┬───────────┬────────────┐
 │ Name                                  │ Version │ Author    │ Date       │
