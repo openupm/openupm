@@ -7,7 +7,7 @@ showFooter: false
 
 OpenUPM is a service for hosting and building open source unity package manager (upm) packages. It's composed of two parts: a managed upm package registry with an automatic build pipelines. The intention is to create an universal platform to discover, share and distribute open source upm packages, and a community along with it.
 
-::: tip DISCLAIMER
+::: warning DISCLAIMER
 OpenUPM is not an official service provided by Unity Technologies Inc.
 :::
 
@@ -82,3 +82,12 @@ $ openupm search memory --registry=https://unitynuget-registry.azurewebsites.net
 [Awesome-upm](https://github.com/starikcetin/awesome-upm) is a curated list of upm git repositories. [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) provides a better way to install upm packages like git tag based version management and [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity). They work really well together.
 
 Though UpmGitExtension is based on git, the experience may look similar comparing with OpenUPM registry. In addition to package registry, OpenUPM platform offers better package discovery and contribution process.
+
+## Open Source Power
+
+OpenUPM is an open source service. It's impossible to make it work without below open source friendly services.
+
+- [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for registry hosting
+- Azure Pipelines for build pipelines
+- Netlify for website hosting
+- GitHub and GitHub actions for version control and CI
