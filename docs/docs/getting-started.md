@@ -14,7 +14,7 @@ Openupm-cli requires [Node.js 12](https://nodejs.org/en/). If you don't have it 
 Now open your favorite terminal. Thanks to the cross platform feature of Node.js, openupm-cli can work in various terminal environments like bash for Mac and Linux, or git-bash, cmd and powershell for Windows.
 
 ::: tip
-This article uses [git-bash for windows](https://gitforwindows.org/) and [ConEmu](https://conemu.github.io/) for demonstration
+Scripts of this article is tested with [git-bash for windows](https://gitforwindows.org/)
 :::
 
 Let's verify the Node.js installation by printing the npm version (node package manager where upm is inspired from).

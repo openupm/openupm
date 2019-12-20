@@ -24,14 +24,13 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="column col-4 col-md-4 col-sm-4">
-              <h5>Operation</h5>
-              <ul>
-                <li v-for="(link, index) in opLinks" :key="index">
-                  <NavLink class :item="link" />
-                </li>
-              </ul>
-            </div> -->
+            <div class="column col-4 col-md-4 col-sm-4">
+              <a href="https://www.netlify.com">
+                <img
+                  src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <!-- <div class="column col-4 col-md-6 col-sm-12">

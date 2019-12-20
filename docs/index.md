@@ -2,7 +2,7 @@
 layout: Home
 title: Open Source Unity Package Registry
 heroText: Open Source Unity Package Registry
-actionText: Learn More
+actionText: Guide
 actionLink: /docs/
 features:
 - title: Open Source UPM Registry
