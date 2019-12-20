@@ -73,9 +73,11 @@ main
     text-decoration none
     &:focus
       box-shadow none
+    &:visited
+      color $textColor
   .sidebar-links
-    li:not(:first-child)
-      margin-top 0.2rem !important
+    li
+      margin-top 0rem !important
     li
       a
         &.sidebar-link
@@ -89,4 +91,7 @@ main
           font-size 0.7rem !important
 
 .page-edit
-  padding-left 1rem !important;
+  padding-left 1rem !important
+
+.tile .tile-title
+  margin-top 0 !important

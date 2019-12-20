@@ -61,9 +61,10 @@ export default {
 
     aboutLinks() {
       return [
-        { link: "/about/", text: "Overview" },
-        { link: "/legal/terms/", text: "Terms of Use" },
-        { link: "/legal/privacy/", text: "Privacy Policy" }
+        { link: "/docs/team", text: "Team" },
+        { link: "/docs/code-of-conduct", text: "Code of Conduct" },
+        { link: "/docs/terms", text: "Terms of Use" },
+        { link: "/docs/privacy", text: "Privacy Policy" }
       ];
     },
 

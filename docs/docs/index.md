@@ -85,9 +85,10 @@ Though UpmGitExtension is based on git, the experience may look similar comparin
 
 ## Open Source Power
 
-OpenUPM is an open source service. It's impossible to make it work without below open source friendly services.
+OpenUPM is an open source service. It's impossible to make it work without these open source friendly services and projects.
 
 - [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for registry hosting
 - Azure Pipelines for build pipelines
 - Netlify for website hosting
 - GitHub and GitHub actions for version control and CI
+- [Spectre](https://github.com/picturepan2/spectre) for styling
