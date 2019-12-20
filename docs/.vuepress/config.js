@@ -65,7 +65,13 @@ module.exports = {
   plugins: [
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
-    "vuepress-plugin-clean-urls",
+    [
+      "vuepress-plugin-clean-urls",
+      {
+        normalSuffix: ".html",
+        indexSuffix: "/"
+      }
+    ],
     require("./plugins/openupm-packages")
   ],
   // eslint-disable-next-line no-unused-vars
