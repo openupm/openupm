@@ -54,7 +54,7 @@ module.exports = {
         {
           title: "Resources",
           collapsable: false,
-          children: ["team", "code-of-conduct"]
+          children: ["team", "terms", "code-of-conduct"]
         }
       ]
     }
@@ -65,13 +65,6 @@ module.exports = {
   plugins: [
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
-    [
-      "vuepress-plugin-clean-urls",
-      {
-        normalSuffix: ".html",
-        indexSuffix: "/"
-      }
-    ],
     require("./plugins/openupm-packages")
   ],
   // eslint-disable-next-line no-unused-vars
