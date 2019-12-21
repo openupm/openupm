@@ -54,7 +54,7 @@ module.exports = {
         {
           title: "Resources",
           collapsable: false,
-          children: ["team", "terms", "code-of-conduct"]
+          children: ["team", "terms", "code-of-conduct", "privacy"]
         }
       ]
     }
