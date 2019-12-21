@@ -21,6 +21,14 @@ module.exports = {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.11.2/css/all.css"
       }
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
+      }
     ]
   ],
   themeConfig: {
@@ -65,7 +73,8 @@ module.exports = {
   plugins: [
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
-    require("./plugins/openupm-packages")
+    require("./plugins/openupm-packages"),
+    ["@vuepress/google-analytics", { ga: "UA-154679622-1" }]
   ],
   // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {

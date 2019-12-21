@@ -32,6 +32,10 @@
     <slot name="footer">
       <Footer v-if="shouldShowFooter"></Footer>
     </slot>
+    <script
+      src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"
+      data-cfasync="false"
+    ></script>
   </div>
 </template>
 
@@ -106,6 +110,9 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });
+    window.addEventListener("load", () => {
+      this.initCookieConsent();
+    });
   },
 
   methods: {
@@ -132,6 +139,26 @@ export default {
           this.toggleSidebar(false);
         }
       }
+    },
+
+    initCookieConsent() {
+      window.cookieconsent.initialise({
+        palette: {
+          popup: {
+            background: "#3937a3"
+          },
+          button: {
+            background: "#e62576"
+          }
+        },
+        content: {
+          href: "/docs/privacy"
+        },
+        // eslint-disable-next-line no-unused-vars
+        onStatusChange: function(status) {},
+        // eslint-disable-next-line no-unused-vars
+        onInitialise: function(status) {}
+      });
     }
   }
 };
