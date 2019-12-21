@@ -63,7 +63,7 @@ There're three typical folder structures of repository.
 
 - Pure upm package
 - Upm package at a sub-folder
-- Upm package at a sub-folder and upm branch
+- Upm package at a sub-folder with upm branch
 
 #### Pure Upm Package
 
@@ -76,7 +76,7 @@ repoBranch: master
 packageFolder: ''
 ```
 
-#### Upm package at a sub-folder
+#### Upm Package at a Sub-folder
 
 The repository is an unity project (with Assets folder). The `package.json` is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. The folder structure is same for git tags. You need provide the package folder to make the build pipeline work.
 
@@ -87,7 +87,7 @@ repoBranch: master
 packageFolder: 'Packages/com.namespace.package-name'
 ```
 
-#### Unity project with upm package at the sub-folder and upm branch
+#### Upm Package at a Sub-folder with Upm Branch
 
 The repository is an unity project (with Assets folder). The `package.json` is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. An upm branch is made from the subtree of the package folder, so it can be installed via git url by unity package manager.
 
@@ -115,7 +115,7 @@ Then tap the `Browse files` button.
   packageFolder: 'Packages/com.namespace.package-name'
   ```
 
-### Handling Repository Without Releases
+### Handling Repository without Releases
 
 If a repository without valid git tags/releases. Then it can be only installed via git url. Please create an issue on the repository for making GitHub releases.
 
