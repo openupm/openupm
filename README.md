@@ -37,3 +37,14 @@ Define a job
 | ------------------------- | ----------- |
 | `build-pkg:[packageName]` | `{}`        |
 | `build-rel:[releaseId]`   | `{}`        |
+
+
+## Sponsors and Backers
+
+OpenUPM is an open source service. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome sponsors and backers. If you'd like to join them, please consider donating at https://openupm.com/support/.
+
+Thank you to [all the sponsors and backers](./BACKERS.md) who already donated to OpenUPM!
+
+## Contribution
+
+Thank you to [all the people](https://github.com/openupm/openupm/graphs/contributors) who already contributed to OpenUPM!

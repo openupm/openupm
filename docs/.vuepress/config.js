@@ -1,6 +1,32 @@
 const path = require("path");
 const { description } = require("../../package");
 
+const docSideBar = function() {
+  return [
+    {
+      title: "Guide",
+      collapsable: false,
+      children: [
+        "/docs/",
+        "/docs/getting-started",
+        "/docs/adding-upm-package",
+        "/docs/modifying-upm-package"
+      ]
+    },
+    {
+      title: "Resources",
+      collapsable: false,
+      children: [
+        "/support/",
+        "/docs/team",
+        "/docs/terms",
+        "/docs/code-of-conduct",
+        "/docs/privacy"
+      ]
+    }
+  ];
+};
+
 module.exports = {
   title: "OpenUPM",
   description: description,
@@ -45,26 +71,19 @@ module.exports = {
       {
         text: "Docs",
         link: "/docs/"
+      },
+      {
+        text: "Support OpenUPM",
+        link: "/support/"
+      },
+      {
+        text: "CLI",
+        link: "https://github.com/openupm/openupm-cli#openupm-cli"
       }
     ],
     sidebar: {
-      "/docs/": [
-        {
-          title: "Guide",
-          collapsable: false,
-          children: [
-            "",
-            "getting-started",
-            "adding-upm-package",
-            "modifying-upm-package"
-          ]
-        },
-        {
-          title: "Resources",
-          collapsable: false,
-          children: ["team", "terms", "code-of-conduct", "privacy"]
-        }
-      ]
+      "/docs/": docSideBar(),
+      "/support/": docSideBar()
     }
   },
   /**

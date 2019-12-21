@@ -24,13 +24,6 @@
                 </li>
               </ul>
             </div>
-            <div class="column col-4 col-md-4 col-sm-4">
-              <a href="https://www.netlify.com">
-                <img
-                  src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
-                />
-              </a>
-            </div>
           </div>
         </div>
         <!-- <div class="column col-4 col-md-6 col-sm-12">
@@ -40,8 +33,15 @@
             <button class="btn btn-primary input-group-btn">Subscribe</button>
           </div>
         </div> -->
-        <div class="column col-12">
+        <div class="column column col-4 col-md-6 col-sm-12">
           <small>Copyright @ 2019 Favo Yang</small>
+        </div>
+        <div class="column column col-4 col-md-6 col-sm-12">
+          <small>
+            <a href="https://www.netlify.com" target="_blank">
+              This site is powered by Netlify
+            </a>
+          </small>
         </div>
       </div>
     </div>
