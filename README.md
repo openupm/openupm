@@ -1,20 +1,20 @@
 <p align="center">
   <a href="https://openupm.com/" target="_blank">
-    <img width="128" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-icon-256.png" alt="logo">
+    <img width="180" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-icon-256.png" alt="logo">
   </a>
 </p>
 <h1 align="center">Open Source Unity Package Registry</h1>
-<p align="center">
-  <a href="https://openupm.com/" target="_blank">
-    <img width="256" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-screenshot.png" alt="logo">
-  </a>
-</p>
 <p align="center">
   <a href="https://app.netlify.com/sites/openupm/deploys">
     <img src="https://api.netlify.com/api/v1/badges/5d66cc09-9f99-4b71-936a-317ee6a7b5d3/deploy-status"/>
   </a>
   <a href="https://dev.azure.com/openupm/openupm/_build/latest?definitionId=1&branchName=master">
     <img src="https://dev.azure.com/openupm/openupm/_apis/build/status/openupm.openupm-pipelines?branchName=master"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://openupm.com/" target="_blank">
+    <img width="80%" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-screenshot.png" alt="logo">
   </a>
 </p>
 
