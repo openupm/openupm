@@ -108,7 +108,7 @@ module.exports = {
             return ($site.themeConfig.domain || "") + $page.frontmatter.image;
           else
             return (
-              ($site.themeConfig.domain || "") + "/images/openupm-icon-256.png"
+              ($site.themeConfig.domain || "") + "/images/openupm-twitter.png"
             );
         },
         type: $page =>
