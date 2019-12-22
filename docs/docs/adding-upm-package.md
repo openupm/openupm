@@ -117,7 +117,7 @@ Then tap the `Browse files` button.
 
 ### Handling Repository without Releases
 
-If a repository without valid git tags/releases. Then it can be only installed via git url. Please create an issue on the repository for making GitHub releases.
+If a repository without valid git tags/releases. Then it can be only installed via git url. Please create an issue on the repository for making GitHub releases. The release name (git tag) need to be a valid semver. A common practice is naming the release name (git tag) as semver with prefix `v`. i.e. `v1.0.0` for version `1.0.0`.
 
 ### Handling Custom Build Script
 

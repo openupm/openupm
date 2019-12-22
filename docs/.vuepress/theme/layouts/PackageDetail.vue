@@ -124,8 +124,16 @@
                   class="col-12"
                 >
                   <h2>Build Issues</h2>
-                  <div v-if="noTagsFound" class="toast toast-warning">
-                    No tags found in <NavLink :item="tagsNavLink" />
+                  <div v-if="noTagsFound" class="toast">
+                    <p>
+                      No tags found in <NavLink :item="tagsNavLink" />. Please
+                      checkout docs
+                      <a
+                        href="/docs/adding-upm-package.html#handling-repository-without-releases"
+                      >
+                        handling repository without releases.
+                      </a>
+                    </p>
                   </div>
                   <div class="container">
                     <ul class="build-history">
@@ -482,6 +490,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 
       a, h2, p, span, ul, li, div.toast
         font-size 0.75rem
+
+      div.toast
+        p
+          font-size 0.7rem
 
       section
         border-bottom 1px solid $borderColor
