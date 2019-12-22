@@ -97,7 +97,8 @@ module.exports = {
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
     require("./plugins/openupm-packages"),
-    ["@vuepress/google-analytics", { ga: "UA-154679622-1" }]
+    ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
+    ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }]
   ],
   // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {
