@@ -171,4 +171,4 @@ This agreement and openupm software that you and openupm agree to, embody all th
 
 ## Notices and Questions
 
-You may send notice to openupm and questions about the terms governing openupm products and services by mail to hello@openupm.com.
+You may send notice to openupm and questions about the terms governing openupm products and services by mail to [hello@openupm.com](mailto:hello@openupm.com).

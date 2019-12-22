@@ -10,7 +10,7 @@ This notice describes how OpenUPM (or _openupm_), collects and uses data about y
 
 ## What's most important?
 
-OpenUPM is a service that encourages the use and development of the open source unity contents. We try to minimize the information we collected while provide value for you. If you feel uncomfortable about the privacy policy, please mail to hello@openupm.com to start a conversation.
+OpenUPM is a service that encourages the use and development of the open source unity contents. We try to minimize the information we collected while provide value for you. If you feel uncomfortable about the privacy policy, please mail to [hello@openupm.com](mailto:hello@openupm.com) to start a conversation.
 
 ## How does openupm collect data about me?
 

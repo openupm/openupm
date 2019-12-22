@@ -1,7 +1,7 @@
 <template>
   <div>
     <ParentLayout @toggle-sidebar="$emit('toggle-sidebar')"></ParentLayout>
-    <div class="wip label label-secondary label-rounded">alpha</div>
+    <div class="wip label label-secondary label-rounded">beta</div>
   </div>
 </template>
 
