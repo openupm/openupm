@@ -58,10 +58,11 @@ module.exports = {
     ]
   ],
   themeConfig: {
+    domain: "https://openupm.com",
     repo: "https://github.com/openupm/openupm",
     editLinks: true,
     docsDir: "",
-    lastUpdated: false,
+    lastUpdated: true,
     logo: "/images/openupm-icon-128.png",
     nav: [
       {
@@ -98,7 +99,24 @@ module.exports = {
     "@vuepress/plugin-medium-zoom",
     require("./plugins/openupm-packages"),
     ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
-    ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }]
+    ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }],
+    [
+      "vuepress-plugin-seo",
+      {
+        image: ($page, $site) => {
+          if ($page.frontmatter.image)
+            return ($site.themeConfig.domain || "") + $page.frontmatter.image;
+          else
+            return (
+              ($site.themeConfig.domain || "") + "/images/openupm-icon-256.png"
+            );
+        },
+        type: $page =>
+          ["docs"].some(folder => $page.regularPath.startsWith("/" + folder))
+            ? "article"
+            : "website"
+      }
+    ]
   ],
   // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {
