@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ParentLayout from "@parent-theme/components/Navlinks.vue";
+import ParentLayout from "@parent-theme/components/NavLinks.vue";
 export default {
   components: { ParentLayout }
 };
