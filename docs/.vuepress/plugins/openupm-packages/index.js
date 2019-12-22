@@ -81,7 +81,9 @@ module.exports = (options, context) => ({
     for (let pkg of packages) {
       let frontmatter = {
         layout: "PackageDetail",
-        title: pkg.displayName ? `${pkg.displayName} ${pkg.name}` : pkg.name,
+        title: pkg.displayName
+          ? `📦 ${pkg.displayName} - ${pkg.name}`
+          : `📦 ${pkg.name}`,
         package: pkg
       };
       pages.push({
