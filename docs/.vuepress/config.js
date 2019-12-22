@@ -77,6 +77,10 @@ module.exports = {
         link: "/support/"
       },
       {
+        text: "Blog",
+        link: "https://www.patreon.com/openupm/posts"
+      },
+      {
         text: "CLI",
         link: "https://github.com/openupm/openupm-cli#openupm-cli"
       }
