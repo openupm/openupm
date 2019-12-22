@@ -64,9 +64,9 @@ OpenUPM is focused on open source upm package from day one. Open source brings b
 
 The other 3rd-party registries like [xcrew.dev](https://xcrew.dev/), [upm-packages.dev](https://upm-packages.dev/) and [unitynuget-registry](https://unitynuget-registry.azurewebsites.net) offers valuable contents and usually maintained by a few passionate developers regularly.
 
-If the package repository is available and in compliance with open source license, upm structure and valid git tags, then it could be added to OpenUPM without changes, unless it requires a custom build process.
+If the package repository is available and in compliance with open source license, upm structure and valid git tags, then it could be added to OpenUPM without changes, unless it requires a custom build process. OpenUPM doesn't require the package owner to publish a package. It allows any GitHub user to contribute new discovered package, and may grow faster with the community.
 
-In fact that openupm-cli can support any 3rd-party registries when passing [registry option](https://github.com/openupm/openupm-cli#command-options). An example to search unitynuget-registry.
+In fact that openupm-cli is designed to support any 3rd-party registries when passing [registry option](https://github.com/openupm/openupm-cli#command-options). An example to search unitynuget-registry.
 
 ```sh
 $ openupm search memory --registry=https://unitynuget-registry.azurewebsites.net
@@ -85,10 +85,17 @@ Though UpmGitExtension is based on git, the experience may look similar comparin
 
 ## Open Source Power
 
-OpenUPM is an open source service. It's impossible to make it work without these open source friendly services and projects.
+OpenUPM is an open source service. It's impossible to make it work without below amazing projects and services.
 
-- [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for registry hosting
-- Azure Pipelines for build pipelines
-- Netlify for website hosting
-- GitHub and GitHub actions for version control and CI
+Open source projects
+
+- [Verdaccio](https://github.com/picturepan2/spectre) for package registry (modified for scalability)
+- [Vuepress](https://github.com/picturepan2/spectre) for website and docs
 - [Spectre](https://github.com/picturepan2/spectre) for styling
+
+ Open source friendly services
+
+- [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for hosting registry
+- Azure Pipelines for build pipelines
+- Netlify for hosting website
+- GitHub and GitHub actions for DVCS and CI
