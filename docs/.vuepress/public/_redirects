@@ -1,2 +1,5 @@
 # SPA disabled
 # /* /index.html 200
+
+# Redirect default Netlify subdomain to primary domain
+https://openupm.netlify.com/* https://openupm.com/:splat 301!
