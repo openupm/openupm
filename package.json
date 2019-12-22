@@ -49,7 +49,8 @@
     "supertest": "^4.0.2",
     "vue-scrollto": "^2.17.1",
     "vuepress": "^1.2.0",
-    "vuepress-plugin-clean-urls": "^1.0.3"
+    "vuepress-plugin-clean-urls": "^1.0.3",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
     "azure-devops-node-api": "^9.0.1",
@@ -78,7 +79,6 @@
     "simple-git": "^1.126.0",
     "spdx-license-list": "^6.1.0",
     "superagent": "^5.1.0",
-    "url-join": "^4.0.1",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "url-join": "^4.0.1"
   }
 }
