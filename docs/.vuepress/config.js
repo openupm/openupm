@@ -122,7 +122,7 @@ module.exports = {
    */
   plugins: [
     "@vuepress/plugin-back-to-top",
-    ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
+    // ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
     require("./plugins/openupm-packages"),
