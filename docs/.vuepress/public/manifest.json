@@ -3,7 +3,7 @@
   "short_name": "OpenUPM",
   "icons": [
     {
-      "src": "/images/openupm-icon-256x256.png",
+      "src": "/images/openupm-icon-256.png",
       "sizes": "256x256",
       "type": "image/png"
     }
