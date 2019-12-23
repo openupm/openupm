@@ -24,6 +24,7 @@
     "@vuepress/plugin-back-to-top": "^1.0.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
     "axios": "^0.19.0",
     "babel-eslint": "^10.0.3",
     "change-case": "^4.1.0",
@@ -51,7 +52,8 @@
     "vuepress": "^1.2.0",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-seo": "^0.1.2",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-table-of-contents": "^1.1.4"
   },
   "dependencies": {
     "azure-devops-node-api": "^9.0.1",
