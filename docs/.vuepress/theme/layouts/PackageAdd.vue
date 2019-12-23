@@ -631,4 +631,6 @@ export default {
       .timeline-content
         ol
           list-style decimal outside
+    .tile-title
+      font-weight bold
 </style>

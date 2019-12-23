@@ -2,6 +2,7 @@
 sidebar: true
 sidebarDepth: 2
 showFooter: false
+pageClass: page-team
 ---
 # Team
 
@@ -30,17 +31,18 @@ The development of OpenUPM is guided by:
 </div>
 
 <style lang="stylus">
-.tile-title
-  font-weight bold
-  font-size 0.9rem
-.tile-content
-  ul
-    list-style none
-    margin 0.8rem 0
-    li
+page-team
+  .tile-title
+    font-weight bold
+    font-size 0.9rem
+  .tile-content
+    ul
       list-style none
-      margin 0
-      i
-        display inline-block
-        width 1.2rem
+      margin 0.8rem 0
+      li
+        list-style none
+        margin 0
+        i
+          display inline-block
+          width 1.2rem
 </style>
