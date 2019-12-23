@@ -55,6 +55,17 @@ Once the pull request get merged, within a few minutes (for the CI to do the job
 - You can visit the package at url `/packages/com.namespace.package-name`.
 - The package will be added to build pipelines, and results can be viewed from the **version history** and **build issues** sections on the package detail page.
 
+@flowstart
+form=>operation: Fill Package Form
+yaml=>operation: Start Pull Request with Generated YAML
+merge=>operation: Wait Pull Request Get Merged
+build=>end: Add to Website and Build Pipeline
+
+form->yaml
+yaml->merge
+merge->build
+@flowend
+
 ## Troubleshooting
 
 ### Handling Different Folder Structures

@@ -21,6 +21,15 @@ However, the downside of the scoped registry is that you need specify the scopes
 
 To solve the issue, as the first step, a command line interface [openupm-cli](https://github.com/openupm/openupm-cli) is created to help maintain the manifest file. With the cli, you can add, remove, search, view package(s) in various terminal environments like bash for Mac and Linux, or git-bash, cmd and powershell for Windows.
 
+@flowstart
+cli=>operation: OpenUPM-CLI
+manifest=>operation: Update manifest.json
+upm=>end: Unity Resolves manifest.json
+
+cli->manifest
+manifest->upm
+@flowend
+
 ```sh
 # Install openupm-cli
 $ npm install -g openupm-cli

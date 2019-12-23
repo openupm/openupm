@@ -125,6 +125,7 @@ module.exports = {
     // ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
+    "flowchart",
     require("./plugins/openupm-packages"),
     ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
     ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }],
