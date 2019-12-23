@@ -31,7 +31,7 @@ module.exports = {
   title: "OpenUPM",
   description: description,
   head: [
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "theme-color", content: "#3068E5" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -55,14 +55,40 @@ module.exports = {
         href:
           "https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
       }
-    ]
+    ],
+    ["link", { rel: "icon", href: `/images/openupm-icon-256.png` }],
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["meta", { name: "theme-color", content: "#3068E5" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+    ],
+    ["link", { rel: "apple-touch-icon", href: `/images/openupm-icon-256.png` }],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/images/openupm-icon-mask.svg",
+        color: "#3068E5"
+      }
+    ],
+    [
+      "meta",
+      {
+        name: "msapplication-TileImage",
+        content: "/images/openupm-icon-256.png"
+      }
+    ],
+    ["meta", { name: "msapplication-TileColor", content: "#000000" }]
   ],
   themeConfig: {
     domain: "https://openupm.com",
     repo: "https://github.com/openupm/openupm",
     editLinks: true,
-    docsDir: "",
+    docsDir: "docs",
     lastUpdated: true,
+    smoothScroll: true,
     logo: "/images/openupm-icon-128.png",
     nav: [
       {
@@ -96,6 +122,7 @@ module.exports = {
    */
   plugins: [
     "@vuepress/plugin-back-to-top",
+    ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",
     require("./plugins/openupm-packages"),
     ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
