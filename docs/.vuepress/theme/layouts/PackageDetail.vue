@@ -160,6 +160,19 @@
                   </h2>
                   <div>{{ packageInvalidTagsString }}</div>
                 </section>
+                <section class="col-12">
+                  <h2>Badge <small>(click to copy)</small></h2>
+                  <div>
+                    <a
+                      :href="badgeUrl"
+                      data-tooltip="Copied"
+                      class="tooltip tooltip-click"
+                      @click.prevent="onCopyBadgeVersion"
+                    >
+                      <img :src="badgeVersionImageUrl" />
+                    </a>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -172,6 +185,7 @@
 
 <script>
 import axios from "axios";
+import escape from "escape-html";
 import copy from "copy-to-clipboard";
 import marked from "marked";
 import { noCase } from "change-case";
@@ -306,6 +320,11 @@ export default {
         return cli;
       } else return "not available";
     },
+    badgeVersionHtml() {
+      return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
+        this.badgeVersionImageUrl
+      )}" /></a>`;
+    },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
@@ -368,6 +387,11 @@ export default {
         text: "Edit this package"
       };
     },
+    badgeUrl() {
+      return urljoin(this.$site.themeConfig.domain, this.$page.path);
+    },
+    badgeVersionImageUrl() {
+      return `https://img.shields.io/npm/v/${this.$package.name}?label=openupm&registry_uri=https://package.openupm.com`;
     }
   },
   watch: {
@@ -448,8 +472,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         console.error(error);
       }
     },
-    onCopyClick() {
+    onCopyCli() {
       copy(this.packageInstallCli, { format: "text/plain" });
+    },
+    onCopyBadgeVersion() {
+      copy(this.badgeVersionHtml, { format: "text/plain" });
     }
   }
 };
