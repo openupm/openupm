@@ -31,6 +31,22 @@
             <div class="meta-section container">
               <div class="columns">
                 <section class="col-12">
+                  <h2>Install <small>(click to copy)</small></h2>
+                  <div class="install-cli">
+                    <div
+                      data-tooltip="Copied"
+                      class="tooltip tooltip-click"
+                      tabindex="-1"
+                      @click="onCopyCli"
+                    >
+                      <code>
+                        <i class="fas fa-angle-double-right"></i>
+                        {{ packageInstallCli }}
+                      </code>
+                    </div>
+                  </div>
+                </section>
+                <section class="col-12">
                   <h2>Project</h2>
                   <div><NavLink :item="repoNavLink" /></div>
                   <div v-if="parentRepoNavLink" class="fork">
@@ -72,32 +88,6 @@
                 <section class="col-6 col-sm-12">
                   <h2>Published</h2>
                   <span>{{ packagePublishedAt }}</span>
-                </section>
-                <section class="col-12">
-                  <h2>Installation</h2>
-                  <div class="install-cli">
-                    <code
-                      class="bg-gray text-primary text-bold"
-                      data-lang="shell"
-                    >
-                      {{ packageInstallCli }}
-                    </code>
-                    <div class="action text-right">
-                      <a
-                        :href="openupmCliRepoUrl"
-                        class="btn btn-secondary btn-sm "
-                      >
-                        Install openupm-cli
-                      </a>
-                      <button
-                        class="btn btn-primary btn-sm tooltip tooltip-click"
-                        data-tooltip="Copied"
-                        @click="onCopyClick"
-                      >
-                        Copy text
-                      </button>
-                    </div>
-                  </div>
                 </section>
                 <section v-if="!noTagsFound" class="col-12">
                   <h2>Version history</h2>
@@ -377,6 +367,7 @@ export default {
         ),
         text: "Edit this package"
       };
+    },
     }
   },
   watch: {
@@ -495,7 +486,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         p
           font-size 0.7rem
 
-      section
+      section:not(:first-child):not(:last-child)
         border-bottom 1px solid $borderColor
         padding-bottom 0.5rem
         margin-bottom 0.7rem
@@ -506,19 +497,33 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 
       .install-cli
         position relative
+        margin-bottom .8rem
+        a
+          &:hover
+            text-decoration none !important
         code
           display block
+          white-space nowrap
+          overflow hidden
           margin-bottom 0.4rem
-          padding 1.1rem 0.4rem 0.8rem
-          overflow-wrap break-word
+          padding 0.7rem
+          font-size 0.75rem
+          background-color #fff
+          border 1px solid $borderColor
+          color $accentColor
+          cursor pointer
+          &:hover
+            background-color #fcf2f2
           &:before
             color #bcc3ce
             content attr(data-lang)
-            font-size .7rem
+            font-size .6rem
             position absolute
-            right .4rem
+            right .2rem
             top .1rem
-
+          i
+            position relative
+            top: 0.1rem
       .fork
         font-size 0.6rem
         a
