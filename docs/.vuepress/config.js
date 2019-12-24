@@ -14,6 +14,11 @@ const docSideBar = function() {
       ]
     },
     {
+      title: "Package Creator Guide",
+      collapsable: false,
+      children: ["/docs/adding-badge"]
+    },
+    {
       title: "Resources",
       collapsable: false,
       children: [

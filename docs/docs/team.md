@@ -31,7 +31,9 @@ The development of OpenUPM is guided by:
 </div>
 
 <style lang="stylus">
-page-team
+.page-team
+  .avatar
+    margin-right 0.5rem
   .tile-title
     font-weight bold
     font-size 0.9rem
