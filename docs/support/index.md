@@ -12,10 +12,10 @@ OpenUPM is an open source service and completely free to use. However, the amoun
 
 Show your <i class="fa fa-heart text-error"></i> and support by
 
-- <i class="fa fa-star text-warning"></i> starring the [OpenUPM GitHub Repository](https://github.com/openupm/openupm)
-- <i class="fas fa-plus-circle text-primary"></i> [hunting amazing UPM package](packages/add/)
-- <i class="fas fa-bug text-success"></i> reporting bug report or feature request on [openupm](https://github.com/openupm/openupm/issues) or [openupm-cli](https://github.com/openupm/openupm-cli/issues) issues
-- <i class="fas fa-certificate"></i> [adding badge](/docs/adding-badge.md) to GitHub README file (for package creator)
+- <i class="fa fa-star text-warning"></i> Starring the [OpenUPM GitHub Repository](https://github.com/openupm/openupm)
+- <i class="fas fa-plus-circle text-primary"></i> [Hunting amazing UPM package](packages/add/)
+- <i class="fas fa-bug text-success"></i> Reporting bug report or feature request on [openupm](https://github.com/openupm/openupm/issues) or [openupm-cli](https://github.com/openupm/openupm-cli/issues) issues
+- <i class="fas fa-certificate"></i> [Adding badge](/docs/adding-badge.md) to GitHub README file (for package creator)
 
 ## Donations
 
