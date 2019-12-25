@@ -162,15 +162,35 @@
                 </section>
                 <section class="col-12">
                   <h2>Badge <small>(click to copy)</small></h2>
-                  <div>
-                    <a
-                      :href="badgeUrl"
-                      data-tooltip="Copied"
-                      class="tooltip tooltip-click"
-                      @click.prevent="onCopyBadgeVersion"
-                    >
-                      <img :src="badgeVersionImageUrl" />
-                    </a>
+                  <div class="container">
+                    <div class="columns">
+                      <div class="col-6">
+                        <img :src="badgeVersionImageUrl" />
+                      </div>
+                      <div class="col-6">
+                        <a
+                          :href="badgeUrl"
+                          data-tooltip="Copied"
+                          class="tooltip tooltip-click"
+                          @click.prevent="onCopyBadgeVersionHtml"
+                        >
+                          <small>
+                            html
+                          </small>
+                        </a>
+                        <span>·</span>
+                        <a
+                          :href="badgeUrl"
+                          data-tooltip="Copied"
+                          class="tooltip tooltip-click"
+                          @click.prevent="onCopyBadgeVersionMarkdown"
+                        >
+                          <small>
+                            markdown
+                          </small>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </section>
               </div>
@@ -325,6 +345,9 @@ export default {
         this.badgeVersionImageUrl
       )}" /></a>`;
     },
+    badgeVersionMarkdown() {
+      return `[![openupm](${this.badgeVersionImageUrl})](${this.badgeUrl})`;
+    },
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
@@ -475,8 +498,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     onCopyCli() {
       copy(this.packageInstallCli, { format: "text/plain" });
     },
-    onCopyBadgeVersion() {
+    onCopyBadgeVersionHtml() {
       copy(this.badgeVersionHtml, { format: "text/plain" });
+    },
+    onCopyBadgeVersionMarkdown() {
+      copy(this.badgeVersionMarkdown, { format: "text/plain" });
     }
   }
 };
@@ -548,9 +574,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             position absolute
             right .2rem
             top .1rem
-          i
-            position relative
-            top: 0.1rem
+
+      i, img
+        vertical-align: middle
+
       .fork
         font-size 0.6rem
         a
