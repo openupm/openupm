@@ -446,7 +446,7 @@ export default {
         // Insert h1 if need.
         if (
           !/^# /m.test(readmeRaw) &&
-          !/^====/m.test(readmeRaw) &&
+          !/^===/m.test(readmeRaw) &&
           !/^<h1/m.test(readmeRaw)
         ) {
           readmeRaw = title + readmeRaw;
