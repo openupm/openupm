@@ -1,0 +1,15 @@
+name: com.danieleverland.scriptableobjectarchitecture
+displayName: ScriptableObject-Architecture
+description: >-
+  Makes using Scriptable Objects as a fundamental part of your architecture in
+  Unity super easy
+repoUrl: 'https://github.com/DanielEverland/ScriptableObject-Architecture'
+repoBranch: master
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - framework
+  - utility
+hunter: DanielEverland
