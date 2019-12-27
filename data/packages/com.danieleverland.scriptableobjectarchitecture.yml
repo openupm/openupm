@@ -5,7 +5,7 @@ description: >-
   Unity super easy
 repoUrl: 'https://github.com/DanielEverland/ScriptableObject-Architecture'
 repoBranch: master
-packageFolder: ''
+packageFolder: 'Assets/SO Architecture'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
