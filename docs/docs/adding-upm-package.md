@@ -56,10 +56,10 @@ Once the pull request get merged, within a few minutes (for the CI to do the job
 - The package will be added to build pipelines, and results can be viewed from the **version history** and **build issues** sections on the package detail page.
 
 @flowstart
-form=>operation: Fill Package Form
-yaml=>operation: Start Pull Request with Generated YAML
-merge=>operation: Wait Pull Request Get Merged
-build=>end: Add to Website and Build Pipeline
+form=>operation: Fill package form
+yaml=>operation: Start pull request with generated YAML
+merge=>operation: Wait pull request get merged
+build=>end: Add to website and build pipeline
 
 form->yaml
 yaml->merge

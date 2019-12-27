@@ -24,10 +24,10 @@ To solve the issue, as the first step, a command line interface [openupm-cli](ht
 @flowstart
 cli=>operation: OpenUPM-CLI
 manifest=>operation: Update manifest.json
-upm=>end: Unity Resolves manifest.json
+upm=>end: Unity resolves manifest.json
 
-cli->manifest
-manifest->upm
+cli(right)->manifest
+manifest(right)->upm
 @flowend
 
 ```sh

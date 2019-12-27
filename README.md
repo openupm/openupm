@@ -44,12 +44,12 @@ Please visit [docs](https://openupm.com/docs/)
 
 ## Ecosystem
 
-| Project                                                                   | Description                           |
-|---------------------------------------------------------------------------|---------------------------------------|
-| [openupm/openupm](https://github.com/openupm/openupm)                     | openupm website, curated package list |
-| [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | openupm build pipelines               |
-| [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | openupm command-line tool             |
-| [https://package.openupm.com](https://package.openupm.com)                | openupm public registry               |
+| Project                                                                   | Description                   |
+|---------------------------------------------------------------------------|-------------------------------|
+| [openupm/openupm](https://github.com/openupm/openupm)                     | website, package curated list |
+| [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | build pipelines               |
+| [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | command-line tool             |
+| [https://package.openupm.com](https://package.openupm.com)                | public registry               |
 
 ## Stay in Touch
 

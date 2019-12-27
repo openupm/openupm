@@ -10,7 +10,8 @@ const docSideBar = function() {
         "/docs/",
         "/docs/getting-started",
         "/docs/adding-upm-package",
-        "/docs/modifying-upm-package"
+        "/docs/modifying-upm-package",
+        "/support/"
       ]
     },
     {
@@ -19,10 +20,14 @@ const docSideBar = function() {
       children: ["/docs/adding-badge"]
     },
     {
+      title: "Development Guide",
+      collapsable: true,
+      children: ["/docs/dev/"]
+    },
+    {
       title: "Resources",
-      collapsable: false,
+      collapsable: true,
       children: [
-        "/support/",
         "/docs/team",
         "/docs/terms",
         "/docs/code-of-conduct",
