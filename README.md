@@ -6,10 +6,13 @@
 <h1 align="center">Open Source Unity Package Registry</h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/openupm/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/5d66cc09-9f99-4b71-936a-317ee6a7b5d3/deploy-status"/>
+    <img src="https://api.netlify.com/api/v1/badges/5d66cc09-9f99-4b71-936a-317ee6a7b5d3/deploy-status" />
   </a>
   <a href="https://dev.azure.com/openupm/openupm/_build/latest?definitionId=1&branchName=master">
-    <img src="https://dev.azure.com/openupm/openupm/_apis/build/status/openupm.openupm-pipelines?branchName=master"/>
+    <img src="https://dev.azure.com/openupm/openupm/_apis/build/status/openupm.openupm-pipelines?branchName=master" />
+  </a>
+  <a href="https://github.com/openupm/openupm/actions">
+    <img src="https://github.com/openupm/openupm/workflows/CI/badge.svg" />
   </a>
 </p>
 <p align="center">
