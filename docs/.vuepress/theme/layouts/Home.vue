@@ -55,7 +55,7 @@ export default {
     githubLink() {
       return {
         link: this.$site.themeConfig.repo,
-        text: "GitHub"
+        text: "Star on GitHub"
       };
     }
   }
