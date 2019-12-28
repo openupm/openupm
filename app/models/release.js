@@ -89,7 +89,7 @@ const buildPublishResultUrl = function(release) {
     config.azureDevops.buildUrlBase,
     "_apis/build/builds/",
     release.buildId,
-    "logs/15"
+    "logs/16"
   );
 };
 
