@@ -1,0 +1,12 @@
+name: com.pixelplacement.itween
+displayName: iTween
+description: iTween UPM package for Unity 3D
+repoUrl: 'https://github.com/route1rodent/iTween'
+repoBranch: master
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: favoyang
