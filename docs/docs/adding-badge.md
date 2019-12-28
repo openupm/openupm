@@ -5,7 +5,7 @@ showFooter: false
 ---
 # Adding Badge
 
-Package creator (owner) is encouraged to add badge to the package GitHuB README file.
+Package creator (owner) is encouraged to add badge to the package GitHub README file.
 
 ![badge-example](./images/badge-example.svg)
 
@@ -15,8 +15,12 @@ Package creator (owner) is encouraged to add badge to the package GitHuB README 
 </a>
 ```
 
+```markdown
+[![openupm](https://img.shields.io/npm/v/com.littlebigfun.addressable-importer?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.littlebigfun.addressable-importer/)
+```
+
 To add badge like above
 1. Visit the package detail page, and scrolling down to the badge section
-2. Click the badge icon to copy the html code to clipboard
-3. Paste the html code to your README markdown file
+2. Click the html / markdown link to copy code to clipboard
+3. Paste the html code to your README file
 4. Commit and push to GitHub
