@@ -25,14 +25,18 @@ function createLogger(module) {
       name,
       streams: [{ level: "fatal", stream: process.stdout }]
     });
-  else
+  else {
     return bunyan.createLogger({
       name,
       streams: [
-        { level: "info", stream: process.stdout },
+        {
+          level: process.env.OPENUPM_DEBUG ? "debug" : "info",
+          stream: process.stdout
+        },
         { level: "error", stream: process.stderr }
       ]
     });
+  }
 }
 
 module.exports = createLogger;
