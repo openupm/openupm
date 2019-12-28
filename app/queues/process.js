@@ -52,7 +52,6 @@ if (require.main === module) {
         throw new Error(`can not find queue name ${queueName}.`);
       queue = queueWrapper.worker;
     })
-    .requiredArgs(1)
     .parse(process.argv);
   dispatch(queue);
 }

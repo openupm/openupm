@@ -51,13 +51,13 @@ const save = async function(obj) {
   return obj;
 };
 
-const remove = async function(obj) {
-  if (!obj.packageName || !obj.version)
+const remove = async function({ packageName, version }) {
+  if (!packageName || !version)
     throw new Error(
-      `Can not remove release with packageName=${obj.packageName} version=${obj.version}`
+      `Can not remove release with packageName=${packageName} version=${version}`
     );
-  let key = releaseKey + obj.packageName;
-  await redis.client.hdel(key, obj.version);
+  let key = releaseKey + packageName;
+  await redis.client.hdel(key, version);
 };
 
 const fetchOne = async function(packageName, version) {

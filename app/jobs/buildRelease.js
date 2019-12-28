@@ -212,7 +212,6 @@ if (require.main === module) {
       packageNameVal = packageName;
       versionVal = version;
     })
-    .requiredArgs(1)
     .parse(process.argv)
     .run(buildRelease, packageNameVal, versionVal);
 }
