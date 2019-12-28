@@ -3,6 +3,8 @@ topics:
   slug: 2d
 - name: AI
   slug: ai
+- name: AR/VR
+  slug: ar-vr
 - name: Animation
   slug: animation
 - name: Asset
