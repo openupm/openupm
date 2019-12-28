@@ -158,7 +158,10 @@ const handleReleaseBuild = async function(build, release) {
       "build failed"
     );
     // Throw error for retryable reason to retry.
-    if (RetryableReleaseReason.includes(reason)) throw new Error(msg);
+    if (RetryableReleaseReason.includes(reason))
+      throw new Error(
+        `build ${release.packageName}@${release.version} failed with retryable reason: ${reason}`
+      );
   }
 };
 
