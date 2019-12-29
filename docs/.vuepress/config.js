@@ -41,6 +41,13 @@ module.exports = {
   title: "OpenUPM",
   description: description,
   head: [
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "openupm,upm,registry,unity,package,manager,open source"
+      }
+    ],
     ["meta", { name: "theme-color", content: "#3068E5" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [

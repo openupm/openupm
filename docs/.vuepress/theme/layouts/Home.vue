@@ -7,7 +7,14 @@
             <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
             <p class="action">
               <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
-              <NavLink class="btn btn-lg" :item="githubLink" />
+              <a
+                :href="githubLink.link"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav-link external btn btn-lg"
+              >
+                {{ githubLink.text }}
+              </a>
             </p>
           </div>
         </div>
