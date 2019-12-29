@@ -92,7 +92,11 @@ export default {
 
     h3
       font-size 1.1rem
-      color: $accentColor
+      color $accentColor
+
+  .social-share
+    text-align center
+    margin-bottom 1rem
 
 // @media (max-width: $MQMobile)
 @media (max-width: $MQMobileNarrow)

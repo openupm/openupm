@@ -11,6 +11,7 @@ features:
   details: Package publishing automation based on git tags
 - title: Command Line
   details: <a href="https://github.com/openupm/openupm-cli">Openupm-cli</a> for 3rd-party UPM registries
+noGlobalSocialShare: true
 ---
 
 ### Get Started
@@ -41,3 +42,5 @@ manifest updated, please open unity project to apply changes
 ::: warning COMPATIBILITY NOTE
 openupm-cli requires [Node.js 12](https://nodejs.org/en/)
 :::
+
+<social-share />

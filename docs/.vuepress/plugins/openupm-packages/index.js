@@ -67,6 +67,7 @@ module.exports = (options, context) => ({
       if (topic.slug && topic.count == 0) continue;
       let frontmatter = {
         layout: "PackageList",
+        noGlobalSocialShare: true,
         title: topic.slug ? `Packages - ${topic.name}` : "Packages",
         topics: topicsWithAll,
         topic,

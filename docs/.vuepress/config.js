@@ -143,6 +143,13 @@ module.exports = {
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
     "flowchart",
+    [
+      "vuepress-plugin-social-share",
+      {
+        networks: ["twitter", "facebook", "telegram"],
+        fallbackImage: "/images/openupm-icon-256.png"
+      }
+    ],
     require("./plugins/openupm-packages"),
     ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
     ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }],
