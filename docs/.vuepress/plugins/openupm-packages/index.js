@@ -1,4 +1,5 @@
 // OpenUPM Package Plugin.
+const _ = require("lodash");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 const {
@@ -23,7 +24,8 @@ module.exports = function(options, context) {
       let pages = [];
       pages = pages.concat(await plugin.genListPages(data));
       pages = pages.concat(await plugin.genDetailPages(data));
-      pages = pages.concat(await plugin.genAddPage(data));
+      pages.push(await plugin.genAddPage(data));
+      pages.push(await plugin.genContributorsPage(data));
       return pages;
     },
 
@@ -66,7 +68,31 @@ module.exports = function(options, context) {
           };
         });
       let topics = topicsWithAll.slice(1);
-      return { packageNames, packages, topics, topicsWithAll };
+      // contributors
+      const getConstributors = function(type) {
+        const entries = _.flatMap(packages, pkg => {
+          if (type == "hunter") return [pkg.hunter];
+          else if (type == "owner") {
+            let arr = [pkg.owner];
+            if (
+              pkg.parentOwner &&
+              pkg.parentOwnerUrl.toLowerCase().includes("github")
+            )
+              arr.push(pkg.parentOwner);
+            return arr;
+          } else return [];
+        }).filter(x => x && x != "-");
+        const counted = _.countBy(entries);
+        const pairs = _.toPairs(counted).map(x => ({
+          user: x[0],
+          count: x[1]
+        }));
+        return _.sortBy(pairs, "count").reverse();
+      };
+      // Package hunters
+      let hunters = getConstributors("hunter");
+      let owners = getConstributors("owner");
+      return { packageNames, packages, topics, topicsWithAll, hunters, owners };
     },
 
     // Generate package list pages
@@ -114,8 +140,7 @@ module.exports = function(options, context) {
 
     // Generate package detail page
     async genAddPage(data) {
-      let pages = [];
-      pages.push({
+      return {
         path: "/packages/add/",
         content: plugin.createPage({
           layout: "PackageAdd",
@@ -132,8 +157,20 @@ module.exports = function(options, context) {
           packageNames: data.packageNames,
           topics: data.topics
         })
-      });
-      return pages;
+      };
+    },
+
+    // Generate contribution
+    async genContributorsPage(data) {
+      return {
+        path: "/contributors/",
+        content: plugin.createPage({
+          layout: "Contributors",
+          title: "Contributors",
+          hunters: data.hunters,
+          owners: data.owners
+        })
+      };
     },
 
     /*** Helpers ****/

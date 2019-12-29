@@ -21,6 +21,15 @@ export default {
 <style lang="stylus">
 .nav-links
   .nav-item
+    .dropdown-wrapper
+      .dropdown-title
+        span
+          font-size 0.7rem
+          font-weight bold
+          color $accentColor
+          font-family $titleFontFamily
+          &.arrow
+            margin-left 2px
     &.packages-add
       margin-right 0.2rem
       a
@@ -29,4 +38,18 @@ export default {
     a
       &.external
         margin-right -0.7rem
+.sidebar
+  .nav-links
+    .nav-item
+      a.nav-link, .dropdown-wrapper .title
+        font-family $titleFontFamily
+        color #3b4351
+        font-size 0.8rem
+        &.router-link-active
+          color $accentColor
+      .dropdown-wrapper
+        .dropdown-item
+          a
+            font-size 0.7rem
+            line-height 1.6rem
 </style>

@@ -33,7 +33,7 @@ Thank you to [all the sponsors and backers](./BACKERS.md) who already donated to
 
 ## Contributors
 
-Thank you to [all the people](https://github.com/openupm/openupm/graphs/contributors) who already contributed to OpenUPM!
+Thank you to [all the people](https://openupm.com/contributors/) who already contributed to OpenUPM!
 
 ## Introduction
 

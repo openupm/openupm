@@ -59,7 +59,7 @@ A seamlessly unity editor integration may come in 2020.
 
 ### Automatic Build Pipelines
 
-OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source upm repositories hosting on GitHub. The build pipelines monitor the list, detect valid git tags of each repository, and publish new releases automatically. This is different with the traditional package registry which requires package maintainer to publish releases regularly. The automatic process simplified the package publishing process. And as a side effect, anyone with a GitHub account can contribute an upm package repository to the build pipelines, so called the package hunter to help the platform grow.
+OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source upm repositories hosting on GitHub. The build pipelines monitor the list, detect valid git tags of each repository, and publish new releases automatically. This is different with the traditional package registry which requires package maintainer to publish releases regularly. The automatic process simplified the package publishing process. And as a side effect, anyone with a GitHub account can contribute an upm package repository to the build pipelines, so called the [package hunter](/contributors/) to help the platform grow.
 
 ## Why Not ...?
 

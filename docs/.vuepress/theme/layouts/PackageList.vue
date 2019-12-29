@@ -6,19 +6,20 @@
         <div class="columns">
           <div class="column col-12">
             <div class="columns breadcrumb-wrap">
-              <div class="column col-10 col-md-7">
+              <div class="column col-8 col-md-7 col-sm-5">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">
                     <a href="/">Home</a>
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="/packages/">Packages</a>
+                    <a href="#">Packages</a>
                   </li>
                 </ul>
               </div>
               <div
-                class="column col-2 col-md-5 breadcrumb-action-wrap text-right"
+                class="column col-4 col-md-5 col-sm-7 breadcrumb-action-wrap text-right"
               >
+                <NavLink :item="contributorLink" class="btn" />
                 <NavLink :item="addPackageLink" class="btn btn-primary" />
               </div>
             </div>
@@ -110,6 +111,12 @@ export default {
       return {
         link: "/packages/add/",
         text: "Add Package"
+      };
+    },
+    contributorLink() {
+      return {
+        link: "/contributors/",
+        text: "Contributors"
       };
     }
   }

@@ -117,8 +117,12 @@ module.exports = {
         link: "/docs/"
       },
       {
-        text: "Support OpenUPM",
-        link: "/support/"
+        text: "Support",
+        ariaLabel: "Support Menu",
+        items: [
+          { text: "Support OpenUPM", link: "/support/" },
+          { text: "Contributors", link: "/contributors/" }
+        ]
       },
       {
         text: "Blog",
