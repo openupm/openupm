@@ -73,7 +73,7 @@ export default {
   computed: {
     owners() {
       return this.$page.frontmatter.owners.map(x => {
-        return getUserData(x, "owners");
+        return getUserData(x, "owns");
       });
     },
     hunters() {
