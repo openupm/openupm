@@ -521,9 +521,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       margin 0
       padding 0 0 2.5rem
       font-size 0.75rem
-
       :first-child
         margin-top 0
+      ol
+        list-style decimal
 
     .meta-section
       padding-left 0.5rem
