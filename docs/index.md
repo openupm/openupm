@@ -9,8 +9,8 @@ features:
   details: Hosting community selective open source UPM packages
 - title: Continuous Publishing
   details: Package publishing automation based on git tags
-- title: Command Line
-  details: <a href="https://github.com/openupm/openupm-cli">Openupm-cli</a> for 3rd-party UPM registries
+- title: Command Line Tool
+  details: <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> for 3rd-party UPM registries
 noGlobalSocialShare: true
 ---
 

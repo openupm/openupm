@@ -44,6 +44,9 @@
                         {{ packageInstallCli }}
                       </code>
                     </div>
+                    <small
+                      >requires <NavLink :item="openupmCliRepoLink"
+                    /></small>
                   </div>
                 </section>
                 <section class="col-12">
@@ -271,8 +274,7 @@ const defaultData = function() {
     readmeRaw: "",
     repoInfo: {},
     packageInfo: {},
-    noTagsFound: false,
-    openupmCliRepoUrl
+    noTagsFound: false
   };
 };
 
@@ -452,6 +454,12 @@ export default {
         text: "Edit this package"
       };
     },
+    openupmCliRepoLink() {
+      return {
+        link: openupmCliRepoUrl,
+        text: "openupm-cli"
+      };
+    },
     badgeUrl() {
       return urljoin(this.$site.themeConfig.domain, this.$page.path);
     },
@@ -582,7 +590,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         p
           font-size 0.7rem
 
-      section:not(:first-child):not(:last-child)
+      section:not(:last-child)
         border-bottom 1px solid $borderColor
         padding-bottom 0.5rem
         margin-bottom 0.7rem
@@ -593,7 +601,6 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 
       .install-cli
         position relative
-        margin-bottom .8rem
         a
           &:hover
             text-decoration none !important
