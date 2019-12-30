@@ -64,4 +64,9 @@ export default {
   z-index 1000
   left 200px
   top 8px
+
+@media (max-width: $MQMobileNarrow)
+  .wip
+    left 132px
+    top 22px
 </style>

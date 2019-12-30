@@ -6,7 +6,7 @@
         <div class="columns">
           <div class="column col-12">
             <div class="columns breadcrumb-wrap">
-              <div class="column col-8 col-md-7 col-sm-5">
+              <div class="column col-8 col-md-7 col-sm-12">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">
                     <a href="/">Home</a>
@@ -17,7 +17,7 @@
                 </ul>
               </div>
               <div
-                class="column col-4 col-md-5 col-sm-7 breadcrumb-action-wrap text-right"
+                class="column col-4 col-md-5 col-sm-12 breadcrumb-action-wrap text-right"
               >
                 <NavLink :item="contributorLink" class="btn" />
                 <NavLink :item="addPackageLink" class="btn btn-primary" />

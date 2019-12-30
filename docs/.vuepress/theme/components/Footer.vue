@@ -8,7 +8,7 @@
         </div>
         <div class="column col-5 col-md-6 col-sm-12">
           <div class="columns">
-            <div class="column col-4 col-md-4 col-sm-4">
+            <div class="column col-4 col-md-4 col-sm-6">
               <h5>About</h5>
               <ul>
                 <li v-for="(link, index) in aboutLinks" :key="index">
@@ -16,7 +16,7 @@
                 </li>
               </ul>
             </div>
-            <div class="column col-4 col-md-4 col-sm-4">
+            <div class="column col-4 col-md-4 col-sm-6">
               <h5>Connect</h5>
               <ul>
                 <li v-for="(link, index) in connectLinks" :key="index">

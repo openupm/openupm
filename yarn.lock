@@ -3088,7 +3088,7 @@ deepmerge@^1.5.2:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==
 
-deepmerge@^4.1.1:
+deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
@@ -10023,12 +10023,12 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-social-share@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-social-share/-/vuepress-plugin-social-share-0.1.0.tgz#e36fd4b4bac504fe066bb5464892d0474f967e3d"
-  integrity sha512-OW6oii4WkY7dKIfEWgFhC2p01o4hpxhl/hZTFZ/fILKTYMu9pTyuJVVgjZlqQGoldWGq+jXTcWlvV8o6Szx9vw==
+vuepress-plugin-social-share@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-social-share/-/vuepress-plugin-social-share-0.1.2.tgz#a67d063489725eb2fab7ea88d0fe5d4722ae8045"
+  integrity sha512-rC2YeaOMfLA8LA2x//SHhcI6QOsPKacO9scTes7SRpwtmMNqw+Z0PmrxpltRU8sqf9TXf/4Reua9X9To9gstgA==
   dependencies:
-    deepmerge "^4.1.1"
+    deepmerge "^4.2.2"
 
 vuepress-plugin-table-of-contents@^1.1.4:
   version "1.1.4"

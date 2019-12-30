@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="nav-links">
+    <div class="nav-links hide-sm">
       <div class="nav-item packages-add">
         <a href="/packages/add/" class="nav-link">
           <i class="fas fa-plus-circle"></i>

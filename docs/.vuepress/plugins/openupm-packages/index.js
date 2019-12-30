@@ -155,7 +155,8 @@ module.exports = function(options, context) {
               return { id: key, name: spdx[key].name };
             }),
           packageNames: data.packageNames,
-          topics: data.topics
+          topics: data.topics,
+          noGlobalSocialShare: true
         })
       };
     },
@@ -168,7 +169,8 @@ module.exports = function(options, context) {
           layout: "Contributors",
           title: "Contributors",
           hunters: data.hunters,
-          owners: data.owners
+          owners: data.owners,
+          noGlobalSocialShare: true
         })
       };
     },

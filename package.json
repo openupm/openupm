@@ -55,7 +55,7 @@
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-social-share": "0.1.0",
+    "vuepress-plugin-social-share": "^0.1.2",
     "vuepress-plugin-table-of-contents": "^1.1.4"
   },
   "dependencies": {

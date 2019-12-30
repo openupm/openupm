@@ -78,18 +78,17 @@ export default {
     .hero-body
       text-align center
       margin 0 auto
-
       h1
         margin-bottom 4rem
 
   .action
     .btn
-      margin-right 1rem
       width 9rem
+    .btn:not(:last-child)
+      margin-right 1rem
 
   .features
     margin-bottom 4rem
-
     h3
       font-size 1.1rem
       color $accentColor
@@ -104,4 +103,16 @@ export default {
     .action
       .btn
         width auto
+        min-width 8rem
+      .btn:not(:last-child)
+        margin-right 0.6rem
+
+    section, .theme-default-content
+      padding 0 1rem!important
+
+    .social-share
+      margin-bottom 0.4rem
+
+  .warning.custom-block
+    margin: 0 -1rem
 </style>
