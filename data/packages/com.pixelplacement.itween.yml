@@ -5,8 +5,8 @@ repoUrl: 'https://github.com/route1rodent/iTween'
 repoBranch: master
 packageFolder: ''
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
 hunter: favoyang
