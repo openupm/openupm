@@ -52,11 +52,21 @@
                       </p>
                       <div>
                         <span class="chip">
-                          <i class="fa fa-user"></i>
+                          <img
+                            :src="pkg.ownerAvatarUrl"
+                            :alt="pkg.owner"
+                            class="avatar avatar-sm"
+                          />
                           {{ pkg.owner }}
                         </span>
                         <span v-if="pkg.parentOwner" class="chip">
-                          <i class="fa fa-user"></i>
+                          <img
+                            v-if="pkg.parentOwnerAvatarUrl"
+                            :src="pkg.parentOwnerAvatarUrl"
+                            :alt="pkg.parentOwner"
+                            class="avatar avatar-sm"
+                          />
+                          <i v-else class="fa fa-user"></i>
                           {{ pkg.parentOwner }}
                         </span>
                         <span class="chip">

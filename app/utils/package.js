@@ -78,12 +78,17 @@ const preparePackage = function(doc) {
   // owner
   doc.owner = ghUrl.owner;
   doc.ownerUrl = `https://${ghUrl.hostname}/${ghUrl.owner}`;
+  doc.ownerAvatarUrl = doc.ownerUrl.toLowerCase().includes("github")
+    ? `https://${ghUrl.hostname}/${ghUrl.owner}.png`
+    : null;
   // hunter
   if (doc.hunter) {
     doc.hunterUrl = `https://${ghUrl.hostname}/${doc.hunter}`;
+    doc.hunterAvatarUrl = `https://${ghUrl.hostname}/${doc.hunter}.png`;
   } else {
     doc.hunter = "-";
     doc.hunterUrl = null;
+    doc.hunterAvatarUrl = null;
   }
   // license
   if (doc.licenseSpdxId && spdx[doc.licenseSpdxId])
@@ -97,6 +102,10 @@ const preparePackage = function(doc) {
   doc.parentOwnerUrl = parentGHUrl
     ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}`
     : null;
+  doc.parentOwnerAvatarUrl =
+    doc.parentOwnerUrl && doc.parentOwnerUrl.toLowerCase().includes("github")
+      ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}.png`
+      : null;
   return doc;
 };
 

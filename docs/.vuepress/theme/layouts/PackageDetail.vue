@@ -56,16 +56,58 @@
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Author</h2>
-                  <NavLink
+                  <a
                     v-if="parentOwnerNavLink"
-                    :item="parentOwnerNavLink"
-                  />
-                  <span v-if="parentOwnerNavLink">,</span>
-                  <NavLink :item="ownerNavLink" />
+                    :href="parentOwnerNavLink.link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-link external"
+                  >
+                    <span class="chip">
+                      <img
+                        v-if="$package.parentOwnerAvatarUrl"
+                        :src="$package.parentOwnerAvatarUrl"
+                        :alt="$package.parentOwner"
+                        class="avatar avatar-sm"
+                      />
+                      <i v-else class="fa fa-user"></i>
+                      {{ parentOwnerNavLink.text }}
+                    </span>
+                  </a>
+                  <a
+                    :href="ownerNavLink.link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-link external"
+                  >
+                    <span class="chip">
+                      <img
+                        :src="$package.ownerAvatarUrl"
+                        :alt="$package.owner"
+                        class="avatar avatar-sm"
+                      />
+                      {{ ownerNavLink.text }}
+                    </span>
+                  </a>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Discovered by</h2>
-                  <NavLink v-if="$package.hunterUrl" :item="hunterNavLink" />
+                  <a
+                    v-if="$package.hunterUrl"
+                    :href="hunterNavLink.link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-link external"
+                  >
+                    <span class="chip">
+                      <img
+                        :src="$package.hunterAvatarUrl"
+                        :alt="hunterNavLink.text"
+                        class="avatar avatar-sm"
+                      />
+                      {{ hunterNavLink.text }}
+                    </span>
+                  </a>
                   <span v-else>{{ this.$package.hunter }}</span>
                 </section>
                 <section class="col-6 col-sm-12">
@@ -577,7 +619,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             top .1rem
 
       i, img
-        vertical-align: middle
+        vertical-align middle
+
+      i.fa-user
+        padding-right 0.2rem
+        color $textColor
 
       .fork
         font-size 0.6rem
