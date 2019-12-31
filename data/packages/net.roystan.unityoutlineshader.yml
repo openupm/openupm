@@ -1,0 +1,14 @@
+name: net.roystan.unityoutlineshader
+displayName: Unity Outline Shader
+description: >-
+  Source code for Outline Shader tutorial for Unity. Detects edges in a scene
+  using the depth and normals buffers.
+repoUrl: 'https://github.com/favoyang/UnityOutlineShader-UPM'
+repoBranch: master
+packageFolder: Packages/net.roystan.unityoutlineshader
+parentRepoUrl: 'https://github.com/IronWarrior/UnityOutlineShader'
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - shader
+hunter: favoyang
