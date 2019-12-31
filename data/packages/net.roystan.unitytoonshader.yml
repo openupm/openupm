@@ -3,7 +3,7 @@ displayName: Unity Toon Shader
 description: >-
   Source code for Toon Shader tutorial for Unity. Has specular, rim lighting,
   and can cast and receive shadows.
-repoUrl: 'https://github.com/favoyang/UnityToonShader'
+repoUrl: 'https://github.com/favoyang/UnityToonShader-UPM'
 repoBranch: master
 packageFolder: Packages/net.roystan.unitytoonshader
 parentRepoUrl: 'https://github.com/IronWarrior/UnityToonShader'
