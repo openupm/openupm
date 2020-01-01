@@ -1,0 +1,14 @@
+name: net.roystan.unitygrassgeometryshader
+displayName: Unity Grass Geomtry Shader
+description: >-
+  Source code for Grass Shader tutorial for Unity. Generates blades with a
+  geometry shader, tessellates input mesh to control density.
+repoUrl: 'https://github.com/favoyang/UnityGrassGeometryShader-UPM'
+repoBranch: master
+packageFolder: Packages/net.roystan.unitygrassgeometryshader
+parentRepoUrl: 'https://github.com/IronWarrior/UnityGrassGeometryShader'
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - shader
+hunter: favoyang
