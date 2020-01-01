@@ -1,0 +1,15 @@
+name: net.roystan.toonwatershader
+displayName: Toon Water Shader
+description: >-
+  Source code for Toon Water Shader tutorial for Unity. Renders and animates
+  toon-style waves from a noise texture and generates shoreline foam based off
+  the depth buffer.
+repoUrl: 'https://github.com/favoyang/ToonWaterShader-UPM'
+repoBranch: master
+packageFolder: Packages/net.roystan.toonwatershader
+parentRepoUrl: 'https://github.com/IronWarrior/ToonWaterShader'
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - shader
+hunter: favoyang
