@@ -11,5 +11,5 @@ parentRepoUrl: 'https://github.com/IronWarrior/ToonWaterShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - shader
+  - effect-shader
 hunter: favoyang

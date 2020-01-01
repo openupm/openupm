@@ -13,4 +13,4 @@ description: Tool for generating c# enums based on json input files.
 
 # Add-ons.
 topics: utility
-hunter:
+hunter: favoyang

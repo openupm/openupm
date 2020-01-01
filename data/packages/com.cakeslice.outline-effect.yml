@@ -8,5 +8,5 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect
+  - effect-shader
 hunter: favoyang

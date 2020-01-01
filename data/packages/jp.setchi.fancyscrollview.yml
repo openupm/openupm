@@ -9,7 +9,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - framework
-  - shader
+  - effect-shader
   - ui
   - utility
 hunter: setchi

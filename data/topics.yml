@@ -7,16 +7,16 @@ topics:
   slug: ar-vr
 - name: Animation
   slug: animation
-- name: Asset
-  slug: asset
 - name: Asset Management
   slug: asset-management
+- name: Asset Pack
+  slug: asset-pack
 - name: Camera
   slug: camera
 - name: DOTS/ECS
   slug: dots
-- name: Effect
-  slug: effect
+- name: Effect/Shader
+  slug: effect-shader
 - name: Framework
   slug: framework
 - name: Localization
@@ -29,8 +29,6 @@ topics:
   slug: package-management
 - name: Physics
   slug: physics
-- name: Shader
-  slug: shader
 - name: Terrain
   slug: terrain
 - name: UI

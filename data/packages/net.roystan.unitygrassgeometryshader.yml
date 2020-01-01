@@ -10,5 +10,5 @@ parentRepoUrl: 'https://github.com/IronWarrior/UnityGrassGeometryShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - shader
+  - effect-shader
 hunter: favoyang
