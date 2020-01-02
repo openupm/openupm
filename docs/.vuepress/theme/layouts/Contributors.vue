@@ -20,7 +20,7 @@
           </div>
           <div class="column col-12">
             <section id="package-hunters" class="avatar-wall">
-              <h2>Package Hunters</h2>
+              <h2>Top Package Hunters</h2>
               <figure
                 v-for="(profile, index) in hunters"
                 :key="index"
@@ -33,7 +33,7 @@
           </div>
           <div class="column col-12">
             <section id="package-owners" class="avatar-wall">
-              <h2>Package Owners</h2>
+              <h2>Top Package Owners</h2>
               <figure
                 v-for="(profile, index) in owners"
                 :key="index"
