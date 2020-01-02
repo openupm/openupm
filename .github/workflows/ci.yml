@@ -9,7 +9,7 @@ jobs:
       matrix:
         node-version: [12.x]
         redis: [5.x]
-    name: redis ${{ matrix.redis }}, node ${{ matrix.node-version }}
+    name: CI - redis ${{ matrix.redis }}, node ${{ matrix.node-version }}
     steps:
     - name: setup redis
       uses: shogo82148/actions-setup-redis@v1
