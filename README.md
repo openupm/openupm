@@ -14,6 +14,9 @@
   <a href="https://github.com/openupm/openupm/actions">
     <img src="https://github.com/openupm/openupm/workflows/CI/badge.svg" />
   </a>
+  <a href="https://mergify.io">
+    <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/openupm/openupm&style=flat" />
+  </a>
 </p>
 <p align="center">
   <a href="https://openupm.com/" target="_blank">
