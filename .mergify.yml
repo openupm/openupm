@@ -6,7 +6,7 @@ pull_request_rules:
       - "#files=1"
       - -conflict
       - -merged
-      - "status-success=CI"
+      - "status-success~=CI"
       - "title~=^feat: new package"
 
     actions:
