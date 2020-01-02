@@ -1,0 +1,14 @@
+name: com.jimthekiwifruit.simplesingleton
+displayName: Simple Singleton
+description: >-
+  A simple singleton implementation for Unity in UPM form for easy addition to
+  projects.
+repoUrl: 'https://github.com/JimTheKiwifruit/SimpleSingleton'
+repoBranch: master
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utility
+hunter: favoyang
