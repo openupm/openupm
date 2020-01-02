@@ -1,0 +1,12 @@
+name: com.xrtk.sdk
+displayName: XRTK.SDK
+description: The SDK assets for the XRTK
+repoUrl: 'https://github.com/XRTK/SDK'
+repoBranch: upm
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-vr
+hunter: favoyang
