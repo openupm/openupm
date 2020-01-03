@@ -1,0 +1,13 @@
+name: com.sebaslab.svelto.common
+displayName: Svelto Common
+description: Shared code between the Svelto repositories
+repoUrl: 'https://github.com/sebas77/Svelto.Common'
+repoBranch: master
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - framework
+hunter: favoyang
