@@ -1,0 +1,13 @@
+name: com.sebaslab.svelto.tasks
+displayName: Svelto Tasks
+description: 'Svelto Tasks - C# promises compliant multi-threaded tasks runner'
+repoUrl: 'https://github.com/sebas77/Svelto.Tasks'
+repoBranch: master
+packageFolder: Svelto.Tasks
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - framework
+hunter: favoyang
