@@ -17,8 +17,8 @@
   <a href="https://mergify.io">
     <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/openupm/openupm&style=flat" />
   </a>
-  <a href="https://gitter.im/openupm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
-    <img src="https://badges.gitter.im/openupm/community.svg" />
+  <a href="https://discord.gg/FnUgWEP">
+    <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
 </p>
 <p align="center">

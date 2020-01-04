@@ -130,7 +130,7 @@ module.exports = {
       },
       {
         text: "Chat",
-        link: "https://gitter.im/openupm/community"
+        link: "https://discord.gg/FnUgWEP"
       },
       {
         text: "Command Line Tool",
