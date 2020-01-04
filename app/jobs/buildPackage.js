@@ -130,5 +130,6 @@ if (require.main === module) {
       packageName = name;
     })
     .parse(process.argv)
+    .requiredArgs(1)
     .run(buildPackage, packageName);
 }

@@ -36,5 +36,6 @@ if (require.main === module) {
       versionVal = version;
     })
     .parse(process.argv)
+    .requiredArgs(2)
     .run(removeRelease, packageNameVal, versionVal);
 }

@@ -15,4 +15,13 @@ program.run = async function(method, ...args) {
   }
 };
 
+// Requires number of arguments, otherwise exit with code 1.
+program.requiredArgs = function(n) {
+  if (process.argv.length < n + 2) {
+    program.outputHelp();
+    process.exit(1);
+  }
+  return program;
+};
+
 module.exports = program;

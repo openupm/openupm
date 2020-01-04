@@ -213,5 +213,6 @@ if (require.main === module) {
       versionVal = version;
     })
     .parse(process.argv)
+    .requiredArgs(1)
     .run(buildRelease, packageNameVal, versionVal);
 }
