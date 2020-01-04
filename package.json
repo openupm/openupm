@@ -14,7 +14,8 @@
     "docs:build": "vuepress build docs",
     "docs:serve": "serve ./docs/.vuepress/dist",
     "queue:main": "node ./app/queues/process main",
-    "pkg:build": "node ./jobs/addBuildPackageJob.js --all",
+    "pkg:add-build": "node ./app/jobs/addBuildPackageJob.js",
+    "rel:remove": "node ./app/jobs/removeRelease.js",
     "server": "node server.js",
     "server:dev": "nodemon --watch app server.js",
     "test": "cross-env NODE_ENV=test mocha"

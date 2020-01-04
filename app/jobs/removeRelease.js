@@ -3,10 +3,11 @@
 const config = require("config");
 const { queues } = require("../queues/core");
 const Release = require("../models/release");
+const { ReleaseState } = require("../models/common");
 const logger = require("../utils/log")(module);
 
 // Remove release for given packageName and version.
-let removeRelease = async function(packageName, version) {
+const removeRelease = async function(packageName, version) {
   // Remove release record
   await Release.remove({ packageName, version });
   logger.info(
@@ -23,6 +24,14 @@ let removeRelease = async function(packageName, version) {
   );
 };
 
+// Remove releases for given packageName and state.
+const removeReleases = async function(packageName, state) {
+  let releases = (await Release.fetchAll(packageName)).filter(
+    x => x.state == state
+  );
+  for (const rel of releases) await removeRelease(packageName, rel.version);
+};
+
 module.exports = { removeRelease };
 
 if (require.main === module) {
@@ -30,12 +39,21 @@ if (require.main === module) {
   let packageNameVal = null;
   let versionVal = null;
   program
-    .arguments("<packageName> <version>")
+    .option("--failed", "remove failed releases")
+    .arguments("<packageName> [version]")
     .action(function(packageName, version) {
       packageNameVal = packageName;
       versionVal = version;
     })
     .parse(process.argv)
-    .requiredArgs(2)
-    .run(removeRelease, packageNameVal, versionVal);
+    .requiredArgs(1)
+    .run(async function() {
+      if (program.failed)
+        await removeReleases(packageNameVal, ReleaseState.Failed);
+      else if (versionVal) await removeRelease(packageNameVal, versionVal);
+      else {
+        program.outputHelp();
+        process.exit(1);
+      }
+    });
 }
