@@ -56,5 +56,20 @@ describe("app/jobs/buildPackage.js", function() {
         }
       ]);
     });
+    it("ignore pattern", function() {
+      let names = filterRemoteTags(
+        [
+          { tag: "1.0.2-master", commit: "10" },
+          { tag: "1.0.2", commit: "09" },
+          { tag: "1.0.1-master", commit: "08" },
+          { tag: "1.0.1", commit: "07" }
+        ],
+        "-master$"
+      );
+      names.should.deepEqual([
+        { tag: "1.0.2", commit: "09" },
+        { tag: "1.0.1", commit: "07" }
+      ]);
+    });
   });
 });

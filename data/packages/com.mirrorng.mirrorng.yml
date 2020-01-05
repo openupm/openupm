@@ -10,3 +10,4 @@ licenseName: MIT License
 topics:
   - network
 hunter: favoyang
+gitTagIgnore: '-master$'
