@@ -249,7 +249,7 @@
                     </div>
                   </div>
                 </section>
-                <section class="col-12">
+                <section v-if="$relatedPackages.length" class="col-12">
                   <h2>Related packages</h2>
                   <div class="container">
                     <div class="columns">
