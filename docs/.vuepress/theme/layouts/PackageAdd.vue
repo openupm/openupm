@@ -91,10 +91,29 @@
                     v-model="form.packageFolder.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty for root"
+                    placeholder="leave empty for root path (default)"
                   />
                   <span v-if="form.packageFolder.error" class="form-input-hint">
                     {{ form.packageFolder.error }}
+                  </span>
+                </div>
+                <div
+                  class="form-group column col-12"
+                  :class="{ hide: hideOtherFields }"
+                >
+                  <label class="form-label">Git tag ignore pattern</label>
+                  <input
+                    v-model="form.gitTagIgnore.value"
+                    class="form-input"
+                    type="text"
+                    placeholder="leave empty to include all tags (default)"
+                  />
+                  <span class="form-input-hint is-error">
+                    Regular expression to exclude git tags from build pipelines:
+                    <br />
+                    <code v-if="form.gitTagIgnore.value">
+                      /{{ form.gitTagIgnore.value }}/i
+                    </code>
                   </span>
                 </div>
                 <div
@@ -379,6 +398,10 @@ export default {
         hunter: {
           error: "",
           value: ""
+        },
+        gitTagIgnore: {
+          error: "",
+          value: ""
         }
       },
       hideOtherFields: true,
@@ -488,7 +511,8 @@ export default {
         licenseSpdxId: form.licenseId.value,
         licenseName: form.licenseName.value,
         topics: form.topics.options.filter(x => x.value).map(x => x.slug),
-        hunter: form.hunter.value
+        hunter: form.hunter.value,
+        gitTagIgnore: form.gitTagIgnore.value
       };
       return yaml.safeDump(content);
     },
