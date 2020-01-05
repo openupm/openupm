@@ -51,7 +51,9 @@
                 </section>
                 <section class="col-12">
                   <h2>Project</h2>
-                  <div><NavLink :item="repoNavLink" /></div>
+                  <div>
+                    <span><NavLink :item="repoNavLink"/></span>
+                  </div>
                   <div v-if="parentRepoNavLink" class="fork">
                     forked from
                     <NavLink :item="parentRepoNavLink" />
@@ -145,10 +147,12 @@
                       >
                         <div class="col-6">
                           <i :class="build.class"></i>
-                          {{ build.build.version }}
+                          <span>{{ build.build.version }}</span>
                         </div>
                         <div class="col-6">
-                          {{ build.timeSince }}
+                          <span>
+                            {{ build.timeSince }}
+                          </span>
                         </div>
                       </li>
                     </ul>
@@ -161,13 +165,15 @@
                   <h2>Build Issues</h2>
                   <div v-if="noTagsFound" class="toast">
                     <p>
-                      No tags found in <NavLink :item="tagsNavLink" />. Please
-                      checkout docs
-                      <a
-                        href="/docs/adding-upm-package.html#handling-repository-without-releases"
-                      >
-                        handling repository without releases.
-                      </a>
+                      <span>
+                        No tags found in <NavLink :item="tagsNavLink" />. Please
+                        checkout docs
+                        <a
+                          href="/docs/adding-upm-package.html#handling-repository-without-releases"
+                        >
+                          handling repository without releases.
+                        </a>
+                      </span>
                     </p>
                   </div>
                   <div class="container">
@@ -179,7 +185,7 @@
                       >
                         <div class="col-6">
                           <i :class="build.class"></i>
-                          {{ build.id }}
+                          <span>{{ build.id }}</span>
                         </div>
                         <div class="col-6">
                           <a
@@ -187,8 +193,11 @@
                             :href="build.buildUrl"
                             target="_blank"
                             build="noopener noreferrer"
-                            >{{ build.text }}</a
                           >
+                            <span>
+                              {{ build.text }}
+                            </span>
+                          </a>
                           <span v-else>{{ build.text }}</span>
                         </div>
                       </li>
@@ -198,12 +207,14 @@
                 <section v-if="packageInvalidTags.length" class="col-12">
                   <h2
                     class="tooltip tooltip-top"
-                    data-tooltip="These tags are ignored by build pipelines"
+                    data-tooltip="Tags are non-semver, duplicated or ignored."
                   >
-                    Non-semver / duplicated tags
+                    Invalid tags
                     <i class="fa fa-info-circle"></i>
                   </h2>
-                  <div>{{ packageInvalidTagsString }}</div>
+                  <div>
+                    <span>{{ packageInvalidTagsString }}</span>
+                  </div>
                 </section>
                 <section class="col-12">
                   <h2>Badge <small>(click to copy)</small></h2>
@@ -585,6 +596,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 
       a, h2, p, span, ul, li, div.toast
         font-size 0.75rem
+
+      span, span a
+        font-size 0.7rem
 
       div.toast
         p
