@@ -249,6 +249,24 @@
                     </div>
                   </div>
                 </section>
+                <section class="col-12">
+                  <h2>Related packages</h2>
+                  <div class="container">
+                    <div class="columns">
+                      <div
+                        v-for="relatedPackage in $relatedPackages"
+                        :key="relatedPackage.name"
+                        class="col-12"
+                      >
+                        <div class="pkg-sm">
+                          <h3 class="pkg-title">
+                            <NavLink :item="relatedPackage.link" />
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -297,6 +315,9 @@ export default {
   computed: {
     $package() {
       return this.$page.frontmatter.package;
+    },
+    $relatedPackages() {
+      return this.$page.frontmatter.relatedPackages;
     },
     packageName() {
       return this.$package.displayName || this.$package.name;

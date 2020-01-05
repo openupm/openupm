@@ -109,8 +109,17 @@ const preparePackage = function(doc) {
   return doc;
 };
 
+// Return namespace from package name
+const getNamespace = function(packageName) {
+  return packageName
+    .split(".")
+    .slice(0, 2)
+    .join(".");
+};
+
 module.exports = {
   cleanRepoUrl,
+  getNamespace,
   loadTopics,
   loadPackage,
   loadPackageSync,

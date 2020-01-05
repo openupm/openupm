@@ -3,6 +3,7 @@ const _ = require("lodash");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 const {
+  getNamespace,
   loadTopics,
   loadPackageSync,
   loadPackageNames
@@ -34,8 +35,8 @@ module.exports = function(options, context) {
     // Prepare data for page generation
     async getData() {
       // Load packages.
-      let packageNames = await loadPackageNames();
-      let packages = packageNames
+      const packageNames = await loadPackageNames();
+      const packages = packageNames
         .map(loadPackageSync)
         .filter(x => x)
         .map(pkg => {
@@ -49,14 +50,16 @@ module.exports = function(options, context) {
         })
         // Sort by name
         .sort(function(a, b) {
-          let va = a.link.text.toLowerCase();
-          let vb = b.link.text.toLowerCase();
+          const va = a.link.text.toLowerCase();
+          const vb = b.link.text.toLowerCase();
           if (va < vb) return -1;
           if (va > vb) return 1;
           return 0;
         });
+      // Namespace => [package...] dict.
+      const packageByNamespace = _.groupBy(packages, x => getNamespace(x.name));
       // Load topics.
-      let topicsWithAll = [{ name: "All", slug: "" }]
+      const topicsWithAll = [{ name: "All", slug: "" }]
         .concat((await loadTopics()).topics)
         .map(topic => {
           return {
@@ -67,7 +70,7 @@ module.exports = function(options, context) {
             ).length
           };
         });
-      let topics = topicsWithAll.slice(1);
+      const topics = topicsWithAll.slice(1);
       // contributors
       const getConstributors = function(type) {
         const entries = _.flatMap(packages, pkg => {
@@ -92,7 +95,15 @@ module.exports = function(options, context) {
       // Package hunters
       let hunters = getConstributors("hunter");
       let owners = getConstributors("owner");
-      return { packageNames, packages, topics, topicsWithAll, hunters, owners };
+      return {
+        packageNames,
+        packages,
+        packageByNamespace,
+        topics,
+        topicsWithAll,
+        hunters,
+        owners
+      };
     },
 
     // Generate package list pages
@@ -128,7 +139,10 @@ module.exports = function(options, context) {
           title: pkg.displayName
             ? `📦 ${pkg.displayName} - ${pkg.name}`
             : `📦 ${pkg.name}`,
-          package: pkg
+          package: pkg,
+          relatedPackages: data.packageByNamespace[
+            getNamespace(pkg.name)
+          ].filter(x => x.name != pkg.name)
         };
         pages.push({
           path: "/packages/" + pkg.name + "/",
