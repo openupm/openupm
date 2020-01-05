@@ -24,7 +24,7 @@ const buildPackage = async function(name) {
   // Get remote tags.
   logger.debug({ pkg: name }, "get remote tags");
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
-  let validTags = filterRemoteTags(remoteTags);
+  let validTags = filterRemoteTags(remoteTags, pkg.gitTagIgnore);
   validTags.reverse();
   let invalidTags = difference(remoteTags, validTags);
   await PackageExtra.setInvalidTags(name, invalidTags);
@@ -40,11 +40,16 @@ const buildPackage = async function(name) {
   await addReleaseJobs(releases);
 };
 
-// Filter remote tags for semantic versioning and duplication.
-const filterRemoteTags = function(remoteTags) {
-  // Filter semver tag.
+// Filter remote tags for non-semver, duplication and ignoration.
+const filterRemoteTags = function(remoteTags, gitTagIgnore) {
+  // Filter out non-semver
   let tags = remoteTags.filter(x => semverRe.test(x.tag));
-  // Remove duplications.
+  // Filter out ignoration
+  if (gitTagIgnore) {
+    const ignoreRe = new RegExp(gitTagIgnore, "i");
+    tags = tags.filter(x => !ignoreRe.test(x.tag));
+  }
+  // Filter out duplications
   // If tag "x.y.z" and "vx.y.z" both exist, keep the first one.
   let versionSet = new Set();
   let cleanTags = [];
