@@ -4,9 +4,13 @@ const assert = require("assert");
 const should = require("should");
 const rewire = require("rewire");
 
-const { cleanRepoUrl, loadPackageNames, loadPackage, loadPackageSync } = rewire(
-  "../app/utils/package"
-);
+const {
+  cleanRepoUrl,
+  loadPackageNames,
+  loadPackage,
+  loadPackageSync,
+  getNamespace
+} = rewire("../app/utils/package");
 
 describe("app/util/package.js", function() {
   describe("cleanRepoUrl()", function() {
@@ -57,6 +61,20 @@ describe("app/util/package.js", function() {
     it("simple", async function() {
       let pkg = await loadPackage("com.littlebigfun.addressable-importer");
       pkg.name.should.equal("com.littlebigfun.addressable-importer");
+    });
+  });
+  describe("getNamespace()", function() {
+    it("x.y", async function() {
+      let namespace = getNamespace("com.littlebigfun");
+      namespace.should.equal("com.littlebigfun");
+    });
+    it("x.y.z", async function() {
+      let namespace = getNamespace("com.littlebigfun.addressable-importer");
+      namespace.should.equal("com.littlebigfun");
+    });
+    it("x.y.z.sub", async function() {
+      let namespace = getNamespace("com.littlebigfun.addressable-importer.sub");
+      namespace.should.equal("com.littlebigfun");
     });
   });
 });
