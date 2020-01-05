@@ -1,0 +1,13 @@
+name: com.unity.vfx-toolbox
+displayName: VFX Toolbox
+description: Additional tools for Visual Effect Artists
+repoUrl: 'https://github.com/Unity-Technologies/VFXToolbox'
+repoBranch: master
+packageFolder: ''
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - effect-shader
+hunter: favoyang
+gitTagIgnore: ''
