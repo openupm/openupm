@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const assert = require("assert");
 
-const { getVersionFromTag } = require("../app/utils/semver");
+const { getVersionFromTag, semverRe } = require("../app/utils/semver");
 
 describe("app/util/semver.js", function() {
   describe("getVersionFromTag()", function() {
@@ -10,6 +10,9 @@ describe("app/util/semver.js", function() {
     });
     it("test va.b.c", function() {
       assert.equal(getVersionFromTag("v1.0.0"), "1.0.0");
+    });
+    it("test Va.b.c", function() {
+      assert.equal(getVersionFromTag("V1.0.0"), "1.0.0");
     });
     it("test a.b.c-preview", function() {
       assert.equal(getVersionFromTag("1.0.0-preview"), "1.0.0-preview");
@@ -28,6 +31,17 @@ describe("app/util/semver.js", function() {
     });
     it("test va.b.c-preview.d", function() {
       assert.equal(getVersionFromTag("v1.0.0-preview.0"), "1.0.0-preview.0");
+    });
+  });
+  describe("semverRe", function() {
+    it("test a.b.c", function() {
+      semverRe.test("1.0.0").should.be.ok();
+    });
+    it("test va.b.c", function() {
+      semverRe.test("v1.0.0").should.be.ok();
+    });
+    it("test Va.b.c", function() {
+      semverRe.test("V1.0.0").should.be.ok();
     });
   });
 });
