@@ -1,12 +1,12 @@
 name: com.dbrizov.naughtyattributes
 displayName: NaughtyAttributes
 description: Attribute Extensions for Unity
-repoUrl: 'https://github.com/JimmyCushnie/NaughtyAttributes'
+repoUrl: 'https://github.com/dbrizov/NaughtyAttributes'
 repoBranch: master
 packageFolder: ''
-parentRepoUrl: 'https://github.com/dbrizov/NaughtyAttributes'
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utility
+  - editor
 hunter: favoyang
