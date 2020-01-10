@@ -1,5 +1,6 @@
 // Util
 
+const $ = require("jquery");
 const marked = require("marked");
 const urljoin = require("url-join");
 import TimeAgo from "javascript-time-ago";
@@ -7,13 +8,24 @@ import en from "javascript-time-ago/locale/en";
 TimeAgo.addLocale(en);
 const timeAgo = new TimeAgo("en-US");
 
+const httpRe = /^https?:\/\//i;
+
 export default {
+  // Post-processing markdown html
+  postMarkdown: function(html, { imageBaseUrl }) {
+    const root = $(`<div>${html}</div>`);
+    root.find("img").attr("src", (idx, attr) => {
+      if (!httpRe.test(attr)) attr = urljoin(imageBaseUrl, attr);
+      return attr;
+    });
+    return root.html();
+  },
+
   // Get customized marked renderer.
   markedRenderer: function(option) {
     const renderer = new marked.Renderer();
     const originalRendererLink = renderer.link.bind(renderer);
     const originalRendererImage = renderer.image.bind(renderer);
-    const httpRe = /^https?:\/\//i;
     const httpBlobRe = /^https?:\/\/github\.com\/.*\/blob\//i;
 
     renderer.link = (href, title, text) => {
@@ -26,6 +38,7 @@ export default {
     };
 
     renderer.image = (href, title, text) => {
+      console.log(href);
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
       } else if (httpBlobRe.test(href)) {

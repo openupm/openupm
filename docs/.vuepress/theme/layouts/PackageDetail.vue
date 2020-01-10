@@ -427,13 +427,11 @@ export default {
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
-        const renderer = util.markedRenderer({
-          linkBaseUrl: urljoin(this.$package.repoUrl, "blob/master"),
-          imageBaseUrl: urljoin(this.$package.repoUrl, "raw/master/")
-        });
-        return marked(this.$data.readmeRaw, {
-          renderer: renderer
-        });
+        const linkBaseUrl = urljoin(this.$package.repoUrl, "blob/master");
+        const imageBaseUrl = urljoin(this.$package.repoUrl, "raw/master");
+        const renderer = util.markedRenderer({ linkBaseUrl, imageBaseUrl });
+        const html = marked(this.$data.readmeRaw, { renderer });
+        return util.postMarkdown(html, { imageBaseUrl });
       }
     },
     repoNavLink() {
