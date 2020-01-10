@@ -14,6 +14,7 @@ export default {
     const originalRendererLink = renderer.link.bind(renderer);
     const originalRendererImage = renderer.image.bind(renderer);
     const httpRe = /^https?:\/\//i;
+    const httpBlobRe = /^https?:\/\/github\.com\/.*\/blob\//i;
 
     renderer.link = (href, title, text) => {
       if (option.linkBaseUrl && !httpRe.test(href)) {
@@ -27,6 +28,8 @@ export default {
     renderer.image = (href, title, text) => {
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
+      } else if (httpBlobRe.test(href)) {
+        href = href.replace("/blob/", "/raw/");
       }
       return originalRendererImage(href, title, text);
     };
