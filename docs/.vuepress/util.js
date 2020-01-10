@@ -38,7 +38,6 @@ export default {
     };
 
     renderer.image = (href, title, text) => {
-      console.log(href);
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
       } else if (httpBlobRe.test(href)) {
