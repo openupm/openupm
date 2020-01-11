@@ -85,8 +85,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       repoUrl: cleanRepoUrl(pkg.repoUrl, "https"),
       repoBranch: release.tag,
       packageName: pkg.name,
-      packageVersion: release.version,
-      packageFolder: pkg.packageFolder || ""
+      packageVersion: release.version
     };
     let build = await queueBuild(buildApi, definitionId, parameters);
     // eslint-disable-next-line require-atomic-updates

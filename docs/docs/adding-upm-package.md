@@ -3,19 +3,39 @@ sidebar: true
 sidebarDepth: 2
 showFooter: false
 ---
-# Adding Upm Package
+# Adding UPM Package
 
-## Upm Package Criteria
+## UPM Package Criteria
 
 OpenUPM requires the package repository fulfils below criteria
-- Containing the required `package.json` of upm package. The `package.json` can be placed at any folder.
-- Open source license. It is recommended to choose one from [spdx license list](https://spdx.org/licenses/), especially the one with OSI approved flag. For custom license (or dual licenses), it should be clear whether the package is commercial available.
-- Hosting on Github. For now only GitHub repository are supported, but generic git support is under consideration.
-- Git tags that conforms valid semver format, with or without the `v` prefix. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Valid tags will be built as package releases. You can create git tags (though GitHub release feature) after adding a repository to the system.
+- The valid UPM structure. At least contains a `package.json` file, can be placed at a sub-folder.
+- An open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
+- Hosting on Github. For now only GitHub repositories are supported, but the generic git support is under consideration.
+- Git tags that are valid semver, with/without the `v` prefix. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either using the GitHub release feature, or CI tools to create git tags.
+
+## Understanding Different Folder Structures of UPM Repositories
+
+There're three typical folder structures of UPM repositories. OpenUPM build pipelines can handle all of them.
+
+- UPM package at the root path
+- UPM package at a sub-folder
+- UPM package at a sub-folder with UPM branch
+
+### UPM Package at the Root Path
+
+The `package.json` file is located at the root path of the master branch. It is the simplest case.
+
+### UPM Package at a Sub-folder
+
+The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. Git tags are based on the master branch. Build pipelines will detect the location of the `package.json` file, and handle it correctly.
+
+### UPM Package at a Sub-folder with UPM Branch
+
+The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. An `upm` branch is created from the package folder using the `git subtree split/push` command to make the `package.json` file placed at the root path. So the package can be installed by Unity Package Manager via git url. Git tags are based on the upm branch.
 
 ## Package YAML File
 
-OpenUPM uses a yaml file to describe the package information. Here's an example.
+OpenUPM uses a yaml file to store the package information. Here's an example.
 
 ```yaml
 # package name
@@ -28,8 +48,6 @@ description: An unity package example
 repoUrl: 'https://github.com/favoyang/unity-package-example'
 # repository branch
 repoBranch: master
-# parent folder of package.json file
-packageFolder: ''
 # forked repository url
 parentRepoUrl: null
 # spdx license id
@@ -47,91 +65,29 @@ excludedFromList: false
 
 ## Using Package Add Form
 
-Package hunter can use the [package add form](/packages/add/), to add package yaml file to the system easily. The form will guide you to fill necessary information, generate the yaml file, add to GitHub via web page and start a pull request.
+Package hunters can use the [package add form](/packages/add/), to submit the package yaml file. The form will guide you to fill required information, generate the yaml file, then submit to GitHub as pull request in the browser.
 
 [![package add form](./images/package-add-form.png)](/packages/add/)
 
-Once the pull request get merged, within a few minutes (for the CI to do the jobs):
-- You can visit the package at url `/packages/com.namespace.package-name`.
-- The package will be added to build pipelines, and results can be viewed from the **version history** and **build issues** sections on the package detail page.
+The pull request of adding new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at url `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
 
 @flowstart
-form=>operation: Fill package form
-yaml=>operation: Start pull request with generated YAML
-merge=>operation: Wait pull request get merged
-build=>end: Add to website and build pipeline
+form=>operation: Fill the package form
+pr=>operation: Start a pull request
+ci=>operation: Wait the CI
 
-form->yaml
-yaml->merge
-merge->build
+form->pr
+pr->ci
 @flowend
 
 ## Troubleshooting
 
-### Handling Different Folder Structures
+### Handling the Repository without Git Tags
 
-There're three typical folder structures of repository.
+Please create an issue on the author's repository for making GitHub releases. The git tag should be a valid semver.
 
-- Pure upm package
-- Upm package at a sub-folder
-- Upm package at a sub-folder with upm branch
+### Handling the Custom Build Script
 
-#### Pure Upm Package
+Build pipelines simply detect the package folder, and run the `npm publish` command in that folder to publish a package. If what you want is to exclude certain files from the package bundle, you can use the `.npmigore` file at the same path of the `package.json` file. Learn more [here](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package).
 
-The `package.json` is located at the root path of the master branch, and same for other git tags. This is the simplest case and will just work fine.
-
-```yaml
-# repository branch
-repoBranch: master
-# parent folder of package.json file
-packageFolder: ''
-```
-
-#### Upm Package at a Sub-folder
-
-The repository is an unity project (with Assets folder). The `package.json` is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. The folder structure is same for git tags. You need provide the package folder to make the build pipeline work.
-
-```yaml
-# repository branch
-repoBranch: master
-# parent folder of package.json file
-packageFolder: 'Packages/com.namespace.package-name'
-```
-
-#### Upm Package at a Sub-folder with Upm Branch
-
-The repository is an unity project (with Assets folder). The `package.json` is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. An upm branch is made from the subtree of the package folder, so it can be installed via git url by unity package manager.
-
-Then you need double check the git tags, see if it was made from the upm branch or the master branch. Go to the release tab of the repository, find a release/tag, click on the hash link.
-
-![finding git tags](./images/finding-git-tag.png)
-
-Then tap the `Browse files` button.
-
-![browse files](./images/git-browse-files.png)
-
-
-- If the git tag is made from upm branch, with a `package.json` file at the root path, then you can use upm as default branch and leave the package folder empty.
-  ```yaml
-  # repository branch
-  repoBranch: upm
-  # parent folder of package.json file
-  packageFolder: ''
-  ```
-- If the git tags is made from master branch, where `package.json` file is located at a sub-folder, then you need provide package folder.
-  ```yaml
-  # repository branch
-  repoBranch: master
-  # parent folder of package.json file
-  packageFolder: 'Packages/com.namespace.package-name'
-  ```
-
-### Handling Repository without Releases
-
-If a repository without valid git tags/releases. Then it can be only installed via git url. Please create an issue on the repository for making GitHub releases. The release name (git tag) need to be a valid semver. A common practice is naming the release name (git tag) as semver with prefix `v`. i.e. `v1.0.0` for version `1.0.0`.
-
-### Handling Custom Build Script
-
-The build pipeline simply run `npm publish` on the package folder to bundle and publish package. If what you want is to exclude certain files from the package bundle, you can use `.npmigore` file at the same path of `package.json`. Learn more [here](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package).
-
-Custom build script is not supported at the moment. Though we trended to use the standard `npm build` command. We're looking for an example repository to work with to support custom build script. If your package requires one, please [create an issue](https://github.com/openupm/openupm/issues) to start a conversation.
+The custom build script is not supported at the moment. We're looking for an example repository to work with to support the custom build script. If your package do need the feature, please [create an issue](https://github.com/openupm/openupm/issues) to start a conversation.

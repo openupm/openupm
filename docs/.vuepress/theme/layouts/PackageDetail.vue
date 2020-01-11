@@ -407,14 +407,8 @@ export default {
     },
     packageInstallCli() {
       const name = this.$package.name;
-      const repoUrl = this.$package.repoUrl;
-      const repoBranch = this.$package.repoBranch;
       if (this.packageSucceededBuilds.length) return `openupm add ${name}`;
-      else if (!this.$package.packageFolder) {
-        let cli = `openupm add ${name}@${repoUrl}`;
-        if (this.$package.repoBranch != "master") cli += `#${repoBranch}`;
-        return cli;
-      } else return "not available";
+      else return "not available yet";
     },
     badgeVersionHtml() {
       return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
