@@ -6,7 +6,6 @@ description: >-
   scripts.
 repoUrl: 'https://github.com/starikcetin/unity-scene-reference'
 repoBranch: upm
-packageFolder: ''
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

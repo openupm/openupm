@@ -3,7 +3,6 @@ displayName: Asset Inspector
 description: Unity sub-asset editor
 repoUrl: 'https://github.com/johnsoncodehk/unity-asset-inspector'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

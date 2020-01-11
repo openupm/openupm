@@ -5,7 +5,6 @@ description: >-
   methods.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Common'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

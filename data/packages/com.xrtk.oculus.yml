@@ -3,7 +3,6 @@ displayName: XRTK.Oculus
 description: The Oculus platform components for the XRTK
 repoUrl: 'https://github.com/XRTK/Oculus'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

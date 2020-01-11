@@ -5,7 +5,6 @@ description: >-
   working with multiple scenes.
 repoUrl: 'https://github.com/starikcetin/Quick-Play-Tool'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

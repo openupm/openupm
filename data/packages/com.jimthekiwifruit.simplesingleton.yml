@@ -5,7 +5,6 @@ description: >-
   projects.
 repoUrl: 'https://github.com/JimTheKiwifruit/SimpleSingleton'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

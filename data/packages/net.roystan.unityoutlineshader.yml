@@ -5,7 +5,6 @@ description: >-
   using the depth and normals buffers.
 repoUrl: 'https://github.com/favoyang/UnityOutlineShader-UPM'
 repoBranch: master
-packageFolder: Packages/net.roystan.unityoutlineshader
 parentRepoUrl: 'https://github.com/IronWarrior/UnityOutlineShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

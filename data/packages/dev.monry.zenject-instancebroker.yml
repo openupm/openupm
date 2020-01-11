@@ -3,7 +3,6 @@ displayName: Zenject InstanceBroker
 description: Helper library to notify spawned instance dynamically using Zenject.SignalBus
 repoUrl: 'https://github.com/monry/Zenject-InstanceBroker'
 repoBranch: master
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

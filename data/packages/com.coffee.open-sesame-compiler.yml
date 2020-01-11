@@ -6,7 +6,6 @@ description: >-
   Let's say, "Open sesame!"
 repoUrl: 'https://github.com/mob-sakai/OpenSesameCompilerForUnity'
 repoBranch: develop
-packageFolder: Packages/com.coffee.open-sesame-compiler
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

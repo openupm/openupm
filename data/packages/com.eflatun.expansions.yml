@@ -3,7 +3,6 @@ displayName: Eflatun.Expansions
 description: 'C# Expansions'
 repoUrl: 'https://github.com/starikcetin/Eflatun.Expansions'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

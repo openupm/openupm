@@ -3,7 +3,6 @@ displayName: EasingCore
 description: "\U0001F409 Core Easing Implementation for Unity."
 repoUrl: 'https://github.com/setchi/EasingCore'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

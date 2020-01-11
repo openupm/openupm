@@ -5,7 +5,6 @@ description: >-
   gameplay in Unity
 repoUrl: 'https://github.com/starikcetin/UnityIngameDebugConsole'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
 licenseSpdxId: MIT
 licenseName: MIT License

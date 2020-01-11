@@ -3,7 +3,6 @@ displayName: iTween
 description: iTween UPM package for Unity 3D
 repoUrl: 'https://github.com/route1rodent/iTween'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,7 +3,6 @@ displayName: Gameframe.SceneSwitcher
 description: Editor extension for quick scene switching.
 repoUrl: 'https://github.com/coryleach/UnitySceneSwitcher'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

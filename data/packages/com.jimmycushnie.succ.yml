@@ -3,7 +3,6 @@ displayName: SUCC
 description: 'Sexy and Utilitarian C# Configuration'
 repoUrl: 'https://github.com/JimmyCushnie/SUCC'
 repoBranch: unity
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: WTFPL
 licenseName: Do What The F*ck You Want To Public License

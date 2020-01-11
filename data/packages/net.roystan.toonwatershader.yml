@@ -6,7 +6,6 @@ description: >-
   the depth buffer.
 repoUrl: 'https://github.com/favoyang/ToonWaterShader-UPM'
 repoBranch: master
-packageFolder: Packages/net.roystan.toonwatershader
 parentRepoUrl: 'https://github.com/IronWarrior/ToonWaterShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

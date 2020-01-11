@@ -3,7 +3,6 @@ displayName: FancyScrollView
 description: '[Unity] A scrollview component that can implement highly flexible animation.'
 repoUrl: 'https://github.com/setchi/FancyScrollView'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

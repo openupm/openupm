@@ -3,7 +3,6 @@ displayName: XRTK.Lumin
 description: The Lumin platform components for the XRTK
 repoUrl: 'https://github.com/XRTK/Lumin'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

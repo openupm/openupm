@@ -5,7 +5,6 @@ description: >-
   reactive systems.
 repoUrl: 'https://github.com/starikcetin/ecsrx.unity'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: 'https://github.com/EcsRx/ecsrx.unity'
 licenseSpdxId: MIT
 licenseName: MIT License

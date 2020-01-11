@@ -5,7 +5,6 @@ description: >-
   optional integration to Unity
 repoUrl: 'https://github.com/Leopotam/ecs'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

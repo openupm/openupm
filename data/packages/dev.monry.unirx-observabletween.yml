@@ -3,7 +3,6 @@ displayName: UniRx Observable Tween
 description: Tweener library based on UniRx
 repoUrl: 'https://github.com/monry/UniRx-ObservableTween'
 repoBranch: master
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

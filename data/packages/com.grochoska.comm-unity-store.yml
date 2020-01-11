@@ -5,7 +5,6 @@ description: >-
   packages and import them right into the project.
 repoUrl: 'https://github.com/RafaelGrochoska/CommUnityStore'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

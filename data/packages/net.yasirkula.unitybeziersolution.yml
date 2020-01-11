@@ -5,7 +5,6 @@ description: >-
   travelling the spline with constant speed/time)
 repoUrl: 'https://github.com/favoyang/UnityBezierSolution-UPM'
 repoBranch: upm-convert
-packageFolder: Assets/Plugins/BezierSolution
 parentRepoUrl: 'https://github.com/yasirkula/UnityBezierSolution'
 licenseSpdxId: MIT
 licenseName: MIT License

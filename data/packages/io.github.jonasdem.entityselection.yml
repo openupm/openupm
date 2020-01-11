@@ -3,7 +3,6 @@ displayName: Entity Selection
 description: A minimal solution for selecting entities in the unity sceneview.
 repoUrl: 'https://github.com/JonasDeM/EntitySelection'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

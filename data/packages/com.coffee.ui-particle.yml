@@ -6,7 +6,6 @@ description: >-
   Camera, RenderTexture or Canvas.
 repoUrl: 'https://github.com/mob-sakai/ParticleEffectForUGUI'
 repoBranch: master
-packageFolder: Assets/Coffee/UIExtensions/UIParticle
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

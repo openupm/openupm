@@ -5,7 +5,6 @@ description: >-
   and GameObjects as entities.
 repoUrl: 'https://github.com/starikcetin/joy'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

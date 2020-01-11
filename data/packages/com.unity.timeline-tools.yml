@@ -3,7 +3,6 @@ displayName: Unity Timeline Tools
 description: Timeline Tools & utilities package
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.timeline-tools'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License

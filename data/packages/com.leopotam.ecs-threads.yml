@@ -3,7 +3,6 @@ displayName: LeoECS Threads
 description: Multithreading support for LeoECS Entity Component System framework.
 repoUrl: 'https://github.com/Leopotam/ecs-threads'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

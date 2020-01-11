@@ -3,7 +3,6 @@ displayName: TypeInspector
 description: "\U0001F52CPackage for unity3d which allow select type and members from editor inspector window"
 repoUrl: 'https://github.com/k0dep/type-inspector'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

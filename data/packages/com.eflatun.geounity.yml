@@ -5,7 +5,6 @@ description: >-
   Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.GeoUnity'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

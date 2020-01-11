@@ -5,7 +5,6 @@ description: >-
   and can cast and receive shadows.
 repoUrl: 'https://github.com/favoyang/UnityToonShader-UPM'
 repoBranch: master
-packageFolder: Packages/net.roystan.unitytoonshader
 parentRepoUrl: 'https://github.com/IronWarrior/UnityToonShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

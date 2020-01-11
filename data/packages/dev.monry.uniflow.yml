@@ -3,7 +3,6 @@ displayName: UniFlow
 description: Connect presentation events
 repoUrl: 'https://github.com/monry/UniFlow'
 repoBranch: develop/v0.1.0
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

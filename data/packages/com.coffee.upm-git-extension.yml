@@ -3,7 +3,6 @@ displayName: UPM Git Extension
 description: Git extension for Unity Package Manager (UPM)
 repoUrl: 'https://github.com/mob-sakai/UpmGitExtension'
 repoBranch: master
-packageFolder: Packages/com.coffee.upm-git-extension
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

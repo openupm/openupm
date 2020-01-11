@@ -5,7 +5,6 @@ description: >-
   the features I wanted.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Tracking2D'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,7 +3,6 @@ displayName: Extra UnityEngine
 description: Extensions to extend UnityEngine classes/structs
 repoUrl: 'https://github.com/upm-packages/ExtraUnityEngine'
 repoBranch: master
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

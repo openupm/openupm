@@ -3,7 +3,6 @@ displayName: ComponentTask
 description: Library to run dotnet's 'Task' and 'Task<T>' scoped to Unity components.
 repoUrl: 'https://github.com/BastianBlokland/componenttask-unity'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

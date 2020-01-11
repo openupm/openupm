@@ -5,7 +5,6 @@ description: >-
   Manager. You can use a git url as a package dependency!
 repoUrl: 'https://github.com/mob-sakai/GitDependencyResolverForUnity'
 repoBranch: upm
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

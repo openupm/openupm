@@ -3,7 +3,6 @@ displayName: com.newtonsoft.json
 description: Unity package manager setup for Newtonsoft's JSON library
 repoUrl: 'https://github.com/PixelWizards/com.newtonsoft.json'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

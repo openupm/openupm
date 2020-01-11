@@ -3,7 +3,6 @@ displayName: Latios Framework for DOTS
 description: A Unity DOTS framework for my personal projects
 repoUrl: 'https://github.com/Dreaming381/Latios-Framework'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License

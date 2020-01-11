@@ -6,7 +6,6 @@ description: >-
   axes. Good for type-safety.
 repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
 repoBranch: upm
-packageFolder: ''
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

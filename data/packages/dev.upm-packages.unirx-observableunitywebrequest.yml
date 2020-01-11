@@ -3,7 +3,6 @@ displayName: UniRx ObservableUnityWebRequest
 description: UnityWebRequest as IObservable
 repoUrl: 'https://github.com/upm-packages/UniRx-ObservableUnityWebRequest'
 repoBranch: master
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

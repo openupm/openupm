@@ -5,7 +5,6 @@ description: >-
   pooling solution that can fit into any Unity project
 repoUrl: 'https://github.com/QFSW/MasterObjectPooler2'
 repoBranch: master
-packageFolder: ''
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

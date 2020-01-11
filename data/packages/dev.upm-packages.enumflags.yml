@@ -3,7 +3,6 @@ displayName: Enum Flags
 description: 'Render listbox in Inspector for [Flags] enum'
 repoUrl: 'https://github.com/upm-packages/EnumFlags'
 repoBranch: master
-packageFolder: Assets
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

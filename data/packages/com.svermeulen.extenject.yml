@@ -3,7 +3,6 @@ displayName: Extenject
 description: 'Dependency Injection Framework for Unity3D '
 repoUrl: 'https://github.com/starikcetin/Extenject'
 repoBranch: master
-packageFolder: UnityProject/Assets/Plugins/Zenject
 parentRepoUrl: 'https://github.com/svermeulen/Extenject'
 licenseSpdxId: MIT
 licenseName: MIT License

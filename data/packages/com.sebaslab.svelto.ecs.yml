@@ -3,7 +3,6 @@ displayName: Svelto ECS
 description: 'Svelto ECS C# Lightweight Data Oriented Entity Component System Framework'
 repoUrl: 'https://github.com/sebas77/Svelto.ECS'
 repoBranch: master
-packageFolder: Svelto.ECS
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
