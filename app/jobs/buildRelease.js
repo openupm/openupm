@@ -86,11 +86,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       repoBranch: release.tag,
       packageName: pkg.name,
       packageVersion: release.version,
-      packageFolder: pkg.packageFolder || "",
-      buildName: getBuildName({
-        packageName: pkg.name,
-        packageVersion: release.version
-      })
+      packageFolder: pkg.packageFolder || ""
     };
     let build = await queueBuild(buildApi, definitionId, parameters);
     // eslint-disable-next-line require-atomic-updates
@@ -163,18 +159,6 @@ const handleReleaseBuild = async function(build, release) {
         `build ${release.packageName}@${release.version} failed with retryable reason: ${reason}`
       );
   }
-};
-
-// Get a custom build name.
-const getBuildName = function({ packageName, packageVersion }) {
-  // Remove leading @ character of packageName.
-  if (packageName.startsWith("@")) packageName = packageName.substr(1);
-  let buildName = `${packageName}-${packageVersion}`;
-  // Replace not allowed characters (/:<>\|?@*) with underscore.
-  buildName = buildName.replace(/[/:<>\\|?@*]/g, "_");
-  /* The maximum length of a build number is 255 characters, and reserve 55
-   * characters for runtime suffix. */
-  return buildName.substr(0, 255 - 55);
 };
 
 // Get publish log
