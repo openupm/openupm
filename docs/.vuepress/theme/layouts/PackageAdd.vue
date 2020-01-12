@@ -61,6 +61,7 @@
                     v-model="form.branch.value"
                     class="form-select"
                     required
+                    @change="onBranchChange($event)"
                   >
                     <option v-if="!branches.length" disabled selected value=""
                       >Loading branches...</option
@@ -78,23 +79,36 @@
                   </span>
                 </div>
                 <div
-                  id="packageFolder"
+                  id="packageJson"
                   class="form-group column col-12"
                   :class="{
-                    hide: hideOtherFields,
-                    'has-error': form.packageFolder.error
+                    hide: hideOtherFields || !$data.form.branch.value,
+                    'has-error': form.packageJson.error
                   }"
-                  @change="onPackageFolderChange"
                 >
-                  <label class="form-label">Folder of package.json</label>
-                  <input
-                    v-model="form.packageFolder.value"
-                    class="form-input"
-                    type="text"
-                    placeholder="leave empty for root path (default)"
-                  />
-                  <span v-if="form.packageFolder.error" class="form-input-hint">
-                    {{ form.packageFolder.error }}
+                  <label class="form-label">Path of package.json</label>
+                  <select
+                    v-model="form.packageJson.value"
+                    class="form-select"
+                    required
+                  >
+                    <option
+                      v-if="!packageJsonPaths.length"
+                      disabled
+                      selected
+                      value=""
+                      >{{ form.packageJson.prompt }}</option
+                    >
+                    <option
+                      v-for="path in packageJsonPaths"
+                      :key="path"
+                      :value="path"
+                    >
+                      {{ path }}</option
+                    >
+                  </select>
+                  <span v-if="form.packageJson.error" class="form-input-hint">
+                    {{ form.packageJson.error }}
                   </span>
                 </div>
                 <div
@@ -185,8 +199,8 @@
               </div>
             </fieldset>
             <div v-else>
-              <h6>File name: {{ yamlFilename }}</h6>
-              <h6>File content</h6>
+              <h6>Package name: {{ this.$data.packageInfo.name }}</h6>
+              <h6>Meta data:</h6>
               <pre class="code file-content" data-lang="yaml">
                 <code>{{ yaml }}</code>
               </pre>
@@ -223,35 +237,9 @@
                               Fill the package form
                             </p>
                             <p class="tile-subtitle">
-                              Please provide informations of the UPM package. If
-                              you need more help, please visit
+                              Please provide information about the UPM package.
+                              Learn more at
                               <NavLink :item="docLink" target="_blank" />.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div v-if="isStepFillFormChecked" class="timeline-item">
-                      <div class="timeline-left">
-                        <a
-                          class="timeline-icon"
-                          :class="{ 'icon-lg': isStepFillFormChecked }"
-                          href="#"
-                        >
-                          <i
-                            v-if="isStepFillFormChecked"
-                            class="icon icon-check"
-                          ></i>
-                        </a>
-                      </div>
-                      <div class="timeline-content">
-                        <div class="tile">
-                          <div class="tile-content">
-                            <p class="tile-title">
-                              Package verified
-                            </p>
-                            <p class="tile-subtitle">
-                              The package YAML file is generated.
                             </p>
                           </div>
                         </div>
@@ -274,22 +262,27 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Upload the YAML file to GitHub and start a pull
-                              request (PR).
+                              Upload to GitHub via pull request
+                            </p>
+                            <p class="tile-subtitle">
+                              The package is verified. A YAML file is generated
+                              to store the meta data.
                             </p>
                             <ul>
                               <li>
-                                Click the <b>create a pull request</b> button,
-                                to open the GitHub new file form with data
-                                pre-filled.
+                                Click the <b>Upload package</b> button will
+                                guide you to the GitHub website.
                               </li>
                               <li>
-                                Scroll to the end of the page, click
-                                <b>purpose new file</b>.
+                                Scroll to the end of the page, click the
+                                <b>purpose new file</b> button.
                               </li>
                               <li>
-                                Click <b>create pull request</b> on the next
-                                page.
+                                Click the <b>create pull request</b> button on
+                                the following page.
+                              </li>
+                              <li>
+                                The pull request will get merged automatically.
                               </li>
                             </ul>
                           </div>
@@ -313,20 +306,17 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Once the pull request get merged, within a few
-                              minutes (for the CI to do the jobs)
+                              Wait for CI pipelines to complete (1-3 mins)
                             </p>
                             <ul>
                               <li>
                                 You can visit the package at
-                                <NavLink :item="packageLink" target="_blank" />
+                                <NavLink :item="packageLink" target="_blank" />.
                               </li>
                               <li>
-                                The package will be added to build pipelines,
-                                and results can be viewed from the
-                                <b>version history</b> and
-                                <b>build issues</b> sections on the package
-                                page.
+                                You can view the build result at the
+                                <em>version history</em> and
+                                <em>build issues</em> sections.
                               </li>
                             </ul>
                           </div>
@@ -379,7 +369,8 @@ export default {
           error: "",
           value: ""
         },
-        packageFolder: {
+        packageJson: {
+          prompt: "",
           error: "",
           value: ""
         },
@@ -406,6 +397,7 @@ export default {
       },
       hideOtherFields: true,
       repoInfo: {},
+      packageJsonPaths: {},
       packageInfo: {},
       branches: [],
       yaml: "",
@@ -433,7 +425,7 @@ export default {
       });
       return {
         link: "https://github.com/openupm/openupm/new/master/?" + qs,
-        text: "Create a pull request"
+        text: "Upload package"
       };
     },
     docLink() {
@@ -467,16 +459,8 @@ export default {
       this.$data.hideOtherFields = true;
       this.step = SubmitStep.FillForm.value;
     },
-    onPackageFolderChange() {
-      // Cleanify packageFolder
-      let packageFolder = this.$data.form.packageFolder;
-      if (packageFolder.value == ".") packageFolder.value = "";
-      else if (packageFolder.value.startsWith("/"))
-        packageFolder.value = packageFolder.value.substring(1);
-      else if (packageFolder.value.startsWith("./"))
-        packageFolder.value = packageFolder.value.substring(2);
-      if (packageFolder.value.endsWith("/"))
-        packageFolder.value = packageFolder.value.slice(0, -1);
+    onBranchChange() {
+      this.fetchGitTrees();
     },
     onGoClick() {
       let repo = this.$data.form.repo.value;
@@ -578,26 +562,62 @@ export default {
           .map(x => x.name)
           .filter(x => !x.startsWith("all-contributors/"));
         this.$data.branches = branches;
-        if (branches.includes("master"))
+        if (branches.includes("master")) {
           this.$data.form.branch.value = "master";
+          this.onBranchChange();
+        }
       } catch (error) {
         this.$data.form.branch.error = error.message;
+      }
+    },
+    async fetchGitTrees() {
+      if (!this.form.branch.value) return;
+      try {
+        // Clean error message.
+        this.$data.form.packageJson.error = "";
+        // Fetch.
+        const url = urljoin(
+          apiRepoUrl,
+          this.form.repo.value,
+          "git/trees",
+          this.form.branch.value
+        );
+        this.$data.form.packageJson.prompt = "Loading package.json path...";
+        console.log(`fetchGitTrees: ${url}`);
+        const resp = await axios.get(url, {
+          params: { recursive: 1 },
+          headers: { Accept: "application/vnd.github.v3.json" }
+        });
+        // Assign data.
+        const paths = resp.data.tree
+          .map(x => x.path)
+          .filter(x => x.endsWith("package.json"));
+        this.$data.packageJsonPaths = paths;
+        if (paths.length == 0) {
+          this.$data.form.packageJson.prompt = "";
+          this.$data.form.packageJson.error =
+            "File not found: package.json. Please choice a different branch.";
+        } else if (paths.length == 1)
+          this.$data.form.packageJson.value = paths[0];
+        else if (paths.includes("package.json"))
+          this.$data.form.packageJson.value = "package.json";
+      } catch (error) {
+        this.$data.form.packageJson.error = error.message;
       }
     },
     async fetchPackageInfo() {
       try {
         // Clean error message.
-        this.$data.form.packageFolder.error = "";
+        this.$data.form.packageJson.error = "";
         // Fetch.
         let url = urljoin(
           apiRepoUrl,
           this.form.repo.value,
           "contents",
-          this.form.packageFolder.value,
-          "package.json",
+          this.form.packageJson.value,
           "?ref=" + this.$data.form.branch.value
         );
-        console.log(url);
+        console.log(`fetchPackageInfo: ${url}`);
         let resp = await axios.get(url, {
           headers: { Accept: "application/vnd.github.v3.json" }
         });
@@ -618,10 +638,10 @@ export default {
         this.$data.yaml = this.genYaml();
         this.$data.yamlFilename = this.$data.packageInfo.name + ".yml";
       } catch (error) {
-        VueScrollTo.scrollTo("#packageFolder", 500, { offset: -80 });
+        VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
         if (error.message.includes("404"))
-          this.$data.form.packageFolder.error = "package.json not found";
-        else this.$data.form.packageFolder.error = error.message;
+          this.$data.form.packageJson.error = "File not found: package.json";
+        else this.$data.form.packageJson.error = error.message;
       } finally {
         this.$data.isSubmitting = false;
       }
