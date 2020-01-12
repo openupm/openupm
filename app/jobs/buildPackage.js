@@ -15,6 +15,7 @@ const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
 const { semverRe, getVersionFromTag } = require("../utils/semver");
 const logger = require("../utils/log")(module);
+const { removeRelease } = require("./removeRelease");
 
 // Build package with given name.
 const buildPackage = async function(name) {
@@ -65,8 +66,27 @@ const filterRemoteTags = function(remoteTags, gitTagIgnore) {
 
 // Update release records for given remoteTags.
 const updateReleaseRecords = async function(packageName, remoteTags) {
-  let releases = [];
-  for (let remoteTag of remoteTags) {
+  // Remove failed local releases that not listed in remoteTags
+  let releases = await Release.fetchAll(packageName);
+  for (const rel of releases) {
+    if (rel.state == ReleaseState.Failed) {
+      if (!remoteTags.find(x => x.tag == rel.tag && x.commit == rel.commit)) {
+        logger.warn(
+          {
+            pkg: packageName,
+            rel: `${packageName}@${rel.version}`,
+            tag: rel.tag,
+            commit: rel.commit
+          },
+          "remove failed release that not listed in remoteTags"
+        );
+        await removeRelease(packageName, rel.version);
+      }
+    }
+  }
+  // Convert remoteTags to releases
+  releases = [];
+  for (const remoteTag of remoteTags) {
     let version = getVersionFromTag(remoteTag.tag);
     let release = await Release.fetchOne(packageName, version);
     if (!release) {
