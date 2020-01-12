@@ -208,7 +208,13 @@
                 <button class="btn btn-error" @click="onBack">
                   Back
                 </button>
-                <NavLink :item="uploadLink" class="btn btn-primary"></NavLink>
+                <a
+                  :href="uploadLink.link"
+                  class="btn btn-primary"
+                  target="_blank"
+                  @click="onUpload"
+                  >{{ uploadLink.text }}</a
+                >
               </div>
             </div>
           </div>
@@ -293,13 +299,10 @@
                       <div class="timeline-left">
                         <a
                           class="timeline-icon"
-                          :class="{ 'icon-lg': isStepGetYamlFileChecked }"
+                          :class="{ 'icon-lg': isStepCIChecked }"
                           href="#"
                         >
-                          <i
-                            v-if="isStepGetYamlFileChecked"
-                            class="icon icon-check"
-                          ></i>
+                          <i v-if="isStepCIChecked" class="icon icon-check"></i>
                         </a>
                       </div>
                       <div class="timeline-content">
@@ -351,7 +354,8 @@ const apiRepoUrl = "https://api.github.com/repos/";
 
 const SubmitStep = new Enum({
   FillForm: 0,
-  GetYamlFile: 1
+  GetYamlFile: 1,
+  CI: 2
 });
 
 export default {
@@ -417,6 +421,9 @@ export default {
     isStepGetYamlFileChecked() {
       return this.$data.step > SubmitStep.GetYamlFile.value;
     },
+    isStepCIChecked() {
+      return this.$data.step > SubmitStep.CI.value;
+    },
     uploadLink() {
       const qs = querystring.stringify({
         filename: "data/packages/" + this.$data.yamlFilename,
@@ -457,7 +464,7 @@ export default {
         .replace(/\.git$/i, "")
         .replace(/\/$/i, "");
       this.$data.hideOtherFields = true;
-      this.step = SubmitStep.FillForm.value;
+      this.$data.step = SubmitStep.FillForm.value;
     },
     onBranchChange() {
       this.fetchGitTrees();
@@ -466,7 +473,7 @@ export default {
       let repo = this.$data.form.repo.value;
       if (repo) {
         this.$data.isSubmitting = true;
-        this.step = SubmitStep.FillForm.value;
+        this.$data.step = SubmitStep.FillForm.value;
         this.fetchRepoInfo();
         this.fetchBranches();
       }
@@ -479,6 +486,9 @@ export default {
     onBack() {
       this.$data.step = SubmitStep.FillForm;
       this.$data.hideOtherFields = true;
+    },
+    onUpload() {
+      this.$data.step = SubmitStep.CI;
     },
     genYaml() {
       let form = this.$data.form;
@@ -631,7 +641,7 @@ export default {
           throw new Error(
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
           );
-        this.step = SubmitStep.GetYamlFile.value;
+        this.$data.step = SubmitStep.GetYamlFile.value;
         // Guess license id.
         this.guessLicenseId();
         // Generate YAML.
