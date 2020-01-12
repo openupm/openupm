@@ -1,0 +1,14 @@
+name: com.pixelwizards.utilities
+displayName: PixelWizards - Utilities
+description: >-
+  Some Unity utilities (UV tools, resource checker etc) packaged for Unity's
+  Package Manager
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.utilities'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - utility
+hunter: pixelwizards
+gitTagIgnore: ''
