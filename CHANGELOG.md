@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/openupm/openupm/compare/1.0.0...1.1.0) (2020-01-13)
+
+
+### Features
+
+* **website:** collapse blog and chat nav links ([b6f6978](https://github.com/openupm/openupm/commit/b6f6978acb5127558c0ed8ae2d6752b0a2740948))
+
 # 1.0.0 (2020-01-13)
 
 
