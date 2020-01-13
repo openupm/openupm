@@ -1,0 +1,12 @@
+name: com.harryrose.assetdependencygraph
+displayName: Asset Dependency Graph
+description: An Asset Dependency Graph for Unity
+repoUrl: 'https://github.com/Unity-Harry/Unity-AssetDependencyGraph'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: PixelWizards
+gitTagIgnore: ''
