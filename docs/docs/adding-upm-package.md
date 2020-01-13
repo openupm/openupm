@@ -11,7 +11,7 @@ OpenUPM requires the package repository fulfils below criteria
 - The valid UPM structure. At least contains a `package.json` file, can be placed at a sub-folder.
 - An open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
 - Hosting on Github. For now only GitHub repositories are supported, but the generic git support is under consideration.
-- Git tags that are valid semver, with/without the `v` prefix. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either using the GitHub release feature, or CI tools to create git tags.
+- Git tags that are valid semver, with/without the `v` prefix. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) feature, or CI tools to create git tags.
 
 ## Understanding Different Folder Structures of UPM Repositories
 
