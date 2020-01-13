@@ -18,6 +18,7 @@
     "rel:remove": "node ./app/jobs/removeRelease.js",
     "server": "node server.js",
     "server:dev": "nodemon --watch app server.js",
+    "semantic-release": "semantic-release",
     "test": "cross-env NODE_ENV=test mocha"
   },
   "license": "BSD 3-Clause",
@@ -58,7 +59,10 @@
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-social-share": "^0.1.2",
-    "vuepress-plugin-table-of-contents": "^1.1.4"
+    "vuepress-plugin-table-of-contents": "^1.1.4",
+    "semantic-release": "^15.14.0",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18"
   },
   "dependencies": {
     "azure-devops-node-api": "^9.0.1",

@@ -27,6 +27,22 @@ jobs:
     - name: yarn test
       run: yarn test
 
+  release:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master'
+    steps:
+    - uses: actions/checkout@v1
+    - name: Release
+      uses: cycjimmy/semantic-release-action@v2
+      with:
+        extra_plugins: |
+          @semantic-release/changelog@3.0.0
+          @semantic-release/git@7.0.18
+        branch: master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   deploy-upm-api:
     runs-on: ubuntu-latest
     needs: test
