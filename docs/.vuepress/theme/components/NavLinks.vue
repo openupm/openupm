@@ -22,6 +22,10 @@ export default {
 .nav-links
   .nav-item
     .dropdown-wrapper
+      ul.nav-dropdown
+        overflow  hidden
+      li.dropdown-item
+        list-style none
       .dropdown-title
         span
           font-size 0.7rem
