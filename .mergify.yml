@@ -7,7 +7,7 @@ pull_request_rules:
       - -conflict
       - -merged
       - "status-success~=CI"
-      - "title~=^chore\(data\): new package"
+      - "title~=^chore\\(data\\): new package"
 
     actions:
       merge:
