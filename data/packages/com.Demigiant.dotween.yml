@@ -1,0 +1,12 @@
+name: com.Demigiant.dotween
+displayName: dotween
+description: 'A Unity C# animation engine. HOTween v2'
+repoUrl: 'https://github.com/yoshida190/dotween'
+repoBranch: feature/openupm
+parentRepoUrl: 'https://github.com/Demigiant/dotween'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - animation
+hunter: Demigiant
+gitTagIgnore: ''
