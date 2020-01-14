@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/openupm/openupm/compare/1.1.0...1.1.1) (2020-01-14)
+
+
+### Bug Fixes
+
+* **ci:** syntax error for mergify configuration file ([3df6dc4](https://github.com/openupm/openupm/commit/3df6dc443c34a94edb2845b1216b7207e08e3492))
+
 # [1.1.0](https://github.com/openupm/openupm/compare/1.0.0...1.1.0) (2020-01-13)
 
 
