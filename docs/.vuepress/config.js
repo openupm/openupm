@@ -17,7 +17,7 @@ const docSideBar = function() {
     {
       title: "Package Creator Guide",
       collapsable: false,
-      children: ["/docs/adding-badge"]
+      children: ["/docs/adding-badge", "/docs/managing-upm-project"]
     },
     {
       title: "Development Guide",
