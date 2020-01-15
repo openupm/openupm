@@ -1,5 +1,8 @@
 // OpenUPM Package Plugin.
 const _ = require("lodash");
+const fs = require("fs");
+const path = require("path");
+const util = require("util");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 const {
@@ -8,6 +11,8 @@ const {
   loadPackageSync,
   loadPackageNames
 } = require("../../../../app/utils/package");
+
+const readFile = util.promisify(fs.readFile);
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
@@ -93,9 +98,17 @@ module.exports = function(options, context) {
         return _.sortBy(pairs, "count").reverse();
       };
       // Package hunters
-      let hunters = getConstributors("hunter");
-      let owners = getConstributors("owner");
+      const hunters = getConstributors("hunter");
+      const owners = getConstributors("owner");
+      // Backers
+      const backerPath = path.resolve(
+        __dirname,
+        "../../../../data/backers.yml"
+      );
+      const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
+      console.log(backers);
       return {
+        backers,
         packageNames,
         packages,
         packageByNamespace,
@@ -184,6 +197,7 @@ module.exports = function(options, context) {
           title: "Contributors",
           hunters: data.hunters,
           owners: data.owners,
+          backers: data.backers.backers,
           noGlobalSocialShare: true
         })
       };

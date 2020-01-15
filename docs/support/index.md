@@ -28,6 +28,10 @@ If you run a business and are using OpenUPM in a revenue-generating product, it 
 
 If you are an individual user and have enjoyed the productivity of using OpenUPM, consider donating as a sign of appreciation - like buying me coffee once in a while :)
 
+## Sponsors and Backers
+
+See [Contributors](/contributors/)
+
 <style lang="stylus">
 .page-support-openupm
   .fa-certificate

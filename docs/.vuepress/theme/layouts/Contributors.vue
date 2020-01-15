@@ -18,6 +18,21 @@
               </div>
             </div>
           </div>
+          <div v-if="backers.length" class="column col-12">
+            <section id="backers" class="avatar-wall">
+              <h2>Backers</h2>
+              <figure
+                v-for="(profile, index) in backers"
+                :key="index"
+                class="avatar avatar-xl tooltip custom"
+                :data-tooltip="profile.name"
+                :data-initial="profile.abbr"
+              >
+                <img v-if="profile.img" :src="profile.img" alt:="profile.name"
+                />
+              </figure>
+            </section>
+          </div>
           <div class="column col-12">
             <section id="package-hunters" class="avatar-wall">
               <h2>Top Package Hunters</h2>
@@ -65,6 +80,18 @@ const getUserData = function(entry, action) {
   };
 };
 
+const getBackerData = function(entry) {
+  const data = {
+    ...entry
+  };
+  if (entry.githubUser)
+    data.img = `https://github.com/${entry.githubUser}.png?size=128`;
+  const segs = entry.name.split(" ");
+  data.abbr =
+    segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
+  return data;
+};
+
 export default {
   components: { ParentLayout, NavLink },
   data() {
@@ -80,6 +107,9 @@ export default {
       return this.$page.frontmatter.hunters.map(x => {
         return getUserData(x, "hunts");
       });
+    },
+    backers() {
+      return this.$page.frontmatter.backers.map(getBackerData);
     }
   },
   methods: {}
