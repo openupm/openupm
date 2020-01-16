@@ -106,7 +106,6 @@ module.exports = function(options, context) {
         "../../../../data/backers.yml"
       );
       const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
-      console.log(backers);
       return {
         backers,
         packageNames,
