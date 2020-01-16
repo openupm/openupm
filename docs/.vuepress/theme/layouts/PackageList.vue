@@ -122,7 +122,7 @@ export default {
   components: { ParentLayout, NavLink },
   data() {
     return {
-      sort: "name",
+      sort: "date",
       sortList: [
         { text: "Name", slug: "name" },
         { text: "Recently Added", slug: "date" }
