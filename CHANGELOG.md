@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/openupm/openupm/compare/1.2.0...1.3.0) (2020-01-16)
+
+
+### Features
+
+* **website:** add sort option for package list ([e544b5f](https://github.com/openupm/openupm/commit/e544b5fa0c1cfe556fd5257dd667f2b312879b30))
+
 # [1.2.0](https://github.com/openupm/openupm/compare/1.1.1...1.2.0) (2020-01-16)
 
 
