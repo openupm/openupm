@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/openupm/openupm/compare/1.3.0...1.3.1) (2020-01-16)
+
+
+### Bug Fixes
+
+* **website:** package list show recently added package by default ([59450af](https://github.com/openupm/openupm/commit/59450af983e91f7670c0ea5f9e2c44d015ba6b4a))
+
 # [1.3.0](https://github.com/openupm/openupm/compare/1.2.0...1.3.0) (2020-01-16)
 
 
