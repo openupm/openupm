@@ -505,7 +505,8 @@ export default {
         licenseName: form.licenseName.value,
         topics: form.topics.options.filter(x => x.value).map(x => x.slug),
         hunter: form.hunter.value,
-        gitTagIgnore: form.gitTagIgnore.value
+        gitTagIgnore: form.gitTagIgnore.value,
+        createdAt: new Date().getTime()
       };
       return yaml.safeDump(content);
     },
