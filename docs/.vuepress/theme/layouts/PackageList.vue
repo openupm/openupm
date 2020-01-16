@@ -24,7 +24,24 @@
               </div>
             </div>
           </div>
-          <div class="column col-3 col-sm-12">
+          <div class="column col-3 col-sm-12 meta-column">
+            <section class="sort-section">
+              <ul class="menu">
+                <li class="divider" data-content="SORT BY"></li>
+                <li
+                  v-for="item in sortOptions"
+                  :key="item.slug"
+                  class="menu-item"
+                >
+                  <a
+                    :href="item.link"
+                    :class="item.class"
+                    @click.prevent="onSortBtn(item)"
+                    >{{ item.text }}</a
+                  >
+                </li>
+              </ul>
+            </section>
             <section class="topic-section">
               <ul class="menu">
                 <li class="divider" data-content="TOPICS"></li>
@@ -71,10 +88,15 @@
                         </span>
                         <span class="chip">
                           <i class="fa fa-scroll"></i>
-                          {{ pkg.licenseSpdxId || pkg.licenseName }}
+                          {{
+                            pkg.licenseSpdxId || pkg.licenseName || "No License"
+                          }}
                         </span>
                         <span v-if="pkg.parentRepoUrl" class="chip">
                           <i class="fa fa-code-branch"></i>Fork
+                        </span>
+                        <span v-if="$data.sort == 'date'" class="chip">
+                          <i class="fas fa-clock"></i>{{ pkg.createdAtText }}
                         </span>
                       </div>
                     </div>
@@ -91,32 +113,23 @@
 </template>
 
 <script>
+import _ from "lodash";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
+import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { ParentLayout, NavLink },
   data() {
-    return {};
+    return {
+      sort: "name",
+      sortList: [
+        { text: "Name", slug: "name" },
+        { text: "Recently Added", slug: "date" }
+      ]
+    };
   },
   computed: {
-    packages() {
-      return this.$page.frontmatter.packages;
-    },
-    topics() {
-      return this.$page.frontmatter.topics
-        .filter(topic => topic.count > 0)
-        .map(topic => {
-          return {
-            link: topic.link,
-            text: topic.name,
-            class: topic.slug == this.topic.slug ? "active" : ""
-          };
-        });
-    },
-    topic() {
-      return this.$page.frontmatter.topic;
-    },
     addPackageLink() {
       return {
         link: "/packages/add/",
@@ -128,6 +141,63 @@ export default {
         link: "/contributors/",
         text: "Contributors"
       };
+    },
+    packages() {
+      const pkgs = this.$page.frontmatter.packages.map(pkg => {
+        return {
+          ...pkg,
+          createdAtText: util.timeAgoFormat(new Date(pkg.createdAt))
+        };
+      });
+      if (this.$data.sort == "date") {
+        return _.orderBy(pkgs, ["createdAt"], ["desc"]);
+      } else return pkgs;
+    },
+    sortOptions() {
+      return this.$data.sortList.map(x => {
+        return {
+          ...x,
+          link: "",
+          class: x.slug == this.$data.sort ? "active" : ""
+        };
+      });
+    },
+    topic() {
+      return this.$page.frontmatter.topic;
+    },
+    topics() {
+      return this.$page.frontmatter.topics
+        .filter(topic => topic.count > 0)
+        .map(topic => {
+          return {
+            link: topic.link,
+            text: topic.name,
+            class: topic.slug == this.topic.slug ? "active" : ""
+          };
+        });
+    }
+  },
+  watch: {
+    // eslint-disable-next-line no-unused-vars
+    $route(to, from) {
+      this.setSortOption(this.$route.query.sort);
+    }
+  },
+  mounted() {
+    this.setSortOption(this.$route.query.sort);
+  },
+  methods: {
+    onSortBtn(item) {
+      if (item.class == "active") return;
+      this.$router.push({
+        path: this.$route.path,
+        query: { sort: item.slug }
+      });
+    },
+    setSortOption() {
+      const sort = this.$route.query.sort;
+      const choices = this.$data.sortList.map(x => x.slug);
+      if (choices.includes(sort)) this.$data.sort = sort;
     }
   }
 };
@@ -144,8 +214,9 @@ export default {
     .breadcrumb-action-wrap
       padding-top 0.34rem
 
-    .topic-section
-      margin-bottom 1.5rem
+    .meta-column
+      section
+        margin-bottom 1rem
 
     .package-section
       margin-bottom 1.5rem

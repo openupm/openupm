@@ -23,6 +23,8 @@
   },
   "license": "BSD 3-Clause",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
     "@vuepress/plugin-back-to-top": "^1.0.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0",
@@ -49,6 +51,7 @@
     "prettier": "^1.18.2",
     "rewire": "^4.0.1",
     "sass-loader": "^8.0.0",
+    "semantic-release": "^15.14.0",
     "serve": "^11.2.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
@@ -59,10 +62,7 @@
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-social-share": "^0.1.2",
-    "vuepress-plugin-table-of-contents": "^1.1.4",
-    "semantic-release": "^15.14.0",
-    "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/git": "^7.0.18"
+    "vuepress-plugin-table-of-contents": "^1.1.4"
   },
   "dependencies": {
     "azure-devops-node-api": "^9.0.1",
