@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/openupm/openupm/compare/1.1.1...1.2.0) (2020-01-16)
+
+
+### Features
+
+* **website:** add createdAt timestamp to package add form ([80028a9](https://github.com/openupm/openupm/commit/80028a9d9fd65856fec05186231ae6688c72290f))
+
 ## [1.1.1](https://github.com/openupm/openupm/compare/1.1.0...1.1.1) (2020-01-14)
 
 
