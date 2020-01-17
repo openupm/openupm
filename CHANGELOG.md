@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/openupm/openupm/compare/1.3.2...1.4.0) (2020-01-17)
+
+
+### Features
+
+* **website:** recently added packages widget ([31e10f4](https://github.com/openupm/openupm/commit/31e10f4617d87ce8792440dfce4ceeb4d7ab356a))
+
 ## [1.3.2](https://github.com/openupm/openupm/compare/1.3.1...1.3.2) (2020-01-17)
 
 
