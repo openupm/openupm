@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import _ from "lodash";
 import PackageCard from "@theme/components/PackageCard.vue";
 
 export default {
@@ -34,8 +33,7 @@ export default {
   },
   computed: {
     packages() {
-      const pkgs = this.$page.recentPackages;
-      return _.orderBy(pkgs, ["createdAt"], ["desc"]).slice(0, this.count);
+      return this.$page.recentPackages.slice(0, this.count);
     }
   }
 };

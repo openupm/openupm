@@ -1,5 +1,6 @@
 ---
 layout: Home
+pageClass: homepage
 title: Open Source Unity Package Registry (UPM)
 heroText: Open Source Unity Package Registry
 actionText: Guide
@@ -43,8 +44,18 @@ manifest updated, please open unity project to apply changes
 openupm-cli requires [Node.js 12](https://nodejs.org/en/)
 :::
 
-### Recent Packages
+<h3 id="recent-packages">
+  <a href="#recent-packages" aria-hidden="true" class="header-anchor">#</a>
+  Recent Packages
+  <a href="/packages/" class="btn btn-sm btn-show-more">Show more</a>
+</h3>
 
-<PackageRecent />
+<PackageRecent count="6" />
 
 <social-share />
+
+<style lang="stylus">
+.homepage
+  .btn-show-more
+    margin-left 0.5rem
+</style>

@@ -24,7 +24,7 @@ module.exports = function(options, context) {
     async extendPageData($page) {
       const data = await plugin.getData();
       $page.packageCount = data.packageNames.length;
-      $page.recentPackages = data.packages.slice(0, 10);
+      $page.recentPackages = data.recentPackages;
     },
 
     async additionalPages() {
@@ -114,11 +114,18 @@ module.exports = function(options, context) {
           "../../../../data/backers.yml"
         );
         const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
+        // Recent packages
+        const recentPackages = _.orderBy(
+          packages,
+          ["createdAt"],
+          ["desc"]
+        ).slice(0, 10);
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
           packageNames,
           packages,
+          recentPackages,
           packageByNamespace,
           topics,
           topicsWithAll,

@@ -94,6 +94,7 @@ export default {
       text-overflow ellipsis
 
     .chip
+      margin-bottom 0.2rem
       i
         padding-right 0.3rem
 </style>
