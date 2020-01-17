@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/openupm/openupm/compare/1.4.0...1.4.1) (2020-01-17)
+
+
+### Bug Fixes
+
+* **website:** recently added packages widget ordering ([e38c74c](https://github.com/openupm/openupm/commit/e38c74c71c31c9dc2681ab626f55a5bc9f4a95cf))
+* **website:** update package card style ([f891744](https://github.com/openupm/openupm/commit/f891744441b6aa5f76cb5f60d5c2d4d66aba994b))
+
 # [1.4.0](https://github.com/openupm/openupm/compare/1.3.2...1.4.0) (2020-01-17)
 
 
