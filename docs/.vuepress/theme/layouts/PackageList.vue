@@ -59,48 +59,10 @@
                   :key="pkg.id"
                   class="column col-6 col-md-12 tile-wrap"
                 >
-                  <div class="tile bg-gray">
-                    <div class="tile-content">
-                      <h3 class="tile-title">
-                        <NavLink :item="pkg.link" />
-                      </h3>
-                      <p class="tile-subtitle">
-                        {{ pkg.description }}
-                      </p>
-                      <div>
-                        <span class="chip">
-                          <img
-                            :src="pkg.ownerAvatarUrl"
-                            :alt="pkg.owner"
-                            class="avatar avatar-sm"
-                          />
-                          {{ pkg.owner }}
-                        </span>
-                        <span v-if="pkg.parentOwner" class="chip">
-                          <img
-                            v-if="pkg.parentOwnerAvatarUrl"
-                            :src="pkg.parentOwnerAvatarUrl"
-                            :alt="pkg.parentOwner"
-                            class="avatar avatar-sm"
-                          />
-                          <i v-else class="fa fa-user"></i>
-                          {{ pkg.parentOwner }}
-                        </span>
-                        <span class="chip">
-                          <i class="fa fa-scroll"></i>
-                          {{
-                            pkg.licenseSpdxId || pkg.licenseName || "No License"
-                          }}
-                        </span>
-                        <span v-if="pkg.parentRepoUrl" class="chip">
-                          <i class="fa fa-code-branch"></i>Fork
-                        </span>
-                        <span v-if="$data.sort == 'date'" class="chip">
-                          <i class="fas fa-clock"></i>{{ pkg.createdAtText }}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                  <PackageCard
+                    :item="pkg"
+                    :show-created-at="$data.sort == 'date'"
+                  />
                 </div>
               </div>
             </section>
@@ -116,10 +78,10 @@
 import _ from "lodash";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
-import util from "@root/docs/.vuepress/util";
+import PackageCard from "@theme/layouts/PackageCard.vue";
 
 export default {
-  components: { ParentLayout, NavLink },
+  components: { ParentLayout, NavLink, PackageCard },
   data() {
     return {
       sort: "date",
@@ -143,12 +105,7 @@ export default {
       };
     },
     packages() {
-      const pkgs = this.$page.frontmatter.packages.map(pkg => {
-        return {
-          ...pkg,
-          createdAtText: util.timeAgoFormat(new Date(pkg.createdAt))
-        };
-      });
+      const pkgs = this.$page.frontmatter.packages;
       if (this.$data.sort == "date") {
         return _.orderBy(pkgs, ["createdAt"], ["desc"]);
       } else return pkgs;
@@ -220,27 +177,4 @@ export default {
 
     .package-section
       margin-bottom 1.5rem
-
-      .tile-wrap
-        margin-bottom 0.8rem
-
-        .tile
-          padding 0.6rem 0.6rem
-          height 100%
-
-          .tile-subtitle
-            height 3.6rem
-            overflow hidden
-            text-overflow ellipsis
-
-          .chip
-            i
-              padding-right 0.3rem
-
-          h3
-            font-size 0.9rem
-            margin 0 0 0.8rem
-
-          p
-            margin 0 0 0.5rem
 </style>
