@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/openupm/openupm/compare/1.3.1...1.3.2) (2020-01-17)
+
+
+### Bug Fixes
+
+* **ci:** git pull failure ([f07cb02](https://github.com/openupm/openupm/commit/f07cb0224e3b4a871fdcad22d5faf6c5a05b2bcf))
+
 ## [1.3.1](https://github.com/openupm/openupm/compare/1.3.0...1.3.1) (2020-01-16)
 
 
