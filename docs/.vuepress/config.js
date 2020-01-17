@@ -150,6 +150,12 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    [
+      "@vuepress/plugin-register-components",
+      {
+        componentsDir: path.resolve(__dirname, "./theme/components")
+      }
+    ],
     "@vuepress/plugin-back-to-top",
     // ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",

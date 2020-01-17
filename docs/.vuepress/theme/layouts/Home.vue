@@ -73,7 +73,7 @@ export default {
 .home
   .hero
     padding-top 5.5rem
-    padding-bottom 4rem
+    padding-bottom 2rem
 
     .hero-body
       text-align center
@@ -88,10 +88,13 @@ export default {
       margin-right 1rem
 
   .features
-    margin-bottom 4rem
+    margin-bottom 3rem
     h3
       font-size 1.1rem
       color $accentColor
+
+  h3
+    margin-top 2rem
 
   .social-share
     text-align center
@@ -113,6 +116,11 @@ export default {
     .social-share
       margin-bottom 0.4rem
 
+    .package-recent
+      margin-left -1rem
+      margin-right -1rem
+      width calc(100% + 2rem)
+
   .warning.custom-block
-    margin: 0 -1rem
+    margin: 0 -1rem !important
 </style>

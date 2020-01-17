@@ -57,7 +57,7 @@
                 <div
                   v-for="pkg in packages"
                   :key="pkg.id"
-                  class="column col-6 col-md-12 tile-wrap"
+                  class="column col-6 col-md-12"
                 >
                   <PackageCard
                     :item="pkg"
@@ -78,7 +78,7 @@
 import _ from "lodash";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
-import PackageCard from "@theme/layouts/PackageCard.vue";
+import PackageCard from "@theme/components/PackageCard.vue";
 
 export default {
   components: { ParentLayout, NavLink, PackageCard },
