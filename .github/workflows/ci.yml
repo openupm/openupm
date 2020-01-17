@@ -57,6 +57,7 @@ jobs:
       with:
         args: |
             cd /home/openupm/openupm
+            git checkout -- yarn.lock
             git pull
             yarn
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
@@ -75,6 +76,7 @@ jobs:
       with:
         args: |
             cd /home/openupm/openupm
+            git checkout -- yarn.lock
             git pull
             yarn
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
