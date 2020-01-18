@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/openupm/openupm/compare/1.4.1...1.5.0) (2020-01-18)
+
+
+### Bug Fixes
+
+* **website:** homepage vue warning ([29c5946](https://github.com/openupm/openupm/commit/29c594699fbf8868f33b783630e788942f1d341e))
+
+
+### Features
+
+* **website:** change package list to masonry layout ([8625574](https://github.com/openupm/openupm/commit/8625574a2e752f217ceef258511883e74b7be078))
+
 ## [1.4.1](https://github.com/openupm/openupm/compare/1.4.0...1.4.1) (2020-01-17)
 
 
