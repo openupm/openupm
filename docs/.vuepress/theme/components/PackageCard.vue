@@ -88,6 +88,10 @@ export default {
     box-shadow 0 .25rem .5rem rgba(48, 55, 66, .15)
     height 100%
 
+    .card-image
+      img
+        width 100%
+
     .chip
       margin-bottom 0.2rem
       i

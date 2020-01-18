@@ -14,3 +14,4 @@ description: A simple rule based addressable asset importer.
 topics: asset-management
 hunter: favoyang
 createdAt: 1571471262000
+image: https://raw.githubusercontent.com/favoyang/unity-addressable-importer/15f556fd90a2ae9fd4d89946e5e9790d719eef81/Media/icon-512.png
