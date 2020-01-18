@@ -50,7 +50,7 @@ openupm-cli requires [Node.js 12](https://nodejs.org/en/)
   <a href="/packages/" class="btn btn-sm btn-show-more">Show more</a>
 </h3>
 
-<PackageRecent count="6" />
+<PackageRecent :count="6" />
 
 <social-share />
 
