@@ -56,6 +56,7 @@
     "serve": "^11.2.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
+    "vue-masonry-css": "^1.0.3",
     "vue-scrollto": "^2.17.1",
     "vuepress": "^1.2.0",
     "vuepress-plugin-clean-urls": "^1.0.3",

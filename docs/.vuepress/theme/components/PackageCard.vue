@@ -88,11 +88,6 @@ export default {
     box-shadow 0 .25rem .5rem rgba(48, 55, 66, .15)
     height 100%
 
-    .tile-subtitle
-      height 3.6rem
-      overflow hidden
-      text-overflow ellipsis
-
     .chip
       margin-bottom 0.2rem
       i

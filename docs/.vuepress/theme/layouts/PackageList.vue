@@ -53,18 +53,14 @@
           </div>
           <div class="column col-9 col-sm-12">
             <section class="package-section">
-              <div class="columns">
-                <div
-                  v-for="pkg in packages"
-                  :key="pkg.id"
-                  class="column col-6 col-md-12"
-                >
+              <masonry :cols="{ default: 2, 840: 1 }" :gutter="16">
+                <div v-for="pkg in packages" :key="pkg.id">
                   <PackageCard
                     :item="pkg"
                     :show-created-at="$data.sort == 'date'"
                   />
                 </div>
-              </div>
+              </masonry>
             </section>
           </div>
         </div>
