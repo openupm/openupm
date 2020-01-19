@@ -91,6 +91,8 @@ export default {
     .card-image
       img
         width 100%
+        max-height 12rem
+        object-fit cover
 
     .chip
       margin-bottom 0.2rem
