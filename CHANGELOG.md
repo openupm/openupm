@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/openupm/openupm/compare/1.5.0...1.5.1) (2020-01-19)
+
+
+### Bug Fixes
+
+* **website:** crop package card image width ([ea218bb](https://github.com/openupm/openupm/commit/ea218bb45f5dadab0d03ab9b973319bcd14c5613))
+
 # [1.5.0](https://github.com/openupm/openupm/compare/1.4.1...1.5.0) (2020-01-18)
 
 
