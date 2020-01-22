@@ -1,0 +1,14 @@
+name: ga.fuquna.prefsgui
+displayName: PrefsGUI
+description: Accessors and GUIs for persistent preference values using JSON file
+repoUrl: 'https://github.com/fuqunaga/PrefsGUI'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ui
+  - utility
+hunter: fuqunaga
+gitTagIgnore: ''
+createdAt: 1579664560576
