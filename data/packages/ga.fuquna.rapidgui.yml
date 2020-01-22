@@ -1,0 +1,13 @@
+name: ga.fuquna.rapidgui
+displayName: RapidGUI
+description: Unity OnGUI(IMGUI) extensions for Rapid prototyping/development
+repoUrl: 'https://github.com/fuqunaga/RapidGUI'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ui
+hunter: fuqunaga
+gitTagIgnore: ''
+createdAt: 1579662829888
