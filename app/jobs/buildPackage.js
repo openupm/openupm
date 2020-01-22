@@ -44,7 +44,11 @@ const buildPackage = async function(name) {
 // Filter remote tags for non-semver, duplication and ignoration.
 const filterRemoteTags = function(remoteTags, gitTagIgnore) {
   // Filter out non-semver
-  let tags = remoteTags.filter(x => semverRe.test(x.tag));
+  let tags = remoteTags.filter(x => {
+    const segs = x.tag.split("/");
+    const tag = segs.length ? segs[segs.length - 1] : x.tag;
+    return semverRe.test(tag);
+  });
   // Filter out ignoration
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");

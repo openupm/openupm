@@ -32,6 +32,12 @@ describe("app/util/semver.js", function() {
     it("test va.b.c-preview.d", function() {
       assert.equal(getVersionFromTag("v1.0.0-preview.0"), "1.0.0-preview.0");
     });
+    it("test releases/va.b.c-preview.d", function() {
+      assert.equal(
+        getVersionFromTag("releases/v1.0.0-preview.0"),
+        "1.0.0-preview.0"
+      );
+    });
   });
   describe("semverRe", function() {
     it("test a.b.c", function() {

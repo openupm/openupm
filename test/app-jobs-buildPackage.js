@@ -15,7 +15,8 @@ describe("app/jobs/buildPackage.js", function() {
         { tag: "1.0.2", commit: "0000010" },
         { tag: "patch", commit: "0000009" },
         { tag: "1.0.0", commit: "0000008" },
-        { tag: "0.8.0-preview", commit: "0000006" }
+        { tag: "0.8.0-preview", commit: "0000006" },
+        { tag: "releases/0.8.1-preview", commit: "0000005" }
       ]);
       names.should.deepEqual([
         {
@@ -29,6 +30,10 @@ describe("app/jobs/buildPackage.js", function() {
         {
           commit: "0000006",
           tag: "0.8.0-preview"
+        },
+        {
+          commit: "0000005",
+          tag: "releases/0.8.1-preview"
         }
       ]);
     });
