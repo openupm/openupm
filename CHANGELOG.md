@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/openupm/openupm/compare/1.5.1...1.5.2) (2020-01-22)
+
+
+### Bug Fixes
+
+* **pipelines:** treat label/semver as valid semver tag ([298ff08](https://github.com/openupm/openupm/commit/298ff08de075b046f31c8c5558967a74575e9021))
+
 ## [1.5.1](https://github.com/openupm/openupm/compare/1.5.0...1.5.1) (2020-01-19)
 
 
