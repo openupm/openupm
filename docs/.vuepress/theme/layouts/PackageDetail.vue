@@ -285,18 +285,10 @@ import marked from "marked";
 import { noCase } from "change-case";
 import urljoin from "url-join";
 
-import util from "@root/docs/.vuepress/util";
-import { ReleaseState, ReleaseReason } from "@root/app/models/common";
-import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
-
-const apiRepoUrl = "https://api.github.com/repos/";
-
-const apiPackageUrl = urljoin(util.apiUrl, "/packages/");
-
-const openupmCliRepoUrl = "https://github.com/openupm/openupm-cli#openupm-cli";
-
-const openupmRepoUrl = "https://github.com/openupm/openupm";
+import ParentLayout from "@theme/layouts/Layout.vue";
+import { ReleaseState, ReleaseReason } from "@root/app/models/common";
+import util from "@root/docs/.vuepress/util";
 
 const defaultData = function() {
   return {
@@ -471,7 +463,7 @@ export default {
     editNavLink() {
       return {
         link: urljoin(
-          openupmRepoUrl,
+          util.openupmRepoUrl,
           "/blob/master/data/packages",
           this.$package.name + ".yml"
         ),
@@ -480,7 +472,7 @@ export default {
     },
     openupmCliRepoLink() {
       return {
-        link: openupmCliRepoUrl,
+        link: util.openupmCliRepoUrl,
         text: "openupm-cli"
       };
     },
@@ -513,7 +505,7 @@ export default {
       const title = "# " + this.packageName + "\n";
       try {
         let resp = await axios.get(
-          urljoin(apiRepoUrl, this.$package.repo, "readme"),
+          urljoin(util.githubReposApiUrl, this.$package.repo, "readme"),
           { headers: { Accept: "application/vnd.github.v3.raw" } }
         );
         let readmeRaw = resp.data;
@@ -538,9 +530,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     async fetchRepoInfo() {
       try {
-        let resp = await axios.get(urljoin(apiRepoUrl, this.$package.repo), {
-          headers: { Accept: "application/vnd.github.v3.json" }
-        });
+        let resp = await axios.get(
+          urljoin(util.githubReposApiUrl, this.$package.repo),
+          {
+            headers: { Accept: "application/vnd.github.v3.json" }
+          }
+        );
         this.$data.repoInfo = resp.data;
       } catch (error) {
         console.error(error);
@@ -549,7 +544,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     async fetchRepoTagsInfo() {
       try {
         let resp = await axios.get(
-          urljoin(apiRepoUrl, this.$package.repo, "tags"),
+          urljoin(util.githubReposApiUrl, this.$package.repo, "tags"),
           {
             headers: { Accept: "application/vnd.github.v3.json" }
           }
@@ -561,9 +556,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     async fetchPackageInfo() {
       try {
-        let resp = await axios.get(urljoin(apiPackageUrl, this.$package.name), {
-          headers: { Accept: "application/json" }
-        });
+        let resp = await axios.get(
+          urljoin(util.openupmPackagesApiUrl, this.$package.name),
+          {
+            headers: { Accept: "application/json" }
+          }
+        );
         this.$data.packageInfo = resp.data;
       } catch (error) {
         console.error(error);

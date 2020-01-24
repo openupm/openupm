@@ -347,10 +347,9 @@ import spdx from "spdx-license-list";
 import urljoin from "url-join";
 import yaml from "js-yaml";
 
-import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
-
-const apiRepoUrl = "https://api.github.com/repos/";
+import ParentLayout from "@theme/layouts/Layout.vue";
+import util from "@root/docs/.vuepress/util";
 
 const SubmitStep = new Enum({
   FillForm: 0,
@@ -365,16 +364,15 @@ export default {
       isSubmitting: false,
       step: 0,
       form: {
-        repo: {
-          error: "",
-          value: ""
-        },
         branch: {
           error: "",
           value: ""
         },
-        packageJson: {
-          prompt: "",
+        gitTagIgnore: {
+          error: "",
+          value: ""
+        },
+        hunter: {
           error: "",
           value: ""
         },
@@ -386,17 +384,18 @@ export default {
           error: "",
           value: ""
         },
+        packageJson: {
+          prompt: "",
+          error: "",
+          value: ""
+        },
+        repo: {
+          error: "",
+          value: ""
+        },
         topics: {
           error: "",
           options: []
-        },
-        hunter: {
-          error: "",
-          value: ""
-        },
-        gitTagIgnore: {
-          error: "",
-          value: ""
         }
       },
       hideOtherFields: true,
@@ -530,9 +529,12 @@ export default {
         // Clean error message.
         this.resetFormError();
         // Fetch.
-        let resp = await axios.get(urljoin(apiRepoUrl, this.form.repo.value), {
-          headers: { Accept: "application/vnd.github.v3.json" }
-        });
+        let resp = await axios.get(
+          urljoin(util.githubReposApiUrl, this.form.repo.value),
+          {
+            headers: { Accept: "application/vnd.github.v3.json" }
+          }
+        );
         // Show all fields.
         this.$data.hideOtherFields = false;
         // Assign data.
@@ -563,7 +565,7 @@ export default {
         this.$data.form.branch.error = "";
         // Fetch.
         let resp = await axios.get(
-          urljoin(apiRepoUrl, this.form.repo.value, "branches"),
+          urljoin(util.githubReposApiUrl, this.form.repo.value, "branches"),
           {
             headers: { Accept: "application/vnd.github.v3.json" }
           }
@@ -588,7 +590,7 @@ export default {
         this.$data.form.packageJson.error = "";
         // Fetch.
         const url = urljoin(
-          apiRepoUrl,
+          util.githubReposApiUrl,
           this.form.repo.value,
           "git/trees",
           this.form.branch.value
@@ -622,7 +624,7 @@ export default {
         this.$data.form.packageJson.error = "";
         // Fetch.
         let url = urljoin(
-          apiRepoUrl,
+          util.githubReposApiUrl,
           this.form.repo.value,
           "contents",
           this.form.packageJson.value,
