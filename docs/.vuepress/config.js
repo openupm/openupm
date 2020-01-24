@@ -104,7 +104,7 @@ module.exports = {
     repo: "https://github.com/openupm/openupm",
     editLinks: true,
     docsDir: "docs",
-    lastUpdated: true,
+    lastUpdated: false,
     smoothScroll: true,
     logo: "/images/openupm-icon-128.png",
     nav: [
