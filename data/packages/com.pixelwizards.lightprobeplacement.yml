@@ -1,0 +1,15 @@
+name: com.pixelwizards.lightprobeplacement
+displayName: PixelWizards - Light Probe Placement Tools
+description: >-
+  Package Manager wrapper for LightProbe placer from here: 
+  https://github.com/AlexanderVorobyov/simple-light-probe-placer
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor
+hunter: PixelWizards
+gitTagIgnore: ''
+createdAt: 1579940016493
