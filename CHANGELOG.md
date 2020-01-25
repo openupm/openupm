@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/openupm/openupm/compare/1.5.2...1.6.0) (2020-01-25)
+
+
+### Features
+
+* **website:** add asterisk for required fields ([4cc8058](https://github.com/openupm/openupm/commit/4cc80584d0e203527d19127081bddea5388e4c41))
+* **website:** select featured image when adding packages ([d6a742d](https://github.com/openupm/openupm/commit/d6a742d9c023c488f8b1113e1ee1d66a45e212c3))
+
 ## [1.5.2](https://github.com/openupm/openupm/compare/1.5.1...1.5.2) (2020-01-22)
 
 
