@@ -27,7 +27,7 @@
                   class="form-group column col-12"
                   :class="{ 'has-error': form.repo.error }"
                 >
-                  <label class="form-label">Repository</label>
+                  <label class="form-label required">Repository</label>
                   <div class="input-group">
                     <span class="input-group-addon">github.com/</span>
                     <input
@@ -56,7 +56,7 @@
                     'has-error': form.branch.error
                   }"
                 >
-                  <label class="form-label">Branch</label>
+                  <label class="form-label required">Branch</label>
                   <select
                     v-model="form.branch.value"
                     class="form-select"
@@ -86,7 +86,9 @@
                     'has-error': form.packageJson.error
                   }"
                 >
-                  <label class="form-label">Path of package.json</label>
+                  <label class="form-label required">
+                    Path of package.json
+                  </label>
                   <select
                     v-model="form.packageJson.value"
                     class="form-select"
