@@ -522,7 +522,6 @@ export default {
       else this.$data.form.image.value = null;
     },
     onVerifyClick() {
-      console.log("onVerifyClick");
       this.$data.isSubmitting = true;
       this.fetchPackageInfo();
     },
@@ -611,7 +610,7 @@ export default {
         // Fetch.
         let resp = await axios.get(
           util.githubSearchCodeApiUrl +
-            `?q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.repo.value}`,
+            `?sort=indexed&q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.repo.value}`,
           {
             headers: { Accept: "application/vnd.github.v3.json" }
           }
@@ -696,7 +695,6 @@ export default {
           this.form.packageJson.value,
           "?ref=" + this.$data.form.branch.value
         );
-        console.log(`fetchPackageInfo: ${url}`);
         let resp = await axios.get(url, {
           headers: { Accept: "application/vnd.github.v3.json" }
         });
