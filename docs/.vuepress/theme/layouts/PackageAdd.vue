@@ -82,7 +82,7 @@
                   id="packageJson"
                   class="form-group column col-12"
                   :class="{
-                    hide: hideOtherFields || !$data.form.branch.value,
+                    hide: hideOtherFields || !form.branch.value,
                     'has-error': form.packageJson.error
                   }"
                 >
@@ -172,6 +172,37 @@
                 </div>
                 <div
                   class="form-group column col-12"
+                  :class="{
+                    hide: hideOtherFields,
+                    'has-error': form.image.error
+                  }"
+                >
+                  <label v-if="repoImages.length" class="form-label"
+                    >Featured image</label
+                  >
+                  <div v-if="repoImages.length" class="columns pkg-img-columns">
+                    <div
+                      v-for="item in repoImages"
+                      :key="item"
+                      class="column col-3"
+                    >
+                      <div
+                        :class="{
+                          'pkg-img-wrap': true,
+                          selected: form.image.value == item
+                        }"
+                        @click="onSelectImage(item)"
+                      >
+                        <img :src="item" class="img-responsive pkg-img" />
+                      </div>
+                    </div>
+                  </div>
+                  <span v-if="form.image.error" class="form-input-hint">
+                    {{ form.image.error }}
+                  </span>
+                </div>
+                <div
+                  class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
                   <label class="form-label">Discovered by</label>
@@ -199,7 +230,7 @@
               </div>
             </fieldset>
             <div v-else>
-              <h6>Package name: {{ this.$data.packageInfo.name }}</h6>
+              <h6>Package name: {{ packageInfo.name }}</h6>
               <h6>Meta data:</h6>
               <pre class="code file-content" data-lang="yaml">
                 <code>{{ yaml }}</code>
@@ -384,6 +415,10 @@ export default {
           error: "",
           value: ""
         },
+        image: {
+          error: "",
+          value: null
+        },
         packageJson: {
           prompt: "",
           error: "",
@@ -400,6 +435,7 @@ export default {
       },
       hideOtherFields: true,
       repoInfo: {},
+      repoImages: [],
       packageJsonPaths: {},
       packageInfo: {},
       branches: [],
@@ -475,7 +511,13 @@ export default {
         this.$data.step = SubmitStep.FillForm.value;
         this.fetchRepoInfo();
         this.fetchBranches();
+        this.fetchRepoImage();
       }
+    },
+    onSelectImage(item) {
+      if (this.$data.form.image.value != item)
+        this.$data.form.image.value = item;
+      else this.$data.form.image.value = null;
     },
     onVerifyClick() {
       console.log("onVerifyClick");
@@ -505,6 +547,7 @@ export default {
         topics: form.topics.options.filter(x => x.value).map(x => x.slug),
         hunter: form.hunter.value,
         gitTagIgnore: form.gitTagIgnore.value,
+        image: form.image.value,
         createdAt: new Date().getTime()
       };
       return yaml.safeDump(content);
@@ -559,6 +602,28 @@ export default {
         this.$data.isSubmitting = false;
       }
     },
+    async fetchRepoImage() {
+      try {
+        // Clean error message.
+        this.$data.form.image.error = "";
+        // Fetch.
+        let resp = await axios.get(
+          util.githubSearchCodeApiUrl +
+            `?q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.repo.value}`,
+          {
+            headers: { Accept: "application/vnd.github.v3.json" }
+          }
+        );
+        // Assign data.
+        const repoImages =
+          resp.data && resp.data.items
+            ? resp.data.items.map(x => util.getGitHubRawUrl(x.html_url))
+            : [];
+        this.$data.repoImages = repoImages.slice(0, 100);
+      } catch (error) {
+        this.$data.form.image.error = error.message;
+      }
+    },
     async fetchBranches() {
       try {
         // Clean error message.
@@ -596,7 +661,6 @@ export default {
           this.form.branch.value
         );
         this.$data.form.packageJson.prompt = "Loading package.json path...";
-        console.log(`fetchGitTrees: ${url}`);
         const resp = await axios.get(url, {
           params: { recursive: 1 },
           headers: { Accept: "application/vnd.github.v3.json" }
@@ -639,7 +703,7 @@ export default {
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
         if (this.$page.frontmatter.packageNames.includes(packageName))
-          throw new Error(`Package ${packageName} already exists`);
+          throw new Error(`The package ${packageName} already exists`);
         if (packageName.includes("@"))
           throw new Error(
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
@@ -673,6 +737,25 @@ export default {
     // #select-repo-source
     //   flex 0 1
 
+    .pkg-img-columns
+      padding-top 0.6rem
+      .pkg-img-wrap
+        position relative
+        overflow hidden
+        padding-bottom 100%
+        border 2px solid white
+        &.selected
+          border-color $accentColor
+        &:hover
+          cursor pointer
+        .pkg-img
+          position  absolute
+          max-width  100%
+          max-height  100%
+          top  50%
+          left  50%
+          transform  translateX(-50%) translateY(-50%)
+
     .theme-default-content
       max-width auto
       margin 0
@@ -687,6 +770,7 @@ export default {
       .timeline-content
         ol
           list-style decimal outside
+
     .tile-title
       font-weight bold
 </style>

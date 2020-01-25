@@ -10,7 +10,7 @@ const timeAgo = new TimeAgo("en-US");
 
 const httpRe = /^https?:\/\//i;
 
-const _urlOptions = {
+const _urlUtils = {
   // OpenUPM API URL
   openupmApiUrl:
     process.env.NODE_ENV === "development"
@@ -18,11 +18,14 @@ const _urlOptions = {
       : "https://api.openupm.com",
 
   get openupmPackagesApiUrl() {
-    return urljoin(_urlOptions.openupmApiUrl, "/packages/");
+    return urljoin(_urlUtils.openupmApiUrl, "/packages/");
   },
 
   // GitHub repository API URL
   githubReposApiUrl: "https://api.github.com/repos/",
+
+  // GitHub search code API URL
+  githubSearchCodeApiUrl: "https://api.github.com/search/code",
 
   // Return Azure web build URL by buildId
   getAzureWebBuildUrl: function(buildId) {
@@ -32,6 +35,17 @@ const _urlOptions = {
     );
   },
 
+  // Convert GitHub html URL to raw URL
+  getGitHubRawUrl: function(url) {
+    url = url
+      .replace(
+        /https?:\/\/github\.com\//i,
+        "https://raw.githubusercontent.com/"
+      )
+      .replace(/\/blob\//, "/");
+    return url;
+  },
+
   // OpenUPM-CLI repository URL
   openupmCliRepoUrl: "https://github.com/openupm/openupm-cli#openupm-cli",
 
@@ -39,7 +53,7 @@ const _urlOptions = {
   openupmRepoUrl: "https://github.com/openupm/openupm"
 };
 
-const _markedOptions = {
+const _markedUtils = {
   // Get customized marked renderer.
   markedRenderer: function(option) {
     const renderer = new marked.Renderer();
@@ -60,7 +74,7 @@ const _markedOptions = {
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
       } else if (httpBlobRe.test(href)) {
-        href = href.replace("/blob/", "/raw/");
+        href = _urlUtils.getGitHubRawUrl(href);
       }
       return originalRendererImage(href, title, text);
     };
@@ -79,7 +93,7 @@ const _markedOptions = {
   }
 };
 
-const _timeOptions = {
+const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
     return timeAgo.format(date);
@@ -87,7 +101,7 @@ const _timeOptions = {
 };
 
 export default {
-  ..._urlOptions,
-  ..._markedOptions,
-  ..._timeOptions
+  ..._urlUtils,
+  ..._markedUtils,
+  ..._timeUtils
 };
