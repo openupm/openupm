@@ -17,6 +17,11 @@
               </li>
             </ul>
           </div>
+          <div class="column col-8 col-sm-12 topics-wrap">
+            <a v-for="item in $topics" :key="item" :href="item.link"
+              ><span class="label label-rounded"> {{ item.name }}</span></a
+            >
+          </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
               <div v-if="$data.readmeRaw" class="readme-wrap">
@@ -311,6 +316,9 @@ export default {
     $relatedPackages() {
       return this.$page.frontmatter.relatedPackages;
     },
+    $topics() {
+      return this.$page.frontmatter.topics;
+    },
     packageName() {
       return this.$package.displayName || this.$package.name;
     },
@@ -584,6 +592,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 .package-detail
   .main-container
     margin-top 1rem
+
+    .topics-wrap
+      margin-bottom 0.8rem
+      .label
+        font-size 0.7rem
+        margin-right 0.3rem
 
     .readme-wrap
       margin-bottom 2rem

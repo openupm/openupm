@@ -172,7 +172,14 @@ module.exports = function(options, context) {
           package: pkg,
           relatedPackages: data.packageByNamespace[
             getNamespace(pkg.name)
-          ].filter(x => x.name != pkg.name)
+          ].filter(x => x.name != pkg.name),
+          topics: (pkg.topics || [])
+            .map(x => {
+              const topic = data.topics.find(t => t.slug == x);
+              if (topic) return topic;
+              else return null;
+            })
+            .filter(x => x)
         };
         pages.push({
           path: "/packages/" + pkg.name + "/",
