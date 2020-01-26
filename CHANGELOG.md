@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/openupm/openupm/compare/1.6.0...1.7.0) (2020-01-26)
+
+
+### Features
+
+* **website:** show package topics on detail pages ([79c37a4](https://github.com/openupm/openupm/commit/79c37a4e02b01701666e4fb93cca1bdd792bcc99))
+
 # [1.6.0](https://github.com/openupm/openupm/compare/1.5.2...1.6.0) (2020-01-25)
 
 
