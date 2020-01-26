@@ -11,7 +11,8 @@ displayName: Compile Time Tracker
 description: Unity editor extension which tracks compile time.
 
 # Add-ons.
-topics: utility
+topics:
+  - utility
 hunter: favoyang
 createdAt: 1571471262000
 image: https://raw.githubusercontent.com/DarrenTsung/DTCompileTimeTracker/79f2e4dae950bdb6498d7d6a7847057170b8b65c/img/WindowScreenshot.png
