@@ -1,0 +1,18 @@
+name: com.alelievr.node-graph-processor
+displayName: Node Graph Processor
+description: >-
+  Node graph editor framework focused on data processing using Unity UIElements
+  and C# 4.6
+repoUrl: 'https://github.com/alelievr/NodeGraphProcessor'
+repoBranch: upm
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor
+  - framework
+  - utility
+hunter: alelievr
+gitTagIgnore: ''
+image: null
+createdAt: 1580127761233
