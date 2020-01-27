@@ -174,7 +174,7 @@
                         No tags found in <NavLink :item="tagsNavLink" />. Please
                         checkout docs
                         <a
-                          href="/docs/adding-upm-package.html#handling-repository-without-releases"
+                          href="/docs/adding-upm-package.html#handling-the-repository-without-git-tags"
                         >
                           handling repository without releases.
                         </a>
