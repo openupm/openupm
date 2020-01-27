@@ -1,0 +1,16 @@
+name: com.rfadeev.unityforge.animcallbacks
+displayName: Unity Forge Anim Callbacks
+description: >-
+  Runtime callbacks for Unity animation clips used in Animator and Animation
+  components.
+repoUrl: 'https://github.com/rfadeev/unity-forge-anim-callbacks'
+repoBranch: master
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: rfadeev
+gitTagIgnore: ''
+image: null
+createdAt: 1580130173427
