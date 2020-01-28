@@ -4,7 +4,7 @@ description: >-
   Runtime callbacks for Unity animation clips used in Animator and Animation
   components.
 repoUrl: 'https://github.com/rfadeev/unity-forge-anim-callbacks'
-repoBranch: master
+repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
