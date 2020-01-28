@@ -2,7 +2,6 @@ name: com.namespace.unitypackageexample-subtree
 displayName: Unity Package Example Subtree
 description: null
 repoUrl: 'https://github.com/favoyang/unity-package-example-subtree'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

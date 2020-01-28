@@ -2,7 +2,6 @@ name: net.peeweek.console
 displayName: Console
 description: An interactive runtime console for unity available as package
 repoUrl: 'https://github.com/peeweek/net.peeweek.console'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT

@@ -4,7 +4,6 @@ description: >-
   A simple framework for unity using the ECS paradigm but with unirx for fully
   reactive systems.
 repoUrl: 'https://github.com/starikcetin/ecsrx.unity'
-repoBranch: upm
 parentRepoUrl: 'https://github.com/EcsRx/ecsrx.unity'
 licenseSpdxId: MIT
 licenseName: MIT License

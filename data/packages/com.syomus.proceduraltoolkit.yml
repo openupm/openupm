@@ -2,7 +2,6 @@ name: com.syomus.proceduraltoolkit
 displayName: Procedural Toolkit
 description: Procedural generation library for Unity
 repoUrl: 'https://github.com/Syomus/ProceduralToolkit'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

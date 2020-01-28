@@ -2,7 +2,6 @@ name: com.e7.ecs.line-renderer
 displayName: ECS Line Renderer
 description: ECS approach to render a line.
 repoUrl: 'https://github.com/5argon/ECSLineRenderer'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

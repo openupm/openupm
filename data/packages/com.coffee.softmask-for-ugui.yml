@@ -2,7 +2,6 @@ name: com.coffee.softmask-for-ugui
 displayName: Soft Mask For uGUI
 description: Soft masking for uGUI elements in Unity.
 repoUrl: 'https://github.com/mob-sakai/SoftMaskForUGUI'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

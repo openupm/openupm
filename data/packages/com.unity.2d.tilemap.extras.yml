@@ -2,7 +2,6 @@ name: com.unity.2d.tilemap.extras
 displayName: Tilemap Extras
 description: Fun 2D Stuff that we'd like to share!
 repoUrl: 'https://github.com/Unity-Technologies/2d-extras'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion Package License v1.0

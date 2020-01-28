@@ -4,7 +4,6 @@ description: >-
   Unity3D editor tool to speed up scene switching and playtesting when you are
   working with multiple scenes.
 repoUrl: 'https://github.com/starikcetin/Quick-Play-Tool'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

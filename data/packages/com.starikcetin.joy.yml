@@ -4,7 +4,6 @@ description: >-
   ECS framework for Unity3D game engine that uses MonoBehaviours as components
   and GameObjects as entities.
 repoUrl: 'https://github.com/starikcetin/joy'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

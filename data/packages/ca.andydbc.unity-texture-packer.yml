@@ -4,7 +4,6 @@ description: >-
   :hammer: Utility to combine color channels from different textures into a
   single output.
 repoUrl: 'https://github.com/andydbc/unity-texture-packer'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT

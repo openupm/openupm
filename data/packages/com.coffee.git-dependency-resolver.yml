@@ -4,7 +4,6 @@ description: >-
   This plugin resolves git url dependencies in the package for Unity Package
   Manager. You can use a git url as a package dependency!
 repoUrl: 'https://github.com/mob-sakai/GitDependencyResolverForUnity'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

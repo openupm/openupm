@@ -2,7 +2,6 @@ name: com.mambojambostudios.unity-atoms-mono-hooks
 displayName: Unity Atoms Mono Hooks
 description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
 repoUrl: 'https://github.com/AdamRamberg/unity-atoms'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

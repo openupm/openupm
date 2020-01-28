@@ -2,7 +2,6 @@ name: com.apollo.servicelocator
 displayName: Service Locator Utility
 description: null
 repoUrl: 'https://github.com/hajimeku/ServiceLocator'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

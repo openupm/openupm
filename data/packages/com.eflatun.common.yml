@@ -4,7 +4,6 @@ description: >-
   Common utilities for Unity and C#. It mostly consists of useful extension
   methods.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Common'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,7 +2,6 @@ name: com.mirrorng.mirrorng
 displayName: MirrorNG
 description: A community replacement for Unity's abandoned UNET Networking System.
 repoUrl: 'https://github.com/MirrorNG/MirrorNG'
-repoBranch: upm
 parentRepoUrl: 'https://github.com/vis2k/Mirror'
 licenseSpdxId: MIT
 licenseName: MIT License

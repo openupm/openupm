@@ -2,7 +2,6 @@ name: com.devlab.jmespath
 displayName: JmesPath.net
 description: jmespath.net as UPM
 repoUrl: 'https://github.com/grownith/jmespath.upm'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

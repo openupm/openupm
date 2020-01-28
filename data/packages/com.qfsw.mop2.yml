@@ -4,7 +4,6 @@ description: >-
   Master Object Pooler 2 is a high performance, flexible and easy to use object
   pooling solution that can fit into any Unity project
 repoUrl: 'https://github.com/QFSW/MasterObjectPooler2'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

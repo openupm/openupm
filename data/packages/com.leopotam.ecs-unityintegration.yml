@@ -2,7 +2,6 @@ name: com.leopotam.ecs-unityintegration
 displayName: LeoECS Unity Integration
 description: UnityEditor integration for LeoECS Entity Component System framework.
 repoUrl: 'https://github.com/Leopotam/ecs-unityintegration'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

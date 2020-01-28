@@ -4,7 +4,6 @@ description: >-
   Geographical (latitude, longitude) projection and calculation library for
   Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.GeoUnity'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

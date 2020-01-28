@@ -2,7 +2,6 @@ name: com.supyrb.signals
 displayName: "Signals"
 description: 'A typesafe, lightweight messaging system for Unity with UPM Support.'
 repoUrl: 'https://github.com/supyrb/signals'
-repoBranch: master
 parentRepoUrl: 'https://github.com/yankooliveira/signals'
 licenseSpdxId: MIT
 licenseName: MIT License

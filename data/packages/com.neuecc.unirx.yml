@@ -2,7 +2,6 @@ name: com.neuecc.unirx
 displayName: UniRx
 description: Reactive Extensions for Unity
 repoUrl: 'https://github.com/starikcetin/UniRx'
-repoBranch: master
 parentRepoUrl: 'https://github.com/neuecc/UniRx'
 licenseSpdxId: MIT
 licenseName: MIT License

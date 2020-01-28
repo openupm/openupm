@@ -2,7 +2,6 @@ name: com.coffee.unmask
 displayName: Unmask for uGUI
 description: Reverse mask for uGUI element in Unity.
 repoUrl: 'https://github.com/mob-sakai/UnmaskForUGUI'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

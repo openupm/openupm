@@ -2,7 +2,6 @@ name: com.unity.uiextensions
 displayName: Unity UI Extensions
 description: pulling daily from bitbucket repo
 repoUrl: 'https://github.com/JohannesDeml/unity-ui-extensions'
-repoBranch: master
 parentRepoUrl: 'https://bitbucket.org/UnityUIExtensions/unity-ui-extensions'
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause

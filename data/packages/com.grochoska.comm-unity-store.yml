@@ -4,7 +4,6 @@ description: >-
   CommUnity Store is a tool to help developers to find the best open source
   packages and import them right into the project.
 repoUrl: 'https://github.com/RafaelGrochoska/CommUnityStore'
-repoBranch: upm
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

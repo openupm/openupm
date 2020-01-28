@@ -5,7 +5,6 @@ description: >-
   2018.2 or later. The particle rendering is maskable and sortable, without
   Camera, RenderTexture or Canvas.
 repoUrl: 'https://github.com/mob-sakai/ParticleEffectForUGUI'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

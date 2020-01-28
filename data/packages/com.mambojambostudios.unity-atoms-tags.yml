@@ -2,7 +2,6 @@ name: com.mambojambostudios.unity-atoms-tags
 displayName: Unity Atoms Tags
 description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
 repoUrl: 'https://github.com/AdamRamberg/unity-atoms'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

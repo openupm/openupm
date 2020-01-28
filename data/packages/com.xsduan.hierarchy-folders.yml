@@ -2,7 +2,6 @@ name: com.xsduan.hierarchy-folders
 displayName: Heirarchy Folders
 description: Specialized folder objects for Unity Hierarchy.
 repoUrl: 'https://github.com/xsduan/unity-hierarchy-folders'
-repoBranch: master
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
