@@ -18,7 +18,7 @@
             </ul>
           </div>
           <div class="column col-8 col-sm-12 topics-wrap">
-            <a v-for="item in $topics" :key="item" :href="item.link"
+            <a v-for="item in $topics" :key="item.slug" :href="item.link"
               ><span class="label label-rounded"> {{ item.name }}</span></a
             >
           </div>
