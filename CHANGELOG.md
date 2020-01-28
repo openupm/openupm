@@ -1,3 +1,11 @@
+## [1.8.1](https://github.com/openupm/openupm/compare/1.8.0...1.8.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* **website:** package detail page vue warning ([c44555e](https://github.com/openupm/openupm/commit/c44555e587a6ea492099b1e62dacf641416a2bb2))
+* **website:** rollback getGitHubRawUrl to work with LFS ([6fc7823](https://github.com/openupm/openupm/commit/6fc7823e2e9c3ce82b7ea928bbbe4cb1ae2bd8d3))
+
 # [1.8.0](https://github.com/openupm/openupm/compare/1.7.0...1.8.0) (2020-01-28)
 
 
