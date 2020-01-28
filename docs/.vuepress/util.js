@@ -9,6 +9,7 @@ TimeAgo.addLocale(en);
 const timeAgo = new TimeAgo("en-US");
 
 const httpRe = /^https?:\/\//i;
+const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
 
 const _urlUtils = {
   // OpenUPM API URL
@@ -35,14 +36,9 @@ const _urlUtils = {
     );
   },
 
-  // Convert GitHub html URL to raw URL
+  // Convert to GitHub raw URL
   getGitHubRawUrl: function(url) {
-    url = url
-      .replace(
-        /https?:\/\/github\.com\//i,
-        "https://raw.githubusercontent.com/"
-      )
-      .replace(/\/blob\//, "/");
+    if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
     return url;
   },
 
@@ -59,7 +55,6 @@ const _markedUtils = {
     const renderer = new marked.Renderer();
     const originalRendererLink = renderer.link.bind(renderer);
     const originalRendererImage = renderer.image.bind(renderer);
-    const httpBlobRe = /^https?:\/\/github\.com\/.*\/blob\//i;
 
     renderer.link = (href, title, text) => {
       if (option.linkBaseUrl && !httpRe.test(href)) {
@@ -73,7 +68,7 @@ const _markedUtils = {
     renderer.image = (href, title, text) => {
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
-      } else if (httpBlobRe.test(href)) {
+      } else {
         href = _urlUtils.getGitHubRawUrl(href);
       }
       return originalRendererImage(href, title, text);
