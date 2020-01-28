@@ -22,7 +22,6 @@ describe("data/packages", async function() {
         // Check required
         should.exist(pkg, "yaml format should be valid");
         should.exist(pkg.repoUrl, "repoUrl is required");
-        should.exist(pkg.repoBranch, "repoBranch is required");
         should.exist(pkg.name, "name is required");
         should.equal(
           pkg.name,

@@ -541,7 +541,6 @@ export default {
         displayName: packageInfo.displayName || "",
         description: repoInfo.description,
         repoUrl: repoInfo.html_url,
-        repoBranch: form.branch.value,
         parentRepoUrl: repoInfo.parent ? repoInfo.parent.html_url : null,
         licenseSpdxId: form.licenseId.value,
         licenseName: form.licenseName.value,

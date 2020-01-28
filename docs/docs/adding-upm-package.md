@@ -46,8 +46,6 @@ displayName: Unity Package Example
 description: An unity package example
 # repository url
 repoUrl: 'https://github.com/favoyang/unity-package-example'
-# repository branch
-repoBranch: master
 # forked repository url
 parentRepoUrl: null
 # spdx license id
@@ -57,6 +55,8 @@ licenseName: MIT License
 # list of topic slugs
 topics:
   - utility
+# featured image
+image: 'https://github.com/favoyang/unity-package-example/raw/master/Assets/Plugins/UnityPackageExample/main.png'
 # package hunter name (github username)
 hunter: favoyang
 # excluded from package list
