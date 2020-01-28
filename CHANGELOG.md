@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/openupm/openupm/compare/1.7.0...1.8.0) (2020-01-28)
+
+
+### Features
+
+* **website:** retired repoBranch field of package yaml ([289af62](https://github.com/openupm/openupm/commit/289af626e58adce5b2d1e6a1c92dc176262ef465))
+
 # [1.7.0](https://github.com/openupm/openupm/compare/1.6.0...1.7.0) (2020-01-26)
 
 
