@@ -1,0 +1,14 @@
+name: com.rfadeev.pumpeditor.presetsbrowser
+displayName: Presets Browser
+description: Unity presets browser editor window.
+repoUrl: 'https://github.com/rfadeev/presets-browser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor
+hunter: rfadeev
+gitTagIgnore: ''
+image: null
+createdAt: 1580303020001
