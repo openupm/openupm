@@ -98,8 +98,8 @@ To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGi
 
 OpenUPM is an open source service. It's impossible to make it work without these amazing projects and services.
 
-- [Verdaccio](https://github.com/picturepan2/spectre) for the package registry
-- [Vuepress](https://github.com/picturepan2/spectre) for writing docs
+- [Verdaccio](https://verdaccio.org/) for the package registry
+- [Vuepress](https://vuepress.vuejs.org/) for writing docs
 - [Spectre](https://github.com/picturepan2/spectre) for styling
 - [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for the cloud computing
 - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) for build pipelines
