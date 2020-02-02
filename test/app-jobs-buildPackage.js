@@ -61,6 +61,32 @@ describe("app/jobs/buildPackage.js", function() {
         }
       ]);
     });
+    it("duplication with 'upm/' prefix", function() {
+      let names = filterRemoteTags([
+        { tag: "upm/1.0.2", commit: "0000010" },
+        { tag: "1.0.2", commit: "0000009" },
+        { tag: "1.0.2-master", commit: "0000008" }
+      ]);
+      names.should.deepEqual([
+        {
+          commit: "0000010",
+          tag: "upm/1.0.2"
+        }
+      ]);
+    });
+    it("duplication with '-upm' suffix", function() {
+      let names = filterRemoteTags([
+        { tag: "1.0.2-upm", commit: "0000010" },
+        { tag: "1.0.2", commit: "0000009" },
+        { tag: "1.0.2-master", commit: "0000008" }
+      ]);
+      names.should.deepEqual([
+        {
+          commit: "0000010",
+          tag: "1.0.2-upm"
+        }
+      ]);
+    });
     it("ignore pattern", function() {
       let names = filterRemoteTags(
         [

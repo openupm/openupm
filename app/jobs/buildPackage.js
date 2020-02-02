@@ -13,7 +13,7 @@ const {
 const { queues, addJob } = require("../queues/core");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
-const { semverRe, getVersionFromTag } = require("../utils/semver");
+const { getVersionFromTag } = require("../utils/semver");
 const logger = require("../utils/log")(module);
 const { removeRelease } = require("./removeRelease");
 
@@ -44,28 +44,30 @@ const buildPackage = async function(name) {
 // Filter remote tags for non-semver, duplication and ignoration.
 const filterRemoteTags = function(remoteTags, gitTagIgnore) {
   // Filter out non-semver
-  let tags = remoteTags.filter(x => {
-    const segs = x.tag.split("/");
-    const tag = segs.length ? segs[segs.length - 1] : x.tag;
-    return semverRe.test(tag);
-  });
+  let tags = remoteTags.filter(x => getVersionFromTag(x.tag) != null);
   // Filter out ignoration
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
   }
-  // Filter out duplications
-  // If tag "x.y.z" and "vx.y.z" both exist, keep the first one.
-  let versionSet = new Set();
-  let cleanTags = [];
+  // Tags with "upm/" prefix or "-upm" suffix are valid.
+  const upmRe = /(^upm\/|-upm$)/i;
+  const masterRe = /(^master\/|-master$)/i;
+  const validTags = tags.filter(x => upmRe.test(x.tag));
+  const versionSet = new Set(
+    validTags.map(x => getVersionFromTag(x.tag)).map(x => x.replace(upmRe, ""))
+  );
+  // Remove duplications
   for (const element of tags) {
-    let version = getVersionFromTag(element.tag);
+    const version = getVersionFromTag(element.tag)
+      .replace(upmRe, "")
+      .replace(masterRe, "");
     if (!versionSet.has(version)) {
       versionSet.add(version);
-      cleanTags.push(element);
+      validTags.push(element);
     }
   }
-  return cleanTags;
+  return validTags;
 };
 
 // Update release records for given remoteTags.
