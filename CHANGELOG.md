@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/openupm/openupm/compare/1.8.1...1.8.2) (2020-02-02)
+
+
+### Bug Fixes
+
+* **pipelines:** handle git tags from both upm and master branches ([40536f7](https://github.com/openupm/openupm/commit/40536f707027d2b8f673c34b1d1c4720c56f7f05))
+
 ## [1.8.1](https://github.com/openupm/openupm/compare/1.8.0...1.8.1) (2020-01-28)
 
 
