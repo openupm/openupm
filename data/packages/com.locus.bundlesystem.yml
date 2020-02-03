@@ -1,0 +1,13 @@
+name: com.locus.bundlesystem
+displayName: Locus Bundle System
+description: Simple Unity Addressables Alternative That Supports Synchronized API
+repoUrl: 'https://github.com/locus84/Locus-Bundle-System'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: favoyang
+gitTagIgnore: ''
+image: 'https://user-images.githubusercontent.com/6591432/73616925-a527b580-465c-11ea-8c82-b004e3822d98.png'
+createdAt: 1580730837149
