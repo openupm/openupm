@@ -18,6 +18,9 @@ const _urlUtils = {
       ? "http://localhost:3600"
       : "https://api.openupm.com",
 
+  // OpenUPM registry URL
+  openupmRegistryUrl: "https://package.openupm.com",
+
   get openupmPackagesApiUrl() {
     return urljoin(_urlUtils.openupmApiUrl, "/packages/");
   },

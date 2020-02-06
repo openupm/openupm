@@ -135,28 +135,42 @@
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Version</h2>
-                  <span>{{ packageVersion }}</span>
+                  <span>{{ packageVersion || "-" }}</span>
+                </section>
+                <section class="col-6 col-sm-12">
+                  <h2>Unity Version</h2>
+                  <span>{{ packageUnityVersion || "-" }}</span>
                 </section>
                 <section class="col-6 col-sm-12">
                   <h2>Published</h2>
-                  <span>{{ packagePublishedAt }}</span>
+                  <span>{{ packagePublishedAt || "-" }}</span>
                 </section>
                 <section v-if="!noTagsFound" class="col-12">
                   <h2>Version history</h2>
                   <div class="container">
                     <ul class="build-history">
+                      <li class="columns">
+                        <div class="col-4"><small>Version</small></div>
+                        <div class="col-4"><small>Unity Version</small></div>
+                        <div class="col-4"><small>Time</small></div>
+                      </li>
                       <li
-                        v-for="build in packageSucceededBuilds"
-                        :key="build.id"
+                        v-for="entry in packageVersions"
+                        :key="entry.version"
                         class="columns"
                       >
-                        <div class="col-6">
-                          <i :class="build.class"></i>
-                          <span>{{ build.build.version }}</span>
+                        <div class="col-4">
+                          <i :class="entry.class"></i>
+                          <span>{{ entry.version }}</span>
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                           <span>
-                            {{ build.timeSince }}
+                            {{ entry.unity }}
+                          </span>
+                        </div>
+                        <div class="col-4">
+                          <span>
+                            {{ entry.timeSince }}
                           </span>
                         </div>
                       </li>
@@ -300,6 +314,7 @@ const defaultData = function() {
     readmeRaw: "",
     repoInfo: {},
     packageInfo: {},
+    registryInfo: {},
     noTagsFound: false
   };
 };
@@ -323,25 +338,25 @@ export default {
       return this.$package.displayName || this.$package.name;
     },
     packageVersion() {
-      return this.packageCurrentBuild
-        ? this.packageCurrentBuild.build.version
-        : "-";
+      const distTags = this.registryInfo["dist-tags"];
+      if (distTags && distTags.latest) return distTags.latest;
+      else return null;
     },
     packagePublishedAt() {
-      return this.packageCurrentBuild
-        ? this.packageCurrentBuild.timeSince
-        : "-";
+      const packageVersion = this.packageVersion;
+      if (!packageVersion) return null;
+      const dateTimeStr = this.registryInfo.time[packageVersion];
+      return this.getTimeSince(dateTimeStr);
+    },
+    packageUnityVersion() {
+      if (!this.packageVersion) return null;
+      const versions = this.registryInfo.versions || {};
+      const entry = versions[this.packageVersion];
+      if (!entry) return null;
+      return entry.unity;
     },
     packageBuilds() {
       let builds = this.$data.packageInfo.releases;
-      const getTimeSince = function(epochTime) {
-        try {
-          const date = new Date(epochTime);
-          return util.timeAgoFormat(date);
-        } catch (error) {
-          return "";
-        }
-      };
       if (builds && builds.length) {
         let objs = [];
         for (let build of builds) {
@@ -353,7 +368,7 @@ export default {
             state: ReleaseState.get(build.state),
             reason: ReleaseReason.get(build.reason),
             buildUrl: util.getAzureWebBuildUrl(build.buildId),
-            timeSince: getTimeSince(build.updatedAt)
+            timeSince: this.getTimeSince(build.updatedAt)
           };
           if (obj.state == ReleaseState.Pending) {
             obj.class = "fa fa-clock-o";
@@ -375,15 +390,21 @@ export default {
       }
       return [];
     },
-    packageSucceededBuilds() {
-      return this.packageBuilds.filter(x => x.state == ReleaseState.Succeeded);
+    packageVersions() {
+      const versions = this.registryInfo.versions || {};
+      const times = this.registryInfo.time;
+      const versionKeys = Object.keys(versions).reverse();
+      return versionKeys.map(x => {
+        return {
+          version: x,
+          class: "fa fa-check-circle text-success",
+          unity: versions[x].unity,
+          timeSince: this.getTimeSince(times[x])
+        };
+      });
     },
     packageNotSucceededBuilds() {
       return this.packageBuilds.filter(x => x.state != ReleaseState.Succeeded);
-    },
-    packageCurrentBuild() {
-      const builds = this.packageSucceededBuilds;
-      return builds.length ? builds[0] : null;
     },
     packageInvalidTags() {
       return this.$data.packageInfo.invalidTags || [];
@@ -407,7 +428,7 @@ export default {
     },
     packageInstallCli() {
       const name = this.$package.name;
-      if (this.packageSucceededBuilds.length) return `openupm add ${name}`;
+      if (this.packageVersions.length) return `openupm add ${name}`;
       else return "not available yet";
     },
     badgeVersionHtml() {
@@ -507,6 +528,7 @@ export default {
       this.fetchRepoInfo();
       this.fetchRepoTagsInfo();
       this.fetchPackageInfo();
+      this.fetchRegistryInfo();
     },
     async fetchRepoReadme() {
       // Fetch repo readme.
@@ -573,6 +595,27 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         this.$data.packageInfo = resp.data;
       } catch (error) {
         console.error(error);
+      }
+    },
+    async fetchRegistryInfo() {
+      try {
+        let resp = await axios.get(
+          urljoin(util.openupmRegistryUrl, this.$package.name),
+          {
+            headers: { Accept: "application/json" }
+          }
+        );
+        this.$data.registryInfo = resp.data;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    getTimeSince(epochOrDateTimeStr) {
+      try {
+        const date = new Date(epochOrDateTimeStr);
+        return util.timeAgoFormat(date);
+      } catch (error) {
+        return "";
       }
     },
     onCopyCli() {
