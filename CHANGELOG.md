@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/openupm/openupm/compare/1.8.2...1.9.0) (2020-02-06)
+
+
+### Features
+
+* **website:** show supported Unity version on package detail page (fix [#52](https://github.com/openupm/openupm/issues/52)) ([8d728ba](https://github.com/openupm/openupm/commit/8d728ba3c00f2b1a1b6c31ff0688b7fb321dd124))
+
 ## [1.8.2](https://github.com/openupm/openupm/compare/1.8.1...1.8.2) (2020-02-02)
 
 
