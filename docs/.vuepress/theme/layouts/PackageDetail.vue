@@ -145,6 +145,26 @@
                   <h2>Published</h2>
                   <span>{{ packagePublishedAt || "-" }}</span>
                 </section>
+                <section class="col-6 col-sm-12"></section>
+                <section v-if="!noTagsFound" class="col-12">
+                  <h2>Dependencies</h2>
+                  <div v-if="dependencies.length" class="container">
+                    <ul class="build-history">
+                      <li
+                        v-for="entry in dependencies"
+                        :key="entry.name"
+                        class="columns"
+                      >
+                        <div class="col-12">
+                          <i class=""></i>
+                          <NavLink v-if="entry.link" :item="entry.link" />
+                          <span v-else>{{ entry.name }}</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <span v-else>-</span>
+                </section>
                 <section v-if="!noTagsFound" class="col-12">
                   <h2>Version history</h2>
                   <div class="container">
@@ -325,6 +345,26 @@ export default {
     return defaultData();
   },
   computed: {
+    dependencies() {
+      const versions = this.registryInfo.versions || {};
+      const entry = versions[this.packageVersion];
+      if (!entry || !entry.dependencies) return [];
+      else
+        return Object.entries(entry.dependencies).map(([name, version]) => {
+          const page = util.getPackagePage(this.$site.pages, name);
+          const link = page
+            ? {
+                link: page.path,
+                text: name
+              }
+            : undefined;
+          return {
+            name,
+            link,
+            version
+          };
+        });
+    },
     $package() {
       return this.$page.frontmatter.package;
     },
@@ -343,13 +383,12 @@ export default {
       else return null;
     },
     packagePublishedAt() {
-      const packageVersion = this.packageVersion;
-      if (!packageVersion) return null;
-      const dateTimeStr = this.registryInfo.time[packageVersion];
+      const time = this.registryInfo.time || {};
+      const dateTimeStr = time[this.packageVersion];
+      if (!dateTimeStr) return null;
       return this.getTimeSince(dateTimeStr);
     },
     packageUnityVersion() {
-      if (!this.packageVersion) return null;
       const versions = this.registryInfo.versions || {};
       const entry = versions[this.packageVersion];
       if (!entry) return null;

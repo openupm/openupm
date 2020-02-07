@@ -91,6 +91,17 @@ const _markedUtils = {
   }
 };
 
+const _pageUtils = {
+  // Get package page
+  getPackagePage: function(pages, packageName) {
+    for (const page of pages) {
+      const pkg = page.frontmatter.package;
+      if (pkg && pkg.name == packageName) return page;
+    }
+    return null;
+  }
+};
+
 const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
@@ -101,5 +112,6 @@ const _timeUtils = {
 export default {
   ..._urlUtils,
   ..._markedUtils,
+  ..._pageUtils,
   ..._timeUtils
 };
