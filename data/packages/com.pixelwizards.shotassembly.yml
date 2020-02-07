@@ -1,0 +1,16 @@
+name: com.pixelwizards.shotassembly
+displayName: PixelWizards - Shot Assembly
+description: >-
+  Shot Assembly Tool for procedurally generating Timeline sequences from a set
+  of animations
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.shotassembly'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor
+hunter: PixelWizards
+gitTagIgnore: ''
+image: null
+createdAt: 1581111685883
