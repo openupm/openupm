@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/openupm/openupm/compare/1.9.0...1.10.0) (2020-02-07)
+
+
+### Features
+
+* **website:** show dependencies on package detail page ([089d530](https://github.com/openupm/openupm/commit/089d530018ab266155ca6b2c07972f644ade4ed1))
+
 # [1.9.0](https://github.com/openupm/openupm/compare/1.8.2...1.9.0) (2020-02-06)
 
 
