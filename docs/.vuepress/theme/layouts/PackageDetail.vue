@@ -721,7 +721,6 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       ul.section-list
         margin 0
         list-style none
-        overflow hidden
 
       .install-cli
         position relative
