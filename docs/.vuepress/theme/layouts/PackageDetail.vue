@@ -169,26 +169,20 @@
                   <h2>Version history</h2>
                   <div class="container">
                     <ul class="section-list">
-                      <li class="columns">
-                        <div class="col-4"><small>Version</small></div>
-                        <div class="col-4"><small>Unity Version</small></div>
-                        <div class="col-4"><small>Time</small></div>
-                      </li>
                       <li
                         v-for="entry in packageVersions"
                         :key="entry.version"
                         class="columns"
                       >
-                        <div class="col-4">
+                        <div class="col-6">
                           <i :class="entry.class"></i>
-                          <span>{{ entry.version }}</span>
+                          <span
+                            class="tooltip"
+                            :data-tooltip="'Unity version: ' + entry.unity"
+                            >{{ entry.version }}</span
+                          >
                         </div>
-                        <div class="col-4">
-                          <span>
-                            {{ entry.unity }}
-                          </span>
-                        </div>
-                        <div class="col-4">
+                        <div class="col-6">
                           <span>
                             {{ entry.timeSince }}
                           </span>
