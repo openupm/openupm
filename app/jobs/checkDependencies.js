@@ -2,11 +2,16 @@
 
 const axios = require("axios");
 const urljoin = require("url-join");
-const { loadPackageNames, packageExists } = require("../utils/package");
+const {
+  loadPackageNames,
+  loadBuiltinPackageNames,
+  packageExists
+} = require("../utils/package");
 const logger = require("../utils/log")(module);
 
 const checkDependencies = async function(packageNames) {
   if (!packageNames) packageNames = [];
+  const builtinPackageNames = await loadBuiltinPackageNames();
   for (let name of packageNames) {
     // Verify package.
     if (!packageExists(name)) {
@@ -22,9 +27,14 @@ const checkDependencies = async function(packageNames) {
       const dependencies = Object.keys(
         pkgInfo.versions[version].dependencies || {}
       );
-      const missingDeps = dependencies.filter(x => {
-        return !packageNames.includes(x) && !x.startsWith("com.unity.");
-      });
+      const missingDeps = dependencies.filter(
+        x =>
+          !(
+            packageNames.includes(x) ||
+            builtinPackageNames.includes(x) ||
+            x.startsWith("com.unity.modules.")
+          )
+      );
       if (missingDeps.length) console.log({ name, missingDeps });
     } catch (error) {
       const is404 = error.response && error.response.status == 404;

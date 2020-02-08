@@ -55,6 +55,17 @@ const loadPackageNames = async function() {
     .map(p => p.replace(/\.ya?ml$/, ""));
 };
 
+// Load built-in package names.
+const loadBuiltinPackageNames = async function() {
+  try {
+    let absPath = path.resolve(dataDir, "builtin.yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8")).packages;
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
+};
+
 // Verify package name.
 const packageExists = function(name) {
   let absPath = path.resolve(packagesDir, name + ".yml");
@@ -124,5 +135,6 @@ module.exports = {
   loadPackage,
   loadPackageSync,
   loadPackageNames,
+  loadBuiltinPackageNames,
   packageExists
 };
