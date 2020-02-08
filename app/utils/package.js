@@ -17,7 +17,7 @@ const packagesDir = path.resolve(dataDir, "packages");
 const loadTopics = async function() {
   try {
     let absPath = path.resolve(dataDir, "topics.yml");
-    return yaml.safeLoad(await readFile(absPath, "utf8"));
+    return yaml.safeLoad(await readFile(absPath, "utf8")).topics;
   } catch (e) {
     console.error(e);
     return [];

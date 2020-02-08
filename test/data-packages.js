@@ -14,7 +14,7 @@ const {
 
 describe("data/packages", async function() {
   const packageNames = await loadPackageNames();
-  const validTopics = (await loadTopics()).topics;
+  const validTopics = await loadTopics();
   describe("verify packages", function() {
     for (const packageName of packageNames) {
       it("verify " + packageName, async function() {

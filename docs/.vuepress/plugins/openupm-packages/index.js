@@ -71,7 +71,7 @@ module.exports = function(options, context) {
         );
         // Load topics.
         const topicsWithAll = [{ name: "All", slug: "" }]
-          .concat((await loadTopics()).topics)
+          .concat(await loadTopics())
           .map(topic => {
             return {
               ...topic,
