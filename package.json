@@ -42,7 +42,6 @@
     "eslint-loader": "^3.0.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.1.2",
-    "javascript-time-ago": "^2.0.2",
     "jquery": "^3.4.1",
     "js-yaml": "^3.13.1",
     "js-yaml-loader": "^1.2.2",

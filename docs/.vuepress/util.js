@@ -3,10 +3,7 @@
 const $ = require("jquery");
 const marked = require("marked");
 const urljoin = require("url-join");
-import TimeAgo from "javascript-time-ago";
-import en from "javascript-time-ago/locale/en";
-TimeAgo.addLocale(en);
-const timeAgo = new TimeAgo("en-US");
+const moment = require("moment");
 
 const httpRe = /^https?:\/\//i;
 const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
@@ -105,7 +102,7 @@ const _pageUtils = {
 const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
-    return timeAgo.format(date);
+    return moment(date).fromNow();
   }
 };
 
