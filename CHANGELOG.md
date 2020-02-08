@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/openupm/openupm/compare/1.10.1...1.11.0) (2020-02-08)
+
+
+### Bug Fixes
+
+* **website:** package detail style fix ([1dff6ca](https://github.com/openupm/openupm/commit/1dff6ca00d5a8f1c393fc5d7c3f0603aedfc0459))
+
+
+### Features
+
+* **cli:** add script to check dependencies ([e9a325e](https://github.com/openupm/openupm/commit/e9a325ef137628a06f28c181c1346447d634bfcb))
+
 ## [1.10.1](https://github.com/openupm/openupm/compare/1.10.0...1.10.1) (2020-02-08)
 
 
