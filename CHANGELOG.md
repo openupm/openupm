@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/openupm/openupm/compare/1.11.1...1.12.0) (2020-02-08)
+
+
+### Features
+
+* **cli:** show git dependencies from check-deps command ([e9fc22b](https://github.com/openupm/openupm/commit/e9fc22b9d55fbed04ffd4287c23b71e8829f28a0))
+
 ## [1.11.1](https://github.com/openupm/openupm/compare/1.11.0...1.11.1) (2020-02-08)
 
 
