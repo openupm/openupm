@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/openupm/openupm/compare/1.11.0...1.11.1) (2020-02-08)
+
+
+### Bug Fixes
+
+* **website:** show unity version as tooltip on package detail page ([7184510](https://github.com/openupm/openupm/commit/7184510cb5bbb2e78d8cea1a29fd02f3a90209b4))
+
 # [1.11.0](https://github.com/openupm/openupm/compare/1.10.1...1.11.0) (2020-02-08)
 
 
