@@ -36,8 +36,8 @@ const _urlUtils = {
     );
   },
 
-  // Convert to GitHub raw URL
-  getGitHubRawUrl: function(url) {
+  // Convert GitHub URL to GitHub raw URL
+  convertToGitHubRawUrl: function(url) {
     if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
     return url;
   },
@@ -69,7 +69,7 @@ const _markedUtils = {
       if (option.imageBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.imageBaseUrl, href);
       } else {
-        href = _urlUtils.getGitHubRawUrl(href);
+        href = _urlUtils.convertToGitHubRawUrl(href);
       }
       return originalRendererImage(href, title, text);
     };

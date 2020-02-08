@@ -617,7 +617,7 @@ export default {
         // Assign data.
         const repoImages =
           resp.data && resp.data.items
-            ? resp.data.items.map(x => util.getGitHubRawUrl(x.html_url))
+            ? resp.data.items.map(x => util.convertToGitHubRawUrl(x.html_url))
             : [];
         this.$data.repoImages = repoImages.slice(0, 100);
       } catch (error) {
