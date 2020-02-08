@@ -147,9 +147,9 @@
                 </section>
                 <section class="col-6 col-sm-12"></section>
                 <section v-if="!noTagsFound" class="col-12">
-                  <h2>Dependencies</h2>
+                  <h2>Dependencies ({{ dependencies.length }})</h2>
                   <div v-if="dependencies.length" class="container">
-                    <ul class="build-history">
+                    <ul class="section-list">
                       <li
                         v-for="entry in dependencies"
                         :key="entry.name"
@@ -168,7 +168,7 @@
                 <section v-if="!noTagsFound" class="col-12">
                   <h2>Version history</h2>
                   <div class="container">
-                    <ul class="build-history">
+                    <ul class="section-list">
                       <li class="columns">
                         <div class="col-4"><small>Version</small></div>
                         <div class="col-4"><small>Unity Version</small></div>
@@ -216,7 +216,7 @@
                     </p>
                   </div>
                   <div class="container">
-                    <ul class="build-history">
+                    <ul class="section-list">
                       <li
                         v-for="build in packageNotSucceededBuilds"
                         :key="build.id"
@@ -352,14 +352,16 @@ export default {
       else
         return Object.entries(entry.dependencies).map(([name, version]) => {
           const page = util.getPackagePage(this.$site.pages, name);
-          const link = page
-            ? {
-                link: page.path,
-                text: name
-              }
-            : undefined;
+          const nameWithVersion = `${name}@${version}`;
+          let link = null;
+          if (page) link = { link: page.path, text: nameWithVersion };
+          else if (name.startsWith("com.unity."))
+            link = {
+              link: `https://docs.unity3d.com/Packages/${name}@latest`,
+              text: nameWithVersion
+            };
           return {
-            name,
+            name: nameWithVersion,
             link,
             version
           };
@@ -716,9 +718,10 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         padding-bottom 0.5rem
         margin-bottom 0.7rem
 
-      ul.build-history
-        margin 0;
+      ul.section-list
+        margin 0
         list-style none
+        overflow hidden
 
       .install-cli
         position relative
