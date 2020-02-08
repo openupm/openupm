@@ -24,18 +24,26 @@ const checkDependencies = async function(packageNames) {
       });
       const pkgInfo = resp.data;
       const version = pkgInfo["dist-tags"].latest;
-      const dependencies = Object.keys(
-        pkgInfo.versions[version].dependencies || {}
+      const dependencies = pkgInfo.versions[version].dependencies || {};
+      const dependenciesArr = Object.entries(dependencies).map(
+        ([name, version]) => ({
+          name,
+          version
+        })
       );
-      const missingDeps = dependencies.filter(
+      const missingDeps = dependenciesArr.filter(
         x =>
           !(
-            packageNames.includes(x) ||
-            builtinPackageNames.includes(x) ||
-            x.startsWith("com.unity.modules.")
+            packageNames.includes(x.name) ||
+            builtinPackageNames.includes(x.name) ||
+            x.name.startsWith("com.unity.modules.")
           )
       );
       if (missingDeps.length) console.log({ name, missingDeps });
+      const gitDeps = dependenciesArr.filter(x =>
+        /\.git(#.*)?$/i.test(x.version)
+      );
+      if (gitDeps.length) console.log({ name, gitDeps });
     } catch (error) {
       const is404 = error.response && error.response.status == 404;
       if (!is404) console.error(error);
