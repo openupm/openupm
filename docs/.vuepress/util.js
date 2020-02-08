@@ -42,6 +42,15 @@ const _urlUtils = {
     return url;
   },
 
+  // Get package URL
+  getPackageUrl: function(pages, packageName) {
+    const page = _pageUtils.getPackagePage(pages, packageName);
+    if (page) return page.path;
+    else if (packageName.startsWith("com.unity."))
+      return `https://docs.unity3d.com/Packages/${packageName}@latest`;
+    else return null;
+  },
+
   // OpenUPM-CLI repository URL
   openupmCliRepoUrl: "https://github.com/openupm/openupm-cli#openupm-cli",
 

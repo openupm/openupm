@@ -345,18 +345,11 @@ export default {
       if (!entry || !entry.dependencies) return [];
       else
         return Object.entries(entry.dependencies).map(([name, version]) => {
-          const page = util.getPackagePage(this.$site.pages, name);
           const nameWithVersion = `${name}@${version}`;
-          let link = null;
-          if (page) link = { link: page.path, text: nameWithVersion };
-          else if (name.startsWith("com.unity."))
-            link = {
-              link: `https://docs.unity3d.com/Packages/${name}@latest`,
-              text: nameWithVersion
-            };
+          const url = util.getPackageUrl(this.$site.pages, name);
           return {
             name: nameWithVersion,
-            link,
+            link: url ? { link: url, text: nameWithVersion } : null,
             version
           };
         });
