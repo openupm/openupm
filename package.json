@@ -15,6 +15,7 @@
     "docs:serve": "serve ./docs/.vuepress/dist",
     "queue:main": "node ./app/queues/process main",
     "pkg:add-build": "node ./app/jobs/addBuildPackageJob.js",
+    "pkg:check-deps": "node ./app/jobs/checkDependencies.js",
     "rel:remove": "node ./app/jobs/removeRelease.js",
     "server": "node server.js",
     "server:dev": "nodemon --watch app server.js",
