@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/openupm/openupm/compare/1.10.0...1.10.1) (2020-02-08)
+
+
+### Bug Fixes
+
+* **website:** missing link for unity dependencies ([5751daa](https://github.com/openupm/openupm/commit/5751daaa558efa28acb8a219a450d4dc8964b913))
+
 # [1.10.0](https://github.com/openupm/openupm/compare/1.9.0...1.10.0) (2020-02-07)
 
 
