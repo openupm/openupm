@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/openupm/openupm/compare/1.12.0...1.13.0) (2020-02-09)
+
+
+### Features
+
+* **cli:** show no git tag from pkg:check command ([8788c30](https://github.com/openupm/openupm/commit/8788c30c1d50948e8559eea24a499eae15ffb9e0))
+
 # [1.12.0](https://github.com/openupm/openupm/compare/1.11.1...1.12.0) (2020-02-08)
 
 
