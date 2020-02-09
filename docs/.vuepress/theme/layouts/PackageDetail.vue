@@ -199,8 +199,7 @@
                   <div v-if="noTagsFound" class="toast">
                     <p>
                       <span>
-                        No tags found in <NavLink :item="tagsNavLink" />. Please
-                        checkout docs
+                        No git tag found in <NavLink :item="tagsNavLink" />. See
                         <a
                           href="/docs/adding-upm-package.html#handling-the-repository-without-git-tags"
                         >
