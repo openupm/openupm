@@ -51,7 +51,12 @@ const checkDependencies = async function(packageNames) {
       if (Object.keys(result).length > 1) console.log(result);
     } catch (error) {
       const is404 = error.response && error.response.status == 404;
-      if (!is404) logger.error(error);
+      if (is404)
+        console.log({
+          name,
+          noGitTags: true
+        });
+      else logger.error(error);
     }
   }
 };
