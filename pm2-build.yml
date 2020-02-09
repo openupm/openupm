@@ -21,3 +21,14 @@ apps:
     max_memory_restart: 512M
     cron_restart: "*/5 * * * *"
     autorestart: false
+  - name: pkg-extra
+    instance_var: pkg-extra
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/fetchPackageExtra.js
+    args: --all
+    error_file: ./logs/pkg-extra-error.log
+    out_file: ./logs/pkg-extra.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/30 * * * *"
+    autorestart: false
