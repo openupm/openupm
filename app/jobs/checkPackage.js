@@ -1,4 +1,4 @@
-// Check dependencies
+// Check package issues
 
 const axios = require("axios");
 const urljoin = require("url-join");
@@ -13,7 +13,7 @@ const checkDependencies = async function(packageNames) {
   if (!packageNames) packageNames = [];
   const builtinPackageNames = await loadBuiltinPackageNames();
   for (let name of packageNames) {
-    // Verify package.
+    // Verify package
     if (!packageExists(name)) {
       logger.error({ pkg: name }, "package doesn't exist");
       continue;
@@ -31,6 +31,8 @@ const checkDependencies = async function(packageNames) {
           version
         })
       );
+      const result = { name };
+      // Check missing dependencies
       const missingDeps = dependenciesArr.filter(
         x =>
           !(
@@ -39,14 +41,17 @@ const checkDependencies = async function(packageNames) {
             x.name.startsWith("com.unity.modules.")
           )
       );
-      if (missingDeps.length) console.log({ name, missingDeps });
+      if (missingDeps.length) result.missingDeps = missingDeps;
+      // Check git dependencies
       const gitDeps = dependenciesArr.filter(x =>
         /\.git(#.*)?$/i.test(x.version)
       );
-      if (gitDeps.length) console.log({ name, gitDeps });
+      if (gitDeps.length) result.gitDeps = gitDeps;
+      // Output
+      if (Object.keys(result).length > 1) console.log(result);
     } catch (error) {
       const is404 = error.response && error.response.status == 404;
-      if (!is404) console.error(error);
+      if (!is404) logger.error(error);
     }
   }
 };
