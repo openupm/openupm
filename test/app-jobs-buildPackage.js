@@ -100,7 +100,7 @@ describe("app/jobs/buildPackage.js", function() {
         }
       ]);
     });
-    it("ignore pattern", function() {
+    it("ignore pattern 1", function() {
       let names = filterRemoteTags(
         [
           { tag: "1.0.2-master", commit: "10" },
@@ -114,6 +114,17 @@ describe("app/jobs/buildPackage.js", function() {
         { tag: "1.0.2", commit: "09" },
         { tag: "1.0.1", commit: "07" }
       ]);
+    });
+    it("ignore pattern 2", function() {
+      let names = filterRemoteTags(
+        [
+          { tag: "13.0.0", commit: "10" },
+          { tag: "12.0.2", commit: "09" },
+          { tag: "1.0.1", commit: "07" }
+        ],
+        "^(1[0-2]|[0-9])\\..*\\..*"
+      );
+      names.should.deepEqual([{ tag: "13.0.0", commit: "10" }]);
     });
   });
 });

@@ -8,6 +8,6 @@ licenseName: Dual licensing under MS-PL and Apache 2.0
 topics:
   - utility
 hunter: yoshida190
-gitTagIgnore: ''
+gitTagIgnore: '^(1[0-2]|[0-9])\..*\..*'
 image: null
 createdAt: 1581317289016
