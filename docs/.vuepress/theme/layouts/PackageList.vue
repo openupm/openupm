@@ -46,7 +46,13 @@
               <ul class="menu">
                 <li class="divider" data-content="TOPICS"></li>
                 <li v-for="item in topics" :key="item.slug" class="menu-item">
-                  <NavLink :item="item" :class="item.class" />
+                  <RouterLink
+                    class="nav-link"
+                    :to="{ path: item.link, query: { sort } }"
+                    :exact="false"
+                  >
+                    {{ item.text }}
+                  </RouterLink>
                 </li>
               </ul>
             </section>
@@ -72,9 +78,12 @@
 
 <script>
 import _ from "lodash";
+import axios from "axios";
+import urljoin from "url-join";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
+import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { ParentLayout, NavLink, PackageCard },
@@ -83,8 +92,10 @@ export default {
       sort: "date",
       sortList: [
         { text: "Name", slug: "name" },
+        { text: "Popularity", slug: "pop" },
         { text: "Recently Added", slug: "date" }
-      ]
+      ],
+      packagesExtra: {}
     };
   },
   computed: {
@@ -101,17 +112,28 @@ export default {
       };
     },
     packages() {
-      const pkgs = this.$page.frontmatter.packages;
-      if (this.$data.sort == "date") {
-        return _.orderBy(pkgs, ["createdAt"], ["desc"]);
-      } else return pkgs;
+      // Join extra data
+      let pkgs = this.$page.frontmatter.packages.map(x => {
+        const extra = this.$data.packagesExtra[x.name] || {};
+        return {
+          ...x,
+          ...extra,
+          sortName: x.link.text
+        };
+      });
+      // Sort
+      if (this.sort == "date") pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
+      else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
+      else if (this.sort == "name")
+        pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
+      return pkgs;
     },
     sortOptions() {
-      return this.$data.sortList.map(x => {
+      return this.sortList.map(x => {
         return {
           ...x,
           link: "",
-          class: x.slug == this.$data.sort ? "active" : ""
+          class: x.slug == this.sort ? "active" : ""
         };
       });
     },
@@ -138,8 +160,22 @@ export default {
   },
   mounted() {
     this.setSortOption(this.$route.query.sort);
+    this.fetchPackagesExtra();
   },
   methods: {
+    async fetchPackagesExtra() {
+      try {
+        let resp = await axios.get(
+          urljoin(util.openupmPackagesApiUrl, "extra"),
+          {
+            headers: { Accept: "application/json" }
+          }
+        );
+        this.packagesExtra = resp.data;
+      } catch (error) {
+        console.error(error);
+      }
+    },
     onSortBtn(item) {
       if (item.class == "active") return;
       this.$router.push({
@@ -149,8 +185,8 @@ export default {
     },
     setSortOption() {
       const sort = this.$route.query.sort;
-      const choices = this.$data.sortList.map(x => x.slug);
-      if (choices.includes(sort)) this.$data.sort = sort;
+      const choices = this.sortList.map(x => x.slug);
+      if (choices.includes(sort)) this.sort = sort;
     }
   }
 };

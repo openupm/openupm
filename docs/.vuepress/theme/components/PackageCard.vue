@@ -40,6 +40,9 @@
           <span v-if="pkg.parentRepoUrl" class="chip">
             <i class="fa fa-code-branch"></i>Fork
           </span>
+          <span v-if="pkg.stars" class="chip">
+            <i class="fa fa-star"></i>{{ pkg.stars }}
+          </span>
           <span v-if="showCreatedAt" class="chip">
             <i class="fas fa-clock"></i>{{ pkg.createdAtText }}
           </span>
