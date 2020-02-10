@@ -51,17 +51,12 @@ const filterRemoteTags = function(remoteTags, gitTagIgnore) {
     tags = tags.filter(x => !ignoreRe.test(x.tag));
   }
   // Tags with "upm/" prefix or "-upm" suffix are valid.
-  const upmRe = /(^upm\/|-upm$)/i;
-  const masterRe = /(^master\/|-master$)/i;
+  const upmRe = /(^upm\/|(_|-)upm$)/i;
   const validTags = tags.filter(x => upmRe.test(x.tag));
-  const versionSet = new Set(
-    validTags.map(x => getVersionFromTag(x.tag)).map(x => x.replace(upmRe, ""))
-  );
+  const versionSet = new Set(validTags.map(x => getVersionFromTag(x.tag)));
   // Remove duplications
   for (const element of tags) {
-    const version = getVersionFromTag(element.tag)
-      .replace(upmRe, "")
-      .replace(masterRe, "");
+    const version = getVersionFromTag(element.tag);
     if (!versionSet.has(version)) {
       versionSet.add(version);
       validTags.push(element);

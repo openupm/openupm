@@ -38,6 +38,12 @@ describe("app/util/semver.js", function() {
         "1.0.0-preview.0"
       );
     });
+    it("test va.b.c-upm", function() {
+      assert.equal(getVersionFromTag("v1.0.0-upm"), "1.0.0");
+    });
+    it("test va.b.c_upm", function() {
+      assert.equal(getVersionFromTag("v1.0.0_upm"), "1.0.0");
+    });
   });
   describe("semverRe", function() {
     it("test a.b.c", function() {
