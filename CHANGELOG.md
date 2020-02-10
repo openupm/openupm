@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/openupm/openupm/compare/1.13.1...1.13.2) (2020-02-10)
+
+
+### Bug Fixes
+
+* **pipelines:** support tag with _upm suffix ([09b5c82](https://github.com/openupm/openupm/commit/09b5c82abd780fae87e36c97eadaf6e4237ef6d7))
+
 ## [1.13.1](https://github.com/openupm/openupm/compare/1.13.0...1.13.1) (2020-02-10)
 
 
