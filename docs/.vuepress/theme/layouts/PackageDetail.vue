@@ -217,7 +217,7 @@
                       >
                         <div class="col-6">
                           <i :class="build.class"></i>
-                          <span>{{ build.id }}</span>
+                          <span>{{ build.tag }}</span>
                         </div>
                         <div class="col-6">
                           <a
@@ -391,6 +391,7 @@ export default {
             id: build.version,
             build,
             class: "",
+            tag: build.tag,
             text: "",
             state: ReleaseState.get(build.state),
             reason: ReleaseReason.get(build.reason),
