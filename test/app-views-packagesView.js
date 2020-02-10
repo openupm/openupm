@@ -9,6 +9,7 @@ const { omit } = require("lodash");
 const { app } = require("../app");
 const redis = require("../app/db/redis");
 const Release = require("../app/models/release");
+const PackageExtra = require("../app/models/packageExtra");
 
 const releases = [
   {
@@ -37,6 +38,7 @@ describe("app/views/packagesView.js", function() {
         ...release
       });
     }
+    await PackageExtra.setAllPackagesExtra({});
   });
   afterEach(async function() {
     await redis.client.del("rel:sample-package");
@@ -47,7 +49,7 @@ describe("app/views/packagesView.js", function() {
   });
 
   describe("/packages/:name", function() {
-    it("simple", function(done) {
+    it("should return 200", function(done) {
       request(app)
         .get("/packages/sample-package")
         .set("Accept", "application/json")
@@ -70,6 +72,22 @@ describe("app/views/packagesView.js", function() {
         .end(function(err, res) {
           if (err) return done(err);
           res.body.releases.should.deepEqual([]);
+          done();
+        });
+    });
+  });
+
+  describe("/packages/extra", function() {
+    it("should return 200", function(done) {
+      request(app)
+        .get("/packages/extra")
+        .set("Accept", "application/json")
+        .expect("Content-Type", /json/)
+        .expect(200)
+        .end(function(err, res) {
+          if (err) return done(err);
+          console.log(res.body);
+          res.body.should.deepEqual({});
           done();
         });
     });

@@ -15,6 +15,11 @@ const releaseFields = [
   "updatedAt"
 ];
 
+router.get("/extra", async function(req, res) {
+  const data = await PackageExtra.getAllPackagesExtra();
+  res.json(data);
+});
+
 router.get("/:name", async function(req, res) {
   let packageName = req.params.name;
   let releases = await Release.fetchAll(packageName);
