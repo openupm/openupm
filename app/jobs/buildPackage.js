@@ -1,7 +1,7 @@
 // Build package job
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
-const { difference } = require("lodash");
+const _ = require("lodash");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");
@@ -27,7 +27,7 @@ const buildPackage = async function(name) {
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
   let validTags = filterRemoteTags(remoteTags, pkg.gitTagIgnore);
   validTags.reverse();
-  let invalidTags = difference(remoteTags, validTags);
+  let invalidTags = _.difference(remoteTags, validTags);
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
     logger.info({ pkg: name }, "no valid tags found");
@@ -43,31 +43,34 @@ const buildPackage = async function(name) {
 
 // Filter remote tags for non-semver, duplication and ignoration.
 const filterRemoteTags = function(remoteTags, gitTagIgnore) {
+  const upmRe = /(^upm\/|(-|_)upm$)/i;
+  // Prepare cleanTag field
+  let tags = remoteTags.map(x => {
+    return { ...x, cleanTag: x.tag.replace(upmRe, "") };
+  });
   // Filter out non-semver
-  let tags = remoteTags.filter(x => getVersionFromTag(x.tag) != null);
+  tags = tags.filter(x => getVersionFromTag(x.cleanTag) != null);
   // Filter out ignoration
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
   }
-  // Tags with "upm/" prefix or "-upm" suffix are valid.
-  const upmRe = /(^upm\/|-upm$)/i;
-  const masterRe = /(^master\/|-master$)/i;
+  // Tags with "upm/" prefix or "-upm", "_upm" suffix are valid.
   const validTags = tags.filter(x => upmRe.test(x.tag));
-  const versionSet = new Set(
-    validTags.map(x => getVersionFromTag(x.tag)).map(x => x.replace(upmRe, ""))
-  );
+  const versionSet = new Set(validTags.map(x => getVersionFromTag(x.cleanTag)));
   // Remove duplications
+  const masterRe = /(^master\/|-master$)/i;
   for (const element of tags) {
-    const version = getVersionFromTag(element.tag)
-      .replace(upmRe, "")
-      .replace(masterRe, "");
+    const version = getVersionFromTag(element.cleanTag).replace(masterRe, "");
     if (!versionSet.has(version)) {
       versionSet.add(version);
       validTags.push(element);
     }
   }
-  return validTags;
+  // Remove cleanTag field
+  return validTags.map(x => {
+    return _.omit(x, ["cleanTag"]);
+  });
 };
 
 // Update release records for given remoteTags.

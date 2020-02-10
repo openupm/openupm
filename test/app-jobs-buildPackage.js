@@ -87,6 +87,19 @@ describe("app/jobs/buildPackage.js", function() {
         }
       ]);
     });
+    it("duplication with '_upm' suffix", function() {
+      let names = filterRemoteTags([
+        { tag: "1.0.2_upm", commit: "0000010" },
+        { tag: "1.0.2", commit: "0000009" },
+        { tag: "1.0.2-master", commit: "0000008" }
+      ]);
+      names.should.deepEqual([
+        {
+          commit: "0000010",
+          tag: "1.0.2_upm"
+        }
+      ]);
+    });
     it("ignore pattern", function() {
       let names = filterRemoteTags(
         [
