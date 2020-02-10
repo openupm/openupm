@@ -1,3 +1,12 @@
+# [1.14.0](https://github.com/openupm/openupm/compare/1.13.3...1.14.0) (2020-02-10)
+
+
+### Features
+
+* **api:** add /packages/extra endpoint ([3ee2bbb](https://github.com/openupm/openupm/commit/3ee2bbbd9419a110a5b726657ce266fb81cfac69))
+* **cli:** add script to fetch package extra data ([cd957a9](https://github.com/openupm/openupm/commit/cd957a9ce5fd1f54649153e9df48bed8dfd99598))
+* **website:** sort by popularity ([a7ac402](https://github.com/openupm/openupm/commit/a7ac4022a20c9ddcdd9692284cc04e7915ec11dd))
+
 ## [1.13.3](https://github.com/openupm/openupm/compare/1.13.2...1.13.3) (2020-02-10)
 
 
