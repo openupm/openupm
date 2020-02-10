@@ -1,0 +1,13 @@
+name: com.joshclose.csvhelper
+displayName: CsvHelper
+description: Library to help reading and writing CSV files
+repoUrl: 'https://github.com/yoshida190/CsvHelper'
+parentRepoUrl: 'https://github.com/JoshClose/CsvHelper'
+licenseSpdxId: null
+licenseName: Dual licensing under MS-PL and Apache 2.0
+topics:
+  - utility
+hunter: yoshida190
+gitTagIgnore: ''
+image: null
+createdAt: 1581317289016
