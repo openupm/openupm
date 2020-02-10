@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/openupm/openupm/compare/1.13.2...1.13.3) (2020-02-10)
+
+
+### Bug Fixes
+
+* **website:** show git tag on build issues of package detail page ([2b8bd5a](https://github.com/openupm/openupm/commit/2b8bd5aaee0d936528899f02e5d3456618b378a3))
+
 ## [1.13.2](https://github.com/openupm/openupm/compare/1.13.1...1.13.2) (2020-02-10)
 
 
