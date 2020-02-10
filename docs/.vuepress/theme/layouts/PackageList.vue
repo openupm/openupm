@@ -47,7 +47,7 @@
                 <li class="divider" data-content="TOPICS"></li>
                 <li v-for="item in topics" :key="item.slug" class="menu-item">
                   <RouterLink
-                    class="nav-link"
+                    :class="['nav-link', item.class]"
                     :to="{ path: item.link, query: { sort } }"
                     :exact="false"
                   >
