@@ -1,3 +1,15 @@
+# [1.15.0](https://github.com/openupm/openupm/compare/1.14.0...1.15.0) (2020-02-10)
+
+
+### Bug Fixes
+
+* **website:** topic link missing active class ([28f176a](https://github.com/openupm/openupm/commit/28f176ae82891010f5e92cfa33d4ae9bde51a7b4))
+
+
+### Features
+
+* **ci:** reload pkg-extra process ([ea7b23f](https://github.com/openupm/openupm/commit/ea7b23f97e5465e9ac9421fdeea16bbc9a39ed79))
+
 # [1.14.0](https://github.com/openupm/openupm/compare/1.13.3...1.14.0) (2020-02-10)
 
 
