@@ -1,6 +1,7 @@
 // Fetch package extra data
 
 const axios = require("axios");
+const config = require("config");
 const urljoin = require("url-join");
 const packageExtra = require("../models/packageExtra");
 const {
@@ -41,11 +42,12 @@ const fetchExtraData = async function(packageNames) {
     }
     // Fetch stars
     try {
+      const headers = { Accept: "application/vnd.github.v3.json" };
+      if (config.gitHub.token)
+        headers.authorization = `Bearer ${config.gitHub.token}`;
       const resp = await axios.get(
         urljoin("https://api.github.com/repos/", pkg.repo),
-        {
-          headers: { Accept: "application/vnd.github.v3.json" }
-        }
+        { headers }
       );
       const repoInfo = resp.data;
       let stars = 0;
