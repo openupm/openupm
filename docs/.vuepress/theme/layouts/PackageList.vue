@@ -48,11 +48,28 @@
                 <li v-for="item in topics" :key="item.slug" class="menu-item">
                   <RouterLink
                     :class="['nav-link', item.class]"
-                    :to="{ path: item.link, query: { sort } }"
+                    :to="{ path: item.link, query }"
                     :exact="false"
                   >
                     {{ item.text }}
                   </RouterLink>
+                </li>
+              </ul>
+            </section>
+            <section class="unity-section">
+              <ul class="menu">
+                <li class="divider" data-content="Unity Version"></li>
+                <li
+                  v-for="item in unityOptions"
+                  :key="item.slug"
+                  class="menu-item"
+                >
+                  <a
+                    :href="item.link"
+                    :class="item.class"
+                    @click.prevent="onUnityBtn(item)"
+                    >{{ item.text }}</a
+                  >
                 </li>
               </ul>
             </section>
@@ -95,6 +112,7 @@ export default {
         { text: "Popularity", slug: "pop" },
         { text: "Recently Added", slug: "date" }
       ],
+      unity: "",
       packagesExtra: {}
     };
   },
@@ -121,12 +139,20 @@ export default {
           sortName: x.link.text
         };
       });
+      // Filter by unity
+      if (this.unity) pkgs = pkgs.filter(x => x.unity == this.unity);
       // Sort
       if (this.sort == "date") pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
       else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
       else if (this.sort == "name")
         pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
+    },
+    query() {
+      const query = {};
+      if (this.sort) query.sort = this.sort;
+      if (this.unity) query.untiy = this.unity;
+      return query;
     },
     sortOptions() {
       return this.sortList.map(x => {
@@ -150,16 +176,34 @@ export default {
             class: topic.slug == this.topic.slug ? "active" : ""
           };
         });
+    },
+    unityOptions() {
+      let unityList = Object.entries(this.packagesExtra).map(
+        // eslint-disable-next-line no-unused-vars
+        ([key, value]) => value.unity
+      );
+      unityList = _.reverse(_.uniq(unityList).sort());
+      unityList.splice(0, 0, "");
+      return unityList.map(x => {
+        return {
+          slug: x,
+          text: x ? x : "All",
+          link: "",
+          class: x == this.unity ? "active" : ""
+        };
+      });
     }
   },
   watch: {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
       this.setSortOption(this.$route.query.sort);
+      this.setUnityOption(this.$route.query.unity);
     }
   },
   mounted() {
     this.setSortOption(this.$route.query.sort);
+    this.setUnityOption(this.$route.query.unity);
     this.fetchPackagesExtra();
   },
   methods: {
@@ -178,15 +222,29 @@ export default {
     },
     onSortBtn(item) {
       if (item.class == "active") return;
+      this.sort = item.slug;
       this.$router.push({
         path: this.$route.path,
-        query: { sort: item.slug }
+        query: this.query
+      });
+    },
+    onUnityBtn(item) {
+      if (item.class == "active") return;
+      this.unity = item.slug;
+      this.$router.push({
+        path: this.$route.path,
+        query: this.query
       });
     },
     setSortOption() {
       const sort = this.$route.query.sort;
       const choices = this.sortList.map(x => x.slug);
       if (choices.includes(sort)) this.sort = sort;
+    },
+    setUnityOption() {
+      const unity = this.$route.query.unity;
+      const choices = this.unityOptions.map(x => x.slug);
+      if (choices.includes(unity)) this.unity = unity;
     }
   }
 };

@@ -75,7 +75,7 @@ const updateAllPackagesExtra = async function() {
     const stars = await packageExtra.getStars(name);
     data.stars = stars || 0;
     const unity = await packageExtra.getUnityVersion(name);
-    data.unity = unity || "2018.2";
+    data.unity = unity || "2018.1";
     allPackagesExtra[name] = data;
   }
   await packageExtra.setAllPackagesExtra(allPackagesExtra);
