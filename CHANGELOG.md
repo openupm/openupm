@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/openupm/openupm/compare/1.15.0...1.15.1) (2020-02-11)
+
+
+### Bug Fixes
+
+* **pipelines:** add GitHub token for pkg:fetch-extra command ([fed3a62](https://github.com/openupm/openupm/commit/fed3a626f05e016979e7d9c450baa1ec39c8df8f))
+
 # [1.15.0](https://github.com/openupm/openupm/compare/1.14.0...1.15.0) (2020-02-10)
 
 
