@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/openupm/openupm/compare/1.15.1...1.16.0) (2020-02-11)
+
+
+### Features
+
+* **website:** [#53](https://github.com/openupm/openupm/issues/53) filter package list by supported Unity version ([716e322](https://github.com/openupm/openupm/commit/716e32296c2ca6def4aebaf895a999ea680b35a3))
+
 ## [1.15.1](https://github.com/openupm/openupm/compare/1.15.0...1.15.1) (2020-02-11)
 
 
