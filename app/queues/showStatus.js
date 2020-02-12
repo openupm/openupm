@@ -9,8 +9,7 @@ const showQueueStatus = async function(queueName) {
     { name: "succeeded", type: "set" },
     { name: "failed", type: "set" },
     { name: "delayed", type: "sorted-set" },
-    { name: "stalling", type: "set" },
-    { name: "stallBlock", type: "set" }
+    { name: "stalling", type: "set" }
   ];
   for (const status of statusList) {
     let ls = null;
