@@ -15,6 +15,7 @@
     "docs:serve": "serve ./docs/.vuepress/dist",
     "queue:process": "node ./app/queues/process main",
     "queue:status": "node ./app/queues/showStatus main",
+    "queue:remove": "node ./app/queues/removeJob main",
     "pkg:build": "node ./app/jobs/addBuildPackageJob.js",
     "pkg:check": "node ./app/jobs/checkPackage.js",
     "pkg:fetch-extra": "node ./app/jobs/fetchPackageExtra.js",
