@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/openupm/openupm/compare/1.16.0...1.17.0) (2020-02-12)
+
+
+### Features
+
+* **cli:** add queue:status command ([b05537b](https://github.com/openupm/openupm/commit/b05537bd2a340eb14d48695e6557209cdbf21093))
+
 # [1.16.0](https://github.com/openupm/openupm/compare/1.15.1...1.16.0) (2020-02-11)
 
 
