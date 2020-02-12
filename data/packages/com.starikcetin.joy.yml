@@ -9,6 +9,6 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - dots
-  - framework
+  - library
 hunter: favoyang
 createdAt: 1576336920000

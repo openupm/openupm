@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - utility
+  - library
 hunter: PixelWizards
 gitTagIgnore: ''
 createdAt: 1578865260000

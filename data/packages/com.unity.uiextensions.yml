@@ -7,6 +7,6 @@ licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause
 topics:
   - ui
-  - framework
+  - library
 hunter: favoyang
 createdAt: 1576235107000

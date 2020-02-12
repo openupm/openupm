@@ -8,7 +8,7 @@ repoUrl: 'https://github.com/starikcetin/unity-scene-reference'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utility
+  - library
 hunter: starikcetin
 createdAt: 1576174494000
 image: https://camo.githubusercontent.com/9bfcd7ee1d34d61acabade54a7f8ba80cb694036/68747470733a2f2f692e696d6775722e636f6d2f44535969306b642e706e67

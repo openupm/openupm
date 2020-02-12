@@ -13,14 +13,16 @@ topics:
   slug: asset-pack
 - name: Camera
   slug: camera
+- name: Data Management
+  slug: data-management
 - name: DOTS/ECS
   slug: dots
 - name: Editor Enhancement
   slug: editor
 - name: Effect/Shader
   slug: effect-shader
-- name: Framework
-  slug: framework
+- name: Library
+  slug: library
 - name: Localization
   slug: localization
 - name: Mobile
@@ -35,5 +37,3 @@ topics:
   slug: terrain
 - name: UI
   slug: ui
-- name: Utility
-  slug: utility

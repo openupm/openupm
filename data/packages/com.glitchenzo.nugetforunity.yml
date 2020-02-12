@@ -6,6 +6,6 @@ parentRepoUrl: 'https://github.com/GlitchEnzo/NuGetForUnity'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utility
+  - package-management
 hunter: starikcetin
 createdAt: 1576173793000

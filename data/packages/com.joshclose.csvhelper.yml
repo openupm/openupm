@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/JoshClose/CsvHelper'
 licenseSpdxId: null
 licenseName: Dual licensing under MS-PL and Apache 2.0
 topics:
-  - utility
+  - data-management
 hunter: yoshida190
 gitTagIgnore: '^(1[0-2]|[0-9])\..*\..*'
 image: null

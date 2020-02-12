@@ -54,7 +54,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 # list of topic slugs
 topics:
-  - utility
+  - library
 # featured image
 image: 'https://github.com/favoyang/unity-package-example/raw/master/path-of-image.png'
 # package hunter name (github username)

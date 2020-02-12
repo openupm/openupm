@@ -6,7 +6,6 @@ parentRepoUrl: 'https://github.com/yankooliveira/signals'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - framework
-  - utility
+  - library
 hunter: JohannesDeml
 createdAt: 1576345395000

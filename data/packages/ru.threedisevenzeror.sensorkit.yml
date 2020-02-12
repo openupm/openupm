@@ -6,9 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
   - physics
-  - utility
 hunter: 3DI70R
 gitTagIgnore: ''
 image: >-

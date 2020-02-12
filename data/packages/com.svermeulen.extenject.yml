@@ -6,6 +6,6 @@ parentRepoUrl: 'https://github.com/svermeulen/Extenject'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - framework
+  - library
 hunter: starikcetin
 createdAt: 1576170352000

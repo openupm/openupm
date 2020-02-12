@@ -6,9 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
   - ui
-  - utility
+  - animation
 hunter: setchi
 createdAt: 1576739377000
 image: https://user-images.githubusercontent.com/8326814/70638335-0b571400-1c7c-11ea-8701-a0d1ae0cb7e3.gif

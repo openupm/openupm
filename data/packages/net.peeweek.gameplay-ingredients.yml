@@ -9,8 +9,7 @@ licenseSpdxId: null
 licenseName: MIT
 topics:
   - editor
-  - framework
-  - utility
+  - library
 hunter: peeweek
 gitTagIgnore: ''
 createdAt: 1579776641040

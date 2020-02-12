@@ -6,6 +6,6 @@ parentRepoUrl: 'https://github.com/hecomi/uREPL'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utility
+  - library
 hunter: starikcetin
 createdAt: 1576173087000

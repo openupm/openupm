@@ -6,7 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utility
+  - library
 hunter: favoyang
 createdAt: 1576335365000
 image: https://raw.githubusercontent.com/k0dep/type-inspector/7d2ecf119d798e0818857589c1ebf69bd05cf17b/Docs/TypeReference_filtering.png

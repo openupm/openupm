@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - 2d
   - dots
-  - utility
+  - library
 hunter: sasvdw
 gitTagIgnore: ''
 image: null
