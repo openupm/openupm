@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/openupm/openupm/compare/1.17.0...1.17.1) (2020-02-12)
+
+
+### Bug Fixes
+
+* **cli:** queue:status ignores stallBlock ([bf955a2](https://github.com/openupm/openupm/commit/bf955a25d12701cb77a5f7da2f8caaea1bc2ca8d))
+
 # [1.17.0](https://github.com/openupm/openupm/compare/1.16.0...1.17.0) (2020-02-12)
 
 
