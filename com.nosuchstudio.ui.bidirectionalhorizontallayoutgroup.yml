@@ -1,0 +1,16 @@
+name: com.nosuchstudio.ui.bidirectionalhorizontallayoutgroup
+displayName: Bidirectionl Horizontal Layout Group
+description: >-
+  A horizontal layout group for Unity UI that supports both left-to-right and
+  right-to-left.
+repoUrl: 'https://github.com/hk1ll3r/BidirectionalHorizontalLayoutGroup'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: GPL
+topics:
+  - localization
+  - ui
+hunter: JesseTG
+gitTagIgnore: ''
+image: null
+createdAt: 1581625582826
