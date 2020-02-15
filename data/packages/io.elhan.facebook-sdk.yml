@@ -1,0 +1,13 @@
+name: io.elhan.facebook-sdk
+displayName: Facebook SDK (Unofficial)
+description: "\U0001F4E6 Packaged version of Facebook SDK for Unity"
+repoUrl: 'https://github.com/oae/unity-package-facebook-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: oae
+gitTagIgnore: ''
+image: null
+createdAt: 1581806372605
