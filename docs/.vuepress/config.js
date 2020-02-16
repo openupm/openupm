@@ -97,7 +97,17 @@ module.exports = {
         content: "/images/openupm-icon-256.png"
       }
     ],
-    ["meta", { name: "msapplication-TileColor", content: "#000000" }]
+    ["meta", { name: "msapplication-TileColor", content: "#000000" }],
+    // Google AdSense
+    [
+      "script",
+      { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }
+    ],
+    [
+      "script",
+      {},
+      '(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-7925911236569822",enable_page_level_ads:true});'
+    ]
   ],
   themeConfig: {
     domain: "https://openupm.com",
