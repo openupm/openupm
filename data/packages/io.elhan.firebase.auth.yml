@@ -1,0 +1,14 @@
+name: io.elhan.firebase.auth
+displayName: Firebase Auth (Unofficial)
+description: "\U0001F4E6 Packaged version of Firebase Auth for Unity"
+repoUrl: 'https://github.com/oae/unity-package-firebase-auth'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: oae
+gitTagIgnore: ''
+image: >-
+  https://github.com/oae/unity-package-firebase-auth/raw/d32ef61a9e9b9881025544c4c898626e10df45e4/Assets/Editor%20Default%20Resources/Firebase/firebase_lockup_dark.png
+createdAt: 1581874826279
