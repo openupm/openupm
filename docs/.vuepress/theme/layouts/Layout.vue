@@ -16,9 +16,17 @@
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <slot slot="top" name="sidebar-top" />
+      <slot slot="top" name="sidebar-top">
+        <div v-if="shouldShowSidebarAds" class="adp-sidebar">
+          <AdBlock />
+        </div>
+      </slot>
       <slot slot="bottom" name="sidebar-bottom" />
     </Sidebar>
+
+    <div v-if="shouldShowMainAds" class="adp-main">
+      <AdBlock />
+    </div>
 
     <!-- unnamed slot for main content -->
     <slot></slot>
@@ -40,6 +48,7 @@
 </template>
 
 <script>
+import AdBlock from "@theme/components/AdBlock.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Footer from "@theme/components/Footer.vue";
 import Page from "@parent-theme/components/Page.vue";
@@ -47,7 +56,7 @@ import Sidebar from "@parent-theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
 
 export default {
-  components: { Page, Sidebar, Navbar, Footer },
+  components: { AdBlock, Page, Sidebar, Navbar, Footer },
 
   data() {
     return {
@@ -77,6 +86,19 @@ export default {
         (frontmatter.sidebar !== undefined ? frontmatter.sidebar : false) &&
         this.sidebarItems.length
       );
+    },
+
+    shouldShowAds() {
+      const { frontmatter } = this.$page;
+      return frontmatter.ads !== undefined ? frontmatter.ads : true;
+    },
+
+    shouldShowMainAds() {
+      return this.shouldShowAds && !this.shouldShowSidebar;
+    },
+
+    shouldShowSidebarAds() {
+      return this.shouldShowAds && this.shouldShowSidebar;
     },
 
     shouldShowFooter() {

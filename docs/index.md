@@ -1,4 +1,5 @@
 ---
+ads: false
 layout: Home
 pageClass: homepage
 title: Open Source Unity Package Registry (UPM)
