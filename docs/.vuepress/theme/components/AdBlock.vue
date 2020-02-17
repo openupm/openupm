@@ -79,4 +79,5 @@ export default {
     width 9.6rem
     float left
     display block
+    position fixed
 </style>
