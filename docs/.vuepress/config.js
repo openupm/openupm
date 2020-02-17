@@ -106,7 +106,7 @@ module.exports = {
     [
       "script",
       {},
-      '(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-5869960738736541",enable_page_level_ads:true});'
+      '(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-7925911236569822",enable_page_level_ads:true});'
     ]
   ],
   themeConfig: {
