@@ -117,6 +117,22 @@
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
+                  <label class="form-label">Git tag prefix</label>
+                  <input
+                    v-model="form.gitTagPrefix.value"
+                    class="form-input"
+                    type="text"
+                    placeholder="leave empty to include all tags (default)"
+                  />
+                  <span class="form-input-hint is-error">
+                    A prefix to filter git tags, mostly used by monorepos to
+                    separate package releases.
+                  </span>
+                </div>
+                <div
+                  class="form-group column col-12"
+                  :class="{ hide: hideOtherFields }"
+                >
                   <label class="form-label">Git tag ignore pattern</label>
                   <input
                     v-model="form.gitTagIgnore.value"
@@ -401,6 +417,10 @@ export default {
           error: "",
           value: ""
         },
+        gitTagPrefix: {
+          error: "",
+          value: ""
+        },
         gitTagIgnore: {
           error: "",
           value: ""
@@ -546,6 +566,7 @@ export default {
         licenseName: form.licenseName.value,
         topics: form.topics.options.filter(x => x.value).map(x => x.slug),
         hunter: form.hunter.value,
+        gitTagPrefix: form.gitTagPrefix.value,
         gitTagIgnore: form.gitTagIgnore.value,
         image: form.image.value,
         createdAt: new Date().getTime()

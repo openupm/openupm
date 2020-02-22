@@ -25,7 +25,11 @@ const buildPackage = async function(name) {
   // Get remote tags.
   logger.debug({ pkg: name }, "get remote tags");
   let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
-  let validTags = filterRemoteTags(remoteTags, pkg.gitTagIgnore);
+  let validTags = filterRemoteTags({
+    remoteTags,
+    gitTagIgnore: pkg.gitTagIgnore,
+    gitTagPrefix: pkg.gitTagIgnore
+  });
   validTags.reverse();
   let invalidTags = difference(remoteTags, validTags);
   await PackageExtra.setInvalidTags(name, invalidTags);
@@ -42,10 +46,13 @@ const buildPackage = async function(name) {
 };
 
 // Filter remote tags for non-semver, duplication and ignoration.
-const filterRemoteTags = function(remoteTags, gitTagIgnore) {
-  // Filter out non-semver
-  let tags = remoteTags.filter(x => getVersionFromTag(x.tag) != null);
-  // Filter out ignoration
+const filterRemoteTags = function({ remoteTags, gitTagIgnore, gitTagPrefix }) {
+  let tags = remoteTags;
+  // Filter prefix based on raw tag
+  if (gitTagPrefix) tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
+  // Filter out non-semver based on parsed version
+  tags = tags.filter(x => getVersionFromTag(x.tag) != null);
+  // Filter out ignoration based on raw tag
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));

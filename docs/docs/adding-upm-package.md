@@ -45,7 +45,7 @@ displayName: Unity Package Example
 # package description
 description: An unity package example
 # repository url
-repoUrl: 'https://github.com/favoyang/unity-package-example'
+repoUrl: 'https://github.com/author/reponame'
 # forked repository url
 parentRepoUrl: null
 # spdx license id
@@ -55,10 +55,14 @@ licenseName: MIT License
 # list of topic slugs
 topics:
   - library
+# Filter git tags based on prefix. Used by monorepos to separate pacakges
+gitTagPrefix: ''
+# A regular expression to ignore git tags
+gitTagIgnore: '-master$'
 # featured image
-image: 'https://github.com/favoyang/unity-package-example/raw/master/path-of-image.png'
+image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
 # package hunter name (github username)
-hunter: favoyang
+hunter: author
 ```
 
 ## Using Package Add Form
@@ -80,7 +84,7 @@ pr->ci
 
 ## Troubleshooting
 
-### Handling the Repository without Git Tags
+### Handling a Repository without Git Tag
 
 Please create an issue on the author's repository for making GitHub releases. The git tag should be a valid semver. To learn how to automate the release process with GitHub actions, please checkout [this tutorial](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c).
 
@@ -100,6 +104,18 @@ You can check the failed reason at the build issues section on the package detai
 
 However, build pipelines will not rebuild a already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the packager owner is recommended to bump the version with a new git tag. For the rare case, please [create an issue](https://github.com/openupm/openupm/issues) for unpublishing.
 
-### Handling the Custom Build Script
+### Handling Monorepos
 
-The custom build script is not supported at the moment. please [create an issue](https://github.com/openupm/openupm/issues) to start a conversation.
+Monorepos preset multiple packages in a single repository. Usually layout as below,
+
+```
+Packages
+  namespace.a
+    package.json
+  namespace.b
+    package.json
+```
+
+For monorepos, multiple package submissions are required. You need submit packages one by one to the OpenUPM platform. Then there're two cases,
+- If you make a single Github release for each new version, it will just works. Our build pipelines will treat each package submission separately, and locate the relevant package.json to process.
+- If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `namespace.a/1.0.0` and `namespace.b/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `namespace.a` should have `gitTagPrefix: "namespace.a/"`, to avoid wasting resources of build pipelines.
