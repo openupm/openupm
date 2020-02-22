@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/openupm/openupm/compare/1.17.1...1.18.0) (2020-02-22)
+
+
+### Features
+
+* **pipelines:** add gitTagPrefix field to filter git tags (close: [#69](https://github.com/openupm/openupm/issues/69)) ([bf82be8](https://github.com/openupm/openupm/commit/bf82be893eb284b3fb898fa0ff3ad487bd8166e9))
+
 ## [1.17.1](https://github.com/openupm/openupm/compare/1.17.0...1.17.1) (2020-02-12)
 
 
