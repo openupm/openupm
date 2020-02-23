@@ -14,5 +14,5 @@ topics:
 hunter: jeffcampbellmakesgames
 gitTagPrefix: 'upm/'
 gitTagIgnore: ''
-image: 'https://github.com/jeffcampbellmakesgames/unity-package-tools/raw/4c4e34d8eaf9f3fcd9a11e2378b3bececbdd8af6/Unity/Assets/JCMG/PackageTools/IconMap/PackageManifestConfigIcon.png'
+image: 'https://github.com/jeffcampbellmakesgames/unity-package-tools/blob/master/Documentation/Inspector.png'
 createdAt: 1582441622120
