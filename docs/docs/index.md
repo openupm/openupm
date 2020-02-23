@@ -92,7 +92,7 @@ Since Unity 2019.3, developer can install UPM package directly via git url. It's
 - lacking the version control.
 - lacking support for custom package with git dependencies. Git url is not the standard syntax of package dependency, hence you cannot resolve a custom package that depends on another custom package using git urls.
 
-To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the git tag based version control and the [dependency resolver]((https://github.com/mob-sakai/GitDependencyResolverForUnity) for git urls. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform is still a better package discovery service.
+To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the git tag based version control and the [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity) for git urls. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform is still a better package discovery service.
 
 ## The Power of Open Source
 
