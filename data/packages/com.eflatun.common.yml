@@ -1,0 +1,16 @@
+name: com.eflatun.common
+displayName: Eflatun.Common
+description: >-
+  Common utilities for Unity and C#. It mostly consists of useful extension
+  methods.
+repoUrl: 'https://github.com/starikcetin/Eflatun.Common'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: starikcetin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1582568576895
