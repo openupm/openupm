@@ -1,0 +1,14 @@
+name: com.starikcetin.bindingsrx-textmeshpro
+displayName: BindingsRx-TextMeshPro
+description: BindingsRx bindings for TextMeshPro.
+repoUrl: 'https://github.com/starikcetin/BindingsRx-TextMeshPro'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: starikcetin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1582571063230
