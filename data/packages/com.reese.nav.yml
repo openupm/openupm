@@ -1,0 +1,19 @@
+name: com.reese.nav
+displayName: Reese's DOTS Navigation
+description: >-
+  DOTS navigation with auto-jumping agents and movable surfaces.
+repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots
+  - library
+  - physics
+hunter: reeseschultz
+gitTagPrefix: nav/
+gitTagIgnore: ''
+image: >-
+  https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/nav-moving-jump-demo.gif
+createdAt: 1582649761604
