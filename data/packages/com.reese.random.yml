@@ -1,0 +1,17 @@
+name: com.reese.random
+displayName: Reese's DOTS Randomization
+description: >-
+  Unity.Mathematics.Random number generators for jobs, including Burst-capable ones.
+repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - library
+hunter: reeseschultz
+gitTagPrefix: random/
+gitTagIgnore: ''
+image: >-
+  https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/nav-performance-demo.gif
+createdAt: 1582651130542
