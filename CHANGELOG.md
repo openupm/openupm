@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/openupm/openupm/compare/1.18.0...1.18.1) (2020-02-26)
+
+
+### Bug Fixes
+
+* **pipelines:** the passed gitTagPrefix is incorrect ([08c5b59](https://github.com/openupm/openupm/commit/08c5b59472e3e85d184642fe6e8dc29657cafda4))
+
 # [1.18.0](https://github.com/openupm/openupm/compare/1.17.1...1.18.0) (2020-02-22)
 
 
