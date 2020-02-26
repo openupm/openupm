@@ -28,7 +28,7 @@ const buildPackage = async function(name) {
   let validTags = filterRemoteTags({
     remoteTags,
     gitTagIgnore: pkg.gitTagIgnore,
-    gitTagPrefix: pkg.gitTagIgnore
+    gitTagPrefix: pkg.gitTagPrefix
   });
   validTags.reverse();
   let invalidTags = difference(remoteTags, validTags);
