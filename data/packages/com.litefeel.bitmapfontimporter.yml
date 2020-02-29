@@ -13,5 +13,5 @@ topics:
 hunter: 'litefeel'
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image: 'https://github.com/litefeel/Unity-BitmapFontImporter/blob/master/AssetStore/screenshots.png'
 createdAt: 1582997224163
