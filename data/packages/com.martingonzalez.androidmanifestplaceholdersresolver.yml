@@ -1,0 +1,17 @@
+name: com.martingonzalez.androidmanifestplaceholdersresolver
+displayName: AndroidManifest Placeholders Resolver
+description: >-
+  A postprocess to inject values to placeholders in AndroidManifest using
+  build.gradle
+repoUrl: 'https://github.com/MartinGonzalez/unity-android-manifest-placeholders-resolver'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - data-management
+  - mobile
+hunter: MartinGonzalez
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1583243213985
