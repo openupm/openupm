@@ -31,6 +31,8 @@ topics:
   slug: network
 - name: Package Management
   slug: package-management
+- name: Procedural Generation
+  slug: procedural-generation
 - name: Physics
   slug: physics
 - name: Terrain

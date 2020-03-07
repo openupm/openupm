@@ -8,6 +8,7 @@ licenseName: MIT License
 topics:
   - 2d
   - library
+  - procedural-generation
 hunter: favoyang
 gitTagPrefix: upm/
 gitTagIgnore: ''

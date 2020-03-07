@@ -9,6 +9,7 @@ topics:
   - 2d
   - dots
   - library
+  - procedural-generation
 hunter: sasvdw
 gitTagIgnore: ''
 image: null
