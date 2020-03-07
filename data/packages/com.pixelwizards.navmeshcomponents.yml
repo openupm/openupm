@@ -1,0 +1,17 @@
+name: com.pixelwizards.navmeshcomponents
+displayName: Unity Navmesh Components
+description: >-
+  Wrapper package for the Unity Navmesh components, designed to work with
+  Unity's Package Manager
+repoUrl: 'https://github.com/PixelWizards/navmesh-components'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - ai
+hunter: pixelwizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/PixelWizards/navmesh-components/raw/c6a2ae062a1cc49a04abe38eda5d8777d4bc5e5e/Documentation~/Images/ConnectingSurfaces-Example.png
+createdAt: 1583543263802
