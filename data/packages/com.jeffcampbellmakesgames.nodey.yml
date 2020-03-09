@@ -1,0 +1,17 @@
+name: com.jeffcampbellmakesgames.nodey
+displayName: JCMG Nodey
+description: Lets you view and edit node graphs inside Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/Nodey'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor
+  - library
+  - ui
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/Nodey/raw/edf34f68fc1776be32911182fc56c2634c8203d7/Images/ExampleNodeyGraph.png
+createdAt: 1583739898535
