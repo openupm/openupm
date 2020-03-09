@@ -1,0 +1,21 @@
+name: com.jeffcampbellmakesgames.coc
+displayName: JCMG COC
+description: >-
+  JCMG CoC is a convention-over-configuration library for Unity that enables
+  defining your Unity projects folder structure and optionally generate code to
+  be able to easily retrieve specific folder paths.
+repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-coc'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor
+  - library
+  - ui
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/unity-coc/raw/8f0fae755ff94aaeba158813236cfda766a97bea/Images/COCNodeGraphExample.png
+createdAt: 1583740036002
