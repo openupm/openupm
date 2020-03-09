@@ -1,0 +1,19 @@
+name: com.jeffcampbellmakesgames.autopresets
+displayName: JCMG AutoPresets
+description: >-
+  Auto Preset enables scriptable configuration of assets from the Unity Editor
+  without requiring any additional code.
+repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-auto-preset'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/unity-auto-preset/raw/1ca94dc44bf744e0db7ca5ceabbd81545c60c1d2/Images/AutoPresetConfigInspector.png
+createdAt: 1583748685245
