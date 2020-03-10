@@ -1,0 +1,14 @@
+name: com.cysharp.unitask
+displayName: UniTask
+description: Provides an efficient async/await integration to Unity.
+repoUrl: 'https://github.com/starikcetin/UniTask'
+parentRepoUrl: 'https://github.com/Cysharp/UniTask'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: starikcetin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1583851473495
