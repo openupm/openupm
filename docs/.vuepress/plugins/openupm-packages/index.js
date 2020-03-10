@@ -115,11 +115,9 @@ module.exports = function(options, context) {
         );
         const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
         // Recent packages
-        const recentPackages = _.orderBy(
-          packages,
-          ["createdAt"],
-          ["desc"]
-        ).slice(0, 10);
+        const recentPackages = _.orderBy(packages, ["createdAt"], ["desc"])
+          .filter(x => !x.excludedFromList)
+          .slice(0, 10);
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
