@@ -1,0 +1,16 @@
+name: com.adrenak.unex
+displayName: Unex
+description: 'Unity3D, extended. Includes hotkeys, C# extensions, utilities and more.'
+repoUrl: 'https://github.com/adrenak/Unex'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor
+  - library
+  - ui
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1583867087239
