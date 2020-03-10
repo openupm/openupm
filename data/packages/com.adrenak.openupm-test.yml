@@ -11,3 +11,4 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1583839539393
+excludedFromList: true
