@@ -1,3 +1,10 @@
+## [1.18.2](https://github.com/openupm/openupm/compare/1.18.1...1.18.2) (2020-03-10)
+
+
+### Bug Fixes
+
+* **web:** recent packages shall respect excludedFromList property ([48856d9](https://github.com/openupm/openupm/commit/48856d9d5ad3970ab1638d07d6cb052d6896a996))
+
 ## [1.18.1](https://github.com/openupm/openupm/compare/1.18.0...1.18.1) (2020-02-26)
 
 
