@@ -1,0 +1,14 @@
+name: link.xmaho.dotsutility
+displayName: x.maho DOTS Utility
+description: FORNO's Unity DOTS utility library
+repoUrl: 'https://github.com/forno/XmahoDOTSUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+hunter: forno
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1583908252921
