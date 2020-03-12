@@ -1,0 +1,18 @@
+name: com.e7.notch-solution
+displayName: Notch Solution
+description: >-
+  A set of components and tools to solve notched/cutout phones layout problems
+  for Unity.
+repoUrl: 'https://github.com/5argon/NotchSolution'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - ui
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/5argon/NotchSolution/raw/48e4b9fe2f07f68e13aaa597574a9f196c8d8456/Documentation~/images/main-screenshot.gif
+createdAt: 1584014529024
