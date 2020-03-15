@@ -1,0 +1,14 @@
+name: com.rfadeev.pumpeditor
+displayName: Pump Editor
+description: Collection of Unity editor helpers to boost productivity.
+repoUrl: 'https://github.com/rfadeev/pump-editor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor
+hunter: rfadeev
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584270069621
