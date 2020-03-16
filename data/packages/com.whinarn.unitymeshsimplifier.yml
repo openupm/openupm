@@ -1,0 +1,14 @@
+name: com.whinarn.unitymeshsimplifier
+displayName: Unity Mesh Simplifier
+description: Mesh simplification for Unity.
+repoUrl: 'https://github.com/Whinarn/UnityMeshSimplifier'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: Whinarn
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584388037725
