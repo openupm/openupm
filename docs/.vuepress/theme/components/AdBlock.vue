@@ -1,5 +1,5 @@
 <template>
-  <div v-if="ad.active" class="ad-block">
+  <div v-if="active" class="ad-block">
     <a class="ad-text" :href="ad.link">{{ ad.text }}</a>
     <span class="ad-attr">{{ ad.attr }}</span>
   </div>
@@ -17,6 +17,15 @@ export default {
         active: false
       }
     };
+  },
+  computed: {
+    active() {
+      return (
+        this.ad.active &&
+        Date.now() > Date.parse(this.ad.start) &&
+        Date.now() < Date.parse(this.ad.end)
+      );
+    }
   },
   mounted() {
     this.fetchData();
