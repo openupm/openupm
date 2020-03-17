@@ -22,14 +22,15 @@ module.exports = function(options, context) {
     name: "openupm-packages",
 
     async extendPageData($page) {
-      const data = await plugin.getData();
-      $page.packageCount = data.packageNames.length;
-      $page.recentPackages = data.recentPackages;
+      if ($page.path == "/") {
+        const data = await plugin.getData();
+        $page.packageCount = data.packageNames.length;
+        $page.recentPackages = data.recentPackages;
+      }
     },
 
     async additionalPages() {
       const data = await plugin.getData();
-      pluginData.data = data;
       let pages = [];
       pages = pages.concat(await plugin.genListPages(data));
       pages = pages.concat(await plugin.genDetailPages(data));
