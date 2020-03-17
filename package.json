@@ -55,7 +55,7 @@
     "prettier": "^1.18.2",
     "rewire": "^4.0.1",
     "sass-loader": "^8.0.0",
-    "semantic-release": "^17.0.1",
+    "semantic-release": "^17.0.4",
     "serve": "^11.2.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2",
