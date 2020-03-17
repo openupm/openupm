@@ -1,9 +1,9 @@
-/* Package extra model.
+/* Store extra package data to Redis.
  *
- * Redis structure: pkg:$name: HASH
- * e.g.
- *     pkg:com.company.sample-package
- *       invalidTags: JSON_STRING
+ *   pkg:$pkgname
+ *     invalidTags: JSON array
+ *     stars: int
+ *     unity: string
  */
 
 const redis = require("../db/redis");
@@ -13,7 +13,8 @@ const packageKey = "pkg:";
 const propKeys = {
   invalidTags: "invalidTags",
   unityVersion: "unity",
-  stars: "stars"
+  stars: "stars",
+  readme: "readme"
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -44,6 +45,15 @@ const getStars = async function(packageName) {
   return parseInt(text);
 };
 
+const setReadme = async function(packageName, readme) {
+  await setValue(packageName, propKeys.readme, readme);
+};
+
+const getReadme = async function(packageName) {
+  const text = await getValue(packageName, propKeys.readme);
+  return text;
+};
+
 const setValue = async function(packageName, propKey, propVal) {
   const key = packageKey + packageName;
   await redis.client.hset(key, propKey, propVal);
@@ -54,12 +64,19 @@ const getValue = async function(packageName, propKey) {
   return await redis.client.hget(key, propKey);
 };
 
-const setAllPackagesExtra = async function(obj) {
+/**
+ * Set aggregated extra data.
+ * @param {object} obj
+ */
+const setAggregatedExtraData = async function(obj) {
   const jsonText = JSON.stringify(obj, null, 0);
   await redis.client.set(allPackagesExtraKey, jsonText);
 };
 
-const getAllPackagesExtra = async function() {
+/**
+ * Get aggregated extra data.
+ */
+const getAggregatedExtraData = async function() {
   const jsonText = await redis.client.get(allPackagesExtraKey);
   return jsonText === null ? {} : JSON.parse(jsonText);
 };
@@ -71,6 +88,8 @@ module.exports = {
   getUnityVersion,
   setStars,
   getStars,
-  setAllPackagesExtra,
-  getAllPackagesExtra
+  setReadme,
+  getReadme,
+  setAggregatedExtraData,
+  getAggregatedExtraData
 };

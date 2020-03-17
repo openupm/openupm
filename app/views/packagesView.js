@@ -15,19 +15,30 @@ const releaseFields = [
   "updatedAt"
 ];
 
+/**
+ * Get aggregated package extra data.
+ */
 router.get("/extra", async function(req, res) {
-  const data = await PackageExtra.getAllPackagesExtra();
+  const data = await PackageExtra.getAggregatedExtraData();
   res.json(data);
 });
 
+/**
+ * Get package info for given package name.
+ */
 router.get("/:name", async function(req, res) {
   let packageName = req.params.name;
+  // Get releases sorted by semver
   let releases = await Release.fetchAll(packageName);
   releases = releases.map(x => pick(x, releaseFields));
   releases.sort((a, b) => semver.rcompare(a["version"], b["version"]));
+  // Get invalid tags
   let invalidTags = await PackageExtra.getInvalidTags(packageName);
   invalidTags = invalidTags.map(x => x.tag);
-  let data = { releases, invalidTags };
+  // Get readme
+  let readme = await PackageExtra.getReadme(packageName);
+  // Return as JSON
+  let data = { releases, invalidTags, readme };
   res.json(data);
 });
 

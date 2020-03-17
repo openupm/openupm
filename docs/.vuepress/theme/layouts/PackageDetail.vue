@@ -552,34 +552,27 @@ export default {
   },
   methods: {
     onStart() {
-      this.fetchRepoReadme();
       this.fetchRepoInfo();
       this.fetchRepoTagsInfo();
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
     },
-    async fetchRepoReadme() {
-      // Fetch repo readme.
-      const title = "# " + this.packageName + "\n";
-      try {
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.$package.repo, "readme"),
-          { headers: { Accept: "application/vnd.github.v3.raw" } }
-        );
-        let readmeRaw = resp.data;
+    handleRepoReadme() {
+      const titleLine = "# " + this.packageName + "\n";
+      let readmeRaw = this.packageInfo.readme;
+      if (readmeRaw) {
         // Insert h1 if need.
         if (
           !/^# /m.test(readmeRaw) &&
           !/^===/m.test(readmeRaw) &&
           !/^<h1/m.test(readmeRaw)
         ) {
-          readmeRaw = title + readmeRaw;
+          readmeRaw = titleLine + readmeRaw;
         }
         this.$data.readmeRaw = readmeRaw;
-      } catch (error) {
-        console.error(error);
+      } else {
         // Rollback to default readme.
-        this.$data.readmeRaw = `${title}
+        this.$data.readmeRaw = `${titleLine}
 ${this.$package.description}
 
 See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
@@ -624,6 +617,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       } catch (error) {
         console.error(error);
       }
+      this.handleRepoReadme();
     },
     async fetchRegistryInfo() {
       try {

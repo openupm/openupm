@@ -38,7 +38,7 @@ describe("app/views/packagesView.js", function() {
         ...release
       });
     }
-    await PackageExtra.setAllPackagesExtra({});
+    await PackageExtra.setAggregatedExtraData({});
   });
   afterEach(async function() {
     await redis.client.del("rel:sample-package");
