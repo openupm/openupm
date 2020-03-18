@@ -1,0 +1,14 @@
+name: com.zaikman.unity-editorconfig
+displayName: Unity EditorConfig
+description: null
+repoUrl: 'https://github.com/laicasaane/unity-editorconfig'
+parentRepoUrl: 'https://github.com/zaikman/unity-editorconfig'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584520647992
