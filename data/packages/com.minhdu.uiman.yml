@@ -1,0 +1,14 @@
+name: com.minhdu.uiman
+displayName: UIMan
+description: Unity package repo for UIMan
+repoUrl: 'https://github.com/grashaar/uiman'
+parentRepoUrl: 'https://github.com/minhdu/uiman'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - library
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584522386377
