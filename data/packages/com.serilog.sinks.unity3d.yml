@@ -1,0 +1,14 @@
+name: com.serilog.sinks.unity3d
+displayName: Serilog Sink for Unity 3D
+description: Serilog Sink for unity 3D Debug log
+repoUrl: 'https://github.com/KuraiAndras/Serilog.Sinks.Unity3D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584568836674
