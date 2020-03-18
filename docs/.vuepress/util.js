@@ -90,6 +90,7 @@ const _markedUtils = {
   postMarkdown: function(html, { imageBaseUrl }) {
     const root = $(`<div>${html}</div>`);
     root.find("img").attr("src", (idx, attr) => {
+      if (attr === undefined) return undefined;
       if (!httpRe.test(attr)) attr = urljoin(imageBaseUrl, attr);
       return attr;
     });
