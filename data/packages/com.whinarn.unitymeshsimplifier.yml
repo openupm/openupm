@@ -9,6 +9,6 @@ topics:
   - library
 hunter: Whinarn
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-legacy$'
 image: null
 createdAt: 1584388037725
