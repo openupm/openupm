@@ -1,0 +1,14 @@
+name: com.bss.texteditor
+displayName: BSS Text Editor
+description: Text Editor for Unity
+repoUrl: 'https://github.com/bss1284/texteditor-unity-plugin'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - editor
+hunter: bss1284
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585043329965
