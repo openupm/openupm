@@ -1,0 +1,14 @@
+name: com.omiyagames.common
+displayName: Omiya Games - Common
+description: Unity package containing libraries used by various Omiya Games tools
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-common'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585431583441
