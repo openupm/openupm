@@ -1,0 +1,14 @@
+name: com.unityextensions.dependencyinjection
+displayName: UnityExtensions.DependencyInjection
+description: null
+repoUrl: 'https://github.com/KuraiAndras/UnityExtensions.DependencyInjection'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585506613323
