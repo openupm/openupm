@@ -1,3 +1,10 @@
+## [1.18.4](https://github.com/openupm/openupm/compare/1.18.3...1.18.4) (2020-03-31)
+
+
+### Bug Fixes
+
+* **website:** package card title overflow-wrap ([d660a43](https://github.com/openupm/openupm/commit/d660a43b9143648b7c7bf933bec911c176e7f4a7))
+
 ## [1.18.3](https://github.com/openupm/openupm/compare/1.18.2...1.18.3) (2020-03-18)
 
 
