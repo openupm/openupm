@@ -1,0 +1,15 @@
+name: com.stella3d.sharedarray
+displayName: Shared Array
+description: Zero-copy sharing between managed and native arrays in Unity
+repoUrl: 'https://github.com/stella3d/SharedArray'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - library
+hunter: stella3d
+gitTagPrefix: v
+gitTagIgnore: ''
+image: null
+createdAt: 1585626276234
