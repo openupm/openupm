@@ -1,0 +1,14 @@
+name: com.rsg.promise
+displayName: 'C# Promise'
+description: null
+repoUrl: 'https://github.com/RoryDungan/C-Sharp-Promise-UPM'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - library
+hunter: RoryDungan
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585634643883
