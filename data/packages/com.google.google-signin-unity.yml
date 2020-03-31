@@ -6,11 +6,10 @@ parentRepoUrl: 'https://github.com/googlesamples/google-signin-unity'
 licenseSpdxId: null
 licenseName: ''
 topics:
-  - 2d
   - mobile
   - network
 hunter: ''
-gitTagPrefix: ''
+gitTagPrefix: 'ns'
 gitTagIgnore: ''
 image: null
 createdAt: 1585658124681
