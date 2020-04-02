@@ -1,3 +1,10 @@
+## [1.18.5](https://github.com/openupm/openupm/compare/1.18.4...1.18.5) (2020-04-02)
+
+
+### Bug Fixes
+
+* treat ReleaseReason.None as a retryable reason (close: [#137](https://github.com/openupm/openupm/issues/137)) ([9b372a2](https://github.com/openupm/openupm/commit/9b372a252a46b3409be4bdfb170fd73c824093cb))
+
 ## [1.18.4](https://github.com/openupm/openupm/compare/1.18.3...1.18.4) (2020-03-31)
 
 
