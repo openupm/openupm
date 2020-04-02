@@ -201,7 +201,7 @@
                       <span>
                         No git tag found in <NavLink :item="tagsNavLink" />. See
                         <a
-                          href="/docs/adding-upm-package.html#handling-the-repository-without-git-tags"
+                          href="/docs/adding-upm-package.html#handling-a-repository-without-git-tag"
                         >
                           handling repository without releases.
                         </a>
