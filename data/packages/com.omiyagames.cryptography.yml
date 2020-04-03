@@ -1,0 +1,14 @@
+name: com.omiyagames.cryptography
+displayName: Omiya Games - Cryptography
+description: Tool to encrypt and decrypt a string.
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-cryptography'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585957221289
