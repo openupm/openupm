@@ -42,6 +42,7 @@ const ReleaseReason = new Enum({
  * build should be retired whenever possible.
  */
 const RetryableReleaseReason = [
+  ReleaseReason.None,
   ReleaseReason.Unauthorized,
   ReleaseReason.Forbidden,
   ReleaseReason.EntityTooLarge,

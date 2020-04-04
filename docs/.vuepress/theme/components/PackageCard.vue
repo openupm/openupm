@@ -91,6 +91,9 @@ export default {
     box-shadow 0 .25rem .5rem rgba(48, 55, 66, .15)
     height 100%
 
+    .card-title
+      overflow-wrap: break-word;
+
     .card-image
       img
         width 100%

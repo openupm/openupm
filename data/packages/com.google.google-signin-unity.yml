@@ -1,0 +1,16 @@
+name: com.google.google-signin-unity
+displayName: Google Sign-In API plugin
+description: Google Sign-In API plugin for Unity game engine.  Works with Android and iOS.
+repoUrl: 'https://github.com/n0ise9914/google-signin-unity'
+parentRepoUrl: 'https://github.com/googlesamples/google-signin-unity'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - mobile
+  - network
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585658124681

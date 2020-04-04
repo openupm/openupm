@@ -1,0 +1,14 @@
+name: com.gameframe.async
+displayName: Gameframe.Async
+description: Task and Async helper package for Unity
+repoUrl: 'https://github.com/coryleach/UnityAsync'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - library
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585498525419
