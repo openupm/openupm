@@ -1,0 +1,14 @@
+name: com.injecter.unity
+displayName: Injecter.Unity
+description: null
+repoUrl: 'https://github.com/KuraiAndras/Injecter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: KuraiAndras
+gitTagPrefix: openupm-
+gitTagIgnore: ''
+image: null
+createdAt: 1585990923162
