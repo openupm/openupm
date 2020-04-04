@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - library
 hunter: KuraiAndras
-gitTagPrefix: openupm-
+gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585990923162
