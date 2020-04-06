@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - ar-vr
 hunter: ''
-gitTagPrefix: ''
+gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 image: null
 createdAt: 1586162417819
