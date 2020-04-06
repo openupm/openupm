@@ -1,0 +1,14 @@
+name: net.caffeineinject.univrm
+displayName: UniVRM (Unofficial)
+description: Unity package that can import and export VRM format
+repoUrl: 'https://github.com/t5ujiri/UniVRM'
+parentRepoUrl: 'https://github.com/vrm-c/UniVRM'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-vr
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586162417819
