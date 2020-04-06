@@ -1,5 +1,5 @@
 name: net.roystan.unitygrassgeometryshader
-displayName: Unity Grass Geomtry Shader
+displayName: Unity Grass Geometry Shader
 description: >-
   Source code for Grass Shader tutorial for Unity. Generates blades with a
   geometry shader, tessellates input mesh to control density.
