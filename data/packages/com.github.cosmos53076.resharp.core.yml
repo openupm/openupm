@@ -1,0 +1,14 @@
+name: com.github.cosmos53076.resharp.core
+displayName: ReSharp.Core
+description: ReSharp.Core is a .NET Standard library.
+repoUrl: 'https://github.com/cosmos53076/ReSharp.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - library
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586238989397
