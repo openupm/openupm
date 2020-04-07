@@ -3,8 +3,8 @@ displayName: 'C# Promise'
 description: null
 repoUrl: 'https://github.com/RoryDungan/C-Sharp-Promise-UPM'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: 'MIT'
+licenseName: 'MIT License'
 topics:
   - library
 hunter: RoryDungan
