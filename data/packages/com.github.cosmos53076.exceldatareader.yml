@@ -1,0 +1,17 @@
+name: com.github.cosmos53076.exceldatareader
+displayName: ExcelDataReader
+description: >-
+  Lightweight and fast library written in C# for reading Microsoft Excel files.
+  This repository is made for unity package manager.
+repoUrl: 'https://github.com/cosmos53076/ExcelDataReader-upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - library
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586317526636
