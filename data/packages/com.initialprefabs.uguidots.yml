@@ -1,0 +1,15 @@
+name: com.initialprefabs.uguidots
+displayName: UGUIDots
+description: Converting uGUI to be DOTS compliant
+repoUrl: 'https://github.com/InitialPrefabs/UGUIDots'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots
+  - ui
+hunter: psuong
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586377996311
