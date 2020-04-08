@@ -1,0 +1,17 @@
+name: com.github.cosmos53076.sharpziplib
+displayName: SharpZipLib
+description: >-
+  #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the
+  .NET platform. This repository is made for unity package manager.
+repoUrl: 'https://github.com/cosmos53076/SharpZipLib-upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - data-management
+  - library
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586316925344
