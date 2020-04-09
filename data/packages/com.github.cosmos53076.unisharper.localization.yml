@@ -1,0 +1,16 @@
+name: com.github.cosmos53076.unisharper.localization
+displayName: UniSharper.Localization
+description: >-
+  UniSharper.Localization is a serialization data driven text localization for
+  Unity application.
+repoUrl: 'https://github.com/cosmos53076/UniSharper.Localization'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - localization
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586449249918
