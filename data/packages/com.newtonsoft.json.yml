@@ -1,7 +1,7 @@
 name: com.newtonsoft.json
 displayName: com.newtonsoft.json
 description: Unity package manager setup for Newtonsoft's JSON library
-repoUrl: 'https://github.com/PixelWizards/com.newtonsoft.json'
+repoUrl: 'https://github.com/iDreamsOfGame/com.newtonsoft.json'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
