@@ -10,7 +10,7 @@ licenseName: MIT
 topics:
   - library
 hunter: ''
-gitTagPrefix: upm
+gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1586225582242
