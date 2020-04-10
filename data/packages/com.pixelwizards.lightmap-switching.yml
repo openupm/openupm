@@ -1,0 +1,17 @@
+name: com.pixelwizards.lightmap-switching
+displayName: Lightmap Switcher
+description: >-
+  Tool that allows switching different baked lightmap sets on a unity scene at
+  runtime.
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.lightmap-switching'
+parentRepoUrl: 'https://github.com/laurenth-personal/lightmap-switching-tool'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor
+hunter: PixelWizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586491914263
