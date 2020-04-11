@@ -1,0 +1,14 @@
+name: com.redbluegames.texttyper
+displayName: TextTyper
+description: Text typing effect for Unity uGUI Text components
+repoUrl: 'https://github.com/laicasaane/unity-text-typer'
+parentRepoUrl: 'https://github.com/redbluegames/unity-text-typer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ui
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586616529227
