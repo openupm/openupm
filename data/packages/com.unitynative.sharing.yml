@@ -10,7 +10,7 @@ licenseName: GNU General Public License v3.0
 topics:
   - mobile
 hunter: NicholasSheehan
-gitTagPrefix: ''
+gitTagPrefix: v
 gitTagIgnore: ''
 image: null
 createdAt: 1586775558425
