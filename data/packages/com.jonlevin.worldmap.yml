@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - library
 hunter: ''
-gitTagPrefix: release-
+gitTagPrefix: v
 gitTagIgnore: ''
 image: null
 createdAt: 1586955876205
