@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/redbluegames/unity-text-typer'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - ui
+  - gui
 hunter: laicasaane
 gitTagPrefix: ''
 gitTagIgnore: ''

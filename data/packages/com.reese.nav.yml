@@ -8,8 +8,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ai
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
   - physics
 hunter: reeseschultz
 gitTagPrefix: nav/

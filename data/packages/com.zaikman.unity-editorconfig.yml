@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/zaikman/unity-editorconfig'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: laicasaane
 gitTagPrefix: ''
 gitTagIgnore: ''

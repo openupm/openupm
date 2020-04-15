@@ -8,8 +8,8 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
-  - library
+  - editor-enhancement
+  - utilities
 hunter: peeweek
 gitTagIgnore: ''
 createdAt: 1579776641040

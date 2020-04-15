@@ -6,9 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''

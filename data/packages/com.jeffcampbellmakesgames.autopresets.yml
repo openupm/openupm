@@ -10,7 +10,7 @@ licenseName: MIT License
 topics:
   - asset-management
   - data-management
-  - editor
+  - editor-enhancement
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''

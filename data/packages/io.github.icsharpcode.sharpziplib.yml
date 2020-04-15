@@ -8,7 +8,7 @@ parentRepoUrl: 'https://github.com/icsharpcode/SharpZipLib'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: iDreamsOfGame
 gitTagPrefix: upm
 gitTagIgnore: ''

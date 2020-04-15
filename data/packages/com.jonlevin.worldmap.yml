@@ -6,7 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
+  - level-design
 hunter: ''
 gitTagPrefix: v
 gitTagIgnore: ''

@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - dots
+  - dots-and-ecs
   - physics
 hunter: johanhelsing
 gitTagPrefix: ''

@@ -54,7 +54,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 # list of topic slugs
 topics:
-  - library
+  - utilities
 # Filter git tags based on prefix. Used by monorepos to separate pacakges
 gitTagPrefix: ''
 # A regular expression to ignore git tags

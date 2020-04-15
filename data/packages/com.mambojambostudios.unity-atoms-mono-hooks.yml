@@ -6,7 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 gitTagIgnore: ''
 createdAt: 1579527755944
