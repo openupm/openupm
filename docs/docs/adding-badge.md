@@ -5,7 +5,7 @@ showFooter: false
 ---
 # Adding Badge
 
-Package creator (owner) is encouraged to add badge to the package GitHub README file.
+The package creator (owner) is encouraged to add the badge to the package GitHub README file.
 
 ![badge-example](./images/badge-example.svg)
 
@@ -21,6 +21,6 @@ Package creator (owner) is encouraged to add badge to the package GitHub README 
 
 To add badge like above
 1. Visit the package detail page, and scrolling down to the badge section
-2. Click the html / markdown link to copy code to clipboard
-3. Paste the html code to your README file
+2. Click the HTML / markdown link to copy code to clipboard
+3. Paste the HTML code to your README file
 4. Commit and push to GitHub

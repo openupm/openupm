@@ -37,9 +37,9 @@ $ openupm --version
 1.1.0
 ```
 
-## Installing an UPM Package
+## Installing a UPM Package
 
-Next step is creating a new Unity project, located at path `~/Document/projects/hello-openupm`.
+The next step is creating a new Unity project, located at path `~/Document/projects/hello-openupm`.
 
 Let's install [Unity Addressable Importer](https://github.com/favoyang/unity-addressable-importer) a helper package to manage addressable assets. First you need identify the package name.
 
@@ -64,7 +64,7 @@ It returns the package name `com.littlebigfun.addressable-importer`.
 You can directly copy the *install command* from the [package detail page](/packages/com.littlebigfun.addressable-importer) of the openupm website.
 :::
 
-Let's install the package via `add` command.
+Let's install the package via the `add` command.
 
 ```sh
 $ openupm add com.littlebigfun.addressable-importer
@@ -85,7 +85,7 @@ $ openupm add com.unity.addressables
 added: com.unity.addressables@1.5.0
 manifest updated, please open unity project to apply changes
 ```
-Go back to unity editor, wait for the package manager to resolve package changes. Then you shall see the latest version of `Addressables` appears in the package manager window.
+Go back to the Unity editor, wait for the package manager to resolve package changes. Then you shall see the latest version of `Addressables` appears in the package manager window.
 
 ![Upgrade package](./images/getting-started-upgrade-package.png)
 
@@ -95,7 +95,7 @@ As of December 2019, the openupm-cli only resolves package dependencies, to add 
 
 ## Understanding Manifest Changes
 
-To understand the underlying changes of the manifest file, let's print the json content.
+To understand the underlying changes of the manifest file, let's print the JSON content.
 
 ```json
 $ cat Packages/manifest.json
