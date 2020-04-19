@@ -1,0 +1,15 @@
+name: com.littlebigfun.action-sender
+displayName: Unity Action Sender
+description: A type-safe replacement to SendMessage.
+repoUrl: 'https://github.com/favoyang/unity-action-sender'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/favoyang/unity-action-sender/raw/9e1f7689b362a9ee9de8214f54f91f250ca456a3/Media~/icon-512.png
+createdAt: 1587277021390
