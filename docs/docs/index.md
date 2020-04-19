@@ -13,13 +13,13 @@ OpenUPM is not an official service provided by Unity Technologies Inc.
 
 ## How It Works
 
-### Scope Registry and Command Line Tool
+### Scope Registry and Command-Line Tool
 
 Unity supports [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
 
 However, the downside of the scoped registry is that you need [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) to make it work. That's not a problem when work with a single namespace, but can be really challenge to manage a public registry with various packages and namespaces. Custom package dependencies make the issue worse, thinking about that package-a depends on package-b, while package-b depends on package-c. All three namespaces should be added to the scope field.
 
-To solve the issue, as the first step, a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like bash for Mac/Linux, or Git-bash, CMD and PowerShell for Windows.
+To solve the issue, as the first step, a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like Bash for Mac/Linux, or Git-Bash, CMD, and PowerShell for Windows.
 
 @flowstart
 cli=>operation: OpenUPM-CLI
