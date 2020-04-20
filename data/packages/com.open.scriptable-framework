@@ -14,5 +14,6 @@ topics:
 hunter: pablothedolphin
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image:  >-
+  https://github.com/pablothedolphin/Scriptable-Framework/raw/master/docfx/template/logo.png
 createdAt: 1587371076414
