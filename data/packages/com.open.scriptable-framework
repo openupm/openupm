@@ -1,0 +1,18 @@
+name: com.open.scriptable-framework
+displayName: Scriptable Framework
+description: >-
+  A Unity Framework for modular app creation based on ScriptableObject
+  architecture, data oriented design and event driven programming to help
+  programmers and designers adhere to the 5 SOLID programming principals.
+repoUrl: 'https://github.com/pablothedolphin/Scriptable-Framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: pablothedolphin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587371076414
