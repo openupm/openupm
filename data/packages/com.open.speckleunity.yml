@@ -1,0 +1,17 @@
+name: com.open.speckleunity
+displayName: SpeckleUnity
+description: Speckle in Unity
+repoUrl: 'https://github.com/speckleworks/SpeckleUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+  - modeling
+  - network
+hunter: pablothedolphin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587370355167
