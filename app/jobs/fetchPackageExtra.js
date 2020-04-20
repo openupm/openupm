@@ -3,6 +3,7 @@
  **/
 
 const axios = require("axios");
+const cheerio = require("cheerio");
 const config = require("config");
 const urljoin = require("url-join");
 const packageExtra = require("../models/packageExtra");
@@ -30,6 +31,7 @@ const fetchExtraData = async function(packageNames) {
     const pkg = await loadPackage(packageName);
     await _fetchUnityVersion(packageName);
     await _fetchStars(pkg.repo, packageName);
+    await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg.repo, packageName);
   }
 };
@@ -82,6 +84,43 @@ const _fetchStars = async function(repo, packageName) {
 };
 
 /**
+ * Fetch repository og:image.
+ * @param {string} repo
+ * @param {*} packageName
+ */
+const _fetchOGImage = async function(pkg, packageName) {
+  // Helper method to fetch og:image.
+  const _fetchOGImageForRepo = async function(repo) {
+    try {
+      const url = urljoin("https://github.com/", repo);
+      const resp = await axios.get(url);
+      const text = resp.data;
+      const $ = cheerio.load(text);
+      let ogImageUrl = $("meta[property='og:image']").attr("content");
+      if (/^https:\/\/avatar/.test(ogImageUrl)) {
+        ogImageUrl = "";
+      }
+      return ogImageUrl;
+    } catch (error) {
+      console.error(error);
+      return "";
+    }
+  };
+  // Fetch from repo.
+  let imageUrl = await _fetchOGImageForRepo(pkg.repo);
+  // Fetch from parent repo.
+  if (!imageUrl && pkg.parentRepo) {
+    imageUrl = await _fetchOGImageForRepo(pkg.parentRepo);
+  }
+  // Save it.
+  try {
+    await packageExtra.setImageUrl(packageName, imageUrl);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+/**
  * Fetch repository readme.
  * @param {string} repo
  */
@@ -119,6 +158,8 @@ const aggregateExtraData = async function() {
     data.stars = stars || 0;
     const unity = await packageExtra.getUnityVersion(packageName);
     data.unity = unity || "2018.1";
+    const imageUrl = await packageExtra.getImageUrl(packageName);
+    data.imageUrl = imageUrl || "";
     aggData[packageName] = data;
   }
   await packageExtra.setAggregatedExtraData(aggData);
