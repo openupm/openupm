@@ -13,5 +13,6 @@ topics:
 hunter: pablothedolphin
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image:  >-
+  https://github.com/speckleworks/SpeckleUnity/raw/master/SpeckleUnity/Assets/SpeckleUnity/Editor/speckle-logo.png
 createdAt: 1587370355167
