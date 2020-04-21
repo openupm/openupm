@@ -15,6 +15,7 @@
 
 <script>
 import PackageCard from "@theme/components/PackageCard.vue";
+import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { PackageCard },
@@ -28,8 +29,14 @@ export default {
     return {};
   },
   computed: {
+    packagesExtra() {
+      return this.$store.getters.packagesExtra;
+    },
     packages() {
-      return this.$page.recentPackages.slice(0, this.count);
+      const pkgs = this.$page.recentPackages.slice(0, this.count).map(x => {
+        return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
+      });
+      return pkgs;
     }
   }
 };

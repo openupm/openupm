@@ -116,9 +116,26 @@ const _timeUtils = {
   }
 };
 
+const _packageUtils = {
+  // Join package with extra data.
+  joinPackageExtra(pkg, extra) {
+    if (!extra) {
+      extra = {};
+    }
+    const result = {
+      ...pkg,
+      ...extra,
+      sortName: pkg.link.text
+    };
+    result.image = extra.imageUrl || pkg.image;
+    return result;
+  }
+};
+
 export default {
   ..._urlUtils,
   ..._markedUtils,
   ..._pageUtils,
-  ..._timeUtils
+  ..._timeUtils,
+  ..._packageUtils
 };
