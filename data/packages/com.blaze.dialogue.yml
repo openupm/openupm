@@ -1,0 +1,15 @@
+name: com.blaze.dialogue
+displayName: Blaze Dialogue
+description: 'Smart properties with data binding, events, save/load functions for unity'
+repoUrl: 'https://github.com/BennyKok/unity-blaze'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: BennyKok
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/BennyKok/unity-blaze/raw/0c6ef75bdbef7e35fa6e19e03066747c2be64e90/Screenshots/Dialogue%20Screenshot.png
+createdAt: 1587441310377
