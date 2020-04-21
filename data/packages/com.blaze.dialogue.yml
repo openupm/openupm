@@ -1,6 +1,6 @@
 name: com.blaze.dialogue
 displayName: Blaze Dialogue
-description: 'Smart properties with data binding, events, save/load functions for unity'
+description: 'Lightweight dialogue system'
 repoUrl: 'https://github.com/BennyKok/unity-blaze'
 parentRepoUrl: null
 licenseSpdxId: MIT
