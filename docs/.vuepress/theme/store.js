@@ -1,5 +1,5 @@
 import axios from "axios";
-import createPersistedState from "vuex-persistedstate";
+// import createPersistedState from "vuex-persistedstate";
 import urljoin from "url-join";
 import util from "@root/docs/.vuepress/util";
 import Vue from "vue";
@@ -8,7 +8,7 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  plugins: [createPersistedState()],
+  // plugins: [createPersistedState()],
   state: {
     packagesExtra: []
   },
