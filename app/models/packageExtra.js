@@ -15,7 +15,8 @@ const propKeys = {
   unityVersion: "unity",
   stars: "stars",
   readme: "readme",
-  imageUrl: "imageUrl"
+  imageUrl: "imageUrl",
+  updatedTime: "updatedTime"
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -64,6 +65,15 @@ const getImageUrl = async function(packageName) {
   return text;
 };
 
+const setUpdatedTime = async function(packageName, updatedTime) {
+  await setValue(packageName, propKeys.updatedTime, updatedTime);
+};
+
+const getUpdatedTime = async function(packageName) {
+  const value = await getValue(packageName, propKeys.updatedTime);
+  return value;
+};
+
 const setValue = async function(packageName, propKey, propVal) {
   const key = packageKey + packageName;
   await redis.client.hset(key, propKey, propVal);
@@ -102,6 +112,8 @@ module.exports = {
   getReadme,
   setImageUrl,
   getImageUrl,
+  setUpdatedTime,
+  getUpdatedTime,
   setAggregatedExtraData,
   getAggregatedExtraData
 };

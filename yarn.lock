@@ -2174,6 +2174,11 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+basic-auth-parser@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/basic-auth-parser/-/basic-auth-parser-0.0.2.tgz#ce9e71a77f23c1279eecd2659b2a46244c156e41"
+  integrity sha1-zp5xp38jwSee7NJlmypGJEwVbkE=
+
 batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
@@ -8334,6 +8339,14 @@ node-sass@^4.13.0:
     sass-graph "^2.2.4"
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
+
+node-tunnel@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/node-tunnel/-/node-tunnel-4.0.0.tgz#f3886931f5d8ca359a2af883be7c3c3f2906c5fd"
+  integrity sha512-XR9lpcuI8yTVqe0scYedcXSBEBZsvXbFcKJVqBQGc+Ou0tI32aW/xjC3bIUXj19qQ/ZNkbQCTD0Ztbz0sclYmA==
+  dependencies:
+    basic-auth-parser "^0.0.2"
+    eventemitter3 "^4.0.0"
 
 nodemon@^2.0.2:
   version "2.0.2"

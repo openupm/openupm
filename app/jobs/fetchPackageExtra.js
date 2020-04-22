@@ -2,7 +2,6 @@
  * Fetch package extra data
  **/
 
-const axios = require("axios");
 const cheerio = require("cheerio");
 const config = require("config");
 const urljoin = require("url-join");
@@ -12,6 +11,7 @@ const {
   loadPackage,
   packageExists
 } = require("../utils/package");
+const { AxiosService } = require("../utils/http");
 const logger = require("../utils/log")(module);
 
 /**
@@ -29,6 +29,7 @@ const fetchExtraData = async function(packageNames) {
     }
     // Load package
     const pkg = await loadPackage(packageName);
+    await _fetchUpdatedTime(packageName);
     await _fetchUnityVersion(packageName);
     await _fetchStars(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
@@ -43,7 +44,7 @@ const fetchExtraData = async function(packageNames) {
  */
 const _fetchUnityVersion = async function(packageName) {
   try {
-    const resp = await axios.get(
+    const resp = await AxiosService.create().get(
       urljoin("https://package.openupm.com", packageName),
       {
         headers: { Accept: "application/json" }
@@ -69,7 +70,7 @@ const _fetchStars = async function(repo, packageName) {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
       headers.authorization = `Bearer ${config.gitHub.token}`;
-    const resp = await axios.get(
+    const resp = await AxiosService.create().get(
       urljoin("https://api.github.com/repos/", repo),
       { headers }
     );
@@ -93,7 +94,7 @@ const _fetchOGImage = async function(pkg, packageName) {
   const _fetchOGImageForRepo = async function(repo) {
     try {
       const url = urljoin("https://github.com/", repo);
-      const resp = await axios.get(url);
+      const resp = await AxiosService.create().get(url);
       const text = resp.data;
       const $ = cheerio.load(text);
       let ogImageUrl = $("meta[property='og:image']").attr("content");
@@ -129,12 +130,34 @@ const _fetchReadme = async function(repo, packageName) {
     const headers = { Accept: "application/vnd.github.v3.raw" };
     if (config.gitHub.token)
       headers.authorization = `Bearer ${config.gitHub.token}`;
-    const resp = await axios.get(
+    const resp = await AxiosService.create().get(
       urljoin("https://api.github.com/repos/", repo, "readme"),
       { headers }
     );
     const text = resp.data;
     await packageExtra.setReadme(packageName, text);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+/**
+ * Fetch package's last updated time from registry.
+ * @param {string} packageName
+ */
+const _fetchUpdatedTime = async function(packageName) {
+  try {
+    const resp = await AxiosService.create().get(
+      urljoin("https://package.openupm.com/", packageName),
+      {
+        headers: { Accept: "application/json" }
+      }
+    );
+    const data = resp.data || {};
+    const version = (data["dist-tags"] || {}).latest;
+    const timeStr = (data.time || {})[version] || 0;
+    const time = new Date(timeStr).getTime();
+    await packageExtra.setUpdatedTime(packageName, time);
   } catch (error) {
     console.error(error);
   }
@@ -159,7 +182,9 @@ const aggregateExtraData = async function() {
     const unity = await packageExtra.getUnityVersion(packageName);
     data.unity = unity || "2018.1";
     const imageUrl = await packageExtra.getImageUrl(packageName);
-    data.imageUrl = imageUrl || "";
+    data.imageUrl = imageUrl || undefined;
+    const updatedTime = await packageExtra.getUpdatedTime(packageName);
+    data.time = updatedTime || undefined;
     aggData[packageName] = data;
   }
   await packageExtra.setAggregatedExtraData(aggData);
