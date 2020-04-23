@@ -184,7 +184,7 @@ const aggregateExtraData = async function() {
     const imageUrl = await packageExtra.getImageUrl(packageName);
     data.imageUrl = imageUrl || undefined;
     const updatedTime = await packageExtra.getUpdatedTime(packageName);
-    data.time = updatedTime || undefined;
+    data.time = parseInt(updatedTime) || undefined;
     aggData[packageName] = data;
   }
   await packageExtra.setAggregatedExtraData(aggData);
