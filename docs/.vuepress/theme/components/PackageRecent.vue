@@ -5,7 +5,7 @@
       <div class="column col-12 col-sm-12">
         <masonry :cols="{ default: 3, 840: 2, 600: 1 }" :gutter="16">
           <div v-for="pkg in packages" :key="pkg.id">
-            <PackageCard :item="pkg" :show-created-at="true" />
+            <PackageCard :item="pkg" />
           </div>
         </masonry>
       </div>
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import _ from "lodash";
 import PackageCard from "@theme/components/PackageCard.vue";
 import util from "@root/docs/.vuepress/util";
 
@@ -33,10 +34,11 @@ export default {
       return this.$store.getters.packagesExtra;
     },
     packages() {
-      const pkgs = this.$page.recentPackages.slice(0, this.count).map(x => {
+      let pkgs = this.$page.packages.map(x => {
         return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
-      return pkgs;
+      pkgs = _.orderBy(pkgs, ["time"], ["desc"]);
+      return pkgs.slice(0, this.count);
     }
   }
 };

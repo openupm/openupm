@@ -78,10 +78,7 @@
             <section class="package-section">
               <masonry :cols="{ default: 2, 840: 1 }" :gutter="16">
                 <div v-for="pkg in packages" :key="pkg.id">
-                  <PackageCard
-                    :item="pkg"
-                    :show-created-at="$data.sort == 'date'"
-                  />
+                  <PackageCard :item="pkg" />
                 </div>
               </masonry>
             </section>
@@ -104,11 +101,11 @@ export default {
   components: { ParentLayout, NavLink, PackageCard },
   data() {
     return {
-      sort: "date",
+      sort: "time",
       sortList: [
         { text: "Name", slug: "name" },
         { text: "Popularity", slug: "pop" },
-        { text: "Recently Added", slug: "date" }
+        { text: "Recently Updated", slug: "time" }
       ],
       unity: ""
     };
@@ -137,7 +134,7 @@ export default {
       // Filter by unity
       if (this.unity) pkgs = pkgs.filter(x => x.unity == this.unity);
       // Sort
-      if (this.sort == "date") pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
+      if (this.sort == "time") pkgs = _.orderBy(pkgs, ["time"], ["desc"]);
       else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
       else if (this.sort == "name")
         pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);

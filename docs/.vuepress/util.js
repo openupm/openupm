@@ -124,9 +124,10 @@ const _packageUtils = {
     }
     const result = {
       ...pkg,
-      ...extra,
-      sortName: pkg.link.text
+      ...extra
     };
+    result.sortName = pkg.link.text;
+    result.time = extra.time || pkg.createdAt || 0;
     result.image = extra.imageUrl || pkg.image;
     return result;
   }

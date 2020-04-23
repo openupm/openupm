@@ -27,7 +27,7 @@ module.exports = function(options, context) {
       if ($page.path == "/") {
         const data = await plugin.getData();
         $page.packageCount = data.packageNames.length;
-        $page.recentPackages = data.recentPackages;
+        $page.packages = data.packages;
       }
     },
 
@@ -117,16 +117,16 @@ module.exports = function(options, context) {
           "../../../../data/backers.yml"
         );
         const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
-        // Recent packages
-        const recentPackages = _.orderBy(packages, ["createdAt"], ["desc"])
-          .filter(x => !x.excludedFromList)
-          .slice(0, 10);
+        // // Recent packages
+        // const recentAddedPackages = _.orderBy(packages, ["createdAt"], ["desc"])
+        //   .filter(x => !x.excludedFromList)
+        //   .slice(0, 10);
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
           packageNames,
           packages,
-          recentPackages,
+          // recentAddedPackages,
           packageByNamespace,
           topics,
           topicsWithAll,

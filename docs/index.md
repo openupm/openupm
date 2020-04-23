@@ -47,7 +47,7 @@ openupm-cli requires [Node.js 12](https://nodejs.org/en/)
 
 <h3 id="recent-packages">
   <a href="#recent-packages" aria-hidden="true" class="header-anchor">#</a>
-  Recent Packages
+  Recently Updated
   <a href="/packages/" class="btn btn-sm btn-show-more">Show more</a>
 </h3>
 

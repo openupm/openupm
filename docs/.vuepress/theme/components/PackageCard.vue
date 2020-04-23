@@ -43,8 +43,8 @@
           <span v-if="pkg.stars" class="chip">
             <i class="fa fa-star"></i>{{ pkg.stars }}
           </span>
-          <span v-if="showCreatedAt" class="chip">
-            <i class="fas fa-clock"></i>{{ pkg.createdAtText }}
+          <span class="chip">
+            <i class="fas fa-clock"></i>{{ pkg.timeAgoText }}
           </span>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default {
     pkg() {
       return {
         ...this.item,
-        createdAtText: util.timeAgoFormat(new Date(this.item.createdAt))
+        timeAgoText: util.timeAgoFormat(new Date(this.item.time))
       };
     }
   }
