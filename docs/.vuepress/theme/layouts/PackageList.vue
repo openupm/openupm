@@ -172,7 +172,7 @@ export default {
     unityOptions() {
       let unityList = Object.entries(this.packagesExtra).map(
         // eslint-disable-next-line no-unused-vars
-        ([key, value]) => value.unity
+        ([key, value]) => _.trim(value.unity)
       );
       unityList = _.reverse(_.uniq(unityList).sort());
       unityList.splice(0, 0, "");
