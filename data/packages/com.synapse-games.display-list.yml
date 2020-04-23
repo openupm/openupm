@@ -1,0 +1,15 @@
+name: com.synapse-games.display-list
+displayName: Display List
+description: Unity3D helper for for generating a list of UI elements from data
+repoUrl: 'https://github.com/kongregate/display-list'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: randomPoison
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587501039095

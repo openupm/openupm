@@ -6,6 +6,8 @@
  */
 
 import VueMasonry from "vue-masonry-css";
+import Vuex from "vuex";
+import store from "./store";
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -14,4 +16,6 @@ export default ({
   siteData // site metadata
 }) => {
   Vue.use(VueMasonry);
+  Vue.use(Vuex);
+  Vue.mixin({ store });
 };

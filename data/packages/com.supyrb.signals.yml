@@ -8,6 +8,6 @@ licenseName: MIT License
 image: >-
   https://github.com/supyrb/signals/raw/master/Documentation~/signals-preview-screenshot.png
 topics:
-  - library
+  - utilities
 hunter: JohannesDeml
 createdAt: 1576345395000

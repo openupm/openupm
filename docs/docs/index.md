@@ -5,7 +5,7 @@ showFooter: false
 ---
 # Introduction
 
-OpenUPM is a service for hosting and building open source UPM (Unity Package Manager) packages. It's composed of two parts: a managed UPM registry and automatic build pipelines. The intention is to create an universal platform to discover, share and distribute open source UPM packages.
+OpenUPM is a service for hosting and building open source UPM (Unity Package Manager) packages. It's composed of two parts: a managed UPM registry and automatic build pipelines. The intention is to create a universal platform to discover, share and distribute open-source UPM packages.
 
 ::: warning DISCLAIMER
 OpenUPM is not an official service provided by Unity Technologies Inc.
@@ -13,13 +13,13 @@ OpenUPM is not an official service provided by Unity Technologies Inc.
 
 ## How It Works
 
-### Scope Registry and Command Line Tool
+### Scope Registry and Command-Line Tool
 
 Unity supports [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
 
 However, the downside of the scoped registry is that you need [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) to make it work. That's not a problem when work with a single namespace, but can be really challenge to manage a public registry with various packages and namespaces. Custom package dependencies make the issue worse, thinking about that package-a depends on package-b, while package-b depends on package-c. All three namespaces should be added to the scope field.
 
-To solve the issue, as the first step, a command line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like bash for Mac/Linux, or git-bash, CMD and PowerShell for Windows.
+To solve the issue, as the first step, a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like Bash for Mac/Linux, or Git-Bash, CMD, and PowerShell for Windows.
 
 @flowstart
 cli=>operation: OpenUPM-CLI
@@ -59,15 +59,15 @@ A seamlessly unity editor integration may come in 2020, see [#10](https://github
 
 ### Automatic Build Pipelines
 
-OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source UPM repositories hosting on GitHub. The build pipelines monitoring the list, detecting valid git tags and publishing new package releases. The continuous publishing approach is different with the traditional package registry that requires the package owner/maintainer to submit publish releases manually. Though CI tool delivers a similar continuous publishing experience, while the way OpenUPM works enabling not only packager owners/maintainers, but any developers with a GitHub account to contribute new UPM packages to the platform. The later role is called the [package hunter](/contributors/) to help the platform grow faster.
+OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source UPM repositories hosting on GitHub. The build pipelines monitoring the list, detecting valid Git tags and publishing new package releases. The continuous publishing approach is different with the traditional package registry that requires the package owner/maintainer to submit publish releases manually. Though the CI tool delivers a similar continuous publishing experience, while the way OpenUPM works enabling not only packager owners/maintainers, but any developers with a GitHub account to contribute new UPM packages to the platform. The later role is called the [package hunter](/contributors/) to help the platform grow faster.
 
 ## Why Not ...?
 
 ### Unity Asset Store
 
-[Unity asset store](https://assetstore.unity.com/) is the official solution for publishing software SDKs, asset packs and services, offering both paid and free contents. Since Unity 2019.3, developer can download the installed assets directly from the UPM window. However assets are installed into the Asset folder, the old fashion way is a good for managing assets, but lacking the dependency management make it not good enough for managing libraries and tools. Unity has a progressive way to encourage it's large contents to convert to UPM format. But it takes years to achieve that.
+[Unity asset store](https://assetstore.unity.com/) is the official solution for publishing software SDKs, asset packs and services, offering both paid and free content. Since Unity 2019.3, developers can download the installed assets directly from the UPM window. However assets are installed into the Asset folder, the old fashion way is designed for managing assets. Lacking the dependency management make it not good enough for managing libraries and tools. Unity has a progressive way to encourage it's large contents to convert to UPM format. But it takes years to achieve that.
 
-OpenUPM is focusing on open source UPM packages from the day one. The open source Unity community is not very strong at the moment, but growing fast, and will eventually play an important role of Unity development.
+OpenUPM is focusing on open-source UPM packages from day one. The open-source Unity community is not very strong at the moment, but growing fast, and will eventually play an important role of Unity development.
 
 ### Other 3rd-party Registries
 
@@ -88,15 +88,15 @@ $ openupm search memory --registry=https://unitynuget-registry.azurewebsites.net
 
 ### UPM and Git Url
 
-Since Unity 2019.3, developer can install UPM package directly via git url. It's a quick way to install packages, however
-- lacking the version control.
-- lacking support for custom package with git dependencies. Git url is not the standard syntax of package dependency, hence you cannot resolve a custom package that depends on another custom package using git urls.
+Since Unity 2019.3, developers can install the UPM package directly via Git URL. It's a quick way to install packages, however
+- lacking version control.
+- lacking support for the custom package with Git dependencies. Git URL is not the standard syntax of package dependency, hence you cannot resolve a custom package that depends on another custom package using Git URLs.
 
-To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the git tag based version control and the [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity) for git urls. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform is still a better package discovery service.
+To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the Git tag based version control and the [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity) for Git URLs. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform is still a better package discovery service.
 
 ## The Power of Open Source
 
-OpenUPM is an open source service. It's impossible to make it work without these amazing projects and services.
+OpenUPM is an open-source service. It's impossible to make it work without these amazing projects and services.
 
 - [Verdaccio](https://verdaccio.org/) for the package registry
 - [Vuepress](https://vuepress.vuejs.org/) for writing docs

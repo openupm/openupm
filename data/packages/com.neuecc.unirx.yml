@@ -6,6 +6,6 @@ parentRepoUrl: 'https://github.com/neuecc/UniRx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 createdAt: 1576172256000

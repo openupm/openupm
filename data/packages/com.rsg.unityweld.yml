@@ -6,8 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - library
-  - ui
+  - utilities
+  - gui
 hunter: RoryDungan
 gitTagPrefix: ''
 gitTagIgnore: ''

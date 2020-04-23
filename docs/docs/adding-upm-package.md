@@ -7,7 +7,7 @@ showFooter: false
 
 ## UPM Package Criteria
 
-OpenUPM requires the package repository fulfils below criteria
+OpenUPM requires the package repository fulfills below criteria
 - Valid UPM structure, contains at least the `package.json` file, can be placed at a sub-folder.
 - Open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
 - Hosting on Github.
@@ -27,15 +27,15 @@ The `package.json` file is located at the root path of the master branch. It is 
 
 ### UPM Package at a Sub-folder
 
-The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. Git tags are based on the master branch. Build pipelines will detect the location of the `package.json` file, and handle it correctly.
+The master branch is usually a Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. Git tags are based on the master branch. Build pipelines will detect the location of the `package.json` file, and handle it correctly.
 
 ### UPM Package at a Sub-folder with UPM Branch
 
-The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. An `upm` branch is created from the package folder using the `git subtree split/push` command to make the `package.json` file placed at the root path. So the package can be installed by Unity Package Manager via git url. Git tags are based on the upm branch.
+The master branch is usually a Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. A `upm` branch is created from the package folder using the `git subtree split/push` command to make the `package.json` file placed at the root path. So the package can be installed by Unity Package Manager via Git URL. Git tags are based on the upm branch.
 
 ## Package YAML File
 
-OpenUPM uses a yaml file to store the package information. Here's an example.
+OpenUPM uses a YAML file to store the package information. Here's an example.
 
 ```yaml
 # package name
@@ -54,7 +54,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 # list of topic slugs
 topics:
-  - library
+  - utilities
 # Filter git tags based on prefix. Used by monorepos to separate pacakges
 gitTagPrefix: ''
 # A regular expression to ignore git tags
@@ -67,11 +67,11 @@ hunter: author
 
 ## Using Package Add Form
 
-Package hunters can use the [package add form](/packages/add/), to submit the package yaml file. The form will guide you to fill required information, generate the yaml file, then submit to GitHub as pull request in the browser.
+Package hunters can use the [package add form](/packages/add/), to submit the package YAML file. The form will guide you to fill the required information, generate the YAML file, then submit to GitHub as a pull request in the browser.
 
 [![package add form](./images/package-add-form.png)](/packages/add/)
 
-The pull request of adding new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at url `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
+The pull request of adding a new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at URL `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
 
 @flowstart
 form=>operation: Fill the package form
@@ -96,13 +96,13 @@ A repository may contain duplicated version tags. Likely created by CI tools, on
 - `1.0.0` and `1.1.0-upm`
 - `1.0.0-master` and `1.1.0-upm`
 
-In such case the tag from the upm branch takes higher priority, another one is ignored.
+In such cases the tag from the upm branch takes higher priority, another one is ignored.
 
 ### Handling Failed Builds
 
-You can check the failed reason at the build issues section on the package detail page. The most common issue is *version conflict*, means a package with with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
+You can check the failed reason at the build issues section on the package detail page. The most common issue is *version conflict*, means a package with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
 
-However, build pipelines will not rebuild a already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the packager owner is recommended to bump the version with a new git tag. For the rare case, please [create an issue](https://github.com/openupm/openupm/issues) for unpublishing.
+However, build pipelines will not rebuild an already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the packager owner is recommended to bump the version with a new git tag. For the rare case, please [create an issue](https://github.com/openupm/openupm/issues) for unpublishing.
 
 ### Handling Monorepos
 

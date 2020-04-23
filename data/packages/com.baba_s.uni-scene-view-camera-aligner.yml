@@ -6,6 +6,6 @@ parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - editor
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1576339334000

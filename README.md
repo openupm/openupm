@@ -29,7 +29,7 @@
 
 ## Supporting OpenUPM
 
-OpenUPM is an open source service for hosting and building open source unity package manager (upm) packages. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome sponsors, backers and contributors. If you'd like to join them, please consider
+OpenUPM is an open-source service for hosting and building open source unity package manager (upm) packages. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome sponsors, backers, and contributors. If you'd like to join them, please consider
 - [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
 - [exploring other donation options](https://openupm.com/support/)
 
@@ -43,7 +43,7 @@ Thank you to [all the people](https://openupm.com/contributors/) who already con
 
 ## Introduction
 
-OpenUPM is composed of two parts: a managed upm package registry with an automatic build pipelines. The intention is to create an universal platform to discover, share and distribute open source upm packages, and a community along with it.
+OpenUPM is composed of two parts: a managed upm package registry with automatic build pipelines. The intention is to create a universal platform to discover, share and distribute open-source upm packages, and a community along with it.
 
 > Notice: OpenUPM is not an official service provided by Unity Technologies Inc.
 

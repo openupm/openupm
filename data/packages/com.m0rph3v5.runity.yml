@@ -9,7 +9,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - asset-management
-  - editor
+  - editor-enhancement
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''

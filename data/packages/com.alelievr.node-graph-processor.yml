@@ -8,8 +8,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
+  - editor-enhancement
+  - utilities
 hunter: alelievr
 gitTagIgnore: ''
 image: https://user-images.githubusercontent.com/6877923/69500269-e469b580-0ef9-11ea-9c4b-f58e793f7ecd.gif

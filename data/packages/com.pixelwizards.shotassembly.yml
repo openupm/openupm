@@ -9,7 +9,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - animation
-  - editor
+  - editor-enhancement
 hunter: PixelWizards
 gitTagIgnore: ''
 image: null

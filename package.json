@@ -2,7 +2,7 @@
   "name": "openupm",
   "private": true,
   "version": "1.18.5",
-  "description": "OpenUPM is a managed UPM registry and build service for open source Unity packages",
+  "description": "OpenUPM is a managed UPM registry with automatic build services for open-source Unity packages.",
   "main": "server.js",
   "authors": {
     "name": "Favo Yang",
@@ -67,7 +67,9 @@
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-social-share": "^0.2.0",
-    "vuepress-plugin-table-of-contents": "^1.1.4"
+    "vuepress-plugin-table-of-contents": "^1.1.4",
+    "vuex": "^3.2.0",
+    "vuex-persistedstate": "^3.0.1"
   },
   "dependencies": {
     "azure-devops-node-api": "^10.0.0",
@@ -75,6 +77,7 @@
     "body-parser": "^1.19.0",
     "bottleneck": "^2.19.5",
     "bunyan": "^2.0.2",
+    "cheerio": "^1.0.0-rc.3",
     "commander": "^4.1.0",
     "config": "^3.2.2",
     "enum": "^2.5.0",
@@ -87,6 +90,7 @@
     "lazy-property": "^1.0.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
+    "node-tunnel": "^4.0.0",
     "parse-github-url": "^1.0.2",
     "pg": "^7.18.1",
     "promise-redis": "^0.0.5",

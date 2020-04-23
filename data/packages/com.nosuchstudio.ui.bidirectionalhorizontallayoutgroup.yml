@@ -9,7 +9,7 @@ licenseSpdxId: null
 licenseName: GPL
 topics:
   - localization
-  - ui
+  - gui
 hunter: JesseTG
 gitTagIgnore: ''
 image: null

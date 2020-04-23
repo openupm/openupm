@@ -7,9 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - asset-pack
-  - editor
-  - ui
+  - editor-enhancement
+  - gui
 hunter: 'litefeel'
 gitTagPrefix: ''
 gitTagIgnore: ''

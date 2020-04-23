@@ -198,6 +198,14 @@
                   <label v-if="repoImages.length" class="form-label"
                     >Featured image</label
                   >
+                  <div class="form-input-hint is-error">
+                    Notice: if the repository has a
+                    <a
+                      href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
+                      target="_blank"
+                      >social image</a
+                    >, will use that instead.
+                  </div>
                   <div v-if="repoImages.length" class="columns pkg-img-columns">
                     <div
                       v-for="item in repoImages"

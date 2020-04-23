@@ -95,8 +95,6 @@
 
 <script>
 import _ from "lodash";
-import axios from "axios";
-import urljoin from "url-join";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@parent-theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
@@ -112,8 +110,7 @@ export default {
         { text: "Popularity", slug: "pop" },
         { text: "Recently Added", slug: "date" }
       ],
-      unity: "",
-      packagesExtra: {}
+      unity: ""
     };
   },
   computed: {
@@ -129,15 +126,13 @@ export default {
         text: "Contributors"
       };
     },
+    packagesExtra() {
+      return this.$store.getters.packagesExtra;
+    },
     packages() {
       // Join extra data
       let pkgs = this.$page.frontmatter.packages.map(x => {
-        const extra = this.$data.packagesExtra[x.name] || {};
-        return {
-          ...x,
-          ...extra,
-          sortName: x.link.text
-        };
+        return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
       // Filter by unity
       if (this.unity) pkgs = pkgs.filter(x => x.unity == this.unity);
@@ -204,22 +199,8 @@ export default {
   mounted() {
     this.setSortOption(this.$route.query.sort);
     this.setUnityOption(this.$route.query.unity);
-    this.fetchPackagesExtra();
   },
   methods: {
-    async fetchPackagesExtra() {
-      try {
-        let resp = await axios.get(
-          urljoin(util.openupmPackagesApiUrl, "extra"),
-          {
-            headers: { Accept: "application/json" }
-          }
-        );
-        this.packagesExtra = resp.data;
-      } catch (error) {
-        console.error(error);
-      }
-    },
     onSortBtn(item) {
       if (item.class == "active") return;
       this.sort = item.slug;

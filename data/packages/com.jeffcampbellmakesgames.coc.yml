@@ -10,9 +10,9 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - data-management
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''
