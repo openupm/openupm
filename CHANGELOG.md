@@ -1,3 +1,15 @@
+# [1.19.0](https://github.com/openupm/openupm/compare/1.18.5...1.19.0) (2020-04-23)
+
+
+### Bug Fixes
+
+* **website:** duplicated unity list ([ad065e5](https://github.com/openupm/openupm/commit/ad065e5672348d379ac10c1c36b2e28d4c871b99))
+
+
+### Features
+
+* **website:** sort package by last update time ([b35d77a](https://github.com/openupm/openupm/commit/b35d77aa3116ad1a3c117947dd0b484088e72454))
+
 ## [1.18.5](https://github.com/openupm/openupm/compare/1.18.4...1.18.5) (2020-04-02)
 
 
