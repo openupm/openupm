@@ -9,7 +9,8 @@ topics:
   - package-management
   - utilities
 hunter: acoppes
-gitTagPrefix: com
+gitTagPrefix: 
 gitTagIgnore: ''
-image: null
+image:  >-
+  https://github.com/acoppes/upmgitpusher/blob/master/images/example.gif?raw=true
 createdAt: 1587847192972
