@@ -1,0 +1,15 @@
+name: com.gemserk.upmgitpusher
+displayName: UnityPackageManagerGitPusher
+description: Unity Package Manager Git Publish Plugin
+repoUrl: 'https://github.com/acoppes/upmgitpusher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+  - utilities
+hunter: acoppes
+gitTagPrefix: com
+gitTagIgnore: ''
+image: null
+createdAt: 1587847192972
