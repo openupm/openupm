@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/openupm/openupm/compare/1.19.0...1.19.1) (2020-04-26)
+
+
+### Bug Fixes
+
+* **pipelines:** support underscore prefix ([0e9865f](https://github.com/openupm/openupm/commit/0e9865f1c0ab1048341285f3892ed5291bb0ad89))
+
 # [1.19.0](https://github.com/openupm/openupm/compare/1.18.5...1.19.0) (2020-04-23)
 
 
