@@ -122,11 +122,14 @@
                     v-model="form.gitTagPrefix.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (default)"
+                    placeholder="leave empty to include all tags (by default)"
                   />
                   <span class="form-input-hint is-error">
-                    A prefix to filter git tags, mostly used by monorepos to
-                    separate package releases.
+                    A prefix to filter Git tags, mostly used by monorepos to
+                    distinguish releases. A prefixed tag should separate the
+                    semver with a slash <code>/</code>, hyphen <code>-</code>,
+                    or underscore <code>_</code>. e.g.
+                    <code>myprefix/x.y.z</code>.
                   </span>
                 </div>
                 <div
@@ -138,10 +141,10 @@
                     v-model="form.gitTagIgnore.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (default)"
+                    placeholder="leave empty to include all tags (by default)"
                   />
                   <span class="form-input-hint is-error">
-                    Regular expression to exclude git tags from build pipelines:
+                    Regular expression to exclude Git tags from build pipelines:
                     <br />
                     <code v-if="form.gitTagIgnore.value">
                       /{{ form.gitTagIgnore.value }}/i
@@ -189,15 +192,14 @@
                   </div>
                 </div>
                 <div
+                  v-if="repoImages.length"
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields,
                     'has-error': form.image.error
                   }"
                 >
-                  <label v-if="repoImages.length" class="form-label"
-                    >Featured image</label
-                  >
+                  <label class="form-label">Featured image</label>
                   <div class="form-input-hint is-error">
                     Notice: if the repository has a
                     <a
@@ -206,7 +208,7 @@
                       >social image</a
                     >, will use that instead.
                   </div>
-                  <div v-if="repoImages.length" class="columns pkg-img-columns">
+                  <div class="columns pkg-img-columns">
                     <div
                       v-for="item in repoImages"
                       :key="item"
@@ -731,7 +733,7 @@ export default {
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
         if (this.$page.frontmatter.packageNames.includes(packageName))
-          throw new Error(`The package ${packageName} already exists`);
+          throw new Error(`The package ${packageName} already exists.`);
         if (packageName.includes("@"))
           throw new Error(
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
