@@ -1,0 +1,16 @@
+name: com.merlin.easyeventeditor
+displayName: Easy Event Editor
+description: >-
+  Drop in replacement for the default Unity event editor drawer that allows
+  listener reordering
+repoUrl: 'https://github.com/Merlin-san/EasyEventEditor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1588012444615
