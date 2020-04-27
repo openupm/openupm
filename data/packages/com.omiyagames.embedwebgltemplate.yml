@@ -1,0 +1,18 @@
+name: com.omiyagames.embedwebgltemplate
+displayName: Omiya Games - Embed WebGL Template
+description: >-
+  A Unity WebGL template that can be imported to your own project and be used to
+  create WebGL games that automatically resizes itself to fit within the bounds
+  of the web portal embedding, including fullscreen resize support.
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-embed-webgl-template'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/OmiyaGames/omiya-games-embed-webgl-template/raw/c101aaee265204f8c06443fc06c37e4480f63c92/Samples~/UnityTemplate/thumbnail.png
+createdAt: 1587965861536
