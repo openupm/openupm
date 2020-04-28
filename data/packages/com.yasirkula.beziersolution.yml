@@ -1,0 +1,17 @@
+name: com.yasirkula.beziersolution
+displayName: Bezier Solution
+description: >-
+  A bezier spline solution for Unity 3D with some utility functions (like
+  travelling the spline with constant speed/time)
+repoUrl: 'https://github.com/yasirkula/UnityBezierSolution'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/yasirkula/UnityBezierSolution/raw/c6dd5d06a74ecf85a2357fb51611ebb41bbc35b7/.github/Images/1.png
+createdAt: 1588087029017
