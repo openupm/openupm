@@ -22,10 +22,13 @@ export default {
 .nav-links
   .nav-item
     .dropdown-wrapper
-      ul.nav-dropdown
+      .nav-dropdown
         overflow  hidden
-      li.dropdown-item
-        list-style none
+        padding 0.4rem 0
+        .dropdown-item
+          list-style none
+          a
+            line-height 1.1rem
       .dropdown-title
         span
           font-size 0.7rem
@@ -34,6 +37,10 @@ export default {
           font-family $titleFontFamily
           &.arrow
             margin-left 2px
+    .dropdown-subitem-wrapper
+      margin 0
+      .dropdown-subitem
+        margin-top 0.3rem
     &.packages-add
       margin-right 0.2rem
       a
@@ -42,6 +49,10 @@ export default {
     a
       &.external
         margin-right -0.7rem
+    h4
+      font-size 0.7rem
+      font-weight 800
+
 .sidebar
   .nav-links
     .nav-item
@@ -56,4 +67,6 @@ export default {
           a
             font-size 0.7rem
             line-height 1.6rem
+      .nav-dropdown
+        padding 0
 </style>

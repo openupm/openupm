@@ -11,14 +11,13 @@ const AxiosService = {
     if (!process.env.http_proxy) {
       return axios;
     }
-    const proxy = url.parse(process.env.http_proxy);
-    const proxyHost = urljoin(proxy.protocol, proxy.hostname);
-    const proxyPort = proxy.port;
+    const proxyAddr = url.parse(process.env.http_proxy);
+    const proxy = {
+      host: urljoin(proxyAddr.protocol, proxyAddr.hostname),
+      port: proxyAddr.port
+    };
     const agent = tunnel.httpsOverHttp({
-      proxy: {
-        host: proxyHost,
-        port: proxyPort
-      }
+      proxy
     });
     return axios.create({
       agent,
