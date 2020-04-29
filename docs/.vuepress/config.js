@@ -144,7 +144,8 @@ module.exports = {
       },
       {
         text: "Command-Line Tool",
-        link: "https://github.com/openupm/openupm-cli#openupm-cli"
+        link: "https://github.com/openupm/openupm-cli#openupm-cli",
+        icon: "fa fa-keyboard"
       }
     ],
     sidebar: {
