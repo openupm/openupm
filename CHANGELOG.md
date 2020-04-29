@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/openupm/openupm/compare/1.19.1...1.20.0) (2020-04-29)
+
+
+### Features
+
+* package update feed (refs [#48](https://github.com/openupm/openupm/issues/48)) ([32b4991](https://github.com/openupm/openupm/commit/32b49918406b0a3fdbe95ab994b564468c7839ac))
+
 ## [1.19.1](https://github.com/openupm/openupm/compare/1.19.0...1.19.1) (2020-04-26)
 
 
