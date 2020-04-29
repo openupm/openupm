@@ -9,7 +9,6 @@
               <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
               <a
                 :href="githubLink.link"
-                target="_blank"
                 rel="noopener noreferrer"
                 class="nav-link external btn btn-lg"
               >
@@ -47,7 +46,7 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 
 export default {
   components: { ParentLayout, NavLink },

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://openupm.com/" target="_blank">
+  <a href="https://openupm.com/">
     <img width="180" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-icon-256.png" alt="logo">
   </a>
 </p>
@@ -22,7 +22,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://openupm.com/" target="_blank">
+  <a href="https://openupm.com/">
     <img width="80%" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-screenshot.png" alt="logo">
   </a>
 </p>

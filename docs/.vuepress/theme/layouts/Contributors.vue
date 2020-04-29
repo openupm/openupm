@@ -68,7 +68,7 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 
 const getUserData = function(entry, action) {
   return {

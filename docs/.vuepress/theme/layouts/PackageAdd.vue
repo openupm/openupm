@@ -204,7 +204,6 @@
                     Notice: if the repository has a
                     <a
                       href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
-                      target="_blank"
                       >social image</a
                     >, will use that instead.
                   </div>
@@ -270,7 +269,6 @@
                 <a
                   :href="uploadLink.link"
                   class="btn btn-primary"
-                  target="_blank"
                   @click="onUpload"
                   >{{ uploadLink.text }}</a
                 >
@@ -304,7 +302,7 @@
                             <p class="tile-subtitle">
                               Please provide information about the UPM package.
                               Learn more at
-                              <NavLink :item="docLink" target="_blank" />.
+                              <NavLink :item="docLink" />.
                             </p>
                           </div>
                         </div>
@@ -406,7 +404,7 @@ import spdx from "spdx-license-list";
 import urljoin from "url-join";
 import yaml from "js-yaml";
 
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import util from "@root/docs/.vuepress/util";
 

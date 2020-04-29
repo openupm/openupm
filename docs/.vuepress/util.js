@@ -70,7 +70,7 @@ const _markedUtils = {
         href = urljoin(option.linkBaseUrl, href);
       }
       let link = originalRendererLink(href, title, text);
-      link = link.replace("<a", '<a target="_blank" rel="noopener noreferrer"');
+      link = link.replace("<a", '<a rel="noopener noreferrer"');
       return link;
     };
 

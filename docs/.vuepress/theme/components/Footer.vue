@@ -38,7 +38,7 @@
         </div>
         <div class="column column col-4 col-md-6 col-sm-12">
           <small>
-            <a href="https://www.netlify.com" target="_blank">
+            <a href="https://www.netlify.com">
               This site is powered by Netlify
             </a>
           </small>

@@ -69,7 +69,6 @@
                   <a
                     v-if="parentOwnerNavLink"
                     :href="parentOwnerNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -86,7 +85,6 @@
                   </a>
                   <a
                     :href="ownerNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -105,7 +103,6 @@
                   <a
                     v-if="$package.hunterUrl"
                     :href="hunterNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -223,7 +220,6 @@
                           <a
                             v-if="build.build.buildId"
                             :href="build.buildUrl"
-                            target="_blank"
                             build="noopener noreferrer"
                           >
                             <span>
@@ -317,7 +313,7 @@ import marked from "marked";
 import { noCase } from "change-case";
 import urljoin from "url-join";
 
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import { ReleaseState, ReleaseReason } from "@root/app/models/common";
 import util from "@root/docs/.vuepress/util";

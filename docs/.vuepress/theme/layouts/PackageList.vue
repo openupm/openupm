@@ -93,7 +93,7 @@
 <script>
 import _ from "lodash";
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
 import util from "@root/docs/.vuepress/util";
 

@@ -69,7 +69,8 @@ export default {
         !this.item.iconBefore &&
         !this.item.icon &&
         !this.item.raw &&
-        this.isBlankTarget
+        this.target === "" &&
+        isExternal(this.link)
       );
     },
 
@@ -80,7 +81,7 @@ export default {
       if (this.item.target) {
         return this.item.target;
       }
-      return isExternal(this.link) ? "_blank" : "";
+      return "";
     },
 
     rel() {
