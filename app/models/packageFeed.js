@@ -54,8 +54,8 @@ const setFeedRecentUpdate = async function(objs) {
     const obj = objs[i];
     const guid = `${obj.packageName}@${obj.version}`;
     const url = `https://openupm.com/packages/${obj.packageName}`;
-    const title = `${obj.displayName} ${obj.version} release`;
-    const description = `Package ${obj.packageName}@${obj.version} is released.`;
+    const title = `${obj.displayName} v${obj.version} release`;
+    const description = `Package ${obj.packageName} v${obj.version} is released.`;
     const date = new Date(obj.time);
     feed.addItem({
       title,

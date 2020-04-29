@@ -189,6 +189,7 @@ const updateFeeds = async function() {
       continue;
     }
     const pkg = await loadPackage(packageName);
+    const image = (await PackageExtra.getImageUrl(packageName)) || pkg.image;
     const time = await PackageExtra.getUpdatedTime(packageName);
     const version = await PackageExtra.getVersion(packageName);
     const author = [
@@ -207,6 +208,7 @@ const updateFeeds = async function() {
       objs.push({
         packageName,
         displayName: pkg.displayName || packageName,
+        image,
         time,
         version,
         author
