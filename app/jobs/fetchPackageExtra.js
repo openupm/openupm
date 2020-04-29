@@ -5,7 +5,8 @@
 const cheerio = require("cheerio");
 const config = require("config");
 const urljoin = require("url-join");
-const packageExtra = require("../models/packageExtra");
+const PackageExtra = require("../models/packageExtra");
+const PackageFeed = require("../models/packageFeed");
 const {
   loadPackageNames,
   loadPackage,
@@ -29,8 +30,7 @@ const fetchExtraData = async function(packageNames) {
     }
     // Load package
     const pkg = await loadPackage(packageName);
-    await _fetchUpdatedTime(packageName);
-    await _fetchUnityVersion(packageName);
+    await _fetchPackageInfo(packageName);
     await _fetchStars(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg.repo, packageName);
@@ -38,11 +38,11 @@ const fetchExtraData = async function(packageNames) {
 };
 
 /**
- * Fetch Unity version.
+ * Fetch package info from the registry.
  * @param {string} repo
  * @param {string} packageName
  */
-const _fetchUnityVersion = async function(packageName) {
+const _fetchPackageInfo = async function(packageName) {
   try {
     const resp = await AxiosService.create().get(
       urljoin("https://package.openupm.com", packageName),
@@ -53,8 +53,15 @@ const _fetchUnityVersion = async function(packageName) {
     const pkgInfo = resp.data;
     const version = pkgInfo["dist-tags"].latest;
     const versionInfo = pkgInfo.versions[version];
+    // Save the unity version.
     const unity = versionInfo.unity;
-    if (unity) await packageExtra.setUnityVersion(packageName, unity);
+    if (unity) await PackageExtra.setUnityVersion(packageName, unity);
+    // Save the update time.
+    const timeStr = pkgInfo.time[version] || 0;
+    const time = new Date(timeStr).getTime();
+    await PackageExtra.setUpdatedTime(packageName, time);
+    // Save the package version.
+    await PackageExtra.setVersion(packageName, version);
   } catch (error) {
     const is404 = error.response && error.response.status == 404;
     if (!is404) logger.error(error);
@@ -78,7 +85,7 @@ const _fetchStars = async function(repo, packageName) {
     let stars = 0;
     stars += repoInfo.stargazers_count || 0;
     stars += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
-    await packageExtra.setStars(packageName, stars);
+    await PackageExtra.setStars(packageName, stars);
   } catch (error) {
     console.error(error);
   }
@@ -115,7 +122,7 @@ const _fetchOGImage = async function(pkg, packageName) {
   }
   // Save it.
   try {
-    await packageExtra.setImageUrl(packageName, imageUrl);
+    await PackageExtra.setImageUrl(packageName, imageUrl);
   } catch (error) {
     console.error(error);
   }
@@ -135,29 +142,7 @@ const _fetchReadme = async function(repo, packageName) {
       { headers }
     );
     const text = resp.data;
-    await packageExtra.setReadme(packageName, text);
-  } catch (error) {
-    console.error(error);
-  }
-};
-
-/**
- * Fetch package's last updated time from registry.
- * @param {string} packageName
- */
-const _fetchUpdatedTime = async function(packageName) {
-  try {
-    const resp = await AxiosService.create().get(
-      urljoin("https://package.openupm.com/", packageName),
-      {
-        headers: { Accept: "application/json" }
-      }
-    );
-    const data = resp.data || {};
-    const version = (data["dist-tags"] || {}).latest;
-    const timeStr = (data.time || {})[version] || 0;
-    const time = new Date(timeStr).getTime();
-    await packageExtra.setUpdatedTime(packageName, time);
+    await PackageExtra.setReadme(packageName, text);
   } catch (error) {
     console.error(error);
   }
@@ -177,17 +162,57 @@ const aggregateExtraData = async function() {
       continue;
     }
     const data = {};
-    const stars = await packageExtra.getStars(packageName);
+    const stars = await PackageExtra.getStars(packageName);
     data.stars = stars || 0;
-    const unity = await packageExtra.getUnityVersion(packageName);
+    const unity = await PackageExtra.getUnityVersion(packageName);
     data.unity = unity || "2018.1";
-    const imageUrl = await packageExtra.getImageUrl(packageName);
+    const imageUrl = await PackageExtra.getImageUrl(packageName);
     data.imageUrl = imageUrl || undefined;
-    const updatedTime = await packageExtra.getUpdatedTime(packageName);
-    data.time = parseInt(updatedTime) || undefined;
+    const updatedTime = await PackageExtra.getUpdatedTime(packageName);
+    data.time = updatedTime || undefined;
     aggData[packageName] = data;
   }
-  await packageExtra.setAggregatedExtraData(aggData);
+  await PackageExtra.setAggregatedExtraData(aggData);
+};
+
+/**
+ * Update feeds.
+ */
+const updateFeeds = async function() {
+  logger.info("updateFeeds");
+  const packageNames = await loadPackageNames();
+  const objs = [];
+  for (let packageName of packageNames) {
+    // Verify package
+    if (!packageExists(packageName)) {
+      logger.error({ pkg: packageName }, "package doesn't exist");
+      continue;
+    }
+    const pkg = await loadPackage(packageName);
+    const time = await PackageExtra.getUpdatedTime(packageName);
+    const version = await PackageExtra.getVersion(packageName);
+    const author = [
+      {
+        name: pkg.owner,
+        link: pkg.ownerUrl
+      }
+    ];
+    if (pkg.parentRepoUrl) {
+      author.push({
+        name: pkg.parentOwner,
+        link: pkg.parentOwnerUrl
+      });
+    }
+    if (time && version)
+      objs.push({
+        packageName,
+        displayName: pkg.displayName || packageName,
+        time,
+        version,
+        author
+      });
+  }
+  await PackageFeed.setFeedRecentUpdate(objs);
 };
 
 if (require.main === module) {
@@ -205,5 +230,6 @@ if (require.main === module) {
       if (packageNames === null || !packageNames.length) program.help();
       await fetchExtraData(packageNames);
       await aggregateExtraData();
+      await updateFeeds();
     });
 }

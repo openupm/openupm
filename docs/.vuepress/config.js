@@ -139,11 +139,8 @@ module.exports = {
         ariaLabel: "Community Menu",
         items: [
           { text: "Blog on Medium", link: "https://medium.com/openupm" },
-          {
-            text: "Blog on Patreon",
-            link: "https://www.patreon.com/openupm/posts"
-          },
-          { text: "Chat", link: "https://discord.gg/FnUgWEP" }
+          { text: "Chat", link: "https://discord.gg/FnUgWEP" },
+          { text: "Package Feed", link: "/feeds/rss", raw: true }
         ]
       },
       {

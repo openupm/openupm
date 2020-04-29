@@ -20,7 +20,7 @@
               <h5>Connect</h5>
               <ul>
                 <li v-for="(link, index) in connectLinks" :key="index">
-                  <NavLink class :item="link" />
+                  <NavLink :item="link" />
                 </li>
               </ul>
             </div>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 
 export default {
   components: { NavLink },
@@ -72,7 +72,8 @@ export default {
       return [
         { link: this.$site.themeConfig.repo, text: "GitHub" },
         // { link: "", text: "Blog" },
-        { link: "mailto:hello@openupm.com", text: "Contact" }
+        { link: "mailto:hello@openupm.com", text: "Contact" },
+        { link: "/feeds/rss", text: "Package Feed", raw: true }
       ];
     },
 

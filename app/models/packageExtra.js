@@ -11,12 +11,13 @@ const redis = require("../db/redis");
 const allPackagesExtraKey = "pkgs:extra";
 const packageKey = "pkg:";
 const propKeys = {
-  invalidTags: "invalidTags",
-  unityVersion: "unity",
-  stars: "stars",
-  readme: "readme",
   imageUrl: "imageUrl",
-  updatedTime: "updatedTime"
+  invalidTags: "invalidTags",
+  readme: "readme",
+  stars: "stars",
+  unityVersion: "unity",
+  updatedTime: "updatedTime",
+  version: "ver"
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -27,6 +28,15 @@ const setInvalidTags = async function(packageName, tags) {
 const getInvalidTags = async function(packageName) {
   const jsonText = await getValue(packageName, propKeys.invalidTags);
   return jsonText === null ? [] : JSON.parse(jsonText);
+};
+
+const setVersion = async function(packageName, version) {
+  await setValue(packageName, propKeys.version, version);
+};
+
+const getVersion = async function(packageName) {
+  const text = await getValue(packageName, propKeys.version);
+  return text;
 };
 
 const setUnityVersion = async function(packageName, unityVersion) {
@@ -71,7 +81,7 @@ const setUpdatedTime = async function(packageName, updatedTime) {
 
 const getUpdatedTime = async function(packageName) {
   const value = await getValue(packageName, propKeys.updatedTime);
-  return value;
+  return parseInt(value);
 };
 
 const setValue = async function(packageName, propKey, propVal) {
@@ -102,18 +112,20 @@ const getAggregatedExtraData = async function() {
 };
 
 module.exports = {
-  setInvalidTags,
-  getInvalidTags,
-  setUnityVersion,
-  getUnityVersion,
-  setStars,
-  getStars,
-  setReadme,
-  getReadme,
-  setImageUrl,
+  getAggregatedExtraData,
   getImageUrl,
-  setUpdatedTime,
+  getInvalidTags,
+  getReadme,
+  getStars,
+  getUnityVersion,
   getUpdatedTime,
+  getVersion,
   setAggregatedExtraData,
-  getAggregatedExtraData
+  setImageUrl,
+  setInvalidTags,
+  setReadme,
+  setStars,
+  setUnityVersion,
+  setUpdatedTime,
+  setVersion
 };
