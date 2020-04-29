@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/openupm/openupm/compare/1.20.1...1.20.2) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** avoid link with target=_blank (close: [#228](https://github.com/openupm/openupm/issues/228)) ([a540e61](https://github.com/openupm/openupm/commit/a540e619e748e047230ee5d56bc2b05c4cb5cd26))
+
 ## [1.20.1](https://github.com/openupm/openupm/compare/1.20.0...1.20.1) (2020-04-29)
 
 
