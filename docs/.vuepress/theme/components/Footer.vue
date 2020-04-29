@@ -70,10 +70,24 @@ export default {
 
     connectLinks() {
       return [
-        { link: this.$site.themeConfig.repo, text: "GitHub" },
-        // { link: "", text: "Blog" },
-        { link: "mailto:hello@openupm.com", text: "Contact" },
-        { link: "/feeds/rss", text: "Package Feed", raw: true }
+        {
+          link: this.$site.themeConfig.repo,
+          text: "GitHub"
+        },
+        {
+          link: "https://medium.com/openupm",
+          text: "Medium"
+        },
+        {
+          link: "mailto:hello@openupm.com",
+          text: "Contact"
+        },
+        {
+          link: "/feeds/updates/rss",
+          text: "Package Updates",
+          icon: "fa fa-rss-square",
+          raw: true
+        }
       ];
     },
 

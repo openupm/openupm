@@ -6,7 +6,9 @@
     :exact="exact"
     @focusout.native="focusoutAction"
   >
+    <i v-if="item.iconBefore" :class="item.iconBefore" aria-hidden="true"></i>
     {{ item.text }}
+    <i v-if="item.icon" :class="item.icon" aria-hidden="true"></i>
   </RouterLink>
   <a
     v-else
@@ -16,8 +18,10 @@
     :rel="rel"
     @focusout="focusoutAction"
   >
+    <i v-if="item.iconBefore" :class="item.iconBefore" aria-hidden="true"></i>
     {{ item.text }}
-    <OutboundLink v-if="isBlankTarget" />
+    <i v-if="item.icon" :class="item.icon" aria-hidden="true"></i>
+    <OutboundLink v-if="!item.iconBefore && !item.icon && isBlankTarget" />
   </a>
 </template>
 

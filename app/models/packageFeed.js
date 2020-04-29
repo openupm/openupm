@@ -39,9 +39,9 @@ const setFeedRecentUpdate = async function(objs) {
     image: "https://openupm.com/images/openupm-icon-256.png",
     copyright: "Copyright @ 2019 Favo Yang",
     feedLinks: {
-      rss: "https://openupm.com/feeds/rss",
-      json: "https://openupm.com/feeds/json",
-      atom: "https://openupm.com/feeds/atom"
+      rss: "https://openupm.com/feeds/updates/rss",
+      json: "https://openupm.com/feeds/updates/json",
+      atom: "https://openupm.com/feeds/updates/atom"
     },
     author: {
       name: "OpenUPM",
