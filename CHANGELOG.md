@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/openupm/openupm/compare/1.20.0...1.20.1) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** feed redirect rules. ([e462a14](https://github.com/openupm/openupm/commit/e462a1481905ffcf5e6a4ee8f5671b9fa5fa3969))
+
 # [1.20.0](https://github.com/openupm/openupm/compare/1.19.1...1.20.0) (2020-04-29)
 
 
