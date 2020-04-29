@@ -31,7 +31,7 @@ const setFeedRecentUpdate = async function(objs) {
   objs = _.orderBy(objs, ["time"], ["desc"]);
   // Generate the feed.
   const feed = new Feed({
-    title: "OpenUPM Recent Update",
+    title: "OpenUPM Recent Updates",
     description: "Feed of OpenUPM Recently Updated Packages",
     id: "https://openupm.com/",
     link: "https://openupm.com/",
