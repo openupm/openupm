@@ -1,6 +1,6 @@
 <template>
   <RouterLink
-    v-if="isInternal"
+    v-if="isInternal && !item.raw"
     class="nav-link"
     :to="link"
     :exact="exact"
@@ -21,7 +21,7 @@
     <i v-if="item.iconBefore" :class="item.iconBefore" aria-hidden="true"></i>
     {{ item.text }}
     <i v-if="item.icon" :class="item.icon" aria-hidden="true"></i>
-    <OutboundLink v-if="!item.iconBefore && !item.icon && isBlankTarget" />
+    <OutboundLink v-if="isOutboundLink" />
   </a>
 </template>
 
@@ -62,6 +62,15 @@ export default {
 
     isInternal() {
       return !isExternal(this.link) && !this.isBlankTarget;
+    },
+
+    isOutboundLink() {
+      return (
+        !this.item.iconBefore &&
+        !this.item.icon &&
+        !this.item.raw &&
+        this.isBlankTarget
+      );
     },
 
     target() {
