@@ -2,12 +2,12 @@
 <template>
   <div class="package-recent container">
     <div class="columns">
-      <div
-        v-for="pkg in packages"
-        :key="pkg.id"
-        class="column col-12 col-sm-12"
-      >
-        <PackageCard :item="pkg" />
+      <div class="column col-12 col-sm-12">
+        <masonry :cols="{ default: 3, 840: 2, 600: 1 }" :gutter="16">
+          <div v-for="pkg in packages" :key="pkg.id">
+            <PackageCard :item="pkg" />
+          </div>
+        </masonry>
       </div>
     </div>
   </div>
