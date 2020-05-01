@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/openupm/openupm/compare/1.20.3...1.20.4) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove duplicated unity version option on the package list page ([fba21cb](https://github.com/openupm/openupm/commit/fba21cb513fcd7f954db30c731dd8d86f7247e62))
+
 ## [1.20.3](https://github.com/openupm/openupm/compare/1.20.2...1.20.3) (2020-05-01)
 
 
