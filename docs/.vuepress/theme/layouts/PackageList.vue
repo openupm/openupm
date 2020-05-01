@@ -178,8 +178,16 @@ export default {
         // eslint-disable-next-line no-unused-vars
         ([key, value]) => _.trim(value.unity)
       );
-      unityList = _.reverse(_.uniq(unityList).sort());
+      unityList = _.reverse(
+        _.uniq(unityList)
+          // Remove empty element.
+          .filter(x => x)
+          // Sort.
+          .sort()
+      );
+      // Insert "" at the beginning.
       unityList.splice(0, 0, "");
+      // Convert to an option list.
       return unityList.map(x => {
         return {
           slug: x,
