@@ -5,7 +5,6 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
-import VueMasonry from "vue-masonry-css";
 import Vuex from "vuex";
 import store from "./store";
 
@@ -15,7 +14,6 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-  Vue.use(VueMasonry);
   Vue.use(Vuex);
   Vue.mixin({ store });
 };
