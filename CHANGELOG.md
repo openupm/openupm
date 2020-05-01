@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/openupm/openupm/compare/1.20.2...1.20.3) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove masonry layout for package cards (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([a51bfe9](https://github.com/openupm/openupm/commit/a51bfe9a882e1b12335331861c029847c755bb16))
+
 ## [1.20.2](https://github.com/openupm/openupm/compare/1.20.1...1.20.2) (2020-04-29)
 
 
