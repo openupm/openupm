@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/openupm/openupm/compare/1.20.4...1.20.5) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** two-column filter for lister pages on mobile ([de75322](https://github.com/openupm/openupm/commit/de753227f6d10bad7727a682d05c73b9675e8c45))
+
 ## [1.20.4](https://github.com/openupm/openupm/compare/1.20.3...1.20.4) (2020-05-01)
 
 
