@@ -28,49 +28,65 @@
             <section class="sort-section">
               <ul class="menu">
                 <li class="divider" data-content="SORT BY"></li>
-                <li
-                  v-for="item in sortOptions"
-                  :key="item.slug"
-                  class="menu-item"
-                >
-                  <a
-                    :href="item.link"
-                    :class="item.class"
-                    @click.prevent="onSortBtn(item)"
-                    >{{ item.text }}</a
+                <div class="columns">
+                  <div
+                    v-for="item in sortOptions"
+                    :key="item.slug"
+                    class="column col-12 col-sm-6"
                   >
-                </li>
+                    <li class="menu-item">
+                      <a
+                        :href="item.link"
+                        :class="item.class"
+                        @click.prevent="onSortBtn(item)"
+                        >{{ item.text }}</a
+                      >
+                    </li>
+                  </div>
+                </div>
               </ul>
             </section>
             <section class="topic-section">
               <ul class="menu">
                 <li class="divider" data-content="TOPICS"></li>
-                <li v-for="item in topics" :key="item.slug" class="menu-item">
-                  <RouterLink
-                    :class="['nav-link', item.class]"
-                    :to="{ path: item.link, query }"
-                    :exact="false"
+                <div class="columns">
+                  <div
+                    v-for="item in topics"
+                    :key="item.slug"
+                    class="column col-12 col-sm-6"
                   >
-                    {{ item.text }}
-                  </RouterLink>
-                </li>
+                    <li class="menu-item">
+                      <RouterLink
+                        :class="['nav-link', item.class]"
+                        :to="{ path: item.link, query }"
+                        :exact="false"
+                      >
+                        {{ item.text }}
+                      </RouterLink>
+                    </li>
+                  </div>
+                </div>
               </ul>
             </section>
             <section class="unity-section">
               <ul class="menu">
                 <li class="divider" data-content="Unity Version"></li>
-                <li
-                  v-for="item in unityOptions"
-                  :key="item.slug"
-                  class="menu-item"
-                >
-                  <a
-                    :href="item.link"
-                    :class="item.class"
-                    @click.prevent="onUnityBtn(item)"
-                    >{{ item.text }}</a
+                <div class="columns">
+                  <div
+                    v-for="item in unityOptions"
+                    :key="item.slug"
+                    class="column col-12 col-sm-6"
                   >
-                </li>
+                    <li class="menu-item">
+                      <a
+                        :href="item.link"
+                        :class="item.class"
+                        @click.prevent="onUnityBtn(item)"
+                        >{{ item.text }}</a
+                      >
+                    </li>
+                  </div>
+                </div>
               </ul>
             </section>
           </div>
