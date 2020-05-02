@@ -3,8 +3,16 @@
   <div class="package-card">
     <div class="card">
       <div class="card-content">
-        <div class="columns">
-          <div class="column col-12">
+        <div
+          :class="{ columns: true, 'columns-horizontal': isHorizontalLayout }"
+        >
+          <div
+            :class="[
+              'column',
+              'column-image',
+              isHorizontalLayout ? 'col-4' : 'col-12'
+            ]"
+          >
             <div class="card-image-wrapper">
               <div class="card-image">
                 <img v-if="pkg.image" :src="pkg.image" class="img-responsive" />
@@ -14,7 +22,7 @@
               </div>
             </div>
           </div>
-          <div class="column col-12">
+          <div :class="['column', isHorizontalLayout ? 'col-8' : 'col-12']">
             <div class="card-header">
               <div class="card-title h5">
                 <NavLink :item="pkg.link" />
@@ -76,6 +84,10 @@ export default {
     },
     showCreatedAt: {
       type: Boolean
+    },
+    preferHorizontalLayout: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -87,6 +99,11 @@ export default {
         ...this.item,
         timeAgoText: util.timeAgoFormat(new Date(this.item.time))
       };
+    },
+    isHorizontalLayout() {
+      return (
+        this.preferHorizontalLayout && this.$mq != "xs" && this.$mq != "sm"
+      );
     }
   }
 };
@@ -101,6 +118,16 @@ export default {
     border 0
     box-shadow 0 .25rem .5rem rgba(48, 55, 66, .15)
     height 100%
+
+    .columns-horizontal
+      flex-direction row-reverse
+
+      .column-image
+        position relative
+        top -0.3rem
+        display flex
+        align-items center
+        justify-content center
 
     .card-title
       height 1.4rem

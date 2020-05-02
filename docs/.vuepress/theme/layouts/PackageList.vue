@@ -21,6 +21,7 @@
               >
                 <NavLink :item="contributorLink" class="btn" />
                 <NavLink :item="addPackageLink" class="btn btn-primary" />
+                <PackageControl class="hide-sm" />
               </div>
             </div>
           </div>
@@ -96,9 +97,15 @@
                 <div
                   v-for="pkg in packages"
                   :key="pkg.id"
-                  class="column col-6 col-sm-12"
+                  :class="[
+                    'column',
+                    preferHorizontalLayout ? 'col-12' : 'col-6 col-sm-12'
+                  ]"
                 >
-                  <PackageCard :item="pkg" />
+                  <PackageCard
+                    :item="pkg"
+                    :prefer-horizontal-layout="preferHorizontalLayout"
+                  />
                 </div>
               </div>
             </section>
@@ -115,10 +122,11 @@ import _ from "lodash";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
+import PackageControl from "@theme/components/PackageControl.vue";
 import util from "@root/docs/.vuepress/util";
 
 export default {
-  components: { ParentLayout, NavLink, PackageCard },
+  components: { ParentLayout, NavLink, PackageCard, PackageControl },
   data() {
     return {
       sort: "time",
@@ -159,6 +167,9 @@ export default {
       else if (this.sort == "name")
         pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
+    },
+    preferHorizontalLayout() {
+      return this.$store.getters.preferHorizontalLayout;
     },
     query() {
       const query = {};
