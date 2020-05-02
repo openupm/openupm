@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/openupm/openupm/compare/1.20.5...1.21.0) (2020-05-02)
+
+
+### Features
+
+* **website:** one-column for package lister view (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([87e417a](https://github.com/openupm/openupm/commit/87e417a91197e0e9c28fae777ac01d62cb900a86))
+
 ## [1.20.5](https://github.com/openupm/openupm/compare/1.20.4...1.20.5) (2020-05-01)
 
 
