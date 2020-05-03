@@ -159,11 +159,28 @@ module.exports = {
         ]
       },
       {
-        text: "Community",
-        ariaLabel: "Community Menu",
+        text: "Connect",
+        ariaLabel: "Connect Menu",
         items: [
-          { text: "Blog on Medium", link: "https://medium.com/openupm" },
-          { text: "Chat", link: "https://discord.gg/FnUgWEP" }
+          {
+            text: "Blog on Medium",
+            link: "https://medium.com/openupm"
+          },
+          {
+            text: "Chat on Discord",
+            link: "https://discord.gg/FnUgWEP"
+          },
+          {
+            link: "mailto:hello@openupm.com",
+            text: "Contact Us",
+            icon: "fas fa-envelope"
+          },
+          {
+            link: "/feeds/updates/rss",
+            text: "Package Updates",
+            icon: "fa fa-rss-square",
+            raw: true
+          }
         ]
       },
       {

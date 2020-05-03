@@ -72,15 +72,18 @@ export default {
       return [
         {
           link: this.$site.themeConfig.repo,
-          text: "GitHub"
+          text: "GitHub",
+          icon: "fab fa-github"
         },
         {
           link: "https://medium.com/openupm",
-          text: "Medium"
+          text: "Medium",
+          icon: "fab fa-medium"
         },
         {
           link: "mailto:hello@openupm.com",
-          text: "Contact"
+          text: "Contact Us",
+          icon: "fas fa-envelope"
         },
         {
           link: "/feeds/updates/rss",
