@@ -73,7 +73,7 @@ module.exports = {
           "https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
       }
     ],
-    ["link", { rel: "icon", href: `/images/openupm-icon-256.png` }],
+    ["link", { rel: "icon", href: "/images/openupm-icon-256.png" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
     ["meta", { name: "theme-color", content: "#3068E5" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -81,13 +81,37 @@ module.exports = {
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" }
     ],
-    ["link", { rel: "apple-touch-icon", href: `/images/openupm-icon-256.png` }],
+    ["link", { rel: "apple-touch-icon", href: "/images/openupm-icon-256.png" }],
     [
       "link",
       {
         rel: "mask-icon",
         href: "/images/openupm-icon-mask.svg",
         color: "#3068E5"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        href: "https://openupm.com/feeds/updates/rss"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/rss+atom",
+        href: "https://openupm.com/feeds/updates/atom"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/json",
+        href: "https://openupm.com/feeds/updates/json"
       }
     ],
     [
