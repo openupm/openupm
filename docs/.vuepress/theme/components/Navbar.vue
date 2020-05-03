@@ -40,6 +40,9 @@ export default {
       font-weight 600
       color $accentColor
 
+    .repo-link
+      display none
+
   .search-box
     input
       height 1.8rem
