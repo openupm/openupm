@@ -65,7 +65,7 @@ OpenUPM uses [Bee-Queue](https://github.com/bee-queue/bee-queue) to manage the j
 
 | Job                     | Description                                                  |
 |-------------------------|--------------------------------------------------------------|
-| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid git tags |
+| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid Git tags |
 | `build-rel:<pkg>:<ver>` | build pkg@version via Azure Pipelines                        |
 
 ## Website Frontend

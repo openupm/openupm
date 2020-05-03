@@ -11,7 +11,7 @@ OpenUPM requires the package repository fulfills below criteria
 - Valid UPM structure, contains at least the `package.json` file, can be placed at a sub-folder.
 - Open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
 - Hosting on Github.
-- Git tags that are valid semver. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) feature, or [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create git tags.
+- Git tags that are valid semver. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) feature, or [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create Git tags.
 
 ## Understanding Different Folder Structures of UPM Repositories
 
@@ -55,9 +55,9 @@ licenseName: MIT License
 # list of topic slugs
 topics:
   - utilities
-# Filter git tags based on prefix. Used by monorepos to separate pacakges
+# Filter Git tags based on prefix. Used by monorepos to separate pacakges
 gitTagPrefix: ''
-# A regular expression to ignore git tags
+# A regular expression to ignore Git tags
 gitTagIgnore: '-master$'
 # featured image
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
