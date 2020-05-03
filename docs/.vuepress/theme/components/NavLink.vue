@@ -6,9 +6,9 @@
     :exact="exact"
     @focusout.native="focusoutAction"
   >
-    <i v-if="item.iconBefore" :class="item.iconBefore" aria-hidden="true"></i>
+    <i v-if="showLeftIcon" :class="item.icon" aria-hidden="true"></i>
     {{ item.text }}
-    <i v-if="item.icon" :class="item.icon" aria-hidden="true"></i>
+    <i v-if="showRightIcon" :class="item.icon" aria-hidden="true"></i>
   </RouterLink>
   <a
     v-else
@@ -18,9 +18,9 @@
     :rel="rel"
     @focusout="focusoutAction"
   >
-    <i v-if="item.iconBefore" :class="item.iconBefore" aria-hidden="true"></i>
+    <i v-if="showLeftIcon" :class="item.icon" aria-hidden="true"></i>
     {{ item.text }}
-    <i v-if="item.icon" :class="item.icon" aria-hidden="true"></i>
+    <i v-if="showRightIcon" :class="item.icon" aria-hidden="true"></i>
     <OutboundLink v-if="isOutboundLink" />
   </a>
 </template>
@@ -72,6 +72,14 @@ export default {
         this.target === "" &&
         isExternal(this.link)
       );
+    },
+
+    showLeftIcon() {
+      return this.item.icon && this.item.iconLeft;
+    },
+
+    showRightIcon() {
+      return this.item.icon && !this.item.iconLeft;
     },
 
     target() {

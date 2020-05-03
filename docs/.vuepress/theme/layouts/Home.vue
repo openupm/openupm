@@ -7,13 +7,7 @@
             <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
             <p class="action">
               <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
-              <a
-                :href="githubLink.link"
-                rel="noopener noreferrer"
-                class="nav-link external btn btn-lg"
-              >
-                {{ githubLink.text }}
-              </a>
+              <NavLink class="btn btn-lg" :item="githubLink" />
             </p>
           </div>
         </div>
@@ -61,7 +55,9 @@ export default {
     githubLink() {
       return {
         link: this.$site.themeConfig.repo,
-        text: "Star on GitHub"
+        text: "Star",
+        icon: "fab fa-github",
+        iconLeft: true
       };
     }
   }
