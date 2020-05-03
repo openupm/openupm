@@ -55,7 +55,7 @@ export default {
     githubLink() {
       return {
         link: this.$site.themeConfig.repo,
-        text: "Star",
+        text: "GitHub",
         icon: "fab fa-github",
         iconLeft: true
       };

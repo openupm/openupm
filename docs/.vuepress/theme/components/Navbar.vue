@@ -62,6 +62,11 @@ export default {
       a
         font-size 0.7rem
 
+.sidebar
+  .nav-links
+    a.repo-link
+      display none
+
 .wip
   position fixed
   z-index 1000

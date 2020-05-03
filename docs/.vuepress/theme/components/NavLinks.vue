@@ -8,6 +8,18 @@
       </div>
     </div>
     <ParentLayout></ParentLayout>
+    <div class="nav-links hide-md">
+      <div class="nav-item growth">
+        <div class="btn-group">
+          <a href="https://github.com/openupm/openupm" class="btn btn-sm"
+            ><i class="fa fa-star"></i> Star</a
+          >
+          <a href="https://www.patreon.com/openupm" class="btn btn-sm"
+            >Donate</a
+          >
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,6 +41,7 @@ export default {
           list-style none
           a
             line-height 1.1rem
+
       .dropdown-title
         span
           font-size 0.7rem
@@ -37,18 +50,29 @@ export default {
           font-family $titleFontFamily
           &.arrow
             margin-left 2px
+
     .dropdown-subitem-wrapper
       margin 0
+
       .dropdown-subitem
         margin-top 0.3rem
+
     &.packages-add
       margin-right 0.2rem
       a
         &:hover
           border-bottom none
+
+    &.growth
+      margin-left 1.6rem
+      display inline-block
+      .btn
+        font-size 12px
+
     a
       &.external
         margin-right -0.7rem
+
     h4
       font-size 0.7rem
       font-weight 800
@@ -60,13 +84,16 @@ export default {
         font-family $titleFontFamily
         color #3b4351
         font-size 0.8rem
+
         &.router-link-active
           color $accentColor
+
       .dropdown-wrapper
         .dropdown-item
           a
             font-size 0.7rem
             line-height 1.6rem
+
       .nav-dropdown
         padding 0
 </style>

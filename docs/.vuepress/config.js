@@ -163,11 +163,16 @@ module.exports = {
         ariaLabel: "Connect Menu",
         items: [
           {
-            text: "Blog on Medium",
+            text: "GitHub",
+            link: "https://github.com/openupm/openupm",
+            icon: "fab fa-github"
+          },
+          {
+            text: "Medium",
             link: "https://medium.com/openupm"
           },
           {
-            text: "Chat on Discord",
+            text: "Discord",
             link: "https://discord.gg/FnUgWEP"
           },
           {
@@ -187,11 +192,6 @@ module.exports = {
         text: "Command-Line Tool",
         link: "https://github.com/openupm/openupm-cli#openupm-cli",
         icon: "fa fa-keyboard"
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/openupm/openupm",
-        icon: "fab fa-github"
       }
     ],
     sidebar: {

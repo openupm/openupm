@@ -77,8 +77,11 @@ export default {
         },
         {
           link: "https://medium.com/openupm",
-          text: "Medium",
-          icon: "fab fa-medium"
+          text: "Medium"
+        },
+        {
+          text: "Discord",
+          link: "https://discord.gg/FnUgWEP"
         },
         {
           link: "mailto:hello@openupm.com",
