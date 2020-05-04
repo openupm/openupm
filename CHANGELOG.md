@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/openupm/openupm/compare/1.22.1...1.23.0) (2020-05-04)
+
+
+### Features
+
+* **website:** choice README in package submission form (close [#91](https://github.com/openupm/openupm/issues/91)) ([e423ade](https://github.com/openupm/openupm/commit/e423ade83f85d4b987a9b5ce3f92dfd2b8acd5eb))
+
 ## [1.22.1](https://github.com/openupm/openupm/compare/1.22.0...1.22.1) (2020-05-04)
 
 
