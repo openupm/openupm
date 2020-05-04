@@ -3,9 +3,10 @@ displayName: Stans Assets - Foundation Lib
 description: null
 repoUrl: 'https://github.com/StansAssets/com.stansassets.foundation'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
-topics: []
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
 hunter: stan-osipov
 gitTagPrefix: ''
 gitTagIgnore: ''
