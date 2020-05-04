@@ -3,7 +3,7 @@
  **/
 
 const cheerio = require("cheerio");
-const humanFormat = require("human-format");
+const config = require("config");
 const urljoin = require("url-join");
 const PackageExtra = require("../models/packageExtra");
 const PackageFeed = require("../models/packageFeed");
@@ -31,7 +31,7 @@ const fetchExtraData = async function(packageNames) {
     // Load package
     const pkg = await loadPackage(packageName);
     await _fetchPackageInfo(packageName);
-    await _fetchStars(pkg, packageName);
+    await _fetchStars(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
   }
@@ -94,24 +94,19 @@ const _fetchPackageInfo = async function(packageName) {
  * Fetch repository stars.
  * @param {string} repo
  */
-const _fetchStars = async function(pkg, packageName) {
+const _fetchStars = async function(repo, packageName) {
   try {
-    const getStar = async function(repo) {
-      const url = urljoin("https://github.com/", repo);
-      const resp = await AxiosService.create().get(url);
-      const text = resp.data;
-      const $ = cheerio.load(text);
-      const starText = $("a.social-count[href$='stargazers']")
-        .text()
-        .trim();
-      const star = humanFormat.parse(starText);
-      return isNaN(star) ? 0 : star;
-    };
-    let stars = await getStar(pkg.repo);
-    if (pkg.parentRepo) {
-      const parentStar = await getStar(pkg.parentRepo);
-      stars += parentStar;
-    }
+    const headers = { Accept: "application/vnd.github.v3.json" };
+    if (config.gitHub.token)
+      headers.authorization = `Bearer ${config.gitHub.token}`;
+    const resp = await AxiosService.create().get(
+      urljoin("https://api.github.com/repos/", repo),
+      { headers }
+    );
+    const repoInfo = resp.data;
+    let stars = 0;
+    stars += repoInfo.stargazers_count || 0;
+    stars += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
     await PackageExtra.setStars(packageName, stars);
   } catch (error) {
     logger.error(errorInfo(error, { pkg: packageName }), "fetch stars error");
