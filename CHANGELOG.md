@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/openupm/openupm/compare/1.22.0...1.22.1) (2020-05-04)
+
+
+### Bug Fixes
+
+* **website:** fix readme image with absolute URL ([ce20410](https://github.com/openupm/openupm/commit/ce20410552c78194cfaf84f32101226e427a6aa5))
+
 # [1.22.0](https://github.com/openupm/openupm/compare/1.21.0...1.22.0) (2020-05-04)
 
 
