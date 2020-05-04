@@ -14,5 +14,5 @@ hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''
 image: null
-readme: 'develop/README.md'
+readme: 'develop:README.md'
 createdAt: 1587630791665
