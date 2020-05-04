@@ -68,6 +68,7 @@ export default {
       display inline-block
       .btn
         font-size 12px
+        padding-top 0
 
     a
       &.external
