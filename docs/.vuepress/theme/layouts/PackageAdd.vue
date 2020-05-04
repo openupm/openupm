@@ -114,6 +114,37 @@
                   </span>
                 </div>
                 <div
+                  id="readme"
+                  class="form-group column col-12"
+                  :class="{
+                    hide: hideOtherFields || !form.branch.value,
+                    'has-error': form.readme.error
+                  }"
+                >
+                  <label class="form-label">
+                    Path of README.md
+                  </label>
+                  <select v-model="form.readme.value" class="form-select">
+                    <option
+                      v-if="!readmePaths.length"
+                      disabled
+                      selected
+                      value=""
+                      >{{ form.readme.prompt }}</option
+                    >
+                    <option
+                      v-for="path in readmePaths"
+                      :key="path"
+                      :value="path"
+                    >
+                      {{ path }}</option
+                    >
+                  </select>
+                  <span v-if="form.readme.error" class="form-input-hint">
+                    {{ form.readme.error }}
+                  </span>
+                </div>
+                <div
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
@@ -445,6 +476,10 @@ export default {
           error: "",
           value: ""
         },
+        readme: {
+          error: "",
+          value: null
+        },
         image: {
           error: "",
           value: null
@@ -468,6 +503,7 @@ export default {
       repoImages: [],
       packageJsonPaths: {},
       packageInfo: {},
+      readmePaths: {},
       branches: [],
       yaml: "",
       yamlFilename: ""
@@ -577,6 +613,9 @@ export default {
         gitTagPrefix: form.gitTagPrefix.value,
         gitTagIgnore: form.gitTagIgnore.value,
         image: form.image.value,
+        readme: form.readme.value
+          ? form.branch.value + ":" + form.readme.value
+          : "master:README.md",
         createdAt: new Date().getTime()
       };
       return yaml.safeDump(content);
@@ -682,6 +721,7 @@ export default {
       try {
         // Clean error message.
         this.$data.form.packageJson.error = "";
+        this.$data.form.readme.error = "";
         // Fetch.
         const url = urljoin(
           util.githubReposApiUrl,
@@ -690,23 +730,50 @@ export default {
           this.form.branch.value
         );
         this.$data.form.packageJson.prompt = "Loading package.json path...";
+        this.$data.form.readme.prompt = "Loading README.md path...";
         const resp = await axios.get(url, {
           params: { recursive: 1 },
           headers: { Accept: "application/vnd.github.v3.json" }
         });
-        // Assign data.
-        const paths = resp.data.tree
-          .map(x => x.path)
-          .filter(x => x.endsWith("package.json"));
-        this.$data.packageJsonPaths = paths;
-        if (paths.length == 0) {
-          this.$data.form.packageJson.prompt = "";
-          this.$data.form.packageJson.error =
-            "File not found: package.json. Please choice a different branch.";
-        } else if (paths.length == 1)
-          this.$data.form.packageJson.value = paths[0];
-        else if (paths.includes("package.json"))
-          this.$data.form.packageJson.value = "package.json";
+        // Assign data to packageJson
+        const self = this;
+        (function() {
+          const paths = resp.data.tree
+            .map(x => x.path)
+            .filter(x => x.endsWith("package.json"));
+          self.$data.packageJsonPaths = paths;
+          if (paths.length == 0) {
+            self.$data.form.packageJson.prompt = "";
+            self.$data.form.packageJson.error =
+              "File not found: package.json. Please choice a different branch.";
+          } else if (paths.length == 1) {
+            self.$data.form.packageJson.value = paths[0];
+          } else if (paths.includes("package.json")) {
+            self.$data.form.packageJson.value = "package.json";
+          }
+        })();
+        // Assign data to readme
+        (function() {
+          const markdownRe = /.(md|markdown)$/i;
+          const paths = resp.data.tree
+            .map(x => x.path)
+            .filter(x => markdownRe.test(x));
+          self.$data.readmePaths = paths;
+          if (paths.length == 0) {
+            self.$data.form.readme.prompt = "";
+            self.$data.form.readme.error =
+              "No markdown file found, will fallback to README.md";
+          } else if (paths.length == 1) {
+            self.$data.form.readme.value = paths[0];
+          } else if (paths.includes("README.md")) {
+            self.$data.form.readme.value = "README.md";
+          } else {
+            const filteredPath = paths.filter(x => x.endsWith("README.md"));
+            if (filteredPath.length > 0) {
+              self.$data.form.readme.value = filteredPath[0];
+            }
+          }
+        })();
       } catch (error) {
         this.$data.form.packageJson.error = error.message;
       }
