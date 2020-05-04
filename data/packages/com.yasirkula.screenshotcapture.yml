@@ -13,4 +13,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: >-
   https://github.com/yasirkula/Unity360ScreenshotCapture/raw/14e72beb3ca506420dcbd6b249949f193caf70a1/.github/Images/360render.jpeg
+readme: '.github/README.md'
 createdAt: 1588441094558

@@ -12,4 +12,5 @@ hunter: ''
 gitTagPrefix: v
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1586955876205

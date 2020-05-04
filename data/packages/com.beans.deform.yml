@@ -13,4 +13,5 @@ hunter: gekidoslair
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:.github/README.md'
 createdAt: 1588473574036

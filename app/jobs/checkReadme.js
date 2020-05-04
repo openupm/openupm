@@ -20,13 +20,8 @@ const checkDependencies = async function(packageNames) {
     }
     const pkg = await loadPackage(name);
     try {
-      const url = urljoin(
-        "https://github.com/",
-        pkg.repo,
-        "raw",
-        "master",
-        "README.md"
-      );
+      const [branch, path] = pkg.readme.split(":");
+      const url = urljoin("https://github.com/", pkg.repo, "raw", branch, path);
       console.log(url);
       const resp = await AxiosService.create().get(url);
     } catch (error) {

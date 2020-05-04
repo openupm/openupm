@@ -16,4 +16,5 @@ gitTagPrefix: upm
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/unity-auto-preset/raw/1ca94dc44bf744e0db7ca5ceabbd81545c60c1d2/Images/AutoPresetConfigInspector.png
+readme: 'develop:readme.md'
 createdAt: 1583748685245

@@ -11,4 +11,5 @@ hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1582570769879

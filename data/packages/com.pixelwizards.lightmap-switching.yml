@@ -14,4 +14,5 @@ hunter: PixelWizards
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1586491914263

@@ -15,4 +15,5 @@ hunter: jeffcampbellmakesgames
 gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 image: 'https://github.com/jeffcampbellmakesgames/unity-package-tools/raw/master/Documentation/Inspector.png'
+readme: 'develop:readme.md'
 createdAt: 1582441622120

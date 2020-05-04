@@ -14,4 +14,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: >-
   https://github.com/yasirkula/UnityBezierSolution/raw/c6dd5d06a74ecf85a2357fb51611ebb41bbc35b7/.github/Images/1.png
+readme: '.github/README.md'
 createdAt: 1588087029017

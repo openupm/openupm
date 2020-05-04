@@ -13,4 +13,5 @@ hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:ThisOtherThing.UIShapesKit/README.md'
 createdAt: 1583926295188

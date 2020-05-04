@@ -61,6 +61,8 @@ gitTagPrefix: ''
 gitTagIgnore: '-master$'
 # featured image
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
+# readme path
+readme: 'master:README.md'
 # package hunter name (github username)
 hunter: author
 ```

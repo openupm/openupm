@@ -13,4 +13,5 @@ hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:Assets/Adrenak.Unex/README.md'
 createdAt: 1583867087239
