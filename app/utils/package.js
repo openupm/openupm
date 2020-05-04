@@ -125,6 +125,10 @@ const preparePackage = function(doc) {
   if (doc.readme.indexOf(":") == -1) {
     doc.readme = "master:" + doc.readme;
   }
+  const [readmeBranch, readmePath] = doc.readme.split(":");
+  const dirname = path.dirname(readmePath);
+  doc.readmeBase =
+    dirname == "." ? readmeBranch : [readmeBranch, dirname].join("/");
   return doc;
 };
 

@@ -66,6 +66,9 @@ const _markedUtils = {
     const originalRendererImage = renderer.image.bind(renderer);
 
     renderer.link = (href, title, text) => {
+      if (href.startsWith("#")) {
+        return `<a href='${href}'>${text}</a>`;
+      }
       if (option.linkBaseUrl && !httpRe.test(href)) {
         href = urljoin(option.linkBaseUrl, href);
       }

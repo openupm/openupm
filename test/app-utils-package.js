@@ -61,6 +61,13 @@ describe("app/util/package.js", function() {
     it("simple", async function() {
       let pkg = await loadPackage("com.littlebigfun.addressable-importer");
       pkg.name.should.equal("com.littlebigfun.addressable-importer");
+      pkg.readme.should.equal("master:README.md");
+      pkg.readmeBase.should.equal("master");
+    });
+    it("simple", async function() {
+      let pkg = await loadPackage("com.reese.spawning");
+      pkg.readme.should.equal("master:Packages/com.reese.spawning/README.md");
+      pkg.readmeBase.should.equal("master/Packages/com.reese.spawning");
     });
   });
   describe("getNamespace()", function() {
