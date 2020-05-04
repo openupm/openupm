@@ -469,15 +469,28 @@ export default {
       else {
         const linkBaseUrl = urljoin(
           this.$package.repoUrl,
+          "blob/" + this.$package.readmeBranch
+        );
+        const linkBaseRelativeUrl = urljoin(
+          this.$package.repoUrl,
           "blob/" + this.$package.readmeBase
         );
         const imageBaseUrl = urljoin(
           this.$package.repoUrl,
+          "raw/" + this.$package.readmeBranch
+        );
+        const imageBaseRelativeUrl = urljoin(
+          this.$package.repoUrl,
           "raw/" + this.$package.readmeBase
         );
-        const renderer = util.markedRenderer({ linkBaseUrl, imageBaseUrl });
+        const renderer = util.markedRenderer({
+          linkBaseUrl,
+          linkBaseRelativeUrl,
+          imageBaseUrl,
+          imageBaseRelativeUrl
+        });
         const html = marked(this.$data.readmeRaw, { renderer });
-        return util.postMarkdown(html, { imageBaseUrl });
+        return util.postMarkdown(html, { imageBaseRelativeUrl });
       }
     },
     repoNavLink() {

@@ -127,6 +127,7 @@ const preparePackage = function(doc) {
   }
   const [readmeBranch, readmePath] = doc.readme.split(":");
   const dirname = path.dirname(readmePath);
+  doc.readmeBranch = readmeBranch;
   doc.readmeBase =
     dirname == "." ? readmeBranch : [readmeBranch, dirname].join("/");
   return doc;
