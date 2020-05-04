@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/openupm/openupm/compare/1.21.0...1.22.0) (2020-05-04)
+
+
+### Features
+
+* **website:** support README at any path ([#238](https://github.com/openupm/openupm/issues/238), [#91](https://github.com/openupm/openupm/issues/91)) ([d8fb7d5](https://github.com/openupm/openupm/commit/d8fb7d511d9c5eba5f7816c715ccbcd5aff55af8))
+
 # [1.21.0](https://github.com/openupm/openupm/compare/1.20.5...1.21.0) (2020-05-02)
 
 
