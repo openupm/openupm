@@ -13,4 +13,5 @@ hunter: iDreamsOfGame
 gitTagPrefix: upm
 gitTagIgnore: ''
 image: null
+readme: 'upm:README.md'
 createdAt: 1587629257917

@@ -311,6 +311,7 @@ import escape from "escape-html";
 import copy from "copy-to-clipboard";
 import marked from "marked";
 import { noCase } from "change-case";
+import path from "path";
 import urljoin from "url-join";
 
 import NavLink from "@theme/components/NavLink.vue";
@@ -466,8 +467,14 @@ export default {
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
-        const linkBaseUrl = urljoin(this.$package.repoUrl, "blob/master");
-        const imageBaseUrl = urljoin(this.$package.repoUrl, "raw/master");
+        const linkBaseUrl = urljoin(
+          this.$package.repoUrl,
+          "blob/" + this.$package.readmeBase
+        );
+        const imageBaseUrl = urljoin(
+          this.$package.repoUrl,
+          "raw/" + this.$package.readmeBase
+        );
         const renderer = util.markedRenderer({ linkBaseUrl, imageBaseUrl });
         const html = marked(this.$data.readmeRaw, { renderer });
         return util.postMarkdown(html, { imageBaseUrl });

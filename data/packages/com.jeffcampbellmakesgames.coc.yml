@@ -18,4 +18,5 @@ gitTagPrefix: upm
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/unity-coc/raw/8f0fae755ff94aaeba158813236cfda766a97bea/Images/COCNodeGraphExample.png
+readme: 'develop:README.md'
 createdAt: 1583740036002

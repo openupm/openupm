@@ -33,8 +33,28 @@ const fetchExtraData = async function(packageNames) {
     await _fetchPackageInfo(packageName);
     await _fetchStars(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
-    await _fetchReadme(pkg.repo, packageName);
+    await _fetchReadme(pkg, packageName);
   }
+};
+
+/**
+ * Return error info object.
+ * @param {Object} error
+ * @param {Object} others
+ */
+const errorInfo = function(error, others) {
+  const status = error.response ? error.response.status : undefined;
+  // Show error field if status is unknown.
+  return { status, error: status ? undefined : error, ...others };
+};
+
+/**
+ * Return if error has given status code.
+ * @param {Object} error
+ * @param {Number} code
+ */
+const isErrorCode = function(error, code) {
+  return error.response && error.response.status == code;
 };
 
 /**
@@ -63,8 +83,10 @@ const _fetchPackageInfo = async function(packageName) {
     // Save the package version.
     await PackageExtra.setVersion(packageName, version);
   } catch (error) {
-    const is404 = error.response && error.response.status == 404;
-    if (!is404) logger.error(error);
+    logger.error(
+      errorInfo(error, { pkg: packageName }),
+      "fetch package info error"
+    );
   }
 };
 
@@ -87,7 +109,7 @@ const _fetchStars = async function(repo, packageName) {
     stars += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
     await PackageExtra.setStars(packageName, stars);
   } catch (error) {
-    console.error(error);
+    logger.error(errorInfo(error, { pkg: packageName }), "fetch stars error");
   }
 };
 
@@ -110,7 +132,12 @@ const _fetchOGImage = async function(pkg, packageName) {
       }
       return ogImageUrl;
     } catch (error) {
-      console.error(error);
+      if (!isErrorCode(error, 404)) {
+        logger.error(
+          errorInfo(error, { pkg: packageName }),
+          "fetch og:Image error"
+        );
+      }
       return "";
     }
   };
@@ -124,7 +151,7 @@ const _fetchOGImage = async function(pkg, packageName) {
   try {
     await PackageExtra.setImageUrl(packageName, imageUrl);
   } catch (error) {
-    console.error(error);
+    logger.error(errorInfo(error, { pkg: packageName }), "save og:Image error");
   }
 };
 
@@ -132,19 +159,16 @@ const _fetchOGImage = async function(pkg, packageName) {
  * Fetch repository readme.
  * @param {string} repo
  */
-const _fetchReadme = async function(repo, packageName) {
+const _fetchReadme = async function(pkg, packageName) {
   try {
-    const headers = { Accept: "application/vnd.github.v3.raw" };
-    if (config.gitHub.token)
-      headers.authorization = `Bearer ${config.gitHub.token}`;
+    const [branch, path] = pkg.readme.split(":");
     const resp = await AxiosService.create().get(
-      urljoin("https://api.github.com/repos/", repo, "readme"),
-      { headers }
+      urljoin("https://github.com/", pkg.repo, "raw", branch, path)
     );
     const text = resp.data;
     await PackageExtra.setReadme(packageName, text);
   } catch (error) {
-    console.error(error);
+    logger.error(errorInfo(error, { pkg: packageName }), "fetch readme error");
   }
 };
 

@@ -14,4 +14,5 @@ gitTagPrefix: spawning/
 gitTagIgnore: ''
 image: >-
   https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/spawn-demo.gif
+readme: 'master:Packages/com.reese.spawning/README.md'
 createdAt: 1582651661648

@@ -10,4 +10,5 @@ topics:
 hunter: yoshida190
 gitTagIgnore: '^(1[0-2]|[0-9])\..*\..*'
 image: null
+readme: 'master:README.markdown'
 createdAt: 1581317289016
