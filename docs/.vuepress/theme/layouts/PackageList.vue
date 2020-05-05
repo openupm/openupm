@@ -71,7 +71,7 @@
             </section>
             <section class="unity-section">
               <ul class="menu">
-                <li class="divider" data-content="Unity Version"></li>
+                <li class="divider" data-content="Supported Unity Version"></li>
                 <div class="columns">
                   <div
                     v-for="item in unityOptions"
@@ -127,6 +127,7 @@ import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { ParentLayout, NavLink, PackageCard, PackageControl },
+
   data() {
     return {
       sort: "time",
@@ -138,6 +139,7 @@ export default {
       unity: ""
     };
   },
+
   computed: {
     addPackageLink() {
       return {
@@ -145,22 +147,30 @@ export default {
         text: "Add Package"
       };
     },
+
     contributorLink() {
       return {
         link: "/contributors/",
         text: "Contributors"
       };
     },
+
     packagesExtra() {
       return this.$store.getters.packagesExtra;
     },
+
     packages() {
       // Join extra data
       let pkgs = this.$page.frontmatter.packages.map(x => {
         return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
-      // Filter by unity
-      if (this.unity) pkgs = pkgs.filter(x => x.unity == this.unity);
+      // Filter by supported unity version.
+      if (this.unity)
+        pkgs = pkgs.filter(
+          x =>
+            this.unityVersionToValue(x.unity) <=
+            this.unityVersionToValue(this.unity)
+        );
       // Sort
       if (this.sort == "time") pkgs = _.orderBy(pkgs, ["time"], ["desc"]);
       else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
@@ -168,15 +178,18 @@ export default {
         pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
     },
+
     preferHorizontalLayout() {
       return this.$store.getters.preferHorizontalLayout;
     },
+
     query() {
       const query = {};
       if (this.sort) query.sort = this.sort;
       if (this.unity) query.untiy = this.unity;
       return query;
     },
+
     sortOptions() {
       return this.sortList.map(x => {
         return {
@@ -186,9 +199,11 @@ export default {
         };
       });
     },
+
     topic() {
       return this.$page.frontmatter.topic;
     },
+
     topics() {
       return this.$page.frontmatter.topics
         .filter(topic => topic.count > 0)
@@ -200,6 +215,7 @@ export default {
           };
         });
     },
+
     unityOptions() {
       let unityList = Object.entries(this.packagesExtra).map(
         // eslint-disable-next-line no-unused-vars
@@ -225,6 +241,7 @@ export default {
       });
     }
   },
+
   watch: {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
@@ -232,10 +249,12 @@ export default {
       this.setUnityOption(this.$route.query.unity);
     }
   },
+
   mounted() {
     this.setSortOption(this.$route.query.sort);
     this.setUnityOption(this.$route.query.unity);
   },
+
   methods: {
     onSortBtn(item) {
       if (item.class == "active") return;
@@ -245,6 +264,7 @@ export default {
         query: this.query
       });
     },
+
     onUnityBtn(item) {
       if (item.class == "active") return;
       this.unity = item.slug;
@@ -253,15 +273,38 @@ export default {
         query: this.query
       });
     },
+
     setSortOption() {
       const sort = this.$route.query.sort;
       const choices = this.sortList.map(x => x.slug);
       if (choices.includes(sort)) this.sort = sort;
     },
+
     setUnityOption() {
       const unity = this.$route.query.unity;
       const choices = this.unityOptions.map(x => x.slug);
       if (choices.includes(unity)) this.unity = unity;
+    },
+
+    /**
+     * convert unity string to number value.
+     */
+    unityVersionToValue(unity) {
+      if (!unity) {
+        return 0;
+      }
+      const segs = unity.split(".");
+      try {
+        if (segs.length == 1) {
+          return parseInt(segs[0]) * 1000;
+        } else if (segs.length == 2) {
+          return parseInt(segs[0]) * 1000 + parseInt(segs[1]);
+        } else {
+          return 0;
+        }
+      } catch (err) {
+        return 0;
+      }
     }
   }
 };
