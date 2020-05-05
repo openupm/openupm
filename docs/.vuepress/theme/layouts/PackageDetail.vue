@@ -7,10 +7,10 @@
           <div class="column col-12">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="/">Home</a>
+                <NavLink :item="homeLink" />
               </li>
               <li class="breadcrumb-item">
-                <a href="/packages/">Packages</a>
+                <NavLink :item="packagesLink" />
               </li>
               <li class="breadcrumb-item">
                 <a href="#">{{ $package.name }}</a>
@@ -334,6 +334,18 @@ export default {
     return defaultData();
   },
   computed: {
+    homeLink() {
+      return {
+        link: "/",
+        text: "Home"
+      };
+    },
+    packagesLink() {
+      return {
+        link: "/packages/",
+        text: "Packages"
+      };
+    },
     dependencies() {
       const versions = this.registryInfo.versions || {};
       const entry = versions[this.packageVersion];
