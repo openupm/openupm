@@ -10,7 +10,7 @@ topics:
   - particles-and-effects
 hunter: JohannesDeml
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^v'
 image: >-
   https://github.com/mob-sakai/UIEffect/raw/5504338d5ebc98fd2f386bc3c817f13c60209769/Samples~/Demo/UIEffect_Demo_Pattern.png
 readme: 'upm:README.md'
