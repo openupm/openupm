@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/openupm/openupm/compare/1.23.0...1.23.1) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** reimplement unity version filter of package list page (refs [#53](https://github.com/openupm/openupm/issues/53)) ([7396957](https://github.com/openupm/openupm/commit/73969570a8a8b4c336382d8d42f66992d81d759e))
+
 # [1.23.0](https://github.com/openupm/openupm/compare/1.22.1...1.23.0) (2020-05-04)
 
 
