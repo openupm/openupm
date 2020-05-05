@@ -66,7 +66,6 @@ export default {
 
     isOutboundLink() {
       return (
-        !this.item.iconBefore &&
         !this.item.icon &&
         !this.item.raw &&
         this.target === "" &&

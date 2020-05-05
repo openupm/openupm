@@ -15,7 +15,7 @@
             ><i class="fa fa-star"></i> Star</a
           >
           <a href="https://www.patreon.com/openupm" class="btn btn-sm"
-            >Donate</a
+            ><i class="fab fa-patreon"></i> Donate</a
           >
         </div>
       </div>

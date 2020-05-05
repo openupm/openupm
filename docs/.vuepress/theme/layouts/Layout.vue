@@ -24,7 +24,8 @@
       <slot slot="bottom" name="sidebar-bottom" />
     </Sidebar>
 
-    <div v-if="shouldShowMainAds" class="adp-main">
+    <GrowthBlock />
+    <div v-if="shouldShowMainAds" class="adp-main hide-sm">
       <AdBlock />
     </div>
 
@@ -49,6 +50,7 @@
 
 <script>
 import AdBlock from "@theme/components/AdBlock.vue";
+import GrowthBlock from "@theme/components/GrowthBlock.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Footer from "@theme/components/Footer.vue";
 import Page from "@parent-theme/components/Page.vue";
