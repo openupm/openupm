@@ -40,10 +40,12 @@ export default {
 <style lang="stylus">
 // ad-block
 .growth-block
+  position relative
   margin $navbarHeight 0 -4.5rem
   font-size 12px
   font-weight 400
   padding 0.4rem
+  z-index 9
 
   .btn-group
     width 100%
