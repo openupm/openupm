@@ -1,7 +1,7 @@
 // Build package job
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
-const { difference } = require("lodash");
+const { differenceBy } = require("lodash");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");
@@ -31,7 +31,12 @@ const buildPackage = async function(name) {
     gitTagPrefix: pkg.gitTagPrefix
   });
   validTags.reverse();
-  let invalidTags = difference(remoteTags, validTags);
+  let invalidTags = getInvalidTags({
+    remoteTags,
+    validTags,
+    gitTagIgnore: pkg.gitTagIgnore,
+    gitTagPrefix: pkg.gitTagPrefix
+  });
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
     logger.info({ pkg: name }, "no valid tags found");
@@ -70,6 +75,26 @@ const filterRemoteTags = function({ remoteTags, gitTagIgnore, gitTagPrefix }) {
     }
   }
   return validTags;
+};
+
+/**
+ * Return invalid tags. Tags have been ignored or without then given prefix are not considered invalid.
+ */
+const getInvalidTags = function({
+  remoteTags,
+  validTags,
+  gitTagIgnore,
+  gitTagPrefix
+}) {
+  let tags = differenceBy(remoteTags, validTags, x => x.tag);
+  if (gitTagPrefix) {
+    tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
+  }
+  if (gitTagIgnore) {
+    const ignoreRe = new RegExp(gitTagIgnore, "i");
+    tags = tags.filter(x => !ignoreRe.test(x.tag));
+  }
+  return tags;
 };
 
 // Update release records for given remoteTags.

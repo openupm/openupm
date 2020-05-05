@@ -235,7 +235,7 @@
                 <section v-if="packageInvalidTags.length" class="col-12">
                   <h2
                     class="tooltip tooltip-top"
-                    data-tooltip="Tags are non-semver, duplicated or ignored."
+                    data-tooltip="Non-semver or duplicated tags."
                   >
                     Invalid tags
                     <i class="fa fa-info-circle"></i>
@@ -311,7 +311,6 @@ import escape from "escape-html";
 import copy from "copy-to-clipboard";
 import marked from "marked";
 import { noCase } from "change-case";
-import path from "path";
 import urljoin from "url-join";
 
 import NavLink from "@theme/components/NavLink.vue";
