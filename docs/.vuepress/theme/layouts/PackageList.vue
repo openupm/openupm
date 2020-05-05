@@ -28,7 +28,7 @@
           <div class="column col-3 col-sm-12 meta-column">
             <section class="sort-section">
               <ul class="menu">
-                <li class="divider" data-content="SORT BY"></li>
+                <li class="divider" data-content="Sort by"></li>
                 <div class="columns">
                   <div
                     v-for="item in sortOptions"
@@ -49,7 +49,7 @@
             </section>
             <section class="topic-section">
               <ul class="menu">
-                <li class="divider" data-content="TOPICS"></li>
+                <li class="divider" data-content="Topics"></li>
                 <div class="columns">
                   <div
                     v-for="item in topics"
