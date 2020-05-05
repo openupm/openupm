@@ -145,7 +145,8 @@ export default {
       const item = {
         link: "/packages/add/",
         text: "Add Package",
-        icon: "fas fa-plus-circle"
+        icon: "fas fa-plus-circle",
+        iconLeft: true
       };
       if (this.$mq == "xs" || this.$mq == "sm") {
         item.text = undefined;
@@ -156,7 +157,8 @@ export default {
       const item = {
         link: "/contributors/",
         text: "Contributors",
-        icon: "fas fa-user-astronaut"
+        icon: "fas fa-user-astronaut",
+        iconLeft: true
       };
       if (this.$mq == "xs" || this.$mq == "sm") {
         item.text = undefined;
