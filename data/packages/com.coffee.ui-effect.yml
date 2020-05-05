@@ -1,0 +1,17 @@
+name: com.coffee.ui-effect
+displayName: UIEffect
+description: ' UIEffect is an effect component for uGUI element in Unity. Let''s decorate your UI with effects!'
+repoUrl: 'https://github.com/mob-sakai/UIEffect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/mob-sakai/UIEffect/raw/5504338d5ebc98fd2f386bc3c817f13c60209769/Samples~/Demo/UIEffect_Demo_Pattern.png
+readme: 'upm:README.md'
+createdAt: 1588665488110
