@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/openupm/openupm/compare/1.23.1...1.23.2) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** exclude ignored or non-prefixed tags from invalid tags of the package detail page (close: [#90](https://github.com/openupm/openupm/issues/90)) ([8332f6b](https://github.com/openupm/openupm/commit/8332f6bd7737b0ffecb60d3f55fc7769e565dc8d))
+
 ## [1.23.1](https://github.com/openupm/openupm/compare/1.23.0...1.23.1) (2020-05-05)
 
 
