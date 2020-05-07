@@ -11,4 +11,5 @@ hunter: grashaar
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'upm:README.md'
 createdAt: 1584522386377
