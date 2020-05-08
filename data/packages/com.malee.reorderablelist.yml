@@ -1,0 +1,15 @@
+name: com.malee.reorderablelist
+displayName: Reorderable List
+description: Extended version of the Reorderable List in Unity
+repoUrl: 'https://github.com/cfoulston/Unity-Reorderable-List'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588954512416
