@@ -1,0 +1,15 @@
+name: com.worldreaver.zstring
+displayName: ZString
+description: Zero Allocation StringBuilder for .NET Core and Unity.
+repoUrl: 'https://github.com/worldreaver/ZString'
+parentRepoUrl: 'https://github.com/Cysharp/ZString'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1588909782603
