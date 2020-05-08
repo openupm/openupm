@@ -1,0 +1,16 @@
+name: com.oddworm.cubemaparrayimportpipeline
+displayName: CubemapArray Import Pipeline
+description: A CubemapArray Import Pipeline for Unity 2019.3 and newer.
+repoUrl: 'https://github.com/pschraut/UnityCubemapArrayImportPipeline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/pschraut/UnityCubemapArrayImportPipeline/raw/1b61c8ea7e6a47d4f6382e8a35aced3dca19cd01/Documentation~/images/inspector.png
+readme: 'master:README.md'
+createdAt: 1588952969795
