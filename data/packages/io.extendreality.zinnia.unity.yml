@@ -1,0 +1,15 @@
+name: io.extendreality.zinnia.unity
+displayName: Zinnia.Unity
+description: A collection of design patterns for solving common problems.
+repoUrl: 'https://github.com/ExtendRealityLtd/Zinnia.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588963695820
