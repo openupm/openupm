@@ -1,0 +1,17 @@
+name: com.unity.process-server
+displayName: Process Server
+description: null
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.process-server'
+parentRepoUrl: null
+licenseSpdxId: unity-companion
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Unity-Technologies/com.unity.process-server/raw/451d27ba3f75378953a1014d405f53888740227c/icon.png
+readme: 'master:README.md'
+createdAt: 1588960881135
