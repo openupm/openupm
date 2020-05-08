@@ -1,0 +1,17 @@
+name: com.siccity.gltfutility
+displayName: GLTFUtility
+description: Lightweight GLTF importer for Unity
+repoUrl: 'https://github.com/Siccity/GLTFUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - integration
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588902797907
