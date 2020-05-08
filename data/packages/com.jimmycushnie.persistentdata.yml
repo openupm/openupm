@@ -1,0 +1,15 @@
+name: com.jimmycushnie.persistentdata
+displayName: PersistentData
+description: Easy cross-platform data saving and loading for Unity
+repoUrl: 'https://github.com/JimmyCushnie/PersistentData'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: DWTFYWT Public License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588911347256
