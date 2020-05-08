@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/openupm/openupm/compare/1.23.2...1.24.0) (2020-05-08)
+
+
+### Features
+
+* **website:** show pending state on package list page (close:  [#277](https://github.com/openupm/openupm/issues/277)) ([c3420d3](https://github.com/openupm/openupm/commit/c3420d31d8134593d1b824e4cbdebfa2027bf335))
+
 ## [1.23.2](https://github.com/openupm/openupm/compare/1.23.1...1.23.2) (2020-05-05)
 
 
