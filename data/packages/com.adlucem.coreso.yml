@@ -1,0 +1,15 @@
+name: com.adlucem.coreso
+displayName: Core SO
+description: ScriptableObjects type variables for SO Architecture in Unity
+repoUrl: 'https://github.com/Arzijin/CoreSO'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588953647918
