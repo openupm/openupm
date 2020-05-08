@@ -1,0 +1,18 @@
+name: com.unity.xr.mock
+displayName: UnityXRMock XR Plugin
+description: >-
+  Unity Editor plugin that let's you mock AR environment for development &
+  testing on your PC.
+repoUrl: 'https://github.com/coder89/arfoundation-mock'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - ar-and-vr
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588910898757
