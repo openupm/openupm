@@ -1,0 +1,18 @@
+name: com.unity.cli-config-manager
+displayName: Unity CLI Configuration Manager
+description: >-
+  Provides a command line parser and options to set build, player, and other
+  Unity settings when running Unity from the command line
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.cli-config-manager'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'trunk:README.md'
+createdAt: 1588908354638
