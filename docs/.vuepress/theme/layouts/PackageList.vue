@@ -105,6 +105,7 @@
                   <PackageCard
                     :item="pkg"
                     :prefer-horizontal-layout="preferHorizontalLayout"
+                    :time-field="timeField"
                   />
                 </div>
               </div>
@@ -125,16 +126,24 @@ import PackageCard from "@theme/components/PackageCard.vue";
 import PackageControl from "@theme/components/PackageControl.vue";
 import util from "@root/docs/.vuepress/util";
 
+const SortType = {
+  name: "name",
+  pop: "pop",
+  createdAt: "createdAt",
+  updatedAt: "updatedAt"
+};
+
 export default {
   components: { ParentLayout, NavLink, PackageCard, PackageControl },
 
   data() {
     return {
-      sort: "time",
+      sort: "updatedAt",
       sortList: [
-        { text: "Name", slug: "name" },
-        { text: "Popularity", slug: "pop" },
-        { text: "Recently Updated", slug: "time" }
+        { text: "Name", slug: SortType.name },
+        { text: "Popularity", slug: SortType.pop },
+        { text: "Published Date", slug: SortType.createdAt },
+        { text: "Recently Updated", slug: SortType.updatedAt }
       ],
       unity: ""
     };
@@ -183,9 +192,13 @@ export default {
             this.unityVersionToValue(this.unity)
         );
       // Sort
-      if (this.sort == "time") pkgs = _.orderBy(pkgs, ["time"], ["desc"]);
-      else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
-      else if (this.sort == "name")
+      if (this.sort == SortType.updatedAt)
+        pkgs = _.orderBy(pkgs, ["updatedAt"], ["desc"]);
+      else if (this.sort == SortType.createdAt)
+        pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
+      else if (this.sort == SortType.pop)
+        pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
+      else if (this.sort == SortType.name)
         pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
     },
@@ -209,6 +222,13 @@ export default {
           class: x.slug == this.sort ? "active" : ""
         };
       });
+    },
+
+    timeField() {
+      if (this.sort == SortType.createdAt) {
+        return SortType.createdAt;
+      }
+      return SortType.updatedAt;
     },
 
     topic() {

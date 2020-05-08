@@ -61,7 +61,7 @@ export default {
       let pkgs = this.$page.packages.map(x => {
         return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
-      pkgs = _.orderBy(pkgs, ["time"], ["desc"]);
+      pkgs = _.orderBy(pkgs, ["updatedAt"], ["desc"]);
       return pkgs.slice(0, this.count);
     },
     preferHorizontalLayout() {

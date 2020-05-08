@@ -60,8 +60,16 @@
               <span v-if="pkg.stars" class="chip">
                 <i class="fa fa-star"></i>{{ pkg.stars }}
               </span>
-              <span class="chip">
-                <i class="fas fa-clock"></i>{{ pkg.timeAgoText }}
+              <span v-if="timeValue" class="chip">
+                <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
+              </span>
+              <span
+                class="tooltip"
+                data-tooltip="The package has no release yet"
+              >
+                <span v-if="pkg.pending" class="chip bg-warning">
+                  <i class="fas fa-spinner"></i>Pending
+                </span>
               </span>
             </div>
           </div>
@@ -82,12 +90,17 @@ export default {
       type: Object,
       required: true
     },
-    showCreatedAt: {
-      type: Boolean
-    },
     preferHorizontalLayout: {
       type: Boolean,
       default: false
+    },
+    timeField: {
+      type: String,
+      default: "updatedAt",
+      validator: function(value) {
+        // The value must match one of these strings
+        return ["createdAt", "updatedAt"].indexOf(value) !== -1;
+      }
     }
   },
   data() {
@@ -97,13 +110,21 @@ export default {
     pkg() {
       return {
         ...this.item,
-        timeAgoText: util.timeAgoFormat(new Date(this.item.time))
+        timeAgoText: util.timeAgoFormat(new Date(this.timeValue))
       };
     },
     isHorizontalLayout() {
       return (
         this.preferHorizontalLayout && this.$mq != "xs" && this.$mq != "sm"
       );
+    },
+    timeIcon() {
+      return this.timeField == "createdAt" ? "fas fa-upload" : "fas fa-clock";
+    },
+    timeValue() {
+      return this.timeField == "createdAt"
+        ? this.item.createdAt
+        : this.item.updatedAt;
     }
   }
 };

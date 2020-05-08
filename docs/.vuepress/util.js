@@ -143,8 +143,10 @@ const _packageUtils = {
       ...extra
     };
     result.sortName = pkg.link.text;
-    result.time = extra.time || pkg.createdAt || 0;
-    result.image = extra.imageUrl || pkg.image;
+    result.createdAt = result.createdAt || 0;
+    result.updatedAt = result.time || 0;
+    result.pending = result.updatedAt == 0;
+    result.image = result.imageUrl || pkg.image;
     return result;
   }
 };

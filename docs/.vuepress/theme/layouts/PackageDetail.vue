@@ -322,7 +322,9 @@ const defaultData = function() {
   return {
     readmeRaw: "",
     repoInfo: {},
-    packageInfo: {},
+    packageInfo: {
+      fetched: false
+    },
     registryInfo: {},
     noTagsFound: false
   };
@@ -464,8 +466,13 @@ export default {
     },
     packageInstallCli() {
       const name = this.$package.name;
-      if (this.packageVersions.length) return `openupm add ${name}`;
-      else return "not available yet";
+      if (!this.packageInfo.fetched) {
+        return "loading...";
+      } else if (this.packageVersions.length) {
+        return `openupm add ${name}`;
+      } else {
+        return "not available yet";
+      }
     },
     badgeVersionHtml() {
       return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
@@ -640,7 +647,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.packageInfo = resp.data;
+        this.$data.packageInfo = { ...resp.data, fetched: true };
       } catch (error) {
         console.error(error);
       }
