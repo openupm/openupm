@@ -3,8 +3,8 @@ displayName: UnityLint
 description: Linter for Unity
 repoUrl: 'https://github.com/MeikelLP/UnityLint.Core'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: Unknown
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: JesseTG
