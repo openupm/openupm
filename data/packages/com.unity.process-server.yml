@@ -3,7 +3,7 @@ displayName: Process Server
 description: null
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.process-server'
 parentRepoUrl: null
-licenseSpdxId: unity-companion
+licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
   - editor-enhancement
