@@ -1,0 +1,14 @@
+name: games.artees.logcat-to-unity
+displayName: LogcatToUnity
+description: Sends Android log messages to the Unity game engine.
+repoUrl: 'https://github.com/Artees/LogcatToUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589050092899
