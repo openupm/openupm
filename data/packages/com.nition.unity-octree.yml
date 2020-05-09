@@ -1,0 +1,15 @@
+name: com.nition.unity-octree
+displayName: UnityOctree
+description: 'A dynamic, loose octree implementation for Unity written in C#'
+repoUrl: 'https://github.com/UnityOpenSource/UnityOctree'
+parentRepoUrl: 'https://github.com/Nition/UnityOctree'
+licenseSpdxId: BSD-2-Clause
+licenseName: BSD 2-Clause "Simplified" License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1589058387077
