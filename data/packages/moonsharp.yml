@@ -1,0 +1,15 @@
+name: moonsharp
+displayName: MoonSharp
+description: "\U0001F311Unity npm package of interpreter for the Lua language, written entirely in C# for the Unity3D engine, including handy remote debugger facilities"
+repoUrl: 'https://github.com/k0dep/MoonSharp'
+parentRepoUrl: 'https://github.com/moonsharp-devs/moonsharp'
+licenseSpdxId: null
+licenseName: BSD License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589050448687
