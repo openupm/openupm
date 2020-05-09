@@ -1,0 +1,17 @@
+name: rotorz.unity3d-class-type-reference
+displayName: Class Type Reference
+description: >-
+  An example npm package that contains some example assets to demonstrate how to
+  create a package for use in games made using the Unity game engine.
+repoUrl: 'https://github.com/d4160/unity3d-class-type-reference'
+parentRepoUrl: 'https://github.com/rotorz/unity3d-class-type-reference'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589048010202
