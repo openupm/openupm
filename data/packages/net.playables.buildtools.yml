@@ -1,0 +1,16 @@
+name: net.playables.buildtools
+displayName: Playables Build Tools
+description: Build tools for Unity
+repoUrl: 'https://github.com/Playables/net.playables.buildtools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589050504839
