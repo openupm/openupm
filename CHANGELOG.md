@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/openupm/openupm/compare/1.24.0...1.25.0) (2020-05-10)
+
+
+### Features
+
+* **website:** filter pending state on the package list page (refs [#277](https://github.com/openupm/openupm/issues/277)) ([bf8101b](https://github.com/openupm/openupm/commit/bf8101bd107a781f607b6add1a6dc047bc4ac2b2))
+
 # [1.24.0](https://github.com/openupm/openupm/compare/1.23.2...1.24.0) (2020-05-08)
 
 
