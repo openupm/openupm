@@ -666,9 +666,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.packageInfo = { ...resp.data, fetched: true };
+        this.$data.packageInfo = { ...resp.data };
       } catch (error) {
         console.error(error);
+      } finally {
+        this.$data.packageInfo.fetched = true;
       }
       this.handleRepoReadme();
     },
@@ -680,9 +682,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.registryInfo = { ...resp.data, fetched: true };
+        this.$data.registryInfo = { ...resp.data };
       } catch (error) {
         console.error(error);
+      } finally {
+        this.$data.registryInfo.fetched = true;
       }
     },
     getTimeSince(epochOrDateTimeStr) {
