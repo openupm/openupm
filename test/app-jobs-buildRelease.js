@@ -15,6 +15,11 @@ describe("app/jobs/buildRelease.js", function() {
     it("None", function() {
       getReasonFromPublishLog("").should.equal(ReleaseReason.None);
     });
+    it("BadRequest", function() {
+      getReasonFromPublishLog("error code E400").should.equal(
+        ReleaseReason.BadRequest
+      );
+    });
     it("Unauthorized", function() {
       getReasonFromPublishLog("error code E401").should.equal(
         ReleaseReason.Unauthorized
