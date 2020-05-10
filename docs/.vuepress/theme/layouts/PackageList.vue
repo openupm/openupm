@@ -26,6 +26,27 @@
             </div>
           </div>
           <div class="column col-3 col-sm-12 meta-column">
+            <section class="state-section">
+              <ul class="menu">
+                <li class="divider" data-content="State"></li>
+                <div class="columns">
+                  <div
+                    v-for="item in stateOptions"
+                    :key="item.slug"
+                    class="column col-12 col-sm-6"
+                  >
+                    <li class="menu-item">
+                      <a
+                        :href="item.link"
+                        :class="item.class"
+                        @click.prevent="onStateBtn(item)"
+                        >{{ item.text }}</a
+                      >
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </section>
             <section class="sort-section">
               <ul class="menu">
                 <li class="divider" data-content="Sort by"></li>
@@ -133,17 +154,27 @@ const SortType = {
   updatedAt: "updatedAt"
 };
 
+const StateType = {
+  pending: "pending",
+  ready: "ready"
+};
+
 export default {
   components: { ParentLayout, NavLink, PackageCard, PackageControl },
 
   data() {
     return {
-      sort: "updatedAt",
+      sort: SortType.updatedAt,
       sortList: [
         { text: "Name", slug: SortType.name },
         { text: "Popularity", slug: SortType.pop },
         { text: "Published Date", slug: SortType.createdAt },
         { text: "Recently Updated", slug: SortType.updatedAt }
+      ],
+      state: StateType.ready,
+      stateList: [
+        { text: "Pending", slug: StateType.pending },
+        { text: "Ready to Use", slug: StateType.ready }
       ],
       unity: ""
     };
@@ -185,12 +216,17 @@ export default {
         return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
       // Filter by supported unity version.
-      if (this.unity)
+      if (this.unity) {
         pkgs = pkgs.filter(
           x =>
             this.unityVersionToValue(x.unity) <=
             this.unityVersionToValue(this.unity)
         );
+      }
+      // Filter by state.
+      if (this.state) {
+        pkgs = pkgs.filter(x => x.pending == (this.state == "pending"));
+      }
       // Sort
       if (this.sort == SortType.updatedAt)
         pkgs = _.orderBy(pkgs, ["updatedAt"], ["desc"]);
@@ -211,7 +247,18 @@ export default {
       const query = {};
       if (this.sort) query.sort = this.sort;
       if (this.unity) query.untiy = this.unity;
+      if (this.state) query.state = this.state;
       return query;
+    },
+
+    stateOptions() {
+      return this.stateList.map(x => {
+        return {
+          ...x,
+          link: "",
+          class: x.slug == this.state ? "active" : ""
+        };
+      });
     },
 
     sortOptions() {
@@ -287,6 +334,15 @@ export default {
   },
 
   methods: {
+    onStateBtn(item) {
+      if (item.class == "active") return;
+      this.state = item.slug;
+      this.$router.push({
+        path: this.$route.path,
+        query: this.query
+      });
+    },
+
     onSortBtn(item) {
       if (item.class == "active") return;
       this.sort = item.slug;

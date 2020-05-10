@@ -27,8 +27,9 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              Hosting <strong>{{ $page.packageCount }}</strong> community
-              selective open source UPM packages and counting
+              Hosting
+              <strong>{{ readyPackageCount || $page.packageCount }}</strong>
+              community selective open source UPM packages and counting
             </p>
           </div>
         </div>
@@ -59,6 +60,17 @@ export default {
         icon: "fab fa-github",
         iconLeft: true
       };
+    },
+    readyPackageCount() {
+      var cnt = 0;
+      const packagesExtra = this.$store.getters.packagesExtra;
+      for (var name in packagesExtra) {
+        const pkg = packagesExtra[name];
+        if (pkg.updateAt != 0) {
+          cnt += 1;
+        }
+      }
+      return cnt;
     }
   }
 };
