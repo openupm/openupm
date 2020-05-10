@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/openupm/openupm/compare/1.25.0...1.25.1) (2020-05-10)
+
+
+### Bug Fixes
+
+* **website:** pending state on the package detail page ([6d9a027](https://github.com/openupm/openupm/commit/6d9a027dbb262c89d434d5abafef8e32fb1093f3))
+
 # [1.25.0](https://github.com/openupm/openupm/compare/1.24.0...1.25.0) (2020-05-10)
 
 
