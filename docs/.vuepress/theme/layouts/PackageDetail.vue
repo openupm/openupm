@@ -21,6 +21,14 @@
             <a v-for="item in $topics" :key="item.slug" :href="item.link"
               ><span class="label label-rounded"> {{ item.name }}</span></a
             >
+            <span class="tooltip" data-tooltip="The package has no release yet">
+              <span
+                v-if="$package.pending"
+                class="label label-rounded bg-warning"
+              >
+                <i class="fas fa-spinner"></i> Pending
+              </span>
+            </span>
           </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
@@ -364,7 +372,9 @@ export default {
         });
     },
     $package() {
-      return this.$page.frontmatter.package;
+      const pkg = this.$page.frontmatter.package;
+      const extra = this.$store.getters.packagesExtra[pkg.name];
+      return util.joinPackageExtra(pkg, extra);
     },
     $relatedPackages() {
       return this.$page.frontmatter.relatedPackages;
