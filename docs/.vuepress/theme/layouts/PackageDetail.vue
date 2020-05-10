@@ -23,7 +23,7 @@
             >
             <span class="tooltip" data-tooltip="The package has no release yet">
               <span
-                v-if="$package.pending"
+                v-if="packagePending"
                 class="label label-rounded bg-warning"
               >
                 <i class="fas fa-spinner"></i> Pending
@@ -43,6 +43,23 @@
           <div class="column col-4 col-sm-12">
             <div class="meta-section container">
               <div class="columns">
+                <section v-if="packagePending" class="col-12">
+                  <h2>Pending reason</h2>
+                  <div>
+                    <span v-if="packageNotSucceededBuilds.length"
+                      >The package has in-processing or failed builds.</span
+                    >
+                    <span v-else>
+                      The package has no valid <NavLink :item="tagsNavLink" />.
+                      Please check out
+                      <a
+                        href="/docs/adding-upm-package.html#handling-a-repository-without-git-tag"
+                      >
+                        handling repository without releases </a
+                      >.
+                    </span>
+                  </div>
+                </section>
                 <section class="col-12">
                   <h2>Install <small>(click to copy)</small></h2>
                   <div class="install-cli">
@@ -151,7 +168,7 @@
                   <span>{{ packagePublishedAt || "-" }}</span>
                 </section>
                 <section class="col-6 col-sm-12"></section>
-                <section v-if="!noTagsFound" class="col-12">
+                <section v-if="dependencies.length" class="col-12">
                   <h2>Dependencies ({{ dependencies.length }})</h2>
                   <div v-if="dependencies.length" class="container">
                     <ul class="section-list">
@@ -170,7 +187,7 @@
                   </div>
                   <span v-else>-</span>
                 </section>
-                <section v-if="!noTagsFound" class="col-12">
+                <section v-if="packageVersions.length" class="col-12">
                   <h2>Version history</h2>
                   <div class="container">
                     <ul class="section-list">
@@ -196,23 +213,8 @@
                     </ul>
                   </div>
                 </section>
-                <section
-                  v-if="noTagsFound || packageNotSucceededBuilds.length"
-                  class="col-12"
-                >
-                  <h2>Build Issues</h2>
-                  <div v-if="noTagsFound" class="toast">
-                    <p>
-                      <span>
-                        No git tag found in <NavLink :item="tagsNavLink" />. See
-                        <a
-                          href="/docs/adding-upm-package.html#handling-a-repository-without-git-tag"
-                        >
-                          handling repository without releases.
-                        </a>
-                      </span>
-                    </p>
-                  </div>
+                <section v-if="packageNotSucceededBuilds.length" class="col-12">
+                  <h2>Build issues</h2>
                   <div class="container">
                     <ul class="section-list">
                       <li
@@ -329,12 +331,10 @@ import util from "@root/docs/.vuepress/util";
 const defaultData = function() {
   return {
     readmeRaw: "",
-    repoInfo: {},
     packageInfo: {
       fetched: false
     },
-    registryInfo: {},
-    noTagsFound: false
+    registryInfo: {}
   };
 };
 
@@ -468,11 +468,7 @@ export default {
       }
     },
     packageStargazersCount() {
-      const repoInfo = this.$data.repoInfo;
-      let count = 0;
-      count += repoInfo.stargazers_count || 0;
-      count += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
-      return count;
+      return this.$package.stars;
     },
     packageInstallCli() {
       const name = this.$package.name;
@@ -483,6 +479,12 @@ export default {
       } else {
         return "not available yet";
       }
+    },
+    packagePending() {
+      if (!this.packageInfo.fetched) {
+        return false;
+      }
+      return !this.packageVersion;
     },
     badgeVersionHtml() {
       return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
@@ -558,7 +560,7 @@ export default {
     tagsNavLink() {
       return {
         link: urljoin(this.$package.repoUrl, "tags"),
-        text: "Github Tags"
+        text: "GitHub tags"
       };
     },
     editNavLink() {
@@ -596,8 +598,6 @@ export default {
   },
   methods: {
     onStart() {
-      this.fetchRepoInfo();
-      this.fetchRepoTagsInfo();
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
     },
@@ -621,32 +621,6 @@ ${this.$package.description}
 
 See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 `;
-      }
-    },
-    async fetchRepoInfo() {
-      try {
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.$package.repo),
-          {
-            headers: { Accept: "application/vnd.github.v3.json" }
-          }
-        );
-        this.$data.repoInfo = resp.data;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async fetchRepoTagsInfo() {
-      try {
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.$package.repo, "tags"),
-          {
-            headers: { Accept: "application/vnd.github.v3.json" }
-          }
-        );
-        this.$data.noTagsFound = resp.data.length == 0;
-      } catch (error) {
-        console.error(error);
       }
     },
     async fetchPackageInfo() {
