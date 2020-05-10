@@ -231,6 +231,8 @@
                             v-if="build.build.buildId"
                             :href="build.buildUrl"
                             build="noopener noreferrer"
+                            :data-tooltip="build.solution"
+                            class="tooltip"
                           >
                             <span>
                               {{ build.text }}
@@ -338,6 +340,35 @@ const defaultData = function() {
   };
 };
 
+const ReleaseReasonSolution = {};
+const internalErrorSolution = "Internal failure, please report an issue.";
+ReleaseReasonSolution[ReleaseReason.None.value] =
+  "Unknown failure, please report an issue.";
+ReleaseReasonSolution[ReleaseReason.BadRequest.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.Unauthorized.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.Forbidden.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.EntityTooLarge.value] =
+  "The package is too large.";
+ReleaseReasonSolution[ReleaseReason.VersionConflict.value] =
+  "The version already exists.";
+ReleaseReasonSolution[
+  ReleaseReason.InternalError.value
+] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.BadGateway.value] = internalErrorSolution;
+ReleaseReasonSolution[
+  ReleaseReason.ServiceUnavailable.value
+] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.BuildTimeout.value] =
+  "The build is timeout.";
+ReleaseReasonSolution[ReleaseReason.BuildCancellation.value] =
+  "The build is cancelled manually.";
+ReleaseReasonSolution[ReleaseReason.PackageNotFound.value] =
+  "The Git tag has no package.json file.";
+ReleaseReasonSolution[ReleaseReason.Private.value] =
+  "The package is explicitly private.";
+ReleaseReasonSolution[ReleaseReason.PackageNameNotMatch.value] =
+  "The name of package.json isn't matched.";
+
 export default {
   components: { ParentLayout, NavLink },
   data() {
@@ -414,6 +445,7 @@ export default {
             tag: build.tag,
             text: "",
             state: ReleaseState.get(build.state),
+            solution: ReleaseReasonSolution[build.reason] || "",
             reason: ReleaseReason.get(build.reason),
             buildUrl: util.getAzureWebBuildUrl(build.buildId),
             timeSince: this.getTimeSince(build.updatedAt)
