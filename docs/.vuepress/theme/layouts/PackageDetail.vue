@@ -21,11 +21,12 @@
             <a v-for="item in $topics" :key="item.slug" :href="item.link"
               ><span class="label label-rounded"> {{ item.name }}</span></a
             >
-            <span class="tooltip" data-tooltip="The package has no release yet">
-              <span
-                v-if="packagePending"
-                class="label label-rounded bg-warning"
-              >
+            <span
+              v-if="packagePending"
+              class="tooltip"
+              data-tooltip="The package has no release yet"
+            >
+              <span class="label label-rounded bg-warning">
                 <i class="fas fa-spinner"></i> Pending
               </span>
             </span>
@@ -336,7 +337,9 @@ const defaultData = function() {
     packageInfo: {
       fetched: false
     },
-    registryInfo: {}
+    registryInfo: {
+      fetched: false
+    }
   };
 };
 
@@ -504,7 +507,7 @@ export default {
     },
     packageInstallCli() {
       const name = this.$package.name;
-      if (!this.packageInfo.fetched) {
+      if (!this.$data.packageInfo.fetched) {
         return "loading...";
       } else if (this.packageVersions.length) {
         return `openupm add ${name}`;
@@ -513,7 +516,7 @@ export default {
       }
     },
     packagePending() {
-      if (!this.packageInfo.fetched) {
+      if (!this.$data.packageInfo.fetched || !this.$data.registryInfo.fetched) {
         return false;
       }
       return !this.packageVersion;
@@ -677,7 +680,7 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.registryInfo = resp.data;
+        this.$data.registryInfo = { ...resp.data, fetched: true };
       } catch (error) {
         console.error(error);
       }
