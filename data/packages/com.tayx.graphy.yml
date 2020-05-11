@@ -1,0 +1,17 @@
+name: com.tayx.graphy
+displayName: Graphy - Ultimate Stats Monitor
+description: >-
+  Graphy is the ultimate, easy to use, feature packed FPS counter, stats monitor
+  and debugger for your Unity project.
+repoUrl: 'https://github.com/Tayx94/graphy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Tayx94/graphy/raw/0f28cc8dd962b0c4e40a315f2a7af4947fa6d5be/Assets/Tayx/Graphy%20-%20Ultimate%20Stats%20Monitor/Textures/Debugger_Logo_Dark.png
+readme: 'upm:README.md'
+createdAt: 1589212676706
