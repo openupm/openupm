@@ -1,0 +1,15 @@
+name: com.oscarleif.transitionkit
+displayName: Transition Kit for Unity
+description: 'Modular, extensible transitions in scene and between scenes'
+repoUrl: 'https://github.com/OscarLeif/TransitionKit'
+parentRepoUrl: 'https://github.com/prime31/TransitionKit'
+licenseSpdxId: CC-BY-NC-3.0
+licenseName: Creative Commons Attribution Non Commercial 3.0 Unported
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589220234174
