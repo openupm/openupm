@@ -1,0 +1,15 @@
+name: uninativelinq
+displayName: UniNativeLinq
+description: The fastest managed-allocation-free implementation of LINQ to NativeArray<T>.
+repoUrl: 'https://github.com/pCYSl5EDgo/UniNativeLinq-EditorExtension'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0+
+licenseName: GNU General Public License v3.0 or later
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589238307711
