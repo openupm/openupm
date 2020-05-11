@@ -1,0 +1,16 @@
+name: com.unity.networking.backgrounddownload
+displayName: Background Download
+description: Plugins for mobile platforms to enable file downloads in background
+repoUrl: 'https://github.com/Unity-Technologies/BackgroundDownload'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - data-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211877134
