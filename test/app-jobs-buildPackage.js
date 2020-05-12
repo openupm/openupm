@@ -206,5 +206,16 @@ describe("app/jobs/buildPackage.js", function() {
       });
       names.should.deepEqual([{ tag: "releases/2.0.0.1", commit: "0000002" }]);
     });
+    it("minVersion", function() {
+      let names = getInvalidTags({
+        remoteTags: [
+          { tag: "1.0.0", commit: "0000001" },
+          { tag: "1.0.2", commit: "0000003" }
+        ],
+        validTags: [{ tag: "1.0.2", commit: "0000003" }],
+        minVersion: "1.0.2"
+      });
+      names.should.deepEqual([]);
+    });
   });
 });

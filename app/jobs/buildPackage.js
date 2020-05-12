@@ -37,7 +37,8 @@ const buildPackage = async function(name) {
     remoteTags,
     validTags,
     gitTagIgnore: pkg.gitTagIgnore,
-    gitTagPrefix: pkg.gitTagPrefix
+    gitTagPrefix: pkg.gitTagPrefix,
+    minVersion: (pkg.minVersion || "").trim()
   });
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
@@ -98,7 +99,8 @@ const getInvalidTags = function({
   remoteTags,
   validTags,
   gitTagIgnore,
-  gitTagPrefix
+  gitTagPrefix,
+  minVersion
 }) {
   let tags = differenceBy(remoteTags, validTags, x => x.tag);
   if (gitTagPrefix) {
@@ -107,6 +109,12 @@ const getInvalidTags = function({
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
+  }
+  if (minVersion) {
+    try {
+      tags = tags.filter(x => semverCompare(x.tag, minVersion) >= 0);
+      // eslint-disable-next-line no-empty
+    } catch (error) {}
   }
   return tags;
 };
