@@ -1,0 +1,16 @@
+name: com.activ.goap
+displayName: xGOAP
+description: Goal oriented action planning beyond GOAP
+repoUrl: 'https://github.com/active-logic/xgoap'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589307865791
