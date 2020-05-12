@@ -1,0 +1,18 @@
+name: com.lojugames.localisation
+displayName: Loju Localisation
+description: >-
+  Tools for managing localisations in the Unity Editor. Supports importing
+  strings from CSV files or Google Sheets. Includes special reference types for
+  integrating localised strings with C#
+repoUrl: 'https://github.com/loju-games/Localisation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248656939
