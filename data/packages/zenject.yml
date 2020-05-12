@@ -9,7 +9,7 @@ topics:
   - utilities
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^v'
 image: null
 readme: 'master:README.md'
 createdAt: 1589252456892
