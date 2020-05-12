@@ -1,0 +1,18 @@
+name: com.grochoska.comm-unity-store
+displayName: CommUnity Store
+description: >-
+  CommUnity Store is a tool to help developers to find the best open source
+  packages and import them right into the project.
+repoUrl: 'https://github.com/RafaelGrochoska/CommUnityStore'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/RafaelGrochoska/CommUnityStore/raw/91133c4b0d5751333cf08d57bb752c388c4db680/Data/Documentation/npm-packages/packages-description.png
+readme: 'master:README.md'
+createdAt: 1589249718260
