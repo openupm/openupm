@@ -184,6 +184,18 @@
                 </div>
                 <div
                   class="form-group column col-12"
+                  :class="{ hide: hideOtherFields }"
+                >
+                  <label class="form-label">Minimal version to build</label>
+                  <input
+                    v-model="form.minVersion.value"
+                    class="form-input"
+                    type="text"
+                    placeholder="leave empty to build all versions (by default)"
+                  />
+                </div>
+                <div
+                  class="form-group column col-12"
                   :class="{
                     hide: hideLicenseName || hideOtherFields,
                     'has-error': form.licenseName.error
@@ -476,6 +488,10 @@ export default {
           error: "",
           value: ""
         },
+        minVersion: {
+          error: "",
+          value: ""
+        },
         readme: {
           error: "",
           value: null
@@ -612,6 +628,7 @@ export default {
         hunter: form.hunter.value,
         gitTagPrefix: form.gitTagPrefix.value,
         gitTagIgnore: form.gitTagIgnore.value,
+        minVersion: form.minVersion.value,
         image: form.image.value,
         readme: form.readme.value
           ? form.branch.value + ":" + form.readme.value

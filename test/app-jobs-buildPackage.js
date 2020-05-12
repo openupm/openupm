@@ -169,6 +169,22 @@ describe("app/jobs/buildPackage.js", function() {
         { tag: "namespace.module.a/2.0.0", commit: "11" }
       ]);
     });
+    it("prefix and ignore pattern", function() {
+      let names = filterRemoteTags({
+        remoteTags: [
+          { tag: "namespace.core/1.0.0", commit: "10" },
+          { tag: "1.0.0-preview.0", commit: "11" },
+          { tag: "1.0.0-preview.1", commit: "12" },
+          { tag: "1.0.1", commit: "13" }
+        ],
+        minVersion: "1.0.0-preview.0"
+      });
+      names.should.deepEqual([
+        { tag: "1.0.0-preview.0", commit: "11" },
+        { tag: "1.0.0-preview.1", commit: "12" },
+        { tag: "1.0.1", commit: "13" }
+      ]);
+    });
   });
   describe("getInvalidTags()", function() {
     it("simple", function() {

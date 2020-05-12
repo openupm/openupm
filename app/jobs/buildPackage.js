@@ -16,6 +16,7 @@ const { gitListRemoteTags } = require("../utils/git");
 const { getVersionFromTag } = require("../utils/semver");
 const logger = require("../utils/log")(module);
 const { removeRelease } = require("./removeRelease");
+const semverCompare = require("semver-compare");
 
 // Build package with given name.
 const buildPackage = async function(name) {
@@ -28,7 +29,8 @@ const buildPackage = async function(name) {
   let validTags = filterRemoteTags({
     remoteTags,
     gitTagIgnore: pkg.gitTagIgnore,
-    gitTagPrefix: pkg.gitTagPrefix
+    gitTagPrefix: pkg.gitTagPrefix,
+    minVersion: (pkg.minVersion || "").trim()
   });
   validTags.reverse();
   let invalidTags = getInvalidTags({
@@ -50,23 +52,35 @@ const buildPackage = async function(name) {
   await addReleaseJobs(releases);
 };
 
-// Filter remote tags for non-semver, duplication and ignoration.
-const filterRemoteTags = function({ remoteTags, gitTagIgnore, gitTagPrefix }) {
+// Filter remote tags for non-semver, duplication, ignoration, and minVersion.
+const filterRemoteTags = function({
+  remoteTags,
+  gitTagIgnore,
+  gitTagPrefix,
+  minVersion
+}) {
   let tags = remoteTags;
-  // Filter prefix based on raw tag
+  // Filter prefix based on raw tag.
   if (gitTagPrefix) tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
-  // Filter out non-semver based on parsed version
+  // Filter out non-semver based on parsed version.
   tags = tags.filter(x => getVersionFromTag(x.tag) != null);
-  // Filter out ignoration based on raw tag
+  // Filter out ignoration based on raw tag.
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
   }
-  // Tags with "upm/" prefix or "-upm" suffix are valid.
+  // Tags with "upm/" prefix or "-upm" suffix have high priority.
   const upmRe = /(^upm\/|(_|-)upm$)/i;
   const validTags = tags.filter(x => upmRe.test(x.tag));
   const versionSet = new Set(validTags.map(x => getVersionFromTag(x.tag)));
-  // Remove duplications
+  // Filter minVersion.
+  if (minVersion) {
+    try {
+      tags = tags.filter(x => semverCompare(x.tag, minVersion) >= 0);
+      // eslint-disable-next-line no-empty
+    } catch (error) {}
+  }
+  // Remove duplications.
   for (const element of tags) {
     const version = getVersionFromTag(element.tag);
     if (!versionSet.has(version)) {

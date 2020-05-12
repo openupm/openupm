@@ -59,6 +59,8 @@ topics:
 gitTagPrefix: ''
 # A regular expression to ignore Git tags
 gitTagIgnore: '-master$'
+# Minimal version to build
+minVersion: '1.0.5'
 # featured image
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
 # readme path

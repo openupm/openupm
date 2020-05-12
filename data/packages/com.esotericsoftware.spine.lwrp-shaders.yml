@@ -10,7 +10,8 @@ topics:
   - animation
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^spine-libgdx'
+minVersion: '3.8.0'
 image: >-
   https://github.com/EsotericSoftware/spine-runtimes/raw/209425c05a94d9d7c39ece48cc31671bb345e68a/spine-cocos2dx/example-v4/Resources/common/goblins.png
 readme: '3.8:README.md'
