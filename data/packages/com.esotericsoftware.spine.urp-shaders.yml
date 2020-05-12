@@ -10,7 +10,8 @@ topics:
   - animation
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^spine-libgdx'
+minVersion: '3.8.0'
 image: >-
   https://github.com/EsotericSoftware/spine-runtimes/raw/d4b29c34c746da0919e10799228ef338eba62691/spine-unity/Modules/com.esotericsoftware.spine.urp-shaders/Examples/2D/Spine%20Skeletons/RaptorURP/raptor-pma-rim-mask.png
 readme: '3.8:README.md'
