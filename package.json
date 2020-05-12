@@ -60,7 +60,7 @@
     "supertest": "^4.0.2",
     "vue-mq": "^1.0.1",
     "vue-scrollto": "^2.17.1",
-    "vuepress": "^1.4.0",
+    "vuepress": "^1.5.0",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-seo": "^0.1.2",
