@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/openupm/openupm/compare/1.25.1...1.26.0) (2020-05-12)
+
+
+### Features
+
+* **pipelines:** support minVersion field to filter Git tags ([3d314f7](https://github.com/openupm/openupm/commit/3d314f79c03581a51e1a7f097008cb76164c658f))
+
 ## [1.25.1](https://github.com/openupm/openupm/compare/1.25.0...1.25.1) (2020-05-10)
 
 
