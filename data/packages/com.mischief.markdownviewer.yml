@@ -1,0 +1,18 @@
+name: com.mischief.markdownviewer
+displayName: Unity Markdown Viewer
+description: A markdown viewer for unity
+repoUrl: 'https://github.com/gwaredd/UnityMarkdownViewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/gwaredd/UnityMarkdownViewer/raw/3035508a773086aae840223ae6194882a0a834aa/Documentation/images/Screenshot_render_v2.png
+readme: 'master:README.md'
+createdAt: 1589377391354
