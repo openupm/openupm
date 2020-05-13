@@ -3,8 +3,8 @@ displayName: Jimmy's Unity Utilities
 description: A bunch of code I like to have on hand while working in Unity
 repoUrl: 'https://github.com/JimmyCushnie/JimmysUnityUtilities'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: DWTFYWT Public License
+licenseSpdxId: WTFPL
+licenseName: 'Do What The F*ck You Want To Public License'
 topics:
   - utilities
 hunter: JesseTG
