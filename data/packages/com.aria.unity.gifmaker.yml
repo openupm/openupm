@@ -1,0 +1,16 @@
+name: com.aria.unity.gifmaker
+displayName: Gif Maker
+description: A quick GIF replay recorder for Unity
+repoUrl: 'https://github.com/TK-Aria/GifMaker'
+parentRepoUrl: 'https://github.com/Chman/Moments'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - video
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589328213054
