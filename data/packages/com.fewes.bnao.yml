@@ -1,0 +1,16 @@
+name: com.fewes.bnao
+displayName: BNAO
+description: 'A tiny, GPU-based Bent Normal and Ambient Occlusion baker for Unity.'
+repoUrl: 'https://github.com/Belfegnar/BNAO'
+parentRepoUrl: 'https://github.com/Fewes/BNAO'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/Fewes/BNAO/master/Example.png'
+readme: 'master:README.md'
+createdAt: 1589327889951
