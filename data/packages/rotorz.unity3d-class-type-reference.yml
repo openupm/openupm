@@ -10,8 +10,8 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
-image: null
+image: 'https://raw.githubusercontent.com/d4160/unity3d-class-type-reference/master/screenshot.png'
 readme: 'master:README.md'
 createdAt: 1589048010202
