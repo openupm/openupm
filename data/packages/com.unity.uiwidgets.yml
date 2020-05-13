@@ -1,0 +1,18 @@
+name: com.unity.uiwidgets
+displayName: UIWidgets
+description: >-
+  UIWidget is a Unity Package which helps developers to create, debug and deploy
+  efficient, cross-platform Apps.
+repoUrl: 'https://github.com/UnityTech/UIWidgets'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: 'release_'
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/e91127efca1eda99d17ef7cf4f50e84c84c0dc9a/68747470733a2f2f636f6e6e6563742d7072642d63646e2e756e6974792e636f6d2f32303139303332332f702f696d616765732f32613237363036662d613263632d346339662d396533342d6262333961653634643036635f756977696467657473312e676966'
+readme: 'master:README.md'
+createdAt: 1589398671798
