@@ -11,7 +11,6 @@ topics: []
 hunter: JesseTG
 gitTagPrefix: 'v'
 gitTagIgnore: ''
-image: >-
-  https://github.com/Tayx94/graphy/raw/0f28cc8dd962b0c4e40a315f2a7af4947fa6d5be/Assets/Tayx/Graphy%20-%20Ultimate%20Stats%20Monitor/Textures/Debugger_Logo_Dark.png
+image: 'https://image.ibb.co/dbcDu8/2018_07_15_15_10_05.gif'
 readme: 'upm:README.md'
 createdAt: 1589212676706
