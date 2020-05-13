@@ -8,7 +8,7 @@ licenseName: GNU General Public License v3.0
 topics:
   - procedural-generation
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 image: null
