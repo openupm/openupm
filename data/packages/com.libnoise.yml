@@ -1,0 +1,16 @@
+name: com.libnoise
+displayName: LibNoise Unity
+description: 'Coherent noise library for Unity, a port of LibNoise'
+repoUrl: 'https://github.com/ExpressoBits/LibNoise.Unity'
+parentRepoUrl: 'https://github.com/ricardojmendez/LibNoise.Unity'
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589376901727
