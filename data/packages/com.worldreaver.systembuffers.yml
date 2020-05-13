@@ -1,0 +1,18 @@
+name: com.worldreaver.systembuffers
+displayName: SystemBuffers
+description: >-
+  Provides resource pooling of any type for performance-critical applications
+  that allocate and deallocate objects frequently.
+repoUrl: 'https://github.com/worldreaver/SystemBuffers'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589380541190
