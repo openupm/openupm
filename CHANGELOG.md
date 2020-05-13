@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/openupm/openupm/compare/1.26.0...1.27.0) (2020-05-13)
+
+
+### Features
+
+* **website:** alert Git dependencies on package detail page (refs: [#426](https://github.com/openupm/openupm/issues/426)) ([4874027](https://github.com/openupm/openupm/commit/48740272d955942a7bfd2d031de3ce7b1a0d3a75))
+
 # [1.26.0](https://github.com/openupm/openupm/compare/1.25.1...1.26.0) (2020-05-12)
 
 
