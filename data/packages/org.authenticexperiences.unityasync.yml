@@ -1,0 +1,17 @@
+name: org.authenticexperiences.unityasync
+displayName: UnityAsync
+description: >-
+  An allocation-free, high performance coroutine framework for Unity built
+  around the async API
+repoUrl: 'https://github.com/Katori/UnityAsync'
+parentRepoUrl: 'https://github.com/muckSponge/UnityAsync'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'UnityPackage:README.MD'
+createdAt: 1589377305432
