@@ -1,0 +1,16 @@
+name: com.psyinf.kdtrees
+displayName: KDTrees Volumes
+description: 'Fast KDTree for Unity, with thread-safe querying.'
+repoUrl: 'https://github.com/psyinf/KDTree'
+parentRepoUrl: 'https://github.com/viliwonka/KDTree'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589410596791
