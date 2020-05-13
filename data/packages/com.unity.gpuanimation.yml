@@ -1,0 +1,18 @@
+name: com.unity.gpuanimation
+displayName: GPU based animation system
+description: >-
+  Simple but very fast GPU vertex shader based animation system for
+  Unity.Entities
+repoUrl: 'https://github.com/joeante/Unity.GPUAnimation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589385454983
