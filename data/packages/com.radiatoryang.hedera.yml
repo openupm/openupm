@@ -11,7 +11,7 @@ topics:
   - editor-enhancement
   - painting
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://user-images.githubusercontent.com/2285943/60907136-d0713000-a246-11e9-97a2-de9cb8ffa8cd.gif'
