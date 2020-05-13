@@ -1,0 +1,16 @@
+name: com.unity.pathcreator
+displayName: Path-Creator
+description: Path creation asset for Unity game development
+repoUrl: 'https://github.com/mrpropellers/Path-Creator'
+parentRepoUrl: 'https://github.com/SebLague/Path-Creator'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/9fe54f8c7400e16584ebd2462a1029825bfed7f2/68747470733a2f2f692e696d6775722e636f6d2f787154434e574b2e706e67'
+readme: 'package:README.md'
+createdAt: 1589404286971
