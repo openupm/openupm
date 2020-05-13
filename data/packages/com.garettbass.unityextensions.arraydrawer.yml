@@ -3,8 +3,8 @@ displayName: Array Drawer
 description: 'ArrayDrawer is a base class like PropertyDrawer, but for arrays and lists.'
 repoUrl: 'https://github.com/garettbass/UnityExtensions.ArrayDrawer'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: JesseTG
