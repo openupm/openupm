@@ -179,9 +179,17 @@
                         class="columns"
                       >
                         <div class="col-12">
-                          <i class=""></i>
-                          <NavLink v-if="entry.link" :item="entry.link" />
-                          <span v-else>{{ entry.name }}</span>
+                          <div class="tooltip" :data-tooltip="entry.tooltip">
+                            <NavLink
+                              v-if="entry.link"
+                              :item="entry.link"
+                              class="dep-text"
+                            />
+                            <span v-else class="dep-text"
+                              ><i :class="entry.icon"></i>
+                              {{ entry.name }}</span
+                            >
+                          </div>
                         </div>
                       </li>
                     </ul>
@@ -396,11 +404,44 @@ export default {
       if (!entry || !entry.dependencies) return [];
       else
         return Object.entries(entry.dependencies).map(([name, version]) => {
-          const nameWithVersion = `${name}@${version}`;
+          const isGit = version.startsWith("git");
+          let nameWithVersion = `${name}@${version}`;
+          const nameWithVersionMaxLen = 38;
+          const nameWithVersionLimited =
+            nameWithVersion.length > nameWithVersionMaxLen
+              ? nameWithVersion.slice(0, nameWithVersionMaxLen) + "..."
+              : nameWithVersion;
           const url = util.getPackageUrl(this.$site.pages, name);
+          let tooltip = null;
+          let icon = null;
+          if (isGit) {
+            if (url) {
+              tooltip = `Git dependency: ${nameWithVersion}.`;
+              icon = "fab fa-git";
+            } else {
+              tooltip = `Missing Git dependency, please install it manually: ${nameWithVersion}.`;
+              icon = "fas fa-exclamation-triangle text-warning";
+            }
+          } else if (url) {
+            tooltip = nameWithVersion;
+            icon = "fa fa-box-open";
+          } else {
+            tooltip = `Missing dependency, please install it manually: ${nameWithVersion}.`;
+            icon = "fas fa-exclamation-triangle text-warning";
+          }
           return {
-            name: nameWithVersion,
-            link: url ? { link: url, text: nameWithVersion } : null,
+            icon,
+            isGit,
+            name: nameWithVersionLimited,
+            link: url
+              ? {
+                  link: url,
+                  text: nameWithVersionLimited,
+                  icon,
+                  iconLeft: true
+                }
+              : null,
+            tooltip,
             version
           };
         });
@@ -797,4 +838,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         font-size 0.6rem
         a
           font-size 0.6rem
+
+      .dep-text
+        overflow-wrap break-word
+        max-width 10rem
+
+      .tooltip::after
+        white-space normal
+        overflow-wrap break-word
 </style>
