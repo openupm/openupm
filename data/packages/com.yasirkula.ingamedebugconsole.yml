@@ -10,7 +10,7 @@ licenseName: MIT License
 topics:
   - gui
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 image: >-
