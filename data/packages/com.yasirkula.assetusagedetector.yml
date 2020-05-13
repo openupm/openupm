@@ -10,7 +10,7 @@ licenseName: MIT License
 topics:
   - asset-management
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 image: >-
