@@ -1,0 +1,16 @@
+name: st.one-line
+displayName: OneLine
+description: LINQ to GameObject - Traverse GameObject Hierarchy by LINQ
+repoUrl: 'https://github.com/d4160/LINQ-to-GameObject-for-Unity'
+parentRepoUrl: 'https://github.com/neuecc/LINQ-to-GameObject-for-Unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/d4160/LINQ-to-GameObject-for-Unity/master/Images/axis.jpg'
+readme: 'upm:README.md'
+createdAt: 1589384577755
