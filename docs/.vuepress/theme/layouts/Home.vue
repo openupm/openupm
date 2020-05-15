@@ -28,7 +28,9 @@
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
               Hosting
-              <strong>{{ readyPackageCount || $page.packageCount }}</strong>
+              <strong class="pkg-count">{{
+                readyPackageCount || "..."
+              }}</strong>
               community selective open source UPM packages and counting
             </p>
           </div>
@@ -96,9 +98,15 @@ export default {
 
   .features
     margin-bottom 3rem
+
     h3
       font-size 1.1rem
       color $accentColor
+
+    .pkg-count
+      display inline-block
+      width 1.45rem
+      text-align center
 
   h3
     margin-top 2rem
