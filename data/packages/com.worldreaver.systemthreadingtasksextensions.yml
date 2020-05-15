@@ -1,0 +1,18 @@
+name: com.worldreaver.systemthreadingtasksextensions
+displayName: SystemThreadingTasksExtensions
+description: >-
+  Provides additional types that simplify the work of writing concurrent and
+  asynchronous code.
+repoUrl: 'https://github.com/worldreaver/SystemThreadingTasksExtensions'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 4.5.2
+image: null
+readme: 'master:README.md'
+createdAt: 1589565616631
