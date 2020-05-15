@@ -1,0 +1,16 @@
+name: com.yasirkula.gridframework
+displayName: Simple Grid Framework
+description: Open source Grid Framework for creating grid-based levels easily in Unity 3D
+repoUrl: 'https://github.com/yasirkula/UnityGridFramework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1589513457309
