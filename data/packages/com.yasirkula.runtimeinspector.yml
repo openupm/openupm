@@ -1,0 +1,19 @@
+name: com.yasirkula.runtimeinspector
+displayName: Runtime Inspector & Hierarchy
+description: >-
+  Runtime Inspector and Hierarchy solution for Unity for debugging and runtime
+  editing purposes
+repoUrl: 'https://github.com/yasirkula/UnityRuntimeInspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityRuntimeInspector/raw/ec427a9ce7be456d43f97c58d28034ca67cdc0c1/.github/images/img3.png
+readme: 'master:.github/README.md'
+createdAt: 1589513783363
