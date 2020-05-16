@@ -12,6 +12,7 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
+minVersion: '0.2.61'
 image: null
 readme: 'develop:README.md'
 createdAt: 1589210570625
