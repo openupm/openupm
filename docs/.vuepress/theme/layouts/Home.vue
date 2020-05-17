@@ -105,7 +105,7 @@ export default {
 
     .pkg-count
       display inline-block
-      width 1.45rem
+      min-width 1.5rem
       text-align center
 
   h3
