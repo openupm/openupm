@@ -74,8 +74,10 @@ const _fetchPackageInfo = async function(packageName) {
     const version = pkgInfo["dist-tags"].latest;
     const versionInfo = pkgInfo.versions[version];
     // Save the unity version.
-    const unity = versionInfo.unity;
-    if (unity) await PackageExtra.setUnityVersion(packageName, unity);
+    const unityVersion = /[0-9]{4,4}\.[0-9]/i.test(versionInfo.unity)
+      ? versionInfo.unity
+      : "";
+    await PackageExtra.setUnityVersion(packageName, unityVersion);
     // Save the update time.
     const timeStr = pkgInfo.time[version] || 0;
     const time = new Date(timeStr).getTime();
