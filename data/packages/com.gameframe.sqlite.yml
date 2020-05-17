@@ -1,0 +1,16 @@
+name: com.gameframe.sqlite
+displayName: Gameframe.SQLite
+description: SQLite Package for Unity
+repoUrl: 'https://github.com/coryleach/UnitySQLite'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: johannesdeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589727180517
