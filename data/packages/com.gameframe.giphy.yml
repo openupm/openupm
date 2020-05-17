@@ -3,8 +3,8 @@ displayName: Gameframe.Giphy
 description: Library for using the GiphyAPI in Unity to get and play random Gifs as MP4s
 repoUrl: 'https://github.com/coryleach/UnityGiphy'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: 'MIT License'
 topics:
   - 2d
   - animation
