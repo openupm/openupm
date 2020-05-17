@@ -11,7 +11,7 @@ licenseName: ''
 topics:
   - utilities
 hunter: favoyang
-gitTagPrefix: upm
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
