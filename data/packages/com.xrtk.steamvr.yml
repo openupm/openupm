@@ -1,0 +1,11 @@
+name: com.xrtk.steamvr
+displayName: XRTK.SteamVR
+description: The SteamVR platform components for the XRTK
+repoUrl: 'https://github.com/XRTK/SteamVR'
+parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: StephenHodgson
+createdAt: 1589834675554
