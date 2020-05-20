@@ -1,3 +1,10 @@
+## [1.27.1](https://github.com/openupm/openupm/compare/1.27.0...1.27.1) (2020-05-20)
+
+
+### Bug Fixes
+
+* **website:** improve UX for Git dependencies ([d68577c](https://github.com/openupm/openupm/commit/d68577c1a49deb47a98719d3b8f647200cfe56bc))
+
 # [1.27.0](https://github.com/openupm/openupm/compare/1.26.0...1.27.0) (2020-05-13)
 
 
