@@ -185,9 +185,13 @@
                               :item="entry.link"
                               class="dep-text"
                             />
-                            <span v-else class="dep-text"
+                            <a
+                              v-else
+                              class="dep-text tooltip tooltip-right tooltip-click"
+                              data-tooltip="Copied"
+                              @click="onCopyText(entry.depsJson)"
                               ><i :class="entry.icon"></i>
-                              {{ entry.name }}</span
+                              {{ entry.shortName }}</a
                             >
                           </div>
                         </div>
@@ -416,23 +420,27 @@ export default {
           let icon = null;
           if (isGit) {
             if (url) {
-              tooltip = `Git dependency: ${nameWithVersion}.`;
-              icon = "fab fa-git";
+              tooltip = `Found Git dependency, but the package is also available on OpenUPM: ${nameWithVersion}.`;
+              icon = "fab fa-git text-warning";
             } else {
-              tooltip = `Missing Git dependency, please install it manually: ${nameWithVersion}.`;
-              icon = "fas fa-exclamation-triangle text-warning";
+              tooltip = `Missing Git dependency, please install it manually (click to copy): ${nameWithVersion}.`;
+              icon = "fas fa-exclamation-triangle text-error";
             }
           } else if (url) {
             tooltip = nameWithVersion;
             icon = "fa fa-box-open";
           } else {
-            tooltip = `Missing dependency, please install it manually: ${nameWithVersion}.`;
-            icon = "fas fa-exclamation-triangle text-warning";
+            tooltip = `Missing dependency, please install it manually (click to copy): ${nameWithVersion}.`;
+            icon = "fas fa-exclamation-triangle text-error";
           }
+          const depsObj = { dependencies: {} };
+          depsObj.dependencies[name] = version;
+          const depsJson = JSON.stringify(depsObj);
           return {
             icon,
             isGit,
-            name: nameWithVersionLimited,
+            name: name,
+            shortName: nameWithVersionLimited,
             link: url
               ? {
                   link: url,
@@ -442,7 +450,8 @@ export default {
                 }
               : null,
             tooltip,
-            version
+            version,
+            depsJson
           };
         });
     },
@@ -746,6 +755,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     onCopyBadgeVersionMarkdown() {
       copy(this.badgeVersionMarkdown, { format: "text/plain" });
+    },
+    onCopyText(text) {
+      copy(text, { format: "text/plain" });
     }
   }
 };
@@ -755,6 +767,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 .package-detail
   .main-container
     margin-top 1rem
+
+    .tooltip-click, .tooltip-click a
+      cursor pointer
 
     .topics-wrap
       margin-bottom 0.8rem
