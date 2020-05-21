@@ -1,0 +1,16 @@
+name: com.mcpiroman.unity-native-tool
+displayName: Unity Native Tool
+description: Allows to unload native plugins in Unity3d editor
+repoUrl: 'https://github.com/mcpiroman/UnityNativeTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590078235655
