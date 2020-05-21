@@ -1,0 +1,17 @@
+name: com.christides.character-action-framework
+displayName: Character Action Framework
+description: CAF is a Unity framework for developing Hack-and-Slash/Character Action games.
+repoUrl: 'https://github.com/christides11/Character-Action-Framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1590025379298
