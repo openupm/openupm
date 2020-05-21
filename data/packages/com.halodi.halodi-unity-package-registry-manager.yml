@@ -1,0 +1,16 @@
+name: com.halodi.halodi-unity-package-registry-manager
+displayName: Halodi Unity Package Registry Manager
+description: Tools for making managing Unity package registries easier
+repoUrl: 'https://github.com/Halodi/halodi-unity-package-registry-manager'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - package-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590069530684
