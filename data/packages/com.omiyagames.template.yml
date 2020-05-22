@@ -1,5 +1,5 @@
-name: com.omiyagames.template
-displayName: Omiya Games - Template Unity Package
+name: com.omiyagames.global
+displayName: Omiya Games - Global
 description: >-
   A group of scripts and abstract classes that helps setup a globally-accessible
   data.
