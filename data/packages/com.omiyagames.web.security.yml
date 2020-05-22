@@ -10,6 +10,6 @@ hunter: japtar10101
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://omiyagames.github.io/omiya-games-web-security/resources/web-location-checker.png'
 readme: 'master:README.md'
 createdAt: 1590121492117
