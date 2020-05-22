@@ -1,0 +1,15 @@
+name: com.omiyagames.web.security
+displayName: Omiya Games - Web Security
+description: Collection of tools for WebGL security
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-web-security'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590121492117
