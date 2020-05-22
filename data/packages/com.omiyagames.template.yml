@@ -1,9 +1,8 @@
 name: com.omiyagames.template
 displayName: Omiya Games - Template Unity Package
 description: >-
-  A group of scripts and abstract classes that helps setup a globally-accessible
-  data.
-repoUrl: 'https://github.com/OmiyaGames/omiya-games-global'
+  This is a template package, used as a basis to build a bigger one.
+repoUrl: 'https://github.com/OmiyaGames/template-unity-package'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -13,6 +12,6 @@ hunter: japtar10101
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://omiyagames.github.io/template-unity-package/resources/preview.png'
 readme: 'master:README.md'
 createdAt: 1589861046882
