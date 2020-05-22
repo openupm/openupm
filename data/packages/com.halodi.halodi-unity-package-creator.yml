@@ -1,0 +1,16 @@
+name: com.halodi.halodi-unity-package-creator
+displayName: Halodi Unity Package Creator
+description: 'Tools to create, maintain and update packages for Unity'
+repoUrl: 'https://github.com/Halodi/halodi-unity-package-creator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - package-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590169398328
