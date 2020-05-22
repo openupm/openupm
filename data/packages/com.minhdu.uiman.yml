@@ -6,9 +6,10 @@ parentRepoUrl: 'https://github.com/minhdu/uiman'
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - library
+  - utilities
 hunter: grashaar
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'upm:README.md'
 createdAt: 1584522386377

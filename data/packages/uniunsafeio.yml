@@ -1,0 +1,16 @@
+name: uniunsafeio
+displayName: UniUnsafeIO
+description: Unsafe IO Library for Unity NativeArray<T>
+repoUrl: 'https://github.com/pCYSl5EDgo/UniUnsafeIO'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589056037844

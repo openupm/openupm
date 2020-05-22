@@ -1,0 +1,17 @@
+name: ch.sttz.quicksearch.docs
+displayName: Quick Search Docs
+description: Search the Unity documentation directly in Unity Quick Search
+repoUrl: 'https://github.com/sttz/unity-quicksearch-docs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sttz/unity-quicksearch-docs/raw/6e7751d4dc5412d095d852ba350a63b6c84cad83/Icons/Unknown.png
+readme: 'master:README.md'
+createdAt: 1589338192910

@@ -1,0 +1,17 @@
+name: com.lojugames.view
+displayName: Loju View
+description: >-
+  Tools for managing and creating views (UI screens), contains a controller that
+  acts as a state machine for navigating between locations and overlays.
+repoUrl: 'https://github.com/loju-games/View'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248464851

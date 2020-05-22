@@ -8,12 +8,13 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ai
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
   - physics
 hunter: reeseschultz
 gitTagPrefix: nav/
 gitTagIgnore: ''
 image: >-
   https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/nav-moving-jump-demo.gif
+readme: 'master:Packages/com.reese.nav/README.md'
 createdAt: 1582649761604

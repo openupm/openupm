@@ -1,0 +1,21 @@
+name: com.lavaleakgames.combo
+displayName: 'Combo: Task Integration Tool'
+description: >-
+  A way to run automated tasks integrated in the Unity Game Engine Editor
+  (similar to Grunt or Gulp in the web).
+repoUrl: 'https://github.com/lavaleak/combo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: brunurd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589781072799

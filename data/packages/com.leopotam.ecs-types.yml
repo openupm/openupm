@@ -6,6 +6,6 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
+  - dots-and-ecs
 hunter: favoyang
 createdAt: 1576423966000

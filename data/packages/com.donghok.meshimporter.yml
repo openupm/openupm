@@ -1,0 +1,16 @@
+name: com.donghok.meshimporter
+displayName: Unity Mesh Importer
+description: Runtime mesh importer for Unity using AssimpNet
+repoUrl: 'https://github.com/eastskykang/UnityMeshImporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588975768174

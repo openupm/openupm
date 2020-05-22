@@ -6,9 +6,10 @@ parentRepoUrl: 'https://github.com/GameAnalytics/GA-SDK-UNITY'
 licenseSpdxId: null
 licenseName: ''
 topics:
-  - library
+  - utilities
   - mobile
   - network
+  - integration
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''

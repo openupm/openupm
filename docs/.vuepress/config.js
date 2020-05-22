@@ -73,7 +73,7 @@ module.exports = {
           "https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
       }
     ],
-    ["link", { rel: "icon", href: `/images/openupm-icon-256.png` }],
+    ["link", { rel: "icon", href: "/images/openupm-icon-256.png" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
     ["meta", { name: "theme-color", content: "#3068E5" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -81,13 +81,37 @@ module.exports = {
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" }
     ],
-    ["link", { rel: "apple-touch-icon", href: `/images/openupm-icon-256.png` }],
+    ["link", { rel: "apple-touch-icon", href: "/images/openupm-icon-256.png" }],
     [
       "link",
       {
         rel: "mask-icon",
         href: "/images/openupm-icon-mask.svg",
         color: "#3068E5"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        href: "https://openupm.com/feeds/updates/rss"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/rss+atom",
+        href: "https://openupm.com/feeds/updates/atom"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/json",
+        href: "https://openupm.com/feeds/updates/json"
       }
     ],
     [
@@ -135,20 +159,40 @@ module.exports = {
         ]
       },
       {
-        text: "Community",
-        ariaLabel: "Community Menu",
+        text: "Connect",
+        ariaLabel: "Connect Menu",
         items: [
-          { text: "Blog on Medium", link: "https://medium.com/openupm" },
           {
-            text: "Blog on Patreon",
-            link: "https://www.patreon.com/openupm/posts"
+            text: "GitHub",
+            link: "https://github.com/openupm/openupm",
+            icon: "fab fa-github"
           },
-          { text: "Chat", link: "https://discord.gg/FnUgWEP" }
+          {
+            text: "Medium",
+            link: "https://medium.com/openupm"
+          },
+          {
+            text: "Discord",
+            link: "https://discord.gg/FnUgWEP"
+          },
+          {
+            link: "mailto:hello@openupm.com",
+            text: "Contact Us",
+            icon: "fas fa-envelope"
+          },
+          {
+            link: "/feeds/updates/rss",
+            text: "Package Updates",
+            icon: "fa fa-rss-square",
+            raw: true
+          }
         ]
       },
       {
-        text: "Command Line Tool",
-        link: "https://github.com/openupm/openupm-cli#openupm-cli"
+        text: "Command-Line Tool",
+        link: "https://github.com/openupm/openupm-cli#openupm-cli",
+        icon: "fa fa-keyboard",
+        iconLeft: true
       }
     ],
     sidebar: {

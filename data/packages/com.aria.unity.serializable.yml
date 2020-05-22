@@ -1,0 +1,17 @@
+name: com.aria.unity.serializable
+displayName: Serializable Dictionary
+description: >-
+  SerializableCollections(SerializableDictionary, SerializableLookup,
+  SerializableTuple) for Unity
+repoUrl: 'https://github.com/TK-Aria/SerializableDictionary'
+parentRepoUrl: 'https://github.com/neuecc/SerializableDictionary'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588910025960

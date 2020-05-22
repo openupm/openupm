@@ -7,14 +7,7 @@
             <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
             <p class="action">
               <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
-              <a
-                :href="githubLink.link"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="nav-link external btn btn-lg"
-              >
-                {{ githubLink.text }}
-              </a>
+              <NavLink class="btn btn-lg" :item="githubLink" />
             </p>
           </div>
         </div>
@@ -34,8 +27,11 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              Hosting <strong>{{ $page.packageCount }}</strong> community
-              selective open source UPM packages and counting
+              Hosting
+              <strong class="pkg-count">{{
+                readyPackageCount || "..."
+              }}</strong>
+              community selective open source UPM packages and counting
             </p>
           </div>
         </div>
@@ -47,7 +43,7 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 
 export default {
   components: { ParentLayout, NavLink },
@@ -62,8 +58,21 @@ export default {
     githubLink() {
       return {
         link: this.$site.themeConfig.repo,
-        text: "Star on GitHub"
+        text: "GitHub",
+        icon: "fab fa-github",
+        iconLeft: true
       };
+    },
+    readyPackageCount() {
+      var cnt = 0;
+      const packagesExtra = this.$store.getters.packagesExtra;
+      for (var name in packagesExtra) {
+        const pkg = packagesExtra[name];
+        if (pkg.time) {
+          cnt += 1;
+        }
+      }
+      return cnt;
     }
   }
 };
@@ -89,9 +98,15 @@ export default {
 
   .features
     margin-bottom 3rem
+
     h3
       font-size 1.1rem
       color $accentColor
+
+    .pkg-count
+      display inline-block
+      min-width 1.5rem
+      text-align center
 
   h3
     margin-top 2rem

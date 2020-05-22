@@ -1,0 +1,17 @@
+name: io.github.idreamsofgame.unisharper.localization
+displayName: UniSharper.Localization
+description: >-
+  UniSharper.Localization is a serialization data driven text localization for
+  Unity application.
+repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Localization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1587640742108

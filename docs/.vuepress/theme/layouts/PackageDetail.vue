@@ -7,10 +7,10 @@
           <div class="column col-12">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="/">Home</a>
+                <NavLink :item="homeLink" />
               </li>
               <li class="breadcrumb-item">
-                <a href="/packages/">Packages</a>
+                <NavLink :item="packagesLink" />
               </li>
               <li class="breadcrumb-item">
                 <a href="#">{{ $package.name }}</a>
@@ -21,6 +21,15 @@
             <a v-for="item in $topics" :key="item.slug" :href="item.link"
               ><span class="label label-rounded"> {{ item.name }}</span></a
             >
+            <span
+              v-if="packagePending"
+              class="tooltip"
+              data-tooltip="The package has no release yet"
+            >
+              <span class="label label-rounded bg-warning">
+                <i class="fas fa-spinner"></i> Pending
+              </span>
+            </span>
           </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
@@ -35,6 +44,23 @@
           <div class="column col-4 col-sm-12">
             <div class="meta-section container">
               <div class="columns">
+                <section v-if="packagePending" class="col-12">
+                  <h2>Pending reason</h2>
+                  <div>
+                    <span v-if="packageNotSucceededBuilds.length"
+                      >The package has in-processing or failed builds.</span
+                    >
+                    <span v-else>
+                      The package has no valid <NavLink :item="tagsNavLink" />.
+                      Please check out
+                      <a
+                        href="/docs/adding-upm-package.html#handling-a-repository-without-git-tag"
+                      >
+                        handling repository without releases </a
+                      >.
+                    </span>
+                  </div>
+                </section>
                 <section class="col-12">
                   <h2>Install <small>(click to copy)</small></h2>
                   <div class="install-cli">
@@ -69,7 +95,6 @@
                   <a
                     v-if="parentOwnerNavLink"
                     :href="parentOwnerNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -86,7 +111,6 @@
                   </a>
                   <a
                     :href="ownerNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -105,7 +129,6 @@
                   <a
                     v-if="$package.hunterUrl"
                     :href="hunterNavLink.link"
-                    target="_blank"
                     rel="noopener noreferrer"
                     class="nav-link external"
                   >
@@ -146,7 +169,7 @@
                   <span>{{ packagePublishedAt || "-" }}</span>
                 </section>
                 <section class="col-6 col-sm-12"></section>
-                <section v-if="!noTagsFound" class="col-12">
+                <section v-if="dependencies.length" class="col-12">
                   <h2>Dependencies ({{ dependencies.length }})</h2>
                   <div v-if="dependencies.length" class="container">
                     <ul class="section-list">
@@ -156,16 +179,28 @@
                         class="columns"
                       >
                         <div class="col-12">
-                          <i class=""></i>
-                          <NavLink v-if="entry.link" :item="entry.link" />
-                          <span v-else>{{ entry.name }}</span>
+                          <div class="tooltip" :data-tooltip="entry.tooltip">
+                            <NavLink
+                              v-if="entry.link"
+                              :item="entry.link"
+                              class="dep-text"
+                            />
+                            <a
+                              v-else
+                              class="dep-text tooltip tooltip-right tooltip-click"
+                              data-tooltip="Copied"
+                              @click="onCopyText(entry.depsJson)"
+                              ><i :class="entry.icon"></i>
+                              {{ entry.shortName }}</a
+                            >
+                          </div>
                         </div>
                       </li>
                     </ul>
                   </div>
                   <span v-else>-</span>
                 </section>
-                <section v-if="!noTagsFound" class="col-12">
+                <section v-if="packageVersions.length" class="col-12">
                   <h2>Version history</h2>
                   <div class="container">
                     <ul class="section-list">
@@ -191,23 +226,8 @@
                     </ul>
                   </div>
                 </section>
-                <section
-                  v-if="noTagsFound || packageNotSucceededBuilds.length"
-                  class="col-12"
-                >
-                  <h2>Build Issues</h2>
-                  <div v-if="noTagsFound" class="toast">
-                    <p>
-                      <span>
-                        No git tag found in <NavLink :item="tagsNavLink" />. See
-                        <a
-                          href="/docs/adding-upm-package.html#handling-a-repository-without-git-tag"
-                        >
-                          handling repository without releases.
-                        </a>
-                      </span>
-                    </p>
-                  </div>
+                <section v-if="packageNotSucceededBuilds.length" class="col-12">
+                  <h2>Build issues</h2>
                   <div class="container">
                     <ul class="section-list">
                       <li
@@ -223,8 +243,9 @@
                           <a
                             v-if="build.build.buildId"
                             :href="build.buildUrl"
-                            target="_blank"
                             build="noopener noreferrer"
+                            :data-tooltip="build.solution"
+                            class="tooltip"
                           >
                             <span>
                               {{ build.text }}
@@ -239,7 +260,7 @@
                 <section v-if="packageInvalidTags.length" class="col-12">
                   <h2
                     class="tooltip tooltip-top"
-                    data-tooltip="Tags are non-semver, duplicated or ignored."
+                    data-tooltip="Non-semver or duplicated tags."
                   >
                     Invalid tags
                     <i class="fa fa-info-circle"></i>
@@ -317,7 +338,7 @@ import marked from "marked";
 import { noCase } from "change-case";
 import urljoin from "url-join";
 
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import { ReleaseState, ReleaseReason } from "@root/app/models/common";
 import util from "@root/docs/.vuepress/util";
@@ -325,12 +346,43 @@ import util from "@root/docs/.vuepress/util";
 const defaultData = function() {
   return {
     readmeRaw: "",
-    repoInfo: {},
-    packageInfo: {},
-    registryInfo: {},
-    noTagsFound: false
+    packageInfo: {
+      fetched: false
+    },
+    registryInfo: {
+      fetched: false
+    }
   };
 };
+
+const ReleaseReasonSolution = {};
+const internalErrorSolution = "Internal failure, please report an issue.";
+ReleaseReasonSolution[ReleaseReason.None.value] =
+  "Unknown failure, please report an issue.";
+ReleaseReasonSolution[ReleaseReason.BadRequest.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.Unauthorized.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.Forbidden.value] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.EntityTooLarge.value] =
+  "The package is too large.";
+ReleaseReasonSolution[ReleaseReason.VersionConflict.value] =
+  "The version already exists.";
+ReleaseReasonSolution[
+  ReleaseReason.InternalError.value
+] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.BadGateway.value] = internalErrorSolution;
+ReleaseReasonSolution[
+  ReleaseReason.ServiceUnavailable.value
+] = internalErrorSolution;
+ReleaseReasonSolution[ReleaseReason.BuildTimeout.value] =
+  "The build is timeout.";
+ReleaseReasonSolution[ReleaseReason.BuildCancellation.value] =
+  "The build is cancelled manually.";
+ReleaseReasonSolution[ReleaseReason.PackageNotFound.value] =
+  "The Git tag has no package.json file.";
+ReleaseReasonSolution[ReleaseReason.Private.value] =
+  "The package is explicitly private.";
+ReleaseReasonSolution[ReleaseReason.PackageNameNotMatch.value] =
+  "The name of package.json isn't matched.";
 
 export default {
   components: { ParentLayout, NavLink },
@@ -338,23 +390,75 @@ export default {
     return defaultData();
   },
   computed: {
+    homeLink() {
+      return {
+        link: "/",
+        text: "Home"
+      };
+    },
+    packagesLink() {
+      return {
+        link: "/packages/",
+        text: "Packages"
+      };
+    },
     dependencies() {
       const versions = this.registryInfo.versions || {};
       const entry = versions[this.packageVersion];
       if (!entry || !entry.dependencies) return [];
       else
         return Object.entries(entry.dependencies).map(([name, version]) => {
-          const nameWithVersion = `${name}@${version}`;
+          const isGit = version.startsWith("git");
+          let nameWithVersion = `${name}@${version}`;
+          const nameWithVersionMaxLen = 38;
+          const nameWithVersionLimited =
+            nameWithVersion.length > nameWithVersionMaxLen
+              ? nameWithVersion.slice(0, nameWithVersionMaxLen) + "..."
+              : nameWithVersion;
           const url = util.getPackageUrl(this.$site.pages, name);
+          let tooltip = null;
+          let icon = null;
+          if (isGit) {
+            if (url) {
+              tooltip = `Found Git dependency, but the package is also available on OpenUPM: ${nameWithVersion}.`;
+              icon = "fab fa-git text-warning";
+            } else {
+              tooltip = `Missing Git dependency, please install it manually (click to copy): ${nameWithVersion}.`;
+              icon = "fas fa-exclamation-triangle text-error";
+            }
+          } else if (url) {
+            tooltip = nameWithVersion;
+            icon = "fa fa-box-open";
+          } else {
+            tooltip = `Missing dependency, please install it manually (click to copy): ${nameWithVersion}.`;
+            icon = "fas fa-exclamation-triangle text-error";
+          }
+          const depsObj = { dependencies: {} };
+          depsObj.dependencies[name] = version;
+          const depsJson = JSON.stringify(depsObj);
           return {
-            name: nameWithVersion,
-            link: url ? { link: url, text: nameWithVersion } : null,
-            version
+            icon,
+            isGit,
+            name: name,
+            shortName: nameWithVersionLimited,
+            link: url
+              ? {
+                  link: url,
+                  text: nameWithVersionLimited,
+                  icon,
+                  iconLeft: true
+                }
+              : null,
+            tooltip,
+            version,
+            depsJson
           };
         });
     },
     $package() {
-      return this.$page.frontmatter.package;
+      const pkg = this.$page.frontmatter.package;
+      const extra = this.$store.getters.packagesExtra[pkg.name];
+      return util.joinPackageExtra(pkg, extra);
     },
     $relatedPackages() {
       return this.$page.frontmatter.relatedPackages;
@@ -394,6 +498,7 @@ export default {
             tag: build.tag,
             text: "",
             state: ReleaseState.get(build.state),
+            solution: ReleaseReasonSolution[build.reason] || "",
             reason: ReleaseReason.get(build.reason),
             buildUrl: util.getAzureWebBuildUrl(build.buildId),
             timeSince: this.getTimeSince(build.updatedAt)
@@ -448,16 +553,23 @@ export default {
       }
     },
     packageStargazersCount() {
-      const repoInfo = this.$data.repoInfo;
-      let count = 0;
-      count += repoInfo.stargazers_count || 0;
-      count += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
-      return count;
+      return this.$package.stars;
     },
     packageInstallCli() {
       const name = this.$package.name;
-      if (this.packageVersions.length) return `openupm add ${name}`;
-      else return "not available yet";
+      if (!this.$data.packageInfo.fetched) {
+        return "loading...";
+      } else if (this.packageVersions.length) {
+        return `openupm add ${name}`;
+      } else {
+        return "not available yet";
+      }
+    },
+    packagePending() {
+      if (!this.$data.packageInfo.fetched || !this.$data.registryInfo.fetched) {
+        return false;
+      }
+      return !this.packageVersion;
     },
     badgeVersionHtml() {
       return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
@@ -470,11 +582,30 @@ export default {
     readmeHtml() {
       if (!this.$data.readmeRaw) return "";
       else {
-        const linkBaseUrl = urljoin(this.$package.repoUrl, "blob/master");
-        const imageBaseUrl = urljoin(this.$package.repoUrl, "raw/master");
-        const renderer = util.markedRenderer({ linkBaseUrl, imageBaseUrl });
+        const linkBaseUrl = urljoin(
+          this.$package.repoUrl,
+          "blob/" + this.$package.readmeBranch
+        );
+        const linkBaseRelativeUrl = urljoin(
+          this.$package.repoUrl,
+          "blob/" + this.$package.readmeBase
+        );
+        const imageBaseUrl = urljoin(
+          this.$package.repoUrl,
+          "raw/" + this.$package.readmeBranch
+        );
+        const imageBaseRelativeUrl = urljoin(
+          this.$package.repoUrl,
+          "raw/" + this.$package.readmeBase
+        );
+        const renderer = util.markedRenderer({
+          linkBaseUrl,
+          linkBaseRelativeUrl,
+          imageBaseUrl,
+          imageBaseRelativeUrl
+        });
         const html = marked(this.$data.readmeRaw, { renderer });
-        return util.postMarkdown(html, { imageBaseUrl });
+        return util.postMarkdown(html, { imageBaseRelativeUrl });
       }
     },
     repoNavLink() {
@@ -514,7 +645,7 @@ export default {
     tagsNavLink() {
       return {
         link: urljoin(this.$package.repoUrl, "tags"),
-        text: "Github Tags"
+        text: "GitHub tags"
       };
     },
     editNavLink() {
@@ -552,8 +683,6 @@ export default {
   },
   methods: {
     onStart() {
-      this.fetchRepoInfo();
-      this.fetchRepoTagsInfo();
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
     },
@@ -579,32 +708,6 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 `;
       }
     },
-    async fetchRepoInfo() {
-      try {
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.$package.repo),
-          {
-            headers: { Accept: "application/vnd.github.v3.json" }
-          }
-        );
-        this.$data.repoInfo = resp.data;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async fetchRepoTagsInfo() {
-      try {
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.$package.repo, "tags"),
-          {
-            headers: { Accept: "application/vnd.github.v3.json" }
-          }
-        );
-        this.$data.noTagsFound = resp.data.length == 0;
-      } catch (error) {
-        console.error(error);
-      }
-    },
     async fetchPackageInfo() {
       try {
         let resp = await axios.get(
@@ -613,9 +716,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.packageInfo = resp.data;
+        this.$data.packageInfo = { ...resp.data };
       } catch (error) {
         console.error(error);
+      } finally {
+        this.$data.packageInfo.fetched = true;
       }
       this.handleRepoReadme();
     },
@@ -627,9 +732,11 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
             headers: { Accept: "application/json" }
           }
         );
-        this.$data.registryInfo = resp.data;
+        this.$data.registryInfo = { ...resp.data };
       } catch (error) {
         console.error(error);
+      } finally {
+        this.$data.registryInfo.fetched = true;
       }
     },
     getTimeSince(epochOrDateTimeStr) {
@@ -648,6 +755,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
     },
     onCopyBadgeVersionMarkdown() {
       copy(this.badgeVersionMarkdown, { format: "text/plain" });
+    },
+    onCopyText(text) {
+      copy(text, { format: "text/plain" });
     }
   }
 };
@@ -657,6 +767,9 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
 .package-detail
   .main-container
     margin-top 1rem
+
+    .tooltip-click, .tooltip-click a
+      cursor pointer
 
     .topics-wrap
       margin-bottom 0.8rem
@@ -740,4 +853,12 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
         font-size 0.6rem
         a
           font-size 0.6rem
+
+      .dep-text
+        overflow-wrap break-word
+        max-width 10rem
+
+      .tooltip::after
+        white-space normal
+        overflow-wrap break-word
 </style>

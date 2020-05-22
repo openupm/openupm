@@ -1,0 +1,16 @@
+name: shitake.rosetta
+displayName: Rosetta
+description: 'Rosetta upm repo '
+repoUrl: 'https://github.com/molingyu/shitake.rosetta'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589252596194

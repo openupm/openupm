@@ -78,5 +78,10 @@ module.exports = {
     },
     buildUrlBase:
       "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/"
+  },
+
+  // Feeds
+  feeds: {
+    recentUpdateCount: 50
   }
 };

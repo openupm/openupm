@@ -1,0 +1,17 @@
+name: com.lojugames.services
+displayName: Loju Services
+description: >-
+  Interfaces and implementations for integrating common services for save data,
+  achievements, leaderboards etc.
+repoUrl: 'https://github.com/loju-games/Services'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589239070939

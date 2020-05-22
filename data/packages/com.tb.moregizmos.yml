@@ -1,0 +1,15 @@
+name: com.tb.moregizmos
+displayName: MoreGizmos
+description: Additional debug gizmos to draw at editor-time in Unity projects.
+repoUrl: 'https://github.com/terrehbyte/MoreGizmos'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: 'https://user-images.githubusercontent.com/4968773/52925428-3a178e80-32e6-11e9-853c-1c1f64938636.gif'
+readme: 'master:README.md'
+createdAt: 1589048481333

@@ -11,10 +11,13 @@ const redis = require("../db/redis");
 const allPackagesExtraKey = "pkgs:extra";
 const packageKey = "pkg:";
 const propKeys = {
+  imageUrl: "imageUrl",
   invalidTags: "invalidTags",
-  unityVersion: "unity",
+  readme: "readme",
   stars: "stars",
-  readme: "readme"
+  unityVersion: "unity",
+  updatedTime: "updatedTime",
+  version: "ver"
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -25,6 +28,15 @@ const setInvalidTags = async function(packageName, tags) {
 const getInvalidTags = async function(packageName) {
   const jsonText = await getValue(packageName, propKeys.invalidTags);
   return jsonText === null ? [] : JSON.parse(jsonText);
+};
+
+const setVersion = async function(packageName, version) {
+  await setValue(packageName, propKeys.version, version);
+};
+
+const getVersion = async function(packageName) {
+  const text = await getValue(packageName, propKeys.version);
+  return text;
 };
 
 const setUnityVersion = async function(packageName, unityVersion) {
@@ -52,6 +64,24 @@ const setReadme = async function(packageName, readme) {
 const getReadme = async function(packageName) {
   const text = await getValue(packageName, propKeys.readme);
   return text;
+};
+
+const setImageUrl = async function(packageName, imageUrl) {
+  await setValue(packageName, propKeys.imageUrl, imageUrl);
+};
+
+const getImageUrl = async function(packageName) {
+  const text = await getValue(packageName, propKeys.imageUrl);
+  return text;
+};
+
+const setUpdatedTime = async function(packageName, updatedTime) {
+  await setValue(packageName, propKeys.updatedTime, updatedTime);
+};
+
+const getUpdatedTime = async function(packageName) {
+  const value = await getValue(packageName, propKeys.updatedTime);
+  return parseInt(value);
 };
 
 const setValue = async function(packageName, propKey, propVal) {
@@ -82,14 +112,20 @@ const getAggregatedExtraData = async function() {
 };
 
 module.exports = {
-  setInvalidTags,
+  getAggregatedExtraData,
+  getImageUrl,
   getInvalidTags,
-  setUnityVersion,
-  getUnityVersion,
-  setStars,
-  getStars,
-  setReadme,
   getReadme,
+  getStars,
+  getUnityVersion,
+  getUpdatedTime,
+  getVersion,
   setAggregatedExtraData,
-  getAggregatedExtraData
+  setImageUrl,
+  setInvalidTags,
+  setReadme,
+  setStars,
+  setUnityVersion,
+  setUpdatedTime,
+  setVersion
 };

@@ -1,0 +1,16 @@
+name: jillejr.newtonsoft.json-for-unity.converters
+displayName: Json.NET Converters of Unity types
+description: >-
+  Converters of common Unity types for Newtonsoft.Json. Goes hand in hand with
+  jilleJr/Newtonsoft.Json-for-Unity
+repoUrl: 'https://github.com/jilleJr/Newtonsoft.Json-for-Unity.Converters'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: jilleJr
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1588528711172

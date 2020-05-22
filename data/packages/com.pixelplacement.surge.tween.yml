@@ -7,8 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - animation
-  - library
-  - ui
+  - utilities
+  - gui
 hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -1,0 +1,18 @@
+name: com.yuyang.unity-extensions.paths
+displayName: Unity Extensions Paths
+description: 'This package contains 2 spline-paths: BezierPath & CardinalPath.'
+repoUrl: 'https://github.com/90-games/UnityExtensionsPaths'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/90-games/UnityExtensionsPaths/raw/f4cb05eba8a18efdb53054763771c9b8d083d419/Runtime/Editor/EditorResources/Path.png
+readme: 'master:README.md'
+createdAt: 1588907867151

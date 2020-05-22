@@ -1,0 +1,16 @@
+name: com.johnsoncodehk.unity-ui-controller
+displayName: UI Controller
+description: Game UI panel controller
+repoUrl: 'https://github.com/johnsoncodehk/unity-ui-controller'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - animation
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589210769814

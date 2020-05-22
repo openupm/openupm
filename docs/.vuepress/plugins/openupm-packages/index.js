@@ -17,15 +17,17 @@ const pluginData = {};
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
-  let plugin = {
-    /*** Plugin interface ****/
+  const plugin = {
+    // #region plugin interface
     name: "openupm-packages",
+
+    clientRootMixin: path.resolve(__dirname, "clientRootMixin.js"),
 
     async extendPageData($page) {
       if ($page.path == "/") {
         const data = await plugin.getData();
         $page.packageCount = data.packageNames.length;
-        $page.recentPackages = data.recentPackages;
+        $page.packages = data.packages;
       }
     },
 
@@ -38,9 +40,9 @@ module.exports = function(options, context) {
       pages.push(await plugin.genContributorsPage(data));
       return pages;
     },
+    // #endregion
 
-    /*** Page generators ****/
-
+    // #region page generators
     // Prepare data for page generation
     async getData() {
       if (!pluginData.data) {
@@ -115,16 +117,16 @@ module.exports = function(options, context) {
           "../../../../data/backers.yml"
         );
         const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
-        // Recent packages
-        const recentPackages = _.orderBy(packages, ["createdAt"], ["desc"])
-          .filter(x => !x.excludedFromList)
-          .slice(0, 10);
+        // // Recent packages
+        // const recentAddedPackages = _.orderBy(packages, ["createdAt"], ["desc"])
+        //   .filter(x => !x.excludedFromList)
+        //   .slice(0, 10);
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
           packageNames,
           packages,
-          recentPackages,
+          // recentAddedPackages,
           packageByNamespace,
           topics,
           topicsWithAll,
@@ -225,9 +227,9 @@ module.exports = function(options, context) {
         })
       };
     },
+    // #endregion
 
-    /*** Helpers ****/
-
+    // #region helpers
     // Package topic filter function
     packageTopicFilter(pkg, topicSlug) {
       if (pkg.excludedFromList) return false;
@@ -240,6 +242,7 @@ module.exports = function(options, context) {
     createPage(frontmatter) {
       return "---\n" + yaml.safeDump(frontmatter) + "\n---\n";
     }
+    // #endregion
   };
   return plugin;
 };

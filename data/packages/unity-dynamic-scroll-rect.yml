@@ -1,0 +1,16 @@
+name: unity-dynamic-scroll-rect
+displayName: Unity Dynamic Scroll Rect
+description: An optimized approach to lists with dozens of elements and a Pooling system
+repoUrl: 'https://github.com/Noxalus/UnityDynamicScrollRect'
+parentRepoUrl: 'https://github.com/Mukarillo/UnityDynamicScrollRect'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589332786085

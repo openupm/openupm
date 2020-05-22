@@ -40,6 +40,9 @@ export default {
       font-weight 600
       color $accentColor
 
+    .repo-link
+      display none
+
   .search-box
     input
       height 1.8rem
@@ -58,6 +61,11 @@ export default {
 
       a
         font-size 0.7rem
+
+.sidebar
+  .nav-links
+    a.repo-link
+      display none
 
 .wip
   position fixed

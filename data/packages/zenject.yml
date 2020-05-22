@@ -1,0 +1,15 @@
+name: zenject
+displayName: Zenject
+description: "\U0001F489Dependency Injection Framework for Unity3D package"
+repoUrl: 'https://github.com/k0dep/Zenject'
+parentRepoUrl: 'https://github.com/modesttree/Zenject'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: '^v'
+image: null
+readme: 'master:README.md'
+createdAt: 1589252456892

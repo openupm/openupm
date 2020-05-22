@@ -117,6 +117,19 @@ const preparePackage = function(doc) {
     doc.parentOwnerUrl && doc.parentOwnerUrl.toLowerCase().includes("github")
       ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}.png`
       : null;
+  // readme
+  if (!doc.readme) {
+    doc.readme = "master:README.md";
+  }
+  doc.readme = doc.readme.trim();
+  if (doc.readme.indexOf(":") == -1) {
+    doc.readme = "master:" + doc.readme;
+  }
+  const [readmeBranch, readmePath] = doc.readme.split(":");
+  const dirname = path.dirname(readmePath);
+  doc.readmeBranch = readmeBranch;
+  doc.readmeBase =
+    dirname == "." ? readmeBranch : [readmeBranch, dirname].join("/");
   return doc;
 };
 

@@ -60,23 +60,39 @@ const _urlUtils = {
 
 const _markedUtils = {
   // Get customized marked renderer.
-  markedRenderer: function(option) {
+  markedRenderer: function({
+    linkBaseUrl,
+    linkBaseRelativeUrl,
+    imageBaseUrl,
+    imageBaseRelativeUrl
+  }) {
     const renderer = new marked.Renderer();
     const originalRendererLink = renderer.link.bind(renderer);
     const originalRendererImage = renderer.image.bind(renderer);
 
     renderer.link = (href, title, text) => {
-      if (option.linkBaseUrl && !httpRe.test(href)) {
-        href = urljoin(option.linkBaseUrl, href);
+      if (href.startsWith("#")) {
+        return `<a href='${href}'>${text}</a>`;
+      }
+      if (!httpRe.test(href)) {
+        if (href.startsWith("/")) {
+          href = urljoin(linkBaseUrl, href);
+        } else {
+          href = urljoin(linkBaseRelativeUrl, href);
+        }
       }
       let link = originalRendererLink(href, title, text);
-      link = link.replace("<a", '<a target="_blank" rel="noopener noreferrer"');
+      link = link.replace("<a", '<a rel="noopener noreferrer"');
       return link;
     };
 
     renderer.image = (href, title, text) => {
-      if (option.imageBaseUrl && !httpRe.test(href)) {
-        href = urljoin(option.imageBaseUrl, href);
+      if (!httpRe.test(href)) {
+        if (href.startsWith("/")) {
+          href = urljoin(imageBaseUrl, href);
+        } else {
+          href = urljoin(imageBaseRelativeUrl, href);
+        }
       } else {
         href = _urlUtils.convertToGitHubRawUrl(href);
       }
@@ -87,11 +103,11 @@ const _markedUtils = {
   },
 
   // Post-processing markdown html
-  postMarkdown: function(html, { imageBaseUrl }) {
+  postMarkdown: function(html, { imageBaseRelativeUrl }) {
     const root = $(`<div>${html}</div>`);
     root.find("img").attr("src", (idx, attr) => {
       if (attr === undefined) return undefined;
-      if (!httpRe.test(attr)) attr = urljoin(imageBaseUrl, attr);
+      if (!httpRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
       return attr;
     });
     return root.html();
@@ -116,9 +132,29 @@ const _timeUtils = {
   }
 };
 
+const _packageUtils = {
+  // Join package with extra data.
+  joinPackageExtra(pkg, extra) {
+    if (!extra) {
+      extra = {};
+    }
+    const result = {
+      ...pkg,
+      ...extra
+    };
+    result.sortName = pkg.link.text;
+    result.createdAt = result.createdAt || 0;
+    result.updatedAt = result.time || 0;
+    result.pending = result.updatedAt == 0;
+    result.image = result.imageUrl || pkg.image;
+    return result;
+  }
+};
+
 export default {
   ..._urlUtils,
   ..._markedUtils,
   ..._pageUtils,
-  ..._timeUtils
+  ..._timeUtils,
+  ..._packageUtils
 };

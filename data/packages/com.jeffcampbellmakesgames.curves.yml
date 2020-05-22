@@ -6,11 +6,12 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
+  - editor-enhancement
+  - utilities
 hunter: jeffcampbellmakesgames
 gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/unity-curves/raw/7daff79026035156b2e7407b86f19844fee3cc6d/Images/Example01.gif
+readme: 'develop:readme.md'
 createdAt: 1582442522001

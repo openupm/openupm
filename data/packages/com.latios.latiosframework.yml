@@ -6,6 +6,6 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - dots
+  - dots-and-ecs
 hunter: favoyang
 createdAt: 1577039631000

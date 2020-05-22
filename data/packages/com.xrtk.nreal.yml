@@ -1,0 +1,11 @@
+name: com.xrtk.nreal
+displayName: XRTK.Nreal
+description: The Nreal platform components for the XRTK
+repoUrl: 'https://github.com/XRTK/Nreal'
+parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: StephenHodgson
+createdAt: 1589834675554

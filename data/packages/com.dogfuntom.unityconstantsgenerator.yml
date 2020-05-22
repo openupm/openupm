@@ -8,6 +8,6 @@ repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 createdAt: 1576174716000

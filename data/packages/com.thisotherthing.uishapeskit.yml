@@ -6,11 +6,12 @@ parentRepoUrl: 'https://github.com/thisotherthing/ui-shapes-kit'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
-  - library
-  - ui
+  - particles-and-effects
+  - utilities
+  - gui
 hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:Assets/ThisOtherThing.UIShapesKit/README.md'
 createdAt: 1583926295188

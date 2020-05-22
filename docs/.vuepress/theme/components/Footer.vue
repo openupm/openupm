@@ -20,7 +20,7 @@
               <h5>Connect</h5>
               <ul>
                 <li v-for="(link, index) in connectLinks" :key="index">
-                  <NavLink class :item="link" />
+                  <NavLink :item="link" />
                 </li>
               </ul>
             </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="column column col-4 col-md-6 col-sm-12">
           <small>
-            <a href="https://www.netlify.com" target="_blank">
+            <a href="https://www.netlify.com">
               This site is powered by Netlify
             </a>
           </small>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 
 export default {
   components: { NavLink },
@@ -70,9 +70,30 @@ export default {
 
     connectLinks() {
       return [
-        { link: this.$site.themeConfig.repo, text: "GitHub" },
-        // { link: "", text: "Blog" },
-        { link: "mailto:hello@openupm.com", text: "Contact" }
+        {
+          link: this.$site.themeConfig.repo,
+          text: "GitHub",
+          icon: "fab fa-github"
+        },
+        {
+          link: "https://medium.com/openupm",
+          text: "Medium"
+        },
+        {
+          text: "Discord",
+          link: "https://discord.gg/FnUgWEP"
+        },
+        {
+          link: "mailto:hello@openupm.com",
+          text: "Contact Us",
+          icon: "fas fa-envelope"
+        },
+        {
+          link: "/feeds/updates/rss",
+          text: "Package Updates",
+          icon: "fa fa-rss-square",
+          raw: true
+        }
       ];
     },
 

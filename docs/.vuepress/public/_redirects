@@ -1,8 +1,11 @@
-# SPA disabled
+# SPA disabled.
 # /* /index.html 200
 
-# Redirect domain aliases to primary domain
+# Redirect domain aliases to the primary domain.
 https://beta.openupm.com/* https://openupm.com/:splat 301!
 
-# Optional: Redirect default Netlify subdomain to primary domain
+# Optional: Redirect default Netlify subdomain to the primary domain.
 https://openupm.netlify.com/* https://openupm.com/:splat 301!
+
+# Feed redirect.
+/feeds/*  https://api.openupm.com/feeds/:splat  200

@@ -5,7 +5,9 @@ repoUrl: 'https://github.com/supyrb/signals'
 parentRepoUrl: 'https://github.com/yankooliveira/signals'
 licenseSpdxId: MIT
 licenseName: MIT License
+image: >-
+  https://github.com/supyrb/signals/raw/master/Documentation~/signals-preview-screenshot.png
 topics:
-  - library
+  - utilities
 hunter: JohannesDeml
 createdAt: 1576345395000

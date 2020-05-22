@@ -1,0 +1,14 @@
+name: com.debox.teleport
+displayName: Teleport Networking
+description: 'A fast, lightweight, pure C# Unity realtime-game-networking framework'
+repoUrl: 'https://github.com/debox-dev/Teleport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: 'debox-dev'
+gitTagPrefix: v
+gitTagIgnore: ''
+image: null
+createdAt: 1586691886252

@@ -1,0 +1,19 @@
+name: com.freshlybrewedcode.bettersearchwindow
+displayName: Better Search Window
+description: >-
+  A simple extension/wrapper to simplify the usage of the
+  UnityEditor.Experimental.GraphView.SearchWindow API.
+repoUrl: 'https://github.com/FreshlyBrewedCode/BetterSearchWindow'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: upm/
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589714019880

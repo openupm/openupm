@@ -20,11 +20,11 @@ The development of OpenUPM is guided by:
       <li><i class="fa fa-code"></i> Creator @OpenUPM</li>
       <li><i class="fas fa-map"></i> Beijing, China</li>
       <li><i class="fas fa-globe"></i> English · 中文</li>
-      <li><i class="fa fa-home"></i> <a href="https://littlebigfun.com" target="_blank">littlebigfun.com</a></li></li>
-      <li><i class="fab fa-patreon"></i> <a href="https://patreon.com/openupm" target="_blank">patreon.com/openupm</a></li>
+      <li><i class="fa fa-home"></i> <a href="https://littlebigfun.com">littlebigfun.com</a></li></li>
+      <li><i class="fab fa-patreon"></i> <a href="https://patreon.com/openupm">patreon.com/openupm</a></li>
       <li>
-        <a href="https://github.com/favoyang" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/favo" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/favoyang"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/favo"><i class="fab fa-twitter"></i></a>
       </li>
     </ul>
   </div>

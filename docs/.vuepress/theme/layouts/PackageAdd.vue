@@ -114,6 +114,37 @@
                   </span>
                 </div>
                 <div
+                  id="readme"
+                  class="form-group column col-12"
+                  :class="{
+                    hide: hideOtherFields || !form.branch.value,
+                    'has-error': form.readme.error
+                  }"
+                >
+                  <label class="form-label">
+                    Path of README.md
+                  </label>
+                  <select v-model="form.readme.value" class="form-select">
+                    <option
+                      v-if="!readmePaths.length"
+                      disabled
+                      selected
+                      value=""
+                      >{{ form.readme.prompt }}</option
+                    >
+                    <option
+                      v-for="path in readmePaths"
+                      :key="path"
+                      :value="path"
+                    >
+                      {{ path }}</option
+                    >
+                  </select>
+                  <span v-if="form.readme.error" class="form-input-hint">
+                    {{ form.readme.error }}
+                  </span>
+                </div>
+                <div
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
@@ -122,11 +153,14 @@
                     v-model="form.gitTagPrefix.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (default)"
+                    placeholder="leave empty to include all tags (by default)"
                   />
                   <span class="form-input-hint is-error">
-                    A prefix to filter git tags, mostly used by monorepos to
-                    separate package releases.
+                    A prefix to filter Git tags, mostly used by monorepos to
+                    distinguish releases. A prefixed tag should separate the
+                    semver with a slash <code>/</code>, hyphen <code>-</code>,
+                    or underscore <code>_</code>. e.g.
+                    <code>myprefix/x.y.z</code>.
                   </span>
                 </div>
                 <div
@@ -138,15 +172,27 @@
                     v-model="form.gitTagIgnore.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (default)"
+                    placeholder="leave empty to include all tags (by default)"
                   />
                   <span class="form-input-hint is-error">
-                    Regular expression to exclude git tags from build pipelines:
+                    Regular expression to exclude Git tags from build pipelines:
                     <br />
                     <code v-if="form.gitTagIgnore.value">
                       /{{ form.gitTagIgnore.value }}/i
                     </code>
                   </span>
+                </div>
+                <div
+                  class="form-group column col-12"
+                  :class="{ hide: hideOtherFields }"
+                >
+                  <label class="form-label">Minimal version to build</label>
+                  <input
+                    v-model="form.minVersion.value"
+                    class="form-input"
+                    type="text"
+                    placeholder="leave empty to build all versions (by default)"
+                  />
                 </div>
                 <div
                   class="form-group column col-12"
@@ -189,16 +235,22 @@
                   </div>
                 </div>
                 <div
+                  v-if="repoImages.length"
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields,
                     'has-error': form.image.error
                   }"
                 >
-                  <label v-if="repoImages.length" class="form-label"
-                    >Featured image</label
-                  >
-                  <div v-if="repoImages.length" class="columns pkg-img-columns">
+                  <label class="form-label">Featured image</label>
+                  <div class="form-input-hint is-error">
+                    Notice: if the repository has a
+                    <a
+                      href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
+                      >social image</a
+                    >, will use that instead.
+                  </div>
+                  <div class="columns pkg-img-columns">
                     <div
                       v-for="item in repoImages"
                       :key="item"
@@ -260,7 +312,6 @@
                 <a
                   :href="uploadLink.link"
                   class="btn btn-primary"
-                  target="_blank"
                   @click="onUpload"
                   >{{ uploadLink.text }}</a
                 >
@@ -294,7 +345,7 @@
                             <p class="tile-subtitle">
                               Please provide information about the UPM package.
                               Learn more at
-                              <NavLink :item="docLink" target="_blank" />.
+                              <NavLink :item="docLink" />.
                             </p>
                           </div>
                         </div>
@@ -396,7 +447,7 @@ import spdx from "spdx-license-list";
 import urljoin from "url-join";
 import yaml from "js-yaml";
 
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import util from "@root/docs/.vuepress/util";
 
@@ -437,6 +488,14 @@ export default {
           error: "",
           value: ""
         },
+        minVersion: {
+          error: "",
+          value: ""
+        },
+        readme: {
+          error: "",
+          value: null
+        },
         image: {
           error: "",
           value: null
@@ -460,6 +519,7 @@ export default {
       repoImages: [],
       packageJsonPaths: {},
       packageInfo: {},
+      readmePaths: {},
       branches: [],
       yaml: "",
       yamlFilename: ""
@@ -568,7 +628,11 @@ export default {
         hunter: form.hunter.value,
         gitTagPrefix: form.gitTagPrefix.value,
         gitTagIgnore: form.gitTagIgnore.value,
+        minVersion: form.minVersion.value,
         image: form.image.value,
+        readme: form.readme.value
+          ? form.branch.value + ":" + form.readme.value
+          : "master:README.md",
         createdAt: new Date().getTime()
       };
       return yaml.safeDump(content);
@@ -674,6 +738,7 @@ export default {
       try {
         // Clean error message.
         this.$data.form.packageJson.error = "";
+        this.$data.form.readme.error = "";
         // Fetch.
         const url = urljoin(
           util.githubReposApiUrl,
@@ -682,23 +747,50 @@ export default {
           this.form.branch.value
         );
         this.$data.form.packageJson.prompt = "Loading package.json path...";
+        this.$data.form.readme.prompt = "Loading README.md path...";
         const resp = await axios.get(url, {
           params: { recursive: 1 },
           headers: { Accept: "application/vnd.github.v3.json" }
         });
-        // Assign data.
-        const paths = resp.data.tree
-          .map(x => x.path)
-          .filter(x => x.endsWith("package.json"));
-        this.$data.packageJsonPaths = paths;
-        if (paths.length == 0) {
-          this.$data.form.packageJson.prompt = "";
-          this.$data.form.packageJson.error =
-            "File not found: package.json. Please choice a different branch.";
-        } else if (paths.length == 1)
-          this.$data.form.packageJson.value = paths[0];
-        else if (paths.includes("package.json"))
-          this.$data.form.packageJson.value = "package.json";
+        // Assign data to packageJson
+        const self = this;
+        (function() {
+          const paths = resp.data.tree
+            .map(x => x.path)
+            .filter(x => x.endsWith("package.json"));
+          self.$data.packageJsonPaths = paths;
+          if (paths.length == 0) {
+            self.$data.form.packageJson.prompt = "";
+            self.$data.form.packageJson.error =
+              "File not found: package.json. Please choice a different branch.";
+          } else if (paths.length == 1) {
+            self.$data.form.packageJson.value = paths[0];
+          } else if (paths.includes("package.json")) {
+            self.$data.form.packageJson.value = "package.json";
+          }
+        })();
+        // Assign data to readme
+        (function() {
+          const markdownRe = /.(md|markdown)$/i;
+          const paths = resp.data.tree
+            .map(x => x.path)
+            .filter(x => markdownRe.test(x));
+          self.$data.readmePaths = paths;
+          if (paths.length == 0) {
+            self.$data.form.readme.prompt = "";
+            self.$data.form.readme.error =
+              "No markdown file found, will fallback to README.md";
+          } else if (paths.length == 1) {
+            self.$data.form.readme.value = paths[0];
+          } else if (paths.includes("README.md")) {
+            self.$data.form.readme.value = "README.md";
+          } else {
+            const filteredPath = paths.filter(x => x.endsWith("README.md"));
+            if (filteredPath.length > 0) {
+              self.$data.form.readme.value = filteredPath[0];
+            }
+          }
+        })();
       } catch (error) {
         this.$data.form.packageJson.error = error.message;
       }
@@ -723,7 +815,7 @@ export default {
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
         if (this.$page.frontmatter.packageNames.includes(packageName))
-          throw new Error(`The package ${packageName} already exists`);
+          throw new Error(`The package ${packageName} already exists.`);
         if (packageName.includes("@"))
           throw new Error(
             `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`

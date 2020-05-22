@@ -7,6 +7,7 @@ const rewire = require("rewire");
 const buildPackageModule = rewire("../app/jobs/buildPackage");
 
 const filterRemoteTags = buildPackageModule.__get__("filterRemoteTags");
+const getInvalidTags = buildPackageModule.__get__("getInvalidTags");
 
 describe("app/jobs/buildPackage.js", function() {
   describe("filterRemoteTags()", function() {
@@ -167,6 +168,54 @@ describe("app/jobs/buildPackage.js", function() {
       names.should.deepEqual([
         { tag: "namespace.module.a/2.0.0", commit: "11" }
       ]);
+    });
+    it("prefix and ignore pattern", function() {
+      let names = filterRemoteTags({
+        remoteTags: [
+          { tag: "namespace.core/1.0.0", commit: "10" },
+          { tag: "1.0.0-preview.0", commit: "11" },
+          { tag: "1.0.0-preview.1", commit: "12" },
+          { tag: "1.0.1", commit: "13" }
+        ],
+        minVersion: "1.0.0-preview.0"
+      });
+      names.should.deepEqual([
+        { tag: "1.0.0-preview.0", commit: "11" },
+        { tag: "1.0.0-preview.1", commit: "12" },
+        { tag: "1.0.1", commit: "13" }
+      ]);
+    });
+  });
+  describe("getInvalidTags()", function() {
+    it("simple", function() {
+      let names = getInvalidTags({
+        remoteTags: [
+          { tag: "1.0.0", commit: "0000001" },
+          { tag: "1.0.2", commit: "0000003" },
+          { tag: "releases/2.0.0.1", commit: "0000002" },
+          { tag: "releases/1.0.0", commit: "0000002" },
+          { tag: "releases/1.0.2", commit: "0000004" },
+          { tag: "releases/1.0.3-preview", commit: "0000005" }
+        ],
+        validTags: [
+          { tag: "releases/1.0.0", commit: "0000002" },
+          { tag: "releases/1.0.2", commit: "0000004" }
+        ],
+        gitTagPrefix: "releases",
+        gitTagIgnore: "-preview$"
+      });
+      names.should.deepEqual([{ tag: "releases/2.0.0.1", commit: "0000002" }]);
+    });
+    it("minVersion", function() {
+      let names = getInvalidTags({
+        remoteTags: [
+          { tag: "1.0.0", commit: "0000001" },
+          { tag: "1.0.2", commit: "0000003" }
+        ],
+        validTags: [{ tag: "1.0.2", commit: "0000003" }],
+        minVersion: "1.0.2"
+      });
+      names.should.deepEqual([]);
     });
   });
 });

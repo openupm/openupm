@@ -1,0 +1,11 @@
+name: com.xrtk.arcore
+displayName: XRTK.ARCore
+description: The ARCore platform components for the XRTK
+repoUrl: 'https://github.com/XRTK/ARCore'
+parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: StephenHodgson
+createdAt: 1589834675554

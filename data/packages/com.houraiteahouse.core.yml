@@ -1,0 +1,17 @@
+name: com.houraiteahouse.core
+displayName: Hourai Teahouse Core Libraries
+description: >-
+  A core utilities library underpinning most Hourai Teahouse projects in Unity
+  3D.
+repoUrl: 'https://github.com/HouraiTeahouse/HouraiCore'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211275894

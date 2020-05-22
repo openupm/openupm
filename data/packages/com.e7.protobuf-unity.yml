@@ -1,0 +1,19 @@
+name: com.e7.protobuf-unity
+displayName: Protobuf Unity
+description: >-
+  Automatic .proto files compilation in Unity project to C# as you edit them,
+  plus utilities.
+repoUrl: 'https://github.com/5argon/protobuf-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/5argon/protobuf-unity/raw/15bb2f52ed5929ecc0533b0105b1b44c26ff8f5d/.Documentation/images/wellknown1.png
+readme: 'master:README.md'
+createdAt: 1589321384273

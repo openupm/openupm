@@ -10,8 +10,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - effect-shader
-  - ui
+  - particles-and-effects
+  - gui
 hunter: favoyang
 gitTagIgnore: '^v'
 createdAt: 1577291404000

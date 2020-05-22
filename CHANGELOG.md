@@ -1,3 +1,148 @@
+## [1.27.1](https://github.com/openupm/openupm/compare/1.27.0...1.27.1) (2020-05-20)
+
+
+### Bug Fixes
+
+* **website:** improve UX for Git dependencies ([d68577c](https://github.com/openupm/openupm/commit/d68577c1a49deb47a98719d3b8f647200cfe56bc))
+
+# [1.27.0](https://github.com/openupm/openupm/compare/1.26.0...1.27.0) (2020-05-13)
+
+
+### Features
+
+* **website:** alert Git dependencies on package detail page (refs: [#426](https://github.com/openupm/openupm/issues/426)) ([4874027](https://github.com/openupm/openupm/commit/48740272d955942a7bfd2d031de3ce7b1a0d3a75))
+
+# [1.26.0](https://github.com/openupm/openupm/compare/1.25.1...1.26.0) (2020-05-12)
+
+
+### Features
+
+* **pipelines:** support minVersion field to filter Git tags ([3d314f7](https://github.com/openupm/openupm/commit/3d314f79c03581a51e1a7f097008cb76164c658f))
+
+## [1.25.1](https://github.com/openupm/openupm/compare/1.25.0...1.25.1) (2020-05-10)
+
+
+### Bug Fixes
+
+* **website:** pending state on the package detail page ([6d9a027](https://github.com/openupm/openupm/commit/6d9a027dbb262c89d434d5abafef8e32fb1093f3))
+
+# [1.25.0](https://github.com/openupm/openupm/compare/1.24.0...1.25.0) (2020-05-10)
+
+
+### Features
+
+* **website:** filter pending state on the package list page (refs [#277](https://github.com/openupm/openupm/issues/277)) ([bf8101b](https://github.com/openupm/openupm/commit/bf8101bd107a781f607b6add1a6dc047bc4ac2b2))
+
+# [1.24.0](https://github.com/openupm/openupm/compare/1.23.2...1.24.0) (2020-05-08)
+
+
+### Features
+
+* **website:** show pending state on package list page (close:  [#277](https://github.com/openupm/openupm/issues/277)) ([c3420d3](https://github.com/openupm/openupm/commit/c3420d31d8134593d1b824e4cbdebfa2027bf335))
+
+## [1.23.2](https://github.com/openupm/openupm/compare/1.23.1...1.23.2) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** exclude ignored or non-prefixed tags from invalid tags of the package detail page (close: [#90](https://github.com/openupm/openupm/issues/90)) ([8332f6b](https://github.com/openupm/openupm/commit/8332f6bd7737b0ffecb60d3f55fc7769e565dc8d))
+
+## [1.23.1](https://github.com/openupm/openupm/compare/1.23.0...1.23.1) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** reimplement unity version filter of package list page (refs [#53](https://github.com/openupm/openupm/issues/53)) ([7396957](https://github.com/openupm/openupm/commit/73969570a8a8b4c336382d8d42f66992d81d759e))
+
+# [1.23.0](https://github.com/openupm/openupm/compare/1.22.1...1.23.0) (2020-05-04)
+
+
+### Features
+
+* **website:** choice README in package submission form (close [#91](https://github.com/openupm/openupm/issues/91)) ([e423ade](https://github.com/openupm/openupm/commit/e423ade83f85d4b987a9b5ce3f92dfd2b8acd5eb))
+
+## [1.22.1](https://github.com/openupm/openupm/compare/1.22.0...1.22.1) (2020-05-04)
+
+
+### Bug Fixes
+
+* **website:** fix readme image with absolute URL ([ce20410](https://github.com/openupm/openupm/commit/ce20410552c78194cfaf84f32101226e427a6aa5))
+
+# [1.22.0](https://github.com/openupm/openupm/compare/1.21.0...1.22.0) (2020-05-04)
+
+
+### Features
+
+* **website:** support README at any path ([#238](https://github.com/openupm/openupm/issues/238), [#91](https://github.com/openupm/openupm/issues/91)) ([d8fb7d5](https://github.com/openupm/openupm/commit/d8fb7d511d9c5eba5f7816c715ccbcd5aff55af8))
+
+# [1.21.0](https://github.com/openupm/openupm/compare/1.20.5...1.21.0) (2020-05-02)
+
+
+### Features
+
+* **website:** one-column for package lister view (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([87e417a](https://github.com/openupm/openupm/commit/87e417a91197e0e9c28fae777ac01d62cb900a86))
+
+## [1.20.5](https://github.com/openupm/openupm/compare/1.20.4...1.20.5) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** two-column filter for lister pages on mobile ([de75322](https://github.com/openupm/openupm/commit/de753227f6d10bad7727a682d05c73b9675e8c45))
+
+## [1.20.4](https://github.com/openupm/openupm/compare/1.20.3...1.20.4) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove duplicated unity version option on the package list page ([fba21cb](https://github.com/openupm/openupm/commit/fba21cb513fcd7f954db30c731dd8d86f7247e62))
+
+## [1.20.3](https://github.com/openupm/openupm/compare/1.20.2...1.20.3) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove masonry layout for package cards (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([a51bfe9](https://github.com/openupm/openupm/commit/a51bfe9a882e1b12335331861c029847c755bb16))
+
+## [1.20.2](https://github.com/openupm/openupm/compare/1.20.1...1.20.2) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** avoid link with target=_blank (close: [#228](https://github.com/openupm/openupm/issues/228)) ([a540e61](https://github.com/openupm/openupm/commit/a540e619e748e047230ee5d56bc2b05c4cb5cd26))
+
+## [1.20.1](https://github.com/openupm/openupm/compare/1.20.0...1.20.1) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** feed redirect rules. ([e462a14](https://github.com/openupm/openupm/commit/e462a1481905ffcf5e6a4ee8f5671b9fa5fa3969))
+
+# [1.20.0](https://github.com/openupm/openupm/compare/1.19.1...1.20.0) (2020-04-29)
+
+
+### Features
+
+* package update feed (refs [#48](https://github.com/openupm/openupm/issues/48)) ([32b4991](https://github.com/openupm/openupm/commit/32b49918406b0a3fdbe95ab994b564468c7839ac))
+
+## [1.19.1](https://github.com/openupm/openupm/compare/1.19.0...1.19.1) (2020-04-26)
+
+
+### Bug Fixes
+
+* **pipelines:** support underscore prefix ([0e9865f](https://github.com/openupm/openupm/commit/0e9865f1c0ab1048341285f3892ed5291bb0ad89))
+
+# [1.19.0](https://github.com/openupm/openupm/compare/1.18.5...1.19.0) (2020-04-23)
+
+
+### Bug Fixes
+
+* **website:** duplicated unity list ([ad065e5](https://github.com/openupm/openupm/commit/ad065e5672348d379ac10c1c36b2e28d4c871b99))
+
+
+### Features
+
+* **website:** sort package by last update time ([b35d77a](https://github.com/openupm/openupm/commit/b35d77aa3116ad1a3c117947dd0b484088e72454))
+
 ## [1.18.5](https://github.com/openupm/openupm/compare/1.18.4...1.18.5) (2020-04-02)
 
 

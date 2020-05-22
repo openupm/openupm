@@ -6,9 +6,10 @@ parentRepoUrl: 'https://github.com/grofit/bindingsrx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1582570769879

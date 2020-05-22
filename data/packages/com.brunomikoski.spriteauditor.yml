@@ -1,0 +1,18 @@
+name: com.brunomikoski.spriteauditor
+displayName: Sprite Auditor
+description: null
+repoUrl: 'https://github.com/badawe/SpriteAuditor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - asset-management
+  - editor-enhancement
+  - gui
+  - mobile
+  - utilities
+hunter: badawe
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1588185164220

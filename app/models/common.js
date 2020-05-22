@@ -12,6 +12,8 @@ const ReleaseState = new Enum({
 
 const ReleaseReason = new Enum({
   None: 0,
+  // Bad request
+  BadRequest: 400,
   // Unauthorized
   Unauthorized: 401,
   // Permission error
@@ -34,7 +36,7 @@ const ReleaseReason = new Enum({
   PackageNotFound: 800,
   // private repo
   Private: 801,
-  // private repo
+  // package name not match
   PackageNameNotMatch: 802
 });
 
@@ -43,6 +45,7 @@ const ReleaseReason = new Enum({
  */
 const RetryableReleaseReason = [
   ReleaseReason.None,
+  ReleaseReason.BadRequest,
   ReleaseReason.Unauthorized,
   ReleaseReason.Forbidden,
   ReleaseReason.EntityTooLarge,

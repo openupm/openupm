@@ -1,0 +1,15 @@
+name: jillejr.newtonsoft.json-for-unity
+displayName: Json.NET 12.0.3 for Unity
+description: Newtonsoft.Json (Json.NET) 12.0.3 for Unity via Unity Package Manager
+repoUrl: 'https://github.com/jilleJr/Newtonsoft.Json-for-Unity'
+parentRepoUrl: 'https://github.com/JamesNK/Newtonsoft.Json'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1589131258967

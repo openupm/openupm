@@ -6,8 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
-  - ui
+  - particles-and-effects
+  - gui
 hunter: favoyang
 createdAt: 1576421883000
 image: https://raw.githubusercontent.com/Nobinator/Unity-UI-Rounded-Corners/494df9840c47610aee4e52ed6ded45dace10b242/image-00.png

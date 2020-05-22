@@ -14,7 +14,7 @@ The OpenUPM service is composed of below sub-systems:
 - *Website frontend
 - *Website backend (API)
 - *Package curated list
-- [OpenUPM-CLI](https://github.com/openupm/openupm-cli) command line tool
+- [OpenUPM-CLI](https://github.com/openupm/openupm-cli) command-line tool
 
 Entries with `*` prefix are located in the [main repository](https://github.com/openupm/openupm).
 
@@ -23,33 +23,33 @@ Entries with `*` prefix are located in the [main repository](https://github.com/
 ```
 .
 ├── app         # service backend
-│   ├── db         # database, redis
+│   ├── db         # database, Redis
 │   ├── jobs       # background jobs
 │   ├── models     # models
 │   ├── queues     # job queues
 │   ├── utils      # useful scripts
-│   └── views      # http endpoints
+│   └── views      # HTTP endpoints
 ├── config       # configurations
 ├── data         # data
-│   └── packages # package curated list (yaml files)
+│   └── packages # package curated list (YAML files)
 ├── docs         # web frontend (vuepress)
 └── tests        # unit tests
 ```
 
 ## Public UPM Registry
 
-OpenUPM uses a custom verdaccio to host the registry. Though verdaccio is the most popular open source project to setup a private npm registry, most deployments served very limited user base or for testing purpose that don't care about performance much. OpenUPM try to solve quite a few issues related to the cluster deployment. Before these PRs get merged, OpenUPM will stay with the custom build:
+OpenUPM uses a custom verdaccio to host the registry. Though verdaccio is the most popular open-source project to set up a private npm registry, most deployments served a very limited user base or for the testing purpose that doesn't care about performance much. OpenUPM try to solve quite a few issues related to the cluster deployment. Before these PRs get merged, OpenUPM will stay with the custom build:
 
 - S3 storage with CDN [#250](https://github.com/verdaccio/monorepo/issues/250)
 - Stateless s3 storage for cluster deployment [#1595](https://github.com/verdaccio/verdaccio/issues/1595), [#1459](https://github.com/verdaccio/verdaccio/issues/1459)
 - Commands `npm publish -f` and `npm unpublish` return 404 ~~[#1435](https://github.com/verdaccio/verdaccio/issues/1435)~~
 - Wrong timestamp for old search api ~~[#1597](https://github.com/verdaccio/verdaccio/issues/1597)~~
 
-Since OpenUPM has it's own way to organize package list, the verdaccio website and api endpoints are disabled (headless mode).
+Since OpenUPM has it's own way to organize the package list, the verdaccio website and API endpoints are disabled (headless mode).
 
 ## Automatic Build Pipelines
 
-OpenUPM watches the package curated list regularly, detects new contents and uses the job queue to build packages through [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
+OpenUPM watches the package curated list regularly detects new contents and uses the job queue to build packages through [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
 
 @flowstart
 stage1=>operation: Cron
@@ -65,7 +65,7 @@ OpenUPM uses [Bee-Queue](https://github.com/bee-queue/bee-queue) to manage the j
 
 | Job                     | Description                                                  |
 |-------------------------|--------------------------------------------------------------|
-| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid git tags |
+| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid Git tags |
 | `build-rel:<pkg>:<ver>` | build pkg@version via Azure Pipelines                        |
 
 ## Website Frontend

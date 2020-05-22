@@ -1,0 +1,16 @@
+name: com.rlabrecque.steamworks
+displayName: Steamworks.NET
+description: 'Steamworks wrapper for Unity / C#'
+repoUrl: 'https://github.com/HouraiTeahouse/Steamworks.NET'
+parentRepoUrl: 'https://github.com/rlabrecque/Steamworks.NET'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211214108

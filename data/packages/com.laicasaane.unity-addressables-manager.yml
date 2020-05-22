@@ -1,0 +1,15 @@
+name: com.laicasaane.unity-addressables-manager
+displayName: Unity Addressables Manager
+description: Unity Addressables Manager
+repoUrl: 'https://github.com/laicasaane/unity-addressables-manager'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588713720786

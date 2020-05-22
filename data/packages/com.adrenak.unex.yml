@@ -6,11 +6,12 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:Assets/Adrenak.Unex/README.md'
 createdAt: 1583867087239

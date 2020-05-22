@@ -6,7 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
+  - editor-enhancement
 hunter: bss1284
 gitTagPrefix: ''
 gitTagIgnore: ''

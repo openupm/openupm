@@ -1,0 +1,17 @@
+name: com.houraiteahouse.networking
+displayName: Hourai Networking
+description: >-
+  Transport level library for peer-to-peer networking with multiple backends for
+  the Unity.
+repoUrl: 'https://github.com/HouraiTeahouse/HouraiNetworking'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211539494

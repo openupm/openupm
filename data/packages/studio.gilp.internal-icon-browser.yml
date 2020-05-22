@@ -1,0 +1,16 @@
+name: studio.gilp.internal-icon-browser
+displayName: Internal Icon Browser
+description: >-
+  Internal Icon Browser is a simple Editor Window that allows you to browse
+  internal icons that are currently loaded.
+repoUrl: 'https://github.com/GilpStudio/unity-internal-icon-browser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: GilpStudio
+gitTagPrefix: v
+gitTagIgnore: ''
+image: null
+createdAt: 1587857331604

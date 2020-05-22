@@ -1,0 +1,15 @@
+name: com.unity.editor.tasks
+displayName: Unity Editor Tasks
+description: null
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.editor.tasks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Unity-Technologies/com.unity.editor.tasks/raw/ab760af76518ba5d8195ee289e4f2365cd64c2ad/icon.png
+readme: 'master:README.md'
+createdAt: 1588975681887

@@ -6,8 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
-hunter: ''
+  - utilities
+hunter: 'japtar10101'
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
