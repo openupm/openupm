@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/openupm/openupm/compare/1.27.1...1.28.0) (2020-05-23)
+
+
+### Features
+
+* **website:** package-add form parses license from package.json ([2706a1f](https://github.com/openupm/openupm/commit/2706a1f001174879df443e8f9eab61a3c5fefaa1))
+
 ## [1.27.1](https://github.com/openupm/openupm/compare/1.27.0...1.27.1) (2020-05-20)
 
 
