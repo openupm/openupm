@@ -153,7 +153,17 @@
                   <h2>Stars</h2>
                   <span>
                     <i class="fa fa-star"></i>
-                    {{ packageStargazersCount }}
+                    {{ $package.stars }}
+                    <br />
+                    <small v-if="$package.pstars">
+                      <i class="fa fa-star"></i> {{ $package.pstars }} on
+                      <NavLink
+                        :item="{
+                          link: this.$package.parentRepoUrl,
+                          text: 'upstream'
+                        }"
+                      />
+                    </small>
                   </span>
                 </section>
                 <section class="col-6 col-sm-12">
@@ -551,9 +561,6 @@ export default {
         let num = tags.length - 2;
         return `${tags[0]}, ${tags[1]} and ${num} more`;
       }
-    },
-    packageStargazersCount() {
-      return this.$package.stars;
     },
     packageInstallCli() {
       const name = this.$package.name;
