@@ -8,7 +8,7 @@
     "name": "Favo Yang",
     "email": "favoyang@openupm.com"
   },
-  "repository": "https://github.com/openupm/openupm",
+  "repository": "https://github.com/openupm/openupm.git",
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
