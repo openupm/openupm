@@ -106,10 +106,12 @@ const _fetchStars = async function(repo, packageName) {
       { headers }
     );
     const repoInfo = resp.data;
-    let stars = 0;
-    stars += repoInfo.stargazers_count || 0;
-    stars += (repoInfo.parent && repoInfo.parent.stargazers_count) || 0;
+    const stars = repoInfo.stargazers_count || 0;
     await PackageExtra.setStars(packageName, stars);
+    if (repoInfo.parent) {
+      const pstars = repoInfo.parent.stargazers_count || 0;
+      await PackageExtra.setParentStars(packageName, pstars);
+    }
   } catch (error) {
     logger.error(errorInfo(error, { pkg: packageName }), "fetch stars error");
   }
@@ -190,6 +192,8 @@ const aggregateExtraData = async function() {
     const data = {};
     const stars = await PackageExtra.getStars(packageName);
     data.stars = stars || 0;
+    const pstars = await PackageExtra.getParentStars(packageName);
+    data.pstars = pstars || undefined;
     const unity = await PackageExtra.getUnityVersion(packageName);
     data.unity = unity || "2018.1";
     const imageUrl = await PackageExtra.getImageUrl(packageName);

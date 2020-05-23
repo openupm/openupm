@@ -15,6 +15,7 @@ const propKeys = {
   invalidTags: "invalidTags",
   readme: "readme",
   stars: "stars",
+  parentStars: "pstars",
   unityVersion: "unity",
   updatedTime: "updatedTime",
   version: "ver"
@@ -54,6 +55,15 @@ const setStars = async function(packageName, stars) {
 
 const getStars = async function(packageName) {
   const text = await getValue(packageName, propKeys.stars);
+  return parseInt(text);
+};
+
+const setParentStars = async function(packageName, stars) {
+  await setValue(packageName, propKeys.parentStars, stars);
+};
+
+const getParentStars = async function(packageName) {
+  const text = await getValue(packageName, propKeys.parentStars);
   return parseInt(text);
 };
 
@@ -117,6 +127,7 @@ module.exports = {
   getInvalidTags,
   getReadme,
   getStars,
+  getParentStars,
   getUnityVersion,
   getUpdatedTime,
   getVersion,
@@ -125,6 +136,7 @@ module.exports = {
   setInvalidTags,
   setReadme,
   setStars,
+  setParentStars,
   setUnityVersion,
   setUpdatedTime,
   setVersion
