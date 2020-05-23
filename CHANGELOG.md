@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/openupm/openupm/compare/1.28.0...1.29.0) (2020-05-23)
+
+
+### Features
+
+* **website:** remove parent stars from package detail page (close: [#525](https://github.com/openupm/openupm/issues/525)) ([865ee29](https://github.com/openupm/openupm/commit/865ee29df6891b633182713d344f692bc68b443f))
+
 # [1.28.0](https://github.com/openupm/openupm/compare/1.27.1...1.28.0) (2020-05-23)
 
 
