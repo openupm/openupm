@@ -93,6 +93,7 @@
                     v-model="form.packageJson.value"
                     class="form-select"
                     required
+                    @change="onPackageJsonPathChange($event)"
                   >
                     <option
                       v-if="!packageJsonPaths.length"
@@ -208,7 +209,7 @@
                     type="text"
                   />
                   <span class="form-input-hint is-error">
-                    No SPDX license found, please specify the license name.
+                    Please specify the license name.
                   </span>
                 </div>
                 <div
@@ -586,6 +587,11 @@ export default {
     onBranchChange() {
       this.fetchGitTrees();
     },
+    onPackageJsonPathChange() {
+      if (this.form.packageJson.value) {
+        this.fetchPackageInfo();
+      }
+    },
     onGoClick() {
       let repo = this.$data.form.repo.value;
       if (repo) {
@@ -602,8 +608,7 @@ export default {
       else this.$data.form.image.value = null;
     },
     onVerifyClick() {
-      this.$data.isSubmitting = true;
-      this.fetchPackageInfo();
+      this.verifyPackage();
     },
     onBack() {
       this.$data.step = SubmitStep.FillForm;
@@ -640,9 +645,14 @@ export default {
     guessLicenseId() {
       if (this.form.licenseName.value && !this.form.licenseId.value) {
         const spdxId = Object.keys(spdx).find(
-          x => spdx[x].name == this.form.licenseName.value
+          x =>
+            spdx[x].name == this.form.licenseName.value ||
+            x == this.form.licenseName.value
         );
-        if (spdxId) this.form.licenseId.value = spdxId;
+        if (spdxId) {
+          this.form.licenseId.value = spdxId;
+          this.form.licenseName.value = spdx[this.form.licenseId.value].name;
+        }
       }
     },
     resetFormError() {
@@ -675,9 +685,6 @@ export default {
         ) {
           this.$data.form.licenseId.value = repoInfo.license.spdx_id;
           this.$data.form.licenseName.value = repoInfo.license.name;
-        } else {
-          this.$data.form.licenseId.value = null;
-          this.$data.form.licenseName.value = "";
         }
       } catch (error) {
         if (error.message.includes("404"))
@@ -759,6 +766,7 @@ export default {
             .map(x => x.path)
             .filter(x => x.endsWith("package.json"));
           self.$data.packageJsonPaths = paths;
+          self.$data.form.packageJson.value = null;
           if (paths.length == 0) {
             self.$data.form.packageJson.prompt = "";
             self.$data.form.packageJson.error =
@@ -767,6 +775,9 @@ export default {
             self.$data.form.packageJson.value = paths[0];
           } else if (paths.includes("package.json")) {
             self.$data.form.packageJson.value = "package.json";
+          }
+          if (self.$data.form.packageJson.value) {
+            self.onPackageJsonPathChange();
           }
         })();
         // Assign data to readme
@@ -818,22 +829,38 @@ export default {
           throw new Error(`The package ${packageName} already exists.`);
         if (packageName.includes("@"))
           throw new Error(
-            `Package name "${packageName}" includes character '@', that is not accepted by UPM. Please contact package owner to modify it.`
+            `Package name "${packageName}" contains the invalid character "@".`
           );
-        this.$data.step = SubmitStep.GetYamlFile.value;
-        // Guess license id.
-        this.guessLicenseId();
-        // Generate YAML.
-        this.$data.yaml = this.genYaml();
-        this.$data.yamlFilename = this.$data.packageInfo.name + ".yml";
+        // License
+        if (
+          this.$data.packageInfo.license &&
+          !this.$data.form.licenseName.value
+        ) {
+          this.$data.form.licenseName.value = this.$data.packageInfo.license;
+        }
       } catch (error) {
         VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
         if (error.message.includes("404"))
-          this.$data.form.packageJson.error = "File not found: package.json";
+          this.$data.form.packageJson.error = "File not found: package.json.";
         else this.$data.form.packageJson.error = error.message;
-      } finally {
-        this.$data.isSubmitting = false;
       }
+    },
+    async verifyPackage() {
+      if (!this.$data.form.packageJson.value) {
+        this.$data.form.packageJson.error =
+          "Please select the package.json path.";
+      }
+      if (this.$data.form.packageJson.error) {
+        VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
+        return;
+      }
+      // Guess license id.
+      this.guessLicenseId();
+      // Next step.
+      this.$data.step = SubmitStep.GetYamlFile.value;
+      // Generate YAML.
+      this.$data.yaml = this.genYaml();
+      this.$data.yamlFilename = this.$data.packageInfo.name + ".yml";
     }
   }
 };
