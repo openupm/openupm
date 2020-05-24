@@ -1,0 +1,16 @@
+name: com.unity.raytracedhardshadow
+displayName: Raytraced Hard Shadow
+description: DXR based raytraced hard shadow for Unity
+repoUrl: 'https://github.com/unity3d-jp/RaytracedHardShadow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/1488611/60965577-1ca89700-a351-11e9-9b7d-962a6a7e1aed.png'
+readme: 'dev:README.md'
+createdAt: 1590283458786
