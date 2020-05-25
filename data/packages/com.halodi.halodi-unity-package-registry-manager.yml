@@ -11,6 +11,6 @@ hunter: favoyang
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'master:Resources/halodi-unity-package-registry-manager/halodi-unity-package-registry-manager-screenshot.png'
 readme: 'master:README.md'
 createdAt: 1590069530684
