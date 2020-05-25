@@ -11,6 +11,6 @@ hunter: favoyang
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'master:Packages/halodi-unity-package-creator/Resources/halodi-unity-package-creator/halodi-unity-package-creator-screenshot.png'
 readme: 'master:Packages/halodi-unity-package-creator/README.md'
 createdAt: 1590169398328
