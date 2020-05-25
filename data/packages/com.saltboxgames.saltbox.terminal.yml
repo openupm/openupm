@@ -1,0 +1,17 @@
+name: com.saltboxgames.saltbox.terminal
+displayName: Saltbox Terminal
+description: CommandLine Terminal for Unity Games
+repoUrl: 'https://github.com/SaltboxGames/Saltbox.Terminal'
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DustedHam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'master:README.md'
+createdAt: 1590422697236
