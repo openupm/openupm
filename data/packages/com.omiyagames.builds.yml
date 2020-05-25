@@ -1,0 +1,18 @@
+name: com.omiyagames.builds
+displayName: Omiya Games - Multiplatform Build Settings
+description: Tool for one-click multiplatform build operations.
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-builds'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/OmiyaGames/omiya-games-builds/raw/b29767a406b06865bdc091dea29bee7fc11c70f9/Documentation~/resources/add-platforms.png
+readme: 'master:README.md'
+createdAt: 1590374036891
