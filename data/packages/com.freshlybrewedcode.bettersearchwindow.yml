@@ -10,10 +10,10 @@ licenseName: MIT License
 topics:
   - editor-enhancement
   - utilities
-hunter: ''
+hunter: 'FreshlyBrewedCode'
 gitTagPrefix: ''
 gitTagIgnore: upm/
 minVersion: ''
-image: null
+image: 'https://camo.githubusercontent.com/b12922b799d77abfd11defb52ba055f753915468/68747470733a2f2f692e696d6775722e636f6d2f35384f673277352e676966'
 readme: 'master:README.md'
 createdAt: 1589714019880
