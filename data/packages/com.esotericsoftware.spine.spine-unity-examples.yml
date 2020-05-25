@@ -1,0 +1,18 @@
+name: com.esotericsoftware.spine.spine-unity-examples
+displayName: spine-unity Runtime Examples
+description: 2D skeletal animation runtimes for Spine.
+repoUrl: 'https://github.com/EsotericSoftware/spine-runtimes'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: SEE LICENSE IN LICENSE
+topics:
+  - 2d
+  - animation
+hunter: AKOM-Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/EsotericSoftware/spine-runtimes/raw/d4b29c34c746da0919e10799228ef338eba62691/spine-unity/Modules/com.esotericsoftware.spine.urp-shaders/Examples/3D/Spine%20Skeletons/RaptorURP/raptor.png
+readme: '3.8:README.md'
+createdAt: 1590447604034
