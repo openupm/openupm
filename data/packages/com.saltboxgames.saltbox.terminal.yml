@@ -11,7 +11,7 @@ topics:
 hunter: DustedHam
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.0.0
+minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1590422697236
