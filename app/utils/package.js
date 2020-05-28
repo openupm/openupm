@@ -66,6 +66,17 @@ const loadBuiltinPackageNames = async function() {
   }
 };
 
+// Load blocked scopes.
+const loadBlockedScopes = async function() {
+  try {
+    let absPath = path.resolve(dataDir, "blocked-scopes.yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8")).scopes;
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
+};
+
 // Verify package name.
 const packageExists = function(name) {
   let absPath = path.resolve(packagesDir, name + ".yml");
@@ -149,5 +160,6 @@ module.exports = {
   loadPackageSync,
   loadPackageNames,
   loadBuiltinPackageNames,
+  loadBlockedScopes,
   packageExists
 };

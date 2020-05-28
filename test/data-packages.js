@@ -9,12 +9,14 @@ const spdx = require("spdx-license-list");
 const {
   loadPackageNames,
   loadPackageSync,
-  loadTopics
+  loadTopics,
+  loadBlockedScopes
 } = require("../app/utils/package");
 
 describe("data/packages", async function() {
   const packageNames = await loadPackageNames();
   const validTopics = await loadTopics();
+  const blockedScopes = await loadBlockedScopes();
   describe("verify packages", function() {
     for (const packageName of packageNames) {
       it("verify " + packageName, async function() {
@@ -28,6 +30,10 @@ describe("data/packages", async function() {
           packageName,
           "pkg.name should be match with filename[.yml]"
         );
+        // Check blocked scopes
+        for (let scope of blockedScopes) {
+          should.ok(!pkg.name.startsWith(scope), `scope ${scope} is blocked.`);
+        }
         // check topics
         if (pkg.topics) {
           if (_.isString(pkg.topics)) pkg.topics = [pkg.topics];
