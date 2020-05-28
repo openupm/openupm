@@ -37,11 +37,19 @@ describe("data/packages", async function() {
           }
         }
         // check license
-        if (pkg.licenseSpdxId)
+        if (pkg.licenseSpdxId) {
           should.exist(
             spdx[pkg.licenseSpdxId],
             `licenseSpdxId ${pkg.licenseSpdxId} should be valid`
           );
+        }
+        // check image
+        if (pkg.image) {
+          should.ok(
+            /https?:\/\//i.test(pkg.image),
+            `image field should be a valid URL.`
+          );
+        }
       });
     }
   });
