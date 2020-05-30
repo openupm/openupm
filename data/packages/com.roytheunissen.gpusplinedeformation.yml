@@ -1,0 +1,22 @@
+name: com.roytheunissen.gpusplinedeformation
+displayName: GPU Spline Deformation
+description: >-
+  Baking spline deformation to a texture then applying it to a mesh via a
+  shader.
+repoUrl: 'https://github.com/RoyTheunissen/GPU-Spline-Deformation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - particles-and-effects
+  - modeling
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RoyTheunissen/GPU-Spline-Deformation/raw/7ddc0badf79119e44a52ee0b9605b42ec8a08b65/Documentation~/Example.gif
+readme: 'master:README.md'
+createdAt: 1590830113815
