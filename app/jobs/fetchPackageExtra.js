@@ -200,6 +200,8 @@ const aggregateExtraData = async function() {
     data.imageUrl = imageUrl || undefined;
     const updatedTime = await PackageExtra.getUpdatedTime(packageName);
     data.time = updatedTime || undefined;
+    const version = await PackageExtra.getVersion(packageName);
+    data.ver = version || undefined;
     aggData[packageName] = data;
   }
   await PackageExtra.setAggregatedExtraData(aggData);

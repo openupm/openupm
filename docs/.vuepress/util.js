@@ -147,6 +147,7 @@ const _packageUtils = {
     result.updatedAt = result.time || 0;
     result.pending = result.updatedAt == 0;
     result.image = result.imageUrl || pkg.image;
+    result.version = result.ver || undefined;
     return result;
   }
 };

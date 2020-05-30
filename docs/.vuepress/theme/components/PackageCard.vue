@@ -60,6 +60,9 @@
               <span v-if="pkg.stars" class="chip">
                 <i class="fa fa-star"></i>{{ pkg.stars }}
               </span>
+              <span v-if="pkg.version" class="chip">
+                <i class="fas fa-layer-group"></i>{{ pkg.version }}
+              </span>
               <span v-if="timeValue" class="chip">
                 <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
               </span>
