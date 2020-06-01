@@ -1,8 +1,9 @@
-name: com.bgtools.playerpreferenceseditor
-displayName: Player Preferences Editor
+name: com.bgtools.playerprefseditor
+displayName: PlayerPrefs Editor
 description: >-
   Tool extension for the Unity Editor that enables easy access to the player
-  preferences over a simple UI.
+  preferences over a simple UI. Allows to view, add, remove and modify
+  entries on the development machine.
 repoUrl: 'https://github.com/Dysman/bgTools-playerPrefsEditor'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
