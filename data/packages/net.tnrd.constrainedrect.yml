@@ -1,0 +1,17 @@
+name: net.tnrd.constrainedrect
+displayName: Constrained Rect
+description: A simple helper for constraining rects to windows and other rects
+repoUrl: 'https://github.com/Thundernerd/Unity3D-ConstrainedRect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591170411807
