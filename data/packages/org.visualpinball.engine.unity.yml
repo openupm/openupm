@@ -1,0 +1,19 @@
+name: org.visualpinball.engine.unity
+displayName: Visual Pinball Engine
+description: ':video_game: Visual Pinball Engine for C#'
+repoUrl: 'https://github.com/freezy/VisualPinball.Engine'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - level-design
+  - modeling
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/freezy/VisualPinball.Engine/raw/8825fc0cb1cf2ac286ddf28d24d1f5979870aebe/VisualPinball.Unity/mb_unity_teaser.jpg
+readme: 'master:README.md'
+createdAt: 1591289148628
