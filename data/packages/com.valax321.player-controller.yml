@@ -1,0 +1,16 @@
+name: com.valax321.player-controller
+displayName: Player Controller System
+description: First person player controller system for unity
+repoUrl: 'https://github.com/Valax321/PlayerController'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591288937634
