@@ -1,0 +1,19 @@
+name: com.seneral.undopro
+displayName: UndoPro
+description: >-
+  UndoPro is a command-based undo system integrated into Unity's default system.
+  This allows devs to use actions for their undo/redo operations without forcing
+  the user into a new undo-workflow!
+repoUrl: 'https://github.com/Seneral/UndoPro'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'release-pkg:README.md'
+createdAt: 1591312115356
