@@ -33,10 +33,12 @@
           </div>
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
-              <div v-if="$data.readmeRaw" class="readme-wrap">
-                <div v-html="readmeHtml"></div>
-              </div>
-              <p v-else class="readme-wrap">loading...</p>
+              <ClientOnly>
+                <div v-if="$data.readmeRaw" class="readme-wrap">
+                  <div v-html="readmeHtml"></div>
+                </div>
+                <p v-else class="readme-wrap">loading...</p>
+              </ClientOnly>
               <div class="divider"></div>
               <p><NavLink :item="editNavLink" /></p>
             </div>
