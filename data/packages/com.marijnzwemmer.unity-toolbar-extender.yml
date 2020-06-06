@@ -1,8 +1,8 @@
 name: com.marijnzwemmer.unity-toolbar-extender
 displayName: Toolbar Extender
 description: 'Extend the Unity Toolbar with your own Editor UI code.'
-repoUrl: 'https://github.com/bgr/unity-toolbar-extender'
-parentRepoUrl: 'https://github.com/marijnz/unity-toolbar-extender'
+repoUrl: 'https://github.com/marijnz/unity-toolbar-extender'
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
