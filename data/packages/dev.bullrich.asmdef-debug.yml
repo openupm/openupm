@@ -13,7 +13,7 @@ topics:
 hunter: Bullrich
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2018.4.8f1
+minVersion: ''
 image: 'https://raw.githubusercontent.com/Bullrich/Unity-Assembly-Debugger/master/.github/example.png'
 readme: 'master:README.md'
 createdAt: 1591385592902
