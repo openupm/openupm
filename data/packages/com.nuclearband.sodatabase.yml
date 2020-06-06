@@ -1,0 +1,17 @@
+name: com.nuclearband.sodatabase
+displayName: Scriptable Objest database
+description: Database for scriptable objects in Unity using Odin Inspector
+repoUrl: 'https://github.com/NuclearBand/UnityScriptableObjectDatabase'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1591483380778
