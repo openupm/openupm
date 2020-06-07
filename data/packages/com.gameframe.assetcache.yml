@@ -1,0 +1,16 @@
+name: com.gameframe.assetcache
+displayName: Gameframe.AssetCache
+description: Utility classes for caching and unloading assets such like textures
+repoUrl: 'https://github.com/coryleach/UnityAssetCache'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591558313952
