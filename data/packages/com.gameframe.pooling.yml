@@ -1,0 +1,16 @@
+name: com.gameframe.pooling
+displayName: Gameframe.Pooling
+description: Simple pooling solution for Unity
+repoUrl: 'https://github.com/coryleach/UnityPooling'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591558253065
