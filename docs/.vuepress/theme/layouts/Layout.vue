@@ -58,7 +58,7 @@ import Sidebar from "@parent-theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
 
 export default {
-  components: { AdBlock, Page, Sidebar, Navbar, Footer },
+  components: { AdBlock, GrowthBlock, Page, Sidebar, Navbar, Footer },
 
   data() {
     return {
