@@ -1,0 +1,16 @@
+name: com.gameframe.postprocessing
+displayName: Gameframe.PostProcessing
+description: 'Additional effects for Unity''s Post Processing stack. '
+repoUrl: 'https://github.com/coryleach/UnityPostProcessing'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591557882356
