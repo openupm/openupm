@@ -169,21 +169,30 @@ describe("app/jobs/buildPackage.js", function() {
         { tag: "namespace.module.a/2.0.0", commit: "11" }
       ]);
     });
-    it("prefix and ignore pattern", function() {
+    it("minVersion", function() {
       let names = filterRemoteTags({
         remoteTags: [
-          { tag: "namespace.core/1.0.0", commit: "10" },
-          { tag: "1.0.0-preview.0", commit: "11" },
-          { tag: "1.0.0-preview.1", commit: "12" },
-          { tag: "1.0.1", commit: "13" }
+          { tag: "v1.0.2", commit: "010" },
+          { tag: "v1.0.0", commit: "008" }
         ],
-        minVersion: "1.0.0-preview.0"
+        minVersion: "1.0.2"
       });
       names.should.deepEqual([
-        { tag: "1.0.0-preview.0", commit: "11" },
-        { tag: "1.0.0-preview.1", commit: "12" },
-        { tag: "1.0.1", commit: "13" }
+        {
+          tag: "v1.0.2",
+          commit: "010"
+        }
       ]);
+    });
+    it("minVersion and prefix", function() {
+      let names = filterRemoteTags({
+        remoteTags: [
+          { tag: "namespace.core/1.0.1", commit: "0004" },
+          { tag: "1.0.0-preview.1", commit: "0002" }
+        ],
+        minVersion: "1.0.1"
+      });
+      names.should.deepEqual([{ tag: "namespace.core/1.0.1", commit: "0004" }]);
     });
   });
   describe("getInvalidTags()", function() {

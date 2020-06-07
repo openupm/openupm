@@ -77,7 +77,13 @@ const filterRemoteTags = function({
   // Filter minVersion.
   if (minVersion) {
     try {
-      tags = tags.filter(x => semverCompare(x.tag, minVersion) >= 0);
+      tags = tags.filter(
+        x =>
+          semverCompare(
+            getVersionFromTag(x.tag),
+            getVersionFromTag(minVersion)
+          ) >= 0
+      );
       // eslint-disable-next-line no-empty
     } catch (error) {}
   }
@@ -93,7 +99,8 @@ const filterRemoteTags = function({
 };
 
 /**
- * Return invalid tags. Tags have been ignored or without then given prefix are not considered invalid.
+ * Return invalid tags. Tags have been ignored, without the given prefix, or filtered by
+ * minVersion are not considered invalid.
  */
 const getInvalidTags = function({
   remoteTags,
@@ -112,7 +119,13 @@ const getInvalidTags = function({
   }
   if (minVersion) {
     try {
-      tags = tags.filter(x => semverCompare(x.tag, minVersion) >= 0);
+      tags = tags.filter(
+        x =>
+          semverCompare(
+            getVersionFromTag(x.tag),
+            getVersionFromTag(minVersion)
+          ) >= 0
+      );
       // eslint-disable-next-line no-empty
     } catch (error) {}
   }
