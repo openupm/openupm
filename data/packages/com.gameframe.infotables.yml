@@ -1,0 +1,18 @@
+name: com.gameframe.infotables
+displayName: Gameframe.InfoTables
+description: >-
+  Unity package of ScriptableObjects for building static data info tables.
+  Generates enum source code for easy access of table entry ids.
+repoUrl: 'https://github.com/coryleach/UnityInfoTables'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591557505500
