@@ -1,0 +1,16 @@
+name: com.gameframe.saveload
+displayName: Gameframe.SaveLoad
+description: 'Quickly Save/Load data in Binary or Json formats, and Encrypt it in Unity'
+repoUrl: 'https://github.com/coryleach/UnitySaveLoad'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591558573885
