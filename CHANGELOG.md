@@ -1,3 +1,10 @@
+## [1.29.1](https://github.com/openupm/openupm/compare/1.29.0...1.29.1) (2020-06-07)
+
+
+### Bug Fixes
+
+* **pipelines:** minVersion should be parsed ([668dc18](https://github.com/openupm/openupm/commit/668dc1830d28fecaf42a7d21b38bb0aea4f56390))
+
 # [1.29.0](https://github.com/openupm/openupm/compare/1.28.0...1.29.0) (2020-05-23)
 
 
