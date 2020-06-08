@@ -11,6 +11,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://camo.githubusercontent.com/4cc9e1d67839d1c7070e6ff548b900f747ea9ebd/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303530322f32303139303530323138303333322e706e67'
 readme: 'master:README.md'
 createdAt: 1591628667875
