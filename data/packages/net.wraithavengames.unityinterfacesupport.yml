@@ -1,0 +1,19 @@
+name: net.wraithavengames.unityinterfacesupport
+displayName: Unity Interface Support
+description: >-
+  A simply implementation which allows for interface-type fields to be accepted
+  in the Unity inspector.
+repoUrl: 'https://github.com/Wraithaven-UnityTools/Unity-Interface-Support'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: TheDudeFromCI
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591602164696
