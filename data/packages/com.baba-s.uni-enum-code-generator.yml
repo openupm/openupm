@@ -1,0 +1,16 @@
+name: com.baba-s.uni-enum-code-generator
+displayName: UniEnumCodeGenerator
+description: 【Unity】列挙型のコードを生成するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniEnumCodeGenerator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591640114883
