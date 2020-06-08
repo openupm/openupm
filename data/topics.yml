@@ -13,8 +13,12 @@ topics:
   slug: asset-management
 - name: Camera
   slug: camera
+- name: Code Generation
+  slug: code-generation
 - name: Data Management
   slug: data-management
+- name: Debugging & Logging
+  slug: debugging-and-logging
 - name: DOTS & ECS
   slug: dots-and-ecs
 - name: Editor Enhancement
