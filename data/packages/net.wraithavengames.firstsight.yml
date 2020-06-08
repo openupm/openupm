@@ -9,7 +9,7 @@ topics:
   - camera
   - physics
   - utilities
-hunter: ''
+hunter: 'TheDudeFromCI'
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
