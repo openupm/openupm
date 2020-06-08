@@ -1,0 +1,16 @@
+name: com.baba-s.uni-clipboard
+displayName: UniClipboard
+description: 【Unity】文字列をクリップボードにコピーできるパッケージ
+repoUrl: 'https://github.com/baba-s/UniClipboard'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591634327375
