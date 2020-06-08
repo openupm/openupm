@@ -13,7 +13,7 @@ topics:
   slug: asset-management
 - name: Camera
   slug: camera
-  name: Code Generation
+- name: Code Generation
   slug: code-generation
 - name: Data Management
   slug: data-management
