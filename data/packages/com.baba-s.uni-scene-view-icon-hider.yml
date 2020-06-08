@@ -1,0 +1,16 @@
+name: com.baba-s.uni-scene-view-icon-hider
+displayName: UniSceneViewIconHider
+description: 【Unity】Scene ビューのアイコンをすべて非表示にすることができるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSceneViewIconHider'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/6134875/79827012-2e3ac700-83d8-11ea-81ad-a5e7246c4cd4.png'
+readme: 'master:README.md'
+createdAt: 1591578380018
