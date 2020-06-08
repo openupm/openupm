@@ -1,0 +1,16 @@
+name: com.baba-s.uni-sequence-task
+displayName: UniSequenceTask
+description: 【Unity】コールバックの直列実行・並列実行が可能なクラス
+repoUrl: 'https://github.com/baba-s/UniSequenceTask'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591649733430
