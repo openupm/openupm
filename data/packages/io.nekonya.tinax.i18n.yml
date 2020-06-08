@@ -1,0 +1,16 @@
+name: io.nekonya.tinax.i18n
+displayName: TinaX.I18N
+description: null
+repoUrl: 'https://github.com/yomunsam/TinaX.I18N'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: AGPLv3
+topics:
+  - localization
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591649126337
