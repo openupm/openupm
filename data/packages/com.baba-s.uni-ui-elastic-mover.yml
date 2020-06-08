@@ -1,0 +1,16 @@
+name: com.baba-s.uni-ui-elastic-mover
+displayName: UniElasticMover
+description: 【Unity】ぼよよんと出る動きを管理するクラス
+repoUrl: 'https://github.com/baba-s/UniElasticMover'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591651492035
