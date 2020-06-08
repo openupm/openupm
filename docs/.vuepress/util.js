@@ -2,8 +2,9 @@
 
 const $ = require("jquery");
 const marked = require("marked");
-const urljoin = require("url-join");
 const moment = require("moment");
+const highlightjs = require("highlight.js");
+const urljoin = require("url-join");
 
 const httpRe = /^https?:\/\//i;
 const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
@@ -97,6 +98,32 @@ const _markedUtils = {
         href = _urlUtils.convertToGitHubRawUrl(href);
       }
       return originalRendererImage(href, title, text);
+    };
+
+    // highlightjs: https://shuheikagawa.com/blog/2015/09/21/using-highlight-js-with-marked/
+    const escapeMap = {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    };
+    function escapeForHTML(input) {
+      return input.replace(/([&<>'"])/g, char => escapeMap[char]);
+    }
+    renderer.code = (code, language) => {
+      // Check whether the given language is valid for highlight.js.
+      const validLang = !!(language && highlightjs.getLanguage(language));
+
+      // Highlight only if the language is valid.
+      // highlight.js escapes HTML in the code, but we need to escape by ourselves
+      // when we don't use it.
+      const highlighted = validLang
+        ? highlightjs.highlight(language, code).value
+        : escapeForHTML(code);
+
+      // Render the highlighted code with `hljs` class.
+      return `<pre><code class="hljs ${language}">${highlighted}</code></pre>`;
     };
 
     return renderer;
