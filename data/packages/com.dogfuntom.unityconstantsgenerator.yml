@@ -9,5 +9,6 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
+  - code-generation
 hunter: starikcetin
 createdAt: 1576174716000
