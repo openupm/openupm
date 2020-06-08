@@ -7,7 +7,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-hunter: ''
+hunter: 'skibitsky'
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
