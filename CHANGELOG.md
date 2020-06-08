@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/openupm/openupm/compare/1.29.1...1.30.0) (2020-06-08)
+
+
+### Features
+
+* **website:** code highlighting of package README (close: [#606](https://github.com/openupm/openupm/issues/606)) ([dcdb95b](https://github.com/openupm/openupm/commit/dcdb95b26ce01bfdbc1de1586e4246e80cded6ec))
+
 ## [1.29.1](https://github.com/openupm/openupm/compare/1.29.0...1.29.1) (2020-06-07)
 
 
