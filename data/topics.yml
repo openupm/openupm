@@ -25,6 +25,8 @@ topics:
   slug: editor-enhancement
 - name: GUI
   slug: gui
+- name: Parallelism & Concurrency
+  slug: parallelism-and-concurrency
 - name: Particles & Effects
   slug: particles-and-effects
 - name: Input Management
