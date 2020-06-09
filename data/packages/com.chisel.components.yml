@@ -11,6 +11,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/RadicalCSG/Chisel.Prototype/master/chisel_example.png'
+image: 'https://raw.githubusercontent.com/RadicalCSG/Chisel.Prototype/master/Documentation/Images/chisel_example.png'
 readme: 'master:README.md'
 createdAt: 1589416620255
