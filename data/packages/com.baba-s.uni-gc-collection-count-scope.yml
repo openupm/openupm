@@ -1,0 +1,16 @@
+name: com.baba-s.uni-gc-collection-count-scope
+displayName: UniGCCollectionCountScope
+description: 【Unity】GC の発生回数を計測するクラス
+repoUrl: 'https://github.com/baba-s/UniGCCollectionCountScope'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591709526401
