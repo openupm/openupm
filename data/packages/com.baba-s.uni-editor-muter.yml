@@ -1,0 +1,17 @@
+name: com.baba-s.uni-editor-muter
+displayName: UniEditorMuter
+description: 【Unity】Unity プロジェクト起動時に Mute Audio をオフにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniEditorMuter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - audio
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591715834683
