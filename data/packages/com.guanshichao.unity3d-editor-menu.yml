@@ -1,0 +1,19 @@
+name: com.guanshichao.unity3d-editor-menu
+displayName: 'Unity3D Editor Menu'
+description: >-
+  Fluent style API for constructing custom editor menus presented using
+  `GenericMenu` by default although alternative presentation can be configured
+  for project.
+repoUrl: 'https://github.com/guanshichao/unity3d-editor-menu'
+parentRepoUrl: 'https://github.com/rotorz/unity3d-editor-menu'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725608204
