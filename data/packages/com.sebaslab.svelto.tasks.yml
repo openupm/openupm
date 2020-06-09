@@ -8,5 +8,6 @@ licenseName: MIT License
 topics:
   - dots-and-ecs
   - utilities
+  - parallelism-and-concurrency
 hunter: favoyang
 createdAt: 1578060145000
