@@ -1,11 +1,13 @@
 name: com.unity.editor.tasks
 displayName: Unity Editor Tasks
-description: null
+description: Unity.Editor.Tasks is a TPL-based task management library.
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.editor.tasks'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: []
+topics:
+  - parallelism-and-concurrency
+  - editor-enhancement
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
