@@ -5,7 +5,8 @@ repoUrl: 'https://github.com/Unity-Technologies/com.unity.editor.tasks'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: []
+topics:
+  - parallelism-and-concurrency
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
