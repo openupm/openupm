@@ -1,0 +1,17 @@
+name: codebundle
+displayName: CodeBundle
+description: "\U0001F5DCPackage for unity3d which allow load code and auto update application/game without reinstall"
+repoUrl: 'https://github.com/k0dep/CodeBundle'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725776959
