@@ -5,6 +5,7 @@ repoUrl: 'https://github.com/starikcetin/NuGetForUnity'
 parentRepoUrl: 'https://github.com/GlitchEnzo/NuGetForUnity'
 licenseSpdxId: MIT
 licenseName: MIT License
+image: 'https://raw.githubusercontent.com/starikcetin/NuGetForUnity/master/screenshots/online.png'
 topics:
   - package-management
 hunter: starikcetin
