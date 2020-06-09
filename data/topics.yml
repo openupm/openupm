@@ -3,6 +3,8 @@ topics:
   slug: 2d
 - name: AI
   slug: ai
+- name: Architecture
+  slug: architecture
 - name: AR & VR
   slug: ar-and-vr
 - name: Animation
