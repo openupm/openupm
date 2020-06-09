@@ -1,0 +1,16 @@
+name: com.guanshichao.unity3d-utils
+displayName: 'Unity 3D Utils'
+description: Common utility functionality for Unity game projects.
+repoUrl: 'https://github.com/guanshichao/unity3d-utils'
+parentRepoUrl: 'https://github.com/rotorz/unity3d-utils'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725518310
