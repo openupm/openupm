@@ -3,8 +3,6 @@ topics:
   slug: 2d
 - name: AI
   slug: ai
-- name: Architecture
-  slug: architecture
 - name: AR & VR
   slug: ar-and-vr
 - name: Animation
@@ -25,6 +23,8 @@ topics:
   slug: dots-and-ecs
 - name: Editor Enhancement
   slug: editor-enhancement
+- name: Frameworks
+  slug: frameworks
 - name: GUI
   slug: gui
 - name: Parallelism & Concurrency
