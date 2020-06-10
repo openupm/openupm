@@ -1,0 +1,18 @@
+name: com.unity.cli-project-setup
+displayName: Unity CLI Project Setup
+description: >-
+  Provides a command line parser and options to set editor, build, player, and
+  other Unity settings when running Unity from the command line
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.cli-project-setup'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591813802181
