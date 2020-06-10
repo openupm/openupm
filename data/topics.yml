@@ -23,6 +23,8 @@ topics:
   slug: dots-and-ecs
 - name: Editor Enhancement
   slug: editor-enhancement
+- name: Frameworks
+  slug: frameworks
 - name: GUI
   slug: gui
 - name: Parallelism & Concurrency
