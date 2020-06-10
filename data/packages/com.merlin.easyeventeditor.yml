@@ -5,12 +5,12 @@ description: >-
   listener reordering
 repoUrl: 'https://github.com/Merlin-san/EasyEventEditor'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image: 'https://camo.githubusercontent.com/0345709436250640ea7d7c4ae1745a1d15aacdb6/68747470733a2f2f692e696d6775722e636f6d2f574338484e69642e676966'
 createdAt: 1588012444615
