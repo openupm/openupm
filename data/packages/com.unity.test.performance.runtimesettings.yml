@@ -1,0 +1,21 @@
+name: com.unity.test.performance.runtimesettings
+displayName: Unity Performance Tests Runtime Settings
+description: >-
+  An entity class used to preserve settings from player build time for use
+  during runtime of a test.
+repoUrl: >-
+  https://github.com/Unity-Technologies/com.unity.test.performance.runtimesettings
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591814088875
