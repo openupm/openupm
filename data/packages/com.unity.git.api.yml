@@ -1,0 +1,17 @@
+name: com.unity.git.api
+displayName: Git for Unity API
+description: 'Git for Unity, a fork of GitHub for Unity '
+repoUrl: 'https://github.com/Unity-Technologies/Git-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591814665363
