@@ -13,4 +13,5 @@ hunter: tlauterbach
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:README.md'
 createdAt: 1585368565530
