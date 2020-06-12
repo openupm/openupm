@@ -12,6 +12,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Jodenbreestraat.png'
 readme: 'master:README.md'
 createdAt: 1591988192052
