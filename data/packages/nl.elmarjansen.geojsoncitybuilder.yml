@@ -1,0 +1,17 @@
+name: nl.elmarjansen.geojsoncitybuilder
+displayName: GeoJSON City Builder
+description: Unity Package to recreate a 3D-city from a specially crafted geojson file.
+repoUrl: 'https://github.com/ElmarJ/GeoJsonCityBuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591988192052
