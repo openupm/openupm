@@ -1,0 +1,20 @@
+name: com.unity.guid-based-reference
+displayName: GUID based reference
+description: >-
+  A component for giving Game Objects a GUID and a class to create references to
+  objects in any Scene by GUID
+repoUrl: 'https://github.com/Josef212/guid-based-reference'
+parentRepoUrl: 'https://github.com/Unity-Technologies/guid-based-reference'
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592069870462
