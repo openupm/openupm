@@ -1,0 +1,16 @@
+name: taras-osiris.better-defines
+displayName: Better Defines
+description: An easy and elegant way to manage your preprocessor directives in Unity3D
+repoUrl: 'https://github.com/d4160/Better-Defines'
+parentRepoUrl: 'https://github.com/TarasOsiris/Better-Defines'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592085551386
