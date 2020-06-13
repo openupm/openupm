@@ -1,0 +1,18 @@
+name: com.zios.completeframework
+displayName: Zios Framework
+description: >-
+  Provides the Unity Editor with adjustable, hot-swappable GUI themes across all
+  elements.
+repoUrl: 'https://github.com/z3nth10n/unity-themes'
+parentRepoUrl: 'https://github.com/zios/unity-themes'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://cloud.bradsmithee.com/Uniformity.jpg'
+readme: 'master:README.md'
+createdAt: 1592085008514
