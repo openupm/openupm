@@ -1,0 +1,16 @@
+name: com.bovinelabs.entities
+displayName: BovineLabs.Entities
+description: 'A collection of extensions, systems and jobs for Unity ECS.'
+repoUrl: 'https://github.com/tertle/com.bovinelabs.entities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592176724262
