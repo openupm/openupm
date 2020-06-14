@@ -8,6 +8,7 @@ licenseName: Mozilla Public License 2.0
 topics:
   - editor-enhancement
   - utilities
+  - debugging-and-logging
 hunter: DustedHam
 gitTagPrefix: ''
 gitTagIgnore: ''
