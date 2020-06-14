@@ -1,0 +1,17 @@
+name: com.thelebaron.damage
+displayName: damage
+description: Demo showcasing destructible walls in Unity.
+repoUrl: 'https://github.com/thelebaron/Destructibles'
+parentRepoUrl: 'https://github.com/ElasticSea/Destructible-Walls'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'dots:README.md'
+createdAt: 1592145018347
