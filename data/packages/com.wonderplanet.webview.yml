@@ -1,0 +1,18 @@
+name: com.wonderplanet.webview
+displayName: UnityWebview
+description: 'unity-webview is a plugin for Unity 5 that overlays WebView components on Unity view.'
+repoUrl: 'https://github.com/Wonderplanet/unity-webview'
+parentRepoUrl: 'https://github.com/gree/unity-webview'
+licenseSpdxId: Zlib
+licenseName: zlib License
+topics:
+  - gui
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'staging/upm:README.md'
+createdAt: 1592171802107
