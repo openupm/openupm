@@ -1,0 +1,19 @@
+name: com.unity.xr-line-renderer
+displayName: XR Line Renderer
+description: >-
+  An XR-Focused line renderer that mimics rendering with 3d capsules while only
+  using two quads worth of geometry.
+repoUrl: 'https://github.com/Unity-Technologies/XRLineRenderer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - ar-and-vr
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592166666278
