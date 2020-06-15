@@ -1,0 +1,17 @@
+name: dev.bullrich.folder-cleaner
+displayName: Folder Cleaner
+description: Remove empty folders from the Editor
+repoUrl: 'https://github.com/Bullrich/UnityFolderCleaner'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - version-control
+hunter: Bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592215266404
