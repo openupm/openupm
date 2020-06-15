@@ -1,0 +1,20 @@
+name: com.yasirkula.iosfilepicker
+displayName: iOS File Picker
+description: >-
+  A native Unity plugin to import/export files from/to iCloud and other document
+  providers on iOS
+repoUrl: 'https://github.com/yasirkula/UnityiOSFilePicker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1592252898017
