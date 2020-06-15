@@ -4,7 +4,7 @@ description: >-
   Tool for validating objects (eg. GameObjects, ScriptableObjects, etc) in the
   Unity Editor.
 repoUrl: 'https://github.com/innerspacetrainings/DTValidator'
-parentRepoUrl: 'https://github.com/MarleneMayr/DTValidator'
+parentRepoUrl: 'https://github.com/DarrenTsung/DTValidator'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
