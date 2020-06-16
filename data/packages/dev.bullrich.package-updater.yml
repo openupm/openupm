@@ -1,0 +1,18 @@
+name: dev.bullrich.package-updater
+displayName: Package Updater
+description: Utility to update several packages at once
+repoUrl: 'https://github.com/Bullrich/UnityPackageUpdater'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+  - version-control
+hunter: Bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/Bullrich/UnityPackageUpdater/master/.github/preview.png'
+readme: 'master:README.md'
+createdAt: 1592327733495
