@@ -8,7 +8,7 @@ licenseName: MPL-2.0
 topics:
   - editor-enhancement
   - utilities
-hunter: dustedham
+hunter: DustedHam
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
