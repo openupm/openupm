@@ -1,12 +1,12 @@
 name: com.rsg.promise
 displayName: 'C# Promise'
-description: null
+description: "Promises library for C# for management of asynchronous operations. Inspired by JavaScript promises, but slightly different."
 repoUrl: 'https://github.com/RoryDungan/C-Sharp-Promise-UPM'
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
 licenseName: 'MIT License'
 topics:
-  - utilities
+  - parallelism-and-concurrency
 hunter: RoryDungan
 gitTagPrefix: ''
 gitTagIgnore: ''
