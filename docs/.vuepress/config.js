@@ -253,5 +253,6 @@ module.exports = {
   },
   alias: {
     "@root": path.resolve(__dirname, "../../")
-  }
+  },
+  shouldPrefetch: () => false
 };
