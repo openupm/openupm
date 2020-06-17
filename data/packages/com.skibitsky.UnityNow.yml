@@ -1,0 +1,17 @@
+name: com.skibitsky.UnityNow
+displayName: unity-now
+description: ▲ Vercel Now plugin for Unity. Deploy WebGL builds with ease
+repoUrl: 'https://github.com/skibitsky/unity-now'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/skibitsky/unity-now/raw/5004dba06e1e3f314fd7214b8e3a424a7268b523/.github/logo.png
+readme: 'upm:README.md'
+createdAt: 1592410784223
