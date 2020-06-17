@@ -1,0 +1,17 @@
+name: com.unity.scripting.assembly-tools
+displayName: Assembly Tools
+description: 'Assembly Definition Tools '
+repoUrl: 'https://github.com/karljj1/com.unity.scripting.assembly-tools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/karljj1/com.unity.scripting.assembly-tools/raw/e77d08b4715f7365cc5fd34175392f11e56aa44d/Documentation~/images/example.png
+readme: 'master:README.md'
+createdAt: 1592411342417
