@@ -1,0 +1,17 @@
+name: jp.keijiro.klak.timeline.particle-system-control
+displayName: Klak Particle System Control
+description: An example of controlling particle system from timeline.
+repoUrl: 'https://github.com/keijiro/TimelineParticleControl'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592496455396
