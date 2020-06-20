@@ -1,0 +1,20 @@
+name: com.quickeye.uitoolkitplus
+displayName: QuickEye UI Toolkit Plus
+description: >-
+  Library mostly made of of extension methods. Created to cut down the
+  boilerplate code, that I wrote in every UI Toolkit related scripts.
+repoUrl: 'https://github.com/ErnSur/UI-Toolkit-Plus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: ErnSur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592662533723
