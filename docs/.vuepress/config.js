@@ -250,6 +250,13 @@ module.exports = {
       .test(/\.ya?ml$/)
       .use("js-yaml-loader")
       .loader("js-yaml-loader");
+    if (process.env.WEBPACK_BUNDLE_ANALYZER && !isServer) {
+      const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
+      config
+        .plugin("webpack-bundle-analyzer")
+        .use(BundleAnalyzerPlugin)
+        .init(Plugin => new Plugin());
+    }
   },
   alias: {
     "@root": path.resolve(__dirname, "../../")

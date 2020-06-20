@@ -69,7 +69,8 @@
     "vuepress-plugin-social-share": "^0.2.0",
     "vuepress-plugin-table-of-contents": "^1.1.4",
     "vuex": "^3.2.0",
-    "vuex-persistedstate": "^3.0.1"
+    "vuex-persistedstate": "^3.0.1",
+    "webpack-bundle-analyzer": "^3.8.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
