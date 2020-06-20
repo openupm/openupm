@@ -1,3 +1,10 @@
+## [1.30.1](https://github.com/openupm/openupm/compare/1.30.0...1.30.1) (2020-06-20)
+
+
+### Performance Improvements
+
+* **website:** optimize relate packages to reduce the siteData.js size ([ba61f05](https://github.com/openupm/openupm/commit/ba61f0562b8fdeb8d3efd29761be4a508569f6dc))
+
 # [1.30.0](https://github.com/openupm/openupm/compare/1.29.1...1.30.0) (2020-06-08)
 
 
