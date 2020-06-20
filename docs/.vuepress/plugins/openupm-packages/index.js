@@ -171,9 +171,14 @@ module.exports = function(options, context) {
             ? `📦 ${pkg.displayName} - ${pkg.name}`
             : `📦 ${pkg.name}`,
           package: pkg,
-          relatedPackages: data.packageByNamespace[
-            getNamespace(pkg.name)
-          ].filter(x => x.name != pkg.name),
+          relatedPackages: data.packageByNamespace[getNamespace(pkg.name)]
+            .filter(x => x.name != pkg.name)
+            .map(x => {
+              return {
+                name: x.name,
+                text: x.link.text
+              };
+            }),
           topics: (pkg.topics || [])
             .map(x => {
               const topic = data.topics.find(t => t.slug == x);

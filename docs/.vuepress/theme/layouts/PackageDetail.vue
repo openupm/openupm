@@ -473,7 +473,15 @@ export default {
       return util.joinPackageExtra(pkg, extra);
     },
     $relatedPackages() {
-      return this.$page.frontmatter.relatedPackages;
+      return this.$page.frontmatter.relatedPackages.map(x => {
+        return {
+          name: x.name,
+          link: {
+            text: x.text,
+            link: `/packages/${x.name}/`
+          }
+        };
+      });
     },
     $topics() {
       return this.$page.frontmatter.topics;
