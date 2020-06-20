@@ -231,6 +231,10 @@ module.exports = {
         image: ($page, $site) => {
           if ($page.frontmatter.image)
             return ($site.themeConfig.domain || "") + $page.frontmatter.image;
+          else if ($page.frontmatter.package && $page.frontmatter.package.image)
+            return (
+              ($site.themeConfig.domain || "") + $page.frontmatter.package.image
+            );
           else
             return (
               ($site.themeConfig.domain || "") + "/images/openupm-twitter.png"
