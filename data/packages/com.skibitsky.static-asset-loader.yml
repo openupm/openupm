@@ -1,0 +1,16 @@
+name: com.skibitsky.static-asset-loader
+displayName: Static Asset Loader
+description: Load asset from any project directory by type
+repoUrl: 'https://github.com/skibitsky/static-asset-loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592754541653
