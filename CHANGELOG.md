@@ -1,3 +1,10 @@
+## [1.30.4](https://github.com/openupm/openupm/compare/1.30.3...1.30.4) (2020-06-21)
+
+
+### Bug Fixes
+
+* **pipelines:** fix pm2 configure ([c31a5fa](https://github.com/openupm/openupm/commit/c31a5faada34b63ebce46e014d426d04150e33f0))
+
 ## [1.30.3](https://github.com/openupm/openupm/compare/1.30.2...1.30.3) (2020-06-21)
 
 
