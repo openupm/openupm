@@ -1,3 +1,12 @@
+## [1.30.2](https://github.com/openupm/openupm/compare/1.30.1...1.30.2) (2020-06-21)
+
+
+### Performance Improvements
+
+* **backend:** move readme rendering to backend ([4b45686](https://github.com/openupm/openupm/commit/4b456868d06ae91b9df7cfe14c6755625e85b64d))
+* **website:** optimize lodash and date-fns library sizes ([a53b2af](https://github.com/openupm/openupm/commit/a53b2af968a4a0fe0a1a64fbdca266124844c345))
+* **website:** remove flowchart plugin ([24321c2](https://github.com/openupm/openupm/commit/24321c2506486a767f9041f3d235fd1f454942c7))
+
 ## [1.30.1](https://github.com/openupm/openupm/compare/1.30.0...1.30.1) (2020-06-20)
 
 
