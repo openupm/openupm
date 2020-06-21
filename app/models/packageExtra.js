@@ -9,6 +9,7 @@
 const redis = require("../db/redis");
 
 const allPackagesExtraKey = "pkgs:extra";
+const recentPackagesKey = "pkgs:recent";
 const packageKey = "pkg:";
 const propKeys = {
   imageUrl: "imageUrl",
@@ -131,24 +132,43 @@ const getAggregatedExtraData = async function() {
   return jsonText === null ? {} : JSON.parse(jsonText);
 };
 
+/**
+ * Set recent packages.
+ * @param {object} obj
+ */
+const setRecentPackages = async function(arr) {
+  const jsonText = JSON.stringify(arr, null, 0);
+  await redis.client.set(recentPackagesKey, jsonText);
+};
+
+/**
+ * Get recent packages.
+ */
+const getRecentPackages = async function() {
+  const jsonText = await redis.client.get(recentPackagesKey);
+  return jsonText === null ? [] : JSON.parse(jsonText);
+};
+
 module.exports = {
   getAggregatedExtraData,
   getImageUrl,
   getInvalidTags,
+  getParentStars,
   getReadme,
   getReadmeHtml,
+  getRecentPackages,
   getStars,
-  getParentStars,
   getUnityVersion,
   getUpdatedTime,
   getVersion,
   setAggregatedExtraData,
   setImageUrl,
   setInvalidTags,
+  setParentStars,
   setReadme,
   setReadmeHtml,
+  setRecentPackages,
   setStars,
-  setParentStars,
   setUnityVersion,
   setUpdatedTime,
   setVersion

@@ -19,10 +19,12 @@ export function getStore(isServer) {
       plugins,
       state: {
         packagesExtra: [],
+        recentPackages: [],
         preferHorizontalLayout: false
       },
       getters: {
         packagesExtra: state => state.packagesExtra,
+        recentPackages: state => state.recentPackages,
         preferHorizontalLayout: state => state.preferHorizontalLayout
       },
       actions: {
@@ -40,6 +42,19 @@ export function getStore(isServer) {
             console.error(error);
           }
         },
+        async fetchRecentPackages({ commit }) {
+          try {
+            const resp = await axios.get(
+              urljoin(util.openupmPackagesApiUrl, "recent"),
+              {
+                headers: { Accept: "application/json" }
+              }
+            );
+            commit("setRecentPackages", resp.data);
+          } catch (error) {
+            console.error(error);
+          }
+        },
         setPreferHorizontalLayout({ commit }, { value }) {
           commit("setPreferHorizontalLayout", value);
         }
@@ -47,6 +62,9 @@ export function getStore(isServer) {
       mutations: {
         setPackagesExtra: (state, data) => {
           state.packagesExtra = data;
+        },
+        setRecentPackages: (state, data) => {
+          state.recentPackages = data;
         },
         setPreferHorizontalLayout: (state, preferHorizontalLayout) => {
           state.preferHorizontalLayout = preferHorizontalLayout;

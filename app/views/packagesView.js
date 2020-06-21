@@ -24,6 +24,14 @@ router.get("/extra", async function(req, res) {
 });
 
 /**
+ * Get recent packages.
+ */
+router.get("/recent", async function(req, res) {
+  const data = await PackageExtra.getRecentPackages();
+  res.json(data);
+});
+
+/**
  * Get package info for given package name.
  */
 router.get("/:name", async function(req, res) {

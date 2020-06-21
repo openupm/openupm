@@ -45,7 +45,7 @@ manifest updated, please open unity project to apply changes
 openupm-cli requires [Node.js 12](https://nodejs.org/en/)
 :::
 
-<ClientOnly><PackageRecent :count="6" /></ClientOnly>
+<ClientOnly><PackageRecent /></ClientOnly>
 
 <social-share />
 

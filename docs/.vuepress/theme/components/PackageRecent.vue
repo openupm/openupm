@@ -37,35 +37,28 @@
 </template>
 
 <script>
-import { orderBy } from "lodash/collection";
 import PackageCard from "@theme/components/PackageCard.vue";
 import PackageControl from "@theme/components/PackageControl.vue";
-import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { PackageCard, PackageControl },
-  props: {
-    count: {
-      type: Number,
-      default: 3
-    }
-  },
   data() {
     return {};
   },
   computed: {
-    packagesExtra() {
-      return this.$store.getters.packagesExtra;
-    },
     packages() {
-      let pkgs = this.$page.packages.map(x => {
-        return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
-      });
-      pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
-      return pkgs.slice(0, this.count);
+      return this.$store.getters.recentPackages;
     },
     preferHorizontalLayout() {
       return this.$store.getters.preferHorizontalLayout;
+    }
+  },
+  mounted() {
+    this.fetchRecentPackages();
+  },
+  methods: {
+    fetchRecentPackages() {
+      this.$store.dispatch("fetchRecentPackages");
     }
   }
 };

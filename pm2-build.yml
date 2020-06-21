@@ -32,3 +32,14 @@ apps:
     max_memory_restart: 512M
     cron_restart: "*/30 * * * *"
     autorestart: false
+  - name: recent-packages
+    instance_var: recent-packages
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/updateRecentPackages.js
+    args: --all
+    error_file: ./logs/recent-packages-error.log
+    out_file: ./logs/recent-packages.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/15 * * * *"
+    autorestart: false

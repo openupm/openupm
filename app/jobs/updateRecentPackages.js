@@ -1,0 +1,64 @@
+/**
+ * Update recent packages
+ **/
+
+const PackageExtra = require("../models/packageExtra");
+const {
+  loadPackageNames,
+  loadPackage,
+  packageExists
+} = require("../utils/package");
+const { orderBy } = require("lodash/collection");
+const logger = require("../utils/log")(module);
+
+/**
+ * Update recent packages
+ */
+const updateRecentPackages = async function() {
+  logger.info("updateRecentPackages");
+  const packageNames = await loadPackageNames();
+  const aggData = await PackageExtra.getAggregatedExtraData();
+  let objs = [];
+  for (let packageName of packageNames) {
+    // Verify package
+    if (!packageExists(packageName)) {
+      logger.error({ pkg: packageName }, "package doesn't exist");
+      continue;
+    }
+    const pkg = await loadPackage(packageName);
+    const extra = aggData[pkg.name] || {};
+    const result = joinPackageExtra(pkg, extra);
+    objs.push(result);
+  }
+  objs = orderBy(objs, ["updatedAt"], ["desc"]);
+  objs = objs.slice(0, 6);
+  await PackageExtra.setRecentPackages(objs);
+};
+
+// Join package with extra data.
+const joinPackageExtra = function(pkg, extra) {
+  if (!extra) {
+    extra = {};
+  }
+  const result = {
+    ...pkg,
+    ...extra
+  };
+  result.createdAt = result.createdAt || 0;
+  result.updatedAt = result.time || 0;
+  result.pending = result.updatedAt == 0;
+  result.image = result.imageUrl || pkg.image;
+  result.version = result.ver || undefined;
+  result.link = {
+    text: pkg.displayName || pkg.name,
+    link: `/packages/${pkg.name}/`
+  };
+  return result;
+};
+
+if (require.main === module) {
+  let program = require("../utils/commander");
+  program.parse(process.argv).run(async function() {
+    await updateRecentPackages();
+  });
+}

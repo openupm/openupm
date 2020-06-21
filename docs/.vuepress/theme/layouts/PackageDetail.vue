@@ -675,28 +675,6 @@ export default {
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
     },
-    handleRepoReadme() {
-      const titleLine = "# " + this.packageName + "\n";
-      let readmeRaw = this.packageInfo.readme;
-      if (readmeRaw) {
-        // Insert h1 if need.
-        if (
-          !/^# /m.test(readmeRaw) &&
-          !/^===/m.test(readmeRaw) &&
-          !/^<h1/m.test(readmeRaw)
-        ) {
-          readmeRaw = titleLine + readmeRaw;
-        }
-        this.$data.readmeRaw = readmeRaw;
-      } else {
-        // Rollback to default readme.
-        this.$data.readmeRaw = `${titleLine}
-${this.$package.description}
-
-See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
-`;
-      }
-    },
     async fetchPackageInfo() {
       try {
         let resp = await axios.get(

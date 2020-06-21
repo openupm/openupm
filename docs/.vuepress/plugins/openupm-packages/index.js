@@ -24,13 +24,7 @@ module.exports = function(options, context) {
 
     clientRootMixin: path.resolve(__dirname, "clientRootMixin.js"),
 
-    async extendPageData($page) {
-      if ($page.path == "/") {
-        const data = await plugin.getData();
-        $page.packageCount = data.packageNames.length;
-        $page.packages = data.packages;
-      }
-    },
+    // async extendPageData($page) {},
 
     async additionalPages() {
       const data = await plugin.getData();
