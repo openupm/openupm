@@ -214,7 +214,6 @@ module.exports = {
     // ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
-    "flowchart",
     [
       "vuepress-plugin-social-share",
       {

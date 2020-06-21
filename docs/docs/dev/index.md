@@ -51,14 +51,6 @@ Since OpenUPM has it's own way to organize the package list, the verdaccio websi
 
 OpenUPM watches the package curated list regularly detects new contents and uses the job queue to build packages through [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
 
-@flowstart
-stage1=>operation: Cron
-stage2=>operation: Job queue
-stage3=>operation: Azure Pipelines
-
-stage1(right)->stage2(right)->stage3
-@flowend
-
 ### Job Queue
 
 OpenUPM uses [Bee-Queue](https://github.com/bee-queue/bee-queue) to manage the job queue.

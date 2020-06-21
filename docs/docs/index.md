@@ -21,14 +21,11 @@ However, the downside of the scoped registry is that you need [maintain the scop
 
 To solve the issue, as the first step, a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like Bash for Mac/Linux, or Git-Bash, CMD, and PowerShell for Windows.
 
-@flowstart
-cli=>operation: OpenUPM-CLI
-manifest=>operation: Update manifest.json
-upm=>end: Unity resolves manifest.json
-
-cli(right)->manifest
-manifest(right)->upm
-@flowend
+```
++-----+   update   +---------------+   resolve   +-----+
+| CLI | ---------> | manifest.json | <---------+ | UPM |
++-----+            +---------------+             +-----+
+```
 
 ```sh
 # Install openupm-cli

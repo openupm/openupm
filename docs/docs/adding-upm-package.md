@@ -77,14 +77,11 @@ Package hunters can use the [package add form](/packages/add/), to submit the pa
 
 The pull request of adding a new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at URL `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
 
-@flowstart
-form=>operation: Fill the package form
-pr=>operation: Start a pull request
-ci=>operation: Wait the CI
-
-form->pr
-pr->ci
-@flowend
+```
++--------------+      +--------------+      +---------+
+| Package Form | +--> | Pull Request | +--> | Wait CI |
++--------------+      +--------------+      +---------+
+```
 
 ## Troubleshooting
 
