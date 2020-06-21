@@ -1,3 +1,10 @@
+## [1.30.5](https://github.com/openupm/openupm/compare/1.30.4...1.30.5) (2020-06-21)
+
+
+### Bug Fixes
+
+* **website:** fix og:image ([25f675e](https://github.com/openupm/openupm/commit/25f675ed22bf1d6ae73027b6b91d37d775865a06))
+
 ## [1.30.4](https://github.com/openupm/openupm/compare/1.30.3...1.30.4) (2020-06-21)
 
 
