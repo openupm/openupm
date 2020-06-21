@@ -2,7 +2,7 @@
 
 export default {
   mounted() {
-    this.fetchPackagesExtra({ force: true });
+    this.fetchPackagesExtra({ force: false });
   },
 
   watch: {
