@@ -1,7 +1,7 @@
 name: com.skibitsky.scene-reference
 displayName: Scene Reference
 description: Custom property that allows to reference scene asset directly from the Editor
-repoUrl: 'https://github.com/skibitsky/SceneReference'
+repoUrl: 'https://github.com/skibitsky/scene-reference'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
