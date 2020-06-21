@@ -1,14 +1,7 @@
 // Util
 
-const $ = require("jquery");
 const formatDistanceToNow = require("date-fns/formatDistanceToNow").default;
-
-const marked = require("marked");
-const highlightjs = require("highlight.js");
 const urljoin = require("url-join");
-
-const httpRe = /^https?:\/\//i;
-const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
 
 const _urlUtils = {
   // OpenUPM API URL
@@ -40,6 +33,7 @@ const _urlUtils = {
 
   // Convert GitHub URL to GitHub raw URL
   convertToGitHubRawUrl: function(url) {
+    const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
     if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
     return url;
   },
@@ -58,88 +52,6 @@ const _urlUtils = {
 
   // OpenUPM repository URL
   openupmRepoUrl: "https://github.com/openupm/openupm"
-};
-
-const _markedUtils = {
-  // Get customized marked renderer.
-  markedRenderer: function({
-    linkBaseUrl,
-    linkBaseRelativeUrl,
-    imageBaseUrl,
-    imageBaseRelativeUrl
-  }) {
-    const renderer = new marked.Renderer();
-    const originalRendererLink = renderer.link.bind(renderer);
-    const originalRendererImage = renderer.image.bind(renderer);
-
-    renderer.link = (href, title, text) => {
-      if (href.startsWith("#")) {
-        return `<a href='${href}'>${text}</a>`;
-      }
-      if (!httpRe.test(href)) {
-        if (href.startsWith("/")) {
-          href = urljoin(linkBaseUrl, href);
-        } else {
-          href = urljoin(linkBaseRelativeUrl, href);
-        }
-      }
-      let link = originalRendererLink(href, title, text);
-      link = link.replace("<a", '<a rel="noopener noreferrer"');
-      return link;
-    };
-
-    renderer.image = (href, title, text) => {
-      if (!httpRe.test(href)) {
-        if (href.startsWith("/")) {
-          href = urljoin(imageBaseUrl, href);
-        } else {
-          href = urljoin(imageBaseRelativeUrl, href);
-        }
-      } else {
-        href = _urlUtils.convertToGitHubRawUrl(href);
-      }
-      return originalRendererImage(href, title, text);
-    };
-
-    // highlightjs: https://shuheikagawa.com/blog/2015/09/21/using-highlight-js-with-marked/
-    const escapeMap = {
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#39;"
-    };
-    function escapeForHTML(input) {
-      return input.replace(/([&<>'"])/g, char => escapeMap[char]);
-    }
-    renderer.code = (code, language) => {
-      // Check whether the given language is valid for highlight.js.
-      const validLang = !!(language && highlightjs.getLanguage(language));
-
-      // Highlight only if the language is valid.
-      // highlight.js escapes HTML in the code, but we need to escape by ourselves
-      // when we don't use it.
-      const highlighted = validLang
-        ? highlightjs.highlight(language, code).value
-        : escapeForHTML(code);
-
-      // Render the highlighted code with `hljs` class.
-      return `<pre><code class="hljs ${language}">${highlighted}</code></pre>`;
-    };
-
-    return renderer;
-  },
-
-  // Post-processing markdown html
-  postMarkdown: function(html, { imageBaseRelativeUrl }) {
-    const root = $(`<div>${html}</div>`);
-    root.find("img").attr("src", (idx, attr) => {
-      if (attr === undefined) return undefined;
-      if (!httpRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
-      return attr;
-    });
-    return root.html();
-  }
 };
 
 const _pageUtils = {
@@ -182,7 +94,6 @@ const _packageUtils = {
 
 export default {
   ..._urlUtils,
-  ..._markedUtils,
   ..._pageUtils,
   ..._timeUtils,
   ..._packageUtils

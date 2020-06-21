@@ -36,9 +36,9 @@ router.get("/:name", async function(req, res) {
   let invalidTags = await PackageExtra.getInvalidTags(packageName);
   invalidTags = invalidTags.map(x => x.tag);
   // Get readme
-  let readme = await PackageExtra.getReadme(packageName);
+  let readmeHtml = await PackageExtra.getReadmeHtml(packageName);
   // Return as JSON
-  let data = { releases, invalidTags, readme };
+  let data = { releases, invalidTags, readmeHtml };
   res.json(data);
 });
 

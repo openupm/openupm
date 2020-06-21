@@ -14,6 +14,7 @@ const propKeys = {
   imageUrl: "imageUrl",
   invalidTags: "invalidTags",
   readme: "readme",
+  readmeHtml: "readmeHtml",
   stars: "stars",
   parentStars: "pstars",
   unityVersion: "unity",
@@ -76,6 +77,15 @@ const getReadme = async function(packageName) {
   return text;
 };
 
+const setReadmeHtml = async function(packageName, readmeHtml) {
+  await setValue(packageName, propKeys.readmeHtml, readmeHtml);
+};
+
+const getReadmeHtml = async function(packageName) {
+  const text = await getValue(packageName, propKeys.readmeHtml);
+  return text;
+};
+
 const setImageUrl = async function(packageName, imageUrl) {
   await setValue(packageName, propKeys.imageUrl, imageUrl);
 };
@@ -126,6 +136,7 @@ module.exports = {
   getImageUrl,
   getInvalidTags,
   getReadme,
+  getReadmeHtml,
   getStars,
   getParentStars,
   getUnityVersion,
@@ -135,6 +146,7 @@ module.exports = {
   setImageUrl,
   setInvalidTags,
   setReadme,
+  setReadmeHtml,
   setStars,
   setParentStars,
   setUnityVersion,

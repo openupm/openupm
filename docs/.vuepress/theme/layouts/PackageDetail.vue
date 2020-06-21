@@ -34,7 +34,7 @@
           <div class="column col-8 col-sm-12">
             <div class="theme-default-content">
               <ClientOnly>
-                <div v-if="$data.readmeRaw" class="readme-wrap">
+                <div v-if="readmeHtml" class="readme-wrap">
                   <div v-html="readmeHtml"></div>
                 </div>
                 <p v-else class="readme-wrap">loading...</p>
@@ -346,7 +346,6 @@
 import axios from "axios";
 import escape from "escape-html";
 import copy from "copy-to-clipboard";
-import marked from "marked";
 import { noCase } from "change-case";
 import urljoin from "url-join";
 
@@ -357,7 +356,6 @@ import util from "@root/docs/.vuepress/util";
 
 const defaultData = function() {
   return {
-    readmeRaw: "",
     packageInfo: {
       fetched: false
     },
@@ -597,33 +595,7 @@ export default {
       return `[![openupm](${this.badgeVersionImageUrl})](${this.badgeUrl})`;
     },
     readmeHtml() {
-      if (!this.$data.readmeRaw) return "";
-      else {
-        const linkBaseUrl = urljoin(
-          this.$package.repoUrl,
-          "blob/" + this.$package.readmeBranch
-        );
-        const linkBaseRelativeUrl = urljoin(
-          this.$package.repoUrl,
-          "blob/" + this.$package.readmeBase
-        );
-        const imageBaseUrl = urljoin(
-          this.$package.repoUrl,
-          "raw/" + this.$package.readmeBranch
-        );
-        const imageBaseRelativeUrl = urljoin(
-          this.$package.repoUrl,
-          "raw/" + this.$package.readmeBase
-        );
-        const renderer = util.markedRenderer({
-          linkBaseUrl,
-          linkBaseRelativeUrl,
-          imageBaseUrl,
-          imageBaseRelativeUrl
-        });
-        const html = marked(this.$data.readmeRaw, { renderer });
-        return util.postMarkdown(html, { imageBaseRelativeUrl });
-      }
+      return this.$data.packageInfo.readmeHtml;
     },
     repoNavLink() {
       return {
@@ -739,7 +711,6 @@ See more in the [${this.$package.repo}](${this.$package.repoUrl}) repository.
       } finally {
         this.$data.packageInfo.fetched = true;
       }
-      this.handleRepoReadme();
     },
     async fetchRegistryInfo() {
       try {

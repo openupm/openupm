@@ -12,6 +12,7 @@ const {
   loadPackage,
   packageExists
 } = require("../utils/package");
+const { renderMarkdownToHtml } = require("../utils/markdown");
 const { AxiosService } = require("../utils/http");
 const logger = require("../utils/log")(module);
 
@@ -171,6 +172,8 @@ const _fetchReadme = async function(pkg, packageName) {
     );
     const text = resp.data;
     await PackageExtra.setReadme(packageName, text);
+    const html = await renderMarkdownToHtml({ pkg, markdown: text });
+    await PackageExtra.setReadmeHtml(packageName, html);
   } catch (error) {
     logger.error(errorInfo(error, { pkg: packageName }), "fetch readme error");
   }
