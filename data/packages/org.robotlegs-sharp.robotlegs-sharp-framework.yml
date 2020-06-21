@@ -1,0 +1,16 @@
+name: org.robotlegs-sharp.robotlegs-sharp-framework
+displayName: Robotlegs-Sharp
+description: An C# application framework. Ported from Robotlegs for ActionScript 3.
+repoUrl: 'https://github.com/iDreamsOfGame/robotlegs-sharp-framework'
+parentRepoUrl: 'https://github.com/robotlegs-sharp/robotlegs-sharp-framework'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592736547412
