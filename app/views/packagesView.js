@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 var semver = require("semver");
-const { pick } = require("lodash");
+const { pick } = require("lodash/object");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");

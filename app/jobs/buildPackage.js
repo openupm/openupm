@@ -1,7 +1,7 @@
 // Build package job
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
-const { differenceBy } = require("lodash");
+const { differenceBy } = require("lodash/array");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");

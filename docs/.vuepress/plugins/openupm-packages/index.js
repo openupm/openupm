@@ -1,5 +1,6 @@
 // OpenUPM Package Plugin.
-const _ = require("lodash");
+const { countBy, flatMap, groupBy, sortBy } = require("lodash/collection");
+const { toPairs } = require("lodash/object");
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
@@ -69,9 +70,7 @@ module.exports = function(options, context) {
             return 0;
           });
         // Namespace => [package...] dict.
-        const packageByNamespace = _.groupBy(packages, x =>
-          getNamespace(x.name)
-        );
+        const packageByNamespace = groupBy(packages, x => getNamespace(x.name));
         // Load topics.
         const topicsWithAll = [{ name: "All", slug: "" }]
           .concat(await loadTopics())
@@ -89,7 +88,7 @@ module.exports = function(options, context) {
         const topics = topicsWithAll.slice(1);
         // contributors
         const getConstributors = function(type) {
-          const entries = _.flatMap(packages, pkg => {
+          const entries = flatMap(packages, pkg => {
             if (type == "hunter") return [pkg.hunter];
             else if (type == "owner") {
               let arr = [pkg.owner];
@@ -101,12 +100,12 @@ module.exports = function(options, context) {
               return arr;
             } else return [];
           }).filter(x => x && x != "-");
-          const counted = _.countBy(entries);
-          const pairs = _.toPairs(counted).map(x => ({
+          const counted = countBy(entries);
+          const pairs = toPairs(counted).map(x => ({
             user: x[0],
             count: x[1]
           }));
-          return _.sortBy(pairs, "count").reverse();
+          return sortBy(pairs, "count").reverse();
         };
         // Package hunters
         const hunters = getConstributors("hunter");
@@ -118,7 +117,7 @@ module.exports = function(options, context) {
         );
         const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
         // // Recent packages
-        // const recentAddedPackages = _.orderBy(packages, ["createdAt"], ["desc"])
+        // const recentAddedPackages = orderBy(packages, ["createdAt"], ["desc"])
         //   .filter(x => !x.excludedFromList)
         //   .slice(0, 10);
         // eslint-disable-next-line require-atomic-updates

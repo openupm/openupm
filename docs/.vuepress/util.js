@@ -1,8 +1,9 @@
 // Util
 
 const $ = require("jquery");
+const formatDistanceToNow = require("date-fns/formatDistanceToNow").default;
+
 const marked = require("marked");
-const moment = require("moment");
 const highlightjs = require("highlight.js");
 const urljoin = require("url-join");
 
@@ -155,7 +156,7 @@ const _pageUtils = {
 const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
-    return moment(date).fromNow();
+    return formatDistanceToNow(date);
   }
 };
 

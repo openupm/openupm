@@ -3,7 +3,7 @@
 const assert = require("assert");
 const should = require("should");
 const rewire = require("rewire");
-const _ = require("lodash");
+const { isString } = require("lodash/lang");
 const redis = require("../app/db/redis");
 const spdx = require("spdx-license-list");
 const {
@@ -36,7 +36,7 @@ describe("data/packages", async function() {
         }
         // check topics
         if (pkg.topics) {
-          if (_.isString(pkg.topics)) pkg.topics = [pkg.topics];
+          if (isString(pkg.topics)) pkg.topics = [pkg.topics];
           for (const topic of pkg.topics) {
             const found = validTopics.find(x => x.slug == topic);
             should.exist(found, `topic ${topic} should be valid`);

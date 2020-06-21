@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import _ from "lodash";
+import { orderBy } from "lodash/collection";
 import PackageCard from "@theme/components/PackageCard.vue";
 import PackageControl from "@theme/components/PackageControl.vue";
 import util from "@root/docs/.vuepress/util";
@@ -61,7 +61,7 @@ export default {
       let pkgs = this.$page.packages.map(x => {
         return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
-      pkgs = _.orderBy(pkgs, ["updatedAt"], ["desc"]);
+      pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
       return pkgs.slice(0, this.count);
     },
     preferHorizontalLayout() {

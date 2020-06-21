@@ -140,7 +140,9 @@
 </template>
 
 <script>
-import _ from "lodash";
+import { orderBy } from "lodash/collection";
+import { reverse, uniq } from "lodash/array";
+import { trim } from "lodash/string";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
@@ -229,13 +231,13 @@ export default {
       }
       // Sort
       if (this.sort == SortType.updatedAt)
-        pkgs = _.orderBy(pkgs, ["updatedAt"], ["desc"]);
+        pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
       else if (this.sort == SortType.createdAt)
-        pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
+        pkgs = orderBy(pkgs, ["createdAt"], ["desc"]);
       else if (this.sort == SortType.pop)
-        pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
+        pkgs = orderBy(pkgs, ["stars"], ["desc"]);
       else if (this.sort == SortType.name)
-        pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
+        pkgs = orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
     },
 
@@ -297,10 +299,10 @@ export default {
     unityOptions() {
       let unityList = Object.entries(this.packagesExtra).map(
         // eslint-disable-next-line no-unused-vars
-        ([key, value]) => _.trim(value.unity)
+        ([key, value]) => trim(value.unity)
       );
-      unityList = _.reverse(
-        _.uniq(unityList)
+      unityList = reverse(
+        uniq(unityList)
           // Remove empty element.
           .filter(x => x)
           // Sort.

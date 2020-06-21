@@ -4,7 +4,7 @@
  *     feed content
  */
 
-const _ = require("lodash");
+const { orderBy } = require("lodash/collection");
 const config = require("config");
 const { Feed } = require("feed");
 const redis = require("../db/redis");
@@ -28,7 +28,7 @@ const feedRecentUpdateKey = "feed:update:";
  */
 const setFeedRecentUpdate = async function(objs) {
   // Sort by time.
-  objs = _.orderBy(objs, ["time"], ["desc"]);
+  objs = orderBy(objs, ["time"], ["desc"]);
   // Generate the feed.
   const feed = new Feed({
     title: "OpenUPM Recent Updates",
