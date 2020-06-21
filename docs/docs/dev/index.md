@@ -68,6 +68,12 @@ OpenUPM uses [VuePress](https://vuepress.vuejs.org) - a static website generator
 yarn docs:dev
 ```
 
+To enable webpack bundle analyzer:
+
+```bash
+WEBPACK_BUNDLE_ANALYZER=1 yarn docs:build
+```
+
 ## Website Backend
 
 OpenUPM uses [Express](http://expressjs.com/) to develop website backend (API).
