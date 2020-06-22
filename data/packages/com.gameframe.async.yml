@@ -10,6 +10,6 @@ topics:
   - parallelism-and-concurrency
 hunter: favoyang
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-a'
 image: null
 createdAt: 1585498525419
