@@ -9,7 +9,7 @@ topics:
   - dots-and-ecs
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-rc'
 minVersion: ''
 image: >-
   https://github.com/X-Crew/Morpeh/raw/371a4ee13c1cf3c23c8b3c16b2a167580f288fe4/Gifs~/create_installer.gif
