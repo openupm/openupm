@@ -1,4 +1,4 @@
-name: com.skibitsky.UnityNow
+name: com.skibitsky.unity-now
 displayName: unity-now
 description: ▲ Vercel Now plugin for Unity. Deploy WebGL builds with ease
 repoUrl: 'https://github.com/skibitsky/unity-now'
