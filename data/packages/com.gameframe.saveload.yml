@@ -9,7 +9,7 @@ topics:
   - data-management
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-a'
 minVersion: ''
 image: null
 readme: 'master:README.md'
