@@ -1,0 +1,18 @@
+name: com.unity.streaming-image-sequence
+displayName: Streaming Image Sequence
+description: A package for playing sequential image sequences in Unity Timeline
+repoUrl: 'https://github.com/unity3d-jp/StreamingImageSequence'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - 2d
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/unity3d-jp/StreamingImageSequence/raw/f9340e044c680dadd76434fb0c5e383c704b20e4/Documentation~/images/StreamingImageSequenceDemo.gif
+readme: 'master:README.md'
+createdAt: 1593019546285
