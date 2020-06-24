@@ -1,0 +1,20 @@
+name: com.unity.meshsync
+displayName: MeshSync
+description: >-
+  A package for synchronizing meshes/models editing in DCC tools into Unity in
+  real time.
+repoUrl: 'https://github.com/unity3d-jp/MeshSync'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/unity3d-jp/MeshSync/raw/04c9810c126953707dfcf1c1335d43a5d1626eb7/Documentation~/images/Demo.gif
+readme: 'master:README.md'
+createdAt: 1593019683060
