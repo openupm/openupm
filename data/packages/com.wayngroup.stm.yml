@@ -1,0 +1,19 @@
+name: com.wayngroup.stm
+displayName: Script Template Manager
+description: >-
+  An Unity Editor extension  that allows to create,edit and share custom script
+  templates
+repoUrl: 'https://github.com/WAYNGROUP/ScriptTemplateManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593006824067
