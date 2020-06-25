@@ -16,5 +16,5 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://github.com/unity3d-jp/MeshSync/raw/04c9810c126953707dfcf1c1335d43a5d1626eb7/Documentation~/images/Demo.gif
-readme: 'master:README.md'
+readme: 'dev:Readme.md'
 createdAt: 1593019683060
