@@ -3,8 +3,8 @@ displayName: Trimmer
 description: 'An editor, build and player configuration framework for the Unity game engine.'
 repoUrl: 'https://github.com/sttz/trimmer'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - data-management
@@ -13,6 +13,6 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image: 'https://camo.githubusercontent.com/b59f087c629fcb12977c2a5d3a94dd8cda17849a/68747470733a2f2f7374747a2e63682f7472696d6d65722f696d616765732f6275696c645f70726f66696c652e706e67'
 readme: 'master:README.md'
 createdAt: 1588874072133
