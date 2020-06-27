@@ -1,0 +1,16 @@
+name: d4160.data_persistence-helper-system
+displayName: Unity Data Persistence Helper System
+description: null
+repoUrl: 'https://github.com/d4160/Unity-DataPersistence-Helper-System'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593281090296
