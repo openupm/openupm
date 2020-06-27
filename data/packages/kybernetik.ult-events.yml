@@ -1,0 +1,17 @@
+name: kybernetik.ult-events
+displayName: UltEvents
+description: 'UltEvents allows you to easily setup and configure persistent event callbacks via the Inspector. It serves the same purpose as the inbuilt UnityEvents, but has superior features with fewer restrictions and an improved Inspector interface which requires fewer clicks to perform individual tasks.'
+repoUrl: 'https://github.com/d4160/UltEvents'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://img.itch.zone/aW1hZ2UvNTgxODgwLzMwNjc5MDMucG5n/original/R4d3GR.png'
+readme: 'upm:Documentation~/README.md'
+createdAt: 1593276673080
