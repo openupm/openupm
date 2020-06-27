@@ -1,0 +1,16 @@
+name: com.random-poison.ghost-buster
+displayName: Ghost Buster
+description: Remove references to Boo and UnityScript assemblies in a Unity project.
+repoUrl: 'https://github.com/randomPoison/ghost-buster'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: randomPoison
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593289220364
