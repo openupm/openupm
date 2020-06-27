@@ -11,6 +11,6 @@ hunter: laicasaane
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 3.0.0
-image: null
+image: 'https://github.com/redbluegames/unity-text-typer/raw/master/README-Images/ss_chat_watermarked.gif'
 readme: 'upm:README.md'
 createdAt: 1593237495295
