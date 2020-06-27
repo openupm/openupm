@@ -1,0 +1,19 @@
+name: unity-xr-input-helper-system
+displayName: Unity XR Input Helper System
+description: >-
+  Input helper classes and methods for XR devices using the UnityEngine.XR
+  namespace.
+repoUrl: 'https://github.com/d4160/Unity-XR-Input-Helper-System'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1593288419998
