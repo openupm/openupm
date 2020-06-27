@@ -1,0 +1,19 @@
+name: pixelplacement.surge
+displayName: Surge
+description: The unity asset 'Surge' of PixelPlacement changed a bit to support UPM.
+repoUrl: 'https://github.com/d4160/Surge'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+  - network
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/d85f19d8-6fa1-4d92-b693-f8a425167c82.webp'
+readme: 'master:README.md'
+createdAt: 1593296832897
