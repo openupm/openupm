@@ -5,14 +5,14 @@ description: >-
   objects as subassets.
 repoUrl: 'https://github.com/d4160/UnityExtensions.InspectInline'
 parentRepoUrl: 'https://github.com/garettbass/UnityExtensions.InspectInline'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - editor-enhancement
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
-readme: 'master:README.md'
+image: 'https://raw.githubusercontent.com/d4160/UnityExtensions.InspectInline/upm/Documentation%7E/Before-After.png'
+readme: 'upm:README.md'
 createdAt: 1588908554394
