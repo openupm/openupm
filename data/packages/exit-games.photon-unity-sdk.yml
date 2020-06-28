@@ -12,5 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://www.photonengine.com/Content/unity-packages/PUN-LogoTeaser-FREE.jpg'
-readme: 'master:README.md'
+readme: 'upm:README.md'
 createdAt: 1593276990585
