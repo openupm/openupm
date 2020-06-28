@@ -11,7 +11,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/karljj1/com.unity.scripting.assembly-tools/raw/e77d08b4715f7365cc5fd34175392f11e56aa44d/Documentation~/images/example.png
+image: null
 readme: 'master:README.md'
 createdAt: 1592411342417
