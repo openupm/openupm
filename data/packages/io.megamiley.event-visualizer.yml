@@ -1,5 +1,5 @@
 name: io.megamiley.event-visualizer
-displayName: OpenUPMBase
+displayName: Event Visualizer
 description: 'Visualize UnityEvent calls within the editor, both incoming and outgoing.'
 repoUrl: 'https://github.com/MileyHollenberg/EventVisualizer'
 parentRepoUrl: null
