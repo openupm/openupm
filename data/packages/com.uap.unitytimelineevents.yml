@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/UnityAssetPackages/UnityTimelineEvents'
 parentRepoUrl: 'https://github.com/georgejecook/UnityTimelineEvents'
 licenseSpdxId: null
-licenseName: Unknown
+licenseName: ''
 topics:
   - animation
 hunter: JesseTG
