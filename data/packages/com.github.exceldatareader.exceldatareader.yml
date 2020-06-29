@@ -6,10 +6,11 @@ parentRepoUrl: 'https://github.com/ExcelDataReader/ExcelDataReader'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor-enhancement
-  - utilities
+  - data-management
+  - integration
 hunter: iDreamsOfGame
-gitTagPrefix: upm
+gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'upm:README.md'
 createdAt: 1586668745136
