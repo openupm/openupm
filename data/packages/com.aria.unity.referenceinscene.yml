@@ -1,0 +1,17 @@
+name: com.aria.unity.referenceinscene
+displayName: FindReferenceInScene
+description: 'Component, reference search within the hierarchy of GameObject.'
+repoUrl: 'https://github.com/TK-Aria/FindReferenceInScene'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593645223994
