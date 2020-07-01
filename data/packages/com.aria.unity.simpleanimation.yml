@@ -1,0 +1,16 @@
+name: com.aria.unity.simpleanimation
+displayName: SimpleAnimation
+description: A simple Animation Component that leverages PlayableGraphs
+repoUrl: 'https://github.com/TK-Aria/SimpleAnimation'
+parentRepoUrl: 'https://github.com/Unity-Technologies/SimpleAnimation'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593645726687
