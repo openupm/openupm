@@ -5,13 +5,13 @@ description: >-
   SerializableTuple) for Unity
 repoUrl: 'https://github.com/TK-Aria/SerializableDictionary'
 parentRepoUrl: 'https://github.com/neuecc/SerializableDictionary'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image: 'https://cloud.githubusercontent.com/assets/46207/13866974/da6f9fac-ec77-11e5-93a7-a8eb43c08680.png'
 readme: 'master:README.md'
 createdAt: 1588910025960
