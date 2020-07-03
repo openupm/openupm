@@ -1,0 +1,19 @@
+name: jp.hadashikick.vcontainer
+displayName: VContainer
+description: >-
+  The extra fast, minimum code size, GC-free DI (Dependency Inject) library
+  running on Unity (IL2CPP).
+repoUrl: 'https://github.com/hadashiA/VContainer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/hadashiA/VContainer/raw/a93c8aa1d9a84d211448744a180903bfa780b020/docs/screenshot_validate_button.png
+readme: 'master:README.md'
+createdAt: 1593740728465
