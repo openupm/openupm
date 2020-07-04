@@ -1,0 +1,16 @@
+name: dev.upm-packages.cafu-core
+displayName: CAFU Core
+description: Clean Architecture For Unity
+repoUrl: 'https://github.com/umm/cafu_core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593892696089
