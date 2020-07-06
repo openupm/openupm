@@ -1,0 +1,19 @@
+name: com.playfab.editorextensions
+displayName: PlayFabEditorExtensions
+description: >-
+  The home for PlayFab's Unity Editor plugin. This plugin houses a custom
+  inspector for viewing and configuring the PlayFab SDK.
+repoUrl: 'https://github.com/kamyker/PlayFabUnityEditorExtensions'
+parentRepoUrl: 'https://github.com/PlayFab/UnityEditorExtensions'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/kamyker/PlayFabUnityEditorExtensions/master/_repoAssets/img/EdEx_Project.png'
+readme: 'master:README.md'
+createdAt: 1594005922761
