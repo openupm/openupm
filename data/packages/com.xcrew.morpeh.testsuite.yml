@@ -1,0 +1,16 @@
+name: com.xcrew.morpeh.testsuite
+displayName: Morpeh.TestSuite
+description: Test for Morpeh Framework.
+repoUrl: 'https://github.com/X-Crew/Morpeh.TestSuite'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'feature/unsafe:README.MD'
+createdAt: 1594057836405
