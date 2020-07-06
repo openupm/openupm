@@ -1,0 +1,16 @@
+name: ks.unitydarkenthemer
+displayName: UnityDarkenThemer
+description: null
+repoUrl: 'https://github.com/kamyker/UnityDarkenThemer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/37404c9e2bc0038fce359abf1b95a57da5e0cfdf/68747470733a2f2f692e6779617a6f2e636f6d2f34623038656234653538626335666233643830643532333133356435393530322e706e67'
+readme: 'master:README.md'
+createdAt: 1594004871073
