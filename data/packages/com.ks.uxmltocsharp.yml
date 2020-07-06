@@ -1,6 +1,6 @@
 name: com.ks.uxmltocsharp
 displayName: Uxml To C#
-description: null
+description: 'Plugin that generates helper C# classes based on uxml files in Unity. It may be considered as a very simple and automatic alternative to UxmlFactory.'
 repoUrl: 'https://github.com/kamyker/UnityUxmlToCsharp'
 parentRepoUrl: null
 licenseSpdxId: MIT
