@@ -1,0 +1,17 @@
+name: com.xcrew.morpeh.baker
+displayName: Morpeh.Baker
+description: Mesh Animator for Morpeh ECS
+repoUrl: 'https://github.com/X-Crew/Morpeh.Baker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+createdAt: 1594057909409
