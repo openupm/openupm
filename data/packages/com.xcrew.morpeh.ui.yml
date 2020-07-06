@@ -1,0 +1,18 @@
+name: com.xcrew.morpeh.ui
+displayName: Morpeh.UI
+description: UI Framework for Morpeh ECS
+repoUrl: 'https://github.com/X-Crew/Morpeh.UI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594006242662
