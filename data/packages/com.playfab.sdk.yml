@@ -1,0 +1,16 @@
+name: com.playfab.sdk
+displayName: PlayFabSDK
+description: Unity C# SDKs for PlayFab
+repoUrl: 'https://github.com/kamyker/PlayFabUnitySDK'
+parentRepoUrl: 'https://github.com/PlayFab/UnitySDK'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/kamyker/PlayFabUnityEditorExtensions/master/_repoAssets/img/EdEx_Project.png'
+readme: 'master:README.md'
+createdAt: 1594005441028
