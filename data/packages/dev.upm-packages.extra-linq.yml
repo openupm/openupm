@@ -1,0 +1,16 @@
+name: dev.upm-packages.extra-linq
+displayName: Extra LINQ
+description: ExtraLINQ provides a set of extension methods for various .NET sequence types.
+repoUrl: 'https://github.com/umm/extra_linq'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594152003984
