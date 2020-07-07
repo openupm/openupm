@@ -1,0 +1,16 @@
+name: com.andrewraphaellukasik.basicscience
+displayName: Basic Science
+description: Structures and syntax to help with scientific calculations
+repoUrl: 'https://github.com/andrew-raphael-lukasik/basic-science'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1594089935142
