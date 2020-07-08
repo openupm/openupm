@@ -1,0 +1,16 @@
+name: dev.upm-packages.canvas-resizer
+displayName: Canvas Resizer
+description: 'Automatic resize Canvas by screen resolution'
+repoUrl: 'https://github.com/umm/canvas_resizer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594181192335
