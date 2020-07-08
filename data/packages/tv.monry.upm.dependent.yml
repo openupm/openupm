@@ -1,0 +1,16 @@
+name: tv.monry.upm.dependent
+displayName: Monry Dependent
+description: Dependent package for Unity Package Manager
+repoUrl: 'https://github.com/monry/upm-dependent'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594235515228
