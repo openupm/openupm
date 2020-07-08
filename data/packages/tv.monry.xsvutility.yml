@@ -1,0 +1,16 @@
+name: tv.monry.xsvutility
+displayName: XsvUtility
+description: 'XsvUtility has serializer and deserializer for CSV, TSV.'
+repoUrl: 'https://github.com/monry/upm.XsvUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594235448458
