@@ -1,0 +1,16 @@
+name: dev.upm-packages.animationevent-dispatcher
+displayName: AnimationEvent Dispatcher
+description: Dispatch AnimationEvent by Animation
+repoUrl: 'https://github.com/umm/animationevent_dispatcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594180520992
