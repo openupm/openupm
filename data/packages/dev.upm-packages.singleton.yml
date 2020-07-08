@@ -1,0 +1,16 @@
+name: dev.upm-packages.singleton
+displayName: Singleton
+description: Provide Singleton accessor to any class.
+repoUrl: 'https://github.com/umm/singleton'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594185988513
