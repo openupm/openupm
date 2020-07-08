@@ -1,0 +1,16 @@
+name: com.unity.mgobe
+displayName: MGOBE
+description: null
+repoUrl: 'https://github.com/Unity-Technologies/MGOBE'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594217588112
