@@ -1,5 +1,5 @@
-name: com.vovgou.loxodon-framework
-displayName: Loxodon Framework
+name: com.vovgou.loxodon-framework-obfuscation
+displayName: Loxodon Framework Obfuscation
 description: >-
   A MVVM framework for game development on the Unity3D,which supports lua and C#
   language.
@@ -9,14 +9,12 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - frameworks
-  - gui
-  - integration
-  - localization
+  - utilities
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 2.0.0-preview
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:README_EN.md'
-createdAt: 1594357225028
+readme: 'v2.0.0:Loxodon.Framework.Obfuscation/README.md'
+createdAt: 1594358579743

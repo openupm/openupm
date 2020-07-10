@@ -1,5 +1,5 @@
-name: com.vovgou.loxodon-framework
-displayName: Loxodon Framework
+name: com.vovgou.loxodon-framework-log4net
+displayName: Loxodon Framework Log4Net
 description: >-
   A MVVM framework for game development on the Unity3D,which supports lua and C#
   language.
@@ -8,15 +8,15 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
+  - debugging-and-logging
   - frameworks
-  - gui
   - integration
-  - localization
+  - utilities
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.0.0-preview
+minVersion: ''
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:README_EN.md'
-createdAt: 1594357225028
+readme: 'v2.0.0:Loxodon.Framework.Log4Net/README.MD'
+createdAt: 1594375319319
