@@ -1,0 +1,21 @@
+name: com.vovgou.loxodon-framework-localization-csv
+displayName: Loxodon Framework Localization CSV
+description: >-
+  A MVVM framework for game development on the Unity3D,which supports lua and C#
+  language.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+  - localization
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0-preview
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'v2.0.0:README.md'
+createdAt: 1594358910349
