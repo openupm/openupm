@@ -17,5 +17,5 @@ gitTagIgnore: ''
 minVersion: 2.0.0-preview
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:README.md'
-createdAt: 1594358910349
+readme: 'v2.0.0:Loxodon.Framework.LocalizationsForCsv/README.md'
+createdAt: 1594357877042
