@@ -1,0 +1,16 @@
+name: com.unity.assetbundlemanager
+displayName: Asset Bundle Manager
+description: A simple asset bundle manager you can use with AssetBundle Graph Tool.
+repoUrl: 'https://github.com/hiroki-o/AssetBundleManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: '1.4/release:README.md'
+createdAt: 1594412435006
