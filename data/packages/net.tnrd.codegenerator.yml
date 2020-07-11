@@ -1,6 +1,6 @@
 name: net.tnrd.codegenerator
 displayName: Code Generator
-description: null
+description: A collection of classes to help with code generation
 repoUrl: 'https://github.com/Thundernerd/Unity3D-CodeGenerator'
 parentRepoUrl: null
 licenseSpdxId: MIT
