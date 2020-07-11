@@ -1,6 +1,6 @@
 name: net.tnrd.layertagsgenerator
 displayName: Layer & Tags Generator
-description: null
+description: Code generators for Layers and Tags
 repoUrl: 'https://github.com/Thundernerd/Unity3D-LayersTagsGenerator'
 parentRepoUrl: null
 licenseSpdxId: MIT
