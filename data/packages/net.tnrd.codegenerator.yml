@@ -1,0 +1,16 @@
+name: net.tnrd.codegenerator
+displayName: Code Generator
+description: null
+repoUrl: 'https://github.com/Thundernerd/Unity3D-CodeGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594478800813
