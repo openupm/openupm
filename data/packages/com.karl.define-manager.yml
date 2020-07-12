@@ -1,0 +1,17 @@
+name: com.karl.define-manager
+displayName: Define Manager
+description: Easily manage global defines in Unity.
+repoUrl: 'https://github.com/karl-/UnityDefineManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/karl-/UnityDefineManager/raw/7fded22fa8c771ea5201e2ddb96b24b6c1c943a8/platform-defines.png
+readme: 'master:README.md'
+createdAt: 1594576173770
