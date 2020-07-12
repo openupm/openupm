@@ -1,0 +1,17 @@
+name: com.unity.karl.debug
+displayName: "Karl's Debug Stuff"
+description: 'Various editor tools that I regularly use when working in the Unity editor.'
+repoUrl: 'https://github.com/karl-/editor-tools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594572747100
