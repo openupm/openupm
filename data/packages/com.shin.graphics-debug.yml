@@ -1,6 +1,6 @@
 name: com.shin.graphics-debug
 displayName: Shin Graphics Debug
-description: null
+description: 'Tools/Scripts to debug graphics'
 repoUrl: 'https://github.com/sindharta/unity-graphics-debug'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
