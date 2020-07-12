@@ -1,0 +1,17 @@
+name: org.shin.package_debug
+displayName: Package Debug
+description: 'Tools/Scripts to debug package-related stuffs'
+repoUrl: 'https://github.com/sindharta/unity_package_debug'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - package-management
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594524883134
