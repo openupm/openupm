@@ -1,0 +1,18 @@
+name: com.devsisters.betterstreamingassets
+displayName: 'A plugin for Unity that lets you access Streaming Assets directly on Android. '
+description: A plugin for Unity that enabled direct Streaming Access on Android
+repoUrl: 'https://github.com/JamesKim2998/BetterStreamingAssets'
+parentRepoUrl: 'https://github.com/devsisters/BetterStreamingAssets'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'package:README.md'
+createdAt: 1594571615064
