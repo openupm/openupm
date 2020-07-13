@@ -1,0 +1,17 @@
+name: net.tnrd.enumasindex
+displayName: Enum As Index
+description: An attribute that allows you to use an enum as an index for arrays and lists
+repoUrl: 'https://github.com/Thundernerd/Unity3D-EnumAsIndex'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594673119135
