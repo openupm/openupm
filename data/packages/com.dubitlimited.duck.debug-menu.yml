@@ -1,0 +1,17 @@
+name: com.dubitlimited.duck.debug-menu
+displayName: Duck Debug Menu
+description: A prebuilt DebugMenu that includes typically needed debugging features.
+repoUrl: 'https://github.com/dubit/unity-debug-menu'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/dubit/unity-debug-menu/raw/9481e8262c0fbc955a56ab6d5d80e7170f10e844/Sprites/dubi-duck.png
+readme: 'master:README.md'
+createdAt: 1594683666916
