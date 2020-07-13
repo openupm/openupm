@@ -1,0 +1,16 @@
+name: com.baba-s.uni-ui-monkey-tester
+displayName: UniUIMonkeyTester
+description: 【Unity】UI のモンキーテストを行うためのクラス
+repoUrl: 'https://github.com/baba-s/UniUIMonkeyTester'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594654705065
