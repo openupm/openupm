@@ -1,0 +1,25 @@
+name: com.jiangyin.gameframework
+displayName: Game Framework
+description: >-
+  This is literally a game framework, based on Unity game engine. It
+  encapsulates commonly used game modules during development, and, to a large
+  degree, standardises the process, enhances the development speed and ensures
+  the product quality.
+repoUrl: 'https://github.com/EllanJiang/UnityGameFramework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - data-management
+  - frameworks
+  - gui
+  - localization
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/51b846383e1939929aa13e422b76b50af6f4d79b/68747470733a2f2f67616d656672616d65776f726b2e636e2f696d6167652f67616d656672616d65776f726b2e706e67'
+readme: 'master:README.md'
+createdAt: 1594654570167
