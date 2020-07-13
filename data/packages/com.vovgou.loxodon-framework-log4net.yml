@@ -14,7 +14,7 @@ topics:
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.0.0-preview
+minVersion: 2.0.0-preview.2
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
 readme: 'v2.0.0:Loxodon.Framework.Log4Net/README.MD'
