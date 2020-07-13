@@ -1,0 +1,18 @@
+name: com.dubitlimited.duck.hierarchy-behaviour
+displayName: Duck Hierarchy Behaviour
+description: >-
+  A quick way to create a MonoBehaviour as a child object that includes an
+  Initialize method with or without arguments that are type-safe.
+repoUrl: 'https://github.com/dubit/unity-hierarchy-behaviour'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'development:README.md'
+createdAt: 1594683435828
