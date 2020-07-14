@@ -9,7 +9,7 @@ topics:
   - editor-enhancement
   - input-management
 hunter: JesseTG
-gitTagPrefix: v
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
