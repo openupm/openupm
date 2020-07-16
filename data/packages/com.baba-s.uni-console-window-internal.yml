@@ -1,0 +1,17 @@
+name: com.baba-s.uni-console-window-internal
+displayName: UniConsoleWindowInternal
+description: 【Unity】Console ウィンドウの internal な機能を呼び出せるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniConsoleWindowInternal'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594868472440
