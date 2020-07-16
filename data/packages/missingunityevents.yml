@@ -1,0 +1,23 @@
+name: missingunityevents
+displayName: Missing Unity Events
+description: >-
+  Editor extension to generate events that are executed before property set, eg.
+  Transform-position, Transform-rotation, Transform-parent which allows to write
+  more event driven code or debug property changes that are not simple to track
+  down. Easily customisable to allow adding events to different property setters
+  / types.
+repoUrl: 'https://github.com/handzlikchris/Unity.MissingUnityEvents'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/handzlikchris/Unity.MissingUnityEvents/raw/6ec296db87022417d06d58b15fea4f9731b352f9/Docs~/Images/MainImage.jpg
+readme: 'master:README.md'
+createdAt: 1594919760878
