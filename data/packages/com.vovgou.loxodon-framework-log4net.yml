@@ -17,5 +17,5 @@ gitTagIgnore: ''
 minVersion: 2.0.0-preview.2
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:Loxodon.Framework.Log4Net/README.MD'
+readme: 'v2.0.0:Loxodon.Framework.Log4Net/README.md'
 createdAt: 1594375319319
