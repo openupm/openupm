@@ -1,0 +1,16 @@
+name: com.zor.random-generators
+displayName: Random Generators
+description: A collection of random generators for Unity.
+repoUrl: 'https://github.com/ZorPastaman/Random-Generators'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595006415465
