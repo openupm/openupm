@@ -1,8 +1,7 @@
 name: com.vovgou.loxodon-framework-obfuscation
 displayName: Loxodon Framework Obfuscation
 description: >-
-  A MVVM framework for game development on the Unity3D,which supports lua and C#
-  language.
+  This is a library that supports memory obfuscation of numeric types, it ensures that your sensitive data will not be found by the memory scanners and searchers.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
 parentRepoUrl: null
 licenseSpdxId: MIT

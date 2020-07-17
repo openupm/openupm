@@ -1,7 +1,7 @@
 name: com.vovgou.loxodon-framework-log4net
 displayName: Loxodon Framework Log4Net
 description: >-
-  This is a log plugin for Loxodon.Framework.It allows you to use Log4Net in the Unity3d.
+  This is a plugin for the logging feature of Loxodon.Framework, which helps you use Log4Net in your Unity project.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
 parentRepoUrl: null
 licenseSpdxId: MIT
