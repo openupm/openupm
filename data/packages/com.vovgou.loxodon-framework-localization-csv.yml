@@ -1,8 +1,7 @@
 name: com.vovgou.loxodon-framework-localization-csv
 displayName: Loxodon Framework Localization CSV
 description: >-
-  A MVVM framework for game development on the Unity3D,which supports lua and C#
-  language.
+  This is a plugin for the Loxodon.Framework, which supports reading localized resources from csv files.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
 parentRepoUrl: null
 licenseSpdxId: MIT
