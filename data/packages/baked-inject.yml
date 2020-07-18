@@ -1,0 +1,17 @@
+name: baked-inject
+displayName: Baked Inject
+description: Baked dependency injection for Unity.
+repoUrl: 'https://github.com/simeonradivoev/BakedInject'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595098092610
