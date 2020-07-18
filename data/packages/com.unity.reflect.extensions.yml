@@ -1,0 +1,17 @@
+name: com.unity.reflect.extensions
+displayName: Reflect Extensions
+description: Runtime components and Editor tools to make the most of Unity Reflect.
+repoUrl: 'https://github.com/Unity-Technologies/Reflect-Extensions'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/Reflect-Extensions/raw/7eaae3d3089ce52db0c752389fa0c2dad13d78a9/Samples~/Populate%20Viewer/InstructionalInfo/Icons/PopulateSample.png
+readme: 'reflect-extensions-public:README.md'
+createdAt: 1595087872795
