@@ -1,0 +1,17 @@
+name: com.unity.demoteam.digital-human.sample
+displayName: Demo Team Digital Human Sample
+description: Character sample featuring the digital human from 'The Heretic'.
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.demoteam.digital-human.sample'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/com.unity.demoteam.digital-human.sample/raw/2cbf7f58687087f143f68317bf535bd3f7135e7d/Samples~/Gawain_Demo/Gawain_DemoScene/TutorialInfo/Icons/DHPIcon.png
+readme: 'master:README.md'
+createdAt: 1595033727829
