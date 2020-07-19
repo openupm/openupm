@@ -1,3 +1,10 @@
+## [1.30.6](https://github.com/openupm/openupm/compare/1.30.5...1.30.6) (2020-07-19)
+
+
+### Bug Fixes
+
+* **website:** handle escaped character in markdown renderer (close: [#1112](https://github.com/openupm/openupm/issues/1112)) ([7eab41c](https://github.com/openupm/openupm/commit/7eab41caebbf8c11c9bed9a535b685e8fbce98a6))
+
 ## [1.30.5](https://github.com/openupm/openupm/compare/1.30.4...1.30.5) (2020-06-21)
 
 
