@@ -74,24 +74,24 @@ describe("app/util/markdown.js", function() {
   describe("postProgressMarkdownHtml()", function() {
     it("img tag without src", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img />", { imageBaseRelativeUrl: "/" }),
-        '<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="/></div>'
+        postProgressMarkdownHtml("<img>", { imageBaseRelativeUrl: "/" }),
+        '<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="></div>'
       );
     });
     it("img tag with absolute src path", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img src='https://example.com/test.png'/>", {
+        postProgressMarkdownHtml("<img src='https://example.com/test.png'>", {
           imageBaseRelativeUrl: "/"
         }),
-        '<div><img src="https://example.com/test.png"/></div>'
+        '<div><img src="https://example.com/test.png"></div>'
       );
     });
     it("img tag with relative path", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img src='/img/test.png'/>", {
+        postProgressMarkdownHtml("<img src='/img/test.png'>", {
           imageBaseRelativeUrl: "https://example.com"
         }),
-        '<div><img src="https://example.com/img/test.png"/></div>'
+        '<div><img src="https://example.com/img/test.png"></div>'
       );
     });
   });
@@ -170,7 +170,7 @@ describe("app/util/markdown.js", function() {
       });
       assert.equal(
         html,
-        '<div><p><img src="https://github.com/favoyang/unity-addressable-importer/raw/master/path-1.png" alt="image"/></p>\n</div>'
+        '<div><p><img src="https://github.com/favoyang/unity-addressable-importer/raw/master/path-1.png" alt="image"></p>\n</div>'
       );
     });
     it("img + relative path with custom readme branch and path", async function() {
@@ -187,7 +187,7 @@ describe("app/util/markdown.js", function() {
       });
       assert.equal(
         html,
-        '<div><p><img src="https://github.com/favoyang/unity-addressable-importer/raw/upm/.github/path-1.png" alt="image"/></p>\n</div>'
+        '<div><p><img src="https://github.com/favoyang/unity-addressable-importer/raw/upm/.github/path-1.png" alt="image"></p>\n</div>'
       );
     });
     it("img + absolute path", async function() {
@@ -200,7 +200,7 @@ describe("app/util/markdown.js", function() {
       });
       assert.equal(
         html,
-        '<div><p><img src="http://example.com/path-1.png" alt="image"/></p>\n</div>'
+        '<div><p><img src="http://example.com/path-1.png" alt="image"></p>\n</div>'
       );
     });
     it("code highlighting", async function() {
@@ -215,6 +215,46 @@ describe("app/util/markdown.js", function() {
         html,
         '<div><pre><code class="hljs js"><span class="hljs-keyword">const</span> x = <span class="hljs-number">1</span>;</code></pre></div>'
       );
+    });
+    it("html inline", async function() {
+      const markdown = "A span tag: <span>text</span>";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disablePreProgress: true
+      });
+      assert.equal(html, "<div><p>A span tag: <span>text</span></p>\n</div>");
+    });
+    it("html escape &lt;", async function() {
+      const markdown = "A span tag: &lt;span&gt;";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disablePreProgress: true
+      });
+      assert.equal(html, "<div><p>A span tag: &lt;span&gt;</p>\n</div>");
+    });
+    it("html escape entity", async function() {
+      const markdown = "arrow symbol: &rarr;";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disablePreProgress: true
+      });
+      assert.equal(html, "<div><p>arrow symbol: &#x2192;</p>\n</div>");
+    });
+    it("html escape &", async function() {
+      const markdown = "a&b";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disablePreProgress: true
+      });
+      assert.equal(html, "<div><p>a&amp;b</p>\n</div>");
     });
   });
 });

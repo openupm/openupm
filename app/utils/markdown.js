@@ -131,9 +131,7 @@ See more in the [${pkg.repo}](${pkg.repoUrl}) repository.
 
 // Post-processing markdown rendered html.
 const postProgressMarkdownHtml = function(html, { imageBaseRelativeUrl }) {
-  const $ = cheerio.load(`<div>${html}</div>`, {
-    xmlMode: true
-  });
+  const $ = cheerio.load(`<div>${html}</div>`, { xmlMode: false });
   $("img").attr("src", (idx, attr) => {
     if (attr === undefined) {
       // 1x1 transparent base64 png pixel.
@@ -142,7 +140,9 @@ const postProgressMarkdownHtml = function(html, { imageBaseRelativeUrl }) {
     if (!httpRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
     return attr;
   });
-  return $.html();
+  return $.html()
+    .replace("<html><head></head><body>", "")
+    .replace("</body></html>", "");
 };
 
 module.exports = {
