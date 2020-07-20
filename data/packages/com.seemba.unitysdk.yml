@@ -1,10 +1,10 @@
 name: com.seemba.unitysdk
 displayName: SeembaSDK
 description: 'Seemba, the last and only in game monetization system you will ever need.'
-repoUrl: 'https://github.com/Bibani-Jihed/SeembaUnitySDK'
+repoUrl: 'https://github.com/Seemba-Gaming/unity-sdk'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: © 2020 Seemba. All Rights Reserved
+licenseName: © 2020 Seemba Inc. All Rights Reserved
 topics:
   - asset-management
   - code-generation
