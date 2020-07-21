@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/openupm/openupm/compare/1.30.6...1.31.0) (2020-07-21)
+
+
+### Features
+
+* **website:** support GFM style emoji in README renderer ([72dec82](https://github.com/openupm/openupm/commit/72dec829a4ec5b1ba9beaf07b035ad4cea4ffff0))
+
 ## [1.30.6](https://github.com/openupm/openupm/compare/1.30.5...1.30.6) (2020-07-19)
 
 
