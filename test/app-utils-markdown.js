@@ -6,8 +6,8 @@ const should = require("should");
 const {
   convertToGitHubRawUrl,
   renderMarkdownToHtml,
-  preProgressMarkdown,
-  postProgressMarkdownHtml
+  parseTitle,
+  postProcessHtml
 } = require("../app/utils/markdown");
 const { loadPackageSync } = require("../app/utils/package");
 
@@ -37,25 +37,22 @@ describe("app/util/markdown.js", function() {
     });
   });
 
-  describe("preProgressMarkdown()", function() {
+  describe("parseTitle()", function() {
     it("with h1", function() {
       const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
-      assert.equal(
-        preProgressMarkdown({ pkg, markdown: "# title" }),
-        "# title"
-      );
+      assert.equal(parseTitle({ pkg, markdown: "# title" }), "# title");
     });
     it("with h1 alternative", function() {
       const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
       assert.equal(
-        preProgressMarkdown({ pkg, markdown: "title\n=====" }),
+        parseTitle({ pkg, markdown: "title\n=====" }),
         "title\n====="
       );
     });
     it("with h1 html", function() {
       const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
       assert.equal(
-        preProgressMarkdown({ pkg, markdown: "<h1>title</h1>" }),
+        parseTitle({ pkg, markdown: "<h1>title</h1>" }),
         "<h1>title</h1>"
       );
     });
@@ -65,22 +62,22 @@ describe("app/util/markdown.js", function() {
       pkg.displayName = "Title";
       pkg.description = "description";
       assert.equal(
-        preProgressMarkdown({ pkg, markdown: "" }),
+        parseTitle({ pkg, markdown: "" }),
         "# Title\n\ndescription\n\nSee more in the [favoyang/unity-addressable-importer](https://github.com/favoyang/unity-addressable-importer) repository.\n"
       );
     });
   });
 
-  describe("postProgressMarkdownHtml()", function() {
+  describe("postProcessHtml()", function() {
     it("img tag without src", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img>", { imageBaseRelativeUrl: "/" }),
+        postProcessHtml("<img>", { imageBaseRelativeUrl: "/" }),
         '<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="></div>'
       );
     });
     it("img tag with absolute src path", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img src='https://example.com/test.png'>", {
+        postProcessHtml("<img src='https://example.com/test.png'>", {
           imageBaseRelativeUrl: "/"
         }),
         '<div><img src="https://example.com/test.png"></div>'
@@ -88,7 +85,7 @@ describe("app/util/markdown.js", function() {
     });
     it("img tag with relative path", function() {
       assert.equal(
-        postProgressMarkdownHtml("<img src='/img/test.png'>", {
+        postProcessHtml("<img src='/img/test.png'>", {
           imageBaseRelativeUrl: "https://example.com"
         }),
         '<div><img src="https://example.com/img/test.png"></div>'
@@ -103,7 +100,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, '<div><h1 id="title">title</h1>\n</div>');
     });
@@ -113,7 +110,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, "<div><h1>title</h1></div>");
     });
@@ -123,7 +120,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -140,7 +137,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -153,7 +150,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -166,7 +163,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -183,7 +180,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -196,7 +193,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -209,7 +206,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(
         html,
@@ -222,7 +219,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, "<div><p>A span tag: <span>text</span></p>\n</div>");
     });
@@ -232,7 +229,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, "<div><p>A span tag: &lt;span&gt;</p>\n</div>");
     });
@@ -242,7 +239,7 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, "<div><p>arrow symbol: &#x2192;</p>\n</div>");
     });
@@ -252,9 +249,19 @@ describe("app/util/markdown.js", function() {
       const html = await renderMarkdownToHtml({
         pkg,
         markdown,
-        disablePreProgress: true
+        disableTitleParser: true
       });
       assert.equal(html, "<div><p>a&amp;b</p>\n</div>");
+    });
+    it("emoji", async function() {
+      const markdown = ":muscle: of emoji";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disableTitleParser: true
+      });
+      assert.equal(html, "<div><p>&#x1F4AA; of emoji</p>\n</div>");
     });
   });
 });

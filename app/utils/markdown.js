@@ -1,5 +1,6 @@
 // Markdown util.
 const cheerio = require("cheerio");
+const emoji = require("node-emoji");
 const marked = require("marked");
 const highlightjs = require("highlight.js");
 const urljoin = require("url-join");
@@ -86,11 +87,16 @@ const markedRenderer = function({
 const renderMarkdownToHtml = async function({
   pkg,
   markdown,
-  disablePreProgress
+  disableTitleParser
 }) {
-  if (!disablePreProgress) {
-    markdown = preProgressMarkdown({ pkg, markdown });
+  // Parse title
+  if (!disableTitleParser) {
+    markdown = parseTitle({ pkg, markdown });
   }
+  // Parse emoji
+  const replacer = match => emoji.emojify(match);
+  markdown = markdown.replace(/(:.*:)/g, replacer);
+  // Render markdown
   const linkBaseUrl = urljoin(pkg.repoUrl, "blob/" + pkg.readmeBranch);
   const linkBaseRelativeUrl = urljoin(pkg.repoUrl, "blob/" + pkg.readmeBase);
   const imageBaseUrl = urljoin(pkg.repoUrl, "raw/" + pkg.readmeBranch);
@@ -102,11 +108,12 @@ const renderMarkdownToHtml = async function({
     imageBaseRelativeUrl
   });
   const html = marked(markdown, { renderer });
-  return postProgressMarkdownHtml(html, { imageBaseRelativeUrl });
+  // post-processing
+  return postProcessHtml(html, { imageBaseRelativeUrl });
 };
 
-// Pre-processing markdown.
-const preProgressMarkdown = function({ pkg, markdown }) {
+// Parse markdown to add title line.
+const parseTitle = function({ pkg, markdown }) {
   const pkgName = pkg.displayName || pkg.name;
   const titleLine = "# " + pkgName + "\n";
   if (markdown) {
@@ -119,7 +126,7 @@ const preProgressMarkdown = function({ pkg, markdown }) {
       markdown = titleLine + markdown;
     }
   } else {
-    // Rollback to default readme.
+    // Fallback to default readme.
     markdown = `${titleLine}
 ${pkg.description}
 
@@ -130,7 +137,7 @@ See more in the [${pkg.repo}](${pkg.repoUrl}) repository.
 };
 
 // Post-processing markdown rendered html.
-const postProgressMarkdownHtml = function(html, { imageBaseRelativeUrl }) {
+const postProcessHtml = function(html, { imageBaseRelativeUrl }) {
   const $ = cheerio.load(`<div>${html}</div>`, { xmlMode: false });
   $("img").attr("src", (idx, attr) => {
     if (attr === undefined) {
@@ -148,6 +155,6 @@ const postProgressMarkdownHtml = function(html, { imageBaseRelativeUrl }) {
 module.exports = {
   convertToGitHubRawUrl,
   renderMarkdownToHtml,
-  preProgressMarkdown,
-  postProgressMarkdownHtml
+  parseTitle,
+  postProcessHtml
 };
