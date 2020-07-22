@@ -1,0 +1,16 @@
+name: com.baba-s.uni-pbx-project-wrapper
+displayName: UniPBXProjectWrapper
+description: 【Unity】PBXProject のラッパークラス
+repoUrl: 'https://github.com/baba-s/UniPBXProjectWrapper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595425074648
