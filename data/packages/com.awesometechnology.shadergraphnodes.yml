@@ -1,0 +1,16 @@
+name: com.awesometechnology.shadergraphnodes
+displayName: Vegetation Studio Shader Graph Nodes
+description: "This repository contains custom nodes for use with the Unity Shader Graph. They will help you add Vegetation Studio support for instanced indirect rendering, touch react and other custom features."
+repoUrl: 'https://github.com/AwesomeTechnologies/VegetationStudioPro-ShaderGraphNodes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/a8ed71a62b1e407d3a1632ec196fb757fb6e4a00/68747470733a2f2f7777772e617765736f6d65746563682e6e6f2f77702d636f6e74656e742f75706c6f6164732f323031382f31312f496d6167652d3836312e706e67'
+readme: 'master:README.md'
+createdAt: 1595514394306
