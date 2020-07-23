@@ -1,0 +1,22 @@
+name: com.brunomikoski.scriptableobjectcollection
+displayName: Scriptable Object Collection
+description: null
+repoUrl: 'https://github.com/badawe/ScriptableObjectCollection'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: LICENSE
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - mobile
+  - utilities
+hunter: badawe
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595534255006
