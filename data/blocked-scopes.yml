@@ -5,3 +5,4 @@ scopes:
 - com.esotericsoftware.spine.spine-unity
 - com.esotericsoftware.spine.timeline
 - com.esotericsoftware.spine.urp-shaders
+- com.unity.demoteam.digital-human.sample
