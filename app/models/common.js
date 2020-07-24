@@ -37,7 +37,9 @@ const ReleaseReason = new Enum({
   // private repo
   Private: 801,
   // package name not match
-  PackageNameNotMatch: 802
+  PackageNameNotMatch: 802,
+  // package name invalid
+  PackageNameInvalid: 803
 });
 
 /* Release reasons that considered as the failure of build service. The

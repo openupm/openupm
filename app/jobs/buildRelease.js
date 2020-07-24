@@ -171,8 +171,14 @@ const getReasonFromPublishLog = function(text) {
   if (text.includes("EPUBLISHCONFLICT")) return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
-  else if (text.includes("error code E400")) return ReleaseReason.BadRequest;
-  else if (text.includes("error code E401")) return ReleaseReason.Unauthorized;
+  else if (text.includes("error code E400")) {
+    if (/400 Bad Request - PUT https:\/\/.*\.com\/@/.test(text)) {
+      return ReleaseReason.PackageNameInvalid;
+    } else {
+      return ReleaseReason.BadRequest;
+    }
+  } else if (text.includes("error code E401"))
+    return ReleaseReason.Unauthorized;
   else if (text.includes("error code E403")) return ReleaseReason.Forbidden;
   else if (text.includes("error code E413"))
     return ReleaseReason.EntityTooLarge;

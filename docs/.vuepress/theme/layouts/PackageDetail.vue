@@ -393,6 +393,8 @@ ReleaseReasonSolution[ReleaseReason.Private.value] =
   "The package is explicitly private.";
 ReleaseReasonSolution[ReleaseReason.PackageNameNotMatch.value] =
   "The name of package.json isn't matched.";
+ReleaseReasonSolution[ReleaseReason.PackageNameInvalid.value] =
+  "The package name includes unsupported @ character.";
 
 export default {
   components: { ParentLayout, NavLink },
