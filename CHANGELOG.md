@@ -1,3 +1,10 @@
+## [1.31.1](https://github.com/openupm/openupm/compare/1.31.0...1.31.1) (2020-07-24)
+
+
+### Bug Fixes
+
+* **pipelines:** add error code PackageNameInvalid ([b4d4ba0](https://github.com/openupm/openupm/commit/b4d4ba08b9fb0480f0370f04bcbd0b0fb076a3a9))
+
 # [1.31.0](https://github.com/openupm/openupm/compare/1.30.6...1.31.0) (2020-07-21)
 
 
