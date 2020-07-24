@@ -1,6 +1,6 @@
 name: com.brunomikoski.scriptableobjectcollection
 displayName: Scriptable Object Collection
-description: null
+description: 'A utility to improve the usability of Scriptable Objects'
 repoUrl: 'https://github.com/badawe/ScriptableObjectCollection'
 parentRepoUrl: null
 licenseSpdxId: null
