@@ -17,5 +17,5 @@ gitTagIgnore: ''
 minVersion: v2.0.1-preview
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'master:README_EN.md'
+readme: 'master:README.md'
 createdAt: 1594357225028
