@@ -13,8 +13,8 @@ topics:
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.0.0-preview.3
+minVersion: v2.0.1-preview
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:Loxodon.Framework.Addressable/README.md'
+readme: 'master:Loxodon.Framework.Addressable/README.md'
 createdAt: 1594375319319

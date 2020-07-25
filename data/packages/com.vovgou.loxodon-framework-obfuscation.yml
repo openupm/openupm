@@ -12,8 +12,8 @@ topics:
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.0.0-preview
+minVersion: v2.0.1-preview
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
-readme: 'v2.0.0:Loxodon.Framework.Obfuscation/README.md'
+readme: 'master:Loxodon.Framework.Obfuscation/README.md'
 createdAt: 1594358579743
