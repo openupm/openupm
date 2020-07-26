@@ -8,7 +8,6 @@ licenseName: MIT License
 topics:
   - ai
   - dots-and-ecs
-  - visual-scripting
 hunter: quabug
 gitTagPrefix: ''
 gitTagIgnore: ''
