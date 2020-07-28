@@ -1,3 +1,10 @@
+## [1.31.2](https://github.com/openupm/openupm/compare/1.31.1...1.31.2) (2020-07-28)
+
+
+### Bug Fixes
+
+* **pipelines:** sort queue status output [skip ci] ([6cc4ffb](https://github.com/openupm/openupm/commit/6cc4ffb3edcdd7e1d396cc11dc1fa7bf15d03e2f))
+
 ## [1.31.1](https://github.com/openupm/openupm/compare/1.31.0...1.31.1) (2020-07-24)
 
 
