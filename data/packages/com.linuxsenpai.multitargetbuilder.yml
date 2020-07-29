@@ -3,8 +3,8 @@ displayName: MultiTarget Builder
 description: Unity Multi-Target Builder Configuration Project Tool
 repoUrl: 'https://github.com/voldien/UMultiTargetBuilder'
 parentRepoUrl: null
-licenseSpdxId: GPL
-licenseName: 'GPL License'
+licenseSpdxId: GPL-3.0
+licenseName: 'GPL-3.0 License'
 topics:
   - editor-enhancement
   - utilities
