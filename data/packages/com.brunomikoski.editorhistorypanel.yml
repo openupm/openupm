@@ -1,0 +1,17 @@
+name: com.brunomikoski.editorhistorypanel
+displayName: Unity Editor History Panel
+description: Photoshop Like History panel with shortcut navigation
+repoUrl: 'https://github.com/badawe/UnityHistoryPanel'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: badawe/
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596060133210
