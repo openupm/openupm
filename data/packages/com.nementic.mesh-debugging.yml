@@ -1,0 +1,20 @@
+name: com.nementic.mesh-debugging
+displayName: Mesh Debugging
+description: >-
+  A suite of utilities useful for finding issues or simply visualizing
+  properties such as UVs or normals of a mesh.
+repoUrl: 'https://github.com/nementic-games/mesh-debugging'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596267043452
