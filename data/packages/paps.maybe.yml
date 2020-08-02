@@ -3,8 +3,8 @@ displayName: Paps Maybe
 description: Maybe object and related utilities in c#
 repoUrl: 'https://github.com/Sammmte/Paps-Maybe'
 parentRepoUrl: null
-licenseSpdxId: Unlicense
-licenseName: The Unlicense
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: Sammmte
