@@ -5,8 +5,8 @@ description: >-
   central update method
 repoUrl: 'https://github.com/Sammmte/Paps-UnityUpdater'
 parentRepoUrl: null
-licenseSpdxId: Unlicense
-licenseName: The Unlicense
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: Sammmte
