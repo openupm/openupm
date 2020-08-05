@@ -36,7 +36,7 @@ var dispatch = function(queue) {
     });
   });
   queue.on("error", err => {
-    logger.info(err, "queue error");
+    logger.error({ err }, "queue error");
   });
   queue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
 };

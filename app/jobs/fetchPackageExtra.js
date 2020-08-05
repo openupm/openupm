@@ -39,14 +39,14 @@ const fetchExtraData = async function(packageNames) {
 };
 
 /**
- * Return error info object.
+ * Return HTTP error info object
  * @param {Object} error
  * @param {Object} others
  */
-const errorInfo = function(error, others) {
-  const status = error.response ? error.response.status : undefined;
-  // Show error field if status is unknown.
-  return { status, error: status ? undefined : error, ...others };
+const httpErrorInfo = function(err, others) {
+  // Show http status if possible or fallback to error
+  if (err.response && err.response.status) return { status, ...others };
+  else return { err, ...others };
 };
 
 /**
@@ -87,7 +87,7 @@ const _fetchPackageInfo = async function(packageName) {
     await PackageExtra.setVersion(packageName, version);
   } catch (error) {
     logger.error(
-      errorInfo(error, { pkg: packageName }),
+      httpErrorInfo(error, { pkg: packageName }),
       "fetch package info error"
     );
   }
@@ -114,7 +114,10 @@ const _fetchStars = async function(repo, packageName) {
       await PackageExtra.setParentStars(packageName, pstars);
     }
   } catch (error) {
-    logger.error(errorInfo(error, { pkg: packageName }), "fetch stars error");
+    logger.error(
+      httpErrorInfo(error, { pkg: packageName }),
+      "fetch stars error"
+    );
   }
 };
 
@@ -139,7 +142,7 @@ const _fetchOGImage = async function(pkg, packageName) {
     } catch (error) {
       if (!isErrorCode(error, 404)) {
         logger.error(
-          errorInfo(error, { pkg: packageName }),
+          httpErrorInfo(error, { pkg: packageName }),
           "fetch og:Image error"
         );
       }
@@ -156,7 +159,10 @@ const _fetchOGImage = async function(pkg, packageName) {
   try {
     await PackageExtra.setImageUrl(packageName, imageUrl);
   } catch (error) {
-    logger.error(errorInfo(error, { pkg: packageName }), "save og:Image error");
+    logger.error(
+      httpErrorInfo(error, { pkg: packageName }),
+      "save og:Image error"
+    );
   }
 };
 
@@ -175,7 +181,10 @@ const _fetchReadme = async function(pkg, packageName) {
     const html = await renderMarkdownToHtml({ pkg, markdown: text });
     await PackageExtra.setReadmeHtml(packageName, html);
   } catch (error) {
-    logger.error(errorInfo(error, { pkg: packageName }), "fetch readme error");
+    logger.error(
+      httpErrorInfo(error, { pkg: packageName }),
+      "fetch readme error"
+    );
   }
 };
 

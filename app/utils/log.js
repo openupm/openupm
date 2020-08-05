@@ -23,11 +23,13 @@ function createLogger(module) {
   if (process.env.NODE_ENV === "test")
     return bunyan.createLogger({
       name,
+      serializers: bunyan.stdSerializers,
       streams: [{ level: "fatal", stream: process.stdout }]
     });
   else {
     return bunyan.createLogger({
       name,
+      serializers: bunyan.stdSerializers,
       streams: [
         {
           level: process.env.OPENUPM_DEBUG ? "debug" : "info",
