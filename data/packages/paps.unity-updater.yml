@@ -12,7 +12,7 @@ topics:
 hunter: Sammmte
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.0.1
+minVersion: 1.1.0
 image: null
 readme: 'master:README.md'
 createdAt: 1596321025585
