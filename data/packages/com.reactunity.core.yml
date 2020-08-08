@@ -1,7 +1,7 @@
-name: com.kurtgokhan.react-unity
+name: com.reactunity.core
 displayName: React Unity
 description: React renderer for building user interfaces in Unity UI
-repoUrl: 'https://github.com/KurtGokhan/react-unity'
+repoUrl: 'https://github.com/ReactUnity/core'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -11,5 +11,5 @@ topics:
 hunter: KurtGokhan
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
+image: 'https://avatars2.githubusercontent.com/u/62178684'
 createdAt: 1584361495094
