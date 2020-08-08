@@ -11,5 +11,6 @@ topics:
 hunter: KurtGokhan
 gitTagPrefix: ''
 gitTagIgnore: ''
+minVersion: 0.0.13
 image: 'https://avatars2.githubusercontent.com/u/62178684'
 createdAt: 1584361495094
