@@ -45,7 +45,8 @@ const fetchExtraData = async function(packageNames) {
  */
 const httpErrorInfo = function(err, others) {
   // Show http status if possible or fallback to error
-  if (err.response && err.response.status) return { status, ...others };
+  if (err.response && err.response.status)
+    return { status: err.response.status, ...others };
   else return { err, ...others };
 };
 
