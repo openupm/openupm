@@ -1,3 +1,10 @@
+## [1.31.3](https://github.com/openupm/openupm/compare/1.31.2...1.31.3) (2020-08-08)
+
+
+### Bug Fixes
+
+* **pipelines:** get undefined status bug ([8119b6e](https://github.com/openupm/openupm/commit/8119b6ed97ea6092605e86cbd6cb586501e3df58))
+
 ## [1.31.2](https://github.com/openupm/openupm/compare/1.31.1...1.31.2) (2020-07-28)
 
 
