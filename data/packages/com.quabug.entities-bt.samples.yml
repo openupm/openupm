@@ -9,7 +9,7 @@ topics:
   - ai
   - dots-and-ecs
 hunter: quabug
-gitTagPrefix: ''
+gitTagPrefix: samples/
 gitTagIgnore: ''
 minVersion: '0.19.0'
 image: https://user-images.githubusercontent.com/683655/88478209-db455280-cf78-11ea-88fe-222c60e346ac.png
