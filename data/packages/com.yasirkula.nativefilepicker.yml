@@ -1,0 +1,19 @@
+name: com.yasirkula.nativefilepicker
+displayName: Native File Picker
+description: >-
+  A native Unity plugin to import/export files from/to various document
+  providers on Android & iOS
+repoUrl: 'https://github.com/yasirkula/UnityNativeFilePicker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1597008587303
