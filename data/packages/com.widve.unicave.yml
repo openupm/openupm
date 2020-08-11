@@ -1,0 +1,20 @@
+name: com.widve.unicave
+displayName: UniCAVE Plugin
+description: A Unity3D Plugin for Non-Head Mounted Virtual Reality Display Systems
+repoUrl: 'https://github.com/widVE/UniCAVE'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - camera
+  - input-management
+  - network
+  - utilities
+hunter: spsmith
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597172008023
