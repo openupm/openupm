@@ -23,12 +23,13 @@
               <h2>Backers</h2>
               <figure
                 v-for="(profile, index) in backers"
+                v-on:click="openUrl(profile)"
                 :key="index"
-                class="avatar avatar-xl tooltip custom"
+                class="avatar avatar-xl tooltip custom clickable"
                 :data-tooltip="profile.name"
                 :data-initial="profile.abbr"
               >
-                <img v-if="profile.img" :src="profile.img" alt:="profile.name"
+                <img v-if="profile.img" :src="profile.img" alt:="profile.name" onerror="this.style.display='none'"
                 />
               </figure>
             </section>
@@ -38,11 +39,12 @@
               <h2>Top Package Hunters</h2>
               <figure
                 v-for="(profile, index) in hunters"
+                v-on:click="openUrl(profile)"
                 :key="index"
-                class="avatar avatar-xl tooltip"
+                class="avatar avatar-xl tooltip clickable"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <img :src="profile.img" alt:="profile.user" onerror="this.style.display='none'"/>
               </figure>
             </section>
           </div>
@@ -51,11 +53,12 @@
               <h2>Top Package Owners</h2>
               <figure
                 v-for="(profile, index) in owners"
+                v-on:click="openUrl(profile)"
                 :key="index"
-                class="avatar avatar-xl tooltip"
+                class="avatar avatar-xl tooltip clickable"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <img :src="profile.img" alt:="profile.user" onerror="this.style.display='none'"/>
               </figure>
             </section>
           </div>
@@ -74,6 +77,7 @@ const getUserData = function(entry, action) {
   return {
     ...entry,
     img: `https://github.com/${entry.user}.png?size=128`,
+    url: `https://github.com/${entry.user}`,
     label: `${entry.user} ${action} ${entry.count} ${
       entry.count > 1 ? "packages" : "package"
     }`
@@ -84,8 +88,10 @@ const getBackerData = function(entry) {
   const data = {
     ...entry
   };
-  if (entry.githubUser)
-    data.img = `https://github.com/${entry.githubUser}.png?size=128`;
+  if (entry.githubUser) {
+    data.url = `https://github.com/${entry.githubUser}`;
+    data.img = `${data.url}.png?size=128`;
+  }
   const segs = entry.name.split(" ");
   data.abbr =
     segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
@@ -112,7 +118,11 @@ export default {
       return this.$page.frontmatter.backers.map(getBackerData);
     }
   },
-  methods: {}
+  methods: {
+    openUrl(profile) {
+      window.open(profile.url, "_blank");
+    }
+  }
 };
 </script>
 
@@ -124,4 +134,8 @@ export default {
     margin-bottom 2rem
     .avatar
       margin: 0 0.3rem 0.3rem 0
+
+.clickable:hover {
+  cursor: pointer;
+}
 </style>
