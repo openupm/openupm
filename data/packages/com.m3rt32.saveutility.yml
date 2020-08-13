@@ -1,7 +1,7 @@
-name: com.m3rt32.saveutility
+name: com.merpheus-dev.saveutility
 displayName: Save Utility
 description: Modular Save System for Unity
-repoUrl: 'https://github.com/m3rt32/SaveUtility'
+repoUrl: 'https://github.com/merpheus-dev/SaveUtility'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

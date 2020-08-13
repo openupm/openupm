@@ -1,7 +1,7 @@
 name: com.brunomikoski.presetmanager
 displayName: Preset Manager
 description: Applies Preset to folders and objects
-repoUrl: 'https://github.com/badawe/PresetManager'
+repoUrl: 'https://github.com/brunomikoski/PresetManager'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,5 +12,5 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: >-
-  https://github.com/badawe/PresetManager/raw/a021ff37b9f419f8b930330ac0b7d9b4d3346d91/Documentation~/general-usage.gif
+  https://github.com/brunomikoski/PresetManager/raw/a021ff37b9f419f8b930330ac0b7d9b4d3346d91/Documentation~/general-usage.gif
 createdAt: 1586896057078
