@@ -15,6 +15,6 @@ hunter: hybridherbst
 gitTagPrefix: release/
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://github.com/needle-tools/compilation-visualizer/wiki/images/compact-view-recompile.gif'
 readme: 'master:README.md'
 createdAt: 1597258247592
