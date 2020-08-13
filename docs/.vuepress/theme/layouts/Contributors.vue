@@ -23,14 +23,15 @@
               <h2>Backers</h2>
               <figure
                 v-for="(profile, index) in backers"
-                v-on:click="openUrl(profile)"
                 :key="index"
                 class="avatar avatar-xl tooltip custom clickable"
                 :data-tooltip="profile.name"
                 :data-initial="profile.abbr"
               >
+              <a :href="profile.url">
                 <img v-if="profile.img" :src="profile.img" alt:="profile.name" onerror="this.style.display='none'"
                 />
+              </a>
               </figure>
             </section>
           </div>
@@ -39,12 +40,13 @@
               <h2>Top Package Hunters</h2>
               <figure
                 v-for="(profile, index) in hunters"
-                v-on:click="openUrl(profile)"
                 :key="index"
                 class="avatar avatar-xl tooltip clickable"
                 :data-tooltip="profile.label"
               >
+              <a :href="profile.url">
                 <img :src="profile.img" alt:="profile.user" onerror="this.style.display='none'"/>
+              </a>
               </figure>
             </section>
           </div>
@@ -53,12 +55,13 @@
               <h2>Top Package Owners</h2>
               <figure
                 v-for="(profile, index) in owners"
-                v-on:click="openUrl(profile)"
                 :key="index"
                 class="avatar avatar-xl tooltip clickable"
                 :data-tooltip="profile.label"
               >
+              <a :href="profile.url">
                 <img :src="profile.img" alt:="profile.user" onerror="this.style.display='none'"/>
+              </a>
               </figure>
             </section>
           </div>
@@ -118,11 +121,7 @@ export default {
       return this.$page.frontmatter.backers.map(getBackerData);
     }
   },
-  methods: {
-    openUrl(profile) {
-      window.open(profile.url, "_blank");
-    }
-  }
+  methods: {}
 };
 </script>
 
@@ -134,8 +133,8 @@ export default {
     margin-bottom 2rem
     .avatar
       margin: 0 0.3rem 0.3rem 0
-
-.clickable:hover {
-  cursor: pointer;
-}
+      a 
+        width: 100%
+        height: 100%
+        display: block
 </style>
