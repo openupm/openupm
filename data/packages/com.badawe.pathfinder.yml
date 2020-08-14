@@ -2,7 +2,7 @@ name: com.badawe.pathfinder
 displayName: badawe.pathfinder
 description: An simple and optimized grid pathfinding
 repoUrl: 'https://github.com/OliPerraul/Simple-optimized-A-Pathfinder'
-parentRepoUrl: 'https://github.com/badawe/Simple-optimized-A-Pathfinder'
+parentRepoUrl: 'https://github.com/brunomikoski/Simple-optimized-A-Pathfinder'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

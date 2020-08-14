@@ -1,7 +1,7 @@
 name: com.brunomikoski.spriteauditor
 displayName: Sprite Auditor
 description: null
-repoUrl: 'https://github.com/badawe/SpriteAuditor'
+repoUrl: 'https://github.com/brunomikoski/SpriteAuditor'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
@@ -11,7 +11,7 @@ topics:
   - gui
   - mobile
   - utilities
-hunter: badawe
+hunter: brunomikoski
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null

@@ -3,7 +3,7 @@ displayName: SetProperty
 description: >-
   A PropertyAttribute/PropertyDrawer combination that allows for properties in
   Unity
-repoUrl: 'https://github.com/UnityOpenSource/SetProperty'
+repoUrl: 'https://github.com/UnityPackages/SetProperty'
 parentRepoUrl: 'https://github.com/LMNRY/SetProperty'
 licenseSpdxId: MIT
 licenseName: MIT License
