@@ -92,9 +92,18 @@ const _packageUtils = {
   }
 };
 
+const _imageUtils = {
+  // Handle broken image
+  imageNotFound(event) {
+    event.target.src =
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=";
+  }
+};
+
 export default {
   ..._urlUtils,
   ..._pageUtils,
   ..._timeUtils,
-  ..._packageUtils
+  ..._packageUtils,
+  ..._imageUtils
 };

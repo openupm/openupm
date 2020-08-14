@@ -28,8 +28,10 @@
                 :data-tooltip="profile.name"
                 :data-initial="profile.abbr"
               >
-                <img v-if="profile.img" :src="profile.img" alt:="profile.name"
-                />
+                <a :href="profile.url">
+                  <img v-if="profile.img" :src="profile.img" alt:="profile.name"
+                  @error="imageNotFound" />
+                </a>
               </figure>
             </section>
           </div>
@@ -42,7 +44,10 @@
                 class="avatar avatar-xl tooltip"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <a :href="profile.url">
+                  <img :src="profile.img" alt:="profile.user"
+                  @error="imageNotFound" />
+                </a>
               </figure>
             </section>
           </div>
@@ -55,7 +60,10 @@
                 class="avatar avatar-xl tooltip"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <a :href="profile.url">
+                  <img :src="profile.img" alt:="profile.user"
+                  @error="imageNotFound" />
+                </a>
               </figure>
             </section>
           </div>
@@ -69,11 +77,13 @@
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
+import util from "@root/docs/.vuepress/util";
 
 const getUserData = function(entry, action) {
   return {
     ...entry,
     img: `https://github.com/${entry.user}.png?size=128`,
+    url: `https://github.com/${entry.user}`,
     label: `${entry.user} ${action} ${entry.count} ${
       entry.count > 1 ? "packages" : "package"
     }`
@@ -84,8 +94,10 @@ const getBackerData = function(entry) {
   const data = {
     ...entry
   };
-  if (entry.githubUser)
-    data.img = `https://github.com/${entry.githubUser}.png?size=128`;
+  if (entry.githubUser) {
+    data.url = `https://github.com/${entry.githubUser}`;
+    data.img = `${data.url}.png?size=128`;
+  }
   const segs = entry.name.split(" ");
   data.abbr =
     segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
@@ -112,7 +124,9 @@ export default {
       return this.$page.frontmatter.backers.map(getBackerData);
     }
   },
-  methods: {}
+  methods: {
+    imageNotFound: util.imageNotFound
+  }
 };
 </script>
 
@@ -124,4 +138,8 @@ export default {
     margin-bottom 2rem
     .avatar
       margin: 0 0.3rem 0.3rem 0
+      a
+        width: 100%
+        height: 100%
+        display: block
 </style>
