@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/openupm/openupm/compare/1.31.3...1.32.0) (2020-08-14)
+
+
+### Features
+
+* clickable avatars with GitHub URL ([#1211](https://github.com/openupm/openupm/issues/1211)) ([54395a8](https://github.com/openupm/openupm/commit/54395a804e0e66cc09f5af95768190479b2d5a08))
+
 ## [1.31.3](https://github.com/openupm/openupm/compare/1.31.2...1.31.3) (2020-08-08)
 
 
