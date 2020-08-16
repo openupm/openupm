@@ -12,6 +12,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://user-images.githubusercontent.com/6134875/90323905-af7b2280-dfa2-11ea-8548-6d6aa07133c5.gif'
 readme: 'master:README.md'
 createdAt: 1597547629213
