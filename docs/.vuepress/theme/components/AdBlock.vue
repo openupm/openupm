@@ -1,6 +1,9 @@
 <template>
   <div v-if="active" class="ad-block">
-    <a class="ad-text" :href="ad.link">{{ ad.text }}</a>
+    <a class="ad-text" :href="ad.link">
+      <img v-if="ad.image" :src="ad.image" />
+      {{ ad.text }}</a
+    >
     <span class="ad-attr">{{ ad.attr }}</span>
   </div>
 </template>
@@ -65,14 +68,8 @@ export default {
   .ad-attr
     color #999
 
-@media (min-width: $MQNormal)
-  .ad-block
-    padding-top 0
-    padding-left 0.6rem
-
-    .ad-attr
-      display block
-
+  img
+    display none
 
 // ad-placement
 .adp-main
@@ -83,9 +80,21 @@ export default {
   width 12rem
 
 @media (min-width: $MQNormal)
+  .ad-block
+    padding-top 0
+    padding-left 0.6rem
+
+    .ad-attr
+      display block
+
+    img
+      display block
+      width 100%
+      margin-bottom 0.2rem
+
   .adp-main
     margin 5rem 0
-    width 9.6rem
+    width 9.2rem
     float left
     display block
     position fixed
