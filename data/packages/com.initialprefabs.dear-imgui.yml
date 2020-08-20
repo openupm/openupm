@@ -1,0 +1,16 @@
+name: com.initialprefabs.dear-imgui
+displayName: Dear ImGui
+description: Unity package for Dear ImGui
+repoUrl: 'https://github.com/InitialPrefabs/dear-imgui-unity'
+parentRepoUrl: 'https://github.com/realgamessoftware/dear-imgui-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: psuong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597949247567
