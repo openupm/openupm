@@ -1,3 +1,11 @@
+# [1.33.0](https://github.com/openupm/openupm/compare/1.32.0...1.33.0) (2020-08-20)
+
+
+### Features
+
+* **pipelines:** add scopes to package extra data ([8f78c87](https://github.com/openupm/openupm/commit/8f78c8725628b630c288ec088daa4e18c768900a))
+* **website:** integrate with Needle's package installer ([2d90109](https://github.com/openupm/openupm/commit/2d90109ec3b32f991dd9b011f762ef0d1df2d771))
+
 # [1.32.0](https://github.com/openupm/openupm/compare/1.31.3...1.32.0) (2020-08-14)
 
 
