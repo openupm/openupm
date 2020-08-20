@@ -17,21 +17,21 @@
               </li>
             </ul>
           </div>
-          <div class="column col-8 col-sm-12 topics-wrap">
-            <a v-for="item in $topics" :key="item.slug" :href="item.link"
-              ><span class="label label-rounded"> {{ item.name }}</span></a
-            >
-            <span
-              v-if="packagePending"
-              class="tooltip"
-              data-tooltip="The package has no release yet"
-            >
-              <span class="label label-rounded bg-warning">
-                <i class="fas fa-spinner"></i> Pending
-              </span>
-            </span>
-          </div>
           <div class="column col-8 col-sm-12">
+            <div class="topics-wrap">
+              <a v-for="item in $topics" :key="item.slug" :href="item.link"
+                ><span class="label label-rounded"> {{ item.name }}</span></a
+              >
+              <span
+                v-if="packagePending"
+                class="tooltip"
+                data-tooltip="The package has no release yet"
+              >
+                <span class="label label-rounded bg-warning">
+                  <i class="fas fa-spinner"></i> Pending
+                </span>
+              </span>
+            </div>
             <div class="theme-default-content">
               <ClientOnly>
                 <div v-if="readmeHtml" class="readme-wrap">
@@ -63,23 +63,45 @@
                     </span>
                   </div>
                 </section>
-                <section class="col-12">
-                  <h2>Install <small>(click to copy)</small></h2>
-                  <div class="install-cli">
-                    <div
-                      data-tooltip="Copied"
-                      class="tooltip tooltip-click"
-                      tabindex="-1"
-                      @click="onCopyCli"
-                    >
-                      <code>
-                        <i class="fas fa-angle-double-right"></i>
-                        {{ packageInstallCli }}
-                      </code>
+                <section class="col-12 install-section">
+                  <h2>Installation</h2>
+                  <div class="install-option">
+                    <h3>
+                      via
+                      <a href="#modal-commandlinetool">command-line tool</a>
+                    </h3>
+                    <div class="install-cli">
+                      <div
+                        data-tooltip="Copied"
+                        class="tooltip tooltip-click"
+                        tabindex="-1"
+                        @click="onCopyCli"
+                      >
+                        <code>
+                          <i class="fas fa-angle-double-right"></i>
+                          {{ packageInstallCli }}
+                        </code>
+                      </div>
                     </div>
-                    <small
-                      >requires <NavLink :item="openupmCliRepoLink"
-                    /></small>
+                  </div>
+                  <div class="install-option">
+                    <h3>
+                      via
+                      <a href="#modal-packageinstaller">package installer</a>
+                      <small
+                        ><span class="label label-secondary">experimental</span>
+                      </small>
+                      <div
+                        class="package-installer-btn-wrap btn-group btn-group-block"
+                      >
+                        <a
+                          :href="packageInstallerLink.link"
+                          class="btn"
+                          :disabled="!isInstallAvailable"
+                          >{{ packageInstallerLink.text }}
+                        </a>
+                      </div>
+                    </h3>
                   </div>
                 </section>
                 <section class="col-12">
@@ -338,6 +360,74 @@
         </div>
       </div>
       <Content class="theme-default-content custom" />
+      <div id="modal-commandlinetool" class="modal">
+        <a href="#close" class="modal-overlay" aria-label="Close"></a>
+        <div class="modal-container">
+          <div class="modal-header">
+            <a
+              href="#close"
+              class="btn btn-clear float-right"
+              aria-label="Close"
+            ></a>
+            <div class="modal-title h5">Install via Command-Line Tool</div>
+          </div>
+          <div class="modal-body">
+            <div class="content">
+              <p>
+                Prerequisites: <NavLink :item="nodejsLink" /> and
+                <NavLink :item="openupmCliRepoLink" />.
+              </p>
+              <div class="theme-default-content custom">
+                <div class="language-sh" v-html="modalInstallViaCliCode"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="modal-packageinstaller" class="modal">
+        <a href="#close" class="modal-overlay" aria-label="Close"></a>
+        <div class="modal-container">
+          <div class="modal-header">
+            <a
+              href="#close"
+              class="btn btn-clear float-right"
+              aria-label="Close"
+            ></a>
+            <div class="modal-title h5">
+              Install via Package Installer
+              <small
+                ><span class="label label-secondary">experimental</span>
+              </small>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="content">
+              <p>
+                <NavLink :item="packageInstallerSiteLink" /> creates a
+                traditional <code>.unitypackage</code> helper to install a UPM
+                package into your Unity project.
+              </p>
+              <ul>
+                <li>
+                  <a
+                    :href="packageInstallerLink.link"
+                    class="btn btn-sm"
+                    :disabled="!isInstallAvailable"
+                    >{{ packageInstallerLink.text }}</a
+                  >
+                </li>
+                <li>
+                  Open the downloaded file with your Unity editor or drag it
+                  into the Unity editor window.
+                </li>
+                <li>
+                  The installer will remove itself after installation.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </ParentLayout>
 </template>
@@ -348,6 +438,7 @@ import escape from "escape-html";
 import copy from "copy-to-clipboard";
 import { noCase } from "change-case";
 import urljoin from "url-join";
+import highlightjs from "highlight.js";
 
 import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
@@ -506,6 +597,9 @@ export default {
       if (!entry) return null;
       return entry.unity;
     },
+    packageScopes() {
+      return this.$data.packageInfo.scopes;
+    },
     packageBuilds() {
       let builds = this.$data.packageInfo.releases;
       if (builds && builds.length) {
@@ -649,24 +743,71 @@ export default {
         text: "Edit this package"
       };
     },
+    nodejsLink() {
+      return {
+        link: "https://nodejs.org/en/",
+        text: "Node.js 12"
+      };
+    },
     openupmCliRepoLink() {
       return {
         link: util.openupmCliRepoUrl,
         text: "openupm-cli"
       };
     },
+    packageInstallerSiteLink() {
+      return {
+        link: util.packageInstallerSiteUrl,
+        text: "Needle's package installer"
+      };
+    },
+    packageInstallerLink() {
+      let text = "";
+      if (!this.$data.packageInfo.fetched) {
+        text = "loading...";
+      } else if (this.packageVersions.length) {
+        text = "Download installer.unitypackage";
+      } else {
+        text = "not available yet";
+      }
+      return {
+        link: util.getPackageInstallerUrl(
+          this.$package.name,
+          this.packageScopes
+        ),
+        text
+      };
+    },
+    isInstallAvailable() {
+      return this.$data.packageInfo.fetched && this.packageVersions.length > 0;
+    },
     badgeUrl() {
       return urljoin(this.$site.themeConfig.domain, this.$page.path);
     },
     badgeVersionImageUrl() {
       return `https://img.shields.io/npm/v/${this.$package.name}?label=openupm&registry_uri=https://package.openupm.com`;
+    },
+    modalInstallViaCliCode() {
+      const code = `# Install openupm-cli
+npm install -g openupm-cli
+
+# Go to your Unity project directory
+cd YOUR_UNITY_PROJECT_DIR
+
+# Install package: ${this.packageName}
+${this.packageInstallCli}
+`;
+      const highlighted = highlightjs.highlight("sh", code).value;
+      return `<pre><code class="hljs sh">${highlighted}</code></pre>`;
     }
   },
   watch: {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
-      Object.assign(this.$data, defaultData());
-      this.onStart();
+      if (to.name != from.name) {
+        Object.assign(this.$data, defaultData());
+        this.onStart();
+      }
     }
   },
   mounted() {
@@ -765,11 +906,15 @@ export default {
         font-weight 600
         border-bottom none
 
-      a, h2, p, span, ul, li, div.toast
+      a, h2, h3, p, ul, li, div.toast
         font-size 0.75rem
 
       span, span a
         font-size 0.7rem
+
+      small
+        span, span a
+          font-size 0.6rem
 
       div.toast
         p
@@ -784,6 +929,22 @@ export default {
         margin 0
         list-style none
 
+      .install-section
+        padding 0.5rem !important;
+        border 2px solid $borderColor !important;
+
+        h3
+          margin-bottom 0.4rem
+
+        .install-option
+          margin-bottom 0.5rem
+
+        .install-option:not(:last-child)
+          margin-bottom 0.8rem
+
+        .package-installer-btn-wrap
+          margin-top 0.5rem
+
       .install-cli
         position relative
         a
@@ -793,10 +954,9 @@ export default {
           display block
           white-space nowrap
           overflow hidden
-          margin-bottom 0.4rem
           padding 0.7rem
           font-size 0.75rem
-          background-color #fff
+          background-color transparent
           border 1px solid $borderColor
           color $accentColor
           cursor pointer

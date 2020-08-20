@@ -23,6 +23,26 @@ const _urlUtils = {
   // GitHub search code API URL
   githubSearchCodeApiUrl: "https://api.github.com/search/code",
 
+  // Package installer Site URL
+  packageInstallerSiteUrl: "https://package-installer.glitch.me",
+
+  // Package installer URL
+  getPackageInstallerUrl: function(packageName, scopes) {
+    const params = new URLSearchParams();
+    params.set("registry", this.openupmRegistryUrl);
+    if (scopes) {
+      for (const scope of scopes) {
+        params.append("scope", scope);
+      }
+    }
+    return urljoin(
+      this.packageInstallerSiteUrl,
+      "/v1/installer/OpenUPM/",
+      packageName,
+      "?" + params.toString()
+    );
+  },
+
   // Return Azure web build URL by buildId
   getAzureWebBuildUrl: function(buildId) {
     return (
