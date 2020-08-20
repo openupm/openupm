@@ -1,0 +1,17 @@
+name: com.oshoham.unity-google-cloud-streaming-speech-to-text
+displayName: Google Cloud Streaming Speech-to-Text
+description: >-
+  A Unity plugin for real-time, indefinite speech-to-text transcription from a
+  microphone using Google Cloud Speech-to-Text.
+repoUrl: 'https://github.com/oshoham/UnityGoogleStreamingSpeechToText'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: oshoham
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.8
+image: null
+readme: 'master:README.md'
+createdAt: 1597966560241
