@@ -161,13 +161,20 @@ const _fetchPackageScopes = async function(packageName) {
       const versions = Object.keys(pkgMeta.versions);
       if (!versions.find(x => x == entry.version))
         entry.version = getLatestVersion(pkgMeta);
-      // add dependencies to pending list
-      const deps = _.toPairs(
-        pkgMeta.versions[entry.version]["dependencies"]
-      ).map(x => {
-        return { name: x[0], version: x[1] };
-      });
-      deps.forEach(x => pendingList.push(x));
+      try {
+        // add dependencies to pending list
+        const deps = _.toPairs(
+          pkgMeta.versions[entry.version]["dependencies"]
+        ).map(x => {
+          return { name: x[0], version: x[1] };
+        });
+        deps.forEach(x => pendingList.push(x));
+      } catch (err) {
+        logger.error(
+          httpErrorInfo(err, { pkg: packageName, dep: entry.name }),
+          "fetch package scopes error"
+        );
+      }
     }
   }
   // Save to db.
