@@ -14,10 +14,11 @@ const packageKey = "pkg:";
 const propKeys = {
   imageUrl: "imageUrl",
   invalidTags: "invalidTags",
+  parentStars: "pstars",
   readme: "readme",
   readmeHtml: "readmeHtml",
+  scopes: "scopes",
   stars: "stars",
-  parentStars: "pstars",
   unityVersion: "unity",
   updatedTime: "updatedTime",
   version: "ver"
@@ -30,6 +31,16 @@ const setInvalidTags = async function(packageName, tags) {
 
 const getInvalidTags = async function(packageName) {
   const jsonText = await getValue(packageName, propKeys.invalidTags);
+  return jsonText === null ? [] : JSON.parse(jsonText);
+};
+
+const setScopes = async function(packageName, scopes) {
+  const jsonText = JSON.stringify(scopes, null, 0);
+  await setValue(packageName, propKeys.scopes, jsonText);
+};
+
+const getScopes = async function(packageName) {
+  const jsonText = await getValue(packageName, propKeys.scopes);
   return jsonText === null ? [] : JSON.parse(jsonText);
 };
 
@@ -157,6 +168,7 @@ module.exports = {
   getReadme,
   getReadmeHtml,
   getRecentPackages,
+  getScopes,
   getStars,
   getUnityVersion,
   getUpdatedTime,
@@ -168,6 +180,7 @@ module.exports = {
   setReadme,
   setReadmeHtml,
   setRecentPackages,
+  setScopes,
   setStars,
   setUnityVersion,
   setUpdatedTime,

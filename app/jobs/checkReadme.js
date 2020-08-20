@@ -10,7 +10,7 @@ const {
 } = require("../utils/package");
 const logger = require("../utils/log")(module);
 
-const checkDependencies = async function(packageNames) {
+const checkReadme = async function(packageNames) {
   if (!packageNames) packageNames = [];
   for (let name of packageNames) {
     // Verify package
@@ -49,6 +49,6 @@ if (require.main === module) {
     .run(async function() {
       if (program.all) packageNames = await loadPackageNames();
       if (packageNames === null || !packageNames.length) program.help();
-      await checkDependencies(packageNames);
+      await checkReadme(packageNames);
     });
 }

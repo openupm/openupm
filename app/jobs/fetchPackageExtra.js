@@ -1,7 +1,7 @@
 /**
  * Fetch package extra data
  **/
-
+const _ = require("lodash");
 const cheerio = require("cheerio");
 const config = require("config");
 const urljoin = require("url-join");
@@ -32,6 +32,7 @@ const fetchExtraData = async function(packageNames) {
     // Load package
     const pkg = await loadPackage(packageName);
     await _fetchPackageInfo(packageName);
+    await _fetchPackageScopes(packageName);
     await _fetchStars(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
@@ -60,28 +61,46 @@ const isErrorCode = function(error, code) {
 };
 
 /**
+ * Fetch package meta json.
+ * @param {string} packageName
+ */
+const fetchPackageMeta = async function(packageName) {
+  const resp = await AxiosService.create().get(
+    urljoin("https://package.openupm.com", packageName),
+    {
+      headers: { Accept: "application/json" }
+    }
+  );
+  return resp.data;
+};
+
+// Get latest version from the package meta
+const getLatestVersion = function(pkgMeta) {
+  if (pkgMeta["dist-tags"] && pkgMeta["dist-tags"]["latest"])
+    return pkgMeta["dist-tags"]["latest"];
+  else if (pkgMeta.versions)
+    return Object.keys(pkgMeta.versions).find(
+      key => pkgMeta.versions[key] == "latest"
+    );
+};
+
+/**
  * Fetch package info from the registry.
  * @param {string} repo
  * @param {string} packageName
  */
 const _fetchPackageInfo = async function(packageName) {
   try {
-    const resp = await AxiosService.create().get(
-      urljoin("https://package.openupm.com", packageName),
-      {
-        headers: { Accept: "application/json" }
-      }
-    );
-    const pkgInfo = resp.data;
-    const version = pkgInfo["dist-tags"].latest;
-    const versionInfo = pkgInfo.versions[version];
+    const pkgMeta = await fetchPackageMeta(packageName);
+    const version = pkgMeta["dist-tags"].latest;
+    const versionInfo = pkgMeta.versions[version];
     // Save the unity version.
     const unityVersion = /^[0-9]{4,4}\.[0-9]/i.test(versionInfo.unity)
       ? versionInfo.unity
       : "";
     await PackageExtra.setUnityVersion(packageName, unityVersion);
     // Save the update time.
-    const timeStr = pkgInfo.time[version] || 0;
+    const timeStr = pkgMeta.time[version] || 0;
     const time = new Date(timeStr).getTime();
     await PackageExtra.setUpdatedTime(packageName, time);
     // Save the package version.
@@ -92,6 +111,69 @@ const _fetchPackageInfo = async function(packageName) {
       "fetch package info error"
     );
   }
+};
+
+/**
+ * Fetch package scopes for dependencies.
+ * @param {string} repo
+ * @param {string} packageName
+ */
+const _fetchPackageScopes = async function(packageName) {
+  // a list of pending {name, version}
+  const pendingList = [{ name: packageName, version: null }];
+  // a list of processed {name, version}
+  const processedList = [];
+  // a set of package names exists on the registry
+  const scopeSet = new Set();
+  // cached package meta: { name: meta }
+  const cachedPackageMetas = {};
+  while (pendingList.length > 0) {
+    const entry = pendingList.shift();
+    if (processedList.find(x => _.isEqual(x, entry)) === undefined) {
+      // add entry to processed list
+      processedList.push(entry);
+      // skip unity module
+      if (/com.unity.modules/i.test(entry.name)) continue;
+      // fetch package meta from the cache
+      let pkgMeta = cachedPackageMetas[entry.name];
+      // fetch package meta from the registry
+      if (!pkgMeta) {
+        try {
+          pkgMeta = await fetchPackageMeta(entry.name);
+          cachedPackageMetas[entry.name] = pkgMeta;
+        } catch (err) {
+          if (!isErrorCode(err, 404)) {
+            logger.error(
+              httpErrorInfo(err, { pkg: packageName }),
+              "fetch package scopes error"
+            );
+          }
+        }
+      }
+      // skip unexisted package
+      if (!pkgMeta) continue;
+      // add to the scope list
+      scopeSet.add(entry.name);
+      // parse the latest version
+      if (!entry.version || entry.version == "latest")
+        entry.version = getLatestVersion(pkgMeta);
+      // fall back to latest version if version does not existed
+      const versions = Object.keys(pkgMeta.versions);
+      if (!versions.find(x => x == entry.version))
+        entry.version = getLatestVersion(pkgMeta);
+      // add dependencies to pending list
+      const deps = _.toPairs(
+        pkgMeta.versions[entry.version]["dependencies"]
+      ).map(x => {
+        return { name: x[0], version: x[1] };
+      });
+      deps.forEach(x => pendingList.push(x));
+    }
+  }
+  // Save to db.
+  const scopes = Array.from(scopeSet);
+  scopes.sort();
+  await PackageExtra.setScopes(packageName, scopes);
 };
 
 /**
