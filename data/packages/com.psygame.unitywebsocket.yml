@@ -1,6 +1,6 @@
 name: com.psygame.unitywebsocket
 displayName: UnityWebSocket
-description: ':whale: The Best Unity WebSocket Plugin for All Platforms.'
+description: '🐳 The Best Unity WebSocket Plugin for All Platforms.'
 repoUrl: 'https://github.com/psygame/UnityWebSocket'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -9,8 +9,8 @@ topics:
   - network
 hunter: psygame
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-test'
 minVersion: 2.2.0
-image: null
+image: 'https://s1.ax1x.com/2020/08/21/dYIAQU.png'
 readme: 'ump:README.md'
 createdAt: 1597394716697
