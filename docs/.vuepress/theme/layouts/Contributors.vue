@@ -121,7 +121,14 @@ export default {
       });
     },
     backers() {
-      return this.$page.frontmatter.backers.map(getBackerData);
+      return this.$page.frontmatter.backers
+        .filter(x => {
+          if (x.expires) {
+            return Date.parse(x.expires) >= new Date().getTime();
+          }
+          return true;
+        })
+        .map(getBackerData);
     }
   },
   methods: {
