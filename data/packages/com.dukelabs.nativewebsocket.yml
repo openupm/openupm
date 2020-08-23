@@ -1,0 +1,18 @@
+name: com.dukelabs.nativewebsocket
+displayName: NativeWebSocket
+description: >-
+  Web Socket client for Unity - with no external dependencies (WebGL, Native,
+  Android, iOS, UWP)
+repoUrl: 'https://github.com/AlexanderDykov/NativeWebSocket'
+parentRepoUrl: 'https://github.com/endel/NativeWebSocket'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/AlexanderDykov/NativeWebSocket/master/Media/header.png'
+readme: 'upm:README.md'
+createdAt: 1598145633713
