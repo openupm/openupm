@@ -1,0 +1,16 @@
+name: com.baba-s.uni-enum-extensions-methods
+displayName: UniEnumExtensionMethods
+description: 【Unity】列挙型の拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniEnumExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598306950290
