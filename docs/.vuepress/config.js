@@ -242,6 +242,21 @@ module.exports = {
             ? "article"
             : "website"
       }
+    ],
+    [
+      "flexsearch",
+      {
+        searchHotkeys: ["s", "/"],
+        search_options: {
+          encode: "icase",
+          tokenize: "reverse",
+          resolution: 9,
+          doc: {
+            id: "key",
+            field: ["title", "content", "headers"]
+          }
+        }
+      }
     ]
   ],
   // eslint-disable-next-line no-unused-vars
