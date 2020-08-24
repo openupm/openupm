@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/openupm/openupm/compare/1.33.0...1.34.0) (2020-08-24)
+
+
+### Features
+
+* **website:** flexsearch widget ([50977e0](https://github.com/openupm/openupm/commit/50977e0ea4c76712bacd3981eff5579e4848f491))
+
 # [1.33.0](https://github.com/openupm/openupm/compare/1.32.0...1.33.0) (2020-08-20)
 
 
