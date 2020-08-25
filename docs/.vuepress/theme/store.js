@@ -20,12 +20,14 @@ export function getStore(isServer) {
       state: {
         packagesExtra: [],
         recentPackages: [],
-        preferHorizontalLayout: false
+        preferHorizontalLayout: false,
+        siteInfo: {}
       },
       getters: {
         packagesExtra: state => state.packagesExtra,
         recentPackages: state => state.recentPackages,
-        preferHorizontalLayout: state => state.preferHorizontalLayout
+        preferHorizontalLayout: state => state.preferHorizontalLayout,
+        siteInfo: state => state.siteInfo
       },
       actions: {
         async fetchPackagesExtra({ commit }) {
@@ -55,6 +57,20 @@ export function getStore(isServer) {
             console.error(error);
           }
         },
+        async fetchSiteInfo({ commit }) {
+          try {
+            const resp = await axios.get(
+              urljoin(util.openupmApiUrl, "site/info"),
+              {
+                headers: { Accept: "application/json" }
+              }
+            );
+            resp.data.__time = new Date().getTime();
+            commit("setSiteInfo", resp.data);
+          } catch (error) {
+            console.error(error);
+          }
+        },
         setPreferHorizontalLayout({ commit }, { value }) {
           commit("setPreferHorizontalLayout", value);
         }
@@ -65,6 +81,9 @@ export function getStore(isServer) {
         },
         setRecentPackages: (state, data) => {
           state.recentPackages = data;
+        },
+        setSiteInfo: (state, data) => {
+          state.siteInfo = data;
         },
         setPreferHorizontalLayout: (state, preferHorizontalLayout) => {
           state.preferHorizontalLayout = preferHorizontalLayout;

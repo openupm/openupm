@@ -8,25 +8,16 @@
       </div>
     </div>
     <ParentLayout></ParentLayout>
-    <div class="nav-links hide-md">
-      <div class="nav-item growth">
-        <div class="btn-group">
-          <a href="https://github.com/openupm/openupm" class="btn btn-sm"
-            ><i class="fa fa-star"></i> Star</a
-          >
-          <a href="https://www.patreon.com/openupm" class="btn btn-sm"
-            ><i class="fab fa-patreon"></i> Donate</a
-          >
-        </div>
-      </div>
-    </div>
+    <GrowthNavbar />
   </div>
 </template>
 
 <script>
 import ParentLayout from "@parent-theme/components/NavLinks.vue";
+import GrowthNavbar from "./GrowthNavbar.vue";
+
 export default {
-  components: { ParentLayout }
+  components: { ParentLayout, GrowthNavbar }
 };
 </script>
 
@@ -62,13 +53,6 @@ export default {
       a
         &:hover
           border-bottom none
-
-    &.growth
-      margin-left 1.6rem
-      display inline-block
-      .btn
-        font-size 12px
-        padding-top 0
 
     a
       &.external

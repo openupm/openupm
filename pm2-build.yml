@@ -42,3 +42,14 @@ apps:
     max_memory_restart: 512M
     cron_restart: "*/15 * * * *"
     autorestart: false
+  - name: site-info
+    instance_var: site-info
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/fetchSiteInfo.js
+    args: --all
+    error_file: ./logs/site-info-error.log
+    out_file: ./logs/site-info.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/5 * * * *"
+    autorestart: false

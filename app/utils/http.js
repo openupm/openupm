@@ -26,4 +26,25 @@ const AxiosService = {
   }
 };
 
-module.exports = { AxiosService };
+/**
+ * Return HTTP error info object
+ * @param {Object} error
+ * @param {Object} others
+ */
+const httpErrorInfo = function(err, others) {
+  // Show http status if possible or fallback to error
+  if (err.response && err.response.status)
+    return { status: err.response.status, ...others };
+  else return { err, ...others };
+};
+
+/**
+ * Return if error has given status code.
+ * @param {Object} error
+ * @param {Number} code
+ */
+const isErrorCode = function(error, code) {
+  return error.response && error.response.status == code;
+};
+
+module.exports = { AxiosService, httpErrorInfo, isErrorCode };

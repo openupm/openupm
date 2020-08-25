@@ -13,7 +13,7 @@ const {
   packageExists
 } = require("../utils/package");
 const { renderMarkdownToHtml } = require("../utils/markdown");
-const { AxiosService } = require("../utils/http");
+const { AxiosService, httpErrorInfo, isErrorCode } = require("../utils/http");
 const logger = require("../utils/log")(module);
 
 /**
@@ -37,27 +37,6 @@ const fetchExtraData = async function(packageNames) {
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
   }
-};
-
-/**
- * Return HTTP error info object
- * @param {Object} error
- * @param {Object} others
- */
-const httpErrorInfo = function(err, others) {
-  // Show http status if possible or fallback to error
-  if (err.response && err.response.status)
-    return { status: err.response.status, ...others };
-  else return { err, ...others };
-};
-
-/**
- * Return if error has given status code.
- * @param {Object} error
- * @param {Number} code
- */
-const isErrorCode = function(error, code) {
-  return error.response && error.response.status == code;
 };
 
 /**

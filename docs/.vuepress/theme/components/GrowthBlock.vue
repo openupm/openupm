@@ -5,7 +5,8 @@
         <div class="btn-group">
           <NavLink :item="packagesLink" class="btn btn-sm" />
           <a href="https://github.com/openupm/openupm" class="btn btn-sm"
-            ><i class="fa fa-star"></i> Star</a
+            ><i class="fa fa-star"></i> Star <span>|</span>
+            <span class="stars">{{ stars }}</span></a
           >
           <a href="https://www.patreon.com/openupm" class="btn btn-sm"
             ><i class="fab fa-patreon"></i> Donate</a
@@ -32,6 +33,9 @@ export default {
         icon: "fa fa-box-open",
         iconLeft: true
       };
+    },
+    stars() {
+      return this.$store.getters.siteInfo.stars || "...";
     }
   }
 };
@@ -49,4 +53,8 @@ export default {
 
   .btn-group
     width 100%
+
+  .stars
+    display inline-block
+    min-width 1rem
 </style>
