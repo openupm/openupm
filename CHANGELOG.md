@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/openupm/openupm/compare/1.34.0...1.35.0) (2020-08-25)
+
+
+### Features
+
+* **website:** show GitHub stars count on the star button. ([61d7cc5](https://github.com/openupm/openupm/commit/61d7cc54d9bc0700501c18f2cf7af0c3fd0f7963))
+
 # [1.34.0](https://github.com/openupm/openupm/compare/1.33.0...1.34.0) (2020-08-24)
 
 
