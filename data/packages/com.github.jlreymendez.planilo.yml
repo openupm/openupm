@@ -1,0 +1,19 @@
+name: com.github.jlreymendez.planilo
+displayName: planilo
+description: >-
+  A xNode based tool for designing AI Graphs like Behavior Trees and Finite
+  State Machines in Unity
+repoUrl: 'https://github.com/jlreymendez/planilo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+hunter: jlreymendez
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598392569964
