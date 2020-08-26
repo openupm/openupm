@@ -20,6 +20,9 @@
   <a href="https://discord.gg/FnUgWEP">
     <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
+  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,upm,gamedev" alt="Twitter URL">
+    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+  </a>
 </p>
 <p align="center">
   <a href="https://openupm.com/">
@@ -27,44 +30,58 @@
   </a>
 </p>
 
-## Supporting OpenUPM
+**Table of contents**
 
-OpenUPM is an open-source service for hosting and building open source unity package manager (upm) packages. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome sponsors, backers, and contributors. If you'd like to join them, please consider
+- [Introduction](#introduction)
+- [Sponsors and backers](#sponsors-and-backers)
+- [Ecosystem](#ecosystem)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Community](#community)
+- [Contributors](#contributors)
+- [Terms and license](#terms-and-license)
+
+## Introduction
+
+OpenUPM is an open-source service for hosting and building open-source Unity Package Manager (UPM) packages. The intention is to create a universal platform to discover, distribute, and share open-source UPM packages, and build a community along with it.
+
+OpenUPM is composed of two parts:
+- The managed [scoped package registry](https://docs.unity3d.com/Manual/upm-scoped.html) for hosting UPM packages.
+- The automatic build pipelines for tracking, building, and publishing UPM packages based on Git tags.
+
+> Notice: OpenUPM is not an official service provided by Unity Technologies Inc.
+
+Learn more at [our documentations](https://openupm.com/docs/).
+
+## Sponsors and backers
+OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
 - [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
 - [exploring other donation options](https://openupm.com/support/)
 
-## Sponsors and Backers
+## Ecosystem
 
-Thank you to [all the sponsors and backers](./BACKERS.md) who already donated to OpenUPM!
+| Sub-project                                                                   | Description                   |
+|---------------------------------------------------------------------------|-------------------------------|
+| [package.openupm.com](https://package.openupm.com)                | UPM registry               |
+| [openupm/openupm](https://github.com/openupm/openupm)                     | website, package curated list |
+| [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | build pipelines               |
+| [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | command-line tool             |
+
+## Bugs and feature requests
+
+Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/openupm/openupm/issues/new).
+
+## Community
+
+- Blog regularly at [medium.com/openupm](https://medium.com/openupm)
+- Chat at [Discord](https://discord.gg/FnUgWEP)
+- Contact us at [hello@openupm.com](hello@openupm.com)
+- Track package updates at [the RSS feed](https://openupm.com/feeds/updates/rss)
 
 ## Contributors
 
 Thank you to [all the people](https://openupm.com/contributors/) who already contributed to OpenUPM!
 
-## Introduction
-
-OpenUPM is composed of two parts: a managed upm package registry with automatic build pipelines. The intention is to create a universal platform to discover, share and distribute open-source upm packages, and a community along with it.
-
-> Notice: OpenUPM is not an official service provided by Unity Technologies Inc.
-
-## Documentation
-
-Please visit [docs](https://openupm.com/docs/)
-
-## Ecosystem
-
-| Project                                                                   | Description                   |
-|---------------------------------------------------------------------------|-------------------------------|
-| [openupm/openupm](https://github.com/openupm/openupm)                     | website, package curated list |
-| [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | build pipelines               |
-| [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | command-line tool             |
-| [https://package.openupm.com](https://package.openupm.com)                | public registry               |
-
-## Stay in Touch
-
-Blog regularly at [patreon.com/openupm](https://www.patreon.com/openupm)
-
-## Terms and License
+## Terms and license
 
 - Source code licensed under [BSD-3-Clause](./LICENSE)
 - OpenUPM website and public registry [terms-of-use](https://openupm.com/docs/terms.html)
