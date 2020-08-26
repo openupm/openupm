@@ -1,0 +1,19 @@
+name: com.nementic.selection-utility
+displayName: Selection Utility
+description: >-
+  Unity tool to facilitate selecting GameObjects in the SceneView by showing a
+  context menu of all objects under the mouse cursor.
+repoUrl: 'https://github.com/nementic-games/selection-utility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/nementic-games/selection-utility/raw/7fbd5707ab9b9cc64b9f0911bbb9524214299ed8/Documentation~/Preview_2019.3.png
+readme: 'master:README.md'
+createdAt: 1598451291437
