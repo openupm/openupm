@@ -1,0 +1,17 @@
+name: com.adrenak.restsharp.unity
+displayName: RestSharp.Unity
+description: A UPM package for RestSharp with some extensions and extra stuff.
+repoUrl: 'https://github.com/adrenak/RestSharp.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598559352567
