@@ -8,8 +8,11 @@
             ><i class="fa fa-star"></i> Star <span>|</span>
             <span class="stars">{{ stars }}</span></a
           >
-          <a href="https://www.patreon.com/openupm" class="btn btn-sm"
+          <!-- <a href="https://www.patreon.com/openupm" class="btn btn-sm"
             ><i class="fab fa-patreon"></i> Donate</a
+          > -->
+          <a :href="tweetUrl" class="btn btn-sm"
+            ><i class="fab fa-twitter"></i> Tweet</a
           >
         </div>
       </div>
@@ -19,6 +22,7 @@
 
 <script>
 import NavLink from "@theme/components/NavLink.vue";
+import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { NavLink },
@@ -36,6 +40,9 @@ export default {
     },
     stars() {
       return this.$store.getters.siteInfo.stars || "...";
+    },
+    tweetUrl() {
+      return util.tweetUrl;
     }
   }
 };

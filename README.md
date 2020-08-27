@@ -20,7 +20,7 @@
   <a href="https://discord.gg/FnUgWEP">
     <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
-  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,upm,gamedev" alt="Twitter URL">
+  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,openupm,upm,gamedev" alt="Tweet URL">
     <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
   </a>
 </p>

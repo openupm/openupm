@@ -9,12 +9,17 @@
         <a href="https://www.patreon.com/openupm" class="btn btn-sm"
           ><i class="fab fa-patreon"></i> Donate</a
         >
+        <a :href="tweetUrl" class="btn btn-sm"
+          ><i class="fab fa-twitter"></i> Tweet</a
+        >
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import util from "@root/docs/.vuepress/util";
+
 export default {
   components: {},
   data() {
@@ -23,6 +28,9 @@ export default {
   computed: {
     stars() {
       return this.$store.getters.siteInfo.stars || "...";
+    },
+    tweetUrl() {
+      return util.tweetUrl;
     }
   }
 };
