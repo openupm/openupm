@@ -11,9 +11,9 @@ topics:
   - ai
   - editor-enhancement
 hunter: jlreymendez
-gitTagPrefix: ''
+gitTagPrefix: 'upm'
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'v0.2.0-preview'
 image: null
 readme: 'master:README.md'
 createdAt: 1598392569964
