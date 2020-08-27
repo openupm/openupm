@@ -1,0 +1,16 @@
+name: com.adrenak.mediaplayer
+displayName: Unity Media Player
+description: A standardised media player interface for Unity.
+repoUrl: 'https://github.com/adrenak/mediaplayer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - video
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598558057623
