@@ -1,0 +1,17 @@
+name: com.vladfaust.unitywakatime
+displayName: Unity WakaTime
+description: WakaTime plugin for Unity ⏱
+repoUrl: 'https://github.com/vladfaust/unity-wakatime'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/7955682/38732057-79cf45b4-3f25-11e8-958f-07ba5290caba.PNG'
+readme: 'package:README.md'
+createdAt: 1598550325511
