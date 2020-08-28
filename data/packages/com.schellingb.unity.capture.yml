@@ -1,0 +1,18 @@
+name: com.schellingb.unity.capture
+displayName: Unity Capture
+description: >-
+  Streams Unity rendered output to other Windows applications as virtual capture
+  device
+repoUrl: 'https://github.com/CreativeModeOverlay/CM-UnityCapture-UPM'
+parentRepoUrl: 'https://github.com/schellingb/UnityCapture'
+licenseSpdxId: null
+licenseName: See README
+topics:
+  - video
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/schellingb/UnityCapture/master/README.png'
+readme: 'master:README.md'
+createdAt: 1598639480598
