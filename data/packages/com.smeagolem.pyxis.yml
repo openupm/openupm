@@ -1,0 +1,16 @@
+name: com.smeagolem.pyxis
+displayName: Pyxis
+description: "\U0001F9F0 A box of Unity tools."
+repoUrl: 'https://github.com/smeagolem/pyxis'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: smeagolem
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598915855578
