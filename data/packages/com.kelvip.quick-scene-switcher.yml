@@ -16,5 +16,5 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://github.com/Kelvin-CD/Quick-Scene-Switcher/raw/4375eecbf246012ae0bc065d737d9f68d5b0f910/AddScene.png
-readme: 'upm:README.md'
+readme: 'master:README.md'
 createdAt: 1594518305535
