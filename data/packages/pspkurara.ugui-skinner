@@ -1,0 +1,16 @@
+name: pspkurara.ugui-skinner
+displayName: uGUI Skinner
+description: It is a library that can easily switch the display pattern of UGUI.
+repoUrl: 'https://github.com/pspkurara/ugui-skinner'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: pspkurara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1599204928135
