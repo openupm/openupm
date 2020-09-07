@@ -1,0 +1,19 @@
+name: com.wooshii.hierarchydecorator
+displayName: HierarchyDecorator
+description: >-
+  Lightweight Unity Extension for allowing Headers and GameObject info inside
+  the Hierarchy Window
+repoUrl: 'https://github.com/WooshiiDev/HierarchyDecorator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: WooshiiDev/
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2014.8'
+image: >-
+  https://github.com/WooshiiDev/HierarchyDecorator/raw/fd6d39e67138d68f857f2152840ea809b464e43e/Assets/HierarchyDecorator/Resources/HierarchyDecoratorLogo.png
+readme: 'master:README.md'
+createdAt: 1599516719936
