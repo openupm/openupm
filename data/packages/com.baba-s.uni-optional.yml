@@ -1,0 +1,16 @@
+name: com.baba-s.uni-optional
+displayName: UniOptional
+description: 【Unity】無効値を表す構造体
+repoUrl: 'https://github.com/baba-s/UniOptional'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599443751861
