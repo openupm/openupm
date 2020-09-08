@@ -1,0 +1,16 @@
+name: paps.hierarchical-state-machine.tools-for-unity
+displayName: Paps Hierarchical State Machine Tools For Unity
+description: Tools for easily build hierarchical state machines in Unity 3d
+repoUrl: 'https://github.com/Sammmte/Paps-HierarchicalStateMachine-ToolsForUnity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599593837979
