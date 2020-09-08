@@ -1,0 +1,16 @@
+name: paps.plain-state-machine
+displayName: Paps Plain State Machine
+description: A simple finite state machine (flat) library in c#
+repoUrl: 'https://github.com/Sammmte/Paps-PlainStateMachine'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599593789143
