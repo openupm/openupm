@@ -1,0 +1,16 @@
+name: paps.hierarchical-state-machine
+displayName: Paps Hierarchical State Machine
+description: A hierarchical state machine made in c#
+repoUrl: 'https://github.com/Sammmte/Paps-HierarchicalStateMachine'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599593871482
