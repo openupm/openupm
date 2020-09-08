@@ -1,0 +1,16 @@
+name: paps.event-bus
+displayName: Paps Event Bus
+description: null
+repoUrl: 'https://github.com/Sammmte/Paps-EventBus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599593909823
