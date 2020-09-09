@@ -1,0 +1,22 @@
+name: com.sag.guid-references
+displayName: Guid References
+description: >-
+  Package for Unity that provides functionality for cross-scene references.
+  Inspired by https://github.com/Unity-Technologies/guid-based-reference.
+  Supports Unity Package Manager.
+repoUrl: 'https://github.com/STARasGAMES/Guid-References'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+  - level-design
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599684974679
