@@ -1,0 +1,16 @@
+name: com.coffee.csharp-compiler-settings
+displayName: C# Compiler Settings
+description: 'Change the C# compiler (csc) used on your Unity project, as you like!'
+repoUrl: 'https://github.com/mob-sakai/CSharpCompilerSettingsForUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: mob-sakai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1599837369650
