@@ -9,7 +9,7 @@ topics:
   - gui
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^v'
 minVersion: ''
 image: 'https://camo.githubusercontent.com/26fecc94b000202cf78b5baf6e885f7993ad7b1c/68747470733a2f2f617a69786d63617a652e6769746875622e696f2f556e6974792d55494772616469656e742f73637265656e73686f74332e706e67'
 readme: 'master:README.md'

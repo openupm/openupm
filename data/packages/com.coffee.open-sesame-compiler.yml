@@ -11,4 +11,7 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: '^v'
+readme: 'upm:README.md'
 createdAt: 1577289982000
