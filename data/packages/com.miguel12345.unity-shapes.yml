@@ -1,0 +1,16 @@
+name: com.miguel12345.unity-shapes
+displayName: Unity Shapes
+description: 'Draw shapes (circle,line,arrow) with one line of code in Unity'
+repoUrl: 'https://github.com/jtfrom9/UnityShapes'
+parentRepoUrl: 'https://github.com/miguel12345/UnityShapes'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - painting
+hunter: jtfrom9
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600097761029
