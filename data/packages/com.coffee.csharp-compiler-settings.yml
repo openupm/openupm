@@ -9,7 +9,7 @@ topics:
   - editor-enhancement
 hunter: mob-sakai
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^v'
 minVersion: ''
 image: null
 readme: 'upm:README.md'
