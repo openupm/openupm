@@ -1,0 +1,16 @@
+name: com.utj.transformdump
+displayName: TransformDumper
+description: TransformDumpber
+repoUrl: 'https://github.com/wotakuro/TransformDumper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600289287209
