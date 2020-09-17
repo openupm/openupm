@@ -32,6 +32,23 @@
               </select>
             </div>
           </li>
+          <li class="divider show-sm" data-content="Topics"></li>
+          <li class="menu-item show-sm">
+            <div class="form-group">
+              <select
+                v-model="topicValue"
+                class="form-select"
+                @change="updateRouter()"
+              >
+                <option
+                  v-for="option in topics"
+                  :key="option.value"
+                  :value="option.value"
+                  >{{ option.text }}</option
+                >
+              </select>
+            </div>
+          </li>
           <li class="divider" data-content="Sort by"></li>
           <li class="menu-item">
             <div class="form-group">
@@ -51,13 +68,13 @@
           </li>
         </ul>
       </section>
-      <section class="topic-section">
+      <section class="topic-section hide-sm">
         <ul class="menu">
           <li class="divider" data-content="Topics"></li>
           <div class="columns">
             <div
               v-for="item in topics"
-              :key="item.slug"
+              :key="item.value"
               class="column col-12 col-sm-6"
             >
               <li class="menu-item">
@@ -143,6 +160,7 @@ export default {
   data() {
     return {
       active: true,
+      topicValue: "",
       sort: SortType.updatedAt,
       sortList: [
         { text: "Name", value: SortType.name },
@@ -255,6 +273,7 @@ export default {
           return {
             link: topic.link,
             text: topic.name,
+            value: topic.slug,
             class: topic.slug == this.topic.slug ? "active" : ""
           };
         });
@@ -313,6 +332,8 @@ export default {
       if (this.unityOptions.map(x => x.value).includes(unity))
         this.unity = unity;
       else this.unity = "";
+      // topic
+      this.topicValue = this.topic.slug;
     },
 
     /**
@@ -340,8 +361,13 @@ export default {
      * Update router for current data
      */
     updateRouter() {
+      let path = this.$route.path;
+      if (this.topicValue != this.topic.slug) {
+        if (this.topicValue) path = "/packages/topics/" + this.topicValue + "/";
+        else path = "/packages/";
+      }
       this.$router.push({
-        path: this.$route.path,
+        path,
         query: this.query
       });
     }
