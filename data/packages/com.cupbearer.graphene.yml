@@ -1,0 +1,19 @@
+name: com.cupbearer.graphene
+displayName: Graphene
+description: >-
+  Graphene is a lightweight and modular framework for building user interfaces
+  with Unity UI Toolkit
+repoUrl: 'https://github.com/LudiKha/Graphene'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LudiKha/Graphene/raw/32fa63ec1dc950c33d1cb5582e36b10e15319c67/docs/images/graphene-logo-full.png
+readme: 'master:README.md'
+createdAt: 1600307240563
