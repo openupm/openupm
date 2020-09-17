@@ -23,7 +23,7 @@ To solve the issue, as the first step, a command-line tool [openupm-cli](https:/
 
 ```
 +-----+   update   +---------------+   resolve   +-----+
-| CLI | ---------> | manifest.json | <---------+ | UPM |
+| CLI | ---------> | manifest.json | <---------- | UPM |
 +-----+            +---------------+             +-----+
 ```
 

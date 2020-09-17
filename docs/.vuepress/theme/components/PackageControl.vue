@@ -1,12 +1,15 @@
 <template>
   <div class="package-control btn-group">
     <button
-      :class="{ 'btn btn-action': true, active: !preferHorizontalLayout }"
+      :class="{
+        'btn btn-sm btn-action': true,
+        active: !preferHorizontalLayout
+      }"
       @click="setPreferHorizontalLayout(false)"
     >
-      <i class="fa fa-th"></i></button
+      <i class="fas fa-grip-horizontal"></i></button
     ><button
-      :class="{ 'btn btn-action': true, active: preferHorizontalLayout }"
+      :class="{ 'btn btn-sm btn-action': true, active: preferHorizontalLayout }"
       @click="setPreferHorizontalLayout(true)"
     >
       <i class="fa fa-bars"></i>

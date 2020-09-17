@@ -145,6 +145,11 @@ export default {
 
     .columns-horizontal
       flex-direction row-reverse
+      max-width 1088px
+
+      .card-image-wrapper
+        .card-image
+          height 95%
 
       .column-image
         position relative
@@ -158,14 +163,17 @@ export default {
       white-space nowrap
       text-overflow ellipsis
       overflow hidden
+      font-size 0.75rem
 
     .card-body
-      height 4.3rem
+      padding-top: 0.3rem
+      height 3.5rem
       overflow hidden
       display -webkit-box
       -webkit-line-clamp 3
       -webkit-box-orient vertical
       text-overflow: -o-ellipsis-lastline;
+      font-size 0.7rem
 
     .card-image-wrapper
       width 100%
@@ -198,8 +206,12 @@ export default {
             font-size 7.5vw
             color #666
 
+    .card-footer
+      padding 0.5rem 0.8rem 0.8rem 0.8rem
+
     .chip
       margin-bottom 0.2rem
+      font-size 0.65rem
 
       i
         padding-right 0.3rem

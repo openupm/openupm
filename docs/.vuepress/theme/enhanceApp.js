@@ -7,6 +7,7 @@
 
 import VueMq from "vue-mq";
 import Vuex from "vuex";
+// import PerfectScrollbar from "vue2-perfect-scrollbar";
 import { getStore } from "./store";
 
 export default ({
@@ -28,4 +29,5 @@ export default ({
       xl: 1200
     }
   });
+  // Vue.use(PerfectScrollbar);
 };
