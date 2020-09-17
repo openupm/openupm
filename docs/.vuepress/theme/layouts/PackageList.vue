@@ -88,7 +88,7 @@
       <div class="column col-8 col-md-7 breadcrumb-action-wrap text-right">
         <NavLink :item="contributorLink" class="btn btn-sm" />
         <NavLink :item="addPackageLink" class="btn btn-sm btn-primary" />
-        <PackageControl class="hide-sm" />
+        <PackageLayoutControl class="hide-sm" />
       </div>
     </template>
     <template #contentview>
@@ -127,7 +127,7 @@ import { trim } from "lodash/string";
 import AppLayout from "@theme/layouts/AppLayout.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageCard from "@theme/components/PackageCard.vue";
-import PackageControl from "@theme/components/PackageControl.vue";
+import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 import util from "@root/docs/.vuepress/util";
 
 const SortType = {
@@ -138,7 +138,7 @@ const SortType = {
 };
 
 export default {
-  components: { AppLayout, NavLink, PackageCard, PackageControl },
+  components: { AppLayout, NavLink, PackageCard, PackageLayoutControl },
 
   data() {
     return {

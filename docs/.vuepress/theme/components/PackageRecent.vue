@@ -12,7 +12,7 @@
         </h3>
       </div>
       <div class="column col-6 col-sm-3 text-right hide-sm">
-        <PackageControl />
+        <PackageLayoutControl />
       </div>
     </div>
 
@@ -38,10 +38,10 @@
 
 <script>
 import PackageCard from "@theme/components/PackageCard.vue";
-import PackageControl from "@theme/components/PackageControl.vue";
+import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 
 export default {
-  components: { PackageCard, PackageControl },
+  components: { PackageCard, PackageLayoutControl },
   data() {
     return {};
   },
