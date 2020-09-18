@@ -115,7 +115,7 @@
             <div class="columns">
               <div
                 v-for="pkg in packages"
-                :key="pkg.id"
+                :key="pkg.name"
                 :class="[
                   'column',
                   preferHorizontalLayout
