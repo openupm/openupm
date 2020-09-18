@@ -34,7 +34,7 @@
             <div class="card-footer">
               <span class="chip">
                 <img
-                  :src="pkg.ownerAvatarUrl"
+                  :src="pkg.ownerAvatarUrl + '?size=48'"
                   :alt="pkg.owner"
                   class="avatar avatar-sm"
                 />
@@ -43,7 +43,7 @@
               <span v-if="pkg.parentOwner" class="chip">
                 <img
                   v-if="pkg.parentOwnerAvatarUrl"
-                  :src="pkg.parentOwnerAvatarUrl"
+                  :src="pkg.parentOwnerAvatarUrl + '?size=48'"
                   :alt="pkg.parentOwner"
                   class="avatar avatar-sm"
                 />
