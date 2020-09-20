@@ -44,16 +44,6 @@
                 />
                 {{ pkg.owner }}
               </span>
-              <span v-if="pkg.parentOwner" class="chip">
-                <LazyImage
-                  v-if="pkg.parentOwnerAvatarUrl"
-                  :src="pkg.parentOwnerAvatarUrl + '?size=48'"
-                  :alt="pkg.parentOwner"
-                  class="avatar avatar-sm"
-                />
-                <i v-else class="fa fa-user"></i>
-                {{ pkg.parentOwner }}
-              </span>
               <span class="chip">
                 <i class="fa fa-scroll"></i>
                 {{ pkg.licenseSpdxId || pkg.licenseName || "No License" }}
@@ -74,9 +64,9 @@
                 class="tooltip"
                 data-tooltip="The package has no release yet"
               >
-                <span v-if="pkg.pending" class="chip bg-warning">
-                  <i class="fas fa-spinner"></i>Pending
-                </span>
+                <span v-if="pkg.pending" class="chip chip-icon-only"
+                  ><i class="fa fa-exclamation-triangle"
+                /></span>
               </span>
             </div>
           </div>
@@ -219,4 +209,8 @@ export default {
 
       i
         padding-right 0.3rem
+
+    .chip.chip-icon-only
+      i
+        padding-right 0
 </style>
