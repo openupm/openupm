@@ -165,26 +165,39 @@ module.exports = {
           {
             text: "GitHub",
             link: "https://github.com/openupm/openupm",
-            icon: "fab fa-github"
+            icon: "fab fa-github",
+            iconLeft: true
           },
           {
             text: "Medium",
-            link: "https://medium.com/openupm"
+            link: "https://medium.com/openupm",
+            icon: "fab fa-medium",
+            iconLeft: true
+          },
+          {
+            text: "Twitter",
+            link: "https://twitter.com/openupmupdate",
+            icon: "fab fa-twitter",
+            iconLeft: true
           },
           {
             text: "Discord",
-            link: "https://discord.gg/FnUgWEP"
+            link: "https://discord.gg/FnUgWEP",
+            icon: "fab fa-discord",
+            iconLeft: true
           },
           {
             link: "mailto:hello@openupm.com",
             text: "Contact Us",
-            icon: "fas fa-envelope"
+            icon: "fas fa-envelope",
+            iconLeft: true
           },
           {
             link: "/feeds/updates/rss",
             text: "Package Updates",
             icon: "fa fa-rss-square",
-            raw: true
+            raw: true,
+            iconLeft: true
           }
         ]
       },

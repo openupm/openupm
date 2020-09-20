@@ -73,26 +73,39 @@ export default {
         {
           link: this.$site.themeConfig.repo,
           text: "GitHub",
-          icon: "fab fa-github"
+          icon: "fab fa-github",
+          iconLeft: true
         },
         {
           link: "https://medium.com/openupm",
-          text: "Medium"
+          text: "Medium",
+          icon: "fab fa-medium",
+          iconLeft: true
+        },
+        {
+          link: "https://twitter.com/openupmupdate",
+          text: "Twitter",
+          icon: "fab fa-twitter",
+          iconLeft: true
         },
         {
           text: "Discord",
-          link: "https://discord.gg/FnUgWEP"
+          link: "https://discord.gg/FnUgWEP",
+          icon: "fab fa-discord",
+          iconLeft: true
         },
         {
           link: "mailto:hello@openupm.com",
           text: "Contact Us",
-          icon: "fas fa-envelope"
+          icon: "fas fa-envelope",
+          iconLeft: true
         },
         {
           link: "/feeds/updates/rss",
           text: "Package Updates",
           icon: "fa fa-rss-square",
-          raw: true
+          raw: true,
+          iconLeft: true
         }
       ];
     },
@@ -132,6 +145,9 @@ export default {
 
       li
         margin-top 0
+
+        i
+          padding-right 0.1rem
 
     .input-group
       margin-bottom 0.7rem

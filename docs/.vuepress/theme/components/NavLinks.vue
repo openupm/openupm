@@ -32,6 +32,8 @@ export default {
           list-style none
           a
             line-height 1.1rem
+            i
+              padding-right 0.1rem
 
       .dropdown-title
         span

@@ -75,7 +75,7 @@ const _urlUtils = {
 
   // Tweet URL
   tweetUrl:
-    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,openupm,upm,gamedev"
+    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&via=openupmupdate&hashtags=unity3d,openupm,upm,gamedev"
 };
 
 const _pageUtils = {

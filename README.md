@@ -3,7 +3,12 @@
     <img width="180" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-icon-256.png" alt="logo">
   </a>
 </p>
-<h1 align="center">Open Source Unity Package Registry</h1>
+<h1 align="center">
+  Open Source Unity Package Registry
+  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,openupm,upm,gamedev" alt="Tweet URL">
+    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+  </a>
+</h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/openupm/deploys">
     <img src="https://api.netlify.com/api/v1/badges/5d66cc09-9f99-4b71-936a-317ee6a7b5d3/deploy-status" />
@@ -20,8 +25,8 @@
   <a href="https://discord.gg/FnUgWEP">
     <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
-  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,openupm,upm,gamedev" alt="Tweet URL">
-    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+  <a href="https://twitter.com/openupmupdate">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/openupmupdate?style=social">
   </a>
 </p>
 <p align="center">
