@@ -145,7 +145,7 @@ export default {
 
     .columns-horizontal
       flex-direction row-reverse
-      max-width 1088px
+      max-width $maxPackageCardWidth
 
       .card-image-wrapper
         .card-image

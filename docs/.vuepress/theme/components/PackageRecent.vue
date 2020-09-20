@@ -26,7 +26,7 @@
             preferHorizontalLayout ? 'col-12' : 'col-4 col-md-6 col-sm-12'
           ]"
         >
-          <PackageCard
+          <LazyPackageCard
             :item="pkg"
             :prefer-horizontal-layout="preferHorizontalLayout"
           />
@@ -37,11 +37,11 @@
 </template>
 
 <script>
-import PackageCard from "@theme/components/PackageCard.vue";
+import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 
 export default {
-  components: { PackageCard, PackageLayoutControl },
+  components: { LazyPackageCard, PackageLayoutControl },
   data() {
     return {};
   },

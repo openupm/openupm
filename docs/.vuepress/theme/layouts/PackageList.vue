@@ -123,7 +123,7 @@
                     : 'col-3 col-xl-4 col-lg-6 col-md-6 col-sm-12'
                 ]"
               >
-                <PackageCard
+                <LazyPackageCard
                   :item="pkg"
                   :prefer-horizontal-layout="preferHorizontalLayout"
                   :time-field="timeField"
@@ -141,9 +141,10 @@
 import { orderBy } from "lodash/collection";
 import { reverse, uniq } from "lodash/array";
 import { trim } from "lodash/string";
+
 import AppLayout from "@theme/layouts/AppLayout.vue";
+import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
 import NavLink from "@theme/components/NavLink.vue";
-import PackageCard from "@theme/components/PackageCard.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 import util from "@root/docs/.vuepress/util";
 
@@ -155,7 +156,12 @@ const SortType = {
 };
 
 export default {
-  components: { AppLayout, NavLink, PackageCard, PackageLayoutControl },
+  components: {
+    AppLayout,
+    LazyPackageCard,
+    NavLink,
+    PackageLayoutControl
+  },
 
   data() {
     return {

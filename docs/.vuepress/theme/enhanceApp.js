@@ -5,6 +5,7 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
+import VueLazyComponent from "@xunlei/vue-lazy-component";
 import VueMq from "vue-mq";
 import Vuex from "vuex";
 // import PerfectScrollbar from "vue2-perfect-scrollbar";
@@ -17,6 +18,7 @@ export default ({
   siteData, // site metadata
   isServer // is this enhancement applied in server-rendering or client
 }) => {
+  Vue.use(VueLazyComponent);
   Vue.use(Vuex);
   const store = getStore(isServer);
   Vue.mixin({ store });
