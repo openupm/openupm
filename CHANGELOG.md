@@ -1,3 +1,18 @@
+# [1.36.0](https://github.com/openupm/openupm/compare/1.35.0...1.36.0) (2020-09-20)
+
+
+### Bug Fixes
+
+* **website:** passing correct element key for vue lister item rendering ([a90c435](https://github.com/openupm/openupm/commit/a90c4356203eb801ea1169dd34b9d212e0455d30))
+
+
+### Features
+
+* **website:** use lazy component for package card ([0f2bff1](https://github.com/openupm/openupm/commit/0f2bff172d060c9406aaae03176a56f98af7416c))
+* **website:** use lazy image for package card ([a03d94f](https://github.com/openupm/openupm/commit/a03d94fa9f881e96761d80894a76936d208bf2b3))
+* **website:** use lazy image for the contributor page ([b4a9b33](https://github.com/openupm/openupm/commit/b4a9b335e0b6e390436e2bcf2f69dbce11baf419))
+* change package list to app layout ([bdfbc9b](https://github.com/openupm/openupm/commit/bdfbc9b2742b2850370c20cd301067690c8a952f))
+
 # [1.35.0](https://github.com/openupm/openupm/compare/1.34.0...1.35.0) (2020-08-25)
 
 
