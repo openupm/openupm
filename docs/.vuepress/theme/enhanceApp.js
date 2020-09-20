@@ -5,8 +5,11 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
+import LazyImage from "@theme/components/LazyImage.vue";
+import VueLazyComponent from "@xunlei/vue-lazy-component";
 import VueMq from "vue-mq";
 import Vuex from "vuex";
+
 import { getStore } from "./store";
 
 export default ({
@@ -16,6 +19,8 @@ export default ({
   siteData, // site metadata
   isServer // is this enhancement applied in server-rendering or client
 }) => {
+  Vue.component("LazyImage", LazyImage);
+  Vue.use(VueLazyComponent);
   Vue.use(Vuex);
   const store = getStore(isServer);
   Vue.mixin({ store });

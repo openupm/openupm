@@ -12,7 +12,7 @@
         </h3>
       </div>
       <div class="column col-6 col-sm-3 text-right hide-sm">
-        <PackageControl />
+        <PackageLayoutControl />
       </div>
     </div>
 
@@ -20,13 +20,13 @@
       <div class="columns">
         <div
           v-for="pkg in packages"
-          :key="pkg.id"
+          :key="pkg.name"
           :class="[
             'column',
             preferHorizontalLayout ? 'col-12' : 'col-4 col-md-6 col-sm-12'
           ]"
         >
-          <PackageCard
+          <LazyPackageCard
             :item="pkg"
             :prefer-horizontal-layout="preferHorizontalLayout"
           />
@@ -37,11 +37,11 @@
 </template>
 
 <script>
-import PackageCard from "@theme/components/PackageCard.vue";
-import PackageControl from "@theme/components/PackageControl.vue";
+import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
+import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 
 export default {
-  components: { PackageCard, PackageControl },
+  components: { LazyPackageCard, PackageLayoutControl },
   data() {
     return {};
   },

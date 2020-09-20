@@ -25,7 +25,7 @@
     </Sidebar>
 
     <GrowthBlock />
-    <div v-if="shouldShowMainAds" class="adp-main hide-sm">
+    <div v-if="shouldShowMainAds" class="adp-topleftfloat hide-sm">
       <AdBlock />
     </div>
 

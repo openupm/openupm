@@ -5,7 +5,7 @@
       <div class="main-container container">
         <div class="columns">
           <div class="column col-12">
-            <div class="columns breadcrumb-wrap">
+            <div class="columns breadcrumb-container">
               <div class="column col-10 col-md-7">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">
@@ -29,8 +29,8 @@
                 :data-initial="profile.abbr"
               >
                 <a :href="profile.url">
-                  <img v-if="profile.img" :src="profile.img" alt:="profile.name"
-                  @error="imageNotFound" />
+                  <LazyImage v-if="profile.img" :src="profile.img"
+                  alt:="profile.name" />
                 </a>
               </figure>
             </section>
@@ -45,8 +45,7 @@
                 :data-tooltip="profile.label"
               >
                 <a :href="profile.url">
-                  <img :src="profile.img" alt:="profile.user"
-                  @error="imageNotFound" />
+                  <LazyImage :src="profile.img" alt:="profile.user" />
                 </a>
               </figure>
             </section>
@@ -61,8 +60,7 @@
                 :data-tooltip="profile.label"
               >
                 <a :href="profile.url">
-                  <img :src="profile.img" alt:="profile.user"
-                  @error="imageNotFound" />
+                  <LazyImage :src="profile.img" alt:="profile.user" />
                 </a>
               </figure>
             </section>
@@ -77,7 +75,6 @@
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
-import util from "@root/docs/.vuepress/util";
 
 const getUserData = function(entry, action) {
   return {
@@ -130,9 +127,6 @@ export default {
         })
         .map(getBackerData);
     }
-  },
-  methods: {
-    imageNotFound: util.imageNotFound
   }
 };
 </script>

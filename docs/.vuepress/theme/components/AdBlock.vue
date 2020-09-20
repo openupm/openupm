@@ -71,10 +71,6 @@ export default {
   img
     display none
 
-// ad-placement
-.adp-main
-  margin $navbarHeight 0 -4.5rem
-
 .adp-sidebar
   margin 1rem 0 -1.2rem 0.9rem
   width 12rem
@@ -92,10 +88,11 @@ export default {
       width 100%
       margin-bottom 0.2rem
 
-  .adp-main
-    margin 5rem 0
-    width 9.2rem
-    float left
-    display block
-    position fixed
+// ad-placement
+.adp-topleftfloat
+  margin 5rem 0
+  width 9.2rem
+  float left
+  display block
+  position fixed
 </style>

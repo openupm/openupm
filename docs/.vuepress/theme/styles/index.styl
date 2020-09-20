@@ -6,6 +6,9 @@
 // Highlight.js
 @import './highlight.js/monokai-sublime.styl'
 
+// vue2-perfect-scrollbar
+// @import './vue2-perfect-scrollbar/vue2-perfect-scrollbar.styl'
+
 code.hljs
   display inline
 
@@ -60,20 +63,67 @@ small
 .bg-warning
   background-color #e8bb49 !important
 
+.menu .menu-item
+  a, >a, input, .form-select, .form-switch
+    font-size 0.7rem
+  .form-switch
+    margin-left 0.4rem
+
 // Page layout.
 main
   padding $navbarHeight 0 0
   max-width $pageWidth
   margin 0 auto
 
+  .sideview
+    section
+      margin-bottom 0.5rem
+
   &.page
     padding-top 0
+
+@media (min-width: $MQMobileNarrow)
+  main
+    &.applayout
+      max-width 100%
+
+      .sideview
+        .scroll-area
+          position fixed
+          top $navbarHeight
+          left 0
+          bottom 0
+          overflow-y auto
+          width $sideContainerWidth
+          padding-top 0.2rem
+
+      .mainview
+        padding-top 0.2rem
+        padding-left $sideContainerWidth
+
+      .contentview
+        .scroll-area
+          position fixed
+          top $navbarAndBreadcrumbHeight
+          left $sideContainerWidth
+          right 0
+          bottom 0
+          // width $sideContainerWidth
+          // padding-top 0.2rem
+
+      // To be removed
+      .main-container
+        padding-top 0.2rem
+        padding-left $sideContainerWidth
 
 @media (max-width: $MQMobileNarrow)
   main
     max-width 100%
     margin 0
     overflow-x hidden
+
+    .sideview
+      margin-top 1.15rem
 
 .theme-default-content
   font-size 15px
@@ -87,7 +137,13 @@ main
     margin-inline-start 0
     margin-inline-end 0
 
-.breadcrumb-wrap
+.breadcrumbview
+  margin-bottom 0.8rem
+  .breadcrumb-item, .breadcrumb-item a
+    font-size 0.7rem
+
+// To be removed
+.breadcrumb-container
   margin-bottom 0.8rem
 
 .hide

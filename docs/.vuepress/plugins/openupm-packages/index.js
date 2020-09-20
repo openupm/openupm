@@ -138,6 +138,7 @@ module.exports = function(options, context) {
         if (topic.slug && topic.count == 0) continue;
         let frontmatter = {
           layout: "PackageList",
+          showFooter: false,
           noGlobalSocialShare: true,
           title: topic.slug ? `Packages - ${topic.name}` : "Packages",
           topics: data.topicsWithAll,
@@ -160,6 +161,7 @@ module.exports = function(options, context) {
       for (let pkg of data.packages) {
         let frontmatter = {
           layout: "PackageDetail",
+          showFooter: false,
           title: pkg.displayName
             ? `📦 ${pkg.displayName} - ${pkg.name}`
             : `📦 ${pkg.name}`,

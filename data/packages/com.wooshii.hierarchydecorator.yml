@@ -9,7 +9,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - editor-enhancement
-hunter: WooshiiDev/
+hunter: WooshiiDev
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '2014.8'

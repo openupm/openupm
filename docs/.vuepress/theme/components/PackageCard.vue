@@ -15,7 +15,11 @@
           >
             <div class="card-image-wrapper">
               <div class="card-image">
-                <img v-if="pkg.image" :src="pkg.image" class="img-responsive" />
+                <LazyImage
+                  v-if="pkg.image"
+                  :src="pkg.image"
+                  class="img-responsive"
+                />
                 <div v-else class="i-wrapper">
                   <i class="fas fa-box-open"></i>
                 </div>
@@ -33,22 +37,12 @@
             </div>
             <div class="card-footer">
               <span class="chip">
-                <img
-                  :src="pkg.ownerAvatarUrl"
+                <LazyImage
+                  :src="pkg.ownerAvatarUrl + '?size=48'"
                   :alt="pkg.owner"
                   class="avatar avatar-sm"
                 />
                 {{ pkg.owner }}
-              </span>
-              <span v-if="pkg.parentOwner" class="chip">
-                <img
-                  v-if="pkg.parentOwnerAvatarUrl"
-                  :src="pkg.parentOwnerAvatarUrl"
-                  :alt="pkg.parentOwner"
-                  class="avatar avatar-sm"
-                />
-                <i v-else class="fa fa-user"></i>
-                {{ pkg.parentOwner }}
               </span>
               <span class="chip">
                 <i class="fa fa-scroll"></i>
@@ -70,9 +64,9 @@
                 class="tooltip"
                 data-tooltip="The package has no release yet"
               >
-                <span v-if="pkg.pending" class="chip bg-warning">
-                  <i class="fas fa-spinner"></i>Pending
-                </span>
+                <span v-if="pkg.pending" class="chip chip-icon-only"
+                  ><i class="fa fa-exclamation-triangle"
+                /></span>
               </span>
             </div>
           </div>
@@ -145,6 +139,11 @@ export default {
 
     .columns-horizontal
       flex-direction row-reverse
+      max-width $maxPackageCardWidth
+
+      .card-image-wrapper
+        .card-image
+          height 95%
 
       .column-image
         position relative
@@ -158,14 +157,17 @@ export default {
       white-space nowrap
       text-overflow ellipsis
       overflow hidden
+      font-size 0.75rem
 
     .card-body
-      height 4.3rem
+      padding-top: 0.3rem
+      height 3.5rem
       overflow hidden
       display -webkit-box
       -webkit-line-clamp 3
       -webkit-box-orient vertical
       text-overflow: -o-ellipsis-lastline;
+      font-size 0.7rem
 
     .card-image-wrapper
       width 100%
@@ -195,21 +197,20 @@ export default {
           justify-content center
 
           i
-            font-size 7.5vw
-            color #666
+            font-size 5.4rem
+            color #999
+
+    .card-footer
+      padding 0.5rem 0.8rem 0.8rem 0.8rem
 
     .chip
       margin-bottom 0.2rem
+      font-size 0.65rem
 
       i
         padding-right 0.3rem
 
-@media (max-width: $MQMobileNarrow)
-  .package-card
-    .card
-      .card-image-wrapper
-        .card-image
-          .i-wrapper
-            i
-              font-size 5.8rem
+    .chip.chip-icon-only
+      i
+        padding-right 0
 </style>
