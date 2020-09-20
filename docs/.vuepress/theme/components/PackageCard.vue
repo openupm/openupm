@@ -15,7 +15,11 @@
           >
             <div class="card-image-wrapper">
               <div class="card-image">
-                <img v-if="pkg.image" :src="pkg.image" class="img-responsive" />
+                <LazyImage
+                  v-if="pkg.image"
+                  :src="pkg.image"
+                  class="img-responsive"
+                />
                 <div v-else class="i-wrapper">
                   <i class="fas fa-box-open"></i>
                 </div>
@@ -33,7 +37,7 @@
             </div>
             <div class="card-footer">
               <span class="chip">
-                <img
+                <LazyImage
                   :src="pkg.ownerAvatarUrl + '?size=48'"
                   :alt="pkg.owner"
                   class="avatar avatar-sm"
@@ -41,7 +45,7 @@
                 {{ pkg.owner }}
               </span>
               <span v-if="pkg.parentOwner" class="chip">
-                <img
+                <LazyImage
                   v-if="pkg.parentOwnerAvatarUrl"
                   :src="pkg.parentOwnerAvatarUrl + '?size=48'"
                   :alt="pkg.parentOwner"
@@ -203,8 +207,8 @@ export default {
           justify-content center
 
           i
-            font-size 7.5vw
-            color #666
+            font-size 5.4rem
+            color #999
 
     .card-footer
       padding 0.5rem 0.8rem 0.8rem 0.8rem
@@ -215,13 +219,4 @@ export default {
 
       i
         padding-right 0.3rem
-
-@media (max-width: $MQMobileNarrow)
-  .package-card
-    .card
-      .card-image-wrapper
-        .card-image
-          .i-wrapper
-            i
-              font-size 5.8rem
 </style>
