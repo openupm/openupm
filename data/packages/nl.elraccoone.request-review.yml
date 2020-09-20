@@ -1,0 +1,20 @@
+name: nl.elraccoone.request-review
+displayName: Request Review
+description: >-
+  Provides a basic implementation for requesting app reviews for mobile apps on
+  the Apple AppStore and Google PlayStore.
+repoUrl: 'https://github.com/elraccoone/unity-request-review'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/elraccoone/unity-request-review/raw/b14fa756b381cb1161e0726743c5f407bc913044/.github/WIKI/logo.jpg
+readme: 'master:README.md'
+createdAt: 1600620184353
