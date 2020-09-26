@@ -1,0 +1,20 @@
+name: com.coffee.ui-effect-snapshot
+displayName: UI Effect Snapshot
+description: >-
+  Capture a screenshot of a specific frame with visual effect, and display it.
+  The effect is non-realtime, light-weight, no-camera-needed, but be effective
+  enough.
+repoUrl: 'https://github.com/mob-sakai/UIEffectSnapshot'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+hunter: mob-sakai
+gitTagPrefix: ''
+gitTagIgnore: ^v
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1601100814066
