@@ -1,0 +1,16 @@
+name: com.baba-s.uni-all-game-object-testere
+displayName: UniAllGameObjectTester
+description: 【Unity】すべてのシーンやプレハブに存在するゲームオブジェクトに対するテストを簡単に実装できるパッケージ
+repoUrl: 'https://github.com/baba-s/UniAllGameObjectTester'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601321237358
