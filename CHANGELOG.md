@@ -1,3 +1,10 @@
+## [1.37.1](https://github.com/openupm/openupm/compare/1.37.0...1.37.1) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** ads placement for app layout ([2787928](https://github.com/openupm/openupm/commit/2787928438341ab4df3a1aac405788cc9a68ac43))
+
 # [1.37.0](https://github.com/openupm/openupm/compare/1.36.0...1.37.0) (2020-09-29)
 
 
