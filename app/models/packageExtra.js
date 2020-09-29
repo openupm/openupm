@@ -21,6 +21,7 @@ const propKeys = {
   stars: "stars",
   unityVersion: "unity",
   updatedTime: "updatedTime",
+  repoPushedTime: "repoPushedTime",
   version: "ver"
 };
 
@@ -107,6 +108,15 @@ const getImageUrl = async function(packageName) {
   return text;
 };
 
+const setRepoPushedTime = async function(packageName, value) {
+  await setValue(packageName, propKeys.repoPushedTime, value);
+};
+
+const getRepoPushedTime = async function(packageName) {
+  const value = await getValue(packageName, propKeys.repoPushedTime);
+  return parseInt(value);
+};
+
 const setUpdatedTime = async function(packageName, updatedTime) {
   await setValue(packageName, propKeys.updatedTime, updatedTime);
 };
@@ -168,6 +178,7 @@ module.exports = {
   getReadme,
   getReadmeHtml,
   getRecentPackages,
+  getRepoPushedTime,
   getScopes,
   getStars,
   getUnityVersion,
@@ -180,6 +191,7 @@ module.exports = {
   setReadme,
   setReadmeHtml,
   setRecentPackages,
+  setRepoPushedTime,
   setScopes,
   setStars,
   setUnityVersion,

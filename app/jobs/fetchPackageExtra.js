@@ -33,7 +33,7 @@ const fetchExtraData = async function(packageNames) {
     const pkg = await loadPackage(packageName);
     await _fetchPackageInfo(packageName);
     await _fetchPackageScopes(packageName);
-    await _fetchStars(pkg.repo, packageName);
+    await _fetchRepoInfo(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
   }
@@ -163,10 +163,10 @@ const _fetchPackageScopes = async function(packageName) {
 };
 
 /**
- * Fetch repository stars.
+ * Fetch repository information like stars and pushed time.
  * @param {string} repo
  */
-const _fetchStars = async function(repo, packageName) {
+const _fetchRepoInfo = async function(repo, packageName) {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
@@ -181,6 +181,10 @@ const _fetchStars = async function(repo, packageName) {
     if (repoInfo.parent) {
       const pstars = repoInfo.parent.stargazers_count || 0;
       await PackageExtra.setParentStars(packageName, pstars);
+    }
+    if (repoInfo.pushed_at) {
+      const time = new Date(repoInfo.pushed_at).getTime();
+      await PackageExtra.setRepoPushedTime(packageName, time);
     }
   } catch (error) {
     logger.error(
@@ -280,7 +284,8 @@ const aggregateExtraData = async function() {
     const imageUrl = await PackageExtra.getImageUrl(packageName);
     data.imageUrl = imageUrl || undefined;
     const updatedTime = await PackageExtra.getUpdatedTime(packageName);
-    data.time = updatedTime || undefined;
+    const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
+    data.time = updatedTime || pushedTime || undefined;
     const version = await PackageExtra.getVersion(packageName);
     data.ver = version || undefined;
     aggData[packageName] = data;
