@@ -5,7 +5,7 @@
       <div class="main-container container">
         <div class="columns">
           <div class="column col-12">
-            <div class="columns breadcrumb-container">
+            <div class="columns breadcrumbview">
               <div class="column col-10 col-md-7">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">

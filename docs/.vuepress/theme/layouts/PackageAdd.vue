@@ -3,7 +3,7 @@
   <ParentLayout>
     <main class="package-add">
       <div class="main-container container">
-        <div class="columns breadcrumb-container">
+        <div class="columns breadcrumbview">
           <div class="column col-12">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
