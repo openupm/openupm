@@ -1,3 +1,10 @@
+## [1.37.4](https://github.com/openupm/openupm/compare/1.37.3...1.37.4) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** detect ready-to-use package count issue ([20f5e60](https://github.com/openupm/openupm/commit/20f5e6008f40ef364024636745a0339686ebbda2))
+
 ## [1.37.3](https://github.com/openupm/openupm/compare/1.37.2...1.37.3) (2020-09-29)
 
 
