@@ -1,3 +1,10 @@
+# [1.37.0](https://github.com/openupm/openupm/compare/1.36.0...1.37.0) (2020-09-29)
+
+
+### Features
+
+* **wesbite:** change package detail to app layout ([6086fcb](https://github.com/openupm/openupm/commit/6086fcbb9d4ce8a00620cd2ec17dd72f38142092))
+
 # [1.36.0](https://github.com/openupm/openupm/compare/1.35.0...1.36.0) (2020-09-20)
 
 
