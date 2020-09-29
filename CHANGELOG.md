@@ -1,3 +1,10 @@
+## [1.37.2](https://github.com/openupm/openupm/compare/1.37.1...1.37.2) (2020-09-29)
+
+
+### Bug Fixes
+
+* **pipelines:** use pushed time when updated time is not available (refs [#1341](https://github.com/openupm/openupm/issues/1341)) ([ae73485](https://github.com/openupm/openupm/commit/ae73485cb737f24d67c992246055a08e0735231a))
+
 ## [1.37.1](https://github.com/openupm/openupm/compare/1.37.0...1.37.1) (2020-09-29)
 
 
