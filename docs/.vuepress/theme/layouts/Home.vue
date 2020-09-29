@@ -68,7 +68,7 @@ export default {
       const packagesExtra = this.$store.getters.packagesExtra;
       for (var name in packagesExtra) {
         const pkg = packagesExtra[name];
-        if (pkg.time) {
+        if (pkg.ver) {
           cnt += 1;
         }
       }
