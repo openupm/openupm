@@ -51,12 +51,16 @@ topics:
   slug: painting
 - name: Procedural Generation
   slug: procedural-generation
+- name: Profiling
+  slug: profiling
 - name: Physics
   slug: physics
 - name: Sprite Management
   slug: sprite-management
 - name: Terrain
   slug: terrain
+- name: Testing
+  slug: testing
 - name: Utilities
   slug: utilities
 - name: Version Control
