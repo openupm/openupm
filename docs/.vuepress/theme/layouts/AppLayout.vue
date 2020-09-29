@@ -4,6 +4,9 @@
       <div class="sideview">
         <vue-custom-scrollbar class="scroll-area">
           <div class="container">
+            <div class="adp-sidebar hide-sm">
+              <AdBlock />
+            </div>
             <slot name="sideview"></slot>
           </div>
         </vue-custom-scrollbar>
@@ -32,11 +35,12 @@
 </template>
 
 <script>
+import AdBlock from "@theme/components/AdBlock.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import vueCustomScrollbar from "vue-custom-scrollbar";
 
 export default {
-  components: { ParentLayout, vueCustomScrollbar },
+  components: { AdBlock, ParentLayout, vueCustomScrollbar },
   data() {
     return {
       contentviewCustomScrollbarSettings: {

@@ -17,7 +17,7 @@
 
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <slot slot="top" name="sidebar-top">
-        <div v-if="shouldShowSidebarAds" class="adp-sidebar">
+        <div v-if="shouldShowSidebarAds" class="adp-sidebar hide-sm">
           <AdBlock />
         </div>
       </slot>
@@ -25,9 +25,6 @@
     </Sidebar>
 
     <GrowthBlock />
-    <div v-if="shouldShowMainAds" class="adp-topleftfloat hide-sm">
-      <AdBlock />
-    </div>
 
     <!-- unnamed slot for main content -->
     <slot></slot>
@@ -93,10 +90,6 @@ export default {
     shouldShowAds() {
       const { frontmatter } = this.$page;
       return frontmatter.ads !== undefined ? frontmatter.ads : true;
-    },
-
-    shouldShowMainAds() {
-      return this.shouldShowAds && !this.shouldShowSidebar;
     },
 
     shouldShowSidebarAds() {

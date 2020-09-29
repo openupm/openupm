@@ -1,10 +1,12 @@
 <template>
   <div v-if="active" class="ad-block">
-    <a class="ad-text" :href="ad.link">
-      <img v-if="ad.image" :src="ad.image" />
-      {{ ad.text }}</a
-    >
-    <span class="ad-attr">{{ ad.attr }}</span>
+    <a class="ad-img" :href="ad.link">
+      <img v-if="ad.image" :src="ad.image" class="img-responsive" />
+    </a>
+    <a class="ad-link" :href="ad.link">
+      {{ ad.text }}
+    </a>
+    <div class="ad-attr">{{ ad.attr }}</div>
   </div>
 </template>
 
@@ -51,48 +53,32 @@ export default {
 <style lang="stylus">
 // ad-block
 .ad-block
-  font-size 12px
+  width 9rem
+  margin-bottom 0.6rem
+  font-size 0.6rem
   font-weight 400
-  padding 0.4rem
 
-  a
-    &:hover
-      text-decoration none
+  a:hover
+    text-decoration none
 
-  .ad-text
-    display inline-block
-    padding-right 0.3rem
-    padding-bottom 0.3rem
-    color #444
+  .ad-img
+    display block
+    padding 0 0 0.3rem 0
+    width 100%
+
+  .ad-link
+    color #555
 
   .ad-attr
     color #999
-
-  img
-    display none
-
-.adp-sidebar
-  margin 1rem 0 -1.2rem 0.9rem
-  width 12rem
-
-@media (min-width: $MQNormal)
-  .ad-block
-    padding-top 0
-    padding-left 0.6rem
-
-    .ad-attr
-      display block
-
-    img
-      display block
-      width 100%
-      margin-bottom 0.2rem
+    padding-top 0.2rem
 
 // ad-placement
-.adp-topleftfloat
-  margin 5rem 0
-  width 9.2rem
-  float left
-  display block
-  position fixed
+.adp-sidebar
+  margin 1rem 0 0 1.7rem
+
+.sidebar
+  .adp-sidebar
+    margin-bottom -1.8rem
+    margin-left 3.0rem
 </style>

@@ -105,7 +105,7 @@ export default {
     installerLink() {
       return {
         link: util.getPackageInstallerUrl(this.pkg.name, this.scopes),
-        text: "Download installer.unitypackage"
+        text: "Get installer.unitypackage"
       };
     },
     pipelinesLink() {
@@ -141,6 +141,7 @@ export default {
       max-width 100%
       text-overflow ellipsis
       overflow-x hidden
+      font-size $fontSizeMD
 
   .install-option:not(:last-child)
     margin-bottom 0.8rem
