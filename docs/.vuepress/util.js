@@ -115,9 +115,9 @@ const _packageUtils = {
     result.sortName = pkg.link.text;
     result.createdAt = result.createdAt || 0;
     result.updatedAt = result.time || 0;
-    result.pending = result.updatedAt == 0;
     result.image = result.imageUrl || pkg.image;
     result.version = result.ver || undefined;
+    result.pending = !result.version;
     return result;
   }
 };

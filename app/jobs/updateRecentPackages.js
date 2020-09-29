@@ -28,7 +28,7 @@ const updateRecentPackages = async function() {
     const pkg = await loadPackage(packageName);
     const extra = aggData[pkg.name] || {};
     const result = joinPackageExtra(pkg, extra);
-    objs.push(result);
+    if (!result.pending) objs.push(result);
   }
   objs = orderBy(objs, ["updatedAt"], ["desc"]);
   objs = objs.slice(0, 6);
@@ -46,9 +46,9 @@ const joinPackageExtra = function(pkg, extra) {
   };
   result.createdAt = result.createdAt || 0;
   result.updatedAt = result.time || 0;
-  result.pending = result.updatedAt == 0;
   result.image = result.imageUrl || pkg.image;
   result.version = result.ver || undefined;
+  result.pending = !result.version;
   result.link = {
     text: pkg.displayName || pkg.name,
     link: `/packages/${pkg.name}/`
