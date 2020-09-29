@@ -205,7 +205,7 @@ export default {
 
     .chip
       margin-bottom 0.2rem
-      font-size 0.65rem
+      font-size 0.6rem
 
       i
         padding-right 0.3rem

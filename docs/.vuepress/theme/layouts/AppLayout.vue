@@ -25,6 +25,7 @@
           </vue-custom-scrollbar>
         </div>
         <Content class="theme-default-content custom" />
+        <slot name="postcontentview"></slot>
       </div>
     </main>
   </ParentLayout>

@@ -17,8 +17,8 @@ code.hljs
 
 .tooltip-click:focus::after,
 .tooltip-click:active::after
-  opacity: 1;
-  transform: translate(-50%, -.2rem);
+  opacity 1;
+  transform translate(-50%, -.2rem);
 
 // Fix documentation style issues caused by spectre overriden.
 h1, .h1
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6
   font-family $titleFontFamily
 
 ul
-  list-style: disc outside
+  list-style disc outside
 
 code, kbd, .line-number
   font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
@@ -54,8 +54,21 @@ small
     font-weight 400
 
 .avatar[data-initial]::before
-  pointer-events: none;
+  pointer-events none;
 
+.table
+  thead
+    tr
+      border-top 0px solid
+    th
+      border-top 0px solid
+      border-left 0px solid
+      border-right 0px solid
+  tbody
+    tr
+      td
+        border-left 0px solid
+        border-right 0px solid
 // Global overriden.
 .text-warning
   color #e8bb49
