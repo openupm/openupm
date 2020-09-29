@@ -1,6 +1,7 @@
 // Util
 
 const formatDistanceToNow = require("date-fns/formatDistanceToNow").default;
+const { isDate } = require("lodash/lang");
 const urljoin = require("url-join");
 
 const _urlUtils = {
@@ -92,7 +93,12 @@ const _pageUtils = {
 const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
-    return formatDistanceToNow(date);
+    try {
+      if (!isDate(date)) date = new Date(date);
+      return formatDistanceToNow(date);
+    } catch (err) {
+      return "";
+    }
   }
 };
 
