@@ -1,3 +1,10 @@
+## [1.37.3](https://github.com/openupm/openupm/compare/1.37.2...1.37.3) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** pending package detection issue ([cce8dc5](https://github.com/openupm/openupm/commit/cce8dc5bcfe6d3c86e5b41aad3c6065071b90c89))
+
 ## [1.37.2](https://github.com/openupm/openupm/compare/1.37.1...1.37.2) (2020-09-29)
 
 
