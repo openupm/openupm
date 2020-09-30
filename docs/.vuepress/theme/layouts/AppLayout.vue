@@ -2,14 +2,14 @@
   <ParentLayout>
     <main class="applayout">
       <div class="sideview">
-        <vue-custom-scrollbar class="scroll-area">
+        <Scrollbar class="scroll-area">
           <div class="container">
             <div class="adp-sidebar hide-sm">
               <AdBlock />
             </div>
             <slot name="sideview"></slot>
           </div>
-        </vue-custom-scrollbar>
+        </Scrollbar>
       </div>
       <div class="mainview">
         <div class="container">
@@ -18,14 +18,14 @@
           </div>
         </div>
         <div class="contentview">
-          <vue-custom-scrollbar
+          <Scrollbar
             class="scroll-area"
             :settings="contentviewCustomScrollbarSettings"
           >
             <div class="container">
               <slot name="contentview"></slot>
             </div>
-          </vue-custom-scrollbar>
+          </Scrollbar>
         </div>
         <Content class="theme-default-content custom" />
         <slot name="postcontentview"></slot>
@@ -37,10 +37,14 @@
 <script>
 import AdBlock from "@theme/components/AdBlock.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
-import vueCustomScrollbar from "vue-custom-scrollbar";
+import Scrollbar from "@theme/components/Scrollbar.vue";
 
 export default {
-  components: { AdBlock, ParentLayout, vueCustomScrollbar },
+  components: {
+    AdBlock,
+    ParentLayout,
+    Scrollbar
+  },
   data() {
     return {
       contentviewCustomScrollbarSettings: {
