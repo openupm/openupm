@@ -1,3 +1,10 @@
+## [1.37.5](https://github.com/openupm/openupm/compare/1.37.4...1.37.5) (2020-09-30)
+
+
+### Bug Fixes
+
+* **website:** missing packages/index.html for SSR (close [#1383](https://github.com/openupm/openupm/issues/1383), refs [#1341](https://github.com/openupm/openupm/issues/1341)) ([7415424](https://github.com/openupm/openupm/commit/7415424a6c4667d07a781fc6769eba67a5fecef0))
+
 ## [1.37.4](https://github.com/openupm/openupm/compare/1.37.3...1.37.4) (2020-09-29)
 
 
