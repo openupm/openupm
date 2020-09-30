@@ -1,0 +1,16 @@
+name: com.ms.litask
+displayName: ''
+description: .Net/Unity lightweight allocation free  Task-like object
+repoUrl: 'https://github.com/wlgys8/LitTask'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: wlgys8
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601460664646
