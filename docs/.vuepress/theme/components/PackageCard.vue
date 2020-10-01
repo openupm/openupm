@@ -36,30 +36,44 @@
               {{ pkg.description }}
             </div>
             <div class="card-footer">
-              <span class="chip">
-                <LazyImage
-                  :src="pkg.ownerAvatarUrl + '?size=48'"
-                  :alt="pkg.owner"
-                  class="avatar avatar-sm"
-                />
-                {{ pkg.owner }}
-              </span>
-              <span class="chip">
-                <i class="fa fa-scroll"></i>
-                {{ pkg.licenseSpdxId || pkg.licenseName || "No License" }}
-              </span>
-              <span v-if="pkg.parentRepoUrl" class="chip">
-                <i class="fa fa-code-branch"></i>Fork
-              </span>
-              <span v-if="pkg.stars" class="chip">
-                <i class="fa fa-star"></i>{{ pkg.stars }}
-              </span>
-              <span v-if="pkg.version" class="chip">
-                <i class="fas fa-tag"></i>{{ pkg.version }}
-              </span>
-              <span v-if="timeValue" class="chip">
-                <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
-              </span>
+              <div>
+                <span v-if="pkg.parentOwner" class="chip">
+                  <LazyImage
+                    v-if="pkg.parentOwnerAvatarUrl"
+                    :src="pkg.parentOwnerAvatarUrl + '?size=48'"
+                    :alt="pkg.parentOwner"
+                    class="avatar avatar-sm"
+                  />
+                  <i v-else class="fa fa-user"></i>
+                  {{ pkg.parentOwner }}
+                </span>
+                <span class="chip">
+                  <LazyImage
+                    :src="pkg.ownerAvatarUrl + '?size=48'"
+                    :alt="pkg.owner"
+                    class="avatar avatar-sm"
+                  />
+                  {{ pkg.owner }}
+                </span>
+                <span v-if="pkg.parentRepoUrl" class="chip">
+                  <i class="fa fa-code-branch"></i>Fork
+                </span>
+              </div>
+              <div>
+                <span class="chip">
+                  <i class="fa fa-scroll"></i>
+                  {{ pkg.licenseSpdxId || pkg.licenseName || "No License" }}
+                </span>
+                <span v-if="pkg.stars" class="chip">
+                  <i class="fa fa-star"></i>{{ pkg.stars }}
+                </span>
+                <span v-if="pkg.version" class="chip">
+                  <i class="fas fa-tag"></i>{{ pkg.version }}
+                </span>
+                <span v-if="timeValue" class="chip">
+                  <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
+                </span>
+              </div>
             </div>
           </div>
         </div>
