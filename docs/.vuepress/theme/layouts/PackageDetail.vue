@@ -48,7 +48,7 @@
               ><span class="label label-rounded"> {{ item.name }}</span></a
             >
           </div>
-          <!-- SubPages -->
+          <!-- SubPages start -->
           <div v-if="isSubPageReadme">
             <PackageReadme
               :html="readmeHtml"
@@ -80,6 +80,7 @@
           <div v-if="isSubPageRelated">
             <PackageRelated />
           </div>
+          <!-- SubPages end -->
         </div>
         <div
           class="column column-meta col-4 col-xl-4 col-lg-4 col-md-12 col-sm-12"

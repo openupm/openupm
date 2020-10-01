@@ -1,20 +1,8 @@
-<!-- wrap vue-custom-scrollbar for SSR -->
+<!-- Dummy scrollbar component -->
 <template>
-  <ClientOnly>
-    <component :is="scrollbar" v-if="scrollbar" v-bind="$attrs">
-      <slot></slot>
-    </component>
-  </ClientOnly>
+  <div v-bind="$attrs"><slot></slot></div>
 </template>
 
 <script>
-export default {
-  computed: {
-    scrollbar() {
-      if (!this.$isServer)
-        return () => import('vue-custom-scrollbar');
-      return null;
-    }
-  }
-};
+export default {};
 </script>

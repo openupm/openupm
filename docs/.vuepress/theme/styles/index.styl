@@ -6,9 +6,6 @@
 // Highlight.js
 @import './highlight.js/monokai-sublime.styl'
 
-// vue2-perfect-scrollbar
-// @import './vue2-perfect-scrollbar/vue2-perfect-scrollbar.styl'
-
 code.hljs
   display inline
 
@@ -69,6 +66,7 @@ small
       td
         border-left 0px solid
         border-right 0px solid
+
 // Global overriden.
 .text-warning
   color #e8bb49
@@ -78,7 +76,7 @@ small
 
 .menu .menu-item
   a, >a, input, .form-select, .form-switch
-    font-size 0.7rem
+    font-size $fontSizeMD
   .form-switch
     margin-left 0.4rem
 
@@ -121,8 +119,8 @@ main
           left $sideContainerWidth
           right 0
           bottom 0
-          // width $sideContainerWidth
-          // padding-top 0.2rem
+          overflow-x hidden
+          overflow-y auto
 
       // To be removed
       .main-container
@@ -218,3 +216,29 @@ main
     &.required:after
       content " *"
       color $accentColor
+
+// scrollbar: the emerging W3C standard that is currently Firefox-only
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $scrollbarThumbColor $scrollbarBackgroundColor;
+}
+*:hover {
+  scrollbar-color: $scrollbarThumbHoverColor $scrollbarBackgroundColor;
+}
+
+// scrollbar: Works on Chrome/Edge/Safari
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: $scrollbarBackgroundColor;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: $scrollbarThumbColor;
+  border-radius: 20px;
+  border: 2px solid $scrollbarThumbColor;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: $scrollbarThumbHoverColor;
+  border-color: $scrollbarThumbHoverColor;
+}

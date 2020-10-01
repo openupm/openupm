@@ -1,138 +1,140 @@
 <template>
-  <div class="meta-section container">
-    <div class="columns">
-      <PackageSetup
-        :has-not-succeeded-build="hasNotSucceededBuild"
-        :is-loading="isLoadingPackageSetup"
-        :pkg="pkg"
-        :version="version"
-      />
-      <section class="col-12">
-        <h2>Project</h2>
-        <div>
-          <span><NavLink :item="repoNavLink"/></span>
-        </div>
-        <div v-if="parentRepoNavLink" class="fork">
-          forked from
-          <NavLink :item="parentRepoNavLink" />
-        </div>
-      </section>
-      <section class="col-6">
-        <h2>Author</h2>
-        <a
-          v-if="parentOwnerNavLink"
-          :href="parentOwnerNavLink.link"
-          class="nav-link external"
-        >
-          <span class="chip">
-            <img
-              v-if="pkg.parentOwnerAvatarUrl"
-              :src="pkg.parentOwnerAvatarUrl + '?size=48'"
-              :alt="pkg.parentOwner"
-              class="avatar avatar-sm"
-            />
-            <i v-else class="fa fa-user"></i>
-            {{ parentOwnerNavLink.text }}
+  <ClientOnly>
+    <div class="meta-section container">
+      <div class="columns">
+        <PackageSetup
+          :has-not-succeeded-build="hasNotSucceededBuild"
+          :is-loading="isLoadingPackageSetup"
+          :pkg="pkg"
+          :version="version"
+        />
+        <section class="col-12">
+          <h2>Project</h2>
+          <div>
+            <span><NavLink :item="repoNavLink"/></span>
+          </div>
+          <div v-if="parentRepoNavLink" class="fork">
+            forked from
+            <NavLink :item="parentRepoNavLink" />
+          </div>
+        </section>
+        <section class="col-6">
+          <h2>Author</h2>
+          <a
+            v-if="parentOwnerNavLink"
+            :href="parentOwnerNavLink.link"
+            class="nav-link external"
+          >
+            <span class="chip">
+              <img
+                v-if="pkg.parentOwnerAvatarUrl"
+                :src="pkg.parentOwnerAvatarUrl + '?size=48'"
+                :alt="pkg.parentOwner"
+                class="avatar avatar-sm"
+              />
+              <i v-else class="fa fa-user"></i>
+              {{ parentOwnerNavLink.text }}
+            </span>
+          </a>
+          <a :href="ownerNavLink.link" class="nav-link external">
+            <span class="chip">
+              <img
+                :src="pkg.ownerAvatarUrl + '?size=48'"
+                :alt="pkg.owner"
+                class="avatar avatar-sm"
+              />
+              {{ ownerNavLink.text }}
+            </span>
+          </a>
+        </section>
+        <section class="col-6">
+          <h2>Discovered by</h2>
+          <a
+            v-if="pkg.hunterUrl"
+            :href="hunterNavLink.link"
+            class="nav-link external"
+          >
+            <span class="chip">
+              <img
+                :src="pkg.hunterAvatarUrl"
+                :alt="hunterNavLink.text"
+                class="avatar avatar-sm"
+              />
+              {{ hunterNavLink.text }}
+            </span>
+          </a>
+          <span v-else>{{ pkg.hunter }}</span>
+        </section>
+        <section class="col-6">
+          <h2>License</h2>
+          <span>{{ pkg.licenseSpdxId || pkg.licenseName || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>Stars</h2>
+          <span>
+            <i class="fa fa-star"></i>
+            {{ pkg.stars }}
+            <br />
+            <small v-if="pkg.pstars">
+              <i class="fa fa-star"></i> {{ pkg.pstars }} on
+              <NavLink
+                :item="{
+                  link: pkg.parentRepoUrl,
+                  text: 'upstream'
+                }"
+              />
+            </small>
           </span>
-        </a>
-        <a :href="ownerNavLink.link" class="nav-link external">
-          <span class="chip">
-            <img
-              :src="pkg.ownerAvatarUrl + '?size=48'"
-              :alt="pkg.owner"
-              class="avatar avatar-sm"
-            />
-            {{ ownerNavLink.text }}
-          </span>
-        </a>
-      </section>
-      <section class="col-6">
-        <h2>Discovered by</h2>
-        <a
-          v-if="pkg.hunterUrl"
-          :href="hunterNavLink.link"
-          class="nav-link external"
-        >
-          <span class="chip">
-            <img
-              :src="pkg.hunterAvatarUrl"
-              :alt="hunterNavLink.text"
-              class="avatar avatar-sm"
-            />
-            {{ hunterNavLink.text }}
-          </span>
-        </a>
-        <span v-else>{{ pkg.hunter }}</span>
-      </section>
-      <section class="col-6">
-        <h2>License</h2>
-        <span>{{ pkg.licenseSpdxId || pkg.licenseName || "-" }}</span>
-      </section>
-      <section class="col-6">
-        <h2>Stars</h2>
-        <span>
-          <i class="fa fa-star"></i>
-          {{ pkg.stars }}
-          <br />
-          <small v-if="pkg.pstars">
-            <i class="fa fa-star"></i> {{ pkg.pstars }} on
-            <NavLink
-              :item="{
-                link: pkg.parentRepoUrl,
-                text: 'upstream'
-              }"
-            />
-          </small>
-        </span>
-      </section>
-      <section class="col-6">
-        <h2>Version</h2>
-        <span>{{ version || "-" }}</span>
-      </section>
-      <section class="col-6">
-        <h2>Unity Version</h2>
-        <span>{{ unityVersion || "-" }}</span>
-      </section>
-      <section class="col-6 col-sm-12">
-        <h2>Published</h2>
-        <span>{{ publishedAt || "-" }}</span>
-      </section>
-      <section class="col-6 hide-sm"></section>
-      <section class="col-12">
-        <h2>Badge <small>(click to copy)</small></h2>
-        <div class="container">
-          <div class="columns">
-            <div class="col-6">
-              <img :src="badgeVersionImageUrl" />
-            </div>
-            <div class="col-6">
-              <a
-                :href="badgeUrl"
-                data-tooltip="Copied"
-                class="tooltip tooltip-click"
-                @click.prevent="copyBadgeVersionHtml"
-              >
-                <small>
-                  html
-                </small>
-              </a>
-              <span>·</span>
-              <a
-                :href="badgeUrl"
-                data-tooltip="Copied"
-                class="tooltip tooltip-click"
-                @click.prevent="copyBadgeVersionMarkdown"
-              >
-                <small>
-                  markdown
-                </small>
-              </a>
+        </section>
+        <section class="col-6">
+          <h2>Version</h2>
+          <span>{{ version || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>Unity Version</h2>
+          <span>{{ unityVersion || "-" }}</span>
+        </section>
+        <section class="col-6 col-sm-12">
+          <h2>Published</h2>
+          <span>{{ publishedAt || "-" }}</span>
+        </section>
+        <section class="col-6 hide-sm"></section>
+        <section class="col-12">
+          <h2>Badge <small>(click to copy)</small></h2>
+          <div class="container">
+            <div class="columns">
+              <div class="col-6">
+                <img :src="badgeVersionImageUrl" />
+              </div>
+              <div class="col-6">
+                <a
+                  :href="badgeUrl"
+                  data-tooltip="Copied"
+                  class="tooltip tooltip-click"
+                  @click.prevent="copyBadgeVersionHtml"
+                >
+                  <small>
+                    html
+                  </small>
+                </a>
+                <span>·</span>
+                <a
+                  :href="badgeUrl"
+                  data-tooltip="Copied"
+                  class="tooltip tooltip-click"
+                  @click.prevent="copyBadgeVersionMarkdown"
+                >
+                  <small>
+                    markdown
+                  </small>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
-  </div>
+  </ClientOnly>
 </template>
 
 <script>
