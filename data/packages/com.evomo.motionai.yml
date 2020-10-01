@@ -1,0 +1,16 @@
+name: com.evomo.motionai
+displayName: Evomo MotionAI
+description: null
+repoUrl: 'https://github.com/Evomo/unityMotionAIPlugin'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - input-management
+hunter: DanAmador
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601540236820
