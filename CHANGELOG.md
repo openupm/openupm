@@ -1,3 +1,11 @@
+## [1.37.8](https://github.com/openupm/openupm/compare/1.37.7...1.37.8) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** move installation info to an extra subpage of the package detail page on mobile ([53120ca](https://github.com/openupm/openupm/commit/53120ca39078696f2f2ea3a719954c4d12c22881))
+* **website:** recover parent owner on package card ([332cfe9](https://github.com/openupm/openupm/commit/332cfe98cdfee2c6b29026d5fe2f07ca6f049bd8))
+
 ## [1.37.7](https://github.com/openupm/openupm/compare/1.37.6...1.37.7) (2020-10-01)
 
 
