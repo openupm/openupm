@@ -4,7 +4,7 @@
       <div class="sideview">
         <Scrollbar class="scroll-area">
           <div class="container">
-            <div class="adp-sidebar hide-sm">
+            <div class="adp adp-sidebar hide-sm">
               <AdBlock />
             </div>
             <slot name="sideview"></slot>

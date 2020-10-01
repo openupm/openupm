@@ -166,6 +166,9 @@ main
     &.active
       color $accentColor
 
+  > .sidebar-links
+    padding: 0.2rem 0 1.5rem 0 !important
+
   .sidebar-links
     li
       margin-top 0rem !important
@@ -222,18 +225,22 @@ main
 }
 
 // scrollbar: Works on Chrome/Edge/Safari
-*::-webkit-scrollbar {
-  width: 10px;
-}
-*::-webkit-scrollbar-track {
-  background: $scrollbarBackgroundColor;
-}
-*::-webkit-scrollbar-thumb {
-  background-color: $scrollbarThumbColor;
-  border-radius: 20px;
-  border: 2px solid $scrollbarThumbColor;
-}
-*::-webkit-scrollbar-thumb:hover {
-  background-color: $scrollbarThumbHoverColor;
-  border-color: $scrollbarThumbHoverColor;
-}
+*::-webkit-scrollbar
+  width 10px
+
+*::-webkit-scrollbar-track
+  background $scrollbarBackgroundColor
+
+*::-webkit-scrollbar-thumb
+  background-color $scrollbarThumbColor
+  border-radius 20px
+  border 2px solid $scrollbarThumbColor
+
+*::-webkit-scrollbar-thumb:hover
+  background-color $scrollbarThumbHoverColor
+  border-color $scrollbarThumbHoverColor
+
+
+// ads
+.adp:empty
+  display none

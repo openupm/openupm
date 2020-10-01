@@ -79,6 +79,5 @@ export default {
 
 .sidebar
   .adp-sidebar
-    margin-bottom -1.8rem
     margin-left 3.0rem
 </style>

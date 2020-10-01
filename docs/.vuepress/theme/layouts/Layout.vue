@@ -17,7 +17,7 @@
 
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <slot slot="top" name="sidebar-top">
-        <div v-if="shouldShowSidebarAds" class="adp-sidebar hide-sm">
+        <div v-if="shouldShowSidebarAds" class="adp adp-sidebar hide-sm">
           <AdBlock />
         </div>
       </slot>
