@@ -2,7 +2,7 @@
 <template>
   <ParentLayout>
     <main class="contributors">
-      <div class="main-container container">
+      <div class="mainview container">
         <div class="columns">
           <div class="column col-12">
             <div class="columns breadcrumbview">
@@ -74,7 +74,6 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@theme/components/NavLink.vue";
 
 const getUserData = function(entry, action) {
   return {
@@ -102,7 +101,7 @@ const getBackerData = function(entry) {
 };
 
 export default {
-  components: { ParentLayout, NavLink },
+  components: { ParentLayout },
   data() {
     return {};
   },
@@ -133,7 +132,7 @@ export default {
 
 <style lang="stylus">
 .contributors
-  .main-container
+  .mainview
     margin-top 1rem
   .avatar-wall
     margin-bottom 2rem

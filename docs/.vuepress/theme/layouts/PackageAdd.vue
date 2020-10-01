@@ -2,7 +2,7 @@
 <template>
   <ParentLayout>
     <main class="package-add">
-      <div class="main-container container">
+      <div class="mainview container">
         <div class="columns breadcrumbview">
           <div class="column col-12">
             <ul class="breadcrumb">
@@ -868,7 +868,7 @@ export default {
 
 <style lang="stylus">
 .package-add
-  .main-container
+  .mainview
     margin-top 1rem
 
     .btn-go
