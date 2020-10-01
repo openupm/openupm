@@ -1,0 +1,16 @@
+name: com.solidalloy.type.references
+displayName: Type References
+description: Property drawer that allows class selection from drop-down in Unity.
+repoUrl: 'https://github.com/SolidAlloy/ClassTypeReference-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601559685258
