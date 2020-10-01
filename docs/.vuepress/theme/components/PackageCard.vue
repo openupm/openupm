@@ -60,14 +60,6 @@
               <span v-if="timeValue" class="chip">
                 <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
               </span>
-              <span
-                class="tooltip"
-                data-tooltip="The package has no release yet"
-              >
-                <span v-if="pkg.pending" class="chip chip-icon-only"
-                  ><i class="fa fa-exclamation-triangle"
-                /></span>
-              </span>
             </div>
           </div>
         </div>
