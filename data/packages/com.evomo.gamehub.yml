@@ -1,0 +1,17 @@
+name: com.evomo.gamehub
+displayName: Evomo Gamehub
+description: Package used to integrate your game inside the gamehub
+repoUrl: 'https://github.com/Evomo/GameHubPlugin'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - package-management
+  - utilities
+hunter: DanAmador
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601540409240
