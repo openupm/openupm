@@ -1,8 +1,10 @@
 <!-- wrap vue-custom-scrollbar for SSR -->
 <template>
-  <component :is="scrollbar" v-if="scrollbar" v-bind="$attrs">
-    <slot></slot>
-  </component>
+  <ClientOnly>
+    <component :is="scrollbar" v-if="scrollbar" v-bind="$attrs">
+      <slot></slot>
+    </component>
+  </ClientOnly>
 </template>
 
 <script>
