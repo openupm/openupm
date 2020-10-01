@@ -1,3 +1,10 @@
+## [1.37.6](https://github.com/openupm/openupm/compare/1.37.5...1.37.6) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** hydration error for package list and detail pages (close [#1383](https://github.com/openupm/openupm/issues/1383), the second try) ([92b04a0](https://github.com/openupm/openupm/commit/92b04a0dfc58ee49e733cd51cc3110a69feec04f))
+
 ## [1.37.5](https://github.com/openupm/openupm/compare/1.37.4...1.37.5) (2020-09-30)
 
 
