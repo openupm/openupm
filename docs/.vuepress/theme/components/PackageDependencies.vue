@@ -11,7 +11,7 @@
         <thead>
           <tr>
             <th class="td-icon"></th>
-            <th class="td-name">Name and Version</th>
+            <th class="td-name">Name@version</th>
             <th class="td-note">Note</th>
           </tr>
         </thead>

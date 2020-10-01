@@ -9,7 +9,7 @@
               :key="item.value"
               class="column col-12"
             >
-              <li class="menu-item">
+              <li v-show="item.visible" class="menu-item">
                 <RouterLink :class="item.class" :to="item.link" :exact="false">
                   {{ item.text }}
                   <span
@@ -86,6 +86,7 @@
           class="column column-meta col-4 col-xl-4 col-lg-4 col-md-12 col-sm-12"
         >
           <PackageMeta
+            v-show="shouldShowMeta"
             :has-not-succeeded-build="hasNotSucceededBuild"
             :pkg="$package"
             :package-info="packageInfo"
@@ -114,6 +115,7 @@ import util from "@root/docs/.vuepress/util";
 
 const SubPage = {
   deps: "deps",
+  meta: "meta",
   pipelines: "pipelines",
   readme: "readme",
   related: "related",
@@ -258,29 +260,44 @@ export default {
     readmeHtml() {
       return this.$data.packageInfo.readmeHtml;
     },
+    shouldShowMetaSubpageEntry() {
+      return this.$mq == "xs" || this.$mq == "sm" || this.$mq == "md";
+    },
+    shouldShowMeta() {
+      return !this.shouldShowMetaSubpageEntry || this.subPage == SubPage.meta;
+    },
     subPages() {
       const ls = [
-        { text: "Readme", value: SubPage.readme },
+        { text: "Readme", value: SubPage.readme, visible: true },
+        {
+          text: "Installation",
+          value: SubPage.meta,
+          visible: this.shouldShowMetaSubpageEntry
+        },
         {
           text: "Dependencies",
           value: SubPage.deps,
+          visible: true,
           icon: this.dependenciesIcon,
           count: this.dependencies.length
         },
         {
           text: "Versions",
           value: SubPage.versions,
+          visible: true,
           count: this.packageVersions.length
         },
         {
           text: "Build Pipelines",
           value: SubPage.pipelines,
+          visible: true,
           icon: this.pipelinesIcon,
           count: this.packageReleases.length
         },
         {
           text: "Related Packages",
           value: SubPage.related,
+          visible: true,
           count: (this.$page.frontmatter.relatedPackages || []).length
         }
       ];
@@ -404,9 +421,6 @@ export default {
 @media (max-width: $MQMobile)
   .package-detail
     .mainview
-      .columns-contentview
-        flex-direction column-reverse
-
       .column-meta
         max-width 100%
 </style>

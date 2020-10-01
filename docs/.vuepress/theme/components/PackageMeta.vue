@@ -263,7 +263,6 @@ export default {
 .package-detail .meta-section
   font-size $fontSizeMD
   padding-left 0.5rem
-  padding-bottom 1rem
 
   h2
     font-weight 600
