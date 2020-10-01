@@ -1,3 +1,10 @@
+## [1.37.7](https://github.com/openupm/openupm/compare/1.37.6...1.37.7) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** switch back to OS scrollbar (close [#1396](https://github.com/openupm/openupm/issues/1396)) ([454592f](https://github.com/openupm/openupm/commit/454592f9139842ddc593341ae87f94193152e8ae))
+
 ## [1.37.6](https://github.com/openupm/openupm/compare/1.37.5...1.37.6) (2020-10-01)
 
 
