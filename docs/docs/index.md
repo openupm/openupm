@@ -13,7 +13,7 @@ OpenUPM is not an official service provided by Unity Technologies Inc.
 
 ## How It Works
 
-### Scope Registry and Command-Line Tool
+### Scope Registry and Command-Line Interface
 
 Unity supports [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
 

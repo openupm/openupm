@@ -12,7 +12,25 @@
         <div class="install-option">
           <h3>
             via
-            <a href="#modal-commandlinetool">command-line tool</a>
+            <a href="#modal-packageinstaller">package installer</a>
+            <small
+              ><span class="label label-secondary">experimental</span>
+            </small>
+            <div class="package-installer-btn-wrap btn-group btn-group-block">
+              <a :href="installerLink.link" class="btn"
+                >{{ installerLink.text }}
+              </a>
+            </div>
+          </h3>
+        </div>
+        <PackageSetupViaInstaller
+          :package-name="pkg.name"
+          :installer-link="installerLink"
+        />
+        <div class="install-option last">
+          <h3>
+            via
+            <a href="#modal-commandlinetool">command-line interface</a>
           </h3>
           <div class="install-cli">
             <div
@@ -29,24 +47,6 @@
           </div>
         </div>
         <PackageSetupViaCLI :package-name="pkg.name" />
-        <div class="install-option">
-          <h3>
-            via
-            <a href="#modal-packageinstaller">package installer</a>
-            <small
-              ><span class="label label-secondary">experimental</span>
-            </small>
-            <div class="package-installer-btn-wrap btn-group btn-group-block">
-              <a :href="installerLink.link" class="btn"
-                >{{ installerLink.text }}
-              </a>
-            </div>
-          </h3>
-        </div>
-        <PackageSetupViaInstaller
-          :package-name="pkg.name"
-          :installer-link="installerLink"
-        />
       </div>
       <div v-else>
         <div>
@@ -137,14 +137,14 @@ export default {
   .install-option
     margin-bottom 0.5rem
 
+    &.last
+      margin-bottom 0.1rem
+
     .btn
       max-width 100%
       text-overflow ellipsis
       overflow-x hidden
       font-size $fontSizeMD
-
-  .install-option:not(:last-child)
-    margin-bottom 0.8rem
 
   .package-installer-btn-wrap
     margin-top 0.5rem

@@ -202,7 +202,7 @@ module.exports = {
         ]
       },
       {
-        text: "Command-Line Tool",
+        text: "CLI",
         link: "https://github.com/openupm/openupm-cli#openupm-cli",
         icon: "fa fa-keyboard",
         iconLeft: true

@@ -1,7 +1,7 @@
 <template>
   <Modal :id="modalId">
     <template #title>
-      Install via Command-Line Tool
+      Install via Command-Line Interface
     </template>
     <template #body>
       <p>
