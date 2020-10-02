@@ -1,0 +1,16 @@
+name: com.lasm.ualive
+displayName: UAlive
+description: Full C# access and generation for Bolt Visual Scripting
+repoUrl: 'https://github.com/LifeandStyleMedia/UAlive'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/630602e4795347dd007ee93c88785e737ebd4633/687474703a2f2f6c696665616e647374796c656d656469612e636f6d2f696d616765732f6d6973632f75616c6976655f6769746875625f636f7665725f30312e706e67'
+readme: 'master:README.md'
+createdAt: 1601669268316
