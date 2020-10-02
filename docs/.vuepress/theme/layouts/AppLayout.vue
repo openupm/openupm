@@ -12,12 +12,12 @@
         </Scrollbar>
       </div>
       <div class="mainview">
-        <div class="container">
+        <div class="container breadcrumb-container">
           <div class="columns breadcrumbview">
             <slot name="breadcrumbview"></slot>
           </div>
         </div>
-        <div class="contentview">
+        <div id="contentview" class="contentview">
           <Scrollbar
             class="scroll-area"
             :settings="contentviewCustomScrollbarSettings"

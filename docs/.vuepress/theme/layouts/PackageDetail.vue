@@ -41,7 +41,7 @@
       </div>
     </template>
     <template #contentview>
-      <div id="ccv" class="columns columns-contentview">
+      <div class="columns columns-contentview">
         <div class="column col-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
           <div class="topics-wrap">
             <a v-for="item in topics" :key="item.slug" :href="item.link"
@@ -101,6 +101,7 @@
 <script>
 import axios from "axios";
 import urljoin from "url-join";
+import VueScrollTo from "vue-scrollto";
 
 import AppLayout from "@theme/layouts/AppLayout.vue";
 import NavLink from "@theme/components/NavLink.vue";
@@ -322,7 +323,6 @@ export default {
         this.onStart();
       }
       this.parseQuery();
-      location.hash = "#ccv";
     }
   },
 
@@ -385,9 +385,12 @@ export default {
     parseQuery() {
       // subPage
       const subPage = this.$route.query.subPage;
-      if (this.subPages.map(x => x.value).includes(subPage))
+      if (this.subPages.map(x => x.value).includes(subPage)) {
+        // Back to top if sub page changed
+        if (this.subPage !== subPage)
+          VueScrollTo.scrollTo("#contentview", 500, { offset: -150 });
         this.subPage = subPage;
-      else this.subPage = SubPage.readme;
+      } else this.subPage = SubPage.readme;
     }
   }
 };

@@ -93,6 +93,11 @@ main
   &.page
     padding-top 0
 
+.breadcrumbview
+  margin-bottom 0.8rem
+  .breadcrumb-item, .breadcrumb-item a
+    font-size $fontSizeMD
+
 @media (min-width: $MQMobileNarrow)
   main
     &.applayout
@@ -112,15 +117,24 @@ main
         padding-top 0.2rem
         padding-left $sideContainerWidth
 
+      .breadcrumb-container
+        position: fixed
+        top $navbarHeight
+        left $sideContainerWidth
+        right 0
+        width "calc(100% - %s)" % $sideContainerWidth
+        z-index 1
+        background-color $breadcrumbBackgroundColor
+
+        .breadcrumbview
+          margin-bottom 0
+
+          ul.breadcrumb
+            margin-bottom 0
+
       .contentview
         .scroll-area
-          position fixed
-          top $navbarAndBreadcrumbHeight
-          left $sideContainerWidth
-          right 0
-          bottom 0
-          overflow-x hidden
-          overflow-y auto
+          margin-top $breadcrumbHeight
 
 @media (max-width: $MQMobileNarrow)
   main
@@ -143,11 +157,6 @@ main
     margin-block-end 1em
     margin-inline-start 0
     margin-inline-end 0
-
-.breadcrumbview
-  margin-bottom 0.8rem
-  .breadcrumb-item, .breadcrumb-item a
-    font-size $fontSizeMD
 
 .hide
   display none
