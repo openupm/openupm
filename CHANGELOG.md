@@ -1,3 +1,10 @@
+## [1.37.9](https://github.com/openupm/openupm/compare/1.37.8...1.37.9) (2020-10-02)
+
+
+### Bug Fixes
+
+* **website:** change applayout to use page mode for contentview ([0c0f43f](https://github.com/openupm/openupm/commit/0c0f43f4349e1996729d9d5357e793e5770143fd))
+
 ## [1.37.8](https://github.com/openupm/openupm/compare/1.37.7...1.37.8) (2020-10-01)
 
 
