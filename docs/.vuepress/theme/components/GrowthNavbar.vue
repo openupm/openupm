@@ -45,6 +45,8 @@ export default {
       .btn
         font-size 12px
         padding-top 0
+        padding-bottom 0
+        height 1.45rem
 
       .stars
         display inline-block
