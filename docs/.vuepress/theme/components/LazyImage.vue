@@ -34,7 +34,7 @@ export default {
 <style lang="stylus" scoped>
 .v-lazy-image
   filter blur(5px)
-  transition filter 0.3s
+  transition filter 0.5s
   will-change filter
 
 .v-lazy-image-loaded

@@ -1,7 +1,7 @@
 <template>
   <div v-if="active" class="ad-block">
     <a class="ad-img" :href="ad.link">
-      <img v-if="ad.image" :src="ad.image" class="img-responsive" />
+      <LazyImage v-if="ad.image" :src="ad.image" class="img-responsive" />
     </a>
     <a class="ad-link" :href="ad.link">
       {{ ad.text }}

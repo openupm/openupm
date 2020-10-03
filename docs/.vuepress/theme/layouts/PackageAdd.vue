@@ -264,7 +264,7 @@
                         }"
                         @click="onSelectImage(item)"
                       >
-                        <img :src="item" class="img-responsive pkg-img" />
+                        <LazyImage :src="item" class="img-responsive pkg-img" />
                       </div>
                     </div>
                   </div>

@@ -26,7 +26,7 @@
             class="nav-link external"
           >
             <span class="chip">
-              <img
+              <LazyImage
                 v-if="pkg.parentOwnerAvatarUrl"
                 :src="pkg.parentOwnerAvatarUrl + '?size=48'"
                 :alt="pkg.parentOwner"
@@ -38,7 +38,7 @@
           </a>
           <a :href="ownerNavLink.link" class="nav-link external">
             <span class="chip">
-              <img
+              <LazyImage
                 :src="pkg.ownerAvatarUrl + '?size=48'"
                 :alt="pkg.owner"
                 class="avatar avatar-sm"
@@ -55,7 +55,7 @@
             class="nav-link external"
           >
             <span class="chip">
-              <img
+              <LazyImage
                 :src="pkg.hunterAvatarUrl"
                 :alt="hunterNavLink.text"
                 class="avatar avatar-sm"
@@ -104,7 +104,7 @@
           <div class="container">
             <div class="columns">
               <div class="col-6">
-                <img :src="badgeVersionImageUrl" />
+                <LazyImage :src="badgeVersionImageUrl" />
               </div>
               <div class="col-6">
                 <a
