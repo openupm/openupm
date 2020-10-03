@@ -1,0 +1,20 @@
+name: com.solidalloy.struct-dropdown
+displayName: Struct DropDown
+description: >-
+  Create drop-down lists which can contain objects of any type with one simple
+  attribute
+repoUrl: 'https://github.com/SolidAlloy/StructDropDown'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1601750406422
