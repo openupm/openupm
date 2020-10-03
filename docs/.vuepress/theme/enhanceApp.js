@@ -5,12 +5,38 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
-import LazyImage from "@theme/components/LazyImage.vue";
-import VueLazyComponent from "@xunlei/vue-lazy-component";
 import VueMq from "vue-mq";
 import Vuex from "vuex";
+import axios from "axios";
+import nprogress from "nprogress";
 
+import LazyImage from "@theme/components/LazyImage.vue";
+import VueLazyComponent from "@xunlei/vue-lazy-component";
 import { getStore } from "./store";
+
+const axiosHook = function() {
+  // Request interceptor
+  axios.interceptors.request.use(
+    function(config) {
+      nprogress.start();
+      return config;
+    },
+    function(error) {
+      return Promise.reject(error);
+    }
+  );
+
+  // Response interceptor
+  axios.interceptors.response.use(
+    function(response) {
+      nprogress.done();
+      return response;
+    },
+    function(error) {
+      return Promise.reject(error);
+    }
+  );
+};
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -33,4 +59,5 @@ export default ({
       xl: 1200
     }
   });
+  if (!isServer) axiosHook();
 };
