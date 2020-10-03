@@ -15,6 +15,6 @@ hunter: SolidAlloy
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: https://github.com/SolidAlloy/StructDropDown/raw/abae28c28f4867559b0d62e54cfa9e7f4b0f0270/Images/result.png
 readme: 'upm:README.md'
 createdAt: 1601750406422
