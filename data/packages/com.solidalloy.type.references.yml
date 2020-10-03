@@ -11,6 +11,6 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: https://github.com/SolidAlloy/ClassTypeReference-for-Unity/raw/64d7bf593c1beb734f374a184ccc7fc837e322b0/.screenshot.png
 readme: 'master:README.md'
 createdAt: 1601559685258
