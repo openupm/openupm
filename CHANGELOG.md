@@ -1,3 +1,10 @@
+## [1.37.10](https://github.com/openupm/openupm/compare/1.37.9...1.37.10) (2020-10-03)
+
+
+### Bug Fixes
+
+* **pipelines:** prefer annotated tag over lightweight tag. ([9233d3e](https://github.com/openupm/openupm/commit/9233d3ee9ea5861a11ed8546dcbaab67020994a2))
+
 ## [1.37.9](https://github.com/openupm/openupm/compare/1.37.8...1.37.9) (2020-10-02)
 
 
