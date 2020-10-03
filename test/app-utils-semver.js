@@ -3,7 +3,7 @@ const assert = require("assert");
 
 const { getVersionFromTag, semverRe } = require("../app/utils/semver");
 
-describe("app/util/semver.js", function() {
+describe("app/utils/semver.js", function() {
   describe("getVersionFromTag()", function() {
     it("test a.b.c", function() {
       assert.equal(getVersionFromTag("v1.0.0"), "1.0.0");

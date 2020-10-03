@@ -12,7 +12,7 @@ const {
   getNamespace
 } = rewire("../app/utils/package");
 
-describe("app/util/package.js", function() {
+describe("app/utils/package.js", function() {
   describe("cleanRepoUrl()", function() {
     it("test https + format https => https", function() {
       assert.equal(

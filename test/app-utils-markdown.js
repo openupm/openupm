@@ -11,7 +11,7 @@ const {
 } = require("../app/utils/markdown");
 const { loadPackageSync } = require("../app/utils/package");
 
-describe("app/util/markdown.js", function() {
+describe("app/utils/markdown.js", function() {
   describe("convertToGitHubRawUrl()", function() {
     it("non-GitHub URL", function() {
       assert.equal(

@@ -138,6 +138,9 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
   let releases = await Release.fetchAll(packageName);
   for (const rel of releases) {
     if (rel.state == ReleaseState.Failed) {
+      // Remove failed but disappeared release. It happens when
+      // the remote tag has been removed
+      // the remote tag has been re-tagged
       if (!remoteTags.find(x => x.tag == rel.tag && x.commit == rel.commit)) {
         logger.warn(
           {
