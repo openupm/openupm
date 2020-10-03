@@ -32,7 +32,11 @@
               <td><NavLink v-if="entry.buildId" :item="entry.buildLink" /></td>
               <td>
                 <span>{{ entry.note }}</span>
-                <span class="label text-small">{{ entry.errorCode }}</span>
+                <span
+                  v-show="entry.errorCode"
+                  class="label text-small bg-warning"
+                  >{{ entry.errorCode }}</span
+                >
                 <span class="hide-sm">{{ entry.errorMessage }}</span>
               </td>
             </tr>
