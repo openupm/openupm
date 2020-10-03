@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/openupm/openupm/compare/1.37.10...1.38.0) (2020-10-03)
+
+
+### Features
+
+* **website:** integrate nprogress bar to network activity ([029b86f](https://github.com/openupm/openupm/commit/029b86f96155b28917e1dc13b4137932d94fa3bc))
+
 ## [1.37.10](https://github.com/openupm/openupm/compare/1.37.9...1.37.10) (2020-10-03)
 
 
