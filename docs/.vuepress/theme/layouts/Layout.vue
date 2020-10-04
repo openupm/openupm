@@ -1,7 +1,7 @@
 <!-- Override @parent-theme/layouts/Layouts
 - Add unnamed slot for extending.
 - Add footer
-- Format cdoe
+- Add inital loading
 -->
 
 <template>
@@ -11,6 +11,7 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
+    <InitialLoading />
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
@@ -47,15 +48,24 @@
 
 <script>
 import AdBlock from "@theme/components/AdBlock.vue";
-import GrowthBlock from "@theme/components/GrowthBlock.vue";
-import Navbar from "@theme/components/Navbar.vue";
 import Footer from "@theme/components/Footer.vue";
+import GrowthBlock from "@theme/components/GrowthBlock.vue";
+import InitialLoading from "@theme/components/InitialLoading.vue";
+import Navbar from "@theme/components/Navbar.vue";
 import Page from "@parent-theme/components/Page.vue";
-import Sidebar from "@parent-theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
+import Sidebar from "@parent-theme/components/Sidebar.vue";
 
 export default {
-  components: { AdBlock, GrowthBlock, Page, Sidebar, Navbar, Footer },
+  components: {
+    AdBlock,
+    Footer,
+    GrowthBlock,
+    InitialLoading,
+    Navbar,
+    Page,
+    Sidebar
+  },
 
   data() {
     return {
