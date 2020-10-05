@@ -96,7 +96,7 @@ jobs:
     - name: yarn docs:build
       run: yarn docs:build
     - name: deploy to Github pages
-      uses: JamesIves/github-pages-deploy-action@v3
+      uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
         REPOSITORY_NAME: favoyang/openupm-website-cn
         BRANCH: gh-pages
