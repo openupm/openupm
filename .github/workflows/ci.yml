@@ -86,7 +86,7 @@ jobs:
   build-website:
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/vuepressbuild' && github.repository == 'favoyang/openupm'
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - uses: actions/checkout@v1
     - name: yarn install
@@ -96,7 +96,7 @@ jobs:
     - name: deploy to Github pages
       uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
-        REPOSITORY_NAME: favoyang/openupm-website-cn
+        REPOSITORY_NAME: openupm/openupm-website-cn
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
         CLEAN: true
