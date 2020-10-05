@@ -82,3 +82,15 @@ jobs:
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload pkg-build || echo skip pm2 pkg-build reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload pkg-extra || echo skip pm2 pkg-extra reload
+
+  build-website:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - name: deploy-vuepress
+      uses: jenkey2011/vuepress-deploy@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: favoyang/openupm-website-cn
+        BUILD_SCRIPT: source env.sh && yarn docs:build
+        BUILD_DIR: docs/.vuepress/dist/
