@@ -33,7 +33,7 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
     - uses: actions/checkout@v1
-    - name: Release
+    - name: release
       uses: cycjimmy/semantic-release-action@v2
       with:
         extra_plugins: |
@@ -82,3 +82,22 @@ jobs:
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload pkg-build || echo skip pm2 pkg-build reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload pkg-extra || echo skip pm2 pkg-extra reload
+
+  build-website:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    steps:
+    - uses: actions/checkout@v1
+    - name: yarn install
+      run: yarn install
+    - name: yarn docs:build
+      run: source env.sh && yarn docs:build
+    - name: deploy to Github pages
+      uses: JamesIves/github-pages-deploy-action@3.6.2
+      with:
+        REPOSITORY_NAME: openupm/openupm-website-cn
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        CLEAN: true
+        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_CN_ACCESS_TOKEN }}
