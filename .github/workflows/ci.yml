@@ -89,12 +89,10 @@ jobs:
     if: github.ref == 'refs/heads/vuepressbuild' && github.repository == 'favoyang/openupm'
     steps:
     - uses: actions/checkout@v1
-    - name: prepare env
-      run: source env.sh
     - name: yarn install
       run: yarn install
     - name: yarn docs:build
-      run: yarn docs:build
+      run: source env.sh && yarn docs:build
     - name: deploy to Github pages
       uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
