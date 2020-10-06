@@ -1,0 +1,17 @@
+name: com.baba-s.uni-json-test-runner-api
+displayName: UniJsonTestRunnerApi
+description: 【Unity】TestRunnerApi の情報を JSON に変換できるようにするパッケージ
+repoUrl: 'https://github.com/baba-s/UniJsonTestRunnerApi'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - testing
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602000499989
