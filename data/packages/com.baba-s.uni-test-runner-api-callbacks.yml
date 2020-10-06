@@ -1,0 +1,16 @@
+name: com.baba-s.uni-test-runner-api-callbacks
+displayName: UniTestRunnerApiCallbacks
+description: 【Unity】Unity Test Runner の開始終了時に呼び出されるコールバックを設定できるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniTestRunnerApiCallbacks'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - testing
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602026258725
