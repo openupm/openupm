@@ -100,4 +100,5 @@ jobs:
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
         CLEAN: true
+        SINGLE_COMMIT: true
         ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_CN_ACCESS_TOKEN }}
