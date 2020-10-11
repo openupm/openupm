@@ -143,17 +143,13 @@ import { reverse, uniq } from "lodash/array";
 import { trim } from "lodash/string";
 
 import AppLayout from "@theme/layouts/AppLayout.vue";
+import common from "@theme/common";
 import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 import util from "@root/docs/.vuepress/util";
 
-const SortType = {
-  name: "name",
-  pop: "pop",
-  createdAt: "createdAt",
-  updatedAt: "updatedAt"
-};
+const SortType = common.SortType;
 
 export default {
   components: {
@@ -167,7 +163,6 @@ export default {
     return {
       active: true,
       topicValue: "",
-      sort: SortType.updatedAt,
       sortList: [
         { text: "Name", value: SortType.name },
         { text: "Popularity", value: SortType.pop },
@@ -247,8 +242,13 @@ export default {
       return query;
     },
 
-    stateText() {
-      return this.active ? "Ready to Use" : "Pending";
+    sort: {
+      get() {
+        return this.$store.getters.packageListSort;
+      },
+      set(value) {
+        this.$store.dispatch("setPackageListSort", { value });
+      }
     },
 
     sortOptions() {
@@ -259,6 +259,10 @@ export default {
           class: x.value == this.sort ? "active" : ""
         };
       });
+    },
+
+    stateText() {
+      return this.active ? "Ready to Use" : "Pending";
     },
 
     timeField() {
@@ -331,8 +335,8 @@ export default {
       this.active = this.$route.query.active != "0";
       // sort
       const sort = this.$route.query.sort;
-      if (this.sortList.map(x => x.value).includes(sort)) this.sort = sort;
-      else this.sort = SortType.updatedAt;
+      if (this.sortList.map(x => x.value).includes(sort) && sort != this.sort)
+        this.$store.dispatch("setPackageListSort", { value: sort });
       // unity
       const unity = this.$route.query.unity;
       if (this.unityOptions.map(x => x.value).includes(unity))

@@ -1,9 +1,13 @@
 import axios from "axios";
 import createPersistedState from "vuex-persistedstate";
 import urljoin from "url-join";
-import util from "@root/docs/.vuepress/util";
 import Vue from "vue";
 import Vuex from "vuex";
+
+import common from "@theme/common";
+import util from "@root/docs/.vuepress/util";
+
+const SortType = common.SortType;
 
 Vue.use(Vuex);
 
@@ -21,13 +25,15 @@ export function getStore(isServer) {
         packagesExtra: [],
         recentPackages: [],
         preferHorizontalLayout: false,
-        siteInfo: {}
+        siteInfo: {},
+        packageListSort: SortType.updatedAt
       },
       getters: {
         packagesExtra: state => state.packagesExtra,
         recentPackages: state => state.recentPackages,
         preferHorizontalLayout: state => state.preferHorizontalLayout,
-        siteInfo: state => state.siteInfo
+        siteInfo: state => state.siteInfo,
+        packageListSort: state => state.packageListSort
       },
       actions: {
         async fetchPackagesExtra({ commit }) {
@@ -73,6 +79,9 @@ export function getStore(isServer) {
         },
         setPreferHorizontalLayout({ commit }, { value }) {
           commit("setPreferHorizontalLayout", value);
+        },
+        setPackageListSort({ commit }, { value }) {
+          commit("setPackageListSort", value);
         }
       },
       mutations: {
@@ -87,6 +96,9 @@ export function getStore(isServer) {
         },
         setPreferHorizontalLayout: (state, preferHorizontalLayout) => {
           state.preferHorizontalLayout = preferHorizontalLayout;
+        },
+        setPackageListSort: (state, packageListSort) => {
+          state.packageListSort = packageListSort;
         }
       }
     });
