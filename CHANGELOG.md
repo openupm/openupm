@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/openupm/openupm/compare/1.38.0...1.39.0) (2020-10-11)
+
+
+### Features
+
+* **website:** remember sort-by option value for the package list ([52e6a15](https://github.com/openupm/openupm/commit/52e6a15b6c38d72ca3b412c16adbd68fd63e32dd))
+
 # [1.38.0](https://github.com/openupm/openupm/compare/1.37.10...1.38.0) (2020-10-03)
 
 
