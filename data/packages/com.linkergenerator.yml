@@ -1,0 +1,17 @@
+name: com.linkergenerator
+displayName: ''
+description: Generate link.xml file for unity
+repoUrl: 'https://github.com/KuraiAndras/LinkerGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602424744053
