@@ -1,0 +1,17 @@
+name: com.3d-group.unity-simple-localization
+displayName: 3D Group - Localization
+description: Simple localization package for Unity game engine
+repoUrl: 'https://github.com/3d-group/unity-simple-localization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+  - utilities
+hunter: antja0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602456055842
