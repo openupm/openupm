@@ -1,0 +1,16 @@
+name: com.baba-s.uni-destroy-event-listener
+displayName: UniDestroyEventListener
+description: 【Unity】ゲームオブジェクトが破棄された時にイベントを実行するコンポーネント
+repoUrl: 'https://github.com/baba-s/UniDestroyEventListener'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602445593482
