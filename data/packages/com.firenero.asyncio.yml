@@ -1,0 +1,17 @@
+name: com.firenero.asyncio
+displayName: Async IO
+description: .NET library for handling asynchronous file system operations
+repoUrl: 'https://github.com/Reddevildragg/AsyncIO'
+parentRepoUrl: 'https://github.com/firenero/AsyncIO'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.3'
+image: null
+readme: 'upm-convert:README.md'
+createdAt: 1602511372994
