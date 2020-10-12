@@ -9,9 +9,9 @@ topics:
   - parallelism-and-concurrency
   - utilities
 hunter: Reddevildragg
-gitTagPrefix: ''
+gitTagPrefix: upm/
 gitTagIgnore: ''
-minVersion: '1.3'
+minVersion: ''
 image: null
 readme: 'upm-convert:README.md'
-createdAt: 1602511372994
+createdAt: 1602513548258
