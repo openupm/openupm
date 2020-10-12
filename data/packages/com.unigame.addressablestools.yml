@@ -1,0 +1,16 @@
+name: com.unigame.addressablestools
+displayName: UniGame Addressables Tools
+description: Addressables utils for Unity3D
+repoUrl: 'https://github.com/UniGameTeam/UniGame.AddressableTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602525727842
