@@ -1,3 +1,11 @@
+## [1.39.1](https://github.com/openupm/openupm/compare/1.39.0...1.39.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* **pipelines:** add error code PackageJsonParsingError ([01c9857](https://github.com/openupm/openupm/commit/01c98576c0a30faf7360cd5ef06dbc233a3378bd))
+* **pipelines:** handle ETIMEOUT for the build-release job ([530705a](https://github.com/openupm/openupm/commit/530705af683e132b4a83a1d269a675c3723f5c92))
+
 # [1.39.0](https://github.com/openupm/openupm/compare/1.38.0...1.39.0) (2020-10-11)
 
 
