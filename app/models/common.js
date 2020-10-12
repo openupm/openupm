@@ -40,6 +40,8 @@ const ReleaseReason = new Enum({
   PackageNameNotMatch: 802,
   // Package name invalid
   PackageNameInvalid: 803,
+  // Invalid format of package.json
+  PackageJsonParsingError: 804,
   // Connection timeout
   ConnectionTime: 900
 });

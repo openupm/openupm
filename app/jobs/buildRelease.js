@@ -204,6 +204,8 @@ const getReasonFromPublishLog = function(text) {
   else if (text.includes("error code E503"))
     return ReleaseReason.ServiceUnavailable;
   else if (text.includes("error code EPRIVATE")) return ReleaseReason.Private;
+  else if (text.includes("error code EJSONPARSE"))
+    return ReleaseReason.PackageJsonParsingError;
   return ReleaseReason.None;
 };
 

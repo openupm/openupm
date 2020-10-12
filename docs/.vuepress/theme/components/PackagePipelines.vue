@@ -94,6 +94,8 @@ ReleaseReasonNote[ReleaseReason.PackageNameNotMatch.value] =
   "the name of package.json isn't matched";
 ReleaseReasonNote[ReleaseReason.PackageNameInvalid.value] =
   "the package name includes unsupported @ character";
+ReleaseReasonNote[ReleaseReason.PackageJsonParsingError.value] =
+  "invalid format of package.json";
 
 export default {
   components: { NavLink, VclList },

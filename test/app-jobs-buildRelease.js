@@ -60,5 +60,10 @@ describe("app/jobs/buildRelease.js", function() {
         "error code E400\nerror 400 Bad Request - PUT https://package.***.com/@umm%2fcanvas_resizer - unsupported registry call"
       ).should.equal(ReleaseReason.PackageNameInvalid);
     });
+    it("PackageJsonParsingError", function() {
+      getReasonFromPublishLog("error code EJSONPARSE").should.equal(
+        ReleaseReason.PackageJsonParsingError
+      );
+    });
   });
 });
