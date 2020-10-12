@@ -34,12 +34,14 @@ const ReleaseReason = new Enum({
   BuildCancellation: 701,
   // Missing package.json
   PackageNotFound: 800,
-  // private repo
+  // Private repo
   Private: 801,
-  // package name not match
+  // Package name not match
   PackageNameNotMatch: 802,
-  // package name invalid
-  PackageNameInvalid: 803
+  // Package name invalid
+  PackageNameInvalid: 803,
+  // Connection timeout
+  ConnectionTime: 900
 });
 
 /* Release reasons that considered as the failure of build service. The

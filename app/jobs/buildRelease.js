@@ -32,14 +32,26 @@ let buildRelease = async function(packageName, version) {
   // Update release state.
   let shouldContinue = await updateReleaseState(release);
   if (!shouldContinue) return;
-  // Get build api.
-  let buildApi = await getBuildApi();
-  // Update release build.
-  await updateReleaseBuild(buildApi, pkg, release);
-  // Wait release build.
-  let build = await waitReleaseBuild(buildApi, release);
-  // Handle release build.
-  await handleReleaseBuild(build, release);
+  try {
+    // Get build api.
+    let buildApi = await getBuildApi();
+    // Update release build.
+    await updateReleaseBuild(buildApi, pkg, release);
+    // Wait release build.
+    let build = await waitReleaseBuild(buildApi, release);
+    // Handle release build.
+    await handleReleaseBuild(build, release);
+  } catch (err) {
+    // If receives ETIMEDOUT, let it failed with reason ConnectionTime.
+    if (err.code == "ETIMEDOUT") {
+      release.state = ReleaseState.Failed.value;
+      release.reason = ReleaseReason.ConnectionTime.value;
+      await Release.save(release);
+      logReleaseError(release);
+    }
+    // Throw the error to retry.
+    throw err;
+  }
 };
 
 /* Update release state, return continue boolean.
@@ -144,20 +156,25 @@ const handleReleaseBuild = async function(build, release) {
     // eslint-disable-next-line require-atomic-updates
     release.reason = reason.value;
     await Release.save(release);
-    logger.error(
-      {
-        rel: `${release.packageName}@${release.version}`,
-        build: release.buildId,
-        reason: reason.key
-      },
-      "build failed"
-    );
+    logReleaseError(release);
     // Throw error for retryable reason to retry.
     if (RetryableReleaseReason.includes(reason))
       throw new Error(
         `build ${release.packageName}@${release.version} failed with retryable reason: ${reason}`
       );
   }
+};
+
+// Log release error
+const logReleaseError = function(release) {
+  logger.error(
+    {
+      rel: `${release.packageName}@${release.version}`,
+      build: release.buildId,
+      reason: release.reason
+    },
+    "release failed"
+  );
 };
 
 // Get publish log
