@@ -1,0 +1,16 @@
+name: com.unigame.algo
+displayName: UniGame algorithms collections
+description: Collections of helpful algorithms
+repoUrl: 'https://github.com/UniGameTeam/UniGame.Algo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602556336329
