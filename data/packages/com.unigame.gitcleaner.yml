@@ -1,0 +1,16 @@
+name: com.unigame.gitcleaner
+displayName: UniGame Git Cleaner
+description: git repository cleaner
+repoUrl: 'https://github.com/UniGameTeam/UniGame.Gitcleaner'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602556117115
