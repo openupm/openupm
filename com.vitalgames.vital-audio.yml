@@ -1,0 +1,16 @@
+name: com.vitalgames.vital-audio
+displayName: Vital Audio
+description: null
+repoUrl: 'https://github.com/rafavla32/vital-audio'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602638647839
