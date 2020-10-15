@@ -46,7 +46,7 @@ describe("data/packages", async function() {
         if (pkg.licenseSpdxId) {
           should.exist(
             spdx[pkg.licenseSpdxId],
-            `licenseSpdxId ${pkg.licenseSpdxId} should be valid`
+            `licenseSpdxId ${pkg.licenseSpdxId} should be valid. See full IDs at https://raw.githubusercontent.com/sindresorhus/spdx-license-list/master/spdx-simple.json`
           );
         }
         // check image
