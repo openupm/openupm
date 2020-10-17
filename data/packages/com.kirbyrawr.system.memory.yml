@@ -9,7 +9,7 @@ topics:
   - integration
 hunter: kirbyrawr
 gitTagPrefix: ''
-gitTagIgnore: 'v.*'
+gitTagIgnore: 'v4.0.20-1'
 minVersion: ''
 image: null
 readme: 'master:LICENSE.md'
