@@ -1,0 +1,16 @@
+name: com.kirbyrawr.system.memory
+displayName: System.Memory
+description: null
+repoUrl: 'https://github.com/Kirbyrawr/System.Memory-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: kirbyrawr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:LICENSE.md'
+createdAt: 1602949925250
