@@ -1,7 +1,7 @@
 name: me.ameye.prefab-painter
 displayName: Prefab Painter
 description: A basic prefab painter for the Unity3D game engine.
-repoUrl: 'https://github.com/AlexanderAmeye/PrefabPainter'
+repoUrl: 'https://github.com/alexander-ameye/prefab-painter'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
