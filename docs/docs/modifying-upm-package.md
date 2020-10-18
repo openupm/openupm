@@ -17,7 +17,7 @@ To propose a new topic, please modify the [topics file](https://github.com/openu
 
 Modifying or deleting a published version is considered a bad practice, since it may be already used by other developers. The rule is the same for other public registries like NPMJS. You can not unpublish published content. You can not even unpublish a package entirely after a period. If the intention is to fix bugs, we recommend you bump the version with a new Git tag.
 
-If you do have a good reason to do that, please delete the related Git tag (or replace it with a new Git tag), then create an issue for unpublishing a version.
+If you do have a good reason to do that, please delete the related Git tag (or replace it with a new Git tag), then [create an issue](https://github.com/openupm/openupm/issues/new?title=Unpublish%20package%20version&template=unpublish_version.md) for unpublishing a version.
 
 If you deleted or replaced published Git tags on your GitHub repository without notifying us, the changes will not affect content already published on the OpenUPM.
 
@@ -27,4 +27,4 @@ In most cases, unpublishing a package means the package won't be listed under th
 - Remove the package meta file at the [data/packages](https://github.com/openupm/openupm/tree/master/data/packages) folder.
 - Add the package scope to the [data/blocked-scopes.yml](https://github.com/openupm/openupm/tree/master/data/blocked-scopes.yml) file to avoid re-submitting.
 
-However, if you have a good reason like a legal issue, we will help you to remove all published versions entirely. Please create an issue for unpublishing a package entirely.
+However, if you have a good reason like a legal issue, we will help you to remove all published versions entirely. Please [create an issue](https://github.com/openupm/openupm/issues/new?title=Unpublish%20package&template=unpublish_package.md) for unpublishing a package entirely.

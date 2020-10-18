@@ -103,7 +103,7 @@ In such cases the tag from the upm branch takes higher priority, another one is 
 
 You can check the failed reason at the build issues section on the package detail page. The most common issue is *version conflict*, means a package with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
 
-However, build pipelines will not rebuild an already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the package owner is recommended to bump the version with a new git tag. For the rare case, please [create an issue](https://github.com/openupm/openupm/issues) for unpublishing.
+However, build pipelines will not rebuild an already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the package owner is recommended to bump the version with a new git tag. Learn more at [modifying or deleting a published version](modifying-upm-package.md#modifying-or-deleting-a-published-version).
 
 ### Handling Monorepos
 
