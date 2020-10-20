@@ -9,7 +9,7 @@ topics:
   - 2d
   - gui
 hunter: ''
-gitTagPrefix: ''
+gitTagPrefix: '0.5'
 gitTagIgnore: ''
 minVersion: ''
 image: null
