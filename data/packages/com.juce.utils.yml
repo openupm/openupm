@@ -1,6 +1,6 @@
 name: com.juce.utils
 displayName: Juce-Utils
-description: null
+description: 'this is a description'
 repoUrl: 'https://github.com/Juce-Assets/Juce-Utils'
 parentRepoUrl: null
 licenseSpdxId: null
