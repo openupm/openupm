@@ -1,0 +1,16 @@
+name: com.graphene.components
+displayName: Graphene Components
+description: Component infrastructure and Material Design-inspired components for Graphene
+repoUrl: 'https://github.com/LudiKha/Graphene-Components'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603339338721
