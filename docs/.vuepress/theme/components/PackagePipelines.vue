@@ -87,7 +87,7 @@ ReleaseReasonNote[ReleaseReason.BuildTimeout.value] = "the build is timeout";
 ReleaseReasonNote[ReleaseReason.BuildCancellation.value] =
   "the build is cancelled manually";
 ReleaseReasonNote[ReleaseReason.PackageNotFound.value] =
-  "no package.json detected";
+  "no valid package.json detected";
 ReleaseReasonNote[ReleaseReason.Private.value] =
   "the package is explicitly private";
 ReleaseReasonNote[ReleaseReason.PackageNameNotMatch.value] =
