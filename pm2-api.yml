@@ -4,7 +4,7 @@ apps:
     cwd: /home/openupm/openupm
     script: server.js
     exec_mode: cluster
-    instances: max
+    instances: 1
     error_file: ./logs/api-error.log
     out_file: ./logs/api.log
     combine_logs: true
