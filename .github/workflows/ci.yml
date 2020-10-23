@@ -48,12 +48,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    strategy:
+      matrix:
+        target_host: [HOST_UPM_API, HOST_CN]
     steps:
     - name: deploy
       uses: maddox/actions/ssh@master
       env:
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: ${{ secrets.HOST_UPM_API }}
+        HOST: ${{ secrets[matrix.target_host] }}
         USER: ${{ secrets.USER }}
       with:
         args: |
@@ -61,7 +64,7 @@ jobs:
             git checkout -- yarn.lock
             git pull
             yarn
-            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload pm2-api.yml || echo skip pm2 api reload
 
   deploy-upm-build:
     runs-on: ubuntu-latest
