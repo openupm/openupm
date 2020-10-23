@@ -1,0 +1,16 @@
+name: nothke.astar
+displayName: AStar Pathfinding
+description: A Unity package for basic AStar pathfinding
+repoUrl: 'https://github.com/nothke/AStar'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603421731150
