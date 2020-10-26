@@ -62,7 +62,9 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git checkout -- yarn.lock
-            git pull -q
+            [ -f /usr/bin/pgit ] && GIT_BIN=pgit || GIT_BIN=git
+            echo "GIT_BIN: $GIT_BIN"
+            $GIT_BIN pull -q
             yarn
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload pm2-api.yml || echo skip pm2 api reload
 
