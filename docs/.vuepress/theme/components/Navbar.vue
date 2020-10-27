@@ -73,8 +73,15 @@ export default {
   left 200px
   top 8px
 
+.region-cn
+  .wip
+    left 265px
+
 @media (max-width: $MQMobileNarrow)
   .wip
     left 132px
     top 22px
+  .region-cn
+    .wip
+      left 132px
 </style>

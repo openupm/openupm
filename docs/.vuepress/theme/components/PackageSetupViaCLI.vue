@@ -1,11 +1,12 @@
 <template>
   <Modal :id="modalId">
     <template #title>
-      Install via Command-Line Interface
+      {{ $t("install-via-command-line-interface") }}
     </template>
     <template #body>
       <p>
-        Prerequisites: <NavLink :item="nodejsLink" /> and
+        {{ $t("prerequisites") }}
+        : <NavLink :item="nodejsLink" /> {{ $t("and") }}
         <NavLink :item="openupmCliRepoLink" />.
       </p>
       <div class="theme-default-content custom">
@@ -29,13 +30,13 @@ export default {
   },
   computed: {
     code() {
-      const code = `# Install openupm-cli
+      const code = `# ${this.$t("install-openupm-cli")}
 npm install -g openupm-cli
 
-# Go to your Unity project directory
+# ${this.$t("go-to-unity-project")}
 cd YOUR_UNITY_PROJECT_DIR
 
-# Install package: ${this.packageName}
+# ${this.$t("install-package")}: ${this.packageName}
 openupm add ${this.packageName}
 `;
       const highlighted = highlightjs.highlight("sh", code).value;

@@ -45,7 +45,7 @@
         <div class="column col-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
           <div class="topics-wrap">
             <a v-for="item in topics" :key="item.slug" :href="item.link"
-              ><span class="label label-rounded"> {{ item.name }}</span></a
+              ><span class="label label-rounded"> {{ item.text }}</span></a
             >
           </div>
           <!-- SubPages start -->
@@ -187,7 +187,7 @@ export default {
     homeLink() {
       return {
         link: "/",
-        text: "Home"
+        text: this.$t("home")
       };
     },
     invalidTags() {
@@ -223,7 +223,7 @@ export default {
     packagesLink() {
       return {
         link: "/packages/",
-        text: "Packages"
+        text: this.$t("packages")
       };
     },
     packageReleases() {
@@ -269,34 +269,34 @@ export default {
     },
     subPages() {
       const ls = [
-        { text: "Readme", value: SubPage.readme, visible: true },
+        { text: this.$t("readme"), value: SubPage.readme, visible: true },
         {
-          text: "Installation",
+          text: this.$t("installation"),
           value: SubPage.meta,
           visible: this.shouldShowMetaSubpageEntry
         },
         {
-          text: "Dependencies",
+          text: this.$t("dependencies"),
           value: SubPage.deps,
           visible: true,
           icon: this.dependenciesIcon,
           count: this.dependencies.length
         },
         {
-          text: "Versions",
+          text: this.$t("versions"),
           value: SubPage.versions,
           visible: true,
           count: this.packageVersions.length
         },
         {
-          text: "Build Pipelines",
+          text: this.$t("build-pipelines"),
           value: SubPage.pipelines,
           visible: true,
           icon: this.pipelinesIcon,
           count: this.packageReleases.length
         },
         {
-          text: "Related Packages",
+          text: this.$t("related-packages"),
           value: SubPage.related,
           visible: true,
           count: (this.$page.frontmatter.relatedPackages || []).length
@@ -311,7 +311,13 @@ export default {
       });
     },
     topics() {
-      return this.$page.frontmatter.topics;
+      return this.$page.frontmatter.topics.map(topic => {
+        const transKey = topic.slug;
+        return {
+          ...topic,
+          text: this.$te(transKey) ? this.$t(transKey) : topic.name
+        };
+      });
     }
   },
 

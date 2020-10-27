@@ -1,7 +1,7 @@
 <template>
   <div class="subpage-deps">
     <h2>
-      Dependencies
+      {{ $t("dependencies") }}
       <span class="label label-rounded text-small">
         {{ dependencyList.length }}
       </span>
@@ -11,8 +11,8 @@
         <thead>
           <tr>
             <th class="td-icon"></th>
-            <th class="td-name">Name@version</th>
-            <th class="td-note">Note</th>
+            <th class="td-name">{{ $t("name-at-version") }}</th>
+            <th class="td-note">{{ $t("note") }}</th>
           </tr>
         </thead>
         <tbody>
@@ -66,17 +66,16 @@ export default {
           let icon = null;
           if (isGit) {
             if (url) {
-              helpText =
-                "The Git dependency can be replaced by a version available on OpenUPM.";
+              helpText = this.$t("git-deps-replaced");
               icon = "fab fa-git text-warning";
             } else {
-              helpText = "Please install the Git dependency manually.";
+              helpText = this.$t("git-deps-missing");
               icon = "fab fa-git text-error";
             }
           } else if (url) {
             icon = "fa fa-box-open";
           } else {
-            helpText = "Please install the missing dependency manually.";
+            helpText = this.$t("deps-missing");
             icon = "fas fa-exclamation-triangle text-error";
           }
           return {

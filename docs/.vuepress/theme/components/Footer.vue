@@ -9,7 +9,7 @@
         <div class="column col-5 col-md-6 col-sm-12">
           <div class="columns">
             <div class="column col-4 col-md-4 col-sm-6">
-              <h5>About</h5>
+              <h5>{{ $t("about") }}</h5>
               <ul>
                 <li v-for="(link, index) in aboutLinks" :key="index">
                   <NavLink class :item="link" />
@@ -17,9 +17,17 @@
               </ul>
             </div>
             <div class="column col-4 col-md-4 col-sm-6">
-              <h5>Connect</h5>
+              <h5>{{ $t("connect") }}</h5>
               <ul>
                 <li v-for="(link, index) in connectLinks" :key="index">
+                  <NavLink :item="link" />
+                </li>
+              </ul>
+            </div>
+            <div class="column col-4 col-md-4 col-sm-6">
+              <h5>{{ $t("region") }}</h5>
+              <ul>
+                <li v-for="(link, index) in regionLinks" :key="index">
                   <NavLink :item="link" />
                 </li>
               </ul>
@@ -34,13 +42,15 @@
           </div>
         </div> -->
         <div class="column column col-4 col-md-6 col-sm-12">
-          <small>Copyright @ 2019 Favo Yang</small>
+          <small>{{ $t("footer-copyright") }}</small>
         </div>
         <div class="column column col-4 col-md-6 col-sm-12">
           <small>
-            <a href="https://www.netlify.com">
-              This site is powered by Netlify
-            </a>
+            <NavLink class :item="poweredByLink" />
+            <span v-if="$site.themeConfig.region == 'cn'">
+              &nbsp;|&nbsp;
+              <NavLink class :item="icpLink" />
+            </span>
           </small>
         </div>
       </div>
@@ -50,10 +60,10 @@
 
 <script>
 import NavLink from "@theme/components/NavLink.vue";
+import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { NavLink },
-
   computed: {
     data() {
       return this.$page.frontmatter;
@@ -61,61 +71,101 @@ export default {
 
     aboutLinks() {
       return [
-        { link: "/docs/team", text: "Team" },
-        { link: "/docs/code-of-conduct", text: "Code of Conduct" },
-        { link: "/docs/terms", text: "Terms of Use" },
-        { link: "/docs/privacy", text: "Privacy Policy" }
-      ];
-    },
-
-    connectLinks() {
-      return [
+        { link: util.getDocsUrl("/docs/team"), text: this.$t("team") },
         {
-          link: this.$site.themeConfig.repo,
-          text: "GitHub",
-          icon: "fab fa-github",
-          iconLeft: true
+          link: util.getDocsUrl("/docs/code-of-conduct"),
+          text: this.$t("code-of-conduct")
         },
+        { link: util.getDocsUrl("/docs/terms"), text: this.$t("terms-of-use") },
         {
-          link: "https://medium.com/openupm",
-          text: "Medium",
-          icon: "fab fa-medium",
-          iconLeft: true
-        },
-        {
-          link: "https://twitter.com/openupmupdate",
-          text: "Twitter",
-          icon: "fab fa-twitter",
-          iconLeft: true
-        },
-        {
-          text: "Discord",
-          link: "https://discord.gg/FnUgWEP",
-          icon: "fab fa-discord",
-          iconLeft: true
-        },
-        {
-          link: "mailto:hello@openupm.com",
-          text: "Contact Us",
-          icon: "fas fa-envelope",
-          iconLeft: true
-        },
-        {
-          link: "/feeds/updates/rss",
-          text: "Package Updates",
-          icon: "fa fa-rss-square",
-          raw: true,
-          iconLeft: true
+          link: util.getDocsUrl("/docs/privacy"),
+          text: this.$t("privacy-policy")
         }
       ];
     },
 
-    opLinks() {
-      return [{ link: "/status/", text: "Status" }];
+    connectLinks() {
+      const links = [
+        {
+          link: this.$site.themeConfig.repo,
+          text: this.$t("github"),
+          icon: "fab fa-github",
+          iconLeft: true
+        }
+      ];
+      if (this.$site.themeConfig.region != "cn") {
+        links.push({
+          link: "https://medium.com/openupm",
+          text: this.$t("medium"),
+          icon: "fab fa-medium",
+          iconLeft: true
+        });
+        links.push({
+          link: "https://twitter.com/openupmupdate",
+          text: this.$t("twitter"),
+          icon: "fab fa-twitter",
+          iconLeft: true
+        });
+        links.push({
+          text: this.$t("discord"),
+          link: "https://discord.gg/FnUgWEP",
+          icon: "fab fa-discord",
+          iconLeft: true
+        });
+      }
+      links.push({
+        link: "mailto:hello@openupm.com",
+        text: this.$t("contact-us"),
+        icon: "fas fa-envelope",
+        iconLeft: true
+      });
+      links.push({
+        link: "/feeds/updates/rss",
+        text: this.$t("package-updates"),
+        icon: "fa fa-rss-square",
+        raw: true,
+        iconLeft: true
+      });
+      return links;
     },
 
     description() {
-      return this.$site.description;
+      return this.$localeConfig.description;
+    },
+
+    icpLink() {
+      return {
+        link: "https://beian.miit.gov.cn/#/Integrated/index",
+        text: this.$t("icpText")
+      };
+    },
+
+    poweredByLink() {
+      if (this.$site.themeConfig.region != "cn")
+        return {
+          link: "https://www.netlify.com",
+          text: this.$t("powered-by-netlify")
+        };
+      else
+        return {
+          link: this.$site.themeConfig.jdCloudUrl,
+          text: this.$t("powered-by-jd-cloud")
+        };
+    },
+
+    regionLinks() {
+      return [
+        {
+          link:
+            this.$site.themeConfig.region == "us" ? "/" : "https://openupm.com",
+          text: this.$t("region-us")
+        },
+        {
+          link:
+            this.$site.themeConfig.region == "cn" ? "/" : "https://openupm.cn",
+          text: this.$t("region-cn")
+        }
+      ];
     }
   }
 };

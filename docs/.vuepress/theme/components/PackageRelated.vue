@@ -1,7 +1,7 @@
 <template>
   <div class="subpage-pipelines">
     <h2>
-      Related Packages
+      {{ $t("related-packages") }}
       <span class="label label-rounded text-small">
         {{ relatedPackages.length }}
       </span>
@@ -11,7 +11,7 @@
         <thead>
           <tr>
             <th class="td-icon"></th>
-            <th>Name</th>
+            <th>{{ $t("name") }}</th>
           </tr>
         </thead>
         <tbody>

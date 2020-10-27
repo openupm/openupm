@@ -40,7 +40,7 @@
       <Footer v-if="shouldShowFooter"></Footer>
     </slot>
     <script
-      src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"
+      src="/vendors/cookieconsent@3.1.1/build/cookieconsent.min.js"
       data-cfasync="false"
     ></script>
   </div>
@@ -52,6 +52,7 @@ import Footer from "@theme/components/Footer.vue";
 import GrowthBlock from "@theme/components/GrowthBlock.vue";
 import InitialLoading from "@theme/components/InitialLoading.vue";
 import Navbar from "@theme/components/Navbar.vue";
+import util from "@root/docs/.vuepress/util";
 import Page from "@parent-theme/components/Page.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
 import Sidebar from "@parent-theme/components/Sidebar.vue";
@@ -128,7 +129,8 @@ export default {
           "sidebar-open": this.isSidebarOpen,
           "no-sidebar": !this.shouldShowSidebar
         },
-        userPageClass
+        userPageClass,
+        `region-${this.$site.themeConfig.region}`
       ];
     }
   },
@@ -179,7 +181,10 @@ export default {
           }
         },
         content: {
-          href: "/docs/privacy"
+          message: this.$t("cookie-consent-message"),
+          dismiss: this.$t("cookie-consent-dismiss"),
+          link: this.$t("learn-more"),
+          href: util.getDocsUrl("/docs/privacy")
         },
         // eslint-disable-next-line no-unused-vars
         onStatusChange: function(status) {},

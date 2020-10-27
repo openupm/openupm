@@ -1,7 +1,7 @@
 <template>
   <div class="subpage-pipelines">
     <h2>
-      Build Pipelines
+      {{ $t("build-pipelines") }}
       <span class="label label-rounded text-small">
         {{ releaseEntries.length }}
       </span>
@@ -12,11 +12,11 @@
           <thead>
             <tr>
               <th class="td-icon"></th>
-              <th>Git tag</th>
-              <th>Version</th>
-              <th>Commit</th>
-              <th>Build</th>
-              <th>Note</th>
+              <th>{{ $t("git-tag") }}</th>
+              <th>{{ $t("version") }}</th>
+              <th>{{ $t("commit") }}</th>
+              <th>{{ $t("build") }}</th>
+              <th>{{ $t("note") }}</th>
             </tr>
           </thead>
           <tbody>
@@ -45,7 +45,7 @@
         <table v-if="invalidTagEntries.length" class="table">
           <thead>
             <tr>
-              <th>Invalid Git tag (non-semver or duplicated version)</th>
+              <th>{{ $t("invalid-git-tag-and") }}</th>
             </tr>
           </thead>
           <tbody>
@@ -65,37 +65,16 @@
 <script>
 import { VclList } from "vue-content-loading";
 import urljoin from "url-join";
+import { paramCase } from "change-case";
 
 import NavLink from "@theme/components/NavLink.vue";
 import { ReleaseState, ReleaseReason } from "@root/app/models/common";
 import util from "@root/docs/.vuepress/util";
 
 const ReleaseReasonNote = {};
-ReleaseReasonNote[ReleaseReason.None.value] = "unknown error";
-ReleaseReasonNote[ReleaseReason.BadRequest.value] = "server bad request";
-ReleaseReasonNote[ReleaseReason.Unauthorized.value] = "server unauthorized";
-ReleaseReasonNote[ReleaseReason.Forbidden.value] = "server forbidden";
-ReleaseReasonNote[ReleaseReason.EntityTooLarge.value] =
-  "the package is too large";
-ReleaseReasonNote[ReleaseReason.VersionConflict.value] =
-  "the version already exists";
-ReleaseReasonNote[ReleaseReason.InternalError.value] = "server internal error";
-ReleaseReasonNote[ReleaseReason.BadGateway.value] = "server bad gateway";
-ReleaseReasonNote[ReleaseReason.ServiceUnavailable.value] =
-  "server unavailable";
-ReleaseReasonNote[ReleaseReason.BuildTimeout.value] = "the build is timeout";
-ReleaseReasonNote[ReleaseReason.BuildCancellation.value] =
-  "the build is cancelled manually";
-ReleaseReasonNote[ReleaseReason.PackageNotFound.value] =
-  "no valid package.json detected";
-ReleaseReasonNote[ReleaseReason.Private.value] =
-  "the package is explicitly private";
-ReleaseReasonNote[ReleaseReason.PackageNameNotMatch.value] =
-  "the name of package.json isn't matched";
-ReleaseReasonNote[ReleaseReason.PackageNameInvalid.value] =
-  "the package name includes unsupported @ character";
-ReleaseReasonNote[ReleaseReason.PackageJsonParsingError.value] =
-  "invalid format of package.json";
+ReleaseReason.enums.forEach(function(reason) {
+  ReleaseReasonNote[reason.value] = "release-reason-" + paramCase(reason.key);
+});
 
 export default {
   components: { NavLink, VclList },
@@ -160,7 +139,9 @@ export default {
         } else if (stateEnum == ReleaseState.Failed) {
           entry.icon = "fa fa-times-circle text-error";
           entry.errorCode = `E${entry.reason}`;
-          entry.errorMessage = ReleaseReasonNote[entry.reason] || "";
+          entry.errorMessage = this.$te(ReleaseReasonNote[entry.reason])
+            ? this.$t(ReleaseReasonNote[entry.reason])
+            : "";
         }
         return entry;
       });

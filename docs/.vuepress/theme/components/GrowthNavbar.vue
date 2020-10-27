@@ -3,14 +3,23 @@
     <div class="nav-item growth">
       <div class="btn-group">
         <a href="https://github.com/openupm/openupm" class="btn btn-sm"
-          ><i class="fa fa-star"></i> Star <span>|</span>
+          ><i class="fa fa-star"></i> {{ $t("star") }} <span>|</span>
           <span class="stars">{{ stars }}</span></a
         >
         <a href="https://www.patreon.com/openupm" class="btn btn-sm"
-          ><i class="fab fa-patreon"></i> Donate</a
+          ><i class="fab fa-patreon"></i> {{ $t("donate") }}</a
         >
-        <a :href="tweetUrl" class="btn btn-sm"
-          ><i class="fab fa-twitter"></i> Tweet</a
+        <a
+          v-if="$site.themeConfig.region != 'cn'"
+          :href="tweetUrl"
+          class="btn btn-sm"
+          ><i class="fab fa-twitter"></i> {{ $t("tweet") }}</a
+        >
+        <a
+          v-if="$site.themeConfig.region == 'cn'"
+          :href="weiboUrl"
+          class="btn btn-sm"
+          ><i class="fab fa-weibo"></i> {{ $t("weibo-share") }}</a
         >
       </div>
     </div>
@@ -31,6 +40,9 @@ export default {
     },
     tweetUrl() {
       return util.tweetUrl;
+    },
+    weiboUrl() {
+      return util.weiboUrl;
     }
   }
 };

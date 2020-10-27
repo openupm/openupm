@@ -7,8 +7,10 @@
           <a href="#package-recent" aria-hidden="true" class="header-anchor"
             >#</a
           >
-          Recently Updated
-          <a href="/packages/" class="btn btn-sm btn-more">Show more</a>
+          {{ $t("recently-updated") }}
+          <a href="/packages/" class="btn btn-sm btn-more">{{
+            $t("show-more")
+          }}</a>
         </h3>
       </div>
       <div class="column col-6 col-sm-3 text-right hide-sm">

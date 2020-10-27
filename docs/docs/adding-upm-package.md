@@ -101,7 +101,7 @@ In such cases the tag from the upm branch takes higher priority, another one is 
 
 ### Handling Failed Builds
 
-You can check the failed reason at the build issues section on the package detail page. The most common issue is *version conflict*, means a package with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
+You can check the failed reason at the build pipelines section on the package detail page. The most common issue is *version conflict/version exists*, means a package with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
 
 However, build pipelines will not rebuild an already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the package owner is recommended to bump the version with a new git tag. Learn more at [modifying or deleting a published version](modifying-upm-package.md#modifying-or-deleting-a-published-version).
 
@@ -110,13 +110,13 @@ However, build pipelines will not rebuild an already succeeded release if detect
 Monorepos preset multiple packages in a single repository. Usually layout as below,
 
 ```
-Packages
-  namespace.a
+Packages/
+  com.namespace.foo/
     package.json
-  namespace.b
+  com.namespace.bar/
     package.json
 ```
 
 For monorepos, multiple package submissions are required. You need submit packages one by one to the OpenUPM platform. Then there're two cases,
 - If you make a single Github release for each new version, it will just works. Our build pipelines will treat each package submission separately, and locate the relevant package.json to process.
-- If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `namespace.a/1.0.0` and `namespace.b/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `namespace.a` should have `gitTagPrefix: "namespace.a/"`, to avoid wasting resources of build pipelines.
+- If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `com.namespace.bar/1.0.0` and `com.namespace.foo/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `com.namespace.bar` should have `gitTagPrefix: "com.namespace.bar/"`, to avoid wasting resources of build pipelines.

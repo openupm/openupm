@@ -1,7 +1,7 @@
 <template>
   <section class="col-12 install-section">
     <h2>
-      Installation
+      {{ $t("installation") }}
       <i
         v-if="!isLoading && !version"
         class="fas fa-exclamation-triangle text-warning"
@@ -11,10 +11,12 @@
       <div v-if="version">
         <div class="install-option">
           <h3>
-            via
-            <a href="#modal-packageinstaller">package installer</a>
+            {{ $t("via") }}
+            <a href="#modal-packageinstaller">{{ $t("package-installer") }}</a>
             <small
-              ><span class="label label-secondary">experimental</span>
+              ><span class="label label-secondary">{{
+                $t("experimental")
+              }}</span>
             </small>
             <div class="package-installer-btn-wrap btn-group btn-group-block">
               <a :href="installerLink.link" class="btn"
@@ -29,8 +31,10 @@
         />
         <div class="install-option last">
           <h3>
-            via
-            <a href="#modal-commandlinetool">command-line interface</a>
+            {{ $t("via") }}
+            <a href="#modal-commandlinetool">{{
+              $t("command-line-interface")
+            }}</a>
           </h3>
           <div class="install-cli">
             <div
@@ -51,14 +55,14 @@
       <div v-else>
         <div>
           <span v-if="hasNotSucceededBuild"
-            >The package has
-            <RouterLink :to="pipelinesLink" :exact="false"
-              >in-processing or failed builds.</RouterLink
-            ></span
+            >{{ $t("has-not-succeeded-build") }}
+            <RouterLink :to="pipelinesLink" :exact="false">{{
+              $t("has-not-succeeded-build-2")
+            }}</RouterLink></span
           >
           <span v-else>
-            No valid <NavLink :item="repoTagsNavLink" /> detected. Please
-            contact the package owner to create at least one valid Git tag.
+            {{ $t("has-no-valid-tag") }} <NavLink :item="repoTagsNavLink" />
+            {{ $t("has-no-valid-tag-2") }}
           </span>
         </div>
       </div>
@@ -105,7 +109,7 @@ export default {
     installerLink() {
       return {
         link: util.getPackageInstallerUrl(this.pkg.name, this.scopes),
-        text: "Get installer.unitypackage"
+        text: this.$t("get") + " installer.unitypackage"
       };
     },
     pipelinesLink() {
@@ -114,7 +118,7 @@ export default {
     repoTagsNavLink() {
       return {
         link: urljoin(this.pkg.repoUrl, "tags"),
-        text: "GitHub tags"
+        text: this.$t("git-tag")
       };
     }
   },

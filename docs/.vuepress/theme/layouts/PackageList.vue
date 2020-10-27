@@ -4,7 +4,7 @@
     <template #sideview>
       <section class="state-section">
         <ul class="menu">
-          <li class="divider" data-content="State"></li>
+          <li class="divider" :data-content="$t('state')"></li>
           <li class="menu-item">
             <label class="form-switch">
               <input
@@ -15,7 +15,10 @@
               {{ stateText }}
             </label>
           </li>
-          <li class="divider" data-content="Supported Unity Version"></li>
+          <li
+            class="divider"
+            :data-content="$t('supported-unity-version')"
+          ></li>
           <li class="menu-item">
             <div class="form-group">
               <select
@@ -32,7 +35,7 @@
               </select>
             </div>
           </li>
-          <li class="divider show-sm" data-content="Topics"></li>
+          <li class="divider show-sm" :data-content="$t('topics')"></li>
           <li class="menu-item show-sm">
             <div class="form-group">
               <select
@@ -49,7 +52,7 @@
               </select>
             </div>
           </li>
-          <li class="divider" data-content="Sort by"></li>
+          <li class="divider" :data-content="$t('sort-by')"></li>
           <li class="menu-item">
             <div class="form-group">
               <select
@@ -70,7 +73,7 @@
       </section>
       <section class="topic-section hide-sm">
         <ul class="menu">
-          <li class="divider" data-content="Topics"></li>
+          <li class="divider" :data-content="$t('topics')"></li>
           <div class="columns">
             <div
               v-for="item in topics"
@@ -95,10 +98,10 @@
       <div class="column col-4 col-md-5">
         <ul class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="/">Home</a>
+            <a href="/">{{ $t("home") }}</a>
           </li>
           <li class="breadcrumb-item">
-            <a href="#">Packages</a>
+            <a href="#">{{ $t("packages") }}</a>
           </li>
         </ul>
       </div>
@@ -164,10 +167,10 @@ export default {
       active: true,
       topicValue: "",
       sortList: [
-        { text: "Name", value: SortType.name },
-        { text: "Popularity", value: SortType.pop },
-        { text: "Published Date", value: SortType.createdAt },
-        { text: "Recently Updated", value: SortType.updatedAt }
+        { text: this.$t("name"), value: SortType.name },
+        { text: this.$t("popularity"), value: SortType.pop },
+        { text: this.$t("published-date"), value: SortType.createdAt },
+        { text: this.$t("recently-updated"), value: SortType.updatedAt }
       ],
       unity: ""
     };
@@ -177,7 +180,7 @@ export default {
     addPackageLink() {
       const item = {
         link: "/packages/add/",
-        text: "Add Package",
+        text: this.$t("add-package"),
         icon: "fas fa-plus-circle",
         iconLeft: true
       };
@@ -189,7 +192,7 @@ export default {
     contributorLink() {
       const item = {
         link: "/contributors/",
-        text: "Contributors",
+        text: this.$t("contributors"),
         icon: "fas fa-user-astronaut",
         iconLeft: true
       };
@@ -262,7 +265,7 @@ export default {
     },
 
     stateText() {
-      return this.active ? "Ready to Use" : "Pending";
+      return this.active ? this.$t("ready-to-use") : this.$t("pending");
     },
 
     timeField() {
@@ -280,9 +283,10 @@ export default {
       return this.$page.frontmatter.topics
         .filter(topic => topic.count > 0)
         .map(topic => {
+          const transKey = topic.slug || "all";
           return {
             link: topic.link,
-            text: topic.name,
+            text: this.$te(transKey) ? this.$t(transKey) : topic.name,
             value: topic.slug,
             class: topic.slug == this.topic.slug ? "active" : ""
           };
@@ -307,7 +311,7 @@ export default {
       return unityList.map(x => {
         return {
           value: x,
-          text: x ? x : "All",
+          text: x ? x : this.$t("all"),
           link: "",
           class: x == this.unity ? "active" : ""
         };

@@ -6,6 +6,7 @@
  */
 
 import VueMq from "vue-mq";
+import VueI18n from "vue-i18n";
 import Vuex from "vuex";
 import axios from "axios";
 import nprogress from "nprogress";
@@ -45,11 +46,28 @@ export default ({
   siteData, // site metadata
   isServer // is this enhancement applied in server-rendering or client
 }) => {
+  // Load lazy-image
   Vue.component("LazyImage", LazyImage);
+
+  // Load lazy-component
   Vue.use(VueLazyComponent);
+
+  // Load vuex
   Vue.use(Vuex);
   const store = getStore(isServer);
   Vue.mixin({ store });
+
+  // load vue-i18n
+  Vue.use(VueI18n);
+  const i18nConf = {
+    locale: siteData.locales["/"].lang,
+    fallbackLocale: "en-US",
+    // localeMessages is prepared in config.js
+    messages: siteData.themeConfig.localeMessages
+  };
+  options.i18n = new VueI18n(i18nConf);
+
+  // Load vue-mq
   Vue.use(VueMq, {
     breakpoints: {
       xs: 480,
@@ -59,5 +77,6 @@ export default ({
       xl: 1200
     }
   });
+
   if (!isServer) axiosHook();
 };

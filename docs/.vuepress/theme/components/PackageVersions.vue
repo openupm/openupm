@@ -1,7 +1,7 @@
 <template>
   <div class="subpage-versions">
     <h2>
-      Versions
+      {{ $t("versions") }}
       <span class="label label-rounded text-small">
         {{ versions.length }}
       </span>
@@ -11,9 +11,9 @@
         <table class="table">
           <thead>
             <tr>
-              <th>Version</th>
-              <th>Lowest Unity version</th>
-              <th>Published time</th>
+              <th>{{ $t("version") }}</th>
+              <th>{{ $t("lowest-unity-version") }}</th>
+              <th>{{ $t("published-time") }}</th>
             </tr>
           </thead>
           <tbody>
