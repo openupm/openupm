@@ -1,0 +1,16 @@
+name: nothke.flycam
+displayName: FlyCam
+description: A simple package for flying the camera around
+repoUrl: 'https://github.com/nothke/FlyCam'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604245327031
