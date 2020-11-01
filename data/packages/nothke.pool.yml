@@ -1,0 +1,16 @@
+name: nothke.pool
+displayName: Pool
+description: Fixed size collection whose elements are preallocated
+repoUrl: 'https://github.com/nothke/Pool'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604245570930
