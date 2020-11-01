@@ -1,0 +1,18 @@
+name: com.hauntedpsx.render-pipelines.psx
+displayName: HauntedPS1 Render Pipeline
+description: >-
+  A scriptable render pipeline for emulating Playstation-1-style graphics on
+  contemporary hardware.
+repoUrl: 'https://github.com/pastasfuture/com.hauntedpsx.render-pipelines.psx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604245997252
