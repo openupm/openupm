@@ -1,0 +1,16 @@
+name: com.gameheads.render-pipelines.boiler-plate
+displayName: Gameheads Boiler Plate Render Pipeline
+description: A simple Scriptable Render Pipeline example package
+repoUrl: 'https://github.com/pastasfuture/com.gameheads.render-pipelines.boiler-plate'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604289873784
