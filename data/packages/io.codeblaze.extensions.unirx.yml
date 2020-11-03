@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: BLaZeKiLL
-gitTagPrefix: ''
+gitTagPrefix: 'extensions/unirx'
 gitTagIgnore: ''
 minVersion: ''
 image: null
