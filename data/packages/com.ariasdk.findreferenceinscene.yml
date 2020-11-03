@@ -1,0 +1,17 @@
+name: com.ariasdk.findreferenceinscene
+displayName: FindReferenceInScene
+description: 'Component, reference search within the hierarchy of GameObject.'
+repoUrl: 'https://github.com/tk-aria/FindReferenceInScene'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - integration
+hunter: tk-aria
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604427667000
