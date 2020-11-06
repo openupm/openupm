@@ -1,0 +1,16 @@
+name: com.ms.eventbus
+displayName: EventBus
+description: A simple event subscribe & post library for Unity
+repoUrl: 'https://github.com/wlgys8/EventBus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: wlgys8
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604629655508
