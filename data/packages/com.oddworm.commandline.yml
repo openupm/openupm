@@ -1,0 +1,19 @@
+name: com.oddworm.commandline
+displayName: CommandLine
+description: 'A command-line parser for Unity 2019.3 and newer in the style of PlayerPrefs. '
+repoUrl: 'https://github.com/pschraut/UnityCommandLine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/pschraut/UnityCommandLine/raw/dba48e3c06719a4812f05572e43c14e55edd000d/Documentation~/images/playmodeinspector.png
+readme: 'master:README.md'
+createdAt: 1604779100083
