@@ -43,7 +43,7 @@ OpenUPM uses a custom verdaccio to host the registry. Though verdaccio is the mo
 - S3 storage with CDN [#250](https://github.com/verdaccio/monorepo/issues/250)
 - Stateless s3 storage for cluster deployment [#1595](https://github.com/verdaccio/verdaccio/issues/1595), [#1459](https://github.com/verdaccio/verdaccio/issues/1459)
 - Commands `npm publish -f` and `npm unpublish` return 404 ~~[#1435](https://github.com/verdaccio/verdaccio/issues/1435)~~
-- Wrong timestamp for old search api ~~[#1597](https://github.com/verdaccio/verdaccio/issues/1597)~~
+- Wrong timestamp for old search API ~~[#1597](https://github.com/verdaccio/verdaccio/issues/1597)~~
 
 Since OpenUPM has it's own way to organize the package list, the verdaccio website and API endpoints are disabled (headless mode).
 
@@ -85,3 +85,20 @@ yarn server:dev
 ## Package Curated List
 
 OpenUPM uses git as a database to maintain the package curated list. Each package is described as a YAML file.
+
+## i18n
+
+The website supports two regions with different configurations:
+
+| Region | Language | Fallback Language |
+|--------|----------|-------------------|
+| US     | en-US    | n/a               |
+| CN     | zh-CN    | en-US             |
+
+- The documentation level translations are located at `docs/zh`.
+- The component level translations are located at `docs/.vuepress/locales`. [i18n-ally](https://github.com/antfu/i18n-ally) is powerful i18n extensions for VS Code to edit locale files.
+- To develop the CN region:
+
+  ```
+  OPENUPM_REGION=cn yarn docs:dev
+  ```

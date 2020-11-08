@@ -52,7 +52,7 @@ manifest updated, please open unity project to apply changes
 
 Please visit [openupm-cli readme](https://github.com/openupm/openupm-cli#openupm-cli) for more usages.
 
-A seamlessly unity editor integration may come in 2020, see [#10](https://github.com/openupm/openupm/issues/10).
+A seamlessly unity editor integration may come in 2021, see [#10](https://github.com/openupm/openupm/issues/10).
 
 ### Automatic Build Pipelines
 
@@ -64,7 +64,7 @@ OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/maste
 
 [Unity asset store](https://assetstore.unity.com/) is the official solution for publishing software SDKs, asset packs and services, offering both paid and free content. Since Unity 2019.3, developers can download the installed assets directly from the UPM window. However assets are installed into the Asset folder, the old fashion way is designed for managing assets. Lacking the dependency management make it not good enough for managing libraries and tools. Unity has a progressive way to encourage it's large contents to convert to UPM format. But it takes years to achieve that.
 
-OpenUPM is focusing on open-source UPM packages from day one. The open-source Unity community is not very strong at the moment, but growing fast, and will eventually play an important role of Unity development.
+Unlike the Unity asset store, OpenUPM is focusing on open-source UPM packages from day one. The open-source Unity community is not very strong at the moment, but growing fast, and will eventually play an important role in Unity development. We thank that the Unity asset store and OpenUPM will continue growing and benefiting each other.
 
 ### Other 3rd-party Registries
 
@@ -89,16 +89,23 @@ Since Unity 2019.3, developers can install the UPM package directly via Git URL.
 - lacking version control.
 - lacking support for the custom package with Git dependencies. Git URL is not the standard syntax of package dependency, hence you cannot resolve a custom package that depends on another custom package using Git URLs.
 
-To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the Git tag based version control and the [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity) for Git URLs. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform is still a better package discovery service.
+To overcome these barriers, [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) is a 3rd-party plugin that providing the Git tag based version control and the [dependency resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity) for Git URLs. Along with [awesome-upm](https://github.com/starikcetin/awesome-upm) - a curated list of UPM repositories, together they offering a similar experience with OpenUPM. While the OpenUPM platform may be a better package discovery service.
 
 ## The Power of Open Source
 
 OpenUPM is an open-source service. It's impossible to make it work without these amazing projects and services.
 
-- [Verdaccio](https://verdaccio.org/) for the package registry
-- [Vuepress](https://vuepress.vuejs.org/) for writing docs
-- [Spectre](https://github.com/picturepan2/spectre) for styling
-- [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for the cloud computing
-- [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) for build pipelines
-- [Netlify](https://github.com/netlify) for hosting the website
-- [GitHub Actions](https://github.com/features/actions) for CI
+Open-source software
+
+- [Verdaccio](https://verdaccio.org/) for the package registry.
+- [Vuepress](https://vuepress.vuejs.org/) for writing docs.
+- [Spectre](https://github.com/picturepan2/spectre) for styling.
+- [Font Awesome](https://fontawesome.com/license/free) for icon.
+
+Open-source friendly services
+
+- [Digital Ocean](https://m.do.co/c/50e7f9860fa9) for the cloud computing.
+- [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) for build pipelines.
+- [Netlify](https://github.com/netlify) for hosting the website (region US).
+- [JDCloud](https://www.jdcloud.com/) for hosting the website (region CN).
+- [GitHub Actions](https://github.com/features/actions) for CI.

@@ -4,7 +4,7 @@
     <ClientOnly>
       <div v-if="!isLoading">
         <div v-if="html" v-html="html"></div>
-        <p v-else>Readme is not available, please try again later.</p>
+        <p v-else>{{ $t("readme-to-found") }}</p>
       </div>
       <div v-else class="skeleton-wrap">
         <VclList />
@@ -48,7 +48,7 @@ export default {
           "/blob/master/data/packages",
           this.name + ".yml"
         ),
-        text: "Edit this package"
+        text: this.$t("edit-package")
       };
     }
   }

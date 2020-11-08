@@ -7,18 +7,18 @@
           <div class="column col-12">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="/">Home</a>
+                <a href="/">{{ $t("home") }}</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="/packages/">Packages</a>
+                <a href="/packages/">{{ $t("packages") }}</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="#">Add</a>
+                <a href="#">{{ $t("add-package") }}</a>
               </li>
             </ul>
           </div>
           <div class="column col-12">
-            <h1>Submit Open Source UPM Package</h1>
+            <h1>{{ $t("add-package-title") }}</h1>
           </div>
           <div class="column col-5 col-sm-12">
             <fieldset v-if="!isStepFillFormChecked" :disabled="isSubmitting">
@@ -27,7 +27,9 @@
                   class="form-group column col-12"
                   :class="{ 'has-error': form.repo.error }"
                 >
-                  <label class="form-label required">Repository</label>
+                  <label class="form-label required">{{
+                    $t("repository")
+                  }}</label>
                   <div class="input-group">
                     <span class="input-group-addon">github.com/</span>
                     <input
@@ -35,14 +37,14 @@
                       class="form-input"
                       type="text"
                       required
-                      placeholder="owner/project-name"
+                      :placeholder="$t('repository-placeholder')"
                       @change="onRepoChange"
                     />
                     <button
                       class="btn btn-primary input-group-btn btn-go"
                       @click="onGoClick"
                     >
-                      Go
+                      {{ $t("go") }}
                     </button>
                   </div>
                   <span v-if="form.repo.error" class="form-input-hint">
@@ -63,8 +65,12 @@
                     required
                     @change="onBranchChange($event)"
                   >
-                    <option v-if="!branches.length" disabled selected value=""
-                      >Loading branches...</option
+                    <option
+                      v-if="!branches.length"
+                      disabled
+                      selected
+                      value=""
+                      >{{ $t("loading-branches") }}</option
                     >
                     <option
                       v-for="branch in branches"
@@ -87,7 +93,7 @@
                   }"
                 >
                   <label class="form-label required">
-                    Path of package.json
+                    {{ $t("path-of-package-json") }}
                   </label>
                   <select
                     v-model="form.packageJson.value"
@@ -123,7 +129,7 @@
                   }"
                 >
                   <label class="form-label">
-                    Path of README.md
+                    {{ $t("path-of-readme") }}
                   </label>
                   <select v-model="form.readme.value" class="form-select">
                     <option
@@ -149,34 +155,34 @@
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
-                  <label class="form-label">Git tag prefix</label>
+                  <label class="form-label">{{ $t("git-tag-prefix") }}</label>
                   <input
                     v-model="form.gitTagPrefix.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (by default)"
+                    :placeholder="$t('git-tag-prefix-placeholder')"
                   />
-                  <span class="form-input-hint is-error">
-                    A prefix to filter Git tags, mostly used by monorepos to
-                    distinguish releases. A prefixed tag should separate the
-                    semver with a slash <code>/</code>, hyphen <code>-</code>,
-                    or underscore <code>_</code>. e.g.
-                    <code>myprefix/x.y.z</code>.
+                  <span
+                    class="form-input-hint is-error"
+                    v-html="$t('git-tag-prefix-desc-safe')"
+                  >
                   </span>
                 </div>
                 <div
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
-                  <label class="form-label">Git tag ignore pattern</label>
+                  <label class="form-label">{{
+                    $t("git-tag-ignore-pattern")
+                  }}</label>
                   <input
                     v-model="form.gitTagIgnore.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to include all tags (by default)"
+                    :placeholder="$t('git-tag-ignore-pattern-placeholder')"
                   />
                   <span class="form-input-hint is-error">
-                    Regular expression to exclude Git tags from build pipelines:
+                    {{ $t("git-tag-ignore-pattern-desc") }}
                     <br />
                     <code v-if="form.gitTagIgnore.value">
                       /{{ form.gitTagIgnore.value }}/i
@@ -187,12 +193,14 @@
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
-                  <label class="form-label">Minimal version to build</label>
+                  <label class="form-label">{{
+                    $t("minimal-version-to-build")
+                  }}</label>
                   <input
                     v-model="form.minVersion.value"
                     class="form-input"
                     type="text"
-                    placeholder="leave empty to build all versions (by default)"
+                    :placeholder="$t('minimal-version-to-build-placeholder')"
                   />
                 </div>
                 <div
@@ -202,14 +210,14 @@
                     'has-error': form.licenseName.error
                   }"
                 >
-                  <label class="form-label">License name</label>
+                  <label class="form-label">{{ $t("license-name") }}</label>
                   <input
                     v-model="form.licenseName.value"
                     class="form-input"
                     type="text"
                   />
                   <span class="form-input-hint is-error">
-                    Please specify the license name.
+                    {{ $t("license-name-desc") }}
                   </span>
                 </div>
                 <div
@@ -219,7 +227,7 @@
                     'has-error': form.topics.error
                   }"
                 >
-                  <label class="form-label">Topics</label>
+                  <label class="form-label">{{ $t("topics") }}</label>
                   <div class="columns">
                     <div
                       v-for="item in form.topics.options"
@@ -230,7 +238,7 @@
                         <input v-model="item.value" type="checkbox" /><i
                           class="form-icon"
                         ></i>
-                        {{ item.name }}
+                        {{ $te(item.slug) ? $t(item.slug) : item.name }}
                       </label>
                     </div>
                   </div>
@@ -243,13 +251,13 @@
                     'has-error': form.image.error
                   }"
                 >
-                  <label class="form-label">Featured image</label>
+                  <label class="form-label">{{ $t("featured-image") }}</label>
                   <div class="form-input-hint is-error">
-                    Notice: if the repository has a
+                    {{ $t("featured-image-desc") }}
                     <a
                       href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
-                      >social image</a
-                    >, will use that instead.
+                      >{{ $t("social-image") }}</a
+                    >{{ $t("featured-image-desc-2") }}
                   </div>
                   <div class="columns pkg-img-columns">
                     <div
@@ -276,14 +284,14 @@
                   class="form-group column col-12"
                   :class="{ hide: hideOtherFields }"
                 >
-                  <label class="form-label">Discovered by</label>
+                  <label class="form-label">{{ $t("discovered-by") }}</label>
                   <div class="input-group">
                     <span class="input-group-addon">github.com/</span>
                     <input
                       v-model="form.hunter.value"
                       class="form-input"
                       type="text"
-                      placeholder="hunter"
+                      :placeholder="$t('discovered-by-placeholder')"
                     />
                   </div>
                 </div>
@@ -295,24 +303,25 @@
                     class="btn btn-primary btn-submit"
                     @click="onVerifyClick"
                   >
-                    Verify package
+                    {{ $t("verify-package") }}
                   </button>
                 </div>
               </div>
             </fieldset>
             <div v-else>
-              <h6>Package name: {{ packageInfo.name }}</h6>
-              <h6>Meta data:</h6>
+              <h6>{{ $t("package-name") }}: {{ packageInfo.name }}</h6>
+              <h6>{{ $t("meta-data") }}:</h6>
               <pre class="code file-content" data-lang="yaml">
                 <code>{{ yaml }}</code>
               </pre>
               <div class="text-right">
                 <button class="btn btn-error" @click="onBack">
-                  Back
+                  {{ $t("back") }}
                 </button>
                 <a
                   :href="uploadLink.link"
                   class="btn btn-primary"
+                  target="_blank"
                   @click="onUpload"
                   >{{ uploadLink.text }}</a
                 >
@@ -341,11 +350,10 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Fill the package form
+                              {{ $t("fill-the-package-form") }}
                             </p>
                             <p class="tile-subtitle">
-                              Please provide information about the UPM package.
-                              Learn more at
+                              {{ $t("fill-the-package-form-desc") }}
                               <NavLink :item="docLink" />.
                             </p>
                           </div>
@@ -369,28 +377,32 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Upload to GitHub via pull request
+                              {{ $t("upload-to-github-via-pr") }}
                             </p>
                             <p class="tile-subtitle">
-                              The package is verified. A YAML file is generated
-                              to store the meta data.
+                              {{ $t("upload-to-github-via-pr-desc") }}
                             </p>
                             <ul>
-                              <li>
-                                Click the <b>Upload package</b> button will
-                                guide you to the GitHub website.
-                              </li>
-                              <li>
-                                Scroll to the end of the page, click the
-                                <b>purpose new file</b> button.
-                              </li>
-                              <li>
-                                Click the <b>create pull request</b> button on
-                                the following page.
-                              </li>
-                              <li>
-                                The pull request will get merged automatically.
-                              </li>
+                              <li
+                                v-html="
+                                  $t('upload-to-github-via-pr-step-1-safe')
+                                "
+                              ></li>
+                              <li
+                                v-html="
+                                  $t('upload-to-github-via-pr-step-2-safe')
+                                "
+                              ></li>
+                              <li
+                                v-html="
+                                  $t('upload-to-github-via-pr-step-3-safe')
+                                "
+                              ></li>
+                              <li
+                                v-html="
+                                  $t('upload-to-github-via-pr-step-4-safe')
+                                "
+                              ></li>
                             </ul>
                           </div>
                         </div>
@@ -410,18 +422,20 @@
                         <div class="tile">
                           <div class="tile-content">
                             <p class="tile-title">
-                              Wait for CI pipelines to complete (1-3 mins)
+                              {{ $t("wait-for-ci-pipelines") }}
                             </p>
                             <ul>
                               <li>
-                                You can visit the package at
-                                <NavLink :item="packageLink" target="_blank" />.
+                                <span
+                                  v-html="
+                                    $t('wait-for-ci-pipelines-step-1-safe')
+                                  "
+                                ></span>
+                                <NavLink :item="packageLink" target="_blank" />
                               </li>
-                              <li>
-                                You can view the build result at the
-                                <em>version history</em> and
-                                <em>build issues</em> sections.
-                              </li>
+                              <li
+                                v-html="$t('wait-for-ci-pipelines-step-2-safe')"
+                              ></li>
                             </ul>
                           </div>
                         </div>
@@ -550,7 +564,7 @@ export default {
       });
       return {
         link: "https://github.com/openupm/openupm/new/master/?" + qs,
-        text: "Upload package"
+        text: this.$t("submit-pr")
       };
     },
     docLink() {
@@ -569,7 +583,11 @@ export default {
   mounted() {
     let topics = this.$page.frontmatter.topics;
     this.$data.form.topics.options = topics.map(function(x) {
-      return { name: x.name, slug: x.slug, value: false };
+      return {
+        name: x.name,
+        slug: x.slug,
+        value: false
+      };
     });
   },
   methods: {
@@ -912,4 +930,16 @@ export default {
 
     .tile-title
       font-weight bold
+
+    .form-label,
+    .form-input-hint,
+    .form-group,
+    .form-group input,
+    .form-group select,
+    .tile
+      font-size $fontSizeMD
+
+    .timeline
+      .timeline-item
+        margin-bottom 0
 </style>

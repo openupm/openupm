@@ -17,6 +17,18 @@ code.hljs
   opacity 1;
   transform translate(-50%, -.2rem);
 
+// Load fonts
+@import './fonts.styl'
+
+h1, h2, h3, h4, h5, h6
+  font-family $titleFontFamily
+
+code, kbd, .line-number
+  font-family $sourceCodeFontFamily
+
+body
+  font-family $bodyFontFamily
+
 // Fix documentation style issues caused by spectre overriden.
 h1, .h1
   font-size 1.6rem
@@ -36,14 +48,9 @@ h5, .h5
 h6, .h6
   font-size 0.7rem
 
-h1, h2, h3, h4, h5, h6
-  font-family $titleFontFamily
 
 ul
   list-style disc outside
-
-code, kbd, .line-number
-  font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 
 small
   a

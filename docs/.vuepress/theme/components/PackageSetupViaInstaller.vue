@@ -1,14 +1,15 @@
 <template>
   <Modal :id="modalId">
     <template #title>
-      Install via Package Installer
-      <small><span class="label label-secondary">experimental</span> </small>
+      {{ $t("install-via-package-installer") }}
+      <small
+        ><span class="label label-secondary">{{ $t("experimental") }}</span>
+      </small>
     </template>
     <template #body>
       <p>
-        <NavLink :item="installerSiteLink" /> creates a traditional
-        <code>.unitypackage</code> helper to install a UPM package into your
-        Unity project.
+        <NavLink :item="installerSiteLink" />
+        {{ $t("install-via-package-installer-intro") }}
       </p>
       <ul>
         <li>
@@ -17,11 +18,10 @@
           }}</a>
         </li>
         <li>
-          Open the downloaded file with your Unity editor or drag it into the
-          Unity editor window.
+          {{ $t("install-via-package-installer-step-2") }}
         </li>
         <li>
-          The installer will remove itself after installation.
+          {{ $t("install-via-package-installer-step-3") }}
         </li>
       </ul>
     </template>
@@ -45,7 +45,7 @@ export default {
     installerSiteLink() {
       return {
         link: util.packageInstallerSiteUrl,
-        text: "Needle's package installer"
+        text: this.$t("needles-package-installer")
       };
     }
   }

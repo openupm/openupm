@@ -9,10 +9,10 @@
               <div class="column col-10 col-md-7">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="/">Home</a>
+                    <a href="/">{{ $t("home") }}</a>
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="#">Contributors</a>
+                    <a href="#">{{ $t("contributors") }}</a>
                   </li>
                 </ul>
               </div>
@@ -20,7 +20,7 @@
           </div>
           <div v-if="backers.length" class="column col-12">
             <section id="backers" class="avatar-wall">
-              <h2>Backers</h2>
+              <h2>{{ $t("backers") }}</h2>
               <figure
                 v-for="(profile, index) in backers"
                 :key="index"
@@ -37,7 +37,7 @@
           </div>
           <div class="column col-12">
             <section id="package-hunters" class="avatar-wall">
-              <h2>Top Package Hunters</h2>
+              <h2>{{ $t("top-package-hunters") }}</h2>
               <figure
                 v-for="(profile, index) in hunters"
                 :key="index"
@@ -52,7 +52,7 @@
           </div>
           <div class="column col-12">
             <section id="package-owners" class="avatar-wall">
-              <h2>Top Package Owners</h2>
+              <h2>{{ $t("top-package-owners") }}</h2>
               <figure
                 v-for="(profile, index) in owners"
                 :key="index"

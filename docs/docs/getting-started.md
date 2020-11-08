@@ -3,12 +3,15 @@ sidebar: true
 sidebarDepth: 2
 showFooter: false
 ---
-# Getting Started
+# Getting Started with OpenUPM-CLI
 
 The article is a step-by-step tutorial for how to install openupm-cli and manipulate the package manifest file in the terminal. It can work with various shells:
 - Bash for Mac/Linux
 - [Git-Bash](https://gitforwindows.org/), CMD, or PowerShell for Windows.
 
+::: Not a shell fan?
+If you are unfamiliar with the command-line, you can still use other installation options available on the package page.
+:::
 
 ## Installing OpenUPM-CLI
 

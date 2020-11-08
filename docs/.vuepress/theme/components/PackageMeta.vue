@@ -9,17 +9,17 @@
           :version="version"
         />
         <section class="col-12">
-          <h2>Project</h2>
+          <h2>{{ $t("project") }}</h2>
           <div>
             <span><NavLink :item="repoNavLink"/></span>
           </div>
           <div v-if="parentRepoNavLink" class="fork">
-            forked from
+            {{ $t("forked-from") }}
             <NavLink :item="parentRepoNavLink" />
           </div>
         </section>
         <section class="col-6">
-          <h2>Author</h2>
+          <h2>{{ $t("authors") }}</h2>
           <a
             v-if="parentOwnerNavLink"
             :href="parentOwnerNavLink.link"
@@ -48,7 +48,7 @@
           </a>
         </section>
         <section class="col-6">
-          <h2>Discovered by</h2>
+          <h2>{{ $t("discovered-by") }}</h2>
           <a
             v-if="pkg.hunterUrl"
             :href="hunterNavLink.link"
@@ -66,11 +66,11 @@
           <span v-else>{{ pkg.hunter }}</span>
         </section>
         <section class="col-6">
-          <h2>License</h2>
+          <h2>{{ $t("license") }}</h2>
           <span>{{ pkg.licenseSpdxId || pkg.licenseName || "-" }}</span>
         </section>
         <section class="col-6">
-          <h2>Stars</h2>
+          <h2>{{ $t("stars") }}</h2>
           <span>
             <i class="fa fa-star"></i>
             {{ pkg.stars }}
@@ -80,27 +80,29 @@
               <NavLink
                 :item="{
                   link: pkg.parentRepoUrl,
-                  text: 'upstream'
+                  text: this.$t('upstream')
                 }"
               />
             </small>
           </span>
         </section>
         <section class="col-6">
-          <h2>Version</h2>
+          <h2>{{ $t("version") }}</h2>
           <span>{{ version || "-" }}</span>
         </section>
         <section class="col-6">
-          <h2>Unity Version</h2>
+          <h2>{{ $t("unity-version") }}</h2>
           <span>{{ unityVersion || "-" }}</span>
         </section>
         <section class="col-6 col-sm-12">
-          <h2>Published</h2>
+          <h2>{{ $t("published") }}</h2>
           <span>{{ publishedAt || "-" }}</span>
         </section>
         <section class="col-6 hide-sm"></section>
         <section class="col-12">
-          <h2>Badge <small>(click to copy)</small></h2>
+          <h2>
+            {{ $t("badge") }} <small>({{ $t("click-to-copy") }})</small>
+          </h2>
           <div class="container">
             <div class="columns">
               <div class="col-6">

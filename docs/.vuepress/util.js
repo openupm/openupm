@@ -1,18 +1,24 @@
 // Util
 
 const formatDistanceToNow = require("date-fns/formatDistanceToNow").default;
+var dateFnsEnLocale = require("date-fns/locale/en-US").default;
+var dateFnsZhLocale = require("date-fns/locale/zh-CN").default;
+
 const { isDate } = require("lodash/lang");
 const urljoin = require("url-join");
+
+const BASE_DOMAIN = process.env.BASE_DOMAIN;
+const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
 
 const _urlUtils = {
   // OpenUPM API URL
   openupmApiUrl:
     process.env.NODE_ENV === "development"
       ? "http://localhost:3600"
-      : "https://api.openupm.com",
+      : `https://api.${BASE_DOMAIN}`,
 
   // OpenUPM registry URL
-  openupmRegistryUrl: "https://package.openupm.com",
+  openupmRegistryUrl: `https://package.${BASE_DOMAIN}`,
 
   get openupmPackagesApiUrl() {
     return urljoin(_urlUtils.openupmApiUrl, "/packages/");
@@ -52,6 +58,12 @@ const _urlUtils = {
     );
   },
 
+  // Return docs URL for the given language
+  getDocsUrl: function(url, lang) {
+    if (!lang && OPENUPM_REGION == "cn") lang = "zh";
+    return lang ? `/${lang}${url}` : url;
+  },
+
   // Convert GitHub URL to GitHub raw URL
   convertToGitHubRawUrl: function(url) {
     const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
@@ -76,7 +88,10 @@ const _urlUtils = {
 
   // Tweet URL
   tweetUrl:
-    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&via=openupmupdate&hashtags=unity3d,openupm,upm,gamedev"
+    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&via=openupmupdate&hashtags=unity3d,openupm,upm,gamedev",
+
+  // Weibo URL
+  weiboUrl: "https://service.weibo.com/share/share.php?url=https://openupm.cn"
 };
 
 const _pageUtils = {
@@ -95,7 +110,9 @@ const _timeUtils = {
   timeAgoFormat: function(date) {
     try {
       if (!isDate(date)) date = new Date(date);
-      return formatDistanceToNow(date);
+      return formatDistanceToNow(date, {
+        locale: OPENUPM_REGION == "cn" ? dateFnsZhLocale : dateFnsEnLocale
+      });
     } catch (err) {
       return "";
     }

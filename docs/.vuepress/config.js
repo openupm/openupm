@@ -1,53 +1,18 @@
+const _ = require("lodash");
+const fs = require("fs");
 const path = require("path");
-const { description } = require("../../package");
+const webpack = require("webpack");
+const yaml = require("js-yaml");
 
-const docSideBar = function() {
-  return [
-    {
-      title: "Guide",
-      collapsable: false,
-      children: [
-        "/docs/",
-        "/docs/getting-started",
-        "/docs/adding-upm-package",
-        "/docs/modifying-upm-package",
-        "/support/"
-      ]
-    },
-    {
-      title: "Package Creator Guide",
-      collapsable: false,
-      children: ["/docs/adding-badge", "/docs/managing-upm-project"]
-    },
-    {
-      title: "Development Guide",
-      collapsable: true,
-      children: ["/docs/dev/"]
-    },
-    {
-      title: "Resources",
-      collapsable: true,
-      children: [
-        "/docs/team",
-        "/docs/terms",
-        "/docs/code-of-conduct",
-        "/docs/privacy"
-      ]
-    }
-  ];
-};
+const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
+const BASE_DOMAIN = OPENUPM_REGION == "cn" ? "openupm.cn" : "openupm.com";
 
-module.exports = {
-  title: "OpenUPM",
-  description: description,
+const configUs = require("./regions/config-us");
+const configCn = require("./regions/config-cn");
+const regionConfig = OPENUPM_REGION == "cn" ? configCn : configUs;
+
+const config = {
   head: [
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "openupm,upm,registry,unity,package,manager,open source"
-      }
-    ],
     ["meta", { name: "theme-color", content: "#3068E5" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
@@ -56,21 +21,16 @@ module.exports = {
     ],
     [
       "link",
-      { rel: "stylesheet", href: "https://use.typekit.net/uwx2pxu.css" }
-    ],
-    [
-      "link",
       {
         rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        href: "/vendors/fontawesome-free@5.15.1/css/all.css"
       }
     ],
     [
       "link",
       {
         rel: "stylesheet",
-        href:
-          "https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
+        href: "/vendors/cookieconsent@3.1.1/build/cookieconsent.min.css"
       }
     ],
     ["link", { rel: "icon", href: "/images/openupm-icon-256.png" }],
@@ -95,7 +55,7 @@ module.exports = {
       {
         rel: "alternate",
         type: "application/rss+xml",
-        href: "https://openupm.com/feeds/updates/rss"
+        href: `https://api.${BASE_DOMAIN}/feeds/updates/rss`
       }
     ],
     [
@@ -103,7 +63,7 @@ module.exports = {
       {
         rel: "alternate",
         type: "application/rss+atom",
-        href: "https://openupm.com/feeds/updates/atom"
+        href: `https://api.${BASE_DOMAIN}/feeds/updates/atom`
       }
     ],
     [
@@ -111,7 +71,7 @@ module.exports = {
       {
         rel: "alternate",
         type: "application/json",
-        href: "https://openupm.com/feeds/updates/json"
+        href: `https://api.${BASE_DOMAIN}/feeds/updates/json`
       }
     ],
     [
@@ -134,84 +94,16 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    domain: "https://openupm.com",
+    baseDomain: BASE_DOMAIN,
+    domain: `https://${BASE_DOMAIN}`,
+    region: OPENUPM_REGION,
     repo: "https://github.com/openupm/openupm",
-    editLinks: true,
     docsDir: "docs",
+    editLinks: true,
+    logo: "/images/openupm-icon-128.png",
     lastUpdated: false,
     smoothScroll: true,
-    logo: "/images/openupm-icon-128.png",
-    nav: [
-      {
-        text: "Packages",
-        link: "/packages/"
-      },
-      {
-        text: "Docs",
-        link: "/docs/"
-      },
-      {
-        text: "Support",
-        ariaLabel: "Support Menu",
-        items: [
-          { text: "Support OpenUPM", link: "/support/" },
-          { text: "Contributors", link: "/contributors/" }
-        ]
-      },
-      {
-        text: "Connect",
-        ariaLabel: "Connect Menu",
-        items: [
-          {
-            text: "GitHub",
-            link: "https://github.com/openupm/openupm",
-            icon: "fab fa-github",
-            iconLeft: true
-          },
-          {
-            text: "Medium",
-            link: "https://medium.com/openupm",
-            icon: "fab fa-medium",
-            iconLeft: true
-          },
-          {
-            text: "Twitter",
-            link: "https://twitter.com/openupmupdate",
-            icon: "fab fa-twitter",
-            iconLeft: true
-          },
-          {
-            text: "Discord",
-            link: "https://discord.gg/FnUgWEP",
-            icon: "fab fa-discord",
-            iconLeft: true
-          },
-          {
-            link: "mailto:hello@openupm.com",
-            text: "Contact Us",
-            icon: "fas fa-envelope",
-            iconLeft: true
-          },
-          {
-            link: "/feeds/updates/rss",
-            text: "Package Updates",
-            icon: "fa fa-rss-square",
-            raw: true,
-            iconLeft: true
-          }
-        ]
-      },
-      {
-        text: "CLI",
-        link: "https://github.com/openupm/openupm-cli#openupm-cli",
-        icon: "fa fa-keyboard",
-        iconLeft: true
-      }
-    ],
-    sidebar: {
-      "/docs/": docSideBar(),
-      "/support/": docSideBar()
-    }
+    jdCloudUrl: "https://www.jdcloud.com/"
   },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
@@ -227,16 +119,9 @@ module.exports = {
     // ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
-    [
-      "vuepress-plugin-social-share",
-      {
-        networks: ["twitter", "facebook", "telegram"],
-        fallbackImage: "/images/openupm-icon-256.png"
-      }
-    ],
     require("./plugins/openupm-packages"),
     ["@vuepress/google-analytics", { ga: "UA-154679622-1" }],
-    ["vuepress-plugin-sitemap", { hostname: "https://openupm.com" }],
+    ["vuepress-plugin-sitemap", { hostname: `https://${BASE_DOMAIN}` }],
     [
       "vuepress-plugin-seo",
       {
@@ -274,11 +159,13 @@ module.exports = {
   ],
   // eslint-disable-next-line no-unused-vars
   chainWebpack: (config, isServer) => {
+    // Load js-yaml-loader
     config.module
       .rule("yaml")
       .test(/\.ya?ml$/)
       .use("js-yaml-loader")
       .loader("js-yaml-loader");
+    // Load webpack-bundle-analyzer
     if (process.env.WEBPACK_BUNDLE_ANALYZER && !isServer) {
       const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
       config
@@ -287,8 +174,39 @@ module.exports = {
         .init(Plugin => new Plugin());
     }
   },
+  // eslint-disable-next-line no-unused-vars
+  configureWebpack: (config, isServer) => {
+    return {
+      plugins: [
+        new webpack.EnvironmentPlugin({
+          OPENUPM_REGION,
+          BASE_DOMAIN
+        })
+      ]
+    };
+  },
   alias: {
     "@root": path.resolve(__dirname, "../../")
   },
   shouldPrefetch: () => false
 };
+
+// Merge locale config
+config.locales = regionConfig.locales;
+config.themeConfig = _.merge({}, config.themeConfig, regionConfig.themeConfig);
+config.head = _.concat(config.head, regionConfig.head);
+config.plugins = _.concat(config.plugins, regionConfig.plugins);
+
+// Load locale messages.
+const defaultLang = config.locales["/"].lang;
+const localeMessages = {};
+const langs = defaultLang == "en-US" ? ["en-US"] : ["en-US", defaultLang];
+for (const lang of langs) {
+  const messagesFile = path.resolve(__dirname, `./locales/${lang}.yml`);
+  const messages = yaml.safeLoad(fs.readFileSync(messagesFile, "utf8"));
+  localeMessages[lang] = messages;
+}
+config.themeConfig.localeMessages = localeMessages;
+
+// Export.
+module.exports = config;

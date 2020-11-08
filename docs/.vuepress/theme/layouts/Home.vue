@@ -27,11 +27,11 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              Hosting
+              {{ $t("hosting") }}
               <strong class="pkg-count">{{
                 readyPackageCount || "..."
               }}</strong>
-              community selective open source UPM packages and counting
+              {{ $t("hosting-2") }}
             </p>
           </div>
         </div>
