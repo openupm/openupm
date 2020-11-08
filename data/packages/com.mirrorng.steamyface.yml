@@ -3,11 +3,10 @@ displayName: MirrorNG SteamyNG
 description: Facepunch version of steam for mirrorng
 repoUrl: 'https://github.com/MirrorNG/SteamyFaceNG'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MirrorNG Team
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - network
-  - utilities
 hunter: paulpach
 gitTagPrefix: ''
 gitTagIgnore: ''
