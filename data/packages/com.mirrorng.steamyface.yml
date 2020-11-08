@@ -1,0 +1,35 @@
+name: com.mirrorng.steamy
+displayName: MirrorNG SteamyNG
+description: Facepunch version of steam for mirrorng
+repoUrl: 'https://github.com/MirrorNG/SteamyFaceNG'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MirrorNG Team
+topics:
+  - network
+  - utilities
+hunter: paulpach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604854321089
+
+name: com.mirrorng.steamy
+displayName: MirrorNG SteamyNG
+description: Facepunch version of steam for mirrorng
+repoUrl: 'https://github.com/MirrorNG/SteamyFaceNG'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MirrorNG Team
+topics:
+  - network
+  - utilities
+hunter: paulpach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604854321089
