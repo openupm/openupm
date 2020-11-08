@@ -1,0 +1,15 @@
+name: com.virgis.geojson.net
+displayName: GeoJSON.Net
+description: .Net library for GeoJSON types & corresponding Json.Net (de)serializers
+repoUrl: 'https://github.com/ViRGIS-Team/GeoJSON.Net'
+parentRepoUrl: 'https://github.com/GeoJSON-Net/GeoJSON.Net'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.2.16
+image: null
+readme: 'master:README.md'
+createdAt: 1604871394173
