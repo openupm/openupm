@@ -1,0 +1,20 @@
+name: com.alelievr.mixture
+displayName: Mixture
+description: 'Mixture is a powerful node-based tool crafted in unity to generate all kinds of textures in realtime.'
+repoUrl: 'https://github.com/alelievr/Mixture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - particles-and-effects
+  - procedural-generation
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/alelievr/Mixture/raw/dc5f0aaa5200a3a36c82756439298e2fce71eb9c/docs/docfx/images/MixtureOpen.gif
+readme: 'upm:README.md'
+createdAt: 1604876243529
