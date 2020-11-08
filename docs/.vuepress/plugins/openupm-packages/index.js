@@ -105,11 +105,17 @@ module.exports = function(options, context) {
         const hunters = getConstributors("hunter");
         const owners = getConstributors("owner");
         // Backers
-        const backerPath = path.resolve(
+        const backersPath = path.resolve(
           __dirname,
           "../../../../data/backers.yml"
         );
-        const backers = yaml.safeLoad(await readFile(backerPath, "utf8"));
+        const backers = yaml.safeLoad(await readFile(backersPath, "utf8"));
+        // Sponsors
+        const sponsorsPath = path.resolve(
+          __dirname,
+          "../../../../data/sponsors.yml"
+        );
+        const sponsors = yaml.safeLoad(await readFile(sponsorsPath, "utf8"));
         // // Recent packages
         // const recentAddedPackages = orderBy(packages, ["createdAt"], ["desc"])
         //   .filter(x => !x.excludedFromList)
@@ -117,14 +123,15 @@ module.exports = function(options, context) {
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
+          hunters,
+          owners,
+          packageByNamespace,
           packageNames,
           packages,
           // recentAddedPackages,
-          packageByNamespace,
+          sponsors,
           topics,
-          topicsWithAll,
-          hunters,
-          owners
+          topicsWithAll
         };
       }
       return pluginData.data;
@@ -222,7 +229,8 @@ module.exports = function(options, context) {
           title: "Contributors",
           hunters: data.hunters,
           owners: data.owners,
-          backers: data.backers.backers,
+          backers: data.backers.items,
+          sponsors: data.sponsors.items,
           noGlobalSocialShare: true
         })
       };

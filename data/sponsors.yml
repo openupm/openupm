@@ -1,0 +1,8 @@
+items:
+- name: JDCloud
+  level: bronze
+  url: https://www.jdcloud.com/en
+  urlCN: https://www.jdcloud.com
+  image: /images/brands/jdcloud/EN-Color-Horizontal.png
+  imageCN: /images/brands/jdcloud/CH-Color-Horizontal.png
+  expires: 2021-04-10

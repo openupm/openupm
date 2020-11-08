@@ -34,6 +34,14 @@
     <img width="80%" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-screenshot.png" alt="logo">
   </a>
 </p>
+<p align="center">
+  <a href="https://openupm.com/">
+    OpenUPM
+  </a> |
+  <a href="https://openupm.cn/">
+    OpenUPM中文网
+  </a>
+</p>
 
 **Table of contents**
 
@@ -58,9 +66,10 @@ OpenUPM is composed of two parts:
 Learn more at [our documentations](https://openupm.com/docs/).
 
 ## Sponsors and backers
-OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
+OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/) ([贡献者](https://openupm.cn/contributors/)). If you'd like to join them, please consider:
 - [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
 - [exploring other donation options](https://openupm.com/support/)
+- [中文捐款](https://openupm.cn/zh/support/)
 
 ## Ecosystem
 

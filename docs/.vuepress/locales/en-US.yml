@@ -135,6 +135,8 @@ repository-placeholder: owner/project-name
 show-more: Show more
 social-image: social image
 sort-by: Sort by
+sponsors: Sponsors
+sponsors-bronze: "Bronze Sponsors \U0001F949"
 star: Star
 stars: Stars
 state: State

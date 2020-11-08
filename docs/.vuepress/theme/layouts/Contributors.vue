@@ -18,6 +18,21 @@
               </div>
             </div>
           </div>
+          <div v-if="bronzeSponsors.length" class="column col-12">
+            <section id="sponsors-bronze" class="avatar-wall">
+              <h2>{{ $t("sponsors-bronze") }}</h2>
+              <div
+                v-for="(profile, index) in bronzeSponsors"
+                :key="index"
+                class="sponsor-item sponsor-bronze"
+              >
+                <a :href="profile.url">
+                  <LazyImage v-if="profile.image" :src="profile.image"
+                  alt:="profile.name" class="img-responsive" />
+                </a>
+              </div>
+            </section>
+          </div>
           <div v-if="backers.length" class="column col-12">
             <section id="backers" class="avatar-wall">
               <h2>{{ $t("backers") }}</h2>
@@ -29,7 +44,7 @@
                 :data-initial="profile.abbr"
               >
                 <a :href="profile.url">
-                  <LazyImage v-if="profile.img" :src="profile.img"
+                  <LazyImage v-if="profile.image" :src="profile.image"
                   alt:="profile.name" />
                 </a>
               </figure>
@@ -45,7 +60,7 @@
                 :data-tooltip="profile.label"
               >
                 <a :href="profile.url">
-                  <LazyImage :src="profile.img" alt:="profile.user" />
+                  <LazyImage :src="profile.image" alt:="profile.user" />
                 </a>
               </figure>
             </section>
@@ -60,7 +75,7 @@
                 :data-tooltip="profile.label"
               >
                 <a :href="profile.url">
-                  <LazyImage :src="profile.img" alt:="profile.user" />
+                  <LazyImage :src="profile.image" alt:="profile.user" />
                 </a>
               </figure>
             </section>
@@ -78,26 +93,12 @@ import ParentLayout from "@theme/layouts/Layout.vue";
 const getUserData = function(entry, action) {
   return {
     ...entry,
-    img: `https://github.com/${entry.user}.png?size=128`,
+    image: `https://github.com/${entry.user}.png?size=128`,
     url: `https://github.com/${entry.user}`,
     label: `${entry.user} ${action} ${entry.count} ${
       entry.count > 1 ? "packages" : "package"
     }`
   };
-};
-
-const getBackerData = function(entry) {
-  const data = {
-    ...entry
-  };
-  if (entry.githubUser) {
-    data.url = `https://github.com/${entry.githubUser}`;
-    data.img = `${data.url}.png?size=128`;
-  }
-  const segs = entry.name.split(" ");
-  data.abbr =
-    segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
-  return data;
 };
 
 export default {
@@ -124,7 +125,44 @@ export default {
           }
           return true;
         })
-        .map(getBackerData);
+        .map(x => {
+          const data = {
+            ...x
+          };
+          if (x.githubUser) {
+            data.url = `https://github.com/${x.githubUser}`;
+            data.image = `${data.url}.png?size=128`;
+          }
+          const segs = x.name.split(" ");
+          data.abbr =
+            segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
+          return data;
+        });
+    },
+    bronzeSponsors() {
+      return this.sponsorsForLevel("bronze");
+    }
+  },
+  methods: {
+    sponsorsForLevel(level) {
+      return this.$page.frontmatter.sponsors
+        .filter(x => {
+          if (x.level != level) return false;
+          if (x.expires) {
+            return Date.parse(x.expires) >= new Date().getTime();
+          }
+          return true;
+        })
+        .map(x => {
+          const data = {
+            ...x
+          };
+          if (this.$site.themeConfig.region == "cn") {
+            if (data.urlCN) data.url = data.urlCN;
+            if (data.imageCN) data.image = data.imageCN;
+          }
+          return data;
+        });
     }
   }
 };
@@ -142,4 +180,10 @@ export default {
         width: 100%
         height: 100%
         display: block
+  .sponsor-item
+    display inline-block
+    margin 0 1rem 0 0
+    max-width 10rem
+    &.sponsor-bronze
+      max-width 10rem
 </style>

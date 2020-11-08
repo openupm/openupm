@@ -27,7 +27,11 @@ OpenUPM是一项开源服务，完全免费使用。然而托管该服务、维�
 
 ## 捐款
 
-我们接受以下渠道的捐款
+我们接受以下渠道的捐款：
+- 通过支付宝一次性捐款。请在付款留言中注明您的GitHub用户名，或将您的付款凭证和GitHub用户名发往[hello@openupm.com](mailto:hello@openupm.com)
+
+  <img src="../../docs/images/alipay-donation-sm.png" alt="OpenUPM支付码" width="200" />
+
 - 通过[PayPal](https://www.paypal.me/favoyang)一次性捐款。
 - 通过[Patreon](https://www.patreon.com/openupm)成为项目长期支持者。长期赞助商将会获得一些回报，例如在OpenUPM网站上列出您名字，或展示您公司的品牌商标等。您的赞助将会直接支持Favo Yang在OpenUPM的工作。
 - 若您的公司能提供对我们有宜的服务，您将享受与项目长期支持者相同待遇的回报。请联系[hello@openupm.com](mailto:hello@openupm.com)详谈。
