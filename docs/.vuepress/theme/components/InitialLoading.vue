@@ -3,7 +3,7 @@
   <div :class="['initial-container', this.class]">
     <div class="loader">
       <i class="fa fa-circle-notch fa-spin"></i>
-      Loading...
+      {{ $t("loading-spin-text") }}
     </div>
   </div>
 </template>

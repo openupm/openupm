@@ -80,6 +80,7 @@ license: License
 license-name: License name
 license-name-desc: Please specify the license name.
 loading-branches: Loading branches...
+loading-spin-text: Loading...
 lowest-unity-version: Lowest Unity version
 medium: Medium
 meta-data: Meta data

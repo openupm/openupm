@@ -87,6 +87,7 @@ license: 授权
 license-name: 许可证名称
 license-name-desc: 请指定许可证名称。
 loading-branches: 加载分支...
+loading-spin-text: 加载中...
 localization: 本地化
 lowest-unity-version: 最低兼容Unity版本
 medium: Medium
