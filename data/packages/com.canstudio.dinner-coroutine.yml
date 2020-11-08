@@ -15,5 +15,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:README.md'
 createdAt: 1604742583405
