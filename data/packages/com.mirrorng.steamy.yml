@@ -1,0 +1,17 @@
+name: com.mirrorng.steamy
+displayName: MirrorNG SteamyNG
+description: An Async implementation of Steamworks.net transport for Mirror
+repoUrl: 'https://github.com/MirrorNG/FizzySteamyMirror'
+parentRepoUrl: 'https://github.com/Chykary/FizzySteamworks'
+licenseSpdxId: null
+licenseName: MirrorNG Team
+topics:
+  - network
+  - utilities
+hunter: paulpach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604853797351
