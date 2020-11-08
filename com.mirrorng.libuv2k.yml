@@ -1,0 +1,16 @@
+name: com.mirrorng.libuv2k
+displayName: MirrorNG Libuv2kNG
+description: Libuv2kNG version built for mirrorng requires mirror subscription for the rest of the files.
+repoUrl: 'https://github.com/MirrorNG/Libuv2kNG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: paulpac
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1604862096407
