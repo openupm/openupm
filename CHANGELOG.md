@@ -1,3 +1,10 @@
+# [1.40.0](https://github.com/openupm/openupm/compare/1.39.1...1.40.0) (2020-11-08)
+
+
+### Features
+
+* **i18n:** add Chinese website (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([7d5ab49](https://github.com/openupm/openupm/commit/7d5ab492e33922e393434df215795bc54bc39092))
+
 ## [1.39.1](https://github.com/openupm/openupm/compare/1.39.0...1.39.1) (2020-10-12)
 
 
