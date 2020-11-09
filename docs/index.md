@@ -23,7 +23,7 @@ noGlobalSocialShare: true
 $ npm install -g openupm-cli
 # OR yarn global add openupm-cli
 
-# Enter your unity project folder
+# Enter your Unity project folder
 $ cd YOUR_UNITY_PROJECT_FOLDER
 
 # Search a package

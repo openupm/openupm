@@ -127,7 +127,7 @@ You will indemnify openupm, its officers, directors, employees, representatives,
 
 ## Disclaimers
 
-OpenUPM is not an official service provided by Unity Technologies Inc.
+OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
 
 *Use of the services is at your sole risk. The services are provided on an "as is" and "as available" basis. OpenUPM expressly disclaims all warranties of any kind, whether express, implied, or statutory, including implied warranties of title, noninfringement, merchantability, and fitness for a particular purpose.*
 

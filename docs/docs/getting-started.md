@@ -9,7 +9,7 @@ The article is a step-by-step tutorial for how to install openupm-cli and manipu
 - Bash for Mac/Linux
 - [Git-Bash](https://gitforwindows.org/), CMD, or PowerShell for Windows.
 
-::: Not a shell fan?
+::: tip Not a fan of command-line tool?
 If you are unfamiliar with the command-line, you can still use other installation options available on the package page.
 :::
 

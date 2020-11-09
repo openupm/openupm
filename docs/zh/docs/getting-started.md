@@ -72,7 +72,7 @@ manifest updated, please open unity project to apply changes
 
 返回软件包版本0.4.1已添加到软件包清单文件中。
 
-::: tip
+::: tip 提示
 你可以直接从[OpenUPM的软件包页面](/packages/com.littlebigfun.addressable-importer)获取安装指令。
 :::
 

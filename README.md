@@ -61,7 +61,7 @@ OpenUPM is composed of two parts:
 - The managed [scoped package registry](https://docs.unity3d.com/Manual/upm-scoped.html) for hosting UPM packages.
 - The automatic build pipelines for tracking, building, and publishing UPM packages based on Git tags.
 
-> Notice: OpenUPM is not an official service provided by Unity Technologies Inc.
+> DISCLAIMER: OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
 
 Learn more at [our documentations](https://openupm.com/docs/).
 

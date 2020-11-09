@@ -8,7 +8,7 @@ showFooter: false
 OpenUPM is a service for hosting and building open source UPM (Unity Package Manager) packages. It's composed of two parts: a managed UPM registry and automatic build pipelines. The intention is to create a universal platform to discover, share and distribute open-source UPM packages.
 
 ::: warning DISCLAIMER
-OpenUPM is not an official service provided by Unity Technologies Inc.
+OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
 :::
 
 ## How It Works
@@ -26,6 +26,10 @@ To solve the issue, as the first step, a command-line tool [openupm-cli](https:/
 | CLI | ---------> | manifest.json | <---------- | UPM |
 +-----+            +---------------+             +-----+
 ```
+
+::: tip Not a fan of command-line tool?
+If you are unfamiliar with the command-line, you can still use other installation options available on the package page.
+:::
 
 ```sh
 # Install openupm-cli
@@ -52,7 +56,7 @@ manifest updated, please open unity project to apply changes
 
 Please visit [openupm-cli readme](https://github.com/openupm/openupm-cli#openupm-cli) for more usages.
 
-A seamlessly unity editor integration may come in 2021, see [#10](https://github.com/openupm/openupm/issues/10).
+For the seamlessly Unity editor integration, please follow [#10](https://github.com/openupm/openupm/issues/10).
 
 ### Automatic Build Pipelines
 

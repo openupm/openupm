@@ -2,21 +2,21 @@
 ads: true
 layout: Home
 pageClass: homepage
-title:  Unity开源软件包仓库 (OpenUPM)
+title:  OpenUPM - Unity开源软件包仓库
 heroText: Unity开源软件包仓库
 actionText: 使用指南
 actionLink: /zh/docs/
 features:
 - title: 开源软件包仓库
-  details: 托管由社区选择的开源UPM软件包
+  details: 托管由社区精选的开源UPM软件包
 - title: 持续发布
   details: 基于Git标签的持续集成方案
 - title: 命令行接口
-  details: <a href="https://github.com/openupm/openupm-cli">OpenUPM 命令行工具</a>可支持第三方UPM软件源
+  details: <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI 命令行工具</a>可支持第三方UPM软件源
 noGlobalSocialShare: true
 ---
 
-### 从命令行工具开始 (可选的)
+### 命令行工具入门（可选的）
 
 ```sh
 # 从NPM安装 openupm-cli
@@ -42,8 +42,8 @@ added: com.littlebigfun.addressable-importer@0.4.1
 manifest updated, please open unity project to apply changes
 ```
 
-::: warning 兼容性提示
-openupm-cli 需要使用 [Node.js 12](https://nodejs.org/en/)
+::: warning 免责声明
+OpenUPM是一项开源服务，而不是Unity Technologies优美缔软件提供的一项服务。
 :::
 
 <ClientOnly><PackageRecent /></ClientOnly>
