@@ -5,7 +5,7 @@ pageClass: homepage
 title:  Unity开源软件包仓库 (OpenUPM)
 heroText: Unity开源软件包仓库
 actionText: 使用指南
-actionLink: /docs/
+actionLink: /zh/docs/
 features:
 - title: 开源软件包仓库
   details: 托管由社区选择的开源UPM软件包
