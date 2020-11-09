@@ -1,5 +1,5 @@
-name: System.Runtime.CompilerServices.Unsafe.dll
-displayName: System.Runtime.CompilerServices.Unsafe.dll
+name: com.microsoft.unsafe
+displayName: Microsoft Unsafe DLL
 description: null
 repoUrl: 'https://github.com/sebas77/com.sebaslab.svelto.unsafe'
 parentRepoUrl: null
