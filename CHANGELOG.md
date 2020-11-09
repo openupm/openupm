@@ -1,3 +1,10 @@
+## [1.40.1](https://github.com/openupm/openupm/compare/1.40.0...1.40.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* **pipelines:** add connection timeout to network jobs [skip ci] ([1f91b6d](https://github.com/openupm/openupm/commit/1f91b6d4d9396d04309715ff65011a123ad4a3de))
+
 # [1.40.0](https://github.com/openupm/openupm/compare/1.39.1...1.40.0) (2020-11-08)
 
 
