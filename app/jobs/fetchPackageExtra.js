@@ -69,6 +69,7 @@ const getLatestVersion = function(pkgMeta) {
  * @param {string} packageName
  */
 const _fetchPackageInfo = async function(packageName) {
+  logger.info({ pkg: packageName }, "_fetchPackageInfo");
   try {
     const pkgMeta = await fetchPackageMeta(packageName);
     const version = pkgMeta["dist-tags"].latest;
@@ -98,6 +99,7 @@ const _fetchPackageInfo = async function(packageName) {
  * @param {string} packageName
  */
 const _fetchPackageScopes = async function(packageName) {
+  logger.info({ pkg: packageName }, "_fetchPackageScopes");
   // a list of pending {name, version}
   const pendingList = [{ name: packageName, version: null }];
   // a list of processed {name, version}
@@ -167,6 +169,7 @@ const _fetchPackageScopes = async function(packageName) {
  * @param {string} repo
  */
 const _fetchRepoInfo = async function(repo, packageName) {
+  logger.info({ pkg: packageName }, "_fetchRepoInfo");
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
@@ -200,6 +203,7 @@ const _fetchRepoInfo = async function(repo, packageName) {
  * @param {*} packageName
  */
 const _fetchOGImage = async function(pkg, packageName) {
+  logger.info({ pkg: packageName }, "_fetchOGImage");
   // Helper method to fetch og:image.
   const _fetchOGImageForRepo = async function(repo) {
     try {
@@ -244,6 +248,7 @@ const _fetchOGImage = async function(pkg, packageName) {
  * @param {string} repo
  */
 const _fetchReadme = async function(pkg, packageName) {
+  logger.info({ pkg: packageName }, "_fetchReadme");
   try {
     const [branch, path] = pkg.readme.split(":");
     const resp = await AxiosService.create().get(
