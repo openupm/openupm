@@ -111,7 +111,7 @@ module.exports = {
                 iconLeft: true
               },
               {
-                link: "/feeds/updates/rss",
+                link: "https://api.openupm.com/feeds/updates/rss",
                 text: "Package Updates",
                 icon: "fa fa-rss-square",
                 raw: true,

@@ -93,7 +93,7 @@ module.exports = {
                 iconLeft: true
               },
               {
-                link: "/feeds/updates/rss",
+                link: "https://api.openupm.cn/feeds/updates/rss",
                 text: "软件包更新",
                 icon: "fa fa-rss-square",
                 raw: true,

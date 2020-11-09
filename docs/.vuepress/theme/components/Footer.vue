@@ -120,7 +120,7 @@ export default {
         iconLeft: true
       });
       links.push({
-        link: "/feeds/updates/rss",
+        link: `https://api.${this.$site.themeConfig.baseDomain}/feeds/updates/rss`,
         text: this.$t("package-updates"),
         icon: "fa fa-rss-square",
         raw: true,
