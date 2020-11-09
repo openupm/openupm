@@ -4,7 +4,7 @@
 const config = require("config");
 const urljoin = require("url-join");
 const SiteInfo = require("../models/siteInfo");
-const { AxiosService, httpErrorInfo } = require("../utils/http");
+const { AxiosService, CancelToken, httpErrorInfo } = require("../utils/http");
 const logger = require("../utils/log")(module);
 
 /**
@@ -24,9 +24,14 @@ const _fetchStars = async function(repo) {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
       headers.authorization = `Bearer ${config.gitHub.token}`;
-    const resp = await AxiosService.create().get(
+    let resp = null;
+    const source = CancelToken.source();
+    setTimeout(() => {
+      if (resp === null) source.cancel("ECONNTIMEOUT");
+    }, 10000);
+    resp = await AxiosService.create().get(
       urljoin("https://api.github.com/repos/", repo),
-      { headers }
+      { headers, cancelToken: source.token }
     );
     const repoInfo = resp.data;
     const stars = repoInfo.stargazers_count || 0;

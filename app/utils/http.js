@@ -1,6 +1,7 @@
 // HTTP utils.
 
 const axios = require("axios");
+const CancelToken = axios.CancelToken;
 const tunnel = require("tunnel");
 const url = require("url");
 const urljoin = require("url-join");
@@ -8,21 +9,21 @@ const urljoin = require("url-join");
 // The axios service supports http agent.
 const AxiosService = {
   create() {
-    if (!process.env.http_proxy) {
-      return axios;
+    const config = { timeout: 10000 };
+    // Handle proxy
+    if (process.env.http_proxy) {
+      const proxyAddr = url.parse(process.env.http_proxy);
+      const proxy = {
+        host: urljoin(proxyAddr.protocol, proxyAddr.hostname),
+        port: proxyAddr.port
+      };
+      const agent = tunnel.httpsOverHttp({
+        proxy
+      });
+      config.agent = agent;
+      config.proxy = false;
     }
-    const proxyAddr = url.parse(process.env.http_proxy);
-    const proxy = {
-      host: urljoin(proxyAddr.protocol, proxyAddr.hostname),
-      port: proxyAddr.port
-    };
-    const agent = tunnel.httpsOverHttp({
-      proxy
-    });
-    return axios.create({
-      agent,
-      proxy: false
-    });
+    return axios.create(config);
   }
 };
 
@@ -47,4 +48,4 @@ const isErrorCode = function(error, code) {
   return error.response && error.response.status == code;
 };
 
-module.exports = { AxiosService, httpErrorInfo, isErrorCode };
+module.exports = { AxiosService, CancelToken, httpErrorInfo, isErrorCode };

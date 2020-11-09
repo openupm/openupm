@@ -13,7 +13,12 @@ const {
   packageExists
 } = require("../utils/package");
 const { renderMarkdownToHtml } = require("../utils/markdown");
-const { AxiosService, httpErrorInfo, isErrorCode } = require("../utils/http");
+const {
+  AxiosService,
+  CancelToken,
+  httpErrorInfo,
+  isErrorCode
+} = require("../utils/http");
 const logger = require("../utils/log")(module);
 
 /**
@@ -44,10 +49,16 @@ const fetchExtraData = async function(packageNames) {
  * @param {string} packageName
  */
 const fetchPackageMeta = async function(packageName) {
-  const resp = await AxiosService.create().get(
+  let resp = null;
+  const source = CancelToken.source();
+  setTimeout(() => {
+    if (resp === null) source.cancel("ECONNTIMEOUT");
+  }, 10000);
+  resp = await AxiosService.create().get(
     urljoin("https://package.openupm.com", packageName),
     {
-      headers: { Accept: "application/json" }
+      headers: { Accept: "application/json" },
+      cancelToken: source.token
     }
   );
   return resp.data;
@@ -174,9 +185,14 @@ const _fetchRepoInfo = async function(repo, packageName) {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
       headers.authorization = `Bearer ${config.gitHub.token}`;
-    const resp = await AxiosService.create().get(
+    let resp = null;
+    const source = CancelToken.source();
+    setTimeout(() => {
+      if (resp === null) source.cancel("ECONNTIMEOUT");
+    }, 10000);
+    resp = await AxiosService.create().get(
       urljoin("https://api.github.com/repos/", repo),
-      { headers }
+      { headers, cancelToken: source.token }
     );
     const repoInfo = resp.data;
     const stars = repoInfo.stargazers_count || 0;
@@ -208,7 +224,14 @@ const _fetchOGImage = async function(pkg, packageName) {
   const _fetchOGImageForRepo = async function(repo) {
     try {
       const url = urljoin("https://github.com/", repo);
-      const resp = await AxiosService.create().get(url);
+      let resp = null;
+      const source = CancelToken.source();
+      setTimeout(() => {
+        if (resp === null) source.cancel("ECONNTIMEOUT");
+      }, 10000);
+      resp = await AxiosService.create().get(url, {
+        cancelToken: source.token
+      });
       const text = resp.data;
       const $ = cheerio.load(text);
       let ogImageUrl = $("meta[property='og:image']").attr("content");
@@ -251,8 +274,14 @@ const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
   try {
     const [branch, path] = pkg.readme.split(":");
-    const resp = await AxiosService.create().get(
-      urljoin("https://github.com/", pkg.repo, "raw", branch, path)
+    let resp = null;
+    const source = CancelToken.source();
+    setTimeout(() => {
+      if (resp === null) source.cancel("ECONNTIMEOUT");
+    }, 10000);
+    resp = await AxiosService.create().get(
+      urljoin("https://github.com/", pkg.repo, "raw", branch, path),
+      { cancelToken: source.token }
     );
     const text = resp.data;
     await PackageExtra.setReadme(packageName, text);
