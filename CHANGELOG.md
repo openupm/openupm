@@ -1,3 +1,11 @@
+## [1.40.2](https://github.com/openupm/openupm/compare/1.40.1...1.40.2) (2020-11-10)
+
+
+### Bug Fixes
+
+* **pipelines:** pm2-build typo [skip ci] ([acbb837](https://github.com/openupm/openupm/commit/acbb8377583d2e30bb95c1c0cbd255fd4cb96aca))
+* **pipelines:** sort package related jobs by -mtime ([e1bfc36](https://github.com/openupm/openupm/commit/e1bfc36c699a0e1dd73cbe62707a4ed1198f027b))
+
 ## [1.40.1](https://github.com/openupm/openupm/compare/1.40.0...1.40.1) (2020-11-09)
 
 
