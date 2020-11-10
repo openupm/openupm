@@ -66,7 +66,7 @@ apps:
     cwd: /home/openupm/openupm
     script: ./app/jobs/updateFeeds.js
     error_file: ./logs/update-feeds-error.log
-    out_file: ./logs/update-feeds.logb
+    out_file: ./logs/update-feeds.log
     combine_logs: true
     max_memory_restart: 512M
     cron_restart: "*/5 * * * *"
