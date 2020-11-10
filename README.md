@@ -66,16 +66,17 @@ OpenUPM is composed of two parts:
 Learn more at [our documentations](https://openupm.com/docs/).
 
 ## Sponsors and backers
-OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/) ([贡献者](https://openupm.cn/contributors/)). If you'd like to join them, please consider:
+OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
 - [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
 - [exploring other donation options](https://openupm.com/support/)
-- [中文捐款](https://openupm.cn/zh/support/)
+- [中文区捐款](https://openupm.cn/zh/support/)和[贡献者](https://openupm.cn/contributors/)
 
 ## Ecosystem
 
-| Sub-project                                                                   | Description                   |
+| Sub-project                                                               | Description                   |
 |---------------------------------------------------------------------------|-------------------------------|
-| [package.openupm.com](https://package.openupm.com)                | UPM registry               |
+| [package.openupm.com](https://package.openupm.com)                        | UPM registry                  |
+| [package.openupm.cn](https://package.openupm.cn)                          | UPM registry for China Region |
 | [openupm/openupm](https://github.com/openupm/openupm)                     | website, package curated list |
 | [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | build pipelines               |
 | [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | command-line tool             |
