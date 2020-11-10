@@ -29,7 +29,7 @@ apps:
     out_file: ./logs/fetch-package-extra.log
     combine_logs: true
     max_memory_restart: 512M
-    cron_restart: "0 * * * *"
+    cron_restart: "1 * * * *"
     autorestart: false
   - name: aggregate-package-extra
     instance_var: aggregate-package-extra
