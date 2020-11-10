@@ -47,8 +47,21 @@ const loadPackageSync = function(name) {
 };
 
 // Load package names.
-const loadPackageNames = async function() {
+const loadPackageNames = async function(options) {
+  const { sortBy } = options || {};
   let files = await readdir(packagesDir);
+  // Sort
+  if (sortBy == "mtime" || sortBy == "-mtime") {
+    files.sort(function(a, b) {
+      return (
+        fs.statSync(path.join(packagesDir, a)).mtime.getTime() -
+        fs.statSync(path.join(packagesDir, b)).mtime.getTime()
+      );
+    });
+  } else if (sortBy == "name" || sortBy == "-name") {
+    files.sort();
+  }
+  if (sortBy && sortBy.startsWith("-")) files.reverse();
   // Find paths with *.ya?ml ext.
   return files
     .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)

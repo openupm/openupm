@@ -45,7 +45,8 @@ if (require.main === module) {
     })
     .parse(process.argv)
     .run(async function() {
-      if (program.all) packageNames = await loadPackageNames();
+      if (program.all)
+        packageNames = await loadPackageNames({ sortBy: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
       await addBuildPackagerJobs(packageNames);
     });
