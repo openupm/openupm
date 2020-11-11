@@ -1,0 +1,17 @@
+name: nothke.paths
+displayName: Paths
+description: General purpose simple networked paths for Unity
+repoUrl: 'https://github.com/nothke/paths'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ai
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605122382341
