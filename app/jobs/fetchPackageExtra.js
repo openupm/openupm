@@ -2,10 +2,14 @@
  * Fetch package extra data
  **/
 const _ = require("lodash");
-const cheerio = require("cheerio");
 const config = require("config");
 const urljoin = require("url-join");
 const PackageExtra = require("../models/packageExtra");
+const {
+  createGqlClient,
+  gitFileContentGql,
+  openGraphImageUrlGql
+} = require("../utils/githubGql");
 const {
   loadPackageNames,
   loadPackage,
@@ -222,28 +226,17 @@ const _fetchOGImage = async function(pkg, packageName) {
   // Helper method to fetch og:image.
   const _fetchOGImageForRepo = async function(repo) {
     try {
-      const url = urljoin("https://github.com/", repo);
-      let resp = null;
-      const source = CancelToken.source();
-      setTimeout(() => {
-        if (resp === null) source.cancel("ECONNTIMEOUT");
-      }, 10000);
-      resp = await AxiosService.create().get(url, {
-        cancelToken: source.token
+      const [owner, name] = repo.split("/");
+      const data = await createGqlClient().request(openGraphImageUrlGql, {
+        owner,
+        name
       });
-      const text = resp.data;
-      const $ = cheerio.load(text);
-      let ogImageUrl = $("meta[property='og:image']").attr("content");
-      if (/^https:\/\/avatar/.test(ogImageUrl)) {
-        ogImageUrl = "";
-      }
-      return ogImageUrl;
+      if (data.repository.usesCustomOpenGraphImage)
+        return data.repository.openGraphImageUrl;
+      return "";
     } catch (error) {
       if (!isErrorCode(error, 404)) {
-        logger.error(
-          httpErrorInfo(error, { pkg: packageName }),
-          "fetch og:Image error"
-        );
+        logger.error({ err: error, pkg: packageName }, "fetch og:Image error");
       }
       return "";
     }
@@ -272,25 +265,20 @@ const _fetchOGImage = async function(pkg, packageName) {
 const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
   try {
-    const [branch, path] = pkg.readme.split(":");
-    let resp = null;
-    const source = CancelToken.source();
-    setTimeout(() => {
-      if (resp === null) source.cancel("ECONNTIMEOUT");
-    }, 10000);
-    resp = await AxiosService.create().get(
-      urljoin("https://github.com/", pkg.repo, "raw", branch, path),
-      { cancelToken: source.token }
-    );
-    const text = resp.data;
+    const [owner, name] = pkg.repo.split("/");
+    const data = await createGqlClient().request(gitFileContentGql, {
+      owner,
+      name,
+      tree: pkg.readme
+    });
+    let text = "";
+    if (data.repository.tree && data.repository.tree.text)
+      text = data.repository.tree.text;
     await PackageExtra.setReadme(packageName, text);
     const html = await renderMarkdownToHtml({ pkg, markdown: text });
     await PackageExtra.setReadmeHtml(packageName, html);
   } catch (error) {
-    logger.error(
-      httpErrorInfo(error, { pkg: packageName }),
-      "fetch readme error"
-    );
+    logger.error({ err: error, pkg: packageName }, "fetch readme error");
   }
 };
 
