@@ -53,7 +53,8 @@ module.exports = {
         content:
           "openupm,upm,registry,unity,package,manager,open source,开源,软件源,软件包,软件包仓库"
       }
-    ]
+    ],
+    ["script", { src: "/vendors/https-only/https-only.js" }]
   ],
   themeConfig: {
     locales: {
