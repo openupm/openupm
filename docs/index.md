@@ -41,8 +41,8 @@ added: com.littlebigfun.addressable-importer@0.4.1
 manifest updated, please open unity project to apply changes
 ```
 
-::: warning COMPATIBILITY NOTE
-openupm-cli requires [Node.js 12](https://nodejs.org/en/)
+::: warning DISCLAIMER
+OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
 :::
 
 <ClientOnly><PackageRecent /></ClientOnly>
