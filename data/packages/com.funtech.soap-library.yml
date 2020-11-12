@@ -1,0 +1,17 @@
+name: com.funtech.soap-library
+displayName: Soap's Tools
+description: null
+repoUrl: 'https://github.com/cowbear6598/Unity_SoapLibrary'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - network
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605194762618
