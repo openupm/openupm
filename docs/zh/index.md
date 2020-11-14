@@ -46,9 +46,5 @@ manifest updated, please open unity project to apply changes
 OpenUPM是一项开源服务，而不是Unity Technologies优美缔软件提供的一项服务。
 :::
 
-<ClientOnly><PackageRecent /></ClientOnly>
-
-<social-share />
-
 <style lang="stylus">
 </style>

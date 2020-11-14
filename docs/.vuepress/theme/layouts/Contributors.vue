@@ -18,19 +18,17 @@
               </div>
             </div>
           </div>
-          <div v-if="bronzeSponsors.length" class="column col-12">
-            <section id="sponsors-bronze" class="avatar-wall">
-              <h2>{{ $t("sponsors-bronze") }}</h2>
-              <div
-                v-for="(profile, index) in bronzeSponsors"
-                :key="index"
-                class="sponsor-item sponsor-bronze"
-              >
-                <a :href="profile.url">
-                  <LazyImage v-if="profile.image" :src="profile.image"
-                  alt:="profile.name" class="img-responsive" />
-                </a>
-              </div>
+          <div
+            v-for="sponsorData in sponsors"
+            :key="sponsorData.key"
+            class="column col-12"
+          >
+            <section :id="sponsorData.key">
+              <h2>{{ $t(sponsorData.key) }}</h2>
+              <SponsorList
+                :level="sponsorData.level"
+                :items="sponsorData.items"
+              />
             </section>
           </div>
           <div v-if="backers.length" class="column col-12">
@@ -89,6 +87,7 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
+import SponsorList from "@theme/components/SponsorList.vue";
 
 const getUserData = function(entry, action) {
   return {
@@ -102,7 +101,7 @@ const getUserData = function(entry, action) {
 };
 
 export default {
-  components: { ParentLayout },
+  components: { ParentLayout, SponsorList },
   data() {
     return {};
   },
@@ -139,51 +138,34 @@ export default {
           return data;
         });
     },
-    bronzeSponsors() {
-      return this.sponsorsForLevel("bronze");
-    }
-  },
-  methods: {
-    sponsorsForLevel(level) {
-      return this.$page.frontmatter.sponsors
-        .filter(x => {
-          if (x.level != level) return false;
-          if (x.expires) {
-            return Date.parse(x.expires) >= new Date().getTime();
-          }
-          return true;
-        })
-        .map(x => {
-          const data = {
-            ...x
+    sponsors() {
+      return ["diamond", "gold", "silver", "bronze"]
+        .map(level => {
+          return {
+            key: "sponsor-" + level,
+            level,
+            items: this.$page.frontmatter.sponsors.filter(x => x.level == level)
           };
-          if (this.$site.themeConfig.region == "cn") {
-            if (data.urlCN) data.url = data.urlCN;
-            if (data.imageCN) data.image = data.imageCN;
-          }
-          return data;
+        })
+        .filter(x => {
+          return x.items.length;
         });
     }
   }
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .contributors
   .mainview
     margin-top 1rem
   .avatar-wall
-    margin-bottom 2rem
     .avatar
       margin: 0 0.3rem 0.3rem 0
       a
         width: 100%
         height: 100%
         display: block
-  .sponsor-item
-    display inline-block
-    margin 0 1rem 0 0
-    max-width 10rem
-    &.sponsor-bronze
-      max-width 10rem
+  section
+    margin-bottom 2rem
 </style>

@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <div class="package-recent">
+  <section class="package-recent container">
     <div class="columns columns-title">
       <div class="column col-6 col-sm-12">
         <h3 id="package-recent">
@@ -8,9 +8,7 @@
             >#</a
           >
           {{ $t("recently-updated") }}
-          <a href="/packages/" class="btn btn-sm btn-more">{{
-            $t("show-more")
-          }}</a>
+          <NavLink :item="moreLink" :class="'btn btn-sm btn-more'" />
         </h3>
       </div>
       <div class="column col-6 col-sm-3 text-right hide-sm">
@@ -18,32 +16,31 @@
       </div>
     </div>
 
-    <div class="columns-package-wrapper container">
-      <div class="columns">
-        <div
-          v-for="pkg in packages"
-          :key="pkg.name"
-          :class="[
-            'column',
-            preferHorizontalLayout ? 'col-12' : 'col-4 col-md-6 col-sm-12'
-          ]"
-        >
-          <LazyPackageCard
-            :item="pkg"
-            :prefer-horizontal-layout="preferHorizontalLayout"
-          />
-        </div>
+    <div class="columns columns-packages">
+      <div
+        v-for="pkg in packages"
+        :key="pkg.name"
+        :class="[
+          'column',
+          preferHorizontalLayout ? 'col-12' : 'col-4 col-md-6 col-sm-12'
+        ]"
+      >
+        <LazyPackageCard
+          :item="pkg"
+          :prefer-horizontal-layout="preferHorizontalLayout"
+        />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
+import NavLink from "@theme/components/NavLink.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 
 export default {
-  components: { LazyPackageCard, PackageLayoutControl },
+  components: { LazyPackageCard, PackageLayoutControl, NavLink },
   data() {
     return {};
   },
@@ -53,6 +50,12 @@ export default {
     },
     preferHorizontalLayout() {
       return this.$store.getters.preferHorizontalLayout;
+    },
+    moreLink() {
+      return {
+        text: this.$t("show-more"),
+        link: "/packages/"
+      };
     }
   },
   mounted() {
@@ -66,7 +69,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .package-recent
 
   .columns-title
@@ -75,6 +78,12 @@ export default {
     .btn-more
       margin-left 0.3rem
 
-  .columns-package-wrapper
+  .columns-packages
     margin-top 1rem
+
+  @media (max-width: $MQMobileNarrow)
+    .columns-packages
+      margin-left -1rem
+      margin-right -1rem
+      width calc(100% + 2rem)
 </style>

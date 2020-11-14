@@ -37,6 +37,11 @@
         </div>
       </section>
       <Content class="theme-default-content custom" />
+      <SponsorFeatured />
+      <ClientOnly>
+        <PackageRecent />
+      </ClientOnly>
+      <social-share />
     </main>
   </ParentLayout>
 </template>
@@ -44,9 +49,10 @@
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
+import PackageRecent from "@theme/components/PackageRecent.vue";
 
 export default {
-  components: { ParentLayout, NavLink },
+  components: { PackageRecent, ParentLayout, NavLink },
 
   computed: {
     actionLink() {
@@ -130,11 +136,6 @@ export default {
 
     .social-share
       margin-bottom 0.4rem
-
-    .package-recent
-      margin-left -1rem
-      margin-right -1rem
-      width calc(100% + 2rem)
 
   .warning.custom-block
     margin: 0 -1rem !important

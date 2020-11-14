@@ -18,13 +18,24 @@ const pluginData = {};
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
+  console.log(context);
   const plugin = {
     // #region plugin interface
     name: "openupm-packages",
 
     clientRootMixin: path.resolve(__dirname, "clientRootMixin.js"),
 
-    // async extendPageData($page) {},
+    async extendPageData($page) {
+      const data = await plugin.getData();
+      // Insert sponsors for home page
+      if (
+        $page.path == "/" ||
+        $page.path == "/zh/" ||
+        $page.path == "/zh/index.html"
+      ) {
+        $page.frontmatter.sponsors = data.sponsors.items;
+      }
+    },
 
     async additionalPages() {
       const data = await plugin.getData();

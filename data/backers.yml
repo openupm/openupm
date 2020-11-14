@@ -9,6 +9,7 @@ items:
   githubUser: JohannesDeml
 - name: TheDudeFromCI
   githubUser: TheDudeFromCI
+  expires: 2020-09-01
 - name: Gleb Skibitsky
   githubUser: skibitsky
 - name: Alex Sh
