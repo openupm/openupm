@@ -1,0 +1,17 @@
+name: com.litefeel.urprenderui
+displayName: URP Render UI
+description: Render UI on Universal Render Pipeline
+repoUrl: 'https://github.com/litefeel/URPRenderUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1605380625619
