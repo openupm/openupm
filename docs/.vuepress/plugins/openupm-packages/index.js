@@ -18,7 +18,6 @@ const pluginData = {};
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
-  console.log(context);
   const plugin = {
     // #region plugin interface
     name: "openupm-packages",
