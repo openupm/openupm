@@ -1,7 +1,7 @@
 name: net.wraithavengames.firstsight
 displayName: FirstSight
 description: A first person controller plugin written for Unity.
-repoUrl: 'https://github.com/Wraithaven-UnityTools/FirstSight'
+repoUrl: 'https://github.com/TheDudeFromCI/FirstSight'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

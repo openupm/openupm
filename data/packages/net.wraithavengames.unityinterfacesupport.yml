@@ -3,7 +3,7 @@ displayName: Unity Interface Support
 description: >-
   A simply implementation which allows for interface-type fields to be accepted
   in the Unity inspector.
-repoUrl: 'https://github.com/Wraithaven-UnityTools/Unity-Interface-Support'
+repoUrl: 'https://github.com/TheDudeFromCI/Unity-Interface-Support'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
