@@ -10,11 +10,10 @@ topics:
   - code-generation
   - editor-enhancement
   - gui
-hunter: brunomikoski/
+hunter: brunomikoski
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602710052637
-
