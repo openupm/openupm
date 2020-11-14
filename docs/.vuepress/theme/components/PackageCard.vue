@@ -10,7 +10,8 @@
             :class="[
               'column',
               'column-image',
-              isHorizontalLayout ? 'col-4' : 'col-12'
+              isHorizontalLayout ? 'col-4' : 'col-12',
+              pkg.image ? 'has-image' : 'no-image'
             ]"
           >
             <div class="card-image-wrapper">
@@ -219,4 +220,11 @@ export default {
     .chip.chip-icon-only
       i
         padding-right 0
+
+@media (max-width: $MQMobileNarrow)
+  .package-card
+    .card
+      .column-image
+        &.no-image
+          display none
 </style>
