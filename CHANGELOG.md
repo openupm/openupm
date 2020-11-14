@@ -1,3 +1,10 @@
+## [1.40.3](https://github.com/openupm/openupm/compare/1.40.2...1.40.3) (2020-11-14)
+
+
+### Bug Fixes
+
+* tweak sponsor display ([5e759eb](https://github.com/openupm/openupm/commit/5e759eb8319dbd9c54234a1a3197d83821a434cd))
+
 ## [1.40.2](https://github.com/openupm/openupm/compare/1.40.1...1.40.2) (2020-11-10)
 
 
