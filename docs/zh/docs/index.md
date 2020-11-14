@@ -62,11 +62,11 @@ manifest updated, please open unity project to apply changes
 
 所有托管在OpenUPM上的开源UPM软件包，都会记录在GitHub的一个[软件包列表](https://github.com/openupm/openupm/tree/master/data/packages)文件中。构建管线定期查看该列表。当检测到含有有效版本信息的Git标签后，它会处理并发布新的软件包版本。如果你熟悉NPM的工作方式，会发现我们的做法与其不同。传统的软件包仓库要求软件包作者手动地提交并发布版本。而OpenUPM的构建管线自动化了这一过程。并使得拥有GitHub帐户的一般开发人员，都可以向OpenUPM平台贡献新的UPM软件包。我们称这一角色称为[软件包猎人](/contributors/)。热心的软件包猎人正是OpenUPM平台发展的重要助力。
 
-## OpenUPM国际区和OpenUPM中文网的关系
+## 关于OpenUPM中文网
 
-OpenUPM分为国际区和中国区。OpenUPM中文网提供了在中国本地化的服务，包括文档的本地化和在中国托管的软件仓库映像。中国区的软件仓库，每小时同国际区同步一次。这样保证了中国区可以方便的访问到最新的软件包，并符合中国法律的要求。
+OpenUPM分为[国际区](https://openupm.com)和[中国区](https://openupm.cn)。OpenUPM中文网提供了中国本地化的服务，包括文档的本地化和在中国大陆托管的软件仓库映像。中国区的软件仓库影响，每小时同国际区同步一次。以保证中国区方便的访问到最新的软件包，并符合本地法律的要求。
 
-如果你对中国区的发展有任何的建议和诉求，请联系[hello@openupm.com](mailto:hello@openupm.com)。
+如果你对OpenUPM中文网的发展有任何的建议和诉求，请随时联系[hello@openupm.com](mailto:hello@openupm.com)。
 
 ## 为什么不选择...？
 

@@ -62,6 +62,10 @@ For the seamlessly Unity editor integration, please follow [#10](https://github.
 
 OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source UPM repositories hosting on GitHub. The build pipelines monitoring the list, detecting valid Git tags and publishing new package releases. The continuous publishing approach is different with the traditional package registry that requires the package owner/maintainer to submit publish releases manually. Though the CI tool delivers a similar continuous publishing experience, while the way OpenUPM works enabling not only packager owners/maintainers, but any developers with a GitHub account to contribute new UPM packages to the platform. The later role is called the [package hunter](/contributors/) to help the platform grow faster.
 
+## Regions
+
+For users who need to use OpenUPM services in China mainland, we suggest you switch to the [China region](https://openupm.cn), which provided the localized website and a mirror registry server at https://package.openupm.cn. The mirror registry synced with the global region hourly.
+
 ## Why Not ...?
 
 ### Unity Asset Store
