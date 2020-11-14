@@ -195,3 +195,4 @@ wait-for-ci-pipelines: 等待持续集成管线完成它的工作，通常需要
 wait-for-ci-pipelines-step-1-safe: 你可以访问软件包页面：
 wait-for-ci-pipelines-step-2-safe: 亦可通过其查看已发布的【<b>版本</b>】和【<b>构建管线</b>】。
 weibo-share: 微博分享
+zhihu-blog: 知乎专栏
