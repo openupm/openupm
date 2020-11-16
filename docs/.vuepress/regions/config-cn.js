@@ -110,7 +110,8 @@ module.exports = {
           },
           {
             text: "命令行工具",
-            link: "https://github.com/openupm/openupm-cli#openupm-cli",
+            link:
+              "https://github.com/openupm/openupm-cli/blob/master/README.zh-cn.md#openupm-cli",
             icon: "fa fa-keyboard",
             iconLeft: true
           }

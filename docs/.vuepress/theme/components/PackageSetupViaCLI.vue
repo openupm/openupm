@@ -30,6 +30,8 @@ export default {
   },
   computed: {
     code() {
+      const cli =
+        this.$site.themeConfig.region == "cn" ? "openupm-cn" : "openupm";
       const code = `# ${this.$t("install-openupm-cli")}
 npm install -g openupm-cli
 
@@ -37,7 +39,7 @@ npm install -g openupm-cli
 cd YOUR_UNITY_PROJECT_DIR
 
 # ${this.$t("install-package")}: ${this.packageName}
-openupm add ${this.packageName}
+${cli} add ${this.packageName}
 `;
       const highlighted = highlightjs.highlight("sh", code).value;
       return `<pre><code class="hljs sh">${highlighted}</code></pre>`;

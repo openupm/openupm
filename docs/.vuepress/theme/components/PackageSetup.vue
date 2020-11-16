@@ -104,7 +104,9 @@ export default {
   },
   computed: {
     installCli() {
-      return `openupm add ${this.pkg.name}`;
+      const cli =
+        this.$site.themeConfig.region == "cn" ? "openupm-cn" : "openupm";
+      return `${cli} add ${this.pkg.name}`;
     },
     installerLink() {
       return {

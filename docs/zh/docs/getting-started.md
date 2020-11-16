@@ -28,15 +28,15 @@ $ npm -v
 
 ```sh
 $ npm install -g openupm-cli
-C:\Users\openupm\AppData\Roaming\npm\openupm -> C:\Users\openupm\AppData\Roaming\npm\node_modules\openupm-cli\bin\openupm + openupm-cli@1.1.0
-updated 2 packages in 12.177s
+C:\Users\openupm\AppData\Roaming\npm\openupm -> C:\Users\openupm\AppData\Roaming\npm\node_modules\openupm-cli\bin\openupm + openupm-cli@1.14.0
+C:\Users\openupm\AppData\Roaming\npm\openupm-cn -> C:\Users\openupm\AppData\Roaming\npm\node_modules\openupm-cli\bin\openupm-cn + openupm-cli@1.14.0
 ```
 
 让我们通过打印openupm-cli的版本来验证是否安装成功。
 
 ```sh
-$ openupm --version
-1.1.0
+$ openupm-cn --version
+1.14.0
 ```
 
 ## 安装UPM软件包
@@ -50,7 +50,7 @@ $ openupm --version
 $ cd ~/Document/projects/hello-openupm
 
 # 按关键字搜索软件包
-$ openupm search addressable
+$ openupm-cn search addressable
 fast search endpoint is not available, using old search.
 ┌───────────────────────────────────────┬─────────┬───────────┬────────────┐
 │ Name                                  │ Version │ Author    │ Date       │
@@ -65,7 +65,7 @@ fast search endpoint is not available, using old search.
 让我们通过 `add` 指令来安装软件包。
 
 ```sh
-$ openupm add com.littlebigfun.addressable-importer
+$ openupm-cn add com.littlebigfun.addressable-importer
 added: com.littlebigfun.addressable-importer@0.4.1
 manifest updated, please open unity project to apply changes
 ```
@@ -83,7 +83,7 @@ manifest updated, please open unity project to apply changes
 我们还安装了依赖包`Addressbles`，但该软件包未在当前列表中显示。因为它还不是这个项目的直接依赖关系。如果要使用`Addressbles`的最新版本，则应在软件包管理的窗口中升级它的版本。当然，你也可以使用openupm-cli来升级版本。
 
 ```sh
-$ openupm add com.unity.addressables
+$ openupm-cn add com.unity.addressables
 added: com.unity.addressables@1.5.0
 manifest updated, please open unity project to apply changes
 ```

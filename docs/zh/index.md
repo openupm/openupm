@@ -28,7 +28,7 @@ $ yarn global add openupm-cli
 $ cd YOUR_UNITY_PROJECT_FOLDER
 
 # 搜索软件包
-$ openupm search addressable-importer
+$ openupm-cn search addressable-importer
 ┌───────────────────────────────────────┬─────────┬───────────┬────────────┐
 │ Name                                  │ Version │ Author    │ Date       │
 ├───────────────────────────────────────┼─────────┼───────────┼────────────┤
@@ -37,7 +37,7 @@ $ openupm search addressable-importer
 └───────────────────────────────────────┴─────────┴───────────┴────────────┘
 
 # 安装软件包
-$ openupm add com.littlebigfun.addressable-importer
+$ openupm-cn add com.littlebigfun.addressable-importer
 added: com.littlebigfun.addressable-importer@0.4.1
 manifest updated, please open unity project to apply changes
 ```
