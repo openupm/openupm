@@ -43,6 +43,8 @@
   </a>
 </p>
 
+*Read this in other languages: [English](README.md), [简体中文](README.zh-cn.md).*
+
 **Table of contents**
 
 - [Introduction](#introduction)
@@ -69,7 +71,7 @@ Learn more at [our documentations](https://openupm.com/docs/).
 OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
 - [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
 - [exploring other donation options](https://openupm.com/support/)
-- [中文区捐款](https://openupm.cn/zh/support/)和[贡献者](https://openupm.cn/contributors/)
+- [region CN donation options](https://openupm.cn/zh/support/)
 
 ## Ecosystem
 
