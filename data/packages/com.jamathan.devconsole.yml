@@ -1,0 +1,16 @@
+name: com.jamathan.devconsole
+displayName: Dev Console
+description: A runtime developer/debugging console for Unity3D
+repoUrl: 'https://github.com/JanMalitschek/DevConsole'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605548766476
