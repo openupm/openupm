@@ -63,7 +63,10 @@ export default {
     },
     githubLink() {
       return {
-        link: this.$site.themeConfig.repo,
+        link:
+          this.$site.themeConfig.region == "cn"
+            ? "https://github.com/openupm/openupm/blob/master/README.zh-cn.md"
+            : this.$site.themeConfig.repo,
         text: "GitHub",
         icon: "fab fa-github",
         iconLeft: true

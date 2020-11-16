@@ -87,7 +87,10 @@ export default {
     connectLinks() {
       const links = [
         {
-          link: this.$site.themeConfig.repo,
+          link:
+            this.$site.themeConfig.region == "cn"
+              ? "https://github.com/openupm/openupm/blob/master/README.zh-cn.md"
+              : this.$site.themeConfig.repo,
           text: this.$t("github"),
           icon: "fab fa-github",
           iconLeft: true

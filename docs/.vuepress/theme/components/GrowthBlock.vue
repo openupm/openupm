@@ -4,7 +4,7 @@
       <div class="column col-12">
         <div class="btn-group">
           <NavLink :item="packagesLink" class="btn btn-sm" />
-          <a href="https://github.com/openupm/openupm" class="btn btn-sm"
+          <a :href="gitHubUrl" class="btn btn-sm"
             ><i class="fa fa-star"></i> {{ $t("star") }} <span>|</span>
             <span class="stars">{{ stars }}</span></a
           >
@@ -49,6 +49,11 @@ export default {
     },
     stars() {
       return this.$store.getters.siteInfo.stars || "...";
+    },
+    gitHubUrl() {
+      if (this.$site.themeConfig.region == "cn")
+        return "https://github.com/openupm/openupm/blob/master/README.zh-cn.md";
+      else return "https://github.com/openupm/openupm";
     },
     tweetUrl() {
       return util.tweetUrl;

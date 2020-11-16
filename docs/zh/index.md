@@ -12,7 +12,7 @@ features:
 - title: 持续发布
   details: 基于Git标签的持续集成方案
 - title: 命令行接口
-  details: <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI 命令行工具</a>可支持第三方UPM软件源
+  details: <a href="https://github.com/openupm/openupm-cli/blob/master/README.zh-cn.md#openupm-cli">OpenUPM-CLI 命令行工具</a>可支持第三方UPM软件源
 noGlobalSocialShare: true
 ---
 

@@ -2,7 +2,7 @@
   <div class="nav-links hide-md">
     <div class="nav-item growth">
       <div class="btn-group">
-        <a href="https://github.com/openupm/openupm" class="btn btn-sm"
+        <a :href="gitHubUrl" class="btn btn-sm"
           ><i class="fa fa-star"></i> {{ $t("star") }} <span>|</span>
           <span class="stars">{{ stars }}</span></a
         >
@@ -43,6 +43,11 @@ export default {
     },
     weiboUrl() {
       return util.weiboUrl;
+    },
+    gitHubUrl() {
+      if (this.$site.themeConfig.region == "cn")
+        return "https://github.com/openupm/openupm/blob/master/README.zh-cn.md";
+      else return "https://github.com/openupm/openupm";
     }
   }
 };

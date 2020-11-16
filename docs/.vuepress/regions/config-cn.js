@@ -83,7 +83,8 @@ module.exports = {
             items: [
               {
                 text: "GitHub",
-                link: "https://github.com/openupm/openupm",
+                link:
+                  "https://github.com/openupm/openupm/blob/master/README.zh-cn.md",
                 icon: "fab fa-github",
                 iconLeft: true
               },
