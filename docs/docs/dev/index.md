@@ -51,14 +51,35 @@ Since OpenUPM has it's own way to organize the package list, the verdaccio websi
 
 OpenUPM watches the package curated list regularly detects new contents and uses the job queue to build packages through [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
 
+### Cronjob
+
+OpenUPM uses pm2 cron feature to run cronjobs.
+
+| Job                     | Description                          | GitHub Reset API | GitHub GraphQL API |
+|-------------------------|--------------------------------------|-----------------:|-------------------:|
+| add-build-package-job   | add build-pkg to the job queue.      |                  |                    |
+| fetch-package-extra     | fetch package README, stars, ogimage |                n |                 2n |
+| aggregate-package-extra | aggregate package extra              |                  |                    |
+| update-recent-packages  | update recent updated packages       |                  |                    |
+| fetch-site-info         | fetch repo stars                     |                1 |                    |
+| update-feeds            | update RSS feeds                     |                  |                    |
+
 ### Job Queue
 
 OpenUPM uses [Bee-Queue](https://github.com/bee-queue/bee-queue) to manage the job queue.
 
-| Job                     | Description                                                  |
-|-------------------------|--------------------------------------------------------------|
-| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid Git tags |
-| `build-rel:<pkg>:<ver>` | build pkg@version via Azure Pipelines                        |
+| Job                     | Description                                                  | GitHub API |
+|-------------------------|--------------------------------------------------------------|-----------:|
+| `build-pkg:<pkg>`       | fetch repo info and create build-rel jobs for valid Git tags |          0 |
+| `build-rel:<pkg>:<ver>` | build pkg@version via Azure Pipelines                        |          0 |
+
+### GitHub Rate Limit
+
+Print the [rate limit](https://docs.github.com/en/free-pro-team@latest/rest/reference/rate-limit) status.
+
+```
+yarn gh:ratelimit
+```
 
 ## Website Frontend
 
