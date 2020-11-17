@@ -1,7 +1,7 @@
 name: com.praeclarum.sqlite-net
 displayName: SQLite.net
 description: 'Simple, powerful, cross-platform SQLite client and ORM for .NET'
-repoUrl: 'https://github.com/Greener-Games/sqlite-net'
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/sqlite-net'
 parentRepoUrl: 'https://github.com/praeclarum/sqlite-net'
 licenseSpdxId: MIT
 licenseName: MIT License
