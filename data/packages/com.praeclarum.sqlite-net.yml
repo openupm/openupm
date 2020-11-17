@@ -1,0 +1,16 @@
+name: com.praeclarum.sqlite-net
+displayName: SQLite.net
+description: 'Simple, powerful, cross-platform SQLite client and ORM for .NET'
+repoUrl: 'https://github.com/Greener-Games/sqlite-net'
+parentRepoUrl: 'https://github.com/praeclarum/sqlite-net'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1605611498245
