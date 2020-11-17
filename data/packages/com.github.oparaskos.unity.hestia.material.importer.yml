@@ -1,0 +1,18 @@
+name: com.github.oparaskos.unity.hestia.material.importer
+displayName: Hestia | Unity Material Library
+description: unity material loader ui for online sources of materials
+repoUrl: 'https://github.com/oparaskos/unity-material-library'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - integration
+  - utilities
+hunter: oparaskos
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605641639278
