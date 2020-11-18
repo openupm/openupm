@@ -1,0 +1,16 @@
+name: com.gkngkc.unity-standalone-file-browser
+displayName: Stand Alone File Browser
+description: A native file browser for unity standalone platforms
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/UnityStandaloneFileBrowser'
+parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1605692901004
