@@ -120,6 +120,16 @@ const _timeUtils = {
 };
 
 const _packageUtils = {
+  // Covnert the package cached image filename to the full URL.
+  getPackageImageUrl(imageFilename) {
+    if (!imageFilename) return null;
+    const mediaUrl =
+      OPENUPM_REGION == "cn"
+        ? "http://openupm.cn/media/"
+        : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
+    return mediaUrl + imageFilename;
+  },
+
   // Join package with extra data.
   joinPackageExtra(pkg, extra) {
     if (!extra) {
@@ -132,7 +142,8 @@ const _packageUtils = {
     result.sortName = pkg.link.text;
     result.createdAt = result.createdAt || 0;
     result.updatedAt = result.time || 0;
-    result.image = result.imageUrl || pkg.image;
+    result.image =
+      _packageUtils.getPackageImageUrl(result.imageFilename) || pkg.image;
     result.version = result.ver || undefined;
     result.pending = !result.version;
     return result;

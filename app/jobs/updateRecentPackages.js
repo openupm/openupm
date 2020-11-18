@@ -46,7 +46,8 @@ const joinPackageExtra = function(pkg, extra) {
   };
   result.createdAt = result.createdAt || 0;
   result.updatedAt = result.time || 0;
-  result.image = result.imageUrl || pkg.image;
+  result.imageFilename = result.imageFilename || undefined;
+  result.image = result.imageUrl || pkg.image || undefined;
   result.version = result.ver || undefined;
   result.pending = !result.version;
   result.link = {

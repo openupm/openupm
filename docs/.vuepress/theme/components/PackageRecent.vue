@@ -39,6 +39,8 @@ import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 
+import util from "@root/docs/.vuepress/util";
+
 export default {
   components: { LazyPackageCard, PackageLayoutControl, NavLink },
   data() {
@@ -46,7 +48,13 @@ export default {
   },
   computed: {
     packages() {
-      return this.$store.getters.recentPackages;
+      return this.$store.getters.recentPackages.map(x => {
+        const item = {
+          ...x
+        };
+        item.image = util.getPackageImageUrl(item.imageFilename) || item.image;
+        return item;
+      });
     },
     preferHorizontalLayout() {
       return this.$store.getters.preferHorizontalLayout;
