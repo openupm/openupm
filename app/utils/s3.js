@@ -26,7 +26,7 @@ const uploadFile = function({ bucket, localPath, remotePath, acl }) {
     Key: remotePath,
     Body: readStream
   };
-  if (acl) params.acl = acl;
+  if (acl) params.ACL = acl;
 
   return new Promise((resolve, reject) => {
     s3.upload(params, function(err, data) {
