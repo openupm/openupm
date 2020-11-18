@@ -1,3 +1,13 @@
+## [1.40.4](https://github.com/openupm/openupm/compare/1.40.3...1.40.4) (2020-11-18)
+
+
+### Bug Fixes
+
+* **pipelines:** aggregate media extname should be png [skip ci] ([9cdf1a9](https://github.com/openupm/openupm/commit/9cdf1a9ca5d56f7b6ae293fcd28d9c22641a2d1b))
+* **pipelines:** fix local media ACL [skip ci] ([6fa3160](https://github.com/openupm/openupm/commit/6fa3160613ea0e5a09227393a80eb432aa6bfca9))
+* **pipelines:** set local media content type [skip ci] ([b029c40](https://github.com/openupm/openupm/commit/b029c402b9d48f2a0dd3b6b330afafe043569cff))
+* **website:** use aggregate media ([fed266c](https://github.com/openupm/openupm/commit/fed266c762d1377de289dd03d6a912a4bd306c61))
+
 ## [1.40.3](https://github.com/openupm/openupm/compare/1.40.2...1.40.3) (2020-11-14)
 
 
