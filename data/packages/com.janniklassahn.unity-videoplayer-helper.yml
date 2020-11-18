@@ -1,0 +1,16 @@
+name: com.janniklassahn.unity-videoplayer-helper
+displayName: Unity Video Player Helper
+description: Simple helper for the Video Player in Unity
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/unity-videoplayer-helper'
+parentRepoUrl: 'https://github.com/JannikLassahn/unity-videoplayer-helper'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - video
+hunter: Reddevildragg
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Readme.md'
+createdAt: 1605702620507
