@@ -14,5 +14,5 @@ gitTagPrefix: upm/
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: 'v4:README.md'
 createdAt: 1605700605642
