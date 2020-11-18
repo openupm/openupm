@@ -13,6 +13,9 @@ const recentPackagesKey = "pkgs:recent";
 const packageKey = "pkg:";
 const propKeys = {
   imageUrl: "imageUrl",
+  cachedImageFilename: "cachedImageFilename",
+  cachedImageOriginalUrl: "cachedImageOriginalUrl",
+  cachedImageTime: "cachedImageTime",
   invalidTags: "invalidTags",
   parentStars: "pstars",
   readme: "readme",
@@ -108,6 +111,41 @@ const getImageUrl = async function(packageName) {
   return text;
 };
 
+const setCachedImageUrl = async function(
+  packageName,
+  imageFilename,
+  originalUrl
+) {
+  await setValue(
+    packageName,
+    propKeys.cachedImageFilename,
+    imageFilename || ""
+  );
+  await setValue(packageName, propKeys.cachedImageTime, new Date().getTime());
+  await setValue(
+    packageName,
+    propKeys.cachedImageOriginalUrl,
+    originalUrl || ""
+  );
+};
+
+const getCachedImageFilename = async function(packageName) {
+  const text = await getValue(packageName, propKeys.cachedImageFilename);
+  return text;
+};
+
+const getCachedImageOriginalUrl = async function(packageName) {
+  const text = await getValue(packageName, propKeys.cachedImageOriginalUrl);
+  return text;
+};
+
+const getCachedImageTime = async function(packageName) {
+  const text = await getValue(packageName, propKeys.cachedImageTime);
+  if (!text) return 0;
+  const result = parseInt(text);
+  return result ? result : 0;
+};
+
 const setRepoPushedTime = async function(packageName, value) {
   await setValue(packageName, propKeys.repoPushedTime, value);
 };
@@ -172,6 +210,9 @@ const getRecentPackages = async function() {
 
 module.exports = {
   getAggregatedExtraData,
+  getCachedImageOriginalUrl,
+  getCachedImageTime,
+  getCachedImageFilename,
   getImageUrl,
   getInvalidTags,
   getParentStars,
@@ -185,6 +226,7 @@ module.exports = {
   getUpdatedTime,
   getVersion,
   setAggregatedExtraData,
+  setCachedImageUrl,
   setImageUrl,
   setInvalidTags,
   setParentStars,

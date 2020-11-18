@@ -14,5 +14,6 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://raw.githubusercontent.com/ZeroKill1024/xLua/master/Assets/XLua/Doc/xLua.png'
+imageFit: contain
 readme: 'master:README_EN.md'
 createdAt: 1592239676591

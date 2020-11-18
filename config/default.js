@@ -83,5 +83,20 @@ module.exports = {
   // Feeds
   feeds: {
     recentUpdateCount: 50
+  },
+
+  // PackageExtra
+  packageExtra: {
+    image: { width: 600, height: 300, cacheDuration: 24 * 3600 * 1000 }
+  },
+
+  s3: {
+    config: {
+      endpoint: "",
+      accessKeyId: "",
+      secretAccessKey: "",
+      s3ForcePathStyle: true
+    },
+    mediaBucket: "openupm"
   }
 };

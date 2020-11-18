@@ -63,6 +63,8 @@ gitTagIgnore: '-master$'
 minVersion: '1.0.5'
 # featured image
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
+# featured image fit mode: cover (default) or contain
+imageFit: cover
 # readme path
 readme: 'master:README.md'
 # package hunter name (github username)

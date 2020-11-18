@@ -2,8 +2,13 @@
  * Fetch package extra data
  **/
 const _ = require("lodash");
+const fs = require("fs");
+const path = require("path");
+
 const config = require("config");
 const urljoin = require("url-join");
+const sharp = require("sharp");
+
 const PackageExtra = require("../models/packageExtra");
 const {
   createGqlClient,
@@ -22,13 +27,19 @@ const {
   httpErrorInfo,
   isErrorCode
 } = require("../utils/http");
+const s3 = require("../utils/s3");
 const logger = require("../utils/log")(module);
+
+// Paths.
+const dataDir = path.resolve(__dirname, "../../data");
+const mediaDir = path.resolve(dataDir, "media");
 
 /**
  * Fetch package extra data into redis for given packageNames array.
  * @param {Array} packageNames
+ * @param {Boolean} force
  */
-const fetchExtraData = async function(packageNames) {
+const fetchExtraData = async function(packageNames, force) {
   logger.info("fetchExtraData");
   if (!packageNames) packageNames = [];
   for (let packageName of packageNames) {
@@ -44,6 +55,7 @@ const fetchExtraData = async function(packageNames) {
     await _fetchRepoInfo(pkg.repo, packageName);
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
+    await _cacheImage(pkg, packageName, force);
   }
 };
 
@@ -79,7 +91,7 @@ const getLatestVersion = function(pkgMeta) {
 
 /**
  * Fetch package info from the registry.
- * @param {string} repo
+ * @param {object} repo
  * @param {string} packageName
  */
 const _fetchPackageInfo = async function(packageName) {
@@ -109,7 +121,7 @@ const _fetchPackageInfo = async function(packageName) {
 
 /**
  * Fetch package scopes for dependencies.
- * @param {string} repo
+ * @param {object} repo
  * @param {string} packageName
  */
 const _fetchPackageScopes = async function(packageName) {
@@ -180,7 +192,7 @@ const _fetchPackageScopes = async function(packageName) {
 
 /**
  * Fetch repository information like stars and pushed time.
- * @param {string} repo
+ * @param {object} repo
  */
 const _fetchRepoInfo = async function(repo, packageName) {
   logger.info({ pkg: packageName }, "_fetchRepoInfo");
@@ -218,7 +230,7 @@ const _fetchRepoInfo = async function(repo, packageName) {
 
 /**
  * Fetch repository og:image.
- * @param {string} repo
+ * @param {object} repo
  * @param {*} packageName
  */
 const _fetchOGImage = async function(pkg, packageName) {
@@ -259,8 +271,172 @@ const _fetchOGImage = async function(pkg, packageName) {
 };
 
 /**
+ * Cache the image url
+ * @param {object} pkg
+ * @param {string} packageName
+ * @param {Boolean} force
+ */
+const _cacheImage = async function(pkg, packageName, force) {
+  logger.info({ pkg: packageName }, "_cacheImage");
+  // get the image url
+  let imageUrl = await PackageExtra.getImageUrl(packageName);
+  if (!imageUrl) imageUrl = pkg.image;
+  const oldCachedImageFilename = await PackageExtra.getCachedImageFilename(
+    packageName
+  );
+  // return if imageUrl is null
+  if (!imageUrl) {
+    await PackageExtra.setCachedImageUrl(packageName, null, null);
+    await _cacheImageRemoveFile(
+      packageName,
+      oldCachedImageFilename,
+      "old cache"
+    );
+    logger.info({ pkg: packageName }, "_cacheImage skip for empty imageUrl");
+    return;
+  }
+  // check image cache
+  const cachedImageOriginalUrl = await PackageExtra.getCachedImageOriginalUrl(
+    packageName
+  );
+  const cacheImageTime = await PackageExtra.getCachedImageTime(packageName);
+  const now = new Date().getTime();
+  if (
+    !force &&
+    cachedImageOriginalUrl == imageUrl &&
+    now - cacheImageTime < config.packageExtra.image.cacheDuration
+  ) {
+    logger.info({ pkg: packageName }, "_cacheImage hit cache");
+    return;
+  }
+  // Download image
+  let tmpFilename = null;
+  let processedFilename = null;
+  let tmpFilePath = null;
+  let processedFilepath = null;
+  const width = config.packageExtra.image.width;
+  const height = config.packageExtra.image.height;
+  try {
+    let resp = null;
+    const source = CancelToken.source();
+    setTimeout(() => {
+      if (resp === null) source.cancel("ECONNTIMEOUT");
+    }, 10000);
+    const headers = {};
+    if (config.gitHub.token)
+      headers.authorization = `Bearer ${config.gitHub.token}`;
+    resp = await AxiosService.create().get(imageUrl, {
+      headers,
+      cancelToken: source.token,
+      responseType: "stream"
+    });
+    const contentType = resp.headers["content-type"];
+    let extname = path.extname(imageUrl);
+    if (!extname && contentType.startsWith("image/"))
+      extname = contentType.split("/")[1];
+    if (!extname.startsWith(".")) extname = "." + extname;
+    tmpFilename = `${packageName}-${now}${extname}`;
+    processedFilename = `${packageName}-${width}x${height}-${now}${extname}`;
+    tmpFilePath = path.join(mediaDir, tmpFilename);
+    processedFilepath = path.join(mediaDir, processedFilename);
+    const readStream = resp.data;
+    const writeStream = fs.createWriteStream(tmpFilePath);
+    readStream.pipe(writeStream);
+    const streamEnd = new Promise(function(resolve, reject) {
+      writeStream.on("close", () => resolve(null));
+      readStream.on("error", reject);
+    });
+    await streamEnd;
+    logger.info(
+      { pkg: packageName, tmpFilename },
+      "_cacheImage image downloaded"
+    );
+  } catch (error) {
+    logger.error(
+      httpErrorInfo(error, { imageUrl }),
+      "failed to download image url"
+    );
+    return;
+  }
+  // process the image
+  try {
+    const image = sharp(tmpFilePath);
+    const fit = pkg.imageFit == "contain" ? "contain" : "cover";
+    await image
+      .resize(600, 300, {
+        fit,
+        background: { r: 255, g: 255, b: 255, alpha: 0 }
+      })
+      .png()
+      .toFile(processedFilepath);
+    // copy to s3
+    await s3.uploadFile({
+      bucket: config.s3.mediaBucket,
+      localPath: processedFilepath,
+      remotePath: `media/${processedFilename}`,
+      acl: "public-read"
+    });
+    logger.info(
+      { pkg: packageName, processedFilename, fit },
+      "_cacheImage image processed"
+    );
+    await _cacheImageRemoveFile(packageName, tmpFilename, "tmp file");
+  } catch (error) {
+    logger.error(
+      httpErrorInfo(error, { imageUrl }),
+      "failed to processe image url"
+    );
+    return;
+  }
+  // save the cached image url
+  await PackageExtra.setCachedImageUrl(
+    packageName,
+    processedFilename,
+    imageUrl
+  );
+  await _cacheImageRemoveFile(packageName, oldCachedImageFilename, "old cache");
+};
+
+/**
+ * Remove the given filename from the local media folder and the s3 media bucket
+ * @param {string} packageName
+ * @param {string} filename
+ * @param {string} reason
+ */
+const _cacheImageRemoveFile = async function(packageName, filename, reason) {
+  if (!filename) return;
+  const localFilePath = path.join(mediaDir, filename);
+  // remove from local
+  try {
+    fs.unlinkSync(localFilePath);
+  } catch (error) {
+    logger.warn(
+      httpErrorInfo(error, { packageName, localFilePath }),
+      `_cacheImage failed to remove local ${reason}`
+    );
+  }
+  // remove from s3
+  const s3FilePath = _cacheImageGetS3Path(filename);
+  try {
+    await s3.removeFile({
+      bucket: config.s3.mediaBucket,
+      remotePath: s3FilePath
+    });
+  } catch (error) {
+    logger.warn(
+      httpErrorInfo(error, { packageName, s3FilePath }),
+      `_cacheImage failed to remove s3 ${reason}`
+    );
+  }
+};
+
+const _cacheImageGetS3Path = function(filename) {
+  return `media/${filename}`;
+};
+
+/**
  * Fetch repository readme.
- * @param {string} repo
+ * @param {object} repo
  */
 const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
@@ -287,6 +463,7 @@ if (require.main === module) {
   let packageNames = null;
   program
     .option("--all", "fetch extra package data for all packages")
+    .option("-f, --force", "ignore cache and force to fetch stuffs")
     .arguments("[name...]")
     .action(function(names) {
       packageNames = names;
@@ -296,6 +473,6 @@ if (require.main === module) {
       if (program.all)
         packageNames = await loadPackageNames({ sortBy: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
-      await fetchExtraData(packageNames);
+      await fetchExtraData(packageNames, program.force);
     });
 }

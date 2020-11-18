@@ -63,6 +63,8 @@ gitTagIgnore: '-master$'
 minVersion: '1.0.5'
 # 主图片
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
+# 主图片缩放模式：cover (默认值) 或者 contain
+imageFit: cover
 # 自述路径
 readme: 'master:README.md'
 # 软件包猎人的GitHub用户名
