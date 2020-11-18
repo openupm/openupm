@@ -17,7 +17,13 @@ const getS3Client = function() {
  * Upload file to S3.
  * @param {object} param0
  */
-const uploadFile = function({ bucket, localPath, remotePath, acl }) {
+const uploadFile = function({
+  bucket,
+  localPath,
+  remotePath,
+  acl,
+  contentType
+}) {
   const s3 = getS3Client();
   const readStream = fs.createReadStream(localPath);
   var params = {
@@ -27,6 +33,7 @@ const uploadFile = function({ bucket, localPath, remotePath, acl }) {
     Body: readStream
   };
   if (acl) params.ACL = acl;
+  if (contentType) params.ContentType = contentType;
 
   return new Promise((resolve, reject) => {
     s3.upload(params, function(err, data) {

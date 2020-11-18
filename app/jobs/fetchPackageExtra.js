@@ -374,7 +374,8 @@ const _cacheImage = async function(pkg, packageName, force) {
       bucket: config.s3.mediaBucket,
       localPath: processedFilepath,
       remotePath: `media/${processedFilename}`,
-      acl: "public-read"
+      acl: "public-read",
+      contentType: "image/png"
     });
     logger.info(
       { pkg: packageName, processedFilename, fit },
