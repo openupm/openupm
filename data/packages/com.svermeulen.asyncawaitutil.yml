@@ -9,8 +9,8 @@ topics:
   - utilities
   - parallelism-and-concurrency
 hunter: JesseTG
-gitTagPrefix: v
-gitTagIgnore: ''
+gitTagPrefix: ''
+gitTagIgnore: '^v'
 minVersion: ''
 image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/dcb8ffed-94c0-442b-a8fa-01005df73f64.webp'
 readme: 'master:README.md'
