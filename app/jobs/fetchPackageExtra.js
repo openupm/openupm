@@ -253,19 +253,19 @@ const _fetchOGImage = async function(pkg, packageName) {
       return "";
     }
   };
-  // Fetch from repo.
-  let imageUrl = await _fetchOGImageForRepo(pkg.repo);
-  // Fetch from parent repo.
-  if (!imageUrl && pkg.parentRepo) {
-    imageUrl = await _fetchOGImageForRepo(pkg.parentRepo);
-  }
-  // Save it.
   try {
+    // Fetch from repo.
+    let imageUrl = await _fetchOGImageForRepo(pkg.repo);
+    // Fetch from parent repo.
+    if (!imageUrl && pkg.parentRepo) {
+      imageUrl = await _fetchOGImageForRepo(pkg.parentRepo);
+    }
+    // Save it.
     await PackageExtra.setImageUrl(packageName, imageUrl);
   } catch (error) {
     logger.error(
       httpErrorInfo(error, { pkg: packageName }),
-      "save og:Image error"
+      "_fetchOGImage error"
     );
   }
 };
@@ -278,124 +278,170 @@ const _fetchOGImage = async function(pkg, packageName) {
  */
 const _cacheImage = async function(pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheImage");
-  // get the image url
-  let imageUrl = await PackageExtra.getImageUrl(packageName);
-  if (!imageUrl) imageUrl = pkg.image;
-  const oldCachedImageFilename = await PackageExtra.getCachedImageFilename(
-    packageName
-  );
-  // return if imageUrl is null
-  if (!imageUrl) {
-    await PackageExtra.setCachedImageUrl(packageName, null, null);
+  try {
+    // get the image url
+    let imageUrl = await PackageExtra.getImageUrl(packageName);
+    if (!imageUrl) imageUrl = pkg.image;
+    const oldCachedImageFilename = await PackageExtra.getCachedImageFilename(
+      packageName
+    );
+    // return if imageUrl is null
+    if (!imageUrl) {
+      await PackageExtra.setCachedImageUrl(packageName, null, null, 0);
+      await _cacheImageRemoveFile(
+        packageName,
+        oldCachedImageFilename,
+        "old cache"
+      );
+      logger.info({ pkg: packageName }, "_cacheImage skip for empty imageUrl");
+      return;
+    }
+    // check image cache
+    const cachedImageOriginalUrl = await PackageExtra.getCachedImageOriginalUrl(
+      packageName
+    );
+    const cacheImageTime = await PackageExtra.getCachedImageTime(packageName);
+    const now = new Date().getTime();
+    if (
+      !force &&
+      cachedImageOriginalUrl == imageUrl &&
+      now - cacheImageTime < config.packageExtra.image.cacheDuration
+    ) {
+      logger.info({ pkg: packageName }, "_cacheImage hit cache: time valid");
+      return;
+    }
+    // download image to a tmp file
+    const tmpFilename = `${packageName}-${now}.tmp`;
+    const tmpFilePath = path.join(mediaDir, tmpFilename);
+    try {
+      await _cacheImageDownloadUrl(packageName, imageUrl, tmpFilePath);
+    } catch (error) {
+      logger.error(
+        httpErrorInfo(error, { pkg: packageName, imageUrl }),
+        "_cacheImage failed to download the image url "
+      );
+      return;
+    }
+    // check cached image size
+    const stats = fs.statSync(tmpFilePath);
+    const fileSize = stats.size;
+    const cachedImageOriginalSize = await PackageExtra.getCachedImageOriginalSize(
+      packageName
+    );
+    if (
+      !force &&
+      cachedImageOriginalUrl == imageUrl &&
+      fileSize == cachedImageOriginalSize
+    ) {
+      logger.info({ pkg: packageName }, "_cacheImage hit cache: same size");
+      await _cacheImageRemoveFile(packageName, tmpFilename, "tmp file");
+      return;
+    }
+    // process the image
+    const width = config.packageExtra.image.width;
+    const height = config.packageExtra.image.height;
+    const processedFilename = `${packageName}-${width}x${height}-${now}.png`;
+    const processedFilepath = path.join(mediaDir, processedFilename);
+    try {
+      const fit = pkg.imageFit == "contain" ? "contain" : "cover";
+      await _cacheImageProcessImage(
+        packageName,
+        fit,
+        tmpFilePath,
+        processedFilename,
+        processedFilepath
+      );
+      await _cacheImageRemoveFile(packageName, tmpFilename, "tmp file");
+    } catch (error) {
+      logger.error(
+        httpErrorInfo(error, { imageUrl }),
+        "_cacheImage failed to processe image url"
+      );
+      return;
+    }
+    // save the cached image url
+    await PackageExtra.setCachedImageUrl(
+      packageName,
+      processedFilename,
+      imageUrl,
+      fileSize
+    );
     await _cacheImageRemoveFile(
       packageName,
       oldCachedImageFilename,
       "old cache"
     );
-    logger.info({ pkg: packageName }, "_cacheImage skip for empty imageUrl");
-    return;
-  }
-  // check image cache
-  const cachedImageOriginalUrl = await PackageExtra.getCachedImageOriginalUrl(
-    packageName
-  );
-  const cacheImageTime = await PackageExtra.getCachedImageTime(packageName);
-  const now = new Date().getTime();
-  if (
-    !force &&
-    cachedImageOriginalUrl == imageUrl &&
-    now - cacheImageTime < config.packageExtra.image.cacheDuration
-  ) {
-    logger.info({ pkg: packageName }, "_cacheImage hit cache");
-    return;
-  }
-  // Download image
-  let tmpFilename = null;
-  let processedFilename = null;
-  let tmpFilePath = null;
-  let processedFilepath = null;
-  const width = config.packageExtra.image.width;
-  const height = config.packageExtra.image.height;
-  try {
-    let resp = null;
-    const source = CancelToken.source();
-    setTimeout(() => {
-      if (resp === null) source.cancel("ECONNTIMEOUT");
-    }, 10000);
-    const headers = {};
-    if (config.gitHub.token)
-      headers.authorization = `Bearer ${config.gitHub.token}`;
-    resp = await AxiosService.create().get(imageUrl, {
-      headers,
-      cancelToken: source.token,
-      responseType: "stream"
-    });
-    const contentType = resp.headers["content-type"];
-    let extname = path.extname(imageUrl);
-    if (!extname && contentType.startsWith("image/"))
-      extname = contentType.split("/")[1];
-    if (!extname.startsWith(".")) extname = "." + extname;
-    tmpFilename = `${packageName}-${now}${extname}`;
-    processedFilename = `${packageName}-${width}x${height}-${now}.png`;
-    tmpFilePath = path.join(mediaDir, tmpFilename);
-    processedFilepath = path.join(mediaDir, processedFilename);
-    const readStream = resp.data;
-    const writeStream = fs.createWriteStream(tmpFilePath);
-    readStream.pipe(writeStream);
-    const streamEnd = new Promise(function(resolve, reject) {
-      writeStream.on("close", () => resolve(null));
-      readStream.on("error", reject);
-    });
-    await streamEnd;
-    logger.info(
-      { pkg: packageName, tmpFilename },
-      "_cacheImage image downloaded"
-    );
   } catch (error) {
     logger.error(
-      httpErrorInfo(error, { imageUrl }),
-      "failed to download image url"
+      httpErrorInfo(error, { pkg: packageName }),
+      "_cacheImage error"
     );
     return;
   }
-  // process the image
-  try {
-    const image = sharp(tmpFilePath);
-    const fit = pkg.imageFit == "contain" ? "contain" : "cover";
-    await image
-      .resize(600, 300, {
-        fit,
-        background: { r: 255, g: 255, b: 255, alpha: 0 }
-      })
-      .png()
-      .toFile(processedFilepath);
-    // copy to s3
-    await s3.uploadFile({
-      bucket: config.s3.mediaBucket,
-      localPath: processedFilepath,
-      remotePath: `media/${processedFilename}`,
-      acl: "public-read",
-      contentType: "image/png"
-    });
-    logger.info(
-      { pkg: packageName, processedFilename, fit },
-      "_cacheImage image processed"
-    );
-    await _cacheImageRemoveFile(packageName, tmpFilename, "tmp file");
-  } catch (error) {
-    logger.error(
-      httpErrorInfo(error, { imageUrl }),
-      "failed to processe image url"
-    );
-    return;
-  }
-  // save the cached image url
-  await PackageExtra.setCachedImageUrl(
-    packageName,
-    processedFilename,
-    imageUrl
+};
+
+/**
+ * Download the given image url.
+ * @param {string} imageUrl
+ * @param {string} destPath
+ */
+const _cacheImageDownloadUrl = async function(packageName, imageUrl, destPath) {
+  let resp = null;
+  const source = CancelToken.source();
+  setTimeout(() => {
+    if (resp === null) source.cancel("ECONNTIMEOUT");
+  }, 10000);
+  const headers = {};
+  if (config.gitHub.token)
+    headers.authorization = `Bearer ${config.gitHub.token}`;
+  resp = await AxiosService.create().get(imageUrl, {
+    headers,
+    cancelToken: source.token,
+    responseType: "stream"
+  });
+  const readStream = resp.data;
+  const writeStream = fs.createWriteStream(destPath);
+  readStream.pipe(writeStream);
+  const streamEnd = new Promise(function(resolve, reject) {
+    writeStream.on("close", () => resolve(null));
+    readStream.on("error", reject);
+  });
+  await streamEnd;
+  logger.info({ pkg: packageName, destPath }, "_cacheImage image downloaded");
+};
+
+/**
+ * Process the given image.
+ * @param {string} imageUrl
+ * @param {string} destPath
+ */
+const _cacheImageProcessImage = async function(
+  packageName,
+  fit,
+  sourcePath,
+  destFilename,
+  destPath
+) {
+  const image = sharp(sourcePath);
+  await image
+    .resize(600, 300, {
+      fit,
+      background: { r: 255, g: 255, b: 255, alpha: 0 }
+    })
+    .png()
+    .toFile(destPath);
+  // copy to s3
+  await s3.uploadFile({
+    bucket: config.s3.mediaBucket,
+    localPath: destPath,
+    remotePath: `media/${destFilename}`,
+    acl: "public-read",
+    contentType: "image/png"
+  });
+  logger.info(
+    { pkg: packageName, destPath, fit },
+    "_cacheImage image processed"
   );
-  await _cacheImageRemoveFile(packageName, oldCachedImageFilename, "old cache");
 };
 
 /**

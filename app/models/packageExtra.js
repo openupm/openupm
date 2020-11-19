@@ -15,6 +15,7 @@ const propKeys = {
   imageUrl: "imageUrl",
   cachedImageFilename: "cachedImageFilename",
   cachedImageOriginalUrl: "cachedImageOriginalUrl",
+  cachedImageOriginalSize: "cachedImageOriginalSize",
   cachedImageTime: "cachedImageTime",
   invalidTags: "invalidTags",
   parentStars: "pstars",
@@ -114,7 +115,8 @@ const getImageUrl = async function(packageName) {
 const setCachedImageUrl = async function(
   packageName,
   imageFilename,
-  originalUrl
+  originalUrl,
+  originalSize
 ) {
   await setValue(
     packageName,
@@ -127,6 +129,11 @@ const setCachedImageUrl = async function(
     propKeys.cachedImageOriginalUrl,
     originalUrl || ""
   );
+  await setValue(
+    packageName,
+    propKeys.cachedImageOriginalSize,
+    originalSize || 0
+  );
 };
 
 const getCachedImageFilename = async function(packageName) {
@@ -137,6 +144,13 @@ const getCachedImageFilename = async function(packageName) {
 const getCachedImageOriginalUrl = async function(packageName) {
   const text = await getValue(packageName, propKeys.cachedImageOriginalUrl);
   return text;
+};
+
+const getCachedImageOriginalSize = async function(packageName) {
+  const text = await getValue(packageName, propKeys.cachedImageOriginalSize);
+  if (!text) return 0;
+  const result = parseInt(text);
+  return result ? result : 0;
 };
 
 const getCachedImageTime = async function(packageName) {
@@ -211,6 +225,7 @@ const getRecentPackages = async function() {
 module.exports = {
   getAggregatedExtraData,
   getCachedImageOriginalUrl,
+  getCachedImageOriginalSize,
   getCachedImageTime,
   getCachedImageFilename,
   getImageUrl,
