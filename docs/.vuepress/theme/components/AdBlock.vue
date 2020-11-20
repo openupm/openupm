@@ -3,10 +3,14 @@
     <a class="ad-img" :href="ad.link">
       <LazyImage v-if="ad.image" :src="ad.image" class="img-responsive" />
     </a>
-    <a class="ad-link" :href="ad.link">
-      {{ ad.text }}
-    </a>
-    <div class="ad-attr">{{ ad.attr }}</div>
+    <div class="ad-text">
+      <a class="ad-link" :href="ad.link">
+        {{ ad.text }}
+      </a>
+      <div class="ad-attr">
+        <small>{{ ad.attr }}</small>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -53,7 +57,10 @@ export default {
 <style lang="stylus">
 // ad-block
 .ad-block
-  width 9rem
+  width 100%
+  max-width 12rem
+  display flex
+  flex-wrap wrap
   margin-bottom 0.6rem
   font-size 0.6rem
   font-weight 400
@@ -62,22 +69,25 @@ export default {
     text-decoration none
 
   .ad-img
-    display block
-    padding 0 0 0.3rem 0
-    width 100%
+    padding 0
+    width 50%
 
-  .ad-link
-    color #555
-
-  .ad-attr
-    color #999
-    padding-top 0.2rem
+  .ad-text
+    padding 0.2rem 0 0 0.4rem
+    width 50%
+    .ad-link
+      padding-bottom 0.3rem
+      display inline-block
+      color #555
+      height 3.7rem
+    .ad-attr
+      color #aaa
 
 // ad-placement
 .adp-sidebar
-  margin 1rem 0 0 1.7rem
+  margin 1rem 0 0 0
 
 .sidebar
   .adp-sidebar
-    margin-left 3.0rem
+    margin 1rem 0 0 1.5rem
 </style>
