@@ -1,3 +1,10 @@
+## [1.40.5](https://github.com/openupm/openupm/compare/1.40.4...1.40.5) (2020-11-20)
+
+
+### Bug Fixes
+
+* **website:** smaller ad widget ([cfbf7d3](https://github.com/openupm/openupm/commit/cfbf7d32749020d4ebdc5c19ee094bd5f2bb5d6d))
+
 ## [1.40.4](https://github.com/openupm/openupm/compare/1.40.3...1.40.4) (2020-11-18)
 
 
