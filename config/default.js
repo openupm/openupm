@@ -87,7 +87,7 @@ module.exports = {
 
   // PackageExtra
   packageExtra: {
-    image: { width: 600, height: 300, cacheDuration: 24 * 3600 * 1000 }
+    image: { width: 600, height: 300, duration: 24 * 3600 * 1000 }
   },
 
   s3: {

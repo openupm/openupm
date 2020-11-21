@@ -25,12 +25,8 @@ const aggregateExtraData = async function() {
     data.pstars = pstars || undefined;
     const unity = await PackageExtra.getUnityVersion(packageName);
     data.unity = unity || "2018.1";
-    // const imageUrl = await PackageExtra.getImageUrl(packageName);
-    // data.imageUrl = imageUrl || undefined;
-    const cachedImageFilename = await PackageExtra.getCachedImageFilename(
-      packageName
-    );
-    data.imageFilename = cachedImageFilename || undefined;
+    data.imageFilename =
+      (await PackageExtra.getCachedImageFilename(packageName)) || undefined;
     const updatedTime = await PackageExtra.getUpdatedTime(packageName);
     const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
     data.time = updatedTime || pushedTime || undefined;

@@ -52,7 +52,7 @@ export default {
         const item = {
           ...x
         };
-        item.image = util.getPackageImageUrl(item.imageFilename) || item.image;
+        item.image = util.getPackageImageUrl(item.imageFilename);
         return item;
       });
     },

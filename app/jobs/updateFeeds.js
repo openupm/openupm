@@ -24,7 +24,12 @@ const updateFeeds = async function() {
       continue;
     }
     const pkg = await loadPackage(packageName);
-    const image = (await PackageExtra.getImageUrl(packageName)) || pkg.image;
+    const imageFilename = await PackageExtra.getCachedImageFilename(
+      packageName
+    );
+    const image = imageFilename
+      ? "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/" + imageFilename
+      : undefined;
     const time = await PackageExtra.getUpdatedTime(packageName);
     const version = await PackageExtra.getVersion(packageName);
     const author = [
