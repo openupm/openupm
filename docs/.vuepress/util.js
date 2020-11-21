@@ -142,8 +142,7 @@ const _packageUtils = {
     result.sortName = pkg.link.text;
     result.createdAt = result.createdAt || 0;
     result.updatedAt = result.time || 0;
-    result.image =
-      _packageUtils.getPackageImageUrl(result.imageFilename) || pkg.image;
+    result.image = _packageUtils.getPackageImageUrl(result.imageFilename);
     result.version = result.ver || undefined;
     result.pending = !result.version;
     return result;

@@ -6,17 +6,17 @@
  *     unity: string
  */
 
+const config = require("config");
+
 const redis = require("../db/redis");
+const { getImage } = require("../utils/media");
+const { loadPackage } = require("../utils/package");
 
 const allPackagesExtraKey = "pkgs:extra";
 const recentPackagesKey = "pkgs:recent";
 const packageKey = "pkg:";
 const propKeys = {
   imageUrl: "imageUrl",
-  cachedImageFilename: "cachedImageFilename",
-  cachedImageOriginalUrl: "cachedImageOriginalUrl",
-  cachedImageOriginalSize: "cachedImageOriginalSize",
-  cachedImageTime: "cachedImageTime",
   invalidTags: "invalidTags",
   parentStars: "pstars",
   readme: "readme",
@@ -112,52 +112,35 @@ const getImageUrl = async function(packageName) {
   return text;
 };
 
-const setCachedImageUrl = async function(
-  packageName,
-  imageFilename,
-  originalUrl,
-  originalSize
-) {
-  await setValue(
-    packageName,
-    propKeys.cachedImageFilename,
-    imageFilename || ""
-  );
-  await setValue(packageName, propKeys.cachedImageTime, new Date().getTime());
-  await setValue(
-    packageName,
-    propKeys.cachedImageOriginalUrl,
-    originalUrl || ""
-  );
-  await setValue(
-    packageName,
-    propKeys.cachedImageOriginalSize,
-    originalSize || 0
-  );
+/**
+ * Get image query data { imageUrl, width, height, fit } for a package
+ * @param {string} packageName
+ */
+const getImageQuery = async function(packageName) {
+  // get the image url
+  const pkg = await loadPackage(packageName);
+  let imageUrl = await getImageUrl(packageName);
+  if (!imageUrl) {
+    imageUrl = pkg.image;
+  }
+  if (!imageUrl) return null;
+  const width = config.packageExtra.image.width;
+  const height = config.packageExtra.image.height;
+  const fit = pkg.imageFit == "contain" ? "contain" : "cover";
+  return { imageUrl, width, height, fit };
 };
 
+/**
+ * Shortcut to get the cached image filename
+ * @param {string} packageName
+ */
 const getCachedImageFilename = async function(packageName) {
-  const text = await getValue(packageName, propKeys.cachedImageFilename);
-  return text;
-};
-
-const getCachedImageOriginalUrl = async function(packageName) {
-  const text = await getValue(packageName, propKeys.cachedImageOriginalUrl);
-  return text;
-};
-
-const getCachedImageOriginalSize = async function(packageName) {
-  const text = await getValue(packageName, propKeys.cachedImageOriginalSize);
-  if (!text) return 0;
-  const result = parseInt(text);
-  return result ? result : 0;
-};
-
-const getCachedImageTime = async function(packageName) {
-  const text = await getValue(packageName, propKeys.cachedImageTime);
-  if (!text) return 0;
-  const result = parseInt(text);
-  return result ? result : 0;
+  const imageQuery = await getImageQuery(packageName);
+  if (imageQuery) {
+    const imageData = await getImage(imageQuery);
+    if (imageData && imageData.filename) return imageData.filename;
+  }
+  return null;
 };
 
 const setRepoPushedTime = async function(packageName, value) {
@@ -224,10 +207,8 @@ const getRecentPackages = async function() {
 
 module.exports = {
   getAggregatedExtraData,
-  getCachedImageOriginalUrl,
-  getCachedImageOriginalSize,
-  getCachedImageTime,
   getCachedImageFilename,
+  getImageQuery,
   getImageUrl,
   getInvalidTags,
   getParentStars,
@@ -241,7 +222,6 @@ module.exports = {
   getUpdatedTime,
   getVersion,
   setAggregatedExtraData,
-  setCachedImageUrl,
   setImageUrl,
   setInvalidTags,
   setParentStars,
