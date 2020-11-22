@@ -125,7 +125,7 @@ const _packageUtils = {
     if (!imageFilename) return null;
     const mediaUrl =
       OPENUPM_REGION == "cn"
-        ? "http://openupm.cn/media/"
+        ? "https://openupm.s3.cn-south-1.jdcloud-oss.com/media/"
         : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
     return mediaUrl + imageFilename;
   },
