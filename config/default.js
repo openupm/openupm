@@ -87,7 +87,11 @@ module.exports = {
 
   // PackageExtra
   packageExtra: {
-    image: { width: 600, height: 300, duration: 24 * 3600 * 1000 }
+    image: { width: 600, height: 300, duration: 24 * 3600 * 1000 },
+    avatar: {
+      small: { size: 48, duration: 24 * 3600 * 1000 },
+      normal: { size: 128, duration: 24 * 3600 * 1000 }
+    }
   },
 
   s3: {

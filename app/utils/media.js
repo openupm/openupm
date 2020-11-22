@@ -27,6 +27,7 @@ const addImage = async function({
   height,
   fit,
   duration,
+  filename,
   force
 }) {
   const key = getMediaKey({ imageUrl, width, height, fit });
@@ -55,13 +56,14 @@ const addImage = async function({
     }
 
     // process the image
-    const filename = getMediaFilename({
-      imageUrl,
-      width,
-      height,
-      fit,
-      size: newSize
-    });
+    if (!filename)
+      filename = getMediaFilename({
+        imageUrl,
+        width,
+        height,
+        fit,
+        size: newSize
+      });
     const filePath = path.join(mediaDir, filename);
     await _processImage({
       sourcePath: tmpFilePath,
@@ -75,7 +77,8 @@ const addImage = async function({
     // update redis
     await redis.client.hmset(key, {
       size: newSize,
-      expire
+      expire,
+      filename
     });
   } finally {
     // remove the tmp file
@@ -204,13 +207,14 @@ const getImage = async function({ imageUrl, width, height, fit }) {
   const obj = await redis.client.hgetall(key);
   if (!obj) return null;
   obj.size = parseInt(obj.size) || 0;
-  obj.filename = getMediaFilename({
-    imageUrl,
-    width,
-    height,
-    fit,
-    size: obj.size
-  });
+  if (!obj.filename)
+    obj.filename = getMediaFilename({
+      imageUrl,
+      width,
+      height,
+      fit,
+      size: obj.size
+    });
   obj.filePath = path.join(mediaDir, obj.filename);
   obj.s3Path = getMediaS3Path(obj.filename);
   obj.expire = parseInt(obj.expire) || 0;

@@ -88,11 +88,12 @@
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
 import SponsorList from "@theme/components/SponsorList.vue";
+import util from "@root/docs/.vuepress/util";
 
 const getUserData = function(entry, action) {
   return {
     ...entry,
-    image: `https://github.com/${entry.user}.png?size=128`,
+    image: util.getAvatarImageUrl(entry.user, 128),
     url: `https://github.com/${entry.user}`,
     label: `${entry.user} ${action} ${entry.count} ${
       entry.count > 1 ? "packages" : "package"
@@ -130,7 +131,7 @@ export default {
           };
           if (x.githubUser) {
             data.url = `https://github.com/${x.githubUser}`;
-            data.image = `${data.url}.png?size=128`;
+            data.image = util.getAvatarImageUrl(x.githubUser, 128);
           }
           const segs = x.name.split(" ");
           data.abbr =

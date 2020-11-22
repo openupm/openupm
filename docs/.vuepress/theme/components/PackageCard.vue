@@ -41,7 +41,7 @@
                 <span v-if="pkg.parentOwner" class="chip">
                   <LazyImage
                     v-if="pkg.parentOwnerAvatarUrl"
-                    :src="pkg.parentOwnerAvatarUrl + '?size=48'"
+                    :src="pkg.parentOwnerAvatarUrl"
                     :alt="pkg.parentOwner"
                     class="avatar avatar-sm"
                   />
@@ -50,7 +50,7 @@
                 </span>
                 <span class="chip">
                   <LazyImage
-                    :src="pkg.ownerAvatarUrl + '?size=48'"
+                    :src="pkg.ownerAvatarUrl"
                     :alt="pkg.owner"
                     class="avatar avatar-sm"
                   />
@@ -112,10 +112,16 @@ export default {
   },
   computed: {
     pkg() {
-      return {
+      const avatarSize = 48;
+      const entry = {
         ...this.item,
-        timeAgoText: util.timeAgoFormat(new Date(this.timeValue))
+        timeAgoText: util.timeAgoFormat(new Date(this.timeValue)),
+        ownerAvatarUrl: util.getAvatarImageUrl(this.item.owner, avatarSize),
+        parentOwnerAvatarUrl: this.item.parentOwner
+          ? util.getAvatarImageUrl(this.item.parentOwner, avatarSize)
+          : null
       };
+      return entry;
     },
     isHorizontalLayout() {
       return (

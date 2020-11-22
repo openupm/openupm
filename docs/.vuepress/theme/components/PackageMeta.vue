@@ -27,8 +27,8 @@
           >
             <span class="chip">
               <LazyImage
-                v-if="pkg.parentOwnerAvatarUrl"
-                :src="pkg.parentOwnerAvatarUrl + '?size=48'"
+                v-if="parentOwnerAvatarUrl"
+                :src="parentOwnerAvatarUrl"
                 :alt="pkg.parentOwner"
                 class="avatar avatar-sm"
               />
@@ -39,7 +39,7 @@
           <a :href="ownerNavLink.link" class="nav-link external">
             <span class="chip">
               <LazyImage
-                :src="pkg.ownerAvatarUrl + '?size=48'"
+                :src="ownerAvatarUrl"
                 :alt="pkg.owner"
                 class="avatar avatar-sm"
               />
@@ -56,7 +56,7 @@
           >
             <span class="chip">
               <LazyImage
-                :src="pkg.hunterAvatarUrl"
+                :src="hunterAvatarUrl"
                 :alt="hunterNavLink.text"
                 class="avatar avatar-sm"
               />
@@ -188,6 +188,11 @@ export default {
     badgeVersionMarkdown() {
       return `[![openupm](${this.badgeVersionImageUrl})](${this.badgeUrl})`;
     },
+    hunterAvatarUrl() {
+      return this.pkg.hunter
+        ? util.getAvatarImageUrl(this.pkg.hunter, 48)
+        : null;
+    },
     hunterNavLink() {
       return {
         link: this.pkg.hunterUrl,
@@ -197,11 +202,19 @@ export default {
     isLoadingPackageSetup() {
       return !this.registryInfo.fetched || !this.packageInfo.fetched;
     },
+    ownerAvatarUrl() {
+      return util.getAvatarImageUrl(this.pkg.owner, 48);
+    },
     ownerNavLink() {
       return {
         link: this.pkg.ownerUrl,
         text: this.pkg.owner
       };
+    },
+    parentOwnerAvatarUrl() {
+      return this.pkg.parentOwner
+        ? util.getAvatarImageUrl(this.pkg.parentOwner, 48)
+        : null;
     },
     parentOwnerNavLink() {
       if (this.pkg.parentRepoUrl)

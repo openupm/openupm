@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-// Common models and constants.
+// Common models and constants that shared with client side.
 
 const Enum = require("enum");
 

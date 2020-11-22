@@ -7,6 +7,7 @@ const config = require("config");
 const urljoin = require("url-join");
 
 const PackageExtra = require("../models/packageExtra");
+const { getCachedAvatarImageFilename } = require("../utils/common");
 const {
   createGqlClient,
   gitFileContentGql,
@@ -49,6 +50,7 @@ const fetchExtraData = async function(packageNames, force) {
     await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
     await _cacheImage(pkg, packageName, force);
+    await _cacheAvatarImage(pkg, packageName, force);
   }
 };
 
@@ -272,12 +274,12 @@ const _fetchOGImage = async function(pkg, packageName) {
 const _cacheImage = async function(pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheImage");
   try {
-    const query = await PackageExtra.getImageQuery(packageName);
+    const query = await PackageExtra.getImageQueryForPackage(packageName);
     if (!query) return;
 
     // check cache
     let imageEntry = await getImage(query);
-    if (imageEntry && imageEntry.available) {
+    if (!force && imageEntry && imageEntry.available) {
       logger.info({ pkg: packageName }, "_cacheImage cache is available");
       return;
     }
@@ -294,6 +296,67 @@ const _cacheImage = async function(pkg, packageName, force) {
       httpErrorInfo(error, { pkg: packageName }),
       "_cacheImage error"
     );
+  }
+};
+
+/**
+ * Cache the avatar image url
+ * @param {object} pkg
+ * @param {string} packageName
+ * @param {Boolean} force
+ */
+const _cacheAvatarImage = async function(pkg, packageName, force) {
+  logger.info({ pkg: packageName }, "_cacheAvatarImage");
+  if (pkg.owner) await _cacheAvatarImageForGithubUser(pkg.owner, force);
+  if (pkg.parentOwner)
+    await _cacheAvatarImageForGithubUser(pkg.parentOwner, force);
+  if (pkg.hunter) await _cacheAvatarImageForGithubUser(pkg.hunter, force);
+};
+
+/**
+ * Cache the avatar image url for the GitHub user
+ * @param {string} username
+ * @param {Boolean} force
+ */
+const _cacheAvatarImageForGithubUser = async function(username, force) {
+  for (const [sizeName, entry] of Object.entries(config.packageExtra.avatar)) {
+    logger.info(
+      { username, width: entry.size, height: entry.size, sizeName },
+      "_cacheAvatarImageForGithubUser"
+    );
+    try {
+      const query = await PackageExtra.getImageQueryForGithubUser(
+        username,
+        entry.size
+      );
+      if (!query) return;
+
+      // check cache
+      let imageEntry = await getImage(query);
+      if (!force && imageEntry && imageEntry.available) {
+        logger.info(
+          { username, width: entry.size, height: entry.size, sizeName },
+          "_cacheAvatarImageForGithubUser cache is available"
+        );
+        return;
+      }
+
+      // add image
+      const duration = entry.duration;
+      // override default image filename
+      const filename = getCachedAvatarImageFilename(username, entry.size);
+      await addImage({
+        ...query,
+        duration,
+        filename,
+        force
+      });
+    } catch (error) {
+      logger.error(
+        httpErrorInfo(error, { username }),
+        "_cacheAvatarImageForGithubUser error"
+      );
+    }
   }
 };
 

@@ -113,10 +113,10 @@ const getImageUrl = async function(packageName) {
 };
 
 /**
- * Get image query data { imageUrl, width, height, fit } for a package
+ * Get image query data for a package, return { imageUrl, width, height, fit }
  * @param {string} packageName
  */
-const getImageQuery = async function(packageName) {
+const getImageQueryForPackage = async function(packageName) {
   // get the image url
   const pkg = await loadPackage(packageName);
   let imageUrl = await getImageUrl(packageName);
@@ -131,14 +131,25 @@ const getImageQuery = async function(packageName) {
 };
 
 /**
- * Shortcut to get the cached image filename
+ * Get image query data for a GitHub user, return { imageUrl, width, height, fit }
+ * @param {string} username
+ * @param {Number} size
+ */
+const getImageQueryForGithubUser = async function(username, size) {
+  // get the image url
+  const imageUrl = `https://github.com/${username}.png?size=${size}`;
+  return { imageUrl, width: size, height: size, fit: "cover" };
+};
+
+/**
+ * Get the cached image filename
  * @param {string} packageName
  */
 const getCachedImageFilename = async function(packageName) {
-  const imageQuery = await getImageQuery(packageName);
+  const imageQuery = await getImageQueryForPackage(packageName);
   if (imageQuery) {
     const imageData = await getImage(imageQuery);
-    if (imageData && imageData.filename) return imageData.filename;
+    if (imageData) return imageData.filename;
   }
   return null;
 };
@@ -208,7 +219,8 @@ const getRecentPackages = async function() {
 module.exports = {
   getAggregatedExtraData,
   getCachedImageFilename,
-  getImageQuery,
+  getImageQueryForGithubUser,
+  getImageQueryForPackage,
   getImageUrl,
   getInvalidTags,
   getParentStars,

@@ -7,6 +7,8 @@ var dateFnsZhLocale = require("date-fns/locale/zh-CN").default;
 const { isDate } = require("lodash/lang");
 const urljoin = require("url-join");
 
+const { getCachedAvatarImageFilename } = require("@root/app/utils/common");
+
 const BASE_DOMAIN = process.env.BASE_DOMAIN;
 const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
 
@@ -32,6 +34,13 @@ const _urlUtils = {
 
   // Package installer Site URL
   packageInstallerSiteUrl: "https://package-installer.glitch.me",
+
+  // Avatar URL
+  getAvatarImageUrl: function(username, size) {
+    const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
+    const filename = getCachedAvatarImageFilename(username, size);
+    return urljoin(mediaBaseUrl, filename);
+  },
 
   // Package installer URL
   getPackageInstallerUrl: function(packageName, scopes) {
@@ -62,6 +71,12 @@ const _urlUtils = {
   getDocsUrl: function(url, lang) {
     if (!lang && OPENUPM_REGION == "cn") lang = "zh";
     return lang ? `/${lang}${url}` : url;
+  },
+
+  getMediaBaseUrl: function() {
+    return OPENUPM_REGION == "cn"
+      ? "https://openupm.s3.cn-south-1.jdcloud-oss.com/media/"
+      : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
   },
 
   // Convert GitHub URL to GitHub raw URL
@@ -123,11 +138,8 @@ const _packageUtils = {
   // Covnert the package cached image filename to the full URL.
   getPackageImageUrl(imageFilename) {
     if (!imageFilename) return null;
-    const mediaUrl =
-      OPENUPM_REGION == "cn"
-        ? "https://openupm.s3.cn-south-1.jdcloud-oss.com/media/"
-        : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
-    return mediaUrl + imageFilename;
+    const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
+    return urljoin(mediaBaseUrl, imageFilename);
   },
 
   // Join package with extra data.
