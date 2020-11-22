@@ -1,3 +1,10 @@
+## [1.40.6](https://github.com/openupm/openupm/compare/1.40.5...1.40.6) (2020-11-22)
+
+
+### Bug Fixes
+
+* **website:** update media base URL for region CN ([d0ab08f](https://github.com/openupm/openupm/commit/d0ab08f4fe0e40b5a1f608c6b4b2fe059661e32a))
+
 ## [1.40.5](https://github.com/openupm/openupm/compare/1.40.4...1.40.5) (2020-11-20)
 
 
