@@ -1,6 +1,7 @@
 /**
  * Fetch backer data
  **/
+const config = require("config");
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
@@ -8,6 +9,7 @@ const util = require("util");
 const yaml = require("js-yaml");
 
 const { cacheAvatarImageForGithubUser } = require("./fetchPackageExtra");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 const readFile = util.promisify(fs.readFile);
@@ -35,5 +37,6 @@ if (require.main === module) {
     .parse(process.argv)
     .run(async function() {
       await fetchBackerData(program.force);
+      await healthCheck(config.healthCheck.ids.fetchBackerData);
     });
 }

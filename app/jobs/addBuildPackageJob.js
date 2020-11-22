@@ -3,6 +3,7 @@
 const config = require("config");
 const { queues, addJob } = require("../queues/core");
 const { loadPackageNames, packageExists } = require("../utils/package");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 // Add build package jobs for given package names.
@@ -49,5 +50,6 @@ if (require.main === module) {
         packageNames = await loadPackageNames({ sortBy: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
       await addBuildPackagerJobs(packageNames);
+      await healthCheck(config.healthCheck.ids.addBuildPackageJob);
     });
 }

@@ -102,5 +102,17 @@ module.exports = {
       s3ForcePathStyle: true
     },
     mediaBucket: "openupm"
+  },
+
+  healthCheck: {
+    ids: {
+      fetchPackageExtra: "",
+      aggregatePackageExtra: "",
+      updateRecentPackages: "",
+      fetchSiteInfo: "",
+      updateFeeds: "",
+      fetchBackerData: "",
+      addBuildPackageJob: ""
+    }
   }
 };

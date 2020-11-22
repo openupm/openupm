@@ -2,13 +2,16 @@
  * Update recent packages
  **/
 
+const config = require("config");
+const { orderBy } = require("lodash/collection");
+
 const PackageExtra = require("../models/packageExtra");
 const {
   loadPackageNames,
   loadPackage,
   packageExists
 } = require("../utils/package");
-const { orderBy } = require("lodash/collection");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 /**
@@ -61,5 +64,6 @@ if (require.main === module) {
   let program = require("../utils/commander");
   program.parse(process.argv).run(async function() {
     await updateRecentPackages();
+    await healthCheck(config.healthCheck.ids.updateRecentPackages);
   });
 }

@@ -1,8 +1,10 @@
 /**
  * Aggregate package extra data
  **/
+const config = require("config");
 const PackageExtra = require("../models/packageExtra");
 const { loadPackageNames, packageExists } = require("../utils/package");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 /**
@@ -41,5 +43,6 @@ if (require.main === module) {
   let program = require("../utils/commander");
   program.parse(process.argv).run(async function() {
     await aggregateExtraData();
+    await healthCheck(config.healthCheck.ids.fetchPackageExtra);
   });
 }

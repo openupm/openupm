@@ -5,6 +5,7 @@ const config = require("config");
 const urljoin = require("url-join");
 const SiteInfo = require("../models/siteInfo");
 const { AxiosService, CancelToken, httpErrorInfo } = require("../utils/http");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 /**
@@ -46,5 +47,6 @@ if (require.main === module) {
   let packageNames = null;
   program.parse(process.argv).run(async function() {
     await fetchSiteInfo(packageNames);
+    await healthCheck(config.healthCheck.ids.fetchSiteInfo);
   });
 }

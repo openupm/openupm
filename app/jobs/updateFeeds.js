@@ -1,6 +1,7 @@
 /**
  * Update RSS feeds
  **/
+const config = require("config");
 const PackageExtra = require("../models/packageExtra");
 const PackageFeed = require("../models/packageFeed");
 const {
@@ -8,6 +9,7 @@ const {
   loadPackage,
   packageExists
 } = require("../utils/package");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 /**
@@ -61,5 +63,6 @@ if (require.main === module) {
   let program = require("../utils/commander");
   program.parse(process.argv).run(async function() {
     await updateFeeds();
+    await healthCheck(config.healthCheck.ids.updateFeeds);
   });
 }

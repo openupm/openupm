@@ -26,6 +26,7 @@ const {
   isErrorCode
 } = require("../utils/http");
 const { addImage, getImage } = require("../utils/media");
+const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
 
 /**
@@ -402,5 +403,6 @@ if (require.main === module) {
         packageNames = await loadPackageNames({ sortBy: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
       await fetchExtraData(packageNames, program.force);
+      await healthCheck(config.healthCheck.ids.fetchPackageExtra);
     });
 }
