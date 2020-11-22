@@ -1,3 +1,10 @@
+## [1.40.7](https://github.com/openupm/openupm/compare/1.40.6...1.40.7) (2020-11-22)
+
+
+### Bug Fixes
+
+* **website:** cache the avatar image ([b53c769](https://github.com/openupm/openupm/commit/b53c769c22a3699421336409bd488946423f4dc7))
+
 ## [1.40.6](https://github.com/openupm/openupm/compare/1.40.5...1.40.6) (2020-11-22)
 
 
