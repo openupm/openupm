@@ -71,3 +71,13 @@ apps:
     max_memory_restart: 512M
     cron_restart: "*/5 * * * *"
     autorestart: false
+  - name: fetch-backer-data
+    instance_var: fetch-backer-data
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/fetchBackerData.js
+    error_file: ./logs/fetch-backer-data-error.log
+    out_file: ./logs/fetch-backer-data.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/30 * * * *"
+    autorestart: false

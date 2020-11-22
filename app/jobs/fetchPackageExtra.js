@@ -307,10 +307,10 @@ const _cacheImage = async function(pkg, packageName, force) {
  */
 const _cacheAvatarImage = async function(pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheAvatarImage");
-  if (pkg.owner) await _cacheAvatarImageForGithubUser(pkg.owner, force);
+  if (pkg.owner) await cacheAvatarImageForGithubUser(pkg.owner, force);
   if (pkg.parentOwner)
-    await _cacheAvatarImageForGithubUser(pkg.parentOwner, force);
-  if (pkg.hunter) await _cacheAvatarImageForGithubUser(pkg.hunter, force);
+    await cacheAvatarImageForGithubUser(pkg.parentOwner, force);
+  if (pkg.hunter) await cacheAvatarImageForGithubUser(pkg.hunter, force);
 };
 
 /**
@@ -318,11 +318,11 @@ const _cacheAvatarImage = async function(pkg, packageName, force) {
  * @param {string} username
  * @param {Boolean} force
  */
-const _cacheAvatarImageForGithubUser = async function(username, force) {
+const cacheAvatarImageForGithubUser = async function(username, force) {
   for (const [sizeName, entry] of Object.entries(config.packageExtra.avatar)) {
     logger.info(
       { username, width: entry.size, height: entry.size, sizeName },
-      "_cacheAvatarImageForGithubUser"
+      "cacheAvatarImageForGithubUser"
     );
     try {
       const query = await PackageExtra.getImageQueryForGithubUser(
@@ -336,7 +336,7 @@ const _cacheAvatarImageForGithubUser = async function(username, force) {
       if (!force && imageEntry && imageEntry.available) {
         logger.info(
           { username, width: entry.size, height: entry.size, sizeName },
-          "_cacheAvatarImageForGithubUser cache is available"
+          "cacheAvatarImageForGithubUser cache is available"
         );
         return;
       }
@@ -354,7 +354,7 @@ const _cacheAvatarImageForGithubUser = async function(username, force) {
     } catch (error) {
       logger.error(
         httpErrorInfo(error, { username }),
-        "_cacheAvatarImageForGithubUser error"
+        "cacheAvatarImageForGithubUser error"
       );
     }
   }
@@ -383,6 +383,8 @@ const _fetchReadme = async function(pkg, packageName) {
     logger.error({ err: error, pkg: packageName }, "fetch readme error");
   }
 };
+
+module.exports = { cacheAvatarImageForGithubUser };
 
 if (require.main === module) {
   let program = require("../utils/commander");
