@@ -43,6 +43,6 @@ if (require.main === module) {
   let program = require("../utils/commander");
   program.parse(process.argv).run(async function() {
     await aggregateExtraData();
-    await healthCheck(config.healthCheck.ids.fetchPackageExtra);
+    await healthCheck(config.healthCheck.ids.aggregatePackageExtra);
   });
 }
