@@ -1,0 +1,16 @@
+name: com.activ.stateless
+displayName: Active LT
+description: Stateless Behavior Trees for Unity
+repoUrl: 'https://github.com/active-logic/active-lt'
+parentRepoUrl: null
+licenseSpdxId: AGPL-3.0
+licenseName: GNU Affero General Public License v3.0
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1606167099435
