@@ -1,3 +1,16 @@
+# [1.41.0](https://github.com/openupm/openupm/compare/1.40.7...1.41.0) (2020-11-23)
+
+
+### Bug Fixes
+
+* **pipelines:** add fetch-backer-data job [skip ci] ([d6a5d84](https://github.com/openupm/openupm/commit/d6a5d84ebc876432fefc00cb75a092422705e614))
+* **pipelines:** change aggregatePackageExtra health check id [skip ci] ([d0fef03](https://github.com/openupm/openupm/commit/d0fef0327b14d1b1eec10de4af588ac8d00ea4a9))
+
+
+### Features
+
+* **pipelines:** integrate with healthchecks.io [skip ci] ([61aeff1](https://github.com/openupm/openupm/commit/61aeff1dc32423ad450214766c83a3d40ac04510))
+
 ## [1.40.7](https://github.com/openupm/openupm/compare/1.40.6...1.40.7) (2020-11-22)
 
 
