@@ -14,7 +14,7 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '2019.3'
+minVersion: ''
 image: >-
   https://raw.githubusercontent.com/Cammin/LDtkUnity/master/DocImages~/LdtkUnityBanner.png
 readme: 'master:README.md'
