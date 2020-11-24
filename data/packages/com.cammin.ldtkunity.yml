@@ -1,5 +1,5 @@
 name: com.cammin.ldtkunity
-displayName: LDtkUnity
+displayName: LDtk to Unity
 description: >-
   A package for easy Unity-integration with the Level Designer Toolkit, created
   by deepnight: https://github.com/deepnight/ldtk
@@ -8,13 +8,14 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
+  - 2d
   - integration
   - level-design
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2019.3'
 image: >-
-  https://github.com/Cammin/LDtkUnity/raw/6854c77697890715022657584e5e7796ab562c96/Assets/LDtkUnity/Icons/LDtkProjectIcon.png
+  https://raw.githubusercontent.com/Cammin/LDtkUnity/master/DocImages~/LdtkUnityBanner.png
 readme: 'master:README.md'
 createdAt: 1605302431257
