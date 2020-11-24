@@ -13,6 +13,6 @@ hunter: oparaskos
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://repository-images.githubusercontent.com/315718419/a4336f00-2e8e-11eb-8ce3-ea47617df050'
 readme: 'master:README.md'
 createdAt: 1606242336011
