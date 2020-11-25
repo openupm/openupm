@@ -1,3 +1,10 @@
+## [1.42.1](https://github.com/openupm/openupm/compare/1.42.0...1.42.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* **i18n:** flexsearch option for region CN ([d8089d5](https://github.com/openupm/openupm/commit/d8089d58bf3a469127e1e643e2e2460071642acf))
+
 # [1.42.0](https://github.com/openupm/openupm/compare/1.41.0...1.42.0) (2020-11-25)
 
 
