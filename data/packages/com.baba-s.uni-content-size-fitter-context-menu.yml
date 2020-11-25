@@ -14,6 +14,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79828688-309f2000-83dc-11ea-85f1-57013c688e13.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79828688-309f2000-83dc-11ea-85f1-57013c688e13.png
 readme: 'master:README.md'
 createdAt: 1591709103856
+displayName_zhCN: UniContentSizeFitterContextMenu
+description_zhCN: Unity编辑器扩展，控制ContentSizeFitter的FitMode

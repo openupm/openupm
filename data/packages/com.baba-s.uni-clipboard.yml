@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591634327375
+displayName_zhCN: UniClipboard
+description_zhCN: 将字符串复制到剪贴板的帮助类

@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601490295791
+displayName_zhCN: UniAssetDatabaseUtils

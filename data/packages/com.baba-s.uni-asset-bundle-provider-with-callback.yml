@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602441418479
+displayName_zhCN: UniAssetBundleProviderWithCallback
+description_zhCN: 带回调函数的可寻址资产的AssetBundleProvider

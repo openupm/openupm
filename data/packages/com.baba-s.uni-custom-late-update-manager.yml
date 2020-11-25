@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594868698731
+displayName_zhCN: UniCustomLateUpdateManager
+description_zhCN: 更高效的MonoBehaviour的LateUpdate回调

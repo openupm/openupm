@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601321237358
+displayName_zhCN: UniAllGameObjectTester
+description_zhCN: 轻松实现所有场景和Prefab中存在的GameObject的测试

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/94363196-931ee980-00fb-11eb-8ac5-c5a6318130a5.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/94363196-931ee980-00fb-11eb-8ac5-c5a6318130a5.png
 readme: 'master:README.md'
 createdAt: 1601320227029
+displayName_zhCN: UniAndroidPluginPlatformTest
+description_zhCN: 测试Unity的Android插件

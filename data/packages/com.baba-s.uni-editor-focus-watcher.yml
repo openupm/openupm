@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602525798353
+displayName_zhCN: UniEditorFocusWatcher
+description_zhCN: Unity编辑器获得焦点、失去焦点的回调函数

@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1596509680003
+displayName_zhCN: UniCollisionEventHandler

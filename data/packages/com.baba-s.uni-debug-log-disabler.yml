@@ -7,7 +7,6 @@ licenseSpdxId: null
 licenseName: ''
 topics:
   - debugging-and-logging
-  - utilities
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
@@ -15,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591650942970
+displayName_zhCN: UniDebugLogDisabler

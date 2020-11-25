@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591720090764
+displayName_zhCN: UniCompileTimer
+description_zhCN: 测量编译时间

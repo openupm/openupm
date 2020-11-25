@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1597547724999
+displayName_zhCN: UniBuildCheckDialog
+description_zhCN: Unity在构建编辑器扩展时的确认对话框

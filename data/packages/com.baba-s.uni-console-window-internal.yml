@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594868472440
+displayName_zhCN: UniConsoleWindowInternal
+description_zhCN: 允许调用控制台窗口的内部功能

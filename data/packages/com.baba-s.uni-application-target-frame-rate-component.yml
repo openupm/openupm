@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1600543813187
+displayName_zhCN: UniApplicationTargetFrameRateComponent

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601490178391
+displayName_zhCN: UniAllSceneGlobalIlluminationDisabler
+description_zhCN: 场景全局照明关闭器

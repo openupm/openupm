@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602445593482
+displayName_zhCN: UniDestroyEventListener
+description_zhCN: 在销毁GameObject时执行事件的组件

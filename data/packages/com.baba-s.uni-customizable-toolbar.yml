@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/80093123-e87c2b00-859e-11ea-95a8-6ed1e0c70dc9.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/80093123-e87c2b00-859e-11ea-95a8-6ed1e0c70dc9.png
 readme: 'master:README.md'
 createdAt: 1591671973479
+displayName_zhCN: UniCustomizableToolbar
+description_zhCN: 自定义的Unity工具栏

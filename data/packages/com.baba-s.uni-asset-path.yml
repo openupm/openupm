@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1599498707400
+displayName_zhCN: UniAssetPath
+description_zhCN: UniAssetPath结构可方便的描述资源路径

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591709233572
+displayName_zhCN: UniDisplayProgressbarScope
+description_zhCN: 调用带进度的对话框

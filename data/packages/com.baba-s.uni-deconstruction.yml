@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591633614866
+displayName_zhCN: UniDeconstruction
+description_zhCN: 使用C# 7.0的分解功能（Deconstruction）来帮助提取Vector2，Vector3，Vector4，Color和Rect的值

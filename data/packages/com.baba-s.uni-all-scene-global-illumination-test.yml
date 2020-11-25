@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601156740007
+displayName_zhCN: UniAllSceneGlobalIlluminationTest
+description_zhCN: 场景全局照明测试

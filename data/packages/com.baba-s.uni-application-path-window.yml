@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79827855-69d69080-83da-11ea-9627-ae9d565b0dcb.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827855-69d69080-83da-11ea-9627-ae9d565b0dcb.png
 readme: 'master:README.md'
 createdAt: 1591708067469
+displayName_zhCN: UniApplicationPathWindow
+description_zhCN: Unity编辑器扩展，检查通过Application.DataPath可获取的路径内容

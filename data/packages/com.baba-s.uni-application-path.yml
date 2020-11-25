@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591628836421
+displayName_zhCN: UniApplicationPath
+description_zhCN: 管理可以保存数据的路径

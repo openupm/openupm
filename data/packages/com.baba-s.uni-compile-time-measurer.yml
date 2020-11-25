@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/61863367/81265320-db226e80-907d-11ea-9f30-c429fb8f0db1.png'
+image: >-
+  https://user-images.githubusercontent.com/61863367/81265320-db226e80-907d-11ea-9f30-c429fb8f0db1.png
 readme: 'master:README.md'
 createdAt: 1591666181474
+displayName_zhCN: UniCompileTimeMeasurer
+description_zhCN: Unity编辑器扩展来测量编译时间

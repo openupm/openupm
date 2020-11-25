@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591628913775
+displayName_zhCN: UniCommandLineParser
+description_zhCN: 解析Unity命令行参数

@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/80113064-c691a100-85bc-11ea-9482-ea522ee41fae.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/80113064-c691a100-85bc-11ea-9482-ea522ee41fae.png
 readme: 'master:README.md'
 createdAt: 1591666987355
+displayName_zhCN: UniCompileTester
+description_zhCN: 测试代码在不同平台的编译错误

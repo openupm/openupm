@@ -6,7 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''
 topics:
-  - utilities
+  - debugging-and-logging
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591634522943
+displayName_zhCN: UniDebugLogger
+description_zhCN: 增强的Unity调试日志

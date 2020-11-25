@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591626074086
+displayName_zhCN: UniEditorGUILayoutWrapper.
+description_zhCN: Unity编辑器扩展，更容易的编写OnGUI函数

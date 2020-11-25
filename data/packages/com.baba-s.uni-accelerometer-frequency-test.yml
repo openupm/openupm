@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/94363297-3ec83980-00fc-11eb-9a1b-e73762dee19b.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/94363297-3ec83980-00fc-11eb-9a1b-e73762dee19b.png
 readme: 'master:README.md'
 createdAt: 1601310863983
+displayName_zhCN: UniAccelerometerFrequencyTest
+description_zhCN: 测试加速度API是否已禁用

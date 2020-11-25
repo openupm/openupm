@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602441063357
+displayName_zhCN: UniAddressablesController
+description_zhCN: Unity可寻址资源打包和增强错误处理

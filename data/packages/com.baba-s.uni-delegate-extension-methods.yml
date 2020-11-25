@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1597605471621
+displayName_zhCN: UniDelegateExtensionMethods
+description_zhCN: Action、Func、MulticastDelegate的扩展方法

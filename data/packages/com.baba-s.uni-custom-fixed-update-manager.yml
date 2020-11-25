@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1600543856859
+displayName_zhCN: UniCustomFixedUpdateManager

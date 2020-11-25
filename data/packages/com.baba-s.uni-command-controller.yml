@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589048308712
+displayName_zhCN: UniCommandController
+description_zhCN: 一个简单的库，可以控制要实现事件脚本的命令。

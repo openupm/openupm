@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79872988-75997580-8421-11ea-9436-f56ee120e2d0.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79872988-75997580-8421-11ea-9436-f56ee120e2d0.png
 readme: 'master:README.md'
 createdAt: 1591708660708
+displayName_zhCN: UniBundleVersionCodeIncrementer
+description_zhCN: Unity编辑器扩展，在构建完成时更新iOS / Android的Bundle Version Code和Bundle Number

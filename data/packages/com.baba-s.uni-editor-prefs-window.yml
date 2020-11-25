@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/61863367/80789210-41167e00-8bc6-11ea-968d-5c086d1a15d7.png'
+image: >-
+  https://user-images.githubusercontent.com/61863367/80789210-41167e00-8bc6-11ea-968d-5c086d1a15d7.png
 readme: 'master:README.md'
 createdAt: 1591666508185
+displayName_zhCN: UniEditorPrefsWindow
+description_zhCN: Unity编辑器扩展，可以查看EditorPrefs的键值

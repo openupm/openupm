@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601486490824
+displayName_zhCN: UniAllSceneSkyboxMaterialRemover
+description_zhCN: Unity全场景Skybox材质移除器

@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/81039409-e5a90080-8ee3-11ea-9233-cae3f628f30d.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/81039409-e5a90080-8ee3-11ea-9233-cae3f628f30d.gif
 readme: 'master:README.md'
 createdAt: 1591666456853
+displayName_zhCN: UniAnimationCurveCopyPasteDrawer
+description_zhCN: Unity编辑器扩展，支持使用Inspector复制和粘贴曲线动画

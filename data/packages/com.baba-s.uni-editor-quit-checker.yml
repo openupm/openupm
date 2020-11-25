@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79827687-eb79ee80-83d9-11ea-9441-bfeb19a1a0e9.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827687-eb79ee80-83d9-11ea-9441-bfeb19a1a0e9.png
 readme: 'master:README.md'
 createdAt: 1591649812956
+displayName_zhCN: UniEditorQuitChecker
+description_zhCN: 在退出Unity编辑器时显示确认对话框

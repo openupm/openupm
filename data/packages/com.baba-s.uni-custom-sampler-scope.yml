@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591709286379
+displayName_zhCN: UniCustomSamplerScope
+description_zhCN: UnityEngine.Profiling.CustomSampler

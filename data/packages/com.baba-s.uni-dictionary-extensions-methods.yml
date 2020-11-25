@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598310275346
+displayName_zhCN: UniDictionaryExtensionMethods
+description_zhCN: Unity字典类型扩展方法

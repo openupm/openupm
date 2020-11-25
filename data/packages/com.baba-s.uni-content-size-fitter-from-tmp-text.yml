@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598411790076
+displayName_zhCN: UniContentSizeFitterFromTmpText
+description_zhCN: 匹配RectTransform大小与TMP_Text大小的函数

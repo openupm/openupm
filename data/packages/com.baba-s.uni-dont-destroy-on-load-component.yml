@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592680891902
+displayName_zhCN: UniDontDestroyOnLoadComponent
