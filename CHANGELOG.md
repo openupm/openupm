@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/openupm/openupm/compare/1.41.0...1.42.0) (2020-11-25)
+
+
+### Features
+
+* **website:** display localized package meta ([ec22032](https://github.com/openupm/openupm/commit/ec220325daa6f19246bd29f01607f818ccde3d0e))
+
 # [1.41.0](https://github.com/openupm/openupm/compare/1.40.7...1.41.0) (2020-11-23)
 
 
