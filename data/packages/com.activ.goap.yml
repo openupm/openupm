@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589307865791
+displayName_zhCN: xGOAP
+description_zhCN: 超越G.O.A.P的面向目标的计划构架

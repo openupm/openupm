@@ -14,3 +14,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/active-logic/Media/master/Prolog/Prolog.png'
 readme: 'master:README.md'
 createdAt: 1589307753843
+displayName_zhCN: Prolog
+description_zhCN: Unity3D的自动日志和交互式控制台

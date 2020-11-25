@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588979649719
+displayName_zhCN: A*
+description_zhCN: "\U0001F50DA* Unity3d的寻路算法实现"

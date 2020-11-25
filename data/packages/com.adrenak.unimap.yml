@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598559294824
+displayName_zhCN: UniMap
+description_zhCN: 谷歌地图的Unity包装类

@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588953647918
+displayName_zhCN: ScriptableObject核心
+description_zhCN: ScriptableObjects核心构架

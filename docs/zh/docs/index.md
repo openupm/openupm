@@ -64,7 +64,7 @@ manifest updated, please open unity project to apply changes
 
 ## 关于OpenUPM中文网
 
-OpenUPM分为[国际区](https://openupm.com)和[中国区](https://openupm.cn)。OpenUPM中文网提供了中国本地化的服务，包括文档的本地化和在中国大陆托管的软件仓库映像。中国区的软件仓库影响，每小时同国际区同步一次。以保证中国区方便的访问到最新的软件包，并符合本地法律的要求。
+OpenUPM分为[国际区](https://openupm.com)和[中国区](https://openupm.cn)。OpenUPM中文网提供了文档的本地化和在中国大陆托管的软件仓库映像。该仓库映像每小时同国际区同步一次。
 
 如果你对OpenUPM中文网的发展有任何的建议和诉求，请随时联系[hello@openupm.com](mailto:hello@openupm.com)。
 

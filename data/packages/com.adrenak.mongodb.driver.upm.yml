@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598558198644
+displayName_zhCN: MongoDB驱动
+description_zhCN: MongoDB的C#驱动

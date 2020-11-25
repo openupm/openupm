@@ -1,5 +1,6 @@
 name: astar.action-grid
 displayName: A* Action Grid
+displayName_zhCN: A*动作网格
 description: null
 repoUrl: 'https://github.com/k0dep/astar.action-grid'
 parentRepoUrl: null

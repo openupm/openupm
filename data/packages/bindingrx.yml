@@ -14,3 +14,5 @@ image: >-
   https://github.com/k0dep/BindingRx/raw/9221c78ec0c2a46e8851bda14f0319d049c846d0/Docs/MonoPropertyBindingShowCase.gif
 readme: 'master:README.md'
 createdAt: 1589228343431
+displayName_zhCN: BindingRx
+description_zhCN: 数据绑定组件

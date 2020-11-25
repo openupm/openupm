@@ -18,3 +18,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1603587439936
+displayName_zhCN: Draco 3D数据压缩
+description_zhCN: Draco 3D数据压缩

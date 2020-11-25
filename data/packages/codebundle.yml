@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591725776959
+displayName_zhCN: CodeBundle
+description_zhCN: 允许加载代码和自动更新应用程序/游戏，而无需重新安装

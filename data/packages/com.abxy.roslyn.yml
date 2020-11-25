@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:Readme.md'
 createdAt: 1599575537667
+displayName_zhCN: .NET编译平台（Roslyn）
+description_zhCN: Microsoft C#二进制文件编译为Unity

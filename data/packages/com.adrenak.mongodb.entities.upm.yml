@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598558118986
+displayName_zhCN: MongoDB Entities
+description_zhCN: MongoDB.Entities软件包

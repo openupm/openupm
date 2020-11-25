@@ -21,3 +21,5 @@ image: >-
   https://github.com/3d-group/unity-simple-notifications/raw/53ca54067a29960260939a6e7630a7c10eefb98e/Documentation~/images/SimpleShowCase.gif
 readme: 'master:README.md'
 createdAt: 1599988574742
+displayName_zhCN: 3D Group - 通知
+description_zhCN: Unity游戏引擎的简单UI通知包

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598550470024
+displayName_zhCN: Tork
+description_zhCN: 车辆物理引擎

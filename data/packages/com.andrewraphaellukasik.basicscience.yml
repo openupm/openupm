@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1594089935142
+displayName_zhCN: 基础科学
+description_zhCN: 结构和语法，以帮助科学计算

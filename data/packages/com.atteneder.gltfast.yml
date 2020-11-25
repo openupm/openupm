@@ -14,3 +14,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1586730488884
+displayName_zhCN: glTFast
+description_zhCN: glTFast运行加载库

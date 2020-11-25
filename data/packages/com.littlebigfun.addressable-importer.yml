@@ -7,7 +7,9 @@ licenseName: MIT License
 # Package info.
 name: com.littlebigfun.addressable-importer
 displayName: Unity Addressable Importer
+displayName_zhCN: Unity可寻址资源导入器
 description: A simple rule based addressable asset importer.
+description_zhCN: 基于简单规则的Unity可寻址资源导入器
 
 # Add-ons.
 topics:

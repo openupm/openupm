@@ -2,7 +2,7 @@ name: at.innerspace.stylecopignoreutility
 displayName: StyleCop Ignore Utility
 description: >-
   A Unity Editor tool used to force StyleCop to ignore specified scripts as it
-  checks for style violations in our projects. 
+  checks for style violations in our projects.
 repoUrl: 'https://github.com/innerspacetrainings/unity-stylecop-ignoreutility'
 parentRepoUrl: 'https://github.com/redbluegames/unity-stylecop-ignoreutility'
 licenseSpdxId: MIT
@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1592230250889
+displayName_zhCN: StyleCop忽略工具
+description_zhCN: 用于强制StyleCop忽略指定脚本的Unity编辑器工具。

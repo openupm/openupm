@@ -15,3 +15,5 @@ image: >-
   https://github.com/sttz/unity-quicksearch-docs/raw/6e7751d4dc5412d095d852ba350a63b6c84cad83/Icons/Unknown.png
 readme: 'master:README.md'
 createdAt: 1589338192910
+displayName_zhCN: 快速搜索文档
+description_zhCN: 直接在Unity快速搜索中搜索Unity文档

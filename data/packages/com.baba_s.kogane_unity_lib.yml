@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591720009411
+displayName_zhCN: KoganeUnityLib
+description_zhCN: Unity的扩展方法

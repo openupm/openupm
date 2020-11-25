@@ -1,5 +1,5 @@
 name: com.ariasdk.unity-process-util
-displayName: 'unity-async-process utilities'
+displayName: unity-async-process utilities
 description: asynchronous cli process for unity.
 repoUrl: 'https://github.com/tk-aria/async-process'
 parentRepoUrl: null
@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604002638945
+displayName_zhCN: Unity-Async-Process Utilities
+description_zhCN: 统一的异步CLI进程。

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/GlitchEnzo/NuGetForUnity/master/screenshots/online.png'
+image: >-
+  https://raw.githubusercontent.com/GlitchEnzo/NuGetForUnity/master/screenshots/online.png
 readme: 'master:README.md'
 createdAt: 1593644876686
+displayName_zhCN: NuGet包管理器
+description_zhCN: 一个NuGet包管理器

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1600543903702
+displayName_zhCN: Play Asset Delivery的可寻址资产集成
+description_zhCN: 集成Android的Play Asset Delivery到Unity的可寻址资产系统

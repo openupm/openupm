@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598559352567
+displayName_zhCN: RestSharp.Unity
+description_zhCN: RestSharp的UPM软件包并带有额外的扩展

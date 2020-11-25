@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598559234562
+displayName_zhCN: Moq的UPM软件包
+description_zhCN: Moq的UPM软件包

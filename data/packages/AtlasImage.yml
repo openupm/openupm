@@ -14,6 +14,8 @@ hunter: JesseTG
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/12690315/39434547-d5f34956-4cd3-11e8-82b1-f7f2f7be953a.png'
+image: >-
+  https://user-images.githubusercontent.com/12690315/39434547-d5f34956-4cd3-11e8-82b1-f7f2f7be953a.png
 readme: 'develop:README.md'
 createdAt: 1589385874437
+description_zhCN: Atlasimage是uGUI的SpriteAtlas图形组件。此外还提供了Sprite选择器和边框编辑器。

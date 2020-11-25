@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:Packages/ca.tekly.logger/readme.md'
 createdAt: 1601229612335
+displayName_zhCN: Tekly Logger
+description_zhCN: Tekly日志

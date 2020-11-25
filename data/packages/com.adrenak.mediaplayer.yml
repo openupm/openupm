@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1598558057623
+displayName_zhCN: Unity媒体播放器
+description_zhCN: 标准化的媒体播放器接口

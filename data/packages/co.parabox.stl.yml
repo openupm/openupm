@@ -17,3 +17,5 @@ image: >-
   https://github.com/karl-/pb_Stl/raw/9c52e1467974eebfd4708aa19189b0bd83ae883b/stanford_dragon.png
 readme: 'master:README.md'
 createdAt: 1594572662234
+displayName_zhCN: STL
+description_zhCN: STL导入/导出器，支持ASCII和二进制格式。

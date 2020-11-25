@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595098092610
+displayName_zhCN: 烘焙注入
+description_zhCN: 烘培依赖注入

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602456055842
+displayName_zhCN: 3D Group - 本地化
+description_zhCN: Unity游戏引擎的简单本地化包

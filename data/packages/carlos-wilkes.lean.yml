@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/89b0be8b-6a35-4925-8244-730865a964c8.webp'
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/89b0be8b-6a35-4925-8244-730865a964c8.webp
 readme: 'master:README.md'
 createdAt: 1593277589440
+displayName_zhCN: 精益资源
+description_zhCN: '来自https://assetstore.unity.com/publishers/1513的免费资源'

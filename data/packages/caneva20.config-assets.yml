@@ -13,3 +13,5 @@ hunter: favoyang
 gitTagIgnore: ''
 image: null
 createdAt: 1581519384320
+displayName_zhCN: 配置资产
+description_zhCN: 用于创建和加载Unity项目的配置文件的轻量级解决方案
