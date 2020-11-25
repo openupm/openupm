@@ -8,6 +8,7 @@ const yaml = require("js-yaml");
 
 const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
+const writeFile = util.promisify(fs.writeFile);
 
 // Paths.
 const dataDir = path.resolve(__dirname, "../../data");
@@ -32,6 +33,29 @@ const loadPackage = async function(name) {
   } catch (e) {
     console.error(e);
     return null;
+  }
+};
+
+// Load raw package by name.
+const loadRawPackage = async function(name) {
+  try {
+    let absPath = path.resolve(packagesDir, name + ".yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8"));
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+};
+
+// Save raw package by name.
+const saveRawPackage = async function(name, obj) {
+  try {
+    let absPath = path.resolve(packagesDir, name + ".yml");
+    const content = yaml.safeDump(obj);
+    console.log(content);
+    await writeFile(absPath, content);
+  } catch (e) {
+    console.error(e);
   }
 };
 
@@ -161,9 +185,11 @@ module.exports = {
   getNamespace,
   loadTopics,
   loadPackage,
+  loadRawPackage,
   loadPackageSync,
   loadPackageNames,
   loadBuiltinPackageNames,
   loadBlockedScopes,
-  packageExists
+  packageExists,
+  saveRawPackage
 };

@@ -1163,6 +1163,23 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
+"@vitalets/google-translate-api@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@vitalets/google-translate-api/-/google-translate-api-4.0.0.tgz#e33d4e44ef75f2595a9f7179a6a0baed9b61cd3d"
+  integrity sha512-qFGQos1frg5u1JuIDI+Qbkau2a0COANbBvTJjmPjbKxQZEvO010fd/4x0ruMEeEMxf+096GiGd4d4hdYw0NLfw==
+  dependencies:
+    "@vitalets/google-translate-token" "^1.2.0"
+    configstore "^5.0.1"
+    got "^9.6.0"
+
+"@vitalets/google-translate-token@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@vitalets/google-translate-token/-/google-translate-token-1.2.0.tgz#a7581d15644e2a60027850c60e45efdc15646dda"
+  integrity sha512-7MXRjMIWTH8XdIWRWj9IUwgYnd+VB5/herOgxNemSRzIJ6oaIeAxOSe0htw5S+OSm/gvCcUz2gq3SNBO0TufDA==
+  dependencies:
+    configstore "^5.0.1"
+    got "^6.3.0"
+
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
@@ -5900,7 +5917,7 @@ good-listener@^1.2.2:
   dependencies:
     delegate "^3.1.2"
 
-got@^6.7.1:
+got@^6.3.0, got@^6.7.1:
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
   integrity sha1-JAzQV4WpoY5WHcG0S0HHY+8ejbA=
@@ -13287,10 +13304,9 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-flexsearch@^0.1.0:
+vuepress-plugin-flexsearch@openupm/vuepress-plugin-flexsearch#openupm:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-flexsearch/-/vuepress-plugin-flexsearch-0.1.0.tgz#2b8472de0b5c0804b09bb45ec7f789fb52bea895"
-  integrity sha512-lXQthnPoLNh2RHg1ZT4Acr/2/Kml0cMV+0t2E/n6flg03LgJ3nZAQYLdiUNR9RRFtGQR79+Ifl6T4yBIoGC0Ww==
+  resolved "https://codeload.github.com/openupm/vuepress-plugin-flexsearch/tar.gz/b3c977c62b440844ad16e3f127fa4ebb86baf368"
   dependencies:
     flexsearch "^0.6.32"
 

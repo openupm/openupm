@@ -149,7 +149,7 @@ const config = {
       {
         searchHotkeys: ["s", "/"],
         search_options: {
-          encode: "icase",
+          encode: OPENUPM_REGION == "cn" ? "cjk" : "icase",
           tokenize: "reverse",
           resolution: 9,
           doc: {
