@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591650846671
+displayName_zhCN: UniEnumUtils

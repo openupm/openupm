@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/80093877-40676180-85a0-11ea-86d1-0e80864bde81.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/80093877-40676180-85a0-11ea-86d1-0e80864bde81.png
 readme: 'master:README.md'
 createdAt: 1591664864940
+displayName_zhCN: UniTransformInspector
+description_zhCN: 将重置按钮添加到Transform检查器

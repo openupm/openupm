@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591649261742
+displayName_zhCN: UniStorage
+description_zhCN: 存储空间类

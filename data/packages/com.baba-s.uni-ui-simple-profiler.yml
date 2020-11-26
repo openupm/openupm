@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/87793197-e664f800-c87f-11ea-89e8-19af4510b4c7.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/87793197-e664f800-c87f-11ea-89e8-19af4510b4c7.gif
 readme: 'master:README.md'
 createdAt: 1595025130065
+displayName_zhCN: UniUISimpleProfiler
+description_zhCN: 快速测试FPS和GC

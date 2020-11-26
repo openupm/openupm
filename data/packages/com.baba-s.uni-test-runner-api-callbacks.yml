@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602026258725
+displayName_zhCN: UniTestRunnerApiCallbacks
+description_zhCN: 在Unity Test Runner结束时调用回调接口

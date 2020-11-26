@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79989232-97aafa80-84ea-11ea-8abe-d51f06f8f926.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79989232-97aafa80-84ea-11ea-8abe-d51f06f8f926.png
 readme: 'master:README.md'
 createdAt: 1591647081498
+displayName_zhCN: UniSpriteBorderSetupper
+description_zhCN: 可以从上下文菜单中设置Sprite的边框

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595007480909
+displayName_zhCN: UniStringStartsWithFast
+description_zhCN: 更高效的string.StartsWith、string.EndsWith实现

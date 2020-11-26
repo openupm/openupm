@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595088287670
+displayName_zhCN: UniMemoryChecker
+description_zhCN: 获得Unity和Mono的内存使用情况

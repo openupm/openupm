@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602010468767
+displayName_zhCN: UniRectTransformInternal
+description_zhCN: 允许访问RectRansform的内部函数

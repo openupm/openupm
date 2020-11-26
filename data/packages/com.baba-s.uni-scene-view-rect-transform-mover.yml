@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591651307120
+displayName_zhCN: UniSceneViewRectTransformMover
+description_zhCN: ，在选择UI对象时，显示在场景视图中在1像素单元中移动的按钮

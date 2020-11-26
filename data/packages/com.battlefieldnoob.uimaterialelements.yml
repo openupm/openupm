@@ -12,7 +12,9 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '0.2.62'
+minVersion: 0.2.62
 image: null
 readme: 'develop:README.md'
 createdAt: 1589210570625
+displayName_zhCN: UI Material元素
+description_zhCN: MaterialUI时一个UI库用于在Unity里制作符合Goolge官方material设计规范的UI

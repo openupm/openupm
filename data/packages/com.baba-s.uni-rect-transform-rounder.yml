@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591651366786
+displayName_zhCN: UniRectTransformRounder
+description_zhCN: RectRansform四舍五入功能

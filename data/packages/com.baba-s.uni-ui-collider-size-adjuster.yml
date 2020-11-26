@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591649590030
+displayName_zhCN: UniUIColliderSizeAdjuster
+description_zhCN: 在Unity按钮按下缩小时避免Collider被同步缩小

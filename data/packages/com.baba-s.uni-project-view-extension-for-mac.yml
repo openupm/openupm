@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591666413518
+displayName_zhCN: UniProjectViewExtensionForMac
+description_zhCN: 在Mac中的项目视图开头显示文件夹

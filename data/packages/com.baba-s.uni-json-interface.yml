@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591628978658
+displayName_zhCN: UniJsonInterface
+description_zhCN: Unity允许使用扩展方法调用JsonUtility.ToJson接口

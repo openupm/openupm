@@ -16,3 +16,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601490583963
+displayName_zhCN: UniSelectionUtils

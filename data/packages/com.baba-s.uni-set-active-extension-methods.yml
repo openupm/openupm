@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595253935741
+displayName_zhCN: UniSetActiveExtensionMethods
+description_zhCN: 一次激活多个GameObject的扩展方法

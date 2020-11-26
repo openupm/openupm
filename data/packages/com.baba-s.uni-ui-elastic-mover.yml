@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591651492035
+displayName_zhCN: UniElasticMover
+description_zhCN: Unity UI弹性反馈

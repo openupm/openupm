@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79988512-b3fa6780-84e9-11ea-8f71-fbe374307db0.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79988512-b3fa6780-84e9-11ea-8f71-fbe374307db0.png
 readme: 'master:README.md'
 createdAt: 1591672309102
+displayName_zhCN: UniTextMeshProRectVisualizer
+description_zhCN: 在Game试图上显示Text和TextMesh Pro的大小

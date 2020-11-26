@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591633533369
+displayName_zhCN: UniTapBlocker
+description_zhCN: タップをブロックするインスタンスを管理するクラス

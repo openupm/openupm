@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591666364596
+displayName_zhCN: UniSetTextInterface
+description_zhCN: 在设置UI文本时减少GC

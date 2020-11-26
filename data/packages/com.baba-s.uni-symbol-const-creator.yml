@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602514581646
+displayName_zhCN: UniSymbolConstCreator
+description_zhCN: 帮助生成常量的工具

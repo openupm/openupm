@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1602445811249
 displayName_zhCN: UniAssetFullPathMultipleCopyer
-description_zhCN: Unity编辑器扩展，允许在项目视图中复制资源的完整路径
+description_zhCN: 允许在项目视图中复制资源的完整路径

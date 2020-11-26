@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598306724662
+displayName_zhCN: UniRectTransformPosZScaleResetter
+description_zhCN: 重置RectRansform的位置Z和缩放的值

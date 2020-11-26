@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598310107119
+displayName_zhCN: UniVectorExtensionMethods
+description_zhCN: Vector2，Vector3类型的扩展方法

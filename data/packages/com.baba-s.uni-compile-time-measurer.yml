@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591666181474
 displayName_zhCN: UniCompileTimeMeasurer
-description_zhCN: Unity编辑器扩展来测量编译时间
+description_zhCN: 测量编译时间

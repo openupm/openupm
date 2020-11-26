@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591719657096
+displayName_zhCN: UniScriptEditorStarter
+description_zhCN: 将在打开Unity项目的同时自动启动代码编辑器（如Visual Studio或Rider）

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598147590793
+displayName_zhCN: UniOnlyOneInSceneAttribute
+description_zhCN: 确保该组件仅在场景中只有一个实例

@@ -14,5 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604002638945
-displayName_zhCN: Unity-Async-Process Utilities
-description_zhCN: 统一的异步CLI进程。
+displayName_zhCN: unity-async-process utilities
+description_zhCN: Unity异步CLI处理器

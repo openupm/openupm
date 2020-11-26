@@ -17,6 +17,17 @@ const translatePackages = async function(packageNames) {
       const rawPackage = await loadRawPackage(name);
       const meta = { ...rawPackage };
       let dirty = false;
+      if (rawPackage.displayName && rawPackage.displayName_zhCN) {
+        if (
+          rawPackage.displayName_zhCN.toLowerCase() ==
+            rawPackage.displayName.toLowerCase() ||
+          rawPackage.displayName_zhCN.toLowerCase() ==
+            rawPackage.displayName.toLowerCase() + "."
+        ) {
+          meta.displayName_zhCN = rawPackage.displayName;
+          dirty = true;
+        }
+      }
       if (rawPackage.displayName && !rawPackage.displayName_zhCN) {
         const res = await translate(rawPackage.displayName, { to: "zh-CN" });
         meta.displayName_zhCN = res.text;
@@ -28,7 +39,7 @@ const translatePackages = async function(packageNames) {
         dirty = true;
       }
       if (dirty) {
-        logger.info({ pkg: name }, "translate");
+        logger.info({ pkg: name }, "changed");
         await saveRawPackage(name, meta);
       }
     } catch (error) {

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595425027491
+displayName_zhCN: UniPlistDocumentWrapper
+description_zhCN: PlistDocument包装类

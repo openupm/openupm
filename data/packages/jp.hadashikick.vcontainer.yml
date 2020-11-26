@@ -17,3 +17,5 @@ image: >-
   https://github.com/hadashiA/VContainer/raw/a93c8aa1d9a84d211448744a180903bfa780b020/docs/screenshot_validate_button.png
 readme: 'master:README.md'
 createdAt: 1593740728465
+displayName_zhCN: VContainer
+description_zhCN: 快速、简洁，避免GC的依赖注入库，支持IL2CPP

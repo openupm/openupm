@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598357146177
+displayName_zhCN: UniFolderInspector
+description_zhCN: 将按钮添加到文件夹的检查器

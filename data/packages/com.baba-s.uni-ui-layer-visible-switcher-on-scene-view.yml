@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/90323905-af7b2280-dfa2-11ea-8548-6d6aa07133c5.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/90323905-af7b2280-dfa2-11ea-8548-6d6aa07133c5.gif
 readme: 'master:README.md'
 createdAt: 1597547629213
+displayName_zhCN: UniUILayerVisibleSwitcherOnSceneView
+description_zhCN: 添加一个按钮以在场景视图中显示UI层的开关

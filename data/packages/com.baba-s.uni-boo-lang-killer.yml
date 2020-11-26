@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591650529783
 displayName_zhCN: UniBooLangKiller
-description_zhCN: Unity编辑器扩展使Boo.Lang的代码完成无效
+description_zhCN: 使Boo.Lang的代码完成无效

@@ -19,3 +19,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1600428824545
+displayName_zhCN: 场景选择器
+description_zhCN: 快捷的选择场景的物体

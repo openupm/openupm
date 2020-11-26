@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591666578048
+displayName_zhCN: UniLogEntriesInternal
+description_zhCN: 允许调用控制台窗口的内部函数

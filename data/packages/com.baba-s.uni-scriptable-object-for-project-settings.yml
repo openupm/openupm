@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602514671488
+displayName_zhCN: UniScriptableObjectForProjectSettings
+description_zhCN: 将ScriptableObject添加到项目设置

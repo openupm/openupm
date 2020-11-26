@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79867733-c4dba800-8419-11ea-99e5-8adfd7d32540.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79867733-c4dba800-8419-11ea-99e5-8adfd7d32540.png
 readme: 'master:README.md'
 createdAt: 1591709014476
+displayName_zhCN: UniUIFlip
+description_zhCN: 可垂直和水平翻转uGUI对象的组件

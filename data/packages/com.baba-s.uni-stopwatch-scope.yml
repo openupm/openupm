@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591709389942
+displayName_zhCN: UniStopwatchScope
+description_zhCN: 计量时间的Scope

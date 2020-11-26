@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/81050795-95d63380-8efb-11ea-92c0-12ae2874f184.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/81050795-95d63380-8efb-11ea-92c0-12ae2874f184.gif
 readme: 'master:README.md'
 createdAt: 1591649504704
+displayName_zhCN: UniNotNullChecker
+description_zhCN: 如果检查器内含有不满足额NotNull约束则禁止进入Play模式

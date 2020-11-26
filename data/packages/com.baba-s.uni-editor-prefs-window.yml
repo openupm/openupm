@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591666508185
 displayName_zhCN: UniEditorPrefsWindow
-description_zhCN: Unity编辑器扩展，可以查看EditorPrefs的键值
+description_zhCN: 查看EditorPrefs的键值

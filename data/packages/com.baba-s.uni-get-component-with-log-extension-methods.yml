@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593354605588
+displayName_zhCN: UniGetComponentWithLogExtensionMethods
+description_zhCN: 获取GetComponent时打印日志

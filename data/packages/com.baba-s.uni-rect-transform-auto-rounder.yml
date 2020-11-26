@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602514899407
+displayName_zhCN: UniRectTransformAutoRounder
+description_zhCN: 在保存场景时将RectTransform的AnchoredPosition3D或SizeDelta的值取整

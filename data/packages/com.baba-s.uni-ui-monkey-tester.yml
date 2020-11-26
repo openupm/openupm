@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594654705065
+displayName_zhCN: UniUIMonkeyTester
+description_zhCN: Unity UI的Monkey Test

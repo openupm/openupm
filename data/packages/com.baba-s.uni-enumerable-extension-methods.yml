@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598326284761
+displayName_zhCN: UniEnumerableExtensionMethods
+description_zhCN: Unity Enumerable类的扩展方法

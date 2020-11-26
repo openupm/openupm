@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591666456853
 displayName_zhCN: UniAnimationCurveCopyPasteDrawer
-description_zhCN: Unity编辑器扩展，支持使用Inspector复制和粘贴曲线动画
+description_zhCN: 支持使用Inspector复制和粘贴曲线动画

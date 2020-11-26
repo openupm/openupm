@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594654669818
+displayName_zhCN: UniUIFastDefaultShader
+description_zhCN: Unity UI快速Shader

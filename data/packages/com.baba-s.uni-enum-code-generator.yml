@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591640114883
+displayName_zhCN: UniEnumCodeGenerator
+description_zhCN: 生成枚举代码

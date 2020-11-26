@@ -16,4 +16,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1594908708066
 displayName_zhCN: UniAsyncAwaitWithLogExtensionMethods
-description_zhCN: Unity扩展方法，可以在async await时输出带时间的日志
+description_zhCN: 可以在async await时输出带时间的日志

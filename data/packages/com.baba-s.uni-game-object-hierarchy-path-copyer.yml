@@ -15,3 +15,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591639334265
+displayName_zhCN: UniGameObjectHierarchyPathCopyer

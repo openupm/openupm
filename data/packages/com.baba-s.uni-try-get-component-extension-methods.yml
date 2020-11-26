@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594928608596
+displayName_zhCN: UniTryGetComponentExtensionMethods
+description_zhCN: TryGetComponent扩展方法

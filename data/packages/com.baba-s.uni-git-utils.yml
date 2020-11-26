@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591638095379
+displayName_zhCN: UniGitUtils
+description_zhCN: 获取Git分支名称，提交Hash等信息

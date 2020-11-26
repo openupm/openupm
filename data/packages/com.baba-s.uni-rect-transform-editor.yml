@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/80092616-0ac17900-859e-11ea-85f5-3c4b25ee75dc.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/80092616-0ac17900-859e-11ea-85f5-3c4b25ee75dc.png
 readme: 'master:README.md'
 createdAt: 1591672021991
+displayName_zhCN: UniRectTransformEditor
+description_zhCN: 为RectRansform提供额外的功能扩展

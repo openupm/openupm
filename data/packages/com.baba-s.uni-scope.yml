@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595007393244
+displayName_zhCN: UniScope
+description_zhCN: 支持C# using语法的实用Scope

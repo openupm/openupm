@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591709526401
+displayName_zhCN: UniGCCollectionCountScope
+description_zhCN: Unity类来记录GC的次数

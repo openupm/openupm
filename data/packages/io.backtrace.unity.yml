@@ -14,3 +14,5 @@ image: >-
   https://github.com/backtrace-labs/backtrace-unity/raw/ba94d5a2b6adf35e839a2e83f025e7c339d022aa/Documentation~/images/client-setup.PNG
 readme: 'master:README.md'
 createdAt: 1588904783641
+displayName_zhCN: Backtrace
+description_zhCN: 优秀的错误报告工具

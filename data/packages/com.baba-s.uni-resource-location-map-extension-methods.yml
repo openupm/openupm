@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602445504302
+displayName_zhCN: UniResourceLocationMapExtensionMethods
+description_zhCN: Unity可寻址资源的ResourceLocationMap类扩展方法

@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/95323778-aab75880-08d9-11eb-888b-12c2017d34dd.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/95323778-aab75880-08d9-11eb-888b-12c2017d34dd.png
 readme: 'master:README.md'
 createdAt: 1602514636611
+displayName_zhCN: UniScriptableObjectForPreferences
+description_zhCN: 将ScriptableObject添加到偏好菜单

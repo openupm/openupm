@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79825992-80c6b400-83d5-11ea-88fc-f43b92b60b94.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79825992-80c6b400-83d5-11ea-88fc-f43b92b60b94.png
 readme: 'master:README.md'
 createdAt: 1591673098820
+displayName_zhCN: UniEditorWindowTitleChanger
+description_zhCN: 更改Unity编辑器的标题

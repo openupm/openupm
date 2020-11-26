@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591651098902
+displayName_zhCN: UniSpriteAtlasReferencer
+description_zhCN: 引用Spriteatlas类

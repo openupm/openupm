@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591719770803
+displayName_zhCN: UniPackageAssetDeleter
+description_zhCN: 删除通过.unitypackage包添加的资源

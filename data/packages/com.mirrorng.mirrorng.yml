@@ -11,3 +11,5 @@ hunter: favoyang
 gitTagIgnore: '-master$'
 createdAt: 1577985628000
 image: https://i.imgur.com/ikP9eYs.png
+displayName_zhCN: MirrorNG
+description_zhCN: 由社区维护的代替UNET Networking System的方案

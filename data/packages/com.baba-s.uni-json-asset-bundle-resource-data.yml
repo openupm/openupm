@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602441497905
+displayName_zhCN: UniJsonAssetBundleResourceData
+description_zhCN: Unity一个类，允许您以JSON格式的可寻址中输出AssetBundleresource信息

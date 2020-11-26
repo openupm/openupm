@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595092411865
+displayName_zhCN: UniForceReserializeAssetsMenu
+description_zhCN: 将强制重新序列化添加到菜单中

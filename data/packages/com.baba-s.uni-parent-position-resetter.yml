@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/87784699-c1698880-c871-11ea-9867-8510265584e6.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/87784699-c1698880-c871-11ea-9867-8510265584e6.png
 readme: 'master:README.md'
 createdAt: 1595007268779
+displayName_zhCN: UniParentPositionResetter
+description_zhCN: 重置父对象的位置

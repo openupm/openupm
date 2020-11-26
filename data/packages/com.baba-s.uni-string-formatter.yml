@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591651039704
+displayName_zhCN: UniStringFormatter
+description_zhCN: string.Format时减少GC开销

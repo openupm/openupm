@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594908827484
+displayName_zhCN: UniTaskWithLogExtensionMethods
+description_zhCN: 带日志功能的Task方法

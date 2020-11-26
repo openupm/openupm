@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/87840349-3c668980-c8da-11ea-8f6b-eb615a8b2bce.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/87840349-3c668980-c8da-11ea-8f6b-eb615a8b2bce.gif
 readme: 'master:README.md'
 createdAt: 1595088391914
+displayName_zhCN: UniUIDebugText
+description_zhCN: Unity UI调试文字

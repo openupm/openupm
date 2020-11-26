@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598310183735
+displayName_zhCN: UniGenericExtensionMethods
+description_zhCN: Unity通用扩展方法

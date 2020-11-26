@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602000499989
+displayName_zhCN: UniJsonTestRunnerApi
+description_zhCN: 将TestRunnerApi信息转换为JSON

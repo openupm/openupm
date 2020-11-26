@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591719720064
+displayName_zhCN: UniGameViewScaleFixer
+description_zhCN: 将游戏视图比例修复到1

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591629018310
+displayName_zhCN: UniMultiDictionary
+description_zhCN: 支持一对多关系的字典

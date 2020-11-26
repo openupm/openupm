@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594572191738
+displayName_zhCN: UniGameObjectProcessor
+description_zhCN: 处理所有场景和所有Prefabz中的GameObject

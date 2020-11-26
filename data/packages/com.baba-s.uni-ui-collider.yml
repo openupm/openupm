@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/80112530-29cf0380-85bc-11ea-9be3-0af31e51dc94.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/80112530-29cf0380-85bc-11ea-9be3-0af31e51dc94.png
 readme: 'master:README.md'
 createdAt: 1591649677314
+displayName_zhCN: UniUICollider
+description_zhCN: 帮助实现透明的按钮

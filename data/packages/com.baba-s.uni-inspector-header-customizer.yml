@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79826545-04cd6b80-83d7-11ea-8dd0-46e639764d78.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79826545-04cd6b80-83d7-11ea-8dd0-46e639764d78.png
 readme: 'master:README.md'
 createdAt: 1591673164284
+displayName_zhCN: UniInspectorHeaderCustomizer
+description_zhCN: 将实用按钮添加到检查器顶部

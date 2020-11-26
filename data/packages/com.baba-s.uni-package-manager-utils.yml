@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595007573395
+displayName_zhCN: UniPackageManagerUtils
+description_zhCN: UPM包管理工具

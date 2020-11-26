@@ -15,3 +15,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591639604254
+displayName_zhCN: UniHierarchyRaycastTargetButton

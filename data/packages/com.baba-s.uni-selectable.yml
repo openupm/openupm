@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591647007453
+displayName_zhCN: UniSelectable
+description_zhCN: Unity类在更改值时调用回调接口

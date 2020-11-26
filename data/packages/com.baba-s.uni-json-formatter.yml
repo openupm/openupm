@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593195775692
+displayName_zhCN: UniJsonFormatter

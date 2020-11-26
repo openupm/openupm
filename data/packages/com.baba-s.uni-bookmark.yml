@@ -15,4 +15,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1597547557321
 displayName_zhCN: UniBookmark
-description_zhCN: Unity编辑器扩展，可以添加资源标签
+description_zhCN: 添加资源标签

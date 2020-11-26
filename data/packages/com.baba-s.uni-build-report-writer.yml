@@ -16,4 +16,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1594517588843
 displayName_zhCN: UniBuildReportWriter
-description_zhCN: Unity编辑器扩展，在Build开始时以JSON格式保存BuildReport
+description_zhCN: 在Build开始时以JSON格式保存BuildReport

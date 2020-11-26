@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591708067469
 displayName_zhCN: UniApplicationPathWindow
-description_zhCN: Unity编辑器扩展，检查通过Application.DataPath可获取的路径内容
+description_zhCN: 检查通过Application.DataPath可获取的路径内容

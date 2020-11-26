@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79988166-4817ff00-84e9-11ea-8194-74bd3857640f.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79988166-4817ff00-84e9-11ea-8194-74bd3857640f.gif
 readme: 'master:README.md'
 createdAt: 1591673040756
+displayName_zhCN: UniSceneViewCameraAligner
+description_zhCN: 将场景位置和场景视图相机的角度同步

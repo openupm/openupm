@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/79827012-2e3ac700-83d8-11ea-81ad-a5e7246c4cd4.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827012-2e3ac700-83d8-11ea-81ad-a5e7246c4cd4.png
 readme: 'master:README.md'
 createdAt: 1591578380018
+displayName_zhCN: UniSceneViewIconHider
+description_zhCN: 可以隐藏所有场景视图图标

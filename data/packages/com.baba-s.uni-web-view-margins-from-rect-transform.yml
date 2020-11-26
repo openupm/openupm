@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591715517519
+displayName_zhCN: UniWebViewMarginsFromRectTransform
+description_zhCN: 将Unity-WebView调整位置到指定的RectTranform

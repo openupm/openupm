@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/81059029-9de99f80-8f0a-11ea-9cf2-0525c53d2cfd.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/81059029-9de99f80-8f0a-11ea-9cf2-0525c53d2cfd.png
 readme: 'master:README.md'
 createdAt: 1591664941959
+displayName_zhCN: UniMissingScriptChecker
+description_zhCN: 如果存在缺失脚本，则禁止执行Play按钮

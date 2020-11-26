@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/94357436-dd8c7000-00d3-11eb-9bd1-3f4686ae85a8.png'
+image: >-
+  https://user-images.githubusercontent.com/6134875/94357436-dd8c7000-00d3-11eb-9bd1-3f4686ae85a8.png
 readme: 'master:README.md'
 createdAt: 1601326590777
+displayName_zhCN: UniPlayButtonRed
+description_zhCN: Unity在Play模式下按钮为红色

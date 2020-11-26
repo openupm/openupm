@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591650987891
+displayName_zhCN: UniTextMeshProExtensionMethods
+description_zhCN: Unity管理TMP_Text类的扩展方法

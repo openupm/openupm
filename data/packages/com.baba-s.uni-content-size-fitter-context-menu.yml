@@ -19,4 +19,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591709103856
 displayName_zhCN: UniContentSizeFitterContextMenu
-description_zhCN: Unity编辑器扩展，控制ContentSizeFitter的FitMode
+description_zhCN: 控制ContentSizeFitter的FitMode
