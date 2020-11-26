@@ -1,0 +1,16 @@
+name: com.ms.fileroller
+displayName: ''
+description: null
+repoUrl: 'https://github.com/wlgys8/FileRoller'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: wlgys8
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1606368829395
