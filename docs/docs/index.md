@@ -5,7 +5,7 @@ showFooter: false
 ---
 # Introduction
 
-OpenUPM is a service for hosting and building open source UPM (Unity Package Manager) packages. It's composed of two parts: a managed UPM registry and automatic build pipelines. The intention is to create a universal platform to discover, share and distribute open-source UPM packages.
+OpenUPM is a service for hosting and building open-source UPM (Unity Package Manager) packages. OpenUPM provides a managed UPM registry and automatic build pipelines. The intention is to create a universal platform to discover, share, and distribute open-source UPM packages.
 
 ::: warning DISCLAIMER
 OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
@@ -15,11 +15,11 @@ OpenUPM is an open-source service, not an official service provided by Unity Tec
 
 ### Scope Registry and Command-Line Interface
 
-Unity supports [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
+Unity supports the [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
 
-However, the downside of the scoped registry is that you need [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) to make it work. That's not a problem when work with a single namespace, but can be really challenge to manage a public registry with various packages and namespaces. Custom package dependencies make the issue worse, thinking about that package-a depends on package-b, while package-b depends on package-c. All three namespaces should be added to the scope field.
+The downside of the scoped registry is that you need to [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) of the `manifest.json` file to make it work. It's not a problem when working with a single namespace. But it's a challenge to manage a public registry with various namespaces. The dependency chain makes the issue worse. For example, the package-a depends on b, and b depends on c. It's a headache for a human to resolve all these dependencies to fill the scope field manually.
 
-To solve the issue, as the first step, a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) is created to maintain the project manifest file. You can add, remove, search, view package(s) in a terminal app, like Bash for Mac/Linux, or Git-Bash, CMD, and PowerShell for Windows.
+To remove the pain to install a 3rd-party UPM package, we create a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) to maintain the project manifest file. It can add, remove, and search packages in a terminal app, like Bash, or Git-Bash, CMD, and PowerShell. When Unity detects the change of the manifest file, it will resolve it and install or remove packages for you. If you are unfamiliar with the command-line, you can still use other installation options available on the package detail page.
 
 ```
 +-----+   update   +---------------+   resolve   +-----+
@@ -27,9 +27,7 @@ To solve the issue, as the first step, a command-line tool [openupm-cli](https:/
 +-----+            +---------------+             +-----+
 ```
 
-::: tip Not a fan of command-line tool?
-If you are unfamiliar with the command-line, you can still use other installation options available on the package page.
-:::
+An quick example to use the command-line tool.
 
 ```sh
 # Install openupm-cli
@@ -64,15 +62,15 @@ OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/maste
 
 ## Regions
 
-For users who need to use OpenUPM services in China mainland, we suggest you switch to the [China region](https://openupm.cn), which provided the localized website and a mirror registry server at https://package.openupm.cn. The mirror registry synced with the global region hourly.
+For users who need to use OpenUPM services in China mainland, we suggest you switch to the [China region](https://openupm.cn), which provided the localized website and a mirror registry server at `https://package.openupm.cn`. The mirror registry synced with the global region every hour.
 
 ## Why Not ...?
 
 ### Unity Asset Store
 
-[Unity asset store](https://assetstore.unity.com/) is the official solution for publishing software SDKs, asset packs and services, offering both paid and free content. Since Unity 2019.3, developers can download the installed assets directly from the UPM window. However assets are installed into the Asset folder, the old fashion way is designed for managing assets. Lacking the dependency management make it not good enough for managing libraries and tools. Unity has a progressive way to encourage it's large contents to convert to UPM format. But it takes years to achieve that.
+[Unity Asset Store](https://assetstore.unity.com/) is the official solution for publishing software, assets, and services, offering both paid and free content. However, assets are installed into the Asset folder. The old fashion way is good for managing assets, but it lacks dependency management for libraries. Unity has a progressive way to encourage its large content to convert to the UPM format. But it takes time.
 
-Unlike the Unity asset store, OpenUPM is focusing on open-source UPM packages from day one. The open-source Unity community is not very strong at the moment, but growing fast, and will eventually play an important role in Unity development. We thank that the Unity asset store and OpenUPM will continue growing and benefiting each other.
+Unlike the Unity asset store, OpenUPM is focusing on the open-source from day one, and our open-source community is growing fast. Both the Unity Asset Store and OpenUPM will continue growing and inspiring each other.
 
 ### Other 3rd-party Registries
 
