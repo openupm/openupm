@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1593542680097
+displayName_zhCN: 移动端振动工具
+description_zhCN: 支持Android和iOS的移动端自定义振动工具

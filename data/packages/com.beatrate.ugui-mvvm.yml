@@ -17,3 +17,5 @@ image: >-
   https://camo.githubusercontent.com/2f5782ac35e1d3aba4cb3e7e03c1a22aeb0af966/687474703a2f2f692e696d6775722e636f6d2f735658677749522e706e67
 readme: 'master:README.md'
 createdAt: 1589321086895
+displayName_zhCN: uGUI MVVM
+description_zhCN: Unity3D uGUI MVVM数据绑定框架，通过标准的IXChanged接口

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1605033972289
+displayName_zhCN: Responsible 响应
+description_zhCN: Unity的响应式异步自动化测试工具

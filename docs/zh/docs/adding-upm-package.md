@@ -67,13 +67,13 @@ image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
 imageFit: cover
 # 自述路径
 readme: 'master:README.md'
-# 软件包猎人的GitHub用户名
+# 软件包猎手的GitHub用户名
 hunter: author
 ```
 
 ## 使用软件包提交表单
 
-软件包猎人可以使用[软件包提交表单](/packages/add/)来提交软件包的YAML文件。该表单将指导你填写所需的信息，生成YAML文件，然后在浏览器中生成合并请求（Pull Request）并提交到GitHub。
+软件包猎手可以使用[软件包提交表单](/packages/add/)来提交软件包的YAML文件。该表单将指导你填写所需的信息，生成YAML文件，然后在浏览器中生成合并请求（Pull Request）并提交到GitHub。
 
 [![软件包提交表单](../../docs/images/package-add-form.png)](/packages/add/)
 

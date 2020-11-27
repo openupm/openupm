@@ -13,3 +13,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604431537758
+displayName_zhCN: CMDollyCart时间轴助手
+description_zhCN: CM Dolly Cart的自定义时间轴

@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:.github/README.md'
 createdAt: 1588473574036
+displayName_zhCN: Deform 变形
+description_zhCN: 全功能变相系统

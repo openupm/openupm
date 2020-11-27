@@ -15,3 +15,5 @@ minVersion: 0.3.0
 image: null
 readme: 'master:README.md'
 createdAt: 1593817707058
+displayName_zhCN: BeauData
+description_zhCN: Unity3d的对象序列化和反序列化库

@@ -13,13 +13,13 @@ OpenUPM is an open-source service, not an official service provided by Unity Tec
 
 ## How It Works
 
-### Scope Registry and Command-Line Interface
+### Scoped Registry and Command-Line Interface
 
 Unity supports the [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) that allowing developers to setup 3rd-party registries to host custom packages. OpenUPM provides a public UPM registry at `https://package.openupm.com`, and a group of services and tools to support it.
 
-The downside of the scoped registry is that you need to [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) of the `manifest.json` file to make it work. It's not a problem when working with a single namespace. But it's a challenge to manage a public registry with various namespaces. The dependency chain makes the issue worse. For example, the package-a depends on b, and b depends on c. It's a headache for a human to resolve all these dependencies to fill the scope field manually.
+The downside of the scoped registry is that you need to [maintain the scope field](https://docs.unity3d.com/Manual/upm-manifestPrj.html) of the `manifest.json` file to make it work. It's not a problem when working with a single namespace. But it's a challenge to work with a public registry with various namespaces. The dependency chain makes the issue worse. For example, the package-a depends on b, and b depends on c. It's a headache for a human to resolve all these dependencies to fill the scope field manually.
 
-To remove the pain to install a 3rd-party UPM package, we create a command-line tool [openupm-cli](https://github.com/openupm/openupm-cli) to maintain the project manifest file. It can add, remove, and search packages in a terminal app, like Bash, or Git-Bash, CMD, and PowerShell. When Unity detects the change of the manifest file, it will resolve it and install or remove packages for you. If you are unfamiliar with the command-line, you can still use other installation options available on the package detail page.
+To remove the pain to install a 3rd-party package, we create a command-line tool called [openupm-cli](https://github.com/openupm/openupm-cli) to maintain the manifest file. It can add, remove, and search packages in a terminal app, like Bash, Git-Bash, CMD, or PowerShell. When Unity detects the change of the manifest file, it will resolve it and install or remove packages for you.
 
 ```
 +-----+   update   +---------------+   resolve   +-----+
@@ -27,38 +27,13 @@ To remove the pain to install a 3rd-party UPM package, we create a command-line 
 +-----+            +---------------+             +-----+
 ```
 
-An quick example to use the command-line tool.
+Learn how to use the command-line tool at [Getting Started with CLI](./getting-started.md), or visit [OpenUPM-CLI Readme](https://github.com/openupm/openupm-cli#openupm-cli) for references. For more information about the Unity editor integration, please follow [#10](https://github.com/openupm/openupm/issues/10).
 
-```sh
-# Install openupm-cli
-$ npm install -g openupm-cli
-# OR yarn global add openupm-cli
-
-# Enter your unity project folder
-$ cd YOUR_UNITY_PROJECT_FOLDER
-
-# Search a package
-$ openupm search addressable-importer
-┌───────────────────────────────────────┬─────────┬───────────┬────────────┐
-│ Name                                  │ Version │ Author    │ Date       │
-├───────────────────────────────────────┼─────────┼───────────┼────────────┤
-│ com.littlebigfun.addressable-importer │ 0.4.1   │ Favo Yang │ 2019-11-25 │
-│ Unity Addressable Importer            │         │           │            │
-└───────────────────────────────────────┴─────────┴───────────┴────────────┘
-
-# Install package
-$ openupm add com.littlebigfun.addressable-importer
-added: com.littlebigfun.addressable-importer@0.4.1
-manifest updated, please open unity project to apply changes
-```
-
-Please visit [openupm-cli readme](https://github.com/openupm/openupm-cli#openupm-cli) for more usages.
-
-For the seamlessly Unity editor integration, please follow [#10](https://github.com/openupm/openupm/issues/10).
+If you are unfamiliar with the command-line, you can still use other installation options available on the package detail page.
 
 ### Automatic Build Pipelines
 
-OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open source UPM repositories hosting on GitHub. The build pipelines monitoring the list, detecting valid Git tags and publishing new package releases. The continuous publishing approach is different with the traditional package registry that requires the package owner/maintainer to submit publish releases manually. Though the CI tool delivers a similar continuous publishing experience, while the way OpenUPM works enabling not only packager owners/maintainers, but any developers with a GitHub account to contribute new UPM packages to the platform. The later role is called the [package hunter](/contributors/) to help the platform grow faster.
+OpenUPM maintains a [curated list](https://github.com/openupm/openupm/tree/master/data/packages) of open-source UPM repositories hosting on GitHub. Our build pipelines watch the list regularly to detect versioned Git tags, bundle the asset, then publish it to the OpenUPM registry as a package. This continuous publishing approach is different from the traditional package registry that requires the package owner/maintainer to submit the new release. It enables any developer with a GitHub account to contribute new UPM packages to the platform. The role is called [Package Hunter](/contributors/) to help the community grow faster.
 
 ## Regions
 
