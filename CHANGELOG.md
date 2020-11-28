@@ -1,3 +1,12 @@
+# [1.43.0](https://github.com/openupm/openupm/compare/1.42.2...1.43.0) (2020-11-28)
+
+
+### Features
+
+* **website:** add Chinese related fields to the package add form (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([abfbb7a](https://github.com/openupm/openupm/commit/abfbb7a605e0613f81a7614dc56d2a906e51221b))
+* **website:** add report abuse button (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([eb34b83](https://github.com/openupm/openupm/commit/eb34b831c0a744a2ed6a436bc3d36e4e47a73c02))
+* **website:** serve Chinese readme (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([9eb1e1f](https://github.com/openupm/openupm/commit/9eb1e1f6faa6d3442ef25c8c773bd7e23bca1720))
+
 ## [1.42.2](https://github.com/openupm/openupm/compare/1.42.1...1.42.2) (2020-11-28)
 
 
