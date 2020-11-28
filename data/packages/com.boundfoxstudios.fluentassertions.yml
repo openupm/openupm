@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1599599256181
+displayName_zhCN: FluentAssertions
+description_zhCN: FluentAssertions

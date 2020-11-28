@@ -18,3 +18,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594136768751
+displayName_zhCN: Sand 2D导航
+description_zhCN: Sand 2D导航是一个简单而高效的网格导航解决方案

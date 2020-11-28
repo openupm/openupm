@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1590025379298
+displayName_zhCN: 角色动作框架
+description_zhCN: CAF是开发Hack-and-Slash或角色动作游戏的框架

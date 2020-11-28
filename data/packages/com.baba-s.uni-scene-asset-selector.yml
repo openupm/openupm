@@ -16,4 +16,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591646817796
 displayName_zhCN: UniSceneAssetSelector
-description_zhCN: 在项目视图中选择当前资产
+description_zhCN: 在项目视图中选择当前资源

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594164113674
+displayName_zhCN: Sand Socket Unity
+description_zhCN: Sand Unity是用于Sand的Unity3D客户端

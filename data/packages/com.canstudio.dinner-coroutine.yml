@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1604742583405
+displayName_zhCN: DinnerCoroutine
+description_zhCN: 编辑coroutine，播放模式coroutine，可控的coroutine，并行coroutine ...全部在一行代码中。

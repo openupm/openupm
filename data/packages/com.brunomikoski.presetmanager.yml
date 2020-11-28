@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: >-
   https://github.com/brunomikoski/PresetManager/raw/a021ff37b9f419f8b930330ac0b7d9b4d3346d91/Documentation~/general-usage.gif
 createdAt: 1586896057078
+displayName_zhCN: 预设管理器
+description_zhCN: 适用于文件夹和对象的预设

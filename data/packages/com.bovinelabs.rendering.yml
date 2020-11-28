@@ -13,3 +13,4 @@ minVersion: ''
 image: null
 readme: 'specialized:README.md'
 createdAt: 1589385241248
+displayName_zhCN: BovineLabs.Rendering

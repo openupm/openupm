@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603682658949
+displayName_zhCN: Burst.Delegates
+description_zhCN: Burst兼容的ValueFuncs和ValueActions

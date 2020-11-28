@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592176724262
+displayName_zhCN: BovineLabs.Entities
+description_zhCN: Unity ECS的扩展，包含扩展、系统和任务。
