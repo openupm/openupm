@@ -45,10 +45,14 @@ router.get("/:name", async function(req, res) {
   invalidTags = invalidTags.map(x => x.tag);
   // Get readme
   const readmeHtml = await PackageExtra.getReadmeHtml(packageName);
+  const readmeHtml_zhCN = await PackageExtra.getReadmeHtml(
+    packageName,
+    "zh-CN"
+  );
   // Get package scopes
   const scopes = await PackageExtra.getScopes(packageName);
   // Return as JSON
-  let data = { releases, invalidTags, readmeHtml, scopes };
+  let data = { releases, invalidTags, readmeHtml, scopes, readmeHtml_zhCN };
   res.json(data);
 });
 

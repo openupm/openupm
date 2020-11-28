@@ -367,21 +367,37 @@ const cacheAvatarImageForGithubUser = async function(username, force) {
  */
 const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
+  const langs = [
+    { lang: "en-US", readmePathKey: "readme" },
+    { lang: "zh-CN", readmePathKey: "readme_zhCN" }
+  ];
+  for (const item of langs) {
+    const readmePath = pkg[item.readmePathKey];
+    if (readmePath)
+      await _fetchReadmeForLang(pkg, packageName, item.lang, readmePath);
+  }
+};
+
+const _fetchReadmeForLang = async function(pkg, packageName, lang, readmePath) {
+  logger.info({ pkg: packageName, lang, readmePath }, "_fetchReadmeForLang");
   try {
     const [owner, name] = pkg.repo.split("/");
     const data = await createGqlClient().request(gitFileContentGql, {
       owner,
       name,
-      tree: pkg.readme
+      tree: readmePath
     });
     let text = "";
     if (data.repository.tree && data.repository.tree.text)
       text = data.repository.tree.text;
-    await PackageExtra.setReadme(packageName, text);
+    await PackageExtra.setReadme(packageName, text, lang);
     const html = await renderMarkdownToHtml({ pkg, markdown: text });
-    await PackageExtra.setReadmeHtml(packageName, html);
+    await PackageExtra.setReadmeHtml(packageName, html, lang);
   } catch (error) {
-    logger.error({ err: error, pkg: packageName }, "fetch readme error");
+    logger.error(
+      { err: error, pkg: packageName, lang, readmePath },
+      "_fetchReadmeForLang"
+    );
   }
 };
 

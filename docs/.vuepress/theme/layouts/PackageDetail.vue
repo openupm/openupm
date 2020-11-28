@@ -259,7 +259,11 @@ export default {
       return "";
     },
     readmeHtml() {
-      return this.$data.packageInfo.readmeHtml;
+      const html =
+        this.$site.themeConfig.region == "cn"
+          ? this.$data.packageInfo.readmeHtml_zhCN
+          : this.$data.packageInfo.readmeHtml;
+      return html || this.$data.packageInfo.readmeHtml;
     },
     shouldShowMetaSubpageEntry() {
       return this.$mq == "xs" || this.$mq == "sm" || this.$mq == "md";

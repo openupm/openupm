@@ -21,6 +21,8 @@ const propKeys = {
   parentStars: "pstars",
   readme: "readme",
   readmeHtml: "readmeHtml",
+  readme_zhCN: "readme_zhCN",
+  readmeHtml_zhCN: "readmeHtml_zhCN",
   scopes: "scopes",
   stars: "stars",
   unityVersion: "unity",
@@ -85,21 +87,25 @@ const getParentStars = async function(packageName) {
   return parseInt(text);
 };
 
-const setReadme = async function(packageName, readme) {
-  await setValue(packageName, propKeys.readme, readme);
+const setReadme = async function(packageName, readme, lang) {
+  const key = lang == "zh-CN" ? propKeys.readme_zhCN : propKeys.readme;
+  await setValue(packageName, key, readme);
 };
 
-const getReadme = async function(packageName) {
-  const text = await getValue(packageName, propKeys.readme);
+const getReadme = async function(packageName, lang) {
+  const key = lang == "zh-CN" ? propKeys.readme_zhCN : propKeys.readme;
+  const text = await getValue(packageName, key);
   return text;
 };
 
-const setReadmeHtml = async function(packageName, readmeHtml) {
-  await setValue(packageName, propKeys.readmeHtml, readmeHtml);
+const setReadmeHtml = async function(packageName, readmeHtml, lang) {
+  const key = lang == "zh-CN" ? propKeys.readmeHtml_zhCN : propKeys.readmeHtml;
+  await setValue(packageName, key, readmeHtml);
 };
 
-const getReadmeHtml = async function(packageName) {
-  const text = await getValue(packageName, propKeys.readmeHtml);
+const getReadmeHtml = async function(packageName, lang) {
+  const key = lang == "zh-CN" ? propKeys.readmeHtml_zhCN : propKeys.readmeHtml;
+  const text = await getValue(packageName, key);
   return text;
 };
 
