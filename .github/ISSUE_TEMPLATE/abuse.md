@@ -1,3 +1,11 @@
+---
+name: Report malware or abuse
+about: Report malware, abuse or violation of Unity terms
+
+---
+
+## Report malware or abuse
+
 Please fill out the form to report malware or abuse in an OpenUPM package to the OpenUPM admin team.
 
 The OpenUPM admin team will review the report and act accordingly. In cases where malware or abuse is confirmed, the package will be removed and the namespace will be blocked.
