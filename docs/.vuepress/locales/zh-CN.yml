@@ -156,6 +156,8 @@ release-reason-private: 该软件包是私有的
 release-reason-service-unavailable: 服务器暂时无响应
 release-reason-unauthorized: 服务器未授权
 release-reason-version-conflict: 该版本已存在（请检查package.json的版本）
+report-abuse: 举报
+report-malware-or-abuse: 举报恶意软件或滥用
 repository: 代码仓库
 repository-placeholder: 所有者/项目名称
 show-more: 更多

@@ -137,6 +137,8 @@ release-reason-private: the package is explicitly private
 release-reason-service-unavailable: server unavailable
 release-reason-unauthorized: server unauthorized
 release-reason-version-conflict: the version already exists (check package.json version)
+report-abuse: Report
+report-malware-or-abuse: Report malware or abuse
 repository: Repository
 repository-placeholder: owner/project-name
 show-more: Show more

@@ -91,14 +91,17 @@
           <span>{{ version || "-" }}</span>
         </section>
         <section class="col-6">
-          <h2>{{ $t("unity-version") }}</h2>
-          <span>{{ unityVersion || "-" }}</span>
-        </section>
-        <section class="col-6 col-sm-12">
           <h2>{{ $t("published") }}</h2>
           <span>{{ publishedAt || "-" }}</span>
         </section>
-        <section class="col-6 hide-sm"></section>
+        <section class="col-6">
+          <h2>{{ $t("unity-version") }}</h2>
+          <span>{{ unityVersion || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>{{ $t("report-abuse") }}</h2>
+          <span><NavLink :item="reportLink"/></span>
+        </section>
         <section class="col-12">
           <h2>
             {{ $t("badge") }} <small>({{ $t("click-to-copy") }})</small>
@@ -245,6 +248,13 @@ export default {
       return {
         link: this.pkg.repoUrl,
         text: this.pkg.repo
+      };
+    },
+    reportLink() {
+      return {
+        link:
+          "https://github.com/openupm/openupm/issues/new?title=Report%20package%20abuse&template=abuse.md",
+        text: this.$t("report-malware-or-abuse")
       };
     },
     unityVersion() {
