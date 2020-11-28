@@ -139,6 +139,9 @@
                       value=""
                       >{{ form.readme.prompt }}</option
                     >
+                    <option v-if="readmePaths.length" value="">{{
+                      $t("field-none")
+                    }}</option>
                     <option
                       v-for="path in readmePaths"
                       :key="path"
@@ -163,7 +166,7 @@
                     :placeholder="$t('git-tag-prefix-placeholder')"
                   />
                   <span
-                    class="form-input-hint is-error"
+                    class="form-input-hint"
                     v-html="$t('git-tag-prefix-desc-safe')"
                   >
                   </span>
@@ -181,7 +184,7 @@
                     type="text"
                     :placeholder="$t('git-tag-ignore-pattern-placeholder')"
                   />
-                  <span class="form-input-hint is-error">
+                  <span class="form-input-hint">
                     {{ $t("git-tag-ignore-pattern-desc") }}
                     <br />
                     <code v-if="form.gitTagIgnore.value">
@@ -216,7 +219,7 @@
                     class="form-input"
                     type="text"
                   />
-                  <span class="form-input-hint is-error">
+                  <span class="form-input-hint">
                     {{ $t("license-name-desc") }}
                   </span>
                 </div>
@@ -252,7 +255,7 @@
                   }"
                 >
                   <label class="form-label">{{ $t("featured-image") }}</label>
-                  <div class="form-input-hint is-error">
+                  <div class="form-input-hint">
                     {{ $t("featured-image-desc") }}
                     <a
                       href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
@@ -293,6 +296,100 @@
                       type="text"
                       :placeholder="$t('discovered-by-placeholder')"
                     />
+                  </div>
+                </div>
+                <div
+                  class="col-12 form-zone"
+                  :class="{
+                    hide: hideOtherFields || !form.branch.value
+                  }"
+                >
+                  <div class="container">
+                    <div class="columns">
+                      <div class="column col-12">
+                        <h5>
+                          {{ $t("china-region-info") }}
+                        </h5>
+                        <span class="form-input-hint">
+                          {{ $t("china-region-desc") }}
+                        </span>
+                      </div>
+                      <div id="readme_zhCN" class="form-group column col-12">
+                        <label class="form-label">
+                          {{ $t("path-of-readme-zhcn") }}
+                        </label>
+                        <select
+                          v-model="form.readme_zhCN.value"
+                          class="form-select"
+                        >
+                          <option
+                            v-if="!readmePaths.length"
+                            disabled
+                            selected
+                            value=""
+                            >{{ form.readme.prompt }}</option
+                          >
+                          <option v-if="readmePaths.length" value="">{{
+                            $t("field-none")
+                          }}</option>
+                          <option
+                            v-for="path in readmePaths"
+                            :key="path"
+                            :value="path"
+                          >
+                            {{ path }}</option
+                          >
+                        </select>
+                        <span
+                          v-if="form.readme_zhCN.error"
+                          class="form-input-hint"
+                        >
+                          {{ form.readme_zhCN.error }}
+                        </span>
+                      </div>
+                      <div
+                        class="form-group column col-12"
+                        :class="{
+                          'has-error': form.displayName_zhCN.error
+                        }"
+                      >
+                        <label class="form-label">{{
+                          $t("display-name-zhcn")
+                        }}</label>
+                        <input
+                          v-model="form.displayName_zhCN.value"
+                          class="form-input"
+                          type="text"
+                        />
+                        <span
+                          v-if="packageInfo.displayName"
+                          class="form-input-hint"
+                        >
+                          {{ $t("english-text") }} {{ packageInfo.displayName }}
+                        </span>
+                      </div>
+                      <div
+                        class="form-group column col-12"
+                        :class="{
+                          'has-error': form.description_zhCN.error
+                        }"
+                      >
+                        <label class="form-label">{{
+                          $t("description-zhcn")
+                        }}</label>
+                        <input
+                          v-model="form.description_zhCN.value"
+                          class="form-input"
+                          type="text"
+                        />
+                        <span
+                          v-if="packageInfo.description"
+                          class="form-input-hint"
+                        >
+                          {{ $t("english-text") }} {{ packageInfo.description }}
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -483,6 +580,14 @@ export default {
           error: "",
           value: ""
         },
+        displayName_zhCN: {
+          error: "",
+          value: ""
+        },
+        description_zhCN: {
+          error: "",
+          value: ""
+        },
         gitTagPrefix: {
           error: "",
           value: ""
@@ -508,6 +613,10 @@ export default {
           value: ""
         },
         readme: {
+          error: "",
+          value: null
+        },
+        readme_zhCN: {
           error: "",
           value: null
         },
@@ -656,6 +765,11 @@ export default {
         readme: form.readme.value
           ? form.branch.value + ":" + form.readme.value
           : "master:README.md",
+        readme_zhCN: form.readme_zhCN.value
+          ? form.branch.value + ":" + form.readme_zhCN.value
+          : "",
+        displayName_zhCN: form.displayName_zhCN.value,
+        description_zhCN: form.description_zhCN.value,
         createdAt: new Date().getTime()
       };
       return yaml.safeDump(content);
@@ -939,7 +1053,17 @@ export default {
     .tile
       font-size $fontSizeMD
 
+    .form-group:last-child
+      margin-bottom .4rem
+
     .timeline
       .timeline-item
         margin-bottom 0
+
+    .form-zone
+      margin .4rem
+      background #eee
+
+      h5
+        margin-top 0.4rem
 </style>

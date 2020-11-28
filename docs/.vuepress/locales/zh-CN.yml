@@ -16,6 +16,8 @@ badge: 徽章
 build: 构建
 build-pipelines: 构建管线
 camera: 摄像机
+china-region-desc: 如果您不熟悉中文翻译，请略过。
+china-region-info: 中国区信息
 click-to-copy: 点击复制
 code-generation: 代码生成
 code-of-conduct: 行为准则
@@ -30,17 +32,21 @@ data-management: 数据管理
 debugging-and-logging: 调试和日志
 dependencies: 依赖
 deps-missing: 请搜索并手动安装这个缺失的依赖包。
+description-zhcn: 包描述（中文）
 discord: Discord
 discovered-by: 软件包猎人
 discovered-by-placeholder: GitHub用户名
+display-name-zhcn: 包名称（中文）
 donate: 赞助
 dots-and-ecs: DOTS & ECS
 edit-package: 编辑此软件包
 editor-enhancement: 增强编辑器
+english-text: 英文文本：
 experimental: 实验性
 featured-image: 主图片
 featured-image-desc: 注意：如果代码仓库包含一个
 featured-image-desc-2: ，会使用该图片。
+field-none: 无
 fill-the-package-form: 填写软件包表单
 fill-the-package-form-desc: 请提供此UPM软件包的基本信息，或参考
 footer-copyright: 版权所有 © 2019-2020 Favo Yang
@@ -111,6 +117,7 @@ parallelism-and-concurrency: 并行和同步
 particles-and-effects: 粒子和效果
 path-of-package-json: 选择package.json
 path-of-readme: 选择README.md
+path-of-readme-zhcn: README.md的路径（中文）
 pending: 待处理
 physics: 物理
 popularity: 最流行
