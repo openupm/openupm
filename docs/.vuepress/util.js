@@ -147,15 +147,29 @@ const _packageUtils = {
     if (!extra) {
       extra = {};
     }
+    // Join package extra information
     const result = {
       ...pkg,
       ...extra
     };
+    // Prepare localized text
+    if (OPENUPM_REGION == "cn") {
+      if (pkg.displayName_zhCN) {
+        result.displayName = pkg.displayName_zhCN;
+        result.link.text = pkg.displayName_zhCN;
+      }
+      if (pkg.description_zhCN) result.description = pkg.description_zhCN;
+    }
+    // Prepare the sort name
     result.sortName = pkg.link.text;
+    // Prepare the time fields
     result.createdAt = result.createdAt || 0;
     result.updatedAt = result.time || 0;
+    // Override the image with the full URL
     result.image = _packageUtils.getPackageImageUrl(result.imageFilename);
+    // Prepare the version field
     result.version = result.ver || undefined;
+    // Prepare the pending state
     result.pending = !result.version;
     return result;
   }

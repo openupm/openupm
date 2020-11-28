@@ -17,20 +17,6 @@ const {
 const readFile = util.promisify(fs.readFile);
 const pluginData = {};
 
-const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
-
-const getLocaleDisplayName = function(pkg) {
-  if (OPENUPM_REGION == "cn")
-    return pkg.displayName_zhCN || pkg.displayName || pkg.name;
-  return pkg.displayName || pkg.name;
-};
-
-const getLocaleDescription = function(pkg) {
-  if (OPENUPM_REGION == "cn")
-    return pkg.description_zhCN || pkg.description || "";
-  return pkg.description || "";
-};
-
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
   const plugin = {
@@ -72,14 +58,13 @@ module.exports = function(options, context) {
           .map(loadPackageSync)
           .filter(x => x)
           .map(pkg => {
-            const item = omit(pkg, ["displayName_zhCN", "description_zhCN"]);
-            if (item.displayName) item.displayName = getLocaleDisplayName(pkg);
-            if (item.description) item.description = getLocaleDescription(pkg);
-            item.link = {
-              link: `/packages/${pkg.name}/`,
-              text: item.displayName || item.name
+            return {
+              ...pkg,
+              link: {
+                link: `/packages/${pkg.name}/`,
+                text: pkg.displayName || pkg.name
+              }
             };
-            return item;
           })
           // Sort by name
           .sort(function(a, b) {

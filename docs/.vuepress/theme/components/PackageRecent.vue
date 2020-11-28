@@ -49,11 +49,7 @@ export default {
   computed: {
     packages() {
       return this.$store.getters.recentPackages.map(x => {
-        const item = {
-          ...x
-        };
-        item.image = util.getPackageImageUrl(item.imageFilename);
-        return item;
+        return util.joinPackageExtra(x, {});
       });
     },
     preferHorizontalLayout() {
