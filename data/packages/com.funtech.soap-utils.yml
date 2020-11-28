@@ -14,3 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605239457484
+readme_zhCN: 'master:README.md'
+displayName_zhCN: Soap's Utils
+description_zhCN: 常用的一些小功能
