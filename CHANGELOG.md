@@ -1,3 +1,10 @@
+## [1.42.2](https://github.com/openupm/openupm/compare/1.42.1...1.42.2) (2020-11-28)
+
+
+### Bug Fixes
+
+* **website:** show localized texts on the recently updated packages component. ([bd9ecb2](https://github.com/openupm/openupm/commit/bd9ecb2d12a9d0e7544996bd357f037cb644867a))
+
 ## [1.42.1](https://github.com/openupm/openupm/compare/1.42.0...1.42.1) (2020-11-25)
 
 
