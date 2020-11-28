@@ -191,5 +191,6 @@ module.exports = {
   loadBuiltinPackageNames,
   loadBlockedScopes,
   packageExists,
+  packagesDir,
   saveRawPackage
 };

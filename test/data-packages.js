@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
+const fs = require("fs");
 const assert = require("assert");
 const should = require("should");
 const rewire = require("rewire");
@@ -10,7 +11,8 @@ const {
   loadPackageNames,
   loadPackageSync,
   loadTopics,
-  loadBlockedScopes
+  loadBlockedScopes,
+  packagesDir
 } = require("../app/utils/package");
 
 describe("data/packages", async function() {
@@ -19,7 +21,7 @@ describe("data/packages", async function() {
   const blockedScopes = await loadBlockedScopes();
   describe("verify packages", function() {
     for (const packageName of packageNames) {
-      it("verify " + packageName, async function() {
+      it("verify format: " + packageName, async function() {
         const pkg = await loadPackageSync(packageName);
         // Check required
         should.exist(pkg, "yaml format should be valid");
@@ -56,6 +58,14 @@ describe("data/packages", async function() {
             `image field should be a valid URL.`
           );
         }
+      });
+    }
+  });
+  describe("verify packages extention name", function() {
+    const files = fs.readdirSync(packagesDir);
+    for (const file of files) {
+      it("verify extention name: " + file, function() {
+        file.should.endWith(".yml");
       });
     }
   });
