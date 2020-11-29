@@ -33,7 +33,10 @@ const _urlUtils = {
   githubSearchCodeApiUrl: "https://api.github.com/search/code",
 
   // Package installer Site URL
-  packageInstallerSiteUrl: "https://package-installer.glitch.me",
+  packageInstallerSiteUrl:
+    OPENUPM_REGION == "cn"
+      ? `https://installer.${BASE_DOMAIN}`
+      : "https://package-installer.glitch.me",
 
   // Avatar URL
   getAvatarImageUrl: function(username, size) {
