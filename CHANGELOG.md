@@ -1,3 +1,10 @@
+## [1.43.2](https://github.com/openupm/openupm/compare/1.43.1...1.43.2) (2020-11-29)
+
+
+### Bug Fixes
+
+* **website:** use internal installer endpoint for region cn ([6a7a91c](https://github.com/openupm/openupm/commit/6a7a91c5db2d0de957de87607c46bd87ebb15dd1))
+
 ## [1.43.1](https://github.com/openupm/openupm/compare/1.43.0...1.43.1) (2020-11-29)
 
 
