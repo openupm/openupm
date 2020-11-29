@@ -1,6 +1,5 @@
 // OpenUPM Package Plugin.
 const { countBy, flatMap, groupBy, sortBy } = require("lodash/collection");
-const { omit } = require("lodash/object");
 const { toPairs } = require("lodash/object");
 const fs = require("fs");
 const path = require("path");
@@ -16,6 +15,12 @@ const {
 
 const readFile = util.promisify(fs.readFile);
 const pluginData = {};
+
+const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
+const getLocaleDisplayName = function(pkg) {
+  if (OPENUPM_REGION == "cn") return pkg.displayName_zhCN || pkg.displayName;
+  return pkg.displayName;
+};
 
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options, context) {
@@ -177,11 +182,12 @@ module.exports = function(options, context) {
     async genDetailPages(data) {
       let pages = [];
       for (let pkg of data.packages) {
+        const displayName = getLocaleDisplayName(pkg);
         let frontmatter = {
           layout: "PackageDetail",
           showFooter: false,
-          title: pkg.displayName
-            ? `📦 ${pkg.displayName} - ${pkg.name}`
+          title: displayName
+            ? `📦 ${displayName} - ${pkg.name}`
             : `📦 ${pkg.name}`,
           package: pkg,
           relatedPackages: data.packageByNamespace[getNamespace(pkg.name)]
