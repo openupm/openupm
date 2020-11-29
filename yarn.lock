@@ -13306,7 +13306,7 @@ vuepress-plugin-container@^2.0.2:
 
 vuepress-plugin-flexsearch@openupm/vuepress-plugin-flexsearch#openupm:
   version "0.1.0"
-  resolved "https://codeload.github.com/openupm/vuepress-plugin-flexsearch/tar.gz/b3c977c62b440844ad16e3f127fa4ebb86baf368"
+  resolved "https://codeload.github.com/openupm/vuepress-plugin-flexsearch/tar.gz/1770a00b8734c985e097f84e11beba309b2271b9"
   dependencies:
     flexsearch "^0.6.32"
 
