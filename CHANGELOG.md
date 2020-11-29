@@ -1,3 +1,11 @@
+## [1.43.1](https://github.com/openupm/openupm/compare/1.43.0...1.43.1) (2020-11-29)
+
+
+### Bug Fixes
+
+* **pipelines:** should validate the package yml file extention name in CI (close: [#1665](https://github.com/openupm/openupm/issues/1665)) [skip ci] ([89845ee](https://github.com/openupm/openupm/commit/89845ee10f6c5a375e382647158dcc9377fdf7c0))
+* **website:** localized package detail page title for region CN (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([7cc8def](https://github.com/openupm/openupm/commit/7cc8def30ae3cb37aaa4e036994c6a8d7e7903d1))
+
 # [1.43.0](https://github.com/openupm/openupm/compare/1.42.2...1.43.0) (2020-11-28)
 
 
