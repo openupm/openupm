@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'feature/create-package:README.md'
 createdAt: 1593740019680
+displayName_zhCN: Spriter2UnityDXs
+description_zhCN: 将Spriter .scml文件转换为Unity prefabs

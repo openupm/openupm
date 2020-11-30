@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594683878246
+displayName_zhCN: Duck工具
+description_zhCN: Unity工具集合

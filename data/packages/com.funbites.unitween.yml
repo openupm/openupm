@@ -17,3 +17,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/sampaiodias/UniTween/master/Images/Logo.png'
 readme: 'master:README.md'
 createdAt: 1592144511912
+displayName_zhCN: Funbites UniTween
+description_zhCN: UniTween是一个Unity的Tween框架，使程序员和艺术家能够在工作流程中创造几乎任何类型的Tween。

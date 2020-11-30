@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582568959058
+displayName_zhCN: Eflatun.EventBus
+description_zhCN: 通用事件总线用于Unity和Extenject

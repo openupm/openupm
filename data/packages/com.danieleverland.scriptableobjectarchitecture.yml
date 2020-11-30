@@ -11,3 +11,5 @@ topics:
   - utilities
 hunter: DanielEverland
 createdAt: 1577449259000
+displayName_zhCN: ScriptableObject 构架
+description_zhCN: 使ScriptableObject作为Unity的基础构架

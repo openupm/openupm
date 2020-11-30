@@ -14,6 +14,10 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605200733810
+<<<<<<< Updated upstream
 readme_zhCN: 'master:README.md'
 displayName_zhCN: Soap's Internet
+=======
+displayName_zhCN: 肥皂的互联网
+>>>>>>> Stashed changes
 description_zhCN: 自己常用的网路功能

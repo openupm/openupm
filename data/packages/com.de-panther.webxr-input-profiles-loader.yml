@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'main:Packages/webxr-input-profiles-loader/README.md'
 createdAt: 1605990607365
+displayName_zhCN: WebXR输入配置文件加载程序
+description_zhCN: 'WebXR输入配置文件加载程。基于https://immersive-web.github.io/webxr-input-profiles/'

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/fairygui/FairyGUI-unity/master/images/2015-11-10_001445.png'
+image: >-
+  https://raw.githubusercontent.com/fairygui/FairyGUI-unity/master/images/2015-11-10_001445.png
 readme: 'upm:README.md'
 createdAt: 1605548502883
+displayName_zhCN: FairyGUI
+description_zhCN: 一个灵活的UI框架，用于Unity

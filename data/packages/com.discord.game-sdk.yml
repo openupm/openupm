@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589211470681
+displayName_zhCN: Discord Game SDK
+description_zhCN:  Discord Game SDK的UPM兼容包

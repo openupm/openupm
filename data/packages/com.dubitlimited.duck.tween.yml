@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'development:README.md'
 createdAt: 1594683368411
+displayName_zhCN: Duck Tween
+description_zhCN: Unity的Tween动画库

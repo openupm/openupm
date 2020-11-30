@@ -14,3 +14,5 @@ minVersion: 2.2.0
 image: null
 readme: 'master:README.md'
 createdAt: 1596448561788
+displayName_zhCN: ZString
+description_zhCN: 用于.NET Core和Unity的零内存分配字符串。

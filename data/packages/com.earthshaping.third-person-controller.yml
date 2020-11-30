@@ -10,6 +10,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/dbrizov/dbrizov.github.io/master/images/project-images/character-controller/naughty_character_jump_moving.gif'
+image: >-
+  https://raw.githubusercontent.com/dbrizov/dbrizov.github.io/master/images/project-images/character-controller/naughty_character_jump_moving.gif
 readme: 'master:README.md'
 createdAt: 1589322210905
+displayName_zhCN: 第三人称控制器
+description_zhCN: Unity第三人称控制器（传统管线）

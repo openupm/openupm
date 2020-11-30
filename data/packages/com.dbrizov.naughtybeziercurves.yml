@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1588954882175
+displayName_zhCN: NaughtyBezierCurves 曲线
+description_zhCN: Bezier曲线的GameObject

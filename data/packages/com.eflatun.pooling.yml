@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582569280349
+displayName_zhCN: Eflatun.Pooling
+description_zhCN: Unity对象池库

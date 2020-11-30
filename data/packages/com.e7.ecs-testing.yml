@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588962696827
+displayName_zhCN: ECS测试
+description_zhCN: 帮助编写Unity Entity测试的工具。

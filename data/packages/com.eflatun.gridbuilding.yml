@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582569094792
+displayName_zhCN: Eflatun.GridBuilding
+description_zhCN: 网格构建实用程序

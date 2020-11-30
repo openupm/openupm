@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594682994799
+displayName_zhCN: 鸭子FSM
+description_zhCN: 轻量级的有限状态机实现，支持定制和条件转换

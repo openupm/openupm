@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594683528677
+displayName_zhCN: Duck Waypoints
+description_zhCN: 为Unity构建的Waypoints系统

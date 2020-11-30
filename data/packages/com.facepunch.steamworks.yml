@@ -16,3 +16,5 @@ minVersion: 2.3.3
 image: null
 readme: 'upm:README.md'
 createdAt: 1593736331498
+displayName_zhCN: Facepunch Steamworks
+description_zhCN: 另一个Steamworks实现

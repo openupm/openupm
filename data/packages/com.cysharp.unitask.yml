@@ -10,5 +10,8 @@ topics:
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://user-images.githubusercontent.com/46207/83527073-4434bf00-a522-11ea-86e9-3b3975b26266.png'
+image: >-
+  https://user-images.githubusercontent.com/46207/83527073-4434bf00-a522-11ea-86e9-3b3975b26266.png
 createdAt: 1583851473495
+displayName_zhCN: UniTask
+description_zhCN: 提供有效的async/await的Unity集成

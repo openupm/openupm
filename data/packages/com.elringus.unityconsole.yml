@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'package:LICENSE.md'
 createdAt: 1591988577744
+displayName_zhCN: Unity控制台
+description_zhCN: Unity游戏引擎的开发控制台

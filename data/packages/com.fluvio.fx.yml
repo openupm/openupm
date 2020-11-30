@@ -15,3 +15,5 @@ image: >-
   https://github.com/fluviofx/fluviofx/raw/dba80833cdcd7922bc5d305f76b146167bfce6ad/Documentation~/images/logo.png
 readme: 'master:README.md'
 createdAt: 1589845239906
+displayName_zhCN: FluvioFX
+description_zhCN: Unity的流体力学VFX图像

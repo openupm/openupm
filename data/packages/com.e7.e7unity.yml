@@ -16,3 +16,5 @@ image: >-
   https://github.com/5argon/E7Unity/raw/b930e9c9289e54103ba244c887cb9c31648a6608/ButtonExceed/preview.gif
 readme: 'master:README.md'
 createdAt: 1588954367521
+displayName_zhCN: E7Unity
+description_zhCN: 常见的Unity资源，Exceed7实验项目。

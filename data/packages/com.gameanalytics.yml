@@ -15,3 +15,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585667764197
+displayName_zhCN: GameAnalytics SDK
+description_zhCN: Gameanalytics SDK用于跟踪Unity事件。

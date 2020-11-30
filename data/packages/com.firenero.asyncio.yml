@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm-convert:README.md'
 createdAt: 1602513548258
+displayName_zhCN: Async IO
+description_zhCN: 用于处理异步文件系统操作的.NET库

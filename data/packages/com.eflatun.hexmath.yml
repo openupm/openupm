@@ -9,3 +9,5 @@ topics:
   - utilities
 hunter: favoyang
 createdAt: 1576332000000
+displayName_zhCN: Eflatun.HexMath
+description_zhCN: 用于六边形网格计算的库。

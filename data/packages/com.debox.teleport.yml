@@ -7,8 +7,10 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - network
-hunter: 'debox-dev'
+hunter: debox-dev
 gitTagPrefix: v
 gitTagIgnore: ''
 image: null
 createdAt: 1586691886252
+displayName_zhCN: 传送网络
+description_zhCN: 快速，轻量级，纯C#的Unity实时游戏网络框架

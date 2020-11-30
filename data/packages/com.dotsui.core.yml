@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:com.dotsui.core/README.md'
 createdAt: 1589337984939
+displayName_zhCN: DotsUI 核心
+description_zhCN: Unity引擎DOTS UI解决方案

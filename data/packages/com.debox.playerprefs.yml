@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591639184952
+displayName_zhCN: DeBox PlayerPrefs
+description_zhCN: Unity PlayerPrefs扩展

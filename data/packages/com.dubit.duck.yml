@@ -24,3 +24,5 @@ image: >-
   https://github.com/dubit/duck/raw/5b4ef405b2daa99a5627287f3c91237f11fc7e7c/Editor/MenuItems/Icons/play_button_off.png
 readme: 'lts_package:README.md'
 createdAt: 1594684467077
+displayName_zhCN: Dubit Unity组件库（Duck）
+description_zhCN: Dubit Unity组件库

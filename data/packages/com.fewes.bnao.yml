@@ -14,3 +14,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/Fewes/BNAO/master/Example.png'
 readme: 'master:README.md'
 createdAt: 1589327889951
+displayName_zhCN: BNAO
+description_zhCN: 基于GPU的Bent Normal和Ambient Occlusion烘培

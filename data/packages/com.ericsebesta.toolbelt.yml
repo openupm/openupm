@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:readme.md'
 createdAt: 1595268538629
+displayName_zhCN: Unity Toolbelt
+description_zhCN: 一个Unity工具的开源包。

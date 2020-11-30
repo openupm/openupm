@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582569560281
+displayName_zhCN: Eflatun.RandomUtils
+description_zhCN: 随机数生成（RNG）的Unity的实用程序。
