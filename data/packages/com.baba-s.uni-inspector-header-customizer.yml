@@ -16,4 +16,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591673164284
 displayName_zhCN: UniInspectorHeaderCustomizer
-description_zhCN: 将实用按钮添加到检查器顶部
+description_zhCN: 将实用按钮添加到inspector顶部

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589727180517
+displayName_zhCN: Gameframe.SQLite
+description_zhCN: Unity的SQLite包

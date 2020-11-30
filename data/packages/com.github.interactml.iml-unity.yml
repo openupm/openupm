@@ -17,3 +17,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/Interactml/site/master/images/title_web.png'
 readme: 'master:README.md'
 createdAt: 1590589527831
+displayName_zhCN: InteractML
+description_zhCN: 这是Unity3D的交互式机器学习框架。它允许开发人员在运行游戏中使用交互式机器学习的能力。

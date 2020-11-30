@@ -15,3 +15,5 @@ image: >-
   https://github.com/coryleach/UnityProcgen/raw/cc4414cc7d31542515e77a893fcd6240f19fb251/Images/Sample_00.PNG
 readme: 'master:README.md'
 createdAt: 1591557640385
+displayName_zhCN: Gameframe.Procgen
+description_zhCN: 用于Unity的程序生成代码库

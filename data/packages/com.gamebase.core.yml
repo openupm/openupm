@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591732198887
+displayName_zhCN: Gamebase-核心
+description_zhCN: Gamebase核心模块

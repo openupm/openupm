@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591562963386
+displayName_zhCN: Gameframe.Packages
+description_zhCN: 用于在GitHub中创建Unity软件包的包！就像这个一样！

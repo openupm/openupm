@@ -1,6 +1,6 @@
 name: VertexTextureFetchForuGUI
-displayName: 'VertexTextureFetchForUGUI'
-description: 'Compare method to generate parameter texture.'
+displayName: VertexTextureFetchForUGUI
+description: Compare method to generate parameter texture.
 repoUrl: 'https://github.com/mob-sakai/VertexTextureFetchForUGUI'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589385761089
+displayName_zhCN: vertextexturefetchfetui.
+description_zhCN: 比较方法生成参数纹理。

@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591649504704
 displayName_zhCN: UniNotNullChecker
-description_zhCN: 如果检查器内含有不满足额NotNull约束则禁止进入Play模式
+description_zhCN: 如果inspector内含有不满足额NotNull约束则禁止进入Play模式

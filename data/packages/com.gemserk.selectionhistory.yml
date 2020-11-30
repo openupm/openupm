@@ -13,3 +13,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587228791622
+displayName_zhCN: Gemserk的选择历史
+description_zhCN: 一个简单的Unity历史操作窗口。

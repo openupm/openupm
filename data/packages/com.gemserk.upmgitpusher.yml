@@ -9,8 +9,10 @@ topics:
   - package-management
   - utilities
 hunter: acoppes
-gitTagPrefix: 
+gitTagPrefix: null
 gitTagIgnore: ''
-image:  >-
+image: >-
   https://github.com/acoppes/upmgitpusher/blob/master/images/example.gif?raw=true
 createdAt: 1587847192972
+displayName_zhCN: UnityPackageManagerGitPusher
+description_zhCN: Unity包管理器的Git Publish插件

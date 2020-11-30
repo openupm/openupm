@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591558253065
+displayName_zhCN: Gameframe.Pooling对象池
+description_zhCN: Unity的简单对象池系统

@@ -1,5 +1,5 @@
 name: SceneHistory
-displayName: 'SceneHistory-Unity'
+displayName: SceneHistory-Unity
 description: Sceneの読み込み履歴を保持し、履歴からSceneを読み込める機能
 repoUrl: 'https://github.com/takupisu/SceneHistory-Unity'
 parentRepoUrl: null
@@ -15,3 +15,5 @@ image: >-
   https://github.com/takupisu/SceneHistory-Unity/raw/90b320a351047426e93e07bf6512b332df0816ba/demo.gif
 readme: 'master:README.md'
 createdAt: 1592077308131
+displayName_zhCN: SceneHistory-Unity
+description_zhCN: 保持场景读取历史记录的功能，可以从历史记录读取场景

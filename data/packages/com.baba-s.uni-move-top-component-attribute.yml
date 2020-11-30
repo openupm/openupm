@@ -15,4 +15,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1598306194085
 displayName_zhCN: UniMoveTopComponentAttribute
-description_zhCN: 指定组件在检查器中的顺序
+description_zhCN: 指定组件在inspector中的顺序

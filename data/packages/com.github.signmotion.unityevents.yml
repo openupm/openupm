@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592154002256
+displayName_zhCN: Unity Events和Jobs
+description_zhCN: 在全局和GameObject两个层面上支持强类型的事件系统。

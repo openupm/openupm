@@ -15,3 +15,5 @@ minVersion: ''
 image: 'https://hsto.org/files/bda/d1e/005/bdad1e005c6c4651aa24b21925f8fda1.png'
 readme: 'master:README.md'
 createdAt: 1595107700590
+displayName_zhCN: Light2D
+description_zhCN: 基于2D的Unity3D的照明系统

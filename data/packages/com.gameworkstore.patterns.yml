@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604056174500
+displayName_zhCN: GameWorkstore模式
+description_zhCN: Unity项目或C#项目的模式库

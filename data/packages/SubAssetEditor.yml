@@ -12,6 +12,8 @@ hunter: JesseTG
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/12690315/30265492-32755304-9717-11e7-8bca-f7a472a56be8.png'
+image: >-
+  https://user-images.githubusercontent.com/12690315/30265492-32755304-9717-11e7-8bca-f7a472a56be8.png
 readme: 'master:README.md'
 createdAt: 1589385659109
+description_zhCN: Unity项目中的SubAsset编辑器。

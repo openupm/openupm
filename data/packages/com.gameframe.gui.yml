@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591557604270
+displayName_zhCN: Gameframe.GUI
+description_zhCN: UGUI面板用于导航、动画等

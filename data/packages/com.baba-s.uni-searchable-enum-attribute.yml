@@ -16,4 +16,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591666231406
 displayName_zhCN: UnisearchableNumAttribute.
-description_zhCN: 在检查器中搜索枚举
+description_zhCN: 在inspector中搜索枚举

@@ -14,3 +14,5 @@ image: >-
   https://github.com/Siccity/xNode/raw/8d64843d427d7390527c31400770096f5e0e9a79/Scripts/Editor/Resources/xnode_node.png
 readme: 'master:README.md'
 createdAt: 1588904937598
+displayName_zhCN: xNode
+description_zhCN: 在Unity内查看和编辑节点图

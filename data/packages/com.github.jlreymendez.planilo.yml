@@ -11,9 +11,11 @@ topics:
   - ai
   - editor-enhancement
 hunter: jlreymendez
-gitTagPrefix: 'upm'
+gitTagPrefix: upm
 gitTagIgnore: ''
-minVersion: 'v0.2.0-preview'
+minVersion: v0.2.0-preview
 image: null
 readme: 'master:README.md'
 createdAt: 1598392569964
+displayName_zhCN: planilo
+description_zhCN: 基于xNode的工具，用于设计AI图形等行为树和有限状态机

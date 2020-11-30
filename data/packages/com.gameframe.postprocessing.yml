@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591557882356
+displayName_zhCN: Gameframe.PostProcessing后处理
+description_zhCN: Unity后处理堆栈的其他效果。

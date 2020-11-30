@@ -16,4 +16,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591664864940
 displayName_zhCN: UniTransformInspector
-description_zhCN: 将重置按钮添加到Transform检查器
+description_zhCN: 将重置按钮添加到Transforminspector

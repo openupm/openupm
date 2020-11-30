@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/chromee/Unity3D-LogCat-extension/upm/screenshots%7E/InitialWindow.png'
+image: >-
+  https://raw.githubusercontent.com/chromee/Unity3D-LogCat-extension/upm/screenshots%7E/InitialWindow.png
 readme: 'upm:README.md'
 createdAt: 1592082527674
+displayName_zhCN: Unity3D LogCat 扩展
+description_zhCN: Logcat（Android日志记录）的Unity3D扩展

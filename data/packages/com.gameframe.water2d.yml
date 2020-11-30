@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591558177710
+displayName_zhCN: Gameframe.Water2D
+description_zhCN: 2D飞溅弹性水面效果

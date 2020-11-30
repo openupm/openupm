@@ -14,3 +14,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/adrenak/usfb/master/Images/sfb_win.jpg'
 readme: 'upm:README.md'
 createdAt: 1589394201550
+displayName_zhCN: UniStandaloneFileBrowser
+description_zhCN: Unity Standalone平台的原生文件浏览器

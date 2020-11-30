@@ -1,5 +1,5 @@
 name: EditorSceneActiveSwitcher
-displayName: 'EditorSceneActiveSwitcher'
+displayName: EditorSceneActiveSwitcher
 description: Editor上でワンクリックでシーンのLoad、UnLoadを切り替えれる機能
 repoUrl: 'https://github.com/takupisu/EditorSceneActiveSwitcher-Unity'
 parentRepoUrl: null
@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/1674292/47441667-9876a980-d7eb-11e8-93ef-e4821b9d23fc.png'
+image: >-
+  https://user-images.githubusercontent.com/1674292/47441667-9876a980-d7eb-11e8-93ef-e4821b9d23fc.png
 readme: 'master:README.md'
 createdAt: 1592065611623
+displayName_zhCN: EditorSceneActiveSwitcher
+description_zhCN: 切换场景

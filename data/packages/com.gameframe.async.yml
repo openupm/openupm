@@ -13,3 +13,5 @@ gitTagPrefix: ''
 gitTagIgnore: '-a'
 image: null
 createdAt: 1585498525419
+displayName_zhCN: Gameframe.Async异步
+description_zhCN: Unity的任务和异步帮助程序包

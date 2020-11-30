@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/Scrawk/Terrain-Topology-Algorithms/master/Media/normal.png'
+image: >-
+  https://raw.githubusercontent.com/Scrawk/Terrain-Topology-Algorithms/master/Media/normal.png
 readme: 'master:README.md'
 createdAt: 1603738118981
+displayName_zhCN: TerrainTopology
+description_zhCN: C#和Unity中的地形拓扑算法

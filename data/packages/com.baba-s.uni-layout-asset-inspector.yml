@@ -17,4 +17,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1602456207935
 displayName_zhCN: UniLayoutAssetInspector
-description_zhCN: 将导入按钮添加到布局文件（.wlt）的检查器
+description_zhCN: 将导入按钮添加到布局文件（.wlt）的inspector
