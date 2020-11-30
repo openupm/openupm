@@ -14,10 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605239457484
-<<<<<<< Updated upstream
 readme_zhCN: 'master:README.md'
-displayName_zhCN: Soap's Utils
-=======
-displayName_zhCN: 肥皂的实用
->>>>>>> Stashed changes
+displayName_zhCN: "Soap's Utils"
 description_zhCN: 常用的一些小功能

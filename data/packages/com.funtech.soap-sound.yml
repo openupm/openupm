@@ -14,11 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605239408844
-<<<<<<< Updated upstream
 readme_zhCN: 'master:README.md'
-displayName_zhCN: Soap's Sound
+displayName_zhCN: "Soap's Sound"
 description_zhCN: 自己扩充的管理声音的套件
-=======
-displayName_zhCN: 肥皂的声音
-description_zhCN: 自己扩充的控管声音套件
->>>>>>> Stashed changes
