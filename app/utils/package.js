@@ -52,7 +52,6 @@ const saveRawPackage = async function(name, obj) {
   try {
     let absPath = path.resolve(packagesDir, name + ".yml");
     const content = yaml.safeDump(obj);
-    console.log(content);
     await writeFile(absPath, content);
   } catch (e) {
     console.error(e);
