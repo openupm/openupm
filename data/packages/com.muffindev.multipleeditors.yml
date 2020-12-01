@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589141334854
+displayName_zhCN: MuffinDev - 多个编辑器
+description_zhCN: Unity插件，使您可以创建多个针对同一类型的编辑器，并从该编辑器进行管理。

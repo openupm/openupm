@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: >-
   https://github.com/favoyang/unity-action-sender/raw/master/Media~/ogimage-h640.png
 createdAt: 1587277021390
+displayName_zhCN: Unity动作发送
+description_zhCN: SendMessage的类型安全的替换者。

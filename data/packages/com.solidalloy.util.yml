@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601659977366
+displayName_zhCN: Solid实用工具
+description_zhCN: 简化Unity3D开发的不同实用程序。

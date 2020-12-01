@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588953266385
+displayName_zhCN: uStableObject
+description_zhCN: 基于Unity3D ScriptableObject的框架

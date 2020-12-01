@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'v4:README.md'
 createdAt: 1605700605642
+displayName_zhCN: Lite DB
+description_zhCN: 'LiteDB - 用单个数据文件在.NET中实现的NoSQL文档存储 - https://www.litedb.org'

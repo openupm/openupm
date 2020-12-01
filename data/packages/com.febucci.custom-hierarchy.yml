@@ -18,5 +18,5 @@ image: >-
   https://www.febucci.com/assets/uploads/2020/febucci-custom-hierarchy-for-unity-preview.gif
 readme: 'main:README.md'
 createdAt: 1604091977037
-displayName_zhCN: Unity的自定义层次结构
-description_zhCN: Unity包以帮助展示更清晰的层次结构，请在“Tree视图”中组织所有内容，包括额外的信息，如组件图标和组等。
+displayName_zhCN: Unity的自定义层级结构
+description_zhCN: Unity包以帮助展示更清晰的层级结构，请在“Tree视图”中组织所有内容，包括额外的信息，如组件图标和组等。

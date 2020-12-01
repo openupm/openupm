@@ -9,8 +9,11 @@ topics:
   - 2d
   - editor-enhancement
   - gui
-hunter: 'litefeel'
+hunter: litefeel
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://raw.githubusercontent.com/litefeel/Unity-BitmapFontImporter/master/AssetStore/screenshots.png'
+image: >-
+  https://raw.githubusercontent.com/litefeel/Unity-BitmapFontImporter/master/AssetStore/screenshots.png
 createdAt: 1582997224163
+displayName_zhCN: 位图字体导入器
+description_zhCN: 位图字体的Unity编辑器扩展。

@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1586851342250
+displayName_zhCN: Kore
+description_zhCN: 通用库，Unity框架。

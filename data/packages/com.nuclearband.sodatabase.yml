@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591483380778
+displayName_zhCN: 可ScriptableObjest的数据库
+description_zhCN: 使用Odin Inspector在Unity中编写ScriptableObjest

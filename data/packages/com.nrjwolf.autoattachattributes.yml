@@ -15,3 +15,4 @@ minVersion: ''
 image: null
 readme: 'make-repository-upm-compatible:README.md'
 createdAt: 1593646288625
+displayName_zhCN: 自动附加组件属性

@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589252770239
+displayName_zhCN: Loju本地化TextMesh Pro
+description_zhCN: 扩展通过本地化包添加对TextMesh Pro的支持

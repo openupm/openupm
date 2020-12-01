@@ -14,3 +14,5 @@ minVersion: v1.0.0
 image: null
 readme: 'master:README.md'
 createdAt: 1594700638835
+displayName_zhCN: AnimeTask
+description_zhCN: 适用于Unity的任务动画库

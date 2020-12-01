@@ -1,9 +1,9 @@
 name: com.mirrorng.enet
 displayName: MirrorNG Ignorance
 description: >-
-  IgnoranceNG is a plug and play Enet-powered reliable UDP transport for MirrorNG
-  Networking. By utilizing the Enet backend, IgnoranceNG is a solid replacement
-  for the Unity LLAPI transport.
+  IgnoranceNG is a plug and play Enet-powered reliable UDP transport for
+  MirrorNG Networking. By utilizing the Enet backend, IgnoranceNG is a solid
+  replacement for the Unity LLAPI transport.
 repoUrl: 'https://github.com/MirrorNG/IgnoranceNG'
 parentRepoUrl: 'https://github.com/SoftwareGuy/Ignorance'
 licenseSpdxId: MIT
@@ -17,3 +17,7 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603805131576
+displayName_zhCN: MirrorNG忽略
+description_zhCN: >-
+  IgnoranceNG是用于MirrorNG
+  Networking的即插即用的Enet的可靠UDP传输。通过利用Enet后端，IgnoranceNG可以替代Unity LLAPI传输。

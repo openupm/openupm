@@ -8,7 +8,9 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: KuraiAndras
-gitTagPrefix: 'unity'
+gitTagPrefix: unity
 gitTagIgnore: ''
 image: null
 createdAt: 1584556258732
+displayName_zhCN: Unity主线程调度器
+description_zhCN: Unity主线程调度程序

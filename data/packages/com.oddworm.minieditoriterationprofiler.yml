@@ -18,3 +18,5 @@ image: >-
   https://github.com/pschraut/UnityMiniEditorIterationProfiler/raw/170ad47f23d8c3c011e816ac186c42ff3a7e5cae/Documentation~/images/video.png
 readme: 'master:README.md'
 createdAt: 1601310732426
+displayName_zhCN: 迷你编辑器迭代Profiler
+description_zhCN: 以最简单的方式分解编译，assembly重新加载和进入/退出播放模式的时间安排。需要Unity 2019.3及更高版本。

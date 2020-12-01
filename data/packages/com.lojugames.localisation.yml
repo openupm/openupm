@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589248656939
+displayName_zhCN: Loju本地化
+description_zhCN: Unity编辑器中用于管理本地化的工具。支持从CSV文件或Google表格导入字符串。包括用于将本地化字符串与C#集成的特殊引用类型

@@ -15,6 +15,8 @@ hunter: hybridherbst
 gitTagPrefix: release/
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/needle-tools/compilation-visualizer/wiki/images/compact-view-recompile.gif'
+image: >-
+  https://github.com/needle-tools/compilation-visualizer/wiki/images/compact-view-recompile.gif
 readme: 'master:README.md'
 createdAt: 1597258247592
+displayName_zhCN: 编译可视化

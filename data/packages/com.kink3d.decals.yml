@@ -14,3 +14,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/wiki/Kink3d/kDecals/Images/Home00.png'
 readme: 'master:README.md'
 createdAt: 1592142577029
+displayName_zhCN: kDecals
+description_zhCN: Unity通用渲染管线的投影贴图。

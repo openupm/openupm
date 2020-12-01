@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587312802844
+displayName_zhCN: 带有Cubism Loader的Live2D Cubism Unity组件
+description_zhCN: 使用Cubism Loader打开Unity的Cubism组件。

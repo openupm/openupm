@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1584849182924
+displayName_zhCN: Unity Atoms基本Atoms
+description_zhCN: ⚛️利用Scriptable Objects的功能的微型模块化部件

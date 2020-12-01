@@ -9,3 +9,5 @@ topics:
   - utilities
 hunter: favoyang
 createdAt: 1576334058000
+displayName_zhCN: com.newtonsoft.json
+description_zhCN: Newtonsoft JSON库的Unity软件包

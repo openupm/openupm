@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602614000493
+displayName_zhCN: DOTS事件
+description_zhCN: 受论坛中一些发现启发的Unity DOTS轻量级事件API。

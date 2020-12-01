@@ -8,9 +8,11 @@ licenseName: GNU General Public License v3.0
 topics:
   - procedural-generation
 hunter: JesseTG
-gitTagPrefix: 'v'
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589376901727
+displayName_zhCN: LibNoise Unity
+description_zhCN: 将LibNoise移植到Unity

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604788958720
+displayName_zhCN: 场景层级结构回调
+description_zhCN: 允许通过回调自定义场景层级树。

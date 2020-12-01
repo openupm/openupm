@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589860247641
+displayName_zhCN: Omiya游戏 - 网络
+description_zhCN: 与网络相关的东西的辅助工具。

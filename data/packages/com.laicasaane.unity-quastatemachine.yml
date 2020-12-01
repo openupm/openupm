@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594630761968
+displayName_zhCN: Unity.QuaStateMachine
+description_zhCN: QuaStateMachine的Unity包，其中还包含许多改进。

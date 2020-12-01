@@ -16,3 +16,7 @@ gitTagIgnore: ''
 image: >-
   https://github.com/OmiyaGames/omiya-games-embed-webgl-template/raw/c101aaee265204f8c06443fc06c37e4480f63c92/Samples~/UnityTemplate/thumbnail.png
 createdAt: 1587965861536
+displayName_zhCN: Omiya Games - 嵌入WebGL模板
+description_zhCN: >-
+  可以导入到您自己的项目中的Unity
+  WebGL模板，该模板可用于创建WebGL游戏，该游戏会自动调整自身大小以适应Web网页嵌入的范围，包括全屏调整大小支持。

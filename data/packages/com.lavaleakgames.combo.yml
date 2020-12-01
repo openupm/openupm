@@ -19,3 +19,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589781072799
+displayName_zhCN: 组合：任务集成工具
+description_zhCN: 一种运行集成在Unity游戏引擎编辑器中的自动化任务的方法（类似于Grunt或Gulp）。

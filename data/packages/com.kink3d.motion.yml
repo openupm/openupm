@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588908924655
+displayName_zhCN: kMotion
+description_zhCN: Unity通用渲染管线的运动模糊。

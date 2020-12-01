@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588952786607
+displayName_zhCN: 调试绘图API
+description_zhCN: DbgDraw是一种API，它提供了渲染各种2D和3D形状以进行可视调试的功能。

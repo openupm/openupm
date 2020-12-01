@@ -15,4 +15,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1588954231056
 displayName_zhCN: Odin层级
-description_zhCN: 基于模式匹配的Pimp层次结构。
+description_zhCN: 基于模式匹配的Pimp层级结构。

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/a2e1053e-7a8c-4913-96f1-f8dc488f1a3e.webp'
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/a2e1053e-7a8c-4913-96f1-f8dc488f1a3e.webp
 readme: 'upm:README.md'
 createdAt: 1593282261294
+displayName_zhCN: LINQ转GameObject
+description_zhCN: LINQ转GameObject - 通过LINQ遍历GameObject层级结构

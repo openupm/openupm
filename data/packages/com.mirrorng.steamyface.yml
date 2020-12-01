@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604854641672
+displayName_zhCN: MirrorNG SteamyFaceNG
+description_zhCN: 用于Mirrorng的Facepunch版本

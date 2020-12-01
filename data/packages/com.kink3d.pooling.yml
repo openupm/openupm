@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585237622354
+displayName_zhCN: kPooling
+description_zhCN: 可定制的Unity对象池。

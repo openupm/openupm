@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/kamyker/google-analytics-unity-windows/master/imgs%7E/pageview_example.png'
+image: >-
+  https://raw.githubusercontent.com/kamyker/google-analytics-unity-windows/master/imgs%7E/pageview_example.png
 readme: 'master:README.md'
 createdAt: 1594006017619
+displayName_zhCN: Windows版Google Analytics（分析）
+description_zhCN: 适用于Windows的Unity的Google Analytics（分析）插件

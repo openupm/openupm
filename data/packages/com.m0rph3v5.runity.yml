@@ -15,3 +15,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1583178670210
+displayName_zhCN: R.Unity
+description_zhCN: 在C# Unity项目中获取强类型和自动完成的按键，例如场景，标签和图层

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604853797351
+displayName_zhCN: MirrorNG SteamyNG
+description_zhCN: Mirror的Steamworks.net传输的异步实现

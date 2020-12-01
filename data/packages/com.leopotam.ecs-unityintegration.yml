@@ -10,3 +10,5 @@ topics:
   - utilities
 hunter: favoyang
 createdAt: 1576422634000
+displayName_zhCN: LeoECS Unity集成
+description_zhCN: LeoECS实体组件系统框架的Unity编辑器集成。

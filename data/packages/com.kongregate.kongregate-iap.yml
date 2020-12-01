@@ -11,3 +11,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587501420185
+displayName_zhCN: Kongregate购买
+description_zhCN: Kongregate网站的Unity IAP商店实现。

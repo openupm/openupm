@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/a057d8ca-44a6-46bf-9fbd-4b6b6f77ad3f.webp'
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/a057d8ca-44a6-46bf-9fbd-4b6b6f77ad3f.webp
 readme: 'upm:README.md'
 createdAt: 1605380290490
+displayName_zhCN: OpenFilesWithDefaultApp
+description_zhCN: 一个Unity资源插件，用于使用系统默认应用程序打开文件。

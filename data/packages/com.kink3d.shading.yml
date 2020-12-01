@@ -14,3 +14,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/wiki/Kink3d/kShading/Images/Home00.png'
 readme: 'master:README.md'
 createdAt: 1592012303129
+displayName_zhCN: kShading
+description_zhCN: Unity通用渲染管线的阴影模型。

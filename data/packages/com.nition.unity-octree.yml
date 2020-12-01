@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1589058387077
+displayName_zhCN: UnityOctree
+description_zhCN: 用C#编写的Unity动态，松散八叉树实现

@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588713720786
+displayName_zhCN: Unity可寻址管理器
+description_zhCN: Unity可寻址管理器
