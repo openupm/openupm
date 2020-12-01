@@ -17,3 +17,5 @@ image: >-
   https://github.com/gwaredd/mgGif/raw/478f6761d45fb8be9b3c9f32aebc2a2ac25c28fa/Assets/StreamingAssets/butterfly.gif
 readme: 'upm:README.md'
 createdAt: 1604290105037
+displayName_zhCN: mgGIF
+description_zhCN: Unity库，用于解析GIF文件并将图像提取为贴图

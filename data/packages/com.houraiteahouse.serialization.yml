@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595862495971
+displayName_zhCN: Hourai序列化
+description_zhCN: Unity 2018.3+的高性能二进制消息序列化。

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:Readme.md'
 createdAt: 1605702620507
+displayName_zhCN: Unity Video Player助手
+description_zhCN: Unity中视频播放器的简单帮助器

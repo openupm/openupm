@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591730722591
+displayName_zhCN: MemoryInfoPlugin
+description_zhCN: 一组用于Unity的工具，用于处理Android和iOS的内存信息。

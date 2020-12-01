@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587932538979
+displayName_zhCN: UIMan TextMeshPro
+description_zhCN: UIMan的TextMeshPro扩展

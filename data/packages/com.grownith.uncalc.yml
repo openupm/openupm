@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591480830356
+displayName_zhCN: UNCalc
+description_zhCN: NCalc2

@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589210970048
+displayName_zhCN: LZ4二进制压缩
+description_zhCN: 简单的C#LZF压缩库，尝试最小化内存分配。

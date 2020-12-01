@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1606167099435
+displayName_zhCN: 主动LT
+description_zhCN: Unity的无状态行为树

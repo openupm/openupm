@@ -16,3 +16,5 @@ image: >-
   https://github.com/IxxyXR/polyhydra-upm/raw/d4cc8240b3166f4c0d7a005f073e3989766e3b2b/Packages/Polyhydra/com.ixxy.polyhydra/Unity%20Octree/octree-visualisation.jpg
 readme: 'upm:README.md'
 createdAt: 1603810006228
+displayName_zhCN: Polyhydra
+description_zhCN: Unity中几何形状的过程生成。

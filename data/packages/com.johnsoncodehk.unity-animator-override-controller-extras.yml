@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593640122759
+displayName_zhCN: 额外的Animator Override Controller
+description_zhCN: AnimatorOverrideController扩展工具

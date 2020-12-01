@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:readme.md'
 createdAt: 1586955876205
+displayName_zhCN: 世界地图
+description_zhCN: Unity3D插件，用于使用Cinemachine进行level选择/进度映射

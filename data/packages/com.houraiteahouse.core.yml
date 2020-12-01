@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589211275894
+displayName_zhCN: Hourai Teahouse核心库
+description_zhCN: 一个核心实用程序库，是Unity 3D中大多数Hourai Teahouse项目的基础。

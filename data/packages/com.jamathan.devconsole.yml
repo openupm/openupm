@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1605548766476
+displayName_zhCN: 开发控制台
+description_zhCN: Unity3D的运行时开发人员/调试控制台

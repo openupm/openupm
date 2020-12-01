@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1604647782089
+displayName_zhCN: Arex
+description_zhCN: AR实验

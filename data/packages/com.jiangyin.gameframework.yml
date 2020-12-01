@@ -20,6 +20,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://camo.githubusercontent.com/51b846383e1939929aa13e422b76b50af6f4d79b/68747470733a2f2f67616d656672616d65776f726b2e636e2f696d6167652f67616d656672616d65776f726b2e706e67'
+image: >-
+  https://camo.githubusercontent.com/51b846383e1939929aa13e422b76b50af6f4d79b/68747470733a2f2f67616d656672616d65776f726b2e636e2f696d6167652f67616d656672616d65776f726b2e706e67
 readme: 'master:README.md'
 createdAt: 1594654570167
+displayName_zhCN: 游戏架构
+description_zhCN: 基于Unity游戏引擎的游戏框架。它在开发过程中封装了常用的游戏模块，并在很大程度上标准化了流程，提高了开发速度并确保了产品质量。

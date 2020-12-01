@@ -17,3 +17,5 @@ image: >-
   https://github.com/LudiKha/Graphene/raw/32fa63ec1dc950c33d1cb5582e36b10e15319c67/docs/images/graphene-logo-full.png
 readme: 'master:README.md'
 createdAt: 1600307240563
+displayName_zhCN: Graphene
+description_zhCN: Graphene是一个轻量级的模块化框架，用于使用Unity UI Toolkit构建用户界面

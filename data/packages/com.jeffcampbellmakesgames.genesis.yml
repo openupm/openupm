@@ -17,3 +17,5 @@ gitTagIgnore: ''
 image: null
 readme: 'develop:README.md'
 createdAt: 1587630791665
+displayName_zhCN: JCMG Genesis
+description_zhCN: Unity的通用代码生成器

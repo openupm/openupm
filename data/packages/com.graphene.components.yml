@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603339338721
+displayName_zhCN: Graphene组件
+description_zhCN: Graphene的组件基础架构和Material Design风格的组件

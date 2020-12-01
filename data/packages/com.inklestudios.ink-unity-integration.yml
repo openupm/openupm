@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1599636904299
+displayName_zhCN: 墨水Unity集成
+description_zhCN: 开源墨水叙事脚本语言的Unity集成。

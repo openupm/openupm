@@ -19,4 +19,4 @@ gitTagIgnore: ''
 image: null
 createdAt: 1587911447969
 displayName_zhCN: KTX
-description_zhCN: 在运行时加载KTX和基础通用纹理
+description_zhCN: 在运行时加载KTX和基础通用贴图

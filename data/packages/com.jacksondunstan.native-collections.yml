@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591736099613
+displayName_zhCN: 原生集合
+description_zhCN: Unity的原生集合类型

@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589210871744
+displayName_zhCN: Hourai选项
+description_zhCN: 简化和自动创建Unity3D游戏的游戏选项。

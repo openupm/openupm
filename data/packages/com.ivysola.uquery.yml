@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603171521147
+displayName_zhCN: uquery
+description_zhCN: Unity GameObject查询系统

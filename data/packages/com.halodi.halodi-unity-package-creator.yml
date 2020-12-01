@@ -11,6 +11,9 @@ hunter: favoyang
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/Halodi/halodi-unity-package-creator/master/Packages/halodi-unity-package-creator/Resources/halodi-unity-package-creator/halodi-unity-package-creator-screenshot.png'
+image: >-
+  https://raw.githubusercontent.com/Halodi/halodi-unity-package-creator/master/Packages/halodi-unity-package-creator/Resources/halodi-unity-package-creator/halodi-unity-package-creator-screenshot.png
 readme: 'master:Packages/halodi-unity-package-creator/README.md'
 createdAt: 1590169398328
+displayName_zhCN: Halodi Unity软件包创建者
+description_zhCN: 用于创建，维护和更新Unity软件包的工具

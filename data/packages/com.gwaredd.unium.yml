@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1588876409939
+displayName_zhCN: Unium
+description_zhCN: Unity游戏自动化

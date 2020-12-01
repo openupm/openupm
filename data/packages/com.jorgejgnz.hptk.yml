@@ -17,3 +17,5 @@ image: >-
   https://github.com/jorgejgnz/HPTK/raw/a58de8305b4aec31019f41b6f4e1697969f88ce7/Documentation/Media/hptk.gif
 readme: 'master:README.md'
 createdAt: 1600352189064
+displayName_zhCN: HPTK
+description_zhCN: Hand物理工具包

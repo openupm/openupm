@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589306559712
+displayName_zhCN: Reactive Disposal
+description_zhCN: 一个小型实体组件系统实用程序，用于管理非托管内存
