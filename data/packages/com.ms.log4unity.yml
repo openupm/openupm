@@ -1,6 +1,6 @@
 name: com.ms.log4unity
 displayName: Log4Unity
-description: 类似log4js的Unity日志系统
+description: Log4js-like Logging system for Unity
 repoUrl: 'https://github.com/wlgys8/Log4Unity'
 parentRepoUrl: null
 licenseSpdxId: null
