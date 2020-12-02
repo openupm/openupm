@@ -15,3 +15,5 @@ image: >-
   https://github.com/Unity-Technologies/com.unity.editor.tasks/raw/ab760af76518ba5d8195ee289e4f2365cd64c2ad/icon.png
 readme: 'master:README.md'
 createdAt: 1588975681887
+displayName_zhCN: Unity编辑器任务
+description_zhCN: Unity.Editor.Tasks是基于TPL的任务管理库。

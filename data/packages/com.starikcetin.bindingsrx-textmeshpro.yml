@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582571063230
+displayName_zhCN: BindingsRx-TextMeshPro
+description_zhCN: TextMeshPro的BindingsRx绑定。

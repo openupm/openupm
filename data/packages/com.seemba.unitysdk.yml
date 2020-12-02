@@ -20,3 +20,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595242845321
+displayName_zhCN: SeembaSDK
+description_zhCN: Seemba，您需要的最后一个游戏货币化系统。

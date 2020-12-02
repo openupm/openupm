@@ -18,3 +18,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1596480763129
+displayName_zhCN: 层级结构的分隔扩展
+description_zhCN: 用空的GameObject来快速创建在层级结构中的分隔符的编辑器扩展。

@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'dev:README.md'
 createdAt: 1588909884164
+displayName_zhCN: GoQL
+description_zhCN: GameObject查询语言

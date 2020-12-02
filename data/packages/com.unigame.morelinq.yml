@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602556010542
+displayName_zhCN: 更多LINQ
+description_zhCN: Unity3D的Linq

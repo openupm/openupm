@@ -1,6 +1,6 @@
 name: com.sebaslab.svelto.tasks
 displayName: Svelto Tasks
-description: 'Svelto Tasks - C# promises compliant multi-threaded tasks runner'
+description: Svelto Tasks - C# promises compliant multi-threaded tasks runner
 repoUrl: 'https://github.com/sebas77/Svelto.Tasks'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -11,3 +11,5 @@ topics:
   - parallelism-and-concurrency
 hunter: favoyang
 createdAt: 1578060145000
+displayName_zhCN: Svelto 任务
+description_zhCN: Svelto Tasks - C# promises兼容多线程任务运行程序

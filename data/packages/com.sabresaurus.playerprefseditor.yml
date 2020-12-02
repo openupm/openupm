@@ -17,3 +17,5 @@ minVersion: ''
 image: 'https://sabresaurus.com/PlayerPrefsEditorScreenshot.png'
 readme: 'master:README.md'
 createdAt: 1593885964019
+displayName_zhCN: PlayerPrefs编辑器和实用程序
+description_zhCN: PlayerPrefs编辑器和实用程序提供了一种简单的方法来查看您的游戏正在使用什么PlayerPrefs并在运行时进行更改。

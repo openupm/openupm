@@ -1,5 +1,5 @@
 name: com.supyrb.signals
-displayName: "Signals"
+displayName: Signals
 description: 'A typesafe, lightweight messaging system for Unity with UPM Support.'
 repoUrl: 'https://github.com/supyrb/signals'
 parentRepoUrl: 'https://github.com/yankooliveira/signals'
@@ -11,3 +11,5 @@ topics:
   - utilities
 hunter: JohannesDeml
 createdAt: 1576345395000
+displayName_zhCN: Signals信号
+description_zhCN: Unity的类型安全、轻量级消息系统。

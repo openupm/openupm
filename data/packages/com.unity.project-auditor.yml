@@ -9,3 +9,5 @@ topics:
   - utilities
 hunter: favoyang
 createdAt: 1576759072000
+displayName_zhCN: 项目审核员
+description_zhCN: Project Auditor是Unity项目的实验性静态分析工具。

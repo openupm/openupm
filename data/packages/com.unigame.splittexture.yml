@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602525633749
+displayName_zhCN: UniGame贴图分配器
+description_zhCN: 贴图分配器

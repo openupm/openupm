@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591813802181
+displayName_zhCN: Unity CLI项目设置
+description_zhCN: 提供命令行解析器和选项，以在从命令行运行Unity时设置编辑器，构建，播放器和其他Unity设置

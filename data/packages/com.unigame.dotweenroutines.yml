@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602556174348
+displayName_zhCN: DoTween
+description_zhCN: UniRoutines的DoTween扩展

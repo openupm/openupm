@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602515054461
+displayName_zhCN: 编辑器ScriptableObject的类型转换器

@@ -14,3 +14,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587500841400
+displayName_zhCN: 资源打包生成器
+description_zhCN: 用于管理和更新Unity 3D项目中资源打包的结构化系统。

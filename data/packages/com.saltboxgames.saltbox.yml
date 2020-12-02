@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589898696520
+displayName_zhCN: Saltbox
+description_zhCN: Unity3D通用脚本和实用程序

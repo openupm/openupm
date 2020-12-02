@@ -18,3 +18,7 @@ image: >-
   https://github.com/Unity-Technologies/MeshSyncDCCPlugins/raw/7ce417c6d9afc313f38516bb8f4a237918bc1b50/Plugins~/Docs/Images/MeshSyncClientMaya.png
 readme: 'dev:Readme.md'
 createdAt: 1593019770231
+displayName_zhCN: MeshSync DCC插件
+description_zhCN: >-
+  Unity中MeshSync的DCC插件。支持的工具：Maya，Maya LT，3ds Max，Motion
+  Builder，Modo，Blender，Metasequoia

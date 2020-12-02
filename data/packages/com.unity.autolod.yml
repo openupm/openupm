@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603304156462
+displayName_zhCN: AutoLOD
+description_zhCN: 自动LOD生成+场景优化

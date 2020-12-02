@@ -18,3 +18,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595033241712
+displayName_zhCN: Demo Team数字人
+description_zhCN: 用于从“Heretic”实现数字化人类的技术功能库。

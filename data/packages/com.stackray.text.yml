@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589335653413
+displayName_zhCN: Stackray Text
+description_zhCN: 扩展DOTS

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1601227688884
+displayName_zhCN: Fluent验证
+description_zhCN: Fluent的.NET验证库的Unity移植，用于构建强类型的验证规则。

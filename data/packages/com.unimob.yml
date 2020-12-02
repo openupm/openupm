@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/26966368/61778573-ab182080-ae07-11e9-8f62-385099e7617c.png'
+image: >-
+  https://user-images.githubusercontent.com/26966368/61778573-ab182080-ae07-11e9-8f62-385099e7617c.png
 readme: 'master:README.md'
 createdAt: 1595097786785
+displayName_zhCN: UniMob
+description_zhCN: 构建响应式应用程序的框架

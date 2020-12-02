@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1602555941002
+displayName_zhCN: UniGame UGUI安全区
+description_zhCN: UniGame.SafeArea

@@ -1,6 +1,6 @@
 name: com.unity.karl.debug
-displayName: "Karl's Debug Stuff"
-description: 'Various editor tools that I regularly use when working in the Unity editor.'
+displayName: Karl's Debug Stuff
+description: Various editor tools that I regularly use when working in the Unity editor.
 repoUrl: 'https://github.com/karl-/editor-tools'
 parentRepoUrl: null
 licenseSpdxId: null
@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594572747100
+displayName_zhCN: Karl的Debug资料
+description_zhCN: 在Unity编辑器中工作时，我经常使用的各种编辑器工具。

@@ -13,3 +13,5 @@ gitTagPrefix: v
 gitTagIgnore: ''
 image: null
 createdAt: 1585626276234
+displayName_zhCN: 共享数组
+description_zhCN: Unity中托管数组和原生数组之间的零拷贝共享

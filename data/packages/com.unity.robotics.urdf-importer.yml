@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1605285742595
+displayName_zhCN: URDF导入器
+description_zhCN: URDF导入器

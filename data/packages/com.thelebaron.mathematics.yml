@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'dots:README.md'
 createdAt: 1592144945764
+displayName_zhCN: 数学
+description_zhCN: 该演示展示了Unity中的可破坏墙壁。

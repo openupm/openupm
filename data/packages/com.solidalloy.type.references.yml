@@ -11,6 +11,9 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: https://github.com/SolidAlloy/ClassTypeReference-for-Unity/raw/64d7bf593c1beb734f374a184ccc7fc837e322b0/.screenshot.png
+image: >-
+  https://github.com/SolidAlloy/ClassTypeReference-for-Unity/raw/64d7bf593c1beb734f374a184ccc7fc837e322b0/.screenshot.png
 readme: 'master:README.md'
 createdAt: 1601559685258
+displayName_zhCN: 类型引用
+description_zhCN: 属性绘制，允许从Unity中的下拉列表中选择类。

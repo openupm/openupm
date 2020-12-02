@@ -15,3 +15,4 @@ image: >-
   https://github.com/Unity-Technologies/com.unity.process-server/raw/451d27ba3f75378953a1014d405f53888740227c/icon.png
 readme: 'master:README.md'
 createdAt: 1588960881135
+displayName_zhCN: Process服务器

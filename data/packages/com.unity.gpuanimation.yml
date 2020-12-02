@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589385454983
+displayName_zhCN: 基于GPU的动画系统
+description_zhCN: 基于Unity的简单但快速的基于GPU顶点shader的动画系统

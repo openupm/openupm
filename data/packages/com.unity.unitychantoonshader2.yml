@@ -1,6 +1,6 @@
 name: com.unity.unitychantoonshader2
 displayName: Unitychan ToonShader2
-description: UnityChanToonShaderVer2 Project / v.2.0.7 Release
+description: UnityChanToonShaderVer2 Project
 repoUrl: 'https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project'
 parentRepoUrl: null
 licenseSpdxId: null
@@ -15,3 +15,5 @@ image: >-
   https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project/raw/f51baa591a9b1e2c7852d665694621867c5b73dd/Manual/Images_jpg/UT2018_UTS2_SuperTips_rev_16.jpg
 readme: 'package/legacy:README.md'
 createdAt: 1589987070960
+displayName_zhCN: Unitychan ToonShader2
+description_zhCN: UnityChanToonShaderVer2项目

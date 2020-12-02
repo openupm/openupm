@@ -12,6 +12,9 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://user-images.githubusercontent.com/6402525/55296436-bd65ed00-5419-11e9-9723-31225b99450b.png'
+image: >-
+  https://user-images.githubusercontent.com/6402525/55296436-bd65ed00-5419-11e9-9723-31225b99450b.png
 readme: 'master:README.md'
 createdAt: 1588902797907
+displayName_zhCN: GLTFUtility
+description_zhCN: 用于Unity的轻量级GLTF导入器

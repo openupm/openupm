@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589335576143
+displayName_zhCN: Stackray Sprite
+description_zhCN: 扩展DOTS

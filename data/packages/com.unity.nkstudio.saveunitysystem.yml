@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592162532554
+displayName_zhCN: SaveUnitySystem
+description_zhCN: Unity工具允许在停止游戏时恢复在游戏模式下所做的更改。

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602427764438
+displayName_zhCN: Stans资源 - Facebook
+description_zhCN: 包含扩展访问Facebook API的开源产品。

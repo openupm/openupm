@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1601410540051
+displayName_zhCN: Unilonia
+description_zhCN: Unity插件，允许在Unity上运行Avalonia

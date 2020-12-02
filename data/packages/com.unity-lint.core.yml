@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588953478642
+displayName_zhCN: UnityLint
+description_zhCN: Unity的Linter

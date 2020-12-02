@@ -16,3 +16,5 @@ image: >-
   https://github.com/Unity-Technologies/com.unity.perception/raw/9504462fb4263e7df6fcfd55184f08b5cc4750bc/com.unity.perception/Documentation~/images/banner2.PNG
 readme: 'master:README.md'
 createdAt: 1595107802924
+displayName_zhCN: Perception
+description_zhCN: 用于sim2real训练和验证的Perception工具包

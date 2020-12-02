@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592178031968
+displayName_zhCN: Unity Sprite切割机
+description_zhCN: 在运行时切割Sprite的简单解决方案。

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/1488611/60965577-1ca89700-a351-11e9-9b7d-962a6a7e1aed.png'
+image: >-
+  https://user-images.githubusercontent.com/1488611/60965577-1ca89700-a351-11e9-9b7d-962a6a7e1aed.png
 readme: 'dev:Documentation~/README_EN.md'
 createdAt: 1590283458786
+displayName_zhCN: 光线追踪硬阴影
+description_zhCN: 基于DXR的Unity光线追踪硬阴影

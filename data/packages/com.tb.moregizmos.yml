@@ -10,6 +10,9 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://user-images.githubusercontent.com/4968773/52925428-3a178e80-32e6-11e9-853c-1c1f64938636.gif'
+image: >-
+  https://user-images.githubusercontent.com/4968773/52925428-3a178e80-32e6-11e9-853c-1c1f64938636.gif
 readme: 'master:README.md'
 createdAt: 1589048481333
+displayName_zhCN: MoreGizmos
+description_zhCN: 在Unity项目中在编辑状态绘制的额外的Gizmo。

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605297450802
+displayName_zhCN: 可寻址SpriteAtlas Sprites
+description_zhCN: 使用Unity的可寻址系统按名称从SpriteAtlas中加载Sprite。

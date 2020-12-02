@@ -12,3 +12,4 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585506613323
+displayName_zhCN: UnityExtensions.DependencyInjection

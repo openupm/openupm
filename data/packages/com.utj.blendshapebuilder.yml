@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/1488611/34981308-76511248-faea-11e7-8985-b8fe0e957035.gif'
+image: >-
+  https://user-images.githubusercontent.com/1488611/34981308-76511248-faea-11e7-8985-b8fe0e957035.gif
 readme: 'master:README.md'
 createdAt: 1593019183821
+displayName_zhCN: BlendShapeBuilder
+description_zhCN: 在Unity中调整顶点并生成混合形状

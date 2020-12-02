@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591814665363
+displayName_zhCN: Git for Unity API
+description_zhCN: GitHub for Unity的一个分叉

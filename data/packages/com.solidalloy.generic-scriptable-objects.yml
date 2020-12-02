@@ -17,3 +17,5 @@ minVersion: 1.1.1
 image: null
 readme: 'main:README.md'
 createdAt: 1604606549558
+displayName_zhCN: 通用ScriptableObjects
+description_zhCN: 通用ScriptableObjects

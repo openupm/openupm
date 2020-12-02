@@ -15,3 +15,5 @@ image: >-
   https://github.com/skibitsky/unity-now/raw/5004dba06e1e3f314fd7214b8e3a424a7268b523/.github/logo.png
 readme: 'upm:README.md'
 createdAt: 1592410784223
+displayName_zhCN: unity-now
+description_zhCN: ▲适用于Unity的Vercel Now插件。轻松部署WebGL构建

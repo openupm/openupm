@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594868592368
+displayName_zhCN: Unity游戏UniRoutine
+description_zhCN: Unity3D的协程Routines

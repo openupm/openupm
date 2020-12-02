@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592321486966
+displayName_zhCN: 场景参考
+description_zhCN: 允许直接从编辑器引用场景资源的自定义属性

@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592166666278
+displayName_zhCN: XR线渲染器
+description_zhCN: 一个XR聚焦线渲染器，它模拟3D胶囊渲染，而仅使用两个四边形的几何图形。

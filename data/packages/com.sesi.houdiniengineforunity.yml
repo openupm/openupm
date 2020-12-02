@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'Houdini18.0.348:README.md'
 createdAt: 1589048159240
+displayName_zhCN: Houdini Engine
+description_zhCN: Houdini Engine的Unity集成

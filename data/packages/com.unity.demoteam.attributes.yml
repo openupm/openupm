@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595033573132
+displayName_zhCN: Demo Team属性
+description_zhCN: com.unity.demoteam.*中的软件包共有的属性库

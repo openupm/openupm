@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'release-pkg:README.md'
 createdAt: 1591312115356
+displayName_zhCN: UndoPro
+description_zhCN: UndoPro是一个基于命令的撤消系统，已集成到Unity的默认系统中。这使开发人员可以将actions用于其撤消/重做操作，而不必强迫用户使用新的撤消工作流程！

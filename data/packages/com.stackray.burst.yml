@@ -1,6 +1,6 @@
 name: com.stackray.burst
 displayName: Stackray Burst
-description: 'Extending DOTS '
+description: 'Extending DOTS'
 repoUrl: 'https://github.com/GilbertoGojira/DOTS-Stackray'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589333071291
+displayName_zhCN: Stackray DOTS
+description_zhCN: 扩展DOTS

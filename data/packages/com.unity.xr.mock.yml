@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588910898757
+displayName_zhCN: UnityXRMock XR插件
+description_zhCN: Unity Editor插件，可让您模拟AR环境以在PC上进行开发和测试。

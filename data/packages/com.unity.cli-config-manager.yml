@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'trunk:README.md'
 createdAt: 1588908354638
+displayName_zhCN: Unity CLI配置管理器
+description_zhCN: 从命令行运行Unity时，提供命令行解析器和选项以设置构建，播放器和其他Unity设置

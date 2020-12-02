@@ -17,4 +17,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1604245997252
 displayName_zhCN: HauntedPS1渲染管线
-description_zhCN: 一个可编程脚本的渲染管道，用于在现代硬件上模拟Playstation-1样式的图形。
+description_zhCN: 一个可编程脚本的渲染管线，用于在现代硬件上模拟Playstation-1样式的图形。

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591813889608
+displayName_zhCN: Unity测试元数据管理器
+description_zhCN: 用于管理Unity性能测试的自定义元数据。

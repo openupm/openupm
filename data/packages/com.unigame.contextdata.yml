@@ -15,3 +15,5 @@ image: >-
   https://github.com/UniGameTeam/UniGame.Context/raw/0e3ed9613493882631cef9f6edefee4278bc0376/SerializableContext/Editor/Assets/context-data-icon.png
 readme: 'main:README.md'
 createdAt: 1602556255956
+displayName_zhCN: UniGame上下文数据
+description_zhCN: GameContext数据容器

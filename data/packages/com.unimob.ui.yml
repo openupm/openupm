@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595097871688
+displayName_zhCN: UniMob.UI
+description_zhCN: 构建响应式应用程序的框架

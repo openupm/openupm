@@ -13,3 +13,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1587501039095
+displayName_zhCN: 显示列表
+description_zhCN: Unity3D助手，用于从数据生成UI元素列表

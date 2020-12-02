@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591999457070
+displayName_zhCN: 低多边形水
+description_zhCN: Unity项目允许创建具有水波效果的低多边形样式的平面。

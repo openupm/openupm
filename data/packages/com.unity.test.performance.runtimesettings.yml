@@ -19,3 +19,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591814088875
+displayName_zhCN: Unity性能测试的运行时设置
+description_zhCN: 一个实体类，用于保留播放器构建时的设置，以在测试运行时使用。

@@ -1,6 +1,6 @@
 name: com.rlabrecque.steamworks
 displayName: Steamworks.NET
-description: 'Steamworks wrapper for Unity / C#'
+description: Steamworks wrapper for Unity / C#
 repoUrl: 'https://github.com/HouraiTeahouse/Steamworks.NET'
 parentRepoUrl: 'https://github.com/rlabrecque/Steamworks.NET'
 licenseSpdxId: MIT
@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589211214108
+displayName_zhCN: Steamworks.NET
+description_zhCN: 适用于Unity / C#的Steamworks包装
