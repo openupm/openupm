@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594182142856
+displayName_zhCN: Extra UniRx
+description_zhCN: ':seedling: UniRx的额外实用程序'

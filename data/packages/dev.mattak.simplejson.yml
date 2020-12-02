@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1601433243921
+displayName_zhCN: SimpleJSON
+description_zhCN: C#中的简单JSON解析器

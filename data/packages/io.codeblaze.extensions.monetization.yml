@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'upm/extensions/monetization:README.md'
 createdAt: 1599893386667
+displayName_zhCN: CodeBlaze扩展 - 货币化
+description_zhCN: CodeBlaze的Unity软件包

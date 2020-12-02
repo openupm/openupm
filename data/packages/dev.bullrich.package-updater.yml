@@ -11,6 +11,9 @@ hunter: Bullrich
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/Bullrich/UnityPackageUpdater/master/.github/preview.png'
+image: >-
+  https://raw.githubusercontent.com/Bullrich/UnityPackageUpdater/master/.github/preview.png
 readme: 'master:README.md'
 createdAt: 1592327733495
+displayName_zhCN: 包更新器
+description_zhCN: 一次更新多个软件包的实用程序

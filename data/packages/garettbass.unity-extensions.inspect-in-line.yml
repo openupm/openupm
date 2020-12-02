@@ -13,6 +13,9 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://raw.githubusercontent.com/d4160/UnityExtensions.InspectInline/upm/Documentation%7E/Before-After.png'
+image: >-
+  https://raw.githubusercontent.com/d4160/UnityExtensions.InspectInline/upm/Documentation%7E/Before-After.png
 readme: 'upm:README.md'
 createdAt: 1588908554394
+displayName_zhCN: UnityExtension.InspectInline
+description_zhCN: 使您可以检查和编辑对象引用，并轻松地将这些对象作为子资源嵌入。

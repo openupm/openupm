@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595115270613
+displayName_zhCN: Tilia Locomotors AxisMove Unity
+description_zhCN: 可以根据Unity软件的轴输入数据移动给定GameObject的Prefab的集合

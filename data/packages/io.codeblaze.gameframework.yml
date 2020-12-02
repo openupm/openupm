@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm/game-framework:README.md'
 createdAt: 1599892980744
+displayName_zhCN: CodeBlaze游戏框架
+description_zhCN: CodeBlaze的Unity软件包

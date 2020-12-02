@@ -13,3 +13,5 @@ hunter: oae
 gitTagIgnore: ''
 image: null
 createdAt: 1581806372605
+displayName_zhCN: Facebook SDK（非官方）
+description_zhCN: Unity的Facebook SDK打包版本

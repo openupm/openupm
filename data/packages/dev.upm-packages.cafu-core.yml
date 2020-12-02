@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593892696089
+displayName_zhCN: CAFU核心
+description_zhCN: Unity的干净架构

@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592821465319
+displayName_zhCN: TinaX.UIKit.ILRuntime
+description_zhCN: TinaX.ILRuntime的扩展程序包，用于在热更新代码中更愉快地使用UIKit。

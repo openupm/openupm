@@ -15,3 +15,5 @@ image: >-
   https://github.com/judah4/HSV-Color-Picker-Unity/raw/57df029f659d5423d58586a90044f55aabc150e2/Docs/MoreFeatures.PNG
 readme: 'upm:README.md'
 createdAt: 1593639240267
+displayName_zhCN: HSVPicker
+description_zhCN: 适用于Unity UI的HSV颜色选择器

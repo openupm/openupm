@@ -21,3 +21,7 @@ image: >-
   https://github.com/handzlikchris/Unity.MissingUnityEvents/raw/6ec296db87022417d06d58b15fea4f9731b352f9/Docs~/Images/MainImage.jpg
 readme: 'master:README.md'
 createdAt: 1594919760878
+displayName_zhCN: 缺失的Unity事件
+description_zhCN: >-
+  编辑器扩展，用于生成在属性设置之前执行的事件，例如。
+  Transform-position，Transform-rotation，Transform-parent，可编写更多事件驱动的代码或调试不容易追踪的属性更改。易于定制，以允许将事件添加到不同的属性设置器/类型。

@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1587712459819
+displayName_zhCN: UniSharper.Data.Metadata
+description_zhCN: UniSharper.Data.Metadata是一个库，用于转换excel文件中的数据，并在运行时在Unity引擎中读取它们。

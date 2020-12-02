@@ -14,3 +14,5 @@ gitTagPrefix: upm
 gitTagIgnore: ''
 image: null
 createdAt: 1586584208587
+displayName_zhCN: SharpZipLib
+description_zhCN: '#ziplib是一个完全用C#为.NET平台编写的Zip，GZip，Tar和BZip2库。'

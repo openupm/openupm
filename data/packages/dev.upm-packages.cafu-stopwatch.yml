@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'add_cafu_v3_support:README.md'
 createdAt: 1594180312678
+displayName_zhCN: CAFU StopWatch
+description_zhCN: CAFU的StopWatch逻辑

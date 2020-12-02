@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1600968882494
+displayName_zhCN: RtMidi
+description_zhCN: 适用于Unity的RtMidi包装程序包

@@ -18,3 +18,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592823242030
+displayName_zhCN: TinaX.ILRuntime
+description_zhCN: VFS.ILRuntime为Unity开发框架TinaX提供了基于ILRuntime的C#修补程序功能

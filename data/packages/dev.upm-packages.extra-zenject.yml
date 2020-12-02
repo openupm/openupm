@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594180422180
+displayName_zhCN: 额外的Zenject
+description_zhCN: Zenject的额外实用工具

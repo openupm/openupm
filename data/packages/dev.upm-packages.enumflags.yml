@@ -9,3 +9,5 @@ topics:
   - utilities
 hunter: favoyang
 createdAt: 1576494296000
+displayName_zhCN: 枚举标志
+description_zhCN: 'Inspector中的[Flags]枚举的渲染列表框'

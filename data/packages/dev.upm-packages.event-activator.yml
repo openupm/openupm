@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594185942368
+displayName_zhCN: 事件激活器
+description_zhCN: 管理全局事件激活

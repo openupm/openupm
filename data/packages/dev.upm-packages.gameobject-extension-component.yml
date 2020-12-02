@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594181558832
+displayName_zhCN: GameObject扩展组件
+description_zhCN: UnityEngine.GameObject的扩展类

@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594227310417
+displayName_zhCN: UniRx ObservableLifecycleMono行为
+description_zhCN: 为MonoBehaviour.Awake()，MonoBehaviour.Start()提供UniRx包装

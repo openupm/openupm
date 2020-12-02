@@ -16,3 +16,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1587636551881
+displayName_zhCN: UniSharper.Data.SaveGame
+description_zhCN: UniSharper.Data.SaveGame是一个保存游戏系统，用于在Unity引擎中保存和加载游戏数据。

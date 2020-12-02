@@ -20,3 +20,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592605361723
+displayName_zhCN: PrefabAssetUtility
+description_zhCN: 该实用程序包可让您使用某种资源来获得所有Prefab，反之亦然。

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594348543978
+displayName_zhCN: 自动发布
+description_zhCN: 当推送tag时自动发布UPM软件包

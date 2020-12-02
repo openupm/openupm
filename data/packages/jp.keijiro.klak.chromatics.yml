@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://camo.githubusercontent.com/abe78d95e897b40fca736ab7bca2c6e336f065f9/68747470733a2f2f692e696d6775722e636f6d2f7a304b595443742e676966'
+image: >-
+  https://camo.githubusercontent.com/abe78d95e897b40fca736ab7bca2c6e336f065f9/68747470733a2f2f692e696d6775722e636f6d2f7a304b595443742e676966
 readme: 'upm:README.md'
 createdAt: 1599526541092
+displayName_zhCN: Klak Chromatics
+description_zhCN: 适用于Unity的余弦渐变生成器

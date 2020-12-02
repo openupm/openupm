@@ -15,3 +15,6 @@ gitTagPrefix: upm
 gitTagIgnore: ''
 image: null
 createdAt: 1586965256622
+displayName_zhCN: ReSharp.Data.iBoxDB
+description_zhCN: >-
+  iBoxDB是一种快速的事务表样式文档NoSQL。该存储库包含用于轻松执行iBoxDB数据库的iBoxDBContext。

@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://camo.githubusercontent.com/07b29751fc7a2dc775949e567775ad1b712accfc/68747470733a2f2f692e696d6775722e636f6d2f4c5950676c59446d2e6a7067'
+image: >-
+  https://camo.githubusercontent.com/07b29751fc7a2dc775949e567775ad1b712accfc/68747470733a2f2f692e696d6775722e636f6d2f4c5950676c59446d2e6a7067
 readme: 'master:README.md'
 createdAt: 1602441467722
+displayName_zhCN: 线性渐变
+description_zhCN: Unity标准渐变类的实用程序扩展

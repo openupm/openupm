@@ -14,3 +14,5 @@ image: >-
   https://github.com/InitialPrefabs/UGUIDots/raw/437eea29a499005030f3a3e30b9d4cd6bd8fe80c/Wiki/Images/batched-mesh-authoring.jpg
 readme: 'master:README.md'
 createdAt: 1588963449060
+displayName_zhCN: 游戏选项
+description_zhCN: Unity游戏的游戏选项元素

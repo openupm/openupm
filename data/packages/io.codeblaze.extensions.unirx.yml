@@ -8,9 +8,11 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: BLaZeKiLL
-gitTagPrefix: 'extensions/unirx'
+gitTagPrefix: extensions/unirx
 gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'upm/extensions/unirx:README.md'
 createdAt: 1604336770533
+displayName_zhCN: CodeBlaze扩展 - Unirx
+description_zhCN: CodeBlaze的Unity软件包

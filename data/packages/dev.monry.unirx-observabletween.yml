@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594411851169
+displayName_zhCN: UniRx可观察的Tween
+description_zhCN: 基于UniRx的Tweener库

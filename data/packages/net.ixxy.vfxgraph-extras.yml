@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1603935896435
+displayName_zhCN: Ixxy视觉效果图（额外）
+description_zhCN: VisualEffectGraph的附加的草稿工具

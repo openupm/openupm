@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594180520992
+displayName_zhCN: AnimationEvent分发器
+description_zhCN: 通过动画分发AnimationEvent

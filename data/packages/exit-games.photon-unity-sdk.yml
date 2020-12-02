@@ -14,3 +14,4 @@ minVersion: ''
 image: 'https://www.photonengine.com/Content/unity-packages/PUN-LogoTeaser-FREE.jpg'
 readme: 'upm:README.md'
 createdAt: 1593276990585
+displayName_zhCN: Photon Unity网络SDK

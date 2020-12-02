@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1587640742108
+displayName_zhCN: UniSharper.Localization
+description_zhCN: UniSharper.Localization是Unity应用程序的序列化数据驱动的文本本地化。

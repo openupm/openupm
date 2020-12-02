@@ -9,3 +9,5 @@ topics:
   - animation
 hunter: setchi
 createdAt: 1577865726000
+displayName_zhCN: EasingCore
+description_zhCN: "\U0001F409Unity的核心Easing实现。"

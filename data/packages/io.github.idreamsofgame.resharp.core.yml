@@ -12,3 +12,5 @@ gitTagPrefix: upm
 gitTagIgnore: ''
 image: null
 createdAt: 1586703354612
+displayName_zhCN: ReSharp核心
+description_zhCN: ReSharp.Core是一个.NET库。

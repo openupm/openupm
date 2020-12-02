@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'upm/extensions/cinemachine:README.md'
 createdAt: 1599893254345
+displayName_zhCN: CodeBlaze扩展 - Cinemachine
+description_zhCN: CodeBlaze的Unity软件包

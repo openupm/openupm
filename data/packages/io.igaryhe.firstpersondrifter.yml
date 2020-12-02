@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602256006700
+displayName_zhCN: 第一人称漂移
+description_zhCN: 简单的第一人称角色控制器。

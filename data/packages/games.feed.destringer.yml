@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594857821398
+displayName_zhCN: Destringer
+description_zhCN: 代码生成工具，用于为Unity3D的Animator API创建类型安全包装。

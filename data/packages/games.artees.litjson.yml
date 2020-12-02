@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'develop:README.md'
 createdAt: 1589050010749
+displayName_zhCN: LitJSON
+description_zhCN: .Net框架的JSON库

@@ -14,3 +14,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1588528711172
+displayName_zhCN: Unity类型的Json.NET转换器
+description_zhCN: Newtonsoft.Json的常见Unity类型的转换器。与jilleJr/Newtonsoft并驾齐驱

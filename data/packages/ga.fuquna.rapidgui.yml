@@ -10,4 +10,7 @@ topics:
 hunter: fuqunaga
 gitTagIgnore: ''
 createdAt: 1579662829888
-image: https://raw.githubusercontent.com/fuqunaga/RapidGUI/master/Documentation~/rapidgui.png
+image: >-
+  https://raw.githubusercontent.com/fuqunaga/RapidGUI/master/Documentation~/rapidgui.png
+displayName_zhCN: RapidGUI
+description_zhCN: Unity OnGUI (IMGUI)扩展，用于快速原型开发

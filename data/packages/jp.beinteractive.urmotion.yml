@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://cloud.githubusercontent.com/assets/1482297/13769261/98ecd9ee-eac1-11e5-88d5-17f898f569bd.gif'
+image: >-
+  https://cloud.githubusercontent.com/assets/1482297/13769261/98ecd9ee-eac1-11e5-88d5-17f898f569bd.gif
 readme: 'master:README.md'
 createdAt: 1592144703350
+displayName_zhCN: UrMotion
+description_zhCN: 灵活的运动引擎，用于Unity中非基于时间的动画。

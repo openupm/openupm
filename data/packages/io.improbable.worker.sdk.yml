@@ -14,3 +14,5 @@ image: >-
   https://github.com/spatialos/gdk-for-unity/raw/4471b599eac8a864161c6ce3b6cc5d4ee2e02cc3/spatialos_gdk_for_unity_header.png
 readme: 'master:README.md'
 createdAt: 1588903544312
+displayName_zhCN: SpatialOS Worker SDK
+description_zhCN: 适用于Unity的SpatialOS GDK

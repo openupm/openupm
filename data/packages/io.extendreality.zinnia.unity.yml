@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588963695820
+displayName_zhCN: Zinnia.Unity
+description_zhCN: 解决常见问题的设计模式集合。

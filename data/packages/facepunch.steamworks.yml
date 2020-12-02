@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594004963844
+displayName_zhCN: facepunch.steamworks
+description_zhCN: asmdefs支持和原始文件而不是dll的分叉

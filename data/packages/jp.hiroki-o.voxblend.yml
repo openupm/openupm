@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594412314700
+displayName_zhCN: VoxBlend
+description_zhCN: 适用于Unity的BlendShape控制器插件

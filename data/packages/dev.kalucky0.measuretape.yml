@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1602572837166
+displayName_zhCN: MeasureTape
+description_zhCN: MeasureTape是Unity编辑器扩展，可让您测量场景中的游戏对象。

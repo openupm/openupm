@@ -11,6 +11,9 @@ hunter: yomunsam
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/yomunsam/TinaX.I18N/master/README.assets/1592018075032.png'
+image: >-
+  https://raw.githubusercontent.com/yomunsam/TinaX.I18N/master/README.assets/1592018075032.png
 readme: 'master:README.md'
 createdAt: 1591649126337
+displayName_zhCN: TinaX.I18N
+description_zhCN: TinaX.I18N为TinaX Framework提供国际化功能支持

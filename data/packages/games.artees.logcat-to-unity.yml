@@ -12,3 +12,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589050092899
+displayName_zhCN: LogcatToUnity
+description_zhCN: 将Android日志消息发送到Unity游戏引擎。

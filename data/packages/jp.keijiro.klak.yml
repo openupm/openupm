@@ -13,6 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://camo.githubusercontent.com/8e0aef3d409cca1cf008a759c026356ddf5a439d/687474703a2f2f692e696d6775722e636f6d2f4c7973494e46412e676966'
+image: >-
+  https://camo.githubusercontent.com/8e0aef3d409cca1cf008a759c026356ddf5a439d/687474703a2f2f692e696d6775722e636f6d2f4c7973494e46412e676966
 readme: 'upm:README.md'
 createdAt: 1603738610470
+displayName_zhCN: Klak
+description_zhCN: 适用于Unity的创意编码库

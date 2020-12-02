@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594182211850
+displayName_zhCN: StopWatch
+description_zhCN: :watch:基于Unity框架更新的Unity StopWatch逻辑

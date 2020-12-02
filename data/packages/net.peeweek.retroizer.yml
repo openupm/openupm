@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589986610224
+displayName_zhCN: Retroizer
+description_zhCN: 适用于Unity的Retroizer Shader和摄像头系统

@@ -18,3 +18,5 @@ image: >-
   https://github.com/ExtendRealityLtd/Tilia.CameraRigs.TrackedAlias.Unity/raw/632366f050e2106503c5834f6b56040108a05c93/Documentation/HowToGuides/AddingATrackedAlias/assets/images/TrackedAliasInSceneWithExampleAvatarObjects.png
 readme: 'master:README.md'
 createdAt: 1594919570265
+displayName_zhCN: Tilia CameraRigs TrackedAlias Unity
+description_zhCN: 一个跟踪别名的Prefab，为Unity软件的活动摄像头Prefab提供通用别名

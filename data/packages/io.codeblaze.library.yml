@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm/library:README.md'
 createdAt: 1599892685777
+displayName_zhCN: CodeBlaze库
+description_zhCN: CodeBlaze的Unity软件包

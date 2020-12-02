@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589050448687
+displayName_zhCN: MoonSharp
+description_zhCN: 完全用C#编写的Lua语言的解释器的Unity软件包，包括方便的远程调试器功能

@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/838945/59932297-d662c500-9481-11e9-8554-15d4881891f9.png'
+image: >-
+  https://user-images.githubusercontent.com/838945/59932297-d662c500-9481-11e9-8554-15d4881891f9.png
 readme: 'master:README.md'
 createdAt: 1594411802355
+displayName_zhCN: Zenject InstanceBroker
+description_zhCN: 帮助库，使用Zenject.SignalBus动态通知生成的实例
