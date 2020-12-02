@@ -12,3 +12,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585603635642
+displayName_zhCN: PixelWizards-软件包实用程序
+description_zhCN: 以Unity的Package Manager格式打包资源的实用程序

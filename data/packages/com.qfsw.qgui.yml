@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1602952733731
+displayName_zhCN: QGUI
+description_zhCN: 当EditorGUILayout不可用时，Unity Engine的简单但有效的IMGUI库

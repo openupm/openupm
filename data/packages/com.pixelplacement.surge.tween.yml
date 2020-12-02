@@ -14,3 +14,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585753151534
+displayName_zhCN: Surge Tween
+description_zhCN: 通过“像素放置”在Surge工具集中用于Tween功能的UPM项目

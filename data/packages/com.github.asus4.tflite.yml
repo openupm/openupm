@@ -16,4 +16,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1595000016178
 displayName_zhCN: TensorFlow Lite
-description_zhCN: Tensorflow Lite的Unity范例
+description_zhCN: Tensorflow Lite的Unity示例

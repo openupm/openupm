@@ -18,4 +18,4 @@ image: null
 readme: 'upm:README.md'
 createdAt: 1592177385051
 displayName_zhCN: BCKWorks EcsRx Unity
-description_zhCN: 使用ECS范例和Unirx构建的响应式编程框架
+description_zhCN: 使用ECS示例和Unirx构建的响应式编程框架

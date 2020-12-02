@@ -11,6 +11,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/kamyker/PlayFabUnityEditorExtensions/master/_repoAssets/img/EdEx_Project.png'
+image: >-
+  https://raw.githubusercontent.com/kamyker/PlayFabUnityEditorExtensions/master/_repoAssets/img/EdEx_Project.png
 readme: 'master:README.md'
 createdAt: 1594005441028
+displayName_zhCN: PlayFabSDK
+description_zhCN: 适用于PlayFab的Unity C#SDK

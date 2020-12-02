@@ -16,3 +16,4 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 createdAt: 1605377184476
+displayName_zhCN: KD树

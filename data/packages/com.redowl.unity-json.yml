@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588979225617
+displayName_zhCN: RedOwl - Unity Json
+description_zhCN: 以C#原生方式实现JSON规范，从而可以更轻松地与JSON节点树进行交互

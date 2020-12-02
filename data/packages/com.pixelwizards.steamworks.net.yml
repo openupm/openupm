@@ -18,3 +18,5 @@ minVersion: 14.1.0-preview.1
 image: null
 readme: 'package:README.md'
 createdAt: 1593286502624
+displayName_zhCN: Steamworks.NET
+description_zhCN: 适用于Unity / C#的Steamworks包装，以Unity的Package Manager格式进行了重组。

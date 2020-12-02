@@ -1,6 +1,6 @@
 name: com.omiyagames.common
-displayName: Omiya游戏 - Common
-description: Unity package containing libraries used by various Omiya游戏 tools
+displayName: Omiya Games - Common
+description: Unity package containing libraries used by various Omiya Games tools
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-common'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -13,4 +13,4 @@ gitTagIgnore: ''
 image: null
 createdAt: 1585431583441
 displayName_zhCN: Omiya游戏 - 通用
-description_zhCN: Unity软件包，其中包含各种Omiya游戏工具使用的库
+description_zhCN: Unity软件包，其中包含各种Omiya Games工具使用的库

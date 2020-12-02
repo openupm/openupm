@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592783416552
+displayName_zhCN: com.pixelwizards.ncalc
+description_zhCN: Ncalc的Unity包装

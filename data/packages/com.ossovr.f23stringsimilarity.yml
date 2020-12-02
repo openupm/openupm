@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1597866855406
+displayName_zhCN: F23.StringSimilarity
+description_zhCN: java-string-similarity.NET移植

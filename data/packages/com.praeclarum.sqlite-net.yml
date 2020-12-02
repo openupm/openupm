@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1605611498245
+displayName_zhCN: SQLite.net
+description_zhCN: .NET的简单，强大，跨平台的SQLite客户端和ORM

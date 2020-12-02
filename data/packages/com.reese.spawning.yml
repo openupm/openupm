@@ -1,7 +1,8 @@
 name: com.reese.spawning
 displayName: Reese's DOTS Spawning
 description: >-
-  Generic DOTS runtime spawning for any combination of prefab, components, and buffers.
+  Generic DOTS runtime spawning for any combination of prefab, components, and
+  buffers.
 repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -16,3 +17,5 @@ image: >-
   https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/spawn-demo.gif
 readme: 'master:Packages/com.reese.spawning/README.md'
 createdAt: 1582651661648
+displayName_zhCN:  Reese的DOTS复制器
+description_zhCN: 通用的DOTS运行时复制器，可生成预制件，组件和缓冲区的任意组合。

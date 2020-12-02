@@ -13,6 +13,8 @@ topics:
 hunter: pablothedolphin
 gitTagPrefix: ''
 gitTagIgnore: ''
-image:  >-
+image: >-
   https://github.com/speckleworks/SpeckleUnity/raw/master/SpeckleUnity/Assets/SpeckleUnity/Editor/speckle-logo.png
 createdAt: 1587370355167
+displayName_zhCN: SpeckleUnity
+description_zhCN: 将live 3D数据导入Unity，通过开放数据BIM平台 - Speckle!

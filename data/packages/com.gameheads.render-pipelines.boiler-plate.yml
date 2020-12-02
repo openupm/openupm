@@ -15,4 +15,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1604289873784
 displayName_zhCN: Gameheads渲染管线模板
-description_zhCN: 一个简单的可编程管线范例
+description_zhCN: 一个简单的可编程管线示例

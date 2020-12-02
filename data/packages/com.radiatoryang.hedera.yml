@@ -11,9 +11,12 @@ topics:
   - editor-enhancement
   - painting
 hunter: JesseTG
-gitTagPrefix: 'v'
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/2285943/60907136-d0713000-a246-11e9-97a2-de9cb8ffa8cd.gif'
+image: >-
+  https://user-images.githubusercontent.com/2285943/60907136-d0713000-a246-11e9-97a2-de9cb8ffa8cd.gif
 readme: 'master:README.md'
 createdAt: 1589321266467
+displayName_zhCN: Hedera
+description_zhCN: 在Unity编辑器中绘制3D ivy，查看程序生成的网格的实时模拟增长和附着

@@ -14,3 +14,5 @@ gitTagIgnore: ''
 minVersion: 0.0.13
 image: 'https://avatars2.githubusercontent.com/u/62178684'
 createdAt: 1584361495094
+displayName_zhCN: React Unity
+description_zhCN: 用于在Unity UI中构建用户界面的React渲染器

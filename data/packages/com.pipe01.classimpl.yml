@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'unity:README.md'
 createdAt: 1593804926557
+displayName_zhCN: ClassImpl
+description_zhCN: 类似于伪造的库，但面向运行时动态修改。

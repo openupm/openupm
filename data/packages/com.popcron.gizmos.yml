@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1588954806049
+displayName_zhCN: Popcron Gizmos
+description_zhCN: 用于在构建和绘制Unity3D编辑器的运行时小控件

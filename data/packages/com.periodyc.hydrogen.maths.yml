@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589238770492
+displayName_zhCN: Hydrogen数学
+description_zhCN: Hydrogen.Maths是一个数学实用程序库，旨在在Unity.Mathematics的基础上添加功能以及我们游戏的自定义数学函数。

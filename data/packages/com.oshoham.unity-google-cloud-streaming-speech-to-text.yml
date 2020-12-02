@@ -15,3 +15,5 @@ minVersion: 0.1.8
 image: null
 readme: 'master:README.md'
 createdAt: 1597966560241
+displayName_zhCN: Google Cloud Streaming 语音到文本
+description_zhCN: 一个Unity插件，可使用Google Cloud 语音到文本技术从麦克风进行实时的，非预定的语音到文本的转录。

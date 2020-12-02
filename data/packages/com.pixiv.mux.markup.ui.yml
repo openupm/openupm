@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'circleci:LICENSE.md'
 createdAt: 1588978904837
+displayName_zhCN: Mux.Markup.UI
+description_zhCN: Mux XAML的Unity UI包装。

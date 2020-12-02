@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593289220364
+displayName_zhCN: Ghost Buster
+description_zhCN: 在Unity项目中删除对Boo和UnityScript程序的引用。

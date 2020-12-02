@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1585368565530
+displayName_zhCN: PcgRandom
+description_zhCN: 与Unity软件包管理兼容的PCG随机数生成器的C#版本

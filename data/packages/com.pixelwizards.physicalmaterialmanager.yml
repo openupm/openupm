@@ -9,5 +9,8 @@ topics:
   - physics
 hunter: pixelwizards
 gitTagIgnore: ''
-image: 'https://github.com/PixelWizards/com.pixelwizards.physicalmaterialmanager/raw/master/Documentation~/MainWindow.png'
+image: >-
+  https://github.com/PixelWizards/com.pixelwizards.physicalmaterialmanager/raw/master/Documentation~/MainWindow.png
 createdAt: 1580168365423
+displayName_zhCN: PixelWizards-物理材质管理器
+description_zhCN: Unity PhysicMaterials的简单管理器

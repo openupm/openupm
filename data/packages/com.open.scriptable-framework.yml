@@ -14,6 +14,10 @@ topics:
 hunter: pablothedolphin
 gitTagPrefix: ''
 gitTagIgnore: ''
-image:  >-
+image: >-
   https://github.com/pablothedolphin/Scriptable-Framework/raw/master/docfx/template/logo.png
 createdAt: 1587371076414
+displayName_zhCN: ScriptableObject的框架
+description_zhCN: >-
+  一个基于ScriptableObject体系结构，面向数据的设计和事件驱动的编程的模块化框架，可帮助程序员和设计人员遵守5
+  SOLID编程原则。

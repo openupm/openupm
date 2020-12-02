@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589410596791
+displayName_zhCN: KDTrees Volumes
+description_zhCN: 快速的KDTree，带有线程安全的查询。

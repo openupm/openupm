@@ -18,3 +18,5 @@ minVersion: ''
 image: 'https://github.com/PingAK9/Mobile-Dialog-Unity/blob/master/Img/iOSDate.png'
 readme: 'package:README.md'
 createdAt: 1602622171599
+displayName_zhCN: mobile-dialog-unity
+description_zhCN: 移动对话框的Unity实现（信息，确认，中立，日期时间选择器，Toast，进度）

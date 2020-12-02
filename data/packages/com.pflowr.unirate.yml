@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'release:README.md'
 createdAt: 1598427758154
+displayName_zhCN: UniRate
+description_zhCN: Unity插件可轻松管理应用程序的帧频和渲染间隔。防止电池功耗和设备发热，尤其是在移动平台上。
