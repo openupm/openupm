@@ -15,3 +15,5 @@ image: >-
   https://github.com/lunarcloud/ballpoint-unity/raw/8b729c85de1e41be6afbef2d706e6dc53a8e47d1/screenshot3.jpg
 readme: 'master:README.md'
 createdAt: 1602183899946
+displayName_zhCN: Ballpoint for Ink
+description_zhCN: 在Unity上使用Inkle墨水的工具

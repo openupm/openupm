@@ -14,6 +14,6 @@ minVersion: 1.0.0
 image: null
 readme: 'master:readme.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UnityCodeGen
+description_zhCN: Unity3d的代码生成库。
 createdAt: 1606909617758

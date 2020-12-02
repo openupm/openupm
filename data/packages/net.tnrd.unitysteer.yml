@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1605782682388
+displayName_zhCN: Unity转向装置
+description_zhCN: Unity游戏引擎的转向装置，避障和路径跟随行为

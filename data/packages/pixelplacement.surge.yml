@@ -14,6 +14,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/d85f19d8-6fa1-4d92-b693-f8a425167c82.webp'
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/d85f19d8-6fa1-4d92-b693-f8a425167c82.webp
 readme: 'master:README.md'
 createdAt: 1593296832897
+displayName_zhCN: Surge
+description_zhCN: PixelPlacement的Surge的UPM版本。

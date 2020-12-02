@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604245570930
+displayName_zhCN: 对象池
+description_zhCN: 固定大小的已预先分配的元素集合

@@ -16,3 +16,5 @@ image: >-
   https://github.com/Hermesiss/unity-buildplus/raw/c57b44e2ee513cc1de24ab1a112a01584f8ef401/Packages/trismegistus.unity.buildplus/Documentation~/images/mainWindow.jpg
 readme: 'master:README.md'
 createdAt: 1598737366314
+displayName_zhCN: Trismegistus Build+
+description_zhCN: Semver实用程序，用于带有变更日志/发行说明生成器的Unity项目

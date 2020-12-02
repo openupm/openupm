@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592410568071
+displayName_zhCN: Medicine
+description_zhCN: 适用于Unity的代码驱动的组件注入工具包。

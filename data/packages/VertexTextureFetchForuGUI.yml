@@ -16,4 +16,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1589385761089
 displayName_zhCN: vertextexturefetchfetui.
-description_zhCN: 比较方法生成参数纹理。
+description_zhCN: 比较方法生成参数贴图。

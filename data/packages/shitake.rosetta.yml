@@ -14,3 +14,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589252596194
+displayName_zhCN: Rosetta
+description_zhCN: Rosette upm仓库

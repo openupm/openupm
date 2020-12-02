@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Twity
+description_zhCN: 适用于Unity C#的Twitter API客户端（例如：twitter-for-unity）
 createdAt: 1606755815612

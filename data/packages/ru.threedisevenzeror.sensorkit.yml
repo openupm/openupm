@@ -12,3 +12,5 @@ gitTagIgnore: ''
 image: >-
   https://github.com/3DI70R/SensorKit/raw/974557941870f3c641ab39f5ccbfcfe15bc613b7/Images/SensorKitLogo.gif
 createdAt: 1581117090849
+displayName_zhCN: 传感器套件
+description_zhCN: 在Unity中使用射线配置的实用程序类

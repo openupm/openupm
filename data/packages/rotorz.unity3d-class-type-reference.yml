@@ -10,8 +10,11 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: JesseTG
-gitTagPrefix: 'v'
+gitTagPrefix: v
 gitTagIgnore: ''
-image: 'https://raw.githubusercontent.com/d4160/unity3d-class-type-reference/master/screenshot.png'
+image: >-
+  https://raw.githubusercontent.com/d4160/unity3d-class-type-reference/master/screenshot.png
 readme: 'master:README.md'
 createdAt: 1589048010202
+displayName_zhCN: Class类型参考
+description_zhCN: 一个示例npm软件包，其中包含一些示例资源，以演示如何创建用于在使用Unity游戏引擎制作的游戏中使用的软件包。

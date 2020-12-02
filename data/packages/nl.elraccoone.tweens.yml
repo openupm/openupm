@@ -18,3 +18,5 @@ image: >-
   https://github.com/elraccoone/unity-tweens/raw/e3d1b20c6538c12d9de41eb13155f3d813fe5bf2/.github/WIKI/repository-open-graph-template.png
 readme: 'master:README.md'
 createdAt: 1600620028616
+displayName_zhCN: Tweens
+description_zhCN: 轻巧，可扩展和可自定义的Tween引擎，用于基于脚本的动画，用于针对所有平台优化的用户界面和世界空间对象。

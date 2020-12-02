@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604245635823
+displayName_zhCN: 简单的FPS计数器
+description_zhCN: 适用于Unity的简单FPS计数器

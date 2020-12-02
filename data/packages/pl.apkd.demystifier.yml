@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1592086357089
+displayName_zhCN: Apkd.UnityDemystifier
+description_zhCN: 改进了Unity的堆栈跟踪显示。

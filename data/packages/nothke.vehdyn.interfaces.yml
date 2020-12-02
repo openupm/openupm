@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605122430394
+displayName_zhCN: VehDyn接口
+description_zhCN: 用于各种车辆动力学实现之间接口的软件包

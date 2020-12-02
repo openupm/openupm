@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594479269036
+displayName_zhCN: 图层和标签生成器
+description_zhCN: 图层和标签的代码生成器

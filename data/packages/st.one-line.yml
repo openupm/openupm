@@ -15,3 +15,5 @@ image: >-
   https://github.com/slavniyteo/one-line/raw/359c594b9a185fd95325a492fb27e40671974ac4/Documentation~/store/Screenshot_3.png
 readme: 'master:README.md'
 createdAt: 1592140248593
+displayName_zhCN: OneLine
+description_zhCN: Unity3d的一行属性绘制

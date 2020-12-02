@@ -16,3 +16,5 @@ image: >-
   https://github.com/k0dep/stator/raw/eeb6804e3bc30a60c47efbda4bb143cf58d13bf3/Docs~/stator-zenject-benchmark.png
 readme: 'master:README.md'
 createdAt: 1591726312380
+displayName_zhCN: Stator
+description_zhCN: oIoC容器使用代码生成而不是反射来管理和解决依赖关系

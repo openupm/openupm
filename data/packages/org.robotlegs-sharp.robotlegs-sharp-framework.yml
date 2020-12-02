@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1592736547412
+displayName_zhCN: Robotlegs-Sharp
+description_zhCN: 一个C#应用程序框架。从Robotlegs移植到ActionScript 3。

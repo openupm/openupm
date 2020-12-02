@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589238307711
+displayName_zhCN: UniNativeLinq
+description_zhCN: LINQ对NativeArray<T>的最快无托管无分配实现。

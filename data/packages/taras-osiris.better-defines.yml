@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1592085551386
+displayName_zhCN: 更好的定义
+description_zhCN: 一种轻松优雅的方法来管理Unity3D中的预处理程序指令

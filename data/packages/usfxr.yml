@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1605803699690
+displayName_zhCN: usfxr
+description_zhCN: sfxr/as3sfxr/bfxr的Unity移植

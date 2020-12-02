@@ -12,3 +12,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589055386287
+displayName_zhCN: Unitinium
+description_zhCN: 基于lua脚本的Unity e2e测试框架

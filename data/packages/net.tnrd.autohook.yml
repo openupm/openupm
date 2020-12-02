@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1599662554384
+displayName_zhCN: AutoHook
+description_zhCN: 属性绘制会自动为您的字段分配引用

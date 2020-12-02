@@ -9,10 +9,12 @@ topics:
   - camera
   - physics
   - utilities
-hunter: 'TheDudeFromCI'
+hunter: TheDudeFromCI
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1590714703814
+displayName_zhCN: FirstSight
+description_zhCN: 为Unity编写的第一人称控制器插件。

@@ -15,3 +15,5 @@ image: >-
   https://github.com/Hertzole/HertzVox-2/raw/86e6830b5cbba07cdd79f3cfc5e844c722d3afbf/Gizmos/Collection.png
 readme: 'master:README.md'
 createdAt: 1590078160595
+displayName_zhCN: HertzVox
+description_zhCN: 一个高效且易于使用的Unity voxel框架。

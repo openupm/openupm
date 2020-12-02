@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594235515228
+displayName_zhCN: Monry依赖
+description_zhCN: Unity Package Manager的从属软件包

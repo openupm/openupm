@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589306820863
+displayName_zhCN: UnityJsonRpc
+description_zhCN: ":scroll: \U0001F5A5Unity3d软件包的\U0001F5A5️Jsonrpc v1.0服务器实现"

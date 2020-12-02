@@ -14,3 +14,5 @@ minVersion: 1.0.0
 image: null
 readme: 'master:README.md'
 createdAt: 1596396812505
+displayName_zhCN: Paps状态机核心
+description_zhCN: Paps状态机软件包的核心类

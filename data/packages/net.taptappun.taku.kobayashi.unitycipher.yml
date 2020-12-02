@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589228402545
+displayName_zhCN: UnityCipher
+description_zhCN: 这是Unity中的密码库，包括AESCipher和RSACipher。

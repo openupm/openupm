@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1593277726723
+displayName_zhCN: PlayFab UnitySDK
+description_zhCN: 适用于PlayFab的Unity C# SDK

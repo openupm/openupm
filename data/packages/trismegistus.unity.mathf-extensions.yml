@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1598737427159
+displayName_zhCN: Trismegistus Mathf Ext
+description_zhCN: Mathf扩展提供更多RX风格

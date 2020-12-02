@@ -15,3 +15,5 @@ image: >-
   https://github.com/RemyUnity/CRT-Texture-Packer/raw/b65a069b3d264a06e33e4cc00c1e79b67b9c5361/Documentation~/Images/Detail-Map.png
 readme: 'master:README.md'
 createdAt: 1589988291272
+displayName_zhCN: CRT贴图包装机
+description_zhCN: 使用自定义渲染贴图制作的贴图打包工具

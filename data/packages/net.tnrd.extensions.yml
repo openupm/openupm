@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593740504669
+displayName_zhCN: 扩展集合
+description_zhCN: 我发现在使用Unity和C#时有用的一组简单扩展

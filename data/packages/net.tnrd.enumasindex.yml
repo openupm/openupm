@@ -15,3 +15,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594673119135
+displayName_zhCN: 枚举索引
+description_zhCN: 一个允许您将枚举用作数组和列表的索引的属性

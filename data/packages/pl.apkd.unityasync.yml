@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.MD'
 createdAt: 1592086836712
+displayName_zhCN: Apkd.UnityAsync
+description_zhCN: 高性能，无分配的Unity async/await库。

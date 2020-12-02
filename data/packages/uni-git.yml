@@ -15,3 +15,5 @@ image: >-
   https://github.com/simeonradivoev/UniGit/raw/8f4104ed3e4f386ef90e4554eda816a217990d8d/Editor/Icons/file_submodule.png
 readme: 'master:README.md'
 createdAt: 1588908128235
+displayName_zhCN: uni-git
+description_zhCN: 一个开源的GIT Unity3D编辑器插件。

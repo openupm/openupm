@@ -20,3 +20,6 @@ image: >-
   https://github.com/elraccoone/unity-entity-component-system/raw/2d736850d475613dd80400d2f74c0d6f6e0db5a4/.github/WIKI/lifecycle.png
 readme: 'master:README.md'
 createdAt: 1600619945860
+displayName_zhCN: 实体组件系统
+description_zhCN: >-
+  一种更好的游戏设计方法，可让您专注于要解决的实际问题：构成游戏的数据和行为。通过从面向对象的设计过渡到面向数据的设计，您将更容易重用代码，而其他人也更容易理解和使用它。

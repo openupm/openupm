@@ -9,7 +9,9 @@ topics:
   - utilities
 hunter: JesseTG
 gitTagPrefix: ''
-gitTagIgnore: '^v'
+gitTagIgnore: ^v
 image: null
 readme: 'master:README.md'
 createdAt: 1589252456892
+displayName_zhCN: Zenject
+description_zhCN: "\U0001F489Unity3D软件包的依赖注入框架"

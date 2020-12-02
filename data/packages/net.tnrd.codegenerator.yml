@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594478800813
+displayName_zhCN: 代码生成器
+description_zhCN: 一组有助于代码生成的类

@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1594235448458
+displayName_zhCN: XsvUtility
+description_zhCN: XsvUtility具有CSV和TSV的序列化器和反序列化器。

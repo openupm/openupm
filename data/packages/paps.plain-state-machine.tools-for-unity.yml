@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1599598126425
+displayName_zhCN: Paps普通状态机工具
+description_zhCN: 在Unity 3d中轻松构建普通状态机的工具

@@ -20,3 +20,6 @@ image: >-
   https://github.com/elraccoone/unity-web-sockets/raw/37e58e0db7760462f03fd5ee09467a026e925be7/.github/WIKI/logo.jpg
 readme: 'master:README.md'
 createdAt: 1600620398398
+displayName_zhCN: Web Sockets
+description_zhCN: >-
+  Unity Web Sockets提供了用于使用Web Socket的包装，Web Socket是一种高级技术，它允许客户端浏览器和服务器之间进行实时交互通信，实现和HTTP协议不同的双向数据流。

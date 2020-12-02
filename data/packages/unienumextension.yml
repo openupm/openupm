@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589234943975
+displayName_zhCN: UniEnumExtension
+description_zhCN: Unity编辑器扩展，可让枚举类型更快，更高效。
