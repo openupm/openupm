@@ -90,3 +90,4 @@ Open-source friendly services
 - [Netlify](https://github.com/netlify) for hosting the website (region US).
 - [JDCloud](https://www.jdcloud.com/) for hosting the website (region CN).
 - [GitHub Actions](https://github.com/features/actions) for CI.
+- [Mergify](https://mergify.io/) for automatically merging. (use referral code `openupm-241828` to get one year free seat)

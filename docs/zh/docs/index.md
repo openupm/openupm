@@ -5,7 +5,7 @@ showFooter: false
 ---
 # 介绍
 
-OpenUPM是一项用于托管和构建开源UPM软件包的服务。UPM是“Unity软件包管理器”的缩写。OpenUPM由两部分组成：可托管的UPM软件包仓库和与之配合的自动构建管线。我们的初衷是创建一个统一的平台，来发现、共享和分发开源的UPM软件包，以及围绕此构建一个开源社区。
+OpenUPM是一项用于托管和构建开源UPM软件包的服务。UPM是“Unity软件包管理器”的缩写。OpenUPM由两部分组成：可托管的UPM软件包仓库和与之配合的自动构建管线。我们的初衷是创建一个Unity的平台，来发现、共享和分发开源的UPM软件包，以及围绕此构建一个开源社区。
 
 ::: warning 免责声明
 OpenUPM是一项开源服务，而不是Unity Technologies优美缔软件提供的一项服务。
@@ -92,3 +92,4 @@ OpenUPM是一项开源服务。多亏了下面这些令人赞叹的开源项目�
 - [Netlify](https://github.com/netlify) 用于托管国际区网站。
 - [Digital Ocean](https://m.do.co/c/50e7f9860fa9) 用于托管国际区服务。
 - [京东智联云](https://www.jdcloud.com/) 用于托管中国区服务。
+- [Mergify](https://mergify.io/) 用于GitHub的自动化合并. (使用推荐码`openupm-241828`可获得1年的免费使用资格)
