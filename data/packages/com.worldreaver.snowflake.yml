@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589565975845
+displayName_zhCN: Snowflake
+description_zhCN: Flake ID 生成器是C#中的一组分散的，按k排序的id生成服务。

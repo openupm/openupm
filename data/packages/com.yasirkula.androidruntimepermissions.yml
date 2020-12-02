@@ -15,3 +15,5 @@ image: >-
   https://github.com/yasirkula/UnityAndroidRuntimePermissions/raw/c19a719d31aa70b1fd10f66ca2a46ec79bd7d212/.github/Images/permission.png
 readme: 'master:.github/README.md'
 createdAt: 1589513209941
+displayName_zhCN: Android运行时权限
+description_zhCN: 一个原生Unity插件来处理Android M+上的运行时权限

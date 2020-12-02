@@ -15,3 +15,5 @@ image: >-
   https://github.com/whoisfpc/com.whoisfpc.consolevariable/raw/960b51997fdca5b55badbfc758e7f6412f422beb/cvar_demo.gif
 readme: 'master:README.md'
 createdAt: 1591730849301
+displayName_zhCN: 控制台变量
+description_zhCN: Unity控制台变量

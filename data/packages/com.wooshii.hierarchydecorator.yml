@@ -17,3 +17,5 @@ image: >-
   https://github.com/WooshiiDev/HierarchyDecorator/raw/fd6d39e67138d68f857f2152840ea809b464e43e/Assets/HierarchyDecorator/Resources/HierarchyDecoratorLogo.png
 readme: 'master:README.md'
 createdAt: 1599516719936
+displayName_zhCN: 层级装饰器
+description_zhCN: 轻量级Unity扩展，允许在层级结构窗口内显示标题和GameObject信息

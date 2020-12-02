@@ -16,3 +16,5 @@ minVersion: 1.0.4
 image: null
 readme: 'master:README.md'
 createdAt: 1604871013551
+displayName_zhCN: Geometry 3 Sharp
+description_zhCN: 用于2D/3D几何计算，Mesh算法等的C#库。

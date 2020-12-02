@@ -16,4 +16,4 @@ image: >-
 readme: 'master:README.md'
 createdAt: 1591996627989
 displayName_zhCN: 边缘检测
-description_zhCN: 基于Unity后处理栈v2的边缘检测和边框绘制
+description_zhCN: 基于Unity后期处理栈v2的边缘检测和边框绘制

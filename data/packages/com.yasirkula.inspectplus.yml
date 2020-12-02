@@ -15,3 +15,5 @@ image: >-
   https://github.com/yasirkula/UnityInspectPlus/raw/d0187258345b6d482402ef68a0bcf25523e81176/.github/Images/screenshot.png
 readme: 'master:.github/README.md'
 createdAt: 1589513625414
+displayName_zhCN: Inspect+
+description_zhCN: 在Unity 3D中加快您的Inspector工作流程

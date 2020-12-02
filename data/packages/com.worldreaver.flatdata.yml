@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589566053088
+displayName_zhCN: FlatData 扁平数据
+description_zhCN: Unity的FlatData智能数据库

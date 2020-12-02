@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593006824067
+displayName_zhCN: 脚本模板管理器
+description_zhCN: Unity编辑器扩展，允许创建，编辑和共享自定义脚本模板

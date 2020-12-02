@@ -14,3 +14,5 @@ minVersion: 1.0.0
 image: null
 readme: 'main:README.md'
 createdAt: 1604866430420
+displayName_zhCN: Pdal
+description_zhCN: PDAL的Unity软件包

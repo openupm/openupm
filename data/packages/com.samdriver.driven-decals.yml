@@ -16,4 +16,4 @@ image: >-
 readme: 'upm-package:README.md'
 createdAt: 1591375320432
 displayName_zhCN: Driven Decals
-description_zhCN: 基于网格的PBR decal系统，用于Unity的通用渲染管线。
+description_zhCN: 基于Mesh的PBR decal系统，用于Unity的通用渲染管线。

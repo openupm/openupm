@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1596503835941
+displayName_zhCN: 控制台命令
+description_zhCN: Unity软件包为编辑器和运行时添加了对控制台命令和变量的支持。

@@ -15,4 +15,4 @@ image: null
 readme: 'master:README.md'
 createdAt: 1602456260251
 displayName_zhCN: UniAddressablesNewLinePostprocessor
-description_zhCN: Unity可寻址资源新行后处理器
+description_zhCN: Unity可寻址资源新行后期处理器

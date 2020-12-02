@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589565494582
+displayName_zhCN: SystemNumericsVectors
+description_zhCN: 提供硬件加速的数字类型，适用于高性能处理和图形应用程序。

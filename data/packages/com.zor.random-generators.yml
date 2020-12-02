@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1595006415465
+displayName_zhCN: 随机生成器
+description_zhCN: Unity随机生成器的集合。

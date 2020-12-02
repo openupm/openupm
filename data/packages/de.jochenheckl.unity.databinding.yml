@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1591474869980
+displayName_zhCN: 数据绑定
+description_zhCN: UnityGameObject的数据绑定。如果您喜欢MVVM用户界面，则从这里开始。

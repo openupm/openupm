@@ -13,3 +13,5 @@ gitTagIgnore: ''
 image: null
 readme: 'upm:README.md'
 createdAt: 1588906074807
+displayName_zhCN: FastEnum 快速枚举
+description_zhCN: C#/.NET，Unity上世界上最快的枚举实用程序

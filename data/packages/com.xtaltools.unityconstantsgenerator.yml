@@ -16,3 +16,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1596121616890
+displayName_zhCN: Unity常量生成器
+description_zhCN: Unity常量值代码生成器

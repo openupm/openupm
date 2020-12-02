@@ -15,3 +15,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1588414309591
+displayName_zhCN: OpenVR XR插件
+description_zhCN: 'SteamVR Unity插件 - 文档位于：https://valvesoftware.github.io/steamvr_unity_plugin/'

@@ -9,3 +9,5 @@ topics:
   - asset-management
 hunter: favoyang
 createdAt: 1576335029000
+displayName_zhCN: 层级结构文件夹
+description_zhCN: Unity层级结构的专用文件夹对象。

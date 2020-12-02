@@ -14,3 +14,4 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1593277666413
+displayName_zhCN: Unity常量和枚举生成器套件

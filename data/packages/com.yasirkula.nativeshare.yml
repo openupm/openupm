@@ -17,3 +17,5 @@ image: >-
   https://github.com/yasirkula/UnityNativeShare/raw/a6cba0d0347a923bf88d6e1f52b0e50fb6b98541/.github/screenshots/iOSPhotoLibraryPermission.png
 readme: 'master:.github/README.md'
 createdAt: 1589513732918
+displayName_zhCN: 原生共享
+description_zhCN: 一个Unity插件，可在Android和iOS上本地共享文件（图像，视频，文档等）

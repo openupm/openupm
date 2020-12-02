@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589695352913
+displayName_zhCN: 工具
+description_zhCN: 为C#，Unity提供一些实用程序脚本

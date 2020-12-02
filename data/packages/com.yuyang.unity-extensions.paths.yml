@@ -16,3 +16,5 @@ image: >-
   https://github.com/90-games/UnityExtensionsPaths/raw/f4cb05eba8a18efdb53054763771c9b8d083d419/Runtime/Editor/EditorResources/Path.png
 readme: 'master:README.md'
 createdAt: 1588907867151
+displayName_zhCN: Unity扩展路径
+description_zhCN: 该软件包包含2个spline路径：BezierPath和CardinalPath。

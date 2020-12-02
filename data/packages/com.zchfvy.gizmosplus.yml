@@ -15,3 +15,5 @@ minVersion: ''
 image: 'https://raw.githubusercontent.com/zchfvy/GizmosPlus/master/Images/showcase.png'
 readme: 'master:README.md'
 createdAt: 1591730586061
+displayName_zhCN: GizmosPlus
+description_zhCN: 提供其他GIzmo形状和工具的Unity软件包。

@@ -12,6 +12,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/7955682/38732057-79cf45b4-3f25-11e8-958f-07ba5290caba.PNG'
+image: >-
+  https://user-images.githubusercontent.com/7955682/38732057-79cf45b4-3f25-11e8-958f-07ba5290caba.PNG
 readme: 'master:README.md'
 createdAt: 1598550325511
+displayName_zhCN: UnityWakaTime
+description_zhCN: 适用于Unity的WakaTime插件

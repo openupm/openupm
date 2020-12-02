@@ -14,3 +14,5 @@ minVersion: 1.0.0
 image: null
 readme: 'main:README.md'
 createdAt: 1604847284865
+displayName_zhCN: Mdal
+description_zhCN: MDAL的Unity软件包-Mesh数据抽象层

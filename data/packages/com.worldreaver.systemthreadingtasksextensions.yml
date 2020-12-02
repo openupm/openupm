@@ -16,3 +16,5 @@ minVersion: 4.5.2
 image: null
 readme: 'master:README.md'
 createdAt: 1589565616631
+displayName_zhCN: SystemThreadingTasksExtensions
+description_zhCN: 提供其他类型，以简化编写并发和异步代码的工作。

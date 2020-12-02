@@ -14,3 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1596503885165
+displayName_zhCN: UniEnum
+description_zhCN: Enum实用程序

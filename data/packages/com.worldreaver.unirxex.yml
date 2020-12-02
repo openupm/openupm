@@ -15,3 +15,5 @@ image: >-
   https://github.com/worldreaver/UniRxEx/raw/d17e8ad97dcfc2d73acb944b9dc32802c2402b1d/Assets/Tests/StateMachine/UnityChan/Stage/Shader/Textures/Unity_Icon.png
 readme: 'upm:README.md'
 createdAt: 1593892228309
+displayName_zhCN: UniRxEx
+description_zhCN: 为UniRx提供更多扩展

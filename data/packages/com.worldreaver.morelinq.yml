@@ -14,3 +14,5 @@ minVersion: 3.3.3
 image: null
 readme: 'master:README.md'
 createdAt: 1589565722971
+displayName_zhCN: 更多LINQ
+description_zhCN: LINQ转对象的扩展+支持Unity

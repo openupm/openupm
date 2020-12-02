@@ -17,3 +17,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1589380446512
+displayName_zhCN: 系统内存
+description_zhCN: 提供高效的展示和对象池来为托管、堆栈和原生内存段以及此类段序列的类型，用于解析和格式化存储在这些内存段中的UTF-8编码文本。

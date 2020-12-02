@@ -14,3 +14,5 @@ image: >-
   https://github.com/yasirkula/UnitySimpleGDPRConsent/raw/cab83ef815483bdec8716421554ac74d1e958435/.github/Images/GDPRConsentDialog.png
 readme: 'master:.github/README.md'
 createdAt: 1588906574581
+displayName_zhCN: 简单的GDPR同意
+description_zhCN: 一个向用户展示GDPR同意对话框的Unity插件
