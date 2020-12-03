@@ -124,6 +124,14 @@ module.exports = {
             link: "https://github.com/openupm/openupm-cli#openupm-cli",
             icon: "fa fa-keyboard",
             iconLeft: true
+          },
+          {
+            text: "Region",
+            ariaLabel: "Region Menu",
+            items: [
+              { text: "Global", link: "/" },
+              { text: "China/中文区", link: "https://openupm.cn" }
+            ]
           }
         ],
         sidebar: {

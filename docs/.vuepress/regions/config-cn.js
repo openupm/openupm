@@ -70,16 +70,16 @@ module.exports = {
             link: "/zh/docs/"
           },
           {
-            text: "贡献",
-            ariaLabel: "Support Menu",
+            text: "支持",
+            ariaLabel: "支持菜单",
             items: [
-              { text: "支援OpenUPM", link: "/zh/support/" },
+              { text: "支持OpenUPM", link: "/zh/support/" },
               { text: "贡献者", link: "/contributors/" }
             ]
           },
           {
             text: "社区",
-            ariaLabel: "Connect Menu",
+            ariaLabel: "社区菜单",
             items: [
               {
                 text: "GitHub",
@@ -115,6 +115,14 @@ module.exports = {
               "https://github.com/openupm/openupm-cli/blob/master/README.zh-cn.md#openupm-cli",
             icon: "fa fa-keyboard",
             iconLeft: true
+          },
+          {
+            text: "区域",
+            ariaLabel: "区域菜单",
+            items: [
+              { text: "Global/国际区", link: "https://openupm.com" },
+              { text: "中文区", link: "/" }
+            ]
           }
         ],
         sidebar: {
