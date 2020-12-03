@@ -1,3 +1,10 @@
+# [1.44.0](https://github.com/openupm/openupm/compare/1.43.2...1.44.0) (2020-12-03)
+
+
+### Features
+
+* **website:** add the region sub-menu ([d8e7eab](https://github.com/openupm/openupm/commit/d8e7eabd45f47318694413711c2c52bb6e980353))
+
 ## [1.43.2](https://github.com/openupm/openupm/compare/1.43.1...1.43.2) (2020-11-29)
 
 
