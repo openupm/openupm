@@ -1,0 +1,19 @@
+name: com.ms.valuetaskext
+displayName: 'ValueTaskExt'
+description: .Net ValueTask Extensions for Unity
+repoUrl: 'https://github.com/wlgys8/ValueTaskExt'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607009948132
