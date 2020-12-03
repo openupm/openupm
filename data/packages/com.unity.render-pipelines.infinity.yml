@@ -1,0 +1,20 @@
+name: com.unity.render-pipelines.infinity
+displayName: Infinity Render Pipeline
+description: PBR Pipeline
+repoUrl: 'https://github.com/Pseudo-Game-Tech/InfinityRenderPipeline'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Pseudo-Game-Tech/InfinityRenderPipeline/raw/10783a5cc0d7a7066e943778043f57f72b2a84f9/Editor/Resources/Camera.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607025401480
