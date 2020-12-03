@@ -1,0 +1,23 @@
+name: com.brunomikoski.scenehierarchykeeper
+displayName: Scene Hierarchy Keeper
+description: >-
+  A simple tool that keeps your hierarchy exactly as you left for individual
+  scenes! 
+repoUrl: 'https://github.com/brunomikoski/SceneHierarchyKeeper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: brunomikoski/
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607032897012
