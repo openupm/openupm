@@ -57,7 +57,7 @@ export default {
 .nav-links
   .nav-item
     &.growth
-      margin-left 1.6rem
+      margin-left 0.4rem
       display inline-block
       .btn
         font-size 12px

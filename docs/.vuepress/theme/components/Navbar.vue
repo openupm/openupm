@@ -30,6 +30,9 @@ export default {
       color $accentColor
       text-decoration none
 
+  .links
+    right 0.4rem
+
   .nav-links
     .nav-item
       line-height 1.8rem
