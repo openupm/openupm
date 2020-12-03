@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity Shell
+description_zhCN: 在Unity编辑器中执行shell命令
 createdAt: 1607009827755

@@ -1,6 +1,6 @@
 name: com.ms.nativedialog
 displayName: Native Dialog
-description: 'Display native dialog in unity (support Android&iOS) '
+description: 'Display native dialog in Unity (support Android&iOS) '
 repoUrl: 'https://github.com/wlgys8/UnityNativeDialog'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 原生对话框
+description_zhCN: Unity原生对话框（支持Android&iOS）
 createdAt: 1607009749877
