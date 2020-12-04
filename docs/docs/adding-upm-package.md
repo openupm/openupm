@@ -7,11 +7,13 @@ showFooter: false
 
 ## UPM Package Criteria
 
-OpenUPM requires the package repository fulfills below criteria
-- Valid UPM structure, contains at least the `package.json` file, can be placed at a sub-folder.
-- Open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
-- Hosting on Github.
-- Git tags that are valid semver. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) feature, or [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create Git tags.
+OpenUPM requires the package fulfills the below criteria:
+- The package should comply with [Unity Terms](https://unity3d.com/legal/terms-of-service/software) and [Package Guidelines](https://unity3d.com/legal/terms-of-service/software/package-guidelines).
+- The package should be tested to make sure it works as expected.
+- The `package.json` could be placed at the root path or under a sub-folder.
+- The package should use an open-source license. It's recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
+- The package should be hosted on Github.
+- The package should contain versioned Git tags using [semantic versioning (semver)](https://semver.org/). i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. It's recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) page, or the [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create versioned Git tags.
 
 ## Understanding Different Folder Structures of UPM Repositories
 

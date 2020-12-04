@@ -7,11 +7,13 @@ showFooter: false
 
 ## UPM软件包标准
 
-OpenUPM要求软件包满足以下条件
-- 有效的UPM结构，至少包含一个`package.json`文件，可以放在任意的子文件夹中。
-- 开源许可证。建议从[spdx许可证列表](https://spdx.org/licenses/)中选择。
-- 托管在Github上，目前OpenUPM仅支持GitHub。
-- 利用Git标签进行版本控制，且包含符合[Semantic Versioning](https://semver.org/)标准的版本号。例如`v1.1.0`，`1.1.0`，`1.1.1-preview`，`v2.0.0-preview.1`。不符合标准的Git标签不会被构建。建议使用[GitHub发行](https://help.github.com/en/github/administering-a-repository/creating-releases)功能或使用[CI工具](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c)来创建Git标签。
+OpenUPM要求软件包满足以下条件：
+- 软件包应该符合[Unity使用条例](https://unity3d.com/legal/terms-of-service/software)和[软件包准则](https://unity3d.com/legal/terms-of-service/software/package-guidelines)。
+- 软件包应该提供其描述的功能，并被测试过。
+- 包含软件包信息的`package.json`文件，可以放置根路径下或任意的子文件夹中。
+- 软件包应该使用开源许可证。建议从[spdx许可证列表](https://spdx.org/licenses/)中选择。
+- 软件包需要被托管在Github上。
+- 软件包应该通过Git标签进行版本控制，且符合[Semantic Versioning 语义式版本](https://semver.org/)的标准。例如`v1.1.0`，`1.1.0`，`1.1.1-preview`或`v2.0.0-preview.1`。建议使用[GitHub发行](https://help.github.com/en/github/administering-a-repository/creating-releases)页面或使用[持续集成工具](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c)来创建含版本信息的Git标签。
 
 ## UPM代码仓库的文件结构
 
