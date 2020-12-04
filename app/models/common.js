@@ -43,7 +43,9 @@ const ReleaseReason = new Enum({
   // Invalid format of package.json
   PackageJsonParsingError: 804,
   // Connection timeout
-  ConnectionTime: 900
+  ConnectionTime: 900,
+  // Connection timeout
+  HeapOutOfMemroy: 901
 });
 
 /* Release reasons that considered as the failure of build service. The

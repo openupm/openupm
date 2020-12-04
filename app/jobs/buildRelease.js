@@ -206,6 +206,11 @@ const getReasonFromPublishLog = function(text) {
   else if (text.includes("error code EPRIVATE")) return ReleaseReason.Private;
   else if (text.includes("error code EJSONPARSE"))
     return ReleaseReason.PackageJsonParsingError;
+  else if (
+    text.includes("code ERR_STRING_TOO_LONG") ||
+    text.includes("JavaScript heap out of memory")
+  )
+    return ReleaseReason.HeapOutOfMemroy;
   return ReleaseReason.None;
 };
 

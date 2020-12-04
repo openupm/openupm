@@ -65,5 +65,13 @@ describe("app/jobs/buildRelease.js", function() {
         ReleaseReason.PackageJsonParsingError
       );
     });
+    it("PackageJsonParsingError", function() {
+      getReasonFromPublishLog("code ERR_STRING_TOO_LONG").should.equal(
+        ReleaseReason.HeapOutOfMemroy
+      );
+      getReasonFromPublishLog("JavaScript heap out of memory").should.equal(
+        ReleaseReason.HeapOutOfMemroy
+      );
+    });
   });
 });
