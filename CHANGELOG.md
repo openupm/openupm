@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/openupm/openupm/compare/1.44.0...1.45.0) (2020-12-04)
+
+
+### Features
+
+* **pipelines:** handle error heap out of memory ([172bfad](https://github.com/openupm/openupm/commit/172bfad5b11a6cf4c15620b4a03cd06f2d6dc616))
+
 # [1.44.0](https://github.com/openupm/openupm/compare/1.43.2...1.44.0) (2020-12-03)
 
 
