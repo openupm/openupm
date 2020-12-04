@@ -1,0 +1,20 @@
+name: com.unity.shadergraph
+displayName: Shader Graph
+description: Modified Shader Graph package implementing Procedural Stochastic Texturing
+repoUrl: 'https://github.com/UnityLabs/procedural-stochastic-texturing'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/8add32492b7da0230775fce4729ee0eab5b5fbae802d6fb371779086af81ef2d/68747470733a2f2f692e696d6775722e636f6d2f667041517331352e706e67'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607116219191
