@@ -1,3 +1,10 @@
+# [1.46.0](https://github.com/openupm/openupm/compare/1.45.0...1.46.0) (2020-12-05)
+
+
+### Features
+
+* **website:** make package description searchable ([cb6d5d0](https://github.com/openupm/openupm/commit/cb6d5d00f94bbc6bca3ecec2be6bfd70125478cb))
+
 # [1.45.0](https://github.com/openupm/openupm/compare/1.44.0...1.45.0) (2020-12-04)
 
 
