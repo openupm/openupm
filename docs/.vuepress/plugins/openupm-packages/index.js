@@ -1,6 +1,7 @@
 // OpenUPM Package Plugin.
 const { countBy, flatMap, groupBy, sortBy } = require("lodash/collection");
 const { toPairs } = require("lodash/object");
+const { escape } = require("lodash/string");
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
@@ -18,8 +19,14 @@ const pluginData = {};
 
 const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
 const getLocaleDisplayName = function(pkg) {
-  if (OPENUPM_REGION == "cn") return pkg.displayName_zhCN || pkg.displayName;
-  return pkg.displayName;
+  if (OPENUPM_REGION == "cn")
+    return pkg.displayName_zhCN || pkg.displayName || "";
+  return pkg.displayName || "";
+};
+const getLocaleDescription = function(pkg) {
+  if (OPENUPM_REGION == "cn")
+    return pkg.description_zhCN || pkg.description || "";
+  return pkg.description || "";
 };
 
 // eslint-disable-next-line no-unused-vars
@@ -183,6 +190,7 @@ module.exports = function(options, context) {
       let pages = [];
       for (let pkg of data.packages) {
         const displayName = getLocaleDisplayName(pkg);
+        const description = getLocaleDescription(pkg);
         let frontmatter = {
           layout: "PackageDetail",
           showFooter: false,
@@ -206,9 +214,11 @@ module.exports = function(options, context) {
             })
             .filter(x => x)
         };
+        const markdown =
+          "###### " + escape(description.replace(/(\r\n|\n|\r)/gm, ""));
         pages.push({
           path: "/packages/" + pkg.name + "/",
-          content: plugin.createPage(frontmatter)
+          content: plugin.createPage(frontmatter, markdown)
         });
       }
       return pages;
@@ -264,8 +274,9 @@ module.exports = function(options, context) {
     },
 
     // Create page content from frontmatter
-    createPage(frontmatter) {
-      return "---\n" + yaml.safeDump(frontmatter) + "\n---\n";
+    createPage(frontmatter, markdown) {
+      if (!markdown) markdown = "";
+      return "---\n" + yaml.safeDump(frontmatter) + "\n---\n" + markdown;
     }
     // #endregion
   };

@@ -425,6 +425,11 @@ export default {
     .column-meta
       max-width 17rem
 
+    // hide the search field
+    .content__default
+      h6
+        display none
+
   .sideview
     .subpage-section
       .menu-item
