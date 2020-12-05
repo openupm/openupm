@@ -1,0 +1,25 @@
+name: com.brunomikoski.scenekeeper
+displayName: Scene Keeper
+description: >-
+  A simple tool that keeps your hierarchy exactly as you left for individual
+  scenes in between switching scenes on editor or play mode.
+repoUrl: 'https://github.com/brunomikoski/SceneKeeper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607174810937
+
