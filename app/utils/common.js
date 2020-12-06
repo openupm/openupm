@@ -1,5 +1,10 @@
+/**
+ * Common utils that shared with client side.
+ **/
+
 /* eslint-disable no-unused-vars */
-// Common utils that shared with client side.
+
+const { isValidPackageName } = require("./package");
 
 /**
  * Get the cached avatar image filename
@@ -12,5 +17,6 @@ const getCachedAvatarImageFilename = function(username, size) {
 };
 
 module.exports = {
-  getCachedAvatarImageFilename
+  getCachedAvatarImageFilename,
+  isValidPackageName
 };

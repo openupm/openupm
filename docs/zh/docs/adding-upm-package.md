@@ -8,6 +8,7 @@ showFooter: false
 ## UPM软件包标准
 
 OpenUPM要求软件包满足以下条件：
+- 软件包名称应该符合[UPM命名约定](https://docs.unity.cn/cn/2020.2/Manual/cus-naming.html)
 - 软件包应该符合[Unity使用条例](https://unity3d.com/legal/terms-of-service/software)和[软件包准则](https://unity3d.com/legal/terms-of-service/software/package-guidelines)。
 - 软件包应该提供其描述的功能，并被测试过。
 - 包含软件包信息的`package.json`文件，可以放置根路径下或任意的子文件夹中。
