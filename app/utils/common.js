@@ -4,7 +4,7 @@
 
 /* eslint-disable no-unused-vars */
 
-const { isValidPackageName } = require("./package");
+// const { isValidPackageName } = require("./package");
 
 /**
  * Get the cached avatar image filename
@@ -17,6 +17,6 @@ const getCachedAvatarImageFilename = function(username, size) {
 };
 
 module.exports = {
-  getCachedAvatarImageFilename,
-  isValidPackageName
+  getCachedAvatarImageFilename
+  // isValidPackageName
 };
