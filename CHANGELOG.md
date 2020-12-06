@@ -1,3 +1,10 @@
+## [1.46.1](https://github.com/openupm/openupm/compare/1.46.0...1.46.1) (2020-12-06)
+
+
+### Bug Fixes
+
+* **pipelines:** add tests to ensure that package names are well-scoped (refs [#1521](https://github.com/openupm/openupm/issues/1521)) ([307ad23](https://github.com/openupm/openupm/commit/307ad23a790f9f98425e616e91c4952d35da607d))
+
 # [1.46.0](https://github.com/openupm/openupm/compare/1.45.0...1.46.0) (2020-12-05)
 
 
