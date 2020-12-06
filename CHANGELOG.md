@@ -1,3 +1,10 @@
+## [1.46.2](https://github.com/openupm/openupm/compare/1.46.1...1.46.2) (2020-12-06)
+
+
+### Bug Fixes
+
+* **website:** loading error caused by sharing code ([ec13729](https://github.com/openupm/openupm/commit/ec137292162c67c3c5af15012d9a904678adafc5))
+
 ## [1.46.1](https://github.com/openupm/openupm/compare/1.46.0...1.46.1) (2020-12-06)
 
 
