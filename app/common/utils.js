@@ -19,23 +19,23 @@ const isValidPackageName = function(packageName) {
 // Validate a package name based on https://docs.unity3d.com/Manual/cus-naming.html
 const validPackageName = function(packageName) {
   if (!packageName)
-    throw new ValidationError("name should not be empty", "empty");
+    throw new ValidationError("package name should not be empty", "empty");
   const maxLength = 214;
   if (packageName.length > maxLength)
     throw new ValidationError(
-      `name length should be less or equal to ${maxLength}`,
+      `package name length should be less or equal to ${maxLength}, but length is ${packageName.length}`,
       "max-length-error"
     );
   const nameRe = /^[a-z0-9._-]+$/;
   if (!nameRe.test(packageName))
     throw new ValidationError(
-      "name should contain only lowercase letters, digits, hyphens(-), underscores (_), and periods (.)",
+      "package name should contain only lowercase letters, digits, hyphens(-), underscores (_), and periods (.)",
       "invalid-characters-error"
     );
   const items = packageName.split(".");
   if (items.length < 3)
     throw new ValidationError(
-      "name should conform to reverse domain name notation",
+      "package name should conform to reverse domain name notation",
       "invalid-scopes-error"
     );
   return true;

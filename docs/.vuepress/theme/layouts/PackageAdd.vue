@@ -116,6 +116,12 @@
                       {{ path }}</option
                     >
                   </select>
+                  <span
+                    v-if="packageInfo"
+                    class="form-input-hint display-block"
+                  >
+                    {{ packageInfo.name }}
+                  </span>
                   <span v-if="form.packageJson.error" class="form-input-hint">
                     {{ form.packageJson.error }}
                   </span>
@@ -562,6 +568,7 @@ import yaml from "js-yaml";
 import NavLink from "@theme/components/NavLink.vue";
 import ParentLayout from "@theme/layouts/Layout.vue";
 import util from "@root/docs/.vuepress/util";
+import commonUtils from "@root/app/common/utils";
 
 const SubmitStep = new Enum({
   FillForm: 0,
@@ -957,12 +964,11 @@ export default {
         let content = atob(resp.data.content);
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
+        // Verify package existence
         if (this.$page.frontmatter.packageNames.includes(packageName))
           throw new Error(`The package ${packageName} already exists.`);
-        if (packageName.includes("@"))
-          throw new Error(
-            `Package name "${packageName}" contains the invalid character "@".`
-          );
+        // Verify package naming
+        commonUtils.validPackageName(packageName);
         // License
         if (
           this.$data.packageInfo.license &&
