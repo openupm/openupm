@@ -1,0 +1,19 @@
+name: com.utj.stripvariant
+displayName: ShaderStripVariant
+description: 'プロジェクト内にあるShaderVariantCollectionを探してきて、登録されていないVariantはすべてビルドから除外します。'
+repoUrl: 'https://github.com/wotakuro/StrippingByVariantCollection'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607378948480
