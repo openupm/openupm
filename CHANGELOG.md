@@ -1,3 +1,10 @@
+## [1.46.3](https://github.com/openupm/openupm/compare/1.46.2...1.46.3) (2020-12-07)
+
+
+### Bug Fixes
+
+* **website:** ensure that package names are well-scoped in package add form (refs [#1521](https://github.com/openupm/openupm/issues/1521)) ([814b740](https://github.com/openupm/openupm/commit/814b7403caa5a10839540660af532f277fed8f72))
+
 ## [1.46.2](https://github.com/openupm/openupm/compare/1.46.1...1.46.2) (2020-12-06)
 
 
