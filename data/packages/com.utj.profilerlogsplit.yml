@@ -1,0 +1,19 @@
+name: com.utj.profilerlogsplit
+displayName: Profiler Log Split
+description: UnityのProfilerのバイナリログに関するアレコレです
+repoUrl: 'https://github.com/wotakuro/ProfilerBinarylogSplit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - profiling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/wotakuro/ProfilerBinarylogSplit/master/Documentation%7E/img/After.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607306789303
