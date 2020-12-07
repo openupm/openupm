@@ -1,7 +1,7 @@
-name: be.khepri.pad-addressables
+name: be.khepri.play.assetdelivery.addressables
 displayName: Addressables Play Asset Delivery
 description: Android Play Asset Delivery support for Unity Addressables
-repoUrl: 'https://github.com/jelte/be.khepri.addressables-pad'
+repoUrl: 'https://github.com/jelte/be.khepri.play.assetdelivery.addressables'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''
