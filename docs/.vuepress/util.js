@@ -7,7 +7,7 @@ var dateFnsZhLocale = require("date-fns/locale/zh-CN").default;
 const { isDate } = require("lodash/lang");
 const urljoin = require("url-join");
 
-const { getCachedAvatarImageFilename } = require("@root/app/utils/common");
+const { getCachedAvatarImageFilename } = require("@root/app/common/utils");
 
 const BASE_DOMAIN = process.env.BASE_DOMAIN;
 const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";

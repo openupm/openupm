@@ -5,7 +5,7 @@ const should = require("should");
 const rewire = require("rewire");
 
 const buildReleaseModule = rewire("../app/jobs/buildRelease");
-const { ReleaseReason } = require("../app/models/common");
+const { ReleaseReason } = require("../app/common/constant");
 const getReasonFromPublishLog = buildReleaseModule.__get__(
   "getReasonFromPublishLog"
 );

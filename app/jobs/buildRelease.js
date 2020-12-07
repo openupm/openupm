@@ -11,7 +11,7 @@ const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../models/common");
+} = require("../common/constant");
 const Release = require("../models/release");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const {

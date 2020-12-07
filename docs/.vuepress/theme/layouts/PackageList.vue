@@ -146,13 +146,13 @@ import { reverse, uniq } from "lodash/array";
 import { trim } from "lodash/string";
 
 import AppLayout from "@theme/layouts/AppLayout.vue";
-import common from "@theme/common";
+import constant from "@theme/constant";
 import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 import util from "@root/docs/.vuepress/util";
 
-const SortType = common.SortType;
+const SortType = constant.SortType;
 
 export default {
   components: {

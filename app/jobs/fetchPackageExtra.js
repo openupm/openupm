@@ -7,7 +7,7 @@ const config = require("config");
 const urljoin = require("url-join");
 
 const PackageExtra = require("../models/packageExtra");
-const { getCachedAvatarImageFilename } = require("../utils/common");
+const { getCachedAvatarImageFilename } = require("../common/utils");
 const {
   createGqlClient,
   gitFileContentGql,

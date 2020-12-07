@@ -68,7 +68,7 @@ import urljoin from "url-join";
 import { paramCase } from "change-case";
 
 import NavLink from "@theme/components/NavLink.vue";
-import { ReleaseState, ReleaseReason } from "@root/app/models/common";
+import { ReleaseState, ReleaseReason } from "@root/app/common/constant";
 import util from "@root/docs/.vuepress/util";
 
 const ReleaseReasonNote = {};

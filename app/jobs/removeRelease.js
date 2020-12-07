@@ -3,7 +3,7 @@
 const config = require("config");
 const { queues } = require("../queues/core");
 const Release = require("../models/release");
-const { ReleaseState } = require("../models/common");
+const { ReleaseState } = require("../common/constant");
 const logger = require("../utils/log")(module);
 
 // Remove release for given packageName and version.

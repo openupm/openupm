@@ -111,7 +111,7 @@ import PackagePipelines from "@theme/components/PackagePipelines.vue";
 import PackageReadme from "@theme/components/PackageReadme.vue";
 import PackageRelated from "@theme/components/PackageRelated.vue";
 import PackageVersions from "@theme/components/PackageVersions.vue";
-import { ReleaseState } from "@root/app/models/common";
+import { ReleaseState } from "@root/app/common/constant";
 import util from "@root/docs/.vuepress/util";
 
 const SubPage = {

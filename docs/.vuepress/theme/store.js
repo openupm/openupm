@@ -4,10 +4,10 @@ import urljoin from "url-join";
 import Vue from "vue";
 import Vuex from "vuex";
 
-import common from "@theme/common";
+import constant from "@theme/constant";
 import util from "@root/docs/.vuepress/util";
 
-const SortType = common.SortType;
+const SortType = constant.SortType;
 
 Vue.use(Vuex);
 

@@ -9,7 +9,7 @@ const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../models/common");
+} = require("../common/constant");
 const { queues, addJob } = require("../queues/core");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
