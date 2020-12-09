@@ -1,0 +1,21 @@
+name: com.cammin.ldtkunityparser
+displayName: LDtk to Unity Parser
+description: A Unity package that simply deserializes an LDtk project into many C# structs.
+repoUrl: 'https://github.com/Cammin/LDtkUnityParser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+  - utilities
+hunter: Cammin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607494505491
