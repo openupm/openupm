@@ -1,0 +1,19 @@
+name: com.ms.ugui.viewportedlayouts
+displayName: ViewportedLayouts
+description: high performance large elements layout in rect viewport for unity UGUI
+repoUrl: 'https://github.com/wlgys8/ViewportedLayouts'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: wlgys8
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607607530238
