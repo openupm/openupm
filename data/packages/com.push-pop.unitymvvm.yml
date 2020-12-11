@@ -15,6 +15,6 @@ image: >-
   https://github.com/push-pop/Unity-MVVM/raw/7296de66844b7768b930c15800897a0cc1f377c9/Docs/Images/BindingMonitor.jpg
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UnityMVVM
+description_zhCN: 适用于Unity3D的轻量级MVVM框架
 createdAt: 1607110821556

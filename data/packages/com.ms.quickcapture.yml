@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 快速截屏
+description_zhCN: Unity编辑器的快速屏幕捕获
 createdAt: 1607025161481

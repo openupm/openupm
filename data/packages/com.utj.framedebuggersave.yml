@@ -11,9 +11,10 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/wotakuro/FrameDebuggerSave/master/Documantation%7E/img/FrameDebuggerSave.png'
+image: >-
+  https://raw.githubusercontent.com/wotakuro/FrameDebuggerSave/master/Documantation%7E/img/FrameDebuggerSave.png
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: FrameDebugger保存
 description_zhCN: ''
 createdAt: 1607379275282

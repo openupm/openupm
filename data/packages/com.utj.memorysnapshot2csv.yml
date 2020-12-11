@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: MemoryProfilerToCsv MemoryProfiler转CSV
+description_zhCN: 将Unity的新Memory Profiler（2018.3+）导出为CSV
 createdAt: 1607386420755

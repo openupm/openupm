@@ -15,6 +15,6 @@ image: >-
   https://github.com/wotakuro/UnityCofigUtil/raw/25d016258f2117d6393b7c62a0e4358e4e4d196c/Documentation~/img/ConfigWindow.png
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniCofigUtil
+description_zhCN: 简单配置工具
 createdAt: 1607379218004

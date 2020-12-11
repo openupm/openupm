@@ -19,7 +19,6 @@ minVersion: ''
 image: null
 readme: 'develop:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Scene Keeper 场景保存
+description_zhCN: 一个简单的工具，可以使您在编辑器或播放模式下切换场景时保持之间场景的层次结构。
 createdAt: 1607174810937
-

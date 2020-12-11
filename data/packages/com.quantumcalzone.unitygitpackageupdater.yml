@@ -11,9 +11,10 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://camo.githubusercontent.com/93136ecaa159ce17f433a4e727ba6ff3a77a38caa85fa6a6cd5802d05317fb43/68747470733a2f2f696d6775722e636f6d2f5a54426a7952652e706e67'
+image: >-
+  https://camo.githubusercontent.com/93136ecaa159ce17f433a4e727ba6ff3a77a38caa85fa6a6cd5802d05317fb43/68747470733a2f2f696d6775722e636f6d2f5a54426a7952652e706e67
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UnityGitPackageUpdater
+description_zhCN: 轻松更新通过Git托管的Unity软件包
 createdAt: 1607643127635

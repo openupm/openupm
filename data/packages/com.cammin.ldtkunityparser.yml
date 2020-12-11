@@ -16,6 +16,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: LDtk的Unity解析器
+description_zhCN: 一个Unity软件包，仅将LDtk项目反序列化为多个C＃结构。
 createdAt: 1607494505491

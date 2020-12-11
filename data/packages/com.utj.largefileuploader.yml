@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: largeFileUploader大文件上传器
 description_zhCN: ''
 createdAt: 1607379141167

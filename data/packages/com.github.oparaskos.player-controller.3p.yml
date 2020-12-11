@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 第三人称Player控制器
 description_zhCN: ''
 createdAt: 1607032354743

@@ -15,6 +15,6 @@ image: >-
   https://github.com/Pseudo-Game-Tech/InfinityRenderPipeline/raw/10783a5cc0d7a7066e943778043f57f72b2a84f9/Editor/Resources/Camera.png
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 无限渲染管线
+description_zhCN: PBR管道
 createdAt: 1607025401480
