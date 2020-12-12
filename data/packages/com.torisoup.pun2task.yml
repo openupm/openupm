@@ -1,4 +1,4 @@
-name: net.torisoup.pun2task
+name: com.torisoup.pun2task
 displayName: Pun2Task
 description: This library enables async/await in Photon Unity Networking 2.
 repoUrl: 'https://github.com/TORISOUP/Pun2Task'
