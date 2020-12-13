@@ -54,6 +54,7 @@
 - [Community](#community)
 - [Contributors](#contributors)
 - [Terms and license](#terms-and-license)
+- [Status](#status)
 
 ## Introduction
 
@@ -103,3 +104,7 @@ Thank you to [all the people](https://openupm.com/contributors/) who already con
 - Source code licensed under [BSD-3-Clause](./LICENSE)
 - OpenUPM website and public registry [terms-of-use](https://openupm.com/docs/terms.html)
 - [Code of conduct](https://openupm.com/docs/code-of-conduct.html)
+
+## Status
+
+See https://openupm.github.io/upptime/
