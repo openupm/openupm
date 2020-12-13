@@ -80,6 +80,10 @@ export default {
         {
           link: util.getDocsUrl("/docs/privacy"),
           text: this.$t("privacy-policy")
+        },
+        {
+          link: "https://openupm.github.io/upptime/",
+          text: this.$t("status")
         }
       ];
     },
