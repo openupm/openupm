@@ -1,3 +1,10 @@
+# [1.47.0](https://github.com/openupm/openupm/compare/1.46.3...1.47.0) (2020-12-13)
+
+
+### Features
+
+* **website:** add status page (close [#1714](https://github.com/openupm/openupm/issues/1714)) ([9422c3d](https://github.com/openupm/openupm/commit/9422c3dd0037e6aa9fca524a8a9b8af5bd973051))
+
 ## [1.46.3](https://github.com/openupm/openupm/compare/1.46.2...1.46.3) (2020-12-07)
 
 
