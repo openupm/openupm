@@ -50,6 +50,11 @@ describe("app/jobs/buildRelease.js", function() {
         ReleaseReason.ServiceUnavailable
       );
     });
+    it("GatewayTimeout", function() {
+      getReasonFromPublishLog("error code E504").should.equal(
+        ReleaseReason.GatewayTimeout
+      );
+    });
     it("PackageNotFound", function() {
       getReasonFromPublishLog("ENOENT error path package.json").should.equal(
         ReleaseReason.PackageNotFound

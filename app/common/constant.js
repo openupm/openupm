@@ -31,6 +31,8 @@ const ReleaseReason = new Enum({
   BadGateway: 502,
   // Server bad gateway
   ServiceUnavailable: 503,
+  // Server bad gateway
+  GatewayTimeout: 504,
   // Build timeout.
   BuildTimeout: 700,
   // BuildCancellation
@@ -63,6 +65,7 @@ const RetryableReleaseReason = [
   ReleaseReason.InternalError,
   ReleaseReason.BadGateway,
   ReleaseReason.ServiceUnavailable,
+  ReleaseReason.GatewayTimeout,
   ReleaseReason.BuildTimeout,
   ReleaseReason.BuildCancellation
 ];

@@ -146,6 +146,7 @@ release-reason-build-timeout: 构建超时
 release-reason-connection-time: 连接超时
 release-reason-entity-too-large: 软件包体积过大
 release-reason-forbidden: 服务器禁止访问
+release-reason-gateway-timeout: 服务器超时
 release-reason-heap-out-of-memroy: 堆溢出错误（软件包体积过大）
 release-reason-internal-error: 服务器内部错误
 release-reason-none: 未知错误
