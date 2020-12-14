@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:PylonsSdk/Core/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons SDK（核心）
 description_zhCN: ''
 createdAt: 1607914641504

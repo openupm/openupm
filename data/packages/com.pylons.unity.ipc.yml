@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:PylonsIpc/Unity/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons IPC
 description_zhCN: ''
 createdAt: 1607914365833

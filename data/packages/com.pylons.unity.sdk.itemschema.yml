@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:PylonsSdk/ItemSchema/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons SDK（ItemSchema）
 description_zhCN: ''
 createdAt: 1607914808849
