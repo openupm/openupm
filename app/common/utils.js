@@ -35,7 +35,7 @@ const validPackageName = function(packageName) {
   const items = packageName.split(".");
   if (items.length < 3)
     throw new ValidationError(
-      "package name should conform to reverse domain name notation",
+      "package name should conform to reverse domain name notation with at least 3 components (tld.org-name.pkg-name)",
       "invalid-scopes-error"
     );
   return true;
