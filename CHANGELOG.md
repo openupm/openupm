@@ -1,3 +1,10 @@
+## [1.47.1](https://github.com/openupm/openupm/compare/1.47.0...1.47.1) (2020-12-14)
+
+
+### Bug Fixes
+
+* **pipelines:** handle E504 gateway timeout ([b18497e](https://github.com/openupm/openupm/commit/b18497ef55207ddd10c2ee5ac7d3d8ffddcd66f0))
+
 # [1.47.0](https://github.com/openupm/openupm/compare/1.46.3...1.47.0) (2020-12-13)
 
 
