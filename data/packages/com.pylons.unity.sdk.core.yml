@@ -1,0 +1,19 @@
+name: com.pylons.unity.sdk.core
+displayName: Pylons SDK for Unity (Core)
+description: null
+repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: afti_githobo
+gitTagPrefix: pylons_sdk_core
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:PylonsSdk/Core/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1607914641504
