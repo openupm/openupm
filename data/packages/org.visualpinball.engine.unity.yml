@@ -1,0 +1,22 @@
+name: org.visualpinball.engine.unity
+displayName: Visual Pinball Engine
+description: ':video_game: Visual Pinball Engine for Unity'
+repoUrl: 'https://github.com/freezy/VisualPinball.Engine'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - frameworks
+  - level-design
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/freezy/VisualPinball.Engine/raw/2c001a196ef4f12ebbfe8bac76af4ca816c9b78a/VisualPinball.Unity/Documentation~/creators-guide/setup/unity-first-play.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1608313864655
