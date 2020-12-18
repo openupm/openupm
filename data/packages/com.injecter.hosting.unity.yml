@@ -9,7 +9,7 @@ topics:
   - frameworks
   - utilities
 hunter: KuraiAndras
-gitTagPrefix: unity-hosting
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
