@@ -89,6 +89,12 @@ module.exports = {
                 iconLeft: true
               },
               {
+                text: "GitHub论坛",
+                link: "https://github.com/openupm/openupm/discussions",
+                icon: "fas fa-hands-helping",
+                iconLeft: true
+              },
+              {
                 text: "知乎专栏",
                 link: "https://www.zhihu.com/column/c_1308910319477874688",
                 icon: "fab fa-zhihu",
