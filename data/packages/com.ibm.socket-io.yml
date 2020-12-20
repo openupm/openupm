@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Socket.IO
+description_zhCN: C#的Socket.IO客户端
 createdAt: 1608401371218
