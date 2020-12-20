@@ -91,6 +91,7 @@ Have a bug or a feature request? Please first search for existing and closed iss
 ## Community
 
 - Blog regularly at [medium.com/openupm](https://medium.com/openupm)
+- Discuss at https://github.com/openupm/openupm/discussions
 - Chat at [Discord](https://discord.gg/FnUgWEP)
 - Contact us at [hello@openupm.com](hello@openupm.com)
 - Track package updates at [the RSS feed](https://openupm.com/feeds/updates/rss)
