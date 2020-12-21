@@ -1,0 +1,23 @@
+name: org.handrianj.u3drtg
+displayName: Unity 3D Runtime Transform Gizmo
+description: >-
+  A runtime transform gizmo similar to unitys editor so you can translate (move,
+  rotate, scale) objects at runtime.
+repoUrl: 'https://github.com/handrianj/Unity3DRuntimeTransformGizmo'
+parentRepoUrl: 'https://github.com/cyrilBoucher/Unity3DRuntimeTransformGizmo'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - physics
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1608575922370
