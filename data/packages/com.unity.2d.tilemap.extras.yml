@@ -1,0 +1,23 @@
+name: com.unity.2d.tilemap.extras
+displayName: 2D Tilemap Extras
+description: Fun 2D Stuff that we'd like to share!
+repoUrl: 'https://github.com/Unity-Technologies/2d-extras'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ' Unity Companion License'
+topics:
+  - 2d
+  - editor-enhancement
+  - level-design
+  - painting
+hunter: marcus-robinson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/2d-extras/raw/b6c00b2ccf99963e784e2e5dd81b0bf9a52cf38c/Documentation~/images/BrushDropdown.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1608596236382
