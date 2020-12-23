@@ -12,9 +12,10 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/6134875/95450828-d9990180-09a1-11eb-9126-e798733ed86f.gif'
+image: >-
+  https://user-images.githubusercontent.com/6134875/95450828-d9990180-09a1-11eb-9126-e798733ed86f.gif
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniAssetMoveConfirmDialog
+description_zhCN: '[Unity]编辑器扩展，在项目视图中移动资源时显示确认对话框'
 createdAt: 1608574610433

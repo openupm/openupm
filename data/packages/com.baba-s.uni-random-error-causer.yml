@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniRandomErrorCauser
+description_zhCN: '[Unity]有规律地定期产生错误的组件'
 createdAt: 1608574717944

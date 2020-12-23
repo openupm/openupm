@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity Commons
+description_zhCN: 与项目无关的可重用脚本库
 createdAt: 1608572376541
