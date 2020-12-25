@@ -2,11 +2,11 @@ name: com.xrtk.oculus
 displayName: XRTK.Oculus
 description: The Oculus platform components for the XRTK
 repoUrl: 'https://github.com/XRTK/Oculus'
-parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
+  - oculus
 hunter: favoyang
 createdAt: 1577884999000
 displayName_zhCN: XRTK的Oculus
