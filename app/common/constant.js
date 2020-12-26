@@ -41,8 +41,6 @@ const ReleaseReason = new Enum({
   PackageNotFound: 800,
   // Private repo
   Private: 801,
-  // Package name not match
-  PackageNameNotMatch: 802,
   // Package name invalid
   PackageNameInvalid: 803,
   // Invalid format of package.json
