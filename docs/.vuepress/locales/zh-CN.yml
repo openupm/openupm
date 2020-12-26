@@ -153,7 +153,7 @@ release-reason-none: 未知错误
 release-reason-package-json-parsing-error: package.json格式错误
 release-reason-package-name-invalid: 该软件包名称包含不支持的字符，例如“@”
 release-reason-package-name-not-match: 该软件包名称与package.json不匹配
-release-reason-package-not-found: 未能找到有效的package.json
+release-reason-package-not-found: 未能找到package.json的路径
 release-reason-private: 该软件包是私有的
 release-reason-service-unavailable: 服务器暂时无响应
 release-reason-unauthorized: 服务器未授权

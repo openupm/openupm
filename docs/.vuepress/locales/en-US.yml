@@ -134,7 +134,7 @@ release-reason-none: unknown error
 release-reason-package-json-parsing-error: invalid format of package.json
 release-reason-package-name-invalid: the package name includes unsupported @ character
 release-reason-package-name-not-match: the name of package.json isn't matched
-release-reason-package-not-found: no valid package.json detected
+release-reason-package-not-found: error path package.json
 release-reason-private: the package is explicitly private
 release-reason-service-unavailable: server unavailable
 release-reason-unauthorized: server unauthorized
