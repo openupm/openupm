@@ -78,5 +78,12 @@ describe("app/jobs/buildRelease.js", function() {
         ReleaseReason.HeapOutOfMemroy
       );
     });
+    it("RemoteBranchNotFound", function() {
+      getReasonFromBuildLogText(`Cloning into 'repo'...
+warning: Could not find remote branch 4.7.1a to clone.
+fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
+        ReleaseReason.RemoteBranchNotFound
+      );
+    });
   });
 });

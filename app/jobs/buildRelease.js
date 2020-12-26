@@ -193,7 +193,10 @@ const getFullBuildLogText = async function(release) {
 
 // Get the failure reason from the full build log text.
 const getReasonFromBuildLogText = function(text) {
-  if (text.includes("EPUBLISHCONFLICT")) return ReleaseReason.VersionConflict;
+  if (/fatal: Remote branch .* not found/.test(text))
+    return ReleaseReason.RemoteBranchNotFound;
+  else if (text.includes("EPUBLISHCONFLICT"))
+    return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
   else if (text.includes("error code E400")) {
