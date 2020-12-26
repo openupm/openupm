@@ -1,9 +1,11 @@
 // Azure util.
 const Enum = require("enum");
+const urljoin = require("url-join");
 
 const azureDevops = require("azure-devops-node-api");
-const config = require("config");
 const buildInterfaces = require("azure-devops-node-api/interfaces/BuildInterfaces");
+const config = require("config");
+
 const util = require("util");
 
 const BuildStatus = new Enum(buildInterfaces.BuildStatus);
@@ -51,8 +53,31 @@ const waitBuild = async function(buildApi, buildId) {
   return null;
 };
 
+// Return the build logs URL for raw log indexes.
+const getBuildLogsUrl = function(buildId) {
+  return urljoin(
+    config.azureDevops.buildUrlBase,
+    "_apis/build/builds/",
+    buildId + "",
+    "logs"
+  );
+};
+
+// Return the build step log URL.
+const getBuildSectionLogUrl = function(buildId, stepId) {
+  return urljoin(
+    config.azureDevops.buildUrlBase,
+    "_apis/build/builds/",
+    buildId + "",
+    "logs",
+    stepId + ""
+  );
+};
+
 module.exports = {
   getBuildApi,
+  getBuildLogsUrl,
+  getBuildSectionLogUrl,
   queueBuild,
   waitBuild,
   BuildStatus,

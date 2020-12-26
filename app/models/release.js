@@ -7,8 +7,6 @@
  *       1.0.1: JSON_STRING
  */
 
-const config = require("config");
-const urljoin = require("url-join");
 const redis = require("../db/redis");
 const { pick } = require("lodash/object");
 
@@ -83,21 +81,10 @@ const fetchAll = async function(packageName) {
   return Object.values(objs).map(x => JSON.parse(x));
 };
 
-const buildPublishResultUrl = function(release) {
-  // TODO: find url from buildTimelineUrl content.
-  return urljoin(
-    config.azureDevops.buildUrlBase,
-    "_apis/build/builds/",
-    release.buildId,
-    "logs/15"
-  );
-};
-
 module.exports = {
   save,
   remove,
   fetchOne,
   fetchOneOrThrow,
-  fetchAll,
-  buildPublishResultUrl
+  fetchAll
 };

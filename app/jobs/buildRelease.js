@@ -16,6 +16,8 @@ const Release = require("../models/release");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const {
   getBuildApi,
+  getBuildLogsUrl,
+  getBuildSectionLogUrl,
   queueBuild,
   waitBuild,
   BuildStatus,
@@ -123,8 +125,8 @@ const waitReleaseBuild = async function(buildApi, release) {
 // Handle release build.
 const handleReleaseBuild = async function(build, release) {
   // Update publish log.
-  let publishLog = "";
-  if (release.buildId) publishLog = await getPublishLog(release);
+  let fullLogText = "";
+  if (release.buildId) fullLogText = await getFullBuildLogText(release);
   // Handle build succeeded.
   if (
     build &&
@@ -150,7 +152,7 @@ const handleReleaseBuild = async function(build, release) {
     if (build === null) reason = ReleaseReason.BuildTimeout;
     else if (build.status == BuildStatus.Cancelling)
       reason = ReleaseReason.BuildCancellation;
-    else reason = getReasonFromPublishLog(publishLog);
+    else reason = getReasonFromBuildLogText(fullLogText);
     // eslint-disable-next-line require-atomic-updates
     release.state = ReleaseState.Failed.value;
     // eslint-disable-next-line require-atomic-updates
@@ -165,7 +167,7 @@ const handleReleaseBuild = async function(build, release) {
   }
 };
 
-// Log release error
+// Log release error.
 const logReleaseError = function(release) {
   logger.error(
     {
@@ -177,14 +179,20 @@ const logReleaseError = function(release) {
   );
 };
 
-// Get publish log
-const getPublishLog = async function(release) {
-  let resp = await superagent.get(Release.buildPublishResultUrl(release));
-  return resp.text;
+// Get full build log text.
+const getFullBuildLogText = async function(release) {
+  // Fetch build logs to find the last section id.
+  const buildLogsUrl = getBuildLogsUrl(release.buildId);
+  let resp = await superagent.get(buildLogsUrl).type("json");
+  const lastStepId = resp.body.value[resp.body.value.length - 1].id;
+  // Fetch the last section log which contains the full build log text.
+  const buildLogSectionUrl = getBuildSectionLogUrl(release.buildId, lastStepId);
+  let resp2 = await superagent.get(buildLogSectionUrl);
+  return resp2.text;
 };
 
-// Get reason from publish log.
-const getReasonFromPublishLog = function(text) {
+// Get the failure reason from the full build log text.
+const getReasonFromBuildLogText = function(text) {
   if (text.includes("EPUBLISHCONFLICT")) return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
