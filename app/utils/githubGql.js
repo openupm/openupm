@@ -1,3 +1,6 @@
+/**
+ * GitHub GraphQL API
+ */
 const config = require("config");
 const { GraphQLClient } = require("graphql-request");
 
