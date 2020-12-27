@@ -1,3 +1,11 @@
+## [1.47.2](https://github.com/openupm/openupm/compare/1.47.1...1.47.2) (2020-12-27)
+
+
+### Bug Fixes
+
+* **pipelines:** handle remote branch not found error ([3f75b73](https://github.com/openupm/openupm/commit/3f75b733fb3df401a2ed4669252c44aafcf1807b))
+* **pipelines:** remove unsued PackageNameNotMatch error code ([9dbb7fc](https://github.com/openupm/openupm/commit/9dbb7fcc1547a29cccaf9105cc6b4d3914b25d9d))
+
 ## [1.47.1](https://github.com/openupm/openupm/compare/1.47.0...1.47.1) (2020-12-14)
 
 
