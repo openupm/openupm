@@ -13,7 +13,7 @@
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "docs:serve": "serve ./docs/.vuepress/dist",
-    "gh:ratelimit": "node ./app/jobs/githubRateLimit.js",
+    "gh:ratelimit": "node ./app/jobs/getGithubRateLimit.js",
     "queue:process": "node ./app/queues/process main",
     "queue:status": "node ./app/queues/showStatus main",
     "queue:remove": "node ./app/queues/removeJob main",

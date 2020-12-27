@@ -1,5 +1,5 @@
 /**
- * Print GitHub rate limit
+ * Get GitHub rate limit
  **/
 
 const config = require("config");
@@ -7,7 +7,7 @@ const config = require("config");
 const logger = require("../utils/log")(module);
 const { AxiosService, CancelToken, httpErrorInfo } = require("../utils/http");
 
-const githubRateLimit = async function() {
+const getGithubRateLimit = async function() {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
     if (config.gitHub.token)
@@ -31,7 +31,7 @@ const githubRateLimit = async function() {
 if (require.main === module) {
   let program = require("../utils/commander");
   program.parse(process.argv).run(async function() {
-    const result = await githubRateLimit();
+    const result = await getGithubRateLimit();
     if (result) console.log(result);
   });
 }
