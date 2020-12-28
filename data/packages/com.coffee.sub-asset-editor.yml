@@ -9,7 +9,7 @@ topics:
   - asset-management
   - utilities
 hunter: JesseTG
-gitTagPrefix: v
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-

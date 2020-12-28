@@ -11,7 +11,7 @@ topics:
   - gui
   - sprite-management
 hunter: JesseTG
-gitTagPrefix: v
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
