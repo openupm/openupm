@@ -1,4 +1,4 @@
-name: SubAssetEditor
+name: com.coffee.sub-asset-editor
 displayName: ''
 description: Editor for SubAsset in unity project.
 repoUrl: 'https://github.com/mob-sakai/SubAssetEditor'
