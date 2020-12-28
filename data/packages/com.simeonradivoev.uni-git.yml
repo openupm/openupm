@@ -1,4 +1,4 @@
-name: uni-git
+name: com.simeonradivoev.uni-git
 displayName: UniGit
 description: An open source GIT Unity3D editor plugin.
 repoUrl: 'https://github.com/simeonradivoev/UniGit'
