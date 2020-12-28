@@ -1,4 +1,4 @@
-name: UnityEventDrawerEx
+name: com.coffee.event-drawer-ex
 displayName: UnityEventDrawerEx
 description: >-
   This plugin extends the UnityEventDrawer to display runtime calls in the
