@@ -10,12 +10,13 @@ licenseName: MIT License
 topics:
   - editor-enhancement
   - particles-and-effects
-hunter: JesseTG
-gitTagPrefix: ''
+hunter: hybridherbst
+gitTagPrefix: 'release'
 gitTagIgnore: ''
 minVersion: ''
-image: null
-readme: 'main:README.md'
+image: >-
+  https://github.com/needle-tools/shadergraph-markdown/wiki/Images/04_Workflow.gif
+readme: 'main:Readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
