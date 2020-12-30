@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
