@@ -1,3 +1,10 @@
+# [1.48.0](https://github.com/openupm/openupm/compare/1.47.2...1.48.0) (2021-01-03)
+
+
+### Features
+
+* **pipelines:** refuse to submit a blocked or private repository (close: [#1762](https://github.com/openupm/openupm/issues/1762)) ([6897534](https://github.com/openupm/openupm/commit/689753420d76503484dec29b218d5148dd56f5db))
+
 ## [1.47.2](https://github.com/openupm/openupm/compare/1.47.1...1.47.2) (2020-12-27)
 
 
