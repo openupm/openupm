@@ -11,7 +11,8 @@ const {
   getNamespace,
   loadTopics,
   loadPackageSync,
-  loadPackageNames
+  loadPackageNames,
+  loadBlockedScopes
 } = require("../../../../app/utils/package");
 
 const readFile = util.promisify(fs.readFile);
@@ -139,6 +140,8 @@ module.exports = function(options, context) {
           "../../../../data/sponsors.yml"
         );
         const sponsors = yaml.safeLoad(await readFile(sponsorsPath, "utf8"));
+        // Blocked scopes
+        const blockedScopes = await loadBlockedScopes();
         // // Recent packages
         // const recentAddedPackages = orderBy(packages, ["createdAt"], ["desc"])
         //   .filter(x => !x.excludedFromList)
@@ -146,6 +149,7 @@ module.exports = function(options, context) {
         // eslint-disable-next-line require-atomic-updates
         pluginData.data = {
           backers,
+          blockedScopes,
           hunters,
           owners,
           packageByNamespace,
@@ -229,6 +233,7 @@ module.exports = function(options, context) {
       return {
         path: "/packages/add/",
         content: plugin.createPage({
+          blockedScopes: data.blockedScopes,
           layout: "PackageAdd",
           title: "Package Add",
           licenses: Object.keys(spdx)

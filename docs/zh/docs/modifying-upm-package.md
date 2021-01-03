@@ -25,7 +25,7 @@ showFooter: false
 
 在大多数情况下，取消发布软件包意味着该软件包不会在网站下显示，但已发布的UPM版本仍保留在软件仓库中，以方便现有用户继续访问内容。如果这是可以接受的话，请提交一个合并请求（PR）包含以下内容：
 - 首先，在GitHub代码仓库的[data/packages](https://github.com/openupm/openupm/tree/master/data/packages)文件夹内找到并删除你指定的软件包原数据文件（YAML文件）。
-- 然后，将软件包的名字添加到如下文件中，[data/blocked-scopes.yml](https://github.com/openupm/openupm/tree/master/data/blocked-scopes.yml) 来组织软件包被再次提交。
+- 然后，将软件包的名字添加到如下文件中，[data/blocked-scopes.yml](https://github.com/openupm/openupm/tree/master/data/blocked-scopes.yml) 来阻止软件包被再次提交。或者，添加`"private": true"`到`package.json`文件.
 
 如果你有充分的理由（例如法律问题）必须要删除已发布的UPM版本，我们仍将协助你。 请[创建工单](https://github.com/openupm/openupm/issues/new?title=Unpublish%20package&template=unpublish_package.md) 来申请删除所有已发行的版本。
 

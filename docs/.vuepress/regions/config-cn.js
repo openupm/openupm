@@ -11,6 +11,7 @@ const docSideBar = function() {
         "/zh/docs/getting-started",
         "/zh/docs/adding-upm-package",
         "/zh/docs/modifying-upm-package",
+        "/zh/docs/opt-out",
         "/zh/support/"
       ]
     },

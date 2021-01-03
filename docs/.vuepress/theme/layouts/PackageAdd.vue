@@ -657,6 +657,9 @@ export default {
     };
   },
   computed: {
+    blockedScopes() {
+      return this.$page.frontmatter.blockedScopes;
+    },
     licenses() {
       return this.$page.frontmatter.licenses;
     },
@@ -964,9 +967,21 @@ export default {
         let content = atob(resp.data.content);
         this.$data.packageInfo = JSON.parse(content);
         let packageName = this.$data.packageInfo.name;
+        // Verify private
+        if (this.$data.packageInfo.private)
+          throw new Error(
+            'Refuse to publish a private repository ("private": true in the package.json).'
+          );
+        // Verify blocked scopes
+        for (const blockedScope of this.blockedScopes) {
+          if (packageName.startsWith(blockedScope))
+            throw new Error(
+              `The package name is blocked by scope ${blockedScope}.`
+            );
+        }
         // Verify package existence
         if (this.$page.frontmatter.packageNames.includes(packageName))
-          throw new Error(`The package ${packageName} already exists.`);
+          throw new Error("The package name already exists.");
         // Verify package naming
         commonUtils.validPackageName(packageName);
         // License
