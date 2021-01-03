@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'package-manager-reorg:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Post Processing Playable
+description_zhCN: 使用时间轴控制Unity后处理效果
 createdAt: 1609088448317

@@ -18,6 +18,6 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 readme_zhCN: 'upm:README.md'
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 可玩的Midi
+description_zhCN: 这是一个自定义时间轴/可播放程序包，它提供了基于标准MIDI文件中包含的序列数据来控制对象属性的功能。
 createdAt: 1609496202935
