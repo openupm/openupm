@@ -1,4 +1,4 @@
-name: com.linkergenerator
+name: com.kuraiandras.linkergenerator
 displayName: ''
 description: Generate link.xml file for unity
 repoUrl: 'https://github.com/KuraiAndras/LinkerGenerator'

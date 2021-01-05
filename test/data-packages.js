@@ -24,7 +24,6 @@ const knownInvalidNames = [
   "caneva20.config-assets",
   "carlos-wilkes.lean",
   "com.gameanalytics",
-  "com.linkergenerator",
   "com.litedb",
   "com.unitycsprojnuget",
   "d4160.constants-and-enums-generator-kit",
