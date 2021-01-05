@@ -17,9 +17,6 @@ const {
 } = require("../app/utils/package");
 
 const knownInvalidNames = [
-  "AtlasImage",
-  "SubAssetEditor",
-  "UnityEventDrawerEx",
   "astar.action-grid",
   "astar",
   "autoinjector",
@@ -28,9 +25,7 @@ const knownInvalidNames = [
   "carlos-wilkes.lean",
   "com.gameanalytics",
   "com.linkergenerator",
-  "com.linqtogameobject",
   "com.litedb",
-  "com.mybox",
   "com.unitycsprojnuget",
   "d4160.constants-and-enums-generator-kit",
   "d4160.data_persistence-helper-system",
@@ -56,11 +51,9 @@ const knownInvalidNames = [
   "st.rect-ex",
   "taras-osiris.better-defines",
   "type-inspector",
-  "uni-git",
   "unity-xr-input-helper-system",
   "uniunsafeio",
   "upm-embed",
-  "usfxr",
   "zenject"
 ];
 
