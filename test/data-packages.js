@@ -25,7 +25,6 @@ const knownInvalidNames = [
   "carlos-wilkes.lean",
   "com.gameanalytics",
   "com.litedb",
-  "com.unitycsprojnuget",
   "d4160.constants-and-enums-generator-kit",
   "d4160.data_persistence-helper-system",
   "d4160.game-framework-core",
