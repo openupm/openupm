@@ -1,0 +1,19 @@
+name: net.tnrd.packagemanifesteditor
+displayName: Package Manifest Editor
+description: A utility to edit package manifests through code
+repoUrl: 'https://github.com/Thundernerd/Unity3D-PackageManifestEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1609963190549
