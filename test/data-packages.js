@@ -31,7 +31,6 @@ const knownInvalidNames = [
   "d4160.game-framework",
   "d4160.scene_management-system",
   "d4160.ui-loading_screen-prefabs",
-  "elzach.leveleditor",
   "entity-inspector-extension",
   "exit-games.photon-unity-sdk",
   "exit-games.photon-voice-2",
