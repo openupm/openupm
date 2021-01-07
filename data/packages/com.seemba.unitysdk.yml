@@ -4,7 +4,7 @@ description: 'Seemba, the last and only in game monetization system you will eve
 repoUrl: 'https://github.com/Seemba-Gaming/unity-sdk'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: © 2020 Seemba Inc. All Rights Reserved
+licenseName: MIT
 topics:
   - asset-management
   - code-generation
