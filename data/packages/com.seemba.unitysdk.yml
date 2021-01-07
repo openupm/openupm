@@ -6,13 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - asset-management
-  - code-generation
-  - gui
   - integration
   - mobile
-  - package-management
-  - version-control
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''

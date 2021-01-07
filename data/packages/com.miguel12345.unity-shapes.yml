@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/miguel12345/UnityShapes'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - painting
+  - 2d
 hunter: jtfrom9
 gitTagPrefix: ''
 gitTagIgnore: ''
