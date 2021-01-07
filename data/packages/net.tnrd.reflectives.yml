@@ -1,0 +1,19 @@
+name: net.tnrd.reflectives
+displayName: Reflectives
+description: A set of utility classes to make it easier to access hidden functionality
+repoUrl: 'https://github.com/Thundernerd/Unity3D-Reflectives'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1610050782170
