@@ -1,0 +1,21 @@
+name: net.tnrd.packagemanagerinjection
+displayName: Package Manager Injection Helper
+description: A set of classes that allow you to inject your own code into the Package Manager Window
+repoUrl: 'https://github.com/Thundernerd/Unity3D-PackageManagerInjectionHelper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1610139476423
