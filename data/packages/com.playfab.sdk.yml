@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/PlayFab/UnitySDK'
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 topics:
-  - integration
+  - services
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''

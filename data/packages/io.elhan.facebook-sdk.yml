@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
   - mobile
-  - integration
+  - services
 hunter: oae
 gitTagIgnore: ''
 image: null

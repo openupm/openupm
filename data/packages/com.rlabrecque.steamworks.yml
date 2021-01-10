@@ -6,7 +6,7 @@ parentRepoUrl: 'https://github.com/rlabrecque/Steamworks.NET'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - integration
+  - services
   - network
 hunter: JesseTG
 gitTagPrefix: ''
