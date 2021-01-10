@@ -17,6 +17,6 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 4DAGE-SpaceTarget
+description_zhCN: SpaceTarget是4DAGE支持的环境跟踪功能，使您可以跟踪和扩大区域和空间。通过使用4DKK 3D相机创建数据库
 createdAt: 1610072125838

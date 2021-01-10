@@ -16,6 +16,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: FixedPoint-Sharp
+description_zhCN: '具有48.16精度的定点数（基于https://github.com/fholm）'
 createdAt: 1609953165784

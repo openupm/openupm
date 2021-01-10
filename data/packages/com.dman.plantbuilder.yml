@@ -1,6 +1,6 @@
 name: com.dman.plantbuilder
 displayName: Plant builder
-description: "This package procedurally generates plants"
+description: This package procedurally generates plants
 repoUrl: 'https://github.com/dsmiller95/plantbuilder'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -13,6 +13,6 @@ minVersion: ''
 image: null
 readme: 'master:Assets/PlantBuilderPackage/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 植物生成器
+description_zhCN: 程序化生成植物的工具
 createdAt: 1610224826146

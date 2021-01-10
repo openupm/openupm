@@ -16,6 +16,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: 'master:README.md'
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Midity
+description_zhCN: 这是用于读取和写入标准MIDI文件（SMF）的Unity软件包。
 createdAt: 1610280028532

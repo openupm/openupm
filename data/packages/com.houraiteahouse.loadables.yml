@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Loadables
+description_zhCN: 一个Unity3D库，用于抽象和简化可加载资源和场景。
 createdAt: 1610042681323

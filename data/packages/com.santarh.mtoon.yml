@@ -14,6 +14,6 @@ minVersion: ''
 image: 'https://image.slidesharecdn.com/mtoon-190924123458/95/vrm-mtoon-16-638.jpg'
 readme: 'feature/upm:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: MToon
+description_zhCN: Unity全局照明的卡通着色器
 createdAt: 1610211036097

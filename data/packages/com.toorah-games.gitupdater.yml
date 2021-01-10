@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: Git更新器
 description_zhCN: ''
 createdAt: 1609983819624
