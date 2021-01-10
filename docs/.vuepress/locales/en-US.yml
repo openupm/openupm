@@ -130,6 +130,7 @@ release-reason-forbidden: server forbidden
 release-reason-gateway-timeout: server timeout
 release-reason-heap-out-of-memroy: heap out of memory (the package is too large)
 release-reason-internal-error: server internal error
+release-reason-invalid-version: invalid version
 release-reason-none: unknown error
 release-reason-package-json-parsing-error: invalid format of package.json
 release-reason-package-name-invalid: the package name includes unsupported @ character

@@ -47,6 +47,8 @@ const ReleaseReason = new Enum({
   PackageJsonParsingError: 804,
   // Invalid remote branch
   RemoteBranchNotFound: 805,
+  // Invalid version
+  InvalidVersion: 806,
   // Connection timeout
   ConnectionTime: 900,
   // Connection timeout

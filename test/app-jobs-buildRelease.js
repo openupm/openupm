@@ -85,5 +85,10 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
         ReleaseReason.RemoteBranchNotFound
       );
     });
+    it("InvalidVersion", function() {
+      getReasonFromBuildLogText('error Invalid version: "0.1"').should.equal(
+        ReleaseReason.InvalidVersion
+      );
+    });
   });
 });
