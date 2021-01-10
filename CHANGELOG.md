@@ -1,3 +1,10 @@
+## [1.48.1](https://github.com/openupm/openupm/compare/1.48.0...1.48.1) (2021-01-10)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error invalid version ([b873450](https://github.com/openupm/openupm/commit/b8734500cd5ca1ceb01a92447ba8a41827a837df))
+
 # [1.48.0](https://github.com/openupm/openupm/compare/1.47.2...1.48.0) (2021-01-03)
 
 
