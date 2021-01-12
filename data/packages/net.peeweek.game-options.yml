@@ -7,7 +7,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-  - GUI
+  - gui
 hunter: peeweek
 gitTagPrefix: ''
 gitTagIgnore: ''
