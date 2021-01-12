@@ -1,0 +1,20 @@
+name: com.unity.render-pipelines.infinity
+displayName: Infinity Render Pipeline
+description: Extreme Graphics Research for Unity Scriptable Render Pipeline(SRP).
+repoUrl: 'https://github.com/haolange/InfinityRenderPipeline'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/haolange/InfinityRenderPipeline/raw/797af042485e360be0798534683882a11f100ee6/Editor/Resources/Icon_Landscape.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1610480480606
