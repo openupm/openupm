@@ -1,0 +1,21 @@
+name: me.guyl.atoms-vs
+displayName: Unity Atoms Visual Scripting
+description: Atoms nodes for Unity Visual Scripting
+repoUrl: 'https://github.com/bguyl/unity-atoms-vs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+  - visual-scripting
+hunter: bguyl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.4'
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1610573305855
