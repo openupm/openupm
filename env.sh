@@ -1,1 +1,1 @@
-export NODE_OPTIONS="--max-old-space-size=6144"
+export NODE_OPTIONS="--max-old-space-size=7168"
