@@ -1,17 +1,18 @@
 name: net.peeweek.game-options
 displayName: Game Options
-description: Game Options Elements for Unity Games
+description: Game Options UI Elements for your Unity Games. A set of scripts and prefabs in order to add simple graphics, audio and game options in your game.
 repoUrl: 'https://github.com/peeweek/net.peeweek.game-options'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - data-management
+  - utilities
+  - gui
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: >-
-  https://github.com/InitialPrefabs/UGUIDots/raw/437eea29a499005030f3a3e30b9d4cd6bd8fe80c/Wiki/Images/batched-mesh-authoring.jpg
+  https://raw.githubusercontent.com/peeweek/net.peeweek.game-options/master/Documentation%7E/game-options.png
 readme: 'master:README.md'
 createdAt: 1588963449060
 displayName_zhCN: 游戏选项
