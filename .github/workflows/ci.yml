@@ -106,15 +106,15 @@ jobs:
         # Build
         source env.sh
         yarn docs:build
-    - name: Inject slug/short variables
-      uses: rlespinasse/github-slug-action@v3.x
-    - name: Publish to Netlify
-      uses: netlify/actions/cli@master
+    - name: deploy to openupm-website repo
+      uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
-        args: deploy --dir=./docs/.vuepress/dist/ --prod --message '${{ env.GITHUB_SHA_SHORT }} ${{ github.event.head_commit.message }}'
-      env:
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        REPOSITORY_NAME: openupm/openupm-website
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        CLEAN: true
+        SINGLE_COMMIT: true
+        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_ACCESS_TOKEN }}
 
   build-website-cn:
     runs-on: ubuntu-latest
