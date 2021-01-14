@@ -17,6 +17,6 @@ image: >-
   https://github.com/guplem/UnityEssentials/raw/1f7c55efe55feff0cbe692c93e74f0dea6103e7d/Unity%20Essentials/Assets/AssetStoreTools/Images/UnityEssentialsCardImage.png
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity Essentials
+description_zhCN: 一个扩展，其中包含许多小功能，我个人认为Unity应该默认包含。
 createdAt: 1610380629755

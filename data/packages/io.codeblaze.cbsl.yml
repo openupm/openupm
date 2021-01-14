@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: CBSL
+description_zhCN: Code Blaze标准库
 createdAt: 1610527464967

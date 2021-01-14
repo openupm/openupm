@@ -16,6 +16,6 @@ image: >-
   https://github.com/VeriorPies/ParrelSync/raw/aa522cf3b2836eb4b7c0160663035f318ead357e/Images/Showcase%201.gif
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: ParrelSync
+description_zhCN: （Unity3D）测试多人游戏而无需构建
 createdAt: 1610380685914

@@ -16,6 +16,6 @@ minVersion: '2019.4'
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity Atoms视觉脚本
+description_zhCN: Unity可视脚本的Atoms节点
 createdAt: 1610573305855

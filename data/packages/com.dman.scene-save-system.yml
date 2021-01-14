@@ -16,6 +16,6 @@ minVersion: ''
 image: null
 readme: 'master:Assets/UtilityScripts/com.dman.scene-save-system/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 场景保存系统
 description_zhCN: ''
 createdAt: 1610311012174

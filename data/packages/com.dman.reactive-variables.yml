@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:Assets/UtilityScripts/com.dman.reactive-variables/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 反应式变量
 description_zhCN: ''
 createdAt: 1610310784123
