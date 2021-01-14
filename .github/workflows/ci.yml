@@ -106,6 +106,8 @@ jobs:
         # Build
         source env.sh
         yarn docs:build
+        # Copy netlify.toml
+        cp netlify.toml ./docs/.vuepress/dist/
     - name: deploy to openupm-website repo
       uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
