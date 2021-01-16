@@ -1,0 +1,19 @@
+name: unity.custompackage.linkmerge
+displayName: Custom Package Link Merger
+description: null
+repoUrl: 'https://github.com/RealityStop/Unity.CustomPackage.LinkMerge'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1610832686373
