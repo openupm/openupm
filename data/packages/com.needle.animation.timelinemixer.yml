@@ -13,7 +13,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://github.com/needle-tools/timeline-mixer/raw/df8d4466602c62f22bc213a475ed01f2062b18c3/package/Documentation~/video1.gif
-readme: 'master:Readme.md'
+readme: 'master:package/Readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
