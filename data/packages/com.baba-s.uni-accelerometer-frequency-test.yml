@@ -9,6 +9,7 @@ topics:
   - debugging-and-logging
   - editor-enhancement
   - mobile
+  - testing
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
