@@ -1,4 +1,4 @@
-name: kybernetik.ult-events
+name: com.kybernetik.ult-events
 displayName: UltEvents
 description: >-
   UltEvents allows you to easily setup and configure persistent event callbacks
