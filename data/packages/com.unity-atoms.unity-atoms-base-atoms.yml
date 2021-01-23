@@ -1,7 +1,7 @@
-name: com.mambojambostudios.unity-atoms-base-atoms
+name: com.unity-atoms.unity-atoms-base-atoms
 displayName: Unity Atoms Base Atoms
 description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
-repoUrl: 'https://github.com/AdamRamberg/unity-atoms'
+repoUrl: 'https://github.com/unity-atoms/unity-atoms'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
