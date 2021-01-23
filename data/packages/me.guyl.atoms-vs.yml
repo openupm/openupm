@@ -13,7 +13,7 @@ hunter: bguyl
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '2019.4'
-image: null
+image: https://media.githubusercontent.com/media/bguyl/unity-atoms-vs/main/Documentation%7E/atoms-vs_cover.jpg
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: Unity Atoms视觉脚本
