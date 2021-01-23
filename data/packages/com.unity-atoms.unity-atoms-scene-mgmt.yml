@@ -1,7 +1,7 @@
-name: com.mambojambostudios.unity-atoms-scene-mgmt
+name: com.unity-atoms.unity-atoms-scene-mgmt
 displayName: Unity Atoms Scene Mgmt
 description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
-repoUrl: 'https://github.com/AdamRamberg/unity-atoms'
+repoUrl: 'https://github.com/unity-atoms/unity-atoms'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
