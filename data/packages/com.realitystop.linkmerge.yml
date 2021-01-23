@@ -7,7 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-hunter: bguyl
+  - package-management
+hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
