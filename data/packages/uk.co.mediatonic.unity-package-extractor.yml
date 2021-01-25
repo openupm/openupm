@@ -1,7 +1,7 @@
 name: uk.co.mediatonic.unity-package-extractor
 displayName: Unity Package Extractor
-description: A simple tool to extract .unitypackages outside of Unity's package importer
-repoUrl: 'https://github.com/mediatonic/UnityPackageExtractor'
+description: A simple tool to extract .unitypackages outside of Unity's package importer. (using fork from hannesdelbeke instead of original repo from mediatonic while PR to support packaging is pending, change this back when PR is up n running)
+repoUrl: 'https://github.com/hannesdelbeke/UnityPackageExtractor'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
