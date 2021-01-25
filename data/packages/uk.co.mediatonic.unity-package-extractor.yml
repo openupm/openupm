@@ -1,0 +1,20 @@
+name: uk.co.mediatonic.unity-package-extractor
+displayName: Unity Package Extractor
+description: A simple tool to extract .unitypackages outside of Unity's package importer
+repoUrl: 'https://github.com/mediatonic/UnityPackageExtractor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+  - utilities
+hunter: hannesdelbeke
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1611613825365
