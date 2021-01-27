@@ -1,0 +1,22 @@
+name: com.nementic.scene-validation
+displayName: Scene Validation
+description: >-
+  A tool which attempts to validate the state of a scene before entering play
+  mode.
+repoUrl: 'https://github.com/nementic-games/scene-validation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1611781839532
