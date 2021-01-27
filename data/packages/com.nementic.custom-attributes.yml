@@ -1,0 +1,20 @@
+name: com.nementic.custom-attributes
+displayName: Custom Attributes
+description: 'A collection of useful attributes, property drawers and utility types.'
+repoUrl: 'https://github.com/nementic-games/custom-attributes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1611782049457
