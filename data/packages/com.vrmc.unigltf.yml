@@ -1,0 +1,20 @@
+name: com.vrmc.unigltf
+displayName: UniGLTF
+description: Unity package that can import and export VRM format
+repoUrl: 'https://github.com/vrm-c/UniVRM'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - modeling
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UniGLTF/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1611851551368
