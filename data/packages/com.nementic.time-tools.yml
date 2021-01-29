@@ -11,9 +11,10 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/nementic-games/time-tools/master/Documentation%7E/Preview.png'
+image: >-
+  https://raw.githubusercontent.com/nementic-games/time-tools/master/Documentation%7E/Preview.png
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 时间工具
+description_zhCN: 管理游戏时间的工具，例如时间刻度或暂停
 createdAt: 1611781911627

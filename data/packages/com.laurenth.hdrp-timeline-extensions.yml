@@ -13,6 +13,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: HDRP时间轴扩展
+description_zhCN: 时间轴轨道的HDRP设置
 createdAt: 1611177808261

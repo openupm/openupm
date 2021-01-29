@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ConfigTable的csharp运行库.
+displayName_zhCN: ConfigTable 配置表
+description_zhCN: ConfigTable的C#运行时.
 createdAt: 1610912915922

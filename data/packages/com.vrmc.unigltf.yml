@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:Assets/UniGLTF/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniGLTF
+description_zhCN: 可以导入和导出VRM格式的Unity软件包
 createdAt: 1611851551368

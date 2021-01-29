@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 自定义属性
+description_zhCN: 有用的属性，属性绘制和实用程序类型的集合。
 createdAt: 1611782049457

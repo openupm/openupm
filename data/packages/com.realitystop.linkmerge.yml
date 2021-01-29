@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 定制包装Link合并
+description_zhCN: UPM软件包的link.xml文件
 createdAt: 1611433140598

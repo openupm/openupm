@@ -13,10 +13,9 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://i.imgur.com/ODmrkrC.png
+image: 'https://i.imgur.com/ODmrkrC.png'
 readme: 'upm:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: instance.id.AboveAverageInspector
+description_zhCN: 一个自定义的Inspector绘制，增加了分组。
 createdAt: 1611253142970

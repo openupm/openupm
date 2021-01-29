@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniUI
+description_zhCN: 一个简单的Unity UI管理界面。
 createdAt: 1611696519793
