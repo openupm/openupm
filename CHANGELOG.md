@@ -1,3 +1,10 @@
+## [1.48.2](https://github.com/openupm/openupm/compare/1.48.1...1.48.2) (2021-01-29)
+
+
+### Bug Fixes
+
+* **website:** package add form should use the package info description then fallback to the repo description. (close: [#1851](https://github.com/openupm/openupm/issues/1851)) ([221baa3](https://github.com/openupm/openupm/commit/221baa3bc3ad02682c83211803f9e474e59b6aa4))
+
 ## [1.48.1](https://github.com/openupm/openupm/compare/1.48.0...1.48.1) (2021-01-10)
 
 
