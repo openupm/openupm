@@ -761,7 +761,7 @@ export default {
       let content = {
         name: packageInfo.name,
         displayName: packageInfo.displayName || "",
-        description: repoInfo.description,
+        description: packageInfo.description || repoInfo.description || "",
         repoUrl: repoInfo.html_url,
         parentRepoUrl: repoInfo.parent ? repoInfo.parent.html_url : null,
         licenseSpdxId: form.licenseId.value,
