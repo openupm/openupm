@@ -14,8 +14,8 @@ hunter: dsmiller95
 gitTagPrefix: com.dman.l-system/
 gitTagIgnore: ''
 minVersion: ''
-image: null
-readme: 'master:Packages/com.dman.MeshDraftExtensions/README.md'
+image: 'https://github.com/dsmiller95/plantbuilder/raw/master/DemoPhotos/l-system_packagepreview.png'
+readme: 'master:Packages/com.dman.l-system/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
