@@ -7,11 +7,11 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics: []
 hunter: dsmiller95
-gitTagPrefix: ''
+gitTagPrefix: 'com.dman.plantbuilder/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:Assets/PlantBuilderPackage/README.md'
+readme: 'master:Packages/com.dman.plantbuilder/README.md'
 readme_zhCN: ''
 displayName_zhCN: 植物生成器
 description_zhCN: 程序化生成植物的工具
