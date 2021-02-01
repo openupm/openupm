@@ -14,7 +14,7 @@ hunter: Peaj
 gitTagPrefix: de.peaj.selectionhistory/
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://raw.githubusercontent.com/Peaj/Unitility/main/Packages/de.peaj.selectionhistory/Documentation%7E/Images/CoverImage.png'
 readme: 'main:Packages/de.peaj.selectionhistory/README.md'
 readme_zhCN: ''
 displayName_zhCN: 选择历史
