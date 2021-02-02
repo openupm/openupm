@@ -1,6 +1,6 @@
 name: com.dopamine.firebase.analytics
 displayName: Firebase Analytics
-description: Analytics modules of Firebase SDK for Unity 
+description: Analytics modules v7.0.2 of Firebase SDK for Unity 
 repoUrl: 'https://github.com/dopaminegamesstudio/Firebase.Analytics'
 parentRepoUrl: 'https://github.com/upm-packages/Firebase.Analytics'
 licenseSpdxId: Apache-2.0
