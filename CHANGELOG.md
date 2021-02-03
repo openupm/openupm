@@ -1,3 +1,10 @@
+## [1.48.3](https://github.com/openupm/openupm/compare/1.48.2...1.48.3) (2021-02-03)
+
+
+### Bug Fixes
+
+* set license id to null since UDP isn't in Spdx ([1cd45da](https://github.com/openupm/openupm/commit/1cd45dac91b896b21760f9f6d8cc792a0b4a1914))
+
 ## [1.48.2](https://github.com/openupm/openupm/compare/1.48.1...1.48.2) (2021-01-29)
 
 
