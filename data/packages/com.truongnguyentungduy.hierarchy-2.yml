@@ -1,0 +1,21 @@
+name: com.truongnguyentungduy.hierarchy-2
+displayName: Hierarchy 2
+description: >-
+  Editor extension to improve hierarchy window. Makes the hierarchy more detail,
+  but still clean and easy to organize.
+repoUrl: 'https://github.com/d4160/hierarchy-2'
+parentRepoUrl: 'https://github.com/truongnguyentungduy/hierarchy-2'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.3'
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1612383977122
