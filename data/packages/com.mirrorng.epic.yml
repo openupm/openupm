@@ -1,0 +1,19 @@
+name: com.mirrorng.epic
+displayName: MirrorNG EpicNG
+description: Epic transport for MirrorNG
+repoUrl: 'https://github.com/MirrorNG/EpicOnlineTransport'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: dragon
+topics:
+  - network
+hunter: MIT
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1612411973199
