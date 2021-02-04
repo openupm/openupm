@@ -1,0 +1,21 @@
+name: com.silverdale.asset-reference-viewer
+displayName: Asset Reference Viewer
+description: A convenient tool to help cleaning and maintaining Unity Projects
+repoUrl: 'https://github.com/Dasparion/AssetReferenceViewer'
+parentRepoUrl: 'https://github.com/ogxd/project-curator'
+licenseSpdxId: null
+licenseName: Do whatever you want
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: Dasparion
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1612431938558
