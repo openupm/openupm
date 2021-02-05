@@ -1,7 +1,7 @@
 name: com.nol1fe.delaunator
 displayName: Delaunator
 description: Fast Delaunay triangulation of 2D points implemented in C#
-repoUrl: 'https://github.com/nol1fe/delaunator-sharp-unitypackage'
+repoUrl: 'https://github.com/nol1fe/delaunator-sharp'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
