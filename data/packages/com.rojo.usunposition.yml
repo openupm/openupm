@@ -4,7 +4,7 @@ description: This is an astronomically accurate Sun positioning system for Unity
 repoUrl: 'https://github.com/JoseMiguelPizarro/USunPosition'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'MIT'
 topics:
   - utilities
 hunter: JoseMiguelPizarro
