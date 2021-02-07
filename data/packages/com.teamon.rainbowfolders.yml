@@ -1,0 +1,22 @@
+name: com.teamon.rainbowfolders
+displayName: Rainbow Folders
+description: >-
+  This asset allows you to set custom icons for any folder in unity project
+  browser
+repoUrl: 'https://github.com/Team-on/unity3d-rainbow-folders'
+parentRepoUrl: 'https://github.com/pointcache/unity3d-rainbow-folders'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: Apache-2.0 License
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1612656089068
