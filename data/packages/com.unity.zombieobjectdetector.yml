@@ -1,0 +1,21 @@
+name: com.unity.zombieobjectdetector
+displayName: Zombie Object Detector
+description: >-
+  Tool to detect "fake null" GameObjects and Components.
+  https://github.com/Unity-Technologies/ZombieObjectDetector
+repoUrl: 'https://github.com/Unity-Technologies/ZombieObjectDetector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1612724630144
