@@ -9,8 +9,8 @@ topics:
   - audio
 hunter: ''
 gitTagPrefix: ''
-gitTagIgnore: v*
-minVersion: ''
+gitTagIgnore: ''
+minVersion: '1.1.0'
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
