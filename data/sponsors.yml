@@ -1,8 +1,8 @@
 items:
 - name: JDCloud
   level: silver
-  url: https://www.jdcloud.com/en
-  urlCN: https://www.jdcloud.com
+  url: https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA
+  urlCN: https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA
   image: /images/brands/jdcloud/EN-Color-Horizontal-2.png
   imageCN: /images/brands/jdcloud/CH-Color-Horizontal-2.png
   expires: 2021-05-30
