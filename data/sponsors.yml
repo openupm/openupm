@@ -6,3 +6,6 @@ items:
   image: /images/brands/jdcloud/EN-Color-Horizontal.png
   imageCN: /images/brands/jdcloud/CH-Color-Horizontal.png
   expires: 2021-05-30
+- name: Vatsal Ambastha
+  level: bronze
+  githubUser: adrenak

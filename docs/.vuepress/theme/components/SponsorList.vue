@@ -2,7 +2,18 @@
 <template>
   <div>
     <div v-for="(profile, index) in sponsors" :key="index" :class="classList">
-      <a :href="profile.url">
+      <figure
+        v-if="profile.githubUser"
+        class="avatar avatar-xl tooltip custom"
+        :data-tooltip="profile.name"
+        :data-initial="profile.abbr"
+      >
+        <a :href="profile.url">
+          <LazyImage v-if="profile.image" :src="profile.image"
+          alt:="profile.name" />
+        </a>
+      </figure>
+      <a v-else :href="profile.url">
         <LazyImage v-if="profile.image" :src="profile.image" alt:="profile.name"
         class="img-responsive" />
       </a>
@@ -53,6 +64,7 @@ export default {
 <style lang="stylus" scoped>
 .sponsor-item
   display inline-block
+  vertical-align middle;
   margin 0 1rem 0 0
   max-width 10rem
   &.sponsor-diamond

@@ -119,38 +119,49 @@ export default {
     },
     backers() {
       return this.$page.frontmatter.backers
-        .filter(x => {
-          if (x.expires) {
-            return Date.parse(x.expires) >= new Date().getTime();
-          }
-          return true;
-        })
+        .filter(this.filterExpires)
         .map(x => {
-          const data = {
-            ...x
-          };
-          if (x.githubUser) {
-            data.url = `https://github.com/${x.githubUser}`;
-            data.image = util.getAvatarImageUrl(x.githubUser, 128);
-          }
-          const segs = x.name.split(" ");
-          data.abbr =
-            segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
-          return data;
+          return this.prepareGitHubUser({ ...x });
         });
     },
     sponsors() {
       return ["diamond", "gold", "silver", "bronze"]
         .map(level => {
-          return {
+          const data = {
             key: "sponsor-" + level,
             level,
-            items: this.$page.frontmatter.sponsors.filter(x => x.level == level)
+            items: this.$page.frontmatter.sponsors
+              .filter(x => x.level == level)
+              .filter(this.filterExpires)
+              .map(x => {
+                return this.prepareGitHubUser({ ...x });
+              })
           };
+          return data;
         })
         .filter(x => {
           return x.items.length;
         });
+    }
+  },
+  methods: {
+    filterExpires(data) {
+      if (data.expires) {
+        return Date.parse(data.expires) >= new Date().getTime();
+      }
+      return true;
+    },
+    prepareGitHubUser(data) {
+      if (data.githubUser) {
+        data.url = `https://github.com/${data.githubUser}`;
+        data.image = util.getAvatarImageUrl(data.githubUser, 128);
+      }
+      if (data.name) {
+        const segs = data.name.split(" ");
+        data.abbr =
+          segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
+      }
+      return data;
     }
   }
 };
