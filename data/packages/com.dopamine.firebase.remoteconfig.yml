@@ -1,5 +1,5 @@
 name: com.dopamine.firebase.remoteconfig
-displayName: Firebase Remote Config
+displayName: Firebase Remote Config (Unofficial)
 description: Remote Config modules of Firebase SDK for Unity
 repoUrl: 'https://github.com/dopaminegamesstudio/Firebase.RemoteConfig'
 parentRepoUrl: null
