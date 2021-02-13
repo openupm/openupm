@@ -1,0 +1,20 @@
+name: com.dots.dispatcher
+displayName: DOTS Dispatcher
+description: DOTS Entity as Event Dispatcher.
+repoUrl: 'https://github.com/gabrjt/com.dots.dispatcher'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: gabrjt
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1613243469828
