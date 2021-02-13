@@ -1,0 +1,20 @@
+name: com.dots.extensions
+displayName: DOTS Extensions
+description: DOTS utilities for testing.
+repoUrl: 'https://github.com/gabrjt/com.dots.extensions'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - dots-and-ecs
+  - testing
+hunter: gabr.j.t
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1613242183172
