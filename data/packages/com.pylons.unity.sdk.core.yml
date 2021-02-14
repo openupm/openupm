@@ -7,7 +7,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - frameworks
-hunter: afti_githobo
+hunter: afti-githobo
 gitTagPrefix: pylons_sdk_core
 gitTagIgnore: ''
 minVersion: ''
