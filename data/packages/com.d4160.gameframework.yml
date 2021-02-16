@@ -1,4 +1,4 @@
-name: d4160.game-framework
+name: com.d4160.gameframework
 displayName: Unity Game Framework
 description: Game Framework to manage all common stuff of your game.
 repoUrl: 'https://github.com/d4160/Unity-GameFramework'
@@ -15,7 +15,7 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.0.0'
 image: null
 readme: 'upm:README.md'
 createdAt: 1593276405875
