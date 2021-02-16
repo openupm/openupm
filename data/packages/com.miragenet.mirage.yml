@@ -1,0 +1,21 @@
+name: com.miragenet.mirage
+displayName: Mirage
+description: >-
+  Mirage is a high level Networking API for Unity, supporting different low
+  level Transports.
+repoUrl: 'https://github.com/MirageNet/Mirage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1613482990307
