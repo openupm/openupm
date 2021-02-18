@@ -1,7 +1,7 @@
-name: com.mirrorng.epic
-displayName: MirrorNG EpicNG
-description: Epic transport for MirrorNG
-repoUrl: 'https://github.com/MirrorNG/EpicOnlineTransport'
+name: com.miragenet.epic
+displayName: Mirage EpicNG
+description: Epic transport for Mirage
+repoUrl: 'https://github.com/MirageNet/EpicOnlineTransport'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: dragon
@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: MirrorNG EpicNG
-description_zhCN: MirrorNG的Epic传输
+displayName_zhCN: Mirage EpicNG
+description_zhCN: Mirage的Epic传输
 createdAt: 1612411973199
