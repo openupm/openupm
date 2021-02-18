@@ -1,7 +1,7 @@
-name: com.mirrorng.steamy
-displayName: MirrorNG SteamyNG
-description: An Async implementation of Steamworks.net transport for Mirror
-repoUrl: 'https://github.com/MirrorNG/FizzySteamyMirror'
+name: com.miragenet.steamy
+displayName: Mirage SteamyNG
+description: An Async implementation of Steamworks.net transport for Mirage
+repoUrl: 'https://github.com/MirageNet/FizzySteamyMirror'
 parentRepoUrl: 'https://github.com/Chykary/FizzySteamworks'
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -14,5 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604853797351
-displayName_zhCN: MirrorNG SteamyNG
-description_zhCN: Mirror的Steamworks.net传输的异步实现
+displayName_zhCN: Mirage SteamyNG
+description_zhCN: Mirage的Steamworks.net传输的异步实现
