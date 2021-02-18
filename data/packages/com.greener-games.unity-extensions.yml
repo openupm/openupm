@@ -14,6 +14,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity扩展
+description_zhCN: Unity使用的扩展集
 createdAt: 1612261708411

@@ -14,7 +14,6 @@ minVersion: ''
 image: null
 readme: 'dev:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Firebase远程配置（非官方）
+description_zhCN: Firebase SDK for Unity的远程配置模块
 createdAt: 1613127150802
- 

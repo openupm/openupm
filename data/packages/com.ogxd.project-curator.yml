@@ -17,6 +17,6 @@ image: >-
   https://github.com/ogxd/project-curator/raw/df3ee751baa5912f2e930156e76d299b8c887b91/Demo/project-curator-big.gif
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 项目策划人
+description_zhCN: 帮助清洁和维护Unity项目的便捷工具
 createdAt: 1612664007245

@@ -12,10 +12,10 @@ topics:
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '66.0.0'
+minVersion: 66.0.0
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Mirage
+description_zhCN: Mirage是Unity的高级网络API，支持不同的低级传输。
 createdAt: 1613482990307

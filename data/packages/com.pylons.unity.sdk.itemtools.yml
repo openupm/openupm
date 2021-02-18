@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'master:PylonsSdk/ItemTools/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Pylons SDK for Unity（ItemTools）
+description_zhCN: 用于将本机区块链对象解析为C＃类型并与游戏逻辑中的对象进行交互的工具
 createdAt: 1613007295602

@@ -10,10 +10,10 @@ topics:
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '1.1.0'
+minVersion: 1.1.0
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: JackAudioForUnity
+description_zhCN: Jack Unity音频插件
 createdAt: 1612874040944

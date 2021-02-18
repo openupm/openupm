@@ -15,6 +15,6 @@ minVersion: ''
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: DOTS分派器
+description_zhCN: DOTS实体作为事件调度程序。
 createdAt: 1613243469828

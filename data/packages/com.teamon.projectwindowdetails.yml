@@ -17,6 +17,6 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 项目窗口详细信息
+description_zhCN: Unity Editor扩展，可将列添加到项目窗口中，以显示有关资产的其他信息
 createdAt: 1612656067378

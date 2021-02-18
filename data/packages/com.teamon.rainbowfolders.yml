@@ -17,6 +17,6 @@ minVersion: Apache-2.0 License
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 彩虹文件夹
+description_zhCN: 该资产允许您在unity项目浏览器中为任何文件夹设置自定义图标
 createdAt: 1612656089068

@@ -11,9 +11,10 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://user-images.githubusercontent.com/35050187/100261210-c19b3280-2f8d-11eb-9b87-2c3fad0f5d54.png'
+image: >-
+  https://user-images.githubusercontent.com/35050187/100261210-c19b3280-2f8d-11eb-9b87-2c3fad0f5d54.png
 readme: 'packageManagerWork:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: URP程式化点亮
+description_zhCN: Madumpa的URP程式化的点亮着色器存储库
 createdAt: 1612911271403

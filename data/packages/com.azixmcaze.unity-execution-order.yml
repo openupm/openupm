@@ -16,6 +16,6 @@ minVersion: ''
 image: null
 readme: 'upm:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: Unity-ExecutionOrder
+description_zhCN: 属性集合，用于从源代码控制Unity中脚本的执行顺序。
 createdAt: 1613496094259

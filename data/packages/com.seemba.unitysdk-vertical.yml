@@ -16,6 +16,6 @@ image: >-
   https://github.com/Seemba-Gaming/unity-sdk/raw/14f2d14479814408e191efa5909f624921cb9260/Seemba/Images/Achievements%20selected%20button.png
 readme: 'develop:com.seemba.unitysdk-vertical/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: SeembaSDK垂直
+description_zhCN: Seemba，您将永远需要的最后一个游戏货币化系统。
 createdAt: 1612170794662

@@ -16,6 +16,6 @@ image: >-
   https://github.com/chark/scriptable-events/raw/cb357c8f42c1db8c68d5441e651da428bd68b03d/Packages/com.chark.scriptable-events/Documentation~/simple-event.png
 readme: 'master:.github/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 可编写脚本的事件
+description_zhCN: 通过ScriptableObject实现的简单和可扩展的事件系统。
 createdAt: 1612810037983

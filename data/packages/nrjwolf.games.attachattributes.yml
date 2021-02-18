@@ -4,10 +4,10 @@ description: >-
   Use attach attributes to auto attach components.
 
 
-  For example 
+  For example
 
 
-  [GetComponent] 
+  [GetComponent]
 
   [SerializeField] private Image m_Image;
 
@@ -27,6 +27,14 @@ minVersion: ''
 image: null
 readme: 'master:.github/README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: 附加属性
+description_zhCN: |-
+  使用附加属性自动附加组件。
+
+  例如
+
+  [GetComponent]
+  [SerializeField] private Image m_Image;
+
+  当您在层次结构中选择游戏对象时，所有组件都会自动加载
 createdAt: 1612659753312
