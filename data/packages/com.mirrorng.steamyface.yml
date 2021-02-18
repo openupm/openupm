@@ -1,7 +1,7 @@
-name: com.mirrorng.steamyface
-displayName: MirrorNG SteamyFaceNG
-description: Facepunch version of steam for mirrorng
-repoUrl: 'https://github.com/MirrorNG/SteamyFaceNG'
+name: com.miragenet.steamyface
+displayName: Mirage SteamyFaceNG
+description: Facepunch version of steam for mirage
+repoUrl: 'https://github.com/MirageNet/SteamyFaceNG'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -14,5 +14,5 @@ minVersion: ''
 image: null
 readme: 'master:README.md'
 createdAt: 1604854641672
-displayName_zhCN: MirrorNG SteamyFaceNG
-description_zhCN: 用于Mirrorng的Facepunch版本
+displayName_zhCN: Mirage SteamyFaceNG
+description_zhCN: 用于Mirage的Facepunch版本
