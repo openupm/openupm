@@ -13,7 +13,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/kumaS-nu/NuGet-importer-for-Unity/raw/f101cd734c0aff1078224dfc91bccf18b459a374/NuGetImporterForUnity/Packages/NuGet%20Importer/Documentation~/images/Demo.gif
+  https://raw.githubusercontent.com/kumaS-nu/NuGet-importer-for-Unity/main/docs/images/ForOpenUPM.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: NuGet导入器
