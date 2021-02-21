@@ -1,0 +1,21 @@
+name: com.rainbow-duck-games.unity-entity-signals
+displayName: Entity Signals
+description: >-
+  Entity Signals is a library to use pub-sub pattern related to entities. Allows
+  to bind to single entity or to a type.
+repoUrl: 'https://github.com/rainbow-duck-games/unity-entity-signals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1613913898625
