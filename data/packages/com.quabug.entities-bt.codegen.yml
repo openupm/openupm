@@ -1,0 +1,19 @@
+name: com.quabug.entities-bt.codegen
+displayName: EntitiesBT - IL CodeGen
+description: Behavior Tree for Unity Entities
+repoUrl: 'https://github.com/quabug/EntitiesBT'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+hunter: quabug
+gitTagPrefix: codegen/
+gitTagIgnore: ''
+minVersion: 0.1.0
+image: >-
+  https://user-images.githubusercontent.com/683655/88478209-db455280-cf78-11ea-88fe-222c60e346ac.png
+readme: 'master:README.md'
+displayName_zhCN: EntitiesBT - 代码生成器
+description_zhCN: Unity Entities的行为树
