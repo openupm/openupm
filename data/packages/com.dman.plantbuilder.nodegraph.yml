@@ -1,0 +1,20 @@
+name: com.dman.plantbuilder.nodegraph
+displayName: Nodegraph plant creator
+description: Nodegraph tools for the plantbuilder package
+repoUrl: 'https://github.com/dsmiller95/plantbuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+  - visual-scripting
+hunter: dsmiller95
+gitTagPrefix: com.dman.plantbuilder.nodegraph/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Packages/com.dman.plantbuilder.nodegraph/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1613926215204
