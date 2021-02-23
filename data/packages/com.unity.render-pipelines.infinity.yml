@@ -1,0 +1,26 @@
+name: com.unity.render-pipelines.infinity
+displayName: Infinity RP
+description: >-
+  The Infinity Render Pipeline is a high-fidelity Scriptable Render Pipeline
+  built by Pseudo Game Tech to target modern (Compute Shader compatible)
+  platforms. The IRP utilizes Physically-Based Lighting techniques, linear
+  lighting, HDR lighting and a configurable hybrid Tile/Cluster ForwardPlus
+  lighting architecture and gives you the tools you need to create games,
+  technical demos, animations and more to a high graphical standard.
+repoUrl: 'https://github.com/haolange/InfinityRenderPipeline'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/haolange/InfinityRenderPipeline/raw/14b091401857e5ce5cc9091de48799c9ef737eeb/Editor/Resources/Icon_Foliage.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614112788422
