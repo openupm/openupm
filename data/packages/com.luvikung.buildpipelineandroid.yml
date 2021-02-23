@@ -1,0 +1,23 @@
+name: com.luvikung.buildpipelineandroid
+displayName: Build Pipeline for Android
+description: >-
+  Build Pipeline for Android is a build tools for Unity Editor that easier to
+  use.
+repoUrl: 'https://github.com/LuviKunG/BuildPipelineAndroid'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/BuildPipelineAndroid/raw/01cd19696a4cf2f37017e6bc13205e26f384a6a2/images/giturl.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614103061598
