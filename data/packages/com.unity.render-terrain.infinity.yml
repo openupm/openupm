@@ -1,0 +1,20 @@
+name: com.unity.render-terrain.infinity
+displayName: InfinityTerrain
+description: The Infinity-Terrain.
+repoUrl: 'https://github.com/haolange/InfinityTerrain'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - terrain
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/haolange/InfinityTerrain/raw/b0fbab4e05b0ed9eeb4019ea5c2d28c548e248a3/Editor/Resources/Icon/Landscape/Terrain/Terrain_V2.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614117201739
