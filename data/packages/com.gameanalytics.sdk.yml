@@ -13,7 +13,7 @@ topics: []
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '6.4.1'
 image: >-
   https://github.com/GameAnalytics/GA-SDK-UNITY/raw/2c308c69b3caf32700436789e013b030d637db88/Gizmos/GameAnalytics/gaLogo.png
 readme: 'master:README.md'
