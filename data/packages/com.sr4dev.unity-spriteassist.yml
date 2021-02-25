@@ -1,0 +1,24 @@
+name: com.sr4dev.unity-spriteassist
+displayName: Unity-SpriteAssist
+description: >-
+  Unity-SpriteAssist is an Unity extension that assist Sprite's mesh creation
+  more conviniently.
+repoUrl: 'https://github.com/sr4dev/Unity-SpriteAssist'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - editor-enhancement
+  - sprite-management
+hunter: johannesdeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sr4dev/Unity-SpriteAssist/raw/570769fbebcca423054fdbfb6eedfb72e4d84d8f/README.gif
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614238419690
