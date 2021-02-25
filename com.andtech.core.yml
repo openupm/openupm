@@ -1,0 +1,19 @@
+name: com.andtech.core
+displayName: Andtech
+description: Standard utility assets for Unity
+repoUrl: 'https://github.com/AndrewMJordan/andtech'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - utilities
+hunter: AndrewMJordan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614244611118
