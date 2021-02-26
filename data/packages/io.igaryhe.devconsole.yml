@@ -1,0 +1,19 @@
+name: io.igaryhe.devconsole
+displayName: DevConsole
+description: Extensible in-game dev console
+repoUrl: 'https://github.com/igaryhe/DevConsole'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - testing
+hunter: igaryhe
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614358090856
