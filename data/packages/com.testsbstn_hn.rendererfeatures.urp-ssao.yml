@@ -1,0 +1,18 @@
+name: com.testsbstn_hn.rendererfeatures.urp-ssao
+displayName: URP Screen Space Ambient Occlusion
+description: Proof of concept implementation of SSAO as a RendererFeature.
+repoUrl: 'https://github.com/PedroGabriel/urp-ssao'
+parentRepoUrl: 'https://github.com/sebastianhein/urp-ssao'
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614574768619
