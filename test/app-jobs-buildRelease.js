@@ -90,5 +90,10 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
         ReleaseReason.InvalidVersion
       );
     });
+    it("RemoteRepositoryUnavailable", function() {
+      getReasonFromBuildLogText(
+        "fatal: Could not read from remote repository."
+      ).should.equal(ReleaseReason.RemoteRepositoryUnavailable);
+    });
   });
 });

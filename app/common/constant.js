@@ -49,6 +49,8 @@ const ReleaseReason = new Enum({
   RemoteBranchNotFound: 805,
   // Invalid version
   InvalidVersion: 806,
+  // Could not read from remote repository
+  RemoteRepositoryUnavailable: 807,
   // Connection timeout
   ConnectionTime: 900,
   // Connection timeout

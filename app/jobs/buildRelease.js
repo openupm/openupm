@@ -226,6 +226,8 @@ const getReasonFromBuildLogText = function(text) {
     return ReleaseReason.HeapOutOfMemroy;
   else if (text.includes("Invalid version"))
     return ReleaseReason.InvalidVersion;
+  else if (text.includes("Could not read from remote repository"))
+    return ReleaseReason.RemoteRepositoryUnavailable;
   return ReleaseReason.None;
 };
 
