@@ -169,11 +169,11 @@ services: 服务
 show-more: 更多
 social-image: 社交网络图片
 sort-by: 排序
-sponsor-bronze: "铜牌赞助商 \U0001F949"
-sponsor-diamond: "钻石赞助商 \U0001F48E"
+sponsor-bronze: 铜牌赞助商 🥉
+sponsor-diamond: 钻石赞助商 💎
 sponsor-featured: 主要赞助商
-sponsor-gold: "金牌赞助商 \U0001F947"
-sponsor-silver: "银牌赞助商 \U0001F948"
+sponsor-gold: 金牌赞助商 🥇
+sponsor-silver: 银牌赞助商 🥈
 sponsors: 赞助商
 sprite-management: 精灵管理
 star: 星标
@@ -186,6 +186,7 @@ team: 团队
 terms-of-use: 服务条例
 terrain: 地形
 testing: 测试
+the-repository-is-unavailable: 远程代码库无效，它可能被作者移除或设置为私有。OpenUPM无法跟踪该仓库将来的改变。
 top-package-hunters: 软件包猎人排行榜
 top-package-owners: 软件包作者排行榜
 topics: 主题

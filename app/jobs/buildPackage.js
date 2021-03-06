@@ -25,7 +25,17 @@ const buildPackage = async function(name) {
   let pkg = await loadPackage(name);
   // Get remote tags.
   logger.debug({ pkg: name }, "get remote tags");
-  let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+  let remoteTags = [];
+  try {
+    remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+  } catch (error) {
+    // If repository has became private or been removed...
+    if (error.message.includes("ERROR: Repository not found")) {
+      await PackageExtra.setRepoUnavailable(name, true);
+      return;
+    }
+    throw error;
+  }
   let validTags = filterRemoteTags({
     remoteTags,
     gitTagIgnore: pkg.gitTagIgnore,

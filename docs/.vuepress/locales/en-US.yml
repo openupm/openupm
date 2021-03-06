@@ -113,7 +113,7 @@ published: Published
 published-date: Published Date
 published-time: Published time
 readme: Readme
-readme-to-found: 'Readme is not available, please try again later.'
+readme-to-found: Readme is not available, please try again later.
 ready-to-use: Ready to Use
 recently-updated: Recently Updated
 region: Region
@@ -149,11 +149,11 @@ repository-placeholder: owner/project-name
 show-more: Show more
 social-image: social image
 sort-by: Sort by
-sponsor-bronze: "Bronze Sponsors \U0001F949"
-sponsor-diamond: "Diamond Sponsors \U0001F48E"
+sponsor-bronze: Bronze Sponsors 🥉
+sponsor-diamond: Diamond Sponsors 💎
 sponsor-featured: Featured Sponsors
-sponsor-gold: "Gold Sponsors \U0001F947"
-sponsor-silver: "Silver Sponsors \U0001F948"
+sponsor-gold: Gold Sponsors 🥇
+sponsor-silver: Silver Sponsors 🥈
 sponsors: Sponsors
 star: Star
 stars: Stars
@@ -163,6 +163,9 @@ submit-pr: Submit Pull Request
 supported-unity-version: Supported Unity Version
 team: Team
 terms-of-use: Terms of Use
+the-repository-is-unavailable: >-
+  The repository is unavailable. It could be removed or turned private by the
+  author. OpenUPM won't be able to track further changes.
 top-package-hunters: Top Package Hunters
 top-package-owners: Top Package Owners
 topics: Topics
@@ -172,7 +175,7 @@ unity-version: Unity Version
 upload-to-github-via-pr: Upload to GitHub via pull request
 upload-to-github-via-pr-desc: The package is verified. A YAML file is generated to store the meta data.
 upload-to-github-via-pr-step-1-safe: Click the <b>Upload package</b> button will guide you to the GitHub website.
-upload-to-github-via-pr-step-2-safe: 'Scroll to the end of the page, click the <b>purpose new file</b> button.'
+upload-to-github-via-pr-step-2-safe: Scroll to the end of the page, click the <b>purpose new file</b> button.
 upload-to-github-via-pr-step-3-safe: Click the <b>create pull request</b> button on the following page.
 upload-to-github-via-pr-step-4-safe: The pull request will get merged automatically.
 upstream: upstream

@@ -18,3 +18,7 @@ To opt-out from OpenUPM, the package owner can also add `"private": true"` to th
 ## Unpublishing a Package
 
 Please checkout [Unpublishing a Package](./modifying-upm-package.md#unpublishing-a-package).
+
+## Repository Unavailable
+
+OpenUPM won't be able to track further changes if the repository is removed or turned private. However, the published content will remain available on the registry.

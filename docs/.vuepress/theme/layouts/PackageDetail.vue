@@ -43,6 +43,9 @@
     <template #contentview>
       <div class="columns columns-contentview">
         <div class="column col-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
+          <div v-if="$package.repoUnavailable" class="toast toast-error mb-2">
+            {{ $t("the-repository-is-unavailable") }}
+          </div>
           <div class="topics-wrap">
             <a v-for="item in topics" :key="item.slug" :href="item.link"
               ><span class="label label-rounded"> {{ item.text }}</span></a

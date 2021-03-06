@@ -28,6 +28,7 @@ const propKeys = {
   unityVersion: "unity",
   updatedTime: "updatedTime",
   repoPushedTime: "repoPushedTime",
+  repoUnavailable: "repoUnavailable",
   version: "ver"
 };
 
@@ -169,6 +170,15 @@ const getRepoPushedTime = async function(packageName) {
   return parseInt(value);
 };
 
+const setRepoUnavailable = async function(packageName, value) {
+  await setValue(packageName, propKeys.repoUnavailable, value ? "1" : "0");
+};
+
+const getRepoUnavailable = async function(packageName) {
+  const text = await getValue(packageName, propKeys.repoUnavailable);
+  return text == "1" ? true : false;
+};
+
 const setUpdatedTime = async function(packageName, updatedTime) {
   await setValue(packageName, propKeys.updatedTime, updatedTime);
 };
@@ -234,6 +244,7 @@ module.exports = {
   getReadmeHtml,
   getRecentPackages,
   getRepoPushedTime,
+  getRepoUnavailable,
   getScopes,
   getStars,
   getUnityVersion,
@@ -247,6 +258,7 @@ module.exports = {
   setReadmeHtml,
   setRecentPackages,
   setRepoPushedTime,
+  setRepoUnavailable,
   setScopes,
   setStars,
   setUnityVersion,
