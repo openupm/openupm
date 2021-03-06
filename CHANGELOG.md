@@ -1,3 +1,10 @@
+## [1.48.4](https://github.com/openupm/openupm/compare/1.48.3...1.48.4) (2021-03-06)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error code RemoteRepositoryUnavailable ([1130bb8](https://github.com/openupm/openupm/commit/1130bb8481c0d82f245d3a54e5ac879ff50fd84d))
+
 ## [1.48.3](https://github.com/openupm/openupm/compare/1.48.2...1.48.3) (2021-02-03)
 
 
