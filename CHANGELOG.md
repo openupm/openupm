@@ -1,3 +1,10 @@
+# [1.49.0](https://github.com/openupm/openupm/compare/1.48.4...1.49.0) (2021-03-06)
+
+
+### Features
+
+* handle repository unavailable ([c45c4ac](https://github.com/openupm/openupm/commit/c45c4ac0ef1775f7ed28661ef142af8161c52a69))
+
 ## [1.48.4](https://github.com/openupm/openupm/compare/1.48.3...1.48.4) (2021-03-06)
 
 
