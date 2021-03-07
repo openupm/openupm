@@ -1,6 +1,6 @@
 name: com.bassmit.dotsnav
 displayName: DotsNav
-description: DotsNav
+description: A fully dynamic planar navmesh built on DOTS, supporting monobehaviours. Fast enough to add and remove many obstacles each frame, and supports agents of any size.
 repoUrl: 'https://github.com/dotsnav/dotsnav'
 parentRepoUrl: null
 licenseSpdxId: Zlib
