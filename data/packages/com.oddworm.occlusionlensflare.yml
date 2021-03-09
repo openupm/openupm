@@ -1,0 +1,22 @@
+name: com.oddworm.occlusionlensflare
+displayName: Occlusion Lens Flare
+description: >-
+  The Occlusion Lens Flare package provides the ability to use Unity's builtin
+  Lens Flare Component without Physics.
+repoUrl: 'https://github.com/pschraut/UnityOcclusionLensFlare'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/pschraut/UnityOcclusionLensFlare/raw/946eb8ca39c5d8b9df430d5b0a9bf392cffa4936/Documentation~/images/sample.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615316447468
