@@ -41,13 +41,41 @@
             <button class="btn btn-primary input-group-btn">Subscribe</button>
           </div>
         </div> -->
+        <div
+          v-if="$site.themeConfig.region != 'cn'"
+          class="column col-3 col-md-12 col-sm-12"
+        >
+          <h5>&nbsp;</h5>
+          <div>
+            <ul>
+              <li class="mb-2">
+                <a href="https://m.do.co/c/50e7f9860fa9">
+                  <img
+                    src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_white.svg"
+                    width="180px"
+                  />
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://www.netlify.com">
+                  <img
+                    src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+                    alt="Deploys by Netlify"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="column column col-4 col-md-6 col-sm-12">
           <small>{{ $t("footer-copyright") }}</small>
         </div>
-        <div class="column column col-4 col-md-6 col-sm-12">
+        <div
+          v-if="$site.themeConfig.region == 'cn'"
+          class="column column col-4 col-md-6 col-sm-12"
+        >
           <small>
-            <NavLink class :item="poweredByLink" />
-            <span v-if="$site.themeConfig.region == 'cn'">
+            <span>
               &nbsp;|&nbsp;
               <NavLink class :item="icpLink" />
             </span>
