@@ -82,10 +82,10 @@ OpenUPM is an independent project with its ongoing development made possible ent
     <tr>
       <td align="center" valign="middle">
         <a href="https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA" target="_blank">
-          <img width="148px" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/brands/jdcloud/EN-Color-Horizontal-2.png">
+          <img height="60px" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/brands/jdcloud/EN-Color-Horizontal-2.png">
         </a>
       </td>
-    </tr><tr></tr>
+    </tr>
   </tbody>
 </table>
 <!--silver end-->
