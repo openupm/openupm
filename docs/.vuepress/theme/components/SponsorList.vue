@@ -14,8 +14,13 @@
         </a>
       </figure>
       <a v-else :href="profile.url">
-        <LazyImage v-if="profile.image" :src="profile.image" alt:="profile.name"
-        class="img-responsive" />
+        <LazyImage
+          v-if="profile.image"
+          :src="profile.image"
+          :alt="profile.name"
+          :class="[profile.slug, 'img-responsive']"
+          :style="{ minWidth: profile.minWidth || '0' }"
+        />
       </a>
     </div>
   </div>
@@ -74,5 +79,7 @@ export default {
   &.sponsor-silver
     max-width 12rem
   &.sponsor-bronze
+    max-width 9rem
+  &.sponsor-service
     max-width 9rem
 </style>

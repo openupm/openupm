@@ -31,29 +31,6 @@
               />
             </section>
           </div>
-          <div class="column col-12">
-            <section>
-              <h2>Service Sponsors</h2>
-              <div>
-                <span class="mr-2">
-                  <a href="https://m.do.co/c/50e7f9860fa9">
-                    <img
-                      src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg"
-                      width="180px"
-                    />
-                  </a>
-                </span>
-                <span>
-                  <a href="https://www.netlify.com">
-                    <img
-                      src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
-                      alt="Deploys by Netlify"
-                    />
-                  </a>
-                </span>
-              </div>
-            </section>
-          </div>
           <div v-if="backers.length" class="column col-12">
             <section id="backers" class="avatar-wall">
               <h2>{{ $t("backers") }}</h2>
@@ -148,7 +125,7 @@ export default {
         });
     },
     sponsors() {
-      return ["diamond", "gold", "silver", "bronze"]
+      return ["diamond", "gold", "silver", "bronze", "service"]
         .map(level => {
           const data = {
             key: "sponsor-" + level,

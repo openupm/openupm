@@ -70,9 +70,62 @@ Learn more at [our documentations](https://openupm.com/docs/).
 
 ## Sponsors and backers
 OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
-- [sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
-- [exploring other donation options](https://openupm.com/support/)
-- [region CN donation options](https://openupm.cn/zh/support/)
+- [Sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
+- [Exploring other donation options](https://openupm.com/support/)
+- [Exploring region CN donation options](https://openupm.cn/zh/support/)
+
+<h3 align="center">Silver Sponsors</h3>
+
+<!--silver start-->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA" target="_blank">
+          <img width="148px" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/brands/jdcloud/EN-Color-Horizontal-2.png">
+        </a>
+      </td>
+    </tr><tr></tr>
+  </tbody>
+</table>
+<!--silver end-->
+
+<h3 align="center">Bronze Sponsors</h3>
+
+<!--bronze start-->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/adrenak" target="_blank">
+          <img width="48px" src="https://github.com/adrenak.png?size=96">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--bronze end-->
+
+<h3 align="center">Service Sponsors</h3>
+
+<!--bronze start-->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://m.do.co/c/50e7f9860fa9" target="_blank">
+          <img width="148px" src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://www.netlify.com/" target="_blank">
+          <img width="120px" src="https://www.netlify.com/img/global/badges/netlify-dark.svg">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--bronze end-->
 
 ## Ecosystem
 
