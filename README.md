@@ -98,7 +98,7 @@ OpenUPM is an independent project with its ongoing development made possible ent
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/adrenak" target="_blank">
-          <img width="48px" src="https://github.com/adrenak.png?size=96">
+          <img width="64px" src="https://github.com/adrenak.png?size=128">
         </a>
       </td>
     </tr>
