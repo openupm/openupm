@@ -1,0 +1,20 @@
+name: com.toorah-games.gradienttool
+displayName: Gradient Tool
+description: Create Gradients
+repoUrl: 'https://github.com/Toorah/com.toorah-games.gradienttool'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Toorah/com.toorah-games.gradienttool/raw/54a12b8ea9cdf12a7d582b60baee4c3c70afada1/Documentation~/Screenshots/Inspector.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615481273010
