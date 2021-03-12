@@ -1,0 +1,19 @@
+name: tech.fantabulous.coreutils
+displayName: CoreUtils
+description: Structural systems and tools that make using Unity easier and more productive.
+repoUrl: 'https://github.com/fantabulous-tech/coreutils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: fantabulous-tech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615548069408
