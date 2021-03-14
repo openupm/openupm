@@ -1,0 +1,21 @@
+name: com.quabug.generic-serialize-reference
+displayName: GenericSerializeReference
+description: >-
+  Automatically alter generic field of SerializeReference into its non-generic
+  form
+repoUrl: 'https://github.com/quabug/GenericSerializeReference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615719006914
