@@ -1,0 +1,22 @@
+name: com.greener-games.change-log
+displayName: Change Log
+description: >-
+  Package useful to keep track of the major changes done on a project. It stores
+  a set of info about the version: version number, version name, the list of
+  changes we want to save
+repoUrl: 'https://github.com/Greener-Games/Change-Log'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: copyright
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615807836668
