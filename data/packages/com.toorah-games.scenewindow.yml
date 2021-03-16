@@ -1,0 +1,19 @@
+name: com.toorah-games.scenewindow
+displayName: Scene Overview Window
+description: Adds a Scene overview Window with Searchbar and icons.
+repoUrl: 'https://github.com/Toorah/com.toorah-games.scenewindow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615910765333
