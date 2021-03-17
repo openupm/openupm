@@ -1,0 +1,19 @@
+name: com.daan.chronos
+displayName: Chronos
+description: 'test,ahahah'
+repoUrl: 'https://github.com/DaanYorn/Chronos'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: DaanYorn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615970964595
