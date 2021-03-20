@@ -1,0 +1,20 @@
+name: com.pyriceti.framework
+displayName: Pyriceti Framework
+description: 'All code, tools and resources from Pyriceti framework'
+repoUrl: 'https://github.com/pyriceti/framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: pyriceti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616178672086
