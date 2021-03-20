@@ -1,0 +1,24 @@
+name: com.biernat-krzysztof.gt-variable
+displayName: GTVariable
+description: >-
+  This repository is based on Ryan Hipple Talk about Game Architecture with
+  Scriptable Objects and containe collection of wrappers that can help you
+  manage dependancies between systems/components. Make sure to be familiar with
+  concept of scriptable objects, because they are the core of this package.
+repoUrl: 'https://github.com/GhooTS/GTScriptableVariable'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616247825551
