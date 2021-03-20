@@ -15,9 +15,9 @@ topics:
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '2019.3'
+minVersion: ''
 image: null
-readme: 'alpha:README.md'
+readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
