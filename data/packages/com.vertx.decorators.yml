@@ -1,0 +1,20 @@
+name: com.vertx.decorators
+displayName: Decorators
+description: Advanced Property Decorators
+repoUrl: 'https://github.com/vertxxyz/Vertx.Decorators'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: vertxxyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616914140415
