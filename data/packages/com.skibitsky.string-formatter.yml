@@ -1,0 +1,21 @@
+name: com.skibitsky.string-formatter
+displayName: String Formatter
+description: Format strings with HTML-like tags (Unity's Rich Text) in LINQ fashion
+repoUrl: 'https://github.com/skibitsky/string-formatter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+  - utilities
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.3'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616935022600
