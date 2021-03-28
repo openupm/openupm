@@ -1,0 +1,20 @@
+name: com.vertx.attributes
+displayName: Attributes
+description: Attributes and Property Drawers/Decorators for Unity.
+repoUrl: 'https://github.com/vertxxyz/Vertx.Attributes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: vertxxyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616906734986
