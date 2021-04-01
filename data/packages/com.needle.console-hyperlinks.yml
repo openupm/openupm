@@ -1,0 +1,20 @@
+name: com.needle.console-hyperlinks
+displayName: Console Hyperlinks
+description: Add support for custom console hyperlinks
+repoUrl: 'https://github.com/needle-tools/console-hyperlinks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617315377736
