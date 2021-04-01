@@ -13,7 +13,7 @@ gitTagPrefix: release/
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'main:README.md'
+readme: 'main:package/Readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
