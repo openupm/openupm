@@ -1,0 +1,21 @@
+name: com.beardphantom.fabric-cvars
+displayName: Fabric.CVars
+description: >-
+  Source Engine-like cvars (console variables) for Unity. Part of the Fabric.*
+  framework.
+repoUrl: 'https://github.com/thebeardphantom/Fabric.CVars'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617328787439
