@@ -1,0 +1,21 @@
+name: com.roguecode.unity-simple-srt
+displayName: Unity Simple SRT
+description: A super simple SRT subtitle parser
+repoUrl: 'https://github.com/Adorkable-forkable/Unity-Simple-SRT'
+parentRepoUrl: 'https://github.com/roguecode/Unity-Simple-SRT'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - gui
+  - video
+hunter: yoiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617639790981
