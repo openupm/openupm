@@ -1,0 +1,23 @@
+name: com.alkimeegames.codeoptimizationsymbols
+displayName: Code Optimization Symbols
+description: >-
+  Automatically sets preprocessor directives based on the Code Optimization mode
+  set in the Unity Editor.
+repoUrl: 'https://github.com/AlkimeeGames/CodeOptimizationSymbols'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - debugging-and-logging
+  - utilities
+hunter: schodemeiss
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617717769117
