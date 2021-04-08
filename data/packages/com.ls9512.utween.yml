@@ -16,8 +16,8 @@ gitTagIgnore: ''
 minVersion: 'v1.0.2'
 image: >-
   https://github.com/ls9512/UTween/raw/6888320fc7218b13426e241da44a9398ce1d2543/Core/EditorResources/Icon_512.png
-readme: 'master:.github/README.md'
-readme_zhCN: 'master:.github/README_CN.md'
+readme: 'upm:.github/README.md'
+readme_zhCN: 'upm:.github/README_CN.md'
 displayName_zhCN: UTween
 description_zhCN: UTween 是一个 Unity 环境下的插值动画组件，可以通过内置组件快速配置动画，或者通过代码编写动画。
 createdAt: 1614138551903
