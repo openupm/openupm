@@ -15,7 +15,7 @@ topics:
   - editor-enhancement
   - utilities
 hunter: robinnorth
-gitTagPrefix: v
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 1.0.0-pre.1
 image: null
