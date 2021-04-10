@@ -18,7 +18,7 @@ hunter: robinnorth
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: 1.0.0-pre.1
-image: 'https://github.com/superunitybuild/buildtool/blob/gh-pages/Screenshot_v1.0.0.png'
+image: 'https://raw.githubusercontent.com/superunitybuild/buildtool/gh-pages/Screenshot_v1.0.0.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
