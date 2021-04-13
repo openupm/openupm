@@ -7,6 +7,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
+readme: 'main:README.md'
 createdAt: 1577885177000
 displayName_zhCN: XRTK.WindowsMixedReality
 description_zhCN: XRTK的Windows Mixed Reality平台组件

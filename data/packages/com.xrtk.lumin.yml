@@ -7,6 +7,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
+readme: 'main:README.md'
 createdAt: 1577885136000
 displayName_zhCN: XRTK.Lumin
 description_zhCN: XRTK的Lumin平台组件
