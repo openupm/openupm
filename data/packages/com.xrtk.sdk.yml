@@ -8,6 +8,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
+readme: 'main:README.md'
 createdAt: 1577885075000
 displayName_zhCN: XRTK文件
 description_zhCN: XRTK的SDK资源
