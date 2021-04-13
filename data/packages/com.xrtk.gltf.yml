@@ -14,7 +14,6 @@ topics:
   - utilities
 hunter: StephenHodgson
 readme: 'main:README.md'
-readme_zhCN: ''
-displayName_zhCN: ''
+displayName_zhCN: 'XRTK.glTF'
 description_zhCN: ''
 createdAt: 1618277302238
