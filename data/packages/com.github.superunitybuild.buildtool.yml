@@ -2,7 +2,7 @@ name: com.github.superunitybuild.buildtool
 displayName: SuperUnityBuild
 description: >-
   SuperUnityBuild is a Unity utility that automates the process of generating
-  builds of your game. It's easy and quick enough to use on small games, but
+  builds. It's easy and quick enough to use on small apps, but
   it's also powerful and extensible enough to be extremely useful on larger
   projects. The key to this flexibility lies in SuperUnityBuild's configurable
   degrees of granularity and its BuildActions framework which allows additional
