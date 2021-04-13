@@ -1,0 +1,26 @@
+name: io.sentry.unity
+displayName: Sentry Unity
+description: Official SDK for Sentry - Open-source error tracking that helps developers monitor and fix crashes in real time.
+repoUrl: 'https://github.com/getsentry/unity'
+parentRepoUrl: 'https://github.com/getsentry/sentry-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - integration
+  - mobile
+  - profiling
+  - services
+  - testing
+  - utilities
+hunter: 'bruno-garcia'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://sentry-brand.storage.googleapis.com/sentry-logo-black.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618345313580
