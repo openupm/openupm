@@ -1,0 +1,20 @@
+name: com.gemserk.bitmasktypes
+displayName: Unity Bitmask Types by Gemserk
+description: 'Unity Bitmask Types https://github.com/acoppes/unity-bitmasktypes'
+repoUrl: 'https://github.com/acoppes/unity-bitmasktypes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: acoppes
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'com.gemserk.bitmasktypes:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618439341556
