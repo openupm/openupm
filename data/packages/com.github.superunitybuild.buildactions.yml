@@ -1,0 +1,23 @@
+name: com.github.superunitybuild.buildactions
+displayName: SuperUnityBuild BuildActions
+description: >-
+  BuildActions are one of the key components that make the SuperUnityBuild build
+  automation tool flexible and powerful. Each one extends the capabilities of
+  SuperUnityBuild and can be easily setup and customized to suit your needs
+repoUrl: 'https://github.com/superunitybuild/buildactions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: robinnorth
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/superunitybuild/buildtool/gh-pages/Cover.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618505460482
