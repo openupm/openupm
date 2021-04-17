@@ -13696,6 +13696,11 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-chunkload-redirect@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-chunkload-redirect/-/vuepress-plugin-chunkload-redirect-1.0.3.tgz#cd738a8f054ba4ee02a472b14d2d84a78d429ded"
+  integrity sha512-5VgvGw9t9v6DZU4NNksph9+en7v8NIo/gDKDnUdFkM+kuTnp4BAmWA+2JbpFIaw4Ke8R1txb2LZmAmuOum3DEA==
+
 vuepress-plugin-clean-urls@^1.0.3:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-clean-urls/-/vuepress-plugin-clean-urls-1.1.1.tgz#593f47be643c33c34413ba408e8bee31aaf534bd"
