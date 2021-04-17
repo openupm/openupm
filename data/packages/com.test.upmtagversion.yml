@@ -1,0 +1,19 @@
+name: com.test.upmtagversion
+displayName: test.upmtagversion
+description: Unity内置图集工具
+repoUrl: 'https://github.com/CCaiJI/UpmVersionTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - testing
+hunter: CCaiJI
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618658734438
