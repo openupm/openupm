@@ -1,3 +1,10 @@
+## [1.49.1](https://github.com/openupm/openupm/compare/1.49.0...1.49.1) (2021-04-17)
+
+
+### Bug Fixes
+
+* **web:** add vuepress-plugin-chunkload-redirect to resolve the chunk load failure issue ([860bc43](https://github.com/openupm/openupm/commit/860bc431123e2572520cb1f1e549674565cf3d5f))
+
 # [1.49.0](https://github.com/openupm/openupm/compare/1.48.4...1.49.0) (2021-03-06)
 
 
