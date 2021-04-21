@@ -14,7 +14,8 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://user-images.githubusercontent.com/29813954/115538937-11fc8f00-a2a5-11eb-8547-b8f9d02c7278.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
