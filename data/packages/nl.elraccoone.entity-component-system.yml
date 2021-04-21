@@ -17,7 +17,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/jeffreylanters/unity-entity-component-system/raw/2d736850d475613dd80400d2f74c0d6f6e0db5a4/.github/WIKI/lifecycle.png
+  https://raw.githubusercontent.com/jeffreylanters/unity-entity-component-system/master/.github/WIKI/repository-readme-splash.png
 readme: 'master:README.md'
 createdAt: 1600619945860
 displayName_zhCN: 实体组件系统

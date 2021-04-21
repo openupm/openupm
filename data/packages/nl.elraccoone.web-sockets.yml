@@ -17,7 +17,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/jeffreylanters/unity-web-sockets/raw/37e58e0db7760462f03fd5ee09467a026e925be7/.github/WIKI/logo.jpg
+  https://raw.githubusercontent.com/jeffreylanters/unity-web-sockets/master/.github/WIKI/repository-readme-splash.png
 readme: 'master:README.md'
 createdAt: 1600620398398
 displayName_zhCN: Web Sockets

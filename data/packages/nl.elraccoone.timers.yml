@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/jeffreylanters/unity-timers/raw/4c6ab3c7b299b5e84c913ed928a4633bb740e8c8/.github/WIKI/logo.jpg
+  https://raw.githubusercontent.com/jeffreylanters/unity-timers/master/.github/WIKI/repository-readme-splash.png
 readme: 'master:README.md'
 createdAt: 1600620123701
 displayName_zhCN: 计时器
