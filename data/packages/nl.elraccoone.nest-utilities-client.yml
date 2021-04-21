@@ -4,7 +4,7 @@ description: >-
   Providing a set of tools allowing your application to interface with servers
   running rest-full API's build using the Nest Utilities package with custom
   services and chainable options for complete flexibility.
-repoUrl: 'https://github.com/elraccoone/unity-nest-utilities-client'
+repoUrl: 'https://github.com/jeffreylanters/unity-nest-utilities-client'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

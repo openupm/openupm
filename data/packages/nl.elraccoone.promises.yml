@@ -5,7 +5,7 @@ description: >-
   asynchronous operations when compared to traditional callback-based
   approaches. They also allow you to handle asynchronous errors using approaches
   that are similar to synchronous try/catch.
-repoUrl: 'https://github.com/elraccoone/unity-promises'
+repoUrl: 'https://github.com/jeffreylanters/unity-promises'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -16,7 +16,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/elraccoone/unity-promises/raw/a31a4af852c474e399f71f0ba81be6407dc21c55/.github/WIKI/logo.jpg
+  https://github.com/jeffreylanters/unity-promises/raw/a31a4af852c474e399f71f0ba81be6407dc21c55/.github/WIKI/logo.jpg
 readme: 'master:README.md'
 createdAt: 1600620235717
 displayName_zhCN: Promises

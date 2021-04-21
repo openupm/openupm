@@ -4,7 +4,7 @@ description: >-
   We may decide to execute a function not right now, but at a certain time
   later. That’s called “scheduling a call”. The Timers class helps you to do so
   with a clean and short syntax without having to worry about enumerators.
-repoUrl: 'https://github.com/elraccoone/unity-timers'
+repoUrl: 'https://github.com/jeffreylanters/unity-timers'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/elraccoone/unity-timers/raw/4c6ab3c7b299b5e84c913ed928a4633bb740e8c8/.github/WIKI/logo.jpg
+  https://github.com/jeffreylanters/unity-timers/raw/4c6ab3c7b299b5e84c913ed928a4633bb740e8c8/.github/WIKI/logo.jpg
 readme: 'master:README.md'
 createdAt: 1600620123701
 displayName_zhCN: 计时器
