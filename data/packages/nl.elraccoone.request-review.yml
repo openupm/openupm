@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://raw.githubusercontent.com/jeffreylanters/unity-request-review/master/.github/WIKI/repository-readme-splash.png
+  https://raw.githubusercontent.com/jeffreylanters/unity-request-review/master/.github/WIKI/repository-open-graph.png
 readme: 'master:README.md'
 createdAt: 1600620184353
 displayName_zhCN: 要求评分

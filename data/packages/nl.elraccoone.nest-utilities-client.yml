@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://raw.githubusercontent.com/jeffreylanters/unity-entity-component-system/master/.github/WIKI/repository-readme-splash.png
+  https://raw.githubusercontent.com/jeffreylanters/unity-entity-component-system/master/.github/WIKI/repository-open-graph.png
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
