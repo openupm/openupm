@@ -5,7 +5,7 @@ description: >-
   technology that allows real-time interactive communication between the client
   browser and a server. It uses a completely different protocol that allows
   bidirectional data flow, making it unique against HTTP.
-repoUrl: 'https://github.com/elraccoone/unity-web-sockets'
+repoUrl: 'https://github.com/jeffreylanters/unity-web-sockets'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -17,7 +17,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/elraccoone/unity-web-sockets/raw/37e58e0db7760462f03fd5ee09467a026e925be7/.github/WIKI/logo.jpg
+  https://github.com/jeffreylanters/unity-web-sockets/raw/37e58e0db7760462f03fd5ee09467a026e925be7/.github/WIKI/logo.jpg
 readme: 'master:README.md'
 createdAt: 1600620398398
 displayName_zhCN: Web Sockets

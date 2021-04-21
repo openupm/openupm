@@ -4,7 +4,7 @@ description: >-
   An extremely light weight, extendable and customisable tweening engine made
   for script-based animations for user-interfaces and world-spaces objects
   optimised for all platforms.
-repoUrl: 'https://github.com/elraccoone/unity-tweens'
+repoUrl: 'https://github.com/jeffreylanters/unity-tweens'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/elraccoone/unity-tweens/raw/e3d1b20c6538c12d9de41eb13155f3d813fe5bf2/.github/WIKI/repository-open-graph-template.png
+  https://github.com/jeffreylanters/unity-tweens/raw/e3d1b20c6538c12d9de41eb13155f3d813fe5bf2/.github/WIKI/repository-open-graph-template.png
 readme: 'master:README.md'
 createdAt: 1600620028616
 displayName_zhCN: Tweens
