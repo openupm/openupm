@@ -16,7 +16,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/jeffreylanters/unity-promises/raw/a31a4af852c474e399f71f0ba81be6407dc21c55/.github/WIKI/logo.jpg
+  https://raw.githubusercontent.com/jeffreylanters/unity-promises/master/.github/WIKI/repository-open-graph.png
 readme: 'master:README.md'
 createdAt: 1600620235717
 displayName_zhCN: Promises

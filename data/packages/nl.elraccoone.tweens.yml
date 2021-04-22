@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/jeffreylanters/unity-tweens/raw/e3d1b20c6538c12d9de41eb13155f3d813fe5bf2/.github/WIKI/repository-open-graph-template.png
+  https://raw.githubusercontent.com/jeffreylanters/unity-tweens/master/.github/WIKI/repository-open-graph.png
 readme: 'master:README.md'
 createdAt: 1600620028616
 displayName_zhCN: Tweens
