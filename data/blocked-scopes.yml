@@ -167,3 +167,7 @@ scopes:
 - com.unity.xr.openxr
 - com.unity.xr.windowsmr
 - com.unity.xr.windowsmr.metro
+# packages that break Unity terms
+- com.dopamine.firebase.analytics
+- com.dopamine.firebase.remoteconfig
+- com.dopamine.firebase.core
