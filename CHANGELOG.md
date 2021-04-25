@@ -1,3 +1,10 @@
+## [1.49.2](https://github.com/openupm/openupm/compare/1.49.1...1.49.2) (2021-04-25)
+
+
+### Bug Fixes
+
+* **data:** remove firebase related packages that break Unity terms (close: [#2062](https://github.com/openupm/openupm/issues/2062)) ([3534a29](https://github.com/openupm/openupm/commit/3534a2923c88144697f95a3e49c8ec2abb4805bc))
+
 ## [1.49.1](https://github.com/openupm/openupm/compare/1.49.0...1.49.1) (2021-04-17)
 
 
