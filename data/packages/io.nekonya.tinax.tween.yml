@@ -1,0 +1,20 @@
+name: io.nekonya.tinax.tween
+displayName: TinaX.Tween
+description: Tween library for TinaX Framework
+repoUrl: 'https://github.com/yomunsam/TinaX.Tween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README_CN.md'
+displayName_zhCN: ''
+description_zhCN: TinaX框架的补间动画（Tween）库
+createdAt: 1619467914957
