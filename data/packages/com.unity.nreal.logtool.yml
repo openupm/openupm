@@ -1,0 +1,20 @@
+name: com.unity.nreal.logtool
+displayName: NrealLogTool
+description: Nreal log tool
+repoUrl: 'https://github.com/Zeqian-nreal/UnityLogTools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: mit
+topics:
+  - ar-and-vr
+  - utilities
+hunter: zeqian
+gitTagPrefix: 0.1.0
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: log工具
+description_zhCN: Nreal log tool
+createdAt: 1619419041772
