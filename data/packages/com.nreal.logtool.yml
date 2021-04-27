@@ -1,0 +1,19 @@
+name: com.nreal.logtool
+displayName: NrealLogTool
+description: Nreal log tool
+repoUrl: 'https://github.com/Zeqian-nreal/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: zeqian-nreal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Assets/Packages/com.nreal.logtool/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619510180044
