@@ -8,9 +8,9 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: zeqian-nreal
-gitTagPrefix: ''
+gitTagPrefix: '0.1.0'
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.1.0'
 image: null
 readme: 'main:Assets/Packages/com.nreal.logtool/README.md'
 readme_zhCN: ''
