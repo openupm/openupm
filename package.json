@@ -106,7 +106,7 @@
     "parse-github-url": "^1.0.2",
     "pg": "^7.18.1",
     "promise-redis": "^0.0.5",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "semver": "^7.1.2",
     "semver-compare": "^1.0.0",
     "serialize-javascript": "^3.1.0",
