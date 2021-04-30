@@ -4,7 +4,7 @@ description: Editor Tools and Gameplay Utilities for Unity
 repoUrl: 'https://github.com/DTeruel/Toolnity'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'Unlicense'
 topics:
   - animation
   - editor-enhancement
