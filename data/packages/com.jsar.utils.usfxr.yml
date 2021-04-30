@@ -1,0 +1,19 @@
+name: com.jsar.utils.usfxr
+displayName: usfxr
+description: quick prototype sound effects
+repoUrl: 'https://github.com/JuanJSAR/usfxr'
+parentRepoUrl: 'https://github.com/grapefrukt/usfxr'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - audio
+hunter: JuanJSAR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2018.4'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619757111218
