@@ -1,0 +1,20 @@
+name: com.cysharp.messagepipe.vcontainer
+displayName: MessagePipe.VContainer
+description: MessagePipe Runtime support for VContainer.
+repoUrl: 'https://github.com/Cysharp/MessagePipe'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/46207/116520080-34c61d80-a90d-11eb-8786-7737c5da274d.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619903922308
