@@ -1,0 +1,20 @@
+name: com.cysharp.messagepipe.zenject
+displayName: MessagePipe.Zenject
+description: MessagePipe Runtime support for Zenject.
+repoUrl: 'https://github.com/Cysharp/MessagePipe'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/46207/115814615-62542800-a430-11eb-9041-1f31c1ac8464.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619903997362
