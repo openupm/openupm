@@ -1,0 +1,24 @@
+name: de.frebreco.sig.core
+displayName: SIG Core
+description: >-
+  Implements the core functionality of SIG. This includes the base graph and
+  graph editor, base node and built-in nodes, graph processor, SIG component
+  API, and task API. SIG.Core is a dependency of all other SIG sub-packages
+repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - procedural-generation
+  - visual-scripting
+hunter: ''
+gitTagPrefix: upm/core/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/core:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619986389954
