@@ -1,0 +1,23 @@
+name: de.frebreco.sig.dataset.coco
+displayName: SIG Dataset Coco
+description: >-
+  Implements the COCO dataset model with JSON annotations using the SIG.Dataset
+  API
+repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - procedural-generation
+  - visual-scripting
+hunter: ''
+gitTagPrefix: upm/dataset_coco/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/dataset_coco:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619988325202
