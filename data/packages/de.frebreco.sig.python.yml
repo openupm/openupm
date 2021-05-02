@@ -1,0 +1,25 @@
+name: de.frebreco.sig.python
+displayName: SIG Python
+description: >-
+  Implements high-level python support using the Python for Unity package. It
+  includes the python worker, a basic API to implement and load custom nodes
+  using python, as well as an API to call python nodes from within native C#
+  nodes
+repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - procedural-generation
+  - visual-scripting
+hunter: ''
+gitTagPrefix: upm/python/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/python:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619988398634
