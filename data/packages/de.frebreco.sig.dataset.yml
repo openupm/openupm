@@ -1,0 +1,23 @@
+name: de.frebreco.sig.dataset
+displayName: SIG Dataset
+description: >-
+  Implements a Unity-friendly dataset base model as well as base nodes to add
+  dataset items and annotations during graph processing
+repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - procedural-generation
+  - visual-scripting
+hunter: ''
+gitTagPrefix: upm/dataset/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/dataset:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619986941924
