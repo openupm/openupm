@@ -86,6 +86,7 @@ yarn gh:ratelimit
 OpenUPM uses [VuePress](https://vuepress.vuejs.org) - a static website generator to develop website frontend.
 
 ```bash
+source env.sh
 yarn docs:dev
 ```
 
