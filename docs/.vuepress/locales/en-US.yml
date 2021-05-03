@@ -43,7 +43,7 @@ footer-copyright: Copyright © 2019-2020 Favo Yang
 forked-from: forked from
 get: Get
 git-deps-missing: Please install the Git dependency manually.
-git-deps-nuget: The package may exist in the uplinked UnityNuGet registry。
+git-deps-nuget: The package may exist in the uplinked UnityNuGet registry.
 git-deps-replaced: The Git dependency can be replaced by a version available on OpenUPM.
 git-tag: Git tag
 git-tag-ignore-pattern: Git tag ignore pattern
