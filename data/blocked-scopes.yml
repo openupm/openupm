@@ -8,6 +8,8 @@ scopes:
 - com.unity.demoteam.digital-human.sample
 - com.kirbyrawr
 - org.visualpinball
+# packages that hosting on https://github.com/xoofx/UnityNuGet
+- org.nuget
 # packages already published on Unity official registry
 - com.autodesk.fbx
 - com.oculus.integration.inofficial
