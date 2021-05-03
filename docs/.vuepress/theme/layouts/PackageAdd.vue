@@ -539,6 +539,9 @@
                               <li
                                 v-html="$t('wait-for-ci-pipelines-step-2-safe')"
                               ></li>
+                              <li
+                                v-html="$t('wait-for-ci-pipelines-step-3-safe')"
+                              ></li>
                             </ul>
                           </div>
                         </div>

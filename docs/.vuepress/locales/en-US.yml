@@ -184,9 +184,10 @@ verify-package: Verify package
 version: Version
 versions: Versions
 via: via
-wait-for-ci-pipelines: Wait for CI pipelines to complete (10-15 mins)
+wait-for-ci-pipelines: Wait for CI pipelines to complete (20-30 mins)
 wait-for-ci-pipelines-step-1-safe: You can visit the package at
 wait-for-ci-pipelines-step-2-safe: >-
   You can view the build result at the <b>version history</b> and <b>build
   issues</b> sections.
+wait-for-ci-pipelines-step-3-safe: <b>Notice that first-time contributor requires maintainer's approval which may cost more time.</b>
 zhihu-blog: Zhihu Articles

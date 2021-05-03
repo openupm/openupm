@@ -212,5 +212,6 @@ visual-scripting: 可视化脚本
 wait-for-ci-pipelines: 等待持续集成管线完成它的工作，通常需要10-15分钟。
 wait-for-ci-pipelines-step-1-safe: 你可以访问软件包页面：
 wait-for-ci-pipelines-step-2-safe: 亦可通过其查看已发布的【<b>版本</b>】和【<b>构建管线</b>】。
+wait-for-ci-pipelines-step-3-safe: <b>注意：首次提交的贡献者需要等待管理员手动批准，可能会花费更多的时间。</b>
 weibo-share: 微博分享
 zhihu-blog: 知乎专栏
