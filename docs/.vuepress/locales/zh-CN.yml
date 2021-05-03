@@ -54,6 +54,7 @@ forked-from: 分叉自
 frameworks: 框架
 get: 获取
 git-deps-missing: 请手动安装这个缺失的Git依赖。
+git-deps-nuget: 该程序包可能存在于uplink的UnityNuGet仓库中。
 git-deps-replaced: 这个Git依赖可以被替换为一个已在OpenUPM上发布的同名软件包。
 git-tag: Git 标签
 git-tag-ignore-pattern: Git标签忽略正则表达式
@@ -169,11 +170,11 @@ services: 服务
 show-more: 更多
 social-image: 社交网络图片
 sort-by: 排序
-sponsor-service: 服务赞助商 🖥️
 sponsor-bronze: 铜牌赞助商 🥉
 sponsor-diamond: 钻石赞助商 💎
 sponsor-featured: 主要赞助商
 sponsor-gold: 金牌赞助商 🥇
+sponsor-service: 服务赞助商 🖥️
 sponsor-silver: 银牌赞助商 🥈
 sponsors: 赞助商
 sprite-management: 精灵管理

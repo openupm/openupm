@@ -171,10 +171,12 @@ export default {
       let isError = false;
       let isWarning = false;
       for (const { name, version } of this.dependencies) {
+        // TODO: verify org.nuget.* packages
+        if (name.startsWith("org.nuget.")) continue;
         const isGit = version.startsWith("git");
+        if (isGit) isWarning = true;
         const url = util.getPackageUrl(this.$site.pages, name);
         if (!url) isError = true;
-        if (isGit) isWarning = true;
       }
       if (isError) return "fas fa-exclamation-triangle text-error";
       else if (isWarning) return "fas fa-exclamation-triangle text-warning";

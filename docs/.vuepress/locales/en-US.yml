@@ -43,6 +43,7 @@ footer-copyright: Copyright © 2019-2020 Favo Yang
 forked-from: forked from
 get: Get
 git-deps-missing: Please install the Git dependency manually.
+git-deps-nuget: The package may exist in the uplinked UnityNuGet registry。
 git-deps-replaced: The Git dependency can be replaced by a version available on OpenUPM.
 git-tag: Git tag
 git-tag-ignore-pattern: Git tag ignore pattern
@@ -149,11 +150,11 @@ repository-placeholder: owner/project-name
 show-more: Show more
 social-image: social image
 sort-by: Sort by
-sponsor-service: Service Sponsors 🖥️
 sponsor-bronze: Bronze Sponsors 🥉
 sponsor-diamond: Diamond Sponsors 💎
 sponsor-featured: Featured Sponsors
 sponsor-gold: Gold Sponsors 🥇
+sponsor-service: Service Sponsors 🖥️
 sponsor-silver: Silver Sponsors 🥈
 sponsors: Sponsors
 star: Star
@@ -189,5 +190,7 @@ wait-for-ci-pipelines-step-1-safe: You can visit the package at
 wait-for-ci-pipelines-step-2-safe: >-
   You can view the build result at the <b>version history</b> and <b>build
   issues</b> sections.
-wait-for-ci-pipelines-step-3-safe: <b>Notice that first-time contributor requires maintainer's approval which may cost more time.</b>
+wait-for-ci-pipelines-step-3-safe: >-
+  <b>Notice that first-time contributor requires maintainer's approval which may
+  cost more time.</b>
 zhihu-blog: Zhihu Articles

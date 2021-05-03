@@ -60,11 +60,16 @@ export default {
       else
         return this.dependencies.map(({ name, version }) => {
           const nameWithVersion = `${name}@${version}`;
+          const isNuGet = name.startsWith("org.nuget.");
           const isGit = version.startsWith("git");
           const url = util.getPackageUrl(this.$site.pages, name);
           let helpText = null;
           let icon = null;
-          if (isGit) {
+          // TODO: verify org.nuget.* packages
+          if (isNuGet) {
+            helpText = this.$t('git-deps-nuget');
+            icon = "fa fa-arrow-up";
+          } else if (isGit) {
             if (url) {
               helpText = this.$t("git-deps-replaced");
               icon = "fab fa-git text-warning";
