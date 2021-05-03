@@ -17,6 +17,13 @@ const docSideBar = function() {
       ]
     },
     {
+      title: "NuGet",
+      collapsable: false,
+      children: [
+        "/nuget/"
+      ]
+    },
+    {
       title: "Package Creator Guide",
       collapsable: false,
       children: ["/docs/adding-badge", "/docs/managing-upm-project"]
@@ -64,6 +71,10 @@ module.exports = {
           {
             text: "Packages",
             link: "/packages/"
+          },
+          {
+            text: "NuGet",
+            link: "/nuget/"
           },
           {
             text: "Docs",
@@ -143,7 +154,8 @@ module.exports = {
         ],
         sidebar: {
           "/docs/": docSideBar(),
-          "/support/": docSideBar()
+          "/nuget/": docSideBar(),
+          "/support/": docSideBar(),
         }
       }
     }

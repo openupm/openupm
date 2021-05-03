@@ -16,6 +16,13 @@ const docSideBar = function() {
       ]
     },
     {
+      title: "NuGet",
+      collapsable: false,
+      children: [
+        "/nuget/"
+      ]
+    },
+    {
       title: "软件包作者指南",
       collapsable: false,
       children: ["/zh/docs/adding-badge", "/zh/docs/managing-upm-project"]
@@ -65,6 +72,10 @@ module.exports = {
           {
             text: "软件包",
             link: "/packages/"
+          },
+          {
+            text: "NuGet",
+            link: "/nuget/"
           },
           {
             text: "文档",
@@ -134,6 +145,7 @@ module.exports = {
         ],
         sidebar: {
           "/docs/": docSideBar(),
+          "/nuget/": docSideBar(),
           "/support/": docSideBar(),
           "/zh/": docSideBar()
         }
