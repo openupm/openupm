@@ -4,7 +4,7 @@ description: Coroutine and tweening framework for Unity3D
 repoUrl: 'https://github.com/BeauPrime/BeauRoutine'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'MIT'
 topics:
   - animation
   - editor-enhancement
