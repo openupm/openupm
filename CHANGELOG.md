@@ -1,3 +1,10 @@
+## [1.49.3](https://github.com/openupm/openupm/compare/1.49.2...1.49.3) (2021-05-03)
+
+
+### Bug Fixes
+
+* **web:** no longer warns org.nuget.* dependency missing (refs [#1976](https://github.com/openupm/openupm/issues/1976)) ([27d75ed](https://github.com/openupm/openupm/commit/27d75ed52e0335f540835ee532b1350f556533ee))
+
 ## [1.49.2](https://github.com/openupm/openupm/compare/1.49.1...1.49.2) (2021-04-25)
 
 
