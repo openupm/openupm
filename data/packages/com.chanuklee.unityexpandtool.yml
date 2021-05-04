@@ -1,0 +1,24 @@
+name: com.chanuklee.unityexpandtool
+displayName: Unity Expand Tool
+description: This is unity expand tool package. Preview v0.1.0
+repoUrl: 'https://github.com/ChanUkLee/UnityExpandTool-Release'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - gui
+  - testing
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ChanUkLee/UnityExpandTool-Release/raw/8dafe59764c45f1037cd85f87439499c233084ab/UI/Raw/Sprites/console.erroricon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620130330886
