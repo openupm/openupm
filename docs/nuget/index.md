@@ -14,7 +14,7 @@ The UnityNuGet uplink is an experimental feature.
 
 Thanks to xoofx's [UnityNuGet](https://github.com/xoofx/UnityNuGet) which is a project that provides a service to bundle NuGet packages into the UPM format. Similar to OpenUPM, UnityNuGet maintains a [curated list](https://github.com/xoofx/UnityNuGet/blob/master/registry.json) of NuGet packages. All packages list there should be available on a registry at [https://unitynuget-registry.azurewebsites.net](https://unitynuget-registry.azurewebsites.net). The NuGet Registry takes care of packaging up these NuGet packages in a consistent, automated way, uses proper package naming under the `org.nuget` scope.
 
-OpenUPM registry uplinks to UnityNuGet registry to make it easier to use a NuGet package.
+OpenUPM registry [uplinks](https://verdaccio.org/docs/en/uplinks) to UnityNuGet registry to make it easier to use a NuGet package.
 
 - OpenUPM registry sync with UnityNuGet registry hourly.
 - Cached tarballs are hosting on CDN as well.
