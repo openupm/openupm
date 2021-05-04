@@ -126,3 +126,10 @@ Packages/
 For monorepos, multiple package submissions are required. You need submit packages one by one to the OpenUPM platform. Then there're two cases,
 - If you make a single Github release for each new version, it will just works. Our build pipelines will treat each package submission separately, and locate the relevant package.json to process.
 - If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `com.namespace.bar/1.0.0` and `com.namespace.foo/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `com.namespace.bar` should have `gitTagPrefix: "com.namespace.bar/"`, to avoid wasting resources of build pipelines.
+
+### Handling Custom Build-Pipelines
+
+OpenUPM doesn't support custom build-pipelines. As a workaround, we suggest leaving the work to CI like GitHub Actions.
+
+- For minimal customizations like moving the sample folder, you can build the content into a upm branch (a build branch), then tag the upm branch as a versioned Git tag for OpenUPM to consume.
+- For deeper customizations like building DLLS you can push build content into another (build) repository, then submit that build repository to OpenUPM.
