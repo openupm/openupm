@@ -1,0 +1,23 @@
+name: com.nowsprinting.create-script-folders-with-tests
+displayName: Create Script Folders with Tests
+description: >-
+  Create a script folders (Editor, Runtime, and each Tests) containing assembly
+  definition file (.asmdef).
+repoUrl: 'https://github.com/nowsprinting/create-script-folders-with-tests'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - testing
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620243922780
+
