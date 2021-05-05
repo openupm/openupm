@@ -1,0 +1,19 @@
+name: com.greener-games.unity-data-structures
+displayName: Unity Data Structures
+description: Collection of wrappers for expanded data structures
+repoUrl: 'https://github.com/Greener-Games/Data-Structures'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620210896542
