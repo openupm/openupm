@@ -1,0 +1,19 @@
+name: com.atkins.unity.core
+displayName: Atkins Core Assets
+description: Core Assets For Unity
+repoUrl: 'https://github.com/Greener-Games/Data-Structures'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620210774688
