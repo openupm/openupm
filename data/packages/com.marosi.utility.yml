@@ -1,0 +1,19 @@
+name: com.marosi.utility
+displayName: Marosi Utility
+description: Csaba Marosi Unity Utility package
+repoUrl: 'https://github.com/marosicsaba91/MarosiUtility'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: 'MIT'
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620226541451
