@@ -13,7 +13,8 @@ hunter: bobbyg603
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://s3.amazonaws.com/bugsplat-public/npm/header.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
