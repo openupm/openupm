@@ -1,0 +1,19 @@
+name: com.blackbox.common
+displayName: Common
+description: BlackBox Plug-in Common
+repoUrl: 'https://github.com/INFIcer/DevelopmentTool'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: INFIcer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620302916241
