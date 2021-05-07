@@ -1,0 +1,20 @@
+name: com.cysharp.csprojmodifier
+displayName: CsprojModifier
+description: Extension to perform additional processing when generating .csproj
+repoUrl: 'https://github.com/Cysharp/CsprojModifier'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cysharp/CsprojModifier/raw/e34c1a4498baa37a3ca0d50f78b787870068fb1b/docs/images/Screen-01.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620412768326
