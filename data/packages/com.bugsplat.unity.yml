@@ -14,7 +14,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://s3.amazonaws.com/bugsplat-public/npm/header.png
+  https://bugsplat-public.s3.amazonaws.com/unity/open-upm-thumbnail.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
