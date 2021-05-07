@@ -15,9 +15,9 @@ topics:
   - frameworks
   - utilities
 hunter: ChristopherSchubert
-gitTagPrefix: ''
+gitTagPrefix: 'upm-'
 gitTagIgnore: ''
-minVersion: 0.1.2
+minVersion: 0.2.0
 image: null
 readme: 'main:README.md'
 readme_zhCN: ''
