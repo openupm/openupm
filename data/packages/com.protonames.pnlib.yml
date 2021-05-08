@@ -1,0 +1,18 @@
+name: com.protonames.pnlib
+displayName: PNLib
+description: Lorem ipsum description.
+repoUrl: 'https://github.com/protonames/PNLib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620480374069
