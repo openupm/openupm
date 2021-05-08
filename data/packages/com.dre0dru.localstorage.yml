@@ -1,0 +1,19 @@
+name: com.dre0dru.localstorage
+displayName: Local Storage
+description: Utility classes for managing local data saved on device
+repoUrl: 'https://github.com/dre0dru/LocalStorage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: dre0dru
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620464799398
