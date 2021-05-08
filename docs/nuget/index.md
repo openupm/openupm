@@ -54,7 +54,7 @@ Put UnityNuGet registry with scopes `org.nuget` as the first element of the scop
 }
 ```
 
-### List all UnityNuGet Packages
+## List all UnityNuGet Packages
 
 Checkout the [curated list](https://github.com/xoofx/UnityNuGet/blob/master/registry.json).
 
