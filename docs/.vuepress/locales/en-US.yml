@@ -7,6 +7,7 @@ authors: Author(s)
 back: Back
 backers: Backers
 badge: Badge
+branch: Branch
 build: Build
 build-pipelines: Build Pipelines
 china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
@@ -38,7 +39,9 @@ featured-image-desc: 'Notice: if the repository has a'
 featured-image-desc-2: ', will use that instead.'
 field-none: None
 fill-the-package-form: Fill the package form
-fill-the-package-form-desc: Please provide information about the UPM package. Learn more at
+fill-the-package-form-desc: >-
+  Please provide information about the UPM package. The package must conform to
+  our package criteria. Learn more at
 footer-copyright: Copyright © 2019-2020 Favo Yang
 forked-from: forked from
 get: Get
@@ -99,6 +102,8 @@ needles-package-installer: Needle's package installer
 note: Note
 package-installer: package installer
 package-name: Package name
+package-name-com-unity: Packages with the com.unity scope requires a manual review.
+package-name-contains-unity: The package name contains text "unity" should respect to the trademarks rules (just a friendly reminder).
 package-updates: Package Updates
 packages: Packages
 path-of-package-json: Path of package.json

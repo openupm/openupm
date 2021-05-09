@@ -13,6 +13,7 @@ authors: 作者
 back: 后退
 backers: 资助者
 badge: 徽章
+branch: 分支
 build: 构建
 build-pipelines: 构建管线
 camera: 摄像机
@@ -48,7 +49,7 @@ featured-image-desc: 注意：如果代码仓库包含一个
 featured-image-desc-2: ，会使用该图片。
 field-none: 无
 fill-the-package-form: 填写软件包表单
-fill-the-package-form-desc: 请提供此UPM软件包的基本信息，或参考
+fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合我们的软件包标准，请参考
 footer-copyright: 版权所有 © 2019-2020 Favo Yang
 forked-from: 分叉自
 frameworks: 框架
@@ -111,6 +112,8 @@ note: 备注
 package-installer: 软件包辅助安装器
 package-management: 软件包管理
 package-name: 软件包名称
+package-name-com-unity: 名称含有com.unity的软件包需要人工审核。
+package-name-contains-unity: 软件包名称含有“untiy”的应符合其商标权益（仅是友好提示）。
 package-updates: 软件包更新
 packages: 软件包
 painting: 绘画

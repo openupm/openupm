@@ -55,30 +55,26 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields,
-                    'has-error': form.branch.error
+                    'has-error': form.branch.error,
                   }"
                 >
-                  <label class="form-label required">Branch</label>
+                  <label class="form-label required">{{ $t("branch") }}</label>
                   <select
                     v-model="form.branch.value"
                     class="form-select"
                     required
                     @change="onBranchChange($event)"
                   >
-                    <option
-                      v-if="!branches.length"
-                      disabled
-                      selected
-                      value=""
-                      >{{ $t("loading-branches") }}</option
-                    >
+                    <option v-if="!branches.length" disabled selected value="">
+                      {{ $t("loading-branches") }}
+                    </option>
                     <option
                       v-for="branch in branches"
                       :key="branch"
                       :value="branch"
                     >
-                      {{ branch }}</option
-                    >
+                      {{ branch }}
+                    </option>
                   </select>
                   <span v-if="form.branch.error" class="form-input-hint">
                     {{ form.branch.error }}
@@ -89,7 +85,7 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields || !form.branch.value,
-                    'has-error': form.packageJson.error
+                    'has-error': form.packageJson.error,
                   }"
                 >
                   <label class="form-label required">
@@ -106,21 +102,28 @@
                       disabled
                       selected
                       value=""
-                      >{{ form.packageJson.prompt }}</option
                     >
+                      {{ form.packageJson.prompt }}
+                    </option>
                     <option
                       v-for="path in packageJsonPaths"
                       :key="path"
                       :value="path"
                     >
-                      {{ path }}</option
-                    >
+                      {{ path }}
+                    </option>
                   </select>
                   <span
                     v-if="packageInfo"
                     class="form-input-hint display-block"
                   >
                     {{ packageInfo.name }}
+                  </span>
+                  <span
+                    v-if="extraPackageNameWarning"
+                    class="bg-warning display-block"
+                  >
+                    {{ extraPackageNameWarning() }}
                   </span>
                   <span v-if="form.packageJson.error" class="form-input-hint">
                     {{ form.packageJson.error }}
@@ -131,7 +134,7 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields || !form.branch.value,
-                    'has-error': form.readme.error
+                    'has-error': form.readme.error,
                   }"
                 >
                   <label class="form-label">
@@ -143,18 +146,19 @@
                       disabled
                       selected
                       value=""
-                      >{{ form.readme.prompt }}</option
                     >
-                    <option v-if="readmePaths.length" value="">{{
-                      $t("field-none")
-                    }}</option>
+                      {{ form.readme.prompt }}
+                    </option>
+                    <option v-if="readmePaths.length" value="">
+                      {{ $t("field-none") }}
+                    </option>
                     <option
                       v-for="path in readmePaths"
                       :key="path"
                       :value="path"
                     >
-                      {{ path }}</option
-                    >
+                      {{ path }}
+                    </option>
                   </select>
                   <span v-if="form.readme.error" class="form-input-hint">
                     {{ form.readme.error }}
@@ -216,7 +220,7 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideLicenseName || hideOtherFields,
-                    'has-error': form.licenseName.error
+                    'has-error': form.licenseName.error,
                   }"
                 >
                   <label class="form-label">{{ $t("license-name") }}</label>
@@ -233,7 +237,7 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields,
-                    'has-error': form.topics.error
+                    'has-error': form.topics.error,
                   }"
                 >
                   <label class="form-label">{{ $t("topics") }}</label>
@@ -257,7 +261,7 @@
                   class="form-group column col-12"
                   :class="{
                     hide: hideOtherFields,
-                    'has-error': form.image.error
+                    'has-error': form.image.error,
                   }"
                 >
                   <label class="form-label">{{ $t("featured-image") }}</label>
@@ -277,7 +281,7 @@
                       <div
                         :class="{
                           'pkg-img-wrap': true,
-                          selected: form.image.value == item
+                          selected: form.image.value == item,
                         }"
                         @click="onSelectImage(item)"
                       >
@@ -307,7 +311,7 @@
                 <div
                   class="col-12 form-zone"
                   :class="{
-                    hide: hideOtherFields || !form.branch.value
+                    hide: hideOtherFields || !form.branch.value,
                   }"
                 >
                   <div class="container">
@@ -333,18 +337,19 @@
                             disabled
                             selected
                             value=""
-                            >{{ form.readme.prompt }}</option
                           >
-                          <option v-if="readmePaths.length" value="">{{
-                            $t("field-none")
-                          }}</option>
+                            {{ form.readme.prompt }}
+                          </option>
+                          <option v-if="readmePaths.length" value="">
+                            {{ $t("field-none") }}
+                          </option>
                           <option
                             v-for="path in readmePaths"
                             :key="path"
                             :value="path"
                           >
-                            {{ path }}</option
-                          >
+                            {{ path }}
+                          </option>
                         </select>
                         <span
                           v-if="form.readme_zhCN.error"
@@ -356,7 +361,7 @@
                       <div
                         class="form-group column col-12"
                         :class="{
-                          'has-error': form.displayName_zhCN.error
+                          'has-error': form.displayName_zhCN.error,
                         }"
                       >
                         <label class="form-label">{{
@@ -377,7 +382,7 @@
                       <div
                         class="form-group column col-12"
                         :class="{
-                          'has-error': form.description_zhCN.error
+                          'has-error': form.description_zhCN.error,
                         }"
                       >
                         <label class="form-label">{{
@@ -576,7 +581,7 @@ import commonUtils from "@root/app/common/utils";
 const SubmitStep = new Enum({
   FillForm: 0,
   GetYamlFile: 1,
-  CI: 2
+  CI: 2,
 });
 
 export default {
@@ -588,65 +593,65 @@ export default {
       form: {
         branch: {
           error: "",
-          value: ""
+          value: "",
         },
         displayName_zhCN: {
           error: "",
-          value: ""
+          value: "",
         },
         description_zhCN: {
           error: "",
-          value: ""
+          value: "",
         },
         gitTagPrefix: {
           error: "",
-          value: ""
+          value: "",
         },
         gitTagIgnore: {
           error: "",
-          value: ""
+          value: "",
         },
         hunter: {
           error: "",
-          value: ""
+          value: "",
         },
         licenseId: {
           error: "",
-          value: null
+          value: null,
         },
         licenseName: {
           error: "",
-          value: ""
+          value: "",
         },
         minVersion: {
           error: "",
-          value: ""
+          value: "",
         },
         readme: {
           error: "",
-          value: null
+          value: null,
         },
         readme_zhCN: {
           error: "",
-          value: null
+          value: null,
         },
         image: {
           error: "",
-          value: null
+          value: null,
         },
         packageJson: {
           prompt: "",
           error: "",
-          value: ""
+          value: "",
         },
         repo: {
           error: "",
-          value: ""
+          value: "",
         },
         topics: {
           error: "",
-          options: []
-        }
+          options: [],
+        },
       },
       hideOtherFields: true,
       repoInfo: {},
@@ -656,7 +661,7 @@ export default {
       readmePaths: {},
       branches: [],
       yaml: "",
-      yamlFilename: ""
+      yamlFilename: "",
     };
   },
   computed: {
@@ -682,33 +687,33 @@ export default {
       const qs = querystring.stringify({
         filename: "data/packages/" + this.$data.yamlFilename,
         value: this.$data.yaml,
-        message: `chore(data): new package ${this.$data.packageInfo.name}`
+        message: `chore(data): new package ${this.$data.packageInfo.name}`,
       });
       return {
         link: "https://github.com/openupm/openupm/new/master/?" + qs,
-        text: this.$t("submit-pr")
+        text: this.$t("submit-pr"),
       };
     },
     docLink() {
       return {
         link: "/docs/adding-upm-package",
-        text: "docs/adding-upm-package"
+        text: "docs/adding-upm-package",
       };
     },
     packageLink() {
       return {
         link: "/packages/" + this.$data.packageInfo.name,
-        text: "/packages/" + this.$data.packageInfo.name
+        text: "/packages/" + this.$data.packageInfo.name,
       };
-    }
+    },
   },
   mounted() {
     let topics = this.$page.frontmatter.topics;
-    this.$data.form.topics.options = topics.map(function(x) {
+    this.$data.form.topics.options = topics.map(function (x) {
       return {
         name: x.name,
         slug: x.slug,
-        value: false
+        value: false,
       };
     });
   },
@@ -769,7 +774,7 @@ export default {
         parentRepoUrl: repoInfo.parent ? repoInfo.parent.html_url : null,
         licenseSpdxId: form.licenseId.value,
         licenseName: form.licenseName.value,
-        topics: form.topics.options.filter(x => x.value).map(x => x.slug),
+        topics: form.topics.options.filter((x) => x.value).map((x) => x.slug),
         hunter: form.hunter.value,
         gitTagPrefix: form.gitTagPrefix.value,
         gitTagIgnore: form.gitTagIgnore.value,
@@ -783,14 +788,14 @@ export default {
           : "",
         displayName_zhCN: form.displayName_zhCN.value,
         description_zhCN: form.description_zhCN.value,
-        createdAt: new Date().getTime()
+        createdAt: new Date().getTime(),
       };
       return yaml.safeDump(content);
     },
     guessLicenseId() {
       if (this.form.licenseName.value && !this.form.licenseId.value) {
         const spdxId = Object.keys(spdx).find(
-          x =>
+          (x) =>
             spdx[x].name == this.form.licenseName.value ||
             x == this.form.licenseName.value
         );
@@ -815,7 +820,7 @@ export default {
         let resp = await axios.get(
           urljoin(util.githubReposApiUrl, this.form.repo.value),
           {
-            headers: { Accept: "application/vnd.github.v3.json" }
+            headers: { Accept: "application/vnd.github.v3.json" },
           }
         );
         // Show all fields.
@@ -848,13 +853,13 @@ export default {
           util.githubSearchCodeApiUrl +
             `?sort=indexed&q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.repo.value}`,
           {
-            headers: { Accept: "application/vnd.github.v3.json" }
+            headers: { Accept: "application/vnd.github.v3.json" },
           }
         );
         // Assign data.
         const repoImages =
           resp.data && resp.data.items
-            ? resp.data.items.map(x => util.convertToGitHubRawUrl(x.html_url))
+            ? resp.data.items.map((x) => util.convertToGitHubRawUrl(x.html_url))
             : [];
         this.$data.repoImages = repoImages.slice(0, 100);
       } catch (error) {
@@ -869,13 +874,13 @@ export default {
         let resp = await axios.get(
           urljoin(util.githubReposApiUrl, this.form.repo.value, "branches"),
           {
-            headers: { Accept: "application/vnd.github.v3.json" }
+            headers: { Accept: "application/vnd.github.v3.json" },
           }
         );
         // Assign data.
         let branches = resp.data
-          .map(x => x.name)
-          .filter(x => !x.startsWith("all-contributors/"));
+          .map((x) => x.name)
+          .filter((x) => !x.startsWith("all-contributors/"));
         this.$data.branches = branches;
         if (branches.includes("master")) {
           this.$data.form.branch.value = "master";
@@ -902,14 +907,14 @@ export default {
         this.$data.form.readme.prompt = "Loading README.md path...";
         const resp = await axios.get(url, {
           params: { recursive: 1 },
-          headers: { Accept: "application/vnd.github.v3.json" }
+          headers: { Accept: "application/vnd.github.v3.json" },
         });
         // Assign data to packageJson
         const self = this;
-        (function() {
+        (function () {
           const paths = resp.data.tree
-            .map(x => x.path)
-            .filter(x => x.endsWith("package.json"));
+            .map((x) => x.path)
+            .filter((x) => x.endsWith("package.json"));
           self.$data.packageJsonPaths = paths;
           self.$data.form.packageJson.value = null;
           if (paths.length == 0) {
@@ -926,11 +931,11 @@ export default {
           }
         })();
         // Assign data to readme
-        (function() {
+        (function () {
           const markdownRe = /.(md|markdown)$/i;
           const paths = resp.data.tree
-            .map(x => x.path)
-            .filter(x => markdownRe.test(x));
+            .map((x) => x.path)
+            .filter((x) => markdownRe.test(x));
           self.$data.readmePaths = paths;
           if (paths.length == 0) {
             self.$data.form.readme.prompt = "";
@@ -941,7 +946,7 @@ export default {
           } else if (paths.includes("README.md")) {
             self.$data.form.readme.value = "README.md";
           } else {
-            const filteredPath = paths.filter(x => x.endsWith("README.md"));
+            const filteredPath = paths.filter((x) => x.endsWith("README.md"));
             if (filteredPath.length > 0) {
               self.$data.form.readme.value = filteredPath[0];
             }
@@ -964,7 +969,7 @@ export default {
           "?ref=" + this.$data.form.branch.value
         );
         let resp = await axios.get(url, {
-          headers: { Accept: "application/vnd.github.v3.json" }
+          headers: { Accept: "application/vnd.github.v3.json" },
         });
         // Assign data.
         let content = atob(resp.data.content);
@@ -1017,77 +1022,105 @@ export default {
       // Generate YAML.
       this.$data.yaml = this.genYaml();
       this.$data.yamlFilename = this.$data.packageInfo.name + ".yml";
-    }
-  }
+    },
+    extraPackageNameWarning() {
+      const pkgName = this.$data.packageInfo.name;
+      if (pkgName) {
+        if (pkgName.toLowerCase().startsWith("com.unity."))
+          return this.$t("package-name-com-unity");
+        else if (pkgName.toLowerCase().includes("unity"))
+          return this.$t("package-name-contains-unity");
+      }
+    },
+  },
 };
 </script>
 
 <style lang="stylus">
-.package-add
-  .mainview
-    margin-top 1rem
+.package-add {
+  .mainview {
+    margin-top: 1rem;
 
-    .btn-go
-      width 3rem
+    .btn-go {
+      width: 3rem;
+    }
+
     // #select-repo-source
-    //   flex 0 1
+    // flex 0 1
+    .pkg-img-columns {
+      padding-top: 0.6rem;
 
-    .pkg-img-columns
-      padding-top 0.6rem
-      .pkg-img-wrap
-        position relative
-        overflow hidden
-        padding-bottom 100%
-        border 2px solid white
-        &.selected
-          border-color $accentColor
-        &:hover
-          cursor pointer
-        .pkg-img
-          position  absolute
-          max-width  100%
-          max-height  100%
-          top  50%
-          left  50%
-          transform  translateX(-50%) translateY(-50%)
+      .pkg-img-wrap {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 100%;
+        border: 2px solid white;
 
-    .theme-default-content
-      max-width auto
-      margin 0
-      padding 0 0 2.5rem
+        &.selected {
+          border-color: $accentColor;
+        }
 
-      :first-child
-        margin-top 0
+        &:hover {
+          cursor: pointer;
+        }
 
-    .how-to-section
-      padding-left 0.5rem
+        .pkg-img {
+          position: absolute;
+          max-width: 100%;
+          max-height: 100%;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%);
+        }
+      }
+    }
 
-      .timeline-content
-        ol
-          list-style decimal outside
+    .theme-default-content {
+      max-width: auto;
+      margin: 0;
+      padding: 0 0 2.5rem;
 
-    .tile-title
-      font-weight bold
+      :first-child {
+        margin-top: 0;
+      }
+    }
 
-    .form-label,
-    .form-input-hint,
-    .form-group,
-    .form-group input,
-    .form-group select,
-    .tile
-      font-size $fontSizeMD
+    .how-to-section {
+      padding-left: 0.5rem;
 
-    .form-group:last-child
-      margin-bottom .4rem
+      .timeline-content {
+        ol {
+          list-style: decimal outside;
+        }
+      }
+    }
 
-    .timeline
-      .timeline-item
-        margin-bottom 0
+    .tile-title {
+      font-weight: bold;
+    }
 
-    .form-zone
-      margin .4rem
-      background #eee
+    .form-label, .form-input-hint, .form-group, .form-group input, .form-group select, .tile {
+      font-size: $fontSizeMD;
+    }
 
-      h5
-        margin-top 0.4rem
+    .form-group:last-child {
+      margin-bottom: 0.4rem;
+    }
+
+    .timeline {
+      .timeline-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .form-zone {
+      margin: 0.4rem;
+      background: #eee;
+
+      h5 {
+        margin-top: 0.4rem;
+      }
+    }
+  }
+}
 </style>
