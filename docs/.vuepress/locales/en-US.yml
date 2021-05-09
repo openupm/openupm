@@ -100,10 +100,13 @@ name: Name
 name-at-version: Name@version
 needles-package-installer: Needle's package installer
 note: Note
+package-already-exists-in-unity-registry: The package already exists in the Unity registry.
 package-installer: package installer
 package-name: Package name
 package-name-com-unity: Packages with the com.unity scope requires a manual review.
-package-name-contains-unity: The package name contains text "unity" should respect to the trademarks rules (just a friendly reminder).
+package-name-contains-unity: >-
+  The package name contains text "unity" should respect to the trademarks rules
+  (just a friendly reminder).
 package-updates: Package Updates
 packages: Packages
 path-of-package-json: Path of package.json

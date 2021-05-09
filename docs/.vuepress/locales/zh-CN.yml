@@ -109,6 +109,7 @@ name-at-version: 名称@版本
 needles-package-installer: Needle的软件包辅助安装器
 network: 网络
 note: 备注
+package-already-exists-in-unity-registry: 该软件包已存在于Unity软件仓库中。
 package-installer: 软件包辅助安装器
 package-management: 软件包管理
 package-name: 软件包名称

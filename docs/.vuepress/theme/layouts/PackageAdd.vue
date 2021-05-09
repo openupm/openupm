@@ -999,12 +999,22 @@ export default {
         ) {
           this.$data.form.licenseName.value = this.$data.packageInfo.license;
         }
+        // Verify unity registry
+        // Unity registry didn't enable the cross origin requests, then the check cannot be done in a browser.
+        // await this.verifyPackageExistInUnityRegistry(packageName);
       } catch (error) {
         VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
         if (error.message.includes("404"))
           this.$data.form.packageJson.error = "File not found: package.json.";
         else this.$data.form.packageJson.error = error.message;
       }
+    },
+    async verifyPackageExistInUnityRegistry(packageName) {
+      try {
+        let url = urljoin(util.unityRegistryUrl, packageName);
+        let resp = await axios.get(url);
+        throw new Error(this.$t('package-already-exists-in-unity-registry'));
+      } catch (error) {}
     },
     async verifyPackage() {
       if (!this.$data.form.packageJson.value) {

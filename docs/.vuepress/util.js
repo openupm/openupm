@@ -38,6 +38,11 @@ const _urlUtils = {
       ? `https://installer.${BASE_DOMAIN}`
       : "https://package-installer.glitch.me",
 
+  // Unity registry URL
+  unityRegistryUrl: OPENUPM_REGION == "cn"
+    ? "https://packages.unity.cn"
+    : "https://packages.unity.com",
+
   // Avatar URL
   getAvatarImageUrl: function(username, size) {
     const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
