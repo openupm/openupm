@@ -1,0 +1,19 @@
+name: com.brogan89.screenswipe
+displayName: Screen Swipe
+description: ScrollRect that snaps pages to screen size
+repoUrl: 'https://github.com/brogan89/ScreenSwipe'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: brogan89
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620693915583
