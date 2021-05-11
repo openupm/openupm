@@ -1,0 +1,20 @@
+name: com.mrgvsv.pixel-contour
+displayName: Pixel Contour
+description: Pixel-art contour detection for Unity
+repoUrl: 'https://github.com/MrGVSV/pixel-contour'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - utilities
+hunter: MrGVSV
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620716598614
