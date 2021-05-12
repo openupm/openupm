@@ -1,0 +1,18 @@
+name: com.virgis.pem-utils
+displayName: PEM Utils
+description: Utility for working with PEM files and DER/ASN.1 encoding
+repoUrl: 'https://github.com/ViRGIS-Team/pem-utils'
+parentRepoUrl: 'https://github.com/huysentruitw/pem-utils'
+licenseSpdxId: null
+licenseName: Apache
+topics: []
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620807598016
