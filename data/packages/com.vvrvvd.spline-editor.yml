@@ -1,0 +1,26 @@
+name: com.vvrvvd.spline-editor
+displayName: Spline Editor
+description: >-
+  Unity Spline Editor is an open-source tool for creating and managing quadratic
+  bezier curves in Unity Editor. The tool let you do the basic operations like
+  adding, removing or splitting curves but also provides you with options to
+  factor, simplify, draw or cast splines to camera view. You can also adjust how
+  splines are displayed in the editor through settings window.
+repoUrl: 'https://github.com/vvrvvd/Unity-Spline-Editor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - painting
+  - utilities
+hunter: vvrvvd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.4'
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620752234494
