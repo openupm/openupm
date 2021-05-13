@@ -1,0 +1,23 @@
+name: com.jeffcampbellmakesgames.genesis-legacy
+displayName: JCMG Genesis Legacy
+description: >-
+  A general purpose code generation library for Unity. Genesis Legacy is
+  reflection-based while Genesis v2 will be Roslyn-based.
+repoUrl: 'https://github.com/jeffcampbellmakesgames/Genesis'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: 'upm'
+minVersion: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/Genesis/raw/24478ba4608277c8246d0543a886026c8e849a04/Unity/Assets/JCMG/Genesis/Docs/Images/social_share_image.png
+readme: ''
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620907258983
