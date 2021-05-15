@@ -1,0 +1,19 @@
+name: com.gregou.postprocessing
+displayName: Gregou Post Processing Collection
+description: Collection of various Post processing effects using PostProcessing Stack V2
+repoUrl: 'https://github.com/gregoiredelzongle/Gregou-PostProcessing'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: gregoiredelzongle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621105818470
