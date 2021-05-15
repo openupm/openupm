@@ -1,0 +1,20 @@
+name: com.mackysoft.modiferty
+displayName: Modiferty
+description: Property Modification for Unity.
+repoUrl: 'https://github.com/mackysoft/Modiferty'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: mackysoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621105755380
