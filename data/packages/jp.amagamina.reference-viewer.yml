@@ -1,0 +1,21 @@
+name: jp.amagamina.reference-viewer
+displayName: unity-reference-viewer
+description: >-
+  It's a tool for searching asset references on Unity and displaying them on the
+  window.
+repoUrl: 'https://github.com/ina-amagami/unity-reference-viewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621056169781
