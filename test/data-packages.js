@@ -17,40 +17,7 @@ const {
 } = require("../app/utils/package");
 
 const knownInvalidNames = [
-  "astar.action-grid",
-  "astar",
-  "autoinjector",
-  "bindingrx",
-  "caneva20.config-assets",
-  "carlos-wilkes.lean",
-  "com.gameanalytics",
-  "com.litedb",
-  "d4160.constants-and-enums-generator-kit",
-  "d4160.data_persistence-helper-system",
-  "d4160.game-framework-core",
-  "d4160.game-framework",
-  "d4160.scene_management-system",
-  "d4160.ui-loading_screen-prefabs",
-  "entity-inspector-extension",
-  "exit-games.photon-unity-sdk",
-  "exit-games.photon-voice-2",
-  "facepunch.steamworks",
-  "kybernetik.ult-events",
-  "moonsharp",
-  "originer",
-  "paps.maybe",
-  "paps.state-machines-core",
-  "paps.unity-updater",
-  "play-fab.unity-sdk",
-  "shitake.rosetta",
-  "st.one-line",
-  "st.rect-ex",
-  "taras-osiris.better-defines",
-  "type-inspector",
-  "unity-xr-input-helper-system",
-  "uniunsafeio",
-  "upm-embed",
-  "zenject"
+  "com.litedb"
 ];
 
 describe("data/packages", async function() {
