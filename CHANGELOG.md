@@ -1,3 +1,10 @@
+## [1.49.5](https://github.com/openupm/openupm/compare/1.49.4...1.49.5) (2021-05-16)
+
+
+### Bug Fixes
+
+* **data:** remove package names are not well-scoped (close [#1521](https://github.com/openupm/openupm/issues/1521)) ([c4f4072](https://github.com/openupm/openupm/commit/c4f407208fea9796f11e78d2b7c4b2b53e89a422))
+
 ## [1.49.4](https://github.com/openupm/openupm/compare/1.49.3...1.49.4) (2021-05-09)
 
 
