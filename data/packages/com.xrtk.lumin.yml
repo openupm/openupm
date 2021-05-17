@@ -2,12 +2,13 @@ name: com.xrtk.lumin
 displayName: XRTK.Lumin
 description: The Lumin platform components for the XRTK
 repoUrl: 'https://github.com/XRTK/Lumin'
+parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
-readme: 'main:README.md'
 createdAt: 1577885136000
-displayName_zhCN: XRTK.Lumin
-description_zhCN: XRTK的Lumin平台组件
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
