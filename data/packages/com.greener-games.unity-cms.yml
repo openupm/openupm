@@ -1,0 +1,19 @@
+name: com.greener-games.unity-cms
+displayName: Unity Content Manager
+description: Unity CMS system to store a local cms within the project
+repoUrl: 'https://github.com/Greener-Games/Unity-CMS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Documentation/index.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621339751467
