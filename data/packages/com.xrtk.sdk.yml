@@ -1,14 +1,15 @@
 name: com.xrtk.sdk
 displayName: XRTK.SDK
-description: The SDK assets for the XRTK
+description: The SDK assets for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/SDK'
-parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
-readme: 'main:README.md'
 createdAt: 1577885075000
-displayName_zhCN: XRTK文件
-description_zhCN: XRTK的SDK资源
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
+displayName_zhCN: XRTK.SDK
+description_zhCN: 混合現實工具包的SDK資產

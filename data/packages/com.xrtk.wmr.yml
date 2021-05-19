@@ -1,13 +1,15 @@
 name: com.xrtk.wmr
 displayName: XRTK.WindowsMixedReality
-description: The Windows Mixed Reality platform components for the XRTK
+description: The Windows Mixed Reality platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/WindowsMixedReality'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: favoyang
-readme: 'main:README.md'
 createdAt: 1577885177000
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
 displayName_zhCN: XRTK.WindowsMixedReality
-description_zhCN: XRTK的Windows Mixed Reality平台组件
+description_zhCN: 混合現實工具包的Windows Mixed Reality平台組件

@@ -1,13 +1,15 @@
 name: com.xrtk.etee
 displayName: XRTK.Etee
-description: The Etee platform components for the XRTK
+description: The Etee platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/Etee'
-parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: StephenHodgson
 createdAt: 1589834675554
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
 displayName_zhCN: XRTK.Etee
-description_zhCN: XRTK的Etee平台组件
+description_zhCN: 混合現實工具包的Etee平台組件

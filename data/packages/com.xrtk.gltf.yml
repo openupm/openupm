@@ -1,8 +1,7 @@
 name: com.xrtk.gltf
 displayName: XRTK.glTF
-description: The glTF components for the Mixed Reality Toolkit.
+description: The glTF components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/glTF'
-parentRepoUrl: 'https://github.com/XRTK/XRTK-Core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
@@ -13,7 +12,9 @@ topics:
   - modeling
   - utilities
 hunter: StephenHodgson
-readme: 'main:README.md'
-displayName_zhCN: 'XRTK.glTF'
-description_zhCN: ''
 createdAt: 1618277302238
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
+displayName_zhCN: XRTK.glTF
+description_zhCN: 混合現實工具包的glTF組件
