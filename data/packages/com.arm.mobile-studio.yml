@@ -1,0 +1,21 @@
+name: com.arm.mobile-studio
+displayName: Mobile Studio
+description: Unity C# bindings for Mobile Studio.
+repoUrl: 'https://github.com/ARM-software/mobile-studio-integration-for-unity'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - integration
+  - mobile
+  - profiling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621613695977
