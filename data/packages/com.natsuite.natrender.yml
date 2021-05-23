@@ -1,0 +1,19 @@
+name: com.natsuite.natrender
+displayName: NatRender
+description: High performance native graphics utilities for Unity Engine.
+repoUrl: 'https://github.com/natsuite/NatRender'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621786303950
