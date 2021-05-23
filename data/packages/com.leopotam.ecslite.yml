@@ -1,0 +1,24 @@
+name: com.leopotam.ecslite
+displayName: LeoECS Lite
+description: >-
+  LeoECS Lite is lightweight C# Entity Component System framework based on
+  structs. Performance, zero/small memory allocations/footprint, no dependency
+  on fucking Unity engine - main goals of this project.
+repoUrl: 'https://github.com/Leopotam/ecslite'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: Leopotam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621802250641
