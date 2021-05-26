@@ -6,15 +6,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - input-management
   - utilities
-hunter: shiena
-gitTagPrefix: ''
-gitTagIgnore: ''
-minVersion: ''
+hunter: euglenach
 image: null
 readme: 'master:README.md'
-readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
-createdAt: 1621966813469
+displayName_zhCN: InputAsObservable
+description_zhCN: 将UnityStandardInput视为UniRx（IObservable）
+createdAt: 1621967690430
