@@ -1,0 +1,22 @@
+name: com.nosuchstudio.rtltmpro
+displayName: RTL Text Mesh Pro
+description: >-
+  This package adds Right-to-left language support to TextMeshPro Unity package.
+  You need to have TextMeshPro in your project.
+repoUrl: 'https://github.com/hk1ll3r/RTLTMPro'
+parentRepoUrl: 'https://github.com/mnarimani/RTLTMPro'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: hk1ll3r
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/RTLTMPro/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622069948112
