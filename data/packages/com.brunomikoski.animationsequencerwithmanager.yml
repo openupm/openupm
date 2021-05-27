@@ -1,0 +1,23 @@
+name: com.brunomikoski.animationsequencerwithmanager
+displayName: Animation Sequencer with Manager
+description: >-
+  Animation sequencer is a way to create complex animations of sequence of
+  events by a friendly user interface
+repoUrl: 'https://github.com/laicasaane/Animation-Sequencer-With-Manager'
+parentRepoUrl: 'https://github.com/brunomikoski/Animation-Sequencer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - gui
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.3-manager.1
+image: null
+readme: 'develop-manager:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622130288691
