@@ -13,7 +13,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://user-images.githubusercontent.com/961165/92111226-f6806900-ee26-11ea-9718-beb328af5038.png
-readme: 'master:README.md'
+readme: 'main:README.md'
 createdAt: 1600979980869
 displayName_zhCN: AnKuchen
 description_zhCN: 用脚本库控制UIPrefab
