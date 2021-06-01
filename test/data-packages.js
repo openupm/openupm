@@ -16,9 +16,7 @@ const {
   isValidPackageName
 } = require("../app/utils/package");
 
-const knownInvalidNames = [
-  "com.litedb"
-];
+const knownInvalidNames = [];
 
 describe("data/packages", async function() {
   const packageNames = await loadPackageNames();
