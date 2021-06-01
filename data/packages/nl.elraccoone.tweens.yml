@@ -1,0 +1,22 @@
+name: nl.elraccoone.tweens
+displayName: Tweens
+description: >-
+  An extremely light weight, extendable and customisable tweening engine made
+  for script-based animations for user-interfaces and world-spaces objects
+  optimised for all platforms.
+repoUrl: 'https://github.com/jeffreylanters/unity-tweens'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-tweens/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620028616
+displayName_zhCN: Tweens
+description_zhCN: 轻巧，可扩展和可自定义的Tween引擎，用于基于脚本的动画，用于针对所有平台优化的用户界面和世界空间对象。

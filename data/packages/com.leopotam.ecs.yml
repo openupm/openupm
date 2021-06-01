@@ -8,7 +8,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
 hunter: favoyang
 createdAt: 1576423686000
+displayName_zhCN: LeoECS核心
+description_zhCN: LeoECS是一个由C#支持的快速实体组件系统（ECS）框架，具有与Unity的可选集成

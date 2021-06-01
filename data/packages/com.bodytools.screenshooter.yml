@@ -1,0 +1,25 @@
+name: com.bodytools.screenshooter
+displayName: Screen Shooter
+description: |-
+  Small tool for taking screenshots
+  Window > ScreenShooter
+repoUrl: 'https://github.com/Nrjwolf/screenshooter'
+parentRepoUrl: 'https://github.com/ArtemFesunenko/screenshooter'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ogxd/project-curator/raw/df3ee751baa5912f2e930156e76d299b8c887b91/Demo/project-curator-big.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 屏幕截图
+description_zhCN: |-
+  截屏的小工具
+  窗口>屏幕截图
+createdAt: 1612664119487

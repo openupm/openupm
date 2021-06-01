@@ -1,0 +1,18 @@
+name: com.baba-s.uni-disable-unity-audio-test
+displayName: UniDisableUnityAudioTest
+description: null
+repoUrl: 'https://github.com/baba-s/UniDisableUnityAudioTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - audio
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601141983647
+displayName_zhCN: unidiseUlityInyaudiotest

@@ -1,0 +1,21 @@
+name: com.bckworks.ecsrx.unity
+displayName: BCKWorks EcsRx Unity
+description: >-
+  A simple framework for unity using the ECS paradigm but with unirx for fully
+  reactive systems.
+repoUrl: 'https://github.com/BCKWorks/ecsrx.unity'
+parentRepoUrl: 'https://github.com/EcsRx/ecsrx.unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592177385051
+displayName_zhCN: BCKWorks EcsRx Unity
+description_zhCN: 使用ECS示例和Unirx构建的响应式编程框架

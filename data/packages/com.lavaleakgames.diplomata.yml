@@ -1,0 +1,22 @@
+name: com.lavaleakgames.diplomata
+displayName: Diplomata
+description: >-
+  Diplomata is a Unity multi language dialogues content management system and
+  editor extension inspired by Twine, like Fungus and Yarn. Diplomata manage
+  optionally other contents of a game like characters, inventory and quests.
+repoUrl: 'https://github.com/brunurd/diplomata-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/brunurd/diplomata-unity/raw/97ebca8f3a7c6fb60ca58e5ff83fd35d4d1c165d/Screenshot.jpg
+readme: 'master:README.md'
+createdAt: 1588975865450
+displayName_zhCN: Diplomata
+description_zhCN: >-
+  Diplomata是一个受Twine启发的Unity多语言对话内容管理系统和编辑器扩展，例如Fungus和Yarn。
+  Diplomata可以可选地管理游戏的其他内容，例如角色，装备系统和任务。

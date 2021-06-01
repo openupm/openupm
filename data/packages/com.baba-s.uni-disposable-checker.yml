@@ -1,0 +1,18 @@
+name: com.baba-s.uni-disposable-checker
+displayName: UniDisposableChecker
+description: 【Unity】IDisposable.Dispose が呼び出されたかどうかを検知できるクラス
+repoUrl: 'https://github.com/baba-s/UniDisposableChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591709169696
+displayName_zhCN: UniDisposableChecker
+description_zhCN: 检测是否已调用IDisposable.Dispose

@@ -1,0 +1,18 @@
+name: com.gkngkc.usfb
+displayName: UniStandaloneFileBrowser
+description: A native file browser for unity standalone platforms
+repoUrl: 'https://github.com/adrenak/usfb'
+parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/adrenak/usfb/master/Images/sfb_win.jpg'
+readme: 'upm:README.md'
+createdAt: 1589394201550
+displayName_zhCN: UniStandaloneFileBrowser
+description_zhCN: Unity Standalone平台的原生文件浏览器

@@ -1,0 +1,19 @@
+name: com.elringus.unitycommon
+displayName: UnityCommon
+description: A collection of common frameworks and tools for Unity-based projects
+repoUrl: 'https://github.com/Elringus/UnityCommon'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Elringus/UnityCommon/raw/252401367288d20f910d5d35aec77234d81379f8/Assets/UnityCommon/WebGLTemplates/Borderless/thumbnail.png
+readme: 'package:LICENSE.md'
+createdAt: 1589386158214
+displayName_zhCN: UnityCommon
+description_zhCN: Unity项目的常用框架集合

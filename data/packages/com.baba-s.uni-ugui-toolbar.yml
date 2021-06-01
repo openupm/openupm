@@ -1,0 +1,20 @@
+name: com.baba-s.uni-ugui-toolbar
+displayName: UniUGUIToolbar
+description: 【Unity】uGUI のオブジェクトを作成できるツールバーのエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniUGUIToolbar'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79992329-4d2b7d00-84ee-11ea-9d3c-10e75118b089.png
+readme: 'master:README.md'
+createdAt: 1591672068081
+displayName_zhCN: UniUGUIToolbar
+description_zhCN: Unity工具栏编辑器扩展

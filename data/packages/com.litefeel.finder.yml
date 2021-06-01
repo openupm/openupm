@@ -1,0 +1,20 @@
+name: com.litefeel.finder
+displayName: Finder
+description: Unity find tool
+repoUrl: 'https://github.com/litefeel/Unity-Finder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/litefeel/Unity-Finder/raw/5d2512a75fe1c6ceee6b34e9b09e88dc148704df/Documentation~/shotscreen1.png
+readme: 'master:README.md'
+createdAt: 1605377292283
+displayName_zhCN: Finder
+description_zhCN: Unity查找工具

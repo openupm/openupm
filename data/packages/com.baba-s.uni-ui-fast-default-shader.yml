@@ -1,0 +1,18 @@
+name: com.baba-s.uni-ui-fast-default-shader
+displayName: UniUIFastDefaultShader
+description: 【Unity】低スペックデバイス向けの UI シェーダ
+repoUrl: 'https://github.com/baba-s/UniUIFastDefaultShader'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594654669818
+displayName_zhCN: UniUIFastDefaultShader
+description_zhCN: Unity UI快速Shader

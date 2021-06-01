@@ -1,7 +1,16 @@
 <template>
   <div v-if="active" class="ad-block">
-    <a class="ad-text" :href="ad.link">{{ ad.text }}</a>
-    <span class="ad-attr">{{ ad.attr }}</span>
+    <a class="ad-img" :href="ad.link">
+      <LazyImage v-if="ad.image" :src="ad.image" class="img-responsive" />
+    </a>
+    <div class="ad-text">
+      <a class="ad-link" :href="ad.link">
+        {{ ad.text }}
+      </a>
+      <div class="ad-attr">
+        <small>{{ ad.attr }}</small>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -48,45 +57,37 @@ export default {
 <style lang="stylus">
 // ad-block
 .ad-block
-  font-size 12px
+  width 100%
+  max-width 12rem
+  display flex
+  flex-wrap wrap
+  margin-bottom 0.6rem
+  font-size 0.6rem
   font-weight 400
-  padding 0.4rem
 
-  a
-    &:hover
-      text-decoration none
+  a:hover
+    text-decoration none
+
+  .ad-img
+    padding 0
+    width 50%
 
   .ad-text
-    display inline-block
-    padding-right 0.3rem
-    padding-bottom 0.3rem
-    color #444
-
-  .ad-attr
-    color #999
-
-@media (min-width: $MQNormal)
-  .ad-block
-    padding-top 0
-    padding-left 0.6rem
-
+    padding 0.2rem 0 0 0.4rem
+    width 50%
+    .ad-link
+      padding-bottom 0.3rem
+      display inline-block
+      color #555
+      height 3.7rem
     .ad-attr
-      display block
-
+      color #aaa
 
 // ad-placement
-.adp-main
-  margin $navbarHeight 0 -4.5rem
-
 .adp-sidebar
-  margin 1rem 0 -1.2rem 0.9rem
-  width 12rem
+  margin 1rem 0 0 0
 
-@media (min-width: $MQNormal)
-  .adp-main
-    margin 5rem 0
-    width 9.6rem
-    float left
-    display block
-    position fixed
+.sidebar
+  .adp-sidebar
+    margin 1rem 0 0 1.5rem
 </style>

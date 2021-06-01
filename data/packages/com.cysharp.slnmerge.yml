@@ -1,0 +1,21 @@
+name: com.cysharp.slnmerge
+displayName: SlnMerge
+description: >-
+  SlnMerge merges the solution files when generating solution file by Unity
+  Editor.
+repoUrl: 'https://github.com/Cysharp/SlnMerge'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cysharp/SlnMerge/raw/b6ec7152b81dc6862c96eec2d96f0b1b604e07e8/docs/images/SlnMerge-Image-01.png
+readme: 'master:README.md'
+createdAt: 1591584713911
+displayName_zhCN: SlnMerge
+description_zhCN: SlnMerge合同那些通过Unity编辑器生成的解决方案文件

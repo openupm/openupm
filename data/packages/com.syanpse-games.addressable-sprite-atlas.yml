@@ -1,0 +1,20 @@
+name: com.syanpse-games.addressable-sprite-atlas
+displayName: Addressable SpriteAtlas Sprites
+description: Load sprites from a sprite atlas by name using Unity's Addressables system.
+repoUrl: 'https://github.com/kongregate/addressable-sprite-atlas'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - asset-management
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605297450802
+displayName_zhCN: 可寻址SpriteAtlas Sprites
+description_zhCN: 使用Unity的可寻址系统按名称从SpriteAtlas中加载Sprite。

@@ -5,12 +5,15 @@ description: >-
   right-to-left.
 repoUrl: 'https://github.com/hk1ll3r/BidirectionalHorizontalLayoutGroup'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: GPL
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - localization
-  - ui
+  - gui
 hunter: JesseTG
 gitTagIgnore: ''
-image: null
+image: >-
+  https://raw.githubusercontent.com/hk1ll3r/ShowcaseOfBidirectionalHorizontalLayoutGroup/master/Resources/vid1.gif
 createdAt: 1581625582826
+displayName_zhCN: 双向水平布局组
+description_zhCN: Unity UI的水平布局组，它支持从左到右和从右到左。

@@ -1,0 +1,18 @@
+name: com.baba-s.uni-task-completion-source-with-log
+displayName: UniTaskCompletionSourceWithLog
+description: null
+repoUrl: 'https://github.com/baba-s/UniTaskCompletionSourceWithLog'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600179545979
+displayName_zhCN: UniTaskCompletionSourceWithLog

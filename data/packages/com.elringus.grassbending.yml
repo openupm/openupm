@@ -1,0 +1,21 @@
+name: com.elringus.grassbending
+displayName: GrassBending
+description: >-
+  A replacement for Unity's terrain grass shader with alpha blended rendering
+  and touch bending effect
+repoUrl: 'https://github.com/Elringus/GrassBending'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/d1f1d4aa4ace2cc8bd299db9c08805cbcec7cfeb/68747470733a2f2f692e6779617a6f2e636f6d2f31343765323964626565326439386537396431333032326565613266306136362e676966
+readme: 'master:README.md'
+createdAt: 1594566063092
+displayName_zhCN: grass
+description_zhCN: Unity的草地地形shader的替代品，自带alpha混合以及触摸弯曲效果

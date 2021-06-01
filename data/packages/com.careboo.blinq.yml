@@ -1,0 +1,19 @@
+name: com.careboo.blinq
+displayName: Blinq
+description: Burst Compatible Linq Implementations
+repoUrl: 'https://github.com/CareBoo/Blinq'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - parallelism-and-concurrency
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602575131013
+displayName_zhCN: Blinq
+description_zhCN: Burst兼容的Linq实现

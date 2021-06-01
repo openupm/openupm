@@ -1,0 +1,18 @@
+name: com.pixelplacement.surge.tween
+displayName: Surge Tween
+description: UPM project for Tween features in the Surge toolset by Pixel Placement
+repoUrl: 'https://github.com/adrenak/Surge.Tween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+  - gui
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585753151534
+displayName_zhCN: Surge Tween
+description_zhCN: 通过“像素放置”在Surge工具集中用于Tween功能的UPM项目

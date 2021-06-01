@@ -1,0 +1,19 @@
+name: com.github.asus4.tflite
+displayName: TensorFlow Lite
+description: TensorFlow Lite Samples on Unity
+repoUrl: 'https://github.com/asus4/tf-lite-unity-sample'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: SEE LICENSE IN README.md
+topics:
+  - ai
+  - frameworks
+hunter: asus4
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595000016178
+displayName_zhCN: TensorFlow Lite
+description_zhCN: Tensorflow Lite的Unity示例

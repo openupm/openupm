@@ -1,0 +1,21 @@
+name: ch.sttz.trimmer
+displayName: Trimmer
+description: 'An editor, build and player configuration framework for the Unity game engine.'
+repoUrl: 'https://github.com/sttz/trimmer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://camo.githubusercontent.com/b59f087c629fcb12977c2a5d3a94dd8cda17849a/68747470733a2f2f7374747a2e63682f7472696d6d65722f696d616765732f6275696c645f70726f66696c652e706e67
+readme: 'master:README.md'
+createdAt: 1588874072133
+displayName_zhCN: 修剪器
+description_zhCN: 用于Unity游戏引擎的配置框架。

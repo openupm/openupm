@@ -1,0 +1,18 @@
+name: net.tnrd.nsubstitute
+displayName: NSubstitute
+description: NSubstitute is designed as a friendly substitute for .NET mocking libraries.
+repoUrl: 'https://github.com/Thundernerd/Unity3D-NSubstitute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594756543872
+displayName_zhCN: NSubstitute
+description_zhCN: NSubstitute旨在替代.NET模拟库。

@@ -1,0 +1,20 @@
+name: com.baba-s.uni-empty-forder-deleter
+displayName: UniEmptyFolderDeleter
+description: 【Unity】すべての空フォルダを削除できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniEmptyFolderDeleter'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827518-81614980-83d9-11ea-9b92-aa831a41746e.png
+readme: 'master:README.md'
+createdAt: 1591646760988
+displayName_zhCN: UniEmptyFolderDeleter
+description_zhCN: 删除所有空文件夹

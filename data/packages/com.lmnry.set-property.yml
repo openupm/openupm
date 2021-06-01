@@ -1,0 +1,20 @@
+name: com.lmnry.set-property
+displayName: SetProperty
+description: >-
+  A PropertyAttribute/PropertyDrawer combination that allows for properties in
+  Unity
+repoUrl: 'https://github.com/UnityPackages/SetProperty'
+parentRepoUrl: 'https://github.com/LMNRY/SetProperty'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1589328027779
+displayName_zhCN: SetProperty设置属性
+description_zhCN: 一个PropertyAttribute/PropertyDrawer组合，用于Unity中的属性

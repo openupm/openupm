@@ -1,0 +1,19 @@
+name: com.beans.ete
+displayName: Extended Transform Editor
+description: A clutterless custom Transform editor for Unity
+repoUrl: 'https://github.com/keenanwoodall/ExtendedTransformEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/1cb97f0bb696a19f76f2e22ddafbf10ebe28115e/68747470733a2f2f692e696d6775722e636f6d2f4c5369364b61472e676966
+readme: 'master:README.md'
+createdAt: 1589323827221
+displayName_zhCN: 扩展Transform编辑器
+description_zhCN: 自定义的Transform编辑器

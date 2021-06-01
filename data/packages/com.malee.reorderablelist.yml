@@ -1,0 +1,18 @@
+name: com.malee.reorderablelist
+displayName: Reorderable List
+description: Extended version of the Reorderable List in Unity
+repoUrl: 'https://github.com/cfoulston/Unity-Reorderable-List'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://user-images.githubusercontent.com/6723783/45054643-70b46200-b042-11e8-874c-0d93a46e05a5.jpg
+readme: 'master:README.md'
+createdAt: 1588954512416
+displayName_zhCN: 可重新排序列表
+description_zhCN: Unity中可重排序列表的扩展版本

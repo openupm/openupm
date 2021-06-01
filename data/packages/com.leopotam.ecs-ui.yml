@@ -6,7 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - ui
+  - dots-and-ecs
+  - gui
 hunter: favoyang
 createdAt: 1576423897000
+displayName_zhCN: LeoECS uGui绑定
+description_zhCN: LeoECS实体组件系统框架的简单uGui事件绑定。

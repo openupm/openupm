@@ -1,0 +1,18 @@
+name: com.utj.screenshot2profiler
+displayName: Screenshot to Profiler
+description: null
+repoUrl: 'https://github.com/wotakuro/ScreenshotToUnityProfiler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/wotakuro/ScreenshotToUnityProfiler/raw/d52e9144704c2fda87f400b7deed603cccedd1e5/Documentation~/image.gif
+readme: 'master:README.md'
+createdAt: 1590167188577
+displayName_zhCN: 屏幕截图到Profiler

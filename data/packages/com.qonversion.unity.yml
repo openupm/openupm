@@ -1,0 +1,17 @@
+name: com.qonversion.unity
+displayName: Qonversion
+description: null
+repoUrl: 'https://github.com/qonversion/unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+hunter: smejl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1594919445189
+displayName_zhCN: Qonversion

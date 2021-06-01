@@ -1,0 +1,19 @@
+name: com.baba-s.uni-game-object-locker
+displayName: UniGameObjectLocker
+description: 【Unity】Inspector でゲームオブジェクトの編集を不可能にできるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniGameObjectLocker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/90765308-abddf780-e324-11ea-9ab3-a0f13a952c7e.png
+readme: 'master:README.md'
+createdAt: 1598326534935
+displayName_zhCN: UniGameObjectLocker
+description_zhCN: 使GameObject的Inspector无法被编辑

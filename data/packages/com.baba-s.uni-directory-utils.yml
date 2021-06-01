@@ -1,0 +1,18 @@
+name: com.baba-s.uni-directory-utils
+displayName: UniDirectoryUtils
+description: null
+repoUrl: 'https://github.com/baba-s/UniDirectoryUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601841036977
+displayName_zhCN: UniDirectoryUtils

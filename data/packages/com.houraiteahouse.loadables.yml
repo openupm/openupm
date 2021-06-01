@@ -1,0 +1,19 @@
+name: com.houraiteahouse.loadables
+displayName: Loadables
+description: A Unity3D library for abstracting and simplifying loadable assets and scenes.
+repoUrl: 'https://github.com/HouraiTeahouse/Loadables'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Loadables
+description_zhCN: 一个Unity3D库，用于抽象和简化可加载资源和场景。
+createdAt: 1610042681323

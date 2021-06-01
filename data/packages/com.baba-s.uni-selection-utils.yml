@@ -1,0 +1,19 @@
+name: com.baba-s.uni-selection-utils
+displayName: UniSelectionUtils
+description: null
+repoUrl: 'https://github.com/baba-s/UniSelectionUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601490583963
+displayName_zhCN: UniSelectionUtils

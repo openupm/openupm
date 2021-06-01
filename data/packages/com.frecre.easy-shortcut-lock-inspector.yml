@@ -1,0 +1,19 @@
+name: com.frecre.easy-shortcut-lock-inspector
+displayName: Easy Shortcut Lock Inspector
+description: A shortcut key to toggle Inspector option lock/unlock with Ctrl+L.
+repoUrl: 'https://github.com/SolidAlloy/EasyShortcutLockInspector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity EULA
+topics:
+  - editor-enhancement
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: 简易快捷锁检查器
+description_zhCN: 使用Ctrl + L切换检查器选项锁定/解锁的快捷键。
+createdAt: 1612641164171

@@ -6,6 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1577210555000
+displayName_zhCN: 程序化生成工具包
+description_zhCN: Unity的程序化生成库

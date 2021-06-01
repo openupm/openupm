@@ -1,0 +1,20 @@
+name: com.alexismorin.abetteractor
+displayName: A Better Actor
+description: An Easily Directable AI Actor for Unreal & Unity Sequences
+repoUrl: 'https://github.com/alexismorin/A-Better-Actor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/alexismorin/A-Better-Actor/raw/fa4fbdbce5b90bf9095daeeae73213724fa955a3/images/gif.gif
+readme: 'master:README.md'
+createdAt: 1598631119953
+displayName_zhCN: 一个更好的演员AI
+description_zhCN: 用于虚幻和Unity引擎的可指导的演员AI

@@ -1,0 +1,23 @@
+name: com.beauprime.beaupools
+displayName: BeauPools
+description: >-
+  BeauPools is an object pooling library for Unity. It contains both generic
+  pools and a Unity-specific prefab pool, along with utilities for managing
+  those prefab pools.
+repoUrl: 'https://github.com/BeauPrime/BeauPools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: BeauPrime
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.1
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: BeauPools
+description_zhCN: ''
+createdAt: 1621136227650

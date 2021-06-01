@@ -1,0 +1,18 @@
+name: holybomb.unity.litjson
+displayName: LitJSON
+description: LitJson-CSharp
+repoUrl: 'https://github.com/holybomb/LitJson-CSharp'
+parentRepoUrl: 'https://github.com/holybomb/LitJson-CSharp'
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: holybomb
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602761213638
+displayName_zhCN: LitJSON
+description_zhCN: LitJson-CSharp

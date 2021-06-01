@@ -1,0 +1,21 @@
+name: com.pflowr.unirate
+displayName: UniRate
+description: >-
+  Unity plugin to easily manage the application frame rate and rendering
+  interval. Preventing battery power consumption and device heat, especially on
+  mobile platforms.
+repoUrl: 'https://github.com/renanwolf/UniRate'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'release:README.md'
+createdAt: 1598427758154
+displayName_zhCN: UniRate
+description_zhCN: Unity插件可轻松管理应用程序的帧频和渲染间隔。防止电池功耗和设备发热，尤其是在移动平台上。

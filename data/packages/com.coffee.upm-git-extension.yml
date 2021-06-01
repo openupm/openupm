@@ -8,5 +8,11 @@ licenseName: MIT License
 topics:
   - package-management
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ^v
+readme: 'upm:README.md'
 createdAt: 1576342875000
-image: https://user-images.githubusercontent.com/12690315/60764681-20c28380-a0c9-11e9-9c3c-75e3d4e0279e.png
+image: >-
+  https://user-images.githubusercontent.com/12690315/60764681-20c28380-a0c9-11e9-9c3c-75e3d4e0279e.png
+displayName_zhCN: UPM Git Extension
+description_zhCN: Unity包管理器（UPM）的Git扩展

@@ -1,0 +1,23 @@
+name: com.vovgou.loxodon-framework-log4net
+displayName: Loxodon Framework Log4Net
+description: >-
+  This is a plugin for the logging feature of Loxodon.Framework, which helps you
+  use Log4Net in your Unity project.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - frameworks
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.0.1-preview
+image: 'https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png'
+readme: 'master:Loxodon.Framework.Log4Net/README.md'
+createdAt: 1594375319319
+displayName_zhCN: Loxodon框架 - Log4Net
+description_zhCN: 这是Loxodon.Framework的日志记录功能的插件，可帮助您在Unity项目中使用Log4Net。

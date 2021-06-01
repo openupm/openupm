@@ -1,0 +1,18 @@
+name: com.baba-s.uni-asset-path
+displayName: UniAssetPath
+description: 【Unity】アセットのパスに関する処理を記述しやすくする構造体
+repoUrl: 'https://github.com/baba-s/UniAssetPath'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599498707400
+displayName_zhCN: UniAssetPath
+description_zhCN: UniAssetPath结构可方便的描述资源路径

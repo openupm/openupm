@@ -1,0 +1,18 @@
+name: com.baba-s.uni-project-view-extension-for-mac
+displayName: UniProjectViewExtensionForMac
+description: 【Unity】Mac における Project ビューでフォルダを先頭に表示するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniProjectViewExtensionForMac'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591666413518
+displayName_zhCN: UniProjectViewExtensionForMac
+description_zhCN: 在Mac中的项目视图开头显示文件夹

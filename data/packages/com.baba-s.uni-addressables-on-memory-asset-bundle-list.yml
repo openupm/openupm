@@ -1,0 +1,18 @@
+name: com.baba-s.uni-addressables-on-memory-asset-bundle-list
+displayName: UniAddressablesOnMemoryAssetBundleList
+description: 【Unity】Addressable で読み込んで現在メモリに載っているアセットバンドルの一覧を取得できるクラス
+repoUrl: 'https://github.com/baba-s/UniAddressablesOnMemoryAssetBundleList'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602441393415
+displayName_zhCN: UniAddressablesOnMemoryAssetBundleList
+description_zhCN: Unity可寻址资源类，可获取当前内存中的AssetBundle列表

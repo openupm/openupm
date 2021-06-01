@@ -15,3 +15,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1583243213985
+displayName_zhCN: AndroidManifest占位符解析器
+description_zhCN: 使用build.gradle将值注入到AndroidManifest中的占位符的后期处理

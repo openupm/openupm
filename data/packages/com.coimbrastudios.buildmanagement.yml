@@ -1,0 +1,18 @@
+name: com.coimbrastudios.buildmanagement
+displayName: CS Build Management
+description: null
+repoUrl: 'https://github.com/coimbrastudios/buildmanagement'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: brunocoimbrar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597069400875
+displayName_zhCN: CS构建管理

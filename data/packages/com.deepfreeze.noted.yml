@@ -1,0 +1,20 @@
+name: com.deepfreeze.noted
+displayName: Noted
+description: >-
+  A UPM (Unity Package Manager) package for managing and tracking patch notes in
+  your game
+repoUrl: 'https://github.com/DeepFreezeGames/com.deepfreeze.noted'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - editor-enhancement
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589252889128
+displayName_zhCN: Noted
+description_zhCN: 用于管理和跟踪游戏中的补丁的UPM（Unity Package Manager）包

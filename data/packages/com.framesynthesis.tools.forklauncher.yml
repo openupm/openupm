@@ -1,0 +1,21 @@
+name: com.framesynthesis.tools.forklauncher
+displayName: Fork Launcher
+description: >-
+  A Unity editor extension package to open the project folder with the git
+  client Fork.
+repoUrl: 'https://github.com/korinVR/ForkLauncher'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - integration
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605803591084
+displayName_zhCN: Fork启动器
+description_zhCN: 通过Git客户端Fork来打开项目文件夹。

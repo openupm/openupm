@@ -1,0 +1,19 @@
+name: com.baba-s.uni-ui-remocon
+displayName: UniUIRemocon
+description: 【Unity】タイムスケールを素早く変更できるドラッグ可能な UI
+repoUrl: 'https://github.com/baba-s/UniUIRemocon'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87840104-db8a8180-c8d8-11ea-9ef5-6af45fa80a81.gif
+readme: 'master:README.md'
+createdAt: 1595092036051
+displayName_zhCN: UniUIRemocon
+description_zhCN: 快速调节Time Scale的工具

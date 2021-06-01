@@ -1,0 +1,20 @@
+name: com.open.dots-events
+displayName: DOTS Events
+description: >-
+  A lightweight event API for Unity DOTS inspired by some findings in the
+  forums.
+repoUrl: 'https://github.com/pablothedolphin/DOTS-Events'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602614000493
+displayName_zhCN: DOTS事件
+description_zhCN: 受论坛中一些发现启发的Unity DOTS轻量级事件API。

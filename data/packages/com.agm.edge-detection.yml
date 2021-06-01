@@ -1,0 +1,19 @@
+name: com.agm.edge-detection
+displayName: Edge Detection
+description: Edge Detect / Outliner for Unity Post-Processing Stack v2
+repoUrl: 'https://github.com/AGM-GR/EdgeDetection'
+parentRepoUrl: 'https://github.com/jean-moreno/EdgeDetect-PostProcessingUnity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/9071269/59957249-c4d7e800-9496-11e9-8d28-75e4b67f1c9a.png
+readme: 'master:README.md'
+createdAt: 1591996627989
+displayName_zhCN: 边缘检测
+description_zhCN: 基于Unity后期处理栈v2的边缘检测和边框绘制

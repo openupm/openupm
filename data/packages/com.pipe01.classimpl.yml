@@ -1,0 +1,18 @@
+name: com.pipe01.classimpl
+displayName: ClassImpl
+description: 'Like a faking library, but oriented towards dynamic modification at runtime.'
+repoUrl: 'https://github.com/pipe01/classimpl'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'unity:README.md'
+createdAt: 1593804926557
+displayName_zhCN: ClassImpl
+description_zhCN: 类似于伪造的库，但面向运行时动态修改。

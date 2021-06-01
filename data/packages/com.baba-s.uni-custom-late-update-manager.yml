@@ -1,0 +1,18 @@
+name: com.baba-s.uni-custom-late-update-manager
+displayName: UniCustomLateUpdateManager
+description: 【Unity】MonoBehaviour の LateUpdate 関数の呼び出しを高速にするための機能
+repoUrl: 'https://github.com/baba-s/UniCustomLateUpdateManager'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594868698731
+displayName_zhCN: UniCustomLateUpdateManager
+description_zhCN: 更高效的MonoBehaviour的LateUpdate回调

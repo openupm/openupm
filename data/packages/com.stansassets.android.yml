@@ -1,0 +1,17 @@
+name: com.stansassets.android
+displayName: Stans Assets - Android plugins Dev Kit
+description: Android plugins Dev Kit for Unity
+repoUrl: 'https://github.com/StansAssets/com.stansassets.android'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: stan-osipov
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1588592225640
+displayName_zhCN: Stans资源 - Android插件开发套件
+description_zhCN: Android插件Unity开发套件

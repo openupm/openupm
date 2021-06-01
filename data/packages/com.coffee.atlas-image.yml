@@ -1,0 +1,21 @@
+name: com.coffee.atlas-image
+displayName: ''
+description: ' AtlasImage is a graphic component use SpriteAtlas for uGUI. In addition, add useful sprite selector and border editor to the inspector.'
+repoUrl: 'https://github.com/mob-sakai/AtlasImage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+  - gui
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/12690315/39434547-d5f34956-4cd3-11e8-82b1-f7f2f7be953a.png
+readme: 'develop:README.md'
+createdAt: 1589385874437
+description_zhCN: Atlasimage是uGUI的SpriteAtlas图形组件。此外还提供了Sprite选择器和边框编辑器。

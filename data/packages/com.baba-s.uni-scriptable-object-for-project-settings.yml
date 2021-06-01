@@ -1,0 +1,19 @@
+name: com.baba-s.uni-scriptable-object-for-project-settings
+displayName: UniScriptableObjectForProjectSettings
+description: 【Unity】Project Settings に簡単にメニューを追加できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniScriptableObjectForProjectSettings'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602514671488
+displayName_zhCN: UniScriptableObjectForProjectSettings
+description_zhCN: 将ScriptableObject添加到项目设置

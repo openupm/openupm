@@ -1,0 +1,19 @@
+name: com.fluvio.fx
+displayName: FluvioFX
+description: Fluid dynamics for Unity's VFX graph
+repoUrl: 'https://github.com/fluviofx/fluviofx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/fluviofx/fluviofx/raw/dba80833cdcd7922bc5d305f76b146167bfce6ad/Documentation~/images/logo.png
+readme: 'master:README.md'
+createdAt: 1589845239906
+displayName_zhCN: FluvioFX
+description_zhCN: Unity的流体力学VFX图像

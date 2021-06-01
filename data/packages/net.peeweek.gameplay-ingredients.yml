@@ -8,9 +8,12 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
-  - library
+  - editor-enhancement
+  - utilities
 hunter: peeweek
 gitTagIgnore: ''
 createdAt: 1579776641040
-image: https://raw.githubusercontent.com/peeweek/net.peeweek.gameplay-ingredients/master/Documentation~/Images/site-banner.png
+image: >-
+  https://raw.githubusercontent.com/peeweek/net.peeweek.gameplay-ingredients/master/Documentation~/Images/site-banner.png
+displayName_zhCN: Gameplay原料
+description_zhCN: Unity游戏的Gameplay原料 – 运行时和编辑器脚本的集合，可简化制作游戏和原型时的简单任务。

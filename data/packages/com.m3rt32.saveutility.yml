@@ -1,0 +1,17 @@
+name: com.m3rt32.saveutility
+displayName: Save Utility
+description: Modular Save System for Unity
+repoUrl: 'https://github.com/merpheus-dev/SaveUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589238869669
+displayName_zhCN: 保存实用程序
+description_zhCN: 适用于Unity的模块化保存系统

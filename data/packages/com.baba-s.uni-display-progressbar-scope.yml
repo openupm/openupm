@@ -1,0 +1,19 @@
+name: com.baba-s.uni-display-progressbar-scope
+displayName: UniDisplayProgressbarScope
+description: '【Unity】EditorUtility.ClearProgressBar の呼び出し漏れを防ぐためのクラス '
+repoUrl: 'https://github.com/baba-s/UniDisplayProgressbarScope'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591709233572
+displayName_zhCN: UniDisplayProgressbarScope
+description_zhCN: 调用带进度的对话框

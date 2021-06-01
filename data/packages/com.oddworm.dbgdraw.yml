@@ -1,0 +1,18 @@
+name: com.oddworm.dbgdraw
+displayName: Debug Draw API
+description: >-
+  DbgDraw is an API that provides the ability to render various 2D and 3D shapes
+  for visual debugging purposes.
+repoUrl: 'https://github.com/pschraut/UnityDbgDraw'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588952786607
+displayName_zhCN: 调试绘图API
+description_zhCN: DbgDraw是一种API，它提供了渲染各种2D和3D形状以进行可视调试的功能。

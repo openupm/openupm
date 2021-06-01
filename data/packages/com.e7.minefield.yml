@@ -1,0 +1,20 @@
+name: com.e7.minefield
+displayName: Minefield Test Tools
+description: Program a concise navigation play mode test in Unity.
+repoUrl: 'https://github.com/5argon/Minefield'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/5argon/Minefield/raw/c4caae3fd3ce10cd9d965cf2565f4557ac1d0377/.Documentation/images/RunAll.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Minefield测试工具
+description_zhCN: 在Unity中编写简洁的导航播放模式测试。
+createdAt: 1610917505516

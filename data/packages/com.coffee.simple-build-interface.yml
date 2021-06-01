@@ -1,0 +1,19 @@
+name: com.coffee.simple-build-interface
+displayName: Simple Build Interface
+description: Add simple build interface for CLI.
+repoUrl: 'https://github.com/mob-sakai/SimpleBuildInterface'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: mob-sakai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1604939593156
+displayName_zhCN: 简单Build接口
+description_zhCN: 为CLI添加简单的Build接口

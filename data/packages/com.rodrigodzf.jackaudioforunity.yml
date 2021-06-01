@@ -1,0 +1,19 @@
+name: com.rodrigodzf.jackaudioforunity
+displayName: JackAudioForUnity
+description: Jack audio plugin for unity
+repoUrl: 'https://github.com/rodrigodzf/Jack-Audio-For-Unity'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - audio
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: JackAudioForUnity
+description_zhCN: Jack Unity音频插件
+createdAt: 1612874040944

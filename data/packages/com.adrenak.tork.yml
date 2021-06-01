@@ -1,0 +1,19 @@
+name: com.adrenak.tork
+displayName: Tork
+description: Arcade vehicle physics for Unity
+repoUrl: 'https://github.com/adrenak/tork'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598550470024
+displayName_zhCN: Tork
+description_zhCN: 车辆物理引擎

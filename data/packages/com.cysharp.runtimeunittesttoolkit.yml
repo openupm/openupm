@@ -1,0 +1,18 @@
+name: com.cysharp.runtimeunittesttoolkit
+displayName: RuntimeUnitTestToolkit
+description: CLI/GUI Frontend of Unity Test Runner to test on any platform.
+repoUrl: 'https://github.com/Cysharp/RuntimeUnitTestToolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/46207/57200784-d2aada00-6fca-11e9-8182-944abb963316.png
+readme: 'master:README.md'
+createdAt: 1589327775923
+displayName_zhCN: RuntimeUnitTestToolkit 运行时单元测试工具
+description_zhCN: Unity Test Runner的CLI/GUI前端接口，支持任何平台上的测试。

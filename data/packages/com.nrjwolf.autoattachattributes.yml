@@ -1,0 +1,18 @@
+name: com.nrjwolf.autoattachattributes
+displayName: Auto Attach Component Attributes
+description: null
+repoUrl: 'https://github.com/rfadeev/unity-auto-attach-component-attributes'
+parentRepoUrl: 'https://github.com/Nrjwolf/unity-auto-attach-component-attributes'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'make-repository-upm-compatible:README.md'
+createdAt: 1593646288625
+displayName_zhCN: 自动附加组件属性

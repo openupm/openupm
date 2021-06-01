@@ -7,6 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - mobile
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1576335807000
+displayName_zhCN: Eflatun.AndroidManifestHook
+description_zhCN: 用于AndroidManifest.xml的钩子工具

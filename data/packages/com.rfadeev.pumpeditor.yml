@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: rfadeev
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1584270069621
+displayName_zhCN: Pump编辑器
+description_zhCN: 收集Unity编辑器助手以提高生产力。

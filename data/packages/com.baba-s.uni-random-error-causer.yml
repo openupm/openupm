@@ -1,0 +1,20 @@
+name: com.baba-s.uni-random-error-causer
+displayName: UniRandomErrorCauser
+description: 【Unity】一定時間ごとにわざとエラーを発生させるコンポーネント
+repoUrl: 'https://github.com/baba-s/UniRandomErrorCauser'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - testing
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UniRandomErrorCauser
+description_zhCN: '[Unity]有规律地定期产生错误的组件'
+createdAt: 1608574717944

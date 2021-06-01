@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.locomotors.teleporter.unity
+displayName: Tilia Locomotors Teleporter Unity
+description: >-
+  A collection of prefabs that can move a given GameObject to a specific point
+  in space for the Unity software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Locomotors.Teleporter.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Locomotors.Teleporter.Unity/raw/b2ee720d00d8b5ac9618e8523456eaa45697d769/Documentation/HowToGuides/AddingATeleporter/assets/images/DiagramOfHowTeleportLocationMayRequireAnOffset.png
+readme: 'master:README.md'
+createdAt: 1593091717727
+displayName_zhCN: Tilia Locomotors Teleporter Unity
+description_zhCN: 一组Prefab，可以将给定的GameObject移动到Unity软件的空间中的特定点

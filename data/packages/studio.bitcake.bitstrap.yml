@@ -1,0 +1,22 @@
+name: studio.bitcake.bitstrap
+displayName: BitStrap
+description: BitStrap is BitCake's collection of Unity tools that improve our workflow.
+repoUrl: 'https://github.com/bitcake/bitstrap'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - utilities
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/bitcake/bitstrap/raw/83f13943b532b27373beca7a40061ea78af3cb99/Documentation/Screenshot_GraphEditor.png
+readme: 'upm:README.md'
+createdAt: 1589389698876
+displayName_zhCN: BitStrap
+description_zhCN: BitStrap是BitCake的Unity工具集合，可改善我们的工作流程。

@@ -1,0 +1,15 @@
+name: com.euglenach.inputasobservable
+displayName: InputAsObservable
+description: Treat UnityStandardInput as UniRx(IObservable)
+repoUrl: 'https://github.com/euglenach/InputAsObservable'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: euglenach
+image: null
+readme: 'master:README.md'
+displayName_zhCN: InputAsObservable
+description_zhCN: 将UnityStandardInput视为UniRx（IObservable）
+createdAt: 1621967690430

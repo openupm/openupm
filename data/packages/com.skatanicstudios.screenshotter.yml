@@ -1,0 +1,20 @@
+name: com.skatanicstudios.screenshotter
+displayName: Screenshotter
+description: >-
+  Package for taking gameplay screenshots in the Unity Editor across all three
+  pipeline types
+repoUrl: 'https://github.com/neon8100/screenshotter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/neon8100/screenshotter/raw/b049bff1fd799e17d946847921cd45598f4192ef/Editor/screenshotter_icon.png
+readme: 'upm:README.md'
+createdAt: 1588905913121
+displayName_zhCN: 屏幕截图
+description_zhCN: 用于在Unity编辑器中获取所有三种管道类型的游戏截图的软件包

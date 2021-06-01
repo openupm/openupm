@@ -1,0 +1,23 @@
+name: id.instance.elementanimationtoolkit
+displayName: Element Animation Toolkit
+description: >-
+  A collection of Unity UIElements standalone animations, new animated elements,
+  and examples. 
+repoUrl: 'https://github.com/instance-id/ElementAnimationToolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - gui
+hunter: instance-id
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/instance-id/ElementAnimationToolkit/raw/7c99f487d96214546055e2660993626a841861b1/Assets/instance.id/ElementAnimationToolkit/Documentation/media/intro_animation.gif
+readme: 'upm:README.md'
+createdAt: 1605423061688
+displayName_zhCN: 元素动画工具包
+description_zhCN: Unity UIElements独立动画，新动画元素和示例的集合。

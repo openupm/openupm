@@ -1,0 +1,20 @@
+name: com.lennethproduction.spatialhashing
+displayName: Spatial Hashing
+description: Spatial hashing for Unity using ECS
+repoUrl: 'https://github.com/Sylmerria/Spatial-Hashing'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: 空间散列
+description_zhCN: 使用ECS进行Unity的空间哈希
+createdAt: 1613069640179

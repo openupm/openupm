@@ -1,0 +1,20 @@
+name: com.baba-s.uni-bundle-version-code-incrementer
+displayName: UniBundleVersionCodeIncrementer
+description: 【Unity】iOS / Android ビルド完了時に Bundle Version Code や Bundle Number を 1 増やすエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniBundleVersionCodeIncrementer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79872988-75997580-8421-11ea-9436-f56ee120e2d0.png
+readme: 'master:README.md'
+createdAt: 1591708660708
+displayName_zhCN: UniBundleVersionCodeIncrementer
+description_zhCN: 在构建完成时更新iOS / Android的Bundle Version Code和Bundle Number

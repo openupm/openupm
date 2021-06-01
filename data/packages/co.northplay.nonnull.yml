@@ -1,0 +1,19 @@
+name: co.northplay.nonnull
+displayName: NonNull attribute
+description: '[NonNull] attribute to fields and classes in Unity'
+repoUrl: 'https://github.com/ulrikdamm/UnityNonNull'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/1c317b22c1ac61d097241ecf10579fc8f5130016/687474703a2f2f7566642e646b2f4e6f6e4e756c6c456469746f722e706e67
+readme: 'master:README.md'
+createdAt: 1592070200097
+displayName_zhCN: NonNull属性
+description_zhCN: '可应用于字段或类的NonNull属性'

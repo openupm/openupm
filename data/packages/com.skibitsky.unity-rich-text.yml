@@ -1,0 +1,19 @@
+name: com.skibitsky.unity-rich-text
+displayName: Unity Rich Text
+description: "\U0001F308 Forget about rich text tags pain "
+repoUrl: 'https://github.com/skibitsky/unity-rich-text'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/ee0063baaeda24287d190d57993d49881d9bede8/68747470733a2f2f696d6775722e636f6d2f455147417a70782e6a706567
+readme: 'master:README.md'
+createdAt: 1592834418696
+displayName_zhCN: Unity富文本
+description_zhCN: 忘记富文本标签的痛苦

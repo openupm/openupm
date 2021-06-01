@@ -1,0 +1,18 @@
+name: com.baba-s.uni-color-utils
+displayName: UniColorUtils
+description: 【Unity】Color 型と16進数、HTML カラー形式の文字列の変換ができる機能
+repoUrl: 'https://github.com/baba-s/UniColorUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591628600934
+displayName_zhCN: UniColorUtils
+description_zhCN: 转换颜色为十六进制或HTML字符串的函数

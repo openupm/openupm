@@ -1,0 +1,17 @@
+name: com.baba-s.uni-all-scene-tester
+displayName: UniAllSceneTester
+description: null
+repoUrl: 'https://github.com/baba-s/UniAllSceneTester'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601165619354
+displayName_zhCN: UniAllSceneTester

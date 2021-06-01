@@ -1,0 +1,18 @@
+name: com.jeffcampbellmakesgames.entitasredux
+displayName: JCMG Entitas Redux
+description: null
+repoUrl: 'https://github.com/jeffcampbellmakesgames/Entitas-Redux'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - editor-enhancement
+  - integration
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588746408166
+displayName_zhCN: JCMG Entitas Redux

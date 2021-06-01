@@ -1,0 +1,19 @@
+name: com.coffee.uigradients
+displayName: UI Gradients
+description: A UI gradient effect script for Unity
+repoUrl: 'https://github.com/Sov3rain/Unity-UIGradient'
+parentRepoUrl: 'https://github.com/azixMcAze/Unity-UIGradient'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ^v
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/26fecc94b000202cf78b5baf6e885f7993ad7b1c/68747470733a2f2f617a69786d63617a652e6769746875622e696f2f556e6974792d55494772616469656e742f73637265656e73686f74332e706e67
+readme: 'master:README.md'
+createdAt: 1589389837329
+displayName_zhCN: UI渐变
+description_zhCN: UI渐变效果脚本

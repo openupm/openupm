@@ -1,0 +1,19 @@
+name: dev.kyubuns.animetask
+displayName: AnimeTask
+description: Task Animation Library for Unity
+repoUrl: 'https://github.com/kyubuns/AnimeTask'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.0.0
+image: >-
+  https://user-images.githubusercontent.com/961165/85940937-8c48d500-b95a-11ea-81b5-fddd17166a96.gif
+readme: 'main:README.md'
+createdAt: 1594700638835
+displayName_zhCN: AnimeTask
+description_zhCN: 适用于Unity的任务动画库

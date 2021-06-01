@@ -1,0 +1,21 @@
+name: com.solidalloy.generic-unity-objects
+displayName: Generic Unity Objects
+description: A plugin that allows using of generic scriptable objects and monobehaviours, creating assets and components from them, and instantiating them at runtime.
+repoUrl: 'https://github.com/SolidAlloy/GenericUnityObjects'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.1
+image: null
+readme: 'main:README.md'
+createdAt: 1604606549558
+displayName_zhCN: 通用 Unity Objects
+description_zhCN: A plugin that allows using of generic scriptable objects and monobehaviours, creating assets and components from them, and instantiating them at runtime.

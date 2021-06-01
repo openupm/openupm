@@ -1,0 +1,20 @@
+name: com.baba-s.uni-ui-debug-panel
+displayName: UniUIDebugPanel
+description: 【Unity】デバッグ用のボタンを簡単に実装できる UI
+repoUrl: 'https://github.com/baba-s/UniUIDebugPanel'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87840636-b1868e80-c8db-11ea-92c0-078e877ad7d1.gif
+readme: 'master:README.md'
+createdAt: 1595092176143
+displayName_zhCN: UniUIDebugPanel
+description_zhCN: Unity UI调试面板

@@ -7,10 +7,11 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
   - procedural-generation
 hunter: sasvdw
 gitTagIgnore: ''
 image: null
 createdAt: 1580199771165
+displayName_zhCN: LazyGameDevZA的RogueDOTS

@@ -1,0 +1,19 @@
+name: com.blueraja.weighted-item-randomizer-for-c-sharp
+displayName: Weighted Item Randomizer for C#
+description: Library for randomly selecting weighted items in C#
+repoUrl: 'https://github.com/JesseTG/Weighted-Item-Randomizer-for-C-Sharp'
+parentRepoUrl: 'https://github.com/BlueRaja/Weighted-Item-Randomizer-for-C-Sharp'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.4
+image: null
+readme: 'upm:README.md'
+createdAt: 1594509296278
+displayName_zhCN: C#的加权随机
+description_zhCN: 随机选择C#中的带加权的数据

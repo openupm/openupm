@@ -1,0 +1,19 @@
+name: io.github.idreamsofgame.unisharper.core
+displayName: UniSharper.Core
+description: >-
+  UniSharper.Core is a unity package that contains scripts, plugins and assets
+  for general unity application development.
+repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1587629257917
+displayName_zhCN: UniSharper.Core
+description_zhCN: UniSharper.Core是一个Unity软件包，其中包含用于常规Unity应用程序开发的脚本，插件和资源。

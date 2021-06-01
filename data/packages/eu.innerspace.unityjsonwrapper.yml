@@ -1,0 +1,18 @@
+name: eu.innerspace.unityjsonwrapper
+displayName: Unity Json Wrapper
+description: A wrapper built around Json.NET to simplify its use
+repoUrl: 'https://github.com/innerspacetrainings/Unity-Json-Wrapper'
+parentRepoUrl: 'https://github.com/Bullrich/Unity-Json-Wrapper'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2018.4'
+image: null
+readme: 'master:README.md'
+createdAt: 1598533351710
+displayName_zhCN: Unity Json包装
+description_zhCN: 围绕Json.NET构建的包装，以简化其使用

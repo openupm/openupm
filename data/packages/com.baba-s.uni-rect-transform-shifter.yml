@@ -1,0 +1,17 @@
+name: com.baba-s.uni-rect-transform-shifter
+displayName: UniRectTransformShifter
+description: null
+repoUrl: 'https://github.com/baba-s/UniRectTransformShifter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593564302827
+displayName_zhCN: UniRectTransformShifter

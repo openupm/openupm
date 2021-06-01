@@ -1,0 +1,18 @@
+name: com.shin.shin-framework
+displayName: ShinFramework
+description: Yet another framework for using Unity
+repoUrl: 'https://github.com/sindharta/unity-shin-framework'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594524528644
+displayName_zhCN: ShinFramework
+description_zhCN: Unity框架

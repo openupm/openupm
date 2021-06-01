@@ -1,0 +1,19 @@
+name: com.ms.quickcapture
+displayName: Quick Screen Capture
+description: quick screen capture for unity editor
+repoUrl: 'https://github.com/wlgys8/QuickScreenCapture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 快速截屏
+description_zhCN: Unity编辑器的快速屏幕捕获
+createdAt: 1607025161481

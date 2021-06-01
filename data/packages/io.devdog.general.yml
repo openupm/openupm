@@ -1,0 +1,20 @@
+name: io.devdog.general
+displayName: Devdog.io General Library
+description: null
+repoUrl: 'https://github.com/JuanJSAR/devdog-general'
+parentRepoUrl: 'https://github.com/andrea-repetto/devdog-general'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - input-management
+  - localization
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589318056307
+displayName_zhCN: Devdog.io通用库

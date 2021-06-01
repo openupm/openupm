@@ -1,0 +1,18 @@
+name: com.potatointeractive.util
+displayName: PotatoUtil
+description: Potato Interactive's commonly used utilities and helpers for Unity/C#
+repoUrl: 'https://github.com/tlauterbach/potato-util'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: tlauterbach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1599606492179
+displayName_zhCN: PotatoUtil
+description_zhCN: 土豆互动的Unity/C#常用实用程序和助手

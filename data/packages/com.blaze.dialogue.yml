@@ -1,0 +1,17 @@
+name: com.blaze.dialogue
+displayName: Blaze Dialogue
+description: Lightweight dialogue system
+repoUrl: 'https://github.com/BennyKok/unity-blaze'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: BennyKok
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/BennyKok/unity-blaze/raw/0c6ef75bdbef7e35fa6e19e03066747c2be64e90/Screenshots/Dialogue%20Screenshot.png
+createdAt: 1587441310377
+displayName_zhCN: Blaze对话系统
+description_zhCN: 轻量级对话系统

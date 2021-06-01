@@ -1,0 +1,19 @@
+name: com.pixeye.ecs
+displayName: Actors
+description: >-
+  The Entity Component System framework for Unity. Ease the pain of decoupling
+  data from behaviors
+repoUrl: 'https://github.com/PixeyeHQ/actors'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: '^201[0-9]'
+image: >-
+  https://camo.githubusercontent.com/74ea3f7a336f079c9050f8d4c4603e734f05d409/68747470733a2f2f692e6779617a6f2e636f6d2f30643237396339653966656662313139386235353636613938633837373661612e706e67
+createdAt: 1587317639069
+displayName_zhCN: Actors
+description_zhCN: Unity的实体组件系统框架。减轻将数据与行为解耦合的痛苦

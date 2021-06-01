@@ -1,0 +1,17 @@
+name: com.baba-s.uni-il2cpp-checker
+displayName: UniIL2CPPChecker
+description: null
+repoUrl: 'https://github.com/baba-s/UniIL2CPPChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600968632044
+displayName_zhCN: UniIL2CPPChecker

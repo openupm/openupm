@@ -1,0 +1,21 @@
+name: net.tnrd.scriptingdefineutility
+displayName: Scripting Define Utility
+description: >-
+  A small helper that allows you to more easily modify the scripting define
+  symbols for your project
+repoUrl: 'https://github.com/Thundernerd/Unity3D-ScriptingDefineUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603019537159
+displayName_zhCN: 脚本定义实用程序
+description_zhCN: 一个小助手，可让您更轻松地修改项目的脚本定义符号

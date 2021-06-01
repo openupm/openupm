@@ -1,0 +1,18 @@
+name: com.baba-s.uni-script-editor-starter
+displayName: UniScriptEditorStarter
+description: 【Unity】Unity プロジェクトを開いた時に Visual Studio や Rider などのコードエディタを自動で起動するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniScriptEditorStarter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591719657096
+displayName_zhCN: UniScriptEditorStarter
+description_zhCN: 将在打开Unity项目的同时自动启动代码编辑器（如Visual Studio或Rider）

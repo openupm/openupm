@@ -1,0 +1,18 @@
+name: com.laicasaane.unity-editor-icons
+displayName: Unity Editor Icons
+description: 'Build in unity editor icons '
+repoUrl: 'https://github.com/laicasaane/UnityEditorIcons'
+parentRepoUrl: 'https://github.com/nukadelic/UnityEditorIcons'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'upm:README.md'
+createdAt: 1594291306545
+displayName_zhCN: Unity编辑器图标
+description_zhCN: 内置Unity编辑器图标

@@ -1,0 +1,19 @@
+name: com.beans.deform
+displayName: Deform
+description: A fully-featured deformer system for Unity.
+repoUrl: 'https://github.com/keenanwoodall/Deform'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - modeling
+  - procedural-generation
+hunter: gekidoslair
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1588473574036
+displayName_zhCN: Deform 变形
+description_zhCN: 全功能变相系统

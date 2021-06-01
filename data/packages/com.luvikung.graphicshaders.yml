@@ -1,0 +1,24 @@
+name: com.luvikung.graphicshaders
+displayName: Graphic Shaders
+description: >-
+  Graphic Shaders is an Unity Editor Window that able to view all include
+  shaders, add new shaders, remove shaders, sorting shaders, remove null
+  reference or duplicate shaders.
+repoUrl: 'https://github.com/LuviKunG/GraphicShaders'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/GraphicShaders/raw/24840348fa8895c78e7ef315bca0d0459d58832e/images/giturl.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614103312735

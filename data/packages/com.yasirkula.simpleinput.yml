@@ -1,0 +1,22 @@
+name: com.yasirkula.simpleinput
+displayName: Simple Input System
+description: >-
+  An improvement over Unity's standard Input system that allows you to use
+  custom input providers like on-screen joysticks, UI buttons and d-pads
+repoUrl: 'https://github.com/yasirkula/UnitySimpleInput'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnitySimpleInput/raw/7bfa03fc95d8e2fbb2bfd7eeae657747e405bb83/.github/Images/screenshot.png
+readme: 'master:.github/README.md'
+createdAt: 1589518753655
+displayName_zhCN: 简单输入系统
+description_zhCN: 对Unity标准输入系统的改进，允许您使用自定义输入提供程序，例如屏幕操纵杆，UI按钮和d-pad

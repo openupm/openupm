@@ -1,0 +1,19 @@
+name: com.infinity.render.ssl
+displayName: InfinityScreenSpaceStack
+description: ScreenSpaceLighting for Unity in PostProcessStack V2.
+repoUrl: 'https://github.com/haolange/InfinityScreenSpaceLighting'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: InfinityScreenSpaceStack
+description_zhCN: ScreenProcessLighting for PostProcessStack V2中的Unity。
+createdAt: 1610480409942

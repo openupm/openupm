@@ -1,0 +1,16 @@
+name: com.grashaar.uiman-textmeshpro
+displayName: UIMan TextMeshPro
+description: TextMeshPro extensions for UIMan
+repoUrl: 'https://github.com/grashaar/uiman-textmeshpro'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - utilities
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587932538979
+displayName_zhCN: UIMan TextMeshPro
+description_zhCN: UIMan的TextMeshPro扩展

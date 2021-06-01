@@ -1,0 +1,19 @@
+name: com.baba-s.uni-inspector-header-customizer
+displayName: UniInspectorHeaderCustomizer
+description: 【Unity】Inspector のヘッダにボタンを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniInspectorHeaderCustomizer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79826545-04cd6b80-83d7-11ea-8dd0-46e639764d78.png
+readme: 'master:README.md'
+createdAt: 1591673164284
+displayName_zhCN: UniInspectorHeaderCustomizer
+description_zhCN: 将实用按钮添加到inspector顶部

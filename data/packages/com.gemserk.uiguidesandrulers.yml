@@ -1,0 +1,17 @@
+name: com.gemserk.uiguidesandrulers
+displayName: Gemserk UI - Guides And Rulers
+description: 'Just some easy gizmos to draw ui rulers to help implement ui '
+repoUrl: 'https://github.com/acoppes/UnityUIGuidesAndRulers'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - gui
+  - utilities
+hunter: acoppes
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587164353354
+displayName_zhCN: Gemserk UI - 参考线和尺子
+description_zhCN: 简单的参考线和尺子gizmos来辅助绘制UI

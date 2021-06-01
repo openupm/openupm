@@ -1,0 +1,17 @@
+name: com.gameframe.bindings
+displayName: Gameframe.Bindings
+description: Utility components for quickly binding data values to views.
+repoUrl: 'https://github.com/coryleach/UnityBindings'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589238407801
+displayName_zhCN: Gameframe.Bindings绑定
+description_zhCN: 实用程序组件，用于快速将数据值绑定到views。

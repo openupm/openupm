@@ -1,0 +1,19 @@
+name: com.careboo.burst-delegates
+displayName: Burst.Delegates
+description: ValueFuncs and ValueActions that are burst compatible
+repoUrl: 'https://github.com/CareBoo/Burst.Delegates'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603682658949
+displayName_zhCN: Burst.Delegates
+description_zhCN: Burst兼容的ValueFuncs和ValueActions

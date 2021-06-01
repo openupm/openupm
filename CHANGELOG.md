@@ -1,3 +1,659 @@
+## [1.49.5](https://github.com/openupm/openupm/compare/1.49.4...1.49.5) (2021-05-16)
+
+
+### Bug Fixes
+
+* **data:** remove package names are not well-scoped (close [#1521](https://github.com/openupm/openupm/issues/1521)) ([c4f4072](https://github.com/openupm/openupm/commit/c4f407208fea9796f11e78d2b7c4b2b53e89a422))
+
+## [1.49.4](https://github.com/openupm/openupm/compare/1.49.3...1.49.4) (2021-05-09)
+
+
+### Bug Fixes
+
+* **website:** add an extra warning for packages with com.unity or unity text (refs [#1755](https://github.com/openupm/openupm/issues/1755)). ([24a5079](https://github.com/openupm/openupm/commit/24a50793d157b377a3347c5111e331b9fe1069fa))
+* **website:** add disabled code snippet to verify Unity registry on package submission form (refs [#1755](https://github.com/openupm/openupm/issues/1755)). ([3e17669](https://github.com/openupm/openupm/commit/3e17669ed24786ce0a8111f95905f46fdb0a9aa0))
+
+## [1.49.3](https://github.com/openupm/openupm/compare/1.49.2...1.49.3) (2021-05-03)
+
+
+### Bug Fixes
+
+* **web:** no longer warns org.nuget.* dependency missing (refs [#1976](https://github.com/openupm/openupm/issues/1976)) ([27d75ed](https://github.com/openupm/openupm/commit/27d75ed52e0335f540835ee532b1350f556533ee))
+
+## [1.49.2](https://github.com/openupm/openupm/compare/1.49.1...1.49.2) (2021-04-25)
+
+
+### Bug Fixes
+
+* **data:** remove firebase related packages that break Unity terms (close: [#2062](https://github.com/openupm/openupm/issues/2062)) ([3534a29](https://github.com/openupm/openupm/commit/3534a2923c88144697f95a3e49c8ec2abb4805bc))
+
+## [1.49.1](https://github.com/openupm/openupm/compare/1.49.0...1.49.1) (2021-04-17)
+
+
+### Bug Fixes
+
+* **web:** add vuepress-plugin-chunkload-redirect to resolve the chunk load failure issue ([860bc43](https://github.com/openupm/openupm/commit/860bc431123e2572520cb1f1e549674565cf3d5f))
+
+# [1.49.0](https://github.com/openupm/openupm/compare/1.48.4...1.49.0) (2021-03-06)
+
+
+### Features
+
+* handle repository unavailable ([c45c4ac](https://github.com/openupm/openupm/commit/c45c4ac0ef1775f7ed28661ef142af8161c52a69))
+
+## [1.48.4](https://github.com/openupm/openupm/compare/1.48.3...1.48.4) (2021-03-06)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error code RemoteRepositoryUnavailable ([1130bb8](https://github.com/openupm/openupm/commit/1130bb8481c0d82f245d3a54e5ac879ff50fd84d))
+
+## [1.48.3](https://github.com/openupm/openupm/compare/1.48.2...1.48.3) (2021-02-03)
+
+
+### Bug Fixes
+
+* set license id to null since UDP isn't in Spdx ([1cd45da](https://github.com/openupm/openupm/commit/1cd45dac91b896b21760f9f6d8cc792a0b4a1914))
+
+## [1.48.2](https://github.com/openupm/openupm/compare/1.48.1...1.48.2) (2021-01-29)
+
+
+### Bug Fixes
+
+* **website:** package add form should use the package info description then fallback to the repo description. (close: [#1851](https://github.com/openupm/openupm/issues/1851)) ([221baa3](https://github.com/openupm/openupm/commit/221baa3bc3ad02682c83211803f9e474e59b6aa4))
+
+## [1.48.1](https://github.com/openupm/openupm/compare/1.48.0...1.48.1) (2021-01-10)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error invalid version ([b873450](https://github.com/openupm/openupm/commit/b8734500cd5ca1ceb01a92447ba8a41827a837df))
+
+# [1.48.0](https://github.com/openupm/openupm/compare/1.47.2...1.48.0) (2021-01-03)
+
+
+### Features
+
+* **pipelines:** refuse to submit a blocked or private repository (close: [#1762](https://github.com/openupm/openupm/issues/1762)) ([6897534](https://github.com/openupm/openupm/commit/689753420d76503484dec29b218d5148dd56f5db))
+
+## [1.47.2](https://github.com/openupm/openupm/compare/1.47.1...1.47.2) (2020-12-27)
+
+
+### Bug Fixes
+
+* **pipelines:** handle remote branch not found error ([3f75b73](https://github.com/openupm/openupm/commit/3f75b733fb3df401a2ed4669252c44aafcf1807b))
+* **pipelines:** remove unsued PackageNameNotMatch error code ([9dbb7fc](https://github.com/openupm/openupm/commit/9dbb7fcc1547a29cccaf9105cc6b4d3914b25d9d))
+
+## [1.47.1](https://github.com/openupm/openupm/compare/1.47.0...1.47.1) (2020-12-14)
+
+
+### Bug Fixes
+
+* **pipelines:** handle E504 gateway timeout ([b18497e](https://github.com/openupm/openupm/commit/b18497ef55207ddd10c2ee5ac7d3d8ffddcd66f0))
+
+# [1.47.0](https://github.com/openupm/openupm/compare/1.46.3...1.47.0) (2020-12-13)
+
+
+### Features
+
+* **website:** add status page (close [#1714](https://github.com/openupm/openupm/issues/1714)) ([9422c3d](https://github.com/openupm/openupm/commit/9422c3dd0037e6aa9fca524a8a9b8af5bd973051))
+
+## [1.46.3](https://github.com/openupm/openupm/compare/1.46.2...1.46.3) (2020-12-07)
+
+
+### Bug Fixes
+
+* **website:** ensure that package names are well-scoped in package add form (refs [#1521](https://github.com/openupm/openupm/issues/1521)) ([814b740](https://github.com/openupm/openupm/commit/814b7403caa5a10839540660af532f277fed8f72))
+
+## [1.46.2](https://github.com/openupm/openupm/compare/1.46.1...1.46.2) (2020-12-06)
+
+
+### Bug Fixes
+
+* **website:** loading error caused by sharing code ([ec13729](https://github.com/openupm/openupm/commit/ec137292162c67c3c5af15012d9a904678adafc5))
+
+## [1.46.1](https://github.com/openupm/openupm/compare/1.46.0...1.46.1) (2020-12-06)
+
+
+### Bug Fixes
+
+* **pipelines:** add tests to ensure that package names are well-scoped (refs [#1521](https://github.com/openupm/openupm/issues/1521)) ([307ad23](https://github.com/openupm/openupm/commit/307ad23a790f9f98425e616e91c4952d35da607d))
+
+# [1.46.0](https://github.com/openupm/openupm/compare/1.45.0...1.46.0) (2020-12-05)
+
+
+### Features
+
+* **website:** make package description searchable ([cb6d5d0](https://github.com/openupm/openupm/commit/cb6d5d00f94bbc6bca3ecec2be6bfd70125478cb))
+
+# [1.45.0](https://github.com/openupm/openupm/compare/1.44.0...1.45.0) (2020-12-04)
+
+
+### Features
+
+* **pipelines:** handle error heap out of memory ([172bfad](https://github.com/openupm/openupm/commit/172bfad5b11a6cf4c15620b4a03cd06f2d6dc616))
+
+# [1.44.0](https://github.com/openupm/openupm/compare/1.43.2...1.44.0) (2020-12-03)
+
+
+### Features
+
+* **website:** add the region sub-menu ([d8e7eab](https://github.com/openupm/openupm/commit/d8e7eabd45f47318694413711c2c52bb6e980353))
+
+## [1.43.2](https://github.com/openupm/openupm/compare/1.43.1...1.43.2) (2020-11-29)
+
+
+### Bug Fixes
+
+* **website:** use internal installer endpoint for region cn ([6a7a91c](https://github.com/openupm/openupm/commit/6a7a91c5db2d0de957de87607c46bd87ebb15dd1))
+
+## [1.43.1](https://github.com/openupm/openupm/compare/1.43.0...1.43.1) (2020-11-29)
+
+
+### Bug Fixes
+
+* **pipelines:** should validate the package yml file extention name in CI (close: [#1665](https://github.com/openupm/openupm/issues/1665)) [skip ci] ([89845ee](https://github.com/openupm/openupm/commit/89845ee10f6c5a375e382647158dcc9377fdf7c0))
+* **website:** localized package detail page title for region CN (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([7cc8def](https://github.com/openupm/openupm/commit/7cc8def30ae3cb37aaa4e036994c6a8d7e7903d1))
+
+# [1.43.0](https://github.com/openupm/openupm/compare/1.42.2...1.43.0) (2020-11-28)
+
+
+### Features
+
+* **website:** add Chinese related fields to the package add form (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([abfbb7a](https://github.com/openupm/openupm/commit/abfbb7a605e0613f81a7614dc56d2a906e51221b))
+* **website:** add report abuse button (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([eb34b83](https://github.com/openupm/openupm/commit/eb34b831c0a744a2ed6a436bc3d36e4e47a73c02))
+* **website:** serve Chinese readme (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([9eb1e1f](https://github.com/openupm/openupm/commit/9eb1e1f6faa6d3442ef25c8c773bd7e23bca1720))
+
+## [1.42.2](https://github.com/openupm/openupm/compare/1.42.1...1.42.2) (2020-11-28)
+
+
+### Bug Fixes
+
+* **website:** show localized texts on the recently updated packages component. ([bd9ecb2](https://github.com/openupm/openupm/commit/bd9ecb2d12a9d0e7544996bd357f037cb644867a))
+
+## [1.42.1](https://github.com/openupm/openupm/compare/1.42.0...1.42.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* **i18n:** flexsearch option for region CN ([d8089d5](https://github.com/openupm/openupm/commit/d8089d58bf3a469127e1e643e2e2460071642acf))
+
+# [1.42.0](https://github.com/openupm/openupm/compare/1.41.0...1.42.0) (2020-11-25)
+
+
+### Features
+
+* **website:** display localized package meta ([ec22032](https://github.com/openupm/openupm/commit/ec220325daa6f19246bd29f01607f818ccde3d0e))
+
+# [1.41.0](https://github.com/openupm/openupm/compare/1.40.7...1.41.0) (2020-11-23)
+
+
+### Bug Fixes
+
+* **pipelines:** add fetch-backer-data job [skip ci] ([d6a5d84](https://github.com/openupm/openupm/commit/d6a5d84ebc876432fefc00cb75a092422705e614))
+* **pipelines:** change aggregatePackageExtra health check id [skip ci] ([d0fef03](https://github.com/openupm/openupm/commit/d0fef0327b14d1b1eec10de4af588ac8d00ea4a9))
+
+
+### Features
+
+* **pipelines:** integrate with healthchecks.io [skip ci] ([61aeff1](https://github.com/openupm/openupm/commit/61aeff1dc32423ad450214766c83a3d40ac04510))
+
+## [1.40.7](https://github.com/openupm/openupm/compare/1.40.6...1.40.7) (2020-11-22)
+
+
+### Bug Fixes
+
+* **website:** cache the avatar image ([b53c769](https://github.com/openupm/openupm/commit/b53c769c22a3699421336409bd488946423f4dc7))
+
+## [1.40.6](https://github.com/openupm/openupm/compare/1.40.5...1.40.6) (2020-11-22)
+
+
+### Bug Fixes
+
+* **website:** update media base URL for region CN ([d0ab08f](https://github.com/openupm/openupm/commit/d0ab08f4fe0e40b5a1f608c6b4b2fe059661e32a))
+
+## [1.40.5](https://github.com/openupm/openupm/compare/1.40.4...1.40.5) (2020-11-20)
+
+
+### Bug Fixes
+
+* **website:** smaller ad widget ([cfbf7d3](https://github.com/openupm/openupm/commit/cfbf7d32749020d4ebdc5c19ee094bd5f2bb5d6d))
+
+## [1.40.4](https://github.com/openupm/openupm/compare/1.40.3...1.40.4) (2020-11-18)
+
+
+### Bug Fixes
+
+* **pipelines:** aggregate media extname should be png [skip ci] ([9cdf1a9](https://github.com/openupm/openupm/commit/9cdf1a9ca5d56f7b6ae293fcd28d9c22641a2d1b))
+* **pipelines:** fix local media ACL [skip ci] ([6fa3160](https://github.com/openupm/openupm/commit/6fa3160613ea0e5a09227393a80eb432aa6bfca9))
+* **pipelines:** set local media content type [skip ci] ([b029c40](https://github.com/openupm/openupm/commit/b029c402b9d48f2a0dd3b6b330afafe043569cff))
+* **website:** use aggregate media ([fed266c](https://github.com/openupm/openupm/commit/fed266c762d1377de289dd03d6a912a4bd306c61))
+
+## [1.40.3](https://github.com/openupm/openupm/compare/1.40.2...1.40.3) (2020-11-14)
+
+
+### Bug Fixes
+
+* tweak sponsor display ([5e759eb](https://github.com/openupm/openupm/commit/5e759eb8319dbd9c54234a1a3197d83821a434cd))
+
+## [1.40.2](https://github.com/openupm/openupm/compare/1.40.1...1.40.2) (2020-11-10)
+
+
+### Bug Fixes
+
+* **pipelines:** pm2-build typo [skip ci] ([acbb837](https://github.com/openupm/openupm/commit/acbb8377583d2e30bb95c1c0cbd255fd4cb96aca))
+* **pipelines:** sort package related jobs by -mtime ([e1bfc36](https://github.com/openupm/openupm/commit/e1bfc36c699a0e1dd73cbe62707a4ed1198f027b))
+
+## [1.40.1](https://github.com/openupm/openupm/compare/1.40.0...1.40.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* **pipelines:** add connection timeout to network jobs [skip ci] ([1f91b6d](https://github.com/openupm/openupm/commit/1f91b6d4d9396d04309715ff65011a123ad4a3de))
+
+# [1.40.0](https://github.com/openupm/openupm/compare/1.39.1...1.40.0) (2020-11-08)
+
+
+### Features
+
+* **i18n:** add Chinese website (refs [#1581](https://github.com/openupm/openupm/issues/1581)) ([7d5ab49](https://github.com/openupm/openupm/commit/7d5ab492e33922e393434df215795bc54bc39092))
+
+## [1.39.1](https://github.com/openupm/openupm/compare/1.39.0...1.39.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* **pipelines:** add error code PackageJsonParsingError ([01c9857](https://github.com/openupm/openupm/commit/01c98576c0a30faf7360cd5ef06dbc233a3378bd))
+* **pipelines:** handle ETIMEOUT for the build-release job ([530705a](https://github.com/openupm/openupm/commit/530705af683e132b4a83a1d269a675c3723f5c92))
+
+# [1.39.0](https://github.com/openupm/openupm/compare/1.38.0...1.39.0) (2020-10-11)
+
+
+### Features
+
+* **website:** remember sort-by option value for the package list ([52e6a15](https://github.com/openupm/openupm/commit/52e6a15b6c38d72ca3b412c16adbd68fd63e32dd))
+
+# [1.38.0](https://github.com/openupm/openupm/compare/1.37.10...1.38.0) (2020-10-03)
+
+
+### Features
+
+* **website:** integrate nprogress bar to network activity ([029b86f](https://github.com/openupm/openupm/commit/029b86f96155b28917e1dc13b4137932d94fa3bc))
+
+## [1.37.10](https://github.com/openupm/openupm/compare/1.37.9...1.37.10) (2020-10-03)
+
+
+### Bug Fixes
+
+* **pipelines:** prefer annotated tag over lightweight tag. ([9233d3e](https://github.com/openupm/openupm/commit/9233d3ee9ea5861a11ed8546dcbaab67020994a2))
+
+## [1.37.9](https://github.com/openupm/openupm/compare/1.37.8...1.37.9) (2020-10-02)
+
+
+### Bug Fixes
+
+* **website:** change applayout to use page mode for contentview ([0c0f43f](https://github.com/openupm/openupm/commit/0c0f43f4349e1996729d9d5357e793e5770143fd))
+
+## [1.37.8](https://github.com/openupm/openupm/compare/1.37.7...1.37.8) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** move installation info to an extra subpage of the package detail page on mobile ([53120ca](https://github.com/openupm/openupm/commit/53120ca39078696f2f2ea3a719954c4d12c22881))
+* **website:** recover parent owner on package card ([332cfe9](https://github.com/openupm/openupm/commit/332cfe98cdfee2c6b29026d5fe2f07ca6f049bd8))
+
+## [1.37.7](https://github.com/openupm/openupm/compare/1.37.6...1.37.7) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** switch back to OS scrollbar (close [#1396](https://github.com/openupm/openupm/issues/1396)) ([454592f](https://github.com/openupm/openupm/commit/454592f9139842ddc593341ae87f94193152e8ae))
+
+## [1.37.6](https://github.com/openupm/openupm/compare/1.37.5...1.37.6) (2020-10-01)
+
+
+### Bug Fixes
+
+* **website:** hydration error for package list and detail pages (close [#1383](https://github.com/openupm/openupm/issues/1383), the second try) ([92b04a0](https://github.com/openupm/openupm/commit/92b04a0dfc58ee49e733cd51cc3110a69feec04f))
+
+## [1.37.5](https://github.com/openupm/openupm/compare/1.37.4...1.37.5) (2020-09-30)
+
+
+### Bug Fixes
+
+* **website:** missing packages/index.html for SSR (close [#1383](https://github.com/openupm/openupm/issues/1383), refs [#1341](https://github.com/openupm/openupm/issues/1341)) ([7415424](https://github.com/openupm/openupm/commit/7415424a6c4667d07a781fc6769eba67a5fecef0))
+
+## [1.37.4](https://github.com/openupm/openupm/compare/1.37.3...1.37.4) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** detect ready-to-use package count issue ([20f5e60](https://github.com/openupm/openupm/commit/20f5e6008f40ef364024636745a0339686ebbda2))
+
+## [1.37.3](https://github.com/openupm/openupm/compare/1.37.2...1.37.3) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** pending package detection issue ([cce8dc5](https://github.com/openupm/openupm/commit/cce8dc5bcfe6d3c86e5b41aad3c6065071b90c89))
+
+## [1.37.2](https://github.com/openupm/openupm/compare/1.37.1...1.37.2) (2020-09-29)
+
+
+### Bug Fixes
+
+* **pipelines:** use pushed time when updated time is not available (refs [#1341](https://github.com/openupm/openupm/issues/1341)) ([ae73485](https://github.com/openupm/openupm/commit/ae73485cb737f24d67c992246055a08e0735231a))
+
+## [1.37.1](https://github.com/openupm/openupm/compare/1.37.0...1.37.1) (2020-09-29)
+
+
+### Bug Fixes
+
+* **website:** ads placement for app layout ([2787928](https://github.com/openupm/openupm/commit/2787928438341ab4df3a1aac405788cc9a68ac43))
+
+# [1.37.0](https://github.com/openupm/openupm/compare/1.36.0...1.37.0) (2020-09-29)
+
+
+### Features
+
+* **wesbite:** change package detail to app layout ([6086fcb](https://github.com/openupm/openupm/commit/6086fcbb9d4ce8a00620cd2ec17dd72f38142092))
+
+# [1.36.0](https://github.com/openupm/openupm/compare/1.35.0...1.36.0) (2020-09-20)
+
+
+### Bug Fixes
+
+* **website:** passing correct element key for vue lister item rendering ([a90c435](https://github.com/openupm/openupm/commit/a90c4356203eb801ea1169dd34b9d212e0455d30))
+
+
+### Features
+
+* **website:** use lazy component for package card ([0f2bff1](https://github.com/openupm/openupm/commit/0f2bff172d060c9406aaae03176a56f98af7416c))
+* **website:** use lazy image for package card ([a03d94f](https://github.com/openupm/openupm/commit/a03d94fa9f881e96761d80894a76936d208bf2b3))
+* **website:** use lazy image for the contributor page ([b4a9b33](https://github.com/openupm/openupm/commit/b4a9b335e0b6e390436e2bcf2f69dbce11baf419))
+* change package list to app layout ([bdfbc9b](https://github.com/openupm/openupm/commit/bdfbc9b2742b2850370c20cd301067690c8a952f))
+
+# [1.35.0](https://github.com/openupm/openupm/compare/1.34.0...1.35.0) (2020-08-25)
+
+
+### Features
+
+* **website:** show GitHub stars count on the star button. ([61d7cc5](https://github.com/openupm/openupm/commit/61d7cc54d9bc0700501c18f2cf7af0c3fd0f7963))
+
+# [1.34.0](https://github.com/openupm/openupm/compare/1.33.0...1.34.0) (2020-08-24)
+
+
+### Features
+
+* **website:** flexsearch widget ([50977e0](https://github.com/openupm/openupm/commit/50977e0ea4c76712bacd3981eff5579e4848f491))
+
+# [1.33.0](https://github.com/openupm/openupm/compare/1.32.0...1.33.0) (2020-08-20)
+
+
+### Features
+
+* **pipelines:** add scopes to package extra data ([8f78c87](https://github.com/openupm/openupm/commit/8f78c8725628b630c288ec088daa4e18c768900a))
+* **website:** integrate with Needle's package installer ([2d90109](https://github.com/openupm/openupm/commit/2d90109ec3b32f991dd9b011f762ef0d1df2d771))
+
+# [1.32.0](https://github.com/openupm/openupm/compare/1.31.3...1.32.0) (2020-08-14)
+
+
+### Features
+
+* clickable avatars with GitHub URL ([#1211](https://github.com/openupm/openupm/issues/1211)) ([54395a8](https://github.com/openupm/openupm/commit/54395a804e0e66cc09f5af95768190479b2d5a08))
+
+## [1.31.3](https://github.com/openupm/openupm/compare/1.31.2...1.31.3) (2020-08-08)
+
+
+### Bug Fixes
+
+* **pipelines:** get undefined status bug ([8119b6e](https://github.com/openupm/openupm/commit/8119b6ed97ea6092605e86cbd6cb586501e3df58))
+
+## [1.31.2](https://github.com/openupm/openupm/compare/1.31.1...1.31.2) (2020-07-28)
+
+
+### Bug Fixes
+
+* **pipelines:** sort queue status output [skip ci] ([6cc4ffb](https://github.com/openupm/openupm/commit/6cc4ffb3edcdd7e1d396cc11dc1fa7bf15d03e2f))
+
+## [1.31.1](https://github.com/openupm/openupm/compare/1.31.0...1.31.1) (2020-07-24)
+
+
+### Bug Fixes
+
+* **pipelines:** add error code PackageNameInvalid ([b4d4ba0](https://github.com/openupm/openupm/commit/b4d4ba08b9fb0480f0370f04bcbd0b0fb076a3a9))
+
+# [1.31.0](https://github.com/openupm/openupm/compare/1.30.6...1.31.0) (2020-07-21)
+
+
+### Features
+
+* **website:** support GFM style emoji in README renderer ([72dec82](https://github.com/openupm/openupm/commit/72dec829a4ec5b1ba9beaf07b035ad4cea4ffff0))
+
+## [1.30.6](https://github.com/openupm/openupm/compare/1.30.5...1.30.6) (2020-07-19)
+
+
+### Bug Fixes
+
+* **website:** handle escaped character in markdown renderer (close: [#1112](https://github.com/openupm/openupm/issues/1112)) ([7eab41c](https://github.com/openupm/openupm/commit/7eab41caebbf8c11c9bed9a535b685e8fbce98a6))
+
+## [1.30.5](https://github.com/openupm/openupm/compare/1.30.4...1.30.5) (2020-06-21)
+
+
+### Bug Fixes
+
+* **website:** fix og:image ([25f675e](https://github.com/openupm/openupm/commit/25f675ed22bf1d6ae73027b6b91d37d775865a06))
+
+## [1.30.4](https://github.com/openupm/openupm/compare/1.30.3...1.30.4) (2020-06-21)
+
+
+### Bug Fixes
+
+* **pipelines:** fix pm2 configure ([c31a5fa](https://github.com/openupm/openupm/commit/c31a5faada34b63ebce46e014d426d04150e33f0))
+
+## [1.30.3](https://github.com/openupm/openupm/compare/1.30.2...1.30.3) (2020-06-21)
+
+
+### Performance Improvements
+
+* **website:** allow first request hit the cache ([36e7ab3](https://github.com/openupm/openupm/commit/36e7ab3f9ade699367d480ae92800cc1ce403f8c))
+
+## [1.30.2](https://github.com/openupm/openupm/compare/1.30.1...1.30.2) (2020-06-21)
+
+
+### Performance Improvements
+
+* **backend:** move readme rendering to backend ([4b45686](https://github.com/openupm/openupm/commit/4b456868d06ae91b9df7cfe14c6755625e85b64d))
+* **website:** optimize lodash and date-fns library sizes ([a53b2af](https://github.com/openupm/openupm/commit/a53b2af968a4a0fe0a1a64fbdca266124844c345))
+* **website:** remove flowchart plugin ([24321c2](https://github.com/openupm/openupm/commit/24321c2506486a767f9041f3d235fd1f454942c7))
+
+## [1.30.1](https://github.com/openupm/openupm/compare/1.30.0...1.30.1) (2020-06-20)
+
+
+### Performance Improvements
+
+* **website:** optimize relate packages to reduce the siteData.js size ([ba61f05](https://github.com/openupm/openupm/commit/ba61f0562b8fdeb8d3efd29761be4a508569f6dc))
+
+# [1.30.0](https://github.com/openupm/openupm/compare/1.29.1...1.30.0) (2020-06-08)
+
+
+### Features
+
+* **website:** code highlighting of package README (close: [#606](https://github.com/openupm/openupm/issues/606)) ([dcdb95b](https://github.com/openupm/openupm/commit/dcdb95b26ce01bfdbc1de1586e4246e80cded6ec))
+
+## [1.29.1](https://github.com/openupm/openupm/compare/1.29.0...1.29.1) (2020-06-07)
+
+
+### Bug Fixes
+
+* **pipelines:** minVersion should be parsed ([668dc18](https://github.com/openupm/openupm/commit/668dc1830d28fecaf42a7d21b38bb0aea4f56390))
+
+# [1.29.0](https://github.com/openupm/openupm/compare/1.28.0...1.29.0) (2020-05-23)
+
+
+### Features
+
+* **website:** remove parent stars from package detail page (close: [#525](https://github.com/openupm/openupm/issues/525)) ([865ee29](https://github.com/openupm/openupm/commit/865ee29df6891b633182713d344f692bc68b443f))
+
+# [1.28.0](https://github.com/openupm/openupm/compare/1.27.1...1.28.0) (2020-05-23)
+
+
+### Features
+
+* **website:** package-add form parses license from package.json ([2706a1f](https://github.com/openupm/openupm/commit/2706a1f001174879df443e8f9eab61a3c5fefaa1))
+
+## [1.27.1](https://github.com/openupm/openupm/compare/1.27.0...1.27.1) (2020-05-20)
+
+
+### Bug Fixes
+
+* **website:** improve UX for Git dependencies ([d68577c](https://github.com/openupm/openupm/commit/d68577c1a49deb47a98719d3b8f647200cfe56bc))
+
+# [1.27.0](https://github.com/openupm/openupm/compare/1.26.0...1.27.0) (2020-05-13)
+
+
+### Features
+
+* **website:** alert Git dependencies on package detail page (refs: [#426](https://github.com/openupm/openupm/issues/426)) ([4874027](https://github.com/openupm/openupm/commit/48740272d955942a7bfd2d031de3ce7b1a0d3a75))
+
+# [1.26.0](https://github.com/openupm/openupm/compare/1.25.1...1.26.0) (2020-05-12)
+
+
+### Features
+
+* **pipelines:** support minVersion field to filter Git tags ([3d314f7](https://github.com/openupm/openupm/commit/3d314f79c03581a51e1a7f097008cb76164c658f))
+
+## [1.25.1](https://github.com/openupm/openupm/compare/1.25.0...1.25.1) (2020-05-10)
+
+
+### Bug Fixes
+
+* **website:** pending state on the package detail page ([6d9a027](https://github.com/openupm/openupm/commit/6d9a027dbb262c89d434d5abafef8e32fb1093f3))
+
+# [1.25.0](https://github.com/openupm/openupm/compare/1.24.0...1.25.0) (2020-05-10)
+
+
+### Features
+
+* **website:** filter pending state on the package list page (refs [#277](https://github.com/openupm/openupm/issues/277)) ([bf8101b](https://github.com/openupm/openupm/commit/bf8101bd107a781f607b6add1a6dc047bc4ac2b2))
+
+# [1.24.0](https://github.com/openupm/openupm/compare/1.23.2...1.24.0) (2020-05-08)
+
+
+### Features
+
+* **website:** show pending state on package list page (close:  [#277](https://github.com/openupm/openupm/issues/277)) ([c3420d3](https://github.com/openupm/openupm/commit/c3420d31d8134593d1b824e4cbdebfa2027bf335))
+
+## [1.23.2](https://github.com/openupm/openupm/compare/1.23.1...1.23.2) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** exclude ignored or non-prefixed tags from invalid tags of the package detail page (close: [#90](https://github.com/openupm/openupm/issues/90)) ([8332f6b](https://github.com/openupm/openupm/commit/8332f6bd7737b0ffecb60d3f55fc7769e565dc8d))
+
+## [1.23.1](https://github.com/openupm/openupm/compare/1.23.0...1.23.1) (2020-05-05)
+
+
+### Bug Fixes
+
+* **website:** reimplement unity version filter of package list page (refs [#53](https://github.com/openupm/openupm/issues/53)) ([7396957](https://github.com/openupm/openupm/commit/73969570a8a8b4c336382d8d42f66992d81d759e))
+
+# [1.23.0](https://github.com/openupm/openupm/compare/1.22.1...1.23.0) (2020-05-04)
+
+
+### Features
+
+* **website:** choice README in package submission form (close [#91](https://github.com/openupm/openupm/issues/91)) ([e423ade](https://github.com/openupm/openupm/commit/e423ade83f85d4b987a9b5ce3f92dfd2b8acd5eb))
+
+## [1.22.1](https://github.com/openupm/openupm/compare/1.22.0...1.22.1) (2020-05-04)
+
+
+### Bug Fixes
+
+* **website:** fix readme image with absolute URL ([ce20410](https://github.com/openupm/openupm/commit/ce20410552c78194cfaf84f32101226e427a6aa5))
+
+# [1.22.0](https://github.com/openupm/openupm/compare/1.21.0...1.22.0) (2020-05-04)
+
+
+### Features
+
+* **website:** support README at any path ([#238](https://github.com/openupm/openupm/issues/238), [#91](https://github.com/openupm/openupm/issues/91)) ([d8fb7d5](https://github.com/openupm/openupm/commit/d8fb7d511d9c5eba5f7816c715ccbcd5aff55af8))
+
+# [1.21.0](https://github.com/openupm/openupm/compare/1.20.5...1.21.0) (2020-05-02)
+
+
+### Features
+
+* **website:** one-column for package lister view (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([87e417a](https://github.com/openupm/openupm/commit/87e417a91197e0e9c28fae777ac01d62cb900a86))
+
+## [1.20.5](https://github.com/openupm/openupm/compare/1.20.4...1.20.5) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** two-column filter for lister pages on mobile ([de75322](https://github.com/openupm/openupm/commit/de753227f6d10bad7727a682d05c73b9675e8c45))
+
+## [1.20.4](https://github.com/openupm/openupm/compare/1.20.3...1.20.4) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove duplicated unity version option on the package list page ([fba21cb](https://github.com/openupm/openupm/commit/fba21cb513fcd7f954db30c731dd8d86f7247e62))
+
+## [1.20.3](https://github.com/openupm/openupm/compare/1.20.2...1.20.3) (2020-05-01)
+
+
+### Bug Fixes
+
+* **website:** remove masonry layout for package cards (refs: [#227](https://github.com/openupm/openupm/issues/227)) ([a51bfe9](https://github.com/openupm/openupm/commit/a51bfe9a882e1b12335331861c029847c755bb16))
+
+## [1.20.2](https://github.com/openupm/openupm/compare/1.20.1...1.20.2) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** avoid link with target=_blank (close: [#228](https://github.com/openupm/openupm/issues/228)) ([a540e61](https://github.com/openupm/openupm/commit/a540e619e748e047230ee5d56bc2b05c4cb5cd26))
+
+## [1.20.1](https://github.com/openupm/openupm/compare/1.20.0...1.20.1) (2020-04-29)
+
+
+### Bug Fixes
+
+* **website:** feed redirect rules. ([e462a14](https://github.com/openupm/openupm/commit/e462a1481905ffcf5e6a4ee8f5671b9fa5fa3969))
+
+# [1.20.0](https://github.com/openupm/openupm/compare/1.19.1...1.20.0) (2020-04-29)
+
+
+### Features
+
+* package update feed (refs [#48](https://github.com/openupm/openupm/issues/48)) ([32b4991](https://github.com/openupm/openupm/commit/32b49918406b0a3fdbe95ab994b564468c7839ac))
+
+## [1.19.1](https://github.com/openupm/openupm/compare/1.19.0...1.19.1) (2020-04-26)
+
+
+### Bug Fixes
+
+* **pipelines:** support underscore prefix ([0e9865f](https://github.com/openupm/openupm/commit/0e9865f1c0ab1048341285f3892ed5291bb0ad89))
+
+# [1.19.0](https://github.com/openupm/openupm/compare/1.18.5...1.19.0) (2020-04-23)
+
+
+### Bug Fixes
+
+* **website:** duplicated unity list ([ad065e5](https://github.com/openupm/openupm/commit/ad065e5672348d379ac10c1c36b2e28d4c871b99))
+
+
+### Features
+
+* **website:** sort package by last update time ([b35d77a](https://github.com/openupm/openupm/commit/b35d77aa3116ad1a3c117947dd0b484088e72454))
+
+## [1.18.5](https://github.com/openupm/openupm/compare/1.18.4...1.18.5) (2020-04-02)
+
+
+### Bug Fixes
+
+* treat ReleaseReason.None as a retryable reason (close: [#137](https://github.com/openupm/openupm/issues/137)) ([9b372a2](https://github.com/openupm/openupm/commit/9b372a252a46b3409be4bdfb170fd73c824093cb))
+
 ## [1.18.4](https://github.com/openupm/openupm/compare/1.18.3...1.18.4) (2020-03-31)
 
 

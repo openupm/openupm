@@ -1,0 +1,19 @@
+name: com.baba-s.uni-android-intent
+displayName: UniAndroidIntent
+description: 【Unity】adb shell am start で Android アプリを起動した時に指定された引数を解析する機能
+repoUrl: 'https://github.com/baba-s/UniAndroidIntent'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/4cc9e1d67839d1c7070e6ff548b900f747ea9ebd/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303530322f32303139303530323138303333322e706e67
+readme: 'master:README.md'
+createdAt: 1591628667875
+displayName_zhCN: UniAndroidIntent
+description_zhCN: adb shell am start启动Android时指定解析指定参数的函数

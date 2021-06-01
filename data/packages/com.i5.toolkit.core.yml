@@ -1,0 +1,24 @@
+name: com.i5.toolkit.core
+displayName: i5 Toolkit for Unity
+description: >-
+  A collection of common tools and features which can be reused in Unity
+  projects
+repoUrl: 'https://github.com/rwth-acis/i5-Toolkit-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - testing
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/rwth-acis/i5-Toolkit-for-Unity/raw/59b5f5dd7cfc48fe3f0872ee38340901666771a7/Assets/i5%20Toolkit%20for%20Unity/Logo.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: i5 Unity工具包
+description_zhCN: 可以在Unity项目中重复使用的常用工具和功能的集合
+createdAt: 1608059621399

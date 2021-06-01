@@ -1,0 +1,19 @@
+name: com.intothedev.signals
+displayName: Signals
+description: Lightweight type-safe messaging system
+repoUrl: 'https://github.com/IntoTheDev/Signals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Signals信号
+description_zhCN: 轻便的类型安全的消息系统
+createdAt: 1608314083252

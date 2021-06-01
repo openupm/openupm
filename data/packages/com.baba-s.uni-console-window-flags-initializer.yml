@@ -1,0 +1,21 @@
+name: com.baba-s.uni-console-window-flags-initializer
+displayName: UniConsoleWindowFlagsInitializer
+description: >-
+  【Unity】Unity 起動時や再生時に Console ウィンドウの Clear on Play と Show Timestamp
+  をオンにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniConsoleWindowFlagsInitializer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79873658-5b13cc00-8422-11ea-85f1-c6f743330e8d.png
+readme: 'master:README.md'
+createdAt: 1591708339940
+displayName_zhCN: UniConsoleWindowFlagsInitializer
+description_zhCN: 在程序开始和结束后记录用时，并清除控制台

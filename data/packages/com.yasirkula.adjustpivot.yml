@@ -1,0 +1,22 @@
+name: com.yasirkula.adjustpivot
+displayName: Adjust Pivot
+description: >-
+  Adjust pivot point of an object in Unity without creating an empty parent
+  object
+repoUrl: 'https://github.com/yasirkula/UnityAdjustPivot'
+parentRepoUrl: null
+licenseSpdxId: 0BSD
+licenseName: BSD Zero Clause License
+topics:
+  - modeling
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityAdjustPivot/raw/413df4e2c0cd913513e1e181919c307f71263088/.github/Images/screenshot.png
+readme: 'master:.github/README.md'
+createdAt: 1589512971322
+displayName_zhCN: 调整Pivot
+description_zhCN: 在Unity中调整对象的Pivot点而无需创建空的父对象

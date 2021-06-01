@@ -1,0 +1,18 @@
+name: com.baba-s.uni-editor-prefs-value
+displayName: UniEditorPrefsValue
+description: null
+repoUrl: 'https://github.com/baba-s/UniEditorPrefsValue'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601841073522
+displayName_zhCN: UniEditorPrefsValue

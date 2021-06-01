@@ -1,0 +1,21 @@
+name: com.yasirkula.runtimetexture
+displayName: Runtime Texture
+description: >-
+  An abstraction layer on top of Texture2D.LoadImage to create Texture2D objects
+  at runtime from raw PNG/JPEG data in Unity
+repoUrl: 'https://github.com/yasirkula/UnityRuntimeTexture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - sprite-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityRuntimeTexture/raw/1860aa4291a46c3c5f84f93470cf62ad49386ecf/.github/Images/RuntimeTextureInspector.png
+readme: 'master:.github/README.md'
+createdAt: 1589513948060
+displayName_zhCN: 运行时贴图
+description_zhCN: Texture2D.LoadImage之上的抽象层，可在运行时从Unity中的原始PNG/JPEG数据创建Texture2D对象

@@ -1,0 +1,18 @@
+name: com.activ.prolog
+displayName: Prolog
+description: Automated Logger and Interactive Console for Unity 3D
+repoUrl: 'https://github.com/active-logic/prolog'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Fair Source License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/active-logic/Media/master/Prolog/Prolog.png'
+readme: 'master:README.md'
+createdAt: 1589307753843
+displayName_zhCN: Prolog
+description_zhCN: Unity3D的自动日志和交互式控制台

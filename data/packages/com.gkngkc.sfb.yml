@@ -1,0 +1,19 @@
+name: com.gkngkc.sfb
+displayName: Standalone File Browser
+description: A native file browser for unity standalone platforms.
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/UnityStandaloneFileBrowser'
+parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615821207417

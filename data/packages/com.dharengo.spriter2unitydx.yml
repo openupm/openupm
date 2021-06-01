@@ -1,0 +1,21 @@
+name: com.dharengo.spriter2unitydx
+displayName: Spriter2UnityDXs
+description: Converts Spriter .scml files to Unity prefabs
+repoUrl: 'https://github.com/HyagoOliveira/Spriter2UnityDX'
+parentRepoUrl: 'https://github.com/Dharengo/Spriter2UnityDX'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - asset-management
+  - integration
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'feature/create-package:README.md'
+createdAt: 1593740019680
+displayName_zhCN: Spriter2UnityDXs
+description_zhCN: 将Spriter .scml文件转换为Unity prefabs

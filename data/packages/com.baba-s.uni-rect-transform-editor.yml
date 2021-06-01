@@ -1,0 +1,20 @@
+name: com.baba-s.uni-rect-transform-editor
+displayName: UniRectTransformEditor
+description: 【Unity】RectTransform の Inspector にリセット、フィット、四捨五入、AddComponent のボタンを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniRectTransformEditor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/80092616-0ac17900-859e-11ea-85f5-3c4b25ee75dc.png
+readme: 'master:README.md'
+createdAt: 1591672021991
+displayName_zhCN: UniRectTransformEditor
+description_zhCN: 为RectRansform提供额外的功能扩展

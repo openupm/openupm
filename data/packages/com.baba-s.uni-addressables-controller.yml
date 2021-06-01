@@ -1,0 +1,18 @@
+name: com.baba-s.uni-addressables-controller
+displayName: UniAddressablesController
+description: 【Unity】Addressables をラップしてエラーハンドリングを充実化したパッケージ
+repoUrl: 'https://github.com/baba-s/UniAddressablesController'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602441063357
+displayName_zhCN: UniAddressablesController
+description_zhCN: Unity可寻址资源打包和增强错误处理

@@ -1,0 +1,28 @@
+name: com.alelievr.mixture
+displayName: Mixture
+description: >-
+  Mixture is a powerful node-based tool crafted in unity to generate all kinds
+  of textures in realtime. Mixture is very flexible, easily customizable through
+  ShaderGraph and a simple C# API, fast with it's GPU based workflow and
+  compatible with all the render pipelines
+repoUrl: 'https://github.com/alelievr/Mixture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - frameworks
+  - particles-and-effects
+  - procedural-generation
+  - visual-scripting
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/alelievr/Mixture/raw/dc5f0aaa5200a3a36c82756439298e2fce71eb9c/docs/docfx/images/MixtureOpen.gif
+readme: 'master:README.md'
+createdAt: 1604870384480
+displayName_zhCN: Mixture混合器
+description_zhCN: >-
+  Mixture混合器是一个强大的基于节点的工具，用于Unity中实时生成各种贴图。混合物非常灵活，可通过Shadergraph和简单的C# API轻松定制，使用基于GPU的工作流程并与所有渲染管线兼容。

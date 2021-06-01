@@ -1,0 +1,19 @@
+name: com.deml.netcore-networking
+displayName: Net Core Networking Sockets
+description: NetCoreServer Client implementation for Unity
+repoUrl: 'https://github.com/JohannesDeml/Unity-Net-Core-Networking-Sockets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.2
+image: >-
+  https://github.com/JohannesDeml/Unity-Net-Core-Networking-Sockets/raw/dff11324720a2c6b9e67fab5157eb5cf7ac78eb0/Docs/preview.png
+readme: 'master:README.md'
+createdAt: 1597225739508
+displayName_zhCN: Net Core网络Sockets
+description_zhCN: NetCoreServer客户端的Unity实现

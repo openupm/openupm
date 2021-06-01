@@ -1,0 +1,18 @@
+name: com.stansassets.facebook
+displayName: Stans Assets - Facebook
+description: Open source product that contains extended access to Facebook API.
+repoUrl: 'https://github.com/StansAssets/com.stansassets.facebook'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+hunter: stan-osipov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602427764438
+displayName_zhCN: Stans资源 - Facebook
+description_zhCN: 包含扩展访问Facebook API的开源产品。

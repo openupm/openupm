@@ -1,0 +1,18 @@
+name: com.codewriter.stylecomponents
+displayName: Style Components
+description: Library for styling game objects in Unity
+repoUrl: 'https://github.com/codewriter-packages/Style-Components'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601840916032
+displayName_zhCN: Style组件
+description_zhCN: Style组件

@@ -1,0 +1,18 @@
+name: com.gameframe.scriptableobjects
+displayName: Gameframe.ScriptableObjects
+description: Library of scriptable object types for Unity.
+repoUrl: 'https://github.com/coryleach/UnityScriptableObjects'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591563025856
+displayName_zhCN: Gameframe.ScriptableObjects
+description_zhCN: Unity的ScriptableObjects类型库。

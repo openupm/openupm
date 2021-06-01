@@ -1,0 +1,19 @@
+name: net.ixxy.vfxgraph-extras
+displayName: Ixxy Visual Effect Graph (Extras)
+description: Additional Draft tools for VisualEffectGraph
+repoUrl: 'https://github.com/IxxyXR/net.ixxy.vfxgraph-extras'
+parentRepoUrl: 'https://github.com/peeweek/net.peeweek.vfxgraph-extras'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603935896435
+displayName_zhCN: Ixxy视觉效果图（额外）
+description_zhCN: VisualEffectGraph的附加的草稿工具

@@ -6,7 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
-hunter: 'hajimeku'
+  - utilities
+hunter: hajimeku
 gitTagIgnore: ''
 createdAt: 1579204426842
+displayName_zhCN: 服务定位器

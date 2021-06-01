@@ -7,11 +7,15 @@ showFooter: false
 
 ## UPM Package Criteria
 
-OpenUPM requires the package repository fulfils below criteria
-- Valid UPM structure, contains at least the `package.json` file, can be placed at a sub-folder.
-- Open source license. It is recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
-- Hosting on Github.
-- Git tags that are valid semver. i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. Only valid tags are built. It is recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) feature, or [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create git tags.
+OpenUPM requires the package fulfills the below criteria:
+- The package name should conform to the [Unity Package Manager naming convention](https://docs.unity3d.com/Manual/cus-naming.html)
+- The package should comply with [Unity Terms](https://unity3d.com/legal/terms-of-service/software) and [Package Guidelines](https://unity3d.com/legal/terms-of-service/software/package-guidelines).
+- The package should be tested to make sure it works as expected.
+- The `package.json` could be placed at the root path or under a sub-folder.
+- The package should use an open-source license. It's recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
+- The package should be hosted on Github.
+- The package should contain versioned Git tags using [semantic versioning (semver)](https://semver.org/). i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. It's recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) page, or the [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create versioned Git tags.
+- The package size should be less than 500MB.
 
 ## Understanding Different Folder Structures of UPM Repositories
 
@@ -27,15 +31,15 @@ The `package.json` file is located at the root path of the master branch. It is 
 
 ### UPM Package at a Sub-folder
 
-The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. Git tags are based on the master branch. Build pipelines will detect the location of the `package.json` file, and handle it correctly.
+The master branch is usually a Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. Git tags are based on the master branch. Build pipelines will detect the location of the `package.json` file, and handle it correctly.
 
 ### UPM Package at a Sub-folder with UPM Branch
 
-The master branch is usually an Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. An `upm` branch is created from the package folder using the `git subtree split/push` command to make the `package.json` file placed at the root path. So the package can be installed by Unity Package Manager via git url. Git tags are based on the upm branch.
+The master branch is usually a Unity project (with Assets folder). The `package.json` file is located at a sub-folder, for example `Assets/package-name` or `Packages/com.namespace.package-name`. A `upm` branch is created from the package folder using the `git subtree split/push` command to make the `package.json` file placed at the root path. So the package can be installed by Unity Package Manager via Git URL. Git tags are based on the upm branch.
 
 ## Package YAML File
 
-OpenUPM uses a yaml file to store the package information. Here's an example.
+OpenUPM uses a YAML file to store the package information. Here's an example.
 
 ```yaml
 # package name
@@ -54,33 +58,36 @@ licenseSpdxId: MIT
 licenseName: MIT License
 # list of topic slugs
 topics:
-  - library
-# Filter git tags based on prefix. Used by monorepos to separate pacakges
+  - utilities
+# Filter Git tags based on prefix. Used by monorepos to separate pacakges
 gitTagPrefix: ''
-# A regular expression to ignore git tags
+# A regular expression to ignore Git tags
 gitTagIgnore: '-master$'
+# Minimal version to build
+minVersion: '1.0.5'
 # featured image
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
+# featured image fit mode: cover (default) or contain
+imageFit: cover
+# readme path
+readme: 'master:README.md'
 # package hunter name (github username)
 hunter: author
 ```
 
 ## Using Package Add Form
 
-Package hunters can use the [package add form](/packages/add/), to submit the package yaml file. The form will guide you to fill required information, generate the yaml file, then submit to GitHub as pull request in the browser.
+Package hunters can use the [package add form](/packages/add/), to submit the package YAML file. The form will guide you to fill the required information, generate the YAML file, then submit to GitHub as a pull request in the browser.
 
 [![package add form](./images/package-add-form.png)](/packages/add/)
 
-The pull request of adding new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at url `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
+The pull request of adding a new package will be merged automatically. The CI will do jobs to update the website and build pipelines. Within a few minutes you can view the package detail page at URL `/packages/com.namespace.package-name`, and check the build result from the **version history** and **build issues** sections.
 
-@flowstart
-form=>operation: Fill the package form
-pr=>operation: Start a pull request
-ci=>operation: Wait the CI
-
-form->pr
-pr->ci
-@flowend
+```
++--------------+      +--------------+      +---------+
+| Package Form | +--> | Pull Request | +--> | Wait CI |
++--------------+      +--------------+      +---------+
+```
 
 ## Troubleshooting
 
@@ -96,26 +103,33 @@ A repository may contain duplicated version tags. Likely created by CI tools, on
 - `1.0.0` and `1.1.0-upm`
 - `1.0.0-master` and `1.1.0-upm`
 
-In such case the tag from the upm branch takes higher priority, another one is ignored.
+In such cases the tag from the upm branch takes higher priority, another one is ignored.
 
 ### Handling Failed Builds
 
-You can check the failed reason at the build issues section on the package detail page. The most common issue is *version conflict*, means a package with with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
+You can check the failed reason at the build pipelines section on the package detail page. The most common issue is *version conflict/version exists*, means a package with the same version is already published. The package owner need bump the version with a new GitHub release, or re-tag the existing release. Build pipelines will re-build failed releases if detecting that the related git tag was removed or re-tagged.
 
-However, build pipelines will not rebuild a already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the packager owner is recommended to bump the version with a new git tag. For the rare case, please [create an issue](https://github.com/openupm/openupm/issues) for unpublishing.
+However, build pipelines will not rebuild an already succeeded release if detecting that the git tag is removed or retagged. Because it's a bad practice for talking off or replacing an existing release for a public registry. If the intention is to fix something, the package owner is recommended to bump the version with a new git tag. Learn more at [modifying or deleting a published version](modifying-upm-package.md#modifying-or-deleting-a-published-version).
 
 ### Handling Monorepos
 
 Monorepos preset multiple packages in a single repository. Usually layout as below,
 
 ```
-Packages
-  namespace.a
+Packages/
+  com.namespace.foo/
     package.json
-  namespace.b
+  com.namespace.bar/
     package.json
 ```
 
 For monorepos, multiple package submissions are required. You need submit packages one by one to the OpenUPM platform. Then there're two cases,
 - If you make a single Github release for each new version, it will just works. Our build pipelines will treat each package submission separately, and locate the relevant package.json to process.
-- If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `namespace.a/1.0.0` and `namespace.b/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `namespace.a` should have `gitTagPrefix: "namespace.a/"`, to avoid wasting resources of build pipelines.
+- If you make separate GitHub releases for each new version, you need use a git tag prefix for each package. i.e `com.namespace.bar/1.0.0` and `com.namespace.foo/1.0.0`. Then fill the `gitTagPrefix` field of the package YAML file. i.e package `com.namespace.bar` should have `gitTagPrefix: "com.namespace.bar/"`, to avoid wasting resources of build pipelines.
+
+### Handling Custom Build-Pipelines
+
+OpenUPM doesn't support custom build-pipelines. As a workaround, we suggest leaving the work to CI like GitHub Actions.
+
+- For minimal customizations like moving the sample folder, you can build the content into a upm branch (a build branch), then tag the upm branch as a versioned Git tag for OpenUPM to consume.
+- For deeper customizations like building DLLS you can push build content into another (build) repository, then submit that build repository to OpenUPM.

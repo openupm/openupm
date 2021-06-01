@@ -1,0 +1,17 @@
+name: com.nextleveldev.sdk
+displayName: NextLevel Dev SDK
+description: null
+repoUrl: 'https://github.com/karlobencic/nextlevel-dev-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: karlobencic
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592941219797
+displayName_zhCN: NextLevel开发SDK

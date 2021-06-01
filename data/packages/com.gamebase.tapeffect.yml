@@ -1,0 +1,18 @@
+name: com.gamebase.tapeffect
+displayName: Gamebase-TapEffect
+description: null
+repoUrl: 'https://github.com/hiyorin/Gamebase-TapEffect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591736024220
+displayName_zhCN: Gamebase-点击效果

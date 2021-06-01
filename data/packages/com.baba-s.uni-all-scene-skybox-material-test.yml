@@ -1,0 +1,18 @@
+name: com.baba-s.uni-all-scene-skybox-material-test
+displayName: UniAllSceneSkyboxMaterialTest
+description: null
+repoUrl: 'https://github.com/baba-s/UniAllSceneSkyboxMaterialTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601165588422
+displayName_zhCN: UniAllSceneSkyboxMaterialTest
+description_zhCN: Unity全场景Skybox材质测试

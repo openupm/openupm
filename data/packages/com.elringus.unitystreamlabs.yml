@@ -1,0 +1,20 @@
+name: com.elringus.unitystreamlabs
+displayName: UnityStreamlabs
+description: Streamlabs client for Unity game engine
+repoUrl: 'https://github.com/Elringus/UnityStreamlabs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/58cfd05b6725df3123fe8dff6f2e010a6f2c2a1e/68747470733a2f2f692e6779617a6f2e636f6d2f66353038666365353832343731303837346430373161633632386537666133332e706e67
+readme: 'master:README.md'
+createdAt: 1594577088835
+displayName_zhCN: UnityStreamlabs
+description_zhCN: Unity游戏引擎的Streamlabs客户端

@@ -1,0 +1,17 @@
+name: com.nition.unity-octree
+displayName: UnityOctree
+description: 'A dynamic, loose octree implementation for Unity written in C#'
+repoUrl: 'https://github.com/UnityPackages/UnityOctree'
+parentRepoUrl: 'https://github.com/Nition/UnityOctree'
+licenseSpdxId: BSD-2-Clause
+licenseName: BSD 2-Clause "Simplified" License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1589058387077
+displayName_zhCN: UnityOctree
+description_zhCN: 用C#编写的Unity动态，松散八叉树实现

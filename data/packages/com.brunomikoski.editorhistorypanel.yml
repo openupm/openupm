@@ -1,0 +1,19 @@
+name: com.brunomikoski.editorhistorypanel
+displayName: Unity Editor History Panel
+description: Photoshop Like History panel with shortcut navigation
+repoUrl: 'https://github.com/brunomikoski/UnityHistoryPanel'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596060133210
+displayName_zhCN: Unity编辑器历史面板
+description_zhCN: 类似Photoshop的历史面板，带有快捷导航

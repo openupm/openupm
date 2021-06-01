@@ -1,0 +1,20 @@
+name: com.worldreaver.oren
+displayName: Oren
+description: light framework for Unity 3D
+repoUrl: 'https://github.com/yenmoc/oren'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Oren
+description_zhCN: Unity 3D的轻量级框架
+createdAt: 1609088371925

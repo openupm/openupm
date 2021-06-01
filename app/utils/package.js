@@ -6,8 +6,10 @@ const util = require("util");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 
+const { isValidPackageName, validPackageName } = require("../common/utils");
 const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
+const writeFile = util.promisify(fs.writeFile);
 
 // Paths.
 const dataDir = path.resolve(__dirname, "../../data");
@@ -35,6 +37,28 @@ const loadPackage = async function(name) {
   }
 };
 
+// Load raw package by name.
+const loadRawPackage = async function(name) {
+  try {
+    let absPath = path.resolve(packagesDir, name + ".yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8"));
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+};
+
+// Save raw package by name.
+const saveRawPackage = async function(name, obj) {
+  try {
+    let absPath = path.resolve(packagesDir, name + ".yml");
+    const content = yaml.safeDump(obj);
+    await writeFile(absPath, content);
+  } catch (e) {
+    console.error(e);
+  }
+};
+
 // Load package by name (sync version).
 const loadPackageSync = function(name) {
   try {
@@ -47,8 +71,21 @@ const loadPackageSync = function(name) {
 };
 
 // Load package names.
-const loadPackageNames = async function() {
+const loadPackageNames = async function(options) {
+  const { sortBy } = options || {};
   let files = await readdir(packagesDir);
+  // Sort
+  if (sortBy == "mtime" || sortBy == "-mtime") {
+    files.sort(function(a, b) {
+      return (
+        fs.statSync(path.join(packagesDir, a)).mtime.getTime() -
+        fs.statSync(path.join(packagesDir, b)).mtime.getTime()
+      );
+    });
+  } else if (sortBy == "name" || sortBy == "-name") {
+    files.sort();
+  }
+  if (sortBy && sortBy.startsWith("-")) files.reverse();
   // Find paths with *.ya?ml ext.
   return files
     .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)
@@ -60,6 +97,17 @@ const loadBuiltinPackageNames = async function() {
   try {
     let absPath = path.resolve(dataDir, "builtin.yml");
     return yaml.safeLoad(await readFile(absPath, "utf8")).packages;
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
+};
+
+// Load blocked scopes.
+const loadBlockedScopes = async function() {
+  try {
+    let absPath = path.resolve(dataDir, "blocked-scopes.yml");
+    return yaml.safeLoad(await readFile(absPath, "utf8")).scopes;
   } catch (e) {
     console.error(e);
     return [];
@@ -89,17 +137,12 @@ const preparePackage = function(doc) {
   // owner
   doc.owner = ghUrl.owner;
   doc.ownerUrl = `https://${ghUrl.hostname}/${ghUrl.owner}`;
-  doc.ownerAvatarUrl = doc.ownerUrl.toLowerCase().includes("github")
-    ? `https://${ghUrl.hostname}/${ghUrl.owner}.png`
-    : null;
   // hunter
   if (doc.hunter) {
     doc.hunterUrl = `https://${ghUrl.hostname}/${doc.hunter}`;
-    doc.hunterAvatarUrl = `https://${ghUrl.hostname}/${doc.hunter}.png`;
   } else {
     doc.hunter = "-";
     doc.hunterUrl = null;
-    doc.hunterAvatarUrl = null;
   }
   // license
   if (doc.licenseSpdxId && spdx[doc.licenseSpdxId])
@@ -113,10 +156,19 @@ const preparePackage = function(doc) {
   doc.parentOwnerUrl = parentGHUrl
     ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}`
     : null;
-  doc.parentOwnerAvatarUrl =
-    doc.parentOwnerUrl && doc.parentOwnerUrl.toLowerCase().includes("github")
-      ? `https://${parentGHUrl.hostname}/${parentGHUrl.owner}.png`
-      : null;
+  // readme
+  if (!doc.readme) {
+    doc.readme = "master:README.md";
+  }
+  doc.readme = doc.readme.trim();
+  if (doc.readme.indexOf(":") == -1) {
+    doc.readme = "master:" + doc.readme;
+  }
+  const [readmeBranch, readmePath] = doc.readme.split(":");
+  const dirname = path.dirname(readmePath);
+  doc.readmeBranch = readmeBranch;
+  doc.readmeBase =
+    dirname == "." ? readmeBranch : [readmeBranch, dirname].join("/");
   return doc;
 };
 
@@ -133,8 +185,15 @@ module.exports = {
   getNamespace,
   loadTopics,
   loadPackage,
+  loadRawPackage,
   loadPackageSync,
   loadPackageNames,
   loadBuiltinPackageNames,
-  packageExists
+  loadBlockedScopes,
+  isValidPackageName,
+
+  packageExists,
+  packagesDir,
+  saveRawPackage,
+  validPackageName
 };

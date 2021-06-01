@@ -1,0 +1,18 @@
+name: com.adrenak.unimic
+displayName: UniMic
+description: A wrapper for Unity's Microphone class.
+repoUrl: 'https://github.com/adrenak/unimic'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598550410647
+displayName_zhCN: UniMic
+description_zhCN: Unity麦克风的包装类

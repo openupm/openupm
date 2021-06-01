@@ -1,0 +1,20 @@
+name: com.baba-s.uni-not-null-checker
+displayName: UniNotNullChecker
+description: 【Unity】Inspector で参照が設定されていない NotNull なパラメータが存在したら Unity を再生できなくするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniNotNullChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81050795-95d63380-8efb-11ea-92c0-12ae2874f184.gif
+readme: 'master:README.md'
+createdAt: 1591649504704
+displayName_zhCN: UniNotNullChecker
+description_zhCN: 如果inspector内含有不满足额NotNull约束则禁止进入Play模式

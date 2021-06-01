@@ -1,0 +1,20 @@
+name: com.ixxy.polyhydra
+displayName: Polyhydra
+description: Procedural generation of geometric forms in Unity.
+repoUrl: 'https://github.com/IxxyXR/polyhydra-upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IxxyXR/polyhydra-upm/raw/d4cc8240b3166f4c0d7a005f073e3989766e3b2b/Packages/Polyhydra/com.ixxy.polyhydra/Unity%20Octree/octree-visualisation.jpg
+readme: 'upm:README.md'
+createdAt: 1603810006228
+displayName_zhCN: Polyhydra
+description_zhCN: Unity中几何形状的过程生成。

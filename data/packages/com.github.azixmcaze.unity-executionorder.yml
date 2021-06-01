@@ -1,0 +1,19 @@
+name: com.github.azixmcaze.unity-executionorder
+displayName: Unity Script Execution Order
+description: >-
+  A collection of attributes to control the execution order of your scripts in
+  Unity from your source code.
+repoUrl: 'https://github.com/vicuriousmo/Unity-ExecutionOrder'
+parentRepoUrl: 'https://github.com/azixMcAze/Unity-ExecutionOrder'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589044150617
+displayName_zhCN: Unity脚本执行顺序
+description_zhCN: 从源代码中控制脚本的执行顺序的属性集合。

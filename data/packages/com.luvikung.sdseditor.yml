@@ -1,0 +1,22 @@
+name: com.luvikung.sdseditor
+displayName: Script Define Symbols Editor
+description: >-
+  Script Define Symbols Editor is an Unity Editor Window that able to manage
+  script define symbols per build.
+repoUrl: 'https://github.com/LuviKunG/ScriptDefineSymbolsEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/ScriptDefineSymbolsEditor/raw/855823b98022e526386e4f388797dff50fad981f/images/preview.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614100809112

@@ -1,0 +1,20 @@
+name: net.tnrd.unitysteer
+displayName: Unity Steer
+description: >-
+  Steering, obstacle avoidance and path following behaviors for the Unity Game
+  Engine
+repoUrl: 'https://github.com/Thundernerd/UnitySteer'
+parentRepoUrl: 'https://github.com/ricardojmendez/UnitySteer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1605782682388
+displayName_zhCN: Unity转向装置
+description_zhCN: Unity游戏引擎的转向装置，避障和路径跟随行为

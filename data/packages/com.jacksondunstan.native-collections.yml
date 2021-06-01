@@ -1,0 +1,19 @@
+name: com.jacksondunstan.native-collections
+displayName: Native Collections
+description: Native Collection Types for Unity
+repoUrl: 'https://github.com/jacksondunstan/NativeCollections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591736099613
+displayName_zhCN: 原生集合
+description_zhCN: Unity的原生集合类型

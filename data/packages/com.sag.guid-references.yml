@@ -1,0 +1,25 @@
+name: com.sag.guid-references
+displayName: Guid References
+description: >-
+  Package for Unity that provides functionality for cross-scene references.
+  Inspired by https://github.com/Unity-Technologies/guid-based-reference.
+  Supports Unity Package Manager.
+repoUrl: 'https://github.com/STARasGAMES/Guid-References'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+  - level-design
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599684974679
+displayName_zhCN: 网格参考
+description_zhCN: >-
+  提供跨场景引用的功能。受https://github.com/Unity-Technologies/guid-based-reference的启发。支持Unity软件包管理器。

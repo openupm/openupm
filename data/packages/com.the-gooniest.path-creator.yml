@@ -1,0 +1,19 @@
+name: com.the-gooniest.path-creator
+displayName: Path Creator
+description: Path creation asset for Unity game development
+repoUrl: 'https://github.com/the-gooniest/Path-Creator'
+parentRepoUrl: 'https://github.com/mrpropellers/Path-Creator'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/9fe54f8c7400e16584ebd2462a1029825bfed7f2/68747470733a2f2f692e696d6775722e636f6d2f787154434e574b2e706e67
+readme: 'master:README.md'
+createdAt: 1594265374223
+displayName_zhCN: 路径创建器
+description_zhCN: Unity游戏开发的路径创建资源

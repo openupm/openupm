@@ -1,0 +1,20 @@
+name: com.macacagames.docgenerator
+displayName: Macaca Doc Generator
+description: A helper to make docfx based document in Unity3D
+repoUrl: 'https://github.com/MacacaGames/UnityDocGenerator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/MacacaGames/UnityDocGenerator/raw/571b93995012c76b02e862e26da8fe669b1a1cf0/docs/Img/03.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Macaca 文档生成器
+description_zhCN: 在Unity3D中制作基于docfx的文档的助手
+createdAt: 1611255241375

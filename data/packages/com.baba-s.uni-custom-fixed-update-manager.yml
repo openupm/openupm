@@ -1,0 +1,17 @@
+name: com.baba-s.uni-custom-fixed-update-manager
+displayName: UniCustomFixedUpdateManager
+description: null
+repoUrl: 'https://github.com/baba-s/UniCustomFixedUpdateManager'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600543856859
+displayName_zhCN: UniCustomFixedUpdateManager

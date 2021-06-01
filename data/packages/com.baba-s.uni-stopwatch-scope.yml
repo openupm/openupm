@@ -1,0 +1,19 @@
+name: com.baba-s.uni-stopwatch-scope
+displayName: UniStopwatchScope
+description: 【Unity】経過時間を計測するクラス
+repoUrl: 'https://github.com/baba-s/UniStopwatchScope'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591709389942
+displayName_zhCN: UniStopwatchScope
+description_zhCN: 计量时间的Scope

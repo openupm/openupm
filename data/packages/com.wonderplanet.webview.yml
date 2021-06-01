@@ -1,0 +1,22 @@
+name: com.wonderplanet.webview
+displayName: UnityWebview
+description: >-
+  unity-webview is a plugin for Unity 5 that overlays WebView components on
+  Unity view.
+repoUrl: 'https://github.com/Wonderplanet/unity-webview'
+parentRepoUrl: 'https://github.com/gree/unity-webview'
+licenseSpdxId: Zlib
+licenseName: zlib License
+topics:
+  - gui
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'staging/upm:README.md'
+createdAt: 1592171802107
+displayName_zhCN: UnityWebview
+description_zhCN: unity-webview是Unity 5的插件，可在Unity视图上覆盖WebView组件。

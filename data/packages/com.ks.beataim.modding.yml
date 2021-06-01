@@ -1,0 +1,18 @@
+name: com.ks.beataim.modding
+displayName: BeatAim Modding
+description: 'https://beataim.com/'
+repoUrl: 'https://github.com/kamyker/BeatAim-Modding-Package'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://beataim.com/imgs/beataim.jpg'
+readme: 'master:README.md'
+createdAt: 1594005145894
+displayName_zhCN: BeatAim Modding
+description_zhCN: 'https://beataim.com/'

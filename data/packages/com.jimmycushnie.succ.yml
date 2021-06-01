@@ -1,0 +1,19 @@
+name: com.jimmycushnie.succ
+displayName: SUCC
+description: Sexy and Utilitarian Code Configuration
+repoUrl: 'https://github.com/JimmyCushnie/SUCC'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/JimmyCushnie/SUCC/raw/c94d82620e29fa84d1c330aef65aaa30b790fe6c/Succ_Logo.png
+readme: 'unity:README.md'
+createdAt: 1589306927777
+displayName_zhCN: SUCC
+description_zhCN: 性感和强大的代码配置工具

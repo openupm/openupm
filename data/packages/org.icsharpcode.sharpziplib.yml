@@ -1,0 +1,22 @@
+name: org.icsharpcode.sharpziplib
+displayName: SharpZipLib
+description: >-
+  #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the
+  .NET platform.
+repoUrl: 'https://github.com/icsharpcode/SharpZipLib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: piksel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/icsharpcode/SharpZipLib/raw/6ffe3c1698e88315a418fc5b6f0d087d5553148a/assets/sharpziplib-nuget-256x256.png
+readme: 'upm:README.md'
+createdAt: 1605983604086
+displayName_zhCN: SharpZipLib
+description_zhCN: '#ziplib是一个完全用C#为.NET平台编写的Zip，GZip，Tar和BZip2库。'

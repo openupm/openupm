@@ -1,0 +1,20 @@
+name: com.worldreaver.snowflake
+displayName: Snowflake
+description: >-
+  Flake ID Generators is a set of decentralized, k-ordered id generation
+  services in C#.
+repoUrl: 'https://github.com/worldreaver/Snowflake'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589565975845
+displayName_zhCN: Snowflake
+description_zhCN: Flake ID 生成器是C#中的一组分散的，按k排序的id生成服务。

@@ -1,0 +1,22 @@
+name: com.vox.importer
+displayName: vox Importer
+description: >-
+  The vox importer is a importer of native MagicaVoxel format to unity as a set
+  of assets
+repoUrl: 'https://github.com/alerdenisov/com.vox.importer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/alerdenisov/com.vox.importer/raw/ffa534c019ec36ad7e9478b0ef8d0903317a166f/preview.png
+readme: 'master:README.md'
+createdAt: 1599585345924
+displayName_zhCN: vox导入器
+description_zhCN: Vox导入器是原生MagicaVoxel格式的导入器，可以Unity为一组资源

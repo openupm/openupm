@@ -1,0 +1,19 @@
+name: com.laicasaane.texttyper
+displayName: TextTyper
+description: Text typing effect for Unity uGUI Text components
+repoUrl: 'https://github.com/laicasaane/unity-text-typer'
+parentRepoUrl: 'https://github.com/redbluegames/unity-text-typer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 3.0.0
+image: >-
+  https://github.com/redbluegames/unity-text-typer/raw/master/README-Images/ss_chat_watermarked.gif
+readme: 'upm:README.md'
+createdAt: 1593237495295
+displayName_zhCN: TextTyper
+description_zhCN: Unity uGUI文本组件的文本键入效果

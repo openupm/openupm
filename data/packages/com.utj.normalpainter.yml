@@ -1,0 +1,20 @@
+name: com.utj.normalpainter
+displayName: NormalPainter
+description: vertex normal editor for Unity
+repoUrl: 'https://github.com/unity3d-jp/NormalPainter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - painting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/1488611/27468607-b3e9e4d0-5825-11e7-954d-fca1a7a50417.gif
+readme: 'master:Readme_EN.md'
+createdAt: 1593738891353
+displayName_zhCN: NormalPainter
+description_zhCN: Unity的顶点法线编辑器

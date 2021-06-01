@@ -1,0 +1,19 @@
+name: com.jtfrom9.input-observable
+displayName: Input Observable
+description: Input Handling Utility with UniRx
+repoUrl: 'https://github.com/jtfrom9/InputObservable'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - utilities
+hunter: jtfrom9
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602172885844
+displayName_zhCN: Input Observable
+description_zhCN: 使用UniRx的输入处理实用程序

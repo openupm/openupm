@@ -6,9 +6,12 @@ parentRepoUrl: 'https://github.com/minhdu/uiman'
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - library
+  - utilities
 hunter: grashaar
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'upm:README.md'
 createdAt: 1584522386377
+displayName_zhCN: UIMan
+description_zhCN: UIMan的Unity软件包仓库

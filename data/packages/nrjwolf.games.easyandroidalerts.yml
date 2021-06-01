@@ -1,0 +1,19 @@
+name: nrjwolf.games.easyandroidalerts
+displayName: Easy Android Native Alerts
+description: Create android native alerts
+repoUrl: 'https://github.com/Nrjwolf/unity-android-easy-native-alerts'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Nrjwolf/unity-android-easy-native-alerts/raw/8d39e5cd9aa06fced61b47ac8acf3d1269ada519/.github/images/screenshot.png
+readme: 'master:.github/README.md'
+createdAt: 1595862618899
+displayName_zhCN: 简单的Android原生警报
+description_zhCN: 创建Android原生警报

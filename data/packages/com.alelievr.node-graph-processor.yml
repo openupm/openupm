@@ -8,9 +8,12 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
+  - editor-enhancement
+  - utilities
 hunter: alelievr
 gitTagIgnore: ''
-image: https://user-images.githubusercontent.com/6877923/69500269-e469b580-0ef9-11ea-9c4b-f58e793f7ecd.gif
+image: >-
+  https://user-images.githubusercontent.com/6877923/69500269-e469b580-0ef9-11ea-9c4b-f58e793f7ecd.gif
 createdAt: 1580127761233
+displayName_zhCN: 节点图处理器
+description_zhCN: 节点图编辑器框架，专注于使用Unity UIElements和C#4.6进行数据处理

@@ -1,0 +1,19 @@
+name: com.ms.async
+displayName: Unity Async Awaiters
+description: Unity async/await framework
+repoUrl: 'https://github.com/wlgys8/MSAsync'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity Async Awaiters 异步等待
+description_zhCN: Unity async/await框架
+createdAt: 1607009876334

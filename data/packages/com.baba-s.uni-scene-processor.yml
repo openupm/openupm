@@ -1,0 +1,19 @@
+name: com.baba-s.uni-scene-processor
+displayName: UniSceneProcessor
+description: 【Unity】すべてのシーンに対して処理を行うクラス
+repoUrl: 'https://github.com/baba-s/UniSceneProcessor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - level-design
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601329093038
+displayName_zhCN: UniSceneProcessor
+description_zhCN: Unity场景处理器

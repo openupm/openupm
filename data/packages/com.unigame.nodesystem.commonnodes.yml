@@ -1,0 +1,20 @@
+name: com.unigame.nodesystem.commonnodes
+displayName: UniGame UniNode System Common Nodes
+description: Reactive Node game system for Unity
+repoUrl: 'https://github.com/UniGameTeam/UniGame.GameFlow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/e48fa7416160a97fdb3fa04861b4928b8c80ae40/68747470733a2f2f692e6779617a6f2e636f6d2f63383661323039373333393865353762373065366565393261393737326266382e706e67
+readme: 'master:UniNodesSystem/Assets/UniGame.UniNodes/Nodes/README.md'
+createdAt: 1595018237146
+displayName_zhCN: UniGame UniNode系统公共节点
+description_zhCN: Unity的响应式节点游戏系统

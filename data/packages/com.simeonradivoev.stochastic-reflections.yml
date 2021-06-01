@@ -1,0 +1,17 @@
+name: com.simeonradivoev.stochastic-reflections
+displayName: Stochastic Screen Space Reflections
+description: Compute Stochastic Screen Space Reflections for unity post processing
+repoUrl: 'https://github.com/simeonradivoev/ComputeStochasticReflections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588909680451
+displayName_zhCN: 随机屏幕空间的反射
+description_zhCN: 计算随机屏幕空间反射以进行Unity的后期处理

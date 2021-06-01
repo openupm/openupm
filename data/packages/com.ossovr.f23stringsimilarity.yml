@@ -1,0 +1,18 @@
+name: com.ossovr.f23stringsimilarity
+displayName: F23.StringSimilarity
+description: A .NET port of java-string-similarity
+repoUrl: 'https://github.com/OssoVR/StringSimilarity.NET'
+parentRepoUrl: 'https://github.com/feature23/StringSimilarity.NET'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: OssoVR
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1597866855406
+displayName_zhCN: F23.StringSimilarity
+description_zhCN: java-string-similarity.NET移植

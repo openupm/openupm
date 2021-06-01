@@ -1,0 +1,19 @@
+name: com.kuraiandras.numericsconverter
+displayName: Numerics Converter
+description: Conversion methods between Unity vectory types and System.Numerics.Vector
+repoUrl: 'https://github.com/KuraiAndras/NumericsConverter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: 数值转换器
+description_zhCN: Unity向量类型与System.Numerics.Vector之间的转换方法
+createdAt: 1611609241029

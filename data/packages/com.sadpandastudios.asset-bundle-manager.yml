@@ -1,0 +1,18 @@
+name: com.sadpandastudios.asset-bundle-manager
+displayName: Asset Bundle Manager
+description: An asset bundle manager for Unity.
+repoUrl: 'https://github.com/SadPandaStudios/AssetBundleManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598794365743
+displayName_zhCN: 资源打包管理器
+description_zhCN: Unity的资源打包管理器

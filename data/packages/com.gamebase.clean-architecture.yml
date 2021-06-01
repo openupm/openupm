@@ -1,0 +1,17 @@
+name: com.gamebase.clean-architecture
+displayName: Gamebase-CleanArchitecture
+description: null
+repoUrl: 'https://github.com/hiyorin/Gamebase-CleanArchitecture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591731000739
+displayName_zhCN: Gamebase-Clean构架

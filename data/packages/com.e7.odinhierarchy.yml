@@ -1,0 +1,18 @@
+name: com.e7.odinhierarchy
+displayName: Odin Hierarchy
+description: Pimp your Hierarchy based on pattern matching.
+repoUrl: 'https://github.com/5argon/OdinHierarchy'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/5argon/OdinHierarchy/raw/afb560c231c7d56d5d0bf0a7173929fc75a14b1e/oh4.gif
+readme: 'master:README.md'
+createdAt: 1588954231056
+displayName_zhCN: Odin层级
+description_zhCN: 基于模式匹配的Pimp层级结构。

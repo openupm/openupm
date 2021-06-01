@@ -1,0 +1,21 @@
+name: com.veriorpies.parrelsync
+displayName: ParrelSync
+description: (Unity3D) Test multiplayer without building
+repoUrl: 'https://github.com/VeriorPies/ParrelSync'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/VeriorPies/ParrelSync/raw/aa522cf3b2836eb4b7c0160663035f318ead357e/Images/Showcase%201.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ParrelSync
+description_zhCN: （Unity3D）测试多人游戏而无需构建
+createdAt: 1610380685914

@@ -1,0 +1,20 @@
+name: io.github.idreamsofgame.unisharper.data.metadata
+displayName: UniSharper.Data.Metadata
+description: >-
+  UniSharper.Data.Metadata is a library for converting data in excel files, and
+  read them at runtime in Unity Engine.
+repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Data.Metadata'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1587712459819
+displayName_zhCN: UniSharper.Data.Metadata
+description_zhCN: UniSharper.Data.Metadata是一个库，用于转换excel文件中的数据，并在运行时在Unity引擎中读取它们。

@@ -8,9 +8,12 @@ parentRepoUrl: 'https://github.com/Tectorum/pcg-csharp'
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 topics:
-  - library
+  - utilities
 hunter: tlauterbach
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:README.md'
 createdAt: 1585368565530
+displayName_zhCN: PcgRandom
+description_zhCN: 与Unity软件包管理兼容的PCG随机数生成器的C#版本

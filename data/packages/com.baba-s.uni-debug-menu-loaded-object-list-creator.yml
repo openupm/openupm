@@ -1,0 +1,17 @@
+name: com.baba-s.uni-debug-menu-loaded-object-list-creator
+displayName: UniDebugMenuLoadedObjectListCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniDebugMenuLoadedObjectListCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601486202792
+displayName_zhCN: UniDebugMenuLoadedObjectListCreator

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-force-reserialize-assets-menu
+displayName: UniForceReserializeAssetsMenu
+description: 【Unity】アセットを再シリアライズできるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniForceReserializeAssetsMenu'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595092411865
+displayName_zhCN: UniForceReserializeAssetsMenu
+description_zhCN: 将强制重新序列化添加到菜单中

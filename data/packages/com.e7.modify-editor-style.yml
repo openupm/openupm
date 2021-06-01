@@ -1,0 +1,19 @@
+name: com.e7.modify-editor-style
+displayName: Modify Editor Style
+description: Change fonts throughout Unity editor
+repoUrl: 'https://github.com/5argon/ModifyEditorStyle'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/5argon/ModifyEditorStyle/raw/a56239c39edd86a398104755277604a13796be01/ss1.png
+readme: 'master:readme.md'
+createdAt: 1592084845233
+displayName_zhCN: 修改编辑器风格
+description_zhCN: 在整个Unity编辑器中更改字体

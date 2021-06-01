@@ -1,0 +1,19 @@
+name: io.codeblaze.templates
+displayName: CodeBlaze Templates
+description: CodeBlaze's Packages for Unity
+repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: BLaZeKiLL
+gitTagPrefix: templates
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/templates:README.md'
+createdAt: 1599893169666
+displayName_zhCN: CodeBlaze模板
+description_zhCN: CodeBlaze的Unity软件包

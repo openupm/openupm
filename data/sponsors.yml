@@ -1,0 +1,25 @@
+items:
+- name: JDCloud
+  slug: jdcloud
+  level: silver
+  url: https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA
+  urlCN: https://developer.jdcloud.com/?utm_source=PMM_openupm&utm_medium=Banner&utm_campaign=ReadMore&utm_term=NA
+  image: /images/brands/jdcloud/EN-Color-Horizontal-2.png
+  imageCN: /images/brands/jdcloud/CH-Color-Horizontal-2.png
+  expires: 2021-05-30
+- name: Vatsal Ambastha
+  slug: vatsal-ambastha
+  level: bronze
+  githubUser: adrenak
+- name: Digital Ocean
+  slug: digital-ocean
+  level: service
+  url: https://m.do.co/c/50e7f9860fa9
+  image: https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg
+  minWidth: 9rem
+  expires: 2022-03-10
+- name: Netlify
+  slug: netlify
+  level: service
+  url: https://www.netlify.com/
+  image: https://www.netlify.com/img/global/badges/netlify-dark.svg

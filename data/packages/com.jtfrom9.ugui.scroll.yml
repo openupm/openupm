@@ -1,0 +1,18 @@
+name: com.jtfrom9.ugui.scroll
+displayName: uGUI.Scroll
+description: null
+repoUrl: 'https://github.com/jtfrom9/uGUI_Utils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: jtfrom9
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605875660417
+displayName_zhCN: uGUI.Scroll

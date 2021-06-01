@@ -1,0 +1,21 @@
+name: com.yasirkula.nativeshare
+displayName: Native Share
+description: >-
+  A Unity plugin to natively share files (images, videos, documents, etc.)
+  and/or plain text on Android & iOS
+repoUrl: 'https://github.com/yasirkula/UnityNativeShare'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityNativeShare/raw/a6cba0d0347a923bf88d6e1f52b0e50fb6b98541/.github/screenshots/iOSPhotoLibraryPermission.png
+readme: 'master:.github/README.md'
+createdAt: 1589513732918
+displayName_zhCN: 原生共享
+description_zhCN: 一个Unity插件，可在Android和iOS上本地共享文件（图像，视频，文档等）

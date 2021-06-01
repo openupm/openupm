@@ -1,0 +1,20 @@
+name: com.ktools.portals
+displayName: kPortals
+description: A pre-calculated Portal visibility system for Unity.
+repoUrl: 'https://github.com/Kink3d/kPortals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Kink3d/kPortals/raw/2586d6c151241e2426cf2af2e92e7a9899d30e92/Source/Images/HowItWorks00.png
+readme: 'master:README.md'
+createdAt: 1592142818104
+displayName_zhCN: kPortals
+description_zhCN: 预先计算的Unity的Portal可见性系统。

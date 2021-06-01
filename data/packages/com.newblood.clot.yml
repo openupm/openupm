@@ -1,0 +1,21 @@
+name: com.newblood.clot
+displayName: NewBlood.Clot
+description: null
+repoUrl: 'https://github.com/NewBloodInteractive/Clot'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - asset-management
+  - data-management
+  - integration
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604792202969
+displayName_zhCN: NewBlood.Clot

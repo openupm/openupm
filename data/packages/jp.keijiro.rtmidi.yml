@@ -1,0 +1,19 @@
+name: jp.keijiro.rtmidi
+displayName: RtMidi
+description: RtMidi wrapper package for Unity
+repoUrl: 'https://github.com/keijiro/jp.keijiro.rtmidi'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600968882494
+displayName_zhCN: RtMidi
+description_zhCN: 适用于Unity的RtMidi包装程序包

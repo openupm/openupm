@@ -1,0 +1,19 @@
+name: com.elzach.leveleditor
+displayName: elZach LevelEditor
+description: null
+repoUrl: 'https://github.com/NoArtistAvailable/elzach-leveleditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: NoArtistAvailable
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1593790213418
+displayName_zhCN: elZach LevelEditor

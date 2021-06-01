@@ -1,0 +1,21 @@
+name: com.intothedev.multitags
+displayName: MultiTags
+description: This package allows you to Tag Game Objects with ScriptableObjects
+repoUrl: 'https://github.com/IntoTheDev/MultiTag-System-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/819bba2088a495e61ecb8120e474bccbf48f755bc9ff97dcbc32e3d0f268b2b5/68747470733a2f2f696d6775722e636f6d2f4550786b627a612e706e67
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: MultiTags
+description_zhCN: 该软件包允许您使用ScriptableObjects标记游戏对象
+createdAt: 1608490957681

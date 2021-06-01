@@ -6,9 +6,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: kyusque
 gitTagIgnore: ''
 image: >-
   https://github.com/kyusque/Galahad/raw/c33bf55d6d5bb484732361c595a9e61b9937fcee/Assets/Galahad/Contexts/MoleculeViewer/images/image1.png
 createdAt: 1582036382341
+displayName_zhCN: Galahad

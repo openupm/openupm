@@ -1,0 +1,20 @@
+name: io.megamiley.event-visualizer
+displayName: Event Visualizer
+description: 'Visualize UnityEvent calls within the editor, both incoming and outgoing.'
+repoUrl: 'https://github.com/MileyHollenberg/EventVisualizer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: MileyHollenberg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593328132173
+displayName_zhCN: 事件可视化
+description_zhCN: 在编辑器中可视化UnityEvent调用（传入和传出）。

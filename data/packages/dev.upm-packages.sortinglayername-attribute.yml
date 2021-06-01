@@ -1,0 +1,20 @@
+name: dev.upm-packages.sortinglayername-attribute
+displayName: SortingLayerName Attribute
+description: >-
+  Provide [SortingLayerName] attribute for render string field as Popup in
+  inspector
+repoUrl: 'https://github.com/umm/sortinglayername_attribute'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594180639784
+displayName_zhCN: SortingLayerName属性
+description_zhCN: '为渲染字符串字段提供[SortingLayerName]属性，作为inspector中的Popup'

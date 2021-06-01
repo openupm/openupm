@@ -1,0 +1,19 @@
+name: com.ms.async.tween
+displayName: UniTweenAsync
+description: async/await tween function extensions for Unity
+repoUrl: 'https://github.com/wlgys8/UniTweenAsync'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: UniTweenAsync
+description_zhCN: Unity的async/await tween功能扩展
+createdAt: 1606931847893

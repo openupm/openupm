@@ -1,0 +1,18 @@
+name: com.laicasaane.unity-quastatemachine
+displayName: Unity.QuaStateMachine
+description: A Unity package for QuaStateMachine which also contains many improvements.
+repoUrl: 'https://github.com/laicasaane/Unity.QuaStateMachine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594630761968
+displayName_zhCN: Unity.QuaStateMachine
+description_zhCN: QuaStateMachine的Unity包，其中还包含许多改进。

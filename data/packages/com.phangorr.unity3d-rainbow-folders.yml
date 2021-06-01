@@ -1,0 +1,22 @@
+name: com.phangorr.unity3d-rainbow-folders
+displayName: Unity3D Rainbow Folders
+description: >-
+  This asset allows you to set custom icons for any folder in unity project
+  browser. Supports UPM.
+repoUrl: 'https://github.com/KurtGokhan/unity3d-rainbow-folders'
+parentRepoUrl: 'https://github.com/PhannGor/unity3d-rainbow-folders'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/PhannGor/phanngor.github.io/master/stuff/rainbowfolders/images/v05/01.png
+readme: 'master:README.md'
+createdAt: 1592066047195
+displayName_zhCN: Unity3D Rainbow文件夹
+description_zhCN: 该资源允许您在unity项目浏览器中为任何文件夹设置自定义图标。支持UPM。

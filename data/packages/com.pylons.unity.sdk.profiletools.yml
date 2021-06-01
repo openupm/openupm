@@ -1,0 +1,19 @@
+name: com.pylons.unity.sdk.profiletools
+displayName: Pylons SDK for Unity (ProfileTools)
+description: null
+repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: afti-githobo
+gitTagPrefix: pylons_sdk_profiletools
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:PylonsSdk/ProfileTools/README.md'
+readme_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons SDK（ProfileTools）
+description_zhCN: ''
+createdAt: 1607914878334

@@ -1,0 +1,19 @@
+name: com.untoldgarden.debug
+displayName: UntoldGarden
+description: null
+repoUrl: 'https://github.com/untoldgarden/com.untoldgarden.debug'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UntoldGarden
+description_zhCN: ''
+createdAt: 1608237657919

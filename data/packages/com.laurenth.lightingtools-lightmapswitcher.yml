@@ -1,0 +1,22 @@
+name: com.laurenth.lightingtools-lightmapswitcher
+displayName: Lightmap Switcher
+description: Allows you to switch lightmaps at runtime.
+repoUrl: 'https://github.com/laurenth-personal/lightmap-switching-tool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - level-design
+  - utilities
+hunter: laurenth-personal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/laurenth-personal/lightmap-switching-tool/raw/08fcb6558b7f19f3c8798948a1875d075c774f70/Packages/LightingTools.LightmapSwitcher/Editor/LightmapSwitcher.png
+readme: 'open-upm-release:Packages/LightingTools.LightmapSwitcher/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616536154400

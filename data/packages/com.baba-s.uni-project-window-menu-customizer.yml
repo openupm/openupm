@@ -1,0 +1,21 @@
+name: com.baba-s.uni-project-window-menu-customizer
+displayName: UniProjectWindowMenuCustomizer
+description: >-
+  Editor extension that allows you to customize the menu that appears when you
+  right-click on Project view.
+repoUrl: 'https://github.com/baba-s/UniProjectWindowMenuCustomizer'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6f0f0637c11dc5ae74f73becc08e936f7647410e/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303230303230332f32303230303230333230313630312e706e67
+readme: 'master:README.md'
+createdAt: 1591716071155
+displayName_zhCN: UniProjectWindowMenuCustomizer
+description_zhCN: 在右键单击项目视图时显示自定义的菜单

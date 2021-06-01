@@ -1,0 +1,18 @@
+name: com.guanshichao.dotnet-exception-utils
+displayName: dotnet-exception-utils
+description: Utility functionality for exceptions in .NET.
+repoUrl: 'https://github.com/guanshichao/dotnet-exception-utils'
+parentRepoUrl: 'https://github.com/rotorz/dotnet-exception-utils'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725984680
+displayName_zhCN: dotnet-exception-utils
+description_zhCN: .NET中异常的实用程序功能。

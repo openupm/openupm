@@ -1,0 +1,19 @@
+name: dev.upm-packages.unirx-observabletween
+displayName: UniRx ObservableTween
+description: Provide UniRx wrapper for Tween
+repoUrl: 'https://github.com/umm/unirx_observabletween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594180578555
+displayName_zhCN: UniRx ObservableTween
+description_zhCN: 为Tween提供UniRx包装

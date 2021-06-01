@@ -1,0 +1,22 @@
+name: com.pingak9.mobile-dialog-unity
+displayName: mobile-dialog-unity
+description: >-
+  Mobile Dialog Unity (Info, Confirm, Neutral, Date time Picker, Toast,
+  Progress)
+repoUrl: 'https://github.com/camnewnham/Mobile-Dialog-Unity'
+parentRepoUrl: 'https://github.com/PingAK9/Mobile-Dialog-Unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - integration
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://github.com/PingAK9/Mobile-Dialog-Unity/blob/master/Img/iOSDate.png'
+readme: 'package:README.md'
+createdAt: 1602622171599
+displayName_zhCN: mobile-dialog-unity
+description_zhCN: 移动对话框的Unity实现（信息，确认，中立，日期时间选择器，Toast，进度）

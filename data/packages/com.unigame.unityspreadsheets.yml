@@ -1,0 +1,20 @@
+name: com.unigame.unityspreadsheets
+displayName: UniGames Google Spreadsheets to Unity
+description: Unity3D Google Spreadsheet export/import library
+repoUrl: 'https://github.com/UniGameTeam/UniGame.GoogleSpreadsheetsImporter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/UniGameTeam/UniGame.GoogleSpreadsheetsImporter/raw/f419f8735b92faa6f964a9854ac461e36854fb0e/GitAssets/sheet1.png
+readme: 'master:README.md'
+createdAt: 1598146148424
+displayName_zhCN: UniGames Google Spreadsheets到Unity
+description_zhCN: Unity3D Google Spreadsheet导出/导入库

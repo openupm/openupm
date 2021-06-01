@@ -1,0 +1,20 @@
+name: com.yasirkula.simplefilebrowser
+displayName: Simple File Browser
+description: A uGUI based runtime file browser for Unity 3D (draggable and resizable)
+repoUrl: 'https://github.com/yasirkula/UnitySimpleFileBrowser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnitySimpleFileBrowser/raw/6101f5180bcfaec6063fc34f460e8f9bb5455f59/.github/screenshots/filebrowser.png
+readme: 'master:.github/README.md'
+createdAt: 1589514024541
+displayName_zhCN: 简单文件浏览器
+description_zhCN: 适用于Unity 3D的基于uGUI的运行时文件浏览器（可拖动且可调整大小）

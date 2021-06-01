@@ -1,0 +1,19 @@
+name: com.vertx.nselection
+displayName: nSelection
+description: Simple selection for busy scenes.
+repoUrl: 'https://github.com/vertxxyz/NSelection'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: vertxxyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616904710087

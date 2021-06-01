@@ -1,0 +1,19 @@
+name: com.github.siccity.serializablecallback
+displayName: SerializableCallback
+description: UnityEvent and System.Func had a child
+repoUrl: 'https://github.com/Siccity/SerializableCallback'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://user-images.githubusercontent.com/6402525/34294989-46de127e-e70b-11e7-84f0-99bc4525a8f5.png
+readme: 'master:README.md'
+createdAt: 1588905198931
+displayName_zhCN: SerializableCallback
+description_zhCN: UnityEvent和System.Func的结合

@@ -1,7 +1,7 @@
 // Build package job
 // Fetches package releases from git remote, then add necessary build-release jobs.
 const config = require("config");
-const { difference } = require("lodash");
+const { differenceBy } = require("lodash/array");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");
@@ -9,13 +9,14 @@ const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../models/common");
+} = require("../common/constant");
 const { queues, addJob } = require("../queues/core");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
 const { getVersionFromTag } = require("../utils/semver");
 const logger = require("../utils/log")(module);
 const { removeRelease } = require("./removeRelease");
+const semverCompare = require("semver-compare");
 
 // Build package with given name.
 const buildPackage = async function(name) {
@@ -24,14 +25,31 @@ const buildPackage = async function(name) {
   let pkg = await loadPackage(name);
   // Get remote tags.
   logger.debug({ pkg: name }, "get remote tags");
-  let remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+  let remoteTags = [];
+  try {
+    remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+  } catch (error) {
+    // If repository has became private or been removed...
+    if (error.message.includes("ERROR: Repository not found")) {
+      await PackageExtra.setRepoUnavailable(name, true);
+      return;
+    }
+    throw error;
+  }
   let validTags = filterRemoteTags({
     remoteTags,
     gitTagIgnore: pkg.gitTagIgnore,
-    gitTagPrefix: pkg.gitTagPrefix
+    gitTagPrefix: pkg.gitTagPrefix,
+    minVersion: (pkg.minVersion || "").trim()
   });
   validTags.reverse();
-  let invalidTags = difference(remoteTags, validTags);
+  let invalidTags = getInvalidTags({
+    remoteTags,
+    validTags,
+    gitTagIgnore: pkg.gitTagIgnore,
+    gitTagPrefix: pkg.gitTagPrefix,
+    minVersion: (pkg.minVersion || "").trim()
+  });
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
     logger.info({ pkg: name }, "no valid tags found");
@@ -45,23 +63,41 @@ const buildPackage = async function(name) {
   await addReleaseJobs(releases);
 };
 
-// Filter remote tags for non-semver, duplication and ignoration.
-const filterRemoteTags = function({ remoteTags, gitTagIgnore, gitTagPrefix }) {
+// Filter remote tags for non-semver, duplication, ignoration, and minVersion.
+const filterRemoteTags = function({
+  remoteTags,
+  gitTagIgnore,
+  gitTagPrefix,
+  minVersion
+}) {
   let tags = remoteTags;
-  // Filter prefix based on raw tag
+  // Filter prefix based on raw tag.
   if (gitTagPrefix) tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
-  // Filter out non-semver based on parsed version
+  // Filter out non-semver based on parsed version.
   tags = tags.filter(x => getVersionFromTag(x.tag) != null);
-  // Filter out ignoration based on raw tag
+  // Filter out ignoration based on raw tag.
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
   }
-  // Tags with "upm/" prefix or "-upm" suffix are valid.
+  // Tags with "upm/" prefix or "-upm" suffix have high priority.
   const upmRe = /(^upm\/|(_|-)upm$)/i;
   const validTags = tags.filter(x => upmRe.test(x.tag));
   const versionSet = new Set(validTags.map(x => getVersionFromTag(x.tag)));
-  // Remove duplications
+  // Filter minVersion.
+  if (minVersion) {
+    try {
+      tags = tags.filter(
+        x =>
+          semverCompare(
+            getVersionFromTag(x.tag),
+            getVersionFromTag(minVersion)
+          ) >= 0
+      );
+      // eslint-disable-next-line no-empty
+    } catch (error) {}
+  }
+  // Remove duplications.
   for (const element of tags) {
     const version = getVersionFromTag(element.tag);
     if (!versionSet.has(version)) {
@@ -72,12 +108,49 @@ const filterRemoteTags = function({ remoteTags, gitTagIgnore, gitTagPrefix }) {
   return validTags;
 };
 
+/**
+ * Return invalid tags. Tags have been ignored, without the given prefix, or filtered by
+ * minVersion are not considered invalid.
+ */
+const getInvalidTags = function({
+  remoteTags,
+  validTags,
+  gitTagIgnore,
+  gitTagPrefix,
+  minVersion
+}) {
+  let tags = differenceBy(remoteTags, validTags, x => x.tag);
+  if (gitTagPrefix) {
+    tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
+  }
+  if (gitTagIgnore) {
+    const ignoreRe = new RegExp(gitTagIgnore, "i");
+    tags = tags.filter(x => !ignoreRe.test(x.tag));
+  }
+  if (minVersion) {
+    try {
+      tags = tags.filter(
+        x =>
+          semverCompare(
+            getVersionFromTag(x.tag),
+            getVersionFromTag(minVersion)
+          ) >= 0
+      );
+      // eslint-disable-next-line no-empty
+    } catch (error) {}
+  }
+  return tags;
+};
+
 // Update release records for given remoteTags.
 const updateReleaseRecords = async function(packageName, remoteTags) {
   // Remove failed local releases that not listed in remoteTags
   let releases = await Release.fetchAll(packageName);
   for (const rel of releases) {
     if (rel.state == ReleaseState.Failed) {
+      // Remove failed but disappeared release. It happens when
+      // the remote tag has been removed
+      // the remote tag has been re-tagged
       if (!remoteTags.find(x => x.tag == rel.tag && x.commit == rel.commit)) {
         logger.warn(
           {

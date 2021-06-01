@@ -1,0 +1,21 @@
+name: io.nekonya.tinax.vfs
+displayName: TinaX.VFS
+description: >-
+  Virtual Files System - Assets management service package for TinaX Framework
+  to Unity
+repoUrl: 'https://github.com/yomunsam/TinaX.VFS'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: AGPLv3
+topics:
+  - asset-management
+  - utilities
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591574874028
+displayName_zhCN: TinaX.VFS
+description_zhCN: 虚拟文件系统 - 用于TinaX Framework到Unity的资源管理服务包

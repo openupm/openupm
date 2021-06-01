@@ -1,0 +1,18 @@
+name: com.wwweh.uclicker
+displayName: uClicker
+description: A Unity Clicker Library
+repoUrl: 'https://github.com/philipcass/uClicker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600519680101
+displayName_zhCN: uClicker
+description_zhCN: Unity Clicker库

@@ -1,0 +1,19 @@
+name: com.aid.nudge
+displayName: Nudge
+description: 'Add Comments directly on Unity Objects, Scenes, or Assets.'
+repoUrl: 'https://github.com/stevehalliwell/Nudge'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/stevehalliwell/Nudge/raw/a64e14bbe37efc0ea480207bf4ad29cfb02c9dd7/Media/nudge_logo.png
+readme: 'upm:README.md'
+createdAt: 1599500985582
+displayName_zhCN: Nudge
+description_zhCN: 直接在Unity对象，场景或资源上添加注释。

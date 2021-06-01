@@ -1,0 +1,21 @@
+name: com.sbstn_hn.rendererfeatures.urp-ssao
+displayName: URP Screen Space Ambient Occlusion
+description: >-
+  Screen Space Ambient Occlusion implementation as a RendererFeature for
+  Universal Render Pipeline
+repoUrl: 'https://github.com/sebastianhein/urp-ssao'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sebastianhein/urp-ssao/raw/70cadd6f04059f92f42e3e758abda10f46c74013/ssao_debug.jpg
+readme: 'master:README.md'
+createdAt: 1599524621329
+displayName_zhCN: URP屏幕空间环境光遮挡
+description_zhCN: 屏幕空间环境光遮挡作为通用渲染管线的RendererFeature实现

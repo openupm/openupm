@@ -1,0 +1,19 @@
+name: com.greener-games.scriptable-data-asset
+displayName: Scriptable Data Asset
+description: Singletom scriptable object to hold project data and easily access it
+repoUrl: 'https://github.com/Greener-Games/Scriptable-data-object'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: 可编写脚本的数据资源
+description_zhCN: Singletom可编写脚本的对象可保存项目数据并轻松访问它
+createdAt: 1612276721255

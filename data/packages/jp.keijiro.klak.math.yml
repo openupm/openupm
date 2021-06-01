@@ -1,0 +1,17 @@
+name: jp.keijiro.klak.math
+displayName: KlakMath
+description: null
+repoUrl: 'https://github.com/keijiro/KlakMath'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1589416338491
+displayName_zhCN: KlakMath

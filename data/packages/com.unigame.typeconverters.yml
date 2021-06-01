@@ -1,0 +1,17 @@
+name: com.unigame.typeconverters
+displayName: Editor Scriptable Type Converters
+description: null
+repoUrl: 'https://github.com/UniGameTeam/UniGame.TypeConverters'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602515054461
+displayName_zhCN: 编辑器ScriptableObject的类型转换器

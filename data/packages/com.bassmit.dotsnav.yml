@@ -1,0 +1,22 @@
+name: com.bassmit.dotsnav
+displayName: DotsNav
+description: A fully dynamic planar navmesh built on DOTS, supporting monobehaviours. Fast enough to add and remove many obstacles each frame, and supports agents of any size.
+repoUrl: 'https://github.com/dotsnav/dotsnav'
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+topics:
+  - ai
+  - dots-and-ecs
+  - frameworks
+  - parallelism-and-concurrency
+hunter: bassmit
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614505677065

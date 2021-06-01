@@ -1,0 +1,17 @@
+name: pro.kodep.poster
+displayName: Poster
+description: "\U0001F4EEUnity event bus"
+repoUrl: 'https://github.com/k0dep/pro.kodep.poster'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588963585923
+displayName_zhCN: Poster
+description_zhCN: "\U0001F4EEUnity事件总线"

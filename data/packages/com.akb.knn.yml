@@ -1,0 +1,20 @@
+name: com.akb.knn
+displayName: KNN
+description: Fast K-Nearest Neighbour Library for Unity DOTS
+repoUrl: 'https://github.com/ArthurBrussee/KNN'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/24db9308f7c27a1cac219b8dc369e2a6ad20b0c4/687474703a2f2f6732662e6e6c2f306a7838327277
+readme: 'master:README.md'
+createdAt: 1589410694693
+displayName_zhCN: KNN
+description_zhCN: 基于Unity Dots的快速K邻近算法库

@@ -1,0 +1,28 @@
+name: com.muffindev.corelibrary
+displayName: Core Library
+description: >-
+  Contains base tools and helpers to improve game development in Unity. Note
+  that this is used as a dependency for most of other Muffin Dev for Unity
+  libraries. Standalone packages though, only embed the needed scripts from this
+  core library.
+repoUrl: 'https://github.com/MuffnDev/unity-core-library'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-SA-4.0
+licenseName: Creative Commons Attribution Share Alike 4.0 International
+topics:
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/MuffnDev/unity-core-library/raw/683deac05442cb656bae3bc5cf2512d974d34c22/Documentation~/Editor/Images/assets-tree-view-example.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Core Library
+description_zhCN: >-
+  包含用于改进Unity中游戏开发的基本工具和帮助程序。请注意，这被用作大多数其他Muffin Dev for
+  Unity库的依赖项。
+createdAt: 1609088770888

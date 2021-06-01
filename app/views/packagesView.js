@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 var semver = require("semver");
-const { pick } = require("lodash");
+const { pick } = require("lodash/object");
 
 const Release = require("../models/release");
 const PackageExtra = require("../models/packageExtra");
@@ -24,10 +24,18 @@ router.get("/extra", async function(req, res) {
 });
 
 /**
+ * Get recent packages.
+ */
+router.get("/recent", async function(req, res) {
+  const data = await PackageExtra.getRecentPackages();
+  res.json(data);
+});
+
+/**
  * Get package info for given package name.
  */
 router.get("/:name", async function(req, res) {
-  let packageName = req.params.name;
+  const packageName = req.params.name;
   // Get releases sorted by semver
   let releases = await Release.fetchAll(packageName);
   releases = releases.map(x => pick(x, releaseFields));
@@ -36,9 +44,15 @@ router.get("/:name", async function(req, res) {
   let invalidTags = await PackageExtra.getInvalidTags(packageName);
   invalidTags = invalidTags.map(x => x.tag);
   // Get readme
-  let readme = await PackageExtra.getReadme(packageName);
+  const readmeHtml = await PackageExtra.getReadmeHtml(packageName);
+  const readmeHtml_zhCN = await PackageExtra.getReadmeHtml(
+    packageName,
+    "zh-CN"
+  );
+  // Get package scopes
+  const scopes = await PackageExtra.getScopes(packageName);
   // Return as JSON
-  let data = { releases, invalidTags, readme };
+  let data = { releases, invalidTags, readmeHtml, scopes, readmeHtml_zhCN };
   res.json(data);
 });
 

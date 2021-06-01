@@ -1,0 +1,19 @@
+name: com.adrenak.mongodb.entities.upm
+displayName: MongoDB Entities for Unity
+description: A UPM package of MongoDB.Entities for the Unity game engine
+repoUrl: 'https://github.com/adrenak/mongodb.entities.unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598558118986
+displayName_zhCN: MongoDB Entities
+description_zhCN: MongoDB.Entities软件包

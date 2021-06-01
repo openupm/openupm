@@ -1,0 +1,20 @@
+name: com.quickeye.nestedassetlist
+displayName: Nested Asset List
+description: >-
+  Property Drawer/ListContainer that makes it easy to add/remove nested
+  `ScriptableObject` assets.
+repoUrl: 'https://github.com/ErnSur/NestedAssetList'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591563177503
+displayName_zhCN: 嵌套资源列表
+description_zhCN: 通过属性Drawer/ListContainer可以轻松添加/删除嵌套的ScriptableObject资源。

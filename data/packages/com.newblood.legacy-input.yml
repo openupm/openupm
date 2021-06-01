@@ -1,0 +1,18 @@
+name: com.newblood.legacy-input
+displayName: Unity Legacy Input
+description: Unity Legacy Input
+repoUrl: 'https://github.com/NewBloodInteractive/com.newblood.legacy-input'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604684352987
+displayName_zhCN: Unity传统输入
+description_zhCN: Unity传统输入

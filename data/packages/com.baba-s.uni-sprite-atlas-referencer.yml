@@ -1,0 +1,20 @@
+name: com.baba-s.uni-sprite-atlas-referencer
+displayName: UniSpriteAtlasReferencer
+description: 【Unity】SpriteAtlas の参照を保持するためのクラス
+repoUrl: 'https://github.com/baba-s/UniSpriteAtlasReferencer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - asset-management
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591651098902
+displayName_zhCN: UniSpriteAtlasReferencer
+description_zhCN: 引用Spriteatlas类

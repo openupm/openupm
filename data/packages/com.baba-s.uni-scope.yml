@@ -1,0 +1,18 @@
+name: com.baba-s.uni-scope
+displayName: UniScope
+description: 【Unity】開始と終了がある処理を using ステートメントで使用できるようにすることで終了処理の呼び出し漏れを防ぐ機能
+repoUrl: 'https://github.com/baba-s/UniScope'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595007393244
+displayName_zhCN: UniScope
+description_zhCN: 支持C# using语法的实用Scope

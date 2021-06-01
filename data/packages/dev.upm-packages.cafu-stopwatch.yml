@@ -1,0 +1,18 @@
+name: dev.upm-packages.cafu-stopwatch
+displayName: CAFU StopWatch
+description: ⏱Stopwatch logic for cafu
+repoUrl: 'https://github.com/umm/cafu_stopwatch'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'add_cafu_v3_support:README.md'
+createdAt: 1594180312678
+displayName_zhCN: CAFU StopWatch
+description_zhCN: CAFU的StopWatch逻辑

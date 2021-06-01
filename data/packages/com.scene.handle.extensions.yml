@@ -1,0 +1,19 @@
+name: com.scene.handle.extensions
+displayName: Scene Handle Extensions
+description: 'Work in progress prototype for the Chisel Level Editor, for Unity'
+repoUrl: 'https://github.com/RadicalCSG/Chisel.Prototype'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/RadicalCSG/Chisel.Prototype/master/chisel_example.png
+readme: 'master:README.md'
+createdAt: 1589416674641
+displayName_zhCN: 场景Handle扩展
+description_zhCN: 适用于Unity的Chisel Level Editor的开发中的原型

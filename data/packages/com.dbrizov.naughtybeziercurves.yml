@@ -1,0 +1,20 @@
+name: com.dbrizov.naughtybeziercurves
+displayName: NaughtyBezierCurves
+description: Bezier Curve Game Object for Unity
+repoUrl: 'https://github.com/dbrizov/NaughtyBezierCurves'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - level-design
+  - modeling
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1588954882175
+displayName_zhCN: NaughtyBezierCurves 曲线
+description_zhCN: Bezier曲线的GameObject

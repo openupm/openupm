@@ -1,0 +1,18 @@
+name: com.jonlevin.worldmap
+displayName: World Map
+description: Unity3D plugin for level-select/progression maps with Cinemachine
+repoUrl: 'https://github.com/JonLevin25/WorldMap'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - level-design
+hunter: ''
+gitTagPrefix: v
+gitTagIgnore: ''
+image: null
+readme: 'master:readme.md'
+createdAt: 1586955876205
+displayName_zhCN: 世界地图
+description_zhCN: Unity3D插件，用于使用Cinemachine进行level选择/进度映射

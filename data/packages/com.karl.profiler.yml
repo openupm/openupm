@@ -1,0 +1,19 @@
+name: com.karl.profiler
+displayName: Profiler
+description: 'A simple profiler class for use in Unity3d, editor or runtime.'
+repoUrl: 'https://github.com/karl-/pb_Profiler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/karl-/pb_Profiler/raw/5978427ba4e3a1e3a6bce8889ec473b28cbe70cd/Documentation~/pb_profiler.png
+readme: 'master:README.md'
+createdAt: 1594576300600
+displayName_zhCN: Profiler
+description_zhCN: 一个简单的Profiler类，可用于Unity3d，编辑器或运行时。

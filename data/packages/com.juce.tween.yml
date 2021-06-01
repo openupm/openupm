@@ -1,0 +1,19 @@
+name: com.juce.tween
+displayName: Juce-Tween
+description: Open-source tweening library that's part of the Juce Unity tools framework.
+repoUrl: 'https://github.com/Juce-Assets/Juce-Tween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Juce-Assets/Juce-Tween/raw/2c763af2d0de049130337c83a686d02d06cfe32c/Misc/LogoShortHeight.png
+readme: 'stable:README.md'
+createdAt: 1604084228117
+displayName_zhCN: Juce-Tween
+description_zhCN: 开源Tween库是Juce Unity工具框架的一部分。

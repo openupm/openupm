@@ -1,0 +1,20 @@
+name: com.redowl.sleipnir
+displayName: RedOwl - Sleipnir
+description: A unity graph editor framework for unity that works with odin inspector
+repoUrl: 'https://github.com/red-owl-games/Sleipnir'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/red-owl-games/Sleipnir/raw/8f520c3ca7575d525d2d2e9e183c1faadb1b5d55/example.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: RedOwl - Sleipnir
+description_zhCN: Unity图形编辑器框架，可与odin检查器一起使用
+createdAt: 1612911373572

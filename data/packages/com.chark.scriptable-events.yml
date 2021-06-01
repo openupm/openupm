@@ -1,0 +1,21 @@
+name: com.chark.scriptable-events
+displayName: Scriptable Events
+description: Simple and extensible event system implemented via ScriptableObject.
+repoUrl: 'https://github.com/chark/scriptable-events'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/chark/scriptable-events/raw/cb357c8f42c1db8c68d5441e651da428bd68b03d/Packages/com.chark.scriptable-events/Documentation~/simple-event.png
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: 可编写脚本的事件
+description_zhCN: 通过ScriptableObject实现的简单和可扩展的事件系统。
+createdAt: 1612810037983

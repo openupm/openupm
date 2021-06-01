@@ -1,0 +1,20 @@
+name: com.baba-s.uni-package-manifest-json-opener
+displayName: UniPackageManifestJsonOpener
+description: 【Unity】Packages/manifest.json を開くメニューを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniPackageManifestJsonOpener'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87160345-ca041100-c2fd-11ea-94a7-744349ed6715.png
+readme: 'master:README.md'
+createdAt: 1594517513987
+displayName_zhCN: UniPackageManifestJsonOpener
+description_zhCN: 直接打开包管理器的manifest.json文件

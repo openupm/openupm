@@ -1,0 +1,21 @@
+name: com.zor.simple-blackboard
+displayName: Simple Blackboard
+description: >-
+  Simple Blackboard for Unity is a flexible data storage that can contain any
+  count of properties of any type. The properties can be accessed with property
+  names.
+repoUrl: 'https://github.com/ZorPastaman/Simple-Blackboard'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595006673131
+displayName_zhCN: 简单的黑板
+description_zhCN: Simple Blackboard是一种灵活的数据存储，可以包含任何数量的任何类型的属性。可以使用属性名称访问属性。

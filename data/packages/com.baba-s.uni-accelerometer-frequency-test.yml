@@ -1,0 +1,22 @@
+name: com.baba-s.uni-accelerometer-frequency-test
+displayName: UniAccelerometerFrequencyTest
+description: 【Unity】加速度センサーが無効になっているかのテスト
+repoUrl: 'https://github.com/baba-s/UniAccelerometerFrequencyTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - mobile
+  - testing
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/94363297-3ec83980-00fc-11eb-9a1b-e73762dee19b.png
+readme: 'master:README.md'
+createdAt: 1601310863983
+displayName_zhCN: UniAccelerometerFrequencyTest
+description_zhCN: 测试加速度API是否已禁用

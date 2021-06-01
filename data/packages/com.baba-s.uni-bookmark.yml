@@ -1,0 +1,18 @@
+name: com.baba-s.uni-bookmark
+displayName: UniBookmark
+description: 【Unity】アセットをブックマークできるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniBookmark'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597547557321
+displayName_zhCN: UniBookmark
+description_zhCN: 添加资源标签

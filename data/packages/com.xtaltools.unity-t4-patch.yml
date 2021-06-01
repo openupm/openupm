@@ -1,0 +1,17 @@
+name: com.xtaltools.unity-t4-patch
+displayName: T4 Template Patch
+description: null
+repoUrl: 'https://github.com/neptaco/UnityT4TemplatePatch'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595948620477
+displayName_zhCN: T4模板补丁

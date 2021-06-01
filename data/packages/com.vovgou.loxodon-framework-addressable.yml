@@ -1,0 +1,20 @@
+name: com.vovgou.loxodon-framework-addressable
+displayName: Loxodon Framework Addressable
+description: This is a plugin that uses Unity's addressable asset system to load resources.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.0.1-preview
+image: 'https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png'
+readme: 'master:Loxodon.Framework.Addressable/README.md'
+createdAt: 1594375319319
+displayName_zhCN: Loxodon框架可 - 寻址
+description_zhCN: 这是一个使用Unity可寻址资源系统加载资源的插件。

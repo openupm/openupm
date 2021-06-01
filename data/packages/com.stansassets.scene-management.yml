@@ -1,0 +1,20 @@
+name: com.stansassets.scene-management
+displayName: Stans Assets - Scene Management
+description: >-
+  Provides a set of tools to organize scene loading and management in the Unity
+  project.
+repoUrl: 'https://github.com/StansAssets/com.stansassets.scene-management'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591315328314
+displayName_zhCN: Stans资源 - 场景管理
+description_zhCN: 提供了一组工具来组织Unity项目中的场景加载和管理。

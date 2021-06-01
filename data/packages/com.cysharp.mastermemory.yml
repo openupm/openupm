@@ -1,0 +1,19 @@
+name: com.cysharp.mastermemory
+displayName: MasterMemory
+description: Embedded Typed Readonly In-Memory Document Database for .NET Core and Unity.
+repoUrl: 'https://github.com/Cysharp/MasterMemory'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/46207/61031896-61890800-a3fb-11e9-86b7-84c821d347a4.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621445499153

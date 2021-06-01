@@ -30,6 +30,9 @@ export default {
       color $accentColor
       text-decoration none
 
+  .links
+    right 0.4rem
+
   .nav-links
     .nav-item
       line-height 1.8rem
@@ -39,6 +42,9 @@ export default {
       font-size 0.7rem
       font-weight 600
       color $accentColor
+
+    .repo-link
+      display none
 
   .search-box
     input
@@ -59,14 +65,26 @@ export default {
       a
         font-size 0.7rem
 
+.sidebar
+  .nav-links
+    a.repo-link
+      display none
+
 .wip
   position fixed
   z-index 1000
   left 200px
   top 8px
 
+.region-cn
+  .wip
+    left 265px
+
 @media (max-width: $MQMobileNarrow)
   .wip
     left 132px
     top 22px
+  .region-cn
+    .wip
+      left 132px
 </style>

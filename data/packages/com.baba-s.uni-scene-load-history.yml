@@ -1,0 +1,17 @@
+name: com.baba-s.uni-scene-load-history
+displayName: UniSceneLoadHistory
+description: null
+repoUrl: 'https://github.com/baba-s/UniSceneLoadHistory'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600968726042
+displayName_zhCN: UniSceneLoadHistory

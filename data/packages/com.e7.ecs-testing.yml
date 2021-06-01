@@ -1,0 +1,17 @@
+name: com.e7.ecs-testing
+displayName: ECS Testing
+description: Utilities to help writing tests for Unity Entities.
+repoUrl: 'https://github.com/5argon/EcsTesting'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588962696827
+displayName_zhCN: ECS测试
+description_zhCN: 帮助编写Unity Entity测试的工具。

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-serializable-dictionary
+displayName: UniSerializableDictionary
+description: 【Unity】Dictionary を Inspector で設定できるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniSerializableDictionary'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: null
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79991874-bc54a180-84ed-11ea-94a1-85a48cf2964c.png
+readme: 'master:README.md'
+createdAt: 1591625887291
+displayName_zhCN: UniSerializableDictionary
+description_zhCN: 可序列化的字典

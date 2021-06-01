@@ -1,0 +1,20 @@
+name: com.devsisters.touchscript
+displayName: TouchScript
+description: 'Complete multi-touch solution for Unity: iOS, Android, Windows, TUIO.'
+repoUrl: 'https://github.com/devsisters/TouchScript'
+parentRepoUrl: 'https://github.com/JamesKim2998/TouchScript'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/803b8bae2c009af7d8d4e0f5b6e78a18eec3ced9/68747470733a2f2f7261772e6769746875622e636f6d2f77696b692f546f7563685363726970742f546f7563685363726970742f696d616765732f647666752e6a7067
+readme: 'package:README.md'
+createdAt: 1592153272794
+displayName_zhCN: TouchScript
+description_zhCN: 完整的多点触控解决方案，支持iOS、Android、Windows和TUIO。

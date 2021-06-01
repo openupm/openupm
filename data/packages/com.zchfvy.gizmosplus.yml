@@ -1,0 +1,19 @@
+name: com.zchfvy.gizmosplus
+displayName: GizmosPlus
+description: A Unity Package that provides additional GIzmo shapes and tools.
+repoUrl: 'https://github.com/zchfvy/GizmosPlus'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/zchfvy/GizmosPlus/master/Images/showcase.png'
+readme: 'master:README.md'
+createdAt: 1591730586061
+displayName_zhCN: GizmosPlus
+description_zhCN: 提供其他GIzmo形状和工具的Unity软件包。

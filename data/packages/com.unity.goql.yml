@@ -1,0 +1,18 @@
+name: com.unity.goql
+displayName: GoQL
+description: GameObject Query Language
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.goql'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'dev:README.md'
+createdAt: 1588909884164
+displayName_zhCN: GoQL
+description_zhCN: GameObject查询语言

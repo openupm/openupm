@@ -1,0 +1,18 @@
+name: com.baste.playerloopinterface
+displayName: Player Loop Interface
+description: A simple interface for interacting with Unity's player loop system
+repoUrl: 'https://github.com/Baste-RainGames/PlayerLoopInterface'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597705799770
+displayName_zhCN: Player循环接口
+description_zhCN: 一个简单的接口，用于与Unity的Player循环系统交互

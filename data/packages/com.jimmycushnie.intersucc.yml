@@ -1,0 +1,17 @@
+name: com.jimmycushnie.intersucc
+displayName: InterSUCC
+description: Use SUCC without using magic strings
+repoUrl: 'https://github.com/JimmyCushnie/InterSUCC'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'unity:README.md'
+createdAt: 1588911418006
+displayName_zhCN: InterSUCC
+description_zhCN: 在不使用magic字符串的情况下使用SUCC

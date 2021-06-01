@@ -1,0 +1,19 @@
+name: com.baba-s.uni-remote-checker
+displayName: UniRemoteChecker
+description: 【Unity】Unity Remote 5 が接続されているかどうか確認するスクリプト
+repoUrl: 'https://github.com/baba-s/UniRemoteChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591671720084
+displayName_zhCN: UniRemoteChecker
+description_zhCN: 检查Unity Remote 5是否已连接

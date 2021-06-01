@@ -1,0 +1,20 @@
+name: com.quabug.entities-bt.essential
+displayName: EntitiesBT - Essential
+description: Behavior Tree for Unity Entities
+repoUrl: 'https://github.com/quabug/EntitiesBT'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+hunter: quabug
+gitTagPrefix: essential/
+gitTagIgnore: ''
+minVersion: 0.19.0
+image: >-
+  https://user-images.githubusercontent.com/683655/88478209-db455280-cf78-11ea-88fe-222c60e346ac.png
+readme: 'master:README.md'
+createdAt: 1595762891543
+displayName_zhCN: EntitiesBT - 基本
+description_zhCN: Unity实体的行为树

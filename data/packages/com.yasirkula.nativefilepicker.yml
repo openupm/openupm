@@ -1,0 +1,21 @@
+name: com.yasirkula.nativefilepicker
+displayName: Native File Picker
+description: >-
+  A native Unity plugin to import/export files from/to various document
+  providers on Android & iOS
+repoUrl: 'https://github.com/yasirkula/UnityNativeFilePicker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1597008587303
+displayName_zhCN: 原生文件选择器
+description_zhCN: 一个原生Unity插件，用于从Android和iOS上的各种文档提供程序导入/导出文件

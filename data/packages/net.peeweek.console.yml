@@ -6,7 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
+  - editor-enhancement
 hunter: peeweek
 gitTagIgnore: ''
 createdAt: 1579776932014
+displayName_zhCN: 控制台
+description_zhCN: 交互式的Unity运行时控制台可作为软件包使用

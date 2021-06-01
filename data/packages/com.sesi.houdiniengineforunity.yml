@@ -1,0 +1,18 @@
+name: com.sesi.houdiniengineforunity
+displayName: Houdini Engine
+description: Houdini Engine for Unity
+repoUrl: 'https://github.com/shaggydog/HoudiniEngineForUnity'
+parentRepoUrl: 'https://github.com/sideeffects/HoudiniEngineForUnity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'Houdini18.0.348:README.md'
+createdAt: 1589048159240
+displayName_zhCN: Houdini Engine
+description_zhCN: Houdini Engine的Unity集成

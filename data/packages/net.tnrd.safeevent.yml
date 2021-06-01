@@ -1,0 +1,19 @@
+name: net.tnrd.safeevent
+displayName: Safe Event
+description: An event class that has extra checks to help prevent mistakes
+repoUrl: 'https://github.com/Thundernerd/Unity3D-SafeEvent'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596232566737
+displayName_zhCN: 安全事件
+description_zhCN: 具有额外检查以防止错误的事件类

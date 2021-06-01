@@ -1,0 +1,20 @@
+name: com.svermeulen.asyncawaitutil
+displayName: AsyncAwaitUtil
+description: A bunch of code to make using async-await easier in Unity3D
+repoUrl: 'https://github.com/umfahrem/Unity3dAsyncAwaitUtil'
+parentRepoUrl: 'https://github.com/svermeulen/Unity3dAsyncAwaitUtil'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ^v
+minVersion: ''
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/dcb8ffed-94c0-442b-a8fa-01005df73f64.webp
+readme: 'master:README.md'
+createdAt: 1589390427928
+displayName_zhCN: AsyncAwaitUtil
+description_zhCN: 让Unity3D中使用async-await更容易

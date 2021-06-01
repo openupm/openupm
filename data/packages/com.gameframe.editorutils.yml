@@ -1,0 +1,18 @@
+name: com.gameframe.editorutils
+displayName: Gameframe.EditorUtils
+description: Editor utilities and helpers for creating custom inspectors.
+repoUrl: 'https://github.com/coryleach/UnityEditorUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591563095236
+displayName_zhCN: GameFrame.EditorUtils编辑器工具
+description_zhCN: 用于创建自定义inspector的实用程序

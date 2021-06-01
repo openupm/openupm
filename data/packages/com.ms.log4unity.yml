@@ -1,0 +1,19 @@
+name: com.ms.log4unity
+displayName: Log4Unity
+description: Log4js-like Logging system for Unity
+repoUrl: 'https://github.com/wlgys8/Log4Unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: Log4Unity
+description_zhCN: 类似log4js的Unity日志系统
+createdAt: 1606931542135

@@ -1,0 +1,18 @@
+name: com.periodyc.hydrogen.maths
+displayName: Hydrogen Maths
+description: >-
+  Hydrogen.Maths is a math utililty library intended to add functions on top of
+  Unity.Mathematics, as well as custom math functions for our games.
+repoUrl: 'https://github.com/periodyctom/Hydrogen.Maths'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589238770492
+displayName_zhCN: Hydrogen数学
+description_zhCN: Hydrogen.Maths是一个数学实用程序库，旨在在Unity.Mathematics的基础上添加功能以及我们游戏的自定义数学函数。

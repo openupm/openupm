@@ -1,0 +1,21 @@
+name: com.gwaredd.mggif
+displayName: mgGIF
+description: A unity library to parse GIF files and extract the images as textures
+repoUrl: 'https://github.com/gwaredd/mgGif'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/gwaredd/mgGif/raw/478f6761d45fb8be9b3c9f32aebc2a2ac25c28fa/Assets/StreamingAssets/butterfly.gif
+readme: 'upm:README.md'
+createdAt: 1604290105037
+displayName_zhCN: mgGIF
+description_zhCN: Unity库，用于解析GIF文件并将图像提取为贴图

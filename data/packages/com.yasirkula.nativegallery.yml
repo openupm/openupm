@@ -1,0 +1,21 @@
+name: com.yasirkula.nativegallery
+displayName: Native Gallery
+description: >-
+  A native Unity plugin to interact with Gallery/Photos on Android & iOS (save
+  and/or load images/videos)
+repoUrl: 'https://github.com/yasirkula/UnityNativeGallery'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityNativeGallery/raw/bb6de7f23aacf20b9f84e831c9e9b52bcb512b33/.github/screenshots/1.png
+readme: 'master:.github/README.md'
+createdAt: 1589513708121
+displayName_zhCN: 本地画廊
+description_zhCN: 一个原生Unity插件，可与Android和iOS上的图库/照片交互（保存或加载图像和视频）

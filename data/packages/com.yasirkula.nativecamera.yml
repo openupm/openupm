@@ -1,0 +1,21 @@
+name: com.yasirkula.nativecamera
+displayName: Native Camera
+description: >-
+  A native Unity plugin to take pictures/record videos with device camera on
+  Android & iOS
+repoUrl: 'https://github.com/yasirkula/UnityNativeCamera'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityNativeCamera/raw/805b3f2ac775e1bfaca94f2d648932162b2e1d97/.github/screenshots/1.png
+readme: 'master:.github/README.md'
+createdAt: 1589513678218
+displayName_zhCN: 原生摄像机
+description_zhCN: 一个原生Unity插件，可使用Android和iOS上的设备摄像机拍照/录制视频

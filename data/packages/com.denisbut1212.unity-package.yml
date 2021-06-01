@@ -1,0 +1,17 @@
+name: com.denisbut1212.unity-package
+displayName: Unity Package
+description: null
+repoUrl: 'https://github.com/denisbut1212/unity-package'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593008221223
+displayName_zhCN: Unity包

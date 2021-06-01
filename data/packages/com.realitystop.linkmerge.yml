@@ -1,0 +1,20 @@
+name: com.realitystop.linkmerge
+displayName: Custom Package Link Merger
+description: link.xml files for UPM packages
+repoUrl: 'https://github.com/RealityStop/Unity.CustomPackage.LinkMerge'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 定制包装Link合并
+description_zhCN: UPM软件包的link.xml文件
+createdAt: 1611433140598

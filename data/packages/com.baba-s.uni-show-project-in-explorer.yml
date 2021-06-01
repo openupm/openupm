@@ -1,0 +1,19 @@
+name: com.baba-s.uni-show-project-in-explorer
+displayName: UniShowProjectInExplorer
+description: 【Unity】Unity プロジェクトのフォルダをエクスプローラで開くエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniShowProjectInExplorer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87845622-e7d80400-c903-11ea-9530-e7096987a384.png
+readme: 'master:README.md'
+createdAt: 1595092280617
+displayName_zhCN: UniShowProjectInExplorer
+description_zhCN: 在资源管理器中打开Unity项目文件夹

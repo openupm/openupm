@@ -1,0 +1,20 @@
+name: com.carrasco39.esunitylogger
+displayName: ESUnityLogger
+description: ElasticSearch Unity Logger
+repoUrl: 'https://github.com/carrasco39/es-unity-logger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: carrasco39
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621032132956

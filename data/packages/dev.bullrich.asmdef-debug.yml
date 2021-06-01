@@ -1,0 +1,22 @@
+name: dev.bullrich.asmdef-debug
+displayName: Asmdef Debug
+description: >-
+  Unity utility to show the time it takes to compile every assembly after a
+  reload.
+repoUrl: 'https://github.com/Bullrich/Unity-Assembly-Debugger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/Bullrich/Unity-Assembly-Debugger/master/.github/example.png
+readme: 'master:README.md'
+createdAt: 1591385592902
+displayName_zhCN: Asmdef调试
+description_zhCN: Unity实用程序，用于显示重新加载后编译每个assembly所需的时间。

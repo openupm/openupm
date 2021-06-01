@@ -1,0 +1,18 @@
+name: com.virgis.pdal
+displayName: Pdal
+description: Unity Package for PDAL
+repoUrl: 'https://github.com/ViRGIS-Team/pdal-upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'main:README.md'
+createdAt: 1604866430420
+displayName_zhCN: Pdal
+description_zhCN: PDAL的Unity软件包

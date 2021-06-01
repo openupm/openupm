@@ -1,0 +1,19 @@
+name: com.baba-s.uni-addressables-missing-file-tester
+displayName: UniAddressablesMissingFileTester
+description: null
+repoUrl: 'https://github.com/baba-s/UniAddressablesMissingFileTester'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601311283711
+displayName_zhCN: UniAddressablesMissingFileTester

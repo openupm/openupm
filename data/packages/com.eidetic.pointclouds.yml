@@ -1,0 +1,19 @@
+name: com.eidetic.pointclouds
+displayName: PointClouds
+description: Point cloud types and tools for Unity.
+repoUrl: 'https://github.com/eidetic-av/UnityPointClouds'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: PointClouds
+description_zhCN: PointClouds类型和Unity工具。
+createdAt: 1611174048854

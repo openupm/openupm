@@ -1,0 +1,23 @@
+name: com.ks.uxmltocsharp
+displayName: Uxml To C#
+description: >-
+  Plugin that generates helper C# classes based on uxml files in Unity. It may
+  be considered as a very simple and automatic alternative to UxmlFactory.
+repoUrl: 'https://github.com/kamyker/UnityUxmlToCsharp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - gui
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/kamyker/UnityUxmlToCsharp/raw/6c959e5031520a8448d1015e956d560410c5d166/Documentation~/img.png
+readme: 'master:README.md'
+createdAt: 1594005247691
+displayName_zhCN: Uxml转C#
+description_zhCN: 该插件基于Unity中的uxml文件生成辅助C#类。它可以被认为是UxmlFactory的非常简单和自动的替代品。

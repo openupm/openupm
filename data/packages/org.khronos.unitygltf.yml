@@ -1,0 +1,22 @@
+name: org.khronos.unitygltf
+displayName: Khronos GLTF Loader
+description: Runtime GLTF Loader for Unity3D
+repoUrl: 'https://github.com/KhronosGroup/UnityGLTF'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - integration
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/KhronosGroup/UnityGLTF/raw/67a5a6f4ebc71112919527b5fd24d45408144f79/UnityGLTF/ScenarioTests/Output/Mesh_PrimitivesUV/Mesh_PrimitivesUV_02_ACTUAL.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Khronos的GLTF加载机
+description_zhCN: 适用于Unity3D的运行时GLTF加载程序
+createdAt: 1607032071580

@@ -1,0 +1,17 @@
+name: com.jimmycushnie.persistentdata
+displayName: PersistentData
+description: Easy cross-platform data saving and loading for Unity
+repoUrl: 'https://github.com/JimmyCushnie/PersistentData'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588911347256
+displayName_zhCN: 持久数据
+description_zhCN: 轻松实现Unity的跨平台数据保存和加载

@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
+  - dots-and-ecs
 hunter: forno
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1583908252921
+displayName_zhCN: x.maho DOTS实用程序
+description_zhCN: FORNO的Unity DOTS实用程序库

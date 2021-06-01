@@ -6,7 +6,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1576336399000
-image: https://raw.githubusercontent.com/dbrizov/NaughtyAttributes/4ea46ce34ae5222bba03def2033326a5b53d47c5/Assets/NaughtyAttributes/Documentation~/ReorderableList_Inspector.gif
+image: >-
+  https://raw.githubusercontent.com/dbrizov/NaughtyAttributes/4ea46ce34ae5222bba03def2033326a5b53d47c5/Assets/NaughtyAttributes/Documentation~/ReorderableList_Inspector.gif
+displayName_zhCN: NaughtyAttributes
+description_zhCN: Unity的属性扩展

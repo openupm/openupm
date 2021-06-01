@@ -1,0 +1,19 @@
+name: com.ibm.socket-io
+displayName: Socket.IO
+description: A Socket.IO client for C#
+repoUrl: 'https://github.com/jkrmc12/socket-io'
+parentRepoUrl: 'https://github.com/IBM/socket-io'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Socket.IO
+description_zhCN: C#的Socket.IO客户端
+createdAt: 1608401371218

@@ -9,6 +9,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ^v
+readme: 'upm:README.md'
 createdAt: 1577289982000
+displayName_zhCN: 芝麻开门编译器
+description_zhCN: 一个Roslyn编译器，用于访问Unity的内部/私有成员。

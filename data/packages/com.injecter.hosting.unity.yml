@@ -1,0 +1,18 @@
+name: com.injecter.hosting.unity
+displayName: Injecter.Hosting.Unity
+description: null
+repoUrl: 'https://github.com/KuraiAndras/Injecter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600359037147
+displayName_zhCN: Injecter.Hosting.Unity

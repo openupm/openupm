@@ -1,0 +1,18 @@
+name: com.baba-s.uni-project-browser-internal
+displayName: UniProjectBrowserInternal
+description: 【Unity】Project ビューの internal な機能を呼び出せるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniProjectBrowserInternal'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594928567206
+displayName_zhCN: UniProjectBrowserInternal
+description_zhCN: 调用Project视图的内部函数

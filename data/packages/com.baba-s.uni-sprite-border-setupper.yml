@@ -1,0 +1,21 @@
+name: com.baba-s.uni-sprite-border-setupper
+displayName: UniSpriteBorderSetupper
+description: 【Unity】スプライトの Border をコンテキストメニューから設定できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSpriteBorderSetupper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79989232-97aafa80-84ea-11ea-8abe-d51f06f8f926.png
+readme: 'master:README.md'
+createdAt: 1591647081498
+displayName_zhCN: UniSpriteBorderSetupper
+description_zhCN: 可以从上下文菜单中设置Sprite的边框

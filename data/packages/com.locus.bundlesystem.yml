@@ -9,5 +9,8 @@ topics:
   - asset-management
 hunter: favoyang
 gitTagIgnore: ''
-image: 'https://user-images.githubusercontent.com/6591432/73616925-a527b580-465c-11ea-8c82-b004e3822d98.png'
+image: >-
+  https://user-images.githubusercontent.com/6591432/73616925-a527b580-465c-11ea-8c82-b004e3822d98.png
 createdAt: 1580730837149
+displayName_zhCN: Locus打包系统
+description_zhCN: 支持同步API的简单Unity可寻址资源替代方案

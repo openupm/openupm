@@ -1,0 +1,19 @@
+name: com.linuxsenpai.multitargetbuilder
+displayName: MultiTarget Builder
+description: Unity Multi-Target Builder Configuration Project Tool
+repoUrl: 'https://github.com/voldien/UMultiTargetBuilder'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GPL-3.0 License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: voldien
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.3
+image: null
+readme: 'master:README.md'
+createdAt: 1596008512801
+displayName_zhCN: 多目标生成器
+description_zhCN: Unity多目标构建器配置项目工具

@@ -1,0 +1,23 @@
+name: jp.goma_recorder.midity.playable
+displayName: Playable Midi
+description: >-
+  This is a custom timeline/playables package that provides functionality to
+  control object properties based on sequence data contained in a standard MIDI
+  file.
+repoUrl: 'https://github.com/goma-recorder/PlayableMidi'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - asset-management
+hunter: goma-recorder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: 可玩的Midi
+description_zhCN: 这是一个自定义时间轴/可播放程序包，它提供了基于标准MIDI文件中包含的序列数据来控制对象属性的功能。
+createdAt: 1609496202935

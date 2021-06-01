@@ -1,14 +1,16 @@
 name: com.mainthreaddispatcher.unity
 displayName: Unity Main Thread Dispatcher
 description: Main thread dispatcher implementation for unity
-repoUrl: 'https://github.com/KuraiAndras/MainThreadDispatcher.Unity'
+repoUrl: 'https://github.com/KuraiAndras/MainThreadDispatcher'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: KuraiAndras
-gitTagPrefix: ''
+gitTagPrefix: unity
 gitTagIgnore: ''
 image: null
 createdAt: 1584556258732
+displayName_zhCN: Unity主线程调度器
+description_zhCN: Unity主线程调度程序

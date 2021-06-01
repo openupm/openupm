@@ -1,0 +1,19 @@
+name: com.ms.litcsv
+displayName: Lit CSV
+description: LitCSV for Unity
+repoUrl: 'https://github.com/wlgys8/LitCSV'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Lit CSV
+description_zhCN: LitCSV的Unity软件包
+createdAt: 1607010116817

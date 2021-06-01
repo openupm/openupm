@@ -1,0 +1,19 @@
+name: com.skibitsky.scene-reference
+displayName: Scene Reference
+description: Custom property that allows to reference scene asset directly from the Editor
+repoUrl: 'https://github.com/skibitsky/scene-reference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592321486966
+displayName_zhCN: 场景参考
+description_zhCN: 允许直接从编辑器引用场景资源的自定义属性

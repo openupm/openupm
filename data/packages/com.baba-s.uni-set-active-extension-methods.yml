@@ -1,0 +1,18 @@
+name: com.baba-s.uni-set-active-extension-methods
+displayName: UniSetActiveExtensionMethods
+description: 【Unity】複数のゲームオブジェクトのアクティブを一括で変更する拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniSetActiveExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595253935741
+displayName_zhCN: UniSetActiveExtensionMethods
+description_zhCN: 一次激活多个GameObject的扩展方法

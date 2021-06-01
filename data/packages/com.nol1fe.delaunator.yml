@@ -1,0 +1,18 @@
+name: com.nol1fe.delaunator
+displayName: Delaunator
+description: Fast Delaunay triangulation of 2D points implemented in C#
+repoUrl: 'https://github.com/nol1fe/delaunator-sharp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604954329740
+displayName_zhCN: Delaunator
+description_zhCN: 在C#中实现的二维点的快速Delaunay三角剖分

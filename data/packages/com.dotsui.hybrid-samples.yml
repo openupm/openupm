@@ -1,0 +1,19 @@
+name: com.dotsui.hybrid-samples
+displayName: DotsUI Hybrid Samples
+description: Unity engine DOTS UI solution
+repoUrl: 'https://github.com/supron54321/DotsUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:com.dotsui.core/README.md'
+createdAt: 1589338099022
+displayName_zhCN: DotsUI混合示例
+description_zhCN: Unity引擎DOTS UI解决方案

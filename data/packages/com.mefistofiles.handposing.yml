@@ -1,0 +1,20 @@
+name: com.mefistofiles.handposing
+displayName: HandPosing
+description: Pose authoring using handtracking on Quest
+repoUrl: 'https://github.com/MephestoKhaan/HandPosing'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/4976810/86815186-a97c5280-c082-11ea-9df2-8c45a28f06e7.gif
+readme: 'master:README.md'
+createdAt: 1606001058355
+displayName_zhCN: HandPosing
+description_zhCN: 在Quest上使用handtracking进行姿势创作

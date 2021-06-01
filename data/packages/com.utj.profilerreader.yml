@@ -1,0 +1,21 @@
+name: com.utj.profilerreader
+displayName: Profiler Reader
+description: The library that read Unity profiler binary log directly
+repoUrl: 'https://github.com/unity3d-jp/ProfilerReader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/unity3d-jp/ProfilerReader/raw/275c0de5d6e3732ececc4238ca29bd922600e598/Documentation~/img/ProfilerReaderFilter.png
+readme: 'master:README.md'
+createdAt: 1592012091458
+displayName_zhCN: Profiler阅读器
+description_zhCN: 直接读取Unity Profiler二进制日志的库

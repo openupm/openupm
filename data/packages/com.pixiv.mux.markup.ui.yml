@@ -1,0 +1,17 @@
+name: com.pixiv.mux.markup.ui
+displayName: Mux.Markup.UI
+description: Unity UI package wrapper for Mux XAML.
+repoUrl: 'https://github.com/pixiv/Mux.Markup.UI'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache-2.0
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'circleci:LICENSE.md'
+createdAt: 1588978904837
+displayName_zhCN: Mux.Markup.UI
+description_zhCN: Mux XAML的Unity UI包装。

@@ -1,0 +1,17 @@
+name: com.baba-s.uni-action-utils
+displayName: UniActionUtils
+description: null
+repoUrl: 'https://github.com/baba-s/UniActionUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601490813131
+displayName_zhCN: UniActionUtils

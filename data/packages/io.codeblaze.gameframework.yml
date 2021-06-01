@@ -1,0 +1,19 @@
+name: io.codeblaze.gameframework
+displayName: CodeBlaze Game Framework
+description: CodeBlaze's Packages for Unity
+repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: BLaZeKiLL
+gitTagPrefix: game-framework
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/game-framework:README.md'
+createdAt: 1599892980744
+displayName_zhCN: CodeBlaze游戏框架
+description_zhCN: CodeBlaze的Unity软件包

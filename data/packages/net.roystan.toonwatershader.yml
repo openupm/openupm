@@ -9,7 +9,9 @@ parentRepoUrl: 'https://github.com/IronWarrior/ToonWaterShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: favoyang
 createdAt: 1577871140000
-image: https://i.imgur.com/skPAzbz.png
+image: 'https://i.imgur.com/skPAzbz.png'
+displayName_zhCN: 卡通效果水面shader
+description_zhCN: Unity的Toon Water Shader教程的源代码。根据噪声贴图渲染和动画化卡通风格的波，并基于深度缓冲区生成海岸线泡沫。

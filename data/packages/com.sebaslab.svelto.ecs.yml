@@ -1,12 +1,14 @@
 name: com.sebaslab.svelto.ecs
 displayName: Svelto ECS
-description: 'Svelto ECS C# Lightweight Data Oriented Entity Component System Framework'
+description: Svelto ECS C# Lightweight Data Oriented Entity Component System Framework
 repoUrl: 'https://github.com/sebas77/Svelto.ECS'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
 hunter: favoyang
 createdAt: 1578060636000
+displayName_zhCN: Svelto ECS
+description_zhCN: Svelto ECS C#面向轻量级数据的实体组件系统框架

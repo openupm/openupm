@@ -1,0 +1,18 @@
+name: dev.yarnspinner.unity
+displayName: Yarn Spinner
+description: Yarn Spinner is a tool for building interactive dialogue in games!
+repoUrl: 'https://github.com/YarnSpinnerTool/YarnSpinner-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: '-beta'
+minVersion: 1.2.2
+image: 'https://yarnspinner.dev/img/YarnSpinnerLogo.png'
+readme: 'master:README.md'
+createdAt: 1588965131408
+displayName_zhCN: Yarn Spinner
+description_zhCN: Yarn Spinner是在游戏中建立交互式对话的工具！

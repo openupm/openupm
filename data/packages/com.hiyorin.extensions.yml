@@ -1,0 +1,17 @@
+name: com.hiyorin.extensions
+displayName: UnityExtensions
+description: C# Extension Method for Unity
+repoUrl: 'https://github.com/hiyorin/upm.Extensions-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248994644
+displayName_zhCN: UnityExtensions
+description_zhCN: Unity的C#扩展方法

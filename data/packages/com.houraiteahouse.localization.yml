@@ -1,0 +1,17 @@
+name: com.houraiteahouse.localization
+displayName: Hourai Localization
+description: Localization system for Unity3D.
+repoUrl: 'https://github.com/HouraiTeahouse/HouraiLocalization'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211610772
+displayName_zhCN: Hourai本地化
+description_zhCN: Unity3D的本地化系统。

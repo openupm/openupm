@@ -1,0 +1,19 @@
+name: com.pixelwizards.ncalc
+displayName: com.pixelwizards.ncalc
+description: 'Unity package wrapper for Ncalc '
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.ncalc'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - procedural-generation
+hunter: PixelWizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592783416552
+displayName_zhCN: com.pixelwizards.ncalc
+description_zhCN: Ncalc的Unity包装

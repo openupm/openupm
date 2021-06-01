@@ -1,0 +1,20 @@
+name: com.dotsui.core
+displayName: DotsUI Core
+description: Unity engine DOTS UI solution
+repoUrl: 'https://github.com/supron54321/DotsUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:com.dotsui.core/README.md'
+createdAt: 1589337984939
+displayName_zhCN: DotsUI 核心
+description_zhCN: Unity引擎DOTS UI解决方案

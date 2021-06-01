@@ -1,0 +1,19 @@
+name: com.marijnzwemmer.unity-toolbar-extender
+displayName: Toolbar Extender
+description: Extend the Unity Toolbar with your own Editor UI code.
+repoUrl: 'https://github.com/marijnz/unity-toolbar-extender'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/d246b0c1c3ab8049e5eabaa82367af5cff67b1ed/68747470733a2f2f692e696d6775722e636f6d2f7a465833634a482e706e67
+readme: 'PackageManager:README.md'
+createdAt: 1589376359695
+displayName_zhCN: 工具栏扩展器
+description_zhCN: 使用您自己的编辑器UI代码扩展Unity工具栏。

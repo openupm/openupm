@@ -1,0 +1,17 @@
+name: com.kink3d.motion
+displayName: kMotion
+description: Motion Blur for Unity's Universal Render Pipeline.
+repoUrl: 'https://github.com/Kink3d/kMotion'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588908924655
+displayName_zhCN: kMotion
+description_zhCN: Unity通用渲染管线的运动模糊。

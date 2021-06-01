@@ -9,8 +9,10 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - animation
-  - editor
+  - editor-enhancement
 hunter: PixelWizards
 gitTagIgnore: ''
 image: null
 createdAt: 1581111685883
+displayName_zhCN: PixelWizards - Shot Assembly
+description_zhCN: Shot Assembly工具，用于从一组动画中按程序生成时间轴序列

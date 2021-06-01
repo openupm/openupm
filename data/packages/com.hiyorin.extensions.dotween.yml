@@ -1,0 +1,18 @@
+name: com.hiyorin.extensions.dotween
+displayName: UnityExtensions.DOTWeen
+description: C# Extension Method for Unity
+repoUrl: 'https://github.com/hiyorin/upm.Extensions-for-Unity.DOTween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248935443
+displayName_zhCN: UnityExtensions.DOTWeen
+description_zhCN: Unity的C#扩展方法

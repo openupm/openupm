@@ -1,0 +1,16 @@
+name: com.unity-atoms.unity-atoms-base-atoms
+displayName: Unity Atoms Base Atoms
+description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
+repoUrl: 'https://github.com/unity-atoms/unity-atoms'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1584849182924
+displayName_zhCN: Unity Atoms基本Atoms
+description_zhCN: ⚛️利用Scriptable Objects的功能的微型模块化部件

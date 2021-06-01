@@ -1,0 +1,20 @@
+name: com.rfadeev.unityforge.propertydrawers
+displayName: Unity Forge Property Drawers
+description: Custom propery drawers to ease fields value management in Unity editor.
+repoUrl: 'https://github.com/rfadeev/unity-forge-property-drawers'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/rfadeev/unity-forge-property-drawers/raw/bdea3dec24399f011ad979b89da2c4c81cbd7d7e/Documentation/game-object-layer-example.png
+readme: 'master:README.md'
+createdAt: 1591481101887
+displayName_zhCN: Unity Forge属性绘制
+description_zhCN: 自定义属性绘制来简化Unity编辑器中的字段值管理。

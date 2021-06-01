@@ -1,0 +1,19 @@
+name: com.looooong.srp.vxgi
+displayName: Voxel-based Global Illumination
+description: Voxel-based Global Illumination using Unity Scriptable Render Pipeline
+repoUrl: 'https://github.com/Looooong/Unity-SRP-VXGI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Looooong/Unity-SRP-VXGI/raw/bd193f02d3d9ab86c1d8dc9e361a27810e34c694/Documentation~/Screenshots/1.jpg
+readme: 'master:README.md'
+createdAt: 1594142535321
+displayName_zhCN: 基于Voxel的全局照明
+description_zhCN: 使用Unity可脚本化渲染管线的基于Voxel的全局照明

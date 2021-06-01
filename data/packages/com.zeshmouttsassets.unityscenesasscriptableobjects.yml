@@ -1,0 +1,20 @@
+name: com.zeshmouttsassets.unityscenesasscriptableobjects
+displayName: Unity Scenes as ScriptableObjects
+description: A way of storing scenes in a ScriptableObject.
+repoUrl: 'https://github.com/ZeShmoutt/Unity-Scene-ScriptableObject'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ZeShmoutt/Unity-Scene-ScriptableObject/raw/d26b3deb3d17c1fc3507d3abc3b7cd42c37583bc/ZeShmouttsAssets/SceneAsScriptableObject/Scripts/Editor/SceneData_Icon.png
+readme: 'master:.github/README.md'
+createdAt: 1602622110445
+displayName_zhCN: Unity场景作为ScriptableObjects
+description_zhCN: 一种将场景存储在ScriptableObject中的方法。

@@ -1,0 +1,21 @@
+name: com.aria.unity.serializable
+displayName: Serializable Dictionary
+description: >-
+  SerializableCollections(SerializableDictionary, SerializableLookup,
+  SerializableTuple) for Unity
+repoUrl: 'https://github.com/TK-Aria/SerializableDictionary'
+parentRepoUrl: 'https://github.com/neuecc/SerializableDictionary'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://cloud.githubusercontent.com/assets/46207/13866974/da6f9fac-ec77-11e5-93a7-a8eb43c08680.png
+readme: 'master:README.md'
+createdAt: 1588910025960
+displayName_zhCN: 可序列化词典
+description_zhCN: >-
+  用于Unity的可序列化剂盒工具（可序列化字典，可序列化查找，可序列化元组）

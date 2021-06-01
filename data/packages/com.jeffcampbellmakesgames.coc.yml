@@ -10,12 +10,15 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - data-management
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/unity-coc/raw/8f0fae755ff94aaeba158813236cfda766a97bea/Images/COCNodeGraphExample.png
+readme: 'develop:README.md'
 createdAt: 1583740036002
+displayName_zhCN: JCMG COC
+description_zhCN: JCMG CoC是遵从“约定优于配置”理念的库，它可以定义Unity项目的文件夹结构，并生成代码以轻松检索特定的文件夹路径。

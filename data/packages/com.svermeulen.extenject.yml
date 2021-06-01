@@ -6,6 +6,8 @@ parentRepoUrl: 'https://github.com/svermeulen/Extenject'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 createdAt: 1576170352000
+displayName_zhCN: Extenject
+description_zhCN: Unity3D的依赖注入框架

@@ -1,0 +1,19 @@
+name: com.toorah-games.gitupdater
+displayName: Git Updater
+description: null
+repoUrl: 'https://github.com/Toorah/com.toorah-games.gitupdater'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-2.0
+licenseName: Creative Commons Attribution 2.0 Generic
+topics:
+  - package-management
+hunter: Toorah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: Git更新器
+description_zhCN: ''
+createdAt: 1609983819624

@@ -1,0 +1,18 @@
+name: com.baba-s.uni-rect-transform-auto-rounder
+displayName: UniRectTransformAutoRounder
+description: 【Unity】シーン保存時に RectTransform の AnchoredPosition3D や SizeDelta を整数に四捨五入するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniRectTransformAutoRounder'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602514899407
+displayName_zhCN: UniRectTransformAutoRounder
+description_zhCN: 在保存场景时将RectTransform的AnchoredPosition3D或SizeDelta的值取整

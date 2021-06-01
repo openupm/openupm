@@ -1,0 +1,20 @@
+name: com.valax321.postprocessing
+displayName: Post Process Effects
+description: Custom post processing effects for Post Processing Stack V2
+repoUrl: 'https://github.com/Valax321/PostProcessEffects'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/PostProcessEffects/raw/190e928346f407f8a423cada532913734c132b28/Documentation~/images/eight.jpg
+readme: 'master:README.md'
+createdAt: 1589732535538
+displayName_zhCN: 后期处理效果
+description_zhCN: 后期处理栈V2的自定义后期处理效果

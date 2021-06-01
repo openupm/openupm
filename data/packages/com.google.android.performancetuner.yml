@@ -1,0 +1,24 @@
+name: com.google.android.performancetuner
+displayName: Android Performance Tuner
+description: >-
+  Android Performance Tuner is a library to help developers measure frame
+  rendering time across different devices and game stages. This plugin will help
+  developers integrate Android Performance Tuner into their game.
+repoUrl: 'https://github.com/android/tuningfork'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - debugging-and-logging
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://developer.android.com/images/games/performance-tuner/monitor-app2.png'
+readme: 'master:README.md'
+createdAt: 1593542377043
+displayName_zhCN: Android 性能调试器
+description_zhCN: >-
+  Android Performance Tuner是一个库，可帮助开发人员衡量不同设备和游戏阶段的帧渲染时间。该插件将帮助开发人员将Android
+  Performance Tuner集成到他们的游戏中。

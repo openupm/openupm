@@ -1,0 +1,18 @@
+name: com.baba-s.uni-multi-dictionary
+displayName: UniMultiDictionary
+description: 【Unity】1つのキーに対して複数の値を登録できる Dictionary
+repoUrl: 'https://github.com/baba-s/UniMultiDictionary'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591629018310
+displayName_zhCN: UniMultiDictionary
+description_zhCN: 支持一对多关系的字典

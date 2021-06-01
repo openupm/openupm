@@ -1,0 +1,19 @@
+name: com.brogan89.minmaxslider
+displayName: Min Max Slider
+description: Min Max Slider UI Component for Unity
+repoUrl: 'https://github.com/brogan89/MinMaxSlider'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/brogan89/MinMaxSlider/raw/a1d10538fc6dc1920c41bb4e8a6ad594c7300e3d/Resources/example.gif
+readme: 'master:Readme.md'
+createdAt: 1604290170712
+displayName_zhCN: 大小滑块
+description_zhCN: 带最大值和最小值的滑块组件

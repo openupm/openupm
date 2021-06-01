@@ -1,0 +1,21 @@
+name: io.nekonya.tinax.uikit.animation
+displayName: TinaX.UIKit.Animation
+description: UIKit Animation
+repoUrl: 'https://github.com/yomunsam/TinaX.UIKit.Animation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+  - gui
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README_CN.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621419737607

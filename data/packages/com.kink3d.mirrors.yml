@@ -1,0 +1,18 @@
+name: com.kink3d.mirrors
+displayName: kMirrors
+description: Planar reflections for Unity's Universal Render Pipeline.
+repoUrl: 'https://github.com/Kink3d/kMirrors'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/wiki/Kink3d/kMirrors/Images/Home00.png'
+readme: 'master:README.md'
+createdAt: 1592142660556
+displayName_zhCN: kMirrors
+description_zhCN: Unity通用渲染管线的平面反射。

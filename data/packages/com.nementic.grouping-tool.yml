@@ -1,0 +1,22 @@
+name: com.nementic.grouping-tool
+displayName: Grouping Tool
+description: >-
+  Use the right-click context menu or shortcut to group the selected GameObjects
+  under a new parent.
+repoUrl: 'https://github.com/nementic-games/grouping-tool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/nementic-games/grouping-tool/master/Documentation%7E/ContextMenu.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 分组工具
+description_zhCN: 使用右键单击上下文菜单或快捷方式将选定的GameObjects分组到新的父对象下。
+createdAt: 1611782098932

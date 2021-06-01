@@ -1,0 +1,19 @@
+name: com.baba-s.uni-texture-preprocessor
+displayName: UniTexturePreprocessor
+description: 【Unity】テクスチャや SpriteAtlas のインポート設定を自動化するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniTexturePreprocessor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81400783-d8507800-9168-11ea-9f04-c4ef67ec39b0.png
+readme: 'master:README.md'
+createdAt: 1591640000031
+displayName_zhCN: UniTexturePreprocessor
+description_zhCN: 自动化贴图和SpriteAtlas的导入设置

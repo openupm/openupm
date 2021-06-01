@@ -10,4 +10,7 @@ topics:
 hunter: yoshida190
 gitTagIgnore: '^(1[0-2]|[0-9])\..*\..*'
 image: null
+readme: 'master:README.markdown'
 createdAt: 1581317289016
+displayName_zhCN: CsvHelper
+description_zhCN: 用于帮助读写CSV文件的库

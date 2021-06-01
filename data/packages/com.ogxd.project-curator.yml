@@ -1,0 +1,22 @@
+name: com.ogxd.project-curator
+displayName: Project Curator
+description: A convenient tool to help cleaning and maintaining Unity Projects
+repoUrl: 'https://github.com/ogxd/project-curator'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - editor-enhancement
+  - profiling
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ogxd/project-curator/raw/df3ee751baa5912f2e930156e76d299b8c887b91/Demo/project-curator-big.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 项目策划人
+description_zhCN: 帮助清洁和维护Unity项目的便捷工具
+createdAt: 1612664007245

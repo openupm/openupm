@@ -1,0 +1,17 @@
+name: com.baba-s.uni-enter-play-mode-menu
+displayName: UniEnterPlayModeMenu
+description: null
+repoUrl: 'https://github.com/baba-s/UniEnterPlayModeMenu'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591646648229
+displayName_zhCN: UniEnterPlayModeMenu

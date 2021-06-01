@@ -1,0 +1,18 @@
+name: com.guanshichao.dotnet-type-utils
+displayName: dotnet-type-utils
+description: Utility functionality for reflection and type discovery in .NET.
+repoUrl: 'https://github.com/guanshichao/dotnet-type-utils'
+parentRepoUrl: 'https://github.com/rotorz/dotnet-type-utils'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725897947
+displayName_zhCN: dotnet-type-utils
+description_zhCN: .NET中用于反射和类型发现的实用程序功能。

@@ -1,0 +1,19 @@
+name: com.github.unity
+displayName: GitHub for Unity
+description: Package Version of the GitHub for Unity plugin (https://unity.github.com)
+repoUrl: 'https://github.com/peeweek/com.github.unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/peeweek/com.github.unity/raw/24ea26aa5f21a2bd8a9a34d669a2a90384a81650/Plugins/GitHub/Editor/big-logo@2x.png
+readme: 'master:README.md'
+createdAt: 1589058792992
+displayName_zhCN: GitHub for Unity
+description_zhCN: 在Unity中使用的Github（https://unity.github.com）

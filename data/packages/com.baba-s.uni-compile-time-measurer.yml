@@ -1,0 +1,20 @@
+name: com.baba-s.uni-compile-time-measurer
+displayName: UniCompileTimeMeasurer
+description: 【Unity】コンパイル時間を計測するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniCompileTimeMeasurer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/61863367/81265320-db226e80-907d-11ea-9f30-c429fb8f0db1.png
+readme: 'master:README.md'
+createdAt: 1591666181474
+displayName_zhCN: UniCompileTimeMeasurer
+description_zhCN: 测量编译时间

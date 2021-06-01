@@ -1,0 +1,21 @@
+name: jp.beinteractive.lwrpambientocclusion
+displayName: LWRP Ambient Occlusion
+description: >-
+  Post-Processing Stack v2 Ambient Occlusion works on Lightweight Render
+  Pipeline
+repoUrl: 'https://github.com/PinkPanter/LWRPAmbientOcclusion'
+parentRepoUrl: 'https://github.com/beinteractive/LWRPAmbientOcclusion'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/1482297/37642184-913e7de2-2c5f-11e8-9ba4-8fdb221db713.gif
+readme: 'upm:README.md'
+createdAt: 1594517933952
+displayName_zhCN: LWRP环境Occlusion
+description_zhCN: 后期处理堆栈v2环境光遮蔽，可在轻量级渲染管线上工作

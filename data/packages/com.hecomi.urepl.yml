@@ -5,7 +5,12 @@ repoUrl: 'https://github.com/starikcetin/uREPL'
 parentRepoUrl: 'https://github.com/hecomi/uREPL'
 licenseSpdxId: MIT
 licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/wiki/hecomi/uREPL/images/component_inspector.png
 topics:
-  - library
+  - utilities
+  - debugging-and-logging
 hunter: starikcetin
 createdAt: 1576173087000
+displayName_zhCN: uREPL
+description_zhCN: 游戏中功能强大的REPL环境，适用于Unity3D。

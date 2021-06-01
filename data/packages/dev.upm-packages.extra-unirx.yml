@@ -1,0 +1,19 @@
+name: dev.upm-packages.extra-unirx
+displayName: Extra UniRx
+description: ':seedling: Extra Utility for UniRx'
+repoUrl: 'https://github.com/umm/extra_unirx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594182142856
+displayName_zhCN: Extra UniRx
+description_zhCN: ':seedling: UniRx的额外实用程序'

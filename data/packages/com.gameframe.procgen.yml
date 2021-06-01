@@ -1,0 +1,19 @@
+name: com.gameframe.procgen
+displayName: Gameframe.Procgen
+description: Library of procedural generation code for use in Unity
+repoUrl: 'https://github.com/coryleach/UnityProcgen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/coryleach/UnityProcgen/raw/cc4414cc7d31542515e77a893fcd6240f19fb251/Images/Sample_00.PNG
+readme: 'master:README.md'
+createdAt: 1591557640385
+displayName_zhCN: Gameframe.Procgen
+description_zhCN: 用于Unity的程序生成代码库

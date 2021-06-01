@@ -1,0 +1,16 @@
+name: com.unity.material-switch
+displayName: Material Switch
+description: null
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.material-switch'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'dev:README.md'
+createdAt: 1589216049846
+displayName_zhCN: 材质切换

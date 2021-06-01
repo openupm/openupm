@@ -1,0 +1,21 @@
+name: com.sabresaurus.playerprefseditor
+displayName: PlayerPrefs Editor & Utilities
+description: >-
+  PlayerPrefs Editor & Utilities provide an easy way to see what PlayerPrefs
+  your game is using and change them at run-time.
+repoUrl: 'https://github.com/sabresaurus/PlayerPrefsEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://sabresaurus.com/PlayerPrefsEditorScreenshot.png'
+readme: 'master:README.md'
+createdAt: 1593885964019
+displayName_zhCN: PlayerPrefs编辑器和实用程序
+description_zhCN: PlayerPrefs编辑器和实用程序提供了一种简单的方法来查看您的游戏正在使用什么PlayerPrefs并在运行时进行更改。

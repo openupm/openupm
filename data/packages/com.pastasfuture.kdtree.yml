@@ -1,0 +1,19 @@
+name: com.pastasfuture.kdtree
+displayName: KD Tree
+description: null
+repoUrl: 'https://github.com/pastasfuture/com.pastasfuture.kdtree'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - physics
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605377184476
+displayName_zhCN: KD树

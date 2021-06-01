@@ -2,25 +2,38 @@
 <template>
   <ParentLayout>
     <main class="contributors">
-      <div class="main-container container">
+      <div class="mainview container">
         <div class="columns">
           <div class="column col-12">
-            <div class="columns breadcrumb-wrap">
+            <div class="columns breadcrumbview">
               <div class="column col-10 col-md-7">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="/">Home</a>
+                    <a href="/">{{ $t("home") }}</a>
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="#">Contributors</a>
+                    <a href="#">{{ $t("contributors") }}</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+          <div
+            v-for="sponsorData in sponsors"
+            :key="sponsorData.key"
+            class="column col-12"
+          >
+            <section :id="sponsorData.key">
+              <h2>{{ $t(sponsorData.key) }}</h2>
+              <SponsorList
+                :level="sponsorData.level"
+                :items="sponsorData.items"
+              />
+            </section>
+          </div>
           <div v-if="backers.length" class="column col-12">
             <section id="backers" class="avatar-wall">
-              <h2>Backers</h2>
+              <h2>{{ $t("backers") }}</h2>
               <figure
                 v-for="(profile, index) in backers"
                 :key="index"
@@ -28,34 +41,40 @@
                 :data-tooltip="profile.name"
                 :data-initial="profile.abbr"
               >
-                <img v-if="profile.img" :src="profile.img" alt:="profile.name"
-                />
+                <a :href="profile.url">
+                  <LazyImage v-if="profile.image" :src="profile.image"
+                  alt:="profile.name" />
+                </a>
               </figure>
             </section>
           </div>
           <div class="column col-12">
             <section id="package-hunters" class="avatar-wall">
-              <h2>Top Package Hunters</h2>
+              <h2>{{ $t("top-package-hunters") }}</h2>
               <figure
                 v-for="(profile, index) in hunters"
                 :key="index"
                 class="avatar avatar-xl tooltip"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <a :href="profile.url">
+                  <LazyImage :src="profile.image" alt:="profile.user" />
+                </a>
               </figure>
             </section>
           </div>
           <div class="column col-12">
             <section id="package-owners" class="avatar-wall">
-              <h2>Top Package Owners</h2>
+              <h2>{{ $t("top-package-owners") }}</h2>
               <figure
                 v-for="(profile, index) in owners"
                 :key="index"
                 class="avatar avatar-xl tooltip"
                 :data-tooltip="profile.label"
               >
-                <img :src="profile.img" alt:="profile.user" />
+                <a :href="profile.url">
+                  <LazyImage :src="profile.image" alt:="profile.user" />
+                </a>
               </figure>
             </section>
           </div>
@@ -68,32 +87,22 @@
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import SponsorList from "@theme/components/SponsorList.vue";
+import util from "@root/docs/.vuepress/util";
 
 const getUserData = function(entry, action) {
   return {
     ...entry,
-    img: `https://github.com/${entry.user}.png?size=128`,
+    image: util.getAvatarImageUrl(entry.user, 128),
+    url: `https://github.com/${entry.user}`,
     label: `${entry.user} ${action} ${entry.count} ${
       entry.count > 1 ? "packages" : "package"
     }`
   };
 };
 
-const getBackerData = function(entry) {
-  const data = {
-    ...entry
-  };
-  if (entry.githubUser)
-    data.img = `https://github.com/${entry.githubUser}.png?size=128`;
-  const segs = entry.name.split(" ");
-  data.abbr =
-    segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
-  return data;
-};
-
 export default {
-  components: { ParentLayout, NavLink },
+  components: { ParentLayout, SponsorList },
   data() {
     return {};
   },
@@ -109,19 +118,66 @@ export default {
       });
     },
     backers() {
-      return this.$page.frontmatter.backers.map(getBackerData);
+      return this.$page.frontmatter.backers
+        .filter(this.filterExpires)
+        .map(x => {
+          return this.prepareGitHubUser({ ...x });
+        });
+    },
+    sponsors() {
+      return ["diamond", "gold", "silver", "bronze", "service"]
+        .map(level => {
+          const data = {
+            key: "sponsor-" + level,
+            level,
+            items: this.$page.frontmatter.sponsors
+              .filter(x => x.level == level)
+              .filter(this.filterExpires)
+              .map(x => {
+                return this.prepareGitHubUser({ ...x });
+              })
+          };
+          return data;
+        })
+        .filter(x => {
+          return x.items.length;
+        });
     }
   },
-  methods: {}
+  methods: {
+    filterExpires(data) {
+      if (data.expires) {
+        return Date.parse(data.expires) >= new Date().getTime();
+      }
+      return true;
+    },
+    prepareGitHubUser(data) {
+      if (data.githubUser) {
+        data.url = `https://github.com/${data.githubUser}`;
+        data.image = util.getAvatarImageUrl(data.githubUser, 128);
+      }
+      if (data.name) {
+        const segs = data.name.split(" ");
+        data.abbr =
+          segs.length == 1 ? data.name.slice(0, 2) : segs[0][0] + segs[1][0];
+      }
+      return data;
+    }
+  }
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .contributors
-  .main-container
+  .mainview
     margin-top 1rem
   .avatar-wall
-    margin-bottom 2rem
     .avatar
       margin: 0 0.3rem 0.3rem 0
+      a
+        width: 100%
+        height: 100%
+        display: block
+  section
+    margin-bottom 1.2rem
 </style>

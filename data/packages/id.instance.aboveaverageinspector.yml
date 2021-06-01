@@ -1,0 +1,21 @@
+name: id.instance.aboveaverageinspector
+displayName: instance.id.AboveAverageInspector
+description: >-
+  A custom inspector drawer, because I wanted something I could organize into
+  groups
+repoUrl: 'https://github.com/instance-id/AboveAverageInspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://i.imgur.com/ODmrkrC.png'
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: instance.id.AboveAverageInspector
+description_zhCN: 一个自定义的Inspector绘制，增加了分组。
+createdAt: 1611253142970

@@ -1,0 +1,18 @@
+name: com.proyecto26.restclient
+displayName: RestClient for Unity
+description: "\U0001F984 Simple HTTP and REST client for Unity based on Promises, also supports Callbacks! \U0001F3AE"
+repoUrl: 'https://github.com/proyecto26/RestClient'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: jdnichollsc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591799339566
+displayName_zhCN: RestClient for Unity
+description_zhCN: "\U0001F984基于Promises的Unity的简单HTTP和REST客户端，还支持回调！ \U0001F3AE"

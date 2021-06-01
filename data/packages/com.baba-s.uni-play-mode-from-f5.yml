@@ -1,0 +1,18 @@
+name: com.baba-s.uni-play-mode-from-f5
+displayName: UniPlayModeFromF5
+description: 【Unity】F5 で Unity を再生、Shift + F5 で停止できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniPlayModeFromF5'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598357262187
+displayName_zhCN: UniPlayModeFromF5
+description_zhCN: 用F5进入Play模式，并使用Shift+F5退出

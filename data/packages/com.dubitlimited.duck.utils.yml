@@ -1,0 +1,18 @@
+name: com.dubitlimited.duck.utils
+displayName: Duck Utils
+description: A collection of Unity utils
+repoUrl: 'https://github.com/dubit/duck-utils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594683878246
+displayName_zhCN: Duck工具
+description_zhCN: Unity工具集合

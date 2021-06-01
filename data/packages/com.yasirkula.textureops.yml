@@ -1,0 +1,21 @@
+name: com.yasirkula.textureops
+displayName: Texture Ops
+description: A basic image processing plugin for Unity
+repoUrl: 'https://github.com/yasirkula/UnityTextureOps'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - gui
+  - sprite-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityTextureOps/raw/c5737d7438cf7235c34d6f9f998e917ae4497f46/.github/screenshots/1.jpg
+readme: 'master:.github/README.md'
+createdAt: 1589518813922
+displayName_zhCN: 贴图操作
+description_zhCN: Unity的基本图像处理插件

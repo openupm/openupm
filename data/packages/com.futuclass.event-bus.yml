@@ -1,0 +1,17 @@
+name: com.futuclass.event-bus
+displayName: Event Bus
+description: null
+repoUrl: 'https://github.com/Futuclass/EventBus'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591625124500
+displayName_zhCN: 事件总线

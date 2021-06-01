@@ -1,0 +1,19 @@
+name: com.sleepyape.framework
+displayName: SleepyApe Framework
+description: ScriptableObject based framework.
+repoUrl: "https://github.com/sickape/sleepyape-framework"
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ""
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+image: null
+readme: "main:README.md"
+readme_zhCN: ""
+displayName_zhCN: ""
+description_zhCN: ""
+createdAt: 1619733930159

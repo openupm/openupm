@@ -1,0 +1,18 @@
+name: com.baba-s.uni-delegate-extension-methods
+displayName: UniDelegateExtensionMethods
+description: 【Unity】Action、Func、MulticastDelegate 型の拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniDelegateExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597605471621
+displayName_zhCN: UniDelegateExtensionMethods
+description_zhCN: Action、Func、MulticastDelegate的扩展方法

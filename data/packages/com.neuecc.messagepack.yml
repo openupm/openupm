@@ -1,0 +1,19 @@
+name: com.neuecc.messagepack
+displayName: MessagePack
+description: >-
+  Extremely Fast MessagePack Serializer for C#(.NET, .NET Core, Unity, Xamarin).
+  / msgpack.org[C#]
+repoUrl: 'https://github.com/neuecc/MessagePack-CSharp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: hikarin522
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601005097582
+displayName_zhCN: 消息包
+description_zhCN: '适用于C#（.NET，.NET Core，Unity，Xamarin）的极其快速的MessagePack序列化程序。'

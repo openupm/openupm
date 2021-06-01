@@ -1,0 +1,17 @@
+name: com.baba-s.uni-debug-menu-unity-engine-info-creator
+displayName: UniDebugMenuUnityEngineInfoCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniDebugMenuUnityEngineInfoCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601434036460
+displayName_zhCN: UniDebugMenuUnityEngineInfoCreator

@@ -1,0 +1,19 @@
+name: jp.cysharp.randomfixturekit
+displayName: RandomFixtureKit
+description: >-
+  Fill random/edge-case value to target type for unit testing, supports both
+  .NET Standard and Unity.
+repoUrl: 'https://github.com/Cysharp/RandomFixtureKit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589056121005
+displayName_zhCN: RandomFixtureKit
+description_zhCN: 将随机/边缘情况值填充为目标类型以进行单元测试，同时支持.NET Standard和Unity。

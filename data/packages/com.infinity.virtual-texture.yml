@@ -1,0 +1,19 @@
+name: com.infinity.virtual-texture
+displayName: InfinityVirtualTexture
+description: Runtime Procedural Virtual Texture for Unity.
+repoUrl: 'https://github.com/haolange/InfinityVirtualTexture'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: InfinityVirtualTexture
+description_zhCN: Unity的运行时的程序生成的虚拟纹理。
+createdAt: 1610565922943

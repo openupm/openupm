@@ -1,0 +1,19 @@
+name: com.initialprefabs.reactive-disposal
+displayName: Reactive Disposal
+description: A small entity component system utility to manage unmanaged memory
+repoUrl: 'https://github.com/InitialPrefabs/ReactiveDisposal'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589306559712
+displayName_zhCN: Reactive Disposal
+description_zhCN: 一个小型实体组件系统实用程序，用于管理非托管内存

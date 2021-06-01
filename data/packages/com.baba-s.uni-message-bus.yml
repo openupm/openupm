@@ -1,0 +1,17 @@
+name: com.baba-s.uni-message-bus
+displayName: UniMessageBus
+description: null
+repoUrl: 'https://github.com/baba-s/UniMessageBus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591650804825
+displayName_zhCN: UniMessageBus

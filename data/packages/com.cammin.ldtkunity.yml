@@ -1,0 +1,23 @@
+name: com.cammin.ldtkunity
+displayName: LDtk to Unity
+description: >-
+  A package for easy Unity-integration with the Level Designer Toolkit, created
+  by deepnight: https://github.com/deepnight/ldtk
+repoUrl: 'https://github.com/Cammin/LDtkUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - integration
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/Cammin/LDtkUnity/master/DocImages~/LdtkUnityBanner.png
+readme: 'master:README.md'
+createdAt: 1605302431257
+displayName_zhCN: 关卡设计工具包（LDtk）的Unity集成
+description_zhCN: 关卡设计工具包（https://github.com/deepnight/ldtk）的Unity集成

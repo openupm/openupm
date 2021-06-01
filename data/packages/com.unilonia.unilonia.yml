@@ -1,0 +1,18 @@
+name: com.unilonia.unilonia
+displayName: Unilonia
+description: Unity plugin which allows running Avalonia on Unity
+repoUrl: 'https://github.com/TheKeyblader/Unilonia'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: TheKeyblader
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1601410540051
+displayName_zhCN: Unilonia
+description_zhCN: Unity插件，允许在Unity上运行Avalonia

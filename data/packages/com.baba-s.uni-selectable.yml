@@ -1,0 +1,19 @@
+name: com.baba-s.uni-selectable
+displayName: UniSelectable
+description: 【Unity】値が変更された時にコールバックが呼び出されるクラス
+repoUrl: 'https://github.com/baba-s/UniSelectable'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591647007453
+displayName_zhCN: UniSelectable
+description_zhCN: Unity类在更改值时调用回调接口

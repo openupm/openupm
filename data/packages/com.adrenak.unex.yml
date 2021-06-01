@@ -6,11 +6,14 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: adrenak
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:Assets/Adrenak.Unex/README.md'
 createdAt: 1583867087239
+displayName_zhCN: Unex
+description_zhCN: Unity3D扩展，包含了热键，C#扩展和实用程序等。

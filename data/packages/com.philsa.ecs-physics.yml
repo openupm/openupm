@@ -1,0 +1,19 @@
+name: com.philsa.ecs-physics
+displayName: ECS Physics
+description: A physics engine made with Unity ECS
+repoUrl: 'https://github.com/nensanders/ECSPhysics'
+parentRepoUrl: 'https://github.com/PhilSA/ECSPhysics'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/cd4f8333b3d968390b300f39b8abe3f015ccd04c/68747470733a2f2f692e6779617a6f2e636f6d2f30666166306337316436343966353232323730353562396535613162666236302e676966
+readme: 'planet-gravity:README.md'
+createdAt: 1589338387923
+displayName_zhCN: ECS物理
+description_zhCN: 使用Unity ECS制作的物理引擎

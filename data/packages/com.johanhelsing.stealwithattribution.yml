@@ -1,0 +1,20 @@
+name: com.johanhelsing.stealwithattribution
+displayName: Steal With Attribution
+description: Tool to download and import assets from free sources
+repoUrl: 'https://github.com/johanhelsing/StealWithAttribution'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - sprite-management
+  - utilities
+hunter: johanhelsing
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:readme.md'
+createdAt: 1600185726182
+displayName_zhCN: Steal With Attribution
+description_zhCN: 从免费资源下载和导入资源的工具

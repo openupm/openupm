@@ -1,0 +1,19 @@
+name: jp.co.hololab.mrtk.ja
+displayName: MRTK Ja
+description: MRTK UI components with Japanese font
+repoUrl: 'https://github.com/HoloLabInc/MixedRealityToolkit-Unity-Ja'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: MRTK Ja
+description_zhCN: 日语字体的MRTK UI组件
+createdAt: 1607397904651

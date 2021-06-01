@@ -1,0 +1,19 @@
+name: com.needle.stochastic-texturing
+displayName: Stochastic Texturing
+description: null
+repoUrl: 'https://github.com/needle-tools/procedural-stochastic-texturing'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - procedural-generation
+hunter: hybridherbst
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: Stochastic纹理
+description_zhCN: ''
+createdAt: 1610627450774

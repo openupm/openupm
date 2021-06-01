@@ -1,0 +1,18 @@
+name: com.elringus.unityconsole
+displayName: UnityConsole
+description: Development console for Unity game engine
+repoUrl: 'https://github.com/Elringus/UnityConsole'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'package:LICENSE.md'
+createdAt: 1591988577744
+displayName_zhCN: Unity控制台
+description_zhCN: Unity游戏引擎的开发控制台

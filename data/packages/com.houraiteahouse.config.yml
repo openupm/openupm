@@ -1,0 +1,19 @@
+name: com.houraiteahouse.config
+displayName: Hourai Config
+description: >-
+  A Unity3D system for effectively authoring and editing global game
+  configurations without use of singletons
+repoUrl: 'https://github.com/HouraiTeahouse/HouraiConfig'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211127110
+displayName_zhCN: Hourai配置
+description_zhCN: 一个Unity3D系统，可有效地创作和编辑全局游戏配置，而无需使用单例

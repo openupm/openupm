@@ -1,0 +1,21 @@
+name: com.ta-david-yu.dylogic
+displayName: DY.Logic
+description: >-
+  Simple visual scripting tool: including Actions, Events, Variables and
+  Conditions.
+repoUrl: 'https://github.com/ta-david-yu/Unity-Logic'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614184050415

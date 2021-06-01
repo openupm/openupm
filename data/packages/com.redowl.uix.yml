@@ -1,0 +1,20 @@
+name: com.redowl.uix
+displayName: RedOwl - UIX
+description: The Unity library for a better experience when making UIs
+repoUrl: 'https://github.com/red-owl-games/UIX'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/red-owl-games/UIX/raw/ae058afe5dcd4dbd875a6b8472b5c3c2d7efd3af/Resources/RedOwlLogo_Sm.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: RedOwl-UIX
+description_zhCN: 在制作UI时提供更好的体验的Unity库
+createdAt: 1613582360345

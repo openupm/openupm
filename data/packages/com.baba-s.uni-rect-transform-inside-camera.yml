@@ -1,0 +1,19 @@
+name: com.baba-s.uni-rect-transform-inside-camera
+displayName: UniRectTransformInsideCamera
+description: null
+repoUrl: 'https://github.com/baba-s/UniRectTransformInsideCamera'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/86303602-42f0d200-bc47-11ea-8bf1-dec630fb70f8.gif
+readme: 'master:README.md'
+createdAt: 1593804670125
+displayName_zhCN: UniRectTransformInsideCamera

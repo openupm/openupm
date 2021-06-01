@@ -1,0 +1,20 @@
+name: com.monitor1394.xcharts
+displayName: XCharts
+description: A charting and data visualization library for Unity.
+repoUrl: 'https://github.com/monitor1394/unity-ugui-XCharts'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/monitor1394/unity-ugui-XCharts/raw/aef05a53ef3a506d7fbf41eef60d8485c77b2bf1/Doc/dark.png
+readme: 'package:README.md'
+createdAt: 1592142101605
+readme_zhCN: 'master:README.md'
+displayName_zhCN: XCharts X图表插件
+description_zhCN: 一款基于UGUI的数据可视化图表插件。

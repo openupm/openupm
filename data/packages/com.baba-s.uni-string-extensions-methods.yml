@@ -1,0 +1,18 @@
+name: com.baba-s.uni-string-extensions-methods
+displayName: UniStringExtensionMethods
+description: 【Unity】string 型の拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniStringExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598307129717
+displayName_zhCN: UniStringExtensionMethods.
+description_zhCN: String类扩展方法

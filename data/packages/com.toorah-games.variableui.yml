@@ -1,0 +1,19 @@
+name: com.toorah-games.variableui
+displayName: Variable UI
+description: This Framework uses ScriptableObject Variables to bind values to UI
+repoUrl: 'https://github.com/Toorah/com.toorah-games.variableui'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615914978119

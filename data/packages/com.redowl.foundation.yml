@@ -1,0 +1,20 @@
+name: com.redowl.foundation
+displayName: RedOwl - Foundation
+description: RedOwl Core Unity Library
+repoUrl: 'https://github.com/red-owl-games/Foundation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/red-owl-games/Foundation/raw/b1e76fe84a5e85731ec25377658a46978af8abe6/Resources/RedOwlLogo_Sm.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: RedOwl-基础
+description_zhCN: RedOwl Core Unity库
+createdAt: 1613582151310

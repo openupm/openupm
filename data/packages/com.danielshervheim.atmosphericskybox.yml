@@ -1,0 +1,21 @@
+name: com.danielshervheim.atmosphericskybox
+displayName: Atmospheric Skybox
+description: >-
+  An improvement to scrawk's Unity port of Eric Bruneton's improved atmospheric
+  scattering
+repoUrl: 'https://github.com/danielshervheim/Brunetons-Improved-Atmospheric-Scattering'
+parentRepoUrl: 'https://github.com/Scrawk/Brunetons-Improved-Atmospheric-Scattering'
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6e67135f5c9480ff36e8e044a3059bc95ca79742/68747470733a2f2f692e696d6775722e636f6d2f4649306d4439372e706e67
+readme: 'master:README.md'
+createdAt: 1603738283146
+displayName_zhCN: 大气Skybox
+description_zhCN: 对scrawk移植的Eric Bruneton的大气散射Skybox进行改进

@@ -1,0 +1,20 @@
+name: com.baba-s.uni-tap-blocker
+displayName: UniTapBlocker
+description: 【Unity】タップをブロックするインスタンスを管理するクラス
+repoUrl: 'https://github.com/baba-s/UniTapBlocker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - input-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591633533369
+displayName_zhCN: UniTapBlocker
+description_zhCN: タップをブロックするインスタンスを管理するクラス

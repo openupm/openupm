@@ -1,0 +1,19 @@
+name: com.opeious.pokemon3dstounity
+displayName: Pokemon 3DS to Unity
+description: Directly import Pokemon Binary files into Unity
+repoUrl: 'https://github.com/opeious/Pokemon3DStoUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/3764951/110187525-abc7c400-7e3e-11eb-857a-3e0a1e39837e.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615229154172

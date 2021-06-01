@@ -1,0 +1,17 @@
+name: com.baba-s.uni-idisposable-set-link
+displayName: UniIDisposableSetLink
+description: null
+repoUrl: 'https://github.com/baba-s/UniIDisposableSetLink'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592839560395
+displayName_zhCN: UniIDisposableSetLink

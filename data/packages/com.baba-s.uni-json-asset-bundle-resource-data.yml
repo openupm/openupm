@@ -1,0 +1,18 @@
+name: com.baba-s.uni-json-asset-bundle-resource-data
+displayName: UniJsonAssetBundleResourceData
+description: 【Unity】Addressable の AssetBundleResource の情報を JSON 形式で出力できるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniJsonAssetBundleResourceData'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602441497905
+displayName_zhCN: UniJsonAssetBundleResourceData
+description_zhCN: Unity一个类，允许您以JSON格式的可寻址中输出AssetBundleresource信息

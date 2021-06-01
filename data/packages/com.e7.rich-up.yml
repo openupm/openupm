@@ -1,0 +1,19 @@
+name: com.e7.rich-up
+displayName: Rich Up
+description: Preprocess Markdown in TMP_Text into rich text.
+repoUrl: 'https://github.com/5argon/RichUp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/5argon/RichUp/raw/2d6487f97be52872deb5e12d9e518f13dec5cd8c/~Documentation/ss.png
+readme: 'master:README.md'
+createdAt: 1594058410666
+displayName_zhCN: Rich Up
+description_zhCN: 预处理TMP_Text中的Markdown为富文本。

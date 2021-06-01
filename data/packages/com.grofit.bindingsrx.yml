@@ -6,9 +6,12 @@ parentRepoUrl: 'https://github.com/grofit/bindingsrx'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1582570769879
+displayName_zhCN: BindingsRx
+description_zhCN: 使用unirx实现Unity的双向绑定系统

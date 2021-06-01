@@ -12,3 +12,5 @@ topics:
 hunter: pixelwizards
 gitTagIgnore: ''
 createdAt: 1579921084542
+displayName_zhCN: 贴图频道打包
+description_zhCN: 将不同贴图的颜色通道组合成一个输出的实用程序。

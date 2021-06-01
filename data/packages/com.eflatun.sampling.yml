@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582569752011
+displayName_zhCN: Eflatun.Sampling
+description_zhCN: Unity的采样实用程序。

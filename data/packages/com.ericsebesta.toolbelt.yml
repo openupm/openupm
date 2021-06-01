@@ -1,0 +1,18 @@
+name: com.ericsebesta.toolbelt
+displayName: Unity Toolbelt
+description: An open source package of Unity tools.
+repoUrl: 'https://github.com/ericsebesta/unity-toolbelt'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:readme.md'
+createdAt: 1595268538629
+displayName_zhCN: Unity Toolbelt
+description_zhCN: 一个Unity工具的开源包。

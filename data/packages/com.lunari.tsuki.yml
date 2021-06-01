@@ -1,0 +1,21 @@
+name: com.lunari.tsuki
+displayName: Tsuki Suite
+description: A toolsuite created to make Unity development easier
+repoUrl: 'https://github.com/LunariStudios/TsukiSuite'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LunariStudios/TsukiSuite/raw/21d56398870d9f4af39c62a491826dedc551bb5a/Assets/Content/1x/TsukiLogo_Black_Original.png
+readme: 'master:README.md'
+createdAt: 1593542832747
+displayName_zhCN: Tsuki套装
+description_zhCN: 创建了一个工具套件来简化Unity开发

@@ -1,0 +1,18 @@
+name: com.worldreaver.security
+displayName: Security
+description: 'Fast AES, HMACSHA, MD5, MachineKey Generate for Unity'
+repoUrl: 'https://github.com/worldreaver/Security'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589565902763
+displayName_zhCN: 安全
+description_zhCN: Unity的快速AES，HMACSHA，MD5，MachineKey生成器

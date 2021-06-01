@@ -10,5 +10,11 @@ licenseName: MIT License
 topics:
   - package-management
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ^v
+readme: 'upm:README.md'
 createdAt: 1576342093000
-image: https://user-images.githubusercontent.com/12690315/57779067-636a7e00-7760-11e9-8f4a-06bbaee402e8.png
+image: >-
+  https://user-images.githubusercontent.com/12690315/57779067-636a7e00-7760-11e9-8f4a-06bbaee402e8.png
+displayName_zhCN: Git依赖性解析器
+description_zhCN: 此插件可以解析Unity Packager Manager包中的Git URL依赖包

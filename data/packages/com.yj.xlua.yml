@@ -1,0 +1,24 @@
+name: com.yj.xlua
+displayName: xLua
+description: >-
+  xLua is a lua programming solution for C# (Unity, .Net, Mono), it supports
+  android, ios, windows, linux, osx, etc. Add support for UPM.
+repoUrl: 'https://github.com/ZeroKill1024/xLua'
+parentRepoUrl: 'https://github.com/Tencent/xLua'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ZeroKill1024/xLua/master/Assets/XLua/Doc/xLua.png'
+imageFit: contain
+readme: 'master:README_EN.md'
+readme_zhCN: 'master:README.md'
+createdAt: 1592239676591
+displayName_zhCN: xLua
+description_zhCN: >-
+  xLua是针对C#（Unity、.Net和Mono）的lua编程解决方案，它支持
+  android、ios、windows、linux、osx等。添加对UPM的支持。

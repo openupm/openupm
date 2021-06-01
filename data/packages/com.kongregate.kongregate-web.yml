@@ -1,0 +1,15 @@
+name: com.kongregate.kongregate-web
+displayName: Kongregate Web
+description: Bindings to the Kongregate JavaScript API for Unity.
+repoUrl: 'https://github.com/kongregate/kongregate-web'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics: []
+hunter: randomPoison
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587498919265
+displayName_zhCN: Kongregate网站
+description_zhCN: Kongregate JavaScript API的Unity绑定。

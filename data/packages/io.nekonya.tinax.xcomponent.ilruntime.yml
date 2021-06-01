@@ -1,0 +1,17 @@
+name: io.nekonya.tinax.xcomponent.ilruntime
+displayName: TinaX.XComponent.ILRuntime
+description: null
+repoUrl: 'https://github.com/yomunsam/TinaX.XComponent.ILRuntime'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592822206364
+displayName_zhCN: TinaX.XComponent.ILRuntime

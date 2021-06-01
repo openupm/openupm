@@ -8,6 +8,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1577958491000
+displayName_zhCN: 简单单例
+description_zhCN: UPM格式的Unity的简单单例实现，可轻松添加到项目中。

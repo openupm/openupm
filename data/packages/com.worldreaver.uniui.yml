@@ -1,0 +1,19 @@
+name: com.worldreaver.uniui
+displayName: UniUi
+description: Provide operation related to UI for Unity
+repoUrl: 'https://github.com/worldreaver/UniUi'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/worldreaver/UniUi/raw/102142e55ad782f675588687751b4541e038b7ce/Packages/.com.worldreaver.unirxex/Assets/Tests/StateMachine/UnityChan/Stage/Shader/Textures/Unity_Icon.png
+readme: 'upm:README.md'
+createdAt: 1593891734923
+displayName_zhCN: UniUi
+description_zhCN: 提供与Unity UI有关的操作

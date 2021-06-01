@@ -1,0 +1,19 @@
+name: com.codewriter.npm-publisher-support
+displayName: Npm Publisher Support
+description: Publish Npm packages to your registry directly from the Unity
+repoUrl: 'https://github.com/vanifatovvlad/NpmPublisherSupport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/26966368/73605698-a1d7ef80-45b2-11ea-8721-9dcd54b1346a.png
+readme: 'master:README.md'
+createdAt: 1595089392919
+displayName_zhCN: NPM发行支持
+description_zhCN: 在Unity中直接发布NPM软件包

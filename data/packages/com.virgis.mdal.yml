@@ -1,0 +1,18 @@
+name: com.virgis.mdal
+displayName: Mdal
+description: Unity Package for MDAL - Mesh Data Abstraction Layer
+repoUrl: 'https://github.com/ViRGIS-Team/mdal-upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'main:README.md'
+createdAt: 1604847284865
+displayName_zhCN: Mdal
+description_zhCN: MDAL的Unity软件包-Mesh数据抽象层

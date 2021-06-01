@@ -1,0 +1,22 @@
+name: com.unity.editoriterationprofiler
+displayName: Editor Iteration Profiler
+description: >-
+  Assists in capturing frames from the Profiler of Domain Reloads in the Unity
+  Editor. Unity 2019.3+ version compatible
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.editoriterationprofiler'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/com.unity.editoriterationprofiler/raw/85510d14036285739659e1751c6f958466903933/Documentation~/images/editor-iteration-profiler-window.png
+readme: 'master:README.md'
+createdAt: 1593370323593
+displayName_zhCN: 编辑器迭代Profiler
+description_zhCN: 在Unity编辑器中协助从Domain Reloads的Profiler中捕获帧。兼容Unity 2019.3+版本

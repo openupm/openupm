@@ -1,0 +1,17 @@
+name: games.artees.should-assertions
+displayName: Should Assertions
+description: A BDD library for testing C# code.
+repoUrl: 'https://github.com/Artees/ShouldAssertions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589049908460
+displayName_zhCN: Should断言
+description_zhCN: 用于测试C#代码的BDD库。

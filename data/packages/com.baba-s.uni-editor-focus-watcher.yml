@@ -1,0 +1,18 @@
+name: com.baba-s.uni-editor-focus-watcher
+displayName: UniEditorFocusWatcher
+description: 【Unity】エディタがフォーカスされた、フォーカスが外れた時に呼び出されるコールバック
+repoUrl: 'https://github.com/baba-s/UniEditorFocusWatcher'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602525798353
+displayName_zhCN: UniEditorFocusWatcher
+description_zhCN: Unity编辑器获得焦点、失去焦点的回调函数

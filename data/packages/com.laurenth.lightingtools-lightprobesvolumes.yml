@@ -1,0 +1,20 @@
+name: com.laurenth.lightingtools-lightprobesvolumes
+displayName: Lighting Tools Light Probes Volumes
+description: Light probes volumes
+repoUrl: 'https://github.com/laurenth-personal/LightingTools.LightProbesVolumes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: laurenth-personal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 光照探针工具
+description_zhCN: 光照探针工具
+createdAt: 1611003034267

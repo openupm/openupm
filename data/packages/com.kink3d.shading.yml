@@ -1,0 +1,18 @@
+name: com.kink3d.shading
+displayName: kShading
+description: Shading models for Unity’s Universal Render Pipeline.
+repoUrl: 'https://github.com/Kink3d/kShading'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/wiki/Kink3d/kShading/Images/Home00.png'
+readme: 'master:README.md'
+createdAt: 1592012303129
+displayName_zhCN: kShading
+description_zhCN: Unity通用渲染管线的阴影模型。

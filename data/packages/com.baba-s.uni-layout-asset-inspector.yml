@@ -1,0 +1,20 @@
+name: com.baba-s.uni-layout-asset-inspector
+displayName: UniLayoutAssetInspector
+description: 【Unity】エディタのレイアウトファイル（.wlt）の Inspector に読み込みボタンを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniLayoutAssetInspector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/95075565-5aaa8b80-074b-11eb-81bd-ffb1a34ff025.png
+readme: 'master:README.md'
+createdAt: 1602456207935
+displayName_zhCN: UniLayoutAssetInspector
+description_zhCN: 将导入按钮添加到布局文件（.wlt）的inspector

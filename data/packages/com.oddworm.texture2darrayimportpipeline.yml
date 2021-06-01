@@ -1,0 +1,18 @@
+name: com.oddworm.texture2darrayimportpipeline
+displayName: Texture2DArray Import Pipeline
+description: A Texture2DArray Import Pipeline for Unity 2019.3 and newer.
+repoUrl: 'https://github.com/pschraut/UnityTexture2DArrayImportPipeline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/pschraut/UnityTexture2DArrayImportPipeline/raw/aeddb2af8883c398011ee2dd2c22da2be05033c4/Documentation~/images/newassetapply.png
+readme: 'master:README.md'
+createdAt: 1588952892994
+displayName_zhCN: Texture2DArray导入管线
+description_zhCN: Unity 2019.3及更高版本的Texture2DArray导入管线。

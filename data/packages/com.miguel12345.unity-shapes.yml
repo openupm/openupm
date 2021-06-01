@@ -1,0 +1,18 @@
+name: com.miguel12345.unity-shapes
+displayName: Unity Shapes
+description: 'Draw shapes (circle,line,arrow) with one line of code in Unity'
+repoUrl: 'https://github.com/jtfrom9/UnityShapes'
+parentRepoUrl: 'https://github.com/miguel12345/UnityShapes'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+hunter: jtfrom9
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600097761029
+displayName_zhCN: Unity形状
+description_zhCN: 在Unity中用一行代码绘制形状（圆形，直线，箭头）

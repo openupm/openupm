@@ -1,0 +1,21 @@
+name: com.dgtools.core
+displayName: DGTools Core
+description: >-
+  DGTools are tools created for game developement in Unity. The Core is not a
+  tool but it is required by all DGTools. Furthermore it provides a window that
+  can import other DGTools
+repoUrl: 'https://github.com/dodo-game-tools/DGTools-Core'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/dodo-game-tools/DGTools-Core/raw/d3539a11567552cb1d5f87412fdc08a04fe47423/Editor/Resources/Images/DGTools_icon.png
+readme: 'master:README.md'
+createdAt: 1589252722739
+displayName_zhCN: DGTools核心
+description_zhCN: DGTools是为Unity的游戏开发而创建的工具。DGTools核心是其他组件的基础，并提供了导入其他组件的窗口。

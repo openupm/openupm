@@ -1,0 +1,18 @@
+name: com.baba-s.uni-web-view-margins-from-rect-transform
+displayName: UniWebViewMarginsFromRectTransform
+description: 【Unity】unity-webview のマージンを RectTranform から設定できる機能
+repoUrl: 'https://github.com/baba-s/UniWebViewMarginsFromRectTransform'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591715517519
+displayName_zhCN: UniWebViewMarginsFromRectTransform
+description_zhCN: 将Unity-WebView调整位置到指定的RectTranform

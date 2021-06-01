@@ -1,0 +1,19 @@
+name: com.stackray.sprite
+displayName: Stackray Sprite
+description: 'Extending DOTS '
+repoUrl: 'https://github.com/GilbertoGojira/DOTS-Stackray'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - 2d
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: com.stackray.sprite-
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589335576143
+displayName_zhCN: Stackray Sprite
+description_zhCN: 扩展DOTS

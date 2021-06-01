@@ -1,0 +1,21 @@
+name: com.kink3d.splines
+displayName: kSplines
+description: A bezier Spline system for Unity.
+repoUrl: 'https://github.com/Kink3d/kSplines'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Kink3d/kSplines/raw/0cb65fefa467d14d442eb596e0a64c5193a9da06/Source/Images/GettingStarted04.png
+readme: 'master:README.md'
+createdAt: 1592142737602
+displayName_zhCN: kSplines
+description_zhCN: 用于Unity的贝塞尔曲线系统。

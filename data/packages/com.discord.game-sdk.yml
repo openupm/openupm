@@ -1,0 +1,17 @@
+name: com.discord.game-sdk
+displayName: Discord Game SDK
+description: A Unity Package Manager compatible version of the Discord Game SDK
+repoUrl: 'https://github.com/HouraiTeahouse/Discord-Game-SDK'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589211470681
+displayName_zhCN: Discord Game SDK
+description_zhCN:  Discord Game SDK的UPM兼容包

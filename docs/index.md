@@ -10,20 +10,20 @@ features:
 - title: Open Source UPM Registry
   details: Hosting community selective open source UPM packages
 - title: Continuous Publishing
-  details: Package publishing automation based on git tags
-- title: Command Line Tool
+  details: Package publishing automation based on Git tags
+- title: Command-Line Interface
   details: <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> for 3rd-party UPM registries
 noGlobalSocialShare: true
 ---
 
-### Get Started
+### Get Started with CLI (Optional)
 
 ```sh
 # Install openupm-cli
 $ npm install -g openupm-cli
 # OR yarn global add openupm-cli
 
-# Enter your unity project folder
+# Enter your Unity project folder
 $ cd YOUR_UNITY_PROJECT_FOLDER
 
 # Search a package
@@ -41,22 +41,9 @@ added: com.littlebigfun.addressable-importer@0.4.1
 manifest updated, please open unity project to apply changes
 ```
 
-::: warning COMPATIBILITY NOTE
-openupm-cli requires [Node.js 12](https://nodejs.org/en/)
+::: warning DISCLAIMER
+OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
 :::
 
-<h3 id="recent-packages">
-  <a href="#recent-packages" aria-hidden="true" class="header-anchor">#</a>
-  Recent Packages
-  <a href="/packages/" class="btn btn-sm btn-show-more">Show more</a>
-</h3>
-
-<PackageRecent :count="6" />
-
-<social-share />
-
 <style lang="stylus">
-.homepage
-  .btn-show-more
-    margin-left 0.5rem
 </style>

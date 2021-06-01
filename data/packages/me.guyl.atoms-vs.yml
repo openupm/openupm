@@ -1,0 +1,21 @@
+name: me.guyl.atoms-vs
+displayName: Unity Atoms Visual Scripting
+description: Atoms nodes for Unity Visual Scripting
+repoUrl: 'https://github.com/bguyl/unity-atoms-vs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+  - visual-scripting
+hunter: bguyl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.4'
+image: https://media.githubusercontent.com/media/bguyl/unity-atoms-vs/main/Documentation%7E/atoms-vs_cover.jpg
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity Atoms视觉脚本
+description_zhCN: Unity可视脚本的Atoms节点
+createdAt: 1610573305855

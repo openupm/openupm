@@ -1,0 +1,20 @@
+name: io.extendreality.tilia.camerarigs.unityxr
+displayName: Tilia CameraRigs UnityXR
+description: A camera rig prefab utilizing the UnityXR components
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - camera
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/raw/79bcd07ff224f457400f35bd5ac0957afafceced/Documentation/HowToGuides/AddingAUnityXRCameraRig/assets/images/PrefabInScene.png
+readme: 'master:README.md'
+createdAt: 1594930176624
+displayName_zhCN: Tilia CameraRigs UnityXR
+description_zhCN: 利用UnityXR组件的Prefab摄像头

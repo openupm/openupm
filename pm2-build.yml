@@ -8,26 +8,75 @@ apps:
     out_file: ./logs/queue-main.log
     combine_logs: true
     max_memory_restart: 512M
-    max_restarts: 5
     autorestart: true
-  - name: pkg-build
-    instance_var: pkg-build
+  - name: add-build-package-job
+    instance_var: add-build-package-job
     cwd: /home/openupm/openupm
     script: ./app/jobs/addBuildPackageJob.js
     args: --all
-    error_file: ./logs/pkg-build-error.log
-    out_file: ./logs/pkg-build.log
+    error_file: ./logs/add-build-package-job-error.log
+    out_file: ./logs/add-build-package-job.log
     combine_logs: true
     max_memory_restart: 512M
     cron_restart: "*/5 * * * *"
     autorestart: false
-  - name: pkg-extra
-    instance_var: pkg-extra
+  - name: fetch-package-extra
+    instance_var: fetch-package-extra
     cwd: /home/openupm/openupm
     script: ./app/jobs/fetchPackageExtra.js
     args: --all
-    error_file: ./logs/pkg-extra-error.log
-    out_file: ./logs/pkg-extra.log
+    error_file: ./logs/fetch-package-extra-error.log
+    out_file: ./logs/fetch-package-extra.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "1 * * * *"
+    autorestart: false
+  - name: aggregate-package-extra
+    instance_var: aggregate-package-extra
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/aggregatePackageExtra.js
+    error_file: ./logs/aggregate-package-extra-error.log
+    out_file: ./logs/aggregate-package-extra.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/5 * * * *"
+    autorestart: false
+  - name: update-recent-packages
+    instance_var: update-recent-packages
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/updateRecentPackages.js
+    error_file: ./logs/update-recent-packages-error.log
+    out_file: ./logs/update-recent-packages.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/5 * * * *"
+    autorestart: false
+  - name: fetch-site-info
+    instance_var: fetch-site-info
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/fetchSiteInfo.js
+    error_file: ./logs/fetch-site-info-error.log
+    out_file: ./logs/fetch-site-info.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/5 * * * *"
+    autorestart: false
+  - name: update-feeds
+    instance_var: update-feeds
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/updateFeeds.js
+    error_file: ./logs/update-feeds-error.log
+    out_file: ./logs/update-feeds.log
+    combine_logs: true
+    max_memory_restart: 512M
+    cron_restart: "*/5 * * * *"
+    autorestart: false
+  - name: fetch-backer-data
+    instance_var: fetch-backer-data
+    cwd: /home/openupm/openupm
+    script: ./app/jobs/fetchBackerData.js
+    error_file: ./logs/fetch-backer-data-error.log
+    out_file: ./logs/fetch-backer-data.log
     combine_logs: true
     max_memory_restart: 512M
     cron_restart: "*/30 * * * *"

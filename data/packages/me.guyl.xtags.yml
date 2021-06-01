@@ -1,0 +1,19 @@
+name: me.guyl.xtags
+displayName: XTags
+description: Extra tags/keywords for Unity script templates
+repoUrl: 'https://github.com/bguyl/UnityScriptTemplates-XTags'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: XTags
+description_zhCN: Unity脚本模板的额外标签/关键字
+createdAt: 1610833257321

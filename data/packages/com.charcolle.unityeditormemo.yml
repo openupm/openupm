@@ -1,0 +1,19 @@
+name: com.charcolle.unityeditormemo
+displayName: Unity Editor Memo
+description: post notes on unityeditor
+repoUrl: 'https://github.com/charcolle/UnityEditorMemo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/charcolle/UnityEditorMemo/raw/e3461ce5c97dde292c5344d60749b41f0be647d3/desc/unityeditormemo_ver3_main.png
+readme: 'master:README.md'
+createdAt: 1597167365575
+displayName_zhCN: Unity编辑器备忘录
+description_zhCN: 用于Unity编辑器的备忘录

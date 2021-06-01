@@ -1,0 +1,19 @@
+name: com.dman.reactive-variables
+displayName: 'Reactive '
+description: null
+repoUrl: 'https://github.com/dsmiller95/DmanUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: dsmiller95
+gitTagPrefix: com.dman.reactive-variables/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UtilityScripts/com.dman.reactive-variables/README.md'
+readme_zhCN: ''
+displayName_zhCN: 反应式变量
+description_zhCN: ''
+createdAt: 1610310784123

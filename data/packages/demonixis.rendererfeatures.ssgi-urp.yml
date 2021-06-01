@@ -1,0 +1,19 @@
+name: demonixis.rendererfeatures.ssgi-urp
+displayName: SSGI-URP
+description: Screen Space Global Illumination for Unity Universal Render Pipeline
+repoUrl: 'https://github.com/demonixis/SSGI-URP'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/demonixis/SSGI-URP/raw/4459fd3639f337195205edd889e03f0b0da058c9/Images/ssgi-on.jpg
+readme: 'master:README.md'
+createdAt: 1591033408372
+displayName_zhCN: SSGI-URP
+description_zhCN: Unity Universal Render Pipeline的屏幕空间全局照明

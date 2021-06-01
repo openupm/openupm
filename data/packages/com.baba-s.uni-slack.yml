@@ -1,0 +1,17 @@
+name: com.baba-s.uni-slack
+displayName: UniSlack
+description: null
+repoUrl: 'https://github.com/baba-s/UniSlack'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591633366787
+displayName_zhCN: UniSlack

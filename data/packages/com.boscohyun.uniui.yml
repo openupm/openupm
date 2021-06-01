@@ -1,0 +1,19 @@
+name: com.boscohyun.uniui
+displayName: UniUI
+description: A simple UI management package for Unity.
+repoUrl: 'https://github.com/boscohyun/UniUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: boscohyun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: UniUI
+description_zhCN: 一个简单的Unity UI管理界面。
+createdAt: 1611696519793

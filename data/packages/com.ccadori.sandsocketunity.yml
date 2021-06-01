@@ -1,0 +1,20 @@
+name: com.ccadori.sandsocketunity
+displayName: Sand Socket Unity
+description: >-
+  Sand Unity is a Unity3D client for Sand, built as a UPM (Unity Package
+  Manager).
+repoUrl: 'https://github.com/ccadori/sand-socket-unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: GPLv3
+topics:
+  - network
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594164113674
+displayName_zhCN: Sand Socket Unity
+description_zhCN: Sand Unity是用于Sand的Unity3D客户端

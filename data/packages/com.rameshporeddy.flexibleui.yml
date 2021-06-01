@@ -1,0 +1,19 @@
+name: com.rameshporeddy.flexibleui
+displayName: Flexible UI
+description: A Unity System to Implement Multiple GUI Themes
+repoUrl: 'https://github.com/rameshporeddy/FlexibleUI-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/rameshporeddy/FlexibleUI-Unity/master/output.gif
+readme: 'master:README.md'
+createdAt: 1603304288435
+displayName_zhCN: 灵活的用户界面
+description_zhCN: 一个实现多个GUI主题的Unity系统

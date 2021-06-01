@@ -7,7 +7,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - library
+  - utilities
   - procedural-generation
 hunter: favoyang
 gitTagPrefix: upm/
@@ -15,3 +15,5 @@ gitTagIgnore: ''
 image: >-
   https://github.com/sarkahn/rltk_unity/raw/a6261b730ebca5e7865aea203a344132220fb3da/Assets/Documentation/images~/splash.png
 createdAt: 1583551418661
+displayName_zhCN: RLTK
+description_zhCN: 在Unity中开发基于ascii的“传统”的roguelike的框架。

@@ -1,0 +1,19 @@
+name: hip.gametoolkit.localization
+displayName: GameToolkit Localization
+description: Asset localization system for Unity.
+repoUrl: 'https://github.com/ibrahimpenekli/GameToolkit-Localization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/49195a828d6fa6e5ab81caa2e32613c5e7bd354a/68747470733a2f2f67626c6f627363646e2e676974626f6f6b2e636f6d2f6173736574732532462d4c52687157366a366d52675a6f4572534374322532462d4d326d324d684739365031315548445f54775a2532462d4d326d4258565768737334474b425452685a72253246556e69747941737365744c6f63616c697a6174696f6e5f507265766965772e6769663f616c743d6d6564696126746f6b656e3d36306262373139322d346363322d346338362d396536642d623961376238356339363933
+readme: 'upm:README.md'
+createdAt: 1590078090235
+displayName_zhCN: GameToolkit本地化
+description_zhCN: Unity的资源本地化系统。

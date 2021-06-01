@@ -1,0 +1,24 @@
+name: com.vovgou.loxodon-framework-connection
+displayName: Loxodon Framework Connection
+description: >-
+  This is a network connection component, implemented using TcpClient, supports
+  IPV6 and IPV4, automatically recognizes the current network when connecting
+  with a domain name, and preferentially connects to the IPV4 network.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - frameworks
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.0.2
+image: 'https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png'
+readme: 'master:Loxodon.Framework.Connection/README.md'
+createdAt: 1594375319319
+displayName_zhCN: Loxodon框架 - 连接
+description_zhCN: 这是一个使用TcpClient实现的网络连接组件，支持IPV6和IPV4，在与域名连接时自动识别当前网络，并优先连接到IPV4网络。

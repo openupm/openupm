@@ -1,0 +1,20 @@
+name: nl.elmarjansen.geojsoncitybuilder
+displayName: GeoJSON City Builder
+description: Unity Package to recreate a 3D-city from a specially crafted geojson file.
+repoUrl: 'https://github.com/ElmarJ/GeoJsonCityBuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Jodenbreestraat.png
+readme: 'master:README.md'
+createdAt: 1591988192052
+displayName_zhCN: GeoJSON 城市构建器
+description_zhCN: Unity包，可通过特制的geojson文件重新创建3D城市。

@@ -1,0 +1,18 @@
+name: org.shin.utilities
+displayName: Shin Utilities
+description: Shin Utilities
+repoUrl: 'https://github.com/sindharta/unity_utilities'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594524776718
+displayName_zhCN: Shin实用工具
+description_zhCN: Shin实用工具

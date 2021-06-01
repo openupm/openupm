@@ -1,0 +1,19 @@
+name: games.feed.destringer
+displayName: Destringer
+description: Code generation tool to create type safe wrapper for Unity3D's Animator API.
+repoUrl: 'https://github.com/rhys-vdw/unity-destringer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - code-generation
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594857821398
+displayName_zhCN: Destringer
+description_zhCN: 代码生成工具，用于为Unity3D的Animator API创建类型安全包装。

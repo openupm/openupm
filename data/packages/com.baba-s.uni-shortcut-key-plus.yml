@@ -1,0 +1,19 @@
+name: com.baba-s.uni-shortcut-key-plus
+displayName: UniShortcutKeyPlus
+description: 【Unity】Unity エディタで使用できるショートカットキーを13個追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniShortcutKeyPlus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79828088-f84b1200-83da-11ea-9fdc-14769b848147.png
+readme: 'master:README.md'
+createdAt: 1591708266435
+displayName_zhCN: UniShortcutKeyPlus
+description_zhCN: 添加可用于Unity编辑器的13个快捷键

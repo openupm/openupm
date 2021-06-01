@@ -1,0 +1,20 @@
+name: com.mefistofiles.unity-event-visualizer
+displayName: Unity Event Visualizer
+description: A graph editor for viewing all UnityEvents at a glance
+repoUrl: 'https://github.com/MephestoKhaan/UnityEventVisualizer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+hunter: Bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.4.2
+image: >-
+  https://camo.githubusercontent.com/169dbaaa95afeac5044c17022d98878facc83ce7/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f63413356556957543046496c4b65624352532f67697068792e676966
+readme: 'master:Assets/EventVisualizer/ReadMe.md'
+createdAt: 1591476351373
+displayName_zhCN: Unity事件可视化器
+description_zhCN: 图形编辑器，一目了然地查看所有UnityEvent

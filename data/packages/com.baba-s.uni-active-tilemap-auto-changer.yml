@@ -1,0 +1,23 @@
+name: com.baba-s.uni-active-tilemap-auto-changer
+displayName: UniActiveTilemapAutoChanger
+description: >-
+  【Unity】Tilemap が複製された時に、複製された Tilemap を Tile Palette の Active Tilemap
+  に自動で設定するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniActiveTilemapAutoChanger'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/f47374047504e26bbe9261fbd5282c07f7bf77e5/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303932382f32303139303932383134303435362e676966
+readme: 'master:README.md'
+createdAt: 1591715670539
+displayName_zhCN: UniActiveTilemapAutoChanger
+description_zhCN: Unity编辑器Tilemap扩展程序

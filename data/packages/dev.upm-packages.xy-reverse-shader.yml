@@ -1,0 +1,19 @@
+name: dev.upm-packages.xy-reverse-shader
+displayName: XY Reverse Shader
+description: ↔️ uGUI xy reverse shader
+repoUrl: 'https://github.com/umm/xy_reverse_shader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/umm/xy_reverse_shader/raw/e629a954f6d5add4b6d5d1f29457eea13034fb8f/art/reverse_small.gif
+readme: 'master:README.md'
+createdAt: 1594228033967
+displayName_zhCN: XY反向shader
+description_zhCN: ↔️ uGUI xy反向shader

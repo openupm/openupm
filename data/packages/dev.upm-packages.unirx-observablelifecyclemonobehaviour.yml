@@ -1,0 +1,19 @@
+name: dev.upm-packages.unirx-observablelifecyclemonobehaviour
+displayName: UniRx ObservableLifecycleMonoBehaviour
+description: 'Provide UniRx wrapper for MonoBehaviour.Awake(), MonoBehaviour.Start()'
+repoUrl: 'https://github.com/umm/unirx_observablelifecyclemonobehaviour'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594227310417
+displayName_zhCN: UniRx ObservableLifecycleMono行为
+description_zhCN: 为MonoBehaviour.Awake()，MonoBehaviour.Start()提供UniRx包装

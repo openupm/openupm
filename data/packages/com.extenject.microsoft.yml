@@ -1,0 +1,17 @@
+name: com.extenject.microsoft
+displayName: Extenject.Microsoft
+description: null
+repoUrl: 'https://github.com/KuraiAndras/Extenject.Microsoft'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: di/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1606559334771
+displayName_zhCN: Extenject.Microsoft

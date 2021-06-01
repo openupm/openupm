@@ -1,0 +1,19 @@
+name: com.baba-s.uni-scene-asset-selector
+displayName: UniSceneAssetSelector
+description: 【Unity】Hierarchy にシーンファイルを Ping するボタンを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSceneAssetSelector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79828290-6abbf200-83db-11ea-896d-e72080674d43.gif
+readme: 'master:README.md'
+createdAt: 1591646817796
+displayName_zhCN: UniSceneAssetSelector
+description_zhCN: 在项目视图中选择当前资源

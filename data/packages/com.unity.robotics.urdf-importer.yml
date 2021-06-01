@@ -1,0 +1,19 @@
+name: com.unity.robotics.urdf-importer
+displayName: URDF Importer
+description: URDF importer
+repoUrl: 'https://github.com/Unity-Technologies/URDF-Importer'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605285742595
+displayName_zhCN: URDF导入器
+description_zhCN: URDF导入器

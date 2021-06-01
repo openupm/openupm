@@ -1,0 +1,18 @@
+name: com.madsbangh.easybuttons
+displayName: Easy Buttons
+description: Add buttons to your inspector in Unity super easily with this simple attribute
+repoUrl: 'https://github.com/madsbangh/EasyButtons'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/madsbangh/EasyButtons/raw/49a8f08d948178480c5f4380a3279eebfe3da9cf/Images/inspector.png
+readme: 'master:README.md'
+createdAt: 1589049735076
+displayName_zhCN: 简易按钮
+description_zhCN: 通过这个简单的属性，可以轻松地在Unity中将按钮添加到inspector中

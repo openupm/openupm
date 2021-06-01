@@ -1,0 +1,17 @@
+name: com.baba-s.uni-screen-size
+displayName: UniScreenSize
+description: null
+repoUrl: 'https://github.com/baba-s/UniScreenSize'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602025450414
+displayName_zhCN: UniScreenSize

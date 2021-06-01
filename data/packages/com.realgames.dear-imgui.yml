@@ -1,0 +1,18 @@
+name: com.realgames.dear-imgui
+displayName: Dear ImGui
+description: Unity package for Dear ImGui
+repoUrl: 'https://github.com/realgamessoftware/dear-imgui-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/realgamessoftware/dear-imgui-unity/raw/6d8af730dbe2866bacb1a59b6ceccb5642486825/Resources/Cursors/dmz-white/left_ptr.png
+readme: 'master:README.md'
+createdAt: 1588907086516
+displayName_zhCN: Dear ImGui
+description_zhCN: Dear ImGui的Unity软件包

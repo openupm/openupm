@@ -1,0 +1,19 @@
+name: com.baba_s.uni-compile-timer
+displayName: UniCompileTimer
+description: コンパイル時間を計測するエディタ拡張
+repoUrl: 'https://github.com/baba-s/uni-compile-timer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591720090764
+displayName_zhCN: UniCompileTimer
+description_zhCN: 测量编译时间

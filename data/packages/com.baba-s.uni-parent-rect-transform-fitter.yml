@@ -1,0 +1,20 @@
+name: com.baba-s.uni-parent-rect-transform-fitter
+displayName: UniParentRectTransformFitter
+description: 【Unity】親オブジェクトが子オブジェクトをすべて内包するように親オブジェクトの位置とサイズを調整するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniParentRectTransformFitter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/61863367/81366601-06f92f00-9126-11ea-9cc6-15a5696b49bb.gif
+readme: 'master:README.md'
+createdAt: 1591646874064
+displayName_zhCN: UniParentRectTransformFitter
+description_zhCN: 调整父对象的位置和大小

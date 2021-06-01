@@ -1,0 +1,18 @@
+name: com.baba-s.uni-vector-extensions-methods
+displayName: UniVectorExtensionMethods
+description: 【Unity】Vector2、Vector3 型の拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniVectorExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598310107119
+displayName_zhCN: UniVectorExtensionMethods
+description_zhCN: Vector2，Vector3类型的扩展方法

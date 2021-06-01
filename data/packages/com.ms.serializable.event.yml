@@ -1,0 +1,20 @@
+name: com.ms.serializable.event
+displayName: Serializable Event
+description: Better Persistent Event System than UnityEvent
+repoUrl: 'https://github.com/wlgys8/SerializableEvent'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/wiki/wlgys8/SerializableEvent/.images/img2.jpeg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 可序列化事件
+description_zhCN: 比UnityEvent更好的持久事件系统
+createdAt: 1606931717458

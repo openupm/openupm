@@ -1,0 +1,21 @@
+name: com.danielmansson.mathematics.fixedpoint
+displayName: Mathematics.FixedPoint
+description: >-
+  Fixed-point extension of Unity's C# math library based on FixedMath.Net and
+  Unity.Mathematics.
+repoUrl: 'https://github.com/danielmansson/Unity.Mathematics.FixedPoint'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Mathematics.FixedPoint定点数
+description_zhCN: 基于FixedMath.Net和Unity.Mathematics的Unity C＃数学库的定点数扩展。
+createdAt: 1608579757272

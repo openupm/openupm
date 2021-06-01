@@ -1,0 +1,20 @@
+name: com.unigame.nodesystem
+displayName: UniGame UniNode System
+description: Reactive Node game system for Unity
+repoUrl: 'https://github.com/UniGameTeam/UniGame.GameFlow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6575d91e2a111f1af76b6b292234b1f35431502f/68747470733a2f2f692e6779617a6f2e636f6d2f61336263343639326532656664643631623733393333643231353234616139382e706e67
+readme: 'master:UniNodesSystem/Assets/UniGame.UniNodes/NodeSystem/README.md'
+createdAt: 1595018310124
+displayName_zhCN: UniGame UniNode系统
+description_zhCN: Unity的响应式节点游戏系统

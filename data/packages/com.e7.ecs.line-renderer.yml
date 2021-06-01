@@ -6,8 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
+  - dots-and-ecs
   - animation
 hunter: favoyang
 createdAt: 1576336848000
-image: https://raw.githubusercontent.com/5argon/ECSLineRenderer/8f55fe0dc6ad3565b24a2afc2c710313eb451ce3/.Documentation/images/ss1.png
+image: >-
+  https://raw.githubusercontent.com/5argon/ECSLineRenderer/8f55fe0dc6ad3565b24a2afc2c710313eb451ce3/.Documentation/images/ss1.png
+displayName_zhCN: ECS线条渲染器
+description_zhCN: ECS的方法来渲染线条

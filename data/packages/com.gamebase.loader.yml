@@ -1,0 +1,18 @@
+name: com.gamebase.loader
+displayName: Gamebase-Loader
+description: null
+repoUrl: 'https://github.com/hiyorin/Gamebase-Loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591732027324
+displayName_zhCN: Gamebase-加载器

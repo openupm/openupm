@@ -1,0 +1,20 @@
+name: se.hertzole.cecil-attributes
+displayName: Cecil Attributes
+description: A set of Unity attributes to automate your workflow.
+repoUrl: 'https://github.com/Hertzole/cecil-attributes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Cecil属性
+description_zhCN: 一组Unity属性可自动执行您的工作流。
+createdAt: 1607790398715

@@ -1,0 +1,20 @@
+name: com.adrenak.ugx
+displayName: UGUI extended
+description: >-
+  UGX: UGUI Extended is a high-level library over Unity's inbuilt uGui.
+  Currently a work in progress
+repoUrl: 'https://github.com/adrenak/ugx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:CHANGELOG.md'
+createdAt: 1599747206704
+displayName_zhCN: UGUI扩展
+description_zhCN: UGX：UGUI扩展是封装了Unity内建uGui的高级库，目前正在开发中。

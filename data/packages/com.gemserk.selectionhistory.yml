@@ -1,0 +1,17 @@
+name: com.gemserk.selectionhistory
+displayName: Selection History by Gemserk
+description: A simple selection history window for Unity.
+repoUrl: 'https://github.com/acoppes/unity-history-window'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: acoppes
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587228791622
+displayName_zhCN: Gemserk的选择历史
+description_zhCN: 一个简单的Unity历史操作窗口。

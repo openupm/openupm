@@ -1,0 +1,19 @@
+name: com.unityfx.outline
+displayName: Screen-space outline
+description: Screen-space outlines for Unity3d.
+repoUrl: 'https://github.com/Arvtesh/UnityFx.Outline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Arvtesh/UnityFx.Outline/raw/6bf864f905a85f9789d9f96369777ce27b5cf994/Docs/OutlineSamples.png
+readme: 'master:README.md'
+createdAt: 1589946185764
+displayName_zhCN: 屏幕空间边框
+description_zhCN: 屏幕空间边框

@@ -1,0 +1,20 @@
+name: com.utj.memorysnapshot2csv
+displayName: MemoryProfilerToCsv
+description: Unityの新しいMemoryProfiler(2018.3-)のを CSVに書き出します
+repoUrl: 'https://github.com/wotakuro/UnityMemorySnapshotToCsv'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - profiling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: MemoryProfilerToCsv MemoryProfiler转CSV
+description_zhCN: 将Unity的新Memory Profiler（2018.3+）导出为CSV
+createdAt: 1607386420755

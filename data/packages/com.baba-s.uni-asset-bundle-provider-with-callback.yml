@@ -1,0 +1,18 @@
+name: com.baba-s.uni-asset-bundle-provider-with-callback
+displayName: UniAssetBundleProviderWithCallback
+description: 【Unity】Addressable の AssetBundleProvider にコールバック機能を追加したパッケージ
+repoUrl: 'https://github.com/baba-s/UniAssetBundleProviderWithCallback'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602441418479
+displayName_zhCN: UniAssetBundleProviderWithCallback
+description_zhCN: 带回调函数的可寻址资源的AssetBundleProvider

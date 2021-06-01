@@ -1,0 +1,19 @@
+name: com.xienaiwen.taa
+displayName: TAA
+description: Temporal Anti-Aliasing(TAA) for Unity’s Universal Render Pipeline
+repoUrl: 'https://github.com/sienaiwun/TAA_Unity_URP'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/sienaiwun/publicImgs/master/imgs/TAA/TAA.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: TAA
+description_zhCN: Unity的通用渲染管线的临时性抗锯齿（TAA）
+createdAt: 1610480630363

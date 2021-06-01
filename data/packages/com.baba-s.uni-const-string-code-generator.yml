@@ -1,0 +1,18 @@
+name: com.baba-s.uni-const-string-code-generator
+displayName: UniConstStringCodeGenerator
+description: 【Unity】文字列の定数のコードを生成するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniConstStringCodeGenerator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591633948800
+displayName_zhCN: UniConstStringCodeGenerator
+description_zhCN: 编辑器扩展，生成代码常量代码

@@ -1,0 +1,21 @@
+name: com.aria.unity.socialconnector
+displayName: SocialConnector
+description: Social Connector
+repoUrl: 'https://github.com/TK-Aria/social-connector'
+parentRepoUrl: 'https://github.com/anchan828/social-connector'
+licenseSpdxId: Zlib
+licenseName: zlib License
+topics:
+  - integration
+  - mobile
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/c4465c1e42e52682a83674c26d06bea3eeae0022/68747470733a2f2f692e6779617a6f2e636f6d2f30396262336465333933666164336462626337313531363339333137663936302e706e67
+readme: 'master:README.md'
+createdAt: 1593645410630
+displayName_zhCN: SocialConnector
+description_zhCN: 社交连接器

@@ -1,0 +1,20 @@
+name: com.cysharp.zlogger
+displayName: ZLogger
+description: >-
+  Zero Allocation Text/Strcutured Logger for .NET Core and Unity, built on top
+  of a Microsoft.Extensions.Logging.
+repoUrl: 'https://github.com/Cysharp/ZLogger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/46207/78019524-d4238480-738a-11ea-88ac-00caa8bc5228.png
+readme: 'master:README.md'
+createdAt: 1589416819319
+displayName_zhCN: ZLogger
+description_zhCN: 基于Microsoft.Extensions.Logging的零内存分配文本或结构化Logger。

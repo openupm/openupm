@@ -1,0 +1,18 @@
+name: com.baba-s.uni-move-top-component-attribute
+displayName: UniMoveTopComponentAttribute
+description: 【Unity】指定したコンポーネントの Inspector における並び順を自動で一番上に移動するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniMoveTopComponentAttribute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598306194085
+displayName_zhCN: UniMoveTopComponentAttribute
+description_zhCN: 指定组件在inspector中的顺序

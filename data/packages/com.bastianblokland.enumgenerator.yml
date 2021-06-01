@@ -1,16 +1,13 @@
-# Project info.
-repoUrl: https://github.com/BastianBlokland/enum-generator-unity
+repoUrl: 'https://github.com/BastianBlokland/enum-generator-unity'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-
-# Package info.
 name: com.bastianblokland.enumgenerator
 displayName: Enum Generator
 description: Tool for generating c# enums based on json input files.
-
-# Add-ons.
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1571471262000
+displayName_zhCN: 枚举生成器
+description_zhCN: 基于JSON输入文件生成C#枚举的工具。

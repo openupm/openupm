@@ -1,0 +1,22 @@
+name: com.kelvip.quick-scene-switcher
+displayName: Quick Scene Switcher
+description: >-
+  A Unity tool for quickly switching between scenes without having to go through
+  folders.
+repoUrl: 'https://github.com/Kelvin-CD/Quick-Scene-Switcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Kelvin-CD/Quick-Scene-Switcher/raw/4375eecbf246012ae0bc065d737d9f68d5b0f910/AddScene.png
+readme: 'master:README.md'
+createdAt: 1594518305535
+displayName_zhCN: 快速场景切换器
+description_zhCN: 一个Unity工具，无需浏览文件夹即可在场景之间快速切换。

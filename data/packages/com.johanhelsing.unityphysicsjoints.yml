@@ -1,0 +1,19 @@
+name: com.johanhelsing.unityphysicsjoints
+displayName: Unity Physics Joints
+description: >-
+  UPM package of the joints components from the official
+  EntityComponentSystemSamples repo
+repoUrl: 'https://github.com/johanhelsing/unity-physics-joints'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - dots-and-ecs
+  - physics
+hunter: johanhelsing
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1586580389318
+displayName_zhCN: Unity物理关节
+description_zhCN: 官方EntityComponentSystemSamples代码仓库中的关节组件的UPM软件包

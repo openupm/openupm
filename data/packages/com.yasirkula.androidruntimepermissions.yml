@@ -1,0 +1,19 @@
+name: com.yasirkula.androidruntimepermissions
+displayName: Android Runtime Permissions
+description: A native Unity plugin to handle runtime permissions on Android M+
+repoUrl: 'https://github.com/yasirkula/UnityAndroidRuntimePermissions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityAndroidRuntimePermissions/raw/c19a719d31aa70b1fd10f66ca2a46ec79bd7d212/.github/Images/permission.png
+readme: 'master:.github/README.md'
+createdAt: 1589513209941
+displayName_zhCN: Android运行时权限
+description_zhCN: 一个原生Unity插件来处理Android M+上的运行时权限

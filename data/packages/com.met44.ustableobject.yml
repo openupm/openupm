@@ -1,0 +1,17 @@
+name: com.met44.ustableobject
+displayName: uStableObject
+description: Unity3D ScriptableObject based architecture framework
+repoUrl: 'https://github.com/met44/uStableObject'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588953266385
+displayName_zhCN: uStableObject
+description_zhCN: 基于Unity3D ScriptableObject的框架

@@ -1,17 +1,21 @@
 name: com.reese.random
 displayName: Reese's DOTS Randomization
 description: >-
-  Unity.Mathematics.Random number generators for jobs, including Burst-capable ones.
+  Unity.Mathematics.Random number generators for jobs, including Burst-capable
+  ones.
 repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
 hunter: reeseschultz
 gitTagPrefix: random/
 gitTagIgnore: ''
 image: >-
   https://github.com/reeseschultz/ReeseUnityDemos/raw/b4b81a01f5574fd634d89babdc465db057f2584f/Gifs/nav-performance-demo.gif
+readme: 'master:Packages/com.reese.random/README.md'
 createdAt: 1582651130542
+displayName_zhCN: Reese的DOTS随机化
+description_zhCN: Unity.Mathematics.Random随机生成器，可用于jobs，包括Burst。

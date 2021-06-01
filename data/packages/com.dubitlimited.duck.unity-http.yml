@@ -1,0 +1,18 @@
+name: com.dubitlimited.duck.unity-http
+displayName: Unity HTTP
+description: A handy wrapper for the Unity WebRequest system.
+repoUrl: 'https://github.com/dubit/unity-http'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594683730874
+displayName_zhCN: Unity HTTP
+description_zhCN: Unity WebRequest系统的包装类

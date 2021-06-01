@@ -1,0 +1,18 @@
+name: com.baba-s.uni-editor-square-theme
+displayName: UniEditorSquareTheme
+description: null
+repoUrl: 'https://github.com/baba-s/UniEditorSquareTheme'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/94357346-3e677880-00d3-11eb-912b-87dba4f34fc7.png
+readme: 'master:README.md'
+createdAt: 1601086065399
+displayName_zhCN: UniEditorSquareTheme

@@ -1,0 +1,20 @@
+name: com.qfsw.qgui
+displayName: QGUI
+description: >-
+  A simple but effective IMGUI library for the Unity Engine for when
+  EditorGUILayout is unavailable
+repoUrl: 'https://github.com/QFSW/QGUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602952733731
+displayName_zhCN: QGUI
+description_zhCN: 当EditorGUILayout不可用时，Unity Engine的简单但有效的IMGUI库

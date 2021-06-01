@@ -1,0 +1,21 @@
+name: dev.kalucky0.measuretape
+displayName: MeasureTape
+description: >-
+  MeasureTape is a Unity Editor extension that gives you the ability to measure
+  gameobjects in your scene.
+repoUrl: 'https://github.com/kalucky0/MeasureTape'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1602572837166
+displayName_zhCN: MeasureTape
+description_zhCN: MeasureTape是Unity编辑器扩展，可让您测量场景中的游戏对象。

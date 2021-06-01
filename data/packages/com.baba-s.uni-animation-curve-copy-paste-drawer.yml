@@ -1,0 +1,20 @@
+name: com.baba-s.uni-animation-curve-copy-paste-drawer
+displayName: UniAnimationCurveCopyPasteDrawer
+description: 【Unity】Inspector で AnimationCurve をコピー・ペーストできるようにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniAnimationCurveCopyPasteDrawer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81039409-e5a90080-8ee3-11ea-9233-cae3f628f30d.gif
+readme: 'master:README.md'
+createdAt: 1591666456853
+displayName_zhCN: UniAnimationCurveCopyPasteDrawer
+description_zhCN: 支持使用Inspector复制和粘贴曲线动画

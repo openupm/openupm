@@ -1,0 +1,21 @@
+name: com.lennethproduction.isosorting
+displayName: IsoSorting
+description: A system for sort isometrics tiles using ECS
+repoUrl: 'https://github.com/Sylmerria/IsoSorting'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/84a4110348e855322b54808e803265b05d500ded079991c36035c38ae7ed7db4/68747470733a2f2f7a7570696d616765732e6e65742f75702f31392f32382f647078722e706e67
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: IsoSorting
+description_zhCN: 使用ECS排序的斜45度图块系统
+createdAt: 1613069751644

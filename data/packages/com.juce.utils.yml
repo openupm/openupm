@@ -1,0 +1,19 @@
+name: com.juce.utils
+displayName: Juce-Utils
+description: Utils repo that's part of the Juce Unity framework
+repoUrl: 'https://github.com/Juce-Assets/Juce-Utils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - gui
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'stable:README.md'
+createdAt: 1603215338642
+displayName_zhCN: Juce-实用程序
+description_zhCN: Juce Unity框架的一部分

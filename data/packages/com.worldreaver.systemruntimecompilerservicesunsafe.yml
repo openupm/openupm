@@ -1,0 +1,20 @@
+name: com.worldreaver.systemruntimecompilerservicesunsafe
+displayName: SystemRuntimeCompilerServicesUnsafe
+description: >-
+  Provides the System.Runtime.CompilerServices.Unsafe class, which provides
+  generic, low-level functionality for manipulating pointers.
+repoUrl: 'https://github.com/worldreaver/SystemRuntimeCompilerServicesUnsafe'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589380642316
+displayName_zhCN: SystemRuntimeCompilerServicesUnsafe
+description_zhCN: 提供System.Runtime.CompilerServices.Unsafe类，该类提供用于操纵指针的通用低级功能。

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-get-component-with-log-extension-methods
+displayName: UniGetComponentWithLogExtensionMethods
+description: 【Unity】GetComponent や Find 系の関数でコンポーネントやオブジェクトの取得に失敗した時にログ出力できる拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniGetComponentWithLogExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593354605588
+displayName_zhCN: UniGetComponentWithLogExtensionMethods
+description_zhCN: 获取GetComponent时打印日志

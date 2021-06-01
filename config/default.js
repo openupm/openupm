@@ -78,5 +78,41 @@ module.exports = {
     },
     buildUrlBase:
       "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/"
+  },
+
+  // Feeds
+  feeds: {
+    recentUpdateCount: 50
+  },
+
+  // PackageExtra
+  packageExtra: {
+    image: { width: 600, height: 300, duration: 24 * 3600 * 1000 },
+    avatar: {
+      small: { size: 48, duration: 24 * 3600 * 1000 },
+      normal: { size: 128, duration: 24 * 3600 * 1000 }
+    }
+  },
+
+  s3: {
+    config: {
+      endpoint: "",
+      accessKeyId: "",
+      secretAccessKey: "",
+      s3ForcePathStyle: true
+    },
+    mediaBucket: "openupm"
+  },
+
+  healthCheck: {
+    ids: {
+      fetchPackageExtra: "",
+      aggregatePackageExtra: "",
+      updateRecentPackages: "",
+      fetchSiteInfo: "",
+      updateFeeds: "",
+      fetchBackerData: "",
+      addBuildPackageJob: ""
+    }
   }
 };

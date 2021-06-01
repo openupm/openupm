@@ -1,0 +1,19 @@
+name: com.baba-s.uni-build-report-writer
+displayName: UniBuildReportWriter
+description: 【Unity】ビルド開始時に BuildReport を JSON 形式で Resources フォルダ内に保存するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniBuildReportWriter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594517588843
+displayName_zhCN: UniBuildReportWriter
+description_zhCN: 在Build开始时以JSON格式保存BuildReport

@@ -1,0 +1,17 @@
+name: com.laicasaane.unity-supplements
+displayName: Unity Supplements
+description: Additional types and functionality
+repoUrl: 'https://github.com/laicasaane/unity-supplements'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588712263887
+displayName_zhCN: Unity补充
+description_zhCN: 其他类型和功能

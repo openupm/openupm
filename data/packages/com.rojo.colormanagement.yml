@@ -1,0 +1,19 @@
+name: com.rojo.colormanagement
+displayName: Color Management
+description: null
+repoUrl: 'https://github.com/JoseMiguelPizarro/ColorManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JoseMiguelPizarro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 色彩管理
+description_zhCN: ''
+createdAt: 1611764571680

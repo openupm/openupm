@@ -1,0 +1,21 @@
+name: com.azixmcaze.unity-execution-order
+displayName: Unity-ExecutionOrder
+description: >-
+  A collection of attributes to control the execution order of your scripts in
+  Unity from your source code.
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/Unity-ExecutionOrder'
+parentRepoUrl: 'https://github.com/azixMcAze/Unity-ExecutionOrder'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity-ExecutionOrder
+description_zhCN: 属性集合，用于从源代码控制Unity中脚本的执行顺序。
+createdAt: 1613496094259

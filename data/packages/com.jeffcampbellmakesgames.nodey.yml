@@ -6,12 +6,15 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - library
-  - ui
+  - editor-enhancement
+  - utilities
+  - gui
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/Nodey/raw/edf34f68fc1776be32911182fc56c2634c8203d7/Images/ExampleNodeyGraph.png
+readme: 'develop:README.md'
 createdAt: 1583739898535
+displayName_zhCN: JCMG Nodey
+description_zhCN: 使您可以在Unity内部查看和编辑节点图

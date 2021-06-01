@@ -1,0 +1,19 @@
+name: games.artees.svg-importer
+displayName: SVG Importer
+description: SVG Importer for Unity
+repoUrl: 'https://github.com/Artees/SVGImporter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - 2d
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589454258717
+displayName_zhCN: SVG导入器
+description_zhCN: SVG Unity导入器

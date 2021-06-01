@@ -6,8 +6,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - ui
+  - gui
 hunter: fuqunaga
 gitTagIgnore: ''
 createdAt: 1579664560576
-image: https://github.com/fuqunaga/PrefsGUI/raw/master/Documentation~/PrefsGUI.gif
+image: 'https://github.com/fuqunaga/PrefsGUI/raw/master/Documentation~/PrefsGUI.gif'
+displayName_zhCN: PrefsGUI
+description_zhCN: 使用JSON文件的持久化首选项的访问器和GUI

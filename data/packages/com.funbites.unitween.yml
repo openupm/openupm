@@ -1,0 +1,21 @@
+name: com.funbites.unitween
+displayName: Funbites UniTween
+description: >-
+  UniTween is a Tween framework for Unity that enables programmers and artists
+  to create almost any kind of Tween in a workflow that is easy to learn, fun to
+  use, and with great maintainability.
+repoUrl: 'https://github.com/Funbites-Game-Studio/com.funbites.unitween'
+parentRepoUrl: 'https://github.com/sampaiodias/UniTween'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/sampaiodias/UniTween/master/Images/Logo.png'
+readme: 'master:README.md'
+createdAt: 1592144511912
+displayName_zhCN: Funbites UniTween
+description_zhCN: UniTween是一个Unity的Tween框架，使程序员和艺术家能够在工作流程中创造几乎任何类型的Tween。

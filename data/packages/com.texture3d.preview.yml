@@ -1,0 +1,21 @@
+name: com.texture3d.preview
+displayName: Unity Texture3D Preview
+description: UPM version of Texture3D preview
+repoUrl: 'https://github.com/alerdenisov/com.texture3d.preview'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/2a98947fe90241fe328859c7bc1fda9c7d8d4bce/68747470733a2f2f692e696d6775722e636f6d2f4c6d354b796b772e676966
+readme: 'master:README.md'
+createdAt: 1599586347891
+displayName_zhCN: Unity Texture3D预览
+description_zhCN: UPM版本的Texture3D预览

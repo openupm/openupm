@@ -1,0 +1,17 @@
+name: com.baba-s.uni-value-reference
+displayName: UniValueReference
+description: null
+repoUrl: 'https://github.com/baba-s/UniValueReference'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591716022199
+displayName_zhCN: UniValueReference

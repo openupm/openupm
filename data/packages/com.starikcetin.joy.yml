@@ -8,7 +8,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
 hunter: favoyang
 createdAt: 1576336920000
+displayName_zhCN: Joy
+description_zhCN: 用于Unity3D游戏引擎的ECS框架，该框架使用MonoBehaviours作为组件，使用GameObjects作为实体。

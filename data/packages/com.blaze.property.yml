@@ -1,0 +1,17 @@
+name: com.blaze.property
+displayName: Blaze Property
+description: 'Smart properties with data binding, events, save/load functions for unity'
+repoUrl: 'https://github.com/BennyKok/unity-blaze'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: BennyKok
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/BennyKok/unity-blaze/raw/6ddaf8bfcd846607e320f3248eb204fd2c3006ec/Screenshots/BlazeProperty%20Screenshot.gif
+createdAt: 1587201148852
+displayName_zhCN: Blaze 属性
+description_zhCN: 智能属性具有数据绑定、事件、保存和加载等功能

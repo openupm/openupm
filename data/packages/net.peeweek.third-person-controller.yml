@@ -1,0 +1,21 @@
+name: net.peeweek.third-person-controller
+displayName: 3rd Person Controller
+description: 3rd Person Controller for Unity
+repoUrl: 'https://github.com/peeweek/net.peeweek.third-person-controller'
+parentRepoUrl: 'https://github.com/dbrizov/NaughtyCharacter'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - animation
+  - level-design
+hunter: peeweek
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2020.3.0-preview
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617780741909

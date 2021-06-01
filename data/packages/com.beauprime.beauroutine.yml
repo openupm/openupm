@@ -1,0 +1,24 @@
+name: com.beauprime.beauroutine
+displayName: BeauRoutine
+description: Coroutine and tweening framework for Unity3D
+repoUrl: 'https://github.com/BeauPrime/BeauRoutine'
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: 'MIT License'
+topics:
+  - animation
+  - editor-enhancement
+  - parallelism-and-concurrency
+  - particles-and-effects
+  - network
+  - utilities
+hunter: tlauterbach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619993453407

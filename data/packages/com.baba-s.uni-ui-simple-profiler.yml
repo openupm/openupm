@@ -1,0 +1,20 @@
+name: com.baba-s.uni-ui-simple-profiler
+displayName: UniUISimpleProfiler
+description: 【Unity】FPS、GC 発生回数、メモリ使用量を実機で確認できるプロファイラの UI（実機なら GC Alloc は発生しない）
+repoUrl: 'https://github.com/baba-s/UniUISimpleProfiler'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87793197-e664f800-c87f-11ea-89e8-19af4510b4c7.gif
+readme: 'master:README.md'
+createdAt: 1595025130065
+displayName_zhCN: UniUISimpleProfiler
+description_zhCN: 快速测试FPS和GC

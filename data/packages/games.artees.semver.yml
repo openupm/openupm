@@ -1,0 +1,22 @@
+name: games.artees.semver
+displayName: Unity SemVer
+description: >-
+  A convenient way to edit and compare version numbers according to the Semantic
+  Versioning 2.0.0 specification. Also includes a property drawer for Unity.
+repoUrl: 'https://github.com/Artees/Unity-SemVer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+  - utilities
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Artees/Unity-SemVer/raw/ea15c067b4bdab7361466dfb3e77e0017c4c36ae/SemVerDrawer.png
+readme: 'master:README.md'
+createdAt: 1589050267485
+displayName_zhCN: Unity SemVer
+description_zhCN: 根据SemVer 2.0.0规范编辑和比较版本号的便捷方法。还包括Unity的属性绘制。

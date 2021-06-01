@@ -1,0 +1,19 @@
+name: me.ameye.prefab-painter
+displayName: Prefab Painter
+description: A basic prefab painter for the Unity3D game engine.
+repoUrl: 'https://github.com/alexanderameye/prefab-painter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/3a238bb5029135e3e546e3406c7d1c6635e67dfc/68747470733a2f2f692e696d6775722e636f6d2f54336a533943702e706e67
+readme: 'master:README.md'
+createdAt: 1592080333549
+displayName_zhCN: Prefab绘制工具
+description_zhCN: Unity3D游戏引擎的基本Prefab绘制工具。

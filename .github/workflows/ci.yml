@@ -5,6 +5,7 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
     strategy:
       matrix:
         node-version: [12.x]
@@ -30,11 +31,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - uses: actions/checkout@v1
-    - name: Release
-      uses: cycjimmy/semantic-release-action@v2.1.3
+    - name: release
+      uses: cycjimmy/semantic-release-action@v2
       with:
         extra_plugins: |
           @semantic-release/changelog
@@ -46,26 +47,31 @@ jobs:
   deploy-upm-api:
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    strategy:
+      matrix:
+        target_host: [HOST_UPM_API, HOST_CN]
     steps:
     - name: deploy
       uses: maddox/actions/ssh@master
       env:
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: ${{ secrets.HOST_UPM_API }}
+        HOST: ${{ secrets[matrix.target_host] }}
         USER: ${{ secrets.USER }}
       with:
         args: |
             cd /home/openupm/openupm
             git checkout -- yarn.lock
-            git pull
+            [ -f /usr/bin/pgit ] && GIT_BIN=pgit || GIT_BIN=git
+            echo "GIT_BIN: $GIT_BIN"
+            $GIT_BIN pull -q
             yarn
-            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload all || echo skip pm2 api reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^server' && pm2 reload pm2-api.yml || echo skip pm2 api reload
 
   deploy-upm-build:
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - name: deploy
       uses: maddox/actions/ssh@master
@@ -77,8 +83,79 @@ jobs:
         args: |
             cd /home/openupm/openupm
             git checkout -- yarn.lock
-            git pull
+            git pull -q
             yarn
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
-            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload pkg-build || echo skip pm2 pkg-build reload
-            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload pkg-extra || echo skip pm2 pkg-extra reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload add-build-package-job || echo skip pm2 add-build-package-job reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload fetch-package-extra || echo skip pm2 fetch-package-extra reload
+
+  build-website-us:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    steps:
+    - uses: actions/checkout@v1
+    - name: yarn install
+      run: yarn install
+    - name: yarn docs:build
+      run: |
+        # Set region to us
+        export OPENUPM_REGION=us
+        # Remove CN region content
+        rm -rf docs/zh
+        # Build
+        source env.sh
+        yarn docs:build
+        # Copy netlify.toml
+        cp netlify.toml ./docs/.vuepress/dist/
+    - name: deploy to openupm-website repo
+      uses: JamesIves/github-pages-deploy-action@3.6.2
+      with:
+        REPOSITORY_NAME: openupm/openupm-website
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        CLEAN: true
+        SINGLE_COMMIT: true
+        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_ACCESS_TOKEN }}
+
+  build-website-cn:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    steps:
+    - uses: actions/checkout@v1
+    - name: yarn install
+      run: yarn install
+    - name: yarn docs:build
+      run: |
+        # Set region to cn
+        export OPENUPM_REGION=cn
+        # Overwrite homepage page
+        cp docs/zh/index.md docs/index.md
+        # Build
+        source env.sh
+        yarn docs:build
+    - name: deploy to openupm-website-cn repo
+      uses: JamesIves/github-pages-deploy-action@3.6.2
+      with:
+        REPOSITORY_NAME: openupm/openupm-website-cn
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        CLEAN: true
+        SINGLE_COMMIT: true
+        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_CN_ACCESS_TOKEN }}
+
+  deploy-website-cn:
+    runs-on: ubuntu-latest
+    needs: build-website-cn
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    steps:
+    - name: deploy website
+      uses: maddox/actions/ssh@master
+      env:
+        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        HOST: ${{ secrets.HOST_CN }}
+        USER: ${{ secrets.USER }}
+      with:
+        args: |
+            /home/openupm/openupm-devops/scripts/deploy-website-cn.sh

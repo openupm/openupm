@@ -1,0 +1,19 @@
+name: com.baba-s.uni-rename-game-object-attribute
+displayName: UniRenameGameObjectAttribute
+description: 【Unity】コンポーネントをアタッチした時にゲームオブジェクトの名前をコンポーネント名にリネームするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniRenameGameObjectAttribute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/92316837-72033580-f034-11ea-8000-62dd01159681.gif
+readme: 'master:README.md'
+createdAt: 1599497489268
+displayName_zhCN: UniRenameGameObjectAttribute
+description_zhCN: 在添加组件时将GameObject的名称重命名为组件名称

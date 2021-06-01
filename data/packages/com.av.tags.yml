@@ -1,0 +1,19 @@
+name: com.av.tags
+displayName: Tags
+description: Exploring usage of custom tags with ScriptableObjects in Unity
+repoUrl: 'https://github.com/neon-age/Tags'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6fca14b752bcf6207d15da4b7ad7e659eb6fc9c7/68747470733a2f2f692e696d6775722e636f6d2f315670316776422e706e67
+readme: 'main:README.md'
+createdAt: 1602445560444
+displayName_zhCN: Tags 标签
+description_zhCN: 探索在Unity中使用自定义标签和ScriptableObjects

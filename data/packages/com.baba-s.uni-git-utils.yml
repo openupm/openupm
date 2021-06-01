@@ -1,0 +1,20 @@
+name: com.baba-s.uni-git-utils
+displayName: UniGitUtils
+description: 【Unity】Git のブランチ名やコミットハッシュ、コミットログを管理するスクリプトを生成するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniGitUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591638095379
+displayName_zhCN: UniGitUtils
+description_zhCN: 获取Git分支名称，提交Hash等信息

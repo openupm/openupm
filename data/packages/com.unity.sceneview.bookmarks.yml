@@ -1,0 +1,20 @@
+name: com.unity.sceneview.bookmarks
+displayName: SceneView Bookmarks
+description: SceneViewBookmarks
+repoUrl: 'https://github.com/PixelWizards/SceneViewBookmarks'
+parentRepoUrl: 'https://github.com/FredMoreau/SceneViewBookmarks'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+  - editor-enhancement
+  - level-design
+hunter: pixelwizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1603426785748
+displayName_zhCN: SceneView书签
+description_zhCN: SceneView书签

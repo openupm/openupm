@@ -13,3 +13,5 @@ hunter: rfadeev
 gitTagIgnore: ''
 image: null
 createdAt: 1580130173427
+displayName_zhCN: Unity Forge动画回调
+description_zhCN: Animator和Animation组件中使用的Unity动画剪辑的运行时回调。

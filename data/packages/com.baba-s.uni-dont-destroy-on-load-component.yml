@@ -1,0 +1,17 @@
+name: com.baba-s.uni-dont-destroy-on-load-component
+displayName: UniDontDestroyOnLoadComponent
+description: null
+repoUrl: 'https://github.com/baba-s/UniDontDestroyOnLoadComponent'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592680891902
+displayName_zhCN: UniDontDestroyOnLoadComponent

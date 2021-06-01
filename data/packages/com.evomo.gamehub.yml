@@ -1,0 +1,19 @@
+name: com.evomo.gamehub
+displayName: Evomo Gamehub Integration
+description: Package used to integrate your game inside the Gamehub
+repoUrl: 'https://github.com/Evomo/GameHubPlugin'
+repoBranch: upm
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+hunter: DanAmador
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601540409240
+displayName_zhCN: Evomo Gamehub集成
+description_zhCN: 用于将游戏集成在进入Gamehub

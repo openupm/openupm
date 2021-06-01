@@ -1,0 +1,20 @@
+name: com.baba-s.uni-sprite-border-remover
+displayName: UniSpriteBorderRemover
+description: null
+repoUrl: 'https://github.com/baba-s/UniSpriteBorderRemover'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - asset-management
+  - editor-enhancement
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591650701826
+displayName_zhCN: UniSpriteBorderRemover

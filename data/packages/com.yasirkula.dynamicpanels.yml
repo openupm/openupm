@@ -1,0 +1,19 @@
+name: com.yasirkula.dynamicpanels
+displayName: Dynamic Panels
+description: 'Draggable, resizable, dockable and stackable UI panel solution for Unity 3D'
+repoUrl: 'https://github.com/yasirkula/UnityDynamicPanels'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityDynamicPanels/raw/c3826c8b1f307ed736086af7ee63dab88fb2ff7f/.github/Images/1.png
+readme: 'master:.github/README.md'
+createdAt: 1589390310349
+displayName_zhCN: 动态面板
+description_zhCN: 适用于Unity 3D的可拖动，可调整大小，可停靠和可堆叠的UI面板解决方案

@@ -1,0 +1,19 @@
+name: com.comcreate-info.scrmizu
+displayName: Scrmizu
+description: Variable infinite scroll in Unity UI
+repoUrl: 'https://github.com/ToshikiImagawa/Scrmizu'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6396938/72912979-ce546600-3d7f-11ea-8107-38b2b826b9e6.png
+readme: 'master:README.md'
+createdAt: 1592143097670
+displayName_zhCN: Scrmizu
+description_zhCN: Unity UI中的多样的无限滚动条

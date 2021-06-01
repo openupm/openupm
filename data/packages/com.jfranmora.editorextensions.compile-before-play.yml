@@ -1,0 +1,20 @@
+name: com.jfranmora.editorextensions.compile-before-play
+displayName: JfranMora - Compile Before Play
+description: >-
+  Add this script to compile your scripts automatically before entering play
+  mode.
+repoUrl: 'https://github.com/jfranmora/unity-compile-before-play'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1592087953101
+displayName_zhCN: JfranMora - 播放前编译
+description_zhCN: 添加此脚本可在进入播放模式之前自动编译脚本。

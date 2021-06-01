@@ -1,0 +1,19 @@
+name: com.gameframe.progressions
+displayName: Gameframe.Progressions
+description: ScriptableObjects for calculating numerical progressions. Indended for use with role playing game property scaling.
+repoUrl: 'https://github.com/coryleach/UnityProgressions'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591557934921
+displayName_zhCN: Gameframe.Progressions
+description_zhCN: 用于计算数字过程的ScriptableObjects。适用于角色扮演游戏属性缩放。

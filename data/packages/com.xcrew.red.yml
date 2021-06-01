@@ -1,0 +1,19 @@
+name: com.xcrew.red
+displayName: Red
+description: Reactive Toolchain for Unity
+repoUrl: 'https://github.com/scellecs/Red'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://media.githubusercontent.com/media/scellecs/Red/95c8a751c014b7e66ae24f991986c78b31e9e3fe/Assets/Plugins/Red/Editor/Resources/logo.png
+readme: 'master:README.md'
+createdAt: 1594058056993
+displayName_zhCN: Red红
+description_zhCN: 适用于Unity的响应式工具链

@@ -7,8 +7,11 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - asset-management
-  - editor
+  - editor-enhancement
 hunter: rfadeev
 gitTagIgnore: ''
-image: 'https://user-images.githubusercontent.com/5451929/47091018-a5792300-d256-11e8-8ee2-3a5d3f40ee70.gif'
+image: >-
+  https://user-images.githubusercontent.com/5451929/47091018-a5792300-d256-11e8-8ee2-3a5d3f40ee70.gif
 createdAt: 1580303020001
+displayName_zhCN: 预设浏览器
+description_zhCN: Unity预设浏览器的编辑窗口。

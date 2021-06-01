@@ -1,0 +1,19 @@
+name: com.baba-s.uni-ui-collider
+displayName: UniUICollider
+description: 【Unity】uGUI で当たり判定のみを持つ透明のオブジェクトを実装できるコンポーネント
+repoUrl: 'https://github.com/baba-s/UniUICollider'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/80112530-29cf0380-85bc-11ea-9be3-0af31e51dc94.png
+readme: 'master:README.md'
+createdAt: 1591649677314
+displayName_zhCN: UniUICollider
+description_zhCN: 帮助实现透明的按钮

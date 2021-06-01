@@ -1,0 +1,19 @@
+name: com.pylons.unity.sdk.examples
+displayName: Pylons SDK for Unity (Examples)
+description: null
+repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: afti-githobo
+gitTagPrefix: pylons_sdk_examples
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:PylonsSdk/Examples/README.md'
+readme_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons SDK（示例）
+description_zhCN: ''
+createdAt: 1607914741208

@@ -1,0 +1,19 @@
+name: io.github.idreamsofgame.unisharper.localization
+displayName: UniSharper.Localization
+description: >-
+  UniSharper.Localization is a serialization data driven text localization for
+  Unity application.
+repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Localization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1587640742108
+displayName_zhCN: UniSharper.Localization
+description_zhCN: UniSharper.Localization是Unity应用程序的序列化数据驱动的文本本地化。

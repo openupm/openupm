@@ -1,0 +1,19 @@
+name: com.quantumcalzone.unitybookmarks
+displayName: UnityBookmarks
+description: A handy bookmark system for Unity.
+repoUrl: 'https://github.com/QuantumCalzone/UnityBookmarks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity书签
+description_zhCN: 一个方便的Unity书签系统。
+createdAt: 1608313925965

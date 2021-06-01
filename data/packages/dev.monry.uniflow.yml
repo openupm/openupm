@@ -1,0 +1,19 @@
+name: dev.monry.uniflow
+displayName: UniFlow
+description: Connect presentation events
+repoUrl: 'https://github.com/monry/UniFlow'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/838945/64085909-463dd780-cd70-11e9-9192-77972dbcebce.png
+readme: 'develop/v0.1.0:README.md'
+createdAt: 1602441355295
+displayName_zhCN: UniFlow
+description_zhCN: 连接演示事件

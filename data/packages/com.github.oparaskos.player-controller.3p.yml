@@ -1,0 +1,19 @@
+name: com.github.oparaskos.player-controller.3p
+displayName: Third Person Player Controller
+description: null
+repoUrl: 'https://github.com/oparaskos/com.github.oparaskos.player-controller.3p'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 第三人称Player控制器
+description_zhCN: ''
+createdAt: 1607032354743

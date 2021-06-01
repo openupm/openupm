@@ -1,0 +1,17 @@
+name: com.virgis.geojson.net
+displayName: GeoJSON.Net
+description: .Net library for GeoJSON types & corresponding Json.Net (de)serializers
+repoUrl: 'https://github.com/ViRGIS-Team/GeoJSON.Net'
+parentRepoUrl: 'https://github.com/GeoJSON-Net/GeoJSON.Net'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.2.16
+image: null
+readme: 'master:README.md'
+createdAt: 1604871394173
+displayName_zhCN: GeoJSON.Net
+description_zhCN: .用于GeoJSON类型和相应的Json.Net的序列化、反序列化的.NET库

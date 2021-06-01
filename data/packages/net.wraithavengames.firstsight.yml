@@ -1,0 +1,20 @@
+name: net.wraithavengames.firstsight
+displayName: FirstSight
+description: A first person controller plugin written for Unity.
+repoUrl: 'https://github.com/TheDudeFromCI/FirstSight'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - physics
+  - utilities
+hunter: TheDudeFromCI
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590714703814
+displayName_zhCN: FirstSight
+description_zhCN: 为Unity编写的第一人称控制器插件。

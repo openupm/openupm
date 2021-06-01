@@ -1,0 +1,23 @@
+name: io.tinu.asepriteimporter
+displayName: Aseprite Importer
+description: >-
+  An aseprite-file importer for unity written in C#, built upon the experimental
+  AssetImporter API
+repoUrl: 'https://github.com/martinhodler/unity-aseprite-importer'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - 2d
+  - asset-management
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/martinhodler/unity-aseprite-importer/raw/a70376ad5b33064759edd2c635c54d49b3129e1f/GitHub/AsepriteImporterUnity.png
+readme: 'master:README.md'
+createdAt: 1591578673621
+displayName_zhCN: Aseprite导入器
+description_zhCN: 实验性的AssetImporter API，用C#编写用于asprite文件的导入

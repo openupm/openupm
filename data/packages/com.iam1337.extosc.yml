@@ -1,0 +1,21 @@
+name: com.iam1337.extosc
+displayName: extOSC
+description: >-
+  extOSC is a tool dedicated to simplify creation of applications in Unity with
+  OSC protocol usage.
+repoUrl: 'https://github.com/Iam1337/extOSC'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: iam1337
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Iam1337/extOSC/raw/11d64ca0f96bb3e6da47dccd8c911738f5c8cb2f/Assets/extOSC/Resources/extOSC/IW_logo_dark.png
+readme: 'master:README.md'
+createdAt: 1603993675140
+displayName_zhCN: extOSC
+description_zhCN: extOSC是专门用于简化使用OSC协议在Unity中创建应用程序的工具。

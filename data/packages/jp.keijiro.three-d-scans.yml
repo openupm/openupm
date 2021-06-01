@@ -1,0 +1,21 @@
+name: jp.keijiro.three-d-scans
+displayName: Three D Scans
+description: >-
+  Scanned statue models from the Three D Scans project, optimized for real-time
+  rendering use.
+repoUrl: 'https://github.com/keijiro/ThreeDScans'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6984a030e0277b33f64bf8562f3e753d05e2b2f9/687474703a2f2f692e696d6775722e636f6d2f647a4357726d666c2e706e67
+readme: 'upm:README.md'
+createdAt: 1589987645064
+displayName_zhCN: Three D Scans
+description_zhCN: 来自“Three D Scans”项目的扫描雕像模型，已针对实时渲染进行了优化。

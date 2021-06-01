@@ -1,0 +1,20 @@
+name: com.madumpa.universal.stylized-lit
+displayName: URP Stylized Lit
+description: Madumpa's URP Stylized Lit Shader Repository
+repoUrl: 'https://github.com/madumpa/URP_StylizedLitShader'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/35050187/100261210-c19b3280-2f8d-11eb-9b87-2c3fad0f5d54.png
+readme: 'packageManagerWork:README.md'
+readme_zhCN: ''
+displayName_zhCN: URP程式化点亮
+description_zhCN: Madumpa的URP程式化的点亮着色器存储库
+createdAt: 1612911271403

@@ -1,0 +1,22 @@
+name: nl.elraccoone.timers
+displayName: Timers
+description: >-
+  We may decide to execute a function not right now, but at a certain time
+  later. That’s called “scheduling a call”. The Timers class helps you to do so
+  with a clean and short syntax without having to worry about enumerators.
+repoUrl: 'https://github.com/jeffreylanters/unity-timers'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-timers/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620123701
+displayName_zhCN: 计时器
+description_zhCN: 我们可能决定不立即执行功能，而是稍后再执行。这就是所谓的“规划调用”。 Timers类可帮助您使用简洁明了的语法来实现此目的，而不必担心enumerators。

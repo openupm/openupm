@@ -1,7 +1,7 @@
 <!-- Override @parent-theme/layouts/Layouts
 - Add unnamed slot for extending.
 - Add footer
-- Format cdoe
+- Add inital loading
 -->
 
 <template>
@@ -11,22 +11,21 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
+    <InitialLoading />
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <slot slot="top" name="sidebar-top">
-        <div v-if="shouldShowSidebarAds" class="adp-sidebar">
+        <div v-if="shouldShowSidebarAds" class="adp adp-sidebar hide-sm">
           <AdBlock />
         </div>
       </slot>
       <slot slot="bottom" name="sidebar-bottom" />
     </Sidebar>
 
-    <div v-if="shouldShowMainAds" class="adp-main">
-      <AdBlock />
-    </div>
+    <GrowthBlock />
 
     <!-- unnamed slot for main content -->
     <slot></slot>
@@ -41,7 +40,7 @@
       <Footer v-if="shouldShowFooter"></Footer>
     </slot>
     <script
-      src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"
+      src="/vendors/cookieconsent@3.1.1/build/cookieconsent.min.js"
       data-cfasync="false"
     ></script>
   </div>
@@ -49,14 +48,25 @@
 
 <script>
 import AdBlock from "@theme/components/AdBlock.vue";
-import Navbar from "@theme/components/Navbar.vue";
 import Footer from "@theme/components/Footer.vue";
+import GrowthBlock from "@theme/components/GrowthBlock.vue";
+import InitialLoading from "@theme/components/InitialLoading.vue";
+import Navbar from "@theme/components/Navbar.vue";
+import util from "@root/docs/.vuepress/util";
 import Page from "@parent-theme/components/Page.vue";
-import Sidebar from "@parent-theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
+import Sidebar from "@parent-theme/components/Sidebar.vue";
 
 export default {
-  components: { AdBlock, Page, Sidebar, Navbar, Footer },
+  components: {
+    AdBlock,
+    Footer,
+    GrowthBlock,
+    InitialLoading,
+    Navbar,
+    Page,
+    Sidebar
+  },
 
   data() {
     return {
@@ -93,10 +103,6 @@ export default {
       return frontmatter.ads !== undefined ? frontmatter.ads : true;
     },
 
-    shouldShowMainAds() {
-      return this.shouldShowAds && !this.shouldShowSidebar;
-    },
-
     shouldShowSidebarAds() {
       return this.shouldShowAds && this.shouldShowSidebar;
     },
@@ -123,7 +129,8 @@ export default {
           "sidebar-open": this.isSidebarOpen,
           "no-sidebar": !this.shouldShowSidebar
         },
-        userPageClass
+        userPageClass,
+        `region-${this.$site.themeConfig.region}`
       ];
     }
   },
@@ -174,7 +181,10 @@ export default {
           }
         },
         content: {
-          href: "/docs/privacy"
+          message: this.$t("cookie-consent-message"),
+          dismiss: this.$t("cookie-consent-dismiss"),
+          link: this.$t("learn-more"),
+          href: util.getDocsUrl("/docs/privacy")
         },
         // eslint-disable-next-line no-unused-vars
         onStatusChange: function(status) {},

@@ -1,0 +1,22 @@
+name: com.valax321.controllerprompts
+displayName: Controller Prompts
+description: >-
+  UI button prompts for Rewired. Plug in actions to get relevant sprites for UI
+  Images.
+repoUrl: 'https://github.com/Valax321/RewiredControllerMappings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/RewiredControllerMappings/raw/62dc17921594c9f05484e342580809ddf8206e0d/Data/Gizmos/GlyphMap.png
+readme: 'master:README.md'
+createdAt: 1589732368079
+displayName_zhCN: 控制器提示
+description_zhCN: Rewired的UI按钮提示。插入操作以获取UI图像的相关Sprite。

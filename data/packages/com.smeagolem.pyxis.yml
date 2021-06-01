@@ -1,0 +1,18 @@
+name: com.smeagolem.pyxis
+displayName: Pyxis
+description: "\U0001F9F0 A box of Unity tools."
+repoUrl: 'https://github.com/denovodavid/pyxis'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: denovodavid
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598915855578
+displayName_zhCN: Pyxis
+description_zhCN: "\U0001F9F0一组Unity工具。"

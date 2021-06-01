@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: KuraiAndras
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1584568836674
+displayName_zhCN: Serilog Sink for Unity 3D
+description_zhCN: 用于Unity3D调试日志的Serilog Sink

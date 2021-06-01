@@ -1,0 +1,18 @@
+name: jp.hiroki-o.voxblend
+displayName: VoxBlend
+description: BlendShape Controller Plugin for Unity
+repoUrl: 'https://github.com/phields/VoxBlend'
+parentRepoUrl: 'https://github.com/hiroki-o/VoxBlend'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594412314700
+displayName_zhCN: VoxBlend
+description_zhCN: 适用于Unity的BlendShape控制器插件

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-ui-sprite-text
+displayName: UniUISpriteText
+description: null
+repoUrl: 'https://github.com/baba-s/UniUISpriteText'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - gui
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593293861352
+displayName_zhCN: UniUISpriteText

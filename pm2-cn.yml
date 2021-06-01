@@ -1,0 +1,29 @@
+apps:
+  - name: api
+    instance_var: api
+    cwd: /home/openupm/openupm
+    script: server.js
+    exec_mode: cluster
+    instances: 1
+    error_file: ./logs/api-error.log
+    out_file: ./logs/api.log
+    combine_logs: true
+    max_memory_restart: 1G
+    max_restarts: 5
+    autorestart: true
+  - name: installer
+    instance_var: installer
+    cwd: /home/openupm/glitch-package-installer
+    script: server.js
+    exec_mode: cluster
+    instances: 1
+    error_file: ./logs/installer-error.log
+    out_file: ./logs/installer.log
+    combine_logs: true
+    max_memory_restart: 1G
+    max_restarts: 5
+    autorestart: true
+    env:
+      PORT: 3700
+    env_production:
+      PORT: 3700

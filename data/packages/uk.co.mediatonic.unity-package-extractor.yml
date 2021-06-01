@@ -1,0 +1,25 @@
+name: uk.co.mediatonic.unity-package-extractor
+displayName: Unity Package Extractor
+description: >-
+  A simple tool to extract .unitypackages outside of Unity's package importer.
+  (using fork from hannesdelbeke instead of original repo from mediatonic while
+  PR to support packaging is pending, change this back when PR is up n running)
+repoUrl: 'https://github.com/hannesdelbeke/UnityPackageExtractor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+  - utilities
+hunter: hannesdelbeke
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity包提取器
+description_zhCN: >-
+  一个简单的工具，可以从Unity的程序包导入器之外提取.unitypackages。
+  （在PR支持包装待处理期间，使用hannesdelbeke的fork而不是mediatonic的原始回购来支持打包，请在PR合并后更改回原状）
+createdAt: 1611613825365

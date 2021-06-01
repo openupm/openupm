@@ -1,0 +1,18 @@
+name: com.baba-s.uni-ui-aging-button
+displayName: UniUIAgingButton
+description: null
+repoUrl: 'https://github.com/baba-s/UniUIAgingButton'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/86786922-84e2a380-c09f-11ea-8187-a0f64fa3b28d.png
+readme: 'master:README.md'
+createdAt: 1594185492270
+displayName_zhCN: UniUIAgingButton

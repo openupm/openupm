@@ -1,0 +1,19 @@
+name: com.needle.editorpatching
+displayName: Editor Patching
+description: 'Uses Harmony to patch the Editor. https://github.com/pardeike/Harmony'
+repoUrl: 'https://github.com/needle-tools/editorpatching'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:package/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614589895250

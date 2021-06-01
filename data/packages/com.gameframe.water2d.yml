@@ -1,0 +1,19 @@
+name: com.gameframe.water2d
+displayName: Gameframe.Water2D
+description: 2D splashy springy water
+repoUrl: 'https://github.com/coryleach/UnityWater2D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591558177710
+displayName_zhCN: Gameframe.Water2D
+description_zhCN: 2D飞溅弹性水面效果

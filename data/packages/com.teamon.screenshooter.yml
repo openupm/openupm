@@ -1,0 +1,19 @@
+name: com.teamon.screenshooter
+displayName: Screen Shooter
+description: Screenshot utility for Unity runtime & editor
+repoUrl: 'https://github.com/Team-on/UnityScreenShooter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: 屏幕截图
+description_zhCN: Unity运行时和编辑器的屏幕截图实用程序
+createdAt: 1612648630212

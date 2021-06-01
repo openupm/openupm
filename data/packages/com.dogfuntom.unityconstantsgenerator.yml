@@ -8,6 +8,9 @@ repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
+  - code-generation
 hunter: starikcetin
 createdAt: 1576174716000
+displayName_zhCN: Unity常量生成器
+description_zhCN: '[Unity Codedom]编辑器代码生成器。为标签，图层，排序层和输入轴生成常用声明类，保证类型安全。'

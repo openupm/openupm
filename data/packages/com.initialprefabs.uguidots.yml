@@ -1,0 +1,18 @@
+name: com.initialprefabs.uguidots
+displayName: UGUIDots
+description: Converting uGUI to be DOTS compliant
+repoUrl: 'https://github.com/InitialPrefabs/UGUIDots'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - gui
+hunter: psuong
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/InitialPrefabs/UGUIDots/raw/c26329ffb3b1d51f0378f4e1ca3a05dd4191bcbe/Wiki/Images/uguidots-logo.png
+createdAt: 1586378531081
+displayName_zhCN: UGUI点
+description_zhCN: 将uGUI转换为兼容DOTS

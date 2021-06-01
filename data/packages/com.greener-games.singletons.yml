@@ -1,0 +1,19 @@
+name: com.greener-games.singletons
+displayName: Unity singleton
+description: Collection of Singleton for use in unity
+repoUrl: 'https://github.com/Greener-Games/Singleton'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity singleton
+description_zhCN: Unity使用Singleton的集合
+createdAt: 1613173986064

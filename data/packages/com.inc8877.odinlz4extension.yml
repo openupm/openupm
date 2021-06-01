@@ -1,0 +1,21 @@
+name: com.inc8877.odinlz4extension
+displayName: OdinLZ4Extension
+description: The fastest and most efficient binary compression solution for Odin
+repoUrl: 'https://github.com/inc8877/OdinLZ4Extension'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/29813954/111915103-582fba00-8a7d-11eb-865d-1bd6b880bece.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619274985765

@@ -9,10 +9,12 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - mobile
-  - ui
+  - gui
 hunter: ilterbilguven
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: >-
   https://github.com/5argon/NotchSolution/raw/48e4b9fe2f07f68e13aaa597574a9f196c8d8456/Documentation~/images/main-screenshot.gif
 createdAt: 1584014529024
+displayName_zhCN: Notch（刘海屏）解决方案
+description_zhCN: 一组组件和工具来解决刘海屏的问题

@@ -1,0 +1,19 @@
+name: com.rojo.usunposition
+displayName: USunPosition
+description: This is an astronomically accurate Sun positioning system for Unity
+repoUrl: 'https://github.com/JoseMiguelPizarro/USunPosition'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JoseMiguelPizarro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: USunPosition
+description_zhCN: 这是Unity的天文精确太阳定位系统
+createdAt: 1612662143477

@@ -1,0 +1,19 @@
+name: net.tnrd.autohook
+displayName: AutoHook
+description: A property drawer that automagically assigns a reference to your field
+repoUrl: 'https://github.com/Thundernerd/Unity3D-AutoHook'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1599662554384
+displayName_zhCN: AutoHook
+description_zhCN: 属性绘制会自动为您的字段分配引用

@@ -3,39 +3,71 @@ topics:
   slug: 2d
 - name: AI
   slug: ai
-- name: AR/VR
-  slug: ar-vr
+- name: AR & VR
+  slug: ar-and-vr
 - name: Animation
   slug: animation
+- name: Audio
+  slug: audio
 - name: Asset Management
   slug: asset-management
-- name: Asset Pack
-  slug: asset-pack
 - name: Camera
   slug: camera
+- name: Code Generation
+  slug: code-generation
 - name: Data Management
   slug: data-management
-- name: DOTS/ECS
-  slug: dots
+- name: Debugging & Logging
+  slug: debugging-and-logging
+- name: DOTS & ECS
+  slug: dots-and-ecs
 - name: Editor Enhancement
-  slug: editor
-- name: Effect/Shader
-  slug: effect-shader
-- name: Library
-  slug: library
+  slug: editor-enhancement
+- name: Frameworks
+  slug: frameworks
+- name: GUI
+  slug: gui
+- name: Parallelism & Concurrency
+  slug: parallelism-and-concurrency
+- name: Particles & Effects
+  slug: particles-and-effects
+- name: Input Management
+  slug: input-management
+- name: Integration
+  slug: integration
+- name: Level Design
+  slug: level-design
 - name: Localization
   slug: localization
 - name: Mobile
   slug: mobile
+- name: Modeling
+  slug: modeling
 - name: Network
   slug: network
 - name: Package Management
   slug: package-management
+- name: Painting
+  slug: painting
 - name: Procedural Generation
   slug: procedural-generation
+- name: Profiling
+  slug: profiling
 - name: Physics
   slug: physics
+- name: Services
+  slug: services
+- name: Sprite Management
+  slug: sprite-management
 - name: Terrain
   slug: terrain
-- name: UI
-  slug: ui
+- name: Testing
+  slug: testing
+- name: Utilities
+  slug: utilities
+- name: Version Control
+  slug: version-control
+- name: Video
+  slug: video
+- name: Visual Scripting
+  slug: visual-scripting

@@ -1,0 +1,22 @@
+name: dev.shapes.colliders
+displayName: Shapes Colliders
+description: >-
+  A collider library for Freya Holmér's 'Shapes' vector drawing asset on the
+  Unity Asset Store.
+repoUrl: 'https://github.com/RealityStop/ShapesColliders'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/d4c6c97c201dbf9a10db070fcc774078b34227405817198d44f7c3a295721489/68747470733a2f2f696d6775722e636f6d2f763932746946442e706e67
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 形状碰撞
+description_zhCN: 一个碰撞检测体，用于FreyaHolmér的"Shapes"矢量图形资源。
+createdAt: 1610832950526

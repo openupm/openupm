@@ -1,0 +1,19 @@
+name: com.unimob.ui
+displayName: UniMob.UI
+description: Framework for building reactive app
+repoUrl: 'https://github.com/vanifatovvlad/UniMob'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595097871688
+displayName_zhCN: UniMob.UI
+description_zhCN: 构建响应式应用程序的框架

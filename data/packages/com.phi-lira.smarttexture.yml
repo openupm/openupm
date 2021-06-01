@@ -1,0 +1,19 @@
+name: com.phi-lira.smarttexture
+displayName: Smart Texture
+description: Unity tool to pack texture channels into a single texture.
+repoUrl: 'https://github.com/phi-lira/SmartTexture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/7453395/82161433-dbe8ab00-989c-11ea-9003-10e8ca867bfe.png
+readme: 'master:README.md'
+createdAt: 1589830204745
+displayName_zhCN: 智能贴图
+description_zhCN: 用于将贴图通道打包为单个贴图的Unity工具。

@@ -1,0 +1,19 @@
+name: com.dman.genetics
+displayName: Genetics
+description: null
+repoUrl: 'https://github.com/dsmiller95/Genetics'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+hunter: dsmiller95
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/GeneticsPackage/README.md'
+readme_zhCN: ''
+displayName_zhCN: 遗传学
+description_zhCN: ''
+createdAt: 1610316982295

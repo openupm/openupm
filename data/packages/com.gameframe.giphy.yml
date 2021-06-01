@@ -1,0 +1,20 @@
+name: com.gameframe.giphy
+displayName: Gameframe.Giphy
+description: Library for using the GiphyAPI in Unity to get and play random Gifs as MP4s
+repoUrl: 'https://github.com/coryleach/UnityGiphy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - animation
+  - video
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589723452705
+displayName_zhCN: Gameframe.Giphy
+description_zhCN: 用于使用GiphyAPI的Unity库，可以获取和并将Gif作为MP4播放

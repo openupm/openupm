@@ -1,0 +1,21 @@
+name: com.blackfeatherproductions.slngen
+displayName: SlnGen
+description: >-
+  Unity editor extension that adds additional solution configurations to
+  generated .sln/.csproj files.
+repoUrl: 'https://github.com/jhett12321/Unity-SlnGen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/jhett12321/Unity-SlnGen/raw/5bd804f5b6bdc4cd3f41fb7296fd3559410df23a/config-switch.gif
+readme: 'master:README.md'
+createdAt: 1592087286938
+displayName_zhCN: SlnGen
+description_zhCN: 在生成的.sln/.csproj文件中添加额外的解解决方案配置。

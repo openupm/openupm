@@ -1,0 +1,19 @@
+name: net.peeweek.build-frontend
+displayName: Build Frontend
+description: A Unity GUI Frontend to manage build batches and review build reports
+repoUrl: 'https://github.com/peeweek/net.peeweek.build-frontend'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/peeweek/net.peeweek.build-frontend/raw/a6b4ae6f8678f00796ca8ce5b886dff64d5dd117/Editor/Icons/BuildFrontend.png
+readme: 'master:README.md'
+createdAt: 1589058848530
+displayName_zhCN: 建立前端
+description_zhCN: Unity GUI前端，用于管理构建批处理并查看构建报告

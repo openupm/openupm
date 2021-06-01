@@ -1,0 +1,19 @@
+name: com.newchromantics.popunitysockets
+displayName: PopUnitySockets
+description: 'Barebones/simple API Websocket client, UDP server, UDP client.'
+repoUrl: 'https://github.com/NewChromantics/PopUnitySockets'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614113192279

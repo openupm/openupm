@@ -1,0 +1,17 @@
+name: com.baba-s.uni-custom-update-manager
+displayName: UniCustomUpdateManager
+description: null
+repoUrl: 'https://github.com/baba-s/UniCustomUpdateManager'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594185785121
+displayName_zhCN: UniCustomUpdateManager

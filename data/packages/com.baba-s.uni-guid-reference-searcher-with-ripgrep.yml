@@ -1,0 +1,20 @@
+name: com.baba-s.uni-guid-reference-searcher-with-ripgrep
+displayName: UniGuidReferenceSearcherWithRipgrep
+description: null
+repoUrl: 'https://github.com/baba-s/UniGuidReferenceSearcherWithRipgrep'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - data-management
+  - integration
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591638504162
+displayName_zhCN: UniGuidReferenceSearcherWithRipgrep

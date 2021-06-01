@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.indicators.objectpointers.unity
+displayName: Tilia Indicators ObjectPointers Unity
+description: >-
+  Indicate points in world space with a collection of object based pointers for
+  the Unity software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Indicators.ObjectPointers.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Indicators.ObjectPointers.Unity/raw/5ff6fdb54ca31359df4199567ae9b33cd8386672/Documentation/HowToGuides/AddingACurvedPointer/assets/images/CurvedPointerActivatedInScene.png
+readme: 'master:README.md'
+createdAt: 1592839461517
+displayName_zhCN: Tilia Indicators ObjectPointers Unity
+description_zhCN: 使用Unity软件的基于对象的指针集合标记世界空间中的点

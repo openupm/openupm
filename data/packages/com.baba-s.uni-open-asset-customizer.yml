@@ -1,0 +1,20 @@
+name: com.baba-s.uni-open-asset-customizer
+displayName: UniOpenAssetCustomizer
+description: 【Unity】ファイルを開くアプリケーションを設定できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniOpenAssetCustomizer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79829992-6e517800-83df-11ea-907c-8747b1906dae.png
+readme: 'master:README.md'
+createdAt: 1591563292376
+displayName_zhCN: UniOpenAssetCustomizer
+description_zhCN: 配置Unity编辑器将关联任意的应用程序打开资源文件

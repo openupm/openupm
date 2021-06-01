@@ -8,7 +8,9 @@ parentRepoUrl: 'https://github.com/IronWarrior/UnityOutlineShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: favoyang
 createdAt: 1577808246000
-image: https://i.imgur.com/wWU7Q6d.png
+image: 'https://i.imgur.com/wWU7Q6d.png'
+displayName_zhCN: Unity轮廓Shader
+description_zhCN: Unity的轮廓Shader教程的源代码。使用景深和法线缓冲区检测场景中的边缘。

@@ -10,10 +10,13 @@ licenseName: MIT License
 topics:
   - asset-management
   - data-management
-  - editor
+  - editor-enhancement
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm
 gitTagIgnore: ''
 image: >-
   https://github.com/jeffcampbellmakesgames/unity-auto-preset/raw/1ca94dc44bf744e0db7ca5ceabbd81545c60c1d2/Images/AutoPresetConfigInspector.png
+readme: 'develop:readme.md'
 createdAt: 1583748685245
+displayName_zhCN: JCMG AutoPresets
+description_zhCN: 自动预设可通过Unity编辑器对资源进行脚本化配置，而无需任何其他代码。

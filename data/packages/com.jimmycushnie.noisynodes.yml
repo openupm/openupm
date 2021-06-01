@@ -1,0 +1,23 @@
+name: com.jimmycushnie.noisynodes
+displayName: Noisy Nodes
+description: >-
+  Adds various noise-generation nodes to Unity Shader Graph, including 3D noise
+  nodes.
+repoUrl: 'https://github.com/JimmyCushnie/Noisy-Nodes'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - particles-and-effects
+  - procedural-generation
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/JimmyCushnie/Noisy-Nodes/raw/eed0c97c1a7a74c87df5ca75e007cc55ad44c08f/demo.jpg
+readme: 'master:README.md'
+createdAt: 1593805208328
+displayName_zhCN: Noisy节点
+description_zhCN: 向Unity Shader Graph添加各种生成的干扰节点，包括3D干扰节点。

@@ -1,0 +1,29 @@
+name: com.brunomikoski.animationsequencer
+displayName: Animation Sequencer
+description: >-
+  Animation sequencer is a way to create complex animations of sequence of
+  events by a friendly user interface
+repoUrl: 'https://github.com/brunomikoski/Animation-Sequencer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - gui
+  - particles-and-effects
+  - mobile
+  - utilities
+  - visual-scripting
+hunter: brunomikoski/
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614806758218

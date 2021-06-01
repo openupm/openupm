@@ -1,0 +1,17 @@
+name: net.taptappun.taku.kobayashi.unitycipher
+displayName: UnityCipher
+description: 'This is Cipher Libraries in Unity, include the AESCipher and RSACipher.'
+repoUrl: 'https://github.com/TakuKobayashi/UnityCipher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589228402545
+displayName_zhCN: UnityCipher
+description_zhCN: 这是Unity中的密码库，包括AESCipher和RSACipher。

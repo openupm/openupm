@@ -1,0 +1,21 @@
+name: com.github.oparaskos.unity.tube.renderer
+displayName: Unity Tube Renderer
+description: 'Draw a list of Vector3s as a rope, pipe or tube'
+repoUrl: 'https://github.com/oparaskos/unity-tube-renderer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - procedural-generation
+  - utilities
+hunter: oparaskos
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://repository-images.githubusercontent.com/315718419/a4336f00-2e8e-11eb-8ce3-ea47617df050
+readme: 'master:README.md'
+createdAt: 1606242336011
+displayName_zhCN: Unity Tube渲染器
+description_zhCN: 绘制Vector3的列表，例如绳索，管道或管子

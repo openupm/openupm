@@ -1,0 +1,21 @@
+name: com.utj.profilersaveinter
+displayName: Profiler Interval Save
+description: Unity5.6からProfilerのログを保存するツール
+repoUrl: 'https://github.com/wotakuro/UnityProfilerIntervalSave'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/wotakuro/UnityProfilerIntervalSave/raw/6e14e14977e9291a7146eaa4858cec8109d13d41/Documentation~/img/IntervalRecordMode.png
+readme: 'master:README.md'
+createdAt: 1592086048808
+displayName_zhCN: Profiler间隔保存
+description_zhCN: 从Unity 5.6保存Profiler日志的工具

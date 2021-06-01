@@ -1,0 +1,20 @@
+name: com.baba-s.uni-symbol
+displayName: UniSymbol
+description: シンボルを簡単に定義できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSymbol'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/209dd154ecd424ab28882aeae6487197ca65f002/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303433302f32303139303433303136323633352e706e67
+readme: 'master:README.md'
+createdAt: 1591578468162
+displayName_zhCN: UniSymbol
+description_zhCN: 轻松定义符号

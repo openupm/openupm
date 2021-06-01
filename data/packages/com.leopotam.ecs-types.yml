@@ -6,6 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
+  - dots-and-ecs
 hunter: favoyang
 createdAt: 1576423966000
+displayName_zhCN: LeoECS类型
+description_zhCN: LeoECS实体组件系统框架的引擎独立类型。

@@ -1,0 +1,18 @@
+name: io.improbable.worker.sdk
+displayName: SpatialOS Worker SDK
+description: SpatialOS GDK for Unity
+repoUrl: 'https://github.com/spatialos/gdk-for-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/spatialos/gdk-for-unity/raw/4471b599eac8a864161c6ce3b6cc5d4ee2e02cc3/spatialos_gdk_for_unity_header.png
+readme: 'master:README.md'
+createdAt: 1588903544312
+displayName_zhCN: SpatialOS Worker SDK
+description_zhCN: 适用于Unity的SpatialOS GDK

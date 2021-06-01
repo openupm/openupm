@@ -1,0 +1,17 @@
+name: com.greenbuttongames.userdata
+displayName: GBG User Data
+description: null
+repoUrl: 'https://github.com/Mefodei/UniDataModule'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:UniDataModule/Assets/RemoteDataModule/README.md'
+createdAt: 1594953601846
+displayName_zhCN: GBG用户数据

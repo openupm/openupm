@@ -1,0 +1,17 @@
+name: com.baba-s.uni-asset-database-utils
+displayName: UniAssetDatabaseUtils
+description: null
+repoUrl: 'https://github.com/baba-s/UniAssetDatabaseUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601490295791
+displayName_zhCN: UniAssetDatabaseUtils

@@ -1,0 +1,19 @@
+name: com.github.terraintopology
+displayName: TerrainTopology
+description: Terrain topology algorithms in C# and Unity
+repoUrl: 'https://github.com/00alia00/Terrain-Topology-Algorithms'
+parentRepoUrl: 'https://github.com/Scrawk/Terrain-Topology-Algorithms'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - terrain
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/Scrawk/Terrain-Topology-Algorithms/master/Media/normal.png
+readme: 'master:README.md'
+createdAt: 1603738118981
+displayName_zhCN: TerrainTopology
+description_zhCN: C#和Unity中的地形拓扑算法

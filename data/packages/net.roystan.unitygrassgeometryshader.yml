@@ -1,5 +1,5 @@
 name: net.roystan.unitygrassgeometryshader
-displayName: Unity Grass Geomtry Shader
+displayName: Unity Grass Geometry Shader
 description: >-
   Source code for Grass Shader tutorial for Unity. Generates blades with a
   geometry shader, tessellates input mesh to control density.
@@ -8,7 +8,9 @@ parentRepoUrl: 'https://github.com/IronWarrior/UnityGrassGeometryShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: favoyang
 createdAt: 1577879686000
-image: https://i.imgur.com/37U69OT.png
+image: 'https://i.imgur.com/37U69OT.png'
+displayName_zhCN: Unity 草地几何Shader
+description_zhCN: 适用于Unity的草地Shader教程的源代码。使用几何体shader生成刀片，细分输入Mesh以控制密度。

@@ -1,22 +1,26 @@
 // Util
 
-const $ = require("jquery");
-const marked = require("marked");
-const urljoin = require("url-join");
-const moment = require("moment");
+const formatDistanceToNow = require("date-fns/formatDistanceToNow").default;
+var dateFnsEnLocale = require("date-fns/locale/en-US").default;
+var dateFnsZhLocale = require("date-fns/locale/zh-CN").default;
 
-const httpRe = /^https?:\/\//i;
-const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
+const { isDate } = require("lodash/lang");
+const urljoin = require("url-join");
+
+const { getCachedAvatarImageFilename } = require("@root/app/common/utils");
+
+const BASE_DOMAIN = process.env.BASE_DOMAIN;
+const OPENUPM_REGION = process.env.OPENUPM_REGION == "cn" ? "cn" : "us";
 
 const _urlUtils = {
   // OpenUPM API URL
   openupmApiUrl:
     process.env.NODE_ENV === "development"
       ? "http://localhost:3600"
-      : "https://api.openupm.com",
+      : `https://api.${BASE_DOMAIN}`,
 
   // OpenUPM registry URL
-  openupmRegistryUrl: "https://package.openupm.com",
+  openupmRegistryUrl: `https://package.${BASE_DOMAIN}`,
 
   get openupmPackagesApiUrl() {
     return urljoin(_urlUtils.openupmApiUrl, "/packages/");
@@ -28,6 +32,41 @@ const _urlUtils = {
   // GitHub search code API URL
   githubSearchCodeApiUrl: "https://api.github.com/search/code",
 
+  // Package installer Site URL
+  packageInstallerSiteUrl:
+    OPENUPM_REGION == "cn"
+      ? `https://installer.${BASE_DOMAIN}`
+      : "https://package-installer.glitch.me",
+
+  // Unity registry URL
+  unityRegistryUrl: OPENUPM_REGION == "cn"
+    ? "https://packages.unity.cn"
+    : "https://packages.unity.com",
+
+  // Avatar URL
+  getAvatarImageUrl: function(username, size) {
+    const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
+    const filename = getCachedAvatarImageFilename(username, size);
+    return urljoin(mediaBaseUrl, filename);
+  },
+
+  // Package installer URL
+  getPackageInstallerUrl: function(packageName, scopes) {
+    const params = new URLSearchParams();
+    params.set("registry", this.openupmRegistryUrl);
+    if (scopes) {
+      for (const scope of scopes) {
+        params.append("scope", scope);
+      }
+    }
+    return urljoin(
+      this.packageInstallerSiteUrl,
+      "/v1/installer/OpenUPM/",
+      packageName,
+      "?" + params.toString()
+    );
+  },
+
   // Return Azure web build URL by buildId
   getAzureWebBuildUrl: function(buildId) {
     return (
@@ -36,8 +75,21 @@ const _urlUtils = {
     );
   },
 
+  // Return docs URL for the given language
+  getDocsUrl: function(url, lang) {
+    if (!lang && OPENUPM_REGION == "cn") lang = "zh";
+    return lang ? `/${lang}${url}` : url;
+  },
+
+  getMediaBaseUrl: function() {
+    return OPENUPM_REGION == "cn"
+      ? "https://openupm.s3.cn-south-1.jdcloud-oss.com/media/"
+      : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
+  },
+
   // Convert GitHub URL to GitHub raw URL
   convertToGitHubRawUrl: function(url) {
+    const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
     if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
     return url;
   },
@@ -55,47 +107,14 @@ const _urlUtils = {
   openupmCliRepoUrl: "https://github.com/openupm/openupm-cli#openupm-cli",
 
   // OpenUPM repository URL
-  openupmRepoUrl: "https://github.com/openupm/openupm"
-};
+  openupmRepoUrl: "https://github.com/openupm/openupm",
 
-const _markedUtils = {
-  // Get customized marked renderer.
-  markedRenderer: function(option) {
-    const renderer = new marked.Renderer();
-    const originalRendererLink = renderer.link.bind(renderer);
-    const originalRendererImage = renderer.image.bind(renderer);
+  // Tweet URL
+  tweetUrl:
+    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&via=openupmupdate&hashtags=unity3d,openupm,upm,gamedev",
 
-    renderer.link = (href, title, text) => {
-      if (option.linkBaseUrl && !httpRe.test(href)) {
-        href = urljoin(option.linkBaseUrl, href);
-      }
-      let link = originalRendererLink(href, title, text);
-      link = link.replace("<a", '<a target="_blank" rel="noopener noreferrer"');
-      return link;
-    };
-
-    renderer.image = (href, title, text) => {
-      if (option.imageBaseUrl && !httpRe.test(href)) {
-        href = urljoin(option.imageBaseUrl, href);
-      } else {
-        href = _urlUtils.convertToGitHubRawUrl(href);
-      }
-      return originalRendererImage(href, title, text);
-    };
-
-    return renderer;
-  },
-
-  // Post-processing markdown html
-  postMarkdown: function(html, { imageBaseUrl }) {
-    const root = $(`<div>${html}</div>`);
-    root.find("img").attr("src", (idx, attr) => {
-      if (attr === undefined) return undefined;
-      if (!httpRe.test(attr)) attr = urljoin(imageBaseUrl, attr);
-      return attr;
-    });
-    return root.html();
-  }
+  // Weibo URL
+  weiboUrl: "https://service.weibo.com/share/share.php?url=https://openupm.cn"
 };
 
 const _pageUtils = {
@@ -112,13 +131,61 @@ const _pageUtils = {
 const _timeUtils = {
   // Return time since string for the given date
   timeAgoFormat: function(date) {
-    return moment(date).fromNow();
+    try {
+      if (!isDate(date)) date = new Date(date);
+      return formatDistanceToNow(date, {
+        locale: OPENUPM_REGION == "cn" ? dateFnsZhLocale : dateFnsEnLocale
+      });
+    } catch (err) {
+      return "";
+    }
+  }
+};
+
+const _packageUtils = {
+  // Covnert the package cached image filename to the full URL.
+  getPackageImageUrl(imageFilename) {
+    if (!imageFilename) return null;
+    const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
+    return urljoin(mediaBaseUrl, imageFilename);
+  },
+
+  // Join package with extra data.
+  joinPackageExtra(pkg, extra) {
+    if (!extra) {
+      extra = {};
+    }
+    // Join package extra information
+    const result = {
+      ...pkg,
+      ...extra
+    };
+    // Prepare localized text
+    if (OPENUPM_REGION == "cn") {
+      if (pkg.displayName_zhCN) {
+        result.displayName = pkg.displayName_zhCN;
+        result.link.text = pkg.displayName_zhCN;
+      }
+      if (pkg.description_zhCN) result.description = pkg.description_zhCN;
+    }
+    // Prepare the sort name
+    result.sortName = pkg.link.text;
+    // Prepare the time fields
+    result.createdAt = result.createdAt || 0;
+    result.updatedAt = result.time || 0;
+    // Override the image with the full URL
+    result.image = _packageUtils.getPackageImageUrl(result.imageFilename);
+    // Prepare the version field
+    result.version = result.ver || undefined;
+    // Prepare the pending state
+    result.pending = !result.version;
+    return result;
   }
 };
 
 export default {
   ..._urlUtils,
-  ..._markedUtils,
   ..._pageUtils,
-  ..._timeUtils
+  ..._timeUtils,
+  ..._packageUtils
 };

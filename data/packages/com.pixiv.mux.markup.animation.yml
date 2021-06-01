@@ -1,0 +1,17 @@
+name: com.pixiv.mux.markup.animation
+displayName: Mux.Markup.Animation
+description: Unity Animation package wrapper for Mux XAML.
+repoUrl: 'https://github.com/pixiv/Mux.Markup.Animation'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: null
+createdAt: 1588978830744
+displayName_zhCN: Mux.Markup.Animation
+description_zhCN: Mux XAML的Unity Animation包装。

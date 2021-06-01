@@ -1,0 +1,24 @@
+name: io.megamiley.prefab-asset-utility
+displayName: PrefabAssetUtility
+description: >-
+  Utility package that allows you to get all prefabs using a certain asset and
+  visa versa.
+repoUrl: 'https://github.com/MileyHollenberg/PrefabAssetUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - frameworks
+  - utilities
+hunter: MileyHollenberg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592605361723
+displayName_zhCN: PrefabAssetUtility
+description_zhCN: 该实用程序包可让您使用某种资源来获得所有Prefab，反之亦然。

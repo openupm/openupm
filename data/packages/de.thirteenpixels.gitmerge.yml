@@ -1,0 +1,18 @@
+name: de.thirteenpixels.gitmerge
+displayName: GitMerge for Unity
+description: Unity plugin for merging scene files when using Git.
+repoUrl: 'https://github.com/FlaShG/GitMerge-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'http://flashg.github.io/GitMerge-for-Unity/SceneMergeScreen.jpg'
+readme: 'master:README.md'
+createdAt: 1603899949709
+displayName_zhCN: Unity的GitMerge
+description_zhCN: Unity插件，用于在使用Git时合并场景文件。

@@ -1,0 +1,25 @@
+name: nl.elraccoone.web-sockets
+displayName: Web Sockets
+description: >-
+  Unity Web Sockets provides a wrapper for using Web Sockets, an advanced
+  technology that allows real-time interactive communication between the client
+  browser and a server. It uses a completely different protocol that allows
+  bidirectional data flow, making it unique against HTTP.
+repoUrl: 'https://github.com/jeffreylanters/unity-web-sockets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-web-sockets/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620398398
+displayName_zhCN: Web Sockets
+description_zhCN: >-
+  Unity Web Sockets提供了用于使用Web Socket的包装，Web Socket是一种高级技术，它允许客户端浏览器和服务器之间进行实时交互通信，实现和HTTP协议不同的双向数据流。

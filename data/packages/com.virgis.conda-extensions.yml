@@ -1,0 +1,19 @@
+name: com.virgis.conda-extensions
+displayName: Conda Extensions for UPM
+description: Scripts to Help integrate Conda and UPM
+repoUrl: 'https://github.com/ViRGIS-Team/CondaExtensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620806980086

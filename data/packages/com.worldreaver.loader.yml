@@ -1,0 +1,19 @@
+name: com.worldreaver.loader
+displayName: Loader
+description: Provide loading for Unity
+repoUrl: 'https://github.com/worldreaver/Loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593886330386
+displayName_zhCN: Loader
+description_zhCN: 为Unity提供加载服务

@@ -1,0 +1,19 @@
+name: com.dotsui.hybrid
+displayName: DotsUI Hybrid UnityEngine module
+description: Unity engine DOTS UI solution
+repoUrl: 'https://github.com/supron54321/DotsUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:com.dotsui.core/README.md'
+createdAt: 1589338051936
+displayName_zhCN: DotsUI混合Unity引擎模块
+description_zhCN: Unity引擎DOTS UI解决方案

@@ -1,0 +1,22 @@
+name: com.adamcarballo.multipool
+displayName: MultiPool
+description: "\U0001F5C4 MultiPool - Expandable Object Pooling for Unity"
+repoUrl: 'https://github.com/AdamCarballo/Unity-MultiPool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: AdamCarballo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/AdamCarballo/Unity-MultiPool/raw/f8e2c2c1a9cc40a4e1b0934d7ac6ba7d9e833ce8/Editor/Icons/MultipoolManager_Icon64.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: MultiPool
+description_zhCN: MultiPool - Unity的可扩展对象池
+createdAt: 1611840709979

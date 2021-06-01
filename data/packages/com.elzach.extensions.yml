@@ -1,0 +1,18 @@
+name: com.elzach.extensions
+displayName: elZach CommonExtensions
+description: null
+repoUrl: 'https://github.com/NoArtistAvailable/elzach-extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: NoArtistAvailable
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:Changelog.md'
+createdAt: 1593789547127
+displayName_zhCN: elZach CommonExtensions

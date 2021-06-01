@@ -1,0 +1,20 @@
+name: io.extendreality.tilia.locomotors.axismove.unity
+displayName: Tilia Locomotors AxisMove Unity
+description: >-
+  A collection of prefabs that can move a given GameObject based on axis input
+  data for the Unity software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Locomotors.AxisMove.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595115270613
+displayName_zhCN: Tilia Locomotors AxisMove Unity
+description_zhCN: 可以根据Unity软件的轴输入数据移动给定GameObject的Prefab的集合

@@ -1,0 +1,19 @@
+name: com.lojugames.view
+displayName: Loju View
+description: >-
+  Tools for managing and creating views (UI screens), contains a controller that
+  acts as a state machine for navigating between locations and overlays.
+repoUrl: 'https://github.com/loju-games/View'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248464851
+displayName_zhCN: Loju视图
+description_zhCN: 用于管理和创建视图的工具（UI屏幕）包含一个控制器，该控制器充当状态机，用于在位置和叠加层之间导航。

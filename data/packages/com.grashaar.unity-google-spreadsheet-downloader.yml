@@ -1,0 +1,18 @@
+name: com.grashaar.unity-google-spreadsheet-downloader
+displayName: Unity Google Spreadsheet Downloader
+description: A simple tool helps downloading Google Spreadsheet in Unity
+repoUrl: 'https://github.com/grashaar/Unity.Google-Spreadsheet-Downloader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+image: null
+readme: 'master:README.md'
+createdAt: 1593680472208
+displayName_zhCN: Unity Google电子表格下载器
+description_zhCN: 一个简单的工具可帮助您在Unity中下载Google电子表格

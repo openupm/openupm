@@ -1,0 +1,22 @@
+name: com.febucci.custom-hierarchy
+displayName: Custom Hierarchy for Unity
+description: >-
+  Unity package to help having a clearer Hierarchy view, organizing everything
+  in a “tree view” and including extra informations like Components Icons and
+  groups/divisors.
+repoUrl: 'https://github.com/abrusle/unitypackage-custom-hierarchy'
+parentRepoUrl: 'https://github.com/febucci/unitypackage-custom-hierarchy'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://www.febucci.com/assets/uploads/2020/febucci-custom-hierarchy-for-unity-preview.gif
+readme: 'main:README.md'
+createdAt: 1604091977037
+displayName_zhCN: Unity的自定义层级结构
+description_zhCN: Unity包以帮助展示更清晰的层级结构，请在“Tree视图”中组织所有内容，包括额外的信息，如组件图标和组等。

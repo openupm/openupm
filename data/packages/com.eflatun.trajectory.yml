@@ -7,6 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1576332294000
+displayName_zhCN: Eflatun.Trajectory
+description_zhCN: Unity的轨迹计算和可视化实用程序。

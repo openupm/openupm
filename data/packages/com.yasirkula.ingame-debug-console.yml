@@ -8,7 +8,10 @@ parentRepoUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: starikcetin
 createdAt: 1576336765000
-image: https://raw.githubusercontent.com/starikcetin/UnityIngameDebugConsole/cce40370c09e6e72c69d475bffc7a392014cc693/Images/1.png
+image: >-
+  https://raw.githubusercontent.com/starikcetin/UnityIngameDebugConsole/cce40370c09e6e72c69d475bffc7a392014cc693/Images/1.png
+displayName_zhCN: 游戏内调试控制台
+description_zhCN: 基于uGUI的控制台，可在Unity的游戏过程中查看调试消息并执行命令

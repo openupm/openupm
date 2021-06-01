@@ -1,0 +1,20 @@
+name: com.worldreaver.systemnumericsvectors
+displayName: SystemNumericsVectors
+description: >-
+  Provides hardware-accelerated numeric types, suitable for high-performance
+  processing and graphics applications.
+repoUrl: 'https://github.com/worldreaver/SystemNumericsVectors'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589565494582
+displayName_zhCN: SystemNumericsVectors
+description_zhCN: 提供硬件加速的数字类型，适用于高性能处理和图形应用程序。

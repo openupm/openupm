@@ -1,0 +1,19 @@
+name: com.initialprefabs.unity-editor-toolbag
+displayName: Unity Editor Toolbag
+description: A common set of useful editor tools you can plug in to your project.
+repoUrl: 'https://github.com/InitialPrefabs/UnityEditorToolBag'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'package-info:README.md'
+createdAt: 1589306100613
+displayName_zhCN: Unity编辑器工具包
+description_zhCN: 您可以加入项目的一组通用的实用编辑器工具。

@@ -1,0 +1,19 @@
+name: com.github.ibicha.image-effect-graph
+displayName: Image Effect Graph
+description: Image effects for post processing stack created with shader graph for Unity
+repoUrl: 'https://github.com/edwin0cheng/ImageEffectGraph'
+parentRepoUrl: 'https://github.com/iBicha/ImageEffectGraph'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/c4ba62db68fff79a910d841aabbe23b251931943/68747470733a2f2f7261772e6769746875622e636f6d2f6942696368612f496d61676545666665637447726170682f6d61737465722f507265766965772f67726170682e706e67
+readme: 'upm:README.md'
+createdAt: 1591996869106
+displayName_zhCN: 图像效果Graph
+description_zhCN: 通过shader graph创建的图像效果，用于Unity的post processing stack

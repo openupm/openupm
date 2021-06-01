@@ -1,0 +1,20 @@
+name: com.yasirkula.beziersolution
+displayName: Bezier Solution
+description: >-
+  A bezier spline solution for Unity 3D with some utility functions (like
+  travelling the spline with constant speed/time)
+repoUrl: 'https://github.com/yasirkula/UnityBezierSolution'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/yasirkula/UnityBezierSolution/raw/c6dd5d06a74ecf85a2357fb51611ebb41bbc35b7/.github/Images/1.png
+readme: .github/README.md
+createdAt: 1588087029017
+displayName_zhCN: Bezier解决方案
+description_zhCN: 具有实用功能的Unity 3D Bezier曲线spline解决方案（例如以恒定速度/时间移动spline）

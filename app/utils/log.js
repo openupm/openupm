@@ -1,7 +1,7 @@
 // Winston log util.
 const bunyan = require("bunyan");
 const path = require("path");
-const _ = require("lodash");
+const { isString } = require("lodash/lang");
 
 // Return log name for given module
 const getLogName = function(module) {
@@ -19,15 +19,17 @@ const getLogName = function(module) {
 
 // Create logger for given module
 function createLogger(module) {
-  const name = _.isString(module) ? module : getLogName(module);
+  const name = isString(module) ? module : getLogName(module);
   if (process.env.NODE_ENV === "test")
     return bunyan.createLogger({
       name,
+      serializers: bunyan.stdSerializers,
       streams: [{ level: "fatal", stream: process.stdout }]
     });
   else {
     return bunyan.createLogger({
       name,
+      serializers: bunyan.stdSerializers,
       streams: [
         {
           level: process.env.OPENUPM_DEBUG ? "debug" : "info",

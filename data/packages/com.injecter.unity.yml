@@ -1,0 +1,15 @@
+name: com.injecter.unity
+displayName: Injecter.Unity
+description: null
+repoUrl: 'https://github.com/KuraiAndras/Injecter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585990923162
+displayName_zhCN: Injecter.Unity

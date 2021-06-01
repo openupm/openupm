@@ -1,0 +1,19 @@
+name: com.periodyc.hydrogen.entities
+displayName: Hydrogen Entities
+description: >-
+  A collection of helpers for work with Unity's ECS framework, used in our
+  games.
+repoUrl: 'https://github.com/periodyctom/Hydrogen.Entities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589238807198
+displayName_zhCN: Hydrogen实体
+description_zhCN: 我们的游戏中使用了与Unity的ECS框架一起工作的帮助集合。

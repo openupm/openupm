@@ -1,0 +1,19 @@
+name: com.baba-s.uni-embedded-logger
+displayName: UniEmbeddedLogger
+description: 【Unity】ソースコードにログ出力を簡単に埋め込める機能
+repoUrl: 'https://github.com/baba-s/UniEmbeddedLogger'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/92325325-9424a400-f084-11ea-9c5a-9e0d78267d73.png
+readme: 'master:README.md'
+createdAt: 1599524490913
+displayName_zhCN: UniEmbeddedLogger
+description_zhCN: 在源代码中轻松嵌入日志

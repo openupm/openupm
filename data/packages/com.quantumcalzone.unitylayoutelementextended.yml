@@ -1,0 +1,25 @@
+name: com.quantumcalzone.unitylayoutelementextended
+displayName: LayoutElementExended
+description: >-
+  An extension of Unity's LayoutElement script that enables more flexible
+  adaptation. With this you can now match another RecTransform's dimensions
+  (width, height, or both) and now set maximum preferred values.
+repoUrl: 'https://github.com/QuantumCalzone/UnityLayoutElementExtended'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/93e916d8ec574f3b1c2f53abbd4316c4fb68da039345fe1b3dd63596ad0c0b46/68747470733a2f2f696d6775722e636f6d2f7a41564e7061412e706e67
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: LayoutElementExended
+description_zhCN: >-
+  Unity
+  LayoutElement脚本的扩展，可以更灵活地进行调整。现在，您可以匹配另一个RecTransform的尺寸（宽度，高度或两者），并设置最大首选值。
+createdAt: 1607804338959

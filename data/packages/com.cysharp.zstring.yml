@@ -1,0 +1,18 @@
+name: com.cysharp.zstring
+displayName: ZString
+description: Zero Allocation StringBuilder for .NET Core and Unity.
+repoUrl: 'https://github.com/Cysharp/ZString'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.2.0
+image: null
+readme: 'master:README.md'
+createdAt: 1596448561788
+displayName_zhCN: ZString
+description_zhCN: 用于.NET Core和Unity的零内存分配字符串。

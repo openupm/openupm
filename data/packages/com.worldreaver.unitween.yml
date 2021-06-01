@@ -1,0 +1,19 @@
+name: com.worldreaver.unitween
+displayName: UniTween
+description: Rx Tween Animation Library for Unity
+repoUrl: 'https://github.com/worldreaver/UniTween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/961165/36021790-3d5a335a-0dca-11e8-9481-7376cd25a4c0.gif
+readme: 'upm:README.md'
+createdAt: 1593891937749
+displayName_zhCN: UniTween
+description_zhCN: Rx Tween动画库，用于Unity

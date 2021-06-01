@@ -1,0 +1,19 @@
+name: com.baba-s.uni-rect-transform-rounder
+displayName: UniRectTransformRounder
+description: 【Unity】RectTransform のパラメータを四捨五入するコマンドをコンテキストメニューに追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniRectTransformRounder'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591651366786
+displayName_zhCN: UniRectTransformRounder
+description_zhCN: RectRansform四舍五入功能

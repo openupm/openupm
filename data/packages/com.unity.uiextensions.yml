@@ -6,7 +6,9 @@ parentRepoUrl: 'https://bitbucket.org/UnityUIExtensions/unity-ui-extensions'
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause
 topics:
-  - ui
-  - library
+  - gui
+  - utilities
 hunter: favoyang
 createdAt: 1576235107000
+displayName_zhCN: Unity UI扩展
+description_zhCN: 每天从bitbucket仓库中同步

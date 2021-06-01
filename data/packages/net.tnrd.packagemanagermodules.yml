@@ -1,0 +1,21 @@
+name: net.tnrd.packagemanagermodules
+displayName: Package Manager Modules
+description: A toolkit to create modules for the Package Manager Window
+repoUrl: 'https://github.com/Thundernerd/Unity3D-PackageManagerModules'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 包管理器模块
+description_zhCN: 用于为“程序包管理器”窗口创建模块的工具箱
+createdAt: 1610226709520

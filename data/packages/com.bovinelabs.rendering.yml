@@ -1,0 +1,16 @@
+name: com.bovinelabs.rendering
+displayName: BovineLabs.Rendering
+description: null
+repoUrl: 'https://github.com/tertle/com.bovinelabs.rendering'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: All Rights Reserved
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'specialized:README.md'
+createdAt: 1589385241248
+displayName_zhCN: BovineLabs.Rendering

@@ -1,0 +1,21 @@
+name: com.baba-s.uni-message-box
+displayName: UniMessageBox
+description: 【Unity】Unity エディタで Windows のメッセージボックスを表示できるパッケージ
+repoUrl: 'https://github.com/baba-s/UniMessageBox'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/80806220-0d068180-8bf5-11ea-8448-291a5efead23.png
+readme: 'master:README.md'
+createdAt: 1591666638023
+displayName_zhCN: UniMessageBox
+description_zhCN: 在Unity编辑器中显示Windows消息框

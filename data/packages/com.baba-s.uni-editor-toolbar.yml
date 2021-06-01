@@ -1,0 +1,17 @@
+name: com.baba-s.uni-editor-toolbar
+displayName: UniEditorToolbar
+description: null
+repoUrl: 'https://github.com/baba-s/UniEditorToolbar'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593541260812
+displayName_zhCN: UniEditorToolbar

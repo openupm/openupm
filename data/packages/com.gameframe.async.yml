@@ -6,9 +6,12 @@ parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 topics:
-  - library
+  - utilities
+  - parallelism-and-concurrency
 hunter: favoyang
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-a'
 image: null
 createdAt: 1585498525419
+displayName_zhCN: Gameframe.Async异步
+description_zhCN: Unity的任务和异步帮助程序包

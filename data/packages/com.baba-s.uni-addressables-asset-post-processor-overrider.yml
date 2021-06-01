@@ -1,0 +1,17 @@
+name: com.baba-s.uni-addressables-asset-post-processor-overrider
+displayName: UniAddressablesAssetPostProcessorOverrider
+description: null
+repoUrl: 'https://github.com/baba-s/UniAddressablesAssetPostProcessorOverrider'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593294127448
+displayName_zhCN: UniAddressablesAssetPostProcessorOverrider

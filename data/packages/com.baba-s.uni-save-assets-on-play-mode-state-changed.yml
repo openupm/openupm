@@ -1,0 +1,19 @@
+name: com.baba-s.uni-save-assets-on-play-mode-state-changed
+displayName: UniSaveAssetsOnPlayModeStateChanged
+description: 【Unity】Unity 再生時に AssetDatabase.SaveAssets を実行するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSaveAssetsOnPlayModeStateChanged'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591708611325
+displayName_zhCN: UniSaveassetsonplayModeSteChanged
+description_zhCN: 允许在Unity的Play模式下运行AssetDatabase.SaveAssets

@@ -1,0 +1,18 @@
+name: com.github.exceldatareader.exceldatareader
+displayName: ExcelDataReader
+description: Lightweight and fast library written in C# for reading Microsoft Excel files
+repoUrl: 'https://github.com/iDreamsOfGame/ExcelDataReader'
+parentRepoUrl: 'https://github.com/ExcelDataReader/ExcelDataReader'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+hunter: iDreamsOfGame
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1586668745136
+displayName_zhCN: ExcelDataReader
+description_zhCN: 轻量级和快速的C#库用于读取微软Excel文件

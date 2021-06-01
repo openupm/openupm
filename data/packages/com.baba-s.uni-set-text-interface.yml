@@ -1,0 +1,19 @@
+name: com.baba-s.uni-set-text-interface
+displayName: UniSetTextInterface
+description: 【Unity】テキスト設定時の GC Alloc を減らすことを目的としたインターフェイス
+repoUrl: 'https://github.com/baba-s/UniSetTextInterface'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591666364596
+displayName_zhCN: UniSetTextInterface
+description_zhCN: 在设置UI文本时减少GC

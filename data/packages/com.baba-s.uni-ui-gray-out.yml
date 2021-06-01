@@ -1,0 +1,17 @@
+name: com.baba-s.uni-ui-gray-out
+displayName: UniUIGrayOut
+description: null
+repoUrl: 'https://github.com/baba-s/UniUIGrayOut'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592875994909
+displayName_zhCN: UniUIGrayOut

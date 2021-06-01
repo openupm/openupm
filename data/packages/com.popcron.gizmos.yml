@@ -1,0 +1,17 @@
+name: com.popcron.gizmos
+displayName: Popcron Gizmos
+description: Used for drawing runtime gizmos in builds and editor (Unity3D)
+repoUrl: 'https://github.com/popcron/gizmos'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588954806049
+displayName_zhCN: Popcron Gizmos
+description_zhCN: 用于在构建和绘制Unity3D编辑器的运行时小控件

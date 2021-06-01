@@ -1,0 +1,19 @@
+name: com.boundfoxstudios.fluentassertions
+displayName: FluentAssertions
+description: FluentAssertions for Unity
+repoUrl: 'https://github.com/BoundfoxStudios/fluentassertions-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+  - utilities
+hunter: BoundfoxStudios
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1599599256181
+displayName_zhCN: FluentAssertions
+description_zhCN: FluentAssertions

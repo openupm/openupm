@@ -1,0 +1,20 @@
+name: dev.kyubuns.apureeasing
+displayName: ApureEasing
+description: Easing library for Visual Scripting
+repoUrl: 'https://github.com/kyubuns/ApureEasing'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/961165/109410674-dd283600-79df-11eb-8354-ab9797514876.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614546227655

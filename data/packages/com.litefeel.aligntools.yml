@@ -6,10 +6,13 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
-  - ui
+  - editor-enhancement
+  - gui
 hunter: litefeel
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: 'https://raw.githubusercontent.com/litefeel/Unity-AlignTools/master/AssetStore/screenshots.png'
+image: >-
+  https://raw.githubusercontent.com/litefeel/Unity-AlignTools/master/AssetStore/screenshots.png
 createdAt: 1582999911276
+displayName_zhCN: AlignTools
+description_zhCN: Align Tools是完美的Unity资源插件，用于对齐gui对象

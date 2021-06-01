@@ -1,0 +1,18 @@
+name: com.baba-s.uni-camera-used-on-global-canvas
+displayName: UniCameraUsedOnGlobalCanvas
+description: null
+repoUrl: 'https://github.com/baba-s/UniCameraUsedOnGlobalCanvas'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592680958353
+displayName_zhCN: UniCameraUsedOnGlobalCanvas

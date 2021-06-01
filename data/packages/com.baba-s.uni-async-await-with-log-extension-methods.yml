@@ -1,0 +1,19 @@
+name: com.baba-s.uni-async-await-with-log-extension-methods
+displayName: UniAsyncAwaitWithLogExtensionMethods
+description: 【Unity】async・await で処理の開始時と終了時にログを出力できる拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniAsyncAwaitWithLogExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594908708066
+displayName_zhCN: UniAsyncAwaitWithLogExtensionMethods
+description_zhCN: 可以在async await时输出带时间的日志

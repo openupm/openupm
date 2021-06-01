@@ -1,0 +1,20 @@
+name: com.brunomikoski.uimanager
+displayName: UI Manager
+description: null
+repoUrl: 'https://github.com/brunomikoski/UIManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - gui
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602710052637
+displayName_zhCN: UI管理

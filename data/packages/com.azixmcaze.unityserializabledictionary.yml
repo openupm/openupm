@@ -6,7 +6,10 @@ parentRepoUrl: 'https://github.com/azixMcAze/Unity-SerializableDictionary'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 createdAt: 1576174613000
-image: https://raw.githubusercontent.com/starikcetin/Unity-SerializableDictionary/c02dbf65910a11d5e63416980d4888fecad87877/docs/SerializableDictionary_screenshot1.png
+image: >-
+  https://raw.githubusercontent.com/starikcetin/Unity-SerializableDictionary/c02dbf65910a11d5e63416980d4888fecad87877/docs/SerializableDictionary_screenshot1.png
+displayName_zhCN: Unity可序列化字典
+description_zhCN: Unity可序列化字典类

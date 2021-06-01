@@ -1,0 +1,19 @@
+name: com.insaneone.avoidance
+displayName: Nav Mesh Avoidance
+description: Custom Nav Mesh Avoidance to replace default one
+repoUrl: 'https://github.com/InsaneOneHub/NavMeshAvoidance'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/ff721799df48ab2e937e5d5fd9b233478d7a2bf966750456e38890d731060333/68747470733a2f2f6d65646961332e67697068792e636f6d2f6d656469612f63413358786434436e423954426f494d74472f67697068792e676966
+readme: 'master:README.md'
+createdAt: 1604792564932
+displayName_zhCN: Nav Mesh躲避
+description_zhCN: 自定义的Nav Mesh躲避组件

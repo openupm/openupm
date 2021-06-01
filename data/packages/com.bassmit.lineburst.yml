@@ -1,0 +1,19 @@
+name: com.bassmit.lineburst
+displayName: Line Burst
+description: Draw large amounts of lines and shapes in game and scene view 
+repoUrl: 'https://github.com/bassmit/lineburst'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615459478858

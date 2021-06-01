@@ -1,0 +1,19 @@
+name: cn.zhouzelong.lframework
+displayName: LFramework
+description: Unity Framework
+repoUrl: 'https://github.com/rapidc/LFramework'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621514412172

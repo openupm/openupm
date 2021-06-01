@@ -1,0 +1,19 @@
+name: studio.gilp.uiframework
+displayName: UIFramework
+description: The deVoid UI Framework for Unity
+repoUrl: 'https://github.com/GilpStudio/uiframework'
+parentRepoUrl: 'https://github.com/yankooliveira/uiframework'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/5a1831906a8cb595b53a21976ee1b4dcfe312430/68747470733a2f2f696d672e697463682e7a6f6e652f6157316e4c7a45354e54517a4f4459755a326c6d2f6f726967696e616c2f253242726c756d4b2e676966
+readme: 'package:README.md'
+createdAt: 1589335752747
+displayName_zhCN: UIFramework
+description_zhCN: 用于Unity的deVoid UI框架

@@ -1,0 +1,21 @@
+name: com.dman.object-sets
+displayName: Object Sets
+description: null
+repoUrl: 'https://github.com/dsmiller95/DmanUtilities'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.object-sets/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UtilityScripts/com.dman.object-sets/README.md'
+readme_zhCN: ''
+displayName_zhCN: 对象集
+description_zhCN: ''
+createdAt: 1610310528947

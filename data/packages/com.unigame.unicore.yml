@@ -1,0 +1,19 @@
+name: com.unigame.unicore
+displayName: UniGame Core Module
+description: Core Module
+repoUrl: 'https://github.com/UniGameTeam/UniGame.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/UniGameTeam/UniGame.Core/raw/a23b103cf6dea80519c9407d373c05bd1dacf13b/Runtime/ObjectPool/Examples/SpawnDemo/ninja-simple-512.png
+readme: 'main:README.md'
+createdAt: 1602556212984
+displayName_zhCN: UniGame核心模块
+description_zhCN: 核心模块

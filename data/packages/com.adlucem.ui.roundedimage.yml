@@ -1,0 +1,19 @@
+name: com.adlucem.ui.roundedimage
+displayName: AdLucem RoundedImage
+description: Rounded image implementation for Unity UI
+repoUrl: 'https://github.com/Arzijin/RoundedImage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Arzijin/RoundedImage/raw/6b0a59f5f03950be261e0487579977c66578383e/Tests/Textures/checker.png
+readme: 'master:README.md'
+createdAt: 1589986764344
+displayName_zhCN: Adlucem的圆角图片
+description_zhCN: Unity UI的圆形图像实现

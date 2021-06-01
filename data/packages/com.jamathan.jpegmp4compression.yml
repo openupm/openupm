@@ -1,0 +1,21 @@
+name: com.jamathan.jpegmp4compression
+displayName: JPEG MP4 Compression PostProcessing Effect
+description: >-
+  This package aims to accurately recreate the effect of JPEG/MP4 compression as
+  a PostProcessing Effect
+repoUrl: >-
+  https://github.com/JanMalitschek/JPEG-MP4-Compression-PostProcessing-Effect-for-Unity3D
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - camera
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588904638893
+displayName_zhCN: JPEG MP4压缩后期处理效果
+description_zhCN: 准确的JPEG/MP4压缩后期处理效果

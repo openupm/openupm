@@ -1,0 +1,23 @@
+name: com.needle.shadergraph-markdown
+displayName: ShaderGraph Markdown
+description: >-
+  Markdown-like syntax for ShaderGraph properties, to make better material
+  inspectors
+repoUrl: 'https://github.com/needle-tools/shadergraph-markdown'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - particles-and-effects
+hunter: hybridherbst
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/needle-tools/shadergraph-markdown/wiki/Images/04_Workflow.gif
+readme: 'main:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ShaderGraph Markdown
+description_zhCN: ShaderGraph属性的类似Markdown语法，以使更好的实用材质Inspector。
+createdAt: 1609294363702

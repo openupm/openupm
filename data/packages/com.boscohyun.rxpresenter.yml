@@ -1,0 +1,21 @@
+name: com.boscohyun.rxpresenter
+displayName: RxPresenter
+description: A simple reactive presenter for Unity.
+repoUrl: 'https://github.com/boscohyun/RxPresenter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - gui
+  - utilities
+hunter: boscohyun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1621700495838

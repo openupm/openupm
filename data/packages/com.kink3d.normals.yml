@@ -1,0 +1,18 @@
+name: com.kink3d.normals
+displayName: kNormals
+description: World space normals texture for Unity's Universal Render Pipeline.
+repoUrl: 'https://github.com/Kink3d/kNormals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/wiki/Kink3d/kNormals/Images/Home00.png'
+readme: 'master:README.md'
+createdAt: 1592141952322
+displayName_zhCN: kNormals
+description_zhCN: Unity的通用渲染管线的世界空间法线贴图。

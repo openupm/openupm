@@ -1,0 +1,17 @@
+name: com.greenbuttongames.quests
+displayName: GBG Quests
+description: null
+repoUrl: 'https://github.com/Mefodei/UniDataModule'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594953681318
+displayName_zhCN: GBG任务

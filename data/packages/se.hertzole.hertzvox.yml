@@ -1,0 +1,19 @@
+name: se.hertzole.hertzvox
+displayName: HertzVox
+description: An efficient and easy to use voxel framework for Unity.
+repoUrl: 'https://github.com/Hertzole/HertzVox-2'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Hertzole/HertzVox-2/raw/86e6830b5cbba07cdd79f3cfc5e844c722d3afbf/Gizmos/Collection.png
+readme: 'master:README.md'
+createdAt: 1590078160595
+displayName_zhCN: HertzVox
+description_zhCN: 一个高效且易于使用的Unity voxel框架。

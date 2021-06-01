@@ -1,0 +1,17 @@
+name: com.baba-s.uni-coroutine-utils
+displayName: UniCoroutineUtils
+description: 【Unity】どこからでもコルーチンを使用できるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniCoroutineUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591650467950
+displayName_zhCN: UniCoroutineUtils
+description_zhCN: 从任何地方使用Coroutine协程的帮助类

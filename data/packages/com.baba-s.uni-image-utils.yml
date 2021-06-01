@@ -1,0 +1,19 @@
+name: com.baba-s.uni-image-utils
+displayName: UniImageUtils
+description: 【Unity】Image 型に関係する汎用的な関数を管理するクラス
+repoUrl: 'https://github.com/baba-s/UniImageUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/95199491-db36be00-0817-11eb-8382-3d0926066180.png
+readme: 'master:README.md'
+createdAt: 1602026415764
+displayName_zhCN: UniImageUtils
+description_zhCN: 管理与图像类相关的通用功能

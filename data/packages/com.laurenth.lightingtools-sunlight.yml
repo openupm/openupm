@@ -1,0 +1,19 @@
+name: com.laurenth.lightingtools-sunlight
+displayName: Lighting Tools Sunlight
+description: Sunlight entity for unity and HD Render Pipeline
+repoUrl: 'https://github.com/laurenth-personal/LightingTools.Sunlight'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 光照工具阳光
+description_zhCN: 用于Unity和HD渲染管线的的阳光实体
+createdAt: 1611868226166

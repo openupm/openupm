@@ -1,0 +1,19 @@
+name: xyz.candycoded.candycoded
+displayName: CandyCoded
+description: "\U0001F36D Custom Unity Components that are delightful"
+repoUrl: 'https://github.com/CandyCoded/CandyCoded'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: neogeek
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.1.0
+image: >-
+  https://github.com/CandyCoded/CandyCoded/raw/3946e13b305da7178861d4efe3df2f41d4f492a8/logo.png
+readme: 'master:README.md'
+createdAt: 1591397649758
+displayName_zhCN: CandyCoded
+description_zhCN: "\U0001F36D令人愉快的自定义Unity组件"

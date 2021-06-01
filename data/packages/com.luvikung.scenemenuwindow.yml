@@ -1,0 +1,23 @@
+name: com.luvikung.scenemenuwindow
+displayName: Scene Menu Window for Unity
+description: >-
+  This is plugin that will add new window for switch scene easier with load
+  mode.
+repoUrl: 'https://github.com/LuviKunG/SceneMenuWindow'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/SceneMenuWindow/raw/323cf09cb548f1bd3919c271aaf54718f241ade1/images/preview.gif
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614101758346

@@ -1,0 +1,19 @@
+name: dev.bolt.addons
+displayName: Community Addons for Bolt
+description: A community-driven project for extending Unity Bolt
+repoUrl: 'https://github.com/RealityStop/Bolt.Addons.Community'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/f5702799cdd5c3b8975cd11bbb3f6811ba8c9ae41bbdf7ff4700d65686de0edb/68747470733a2f2f696d6775722e636f6d2f7369526d3777752e676966
+readme: 'master:README.md'
+createdAt: 1604682086142
+displayName_zhCN: Bolt社区插件
+description_zhCN: 一个社区驱动的项目，用于扩展Unity Bolt

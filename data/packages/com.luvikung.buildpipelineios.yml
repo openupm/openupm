@@ -1,0 +1,23 @@
+name: com.luvikung.buildpipelineios
+displayName: Build Pipeline for iOS
+description: >-
+  Build Pipeline for iOS is a build tools for Unity Editor that able to manage
+  build version by folder and able to modify plist and many settings.
+repoUrl: 'https://github.com/LuviKunG/BuildPipelineIOS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/BuildPipelineIOS/raw/3faea71f114c978e1ea25599072bcada9992bf06/images/giturl.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614103008622

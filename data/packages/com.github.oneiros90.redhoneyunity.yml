@@ -1,0 +1,20 @@
+name: com.github.oneiros90.redhoneyunity
+displayName: Red Honey
+description: Just my personal repository of utils and helper code for Unity 3D
+repoUrl: 'https://github.com/Oneiros90/RedHoney-Unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - animation
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Oneiros90/RedHoney-Unity/raw/837b92f6cd9015cbc9feb58d93ccd2d8b48ee518/Logo/redhoney.png
+readme: 'master:README.md'
+createdAt: 1589248824765
+displayName_zhCN: Red Honey
+description_zhCN: 我个人的Unity 3D的工具库

@@ -1,0 +1,18 @@
+name: ca.tekly.logger
+displayName: Tekly Logger
+description: Logger
+repoUrl: 'https://github.com/matt-tekly/tekly-logger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: matt-tekly
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Packages/ca.tekly.logger/readme.md'
+createdAt: 1601229612335
+displayName_zhCN: Tekly Logger
+description_zhCN: Tekly日志

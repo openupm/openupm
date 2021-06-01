@@ -1,0 +1,18 @@
+name: com.baba-s.uni-game-object-hierarchy-path-copyer
+displayName: UniGameObjectHierarchyPathCopyer
+description: null
+repoUrl: 'https://github.com/baba-s/UniGameObjectHierarchyPathCopyer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591639334265
+displayName_zhCN: UniGameObjectHierarchyPathCopyer

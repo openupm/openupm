@@ -1,0 +1,20 @@
+name: com.av.smart-hierarchy
+displayName: Smart Hierarchy
+description: Human readable hierarchy with icons and folders for Unity
+repoUrl: 'https://github.com/neon-age/Smart-Hierarchy'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/5441fa129a6ab39b223b482107685b9a155d598b/68747470733a2f2f692e696d6775722e636f6d2f6f65624a5076392e706e67
+readme: 'master:README.md'
+createdAt: 1601667145374
+displayName_zhCN: 智能层级结构
+description_zhCN: 带图标和文件夹的易读层级结构

@@ -1,0 +1,20 @@
+name: com.baba-s.uni-directory-dependencies-checker
+displayName: UniDirectoryDependenciesChecker
+description: 【Unity】指定したフォルダ内のアセットがフォルダ外のアセットを参照していないかどうか確認するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniDirectoryDependenciesChecker'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79993506-c9729000-84ef-11ea-9207-851cf907c3cd.png
+readme: 'master:README.md'
+createdAt: 1591638397711
+displayName_zhCN: UniDirectoryDependenciesChecker
+description_zhCN: 检查指定文件夹中的资源是否有不当引用

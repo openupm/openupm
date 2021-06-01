@@ -1,0 +1,20 @@
+name: com.aarthificial.reanimation
+displayName: Reanimation
+description: An alternative animator for Unity tailored for traditional animation
+repoUrl: 'https://github.com/aarthificial/reanimation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/8e43cc49b8781f7515fb50a7425b3fb56f1c94a1431bfad8dbff027dc6f3ddca/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f356148686d526956705a492f6d617872657364656661756c742e6a7067
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 复苏
+description_zhCN: 专为传统动画量身定制的Unity animator
+createdAt: 1611255312730

@@ -1,0 +1,21 @@
+name: com.github.signmotion.unityevents
+displayName: Unity Events With Jobs
+description: >-
+  A code focused strongly typed event system with global system and per
+  GameObject system.
+repoUrl: 'https://github.com/signmotion/unity-events'
+parentRepoUrl: 'https://github.com/GalvanicGames/unity-events'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592154002256
+displayName_zhCN: Unity Events和Jobs
+description_zhCN: 在全局和GameObject两个层面上支持强类型的事件系统。

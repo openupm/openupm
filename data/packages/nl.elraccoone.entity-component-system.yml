@@ -1,0 +1,25 @@
+name: nl.elraccoone.entity-component-system
+displayName: Entity Component System
+description: >-
+  A better approach to game design that allows you to concentrate on the actual
+  problems you are solving: the data and behavior that make up your game. By
+  moving from object-oriented to data-oriented design it will be easier for you
+  to reuse the code and easier for others to understand and work on it.
+repoUrl: 'https://github.com/jeffreylanters/unity-entity-component-system'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-entity-component-system/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600619945860
+displayName_zhCN: 实体组件系统
+description_zhCN: >-
+  一种更好的游戏设计方法，可让您专注于要解决的实际问题：构成游戏的数据和行为。通过从面向对象的设计过渡到面向数据的设计，您将更容易重用代码，而其他人也更容易理解和使用它。

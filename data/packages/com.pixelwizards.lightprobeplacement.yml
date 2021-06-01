@@ -8,7 +8,11 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - editor
+  - editor-enhancement
 hunter: PixelWizards
 gitTagIgnore: ''
 createdAt: 1579940016493
+displayName_zhCN: PixelWizards-Light Probe放置工具
+description_zhCN: >-
+  LightProbe放置器的Package
+  Manager包装：https://github.com/AlexanderVorobyov/simple-light-probe-placer

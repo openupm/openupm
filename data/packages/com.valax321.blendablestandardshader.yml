@@ -1,0 +1,19 @@
+name: com.valax321.blendablestandardshader
+displayName: Blendable Standard Shader
+description: Unity standard shader with blendable layers
+repoUrl: 'https://github.com/Valax321/BlendableStandardShader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/BlendableStandardShader/raw/85e0897a1bed191344293f0b489a44c3500cc9e0/Documentation~/screenshot1.png
+readme: 'master:README.md'
+createdAt: 1591288556618
+displayName_zhCN: 可混合标准shader
+description_zhCN: 具有可混合图层的Unity标准shader

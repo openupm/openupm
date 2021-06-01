@@ -1,0 +1,19 @@
+name: com.baba-s.uni-game-object-duplication-hooker
+displayName: UniGameObjectDuplicationHooker
+description: 【Unity】ゲームオブジェクトの複製時に名前の末尾に数値を付けず、かつ transform のプロパティに誤差が生じないようにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniGameObjectDuplicationHooker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/61863367/81281094-5db62880-9094-11ea-8633-0ba6ed0a34e5.png
+readme: 'master:README.md'
+createdAt: 1591646935364
+displayName_zhCN: UniGameObjectDuplicationHooker
+description_zhCN: 在复制GameObject保证不发生数值误差

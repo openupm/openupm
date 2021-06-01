@@ -1,0 +1,21 @@
+name: com.unityextensions.selectionhistory
+displayName: UnityExtensions.SelectionHistory
+description: >-
+  Adds navigation menu items in Unity Editor: "Edit/Selection/Back",
+  "Edit/Selection/Forward"
+repoUrl: 'https://github.com/garettbass/UnityExtensions.SelectionHistory'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/garettbass/UnityExtensions.SelectionHistory/raw/36a1bd5d38899b83edaabc141042edcc95deb377/Menu-Items.png
+readme: 'master:README.md'
+createdAt: 1592082808771
+displayName_zhCN: UnityExtensions.SelectionHistory
+description_zhCN: 在Unity Editor中添加导航菜单项：“编辑/选择/返回”，“编辑/选择/返回”

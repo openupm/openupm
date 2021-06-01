@@ -1,0 +1,21 @@
+name: net.tnrd.humanizr
+displayName: Humanizr
+description: >-
+  Humanizer meets all your .NET needs for manipulating and displaying strings,
+  enums, dates, times, timespans, numbers and quantities.
+repoUrl: 'https://github.com/Thundernerd/Unity3D-Humanizr'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594549087605
+displayName_zhCN: Humanizr
+description_zhCN: Humanizer满足您.NET对处理和显示字符串，枚举，日期，时间，时间跨度，数字和数量的所有需求。

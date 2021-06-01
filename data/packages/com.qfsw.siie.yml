@@ -1,0 +1,19 @@
+name: com.qfsw.siie
+displayName: SIIE
+description: Selectable Inversion Image Effect for Unity
+repoUrl: 'https://github.com/QFSW/SIIE'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/f7fa860997a25a145925372e6a0cbb9ea5c45b41/687474703a2f2f6d656469612e696e64696564622e636f6d2f696d616765732f6d656d626572732f352f343230312f343230303331322f70726f66696c652f53637265656e73686f745f323031382d30312d31355f32312e32372e31382e706e67
+readme: 'master:README.md'
+createdAt: 1602622037378
+displayName_zhCN: SIIE
+description_zhCN: 适用于Unity的可选的反转图像效果

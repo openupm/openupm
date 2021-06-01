@@ -1,0 +1,20 @@
+name: com.open.speckleunity
+displayName: SpeckleUnity
+description: Stream live 3D data into Unity with the open data platform for BIM - Speckle!
+repoUrl: 'https://github.com/speckleworks/SpeckleUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+  - modeling
+  - network
+hunter: pablothedolphin
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/speckleworks/SpeckleUnity/raw/master/SpeckleUnity/Assets/SpeckleUnity/Editor/speckle-logo.png
+createdAt: 1587370355167
+displayName_zhCN: SpeckleUnity
+description_zhCN: 将live 3D数据导入Unity，通过开放数据BIM平台 - Speckle!

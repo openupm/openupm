@@ -1,0 +1,19 @@
+name: com.beauprime.beaudata
+displayName: BeauData
+description: Unity3d object serialization and deserialization library
+repoUrl: 'https://github.com/BeauPrime/BeauData'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: tlauterbach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.3.0
+image: null
+readme: 'master:README.md'
+createdAt: 1593817707058
+displayName_zhCN: BeauData
+description_zhCN: Unity3d的对象序列化和反序列化库

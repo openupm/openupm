@@ -1,0 +1,22 @@
+name: com.sandrofigo.divider-hierarchy-extension
+displayName: Divider Hierarchy Extension
+description: >-
+  An extensions to quickly create empty game objects that act as dividers in the
+  hierarchy.
+repoUrl: 'https://github.com/sandrofigo/Divider-Hierarchy-Extension-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596480763129
+displayName_zhCN: 层级结构的分隔扩展
+description_zhCN: 用空的GameObject来快速创建在层级结构中的分隔符的编辑器扩展。

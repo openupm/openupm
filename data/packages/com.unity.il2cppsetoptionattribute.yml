@@ -1,0 +1,21 @@
+name: com.unity.il2cppsetoptionattribute
+displayName: Il2CppSetOptionAttribute
+description: >-
+  UPM-wrapped copy of Unity.IL2CPP.CompilerServices.Il2CppSetOptionAttribute
+  (because Unity makes you copy it from its installation for some reason)
+repoUrl: 'https://github.com/JesseTG/Il2CppSetOptionAttribute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594835904487
+displayName_zhCN: Il2CppSetOptionAttribute
+description_zhCN: >-
+  UPM包装的Unity.IL2CPP.CompilerServices.Il2CppSetOptionAttribute副本（因为Unity出于某种原因使您从安装中复制它）

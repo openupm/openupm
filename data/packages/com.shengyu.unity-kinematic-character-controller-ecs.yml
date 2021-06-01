@@ -1,0 +1,19 @@
+name: com.shengyu.unity-kinematic-character-controller-ecs
+displayName: Unity Kinematic Character Controller ECS
+description: 一个基于物理的角色控制器
+repoUrl: 'https://github.com/zxx2112/Unity-Kinematic-Character-Controller-ECS'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: DOTS 角色控制器
+description_zhCN: '许多代码从Unity DOTS Sample中提取,去掉了对NetCode中预测状态的依赖'
+createdAt: 1620573777692

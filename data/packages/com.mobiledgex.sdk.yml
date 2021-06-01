@@ -1,0 +1,26 @@
+name: com.mobiledgex.sdk
+displayName: MobiledgeX
+description: >-
+  The MobiledgeX Client Library enables an application to register and then
+  locate the nearest edge cloudlet backend server for use. The client library
+  also allows verification of a device's location for all location-specific
+  tasks.
+repoUrl: 'https://github.com/mobiledgex/edge-cloud-sdk-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - services
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/mobiledgex/edge-cloud-sdk-unity/raw/6ea717597f632e145acddf75bdd1d6062499fb09/Resources/mobiledgexLogo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: MobiledgeX
+description_zhCN: MobiledgeX客户端库使应用程序可以注册，然后找到最近的边缘cloudlet后端服务器以供使用。客户端库还允许针对所有特定于位置的任务验证设备的位置。
+createdAt: 1610218077342

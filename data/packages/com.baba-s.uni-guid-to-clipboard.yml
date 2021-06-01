@@ -1,0 +1,20 @@
+name: com.baba-s.uni-guid-to-clipboard
+displayName: UniGuidToClipboard
+description: 【Unity】すべてのアセットの GUID をクリップボードにコピーできるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniGuidToClipboard'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827234-c2a52980-83d8-11ea-97bc-236ed091816c.png
+readme: 'master:README.md'
+createdAt: 1591708016776
+displayName_zhCN: UniGuidToClipboard
+description_zhCN: 将Unity资源的GUID复制到剪贴板

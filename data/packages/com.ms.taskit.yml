@@ -1,0 +1,19 @@
+name: com.ms.taskit
+displayName: Taskit
+description: light weight task framework for unity
+repoUrl: 'https://github.com/wlgys8/Taskit'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Taskit
+description_zhCN: 轻量级任务框架
+createdAt: 1606931630316

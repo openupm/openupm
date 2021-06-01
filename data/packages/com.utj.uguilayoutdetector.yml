@@ -1,0 +1,19 @@
+name: com.utj.uguilayoutdetector
+displayName: UGUILayoutDetector
+description: null
+repoUrl: 'https://github.com/wotakuro/UGUILayoutDetector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UGUILayoutDetector
+description_zhCN: ''
+createdAt: 1607386362244

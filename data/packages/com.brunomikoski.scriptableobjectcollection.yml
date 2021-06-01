@@ -1,0 +1,24 @@
+name: com.brunomikoski.scriptableobjectcollection
+displayName: Scriptable Object Collection
+description: A utility to improve the usability of Scriptable Objects
+repoUrl: 'https://github.com/brunomikoski/ScriptableObjectCollection'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: LICENSE
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - mobile
+  - utilities
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595534255006
+displayName_zhCN: Scriptable Object集合
+description_zhCN: 一组提高Scriptable Object的可用性的实用程序

@@ -1,0 +1,19 @@
+name: com.camarent.unity-ecs-navmesh
+displayName: ''
+description: A demo implementation of Unity Entity Component System with NavMesh
+repoUrl: 'https://github.com/Camarent/unity-ecs-navmesh'
+parentRepoUrl: 'https://github.com/CDMayberry/unity-ecs-navmesh'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/dd9b56f3733a6b56642d0e84f6114d15cd0cd2ff/68747470733a2f2f692e76696d656f63646e2e636f6d2f766964656f2f3730353031353037345f333030783137302e77656270
+readme: 'master:README.md'
+createdAt: 1592177494399
+description_zhCN: Entity组件和NavMesh结合的演示

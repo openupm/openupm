@@ -1,0 +1,19 @@
+name: com.unity-bedrock.pooler
+displayName: Pooler
+description: Extensible way of pooling objects in Unity.
+repoUrl: 'https://github.com/Unity-Bedrock/Pooler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: feko006
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/Pooler/README.md'
+readme_zhCN: ''
+displayName_zhCN: Pooler
+description_zhCN: Unity的对象池的扩展方式。
+createdAt: 1609079204946

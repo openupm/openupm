@@ -1,0 +1,19 @@
+name: com.baba-s.uni-only-one-in-scene-attribute
+displayName: UniOnlyOneInSceneAttribute
+description: 【Unity】コンポーネントがシーンに1つだけ存在することを保証する Attribute
+repoUrl: 'https://github.com/baba-s/UniOnlyOneInSceneAttribute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - level-design
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598147590793
+displayName_zhCN: UniOnlyOneInSceneAttribute
+description_zhCN: 确保该组件仅在场景中只有一个实例

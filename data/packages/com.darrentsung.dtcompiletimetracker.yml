@@ -1,17 +1,15 @@
-# Project info.
-repoUrl: https://github.com/DarrenTsung/DTCompileTimeTracker
+repoUrl: 'https://github.com/DarrenTsung/DTCompileTimeTracker'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-
-# Package info.
 name: com.darrentsung.dtcompiletimetracker
 displayName: Compile Time Tracker
 description: Unity editor extension which tracks compile time.
-
-# Add-ons.
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1571471262000
-image: https://raw.githubusercontent.com/DarrenTsung/DTCompileTimeTracker/79f2e4dae950bdb6498d7d6a7847057170b8b65c/img/WindowScreenshot.png
+image: >-
+  https://raw.githubusercontent.com/DarrenTsung/DTCompileTimeTracker/79f2e4dae950bdb6498d7d6a7847057170b8b65c/img/WindowScreenshot.png
+displayName_zhCN: 编译时间跟踪器
+description_zhCN: Unity编辑器扩展，跟踪编译时间。

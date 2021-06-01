@@ -1,0 +1,19 @@
+name: com.baba-s.uni-task-with-log-extension-methods
+displayName: UniTaskWithLogExtensionMethods
+description: 【Unity】UniTask で処理の開始時と終了時にログを出力できる拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniTaskWithLogExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594908827484
+displayName_zhCN: UniTaskWithLogExtensionMethods
+description_zhCN: 带日志功能的Task方法

@@ -1,0 +1,19 @@
+name: com.intothedev.savesystem
+displayName: Save System
+description: Save System for Unity with Odin Serializer
+repoUrl: 'https://github.com/IntoTheDev/Save-System-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 保存系统
+description_zhCN: 使用Odin序列化器为Unity保存系统
+createdAt: 1608331910006

@@ -11,11 +11,13 @@ const {
   ReleaseState,
   ReleaseReason,
   RetryableReleaseReason
-} = require("../models/common");
+} = require("../common/constant");
 const Release = require("../models/release");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const {
   getBuildApi,
+  getBuildLogsUrl,
+  getBuildSectionLogUrl,
   queueBuild,
   waitBuild,
   BuildStatus,
@@ -32,14 +34,26 @@ let buildRelease = async function(packageName, version) {
   // Update release state.
   let shouldContinue = await updateReleaseState(release);
   if (!shouldContinue) return;
-  // Get build api.
-  let buildApi = await getBuildApi();
-  // Update release build.
-  await updateReleaseBuild(buildApi, pkg, release);
-  // Wait release build.
-  let build = await waitReleaseBuild(buildApi, release);
-  // Handle release build.
-  await handleReleaseBuild(build, release);
+  try {
+    // Get build api.
+    let buildApi = await getBuildApi();
+    // Update release build.
+    await updateReleaseBuild(buildApi, pkg, release);
+    // Wait release build.
+    let build = await waitReleaseBuild(buildApi, release);
+    // Handle release build.
+    await handleReleaseBuild(build, release);
+  } catch (err) {
+    // If receives ETIMEDOUT, let it failed with reason ConnectionTime.
+    if (err.code == "ETIMEDOUT") {
+      release.state = ReleaseState.Failed.value;
+      release.reason = ReleaseReason.ConnectionTime.value;
+      await Release.save(release);
+      logReleaseError(release);
+    }
+    // Throw the error to retry.
+    throw err;
+  }
 };
 
 /* Update release state, return continue boolean.
@@ -111,8 +125,8 @@ const waitReleaseBuild = async function(buildApi, release) {
 // Handle release build.
 const handleReleaseBuild = async function(build, release) {
   // Update publish log.
-  let publishLog = "";
-  if (release.buildId) publishLog = await getPublishLog(release);
+  let fullLogText = "";
+  if (release.buildId) fullLogText = await getFullBuildLogText(release);
   // Handle build succeeded.
   if (
     build &&
@@ -138,20 +152,13 @@ const handleReleaseBuild = async function(build, release) {
     if (build === null) reason = ReleaseReason.BuildTimeout;
     else if (build.status == BuildStatus.Cancelling)
       reason = ReleaseReason.BuildCancellation;
-    else reason = getReasonFromPublishLog(publishLog);
+    else reason = getReasonFromBuildLogText(fullLogText);
     // eslint-disable-next-line require-atomic-updates
     release.state = ReleaseState.Failed.value;
     // eslint-disable-next-line require-atomic-updates
     release.reason = reason.value;
     await Release.save(release);
-    logger.error(
-      {
-        rel: `${release.packageName}@${release.version}`,
-        build: release.buildId,
-        reason: reason.key
-      },
-      "build failed"
-    );
+    logReleaseError(release);
     // Throw error for retryable reason to retry.
     if (RetryableReleaseReason.includes(reason))
       throw new Error(
@@ -160,18 +167,46 @@ const handleReleaseBuild = async function(build, release) {
   }
 };
 
-// Get publish log
-const getPublishLog = async function(release) {
-  let resp = await superagent.get(Release.buildPublishResultUrl(release));
-  return resp.text;
+// Log release error.
+const logReleaseError = function(release) {
+  logger.error(
+    {
+      rel: `${release.packageName}@${release.version}`,
+      build: release.buildId,
+      reason: release.reason
+    },
+    "release failed"
+  );
 };
 
-// Get reason from publish log.
-const getReasonFromPublishLog = function(text) {
-  if (text.includes("EPUBLISHCONFLICT")) return ReleaseReason.VersionConflict;
+// Get full build log text.
+const getFullBuildLogText = async function(release) {
+  // Fetch build logs to find the last section id.
+  const buildLogsUrl = getBuildLogsUrl(release.buildId);
+  let resp = await superagent.get(buildLogsUrl).type("json");
+  const lastStepId = resp.body.value[resp.body.value.length - 1].id;
+  // Fetch the last section log which contains the full build log text.
+  const buildLogSectionUrl = getBuildSectionLogUrl(release.buildId, lastStepId);
+  let resp2 = await superagent.get(buildLogSectionUrl);
+  return resp2.text;
+};
+
+// Get the failure reason from the full build log text.
+const getReasonFromBuildLogText = function(text) {
+  if (/fatal: Remote branch .* not found/.test(text))
+    return ReleaseReason.RemoteBranchNotFound;
+  else if (text.includes("EPUBLISHCONFLICT"))
+    return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
-  else if (text.includes("error code E401")) return ReleaseReason.Unauthorized;
+  else if (text.includes("error code E400")) {
+    if (/400 Bad Request - PUT https:\/\/.*\.com\/@/.test(text)) {
+      return ReleaseReason.PackageNameInvalid;
+    } else {
+      return ReleaseReason.BadRequest;
+    }
+  } else if (text.includes("error code E401"))
+    return ReleaseReason.Unauthorized;
   else if (text.includes("error code E403")) return ReleaseReason.Forbidden;
   else if (text.includes("error code E413"))
     return ReleaseReason.EntityTooLarge;
@@ -179,7 +214,20 @@ const getReasonFromPublishLog = function(text) {
   else if (text.includes("error code E502")) return ReleaseReason.BadGateway;
   else if (text.includes("error code E503"))
     return ReleaseReason.ServiceUnavailable;
+  else if (text.includes("error code E504"))
+    return ReleaseReason.GatewayTimeout;
   else if (text.includes("error code EPRIVATE")) return ReleaseReason.Private;
+  else if (text.includes("error code EJSONPARSE"))
+    return ReleaseReason.PackageJsonParsingError;
+  else if (
+    text.includes("code ERR_STRING_TOO_LONG") ||
+    text.includes("JavaScript heap out of memory")
+  )
+    return ReleaseReason.HeapOutOfMemroy;
+  else if (text.includes("Invalid version"))
+    return ReleaseReason.InvalidVersion;
+  else if (text.includes("Could not read from remote repository"))
+    return ReleaseReason.RemoteRepositoryUnavailable;
   return ReleaseReason.None;
 };
 

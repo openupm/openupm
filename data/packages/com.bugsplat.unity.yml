@@ -1,0 +1,22 @@
+name: com.bugsplat.unity
+displayName: BugSplat
+description: Unity crash reporting powered by BugSplat
+repoUrl: 'https://github.com/BugSplat-Git/bugsplat-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - testing
+  - utilities
+hunter: bobbyg603
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://bugsplat-public.s3.amazonaws.com/unity/open-upm-thumbnail.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620236879188

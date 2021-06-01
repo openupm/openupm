@@ -1,0 +1,19 @@
+name: com.unitynative.sharing
+displayName: Unity-Native-Sharing
+description: >-
+  A Unity plugin to open native sharing dialogs on iOS and Android, primarily
+  for sharing screenshots.
+repoUrl: 'https://github.com/NicholasSheehan/Unity-Native-Sharing'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - mobile
+  - integration
+hunter: NicholasSheehan
+gitTagPrefix: v
+gitTagIgnore: ''
+image: null
+createdAt: 1586775558425
+displayName_zhCN: Unity原生共享
+description_zhCN: 一个Unity插件，用于在iOS和Android上打开原生共享对话框，主要用于共享屏幕截图。

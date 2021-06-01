@@ -1,0 +1,20 @@
+name: com.sandrofigo.debug-menu-unity3d
+displayName: Debug Menu
+description: A debug menu to call methods on active MonoBehaviours in Unity
+repoUrl: 'https://github.com/sandrofigo/Debug-Menu-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595158724262
+displayName_zhCN: 调试菜单
+description_zhCN: 调试菜单，用于在Unity中的有效的MonoBehaviours上调用方法

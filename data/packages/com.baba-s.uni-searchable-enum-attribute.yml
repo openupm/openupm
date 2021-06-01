@@ -1,0 +1,19 @@
+name: com.baba-s.uni-searchable-enum-attribute
+displayName: UniSearchableEnumAttribute
+description: 【Unity】Inspector で列挙型が検索できるようになるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSearchableEnumAttribute'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/61863367/81251491-5ffd9000-905e-11ea-9d58-a44fef770cbe.gif
+readme: 'master:README.md'
+createdAt: 1591666231406
+displayName_zhCN: UnisearchableNumAttribute.
+description_zhCN: 在inspector中搜索枚举

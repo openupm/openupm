@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582568338983
+displayName_zhCN: Eflatun.Calculation
+description_zhCN: Unity的计算实用程序。

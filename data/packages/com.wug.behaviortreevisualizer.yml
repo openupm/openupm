@@ -1,0 +1,23 @@
+name: com.wug.behaviortreevisualizer
+displayName: Behavior Tree Visualizer (Beta)
+description: >-
+  A tool built in Unity that draws a graph representation of behavior trees
+  running in the scene
+repoUrl: 'https://github.com/Yecats/UnityBehaviorTreeVisualizer'
+parentRepoUrl: null
+licenseSpdxId: CC0-1.0
+licenseName: Creative Commons Zero v1.0 Universal
+topics:
+  - ai
+  - debugging-and-logging
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Yecats/UnityBehaviorTreeVisualizer/raw/936f5e13c394f0aaf83ce20836d8423aa9df7d51/Wiki/Images/treeExample.gif
+readme: 'main:README.md'
+createdAt: 1605286252242
+displayName_zhCN: 行为树可视化工具（Beta测试版）
+description_zhCN: Unity内置的工具，用于绘制场景中运行的行为树

@@ -1,0 +1,19 @@
+name: com.greener-games.global-task-runner
+displayName: Global Task Runner
+description: Global Task Runner Script
+repoUrl: 'https://github.com/Greener-Games/TaskRunner'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 全局任务执行者
+description_zhCN: 全局任务运行脚本
+createdAt: 1613491139148

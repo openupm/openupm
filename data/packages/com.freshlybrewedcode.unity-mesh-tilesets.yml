@@ -1,0 +1,21 @@
+name: com.freshlybrewedcode.unity-mesh-tilesets
+displayName: Mesh Tilesets
+description: >-
+  a Unity plugin to place objects along ProBuilder meshes based on rules from
+  tileset. Heavily inspired by the tooling in Source 2.
+repoUrl: 'https://github.com/FreshlyBrewedCode/unity-mesh-tilesets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: ''
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Mesh Tilesets
+description_zhCN: 一个Unity插件，用于基于tileset中的规则在ProBuilderMeshes中放置对象。深受Source 2中工具的启发。
+createdAt: 1609531422483

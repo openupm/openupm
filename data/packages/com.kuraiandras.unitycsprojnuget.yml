@@ -1,0 +1,19 @@
+name: com.kuraiandras.unitycsprojnuget
+displayName: UnityCsprojNuget
+description: null
+repoUrl: 'https://github.com/KuraiAndras/UnityCsprojNuget'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593455235656
+displayName_zhCN: UnityCsprojNuget

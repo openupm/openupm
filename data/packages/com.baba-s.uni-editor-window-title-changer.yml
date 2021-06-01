@@ -1,0 +1,19 @@
+name: com.baba-s.uni-editor-window-title-changer
+displayName: UniEditorWindowTitleChanger
+description: 【Unity】Unity エディタのタイトルを変更できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniEditorWindowTitleChanger'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79825992-80c6b400-83d5-11ea-88fc-f43b92b60b94.png
+readme: 'master:README.md'
+createdAt: 1591673098820
+displayName_zhCN: UniEditorWindowTitleChanger
+description_zhCN: 更改Unity编辑器的标题

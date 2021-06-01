@@ -1,0 +1,21 @@
+name: com.utj.assetsreporter
+displayName: Assets Reporter
+description: '[Unity] Report System for Asset Import Settings'
+repoUrl: 'https://github.com/wotakuro/AssetsReporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/wotakuro/AssetsReporter/master/Documentation%7E/image/modelReporter.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 资源报告
+description_zhCN: '[Unity]资源导入设置的报告系统'
+createdAt: 1607379050137

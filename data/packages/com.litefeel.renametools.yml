@@ -1,0 +1,20 @@
+name: com.litefeel.renametools
+displayName: Rename Tools
+description: 'RenameTools is just perfect Unity asset plugin to rename game object. '
+repoUrl: 'https://github.com/litefeel/Unity-RenameTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605380470333
+displayName_zhCN: 重命名工具
+description_zhCN: RenameTools是完美的Unity资源插件，可以重命名游戏对象。

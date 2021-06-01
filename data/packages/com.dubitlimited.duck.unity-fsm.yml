@@ -1,0 +1,20 @@
+name: com.dubitlimited.duck.unity-fsm
+displayName: Duck FSM
+description: >-
+  A lightweight finite state machine implementation that supports custom and
+  conditional transitions
+repoUrl: 'https://github.com/dubit/unity-fsm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594682994799
+displayName_zhCN: 鸭子FSM
+description_zhCN: 轻量级的有限状态机实现，支持定制和条件转换

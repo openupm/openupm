@@ -1,0 +1,19 @@
+name: com.sark.terminals
+displayName: Terminals
+description: Utilities for rendering to pixel perfect terminals in Unity.
+repoUrl: 'https://github.com/sarkahn/terminals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605455481440
+displayName_zhCN: 终端
+description_zhCN: 在Unity中渲染完美像素的终端的实用程序。

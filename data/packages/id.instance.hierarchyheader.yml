@@ -1,0 +1,20 @@
+name: id.instance.hierarchyheader
+displayName: HierarchyHeader
+description: >-
+  Simply lets you make different colored hierarchy headers to help with scene
+  organization
+repoUrl: 'https://github.com/instance-id/HierarchyHeader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: instance-id
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1603061165968
+displayName_zhCN: HierarchyHeader
+description_zhCN: 制作不同的彩色层级结构的标题，帮助进行场景组织

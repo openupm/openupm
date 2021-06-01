@@ -1,0 +1,21 @@
+name: jp.goma_recorder.midity
+displayName: Midity
+description: >-
+  This is a custom unity package for reading and writing Standard MIDI Files
+  (SMF).
+repoUrl: 'https://github.com/goma-recorder/Midity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: goma-recorder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: Midity
+description_zhCN: 这是用于读取和写入标准MIDI文件（SMF）的Unity软件包。
+createdAt: 1610280028532

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-all-scene-skybox-material-remover
+displayName: UniAllSceneSkyboxMaterialRemover
+description: null
+repoUrl: 'https://github.com/baba-s/UniAllSceneSkyboxMaterialRemover'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601486490824
+displayName_zhCN: UniAllSceneSkyboxMaterialRemover
+description_zhCN: Unity全场景Skybox材质移除器

@@ -1,0 +1,20 @@
+name: com.utj.largefileuploader
+displayName: largeFileUploader
+description: null
+repoUrl: 'https://github.com/wotakuro/UnityLargeFileUploader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: largeFileUploader大文件上传器
+description_zhCN: ''
+createdAt: 1607379141167

@@ -1,0 +1,19 @@
+name: com.quantumcalzone.unityshortcuts
+displayName: UnityShortcuts
+description: A collection of shortcuts that automate some
+repoUrl: 'https://github.com/QuantumCalzone/UnityShortcuts'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UnityShortcuts
+description_zhCN: 自动化一些快捷方式的集合
+createdAt: 1607804410193

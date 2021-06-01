@@ -1,0 +1,19 @@
+name: com.ooonestudio.oooneunitytools
+displayName: OOOne Unity Tools
+description: null
+repoUrl: 'https://github.com/IronVulture/OOOne-Unity-Tools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: OOOne Unity工具
+description_zhCN: ''
+createdAt: 1608794011720

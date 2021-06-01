@@ -1,0 +1,22 @@
+name: com.guplem.unityessentials
+displayName: Unity Essentials
+description: >-
+  An extension including a bunch of small features that I personally think that
+  Unity should include by default.
+repoUrl: 'https://github.com/guplem/UnityEssentials'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/guplem/UnityEssentials/raw/1f7c55efe55feff0cbe692c93e74f0dea6103e7d/Unity%20Essentials/Assets/AssetStoreTools/Images/UnityEssentialsCardImage.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity Essentials
+description_zhCN: 一个扩展，其中包含许多小功能，我个人认为Unity应该默认包含。
+createdAt: 1610380629755

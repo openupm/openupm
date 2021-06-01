@@ -1,0 +1,18 @@
+name: com.baba-s.uni-log-entries-internal
+displayName: UniLogEntriesInternal
+description: 【Unity】Console ウィンドウを操作する internal な機能を使用できるようにするパッケージ
+repoUrl: 'https://github.com/baba-s/UniLogEntriesInternal'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591666578048
+displayName_zhCN: UniLogEntriesInternal
+description_zhCN: 允许调用控制台窗口的内部函数

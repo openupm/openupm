@@ -1,0 +1,16 @@
+name: com.sebaslab.svelto.unsafe
+displayName: System.Runtime.CompilerServices.Unsafe.dll
+description: null
+repoUrl: 'https://github.com/sebas77/com.sebaslab.svelto.unsafe'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604240311895
+displayName_zhCN: System.Runtime.CompilerServices.Unsafe.dll

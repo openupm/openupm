@@ -1,0 +1,18 @@
+name: com.oddworm.texture3datlasimportpipeline
+displayName: Texture3D Atlas Import Pipeline
+description: A Texture3D Atlas Import Pipeline for Unity 2019.3 and newer.
+repoUrl: 'https://github.com/pschraut/UnityTexture3DAtlasImportPipeline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/pschraut/UnityTexture3DAtlasImportPipeline/raw/eceeb9f941eaa41d285b2d546dd6c9fa85d4090a/Documentation~/images/inspector.png
+readme: 'master:README.md'
+createdAt: 1588953016837
+displayName_zhCN: Texture3D Atlas导入管线
+description_zhCN: 适用于Unity 2019.3及更高版本的Texture3D Atlas导入管线。

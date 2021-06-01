@@ -1,0 +1,17 @@
+name: io.nekonya.tinax.uikit
+displayName: TinaX.UIKit
+description: null
+repoUrl: 'https://github.com/yomunsam/TinaX.UIKit'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: AGPLv3
+topics:
+  - gui
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591648844738
+displayName_zhCN: TinaX.UIKit

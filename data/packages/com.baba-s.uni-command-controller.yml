@@ -1,0 +1,17 @@
+name: com.baba-s.uni-command-controller
+displayName: UniCommandController
+description: A simple library that can control commands to implement event scripts.
+repoUrl: 'https://github.com/baba-s/UniCommandController'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589048308712
+displayName_zhCN: UniCommandController
+description_zhCN: 一个简单的库，可以控制要实现事件脚本的命令。

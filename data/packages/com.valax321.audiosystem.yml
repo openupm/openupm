@@ -1,0 +1,21 @@
+name: com.valax321.audiosystem
+displayName: Valax321 Audio System
+description: >-
+  An improved audio system for Unity built on top of the built-in audio
+  components.
+repoUrl: 'https://github.com/Valax321/AudioSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/AudioSystem/raw/3b0c8caeb98565710b671ca8910310ffa3a322aa/Gizmos/AudioEvent.png
+readme: 'master:README.md'
+createdAt: 1598799344251
+displayName_zhCN: Valax321音频系统
+description_zhCN: 在Unity内置音频组件之上构建了一个改进的音频系统。

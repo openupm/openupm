@@ -1,0 +1,17 @@
+name: com.baba-s.uni-build-process
+displayName: UniBuildProcess
+description: null
+repoUrl: 'https://github.com/baba-s/UniBuildProcess'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593277901943
+displayName_zhCN: UniBuildProcess

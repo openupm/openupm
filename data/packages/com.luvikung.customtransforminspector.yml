@@ -1,0 +1,22 @@
+name: com.luvikung.customtransforminspector
+displayName: Custom Transform Inspector for Unity
+description: >-
+  Custom Transform Inspector will change Transform in Inspector that able to
+  reset and fix Quaternion to Euler rotation.
+repoUrl: 'https://github.com/LuviKunG/CustomTransformInspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/CustomTransformInspector/raw/afcd1e47e2f01ea96df3a0638da17246ff44205a/images/preview.gif
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614101714618

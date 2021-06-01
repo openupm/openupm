@@ -1,0 +1,17 @@
+name: com.baba-s.uni-debug-menu-log-list-creator
+displayName: UniDebugMenuLogListCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniDebugMenuLogListCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601486156499
+displayName_zhCN: UniDebugMenuLogListCreator

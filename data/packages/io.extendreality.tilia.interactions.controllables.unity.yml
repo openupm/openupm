@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.interactions.controllables.unity
+displayName: Tilia Interactions Controllables Unity
+description: >-
+  Mechanisms that provide physics based and non-physics based linear and angular
+  interactable controls for the Unity software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Interactions.Controllables.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Interactions.Controllables.Unity/raw/b27f500ac62555b90210a31bbcad0d4f3b87a7e8/Documentation/HowToGuides/CreatingAPhysicsButton/assets/images/ConfigureLinearJointDrive.png
+readme: 'master:README.md'
+createdAt: 1589474057384
+displayName_zhCN: Tilia Interactions Controllables Unity
+description_zhCN: 为Unity软件提供基于物理和非物理的线性和角度可交互控制的机制

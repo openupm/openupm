@@ -1,0 +1,19 @@
+name: com.ta-david-yu.sceneswitchwindow
+displayName: DY.SceneSwitchWindow
+description: Scene switching window for Unity Editor
+repoUrl: 'https://github.com/ta-david-yu/Unity-SceneSwitchWindow'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614184278790

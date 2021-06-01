@@ -1,0 +1,20 @@
+name: com.unigame.editor.iospostprocessorscollection
+displayName: UniGame iOS Post Processors Collection
+description: Unity iOS PostProcessors Collection
+repoUrl: 'https://github.com/UniGameTeam/UniGame.IosPostProcessorsCollection'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/UniGameTeam/UniGame.IosPostProcessorsCollection/raw/fc6b2cbf6b0de1334c6043ca6ea1febb3f78c6b6/Examples/TestFolder/Boost_2.png
+readme: 'master:README.md'
+createdAt: 1602556071948
+displayName_zhCN: UniGame iOS后期处理器集合
+description_zhCN: Unity iOS后期处理器集合

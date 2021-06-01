@@ -1,0 +1,19 @@
+name: io.codeblaze.library
+displayName: CodeBlaze Library
+description: CodeBlaze's Packages for Unity
+repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: BLaZeKiLL
+gitTagPrefix: library
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/library:README.md'
+createdAt: 1599892685777
+displayName_zhCN: CodeBlaze库
+description_zhCN: CodeBlaze的Unity软件包

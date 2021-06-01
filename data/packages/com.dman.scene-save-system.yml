@@ -1,0 +1,21 @@
+name: com.dman.scene-save-system
+displayName: Scene save system
+description: null
+repoUrl: 'https://github.com/dsmiller95/DmanUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.scene-save-system/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UtilityScripts/com.dman.scene-save-system/README.md'
+readme_zhCN: ''
+displayName_zhCN: 场景保存系统
+description_zhCN: ''
+createdAt: 1610311012174

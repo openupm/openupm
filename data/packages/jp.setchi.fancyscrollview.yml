@@ -1,13 +1,15 @@
 name: jp.setchi.fancyscrollview
 displayName: FancyScrollView
-description: '[Unity] A scrollview component that can implement highly flexible animation.'
+description: 'Unity A scrollview component that can implement highly flexible animation.'
 repoUrl: 'https://github.com/setchi/FancyScrollView'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - ui
+  - gui
   - animation
 hunter: setchi
 createdAt: 1576739377000
 image: https://user-images.githubusercontent.com/8326814/70638335-0b571400-1c7c-11ea-8701-a0d1ae0cb7e3.gif
+displayName_zhCN: FancyScrollView 滚动组件
+description_zhCN: 实现了高度灵活动画的Unity组件

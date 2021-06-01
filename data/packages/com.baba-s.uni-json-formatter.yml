@@ -1,0 +1,17 @@
+name: com.baba-s.uni-json-formatter
+displayName: UniJsonFormatter
+description: null
+repoUrl: 'https://github.com/baba-s/UniJsonFormatter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593195775692
+displayName_zhCN: UniJsonFormatter

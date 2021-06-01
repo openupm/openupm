@@ -1,0 +1,20 @@
+name: com.guerrillacontra.unitymessagehub
+displayName: Message hub
+description: >-
+  A fast, light messaging system that can decouple behaviours and keep them
+  cohesive
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/Unity-Message-Hub'
+parentRepoUrl: 'https://github.com/guerrillacontra/Unity-Message-Hub'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm-convert:README.md'
+createdAt: 1602168965418
+displayName_zhCN: 消息总线
+description_zhCN: 一个快速，轻便的消息传递系统，可以使行为解耦合并保持其凝聚

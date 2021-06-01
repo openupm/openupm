@@ -1,0 +1,20 @@
+name: com.virgis.geometry3sharp
+displayName: Geometry 3 Sharp
+description: >-
+  C# library for 2D/3D geometric computation, mesh algorithms, and so on. Boost
+  license.
+repoUrl: 'https://github.com/ViRGIS-Team/geometry3Sharp'
+parentRepoUrl: 'https://github.com/gradientspace/geometry3Sharp'
+licenseSpdxId: BSL-1.0
+licenseName: Boost Software License 1.0
+topics:
+  - utilities
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.4
+image: null
+readme: 'master:README.md'
+createdAt: 1604871013551
+displayName_zhCN: Geometry 3 Sharp
+description_zhCN: 用于2D/3D几何计算，Mesh算法等的C#库。

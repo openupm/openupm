@@ -1,0 +1,20 @@
+name: com.vrmc.univrm
+displayName: VRM
+description: Unity package that can import and export VRM format
+repoUrl: 'https://github.com/vrm-c/UniVRM'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/vrm-c/UniVRM/raw/20f994b043102187123b1a4384075f73bff66ccb/Assets/VRM/UniGLTF/doc/animation.gif
+readme: 'master:README.md'
+createdAt: 1594228227658
+displayName_zhCN: VRM
+description_zhCN: 可以导入和导出VRM格式的Unity软件包

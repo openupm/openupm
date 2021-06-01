@@ -1,0 +1,19 @@
+name: dev.upm-packages.unirx-observablekeyevent
+displayName: UniRx ObservableKeyEvent
+description: UniRx wrapper for KeyEvent handling.
+repoUrl: 'https://github.com/umm/unirx_observablekeyevent'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594186264610
+displayName_zhCN: UniRx ObservableKeyEvent
+description_zhCN: UniRx包装，用于KeyEvent处理。

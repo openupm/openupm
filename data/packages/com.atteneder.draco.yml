@@ -1,0 +1,22 @@
+name: com.atteneder.draco
+displayName: Draco 3D Data Compression
+description: Draco 3D Data Compression Unity Package
+repoUrl: 'https://github.com/atteneder/DracoUnity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - frameworks
+  - parallelism-and-concurrency
+  - integration
+  - mobile
+hunter: atteneder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1603587439936
+displayName_zhCN: Draco 3D数据压缩
+description_zhCN: Draco 3D数据压缩

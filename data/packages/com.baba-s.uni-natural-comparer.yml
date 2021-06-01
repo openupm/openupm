@@ -1,0 +1,17 @@
+name: com.baba-s.uni-natural-comparer
+displayName: UniNaturalComparer
+description: null
+repoUrl: 'https://github.com/baba-s/UniNaturalComparer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592680687523
+displayName_zhCN: UniNaturalComparer

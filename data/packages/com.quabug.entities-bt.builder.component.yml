@@ -1,0 +1,21 @@
+name: com.quabug.entities-bt.builder.component
+displayName: EntitiesBT - Component Builder
+description: Behavior Tree for Unity Entities - Component Builder
+repoUrl: 'https://github.com/quabug/EntitiesBT'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+  - visual-scripting
+hunter: quabug
+gitTagPrefix: builder.component/
+gitTagIgnore: ''
+minVersion: 0.19.0
+image: >-
+  https://user-images.githubusercontent.com/683655/88478209-db455280-cf78-11ea-88fe-222c60e346ac.png
+readme: 'master:README.md'
+createdAt: 1595762891543
+displayName_zhCN: EntitiesBT - 组件生成器
+description_zhCN: Unity实体的行为树 - 组件生成器

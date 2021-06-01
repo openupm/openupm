@@ -1,0 +1,18 @@
+name: com.houraiteahouse.options
+displayName: Hourai Options
+description: Simplified and automatic game option creation for Unity3D games.
+repoUrl: 'https://github.com/HouraiTeahouse/HouraiOptions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589210871744
+displayName_zhCN: Hourai选项
+description_zhCN: 简化和自动创建Unity3D游戏的游戏选项。

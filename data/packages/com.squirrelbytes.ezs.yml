@@ -1,0 +1,22 @@
+name: com.squirrelbytes.ezs
+displayName: Hybrid EZS
+description: |-
+  Streamlines the transition from MonoBehaviour to DOTS
+  in an extremely simple, modular and efficient way.
+repoUrl: 'https://github.com/Extrys/Hybrid-EZS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+hunter: Extrys
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620233995684

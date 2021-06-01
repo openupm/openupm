@@ -1,0 +1,24 @@
+name: com.ecasillas.prefablightmapping
+displayName: Prefab Lightmapping
+description: >-
+  Script for saving lightmapping data to prefabs. Used through the Assets tab in
+  Unity. Place your prefbas in the scene with this script at the root. Set up
+  your lighting and in the editor go to Assets->Bake Prefab Lightmaps. After is
+  processed you can now spawn your prefabs in different scenes and they will use
+  the lightmapping from the original scene.
+repoUrl: 'https://github.com/edcasillas/PrefabLightmapping'
+parentRepoUrl: 'https://github.com/Ayfel/PrefabLightmapping'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/13970424/60190570-7dd05680-97f8-11e9-991f-f54b816a577f.png
+readme: 'develop:README.md'
+createdAt: 1594183837897
+displayName_zhCN: Prefab Lightmapping
+description_zhCN: 用于将Lightmapping数据保存到prefab的脚本。通过Unity的Assets tab使用。

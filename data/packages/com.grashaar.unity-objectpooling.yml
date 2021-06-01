@@ -1,0 +1,17 @@
+name: com.grashaar.unity-objectpooling
+displayName: Unity.ObjectPooling
+description: null
+repoUrl: 'https://github.com/grashaar/Unity.ObjectPooling'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'master:README.md'
+createdAt: 1593665817444
+displayName_zhCN: Unity.ObjectPooling

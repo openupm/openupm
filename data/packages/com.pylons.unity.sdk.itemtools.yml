@@ -1,0 +1,20 @@
+name: com.pylons.unity.sdk.itemtools
+displayName: Pylons SDK for Unity (ItemTools)
+description: >-
+  Tools for parsing native blockchain objects into C# types and interacting with
+  those within game logic
+repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: afti_githobo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:PylonsSdk/ItemTools/README.md'
+readme_zhCN: ''
+displayName_zhCN: Pylons SDK for Unity（ItemTools）
+description_zhCN: 用于将本机区块链对象解析为C＃类型并与游戏逻辑中的对象进行交互的工具
+createdAt: 1613007295602

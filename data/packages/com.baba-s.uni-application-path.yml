@@ -1,0 +1,19 @@
+name: com.baba-s.uni-application-path
+displayName: UniApplicationPath
+description: 【Unity】データを保存できるディレクトリのパスを管理するクラス
+repoUrl: 'https://github.com/baba-s/UniApplicationPath'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591628836421
+displayName_zhCN: UniApplicationPath
+description_zhCN: 管理可以保存数据的路径

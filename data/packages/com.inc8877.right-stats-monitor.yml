@@ -1,0 +1,21 @@
+name: com.inc8877.right-stats-monitor
+displayName: RightStatsMonitor
+description: Useful tool for displaying FPS with high precision. GC free
+repoUrl: 'https://github.com/inc8877/RightStatsMonitor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - profiling
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/29813954/115844892-f7ebb980-a428-11eb-89e4-000e60e26b45.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1619168479019

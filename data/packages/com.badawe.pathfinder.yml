@@ -1,0 +1,19 @@
+name: com.badawe.pathfinder
+displayName: badawe.pathfinder
+description: An simple and optimized grid pathfinding
+repoUrl: 'https://github.com/OliPerraul/Simple-optimized-A-Pathfinder'
+parentRepoUrl: 'https://github.com/brunomikoski/Simple-optimized-A-Pathfinder'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/c6623019a5e2e83a4e68bca4f65108851854e0e7/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4672696769644665617266756c4472616b652d73697a655f726573747269637465642e676966
+readme: 'master:README.md'
+createdAt: 1594346553739
+displayName_zhCN: badawe.pathfinder寻路算法
+description_zhCN: 一个简单而优化的网格寻路

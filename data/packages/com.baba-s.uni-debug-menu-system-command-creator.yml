@@ -1,0 +1,17 @@
+name: com.baba-s.uni-debug-menu-system-command-creator
+displayName: UniDebugMenuSystemCommandCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniDebugMenuSystemCommandCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601434111623
+displayName_zhCN: UniDebugMenuSystemCommandCreator

@@ -1,0 +1,19 @@
+name: com.teppich.teppichstools
+displayName: Teppichs Tools
+description: General purpose C#/Unity tools
+repoUrl: 'https://github.com/JohannesSpicker/TeppichsTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:TeppichsTools/Assets/TeppichsTools/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618520997538

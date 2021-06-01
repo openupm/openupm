@@ -1,0 +1,19 @@
+name: com.ms.configtable
+displayName: ConfigTable
+description: Unity C# Runtime Library for ConfigTable
+repoUrl: 'https://github.com/wlgys8/ConfigTableCSharp'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ConfigTable 配置表
+description_zhCN: ConfigTable的C#运行时.
+createdAt: 1610912915922

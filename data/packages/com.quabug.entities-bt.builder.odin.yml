@@ -1,0 +1,21 @@
+name: com.quabug.entities-bt.builder.odin
+displayName: EntitiesBT - Odin Builder
+description: Behavior Tree for Unity Entities - Odin Builder
+repoUrl: 'https://github.com/quabug/EntitiesBT'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+  - visual-scripting
+hunter: ''
+gitTagPrefix: builder.odin/v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1616310655891

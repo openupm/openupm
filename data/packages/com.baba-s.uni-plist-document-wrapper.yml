@@ -1,0 +1,18 @@
+name: com.baba-s.uni-plist-document-wrapper
+displayName: UniPlistDocumentWrapper
+description: 【Unity】PlistDocument のラッパークラス
+repoUrl: 'https://github.com/baba-s/UniPlistDocumentWrapper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595425027491
+displayName_zhCN: UniPlistDocumentWrapper
+description_zhCN: PlistDocument包装类

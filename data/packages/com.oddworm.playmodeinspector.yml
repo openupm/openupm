@@ -1,0 +1,22 @@
+name: com.oddworm.playmodeinspector
+displayName: PlayMode Inspector
+description: >-
+  PlayMode Inspector for Unity 2019.3 and newer. It allows you to display
+  internal state, such as from a MonoBehaviour, to a dedicated editor window.
+repoUrl: 'https://github.com/pschraut/UnityPlayModeInspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/pschraut/UnityPlayModeInspector/raw/805137c54dd468be647b3922f09f275f182d623f/Documentation~/images/example_awardmanager.png
+readme: 'master:README.md'
+createdAt: 1593552465645
+displayName_zhCN: PlayMode Inspector
+description_zhCN: 适用于Unity 2019.3及更高版本的PlayMode Inspector。它允许您显示内部状态，例如从MonoBehaviour到专用的编辑器窗口。

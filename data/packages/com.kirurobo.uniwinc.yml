@@ -1,0 +1,20 @@
+name: com.kirurobo.uniwinc
+displayName: UniWindowController
+description: Makes your Unity window transparent and allows files dropping
+repoUrl: 'https://github.com/kirurobo/UniWindowController'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/1019117/96070514-5284e580-0edb-11eb-8a4d-d990a0a028a8.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UniWindowController
+description_zhCN: 使您的Unity窗口透明并允许拖拽文件
+createdAt: 1611589199313

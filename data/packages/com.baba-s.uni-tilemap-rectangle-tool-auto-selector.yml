@@ -1,0 +1,21 @@
+name: com.baba-s.uni-tilemap-rectangle-tool-auto-selector
+displayName: UniTilemapRectangleToolAutoSelector
+description: 【Unity】Tilemap オブジェクトが選択されたら Tile Palette の矩形ツールを選択状態にするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniTilemapRectangleToolAutoSelector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/bda714448baeab27c0764bedb8c8f1afd638df95/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303932382f32303139303932383136333035322e676966
+readme: 'master:README.md'
+createdAt: 1591715783766
+displayName_zhCN: UniTilemapRectangleToolAutoSelector
+description_zhCN: 在选择Tilemap对象时同步选择Tile Palette的矩形工具

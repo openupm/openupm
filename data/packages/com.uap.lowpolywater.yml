@@ -1,0 +1,20 @@
+name: com.uap.lowpolywater
+displayName: Low Poly Water
+description: >-
+  Unity project that allows creating low poly style planes with water wave
+  effect.
+repoUrl: 'https://github.com/UnityAssetPackages/LowPolyWater'
+parentRepoUrl: 'https://github.com/ebrudogan/LowPolyWater'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591999457070
+displayName_zhCN: 低多边形水
+description_zhCN: Unity项目允许创建具有水波效果的低多边形样式的平面。

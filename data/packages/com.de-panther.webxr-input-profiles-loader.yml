@@ -1,0 +1,21 @@
+name: com.de-panther.webxr-input-profiles-loader
+displayName: WebXR Input Profiles Loader
+description: >-
+  WebXR Input Profiles Loader in Unity. Based on
+  https://immersive-web.github.io/webxr-input-profiles/
+repoUrl: 'https://github.com/De-Panther/webxr-input-profiles-loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/webxr-input-profiles-loader/README.md'
+createdAt: 1605990607365
+displayName_zhCN: WebXR输入配置文件加载程序
+description_zhCN: 'WebXR输入配置文件加载程。基于https://immersive-web.github.io/webxr-input-profiles/'

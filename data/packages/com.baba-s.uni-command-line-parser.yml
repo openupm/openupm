@@ -1,0 +1,18 @@
+name: com.baba-s.uni-command-line-parser
+displayName: UniCommandLineParser
+description: 【Unity】コマンドライン引数を解析して指定されたクラスのインスタンスに変換するパッケージ
+repoUrl: 'https://github.com/baba-s/UniCommandLineParser'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591628913775
+displayName_zhCN: UniCommandLineParser
+description_zhCN: 解析Unity命令行参数

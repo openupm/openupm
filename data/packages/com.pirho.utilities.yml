@@ -1,0 +1,21 @@
+name: com.pirho.utilities
+displayName: PiRho Utilities
+description: >-
+  A suite of UIElements based attributes, drawers, controls, and other helpers
+  to expedite the creation of object inspectors without the need of additional
+  custom editors
+repoUrl: 'https://github.com/pirhosoft/PiRhoUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/pirhosoft/PiRhoUtilities/raw/ca34581e8699b2a4667d1374788a6378db13df76/Documentation~/images/group.png
+readme: 'upm:README.md'
+createdAt: 1589236451681
+displayName_zhCN: PiRho实用程序
+description_zhCN: 一套基于UIElement的属性，绘制，控件和其他帮助程序，可加快对象inspector的创建，而无需其他自定义编辑器

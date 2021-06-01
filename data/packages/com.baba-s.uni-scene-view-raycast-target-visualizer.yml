@@ -1,0 +1,18 @@
+name: com.baba-s.uni-scene-view-raycast-target-visualizer
+displayName: UniSceneViewRaycastTargetVisualizer
+description: null
+repoUrl: 'https://github.com/baba-s/UniSceneViewRaycastTargetVisualizer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591634920874
+displayName_zhCN: UniSceneViewRaycastTargetVisualizer

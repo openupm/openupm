@@ -1,0 +1,21 @@
+name: info.xelf.shaders.hexelate
+displayName: Hexelation Shader
+description: >-
+  XELF.Hexelate.Shader: Hexelation Shader is an image effect for Unity. Screen
+  will be filtered by hexagonal grids.
+repoUrl: 'https://github.com/xelfia/XELF.Hexelate.Shader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/xelfia/XELF.Hexelate.Shader/raw/f8d658054271d93f9b7afd28f2e0970478cb7d28/image/hexelated.png
+readme: 'master:README.md'
+createdAt: 1591996444320
+displayName_zhCN: 混合shader
+description_zhCN: XELF.Hexelate.Shader：Hexelationshader是Unity的图像效果。屏幕将被六角形Mesh过滤。

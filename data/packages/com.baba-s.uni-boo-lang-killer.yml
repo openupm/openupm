@@ -1,0 +1,20 @@
+name: com.baba-s.uni-boo-lang-killer
+displayName: UniBooLangKiller
+description: 【Unity】using Boo.Lang のコード補完を無効化するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniBooLangKiller'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79825364-caae9a80-83d3-11ea-9c25-2d9c69f24390.png
+readme: 'master:README.md'
+createdAt: 1591650529783
+displayName_zhCN: UniBooLangKiller
+description_zhCN: 使Boo.Lang的代码完成无效

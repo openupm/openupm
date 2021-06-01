@@ -1,0 +1,19 @@
+name: com.unigame.dotweenroutines
+displayName: DoTween Routines
+description: DoTween extensions for UniRoutines
+repoUrl: 'https://github.com/UniGameTeam/UniGame.DoTweenRoutines'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602556174348
+displayName_zhCN: DoTween
+description_zhCN: UniRoutines的DoTween扩展

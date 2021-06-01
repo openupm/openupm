@@ -1,0 +1,20 @@
+name: com.litefeel.luainteractive
+displayName: Lua Interactive
+description: >-
+  Lua Interactive is just perfect Unity editor plugin to excute lua on play
+  mode.
+repoUrl: 'https://github.com/litefeel/Unity-LuaInteractive'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605380529415
+displayName_zhCN: Lua互动
+description_zhCN: Lua Interactive是完美的Unity编辑器插件，可以在播放模式下执行lua。

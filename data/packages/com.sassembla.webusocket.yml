@@ -1,0 +1,19 @@
+name: com.sassembla.webusocket
+displayName: WebuSocket
+description: websocket client implementation for Unity.
+repoUrl: 'https://github.com/ToshikiImagawa/WebuSocket'
+parentRepoUrl: 'https://github.com/sassembla/WebuSocket'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: WebuSocket
+description_zhCN: 适用于Unity的websocket客户端实现。
+createdAt: 1607306416178

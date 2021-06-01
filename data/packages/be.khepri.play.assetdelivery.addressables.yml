@@ -1,0 +1,20 @@
+name: be.khepri.play.assetdelivery.addressables
+displayName: Addressables Play Asset Delivery
+description: Android Play Asset Delivery support for Unity Addressables
+repoUrl: 'https://github.com/jelte/be.khepri.play.assetdelivery.addressables'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - integration
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600543903702
+displayName_zhCN: Play Asset Delivery的可寻址资源集成
+description_zhCN: 集成Android的Play Asset Delivery到Unity的可寻址资源系统

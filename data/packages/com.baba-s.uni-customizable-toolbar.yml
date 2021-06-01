@@ -1,0 +1,19 @@
+name: com.baba-s.uni-customizable-toolbar
+displayName: UniCustomizableToolbar
+description: 【Unity】カスタマイズ可能なツールバーのエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniCustomizableToolbar'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/80093123-e87c2b00-859e-11ea-95a8-6ed1e0c70dc9.png
+readme: 'master:README.md'
+createdAt: 1591671973479
+displayName_zhCN: UniCustomizableToolbar
+description_zhCN: 自定义的Unity工具栏

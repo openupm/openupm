@@ -8,7 +8,9 @@ parentRepoUrl: 'https://github.com/IronWarrior/UnityToonShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: favoyang
 createdAt: 1577722554000
-image: https://i.imgur.com/0PbpWYg.png
+image: 'https://i.imgur.com/0PbpWYg.png'
+displayName_zhCN: Unity卡通Shader
+description_zhCN: Unity的卡通Shader教程的源代码。具有镜面反射，边缘照明，并且可以投射和接收阴影。

@@ -1,11 +1,13 @@
 name: com.eflatun.expansions
 displayName: Eflatun.Expansions
-description: 'C# Expansions'
+description: C# Expansions
 repoUrl: 'https://github.com/starikcetin/Eflatun.Expansions'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1576332815000
+displayName_zhCN: Eflatun.Expansions
+description_zhCN: C#扩展

@@ -1,0 +1,26 @@
+name: com.appalachia.unity3d.editor.preferences.easy
+displayName: Easy Editor Preferences for Unity3D
+description: >-
+  Automatically creates, updates, and draws custom Editor Preferences in the
+  Settings window. Supports bool, float, int, string, as well as enums
+  (int-backed) and color.
+repoUrl: >-
+  https://github.com/AppalachiaInteractive/com.appalachia.unity3d.editor.preferences.easy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: ChristopherSchubert
+gitTagPrefix: 'upm-'
+gitTagIgnore: ''
+minVersion: 0.2.0
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1620345633474

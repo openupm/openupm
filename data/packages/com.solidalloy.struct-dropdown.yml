@@ -1,0 +1,23 @@
+name: com.solidalloy.struct-dropdown
+displayName: Struct DropDown
+description: >-
+  Create drop-down lists which can contain objects of any type with one simple
+  attribute
+repoUrl: 'https://github.com/SolidAlloy/StructDropDown'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/SolidAlloy/StructDropDown/raw/abae28c28f4867559b0d62e54cfa9e7f4b0f0270/Images/result.png
+readme: 'upm:README.md'
+createdAt: 1601750406422
+displayName_zhCN: Struct DropDown
+description_zhCN: 创建可以包含具有一个简单属性的任何类型的对象的下拉列表

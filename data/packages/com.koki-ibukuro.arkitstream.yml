@@ -1,0 +1,20 @@
+name: com.koki-ibukuro.arkitstream
+displayName: ARKit Stream
+description: AR Foundation Remote Debugging Tool for Unity
+repoUrl: 'https://github.com/asus4/ARKitStreamer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/9c52ebd395d779999fca8ace930ec654ee03659c/68747470733a2f2f692e696d6775722e636f6d2f765a6f594973312e676966
+readme: 'master:README.md'
+createdAt: 1600180007793
+displayName_zhCN: ARKit流
+description_zhCN: 适用于Unity的AR Foundation远程调试工具

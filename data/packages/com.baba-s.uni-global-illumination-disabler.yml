@@ -1,0 +1,18 @@
+name: com.baba-s.uni-global-illumination-disabler
+displayName: UniGlobalIlluminationDisabler
+description: null
+repoUrl: 'https://github.com/baba-s/UniGlobalIlluminationDisabler'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591715958521
+displayName_zhCN: UniGlobalIlluminationDisabler

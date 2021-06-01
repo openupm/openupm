@@ -1,0 +1,17 @@
+name: com.gamebase.sound
+displayName: Gamebase-Sound
+description: null
+repoUrl: 'https://github.com/hiyorin/Gamebase-Sound'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591732144098
+displayName_zhCN: Gamebase-Sound声音

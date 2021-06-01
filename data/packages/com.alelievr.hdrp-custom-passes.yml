@@ -1,0 +1,19 @@
+name: com.alelievr.hdrp-custom-passes
+displayName: HDRP Custom Passes
+description: A bunch of custom passes made for HDRP
+repoUrl: 'https://github.com/alelievr/HDRP-Custom-Passes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/alelievr/HDRP-Custom-Passes/raw/9008e8fa87fdd760665951fd4d11dc0b70b67c72/Assets/CustomPasses/AR/MilkRender.png
+readme: 'master:README.md'
+createdAt: 1594501805233
+displayName_zhCN: HDRP自定义Pass
+description_zhCN: 为HDRP制作的自定义Pass

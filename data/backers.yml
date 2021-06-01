@@ -1,5 +1,27 @@
-backers:
+items:
 - name: Mike Wuetherick
   githubUser: gekidoslair
 - name: Takumi Ito
   githubUser: t5ujiri
+- name: Vatsal Ambastha
+  githubUser: adrenak
+- name: JohannesDeml
+  githubUser: JohannesDeml
+- name: TheDudeFromCI
+  githubUser: TheDudeFromCI
+  expires: 2020-09-01
+- name: Gleb Skibitsky
+  githubUser: skibitsky
+  expires: 2021-01-05
+- name: Alex Sh
+  githubUser: Hermesiss
+- name: Matt Newport
+  githubUser: mattnewport
+  expires: 2021-06-21
+- name: Dima Dukhnich
+  githubUser: dimmduh
+- name: Miller Daniel
+  githubUser: dsmiller95
+  expires: 2021-07-31
+- name: Koji Hasegawa
+  githubUser: nowsprinting

@@ -1,0 +1,20 @@
+name: io.codeblaze.extensions.monetization
+displayName: CodeBlaze Extensions Monetization
+description: CodeBlaze's Packages for Unity
+repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - mobile
+  - utilities
+hunter: BLaZeKiLL
+gitTagPrefix: extensions/monetization
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm/extensions/monetization:README.md'
+createdAt: 1599893386667
+displayName_zhCN: CodeBlaze扩展 - 货币化
+description_zhCN: CodeBlaze的Unity软件包

@@ -1,0 +1,17 @@
+name: com.baba-s.uni-collision-event-handler
+displayName: UniCollisionEventHandler
+description: null
+repoUrl: 'https://github.com/baba-s/UniCollisionEventHandler'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596509680003
+displayName_zhCN: UniCollisionEventHandler

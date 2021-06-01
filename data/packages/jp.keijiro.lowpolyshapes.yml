@@ -1,0 +1,20 @@
+name: jp.keijiro.lowpolyshapes
+displayName: LowPolyShapes
+description: Low poly basic shape library for Unity
+repoUrl: 'https://github.com/IxxyXR/LowPolyShapes'
+parentRepoUrl: 'https://github.com/keijiro/LowPolyShapes'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - particles-and-effects
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/f1303b7436c051d558dc7796a59242e760c69db4/68747470733a2f2f34312e6d656469612e74756d626c722e636f6d2f61393863613530356361346236656134656364643738373965616438613339382f74756d626c725f6e797a3274337a4d37443171696f3436396f315f3430302e706e67
+readme: 'UPM:README.md'
+createdAt: 1592238602189
+displayName_zhCN: 低多边形
+description_zhCN: 适用于Unity的低多边形基本形状库

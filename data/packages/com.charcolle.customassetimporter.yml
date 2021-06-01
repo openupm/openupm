@@ -1,0 +1,20 @@
+name: com.charcolle.customassetimporter
+displayName: CustomAssetImporter
+description: This asset is useful to set asset's import settings automatically.
+repoUrl: 'https://github.com/charcolle/CustomAssetImporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/charcolle/CustomAssetImporter/raw/eb4e386b0257f31c1a7d8945c6cfea219885036c/DescFiles/customassetimporter_texture_screenshot.png
+readme: 'master:README.md'
+createdAt: 1592081500035
+displayName_zhCN: CustomAssetImporter
+description_zhCN: 自动设置资源的导入设置

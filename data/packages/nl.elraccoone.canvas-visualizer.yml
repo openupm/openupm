@@ -1,0 +1,23 @@
+name: nl.elraccoone.canvas-visualizer
+displayName: Canvas Visualizer
+description: >-
+  The canvas visualizer is an editor util that helps you visualise all of your
+  rectangle transforms within your canvas for easier navigation and building
+  while working on your user interface.
+repoUrl: 'https://github.com/jeffreylanters/unity-canvas-visualizer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-canvas-visualizer/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620481974
+displayName_zhCN: 画布可视化器
+description_zhCN: canvas可视化工具是一个编辑器实用程序，可帮助您可视化画布内的所有矩形变换，以便在使用用户界面时更轻松地导航和构建。

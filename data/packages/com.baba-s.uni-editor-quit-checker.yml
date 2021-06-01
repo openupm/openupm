@@ -1,0 +1,19 @@
+name: com.baba-s.uni-editor-quit-checker
+displayName: UniEditorQuitChecker
+description: 【Unity】Unity エディタを終了する時に確認ダイアログを表示するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniEditorQuitChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79827687-eb79ee80-83d9-11ea-9441-bfeb19a1a0e9.png
+readme: 'master:README.md'
+createdAt: 1591649812956
+displayName_zhCN: UniEditorQuitChecker
+description_zhCN: 在退出Unity编辑器时显示确认对话框

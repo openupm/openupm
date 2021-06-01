@@ -1,0 +1,19 @@
+name: com.caeden117.curved-ui-utility
+displayName: Curved UI Utility
+description: Breathes new life into your flat UI.
+repoUrl: 'https://github.com/Caeden117/Curved-UI-Utility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/d03c77999b227ffbaa841524ff519c0e821ca1301bfcc562ad7994aa61f15456/68747470733a2f2f692e696d6775722e636f6d2f557566746c41632e676966'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614184687146

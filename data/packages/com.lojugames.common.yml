@@ -1,0 +1,17 @@
+name: com.lojugames.common
+displayName: Loju Common
+description: Common scripts and utils
+repoUrl: 'https://github.com/loju-games/Common'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unknown
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589248724434
+displayName_zhCN: Loju通用
+description_zhCN: 常用脚本和工具

@@ -1,0 +1,19 @@
+name: com.ms.fastreflection
+displayName: FastReflection
+description: .Net fast reflection for Unity
+repoUrl: 'https://github.com/wlgys8/FastReflection'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: FastReflection
+description_zhCN: 适用于Unity的.Net快速反射
+createdAt: 1606931776939

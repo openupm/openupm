@@ -1,0 +1,19 @@
+name: com.evomo.motionai
+displayName: Evomo MotionAI
+description: Plugin used to classify complex movements and use them as an input method
+repoUrl: 'https://github.com/Evomo/unityMotionAIPlugin'
+repoBranch: upm
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+hunter: DanAmador
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601540236820
+displayName_zhCN: Evomo MotionAI
+description_zhCN: 插件用于对复杂的移动进行分类并使用它们作为输入方法

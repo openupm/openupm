@@ -1,0 +1,19 @@
+name: dev.monry.unirx-observabletween
+displayName: UniRx Observable Tween
+description: Tweener library based on UniRx
+repoUrl: 'https://github.com/monry/UniRx-ObservableTween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594411851169
+displayName_zhCN: UniRx可观察的Tween
+description_zhCN: 基于UniRx的Tweener库

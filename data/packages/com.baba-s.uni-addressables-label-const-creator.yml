@@ -1,0 +1,20 @@
+name: com.baba-s.uni-addressables-label-const-creator
+displayName: UniAddressablesLabelConstCreator
+description: 【Unity】Addressables のラベルを定数で管理するクラスを生成するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniAddressablesLabelConstCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/95675755-74891a00-0bf4-11eb-902c-5372f0e878b9.png
+readme: 'master:README.md'
+createdAt: 1602445990271
+displayName_zhCN: UniAddressablesLabelConstCreator
+description_zhCN: 将Unity可寻址资源的标签转化为常量

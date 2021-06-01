@@ -1,0 +1,17 @@
+name: com.baba-s.uni-json-unity-engine
+displayName: UniJsonUnityEngine
+description: null
+repoUrl: 'https://github.com/baba-s/UniJsonUnityEngine'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600969090276
+displayName_zhCN: UniJsonUnityEngine

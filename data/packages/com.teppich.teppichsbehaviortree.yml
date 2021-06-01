@@ -1,0 +1,19 @@
+name: com.teppich.teppichsbehaviortree
+displayName: Teppichs Behavior Tree
+description: A simple behavior tree agent intelligence.
+repoUrl: 'https://github.com/JohannesSpicker/TeppichsBehaviorTree'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ai
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:TeppichsBehaviorTree/Assets/TeppichsBehaviorTree/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618532544271

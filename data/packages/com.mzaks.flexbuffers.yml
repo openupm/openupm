@@ -1,0 +1,19 @@
+name: com.mzaks.flexbuffers
+displayName: FlexBuffers Support
+description: Unity package bringing FlexBuffers support to your Unity3D projects
+repoUrl: 'https://github.com/mzaks/FlexBuffersUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589728437146
+displayName_zhCN: FlexBuffers支持
+description_zhCN: Unity软件包为您的Unity3D项目带来了FlexBuffers支持

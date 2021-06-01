@@ -1,0 +1,19 @@
+name: com.pylons.unity.sdk.itemschema
+displayName: Pylons SDK for Unity (ItemSchema)
+description: null
+repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: afti-githobo
+gitTagPrefix: pylons_sdk_itemschema
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:PylonsSdk/ItemSchema/README.md'
+readme_zhCN: ''
+displayName_zhCN: 适用于Unity的Pylons SDK（ItemSchema）
+description_zhCN: ''
+createdAt: 1607914808849

@@ -1,0 +1,21 @@
+name: com.rozhovetskyi.arsupportchecker
+displayName: AR Support Checker
+description: Unity plugin for ARCore / ARKit / AR Foundation supported devices detection.
+repoUrl: 'https://github.com/Rozhovetskyi/AR-Support-Checker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - mobile
+  - utilities
+hunter: Rozhovetskyi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: AR支持检查器
+description_zhCN: 用于ARCore / ARKit / AR Foundation的Unity插件支持设备检测。
+createdAt: 1609661041902

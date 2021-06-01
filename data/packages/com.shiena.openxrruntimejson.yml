@@ -1,0 +1,19 @@
+name: com.shiena.openxrruntimejson
+displayName: OpenXR Runtime Selector
+description: Runtime Json Selector for Unity OpenXR
+repoUrl: 'https://github.com/shiena/OpenXRRuntimeSelector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: OpenXR运行时选择器
+description_zhCN: Unity OpenXR的运行时Json选择器
+createdAt: 1611591734500

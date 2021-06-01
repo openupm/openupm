@@ -1,0 +1,21 @@
+name: com.baba-s.uni-software-keyboard-area
+displayName: UniSoftwareKeyboardArea
+description: 【Unity】Android でもソフトウェアキーボードの表示領域を取得できるパッケージ
+repoUrl: 'https://github.com/baba-s/UniSoftwareKeyboardArea'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - input-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81075696-a56a7200-8f25-11ea-8c95-d91cc3af8cb9.gif
+readme: 'master:README.md'
+createdAt: 1591666297416
+displayName_zhCN: UniSoftwareKeyboardArea
+description_zhCN: 获取Android键盘显示位置

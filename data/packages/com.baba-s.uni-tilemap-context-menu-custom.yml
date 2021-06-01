@@ -1,0 +1,21 @@
+name: com.baba-s.uni-tilemap-context-menu-custom
+displayName: UniTilemapContextMenuCustom
+description: 【Unity】Tilemap に塗ったすべてのタイルを削除するメニューを追加できるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniTilemapContextMenuCustom'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/a4efefaf27e58996087b7e4c12486bb2daadc7cc/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303139303832332f32303139303832333134353630332e706e67
+readme: 'master:README.md'
+createdAt: 1591715909781
+displayName_zhCN: UniTilemapContextMenuCustom
+description_zhCN: 通过菜单来删除Tilemap上绘制的所有网格

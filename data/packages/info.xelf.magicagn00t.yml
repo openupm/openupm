@@ -1,0 +1,22 @@
+name: info.xelf.magicagn00t
+displayName: XELF.MagicaGN00T
+description: >-
+  MagicaVoxel Importer extended edition for Unity: mesher, simple animation,
+  scene graph, LOD, …
+repoUrl: 'https://github.com/xelfia/XELF.MagicaGN00T'
+parentRepoUrl: 'https://github.com/ave-ski/MagicaGN00T'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - modeling
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/4ac1d48c6cce594e9cc30134ec8c69459c88522f/687474703a2f2f692e696d6775722e636f6d2f684762383444742e676966
+readme: 'master:README.md'
+createdAt: 1589403517009
+displayName_zhCN: XELF.MagicaGN00T
+description_zhCN: 适用于Unity的MagicaVoxel导入器扩展版：Mesher，简单动画，场景图，LOD等。

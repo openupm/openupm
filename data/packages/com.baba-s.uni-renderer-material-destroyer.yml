@@ -1,0 +1,17 @@
+name: com.baba-s.uni-renderer-material-destroyer
+displayName: UniRendererMaterialDestroyer
+description: null
+repoUrl: 'https://github.com/baba-s/UniRendererMaterialDestroyer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594919303870
+displayName_zhCN: UniRendererMaterialDestroyer

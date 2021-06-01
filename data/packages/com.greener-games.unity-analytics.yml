@@ -1,0 +1,19 @@
+name: com.greener-games.unity-analytics
+displayName: Google Analytics
+description: Fork of googles v4 analytics updated for unity
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/google-analytics-plugin-for-unity'
+parentRepoUrl: 'https://github.com/googleanalytics/google-analytics-plugin-for-unity'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 谷歌分析
+description_zhCN: Google v4 Analytics Unity (非官方)
+createdAt: 1612794866474

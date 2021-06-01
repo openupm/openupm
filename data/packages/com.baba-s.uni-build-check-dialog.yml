@@ -1,0 +1,18 @@
+name: com.baba-s.uni-build-check-dialog
+displayName: UniBuildCheckDialog
+description: 【Unity】ビルド時に確認ダイアログを開くエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniBuildCheckDialog'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1597547724999
+displayName_zhCN: UniBuildCheckDialog
+description_zhCN: Unity在构建编辑器扩展时的确认对话框

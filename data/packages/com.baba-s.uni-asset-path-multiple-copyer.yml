@@ -1,0 +1,20 @@
+name: com.baba-s.uni-asset-path-multiple-copyer
+displayName: UniAssetPathMultipleCopyer
+description: 【Unity】Project ビューで複数のアセットのパスをコピーできるようにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniAssetPathMultipleCopyer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87159122-ca9ba800-c2fb-11ea-9c5b-37161d67d425.png
+readme: 'master:README.md'
+createdAt: 1594517343865
+displayName_zhCN: UniAssetPathMultipleCopyer
+description_zhCN: 允许项目视图中复制多个资源路径

@@ -1,0 +1,22 @@
+name: com.4dage.spacetarget
+displayName: 4DAGE-SpaceTarget
+description: >-
+  SpaceTarget is a 4DAGE powered environment tracking feature that enables you
+  to track and augment areas and spaces. By using a 4DKK 3D-Camera to create a
+  database
+repoUrl: 'https://github.com/mraoge/4DAGE-SpaceTarget'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: mraoge
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: 4DAGE-SpaceTarget
+description_zhCN: SpaceTarget是4DAGE支持的环境跟踪功能，使您可以跟踪和扩大区域和空间。通过使用4DKK 3D相机创建数据库
+createdAt: 1610072125838

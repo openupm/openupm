@@ -1,0 +1,18 @@
+name: com.baba-s.uni-package-manager-utils
+displayName: UniPackageManagerUtils
+description: 【Unity】Package Manager を操作する機能を管理するクラス
+repoUrl: 'https://github.com/baba-s/UniPackageManagerUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595007573395
+displayName_zhCN: UniPackageManagerUtils
+description_zhCN: UPM包管理工具

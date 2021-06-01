@@ -1,0 +1,20 @@
+name: net.tnrd.extensions
+displayName: Extension Collection
+description: >-
+  A simple collection of extensions that I find useful when working with Unity
+  and C#
+repoUrl: 'https://github.com/Thundernerd/Unity3D-Extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593740504669
+displayName_zhCN: 扩展集合
+description_zhCN: 我发现在使用Unity和C#时有用的一组简单扩展

@@ -1,0 +1,19 @@
+name: com.laicasaane.unitycodegen
+displayName: UnityCodeGen
+description: A code generation library for Unity3d.
+repoUrl: 'https://github.com/laicasaane/UnityCodeGen'
+parentRepoUrl: 'https://github.com/Vengarioth/UnityCodeGen'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: UnityCodeGen
+description_zhCN: Unity3d的代码生成库。
+createdAt: 1606909617758

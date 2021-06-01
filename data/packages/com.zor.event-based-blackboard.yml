@@ -1,0 +1,22 @@
+name: com.zor.event-based-blackboard
+displayName: Event Based Blackboard
+description: >-
+  Event Based Blackboard for Unity is a flexible data storage that can contain
+  any count of properties of any type. The properties can be accessed with
+  property names.
+repoUrl: 'https://github.com/ZorPastaman/Event-Based-Blackboard'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 基于事件的Blackboard
+description_zhCN: 基于事件的Blackboard for Unity是一种灵活的数据存储，可以包含任何数量的任何类型的属性。可以使用属性名称访问属性。
+createdAt: 1612911473776

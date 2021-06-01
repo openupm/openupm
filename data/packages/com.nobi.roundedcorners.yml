@@ -1,13 +1,16 @@
 name: com.nobi.roundedcorners
 displayName: UI Rounded Corners
 description: This components and shaders allows you to add rounded corners to UI elements!
-repoUrl: 'https://github.com/Nobinator/Unity-UI-Rounded-Corners'
+repoUrl: 'https://github.com/kirevdokimov/Unity-UI-Rounded-Corners'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
-  - ui
+  - particles-and-effects
+  - gui
 hunter: favoyang
 createdAt: 1576421883000
-image: https://raw.githubusercontent.com/Nobinator/Unity-UI-Rounded-Corners/494df9840c47610aee4e52ed6ded45dace10b242/image-00.png
+image: >-
+  https://raw.githubusercontent.com/kirevdokimov/Unity-UI-Rounded-Corners/494df9840c47610aee4e52ed6ded45dace10b242/image-00.png
+displayName_zhCN: UI圆角
+description_zhCN: 该组件和shader使您可以向UI元素添加圆角！

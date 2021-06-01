@@ -7,6 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - network
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1576494754000
+displayName_zhCN: 额外的UnityEngine
+description_zhCN: 扩展UnityEngine类/结构

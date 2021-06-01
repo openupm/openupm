@@ -1,0 +1,25 @@
+name: com.3d-group.unity-simple-notifications
+displayName: 3D Group - Notifications
+description: Simple UI notifications package for Unity game engine
+repoUrl: 'https://github.com/3d-group/unity-simple-notifications'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - debugging-and-logging
+  - editor-enhancement
+  - parallelism-and-concurrency
+  - particles-and-effects
+  - mobile
+  - utilities
+hunter: antja0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/3d-group/unity-simple-notifications/raw/53ca54067a29960260939a6e7630a7c10eefb98e/Documentation~/images/SimpleShowCase.gif
+readme: 'master:README.md'
+createdAt: 1599988574742
+displayName_zhCN: 3D Group - 通知
+description_zhCN: Unity游戏引擎的简单UI通知包

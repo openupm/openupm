@@ -1,0 +1,22 @@
+name: nl.elraccoone.request-review
+displayName: Request Review
+description: >-
+  Provides a basic implementation for requesting app reviews for mobile apps on
+  the Apple AppStore and Google PlayStore.
+repoUrl: 'https://github.com/jeffreylanters/unity-request-review'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-request-review/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620184353
+displayName_zhCN: 要求评分
+description_zhCN: 提供基本的实现，用于请求Apple AppStore和Google PlayStore上的移动应用程序的应用程序评分。

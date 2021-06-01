@@ -1,0 +1,19 @@
+name: com.baba-s.uni-json-build-report
+displayName: UniJsonBuildReport
+description: 【Unity】BuildReport を JSON 形式で出力できるようにする機能
+repoUrl: 'https://github.com/baba-s/UniJsonBuildReport'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594517663520
+displayName_zhCN: UniJsonBuildReport
+description_zhCN: Unity允许以JSON格式输出的函数

@@ -1,0 +1,17 @@
+name: com.unigame.editoronlyassets
+displayName: UniGame Scene Assets
+description: null
+repoUrl: 'https://github.com/UniGameTeam/UniGame.SceneAssets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602555871764
+displayName_zhCN: UniGame场景资源

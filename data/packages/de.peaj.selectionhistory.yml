@@ -1,0 +1,22 @@
+name: de.peaj.selectionhistory
+displayName: Selection History
+description: >-
+  Keeps track of previously selected objects and allows selecting previous/next
+  objects
+repoUrl: 'https://github.com/Peaj/Unitility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Peaj
+gitTagPrefix: de.peaj.selectionhistory/
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/Peaj/Unitility/main/Packages/de.peaj.selectionhistory/Documentation%7E/Images/CoverImage.png'
+readme: 'main:Packages/de.peaj.selectionhistory/README.md'
+readme_zhCN: ''
+displayName_zhCN: 选择历史
+description_zhCN: 跟踪先前选择的对象，并允许选择先前/下一个对象
+createdAt: 1611877381421

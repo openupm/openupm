@@ -7,14 +7,7 @@
             <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
             <p class="action">
               <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
-              <a
-                :href="githubLink.link"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="nav-link external btn btn-lg"
-              >
-                {{ githubLink.text }}
-              </a>
+              <NavLink class="btn btn-lg" :item="githubLink" />
             </p>
           </div>
         </div>
@@ -34,23 +27,32 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              Hosting <strong>{{ $page.packageCount }}</strong> community
-              selective open source UPM packages and counting
+              {{ $t("hosting") }}
+              <strong class="pkg-count">{{
+                readyPackageCount || "..."
+              }}</strong>
+              {{ $t("hosting-2") }}
             </p>
           </div>
         </div>
       </section>
       <Content class="theme-default-content custom" />
+      <SponsorFeatured />
+      <ClientOnly>
+        <PackageRecent />
+      </ClientOnly>
+      <social-share />
     </main>
   </ParentLayout>
 </template>
 
 <script>
 import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
+import NavLink from "@theme/components/NavLink.vue";
+import PackageRecent from "@theme/components/PackageRecent.vue";
 
 export default {
-  components: { ParentLayout, NavLink },
+  components: { PackageRecent, ParentLayout, NavLink },
 
   computed: {
     actionLink() {
@@ -61,9 +63,25 @@ export default {
     },
     githubLink() {
       return {
-        link: this.$site.themeConfig.repo,
-        text: "Star on GitHub"
+        link:
+          this.$site.themeConfig.region == "cn"
+            ? "https://github.com/openupm/openupm/blob/master/README.zh-cn.md"
+            : this.$site.themeConfig.repo,
+        text: "GitHub",
+        icon: "fab fa-github",
+        iconLeft: true
       };
+    },
+    readyPackageCount() {
+      var cnt = 0;
+      const packagesExtra = this.$store.getters.packagesExtra;
+      for (var name in packagesExtra) {
+        const pkg = packagesExtra[name];
+        if (pkg.ver) {
+          cnt += 1;
+        }
+      }
+      return cnt;
     }
   }
 };
@@ -89,9 +107,15 @@ export default {
 
   .features
     margin-bottom 3rem
+
     h3
       font-size 1.1rem
       color $accentColor
+
+    .pkg-count
+      display inline-block
+      min-width 1.5rem
+      text-align center
 
   h3
     margin-top 2rem
@@ -115,11 +139,6 @@ export default {
 
     .social-share
       margin-bottom 0.4rem
-
-    .package-recent
-      margin-left -1rem
-      margin-right -1rem
-      width calc(100% + 2rem)
 
   .warning.custom-block
     margin: 0 -1rem !important

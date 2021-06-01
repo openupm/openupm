@@ -1,0 +1,20 @@
+name: com.needle.animation.timelinemixer
+displayName: Timeline Mixer
+description: allows for overriding timeline animations per animator
+repoUrl: 'https://github.com/needle-tools/timeline-mixer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: marwie
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/needle-tools/timeline-mixer/raw/df8d4466602c62f22bc213a475ed01f2062b18c3/package/Documentation~/video1.gif
+readme: 'master:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: 时间轴混合器
+description_zhCN: 允许按照每个动画覆盖时间轴
+createdAt: 1610799002416

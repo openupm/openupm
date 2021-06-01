@@ -1,0 +1,18 @@
+name: org.petrzilka.entity-inspector-extension
+displayName: Entity Inspector Extension
+description: Package for implementing custom entity component inspectors.
+repoUrl: 'https://github.com/OndrejPetrzilka/EntityComponentInspector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - dots-and-ecs
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588908810309
+displayName_zhCN: 实体inspector扩展
+description_zhCN: 用于实现自定义实体组件inspector的软件包。

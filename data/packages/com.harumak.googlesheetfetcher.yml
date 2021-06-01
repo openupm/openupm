@@ -1,0 +1,22 @@
+name: com.harumak.googlesheetfetcher
+displayName: GoogleSheetFetcher
+description: The simple interface Google Sheets reader for Unity editor.
+repoUrl: 'https://github.com/Haruma-K/GoogleSheetFetcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Haruma-K/GoogleSheetFetcher/raw/9de070fd725005e4f4e8dcbeb07104b3208ef812/Documentation/resources/index/consent_screen.png
+readme: 'master:README.md'
+createdAt: 1590025598247
+displayName_zhCN: GoogleSheetFetcher
+description_zhCN: 用于Unity编辑器的简单的Google电子表格阅读器。

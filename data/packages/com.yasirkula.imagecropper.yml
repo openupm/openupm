@@ -1,0 +1,20 @@
+name: com.yasirkula.imagecropper
+displayName: Image Cropper
+description: A uGUI based image cropping solution for Unity 3D
+repoUrl: 'https://github.com/yasirkula/UnityImageCropper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - sprite-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityImageCropper/raw/4f93c3f3118a77761e84d5ceaa45832e116fbe82/.github/Images/cropper.png
+readme: 'master:.github/README.md'
+createdAt: 1589513533068
+displayName_zhCN: 图像裁剪器
+description_zhCN: 基于uGUI的Unity 3D图像裁剪解决方案

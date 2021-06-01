@@ -8,8 +8,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 gitTagIgnore: ''
 createdAt: 1578320177000
-image: https://raw.githubusercontent.com/QFSW/MasterObjectPooler2/58330d6dd00c5549c694ba8de6677783eee01f3d/Source/Textures/BannerCutout.png
+image: >-
+  https://raw.githubusercontent.com/QFSW/MasterObjectPooler2/58330d6dd00c5549c694ba8de6677783eee01f3d/Source/Textures/BannerCutout.png
+displayName_zhCN: Master Object Pooler 2 对象池
+description_zhCN: Master Object Pooler 2是一种高性能，灵活且易于使用的对象池解决方案，可以适合任何Unity项目

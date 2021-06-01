@@ -1,0 +1,17 @@
+name: com.baba-s.uni-collapse-hierarchy-and-project-window
+displayName: UniCollapseHierarchyAndProjectWindow
+description: null
+repoUrl: 'https://github.com/baba-s/UniCollapseHierarchyAndProjectWindow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591639277223
+displayName_zhCN: UniCollapseHierarchyAndProjectWindow

@@ -1,0 +1,19 @@
+name: com.dubitlimited.duck.debug-menu
+displayName: Duck Debug Menu
+description: A prebuilt Debug Menu that includes typically needed debugging features.
+repoUrl: 'https://github.com/dubit/unity-debug-menu'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/dubit/unity-debug-menu/raw/9481e8262c0fbc955a56ab6d5d80e7170f10e844/Sprites/dubi-duck.png
+readme: 'master:README.md'
+createdAt: 1594683666916
+displayName_zhCN: Duck调试菜单
+description_zhCN: 预构建的调试菜单，包括通常需要调试功能。

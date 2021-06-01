@@ -1,0 +1,18 @@
+name: trismegistus.unity.mathf-extensions
+displayName: Trismegistus Mathf Ext
+description: Mathf extensions for more RX-ish style
+repoUrl: 'https://github.com/Hermesiss/unity-mathf-extensions'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598737427159
+displayName_zhCN: Trismegistus Mathf Ext
+description_zhCN: Mathf扩展提供更多RX风格

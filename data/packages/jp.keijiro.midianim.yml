@@ -1,0 +1,22 @@
+name: jp.keijiro.midianim
+displayName: MIDI Anim Importer
+description: >-
+  A custom importer that imports a .mid file (SMF; Standard MIDI File) into an
+  animation clip.
+repoUrl: 'https://github.com/keijiro/MidiAnimImporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/373582edeb8a016472f733460bfe23aafacd5aa6/68747470733a2f2f692e696d6775722e636f6d2f664a7459626e566c2e706e67
+readme: 'upm:README.md'
+createdAt: 1589403644407
+displayName_zhCN: MIDI 动画导入器
+description_zhCN: 一个自定义导入器，可将.mid文件（SMF, 标准MIDI文件）导入动画剪辑。

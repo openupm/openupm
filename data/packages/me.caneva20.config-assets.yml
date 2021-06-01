@@ -1,0 +1,17 @@
+name: me.caneva20.config-assets
+displayName: Config Assets
+description: >-
+  Simple & Lightweight solution for creating and loading config assets for Unity
+  projects
+repoUrl: 'https://github.com/caneva20/ConfigAssets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: favoyang
+gitTagIgnore: ''
+image: null
+createdAt: 1581519384320
+displayName_zhCN: 配置资源
+description_zhCN: 用于创建和加载Unity项目的配置文件的轻量级解决方案

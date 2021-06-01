@@ -6,6 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1577281476000
+displayName_zhCN: ComponentTask 组件任务
+description_zhCN: 在Unity组件的周期中运行.NET的Task和Task<T>

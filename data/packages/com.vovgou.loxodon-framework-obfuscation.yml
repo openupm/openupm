@@ -1,0 +1,22 @@
+name: com.vovgou.loxodon-framework-obfuscation
+displayName: Loxodon Framework Obfuscation
+description: >-
+  This is a library that supports memory obfuscation of numeric types, it
+  ensures that your sensitive data will not be found by the memory scanners and
+  searchers.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.0.1-preview
+image: 'https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png'
+readme: 'master:Loxodon.Framework.Obfuscation/README.md'
+createdAt: 1594358579743
+displayName_zhCN: Loxodon框架 - 混淆
+description_zhCN: 这是一个支持数字类型的内存混淆的库，它确保内存扫描程序和搜索程序不会找到您的敏感数据。

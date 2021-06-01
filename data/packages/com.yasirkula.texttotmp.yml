@@ -1,0 +1,20 @@
+name: com.yasirkula.texttotmp
+displayName: Text To TMP
+description: >-
+  Upgrade Text, InputField, Dropdown and TextMesh objects to their TextMesh Pro
+  variants in Unity
+repoUrl: 'https://github.com/yasirkula/UnityTextToTextMeshProUpgradeTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+createdAt: 1596884729044
+displayName_zhCN: 文字转TMP
+description_zhCN: 在Unity中将Text，InputField，Dropdown和TextMesh对象升级到其TextMesh Pro变体

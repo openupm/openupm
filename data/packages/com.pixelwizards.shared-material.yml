@@ -1,0 +1,17 @@
+name: com.pixelwizards.shared-material
+displayName: Shared Material Helper
+description: Shared Material Helper - animate material instances at once!
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.shared-material'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: PixelWizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588746441235
+displayName_zhCN: 共享材质助手
+description_zhCN: 共享的材质助手 - 立即为材质实例制作动画！

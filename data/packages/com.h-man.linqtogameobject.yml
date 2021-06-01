@@ -1,0 +1,19 @@
+name: com.h-man.linqtogameobject
+displayName: LINQ To GameObject For Unity
+description: LINQ to GameObject - Traverse GameObject Hierarchy by LINQ
+repoUrl: 'https://github.com/H-man/LINQ-to-GameObject-for-Unity'
+parentRepoUrl: 'https://github.com/d4160/LINQ-to-GameObject-for-Unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/a2e1053e-7a8c-4913-96f1-f8dc488f1a3e.webp
+readme: 'upm:README.md'
+createdAt: 1593282261294
+displayName_zhCN: LINQ转GameObject
+description_zhCN: LINQ转GameObject - 通过LINQ遍历GameObject层级结构

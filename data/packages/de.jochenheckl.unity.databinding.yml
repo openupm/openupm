@@ -1,0 +1,20 @@
+name: de.jochenheckl.unity.databinding
+displayName: Data Binding
+description: >-
+  Data binding for Unity gameobjects. If you like MVVM User Interfaces, this is
+  where to start.
+repoUrl: 'https://github.com/JochenHeckl/DataBinding'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591474869980
+displayName_zhCN: 数据绑定
+description_zhCN: UnityGameObject的数据绑定。如果您喜欢MVVM用户界面，则从这里开始。

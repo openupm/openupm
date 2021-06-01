@@ -1,0 +1,21 @@
+name: jp.keijiro.smrvfx
+displayName: Smrvfx
+description: >-
+  An example that shows how to pass data from a skinned mesh renderer to a
+  visual effect graph.
+repoUrl: 'https://github.com/keijiro/Smrvfx'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/f220cdb1f8f1e4d82f734e973ee5a962e2e08fa8/68747470733a2f2f692e696d6775722e636f6d2f4857776e6c6a452e676966
+readme: 'master:README.md'
+createdAt: 1602025279667
+displayName_zhCN: Smrvfx
+description_zhCN: 一个示例，说明如何将数据从蒙皮的Mesh渲染器传递到视觉效果图。

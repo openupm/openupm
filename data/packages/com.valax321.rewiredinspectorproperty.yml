@@ -1,0 +1,20 @@
+name: com.valax321.rewiredinspectorproperty
+displayName: Rewired Inspector Properties
+description: Inspector editable values for Rewired
+repoUrl: 'https://github.com/Valax321/RewiredInspectorProperty'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/RewiredInspectorProperty/raw/55cd9ffe443ecabdb542afecf35b1c6b24e6af3c/Documentation~/showcase.png
+readme: 'master:README.md'
+createdAt: 1589732277447
+displayName_zhCN: Rewired的inspector属性
+description_zhCN: 用于Rewired的inspector

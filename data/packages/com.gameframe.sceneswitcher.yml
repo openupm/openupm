@@ -6,7 +6,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1575998654000
-image: https://raw.githubusercontent.com/coryleach/UnitySceneSwitcher/5ed296d6438a2938313950999ee7e1a618ded1d8/Documentation~/img/EditMode.png
+image: >-
+  https://raw.githubusercontent.com/coryleach/UnitySceneSwitcher/5ed296d6438a2938313950999ee7e1a618ded1d8/Documentation~/img/EditMode.png
+displayName_zhCN: Gameframe.SceneSwitcher场景切换器
+description_zhCN: 快速场景切换的编辑器扩展。

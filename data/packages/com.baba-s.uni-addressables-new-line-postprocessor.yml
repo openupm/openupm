@@ -1,0 +1,18 @@
+name: com.baba-s.uni-addressables-new-line-postprocessor
+displayName: UniAddressablesNewLinePostprocessor
+description: 【Unity】Addressable の .asset の改行コードを Win に統一するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniAddressablesNewLinePostprocessor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602456260251
+displayName_zhCN: UniAddressablesNewLinePostprocessor
+description_zhCN: Unity可寻址资源新行后期处理器

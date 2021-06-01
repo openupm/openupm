@@ -1,0 +1,19 @@
+name: nrjwolf.games.iosnativealerts
+displayName: IOSNativeAlerts
+description: null
+repoUrl: 'https://github.com/Nrjwolf/unity-ios-easy-native-alert'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Nrjwolf/unity-ios-easy-native-alert/raw/f28215cb9bf0e5c1de7764ffb1d58b80dfb9e20d/images/AlertButtons.png
+readme: 'master:README.md'
+createdAt: 1593738233047
+displayName_zhCN: IOSNativeAlerts

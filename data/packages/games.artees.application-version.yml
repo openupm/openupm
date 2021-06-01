@@ -1,0 +1,22 @@
+name: games.artees.application-version
+displayName: Application Version
+description: >-
+  A tool for Unity Editor allowing you to update the version number of your
+  application and synchronize it with the iOS/macOS build number and the Android
+  bundle version code
+repoUrl: 'https://github.com/Artees/Unity-Application-Version'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/Artees/Unity-Application-Version/raw/eb8c3c6028323a39bf9fd61418fc111506868066/ApplicationVersion.png
+readme: 'master:README.md'
+createdAt: 1589050172760
+displayName_zhCN: 应用版本
+description_zhCN: Unity编辑器的工具，可让您更新应用程序的版本号并将其与iOS/macOS内部版本号和Android打包软件版本代码同步

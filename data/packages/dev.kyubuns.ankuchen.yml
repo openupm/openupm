@@ -1,0 +1,19 @@
+name: dev.kyubuns.ankuchen
+displayName: AnKuchen
+description: Control UI Prefab from Script Library
+repoUrl: 'https://github.com/kyubuns/AnKuchen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/961165/92111226-f6806900-ee26-11ea-9718-beb328af5038.png
+readme: 'main:README.md'
+createdAt: 1600979980869
+displayName_zhCN: AnKuchen
+description_zhCN: 用脚本库控制UIPrefab

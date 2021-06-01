@@ -1,0 +1,20 @@
+name: org.ftxtool.lib.linkjump
+displayName: Link Jump
+description: Try open a url with other app.
+repoUrl: 'https://github.com/XiaochenFTX/LinkJump'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614497964813

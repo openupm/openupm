@@ -6,6 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1576331955000
+displayName_zhCN: Eflatun.Inspector
+description_zhCN: Unity的检查面板实用工具

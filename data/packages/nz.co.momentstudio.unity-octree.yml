@@ -1,0 +1,20 @@
+name: nz.co.momentstudio.unity-octree
+displayName: Unity Octree
+description: 'A dynamic, loose octree implementation for Unity written in C#'
+repoUrl: 'https://github.com/mewlist/UnityOctree'
+parentRepoUrl: 'https://github.com/Nition/UnityOctree'
+licenseSpdxId: BSD-2-Clause
+licenseName: BSD 2-Clause "Simplified" License
+topics:
+  - physics
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/26ab92628509541073e2223a69f9b7e45631c8a3/68747470733a2f2f7261772e6769746875622e636f6d2f6e6974696f6e2f556e6974794f63747265652f6d61737465722f6f63747265652d76697375616c69736174696f6e2e6a7067
+readme: 'master:README.md'
+createdAt: 1603907757476
+displayName_zhCN: Unity Octree 八叉树
+description_zhCN: 用C#编写的Unity动态，松散八叉树实现

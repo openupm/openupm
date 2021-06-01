@@ -1,0 +1,19 @@
+name: com.chisel.components
+displayName: Chisel Components
+description: 'Work in progress prototype for the Chisel Level Editor, for Unity'
+repoUrl: 'https://github.com/RadicalCSG/Chisel.Prototype'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/RadicalCSG/Chisel.Prototype/master/Documentation/Images/chisel_example.png
+readme: 'master:README.md'
+createdAt: 1589416620255
+displayName_zhCN: Chisel组件
+description_zhCN: 开发中的Chisel关卡编辑器组件

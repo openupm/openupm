@@ -1,0 +1,19 @@
+name: com.samdriver.driven-decals
+displayName: Driven Decals
+description: A mesh-based PBR decal system for Unity's universal render pipeline.
+repoUrl: 'https://github.com/Kenny5/driven-decals'
+parentRepoUrl: 'https://github.com/Anatta336/driven-decals'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/Kenny5/driven-decals/master/documentation/images/demonstration.png
+readme: 'upm-package:README.md'
+createdAt: 1591375320432
+displayName_zhCN: Driven Decals
+description_zhCN: 基于Mesh的PBR decal系统，用于Unity的通用渲染管线。

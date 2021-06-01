@@ -1,0 +1,19 @@
+name: com.seemba.unitysdk
+displayName: SeembaSDK
+description: 'Seemba, the last and only in game monetization system you will ever need.'
+repoUrl: 'https://github.com/Seemba-Gaming/unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - services
+  - mobile
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595242845321
+displayName_zhCN: SeembaSDK
+description_zhCN: Seemba，您需要的最后一个游戏货币化系统。

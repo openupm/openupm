@@ -1,0 +1,20 @@
+name: com.andrewraphaellukasik.uwolframalpha
+displayName: UWolframAlpha
+description: WolframAlpha inside Unity
+repoUrl: 'https://github.com/andrew-raphael-lukasik/UWolframAlpha'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/016c1af2bcf9d0b1274fe4406001b74628e7f9b3/68747470733a2f2f692e696d6775722e636f6d2f646c554b4234702e6a7067
+readme: 'master:README.md'
+createdAt: 1594090116538
+displayName_zhCN: UWolframAlpha
+description_zhCN: Unity的WolframAlpha库

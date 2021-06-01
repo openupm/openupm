@@ -1,250 +1,389 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <ParentLayout>
-    <main class="package-list">
-      <div class="main-container container">
-        <div class="columns">
-          <div class="column col-12">
-            <div class="columns breadcrumb-wrap">
-              <div class="column col-8 col-md-7 col-sm-12">
-                <ul class="breadcrumb">
-                  <li class="breadcrumb-item">
-                    <a href="/">Home</a>
-                  </li>
-                  <li class="breadcrumb-item">
-                    <a href="#">Packages</a>
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="column col-4 col-md-5 col-sm-12 breadcrumb-action-wrap text-right"
+  <AppLayout class="package-list">
+    <template #sideview>
+      <section class="state-section">
+        <ul class="menu">
+          <li class="divider" :data-content="$t('state')"></li>
+          <li class="menu-item">
+            <label class="form-switch">
+              <input
+                v-model="active"
+                type="checkbox"
+                @change="updateRouter()"
+              /><i class="form-icon"></i>
+              {{ stateText }}
+            </label>
+          </li>
+          <li
+            class="divider"
+            :data-content="$t('supported-unity-version')"
+          ></li>
+          <li class="menu-item">
+            <div class="form-group">
+              <select
+                v-model="unity"
+                class="form-select"
+                @change="updateRouter()"
               >
-                <NavLink :item="contributorLink" class="btn" />
-                <NavLink :item="addPackageLink" class="btn btn-primary" />
-              </div>
+                <option
+                  v-for="option in unityOptions"
+                  :key="option.value"
+                  :value="option.value"
+                  >{{ option.text }}</option
+                >
+              </select>
+            </div>
+          </li>
+          <li class="divider show-sm" :data-content="$t('topics')"></li>
+          <li class="menu-item show-sm">
+            <div class="form-group">
+              <select
+                v-model="topicValue"
+                class="form-select"
+                @change="updateRouter()"
+              >
+                <option
+                  v-for="option in topics"
+                  :key="option.value"
+                  :value="option.value"
+                  >{{ option.text }}</option
+                >
+              </select>
+            </div>
+          </li>
+          <li class="divider" :data-content="$t('sort-by')"></li>
+          <li class="menu-item">
+            <div class="form-group">
+              <select
+                v-model="sort"
+                class="form-select"
+                @change="updateRouter()"
+              >
+                <option
+                  v-for="option in sortOptions"
+                  :key="option.value"
+                  :value="option.value"
+                  >{{ option.text }}</option
+                >
+              </select>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="topic-section hide-sm">
+        <ul class="menu">
+          <li class="divider" :data-content="$t('topics')"></li>
+          <div class="columns">
+            <div
+              v-for="item in topics"
+              :key="item.value"
+              class="column col-12 col-sm-6"
+            >
+              <li class="menu-item">
+                <RouterLink
+                  :class="['nav-link', item.class]"
+                  :to="{ path: item.link, query }"
+                  :exact="false"
+                >
+                  {{ item.text }}
+                </RouterLink>
+              </li>
             </div>
           </div>
-          <div class="column col-3 col-sm-12 meta-column">
-            <section class="sort-section">
-              <ul class="menu">
-                <li class="divider" data-content="SORT BY"></li>
-                <li
-                  v-for="item in sortOptions"
-                  :key="item.slug"
-                  class="menu-item"
-                >
-                  <a
-                    :href="item.link"
-                    :class="item.class"
-                    @click.prevent="onSortBtn(item)"
-                    >{{ item.text }}</a
-                  >
-                </li>
-              </ul>
-            </section>
-            <section class="topic-section">
-              <ul class="menu">
-                <li class="divider" data-content="TOPICS"></li>
-                <li v-for="item in topics" :key="item.slug" class="menu-item">
-                  <RouterLink
-                    :class="['nav-link', item.class]"
-                    :to="{ path: item.link, query }"
-                    :exact="false"
-                  >
-                    {{ item.text }}
-                  </RouterLink>
-                </li>
-              </ul>
-            </section>
-            <section class="unity-section">
-              <ul class="menu">
-                <li class="divider" data-content="Unity Version"></li>
-                <li
-                  v-for="item in unityOptions"
-                  :key="item.slug"
-                  class="menu-item"
-                >
-                  <a
-                    :href="item.link"
-                    :class="item.class"
-                    @click.prevent="onUnityBtn(item)"
-                    >{{ item.text }}</a
-                  >
-                </li>
-              </ul>
-            </section>
-          </div>
-          <div class="column col-9 col-sm-12">
-            <section class="package-section">
-              <masonry :cols="{ default: 2, 840: 1 }" :gutter="16">
-                <div v-for="pkg in packages" :key="pkg.id">
-                  <PackageCard
-                    :item="pkg"
-                    :show-created-at="$data.sort == 'date'"
-                  />
-                </div>
-              </masonry>
-            </section>
-          </div>
+        </ul>
+      </section>
+    </template>
+    <template #breadcrumbview>
+      <div class="column col-4 col-md-5">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="/">{{ $t("home") }}</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">{{ $t("packages") }}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column col-8 col-md-7 breadcrumb-action-wrap text-right">
+        <NavLink :item="contributorLink" class="btn btn-sm" />
+        <NavLink :item="addPackageLink" class="btn btn-sm btn-primary" />
+        <PackageLayoutControl class="hide-sm" />
+      </div>
+    </template>
+    <template #contentview>
+      <div class="columns">
+        <div class="column col-12">
+          <section class="package-section">
+            <div class="columns">
+              <div
+                v-for="pkg in packages"
+                :key="pkg.name"
+                :class="[
+                  'column',
+                  preferHorizontalLayout
+                    ? 'col-12'
+                    : 'col-3 col-xl-4 col-lg-6 col-md-6 col-sm-12'
+                ]"
+              >
+                <LazyPackageCard
+                  :item="pkg"
+                  :prefer-horizontal-layout="preferHorizontalLayout"
+                  :time-field="timeField"
+                />
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-      <Content class="theme-default-content custom" />
-    </main>
-  </ParentLayout>
+    </template>
+  </AppLayout>
 </template>
 
 <script>
-import _ from "lodash";
-import axios from "axios";
-import urljoin from "url-join";
-import ParentLayout from "@theme/layouts/Layout.vue";
-import NavLink from "@parent-theme/components/NavLink.vue";
-import PackageCard from "@theme/components/PackageCard.vue";
+import { orderBy } from "lodash/collection";
+import { reverse, uniq } from "lodash/array";
+import { trim } from "lodash/string";
+
+import AppLayout from "@theme/layouts/AppLayout.vue";
+import constant from "@theme/constant";
+import LazyPackageCard from "@theme/components/LazyPackageCard.vue";
+import NavLink from "@theme/components/NavLink.vue";
+import PackageLayoutControl from "@theme/components/PackageLayoutControl.vue";
 import util from "@root/docs/.vuepress/util";
 
+const SortType = constant.SortType;
+
 export default {
-  components: { ParentLayout, NavLink, PackageCard },
+  components: {
+    AppLayout,
+    LazyPackageCard,
+    NavLink,
+    PackageLayoutControl
+  },
+
   data() {
     return {
-      sort: "date",
+      active: true,
+      topicValue: "",
       sortList: [
-        { text: "Name", slug: "name" },
-        { text: "Popularity", slug: "pop" },
-        { text: "Recently Added", slug: "date" }
+        { text: this.$t("name"), value: SortType.name },
+        { text: this.$t("popularity"), value: SortType.pop },
+        { text: this.$t("published-date"), value: SortType.createdAt },
+        { text: this.$t("recently-updated"), value: SortType.updatedAt }
       ],
-      unity: "",
-      packagesExtra: {}
+      unity: ""
     };
   },
+
   computed: {
     addPackageLink() {
-      return {
+      const item = {
         link: "/packages/add/",
-        text: "Add Package"
+        text: this.$t("add-package"),
+        icon: "fas fa-plus-circle",
+        iconLeft: true
       };
+      if (this.$mq == "xs" || this.$mq == "sm" || this.$mq == "md") {
+        item.text = undefined;
+      }
+      return item;
     },
     contributorLink() {
-      return {
+      const item = {
         link: "/contributors/",
-        text: "Contributors"
+        text: this.$t("contributors"),
+        icon: "fas fa-user-astronaut",
+        iconLeft: true
       };
+      if (this.$mq == "xs" || this.$mq == "sm" || this.$mq == "md") {
+        item.text = undefined;
+      }
+      return item;
     },
+
+    packagesExtra() {
+      return this.$store.getters.packagesExtra;
+    },
+
     packages() {
       // Join extra data
       let pkgs = this.$page.frontmatter.packages.map(x => {
-        const extra = this.$data.packagesExtra[x.name] || {};
-        return {
-          ...x,
-          ...extra,
-          sortName: x.link.text
-        };
+        return util.joinPackageExtra(x, this.packagesExtra[x.name] || {});
       });
-      // Filter by unity
-      if (this.unity) pkgs = pkgs.filter(x => x.unity == this.unity);
+      // Filter by supported unity version.
+      if (this.unity) {
+        pkgs = pkgs.filter(
+          x =>
+            this.unityVersionToValue(x.unity) <=
+            this.unityVersionToValue(this.unity)
+        );
+      }
+      // Filter by state.
+      pkgs = pkgs.filter(x => x.pending != this.active);
       // Sort
-      if (this.sort == "date") pkgs = _.orderBy(pkgs, ["createdAt"], ["desc"]);
-      else if (this.sort == "pop") pkgs = _.orderBy(pkgs, ["stars"], ["desc"]);
-      else if (this.sort == "name")
-        pkgs = _.orderBy(pkgs, ["sortName"], ["asc"]);
+      if (this.sort == SortType.updatedAt)
+        pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
+      else if (this.sort == SortType.createdAt)
+        pkgs = orderBy(pkgs, ["createdAt"], ["desc"]);
+      else if (this.sort == SortType.pop)
+        pkgs = orderBy(pkgs, ["stars"], ["desc"]);
+      else if (this.sort == SortType.name)
+        pkgs = orderBy(pkgs, ["sortName"], ["asc"]);
       return pkgs;
     },
+
+    preferHorizontalLayout() {
+      return this.$store.getters.preferHorizontalLayout;
+    },
+
     query() {
       const query = {};
+      query.active = this.active ? 1 : 0;
       if (this.sort) query.sort = this.sort;
-      if (this.unity) query.untiy = this.unity;
+      if (this.unity) query.unity = this.unity;
       return query;
     },
+
+    sort: {
+      get() {
+        return this.$store.getters.packageListSort;
+      },
+      set(value) {
+        this.$store.dispatch("setPackageListSort", { value });
+      }
+    },
+
     sortOptions() {
       return this.sortList.map(x => {
         return {
           ...x,
           link: "",
-          class: x.slug == this.sort ? "active" : ""
+          class: x.value == this.sort ? "active" : ""
         };
       });
     },
+
+    stateText() {
+      return this.active ? this.$t("ready-to-use") : this.$t("pending");
+    },
+
+    timeField() {
+      if (this.sort == SortType.createdAt) {
+        return SortType.createdAt;
+      }
+      return SortType.updatedAt;
+    },
+
     topic() {
       return this.$page.frontmatter.topic;
     },
+
     topics() {
       return this.$page.frontmatter.topics
         .filter(topic => topic.count > 0)
         .map(topic => {
+          const transKey = topic.slug || "all";
           return {
             link: topic.link,
-            text: topic.name,
+            text: this.$te(transKey) ? this.$t(transKey) : topic.name,
+            value: topic.slug,
             class: topic.slug == this.topic.slug ? "active" : ""
           };
         });
     },
+
     unityOptions() {
       let unityList = Object.entries(this.packagesExtra).map(
         // eslint-disable-next-line no-unused-vars
-        ([key, value]) => value.unity
+        ([key, value]) => trim(value.unity)
       );
-      unityList = _.reverse(_.uniq(unityList).sort());
+      unityList = reverse(
+        uniq(unityList)
+          // Remove empty element.
+          .filter(x => x)
+          // Sort.
+          .sort()
+      );
+      // Insert "" at the beginning.
       unityList.splice(0, 0, "");
+      // Convert to an option list.
       return unityList.map(x => {
         return {
-          slug: x,
-          text: x ? x : "All",
+          value: x,
+          text: x ? x : this.$t("all"),
           link: "",
           class: x == this.unity ? "active" : ""
         };
       });
     }
   },
+
   watch: {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
-      this.setSortOption(this.$route.query.sort);
-      this.setUnityOption(this.$route.query.unity);
+      this.parseQuery();
     }
   },
+
   mounted() {
-    this.setSortOption(this.$route.query.sort);
-    this.setUnityOption(this.$route.query.unity);
-    this.fetchPackagesExtra();
+    this.parseQuery();
   },
+
   methods: {
-    async fetchPackagesExtra() {
+    /**
+     * Parse query to set initial values.
+     */
+    parseQuery() {
+      // state
+      this.active = this.$route.query.active != "0";
+      // sort
+      const sort = this.$route.query.sort;
+      if (this.sortList.map(x => x.value).includes(sort) && sort != this.sort)
+        this.$store.dispatch("setPackageListSort", { value: sort });
+      // unity
+      const unity = this.$route.query.unity;
+      if (this.unityOptions.map(x => x.value).includes(unity))
+        this.unity = unity;
+      else this.unity = "";
+      // topic
+      this.topicValue = this.topic.slug;
+    },
+
+    /**
+     * Convert unity string to number value.
+     */
+    unityVersionToValue(unity) {
+      if (!unity) {
+        return 0;
+      }
+      const segs = unity.split(".");
       try {
-        let resp = await axios.get(
-          urljoin(util.openupmPackagesApiUrl, "extra"),
-          {
-            headers: { Accept: "application/json" }
-          }
-        );
-        this.packagesExtra = resp.data;
-      } catch (error) {
-        console.error(error);
+        if (segs.length == 1) {
+          return parseInt(segs[0]) * 1000;
+        } else if (segs.length == 2) {
+          return parseInt(segs[0]) * 1000 + parseInt(segs[1]);
+        } else {
+          return 0;
+        }
+      } catch (err) {
+        return 0;
       }
     },
-    onSortBtn(item) {
-      if (item.class == "active") return;
-      this.sort = item.slug;
+
+    /**
+     * Update router for current data
+     */
+    updateRouter() {
+      let path = this.$route.path;
+      if (this.topicValue != this.topic.slug) {
+        if (this.topicValue) path = "/packages/topics/" + this.topicValue + "/";
+        else path = "/packages/";
+      }
       this.$router.push({
-        path: this.$route.path,
+        path,
         query: this.query
       });
-    },
-    onUnityBtn(item) {
-      if (item.class == "active") return;
-      this.unity = item.slug;
-      this.$router.push({
-        path: this.$route.path,
-        query: this.query
-      });
-    },
-    setSortOption() {
-      const sort = this.$route.query.sort;
-      const choices = this.sortList.map(x => x.slug);
-      if (choices.includes(sort)) this.sort = sort;
-    },
-    setUnityOption() {
-      const unity = this.$route.query.unity;
-      const choices = this.unityOptions.map(x => x.slug);
-      if (choices.includes(unity)) this.unity = unity;
     }
   }
 };
@@ -252,19 +391,7 @@ export default {
 
 <style lang="stylus">
 .package-list
-  .main-container
-    margin-top 1rem
-
-    .breadcrumb-wrap
-      margin-bottom 0.8rem
-
+  .mainview
     .breadcrumb-action-wrap
       padding-top 0.34rem
-
-    .meta-column
-      section
-        margin-bottom 1rem
-
-    .package-section
-      margin-bottom 1.5rem
 </style>

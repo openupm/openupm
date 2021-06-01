@@ -1,0 +1,17 @@
+name: com.johnsoncodehk.unity-dictionary-viewer
+displayName: Dictionary Viewer
+description: null
+repoUrl: 'https://github.com/johnsoncodehk/unity-dictionary-viewer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593640008886
+displayName_zhCN: 字典查看器

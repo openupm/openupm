@@ -1,0 +1,20 @@
+name: com.unigame.dotweenrx
+displayName: UniGame DoTween Rx
+description: 'Rx support for DoTween '
+repoUrl: 'https://github.com/UniGameTeam/UniGame.DoTweenRx'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/UniGameTeam/UniGame.DoTweenRx/raw/0f03805bc7a05af5259c2906e23c97953b7209bb/Editor/Assets/rx_dotween.png
+readme: 'master:README.md'
+createdAt: 1595092564767
+displayName_zhCN: UniGame DoTween Rx
+description_zhCN: RX对DoTween的支持

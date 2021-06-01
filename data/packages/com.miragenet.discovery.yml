@@ -1,0 +1,19 @@
+name: com.miragenet.discovery
+displayName: MirageNet Discovery
+description: Network discovery for MirageNet
+repoUrl: 'https://github.com/MirageNet/Discovery'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: paulpach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.2'
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: MirageNet网络发现
+description_zhCN: MirageNet的网络发现
+createdAt: 1609444520687

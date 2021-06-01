@@ -1,0 +1,19 @@
+name: com.funtech.soap-sound
+displayName: Soap's Sound
+description: 自己擴充的控管聲音套件
+repoUrl: 'https://github.com/cowbear6598/Soap_Sound'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: cowbear6598
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1605239408844
+readme_zhCN: 'master:README.md'
+displayName_zhCN: "Soap's Sound"
+description_zhCN: 自己扩充的管理声音的套件

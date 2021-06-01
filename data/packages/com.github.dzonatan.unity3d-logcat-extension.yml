@@ -1,0 +1,21 @@
+name: com.github.dzonatan.unity3d-logcat-extension
+displayName: Unity3D LogCat extension
+description: Logcat (android logging) extension for Unity3D
+repoUrl: 'https://github.com/chromee/Unity3D-LogCat-extension'
+parentRepoUrl: 'https://github.com/shiena/Unity3D-LogCat-extension'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/chromee/Unity3D-LogCat-extension/upm/screenshots%7E/InitialWindow.png
+readme: 'upm:README.md'
+createdAt: 1592082527674
+displayName_zhCN: Unity3D LogCat 扩展
+description_zhCN: Logcat（Android日志记录）的Unity3D扩展

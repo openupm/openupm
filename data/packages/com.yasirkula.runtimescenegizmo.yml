@@ -1,0 +1,19 @@
+name: com.yasirkula.runtimescenegizmo
+displayName: Runtime Scene Gizmo
+description: Interactable runtime scene gizmo for uGUI
+repoUrl: 'https://github.com/yasirkula/UnityRuntimeSceneGizmo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityRuntimeSceneGizmo/raw/3a3b7ee9844d71aae4b0f912a3c1cad356973c33/.github/Images/screenshot.png
+readme: 'master:.github/README.md'
+createdAt: 1589513902675
+displayName_zhCN: 运行时场景Gizmo
+description_zhCN: 适用于uGUI的可交互运行时场景Gizmo

@@ -1,0 +1,17 @@
+name: com.miragenet.libuv2k
+displayName: Mirage Libuv2kNG
+description: null
+repoUrl: 'https://github.com/MirageNet/Libuv2kNG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: paulpach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1604863218764
+displayName_zhCN: Mirage Libuv2kNG

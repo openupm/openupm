@@ -1,0 +1,20 @@
+name: com.elringus.naninovelinventory
+displayName: Naninovel Inventory
+description: Inventory extension example for Naninovel visual novel engine
+repoUrl: 'https://github.com/Elringus/NaninovelInventory'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Elringus/NaninovelInventory/raw/935341b161649fbcf8bea77f6b7c269f0e998d27/Assets/Backgrounds/Landscape.jpg
+readme: 'master:README.md'
+createdAt: 1594576779584
+displayName_zhCN: Naninovel装备系统
+description_zhCN: Naninovel可视化小说引擎的装备系统示例

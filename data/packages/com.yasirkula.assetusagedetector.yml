@@ -1,0 +1,21 @@
+name: com.yasirkula.assetusagedetector
+displayName: Asset Usage Detector
+description: >-
+  Find usages of the selected asset(s) and/or Object(s) in your Unity project,
+  i.e. list the objects that refer to them
+repoUrl: 'https://github.com/yasirkula/UnityAssetUsageDetector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityAssetUsageDetector/raw/7358b12609de240f54da41bdbb2ef9e46c819487/.github/screenshots/img1.png
+readme: 'master:.github/README.md'
+createdAt: 1589320210979
+displayName_zhCN: 资源使用检测器
+description_zhCN: 在Unity项目中查找所选资源和/或对象的用例，即列出引用它们的对象

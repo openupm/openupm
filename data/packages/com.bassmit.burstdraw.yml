@@ -1,0 +1,22 @@
+name: com.bassmit.burstdraw
+displayName: Burst Draw
+description: >-
+  Draw lines in game and scene view. This contents of this package are largely
+  taken from the Unity Physics package
+repoUrl: 'https://github.com/bassmit/burstdraw'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614539323312

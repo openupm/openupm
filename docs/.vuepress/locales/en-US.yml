@@ -1,0 +1,204 @@
+about: About
+add-package: Add Package
+add-package-title: Submit Open Source UPM Package
+all: All
+and: and
+authors: Author(s)
+back: Back
+backers: Backers
+badge: Badge
+branch: Branch
+build: Build
+build-pipelines: Build Pipelines
+china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
+china-region-info: China Region Information
+click-to-copy: click to copy
+code-of-conduct: Code of Conduct
+command-line-interface: command-line interface
+commit: Commit
+connect: Connect
+contact-us: Contact Us
+contributors: Contributors
+cookie-consent-dismiss: Got it!
+cookie-consent-message: >-
+  This website uses cookies to ensure you get the best experience on our
+  website.
+dependencies: Dependencies
+deps-missing: Please install the missing dependency manually.
+description-zhcn: Description (Chinese)
+discord: Discord
+discovered-by: Discovered by
+discovered-by-placeholder: hunter
+display-name-zhcn: Display name (Chinese)
+donate: Donate
+edit-package: Edit this package
+english-text: 'English text:'
+experimental: experimental
+featured-image: Featured image
+featured-image-desc: 'Notice: if the repository has a'
+featured-image-desc-2: ', will use that instead.'
+field-none: None
+fill-the-package-form: Fill the package form
+fill-the-package-form-desc: >-
+  Please provide information about the UPM package. The package must conform to
+  our package criteria. Learn more at
+footer-copyright: Copyright © 2019-2020 Favo Yang
+forked-from: forked from
+get: Get
+git-deps-missing: Please install the Git dependency manually.
+git-deps-nuget: The package may exist in the uplinked UnityNuGet registry.
+git-deps-replaced: The Git dependency can be replaced by a version available on OpenUPM.
+git-tag: Git tag
+git-tag-ignore-pattern: Git tag ignore pattern
+git-tag-ignore-pattern-desc: 'Regular expression to exclude Git tags from build pipelines:'
+git-tag-ignore-pattern-placeholder: leave empty to include all tags (by default)
+git-tag-prefix: Git tag prefix
+git-tag-prefix-desc-safe: >-
+  A prefix to filter Git tags, mostly used by monorepos to distinguish releases.
+  A prefixed tag should separate the semver with a slash <code>/</code>, hyphen
+  <code>-</code>, or underscore <code>_</code>. e.g.
+  <code>myprefix/x.y.z</code>.
+git-tag-prefix-placeholder: leave empty to include all tags (by default)
+github: GitHub
+go: Go
+go-to-unity-project: Go to your Unity project directory
+has-no-valid-tag: No valid
+has-no-valid-tag-2: >-
+  detected. Please contact the package owner to create at least one valid Git
+  tag.
+has-not-succeeded-build: The package has
+has-not-succeeded-build-2: in-processing or failed builds.
+home: Home
+hosting: Hosting
+hosting-2: community selective open source UPM packages and counting
+install-openupm-cli: Install openupm-cli
+install-package: Install package
+install-via-command-line-interface: Install via Command-Line Interface
+install-via-package-installer: Install via Package Installer
+install-via-package-installer-intro: >-
+  creates a traditional .unitypackage helper to install a UPM package into your
+  Unity project.
+install-via-package-installer-step-2: >-
+  Open the downloaded file with your Unity editor or drag it into the Unity
+  editor window.
+install-via-package-installer-step-3: The installer will remove itself after installation.
+installation: Installation
+invalid-git-tag-and: Invalid Git tag (non-semver or duplicated version)
+latest: latest
+learn-more: Learn more
+license: License
+license-name: License name
+license-name-desc: Please specify the license name.
+loading-branches: Loading branches...
+loading-spin-text: Loading...
+lowest-unity-version: Lowest Unity version
+medium: Medium
+meta-data: Meta data
+minimal-version-to-build: Minimal version to build
+minimal-version-to-build-placeholder: leave empty to build all versions (by default)
+name: Name
+name-at-version: Name@version
+needles-package-installer: Needle's package installer
+note: Note
+package-already-exists-in-unity-registry: The package already exists in the Unity registry.
+package-installer: package installer
+package-name: Package name
+package-name-com-unity: Packages with the com.unity scope requires a manual review.
+package-name-contains-unity: >-
+  The package name contains text "unity" should respect to the trademarks rules
+  (just a friendly reminder).
+package-updates: Package Updates
+packages: Packages
+path-of-package-json: Path of package.json
+path-of-readme: Path of README.md
+path-of-readme-zhcn: Path of README.md (Chinese)
+pending: Pending
+popularity: Popularity
+powered-by-netlify: This site is powered by Netlify
+prerequisites: Prerequisites
+privacy-policy: Privacy Policy
+project: Project
+published: Published
+published-date: Published Date
+published-time: Published time
+readme: Readme
+readme-to-found: Readme is not available, please try again later.
+ready-to-use: Ready to Use
+recently-updated: Recently Updated
+region: Region
+region-cn: China
+region-us: United States
+related-packages: Related Packages
+release-reason-bad-gateway: server bad gateway
+release-reason-bad-request: server bad request
+release-reason-build-cancellation: the build is cancelled manually
+release-reason-build-timeout: the build is timeout
+release-reason-connection-time: connection timeout
+release-reason-entity-too-large: the package is too large
+release-reason-forbidden: server forbidden
+release-reason-gateway-timeout: server timeout
+release-reason-heap-out-of-memroy: heap out of memory (the package is too large)
+release-reason-internal-error: server internal error
+release-reason-invalid-version: invalid version
+release-reason-none: unknown error
+release-reason-package-json-parsing-error: invalid format of package.json
+release-reason-package-name-invalid: the package name includes unsupported @ character
+release-reason-package-name-not-match: the name of package.json isn't matched
+release-reason-package-not-found: error path package.json
+release-reason-private: the package is explicitly private
+release-reason-remote-branch-not-found: error remote branch name
+release-reason-remote-repository-unavailable: remote repository unavailable (check submodules)
+release-reason-service-unavailable: server unavailable
+release-reason-unauthorized: server unauthorized
+release-reason-version-conflict: the version already exists (check package.json version)
+report-abuse: Report
+report-malware-or-abuse: Report malware or abuse
+repository: Repository
+repository-placeholder: owner/project-name
+show-more: Show more
+social-image: social image
+sort-by: Sort by
+sponsor-bronze: Bronze Sponsors 🥉
+sponsor-diamond: Diamond Sponsors 💎
+sponsor-featured: Featured Sponsors
+sponsor-gold: Gold Sponsors 🥇
+sponsor-service: Service Sponsors 🖥️
+sponsor-silver: Silver Sponsors 🥈
+sponsors: Sponsors
+star: Star
+stars: Stars
+state: State
+status: Status
+submit-pr: Submit Pull Request
+supported-unity-version: Supported Unity Version
+team: Team
+terms-of-use: Terms of Use
+the-repository-is-unavailable: >-
+  The repository is unavailable. It could be removed or turned private by the
+  author. OpenUPM won't be able to track further changes.
+top-package-hunters: Top Package Hunters
+top-package-owners: Top Package Owners
+topics: Topics
+tweet: Tweet
+twitter: Twitter
+unity-version: Unity Version
+upload-to-github-via-pr: Upload to GitHub via pull request
+upload-to-github-via-pr-desc: The package is verified. A YAML file is generated to store the meta data.
+upload-to-github-via-pr-step-1-safe: Click the <b>Upload package</b> button will guide you to the GitHub website.
+upload-to-github-via-pr-step-2-safe: Scroll to the end of the page, click the <b>purpose new file</b> button.
+upload-to-github-via-pr-step-3-safe: Click the <b>create pull request</b> button on the following page.
+upload-to-github-via-pr-step-4-safe: The pull request will get merged automatically.
+upstream: upstream
+verify-package: Verify package
+version: Version
+versions: Versions
+via: via
+wait-for-ci-pipelines: Wait for CI pipelines to complete (20-30 mins)
+wait-for-ci-pipelines-step-1-safe: You can visit the package at
+wait-for-ci-pipelines-step-2-safe: >-
+  You can view the build result at the <b>version history</b> and <b>build
+  issues</b> sections.
+wait-for-ci-pipelines-step-3-safe: >-
+  <b>Notice that first-time contributor requires maintainer's approval which may
+  cost more time.</b>
+zhihu-blog: Zhihu Articles

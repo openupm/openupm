@@ -1,0 +1,17 @@
+name: com.gwaredd.unium
+displayName: Unium
+description: Automation for Unity games
+repoUrl: 'https://github.com/gwaredd/unium'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: gwaredd
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1588876409939
+displayName_zhCN: Unium
+description_zhCN: Unity游戏自动化

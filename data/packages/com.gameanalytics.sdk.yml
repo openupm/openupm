@@ -1,0 +1,23 @@
+name: com.gameanalytics.sdk
+displayName: GameAnalytics
+description: >-
+  GameAnalytics collects and stores your data with no limits.  You can then view
+  your core KPI's in order to see what areas of your game need to improvements. 
+  If you want to find out more about how gamers play, then add in funnels,
+  progression events and resource tracking. 
+repoUrl: 'https://github.com/GameAnalytics/GA-SDK-UNITY'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '6.4.0'
+image: >-
+  https://github.com/GameAnalytics/GA-SDK-UNITY/raw/2c308c69b3caf32700436789e013b030d637db88/Gizmos/GameAnalytics/gaLogo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614270167208

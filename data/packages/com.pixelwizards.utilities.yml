@@ -8,7 +8,9 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - library
+  - utilities
 hunter: PixelWizards
 gitTagIgnore: ''
 createdAt: 1578865260000
+displayName_zhCN: PixelWizards - 实用程序
+description_zhCN: 一些为Unity的Package Manager打包的Unity实用程序（UV工具，资源inspector等）

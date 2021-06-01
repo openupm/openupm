@@ -10,9 +10,14 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - effect-shader
-  - ui
+  - particles-and-effects
+  - gui
 hunter: favoyang
-gitTagIgnore: '^v'
+gitTagPrefix: ''
+gitTagIgnore: ^v
+readme: 'upm:README.md'
 createdAt: 1577291404000
-image: https://user-images.githubusercontent.com/12690315/41771577-8da4b968-7650-11e8-9524-cd162c422d9d.gif
+image: >-
+  https://user-images.githubusercontent.com/12690315/41771577-8da4b968-7650-11e8-9524-cd162c422d9d.gif
+displayName_zhCN: UI粒子
+description_zhCN: 此插件提供了一个组件，为uGUI呈现粒子效果。该例子渲染是可蒙版和可排序的，不使用摄像机、RenderTexture或画布。

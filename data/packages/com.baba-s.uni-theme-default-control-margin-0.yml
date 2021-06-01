@@ -1,0 +1,17 @@
+name: com.baba-s.uni-theme-default-control-margin-0
+displayName: UniThemeDefaultControlMargin0
+description: null
+repoUrl: 'https://github.com/baba-s/UniThemeDefaultControlMargin0'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601087151238
+displayName_zhCN: UniThemeDefaultControlMargin0

@@ -1,0 +1,22 @@
+name: com.teamon.projectwindowdetails
+displayName: Project Window Details
+description: >-
+  Unity Editor extension to add columns into the project window for showing
+  additional information about assets
+repoUrl: 'https://github.com/Team-on/ProjectWindowDetails'
+parentRepoUrl: 'https://github.com/innogames/ProjectWindowDetails'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 项目窗口详细信息
+description_zhCN: Unity Editor扩展，可将列添加到项目窗口中，以显示有关资产的其他信息
+createdAt: 1612656067378

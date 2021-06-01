@@ -23,6 +23,7 @@ const showQueueStatus = async function(queueName) {
     ls = Array.from(ls);
     if (ls.length) {
       console.log(`${status.name}:`);
+      ls.sort();
       for (const item of ls) console.log(`  ${item}`);
     }
   }

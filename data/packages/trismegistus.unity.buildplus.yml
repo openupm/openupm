@@ -1,0 +1,20 @@
+name: trismegistus.unity.buildplus
+displayName: Trismegistus Build+
+description: Semver utility for Unity projects with changelog / release notes generator
+repoUrl: 'https://github.com/Hermesiss/unity-buildplus'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Hermesiss/unity-buildplus/raw/c57b44e2ee513cc1de24ab1a112a01584f8ef401/Packages/trismegistus.unity.buildplus/Documentation~/images/mainWindow.jpg
+readme: 'master:README.md'
+createdAt: 1598737366314
+displayName_zhCN: Trismegistus Build+
+description_zhCN: Semver实用程序，用于带有变更日志/发行说明生成器的Unity项目

@@ -1,0 +1,19 @@
+name: com.utj.blendshapebuilder
+displayName: BlendShapeBuilder
+description: tweak vertices and generate blend shapes in Unity
+repoUrl: 'https://github.com/unity3d-jp/BlendShapeBuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/1488611/34981308-76511248-faea-11e7-8985-b8fe0e957035.gif
+readme: 'master:README.md'
+createdAt: 1593019183821
+displayName_zhCN: BlendShapeBuilder
+description_zhCN: 在Unity中调整顶点并生成混合形状

@@ -7,7 +7,14 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - 2d
-  - ui
+  - gui
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ^v
+minVersion: ''
+readme: 'master:README.md'
 createdAt: 1577291204000
-image: https://user-images.githubusercontent.com/12690315/50282438-18408d80-0496-11e9-8f86-81e804edadd4.png
+image: >-
+  https://user-images.githubusercontent.com/12690315/50282438-18408d80-0496-11e9-8f86-81e804edadd4.png
+displayName_zhCN: uGui的Soft Mask
+description_zhCN: uGui的Soft Mask

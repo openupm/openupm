@@ -1,0 +1,21 @@
+name: com.coffee.event-drawer-ex
+displayName: UnityEventDrawerEx
+description: >-
+  This plugin extends the UnityEventDrawer to display runtime calls in the
+  inspector.
+repoUrl: 'https://github.com/mob-sakai/UnityEventDrawerEx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/12690315/40921624-f43811b6-684a-11e8-96e4-83964730a358.png
+readme: 'master:README.md'
+createdAt: 1592069595961
+displayName_zhCN: UnityEventDrawerEx
+description_zhCN: 此插件在inspector中显示UnityEventDrawer的运行时调用。

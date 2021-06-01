@@ -1,0 +1,17 @@
+name: com.baba-s.uni-tmp-rule
+displayName: UniTMPRule
+description: null
+repoUrl: 'https://github.com/baba-s/UniTMPRule'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591638014795
+displayName_zhCN: UniTMPRule

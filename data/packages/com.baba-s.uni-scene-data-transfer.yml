@@ -1,0 +1,19 @@
+name: com.baba-s.uni-scene-data-transfer
+displayName: UniSceneDataTransfer
+description: Unity package to easily pass data at scene transition.
+repoUrl: 'https://github.com/baba-s/UniSceneDataTransfer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/167fd929cf69b28d3aa88147fd62d497cb2b12b0/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303230303131392f32303230303131393134303330302e706e67
+readme: 'master:README.md'
+createdAt: 1591715366968
+displayName_zhCN: UniSceneDataTransfer
+description_zhCN: 在场景间传输数据

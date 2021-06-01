@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.trackers.obscurancetracker.unity
+displayName: Tilia Trackers ObscuranceTracker Unity
+description: >-
+  Tracks the line of sight between two GameObjects in the scene for the Unity
+  software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/raw/2a99352bdfd3a56c27ae5138f20be8346836fdf4/Documentation/HowToGuides/AddingAnObscuranceTracker/assets/images/SpherePresent.png
+readme: 'master:README.md'
+createdAt: 1593091836129
+displayName_zhCN: Tilia Trackers ObscuranceTracker Unity
+description_zhCN: 跟踪Unity软件中场景中两个GameObjects之间的视线

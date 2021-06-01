@@ -1,0 +1,17 @@
+name: games.artees.litjson
+displayName: LitJSON
+description: JSON library for the .Net framework
+repoUrl: 'https://github.com/Artees/litjson'
+parentRepoUrl: 'https://github.com/LitJSON/litjson'
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'develop:README.md'
+createdAt: 1589050010749
+displayName_zhCN: LitJSON
+description_zhCN: .Net框架的JSON库

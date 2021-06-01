@@ -1,0 +1,19 @@
+name: com.greener-games.unity-extensions
+displayName: Unity Extensions
+description: Collection of extensions for use in unity
+repoUrl: 'https://github.com/Greener-Games/Unity_Extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity扩展
+description_zhCN: Unity使用的扩展集
+createdAt: 1612261708411

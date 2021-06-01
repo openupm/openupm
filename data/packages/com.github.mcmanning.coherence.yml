@@ -1,0 +1,21 @@
+name: com.github.mcmanning.coherence
+displayName: Coherence
+description: Blender viewport renderer using the Unity Engine
+repoUrl: 'https://github.com/McManning/Coherence'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - integration
+  - level-design
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/McManning/Coherence/raw/a57e8d003c2d25d3dd9a0bf07b7944fb84e0810d/Documentation~/demo.gif
+readme: 'master:README.md'
+createdAt: 1603938944535
+displayName_zhCN: Coherence
+description_zhCN: Blender视窗渲染器

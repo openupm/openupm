@@ -1,0 +1,23 @@
+name: nl.elraccoone.nest-utilities-client
+displayName: Nest Utilities Client
+description: >-
+  Providing a set of tools allowing your application to interface with servers
+  running rest-full API's build using the Nest Utilities package with custom
+  services and chainable options for complete flexibility.
+repoUrl: 'https://github.com/jeffreylanters/unity-nest-utilities-client'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: jeffreylanters
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-entity-component-system/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614281854706

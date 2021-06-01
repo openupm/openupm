@@ -1,0 +1,18 @@
+name: com.garettbass.unityextensions.arraydrawer
+displayName: Array Drawer
+description: 'ArrayDrawer is a base class like PropertyDrawer, but for arrays and lists.'
+repoUrl: 'https://github.com/garettbass/UnityExtensions.ArrayDrawer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/garettbass/UnityExtensions.ArrayDrawer/raw/891ba4403ae4e0ec8d130f00ad10089a34e1bd35/Before-After.png
+readme: 'master:README.md'
+createdAt: 1588908703648
+displayName_zhCN: 数组Drawer
+description_zhCN: ArrayDrawer是类似PropertyDrawer的基类，应用于数组和列表。

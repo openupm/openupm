@@ -1,0 +1,17 @@
+name: io.github.nsubstitute
+displayName: NSubstitute
+description: A friendly substitute for .NET mocking libraries.
+repoUrl: 'https://github.com/ToshikiImagawa/NSubstitute'
+parentRepoUrl: 'https://github.com/nsubstitute/NSubstitute'
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics: []
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'support-upm:README.md'
+createdAt: 1589404583222
+displayName_zhCN: NSubstitute
+description_zhCN: .NET模拟库的友好substitute。

@@ -1,0 +1,20 @@
+name: net.tnrd.histogrammer
+displayName: Histogrammer
+description: A tool for Unity3D to help you pinpoint redundant data
+repoUrl: 'https://github.com/Thundernerd/Unity3D-Histogrammer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Thundernerd/Unity3D-Histogrammer/raw/c424fe891cb99adb8076af053c5d4b3dcb8af8c7/Documentation~/histogrammer_1.png
+readme: 'master:README.md'
+createdAt: 1591181101720
+displayName_zhCN: Histogrammer
+description_zhCN: Unity3D的工具，可帮助您查明冗余数据

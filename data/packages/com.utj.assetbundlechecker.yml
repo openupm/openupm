@@ -1,0 +1,20 @@
+name: com.utj.assetbundlechecker
+displayName: AssetBundle Checker
+description: AssetBundleChecker
+repoUrl: 'https://github.com/wotakuro/AssetBundleChecker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/wotakuro/AssetBundleChecker/master/Documentation~/AssetBundleShader.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: AssetBundle Checker
+description_zhCN: AssetBundleChecker
+createdAt: 1607378889985

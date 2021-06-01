@@ -1,0 +1,20 @@
+name: com.baba-s.uni-missing-script-remover
+displayName: UniMissingScriptRemover
+description: 【Unity】シーンやプレハブから Missing Script を削除するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniMissingScriptRemover'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87244457-7a962000-c478-11ea-8e87-faedfeecbc0a.png
+readme: 'master:README.md'
+createdAt: 1594572238895
+displayName_zhCN: UniMissingScriptRemover
+description_zhCN: 删除场景中缺失的脚本

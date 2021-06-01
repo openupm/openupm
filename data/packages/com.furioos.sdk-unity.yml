@@ -1,0 +1,20 @@
+name: com.furioos.sdk-unity
+displayName: Furioos Unity SDK
+description: Furioos SDK for Unity3D
+repoUrl: 'https://github.com/Unity-Technologies/furioos-sdk-unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - services
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/furioos-sdk-unity/raw/bad64c73bd25e2de6ddc9b0db246ce09b41f5f06/Assets/FurioosSDK/Editor/Inspector/Assets/furioos-icon.png
+readme: 'master:README.md'
+createdAt: 1591814240236
+displayName_zhCN: Furioos Unity SDK
+description_zhCN: Unity3D的Furioos SDK

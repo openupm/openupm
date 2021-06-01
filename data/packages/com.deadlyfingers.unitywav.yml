@@ -1,0 +1,19 @@
+name: com.deadlyfingers.unitywav
+displayName: Unity WAV
+description: WAV utility for saving and loading wav files in Unity
+repoUrl: 'https://github.com/mikkoh/UnityWav'
+parentRepoUrl: 'https://github.com/deadlyfingers/UnityWav'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Unity WAV
+description_zhCN: WAV实用程序，用于在Unity中保存和加载WAV文件
+createdAt: 1610164692655

@@ -1,0 +1,14 @@
+name: com.unity-atoms.unity-atoms-mobile
+displayName: Unity Atoms Mobile
+description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
+repoUrl: 'https://github.com/unity-atoms/unity-atoms'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: favoyang
+gitTagIgnore: ''
+createdAt: 1579527698959
+displayName_zhCN: Unity Atoms移动版
+description_zhCN: ⚛️利用ScriptableObject的功能的微型模块化部件

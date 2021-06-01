@@ -1,0 +1,19 @@
+name: com.jonny10.unity-scene-view-notification
+displayName: Unity Scene View Notification
+description: Notification log for Unity's scene view.
+repoUrl: 'https://github.com/starikcetin/UnitySceneViewNotification'
+parentRepoUrl: 'https://github.com/staggartcreations/UnitySceneViewNotification'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6d8331ada31b57106b6ffa671ca5102bf2e6e345/68747470733a2f2f692e696d6775722e636f6d2f6b68556f6654412e676966
+readme: 'master:README.md'
+createdAt: 1596503667886
+displayName_zhCN: Unity场景视图通知
+description_zhCN: Unity场景视图的通知日志。

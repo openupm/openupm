@@ -1,0 +1,22 @@
+name: com.ccadori.sand2dnavigation
+displayName: Sand 2D Navigation
+description: >-
+  Sand 2D Navigation is a simple and performatic grid navigation solution for 2D
+  Unity games.
+repoUrl: 'https://github.com/ccadori/sand-2d-navigation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: GPLv3
+topics:
+  - 2d
+  - ai
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594136768751
+displayName_zhCN: Sand 2D导航
+description_zhCN: Sand 2D导航是一个简单而高效的网格导航解决方案

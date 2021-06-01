@@ -1,0 +1,19 @@
+name: com.baba-s.uni-style-sheet-exporter
+displayName: UniStyleSheetExporter
+description: 【Unity】エディタで使用されているスタイルシート（.uss）をエクスポートするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniStyleSheetExporter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/94360751-d0c74680-00ea-11eb-9d33-209cdb94fed2.png
+readme: 'master:README.md'
+createdAt: 1601326486095
+displayName_zhCN: UniStyleSheetExporter
+description_zhCN: 导出样式表

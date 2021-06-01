@@ -1,0 +1,21 @@
+name: org.kumas.nuget-importer
+displayName: NuGet Importer
+description: Editor extension for importing NuGet packages.
+repoUrl: 'https://github.com/kumaS-nu/NuGet-importer-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - package-management
+  - version-control
+hunter: kumaS-nu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/kumaS-nu/NuGet-importer-for-Unity/main/docs/images/ForOpenUPM.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: NuGet导入器
+description_zhCN: 用于导入NuGet软件包的编辑器扩展。
+createdAt: 1613445092202

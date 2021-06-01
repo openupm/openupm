@@ -1,0 +1,21 @@
+name: com.yasirkula.runtimepreviewgenerator
+displayName: Runtime Preview Generator
+description: >-
+  Generate preview textures (thumbnails) for your GameObject's or materials on
+  the fly in Unity
+repoUrl: 'https://github.com/yasirkula/UnityRuntimePreviewGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityRuntimePreviewGenerator/raw/380f4339a100c3258c5b4d68ffe8d1c336d1d53b/.github/Images/example1.png
+readme: 'master:.github/README.md'
+createdAt: 1589513851610
+displayName_zhCN: 运行时预览生成器
+description_zhCN: 在Unity中即时为您的GameObject或材质生成预览贴图（缩略图）

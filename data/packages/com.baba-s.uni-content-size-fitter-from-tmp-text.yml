@@ -1,0 +1,19 @@
+name: com.baba-s.uni-content-size-fitter-from-tmp-text
+displayName: UniContentSizeFitterFromTmpText
+description: 【Unity】RectTransform のサイズを TMP_Text のサイズに合わせる機能
+repoUrl: 'https://github.com/baba-s/UniContentSizeFitterFromTmpText'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598411790076
+displayName_zhCN: UniContentSizeFitterFromTmpText
+description_zhCN: 匹配RectTransform大小与TMP_Text大小的函数

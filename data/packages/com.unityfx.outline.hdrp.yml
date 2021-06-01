@@ -1,0 +1,19 @@
+name: com.unityfx.outline.hdrp
+displayName: Screen-space outline (HDRP)
+description: Screen-space outlines for Unity3d.
+repoUrl: 'https://github.com/Arvtesh/UnityFx.Outline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Arvtesh/UnityFx.Outline/raw/6bf864f905a85f9789d9f96369777ce27b5cf994/Docs/MotusOutline.png
+readme: 'master:README.md'
+createdAt: 1589946246448
+displayName_zhCN: 屏幕空间轮廓（HDRP）
+description_zhCN: Unity3d的屏幕空间轮廓。

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-rect-transform-pos-z-scale-resetter
+displayName: UniRectTransformPosZScaleResetter
+description: 【Unity】RectTransform の Pos Z と Scale の値をリセットできるエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniRectTransformPosZScaleResetter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598306724662
+displayName_zhCN: UniRectTransformPosZScaleResetter
+description_zhCN: 重置RectRansform的位置Z和缩放的值

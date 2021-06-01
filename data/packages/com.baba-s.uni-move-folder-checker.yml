@@ -1,0 +1,18 @@
+name: com.baba-s.uni-move-folder-checker
+displayName: UniMoveFolderChecker
+description: null
+repoUrl: 'https://github.com/baba-s/UniMoveFolderChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593804624667
+displayName_zhCN: UniMoveFolderChecker

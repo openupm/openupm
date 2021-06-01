@@ -1,0 +1,19 @@
+name: com.mokagames.unity-quicksheet
+displayName: Unity-QuickSheet
+description: >-
+  Unity-QuickSheet enables you to use spreadsheet file data within Unity
+  editor. 
+repoUrl: 'https://github.com/MokaGames/Unity-QuickSheet'
+parentRepoUrl: 'https://github.com/kimsama/Unity-QuickSheet'
+licenseSpdxId: null
+licenseName: MIT
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'mokagames:README.md'
+createdAt: 1588910729189
+displayName_zhCN: Unity-QuickSheet
+description_zhCN: Unity-QuickSheet使您可以在Unity编辑器中使用电子表格文件数据。

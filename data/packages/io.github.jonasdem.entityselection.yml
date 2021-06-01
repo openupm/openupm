@@ -6,7 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - editor
+  - dots-and-ecs
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1576336716000
+displayName_zhCN: 实体选择
+description_zhCN: 在Unity场景视图中选择实体的最小解决方案。

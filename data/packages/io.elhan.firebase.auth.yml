@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: oae
 gitTagIgnore: ''
 image: >-
   https://github.com/oae/unity-package-firebase-auth/raw/d32ef61a9e9b9881025544c4c898626e10df45e4/Assets/Editor%20Default%20Resources/Firebase/firebase_lockup.png
 createdAt: 1581874826279
+displayName_zhCN: Firebase身份验证（非官方）
+description_zhCN: Unity Firebase Auth for Unity的打包版本

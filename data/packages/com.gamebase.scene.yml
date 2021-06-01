@@ -1,0 +1,23 @@
+name: com.gamebase.scene
+displayName: Gamebase-SceneManagement
+description: >-
+  Gamebase-SceneManagement is manage scene and make scene lifecycle.
+  Gamebase-SceneManagement is an extension for Gamebase-Core and won't work
+  without it.
+repoUrl: 'https://github.com/hiyorin/Gamebase-SceneManagement'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591731944839
+displayName_zhCN: Gamebase-场景管理
+description_zhCN: >-
+  GameBase-SceneManagement是管理场景并制作场景生命周期的工具，它依赖于Gamebase-Core。

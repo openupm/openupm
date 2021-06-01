@@ -1,0 +1,17 @@
+name: com.baba-s.uni-hierarchy-game-object-active-button
+displayName: UniHierarchyGameObjectActiveButton
+description: null
+repoUrl: 'https://github.com/baba-s/UniHierarchyGameObjectActiveButton'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591639536078
+displayName_zhCN: UniHierarchyGameObjectActiveButton

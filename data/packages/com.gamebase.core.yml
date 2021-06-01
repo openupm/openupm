@@ -1,0 +1,18 @@
+name: com.gamebase.core
+displayName: Gamebase-Core
+description: Gamebase core module.
+repoUrl: 'https://github.com/hiyorin/Gamebase-Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591732198887
+displayName_zhCN: Gamebase-核心
+description_zhCN: Gamebase核心模块

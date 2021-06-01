@@ -1,0 +1,18 @@
+name: com.baba-s.uni-dictionary-extensions-methods
+displayName: UniDictionaryExtensionMethods
+description: 【Unity】Dictionary 型の拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniDictionaryExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598310275346
+displayName_zhCN: UniDictionaryExtensionMethods
+description_zhCN: Unity字典类型扩展方法

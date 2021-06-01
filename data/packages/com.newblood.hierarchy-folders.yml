@@ -1,0 +1,19 @@
+name: com.newblood.hierarchy-folders
+displayName: Scene Hierarchy Folders
+description: Adds support for folders in the scene hierarchy.
+repoUrl: 'https://github.com/NewBloodInteractive/com.newblood.hierarchy-folders'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604682667849
+displayName_zhCN: 场景层级结构文件夹
+description_zhCN: 添加对场景层级结构中文件夹的支持。

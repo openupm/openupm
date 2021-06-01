@@ -1,0 +1,19 @@
+name: com.stackray.text
+displayName: Stackray Text
+description: 'Extending DOTS '
+repoUrl: 'https://github.com/GilbertoGojira/DOTS-Stackray'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - dots-and-ecs
+  - gui
+hunter: JesseTG
+gitTagPrefix: com.stackray.text-
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589335653413
+displayName_zhCN: Stackray Text
+description_zhCN: 扩展DOTS

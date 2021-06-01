@@ -1,0 +1,20 @@
+name: com.omiyagames.global
+displayName: Omiya Games - Global
+description: >-
+  A group of scripts and abstract classes that helps setup a globally-accessible
+  data.
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-global'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1590123050642
+displayName_zhCN: Omiya游戏 - 全局
+description_zhCN: 一组脚本和抽象类，可帮助设置可全局访问的数据。

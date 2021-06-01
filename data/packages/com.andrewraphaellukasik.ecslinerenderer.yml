@@ -1,0 +1,19 @@
+name: com.andrewraphaellukasik.ecslinerenderer
+displayName: ECS LineRenderer
+description: line renderer for Unity.Entities tech stack
+repoUrl: 'https://github.com/andrew-raphael-lukasik/ECSLineRenderer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/c83e4eb943ebed452126a71a199f2209cf8a306b/68747470733a2f2f692e696d6775722e636f6d2f4e434337316d442e676966
+readme: 'upm:README.md'
+createdAt: 1604600904254
+displayName_zhCN: ECS LineRenderer线条渲染器
+description_zhCN: Unity.Entities技术的线条渲染器

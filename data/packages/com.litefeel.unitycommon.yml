@@ -1,0 +1,17 @@
+name: com.litefeel.unitycommon
+displayName: Unity Common
+description: null
+repoUrl: 'https://github.com/litefeel/UnityCommon'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1605377007221
+displayName_zhCN: Unity通用

@@ -1,0 +1,22 @@
+name: com.oddworm.copylightingsettings
+displayName: Copy Lighting Settings
+description: >-
+  Unity editor extension to copy&paste lighting settings from one scene to
+  another.
+repoUrl: 'https://github.com/pschraut/UnityCopyLightingSettings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/ed3030f3e592539852f18e78614b8bd7a647a710/687474703a2f2f696d672e796f75747562652e636f6d2f76692f2d54517a72566e316b574d2f302e6a7067
+readme: 'master:README.md'
+createdAt: 1594058660604
+displayName_zhCN: 复制照明设置
+description_zhCN: Unity编辑器扩展，可将照明设置从一个场景复制并粘贴到另一个场景。

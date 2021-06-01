@@ -6,8 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - dots
-  - library
+  - dots-and-ecs
+  - utilities
 hunter: favoyang
 createdAt: 1576336882000
-image: https://camo.githubusercontent.com/2d4d887463053480ea5c2f5e2dbf3d3b2369caea/68747470733a2f2f692e696d6775722e636f6d2f4d3552644f436d2e706e67
+image: >-
+  https://camo.githubusercontent.com/2d4d887463053480ea5c2f5e2dbf3d3b2369caea/68747470733a2f2f692e696d6775722e636f6d2f4d3552644f436d2e706e67
+displayName_zhCN: NanoECS
+description_zhCN: C#-Unity ECS框架

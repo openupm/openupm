@@ -1,0 +1,22 @@
+name: io.nekonya.tinax.ilruntime
+displayName: TinaX.ILRuntime
+description: >-
+  VFS.ILRuntime provides C# hotfix capability based on ILRuntime for Unity
+  development framework TinaX
+repoUrl: 'https://github.com/yomunsam/TinaX.ILRuntime'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - integration
+  - mobile
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592823242030
+displayName_zhCN: TinaX.ILRuntime
+description_zhCN: VFS.ILRuntime为Unity开发框架TinaX提供了基于ILRuntime的C#修补程序功能

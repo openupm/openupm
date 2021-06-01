@@ -1,0 +1,18 @@
+name: com.baba-s.uni-special-folder-creator
+displayName: UniSpecialFolderCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniSpecialFolderCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601665728237
+displayName_zhCN: UniSpecialFolderCreator

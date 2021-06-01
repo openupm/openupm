@@ -1,0 +1,20 @@
+name: com.baba-s.uni-missing-script-checker
+displayName: UniMissingScriptChecker
+description: 【Unity】Missing Script が存在したら Unity を再生できなくするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniMissingScriptChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81059029-9de99f80-8f0a-11ea-9cf2-0525c53d2cfd.png
+readme: 'master:README.md'
+createdAt: 1591664941959
+displayName_zhCN: UniMissingScriptChecker
+description_zhCN: 如果存在缺失脚本，则禁止执行Play按钮

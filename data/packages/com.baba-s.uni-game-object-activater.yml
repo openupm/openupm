@@ -1,0 +1,18 @@
+name: com.baba-s.uni-game-object-activater
+displayName: UniGameObjectActivater
+description: 【Unity】複数のゲームオブジェクトのアクティブを一括で変更するクラス
+repoUrl: 'https://github.com/baba-s/UniGameObjectActivater'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591666761822
+displayName_zhCN: UniGameObjectActivater
+description_zhCN: 改变多个GameObject的状态

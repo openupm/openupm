@@ -1,0 +1,20 @@
+name: io.devdog.lospro
+displayName: LOS Pro
+description: Los pro
+repoUrl: 'https://github.com/JuanJSAR/lospro'
+parentRepoUrl: 'https://github.com/andrea-repetto/lospro'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/3bd7a4a73290a4f7a4d09549a6a2c07850c2fdb2/68747470733a2f2f692e696d6775722e636f6d2f574b7462464e5a2e6a7067
+readme: 'master:README.md'
+createdAt: 1598799659662
+displayName_zhCN: LOS Pro
+description_zhCN: LOS Pro

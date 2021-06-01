@@ -1,0 +1,27 @@
+name: com.shniqq.auto-dark-mode
+displayName: Auto Dark Mode
+description: >-
+  Automatically switches between the light and dark editor themes based on the
+  current time.
+
+  It even supports automatically getting the current sunrise & sunset times
+  based on provided longitude and latitude.
+
+
+  To enable and configure, go to the settings menu.
+repoUrl: 'https://github.com/shniqq/unity-auto-dark-mode'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.1
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1617728249013

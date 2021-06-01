@@ -1,0 +1,21 @@
+name: com.qfsw.qh
+displayName: Quantum Hierarchy
+description: >-
+  A simple but effective tool for the Unity Engine to inspect hidden objects in
+  loaded scenes.
+repoUrl: 'https://github.com/QFSW/QuantumHierarchy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/QFSW/QuantumHierarchy/raw/e89204926aec633ea3f953bf3dfd13bbce9b29e1/Images~/Comparison.png
+readme: 'master:README.md'
+createdAt: 1602622292617
+displayName_zhCN: Quantum层级
+description_zhCN: 一个简单而有效的工具，用于Unity Engine检查加载的场景中的隐藏对象。

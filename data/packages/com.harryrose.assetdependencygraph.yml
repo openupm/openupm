@@ -10,4 +10,7 @@ topics:
 hunter: PixelWizards
 gitTagIgnore: ''
 createdAt: 1578876060000
-image: https://raw.githubusercontent.com/Unity-Harry/Unity-AssetDependencyGraph/5efdd15932ddd69cec8134eeee53cd9b4f706d64/Images~/Example.png
+image: >-
+  https://raw.githubusercontent.com/Unity-Harry/Unity-AssetDependencyGraph/5efdd15932ddd69cec8134eeee53cd9b4f706d64/Images~/Example.png
+displayName_zhCN: 资源依赖图
+description_zhCN: Unity的资源依赖图

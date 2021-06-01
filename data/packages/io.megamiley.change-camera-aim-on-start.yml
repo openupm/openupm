@@ -1,0 +1,22 @@
+name: io.megamiley.change-camera-aim-on-start
+displayName: Change Camera Aim On Start
+description: >-
+  Ever wanted to start your game from the scene views position instead of the
+  camera position? Look no further!
+repoUrl: 'https://github.com/MileyHollenberg/ChangeCameraAimOnStart'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - editor-enhancement
+  - utilities
+hunter: MileyHollenberg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591371997191
+displayName_zhCN: Change Camera Aim On Start
+description_zhCN: 是否曾经想从场景视图位置而不是摄影机位置开始游戏？这正是你需要的。

@@ -2,11 +2,14 @@ name: com.xrtk.core
 displayName: XRTK.Core
 description: The Official Mixed Reality Framework for Unity
 repoUrl: 'https://github.com/XRTK/XRTK-Core'
-parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - ar-vr
+  - ar-and-vr
 hunter: favoyang
 createdAt: 1577553312000
-image: https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
+readme: 'main:README.md'
+image: >-
+  https://raw.githubusercontent.com/XRTK/XRTK-Core/9f29016996ea5cfff8115e41bc67778331ae4ed4/images/Branding/XRTK_Logo_1200x250.png
+displayName_zhCN: XRTK
+description_zhCN: 官方的混合現實工具包

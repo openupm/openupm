@@ -1,0 +1,19 @@
+name: com.ms.valuetaskext
+displayName: ValueTaskExt
+description: .Net ValueTask Extensions for Unity
+repoUrl: 'https://github.com/wlgys8/ValueTaskExt'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ValueTaskExt
+description_zhCN: 适用于Unity的.Net ValueTask扩展
+createdAt: 1607009948132

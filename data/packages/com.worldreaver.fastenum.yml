@@ -1,0 +1,17 @@
+name: com.worldreaver.fastenum
+displayName: FastEnum
+description: 'The world fastest enum utilities for C#/.NET, Unity'
+repoUrl: 'https://github.com/worldreaver/FastEnum'
+parentRepoUrl: 'https://github.com/xin9le/FastEnum'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1588906074807
+displayName_zhCN: FastEnum 快速枚举
+description_zhCN: C#/.NET，Unity上世界上最快的枚举实用程序

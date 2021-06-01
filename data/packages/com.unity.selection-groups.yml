@@ -1,0 +1,17 @@
+name: com.unity.selection-groups
+displayName: Selection Groups
+description: null
+repoUrl: 'https://github.com/Unity-Technologies/com.unity.selection-groups'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'dev:README.md'
+createdAt: 1589317854667
+displayName_zhCN: 选择组

@@ -1,0 +1,19 @@
+name: com.baba-s.uni-scene-view-rect-transform-mover
+displayName: UniSceneViewRectTransformMover
+description: 【Unity】UI オブジェクトが選択されている時に Scene ビューに 1 pixel 単位で移動させるボタンを表示するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSceneViewRectTransformMover'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591651307120
+displayName_zhCN: UniSceneViewRectTransformMover
+description_zhCN: ，在选择UI对象时，显示在场景视图中在1像素单元中移动的按钮

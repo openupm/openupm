@@ -1,0 +1,21 @@
+name: com.baba-s.uni-hierarchy-menu-customizer
+displayName: UniHierarchyMenuCustomizer
+description: >-
+  Editor extension that allows you to customize the menu that appears when you
+  right-click on Hierarchy.
+repoUrl: 'https://github.com/baba-s/UniHierarchyMenuCustomizer'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/3272349e22827ec0b317cdde10aebf4c301cf887/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f622f626162615f732f32303230303230332f32303230303230333139343931352e706e67
+readme: 'master:README.md'
+createdAt: 1591719539561
+displayName_zhCN: UniHierarchyMenuCustomizer
+description_zhCN: 编辑器扩展，允许您在右键单击层级结构时显示自定义菜单。

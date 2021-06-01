@@ -1,0 +1,21 @@
+name: com.github.oparaskos.measured-materials.hdrp
+displayName: HDRP Measured Materials Library
+description: >-
+  This is a sample Unity Project showcasing the Measured Material Library in
+  High Definition Render Pipeline.
+repoUrl: 'https://github.com/oparaskos/com.github.oparaskos.measured-materials.hdrp'
+parentRepoUrl: 'https://github.com/Unity-Technologies/MeasuredMaterialLibraryHDRP'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: HDRP Measured Materials库
+description_zhCN: 这是一个示例Unity项目，在HDRP中展示了“Measured Materials库”。
+createdAt: 1607032297962

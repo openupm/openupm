@@ -1,0 +1,16 @@
+name: io.github.idreamsofgame.resharp.core
+displayName: ReSharp.Core
+description: ReSharp.Core is a .NET library.
+repoUrl: 'https://github.com/iDreamsOfGame/ReSharp.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+createdAt: 1586703354612
+displayName_zhCN: ReSharp核心
+description_zhCN: ReSharp.Core是一个.NET库。

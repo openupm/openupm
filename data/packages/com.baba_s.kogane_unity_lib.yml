@@ -1,0 +1,19 @@
+name: com.baba_s.kogane_unity_lib
+displayName: KoganeUnityLib
+description: Unity 用の便利な拡張メソッドをまとめた簡易ライブラリ
+repoUrl: 'https://github.com/baba-s/kogane-unity-lib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591720009411
+displayName_zhCN: KoganeUnityLib
+description_zhCN: Unity的扩展方法

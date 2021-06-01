@@ -1,0 +1,18 @@
+name: jp.beinteractive.urfairy
+displayName: UrFairy
+description: C# extensions for Unity development
+repoUrl: 'https://github.com/beinteractive/UrFairy'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592145348130
+displayName_zhCN: UrFairy
+description_zhCN: Unity开发的C#扩展

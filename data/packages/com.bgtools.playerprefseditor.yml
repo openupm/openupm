@@ -1,0 +1,23 @@
+name: com.bgtools.playerprefseditor
+displayName: PlayerPrefs Editor
+description: >-
+  Tool extension for the Unity Editor that enables easy access to the player
+  preferences over a simple UI. Allows to view, add, remove and modify entries
+  on the development machine.
+repoUrl: 'https://github.com/Dysman/bgTools-playerPrefsEditor'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - data-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/56eab298b855dbb387009451f637b3a8066ca908/68747470733a2f2f7777772e626772616e7a6f772e64652f646f776e6c6f6164732f506c617965725072656673456469746f7256312e706e67
+readme: 'upm:README.md'
+createdAt: 1589390134612
+displayName_zhCN: PlayerPrefs编辑器
+description_zhCN: Unity编辑器的工具扩展，支持便捷的查看，添加，删除和修改PlayerPrefs的条目。

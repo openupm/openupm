@@ -1,0 +1,18 @@
+name: com.kink3d.decals
+displayName: kDecals
+description: Projection Decals for Unity's Universal Render Pipeline.
+repoUrl: 'https://github.com/Kink3d/kDecals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/wiki/Kink3d/kDecals/Images/Home00.png'
+readme: 'master:README.md'
+createdAt: 1592142577029
+displayName_zhCN: kDecals
+description_zhCN: Unity通用渲染管线的投影贴图。

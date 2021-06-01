@@ -1,0 +1,28 @@
+name: com.ls9512.uevent
+displayName: UEvent
+description: >-
+  UEvent is a general message event component that can be used in Unity and .Net
+  environment.
+repoUrl: 'https://github.com/ls9512/UEvent'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - profiling
+  - services
+  - testing
+  - utilities
+hunter: ls9512
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.0.1
+image: null
+readme: 'upm:.github/README.md'
+readme_zhCN: 'upm:.github/README_CN.md'
+displayName_zhCN: UEvent
+description_zhCN: UEvent 是一个可以使用在Unity和原生.Net环境下的通用消息事件组件，通过事件机制可以提供强大的解耦能力。
+createdAt: 1617871753772

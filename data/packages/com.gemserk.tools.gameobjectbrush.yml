@@ -1,0 +1,25 @@
+name: com.gemserk.tools.gameobjectbrush
+displayName: GameObject Paint Tool for 2D Games
+description: >-
+  Unity's Editor GameObjects Paint Tool for 2D Games. It contains both a custom
+  window for objects palette + a customizable brush for paining.
+repoUrl: 'https://github.com/acoppes/unity-gameobject-brush'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - editor-enhancement
+  - level-design
+  - painting
+  - utilities
+hunter: acoppes
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/acoppes/unity-gameobject-brush/raw/4f873cb49af6f3935ecb58adbcad4062a2f05d56/Images/palette_example.gif
+readme: 'com.gemserk.tools.gameobjectbrush:README.md'
+createdAt: 1605489594873
+displayName_zhCN: 用于2D游戏的GameObject绘画工具
+description_zhCN: 用于2D游戏的GameObject绘画工具。附带自定义窗口用于对象调色和笔刷。

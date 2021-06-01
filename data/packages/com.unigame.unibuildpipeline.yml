@@ -1,0 +1,19 @@
+name: com.unigame.unibuildpipeline
+displayName: UniGame Unity Scriptable Build Pipeline
+description: Command based scriptable build pipeline for Unity 3D
+repoUrl: 'https://github.com/UniGameTeam/UniBuild'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/57b66d8bb45815076baa20a6400ebe67619cc12a/68747470733a2f2f692e6779617a6f2e636f6d2f30343262383466373233353263393238326232623234346638633064376463352e706e67
+readme: 'master:README.md'
+createdAt: 1594855750420
+displayName_zhCN: UniGame Unity ScriptableObject的构建管线
+description_zhCN: 基于命令的Unity 3D可脚本化构建管线

@@ -1,0 +1,18 @@
+name: com.worldreaver.flatdata
+displayName: FlatData
+description: Smart database using FlatData for Unity
+repoUrl: 'https://github.com/worldreaver/FlatData'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589566053088
+displayName_zhCN: FlatData 扁平数据
+description_zhCN: Unity的FlatData智能数据库

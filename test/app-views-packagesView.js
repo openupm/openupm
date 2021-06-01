@@ -4,7 +4,7 @@ const assert = require("assert");
 const should = require("should");
 const rewire = require("rewire");
 const request = require("supertest");
-const { omit } = require("lodash");
+const { omit } = require("lodash/object");
 
 const { app } = require("../app");
 const redis = require("../app/db/redis");

@@ -1,0 +1,17 @@
+name: net.shutosg.uniflare
+displayName: UniFlare
+description: null
+repoUrl: 'https://github.com/shutosg/UniFlare'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1597930982437
+displayName_zhCN: UniFlare

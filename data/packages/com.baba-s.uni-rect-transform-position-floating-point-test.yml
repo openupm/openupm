@@ -1,0 +1,18 @@
+name: com.baba-s.uni-rect-transform-position-floating-point-test
+displayName: UniRectTransformPositionFloatingPointTest
+description: null
+repoUrl: 'https://github.com/baba-s/UniRectTransformPositionFloatingPointTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601087057985
+displayName_zhCN: UniRectTransformPositionFloatingPointTest

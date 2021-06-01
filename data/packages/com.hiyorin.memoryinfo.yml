@@ -1,0 +1,19 @@
+name: com.hiyorin.memoryinfo
+displayName: MemoryInfoPlugin
+description: A set of tools for Unity to allow handling memory info for Android and iOS.
+repoUrl: 'https://github.com/hiyorin/upm.MemoryInfoPlugin-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591730722591
+displayName_zhCN: MemoryInfoPlugin
+description_zhCN: 一组用于Unity的工具，用于处理Android和iOS的内存信息。

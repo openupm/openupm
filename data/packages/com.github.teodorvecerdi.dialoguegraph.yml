@@ -1,0 +1,21 @@
+name: com.github.teodorvecerdi.dialoguegraph
+displayName: Dialogue Graph
+description: Open-source node-based tool for developing branching conversation trees
+repoUrl: 'https://github.com/TeodorVecerdi/DialogueGraph'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - visual-scripting
+hunter: TeodorVecerdi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/TeodorVecerdi/DialogueGraph/raw/f16b1fb971c88ecb6d6189cbb7121257198ab0f7/Github~/resources/DialogueGraph_demo_graph.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 对话图
+description_zhCN: 开源节点的工具，用于开发分支对话树
+createdAt: 1606579558014

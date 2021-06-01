@@ -1,0 +1,18 @@
+name: com.xtaltools.unienum
+displayName: UniEnum
+description: Enum Utilities for Unity
+repoUrl: 'https://github.com/neptaco/UniEnum'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596503885165
+displayName_zhCN: UniEnum
+description_zhCN: Enum实用程序

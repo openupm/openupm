@@ -2,6 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const packagesView = require("./views/packagesView");
 const adsView = require("./views/adsView");
+const feedsView = require("./views/feedsView");
+const siteView = require("./views/siteView");
 const app = express();
 
 app.use(bodyParser.json());
@@ -31,5 +33,7 @@ app.get("/", (req, res) => {
 // Package
 app.use("/packages/", packagesView);
 app.use("/ads/", adsView);
+app.use("/feeds/", feedsView);
+app.use("/site/", siteView);
 
 module.exports = { app };

@@ -1,0 +1,18 @@
+name: com.baba-s.uni-all-scene-global-illumination-test
+displayName: UniAllSceneGlobalIlluminationTest
+description: null
+repoUrl: 'https://github.com/baba-s/UniAllSceneGlobalIlluminationTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601156740007
+displayName_zhCN: UniAllSceneGlobalIlluminationTest
+description_zhCN: 场景全局照明测试

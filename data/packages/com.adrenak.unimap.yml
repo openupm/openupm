@@ -1,0 +1,19 @@
+name: com.adrenak.unimap
+displayName: UniMap
+description: Google Maps wrapper for Unity
+repoUrl: 'https://github.com/adrenak/unimap'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+createdAt: 1598559294824
+displayName_zhCN: UniMap
+description_zhCN: 谷歌地图的Unity包装类

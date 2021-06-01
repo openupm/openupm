@@ -1,0 +1,20 @@
+name: com.baba-s.uni-android-external-tools
+displayName: UniAndroidExternalTools
+description: 【Unity】External Tools の Android の項目の取得または設定ができるパッケージ
+repoUrl: 'https://github.com/baba-s/UniAndroidExternalTools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/61863367/80780759-03582c00-8bab-11ea-8048-bd71d4751d3c.png
+readme: 'master:README.md'
+createdAt: 1591628777321
+displayName_zhCN: UniAndroidExternalTools
+description_zhCN: 获取和设置外部Android项目的工具

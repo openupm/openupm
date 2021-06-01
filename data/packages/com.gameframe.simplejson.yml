@@ -1,0 +1,18 @@
+name: com.gameframe.simplejson
+displayName: SimpleJSON
+description: A C# json reader/writer in a convenient Unity package format
+repoUrl: 'https://github.com/coryleach/SimpleJSON'
+parentRepoUrl: 'https://github.com/HenrikPoulsen/SimpleJSON'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591557683295
+displayName_zhCN: SimpleJSON
+description_zhCN: C# json reader/writer

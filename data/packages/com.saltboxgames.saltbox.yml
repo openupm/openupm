@@ -1,0 +1,19 @@
+name: com.saltboxgames.saltbox
+displayName: Saltbox
+description: Unity3D Common Scripts and Utils
+repoUrl: 'https://github.com/SaltboxGames/Saltbox'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MPL-2.0
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DustedHam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589898696520
+displayName_zhCN: Saltbox
+description_zhCN: Unity3D通用脚本和实用程序

@@ -1,0 +1,18 @@
+name: com.baba-s.uni-try-get-component-extension-methods
+displayName: UniTryGetComponentExtensionMethods
+description: 【Unity】TryGetComponent に関する拡張メソッド
+repoUrl: 'https://github.com/baba-s/UniTryGetComponentExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594928608596
+displayName_zhCN: UniTryGetComponentExtensionMethods
+description_zhCN: TryGetComponent扩展方法

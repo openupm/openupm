@@ -1,0 +1,23 @@
+name: jp.hadashikick.unitaskpubsub
+displayName: UniTaskPubSub
+description: >-
+  UniTask & IUniTaskAsyncEnumerable baseed pub/sub messaging. this is like the
+  UniTask version of UniTask.MessageBroker.
+repoUrl: 'https://github.com/hadashiA/UniTaskPubSub'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UniTaskPubSub
+description_zhCN: >-
+  基于UniTask和IUniTaskAsyncEnumerable的pub/sub消息系统。类似于UniTask.MessageBroker的UniTask版本。
+createdAt: 1608579915819

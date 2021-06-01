@@ -1,0 +1,20 @@
+name: com.lookingglass.joyconlib
+displayName: JoyConLib
+description: Joy-Con library for Unity.
+repoUrl: 'https://github.com/tfsJoe/JoyconLib'
+parentRepoUrl: 'https://github.com/Looking-Glass/JoyconLib'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/ad77271654d8351b6829eac95995e4aae3bcdd77/68747470733a2f2f692e696d6775722e636f6d2f426256365372672e676966
+readme: 'master:README.md'
+createdAt: 1592152377881
+displayName_zhCN: JoyConLib
+description_zhCN: 用于Unity的Joy-Con库。

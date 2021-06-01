@@ -1,0 +1,18 @@
+name: com.baba-s.uni-tmp-rule-const-creator
+displayName: UniTMPRuleConstCreator
+description: null
+repoUrl: 'https://github.com/baba-s/UniTMPRuleConstCreator'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602613818857
+displayName_zhCN: UniTMPRuleConstCreator

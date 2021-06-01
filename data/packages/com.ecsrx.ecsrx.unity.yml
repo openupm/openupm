@@ -8,9 +8,12 @@ parentRepoUrl: 'https://github.com/EcsRx/ecsrx.unity'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'master:readme.md'
 createdAt: 1582567717322
+displayName_zhCN: EcsRx.Unity
+description_zhCN: 使用ECS示例的Unity的简单框架，但用unirx进行全可响应系统。

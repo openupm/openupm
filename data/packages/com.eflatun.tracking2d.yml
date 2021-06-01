@@ -8,9 +8,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: starikcetin
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1582569957363
+displayName_zhCN: Eflatun.Tracking2D
+description_zhCN: 这是尝试用我想要的功能取代Unity的内置2D物理引擎。

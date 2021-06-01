@@ -1,0 +1,22 @@
+name: com.bencochoco.smc
+displayName: Simple Menu Controller
+description: >-
+  A simple menu controller for Unity that let you Open and Close easily your
+  Menus
+repoUrl: 'https://github.com/benjaminhate/Unity-SimpleMenuController'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: benjaminhate
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: 简单菜单控制器
+description_zhCN: 一个简单的Unity菜单控制器，可让您轻松打开和关闭菜单
+createdAt: 1611314406308

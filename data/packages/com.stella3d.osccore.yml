@@ -1,0 +1,17 @@
+name: com.stella3d.osccore
+displayName: Open Sound Control Core
+description: A performance-oriented OSC library for Unity
+repoUrl: 'https://github.com/stella3d/OscCore'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'upm-package:README.md'
+createdAt: 1589211776679
+displayName_zhCN: 开放声音控制核心
+description_zhCN: 针对Unity的面向性能的OSC库

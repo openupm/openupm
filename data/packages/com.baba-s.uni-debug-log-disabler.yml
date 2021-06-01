@@ -1,0 +1,17 @@
+name: com.baba-s.uni-debug-log-disabler
+displayName: UniDebugLogDisabler
+description: null
+repoUrl: 'https://github.com/baba-s/UniDebugLogDisabler'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591650942970
+displayName_zhCN: UniDebugLogDisabler

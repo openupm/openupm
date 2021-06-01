@@ -1,0 +1,18 @@
+name: dev.upm-packages.stopwatch
+displayName: StopWatch
+description: ':watch: Unity StopWatch logics based on unity frame updates'
+repoUrl: 'https://github.com/umm/stopwatch'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594182211850
+displayName_zhCN: StopWatch
+description_zhCN: :watch:基于Unity框架更新的Unity StopWatch逻辑

@@ -1,0 +1,20 @@
+name: io.codeblaze.cbsl
+displayName: CBSL
+description: Code Blaze Standard Library
+repoUrl: 'https://github.com/BLaZeKiLL/CBSL'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: BLaZeKiLL
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: CBSL
+description_zhCN: Code Blaze标准库
+createdAt: 1610527464967

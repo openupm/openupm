@@ -1,0 +1,20 @@
+name: com.battlefieldnoob.uimaterialelements
+displayName: UI Material Elements
+description: >-
+  MaterialUI is a UI kit for Unity that follows Google's official material
+  design guidelines.
+repoUrl: 'https://github.com/BattlefieldNoob/UIMaterialElements'
+parentRepoUrl: 'https://github.com/InvexGames/MaterialUI'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.62
+image: null
+readme: 'develop:README.md'
+createdAt: 1589210570625
+displayName_zhCN: UI Material元素
+description_zhCN: MaterialUI时一个UI库用于在Unity里制作符合Goolge官方material设计规范的UI

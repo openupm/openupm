@@ -1,0 +1,19 @@
+name: com.jimmycushnie.ui-shapes-kit_jimmyfork
+displayName: UI Shapes Kit (Jimmy fork)
+description: procedural shapes for Unity UI
+repoUrl: 'https://github.com/JimmyCushnie/ui-shapes-kit_jimmyfork'
+parentRepoUrl: 'https://github.com/thisotherthing/ui-shapes-kit'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/291fa249954ddf8cf52f2e9f19b7a1208b83c11c/68747470733a2f2f692e76696d656f63646e2e636f6d2f766964656f2f3636323235353439352e6a70673f6d773d393630266d683d353430
+readme: 'master:README.md'
+createdAt: 1592143423457
+displayName_zhCN: UI Shapes套件（Jimmy分叉）
+description_zhCN: Unity UI的程序生成形状

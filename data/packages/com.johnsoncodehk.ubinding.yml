@@ -1,0 +1,18 @@
+name: com.johnsoncodehk.ubinding
+displayName: uBinding
+description: Unity data binding model
+repoUrl: 'https://github.com/johnsoncodehk/uBinding'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593644714236
+displayName_zhCN: uBinding
+description_zhCN: Unity数据绑定模型

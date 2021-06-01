@@ -1,0 +1,21 @@
+name: com.elringus.spriteglow
+displayName: SpriteGlow
+description: A sprite glow effect for Unity game engine
+repoUrl: 'https://github.com/Elringus/SpriteGlow'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - particles-and-effects
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/2383b9cc7e55009211915de83ffbd9111c63f9be/68747470733a2f2f692e6779617a6f2e636f6d2f63386638656338613237366161343738316235323733326335323136393164622e676966
+readme: 'master:README.md'
+createdAt: 1592177594032
+displayName_zhCN: SpriteGlow 发光
+description_zhCN: Unity游戏引擎的Sprite发光效果

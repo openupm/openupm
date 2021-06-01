@@ -1,0 +1,23 @@
+name: com.roytheunissen.sceneviewpicker
+displayName: Scene View Picker
+description: >-
+  Unity extension that lets you assign any Object field by choosing it from the
+  scene view.
+repoUrl: 'https://github.com/RoyTheunissen/Scene-View-Picker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - level-design
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1600428824545
+displayName_zhCN: 场景选择器
+description_zhCN: 快捷的选择场景的物体

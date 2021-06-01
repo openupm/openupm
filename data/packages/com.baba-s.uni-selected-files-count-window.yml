@@ -1,0 +1,19 @@
+name: com.baba-s.uni-selected-files-count-window
+displayName: UniSelectedFilesCountWindow
+description: 【Unity】選択中のファイルの数を常に表示するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniSelectedFilesCountWindow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79989958-6d0d7180-84eb-11ea-9ed1-f11dc569fc6b.png
+readme: 'master:README.md'
+createdAt: 1591672201159
+displayName_zhCN: UniseledFilecountWindow.
+description_zhCN: 显示所选择的文件数目

@@ -1,0 +1,19 @@
+name: com.fairygui.gui
+displayName: FairyGUI
+description: A flexible UI framework for Unity
+repoUrl: 'https://github.com/hqpko/FairyGUI-unity'
+parentRepoUrl: 'https://github.com/fairygui/FairyGUI-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/fairygui/FairyGUI-unity/master/images/2015-11-10_001445.png
+readme: 'upm:README.md'
+createdAt: 1605548502883
+displayName_zhCN: FairyGUI
+description_zhCN: 一个灵活的UI框架，用于Unity

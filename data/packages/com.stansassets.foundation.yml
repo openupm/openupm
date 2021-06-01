@@ -1,0 +1,15 @@
+name: com.stansassets.foundation
+displayName: Stans Assets - Foundation Lib
+description: null
+repoUrl: 'https://github.com/StansAssets/com.stansassets.foundation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: stan-osipov
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1585812172518
+displayName_zhCN: Stans资源 - 基础库

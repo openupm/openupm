@@ -1,0 +1,18 @@
+name: com.baba-s.uni-memory-checker
+displayName: UniMemoryChecker
+description: 【Unity】Unity や Mono が確保したメモリの使用状況を取得できるスクリプト
+repoUrl: 'https://github.com/baba-s/UniMemoryChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1595088287670
+displayName_zhCN: UniMemoryChecker
+description_zhCN: 获得Unity和Mono的内存使用情况

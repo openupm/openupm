@@ -1,0 +1,19 @@
+name: com.baba-s.uni-folder-inspector
+displayName: UniFolderInspector
+description: 【Unity】フォルダの Inspector にボタンを追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniFolderInspector'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598357146177
+displayName_zhCN: UniFolderInspector
+description_zhCN: 将按钮添加到文件夹的inspector

@@ -1,0 +1,22 @@
+name: com.andrewraphaellukasik.nativegrid
+displayName: NativeGrid
+description: >-
+  Two-dimensional persistent data container class built around
+  NativeArray<unmanaged> and Unity.Jobs
+repoUrl: 'https://github.com/andrew-raphael-lukasik/NativeGrid'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/6e13d39ddb10dcd6b50d68d1ffebaf65fec29d1cdfbca4e444180366af0bed75/68747470733a2f2f692e696d6775722e636f6d2f765735625665512e676966
+readme: 'upm:README.md'
+createdAt: 1604601827143
+displayName_zhCN: 原生网格
+description_zhCN: 基于NativeArray<unmanaged>和Unity.Job开发的二维持久化数据容器类

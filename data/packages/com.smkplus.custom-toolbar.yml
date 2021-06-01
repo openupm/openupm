@@ -1,0 +1,19 @@
+name: com.smkplus.custom-toolbar
+displayName: Custom-Toolbar
+description: This custom tool helps you to test and develop your game easily
+repoUrl: 'https://github.com/smkplus/CustomToolbar'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 自定义工具栏
+description_zhCN: 此自定义工具可帮助您轻松测试和开发游戏
+createdAt: 1612655972947

@@ -1,0 +1,20 @@
+name: com.kakunpc.assets2package
+displayName: Assets2Packages
+description: Assets にある物を、ディレクトリごとPackagesに移動させる事ができるEditor拡張
+repoUrl: 'https://github.com/kakunpc/Assets2Packages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/kakunpc/Assets2Packages/raw/b5f4b12fa96351fdd6702e5d8993c5a03bda4409/Images/Assets2Packages.gif
+readme: 'master:README.md'
+createdAt: 1592080641973
+displayName_zhCN: Assets2Packages
+description_zhCN: 编辑器扩展，可让您将资源中的内容与目录一起移动到UPM软件包中

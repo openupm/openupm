@@ -1,0 +1,18 @@
+name: com.baba-s.uni-camera-capturer
+displayName: UniCameraCapturer
+description: 【Unity】カメラが表示している画面をテクスチャに書き込むクラス
+repoUrl: 'https://github.com/baba-s/UniCameraCapturer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591666915582
+displayName_zhCN: UniCameraCapturer
+description_zhCN: 将Camera屏幕内容写入材质

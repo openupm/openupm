@@ -1,0 +1,19 @@
+name: com.codewriter.npm-package-loader
+displayName: Npm Package Loader
+description: Load Npm packages directly from the Unity
+repoUrl: 'https://github.com/vanifatovvlad/NpmPublisherSupport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/26966368/73606572-ba4d0780-45bc-11ea-858c-7f85d581129e.png
+readme: 'master:README.md'
+createdAt: 1595089503780
+displayName_zhCN: NPM包加载器
+description_zhCN: 在Unity中直接加载NPM软件包

@@ -1,0 +1,17 @@
+name: com.baba-s.uni-play-mode-start-scene-setting-window
+displayName: UniPlayModeStartSceneSettingWindow
+description: null
+repoUrl: 'https://github.com/baba-s/UniPlayModeStartSceneSettingWindow'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598146371586
+displayName_zhCN: UniPlayModeStartSceneSettingWindow

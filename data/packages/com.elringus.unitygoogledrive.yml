@@ -1,0 +1,21 @@
+name: com.elringus.unitygoogledrive
+displayName: UnityGoogleDrive
+description: Google Drive SDK for Unity game engine
+repoUrl: 'https://github.com/Elringus/UnityGoogleDrive'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - services
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/8ae7938fb71d750e63ced94a60544e923784adbd/68747470733a2f2f692e6779617a6f2e636f6d2f65316261383834613139353331623038303434373430383566383862326533642e706e67
+readme: 'master:README.md'
+createdAt: 1594576910751
+displayName_zhCN: UnityGoogleDrive
+description_zhCN: Unity游戏引擎的Google Drive SDK

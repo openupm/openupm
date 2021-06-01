@@ -1,0 +1,19 @@
+name: com.baba-s.uni-custom-sampler-scope
+displayName: UniCustomSamplerScope
+description: 【Unity】UnityEngine.Profiling.CustomSampler を using で使用できるようにするクラス
+repoUrl: 'https://github.com/baba-s/UniCustomSamplerScope'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591709286379
+displayName_zhCN: UniCustomSamplerScope
+description_zhCN: UnityEngine.Profiling.CustomSampler

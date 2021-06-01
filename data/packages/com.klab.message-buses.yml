@@ -1,0 +1,18 @@
+name: com.klab.message-buses
+displayName: KLab Message Buses
+description: Message bus library for Unity
+repoUrl: 'https://github.com/KLab/klab-messagebuses-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592153864701
+displayName_zhCN: KLab消息总线
+description_zhCN: Unity的消息总线库

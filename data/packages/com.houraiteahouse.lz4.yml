@@ -1,0 +1,19 @@
+name: com.houraiteahouse.lz4
+displayName: LZ4 Binary Compression
+description: >-
+  Simple C# LZF compression library which attempts to minimize memory
+  allocations.
+repoUrl: 'https://github.com/HouraiTeahouse/LZF'
+parentRepoUrl: 'https://github.com/Chaser324/LZF'
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1589210970048
+displayName_zhCN: LZ4二进制压缩
+description_zhCN: 简单的C#LZF压缩库，尝试最小化内存分配。

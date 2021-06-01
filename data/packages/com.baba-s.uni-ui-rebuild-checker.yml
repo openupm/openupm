@@ -1,0 +1,17 @@
+name: com.baba-s.uni-ui-rebuild-checker
+displayName: UniUIRebuildChecker
+description: null
+repoUrl: 'https://github.com/baba-s/UniUIRebuildChecker'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594185732071
+displayName_zhCN: UniUIRebuildChecker

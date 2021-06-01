@@ -1,0 +1,23 @@
+name: com.inc8877.graphicsconfigurator
+displayName: GraphicsConfigurator
+description: >-
+  API for managing URP asset parameters, including hacking of parameters that
+  are forbidden to change
+repoUrl: 'https://github.com/inc8877/GraphicsConfigurator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/29813954/115538937-11fc8f00-a2a5-11eb-8547-b8f9d02c7278.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618946362231

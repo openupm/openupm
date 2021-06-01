@@ -8,6 +8,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor
+  - editor-enhancement
 hunter: favoyang
 createdAt: 1577088182000
+displayName_zhCN: 快速播放工具
+description_zhCN: 使用多个场景时，Unity3D编辑器工具可加快场景切换和播放测试的速度。

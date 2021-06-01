@@ -1,0 +1,20 @@
+name: com.baba-s.uni-scene-asset-highlighter
+displayName: UniSceneAssetHighlighter
+description: 【Unity】現在アクティブなシーンのアセットをハイライト表示します
+repoUrl: 'https://github.com/baba-s/UniSceneAssetHighlighter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/80096310-54ad5d80-85a4-11ea-977e-52136720a445.png
+readme: 'master:README.md'
+createdAt: 1591671775555
+displayName_zhCN: UniSceneAssetHighlighter
+description_zhCN: 在Project面板上高亮当前的场景文件

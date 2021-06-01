@@ -1,0 +1,19 @@
+name: com.baba-s.uni-storage
+displayName: UniStorage
+description: 【Unity】ストレージの空き容量を返すクラス
+repoUrl: 'https://github.com/baba-s/UniStorage'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591649261742
+displayName_zhCN: UniStorage
+description_zhCN: 存储空间类

@@ -1,0 +1,19 @@
+name: com.houraiteahouse.backroll
+displayName: Backroll
+description: Unity C# Port of GGPO built atop Hourai Networking
+repoUrl: 'https://github.com/HouraiTeahouse/Backroll'
+parentRepoUrl: 'https://github.com/pond3r/ggpo'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Backroll
+description_zhCN: GGPO的Unity C#移植，建立在Hourai Networking的基础上
+createdAt: 1610042552224

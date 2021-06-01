@@ -6,9 +6,12 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
   - mobile
+  - services
 hunter: oae
 gitTagIgnore: ''
 image: null
 createdAt: 1581800239106
+displayName_zhCN: Play Services解析器（非官方）
+description_zhCN: 适用于Unity的Google Play服务解析器的打包版本

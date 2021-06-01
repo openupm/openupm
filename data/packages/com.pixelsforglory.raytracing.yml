@@ -1,0 +1,22 @@
+name: com.pixelsforglory.raytracing
+displayName: Vulkan Ray-Tracing
+description: >-
+  native plugin for Unity3d that replaces the renderer with a hardware
+  accelerated ray tracer implemented with Vulkan.
+repoUrl: 'https://github.com/afuzzyllama/UnityRayTracingPlugin'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/afuzzyllama/UnityRayTracingPlugin/raw/d789049a4a98f811a1d62c759c18656551d25ab4/Screenshot.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: Vulkan射线追踪
+description_zhCN: Unity3d的插件，用Vulkan实现的硬件加速的光线跟踪器替换了渲染器。
+createdAt: 1613583985648

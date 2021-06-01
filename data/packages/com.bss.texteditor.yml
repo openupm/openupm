@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT
 topics:
-  - editor
+  - editor-enhancement
 hunter: bss1284
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
 createdAt: 1585043329965
+displayName_zhCN: BSS文本编辑器
+description_zhCN: Unity的文本编辑器

@@ -1,0 +1,19 @@
+name: com.dubitlimited.duck.localisation
+displayName: Duck Localisation
+description: Localisation support
+repoUrl: 'https://github.com/dubit/unity-localisation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/dubit/unity-localisation/raw/db3183ea10d453c8cab1e9ba97e18575546c13a4/Docs/localised-text.png
+readme: 'master:README.md'
+createdAt: 1594683605541
+displayName_zhCN: Duck本地化
+description_zhCN: 本地化支持

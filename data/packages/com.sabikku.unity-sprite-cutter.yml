@@ -1,0 +1,21 @@
+name: com.sabikku.unity-sprite-cutter
+displayName: Unity Sprite Cutter
+description: Simple solution for cutting sprites in runtime.
+repoUrl: 'https://github.com/icaro56/unity-sprite-cutter'
+parentRepoUrl: 'https://github.com/sabikku/unity-sprite-cutter'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - 2d
+  - asset-management
+  - physics
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592178031968
+displayName_zhCN: Unity Sprite切割机
+description_zhCN: 在运行时切割Sprite的简单解决方案。

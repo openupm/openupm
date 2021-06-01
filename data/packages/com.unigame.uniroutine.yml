@@ -1,0 +1,18 @@
+name: com.unigame.uniroutine
+displayName: UniGame UniRoutine
+description: Routines for Unity3D
+repoUrl: 'https://github.com/UniGameTeam/UniGame.Routines'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594868592368
+displayName_zhCN: Unity游戏UniRoutine
+description_zhCN: Unity3D的协程Routines

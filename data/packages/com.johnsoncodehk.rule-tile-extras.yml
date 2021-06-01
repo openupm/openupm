@@ -1,0 +1,18 @@
+name: com.johnsoncodehk.rule-tile-extras
+displayName: Rule Tile Extras
+description: null
+repoUrl: 'https://github.com/johnsoncodehk/rule-tile-extras'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/16279759/67807460-cc0ba400-facf-11e9-9a19-03c1843e91e8.png
+readme: 'master:README.md'
+createdAt: 1593639567155
+displayName_zhCN: 额外的Rule Tile

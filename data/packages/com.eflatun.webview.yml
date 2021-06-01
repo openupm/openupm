@@ -6,7 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - ui
+  - gui
   - mobile
 hunter: favoyang
 createdAt: 1576332902000
+displayName_zhCN: Eflatun.WebView
+description_zhCN: Unity的WebView。

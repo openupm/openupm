@@ -1,0 +1,19 @@
+name: com.redowl.voxel
+displayName: RedOwl - Voxel Engine
+description: RedOwl Voxel Engine
+repoUrl: 'https://github.com/red-owl-games/voxel-dots'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: RedOwl-Voxel引擎
+description_zhCN: RedOwl Voxel引擎
+createdAt: 1613582092412

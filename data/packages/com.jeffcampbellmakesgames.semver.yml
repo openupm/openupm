@@ -1,0 +1,19 @@
+name: com.jeffcampbellmakesgames.semver
+displayName: JCMG SemVer
+description: A SemVer 2.0.0 implementation for Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-semver'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - version-control
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/unity-semver/raw/183afba88c6344a65ce935077e7549fbb6b6834f/Documentation/Inspector.png
+readme: 'master:README.md'
+createdAt: 1589238539874
+displayName_zhCN: JCMG SemVer
+description_zhCN: 适用于Unity的SemVer 2.0.0实现

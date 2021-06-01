@@ -1,0 +1,18 @@
+name: io.nekonya.tinax.core
+displayName: TinaX.Core
+description: null
+repoUrl: 'https://github.com/yomunsam/TinaX.Core'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: AGPLv3
+topics:
+  - integration
+  - utilities
+hunter: yomunsam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591568221748
+displayName_zhCN: TinaX.Core

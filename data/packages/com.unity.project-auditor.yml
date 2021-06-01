@@ -1,11 +1,13 @@
 name: com.unity.project-auditor
 displayName: Project Auditor
 description: Project Auditor is an experimental static analysis tool for Unity Projects.
-repoUrl: 'https://github.com/mtrive/ProjectAuditor'
-parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+repoUrl: 'https://github.com/Unity-Technologies/ProjectAuditor'
+parentRepoUrl: 'https://github.com/mtrive/ProjectAuditor'
+licenseSpdxId: null
+licenseName: Unity Package Distribution License
 topics:
-  - library
+  - utilities
 hunter: favoyang
 createdAt: 1576759072000
+displayName_zhCN: 项目审核员
+description_zhCN: Project Auditor是Unity项目的实验性静态分析工具。

@@ -1,0 +1,20 @@
+name: com.sark.tiled_camera
+displayName: Tiled Camera
+description: A simple utility for rendering a pixel perfect viewport in terms of "tiles".
+repoUrl: 'https://github.com/sarkahn/tiled_camera'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - camera
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sarkahn/tiled_camera/raw/06a7bde831a5c01703a33be5bd9a1718a77436cd/Documentation~/demo.gif
+readme: 'master:README.md'
+createdAt: 1604991214541
+displayName_zhCN: 平铺摄像机
+description_zhCN: 一个简单的实用程序，用于根据“平铺”渲染完美像素的视图。

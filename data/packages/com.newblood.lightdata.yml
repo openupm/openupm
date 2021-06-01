@@ -1,0 +1,20 @@
+name: com.newblood.lightdata
+displayName: Lighting Data
+description: Enables access to internal LightingDataAsset information.
+repoUrl: 'https://github.com/NewBloodInteractive/com.newblood.lightdata'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - particles-and-effects
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604682269605
+displayName_zhCN: 照明数据
+description_zhCN: 启用对内部LightingDataAsset信息的访问。

@@ -1,0 +1,18 @@
+name: com.debox.playerprefs
+displayName: DeBox PlayerPrefs
+description: Unity PlayerPrefs extensions
+repoUrl: 'https://github.com/debox-dev/playerprefs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591639184952
+displayName_zhCN: DeBox PlayerPrefs
+description_zhCN: Unity PlayerPrefs扩展

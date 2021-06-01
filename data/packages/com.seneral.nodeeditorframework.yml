@@ -1,0 +1,22 @@
+name: com.seneral.nodeeditorframework
+displayName: Node Editor Framework
+description: >-
+  A flexible and modular Node Editor Framework for creating node based displays
+  and editors in Unity
+repoUrl: 'https://github.com/Seneral/Node_Editor_Framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/8bc20f36741ac16928f46bd9dcc58e19af28eb56/687474703a2f2f692e696d6775722e636f6d2f486358686847662e706e67
+readme: 'release-pkg:README.md'
+createdAt: 1594089829886
+displayName_zhCN: 节点编辑器框架
+description_zhCN: 灵活的模块化节点编辑器框架，用于在Unity中创建基于节点的显示和编辑器

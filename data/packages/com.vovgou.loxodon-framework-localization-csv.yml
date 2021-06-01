@@ -1,0 +1,22 @@
+name: com.vovgou.loxodon-framework-localization-csv
+displayName: Loxodon Framework Localization CSV
+description: >-
+  This is a plugin for the Loxodon.Framework, which supports reading localized
+  resources from csv files.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+  - localization
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.0.1-preview
+image: 'https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png'
+readme: 'master:Loxodon.Framework.LocalizationsForCsv/README.md'
+createdAt: 1594357877042
+displayName_zhCN: Loxodon框架 - 本地化CSV
+description_zhCN: 这是Loxodon.Framework的插件，支持从csv文件读取本地化的资源。

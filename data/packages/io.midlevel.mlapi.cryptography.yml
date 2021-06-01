@@ -1,0 +1,20 @@
+name: io.midlevel.mlapi.cryptography
+description: >-
+  MLAPI.Cryptography is a Unity friendly crypto library to fill the missing
+  features of Unity's Mono runtime framework.
+repoUrl: 'https://github.com/Bullrich/MLAPI.Cryptography'
+parentRepoUrl: 'https://github.com/MidLevel/MLAPI.Cryptography'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - data-management
+hunter: Bullrich
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1592823242030
+displayName_zhCN: io.midlevel.mlapi.cryptography
+description_zhCN: MLAPI.Cryptography是一个Unity友好的密码库，用于填补Unity Mono运行时框架缺少的功能。

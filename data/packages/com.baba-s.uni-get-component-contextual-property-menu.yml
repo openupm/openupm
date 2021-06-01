@@ -1,0 +1,19 @@
+name: com.baba-s.uni-get-component-contextual-property-menu
+displayName: UniGetComponentContextualPropertyMenu
+description: 【Unity】参照型のパラメータを右クリックした時のメニューに GetComponent を追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniGetComponentContextualPropertyMenu'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/81038811-4b948880-8ee2-11ea-8edc-699b45240a0d.png
+readme: 'master:README.md'
+createdAt: 1591633757400
+displayName_zhCN: UniGetComponentContextualPropertyMenu
+description_zhCN: 在右键单击参数时添加GetComponent菜单

@@ -1,0 +1,17 @@
+name: com.baba-s.uni-ui-extension-methods
+displayName: UniUIExtensionMethods
+description: null
+repoUrl: 'https://github.com/baba-s/UniUIExtensionMethods'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593276152956
+displayName_zhCN: UniUIExtensionMethods

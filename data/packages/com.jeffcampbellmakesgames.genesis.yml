@@ -1,0 +1,21 @@
+name: com.jeffcampbellmakesgames.genesis
+displayName: JCMG Genesis
+description: A general purpose code generator library for Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/Genesis'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+readme: 'develop:README.md'
+createdAt: 1587630791665
+displayName_zhCN: JCMG Genesis
+description_zhCN: Unity的通用代码生成器

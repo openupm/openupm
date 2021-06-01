@@ -1,0 +1,19 @@
+name: com.ms.commonutils
+displayName: CommonUtils
+description: some good utils for Unity
+repoUrl: 'https://github.com/wlgys8/MSCommonUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: CommonUtils 通用工具
+description_zhCN: 一些Unity的好工具
+createdAt: 1607009687657

@@ -1,0 +1,20 @@
+name: com.dubitlimited.duck.unity-waypoints
+displayName: Duck Waypoints
+description: >-
+  A way point system built for Unity. Was in the original DUCK core and moved to
+  this repo.
+repoUrl: 'https://github.com/dubit/unity-waypoints'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ai
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594683528677
+displayName_zhCN: Duck Waypoints
+description_zhCN: 为Unity构建的Waypoints系统

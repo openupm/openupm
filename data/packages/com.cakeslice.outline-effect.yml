@@ -6,7 +6,9 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: favoyang
 createdAt: 1572536406000
-image: https://i.imgur.com/CuUDPyk.jpg
+image: 'https://i.imgur.com/CuUDPyk.jpg'
+displayName_zhCN: 边框效果
+description_zhCN: Unity的图像边框效果

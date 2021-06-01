@@ -1,0 +1,20 @@
+name: jp.keijiro.biplanar-shader
+displayName: Biplanar Shader
+description: Biplanar mapping shader for Unity
+repoUrl: 'https://github.com/keijiro/BiplanarMapping'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/4f5bdbb5e37e2a7ad30bf9d6af2892f54602c44dd42fd867d45ecbf76942f13f/68747470733a2f2f692e696d6775722e636f6d2f6652594e7248312e6a7067
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: 双平面Shader
+description_zhCN: Unity的双平面映射Shader
+createdAt: 1606931446388

@@ -1,0 +1,21 @@
+name: com.guanshichao.unity3d-editor-menu
+displayName: Unity3D Editor Menu
+description: >-
+  Fluent style API for constructing custom editor menus presented using
+  `GenericMenu` by default although alternative presentation can be configured
+  for project.
+repoUrl: 'https://github.com/guanshichao/unity3d-editor-menu'
+parentRepoUrl: 'https://github.com/rotorz/unity3d-editor-menu'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591725608204
+displayName_zhCN: Unity3D编辑器菜单
+description_zhCN: 使用Fluent风格的API可以构建使用GenericMenu表示的自定义编辑器菜单。

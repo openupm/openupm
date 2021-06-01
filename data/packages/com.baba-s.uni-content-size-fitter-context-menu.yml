@@ -1,0 +1,22 @@
+name: com.baba-s.uni-content-size-fitter-context-menu
+displayName: UniContentSizeFitterContextMenu
+description: >-
+  【Unity】ContentSizeFitter の FitMode
+  をすべて「PreferredSize」にするコマンドをコンテキストメニューに追加するエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniContentSizeFitterContextMenu'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79828688-309f2000-83dc-11ea-85f1-57013c688e13.png
+readme: 'master:README.md'
+createdAt: 1591709103856
+displayName_zhCN: UniContentSizeFitterContextMenu
+description_zhCN: 控制ContentSizeFitter的FitMode

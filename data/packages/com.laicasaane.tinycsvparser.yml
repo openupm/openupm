@@ -1,0 +1,20 @@
+name: com.laicasaane.tinycsvparser
+displayName: TinyCsvParser
+description: >-
+  Easy to use, easy to extend and high-performance library for CSV parsing with
+  .NET
+repoUrl: 'https://github.com/laicasaane/TinyCsvParser'
+parentRepoUrl: 'https://github.com/bytefish/TinyCsvParser'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.6.0
+image: null
+readme: 'upm:README.md'
+createdAt: 1598696886315
+displayName_zhCN: TinyCsvParser
+description_zhCN: 易于使用，易于扩展的高性能库，用于通过.NET进行CSV解析

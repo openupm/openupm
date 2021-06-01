@@ -1,0 +1,17 @@
+name: com.baba-s.uni-use-incremental-gc-test
+displayName: UniUseIncrementalGCTest
+description: null
+repoUrl: 'https://github.com/baba-s/UniUseIncrementalGCTest'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601165723803
+displayName_zhCN: UniUseIncrementalGCTest

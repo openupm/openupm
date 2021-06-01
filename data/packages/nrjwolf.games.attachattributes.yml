@@ -1,0 +1,40 @@
+name: nrjwolf.games.attachattributes
+displayName: Attach Attributes
+description: >-
+  Use attach attributes to auto attach components.
+
+
+  For example
+
+
+  [GetComponent]
+
+  [SerializeField] private Image m_Image;
+
+
+  Now all components will automatically attach when you select your gameobject
+  in hierarchy
+repoUrl: 'https://github.com/Nrjwolf/unity-auto-attach-component-attributes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Team-on
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: 附加属性
+description_zhCN: |-
+  使用附加属性自动附加组件。
+
+  例如
+
+  [GetComponent]
+  [SerializeField] private Image m_Image;
+
+  当您在层次结构中选择游戏对象时，所有组件都会自动加载
+createdAt: 1612659753312

@@ -1,0 +1,20 @@
+name: com.torisoup.pun2task
+displayName: Pun2Task
+description: This library enables async/await in Photon Unity Networking 2.
+repoUrl: 'https://github.com/TORISOUP/Pun2Task'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604793222001
+displayName_zhCN: Pun2Task
+description_zhCN: 该库可在Photon Unity Networking 2中启用async/await。

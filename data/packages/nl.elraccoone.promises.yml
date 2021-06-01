@@ -1,0 +1,24 @@
+name: nl.elraccoone.promises
+displayName: Promises
+description: >-
+  Promises provide a simpler alternative for executing, composing, and managing
+  asynchronous operations when compared to traditional callback-based
+  approaches. They also allow you to handle asynchronous errors using approaches
+  that are similar to synchronous try/catch.
+repoUrl: 'https://github.com/jeffreylanters/unity-promises'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/jeffreylanters/unity-promises/master/.github/WIKI/repository-open-graph.png
+readme: 'master:README.md'
+createdAt: 1600620235717
+displayName_zhCN: Promises
+description_zhCN: >-
+  与传统的基于回调的方法相比，Promise为执行，编写和管理异步操作提供了一种更简单的选择。它们还允许您使用类似于同步try/catch的方法来处理异步错误。

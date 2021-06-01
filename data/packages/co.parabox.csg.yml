@@ -1,0 +1,19 @@
+name: co.parabox.csg
+displayName: pb_CSG
+description: 'A C# port of CSG.js by Evan W (http://evanw.github.io/csg.js/).'
+repoUrl: 'https://github.com/karl-/pb_CSG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/karl-/pb_CSG/raw/c33b97c9d963207becb67a3dfd8d8c148857dfcd/bin~/images/subtract.PNG
+readme: 'master:README.md'
+createdAt: 1594572589033
+displayName_zhCN: pb_CSG
+description_zhCN: 'CSG.js（http://evanw.github.io/csg.js/）的C#移植。'

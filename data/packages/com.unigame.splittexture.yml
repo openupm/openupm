@@ -1,0 +1,19 @@
+name: com.unigame.splittexture
+displayName: UniGame Texture Splitter
+description: Texture Splitter
+repoUrl: 'https://github.com/UniGameTeam/UniGame.SplitTexture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1602525633749
+displayName_zhCN: UniGame贴图分配器
+description_zhCN: 贴图分配器

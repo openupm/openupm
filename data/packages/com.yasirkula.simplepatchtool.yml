@@ -1,0 +1,23 @@
+name: com.yasirkula.simplepatchtool
+displayName: Simple Patch Tool
+description: >-
+  Unity port of SimplePatchTool library to add patching support to standalone
+  Unity applications
+repoUrl: 'https://github.com/yasirkula/UnitySimplePatchTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+  - version-control
+hunter: yasirkula
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnitySimplePatchTool/raw/efaf6f5e5d77e150845112c4a6a620d2ba28dbb6/.github/Images/launcher-demo.png
+readme: 'master:.github/README.md'
+createdAt: 1589542612228
+displayName_zhCN: 简单补丁工具
+description_zhCN: SimplePatchTool库的Unity移植可为独立的Unity应用程序添加补丁支持

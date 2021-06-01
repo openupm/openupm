@@ -1,0 +1,19 @@
+name: com.johnsoncodehk.unity-animator-override-controller-extras
+displayName: Animator Override Controller Extras
+description: AnimatorOverrideController extension tool
+repoUrl: 'https://github.com/johnsoncodehk/unity-animator-override-controller-extras'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1593640122759
+displayName_zhCN: 额外的Animator Override Controller
+description_zhCN: AnimatorOverrideController扩展工具

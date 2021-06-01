@@ -1,11 +1,16 @@
 name: com.coffee.internal-accessible-compiler
 displayName: Internal Accessable Compiler
-description: 'Compile a c# project to a internal accessible dll (for Unity)'
+description: Compile a c# project to a internal accessible dll (for Unity)
 repoUrl: 'https://github.com/mob-sakai/InternalAccessibleCompilerForUnity'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ^v
+readme: 'upm:README.md'
 createdAt: 1577290441000
+displayName_zhCN: 内部可访问编译器
+description_zhCN: 将C#项目编译为可内部访问的DLL

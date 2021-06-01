@@ -1,0 +1,20 @@
+name: com.baba-s.uni-ui-debug-text
+displayName: UniUIDebugText
+description: 【Unity】デバッグ用のテキスト表示を簡単に実装できる UI
+repoUrl: 'https://github.com/baba-s/UniUIDebugText'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/87840349-3c668980-c8da-11ea-8f6b-eb615a8b2bce.gif
+readme: 'master:README.md'
+createdAt: 1595088391914
+displayName_zhCN: UniUIDebugText
+description_zhCN: Unity UI调试文字

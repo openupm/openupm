@@ -1,0 +1,23 @@
+name: com.dman.l-system
+displayName: L-system
+description: >-
+  An attempt to implement most of the features present in L-systems described by
+  'The Algorithmic Beauty Of Plants'
+  http://algorithmicbotany.org/papers/abop/abop.pdf
+repoUrl: 'https://github.com/dsmiller95/plantbuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+hunter: dsmiller95
+gitTagPrefix: com.dman.l-system/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/dsmiller95/plantbuilder/raw/master/DemoPhotos/l-system_packagepreview.png
+readme: 'master:Packages/com.dman.l-system/README.md'
+readme_zhCN: ''
+displayName_zhCN: L系统
+description_zhCN: '尝试实现“植物的算法之美”描述的L系统中存在的大多数功能 http://algorithmicbotany.org/papers/abop/abop.pdf'
+createdAt: 1612049009940

@@ -1,0 +1,18 @@
+name: com.gameworkstore.patterns
+displayName: GameWorkstore Patterns
+description: Patterns Library for Unity Projects or C# projects
+repoUrl: 'https://github.com/GameWorkstore/patterns'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: HanzaRu
+gitTagPrefix: v1.0.1
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604056174500
+displayName_zhCN: GameWorkstore模式
+description_zhCN: Unity项目或C#项目的模式库

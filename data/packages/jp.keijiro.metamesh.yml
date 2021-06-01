@@ -1,0 +1,20 @@
+name: jp.keijiro.metamesh
+displayName: Metamesh
+description: Unity primitive mesh generator as an asset importer
+repoUrl: 'https://github.com/keijiro/Metamesh'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/acbc08d2f69b1e2e4710ebb860284e80182016ff/68747470733a2f2f692e696d6775722e636f6d2f47587a375134312e676966
+readme: 'master:README.md'
+createdAt: 1602514846197
+displayName_zhCN: Metamesh
+description_zhCN: Unity基本Mesh生成器作为资源导入器

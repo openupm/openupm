@@ -1,0 +1,19 @@
+name: com.ecasillas.commonutils
+displayName: Common Utils for Unity
+description: Common utility library for Unity projects
+repoUrl: 'https://github.com/edcasillas/unity-common-utils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591625781848
+displayName_zhCN: Unity的常见工具
+description_zhCN: Unity项目的常用工具库

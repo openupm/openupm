@@ -1,0 +1,20 @@
+name: com.xtaltools.unityconstantsgenerator
+displayName: Unity Constants Generator
+description: Unity constants values code generator
+repoUrl: 'https://github.com/neptaco/UnityConstantsGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1596121616890
+displayName_zhCN: Unity常量生成器
+description_zhCN: Unity常量值代码生成器

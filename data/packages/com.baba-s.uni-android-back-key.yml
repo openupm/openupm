@@ -1,0 +1,19 @@
+name: com.baba-s.uni-android-back-key
+displayName: UniAndroidBackKey
+description: Android でバックキーが押された時の処理を管理するクラス
+repoUrl: 'https://github.com/baba-s/UniAndroidBackKey'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - input-management
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591650623706
+displayName_zhCN: UniAndroidBackKey
+description_zhCN: 管理Android按下后键时的行为

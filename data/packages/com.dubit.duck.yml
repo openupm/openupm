@@ -1,0 +1,28 @@
+name: com.dubit.duck
+displayName: Dubit Unity Component Kit (DUCK)
+description: Dubit Unity Component Kit
+repoUrl: 'https://github.com/dubit/duck'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - animation
+  - audio
+  - data-management
+  - debugging-and-logging
+  - frameworks
+  - gui
+  - localization
+  - network
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/dubit/duck/raw/5b4ef405b2daa99a5627287f3c91237f11fc7e7c/Editor/MenuItems/Icons/play_button_off.png
+readme: 'lts_package:README.md'
+createdAt: 1594684467077
+displayName_zhCN: Dubit Unity组件库（Duck）
+description_zhCN: Dubit Unity组件库

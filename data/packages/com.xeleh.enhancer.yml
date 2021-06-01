@@ -1,0 +1,16 @@
+name: com.xeleh.enhancer
+displayName: Editor Enhancer
+description: A collection of utilities to enhance the Unity Editor
+repoUrl: 'https://github.com/xeleh/enhancer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: gekidoslair
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1588262100435
+displayName_zhCN: 编辑器增强器
+description_zhCN: 一组用于增强Unity编辑器的实用程序

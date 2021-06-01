@@ -1,0 +1,19 @@
+name: com.baba-s.uni-rect-transform-internal
+displayName: UniRectTransformInternal
+description: 【Unity】RectTransform の internal な機能にアクセスできるようにするパッケージ
+repoUrl: 'https://github.com/baba-s/UniRectTransformInternal'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602010468767
+displayName_zhCN: UniRectTransformInternal
+description_zhCN: 允许访问RectRansform的内部函数

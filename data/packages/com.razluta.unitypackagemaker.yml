@@ -1,0 +1,21 @@
+name: com.razluta.unitypackagemaker
+displayName: Package Maker
+description: >-
+  A Unity Package for making the base setup for a new Unity Package (or updating
+  and existing Package) compatible with the Unity Package Manager.
+repoUrl: 'https://github.com/razluta/UnityPackageMaker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/razluta/UnityPackageMaker/master/Screenshots/PackMak_Screenshot001.PNG'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615315937475

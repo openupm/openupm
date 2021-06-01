@@ -1,0 +1,20 @@
+name: com.facepunch.steamworks
+displayName: Facepunch Steamworks
+description: Another fucking c# Steamworks implementation
+repoUrl: 'https://github.com/PixelWizards/Facepunch.Steamworks'
+parentRepoUrl: 'https://github.com/Facepunch/Facepunch.Steamworks'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - services
+  - network
+hunter: PixelWizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.3.3
+image: null
+readme: 'upm:README.md'
+createdAt: 1593736331498
+displayName_zhCN: Facepunch Steamworks
+description_zhCN: 另一个Steamworks实现

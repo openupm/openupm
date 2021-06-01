@@ -1,0 +1,18 @@
+name: pl.apkd.unityasync
+displayName: Apkd.UnityAsync
+description: 'High performance, allocation-free async/await library for Unity.'
+repoUrl: 'https://github.com/apkd/Apkd.UnityAsync'
+parentRepoUrl: 'https://github.com/muckSponge/UnityAsync'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.MD'
+createdAt: 1592086836712
+displayName_zhCN: Apkd.UnityAsync
+description_zhCN: 高性能，无分配的Unity async/await库。

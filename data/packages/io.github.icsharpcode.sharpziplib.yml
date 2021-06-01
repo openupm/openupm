@@ -1,0 +1,18 @@
+name: io.github.icsharpcode.sharpziplib
+displayName: SharpZipLib
+description: >-
+  #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the
+  .NET platform. This is a unity package repository for unity package manager.
+repoUrl: 'https://github.com/iDreamsOfGame/SharpZipLib'
+parentRepoUrl: 'https://github.com/icsharpcode/SharpZipLib'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+image: null
+createdAt: 1586584208587
+displayName_zhCN: SharpZipLib
+description_zhCN: '#ziplib是一个完全用C#为.NET平台编写的Zip，GZip，Tar和BZip2库。'

@@ -1,0 +1,17 @@
+name: trismegistus.unity.audio-toolkit
+displayName: Trismegistus Audio Toolkit
+description: null
+repoUrl: 'https://github.com/Hermesiss/unity-audio-multichannel-tools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - audio
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598642859607
+displayName_zhCN: Trismegistus音频工具包

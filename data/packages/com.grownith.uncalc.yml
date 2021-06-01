@@ -1,0 +1,19 @@
+name: com.grownith.uncalc
+displayName: UNCalc
+description: NCalc2 for unity3D
+repoUrl: 'https://github.com/grownith/UNCalc'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591480830356
+displayName_zhCN: UNCalc
+description_zhCN: NCalc2

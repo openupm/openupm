@@ -1,0 +1,19 @@
+name: com.toorah-games.drawing
+displayName: Drawing Library
+description: A Small library for using Graphics Drawing functions
+repoUrl: 'https://github.com/Toorah/com.toorah-games.drawing'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615910516751

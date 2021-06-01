@@ -1,0 +1,21 @@
+name: com.vrmc.vrmshaders
+displayName: VRM Shaders
+description: Unity package that can import and export VRM format
+repoUrl: 'https://github.com/vrm-c/UniVRM'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - particles-and-effects
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/vrm-c/UniVRM/raw/20f994b043102187123b1a4384075f73bff66ccb/Assets/VRM/UniGLTF/doc/pbr_to_standard.png
+readme: 'master:Assets/VRMShaders/README.md'
+createdAt: 1594228275203
+displayName_zhCN: VRM Shaders
+description_zhCN: 可以导入和导出VRM格式的Unity软件包

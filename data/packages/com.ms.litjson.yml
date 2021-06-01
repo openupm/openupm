@@ -1,0 +1,19 @@
+name: com.ms.litjson
+displayName: LitJson
+description: Unity package for LitJSON
+repoUrl: 'https://github.com/wlgys8/LitJsonUPM'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: LitJson
+description_zhCN: LitJSON的Unity软件包
+createdAt: 1607010041161

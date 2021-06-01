@@ -1,0 +1,19 @@
+name: com.laurenth.lightingtools-core
+displayName: Lighting Tools Core
+description: Lighting Tools Core
+repoUrl: 'https://github.com/laurenth-personal/LightingTools.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 照明工具核心
+description_zhCN: 照明工具核心
+createdAt: 1611175070580

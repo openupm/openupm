@@ -1,0 +1,17 @@
+name: trismegistus.unity.smartformat
+displayName: Trismegistus SmartFormat
+description: null
+repoUrl: 'https://github.com/Hermesiss/unity-smartformat'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1598794685823
+displayName_zhCN: Trismegistus SmartFormat

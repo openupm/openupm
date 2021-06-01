@@ -1,0 +1,19 @@
+name: com.unigame.rx
+displayName: UniGame Rx Extensions
+description: unity rx extension tools
+repoUrl: 'https://github.com/UniGameTeam/UniGame.Rx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/UniGameTeam/UniGame.Rx/raw/ac783b4f34a225a8ce83ef916fb96c81702561b6/UniGame.DoTweenRx/Editor/Assets/rx_dotween.png
+readme: 'main:README.md'
+createdAt: 1602613748235
+displayName_zhCN: UniGame Rx扩展
+description_zhCN: unity rx扩展工具

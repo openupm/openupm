@@ -1,0 +1,22 @@
+name: com.bassmit.robustgeometricpredicates
+displayName: Robust Geometric Predicates
+description: >-
+  Burst compatible implementation of Adaptive Precision Floating-Point
+  Arithmetic and Fast Robust Geometric Predicates, Shewchuk 1996. This package
+  is a port of Govert van Drimmelen's RobustGeometry.NET.
+repoUrl: 'https://github.com/bassmit/robustgeometricpredicates'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614539385167

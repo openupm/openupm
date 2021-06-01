@@ -1,0 +1,17 @@
+name: com.pastasfuture.splinegraph
+displayName: Spline Graph
+description: null
+repoUrl: 'https://github.com/pastasfuture/com.pastasfuture.splinegraph'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1604280525245
+displayName_zhCN: Spline图

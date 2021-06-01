@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.input.unityinputmanager
+displayName: Tilia Input UnityInputManager
+description: >-
+  Input wrappers for the Unity Input Manager and a collection of common input
+  prefabs
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputManager/raw/db843a661df577d705bde1f6f92f4d5096b5d7a6/Documentation/HowToGuides/CreatingProxyActionsAndChainingActions/assets/images/SetActivatedListenerToGameObjectSetActiveAction.png
+readme: 'master:README.md'
+createdAt: 1595088043110
+displayName_zhCN: Tilia Input UnityInputManager
+description_zhCN: Unity Input Manager的输入包装和一组通用输入Prefab

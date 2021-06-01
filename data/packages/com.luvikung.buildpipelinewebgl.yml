@@ -1,0 +1,22 @@
+name: com.luvikung.buildpipelinewebgl
+displayName: Build Pipeline for WebGL
+description: >-
+  Build Pipeline for WebGL is a build tools for Unity Editor that able to manage
+  build version by folder and able to strip javascript of mobile warning.
+repoUrl: 'https://github.com/LuviKunG/BuildPipelineWebGL'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LuviKunG/BuildPipelineWebGL/raw/092a00ee0b570fdfbd06e669105af63cb90c1f32/images/preview.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1614101048066

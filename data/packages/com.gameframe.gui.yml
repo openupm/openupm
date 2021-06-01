@@ -1,0 +1,18 @@
+name: com.gameframe.gui
+displayName: Gameframe.GUI
+description: 'UGUI Panel Systems for navigation, animation and more'
+repoUrl: 'https://github.com/coryleach/UnityGUI'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: '-a'
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591557604270
+displayName_zhCN: Gameframe.GUI
+description_zhCN: UGUI面板用于导航、动画等

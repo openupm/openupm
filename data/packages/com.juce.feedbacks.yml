@@ -1,0 +1,19 @@
+name: com.juce.feedbacks
+displayName: Juce-Feedbacks
+description: Open-source feedbacks library that's part of the Juce Unity tools framework.
+repoUrl: 'https://github.com/Juce-Assets/Juce-Feedbacks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Juce-Assets/Juce-Feedbacks/raw/bf522277fdca05bc1999b367a6079b21e9c6e578/Misc/AssetStore/Screenshots/Example4.png
+readme: 'stable:README.md'
+createdAt: 1604084169949
+displayName_zhCN: Juce-反馈
+description_zhCN: 开源反馈库是Juce Unity工具框架的一部分。

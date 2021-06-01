@@ -1,0 +1,21 @@
+name: com.monitor1394.exportscenetoobj
+displayName: Export Scene To Obj
+description: Export scene (including objects and terrain ) or fbx to .obj file for Unity.
+repoUrl: 'https://github.com/monitor1394/ExportSceneToObj'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - level-design
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/monitor1394/ExportSceneToObj/raw/8405b0156ad724349475a0cd936d6d11a7489ab3/Documentation/screenshot/export.jpg
+readme: 'master:README.md'
+createdAt: 1592085809593
+displayName_zhCN: 将场景导出到对象
+description_zhCN: 导出Unity的场景或FBX到obj文件

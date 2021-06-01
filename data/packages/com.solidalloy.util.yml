@@ -1,0 +1,19 @@
+name: com.solidalloy.util
+displayName: Solid Utilities
+description: Different utilities that simplify development in Unity3D.
+repoUrl: 'https://github.com/SolidAlloy/SolidUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601659977366
+displayName_zhCN: Solid实用工具
+description_zhCN: 简化Unity3D开发的不同实用程序。

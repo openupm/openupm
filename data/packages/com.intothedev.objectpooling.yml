@@ -1,0 +1,19 @@
+name: com.intothedev.objectpooling
+displayName: Object Pooling
+description: Object Pooling for Unity
+repoUrl: 'https://github.com/IntoTheDev/Object-Pooling-for-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: 对象池
+description_zhCN: Unity对象池
+createdAt: 1607622503194

@@ -1,0 +1,17 @@
+name: com.baba-s.uni-missing-reference-utils
+displayName: UniMissingReferenceUtils
+description: null
+repoUrl: 'https://github.com/baba-s/UniMissingReferenceUtils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601075535036
+displayName_zhCN: UniMissingReferenceUtils

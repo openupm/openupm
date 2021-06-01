@@ -1,0 +1,20 @@
+name: jp.keijiro.testcards
+displayName: Test Cards
+description: A simple test pattern generator.
+repoUrl: 'https://github.com/keijiro/TestCards'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - camera
+  - testing
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/0bcbfd40ee0d9d82988b569c2bd7bdd62050d01a/687474703a2f2f692e696d6775722e636f6d2f4e765044384e322e706e67
+readme: 'upm:README.md'
+createdAt: 1589995580202
+displayName_zhCN: 测试卡
+description_zhCN: 一个简单的测试模式生成器。

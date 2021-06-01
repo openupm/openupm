@@ -1,0 +1,22 @@
+name: at.innerspace.dtvalidator
+displayName: DT Validator
+description: >-
+  Tool for validating objects (eg. GameObjects, ScriptableObjects, etc) in the
+  Unity Editor.
+repoUrl: 'https://github.com/innerspacetrainings/DTValidator'
+parentRepoUrl: 'https://github.com/DarrenTsung/DTValidator'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/innerspacetrainings/DTValidator/master/Images/ErrorsInDTValidatorWindow.png
+readme: 'master:README.md'
+createdAt: 1592085130569
+displayName_zhCN: DT验证器
+description_zhCN: 用于验证Unity编辑器中的对象（例如GameObjects，ScriptableObjects等）的工具。

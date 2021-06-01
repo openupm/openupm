@@ -1,0 +1,20 @@
+name: com.jeffcampbellmakesgames.jtween
+displayName: JTween
+description: A job-based tween library for Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-jtween'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: See License File
+topics:
+  - animation
+  - dots-and-ecs
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/unity-jtween/raw/8a85b28dab3bc007f6e1eb151b036427df3dde78/DocFXProject/images/fun_example_02.gif
+readme: 'release/stable:README.md'
+createdAt: 1589411539569
+displayName_zhCN: JTween
+description_zhCN: Unity的基于job的tween库

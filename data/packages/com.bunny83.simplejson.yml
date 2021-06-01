@@ -1,0 +1,18 @@
+name: com.bunny83.simplejson
+displayName: SimpleJSON
+description: A simple JSON parser in C#
+repoUrl: 'https://github.com/walaoRIKI/SimpleJSON'
+parentRepoUrl: 'https://github.com/Bunny83/SimpleJSON'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1601433082991
+displayName_zhCN: SimpleJSON
+description_zhCN: C#中SimpleJSON解析器

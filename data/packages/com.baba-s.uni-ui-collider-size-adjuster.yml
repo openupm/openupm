@@ -1,0 +1,18 @@
+name: com.baba-s.uni-ui-collider-size-adjuster
+displayName: UniUIColliderSizeAdjuster
+description: 【Unity】ボタンが押されて縮小した時に、当たり判定のサイズも一緒に縮小する現象を避けるためのコンポーネント
+repoUrl: 'https://github.com/baba-s/UniUIColliderSizeAdjuster'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591649590030
+displayName_zhCN: UniUIColliderSizeAdjuster
+description_zhCN: 在Unity按钮按下缩小时避免Collider被同步缩小

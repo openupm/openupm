@@ -6,6 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - effect-shader
+  - particles-and-effects
 hunter: JohannesDeml
 createdAt: 1576345533000
+displayName_zhCN: 可配置的shader
+description_zhCN: 在Unity中展示shader属性的功能

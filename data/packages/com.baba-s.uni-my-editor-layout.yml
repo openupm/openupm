@@ -1,0 +1,17 @@
+name: com.baba-s.uni-my-editor-layout
+displayName: UniMyEditorLayout
+description: null
+repoUrl: 'https://github.com/baba-s/UniMyEditorLayout'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1602456291722
+displayName_zhCN: UniMyEditorLayout

@@ -1,0 +1,24 @@
+name: com.unity.hlod
+displayName: HLOD System
+description: >-
+  It can replace multiple Static Mesh Actors with single, combined Static Mesh
+  Actor at long view distances. This helps reduce the number of Actors that need
+  to be rendered for the scene, increasing performance by lowering the number of
+  draw calls per frame.
+repoUrl: 'https://github.com/Unity-Technologies/HLODSystem'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Unity-Technologies/HLODSystem/raw/0b6b390144df8519c72cea9bedd1b25218152c68/Documentation~/Images/compare.gif
+readme: 'master:README.md'
+createdAt: 1597168038143
+displayName_zhCN: HLOD系统
+description_zhCN: >-
+  在长距离观看时，它可以用单个组合的静态Mesh物体Actor代替多个静态Mesh物体Actor。这有助于减少需要为场景渲染的Actor的数量，通过减少每帧的绘制调用次数来提高性能。

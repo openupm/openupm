@@ -1,0 +1,19 @@
+name: com.baba-s.uni-package-asset-deleter
+displayName: UniPackageAssetDeleter
+description: Editor extension to delete assets added with .unitypackage.
+repoUrl: 'https://github.com/baba-s/UniPackageAssetDeleter'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1591719770803
+displayName_zhCN: UniPackageAssetDeleter
+description_zhCN: 删除通过.unitypackage包添加的资源

@@ -1,0 +1,19 @@
+name: com.dman.utilities
+displayName: Dman's Utilities
+description: null
+repoUrl: 'https://github.com/dsmiller95/DmanUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.utilities/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UtilityScripts/com.dman.utilities/README.md'
+readme_zhCN: ''
+displayName_zhCN: Dman的实用程序
+description_zhCN: ''
+createdAt: 1610311107615

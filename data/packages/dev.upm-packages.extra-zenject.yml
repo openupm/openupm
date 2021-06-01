@@ -1,0 +1,19 @@
+name: dev.upm-packages.extra-zenject
+displayName: Extra Zenject
+description: Extra Utilities for Zenject
+repoUrl: 'https://github.com/umm/extra_zenject'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1594180422180
+displayName_zhCN: 额外的Zenject
+description_zhCN: Zenject的额外实用工具

@@ -1,0 +1,21 @@
+name: com.yasirkula.ingamedebugconsole
+displayName: In-game Debug Console
+description: >-
+  A uGUI based console to see debug messages and execute commands during
+  gameplay in Unity
+repoUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/yasirkula/UnityIngameDebugConsole/raw/b9a550865d88fd2ae61d792f48433b8c24b56458/.github/Images/1.png
+readme: 'master:.github/README.md'
+createdAt: 1589335837666
+displayName_zhCN: 游戏内调试控制台
+description_zhCN: 基于uGUI的控制台，可在Unity的游戏过程中查看调试消息并执行命令

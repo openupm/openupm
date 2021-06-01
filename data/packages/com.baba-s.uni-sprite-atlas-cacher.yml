@@ -1,0 +1,20 @@
+name: com.baba-s.uni-sprite-atlas-cacher
+displayName: UniSpriteAtlasCacher
+description: 【Unity】SpriteAtlas.GetSprite したスプライトをキャッシュするクラス
+repoUrl: 'https://github.com/baba-s/UniSpriteAtlasCacher'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - sprite-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/79872556-e68c5d80-8420-11ea-9a86-f1e971ef6d95.png
+readme: 'master:README.md'
+createdAt: 1591708769485
+displayName_zhCN: UniSpriteAtlasCacher
+description_zhCN: 缓存SpriteAtlas.GetSprite

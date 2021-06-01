@@ -1,0 +1,19 @@
+name: com.subtegral.dialoguesystem
+displayName: Dialogue System
+description: Node Based Dialogue System for Unity
+repoUrl: 'https://github.com/merpheus-dev/NodeBasedDialogueSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/4bca21b4672c2deaa134010393d779d5ac7630be/68747470733a2f2f692e6962622e636f2f4a6e67483879722f6865616465722e706e67
+readme: 'master:README.md'
+createdAt: 1600179695016
+displayName_zhCN: 对话系统
+description_zhCN: 基于节点的Unity对话系统

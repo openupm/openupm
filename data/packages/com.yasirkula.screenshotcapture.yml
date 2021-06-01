@@ -1,0 +1,19 @@
+name: com.yasirkula.screenshotcapture
+displayName: 360° Screenshot Capture
+description: A simple script to capture 360° screenshots in-game with Unity
+repoUrl: 'https://github.com/yasirkula/Unity360ScreenshotCapture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: >-
+  https://github.com/yasirkula/Unity360ScreenshotCapture/raw/14e72beb3ca506420dcbd6b249949f193caf70a1/.github/Images/360render.jpeg
+readme: .github/README.md
+createdAt: 1588441094558
+displayName_zhCN: 360°屏幕截图
+description_zhCN: 一个简单的脚本即可使用Unity捕获游戏中的360°屏幕截图

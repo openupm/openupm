@@ -1,0 +1,21 @@
+name: com.houraiteahouse.fp
+displayName: FixedPoint-Sharp
+description: >-
+  Fixed point math with 48.16 precision (based on lib by
+  https://github.com/fholm)
+repoUrl: 'https://github.com/HouraiTeahouse/FixedPoint-Sharp'
+parentRepoUrl: 'https://github.com/RomanZhu/FixedPoint-Sharp'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: FixedPoint-Sharp
+description_zhCN: '具有48.16精度的定点数（基于https://github.com/fholm）'
+createdAt: 1609953165784

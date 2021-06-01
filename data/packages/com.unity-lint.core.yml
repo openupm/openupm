@@ -1,0 +1,17 @@
+name: com.unity-lint.core
+displayName: UnityLint
+description: Linter for Unity
+repoUrl: 'https://github.com/MeikelLP/UnityLint.Core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+readme: 'master:README.md'
+createdAt: 1588953478642
+displayName_zhCN: UnityLint
+description_zhCN: Unity的Linter

@@ -6,9 +6,11 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - library
+  - utilities
 hunter: Whinarn
 gitTagPrefix: ''
 gitTagIgnore: '-legacy$'
 image: null
 createdAt: 1584388037725
+displayName_zhCN: Unity Mesh简化
+description_zhCN: Unity的Mesh简化。

@@ -1,0 +1,16 @@
+name: com.live2d.cubism-cubismloader
+displayName: Live2D Cubism Unity Components with Cubism Loader
+description: Open Cubism Components for Unity with Cubism Loader.
+repoUrl: 'https://github.com/grashaar/CubismUnityComponents-CubismLoader'
+parentRepoUrl: 'https://github.com/Live2D/CubismUnityComponents'
+licenseSpdxId: null
+licenseName: Live2D Open Software License
+topics:
+  - animation
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1587312802844
+displayName_zhCN: 带有Cubism Loader的Live2D Cubism Unity组件
+description_zhCN: 使用Cubism Loader打开Unity的Cubism组件。

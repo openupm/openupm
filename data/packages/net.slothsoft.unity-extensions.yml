@@ -1,0 +1,20 @@
+name: net.slothsoft.unity-extensions
+displayName: Slothsoft's Unity Extensions
+description: Some C# Extension functions for common Unity problems.
+repoUrl: 'https://github.com/Faulo/UnityExtensions'
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: Do What The F*ck You Want To Public License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.3'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: Slothsoft的Unity扩展
+description_zhCN: 一些C#扩展功能可解决常见的Unity问题。
+createdAt: 1610470403918

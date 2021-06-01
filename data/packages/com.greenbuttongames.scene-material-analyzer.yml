@@ -1,0 +1,20 @@
+name: com.greenbuttongames.scene-material-analyzer
+displayName: Scene Material Analyzer
+description: Analyze materials used in Unity scenes
+repoUrl: 'https://github.com/vanifatovvlad/SceneMaterialAnalyzer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/26966368/62204955-fc3f8b80-b396-11e9-8c05-4766d6b9b635.png
+readme: 'master:README.md'
+createdAt: 1595018087253
+displayName_zhCN: 场景材质分析器
+description_zhCN: 分析Unity场景中使用的材质

@@ -1,0 +1,19 @@
+name: io.extendreality.tilia.camerarigs.spatialsimulator.unity
+displayName: Tilia CameraRigs SpatialSimulator Unity
+description: A camera rig prefab that simulates spatial hardware for the Unity software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.CameraRigs.SpatialSimulator.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.CameraRigs.SpatialSimulator.Unity/raw/8bfede1f03474e0d208b4469605f677808c8e313/Documentation/HowToGuides/AddingASpatialSimulatorCameraRig/assets/images/PrefabInScene.png
+readme: 'master:README.md'
+createdAt: 1595116110355
+displayName_zhCN: Tilia CameraRigs SpatialSimulator Unity
+description_zhCN: 摄像机rig Prefab，用于模拟Unity软件的空间硬件

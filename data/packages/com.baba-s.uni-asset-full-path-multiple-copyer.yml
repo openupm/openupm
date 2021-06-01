@@ -1,0 +1,20 @@
+name: com.baba-s.uni-asset-full-path-multiple-copyer
+displayName: UniAssetFullPathMultipleCopyer
+description: 【Unity】Project ビューでアセットのフルパスをコピーできるようにするエディタ拡張
+repoUrl: 'https://github.com/baba-s/UniAssetFullPathMultipleCopyer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/6134875/95081820-1623ed80-0755-11eb-956c-276968cb4bf5.png
+readme: 'master:README.md'
+createdAt: 1602445811249
+displayName_zhCN: UniAssetFullPathMultipleCopyer
+description_zhCN: 允许在项目视图中复制资源的完整路径

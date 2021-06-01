@@ -1,0 +1,20 @@
+name: com.zestylife.eunet
+displayName: EuNet
+description: Peer to peer network solution for multiplayer games.
+repoUrl: 'https://github.com/zestylife/EuNet'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/zestylife/EuNet/raw/ddd245af082fe5bb9fcc147c51ca271da2df9706/docs/images/Network.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: EuNet
+description_zhCN: 多人游戏的点对点网络解决方案。
+createdAt: 1610994677473
