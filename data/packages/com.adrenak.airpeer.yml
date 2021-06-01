@@ -1,0 +1,19 @@
+name: com.adrenak.airpeer
+displayName: Adrenak.AirPeer
+description: A WebRTC based networking plugin for Unity
+repoUrl: 'https://github.com/adrenak/airpeer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622580774155
