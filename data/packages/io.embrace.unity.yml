@@ -1,0 +1,20 @@
+name: io.embrace.unity
+displayName: Embrace Unity SDK
+description: Embrace Unity SDK
+repoUrl: 'https://github.com/embrace-io/embrace-unity-upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - mobile
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622572402304
