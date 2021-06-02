@@ -1,0 +1,19 @@
+name: com.macacagames.utility
+displayName: Macaca Utility
+description: Tools to build a game made and use by MacacaGames
+repoUrl: 'https://github.com/MacacaGames/MacacaUtility'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: sableangle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622634143444
