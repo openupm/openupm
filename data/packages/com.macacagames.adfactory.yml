@@ -1,0 +1,22 @@
+name: com.macacagames.adfactory
+displayName: Macaca AdFactory
+description: A withdrawable Ad service API wrapper
+repoUrl: 'https://github.com/MacacaGames/AdFactory'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - mobile
+  - network
+  - services
+  - utilities
+hunter: sableangle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622635447053
