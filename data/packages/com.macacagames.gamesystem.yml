@@ -1,0 +1,19 @@
+name: com.macacagames.gamesystem
+displayName: Macaca Game System
+description: A framework helps you build your games
+repoUrl: 'https://github.com/MacacaGames/GameSystem'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: sableangle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622704824202
