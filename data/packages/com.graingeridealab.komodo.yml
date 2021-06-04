@@ -1,0 +1,20 @@
+name: com.graingeridealab.komodo
+displayName: KomodoCore
+description: Komodo WebXR Environment
+repoUrl: 'https://github.com/gelic-idealab/komodo-unity'
+parentRepoUrl: null
+licenseSpdxId: NCSA
+licenseName: University of Illinois/NCSA Open Source License
+topics:
+  - ar-and-vr
+hunter: gelic-idealab
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: v0.3.2
+image: >-
+  https://github.com/gelic-idealab/komodo-unity/raw/68ce3c0008b9c5637222e6ff80d2a5fd5403e6e6/Komodo/Assets/Packages/KomodoCore/KomodoCoreAssets/Images/project_komodo_drawing.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622752954206
