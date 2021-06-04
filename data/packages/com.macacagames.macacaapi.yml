@@ -1,0 +1,21 @@
+name: com.macacagames.macacaapi
+displayName: Macaca APIs
+description: 'A native API wrapper to some iOS/Android feature e.g. AlertDialog, Toast'
+repoUrl: 'https://github.com/MacacaGames/MacacaAPI'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - mobile
+  - services
+  - utilities
+hunter: sableangle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622807259782
