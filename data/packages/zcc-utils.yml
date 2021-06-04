@@ -1,0 +1,19 @@
+name: zcc-utils
+displayName: zcc-utils
+description: a utils packge
+repoUrl: 'https://github.com/AlanWeekend/zcc-utils'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: AlanWeekend
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622793230487
