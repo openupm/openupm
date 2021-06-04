@@ -1,0 +1,19 @@
+name: com.macacagames.unitylitjson
+displayName: UnityLitJson
+description: 'Macaca Modified UnityLitJson, forked from Mervill/UnityLitJson'
+repoUrl: 'https://github.com/MacacaGames/UnityLitJson'
+parentRepoUrl: 'https://github.com/Mervill/UnityLitJson'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: sableangle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622787177409
