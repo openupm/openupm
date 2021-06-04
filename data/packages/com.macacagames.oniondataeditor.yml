@@ -1,0 +1,20 @@
+name: com.macacagames.oniondataeditor
+displayName: Onion Data Editor
+description: "Onion æ\x98¯ä¸\x80å\x80\x8Bæ\x96¼ Unity ä½¿ç\x94¨ç\x9A\x84è³\x87æ\x96\x99æª¢è¦\x96è\x88\x87ç·¨è¼¯å·¥å\N·ã\x80\x82"
+repoUrl: 'https://github.com/MacacaGames/OnionDataEditor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622788518923
