@@ -1,0 +1,20 @@
+name: com.jeffjadulco.guidregenerator
+displayName: GUID Regenerator
+description: A Unity editor tool to regenerate GUID for your assets
+repoUrl: 'https://github.com/jeffjadulco/unity-guid-regenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/jeffjadulco/unity-guid-regenerator/raw/c65dc0f5bc6f83d0adc68395872274bd755c8cf4/assets/instructions-1.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622910740139
