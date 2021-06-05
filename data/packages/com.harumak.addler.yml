@@ -1,0 +1,19 @@
+name: com.harumak.addler
+displayName: Addler
+description: 'Preloading, Pooling, Lifetime Management for Unity Addressable Asset System.'
+repoUrl: 'https://github.com/Haruma-K/Addler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/47441314/107220479-b9fc0d80-6a55-11eb-81db-6cd7b855f4fb.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622911552202
