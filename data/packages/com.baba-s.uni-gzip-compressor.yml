@@ -3,8 +3,8 @@ displayName: UniGzipCompressor
 description: 【Unity】gzip で文字列を圧縮する機能
 repoUrl: 'https://github.com/baba-s/UniGzipCompressor'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: 'MIT License'
 topics:
   - data-management
 hunter: JesseTG
