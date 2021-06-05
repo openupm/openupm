@@ -3,8 +3,8 @@ displayName: UniStorage
 description: 【Unity】ストレージの空き容量を返すクラス
 repoUrl: 'https://github.com/baba-s/UniStorage'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: 'MIT License'
 topics:
   - data-management
   - mobile
