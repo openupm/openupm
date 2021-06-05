@@ -14,7 +14,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://camo.githubusercontent.com/7fa9a19d7b570552dda6a82a431575e4b8420098/68747470733a2f2f692e6779617a6f2e636f6d2f61663038643134316537613038623661386532656636306330373333326262662e706e67
-readme: 'package:LICENSE.md'
+readme: 'master:README.md'
 createdAt: 1589416157451
 displayName_zhCN: SpriteDicing
 description_zhCN: Unity组件来宠用sprite贴图区域
