@@ -1,0 +1,20 @@
+name: com.harumak.unityuiplayables
+displayName: Unity UI Playables
+description: A set of tracks and clips for controlling the Unity UI (uGUI) with Timeline.
+repoUrl: 'https://github.com/Haruma-K/UnityUIPlayables'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/47441314/113313016-cf9afe80-9345-11eb-9aa9-422c53b5a3f8.gif'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1622910427542
