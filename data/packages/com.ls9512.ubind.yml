@@ -1,0 +1,26 @@
+name: com.ls9512.ubind
+displayName: UBind
+description: >-
+  UBind is a value binding component for Unity, which is used to quickly realize
+  the association binding between UI and logical data.
+repoUrl: 'https://github.com/ls9512/UBind'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - profiling
+  - visual-scripting
+hunter: ls9512
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ls9512/UBind/raw/c8cf42d35f401a258c949eff88ca5bc981625307/.github/images/UBind_OpenUpmLogo.png
+readme: 'upm:.github/README.md'
+readme_zhCN: 'upm:.github/README_CN.md'
+displayName_zhCN: UBind
+description_zhCN: UBind 是一个适用于 Unity 的数值绑定组件，用于快速实现UI和逻辑数据的关联绑定。
+createdAt: 1623037637952
