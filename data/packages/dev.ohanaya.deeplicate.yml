@@ -1,0 +1,21 @@
+name: dev.ohanaya.deeplicate
+displayName: Deeplicate
+description: Deep copying assets.
+repoUrl: 'https://github.com/c3-hoge-fuga-piyo/Deeplicate.unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/c3-hoge-fuga-piyo/Deeplicate.unity/raw/c947e288c051f2996f846aa04debb4d25a74786d/images/3.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623186680427
