@@ -1,0 +1,19 @@
+name: com.k.upmtestpackage
+displayName: Upm Test
+description: "Upm 测试"
+repoUrl: 'https://github.com/Kong-W/UnityUPM-Test'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623134992935
