@@ -1,0 +1,19 @@
+name: dev.kyubuns.abcconsole
+displayName: AbcConsole
+description: Mobile-friendly debug console system
+repoUrl: 'https://github.com/kyubuns/AbcConsole'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/961165/108616000-c10b1e80-744c-11eb-9fed-af97f620c6b7.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623186522139
