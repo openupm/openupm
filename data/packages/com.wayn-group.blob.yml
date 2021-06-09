@@ -1,0 +1,23 @@
+name: com.wayn-group.blob
+displayName: WAYN Blob
+description: >-
+ Repository of additional unity BlobAsset
+
+repoUrl: 'https://github.com/WAYNGROUP/wayn.blob'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Unity Companion License
+topics:
+  - data-management
+  - dots-and-ecs
+  - parallelism-and-concurrency
+hunter: WAYNGROUP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623066492315
