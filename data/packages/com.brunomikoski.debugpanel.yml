@@ -1,0 +1,26 @@
+name: com.brunomikoski.debugpanel
+displayName: Debug Panel
+description: >-
+  Debug Panel is a runtime tool that enables you to expose fields, methods to be
+  changed/activated by it
+repoUrl: 'https://github.com/brunomikoski/Debug-Panel'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - gui
+  - mobile
+  - utilities
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623332921973
+
