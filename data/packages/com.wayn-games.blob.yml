@@ -1,9 +1,9 @@
-name: com.wayn-group.blob
+name: com.wayn-games.blob
 displayName: WAYN Blob
 description: >-
  Repository of additional unity BlobAsset
 
-repoUrl: 'https://github.com/WAYNGROUP/wayn.blob'
+repoUrl: 'https://github.com/WAYN-Games/Blob'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion License
@@ -11,7 +11,7 @@ topics:
   - data-management
   - dots-and-ecs
   - parallelism-and-concurrency
-hunter: WAYNGROUP
+hunter: WAYN-Games
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
