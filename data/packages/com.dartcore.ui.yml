@@ -1,0 +1,23 @@
+name: com.dartcore.ui
+displayName: DartCore UI
+description: |-
+  This package contains various UI tools ranging from a tooltip
+  system to toggles. DartCore Localization is also fully integrated
+  to the assets provided.
+repoUrl: 'https://github.com/AtaTrkgl/DartCore-UI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - integration
+hunter: AtaTrkgl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2018.1'
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623416642909
