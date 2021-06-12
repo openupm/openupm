@@ -1,0 +1,24 @@
+name: com.cyanilux.shadergraph-to-png
+displayName: Shader Graph To PNG
+description: >-
+  Screenshots a Shader Graph in multiple sections, stitches them together and
+  saves the result as a PNG. To use, right-click in a Shader Graph and select
+  'Graph To PNG'
+repoUrl: 'https://github.com/Cyanilux/ShaderGraphToPNG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cyanilux/ShaderGraphToPNG/raw/f443a9c601d05e19273002b92f59f4af1c503bd2/img.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623525285084
