@@ -1,0 +1,28 @@
+name: com.vamidicreations.storytime
+displayName: StoryTime
+description: >-
+  -- DISCLAIMER --
+  You will need the StoryTime DB application in order to communicate the game
+  data back and forth.
+  StoryTime is package that provides components to make RPG games.
+repoUrl: 'https://github.com/vamidi/StoryTime-UPM'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+  - editor-enhancement
+  - integration
+  - localization
+  - services
+  - utilities
+hunter: vamidi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2019.4'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1623923323927
