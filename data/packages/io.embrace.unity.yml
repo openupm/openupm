@@ -3,8 +3,8 @@ displayName: Embrace Unity SDK
 description: Bringing the power of Embrace to your Unity app
 repoUrl: 'https://github.com/embrace-io/embrace-unity-upm'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - debugging-and-logging
   - mobile
