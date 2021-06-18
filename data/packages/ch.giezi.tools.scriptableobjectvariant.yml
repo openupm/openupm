@@ -1,0 +1,24 @@
+name: ch.giezi.tools.scriptableobjectvariant
+displayName: Giezi's Scriptable Object Variant
+description: >-
+  Adds a field to any scriptable object tagged with the [SOVariant] attribute
+  that lets you select a parent and override selected fields in the child
+  object.
+repoUrl: 'https://github.com/GieziJo/ScriptableObjectVariant'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+hunter: GieziJo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624047122291
