@@ -1,0 +1,22 @@
+name: com.cyanilux.shadergraph-variables
+displayName: Shader Graph Variables
+description: >-
+  Adds Register Variable and Get Variable nodes to Shader Graph, allowing you to
+  link sections of a graph without connection wires
+repoUrl: 'https://github.com/Cyanilux/ShaderGraphVariables'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - visual-scripting
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/69320946/122465638-3e384180-cfb0-11eb-8912-30dc00234a46.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624113790721
