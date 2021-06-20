@@ -1,0 +1,25 @@
+name: com.openai.unity
+displayName: OpenAI
+description: An OpenAI package for the Unity Game Engine.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.openai.unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - integration
+  - localization
+  - network
+  - procedural-generation
+  - services
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RageAgainstThePixel/com.openai.unity/raw/5bb49be74b664e29b4e139acc376039fcc6f5a60/OpenAI/Packages/com.openai.unity/Runtime/Icons/open-ai-icon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624199077093
