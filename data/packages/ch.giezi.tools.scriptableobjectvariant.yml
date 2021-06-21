@@ -12,11 +12,13 @@ topics:
   - asset-management
   - code-generation
   - editor-enhancement
+  - data-management
+  - utilities
 hunter: GieziJo
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/SOVariantCover.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
