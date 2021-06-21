@@ -1,0 +1,19 @@
+name: com.aarthificial.pixelgraphics
+displayName: Pixel Graphics
+description: A collection of pixel art visual effects
+repoUrl: 'https://github.com/aarthificial/pixelgraphics'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/dca3c9ddadb2c4c51e3f580ab18ad5977264705eed71f5cf58be627b481c334e/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6563595776664d6f52494d2f6d617872657364656661756c742e6a7067'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624294154791
