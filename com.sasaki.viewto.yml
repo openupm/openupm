@@ -1,0 +1,19 @@
+name: com.sasaki.viewto
+displayName: ViewTo
+description: View Analysis GPU Tool
+repoUrl: 'https://github.com/haitheredavid/viewto-unity'
+parentRepoUrl: null
+licenseSpdxId: AFL-1.1
+licenseName: Academic Free License v1.1
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2020.3'
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624305551885
