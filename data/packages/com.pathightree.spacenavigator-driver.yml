@@ -1,0 +1,26 @@
+name: com.pathightree.spacenavigator-driver
+displayName: SpaceNavigator Driver
+description: >-
+  Driver for 3DConnexion devices
+
+  This driver lets you fly around your scene and allows you to move items
+  around.
+
+  It can also be used at runtime via scripting.
+repoUrl: 'https://github.com/PatHightree/SpaceNavigator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - utilities
+hunter: hybridherbst
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0-alpha.1
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624363570097
