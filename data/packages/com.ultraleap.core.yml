@@ -1,0 +1,28 @@
+name: com.ultraleap.core
+displayName: Ultraleap.Core
+description: >-
+  This Unity Asset is dependent on Leap Motion tracking and the Leap Motion
+  Controller which can be installed from: https://developer.leapmotion.com/
+repoUrl: 'https://github.com/RageAgainstThePixel/com.ultraleap.core'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - camera
+  - debugging-and-logging
+  - input-management
+  - integration
+  - physics
+  - services
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RageAgainstThePixel/com.ultraleap.core/raw/554c3cd771533dde4097a2f4b7abe6135e3e5da4/Ultraleap%20Core/Packages/com.ultraleap.core/Editor/Resources/LM_Logo_Black.png
+readme: 'main:Ultraleap Core/Packages/com.ultraleap.core/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624379292545
