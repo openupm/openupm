@@ -1,0 +1,27 @@
+name: com.ultraleap.interaction-engine
+displayName: Ultraleap.Interaction-Engine
+description: >-
+  A Non-Official Mirror of the Leap Motion Interaction Engine as a UPM package
+  for the Unity Game Engine.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.ultraleap.interaction-engine'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - frameworks
+  - input-management
+  - integration
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RageAgainstThePixel/com.ultraleap.core/raw/554c3cd771533dde4097a2f4b7abe6135e3e5da4/Ultraleap%20Core/Packages/com.ultraleap.core/Editor/Resources/LM_Logo_Black.png
+readme: 'main:Interaction-Engine/Packages/com.ultraleap.interaction-engine/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624381819796
