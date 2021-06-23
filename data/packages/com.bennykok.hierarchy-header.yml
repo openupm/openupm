@@ -1,0 +1,19 @@
+name: com.bennykok.hierarchy-header
+displayName: Hierarchy Header
+description: 'Text based simple hierarchy header, no fancy magic, just works'
+repoUrl: 'https://github.com/BennyKok/unity-hierarchy-header'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/72017259163d015564012ef701c3815fb43a0c76c481b0e2e284e12b457f85e6/68747470733a2f2f696d6775722e636f6d2f335a6e736758332e676966'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624460369982
