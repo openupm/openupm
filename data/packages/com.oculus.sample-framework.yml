@@ -14,7 +14,8 @@ hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://raw.githubusercontent.com/RageAgainstThePixel/com.oculus.unity-integration/development/Oculus%20Unity-Integration/Packages/com.oculus.unity-integration/Runtime/VR/Textures/Logos/OculusLogo.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
