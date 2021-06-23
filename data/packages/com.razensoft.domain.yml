@@ -1,0 +1,19 @@
+name: com.razensoft.domain
+displayName: Razensoft.Domain
+description: DDD library for C# and Unity
+repoUrl: 'https://github.com/Razenpok/Razensoft.Domain'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624476085791
