@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.utilities.objectstateswitcher.unity
+displayName: Tilia Utilities ObjectStateSwitcher Unity
+description: >-
+  Manages the activation state of a Unity GameObject collection and ensures only
+  one Unity GameObject is active at any time.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Utilities.ObjectStateSwitcher.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Utilities.ObjectStateSwitcher.Unity/raw/bf56281328cfb44f9f8c1b66fdfcb6e80b2c153a/Documentation/HowToGuides/AddingAnObjectStateSwitcher/assets/images/UnityXRCameraRigAutomaticallyDisabled.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624566460879
