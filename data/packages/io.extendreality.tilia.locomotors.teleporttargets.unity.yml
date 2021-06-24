@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.locomotors.teleporttargets.unity
+displayName: Tilia Locomotors TeleportTargets Unity
+description: >-
+  A collection of prefabs that provide a specific point or area location to
+  specify a valid teleport location for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Locomotors.TeleportTargets.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624578904881
