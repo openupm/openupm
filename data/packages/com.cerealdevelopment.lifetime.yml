@@ -1,0 +1,19 @@
+name: com.cerealdevelopment.lifetime
+displayName: Lifetime
+description: Objects lifetime management
+repoUrl: 'https://github.com/cerea1/Lifetime'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624554137867
