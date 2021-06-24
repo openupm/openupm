@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.interactions.spatialbuttons.unity
+displayName: Tilia Interactions SpatialButtons Unity
+description: >-
+  User interface button types that can be used within a spatial environment for
+  the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Interactions.SpatialButtons.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Interactions.SpatialButtons.Unity/raw/4d1868adefe6f0efc94f59b1e051b4f770d7f781/Documentation/HowToGuides/AddingOptionButtons/assets/images/ClickOnOptionButtonInScene.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624578953558
