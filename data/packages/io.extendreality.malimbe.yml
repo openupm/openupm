@@ -1,0 +1,19 @@
+name: io.extendreality.malimbe
+displayName: Malimbe
+description: A collection of tools to simplify writing public API components in Unity.
+repoUrl: 'https://github.com/ExtendRealityLtd/Malimbe'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/malimbe.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624562922112
