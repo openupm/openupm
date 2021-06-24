@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.visuals.interactablehighlighter.unity
+displayName: Tilia Visuals InteractableHighlighter Unity
+description: >-
+  Provides the ability to control a highlight state for an interactable object
+  for the Unity software.
+repoUrl: >-
+  https://github.com/ExtendRealityLtd/Tilia.Visuals.InteractableHighlighter.Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624567243251
