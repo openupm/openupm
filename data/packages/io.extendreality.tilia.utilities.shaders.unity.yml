@@ -1,0 +1,20 @@
+name: io.extendreality.tilia.utilities.shaders.unity
+displayName: Tilia Utilities Shaders Unity
+description: A collection of custom shaders for the Unity Software
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624639079346
