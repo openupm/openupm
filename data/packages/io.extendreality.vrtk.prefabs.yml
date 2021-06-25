@@ -1,0 +1,21 @@
+name: io.extendreality.vrtk.prefabs
+displayName: VRTK Prefabs
+description: >-
+  A collection of productive prefabs for rapidly building spatial computing
+  solutions in the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/VRTK.Prefabs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/1029673/40060519-bb122e8c-584e-11e8-8402-ca168b327671.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624638992256
