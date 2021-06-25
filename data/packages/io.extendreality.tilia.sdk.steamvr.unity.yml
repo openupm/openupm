@@ -1,0 +1,20 @@
+name: io.extendreality.tilia.sdk.steamvr.unity
+displayName: Tilia SDK SteamVR Unity
+description: SDK Wrappers for the SteamVR Unity asset.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.SDK.SteamVR.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624583803046
