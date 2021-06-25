@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.mutators.collisionignorer.unity
+displayName: Tilia Mutators CollisionIgnorer Unity
+description: >-
+  Manages the collision states between a collection of GameObjects in the scene
+  for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity/raw/cd4483111d8ebe7154c650d9e4117d1fc8fea7e8/Documentation/HowToGuides/AddingACollisionIgnorer/assets/images/PlayingTheUnitySceneWithCollisionsIgnored.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624583940054
