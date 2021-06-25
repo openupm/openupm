@@ -1,0 +1,23 @@
+name: com.benkuper.oscquery
+displayName: OSCQuery
+description: Seamless OSCQuery integration in Unity.
+repoUrl: 'https://github.com/benkuper/Unity-OSCQuery'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: GPL v3
+topics:
+  - data-management
+  - input-management
+  - integration
+  - network
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624633556248
