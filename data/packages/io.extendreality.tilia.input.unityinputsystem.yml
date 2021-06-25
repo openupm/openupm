@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.input.unityinputsystem
+displayName: Tilia Input UnityInputSystem
+description: >-
+  Input wrappers for the Unity Input System and a collection of common input
+  prefabs.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624584112241
