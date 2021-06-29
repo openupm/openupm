@@ -1,0 +1,25 @@
+name: com.fonts.material-icons
+displayName: Material-Icons Font
+description: >-
+  Material design icons is the official icon set from Google. They can be
+  browsed at https://fonts.google.com/icons.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.fonts.material-icons'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - 2d
+  - gui
+  - integration
+  - localization
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RageAgainstThePixel/com.fonts.material-icons/raw/b55c0c987528abe1594a033b809134e2e0bad0f4/Fonts.Material-Icons/Packages/com.fonts.material-icons/Documentation~/images/opengraph_color.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624937373161
