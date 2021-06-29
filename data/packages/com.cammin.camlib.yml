@@ -1,0 +1,20 @@
+name: com.cammin.camlib
+displayName: CamLib
+description: Cammin's personal Unity utility library.
+repoUrl: 'https://github.com/Cammin/CamLib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Cammin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624990362253
