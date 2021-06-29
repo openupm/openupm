@@ -1,5 +1,5 @@
-name: com.google.fonts.roboto
-displayName: Google.Fonts.Roboto
+name: com.fonts.roboto
+displayName: Roboto Font
 description: >-
   Roboto has a dual nature. It has a mechanical skeleton and the forms are
   largely geometric. At the same time, the font features friendly and open
@@ -16,7 +16,7 @@ description: >-
   Designer
 
   Christian Robertson
-repoUrl: 'https://github.com/RageAgainstThePixel/com.google.fonts.roboto'
+repoUrl: 'https://github.com/RageAgainstThePixel/com.fonts.roboto'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
@@ -29,8 +29,8 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/RageAgainstThePixel/com.google.fonts.roboto/raw/866db7d90209014f2fd0112b7149241f1dbd4930/Google.Fonts.Roboto/Packages/com.google.fonts.roboto/Editor/google-fonts-icon.png
-readme: 'main:Google.Fonts.Roboto/Packages/com.google.fonts.roboto/README.md'
+  https://raw.githubusercontent.com/RageAgainstThePixel/com.fonts.roboto/development/Fonts.Roboto/Packages/com.fonts.roboto/Documentation~/images/opengraph_color.png
+readme: 'main:Fonts.Roboto/Packages/com.fonts.roboto/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
