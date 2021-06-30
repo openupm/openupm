@@ -1,0 +1,22 @@
+name: dev.chsxf.autoscene
+displayName: AutoScene
+description: >-
+  AutoScene allows you to work on your Unity scene setup in the editor while
+  loading a specific scene when entering Play mode.
+repoUrl: 'https://github.com/chsxf/AutoScene'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1625065827658
