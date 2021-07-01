@@ -1,0 +1,19 @@
+name: com.kdmagic.susmachine
+displayName: Simple Unity State Machine
+description: A finite state machine library built for Unity.
+repoUrl: 'https://github.com/JamesYFC/SUSMachine'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1625165636702
