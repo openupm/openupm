@@ -1,0 +1,20 @@
+name: com.pluto.xrpk-exporter
+displayName: Pluto XR Package Exporter
+description: Export your Unity Project as a WebXR XR Package
+repoUrl: 'https://github.com/PlutoVR/unity-xrpk-exporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: michaelhazani 
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/PlutoVR/unity-xrpk-exporter/raw/76b90584eb2bf9e5b8b16cd06eaba13cd1ac1808/Hidden~/WebGLTemplates/XRPK/thumbnail.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1625272297057
