@@ -1,0 +1,19 @@
+name: com.seb-lague.path-creator
+displayName: Path Creator
+description: Tool for drawing splines
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/Path-Creator'
+parentRepoUrl: 'https://github.com/SebLague/Path-Creator'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626098395113
