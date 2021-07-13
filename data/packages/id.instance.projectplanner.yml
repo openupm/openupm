@@ -14,7 +14,7 @@ hunter: instance-id
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://raw.githubusercontent.com/instance-id/Project-Planner/master/readme%20image.png'
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
