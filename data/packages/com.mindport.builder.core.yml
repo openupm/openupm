@@ -1,0 +1,20 @@
+name: com.mindport.builder.core
+displayName: VR Builder Core
+description: VR Builder core functionality.
+repoUrl: 'https://github.com/VaLiuM09/VPG-Core'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/VaLiuM09/VPG-Core/raw/0d4212bd298055d638a9ef72c3b5d50f6276cd31/VPG/Documentation/images/createSnapZone.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626389758377
