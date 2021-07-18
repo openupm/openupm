@@ -1,0 +1,19 @@
+name: com.doubtech.equationevaluator
+displayName: DoubTech - Equation Evaluator
+description: Tools evaluating string based equations
+repoUrl: 'https://github.com/yolanother/UnityEquationEvaluator'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626583140046
