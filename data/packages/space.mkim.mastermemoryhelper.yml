@@ -1,0 +1,22 @@
+name: space.mkim.mastermemoryhelper
+displayName: MasterMemoryHelper
+description: >-
+  Generate MasterMemory required script or generate binary data from csv for one
+  click.
+repoUrl: 'https://github.com/piti6/MasterMemoryHelper'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/19143280/81119132-285eed00-8f65-11ea-8be8-30d56e4d037a.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626791077373
