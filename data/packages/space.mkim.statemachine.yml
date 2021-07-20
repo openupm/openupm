@@ -1,0 +1,19 @@
+name: space.mkim.statemachine
+displayName: StateMachine
+description: ''
+repoUrl: 'https://github.com/piti6/StateMachine'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626791267598
