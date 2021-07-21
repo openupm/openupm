@@ -1,0 +1,19 @@
+name: com.ronpad.signals
+displayName: Com.RonPad.Signals
+description: Think Outside the Event
+repoUrl: 'https://github.com/rontian/Com.RonPad.Signals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: rontian
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626835782682
