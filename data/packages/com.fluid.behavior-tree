@@ -1,0 +1,21 @@
+name: com.fluid.behavior-tree
+displayName: Fluid Behavior Tree
+description: >-
+  Behavior trees for Unity3D projects. Written with a code driven approach on
+  the builder pattern.
+repoUrl: 'https://github.com/ashblue/fluid-behavior-tree'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: shniqq
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ashblue/fluid-behavior-tree/raw/bd37b4d7ce73126f129421653e35894a6dcb0501/fluid-behavior-tree.jpg
+readme: 'master:README.md'
+createdAt: 1602708183048
