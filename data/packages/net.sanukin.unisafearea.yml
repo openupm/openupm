@@ -1,0 +1,20 @@
+name: net.sanukin.unisafearea
+displayName: UniSafeArea
+description: Support safe area for uGUI
+repoUrl: 'https://github.com/sanukin39/UniSafeArea'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sanukin39/UniSafeArea/raw/e59cb141fb098782ff5f41ea2fc75e37d44bff0f/images/demo.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627048189865
