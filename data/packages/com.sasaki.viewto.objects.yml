@@ -1,0 +1,20 @@
+name: com.sasaki.viewto.objects
+displayName: viewto objects
+description: ViewObjects for Unity
+repoUrl: 'https://github.com/haitheredavid/viewto-unity'
+parentRepoUrl: null
+licenseSpdxId: AFL-1.1
+licenseName: Academic Free License v1.1
+topics:
+  - data-management
+  - frameworks
+hunter: haitheredavid
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm-viewobject:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627071551673
