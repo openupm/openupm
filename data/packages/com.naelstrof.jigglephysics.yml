@@ -1,0 +1,22 @@
+name: com.naelstrof.jigglephysics
+displayName: Jiggle Physics
+description: Soft-body squash-and-stretch physics for SkinnedMeshRenderers.
+repoUrl: 'https://github.com/naelstrof/UnityJigglePhysics'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - physics
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/naelstrof/UnityJigglePhysics/raw/f7dfb12658917221b9b8252a2c726dd5daa78f0c/breakdanceDemo.gif
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627167862423
