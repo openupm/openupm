@@ -1,0 +1,20 @@
+name: com.naelstrof.skinnedmeshdecals
+displayName: Skinned Mesh Decals
+description: 'Renders decals on arbitrary meshes, for any pipeline.'
+repoUrl: 'https://github.com/naelstrof/SkinnedMeshDecals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - painting
+  - utilities
+hunter: naelstrof
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627164478098
