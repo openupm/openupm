@@ -12,7 +12,8 @@ hunter: naelstrof
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://github.com/naelstrof/SkinnedMeshDecals/raw/e279616e3080eeae6d68d2c27a9e7285b5516335/showcase.gif
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
