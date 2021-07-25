@@ -1,0 +1,21 @@
+name: com.matthewminer.bigimagerecorder
+displayName: Big Image Recorder
+description: Recorder to capture image sequences that exceed Unity's maximum texture size.
+repoUrl: 'https://github.com/mminer/big-image-recorder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/mminer/big-image-recorder/raw/80befb9b71d460237dc656280774724254321f6b/Documentation~/tiles-stitched.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627223114601
