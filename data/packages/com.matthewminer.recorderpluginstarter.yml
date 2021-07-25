@@ -1,0 +1,20 @@
+name: com.matthewminer.recorderpluginstarter
+displayName: Recorder Plugin Starter
+description: Bare-bones Recorder plugin to use as starting point.
+repoUrl: 'https://github.com/mminer/recorder-plugin-starter'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - camera
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627223158981
