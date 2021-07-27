@@ -12,7 +12,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
