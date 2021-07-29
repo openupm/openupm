@@ -1,0 +1,20 @@
+name: com.mpewsey.hexagonal-ui
+displayName: HexagonalUI
+description: A hexagonal grid layout group for Unity.
+repoUrl: 'https://github.com/mpewsey/HexagonalUI'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/mpewsey/HexagonalUI/raw/2e73c4a206061bc361c49df4bbaf327a7956660d/HexLayoutGroup.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627564784493
