@@ -1,0 +1,20 @@
+name: com.alelievr.hdrp-ui-camera-stacking
+displayName: HDRP UI Camera Stacking
+description: Adds support for camera stacking in HDRP ONLY FOR UI
+repoUrl: 'https://github.com/alelievr/HDRP-UI-Camera-Stacking'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - gui
+hunter: alelievr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627663834366
