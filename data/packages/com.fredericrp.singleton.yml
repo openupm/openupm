@@ -1,0 +1,22 @@
+name: com.fredericrp.singleton
+displayName: FRP Singleton
+description: >-
+  A generic singleton: a singleton is a development pattern that prevents having
+  multiple instances of the same component in a scene. It allows also any script
+  to access this one wihout requiring a manual link between the two.
+repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: singleton
+gitTagIgnore: ''
+minVersion: '1.2'
+image: null
+readme: 'primary:Singleton/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628019236696
