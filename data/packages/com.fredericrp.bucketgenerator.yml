@@ -1,0 +1,20 @@
+name: com.fredericrp.bucketgenerator
+displayName: FredericRP Bucket Generator
+description: 'a Bucket, or Bean, generator to improve your random set.'
+repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: bucket
+gitTagIgnore: ''
+minVersion: '1.2'
+image: >-
+  https://github.com/FredericRP/Standard-Assets/raw/47db55d7d0da27622c9683cdaf5f27be7e1d60de/BucketGenerator/Documentation~/images/bucket.png
+readme: 'primary:BucketGenerator/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628019502837
