@@ -1,0 +1,21 @@
+name: com.zibra.liquids-free
+displayName: Zibra AI - Liquids Free
+description: >-
+  Real-time liquid simulation plugin (GPU), powered by AI. New game mechanics &
+  gameplay, graphics refining, game performance improvement. Ease of use.
+repoUrl: 'https://github.com/ZibraAI/com.zibra.liquids-free'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: alex-puchka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ZibraAI/com.zibra.liquids-free/raw/699a0acd6628a8eeb9e6fe03fbe7953fdc93c876/Editor/Art/Icons/About/za_logo_simple.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628077995968
