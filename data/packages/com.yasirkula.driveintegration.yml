@@ -1,0 +1,24 @@
+name: com.yasirkula.driveintegration
+displayName: Google Drive Integration for Unity Editor
+description: >-
+  This plugin helps you access your Google Drive files from within Unity editor.
+  You can easily download these files to your Unity project or see the recent
+  changes made to a file/folder.
+repoUrl: 'https://github.com/yasirkula/UnityEditorGoogleDriveIntegration'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - integration
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628114251329
