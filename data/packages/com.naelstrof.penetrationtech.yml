@@ -1,0 +1,24 @@
+name: com.naelstrof.penetrationtech
+displayName: Penetration Tech
+description: >-
+  Tools that help analyze, animate, and work with penetrators and orifices for
+  sexual activities.
+repoUrl: 'https://github.com/naelstrof/UnityPenetrationTech'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - modeling
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/naelstrof/UnityPenetrationTech/raw/92c5d32f69ca32d14f7aad2a008c82ede82bf125/18.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628175547512
