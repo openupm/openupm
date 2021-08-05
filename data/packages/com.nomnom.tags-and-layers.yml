@@ -1,0 +1,21 @@
+name: com.nomnom.tags-and-layers
+displayName: Nomnom's Tags And Layers
+description: >-
+  This asset allows users to use tags and layers without resorting to using
+  strings for value lookups.
+repoUrl: 'https://github.com/nomnomab/TagsAndLayers'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628175300905
