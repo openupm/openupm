@@ -1,0 +1,20 @@
+name: com.quabug.blob-editor
+displayName: BlobEditor
+description: Inspector-editor of blob asset
+repoUrl: 'https://github.com/quabug/BlobEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: Blob编辑器
+description_zhCN: ''
+createdAt: 1628700831608
