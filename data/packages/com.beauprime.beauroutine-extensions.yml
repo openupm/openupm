@@ -1,0 +1,20 @@
+name: com.beauprime.beauroutine-extensions
+displayName: BeauRoutine Extensions
+description: Coroutine and tweening framework for Unity3D
+repoUrl: 'https://github.com/BeauPrime/BeauRoutine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628722320304
