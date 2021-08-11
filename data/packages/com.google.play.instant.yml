@@ -1,0 +1,23 @@
+name: com.google.play.instant
+displayName: Google Play Instant
+description: >-
+  The Google Play Instant package simplifies the conversion of an Android app
+  into an instant app that can be deployed through Google Play.
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - mobile
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://developer.android.com/topic/google-play-instant/images/unity-plugin-player-settings.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628723208289
