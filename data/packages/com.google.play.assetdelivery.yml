@@ -1,0 +1,24 @@
+name: com.google.play.assetdelivery
+displayName: Google Play Asset Delivery
+description: >-
+  Play Asset Delivery enables AssetBundles and other assets to be packaged into
+  an Android App Bundle and delivered through Google Play.
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - integration
+  - mobile
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://developer.android.com/images/app-bundle/unity-asset-delivery-method-per-bundle.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628722982893
