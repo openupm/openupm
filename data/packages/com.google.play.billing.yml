@@ -1,0 +1,30 @@
+name: com.google.play.billing
+displayName: Google Play Billing Library
+description: >-
+  Package contains Google Play Billing Library, which is required to sell
+  digital content and subscriptions in games distributed via Google Play. This
+  new version of the Google Play Billing Library provides all of the features
+  available in the current Java and Kotlin versions.
+
+
+  To use this package, you must agree to the licenses for this Google Play
+  Plugin and the Google Play Billing Library. If you do not agree with the
+  licenses, you may not use this package.
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - mobile
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://developer.android.com/images/google/play/billing/import-unity-package.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628723072649
