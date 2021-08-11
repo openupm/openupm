@@ -1,0 +1,23 @@
+name: com.google.android.appbundle
+displayName: Google Android App Bundle
+description: >-
+  The Google Android App Bundle package provides access to the latest Android
+  App Bundles features, such as Play Asset Delivery.
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - integration
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://developer.android.com/images/app-bundle/unity-asset-delivery-method-per-bundle.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628722761483
