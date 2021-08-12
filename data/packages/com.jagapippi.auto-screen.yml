@@ -1,0 +1,26 @@
+name: com.jagapippi.auto-screen
+displayName: AutoScreen for Device Simulator
+description: >-
+  This plugin provide a smart solution for Safe Area.
+
+  By using the provided components, you can quickly check the safe area in
+  Device Simulator.
+
+  This is achieved by transforming the RectTransform, but the changes are not
+  saved, so version control systems such as git will not make any difference.
+repoUrl: 'https://github.com/su10/AutoScreen-for-Device-Simulator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628781974596
