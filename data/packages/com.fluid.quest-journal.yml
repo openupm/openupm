@@ -1,0 +1,21 @@
+name: com.fluid.quest-journal
+displayName: Unity Quest Journal
+description: >-
+  A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and
+  The Witcher 3's task managment system.
+repoUrl: 'https://github.com/ashblue/unity-quest-journal'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628730546346
