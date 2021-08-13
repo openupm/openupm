@@ -1,0 +1,23 @@
+name: com.rahul-corleone.magic-layout
+displayName: Magic Layout
+description: >-
+  Magic Layout is simple but powerfull editor tool to resize your unity editor
+  windows as you liked. After installing, just start to setup your editor layout
+  in your favorite way.
+repoUrl: 'https://github.com/r4hulCorleone/unity-magic-layout'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/r4hulCorleone/unity-magic-layout/raw/ff61affadae55670898dd4607bf85cbcaaa2777f/Documentation/images/logo-transparent.png
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628875010992
