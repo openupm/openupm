@@ -1,0 +1,20 @@
+name: com.uzimaru0000.unitea
+displayName: UniTEA
+description: Implementation of The Elm Architecture for Unity3D
+repoUrl: 'https://github.com/uzimaru0000/UniTEA'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+  - utilities
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628879205876
