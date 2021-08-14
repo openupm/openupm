@@ -9,7 +9,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - editor-enhancement
+  - editor-enhancement - utilities
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
