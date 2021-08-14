@@ -1,8 +1,8 @@
 name: com.rahul-corleone.magic-layout
 displayName: Magic Layout
 description: >-
-  Magic Layout is simple but powerfull editor tool to resize your unity editor
-  windows as you liked. After installing, just start to setup your editor layout
+  Magic Layout is simple and powerfull editor tool to organize your unity editor
+  workspace. After installing, just setup your editor layout
   in your favorite way.
 repoUrl: 'https://github.com/r4hulCorleone/unity-magic-layout'
 parentRepoUrl: null
