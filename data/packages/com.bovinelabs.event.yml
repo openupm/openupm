@@ -1,0 +1,19 @@
+name: com.bovinelabs.event
+displayName: BovineLabs Event
+description: Event System.
+repoUrl: 'https://github.com/tertle/com.bovinelabs.event'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629064550092
