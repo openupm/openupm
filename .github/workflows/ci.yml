@@ -53,13 +53,11 @@ jobs:
         target_host: [HOST_UPM_API, HOST_CN]
     steps:
     - name: deploy
-      uses: maddox/actions/ssh@master
-      env:
-        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: ${{ secrets[matrix.target_host] }}
-        USER: ${{ secrets.USER }}
+      uses: JimCronqvist/action-ssh@master
       with:
-        args: |
+        privateKey: ${{ secrets.PRIVATE_KEY }}
+        hosts: ${{ secrets.USER }}@${{ secrets[matrix.target_host] }}
+        command: |
             cd /home/openupm/openupm
             git checkout -- yarn.lock
             [ -f /usr/bin/pgit ] && GIT_BIN=pgit || GIT_BIN=git
@@ -74,13 +72,11 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - name: deploy
-      uses: maddox/actions/ssh@master
-      env:
-        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: ${{ secrets.HOST_UPM_BUILD }}
-        USER: ${{ secrets.USER }}
+      uses: JimCronqvist/action-ssh@master
       with:
-        args: |
+        privateKey: ${{ secrets.PRIVATE_KEY }}
+        hosts: ${{ secrets.USER }}@${{ secrets.HOST_UPM_BUILD }}
+        command: |
             cd /home/openupm/openupm
             git checkout -- yarn.lock
             git pull -q
@@ -151,11 +147,9 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - name: deploy website
-      uses: maddox/actions/ssh@master
-      env:
-        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: ${{ secrets.HOST_CN }}
-        USER: ${{ secrets.USER }}
+      uses: JimCronqvist/action-ssh@master
       with:
-        args: |
+        privateKey: ${{ secrets.PRIVATE_KEY }}
+        hosts: ${{ secrets.USER }}@${{ secrets.HOST_CN }}
+        command: |
             /home/openupm/openupm-devops/scripts/deploy-website-cn.sh
