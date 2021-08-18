@@ -1,0 +1,19 @@
+name: jp.amagamina.overdraw-for-urp
+displayName: OverdrawForURP
+description: It's scene overdraw view available in Universal Render Pipeline.
+repoUrl: 'https://github.com/ina-amagami/OverdrawForURP'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ina-amagami
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.2
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README_EN.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629234241608
