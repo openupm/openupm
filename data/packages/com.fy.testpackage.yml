@@ -1,0 +1,19 @@
+name: com.fy.testpackage
+displayName: my testpackage
+description: this is my testpackage
+repoUrl: 'https://github.com/TMachineHerald/Fy_DataProcesser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629443723949
