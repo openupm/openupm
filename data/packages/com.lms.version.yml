@@ -1,0 +1,19 @@
+name: com.lms.version
+displayName: Lotte's Versioning System
+description: A SUPER simple auto build version tool
+repoUrl: 'https://github.com/LotteMakesStuff/LMS.Version'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LotteMakesStuff/LMS.Version/raw/a4c7bb4dd33ea2d25799f9dca14a8598c9fce8ea/Docs/IngameVersionExample.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629458588918
