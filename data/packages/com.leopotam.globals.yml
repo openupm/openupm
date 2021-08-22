@@ -1,0 +1,19 @@
+name: com.leopotam.globals
+displayName: Leopotam Globals
+description: Globals access patterns for LeoECS Entity Component System framework.
+repoUrl: 'https://github.com/Leopotam/globals'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629647310197
