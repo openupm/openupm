@@ -1,0 +1,23 @@
+name: com.solidalloy.generic-scriptable-architecture
+displayName: Generic ScriptableObject Architecture
+description: >-
+  ScriptableObject architecture with small, easy-to-expand codebase, and simple
+  UI.
+repoUrl: 'https://github.com/SolidAlloy/GenericScriptableArchitecture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629661296704
