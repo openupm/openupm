@@ -8,6 +8,7 @@ scopes:
 - com.unity.demoteam.digital-human.sample
 - com.kirbyrawr
 - org.visualpinball
+- com.sasaki.viewto
 # packages that hosting on https://github.com/xoofx/UnityNuGet
 - org.nuget
 # packages already published on Unity official registry
