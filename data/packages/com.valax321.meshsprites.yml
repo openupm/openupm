@@ -1,0 +1,23 @@
+name: com.valax321.meshsprites
+displayName: Mesh Sprite
+description: >-
+  Component for sprite rendering via mesh renderers. Allows for full unity
+  lighting on sprites.
+repoUrl: 'https://github.com/Valax321/MeshSprites'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - sprite-management
+hunter: Valax321
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Valax321/MeshSprites/raw/4716fc62c17a8333833551abab3e5768de0e3abb/Documentation~/images/preview.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626059642284

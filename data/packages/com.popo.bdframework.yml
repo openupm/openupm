@@ -1,0 +1,19 @@
+name: com.popo.bdframework
+displayName: BDFramework
+description: "---更新记录---\r\n## V2.0.7 beta\r\n【Excel2Sqlite】\r\n- 增加excel空数据的检测\r\n- 增加excel2call导出到策划目录\r\n\r\n【UniTest】\r\n- 修复UPM版本的测试用例功能\r\n\r\n## V2.0.6\r\n【Editor】\r\n- 增加Excel导表回调，用以做表格检测\r\n\r\nV2.0.5\r\n【Editor】\r\n- Auto build dll 修改编译时机，解决play模式退出无法自动编译的bug\r\n\r\n【UIManager】\r\n- 制定UIMsgData规范\r\n- 修改UIMsg为UIMsgListener  \r\n\r\n## V2.0.4\r\n【Editor】\r\n - 增加一个编辑器启动引导界面\r\n - 增加odin加入时相关异常处理\r\n - 修复编辑器无Odin时语法报错问题\r\n\r\n## V2.0.3\r\n【UIManager】\r\n- 增加DI支持（依赖注入）\r\n\r\n## V2.0.2\r\n【Sqlite】\r\n- 增加自定义字段导出\r\n- 增加自定义记录导出\r\n- 增加本地服务器双db导出\r\n\r\n## V2.0.1\r\n【BDLauncher】\r\n - 启动速度优化\r\n\r\n【Script】\r\n  - Editor：增加自动编译热更DLL功能\r\n  - Runtime：增加反射获取Attribute接口\r\n\r\n【Excel2Sqlite】\r\n - 增加若干功能：自动导表等\r\n\r\n【UFlux】\r\n - 增加AutoInitComponentAttribute，且可自定义\r\n - 增加ButtonOnclick\r\n - 修改TransformPath实现\r\n\r\n【AssetBundleV2】\r\n - 修复部分情况下异步加载顺序出错\r\n\r\n## V2.0.0\r\n - 全面流程优化全新升级，部分业务重构."
+repoUrl: 'https://github.com/yimengfan/BDFramework.Core'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+hunter: yimengfan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:Packages/com.popo.bdframework/README.md'
+displayName_zhCN: BDFramework
+description_zhCN: 高效的unity3d开发框架。
+createdAt: 1629020599834

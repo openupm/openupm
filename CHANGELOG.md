@@ -1,3 +1,10 @@
+## [1.49.6](https://github.com/openupm/openupm/compare/1.49.5...1.49.6) (2021-08-16)
+
+
+### Bug Fixes
+
+* **ci:** switch to JimCronqvist/action-ssh@master ([fb75a63](https://github.com/openupm/openupm/commit/fb75a63358d800267c5f2edfd6ae58840bea82b5))
+
 ## [1.49.5](https://github.com/openupm/openupm/compare/1.49.4...1.49.5) (2021-05-16)
 
 

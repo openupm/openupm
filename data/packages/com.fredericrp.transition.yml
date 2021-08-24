@@ -1,0 +1,25 @@
+name: com.fredericrp.transition
+displayName: FRP Transition prefabs
+description: >-
+  Between scenes, to hide loading time, you have to show a transition screen.
+  Those two prefabs allow you to call the transition to be shown or hidden.
+  Subscribe to its events to know when you can load something behind the players
+  back.
+repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: ''
+gitTagPrefix: screenTransition
+gitTagIgnore: ''
+minVersion: '1.2'
+image: >-
+  https://github.com/FredericRP/Standard-Assets/raw/47db55d7d0da27622c9683cdaf5f27be7e1d60de/ScreenTransitions/Documentation~/images/transition_demo.gif
+readme: 'primary:ScreenTransitions/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628065269700

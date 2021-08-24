@@ -1,0 +1,20 @@
+name: net.sanukin.unimeshtransformer
+displayName: UniMeshTransformer
+description: Simple mesh transform tool for Unity
+repoUrl: 'https://github.com/sanukin39/UniMeshTransformer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sanukin39/UniMeshTransformer/raw/6ae3611bb002d4b0a7605a2ad15686e4dd559444/images/demo.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627048373942

@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.trackers.colliderfollower.unity
+displayName: Tilia Trackers ColliderFollower Unity
+description: >-
+  A collider that follows a source GameObject around the scene via rigidbody
+  velocity within the Unity physics system.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Trackers.ColliderFollower.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Trackers.ColliderFollower.Unity/raw/e0dc65bfb09b708a36934767889b06cfd89690a8/Documentation/HowToGuides/AddingAColliderFollower/assets/images/DisableSphere.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624579047750

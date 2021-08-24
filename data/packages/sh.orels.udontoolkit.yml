@@ -1,0 +1,22 @@
+name: sh.orels.udontoolkit
+displayName: Udon Toolkit
+description: A set of purpose-built Udon Behaviours and tools to make your own
+repoUrl: 'https://github.com/orels1/UdonToolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629342213841

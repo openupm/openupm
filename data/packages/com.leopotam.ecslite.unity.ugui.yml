@@ -1,0 +1,21 @@
+name: com.leopotam.ecslite.unity.ugui
+displayName: LeoECS Lite uGui Bindings
+description: uGui bindings for LeoECS Lite.
+repoUrl: 'https://github.com/Leopotam/ecslite-unity-ugui'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: Leopotam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624396857886

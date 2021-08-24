@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.indicators.spatialtargets.unity
+displayName: Tilia Indicators SpatialTargets Unity
+description: >-
+  Indicate points in world space based on the location of a spatial target for
+  the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Indicators.SpatialTargets.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624578998507

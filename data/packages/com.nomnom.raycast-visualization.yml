@@ -1,0 +1,21 @@
+name: com.nomnom.raycast-visualization
+displayName: Nomnom's Raycast Visualization
+description: This asset allows users to view debug visuals for all raycast methods.
+repoUrl: 'https://github.com/nomnomab/RaycastVisualization'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/nomnomab/RaycastVisualization/raw/5655b20cf4c84e5dde0567fa5381190c55529ae6/Gifs~/capsulecast_all.gif
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628175239104

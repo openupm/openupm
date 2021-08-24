@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.trackers.pseudobody.unity
+displayName: Tilia Trackers PseudoBody Unity
+description: >-
+  A representation of a collidable body volume that tracks a GameObject in a
+  spatial scene for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Trackers.PseudoBody.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Trackers.PseudoBody.Unity/raw/755936b7789a7b36a8170f75a795ff05e4b6f378/Documentation/HowToGuides/AddingAPseudoBody/assets/images/WalkableFloorsCreated.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624578635270

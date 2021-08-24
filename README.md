@@ -74,9 +74,9 @@ OpenUPM is an independent project with its ongoing development made possible ent
 - [Exploring other donation options](https://openupm.com/support/)
 - [Exploring region CN donation options](https://openupm.cn/zh/support/)
 
+<!--bronze start
 <h3 align="center">Bronze Sponsors</h3>
 
-<!--bronze start-->
 <table>
   <tbody>
     <tr>
@@ -88,7 +88,7 @@ OpenUPM is an independent project with its ongoing development made possible ent
     </tr>
   </tbody>
 </table>
-<!--bronze end-->
+bronze end-->
 
 <h3 align="center">Service Sponsors</h3>
 

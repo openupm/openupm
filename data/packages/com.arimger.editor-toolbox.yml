@@ -1,0 +1,22 @@
+name: com.arimger.editor-toolbox
+displayName: Editor Toolbox
+description: >-
+  Tools, custom attributes, drawers, hierarchy overlay, and other extensions for
+  the Unity Editor.
+repoUrl: 'https://github.com/arimger/Unity-Editor-Toolbox'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/arimger/Unity-Editor-Toolbox/raw/ec5a97d5c48933ddd048cc8b8235ed46d19b8d1b/Docs/project2.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628722418287

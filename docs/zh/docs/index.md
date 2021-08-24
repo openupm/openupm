@@ -91,5 +91,4 @@ OpenUPM是一项开源服务。多亏了下面这些令人赞叹的开源项目�
 - [GitHub Actions](https://github.com/features/actions) 用于连续集成。
 - [Netlify](https://github.com/netlify) 用于托管国际区网站。
 - [Digital Ocean](https://m.do.co/c/50e7f9860fa9) 用于托管国际区服务。
-- [京东智联云](https://www.jdcloud.com/) 用于托管中国区服务。
 - [Mergify](https://mergify.io/) 用于GitHub的自动化合并. (使用推荐码`openupm-241828`可获得1年的免费使用资格)

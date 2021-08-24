@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.mutators.objectfollower.unity
+displayName: Tilia Mutators ObjectFollower Unity
+description: >-
+  A mechanism to make a target GameObject follow a source GameObject in the
+  scene for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/raw/5939ad534f86d848bf2fb708fea903863cae8aa1/Documentation/HowToGuides/AddingAnObjectFollower/assets/images/SphereFollowingTheCubeAroundTheUnityScene.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624638890908

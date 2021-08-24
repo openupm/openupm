@@ -1,0 +1,24 @@
+name: io.extendreality.tilia.interactions.pointerinteractors.unity
+displayName: Tilia Interactions PointerInteractors Unity
+description: >-
+  Utilize ObjectPointers to initiate an Interactor grab on an Interactable for
+  the Unity software.
+repoUrl: >-
+  https://github.com/ExtendRealityLtd/Tilia.Interactions.PointerInteractors.Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Interactions.PointerInteractors.Unity/raw/97e0b7dd061bb3f7fe69ed7037881a6ed3da9ef9/Documentation/HowToGuides/AddingADistanceGrabber/assets/images/DistanceGrabberCursorAppears.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624566957654

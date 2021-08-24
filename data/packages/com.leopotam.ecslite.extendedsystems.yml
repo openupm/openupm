@@ -1,0 +1,21 @@
+name: com.leopotam.ecslite.extendedsystems
+displayName: LeoECS Lite Extended systems
+description: Extended systems for LeoECS Lite.
+repoUrl: 'https://github.com/Leopotam/ecslite-extendedsystems'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627001213740

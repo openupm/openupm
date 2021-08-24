@@ -1,0 +1,19 @@
+name: com.cerealdevelopment.unitframework
+displayName: Unit Framework
+description: Units with modular abilities
+repoUrl: 'https://github.com/cerea1/UnitFramework'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624554190321

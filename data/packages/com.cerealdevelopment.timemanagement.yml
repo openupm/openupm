@@ -1,0 +1,19 @@
+name: com.cerealdevelopment.timemanagement
+displayName: TimeManagement
+description: Unity Monobehaviour's Update() optimization
+repoUrl: 'https://github.com/cerea1/TimeManagement'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624554223623

@@ -1,0 +1,22 @@
+name: id.instance.projectplanner
+displayName: id.instance.projectplanner
+description: 'A planning tool for Unity inside the editor. '
+repoUrl: 'https://github.com/instance-id/Project-Planner'
+parentRepoUrl: 'https://github.com/LeviMooreDev/Project-Planner'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: instance-id
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/instance-id/Project-Planner/master/readme%20image.png'
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1625943349204

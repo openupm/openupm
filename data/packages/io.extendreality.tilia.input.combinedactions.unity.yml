@@ -1,0 +1,22 @@
+name: io.extendreality.tilia.input.combinedactions.unity
+displayName: Tilia Input CombinedActions Unity
+description: >-
+  A collection of custom actions that combine sub actions into more complex
+  action types for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Input.CombinedActions.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Input.CombinedActions.Unity/raw/c9faea42eb0d4b04b188f0bf92e7a9a6f2f17e61/Documentation/HowToGuides/UsingCombinedActions/assets/images/MoveCapsule.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624583703374

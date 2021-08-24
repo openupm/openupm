@@ -1,0 +1,19 @@
+name: com.matthewminer.hierarchy-icons
+displayName: Hierarchy Icons
+description: Show component icons in the Hierarchy.
+repoUrl: 'https://github.com/mminer/hierarchy-icons'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/571cfb391ec15748e7f48fb049ef36519800d4bf8c42fce61e1b9027d10b86e0/687474703a2f2f6d6174746865776d696e65722e636f6d2f696d616765732f6869657261726368792d69636f6e732e706e67'
+readme: 'upm-package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627223229541

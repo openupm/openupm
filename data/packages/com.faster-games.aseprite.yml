@@ -1,0 +1,21 @@
+name: com.faster-games.aseprite
+displayName: Aseprite Importer
+description: "An Aseprite importer for Unity3D. ð\x9F\x8E¨ð\x9F\x93¤"
+repoUrl: 'https://github.com/faster-games/aseprite'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - 2d
+  - asset-management
+  - sprite-management
+hunter: bengreenier
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628702446669

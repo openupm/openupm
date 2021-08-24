@@ -1,0 +1,19 @@
+name: com.mbdavid.litedb
+displayName: Lite DB
+description: 'Lite Db nosql storage, https://www.litedb.org/'
+repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/LiteDB'
+parentRepoUrl: 'https://github.com/mbdavid/LiteDB'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626171527279

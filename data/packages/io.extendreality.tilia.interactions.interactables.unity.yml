@@ -1,0 +1,23 @@
+name: io.extendreality.tilia.interactions.interactables.unity
+displayName: Tilia Interactions Interactables Unity
+description: >-
+  A variety of mechanisms for interacting between interactors and interactables
+  in a spatial scene for the Unity software.
+repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/raw/643e4b890eacf91158dc0b3c6d090a360eb793a1/Documentation/HowToGuides/PassingAFloatValueFromAnInteractorToAnInteractable/assets/images/PressingTheTriggerMakesTheCubeTransparent.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624578821064

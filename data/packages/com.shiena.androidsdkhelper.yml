@@ -1,0 +1,20 @@
+name: com.shiena.androidsdkhelper
+displayName: Android SDK Helper
+description: Android SDK Helper
+repoUrl: 'https://github.com/shiena/unity-android-sdk-helper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - utilities
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626253722710

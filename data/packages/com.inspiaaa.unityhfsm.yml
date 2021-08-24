@@ -1,0 +1,22 @@
+name: com.inspiaaa.unityhfsm
+displayName: UnityHFSM
+description: >-
+  A simple yet powerful class based hierarchical finite state machine for
+  Unity3D
+repoUrl: 'https://github.com/Inspiaaa/UnityHFSM'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627830166591

@@ -1,0 +1,25 @@
+name: com.google.play.common
+displayName: Google Play Common
+description: >-
+  The Google Play Common package provides common files required by some Google
+  Play packages, such as Play Instant.
+
+
+  This package doesn't provide any features when installed separately.
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1628722640003

@@ -1,0 +1,21 @@
+name: com.greener-games.package-extractor
+displayName: Package Extracter
+description: >-
+  Extract part of a package into the assets folder, usefull for default scenes
+  that need to be within the assets forlder for editing
+repoUrl: 'https://github.com/Greener-Games/PackageExtractor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: copyright
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1627037062529

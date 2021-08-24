@@ -1,0 +1,19 @@
+name: com.mpozek.pickle
+displayName: Pickle
+description: A better Object picker for Unity
+repoUrl: 'https://github.com/MPozek/Pickle'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/15526815/130478936-3b22a37b-3c9e-405d-8d79-df068852cdf6.gif'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1629740652102

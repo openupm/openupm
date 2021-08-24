@@ -1,0 +1,23 @@
+name: com.oculus.sample-framework
+displayName: Oculus Sample-Framework
+description: "A Non-Official Mirror of the Oculus Sample-Framework as a UPM package for the Unity Game Engine.\r\n\r\nAll copyrights, trademarks, logoes, and assets are the property of their respective owners."
+repoUrl: 'https://github.com/RageAgainstThePixel/com.oculus.sample-framework'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Oculus SDK License
+topics:
+  - ar-and-vr
+  - asset-management
+  - frameworks
+  - integration
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/RageAgainstThePixel/com.oculus.unity-integration/development/Oculus%20Unity-Integration/Packages/com.oculus.unity-integration/Runtime/VR/Textures/Logos/OculusLogo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624340229110

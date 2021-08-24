@@ -1,0 +1,26 @@
+name: com.oculus.unity-integration
+displayName: Oculus Unity-Integration
+description: "A Non-Official Mirror of the Oculus Unity-Integration as a UPM package for the Unity Game Engine.\r\n\r\nAll copyrights, trademarks, logoes, and assets are the property of their respective owners."
+repoUrl: 'https://github.com/RageAgainstThePixel/com.oculus.unity-integration'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Oculus SDK License
+topics:
+  - ar-and-vr
+  - frameworks
+  - integration
+  - mobile
+  - package-management
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/RageAgainstThePixel/com.oculus.unity-integration/development/Oculus%20Unity-Integration/Packages/com.oculus.unity-integration/Runtime/VR/Textures/Logos/OculusLogo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624334831038

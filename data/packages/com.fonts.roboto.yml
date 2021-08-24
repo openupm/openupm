@@ -1,0 +1,38 @@
+name: com.fonts.roboto
+displayName: Roboto Font
+description: >-
+  Roboto has a dual nature. It has a mechanical skeleton and the forms are
+  largely geometric. At the same time, the font features friendly and open
+  curves. While some grotesks distort their letterforms to force a rigid rhythm,
+  Roboto doesn’t compromise, allowing letters to be settled into their natural
+  width. This makes for a more natural reading rhythm more commonly found in
+  humanist and serif types.
+
+
+  This is the regular family, which can be used alongside the Roboto Condensed
+  family and the Roboto Slab family.
+
+
+  Designer
+
+  Christian Robertson
+repoUrl: 'https://github.com/RageAgainstThePixel/com.fonts.roboto'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - 2d
+  - gui
+  - integration
+  - localization
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RageAgainstThePixel/com.fonts.roboto/raw/d1deddfaa764ed99a58d3275e4a8c438f11a41fb/Fonts.Roboto/Packages/com.fonts.roboto/Documentation~/images/opengraph_color.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1624929433369

@@ -1,0 +1,24 @@
+name: nl.jeffreylanters.web-requests
+displayName: Web Requests
+description: >-
+  The WebRequest API provides an easy interface for accessing the HTTP pipeline
+  by implementing a Request model that provides an easy, await-able and
+  extendable way to fetch resources asynchronously across the network.
+repoUrl: 'https://github.com/jeffreylanters/unity-web-requests'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - network
+  - services
+hunter: jeffreylanters
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1626275381244
