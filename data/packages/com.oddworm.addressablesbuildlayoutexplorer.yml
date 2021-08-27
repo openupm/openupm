@@ -1,0 +1,26 @@
+name: com.oddworm.addressablesbuildlayoutexplorer
+displayName: Addressables BuildLayout Explorer
+description: >-
+  Addressables BuildLayout Explorer allows you to inspect the 'buildlayout.txt'
+  file that Addressables generates when building content.
+
+
+  You can open the Addressables BuildLayout Explorer window from the main-menu
+  under 'Window > Asset Management > Addressables > BuildLayout Explorer'.
+repoUrl: 'https://github.com/pschraut/UnityAddressablesBuildLayoutExplorer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/a6134a6b2ca17493e3b29815dbfd188daf6556e3938e1c0bae9050d94f5f73c2/687474703a2f2f696d672e796f75747562652e636f6d2f76692f634f4349656a3346586a732f302e6a7067'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630073242340
