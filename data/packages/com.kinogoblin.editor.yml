@@ -1,0 +1,20 @@
+name: com.kinogoblin.editor
+displayName: Kinogoblin Editor
+description: CustomEditor
+repoUrl: 'https://github.com/Kinogoblin/KinogoblinEditor'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Kinogoblin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630396708079
