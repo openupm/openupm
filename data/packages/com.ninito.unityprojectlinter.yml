@@ -1,0 +1,27 @@
+name: com.ninito.unityprojectlinter
+displayName: Unity Project Linter
+description: >-
+  Unity project linter provides you with a powerful toolset to automatically
+  ensure project assets are named correctly.
+
+
+  Get started by creating your Asset Linting Settings, and then configuring it.
+  All fields have tooltips that should inform you what they do.
+
+  Create > Unity Project Linter > Asset Linting Settings
+repoUrl: 'https://github.com/ninito-ph/UnityProjectLinter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/386fab453d9a60a26bbfd99b4ea30c494bced05b36f193aa86dc8bea2ed5f991/68747470733a2f2f692e696d6775722e636f6d2f52533154796d702e706e67'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630458132617
