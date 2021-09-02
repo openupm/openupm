@@ -1,0 +1,20 @@
+name: com.needle.deeplink
+displayName: Deeplink
+description: Add custom deeplink support to Unity
+repoUrl: 'https://github.com/needle-tools/unity-deeplink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: hybridherbst
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630596338844
