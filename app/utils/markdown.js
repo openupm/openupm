@@ -5,7 +5,7 @@ const marked = require("marked");
 const highlightjs = require("highlight.js");
 const urljoin = require("url-join");
 
-const httpRe = /^https?:\/\//i;
+const urlWithProtocolRe = /.*:\/\//i;
 
 // Convert GitHub URL to GitHub raw URL.
 const convertToGitHubRawUrl = function(url) {
@@ -29,7 +29,7 @@ const markedRenderer = function({
     if (href.startsWith("#")) {
       return `<a href='${href}'>${text}</a>`;
     }
-    if (!httpRe.test(href)) {
+    if (!urlWithProtocolRe.test(href)) {
       if (href.startsWith("/")) {
         href = urljoin(linkBaseUrl, href);
       } else {
@@ -42,7 +42,7 @@ const markedRenderer = function({
   };
 
   renderer.image = (href, title, text) => {
-    if (!httpRe.test(href)) {
+    if (!urlWithProtocolRe.test(href)) {
       if (href.startsWith("/")) {
         href = urljoin(imageBaseUrl, href);
       } else {
@@ -144,7 +144,7 @@ const postProcessHtml = function(html, { imageBaseRelativeUrl }) {
       // 1x1 transparent base64 png pixel.
       return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=";
     }
-    if (!httpRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
+    if (!urlWithProtocolRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
     return attr;
   });
   return $.html()
