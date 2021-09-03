@@ -1,3 +1,10 @@
+## [1.49.7](https://github.com/openupm/openupm/compare/1.49.6...1.49.7) (2021-09-03)
+
+
+### Bug Fixes
+
+* custom protocol URLs are wrongly turned into absolute URLs (refs: [#2393](https://github.com/openupm/openupm/issues/2393)) ([e6c1dc2](https://github.com/openupm/openupm/commit/e6c1dc2ab4638661a322a9c12f6284aaafc04aef))
+
 ## [1.49.6](https://github.com/openupm/openupm/compare/1.49.5...1.49.6) (2021-08-16)
 
 
