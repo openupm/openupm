@@ -1,0 +1,20 @@
+name: com.cysharp.observablecollections
+displayName: ObservableCollections
+description: High performance observable collections and synchronized views.
+repoUrl: 'https://github.com/Cysharp/ObservableCollections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cysharp/ObservableCollections/raw/1f15edcfd195dc241f1e6105966ed209d35010f9/src/ObservableCollections/Icon.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630705035095
