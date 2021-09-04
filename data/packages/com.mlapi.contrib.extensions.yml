@@ -1,0 +1,21 @@
+name: com.mlapi.contrib.extensions
+displayName: MLAPI Community Extensions Package
+description: >-
+  The MLAPI Community Extensions package is a package containing extensions to
+  MLAPI.
+repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630763962448
