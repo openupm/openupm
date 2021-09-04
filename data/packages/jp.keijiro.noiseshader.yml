@@ -1,0 +1,22 @@
+name: jp.keijiro.noiseshader
+displayName: Noise Shader
+description: >-
+  Noise Shader provides lightweight 2D/3D gradient noise functions for shader
+  use.
+repoUrl: 'https://github.com/keijiro/NoiseShader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - integration
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1630739589481
