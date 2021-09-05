@@ -1,3 +1,10 @@
+## [1.49.8](https://github.com/openupm/openupm/compare/1.49.7...1.49.8) (2021-09-05)
+
+
+### Bug Fixes
+
+* custom protocol URLs with only one colon are wrongly turned into absolute URLs (refs [#2393](https://github.com/openupm/openupm/issues/2393)) ([16fd46d](https://github.com/openupm/openupm/commit/16fd46daf2e4e226bb278e35c5549b954405a37e))
+
 ## [1.49.7](https://github.com/openupm/openupm/compare/1.49.6...1.49.7) (2021-09-03)
 
 
