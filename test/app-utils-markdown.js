@@ -157,7 +157,7 @@ describe("app/utils/markdown.js", function() {
         '<div><p><a rel="noopener noreferrer" href="http://example.com">link</a></p>\n</div>'
       );
     });
-    it("custom protocol link", async function() {
+    it("custom protocol link 1", async function() {
       const markdown = "[link](unityhub://2021.1.19f1/5f5eb8bbdc25)";
       const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
       const html = await renderMarkdownToHtml({
@@ -168,6 +168,32 @@ describe("app/utils/markdown.js", function() {
       assert.equal(
         html,
         '<div><p><a rel="noopener noreferrer" href="unityhub://2021.1.19f1/5f5eb8bbdc25">link</a></p>\n</div>'
+      );
+    });
+    it("custom protocol link 2", async function() {
+      const markdown = "[link](com.unity3d.kharma:content/163802)";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disableTitleParser: true
+      });
+      assert.equal(
+        html,
+        '<div><p><a rel="noopener noreferrer" href="com.unity3d.kharma:content/163802">link</a></p>\n</div>'
+      );
+    });
+    it("mailto link 2", async function() {
+      const markdown = "[link](mailto:openupm@example.com)";
+      const pkg = loadPackageSync("com.littlebigfun.addressable-importer");
+      const html = await renderMarkdownToHtml({
+        pkg,
+        markdown,
+        disableTitleParser: true
+      });
+      assert.equal(
+        html,
+        '<div><p><a rel="noopener noreferrer" href="mailto:openupm@example.com">link</a></p>\n</div>'
       );
     });
     it("img + relative path", async function() {

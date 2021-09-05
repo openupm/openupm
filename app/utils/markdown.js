@@ -5,7 +5,7 @@ const marked = require("marked");
 const highlightjs = require("highlight.js");
 const urljoin = require("url-join");
 
-const urlWithProtocolRe = /.*:\/\//i;
+const urlWithProtocolRe = /.*:.*/i;
 
 // Convert GitHub URL to GitHub raw URL.
 const convertToGitHubRawUrl = function(url) {
