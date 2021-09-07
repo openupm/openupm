@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: Reddevildragg
-gitTagPrefix: upm
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
