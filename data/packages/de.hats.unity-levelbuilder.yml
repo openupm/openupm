@@ -1,0 +1,20 @@
+name: de.hats.unity-levelbuilder
+displayName: Level Builder Tool
+description: This is a custom tool to speed up prototyping room-based level design.
+repoUrl: 'https://github.com/xVini16x/unity-levelbuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/xVini16x/unity-levelbuilder/raw/639fefe4f303c67a24b20cb3f8543fa54b796cf4/Documentation/img/Extend_MultipleWalls.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631039359258
