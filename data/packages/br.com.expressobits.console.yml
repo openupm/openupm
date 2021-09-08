@@ -1,0 +1,19 @@
+name: br.com.expressobits.console
+displayName: EB Console
+description: Free and customizable console in game for Unity
+repoUrl: 'https://github.com/ExpressoBits/EBConsole'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Scriptsengineer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631135091682
