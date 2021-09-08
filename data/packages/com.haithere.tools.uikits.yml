@@ -1,0 +1,19 @@
+name: com.haithere.tools.uikits
+displayName: haithere-UI Kits
+description: 'Simple Unity Ui tools'
+repoUrl: 'https://github.com/haitheredavid/unity-uikits'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: haitheredavid
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:CHANGELOG.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631120137574
