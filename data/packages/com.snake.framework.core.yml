@@ -7,13 +7,12 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - frameworks
-hunter: ClaineLe
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'upm/com.snake.framework.core/0.0.2:README.md'
-readme_zhCN: 'upm/com.snake.framework.core/0.0.2:README.md'
+readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
 createdAt: 1631105414233
