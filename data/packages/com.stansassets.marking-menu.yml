@@ -1,0 +1,22 @@
+name: com.stansassets.marking-menu
+displayName: Stans Assets - Marking Menu
+description: >-
+  Marking Menu is a commonly used radial menu that gives you a TON of quick
+  access functionality for your project. Setup project-related actions and speed
+  up the development process in a few lines of code.
+repoUrl: 'https://github.com/StansAssets/com.stansassets.marking-menu'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: 标记菜单
+description_zhCN: 标记菜单是一种常用的放射状菜单，可为您的项目提供大量快速访问功能。 只需几行代码即可设置与项目相关的操作并加快开发过程。
+createdAt: 1631190633862
