@@ -1,7 +1,7 @@
 name: com.snake.framework.core
 displayName: SnakeFramework-Core
 description: client framework
-repoUrl: 'https://github.com/ClaineLe/SnakeFramework'
+repoUrl: 'https://github.com/ClaineLe/SnakeFramework-Core'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -11,7 +11,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm/com.snake.framework.core/0.0.2:README.md'
+readme: 'README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
