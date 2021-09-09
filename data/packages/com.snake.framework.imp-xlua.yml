@@ -1,7 +1,7 @@
 name: com.snake.framework.imp-xlua
 displayName: SnakeFramework-ImpXLua
 description: client framework
-repoUrl: 'https://github.com/ClaineLe/SnakeFramework'
+repoUrl: 'https://github.com/ClaineLe/SnakeFramework-ImpXLua'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +12,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm/com.snake.framework.imp-xlua/0.0.8:README.md'
+readme: 'README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
