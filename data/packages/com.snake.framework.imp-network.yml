@@ -1,7 +1,7 @@
 name: com.snake.framework.imp-network
 displayName: SnakeFramework-ImpNetWork
 description: client framework imp-network
-repoUrl: 'https://github.com/ClaineLe/SnakeFramework'
+repoUrl: 'https://github.com/ClaineLe/SnakeFramework-ImpNetWork'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -13,7 +13,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm/com.snake.framework.imp-network/0.0.2:README.md'
+readme: 'README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
