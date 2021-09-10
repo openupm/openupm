@@ -1,0 +1,21 @@
+name: com.snake.framework.fork-fairygui
+displayName: SnakeFramework-ForkFairyGUI
+description: FairyGUI is a Cross Platform UI Editor & UI framework
+repoUrl: 'https://github.com/ClaineLe/SnakeFramework_ForkFairyGUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+  - utilities
+hunter: ClaineLe
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README_zh-CN.md'
+displayName_zhCN: ''
+description_zhCN: FairyGUI是一个适用于许多游戏引擎的UI中间件。
+createdAt: 1631259105953
