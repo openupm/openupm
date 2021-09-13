@@ -1,0 +1,23 @@
+name: io.colyseus.sdk
+displayName: Colyseus SDK
+description: Colyseus Multiplayer SDK for Unity
+repoUrl: 'https://github.com/colyseus/colyseus-unity3d'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - network
+  - services
+hunter: colyseus
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/colyseus/colyseus-unity3d/raw/3ba2bb0beef3a053acb737d1df6a5b24c751a2b3/Assets/Colyseus/Runtime/Editor%20Default%20Resources/Icons/ColyseusSettings.png
+readme: 'upm:Documentation~/GettingStarted.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631544586555
+
