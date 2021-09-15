@@ -86,7 +86,7 @@ jobs:
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload fetch-package-extra || echo skip pm2 fetch-package-extra reload
 
   build-website-us:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
@@ -115,7 +115,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_ACCESS_TOKEN }}
 
   build-website-cn:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
