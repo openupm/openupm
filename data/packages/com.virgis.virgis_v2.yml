@@ -1,0 +1,21 @@
+name: com.virgis.virgis_v2
+displayName: ViRGiS v2
+description: 'ViRGiS is a VR platform for VR. See https://www.vrgis.org for more details.'
+repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS_v2'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: runette
+gitTagPrefix: 2.1.3
+gitTagIgnore: ''
+minVersion: 2.1.3
+image: >-
+  https://github.com/ViRGIS-Team/ViRGiS_v2/raw/4943857af6c2a5fb3a776891beef9ef83c249851/Runtime/Images/180x/Bird%20with%20white%20keyline%20180x180.png
+readme: 'version_2:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631736669269
