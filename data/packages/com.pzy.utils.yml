@@ -15,5 +15,5 @@ image: null
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
-description_zhCN: ''
+description_zhCN: 提供常用类型的帮助方法
 createdAt: 1631939800053
