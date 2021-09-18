@@ -8,7 +8,7 @@ licenseName: ''
 topics:
   - frameworks
 hunter: Peng-Zhiyuan
-gitTagPrefix: ''
+gitTagPrefix: 'com.pzy.utils/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
