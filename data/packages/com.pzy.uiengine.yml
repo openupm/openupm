@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - gui
 hunter: Peng-Zhiyuan
-gitTagPrefix: ''
+gitTagPrefix: 'com.pzy.uiengine/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
