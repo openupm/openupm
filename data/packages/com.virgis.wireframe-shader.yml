@@ -1,0 +1,19 @@
+name: com.virgis.wireframe-shader
+displayName: UCLA Game Lab Wireframe Shader
+description: Renders a line along every edge between every vertex
+repoUrl: 'https://github.com/ViRGIS-Team/unity-wireframe-shader'
+parentRepoUrl: 'https://github.com/gkjohnson/unity-wireframe-shader'
+licenseSpdxId: null
+licenseName: Open
+topics:
+  - particles-and-effects
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.2
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631969635535
