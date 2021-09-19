@@ -1,0 +1,19 @@
+name: dev.kyubuns.variablemonitor
+displayName: VariableMonitor
+description: Variable Monitor
+repoUrl: 'https://github.com/kyubuns/VariableMonitor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/961165/133921495-9618b05e-2a52-41c1-80d5-38a2814c06d1.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632070590470
