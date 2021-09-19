@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - data-management
 hunter: Peng-Zhiyuan
-gitTagPrefix: ''
+gitTagPrefix: 'com.pzy.stuffobject/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
