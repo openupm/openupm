@@ -8,11 +8,11 @@ licenseName: ''
 topics:
   - frameworks
 hunter: Peng-Zhiyuan
-gitTagPrefix: ''
+gitTagPrefix: 'com.pzy.utils/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: ''
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
