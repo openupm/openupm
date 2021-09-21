@@ -1,0 +1,21 @@
+name: jp.pokemori.univrm-extensions
+displayName: UniVRMExtensions
+description: "Directly creates VRM prefab from .fbx without exporting to make it possible configure VRM. Copies settings of UniVRM components between two VRM prefabs."
+repoUrl: 'https://github.com/esperecyan/UniVRMExtensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - modeling
+hunter: esperecyan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.1
+image: >-
+  https://github.com/esperecyan/UniVRMExtensions/raw/9064af3ed665282d1d3c3503faf0c7f1cc0e0872/Documentation~/univrm-initializer.png
+readme: 'master:Documentation~/readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632185147812
