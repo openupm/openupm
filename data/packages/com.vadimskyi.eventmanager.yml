@@ -1,0 +1,23 @@
+name: com.vadimskyi.eventmanager
+displayName: Event Manager
+description: >-
+  Non-thread-safe event manager. Use only in single thread environment.
+  Preferably Unity thread.
+repoUrl: 'https://github.com/Vadimskyi/EventManager'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - data-management
+  - parallelism-and-concurrency
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632218350616
