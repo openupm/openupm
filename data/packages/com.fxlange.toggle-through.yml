@@ -1,0 +1,20 @@
+name: com.fxlange.toggle-through
+displayName: Toggle Through
+description: In scene view editor tool to cycle through a selection of objects.
+repoUrl: 'https://github.com/fx-lange/unity-toggle-through'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/fx-lange/unity-toggle-through/raw/4f2dbc332fe41833cb7190b6e13d619afd6a2771/Docs/teaser.gif
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632238982989
