@@ -1,0 +1,19 @@
+name: com.ibra.ibralogue
+displayName: HierarchyDecorator
+description: Ibralogue is a dialogue library for the Unity Game Engine.
+repoUrl: 'https://github.com/ibra/Ibralogue'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ibra
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632312423466
