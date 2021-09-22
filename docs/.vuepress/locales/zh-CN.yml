@@ -108,6 +108,7 @@ name: 名称
 name-at-version: 名称@版本
 needles-package-installer: Needle的软件包辅助安装器
 network: 网络
+nismspText: 京公网安备 11010502045830号
 note: 备注
 package-already-exists-in-unity-registry: 该软件包已存在于Unity软件仓库中。
 package-installer: 软件包辅助安装器
