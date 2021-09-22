@@ -72,12 +72,19 @@
         </div>
         <div
           v-if="$site.themeConfig.region == 'cn'"
-          class="column column col-4 col-md-6 col-sm-12"
+          class="column column col-5 col-md-6 col-sm-12"
         >
           <small>
             <span>
               &nbsp;|&nbsp;
               <NavLink class :item="icpLink" />
+            </span>
+          </small>
+          <small>
+            <span>
+              &nbsp;|&nbsp;
+              <img src="/images/guohui.png">
+              <NavLink class :item="nismspLink" />
             </span>
           </small>
         </div>
@@ -173,6 +180,13 @@ export default {
 
     description() {
       return this.$localeConfig.description;
+    },
+
+    nismspLink() {
+      return {
+        link: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502045830",
+        text: this.$t("nismspText")
+      };
     },
 
     icpLink() {

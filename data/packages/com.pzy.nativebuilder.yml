@@ -1,0 +1,19 @@
+name: com.pzy.nativebuilder
+displayName: Native Builder
+description: ''
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: Peng-Zhiyuan
+gitTagPrefix: com.pzy.nativebuilder/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632286390514
