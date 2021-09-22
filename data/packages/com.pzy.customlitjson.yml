@@ -1,0 +1,19 @@
+name: com.pzy.customlitjson
+displayName: Custom Lit Json
+description: ''
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: Peng-Zhiyuan
+gitTagPrefix: com.pzy.customlitjson/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632286012594
