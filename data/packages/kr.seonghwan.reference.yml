@@ -1,0 +1,19 @@
+name: kr.seonghwan.reference
+displayName: Reference
+description: This package helps to view references between assets in project.
+repoUrl: 'https://github.com/seonghwan-dev/Reference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: sr4dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: '0.1.5:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632285857867
