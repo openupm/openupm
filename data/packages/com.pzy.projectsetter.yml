@@ -1,0 +1,23 @@
+name: com.pzy.projectsetter
+displayName: Project Setter
+description: |-
+  icon.png 图标
+  logo0.png 第一个 splash
+  login1.png 第二个 splash
+  ...
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: Peng-Zhiyuan
+gitTagPrefix: com.pzy.projectsetter/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632486913149
