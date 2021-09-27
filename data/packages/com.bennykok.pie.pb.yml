@@ -1,0 +1,20 @@
+name: com.bennykok.pie.pb
+displayName: ProBuilder Pie
+description: Some Pie for ProBuilder
+repoUrl: 'https://github.com/BennyKok/unity-pie-probuilder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/5cd43cc6fb4e662503b435f722f2fd751998590bf835ad069f9d9f698c5a0514/68747470733a2f2f692e696d6775722e636f6d2f4a326d61486d662e676966'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632700827493
