@@ -1,0 +1,21 @@
+name: com.manakhovn.figma_to_unity_importer
+displayName: FigmaToUnityImporter
+description: Convert Figma Node to UnityUI and Import
+repoUrl: 'https://github.com/ManakhovN/FigmaToUnityImporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ManakhovN/FigmaToUnityImporter/raw/4f6647d7c52b28d0e82ed6c55db1ce65ead4c8e2/ReadmeImages/step6.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632938460002
