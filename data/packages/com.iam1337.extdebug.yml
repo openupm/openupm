@@ -1,0 +1,20 @@
+name: com.iam1337.extdebug
+displayName: extDebug
+description: extDebug is a debug tools for Unity.
+repoUrl: 'https://github.com/Iam1337/extDebug'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - profiling
+  - testing
+hunter: Iam1337
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632910418830
