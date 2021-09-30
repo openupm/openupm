@@ -1,0 +1,19 @@
+name: com.joaosantos.package-services
+displayName: Services
+description: Package with a wrapper of auxiliar services
+repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: _
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Assets/com.joaosantos.package-services/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632971998974
