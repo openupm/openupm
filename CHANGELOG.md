@@ -1,3 +1,10 @@
+## [1.49.9](https://github.com/openupm/openupm/compare/1.49.8...1.49.9) (2021-10-01)
+
+
+### Bug Fixes
+
+* **path:** Move to data/packages 😅 ([989b7b7](https://github.com/openupm/openupm/commit/989b7b7ad75d2f26fe0bacf518f2e313283d5b19))
+
 ## [1.49.8](https://github.com/openupm/openupm/compare/1.49.7...1.49.8) (2021-09-05)
 
 
