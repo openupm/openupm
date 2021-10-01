@@ -1,0 +1,19 @@
+name: com.tools.webglthreadingpatcher
+displayName: WebGL Threading Patcher
+description: 'This plugin makes more async await code works in Unity WebGL.'
+repoUrl: 'https://github.com/VolodymyrBS/WebGLThreadingPatcher'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633115960579
