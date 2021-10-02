@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - frameworks
 hunter: JoaoSant0s
-gitTagPrefix: _
+gitTagPrefix: "package-common-wrapper-"
 gitTagIgnore: ''
 minVersion: ''
 image: null
