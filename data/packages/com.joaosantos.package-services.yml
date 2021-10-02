@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - frameworks
 hunter: ''
-gitTagPrefix: _
+gitTagPrefix: "package-services-"
 gitTagIgnore: ''
 minVersion: ''
 image: null
