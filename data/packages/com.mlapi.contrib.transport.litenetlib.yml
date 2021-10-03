@@ -1,16 +1,16 @@
 name: com.mlapi.contrib.transport.litenetlib
 displayName: LiteNetLib Transport for MLAPI
 description: LiteNetLib Transport for MLAPI
-repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
+repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions/tree/main/Transports/com.mlapi.contrib.transport.litenetlib'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - network
-hunter: SushiWaUmai
+hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'MLAPI 0.1'
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
