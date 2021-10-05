@@ -1,0 +1,20 @@
+name: com.utj.asyncreadmanagermetricsremote
+displayName: AsyncReadManagerMetricsRemote
+description: This package allows you to use AsyncReadManagerMetrics from UnityEditor.
+repoUrl: 'https://github.com/katsumasa/AsyncReadManagerMetricsRemote'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - profiling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/29646672/135828887-cccb2a62-9540-4cf2-a361-2f109e327abb.gif'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633435163816
