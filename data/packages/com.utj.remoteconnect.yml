@@ -1,0 +1,20 @@
+name: com.utj.remoteconnect
+displayName: RemoteConnect
+description: This is Connecting the Unity Editor and Unity Player
+repoUrl: 'https://github.com/katsumasa/RemoteConnect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633435117018
