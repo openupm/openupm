@@ -1,0 +1,20 @@
+name: com.alteracia.altanimations
+displayName: altAnimations
+description: Altrernative Animations for Unity. Based on ScriptableObjects and Async/await.
+repoUrl: 'https://github.com/Alteracia/AltAnimations'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633437503054
