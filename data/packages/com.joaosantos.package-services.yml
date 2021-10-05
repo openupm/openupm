@@ -1,6 +1,6 @@
 name: com.joaosantos.package-services
 displayName: Services
-description: Package with a wrapper of auxiliar services
+description: Package with a wrapper of auxiliar services. See the github Readme.
 repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
 parentRepoUrl: null
 licenseSpdxId: MIT
