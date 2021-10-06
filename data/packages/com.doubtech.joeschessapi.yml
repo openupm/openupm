@@ -1,0 +1,20 @@
+name: com.doubtech.joeschessapi
+displayName: DoubTech - Joe's Chess API
+description: A simple library to use Joe's chess API
+repoUrl: 'https://github.com/yolanother/UnityJoesChessApi'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633520084658
