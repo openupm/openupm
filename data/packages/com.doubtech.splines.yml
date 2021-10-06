@@ -1,0 +1,20 @@
+name: com.doubtech.splines
+displayName: DoubTech - Splines
+description: Open source spline library
+repoUrl: 'https://github.com/yolanother/UnitySplines'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - animation
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633520023065
