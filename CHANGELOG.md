@@ -1,3 +1,10 @@
+# [1.50.0](https://github.com/openupm/openupm/compare/1.49.9...1.50.0) (2021-10-06)
+
+
+### Features
+
+* package manual install options (refs [#1705](https://github.com/openupm/openupm/issues/1705)) ([8e011cf](https://github.com/openupm/openupm/commit/8e011cfe6734218f3719c9412e2e8ebbaa42b12f))
+
 ## [1.49.9](https://github.com/openupm/openupm/compare/1.49.8...1.49.9) (2021-10-01)
 
 
