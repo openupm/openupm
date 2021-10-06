@@ -1,0 +1,20 @@
+name: com.doubtech.twitch.twitchclient
+displayName: DoubTech - Twitch Client 2
+description: A TwitchLib client implementation using ScriptableEvents for communication.
+repoUrl: 'https://github.com/yolanother/UnityTwitchClient'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633518618649
