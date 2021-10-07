@@ -1,3 +1,10 @@
+## [1.51.2](https://github.com/openupm/openupm/compare/1.51.1...1.51.2) (2021-10-07)
+
+
+### Bug Fixes
+
+* **website:** clean package add form when clicking the go button ([b0e8f1e](https://github.com/openupm/openupm/commit/b0e8f1e246282092b5b5ce738ec93056a5755cb0))
+
 ## [1.51.1](https://github.com/openupm/openupm/compare/1.51.0...1.51.1) (2021-10-07)
 
 
