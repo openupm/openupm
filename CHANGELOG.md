@@ -1,3 +1,10 @@
+## [1.51.1](https://github.com/openupm/openupm/compare/1.51.0...1.51.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* **website:** traversing repository branches with pagination (close [#2397](https://github.com/openupm/openupm/issues/2397)) ([57bc913](https://github.com/openupm/openupm/commit/57bc91365306431ca572a25879ea7074799b2dfb))
+
 # [1.51.0](https://github.com/openupm/openupm/compare/1.50.0...1.51.0) (2021-10-07)
 
 
