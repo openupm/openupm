@@ -867,23 +867,42 @@ export default {
       }
     },
     async fetchBranches() {
+      this.$data.branches = [];
       try {
         // Clean error message.
         this.$data.form.branch.error = "";
-        // Fetch.
-        let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.form.repo.value, "branches"),
-          {
+        let url =
+          urljoin(util.githubReposApiUrl, this.form.repo.value, "branches") +
+          "?per_page=100";
+        // Traversing with pagination
+        while (true) {
+          let resp = await axios.get(url, {
             headers: { Accept: "application/vnd.github.v3.json" },
+          });
+          const branches = resp.data
+            .map((x) => x.name)
+            .filter((x) => !x.startsWith("all-contributors/"));
+          for (const item of branches) this.$data.branches.push(item);
+          // parse next url from resp.headers.link, refs https://docs.github.com/en/rest/guides/traversing-with-pagination
+          let nextUrl = null;
+          if (resp.headers.link) {
+            const links = resp.headers.link.split(",");
+            for (let link of links) {
+              link = link.trim();
+              const re = /<(https.*)>; rel=\"next\"/g;
+              const match = re.exec(link);
+              if (match) nextUrl = match[1];
+            }
           }
-        );
-        // Assign data.
-        let branches = resp.data
-          .map((x) => x.name)
-          .filter((x) => !x.startsWith("all-contributors/"));
-        this.$data.branches = branches;
-        if (branches.includes("master")) {
+          if (nextUrl) url = nextUrl;
+          else break;
+        }
+        // Assign the default branch
+        if (this.$data.branches.includes("master")) {
           this.$data.form.branch.value = "master";
+          this.onBranchChange();
+        } else if (this.$data.branches.includes("main")) {
+          this.$data.form.branch.value = "main";
           this.onBranchChange();
         }
       } catch (error) {
@@ -1013,7 +1032,7 @@ export default {
       try {
         let url = urljoin(util.unityRegistryUrl, packageName);
         let resp = await axios.get(url);
-        throw new Error(this.$t('package-already-exists-in-unity-registry'));
+        throw new Error(this.$t("package-already-exists-in-unity-registry"));
       } catch (error) {}
     },
     async verifyPackage() {
