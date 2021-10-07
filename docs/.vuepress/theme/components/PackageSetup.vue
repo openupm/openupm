@@ -21,6 +21,7 @@
         </div>
         <PackageSetupViaPackageManager
           :package-name="pkg.name"
+          :package-version="version"
           :scopes="scopes"
         />
         <div class="install-option last">

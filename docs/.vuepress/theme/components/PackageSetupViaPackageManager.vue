@@ -30,14 +30,34 @@
           <CopyWrapper :copy-text="packageName"
             ><code>{{ packageName }}</code></CopyWrapper
           >
+          into name
+        </li>
+        <li>
+          paste
+          <CopyWrapper :copy-text="packageVersion"
+            ><code>{{ packageVersion }}</code></CopyWrapper
+          >
+          into version
         </li>
         <li>click <kbd>Add</kbd></li>
       </ul>
+      <div class="divider text-center" data-content="OR"></div>
+      <p>
+        Alternatively, merge the snippet to
+        <a href="https://docs.unity3d.com/Manual/upm-manifestPrj.html"
+          >Packages/manifest.json</a
+        >
+      </p>
+      <div class="theme-default-content custom">
+        <!-- eslint-disable-next-line vue/no-v-html -->
+        <div class="language-json" v-html="manifest"></div>
+      </div>
     </template>
   </Modal>
 </template>
 
 <script>
+import highlightjs from "highlight.js";
 import Modal from "@theme/components/Modal.vue";
 import CopyWrapper from "@theme/components/CopyWrapper.vue";
 import util from "@root/docs/.vuepress/util";
@@ -46,12 +66,29 @@ export default {
   components: { CopyWrapper, Modal },
   props: {
     packageName: { type: String, default: "" },
+    packageVersion: { type: String, default: "" },
     scopes: {
       type: Array,
       default: () => [],
     },
   },
   computed: {
+    manifest() {
+      const jsonData = {
+        scopedRegistries: [
+          {
+            name: this.registryName,
+            url: this.registryUrl,
+            scopes: this.scopes,
+          },
+        ],
+        dependencies: {},
+      };
+      jsonData.dependencies[this.packageName] = this.packageVersion;
+      const jsonText = JSON.stringify(jsonData, null, 4);
+      const highlighted = highlightjs.highlight("json", jsonText).value;
+      return `<pre><code class="hljs json">${highlighted}</code></pre>`;
+    },
     modalId() {
       return "modal-manualinstallation";
     },
