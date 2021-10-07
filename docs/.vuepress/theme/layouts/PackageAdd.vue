@@ -742,6 +742,28 @@ export default {
       if (repo) {
         this.$data.isSubmitting = true;
         this.$data.step = SubmitStep.FillForm.value;
+        this.$data.form.branch.value = "";
+        this.$data.form.displayName_zhCN.value = "";
+        this.$data.form.description_zhCN.value = "";
+        this.$data.form.gitTagPrefix.value = "";
+        this.$data.form.gitTagIgnore.value = "";
+        this.$data.form.licenseId.value = null;
+        this.$data.form.licenseName.value = "";
+        this.$data.form.minVersion.value = "";
+        this.$data.form.readme.value = null;
+        this.$data.form.readme_zhCN.value = null;
+        this.$data.form.image.value = null;
+        this.$data.form.packageJson.value = "";
+        this.$data.form.packageJson.prompt = "";
+        for (const topic of this.$data.form.topics.options) topic.value = false;
+        this.$data.repoInfo = {};
+        this.$data.repoImages = [];
+        this.$data.packageJsonPaths = {};
+        this.$data.packageInfo = {};
+        this.$data.readmePaths = {};
+        this.$data.branches = [];
+        this.$data.yaml = "";
+        this.$data.yamlFilename = "";
         this.fetchRepoInfo();
         this.fetchBranches();
         this.fetchRepoImage();
