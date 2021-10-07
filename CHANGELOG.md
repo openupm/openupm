@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/openupm/openupm/compare/1.50.0...1.51.0) (2021-10-07)
+
+
+### Features
+
+* **website:** add raw json text to the manual installation option ([d3a8097](https://github.com/openupm/openupm/commit/d3a80974e6938ce6802e1379bd38d9c2ca227cf1))
+
 # [1.50.0](https://github.com/openupm/openupm/compare/1.49.9...1.50.0) (2021-10-06)
 
 
