@@ -1,0 +1,19 @@
+name: com.ikorin24.u8xmlparser
+displayName: U8XmlParser
+description: Provides the fastest xml parser.
+repoUrl: 'https://github.com/ikorin24/U8XmlParser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633715218995
