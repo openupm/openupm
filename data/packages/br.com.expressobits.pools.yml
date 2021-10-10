@@ -1,7 +1,7 @@
 name: br.com.expressobits.pools
 displayName: EB Pools
 description: Use fast and simple pools in unity
-repoUrl: 'https://github.com/ExpressoBits/EBPools'
+repoUrl: 'https://github.com/ExpressoBits/Pools'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
