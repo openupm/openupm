@@ -1,0 +1,19 @@
+name: com.ninito.minject
+displayName: MinJect
+description: 'A minimalistic, easy-to-understand dependency injection framework for Unity'
+repoUrl: 'https://github.com/ninito-ph/MinJect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/e4582da61655ab5bd38163953e386bfa142c6ccd7c8d944becc28b0abbb79256/68747470733a2f2f692e696d6775722e636f6d2f624d69574939772e706e67'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633878740020
