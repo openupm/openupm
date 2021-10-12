@@ -1,0 +1,21 @@
+name: com.playeveryware.eos
+displayName: Epic Online Services Plugin for Unity
+description: Friendly Plugin for Epic Online Services
+repoUrl: 'https://github.com/PlayEveryWare/eos_plugin_for_unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - services
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/PlayEveryWare/eos_plugin_for_unity/raw/055b5f211801a53f91fbf19f285e009769582730/docfx_project/Documentation~/images/unity_install_samples.gif
+readme: 'stable:EOSUnityPlugin_package_template/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633998115202
