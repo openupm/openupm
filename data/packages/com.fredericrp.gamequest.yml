@@ -1,0 +1,23 @@
+name: com.fredericrp.gamequest
+displayName: FRP Game Quest
+description: >-
+  GameQuest provides an easy way to create quests for a game, and the management
+  of them.
+repoUrl: 'https://github.com/FredericRP/GameQuest'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/FredericRP/GameQuest/raw/bd5036b67554230e35aa6e5d3ef9e3ec7590b7ed/Documentation~/images/first-quest.gif
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634154965724
