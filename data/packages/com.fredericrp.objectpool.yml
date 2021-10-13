@@ -3,7 +3,7 @@ displayName: FRP Object Pool
 description: >-
   Use ObjectPool to instantiate game objects during loading time and not during
   gameplay. This version allows you to have multiple pools in your game.
-repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+repoUrl: 'https://github.com/FredericRP/ObjectPool'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -11,12 +11,12 @@ topics:
   - editor-enhancement
   - utilities
 hunter: ''
-gitTagPrefix: objectpool
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
 image: >-
-  https://github.com/FredericRP/Standard-Assets/raw/47db55d7d0da27622c9683cdaf5f27be7e1d60de/ObjectPool/Documentation~/images/object_pool.png
-readme: 'primary:ObjectPool/README.md'
+  https://github.com/FredericRP/ObjectPool/raw/primary/Documentation~/images/object_pool.png
+readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
