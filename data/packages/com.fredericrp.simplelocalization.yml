@@ -1,0 +1,19 @@
+name: com.fredericrp.simplelocalization
+displayName: FRP Simple Localization
+description: A minimum tool for localization.
+repoUrl: 'https://github.com/FredericRP/SimpleLocalization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634154724780
