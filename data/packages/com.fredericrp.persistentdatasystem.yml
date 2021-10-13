@@ -1,0 +1,22 @@
+name: com.fredericrp.persistentdatasystem
+displayName: FRP Persistent Data System
+description: >-
+  The PersistentDataSystem is a fast and maintenable save system. Data are
+  written in binary files to hide the content from users and to enable fast
+  loading and saving.
+repoUrl: 'https://github.com/FredericRP/PersistentDataSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634154602250
