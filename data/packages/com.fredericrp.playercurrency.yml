@@ -1,0 +1,21 @@
+name: com.fredericrp.playercurrency
+displayName: FRP Player Currency
+description: >-
+  An easy to setup virtual currency manager: load, save and convert between
+  different currencies.
+repoUrl: 'https://github.com/FredericRP/PlayerCurrency'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634154860115
