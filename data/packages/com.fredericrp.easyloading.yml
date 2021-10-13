@@ -1,0 +1,21 @@
+name: com.fredericrp.easyloading
+displayName: FRP Easy Loading
+description: Set of tools to load scenes and monitor its progress.
+repoUrl: 'https://github.com/FredericRP/EasyLoading'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/FredericRP/EasyLoading/raw/38d203a81e58cc93aabefdebc93fb554e0e8441c/Documentation~/Images/transition-sample.gif
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634155318652
