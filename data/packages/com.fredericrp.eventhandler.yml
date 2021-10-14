@@ -5,18 +5,18 @@ description: >-
   in your game in a minute. GameEvents have evolved thanks to the Unite 2017
   presentation by Schell Games (but we still prefer our way to handle listener
   with delegates).
-repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+repoUrl: 'https://github.com/FredericRP/EventManagement'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
 hunter: ''
-gitTagPrefix: eventManagement
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
 image: null
-readme: 'primary:EventManagement/README.md'
+readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
