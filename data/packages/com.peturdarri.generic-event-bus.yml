@@ -1,0 +1,21 @@
+name: com.peturdarri.generic-event-bus
+displayName: GenericEventBus
+description: >-
+  A synchronous event bus for Unity, using strictly typed events and generics to
+  reduce runtime overhead.
+repoUrl: 'https://github.com/PeturDarri/GenericEventBus'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634481824744
