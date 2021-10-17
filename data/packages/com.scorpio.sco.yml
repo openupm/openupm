@@ -1,0 +1,18 @@
+name: com.scorpio.sco
+displayName: sco
+description: "Unity ç\x83­æ\x9B´æ\x96°è\x84\x9Aæ\x9C¬ï¼\x8Cçº¯c#å®\x9Eç\x8E°ï¼\x8Cè¯­æ³\x95ç±»ä¼¼ javascript\næº\x90ç\_\x81å\x9C°å\x9D\x80 : https://github.com/qingfeng346/Scorpio-CSharp\nå\N¼å®¹å¹³å\x8F°\n* PC, Mac & Linux Standalone(å\x8C\Næ\x8B¬IL2CPP)\r\n* iOS(å\x8C\Næ\x8B¬IL2CPP)\r\n* Android(å\x8C\Næ\x8B¬IL2CPP)\r\n* UWP IL2CPP\n* WebGL"
+repoUrl: 'https://github.com/qingfeng346/upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634442807062
