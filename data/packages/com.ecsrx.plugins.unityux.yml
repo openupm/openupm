@@ -1,0 +1,19 @@
+name: com.ecsrx.plugins.unityux
+displayName: EcsRx UnityUx Plugin
+description: A minimalistic MVVM framework for the new Unity UI Toolkit build on EcsRx.
+repoUrl: 'https://github.com/Cosmic-Shores/EcsRx.Plugins.UnityUx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: Cosmic-Shores
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634501941139
