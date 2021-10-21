@@ -1,0 +1,19 @@
+name: com.jasonxudeveloper.jengine
+displayName: JEngine
+description: "JEngine is a streamlined and easy-to-use framework designed for Unity Programmers which contains powerful features, beginners can start up quickly and making hot update-able games easily"
+repoUrl: 'https://github.com/JasonXuDeveloper/JEngine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JasonXuDeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README_en-us.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: JEngine
+description_zhCN: JEngine是针对Unity开发者设计的开箱即用的框架，封装了强大的功能，小白也能快速上手，轻松制作可以热更新的游戏
+createdAt: 1634793117592
