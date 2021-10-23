@@ -1,0 +1,22 @@
+name: com.cloud.google.speech
+displayName: Cloud.Google.Speech
+description: Cloud.Google.Speech description goes here.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.cloud.google.speech'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - integration
+  - procedural-generation
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635010362638
