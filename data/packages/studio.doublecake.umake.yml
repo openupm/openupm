@@ -1,0 +1,19 @@
+name: studio.doublecake.umake
+displayName: UMake
+description: This is UMake project
+repoUrl: 'https://github.com/kaznowski/umake'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635012470794
