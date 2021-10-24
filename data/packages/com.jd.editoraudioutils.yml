@@ -1,0 +1,23 @@
+name: com.jd.editoraudioutils
+displayName: EditorAudioUtils
+description: >-
+  Like EditorApplication.Beep(), but with configurable sounds. This package
+  comes with some predefined types that you can configure in the project
+  settings and then call via EditorAudioUtility.PlaySound().
+repoUrl: 'https://github.com/JohannesDeml/EditorAudioUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635105237717
