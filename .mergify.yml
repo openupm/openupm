@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - "#files=1"
       - "files~=data/packages/(.*)\\.yml$"
-      - "-files~=data/packages/com\\.unity\\.(.*)\\.yml$"
+      - "-files~=data/packages/(.*)(google|unity|microsoft|apple|twitter)\\.(.*)\\.yml$"
       - "#files=1"
       - -conflict
       - -merged
