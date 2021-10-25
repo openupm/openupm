@@ -1,0 +1,22 @@
+name: com.careboo.unity-algorand-sdk
+displayName: Unity Algorand SDK
+description: >-
+  Algorand SDK for Unity Game Engine
+
+repoUrl: 'https://github.com/CareBoo/unity-algorand-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635121943976
