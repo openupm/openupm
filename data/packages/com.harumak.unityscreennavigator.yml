@@ -1,0 +1,21 @@
+name: com.harumak.unityscreennavigator
+displayName: UnityScreenNavigator
+description: >-
+  Library for screen transitions, transition animations, transition history
+  stacking, and lifecycle management in Unity's uGUI.
+repoUrl: 'https://github.com/Haruma-K/UnityScreenNavigator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/47441314/137313323-b2f24a0c-1ee3-4df0-a175-05fba32d9af3.gif'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635249290106
