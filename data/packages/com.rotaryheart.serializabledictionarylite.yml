@@ -1,0 +1,37 @@
+name: com.rotaryheart.serializabledictionarylite
+displayName: Serialized Dictionary Lite
+description: >-
+  Serialized Dictionary is an easy to use system that allows you to have a
+  Dictionary being serializable and editable on the inspector.
+
+
+  There is no limit to what to use as a Key or as a Value, other than it being a
+  Unity serializable type.
+
+
+  It comes with an easy to use and friendly UI that has the following features:
+
+
+  -Re ordering (Drag & Drop)
+
+  -Pages System
+
+  -Custom drawer for key or value
+repoUrl: 'https://github.com/RotaryHeart/SerializableDictionaryLite'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: RotaryHeart
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635355298256
