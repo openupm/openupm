@@ -29,7 +29,7 @@ hunter: RotaryHeart
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: https://raw.githubusercontent.com/RotaryHeart/SerializableDictionaryLite/master/.media/Cover.png
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
