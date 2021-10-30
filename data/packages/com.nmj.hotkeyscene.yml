@@ -11,8 +11,6 @@ topics:
   - editor-enhancement
   - level-design
 hunter: NMeJa
-gitTagPrefix: v1.0.0
-gitTagIgnore: ''
 minVersion: 2020.3.0
 image: null
 readme: 'master:README.md'
