@@ -1,0 +1,19 @@
+name: nunit.analyzers.unity
+displayName: NUnit.Analyzers for Unity
+description: Include NUnit.Analyzers package
+repoUrl: 'https://github.com/nowsprinting/nunit.analyzers.unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: ''
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635657961737
