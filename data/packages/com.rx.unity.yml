@@ -1,0 +1,19 @@
+name: com.rx.unity
+displayName: Reactive Extensions Enrichment for Unity
+description: A minimalistic MVVM framework for the new Unity UI Toolkit build on EcsRx.
+repoUrl: 'https://github.com/Cosmic-Shores/Rx.Unity'
+parentRepoUrl: 'https://github.com/grofit/unity-rx-test'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Cosmic-Shores
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636054881116
