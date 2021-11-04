@@ -1,0 +1,21 @@
+name: com.whitesharx.httx
+displayName: Httx
+description: X-force HTTP/REST framework for Unity
+repoUrl: 'https://github.com/whitesharx/httx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - network
+  - utilities
+hunter: selfsx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636027632264
