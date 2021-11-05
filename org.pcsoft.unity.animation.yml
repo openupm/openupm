@@ -1,0 +1,19 @@
+name: org.pcsoft.animation
+displayName: Animation Extension
+description: Provide a builder for animations based on Coroutines
+repoUrl: 'https://github.com/KleinerHacker/unity-animation'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636112608384
