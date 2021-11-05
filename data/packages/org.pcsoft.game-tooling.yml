@@ -1,0 +1,20 @@
+name: org.pcsoft.game-tooling
+displayName: Game Tooling
+description: Extension for Unity with common tooling for gaming
+repoUrl: 'https://github.com/KleinerHacker/unity-game-tooling'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - camera
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636130663926
