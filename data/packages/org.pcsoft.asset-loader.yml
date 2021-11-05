@@ -1,0 +1,20 @@
+name: org.pcsoft.asset-loader
+displayName: Asset Loader
+description: Extension to give an easy way to load assets from different sources
+repoUrl: 'https://github.com/KleinerHacker/unity-asset-loader'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - asset-management
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121483558
