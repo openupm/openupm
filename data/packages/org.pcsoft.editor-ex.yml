@@ -1,0 +1,20 @@
+name: org.pcsoft.editor-ex
+displayName: Unity Editor Extension
+description: Extension for Editor system of Unity.
+repoUrl: 'https://github.com/KleinerHacker/unity-editor-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - editor-enhancement
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121333246
