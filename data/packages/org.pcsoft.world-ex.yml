@@ -1,0 +1,19 @@
+name: org.pcsoft.world-ex
+displayName: Unity World Extension
+description: Extension for Unity to use worlds instead of single scenes
+repoUrl: 'https://github.com/KleinerHacker/unity-world-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636129357974
