@@ -1,0 +1,19 @@
+name: org.pcsoft.blending
+displayName: Unity Blending
+description: Blending System for scene changes in Unity
+repoUrl: 'https://github.com/KleinerHacker/unity-blending'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121749694
