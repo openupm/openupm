@@ -1,0 +1,23 @@
+name: devlocker.utils.scenereference
+displayName: Scene Reference
+description: >-
+  Keeps reference to a scene asset and tracks it's path, so it can be used in
+  the game runtime.Use this class to avoid manually typing and updating scene
+  path strings - it will try to do it for you as best as it can, including when
+  building the player.
+repoUrl: 'https://github.com/NibbleByte/UnitySceneReference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636325937299
