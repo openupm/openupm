@@ -1,0 +1,22 @@
+name: com.pwalser.unitaskwebsocket
+displayName: UniTaskWebSocket
+description: >-
+  Wraps a WebSocket (System.Net.WebSockets and jslib-bridged WebSocket) in an
+  Interface that returns UniTask, allows async/await WebSocket operations in
+  Unity
+repoUrl: 'https://github.com/Iblis/UniTaskWebSocket'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - network
+hunter: Iblis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636370305269
