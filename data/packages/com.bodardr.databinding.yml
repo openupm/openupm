@@ -1,0 +1,20 @@
+name: com.bodardr.databinding
+displayName: UI Databinding
+description: Dynamically updated UI and tools.
+repoUrl: 'https://github.com/bodardr/databinding'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - gui
+  - utilities
+hunter: bodardr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:license.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636606070721
