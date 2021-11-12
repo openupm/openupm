@@ -1,0 +1,19 @@
+name: com.azesmway.react-native-unity
+displayName: react-native-unity
+description: ReactNative <-> Unity Integration
+repoUrl: 'https://github.com/Mythologi-XR/react-native-unity-play-upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: Mythologi-XR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636648582398
