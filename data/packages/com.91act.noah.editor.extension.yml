@@ -1,0 +1,19 @@
+name: com.91act.noah.editor.extension
+displayName: NOAH Editor Extension
+description: ''
+repoUrl: 'https://github.com/91Act/NOAH_Editor_Utility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637053311007
