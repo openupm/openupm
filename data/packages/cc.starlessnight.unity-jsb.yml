@@ -9,7 +9,7 @@ topics:
   - editor-enhancement
   - utilities
 hunter: ialex32x
-gitTagPrefix: upm/x.y.z
+gitTagPrefix: upm/
 gitTagIgnore: ''
 minVersion: ''
 image: null
