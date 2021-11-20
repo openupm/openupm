@@ -1,0 +1,20 @@
+name: de.lumpn.unity-handheld
+displayName: Lumpn Handheld
+description: Fixes missing Handheld class on Windows.
+repoUrl: 'https://github.com/lumpn/unity-handheld'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637435753798
