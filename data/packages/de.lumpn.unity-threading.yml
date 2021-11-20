@@ -1,0 +1,21 @@
+name: de.lumpn.unity-threading
+displayName: Lumpn Threading
+description: >-
+  Non-allocating async/await threading facilities. Coroutines that flow across
+  threads, callbacks, and yield instructions.
+repoUrl: 'https://github.com/lumpn/unity-threading'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637433625331
