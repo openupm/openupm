@@ -1,0 +1,19 @@
+name: com.vadimskyi.androidnativeutils
+displayName: Android native utilities
+description: Package description
+repoUrl: 'https://github.com/Vadimskyi/com.vadimskyi.androidnativeutils'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637574444896
