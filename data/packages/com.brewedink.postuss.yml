@@ -1,0 +1,22 @@
+name: com.brewedink.postuss
+displayName: BrewedInk PostUSS
+description: transpile modern CSS to USS
+repoUrl: 'https://github.com/cdhanna/postUSS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: cdhanna
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:UnityGame/Packages/com.brewedink.postuss/readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637606208268
