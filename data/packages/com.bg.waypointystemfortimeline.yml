@@ -1,6 +1,6 @@
 name: com.bg.waypointystemfortimeline
 displayName: WaypointSystemForTimeline
-description: ''
+description: 'Possible to complement the track (Bezier curve) on the Timeline.'
 repoUrl: 'https://github.com/k-okawa/WaypointSystemForTimeline'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -10,7 +10,7 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://user-images.githubusercontent.com/49301086/143799354-433e3214-bd28-4a22-a105-77f4bce7dc58.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
