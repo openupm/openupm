@@ -10,7 +10,7 @@ hunter: k-okawa
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: 'https://user-images.githubusercontent.com/49301086/137613577-d510a77c-0231-4e76-bf0f-a6f16a2ae506.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
