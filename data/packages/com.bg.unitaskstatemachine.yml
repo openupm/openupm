@@ -1,0 +1,18 @@
+name: com.bg.unitaskstatemachine
+displayName: UniTaskStateMachine
+description: 'StateMachine for UniTask'
+repoUrl: 'https://github.com/k-okawa/UniTaskStateMachine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: k-okawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638240037297
