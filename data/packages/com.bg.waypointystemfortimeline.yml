@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
   - editor-enhancement
-hunter: 'k-okawa'
+hunter: k-okawa
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
