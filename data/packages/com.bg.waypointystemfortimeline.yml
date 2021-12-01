@@ -5,8 +5,10 @@ repoUrl: 'https://github.com/k-okawa/WaypointSystemForTimeline'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: []
-hunter: ''
+topics:
+  - utilities
+  - editor-enhancement
+hunter: k-okawa
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
