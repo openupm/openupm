@@ -5,7 +5,10 @@ repoUrl: 'https://github.com/k-okawa/UniTaskStateMachine'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: []
+topics:
+  - utilities
+  - parallelism-and-concurrency
+  - editor-enhancement
 hunter: k-okawa
 gitTagPrefix: ''
 gitTagIgnore: ''
