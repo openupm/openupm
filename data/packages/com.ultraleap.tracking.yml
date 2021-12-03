@@ -1,0 +1,28 @@
+name: com.ultraleap.tracking
+displayName: Ultraleap Tracking
+description: >-
+  Ultraleap's Unity Plugin enables the data produced by Ultraleap tracking
+  hardware to be used by developers inside their Unity projects. It includes
+  various utilities and prefabs that make it as easy as possible to design and
+  use hand tracking in XR projects
+repoUrl: 'https://github.com/ultraleap/UnityPlugin'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - input-management
+  - integration
+  - physics
+  - services
+hunter: Craig-J
+gitTagPrefix: UnityPlugin-V
+gitTagIgnore: ''
+minVersion: 5.0.0-preview.1
+image: >-
+  https://github.com/ultraleap/UnityPlugin/raw/a80192ccb771994f42f4bba1d66a3e5092d6fa9d/Packages/Tracking/Core/Editor/Resources/Ultraleap_Logo.png
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638529395317
