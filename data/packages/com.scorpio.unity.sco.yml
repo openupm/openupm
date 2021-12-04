@@ -1,0 +1,19 @@
+name: com.scorpio.unity.sco
+displayName: Scorpio-CSharp
+description: "sco是c#实现的解释型脚本,是一种高效,轻量,可嵌入的脚本语言,语法类似javascript,类型为弱类型,通过使用基于栈的虚拟机解释字节码来运行.\n兼容平台列表\n* PC, Mac & Linux Standalone(包括IL2CPP)\r\n* iOS(包括IL2CPP)\r\n* Android(包括IL2CPP)\r\n* UWP IL2CPP\n* WebGL"
+repoUrl: 'https://github.com/qingfeng346/upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - code-generation
+hunter: ''
+gitTagPrefix: sco/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638613632435
