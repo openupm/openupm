@@ -124,6 +124,10 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - uses: actions/checkout@v1
+    - name: set node.js 12
+      uses: actions/setup-node@v2
+      with:
+        node-version: '12'
     - name: yarn install
       run: yarn install
     - name: yarn docs:build
