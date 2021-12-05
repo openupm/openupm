@@ -1,0 +1,21 @@
+name: com.poleski.unity.tools
+displayName: Poleski Tools
+description: Tools for Unity Game Dev
+repoUrl: 'https://github.com/joesobo/UnityTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: joesobo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638667634217
