@@ -4,8 +4,7 @@ description: >-
   Unity package to help having a clearer Hierarchy view, organizing everything
   in a “tree view” and including extra informations like Components Icons and
   groups/divisors.
-repoUrl: 'https://github.com/abrusle/unitypackage-custom-hierarchy'
-parentRepoUrl: 'https://github.com/febucci/unitypackage-custom-hierarchy'
+repoUrl: 'https://github.com/febucci/unitypackage-custom-hierarchy'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
