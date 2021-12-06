@@ -1,0 +1,25 @@
+name: com.ultraleap.tracking.preview
+displayName: Ultraleap Tracking Preview
+description: Ultraleap Tracking Preview
+repoUrl: 'https://github.com/ultraleap/UnityPlugin'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - input-management
+  - integration
+  - physics
+  - services
+  - utilities
+hunter: Craig-J
+gitTagPrefix: com.ultraleap.tracking.preview/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ultraleap/UnityPlugin/raw/a80192ccb771994f42f4bba1d66a3e5092d6fa9d/Packages/Tracking/Core/Editor/Resources/Ultraleap_Logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638793205518
