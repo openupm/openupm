@@ -1,0 +1,20 @@
+name: com.thammin.unity-spring
+displayName: Unity Spring
+description: Spring physics that models a damped harmonic oscillator.
+repoUrl: 'https://github.com/thammin/unity-spring'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+hunter: thammin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/thammin/unity-spring/raw/fab18b06434789745e25ad483839d04335ee1cd9/Documentation~/visualizer.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638867290363
