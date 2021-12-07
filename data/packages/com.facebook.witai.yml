@@ -1,0 +1,24 @@
+name: com.facebook.witai
+displayName: Wit.ai
+description: >-
+  wit-unity is the Unity SDK for Wit.ai. It provides convenience tools for
+  activating Wit and processing the responses that are returned.
+repoUrl: 'https://github.com/wit-ai/wit-unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: See LICENSE
+topics:
+  - ai
+  - integration
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/wit-ai/wit-unity/raw/70e1a738b5ba0349ca01f1b6a6d64bb1af7d6c30/Resources/wit-ai-title.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638836597115
