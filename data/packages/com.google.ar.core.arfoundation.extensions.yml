@@ -1,0 +1,26 @@
+name: com.google.ar.core.arfoundation.extensions
+displayName: ARCore Extensions
+description: >-
+  Google ARCore Extensions for AR Foundation. This package provides access to
+  ARCore features not covered by AR Foundation's cross platform API.
+repoUrl: 'https://github.com/google-ar/arcore-unity-extensions'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ar-and-vr
+  - editor-enhancement
+  - integration
+  - mobile
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639153654002
