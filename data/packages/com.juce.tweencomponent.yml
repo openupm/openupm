@@ -1,0 +1,19 @@
+name: com.juce.tweencomponent
+displayName: Juce-TweenComponent
+description: Component based Tweening library
+repoUrl: 'https://github.com/Juce-Assets/Juce-TweenPlayer'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: Guillemsc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639246103693
