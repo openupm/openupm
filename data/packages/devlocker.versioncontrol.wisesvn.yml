@@ -1,0 +1,49 @@
+name: devlocker.versioncontrol.wisesvn
+displayName: WiseSVN
+description: >-
+  Simple but powerful SVN integration.
+
+  Hooks up to Unity move and delete file operations and executes respective svn
+  commands to stay in sync. Handles meta files as well.
+
+  Moving assets to unversioned folder will ask the user to add that folder to
+  SVN as well.
+
+  Moving folders / files that have conflicts will be rejected.
+
+  Will work with other tools as long as they move assets using Unity API.
+
+  Provides assets context menu for manual SVN operations like commit, update,
+  revert etc.
+
+
+  Prerequisites:
+   - SVN CLI (Command Line Interface) needs to be installed (TortoiseSVN has it available).
+   - Menu items work with TortoiseSVN (for Windows) and SnailSVN (for MacOS) clients.
+
+  Usage: "Assets/SVN/...".
+
+
+  WARNING: Never focus Unity while the project updating in the background. Newly
+  added asset guids may get corrupted in which case the Library folder needs to
+  be deleted.
+
+  Preferred workflow is to always work inside Unity - use the "Assets/SVN/..."
+  menus. "Assets/SVN/Update All" will block Unity while updating, to avoid Unity
+  processing assets at the same time.
+repoUrl: 'https://github.com/NibbleByte/UnityWiseSVN'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - version-control
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639221496329
