@@ -1,0 +1,20 @@
+name: com.bg.directoryduplicator
+displayName: DirectoryDuplicator
+description: 'This package is possible to duplicate files in directory with guid dependencies.'
+repoUrl: 'https://github.com/k-okawa/DirectoryDuplicator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: k-okawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639284596500
