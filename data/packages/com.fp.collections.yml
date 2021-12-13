@@ -1,0 +1,19 @@
+name: com.fp.collections
+displayName: FrameProject Collections
+description: New or extended collections for common use
+repoUrl: 'https://github.com/FrameProjectTeam/Collections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Kaladrius2trip
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639384719874
