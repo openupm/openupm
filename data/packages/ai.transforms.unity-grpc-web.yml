@@ -1,0 +1,18 @@
+name: ai.transforms.unity-grpc-web
+displayName: Grpc-Web for Unity
+description: 'Allows using https://github.com/grpc/grpc-dotnet/ with Unity WebGL'
+repoUrl: 'https://github.com/transitional-forms-inc/UnityGrpcWeb'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639360903894
