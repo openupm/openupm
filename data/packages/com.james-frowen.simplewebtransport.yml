@@ -1,0 +1,22 @@
+name: com.james-frowen.simplewebtransport
+displayName: Simple Web Transport
+description: >-
+  Low level transport for Unity using the websocket Protocol. Includes a
+  Websocket server, standalone client, and a WebGL client so that both your
+  Server and Client can be build with Unity.
+repoUrl: 'https://github.com/James-Frowen/SimpleWebTransport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639589646200
