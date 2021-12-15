@@ -1,7 +1,7 @@
 name: ai.transforms.webgl-http-handler
 displayName: WebGL HttpHandler
 description: Allows WebGL unity builds to make HttpRequests using Fetch
-repoUrl: 'https://github.com/transitional-forms-inc/UnityWebGLHttpHandler'
+repoUrl: 'https://github.com/transformsai/UnityWebGLHttpHandler'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''
