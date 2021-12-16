@@ -3,7 +3,7 @@ displayName: WebGL Threading Fix
 description: >-
   Allows singlethreaded ThreadPool for ConfigureAwait(false) and
   ThreadPool.Run()
-repoUrl: 'https://github.com/transitional-forms-inc/UnityWebGLThreadingFix'
+repoUrl: 'https://github.com/transformsai/UnityWebGLThreadingFix'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
