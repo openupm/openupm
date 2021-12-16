@@ -1,0 +1,21 @@
+name: org.lightningartist.latk
+displayName: Lightning Artist Toolkit
+description: Pipeline tools for volumetric animation
+repoUrl: 'https://github.com/LightningArtist/latkUnity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache
+topics:
+  - ar-and-vr
+  - animation
+hunter: n1ckfg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LightningArtist/latkUnity/raw/bccdaf286d27d534839f927cb39d38b0da0a8265/Runtime/Example/Textures/latk_logo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639672433746
