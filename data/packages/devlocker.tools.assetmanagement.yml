@@ -1,0 +1,38 @@
+name: devlocker.tools.assetmanagement
+displayName: Asset Management Tools
+description: >-
+  Asset management tools.
+
+  Tools:
+
+  - Scenes In Project - list of all available scenes in the project for quick
+  access.
+
+  - Multi-Rename Tool - mass search and rename assets.
+
+  - Search References (FAST) - searches where selected asset is used (text
+  search by guid).
+
+  - Search Prefabs Components - searches for components in prefabs.
+
+  - Search Duplicate Assets - searches duplicate assets (by name).
+
+
+  Usage: "Tools/Asset Management/...".
+repoUrl: 'https://github.com/NibbleByte/UnityAssetManagementTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639999934184
