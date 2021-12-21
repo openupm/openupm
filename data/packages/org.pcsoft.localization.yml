@@ -1,0 +1,21 @@
+name: org.pcsoft.localization
+displayName: Unity Localization
+description: Localization system for Unity games.
+repoUrl: 'https://github.com/KleinerHacker/unity-localization'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache Licence 2.0
+topics:
+  - frameworks
+  - localization
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640094520262
