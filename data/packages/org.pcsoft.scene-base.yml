@@ -1,0 +1,19 @@
+name: org.pcsoft.scene-base
+displayName: Unity Scene System Base Module
+description: Scene System Basic Module for Unity
+repoUrl: 'https://github.com/KleinerHacker/unity-scene-base'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640211259628
