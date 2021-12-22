@@ -1,0 +1,20 @@
+name: com.cysharp.nativememoryarray
+displayName: NativeMemoryArray
+description: Utilized native-memory backed array.
+repoUrl: 'https://github.com/Cysharp/NativeMemoryArray'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cysharp/NativeMemoryArray/raw/a0aac29d3b5d951c25d75c4d36b2ea85d3e64684/src/NativeMemoryArray/Icon.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640200961756
