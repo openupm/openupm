@@ -1,0 +1,21 @@
+name: com.nomnom.project-window-extensions
+displayName: Project Window Extensions
+description: This aims to improve the usability of the project window.
+repoUrl: 'https://github.com/nomnomab/Project-Window-Extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: nomnomab
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640467220597
