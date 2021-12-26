@@ -28,6 +28,7 @@ const buildPackage = async function(name) {
   let remoteTags = [];
   try {
     remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+    await PackageExtra.setRepoUnavailable(name, false);
   } catch (error) {
     // If repository has became private or been removed...
     if (error.message.includes("ERROR: Repository not found")) {
