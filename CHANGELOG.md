@@ -1,3 +1,10 @@
+## [1.51.3](https://github.com/openupm/openupm/compare/1.51.2...1.51.3) (2021-12-26)
+
+
+### Bug Fixes
+
+* **pipelines:** clean repo unavailable flag if repo becomes accesssable ([4bf9f16](https://github.com/openupm/openupm/commit/4bf9f16e59f0b6af7a8ced12c64af9420e6f4b17))
+
 ## [1.51.2](https://github.com/openupm/openupm/compare/1.51.1...1.51.2) (2021-10-07)
 
 
