@@ -1,0 +1,19 @@
+name: com.vertexcolor.validator
+displayName: Validator
+description: Unity project validator framework.
+repoUrl: 'https://github.com/maxartz15/Validator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640687599377
