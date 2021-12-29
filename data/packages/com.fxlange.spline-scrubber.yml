@@ -1,0 +1,19 @@
+name: com.fxlange.spline-scrubber
+displayName: Spline Scrubber
+description: Timeline integration for splines
+repoUrl: 'https://github.com/fx-lange/unity-spline-scrubber'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640791486845
