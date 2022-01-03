@@ -14,7 +14,7 @@ topics:
 hunter: pk1234dva
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.0.1'
 image: null
 readme: 'master:README.md'
 readme_zhCN: ''
