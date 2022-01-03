@@ -1,0 +1,20 @@
+name: co.mindport.builder.xrinteraction
+displayName: VR Builder XR Interaction Component
+description: VR Builder default XR interaction component.
+repoUrl: 'https://github.com/MindPort-GmbH/VR-Builder-XR-Interaction-Component'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ar-and-vr
+  - visual-scripting
+hunter: MindPort-GmbH
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641219954856
