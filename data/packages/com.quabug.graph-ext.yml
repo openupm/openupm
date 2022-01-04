@@ -1,0 +1,20 @@
+name: com.quabug.graph-ext
+displayName: Graph Ext
+description: A library to help you customize your own Unity3D Graph solution.
+repoUrl: 'https://github.com/quabug/GraphExt'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - visual-scripting
+hunter: ''
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641288441449
