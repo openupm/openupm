@@ -1,0 +1,19 @@
+name: br.com.expressobits.inventories.netcode
+displayName: EB Inventories Extension for Netcode
+description: Inventory system extension for unity netcode
+repoUrl: 'https://github.com/ExpressoBits/Inventories.Netcode'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: ExpressoBits
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641391378834
