@@ -1,0 +1,20 @@
+name: com.nomnom.easier-custom-preferences
+displayName: Easier Custom Preferences
+description: Makes adding a custom preferences panel easier.
+repoUrl: 'https://github.com/nomnomab/Easier-Custom-Preferences'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: nomnomab
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641407083399
