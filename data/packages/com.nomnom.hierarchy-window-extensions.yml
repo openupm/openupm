@@ -12,7 +12,8 @@ hunter: nomnomab
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://github.com/nomnomab/Hierarchy-Window-Extensions/raw/639df7d6f91abf3d90cb906ad15501be416382db/Assets~/difference.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
