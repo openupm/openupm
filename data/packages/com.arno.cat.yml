@@ -3,8 +3,8 @@ displayName: Cat
 description: anything&everything
 repoUrl: 'https://github.com/ArnoZh/Cat'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: license
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
 hunter: Arno/Cat
