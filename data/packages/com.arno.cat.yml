@@ -1,7 +1,7 @@
 name: com.arno.cat
 displayName: Cat
 description: anything&everything
-repoUrl: 'https://github.com/ArnoZh/Cat.git'
+repoUrl: 'https://github.com/ArnoZh/Cat'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
