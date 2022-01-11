@@ -1,10 +1,10 @@
 name: com.arno.cat
 displayName: Cat
 description: anything&everything
-repoUrl: 'https://github.com/ArnoZh/Cat'
+repoUrl: 'https://github.com/ArnoZh/Cat.git'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: license
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
 hunter: Arno/Cat
