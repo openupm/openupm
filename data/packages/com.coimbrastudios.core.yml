@@ -1,0 +1,19 @@
+name: com.coimbrastudios.core
+displayName: CS Framework
+description: ''
+repoUrl: 'https://github.com/coimbrastudios/framework'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: brunocoimbrar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641916640156
