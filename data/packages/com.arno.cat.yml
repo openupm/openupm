@@ -8,7 +8,7 @@ licenseName: license
 topics:
   - animation
 hunter: Arno/Cat
-gitTagPrefix: V1.0.0
+gitTagPrefix:
 gitTagIgnore: ''
 minVersion: ''
 image: >-
