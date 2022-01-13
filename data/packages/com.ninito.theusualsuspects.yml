@@ -1,0 +1,21 @@
+name: com.ninito.theusualsuspects
+displayName: The Usual Suspects
+description: >-
+  A collection of useful Unity tools, features and extensions that I seemed to
+  have to recreate for every project. Well... Not anymore!
+repoUrl: 'https://github.com/ninito-ph/The-Usual-Suspects'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642117812279
