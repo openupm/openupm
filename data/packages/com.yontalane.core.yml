@@ -1,7 +1,7 @@
 name: com.yontalane.core
 displayName: Core
 description: A small library for Unity projects.
-repoUrl: 'https://github.com/yontalane/UnityPackages'
+repoUrl: 'https://github.com/yontalane/UnityPackages/Packages/com.yontalane.core'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Creative Commons Attribution 3.0 United States
