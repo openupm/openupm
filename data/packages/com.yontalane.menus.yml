@@ -1,0 +1,23 @@
+name: com.yontalane.menus
+displayName: Menus
+description: >-
+  A menu navigation library that supports both controller and mouse and
+  keyboard.
+repoUrl: 'https://github.com/yontalane/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Creative Commons Attribution 3.0 United States
+topics:
+  - gui
+  - input-management
+  - utilities
+hunter: ''
+gitTagPrefix: com.yontalane.menus/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.yontalane.menus/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642209294032
