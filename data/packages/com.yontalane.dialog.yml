@@ -1,0 +1,22 @@
+name: com.yontalane.dialog
+displayName: Dialog
+description: A dialog system.
+repoUrl: 'https://github.com/yontalane/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Creative Commons Attribution 3.0 United States
+topics:
+  - frameworks
+  - gui
+  - input-management
+  - utilities
+hunter: ''
+gitTagPrefix: com.yontalane.dialog/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.yontalane.dialog/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642216456975
