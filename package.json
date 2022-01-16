@@ -99,7 +99,7 @@
     "is-promise": "^2.1.0",
     "lazy-property": "^1.0.0",
     "lodash": "^4.17.21",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "node-emoji": "^1.10.0",
     "node-tunnel": "^4.0.0",
     "nunjucks": "^3.2.2",

@@ -107,7 +107,7 @@ const renderMarkdownToHtml = async function({
     imageBaseUrl,
     imageBaseRelativeUrl
   });
-  const html = marked(markdown, { renderer });
+  const html = marked.parse(markdown, { renderer });
   // post-processing
   return postProcessHtml(html, { imageBaseRelativeUrl });
 };
