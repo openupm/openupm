@@ -2,7 +2,7 @@ name: com.miragenet.steamy
 displayName: Mirage SteamyNG
 description: An Async implementation of Steamworks.net transport for Mirage
 repoUrl: 'https://github.com/MirageNet/FizzySteamyMirror'
-parentRepoUrl: null
+parentRepoUrl: 'https://github.com/Chykary/FizzySteamworks'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
