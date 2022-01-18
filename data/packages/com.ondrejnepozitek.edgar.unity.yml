@@ -1,7 +1,7 @@
-name: com.ondrejnepozitek.procedurallevelgenerator
+name: com.ondrejnepozitek.edgar.unity
 displayName: Edgar - Procedural Level Generator
-description: Unity plugin for procedural dungeon generation
-repoUrl: 'https://github.com/OndrejNepozitek/ProceduralLevelGenerator-Unity'
+description: 2D procedural level generator
+repoUrl: 'https://github.com/OndrejNepozitek/Edgar-Unity'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
