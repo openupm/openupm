@@ -1,0 +1,20 @@
+name: com.yontalane.shaders
+displayName: Shaders
+description: A shader library.
+repoUrl: 'https://github.com/yontalane/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Creative Commons Attribution 3.0 United States
+topics:
+  - 2d
+  - particles-and-effects
+hunter: ''
+gitTagPrefix: com.yontalane.shaders/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.yontalane.shaders/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642658754276
