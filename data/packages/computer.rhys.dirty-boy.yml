@@ -1,0 +1,19 @@
+name: computer.rhys.dirty-boy
+displayName: Dirty Boy
+description: Editor utility to manage dirty status of assets
+repoUrl: 'https://github.com/rhys-vdw/dirty-boy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643182597716
