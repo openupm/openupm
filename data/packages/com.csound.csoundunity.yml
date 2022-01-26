@@ -1,0 +1,33 @@
+name: com.csound.csoundunity
+displayName: CsoundUnity
+description: >-
+  CsoundUnity is a fully integrated audio middleware. It extends Unity's audio
+  API by creating Csound-based AudioSource objects that can interact and exist
+  alongside regular AudioSource objects. 
+
+  With CsoundUnity, games developers have at their fingertips one of the most
+  powerful synthesis systems in existence. 
+
+
+  Please visit homepage: http://rorywalsh.github.io/CsoundUnity/ 
+
+
+  This interface would not have been possible without Richard Henninger's .NET
+  interface to the Csound API.
+repoUrl: 'https://github.com/rorywalsh/CsoundUnity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: LGPL
+topics:
+  - audio
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/rorywalsh/CsoundUnity/raw/8fb1cf9795f33360349d1fbc3a8e7bf046ad2dda/docs/images/EditorScreen.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643209576146
