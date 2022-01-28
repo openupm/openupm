@@ -1,0 +1,19 @@
+name: cn.attolee.m4u2
+displayName: M4u2
+description: M4u 〜 あとがき
+repoUrl: 'https://github.com/attolee/M4u2'
+parentRepoUrl: 'https://github.com/okamura0510/M4u2'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643383844833
