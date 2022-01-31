@@ -1,17 +1,17 @@
 name: com.dman.l-system
 displayName: L-system
 description: >-
-  An attempt to implement most of the features present in L-systems described by
+  An implementation of the features present in L-systems described by
   'The Algorithmic Beauty Of Plants'
   http://algorithmicbotany.org/papers/abop/abop.pdf
-repoUrl: 'https://github.com/dsmiller95/plantbuilder'
+repoUrl: 'https://github.com/dsmiller95/LindenmayerPlantSimulation'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - procedural-generation
 hunter: dsmiller95
-gitTagPrefix: com.dman.l-system/
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
