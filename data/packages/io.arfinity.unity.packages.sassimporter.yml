@@ -1,0 +1,25 @@
+name: io.arfinity.unity.packages.sassimporter
+displayName: arfinity - SassImporter
+description: |-
+  Sass Importer Library for Unity
+
+  Imports .scss files and makes them available for reference from .uxml files.
+repoUrl: 'https://github.com/arfinity-io/unity-sassimporter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Package/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643801051442
