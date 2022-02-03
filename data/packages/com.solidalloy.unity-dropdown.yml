@@ -1,0 +1,22 @@
+name: com.solidalloy.unity-dropdown
+displayName: Unity Dropdown
+description: A better dropdown window for Unity Editor
+repoUrl: 'https://github.com/SolidAlloy/UnityDropdown'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT License modified with Commons Clause Restriction
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/SolidAlloy/UnityDropdown/raw/3dbf546d7246cbb70870e46345753b70500c2a49/.images/example-usage.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643905837030
