@@ -6,9 +6,10 @@ pull_request_rules:
       - "-files~=data/packages/(.*)(google|unity|microsoft|apple|twitter)\\.(.*)\\.yml$"
       - "#files=1"
       - -conflict
-      - -merged
       - "status-success~=CI"
-      - "title~=^chore\\(data\\): new package"
+      - or:
+        - "title~=^chore\\(data\\): new package"
+        - "title~=^Create(.*)\\.yml$"
 
     actions:
       merge:
