@@ -1,0 +1,24 @@
+name: com.solidalloy.extevents
+displayName: ExtEvents
+description: 'UnityEvents, but better.'
+repoUrl: 'https://github.com/SolidAlloy/ExtEvents'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: MIT License modified with Commons Clause Restriction
+topics:
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: SolidAlloy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/SolidAlloy/ExtEvents/raw/89efa784230bce8cf9d915aaac20f97b700d7528/.images/static-listener.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643905632827
