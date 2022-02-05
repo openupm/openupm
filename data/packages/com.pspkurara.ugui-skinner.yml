@@ -11,7 +11,7 @@ hunter: pspkurara
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: https://github.com/pspkurara/ugui-skinner/blob/master/.github/openupm/Icon.png
 readme: 'master:README.md'
 createdAt: 1599538361034
 displayName_zhCN: uGUI Skinner
