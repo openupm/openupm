@@ -1,0 +1,21 @@
+name: com.virgis.vr-keyboard
+displayName: Simple VR Keyboard
+description: Unity Keyboard for use in VR
+repoUrl: 'https://github.com/ViRGIS-Team/VR-Keyboard'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - gui
+  - input-management
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644269397068
