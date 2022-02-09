@@ -1,4 +1,4 @@
-name: com.middlemast.core.yml
+name: com.middlemast.core
 displayName: MiddleMast Core
 description: ''
 repoUrl: 'https://github.com/GiovanniZambiasi/middlemast-core'
