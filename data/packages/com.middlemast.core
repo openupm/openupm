@@ -1,0 +1,20 @@
+name: com.middlemast.core
+displayName: MiddleMast Core
+description: ''
+repoUrl: 'https://github.com/GiovanniZambiasi/middlemast-core'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+  - utilities
+hunter: giovannizambiasi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644413406862
