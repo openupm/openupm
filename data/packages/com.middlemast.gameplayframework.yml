@@ -1,0 +1,19 @@
+name: com.middlemast.gameplayframework
+displayName: Gio's Gameplay Framework
+description: A solid framework for gameplay architecture.
+repoUrl: 'https://github.com/GiovanniZambiasi/gameplay-framework-unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: giovannizambiasi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644413170691
