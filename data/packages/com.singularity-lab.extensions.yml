@@ -1,0 +1,19 @@
+name: com.singularity-lab.extensions
+displayName: Singularity Lab Extensions
+description: Singularity Lab Framework
+repoUrl: 'https://github.com/Silentdesu/SingularityLab-Extensions'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644405728093
