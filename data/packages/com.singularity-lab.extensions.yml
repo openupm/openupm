@@ -3,8 +3,8 @@ displayName: Singularity Lab Extensions
 description: Singularity Lab Framework
 repoUrl: 'https://github.com/Silentdesu/SingularityLab-Extensions'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: ''
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: ''
