@@ -1,0 +1,19 @@
+name: be.khepri.play.assetdelivery.addressables.cn
+displayName: Google Play Asset Delivery - Addressables
+description: Provide addressables with support for Play Asset Delivery
+repoUrl: 'https://github.com/danyow/be.khepri.play.assetdelivery.addressables.cn'
+parentRepoUrl: 'https://github.com/thanh-nguyen-kim/be.khepri.play.assetdelivery.addressables'
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+hunter: danyow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.5.0
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644472485421
