@@ -1,0 +1,23 @@
+name: com.yontalane.layouttilemap
+displayName: Layout Tilemap
+description: >-
+  Enables creation of prefab-based level layouts using 2D UnityEngine.Tilemap
+  objects as blueprints.
+repoUrl: 'https://github.com/yontalane/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Creative Commons Attribution 3.0 United States
+topics:
+  - 2d
+  - level-design
+  - utilities
+hunter: ''
+gitTagPrefix: com.yontalane.layouttilemap/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.yontalane.layouttilemap/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644478120608
