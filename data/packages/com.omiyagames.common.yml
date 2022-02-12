@@ -11,6 +11,7 @@ hunter: japtar10101
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'main:README.md'
 createdAt: 1585431583441
 displayName_zhCN: Omiya游戏 - 通用
 description_zhCN: Unity软件包，其中包含各种Omiya Games工具使用的库
