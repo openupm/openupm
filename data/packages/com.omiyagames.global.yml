@@ -14,7 +14,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:README.md'
 createdAt: 1590123050642
 displayName_zhCN: Omiya游戏 - 全局
 description_zhCN: 一组脚本和抽象类，可帮助设置可全局访问的数据。
