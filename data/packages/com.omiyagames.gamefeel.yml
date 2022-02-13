@@ -1,0 +1,21 @@
+name: com.omiyagames.gamefeel
+displayName: Omiya Games - Game Feel
+description: 'Tools for playing juicy, full-screen special effects.'
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-game-feel'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - particles-and-effects
+  - utilities
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644723298185
