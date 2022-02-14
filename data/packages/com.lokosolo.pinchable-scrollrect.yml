@@ -16,7 +16,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'master:README.md'
-readme_zhCN: ''
+readme_zhCN: 'master:README_ZH.md'
 displayName_zhCN: 可縮放滾動矩形
 description_zhCN: 可縮放滾動矩形讓用家能夠以手指觸控或滑鼠滾輪來對用戶界面(UI)進行縮放
 createdAt: 1644698021159
