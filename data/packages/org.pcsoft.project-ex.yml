@@ -1,0 +1,24 @@
+name: org.pcsoft.project-ex
+displayName: Project Extension for Unity
+description: Extension for Unity for better project handling.
+repoUrl: 'https://github.com/KleinerHacker/unity-project-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - gui
+  - integration
+  - package-management
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1645138883553
