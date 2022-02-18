@@ -1,0 +1,19 @@
+name: com.kyeonw00.unity-screen-capture-utility
+displayName: Screen Capture Utility
+description: Screen capture utility for unity
+repoUrl: 'https://github.com/kyeonw00/unity-screen-capture-utility'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: 'MIT'
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: '0.0.1'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1645158156458
