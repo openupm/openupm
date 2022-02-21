@@ -1,0 +1,22 @@
+  
+name: com.vovgou.loxodon-framework-ilruntime
+displayName: Loxodon Framework ILRuntime
+description: >-
+  This is a ILRuntime plugin for Loxodon.Framework.  
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ilruntime
+  - frameworks
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.3.0
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'master:Loxodon.Framework.ILRuntime/README.md'
+createdAt: 1594375319319
