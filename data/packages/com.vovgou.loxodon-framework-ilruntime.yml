@@ -8,12 +8,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-- name: ILRuntime
-  slug: ilruntime
-- name: MVVM
-  slug: mvvm
-- name: Framework
-  slug: framework
+  - frameworks
+  - integration
+  - localization
+  - utilities
   
 hunter: vovgou
 gitTagPrefix: ''
