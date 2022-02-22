@@ -1,0 +1,22 @@
+name: com.i5.virtualagents
+displayName: Virtual Agents Framework
+description: A Unity package for creating virtual agents
+repoUrl: 'https://github.com/rwth-acis/Virtual-Agents-Framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - ar-and-vr
+  - animation
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/rwth-acis/Virtual-Agents-Framework/raw/e5012274712e5f3469e2886d9cc5490bf4213ef1/Logos/Logo_4k.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1645529542811
