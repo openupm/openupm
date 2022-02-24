@@ -1,13 +1,14 @@
 name: com.adrian-miasik.open-pomodoro
 displayName: Open Pomodoro
 description: "An open source pomodoro timer app created in Unity ð\x9F\x8D\N"
-repoUrl: 'https://github.com/adrian-miasik/unity-pomodoro'
+repoUrl: 'https://github.com/adrian-miasik/open-pomodoro'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
 topics:
   - animation
   - gui
+  - tools
 hunter: adrian-miasik
 gitTagPrefix: ''
 gitTagIgnore: ''
