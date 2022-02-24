@@ -8,7 +8,6 @@ licenseName: GNU General Public License v3.0
 topics:
   - animation
   - gui
-  - tools
 hunter: adrian-miasik
 gitTagPrefix: ''
 gitTagIgnore: ''
