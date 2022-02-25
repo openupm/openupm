@@ -13,7 +13,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '2.0.0'
 image: null
-readme: 'feature/package:README.md'
+readme: 'develop:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
