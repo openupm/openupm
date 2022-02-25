@@ -2,17 +2,17 @@ name: com.mlapi.contrib.transport.enet
 displayName: ENET Transport for MLAPI
 description: ENET Transport for MLAPI
 repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
-parentRepoUrl: null
+parentRepoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - network
 hunter: SushiWaUmai
-gitTagPrefix: ''
+gitTagPrefix: 'com.mlapi.contrib.transport.enet/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:Packages/com.mlapi.contrib.transport.enet/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
