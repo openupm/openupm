@@ -1,0 +1,21 @@
+name: com.rhinox.open.lightspeed
+displayName: Lightspeed - Utility Library
+description: >-
+  Coding extensions library: New basic datatypes, static helper methods and
+  extensions on Unity datatypes 
+repoUrl: 'https://github.com/Rhinox-Training/rhinox-lightspeed'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1645781018033
