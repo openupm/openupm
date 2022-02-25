@@ -1,8 +1,8 @@
 name: com.mlapi.contrib.transport.enet
 displayName: ENET Transport for MLAPI
 description: ENET Transport for MLAPI
-repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
-parentRepoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'
+repoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'
+parentRepoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
