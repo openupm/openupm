@@ -1,18 +1,18 @@
 name: com.mlapi.contrib.transport.ruffles
 displayName: Ruffles Transport for MLAPI
 description: Ruffles Transport for MLAPI
-repoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
-parentRepoUrl: null
+repoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'
+parentRepoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - network
 hunter: SushiWaUmai
-gitTagPrefix: ''
+gitTagPrefix: 'com.mlapi.contrib.transport.ruffles/'
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:Packages/com.mlapi.contrib.transport.ruffles/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
