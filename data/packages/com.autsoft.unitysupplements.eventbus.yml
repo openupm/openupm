@@ -1,0 +1,21 @@
+name: com.autsoft.unitysupplements.eventbus
+displayName: EventBus
+description: Simple eventbus implementation for Unity
+repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: Vikesz12
+gitTagPrefix: eventbus
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/AutSoft/AutSoft.UnitySupplements/raw/211c886ae4a7c602aa74699bb42b97118e1a3637/Documentation/templates/autsoft/logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646057985606
