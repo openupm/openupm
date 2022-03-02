@@ -1,0 +1,22 @@
+name: com.sparkade.sparktools.customprojectsettings
+displayName: 'SparkTools: Custom Project Settings'
+description: >-
+  Allows for the creation of custom project settings, usable both in the editor
+  and at runtime.
+repoUrl: >-
+  https://github.com/sparkade-games/com.sparkade.sparktools.customprojectsettings
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: KAW0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646249959907
