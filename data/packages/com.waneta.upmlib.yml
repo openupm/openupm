@@ -1,0 +1,19 @@
+name: com.waneta.upmlib
+displayName: UPMLib
+description: UPM Demo Lib!!!
+repoUrl: 'https://github.com/waneta/upmtestlib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: waneta
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646205611233
