@@ -1,0 +1,23 @@
+name: com.eastylabs.rosalina
+displayName: Rosalina
+description: >-
+  Rosalina is an UI Toolkit extension tool that generates C# binding scripts
+  based on a UXML template.
+repoUrl: 'https://github.com/Eastrall/Rosalina'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Eastrall/Rosalina/raw/cb182094c58481d7254548d39903e178ca614731/docs/rosalina-code-gen.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646230087998
