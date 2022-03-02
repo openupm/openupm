@@ -1,0 +1,22 @@
+name: com.openlootbox.editable-assemblies
+displayName: Editable Assemblies
+description: >+
+  Provides a wrapper that allows you to edit AssemblyDefinitionAsset files in
+  Editor scripts.
+
+repoUrl: 'https://github.com/yansievre/editable-assemblies'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: yansievre
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646219938642
