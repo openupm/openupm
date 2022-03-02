@@ -1,0 +1,25 @@
+name: com.matinmn87.dotplay
+displayName: DotPlay
+description: >-
+  (in development) The Free Framework for Unity game development. Including
+  Library, Pre-coded components, samples & ...
+repoUrl: 'https://github.com/matinmn87/Unity-DotPlay'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - gui
+hunter: matinmn87
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646201958273
