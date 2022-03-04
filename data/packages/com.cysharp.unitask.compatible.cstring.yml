@@ -1,0 +1,21 @@
+name: com.cysharp.unitask. (CString Compatible)
+displayName: UniTask
+description: Provides an efficient async/await integration to Unity. (CString Compatible)
+repoUrl: 'https://github.com/danyow/UniTask'
+parentRepoUrl: 'https://github.com/Cysharp/UniTask'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:   
+  - utilities
+  - parallelism-and-concurrency
+hunter: 'danyow'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/46207/83527073-4434bf00-a522-11ea-86e9-3b3975b26266.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: UniTask
+description_zhCN: 提供有效的async/await的Unity集成. (兼容CString)
+createdAt: 1646405801658
