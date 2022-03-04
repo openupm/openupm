@@ -1,4 +1,4 @@
-name: com.cysharp.unitask. (CString Compatible)
+name: com.cysharp.unitask.compatible
 displayName: UniTask
 description: Provides an efficient async/await integration to Unity. (CString Compatible)
 repoUrl: 'https://github.com/danyow/UniTask'
