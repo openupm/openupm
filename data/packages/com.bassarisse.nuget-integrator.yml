@@ -1,0 +1,22 @@
+name: com.bassarisse.nuget-integrator
+displayName: NuGet Integrator
+description: >-
+  Tool that uses native .NET workflow to bring packages from NuGet into a Unity
+  project
+repoUrl: 'https://github.com/bassarisse/nuget-integrator'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - editor-enhancement
+  - package-management
+hunter: bassarisse
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646419421366
