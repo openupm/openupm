@@ -13,7 +13,7 @@ topics:
 hunter: SAM-tak
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.0.7'
 image: >-
   https://github.com/SAM-tak/CustomUnity/raw/61b725975e91bc326dbb5a6ae0010d2fc9bc25fb/Assets/CustomUnity/Editor/Icons/GameObjectPoolSetSetting%20Icon.png
 readme: 'master:README.md'
