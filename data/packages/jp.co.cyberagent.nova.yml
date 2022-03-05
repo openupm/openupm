@@ -1,0 +1,22 @@
+name: jp.co.cyberagent.nova
+displayName: NOVA Shader
+description: >-
+  Multi-functional shader for the Particle System that supports Universal Render
+  Pipeline (URP) of Unity.
+repoUrl: 'https://github.com/CyberAgentGameEntertainment/NovaShader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/CyberAgentGameEntertainment/NovaShader/raw/e54f1f493dffd9906308a435ffc1226eab1514d7/Assets/Samples/Textures/tex_eff_fire02.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646485792508
