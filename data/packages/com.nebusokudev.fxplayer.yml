@@ -1,0 +1,22 @@
+name: com.nebusokudev.fxplayer
+displayName: FX Player
+description: Effect PLay Framework
+repoUrl: 'https://github.com/NebusokuDev/FXPlayerForUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - data-management
+  - particles-and-effects
+  - package-management
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646860109691
