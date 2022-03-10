@@ -1,0 +1,19 @@
+name: com.rhinox.open.rendering
+displayName: Rhinox.Rendering - Rendering Utils for Unity
+description: Rendering Utils for Unity for both Standard rendering and URP.
+repoUrl: 'https://github.com/Rhinox-Training/rhinox-rendering'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646909030441
