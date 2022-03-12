@@ -1,0 +1,20 @@
+name: com.realitytoolkit.gltf
+displayName: RealityToolkit.gLTF
+description: The glTF package for the for the Reality Toolkit.  This is an implementation of the Khronos Unity glTF utility.
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.core'
+parentRepoUrl: 'https://github.com/realitycollective/com.realitytoolkit.gltf'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - utilities
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: '^0.{5,20}'
+minVersion: 1.0.0-preview.1
+image: null
+readme: 'rcdevelopment:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647084086065

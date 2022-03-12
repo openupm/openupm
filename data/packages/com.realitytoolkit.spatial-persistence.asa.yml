@@ -1,0 +1,21 @@
+name: com.realitytoolkit.spatial-persistence.asa
+displayName: RealityToolkit.Spatial-Persistence.ASA
+description: Azure Spatial Anchors extension for the Reality Toolkit Spatial Persistence system
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.spatial-persistence.asa'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - frameworks
+  - mobile
+  - integration
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: '^0.{5,20}'
+minVersion: 1.0.0-preview.1
+image: null
+readme: 'rcdevelopment:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647084086065

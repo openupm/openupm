@@ -1,0 +1,21 @@
+name: com.realitytoolkit.metaplatform
+displayName: RealityToolkit.MetaPlatform
+description: The Meta platform components for the Reality Toolkit. This package enables your Reality Toolkit based project to run on Meta devices
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.metaplatform'
+parentRepoUrl: 'https://github.com/XRTK/com.xrtk.oculus'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - frameworks
+  - integration
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: '^0.{5,20}'
+minVersion: 1.0.0-preview.1
+image: null
+readme: 'rcdevelopment:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647084086065
