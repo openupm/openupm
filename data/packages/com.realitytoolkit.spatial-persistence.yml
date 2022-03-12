@@ -1,0 +1,22 @@
+name: com.realitytoolkit.spatial-persistence
+displayName: RealityToolkit.Spatial-Persistence
+description: Spatial Anchors components for the Reality Toolkit by the Reality Collective
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.spatial-persistence'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - frameworks
+  - mobile
+  - services
+  - utilities
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: '^0.{5,20}'
+minVersion: 1.0.0-preview.1
+image: null
+readme: 'rcdevelopment:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647084086065
