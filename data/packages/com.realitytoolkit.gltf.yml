@@ -7,7 +7,6 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ar-and-vr
-  - gltf
   - utilities
 hunter: FejZa
 gitTagPrefix: ''

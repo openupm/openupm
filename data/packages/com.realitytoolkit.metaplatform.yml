@@ -8,8 +8,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
   - frameworks
-  - meta
-  - oculus
+  - integration
 hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'
