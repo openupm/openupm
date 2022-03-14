@@ -2,7 +2,6 @@ name: com.realitytoolkit.sdk
 displayName: RealityToolkit.SDK
 description: The SDK components for the Reality Toolkit.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.sdk'
-parentRepoUrl: 'https://github.com/XRTK/com.xrtk.sdk'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
@@ -14,7 +13,7 @@ hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'
 minVersion: 1.0.0-preview.1
-image: null
+image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveLogo_256.png'
 readme: 'rcdevelopment:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

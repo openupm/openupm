@@ -2,7 +2,6 @@ name: com.realitytoolkit.core
 displayName: RealityToolkit.Core
 description: The core framework of the Reality Toolkit by the Reality Collective
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.core'
-parentRepoUrl: 'https://github.com/XRTK/com.xrtk.core'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
@@ -15,7 +14,7 @@ hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'
 minVersion: 1.0.0-preview.1
-image: null
+image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveLogo_256.png'
 readme: 'rcdevelopment:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
