@@ -1,0 +1,22 @@
+name: com.quabug.entities-bt.builder.graphview
+displayName: EntitiesBT - GraphView Builder
+description: Behavior Tree for Unity Entities - GraphView Builder
+repoUrl: 'https://github.com/quabug/EntitiesBT'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - dots-and-ecs
+  - visual-scripting
+hunter: ''
+gitTagPrefix: builder.graphview/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/683655/88478209-db455280-cf78-11ea-88fe-222c60e346ac.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647346089017
