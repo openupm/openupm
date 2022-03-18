@@ -1,7 +1,7 @@
 // Git util.
 
 const eol = require("eol");
-const git = require("simple-git/promise");
+const git = require("simple-git");
 
 // Parse remote tags output.
 const parseRemoteTagsOutput = function(stdout) {
@@ -32,9 +32,7 @@ const parseRemoteTagsOutput = function(stdout) {
  * Tag prefix "refs/tags/" is removed.
  */
 const gitListRemoteTags = async function(gitUrl) {
-  let stdout = await git()
-    .silent(true)
-    .listRemote(["--tags", "--sort=-version:refname", gitUrl]);
+  let stdout = await git().listRemote(["--tags", "--sort=-version:refname", gitUrl]);
   return parseRemoteTagsOutput(stdout);
 };
 
