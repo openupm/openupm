@@ -1,0 +1,19 @@
+name: com.rhinox.open.socket.io
+displayName: Socket.IO
+description: SocketIO implementation for Unity.
+repoUrl: 'https://github.com/Rhinox-Training/unity-socket.io'
+parentRepoUrl: 'https://github.com/fpanettieri/unity-socket.io-DEPRECATED'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647614400786
