@@ -7,10 +7,7 @@ repoUrl: 'https://github.com/chexiongsheng/puerts_unity_demo'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: 
-  - script
-  - javascript
-  - typescript
+topics: []
 hunter: marwie
 gitTagPrefix: upm
 gitTagIgnore: ''
