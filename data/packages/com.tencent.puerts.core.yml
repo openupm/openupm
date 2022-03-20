@@ -3,11 +3,14 @@ displayName: ''
 description: >-
   Write your game with TypeScript in UE4 or Unity. Puerts can be pronounced as
   pu-erh TS（普洱TS）
-repoUrl: 'https://github.com/Tencent/puerts'
+repoUrl: 'https://github.com/chexiongsheng/puerts_unity_demo'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics: []
+topics: 
+  - script
+  - javascript
+  - typescript
 hunter: marwie
 gitTagPrefix: upm
 gitTagIgnore: ''
