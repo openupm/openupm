@@ -11,9 +11,9 @@ topics:
 hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'
-minVersion: 1.0.0-preview.1
-image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveLogo_256.png'
-readme: 'rcdevelopment:README.md'
+minVersion: 1.0.0-preview.2
+image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
+readme: 'development:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
