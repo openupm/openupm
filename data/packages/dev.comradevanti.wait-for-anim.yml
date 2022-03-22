@@ -1,0 +1,21 @@
+name: dev.comradevanti.wait-for-anim
+displayName: WaitForAnim
+description: A Unity-package for waiting for animations in coroutines
+repoUrl: 'https://github.com/ComradeVanti/WaitForAnim'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - animation
+  - parallelism-and-concurrency
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647939437353
