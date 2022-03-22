@@ -1,0 +1,22 @@
+name: com.dman.entity-utilities
+displayName: Dman's Utilities for entities
+description: >-
+  A bunch of utilities too small to go in their own package, specifically for
+  unity's DOTS system
+repoUrl: 'https://github.com/dsmiller95/DmanUtilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.entity-utilities/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Assets/UtilityScripts/com.dman.entity-utilities/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647955118092
