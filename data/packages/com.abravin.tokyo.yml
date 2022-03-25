@@ -1,0 +1,20 @@
+name: com.abravin.tokyo
+displayName: Tokyo
+description: Basic samples & patterns of code which will be useful in any project
+repoUrl: 'https://github.com/rootools/Tokyo'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1648200263895
