@@ -1,4 +1,4 @@
-name: com.worldreaver.systemruntimecompilerservicesunsafe
+name: com.system-community.systemruntimecompilerservicesunsafe
 displayName: SystemRuntimeCompilerServicesUnsafe
 description: >-
   Provides the System.Runtime.CompilerServices.Unsafe class, which provides
