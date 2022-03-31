@@ -1,0 +1,19 @@
+name: games.corundum.stateless-for-unity
+displayName: Stateless For Unity
+description: A Unity port of Stateless that uses UniTask instead of standard TAP classes.
+repoUrl: 'https://github.com/CorundumGames/Stateless-For-Unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1648687544104
