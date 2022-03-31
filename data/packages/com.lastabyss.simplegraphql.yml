@@ -1,0 +1,23 @@
+name: com.lastabyss.simplegraphql
+displayName: SimpleGraphQL
+description: >-
+  A simple graphQL client that allows one to use .graphql files (or code) for
+  queries, mutations, and subscriptions with Unity.
+repoUrl: 'https://github.com/LastAbyss/SimpleGraphQL-For-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/ab5785c7deec9c2f270a7500901858f1cbd67155c833b2c1c1614c54731d04d4/68747470733a2f2f692e696d6775722e636f6d2f7273384549454d2e706e67'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1648734880366
