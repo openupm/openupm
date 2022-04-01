@@ -1,0 +1,19 @@
+name: com.niscolas.unity-utils.core
+displayName: niscolas.UnityUtils.Core
+description: "\U0001F4A1 The main dependency for my other Unity reusable modules"
+repoUrl: 'https://github.com/niscolas/unity-utils-core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: niscolas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1648847560908
