@@ -1,0 +1,18 @@
+name: net.room127.3d.devset
+displayName: Room127 3D Dev Set
+description: Collection of scripts useful for 3D games
+repoUrl: 'https://github.com/yasuta127/ro-3d-dev-set'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649083874550
