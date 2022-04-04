@@ -11,7 +11,7 @@
   "repository": "https://github.com/openupm/openupm.git",
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp --host 0.0.0.0 --port 8000",
-    "docs:build": "vuepress build docs",
+    "docs:build": "vuepress build docs --max-concurrency 50",
     "docs:serve": "serve ./docs/.vuepress/dist",
     "gh:ratelimit": "node ./app/jobs/getGithubRateLimit.js",
     "queue:process": "node ./app/queues/process main",
@@ -62,7 +62,7 @@
     "vue-content-loading": "^1.6.0",
     "vue-mq": "^1.0.1",
     "vue-scrollto": "^2.17.1",
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.9.7",
     "vuepress-plugin-chunkload-redirect": "^1.0.3",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-flexsearch": "openupm/vuepress-plugin-flexsearch#openupm",
