@@ -1,0 +1,20 @@
+name: com.facticus.ucharts
+displayName: UCharts
+description: Small library for plotting data in Unity
+repoUrl: 'https://github.com/mnicolas94/UCharts'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: mnicolas94
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649080563686
