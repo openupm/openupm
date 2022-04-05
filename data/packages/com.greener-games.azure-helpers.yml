@@ -1,0 +1,19 @@
+name: com.greener-games.azure-helpers
+displayName: Azure Helpers
+description: Azure Cloud Services
+repoUrl: 'https://github.com/Greener-Games/Unity_Azure'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:Packages/Atkins Azure Helpers/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649164348555
