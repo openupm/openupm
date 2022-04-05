@@ -1,0 +1,22 @@
+name: com.unity.defaultplayables
+displayName: Default Playables
+description: >-
+  A UPM-compatible package for Unity Default Playables. If you work for Unity
+  and would like to take over this repository, contact me at
+  director@corundum.games and I'll transfer ownership to the company.
+repoUrl: 'https://github.com/CorundumGames/com.unity.defaultplayables'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - animation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649123948904
