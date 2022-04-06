@@ -8,7 +8,7 @@ licenseName: Apache License 2.0
 topics:
   - asset-management
 hunter: tuyoogame
-gitTagPrefix: YooAsset
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
