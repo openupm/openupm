@@ -1,0 +1,19 @@
+name: com.greener-games.sharp-zip-lib
+displayName: Sharp Zip Lib For Unity
+description: Unity utility wrapper for Sharp lib Zip
+repoUrl: 'https://github.com/Greener-Games/SharpZipLib-For-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Reddevildragg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.MD'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649349193368
