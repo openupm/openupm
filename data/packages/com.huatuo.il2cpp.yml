@@ -12,8 +12,8 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'main:README_en.md'
-readme_zhCN: 'main:README.md'
+readme: 'upm:README_en.md'
+readme_zhCN: 'upm:README.md'
 displayName_zhCN: ''
 description_zhCN: ''
 createdAt: 1648691684921
