@@ -3,7 +3,7 @@ displayName: SystemNumericsVectors
 description: >-
   Provides hardware-accelerated numeric types, suitable for high-performance
   processing and graphics applications.
-repoUrl: 'https://github.com/worldreaver/SystemNumericsVectors'
+repoUrl: 'https://github.com/system-community/SystemNumericsVectors'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''

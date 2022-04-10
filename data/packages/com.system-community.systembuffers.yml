@@ -1,10 +1,9 @@
 name: com.system-community.systembuffers
-displayName: SystemMemory
+displayName: SystemBuffers
 description: >-
-  Provides types for efficient representation and pooling of managed, stack, and
-  native memory segments and sequences of such segments, along with primitives
-  to parse and format UTF-8 encoded text stored in those memory segments.
-repoUrl: 'https://github.com/worldreaver/SystemMemory'
+  Provides resource pooling of any type for performance-critical applications
+  that allocate and deallocate objects frequently.
+repoUrl: 'https://github.com/system-community/SystemBuffers'
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''
@@ -16,6 +15,6 @@ gitTagIgnore: ''
 minVersion: ''
 image: null
 readme: 'master:README.md'
-createdAt: 1589380446512
-displayName_zhCN: 系统内存
-description_zhCN: 提供高效的展示和对象池来为托管、堆栈和原生内存段以及此类段序列的类型，用于解析和格式化存储在这些内存段中的UTF-8编码文本。
+createdAt: 1589380541190
+displayName_zhCN: 系统缓冲区
+description_zhCN: 提供任意类型的资源池，为经常分配对象和取消分配对象的应用程序提升性能。
