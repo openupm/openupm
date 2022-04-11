@@ -1,0 +1,19 @@
+name: dev.comradevanti.opt-unity
+displayName: OptUnity
+description: A unity package for using opt
+repoUrl: 'https://github.com/ComradeVanti/opt-unity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649664422829
