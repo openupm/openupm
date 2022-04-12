@@ -1,0 +1,20 @@
+name: com.cippsharpcore.deca
+displayName: CippSharp.DebugCanvas
+description: Debug Canvas
+repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpCoreDeCa'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649776692991
