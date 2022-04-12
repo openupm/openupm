@@ -1,0 +1,20 @@
+name: com.maksymhernets.autotranslateforunitylocalization
+displayName: Auto Translate
+description: "Auto translation plugin allows you to translate a project in just one click, thanks to other automation systems, such as loÑ\x81alization system unity and google cloud translator.\n\n Use 'Window->Asset Management->Auto Translate for Tables' to begin working with the system."
+repoUrl: 'https://github.com/MaksymHernets/AutoTranslateForUnityLocalization'
+parentRepoUrl: null
+licenseSpdxId: ISC
+licenseName: ISC License
+topics:
+  - localization
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/MaksymHernets/AutoTranslateForUnityLocalization/raw/e778c40a8edeab3e234f24e5b3a32c800c737e93/Screenshots/logo.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649797817622
