@@ -173,3 +173,6 @@ scopes:
 - com.dopamine.firebase.analytics
 - com.dopamine.firebase.remoteconfig
 - com.dopamine.firebase.core
+
+# the same package uploaded by danyow, Now you need to change the name to "cn.danyow.unitask.cstringfixed"
+- com.cysharp.unitask.compatible
