@@ -1,0 +1,21 @@
+name: com.cippsharp.members
+displayName: CippSharp.Members
+description: >-
+  Create your custom serializable class that holds the reference to an
+  UnityEngine.Object's MemberInfo
+repoUrl: 'https://github.com/Cippman/Unity-MemberInfoReference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650046211988
