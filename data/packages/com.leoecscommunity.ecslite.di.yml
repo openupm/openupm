@@ -1,0 +1,21 @@
+name: com.leoecscommunity.ecslite.di
+displayName: LeoECSCommunity Lite Dependency Injection
+description: Dependency injection for LeoECSCommunity Lite.
+repoUrl: 'https://github.com/LeoECSCommunity/ecslite-di'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: Chillu1
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650040552012
