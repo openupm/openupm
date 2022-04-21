@@ -1,0 +1,23 @@
+name: io.port6.sdk
+displayName: Port 6 SDK
+description: >-
+  C# scripts for bridging Unity applications with Port 6 enabled smart
+  peripherals.
+repoUrl: 'https://github.com/port6io/p6-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - input-management
+  - integration
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650548830971
