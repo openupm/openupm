@@ -1,0 +1,19 @@
+name: com.nicolasmaclean.gummi
+displayName: Gummi
+description: This is a general use Unity library with C# scripts and other useful assets.
+repoUrl: 'https://github.com/nicolasmaclean/Gummi-Unity'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: GNU AFFERO GENERAL PUBLIC LICENSE
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'release:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650645306545
