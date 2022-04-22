@@ -1,0 +1,18 @@
+name: com.ahmadmansy.ktx
+displayName: KTX/Basis Texture
+description: Load KTX and Basis Universal textures at runtime.
+repoUrl: 'https://github.com/AhmadMansy/KtxUnity'
+parentRepoUrl: 'https://github.com/atteneder/KtxUnity'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics: []
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ' '
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650640712597
