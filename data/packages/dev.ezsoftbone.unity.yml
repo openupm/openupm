@@ -11,7 +11,7 @@ topics:
 hunter: makeplayhappy
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.6.0
+minVersion: 1.6.1
 image: null
 readme: 'master:README.md'
 readme_zhCN: 'master:README_CN.md'
