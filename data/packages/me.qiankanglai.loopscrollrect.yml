@@ -1,0 +1,20 @@
+name: me.qiankanglai.loopscrollrect
+displayName: LoopScrollRect
+description: make your ScrollRect `Reusable`
+repoUrl: 'https://github.com/qiankanglai/LoopScrollRect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: qiankanglai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/qiankanglai/LoopScrollRect/raw/f96ff1046ca84d4bcb5e43bdb9453078fb1ed343/Images~/demo2.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: 让ScrollRect复用起来
+createdAt: 1650712518848
