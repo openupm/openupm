@@ -1,0 +1,21 @@
+name: net.tnrd.serializableinterface
+displayName: Serializable Interface
+description: >-
+  A wrapper that allows serialization of interfaces that supports both
+  UnityEngine.Object and regular object types
+repoUrl: 'https://github.com/Thundernerd/Unity3D-SerializableInterface'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650831004103
