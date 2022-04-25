@@ -27,31 +27,39 @@ export default {
   computed: {
     sponsors() {
       return ["diamond", "gold", "silver"]
-        .map(level => {
+        .map((level) => {
           return {
             key: "sponsor-" + level,
             level,
-            items: this.$page.frontmatter.sponsors.filter(x => x.level == level)
+            items: this.$page.frontmatter.sponsors.filter((x) => {
+              if (x.level != level) return false;
+              if (x.expires) {
+                return Date.parse(x.expires) >= new Date().getTime();
+              }
+              return true;
+            }),
           };
         })
-        .filter(x => {
+        .filter((x) => {
           return x.items.length;
         });
     },
     moreLink() {
       return {
         text: this.$t("show-more"),
-        link: "/contributors/"
+        link: "/contributors/",
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style lang="stylus" scoped>
-.sponsor-featured
-  margin-bottom 1rem
+.sponsor-featured {
+  margin-bottom: 1rem;
 
-  section
-    margin-bottom 1rem
+  section {
+    margin-bottom: 1rem;
+  }
+}
 </style>
