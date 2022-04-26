@@ -1,0 +1,23 @@
+name: com.popupasylum.gradientcolorspace
+displayName: Gradient Color Space
+description: >-
+  Provides functionality to break a simple UnityEngine.Gradient into a piecewise
+  curve in other color spaces.
+repoUrl: 'https://github.com/markeahogan/GradientColorSpace'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650967245146
