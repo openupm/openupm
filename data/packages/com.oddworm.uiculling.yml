@@ -1,0 +1,23 @@
+name: com.oddworm.uiculling
+displayName: UI Culling
+description: >-
+  UI Culling for Unity allows to trigger OnBecameVisible & OnBecameInvisible
+  events on uGUI widgets.
+repoUrl: 'https://github.com/pschraut/UnityUICulling'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - camera
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/pschraut/UnityUICulling/raw/150e1e31a273de9a052c00cd4e639b7d580e1b26/Documentation~/images/inspector.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651331282464
