@@ -1,0 +1,19 @@
+name: com.cippsharpcore.coroutines
+displayName: CippSharp.Coroutines
+description: Coroutines Utils
+repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpCoreCoroutines'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651331414896
