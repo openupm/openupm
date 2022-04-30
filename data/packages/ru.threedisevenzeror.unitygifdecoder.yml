@@ -1,0 +1,20 @@
+name: ru.threedisevenzeror.unitygifdecoder
+displayName: Gif Decoder
+description: Classes and components for reading and decoding .GIF files  in Unity
+repoUrl: 'https://github.com/3DI70R/Unity-GifDecoder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/3DI70R/Unity-GifDecoder/raw/90ffa399087521817ab03ce9213ec33b38e4492f/.Images/GifDecoderBench.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651330920560
