@@ -1,0 +1,19 @@
+name: com.vertx.ntexturepreview
+displayName: nTexturePreview
+description: Enhanced Texture Previewer for Unity
+repoUrl: 'https://github.com/vertxxyz/NTexturePreview'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/603ca2e1ff6f4ffd0c0cd6def71bacbb977fd22cac035cbde3e83957c3509a23/687474703a2f2f76657274782e78797a2f496d616765732f4e54657874757265507265766965772f33645465787475726550726576696577342e676966'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651331347915
