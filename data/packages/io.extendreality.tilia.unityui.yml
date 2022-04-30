@@ -1,0 +1,21 @@
+name: io.extendreality.tilia.unityui
+displayName: Tilia Unity.UI
+description: Support for Unity UI
+repoUrl: 'https://github.com/studentutu/Tilia.UnityUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - gui
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/studentutu/Tilia.UnityUI/raw/b46e1d9e3eec46b69ac3fac7922fe90b8f481880/Documentation/HowToGuides/Installation/Animation.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651331010608
