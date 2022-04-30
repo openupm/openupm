@@ -1,0 +1,19 @@
+name: com.cippsharp.serialization
+displayName: CippSharp.Serialization
+description: Data Serialization
+repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpSerialization'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651331131346
