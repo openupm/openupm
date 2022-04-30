@@ -1,0 +1,21 @@
+name: com.lcc.lccframework
+displayName: Lcc
+description: >-
+  The Lcc framework is a lightweight framework developed for Unity and can be
+  used to develop Steam, Android, IOS and other projects quickly
+repoUrl: 'https://github.com/404Lcc/Lcc'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: 404Lccxy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651327628356
