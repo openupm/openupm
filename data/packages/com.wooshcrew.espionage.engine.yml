@@ -1,0 +1,20 @@
+name: com.wooshcrew.espionage.engine
+displayName: Espionage.Engine
+description: A Package that allows you to create games easily
+repoUrl: 'https://github.com/Woosh-Crew/Espionage.Engine'
+parentRepoUrl: null
+licenseSpdxId: LGPL-2.1-or-later
+licenseName: GNU Lesser General Public License v2.1 or later
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Woosh-Crew/Espionage.Engine/raw/bb77b2c2ef5e7711ae6cd69643c58ae6d884e478/Assets/Textures/Icons/Entities/env_world.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651326818409
