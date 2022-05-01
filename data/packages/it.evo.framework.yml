@@ -43,7 +43,7 @@ topics:
   - video
   - visual-scripting
 hunter: ''
-gitTagPrefix: evo framework
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
