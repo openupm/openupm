@@ -1,0 +1,19 @@
+name: com.johanhelsing.oneof
+displayName: OneOf
+description: Easy to use discriminated unions/sum types for C#
+repoUrl: 'https://github.com/johanhelsing/OneOf-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: johanhelsing
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651484772893
