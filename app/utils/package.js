@@ -74,20 +74,20 @@ const loadPackageSync = function (name) {
 
 // Load package names.
 const loadPackageNames = async function (options) {
-  const { sortBy } = options || {};
+  const { sortKey } = options || {};
   let files = await readdir(packagesDir);
   // Sort
-  if (sortBy == "mtime" || sortBy == "-mtime") {
+  if (sortKey == "mtime" || sortKey == "-mtime") {
     files.sort(function (a, b) {
       return (
         fs.statSync(path.join(packagesDir, a)).mtime.getTime() -
         fs.statSync(path.join(packagesDir, b)).mtime.getTime()
       );
     });
-  } else if (sortBy == "name" || sortBy == "-name") {
+  } else if (sortKey == "name" || sortKey == "-name") {
     files.sort();
   }
-  if (sortBy && sortBy.startsWith("-")) files.reverse();
+  if (sortKey && sortKey.startsWith("-")) files.reverse();
   // Find paths with *.ya?ml ext.
   files = files
     .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)
