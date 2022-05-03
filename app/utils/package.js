@@ -11,7 +11,7 @@ const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
 const writeFile = util.promisify(fs.writeFile);
 
-const DEV_MODE = Boolean(process.env.OPENUPM_DEV);
+const PACKAGE_LIMIT = Number(process.env.PACKAGE_LIMIT);
 
 // Paths.
 const dataDir = path.resolve(__dirname, "../../data");
@@ -92,9 +92,8 @@ const loadPackageNames = async function (options) {
   files = files
     .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)
     .map(p => p.replace(/\.ya?ml$/, ""));
-  if (DEV_MODE) {
-    // Only include part packages in the dev mode.
-    files = files.filter(p => p.includes("world"))
+  if (PACKAGE_LIMIT > 0) {
+    files = files.slice(0, PACKAGE_LIMIT);
   }
   return files;
 };
