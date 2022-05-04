@@ -1,3 +1,11 @@
+# [1.52.0](https://github.com/openupm/openupm/compare/1.51.3...1.52.0) (2022-05-04)
+
+
+### Features
+
+* **cli:** replace OPENUPM_DEV with PACKAGE_LIMIT parameter for development ([845047c](https://github.com/openupm/openupm/commit/845047c65ff343f346b19595d8776b463c057350))
+* **website:** adjust the license name field of the package-add form required ([f461437](https://github.com/openupm/openupm/commit/f4614372223395fe0234c4baf9a4fa098a91ea59))
+
 ## [1.51.3](https://github.com/openupm/openupm/compare/1.51.2...1.51.3) (2021-12-26)
 
 
