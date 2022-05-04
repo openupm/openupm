@@ -1,17 +1,20 @@
 about: About
 add-package: Add Package
 add-package-title: Submit Open Source UPM Package
+advanced: Advanced
 all: All
 and: and
 authors: Author(s)
 back: Back
 backers: Backers
 badge: Badge
+basic: Basic
 branch: Branch
 build: Build
 build-pipelines: Build Pipelines
+can-not-locate-the-path-of-pac: Can not locate the path of package.json in the selected branch
 china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
-china-region-info: China Region Information
+china-region-info: China region
 click-to-copy: click to copy
 code-of-conduct: Code of Conduct
 command-line-interface: command-line interface
@@ -35,14 +38,15 @@ edit-package: Edit this package
 english-text: 'English text:'
 experimental: experimental
 featured-image: Featured image
-featured-image-desc: 'Notice: if the repository has a'
-featured-image-desc-2: ', will use that instead.'
+featured-image-desc: >-
+  The repository's social image will override the selected image here. Learn
+  more at
 field-none: None
 fill-the-package-form: Fill the package form
 fill-the-package-form-desc: >-
-  Please provide information about the UPM package. The package must conform to
-  our package criteria. Learn more at
-footer-copyright: Copyright © 2019-2020 Favo Yang
+  Please fill the form to provide the package information. The package must
+  conform to OpenUPM's package criteria. Learn more at
+footer-copyright: Copyright © 2019-2022 Favo Yang
 forked-from: forked from
 get: Get
 git-deps-missing: Please install the Git dependency manually.
@@ -50,15 +54,15 @@ git-deps-nuget: The package may exist in the uplinked UnityNuGet registry.
 git-deps-replaced: The Git dependency can be replaced by a version available on OpenUPM.
 git-tag: Git tag
 git-tag-ignore-pattern: Git tag ignore pattern
-git-tag-ignore-pattern-desc: 'Regular expression to exclude Git tags from build pipelines:'
-git-tag-ignore-pattern-placeholder: leave empty to include all tags (by default)
+git-tag-ignore-pattern-desc: 'The regular expression to exclude Git tags:'
+git-tag-ignore-pattern-placeholder: leave empty to include all tags by default
 git-tag-prefix: Git tag prefix
-git-tag-prefix-desc-safe: >-
-  A prefix to filter Git tags, mostly used by monorepos to distinguish releases.
-  A prefixed tag should separate the semver with a slash <code>/</code>, hyphen
-  <code>-</code>, or underscore <code>_</code>. e.g.
-  <code>myprefix/x.y.z</code>.
-git-tag-prefix-placeholder: leave empty to include all tags (by default)
+git-tag-prefix-desc-html: >-
+  The prefix to filter Git tags for monorepo (one repository that holds many
+  packages). The prefixed tag should separate the semver with a slash
+  <code>/</code>, hyphen <code>-</code>, or underscore <code>_</code>. e.g.
+  <code>com.company.package-a/x.y.z</code>.
+git-tag-prefix-placeholder: leave empty to include all tags by default
 github: GitHub
 go: Go
 go-to-unity-project: Go to your Unity project directory
@@ -88,20 +92,23 @@ latest: latest
 learn-more: Learn more
 license: License
 license-name: License name
-license-name-desc: Please specify the license name.
+license-name-desc: The open source license name
 loading-branches: Loading branches...
+loading-package-json-path: Loading package.json path...
+loading-readme-md-path: Loading README.md path...
 loading-spin-text: Loading...
 lowest-unity-version: Lowest Unity version
 manual-installation: Manual installation
 medium: Medium
-meta-data: Meta data
+meta-data: Metadata
 minimal-version-to-build: Minimal version to build
-minimal-version-to-build-placeholder: leave empty to build all versions (by default)
+minimal-version-to-build-placeholder: leave empty to build all versions by default
 name: Name
 name-at-version: Name@version
 needles-package-installer: Needle's package installer
+no-markdown-file-found-fallbacks: No markdown file found, fallbacks to README.md
 note: Note
-package-already-exists-in-unity-registry: The package already exists in the Unity registry.
+package-already-exists-in-unity-registry: The package already exists in the Unity registry
 package-installer: package installer
 package-name: Package name
 package-name-com-unity: Packages with the com.unity scope requires a manual review.
@@ -119,6 +126,7 @@ powered-by-netlify: This site is powered by Netlify
 prerequisites: Prerequisites
 privacy-policy: Privacy Policy
 project: Project
+promote: Promote
 published: Published
 published-date: Published Date
 published-time: Published time
@@ -157,7 +165,6 @@ report-malware-or-abuse: Report malware or abuse
 repository: Repository
 repository-placeholder: owner/project-name
 show-more: Show more
-social-image: social image
 sort-by: Sort by
 sponsor-bronze: Bronze Sponsors 🥉
 sponsor-diamond: Diamond Sponsors 💎
@@ -183,23 +190,28 @@ topics: Topics
 tweet: Tweet
 twitter: Twitter
 unity-version: Unity Version
-upload-to-github-via-pr: Upload to GitHub via pull request
-upload-to-github-via-pr-desc: The package is verified. A YAML file is generated to store the meta data.
-upload-to-github-via-pr-step-1-safe: Click the <b>Upload package</b> button will guide you to the GitHub website.
-upload-to-github-via-pr-step-2-safe: Scroll to the end of the page, click the <b>purpose new file</b> button.
-upload-to-github-via-pr-step-3-safe: Click the <b>create pull request</b> button on the following page.
-upload-to-github-via-pr-step-4-safe: The pull request will get merged automatically.
+upload-to-github-via-pr: Upload to GitHub via pull request (PR)
+upload-to-github-via-pr-desc: The package is verified. A YAML file has been generated to store the metadata.
+upload-to-github-via-pr-step-1-html: >-
+  Click the <kbd>Submit Pull Request</kbd> button to start uploading the file to
+  GitHub.
+upload-to-github-via-pr-step-2-html: >-
+  On the GitHub page, click the <kbd>Purpose new file</kbd> button. Then click
+  the <kbd>Create pull request</kbd> button on the following page. If you need
+  help with the GitHub website, learn more at
+upload-to-github-via-pr-step-3-html: >-
+  The pull request will get merged once it passes a workflow. For security
+  reasons, the first-time contributor needs to wait for a maintainer to approve
+  the workflow. We try out best to get it approved within 24h. Learn more at
 upstream: upstream
 verify-package: Verify package
 version: Version
 versions: Versions
 via: via
-wait-for-ci-pipelines: Wait for CI pipelines to complete (20-30 mins)
-wait-for-ci-pipelines-step-1-safe: You can visit the package at
-wait-for-ci-pipelines-step-2-safe: >-
-  You can view the build result at the <b>version history</b> and <b>build
-  issues</b> sections.
-wait-for-ci-pipelines-step-3-safe: >-
-  <b>Notice that first-time contributor requires maintainer's approval which may
-  cost more time.</b>
+wait-for-ci-pipelines: Wait for the workflow to complete
+wait-for-ci-pipelines-step-1-html: >-
+  It may take up to 1h to finish the initial workflow. Then you can visit the
+  package at
+wait-for-ci-pipelines-step-2-html: While waiting for the package to get cooked, consider buying us a coffee ☕ at
+your-github-username: Your GitHub username
 zhihu-blog: Zhihu Articles

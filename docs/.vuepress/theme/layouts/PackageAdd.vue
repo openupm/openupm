@@ -23,397 +23,504 @@
           <div class="column col-5 col-sm-12">
             <fieldset v-if="!isStepFillFormChecked" :disabled="isSubmitting">
               <div class="columns">
-                <div
-                  class="form-group column col-12"
-                  :class="{ 'has-error': form.repo.error }"
-                >
-                  <label class="form-label required">{{
-                    $t("repository")
-                  }}</label>
-                  <div class="input-group">
-                    <span class="input-group-addon">github.com/</span>
-                    <input
-                      v-model.trim="form.repo.value"
-                      class="form-input"
-                      type="text"
-                      required
-                      :placeholder="$t('repository-placeholder')"
-                      @change="onRepoChange"
-                    />
-                    <button
-                      class="btn btn-primary input-group-btn btn-go"
-                      @click="onGoClick"
+                <form novalidate @submit.prevent="onValidateForm">
+                  <div
+                    id="id_repo"
+                    class="form-group column col-12"
+                    :class="{ 'has-error': form.errors.repo }"
+                  >
+                    <label class="form-label required">{{
+                      $t("repository")
+                    }}</label>
+                    <div class="input-group">
+                      <span class="input-group-addon">github.com/</span>
+                      <input
+                        v-model.trim="form.values.repo"
+                        class="form-input"
+                        type="text"
+                        :placeholder="$t('repository-placeholder')"
+                        @change="onRepoChange"
+                      />
+                      <button
+                        class="btn btn-primary input-group-btn btn-go"
+                        @click="onGoClick"
+                      >
+                        {{ $t("go") }}
+                      </button>
+                    </div>
+                    <div v-if="form.errors.repo" class="form-input-hint">
+                      {{ form.errors.repo }}
+                    </div>
+                  </div>
+                  <div
+                    class="col-12 form-zone"
+                    :class="{
+                      hide: hideOtherFields,
+                    }"
+                  >
+                    <h5 class="text-primary bg-secondary">{{ $t("basic") }}</h5>
+                    <div
+                      id="id_branch"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields,
+                        'has-error': form.errors.branch,
+                      }"
                     >
-                      {{ $t("go") }}
+                      <label class="form-label required">{{
+                        $t("branch")
+                      }}</label>
+                      <select
+                        v-model="form.values.branch"
+                        class="form-select"
+                        @change="onBranchChange($event)"
+                      >
+                        <option
+                          v-if="!branches.length"
+                          disabled
+                          selected
+                          value=""
+                        >
+                          {{ $t("loading-branches") }}
+                        </option>
+                        <option
+                          v-for="branch in branches"
+                          :key="branch"
+                          :value="branch"
+                        >
+                          {{ branch }}
+                        </option>
+                      </select>
+                      <div v-if="form.errors.branch" class="form-input-hint">
+                        {{ form.errors.branch }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_packageJson"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields || !form.values.branch,
+                        'has-error': form.errors.packageJson,
+                      }"
+                    >
+                      <label class="form-label required">
+                        {{ $t("path-of-package-json") }}
+                      </label>
+                      <select
+                        v-model="form.values.packageJson"
+                        class="form-select"
+                        @change="onPackageJsonPathChange($event)"
+                      >
+                        <option
+                          v-if="!packageJsonPaths.length"
+                          disabled
+                          selected
+                          value=""
+                        >
+                          {{ form.prompts.packageJson }}
+                        </option>
+                        <option
+                          v-for="path in packageJsonPaths"
+                          :key="path"
+                          :value="path"
+                        >
+                          {{ path }}
+                        </option>
+                      </select>
+                      <div
+                        v-if="packageInfo"
+                        class="form-input-hint display-block"
+                      >
+                        package name: <code>{{ packageInfo.name }}</code>
+                      </div>
+                      <div
+                        v-if="extraPackageNameWarning"
+                        class="bg-warning display-block"
+                      >
+                        {{ extraPackageNameWarning() }}
+                      </div>
+                      <div
+                        v-if="form.errors.packageJson"
+                        class="form-input-hint"
+                      >
+                        {{ form.errors.packageJson }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_readme"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields || !form.values.branch,
+                        'has-error': form.errors.readme,
+                      }"
+                    >
+                      <label class="form-label">
+                        {{ $t("path-of-readme") }}
+                      </label>
+                      <select v-model="form.values.readme" class="form-select">
+                        <option
+                          v-if="!readmePaths.length"
+                          disabled
+                          selected
+                          value=""
+                        >
+                          {{ form.prompts.readme }}
+                        </option>
+                        <option
+                          v-for="path in readmePaths"
+                          :key="path"
+                          :value="path"
+                        >
+                          {{ path }}
+                        </option>
+                      </select>
+                      <div v-if="form.errors.readme" class="form-input-hint">
+                        {{ form.errors.readme }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_licenseName"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields,
+                        'has-error': form.errors.licenseName,
+                      }"
+                    >
+                      <label class="form-label required">{{
+                        $t("license-name")
+                      }}</label>
+                      <input
+                        v-model="form.values.licenseName"
+                        class="form-input"
+                        :readonly="isLicenseNameReadOnly"
+                        type="text"
+                      />
+                      <div class="form-input-hint">
+                        {{ $t("license-name-desc") }}
+                      </div>
+                      <div
+                        v-if="form.errors.licenseName"
+                        class="form-input-hint"
+                      >
+                        {{ form.errors.licenseName }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_hunter"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields,
+                        'has-error': form.errors.hunter,
+                      }"
+                    >
+                      <label class="form-label required">{{
+                        $t("discovered-by")
+                      }}</label>
+                      <div class="input-group">
+                        <span class="input-group-addon">github.com/</span>
+                        <input
+                          v-model="form.values.hunter"
+                          class="form-input"
+                          type="text"
+                          :placeholder="$t('discovered-by-placeholder')"
+                        />
+                      </div>
+                      <div class="form-input-hint">
+                        {{ $t("your-github-username") }}
+                      </div>
+                      <div v-if="form.errors.hunter" class="form-input-hint">
+                        {{ form.errors.hunter }}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-12 form-zone"
+                    :class="{
+                      hide: hideOtherFields,
+                    }"
+                  >
+                    <h5 class="text-primary bg-secondary">
+                      {{ $t("advanced") }}
+                    </h5>
+                    <div
+                      id="id_gitTagPrefix"
+                      class="form-group column col-12"
+                      :class="{ hide: hideOtherFields }"
+                    >
+                      <label class="form-label">{{
+                        $t("git-tag-prefix")
+                      }}</label>
+                      <input
+                        v-model="form.values.gitTagPrefix"
+                        class="form-input"
+                        type="text"
+                        :placeholder="$t('git-tag-prefix-placeholder')"
+                      />
+                      <div
+                        class="form-input-hint"
+                        v-html="$t('git-tag-prefix-desc-html')"
+                      ></div>
+                      <div
+                        v-if="form.errors.gitTagPrefix"
+                        class="form-input-hint"
+                      >
+                        {{ form.errors.gitTagPrefix }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_gitTagIgnore"
+                      class="form-group column col-12"
+                      :class="{ hide: hideOtherFields }"
+                    >
+                      <label class="form-label">{{
+                        $t("git-tag-ignore-pattern")
+                      }}</label>
+                      <input
+                        v-model="form.values.gitTagIgnore"
+                        class="form-input"
+                        type="text"
+                        :placeholder="$t('git-tag-ignore-pattern-placeholder')"
+                      />
+                      <div class="form-input-hint">
+                        {{ $t("git-tag-ignore-pattern-desc") }}
+                        <br />
+                        <code v-if="form.values.gitTagIgnore">
+                          /{{ form.values.gitTagIgnore }}/i
+                        </code>
+                      </div>
+                      <div
+                        v-if="form.errors.gitTagIgnore"
+                        class="form-input-hint"
+                      >
+                        {{ form.errors.gitTagIgnore }}
+                      </div>
+                    </div>
+                    <div
+                      id="id_minVersion"
+                      class="form-group column col-12"
+                      :class="{ hide: hideOtherFields }"
+                    >
+                      <label class="form-label">{{
+                        $t("minimal-version-to-build")
+                      }}</label>
+                      <input
+                        v-model="form.values.minVersion"
+                        class="form-input"
+                        type="text"
+                        :placeholder="
+                          $t('minimal-version-to-build-placeholder')
+                        "
+                      />
+                      <div
+                        v-if="form.errors.minVersion"
+                        class="form-input-hint"
+                      >
+                        {{ form.errors.minVersion }}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-12 form-zone"
+                    :class="{
+                      hide: hideOtherFields,
+                    }"
+                  >
+                    <h5 class="text-primary bg-secondary">
+                      {{ $t("promote") }}
+                    </h5>
+                    <div
+                      id="id_topics"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields,
+                        'has-error': form.errors.topics,
+                      }"
+                    >
+                      <label class="form-label required">{{
+                        $t("topics")
+                      }}</label>
+                      <div class="columns">
+                        <div
+                          v-for="item in form.options.topics"
+                          :key="item.slug"
+                          class="column col-6"
+                        >
+                          <label class="form-checkbox">
+                            <input
+                              v-model="item.value"
+                              type="checkbox"
+                              @change="onTopicsChange"
+                            /><i class="form-icon"></i>
+                            {{ $te(item.slug) ? $t(item.slug) : item.name }}
+                          </label>
+                        </div>
+                        <div v-if="form.errors.topics" class="form-input-hint">
+                          {{ form.errors.topics }}
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="id_image"
+                      v-if="repoImages.length"
+                      class="form-group column col-12"
+                      :class="{
+                        hide: hideOtherFields,
+                        'has-error': form.errors.image,
+                      }"
+                    >
+                      <label class="form-label">{{
+                        $t("featured-image")
+                      }}</label>
+                      <div class="columns pkg-img-columns">
+                        <div
+                          v-for="item in repoImages"
+                          :key="item"
+                          class="column col-3"
+                        >
+                          <div
+                            :class="{
+                              'pkg-img-wrap': true,
+                              selected: form.values.image == item,
+                            }"
+                            @click="onSelectImage(item)"
+                          >
+                            <LazyImage
+                              :src="item"
+                              class="img-responsive pkg-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-input-hint">
+                        {{ $t("featured-image-desc") }}
+                        <NavLink :item="gitHubSocialImageLink" />.
+                      </div>
+                      <div v-if="form.errors.image" class="form-input-hint">
+                        {{ form.errors.image }}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-12 form-zone"
+                    :class="{
+                      hide: hideOtherFields || !form.values.branch,
+                    }"
+                  >
+                    <h5 class="text-primary bg-secondary">
+                      {{ $t("china-region-info") }}
+                    </h5>
+                    <div class="container">
+                      <div class="columns">
+                        <div class="column col-12">
+                          <div class="form-input-hint">
+                            {{ $t("china-region-desc") }}
+                          </div>
+                        </div>
+                        <div
+                          id="id_readme_zhCN"
+                          class="form-group column col-12"
+                        >
+                          <label class="form-label">
+                            {{ $t("path-of-readme-zhcn") }}
+                          </label>
+                          <select
+                            v-model="form.values.readme_zhCN"
+                            class="form-select"
+                          >
+                            <option
+                              v-if="!readmePaths.length"
+                              disabled
+                              selected
+                              value=""
+                            >
+                              {{ form.prompts.readme }}
+                            </option>
+                            <option v-if="readmePaths.length" value=""></option>
+                            <option
+                              v-for="path in readmePaths"
+                              :key="path"
+                              :value="path"
+                            >
+                              {{ path }}
+                            </option>
+                          </select>
+                          <div
+                            v-if="form.errors.readme_zhCN"
+                            class="form-input-hint"
+                          >
+                            {{ form.errors.readme_zhCN }}
+                          </div>
+                        </div>
+                        <div
+                          id="id_displayName_zhCN"
+                          class="form-group column col-12"
+                          :class="{
+                            'has-error': form.errors.displayName_zhCN,
+                          }"
+                        >
+                          <label class="form-label">{{
+                            $t("display-name-zhcn")
+                          }}</label>
+                          <input
+                            v-model="form.values.displayName_zhCN"
+                            class="form-input"
+                            type="text"
+                          />
+                          <div
+                            v-if="packageInfo.displayName"
+                            class="form-input-hint"
+                          >
+                            {{ $t("english-text") }}
+                            {{ packageInfo.displayName }}
+                          </div>
+                          <div
+                            v-if="form.errors.displayName_zhCN"
+                            class="form-input-hint"
+                          >
+                            {{ form.errors.displayName_zhCN }}
+                          </div>
+                        </div>
+                        <div
+                          id="id_description_zhCN"
+                          class="form-group column col-12"
+                          :class="{
+                            'has-error': form.errors.description_zhCN,
+                          }"
+                        >
+                          <label class="form-label">{{
+                            $t("description-zhcn")
+                          }}</label>
+                          <input
+                            v-model="form.values.description_zhCN"
+                            class="form-input"
+                            type="text"
+                          />
+                          <div
+                            v-if="packageInfo.description"
+                            class="form-input-hint"
+                          >
+                            {{ $t("english-text") }}
+                            {{ packageInfo.description }}
+                          </div>
+                          <div
+                            v-if="form.errors.description_zhCN"
+                            class="form-input-hint"
+                          >
+                            {{ form.errors.description_zhCN }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="form-group column col-12 text-right"
+                    :class="{ hide: hideOtherFields }"
+                  >
+                    <button class="btn btn-primary btn-submit" type="submit">
+                      {{ $t("verify-package") }}
                     </button>
                   </div>
-                  <span v-if="form.repo.error" class="form-input-hint">
-                    {{ form.repo.error }}
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideOtherFields,
-                    'has-error': form.branch.error,
-                  }"
-                >
-                  <label class="form-label required">{{ $t("branch") }}</label>
-                  <select
-                    v-model="form.branch.value"
-                    class="form-select"
-                    required
-                    @change="onBranchChange($event)"
-                  >
-                    <option v-if="!branches.length" disabled selected value="">
-                      {{ $t("loading-branches") }}
-                    </option>
-                    <option
-                      v-for="branch in branches"
-                      :key="branch"
-                      :value="branch"
-                    >
-                      {{ branch }}
-                    </option>
-                  </select>
-                  <span v-if="form.branch.error" class="form-input-hint">
-                    {{ form.branch.error }}
-                  </span>
-                </div>
-                <div
-                  id="packageJson"
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideOtherFields || !form.branch.value,
-                    'has-error': form.packageJson.error,
-                  }"
-                >
-                  <label class="form-label required">
-                    {{ $t("path-of-package-json") }}
-                  </label>
-                  <select
-                    v-model="form.packageJson.value"
-                    class="form-select"
-                    required
-                    @change="onPackageJsonPathChange($event)"
-                  >
-                    <option
-                      v-if="!packageJsonPaths.length"
-                      disabled
-                      selected
-                      value=""
-                    >
-                      {{ form.packageJson.prompt }}
-                    </option>
-                    <option
-                      v-for="path in packageJsonPaths"
-                      :key="path"
-                      :value="path"
-                    >
-                      {{ path }}
-                    </option>
-                  </select>
-                  <span
-                    v-if="packageInfo"
-                    class="form-input-hint display-block"
-                  >
-                    {{ packageInfo.name }}
-                  </span>
-                  <span
-                    v-if="extraPackageNameWarning"
-                    class="bg-warning display-block"
-                  >
-                    {{ extraPackageNameWarning() }}
-                  </span>
-                  <span v-if="form.packageJson.error" class="form-input-hint">
-                    {{ form.packageJson.error }}
-                  </span>
-                </div>
-                <div
-                  id="readme"
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideOtherFields || !form.branch.value,
-                    'has-error': form.readme.error,
-                  }"
-                >
-                  <label class="form-label">
-                    {{ $t("path-of-readme") }}
-                  </label>
-                  <select v-model="form.readme.value" class="form-select">
-                    <option
-                      v-if="!readmePaths.length"
-                      disabled
-                      selected
-                      value=""
-                    >
-                      {{ form.readme.prompt }}
-                    </option>
-                    <option v-if="readmePaths.length" value="">
-                      {{ $t("field-none") }}
-                    </option>
-                    <option
-                      v-for="path in readmePaths"
-                      :key="path"
-                      :value="path"
-                    >
-                      {{ path }}
-                    </option>
-                  </select>
-                  <span v-if="form.readme.error" class="form-input-hint">
-                    {{ form.readme.error }}
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{ hide: hideOtherFields }"
-                >
-                  <label class="form-label">{{ $t("git-tag-prefix") }}</label>
-                  <input
-                    v-model="form.gitTagPrefix.value"
-                    class="form-input"
-                    type="text"
-                    :placeholder="$t('git-tag-prefix-placeholder')"
-                  />
-                  <span
-                    class="form-input-hint"
-                    v-html="$t('git-tag-prefix-desc-safe')"
-                  >
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{ hide: hideOtherFields }"
-                >
-                  <label class="form-label">{{
-                    $t("git-tag-ignore-pattern")
-                  }}</label>
-                  <input
-                    v-model="form.gitTagIgnore.value"
-                    class="form-input"
-                    type="text"
-                    :placeholder="$t('git-tag-ignore-pattern-placeholder')"
-                  />
-                  <span class="form-input-hint">
-                    {{ $t("git-tag-ignore-pattern-desc") }}
-                    <br />
-                    <code v-if="form.gitTagIgnore.value">
-                      /{{ form.gitTagIgnore.value }}/i
-                    </code>
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{ hide: hideOtherFields }"
-                >
-                  <label class="form-label">{{
-                    $t("minimal-version-to-build")
-                  }}</label>
-                  <input
-                    v-model="form.minVersion.value"
-                    class="form-input"
-                    type="text"
-                    :placeholder="$t('minimal-version-to-build-placeholder')"
-                  />
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideLicenseName || hideOtherFields,
-                    'has-error': form.licenseName.error,
-                  }"
-                >
-                  <label class="form-label">{{ $t("license-name") }}</label>
-                  <input
-                    v-model="form.licenseName.value"
-                    class="form-input"
-                    type="text"
-                  />
-                  <span class="form-input-hint">
-                    {{ $t("license-name-desc") }}
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideOtherFields,
-                    'has-error': form.topics.error,
-                  }"
-                >
-                  <label class="form-label">{{ $t("topics") }}</label>
-                  <div class="columns">
-                    <div
-                      v-for="item in form.topics.options"
-                      :key="item.slug"
-                      class="column col-6"
-                    >
-                      <label class="form-checkbox">
-                        <input v-model="item.value" type="checkbox" /><i
-                          class="form-icon"
-                        ></i>
-                        {{ $te(item.slug) ? $t(item.slug) : item.name }}
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  v-if="repoImages.length"
-                  class="form-group column col-12"
-                  :class="{
-                    hide: hideOtherFields,
-                    'has-error': form.image.error,
-                  }"
-                >
-                  <label class="form-label">{{ $t("featured-image") }}</label>
-                  <div class="form-input-hint">
-                    {{ $t("featured-image-desc") }}
-                    <a
-                      href="https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview"
-                      >{{ $t("social-image") }}</a
-                    >{{ $t("featured-image-desc-2") }}
-                  </div>
-                  <div class="columns pkg-img-columns">
-                    <div
-                      v-for="item in repoImages"
-                      :key="item"
-                      class="column col-3"
-                    >
-                      <div
-                        :class="{
-                          'pkg-img-wrap': true,
-                          selected: form.image.value == item,
-                        }"
-                        @click="onSelectImage(item)"
-                      >
-                        <LazyImage :src="item" class="img-responsive pkg-img" />
-                      </div>
-                    </div>
-                  </div>
-                  <span v-if="form.image.error" class="form-input-hint">
-                    {{ form.image.error }}
-                  </span>
-                </div>
-                <div
-                  class="form-group column col-12"
-                  :class="{ hide: hideOtherFields }"
-                >
-                  <label class="form-label">{{ $t("discovered-by") }}</label>
-                  <div class="input-group">
-                    <span class="input-group-addon">github.com/</span>
-                    <input
-                      v-model="form.hunter.value"
-                      class="form-input"
-                      type="text"
-                      :placeholder="$t('discovered-by-placeholder')"
-                    />
-                  </div>
-                </div>
-                <div
-                  class="col-12 form-zone"
-                  :class="{
-                    hide: hideOtherFields || !form.branch.value,
-                  }"
-                >
-                  <div class="container">
-                    <div class="columns">
-                      <div class="column col-12">
-                        <h5>
-                          {{ $t("china-region-info") }}
-                        </h5>
-                        <span class="form-input-hint">
-                          {{ $t("china-region-desc") }}
-                        </span>
-                      </div>
-                      <div id="readme_zhCN" class="form-group column col-12">
-                        <label class="form-label">
-                          {{ $t("path-of-readme-zhcn") }}
-                        </label>
-                        <select
-                          v-model="form.readme_zhCN.value"
-                          class="form-select"
-                        >
-                          <option
-                            v-if="!readmePaths.length"
-                            disabled
-                            selected
-                            value=""
-                          >
-                            {{ form.readme.prompt }}
-                          </option>
-                          <option v-if="readmePaths.length" value="">
-                            {{ $t("field-none") }}
-                          </option>
-                          <option
-                            v-for="path in readmePaths"
-                            :key="path"
-                            :value="path"
-                          >
-                            {{ path }}
-                          </option>
-                        </select>
-                        <span
-                          v-if="form.readme_zhCN.error"
-                          class="form-input-hint"
-                        >
-                          {{ form.readme_zhCN.error }}
-                        </span>
-                      </div>
-                      <div
-                        class="form-group column col-12"
-                        :class="{
-                          'has-error': form.displayName_zhCN.error,
-                        }"
-                      >
-                        <label class="form-label">{{
-                          $t("display-name-zhcn")
-                        }}</label>
-                        <input
-                          v-model="form.displayName_zhCN.value"
-                          class="form-input"
-                          type="text"
-                        />
-                        <span
-                          v-if="packageInfo.displayName"
-                          class="form-input-hint"
-                        >
-                          {{ $t("english-text") }} {{ packageInfo.displayName }}
-                        </span>
-                      </div>
-                      <div
-                        class="form-group column col-12"
-                        :class="{
-                          'has-error': form.description_zhCN.error,
-                        }"
-                      >
-                        <label class="form-label">{{
-                          $t("description-zhcn")
-                        }}</label>
-                        <input
-                          v-model="form.description_zhCN.value"
-                          class="form-input"
-                          type="text"
-                        />
-                        <span
-                          v-if="packageInfo.description"
-                          class="form-input-hint"
-                        >
-                          {{ $t("english-text") }} {{ packageInfo.description }}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="form-group column col-12 text-right"
-                  :class="{ hide: hideOtherFields }"
-                >
-                  <button
-                    class="btn btn-primary btn-submit"
-                    @click="onVerifyClick"
-                  >
-                    {{ $t("verify-package") }}
-                  </button>
-                </div>
+                </form>
               </div>
             </fieldset>
             <div v-else>
@@ -423,7 +530,7 @@
                 <code>{{ yaml }}</code>
               </pre>
               <div class="text-right">
-                <button class="btn btn-error" @click="onBack">
+                <button class="btn btn-secondary" @click="onBack">
                   {{ $t("back") }}
                 </button>
                 <a
@@ -493,24 +600,25 @@
                             <ul>
                               <li
                                 v-html="
-                                  $t('upload-to-github-via-pr-step-1-safe')
+                                  $t('upload-to-github-via-pr-step-1-html')
                                 "
                               ></li>
-                              <li
-                                v-html="
-                                  $t('upload-to-github-via-pr-step-2-safe')
-                                "
-                              ></li>
-                              <li
-                                v-html="
-                                  $t('upload-to-github-via-pr-step-3-safe')
-                                "
-                              ></li>
-                              <li
-                                v-html="
-                                  $t('upload-to-github-via-pr-step-4-safe')
-                                "
-                              ></li>
+                              <li>
+                                <span
+                                  v-html="
+                                    $t('upload-to-github-via-pr-step-2-html')
+                                  "
+                                ></span>
+                                <NavLink :item="gitHubHowToCreatePRLink" />.
+                              </li>
+                              <li>
+                                <span
+                                  v-html="
+                                    $t('upload-to-github-via-pr-step-3-html')
+                                  "
+                                ></span>
+                                <NavLink :item="gitHubSecurityLink" />.
+                              </li>
                             </ul>
                           </div>
                         </div>
@@ -536,17 +644,21 @@
                               <li>
                                 <span
                                   v-html="
-                                    $t('wait-for-ci-pipelines-step-1-safe')
+                                    $t('wait-for-ci-pipelines-step-1-html')
                                   "
                                 ></span>
-                                <NavLink :item="packageLink" target="_blank" />
+                                <NavLink :item="packageLink" target="_blank" />.
                               </li>
-                              <li
-                                v-html="$t('wait-for-ci-pipelines-step-2-safe')"
-                              ></li>
-                              <li
-                                v-html="$t('wait-for-ci-pipelines-step-3-safe')"
-                              ></li>
+                              <li>
+                                <span
+                                  v-html="
+                                    $t('wait-for-ci-pipelines-step-2-html')
+                                  "
+                                >
+                                </span>
+
+                                <NavLink :item="sponsorLink" />.
+                              </li>
                             </ul>
                           </div>
                         </div>
@@ -567,10 +679,11 @@
 <script>
 import axios from "axios";
 import Enum from "enum";
+import Joi from "joi";
 import querystring from "querystring";
-import VueScrollTo from "vue-scrollto";
 import spdx from "spdx-license-list";
 import urljoin from "url-join";
+import VueScrollTo from "vue-scrollto";
 import yaml from "js-yaml";
 
 import NavLink from "@theme/components/NavLink.vue";
@@ -584,73 +697,55 @@ const SubmitStep = new Enum({
   CI: 2,
 });
 
+const PackageFormSchema = Joi.object({
+  repo: Joi.string().required().default(""),
+  branch: Joi.string().required().default(""),
+  packageJson: Joi.string().required().default(""),
+  readme: Joi.string().allow("").default(""),
+  licenseId: Joi.string().allow("").default(""),
+  licenseName: Joi.string().required().default(""),
+  hunter: Joi.string().required().default(""),
+  gitTagPrefix: Joi.string().allow("").default(""),
+  gitTagIgnore: Joi.string().allow("").default(""),
+  minVersion: Joi.string().allow("").default(""),
+  topics: Joi.array().min(1).required().default([]),
+  image: Joi.string().allow("").default(""),
+  readme_zhCN: Joi.string().allow("").default(""),
+  displayName_zhCN: Joi.string().allow("").default(""),
+  description_zhCN: Joi.string().allow("").default(""),
+});
+
 export default {
   components: { ParentLayout, NavLink },
   data() {
-    return {
+    const newData = {
       isSubmitting: false,
       step: 0,
       form: {
-        branch: {
-          error: "",
-          value: "",
+        errors: {},
+        values: {
+          repo: "",
+          branch: "",
+          packageJson: "",
+          readme: "",
+          licenseId: "",
+          licenseName: "",
+          gitTagPrefix: "",
+          gitTagIgnore: "",
+          minVersion: "",
+          topics: [],
+          image: "",
+          hunter: "",
+          readme_zhCN: "",
+          displayName_zhCN: "",
+          description_zhCN: "",
         },
-        displayName_zhCN: {
-          error: "",
-          value: "",
+        prompts: {
+          packageJson: "",
+          readme: "",
         },
-        description_zhCN: {
-          error: "",
-          value: "",
-        },
-        gitTagPrefix: {
-          error: "",
-          value: "",
-        },
-        gitTagIgnore: {
-          error: "",
-          value: "",
-        },
-        hunter: {
-          error: "",
-          value: "",
-        },
-        licenseId: {
-          error: "",
-          value: null,
-        },
-        licenseName: {
-          error: "",
-          value: "",
-        },
-        minVersion: {
-          error: "",
-          value: "",
-        },
-        readme: {
-          error: "",
-          value: null,
-        },
-        readme_zhCN: {
-          error: "",
-          value: null,
-        },
-        image: {
-          error: "",
-          value: null,
-        },
-        packageJson: {
-          prompt: "",
-          error: "",
-          value: "",
-        },
-        repo: {
-          error: "",
-          value: "",
-        },
-        topics: {
-          error: "",
-          options: [],
+        options: {
+          topics: [],
         },
       },
       hideOtherFields: true,
@@ -663,6 +758,10 @@ export default {
       yaml: "",
       yamlFilename: "",
     };
+    Object.keys(newData.form.values).forEach((key) => {
+      newData.form.errors[key] = "";
+    });
+    return newData;
   },
   computed: {
     blockedScopes() {
@@ -671,8 +770,10 @@ export default {
     licenses() {
       return this.$page.frontmatter.licenses;
     },
-    hideLicenseName() {
-      return Boolean(this.$data.form.licenseId.value);
+    isLicenseNameReadOnly() {
+      return (
+        this.$data.form.values.licenseId && this.$data.form.values.licenseName
+      );
     },
     isStepFillFormChecked() {
       return this.$data.step > SubmitStep.FillForm.value;
@@ -700,16 +801,40 @@ export default {
         text: "docs/adding-upm-package",
       };
     },
+    gitHubHowToCreatePRLink() {
+      return {
+        link: "https://docs.github.com/repositories/working-with-files/managing-files/creating-new-files",
+        text: "Creating new files on GitHub",
+      };
+    },
+    gitHubSecurityLink() {
+      return {
+        link: "https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors",
+        text: "GitHub Actions update",
+      };
+    },
+    gitHubSocialImageLink() {
+      return {
+        link: "https://help.github.com/en/github/administering-a-repository/customizing-your-repositorys-social-media-preview",
+        text: "GitHub Social Image",
+      };
+    },
     packageLink() {
       return {
         link: "/packages/" + this.$data.packageInfo.name,
         text: "/packages/" + this.$data.packageInfo.name,
       };
     },
+    sponsorLink() {
+      return {
+        link: "https://www.patreon.com/openupm",
+        text: "Patreon",
+      };
+    },
   },
   mounted() {
     let topics = this.$page.frontmatter.topics;
-    this.$data.form.topics.options = topics.map(function (x) {
+    this.$data.form.options.topics = topics.map(function (x) {
       return {
         name: x.name,
         slug: x.slug,
@@ -720,8 +845,8 @@ export default {
   methods: {
     onRepoChange() {
       // Cleanify repo
-      let repo = this.$data.form.repo.value;
-      this.$data.form.repo.value = repo
+      let repo = this.$data.form.values.repo;
+      this.$data.form.values.repo = repo
         .replace(/^\//i, "")
         .replace(/https:\/\/github\.com\//i, "")
         .replace(/\.git$/i, "")
@@ -733,29 +858,30 @@ export default {
       this.fetchGitTrees();
     },
     onPackageJsonPathChange() {
-      if (this.form.packageJson.value) {
+      if (this.form.values.packageJson) {
         this.fetchPackageInfo();
       }
     },
     onGoClick() {
-      let repo = this.$data.form.repo.value;
+      let repo = this.$data.form.values.repo;
       if (repo) {
         this.$data.isSubmitting = true;
         this.$data.step = SubmitStep.FillForm.value;
-        this.$data.form.branch.value = "";
-        this.$data.form.displayName_zhCN.value = "";
-        this.$data.form.description_zhCN.value = "";
-        this.$data.form.gitTagPrefix.value = "";
-        this.$data.form.gitTagIgnore.value = "";
-        this.$data.form.licenseId.value = null;
-        this.$data.form.licenseName.value = "";
-        this.$data.form.minVersion.value = "";
-        this.$data.form.readme.value = null;
-        this.$data.form.readme_zhCN.value = null;
-        this.$data.form.image.value = null;
-        this.$data.form.packageJson.value = "";
-        this.$data.form.packageJson.prompt = "";
-        for (const topic of this.$data.form.topics.options) topic.value = false;
+        this.$data.form.values.branch = "";
+        this.$data.form.values.displayName_zhCN = "";
+        this.$data.form.values.description_zhCN = "";
+        this.$data.form.values.gitTagPrefix = "";
+        this.$data.form.values.gitTagIgnore = "";
+        this.$data.form.values.licenseId = "";
+        this.$data.form.values.licenseName = "";
+        this.$data.form.values.minVersion = "";
+        this.$data.form.values.readme = "";
+        this.$data.form.values.readme_zhCN = "";
+        this.$data.form.values.image = "";
+        this.$data.form.values.hunter = "";
+        this.$data.form.values.packageJson = "";
+        this.$data.form.prompts.packageJson = "";
+        for (const topic of this.$data.form.options.topics) topic.value = false;
         this.$data.repoInfo = {};
         this.$data.repoImages = [];
         this.$data.packageJsonPaths = {};
@@ -770,11 +896,17 @@ export default {
       }
     },
     onSelectImage(item) {
-      if (this.$data.form.image.value != item)
-        this.$data.form.image.value = item;
-      else this.$data.form.image.value = null;
+      if (this.$data.form.values.image != item)
+        this.$data.form.values.image = item;
+      else this.$data.form.values.image = null;
     },
-    onVerifyClick() {
+    onTopicsChange() {
+      const form = this.$data.form;
+      form.values.topics = form.options.topics
+        .filter((x) => x.value)
+        .map((x) => x.slug);
+    },
+    onValidateForm() {
       this.verifyPackage();
     },
     onBack() {
@@ -790,49 +922,48 @@ export default {
       let packageInfo = this.$data.packageInfo;
       let content = {
         name: packageInfo.name,
-        displayName: packageInfo.displayName || "",
+        displayName: packageInfo.displayName,
         description: packageInfo.description || repoInfo.description || "",
         repoUrl: repoInfo.html_url,
         parentRepoUrl: repoInfo.parent ? repoInfo.parent.html_url : null,
-        licenseSpdxId: form.licenseId.value,
-        licenseName: form.licenseName.value,
-        topics: form.topics.options.filter((x) => x.value).map((x) => x.slug),
-        hunter: form.hunter.value,
-        gitTagPrefix: form.gitTagPrefix.value,
-        gitTagIgnore: form.gitTagIgnore.value,
-        minVersion: form.minVersion.value,
-        image: form.image.value,
-        readme: form.readme.value
-          ? form.branch.value + ":" + form.readme.value
+        licenseSpdxId: form.values.licenseId,
+        licenseName: form.values.licenseName,
+        topics: form.values.topics,
+        hunter: form.values.hunter,
+        gitTagPrefix: form.values.gitTagPrefix,
+        gitTagIgnore: form.values.gitTagIgnore,
+        minVersion: form.values.minVersion,
+        image: form.values.image,
+        readme: form.values.readme
+          ? form.values.branch + ":" + form.values.readme
           : "master:README.md",
-        readme_zhCN: form.readme_zhCN.value
-          ? form.branch.value + ":" + form.readme_zhCN.value
+        readme_zhCN: form.values.readme_zhCN
+          ? form.values.branch + ":" + form.values.readme_zhCN
           : "",
-        displayName_zhCN: form.displayName_zhCN.value,
-        description_zhCN: form.description_zhCN.value,
+        displayName_zhCN: form.values.displayName_zhCN,
+        description_zhCN: form.values.description_zhCN,
         createdAt: new Date().getTime(),
       };
       return yaml.safeDump(content);
     },
     guessLicenseId() {
-      if (this.form.licenseName.value && !this.form.licenseId.value) {
+      if (this.form.values.licenseName.value && !this.form.licenseId) {
         const spdxId = Object.keys(spdx).find(
           (x) =>
-            spdx[x].name == this.form.licenseName.value ||
-            x == this.form.licenseName.value
+            spdx[x].name == this.form.values.licenseName ||
+            x == this.form.values.licenseName
         );
         if (spdxId) {
-          this.form.licenseId.value = spdxId;
-          this.form.licenseName.value = spdx[this.form.licenseId.value].name;
+          this.form.values.licenseId = spdxId;
+          this.form.values.licenseName.value = spdx[this.form.licenseId].name;
         }
       }
     },
     resetFormError() {
-      let form = this.$data.form;
-      for (let key in form) {
-        let element = form[key];
-        if (element !== null && "error" in element) element.error = "";
-      }
+      const errors = this.$data.form.errors;
+      Object.keys(errors).forEach((key) => {
+        errors[key] = "";
+      });
     },
     async fetchRepoInfo() {
       try {
@@ -840,7 +971,7 @@ export default {
         this.resetFormError();
         // Fetch.
         let resp = await axios.get(
-          urljoin(util.githubReposApiUrl, this.form.repo.value),
+          urljoin(util.githubReposApiUrl, this.form.values.repo),
           {
             headers: { Accept: "application/vnd.github.v3.json" },
           }
@@ -855,13 +986,13 @@ export default {
           repoInfo.license.spdx_id != "NOASSERTION" &&
           repoInfo.license.key != "other"
         ) {
-          this.$data.form.licenseId.value = repoInfo.license.spdx_id;
-          this.$data.form.licenseName.value = repoInfo.license.name;
+          this.$data.form.values.licenseId = repoInfo.license.spdx_id;
+          this.$data.form.values.licenseName = repoInfo.license.name;
         }
       } catch (error) {
         if (error.message.includes("404"))
-          this.$data.form.repo.error = "Repository not found";
-        else this.$data.form.repo.error = error.message;
+          this.$data.form.errors.repo = "Repository not found";
+        else this.$data.form.errors.repo = error.message;
       } finally {
         this.$data.isSubmitting = false;
       }
@@ -869,11 +1000,11 @@ export default {
     async fetchRepoImage() {
       try {
         // Clean error message.
-        this.$data.form.image.error = "";
+        this.$data.form.errors.image = "";
         // Fetch.
         let resp = await axios.get(
           util.githubSearchCodeApiUrl +
-            `?sort=indexed&q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.repo.value}`,
+            `?sort=indexed&q=extension:png+extension:jpg+extension:jpeg+extension:gif+repo:${this.form.values.repo}`,
           {
             headers: { Accept: "application/vnd.github.v3.json" },
           }
@@ -885,16 +1016,16 @@ export default {
             : [];
         this.$data.repoImages = repoImages.slice(0, 100);
       } catch (error) {
-        this.$data.form.image.error = error.message;
+        this.$data.form.errors.image = error.message;
       }
     },
     async fetchBranches() {
       this.$data.branches = [];
       try {
         // Clean error message.
-        this.$data.form.branch.error = "";
+        this.$data.form.errors.branch = "";
         let url =
-          urljoin(util.githubReposApiUrl, this.form.repo.value, "branches") +
+          urljoin(util.githubReposApiUrl, this.form.values.repo, "branches") +
           "?per_page=100";
         // Traversing with pagination
         while (true) {
@@ -921,31 +1052,33 @@ export default {
         }
         // Assign the default branch
         if (this.$data.branches.includes("master")) {
-          this.$data.form.branch.value = "master";
+          this.$data.form.values.branch = "master";
           this.onBranchChange();
         } else if (this.$data.branches.includes("main")) {
-          this.$data.form.branch.value = "main";
+          this.$data.form.values.branch = "main";
           this.onBranchChange();
         }
       } catch (error) {
-        this.$data.form.branch.error = error.message;
+        this.$data.form.errors.branch = error.message;
       }
     },
     async fetchGitTrees() {
-      if (!this.form.branch.value) return;
+      if (!this.form.values.branch) return;
       try {
         // Clean error message.
-        this.$data.form.packageJson.error = "";
-        this.$data.form.readme.error = "";
+        this.$data.form.errors.packageJson = "";
+        this.$data.form.errors.readme = "";
         // Fetch.
         const url = urljoin(
           util.githubReposApiUrl,
-          this.form.repo.value,
+          this.form.values.repo,
           "git/trees",
-          this.form.branch.value
+          this.form.values.branch
         );
-        this.$data.form.packageJson.prompt = "Loading package.json path...";
-        this.$data.form.readme.prompt = "Loading README.md path...";
+        this.$data.form.prompts.packageJson = this.$t(
+          "loading-package-json-path"
+        );
+        this.$data.form.prompts.readme = this.$t("loading-readme-md-path");
         const resp = await axios.get(url, {
           params: { recursive: 1 },
           headers: { Accept: "application/vnd.github.v3.json" },
@@ -957,17 +1090,18 @@ export default {
             .map((x) => x.path)
             .filter((x) => x.endsWith("package.json"));
           self.$data.packageJsonPaths = paths;
-          self.$data.form.packageJson.value = null;
+          self.$data.form.values.packageJson = null;
           if (paths.length == 0) {
-            self.$data.form.packageJson.prompt = "";
-            self.$data.form.packageJson.error =
-              "File not found: package.json. Please choice a different branch.";
+            self.$data.form.prompts.packageJson = "";
+            self.$data.form.errors.packageJson = self.$t(
+              "can-not-locate-the-path-of-pac"
+            );
           } else if (paths.length == 1) {
-            self.$data.form.packageJson.value = paths[0];
+            self.$data.form.values.packageJson = paths[0];
           } else if (paths.includes("package.json")) {
-            self.$data.form.packageJson.value = "package.json";
+            self.$data.form.values.packageJson = "package.json";
           }
-          if (self.$data.form.packageJson.value) {
+          if (self.$data.form.values.packageJson) {
             self.onPackageJsonPathChange();
           }
         })();
@@ -979,35 +1113,36 @@ export default {
             .filter((x) => markdownRe.test(x));
           self.$data.readmePaths = paths;
           if (paths.length == 0) {
-            self.$data.form.readme.prompt = "";
-            self.$data.form.readme.error =
-              "No markdown file found, will fallback to README.md";
+            self.$data.form.prompts.readme = "";
+            self.$data.form.errors.readme = self.$t(
+              "no-markdown-file-found-fallbacks"
+            );
           } else if (paths.length == 1) {
-            self.$data.form.readme.value = paths[0];
+            self.$data.form.values.readme = paths[0];
           } else if (paths.includes("README.md")) {
-            self.$data.form.readme.value = "README.md";
+            self.$data.form.values.readme = "README.md";
           } else {
             const filteredPath = paths.filter((x) => x.endsWith("README.md"));
             if (filteredPath.length > 0) {
-              self.$data.form.readme.value = filteredPath[0];
+              self.$data.form.values.readme = filteredPath[0];
             }
           }
         })();
       } catch (error) {
-        this.$data.form.packageJson.error = error.message;
+        this.$data.form.errors.packageJson = error.message;
       }
     },
     async fetchPackageInfo() {
       try {
         // Clean error message.
-        this.$data.form.packageJson.error = "";
+        this.$data.form.errors.packageJson = "";
         // Fetch.
         let url = urljoin(
           util.githubReposApiUrl,
-          this.form.repo.value,
+          this.form.values.repo,
           "contents",
-          this.form.packageJson.value,
-          "?ref=" + this.$data.form.branch.value
+          this.form.values.packageJson,
+          "?ref=" + this.$data.form.values.branch
         );
         let resp = await axios.get(url, {
           headers: { Accept: "application/vnd.github.v3.json" },
@@ -1036,18 +1171,18 @@ export default {
         // License
         if (
           this.$data.packageInfo.license &&
-          !this.$data.form.licenseName.value
+          !this.$data.form.values.licenseName
         ) {
-          this.$data.form.licenseName.value = this.$data.packageInfo.license;
+          this.$data.form.values.licenseName = this.$data.packageInfo.license;
         }
         // Verify unity registry
         // Unity registry didn't enable the cross origin requests, then the check cannot be done in a browser.
         // await this.verifyPackageExistInUnityRegistry(packageName);
       } catch (error) {
-        VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
+        VueScrollTo.scrollTo("#id_packageJson", 500, { offset: -80 });
         if (error.message.includes("404"))
-          this.$data.form.packageJson.error = "File not found: package.json.";
-        else this.$data.form.packageJson.error = error.message;
+          this.$data.form.errors.packageJson = "File not found: package.json.";
+        else this.$data.form.errors.packageJson = error.message;
       }
     },
     async verifyPackageExistInUnityRegistry(packageName) {
@@ -1057,14 +1192,18 @@ export default {
         throw new Error(this.$t("package-already-exists-in-unity-registry"));
       } catch (error) {}
     },
-    async verifyPackage() {
-      if (!this.$data.form.packageJson.value) {
-        this.$data.form.packageJson.error =
-          "Please select the package.json path.";
-      }
-      if (this.$data.form.packageJson.error) {
-        VueScrollTo.scrollTo("#packageJson", 500, { offset: -80 });
-        return;
+    verifyPackage() {
+      this.resetFormError();
+      const result = PackageFormSchema.validate(this.$data.form.values, {
+        abortEarly: false,
+      });
+      if (result.error) {
+        result.error.details.forEach((error) => {
+          this.$data.form.errors[error.path[0]] = error.message;
+        });
+        const firstFieldSelector = "#id_" + result.error.details[0].path[0];
+        VueScrollTo.scrollTo(firstFieldSelector, 500, { offset: -80 });
+        return false;
       }
       // Guess license id.
       this.guessLicenseId();
@@ -1165,11 +1304,13 @@ export default {
     }
 
     .form-zone {
-      margin: 0.4rem;
-      background: #eee;
+      margin: 0.8rem 0.4rem;
+      border: 1px solid #eee;
 
       h5 {
-        margin-top: 0.4rem;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0.4rem;
       }
     }
   }
