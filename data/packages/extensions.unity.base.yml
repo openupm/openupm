@@ -1,0 +1,20 @@
+name: extensions.unity.base
+displayName: Unity Extensions
+description: Includes many helper classes.
+repoUrl: 'https://github.com/IvanMurzak/Unity-Extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651769778033
