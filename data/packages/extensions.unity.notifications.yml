@@ -1,0 +1,21 @@
+name: extensions.unity.notifications
+displayName: Unity Notifications
+description: Unity Mobile Notifications integration.
+repoUrl: 'https://github.com/IvanMurzak/Unity-Mobile-Notifications-Simplifier'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-Mobile-Notifications-Simplifier/raw/b0a2718218b86ed33e221103e669fed4f54f8af4/Assets/Resources/demo_notification.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651770409345
