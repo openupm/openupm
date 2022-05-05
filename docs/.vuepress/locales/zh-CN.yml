@@ -225,4 +225,3 @@ wait-for-ci-pipelines-step-1-html: 首次导入大致需要花费1小时，然�
 wait-for-ci-pipelines-step-2-html: 在等待软件包导入期间，请考虑支持OpenUPM
 your-github-username: 你的GitHub用户名
 weibo-share: 微博分享
-zhihu-blog: 知乎专栏

@@ -154,13 +154,6 @@ export default {
           icon: "fab fa-discord",
           iconLeft: true
         });
-      } else {
-        links.push({
-          text: this.$t("zhihu-blog"),
-          link: "https://www.zhihu.com/column/c_1308910319477874688",
-          icon: "fab fa-zhihu",
-          iconLeft: true
-        });
       }
       links.push({
         link: "mailto:hello@openupm.com",
