@@ -1,0 +1,24 @@
+name: extensions.unity.theme
+displayName: Unity Theme
+description: >-
+  Create palettes of colors and components for change specific color on a
+  specific visual element. Very useful to UI.
+repoUrl: 'https://github.com/IvanMurzak/Unity-Theme'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-Theme/raw/7de30007dce89fc412269545f7c05c34e7e8c322/Assets/_PackageRoot/Editor/Gizmos/ThemeDatabaseConfigIcon.jpg
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651769393642
