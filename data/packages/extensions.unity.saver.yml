@@ -1,0 +1,23 @@
+name: extensions.unity.saver
+displayName: Unity Saver
+description: >-
+  Multiplatform encrypted database for Unity. Can be integrated in
+  MonoBehaviour, ScriptableObject or be used such as simple C# class instance
+repoUrl: 'https://github.com/IvanMurzak/Unity-Saver'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-Saver/raw/cc6b3275f379da9ea85db177b559b52ef48400a1/Assets/_PackageRoot/Editor/Gizmos/SaverIcon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651770238079
