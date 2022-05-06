@@ -1,0 +1,24 @@
+name: extensions.unity.shapes.recttransform
+displayName: Shapes RectTransform
+description: >-
+  Shapes combine with RectTransform. Saving Aspect Ratio and two modes: Fit and
+  Fill
+repoUrl: 'https://github.com/IvanMurzak/Unity-Extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651770836930
