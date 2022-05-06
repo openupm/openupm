@@ -1,0 +1,21 @@
+name: extensions.unity.gyroscope.parallax
+displayName: Unity Gyroscope Parallax
+description: Unity Parallax based on gyroscope components.
+repoUrl: 'https://github.com/IvanMurzak/Unity-Gyroscope-Parallax'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-Gyroscope-Parallax/raw/a8e6e1d59ace10b55345d88f7f95bea9a2024391/Assets/_PackageRoot/Editor/Gizmos/GyroMover.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651769569793
