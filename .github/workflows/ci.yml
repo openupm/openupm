@@ -33,7 +33,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: release
       uses: cycjimmy/semantic-release-action@v2
       with:
@@ -90,7 +90,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: set node.js 12
       uses: actions/setup-node@v3
       with:
@@ -123,7 +123,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: set node.js 12
       uses: actions/setup-node@v3
       with:
