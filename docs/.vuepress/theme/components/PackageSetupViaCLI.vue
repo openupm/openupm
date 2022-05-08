@@ -49,8 +49,8 @@ ${cli} add ${this.packageName}
     },
     nodejsLink() {
       return {
-        link: "https://nodejs.org/en/",
-        text: "Node.js 12"
+        link: "https://nodejs.org/en/download/",
+        text: "Node.js 14 or above"
       };
     },
     openupmCliRepoLink() {
