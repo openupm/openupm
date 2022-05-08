@@ -33,7 +33,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: release
       uses: cycjimmy/semantic-release-action@v2
       with:
@@ -90,9 +90,9 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: set node.js 12
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '12'
     - name: yarn install
@@ -123,9 +123,9 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: set node.js 12
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '12'
     - name: yarn install
