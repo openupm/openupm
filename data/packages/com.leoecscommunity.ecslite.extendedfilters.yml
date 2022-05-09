@@ -1,0 +1,21 @@
+name: com.leoecscommunity.ecslite.extendedfilters
+displayName: LeoECSCommunity Lite Extended filters
+description: Extended filters for LeoECSCommunity Lite.
+repoUrl: 'https://github.com/LeoECSCommunity/ecslite-extendedfilters'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652065856564
