@@ -1,0 +1,23 @@
+name: com.popupasylum.importerpresets
+displayName: Importer Presets
+description: >-
+  Uses Presets to apply default settings to Asset Importers. Particularly useful
+  for specifying that a folder will contain Sprites.
+repoUrl: 'https://github.com/markeahogan/importerpresets'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: markeahogan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652092346982
