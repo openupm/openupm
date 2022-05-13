@@ -1,0 +1,25 @@
+name: com.beauprime.beauutil
+displayName: BeauUtil
+description: Utility library for Unity3d.
+repoUrl: 'https://github.com/BeauPrime/BeauUtil'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - 2d
+  - camera
+  - data-management
+  - editor-enhancement
+  - gui
+  - physics
+  - utilities
+hunter: BeauPrime
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652406695046
