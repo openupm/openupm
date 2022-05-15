@@ -1,7 +1,7 @@
 /**
  * Configuration for region cn (lang zh-cn)
  */
-const docSideBar = function() {
+const docSideBar = function () {
   return [
     {
       title: "使用指南",
@@ -62,7 +62,22 @@ module.exports = {
           "openupm,upm,registry,unity,package,manager,open source,开源,软件源,软件包,软件包仓库"
       }
     ],
-    ["script", { src: "/vendors/https-only/https-only.js" }]
+    ["script", { src: "/vendors/https-only/https-only.js" }],
+    // GA4
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-2GQ1LGF9G0',
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-2GQ1LGF9G0');",
+      ],
+    ],
   ],
   themeConfig: {
     locales: {
