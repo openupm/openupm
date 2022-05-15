@@ -107,12 +107,6 @@ module.exports = {
                 iconLeft: true
               },
               {
-                text: "知乎专栏",
-                link: "https://www.zhihu.com/column/c_1308910319477874688",
-                icon: "fab fa-zhihu",
-                iconLeft: true
-              },
-              {
                 link: "mailto:hello@openupm.com",
                 text: "联系我们",
                 icon: "fas fa-envelope",

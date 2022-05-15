@@ -90,9 +90,8 @@ OpenUPM是一个独立的项目。它的持续开发离不开热情的[赞助商
 
 ## 社区
 
-- [知乎专栏](https://www.zhihu.com/column/c_1308910319477874688)
 - [论坛](https://github.com/openupm/openupm/discussions)
-- [Discord](https://discord.gg/FnUgWEP)聊天室
+- [Discord 聊天室](https://discord.gg/FnUgWEP)
 - 联系我们：[hello@openupm.com](hello@openupm.com)
 - 软件包更新[RSS feed](https://api.openupm.cn/feeds/updates/rss)
 
