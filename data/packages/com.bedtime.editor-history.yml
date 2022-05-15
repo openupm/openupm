@@ -1,0 +1,20 @@
+name: com.bedtime.editor-history
+displayName: Editor History
+description: View and navigate your selection history
+repoUrl: 'https://github.com/BedtimeDigitalGames/Unity-Editor-History'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: aschtronaut
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652632377526
