@@ -7,8 +7,8 @@ description: >-
   Manager registries.
 repoUrl: 'https://github.com/xinatcg/GoogleExternalDependencyManager'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
 topics:
   - utilities
 hunter: xinatcg
