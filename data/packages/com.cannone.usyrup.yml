@@ -1,0 +1,20 @@
+name: com.cannone.usyrup
+displayName: USyrup
+description: A dependency injection framework for Unity
+repoUrl: 'https://github.com/Jeffan207/usyrup'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+hunter: Jeffan207
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652856577645
