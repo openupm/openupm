@@ -1,0 +1,21 @@
+name: com.jeffcampbellmakesgames.markdownviewer
+displayName: Unity Markdown Viewer
+description: Editor inspector for markdown files
+repoUrl: 'https://github.com/jeffcampbellmakesgames/UnityMarkdownViewer'
+parentRepoUrl: 'https://github.com/Zumwani/UnityMarkdownViewer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: jeffcampbellmakesgames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652880186622
