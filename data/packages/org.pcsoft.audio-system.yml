@@ -1,0 +1,21 @@
+name: org.pcsoft.audio-system
+displayName: Audio System
+description: Audio System for Unity
+repoUrl: 'https://github.com/KleinerHacker/unity-audio-system'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache 2.0 Licence
+topics:
+  - audio
+  - frameworks
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652951506042
