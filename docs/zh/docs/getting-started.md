@@ -15,7 +15,7 @@ showFooter: false
 
 ## 安装OpenUPM-CLI
 
-OpenUPM-CLI需要使用[Node.js 14或更高版本](https://nodejs.org/en/download/)。
+OpenUPM-CLI需要使用[Node.js 14.18或更高版本](https://nodejs.org/en/download/)。
 
 让我们通过打印npm的版本，来验证是否安装好了Node.js。顺便一提，UPM（Unity包管理器）正是受到了NPM（Node包管理器）的启发。
 
