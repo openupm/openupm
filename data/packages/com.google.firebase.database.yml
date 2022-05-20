@@ -1,0 +1,31 @@
+name: com.google.firebase.database
+displayName: Firebase Realtime Database
+description: >-
+  Store and sync data in near-realtime.
+
+
+  Realtime Database is a cloud-hosted NoSQL database that lets you store and
+  sync JSON data in near-realtime. It's optimized for very rapid syncing of
+  small amounts of data.
+
+
+  When your players go offline, the Realtime Database SDKs use local cache on
+  the device to serve and store changes. When the device comes online, the local
+  data is automatically synchronized so people can keep playing your game from
+  where they left off.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseDatabase'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064231770
