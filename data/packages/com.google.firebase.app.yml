@@ -1,0 +1,20 @@
+name: com.google.firebase.app
+displayName: Firebase App (Core)
+description: Firebase App is the core library every Firebase package depends on.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseApp'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/xinatcg/GoogleFirebaseApp/raw/2bb07acb1c92a20ea5ad07ba38f1990a82c7daf9/Editor%20Default%20Resources/Firebase/firebase_lockup_dark.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064043666
