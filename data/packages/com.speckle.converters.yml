@@ -1,0 +1,19 @@
+name: com.speckle.converters
+displayName: Speckle Component Converters
+description: Component Converters structure for speckle-unity
+repoUrl: 'https://github.com/sasakiassociates/speckle-unity-converters'
+parentRepoUrl: 'https://github.com/haitheredavid/speckle-unity'
+licenseSpdxId: ''
+licenseName: Apache-2.0
+topics:
+  - version-control
+hunter: haitheredavid
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653082993700
