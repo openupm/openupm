@@ -1,0 +1,31 @@
+name: com.google.firebase.crashlytics
+displayName: Firebase Crashlytics
+description: >-
+  Prioritize and fix stability issues faster.
+
+
+  Firebase Crashlytics helps you track, prioritize, and fix stability issues
+  that erode game quality, in realtime. Spend less time triaging and
+  troubleshooting crashes and more time building game content and features that
+  delight players.
+
+
+  Crashlytics also sends realtime alerts for new issues, regressed issues, and
+  burgeoning issues that might require immediate attention to ensure you never
+  miss a critical crash no matter where you are.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseCrashlytics'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064346598
