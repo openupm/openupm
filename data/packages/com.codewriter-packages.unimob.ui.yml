@@ -1,0 +1,19 @@
+name: com.unimob.ui
+displayName: UniMob.UI
+description: A declarative library for building reactive user interfaces
+repoUrl: 'https://github.com/codewriter-packages/UniMob.UI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653033184167
