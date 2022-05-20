@@ -1,0 +1,27 @@
+name: com.google.firebase.messaging
+displayName: Firebase Cloud Messaging
+description: >-
+  Send targeted messages and notifications.
+
+
+  Cloud Messaging gives you a reliable and battery-efficient way to send
+  messages and notifications across platforms. You can target your messages to
+  certain segments of players and customize them to suit your game's brand. You
+  can also gauge their effectiveness with statistics like click rate, open rate,
+  and the downstream effect on conversions.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseMessaging'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064610817
