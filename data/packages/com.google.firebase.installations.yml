@@ -1,0 +1,26 @@
+name: com.google.firebase.installations
+displayName: Firebase Installations
+description: >-
+  The Firebase installations service (FIS) provides a Firebase installation ID
+  (FID) for each installed instance of a Firebase app. The Firebase installation
+  ID is used internally by Firebase services such as In-App Messaging or Remote
+  Config without requiring developers to interact directly with the FIS API.
+  Using this API, a developer can delete a Firebase installation and the data
+  tied to it, target specific app installations, and retrieve installation auth
+  tokens.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseInstallations'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064528297
