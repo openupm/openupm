@@ -1,0 +1,33 @@
+name: com.google.firebase.firestore
+displayName: Cloud Firestore
+description: >-
+  Store and sync game data at global scale.
+
+
+  Cloud Firestore is a flexible NoSQL document database that lets you easily
+  store, sync, and query data for your games - at global scale.
+
+
+  Firestore supports a million players connected simultaneously with a
+  guaranteed uptime of 5 nines for multi-region instances. That's less than 5
+  minutes of downtime a year!
+
+
+  With Cloud Firestore, your players can access and make changes to their data
+  at any time, even when they're offline.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseFirestore'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064437548
