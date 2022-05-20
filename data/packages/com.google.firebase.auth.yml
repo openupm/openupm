@@ -1,0 +1,25 @@
+name: com.google.firebase.auth
+displayName: Firebase Authentication
+description: >-
+  Easily sign-in and authenticate players.
+
+
+  Sign-in players using any identity provider with Firebase Authentication. It
+  supports email and password, phone authentication, Facebook, Google, Twitter,
+  and more. Out-of-the-box, you get a secure, end-to-end identity solution.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseAuth'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064288558
