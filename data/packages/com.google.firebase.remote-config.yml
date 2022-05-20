@@ -1,0 +1,25 @@
+name: com.google.firebase.remote-config
+displayName: Firebase Remote Config
+description: >-
+  Customize your game on the fly.
+
+
+  Remote Config lets you dynamically change the behavior and appearance of your
+  game right from the Firebase console so you can deliver personalized
+  experiences to players - without waiting for app store approval.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseRemoteConfig'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064750980
