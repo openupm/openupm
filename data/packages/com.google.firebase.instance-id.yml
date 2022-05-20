@@ -1,0 +1,22 @@
+name: com.google.firebase.instance-id
+displayName: Firebase Instance ID
+description: >-
+  You can use Instance ID to test Firebase A/B Testing or provide a unique
+  identifier for each app instance and a mechanism to authenticate and authorize
+  actions like sending a message via Cloud Messaging.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseInstanceId'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064566885
