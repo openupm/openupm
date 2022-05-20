@@ -1,0 +1,28 @@
+name: com.google.firebase.analytics
+displayName: Google Analytics
+description: >-
+  Get free and unlimited game and player analytics
+
+
+  Google Analytics helps you understand and engage your players by revealing
+  what actions they're taking inside your game, where they spend the most time,
+  and why they churn. From acquisition to app usage, Google Analytics will give
+  you insights to make better decisions about your game. You can even combine
+  your analytics data with Google Ads to make sure you're running campaigns that
+  deliver you high-quality players.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseAnalytics'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064157551
