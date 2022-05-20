@@ -1,0 +1,20 @@
+name: com.codewriter.view-binding
+displayName: View Binding
+description: View binding library for Unity
+repoUrl: 'https://github.com/codewriter-packages/View-Binding'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653042980010
