@@ -1,7 +1,7 @@
 name: com.codewriter.npm-publisher-support
 displayName: Npm Publisher Support
 description: Publish Npm packages to your registry directly from the Unity
-repoUrl: 'https://github.com/vanifatovvlad/NpmPublisherSupport'
+repoUrl: 'https://github.com/codewriter-packages/NpmPublisherSupport'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
