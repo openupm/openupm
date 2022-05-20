@@ -1,0 +1,27 @@
+name: com.google.firebase.dynamic-links
+displayName: Firebase Dynamic Links
+description: >-
+  Deep link potential players to the right place inside your game.
+
+
+  Dynamic Links are smart URLs that allow you to send existing and potential
+  players to any location within your game. They survive the game install
+  process, so even new players see the content they're looking for when they
+  open the game for the first time. Dynamic Links are free forever, for any
+  scale.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseDynamicLinks'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064399658
