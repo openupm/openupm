@@ -1,7 +1,7 @@
 name: com.codewriter.npm-package-loader
 displayName: Npm Package Loader
 description: Load Npm packages directly from the Unity
-repoUrl: 'https://github.com/vanifatovvlad/NpmPublisherSupport'
+repoUrl: 'https://github.com/codewriter-packages/NpmPackageLoader'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
