@@ -1,0 +1,29 @@
+name: com.google.firebase.storage
+displayName: Cloud Storage for Firebase
+description: >-
+  Store and serve game content with ease.
+
+
+  With Cloud Storage, you can easily store and serve large binary objects, such
+  as screenshots, replays, or game assets, and effortlessly grow from prototype
+  to production.
+
+
+  Through an integration with Firebase Authentication, you can use our
+  declarative security model to control access and keep data safe.
+repoUrl: 'https://github.com/xinatcg/GoogleFirebaseStorage'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653064796468
