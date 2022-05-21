@@ -1,0 +1,22 @@
+name: com.xiaojiang.unlimitedscroller
+displayName: Unlimited Scroller
+description: >-
+  A plugin in Unity that let you easily create scroll views with unlimited
+  items.
+repoUrl: 'https://github.com/Brian-Jiang/UnlimitedScrollUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: Brian-Jiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653114737224
