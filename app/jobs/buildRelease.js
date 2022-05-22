@@ -199,25 +199,25 @@ const getReasonFromBuildLogText = function(text) {
     return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
-  else if (text.includes("error code E400")) {
+  else if (text.includes("code E400")) {
     if (/400 Bad Request - PUT https:\/\/.*\.com\/@/.test(text)) {
       return ReleaseReason.PackageNameInvalid;
     } else {
       return ReleaseReason.BadRequest;
     }
-  } else if (text.includes("error code E401"))
+  } else if (text.includes("code E401"))
     return ReleaseReason.Unauthorized;
-  else if (text.includes("error code E403")) return ReleaseReason.Forbidden;
-  else if (text.includes("error code E413"))
+  else if (text.includes("code E403")) return ReleaseReason.Forbidden;
+  else if (text.includes("code E413"))
     return ReleaseReason.EntityTooLarge;
-  else if (text.includes("error code E500")) return ReleaseReason.InternalError;
-  else if (text.includes("error code E502")) return ReleaseReason.BadGateway;
-  else if (text.includes("error code E503"))
+  else if (text.includes("code E500")) return ReleaseReason.InternalError;
+  else if (text.includes("code E502")) return ReleaseReason.BadGateway;
+  else if (text.includes("code E503"))
     return ReleaseReason.ServiceUnavailable;
-  else if (text.includes("error code E504"))
+  else if (text.includes("code E504"))
     return ReleaseReason.GatewayTimeout;
-  else if (text.includes("error code EPRIVATE")) return ReleaseReason.Private;
-  else if (text.includes("error code EJSONPARSE"))
+  else if (text.includes("code EPRIVATE")) return ReleaseReason.Private;
+  else if (text.includes("code EJSONPARSE"))
     return ReleaseReason.PackageJsonParsingError;
   else if (
     text.includes("code ERR_STRING_TOO_LONG") ||
