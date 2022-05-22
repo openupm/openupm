@@ -1,3 +1,10 @@
+## [1.52.1](https://github.com/openupm/openupm/compare/1.52.0...1.52.1) (2022-05-22)
+
+
+### Bug Fixes
+
+* **pipelines:** update build reason detection ([26abac1](https://github.com/openupm/openupm/commit/26abac1812f48bcca577b6749003fc40e124f2cb))
+
 # [1.52.0](https://github.com/openupm/openupm/compare/1.51.3...1.52.0) (2022-05-04)
 
 
