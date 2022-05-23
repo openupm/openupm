@@ -1,8 +1,8 @@
-name: com.speckle.objects
-displayName: Speckle Objects
-description: AEC Interoperability for Unity through Speckle
-repoUrl: 'https://github.com/sasakiassociates/speckle-unity-objects'
-parentRepoUrl: null
+name: com.speckle.core
+displayName: Speckle Core
+description: Speckle Core and Converter for Unity 
+repoUrl: 'https://github.com/sasakiassociates/speckle-unity-core'
+parentRepoUrl: 'https://github.com/haitheredavid/speckle-unity'
 licenseSpdxId: ''
 licenseName: Apache-2.0
 topics:
