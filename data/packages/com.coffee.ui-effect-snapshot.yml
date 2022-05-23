@@ -16,7 +16,7 @@ gitTagPrefix: ''
 gitTagIgnore: ^v
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: 'main:README.md'
 createdAt: 1601100814066
 displayName_zhCN: UI效果快照
 description_zhCN: 捕获具有特效的特定帧的屏幕截图，并显示它。效果是非实时，轻量级，无摄像机的，但足够有效。
