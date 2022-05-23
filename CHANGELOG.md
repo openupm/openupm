@@ -1,3 +1,10 @@
+## [1.52.2](https://github.com/openupm/openupm/compare/1.52.1...1.52.2) (2022-05-23)
+
+
+### Bug Fixes
+
+* **web:** remove LicenseName's readonly property on the package add page ([5c35104](https://github.com/openupm/openupm/commit/5c351046df609c96fb632e2c68818e8089a7c073))
+
 ## [1.52.1](https://github.com/openupm/openupm/compare/1.52.0...1.52.1) (2022-05-22)
 
 
