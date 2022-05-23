@@ -192,7 +192,6 @@
                       <input
                         v-model="form.values.licenseName"
                         class="form-input"
-                        :readonly="isLicenseNameReadOnly"
                         type="text"
                       />
                       <div class="form-input-hint">
@@ -769,11 +768,6 @@ export default {
     },
     licenses() {
       return this.$page.frontmatter.licenses;
-    },
-    isLicenseNameReadOnly() {
-      return (
-        this.$data.form.values.licenseId && this.$data.form.values.licenseName
-      );
     },
     isStepFillFormChecked() {
       return this.$data.step > SubmitStep.FillForm.value;
