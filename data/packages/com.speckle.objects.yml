@@ -1,7 +1,7 @@
-name: com.speckle.converters
-displayName: Speckle Component Converters
-description: Component Converters structure for speckle-unity
-repoUrl: 'https://github.com/sasakiassociates/speckle-unity-converters'
+name: com.speckle.objects
+displayName: Speckle Objects
+description: A set of supported Base Objects converted to Unity
+repoUrl: 'https://github.com/sasakiassociates/speckle-unity-objects'
 parentRepoUrl: 'https://github.com/haitheredavid/speckle-unity'
 licenseSpdxId: ''
 licenseName: Apache-2.0
