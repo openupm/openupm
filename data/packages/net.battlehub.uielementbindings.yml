@@ -1,0 +1,26 @@
+name: net.battlehub.uielementbindings
+displayName: UI Element Bindings
+description: >-
+  Package for Unity that enables two-way data binding between Unity UIElements
+  and game/business logic code. This reduces boiler-plate code that would
+  otherwise be necessary for things like updating the UI when a property
+  changes, removes the need for messy links between objects in the scene that
+  can be broken easily, and allows easier unit testing of code by providing a
+  layer of abstraction between the UI and your core logic code.
+repoUrl: 'https://github.com/Battlehub0x/UIElementBindings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+hunter: Battlehub0x
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653494262541
