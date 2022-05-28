@@ -1,0 +1,22 @@
+name: com.laicasaane.genesis
+displayName: JCMG Genesis
+description: A general purpose code generation library for Unity
+repoUrl: 'https://github.com/laicasaane/Genesis'
+parentRepoUrl: 'https://github.com/jeffcampbellmakesgames/Genesis'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653751012497
