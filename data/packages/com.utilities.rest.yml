@@ -1,0 +1,19 @@
+name: com.utilities.rest
+displayName: Utilities.Rest
+description: This package contains useful RESTful utilities for the Unity Game Engine.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.rest'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653865074658
