@@ -1,0 +1,19 @@
+name: com.fintokmak.serializabledictionary
+displayName: Serializable Dictionary
+description: This is a serializable dictionary
+repoUrl: 'https://github.com/Fangjun-Zhou/Unity-SerializableDictionary'
+parentRepoUrl: 'https://github.com/azixMcAze/Unity-SerializableDictionary'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: Fangjun-Zhou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm-serializabledictionary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653899826372
