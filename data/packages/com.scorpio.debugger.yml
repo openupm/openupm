@@ -1,0 +1,19 @@
+name: com.scorpio.debugger
+displayName: Scorpio.Debugger
+description: 游戏内调试界面
+repoUrl: 'https://github.com/qingfeng346/upm'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: GPL-3.0 license
+topics:
+  - debugging-and-logging
+hunter: qingfeng346
+gitTagPrefix: debugger/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653987980905
