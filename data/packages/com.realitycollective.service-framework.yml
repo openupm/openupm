@@ -5,10 +5,9 @@ repoUrl: 'https://github.com/realitycollective/com.realitycollective.service-fra
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - unity
   - services
-  - extensions
-  - tools
+  - integration
+  - frameworks
 hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'

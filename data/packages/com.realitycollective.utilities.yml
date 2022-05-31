@@ -6,7 +6,6 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-  - tools
 hunter: FejZa
 gitTagPrefix: ''
 gitTagIgnore: '^0.{5,20}'
