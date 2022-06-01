@@ -1,0 +1,21 @@
+name: microsoft.entityframeworkcore.3.1.25
+displayName: Entity Framework Core 3.1.25
+description: Pack of required DLLs for .NET Standard 2.0 of EntityFrameworkCore 3.1.25
+repoUrl: 'https://github.com/IvanMurzak/Unity-EntityFrameworkCore.3.1.25'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-EntityFrameworkCore.3.1.25/raw/7b4deb5d82c2a0eb55bef2ef0e5679d025208dab/Assets/_EntityFrameworkCore.SQLite.3.1.25/Plugins/system.text.json.4.7.2/Icon.png
+readme: 'master:Assets/_EntityFrameworkCore.3.1.25/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1654046078511
