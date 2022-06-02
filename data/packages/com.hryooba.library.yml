@@ -4,7 +4,7 @@ description: Unity HRYooba Library
 repoUrl: 'https://github.com/HRYooba/HRYoobaUnityLibrary'
 parentRepoUrl: null
 licenseSpdxId: ''
-licenseName: LICENSE
+licenseName: MIT License
 topics:
   - frameworks
   - gui
