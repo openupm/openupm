@@ -3,7 +3,7 @@ displayName: HRYoobaLibrary
 description: Unity HRYooba Library
 repoUrl: 'https://github.com/HRYooba/HRYoobaUnityLibrary'
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - frameworks
