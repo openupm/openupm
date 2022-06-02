@@ -1,0 +1,22 @@
+name: com.hryooba.library
+displayName: HRYoobaLibrary
+description: Unity HRYooba Library
+repoUrl: 'https://github.com/HRYooba/HRYoobaUnityLibrary'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+topics:
+  - frameworks
+  - gui
+  - network
+  - utilities
+hunter: HRYooba
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1654156008770
