@@ -1,4 +1,4 @@
-name: api.natsuite.natml
+name: ai.natml.natml
 displayName: NatML
 description: 'High performance, cross platform machine learning runtime for Unity Engine.'
 repoUrl: 'https://github.com/natsuite/NatML'
