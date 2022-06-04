@@ -1,6 +1,6 @@
 name: io.savolainen.uicomponents
 displayName: UIComponents
-description: "A small front-end framework for Unity's UIElements."
+description: "A small front-end framework for Unity's UIToolkit."
 repoUrl: 'https://github.com/jonisavo/uicomponents'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -9,6 +9,7 @@ topics:
   - editor-enhancement
   - frameworks
   - gui
+  - utilities
 hunter: jonisavo
 gitTagPrefix: upm/
 gitTagIgnore: ''
