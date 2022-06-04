@@ -1,7 +1,7 @@
-name: api.natsuite.natml
+name: ai.natml.natml
 displayName: NatML
 description: 'High performance, cross platform machine learning runtime for Unity Engine.'
-repoUrl: 'https://github.com/natsuite/NatML'
+repoUrl: 'https://github.com/natmlx/NatML'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
@@ -10,7 +10,7 @@ topics:
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.0.11'
 image: >-
   https://github.com/natsuite/NatML/raw/beffa489f40e802dab84af708863d05f24ddddd7/.media/hub.png
 readme: 'main:README.md'
