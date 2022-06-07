@@ -1,4 +1,4 @@
-name: needle.missing-component-info
+name: com.needle.missing-component-info
 displayName: Needle Missing Component Info
 description: Serializes and renders missing component info (if available)
 repoUrl: 'https://github.com/needle-tools/missing-component-info'
