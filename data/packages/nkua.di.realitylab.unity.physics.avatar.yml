@@ -1,0 +1,22 @@
+name: nkua.di.realitylab.unity.physics.avatar
+displayName: NKUA.DI.RealityLab.Physics.Avatar
+description: >-
+  A set of tools to help with physical avatar representation in virtual
+  environments.
+repoUrl: 'https://github.com/DI-UOA-RealityLab/Unity.Physics.Avatar'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - physics
+hunter: louspawn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1654684435658
