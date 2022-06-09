@@ -1,0 +1,21 @@
+name: com.mezookan.transforms-recorder
+displayName: Transforms Recorder
+description: Transforms Recorder
+repoUrl: 'https://github.com/Abbabon/TransformsRecorder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+  - modeling
+hunter: abbabon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1654777162457
