@@ -1,0 +1,21 @@
+name: se.hertzole.settingsmanager
+displayName: Settings Manager
+description: Settings package
+repoUrl: 'https://github.com/Hertzole/unity-runtime-settings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Hertzole/unity-runtime-settings/raw/7f7e36624f45bc3775c4e8573f7996252e4b3e84/Packages/se.hertzole.settings-manager/Editor/Icons/SettingsManager%20Icon.png
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655070907323
