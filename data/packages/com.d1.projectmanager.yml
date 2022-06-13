@@ -1,0 +1,19 @@
+name: com.d1.projectmanager
+displayName: D1 Project Manager
+description: This is an example package
+repoUrl: 'https://github.com/draftsama/D1PM'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+topics:
+  - utilities
+hunter: draftsama
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655109615973
