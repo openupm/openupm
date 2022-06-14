@@ -1,0 +1,19 @@
+name: com.aaulicino.nsubstitute
+displayName: NSubstitute
+description: A friendly substitute for .NET mocking libraries
+repoUrl: 'https://github.com/AAulicino/Unity3D-NSubstitute'
+parentRepoUrl: 'https://github.com/nsubstitute/NSubstitute'
+licenseSpdxId: ''
+licenseName: BSD
+topics:
+  - testing
+hunter: AAulicino
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.markdown'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655213691885
