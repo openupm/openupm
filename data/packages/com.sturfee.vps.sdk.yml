@@ -1,0 +1,39 @@
+name: com.sturfee.vps.sdk
+displayName: Sturfee VPS SDK
+description: >-
+  Copyright (c) 2020, Sturfee Inc.
+
+
+  The SturfeeVPS SDK provides functionality for building immersive outdoor AR
+  experiences. 
+
+  Using Sturfee's proprietary Visual Processing System (VPS), the SDK can
+  provide precise localization (position and orientation) through imagery from
+  the device camera.
+
+
+  Visit https://sturfee.com/product for more information.
+
+
+  Official documentation can be found at
+  https://developer.sturfee.com/documentation
+
+
+  NOTE: this SDK requires an Access Key for use.
+repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName:
+topics:
+  - ar-and-vr
+hunter: kushG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sturfeeinc/com.sturfee.vps.sdk/raw/6ef51d8167ae77f8e22d11524004a8f668614402/Editor/Images/sturfee_official_icon-black.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655189847309
