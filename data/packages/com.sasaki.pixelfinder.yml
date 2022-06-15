@@ -8,7 +8,7 @@ licenseName: Apache 2.0
 topics:
   - utilities
 hunter: haitheredavid
-gitTagPrefix: com.sasaki.pixelfinder/
+gitTagPrefix: com.sasaki.pixelfinder-
 gitTagIgnore: ''
 minVersion: ''
 image: ''
