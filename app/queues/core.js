@@ -45,7 +45,7 @@ const addJob = async function({ jobId, payload, queue, jobConfig, delay }) {
     .retries(jobConfig.retries)
     .backoff(...jobConfig.backoff)
     .delayUntil(delay || 0)
-    .timeout(jobConfig.timeout || 3600)
+    .timeout(jobConfig.timeout || 60 * 10 * 1000)
     .save();
   if (job.id) {
     logger.info({ jobId: job.id }, "new job");

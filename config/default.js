@@ -45,7 +45,7 @@ module.exports = {
       key: "build-pkg",
       retries: 2,
       backoff: ["fixed", 60 * 1000],
-      timeout: 60 * 5,
+      timeout: 60 * 5 * 1000,
     },
     buildRelease: {
       queue: "main",
@@ -53,7 +53,7 @@ module.exports = {
       retries: 2,
       backoff: ["fixed", 60 * 1000],
       delay: 10,
-      timeout: 60 * 60,
+      timeout: 60 * 60 * 1000,
     }
   },
 
