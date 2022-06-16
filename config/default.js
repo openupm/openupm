@@ -44,14 +44,16 @@ module.exports = {
       queue: "main",
       key: "build-pkg",
       retries: 2,
-      backoff: ["fixed", 60 * 1000]
+      backoff: ["fixed", 60 * 1000],
+      timeout: 60 * 5,
     },
     buildRelease: {
       queue: "main",
       key: "build-rel",
       retries: 2,
       backoff: ["fixed", 60 * 1000],
-      delay: 10
+      delay: 10,
+      timeout: 60 * 60,
     }
   },
 
