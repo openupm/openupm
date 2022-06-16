@@ -1,3 +1,10 @@
+## [1.52.3](https://github.com/openupm/openupm/compare/1.52.2...1.52.3) (2022-06-16)
+
+
+### Bug Fixes
+
+* **ci:** add a default timeout for all jobs ([545a0c7](https://github.com/openupm/openupm/commit/545a0c788f6840bff45a7333caa446d63be70acd))
+
 ## [1.52.2](https://github.com/openupm/openupm/compare/1.52.1...1.52.2) (2022-05-23)
 
 
