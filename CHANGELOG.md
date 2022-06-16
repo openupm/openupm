@@ -1,3 +1,10 @@
+## [1.52.4](https://github.com/openupm/openupm/compare/1.52.3...1.52.4) (2022-06-16)
+
+
+### Bug Fixes
+
+* **ci:** set correct timeout values ([2eeb7c7](https://github.com/openupm/openupm/commit/2eeb7c7f5f8d57e4edb29f4b7e341e5e5126285f))
+
 ## [1.52.3](https://github.com/openupm/openupm/compare/1.52.2...1.52.3) (2022-06-16)
 
 
