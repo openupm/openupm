@@ -1,0 +1,20 @@
+name: com.esotericsoftware.spine.spine-unity
+displayName: spine-unity Runtime
+description: This plugin provides the spine-unity runtime core.
+repoUrl: 'https://github.com/EsotericSoftware/spine-runtimes'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Spine Runtimes License Agreement
+topics:
+  - 2d
+  - animation
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: '4.0:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655363104547
