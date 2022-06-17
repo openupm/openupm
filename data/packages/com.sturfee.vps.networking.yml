@@ -1,0 +1,19 @@
+name: com.sturfee.vps.networking
+displayName: Sturfee VPS Networking
+description: Networking SDK to Sturfee VPS
+repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.networking'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: kushG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655497502055
