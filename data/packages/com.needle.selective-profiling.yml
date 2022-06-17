@@ -14,7 +14,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://github.com/needle-tools/selective-profiling/raw/e30790dd347e1ef294dc354d7534d343c407abee/package/Documentation~/profiler-select.gif
-readme: 'main:README.md'
+readme: 'main:package/Readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
