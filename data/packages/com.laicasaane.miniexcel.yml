@@ -1,0 +1,22 @@
+name: com.laicasaane.miniexcel
+displayName: MiniExcel
+description: >-
+  Fast, Low-Memory, Easy Excel .NET helper to import/export/template
+  spreadsheet.
+repoUrl: 'https://github.com/laicasaane/MiniExcel'
+parentRepoUrl: 'https://github.com/MiniExcel/MiniExcel'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: 'upm:docs/README.zh-CN.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655537397510
