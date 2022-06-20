@@ -1,0 +1,20 @@
+name: ep.u3d.library.base
+displayName: EP.U3D.LIBRARY.BASE
+description: Runtime base modules.
+repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.BASE'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - frameworks
+  - utilities
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655696894615
