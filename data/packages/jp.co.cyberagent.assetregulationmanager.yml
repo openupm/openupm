@@ -1,0 +1,22 @@
+name: jp.co.cyberagent.assetregulationmanager
+displayName: Asset Regulation Manager
+description: >-
+  Tool for Unity to create and run tests of Asset Regulations (texture size,
+  number of vertices, etc.), and automate running.
+repoUrl: 'https://github.com/CyberAgentGameEntertainment/AssetRegulationManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT
+topics:
+  - asset-management
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/CyberAgentGameEntertainment/AssetRegulationManager/raw/c0f8ecf762463af7ecd569f2f9c6327eccd95677/Documentation/ARM_LOGO_color_02.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655755810169
