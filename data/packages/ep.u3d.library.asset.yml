@@ -1,0 +1,20 @@
+name: ep.u3d.library.asset
+displayName: EP.U3D.LIBRARY.ASSET
+description: Asset module.
+repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.ASSET'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - frameworks
+  - utilities
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655696684220
