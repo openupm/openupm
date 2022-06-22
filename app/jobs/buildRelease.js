@@ -228,6 +228,8 @@ const getReasonFromBuildLogText = function(text) {
     return ReleaseReason.InvalidVersion;
   else if (text.includes("Could not read from remote repository"))
     return ReleaseReason.RemoteRepositoryUnavailable;
+  else if (/fatal: clone of .* into submodule path/.test(text))
+    return ReleaseReason.RemoteSubmoduleUnavailable;
   return ReleaseReason.None;
 };
 

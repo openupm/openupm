@@ -170,7 +170,8 @@ release-reason-package-name-not-match: 该软件包名称与package.json不匹�
 release-reason-package-not-found: 未能找到package.json的路径
 release-reason-private: 该软件包是私有的
 release-reason-remote-branch-not-found: 未能找到远程分支名称
-release-reason-remote-repository-unavailable: 无法读取代码仓库 (请检查submodules)
+release-reason-remote-repository-unavailable: 无法读取代码仓库
+release-reason-remote-submodule-unavailable: 无法读取submodule代码仓库
 release-reason-service-unavailable: 服务器暂时无响应
 release-reason-unauthorized: 服务器未授权
 release-reason-version-conflict: 该版本已存在（请检查package.json的版本）

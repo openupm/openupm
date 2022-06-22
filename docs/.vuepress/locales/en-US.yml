@@ -156,7 +156,8 @@ release-reason-package-name-not-match: the name of package.json isn't matched
 release-reason-package-not-found: error path package.json
 release-reason-private: the package is explicitly private
 release-reason-remote-branch-not-found: error remote branch name
-release-reason-remote-repository-unavailable: remote repository unavailable (check submodules)
+release-reason-remote-repository-unavailable: remote repository unavailable
+release-reason-remote-submodule-unavailable: remote submodule repository unavailable
 release-reason-service-unavailable: server unavailable
 release-reason-unauthorized: server unauthorized
 release-reason-version-conflict: the version already exists (check package.json version)
