@@ -1,3 +1,10 @@
+## [1.52.5](https://github.com/openupm/openupm/compare/1.52.4...1.52.5) (2022-06-22)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error could not read from remote repository ([e77857b](https://github.com/openupm/openupm/commit/e77857b26ff937113a7a7ed34b2471d9caea9db5))
+
 ## [1.52.4](https://github.com/openupm/openupm/compare/1.52.3...1.52.4) (2022-06-16)
 
 
