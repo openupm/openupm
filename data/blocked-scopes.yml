@@ -176,3 +176,6 @@ scopes:
 
 # the same package uploaded by danyow, Now you need to change the name to "cn.danyow.unitask.cstringfixed"
 - com.cysharp.unitask.compatible
+
+# io.extendreality.malimbe can not be built for a custom build script
+- io.extendreality.malimbe
