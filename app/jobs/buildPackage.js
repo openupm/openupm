@@ -19,7 +19,7 @@ const { removeRelease } = require("./removeRelease");
 const semverCompare = require("semver-compare");
 
 // Build package with given name.
-const buildPackage = async function(name) {
+const buildPackage = async function (name) {
   // Load package yaml file.
   logger.debug({ pkg: name }, "load yaml file");
   let pkg = await loadPackage(name);
@@ -31,7 +31,8 @@ const buildPackage = async function(name) {
     await PackageExtra.setRepoUnavailable(name, false);
   } catch (error) {
     // If repository has became private or been removed...
-    if (error.message.includes("ERROR: Repository not found")) {
+    if (error.message.includes("ERROR: Repository not found") ||
+      error.message.includes("fatal: Could not read from remote repository")) {
       await PackageExtra.setRepoUnavailable(name, true);
       return;
     }
@@ -65,7 +66,7 @@ const buildPackage = async function(name) {
 };
 
 // Filter remote tags for non-semver, duplication, ignoration, and minVersion.
-const filterRemoteTags = function({
+const filterRemoteTags = function ({
   remoteTags,
   gitTagIgnore,
   gitTagPrefix,
@@ -96,7 +97,7 @@ const filterRemoteTags = function({
           ) >= 0
       );
       // eslint-disable-next-line no-empty
-    } catch (error) {}
+    } catch (error) { }
   }
   // Remove duplications.
   for (const element of tags) {
@@ -113,7 +114,7 @@ const filterRemoteTags = function({
  * Return invalid tags. Tags have been ignored, without the given prefix, or filtered by
  * minVersion are not considered invalid.
  */
-const getInvalidTags = function({
+const getInvalidTags = function ({
   remoteTags,
   validTags,
   gitTagIgnore,
@@ -138,13 +139,13 @@ const getInvalidTags = function({
           ) >= 0
       );
       // eslint-disable-next-line no-empty
-    } catch (error) {}
+    } catch (error) { }
   }
   return tags;
 };
 
 // Update release records for given remoteTags.
-const updateReleaseRecords = async function(packageName, remoteTags) {
+const updateReleaseRecords = async function (packageName, remoteTags) {
   // Remove failed local releases that not listed in remoteTags
   let releases = await Release.fetchAll(packageName);
   for (const rel of releases) {
@@ -186,7 +187,7 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
 };
 
 // Add build release jobs for given release records.
-const addReleaseJobs = async function(releases) {
+const addReleaseJobs = async function (releases) {
   let queue = queues.main.emitter;
   let i = 0;
   for (let rel of releases) {
