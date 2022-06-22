@@ -1,3 +1,10 @@
+## [1.52.6](https://github.com/openupm/openupm/compare/1.52.5...1.52.6) (2022-06-22)
+
+
+### Bug Fixes
+
+* **pipelines:** handle submodule failure ([3c95cdb](https://github.com/openupm/openupm/commit/3c95cdb0ffa314d5b7524be2ddbe46b960389cc3))
+
 ## [1.52.5](https://github.com/openupm/openupm/compare/1.52.4...1.52.5) (2022-06-22)
 
 
