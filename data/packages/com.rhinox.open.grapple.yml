@@ -1,0 +1,22 @@
+name: com.rhinox.open.grapple
+displayName: Rhinox Grapple
+description: A physics framework for hand tracking applications.
+repoUrl: 'https://github.com/Rhinox-Training/rhinox-grapple'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - frameworks
+  - input-management
+  - physics
+hunter: DylanRhin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655978139203
