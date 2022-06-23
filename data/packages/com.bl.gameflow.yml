@@ -1,7 +1,7 @@
 name: com.bl.gameflow
 displayName: GameFlow-Toolkit
 description: A Lightweight Flow-Control Toolkit for Gameplay.
-repoUrl: 'https://github.com/blueloveTH/gameflow-toolkit'
+repoUrl: 'https://github.com/balloonfishmollusc/gameflow-toolkit'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +12,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
