@@ -1,0 +1,19 @@
+name: com.sasaki.toolkit
+displayName: Sasaki Toolkit
+description: A random set of Unity Tools
+repoUrl: 'https://github.com/sasakiassociates/unity-tools'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: haitheredavid
+gitTagPrefix: com.sasaki.toolkit-
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:packages/toolkit/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1656359916948
