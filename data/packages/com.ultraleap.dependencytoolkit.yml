@@ -1,0 +1,22 @@
+name: com.ultraleap.dependencytoolkit
+displayName: Ultraleap Dependency Toolkit
+description: 'Tools for discovering, navigating and analysing asset dependencies.'
+repoUrl: 'https://github.com/ultraleap/Unity-Dependency-Toolkit'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: Craig-J
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ultraleap/Unity-Dependency-Toolkit/raw/7e3073f6f3e64a51c872f0d8081b6316fbafbecc/Markdown/images/dependency-browser.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1656420336132
