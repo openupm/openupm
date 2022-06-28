@@ -1,8 +1,8 @@
 name: com.speckle.objects
 displayName: Speckle Objects
 description: A set of supported Base Objects converted to Unity
-repoUrl: 'https://github.com/sasakiassociates/speckle-unity-objects'
-parentRepoUrl: 'https://github.com/haitheredavid/speckle-unity'
+repoUrl: 'https://github.com/sasakiassociates/speckle-unity-connector'
+parentRepoUrl: 'https://github.com/specklesystems/speckle-unity'
 licenseSpdxId: ''
 licenseName: Apache-2.0
 topics:
@@ -10,9 +10,9 @@ topics:
 hunter: haitheredavid
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'com.speckle.objects-'
 image: ''
-readme: 'main:README.md'
+readme: 'main:packages/objects/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
