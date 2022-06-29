@@ -9,7 +9,7 @@ topics:
   - version-control
 hunter: haitheredavid
 gitTagPrefix: 'com.speckle.core-'
-gitTagIgnore: ''
+gitTagIgnore: 'upm/'
 minVersion: ''
 image: ''
 readme: 'main:packages/core/README.md'
