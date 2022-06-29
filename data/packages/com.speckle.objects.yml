@@ -8,9 +8,9 @@ licenseName: Apache-2.0
 topics:
   - version-control
 hunter: haitheredavid
-gitTagPrefix: ''
+gitTagPrefix: 'com.speckle.objects-'
 gitTagIgnore: ''
-minVersion: 'com.speckle.objects-'
+minVersion: ''
 image: ''
 readme: 'main:packages/objects/README.md'
 readme_zhCN: ''
