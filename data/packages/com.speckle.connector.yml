@@ -9,7 +9,7 @@ topics:
   - frameworks
 hunter: haitheredavid
 gitTagPrefix: 'com.speckle.connector-'
-gitTagIgnore: ''
+gitTagIgnore: 'upm/'
 minVersion: ''
 image: ''
 readme: 'main:packages/connector/README.md'
