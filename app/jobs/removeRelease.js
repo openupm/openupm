@@ -25,10 +25,16 @@ const removeRelease = async function(packageName, version) {
 };
 
 // Remove releases for given packageName and state.
-const removeReleases = async function(packageName, state) {
+const removeReleasesWithState = async function(packageName, state) {
   let releases = (await Release.fetchAll(packageName)).filter(
     x => x.state == state
   );
+  for (const rel of releases) await removeRelease(packageName, rel.version);
+};
+
+// Remove all releases for given packageName
+const removeAllReleases = async function(packageName) {
+  let releases = await Release.fetchAll(packageName);
   for (const rel of releases) await removeRelease(packageName, rel.version);
 };
 
@@ -40,6 +46,7 @@ if (require.main === module) {
   let versionVal = null;
   program
     .option("--failed", "remove failed releases")
+    .option("--all", "remove all releases")
     .arguments("<packageName> [version]")
     .action(function(packageName, version) {
       packageNameVal = packageName;
@@ -49,7 +56,8 @@ if (require.main === module) {
     .requiredArgs(1)
     .run(async function() {
       if (program.failed)
-        await removeReleases(packageNameVal, ReleaseState.Failed);
+        await removeReleasesWithState(packageNameVal, ReleaseState.Failed);
+      else if (program.all) await removeAllReleases(packageNameVal);
       else if (versionVal) await removeRelease(packageNameVal, versionVal);
       else {
         program.outputHelp();
