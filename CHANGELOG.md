@@ -1,3 +1,10 @@
+## [1.52.7](https://github.com/openupm/openupm/compare/1.52.6...1.52.7) (2022-06-30)
+
+
+### Bug Fixes
+
+* **pipelines:** add parameter to remove all releases [skip ci] ([16c8587](https://github.com/openupm/openupm/commit/16c8587b999ba485034aa447cd2935821a302f89))
+
 ## [1.52.6](https://github.com/openupm/openupm/compare/1.52.5...1.52.6) (2022-06-22)
 
 
