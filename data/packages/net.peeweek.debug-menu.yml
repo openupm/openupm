@@ -1,0 +1,22 @@
+name: net.peeweek.debug-menu
+displayName: Debug Menu
+description: >-
+  A simple Debug Menu for your games. Can be extended by adding your own items
+  using a simple C# API.
+repoUrl: 'https://github.com/peeweek/net.peeweek.debug-menu'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: peeweek
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657004600278
