@@ -1,5 +1,5 @@
 name: com.joaosantos.package-common-wrapper
-displayName: Common Wrapper
+displayName: JS Common Wrapper
 description: Package with a wrapper of auxiliar scripts. See the github Readme.
 repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
 parentRepoUrl: null
