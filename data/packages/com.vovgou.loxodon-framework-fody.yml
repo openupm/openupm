@@ -1,0 +1,23 @@
+  
+name: com.vovgou.loxodon-framework-fody
+displayName: Loxodon Framework Fody
+description: >-
+  This is a plugin for static weaving code that integrates "[PropertyChanged.Fody](https://github.com/Fody/PropertyChanged)" into a Unity project, it can inject code which raises the PropertyChanged event into property setters of classes which implement "INotifyPropertyChanged".
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - localization
+  - utilities
+  
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.4.0
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'master:Loxodon.Framework.Fody/README.md'
+createdAt: 1594375319319
