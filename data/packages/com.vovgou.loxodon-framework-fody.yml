@@ -12,8 +12,6 @@ topics:
   - integration
   - localization
   - utilities
-  - Fody
-  - PropertyChanged
   
 hunter: vovgou
 gitTagPrefix: ''
