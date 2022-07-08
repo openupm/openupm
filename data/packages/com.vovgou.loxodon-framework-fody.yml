@@ -12,7 +12,7 @@ topics:
   - integration
   - localization
   - utilities
-  - PropertyChanged.Fody
+  - Fody
   - PropertyChanged
   
 hunter: vovgou
