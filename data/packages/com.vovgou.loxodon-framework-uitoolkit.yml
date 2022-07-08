@@ -1,0 +1,24 @@
+  
+name: com.vovgou.loxodon-framework-uitoolkit
+displayName: Loxodon Framework UIToolkit
+description: >-
+  This is a UIToolkit plugin for Loxodon.Framework.  
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - localization
+  - utilities
+  - UIToolkit
+  
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.4.0
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'master:Loxodon.Framework.UIToolkit/README.md'
+createdAt: 1594375319319
