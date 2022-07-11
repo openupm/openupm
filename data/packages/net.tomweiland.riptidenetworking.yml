@@ -1,0 +1,21 @@
+name: net.tomweiland.riptidenetworking
+displayName: RiptideNetworking
+description: >-
+  RiptideNetworking is a lightweight C# networking library primarily designed
+  for use in multiplayer games.
+repoUrl: 'https://github.com/tom-weiland/RiptideNetworking'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657518551682
