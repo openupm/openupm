@@ -1,0 +1,20 @@
+name: com.threeyes.alivecursor.sdk
+displayName: AliveCursorSDK
+description: SDK for AliveCursor.
+repoUrl: 'https://github.com/Threeyes/AliveCursorSDK'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Threeyes
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Threeyes/AliveCursorSDK/raw/53212c63a4a189c45450557bc905b837a9ec6d71/Threeyes/SDK/Textures/ACSDK%20Icon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657509865115
