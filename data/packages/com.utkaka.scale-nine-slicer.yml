@@ -1,0 +1,22 @@
+name: com.utkaka.scale-nine-slicer
+displayName: Scale Nine Slicer
+description: A tool for automating work with 9 slice scaling in Unity.
+repoUrl: 'https://github.com/utkaka/ScaleNineSlicer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - sprite-management
+  - utilities
+hunter: utkaka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/utkaka/ScaleNineSlicer/raw/1243f2cdeafa28817e18c7b252f7b2a95daa2ff5/Documentation~/images/sprite-nine-slicer-editor.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657531818771
