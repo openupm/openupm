@@ -1,0 +1,19 @@
+name: nl.jessestam.no-util
+displayName: NoUtil
+description: A utility libary with many tools to speed up development
+repoUrl: 'https://github.com/nolimet/Util'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: nolimet
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2020.3'
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657718272222
