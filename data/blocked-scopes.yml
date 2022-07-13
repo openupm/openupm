@@ -1,5 +1,7 @@
 # Blocked package scopes
 scopes:
+# License issue: https://github.com/yoshida190/dotween/blob/upm/LICENSE
+- com.demigiant.dotween
 - com.esotericsoftware.spine.lwrp-shaders
 - com.esotericsoftware.spine.spine-unity-examples
 - com.esotericsoftware.spine.spine-unity
