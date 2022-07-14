@@ -1,0 +1,29 @@
+name: com.didimo.sdk.oculus
+displayName: Didimo SDK - Oculus
+description: >-
+  Didimo provides a cloud-based automated service that enables the generation of
+  digital humans from a simple selfie. We call these didimos.
+
+  This module contains an example Oculus integration to help you get up and
+  running builing didimos into your Oculus experiences as quick as possible.
+repoUrl: 'https://github.com/didimoinc/didimo-digital-human-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Didimo Source Code License
+topics:
+  - animation
+  - asset-management
+  - frameworks
+  - integration
+  - modeling
+  - procedural-generation
+hunter: didimoinc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 4.4.1
+image: ''
+readme: 'main:com.didimo.sdk.oculus/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657796683971
