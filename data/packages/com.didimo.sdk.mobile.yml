@@ -1,0 +1,29 @@
+name: com.didimo.sdk.mobile
+displayName: Didimo SDK - Mobile
+description: >-
+  Didimo provides a cloud-based automated service that enables the generation of
+  digital humans from a simple selfie. We call these didimos.
+
+  This module provides a communication layer to make it simpler to communicate
+  between the native apps and our SDK, with support for asynchronous calls and
+  callbacks.
+repoUrl: 'https://github.com/didimoinc/didimo-digital-human-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Didimo Source Code License
+topics:
+  - animation
+  - asset-management
+  - frameworks
+  - modeling
+  - procedural-generation
+hunter: didimoinc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 4.4.1
+image: ''
+readme: 'main:com.didimo.sdk.mobile/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657796415488
