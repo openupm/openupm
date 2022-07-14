@@ -1,0 +1,30 @@
+name: com.didimo.sdk.core
+displayName: Didimo SDK - Core
+description: >-
+  Didimo provides a cloud-based automated service that enables the generation of
+  digital humans from a simple selfie. We call these didimos.
+
+
+  Utilising this code library and tools, you can easily integrate digital humans
+  into your existing software and enable your users to easily generate and load
+  digital doubles of themselves directly into your experience, all at runtime.
+repoUrl: 'https://github.com/didimoinc/didimo-digital-human-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Didimo Source Code License
+topics:
+  - animation
+  - asset-management
+  - frameworks
+  - modeling
+  - procedural-generation
+hunter: didimoinc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 4.4.1
+image: ''
+readme: 'main:com.didimo.sdk.core/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657796231492
