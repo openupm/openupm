@@ -16,5 +16,5 @@ hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: v0.7.2
-readme: 'unity:SamplesForUnity/README.md'
+readme: 'unity:README.md'
 createdAt: 1594375319319
