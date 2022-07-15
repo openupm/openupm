@@ -157,7 +157,7 @@ release-reason-bad-request: 服务器无效请求
 release-reason-build-cancellation: 构建被手动的取消
 release-reason-build-timeout: 构建超时
 release-reason-connection-time: 连接超时
-release-reason-entity-too-large: 软件包体积过大
+release-reason-entity-too-large: 软件包体积大于512MB
 release-reason-forbidden: 服务器禁止访问
 release-reason-gateway-timeout: 服务器超时
 release-reason-heap-out-of-memroy: 堆溢出错误（软件包体积过大）

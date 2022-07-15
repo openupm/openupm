@@ -143,7 +143,7 @@ release-reason-bad-request: server bad request
 release-reason-build-cancellation: the build is cancelled manually
 release-reason-build-timeout: the build is timeout
 release-reason-connection-time: connection timeout
-release-reason-entity-too-large: the package is too large
+release-reason-entity-too-large: the package is larger than 512MB
 release-reason-forbidden: server forbidden
 release-reason-gateway-timeout: server timeout
 release-reason-heap-out-of-memroy: heap out of memory (the package is too large)

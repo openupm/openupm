@@ -15,7 +15,7 @@ OpenUPM requires the package fulfills the below criteria:
 - The package should use an open-source license. It's recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
 - The package should be hosted on Github.
 - The package should contain versioned Git tags using [semantic versioning (semver)](https://semver.org/). i.e. `v1.1.0`, `1.1.0`, `1.1.1-preview`, `v2.0.0-preview.1`. It's recommended to either use the [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) page, or the [CI tools](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c) to create versioned Git tags.
-- The package size should be less than 500MB.
+- The package size should be less than 512MB.
 
 ## Understanding Different Folder Structures of UPM Repositories
 

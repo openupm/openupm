@@ -15,7 +15,7 @@ OpenUPM要求软件包满足以下条件：
 - 软件包应该使用开源许可证。建议从[spdx许可证列表](https://spdx.org/licenses/)中选择。
 - 软件包需要被托管在Github上。
 - 软件包应该通过Git标签进行版本控制，且符合[Semantic Versioning 语义式版本](https://semver.org/)的标准。例如`v1.1.0`，`1.1.0`，`1.1.1-preview`或`v2.0.0-preview.1`。建议使用[GitHub发行](https://help.github.com/en/github/administering-a-repository/creating-releases)页面或使用[持续集成工具](https://medium.com/openupm/how-to-maintain-upm-package-part-2-f352fbf5f87c)来创建含版本信息的Git标签。
-- 软件包应该小于500MB。
+- 软件包应该小于512MB。
 
 ## UPM代码仓库的文件结构
 
