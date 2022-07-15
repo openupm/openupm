@@ -1,0 +1,20 @@
+name: dotnetty
+displayName: DotNetty for Unity
+description: >-
+  DotNetty is a port of Netty, asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.This version is modified based on DotNetty's 0.7.2 version and is a customized version for the Unity development platform. It removes some dependent libraries and passes the test under IL2CPP.
+repoUrl: 'https://github.com/vovgou/DotNettyForUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - localization
+  - utilities
+  
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v0.7.2
+readme: 'unity:README.md'
+createdAt: 1594375319319
