@@ -1,0 +1,24 @@
+name: com.grahamboree.tilde
+displayName: tilde
+description: A remote developer console for Unity
+repoUrl: 'https://github.com/grahamboree/tilde'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+  - mobile
+  - testing
+  - utilities
+hunter: grahamboree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/grahamboree/tilde/raw/5188ccb3ea9097cb7886506476d2f99b10eaa030/Docs/tilde_title.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657945196560
