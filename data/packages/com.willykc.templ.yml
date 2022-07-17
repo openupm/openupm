@@ -1,0 +1,28 @@
+name: com.willykc.templ
+displayName: Templ
+description: |-
+  Integrates Scriban template engine with Unity editor.
+
+   - Template based asset generation, including scripts, prefabs, scriptable objects, or any text asset.
+   - Automatic generation when input assets or templates change.
+   - Extensible design allows custom inputs and template functions.
+repoUrl: 'https://github.com/willykc/templ'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: willykc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658045844622
