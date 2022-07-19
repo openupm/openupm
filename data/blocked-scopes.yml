@@ -181,3 +181,7 @@ scopes:
 
 # io.extendreality.malimbe can not be built for a custom build script
 - io.extendreality.malimbe
+
+# Package published to NPMJS
+# com.whitesharx.httx uses ${ ci.tag_value } template in the package.json which can not be parsed by OpenUPM.
+com.whitesharx.httx
