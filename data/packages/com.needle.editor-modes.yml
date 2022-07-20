@@ -1,0 +1,22 @@
+name: com.needle.editor-modes
+displayName: Needle Editor Modes
+description: >-
+  Expose Unity Modes API (think Safe Mode) and make it easy to switch between or
+  startup in a specific Editor Mode
+repoUrl: 'https://github.com/needle-tools/unity-editor-modes'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+  - utilities
+hunter: needle-tools
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658311186753
