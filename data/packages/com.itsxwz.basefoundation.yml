@@ -1,0 +1,19 @@
+name: com.itsxwz.basefoundation
+displayName: BaseFoundation
+description: A collection of very base functions or tools for unity engine.
+repoUrl: 'https://github.com/itsxwz/BaseFoundation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: 86K
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Assets/BaseFoundation/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658303232962
