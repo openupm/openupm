@@ -1,0 +1,24 @@
+name: com.colizeum.colizeum-unity-sdk
+displayName: Colizeum SDK
+description: >-
+  A library which allows you to integrate Colizeum services into your Unity
+  app/game
+repoUrl: 'https://github.com/colizeum-com/colizeum-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - services
+  - utilities
+hunter: speekadievs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/colizeum-com/colizeum-unity-sdk/raw/b33db6c5cd9c563329f0ffd2437b4407c9443193/Documentation/favicon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658390612317
