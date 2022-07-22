@@ -1,0 +1,19 @@
+name: com.hgs.call-limiter
+displayName: HGS Call Limiter
+description: Simple implementation of Throttle and Debounce
+repoUrl: 'https://github.com/homy-game-studio/hgs-unity-call-limiter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: MatheusMoura17
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658502683621
