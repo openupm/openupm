@@ -1,0 +1,20 @@
+name: com.utilities.encoder.ogg
+displayName: Ogg Encoder
+description: Simple library for Ogg encoding support.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.encoder.ogg'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658596030857
