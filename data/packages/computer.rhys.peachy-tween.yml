@@ -1,0 +1,20 @@
+name: computer.rhys.peachy-tween
+displayName: PeachyTween
+description: A tweening for Unity designed to be simple to use and extend.
+repoUrl: 'https://github.com/rhys-vdw/peachy-tween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - particles-and-effects
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658562705024
