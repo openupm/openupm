@@ -1,0 +1,22 @@
+name: com.edisonlee55.alice-chan
+displayName: Alice Chan
+description: 'A cute VRoid character, Alice Chan!'
+repoUrl: 'https://github.com/edisonlee55/AliceChan'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-SA-4.0
+licenseName: Creative Commons Attribution Share Alike 4.0 International
+topics:
+  - ar-and-vr
+  - animation
+  - modeling
+hunter: edisonlee55
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/edisonlee55/AliceChan/raw/0847b618144e4c7d01cd405e309bb23b5d302598/Models/Alice%20Chan%20(Uniform%20ver).Textures/Thumbnail.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658756610267
