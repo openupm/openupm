@@ -6,7 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - video
+  - integration
+  - utilities
 hunter: brgishy
 gitTagPrefix: ''
 gitTagIgnore: ''
