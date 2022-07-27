@@ -1,0 +1,20 @@
+name: com.hecomi.udesktopduplication
+displayName: uDesktopDuplication
+description: Desktop Duplication API implementation for Unity (only for Windows 8/10)
+repoUrl: 'https://github.com/hecomi/uDesktopDuplication'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: brgishy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658867950184
