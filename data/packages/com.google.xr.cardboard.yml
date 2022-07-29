@@ -1,0 +1,20 @@
+name: com.google.xr.cardboard
+displayName: Google Cardboard XR Plugin for Unity
+description: Provides rendering and input support for Google Cardboard.
+repoUrl: 'https://github.com/googlevr/cardboard-xr-plugin'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - mobile
+hunter: merulaxr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659097457446
