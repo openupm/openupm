@@ -1,0 +1,19 @@
+name: com.fredericrp.unitypackagetool
+displayName: FredericRP Unity Package Tool
+description: Update package.json file to match Assembly definition references
+repoUrl: 'https://github.com/FredericRP/UnityPackageTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: FredericRP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'primary:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659468684752
