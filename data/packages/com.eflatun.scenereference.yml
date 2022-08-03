@@ -1,0 +1,27 @@
+name: com.eflatun.scenereference
+displayName: Eflatun.SceneReference
+description: >-
+  Scene References for Runtime and Editor. Strongly typed, robust, and reliable.
+  Provides Asset GUID, Scene Path, Build Index, and Scene Name.
+
+  https://github.com/starikcetin/Eflatun.SceneReference
+repoUrl: 'https://github.com/starikcetin/Eflatun.SceneReference'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - frameworks
+  - services
+  - utilities
+hunter: starikcetin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659551644634
