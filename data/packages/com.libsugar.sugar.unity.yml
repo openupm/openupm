@@ -12,9 +12,9 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/libsugar/SugarUnity/raw/master/socialr.png
+  https://github.com/libsugar/SugarUnity/raw/master/libsuga.socialr.unity.png
 readme: 'master:README.md'
 readme_zhCN: 'master:README.CN.md'
-displayName_zhCN: 库糖
+displayName_zhCN: 库糖 Unity
 description_zhCN: 类似语法糖，但是是库，提供了很多方便的工具
 createdAt: 1626615521565
