@@ -1,0 +1,20 @@
+name: com.libsugar.sugar
+displayName: Sugar
+description: 'Like syntactic sugar, but is library'
+repoUrl: 'https://github.com/libsugar/SugarCs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/libsugar/SugarCs/raw/master/libsuga.socialr.dotnet.png
+readme: 'master:README.md'
+readme_zhCN: 'master:README.CN.md'
+displayName_zhCN: 库糖
+description_zhCN: 类似语法糖，但是是库，提供了很多方便的工具
+createdAt: 1659759478973
