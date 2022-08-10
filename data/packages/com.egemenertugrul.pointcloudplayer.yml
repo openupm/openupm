@@ -1,0 +1,23 @@
+name: com.egemenertugrul.pointcloudplayer
+displayName: Point Cloud Player
+description: Point cloud / volumetric video player for Unity
+repoUrl: 'https://github.com/egemenertugrul/PointCloudPlayer'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - animation
+  - camera
+  - particles-and-effects
+  - utilities
+  - video
+hunter: egemenertugrul
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'release/stable:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660146499077
