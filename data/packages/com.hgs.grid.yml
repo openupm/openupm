@@ -1,0 +1,19 @@
+name: com.hgs.grid
+displayName: HGS Grid
+description: Grid System with Cube Coordinates
+repoUrl: 'https://github.com/homy-game-studio/hgs-unity-grid'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: MatheusMoura17
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660140615977
