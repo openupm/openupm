@@ -1,0 +1,19 @@
+name: com.sandrofigo.delay-unity3d
+displayName: Delay
+description: Simple delay class to execute code after a certain amount of time
+repoUrl: 'https://github.com/sandrofigo/Delay-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660246047257
