@@ -1,0 +1,21 @@
+name: dev.voltstro.nativearrayspanextensions
+displayName: Native Array Span Extensions
+description: >-
+  Provides extensions to Unity's NativeArray that make using .NET's Span<T> with
+  them easier.
+repoUrl: 'https://github.com/Voltstro-Studios/NativeArraySpanExtensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Voltstro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660375248393
