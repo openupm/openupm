@@ -1,0 +1,23 @@
+name: com.innogames.asset-relations-viewer
+displayName: Asset Relations Viewer
+description: Editor UI for displaying dependencies between assets in a tree based view
+repoUrl: 'https://github.com/innogames/asset-relations-viewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - package-management
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/innogames/asset-relations-viewer/raw/fde441f1406b103ae96ccb9447f8da47767c2f7d/Docs~/Images/arv_example.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660638917931
