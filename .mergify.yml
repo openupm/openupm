@@ -15,4 +15,4 @@ pull_request_rules:
       merge:
         method: merge
       comment:
-        message: "Thank you for contributing to the OpenUPM platform. 🤟"
+        message: "Thank you for contributing to the OpenUPM platform. 🤟 The build pipelines may need up to 30 minutes to import the package and make it available on the website."
