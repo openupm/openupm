@@ -1,0 +1,23 @@
+name: com.greenbamboogames.playablegraphmonitor
+displayName: PlayableGraphMonitor!
+description: PlayableGraph monitor.
+repoUrl: 'https://github.com/SolarianZ/UnityPlayableGraphMonitorTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - debugging-and-logging
+  - editor-enhancement
+  - profiling
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README_CN.md'
+displayName_zhCN: PlayableGraph监控工具
+description_zhCN: PlayableGraph监控工具。
+createdAt: 1660613413395
