@@ -1,0 +1,22 @@
+name: com.lachee.utilities
+displayName: Lachee's Utilities
+description: Bunch of utility functionality
+repoUrl: 'https://github.com/Lachee/unity-utilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: lachee
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Lachee/unity-utilities/raw/79a3b934620f59cb99b343dbffbbefc2a90cab2c/Editor/Icons/logo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660627329417
