@@ -1,0 +1,26 @@
+name: com.gilzoide.gradle-wrapper
+displayName: Gradle Wrapper Generator
+description: >-
+  Generates a Gradle Wrapper (gradlew) when exporting Android projects.
+
+  Just choose the desired version in Gradle Wrapper Project Settings and that's
+  it!
+
+  The plugin will use the Java and Gradle configured in Unity for generating the
+  wrapper, so there's no need to configure anything else.
+repoUrl: 'https://github.com/gilzoide/unity-gradle-wrapper'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - mobile
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660639579983
