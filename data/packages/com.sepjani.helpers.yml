@@ -1,0 +1,19 @@
+name: com.sepjani.helpers
+displayName: Sepjani.Helpers
+description: Collection of scripts used in different projects
+repoUrl: 'https://github.com/vstrucovski/Sepjani.Helpers'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: vstrucovski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660655454439
