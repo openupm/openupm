@@ -1,0 +1,19 @@
+name: zes.game.core
+displayName: zes game core lib
+description: core game lib for zhihesoft essential lib
+repoUrl: 'https://github.com/zhihesoft/zes-unity-game-starter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: zhihesoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Assets/zes.game.core/typescripts/readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660727603468
