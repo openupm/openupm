@@ -1,0 +1,19 @@
+name: com.ekstazz.ads
+displayName: Ekstazz Ads
+description: Ads
+repoUrl: 'https://github.com/EkstazzEntertainment/com.ekstazz.ads'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: UNLICENSED
+topics:
+  - utilities
+hunter: EkstazzEntertainment
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'develop:CHANGELOG.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660811264667
