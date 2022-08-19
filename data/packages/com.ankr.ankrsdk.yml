@@ -1,0 +1,24 @@
+name: com.ankr.ankrsdk
+displayName: AnkrSDK
+description: >-
+  Provides an easy way to interact with Web3 and possibility to work with
+  contracts deployed on the blockchain.
+repoUrl: 'https://github.com/Ankr-network/game-unity-sdk'
+parentRepoUrl: 'https://github.com/mirage-xyz/mirage-unity-sdk'
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+  - mobile
+  - network
+  - services
+hunter: Vukiz
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660914656075
