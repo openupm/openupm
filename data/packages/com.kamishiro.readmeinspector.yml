@@ -1,0 +1,19 @@
+name: com.kamishiro.readmeinspector
+displayName: ReadMeInspector
+description: ReadMeInspector
+repoUrl: 'https://github.com/AoiKamishiro/ReadMe-Inspector'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT Licence
+topics:
+  - asset-management
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661003494069
