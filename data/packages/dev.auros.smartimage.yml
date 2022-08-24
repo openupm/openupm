@@ -1,0 +1,21 @@
+name: dev.auros.smartimage
+displayName: SmartImage
+description: A smarter way with dealing with images loaded at runtime in Unity.
+repoUrl: 'https://github.com/Auros/SmartImage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - asset-management
+  - gui
+hunter: Auros
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661308553483
