@@ -1,0 +1,22 @@
+name: com.jonagill.deckard
+displayName: Deckard
+description: >-
+  A tool for using Unity's UI system to lay out and export decks of cards to PNG
+  files, printable pages, and sprite atlases.
+repoUrl: 'https://github.com/jonagill/Deckard'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT No Attribution
+topics:
+  - editor-enhancement
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/jonagill/Deckard/raw/aca520cbcc8ecc6bd28412d2967033290c21851b/img/NockCards.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661634502251
