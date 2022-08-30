@@ -1,0 +1,22 @@
+name: uk.me.paraskos.oliver.fbx-collider-importer
+displayName: Model Collider Importer
+description: 'Import Unreal-Style colliders from Blender/FBX files into Unity Game Engine '
+repoUrl: 'https://github.com/oparaskos/unity-fbx-collider-importer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT
+topics:
+  - asset-management
+  - editor-enhancement
+  - modeling
+  - physics
+hunter: oparaskos
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: v0.2.4
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661865973183
