@@ -1,0 +1,26 @@
+name: com.martoniojunior.trinkets
+displayName: Trinkets
+description: >-
+  Trinkets offers a new architecture based on ScriptableObjects for the
+  implementation of in-game resources like collectables and currencies.
+
+  For more details, please check out the Documentation and Samples (coming
+  soon).
+repoUrl: 'https://github.com/MartonioJunior/Trinkets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - utilities
+hunter: MartonioJunior
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/MartonioJunior/Trinkets/raw/7380e73aeb08e37fb5107890d4409f9270c3738c/Gizmos/Collectable.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661958526079
