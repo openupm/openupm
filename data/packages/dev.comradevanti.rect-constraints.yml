@@ -1,0 +1,23 @@
+name: dev.comradevanti.rect-constraints
+displayName: Rect-constraints
+description: >-
+  This Unity package adds utility methods for layouting Rect objects, similarly
+  to Androids Constraint layout. This can be used in GUI and EditorGUI code.
+repoUrl: 'https://github.com/ComradeVanti/UnityRectConstraints'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662027518651
