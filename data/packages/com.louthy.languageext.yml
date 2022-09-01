@@ -11,7 +11,7 @@ hunter: heyzoos
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://raw.githubusercontent.com/louthy/language-ext/main/Images/banner.png'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
