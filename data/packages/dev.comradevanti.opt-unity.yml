@@ -1,7 +1,7 @@
 name: dev.comradevanti.opt-unity
-displayName: OptUnity
-description: A unity package for using opt
-repoUrl: 'https://github.com/ComradeVanti/opt-unity'
+displayName: Unity Opt extensions
+description: Unity extensions and utilities for Opt
+repoUrl: 'https://github.com/ComradeVanti/UnityOptExtensions'
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
