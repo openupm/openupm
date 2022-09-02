@@ -1,7 +1,7 @@
 name: dev.comradevanti.wait-for-anim
-displayName: WaitForAnim
-description: A Unity-package for waiting for animations in coroutines
-repoUrl: 'https://github.com/ComradeVanti/WaitForAnim'
+displayName: Wait for Animation
+description: A custom yield instruction to wait for animations
+repoUrl: 'https://github.com/ComradeVanti/UnityWaitForAnim'
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense
