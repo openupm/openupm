@@ -12,9 +12,9 @@ hunter: SAM-tak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
-readme: 'master:README.md'
+image: 'https://raw.githubusercontent.com/SAM-tak/Nudge/master/Media/nudge_logo.png'
+readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
-description_zhCN: ''
+description_zhCN: '直接在Unity对象，场景或资源上添加注释。'
 createdAt: 1662326764257
