@@ -13,7 +13,8 @@ hunter: tratteo
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://raw.githubusercontent.com/tratteo/GibFrame/main/logo.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
