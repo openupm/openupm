@@ -1,7 +1,7 @@
 name: net.sam-tak.nudge
 displayName: Nudge
 description: Allows for adding comment and tasks to scene objects and project assets.
-repoUrl: 'https://github.com/SAM-tak/Nudge#upm'
+repoUrl: 'https://github.com/SAM-tak/Nudge'
 parentRepoUrl: 'https://github.com/stevehalliwell/Nudge#upm'
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +12,7 @@ hunter: SAM-tak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/SAM-tak/Nudge/blob/master/Media/nudge_logo.png'
+image: 'https://raw.githubusercontent.com/SAM-tak/Nudge/master/Media/nudge_logo.png'
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
