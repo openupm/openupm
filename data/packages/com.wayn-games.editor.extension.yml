@@ -1,0 +1,20 @@
+name: com.wayn-games.editor.extension
+displayName: WAYN Editor Extension
+description: This package provide editor extension that can be reused accross projects.
+repoUrl: 'https://github.com/WAYN-Games/WAYN-Editor-Extension'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unity Companion License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: WAYN-Games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662488797193
