@@ -1,0 +1,23 @@
+name: com.chebanovdd.unitymvvmtoolkit
+displayName: Unity MVVM Toolkit
+description: >-
+  The Unity Mvvm Toolkit allows you to use data binding to establish a
+  connection between the app UI and the data it displays. This is a simple and
+  consistent way to achieve clean separation of business logic from UI.
+repoUrl: 'https://github.com/ChebanovDD/UnityMvvmToolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+hunter: ChebanovDD
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662446262323
