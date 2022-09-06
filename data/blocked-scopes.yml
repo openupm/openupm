@@ -188,3 +188,5 @@ com.whitesharx.httx
 
 # packages deprecated by the team and source is no longer available
 - com.realitytoolkit.gltf
+- com.wayngroup.requirementworkflow
+- com.wayngroup.stm
