@@ -1,14 +1,16 @@
-name: wayn-group.mgm.skill
-displayName: MGM Skill
+name: com.wayn-games.mgm.ability
+displayName: MGM Ability
 description: >-
   This package contains a performant and disigner friendly skill system. It
   allows the definition of custom effects that can be composed to form any kind
   of skill.
-repoUrl: 'https://github.com/WAYNGROUP/MGM-Skill'
+repoUrl: 'https://github.com/WAYN-Games/MGM-Ability'
 parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: ''
+licenseName: Unity Companion License
 topics:
+  - asset-management
+  - dots-and-ecs
   - level-design
 hunter: JesseTG
 gitTagPrefix: ''
