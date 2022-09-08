@@ -1,0 +1,21 @@
+name: com.kitbashery.modular-ai
+displayName: Modular AI
+description: Modular AI is an inspector based visual behaviour designer.
+repoUrl: 'https://github.com/Kitbashery/Modular-AI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+  - visual-scripting
+hunter: TolinSimpson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662669631585
