@@ -1,0 +1,20 @@
+name: com.rhinox.open.scrapper
+displayName: Rhinox.Scrapper
+description: Mirrored downloader for Addressables.
+repoUrl: 'https://github.com/Rhinox-Training/rhinox-scrapper'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - frameworks
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662712344931
