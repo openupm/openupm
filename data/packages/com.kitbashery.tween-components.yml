@@ -1,0 +1,22 @@
+name: com.kitbashery.tween-components
+displayName: Tween Components
+description: A component based interpolation system.
+repoUrl: 'https://github.com/Kitbashery/Tween-Components'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: TolinSimpson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662741616091
