@@ -1,0 +1,22 @@
+name: com.kitbashery.game-kit
+displayName: Game Kit
+description: A collection of feature rich gameplay systems.
+repoUrl: 'https://github.com/Kitbashery/Game-Kit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - input-management
+  - physics
+  - utilities
+hunter: TolinSimpson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662741372852
