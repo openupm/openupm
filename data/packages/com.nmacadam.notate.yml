@@ -1,0 +1,19 @@
+name: com.nmacadam.notate
+displayName: Notate
+description: A note component for your inspector
+repoUrl: 'https://github.com/nmacadam/Notate'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: nmacadam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662843652393
