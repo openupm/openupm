@@ -1,0 +1,24 @@
+name: com.bugsnag.unity
+displayName: Bugsnag Unity Library
+description: >-
+  The Bugsnag Lirbary for Unity gives you instant notification of exceptions
+  thrown from your Unity games on iOS and Android devices, as well as standalone
+  Mac and WebGL deployments. Exceptions in your Unity code (JS, C# and Boo) as
+  well as native crashes (Objective C, Java) are automatically detected and sent
+  to Bugsnag.
+repoUrl: 'https://github.com/bugsnag/bugsnag-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: gareththackeray
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm-package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662975575136
