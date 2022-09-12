@@ -6,7 +6,7 @@ description: >-
   Mac, WebGL and Windows deployments. Exceptions in your Unity code (JS, C# and Boo) as
   well as native crashes (Objective C, Java) are automatically detected and sent
   to Bugsnag.
-repoUrl: 'https://github.com/bugsnag/bugsnag-unity'
+repoUrl: 'https://github.com/bugsnag/bugsnag-unity-upm'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
