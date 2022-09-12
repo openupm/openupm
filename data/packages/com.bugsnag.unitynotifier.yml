@@ -1,5 +1,5 @@
-name: com.bugsnag.unity
-displayName: Bugsnag Unity Library
+name: com.bugsnag.unitynotifier
+displayName: UPM release of the Bugsnag Unity Notifier
 description: >-
   The Bugsnag Unity Library gives you instant notification of exceptions
   thrown from your Unity games on iOS and Android devices, as well as standalone
