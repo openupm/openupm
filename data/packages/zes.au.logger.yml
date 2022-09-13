@@ -1,0 +1,21 @@
+name: zes.au.logger
+displayName: Au Logger for Unity3D
+description: Au Logger library for Unity3D
+repoUrl: 'https://github.com/zhihesoft/zes-unity-au-logger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: zhihesoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663070749928
+
+
