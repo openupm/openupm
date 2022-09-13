@@ -1,0 +1,19 @@
+name: com.andywiecko.burst.collections
+displayName: Burst Collections
+description: Burst friendly (special) native collections for Unity.
+repoUrl: 'https://github.com/andywiecko/BurstCollections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: andywiecko
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663086408254
