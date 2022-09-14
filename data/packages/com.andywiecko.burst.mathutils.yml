@@ -1,0 +1,19 @@
+name: com.andywiecko.burst.mathutils
+displayName: Burst Math Utils
+description: Burst compatible miscellaneous math related utility functions.
+repoUrl: 'https://github.com/andywiecko/BurstMathUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: andywiecko
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663164094006
