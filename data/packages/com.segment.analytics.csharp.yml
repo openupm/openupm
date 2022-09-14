@@ -1,0 +1,23 @@
+name: com.segment.analytics.csharp
+displayName: Segment Analytics for Unity
+description: The hassle-free way to add Segment analytics to your Unity app
+repoUrl: 'https://github.com/segmentio/Analytics-CSharp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - debugging-and-logging
+  - mobile
+  - profiling
+  - services
+hunter: MichaelGHSeg
+gitTagPrefix: unity
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663172414821
