@@ -1,0 +1,20 @@
+name: com.hextantstudios.utilities
+displayName: Hextant Utilities
+description: This packages includes helpful runtime and editor additions to Unity.
+repoUrl: 'https://github.com/hextantstudios/com.hextantstudios.utilities'
+parentRepoUrl: null
+licenseSpdxId: 'CC-BY-4.0'
+licenseName: Creative Commons Attribution 4.0 International
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Fijo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663236031299
