@@ -1,0 +1,20 @@
+name: com.strikervr.strikersdk
+displayName: StrikerVR StrikerLink SDK
+description: StrikerVR SDK for Unity
+repoUrl: 'https://github.com/StrikerVirtualRecoil/com.strikervr.strikersdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - integration
+hunter: BenWoodford
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'public:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663358269123
