@@ -11,7 +11,7 @@ topics:
   - data-management
   - utilities
 hunter: piksel
-gitTagPrefix: ''
+gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 minVersion: ''
 image: >-
