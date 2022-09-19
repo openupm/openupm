@@ -1,0 +1,19 @@
+name: com.hww.xisubsystem
+displayName: XiSubsystem
+description: XiSubsystem is a debug tools for Unity.
+repoUrl: 'https://github.com/hww/XiSubsystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: hww
+gitTagPrefix: ''
+gitTagIgnore: upm/v
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663580523147
