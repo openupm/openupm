@@ -1,0 +1,20 @@
+name: com.quabug.any-serialize
+displayName: AnySerialize
+description: Generate serializable code of any properties for Unity3D serializer
+repoUrl: 'https://github.com/quabug/AnySerialize'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+hunter: quabug
+gitTagPrefix: any-serialize/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663600515038
