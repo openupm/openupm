@@ -1,0 +1,21 @@
+name: com.originbyte.suiunitysdk
+displayName: SuiUnitySDK
+description: Connecting Unity game developers to Sui and Origin Byte's NFT ecosystem.
+repoUrl: 'https://github.com/Origin-Byte/sui-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - utilities
+hunter: tomfurrier
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Origin-Byte/sui-unity-sdk/raw/cf9c61724f887321c4ec693026da87b2f0f2947e/imgs/transactions.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663608485424
