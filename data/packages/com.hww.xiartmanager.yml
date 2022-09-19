@@ -1,0 +1,20 @@
+name: com.hww.xiartmanager
+displayName: XiArtManager
+description: XiArtManager is a art content management for Unity.
+repoUrl: 'https://github.com/hww/XiArtManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663572567809
