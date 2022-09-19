@@ -1,0 +1,20 @@
+name: com.hww.xisound
+displayName: XiSound
+description: XiSound is tiny sound system for Unity 3D.
+repoUrl: 'https://github.com/hww/XiSound'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - frameworks
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663615469702
