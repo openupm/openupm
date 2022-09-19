@@ -1,0 +1,20 @@
+name: com.hww.xidebugmenu
+displayName: XiDebugMenu
+description: XiDebugMenu is a debug menu for Unity.
+repoUrl: 'https://github.com/hww/XiDebugMenu'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663573179150
