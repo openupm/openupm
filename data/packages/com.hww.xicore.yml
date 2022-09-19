@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - frameworks
 hunter: hww
-gitTagPrefix: ''
+gitTagPrefix: 'upm/v'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
