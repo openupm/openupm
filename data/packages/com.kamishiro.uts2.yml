@@ -1,0 +1,19 @@
+name: com.kamishiro.uts2
+displayName: UnityChan-ToonShader
+description: UTS Package
+repoUrl: 'https://github.com/AoiKamishiro/UTS2'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - particles-and-effects
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663632891408
