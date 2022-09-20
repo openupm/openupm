@@ -20,4 +20,5 @@ minVersion: v2.4.0
 image: >-
   https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
 readme: 'master:Loxodon.Framework.Fody/README.md'
+readme_zhCN: 'master:Loxodon.Framework.Fody/README_CN.md'
 createdAt: 1594375319319
