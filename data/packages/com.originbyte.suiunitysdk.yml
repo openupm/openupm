@@ -13,7 +13,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/Origin-Byte/sui-unity-sdk/raw/cf9c61724f887321c4ec693026da87b2f0f2947e/imgs/transactions.png
+  https://github.com/Origin-Byte/sui-unity-sdk/raw/1db451fe201ff68220e0671356e1f3e6b39e957c/imgs/nft_protocol_mint.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
