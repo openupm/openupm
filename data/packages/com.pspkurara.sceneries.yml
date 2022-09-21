@@ -1,0 +1,21 @@
+name: com.pspkurara.sceneries
+displayName: Sceneries
+description: A simple uGUI screen transition system.
+repoUrl: 'https://github.com/pspkurara/sceneries'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - animation
+  - frameworks
+  - gui
+hunter: pspkurara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663765611199
