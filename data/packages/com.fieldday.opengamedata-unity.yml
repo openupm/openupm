@@ -1,0 +1,20 @@
+name: com.fieldday.opengamedata-unity
+displayName: opengamedata-unity
+description: Unity package for logging with Field Day's OpenGameData servers.
+repoUrl: 'https://github.com/opengamedata/opengamedata-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - services
+hunter: BeauPrime
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663861281817
