@@ -1,0 +1,19 @@
+name: com.kamishiro.poiyomitoonshader
+displayName: Poiyomi Toon Shader
+description: Poiyomi Toon Shader for UPM Package.
+repoUrl: 'https://github.com/AoiKamishiro/PoiyomiToonShader'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - particles-and-effects
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663935443088
