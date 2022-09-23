@@ -1,0 +1,20 @@
+name: com.unigame.viewsystem
+displayName: UniGame Views System
+description: MVVM Views system for Unity
+repoUrl: 'https://github.com/UnioGame/UniGame.ViewSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663905352858
