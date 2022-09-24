@@ -2,16 +2,19 @@
 /* eslint-disable no-undef */
 const fs = require("fs");
 const assert = require("assert");
+const path = require("path");
 const should = require("should");
 const rewire = require("rewire");
 const { isString } = require("lodash/lang");
 const redis = require("../app/db/redis");
 const spdx = require("spdx-license-list");
+const yaml = require("js-yaml");
 const {
   loadPackageNames,
   loadPackageSync,
   loadTopics,
   loadBlockedScopes,
+  dataDir,
   packagesDir,
   isValidPackageName
 } = require("../app/utils/package");
@@ -74,6 +77,16 @@ describe("data/packages", async function() {
     for (const file of files) {
       it("verify extention name: " + file, function() {
         file.should.endWith(".yml");
+      });
+    }
+  });
+  describe("verify other YAML files", function () {
+    const files = ["backers.yml", "blocked-scopes.yml", "builtin.yml", "sponsors.yml", "topics.yml"];
+    for (const file of files) {
+      let absPath = path.resolve(dataDir, file);
+      it("verify " + file, function() {
+        const result = yaml.safeLoad(fs.readFileSync(absPath, "utf8"));
+        result.should.not.be.undefined();
       });
     }
   });

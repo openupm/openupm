@@ -188,6 +188,7 @@ const getNamespace = function (packageName) {
 
 module.exports = {
   cleanRepoUrl,
+  dataDir,
   getNamespace,
   loadTopics,
   loadPackage,
@@ -197,7 +198,6 @@ module.exports = {
   loadBuiltinPackageNames,
   loadBlockedScopes,
   isValidPackageName,
-
   packageExists,
   packagesDir,
   saveRawPackage,

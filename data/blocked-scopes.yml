@@ -184,7 +184,7 @@ scopes:
 
 # Package published to NPMJS
 # com.whitesharx.httx uses ${ ci.tag_value } template in the package.json which can not be parsed by OpenUPM.
-com.whitesharx.httx
+- com.whitesharx.httx
 
 # packages deprecated by the team and source is no longer available
 - com.realitytoolkit.gltf
