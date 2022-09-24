@@ -1,3 +1,10 @@
+## [1.52.9](https://github.com/openupm/openupm/compare/1.52.8...1.52.9) (2022-09-24)
+
+
+### Bug Fixes
+
+* remove the social share plugin ([b35a233](https://github.com/openupm/openupm/commit/b35a2330b290c86ae955ae4ced4fa7f691000748))
+
 ## [1.52.8](https://github.com/openupm/openupm/compare/1.52.7...1.52.8) (2022-09-24)
 
 
