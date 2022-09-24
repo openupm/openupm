@@ -175,20 +175,5 @@ module.exports = {
       }
     }
   },
-  plugins: [
-    [
-      "vuepress-plugin-social-share",
-      {
-        networks: [
-          "twitter",
-          "facebook",
-          "reddit",
-          "telegram",
-          "line",
-          "whatsapp"
-        ],
-        fallbackImage: "/images/openupm-icon-256.png"
-      }
-    ]
-  ]
+  plugins: []
 };

@@ -161,13 +161,5 @@ module.exports = {
       }
     }
   },
-  plugins: [
-    [
-      "vuepress-plugin-social-share",
-      {
-        networks: ["weibo"],
-        fallbackImage: "/images/openupm-icon-256.png"
-      }
-    ]
-  ]
+  plugins: []
 };

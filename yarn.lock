@@ -13731,13 +13731,6 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-social-share@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-social-share/-/vuepress-plugin-social-share-1.0.0.tgz#775a250ae050211cadd015bcceed684976f12b8f"
-  integrity sha512-BBYIPubR7J4IMrgC9djbcidA/XhgqPgz7EdGXLIQ620bEFo1d6ERUDAvTbeNbKiKz6kndvSkPPeN7UZlZvdyGg==
-  dependencies:
-    deepmerge "^4.2.2"
-
 vuepress-plugin-table-of-contents@^1.1.4:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-table-of-contents/-/vuepress-plugin-table-of-contents-1.1.6.tgz#d0d4cf29720c85b9961f4bfbae4df0fd70b0ea71"
