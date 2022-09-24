@@ -1,3 +1,10 @@
+## [1.52.8](https://github.com/openupm/openupm/compare/1.52.7...1.52.8) (2022-09-24)
+
+
+### Bug Fixes
+
+* syntax error of blocked-scopes.yml ([e812a49](https://github.com/openupm/openupm/commit/e812a4911af9de1f311c7e7536e1ce26ed9870b9))
+
 ## [1.52.7](https://github.com/openupm/openupm/compare/1.52.6...1.52.7) (2022-06-30)
 
 
