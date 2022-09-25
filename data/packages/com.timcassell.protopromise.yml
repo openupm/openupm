@@ -7,7 +7,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - parallelism-and-concurrency
-  - integration
+  - utilities
 hunter: timcassell
 gitTagPrefix: ''
 gitTagIgnore: ''
