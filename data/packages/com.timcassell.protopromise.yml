@@ -1,0 +1,20 @@
+name: com.timcassell.protopromise
+displayName: ProtoPromise
+description: Robust and efficient library for management of asynchronous operations.
+repoUrl: 'https://github.com/timcassell/ProtoPromise'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - integration
+hunter: timcassell
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664127015281
