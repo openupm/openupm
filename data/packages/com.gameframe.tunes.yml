@@ -1,0 +1,27 @@
+name: com.gameframe.tunes
+displayName: Gameframe.Tunes
+description: >-
+  Automatically pause Music (iTunes/Spotify) on Windows and OSX when entering
+  play mode
+
+  Intelligently checks if music is playing and remembers if it actually paused
+  playing music so that it will unpause only if it paused.
+repoUrl: 'https://github.com/coryleach/UnityTunes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+  - utilities
+hunter: coryleach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/coryleach/UnityTunes/raw/0df8cfc630d6ae7db022d5a8f6c8dc5bf15e2a1a/Img/HowTo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664256045720
