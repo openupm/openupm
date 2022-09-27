@@ -1,0 +1,19 @@
+name: net.silkage.restclient
+displayName: Rest Client
+description: Unity3D http rest client
+repoUrl: 'https://github.com/pinealctx/RestClient'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: silkagenet
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: Unity3D Rest Client
+description_zhCN: Unity3D Rest Client
+createdAt: 1664264433756
