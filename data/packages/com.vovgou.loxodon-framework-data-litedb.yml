@@ -1,0 +1,24 @@
+  
+name: com.vovgou.loxodon-framework-data-litedb
+displayName: Loxodon Framework Data LiteDB
+description: >-
+    This is a plugin to export Excel data to Json or embedded database.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - localization
+  - utilities
+  
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v2.5.0
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'master:Loxodon.Framework.Data/README.md'
+readme_zhCN: 'master:Loxodon.Framework.Data/README.md'
+createdAt: 1594375319319
