@@ -1,0 +1,20 @@
+name: com.siegeup.moddingplugin
+displayName: SiegeUp Modding Plugin
+description: This package provides basic tools and instruments for creating SiegeUp mods.
+repoUrl: 'https://github.com/SiegeUp/SiegeUp-Modding-Plugin'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - integration
+  - utilities
+hunter: Scoolnik
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664262740629
