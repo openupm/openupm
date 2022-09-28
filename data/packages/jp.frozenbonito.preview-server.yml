@@ -1,0 +1,19 @@
+name: jp.frozenbonito.preview-server
+displayName: Unity Preview Server for WebGL
+description: Local Preview Server for Unity WebGL
+repoUrl: 'https://github.com/frozenbonito/UnityPreviewServer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: frozenbonito
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664379102304
