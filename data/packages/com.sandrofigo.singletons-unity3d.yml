@@ -1,5 +1,5 @@
 name: com.sandrofigo.singletons-unity3d
-displayName: Singleton
+displayName: Singletons
 description: Singleton classes for Unity
 repoUrl: 'https://github.com/sandrofigo/Singletons-Unity3D'
 parentRepoUrl: null
