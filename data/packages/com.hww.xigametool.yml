@@ -1,7 +1,7 @@
-name: com.hww.xiartmanager
-displayName: XiArtManager
-description: XiArtManager is a art content management for Unity.
-repoUrl: 'https://github.com/hww/XiArtManager'
+name: com.hww.xigametool
+displayName: XiGameTool
+description: XiGameTool is a art content management for Unity.
+repoUrl: 'https://github.com/hww/XiGameTool'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
