@@ -1,0 +1,24 @@
+name: com.mygamedevtools.scene-loader
+displayName: Scene Loader
+description: >-
+  A package that standardizes the scene loading process among many different
+  possibilities, including support for Coroutines, C# Tasks, UniTask and
+  Addressables.
+repoUrl: 'https://github.com/mygamedevtools/scene-loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - frameworks
+  - utilities
+hunter: joaoborks
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.2.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664838864829
