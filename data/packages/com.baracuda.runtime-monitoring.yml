@@ -1,13 +1,12 @@
 name: com.baracuda.runtime-monitoring
 displayName: Runtime Monitoring
 description: >-
+  Runtime Monitoring is an easy way for you to debug the state of your C#
+  classes and objects during runtime.
+  
   Note: when updating Major versions of Runtime Monitoring from the Package
   Manager, don't forget to remove the old version from the project before
   importing the new one! :)
-
-
-  Runtime Monitoring is an easy way for you to debug the state of your C#
-  classes and objects during runtime.
 repoUrl: 'https://github.com/JohnBaracuda/com.baracuda.runtime-monitoring'
 parentRepoUrl: null
 licenseSpdxId: MIT
