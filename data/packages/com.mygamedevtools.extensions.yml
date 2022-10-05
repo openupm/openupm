@@ -1,0 +1,21 @@
+name: com.mygamedevtools.extensions
+displayName: Extensions
+description: 'A personal collection of Unity Engine tools, extensions and helpers.'
+repoUrl: 'https://github.com/mygamedevtools/extensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: joaoborks
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.3.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664936478070
+
