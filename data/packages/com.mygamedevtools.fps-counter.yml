@@ -1,0 +1,21 @@
+name: com.mygamedevtools.fps-counter
+displayName: FPS Counter
+description: >-
+  A lightweight FPS Counter. Tracks average, minimum and maximum frames per
+  second of the application.
+repoUrl: 'https://github.com/mygamedevtools/fps-counter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: joaoborks
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.3.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664936400622
