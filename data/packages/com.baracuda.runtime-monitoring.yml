@@ -21,7 +21,7 @@ topics:
 hunter: JohnBaracuda
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '3.0.1'
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
