@@ -1,0 +1,24 @@
+name: com.apple.accessibility
+displayName: Apple.Accessibility
+description: A Unity-port of Apple's UIAccessibility protocol from UIKit.framework
+repoUrl: 'https://github.com/apple/unityplugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - gui
+  - input-management
+  - integration
+  - services
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: >-
+  main:plug-ins/Apple.Accessibility/Apple.Accessibility_Unity/Assets/Apple.Accessibility/Documentation~/Apple.Accessibility.md
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665057373443
