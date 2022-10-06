@@ -1,0 +1,23 @@
+name: com.apple.phase
+displayName: Apple.PHASE
+description: A Unity plugin for Apple's PHASE.framework.
+repoUrl: 'https://github.com/apple/unityplugins'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - audio
+  - integration
+  - services
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: >-
+  main:plug-ins/Apple.PHASE/Apple.PHASE_Unity/Assets/Documentation~/Apple.PHASE.md
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665057720191
