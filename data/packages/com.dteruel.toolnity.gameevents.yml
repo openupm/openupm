@@ -1,0 +1,19 @@
+name: com.dteruel.toolnity.gameevents
+displayName: Toolnity Game Events
+description: Events system to trigger and react in runtime.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: DTeruel
+gitTagPrefix: game_events
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Game Events/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176164791
