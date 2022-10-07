@@ -88,7 +88,7 @@
     "date-fns": "^2.14.0",
     "enum": "^2.5.0",
     "eol": "^0.9.1",
-    "express": "^4.17.1",
+    "express": "^4.18.1",
     "express-reload": "^1.2.0",
     "feed": "^4.1.0",
     "global": "^4.4.0",
