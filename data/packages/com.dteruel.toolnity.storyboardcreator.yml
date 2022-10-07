@@ -1,0 +1,25 @@
+name: com.dteruel.toolnity.storyboardcreator
+displayName: Toolnity Storyboard Creator
+description: Tool to generate storyboards using your scenes.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - 2d
+  - animation
+  - camera
+  - editor-enhancement
+  - procedural-generation
+  - utilities
+  - video
+hunter: DTeruel
+gitTagPrefix: storyboard_creator
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Storyboard Creator/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176900619
