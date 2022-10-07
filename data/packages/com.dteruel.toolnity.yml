@@ -12,7 +12,7 @@ topics:
   - mobile
   - utilities
 hunter: ''
-gitTagPrefix: ''
+gitTagPrefix: toolnity
 gitTagIgnore: ''
 minVersion: ''
 image: null
