@@ -12,9 +12,10 @@ module.exports = {
     host: "127.0.0.1",
     port: 6379,
     db: 0,
-    retry_strategy: function (options) {
+    enableOfflineQueue: false,
+    retryStrategy(times) {
       return 5000;
-    }
+    },
   },
 
   // Queue settings.
