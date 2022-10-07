@@ -1,0 +1,26 @@
+name: com.dteruel.toolnity.scenetools
+displayName: Toolnity Scene Tools
+description: |-
+  Different tools for the Scene view:
+   - Prop placement
+   - Replace game objects
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: DTeruel
+gitTagPrefix: scene_tools
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Scene Tools/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176684496
