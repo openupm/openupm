@@ -1,0 +1,23 @@
+name: com.dteruel.toolnity.todolist
+displayName: Toolnity To Do List
+description: |-
+  Tool to manage your To Do Lists.
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: todo_list
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - To Do List/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665177021783
