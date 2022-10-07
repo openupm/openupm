@@ -1,0 +1,24 @@
+name: com.dteruel.toolnity.custombuttons
+displayName: Toolnity Custom Buttons
+description: |-
+  Expose easily your methods as buttons in editor and runtime.
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: custom_buttons
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Custom Buttons/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665175753350
