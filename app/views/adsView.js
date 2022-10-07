@@ -5,7 +5,6 @@ const router = express.Router();
 
 router.get("/custom", asyncHandler(async function (req, res) {
   let obj = await redis.client.hgetall("ad:custom");
-  if (!obj) obj = {};
   obj.active = obj.active !== "0";
   res.json(obj);
 }));

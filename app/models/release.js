@@ -77,7 +77,6 @@ const fetchOneOrThrow = async function(packageName, version) {
 const fetchAll = async function(packageName) {
   let key = releaseKey + packageName;
   let objs = await redis.client.hgetall(key);
-  if (objs === null) return [];
   return Object.values(objs).map(x => JSON.parse(x));
 };
 
