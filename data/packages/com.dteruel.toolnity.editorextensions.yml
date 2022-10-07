@@ -1,0 +1,27 @@
+name: com.dteruel.toolnity.editorextensions
+displayName: Toolnity Editor Extensions
+description: |-
+  Collection of several tools for the Editor:
+   - Auto save on play
+   - Find missing scripts
+   - Load scene on play
+   - Scene selector
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: editor_extensions
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Editor Extensions/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665175882737
