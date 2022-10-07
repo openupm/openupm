@@ -1,0 +1,19 @@
+name: com.dteruel.toolnity.runtimescripts
+displayName: Toolnity Runtime Scripts
+description: Collection of scripts for runtime.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: DTeruel
+gitTagPrefix: runtime_scripts
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Runtime Scripts/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176568413
