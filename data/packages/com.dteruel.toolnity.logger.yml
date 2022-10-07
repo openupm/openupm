@@ -1,0 +1,20 @@
+name: com.dteruel.toolnity.logger
+displayName: Toolnity Logger
+description: Log system.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: DTeruel
+gitTagPrefix: logger
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Logger/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176410634
