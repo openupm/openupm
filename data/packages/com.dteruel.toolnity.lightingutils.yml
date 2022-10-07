@@ -1,0 +1,24 @@
+name: com.dteruel.toolnity.lightingutils
+displayName: Toolnity Lighting Utils
+description: |-
+  Different utilities and shortcuts related with lighting.
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - particles-and-effects
+  - utilities
+hunter: DTeruel
+gitTagPrefix: lighting_utils
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Lighting Utils/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176344081
