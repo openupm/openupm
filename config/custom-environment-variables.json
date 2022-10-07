@@ -1,0 +1,8 @@
+{
+    "redis": {
+        "enableOfflineQueue": {
+            "__name": "REDIS_ENABLE_OFFLINE_QUEUE",
+            "__format": "boolean"
+        }
+    }
+}
