@@ -1,26 +1,30 @@
 const config = require("config");
-const redis = require("promise-redis")();
+const Redis = require("ioredis");
 const logger = require("../utils/log")(module);
 
-let _redis = {
+const _redis = {
   _client: null,
   get client() {
     if (this._client == null) {
-      let client = redis.createClient(config.redis);
+      const client = new Redis(config.redis);
       client.on("connect", function() {
-        logger.info("connected to server");
+        logger.info("redis: connected to server");
+      });
+      client.on("ready", function() {
+        logger.info("redis: ready to use");
       });
       client.on("error", function(err) {
-        logger.error(err);
+        logger.error({err}, "redis: error");
       });
-      client.on("reconnecting", function(context) {
-        var delay = context.delay;
-        var attempt = context.attempt;
-        var message = `reconnecting in ${delay}ms, attempt #${attempt}`;
+      client.on("reconnecting", function(delay) {
+        const message = `redis: reconnecting in ${delay}ms`;
         logger.info(message);
       });
       client.on("end", function() {
-        logger.info("end");
+        logger.info("redis: end");
+      });
+      client.on("close", function() {
+        logger.info("redis: connection lost");
       });
       this._client = client;
     }
