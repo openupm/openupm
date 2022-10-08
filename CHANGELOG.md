@@ -1,3 +1,12 @@
+## [1.52.10](https://github.com/openupm/openupm/compare/1.52.9...1.52.10) (2022-10-08)
+
+
+### Bug Fixes
+
+* ioredis returns an empty object ({}) when hgetall a non-existed key while node_redis returns null ([080edfc](https://github.com/openupm/openupm/commit/080edfc5bf11379e81358e98fd91e5f891164ab9))
+* **server:** set a simple redis retry_strategy ([7b109b1](https://github.com/openupm/openupm/commit/7b109b16d427811a9df4b34b3a1efed8bdf028b0))
+* **web:** handle redis connection error ([70bb20a](https://github.com/openupm/openupm/commit/70bb20ab8620e81f7ff96cdbd38c5ed524b361ac))
+
 ## [1.52.9](https://github.com/openupm/openupm/compare/1.52.8...1.52.9) (2022-09-24)
 
 
