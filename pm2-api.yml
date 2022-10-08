@@ -11,3 +11,5 @@ apps:
     max_memory_restart: 1G
     max_restarts: 5
     autorestart: true
+    env:
+      REDIS_ENABLE_OFFLINE_QUEUE: false
