@@ -11,8 +11,8 @@ topics:
   - network
 hunter: SushiWaUmai
 gitTagPrefix: ''
-gitTagIgnore: ''
-minVersion: ''
+gitTagIgnore: '^v'
+minVersion: '2.0.0'
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
