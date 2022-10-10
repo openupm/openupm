@@ -190,3 +190,6 @@ scopes:
 - com.realitytoolkit.gltf
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
+
+# My deleted packages
+- com.leaosoft.gameplay.framework
