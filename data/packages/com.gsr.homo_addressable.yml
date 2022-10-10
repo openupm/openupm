@@ -1,0 +1,19 @@
+name: com.gsr.homo_addressable
+displayName: HomoAddressable
+description: an Addressable auto-release solution
+repoUrl: 'https://github.com/Giresharu/HomoAddressable'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: Giresharu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665344954404
