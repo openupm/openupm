@@ -1,18 +1,17 @@
 name: com.leaosoft.gameplay.framework
 displayName: Leaosoft Framework
-description: A Framework with many useful services to make game development easier.
+description: A framework with many useful services and ready-to-use modular tools to make game development easier.
 repoUrl: 'https://github.com/WendellLeao/leaosoft-framework'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - 2d
-  - editor-enhancement
   - frameworks
-  - input-management
-  - mobile
   - services
   - utilities
+  - input-management
+  - editor-enhancement
+  - mobile
 hunter: WendellLeao
 gitTagPrefix: ''
 gitTagIgnore: ''
