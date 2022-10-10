@@ -12,7 +12,7 @@ hunter: hww
 gitTagPrefix: upm/v
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://raw.githubusercontent.com/hww/XiGameTool/main/Documentation/title_image.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
