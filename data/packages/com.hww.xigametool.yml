@@ -13,7 +13,7 @@ gitTagPrefix: upm/v
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://raw.githubusercontent.com/hww/XiGameTool/main/Documentation/title_image.png'
-readme: 'master:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
