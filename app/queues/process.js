@@ -2,57 +2,54 @@
 
 const config = require("config");
 
-const { queues } = require("./core");
+const { hasQueue, getWorker } = require("./core");
 const { buildPackage } = require("../jobs/buildPackage");
 const { buildRelease } = require("../jobs/buildRelease");
 const logger = require("../utils/log")(module);
 
-var dispatch = function(queue) {
-  queue.on("ready", () => {
-    logger.info("queue ready.");
-    queue.process(config.jobs.concurrent, async function(job) {
-      logger.info({ jobId: job.id }, "job start");
-      let sections = job.id.split(":");
-      try {
-        if (sections[0] == config.jobs.buildPackage.key) {
-          let packageName = sections[1];
-          await buildPackage(packageName);
-        } else if (sections[0] == config.jobs.buildRelease.key) {
-          let packageName = sections[1];
-          let version = sections[2];
-          await buildRelease(packageName, version);
-        } else {
-          logger.error(
-            { jobId: job.id, jobType: sections[0] },
-            "unknown job type"
-          );
-          throw new Error(`unknown job type ${sections[0]}`);
-        }
-      } catch (err) {
-        logger.error({ jobId: job.id, err }, "job failed");
-        throw err;
+var dispatch = function (queueName) {
+  const jobHandler = async function (job) {
+    logger.info({ jobId: job.id }, "job start");
+    try {
+      if (job.name == config.jobs.buildPackage.name) {
+        await buildPackage(job.data.name);
+      } else if (job.name == config.jobs.buildRelease.name) {
+        await buildRelease(job.data.name, job.data.version);
+      } else {
+        logger.error(
+          { jobId: job.id, name: job.name },
+          "unknown job name"
+        );
       }
-      logger.info({ jobId: job.id }, "job completed");
-    });
+    } catch (err) {
+      logger.error({ jobId: job.id, name: job.name, err }, "job failed with error");
+      throw err;
+    }
+  };
+  const worker = getWorker(queueName, jobHandler);
+  worker.on("completed", job => {
+    logger.info({ jobId: job.id }, "job completed");
   });
-  queue.on("error", err => {
-    logger.error({ err }, "queue error");
+  worker.on("failed", job => {
+    logger.info({ jobId: job.id }, "job failed");
   });
-  queue.checkStalledJobs(config.jobs.checkStalledJobsInterval);
+  worker.on('drained', () => {
+    logger.info("queue drained");
+  });
+  worker.run();
 };
 
 if (require.main === module) {
   let program = require("../utils/commander");
-  let queue = null;
+  let _queueName = null;
   program
     .arguments("<queue>")
-    .action(function(queueName) {
-      let queueWrapper = queues[queueName];
-      if (typeof queueWrapper == "undefined")
-        throw new Error(`can not find queue name ${queueName}.`);
-      queue = queueWrapper.worker;
+    .action(function (queueName) {
+      if (!hasQueue(queueName))
+        throw new Error(`Can not recognize settings for queue name=${queueName}.`);
+      _queueName = queueName;
     })
     .parse(process.argv)
     .requiredArgs(1);
-  dispatch(queue);
+  dispatch(_queueName);
 }

@@ -1,30 +1,30 @@
 // Show queue status
-const redis = require("../db/redis");
+const { getQueue } = require("./core");
+const logger = require("../utils/log")(module);
 
 // Show queue status
-const showQueueStatus = async function(queueName) {
-  const statusList = [
-    { name: "waiting", type: "list" },
-    { name: "active", type: "list" },
-    { name: "succeeded", type: "set" },
-    { name: "failed", type: "set" },
-    { name: "delayed", type: "sorted-set" },
-    { name: "stalling", type: "set" }
-  ];
-  for (const status of statusList) {
-    let ls = null;
-    if (status.type == "list")
-      ls = await redis.client.lrange(`bq:${queueName}:${status.name}`, 0, -1);
-    else if (status.type == "set")
-      ls = await redis.client.smembers(`bq:${queueName}:${status.name}`);
-    else if (status.type == "sorted-set")
-      ls = await redis.client.zrange(`bq:${queueName}:${status.name}`, 0, -1);
-    if (ls == null) continue;
-    ls = Array.from(ls);
-    if (ls.length) {
-      console.log(`${status.name}:`);
-      ls.sort();
-      for (const item of ls) console.log(`  ${item}`);
+const showQueueStatus = async function (queueName, verbose) {
+  const queue = getQueue(queueName);
+  const sections = [
+    { name: "Waiting", getter: "getWaiting", counter: "getWaitingCount" },
+    { name: "Active", getter: "getActive", counter: "getActiveCount" },
+    { name: "Completed", getter: "getCompleted", counter: "getCompletedCount" },
+    { name: "Failed", getter: "getFailed", counter: "getFailedCount" },
+    { name: "Delayed", getter: "getDelayed", counter: "getDelayedCount" },
+  ]
+  for (const section of sections) {
+    const count = await queue[section.counter]();
+    if (count > 0) {
+      console.log(`${section.name} (${count}):`);
+      const ls = await queue[section.getter]();
+      for (const job of ls) {
+        console.log(`  ${job.id}`);
+        if (verbose) {
+          console.log(`    name: ${job.name}`);
+          const data = JSON.stringify(job.data, undefined, 0);
+          if (job.data) console.log(`    data: ${data}`);
+        }
+      }
     }
   }
 };
@@ -35,11 +35,12 @@ if (require.main === module) {
   let program = require("../utils/commander");
   let _queueName = null;
   program
+    .option("--verbose", "show verbose job info")
     .arguments("<queueName>")
     .action(queueName => {
       _queueName = queueName;
     })
     .parse(process.argv)
     .requiredArgs(1)
-    .run(showQueueStatus, _queueName);
+    .run(showQueueStatus, _queueName, program.verbose);
 }

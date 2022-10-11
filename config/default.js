@@ -19,44 +19,32 @@ module.exports = {
 
   // Queue settings.
   queueSettings: {
-    emitter: {
-      removeOnSuccess: true,
-      removeOnFailure: false,
-      isWorker: false,
-      // The queue does not need to receive job events.
-      getEvents: false,
-      // The queue does not store jobs, so you can use Queue#getJob to check job status safely.
-      storeJobs: false,
-      // The queue is not responsible for activating delayed jobs.
-      activateDelayedJobs: false
+    main: {
+      concurrency: 5,
+      defaultJobOptions: {
+        removeOnComplete: true,
+        removeOnFail: false,
+        attempts: 3,
+        backoff: {
+          type: "exponential",
+          delay: 30000,
+        }
+      }
     },
-    worker: {
-      removeOnSuccess: true,
-      removeOnFailure: false,
-      isWorker: true,
-      // The queue is responsible for activating delayed jobs.
-      activateDelayedJobs: true
-    }
   },
 
   // Jobs.
   jobs: {
-    concurrent: 5,
-    checkStalledJobsInterval: 5000,
     buildPackage: {
       queue: "main",
-      key: "build-pkg",
-      retries: 2,
-      backoff: ["fixed", 60 * 1000],
+      name: "build-pkg",
       timeout: 60 * 5 * 1000,
     },
     buildRelease: {
       queue: "main",
-      key: "build-rel",
-      retries: 2,
-      backoff: ["fixed", 60 * 1000],
-      delay: 10,
+      name: "build-rel",
       timeout: 60 * 60 * 1000,
+      interval: 30000,
     }
   },
 
