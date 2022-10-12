@@ -25,6 +25,7 @@ module.exports = {
         removeOnComplete: true,
         removeOnFail: false,
         attempts: 3,
+        timeout: 60000,
         backoff: {
           type: "exponential",
           delay: 30000,
@@ -38,12 +39,12 @@ module.exports = {
     buildPackage: {
       queue: "main",
       name: "build-pkg",
-      timeout: 60 * 5 * 1000,
+      timeout: 60000 * 5,
     },
     buildRelease: {
       queue: "main",
       name: "build-rel",
-      timeout: 60 * 60 * 1000,
+      timeout: 60000 * 30,
       interval: 30000,
     }
   },
