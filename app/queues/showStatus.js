@@ -23,6 +23,8 @@ const showQueueStatus = async function (queueName, verbose) {
           console.log(`    name: ${job.name}`);
           const data = JSON.stringify(job.data, undefined, 0);
           if (job.data) console.log(`    data: ${data}`);
+          const opts = JSON.stringify(job.opts, undefined, 0);
+          if (job.opts) console.log(`    opts: ${opts}`);
         }
       }
     }
