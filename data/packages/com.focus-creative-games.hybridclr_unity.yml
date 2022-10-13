@@ -1,0 +1,21 @@
+name: com.focus-creative-games.hybridclr_unity
+displayName: HybridCLR
+description: >-
+  Unity package for HybridCLR. It includes editor and runtime scripts and assets
+  for HybridCLR
+repoUrl: 'https://github.com/ldr123/hybridclr_unity'
+parentRepoUrl: 'https://github.com/focus-creative-games/hybridclr_unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: ldr123
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665626399775
