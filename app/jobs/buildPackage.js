@@ -10,7 +10,7 @@ const {
   ReleaseReason,
   RetryableReleaseReason
 } = require("../common/constant");
-const { queues, addJob } = require("../queues/core");
+const { getQueue, addJob } = require("../queues/core");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
 const { getVersionFromTag } = require("../utils/semver");
@@ -188,42 +188,25 @@ const updateReleaseRecords = async function (packageName, remoteTags) {
 
 // Add build release jobs for given release records.
 const addReleaseJobs = async function (releases) {
-  let queue = queues.main.emitter;
-  let i = 0;
-  for (let rel of releases) {
-    let reason = ReleaseReason.get(rel.reason);
-    let jobId =
-      config.jobs.buildRelease.key + ":" + rel.packageName + ":" + rel.version;
-    let job = await queue.getJob(jobId);
-    // // Clean complete failed job to continue
-    // if (queue.isJobFailedCompletely(job)) {
-    //   await queue.removeJob(job.id);
-    //   logger.info(
-    //     { rel: `${rel.packageName}@${rel.version}`, pkg: name },
-    //     "removed job failed completely"
-    //   );
-    //   job = null;
-    // }
-    // Skip creating release job if,
-    // - job already exists.
-    // - release already succeeded.
-    // - release failed and no need to retry.
+  const jobConfig = config.jobs.buildRelease;
+  const queue = getQueue(jobConfig.queue);
+  for (let i = 0; i < releases.length; i++) {
+    const rel = releases[i];
+    const reason = ReleaseReason.get(rel.reason);
+    // Skip creating release job if release already succeeded or failed with an acceptable reason.
     if (
-      job ||
       rel.state == ReleaseState.Succeeded ||
-      (rel.state == ReleaseState.Failed &&
-        !RetryableReleaseReason.includes(reason))
+      (rel.state == ReleaseState.Failed && !RetryableReleaseReason.includes(reason))
     )
       continue;
-    // Generate release job.
-    var dt = new Date();
-    dt.setSeconds(dt.getSeconds() + config.jobs.buildRelease.delay * i);
+    let jobId = jobConfig.name + ":" + rel.packageName + ":" + rel.version;
+    // Add job
     job = await addJob({
-      jobId,
-      jobConfig: config.jobs.buildRelease,
-      delay: i == 0 ? 0 : dt
+      queue,
+      name: jobConfig.name,
+      data: { name: rel.packageName, version: rel.version },
+      opts: { jobId, delay: jobConfig.interval * i }
     });
-    i += 1;
   }
 };
 
