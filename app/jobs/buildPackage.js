@@ -205,7 +205,7 @@ const addReleaseJobs = async function (releases) {
       queue,
       name: jobConfig.name,
       data: { name: rel.packageName, version: rel.version },
-      opts: { jobId, delay: jobConfig.interval * i }
+      opts: { jobId, delay: jobConfig.interval * i, timeout: jobConfig.timeout }
     });
   }
 };

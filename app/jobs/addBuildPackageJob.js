@@ -24,7 +24,7 @@ const addBuildPackagerJobs = async function(packageNames) {
       queue,
       name: jobConfig.name,
       data: { name },
-      opts: { jobId }
+      opts: { jobId, timeout: jobConfig.timeout }
     });
   }
 };
