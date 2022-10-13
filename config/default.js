@@ -1,5 +1,16 @@
 // Default configurations.
 
+const defaultJobOptions = {
+  removeOnComplete: true,
+  removeOnFail: false,
+  attempts: 3,
+  timeout: 60000,
+  backoff: {
+    type: "exponential",
+    delay: 30000,
+  }
+};
+
 module.exports = {
   // Debug flag
   debug: true,
@@ -19,30 +30,25 @@ module.exports = {
 
   // Queue settings.
   queueSettings: {
-    main: {
+    pkg: {
       concurrency: 5,
-      defaultJobOptions: {
-        removeOnComplete: true,
-        removeOnFail: false,
-        attempts: 3,
-        timeout: 60000,
-        backoff: {
-          type: "exponential",
-          delay: 30000,
-        }
-      }
+      defaultJobOptions
+    },
+    rel: {
+      concurrency: 5,
+      defaultJobOptions
     },
   },
 
   // Jobs.
   jobs: {
     buildPackage: {
-      queue: "main",
+      queue: "pkg",
       name: "build-pkg",
       timeout: 60000 * 5,
     },
     buildRelease: {
-      queue: "main",
+      queue: "rel",
       name: "build-rel",
       timeout: 60000 * 30,
       interval: 30000,

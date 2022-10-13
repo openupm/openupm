@@ -1,9 +1,10 @@
 // Show queue status
-const { getQueue } = require("./core");
+const { getQueue, hasQueue } = require("./core");
 const logger = require("../utils/log")(module);
 
 // Show queue status
 const showQueueStatus = async function (queueName, verbose) {
+  console.log(`######################## Queue ${queueName} ########################`);
   const queue = getQueue(queueName);
   const sections = [
     { name: "Waiting", getter: "getWaiting", counter: "getWaitingCount" },
@@ -12,9 +13,11 @@ const showQueueStatus = async function (queueName, verbose) {
     { name: "Failed", getter: "getFailed", counter: "getFailedCount" },
     { name: "Delayed", getter: "getDelayed", counter: "getDelayedCount" },
   ]
+  let isDrained = true;
   for (const section of sections) {
     const count = await queue[section.counter]();
     if (count > 0) {
+      isDrained = false;
       console.log(`${section.name} (${count}):`);
       const ls = await queue[section.getter]();
       for (const job of ls) {
@@ -29,20 +32,31 @@ const showQueueStatus = async function (queueName, verbose) {
       }
     }
   }
+  if (isDrained) {
+    console.log("empty queue");
+  }
 };
 
 module.exports = { showQueueStatus };
 
 if (require.main === module) {
   let program = require("../utils/commander");
-  let _queueName = null;
+  let _queues = null;
   program
     .option("--verbose", "show verbose job info")
-    .arguments("<queueName>")
-    .action(queueName => {
-      _queueName = queueName;
+    .arguments("[queues...]")
+    .action(function (queues) {
+      for (const queueName of queues) {
+        if (!hasQueue(queueName))
+          throw new Error(`Can not recognize settings for queue name=${queueName}.`);
+      }
+      _queues = queues;
     })
     .parse(process.argv)
     .requiredArgs(1)
-    .run(showQueueStatus, _queueName, program.verbose);
+    .run(async function () {
+      for (const queueName of _queues) {
+        await showQueueStatus(queueName, program.verbose);
+      }
+    });
 }

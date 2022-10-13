@@ -42,7 +42,7 @@ const jobHandler = async function (job) {
 };
 
 // Dispatch job to worker
-const dispatch = function (queueName) {
+const dispatch = async function (queueName) {
   const worker = getWorker(queueName, jobHandler);
   worker.on("completed", job => {
     logger.info({ jobId: job.id }, "job completed");
@@ -53,7 +53,7 @@ const dispatch = function (queueName) {
   worker.on('drained', () => {
     logger.info("queue drained");
   });
-  worker.run();
+  return worker.run();
 };
 
 if (require.main === module) {
@@ -67,6 +67,8 @@ if (require.main === module) {
       _queueName = queueName;
     })
     .parse(process.argv)
-    .requiredArgs(1);
-  dispatch(_queueName);
+    .requiredArgs(1)
+    .run(async function () {
+      await dispatch(_queueName);
+    })
 }
