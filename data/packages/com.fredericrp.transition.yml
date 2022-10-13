@@ -5,7 +5,7 @@ description: >-
   Those two prefabs allow you to call the transition to be shown or hidden.
   Subscribe to its events to know when you can load something behind the players
   back.
-repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+repoUrl: 'https://github.com/FredericRP/ScreenTransitions'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -13,12 +13,12 @@ topics:
   - gui
   - utilities
 hunter: ''
-gitTagPrefix: screenTransition
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
 image: >-
-  https://github.com/FredericRP/Standard-Assets/raw/47db55d7d0da27622c9683cdaf5f27be7e1d60de/ScreenTransitions/Documentation~/images/transition_demo.gif
-readme: 'primary:ScreenTransitions/README.md'
+  https://github.com/FredericRP/ScreenTransitions/blob/primary/Documentation~/images/transition_demo.gif
+readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
