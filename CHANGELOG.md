@@ -1,3 +1,10 @@
+## [1.52.12](https://github.com/openupm/openupm/compare/1.52.11...1.52.12) (2022-10-13)
+
+
+### Bug Fixes
+
+* **pipelines:** the job timeout is not passed ([fe9386e](https://github.com/openupm/openupm/commit/fe9386eb27e7b8f8b91da6b0090dcab5e22ff201))
+
 ## [1.52.11](https://github.com/openupm/openupm/compare/1.52.10...1.52.11) (2022-10-13)
 
 
