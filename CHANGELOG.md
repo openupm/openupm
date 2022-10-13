@@ -1,3 +1,13 @@
+## [1.52.11](https://github.com/openupm/openupm/compare/1.52.10...1.52.11) (2022-10-13)
+
+
+### Bug Fixes
+
+* **pipelines:** add timeout to job worker ([4abb822](https://github.com/openupm/openupm/commit/4abb822498ba8b5aebe9857a3a9a63dc9ba51ee3))
+* **pipelines:** show job queue opts with the --verbose flag ([f47babe](https://github.com/openupm/openupm/commit/f47babe4c111ef81f6a0ca000550161446d93d7c))
+* **pipelines:** split the main queue to two queues ([fd779fb](https://github.com/openupm/openupm/commit/fd779fbffa6dd0d36ed27385db3deab6cb642d59))
+* **pipelines:** switch from bee-queue to bullmq ([bf8f3d2](https://github.com/openupm/openupm/commit/bf8f3d29507b69dc63baffc74f0abe5d6b6209f2))
+
 ## [1.52.10](https://github.com/openupm/openupm/compare/1.52.9...1.52.10) (2022-10-08)
 
 
