@@ -21,7 +21,7 @@ topics:
 hunter: didimoinc
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 4.4.1
+minVersion: 4.4.3
 image: ''
 readme: 'main:com.didimo.sdk.core/README.md'
 readme_zhCN: ''
