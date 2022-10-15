@@ -1,0 +1,21 @@
+name: com.jonagill.autofill
+displayName: Autofill
+description: >-
+  A utility to automatically retrieve serializable component references on
+  prefabs at edit time.
+repoUrl: 'https://github.com/jonagill/Autofill'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT No Attribution
+topics:
+  - editor-enhancement
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665792079608
