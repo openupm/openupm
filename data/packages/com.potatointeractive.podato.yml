@@ -1,0 +1,21 @@
+name: com.potatointeractive.podato
+displayName: PoDato
+description: Reader/Writer for Unity/C# for easy to hand-write data file format PoDato
+repoUrl: 'https://github.com/tlauterbach/poDato'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - utilities
+hunter: tlauterbach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665937594393
