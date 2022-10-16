@@ -1,3 +1,10 @@
+# [1.53.0](https://github.com/openupm/openupm/compare/1.52.12...1.53.0) (2022-10-16)
+
+
+### Features
+
+* require node v14 ([2fa0162](https://github.com/openupm/openupm/commit/2fa016286d6fd799f478fb37a4e4e3c33e66414f))
+
 ## [1.52.12](https://github.com/openupm/openupm/compare/1.52.11...1.52.12) (2022-10-13)
 
 
