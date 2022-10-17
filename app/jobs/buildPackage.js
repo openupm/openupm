@@ -190,8 +190,8 @@ const updateReleaseRecords = async function (packageName, remoteTags) {
 const addReleaseJobs = async function (releases) {
   const jobConfig = config.jobs.buildRelease;
   const queue = getQueue(jobConfig.queue);
-  for (let i = 0; i < releases.length; i++) {
-    const rel = releases[i];
+  let i = 0;
+  for (const rel of releases) {
     const reason = ReleaseReason.get(rel.reason);
     // Skip creating release job if release already succeeded or failed with an acceptable reason.
     if (
@@ -207,6 +207,7 @@ const addReleaseJobs = async function (releases) {
       data: { name: rel.packageName, version: rel.version },
       opts: { jobId, delay: jobConfig.interval * i, timeout: jobConfig.timeout }
     });
+    i++;
   }
 };
 
