@@ -1,3 +1,10 @@
+## [1.53.1](https://github.com/openupm/openupm/compare/1.53.0...1.53.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* **pipelines:** interval of build release jobs ([3e69362](https://github.com/openupm/openupm/commit/3e693623d58cf7f62028587a5544760ea35f4f19))
+
 # [1.53.0](https://github.com/openupm/openupm/compare/1.52.12...1.53.0) (2022-10-16)
 
 
