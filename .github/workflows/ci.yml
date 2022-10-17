@@ -81,7 +81,7 @@ jobs:
             git checkout -- yarn.lock
             git pull -q
             yarn
-            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-main || echo skip pm2 queue-main reload
+            git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config' && pm2 reload queue-pkg && pm2 reload queue-rel || echo skip pm2 queue-pkg/queue-rel reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload add-build-package-job || echo skip pm2 add-build-package-job reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload fetch-package-extra || echo skip pm2 fetch-package-extra reload
 
