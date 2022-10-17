@@ -1,0 +1,25 @@
+name: com.roytheunissen.createscriptdialog
+displayName: Create Script Dialog
+description: >-
+  A wizard that lets you create scripts from useful templates, with correct
+  namespaces and asmdefs/asmrefs support.
+repoUrl: 'https://github.com/RoyTheunissen/Create-Script-Dialog'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RoyTheunissen/Create-Script-Dialog/raw/52688a3c5f19d73728dacf52d74e77647d4ed58b/Documentation~/Example.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665993599377
