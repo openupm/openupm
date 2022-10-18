@@ -1,8 +1,8 @@
 name: com.freya.mathfs
 displayName: Mathfs
 description: Expanded Math Functionality for Unity
-repoUrl: 'https://github.com/grapefrukt/Mathfs'
-parentRepoUrl: 'https://github.com/FreyaHolmer/Mathfs'
+repoUrl: 'https://github.com/FreyaHolmer/Mathfs'
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
