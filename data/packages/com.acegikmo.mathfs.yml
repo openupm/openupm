@@ -1,6 +1,6 @@
-name: com.freya.mathfs
+name: com.acegikmo.mathfs
 displayName: Mathfs
-description: Expanded Math Functionality for Unity
+description: Advanced math functionality for Unity
 repoUrl: 'https://github.com/FreyaHolmer/Mathfs'
 parentRepoUrl: null
 licenseSpdxId: MIT
