@@ -1,0 +1,19 @@
+name: com.kamishiro.vrcparammargesys
+displayName: VRC Parameter Marge System
+description: Parameter Marge System for VRChat Avatars.
+repoUrl: 'https://github.com/AoiKamishiro/VRCParamMarge'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666220154062
