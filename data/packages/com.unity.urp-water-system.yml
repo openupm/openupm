@@ -1,4 +1,4 @@
-ame: com.unity.urp-water-system
+name: com.unity.urp-water-system
 displayName: URP Water System
 description: 'A water system for use in URP, developed for the Boat Attack demo project.'
 repoUrl: 'https://github.com/Unity-Technologies/boat-attack-water'
