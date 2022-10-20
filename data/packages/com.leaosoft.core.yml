@@ -8,12 +8,10 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - frameworks
-  - services
   - utilities
+  - frameworks
   - input-management
   - editor-enhancement
-  - mobile
 hunter: WendellLeao
 gitTagPrefix: ''
 gitTagIgnore: ''
