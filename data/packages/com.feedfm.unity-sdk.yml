@@ -1,0 +1,21 @@
+name: com.feedfm.unity-sdk
+displayName: FeedFM Unity SDK
+description: 'The unity sdk for https://www.feed.fm'
+repoUrl: 'https://github.com/feedfm/unity-sdk-3'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: FeedFM Open Source License
+topics:
+  - audio
+  - integration
+  - utilities
+hunter: themadarchitect
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666289561096
