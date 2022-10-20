@@ -1,0 +1,19 @@
+name: com.judahperez.hsvcolorpicker
+displayName: HSV Color Picker
+description: HSV color picker for Unity UI
+repoUrl: 'https://github.com/judah4/HSV-Color-Picker-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: judah4
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v3.3.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666282537932
