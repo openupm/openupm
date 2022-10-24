@@ -1,0 +1,21 @@
+﻿name: com.cloud-creative-studios.unitydebugconsolelogger
+displayName: CCS.Unity.UnityDebugConsoleLogger
+description: >-
+  This package implements the functionality of Microsoft.Extensions.Logging for
+  use with Unity.
+repoUrl: 'https://github.com/cloud-creative-studios/UnityDebugConsoleLogger'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: akiojin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666597908640
