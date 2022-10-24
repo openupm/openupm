@@ -1,0 +1,20 @@
+name: com.esotericsoftware.spine.spine-csharp
+displayName: spine-csharp Runtime
+description: This plugin provides the spine-csharp core runtime.
+repoUrl: 'https://github.com/EsotericSoftware/spine-runtimes'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Spine Runtimes License
+topics:
+  - 2d
+  - animation
+hunter: r4p0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: '4.1:spine-csharp/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666593056292
