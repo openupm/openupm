@@ -1,4 +1,4 @@
-name: com.inklestudios.ink-unity-integration
+name: com.inkle.ink-unity-integration
 displayName: Ink Unity Integration
 description: Unity integration for the open source ink narrative scripting language.
 repoUrl: 'https://github.com/inkle/ink-unity-integration'
