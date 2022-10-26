@@ -1,0 +1,23 @@
+name: io.spatial.unitysdk
+displayName: Spatial Unity SDK
+description: >-
+  This package allows creators to build 3D environments using the Unity editor
+  and publish them to Spatial.io
+repoUrl: 'https://github.com/spatialsys/spatial-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+  - level-design
+hunter: spatialsys
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666806519188
