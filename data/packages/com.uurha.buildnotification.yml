@@ -1,0 +1,22 @@
+name: com.uurha.buildnotification
+displayName: Unity Build Notification
+description: Unity Build Notification
+repoUrl: 'https://github.com/uurha/BuildNotification'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - services
+  - utilities
+hunter: uurha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666820473555
