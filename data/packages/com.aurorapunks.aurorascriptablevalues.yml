@@ -1,0 +1,22 @@
+name: com.aurorapunks.aurorascriptablevalues
+displayName: Aurora Scriptable Values
+description: Set up games using Scriptable Objects.
+repoUrl: 'https://github.com/Aurora-Punks/aurora-scriptable-values'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+  - integration
+  - visual-scripting
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666875180195
