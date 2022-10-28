@@ -1,0 +1,21 @@
+name: com.adrenak.cysharp.utf8json
+displayName: Utf8json (adrenak upm)
+description: >-
+  Definitely Fastest and Zero Allocation JSON Serializer for C#(.NET, .NET Core,
+  Unity and Xamarin).
+repoUrl: 'https://github.com/adrenak/utf8json'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666954088712
