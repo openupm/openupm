@@ -3,8 +3,8 @@ displayName: Oculus Integration VR
 description: Unofficial mirror of the Oculus Unity-Integration VR as a package.
 repoUrl: 'https://github.com/Trisgram/com.oculus.unity.integration.vr'
 parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: null
+licenseName: Oculus SDK License
 topics:
   - ar-and-vr
 hunter: Morbeavus
