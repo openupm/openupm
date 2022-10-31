@@ -1,0 +1,19 @@
+﻿name: com.cloud-creative-studios.unity.unirx.extensions
+displayName: UniRx.Extensions
+description: UniRx.Extensions
+repoUrl: 'https://github.com/cloud-creative-studios/UniRx.Extensions'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: akiojin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667193156895
