@@ -1,0 +1,20 @@
+name: com.oculus.unity.integration.avatar
+displayName: Oculus Integration Avatar
+description: Unofficial mirror of the Oculus Unity-Integration Avatar as a package for Unity.
+repoUrl: 'https://github.com/Trisgram/com.oculus.unity.integration.avatar'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Oculus SDK License
+topics:
+  - ar-and-vr
+hunter: Morbeavus
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Trisgram/com.oculus.unity.integration.vr/raw/c9916870511125b4e9e28774f0484e3f390ae4c3/Textures/Icons/OculusIcon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667072073909
