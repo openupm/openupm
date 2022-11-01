@@ -1,0 +1,19 @@
+name: com.chickengames.uimanager
+displayName: UIManagerForMe
+description: This is an Test package
+repoUrl: 'https://github.com/JongSeonPark/Unity_UIManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: JongSeonPark
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'dev:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667288341274
