@@ -1,0 +1,21 @@
+name: microsoft.entityframeworkcore.3.1.25
+displayName: Entity Framework Core 3.1.25
+description: Pack of required DLLs for .NET Standard 2.0 of EntityFrameworkCore 3.1.25
+repoUrl: 'https://github.com/IvanMurzak/Unity-EntityFrameworkCore.3.1.25'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+  - integration
+hunter: SnowWindSaveYou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667356733776
