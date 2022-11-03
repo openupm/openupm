@@ -1,0 +1,19 @@
+name: com.sschmid.desperatedevs.threading
+displayName: DesperateDevs.Threading
+description: DesperateDevs.Threading
+repoUrl: 'https://github.com/sschmid/com.sschmid.desperatedevs'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: sschmid
+gitTagPrefix: com.sschmid.desperatedevs.threading
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.desperatedevs.threading/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667495864591
