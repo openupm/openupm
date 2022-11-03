@@ -1,0 +1,19 @@
+name: com.sschmid.desperatedevs.unity
+displayName: DesperateDevs.Unity
+description: DesperateDevs.Unity
+repoUrl: 'https://github.com/sschmid/com.sschmid.desperatedevs'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: sschmid
+gitTagPrefix: com.sschmid.desperatedevs.unity
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.desperatedevs.unity/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667496336550
