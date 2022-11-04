@@ -1,0 +1,22 @@
+name: com.autsoft.unitysupplements.licensegenerator
+displayName: License Generator
+description: Generate a merged license asset from packages and other assets.
+repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: bezo97
+gitTagPrefix: licensegenerator/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/AutSoft/AutSoft.UnitySupplements/raw/211c886ae4a7c602aa74699bb42b97118e1a3637/Documentation/templates/autsoft/logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667551974845
