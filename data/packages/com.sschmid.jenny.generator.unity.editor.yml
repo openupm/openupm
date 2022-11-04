@@ -1,0 +1,19 @@
+name: com.sschmid.jenny.generator.unity.editor
+displayName: Jenny.Generator.Unity.Editor
+description: A lovely .NET Code Generator
+repoUrl: 'https://github.com/sschmid/com.sschmid.jenny'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - code-generation
+hunter: sschmid
+gitTagPrefix: com.sschmid.jenny.generator.unity.editor
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.jenny.generator.unity.editor/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667585023285
