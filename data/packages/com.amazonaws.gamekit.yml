@@ -1,0 +1,27 @@
+name: com.amazonaws.gamekit
+displayName: AWS GameKit
+description: >-
+  Use the AWS GameKit package to configure and deploy backend cloud services for
+  your game, and connect to it from your frontend game code using custom API
+  libraries.
+
+
+  To get started, open the AWS GameKit menu from the toolbar and choose Settings
+  to set up your cloud project and explore each game feature.
+repoUrl: 'https://github.com/aws/aws-gamekit-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/aws/aws-gamekit-unity/raw/1d3ab6102417dbb5e155c7d302516e1329d8148c/Packages/com.amazonaws.gamekit/Editor/Resources/Textures/QuickAccessWindow/FeatureIcon-GameStateCloudSaving-Light.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667735606901
