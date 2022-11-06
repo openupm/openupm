@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - network
 hunter: sschmid
-gitTagPrefix: com.sschmid.tcpeasy
+gitTagPrefix: com.sschmid.tcpeasy/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

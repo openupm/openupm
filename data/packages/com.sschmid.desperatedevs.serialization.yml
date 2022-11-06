@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - utilities
 hunter: sschmid
-gitTagPrefix: com.sschmid.desperatedevs.serialization
+gitTagPrefix: com.sschmid.desperatedevs.serialization/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

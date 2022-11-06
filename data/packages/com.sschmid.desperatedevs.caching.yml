@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - utilities
 hunter: sschmid
-gitTagPrefix: com.sschmid.desperatedevs.caching
+gitTagPrefix: com.sschmid.desperatedevs.caching/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

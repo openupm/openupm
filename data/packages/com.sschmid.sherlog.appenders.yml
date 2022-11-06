@@ -9,7 +9,7 @@ topics:
   - debugging-and-logging
   - network
 hunter: sschmid
-gitTagPrefix: com.sschmid.sherlog.appenders
+gitTagPrefix: com.sschmid.sherlog.appenders/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

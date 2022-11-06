@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - utilities
 hunter: sschmid
-gitTagPrefix: com.sschmid.desperatedevs.unity
+gitTagPrefix: com.sschmid.desperatedevs.unity/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - utilities
 hunter: sschmid
-gitTagPrefix: com.sschmid.desperatedevs.threading
+gitTagPrefix: com.sschmid.desperatedevs.threading/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

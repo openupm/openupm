@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - debugging-and-logging
 hunter: sschmid
-gitTagPrefix: com.sschmid.sherlog
+gitTagPrefix: com.sschmid.sherlog/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

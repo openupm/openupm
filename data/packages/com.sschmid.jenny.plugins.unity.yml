@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - code-generation
 hunter: sschmid
-gitTagPrefix: com.sschmid.jenny.plugins.unity
+gitTagPrefix: com.sschmid.jenny.plugins.unity/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

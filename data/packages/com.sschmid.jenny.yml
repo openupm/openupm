@@ -8,7 +8,7 @@ licenseName: MIT
 topics:
   - code-generation
 hunter: sschmid
-gitTagPrefix: com.sschmid.jenny
+gitTagPrefix: com.sschmid.jenny/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
