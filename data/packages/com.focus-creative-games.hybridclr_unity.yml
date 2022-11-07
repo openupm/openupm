@@ -3,8 +3,8 @@ displayName: HybridCLR
 description: >-
   Unity package for HybridCLR. It includes editor and runtime scripts and assets
   for HybridCLR
-repoUrl: 'https://github.com/ldr123/hybridclr_unity'
-parentRepoUrl: 'https://github.com/focus-creative-games/hybridclr_unity'
+repoUrl: 'https://github.com/focus-creative-games/hybridclr_unity'
+parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
