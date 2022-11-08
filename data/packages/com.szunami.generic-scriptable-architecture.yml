@@ -1,0 +1,21 @@
+name: com.szunami.generic-scriptable-architecture
+displayName: Generic ScriptableObject Architecture
+description: >-
+  ScriptableObject architecture with small, easy-to-expand codebase, and simple
+  UI.
+repoUrl: 'https://github.com/szunami/GenericScriptableArchitecture'
+parentRepoUrl: 'https://github.com/steve-salmond/GenericScriptableArchitecture'
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: szunami
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667940395464
