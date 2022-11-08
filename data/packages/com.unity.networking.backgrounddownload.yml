@@ -1,0 +1,35 @@
+name: com.unity.networking.backgrounddownload
+displayName: Background Download
+description: >-
+  Enable file downloads in background for mobile platforms
+
+  Allows to launch file downloads that will continue even if the app goes into
+  background or gets quit by the operating system. The downloads can be picked
+  the next time the app is started.
+
+  Supported platforms are: 
+
+  ▪ Android 
+
+  ▪ iOS 
+
+  ▪ Universal Windows Platform
+repoUrl: 'https://github.com/Unity-Technologies/BackgroundDownload'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unity Companion License
+topics:
+  - parallelism-and-concurrency
+  - mobile
+  - network
+  - utilities
+hunter: nvandessel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667869448516
