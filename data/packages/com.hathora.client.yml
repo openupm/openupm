@@ -1,0 +1,20 @@
+name: com.hathora.client
+displayName: Hathora Client SDK
+description: ''
+repoUrl: 'https://github.com/szunami/client-sdk-csharp'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - integration
+  - network
+hunter: szunami
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668019680608
