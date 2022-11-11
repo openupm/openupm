@@ -1,5 +1,5 @@
-﻿name: com.cloud-creative-studios.unitydebugconsolelogger
-displayName: CCS.Unity.UnityDebugConsoleLogger
+﻿name: com.cloud-creative-studios.unity.debugconsolelogger
+displayName: CCS.Unity.DebugConsoleLogger
 description: >-
   This package implements the functionality of Microsoft.Extensions.Logging for
   use with Unity.
