@@ -3,8 +3,8 @@ displayName: Entity Inspector Extension
 description: Package for implementing custom entity component inspectors.
 repoUrl: 'https://github.com/OndrejPetrzilka/EntityComponentInspector'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - dots-and-ecs
   - editor-enhancement

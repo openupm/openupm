@@ -3,8 +3,8 @@ displayName: JS Custom Variable
 description: Package with new variable formats using ScriptableObjects
 repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT License
+licenseSpdxId: MIT
+licenseName: MIT License License
 topics:
   - data-management
   - services

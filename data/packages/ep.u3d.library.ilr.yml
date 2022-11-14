@@ -3,8 +3,8 @@ displayName: EP.U3D.LIBRARY.ILR
 description: ILR module.
 repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.ILR'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT License
+licenseSpdxId: MIT
+licenseName: MIT License License
 topics:
   - frameworks
   - utilities

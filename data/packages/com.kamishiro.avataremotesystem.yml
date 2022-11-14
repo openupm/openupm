@@ -3,8 +3,8 @@ displayName: Avatar Emote System
 description: Emote System for VRChat Avatars.
 repoUrl: 'https://github.com/AoiKamishiro/AvatarEmoteSystem'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - ar-and-vr
 hunter: AoiKamishiro

@@ -3,8 +3,8 @@ displayName: Singleton
 description: Supports Unity's simple Singleton Behavior.
 repoUrl: 'https://github.com/pspkurara/singleton'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - data-management
   - editor-enhancement

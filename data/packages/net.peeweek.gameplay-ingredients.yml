@@ -5,8 +5,8 @@ description: >-
   scripts that ease simple tasks while making games and prototypes.
 repoUrl: 'https://github.com/peeweek/net.peeweek.gameplay-ingredients'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
   - utilities

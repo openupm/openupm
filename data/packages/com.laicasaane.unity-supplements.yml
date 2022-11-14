@@ -3,8 +3,8 @@ displayName: Unity Supplements
 description: Additional types and functionality
 repoUrl: 'https://github.com/laicasaane/unity-supplements'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: laicasaane

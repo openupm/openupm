@@ -14,8 +14,8 @@ description: >-
   built-bundle inspection are split into three tabs within the new window.
 repoUrl: 'https://github.com/michael811125/AssetBundles-Browser-Plus'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - utilities

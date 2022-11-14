@@ -3,8 +3,8 @@ displayName: Sceneries
 description: A simple uGUI screen transition system.
 repoUrl: 'https://github.com/pspkurara/sceneries'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
   - frameworks

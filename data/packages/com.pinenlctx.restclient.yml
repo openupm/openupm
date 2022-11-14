@@ -3,8 +3,8 @@ displayName: Rest Client
 description: Unity3D http rest client
 repoUrl: 'https://github.com/pinealctx/RestClient'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: pinenlctx

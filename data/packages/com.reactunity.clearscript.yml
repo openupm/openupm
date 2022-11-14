@@ -3,8 +3,8 @@ displayName: React Unity ClearScript
 description: ClearScript (V8) Plugin for ReactUnity
 repoUrl: 'https://github.com/ReactUnity/clearscript'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - frameworks
   - gui

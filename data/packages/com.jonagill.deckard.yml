@@ -5,8 +5,8 @@ description: >-
   files, printable pages, and sprite atlases.
 repoUrl: 'https://github.com/jonagill/Deckard'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT No Attribution
+licenseSpdxId: MIT
+licenseName: MIT License No Attribution
 topics:
   - editor-enhancement
 hunter: jonagill

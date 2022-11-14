@@ -3,8 +3,8 @@ displayName: XiKeyboard
 description: XiKeyboard is tiny keyboard shortcuts system for Unity 3D.
 repoUrl: 'https://github.com/hww/XiKeyboard'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - debugging-and-logging
   - frameworks

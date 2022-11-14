@@ -3,8 +3,8 @@ displayName: Kore
 description: 'A common library, framework for Unity.'
 repoUrl: 'https://github.com/Kuuo/Kore'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: kuuo

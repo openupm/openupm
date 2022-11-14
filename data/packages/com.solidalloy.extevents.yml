@@ -3,8 +3,8 @@ displayName: ExtEvents
 description: 'UnityEvents, but better.'
 repoUrl: 'https://github.com/SolidAlloy/ExtEvents'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT License modified with Commons Clause Restriction
+licenseSpdxId: MIT
+licenseName: MIT License License modified with Commons Clause Restriction
 topics:
   - code-generation
   - data-management

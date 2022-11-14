@@ -3,8 +3,8 @@ displayName: Unity.UniRx.Observables
 description: Unity.UniRx.Observables
 repoUrl: 'https://github.com/cloud-creative-studios/UniRx.Extensions'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: akiojin

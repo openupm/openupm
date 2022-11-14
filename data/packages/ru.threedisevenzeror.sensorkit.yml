@@ -3,8 +3,8 @@ displayName: Sensor Kit
 description: Utility classes for headache-free raycasting configuration in Unity
 repoUrl: 'https://github.com/3DI70R/SensorKit'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - physics
 hunter: 3DI70R

@@ -3,8 +3,8 @@ displayName: Needle Context Menu
 description: Utility that allows to hide and modify project window context menu items
 repoUrl: 'https://github.com/needle-tools/needle-context-menu'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: needle-tools

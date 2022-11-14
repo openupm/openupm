@@ -5,8 +5,8 @@ description: >-
   animation bindings a drag-drop operation
 repoUrl: 'https://github.com/needle-tools/animation-utils'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
   - editor-enhancement

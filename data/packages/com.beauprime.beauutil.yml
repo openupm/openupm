@@ -3,8 +3,8 @@ displayName: BeauUtil
 description: Utility library for Unity3d.
 repoUrl: 'https://github.com/BeauPrime/BeauUtil'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - 2d
   - camera

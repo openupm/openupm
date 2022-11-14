@@ -3,8 +3,8 @@ displayName: VRC Parameter Marge System
 description: Parameter Marge System for VRChat Avatars.
 repoUrl: 'https://github.com/AoiKamishiro/VRCParamMargeSystem'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: AoiKamishiro

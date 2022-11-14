@@ -3,8 +3,8 @@ displayName: Sturfee VPS Networking
 description: Networking SDK to Sturfee VPS
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.networking'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT License
+licenseSpdxId: MIT
+licenseName: MIT License License
 topics:
   - ar-and-vr
 hunter: kushG

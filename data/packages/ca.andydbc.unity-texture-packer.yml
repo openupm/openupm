@@ -5,8 +5,8 @@ description: >-
   single output.
 repoUrl: 'https://github.com/andydbc/unity-texture-packer'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
 hunter: pixelwizards

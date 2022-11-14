@@ -5,8 +5,8 @@ description: >-
   UI.
 repoUrl: 'https://github.com/szunami/GenericScriptableArchitecture'
 parentRepoUrl: 'https://github.com/steve-salmond/GenericScriptableArchitecture'
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: szunami

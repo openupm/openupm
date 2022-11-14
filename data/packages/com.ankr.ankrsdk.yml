@@ -5,8 +5,8 @@ description: >-
   contracts deployed on the blockchain.
 repoUrl: 'https://github.com/Ankr-network/game-unity-sdk'
 parentRepoUrl: 'https://github.com/mirage-xyz/mirage-unity-sdk'
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - frameworks
   - mobile

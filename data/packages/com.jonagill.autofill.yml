@@ -5,8 +5,8 @@ description: >-
   prefabs at edit time.
 repoUrl: 'https://github.com/jonagill/Autofill'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT No Attribution
+licenseSpdxId: MIT
+licenseName: MIT License No Attribution
 topics:
   - editor-enhancement
 hunter: jonagill

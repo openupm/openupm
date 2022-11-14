@@ -5,8 +5,8 @@ description: >-
   large files
 repoUrl: 'https://github.com/needle-tools/git-hooks'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
   - version-control

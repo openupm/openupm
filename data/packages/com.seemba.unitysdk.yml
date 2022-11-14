@@ -3,8 +3,8 @@ displayName: SeembaSDK
 description: 'Seemba, the last and only in game monetization system you will ever need.'
 repoUrl: 'https://github.com/Seemba-Gaming/unity-sdk'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - services
   - mobile

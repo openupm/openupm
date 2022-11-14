@@ -3,8 +3,8 @@ displayName: UnityChan-ToonShader
 description: UTS Package
 repoUrl: 'https://github.com/AoiKamishiro/UTS2'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - particles-and-effects
 hunter: AoiKamishiro

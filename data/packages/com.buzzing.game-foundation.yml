@@ -5,8 +5,8 @@ description: >-
   extensible so that developers can focus on building unique gameplay.
 repoUrl: 'https://github.com/BuzzingStudio/GameFoundation'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - data-management

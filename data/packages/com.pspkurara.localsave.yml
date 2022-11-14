@@ -3,8 +3,8 @@ displayName: LocalSave
 description: Supports Unity's simple local save utility.
 repoUrl: 'https://github.com/pspkurara/localsave'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - data-management
   - utilities

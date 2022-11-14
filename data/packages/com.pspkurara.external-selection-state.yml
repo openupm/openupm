@@ -9,8 +9,8 @@ description: >-
   Toggle, and implement this library.
 repoUrl: 'https://github.com/pspkurara/external-selecion-state'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - gui
 hunter: pspkurara

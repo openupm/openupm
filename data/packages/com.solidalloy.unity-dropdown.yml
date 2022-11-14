@@ -3,8 +3,8 @@ displayName: Unity Dropdown
 description: A better dropdown window for Unity Editor
 repoUrl: 'https://github.com/SolidAlloy/UnityDropdown'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT License modified with Commons Clause Restriction
+licenseSpdxId: MIT
+licenseName: MIT License License modified with Commons Clause Restriction
 topics:
   - editor-enhancement
   - gui

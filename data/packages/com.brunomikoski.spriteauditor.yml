@@ -3,8 +3,8 @@ displayName: Sprite Auditor
 description: null
 repoUrl: 'https://github.com/brunomikoski/SpriteAuditor'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
   - editor-enhancement

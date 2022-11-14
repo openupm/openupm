@@ -3,8 +3,8 @@ displayName: Sturfee XRCS
 description: API for Sturfee's XRCS a.k.a Digital Twin Editor
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.xrcs'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT License
+licenseSpdxId: MIT
+licenseName: MIT License License
 topics:
   - ar-and-vr
 hunter: kushG

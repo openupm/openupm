@@ -3,8 +3,8 @@ displayName: kMotion
 description: Motion Blur for Unity's Universal Render Pipeline.
 repoUrl: 'https://github.com/Kink3d/kMotion'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - particles-and-effects
 hunter: JesseTG

@@ -3,8 +3,8 @@ displayName: ReadMeInspector
 description: ReadMeInspector
 repoUrl: 'https://github.com/AoiKamishiro/ReadMe-Inspector'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT Licence
+licenseSpdxId: MIT
+licenseName: MIT License Licence
 topics:
   - asset-management
 hunter: AoiKamishiro

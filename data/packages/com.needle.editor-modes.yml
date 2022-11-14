@@ -5,8 +5,8 @@ description: >-
   startup in a specific Editor Mode
 repoUrl: 'https://github.com/needle-tools/unity-editor-modes'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
   - utilities

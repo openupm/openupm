@@ -3,8 +3,8 @@ displayName: Sherlog
 description: Flexible logging for C# and Unity
 repoUrl: 'https://github.com/sschmid/com.sschmid.sherlog'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - debugging-and-logging
 hunter: sschmid

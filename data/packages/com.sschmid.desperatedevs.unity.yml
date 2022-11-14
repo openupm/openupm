@@ -3,8 +3,8 @@ displayName: DesperateDevs.Unity
 description: DesperateDevs.Unity
 repoUrl: 'https://github.com/sschmid/com.sschmid.desperatedevs'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: sschmid

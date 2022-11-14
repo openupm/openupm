@@ -3,8 +3,8 @@ displayName: Hathora Client SDK
 description: ''
 repoUrl: 'https://github.com/szunami/client-sdk-csharp'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - integration
   - network

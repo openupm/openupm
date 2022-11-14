@@ -5,8 +5,8 @@ description: >-
   for specifying that a folder will contain Sprites.
 repoUrl: 'https://github.com/markeahogan/importerpresets'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT License
+licenseSpdxId: MIT
+licenseName: MIT License License
 topics:
   - asset-management
   - editor-enhancement
