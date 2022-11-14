@@ -4,7 +4,7 @@ description: Base on http remote connector
 repoUrl: 'https://github.com/Goatman1996/HttpRemoteConnector'
 parentRepoUrl: null
 licenseSpdxId: ''
-licenseName: LICENES
+licenseName: MIT
 topics:
   - debugging-and-logging
 hunter: Goatman1996
