@@ -1,7 +1,7 @@
 name: com.hathora.client
 displayName: Hathora Client SDK
 description: ''
-repoUrl: 'https://github.com/szunami/client-sdk-csharp'
+repoUrl: 'https://github.com/hathora/buildkits'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -9,7 +9,7 @@ topics:
   - integration
   - network
 hunter: szunami
-gitTagPrefix: ''
+gitTagPrefix: 'openupm'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
