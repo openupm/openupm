@@ -1,0 +1,22 @@
+name: com.tomoclub.multiplayersdk
+displayName: Multiplayer SDK
+description: >-
+  Common lobby system for multiplayer games using Photon Pun 2. Features include
+  arena generation, custom game settings etc
+repoUrl: 'https://github.com/tomoclub-games/TomoClub_MultiplayerSDK'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - network
+hunter: tomclub-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668446975857
