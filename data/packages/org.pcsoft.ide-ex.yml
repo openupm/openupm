@@ -1,0 +1,27 @@
+name: org.pcsoft.ide-ex
+displayName: IDE Extension for Unity
+description: Extension for Unity for a better IDE.
+repoUrl: 'https://github.com/KleinerHacker/unity-ide-ex'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - code-generation
+  - debugging-and-logging
+  - editor-enhancement
+  - integration
+  - package-management
+  - testing
+  - utilities
+  - version-control
+hunter: kleinerhacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668792465307
