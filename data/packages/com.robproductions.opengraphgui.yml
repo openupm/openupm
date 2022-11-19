@@ -1,0 +1,24 @@
+name: com.robproductions.opengraphgui
+displayName: Open Graph GUI
+description: >-
+  An open-source generic Shader GUI for use with URP ShaderGraphs. This package
+  aims to help developers clean up the look of their Material properties while
+  maintaining the built-in style.
+repoUrl: 'https://github.com/RobProductions/OpenGraphGUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: RobProductions
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RobProductions/OpenGraphGUI/raw/2ef4bc340d37f15c34195cbde44b1531af155311/Documentation~/DocAssets/FoldoutGroupsScreenshot.jpg
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668820564670
