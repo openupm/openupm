@@ -1,8 +1,8 @@
-name: org.appegy.att-loc
+name: com.appegy.att-loc
 displayName: iOS ATT Localization
 description: >-
   Provides localization of App Tracking Transparency (ATT) descriptions. 
-  Perfectly works with Unity's iOS 14 Advertising Supportpackage.
+  Perfectly works with Unity's iOS 14 Advertising Support package.
 repoUrl: 'https://github.com/appegy/att-loc'
 parentRepoUrl: null
 licenseSpdxId: MIT
