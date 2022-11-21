@@ -1,0 +1,29 @@
+name: com.hqcchina.gameframework
+displayName: Game Framework
+description: >-
+  This is literally a game framework, based on Unity game engine. It
+  encapsulates commonly used game modules during development, and, to a large
+  degree, standardises the process, enhances the development speed and ensures
+  the product quality.
+repoUrl: 'https://github.com/hqcchina/GameFramework'
+parentRepoUrl: 'https://github.com/EllanJiang/UnityGameFramework'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - asset-management
+  - debugging-and-logging
+  - frameworks
+  - gui
+  - localization
+  - network
+hunter: hqcchina
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669021031173
