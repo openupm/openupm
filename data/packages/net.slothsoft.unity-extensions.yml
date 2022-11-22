@@ -11,10 +11,10 @@ topics:
 hunter: Faulo
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '2020.3'
+minVersion: ''
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
-createdAt: 1668963644873
+createdAt: 1610470403918
