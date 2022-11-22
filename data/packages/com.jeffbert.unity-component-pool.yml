@@ -1,0 +1,21 @@
+name: com.jeffbert.unity-component-pool
+displayName: Component Pool
+description: >-
+  Pooling system designed to work with Unity components. Reduces memory
+  allocations by reusing disabled components.
+repoUrl: 'https://github.com/jeffbert/Unity-Component-Pool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: jeffbert
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669159088270
