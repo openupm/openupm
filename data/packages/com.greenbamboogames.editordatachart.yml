@@ -1,0 +1,21 @@
+name: com.greenbamboogames.editordatachart
+displayName: Editor Data Chart!
+description: Draw data chart in Unity Editor.
+repoUrl: 'https://github.com/SolarianZ/UnityEditorDataChartTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README_CN.md'
+displayName_zhCN: Editor数据图表绘制工具
+description_zhCN: 在Unity Editor绘制数据图表。
+createdAt: 1669463171616
