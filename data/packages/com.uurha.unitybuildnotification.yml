@@ -1,7 +1,7 @@
-name: com.uurha.buildnotification
+name: com.uurha.unitybuildnotification
 displayName: Unity Build Notification
 description: Unity Build Notification
-repoUrl: 'https://github.com/uurha/BuildNotification'
+repoUrl: 'https://github.com/uurha/UnityBuildNotification'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
