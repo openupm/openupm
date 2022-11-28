@@ -1,0 +1,20 @@
+name: com.ucl.ubiq
+displayName: Ubiq
+description: Create networked VR experiences with Ubiq
+repoUrl: 'https://github.com/UCL-VR/ubiq'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache 2.0
+topics:
+  - ar-and-vr
+  - network
+hunter: bnjco
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://github.com/UCL-VR/ubiq/blob/master/Documentation/docs/images/0f1c2fc3-2615-4f15-93c4-7533af6697eb.png?raw=true'
+readme: ''
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669653796467
