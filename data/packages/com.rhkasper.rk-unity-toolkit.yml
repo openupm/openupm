@@ -1,0 +1,31 @@
+name: com.rhkasper.rk-unity-toolkit
+displayName: RK Unity Toolkit
+description: >-
+  An open source library of extension methods and tools that make solving many
+  common problems in Unity cleaner, faster, and easier.
+repoUrl: 'https://github.com/RHKasper/com.rhkasper.rk-unity-toolkit'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - 2d
+  - ar-and-vr
+  - camera
+  - data-management
+  - debugging-and-logging
+  - dots-and-ecs
+  - editor-enhancement
+  - frameworks
+  - gui
+  - physics
+  - utilities
+hunter: RHKasper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669778118833
