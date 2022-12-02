@@ -1,0 +1,19 @@
+name: com.jeffcampbellmakesgames.utility
+displayName: JCMG Utility
+description: A utility library for Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/jcmg-utility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'release/stable:Utility/CHANGELOG.MD'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669992350763
