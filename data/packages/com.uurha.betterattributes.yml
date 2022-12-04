@@ -1,5 +1,5 @@
 name: com.uurha.betterattributes
-displayName: Unity Better Attributes
+displayName: Better Attributes
 description: >-
   Unity attributes, allows to serialize interfaces, draw handles for
   Vector3/Vector2/Quaternion/Bounds, create read only fields.
