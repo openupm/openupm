@@ -1,6 +1,6 @@
 name: com.uurha.buildnotification
-displayName: Unity Build Notification
-description: Unity Build Notification
+displayName: Build Notification
+description: Build Notification tool allows developers to receive notificaiton about build completion
 repoUrl: 'https://github.com/uurha/BuildNotification'
 parentRepoUrl: null
 licenseSpdxId: MIT
