@@ -1,0 +1,30 @@
+name: com.ls9512.uextension
+displayName: UExtension
+description: >-
+  UExtension is a basic type extension library for .Net and Unity projects. It
+  integrates a large number of commonly used, efficient and convenient extension
+  methods, which helps to greatly improve development efficiency.
+repoUrl: 'https://github.com/ls9512/UExtension'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - frameworks
+  - gui
+  - mobile
+  - profiling
+  - testing
+  - utilities
+hunter: ls9512
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:.github/README.md'
+readme_zhCN: 'master:.github/README_CN.md'
+displayName_zhCN: UExtension
+description_zhCN: UExtension 是一个用于 .Net 和 Unity 项目的基础类型扩展函数库，集成大量常用、高效、便捷的扩展方法，有助于大幅度提高开发效率。
+createdAt: 1670394972242
