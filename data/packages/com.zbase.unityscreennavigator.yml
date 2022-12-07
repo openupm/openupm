@@ -1,0 +1,21 @@
+name: com.zbase.unityscreennavigator
+displayName: ZBase.UnityScreenNavigator
+description: >-
+  Library for screen transitions, transition animations, transition history
+  stacking, and lifecycle management in Unity's uGUI.
+repoUrl: 'https://github.com/Zitga-Tech/ZBase.UnityScreenNavigator'
+parentRepoUrl: 'https://github.com/Haruma-K/UnityScreenNavigator'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'zbase:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670398839595
