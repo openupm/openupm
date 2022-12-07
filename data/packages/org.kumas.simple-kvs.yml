@@ -1,0 +1,19 @@
+name: org.kumas.simple-kvs
+displayName: Simple KVS
+description: Simple Key Value Store for Unity.
+repoUrl: 'https://github.com/kumaS-nu/Simple-KVS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: kumaS-nu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2021.2'
+image: 'https://raw.githubusercontent.com/kumaS-nu/Simple-KVS/main/Logo.svg'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670432584423
