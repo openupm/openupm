@@ -1,0 +1,19 @@
+name: com.jonagill.asyncroutines
+displayName: Async Routines
+description: An efficient and feature-rich C# replacement for Unity's coroutine system.
+repoUrl: 'https://github.com/jonagill/AsyncRoutines'
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+topics:
+  - parallelism-and-concurrency
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671144770900
