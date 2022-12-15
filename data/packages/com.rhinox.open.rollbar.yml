@@ -1,0 +1,22 @@
+name: com.rhinox.open.rollbar
+displayName: Rollbar Integration for Unity
+description: Rollbar.NET Integration for Unity
+repoUrl: 'https://github.com/Rhinox-Training/Rollbar.Unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - debugging-and-logging
+  - integration
+  - profiling
+  - testing
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671104641900
