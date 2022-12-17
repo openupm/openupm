@@ -1,0 +1,19 @@
+name: com.pixelwizards.servicelocator
+displayName: PixelWizards - Service Locator
+description: Service Locator
+repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.servicelocator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: pixelwizards
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671309550767
