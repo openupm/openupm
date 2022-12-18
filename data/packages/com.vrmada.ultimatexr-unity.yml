@@ -1,0 +1,38 @@
+name: com.vrmada.ultimatexr-unity
+displayName: UltimateXR
+description: >-
+  UltimateXR is a free, open source XR framework and toolkit for Unity that
+  includes powerful features such as:
+    ▪ Cross-device compatibility
+    ▪ State-of-the-art grab and manipulation mechanics
+    ▪ Advanced hand pose editor
+    ▪ Inclusion through a library of gender- and race-agnostic hands
+    ▪ Customizable full body avatar representation
+    ▪ Advanced UI components
+    ▪ Locomotion mechanics
+    ▪ Fully documented API
+    ▪ High-quality assets
+  ...And much more!
+
+
+  Don't forget to install the samples for a nice showcase of all features.
+repoUrl: 'https://github.com/VRMADA/ultimatexr-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - frameworks
+  - gui
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671376786265
