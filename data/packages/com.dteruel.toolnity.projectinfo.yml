@@ -1,0 +1,20 @@
+name: com.dteruel.toolnity.projectinfo
+displayName: Toolnity Project Info
+description: Tool to centralize all the information about the project.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: project_info
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Project Info/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671402256948
