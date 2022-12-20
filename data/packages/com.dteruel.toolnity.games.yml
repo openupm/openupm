@@ -1,0 +1,22 @@
+name: com.dteruel.toolnity.games
+displayName: Toolnity Games
+description: >-
+  Games for the Unity editor to play during your development and compete with
+  the other project members.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+hunter: DTeruel
+gitTagPrefix: games
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/DTeruel/Toolnity/raw/995372f67f39993de1348e9730fbfe52fb1f1d1f/Packages/Toolnity%20-%20Games/.readme/Minesweeper.png
+readme: 'master:Packages/Toolnity - Games/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671579648769
