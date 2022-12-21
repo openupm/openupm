@@ -190,3 +190,4 @@ scopes:
 - com.realitytoolkit.gltf
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
+- com.didimo.sdk.assetfitter
