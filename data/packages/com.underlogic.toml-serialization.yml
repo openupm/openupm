@@ -1,0 +1,20 @@
+name: com.underlogic.toml-serialization
+displayName: TOML Serialization
+description: Serialization library for TOML files
+repoUrl: 'https://github.com/UnderLogic/toml-serialization'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: ewrogers
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671595266499
