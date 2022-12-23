@@ -1,0 +1,20 @@
+name: jp.co.bexide.bxuni.3dnoisetexturegenerator
+displayName: BxUni 3D Noise Texture Generator
+description: 3D-Noise texture generation tool
+repoUrl: 'https://github.com/bexide/BxUni-3dNoiseTextureGenerator'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LGPL
+topics:
+  - editor-enhancement
+  - procedural-generation
+hunter: bexide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671774967767
