@@ -1,0 +1,21 @@
+name: com.cathei.linqgen
+displayName: LinqGen
+description: Fast Linq-to-object source generator
+repoUrl: 'https://github.com/cathei/LinqGen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - dots-and-ecs
+  - utilities
+hunter: cathei
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671779884708
