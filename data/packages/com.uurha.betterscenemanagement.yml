@@ -1,0 +1,20 @@
+name: com.uurha.betterscenemanagement
+displayName: Better Scene Management
+description: Scene loader with ability to load and serialize SceneAssets
+repoUrl: 'https://github.com/uurha/BetterSceneManagement'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - utilities
+hunter: uurha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671909966773
