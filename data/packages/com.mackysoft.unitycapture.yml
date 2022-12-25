@@ -1,0 +1,22 @@
+name: com.mackysoft.unitycapture
+displayName: UnityCapture for Universal Render Pipeline
+description: >-
+  Streams Unity (Universal Render Pipeline) rendered output to other Windows
+  applications as virtual capture device.
+repoUrl: 'https://github.com/mackysoft/UnityCapture-URP'
+parentRepoUrl: 'https://github.com/schellingb/UnityCapture'
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - camera
+  - video
+hunter: mackysoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671974421917
