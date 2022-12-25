@@ -1,5 +1,5 @@
 name: com.ms-lima.photonserializer
-displayName: Unity Photon Serializer
+displayName: Photon Serializer
 description: >-
   This plugin provides custom type registering method with script and compares
   the difference with other serialization methods.
