@@ -1,0 +1,21 @@
+name: com.quabug.parallel-counting-sort.cpu
+displayName: Parallel Counting Sort (DOTS)
+description: Parallel Counting Sort (DOTS)
+repoUrl: 'https://github.com/quabug/parallel-counting-sort'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - parallelism-and-concurrency
+  - utilities
+hunter: quabug
+gitTagPrefix: cpu/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672044960001
