@@ -9,7 +9,7 @@ showFooter: false
 
 OpenUPM requires the package fulfills the below criteria:
 - The package name should conform to the [Unity Package Manager naming convention](https://docs.unity3d.com/Manual/cus-naming.html)
-- The package should comply with [Unity Terms](https://unity3d.com/legal/terms-of-service/software) and [Package Guidelines](https://unity3d.com/legal/terms-of-service/software/package-guidelines).
+- The package should comply with [Unity Terms](https://unity3d.com/legal/terms-of-service/software) and [Package Guidelines](https://unity.com/legal/terms-of-service/software/package-guidelines).
 - The package should be tested to make sure it works as expected.
 - The `package.json` could be placed at the root path or under a sub-folder.
 - The package should use an open-source license. It's recommended to choose one from the [spdx license list](https://spdx.org/licenses/).
