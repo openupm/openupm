@@ -1,0 +1,19 @@
+name: com.tmd.hierarchy
+displayName: Hierarchy
+description: "hierarchyæ\x98¾ç¤ºå·¥å\N·é\x98¿å\x9D¤ä¸\x8Dè¦\x81ä¹±å\x8A¨ä¸\x8Dæ\x83³ç\x9C\x8Bå°±CTRL+H"
+repoUrl: 'https://github.com/nixuejun888/UntiyArtTool'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - particles-and-effects
+hunter: nixuejun888
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672369841681
