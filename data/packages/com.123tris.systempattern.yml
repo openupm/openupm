@@ -1,0 +1,21 @@
+name: com.123tris.systempattern
+displayName: System Pattern
+description: |-
+  A library that helps you avoid the singleton pattern and create systems
+   that are persistent either through the application's lifetime or of a specific scene.
+repoUrl: 'https://github.com/123tris/SystemPattern'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: 123tris
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673030114050
