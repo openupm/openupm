@@ -1,0 +1,21 @@
+name: com.thejoun.type-switcher
+displayName: Type Switcher
+description: Easily switch the type of a component between derived classes
+repoUrl: 'https://github.com/thejoun/type-switcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: thejoun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/thejoun/type-switcher/raw/f9cf6232878b32c8ee524b83d91c3c6bd302df62/img/enemy-dropdown.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672971761614
