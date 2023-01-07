@@ -1,0 +1,24 @@
+name: com.fluid.dialogue
+displayName: Fluid Dialogue
+description: >-
+  A Unity dialogue system that features an easy to use drag and drop graph.
+  ScriptableObject driven with the ability to write custom actions and
+  conditions to create complex dialogue workflows.
+repoUrl: 'https://github.com/ashblue/fluid-dialogue'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+hunter: oparaskos
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ashblue/fluid-dialogue/raw/23766cf5d5658154a74aa91936efeadd9e648587/docs/example-dialogue.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673105781221
