@@ -3,8 +3,8 @@ displayName: Lockstep.BehaviourTree
 description: BehaviourTree for Lockstep Predict & Rollback
 repoUrl: 'https://github.com/JiepengTan/Lockstep.BehaviourTree'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - ai
   - frameworks
