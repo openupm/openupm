@@ -1,0 +1,22 @@
+name: com.gamestan.lockstepaibehaviourtree
+displayName: Lockstep.BehaviourTree
+description: BehaviourTree for Lockstep Predict & Rollback
+repoUrl: 'https://github.com/JiepengTan/Lockstep.BehaviourTree'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: JiepengTan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/JiepengTan/Lockstep.BehaviourTree/raw/2b0182d036d7fbd166f368c1d8e0c7639b2febe0/Documentation/images/Head.gif
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: Lockstep.BehaviourTree
+description_zhCN: 可用于预测回滚的 帧同步行为树库
+createdAt: 1673147299774
