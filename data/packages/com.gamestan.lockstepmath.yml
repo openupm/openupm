@@ -1,0 +1,20 @@
+name: com.gamestan.lockstepmath
+displayName: Lockstep.Math
+description: A deterministic math lib for lockstep game
+repoUrl: 'https://github.com/JiepengTan/Lockstep.Math'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+  - utilities
+hunter: JiepengTan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: 帧同步数学库
+description_zhCN: 帧同步数学库（基于long 除法）
+createdAt: 1673147456381
