@@ -3,8 +3,8 @@ displayName: Lockstep.Math
 description: A deterministic math lib for lockstep game
 repoUrl: 'https://github.com/JiepengTan/Lockstep.Math'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - frameworks
   - utilities
