@@ -1,0 +1,21 @@
+name: net.tnrd.serializableinterface.generation
+displayName: Serializable Interface Generation
+description: >-
+  An automatic generation addon to Serializable Interface
+repoUrl: 'https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673291713171
