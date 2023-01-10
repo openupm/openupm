@@ -1,7 +1,7 @@
-name: com.siegeup.icon-renderer
+name: com.siegeup.iconrenderer
 displayName: SiegeUp.IconRenderer
 description: Universal extendable icons renderer for items and objects in editor mode.
-repoUrl: 'https://github.com/SiegeUp/SiegeUp-IconRenderer'
+repoUrl: 'https://github.com/SiegeUp/SiegeUp.IconRenderer'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: Abuksigun SiegeUp
