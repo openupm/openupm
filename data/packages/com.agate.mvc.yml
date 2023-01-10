@@ -1,0 +1,19 @@
+name: com.agate.mvc
+displayName: Agate MVC
+description: MVC Framework for Unity
+repoUrl: 'https://github.com/AgateInternational/MVC'
+parentRepoUrl: null
+licenseSpdxId: CC0-1.0
+licenseName: Creative Commons Zero v1.0 Universal
+topics:
+  - frameworks
+hunter: wafiharowa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673249260238
