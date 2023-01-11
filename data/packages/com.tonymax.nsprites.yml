@@ -1,0 +1,22 @@
+name: com.tonymax.nsprites
+displayName: NSprites
+description: >-
+  Entities sprite rendering system. Uses GPU instancing with compute buffers to
+  draw entities as sprites.
+repoUrl: 'https://github.com/Antoshidza/NSprites'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - 2d
+  - dots-and-ecs
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673420229135
