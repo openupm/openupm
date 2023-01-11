@@ -1,0 +1,19 @@
+name: com.teppich.teppichsattributes
+displayName: Teppich's Attributes
+description: A framework for RPG like attributes and resources
+repoUrl: 'https://github.com/JohannesSpicker/ReignCompanySimulator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: 'JohannesSpicker'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:ReignCompanySimulator/Assets/TeppichsAttributes/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1618520997538
