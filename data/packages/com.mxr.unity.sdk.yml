@@ -1,0 +1,22 @@
+name: com.mxr.unity.sdk
+displayName: ManageXR Unity SDK
+description: >-
+  ManageXR Android and Editor System and Utilities for integrating with the
+  ManageXR MDM platform.
+repoUrl: 'https://github.com/ManageXR/mxr-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: ManageXR SDK License
+topics:
+  - ar-and-vr
+  - integration
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674042201619
