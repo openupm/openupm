@@ -1,0 +1,19 @@
+name: com.moveahead.tflite
+displayName: TensorFlow Lite
+description: TensorFlow Lite Plugin for Unity
+repoUrl: 'https://github.com/Ale1/tf-lite-unity'
+parentRepoUrl: 'https://github.com/asus4/tf-lite-unity-sample'
+licenseSpdxId: ''
+licenseName: MIT LICENSE
+topics:
+  - ar-and-vr
+hunter: ale1
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674051731920
