@@ -1,0 +1,25 @@
+name: com.microsoft.mixedreality.visualprofiler
+displayName: MRTK Visual Profiler
+description: >-
+  Provides a drop in solution for viewing your mixed reality Unity application's
+  frame rate, scene complexity, and memory usage.
+repoUrl: 'https://github.com/microsoft/VisualProfiler-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - debugging-and-logging
+  - gui
+  - profiling
+hunter: JohannesDeml
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/microsoft/VisualProfiler-Unity/raw/45147223d156de092f36b355af7f74d71de5510c/Documentation~/Images/ProfilerGuide.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674124125857
