@@ -1,0 +1,20 @@
+name: com.gameworkstore.automation
+displayName: GameWorkstore Automation
+description: Automate your projects with this powerful tool with many build options!
+repoUrl: 'https://github.com/GameWorkstore/automation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: scriptsengineer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674159346152
