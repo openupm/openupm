@@ -1,0 +1,19 @@
+name: com.danij.testpackage
+displayName: Danijs custom package
+description: ''
+repoUrl: 'https://github.com/danij91/com.danij.testpackage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: danij91
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674177670420
