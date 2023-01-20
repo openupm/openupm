@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: HanzaRu
-gitTagPrefix: v1.0.1
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
