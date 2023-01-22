@@ -1,0 +1,20 @@
+name: com.bovinelabs.saving
+displayName: BovineLabs Saving
+description: Savanna is a saving library for building games with DOTS.
+repoUrl: 'https://github.com/tertle/com.bovinelabs.saving.free'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Standard Unity Asset Store EULA
+topics:
+  - dots-and-ecs
+hunter: tertle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/tertle/com.bovinelabs.saving.free/raw/ea5e8127ab9df5aaa2fe29a20787189b4aa75110/Features~/Library/Boids/Editor%20Default%20Resources/Post%20FX/UI/MotionBlendingIcon.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674376998880
