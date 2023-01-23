@@ -1,0 +1,21 @@
+name: com.iam1337.aim2-converter
+displayName: aim2-converter
+description: >-
+  AIM2 Converter is a tool dedicated to simplify convert visual content from
+  AIM2 to Unity Engine.
+repoUrl: 'https://github.com/Iam1337/aim2-converter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: Iam1337
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674484696579
