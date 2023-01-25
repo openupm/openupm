@@ -1,0 +1,20 @@
+name: jp.pokemori.vcas-lua-univci-sync
+displayName: esperecyan/vcas-lua-univci-sync
+description: "EmbeddedScriptWorkspaceフォルダ内の .lua ファイルが更新されたときに、Unityプロジェクト内のVCIプレハブのLuaデータを更新します。"
+repoUrl: 'https://github.com/esperecyan/vcas-lua-univci-sync'
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+topics:
+  - ar-and-vr
+  - version-control
+hunter: esperecyan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674626524395
