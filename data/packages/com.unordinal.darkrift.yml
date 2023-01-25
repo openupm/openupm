@@ -1,0 +1,19 @@
+name: com.unordinal.darkrift
+displayName: DarkRift
+description: DarkRift Networking - A High Performance Networking Library
+repoUrl: 'https://github.com/DarkRiftNetworking/DarkRift'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MPL2.0 in general/MIT license for .unity namespace scripts
+topics:
+  - network
+hunter: 4real
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.11.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674618435868
