@@ -1,0 +1,23 @@
+name: com.byronmayne.weaver
+displayName: Weaver
+description: >-
+  A a code weaver built for use in Unity Engine. Based very heavily off of Fody.
+  Implmented using Mono.Cecil.
+repoUrl: 'https://github.com/ByronMayne/Weaver'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: KAW0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674767765430
