@@ -1,0 +1,19 @@
+name: com.tencent.puerts.ts-loader
+displayName: Puerts TS loader
+description: use typescript with more joy for PuerTS.
+repoUrl: 'https://github.com/zombieyang/puerts-ts-loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: zombieyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:readme.md'
+readme_zhCN: 'main:readme.md'
+displayName_zhCN: PuerTS的TS Loader
+description_zhCN: 在Puer里更自如地加载Typescript
+createdAt: 1674828235719
