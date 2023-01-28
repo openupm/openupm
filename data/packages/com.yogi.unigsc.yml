@@ -1,0 +1,23 @@
+name: com.yogi.unigsc
+displayName: UniGSC
+description: >-
+  Loads data from Google sheets of any structure into Unity and parses it into a
+  Json file of any given structure.
+repoUrl: 'https://github.com/dkoleev/UniGSC'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+  - utilities
+hunter: dkoleev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674887289338
