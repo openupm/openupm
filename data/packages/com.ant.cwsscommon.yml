@@ -8,7 +8,7 @@ licenseName: Apache License 2.0
 topics:
   - utilities
 hunter: AByte-L
-gitTagPrefix: 0.1.3
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
