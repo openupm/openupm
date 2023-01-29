@@ -67,7 +67,6 @@ const RetryableReleaseReason = [
   ReleaseReason.BadRequest,
   ReleaseReason.Unauthorized,
   ReleaseReason.Forbidden,
-  ReleaseReason.EntityTooLarge,
   ReleaseReason.InternalError,
   ReleaseReason.BadGateway,
   ReleaseReason.ServiceUnavailable,
