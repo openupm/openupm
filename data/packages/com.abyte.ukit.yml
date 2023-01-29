@@ -1,0 +1,19 @@
+name: com.abyte.ukit
+displayName: UKit
+description: "Unityå·¥å\N·é\x9B\x86"
+repoUrl: 'https://github.com/AByte-L/UKit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: AByte-L
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674999487211
