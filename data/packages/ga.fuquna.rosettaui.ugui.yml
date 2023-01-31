@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - gui
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: 'ga.fuquna.rosettaui.ugui-'
 gitTagIgnore: ''
 minVersion: ''
 image: >-
