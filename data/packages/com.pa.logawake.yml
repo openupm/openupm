@@ -1,0 +1,19 @@
+name: com.pa.logawake
+displayName: Log Awake
+description: Log any message in awake
+repoUrl: 'https://github.com/Paul-Auguste/TestOpenUPM1'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - debugging-and-logging
+hunter: paulauguste
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.MD'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675248103140
