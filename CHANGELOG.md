@@ -1,3 +1,11 @@
+## [1.53.2](https://github.com/openupm/openupm/compare/1.53.1...1.53.2) (2023-02-05)
+
+
+### Bug Fixes
+
+* **backend:** handle npm error code EBADSEMVER ([b673938](https://github.com/openupm/openupm/commit/b673938d7870b1929b7b7d810db3d1e58b125122))
+* **backend:** remove EntityTooLarge from RetryableReleaseReason ([cadb2d6](https://github.com/openupm/openupm/commit/cadb2d6c2ed29141e88090c4246bde331094fe47))
+
 ## [1.53.1](https://github.com/openupm/openupm/compare/1.53.0...1.53.1) (2022-10-17)
 
 
