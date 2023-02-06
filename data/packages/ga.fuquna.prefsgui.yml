@@ -9,6 +9,7 @@ topics:
   - gui
 hunter: fuqunaga
 gitTagIgnore: ''
+gitTagPrefix: 'ga.fuquna.prefsgui'
 createdAt: 1579664560576
 image: 'https://github.com/fuqunaga/PrefsGUI/raw/master/Documentation~/PrefsGUI.gif'
 displayName_zhCN: PrefsGUI
