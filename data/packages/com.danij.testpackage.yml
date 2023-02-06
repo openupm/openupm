@@ -9,7 +9,7 @@ topics:
   - testing
 hunter: danij91
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '1.1.1'
 minVersion: ''
 image: ''
 readme: 'main:README.md'
