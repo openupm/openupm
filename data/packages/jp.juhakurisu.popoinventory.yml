@@ -1,0 +1,19 @@
+name: jp.juhakurisu.popoinventory
+displayName: popoInventory
+description: ''
+repoUrl: 'https://github.com/KurisuJuha/popoInventory'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: KurisuJuha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675748579776
