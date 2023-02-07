@@ -1,0 +1,19 @@
+name: com.alexplay.core
+displayName: ACS Core
+description: Тут будет описание
+repoUrl: 'https://github.com/Vier1996/ACS'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: ACSLicense
+topics:
+  - utilities
+hunter: Vier1996
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675741114601
