@@ -1,0 +1,20 @@
+name: com.shaunfong.datatableeditor
+displayName: DataTableEditor
+description: A DataTable Editor
+repoUrl: 'https://github.com/Shaun-Fong/DataTableEditor'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+hunter: Shaun-Fong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675926884730
