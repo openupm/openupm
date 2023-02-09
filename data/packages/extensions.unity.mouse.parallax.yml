@@ -1,0 +1,21 @@
+name: extensions.unity.mouse.parallax
+displayName: Unity Mouse Parallax
+description: Unity Parallax based on mouse input.
+repoUrl: 'https://github.com/IvanMurzak/Unity-Mouse-Parallax'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-Mouse-Parallax/raw/676c250aab0e0abf8f1725ee59ce9522a3fd5884/Assets/_PackageRoot/Editor/Gizmos/MouseMover.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675902748574
