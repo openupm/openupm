@@ -1,0 +1,19 @@
+name: net.mirzipan.bibliotheca
+displayName: Mirzipan Bibliotheca
+description: Various utilities for Unity projects
+repoUrl: 'https://github.com/Mirzipan/Mirzipan.Bibliotheca'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Mirzipan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676146068151
