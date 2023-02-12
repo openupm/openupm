@@ -1,0 +1,20 @@
+name: com.gilzoide.update-manager
+displayName: Update Manager
+description: Simple Update Manager pattern + Jobified Update for MonoBehaviours
+repoUrl: 'https://github.com/gilzoide/unity-update-manager'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676228917888
