@@ -83,7 +83,7 @@ const _urlUtils = {
 
   getMediaBaseUrl: function() {
     return OPENUPM_REGION == "cn"
-      ? "https://openupm-sh1.s3.cn-east-2.jdcloud-oss.com/media/"
+      ? "https://openupm-bj1.s3.cn-north-1.jdcloud-oss.com/media/"
       : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
   },
 
