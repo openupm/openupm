@@ -1,0 +1,21 @@
+name: com.noesis.noesisgui
+displayName: NoesisGUI
+description: >-
+  NoesisGUI is a lightweight cross-platform user interface library with fast
+  hardware-accelerated vector graphics.
+repoUrl: 'https://github.com/DaSongchaoyang/NoesisGUIForUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: 宋朝阳
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676442202219
