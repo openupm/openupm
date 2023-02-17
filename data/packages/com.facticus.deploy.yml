@@ -1,0 +1,22 @@
+name: com.facticus.deploy
+displayName: Deploy
+description: >-
+  A Unity package to help you build and deploy your game remotely with Github
+  Actions
+repoUrl: 'https://github.com/mnicolas94/facticus-deploy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - version-control
+hunter: mnicolas94
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676648440736
