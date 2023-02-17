@@ -10,10 +10,10 @@ topics:
   - utilities
 hunter: GariestGary
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-master$'
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
