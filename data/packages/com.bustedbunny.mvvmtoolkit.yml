@@ -1,0 +1,20 @@
+name: com.bustedbunny.mvvmtoolkit
+displayName: Model-View-ViewModel Toolkit
+description: This package brings MVVM to Unity UI Toolkit.
+repoUrl: 'https://github.com/bustedbunny/com.bustedbunny.mvvmtoolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - localization
+hunter: bustedbunny
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'com.bustedbunny.mvvmtoolkit:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676810900833
