@@ -1,0 +1,25 @@
+name: com.gilzoide.reset-after-play-mode
+displayName: Reset After Play Mode
+description: >-
+  Utility for reseting asset properties when exiting Play Mode
+
+  Use this to avoid unwanted diffs in source control for Materials,
+  ScriptableObjects or other assets that get modified during gameplay.
+repoUrl: 'https://github.com/gilzoide/unity-reset-after-play-mode'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - utilities
+  - version-control
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676846246307
