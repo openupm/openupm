@@ -1,7 +1,7 @@
-name: com.firebase.realtime-database
+name: com.rest.firebase.realtime-database
 displayName: Firebase.Realtime-Database
-description: Firebase.Realtime-Database description goes here.
-repoUrl: 'https://github.com/RageAgainstThePixel/com.firebase.realtime-database'
+description: A non-official Firebase Realtime-Database RESTful client.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.firebase.realtime-database'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -18,7 +18,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/RageAgainstThePixel/com.firebase.authentication/raw/b38c849cf6bbead6b274242fd5b4d867801f4a15/Firebase.Authentication/Packages/com.firebase.authentication/Runtime/Icons/firebase.png
+  https://github.com/RageAgainstThePixel/com.rest.firebase.authentication/raw/53cc1e1ba9e726d866917ce6f0bdd4b332f5d815/Firebase.Authentication/Packages/com.firebase.authentication/Runtime/Icons/firebase.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
