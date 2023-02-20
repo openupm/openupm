@@ -16,7 +16,7 @@ topics:
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.0.0'
 image: >-
   https://github.com/RageAgainstThePixel/com.rest.firebase.authentication/raw/53cc1e1ba9e726d866917ce6f0bdd4b332f5d815/Firebase.Authentication/Packages/com.firebase.authentication/Runtime/Icons/firebase.png
 readme: 'upm:Documentation~/README.md'
