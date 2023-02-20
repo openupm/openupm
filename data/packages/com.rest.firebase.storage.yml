@@ -1,7 +1,7 @@
-name: com.rest.firebase.authentication
-displayName: Firebase.Authentication
-description: A non-official Firebase authentication RESTful client.
-repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.firebase.authentication'
+name: com.rest.firebase.storage
+displayName: Firebase.Storage
+description: A non-official Firebase Storage RESTful client.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.firebase.storage'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -9,8 +9,7 @@ topics:
   - asset-management
   - data-management
   - integration
-  - network
-  - profiling
+  - mobile
   - services
   - utilities
 hunter: StephenHodgson
@@ -19,8 +18,8 @@ gitTagIgnore: ''
 minVersion: '2.0.0'
 image: >-
   https://github.com/RageAgainstThePixel/com.rest.firebase.authentication/raw/53cc1e1ba9e726d866917ce6f0bdd4b332f5d815/Firebase.Authentication/Packages/com.firebase.authentication/Runtime/Icons/firebase.png
-readme: 'upm:Documentation~/README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
-createdAt: 1676907900641
+createdAt: 1623868069893
