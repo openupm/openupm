@@ -1,0 +1,23 @@
+name: com.readyplayerme.core
+displayName: Ready Player Me Core
+description: >-
+  Ready Player Me Core is responsible for module management and setting up the
+  SDK for first time use.
+repoUrl: 'https://github.com/readyplayerme/rpm-unity-sdk-core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - mobile
+hunter: ryuuk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/readyplayerme/rpm-unity-sdk-core/raw/b20fae30a01cdd4e8ac2bd0e27ccd0a490c68ae3/Editor/UI/Visuals/rpm_editor_window_banner.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677146951541
