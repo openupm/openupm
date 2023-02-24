@@ -9,12 +9,7 @@ topics:
   - integration
   - frameworks
 hunter: FejZa
-gitTagPrefix: ''
-gitTagIgnore: '^0.{5,20}'
-minVersion: 1.0.0-preview.1
+minVersion: 1.0.0
 image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
-readme: 'development:README.md'
-readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+readme: 'main:README.md'
 createdAt: 1646396986653
