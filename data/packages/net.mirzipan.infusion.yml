@@ -1,0 +1,19 @@
+name: net.mirzipan.infusion
+displayName: Mirzipan Infusion
+description: Basic dependency injection
+repoUrl: 'https://github.com/Mirzipan/Mirzipan.Infusion'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Mirzipan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677273050034
