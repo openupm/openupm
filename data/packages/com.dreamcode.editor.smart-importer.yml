@@ -1,0 +1,24 @@
+name: com.dreamcode.editor.smart-importer
+displayName: SmartImporter
+description: >-
+  Allows import Unity packages (.unitypackage) to custom folder, ignoring
+  initial assets paths.
+repoUrl: 'https://github.com/dreamcodestudio/com.dreamcode.editor.smart-importer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: dreamcodestudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677255948157
