@@ -8,6 +8,11 @@ topics:
   - utilities
 hunter: FejZa
 minVersion: 1.0.0
+gitTagPrefix: ''
+gitTagIgnore: ''
 image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
 readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
 createdAt: 1646396986653
