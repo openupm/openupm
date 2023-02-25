@@ -7,11 +7,11 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: FejZa
+minVersion: 1.0.0
 gitTagPrefix: ''
-gitTagIgnore: '^0.{5,20}'
-minVersion: 1.0.0-preview.1
+gitTagIgnore: ''
 image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
-readme: 'development:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
