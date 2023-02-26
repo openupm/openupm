@@ -11,7 +11,7 @@ topics:
 hunter: FejZa
 minVersion: 1.0.1
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: 'preview'
 image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
 readme: 'main:README.md'
 readme_zhCN: ''

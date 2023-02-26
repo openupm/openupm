@@ -10,8 +10,8 @@ topics:
   - integration
 hunter: FejZa
 gitTagPrefix: ''
-gitTagIgnore: '^0.{5,20}'
-minVersion: 1.0.0-preview.2
+gitTagIgnore: 'preview'
+minVersion: ''
 image: 'https://github.com/realitycollective/realitycollective.logo/raw/main/Branding/RealityCollectiveBanner_600x300.png'
 readme: 'development:README.md'
 readme_zhCN: ''

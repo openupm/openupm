@@ -13,7 +13,7 @@ topics:
   - utilities
 hunter: realitycollective
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: 'preview'
 minVersion: ''
 image: ''
 readme: 'development:README.md'
