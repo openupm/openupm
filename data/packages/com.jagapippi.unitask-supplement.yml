@@ -1,0 +1,19 @@
+name: com.jagapippi.unitask-supplement
+displayName: UniTask Supplement
+description: Supplemental codes for UniTask.
+repoUrl: 'https://github.com/su10/UniTask-Supplement'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: su10
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677377216667
