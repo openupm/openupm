@@ -191,3 +191,6 @@ scopes:
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
 - com.didimo.sdk.assetfitter
+
+# test packages
+- com.danij.testpackage
