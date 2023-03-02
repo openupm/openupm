@@ -1,0 +1,21 @@
+name: com.gameworkstore.protocolui
+displayName: GameWorkstore Protocol UI
+description: >-
+  Protocol UI is a small framework to work with multiple screens on a easy and
+  organized way and manage layered panels on Unity.
+repoUrl: 'https://github.com/GameWorkstore/protocolui'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: scriptsengineer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677765744505

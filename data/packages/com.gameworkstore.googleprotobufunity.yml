@@ -1,0 +1,19 @@
+name: com.gameworkstore.googleprotobufunity
+displayName: GameWorkstore GoogleProtobuf Unity
+description: Google Protobuf C#/GoLang/Python Library for Unity
+repoUrl: 'https://github.com/GameWorkstore/google-protobuf-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: scriptsengineer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677765930881
