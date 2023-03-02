@@ -1,0 +1,23 @@
+name: com.google.external-dependency-manager
+displayName: External Dependency Manager for Unity
+description: >-
+  External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin
+  that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version
+  management of transitive dependencies, and/or management of Unity Package
+  Manager registries.
+repoUrl: 'https://github.com/xinatcg/GoogleExternalDependencyManager'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: xinatcg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652773079898

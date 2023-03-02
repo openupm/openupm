@@ -1,0 +1,21 @@
+name: com.iam1337.extterrain2d
+displayName: extTerrain2D
+description: Small 2D terrain asset.
+repoUrl: 'https://github.com/Iam1337/extTerrain2D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - terrain
+hunter: Iam1337
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Iam1337/extTerrain2D/raw/b4a4e2d52f9cf0de057af7512557f79344b7ee2c/Assets/extTerrain2D/Resources/extTerrain2D/IW_logo_dark.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633018636715

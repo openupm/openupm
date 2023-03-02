@@ -1,0 +1,20 @@
+name: com.ondrejnepozitek.edgar.unity
+displayName: Edgar - Procedural Level Generator
+description: 2D procedural level generator
+repoUrl: 'https://github.com/OndrejNepozitek/Edgar-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - procedural-generation
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://camo.githubusercontent.com/bfbde258f23e0fe2f0c6211e563706ceb44d2b6a/68747470733a2f2f6f6e6472656a6e65706f7a6974656b2e6769746875622e696f2f50726f6365647572616c4c6576656c47656e657261746f722d556e6974792f696d672f76322f6578616d706c65732f6578616d706c65315f6c6576656c5f6772617068322e706e67
+readme: 'master:README.md'
+createdAt: 1591736174117
+displayName_zhCN: Edgar - 程序生成关卡
+description_zhCN: 用于程序生成地牢的Unity插件

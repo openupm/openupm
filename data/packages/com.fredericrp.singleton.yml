@@ -4,18 +4,18 @@ description: >-
   A generic singleton: a singleton is a development pattern that prevents having
   multiple instances of the same component in a scene. It allows also any script
   to access this one wihout requiring a manual link between the two.
-repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+repoUrl: 'https://github.com/FredericRP/GenericSingleton'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
 hunter: ''
-gitTagPrefix: singleton
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
 image: null
-readme: 'primary:Singleton/README.md'
+readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

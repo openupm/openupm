@@ -1,0 +1,19 @@
+name: de.lumpn.unity-formatting
+displayName: Formatting
+description: Automatic formatting for C# and shader code.
+repoUrl: 'https://github.com/lumpn/unity-formatting'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637436109249

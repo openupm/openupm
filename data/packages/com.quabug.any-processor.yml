@@ -1,0 +1,21 @@
+name: com.quabug.any-processor
+displayName: AnyProcessor
+description: >-
+  Make it easier to write an ILPostProcessor with AnyProcessor
+repoUrl: 'https://github.com/quabug/AnySerialize'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: quabug
+gitTagPrefix: any-processor/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.quabug.any-processor/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663600385436

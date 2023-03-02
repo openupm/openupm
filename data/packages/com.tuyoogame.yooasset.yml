@@ -1,0 +1,20 @@
+name: com.tuyoogame.yooasset
+displayName: YooAsset
+description: unity3d resources management system
+repoUrl: 'https://github.com/tuyoogame/YooAsset'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+hunter: tuyoogame
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/tuyoogame/YooAsset/raw/f70e318ac5f16bf40c8d12072b1b3498bb869d04/Docs/Image/LOGO.png
+readme: 'main:Assets/YooAsset/README.md'
+readme_zhCN: 'main:Assets/YooAsset/README.md'
+displayName_zhCN: YooAsset
+description_zhCN: unity3d resources management system
+createdAt: 1649146690136

@@ -1,0 +1,31 @@
+name: com.limjoshua.igconsole
+displayName: InGameConsole
+description: >-
+  In game console for Unity
+
+  A console will be automatically created for every time when the application is
+  running. 
+
+
+  Settings: InGameConsole -> InGameConsole Manager -> Toggle preview -> Save
+
+
+  Please read the API documentation!
+repoUrl: 'https://github.com/JoshuaLim007/InGameConsole'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - debugging-and-logging
+  - gui
+  - profiling
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642947670437

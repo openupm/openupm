@@ -1,0 +1,21 @@
+name: com.amp.unityutilities
+displayName: ''
+description: >-
+  Utilities to improve the C# experience in Unity: ranging from more
+  capabilities to shorter code length!
+repoUrl: 'https://github.com/AugustDG/Unity-Utilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v0.1.4
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1645628942089

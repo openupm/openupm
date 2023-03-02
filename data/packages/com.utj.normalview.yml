@@ -1,0 +1,21 @@
+name: com.utj.normalview
+displayName: NormalView
+description: >-
+  The normal line, tangent line, and binormal line of the Mesh are displayed on
+  the Scene View.
+repoUrl: 'https://github.com/katsumasa/NormalView'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/29646672/139005190-0aed19d9-9b2c-40cd-b702-85a62b1d6101.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635371667977

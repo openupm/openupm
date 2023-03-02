@@ -1,0 +1,19 @@
+name: com.gm.httpremoteconnector
+displayName: Http Remote Connector
+description: Base on http remote connector
+repoUrl: 'https://github.com/Goatman1996/HttpRemoteConnector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: Goatman1996
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668399725056

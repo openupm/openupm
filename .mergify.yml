@@ -3,15 +3,16 @@ pull_request_rules:
     conditions:
       - "#files=1"
       - "files~=data/packages/(.*)\\.yml$"
-      - "-files~=data/packages/com\\.unity\\.(.*)\\.yml$"
+      - "-files~=data/packages/(.*)(com\\.amazonaws|com\\.google|com\\.unity|com\\.microsoft|com\\.apple|com\\.meta|com\\.oculus|com\\.twitter)\\.(.*)\\.yml$"
       - "#files=1"
       - -conflict
-      - -merged
       - "status-success~=CI"
-      - "title~=^chore\\(data\\): new package"
+      - or:
+        - "title~=^chore\\(data\\): new package"
+        - "title~=^Create(.*)\\.yml$"
 
     actions:
       merge:
         method: merge
       comment:
-        message: "Thank you for contributing to the OpenUPM platform. 🤟"
+        message: "Thank you for contributing to the OpenUPM platform. 🤟 The build pipelines may need up to 30 minutes to import the package and make it available on the website."

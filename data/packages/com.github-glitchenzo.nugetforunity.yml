@@ -1,0 +1,21 @@
+name: com.github-glitchenzo.nugetforunity
+displayName: NuGetForUnity
+description: A NuGet Package Manager for Unity
+repoUrl: 'https://github.com/GlitchEnzo/NuGetForUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+hunter: JoC0de
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 3.1.0
+image: >-
+  https://github.com/GlitchEnzo/NuGetForUnity/raw/f402aacaf250967d613c8a1ced5381c0e2d54a64/docs/screenshots/online.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676847310352

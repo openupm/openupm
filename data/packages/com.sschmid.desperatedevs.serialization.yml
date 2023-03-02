@@ -1,0 +1,19 @@
+name: com.sschmid.desperatedevs.serialization
+displayName: DesperateDevs.Serialization
+description: DesperateDevs.Serialization
+repoUrl: 'https://github.com/sschmid/com.sschmid.desperatedevs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: sschmid
+gitTagPrefix: com.sschmid.desperatedevs.serialization/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.desperatedevs.serialization/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667494958105

@@ -1,0 +1,21 @@
+name: com.unity.springbone
+displayName: Unity Chan Spring Bone
+description: Sping Bone System for lightweight secondary animations.
+repoUrl: 'https://github.com/unity3d-jp/UnityChanSpringBone'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - physics
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/unity3d-jp/UnityChanSpringBone/raw/8db0f7243b0b2f050fe1b3268f37343853bef1f7/Editor/GUI/Icons/Pivot.png
+readme: 'dev/main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636231972904

@@ -7,11 +7,12 @@
           :is-loading="isLoadingPackageSetup"
           :pkg="pkg"
           :version="version"
+          :scopes="scopes"
         />
         <section class="col-12">
           <h2>{{ $t("project") }}</h2>
           <div>
-            <span><NavLink :item="repoNavLink"/></span>
+            <span><NavLink :item="repoNavLink" /></span>
           </div>
           <div v-if="parentRepoNavLink" class="fork">
             {{ $t("forked-from") }}
@@ -80,7 +81,7 @@
               <NavLink
                 :item="{
                   link: pkg.parentRepoUrl,
-                  text: this.$t('upstream')
+                  text: this.$t('upstream'),
                 }"
               />
             </small>
@@ -100,7 +101,7 @@
         </section>
         <section class="col-6">
           <h2>{{ $t("report-abuse") }}</h2>
-          <span><NavLink :item="reportLink"/></span>
+          <span><NavLink :item="reportLink" /></span>
         </section>
         <section class="col-12">
           <h2>
@@ -112,27 +113,17 @@
                 <LazyImage :src="badgeVersionImageUrl" />
               </div>
               <div class="col-6">
-                <a
-                  :href="badgeUrl"
-                  data-tooltip="Copied"
-                  class="tooltip tooltip-click"
-                  @click.prevent="copyBadgeVersionHtml"
-                >
-                  <small>
-                    html
-                  </small>
-                </a>
+                <CopyWrapper :copy-text="badgeVersionHtml">
+                  <a>
+                    <small> html </small>
+                  </a>
+                </CopyWrapper>
                 <span>·</span>
-                <a
-                  :href="badgeUrl"
-                  data-tooltip="Copied"
-                  class="tooltip tooltip-click"
-                  @click.prevent="copyBadgeVersionMarkdown"
-                >
-                  <small>
-                    markdown
-                  </small>
-                </a>
+                <CopyWrapper :copy-text="badgeVersionMarkdown">
+                  <a>
+                    <small> markdown </small>
+                  </a>
+                </CopyWrapper>
               </div>
             </div>
           </div>
@@ -143,37 +134,38 @@
 </template>
 
 <script>
-import copy from "copy-to-clipboard";
 import escape from "escape-html";
 import urljoin from "url-join";
 
+import CopyWrapper from "@theme/components/CopyWrapper.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageSetup from "@theme/components/PackageSetup.vue";
 import util from "@root/docs/.vuepress/util";
 
 export default {
   components: {
+    CopyWrapper,
     NavLink,
-    PackageSetup
+    PackageSetup,
   },
 
   props: {
     hasNotSucceededBuild: {
       type: Boolean,
-      default: false
+      default: false,
     },
     pkg: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     packageInfo: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     registryInfo: {
       type: Object,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
 
   computed: {
@@ -199,7 +191,7 @@ export default {
     hunterNavLink() {
       return {
         link: this.pkg.hunterUrl,
-        text: this.pkg.hunter
+        text: this.pkg.hunter,
       };
     },
     isLoadingPackageSetup() {
@@ -211,7 +203,7 @@ export default {
     ownerNavLink() {
       return {
         link: this.pkg.ownerUrl,
-        text: this.pkg.owner
+        text: this.pkg.owner,
       };
     },
     parentOwnerAvatarUrl() {
@@ -223,7 +215,7 @@ export default {
       if (this.pkg.parentRepoUrl)
         return {
           link: this.pkg.parentOwnerUrl,
-          text: this.pkg.parentOwner
+          text: this.pkg.parentOwner,
         };
       return null;
     },
@@ -231,7 +223,7 @@ export default {
       if (this.pkg.parentRepoUrl)
         return {
           link: this.pkg.parentRepoUrl,
-          text: this.pkg.parentRepo
+          text: this.pkg.parentRepo,
         };
       return null;
     },
@@ -247,14 +239,13 @@ export default {
     repoNavLink() {
       return {
         link: this.pkg.repoUrl,
-        text: this.pkg.repo
+        text: this.pkg.repo,
       };
     },
     reportLink() {
       return {
-        link:
-          "https://github.com/openupm/openupm/issues/new?title=Report%20package%20abuse&template=abuse.md",
-        text: this.$t("report-malware-or-abuse")
+        link: "https://github.com/openupm/openupm/issues/new?title=Report%20package%20abuse&template=abuse.md",
+        text: this.$t("report-malware-or-abuse"),
       };
     },
     unityVersion() {
@@ -267,53 +258,54 @@ export default {
       const distTags = this.registryInfo["dist-tags"];
       if (distTags && distTags.latest) return distTags.latest;
       else return null;
-    }
+    },
   },
 
   methods: {
-    copyBadgeVersionHtml() {
-      copy(this.badgeVersionHtml, { format: "text/plain" });
-    },
-    copyBadgeVersionMarkdown() {
-      copy(this.badgeVersionMarkdown, { format: "text/plain" });
-    },
-    copyCli() {
-      copy(this.installCli, { format: "text/plain" });
-    }
-  }
+  },
 };
 </script>
 
 <style lang="stylus">
-.package-detail .meta-section
-  font-size $fontSizeMD
-  padding-left 0.5rem
+.package-detail .meta-section {
+  font-size: $fontSizeMD;
+  padding-left: 0.5rem;
 
-  h2
-    font-weight 600
-    border-bottom none
+  h2 {
+    font-weight: 600;
+    border-bottom: none;
+  }
 
-  h2, h3
-    font-size $fontSizeMD
+  h2, h3 {
+    font-size: $fontSizeMD;
+  }
 
-  section
-    border-bottom 1px solid $borderColor
-    padding-bottom 0.5rem
-    margin-bottom 0.7rem
+  section {
+    border-bottom: 1px solid $borderColor;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
 
-  ul.section-list
-    margin 0
-    list-style none
+  ul.section-list {
+    margin: 0;
+    list-style: none;
+  }
 
-  img
-    vertical-align middle
+  img {
+    vertical-align: middle;
+  }
 
-  i.fa-user
-    padding-right 0.2rem
-    color $textColor
+  i.fa-user {
+    padding-right: 0.2rem;
+    color: $textColor;
+  }
 
-  .fork
-    font-size 0.6rem
-    a
-      font-size 0.6rem
+  .fork {
+    font-size: 0.6rem;
+
+    a {
+      font-size: 0.6rem;
+    }
+  }
+}
 </style>

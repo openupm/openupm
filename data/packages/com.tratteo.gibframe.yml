@@ -1,0 +1,22 @@
+name: com.tratteo.gibframe
+displayName: GibFrame
+description: The Unity framework for gibbon coders
+repoUrl: 'https://github.com/tratteo/GibFrame'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: tratteo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/tratteo/GibFrame/main/logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662333873022

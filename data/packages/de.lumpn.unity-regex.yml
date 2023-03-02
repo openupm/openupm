@@ -1,0 +1,19 @@
+name: de.lumpn.unity-regex
+displayName: Regex Composer
+description: Compose regular expressions using code.
+repoUrl: 'https://github.com/lumpn/unity-regex'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637430358123

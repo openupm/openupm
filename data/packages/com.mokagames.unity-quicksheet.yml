@@ -2,11 +2,11 @@ name: com.mokagames.unity-quicksheet
 displayName: Unity-QuickSheet
 description: >-
   Unity-QuickSheet enables you to use spreadsheet file data within Unity
-  editor. 
+  editor.
 repoUrl: 'https://github.com/MokaGames/Unity-QuickSheet'
 parentRepoUrl: 'https://github.com/kimsama/Unity-QuickSheet'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - data-management
 hunter: JesseTG

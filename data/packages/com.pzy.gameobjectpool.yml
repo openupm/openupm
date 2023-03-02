@@ -1,0 +1,19 @@
+name: com.pzy.gameobjectpool
+displayName: Game Object Pool
+description: 提供按预制件分类的游戏对象池
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: Peng-Zhiyuan
+gitTagPrefix: 'com.pzy.gameobjectpool/'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631939682349

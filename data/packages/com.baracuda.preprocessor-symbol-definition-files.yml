@@ -1,0 +1,24 @@
+name: com.baracuda.preprocessor-symbol-definition-files
+displayName: Preprocessor Symbol Definition Files
+description: >-
+  This package provides an easy way to manage custom #defines in a Unity project
+  for multiple platforms by providing dedicated files called: Preprocessor
+  Symbol Definition Files, that allow to handle preprocessor symbols in an
+  intuitive way.
+repoUrl: >-
+  https://github.com/JohnBaracuda/com.baracuda.preprocessor-symbol-definition-files
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JohnBaracuda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666436712638

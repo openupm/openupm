@@ -1,0 +1,22 @@
+name: com.github.ivanmurzak.ios.pods.bitcode
+displayName: iOS Pods Bitcode
+description: >-
+  Unity iOS post process for forcing Pods to have Bitcode property YES/NO. You
+  can control bitcode status for all pods from single place. Highly usable with
+  CI.
+repoUrl: 'https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670096441848

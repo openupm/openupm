@@ -1,0 +1,19 @@
+name: com.sturfee.digital-twin.cms
+displayName: Sturfee Digital Twin CMS
+description: CMS SDK to load contents for Digital Twin Spaces
+repoUrl: 'https://github.com/sturfeeinc/com.sturfee.digital-twin.cms'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: kushG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655497184188

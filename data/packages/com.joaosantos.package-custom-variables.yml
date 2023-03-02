@@ -1,0 +1,20 @@
+name: com.joaosantos.package-custom-variables
+displayName: JS Custom Variable
+description: Package with new variable formats using ScriptableObjects
+repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License License
+topics:
+  - data-management
+  - services
+hunter: JoaoSant0s
+gitTagPrefix: package-custom-variables-
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Packages/com.joaosantos.package-custom-variables/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1657682977951

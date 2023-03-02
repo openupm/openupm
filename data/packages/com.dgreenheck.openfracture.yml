@@ -1,0 +1,24 @@
+name: com.dgreenheck.openfracture
+displayName: OpenFracture
+description: >-
+  Open source tool for slicing/fracturing meshes in Unity during runtime or in
+  the editor.
+repoUrl: 'https://github.com/dgreenheck/OpenFracture'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - modeling
+  - procedural-generation
+  - physics
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641870823500

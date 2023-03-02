@@ -1,0 +1,22 @@
+name: ch.giezi.tools.inputsystemlocalisation
+displayName: Giezi's Input System Localisation
+description: >-
+  Localisation for Unity Input keys retrieved when calling
+  `InputControlPath.ToHumanReadableString`.
+repoUrl: 'https://github.com/GieziJo/UnityInputSystemLocalisation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - localization
+hunter: GieziJo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651210619887

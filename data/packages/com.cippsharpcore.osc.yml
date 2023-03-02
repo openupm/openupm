@@ -1,0 +1,20 @@
+name: com.cippsharpcore.osc
+displayName: CippSharp.OneShotCoroutine
+description: A solution to run a Coroutine once (ignoring GameObject active status).
+repoUrl: 'https://github.com/Cippman/Unity-OneShotCoroutine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Cippman/Unity-OneShotCoroutine/raw/d29f96187914165cc057922ef367cde07fd50e0a/Samples/Screenshots/Large.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651327001572

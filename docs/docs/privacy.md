@@ -150,10 +150,6 @@ Some of these services may be used to collect information about your online acti
 
 openupm's website uses Google Analytics to collect and analyze data about visitors to its websites. You can read [the privacy policy for Google Analytics online](https://www.google.com/analytics/terms/). You can opt-out of Google Analytics by installing a [free browser extension](https://tools.google.com/dlpage/gaoptout).
 
-### OpenUPM uses HubSpot.
-
-openupm may use [HubSpot](https://www.hubspot.com/) to track which parts of OpenUPM websites you visit so we know which updates and service email messages to send you. HubSpot collects data from forms on our website that you must fill out to access some marketing content. You can read [the privacy policy for HubSpot online](https://legal.hubspot.com/privacy-policy).
-
 ### OpenUPM uses Gravatar.
 
 The website uses [Gravatar](https://gravatar.com), a free online service from [Automattic](https://automattic.com/) for hosting user avatar pictures. When you request a page on the OpenUPM website that shows an avatar, your computer also sends a request to Gravatar. You can read [the privacy policy for Gravatar online](http://gravatar.com/privacy).

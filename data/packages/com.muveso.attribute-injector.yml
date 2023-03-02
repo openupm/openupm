@@ -1,0 +1,28 @@
+name: com.muveso.attribute-injector
+displayName: Attribute Injector
+description: >-
+  Attribute Injector is an attribute-based framework for creating and injecting
+  inline codes into your projects.
+repoUrl: 'https://github.com/muveso/Attribute-Injector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - data-management
+  - debugging-and-logging
+  - frameworks
+  - package-management
+  - profiling
+  - testing
+  - utilities
+hunter: muveso
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646050181003

@@ -51,6 +51,8 @@ const ReleaseReason = new Enum({
   InvalidVersion: 806,
   // Could not read from remote repository
   RemoteRepositoryUnavailable: 807,
+  // Fatal clone
+  RemoteSubmoduleUnavailable: 808,
   // Connection timeout
   ConnectionTime: 900,
   // Connection timeout
@@ -65,7 +67,6 @@ const RetryableReleaseReason = [
   ReleaseReason.BadRequest,
   ReleaseReason.Unauthorized,
   ReleaseReason.Forbidden,
-  ReleaseReason.EntityTooLarge,
   ReleaseReason.InternalError,
   ReleaseReason.BadGateway,
   ReleaseReason.ServiceUnavailable,

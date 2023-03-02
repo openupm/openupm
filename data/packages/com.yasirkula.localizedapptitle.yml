@@ -1,0 +1,23 @@
+name: com.yasirkula.localizedapptitle
+displayName: Localized App Title
+description: >-
+  This plugin helps you localize your app's name and/or icon on Android & iOS.
+  Note that the icon doesn't automatically change with the device language on
+  iOS but it's possible to change it at runtime via scripting API.
+repoUrl: 'https://github.com/yasirkula/UnityMobileLocalizedAppTitle'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - localization
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1642068418412

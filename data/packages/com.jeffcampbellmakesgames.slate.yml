@@ -1,0 +1,21 @@
+name: com.jeffcampbellmakesgames.slate
+displayName: JCMG Slate
+description: A UI composition library for Unity
+repoUrl: 'https://github.com/jeffcampbellmakesgames/jcmg-slate'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - gui
+hunter: jeffcampbellmakesgames
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/jeffcampbellmakesgames/jcmg-slate/raw/bf6437c2d8d60bc1188576ad66f214e8354b81e8/Unity/Assets/JCMG/Slate/Docs/Images/social_share_image.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670087410849

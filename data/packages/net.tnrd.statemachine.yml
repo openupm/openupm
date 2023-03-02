@@ -1,0 +1,23 @@
+name: net.tnrd.statemachine
+displayName: State Machine
+description: A State Machine for Unity
+repoUrl: 'https://github.com/Thundernerd/Unity3D-StateMachine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - data-management
+  - frameworks
+  - services
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671479248749

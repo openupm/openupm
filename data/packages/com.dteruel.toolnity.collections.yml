@@ -1,0 +1,20 @@
+name: com.dteruel.toolnity.collections
+displayName: Toolnity Collections
+description: Tool to create collections and register objects or classes.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - data-management
+  - utilities
+hunter: DTeruel
+gitTagPrefix: collections
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Collections/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665175466885

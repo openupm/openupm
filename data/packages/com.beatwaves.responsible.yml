@@ -8,8 +8,8 @@ licenseName: MIT License
 topics:
   - testing
 hunter: JesseTG
-gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagPrefix: 'v'
+gitTagIgnore: 'responsible-gherkin'
 minVersion: ''
 image: null
 readme: 'main:README.md'

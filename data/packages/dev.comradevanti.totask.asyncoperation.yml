@@ -1,0 +1,20 @@
+name: dev.comradevanti.totask.asyncoperation
+displayName: ToTask.AsyncOperation
+description: A unity package for converting AsyncOperation objects to tasks
+repoUrl: 'https://github.com/ComradeVanti/ToTask.AsyncOperation'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.1
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650882102135

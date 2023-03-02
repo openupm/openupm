@@ -1,0 +1,20 @@
+name: com.lachee.discordrpc
+displayName: Discord Rich Presence
+description: Implements the RPC Protocol for discord using Discord RPC CSharp
+repoUrl: 'https://github.com/Lachee/discord-rpc-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: lachee
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Lachee/discord-rpc-unity/raw/e3754e04be225e77a704011793a6f72b175046de/Resources/discord_logo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660627790927

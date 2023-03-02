@@ -1,0 +1,19 @@
+name: com.marc-antoine-girard.runtimescene
+displayName: Runtime Scene
+description: A simple class that lets you reference scenes in the Editor.
+repoUrl: 'https://github.com/marc-antoine-girard/Unity3D-RuntimeScene'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: marc-antoine-girard
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660968967137

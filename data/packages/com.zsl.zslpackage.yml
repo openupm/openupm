@@ -1,0 +1,19 @@
+name: com.zsl.zslpackage
+displayName: zslPackage
+description: Use zsl
+repoUrl: 'https://github.com/sladeByZsl/customPackage'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: slade_zhou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1669820991280

@@ -1,0 +1,19 @@
+name: com.ant.cwsscommon
+displayName: CwssCommon
+description: 项目通用功能插件包.
+repoUrl: 'https://github.com/AByte-L/cwsslib'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: AByte-L
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674900542983

@@ -1,0 +1,20 @@
+name: com.cheersgames.cheers-pivot-tools
+displayName: Cheers Pivot Tools
+description: EditorTools for moving GameObjects without their children
+repoUrl: 'https://github.com/LaurieCheers/CheersPivotTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - modeling
+hunter: gekidoslair
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660875069192

@@ -3,8 +3,8 @@ displayName: tidalwav WAV Loop Editor
 description: WAV Loop Editor for Unity
 repoUrl: 'https://github.com/SkaillZ/tidalwav'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - audio
   - asset-management

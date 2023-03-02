@@ -1,0 +1,20 @@
+name: com.naraenda.nut
+openupm/openupmdisplayName: Nara's Unity Tools
+description: A random collection of Unity Tools
+repoUrl: 'https://github.com/Naraenda/NarasUnityTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: naraenda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: null
+readme: 'main:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650629805218

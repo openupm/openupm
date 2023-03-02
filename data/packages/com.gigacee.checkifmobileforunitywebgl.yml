@@ -1,0 +1,21 @@
+name: com.gigacee.checkifmobileforunitywebgl
+displayName: Check if Mobile for Unity WebGL
+description: >-
+  The plugin to check if your Unity WebGL game is running on a PC or mobile
+  device.
+repoUrl: 'https://github.com/gigacee/check-if-mobile-for-unity-webgl'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/5264444/95644234-3aceeb00-0af0-11eb-8b93-754c0b3f1062.png'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631119951350

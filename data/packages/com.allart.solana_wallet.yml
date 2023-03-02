@@ -1,0 +1,21 @@
+name: com.allart.solana_wallet
+displayName: Solana Wallet
+description: Solana Wallet
+repoUrl: 'https://github.com/allartprotocol/unity-solana-wallet'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/allartprotocol/unity-solana-wallet/raw/7aac521a75a736ba42d3ecbdf0f6b2f938309d25/Samples~/SimpleWallet/assets/sprites/coin.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632672792108

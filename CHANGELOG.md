@@ -1,3 +1,164 @@
+## [1.53.2](https://github.com/openupm/openupm/compare/1.53.1...1.53.2) (2023-02-05)
+
+
+### Bug Fixes
+
+* **backend:** handle npm error code EBADSEMVER ([b673938](https://github.com/openupm/openupm/commit/b673938d7870b1929b7b7d810db3d1e58b125122))
+* **backend:** remove EntityTooLarge from RetryableReleaseReason ([cadb2d6](https://github.com/openupm/openupm/commit/cadb2d6c2ed29141e88090c4246bde331094fe47))
+
+## [1.53.1](https://github.com/openupm/openupm/compare/1.53.0...1.53.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* **pipelines:** interval of build release jobs ([3e69362](https://github.com/openupm/openupm/commit/3e693623d58cf7f62028587a5544760ea35f4f19))
+
+# [1.53.0](https://github.com/openupm/openupm/compare/1.52.12...1.53.0) (2022-10-16)
+
+
+### Features
+
+* require node v14 ([2fa0162](https://github.com/openupm/openupm/commit/2fa016286d6fd799f478fb37a4e4e3c33e66414f))
+
+## [1.52.12](https://github.com/openupm/openupm/compare/1.52.11...1.52.12) (2022-10-13)
+
+
+### Bug Fixes
+
+* **pipelines:** the job timeout is not passed ([fe9386e](https://github.com/openupm/openupm/commit/fe9386eb27e7b8f8b91da6b0090dcab5e22ff201))
+
+## [1.52.11](https://github.com/openupm/openupm/compare/1.52.10...1.52.11) (2022-10-13)
+
+
+### Bug Fixes
+
+* **pipelines:** add timeout to job worker ([4abb822](https://github.com/openupm/openupm/commit/4abb822498ba8b5aebe9857a3a9a63dc9ba51ee3))
+* **pipelines:** show job queue opts with the --verbose flag ([f47babe](https://github.com/openupm/openupm/commit/f47babe4c111ef81f6a0ca000550161446d93d7c))
+* **pipelines:** split the main queue to two queues ([fd779fb](https://github.com/openupm/openupm/commit/fd779fbffa6dd0d36ed27385db3deab6cb642d59))
+* **pipelines:** switch from bee-queue to bullmq ([bf8f3d2](https://github.com/openupm/openupm/commit/bf8f3d29507b69dc63baffc74f0abe5d6b6209f2))
+
+## [1.52.10](https://github.com/openupm/openupm/compare/1.52.9...1.52.10) (2022-10-08)
+
+
+### Bug Fixes
+
+* ioredis returns an empty object ({}) when hgetall a non-existed key while node_redis returns null ([080edfc](https://github.com/openupm/openupm/commit/080edfc5bf11379e81358e98fd91e5f891164ab9))
+* **server:** set a simple redis retry_strategy ([7b109b1](https://github.com/openupm/openupm/commit/7b109b16d427811a9df4b34b3a1efed8bdf028b0))
+* **web:** handle redis connection error ([70bb20a](https://github.com/openupm/openupm/commit/70bb20ab8620e81f7ff96cdbd38c5ed524b361ac))
+
+## [1.52.9](https://github.com/openupm/openupm/compare/1.52.8...1.52.9) (2022-09-24)
+
+
+### Bug Fixes
+
+* remove the social share plugin ([b35a233](https://github.com/openupm/openupm/commit/b35a2330b290c86ae955ae4ced4fa7f691000748))
+
+## [1.52.8](https://github.com/openupm/openupm/compare/1.52.7...1.52.8) (2022-09-24)
+
+
+### Bug Fixes
+
+* syntax error of blocked-scopes.yml ([e812a49](https://github.com/openupm/openupm/commit/e812a4911af9de1f311c7e7536e1ce26ed9870b9))
+
+## [1.52.7](https://github.com/openupm/openupm/compare/1.52.6...1.52.7) (2022-06-30)
+
+
+### Bug Fixes
+
+* **pipelines:** add parameter to remove all releases [skip ci] ([16c8587](https://github.com/openupm/openupm/commit/16c8587b999ba485034aa447cd2935821a302f89))
+
+## [1.52.6](https://github.com/openupm/openupm/compare/1.52.5...1.52.6) (2022-06-22)
+
+
+### Bug Fixes
+
+* **pipelines:** handle submodule failure ([3c95cdb](https://github.com/openupm/openupm/commit/3c95cdb0ffa314d5b7524be2ddbe46b960389cc3))
+
+## [1.52.5](https://github.com/openupm/openupm/compare/1.52.4...1.52.5) (2022-06-22)
+
+
+### Bug Fixes
+
+* **pipelines:** handle error could not read from remote repository ([e77857b](https://github.com/openupm/openupm/commit/e77857b26ff937113a7a7ed34b2471d9caea9db5))
+
+## [1.52.4](https://github.com/openupm/openupm/compare/1.52.3...1.52.4) (2022-06-16)
+
+
+### Bug Fixes
+
+* **ci:** set correct timeout values ([2eeb7c7](https://github.com/openupm/openupm/commit/2eeb7c7f5f8d57e4edb29f4b7e341e5e5126285f))
+
+## [1.52.3](https://github.com/openupm/openupm/compare/1.52.2...1.52.3) (2022-06-16)
+
+
+### Bug Fixes
+
+* **ci:** add a default timeout for all jobs ([545a0c7](https://github.com/openupm/openupm/commit/545a0c788f6840bff45a7333caa446d63be70acd))
+
+## [1.52.2](https://github.com/openupm/openupm/compare/1.52.1...1.52.2) (2022-05-23)
+
+
+### Bug Fixes
+
+* **web:** remove LicenseName's readonly property on the package add page ([5c35104](https://github.com/openupm/openupm/commit/5c351046df609c96fb632e2c68818e8089a7c073))
+
+## [1.52.1](https://github.com/openupm/openupm/compare/1.52.0...1.52.1) (2022-05-22)
+
+
+### Bug Fixes
+
+* **pipelines:** update build reason detection ([26abac1](https://github.com/openupm/openupm/commit/26abac1812f48bcca577b6749003fc40e124f2cb))
+
+# [1.52.0](https://github.com/openupm/openupm/compare/1.51.3...1.52.0) (2022-05-04)
+
+
+### Features
+
+* **cli:** replace OPENUPM_DEV with PACKAGE_LIMIT parameter for development ([845047c](https://github.com/openupm/openupm/commit/845047c65ff343f346b19595d8776b463c057350))
+* **website:** adjust the license name field of the package-add form required ([f461437](https://github.com/openupm/openupm/commit/f4614372223395fe0234c4baf9a4fa098a91ea59))
+
+## [1.51.3](https://github.com/openupm/openupm/compare/1.51.2...1.51.3) (2021-12-26)
+
+
+### Bug Fixes
+
+* **pipelines:** clean repo unavailable flag if repo becomes accesssable ([4bf9f16](https://github.com/openupm/openupm/commit/4bf9f16e59f0b6af7a8ced12c64af9420e6f4b17))
+
+## [1.51.2](https://github.com/openupm/openupm/compare/1.51.1...1.51.2) (2021-10-07)
+
+
+### Bug Fixes
+
+* **website:** clean package add form when clicking the go button ([b0e8f1e](https://github.com/openupm/openupm/commit/b0e8f1e246282092b5b5ce738ec93056a5755cb0))
+
+## [1.51.1](https://github.com/openupm/openupm/compare/1.51.0...1.51.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* **website:** traversing repository branches with pagination (close [#2397](https://github.com/openupm/openupm/issues/2397)) ([57bc913](https://github.com/openupm/openupm/commit/57bc91365306431ca572a25879ea7074799b2dfb))
+
+# [1.51.0](https://github.com/openupm/openupm/compare/1.50.0...1.51.0) (2021-10-07)
+
+
+### Features
+
+* **website:** add raw json text to the manual installation option ([d3a8097](https://github.com/openupm/openupm/commit/d3a80974e6938ce6802e1379bd38d9c2ca227cf1))
+
+# [1.50.0](https://github.com/openupm/openupm/compare/1.49.9...1.50.0) (2021-10-06)
+
+
+### Features
+
+* package manual install options (refs [#1705](https://github.com/openupm/openupm/issues/1705)) ([8e011cf](https://github.com/openupm/openupm/commit/8e011cfe6734218f3719c9412e2e8ebbaa42b12f))
+
+## [1.49.9](https://github.com/openupm/openupm/compare/1.49.8...1.49.9) (2021-10-01)
+
+
+### Bug Fixes
+
+* **path:** Move to data/packages 😅 ([989b7b7](https://github.com/openupm/openupm/commit/989b7b7ad75d2f26fe0bacf518f2e313283d5b19))
+
 ## [1.49.8](https://github.com/openupm/openupm/compare/1.49.7...1.49.8) (2021-09-05)
 
 

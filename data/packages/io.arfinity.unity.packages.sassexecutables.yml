@@ -1,0 +1,19 @@
+name: io.arfinity.unity.packages.sassexecutables
+displayName: arfinity - SassExecutables
+description: SassExecutables for Unity
+repoUrl: 'https://github.com/arfinity-io/unity-sassexecutables'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Package/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643807369128

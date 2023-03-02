@@ -1,0 +1,19 @@
+name: com.langep.jam-kit
+displayName: Langep - Jam Kit
+description: 'Collection of utility methods, design patterns, and extensions for Unity.'
+repoUrl: 'https://github.com/langep/com.langep.jam-kit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: langep
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643439973275

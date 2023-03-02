@@ -1,0 +1,25 @@
+name: com.gilzoide.easy-project-settings
+displayName: Easy Project Settings
+description: >-
+  Easily create custom Project Settings based on ScriptableObjects
+
+
+  Just add the ProjectSettingsAttribute to your ScriptableObject subclass and
+  that's it!
+repoUrl: 'https://github.com/gilzoide/unity-easy-project-settings'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/gilzoide/unity-easy-project-settings/raw/e50b0a0ea68ddb7676a053001926e4403c8bc7ab/Extras~/SampleSettings.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664030813672

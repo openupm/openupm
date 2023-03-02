@@ -2,6 +2,7 @@
 about: 关于我们
 add-package: 提交软件包
 add-package-title: 提交开源UPM软件包
+advanced: 高级
 ai: AI
 all: 全部
 and: 和
@@ -13,12 +14,14 @@ authors: 作者
 back: 后退
 backers: 资助者
 badge: 徽章
+basic: 基础
 branch: 分支
 build: 构建
 build-pipelines: 构建管线
+can-not-locate-the-path-of-pac: 无法在当前分支找到package.json的路径
 camera: 摄像机
 china-region-desc: 如果您不熟悉中文翻译，请略过。
-china-region-info: 中国区信息
+china-region-info: 中国区
 click-to-copy: 点击复制
 code-generation: 代码生成
 code-of-conduct: 行为准则
@@ -35,7 +38,7 @@ dependencies: 依赖
 deps-missing: 请搜索并手动安装这个缺失的依赖包。
 description-zhcn: 包描述（中文）
 discord: Discord
-discovered-by: 软件包猎人
+discovered-by: 软件包猎手
 discovered-by-placeholder: GitHub用户名
 display-name-zhcn: 包名称（中文）
 donate: 赞助
@@ -45,11 +48,10 @@ editor-enhancement: 增强编辑器
 english-text: 英文文本：
 experimental: 实验性
 featured-image: 主图片
-featured-image-desc: 注意：如果代码仓库包含一个
-featured-image-desc-2: ，会使用该图片。
+featured-image-desc: 代码仓库的social image会覆盖此处选择的图片。请参考
 field-none: 无
 fill-the-package-form: 填写软件包表单
-fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合我们的软件包标准，请参考
+fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合OpenUPM的软件包标准，请参考
 footer-copyright: 版权所有 © 2019-2020 Favo Yang
 forked-from: 分叉自
 frameworks: 框架
@@ -62,7 +64,7 @@ git-tag-ignore-pattern: Git标签忽略正则表达式
 git-tag-ignore-pattern-desc: 用于排除Git标签的正则表达式
 git-tag-ignore-pattern-placeholder: 可不填，则默认处理所有Git标签
 git-tag-prefix: Git标签前缀
-git-tag-prefix-desc-safe: >-
+git-tag-prefix-desc-html: >-
   过滤Git标签的前缀。主要由包含多个项目的代码仓库（monorepos）用来区分不同的软件包。该前缀应使用使用斜杠<code>/</code>，连字符<code>-</code>或下划线<code>_</code>来分隔版本号。例如<code>myprefix/x.y.z</code>。
 git-tag-prefix-placeholder: 可不填，则默认处理所有Git标签
 github: GitHub
@@ -92,12 +94,15 @@ latest: 最新
 learn-more: 了解更多
 level-design: 关卡设计
 license: 授权
-license-name: 许可证名称
+license-name: 开源许可证名称
 license-name-desc: 请指定许可证名称。
 loading-branches: 加载分支...
+loading-package-json-path: 加载package.json路径...
+loading-readme-md-path: 加载README.md路径...
 loading-spin-text: 加载中...
 localization: 本地化
 lowest-unity-version: 最低兼容Unity版本
+manual-installation: 手动安装
 medium: Medium
 meta-data: 元数据
 minimal-version-to-build: 可处理的最小版本
@@ -107,7 +112,9 @@ modeling: 建模
 name: 名称
 name-at-version: 名称@版本
 needles-package-installer: Needle的软件包辅助安装器
+no-markdown-file-found-fallbacks: 无法找到markdown文件, 使用默认值README.md
 network: 网络
+nismspText: 京公网安备 11010502045830号
 note: 备注
 package-already-exists-in-unity-registry: 该软件包已存在于Unity软件仓库中。
 package-installer: 软件包辅助安装器
@@ -133,6 +140,7 @@ privacy-policy: 隐私政策
 procedural-generation: 内容生成
 profiling: 优化
 project: 项目
+promote: 推广
 published: 已发行
 published-date: 发行日期
 published-time: 发行时间
@@ -149,7 +157,7 @@ release-reason-bad-request: 服务器无效请求
 release-reason-build-cancellation: 构建被手动的取消
 release-reason-build-timeout: 构建超时
 release-reason-connection-time: 连接超时
-release-reason-entity-too-large: 软件包体积过大
+release-reason-entity-too-large: 软件包体积大于512MB
 release-reason-forbidden: 服务器禁止访问
 release-reason-gateway-timeout: 服务器超时
 release-reason-heap-out-of-memroy: 堆溢出错误（软件包体积过大）
@@ -162,7 +170,8 @@ release-reason-package-name-not-match: 该软件包名称与package.json不匹�
 release-reason-package-not-found: 未能找到package.json的路径
 release-reason-private: 该软件包是私有的
 release-reason-remote-branch-not-found: 未能找到远程分支名称
-release-reason-remote-repository-unavailable: 无法读取代码仓库 (请检查submodules)
+release-reason-remote-repository-unavailable: 无法读取代码仓库
+release-reason-remote-submodule-unavailable: 无法读取submodule代码仓库
 release-reason-service-unavailable: 服务器暂时无响应
 release-reason-unauthorized: 服务器未授权
 release-reason-version-conflict: 该版本已存在（请检查package.json的版本）
@@ -172,7 +181,6 @@ repository: 代码仓库
 repository-placeholder: 所有者/项目名称
 services: 服务
 show-more: 更多
-social-image: 社交网络图片
 sort-by: 排序
 sponsor-bronze: 铜牌赞助商 🥉
 sponsor-diamond: 钻石赞助商 💎
@@ -193,7 +201,7 @@ terms-of-use: 服务条例
 terrain: 地形
 testing: 测试
 the-repository-is-unavailable: 远程代码库无效，它可能被作者移除或设置为私有。OpenUPM无法跟踪该仓库将来的改变。
-top-package-hunters: 软件包猎人排行榜
+top-package-hunters: 软件包猎手排行榜
 top-package-owners: 软件包作者排行榜
 topics: 主题
 tweet: 发推
@@ -201,10 +209,9 @@ twitter: 推特
 unity-version: Unity兼容版本
 upload-to-github-via-pr: 向GitHub提交合并请求（PR）
 upload-to-github-via-pr-desc: 软件包已通过基本验证，并生成了一个YAML文件来存储元数据。
-upload-to-github-via-pr-step-1-safe: 点击【<b>提交合并请求</b>】按钮，将引导你访问GitHub网站完成后续步骤。
-upload-to-github-via-pr-step-2-safe: 滚动到页面末尾，单击【<b>purpose new file</b>】按钮。
-upload-to-github-via-pr-step-3-safe: 点击下一页上的【<b>create pull request</b>】按钮。
-upload-to-github-via-pr-step-4-safe: 合并请求（PR）将会在测试通过后，被自动合并。
+upload-to-github-via-pr-step-1-html: 点击<kbd>提交合并请求</kbd>按钮，将引导你访问GitHub网站完成后续步骤。
+upload-to-github-via-pr-step-2-html: 在GitHub页面，点击页尾的<kbd>Purpose new file</kbd>按钮，并在新页面上点击<kbd>Create pull request</kbd>按钮。了解更多GitHub的帮助信息，请参考
+upload-to-github-via-pr-step-3-html: 合并请求将会在测试通过后被自动合并。出于安全考虑，首次提交的贡献者需要等待维护人审批，我们将尽力在24小时内完成首次贡献者的审批。请参考
 upstream: 父项目
 utilities: 工具
 verify-package: 提交验证
@@ -214,9 +221,8 @@ versions: 版本
 via: 通过
 video: 视频
 visual-scripting: 可视化脚本
-wait-for-ci-pipelines: 等待持续集成管线完成它的工作，通常需要10-15分钟。
-wait-for-ci-pipelines-step-1-safe: 你可以访问软件包页面：
-wait-for-ci-pipelines-step-2-safe: 亦可通过其查看已发布的【<b>版本</b>】和【<b>构建管线</b>】。
-wait-for-ci-pipelines-step-3-safe: <b>注意：首次提交的贡献者需要等待管理员手动批准，可能会花费更多的时间。</b>
+wait-for-ci-pipelines: 等待软件包导入完成
+wait-for-ci-pipelines-step-1-html: 首次导入大致需要花费1小时，然后可以访问该软件包页面：
+wait-for-ci-pipelines-step-2-html: 在等待软件包导入期间，请考虑支持OpenUPM
+your-github-username: 你的GitHub用户名
 weibo-share: 微博分享
-zhihu-blog: 知乎专栏

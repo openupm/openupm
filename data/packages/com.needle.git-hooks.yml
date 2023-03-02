@@ -1,0 +1,22 @@
+name: com.needle.git-hooks
+displayName: Needle Git Hooks
+description: >-
+  Automatically installs a git pre-commit hook to prevent commits with very
+  large files
+repoUrl: 'https://github.com/needle-tools/git-hooks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - version-control
+hunter: needle-tools
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664700463723

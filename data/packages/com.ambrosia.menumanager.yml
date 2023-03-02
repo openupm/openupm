@@ -1,0 +1,19 @@
+name: com.ambrosia.menumanager
+displayName: Ambrosia.MenuManager
+description: Menu Manager for Unity.
+repoUrl: 'https://github.com/DuyguYildirim/Ambrosia.MenuManager'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Ambrosia.MenuManager
+topics:
+  - input-management
+hunter: DuyguYildirim
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1656339616852

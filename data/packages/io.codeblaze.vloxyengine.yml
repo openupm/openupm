@@ -1,0 +1,23 @@
+name: io.codeblaze.vloxyengine
+displayName: Vloxy Engine
+description: High performance voxel engine
+repoUrl: 'https://github.com/BLaZeKiLL/VloxyEngine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - parallelism-and-concurrency
+  - procedural-generation
+  - terrain
+hunter: BLaZeKiLL
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/BLaZeKiLL/VloxyEngine/raw/5b1ada2f0d52d24b1c036e172ba1f3c595fb9064/Assets/UI%20Toolkit/Icons/App/VloxyEngine.png
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662541784517

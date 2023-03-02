@@ -1,0 +1,22 @@
+name: com.nmj.hotkeyscene
+displayName: HotkeyScene
+description: >-
+  Hotkey Scenes is helper editor for using shift + 'numbers' to quickly change
+  scenes.
+repoUrl: 'https://github.com/NMeJa/HotkeyScenes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+hunter: NMeJa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1635445778637

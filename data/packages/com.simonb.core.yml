@@ -1,0 +1,19 @@
+name: com.simonb.core
+displayName: SimonB Core Package
+description: Core for my projects
+repoUrl: 'https://github.com/capsizedmoose/com.simonb.core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: capsizedmoose
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676994617177

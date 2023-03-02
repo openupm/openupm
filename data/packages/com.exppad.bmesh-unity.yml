@@ -1,0 +1,22 @@
+name: com.exppad.bmesh-unity
+displayName: BMesh for Unity
+description: >-
+  A library for mesh procedural manipulation built around a non-manifold
+  boundary mesh representation inpired by Blender
+repoUrl: 'https://github.com/eliemichel/BMeshUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/eliemichel/BMeshUnity/raw/f578a29ea98558f5a3fde300968280b4cfa066e5/Doc/BMeshUnity.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649798097700

@@ -1,0 +1,20 @@
+name: com.hathora.client
+displayName: Hathora Client SDK
+description: ''
+repoUrl: 'https://github.com/hathora/buildkits'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+hunter: szunami
+gitTagPrefix: 'openupm'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668019680608

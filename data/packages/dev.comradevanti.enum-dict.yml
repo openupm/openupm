@@ -1,0 +1,20 @@
+name: dev.comradevanti.enum-dict
+displayName: EnumDict
+description: Dictionary type with an entry for each value of an enum
+repoUrl: 'https://github.com/ComradeVanti/UnityEnumDict'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658391921447

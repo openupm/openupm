@@ -1,0 +1,21 @@
+name: com.usagi-meteor.noveleditor
+displayName: Novel Editor
+description: This is an editor to create dialogue system easily.
+repoUrl: 'https://github.com/chocorone/NovelGameEditor'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MPL
+topics:
+  - gui
+  - utilities
+hunter: chocorone
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/chocorone/NovelGameEditor/raw/5d9586c5d5cdd7ba4150cef5eab0759b71bd4e8a/Assets/NovelEditor/Sample/Image/NodeImage.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676336039977

@@ -12,7 +12,7 @@ gitTagPrefix: ''
 gitTagIgnore: ^v
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: 'main:README.md'
 createdAt: 1599837369650
 displayName_zhCN: C#编译器设置
 description_zhCN: 更改Unity项目上使用的C#编译器（CSC），如你所愿！

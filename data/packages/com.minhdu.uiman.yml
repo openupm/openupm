@@ -3,8 +3,8 @@ displayName: UIMan
 description: Unity package repo for UIMan
 repoUrl: 'https://github.com/grashaar/uiman'
 parentRepoUrl: 'https://github.com/minhdu/uiman'
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: grashaar

@@ -1,11 +1,21 @@
 apps:
-  - name: queue-main
-    instance_var: queue-main
+  - name: queue-pkg
+    instance_var: queue-pkg
     cwd: /home/openupm/openupm
     script: app/queues/process.js
-    args: main
-    error_file: ./logs/queue-main-error.log
-    out_file: ./logs/queue-main.log
+    args: pkg
+    error_file: ./logs/queue-pkg-error.log
+    out_file: ./logs/queue-pkg.log
+    combine_logs: true
+    max_memory_restart: 512M
+    autorestart: true
+  - name: queue-rel
+    instance_var: queue-rel
+    cwd: /home/openupm/openupm
+    script: app/queues/process.js
+    args: rel
+    error_file: ./logs/queue-rel-error.log
+    out_file: ./logs/queue-rel.log
     combine_logs: true
     max_memory_restart: 512M
     autorestart: true

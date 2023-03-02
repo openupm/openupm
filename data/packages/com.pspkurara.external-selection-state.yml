@@ -1,0 +1,25 @@
+name: com.pspkurara.external-selection-state
+displayName: External Selection State
+description: >-
+  The system allows external access to Selection.SelectionState, which is a
+  protected Enum of uGUI.
+
+  You need to create your own UI (CustomButton, CustomToggle, etc.) classes that
+  inherit from components that inherit from Selection classes such as Button and
+  Toggle, and implement this library.
+repoUrl: 'https://github.com/pspkurara/external-selecion-state'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: pspkurara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662493501615

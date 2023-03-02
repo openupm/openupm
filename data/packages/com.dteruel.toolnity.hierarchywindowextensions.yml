@@ -1,0 +1,23 @@
+name: com.dteruel.toolnity.hierarchywindowextensions
+displayName: Toolnity Hierarchy Window Extensions
+description: |-
+  Addons for the Hierarchy Window:
+   - Colorizer
+   - SetActive toggle
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: hierarchy_window_extensions
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Hierarchy Window Extensions/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176236879

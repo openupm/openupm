@@ -1,0 +1,22 @@
+name: com.tokar.gen.layers
+displayName: Tags Layers Generator
+description: 'Editor generator unity tags, layers & sorting layers for handy use at runtime.'
+repoUrl: 'https://github.com/Tokars/unity_tag_layers_gen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - physics
+  - utilities
+hunter: Tokars
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'stable:README.md'
+readme_zhCN: 'stable:Documentation/com.tokar.gen.layers.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672326322619

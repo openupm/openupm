@@ -1,0 +1,24 @@
+name: com.dteruel.toolnity.mapgenerator
+displayName: Toolnity Map Generator
+description: Tool to generate Maps from an image.
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - frameworks
+  - level-design
+  - modeling
+  - procedural-generation
+  - utilities
+hunter: DTeruel
+gitTagPrefix: map_generator
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Map Generator/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176490965

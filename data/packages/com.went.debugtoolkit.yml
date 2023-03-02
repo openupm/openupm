@@ -1,0 +1,20 @@
+name: com.went.debugtoolkit
+displayName: DebugToolkit
+description: UIToolkit  for RuntimeDebug
+repoUrl: 'https://github.com/went-bye/DebugToolkit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - testing
+hunter: went
+gitTagPrefix: unity
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638628418302

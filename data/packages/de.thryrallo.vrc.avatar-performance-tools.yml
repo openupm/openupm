@@ -1,0 +1,21 @@
+name: de.thryrallo.vrc.avatar-performance-tools
+displayName: Thry's Avatar Performance Tools
+description: "Calculated and evaluates some avatar metric not currently taking into account by vrchats ranking system.\r\n\nMost prominently gives a breakdown over VRAM usage of different parts of the avatar."
+repoUrl: 'https://github.com/Thryrallo/VRC-Avatar-Performance-Tools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - profiling
+  - utilities
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677610829369

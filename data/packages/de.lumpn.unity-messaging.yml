@@ -1,0 +1,19 @@
+name: de.lumpn.unity-messaging
+displayName: Lumpn Messaging
+description: 'Non-allocating, strongly typed SendMessage messaging facilities.'
+repoUrl: 'https://github.com/lumpn/unity-messaging'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637435998695

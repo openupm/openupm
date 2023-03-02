@@ -1,0 +1,20 @@
+name: com.sschmid.sherlog.appenders
+displayName: Sherlog.Appenders
+description: Flexible logging for C# and Unity
+repoUrl: 'https://github.com/sschmid/com.sschmid.sherlog'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - network
+hunter: sschmid
+gitTagPrefix: com.sschmid.sherlog.appenders/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.sherlog.appenders/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666718920432

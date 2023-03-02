@@ -1,0 +1,19 @@
+name: com.sturfee.vps.core
+displayName: Sturfee VPS Core
+description: Core library for Sturfee VPS SDK
+repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: kushG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655320717240

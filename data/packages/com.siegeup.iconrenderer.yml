@@ -1,0 +1,23 @@
+name: com.siegeup.iconrenderer
+displayName: SiegeUp.IconRenderer
+description: Universal extendable icons renderer for items and objects in editor mode.
+repoUrl: 'https://github.com/SiegeUp/SiegeUp.IconRenderer'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Abuksigun SiegeUp
+topics:
+  - 2d
+  - asset-management
+  - editor-enhancement
+  - sprite-management
+  - utilities
+hunter: mrtrizer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671592578168

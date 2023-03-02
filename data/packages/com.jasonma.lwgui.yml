@@ -1,0 +1,21 @@
+name: com.jasonma.lwgui
+displayName: LWGUI
+description: 'A Lightweight, Flexible, Powerful Shader GUI System for Unity.'
+repoUrl: 'https://github.com/JasonMa0012/LWGUI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README_CN.md'
+displayName_zhCN: LWGUI
+description_zhCN: '一个轻量, 灵活, 强大的Unity Shader GUI系统.'
+createdAt: 1667402930935

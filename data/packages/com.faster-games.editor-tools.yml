@@ -1,0 +1,19 @@
+name: com.faster-games.editor-tools
+displayName: FasterGames EditorTools
+description: Tools for improving the Unity Editor experience.
+repoUrl: 'https://github.com/faster-games/editor-tools'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: bengreenier
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632945006991

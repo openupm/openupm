@@ -1,0 +1,22 @@
+name: com.nat1wizard.eventsystem
+displayName: Nat1Wizard Event System
+description: >-
+  A simple scriptable object based event system to handle passing messages
+  across scenes.
+repoUrl: 'https://github.com/kbvatral/SO-Event-System'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - data-management
+  - utilities
+hunter: kbvatral
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659547831010

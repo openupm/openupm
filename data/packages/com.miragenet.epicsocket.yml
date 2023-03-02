@@ -1,0 +1,19 @@
+name: com.miragenet.epicsocket
+displayName: Epic online service for Mirage
+description: 'Epic online servers for Mirage, includes relay, lobbies and other features'
+repoUrl: 'https://github.com/MirageNet/EpicSocket'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: James-Frowen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661856080517

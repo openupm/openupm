@@ -90,10 +90,20 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
         ReleaseReason.InvalidVersion
       );
     });
+    it("InvalidVersion", function() {
+      getReasonFromBuildLogText('code EBADSEMVER').should.equal(
+        ReleaseReason.InvalidVersion
+      );
+    });
     it("RemoteRepositoryUnavailable", function() {
       getReasonFromBuildLogText(
         "fatal: Could not read from remote repository."
       ).should.equal(ReleaseReason.RemoteRepositoryUnavailable);
+    });
+    it("RemoteSubmoduleUnavailable", function() {
+      getReasonFromBuildLogText(
+        "fatal: clone of 'https://github.com/some-submodule-repo' into submodule path"
+      ).should.equal(ReleaseReason.RemoteSubmoduleUnavailable);
     });
   });
 });

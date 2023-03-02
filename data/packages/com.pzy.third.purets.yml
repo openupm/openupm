@@ -1,0 +1,19 @@
+name: com.pzy.third.purets
+displayName: Purets
+description: ''
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: Peng-Zhiyuan
+gitTagPrefix: com.pzy.third.purets/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:Packages/README.md'
+readme_zhCN: ''
+displayName_zhCN: Peng-Zhiyuan
+description_zhCN: ''
+createdAt: 1638510320552

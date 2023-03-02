@@ -1,0 +1,20 @@
+name: com.razensoft.xxtea
+displayName: Razensoft.XXTEA
+description: A simple and fast zero-dependency cryptography cypher for Unity
+repoUrl: 'https://github.com/Razenpok/Razensoft.XXTEA'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: Razenpok
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658122841052

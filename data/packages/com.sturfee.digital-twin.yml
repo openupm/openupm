@@ -1,0 +1,19 @@
+name: com.sturfee.digital-twin
+displayName: Sturfee Digital Twin
+description: Digital Twin Spaces SDK to load and create Digital twin tiles
+repoUrl: 'https://github.com/sturfeeinc/com.sturfee.digital-twin'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: kushG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655496885727

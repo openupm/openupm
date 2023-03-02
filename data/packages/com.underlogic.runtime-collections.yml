@@ -1,0 +1,22 @@
+name: com.underlogic.runtime-collections
+displayName: Runtime Collections
+description: >-
+  Runtime collections for shared state and reactive behavior between components
+  and scenes
+repoUrl: 'https://github.com/UnderLogic/runtime-collections'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: ewrogers
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/UnderLogic/runtime-collections/main/Documentation~/src/images/cover.png'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670023210010

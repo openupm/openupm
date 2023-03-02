@@ -1,0 +1,21 @@
+name: se.hertzole.runtime-options-manager
+displayName: Runtime Options Manager
+description: A drop-in solution for easily managing your runtime game options.
+repoUrl: 'https://github.com/Hertzole/runtime-options-manager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Hertzole/runtime-options-manager/raw/7f7e36624f45bc3775c4e8573f7996252e4b3e84/Packages/se.hertzole.runtime-options-manager/Editor/Icons/SettingsManager%20Icon.png
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655070907323

@@ -1,0 +1,21 @@
+name: com.beans.mpo
+displayName: Material Property Overrides
+description: >-
+  Materials need clutter your project no more! This package allows you to
+  override individual properties on a per-renderer basis.
+repoUrl: 'https://github.com/keenanwoodall/Material-Property-Overrides'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634506977047

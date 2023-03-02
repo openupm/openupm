@@ -1,0 +1,21 @@
+name: com.miragenet.objectpooler
+displayName: Mirage Object Pooler
+description: A plugin to handle object pooling locally and network in mirage.
+repoUrl: 'https://github.com/MirageNet/ObjectPooler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+  - utilities
+hunter: dragonslaya84
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633894699848

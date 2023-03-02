@@ -1,0 +1,20 @@
+name: org.pcsoft.input-ex
+displayName: Unity Input Extension
+description: Extension for new Input System of Unity.
+repoUrl: 'https://github.com/KleinerHacker/unity-input-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - input-management
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121664894

@@ -1,0 +1,21 @@
+name: jp.co.bexide.bxuni.texturechecker
+displayName: BxUni Texture Checker
+description: Texture Check Utility
+repoUrl: 'https://github.com/bexide/BxUni-TextureChecker'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: bexide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670298723390

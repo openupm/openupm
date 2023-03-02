@@ -1,0 +1,21 @@
+name: com.tencent.puerts.webgl
+displayName: Puerts WebGL Support
+description: >-
+  Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment
+  and get speed up by JIT.
+repoUrl: 'https://github.com/zombieyang/puerts_unity_webgl_demo'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - utilities
+hunter: zombieyang
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: 普洱ts webgl支持
+description_zhCN: 开始做小游戏吧
+createdAt: 1653328204446

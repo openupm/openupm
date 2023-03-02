@@ -5,8 +5,8 @@ description: >-
   projects.
 repoUrl: 'https://github.com/kongregate/asset-bundle-builder'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - asset-management
 hunter: randomPoison

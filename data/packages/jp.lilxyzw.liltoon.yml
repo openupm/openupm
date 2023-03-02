@@ -1,0 +1,19 @@
+name: jp.lilxyzw.liltoon
+displayName: lilToon
+description: Feature-rich toon shader.
+repoUrl: 'https://github.com/AoiKamishiro/lilToon'
+parentRepoUrl: 'https://github.com/lilxyzw/lilToon'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663618929298

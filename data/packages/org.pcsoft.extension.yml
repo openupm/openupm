@@ -1,0 +1,19 @@
+name: org.pcsoft.extension
+displayName: Unity Extension
+description: Extension for Unity itself.
+repoUrl: 'https://github.com/KleinerHacker/unity-extension'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121543214

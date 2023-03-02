@@ -1,0 +1,20 @@
+name: com.volumebox.toolbox
+displayName: VolumeBox Toolbox
+description: Architecture solution for simplifying process of creating games
+repoUrl: 'https://github.com/GariestGary/Unity-Toolbox'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: GariestGary
+gitTagPrefix: ''
+gitTagIgnore: '-master$'
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676539747941

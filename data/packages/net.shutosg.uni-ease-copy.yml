@@ -1,0 +1,20 @@
+name: net.shutosg.uni-ease-copy
+displayName: UniEaseCopy
+description: Easing copy and paste tool
+repoUrl: 'https://github.com/shutosg/UniEaseCopy'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+hunter: shutosg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652442737036

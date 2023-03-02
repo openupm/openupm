@@ -1,0 +1,19 @@
+name: org.pcsoft.prefs-ex
+displayName: Player Preferences Extension
+description: Extension for Unity player preferences system.
+repoUrl: 'https://github.com/KleinerHacker/unity-prefs-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636121228983

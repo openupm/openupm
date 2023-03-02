@@ -1,0 +1,23 @@
+name: com.alteracia.screenplay
+displayName: Alteracia.Screenplay
+description: ''
+repoUrl: 'https://github.com/Alteracia/AltSceenplay'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - level-design
+  - utilities
+  - visual-scripting
+hunter: Alteracia
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649338747880

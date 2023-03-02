@@ -1,0 +1,19 @@
+name: com.beardphantom.bootstrap
+displayName: Fabric.Core
+description: A rock-solid mechanism for consistent, testable, and configurable application bootstrapping for Unity.
+repoUrl: 'https://github.com/thebeardphantom/Bootstrap'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0'
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1615540240324

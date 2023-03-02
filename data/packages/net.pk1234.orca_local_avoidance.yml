@@ -1,0 +1,19 @@
+name: net.pk1234.orca_local_avoidance
+displayName: Orca local avoidance
+description: An local avoidance solution using the ORCA approach.
+repoUrl: 'https://github.com/pk1234dva/orca_local_avoidance'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+hunter: pk1234dva
+gitTagPrefix: v1.0.0
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637268383343

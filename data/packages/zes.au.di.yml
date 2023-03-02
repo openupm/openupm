@@ -1,0 +1,20 @@
+name: zes.au.di
+displayName: Au Inject Lib
+description: Dependence Inject Library for Au
+repoUrl: 'https://github.com/zhihesoft/zes-unity-au-di'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: zhihesoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663146297795
+

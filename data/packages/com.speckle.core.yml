@@ -1,0 +1,19 @@
+name: com.speckle.core
+displayName: Speckle Core
+description: Speckle Core and Converter for Unity 
+repoUrl: 'https://github.com/sasakiassociates/speckle-unity-connector'
+parentRepoUrl: 'https://github.com/specklesystems/speckle-unity'
+licenseSpdxId: ''
+licenseName: Apache-2.0
+topics:
+  - version-control
+hunter: haitheredavid
+gitTagPrefix: 'com.speckle.core-'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:packages/core/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653079075880

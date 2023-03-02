@@ -416,7 +416,7 @@ if (require.main === module) {
     .parse(process.argv)
     .run(async function() {
       if (program.all)
-        packageNames = await loadPackageNames({ sortBy: "-mtime" });
+        packageNames = await loadPackageNames({ sortKey: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
       await fetchExtraData(packageNames, program.force);
       await healthCheck(config.healthCheck.ids.fetchPackageExtra);

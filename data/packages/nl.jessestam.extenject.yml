@@ -1,0 +1,19 @@
+name: nl.jessestam.extenject
+displayName: Extenject
+description: Dependency Injection Framework for Unity3D
+repoUrl: 'https://github.com/nolimet/Extenject'
+parentRepoUrl: 'https://github.com/Mathijs-Bakker/Extenject'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: nolimet
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2021.3'
+image: ''
+readme: 'release/jessestam:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660891873068

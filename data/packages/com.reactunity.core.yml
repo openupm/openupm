@@ -1,18 +1,19 @@
 name: com.reactunity.core
 displayName: React Unity
-description: React renderer for building user interfaces in Unity UI
+description: React and HTML framework for Unity UI & UIToolkit
 repoUrl: 'https://github.com/ReactUnity/core'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - utilities
+  - frameworks
   - gui
 hunter: KurtGokhan
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 0.0.13
 image: 'https://avatars2.githubusercontent.com/u/62178684'
+readme: 'main:README.md'
 createdAt: 1584361495094
 displayName_zhCN: React Unity
 description_zhCN: 用于在Unity UI中构建用户界面的React渲染器

@@ -1,0 +1,24 @@
+name: com.beauprime.leaf
+displayName: Leaf
+description: Leaf is a narrative-focused scripting language and runtime for Unity.
+repoUrl: 'https://github.com/BeauPrime/Leaf'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+  - parallelism-and-concurrency
+  - localization
+  - utilities
+hunter: BeauPrime
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/BeauPrime/Leaf/raw/b11200e85efe4984df06027199399ca5d07b2d2c/Assets/Leaf/Textures/LeafAsset%20Icon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652408831979

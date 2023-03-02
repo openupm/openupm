@@ -16,3 +16,4 @@ basement_dist
 config/local.js
 fixtures/fixtures.json
 data/media
+yarn-error.log

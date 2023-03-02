@@ -1,0 +1,19 @@
+name: com.hgs.local-storage
+displayName: HGS Local Storage
+description: Manage local files and cache using Scriptable Objects
+repoUrl: 'https://github.com/homy-game-studio/hgs-unity-local-storage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: MatheusMoura17
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658427245080

@@ -1,0 +1,21 @@
+name: dev.comradevanti.wait-for-anim
+displayName: Wait for Animation
+description: A custom yield instruction to wait for animations
+repoUrl: 'https://github.com/ComradeVanti/UnityWaitForAnim'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - animation
+  - parallelism-and-concurrency
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647939437353

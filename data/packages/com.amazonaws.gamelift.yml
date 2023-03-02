@@ -1,0 +1,25 @@
+name: com.amazonaws.gamelift
+displayName: Amazon GameLift Plugin for Unity
+description: >-
+  The Amazon GameLift Plugin for Unity contains libraries and native UI that
+  makes it easier to access GameLift resources and integrate GameLift into your
+  Unity game. You can use the GameLift Unity Plugin to access GameLift APIs and
+  deploy AWS CloudFormation templates for common gaming scenarios.
+repoUrl: 'https://github.com/aws/amazon-gamelift-plugin-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - integration
+  - services
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/aws/amazon-gamelift-plugin-unity/raw/50e0e8b3376672e5b5e978528b03fb18ff086ad1/GameLift-Unity/Assets/com.amazonaws.gamelift/Editor/Resources/Images/Light/GameLiftLogo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632238924880

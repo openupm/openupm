@@ -1,0 +1,20 @@
+name: com.hgs.tone
+displayName: HGS Tone
+description: Simple tool to play musical notes
+repoUrl: 'https://github.com/homy-game-studio/hgs-unity-tone'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: MatheusMoura17
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/homy-game-studio/hgs-unity-tone/raw/d8d3b465dad40121dc0a68d2d1fe3858897a3b04/Assets/Package/Samples/Sprites/Square.png
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1660892432507

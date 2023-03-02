@@ -1,0 +1,20 @@
+name: com.needle.missing-component-info
+displayName: Needle Missing Component Info
+description: Serializes and renders missing component info (if available)
+repoUrl: 'https://github.com/needle-tools/missing-component-info'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: marwie
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1654606023747

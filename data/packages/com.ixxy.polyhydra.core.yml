@@ -1,0 +1,22 @@
+name: com.ixxy.polyhydra.core
+displayName: Polyhydra Core
+description: >-
+  Core mesh library for Polyhydra. Procedural generation of geometric forms in
+  Unity.
+repoUrl: 'https://github.com/IxxyXR/polyhydra-core'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - procedural-generation
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647262217140

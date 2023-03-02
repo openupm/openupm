@@ -1,0 +1,22 @@
+name: com.andywiecko.burst.triangulator
+displayName: Burst Triangulator
+description: >-
+  A single-file package which provides simple Delaunay triangulation of the
+  given set of points with mesh refinement.
+repoUrl: 'https://github.com/andywiecko/BurstTriangulator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - utilities
+hunter: andywiecko
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663002990122

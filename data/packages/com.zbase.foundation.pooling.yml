@@ -1,0 +1,19 @@
+name: com.zbase.foundation.pooling
+displayName: ZBase.Foundation.Pooling
+description: Object pooling for Unity
+repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.Pooling'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670240594725

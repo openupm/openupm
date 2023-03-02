@@ -5,6 +5,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const { isEmpty } = require("lodash/lang");
 
 const config = require("config");
 const sharp = require("sharp");
@@ -205,7 +206,8 @@ const getMediaTempFilename = function({ imageUrl, width, height, fit }) {
 const getImage = async function({ imageUrl, width, height, fit }) {
   const key = getMediaKey({ imageUrl, width, height, fit });
   const obj = await redis.client.hgetall(key);
-  if (!obj) return null;
+  if (isEmpty(obj))
+    return null;
   obj.size = parseInt(obj.size) || 0;
   if (!obj.filename)
     obj.filename = getMediaFilename({

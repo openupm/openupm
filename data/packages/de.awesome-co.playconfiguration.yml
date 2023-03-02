@@ -1,0 +1,19 @@
+name: de.awesome-co.playconfiguration
+displayName: Play Configuration
+description: Closes or opens selected scenes when entering playback mode (editor only).
+repoUrl: 'https://github.com/Herb1/PlayConfiguration'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636146971917

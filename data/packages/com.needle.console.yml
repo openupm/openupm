@@ -1,0 +1,23 @@
+name: com.needle.console
+displayName: Needle Console
+description: >-
+  Better Unity console featuring improved stacktrace readability using
+  Ben.Demystifier, filtering of log entries, collapsing of individual logs
+repoUrl: 'https://github.com/needle-tools/needle-console'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: marwie
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/needle-tools/needle-console/raw/6683344caeafdda3ebe96900d4942c8e3c8fae83/assets/_documentation/filter-foldout.gif
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651082006683

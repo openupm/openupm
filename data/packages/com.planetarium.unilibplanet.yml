@@ -1,0 +1,19 @@
+name: com.planetarium.unilibplanet
+displayName: Unilibplanet
+description: Libplanet Extensions for Unity
+repoUrl: 'https://github.com/planetarium/libplanet-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: LGPL-2.1
+licenseName: GNU Lesser General Public License v2.1
+topics:
+  - utilities
+hunter: planetarium
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655772711678

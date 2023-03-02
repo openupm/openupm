@@ -1,0 +1,20 @@
+name: com.tendo.fuxi
+displayName: fuxi
+description: assetBundle build and load solution!
+repoUrl: 'https://github.com/mistletoeKANO/fuxi'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - version-control
+hunter: mistletoeKANO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.0.1'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: '伏羲'
+description_zhCN: 'AssetBundle 资源管理 工具'
+createdAt: 1655040507112

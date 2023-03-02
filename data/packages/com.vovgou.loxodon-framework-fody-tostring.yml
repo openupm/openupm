@@ -1,0 +1,23 @@
+name: com.vovgou.loxodon-framework-fody-tostring
+displayName: Loxodon Framework Fody ToString
+description: >-
+  This is a plugin for static weaving code that integrates ToString.Fody into a
+  Unity project.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - localization
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 'v2.4.9'
+image: >-
+  https://github.com/vovgou/loxodon-framework/raw/master/docs/images/icon.png
+readme: 'master:Loxodon.Framework.Fody/README.md'
+readme_zhCN: 'master:Loxodon.Framework.Fody/README_CN.md'
+createdAt: 1663669085651

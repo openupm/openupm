@@ -1,0 +1,19 @@
+name: com.artnas.meshsplit
+displayName: Mesh Split
+description: Split meshes into chunks of a given size
+repoUrl: 'https://github.com/artnas/Unity-Plane-Mesh-Splitter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT
+topics:
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://camo.githubusercontent.com/a53f4029c7520d08974b90972b61464c1729581691802d6402adca1c7e632bb0/687474703a2f2f692e696d6775722e636f6d2f35507a6f5646632e6a7067'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667589193322

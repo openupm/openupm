@@ -1,0 +1,21 @@
+name: com.hww.xikeyboard
+displayName: XiKeyboard
+description: XiKeyboard is tiny keyboard shortcuts system for Unity 3D.
+repoUrl: 'https://github.com/hww/XiKeyboard'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - frameworks
+  - input-management
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663616304617

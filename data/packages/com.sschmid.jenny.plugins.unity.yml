@@ -1,0 +1,19 @@
+name: com.sschmid.jenny.plugins.unity
+displayName: Jenny.Plugins.Unity
+description: A lovely .NET Code Generator
+repoUrl: 'https://github.com/sschmid/com.sschmid.jenny'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: sschmid
+gitTagPrefix: com.sschmid.jenny.plugins.unity/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.jenny.plugins.unity/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667585585441

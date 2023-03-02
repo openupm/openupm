@@ -5,6 +5,7 @@ items:
   githubUser: gekidoslair
 - name: Takumi Ito
   githubUser: t5ujiri
+  expires: 2022-12-02
 - name: JohannesDeml
   githubUser: JohannesDeml
 - name: TheDudeFromCI
@@ -25,3 +26,11 @@ items:
   expires: 2021-07-31
 - name: Koji Hasegawa
   githubUser: nowsprinting
+- name: Andreas Atteneder
+  githubUser: atteneder
+- name: Laicasaane
+  githubUser: laicasaane
+- name: 僵尸浩
+  githubUser: zombieyang
+- name: ComradeVanti
+  githubUser: ComradeVanti

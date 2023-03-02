@@ -1,0 +1,19 @@
+name: com.sandrofigo.singletons-unity3d
+displayName: Singletons
+description: Singleton classes for Unity
+repoUrl: 'https://github.com/sandrofigo/Singletons-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664357588678

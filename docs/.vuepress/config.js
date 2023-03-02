@@ -83,15 +83,15 @@ const config = {
     ],
     ["meta", { name: "msapplication-TileColor", content: "#000000" }],
     // Google AdSense
-    [
-      "script",
-      { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }
-    ],
-    [
-      "script",
-      {},
-      '(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-7925911236569822",enable_page_level_ads:true});'
-    ]
+    // [
+    //   "script",
+    //   { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }
+    // ],
+    // [
+    //   "script",
+    //   {},
+    //   '(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-7925911236569822",enable_page_level_ads:true});'
+    // ]
   ],
   themeConfig: {
     baseDomain: BASE_DOMAIN,
@@ -121,10 +121,6 @@ const config = {
     "@vuepress/plugin-medium-zoom",
     "vuepress-plugin-table-of-contents",
     require("./plugins/openupm-packages"),
-    [
-      "@vuepress/google-analytics",
-      { ga: OPENUPM_REGION == "cn" ? "UA-154679622-3" : "UA-154679622-1" }
-    ],
     ["vuepress-plugin-sitemap", { hostname: `https://${BASE_DOMAIN}` }],
     [
       "vuepress-plugin-seo",

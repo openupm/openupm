@@ -1,0 +1,19 @@
+name: com.autsoft.unityresourcegenerator
+displayName: Unity Resource Generator
+description: Generate path strings for Resources.Load
+repoUrl: 'https://github.com/AutSoft/UnityResourceGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: KuraiAndras
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634194114917

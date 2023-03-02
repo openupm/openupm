@@ -1,0 +1,20 @@
+name: zes.au.patcher
+displayName: Au Patch Library for Unity3D
+description: Au Patch library for Unity3D
+repoUrl: 'https://github.com/zhihesoft/zes-unity-au-patcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: zhihesoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663643425376
+

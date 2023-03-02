@@ -41,7 +41,6 @@
       <ClientOnly>
         <PackageRecent />
       </ClientOnly>
-      <social-share />
     </main>
   </ParentLayout>
 </template>
@@ -120,10 +119,6 @@ export default {
   h3
     margin-top 2rem
 
-  .social-share
-    text-align center
-    margin-bottom 1rem
-
 // @media (max-width: $MQMobile)
 @media (max-width: $MQMobileNarrow)
   .home
@@ -136,9 +131,6 @@ export default {
 
     section, .theme-default-content
       padding 0 1rem!important
-
-    .social-share
-      margin-bottom 0.4rem
 
   .warning.custom-block
     margin: 0 -1rem !important

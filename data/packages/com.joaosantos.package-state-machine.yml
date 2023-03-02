@@ -1,0 +1,19 @@
+name: com.joaosantos.package-state-machine
+displayName: JS State Machine
+description: Package with a state machine scripts
+repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JoaoSant0s
+gitTagPrefix: package-state-machine-
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:Packages/com.joaosantos.package-state-machine/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633954554722

@@ -1,0 +1,21 @@
+name: com.10101software.dots.hybridsimulation
+displayName: DOTS Hybrid Simulation Worlds
+description: >-
+  A framework for using FixedUpdate in a simulation world which is linked to a
+  GameObject-based presentation layer.
+repoUrl: 'https://github.com/tbg10101/DOTS-Hybrid-Simulation-Worlds'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+hunter: tbg10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2020.3'
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1646538653947

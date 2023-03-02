@@ -1,0 +1,19 @@
+name: com.joaosantos.package-common-wrapper
+displayName: JS Common Wrapper
+description: Package with a wrapper of auxiliar scripts. See the github Readme.
+repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: JoaoSant0s
+gitTagPrefix: 'package-common-wrapper-'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Assets/com.joaosantos.package-common-wrapper/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632971530438

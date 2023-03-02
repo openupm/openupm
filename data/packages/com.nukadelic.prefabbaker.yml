@@ -1,0 +1,23 @@
+name: com.nukadelic.prefabbaker
+displayName: Prefab Lightmap Baker
+description: 'More info at : https://github.com/nukadelic/Unity-Lightmap-Prefab-Baker'
+repoUrl: 'https://github.com/nukadelic/Unity-Lightmap-Prefab-Baker'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - asset-management
+  - editor-enhancement
+  - integration
+  - level-design
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670095284820

@@ -1,0 +1,20 @@
+name: com.sushiwaumai.chronity
+displayName: Chronity
+description: Library for running functions in Unity after a delay.
+repoUrl: 'https://github.com/SushiWaUmai/Chronity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631388617372

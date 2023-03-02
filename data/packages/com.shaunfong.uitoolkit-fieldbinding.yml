@@ -1,0 +1,21 @@
+name: com.shaunfong.uitoolkit-fieldbinding
+displayName: com.shaunfong.uitoolkit-fieldbinding
+description: Code generation for ui toolkit fields.
+repoUrl: 'https://github.com/Shaun-Fong/UIToolkit-FieldBinding'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - gui
+hunter: Shaun-Fong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: UIToolkit自动绑定
+description_zhCN: 协助快速生成自动绑定代码。
+createdAt: 1675783529628

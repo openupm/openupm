@@ -1,0 +1,19 @@
+name: com.focus-creative-games.huatuo
+displayName: huatuo unity package
+description: 'This package contains a collection of tools, used to huatuo.'
+repoUrl: 'https://github.com/focus-creative-games/huatuo_upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: focus-creative-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: huatuo管理工具
+description_zhCN: huatuo管理工具集，包含各种huatuo使用相关的工具。
+createdAt: 1652177421910

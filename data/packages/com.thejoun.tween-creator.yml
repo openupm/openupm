@@ -1,0 +1,21 @@
+name: com.thejoun.tween-creator
+displayName: Tween Creator
+description: Create and preview composite tweens in the editor
+repoUrl: 'https://github.com/thejoun/tween-creator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+hunter: thejoun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/thejoun/tween-creator/raw/4549fc032c5d6b7138ca683a22162913fa4907b3/img/component.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1673556880320

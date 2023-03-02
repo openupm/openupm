@@ -1,0 +1,20 @@
+name: com.omiyagames.global.settings
+displayName: Omiya Games - Global Settings
+description: A set of helper libraries to create a project setting accessible on runtime.
+repoUrl: 'https://github.com/OmiyaGames/omiya-games-global-settings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: japtar10101
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1644722857101

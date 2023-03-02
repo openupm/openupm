@@ -1,0 +1,27 @@
+name: com.gilzoide.safe-area-layout
+displayName: Safe Area Layout
+description: >-
+  uGUI layout group for respecting the Safe Area, supports children's
+  LayoutElement.ignoreLayout
+
+  Just add the SafeAreaLayoutGroup script anywhere in your UI hierarchy (even to
+  objects with Canvases) and children's anchors will be adjusted to be within
+  the Safe Area. Optionally, add LayoutElement components to children and check
+  Ignore Layout for them to be ignored from Safe Area adjustments.
+repoUrl: 'https://github.com/gilzoide/unity-safe-area-layout'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - gui
+  - mobile
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661095657420

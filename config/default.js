@@ -1,5 +1,16 @@
 // Default configurations.
 
+const defaultJobOptions = {
+  removeOnComplete: true,
+  removeOnFail: false,
+  attempts: 3,
+  timeout: 60000,
+  backoff: {
+    type: "exponential",
+    delay: 30000,
+  }
+};
+
 module.exports = {
   // Debug flag
   debug: true,
@@ -11,47 +22,36 @@ module.exports = {
   redis: {
     host: "127.0.0.1",
     port: 6379,
-    db: 0
+    db: 0,
+    retryStrategy(times) {
+      return 5000;
+    },
   },
 
   // Queue settings.
   queueSettings: {
-    emitter: {
-      removeOnSuccess: true,
-      removeOnFailure: false,
-      isWorker: false,
-      // The queue does not need to receive job events.
-      getEvents: false,
-      // The queue does not store jobs, so you can use Queue#getJob to check job status safely.
-      storeJobs: false,
-      // The queue is not responsible for activating delayed jobs.
-      activateDelayedJobs: false
+    pkg: {
+      concurrency: 5,
+      defaultJobOptions
     },
-    worker: {
-      removeOnSuccess: true,
-      removeOnFailure: false,
-      isWorker: true,
-      // The queue is responsible for activating delayed jobs.
-      activateDelayedJobs: true
-    }
+    rel: {
+      concurrency: 5,
+      defaultJobOptions
+    },
   },
 
   // Jobs.
   jobs: {
-    concurrent: 5,
-    checkStalledJobsInterval: 5000,
     buildPackage: {
-      queue: "main",
-      key: "build-pkg",
-      retries: 2,
-      backoff: ["fixed", 60 * 1000]
+      queue: "pkg",
+      name: "build-pkg",
+      timeout: 60000 * 5,
     },
     buildRelease: {
-      queue: "main",
-      key: "build-rel",
-      retries: 2,
-      backoff: ["fixed", 60 * 1000],
-      delay: 10
+      queue: "rel",
+      name: "build-rel",
+      timeout: 60000 * 30,
+      interval: 30000,
     }
   },
 

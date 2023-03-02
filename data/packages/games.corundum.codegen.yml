@@ -1,0 +1,19 @@
+name: games.corundum.codegen
+displayName: CorundumGames.Codegen
+description: Codegen plugins for Entitas
+repoUrl: 'https://github.com/CorundumGames/CorundumGames.Codegen'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: JesseTG
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: 0.1.9
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1647995162425

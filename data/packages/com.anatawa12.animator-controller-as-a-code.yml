@@ -1,0 +1,21 @@
+name: com.anatawa12.animator-controller-as-a-code
+displayName: AnimatorController as a Code
+description: A small Unity Editor Library to generate AnimatorController with C# Code
+repoUrl: 'https://github.com/anatawa12/AnimatorController-as-a-Code'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - utilities
+hunter: anatawa12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671898590556

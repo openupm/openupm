@@ -10,7 +10,7 @@ const {
   ReleaseReason,
   RetryableReleaseReason
 } = require("../common/constant");
-const { queues, addJob } = require("../queues/core");
+const { getQueue, addJob } = require("../queues/core");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
 const { gitListRemoteTags } = require("../utils/git");
 const { getVersionFromTag } = require("../utils/semver");
@@ -19,7 +19,7 @@ const { removeRelease } = require("./removeRelease");
 const semverCompare = require("semver-compare");
 
 // Build package with given name.
-const buildPackage = async function(name) {
+const buildPackage = async function (name) {
   // Load package yaml file.
   logger.debug({ pkg: name }, "load yaml file");
   let pkg = await loadPackage(name);
@@ -28,9 +28,11 @@ const buildPackage = async function(name) {
   let remoteTags = [];
   try {
     remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+    await PackageExtra.setRepoUnavailable(name, false);
   } catch (error) {
     // If repository has became private or been removed...
-    if (error.message.includes("ERROR: Repository not found")) {
+    if (error.message.includes("ERROR: Repository not found") ||
+      error.message.includes("fatal: Could not read from remote repository")) {
       await PackageExtra.setRepoUnavailable(name, true);
       return;
     }
@@ -64,7 +66,7 @@ const buildPackage = async function(name) {
 };
 
 // Filter remote tags for non-semver, duplication, ignoration, and minVersion.
-const filterRemoteTags = function({
+const filterRemoteTags = function ({
   remoteTags,
   gitTagIgnore,
   gitTagPrefix,
@@ -95,7 +97,7 @@ const filterRemoteTags = function({
           ) >= 0
       );
       // eslint-disable-next-line no-empty
-    } catch (error) {}
+    } catch (error) { }
   }
   // Remove duplications.
   for (const element of tags) {
@@ -112,7 +114,7 @@ const filterRemoteTags = function({
  * Return invalid tags. Tags have been ignored, without the given prefix, or filtered by
  * minVersion are not considered invalid.
  */
-const getInvalidTags = function({
+const getInvalidTags = function ({
   remoteTags,
   validTags,
   gitTagIgnore,
@@ -137,13 +139,13 @@ const getInvalidTags = function({
           ) >= 0
       );
       // eslint-disable-next-line no-empty
-    } catch (error) {}
+    } catch (error) { }
   }
   return tags;
 };
 
 // Update release records for given remoteTags.
-const updateReleaseRecords = async function(packageName, remoteTags) {
+const updateReleaseRecords = async function (packageName, remoteTags) {
   // Remove failed local releases that not listed in remoteTags
   let releases = await Release.fetchAll(packageName);
   for (const rel of releases) {
@@ -185,43 +187,27 @@ const updateReleaseRecords = async function(packageName, remoteTags) {
 };
 
 // Add build release jobs for given release records.
-const addReleaseJobs = async function(releases) {
-  let queue = queues.main.emitter;
+const addReleaseJobs = async function (releases) {
+  const jobConfig = config.jobs.buildRelease;
+  const queue = getQueue(jobConfig.queue);
   let i = 0;
-  for (let rel of releases) {
-    let reason = ReleaseReason.get(rel.reason);
-    let jobId =
-      config.jobs.buildRelease.key + ":" + rel.packageName + ":" + rel.version;
-    let job = await queue.getJob(jobId);
-    // // Clean complete failed job to continue
-    // if (queue.isJobFailedCompletely(job)) {
-    //   await queue.removeJob(job.id);
-    //   logger.info(
-    //     { rel: `${rel.packageName}@${rel.version}`, pkg: name },
-    //     "removed job failed completely"
-    //   );
-    //   job = null;
-    // }
-    // Skip creating release job if,
-    // - job already exists.
-    // - release already succeeded.
-    // - release failed and no need to retry.
+  for (const rel of releases) {
+    const reason = ReleaseReason.get(rel.reason);
+    // Skip creating release job if release already succeeded or failed with an acceptable reason.
     if (
-      job ||
       rel.state == ReleaseState.Succeeded ||
-      (rel.state == ReleaseState.Failed &&
-        !RetryableReleaseReason.includes(reason))
+      (rel.state == ReleaseState.Failed && !RetryableReleaseReason.includes(reason))
     )
       continue;
-    // Generate release job.
-    var dt = new Date();
-    dt.setSeconds(dt.getSeconds() + config.jobs.buildRelease.delay * i);
+    let jobId = jobConfig.name + ":" + rel.packageName + ":" + rel.version;
+    // Add job
     job = await addJob({
-      jobId,
-      jobConfig: config.jobs.buildRelease,
-      delay: i == 0 ? 0 : dt
+      queue,
+      name: jobConfig.name,
+      data: { name: rel.packageName, version: rel.version },
+      opts: { jobId, delay: jobConfig.interval * i, timeout: jobConfig.timeout }
     });
-    i += 1;
+    i++;
   }
 };
 

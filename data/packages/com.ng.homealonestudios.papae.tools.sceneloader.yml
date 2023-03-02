@@ -1,0 +1,20 @@
+name: com.ng.homealonestudios.papae.tools.sceneloader
+displayName: Scene Loader
+description: A custom scene loader component that makes it really easy to load unity scenes
+repoUrl: 'https://github.com/Home-Alone-Studios/scene-loader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: oluwaseyeayinla
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665247793405

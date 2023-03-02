@@ -1,0 +1,19 @@
+name: com.utilities.async
+displayName: Utilities.Async
+description: A set of utilities to ease the use of async methods in Unity.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.async'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639298580263

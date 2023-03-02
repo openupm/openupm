@@ -1,0 +1,24 @@
+name: com.vadimskyi.uiripplevfx
+displayName: Unity UI Ripple Vfx
+description: Simple optimized UI effect. Inspired by Marerial Design
+repoUrl: 'https://github.com/Vadimskyi/Unity-UI-Ripple-Vfx'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - 2d
+  - animation
+  - gui
+  - particles-and-effects
+  - mobile
+  - procedural-generation
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632344274818

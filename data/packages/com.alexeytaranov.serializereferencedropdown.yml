@@ -1,0 +1,20 @@
+name: com.alexeytaranov.serializereferencedropdown
+displayName: SRD
+description: Editor dropdown for SerializeReference Attribute
+repoUrl: 'https://github.com/AlexeyTaranov/SerializeReferenceDropdown'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/AlexeyTaranov/SerializeReferenceDropdown/raw/02d7c76d26d4e8d31d18134502ea7bcb81419e10/Documentation~/SRD_Sample.gif
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649798041777

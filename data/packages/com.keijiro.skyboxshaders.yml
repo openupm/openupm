@@ -1,0 +1,19 @@
+name: com.keijiro.skyboxshaders
+displayName: Shaders - Skybox
+description: Simple and easy-to-use skybox shaders.
+repoUrl: 'https://github.com/yolanother/UnitySkyboxShaders'
+parentRepoUrl: 'https://github.com/keijiro/UnitySkyboxShaders'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/keijiro/UnitySkyboxShaders/gh-pages/gradient.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633519649007

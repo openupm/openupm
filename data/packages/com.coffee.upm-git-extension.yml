@@ -10,7 +10,7 @@ topics:
 hunter: favoyang
 gitTagPrefix: ''
 gitTagIgnore: ^v
-readme: 'upm:README.md'
+readme: 'main:README.md'
 createdAt: 1576342875000
 image: >-
   https://user-images.githubusercontent.com/12690315/60764681-20c28380-a0c9-11e9-9c3c-75e3d4e0279e.png

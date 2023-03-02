@@ -1,0 +1,21 @@
+name: com.bg.unitaskstatemachine
+displayName: UniTaskStateMachine
+description: 'StateMachine for UniTask'
+repoUrl: 'https://github.com/k-okawa/UniTaskStateMachine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - parallelism-and-concurrency
+  - editor-enhancement
+hunter: k-okawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://user-images.githubusercontent.com/49301086/137613577-d510a77c-0231-4e76-bf0f-a6f16a2ae506.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638240037297

@@ -1,0 +1,23 @@
+name: com.utilities.buildpipeline
+displayName: Build Pipeline Utilities
+description: >-
+  The Build Pipeline Utilities aims to give developers more tools and options
+  when making builds with the command line or with continuous integration.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.buildpipeine'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+  - utilities
+  - version-control
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667373181093

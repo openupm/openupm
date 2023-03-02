@@ -1,0 +1,19 @@
+name: com.hww.xirename
+displayName: XiRename
+description: 'XiRename, is a renaming tool Unity.'
+repoUrl: 'https://github.com/hww/XiRename'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666018767007

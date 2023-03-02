@@ -1,0 +1,21 @@
+name: com.art.dtrack
+displayName: DTRACK Plugin
+description: Plugin for the ART DTRACK tracking system.
+repoUrl: 'https://github.com/ar-tracking/UnityDTrackPlugin'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - ar-and-vr
+  - integration
+hunter: iLinaza
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ar-tracking/UnityDTrackPlugin/raw/59d83a7f3464e195e713817b5f528d86ae784c77/Doc/images/dtrack-room-calibration.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676287214161

@@ -1,0 +1,23 @@
+name: com.willykc.templ
+displayName: Templ
+description: Integrates Scriban template engine with the Unity Editor.
+repoUrl: 'https://github.com/willykc/templ'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: willykc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1672747572973/d4980f5c-a621-4d4a-b475-92a4b0a3713a.png'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1658045844622

@@ -1,0 +1,20 @@
+name: com.orca.orcavoip
+displayName: Orca VOIP
+description: VOIP solution for games
+repoUrl: 'https://github.com/shaarawy962/com.orca.voip'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - network
+  - utilities
+hunter: shaarawy962
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653341924480

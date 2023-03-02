@@ -1,0 +1,21 @@
+name: com.gpvigano.asimpl
+displayName: AsImpL
+description: Asynchronous Importer and run-time Loader for Unity
+repoUrl: 'https://github.com/gpvigano/AsImpL'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - modeling
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/gpvigano/AsImpL/raw/6d7cc10ad89bf6f852d8504d18cd3efde1c796c6/images/test_AsImpL.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1632614963095

@@ -1,0 +1,19 @@
+name: com.revenuecat.purchases-unity
+displayName: RevenueCat SDK for Unity
+description: Unity in-app purchases and subscriptions made easy. Supports iOS and Android.
+repoUrl: 'https://github.com/RevenueCat/purchases-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: RevenueCat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672161443935

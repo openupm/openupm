@@ -1,6 +1,6 @@
 name: com.atteneder.gltfast
 displayName: glTFast
-description: glTF runtime loading library for Unity
+description: Efficient glTF 3D import / export library for Unity
 repoUrl: 'https://github.com/atteneder/glTFast'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
@@ -9,10 +9,11 @@ topics:
   - asset-management
   - utilities
   - mobile
-hunter: ''
+hunter: atteneder
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
+readme: 'main:README.md'
 createdAt: 1586730488884
 displayName_zhCN: glTFast
 description_zhCN: glTFast运行加载库

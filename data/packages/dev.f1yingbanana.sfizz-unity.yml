@@ -1,0 +1,22 @@
+name: dev.f1yingbanana.sfizz-unity
+displayName: Sfizz for Unity
+description: >-
+  A Unity3D MIDI player with instruments defined in sfz format, using sfizz as
+  the underlying sampler.
+repoUrl: 'https://github.com/f1yingbanana/sfizz-unity'
+parentRepoUrl: null
+licenseSpdxId: BSD-2-Clause
+licenseName: BSD 2-Clause "Simplified" License
+topics:
+  - audio
+  - integration
+hunter: f1yingbanana
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1643832299132

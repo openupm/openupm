@@ -1,0 +1,22 @@
+name: com.quickeye.ui-toolkit-plus
+displayName: QuickEye UI Toolkit Plus
+description: >-
+  Query utility, new elements, UI Builder addons, extension methods...
+repoUrl: 'https://github.com/ErnSur/UI-Toolkit-Plus'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: ErnSur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ErnSur/UI-Toolkit-Plus/blob/0d49e95b5ea020ea22cec67ef7658195c44b152d/Documentation~/tabs.gif
+readme: 'upm:README.md'
+createdAt: 1592662533723
+displayName_zhCN: QuickEye UI工具包+
+description_zhCN: 主要由扩展方法组成的库。为了减少在每个UI Toolkit相关脚本中编写冗余的代码。

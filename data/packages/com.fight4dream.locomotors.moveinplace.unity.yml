@@ -1,0 +1,19 @@
+name: com.fight4dream.locomotors.moveinplace.unity
+displayName: FIGHT4DREAM Locomotors.MoveInPlace.Unity
+description: Activate and swing the controllers to move.
+repoUrl: 'https://github.com/fight4dream/Fight4Dream.Locomotors.MoveInPlace.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651326886162

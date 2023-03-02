@@ -1,0 +1,25 @@
+name: com.worldofbugs.worldofbugs
+displayName: worldofbugs
+description: >-
+  World of Bugs (WOB) is a platform that supports research in Automated Bug
+  Detection (ABD) in video games.
+repoUrl: 'https://github.com/BenedictWilkins/world-of-bugs'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - ai
+  - frameworks
+  - testing
+hunter: BenedictWilkins
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/BenedictWilkins/world-of-bugs/raw/b17cefeb15a80e2b528325ae63ac7303e7fd7238/docs/Reference/Examples/imgs/GettingStuck-v0.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661162503533
+

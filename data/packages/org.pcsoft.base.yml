@@ -1,0 +1,19 @@
+name: org.pcsoft.base
+displayName: Unity Base
+description: Base for all Unity extensions
+repoUrl: 'https://github.com/KleinerHacker/unity-base'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1676208047509

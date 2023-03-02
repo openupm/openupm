@@ -1,0 +1,22 @@
+name: com.lokosolo.pinchable-scrollrect
+displayName: Pinchable ScrollRect
+description: >-
+  Pinchable ScrollRect allows users to zoom in and out on the ScrollRect with
+  both touches pinching input or mouse scroll input.
+repoUrl: 'https://github.com/LokoSoloGames/Unity_PinchableScrollRect'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - mobile
+hunter: LokoSoloGames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README_ZH.md'
+displayName_zhCN: 可縮放滾動矩形
+description_zhCN: 可縮放滾動矩形讓用家能夠以手指觸控或滑鼠滾輪來對用戶界面(UI)進行縮放
+createdAt: 1644698021159

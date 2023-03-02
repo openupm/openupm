@@ -1,0 +1,19 @@
+name: com.community.netcode.transport.websocket
+displayName: WebSocket Transport for Netcode for GameObjects
+description: WebSocket Transport for Netcode for GameObjects
+repoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'
+parentRepoUrl: 'https://github.com/Unity-Technologies/multiplayer-community-contributions'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: jasonboukheir
+gitTagPrefix: 'com.community.netcode.transport.websocket/'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.community.netcode.transport.websocket/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637447147484

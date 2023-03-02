@@ -1,0 +1,19 @@
+name: com.kamishiro.avatarpenshader
+displayName: Avatar Pen Shader
+description: Pen Shader for VRChat Avatars.
+repoUrl: 'https://github.com/AoiKamishiro/AvatarPenShader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License Licence
+topics:
+  - ar-and-vr
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663058266267

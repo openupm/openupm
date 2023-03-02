@@ -1,0 +1,19 @@
+name: com.cysharp.memorypack
+displayName: MemoryPack
+description: Zero encoding extreme performance binary serializer for C#.
+repoUrl: 'https://github.com/Cysharp/MemoryPack'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665923658509

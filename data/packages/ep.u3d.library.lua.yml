@@ -1,0 +1,20 @@
+name: ep.u3d.library.lua
+displayName: EP.U3D.LIBRARY.LUA
+description: Lua module.
+repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.LUA'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655372998729

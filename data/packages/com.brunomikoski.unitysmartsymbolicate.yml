@@ -1,0 +1,22 @@
+name: com.brunomikoski.unitysmartsymbolicate
+displayName: Smart Symbolicate
+description: A tool to help you symbolicate android crashes
+repoUrl: 'https://github.com/brunomikoski/UnitySmartSymbolicate'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - mobile
+  - utilities
+hunter: brunomikoski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1650797385752

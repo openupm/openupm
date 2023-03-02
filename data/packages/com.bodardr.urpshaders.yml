@@ -1,0 +1,19 @@
+name: com.bodardr.urpshaders
+displayName: URP Shader Library
+description: A collection of useful URP shaders
+repoUrl: 'https://github.com/bodardr/urp-shader-library'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.0.25
+image: null
+readme: 'master:license.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1634590995306

@@ -1,0 +1,19 @@
+name: org.pcsoft.scene-ex
+displayName: Scene Management Extension
+description: Extension for Scene Management with support of scene over-blending.
+repoUrl: 'https://github.com/KleinerHacker/unity-scene-ex'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636126321278

@@ -1,0 +1,19 @@
+name: com.pzy.uiengine
+displayName: UI Engine
+description: ''
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: Peng-Zhiyuan
+gitTagPrefix: 'com.pzy.uiengine/'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631885219005

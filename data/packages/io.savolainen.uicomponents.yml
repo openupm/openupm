@@ -1,0 +1,23 @@
+name: io.savolainen.uicomponents
+displayName: UIComponents
+description: "A front-end framework for Unity's UIToolkit powered by source generation."
+repoUrl: 'https://github.com/jonisavo/uicomponents'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - frameworks
+  - gui
+  - utilities
+  - code-generation
+hunter: jonisavo
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651480133105

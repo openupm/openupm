@@ -1,0 +1,19 @@
+name: com.pzy.utils
+displayName: Utils
+description: 提供常用类型的帮助方法
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - frameworks
+hunter: Peng-Zhiyuan
+gitTagPrefix: 'com.pzy.utils/'
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: ''
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1631939800053

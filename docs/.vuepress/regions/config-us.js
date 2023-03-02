@@ -2,7 +2,7 @@
  * Configuration for region us (lang en-us)
  */
 
-const docSideBar = function() {
+const docSideBar = function () {
   return [
     {
       title: "Guide",
@@ -62,7 +62,22 @@ module.exports = {
         name: "keywords",
         content: "openupm,upm,registry,unity,package,manager,open source"
       }
-    ]
+    ],
+    // GA4
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-HBWCQ2KGQ5',
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-HBWCQ2KGQ5');",
+      ],
+    ],
   ],
   themeConfig: {
     locales: {
@@ -160,20 +175,5 @@ module.exports = {
       }
     }
   },
-  plugins: [
-    [
-      "vuepress-plugin-social-share",
-      {
-        networks: [
-          "twitter",
-          "facebook",
-          "reddit",
-          "telegram",
-          "line",
-          "whatsapp"
-        ],
-        fallbackImage: "/images/openupm-icon-256.png"
-      }
-    ]
-  ]
+  plugins: []
 };

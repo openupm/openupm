@@ -1,0 +1,19 @@
+name: com.woo.devoid-ui
+displayName: deVoid UI Framework
+description: deVoid UI Framework package
+repoUrl: 'https://github.com/sgamerw/uiframework'
+parentRepoUrl: 'https://github.com/yankooliveira/uiframework'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: sgamerw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1656955731317

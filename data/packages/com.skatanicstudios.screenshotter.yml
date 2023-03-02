@@ -5,8 +5,8 @@ description: >-
   pipeline types
 repoUrl: 'https://github.com/neon8100/screenshotter'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: JesseTG

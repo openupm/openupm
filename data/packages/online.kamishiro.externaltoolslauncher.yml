@@ -1,0 +1,19 @@
+name: online.kamishiro.externaltoolslauncher
+displayName: External Tools Launcher
+description: "Unityã\x82¨ã\x83\x87ã\x82£ã\x82¿ã\x81®ä¸\x8Aé\x83¨ã\x81«ä»»æ\x84\x8Fã\x81®ã\x82¢ã\x83\x97ã\x83ªã\x81®èµ·å\x8B\x95ã\x83\x9Cã\x82¿ã\x83³ã\x82\x92è¿½å\x8A\_ã\x81\x97ã\x81¾ã\x81\x99"
+repoUrl: 'https://github.com/AoiKamishiro/ExternalToolsLauncher'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+hunter: AoiKamishiro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670578762915

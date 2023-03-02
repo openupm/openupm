@@ -1,0 +1,20 @@
+name: com.pixelrebels.fdb
+displayName: FuryDB
+description: FuryDB -- Static database
+repoUrl: 'https://github.com/ze0nni/FDB'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: ze0nni
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ze0nni/FDB/raw/f6fc3b4158b0c6d3d99ded28f76133f0573f4423/Doc/4.png
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667569561702

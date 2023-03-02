@@ -1,7 +1,7 @@
 // Remove package release
 
 const config = require("config");
-const { queues } = require("../queues/core");
+const { getQueue } = require("../queues/core");
 const Release = require("../models/release");
 const { ReleaseState } = require("../common/constant");
 const logger = require("../utils/log")(module);
@@ -15,9 +15,10 @@ const removeRelease = async function(packageName, version) {
     "removed release record"
   );
   // Remove release job
-  let queue = queues.main.emitter;
-  let jobId = config.jobs.buildRelease.key + ":" + packageName + ":" + version;
-  await queue.removeJob(jobId);
+  const jobConfig = config.jobs.buildRelease;
+  const queue = getQueue(jobConfig.queue);
+  let jobId = jobConfig.name + ":" + packageName + ":" + version;
+  await queue.remove(jobId);
   logger.info(
     { rel: `${packageName}@${version}`, pkg: packageName },
     "removed release job"
@@ -25,21 +26,28 @@ const removeRelease = async function(packageName, version) {
 };
 
 // Remove releases for given packageName and state.
-const removeReleases = async function(packageName, state) {
-  let releases = (await Release.fetchAll(packageName)).filter(
+const removeReleasesWithState = async function(packageName, state) {
+  const releases = (await Release.fetchAll(packageName)).filter(
     x => x.state == state
   );
+  for (const rel of releases) await removeRelease(packageName, rel.version);
+};
+
+// Remove all releases for given packageName
+const removeAllReleases = async function(packageName) {
+  const releases = await Release.fetchAll(packageName);
   for (const rel of releases) await removeRelease(packageName, rel.version);
 };
 
 module.exports = { removeRelease };
 
 if (require.main === module) {
-  let program = require("../utils/commander");
+  const program = require("../utils/commander");
   let packageNameVal = null;
   let versionVal = null;
   program
     .option("--failed", "remove failed releases")
+    .option("--all", "remove all releases")
     .arguments("<packageName> [version]")
     .action(function(packageName, version) {
       packageNameVal = packageName;
@@ -49,7 +57,8 @@ if (require.main === module) {
     .requiredArgs(1)
     .run(async function() {
       if (program.failed)
-        await removeReleases(packageNameVal, ReleaseState.Failed);
+        await removeReleasesWithState(packageNameVal, ReleaseState.Failed);
+      else if (program.all) await removeAllReleases(packageNameVal);
       else if (versionVal) await removeRelease(packageNameVal, versionVal);
       else {
         program.outputHelp();

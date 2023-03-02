@@ -1,0 +1,22 @@
+name: com.ms-lima.photonserializer
+displayName: Photon Serializer
+description: >-
+  This plugin provides custom type registering method with script and compares
+  the difference with other serialization methods.
+repoUrl: 'https://github.com/MS-LIMA/PhotonSerializer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utilities
+hunter: uurha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671916680518

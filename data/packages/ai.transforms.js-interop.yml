@@ -1,0 +1,21 @@
+name: ai.transforms.js-interop
+displayName: JS-Interop
+description: Allows calling Javascript in webgl builds using standard C# flows
+repoUrl: 'https://github.com/transformsai/UnityWebGLInterop'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - debugging-and-logging
+  - utilities
+hunter: ''
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639136208599

@@ -1,0 +1,19 @@
+name: com.sonic853.upm-github-manager
+displayName: UPM Github Manager
+description: Manage and upgrade Github package versions
+repoUrl: 'https://github.com/Sonic853/UpmGithubManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - package-management
+hunter: Sonic853
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667971267986

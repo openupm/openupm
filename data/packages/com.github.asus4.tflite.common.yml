@@ -1,0 +1,21 @@
+name: com.github.asus4.tflite.common
+displayName: TensorFlow Lite Common
+description: TensorFlow Lite Common Scripts for Unity
+repoUrl: 'https://github.com/asus4/tf-lite-unity-sample'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: SEE LICENSE IN LICENSE
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1668520162127

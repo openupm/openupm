@@ -1,0 +1,26 @@
+name: com.baracuda.thread-dispatcher
+displayName: Thread Dispatcher
+description: >-
+  Pass the execution of a Delegate, Coroutine or Task from a background thread
+  to the main thread, and await its completion or result on the calling thread
+  as needed.
+  
+  Note: when updating Major versions of Thread Dispatcher from the Package
+  Manager, don't forget to remove the old version from the project before
+  importing the new one! :)
+repoUrl: 'https://github.com/JohnBaracuda/com.baracuda.thread-dispatcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: JohnBaracuda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '4.0.0'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664781044838

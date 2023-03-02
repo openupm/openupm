@@ -1,5 +1,7 @@
 # Blocked package scopes
 scopes:
+# License issue: https://github.com/yoshida190/dotween/blob/upm/LICENSE
+- com.demigiant.dotween
 - com.esotericsoftware.spine.lwrp-shaders
 - com.esotericsoftware.spine.spine-unity-examples
 - com.esotericsoftware.spine.spine-unity
@@ -173,3 +175,22 @@ scopes:
 - com.dopamine.firebase.analytics
 - com.dopamine.firebase.remoteconfig
 - com.dopamine.firebase.core
+
+# the same package uploaded by danyow, Now you need to change the name to "cn.danyow.unitask.cstringfixed"
+- com.cysharp.unitask.compatible
+
+# io.extendreality.malimbe can not be built for a custom build script
+- io.extendreality.malimbe
+
+# Package published to NPMJS
+# com.whitesharx.httx uses ${ ci.tag_value } template in the package.json which can not be parsed by OpenUPM.
+- com.whitesharx.httx
+
+# packages deprecated by the team and source is no longer available
+- com.realitytoolkit.gltf
+- com.wayngroup.requirementworkflow
+- com.wayngroup.stm
+- com.didimo.sdk.assetfitter
+
+# test packages
+- com.danij.testpackage

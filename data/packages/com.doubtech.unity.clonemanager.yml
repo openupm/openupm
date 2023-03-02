@@ -1,0 +1,21 @@
+name: com.doubtech.unity.clonemanager
+displayName: DoubTech - Clone Manager
+description: >-
+  A tool to manage creating clones of your project for multiplayer or
+  multiplatform purposes.
+repoUrl: 'https://github.com/yolanother/CloneManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1633520136361

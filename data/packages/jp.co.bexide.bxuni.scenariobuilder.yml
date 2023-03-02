@@ -1,0 +1,21 @@
+name: jp.co.bexide.bxuni.scenariobuilder
+displayName: BxUni-ScenarioBuilder
+description: A package of functions for executing processes in command form.
+repoUrl: 'https://github.com/bexide/BxUni-ScenarioBuilder'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: bexide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1671501207598

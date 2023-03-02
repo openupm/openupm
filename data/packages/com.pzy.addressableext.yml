@@ -1,0 +1,19 @@
+name: com.pzy.addressableext
+displayName: Addressable Ext
+description: ''
+repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: Peng-Zhiyuan
+gitTagPrefix: com.pzy.addressableext
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'upm:Packages/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1638439235571

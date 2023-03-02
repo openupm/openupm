@@ -66,7 +66,7 @@ module.exports = function(options, context) {
     async getData() {
       if (!pluginData.data) {
         // Load packages.
-        const packageNames = await loadPackageNames();
+        const packageNames = await loadPackageNames({ sortKey: "name" });
         const packages = packageNames
           .map(loadPackageSync)
           .filter(x => x)

@@ -1,0 +1,21 @@
+name: com.laicasaane.miniexcel.csv.converter
+displayName: MiniExcel.CSV.Converter
+description: Convert Excel workbooks to CSV files using MiniExcel library
+repoUrl: 'https://github.com/laicasaane/MiniExcel.CSV.Converter'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659441402547

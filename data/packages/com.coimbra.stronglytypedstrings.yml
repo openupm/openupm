@@ -1,0 +1,35 @@
+name: com.coimbra.stronglytypedstrings
+displayName: Strongly Typed Strings
+description: |-
+  Tool to generate strongly typed strings.
+
+  By default it can generate the following strong types:
+
+  * Inputs
+  * Layers
+  * Scenes
+  * Sorting Layers
+  * Tags
+  * Editor Default Resources
+  * Gizmos
+  * Resources
+  * Streaming Assets
+
+  You can easily add more using the provided API.
+repoUrl: 'https://github.com/coimbrastudios/strongly-typed-strings'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: brunocoimbrar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641916631836

@@ -1,0 +1,19 @@
+name: de.lumpn.unity-logging
+displayName: Debug Logging
+description: Custom loggers that can be turned on/off individually.
+repoUrl: 'https://github.com/lumpn/unity-logging'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637435618389

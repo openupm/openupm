@@ -1,0 +1,28 @@
+name: com.siemens.ros-sharp
+displayName: ros-sharp
+description: >-
+  Unity-specific extensions to
+  [RosBridgeClient](https://github.com/siemens/ros-sharp/tree/master/Libraries/RosBridgeClient)
+  and
+  [UrdfImporter](https://github.com/siemens/ros-sharp/tree/master/Libraries/UrdfImporter)
+  example scenes and reference code
+repoUrl: 'https://github.com/siemens/ros-sharp'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+  - network
+  - physics
+  - utilities
+hunter: MartinBischoff
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/siemens/ros-sharp/raw/3054f8844df7c463830e2d57b6750ab20bde9bd8/Libraries/RosSharpLogoNuget.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652857218692

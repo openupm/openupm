@@ -1,0 +1,19 @@
+name: org.pcsoft.build-tooling
+displayName: Build Tooling
+description: Add a build toolbar into unity to create and run build very easy.
+repoUrl: 'https://github.com/KleinerHacker/unity-build-tooling'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Apache 2.0 Licence
+topics:
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636112993599

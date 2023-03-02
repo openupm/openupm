@@ -1,0 +1,23 @@
+name: com.needle.animation-utils
+displayName: Needle Animation Utils
+description: >-
+  Utilities for Unity's animation tools. For example to make fixing missing
+  animation bindings a drag-drop operation
+repoUrl: 'https://github.com/needle-tools/animation-utils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - utilities
+hunter: needle-tools
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:package/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659892215182

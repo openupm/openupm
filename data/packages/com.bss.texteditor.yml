@@ -3,8 +3,8 @@ displayName: BSS Text Editor
 description: Text Editor for Unity
 repoUrl: 'https://github.com/bss1284/texteditor-unity-plugin'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - editor-enhancement
 hunter: bss1284

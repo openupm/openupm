@@ -1,0 +1,20 @@
+name: com.bg.unitaskobjectpool
+displayName: UniTaskObjectPool
+description: ObjectPool for UniTask
+repoUrl: 'https://github.com/k-okawa/UniTaskObjectPool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: k-okawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666775345541

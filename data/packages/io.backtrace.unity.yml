@@ -3,8 +3,8 @@ displayName: Backtrace
 description: First-class error reporting for the Unity game engine.
 repoUrl: 'https://github.com/backtrace-labs/backtrace-unity'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: JesseTG

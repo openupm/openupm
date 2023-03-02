@@ -1,0 +1,19 @@
+name: com.sschmid.desperatedevs.extensions
+displayName: DesperateDevs.Extensions
+description: DesperateDevs.Extensions
+repoUrl: 'https://github.com/sschmid/com.sschmid.desperatedevs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: sschmid
+gitTagPrefix: com.sschmid.desperatedevs.extensions/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.desperatedevs.extensions/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1667493744426

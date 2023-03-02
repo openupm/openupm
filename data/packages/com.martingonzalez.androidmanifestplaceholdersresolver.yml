@@ -5,8 +5,8 @@ description: >-
   build.gradle
 repoUrl: 'https://github.com/MartinGonzalez/unity-android-manifest-placeholders-resolver'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - data-management
   - mobile

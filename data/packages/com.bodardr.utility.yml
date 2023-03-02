@@ -1,0 +1,19 @@
+name: com.bodardr.utility
+displayName: Utility
+description: Useful gamedev premade code and patterns
+repoUrl: 'https://github.com/bodardr/utility'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - utilities
+hunter: bodardr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:license.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1636606185478

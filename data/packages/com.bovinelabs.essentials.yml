@@ -1,0 +1,19 @@
+name: com.bovinelabs.essentials
+displayName: BovineLabs Essentials
+description: Essentials for DOTS.
+repoUrl: 'https://github.com/tertle/com.bovinelabs.essentials'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: tertle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666907960345

@@ -1,0 +1,23 @@
+name: com.middlemast.scriptableobjectwizard
+displayName: ScriptableObject Wizard
+description: >-
+  A very simple editor tool that allows the cration of any ScriptableObject
+  asset you want.
+repoUrl: 'https://github.com/GiovanniZambiasi/ScriptableObjectWizard'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: brunocoimbrar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1641916609390

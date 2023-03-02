@@ -1,0 +1,24 @@
+name: com.dteruel.toolnity.favorites
+displayName: Toolnity Favorites
+description: |-
+  Panel to have quick access to files and folders.
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: DTeruel
+gitTagPrefix: favorites
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Favorites/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176038369

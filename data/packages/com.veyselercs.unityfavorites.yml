@@ -1,0 +1,22 @@
+name: com.veyselercs.unityfavorites
+displayName: Unity Favorites
+description: >-
+  Unity Favorites is a handy tool for caching your favorite assets into a simple
+  UI.
+repoUrl: 'https://github.com/veyselerCS/UnityFavorites'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: veyselerCS
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661541969654

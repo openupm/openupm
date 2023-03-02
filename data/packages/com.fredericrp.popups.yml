@@ -3,7 +3,7 @@ displayName: FRP Popups
 description: >-
   Pile up popups and pop them out as you want. The popup manager allows to show
   and hide popups, and handle going back and forth between opened popups.
-repoUrl: 'https://github.com/FredericRP/Standard-Assets'
+repoUrl: 'https://github.com/FredericRP/PopupHandler'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -11,12 +11,12 @@ topics:
   - gui
   - utilities
 hunter: ''
-gitTagPrefix: popup
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
 image: >-
-  https://github.com/FredericRP/Standard-Assets/raw/47db55d7d0da27622c9683cdaf5f27be7e1d60de/Popup/Documentation~/images/popups.gif
-readme: 'primary:Popup/README.md'
+  https://github.com/FredericRP/PopupHandler/blob/primary/Documentation~/images/popups.gif
+readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

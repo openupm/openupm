@@ -1,0 +1,20 @@
+name: com.passivepicasso.thunderkit
+displayName: ThunderKit
+description: Mod toolkit for working with Thunderstore
+repoUrl: 'https://github.com/PassivePicasso/ThunderKit'
+parentRepoUrl: null
+licenseSpdxId: MS-PL
+licenseName: Microsoft Public License
+topics:
+  - asset-management
+  - utilities
+hunter: crazyjackel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651588162759

@@ -1,0 +1,27 @@
+name: com.dteruel.toolnity.shortcuts
+displayName: Toolnity Shortcuts
+description: >-
+  New shortcuts for Unity editor (Cameras, save all, multi object selector,
+  teleport and create game object).
+
+
+  * It includes an Overlay Toolbar
+repoUrl: 'https://github.com/DTeruel/Toolnity'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - camera
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: DTeruel
+gitTagPrefix: shortcuts
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Packages/Toolnity - Shortcuts/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1665176769177

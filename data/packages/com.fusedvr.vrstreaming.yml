@@ -1,0 +1,24 @@
+name: com.fusedvr.vrstreaming
+displayName: FusedVR Streaming
+description: >-
+  This VR Streaming Package contains a minimal SDK & prefabs to implement VR
+  Streaming (CloudXR) using WebRTC and Unity Remote Rendering
+repoUrl: 'https://github.com/FusedVR/VRStreaming'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: See LICENSE.md file
+topics:
+  - ar-and-vr
+  - frameworks
+  - network
+hunter: vmohan7
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/FusedVR/VRStreaming/raw/092110de4dd1ce523b2de4187569ad09319015e7/Images~/hello-world.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637989308234

@@ -15,7 +15,7 @@ If you are unfamiliar with the command-line, you can still use other installatio
 
 ## Installing OpenUPM-CLI
 
-OpenUPM-CLI requires Node.js 12. If you don't have it installed, please download the [latest version](https://nodejs.org/en/).
+OpenUPM-CLI requires [Node.js 14.18 or above](https://nodejs.org/en/download/).
 
 
 Let's verify the Node.js installation by printing the npm version (the node package manager where UPM is inspired from).

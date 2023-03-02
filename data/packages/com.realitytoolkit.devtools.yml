@@ -1,0 +1,23 @@
+name: com.realitytoolkit.devtools
+displayName: RealityToolkit.DevTools
+description: >-
+  A collection of services, utilities and tools useful for developing immersive
+  experiences using the Reality Toolkit.
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.devtools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - debugging-and-logging
+  - utilities
+hunter: realitycollective
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'development:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1653122614706

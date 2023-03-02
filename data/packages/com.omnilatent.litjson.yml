@@ -1,0 +1,19 @@
+name: com.omnilatent.litjson
+displayName: LitJson
+description: Litjson suitable for Package Manager.
+repoUrl: 'https://github.com/Omnilatent/UnityLitJson'
+parentRepoUrl: 'https://github.com/Mervill/UnityLitJson'
+licenseSpdxId: ''
+licenseName: Unlicense
+topics:
+  - utilities
+hunter: Omnilatent
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662625516787

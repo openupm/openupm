@@ -1,0 +1,22 @@
+name: com.sandrofigo.voxreader
+displayName: VoxReader
+description: A C# library to read .vox files created with MagicaVoxel
+repoUrl: 'https://github.com/sandrofigo/VoxReader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - modeling
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.4
+image: >-
+  https://github.com/sandrofigo/VoxReader/raw/4bcb822117fc486eb9cba63e1c41ff51b962b1a0/images/icon.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1672309593261

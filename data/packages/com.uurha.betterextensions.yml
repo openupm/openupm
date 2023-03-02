@@ -1,0 +1,22 @@
+name: com.uurha.betterextensions
+displayName: Better Extensions
+description: >-
+  Unity extensions, serialize extension, async extension, string extension and
+  UI extensions
+repoUrl: 'https://github.com/uurha/BetterExtensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - utilities
+hunter: uurha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666625522475

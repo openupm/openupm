@@ -1,0 +1,20 @@
+name: com.hww.xigametool
+displayName: XiGameTool
+description: XiGameTool is a art content management for Unity.
+repoUrl: 'https://github.com/hww/XiGameTool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: hww
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/hww/XiGameTool/main/Documentation/title_image.png'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663572567809

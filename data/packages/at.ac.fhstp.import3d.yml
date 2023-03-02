@@ -1,0 +1,22 @@
+name: at.ac.fhstp.import3d
+displayName: Import3D
+description: An asynchronous runtime 3D-model importer for Unity
+repoUrl: 'https://github.com/fhstp/UnityImport3D'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - asset-management
+  - parallelism-and-concurrency
+  - modeling
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1670923960890

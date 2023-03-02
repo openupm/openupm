@@ -1,0 +1,21 @@
+name: com.nomnom.regex-rename
+displayName: Regex Rename
+description: >-
+  This allows for you to bulk rename both project and scene objects with regex
+  filtering.
+repoUrl: 'https://github.com/nomnomab/Regex-Rename'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1640313233850

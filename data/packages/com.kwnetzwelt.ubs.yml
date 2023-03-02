@@ -1,0 +1,21 @@
+name: com.kwnetzwelt.ubs
+displayName: Unity Build System
+description: Provides tooling to automate build processes inside the editor.
+repoUrl: 'https://github.com/kwnetzwelt/unity-build-system'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: kwnetzwelt
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/kwnetzwelt/unity-build-system/raw/6ca2e29cbb52c92ee0eb5c57258fe875819b01fa/Editor/images/ubs_logo_256.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1656008658992

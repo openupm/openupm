@@ -3,8 +3,8 @@ displayName: Unity Addressables Manager
 description: Unity Addressables Manager
 repoUrl: 'https://github.com/laicasaane/unity-addressables-manager'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - utilities
 hunter: laicasaane

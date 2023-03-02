@@ -1,0 +1,23 @@
+name: com.pspkurara.singleton
+displayName: Singleton
+description: Supports Unity's simple Singleton Behavior.
+repoUrl: 'https://github.com/pspkurara/singleton'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - services
+  - utilities
+hunter: pspkurara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662535289505

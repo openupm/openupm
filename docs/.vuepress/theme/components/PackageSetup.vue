@@ -11,23 +11,18 @@
       <div v-if="version">
         <div class="install-option">
           <h3>
-            {{ $t("via") }}
-            <a href="#modal-packageinstaller">{{ $t("package-installer") }}</a>
-            <small
-              ><span class="label label-secondary">{{
-                $t("experimental")
-              }}</span>
-            </small>
+            via Package Manager
             <div class="package-installer-btn-wrap btn-group btn-group-block">
-              <a :href="installerLink.link" class="btn"
-                >{{ installerLink.text }}
+              <a href="#modal-manualinstallation" class="btn"
+                >{{ $t("manual-installation") }}
               </a>
             </div>
           </h3>
         </div>
-        <PackageSetupViaInstaller
+        <PackageSetupViaPackageManager
           :package-name="pkg.name"
-          :installer-link="installerLink"
+          :package-version="version"
+          :scopes="scopes"
         />
         <div class="install-option last">
           <h3>
@@ -37,17 +32,12 @@
             }}</a>
           </h3>
           <div class="install-cli">
-            <div
-              data-tooltip="Copied"
-              class="tooltip tooltip-click"
-              tabindex="-1"
-              @click="copyCli"
-            >
+            <CopyWrapper :copy-text="installCli">
               <code>
                 <i class="fas fa-angle-double-right"></i>
                 {{ installCli }}
               </code>
-            </div>
+            </CopyWrapper>
           </div>
         </div>
         <PackageSetupViaCLI :package-name="pkg.name" />
@@ -74,33 +64,41 @@
 </template>
 
 <script>
-import copy from "copy-to-clipboard";
 import { VclList } from "vue-content-loading";
 import urljoin from "url-join";
 
+import CopyWrapper from "@theme/components/CopyWrapper.vue";
 import PackageSetupViaCLI from "@theme/components/PackageSetupViaCLI.vue";
-import PackageSetupViaInstaller from "@theme/components/PackageSetupViaInstaller.vue";
-import util from "@root/docs/.vuepress/util";
+import PackageSetupViaPackageManager from "@theme/components/PackageSetupViaPackageManager";
 
 export default {
-  components: { PackageSetupViaCLI, PackageSetupViaInstaller, VclList },
+  components: {
+    CopyWrapper,
+    PackageSetupViaCLI,
+    PackageSetupViaPackageManager,
+    VclList,
+  },
   props: {
     isLoading: {
       type: Boolean,
-      default: true
+      default: true,
     },
     hasNotSucceededBuild: {
       type: Boolean,
-      default: false
+      default: false,
     },
     pkg: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     version: {
       type: String,
-      default: ""
-    }
+      default: "",
+    },
+    scopes: {
+      type: Array,
+      default: () => [],
+    },
   },
   computed: {
     installCli() {
@@ -108,75 +106,80 @@ export default {
         this.$site.themeConfig.region == "cn" ? "openupm-cn" : "openupm";
       return `${cli} add ${this.pkg.name}`;
     },
-    installerLink() {
-      return {
-        link: util.getPackageInstallerUrl(this.pkg.name, this.scopes),
-        text: this.$t("get") + " installer.unitypackage"
-      };
-    },
     pipelinesLink() {
       return { path: "", query: { subPage: "pipelines" } };
     },
     repoTagsNavLink() {
       return {
         link: urljoin(this.pkg.repoUrl, "tags"),
-        text: this.$t("git-tag")
+        text: this.$t("git-tag"),
       };
-    }
+    },
   },
-  methods: {
-    copyCli() {
-      copy(this.installCli, { format: "text/plain" });
-    }
-  }
 };
 </script>
 
 <style lang="stylus" scoped>
-.install-section
-  padding 0.5rem !important;
-  border 2px solid $borderColor !important;
+.install-section {
+  padding: 0.5rem !important;
+  border: 2px solid $borderColor !important;
 
-  h3
-    margin-bottom 0.4rem
+  h3 {
+    margin-bottom: 0.4rem;
+  }
 
-  .install-option
-    margin-bottom 0.5rem
+  .install-option {
+    margin-bottom: 0.5rem;
 
-    &.last
-      margin-bottom 0.1rem
+    &.last {
+      margin-bottom: 0.1rem;
+    }
 
-    .btn
-      max-width 100%
-      text-overflow ellipsis
-      overflow-x hidden
-      font-size $fontSizeMD
+    .btn {
+      max-width: 100%;
+      text-overflow: ellipsis;
+      overflow-x: hidden;
+      font-size: $fontSizeMD;
+    }
+  }
 
-  .package-installer-btn-wrap
-    margin-top 0.5rem
+  .package-installer-btn-wrap {
+    margin-top: 0.5rem;
+  }
+}
 
-.install-cli
-  position relative
-  a
-    &:hover
-      text-decoration none !important
-  code
-    display block
-    white-space nowrap
-    overflow hidden
-    padding 0.7rem
-    font-size 0.75rem
-    background-color transparent
-    border 1px solid $borderColor
-    color $accentColor
-    cursor pointer
-    &:hover
-      background-color #fcf2f2
-    &:before
-      color #bcc3ce
-      content attr(data-lang)
-      font-size .6rem
-      position absolute
-      right .2rem
-      top .1rem
+.install-cli {
+  position: relative;
+
+  a {
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  code {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0.7rem;
+    font-size: 0.75rem;
+    background-color: transparent;
+    border: 1px solid $borderColor;
+    color: $accentColor;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fcf2f2;
+    }
+
+    &:before {
+      color: #bcc3ce;
+      content: attr(data-lang);
+      font-size: 0.6rem;
+      position: absolute;
+      right: 0.2rem;
+      top: 0.1rem;
+    }
+  }
+}
 </style>

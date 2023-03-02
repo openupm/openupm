@@ -1,0 +1,21 @@
+name: com.cippsharpcore.reorderable
+displayName: CippSharp.Reorderable
+description: >-
+  An attempt to mimic the ReorderableList within Unity while adding some
+  extended functionality.
+repoUrl: 'https://github.com/Cippman/Unity-Reorderable-List'
+parentRepoUrl: 'https://github.com/cfoulston/Unity-Reorderable-List'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651352675645

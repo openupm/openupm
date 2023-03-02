@@ -1,0 +1,20 @@
+name: com.hgs.rpg-stats
+displayName: HGS RPG Stats
+description: Modular stat system to RPG and RPG Like games
+repoUrl: 'https://github.com/homy-game-studio/hgs-unity-rpg-stats'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - code-generation
+  - data-management
+hunter: MatheusMoura17
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Assets/Package/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1674393764206

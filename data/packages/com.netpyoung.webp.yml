@@ -1,0 +1,20 @@
+name: com.netpyoung.webp
+displayName: Unity.WebP
+description: webp made easy for Unity3d.
+repoUrl: 'https://github.com/netpyoung/unity.webp'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+hunter: JesseTG
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/netpyoung/unity.webp/raw/bf2212ff2c87cb23874ef8ff6b58762171582873/webplogo.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1649797965802

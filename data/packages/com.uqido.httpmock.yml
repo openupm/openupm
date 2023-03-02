@@ -1,0 +1,24 @@
+name: com.uqido.httpmock
+displayName: HttpMock
+description: >-
+  HttpMock enables you to mock the behaviour of HTTP services, that your
+  application depends on, during testing
+repoUrl: 'https://github.com/Uqido/HttpMock'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: The MIT License (MIT)
+topics:
+  - debugging-and-logging
+  - frameworks
+  - network
+  - testing
+hunter: Uqido
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.uqido.httpmock/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1637575371846

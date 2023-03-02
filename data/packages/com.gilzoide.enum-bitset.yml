@@ -1,0 +1,21 @@
+name: com.gilzoide.enum-bitset
+displayName: Enum BitSet
+description: >-
+  Fast and memory efficient implementation of C#'s ISet for enums, storing data
+  as bit masks.
+repoUrl: 'https://github.com/gilzoide/EnumBitSet'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1661097449047

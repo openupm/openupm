@@ -1,0 +1,23 @@
+name: com.microsoft.maps.unity.urp
+displayName: 'Maps SDK, a Microsoft Garage Project - Universal RP Support'
+description: Provides shaders for the universal render pipeline.
+repoUrl: 'https://github.com/microsoft/MapsSDK-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - integration
+  - services
+  - terrain
+hunter: peterclemenko
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/microsoft/MapsSDK-Unity/raw/de7b7074e45646c96958a8380e98df7146454468/SupportingScripts/Editor/Resources/MapsSDK-EditorBannerBlack.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1662524906060

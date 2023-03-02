@@ -1,0 +1,20 @@
+name: com.sowa705.udrive
+displayName: UDrive
+description: Vehicle simulation system
+repoUrl: 'https://github.com/sowa705/UDrive'
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
+topics:
+  - physics
+hunter: sowa705
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/sowa705/UDrive/raw/b875f01b06a44f0b71c7123a6ed287f679f49dbb/Branding/UDriveBackground.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1652732471380

@@ -11,12 +11,14 @@ const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
 const writeFile = util.promisify(fs.writeFile);
 
+const PACKAGE_LIMIT = Number(process.env.PACKAGE_LIMIT);
+
 // Paths.
 const dataDir = path.resolve(__dirname, "../../data");
 const packagesDir = path.resolve(dataDir, "packages");
 
 // Load topics.
-const loadTopics = async function() {
+const loadTopics = async function () {
   try {
     let absPath = path.resolve(dataDir, "topics.yml");
     return yaml.safeLoad(await readFile(absPath, "utf8")).topics;
@@ -27,7 +29,7 @@ const loadTopics = async function() {
 };
 
 // Load package by name.
-const loadPackage = async function(name) {
+const loadPackage = async function (name) {
   try {
     let absPath = path.resolve(packagesDir, name + ".yml");
     return preparePackage(yaml.safeLoad(await readFile(absPath, "utf8")));
@@ -38,7 +40,7 @@ const loadPackage = async function(name) {
 };
 
 // Load raw package by name.
-const loadRawPackage = async function(name) {
+const loadRawPackage = async function (name) {
   try {
     let absPath = path.resolve(packagesDir, name + ".yml");
     return yaml.safeLoad(await readFile(absPath, "utf8"));
@@ -49,7 +51,7 @@ const loadRawPackage = async function(name) {
 };
 
 // Save raw package by name.
-const saveRawPackage = async function(name, obj) {
+const saveRawPackage = async function (name, obj) {
   try {
     let absPath = path.resolve(packagesDir, name + ".yml");
     const content = yaml.safeDump(obj);
@@ -60,7 +62,7 @@ const saveRawPackage = async function(name, obj) {
 };
 
 // Load package by name (sync version).
-const loadPackageSync = function(name) {
+const loadPackageSync = function (name) {
   try {
     let absPath = path.resolve(packagesDir, name + ".yml");
     return preparePackage(yaml.safeLoad(fs.readFileSync(absPath, "utf8")));
@@ -71,29 +73,33 @@ const loadPackageSync = function(name) {
 };
 
 // Load package names.
-const loadPackageNames = async function(options) {
-  const { sortBy } = options || {};
+const loadPackageNames = async function (options) {
+  const { sortKey } = options || {};
   let files = await readdir(packagesDir);
   // Sort
-  if (sortBy == "mtime" || sortBy == "-mtime") {
-    files.sort(function(a, b) {
+  if (sortKey == "mtime" || sortKey == "-mtime") {
+    files.sort(function (a, b) {
       return (
         fs.statSync(path.join(packagesDir, a)).mtime.getTime() -
         fs.statSync(path.join(packagesDir, b)).mtime.getTime()
       );
     });
-  } else if (sortBy == "name" || sortBy == "-name") {
+  } else if (sortKey == "name" || sortKey == "-name") {
     files.sort();
   }
-  if (sortBy && sortBy.startsWith("-")) files.reverse();
+  if (sortKey && sortKey.startsWith("-")) files.reverse();
   // Find paths with *.ya?ml ext.
-  return files
+  files = files
     .filter(p => (p.match(/.*\.(ya?ml)$/) || [])[1] !== undefined)
     .map(p => p.replace(/\.ya?ml$/, ""));
+  if (PACKAGE_LIMIT > 0) {
+    files = files.slice(0, PACKAGE_LIMIT);
+  }
+  return files;
 };
 
 // Load built-in package names.
-const loadBuiltinPackageNames = async function() {
+const loadBuiltinPackageNames = async function () {
   try {
     let absPath = path.resolve(dataDir, "builtin.yml");
     return yaml.safeLoad(await readFile(absPath, "utf8")).packages;
@@ -104,7 +110,7 @@ const loadBuiltinPackageNames = async function() {
 };
 
 // Load blocked scopes.
-const loadBlockedScopes = async function() {
+const loadBlockedScopes = async function () {
   try {
     let absPath = path.resolve(dataDir, "blocked-scopes.yml");
     return yaml.safeLoad(await readFile(absPath, "utf8")).scopes;
@@ -115,13 +121,13 @@ const loadBlockedScopes = async function() {
 };
 
 // Verify package name.
-const packageExists = function(name) {
+const packageExists = function (name) {
   let absPath = path.resolve(packagesDir, name + ".yml");
   return fs.existsSync(absPath);
 };
 
 // Get clean repo url.
-const cleanRepoUrl = function(url, format) {
+const cleanRepoUrl = function (url, format) {
   if (!format) format = "https";
   const ghUrl = parseGitHubUrl(url);
   if (format == "git") return `git@${ghUrl.host}:${ghUrl.repo}.git`;
@@ -130,7 +136,7 @@ const cleanRepoUrl = function(url, format) {
 };
 
 // Prepare package object, add or fix necessary properties.
-const preparePackage = function(doc) {
+const preparePackage = function (doc) {
   const ghUrl = parseGitHubUrl(doc.repoUrl);
   // repo
   doc.repo = ghUrl.repo;
@@ -173,7 +179,7 @@ const preparePackage = function(doc) {
 };
 
 // Return namespace from package name
-const getNamespace = function(packageName) {
+const getNamespace = function (packageName) {
   return packageName
     .split(".")
     .slice(0, 2)
@@ -182,6 +188,7 @@ const getNamespace = function(packageName) {
 
 module.exports = {
   cleanRepoUrl,
+  dataDir,
   getNamespace,
   loadTopics,
   loadPackage,
@@ -191,7 +198,6 @@ module.exports = {
   loadBuiltinPackageNames,
   loadBlockedScopes,
   isValidPackageName,
-
   packageExists,
   packagesDir,
   saveRawPackage,

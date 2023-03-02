@@ -1,0 +1,25 @@
+name: com.buzzing.game-foundation
+displayName: Game Foundation
+description: >-
+  Game Foundation provides pre-built common game systems that are flexible and
+  extensible so that developers can focus on building unique gameplay.
+repoUrl: 'https://github.com/BuzzingStudio/GameFoundation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - frameworks
+  - network
+  - services
+hunter: ninhnv
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663730954234

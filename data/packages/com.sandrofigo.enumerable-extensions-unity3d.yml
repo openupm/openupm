@@ -1,0 +1,19 @@
+name: com.sandrofigo.enumerable-extensions-unity3d
+displayName: Enumerable Extensions
+description: Extension class for easily working with collections and random elements.
+repoUrl: 'https://github.com/sandrofigo/Enumerable-Extensions-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1659269821912

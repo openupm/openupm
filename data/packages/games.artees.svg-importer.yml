@@ -3,8 +3,8 @@ displayName: SVG Importer
 description: SVG Importer for Unity
 repoUrl: 'https://github.com/Artees/SVGImporter'
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - 2d
   - editor-enhancement

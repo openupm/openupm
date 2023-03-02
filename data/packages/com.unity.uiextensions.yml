@@ -1,14 +1,12 @@
 name: com.unity.uiextensions
 displayName: Unity UI Extensions
-description: pulling daily from bitbucket repo
-repoUrl: 'https://github.com/JohannesDeml/unity-ui-extensions'
-parentRepoUrl: 'https://bitbucket.org/UnityUIExtensions/unity-ui-extensions'
+description: The Unity UI Extensions project is a collection of extension scripts / effects and controls to enhance your Unity UI experience. These scripts have been gathered from many sources, combined and improved over time.
+repoUrl: 'https://github.com/Unity-UI-Extensions/com.unity.uiextensions'
+readme: 'release:README.md'
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause
 topics:
   - gui
   - utilities
-hunter: favoyang
+hunter: simondarksidej
 createdAt: 1576235107000
-displayName_zhCN: Unity UI扩展
-description_zhCN: 每天从bitbucket仓库中同步

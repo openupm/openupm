@@ -1,0 +1,20 @@
+name: com.hww.xicore
+displayName: XiCore
+description: XiCore is a collection of libraries for Unity.
+repoUrl: 'https://github.com/hww/XiCore'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: hww
+gitTagPrefix: 'upm/v'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1663520853209
+ 

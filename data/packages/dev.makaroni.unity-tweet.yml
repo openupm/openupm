@@ -1,0 +1,21 @@
+name: dev.makaroni.unity-tweet
+displayName: unity-tweet
+description: TweetCapture
+repoUrl: 'https://github.com/saitocastel1900/unity-tweet'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - mobile
+hunter: saitocastel1900
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/saitocastel1900/unity-tweet/raw/2bfc66a6488a0d339e8638ba1bc2a9bb0b45eaad/Assets/Captures/capture2022-09-24-11-41-22.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1664614204720

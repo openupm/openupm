@@ -1,0 +1,19 @@
+name: com.sschmid.sherlog
+displayName: Sherlog
+description: Flexible logging for C# and Unity
+repoUrl: 'https://github.com/sschmid/com.sschmid.sherlog'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: sschmid
+gitTagPrefix: com.sschmid.sherlog/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.sschmid.sherlog/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1666618141157

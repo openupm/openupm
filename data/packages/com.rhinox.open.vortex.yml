@@ -1,0 +1,19 @@
+name: com.rhinox.open.vortex
+displayName: Vortex - Data Layer Integrator
+description: Integration layer for Data backends with editor
+repoUrl: 'https://github.com/Rhinox-Training/vortex'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - data-management
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1651062453684

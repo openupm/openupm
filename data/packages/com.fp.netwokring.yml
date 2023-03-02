@@ -1,0 +1,22 @@
+name: com.fp.netwokring
+displayName: Network struct and utility
+description: >-
+  Networking data structures, serialization, interpolation and compression
+  utility
+repoUrl: 'https://github.com/FrameProjectTeam/Fp.Unity.Network'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utilities
+hunter: Kaladrius2trip
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1639385011731
