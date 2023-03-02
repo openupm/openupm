@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - "#files=1"
       - "files~=data/packages/(.*)\\.yml$"
-      - "-files~=data/packages/(.*)(amazonaws|google|unity|microsoft|apple|meta|oculus|twitter)\\.(.*)\\.yml$"
+      - "-files~=data/packages/(.*)(com\\.amazonaws|com\\.google|com\\.unity|com\\.microsoft|com\\.apple|com\\.meta|com\\.oculus|com\\.twitter)\\.(.*)\\.yml$"
       - "#files=1"
       - -conflict
       - "status-success~=CI"
