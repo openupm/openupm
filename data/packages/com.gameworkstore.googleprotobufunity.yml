@@ -3,8 +3,8 @@ displayName: GameWorkstore GoogleProtobuf Unity
 description: Google Protobuf C#/GoLang/Python Library for Unity
 repoUrl: 'https://github.com/GameWorkstore/google-protobuf-unity'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - data-management
 hunter: scriptsengineer
