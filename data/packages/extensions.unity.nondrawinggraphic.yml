@@ -1,0 +1,23 @@
+name: extensions.unity.nondrawinggraphic
+displayName: Non Drawing Graphic
+description: >-
+  Unity UI component which doesn't have drawing event at all. But still can
+  receive click events. More optimized to have something invisible and clickable
+  in Unity UI.
+repoUrl: 'https://github.com/IvanMurzak/Unity-NonDrawingGraphic'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - gui
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677737802295
