@@ -1,0 +1,25 @@
+name: com.rest.elevenlabs
+displayName: ElevenLabs
+description: A non-official Eleven Labs voice synthesis RESTful client.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.elevenlabs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - audio
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Documentation~/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677858802373
