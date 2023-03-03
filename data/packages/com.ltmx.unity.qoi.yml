@@ -1,0 +1,24 @@
+name: com.ltmx.unity.qoi
+displayName: Unity.QOI
+description: Utilities to Import and Export to the QOI Image Format
+repoUrl: 'https://github.com/LTMX/Unity.QOI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: LTMX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/LTMX/Unity.QOI/raw/6b6c5462efa584661f3f36ca32dfb027a8f3be3a/.documentation/Unity.QOI%20Logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677775617077
