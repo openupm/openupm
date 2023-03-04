@@ -1,0 +1,20 @@
+name: net.mirzipan.framed
+displayName: Mirzipan Framed
+description: A basic framework for an application or a game in Unity
+repoUrl: 'https://github.com/Mirzipan/Mirzipan.Framed'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: Mirzipan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677955416122
