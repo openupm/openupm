@@ -1,0 +1,23 @@
+name: org.shadow-grove.simple-http-and-rest-server
+displayName: Simple HTTP and REST Server
+description: >-
+  Use this asset to create a HTTP server within Unity to provide an REST API for
+  exchanging data with other tools.
+repoUrl: 'https://github.com/ShadowGroveGames/Simple-HTTP-and-REST-Server'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - network
+  - utilities
+hunter: Luzifix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678035668196
