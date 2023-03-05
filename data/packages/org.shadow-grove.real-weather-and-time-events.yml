@@ -1,0 +1,24 @@
+name: org.shadow-grove.real-weather-and-time-events
+displayName: Real Weather and Time Events
+description: >-
+  Real Weather and Time Events implements Unity Events into your game to react
+  to real-time weather information. It also provides time information about the
+  selected area!
+repoUrl: 'https://github.com/ShadowGroveGames/Real-Weather-and-Time-Events'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: Luzifix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ShadowGroveGames/Real-Weather-and-Time-Events/raw/2aeaa20fbf4499792648766eb0239282a0831f2b/ShadowGroveGames/Real%20Wether%20and%20Time%20Events/Examples/Weather%20Widget/Image/bg.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678026390079
