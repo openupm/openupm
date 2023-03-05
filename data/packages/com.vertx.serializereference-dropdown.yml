@@ -1,0 +1,22 @@
+name: com.vertx.serializereference-dropdown
+displayName: SerializeReference Dropdown
+description: >-
+  Adds a type dropdown for SerializeReference fields. Supports custom drawers
+  and UIToolkit.
+repoUrl: 'https://github.com/vertxxyz/Vertx.SerializeReferenceDropdown'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: vertxxyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1677975892731
