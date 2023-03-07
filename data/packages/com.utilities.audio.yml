@@ -1,0 +1,22 @@
+name: com.utilities.audio
+displayName: Utilities.Audio
+description: A simple package for audio extensions and utilities.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.audio'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Documentation~/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678223693683
