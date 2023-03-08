@@ -1,0 +1,24 @@
+name: com.ltmx.mathematics.mathx
+displayName: Unity.mathx
+description: Extension library for Unity.Mathematics
+repoUrl: 'https://github.com/LTMX/Unity.mathx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - dots-and-ecs
+  - editor-enhancement
+  - frameworks
+  - procedural-generation
+  - utilities
+hunter: LTMX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678276487388
