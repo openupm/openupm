@@ -1,0 +1,22 @@
+name: com.utilities.encoder.wav
+displayName: WAV Encoder
+description: Simple library for WAV encoding support.
+repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.encoder.wav'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Documentation~/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678244957832
