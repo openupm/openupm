@@ -1,0 +1,23 @@
+name: extensions.unity.imageloader
+displayName: Image Loader
+description: Asynchronous image loading from remote or local destination.
+repoUrl: 'https://github.com/IvanMurzak/Unity-ImageLoader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - gui
+  - network
+  - sprite-management
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/IvanMurzak/Unity-ImageLoader/raw/d00604bd671838e79e67b3e276dcbcca973d08e0/Test%20Images/ImageA.jpg
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678277274965
