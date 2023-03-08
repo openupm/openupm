@@ -15,7 +15,8 @@ hunter: SolarianZ
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://raw.githubusercontent.com/SolarianZ/UnityPlayableGraphMonitorTool/main/Documents~/imgs/img_sample_playablegraph_monitor.png
 readme: 'main:README.md'
 readme_zhCN: 'main:README_CN.md'
 displayName_zhCN: PlayableGraph监控工具
