@@ -1,5 +1,5 @@
 name: com.utilities.encoder.wav
-displayName: WAV Encoder
+displayName: Utilities.Encoder.Wav
 description: Simple library for WAV encoding support.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.encoder.wav'
 parentRepoUrl: null

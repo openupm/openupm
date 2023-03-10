@@ -1,5 +1,5 @@
 name: com.utilities.encoder.ogg
-displayName: Ogg Encoder
+displayName: Utilities.Encoder.Ogg
 description: Simple library for Ogg encoding support.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.encoder.ogg'
 parentRepoUrl: null
