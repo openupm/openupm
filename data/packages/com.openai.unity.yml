@@ -16,9 +16,8 @@ hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/RageAgainstThePixel/com.openai.unity/raw/5bb49be74b664e29b4e139acc376039fcc6f5a60/OpenAI/Packages/com.openai.unity/Runtime/Icons/open-ai-icon.png
-readme: 'main:README.md'
+image: null
+readme: 'upm:Documentation~/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
