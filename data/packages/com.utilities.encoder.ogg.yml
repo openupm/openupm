@@ -7,13 +7,15 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - audio
+  - editor-enhancement
+  - integration
   - utilities
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'upm:README.md'
+readme: 'upm:Documentation~/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
