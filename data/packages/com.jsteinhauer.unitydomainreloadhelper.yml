@@ -1,0 +1,20 @@
+name: com.jsteinhauer.unitydomainreloadhelper
+displayName: Unity Domain Reload Helper
+description: A couple of attributes that help disabling Domain Reloading in Unity easier.
+repoUrl: 'https://github.com/joshcamas/unity-domain-reload-helper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678504556616
