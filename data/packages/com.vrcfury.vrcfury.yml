@@ -1,0 +1,19 @@
+name: com.vrcfury.vrcfury
+displayName: VRCFury
+description: Non-Destructive Tools for VRChat Avatars
+repoUrl: 'https://github.com/VRCFury/VRCFury'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: 'CC BY-ND 4.0, CC BY-ND 4.0'
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678805570137
