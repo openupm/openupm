@@ -1,0 +1,22 @@
+name: vrchat.blackstartx.gesture-manager
+displayName: Gesture Manager
+description: >-
+  A tool that will help you preview your VRChat Avatar animation directly in
+  Unity.
+repoUrl: 'https://github.com/BlackStartx/VRC-Gesture-Manager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/BlackStartx/VRC-Gesture-Manager/raw/534e9e23f811f8c633ab5a999555b9bc5ec3a5ba/.markdown/3.2/RadialOptions.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678807595572
