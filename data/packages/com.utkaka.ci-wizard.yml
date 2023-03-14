@@ -1,0 +1,19 @@
+name: com.utkaka.ci-wizard
+displayName: CI Wizard
+description: Editor for generating CI configs. At the moment it supports only Gitlab CI
+repoUrl: 'https://github.com/utkaka/UnityCiWizard'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: utkaka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678784781987
