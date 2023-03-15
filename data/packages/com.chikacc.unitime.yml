@@ -14,6 +14,6 @@ minVersion: ''
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniTime
+description_zhCN: 提供可測試的時間整合。
 createdAt: 1678202574261
