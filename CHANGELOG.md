@@ -1,3 +1,10 @@
+## [1.53.3](https://github.com/openupm/openupm/compare/1.53.2...1.53.3) (2023-03-15)
+
+
+### Bug Fixes
+
+* **data:** fix VRCFury License and add git tag prefix ([#3797](https://github.com/openupm/openupm/issues/3797)) ([7ceb71c](https://github.com/openupm/openupm/commit/7ceb71c15d4bd4f665268be748399639172d400c))
+
 ## [1.53.2](https://github.com/openupm/openupm/compare/1.53.1...1.53.2) (2023-02-05)
 
 
