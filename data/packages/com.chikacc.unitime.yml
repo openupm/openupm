@@ -11,9 +11,9 @@ hunter: chikacc
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://user-images.githubusercontent.com/13810485/225278725-ab40dd85-42d1-408f-9d4a-7eeb17af67fa.png'
 readme: 'main:README.md'
 readme_zhCN: ''
-displayName_zhCN: ''
-description_zhCN: ''
+displayName_zhCN: UniTime
+description_zhCN: 提供可測試的時間整合。
 createdAt: 1678202574261
