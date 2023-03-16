@@ -1,0 +1,19 @@
+name: com.github.miyaji255.inspector-only-fields
+displayName: InspectorOnlyFields
+description: Unityでシリアライズしたフィールドにコードから書き換えようとすると警告するパッケージです
+repoUrl: 'https://github.com/miyaji255/InspectorOnlyFields'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: miyaji255
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2021'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678958407339
