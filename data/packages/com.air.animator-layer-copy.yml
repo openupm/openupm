@@ -1,0 +1,19 @@
+name: com.air.animator-layer-copy
+displayName: Animator Layer Copy
+description: Utility to copy layers from one animator to another
+repoUrl: 'https://github.com/TheLastRar/AnimatorLayerCopy'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: GPL-3.0 License
+topics:
+  - asset-management
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678992011979
