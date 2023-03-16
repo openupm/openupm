@@ -1,0 +1,23 @@
+name: com.tsk.ide.vscode
+displayName: TSK VSCode Editor
+description: >-
+  Unofficial code editor integration for supporting Visual Studio Code as code
+  editor for Unity. Adds support for generating csproj files for intellisense
+  purposes, auto discovery of installations, etc.
+repoUrl: 'https://github.com/Chizaruu/com.tsk.ide.vscode'
+parentRepoUrl: 'https://github.com/Unity-Technologies/com.unity.ide.vscode'
+licenseSpdxId: ''
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: Chizaruu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'default:Packages/com.tsk.ide.vscode/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678973555161
