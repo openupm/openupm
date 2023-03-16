@@ -1,3 +1,10 @@
+## [1.53.4](https://github.com/openupm/openupm/compare/1.53.3...1.53.4) (2023-03-16)
+
+
+### Bug Fixes
+
+* **com.air.animator-layer-copy:** license: GPL -> LGPL ([#3803](https://github.com/openupm/openupm/issues/3803)) ([002bea7](https://github.com/openupm/openupm/commit/002bea78c34bdcace579ee16c6fc16c47b9f2ffb))
+
 ## [1.53.3](https://github.com/openupm/openupm/compare/1.53.2...1.53.3) (2023-03-15)
 
 
