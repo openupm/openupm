@@ -1,0 +1,19 @@
+name: jp.hadashikick.vyaml
+displayName: VYaml
+description: The extra fast YAML library
+repoUrl: 'https://github.com/hadashiA/VYaml'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: hadashiA
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1678165386602
