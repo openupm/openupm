@@ -4,7 +4,7 @@ description: Utility to copy layers from one animator to another
 repoUrl: 'https://github.com/TheLastRar/AnimatorLayerCopy'
 parentRepoUrl: null
 licenseSpdxId: ''
-licenseName: GPL-3.0 License
+licenseName: LGPL-3.0 License
 topics:
   - asset-management
 hunter: TayouVR
