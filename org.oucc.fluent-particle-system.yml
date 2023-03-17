@@ -1,0 +1,19 @@
+name: org.oucc.fluent-particle-system
+displayName: FluentParticleSystem
+description: UnityのParticleSystemをメソッドチェーンで編集できる拡張メソッド群を提供するパッケージ
+repoUrl: 'https://github.com/OUCC/FluentParticleSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: OUCC
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2018.4'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679066996788
