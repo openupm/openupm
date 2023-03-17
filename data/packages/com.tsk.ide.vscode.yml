@@ -6,7 +6,7 @@ description: >-
   purposes, auto discovery of installations, etc.
 repoUrl: 'https://github.com/Chizaruu/com.tsk.ide.vscode'
 parentRepoUrl: 'https://github.com/Unity-Technologies/com.unity.ide.vscode'
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - debugging-and-logging
@@ -16,7 +16,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'default:Packages/com.tsk.ide.vscode/README.md'
+readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
