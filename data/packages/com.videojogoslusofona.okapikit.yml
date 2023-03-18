@@ -1,0 +1,19 @@
+name: com.videojogoslusofona.okapikit
+displayName: OkapiKit
+description: OkapiKit is a toolkit for creation of simple games without code.
+repoUrl: 'https://github.com/VideojogosLusofona/OkapiKit'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: DiogoDeAndrade
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679150131116
