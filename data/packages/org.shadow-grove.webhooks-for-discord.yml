@@ -1,0 +1,21 @@
+name: org.shadow-grove.webhooks-for-discord
+displayName: Webhooks for Discord
+description: The easiest way to send messages to your Discord server from Unity!
+repoUrl: 'https://github.com/ShadowGroveGames/Webhooks-for-Discord'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - utilities
+hunter: Luzifix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/ShadowGroveGames/Webhooks-for-Discord/raw/b616d87437d0101509c9304f24d944fee23023ba/ShadowGroveGames/Webhooks%20for%20Discord/Examples/1.%20Send%20Simple%20Message/Sprites/Icon-Trans.png
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679134359510
