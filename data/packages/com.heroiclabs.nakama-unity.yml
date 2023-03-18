@@ -1,0 +1,19 @@
+name: com.heroiclabs.nakama-unity
+displayName: Nakama Unity
+description: Unity3D client for Nakama server written in C#.
+repoUrl: 'https://github.com/HesamBagherpour/Nakama-Wrapper'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: HesamBagherpour/Nakama-Wrapper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'development:Assets/Packages/Nakama/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679146151701
