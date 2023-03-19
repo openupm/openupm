@@ -1,0 +1,26 @@
+name: com.robproductions.openeos
+displayName: OpenEOS
+description: >-
+  A lightweight & open-source port of the Epic Online Services (EOS) SDK in
+  Unity Package format, with minor enhancements to provide a smoother
+  integration between Unity and EOS.
+repoUrl: 'https://github.com/RobProductions/OpenEOS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - services
+  - utilities
+hunter: RobProductions
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/RobProductions/OpenEOS/raw/befd5afc845a429c55cf0354a2c58a65bc8f8af0/Documentation~/DocAssets/OpenEOSLogoBanner.jpg
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679254670914
