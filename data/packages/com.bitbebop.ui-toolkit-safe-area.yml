@@ -1,0 +1,20 @@
+name: com.bitbebop.ui-toolkit-safe-area
+displayName: UI Toolkit Safe Area
+description: A Safe Area Container for UI Toolkit.
+repoUrl: 'https://github.com/artstorm/ui-toolkit-safe-area'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: artstorm
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/artstorm/ui-toolkit-safe-area/raw/e3645634f200ab970606533525c2fdbce42d475b/.github/readme/icon-light.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679219210158
