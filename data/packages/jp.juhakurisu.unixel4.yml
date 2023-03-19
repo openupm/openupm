@@ -1,0 +1,20 @@
+name: jp.juhakurisu.unixel4
+displayName: Unixel4
+description: ''
+repoUrl: 'https://github.com/KurisuJuha/Unixel_v4'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - utilities
+hunter: kurisujuha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679201693624
