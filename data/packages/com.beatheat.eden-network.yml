@@ -1,0 +1,19 @@
+name: com.beatheat.eden-network
+displayName: EdenNetwork
+description: Simple TCP network libray
+repoUrl: 'https://github.com/beatheat/EdenNetwork'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - network
+hunter: beatheat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679303400957
