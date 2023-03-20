@@ -1,0 +1,30 @@
+name: com.rhinox.open.magnus
+displayName: Magnus - Game Framework
+description: Game Framework built on top of Unity
+repoUrl: 'https://github.com/Rhinox-Training/magnus'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - gui
+  - input-management
+  - integration
+  - profiling
+  - services
+  - testing
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679324126743
