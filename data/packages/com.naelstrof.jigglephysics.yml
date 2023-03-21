@@ -14,7 +14,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/naelstrof/UnityJigglePhysics/raw/f7dfb12658917221b9b8252a2c726dd5daa78f0c/breakdanceDemo.gif
+  https://raw.githubusercontent.com/naelstrof/UnityJigglePhysics/main/squashNstretch.gif
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
