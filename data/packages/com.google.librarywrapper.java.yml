@@ -1,0 +1,23 @@
+name: com.google.librarywrapper.java
+displayName: Library Wrapper Unity Common
+description: >-
+  Library Wrapper is a code generator that parses Java API and produces wrapper
+  APIs in Unity C#. This Unity package contains library code shared by all
+  Library Wrapper generated C# code.
+repoUrl: 'https://github.com/google/library-wrapper-unity-common'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - code-generation
+  - frameworks
+hunter: f1yingbanana
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679511657320
