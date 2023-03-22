@@ -1,0 +1,20 @@
+name: org.pcsoft.gaming.tutorial
+displayName: Unity Gaming Tutorial
+description: In-Game Tutorial System for Unity
+repoUrl: 'https://github.com/KleinerHacker/unity-gaming-tutorial'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+  - utilities
+hunter: KleinerHacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679521472418
