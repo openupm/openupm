@@ -1,0 +1,25 @@
+name: com.google.librarywrapper.openjdk8
+displayName: Library Wrappers OpenJDK 8
+description: >-
+  Library Wrapper is a code generator that parses Java API and produces wrapper
+  APIs in Unity C#. This Unity package contains generated C# wrappers for a
+  trimmed down version of OpenJDK 8, consisting of `java.lang` and `java.util`
+  classes. These wrappers allow developers to access common Java data structures
+  easily.
+repoUrl: 'https://github.com/google/library-wrapper-unity-openjdk8'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - code-generation
+  - frameworks
+hunter: f1yingbanana
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679511855602
