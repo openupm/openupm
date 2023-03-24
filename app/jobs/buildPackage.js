@@ -30,8 +30,14 @@ const buildPackage = async function (name) {
     remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
     await PackageExtra.setRepoUnavailable(name, false);
   } catch (error) {
+    // If repository GitHub changes RSA ssh host key
+    if (error.message.includes("Host key verification failed")) {
+      logger.error({ pkg: name }, "GitHub RSA ssh host key verification error");
+      await PackageExtra.setRepoUnavailable(name, true);
+      throw error;
+    }
     // If repository has became private or been removed...
-    if (error.message.includes("ERROR: Repository not found") ||
+    else if (error.message.includes("ERROR: Repository not found") ||
       error.message.includes("fatal: Could not read from remote repository")) {
       await PackageExtra.setRepoUnavailable(name, true);
       return;
