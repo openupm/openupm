@@ -200,7 +200,7 @@ team: 团队
 terms-of-use: 服务条例
 terrain: 地形
 testing: 测试
-the-repository-is-unavailable: 远程代码库无效，它可能被作者移除或设置为私有。OpenUPM无法跟踪该仓库将来的改变。
+the-repository-is-unavailable: OpenUPM目前无法访问该仓库。如果是因为所有者删除了该仓库或者将其设为私有，那么OpenUPM将无法继续跟踪它的更新。
 top-package-hunters: 软件包猎手排行榜
 top-package-owners: 软件包作者排行榜
 topics: 主题

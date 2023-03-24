@@ -183,8 +183,7 @@ supported-unity-version: Supported Unity Version
 team: Team
 terms-of-use: Terms of Use
 the-repository-is-unavailable: >-
-  The repository is unavailable. It could be removed or turned private by the
-  author. OpenUPM won't be able to track further changes.
+  The repository is currently inaccessible to OpenUPM. This could be because the owner has deleted it or changed it to private, in which case OpenUPM will no longer track any changes.
 top-package-hunters: Top Package Hunters
 top-package-owners: Top Package Owners
 topics: Topics
