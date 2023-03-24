@@ -1,3 +1,10 @@
+## [1.53.5](https://github.com/openupm/openupm/compare/1.53.4...1.53.5) (2023-03-24)
+
+
+### Bug Fixes
+
+* **backend:** handle the host key verification error ([62e937a](https://github.com/openupm/openupm/commit/62e937ae294af23c3436c1694a7555d67dd57a2e))
+
 ## [1.53.4](https://github.com/openupm/openupm/compare/1.53.3...1.53.4) (2023-03-16)
 
 
