@@ -1,0 +1,21 @@
+name: com.realitytoolkit.camera
+displayName: RealityToolkit.Camera
+description: >-
+  The Camera service module of the Reality Toolkit by the Reality Collective.
+  Use this module to set up a camera rig for XR apps and games in no time.
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.camera'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'development:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679659537920
