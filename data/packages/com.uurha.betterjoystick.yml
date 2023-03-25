@@ -1,0 +1,22 @@
+name: com.uurha.betterjoystick
+displayName: Better Joystick
+description: Simple UI joystick done on UI Toolkit
+repoUrl: 'https://github.com/uurha/BetterJoystick'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - input-management
+  - mobile
+  - utilities
+hunter: uurha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679777007167
