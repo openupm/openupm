@@ -42,36 +42,37 @@ The master branch is usually a Unity project (with Assets folder). The `package.
 OpenUPM uses a YAML file to store the package information. Here's an example.
 
 ```yaml
-# package name
+# The package name
 name: com.namespace.unitypackageexample
-# package display name
+# The package display name
 displayName: Unity Package Example
-# package description
+# The short package description
 description: An unity package example
-# repository url
+# The repository url
 repoUrl: 'https://github.com/author/reponame'
-# forked repository url
+# The forked repository url
 parentRepoUrl: null
-# spdx license id
+# The Software Package Data Exchange® (SPDX®) license id
 licenseSpdxId: MIT
-# license name
+# The license name
 licenseName: MIT License
-# list of topic slugs
+# A list of topic slugs
 topics:
   - utilities
-# Filter Git tags based on prefix. Used by monorepos to separate pacakges
+# Filtering Git tags based on their prefix. It’s particularly useful for monorepos to distinguish between Git tags. i.e. 'com.example.foo/'.
 gitTagPrefix: ''
-# A regular expression to ignore Git tags
+# The regular expression that specifies intentionally untracked Git tags that should be ignored
 gitTagIgnore: '-master$'
-# Minimal version to build
+# The minimal version to build. Leave it blank to build all versions.
 minVersion: '1.0.5'
-# featured image
+# The featured image URL. It should point to a valid image URL instead of a web page that presents the image.
+# Leave it blank to use the repository’s social image if it exists.
 image: 'https://github.com/author/reponame/raw/master/path-of-img.png'
-# featured image fit mode: cover (default) or contain
+# The featured image fit mode: cover (default) or contain. Learn more at https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 imageFit: cover
-# readme path
+# The README.md file path (branchname:filename)
 readme: 'master:README.md'
-# package hunter name (github username)
+# The package hunter's GitHub username
 hunter: author
 ```
 

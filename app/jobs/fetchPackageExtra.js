@@ -231,6 +231,10 @@ const _fetchRepoInfo = async function(repo, packageName) {
  */
 const _fetchOGImage = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchOGImage");
+  if (pkg.image) {
+    logger.info({ pkg: packageName }, "ignore _fetchOGImage because the pkg.image field exists");
+    return;
+  }
   // Helper method to fetch og:image.
   const _fetchOGImageForRepo = async function(repo) {
     try {
@@ -244,7 +248,7 @@ const _fetchOGImage = async function(pkg, packageName) {
       return "";
     } catch (error) {
       if (!isErrorCode(error, 404)) {
-        logger.error({ err: error, pkg: packageName }, "fetch og:Image error");
+        logger.error({ err: error, pkg: packageName }, "_fetchOGImage error");
       }
       return "";
     }

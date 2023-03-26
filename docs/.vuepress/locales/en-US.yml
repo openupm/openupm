@@ -38,9 +38,7 @@ edit-package: Edit this package
 english-text: 'English text:'
 experimental: experimental
 featured-image: Featured image
-featured-image-desc: >-
-  The repository's social image will override the selected image here. Learn
-  more at
+featured-image-desc: To use the repository's social image, leave the featured image unselected. Learn more at
 field-none: None
 fill-the-package-form: Fill the package form
 fill-the-package-form-desc: >-

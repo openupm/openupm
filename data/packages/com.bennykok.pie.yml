@@ -1,6 +1,6 @@
 name: com.bennykok.pie
 displayName: Pie
-description: This pacakge is an experimental pie menu for Unity
+description: This package is an experimental pie menu for Unity
 repoUrl: 'https://github.com/BennyKok/unity-pie'
 parentRepoUrl: null
 licenseSpdxId: MIT

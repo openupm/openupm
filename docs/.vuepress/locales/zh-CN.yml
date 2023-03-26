@@ -48,7 +48,7 @@ editor-enhancement: 增强编辑器
 english-text: 英文文本：
 experimental: 实验性
 featured-image: 主图片
-featured-image-desc: 代码仓库的social image会覆盖此处选择的图片。请参考
+featured-image-desc: 若要使用代码仓库默认的社交媒体预览图，请不要选择此处的图片。请参考
 field-none: 无
 fill-the-package-form: 填写软件包表单
 fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合OpenUPM的软件包标准，请参考
