@@ -1,3 +1,10 @@
+## [1.53.6](https://github.com/openupm/openupm/compare/1.53.5...1.53.6) (2023-03-26)
+
+
+### Bug Fixes
+
+* **backend:** the package meta.image field has gained higher priority than the repository’s social image ([6d0d946](https://github.com/openupm/openupm/commit/6d0d946eca1e2f0985f4d702c59eaa2e2ba262c4))
+
 ## [1.53.5](https://github.com/openupm/openupm/compare/1.53.4...1.53.5) (2023-03-24)
 
 
