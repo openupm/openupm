@@ -232,7 +232,7 @@ const _fetchRepoInfo = async function(repo, packageName) {
 const _fetchOGImage = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchOGImage");
   if (pkg.image) {
-    logger.info({ pkg: packageName }, "ignore _fetchOGImage because the pkg.image field exists");
+    logger.info({ pkg: packageName }, "skip _fetchOGImage because the pkg.image field exists");
     return;
   }
   // Helper method to fetch og:image.
@@ -371,19 +371,24 @@ const cacheAvatarImageForGithubUser = async function(username, force) {
  */
 const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
-  const langs = [
-    { lang: "en-US", readmePathKey: "readme" },
-    { lang: "zh-CN", readmePathKey: "readme_zhCN" }
-  ];
-  for (const item of langs) {
-    const readmePath = pkg[item.readmePathKey];
+  const langs = ["en-US", "zh-CN"];
+  for (const lang of langs) {
+    const readmePathPropKey = PackageExtra.getPropKeyForLang(PackageExtra.propKeys.readme, lang);
+    const readmePath = pkg[readmePathPropKey];
     if (readmePath)
-      await _fetchReadmeForLang(pkg, packageName, item.lang, readmePath);
+      await _fetchReadmeForLang(pkg, packageName, lang, readmePath);
   }
 };
 
 const _fetchReadmeForLang = async function(pkg, packageName, lang, readmePath) {
   logger.info({ pkg: packageName, lang, readmePath }, "_fetchReadmeForLang");
+  const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
+  const readmeCacheKey = String(pushedTime);
+  const prevReadmeCacheKey = await PackageExtra.getReadmeCacheKey(packageName, lang);
+  if (readmeCacheKey == prevReadmeCacheKey) {
+    logger.info({ pkg: packageName, lang, readmePath }, "skip _fetchReadmeForLang because the cache is available");
+    return;
+  }
   try {
     const [owner, name] = pkg.repo.split("/");
     const data = await createGqlClient().request(gitFileContentGql, {
@@ -397,6 +402,7 @@ const _fetchReadmeForLang = async function(pkg, packageName, lang, readmePath) {
     await PackageExtra.setReadme(packageName, text, lang);
     const html = await renderMarkdownToHtml({ pkg, markdown: text });
     await PackageExtra.setReadmeHtml(packageName, html, lang);
+    await PackageExtra.setReadmeCacheKey(packageName, lang, readmeCacheKey);
   } catch (error) {
     logger.error(
       { err: error, pkg: packageName, lang, readmePath },

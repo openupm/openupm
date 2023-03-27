@@ -20,9 +20,8 @@ const propKeys = {
   invalidTags: "invalidTags",
   parentStars: "pstars",
   readme: "readme",
+  readmeCacheKey: "readmeCacheKey",
   readmeHtml: "readmeHtml",
-  readme_zhCN: "readme_zhCN",
-  readmeHtml_zhCN: "readmeHtml_zhCN",
   scopes: "scopes",
   stars: "stars",
   unityVersion: "unity",
@@ -30,6 +29,21 @@ const propKeys = {
   repoPushedTime: "repoPushedTime",
   repoUnavailable: "repoUnavailable",
   version: "ver"
+};
+
+/**
+ * Get the property key appended with a language code except en-US.
+ * @param {String} propKey - the property key
+ * @param {String} lang - the ISO 639-1 standard language code
+ * @returns the property key for lang
+ */
+ const getPropKeyForLang = function(propKey, lang) {
+  if (!lang || lang == "en-US")
+    return propKey;
+  else if (lang == "zh-CN")
+    return propKey + "_zhCN";
+  else
+    throw new Error('Not implemented yet');
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -89,23 +103,34 @@ const getParentStars = async function(packageName) {
 };
 
 const setReadme = async function(packageName, readme, lang) {
-  const key = lang == "zh-CN" ? propKeys.readme_zhCN : propKeys.readme;
+  const key = getPropKeyForLang(propKeys.readme, lang);
   await setValue(packageName, key, readme);
 };
 
 const getReadme = async function(packageName, lang) {
-  const key = lang == "zh-CN" ? propKeys.readme_zhCN : propKeys.readme;
+  const key = getPropKeyForLang(propKeys.readme, lang);
+  const text = await getValue(packageName, key);
+  return text;
+};
+
+const setReadmeCacheKey = async function(packageName, lang, cacheKey) {
+  const key = getPropKeyForLang(propKeys.readmeCacheKey, lang);
+  await setValue(packageName, key, cacheKey);
+};
+
+const getReadmeCacheKey = async function(packageName, lang) {
+  const key = getPropKeyForLang(propKeys.readmeCacheKey, lang);
   const text = await getValue(packageName, key);
   return text;
 };
 
 const setReadmeHtml = async function(packageName, readmeHtml, lang) {
-  const key = lang == "zh-CN" ? propKeys.readmeHtml_zhCN : propKeys.readmeHtml;
+  const key = getPropKeyForLang(propKeys.readmeHtml, lang);
   await setValue(packageName, key, readmeHtml);
 };
 
 const getReadmeHtml = async function(packageName, lang) {
-  const key = lang == "zh-CN" ? propKeys.readmeHtml_zhCN : propKeys.readmeHtml;
+  const key = getPropKeyForLang(propKeys.readmeHtml, lang);
   const text = await getValue(packageName, key);
   return text;
 };
@@ -167,7 +192,7 @@ const setRepoPushedTime = async function(packageName, value) {
 
 const getRepoPushedTime = async function(packageName) {
   const value = await getValue(packageName, propKeys.repoPushedTime);
-  return parseInt(value);
+  return parseInt(value) || 0;
 };
 
 const setRepoUnavailable = async function(packageName, value) {
@@ -185,7 +210,7 @@ const setUpdatedTime = async function(packageName, updatedTime) {
 
 const getUpdatedTime = async function(packageName) {
   const value = await getValue(packageName, propKeys.updatedTime);
-  return parseInt(value);
+  return parseInt(value) || 0;
 };
 
 const setValue = async function(packageName, propKey, propVal) {
@@ -240,7 +265,9 @@ module.exports = {
   getImageUrl,
   getInvalidTags,
   getParentStars,
+  getPropKeyForLang,
   getReadme,
+  getReadmeCacheKey,
   getReadmeHtml,
   getRecentPackages,
   getRepoPushedTime,
@@ -250,11 +277,13 @@ module.exports = {
   getUnityVersion,
   getUpdatedTime,
   getVersion,
+  propKeys,
   setAggregatedExtraData,
   setImageUrl,
   setInvalidTags,
   setParentStars,
   setReadme,
+  setReadmeCacheKey,
   setReadmeHtml,
   setRecentPackages,
   setRepoPushedTime,
