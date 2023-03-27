@@ -1,0 +1,21 @@
+name: dev.auros.auratween
+displayName: AuraTween
+description: 'A lightweight, simple, and high performance tweening library for Unity.'
+repoUrl: 'https://github.com/Auros/AuraTween'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - frameworks
+  - utilities
+hunter: Auros
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679895879914
