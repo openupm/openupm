@@ -1,3 +1,10 @@
+## [1.53.7](https://github.com/openupm/openupm/compare/1.53.6...1.53.7) (2023-03-27)
+
+
+### Bug Fixes
+
+* **backend:** apply cache to the README crawler ([6e0fe79](https://github.com/openupm/openupm/commit/6e0fe79f29619ea80343de44ae6847ec75e9323b))
+
 ## [1.53.6](https://github.com/openupm/openupm/compare/1.53.5...1.53.6) (2023-03-26)
 
 
