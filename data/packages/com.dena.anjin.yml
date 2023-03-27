@@ -1,0 +1,19 @@
+name: com.dena.anjin
+displayName: Anjin
+description: Autopilot framework for Unity
+repoUrl: 'https://github.com/DeNA/Anjin'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679887766705
