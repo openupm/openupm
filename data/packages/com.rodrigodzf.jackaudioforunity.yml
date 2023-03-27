@@ -10,7 +10,7 @@ topics:
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.1.0
+minVersion: 1.1.2
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
