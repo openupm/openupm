@@ -1,3 +1,11 @@
+## [1.53.8](https://github.com/openupm/openupm/compare/1.53.7...1.53.8) (2023-03-28)
+
+
+### Bug Fixes
+
+* **backend:** add a version prefix for the README cache key ([b522cdb](https://github.com/openupm/openupm/commit/b522cdb626c9d32d78bae4314125ae54ec9b666a))
+* **backend:** apply cache to the og:image crawler ([835a56a](https://github.com/openupm/openupm/commit/835a56ae9da153243562b6f8ddb9d82593967a28))
+
 ## [1.53.7](https://github.com/openupm/openupm/compare/1.53.6...1.53.7) (2023-03-27)
 
 

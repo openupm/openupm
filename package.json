@@ -1,7 +1,7 @@
 {
   "name": "openupm",
   "private": true,
-  "version": "1.53.7",
+  "version": "1.53.8",
   "description": "OpenUPM is a managed UPM registry with automatic build services for open-source Unity packages.",
   "main": "server.js",
   "authors": {
