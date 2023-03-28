@@ -18,17 +18,19 @@ const packageKey = "pkg:";
 const propKeys = {
   imageUrl: "imageUrl",
   invalidTags: "invalidTags",
+  ogimageCacheKey: "ogimageCacheKey",
   parentStars: "pstars",
   readme: "readme",
   readmeCacheKey: "readmeCacheKey",
   readmeHtml: "readmeHtml",
+  repoPushedTime: "repoPushedTime",
+  repoUnavailable: "repoUnavailable",
+  repoUpdatedTime: "repoUpdatedTime",
   scopes: "scopes",
   stars: "stars",
   unityVersion: "unity",
   updatedTime: "updatedTime",
-  repoPushedTime: "repoPushedTime",
-  repoUnavailable: "repoUnavailable",
-  version: "ver"
+  version: "ver",
 };
 
 /**
@@ -37,7 +39,7 @@ const propKeys = {
  * @param {String} lang - the ISO 639-1 standard language code
  * @returns the property key for lang
  */
- const getPropKeyForLang = function(propKey, lang) {
+const getPropKeyForLang = function (propKey, lang) {
   if (!lang || lang == "en-US")
     return propKey;
   else if (lang == "zh-CN")
@@ -46,101 +48,110 @@ const propKeys = {
     throw new Error('Not implemented yet');
 };
 
-const setInvalidTags = async function(packageName, tags) {
+const setInvalidTags = async function (packageName, tags) {
   const jsonText = JSON.stringify(tags, null, 0);
   await setValue(packageName, propKeys.invalidTags, jsonText);
 };
 
-const getInvalidTags = async function(packageName) {
+const getInvalidTags = async function (packageName) {
   const jsonText = await getValue(packageName, propKeys.invalidTags);
   return jsonText === null ? [] : JSON.parse(jsonText);
 };
 
-const setScopes = async function(packageName, scopes) {
+const setScopes = async function (packageName, scopes) {
   const jsonText = JSON.stringify(scopes, null, 0);
   await setValue(packageName, propKeys.scopes, jsonText);
 };
 
-const getScopes = async function(packageName) {
+const getScopes = async function (packageName) {
   const jsonText = await getValue(packageName, propKeys.scopes);
   return jsonText === null ? [] : JSON.parse(jsonText);
 };
 
-const setVersion = async function(packageName, version) {
+const setVersion = async function (packageName, version) {
   await setValue(packageName, propKeys.version, version);
 };
 
-const getVersion = async function(packageName) {
+const getVersion = async function (packageName) {
   const text = await getValue(packageName, propKeys.version);
   return text;
 };
 
-const setUnityVersion = async function(packageName, unityVersion) {
+const setUnityVersion = async function (packageName, unityVersion) {
   await setValue(packageName, propKeys.unityVersion, unityVersion);
 };
 
-const getUnityVersion = async function(packageName) {
+const getUnityVersion = async function (packageName) {
   const text = await getValue(packageName, propKeys.unityVersion);
   return text;
 };
 
-const setStars = async function(packageName, stars) {
+const setStars = async function (packageName, stars) {
   await setValue(packageName, propKeys.stars, stars);
 };
 
-const getStars = async function(packageName) {
+const getStars = async function (packageName) {
   const text = await getValue(packageName, propKeys.stars);
   return parseInt(text);
 };
 
-const setParentStars = async function(packageName, stars) {
+const setParentStars = async function (packageName, stars) {
   await setValue(packageName, propKeys.parentStars, stars);
 };
 
-const getParentStars = async function(packageName) {
+const getParentStars = async function (packageName) {
   const text = await getValue(packageName, propKeys.parentStars);
   return parseInt(text);
 };
 
-const setReadme = async function(packageName, readme, lang) {
+const setReadme = async function (packageName, readme, lang) {
   const key = getPropKeyForLang(propKeys.readme, lang);
   await setValue(packageName, key, readme);
 };
 
-const getReadme = async function(packageName, lang) {
+const getReadme = async function (packageName, lang) {
   const key = getPropKeyForLang(propKeys.readme, lang);
   const text = await getValue(packageName, key);
   return text;
 };
 
-const setReadmeCacheKey = async function(packageName, lang, cacheKey) {
+const setReadmeCacheKey = async function (packageName, lang, cacheKey) {
   const key = getPropKeyForLang(propKeys.readmeCacheKey, lang);
   await setValue(packageName, key, cacheKey);
 };
 
-const getReadmeCacheKey = async function(packageName, lang) {
+const getReadmeCacheKey = async function (packageName, lang) {
   const key = getPropKeyForLang(propKeys.readmeCacheKey, lang);
   const text = await getValue(packageName, key);
   return text;
 };
 
-const setReadmeHtml = async function(packageName, readmeHtml, lang) {
+const setReadmeHtml = async function (packageName, readmeHtml, lang) {
   const key = getPropKeyForLang(propKeys.readmeHtml, lang);
   await setValue(packageName, key, readmeHtml);
 };
 
-const getReadmeHtml = async function(packageName, lang) {
+const getReadmeHtml = async function (packageName, lang) {
   const key = getPropKeyForLang(propKeys.readmeHtml, lang);
   const text = await getValue(packageName, key);
   return text;
 };
 
-const setImageUrl = async function(packageName, imageUrl) {
+const setImageUrl = async function (packageName, imageUrl) {
   await setValue(packageName, propKeys.imageUrl, imageUrl);
 };
 
-const getImageUrl = async function(packageName) {
+const getImageUrl = async function (packageName) {
   const text = await getValue(packageName, propKeys.imageUrl);
+  return text;
+};
+
+const setOGImageCacheKey = async function (packageName, cacheKey) {
+  await setValue(packageName, propKeys.ogimageCacheKey, cacheKey);
+};
+
+const getOGImageCacheKey = async function (packageName) {
+  const text = await getValue(packageName, propKeys.ogimageCacheKey);
   return text;
 };
 
@@ -148,7 +159,7 @@ const getImageUrl = async function(packageName) {
  * Get image query data for a package, return { imageUrl, width, height, fit }
  * @param {string} packageName
  */
-const getImageQueryForPackage = async function(packageName) {
+const getImageQueryForPackage = async function (packageName) {
   // get the image url
   const pkg = await loadPackage(packageName);
   let imageUrl = await getImageUrl(packageName);
@@ -167,7 +178,7 @@ const getImageQueryForPackage = async function(packageName) {
  * @param {string} username
  * @param {Number} size
  */
-const getImageQueryForGithubUser = async function(username, size) {
+const getImageQueryForGithubUser = async function (username, size) {
   // get the image url
   const imageUrl = `https://github.com/${username}.png?size=${size}`;
   return { imageUrl, width: size, height: size, fit: "cover" };
@@ -177,7 +188,7 @@ const getImageQueryForGithubUser = async function(username, size) {
  * Get the cached image filename
  * @param {string} packageName
  */
-const getCachedImageFilename = async function(packageName) {
+const getCachedImageFilename = async function (packageName) {
   const imageQuery = await getImageQueryForPackage(packageName);
   if (imageQuery) {
     const imageData = await getImage(imageQuery);
@@ -186,39 +197,48 @@ const getCachedImageFilename = async function(packageName) {
   return null;
 };
 
-const setRepoPushedTime = async function(packageName, value) {
+const setRepoPushedTime = async function (packageName, value) {
   await setValue(packageName, propKeys.repoPushedTime, value);
 };
 
-const getRepoPushedTime = async function(packageName) {
+const getRepoPushedTime = async function (packageName) {
   const value = await getValue(packageName, propKeys.repoPushedTime);
   return parseInt(value) || 0;
 };
 
-const setRepoUnavailable = async function(packageName, value) {
+const setRepoUpdatedTime = async function (packageName, value) {
+  await setValue(packageName, propKeys.repoUpdatedTime, value);
+};
+
+const getRepoUpdatedTime = async function (packageName) {
+  const value = await getValue(packageName, propKeys.repoUpdatedTime);
+  return parseInt(value) || 0;
+};
+
+const setRepoUnavailable = async function (packageName, value) {
   await setValue(packageName, propKeys.repoUnavailable, value ? "1" : "0");
 };
 
-const getRepoUnavailable = async function(packageName) {
+const getRepoUnavailable = async function (packageName) {
   const text = await getValue(packageName, propKeys.repoUnavailable);
   return text == "1" ? true : false;
 };
 
-const setUpdatedTime = async function(packageName, updatedTime) {
+const setUpdatedTime = async function (packageName, updatedTime) {
   await setValue(packageName, propKeys.updatedTime, updatedTime);
 };
 
-const getUpdatedTime = async function(packageName) {
+const getUpdatedTime = async function (packageName) {
   const value = await getValue(packageName, propKeys.updatedTime);
   return parseInt(value) || 0;
 };
 
-const setValue = async function(packageName, propKey, propVal) {
+const setValue = async function (packageName, propKey, propVal) {
   const key = packageKey + packageName;
   await redis.client.hset(key, propKey, propVal);
 };
 
-const getValue = async function(packageName, propKey) {
+const getValue = async function (packageName, propKey) {
   const key = packageKey + packageName;
   return await redis.client.hget(key, propKey);
 };
@@ -227,7 +247,7 @@ const getValue = async function(packageName, propKey) {
  * Set aggregated extra data.
  * @param {object} obj
  */
-const setAggregatedExtraData = async function(obj) {
+const setAggregatedExtraData = async function (obj) {
   const jsonText = JSON.stringify(obj, null, 0);
   await redis.client.set(allPackagesExtraKey, jsonText);
 };
@@ -235,7 +255,7 @@ const setAggregatedExtraData = async function(obj) {
 /**
  * Get aggregated extra data.
  */
-const getAggregatedExtraData = async function() {
+const getAggregatedExtraData = async function () {
   const jsonText = await redis.client.get(allPackagesExtraKey);
   return jsonText === null ? {} : JSON.parse(jsonText);
 };
@@ -244,7 +264,7 @@ const getAggregatedExtraData = async function() {
  * Set recent packages.
  * @param {object} obj
  */
-const setRecentPackages = async function(arr) {
+const setRecentPackages = async function (arr) {
   const jsonText = JSON.stringify(arr, null, 0);
   await redis.client.set(recentPackagesKey, jsonText);
 };
@@ -252,7 +272,7 @@ const setRecentPackages = async function(arr) {
 /**
  * Get recent packages.
  */
-const getRecentPackages = async function() {
+const getRecentPackages = async function () {
   const jsonText = await redis.client.get(recentPackagesKey);
   return jsonText === null ? [] : JSON.parse(jsonText);
 };
@@ -264,6 +284,7 @@ module.exports = {
   getImageQueryForPackage,
   getImageUrl,
   getInvalidTags,
+  getOGImageCacheKey,
   getParentStars,
   getPropKeyForLang,
   getReadme,
@@ -272,6 +293,7 @@ module.exports = {
   getRecentPackages,
   getRepoPushedTime,
   getRepoUnavailable,
+  getRepoUpdatedTime,
   getScopes,
   getStars,
   getUnityVersion,
@@ -281,6 +303,7 @@ module.exports = {
   setAggregatedExtraData,
   setImageUrl,
   setInvalidTags,
+  setOGImageCacheKey,
   setParentStars,
   setReadme,
   setReadmeCacheKey,
@@ -288,9 +311,10 @@ module.exports = {
   setRecentPackages,
   setRepoPushedTime,
   setRepoUnavailable,
+  setRepoUpdatedTime,
   setScopes,
   setStars,
   setUnityVersion,
   setUpdatedTime,
-  setVersion
+  setVersion,
 };

@@ -34,7 +34,7 @@ const logger = require("../utils/log")(module);
  * @param {Array} packageNames
  * @param {Boolean} force
  */
-const fetchExtraData = async function(packageNames, force) {
+const fetchExtraData = async function (packageNames, force) {
   logger.info("fetchExtraData");
   if (!packageNames) packageNames = [];
   for (let packageName of packageNames) {
@@ -59,7 +59,7 @@ const fetchExtraData = async function(packageNames, force) {
  * Fetch package meta json.
  * @param {string} packageName
  */
-const fetchPackageMeta = async function(packageName) {
+const fetchPackageMeta = async function (packageName) {
   let resp = null;
   const source = CancelToken.source();
   setTimeout(() => {
@@ -76,7 +76,7 @@ const fetchPackageMeta = async function(packageName) {
 };
 
 // Get latest version from the package meta
-const getLatestVersion = function(pkgMeta) {
+const getLatestVersion = function (pkgMeta) {
   if (pkgMeta["dist-tags"] && pkgMeta["dist-tags"]["latest"])
     return pkgMeta["dist-tags"]["latest"];
   else if (pkgMeta.versions)
@@ -90,7 +90,7 @@ const getLatestVersion = function(pkgMeta) {
  * @param {object} repo
  * @param {string} packageName
  */
-const _fetchPackageInfo = async function(packageName) {
+const _fetchPackageInfo = async function (packageName) {
   logger.info({ pkg: packageName }, "_fetchPackageInfo");
   try {
     const pkgMeta = await fetchPackageMeta(packageName);
@@ -120,7 +120,7 @@ const _fetchPackageInfo = async function(packageName) {
  * @param {object} repo
  * @param {string} packageName
  */
-const _fetchPackageScopes = async function(packageName) {
+const _fetchPackageScopes = async function (packageName) {
   logger.info({ pkg: packageName }, "_fetchPackageScopes");
   // a list of pending {name, version}
   const pendingList = [{ name: packageName, version: null }];
@@ -190,7 +190,7 @@ const _fetchPackageScopes = async function(packageName) {
  * Fetch repository information like stars and pushed time.
  * @param {object} repo
  */
-const _fetchRepoInfo = async function(repo, packageName) {
+const _fetchRepoInfo = async function (repo, packageName) {
   logger.info({ pkg: packageName }, "_fetchRepoInfo");
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
@@ -216,6 +216,10 @@ const _fetchRepoInfo = async function(repo, packageName) {
       const time = new Date(repoInfo.pushed_at).getTime();
       await PackageExtra.setRepoPushedTime(packageName, time);
     }
+    if (repoInfo.updated_at) {
+      const time = new Date(repoInfo.updated_at).getTime();
+      await PackageExtra.setRepoUpdatedTime(packageName, time);
+    }
   } catch (error) {
     logger.error(
       httpErrorInfo(error, { pkg: packageName }),
@@ -229,14 +233,21 @@ const _fetchRepoInfo = async function(repo, packageName) {
  * @param {object} repo
  * @param {*} packageName
  */
-const _fetchOGImage = async function(pkg, packageName) {
+const _fetchOGImage = async function (pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchOGImage");
   if (pkg.image) {
     logger.info({ pkg: packageName }, "skip _fetchOGImage because the pkg.image field exists");
     return;
   }
+  const updatedTime = await PackageExtra.getRepoUpdatedTime(packageName);
+  const ogimageCacheKey = `v0:${updatedTime}`;
+  const prevOGImageCacheKey = await PackageExtra.getOGImageCacheKey(packageName);
+  if (ogimageCacheKey == prevOGImageCacheKey) {
+    logger.info({ pkg: packageName }, "skip _fetchOGImage because the cache is available");
+    return;
+  }
   // Helper method to fetch og:image.
-  const _fetchOGImageForRepo = async function(repo) {
+  const _fetchOGImageForRepo = async function (repo) {
     try {
       const [owner, name] = repo.split("/");
       const data = await createGqlClient().request(openGraphImageUrlGql, {
@@ -262,6 +273,7 @@ const _fetchOGImage = async function(pkg, packageName) {
     }
     // Save it.
     await PackageExtra.setImageUrl(packageName, imageUrl);
+    await PackageExtra.setOGImageCacheKey(packageName, ogimageCacheKey);
   } catch (error) {
     logger.error(
       httpErrorInfo(error, { pkg: packageName }),
@@ -276,7 +288,7 @@ const _fetchOGImage = async function(pkg, packageName) {
  * @param {string} packageName
  * @param {Boolean} force
  */
-const _cacheImage = async function(pkg, packageName, force) {
+const _cacheImage = async function (pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheImage");
   try {
     const query = await PackageExtra.getImageQueryForPackage(packageName);
@@ -310,7 +322,7 @@ const _cacheImage = async function(pkg, packageName, force) {
  * @param {string} packageName
  * @param {Boolean} force
  */
-const _cacheAvatarImage = async function(pkg, packageName, force) {
+const _cacheAvatarImage = async function (pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheAvatarImage");
   if (pkg.owner) await cacheAvatarImageForGithubUser(pkg.owner, force);
   if (pkg.parentOwner)
@@ -323,7 +335,7 @@ const _cacheAvatarImage = async function(pkg, packageName, force) {
  * @param {string} username
  * @param {Boolean} force
  */
-const cacheAvatarImageForGithubUser = async function(username, force) {
+const cacheAvatarImageForGithubUser = async function (username, force) {
   for (const [sizeName, entry] of Object.entries(config.packageExtra.avatar)) {
     logger.info(
       { username, width: entry.size, height: entry.size, sizeName },
@@ -369,7 +381,7 @@ const cacheAvatarImageForGithubUser = async function(username, force) {
  * Fetch repository readme.
  * @param {object} repo
  */
-const _fetchReadme = async function(pkg, packageName) {
+const _fetchReadme = async function (pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
   const langs = ["en-US", "zh-CN"];
   for (const lang of langs) {
@@ -380,7 +392,7 @@ const _fetchReadme = async function(pkg, packageName) {
   }
 };
 
-const _fetchReadmeForLang = async function(pkg, packageName, lang, readmePath) {
+const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) {
   logger.info({ pkg: packageName, lang, readmePath }, "_fetchReadmeForLang");
   const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
   const readmeCacheKey = `v0:${pushedTime}`;
@@ -420,11 +432,11 @@ if (require.main === module) {
     .option("--all", "fetch extra package data for all packages")
     .option("-f, --force", "ignore cache and force to fetch stuffs")
     .arguments("[name...]")
-    .action(function(names) {
+    .action(function (names) {
       packageNames = names;
     })
     .parse(process.argv)
-    .run(async function() {
+    .run(async function () {
       if (program.all)
         packageNames = await loadPackageNames({ sortKey: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();
