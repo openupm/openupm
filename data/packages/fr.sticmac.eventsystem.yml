@@ -1,0 +1,22 @@
+name: fr.sticmac.eventsystem
+displayName: Scriptable Object Event System
+description: >-
+  A cross-scene, easy to use event system through observable scriptable objects
+  and listener scripts.
+repoUrl: 'https://github.com/sticmac/unity-event-system'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: sticmac
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679998981060
