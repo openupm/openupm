@@ -1,0 +1,19 @@
+name: fr.sticmac.observablemodels
+displayName: Observable Models
+description: Creating variable as observable scriptable object models
+repoUrl: 'https://github.com/sticmac/unity-observable-models'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+hunter: sticmac
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679996348222
