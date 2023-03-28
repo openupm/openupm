@@ -1,0 +1,21 @@
+name: com.realitytoolkit.devicesimulation
+displayName: RealityToolkit.DeviceSimulation
+description: >-
+  Development extnsion for the Reality Toolkit implementing simulated controller
+  devices and headsets for faster iteration.
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.devicesimulation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'development:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1679989151404
