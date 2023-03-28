@@ -1,0 +1,20 @@
+name: com.bjgf.tools
+displayName: bjgf tools
+description: ''
+repoUrl: 'https://github.com/BoJunChen/BJGF_Tools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: BoJunChen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: BJGF_Tools
+description_zhCN: ''
+createdAt: 1679998582575
