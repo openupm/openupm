@@ -16,18 +16,20 @@ const { gitListRemoteTags } = require("../utils/git");
 const { getVersionFromTag } = require("../utils/semver");
 const logger = require("../utils/log")(module);
 const { removeRelease } = require("./removeRelease");
-const semverCompare = require("semver-compare");
+const { compareVersions } = require("compare-versions");
 
 // Build package with given name.
 const buildPackage = async function (name) {
   // Load package yaml file.
   logger.debug({ pkg: name }, "load yaml file");
   let pkg = await loadPackage(name);
+  logger.debug({ pkg: name, gitTagIgnore: pkg.gitTagIgnore, gitTagPrefix: pkg.gitTagPrefix, minVersion: pkg.minVersion }, "print pkg meta");
   // Get remote tags.
-  logger.debug({ pkg: name }, "get remote tags");
+  logger.debug({ pkg: name }, "gitListRemoteTags start");
   let remoteTags = [];
   try {
     remoteTags = await gitListRemoteTags(cleanRepoUrl(pkg.repoUrl, "git"));
+    logger.debug({ pkg: name, remoteTags }, "gitListRemoteTags result");
     await PackageExtra.setRepoUnavailable(name, false);
   } catch (error) {
     // If repository GitHub changes RSA ssh host key
@@ -51,6 +53,7 @@ const buildPackage = async function (name) {
     minVersion: (pkg.minVersion || "").trim()
   });
   validTags.reverse();
+  logger.debug({ validTags }, "validTags");
   let invalidTags = getInvalidTags({
     remoteTags,
     validTags,
@@ -58,6 +61,7 @@ const buildPackage = async function (name) {
     gitTagPrefix: pkg.gitTagPrefix,
     minVersion: (pkg.minVersion || "").trim()
   });
+  logger.debug({ invalidTags }, "invalidTags");
   await PackageExtra.setInvalidTags(name, invalidTags);
   if (!validTags.length) {
     logger.info({ pkg: name }, "no valid tags found");
@@ -81,12 +85,15 @@ const filterRemoteTags = function ({
   let tags = remoteTags;
   // Filter prefix based on raw tag.
   if (gitTagPrefix) tags = tags.filter(x => x.tag.startsWith(gitTagPrefix));
+  logger.debug({ tags }, "[filterRemoteTags] filter gitTagPrefix");
   // Filter out non-semver based on parsed version.
   tags = tags.filter(x => getVersionFromTag(x.tag) != null);
+  logger.debug({ tags }, "[filterRemoteTags] filter out non-semver");
   // Filter out ignoration based on raw tag.
   if (gitTagIgnore) {
     const ignoreRe = new RegExp(gitTagIgnore, "i");
     tags = tags.filter(x => !ignoreRe.test(x.tag));
+    logger.debug({ tags }, "[filterRemoteTags] filter out gitTagIgnore");
   }
   // Tags with "upm/" prefix or "-upm" suffix have high priority.
   const upmRe = /(^upm\/|(_|-)upm$)/i;
@@ -97,11 +104,12 @@ const filterRemoteTags = function ({
     try {
       tags = tags.filter(
         x =>
-          semverCompare(
+          compareVersions(
             getVersionFromTag(x.tag),
             getVersionFromTag(minVersion)
           ) >= 0
       );
+      logger.debug({ tags }, "[filterRemoteTags] filter minVersion");
       // eslint-disable-next-line no-empty
     } catch (error) { }
   }
@@ -113,6 +121,7 @@ const filterRemoteTags = function ({
       validTags.push(element);
     }
   }
+  logger.debug({ validTags }, "[filterRemoteTags] remove duplications");
   return validTags;
 };
 
@@ -139,7 +148,7 @@ const getInvalidTags = function ({
     try {
       tags = tags.filter(
         x =>
-          semverCompare(
+          compareVersions(
             getVersionFromTag(x.tag),
             getVersionFromTag(minVersion)
           ) >= 0
