@@ -1,3 +1,10 @@
+## [1.53.9](https://github.com/openupm/openupm/compare/1.53.8...1.53.9) (2023-03-29)
+
+
+### Bug Fixes
+
+* **backend:** replace the semver-compare library with compare-versions ([18b6a9f](https://github.com/openupm/openupm/commit/18b6a9facda11ad9b5977b44d98bf8bca0910aca))
+
 ## [1.53.8](https://github.com/openupm/openupm/compare/1.53.7...1.53.8) (2023-03-28)
 
 
