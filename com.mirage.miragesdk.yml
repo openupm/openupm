@@ -1,0 +1,23 @@
+name: com.mirage.miragesdk
+displayName: MirageSDK
+description: >-
+  Provides an easy way to interact with Web3 and possibility to work with
+  contracts deployed on the blockchain.
+repoUrl: 'https://github.com/Ankr-network/game-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+  - mobile
+  - network
+hunter: Antivortex
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 0.6.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680185607962
