@@ -51,8 +51,22 @@ const getCachedAvatarImageFilename = function(username, size) {
   return `${username}-${size}x${size}.png`;
 };
 
+/**
+ * Return if the package name is blocked by the given block scope
+ * @param {String} packageName
+ * @param {String} scope
+ * @returns {Boolean}
+ */
+const isPackageBlockedByScope = function(packageName, scope) {
+  if (scope.startsWith("^"))
+    return packageName.startsWith(scope.slice(1, scope.length));
+  else
+    return packageName ==  scope;
+}
+
 module.exports = {
   getCachedAvatarImageFilename,
+  isPackageBlockedByScope,
   isValidPackageName,
   validPackageName
 };

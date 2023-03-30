@@ -18,6 +18,7 @@ const {
   packagesDir,
   isValidPackageName
 } = require("../app/utils/package");
+const { isPackageBlockedByScope } = require("../app/common/utils");
 
 const knownInvalidNames = [];
 
@@ -45,7 +46,7 @@ describe("data/packages", async function() {
         );
         // Check blocked scopes
         for (let scope of blockedScopes) {
-          should.ok(!pkg.name.startsWith(scope), `scope ${scope} is blocked.`);
+          should.ok(!isPackageBlockedByScope(pkg.name, scope), `${pkg.name} is blocked by scope ${scope}.`);
         }
         // check topics
         if (pkg.topics) {

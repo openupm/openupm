@@ -1,4 +1,7 @@
 # Blocked package scopes
+# - To block a specific name, use the package-name directly. i.e. `com.example.package-a`.
+# - To block a scope, add a `^` prefix to the first two sections of the reverse domain name notation. i.e. `^com.example`.
+
 scopes:
 # License issue: https://github.com/yoshida190/dotween/blob/upm/LICENSE
 - com.demigiant.dotween
@@ -8,11 +11,11 @@ scopes:
 - com.esotericsoftware.spine.timeline
 - com.esotericsoftware.spine.urp-shaders
 - com.unity.demoteam.digital-human.sample
-- com.kirbyrawr
-- org.visualpinball
+- ^com.kirbyrawr
+- ^org.visualpinball
 
 # The packages that hosting on https://github.com/xoofx/UnityNuGet
-- org.nuget
+- ^org.nuget
 
 # The packages already published on Unity official registry
 - com.autodesk.fbx
@@ -200,4 +203,4 @@ scopes:
 - com.miragenet.epic
 
 # The testing purpose packages
-- com.danij.testpackage
+- ^com.danij.testpackage

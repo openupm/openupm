@@ -1152,7 +1152,7 @@ export default {
           );
         // Verify blocked scopes
         for (const blockedScope of this.blockedScopes) {
-          if (packageName.startsWith(blockedScope))
+          if (commonUtils.isPackageBlockedByScope(packageName, blockedScope))
             throw new Error(
               `The package name is blocked by scope ${blockedScope}.`
             );
