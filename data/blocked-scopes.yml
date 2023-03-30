@@ -10,9 +10,11 @@ scopes:
 - com.unity.demoteam.digital-human.sample
 - com.kirbyrawr
 - org.visualpinball
-# packages that hosting on https://github.com/xoofx/UnityNuGet
+
+# The packages that hosting on https://github.com/xoofx/UnityNuGet
 - org.nuget
-# packages already published on Unity official registry
+
+# The packages already published on Unity official registry
 - com.autodesk.fbx
 - com.oculus.integration.inofficial
 - com.ptc.vuforia.engine
@@ -171,26 +173,31 @@ scopes:
 - com.unity.xr.openxr
 - com.unity.xr.windowsmr
 - com.unity.xr.windowsmr.metro
-# packages that break Unity terms
+
+# The packages that break Unity terms
 - com.dopamine.firebase.analytics
 - com.dopamine.firebase.remoteconfig
 - com.dopamine.firebase.core
 
-# the same package uploaded by danyow, Now you need to change the name to "cn.danyow.unitask.cstringfixed"
+# The same package uploaded by danyow, Now you need to change the name to "cn.danyow.unitask.cstringfixed"
 - com.cysharp.unitask.compatible
 
 # io.extendreality.malimbe can not be built for a custom build script
 - io.extendreality.malimbe
 
-# Package published to NPMJS
+# The packages that are only available to NPMJS
 # com.whitesharx.httx uses ${ ci.tag_value } template in the package.json which can not be parsed by OpenUPM.
 - com.whitesharx.httx
 
-# packages deprecated by the team and source is no longer available
+# The packages that are deprecated by the author and the source repository is no longer available
 - com.realitytoolkit.gltf
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
 - com.didimo.sdk.assetfitter
 
-# test packages
+# The packages that are deprecated by the author and the source repository may be still available
+# https://openupm.com/packages/com.miragenet.epic/
+- com.miragenet.epic
+
+# The testing purpose packages
 - com.danij.testpackage
