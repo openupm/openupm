@@ -1,3 +1,10 @@
+## [1.53.10](https://github.com/openupm/openupm/compare/1.53.9...1.53.10) (2023-03-30)
+
+
+### Bug Fixes
+
+* **backend:** block scopes support both a scope and a specific package name ([6be625c](https://github.com/openupm/openupm/commit/6be625cb0853f776c96ce911f3cf80d2c9e6a250))
+
 ## [1.53.9](https://github.com/openupm/openupm/compare/1.53.8...1.53.9) (2023-03-29)
 
 
