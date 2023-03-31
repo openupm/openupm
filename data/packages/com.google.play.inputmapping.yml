@@ -1,0 +1,23 @@
+name: com.google.play.inputmapping
+displayName: Google Play Input Mapping
+description: >-
+  Provides tools for exposing keyboard and mouse controls to the Android
+  framework
+repoUrl: 'https://github.com/google/play-unity-plugins'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+topics:
+  - input-management
+  - integration
+  - mobile
+hunter: f1yingbanana
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:GooglePlayPlugins/com.google.play.inputmapping/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680223096040
