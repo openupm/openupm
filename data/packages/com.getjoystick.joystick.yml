@@ -1,0 +1,25 @@
+name: com.getjoystick.joystick
+displayName: Joystick Unity
+description: "Joystick is remote configs done right, finally. \n\nJoystick empowers your team to action insights and make hot-updates instantly with remote configs and no code. Build and operate with real-time agility.\rWe put dynamic content and remote configurations at your finger-tips with modern tools to manage hot-updates, versioning, multiple environments, schema protection, webhooks, change review, and more.\n\nJoystick can be configured via the editor or through our public API’s."
+repoUrl: 'https://github.com/getjoystick/joystick-unity'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - data-management
+  - frameworks
+  - integration
+  - network
+  - services
+  - utilities
+hunter: arderku
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/getjoystick/joystick-unity/raw/ed864bfe50f0e54dcac829ebdb23a3176eb617be/Runtime/VisualAssets/Joystick_Logo.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680414014166
