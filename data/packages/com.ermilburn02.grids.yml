@@ -1,0 +1,19 @@
+name: com.ermilburn02.grids
+displayName: Grid System
+description: Grids for all uses
+repoUrl: 'https://github.com/ERmilburn02/com.ermilburn02.grids'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+hunter: ermilburn02
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680449243659
