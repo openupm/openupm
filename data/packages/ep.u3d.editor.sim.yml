@@ -1,6 +1,6 @@
 name: ep.u3d.editor.sim
 displayName: EP.U3D.EDITOR.SIM
-description: Simulator editor.
+description: Simulator arrange tool provides simulator's regular arrangment, display to second-print by default, support layout 2*2 max.
 repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.SIM'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
@@ -12,7 +12,7 @@ hunter: wellshsu
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://u3d.eframework.cn/Manual/ef-upm.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
