@@ -1,0 +1,19 @@
+name: com.agava.merge2
+displayName: Merge2 Core
+description: Template for merge2 games.
+repoUrl: 'https://github.com/ArtemVetik/com.agava.merge2'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: ArtemVetik
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680549480996
