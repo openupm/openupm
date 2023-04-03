@@ -1,6 +1,6 @@
 name: ep.u3d.editor.eeng
 displayName: EP.U3D.EDITOR.EENG
-description: Replace patch file to engine directory.
+description: Unity engine patcher, compare files' md5 and replace it, dir-tree strict.
 repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.EENG'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
@@ -12,7 +12,7 @@ hunter: wellshsu
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://u3d.eframework.cn/Manual/ef-upm.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
