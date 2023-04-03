@@ -1,0 +1,23 @@
+name: one.razgriz.rats
+displayName: RATS
+description: >-
+  RATS - Raz's Animator Tweaks 'n' Such. Unity Animator and Animation window
+  bugfixes and tweaks.
+repoUrl: 'https://github.com/rrazgriz/RATS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/rrazgriz/RATS/raw/d63ed2badce14399887cc9ac367f128c0c67d3ca/.github/img/RATS-Animator.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680545580085
