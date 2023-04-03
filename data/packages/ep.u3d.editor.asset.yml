@@ -1,6 +1,6 @@
 name: ep.u3d.editor.asset
 displayName: EP.U3D.EDITOR.ASSET
-description: Asset editor.
+description: Asset processor includes audio/assetbundle/texture/model custom-importer.
 repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.ASSET'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
@@ -12,7 +12,7 @@ hunter: wellshsu
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://u3d.eframework.cn/Manual/ef-upm.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
