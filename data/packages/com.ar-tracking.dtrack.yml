@@ -1,6 +1,6 @@
-name: com.art.dtrack
-displayName: DTRACK Plugin
-description: Plugin for the ART DTRACK tracking system.
+name: com.ar-tracking.dtrack
+displayName: ART DTRACK Plugin
+description: Plugin for ART DTRACK tracking systems.
 repoUrl: 'https://github.com/ar-tracking/UnityDTrackPlugin'
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
@@ -11,9 +11,8 @@ topics:
 hunter: iLinaza
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
-image: >-
-  https://github.com/ar-tracking/UnityDTrackPlugin/raw/59d83a7f3464e195e713817b5f528d86ae784c77/Doc/images/dtrack-room-calibration.png
+minVersion: '1.1.2'
+image: 'https://github.com/ar-tracking/UnityDTrackPlugin/raw/96395c97f898e41d40d2959b793a04d323966dfd/Documentation~/images/card-dtrack.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
