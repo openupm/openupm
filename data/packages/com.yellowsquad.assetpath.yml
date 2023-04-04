@@ -1,0 +1,23 @@
+name: com.yellowsquad.assetpath
+displayName: Asset Path
+description: >-
+  AssetPath provides an AssetPathAttribute. This attribute is used to allow you
+  to drag and drop references to assets in the inspector, but really use string
+  paths for serialization.
+repoUrl: 'https://github.com/mdlka/com.yellowsquad.assetpath'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: mdlka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680598500876
