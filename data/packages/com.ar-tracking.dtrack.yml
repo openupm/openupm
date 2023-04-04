@@ -11,7 +11,7 @@ topics:
 hunter: iLinaza
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 'v1.1.2'
+minVersion: '1.1.2'
 image: 'https://github.com/ar-tracking/UnityDTrackPlugin/raw/96395c97f898e41d40d2959b793a04d323966dfd/Documentation~/images/card-dtrack.png'
 readme: 'master:README.md'
 readme_zhCN: ''
