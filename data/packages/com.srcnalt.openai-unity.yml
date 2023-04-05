@@ -1,0 +1,21 @@
+name: com.srcnalt.openai-unity
+displayName: OpenAI Unity
+description: >-
+  An unofficial OpenAI Unity Package that aims to help you use OpenAI API
+  directly in Unity Game engine.
+repoUrl: 'https://github.com/srcnalt/OpenAI-Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+hunter: prakyath-07
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680704021567
