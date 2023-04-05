@@ -1,0 +1,21 @@
+name: se.hertzole.scriptable-values
+displayName: Scriptable Values
+description: Set up games using Scriptable Objects.
+repoUrl: 'https://github.com/Hertzole/scriptable-values'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - frameworks
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680734014290
