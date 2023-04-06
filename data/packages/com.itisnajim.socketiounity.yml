@@ -1,0 +1,23 @@
+name: com.itisnajim.socketiounity
+displayName: Unity SocketIO
+description: >-
+  A Wrapper for
+  [socket.io-client-csharp](https://github.com/doghappy/socket.io-client-csharp)
+  to work with Unity.
+repoUrl: 'https://github.com/itisnajim/SocketIOUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680816422324
