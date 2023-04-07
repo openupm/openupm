@@ -1,0 +1,21 @@
+name: com.doji.mobilenerf
+displayName: MobileNeRF
+description: An unofficial Unity port of the MobileNeRF viewer.
+repoUrl: 'https://github.com/julienkay/MobileNeRF-Unity-Viewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680856726260
