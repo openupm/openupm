@@ -1,0 +1,21 @@
+name: com.doji.snerg
+displayName: SNeRG
+description: An unofficial Unity port of the SNeRG viewer.
+repoUrl: 'https://github.com/julienkay/SNeRG-Unity-Viewer'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+  - editor-enhancement
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680979624990
