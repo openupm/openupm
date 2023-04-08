@@ -1,0 +1,21 @@
+name: com.tencent.xlua
+displayName: XLua
+description: >-
+  xLua is a lua programming solution for C# ( Unity, .Net, Mono) , it supports
+  android, ios, windows, linux, osx, etc.
+repoUrl: 'https://github.com/a1326413472/UnityPackageManager_master'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: a1326413472
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'xlua:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1680946547463
