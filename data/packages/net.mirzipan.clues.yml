@@ -1,0 +1,20 @@
+name: net.mirzipan.clues
+displayName: Mirzipan.Clues
+description: Simple scriptable object-based definition system for your data-driven project
+repoUrl: 'https://github.com/Mirzipan/Mirzipan.Clues'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+hunter: Mirzipan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681065172697
