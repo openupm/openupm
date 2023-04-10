@@ -1,0 +1,19 @@
+name: com.boxfriend.utils
+displayName: Boxfriend's Utils
+description: ''
+repoUrl: 'https://github.com/boxfriend/Utils'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: boxfriend
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681098840069
