@@ -1,0 +1,21 @@
+name: com.arno.memo
+displayName: Arno's memo
+description: glads for you
+repoUrl: 'https://github.com/ArnoCircumnavigator/memo'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - integration
+  - procedural-generation
+  - utilities
+hunter: ArnoCircumnavigator
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681307693167
