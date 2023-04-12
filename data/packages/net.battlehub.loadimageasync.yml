@@ -1,0 +1,19 @@
+name: net.battlehub.loadimageasync
+displayName: Load Image Async
+description: Load Image Async
+repoUrl: 'https://github.com/Battlehub0x/Texture2D.LoadImageAsync'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Battlehub0x
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681330576493
