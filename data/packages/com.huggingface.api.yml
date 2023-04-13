@@ -1,0 +1,22 @@
+name: com.huggingface.api
+displayName: Hugging Face API
+description: A Unity plugin for making API calls to the Hugging Face API.
+repoUrl: 'https://github.com/huggingface/unity-api'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+  - editor-enhancement
+  - services
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681398484753
