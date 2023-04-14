@@ -1,0 +1,22 @@
+name: pumkin.pumkinsavatartools
+displayName: Pumkins Avatar Tools
+description: >-
+  An editor script that adds tools to help you setup avatars faster and easier.
+  It includes a component copier that makes it a lot easier to reimport your
+  avatars, and tools to make your thumbnails nicer.
+repoUrl: 'https://github.com/rurre/PumkinsAvatarTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681501592973
