@@ -1,0 +1,25 @@
+name: com.okanegames.anythingbookmark
+displayName: AnythingBookmark
+description: >-
+  An editor extension window that allows you to bookmark not only assets, but
+  also various other elements.
+repoUrl: 'https://github.com/zenigane138/AnythingBookmark'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: zenigane138
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/36072156/232230899-52835490-8a8b-4ad8-8c1d-b2d1a5d78a67.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681571096475
