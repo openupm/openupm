@@ -1,0 +1,23 @@
+name: com.omid3098.openrest
+displayName: Open REST
+description: >-
+  OpenRest is a simple and easy to use REST client for Unity that works in both
+  Unity Editor and in the runtime. It is based on UnityWebRequest and supports all
+  platforms that Unity supports.
+repoUrl: 'https://github.com/omid3098/OpenRest'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - utilities
+hunter: omid3098
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.omid3098.openrest/Runtime/Readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681556039887
