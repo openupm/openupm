@@ -1,0 +1,20 @@
+name: net.samurai.showcase
+displayName: Samurai.Showcase
+description: A simple UI system for Unity.
+repoUrl: 'https://github.com/FrostySamurai/Showcase'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: FrostySamurai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681572907769
