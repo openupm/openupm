@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-common
+displayName: Legendary Tools - Common
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/legendary-tools-common'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: legustavinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681661273412
