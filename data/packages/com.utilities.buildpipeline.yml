@@ -1,5 +1,5 @@
 name: com.utilities.buildpipeline
-displayName: Build Pipeline Utilities
+displayName: Utilities.BuildPipeline
 description: >-
   The Build Pipeline Utilities aims to give developers more tools and options
   when making builds with the command line or with continuous integration.
