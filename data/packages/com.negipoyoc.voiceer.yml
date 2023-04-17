@@ -1,0 +1,21 @@
+name: com.negipoyoc.voiceer
+displayName: Voiceer
+description: A package to connect audio clips to Unity editor events.
+repoUrl: 'https://github.com/3ternal/Voiceer'
+parentRepoUrl: 'https://github.com/negipoyoc/Voiceer'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+  - utilities
+hunter: 3ternal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681617807693
