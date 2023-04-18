@@ -1,0 +1,24 @@
+name: com.ultraleap.touchfree.tooling
+displayName: Ultraleap TouchFree Tooling
+description: >-
+  TouchFree Tooling is a lightweight client library enabling touchless content
+  creation in Unity.
+repoUrl: 'https://github.com/ultraleap/TouchFreeUnityTooling'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - 2d
+  - input-management
+  - integration
+  - services
+hunter: Craig-J
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'develop:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681824581095
