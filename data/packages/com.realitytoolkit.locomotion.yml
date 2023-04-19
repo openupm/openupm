@@ -1,0 +1,21 @@
+name: com.realitytoolkit.locomotion
+displayName: RealityToolkit.Locomotion
+description: >-
+  The Locomotion System for use with the Reality Toolkit by the Reality
+  Collective.
+repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.locomotion'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+hunter: FejZa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'development:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681930625727
