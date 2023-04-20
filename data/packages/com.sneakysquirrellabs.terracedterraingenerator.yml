@@ -1,0 +1,21 @@
+name: com.sneakysquirrellabs.terracedterraingenerator
+displayName: Terraced Terrain Generator
+description: Generate terraced terrains procedurally.
+repoUrl: 'https://github.com/matheusamazonas/TTG'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - procedural-generation
+  - terrain
+hunter: matheusamazonas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682013553392
