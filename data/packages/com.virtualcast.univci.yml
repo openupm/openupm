@@ -1,0 +1,20 @@
+name: com.virtualcast.univci
+displayName: VCI
+description: VCI Exporter
+repoUrl: 'https://github.com/virtual-cast/VCI'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - modeling
+hunter: esperecyan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1681977395814
