@@ -1,0 +1,28 @@
+name: com.simonoliver.inputsystemactionprompts
+displayName: Input System Action Prompts
+description: >-
+  Automatically add in prompt icons to TextMeshPro fields based on Unity's Input
+  System
+repoUrl: 'https://github.com/simonoliver/InputSystemActionPrompts'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - animation
+  - gui
+  - input-management
+  - integration
+  - localization
+  - sprite-management
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682001803567
