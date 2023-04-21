@@ -1,0 +1,24 @@
+name: io.livekit.unity
+displayName: LiveKit WebGL SDK
+description: LiveKit Unity Bridge for WebGL
+repoUrl: 'https://github.com/livekit/client-sdk-unity-web'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+  - integration
+  - network
+  - services
+  - utilities
+  - video
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682109275902
