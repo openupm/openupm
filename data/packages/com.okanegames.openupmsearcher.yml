@@ -1,0 +1,21 @@
+name: com.okanegames.openupmsearcher
+displayName: OpenUPMSearcher
+description: OpenUPM package search in the Unity editor. Works without Node.js.
+repoUrl: 'https://github.com/zenigane138/OpenUPMSearcher'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: zenigane138
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/36072156/233836921-1c8cb572-5666-4cf9-9082-0d24895702cb.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682252214687
