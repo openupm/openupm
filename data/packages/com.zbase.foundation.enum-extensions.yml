@@ -1,0 +1,19 @@
+name: com.zbase.foundation.enum-extensions
+displayName: ZBase.Foundation.EnumExtensions
+description: C# source generator to create extensions for any enum
+repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.EnumExtensions'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682346182249
