@@ -1,0 +1,30 @@
+name: com.gentlymad.newgraph
+displayName: NewGraph
+description: >-
+  A general data oriented node graph solution. This is build upon the idea to
+  visualize complex data structures as graph networks without having to modify
+  already established data classes, except adding [Node], [Port] and
+  [SerializeReference] attributes to call classes that should show in the Graph
+  View.
+repoUrl: 'https://github.com/Gentlymad-Studios/NewGraph'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - asset-management
+  - editor-enhancement
+  - gui
+  - integration
+  - utilities
+  - visual-scripting
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682468695254
