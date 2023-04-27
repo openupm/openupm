@@ -1,0 +1,20 @@
+name: net.bobbo.xnode.global-knowledge
+displayName: Global Knowledge XNode
+description: 'Globally available player knowledge, exposed through XNode!'
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.xnode.global-knowledge'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - data-management
+  - visual-scripting
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682558449616
