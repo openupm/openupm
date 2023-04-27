@@ -1,0 +1,19 @@
+name: net.bobbo.player-controller
+displayName: Player Controller
+description: An extensible Player Controller module
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.player-controller'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - input-management
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682558481475
