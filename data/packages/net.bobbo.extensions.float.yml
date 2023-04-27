@@ -1,0 +1,19 @@
+name: net.bobbo.extensions.float
+displayName: Float Extensions
+description: Extension methods for C#'s float Type
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.extensions.float'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - utilities
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682561711694
