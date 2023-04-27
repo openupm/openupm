@@ -1,0 +1,20 @@
+name: net.bobbo.player-behaviour.first-person-interactor
+displayName: Player Behaviour 1st Person Interactor
+description: First person interaction functionality for the Bobbo-Net Player Controller
+repoUrl: >-
+  https://github.com/BOBBO-NET/net.bobbo.player-behaviour.first-person-interactor
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - input-management
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682561632359
