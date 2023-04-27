@@ -1,0 +1,19 @@
+name: net.bobbo.fmod-reverb-manager
+displayName: FMOD Reverb Manager
+description: Allows for managing basic FMOD reverb settings
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.fmod-reverb-manager'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - audio
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682558265035
