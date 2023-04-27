@@ -3,11 +3,20 @@ items:
   githubUser: adrenak
 - name: Mike Wuetherick
   githubUser: gekidoslair
+- name: Koji Hasegawa
+  githubUser: nowsprinting
+- name: Andreas Atteneder
+  githubUser: atteneder
+- name: 僵尸浩
+  githubUser: zombieyang
+- name: ComradeVanti
+  githubUser: ComradeVanti
+- name: BOBBO-NET
+  githubUser: BOBBO-NET
+  expires: 2023-08-31
 - name: Takumi Ito
   githubUser: t5ujiri
   expires: 2022-12-02
-- name: JohannesDeml
-  githubUser: JohannesDeml
 - name: TheDudeFromCI
   githubUser: TheDudeFromCI
   expires: 2020-09-01
@@ -16,24 +25,19 @@ items:
   expires: 2021-01-05
 - name: Alex Sh
   githubUser: Hermesiss
-- name: Matt Newport
-  githubUser: mattnewport
-  expires: 2021-06-21
-- name: Dima Dukhnich
-  githubUser: dimmduh
+  expires: 2022-03-31
+- name: Laicasaane
+  githubUser: laicasaane
+  expires: 2022-04-30
 - name: Miller Daniel
   githubUser: dsmiller95
   expires: 2021-07-31
-- name: Koji Hasegawa
-  githubUser: nowsprinting
-- name: Andreas Atteneder
-  githubUser: atteneder
-- name: Laicasaane
-  githubUser: laicasaane
-- name: 僵尸浩
-  githubUser: zombieyang
-- name: ComradeVanti
-  githubUser: ComradeVanti
-- name: BOBBO-NET
-  githubUser: BOBBO-NET
-  expires: 2023-08-31
+- name: Matt Newport
+  githubUser: mattnewport
+  expires: 2021-06-21
+- name: JohannesDeml
+  githubUser: JohannesDeml
+  expires: 2022-04-30
+- name: Dima Dukhnich
+  githubUser: dimmduh
+  expires: 2022-02-31
