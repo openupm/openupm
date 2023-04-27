@@ -1,0 +1,20 @@
+name: net.bobbo.camera-audio-listener
+displayName: Camera Audio Listener
+description: 'Audio, for the Camera!'
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.camera-audio-listener'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - audio
+  - camera
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682558180064
