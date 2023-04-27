@@ -1,0 +1,19 @@
+name: net.bobbo.multi-lock
+displayName: Multi-Lock
+description: 'A locking utlity, to make interactions easier.'
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.multi-lock'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - utilities
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682558341216
