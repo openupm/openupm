@@ -1,0 +1,20 @@
+name: net.bobbo.global-knowledge
+displayName: Global Knowledge
+description: Globally available player knowledge. Talk about game state!
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.global-knowledge'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - gui
+  - utilities
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682561686325
