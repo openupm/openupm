@@ -1,0 +1,19 @@
+name: net.bobbo.extenject
+displayName: Extenject
+description: Dependency Injection Framework for Unity3D
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.extenject'
+parentRepoUrl: 'https://github.com/Mathijs-Bakker/Extenject'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'bobbo-net/9.3.1:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682561590154
