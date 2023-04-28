@@ -1,9 +1,8 @@
 name: io.port6.sdk
-displayName: Port 6 SDK
+displayName: Touch SDK
 description: >-
-  C# scripts for bridging Unity applications with Port 6 enabled smart
-  peripherals.
-repoUrl: 'https://github.com/port6io/p6-unity-sdk'
+  Connect Touch SDK compatible wearable controllers to Unity applications over Bluetooth.
+repoUrl: 'https://github.com/doublepointlab/touch-sdk-unity'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
