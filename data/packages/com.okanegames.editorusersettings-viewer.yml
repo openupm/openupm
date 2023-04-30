@@ -1,0 +1,22 @@
+name: com.okanegames.editorusersettings-viewer
+displayName: EditorUserSettings Viewer
+description: >-
+  Editor extension window displaying the contents of EditorUserSettings in
+  Unity.
+repoUrl: 'https://github.com/zenigane138/EditorUserSettings-Viewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: zenigane138
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/36072156/235282644-227039ef-4c50-4ffe-a74b-b8e43b9ac703.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682827786276
