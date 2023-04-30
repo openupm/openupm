@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - utilities
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.extenject/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
