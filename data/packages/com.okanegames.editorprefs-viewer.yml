@@ -1,0 +1,20 @@
+name: com.okanegames.editorprefs-viewer
+displayName: EditorPrefs Viewer
+description: Editor extension window displaying the contents of EditorPrefs in Unity.
+repoUrl: 'https://github.com/zenigane138/EditorPrefs-Viewer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: zenigane138
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://user-images.githubusercontent.com/36072156/235461525-eff783be-fabc-424f-98ad-87dd5a879589.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682949604564
