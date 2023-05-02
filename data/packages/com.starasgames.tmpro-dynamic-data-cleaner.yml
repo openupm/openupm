@@ -1,0 +1,22 @@
+name: com.starasgames.tmpro-dynamic-data-cleaner
+displayName: TMPro Dynamic Data Cleaner
+description: "TextMeshPro dynamic font assets have a very annoying habit of saving their dynamically generated binary data in the same text file as their configuration data. This causes massive headaches for version control.\r\n\r\nThis script addresses the above issue. It runs whenever any assets in the project are about to be saved. If any of those assets are a TMP dynamic font asset, they will have their dynamically generated data cleared before they are saved, which prevents that data from ever polluting the version control.\r\n\r\nCredits to @cxode from unity forum:\r\nhttps://forum.unity.com/threads/tmpro-dynamic-font-asset-constantly-changes-in-source-control.1227831/#post-8934711"
+repoUrl: 'com.starasgames.tmpro-dynamic-data-cleaner'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683047762955
