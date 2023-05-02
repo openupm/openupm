@@ -1,0 +1,19 @@
+name: com.brandoncoffey.coffeyutils
+displayName: Coffey Utils
+description: This is Brandon Coffey's Utilities Package
+repoUrl: 'https://github.com/BrandonMCoffey/CoffeyUtils'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: BrandonMCoffey
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'release:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682969557282
