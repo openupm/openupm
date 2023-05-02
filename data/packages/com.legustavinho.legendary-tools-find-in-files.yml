@@ -1,0 +1,20 @@
+name: com.legustavinho.legendary-tools-find-in-files
+displayName: Legendary Tools - Find In Files
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/find-in-files'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683027851399
