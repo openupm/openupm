@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-screen-flow
+displayName: Legendary Tools - Screen Flow
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/screen-flow'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683035467453
