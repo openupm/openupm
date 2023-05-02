@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-state-machine
+displayName: Legendary Tools - State Machine
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/state-machine'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683026986695
