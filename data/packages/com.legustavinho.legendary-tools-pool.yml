@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-pool
+displayName: Legendary Tools - Pool System
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/pool'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683042201863
