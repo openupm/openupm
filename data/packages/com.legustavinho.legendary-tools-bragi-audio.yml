@@ -1,0 +1,20 @@
+name: com.legustavinho.legendary-tools-bragi-audio
+displayName: Legendary Tools - Bragi Audio System
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/bragi-audio'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - audio
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683134600585
