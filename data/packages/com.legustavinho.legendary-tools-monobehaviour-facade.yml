@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-monobehaviour-facade
+displayName: Legendary Tools - Mono Behaviour Facade
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/monobehaviour-facade'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683130256563
