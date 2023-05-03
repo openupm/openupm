@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-ai
+displayName: Legendary Tools - AI
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/legendary-tools-ai'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683129569373
