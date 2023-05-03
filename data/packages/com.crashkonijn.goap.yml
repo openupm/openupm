@@ -1,0 +1,21 @@
+name: com.crashkonijn.goap
+displayName: Unity GOAP
+description: An open source GOAP implementation for unity
+repoUrl: 'https://github.com/crashkonijn/GOAP'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: crashkonijn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683111574801
