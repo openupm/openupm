@@ -1,0 +1,22 @@
+name: com.gilzoide.get-component-context-menu
+displayName: GetComponent Context Menu
+description: >-
+  Context menu items for setting up Component references based on
+  GetComponent(s), GetComponent(s)InChildren, GetComponent(s)InParent and
+  FindObject(s)OfType methods
+repoUrl: 'https://github.com/gilzoide/unity-get-component-context-menu'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682779696080

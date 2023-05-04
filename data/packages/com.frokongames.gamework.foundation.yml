@@ -1,0 +1,22 @@
+name: com.frokongames.gamework.foundation
+displayName: 'Game:Work Foundation'
+description: 'Architecture-agnostic code and tools to make Unity based games.'
+repoUrl: 'https://github.com/FronkonGames/GameWork-Foundation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: 'MIT License'
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: FronkonGames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://github.com/FronkonGames/GameWork-Foundation/blob/main/Media/banner.png'
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682948235739

@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-graphs
+displayName: Legendary Tools - Graphs
+description: ''
+repoUrl: 'https://github.com/LeGustaVinho/graphs'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682985277240

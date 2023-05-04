@@ -1,0 +1,19 @@
+name: com.legustavinho.legendary-tools-maestro
+displayName: Legendary Tools - Maestro
+description: Dependecy Tree Resolver
+repoUrl: 'https://github.com/LeGustaVinho/maestro'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1682985564934
