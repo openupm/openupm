@@ -11,7 +11,7 @@ topics:
   - ai
   - camera
 hunter: eugeneteoh
-gitTagPrefix: ''
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: ''
