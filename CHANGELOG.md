@@ -1,3 +1,10 @@
+## [1.53.11](https://github.com/openupm/openupm/compare/1.53.10...1.53.11) (2023-05-07)
+
+
+### Bug Fixes
+
+* **backend:** add readmePath to the readmeCacheKey ([fbae38b](https://github.com/openupm/openupm/commit/fbae38bb67090915b9cdb5ec5ab78945123d3523))
+
 ## [1.53.10](https://github.com/openupm/openupm/compare/1.53.9...1.53.10) (2023-03-30)
 
 
