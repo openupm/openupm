@@ -395,7 +395,7 @@ const _fetchReadme = async function (pkg, packageName) {
 const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) {
   logger.info({ pkg: packageName, lang, readmePath }, "_fetchReadmeForLang");
   const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
-  const readmeCacheKey = `v0:${pushedTime}`;
+  const readmeCacheKey = `v0:${readmePath}:${pushedTime}`;
   const prevReadmeCacheKey = await PackageExtra.getReadmeCacheKey(packageName, lang);
   if (readmeCacheKey == prevReadmeCacheKey) {
     logger.info({ pkg: packageName, lang, readmePath }, "skip _fetchReadmeForLang because the cache is available");
