@@ -1,0 +1,21 @@
+name: org.tayou.vrchat.sdk-ui-tweaks
+displayName: VSUT - VRChat SDK UI Tweaks
+description: >-
+  This package is a collection of harmony and reflection based patches for the
+  VRChat SDK
+repoUrl: 'https://github.com/TayouVR/VRChat-SDK-UITweaks'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683501063189
