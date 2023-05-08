@@ -1,7 +1,7 @@
 name: com.atsaetechnologies.defaulttools
 displayName: Default Tools
 description: 'This Unity editor tool automatically creates a default folder structure for your Unity project. With just one click, you can create top-level folders such as "Art", "Audio", "Code", "Documentation", "Plugins", "Prefabs", and "Scenes". It also creates subdirectories for each of these top-level folders. This is a great way to organize your Unity project and keep it clean.'
-repoUrl: 'https://github.com/53nthamizh/DefaultProjectSetup'
+repoUrl: 'https://github.com/53nthamizh/DefaultTools'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
