@@ -1,0 +1,22 @@
+name: com.trackman.figma
+displayName: Figma for Unity
+description: >-
+  Figma to Unity uxml/uss converter, utilities for VisualTree management in
+  runtime.
+repoUrl: 'https://github.com/TrackMan/Unity.Package.FigmaForUnity'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache 2 Custom
+topics:
+  - gui
+  - utilities
+hunter: ivan-trackman
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.MD'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683541105615
