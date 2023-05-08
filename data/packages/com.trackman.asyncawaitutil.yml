@@ -1,0 +1,19 @@
+name: com.trackman.asyncawaitutil
+displayName: Async Await Util
+description: A bunch of code to make using async-await easier in Unity3D
+repoUrl: 'https://github.com/TrackMan/Unity.Package.AsyncAwaitUtil'
+parentRepoUrl: 'https://github.com/modesttree/Unity3dAsyncAwaitUtil'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: ivan-trackman
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:ReadMe.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683540665089
