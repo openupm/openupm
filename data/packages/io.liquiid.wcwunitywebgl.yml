@@ -1,0 +1,21 @@
+name: io.liquiid.wcwunitywebgl
+displayName: Wax Cloud Wallet WebGL
+description: >-
+  Package allowing to integrate and use Wax Cloud Wallet
+  (https://all-access.wax.io/) within Unity WebGl builds
+repoUrl: 'https://github.com/liquiidio/CloudWalletUnity'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - utilities
+hunter: liquiidio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683647272838
