@@ -1,0 +1,21 @@
+name: dev.comradevanti.ear-clip
+displayName: Ear-clip
+description: Ear-clipping algorithms for triangulating 2D polygons
+repoUrl: 'https://github.com/ComradeVanti/UnityEarClip'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - 2d
+  - modeling
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683638209920
