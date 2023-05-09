@@ -1,0 +1,22 @@
+name: nl.netherlands3d.gltfast
+displayName: glTFast [Netherlands3D]
+description: >-
+  A fork of glTFast for Netherlands3D to be optimized for WebGL; glTFast is used to 
+  import and export glTF 3D files efficiently at runtime or in the Editor
+repoUrl: 'https://github.com/Netherlands3D/glTFast'
+parentRepoUrl: 'https://github.com/atteneder/glTFast'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - modeling
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683560002428
