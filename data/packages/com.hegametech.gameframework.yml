@@ -1,0 +1,19 @@
+name: com.hegametech.gameframework
+displayName: GameFramework
+description: ''
+repoUrl: 'https://github.com/hemingfei/unity_game_framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: hemingfei
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683704823124
