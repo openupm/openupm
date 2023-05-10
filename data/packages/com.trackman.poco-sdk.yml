@@ -1,0 +1,19 @@
+name: com.trackman.poco-sdk
+displayName: Poco SDK
+description: Unity integration for Poco-SDK.
+repoUrl: 'https://github.com/TrackMan/Unity.Package.Poco-SDK'
+parentRepoUrl: 'https://github.com/AirtestProject/Poco-SDK'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - testing
+hunter: ivan-trackman
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:Unity3D/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683677940068
