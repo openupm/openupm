@@ -1,4 +1,4 @@
-name: nl.netherlands3d.gltfast
+name: eu.netherlands3d.gltfast
 displayName: glTFast [Netherlands3D]
 description: >-
   A fork of glTFast for Netherlands3D to be optimized for WebGL; glTFast is used to 
