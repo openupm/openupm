@@ -1,0 +1,31 @@
+name: com.rhinox.open.hotspot
+displayName: Hotspot - Graphical debugger
+description: Tool for debugging graphical issues in Unity projects.
+repoUrl: 'https://github.com/Rhinox-Training/rhinox-hotspot'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - gui
+  - integration
+  - level-design
+  - modeling
+  - procedural-generation
+  - profiling
+  - services
+  - testing
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1683803001314
