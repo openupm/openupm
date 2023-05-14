@@ -1,0 +1,19 @@
+name: nadena.dev.modular-avatar
+displayName: Modular Avatar
+description: A suite of tools for assembling your avatar out of reusable components
+repoUrl: 'https://github.com/bdunderscore/modular-avatar'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684094259182
