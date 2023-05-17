@@ -1,3 +1,10 @@
+## [1.53.12](https://github.com/openupm/openupm/compare/1.53.11...1.53.12) (2023-05-17)
+
+
+### Bug Fixes
+
+* update the AdBlock view layout ([f5696b4](https://github.com/openupm/openupm/commit/f5696b4bf87a75ceeb24614ed48d4ab7de3df19b))
+
 ## [1.53.11](https://github.com/openupm/openupm/compare/1.53.10...1.53.11) (2023-05-07)
 
 
