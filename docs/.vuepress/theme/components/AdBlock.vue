@@ -3,11 +3,11 @@
     <a class="ad-img" :href="ad.link">
       <LazyImage v-if="ad.image" :src="ad.image" class="img-responsive" />
     </a>
-    <div class="ad-text">
-      <a class="ad-link" :href="ad.link">
+    <div v-if="ad.text || ad.attr" class="ad-text">
+      <a v-if="ad.text" class="ad-link" :href="ad.link">
         {{ ad.text }}
       </a>
-      <div class="ad-attr">
+      <div v-if="ad.attr" class="ad-attr">
         <small>{{ ad.attr }}</small>
       </div>
     </div>
@@ -70,16 +70,12 @@ export default {
 
   .ad-img
     padding 0
-    width 50%
 
   .ad-text
-    padding 0.2rem 0 0 0.4rem
-    width 50%
+    padding-top 0.2rem
     .ad-link
-      padding-bottom 0.3rem
       display inline-block
       color #555
-      height 3.7rem
     .ad-attr
       color #aaa
 
