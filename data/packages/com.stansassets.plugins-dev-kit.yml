@@ -1,0 +1,13 @@
+name: com.stansassets.plugins-dev-kit
+displayName: Stans Assets - Plugin Dev Kit
+description: Plugins Development Kit
+repoUrl: 'https://github.com/StansAssets/com.stansassets.plugins-dev-kit'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics: []
+hunter: alexey-yaremenko
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1590570910
