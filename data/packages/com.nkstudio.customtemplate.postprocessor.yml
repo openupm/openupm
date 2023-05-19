@@ -1,0 +1,19 @@
+name: com.nkstudio.customtemplate.postprocessor
+displayName: CustomTemplate Postprocess
+description: This is a post-process library of custom templates.
+repoUrl: 'https://github.com/NK-Studio/CustomTemplate'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - code-generation
+hunter: NK Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'PP:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684509813601
