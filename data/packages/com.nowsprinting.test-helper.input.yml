@@ -1,0 +1,19 @@
+name: com.nowsprinting.test-helper.input
+displayName: Input Test Helper
+description: Test helper library for Input Manager (UnityEngine.Input).
+repoUrl: 'https://github.com/nowsprinting/test-helper.input'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684588540568
