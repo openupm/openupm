@@ -1,0 +1,20 @@
+name: com.wonkee.texture-packer
+displayName: Spatial Unity SDK
+description: Texture Packer packs PBR textures into one mask texture.
+repoUrl: 'https://github.com/wonkee-kim/texture-packer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - utilities
+hunter: wonkee-kim
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684715351740
