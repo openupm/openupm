@@ -1,5 +1,5 @@
 name: com.wonkee.texture-packer
-displayName: Spatial Unity SDK
+displayName: Texture Packer
 description: Texture Packer packs PBR textures into one mask texture.
 repoUrl: 'https://github.com/wonkee-kim/texture-packer'
 parentRepoUrl: null
