@@ -1,0 +1,22 @@
+name: com.kylewbanks.scenerefattribute
+displayName: Scene Reference Attribute
+description: >-
+  Unity C# attribute for serializing component and interface references within
+  the scene or prefab during OnValidate, rather than using GetComponent*
+  functions in Awake/Start/OnEnable at runtime.
+repoUrl: 'https://github.com/KyleBanks/scene-ref-attribute'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: KyleBanks
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684827096806
