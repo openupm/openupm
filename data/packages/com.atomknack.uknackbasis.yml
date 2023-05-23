@@ -1,0 +1,20 @@
+name: com.atomknack.uknackbasis
+displayName: UKnack Basis
+description: Set of tools that make working with Unity better and help write cleaner code
+repoUrl: 'https://github.com/atomknack/UKnackBasis'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: atomknack
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2022.2'
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684863887471
