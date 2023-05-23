@@ -1,0 +1,22 @@
+name: com.maellacour.experiment-library
+displayName: Experiment Library
+description: >-
+  A library to easily build experiment applications, and manage the inputs and
+  outputs files in a standardized and clever way
+repoUrl: 'https://github.com/Eyap53/unity-experiment-library'
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+topics:
+  - data-management
+hunter: Eyap53
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: >-
+  main:Unity_ExperimentLibrary/Packages/com.maellacour.experiment-library/README.md
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684828862895
