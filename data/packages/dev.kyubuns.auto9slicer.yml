@@ -1,0 +1,22 @@
+name: dev.kyubuns.auto9slicer
+displayName: Auto9Slicer
+description: Auto 9 slice sprite generator
+repoUrl: 'https://github.com/kyubuns/Auto9Slicer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: Henry22Chen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684831936118
