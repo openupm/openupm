@@ -1,0 +1,19 @@
+name: com.vgcore.audioservice
+displayName: VGAudioService
+description: The package was created to easily control the sound throughout the project
+repoUrl: 'https://github.com/CherkasovDanil/testpackage'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: ISC
+topics:
+  - 2d
+hunter: CherkasovDanil
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684909715836
