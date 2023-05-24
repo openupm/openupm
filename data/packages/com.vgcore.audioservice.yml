@@ -1,0 +1,19 @@
+name: com.vgcore.audioservice
+displayName: Audio Service
+description: The package was created to easily control the sound throughout the project
+repoUrl: 'https://github.com/CherkasovDanil/com.vrgore.audioservice'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - ar-and-vr
+hunter: CherkasovDanil
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684918304232
