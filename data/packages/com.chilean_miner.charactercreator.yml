@@ -1,0 +1,22 @@
+name: com.chilean_miner.charactercreator
+displayName: CharacterCreator
+description: This is an example package
+repoUrl: 'https://github.com/AbsolutePrune/CharacterPlugin'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+  - gui
+  - testing
+  - utilities
+hunter: AbsolutePrune
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684863267891
