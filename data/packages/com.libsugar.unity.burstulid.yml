@@ -1,0 +1,20 @@
+name: com.libsugar.unity.burstulid
+displayName: Burst Ulid
+description: Ulid implemented using burst
+repoUrl: 'https://github.com/libsugar/BurstUlid'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: 2a5f
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.CN.md'
+displayName_zhCN: ''
+description_zhCN: 使用 Burst 实现的 Ulid
+createdAt: 1684937650826
