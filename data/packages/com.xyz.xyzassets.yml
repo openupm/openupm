@@ -1,0 +1,22 @@
+name: com.xyz.xyzassets
+displayName: XyzAssets
+description: |-
+  资源打包、加载一体化工具。参考Samples例子。
+
+  Resources and AssetBundle Tools.
+repoUrl: 'https://github.com/hxofgithub/XyzAssets'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: XyzAssets
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1684986461730
