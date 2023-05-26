@@ -1,0 +1,21 @@
+name: com.dh.dh_abilities
+displayName: DH abilities system
+description: >-
+  This system provides a framework and some samples to implement abilities.
+  Check Github for feature list.
+repoUrl: 'https://github.com/dirkhartlage/dh_abilities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: dirkhartlage
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685118548214
