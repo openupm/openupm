@@ -1,0 +1,19 @@
+name: com.mariodebono.inspector
+displayName: Helper Inspector
+description: Reusable Quality of Life Attributes and Property Inspectors
+repoUrl: 'https://github.com/mariodebono/Unity-Helper-Inspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: mariodebono
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'release/stable:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685048407384
