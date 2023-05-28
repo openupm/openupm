@@ -1,0 +1,19 @@
+name: com.poly-snake.core
+displayName: Poly-Snake Core
+description: Core
+repoUrl: 'https://github.com/Snaki94/poly-snake-packages-core'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+topics:
+  - utilities
+hunter: Snaki94
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685284918007
