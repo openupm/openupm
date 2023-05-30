@@ -1,0 +1,19 @@
+name: com.gsr.tmproplayer
+displayName: TMPro Player
+description: "能够自定义并解析执行富文本标签的Unity打字机插件"
+repoUrl: 'https://github.com/Giresharu/TMPro-Player'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache License 2.0
+topics:
+  - gui
+hunter: Giresharu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: 能够自定义并解析执行富文本标签的Unity打字机插件
+createdAt: 1685453778246
