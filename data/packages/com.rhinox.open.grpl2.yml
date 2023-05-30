@@ -1,0 +1,22 @@
+name: com.rhinox.open.grpl2
+displayName: Grapple 2.0
+description: Hand tracking game framework for Unity
+repoUrl: 'https://github.com/Rhinox-Training/grpl-2.0'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache-2.0
+topics:
+  - data-management
+  - input-management
+  - physics
+  - utilities
+hunter: Tris666w
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685449606350
