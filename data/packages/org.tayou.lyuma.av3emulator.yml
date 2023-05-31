@@ -1,0 +1,19 @@
+name: org.tayou.lyuma.av3emulator
+displayName: Av3Emulator
+description: An Emulator for VRChat's Avatar 3.0 System
+repoUrl: 'https://github.com/TayouVR/Av3Emulator'
+parentRepoUrl: 'https://github.com/lyuma/Av3Emulator'
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 3.0.0
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685562465436
