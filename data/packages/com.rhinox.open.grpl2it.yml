@@ -8,7 +8,6 @@ licenseName: Apache-2.0
 topics:
   - frameworks
   - input-management
-  - level-design
   - physics
   - utilities
 hunter: GlennQuintyn
@@ -16,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: 'main:/Assets/GrappleIT/IT_README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
