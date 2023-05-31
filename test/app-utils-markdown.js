@@ -280,7 +280,7 @@ describe("app/utils/markdown.js", function() {
         markdown,
         disableTitleParser: true
       });
-      assert.equal(html, "<div><p>arrow symbol: →</p>\n</div>");
+      assert.equal(html, "<div><p>arrow symbol: &#x2192;</p>\n</div>");
     });
     it("html escape &", async function() {
       const markdown = "a&b";
@@ -300,7 +300,7 @@ describe("app/utils/markdown.js", function() {
         markdown,
         disableTitleParser: true
       });
-      assert.equal(html, "<div><p>💪 of emoji</p>\n</div>");
+      assert.equal(html, "<div><p>&#x1F4AA; of emoji</p>\n</div>");
     });
   });
 });
