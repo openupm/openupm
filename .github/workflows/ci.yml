@@ -20,7 +20,7 @@ jobs:
       run: redis-cli ping
     - uses: actions/checkout@v2
     - name: set node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install
@@ -92,10 +92,10 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - uses: actions/checkout@v1
-    - name: set node.js 12
+    - name: set node.js 14.x
       uses: actions/setup-node@v3
       with:
-        node-version: '12'
+        node-version: '14.x'
     - name: yarn install
       run: yarn install
     - name: yarn docs:build
@@ -125,10 +125,10 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
     - uses: actions/checkout@v1
-    - name: set node.js 12
+    - name: set node.js 14.x
       uses: actions/setup-node@v3
       with:
-        node-version: '12'
+        node-version: '14.x'
     - name: yarn install
       run: yarn install
     - name: yarn docs:build
