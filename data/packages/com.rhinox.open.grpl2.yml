@@ -8,13 +8,11 @@ licenseName: Apache-2.0
 topics:
   - data-management
   - input-management
-  - physics
-  - utilities
 hunter: Tris666w
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://github.com/Rhinox-Training/grpl-2.0/blob/main/Assets/Grapple2.0/GrappleLogoWhite.png'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
