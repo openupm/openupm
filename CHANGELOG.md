@@ -1,3 +1,10 @@
+# [1.55.0](https://github.com/openupm/openupm/compare/1.54.1...1.55.0) (2023-06-01)
+
+
+### Features
+
+* **ci:** add monthly downloads count to package extra data (refs [#32](https://github.com/openupm/openupm/issues/32)) ([544bf43](https://github.com/openupm/openupm/commit/544bf436b2b8137ba4308d82e8fa9af48c1bdaec))
+
 ## [1.54.1](https://github.com/openupm/openupm/compare/1.54.0...1.54.1) (2023-06-01)
 
 
