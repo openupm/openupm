@@ -279,7 +279,7 @@ export default {
 
   section {
     border-bottom: 1px solid $borderColor;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
     margin-bottom: 0.7rem;
     span {
       font-size: 0.85rem;
