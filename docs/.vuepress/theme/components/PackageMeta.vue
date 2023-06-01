@@ -41,14 +41,6 @@
           <span>
             <i class="fa fa-star"></i>
             {{ pkg.stars }}
-            <br />
-            <small v-if="pkg.pstars">
-              <i class="fa fa-star"></i> {{ pkg.pstars }} on
-              <NavLink :item="{
-                link: pkg.parentRepoUrl,
-                text: this.$t('upstream'),
-              }" />
-            </small>
           </span>
         </section>
         <section class="col-12">
