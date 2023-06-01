@@ -22,7 +22,6 @@ can-not-locate-the-path-of-pac: 无法在当前分支找到package.json的路径
 camera: 摄像机
 china-region-desc: 如果您不熟悉中文翻译，请略过。
 china-region-info: 中国区
-click-to-copy: 点击复制
 code-generation: 代码生成
 code-of-conduct: 行为准则
 command-line-interface: 命令行工具

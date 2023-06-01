@@ -2,17 +2,14 @@
   <ClientOnly>
     <div class="meta-section container">
       <div class="columns">
-        <PackageSetup
-          :has-not-succeeded-build="hasNotSucceededBuild"
-          :is-loading="isLoadingPackageSetup"
-          :pkg="pkg"
-          :version="version"
-          :scopes="scopes"
-        />
+        <PackageSetup :has-not-succeeded-build="hasNotSucceededBuild" :is-loading="isLoadingPackageSetup" :pkg="pkg"
+          :version="version" :scopes="scopes" />
         <section class="col-12">
           <h2>{{ $t("project") }}</h2>
           <div>
-            <span class="repo-link"><NavLink :item="repoNavLink" /></span>
+            <span class="repo-link">
+              <NavLink :item="repoNavLink" />
+            </span>
           </div>
           <div v-if="parentRepoNavLink" class="fork">
             {{ $t("forked-from") }}
@@ -47,12 +44,10 @@
             <br />
             <small v-if="pkg.pstars">
               <i class="fa fa-star"></i> {{ pkg.pstars }} on
-              <NavLink
-                :item="{
-                  link: pkg.parentRepoUrl,
-                  text: this.$t('upstream'),
-                }"
-              />
+              <NavLink :item="{
+                link: pkg.parentRepoUrl,
+                text: this.$t('upstream'),
+              }" />
             </small>
           </span>
         </section>
@@ -62,46 +57,26 @@
         </section>
         <section class="col-6">
           <h2>{{ $t("authors") }}</h2>
-          <a
-            v-if="parentOwnerNavLink"
-            :href="parentOwnerNavLink.link"
-            class="nav-link external"
-          >
+          <a v-if="parentOwnerNavLink" :href="parentOwnerNavLink.link" class="nav-link external">
             <span class="chip">
-              <LazyImage
-                v-if="parentOwnerAvatarUrl"
-                :src="parentOwnerAvatarUrl"
-                :alt="pkg.parentOwner"
-                class="avatar avatar-sm"
-              />
+              <LazyImage v-if="parentOwnerAvatarUrl" :src="parentOwnerAvatarUrl" :alt="pkg.parentOwner"
+                class="avatar avatar-sm" />
               <i v-else class="fa fa-user"></i>
               {{ parentOwnerNavLink.text }}
             </span>
           </a>
           <a :href="ownerNavLink.link" class="nav-link external">
             <span class="chip">
-              <LazyImage
-                :src="ownerAvatarUrl"
-                :alt="pkg.owner"
-                class="avatar avatar-sm"
-              />
+              <LazyImage :src="ownerAvatarUrl" :alt="pkg.owner" class="avatar avatar-sm" />
               {{ ownerNavLink.text }}
             </span>
           </a>
         </section>
         <section class="col-6">
           <h2>{{ $t("discovered-by") }}</h2>
-          <a
-            v-if="pkg.hunterUrl"
-            :href="hunterNavLink.link"
-            class="nav-link external"
-          >
+          <a v-if="pkg.hunterUrl" :href="hunterNavLink.link" class="nav-link external">
             <span class="chip">
-              <LazyImage
-                :src="hunterAvatarUrl"
-                :alt="hunterNavLink.text"
-                class="avatar avatar-sm"
-              />
+              <LazyImage :src="hunterAvatarUrl" :alt="hunterNavLink.text" class="avatar avatar-sm" />
               {{ hunterNavLink.text }}
             </span>
           </a>
@@ -109,7 +84,7 @@
         </section>
         <section class="col-12">
           <h2>
-            {{ $t("badge") }} <small>({{ $t("click-to-copy") }})</small>
+            {{ $t("badge") }}
           </h2>
           <div class="container">
             <div class="columns">
@@ -122,7 +97,7 @@
                     <small> html </small>
                   </a>
                 </CopyWrapper>
-                <span>·</span>
+                <span><small>|</small></span>
                 <CopyWrapper :copy-text="badgeVersionMarkdown">
                   <a>
                     <small> markdown </small>
@@ -165,19 +140,19 @@ export default {
     },
     pkg: {
       type: Object,
-      default: () => {},
+      default: () => { },
     },
     packageInfo: {
       type: Object,
-      default: () => {},
+      default: () => { },
     },
     registryInfo: {
       type: Object,
-      default: () => {},
+      default: () => { },
     },
     monthlyDownloads: {
       type: Object,
-      default: () => {},
+      default: () => { },
     }
   },
 

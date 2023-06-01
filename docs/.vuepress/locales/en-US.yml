@@ -15,7 +15,6 @@ build-pipelines: Build Pipelines
 can-not-locate-the-path-of-pac: Can not locate the path of package.json in the selected branch
 china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
 china-region-info: China region
-click-to-copy: click to copy
 code-of-conduct: Code of Conduct
 command-line-interface: command-line interface
 commit: Commit
