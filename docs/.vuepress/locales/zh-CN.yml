@@ -24,7 +24,6 @@ china-region-desc: 如果您不熟悉中文翻译，请略过。
 china-region-info: 中国区
 code-generation: 代码生成
 code-of-conduct: 行为准则
-command-line-interface: 命令行工具
 commit: 提交
 connect: 社区
 contact-us: 联系我们
@@ -80,11 +79,12 @@ icpText: 京ICP备18005908号-2
 input-management: 输入管理
 install-openupm-cli: 安装 openupm-cli
 install-package: 安装软件包
-install-via-command-line-interface: 通过命令行工具安装
+install-via-command-line-interface: 安装方式：命令行工具
 install-via-package-installer: 通过软件包辅助安装器安装
 install-via-package-installer-intro: 通过创建一个传统的.unitypackage安装引导文件，来辅助安装UPM软件包至你的Unity工程。
 install-via-package-installer-step-2: 打开下载好的文件，或将其拖动到Unity的编辑器窗口中。
 install-via-package-installer-step-3: 辅助安装器在完成安装任务后，会自动删除自身。
+install-via-package-manager: 安装方式：包管理器
 installation: 安装
 integration: 集成
 invalid-git-tag-and: 无效的Git标签（非semver或重复的版本）
@@ -216,7 +216,6 @@ verify-package: 提交验证
 version: 版本
 version-control: 版本控制
 versions: 版本
-via: 通过
 video: 视频
 visual-scripting: 可视化脚本
 wait-for-ci-pipelines: 等待软件包导入完成

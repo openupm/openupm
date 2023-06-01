@@ -16,7 +16,6 @@ can-not-locate-the-path-of-pac: Can not locate the path of package.json in the s
 china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
 china-region-info: China region
 code-of-conduct: Code of Conduct
-command-line-interface: command-line interface
 commit: Commit
 connect: Connect
 contact-us: Contact Us
@@ -82,6 +81,7 @@ install-via-package-installer-step-2: >-
   Open the downloaded file with your Unity editor or drag it into the Unity
   editor window.
 install-via-package-installer-step-3: The installer will remove itself after installation.
+install-via-package-manager: Install via Package Manager
 installation: Installation
 invalid-git-tag-and: Invalid Git tag (non-semver or duplicated version)
 latest: latest
@@ -203,7 +203,6 @@ upstream: upstream
 verify-package: Verify package
 version: Version
 versions: Versions
-via: via
 wait-for-ci-pipelines: Wait for the workflow to complete
 wait-for-ci-pipelines-step-1-html: >-
   It may take up to 1h to finish the initial workflow. Then you can visit the

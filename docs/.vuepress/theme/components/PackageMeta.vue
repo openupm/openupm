@@ -5,7 +5,7 @@
         <PackageSetup :has-not-succeeded-build="hasNotSucceededBuild" :is-loading="isLoadingPackageSetup" :pkg="pkg"
           :version="version" :scopes="scopes" />
         <section class="col-12">
-          <h2>{{ $t("project") }}</h2>
+          <h2>{{ $t("repository") }}</h2>
           <div>
             <span class="repo-link">
               <NavLink :item="repoNavLink" />
@@ -273,10 +273,9 @@ export default {
     border-bottom: 1px solid $borderColor;
     padding-bottom: 0.5rem;
     margin-bottom: 0.7rem;
-    span {
+    > span {
       font-size: 0.85rem;
       font-weight: bold;
-      color: $textColor;
     }
     span.monthly-downloads-count {
       display: block;
