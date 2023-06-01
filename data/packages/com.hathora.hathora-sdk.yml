@@ -1,0 +1,25 @@
+name: com.hathora.hathora-sdk
+displayName: Hathora Unity SDK
+description: >-
+  Serverless cloud hosting for multiplayer games: Seamlessly build, deploy, and
+  scale game servers globally.
+repoUrl: 'https://github.com/hathora/hathora-cloud-sdks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - network
+  - services
+  - utilities
+hunter: dylanh724
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'unity:unity-upm/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685607679628
