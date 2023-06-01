@@ -1,3 +1,16 @@
+# [1.54.0](https://github.com/openupm/openupm/compare/1.53.12...1.54.0) (2023-06-01)
+
+
+### Bug Fixes
+
+* **website:** remove social links from the growth widget ([3ddc642](https://github.com/openupm/openupm/commit/3ddc6429f038d059d755919a1ebd4a92069d917d))
+* **website:** remove upstream stars from the package detail page ([c774d3b](https://github.com/openupm/openupm/commit/c774d3b51641e15634e86f3b9b517cd2f0d486d2))
+
+
+### Features
+
+* **website:** add monthly install counts chart for the package detail page (refs [#32](https://github.com/openupm/openupm/issues/32)) ([edf0dc3](https://github.com/openupm/openupm/commit/edf0dc30e3d2c78a0b30d779c091bc57a8e2fb26))
+
 ## [1.53.12](https://github.com/openupm/openupm/compare/1.53.11...1.53.12) (2023-05-17)
 
 
