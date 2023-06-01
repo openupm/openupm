@@ -1,3 +1,10 @@
+## [1.55.1](https://github.com/openupm/openupm/compare/1.55.0...1.55.1) (2023-06-01)
+
+
+### Bug Fixes
+
+* **website:** add default image to package card view ([416d2a4](https://github.com/openupm/openupm/commit/416d2a4559c8aab0751019ff7e12dc3942744105))
+
 # [1.55.0](https://github.com/openupm/openupm/compare/1.54.1...1.55.0) (2023-06-01)
 
 
