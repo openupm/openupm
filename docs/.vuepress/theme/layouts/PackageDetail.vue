@@ -94,6 +94,7 @@
             :pkg="$package"
             :package-info="packageInfo"
             :registry-info="registryInfo"
+            :monthly-downloads="monthlyDownloads"
           />
         </div>
       </div>
@@ -132,6 +133,9 @@ const defaultData = function() {
       fetched: false
     },
     registryInfo: {
+      fetched: false
+    },
+    monthlyDownloads: {
       fetched: false
     },
     subPage: SubPage.readme
@@ -350,9 +354,33 @@ export default {
     onStart() {
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
+      this.fetchMontlyDownloads();
     },
     /**
-     * Fetch package info data.
+     * Fetch monthly downloads.
+     */
+    async fetchMontlyDownloads() {
+      try {
+        let resp = await axios.get(
+          urljoin(util.openupmRegistryUrl, 'downloads/range/last-month', this.$package.name),
+          {
+            headers: { Accept: "application/json" }
+          }
+        );
+        const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+        startDate.setUTCHours(0, 0, 0, 0);
+        const endDate = new Date();
+        endDate.setUTCHours(0, 0, 0, 0);
+        this.$data.monthlyDownloads = resp.data;
+        this.$data.monthlyDownloads.downloads = util.fillMissingDates(resp.data.downloads, startDate, endDate);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        this.$data.monthlyDownloads.fetched = true;
+      }
+    },
+    /**
+     * Fetch package info.
      */
     async fetchPackageInfo() {
       try {
@@ -370,7 +398,7 @@ export default {
       }
     },
     /**
-     * Fetch registry info data.
+     * Fetch registry info.
      */
     async fetchRegistryInfo() {
       try {

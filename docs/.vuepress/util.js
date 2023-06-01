@@ -44,14 +44,14 @@ const _urlUtils = {
     : "https://packages.unity.com",
 
   // Avatar URL
-  getAvatarImageUrl: function(username, size) {
+  getAvatarImageUrl: function (username, size) {
     const mediaBaseUrl = _urlUtils.getMediaBaseUrl();
     const filename = getCachedAvatarImageFilename(username, size);
     return urljoin(mediaBaseUrl, filename);
   },
 
   // Package installer URL
-  getPackageInstallerUrl: function(packageName, scopes) {
+  getPackageInstallerUrl: function (packageName, scopes) {
     const params = new URLSearchParams();
     params.set("registry", this.openupmRegistryUrl);
     if (scopes) {
@@ -68,7 +68,7 @@ const _urlUtils = {
   },
 
   // Return Azure web build URL by buildId
-  getAzureWebBuildUrl: function(buildId) {
+  getAzureWebBuildUrl: function (buildId) {
     return (
       "https://dev.azure.com/openupm/openupm/_build/results?view=logs&buildId=" +
       buildId
@@ -76,26 +76,26 @@ const _urlUtils = {
   },
 
   // Return docs URL for the given language
-  getDocsUrl: function(url, lang) {
+  getDocsUrl: function (url, lang) {
     if (!lang && OPENUPM_REGION == "cn") lang = "zh";
     return lang ? `/${lang}${url}` : url;
   },
 
-  getMediaBaseUrl: function() {
+  getMediaBaseUrl: function () {
     return OPENUPM_REGION == "cn"
       ? "https://download.openupm.cn/media/"
       : "https://openupm.sfo2.cdn.digitaloceanspaces.com/media/";
   },
 
   // Convert GitHub URL to GitHub raw URL
-  convertToGitHubRawUrl: function(url) {
+  convertToGitHubRawUrl: function (url) {
     const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
     if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
     return url;
   },
 
   // Get package URL
-  getPackageUrl: function(pages, packageName) {
+  getPackageUrl: function (pages, packageName) {
     const page = _pageUtils.getPackagePage(pages, packageName);
     if (page) return page.path;
     else if (packageName.startsWith("com.unity."))
@@ -112,7 +112,7 @@ const _urlUtils = {
 
 const _pageUtils = {
   // Get package page
-  getPackagePage: function(pages, packageName) {
+  getPackagePage: function (pages, packageName) {
     for (const page of pages) {
       const pkg = page.frontmatter.package;
       if (pkg && pkg.name == packageName) return page;
@@ -123,7 +123,7 @@ const _pageUtils = {
 
 const _timeUtils = {
   // Return time since string for the given date
-  timeAgoFormat: function(date) {
+  timeAgoFormat: function (date) {
     try {
       if (!isDate(date)) date = new Date(date);
       return formatDistanceToNow(date, {
@@ -173,6 +173,30 @@ const _packageUtils = {
     // Prepare the pending state
     result.pending = !result.version;
     return result;
+  },
+
+  /**
+   * Fill in missing dates in a list of discrete stats objects with a downloads value of 0.
+   * @param {Array} discreteStats
+   * @param {Date} startDate
+   * @param {Date} endDate
+   * @returns 
+   */
+  fillMissingDates(discreteStats, startDate, endDate) {
+    const filledStats = [];
+    let currentDate = startDate;
+    let currentIndex = 0;
+    while (currentDate <= endDate) {
+      const currentDay = currentDate.toISOString().substring(0, 10);
+      if (currentIndex < discreteStats.length && discreteStats[currentIndex].day === currentDay) {
+        filledStats.push(discreteStats[currentIndex]);
+        currentIndex++;
+      } else {
+        filledStats.push({ day: currentDay, downloads: 0 });
+      }
+      currentDate.setDate(currentDate.getDate() + 1);
+    }
+    return filledStats;
   }
 };
 

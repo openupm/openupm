@@ -12,12 +12,53 @@
         <section class="col-12">
           <h2>{{ $t("project") }}</h2>
           <div>
-            <span><NavLink :item="repoNavLink" /></span>
+            <span class="repo-link"><NavLink :item="repoNavLink" /></span>
           </div>
           <div v-if="parentRepoNavLink" class="fork">
             {{ $t("forked-from") }}
             <NavLink :item="parentRepoNavLink" />
           </div>
+        </section>
+        <section class="col-6">
+          <h2>Monthly Downloads</h2>
+          <span class="monthly-downloads-count">{{ monthlyDownloadsCount }}</span>
+        </section>
+        <section class="col-6">
+          <h2></h2>
+          <sparkline v-bind:data="monthlyDownloadsList" class="monthly-downloads-chart"></sparkline>
+        </section>
+        <section class="col-6">
+          <h2>{{ $t("version") }}</h2>
+          <span>{{ version || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>{{ $t("license") }}</h2>
+          <span>{{ pkg.licenseSpdxId || pkg.licenseName || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>{{ $t("unity-version") }}</h2>
+          <span>{{ unityVersion || "-" }}</span>
+        </section>
+        <section class="col-6">
+          <h2>{{ $t("stars") }}</h2>
+          <span>
+            <i class="fa fa-star"></i>
+            {{ pkg.stars }}
+            <br />
+            <small v-if="pkg.pstars">
+              <i class="fa fa-star"></i> {{ pkg.pstars }} on
+              <NavLink
+                :item="{
+                  link: pkg.parentRepoUrl,
+                  text: this.$t('upstream'),
+                }"
+              />
+            </small>
+          </span>
+        </section>
+        <section class="col-12">
+          <h2>{{ $t("published") }}</h2>
+          <span>{{ publishedAt || "-" }}</span>
         </section>
         <section class="col-6">
           <h2>{{ $t("authors") }}</h2>
@@ -66,43 +107,6 @@
           </a>
           <span v-else>{{ pkg.hunter }}</span>
         </section>
-        <section class="col-6">
-          <h2>{{ $t("license") }}</h2>
-          <span>{{ pkg.licenseSpdxId || pkg.licenseName || "-" }}</span>
-        </section>
-        <section class="col-6">
-          <h2>{{ $t("stars") }}</h2>
-          <span>
-            <i class="fa fa-star"></i>
-            {{ pkg.stars }}
-            <br />
-            <small v-if="pkg.pstars">
-              <i class="fa fa-star"></i> {{ pkg.pstars }} on
-              <NavLink
-                :item="{
-                  link: pkg.parentRepoUrl,
-                  text: this.$t('upstream'),
-                }"
-              />
-            </small>
-          </span>
-        </section>
-        <section class="col-6">
-          <h2>{{ $t("version") }}</h2>
-          <span>{{ version || "-" }}</span>
-        </section>
-        <section class="col-6">
-          <h2>{{ $t("published") }}</h2>
-          <span>{{ publishedAt || "-" }}</span>
-        </section>
-        <section class="col-6">
-          <h2>{{ $t("unity-version") }}</h2>
-          <span>{{ unityVersion || "-" }}</span>
-        </section>
-        <section class="col-6">
-          <h2>{{ $t("report-abuse") }}</h2>
-          <span><NavLink :item="reportLink" /></span>
-        </section>
         <section class="col-12">
           <h2>
             {{ $t("badge") }} <small>({{ $t("click-to-copy") }})</small>
@@ -128,6 +132,9 @@
             </div>
           </div>
         </section>
+        <section class="col-12">
+          <NavLink :item="reportLink" />
+        </section>
       </div>
     </div>
   </ClientOnly>
@@ -141,12 +148,14 @@ import CopyWrapper from "@theme/components/CopyWrapper.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageSetup from "@theme/components/PackageSetup.vue";
 import util from "@root/docs/.vuepress/util";
+import Sparkline from "@theme/components/Sparkline.vue";
 
 export default {
   components: {
     CopyWrapper,
     NavLink,
     PackageSetup,
+    Sparkline,
   },
 
   props: {
@@ -166,6 +175,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    monthlyDownloads: {
+      type: Object,
+      default: () => {},
+    }
   },
 
   computed: {
@@ -196,6 +209,14 @@ export default {
     },
     isLoadingPackageSetup() {
       return !this.registryInfo.fetched || !this.packageInfo.fetched;
+    },
+    monthlyDownloadsCount() {
+      if (!this.monthlyDownloads.fetched) return "-";
+      return this.monthlyDownloads.downloads.reduce((acc, curr) => acc + curr.downloads, 0).toLocaleString();
+    },
+    monthlyDownloadsList() {
+      if (!this.monthlyDownloads.fetched) return Array(30).fill(0);
+      return this.monthlyDownloads.downloads.map(item => item.downloads);
     },
     ownerAvatarUrl() {
       return util.getAvatarImageUrl(this.pkg.owner, 48);
@@ -273,6 +294,7 @@ export default {
 
   h2 {
     font-weight: 600;
+    color: $secondaryTextColor;
     border-bottom: none;
   }
 
@@ -284,6 +306,25 @@ export default {
     border-bottom: 1px solid $borderColor;
     padding-bottom: 0.5rem;
     margin-bottom: 0.7rem;
+    span {
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: $textColor;
+    }
+    span.monthly-downloads-count {
+      display: block;
+      height: 44px;
+      padding-top: 22px;
+    }
+    span.chip {
+      font-size: $fontSizeMD;
+    }
+    span.repo-link {
+      font-size: $fontSizeMD;
+      a {
+        font-weight: bold;
+      }
+    }
   }
 
   ul.section-list {
@@ -301,10 +342,10 @@ export default {
   }
 
   .fork {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 
     a {
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
   }
 }
