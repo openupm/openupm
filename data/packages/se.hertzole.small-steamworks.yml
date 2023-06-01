@@ -1,0 +1,25 @@
+name: se.hertzole.small-steamworks
+displayName: Small Steamworks
+description: >-
+  Easy to use Steamworks integration for Unity. Based on Steamworks.NET, it
+  wraps the API in a more user friendly way. It implements a callback based
+  system and a async layer for the API. It also includes a few helper method to
+  make it easier to use.
+repoUrl: 'https://github.com/Hertzole/small-steamworks'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - services
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685651142871
