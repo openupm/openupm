@@ -4,19 +4,11 @@
       <section class="subpage-section">
         <ul class="menu">
           <div class="columns">
-            <div
-              v-for="item in subPages"
-              :key="item.value"
-              class="column col-12"
-            >
+            <div v-for="item in subPages" :key="item.value" class="column col-12">
               <li v-show="item.visible" class="menu-item">
                 <RouterLink :class="item.class" :to="item.link" :exact="false">
                   {{ item.text }}
-                  <span
-                    v-if="item.count"
-                    class="label label-rounded text-small"
-                    >{{ item.count }}</span
-                  >
+                  <span v-if="item.count" class="label label-rounded text-small">{{ item.count }}</span>
                   <i v-if="item.icon" :class="item.icon"></i>
                 </RouterLink>
               </li>
@@ -47,55 +39,32 @@
             {{ $t("the-repository-is-unavailable") }}
           </div>
           <div class="topics-wrap">
-            <a v-for="item in topics" :key="item.slug" :href="item.link"
-              ><span class="label label-rounded"> {{ item.text }}</span></a
-            >
+            <a v-for="item in topics" :key="item.slug" :href="item.link"><span class="label label-rounded"> {{ item.text
+            }}</span></a>
           </div>
           <!-- SubPages start -->
           <div v-if="isSubPageReadme">
-            <PackageReadme
-              :html="readmeHtml"
-              :name="$package.name"
-              :is-loading="isLoadingReadme"
-            />
+            <PackageReadme :html="readmeHtml" :name="$package.name" :is-loading="isLoadingReadme" />
           </div>
           <div v-if="isSubPageDependencies">
-            <PackageDependencies
-              :dependencies="dependencies"
-              :is-loading="isLoadingDependencies"
-              :version="packageVersion"
-            />
+            <PackageDependencies :dependencies="dependencies" :is-loading="isLoadingDependencies"
+              :version="packageVersion" />
           </div>
           <div v-if="isSubPageVersions">
-            <PackageVersions
-              :versions="packageVersions"
-              :is-loading="isLoadingVersions"
-            />
+            <PackageVersions :versions="packageVersions" :is-loading="isLoadingVersions" />
           </div>
           <div v-if="isSubPagePipelines">
-            <PackagePipelines
-              :invalid-tags="invalidTags"
-              :releases="packageReleases"
-              :repo-url="$package.repoUrl"
-              :is-loading="isLoadingPipelines"
-            />
+            <PackagePipelines :invalid-tags="invalidTags" :releases="packageReleases" :repo-url="$package.repoUrl"
+              :is-loading="isLoadingPipelines" />
           </div>
           <div v-if="isSubPageRelated">
             <PackageRelated />
           </div>
           <!-- SubPages end -->
         </div>
-        <div
-          class="column column-meta col-4 col-xl-4 col-lg-4 col-md-12 col-sm-12"
-        >
-          <PackageMeta
-            v-show="shouldShowMeta"
-            :has-not-succeeded-build="hasNotSucceededBuild"
-            :pkg="$package"
-            :package-info="packageInfo"
-            :registry-info="registryInfo"
-            :monthly-downloads="monthlyDownloads"
-          />
+        <div class="column column-meta col-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <PackageMeta v-show="shouldShowMeta" :has-not-succeeded-build="hasNotSucceededBuild" :pkg="$package"
+            :package-info="packageInfo" :registry-info="registryInfo" :monthly-downloads="monthlyDownloads" />
         </div>
       </div>
     </template>
@@ -127,7 +96,7 @@ const SubPage = {
   versions: "versions"
 };
 
-const defaultData = function() {
+const defaultData = function () {
   return {
     packageInfo: {
       fetched: false
@@ -368,9 +337,12 @@ export default {
           }
         );
         const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
-        startDate.setUTCHours(0, 0, 0, 0);
         const endDate = new Date();
+        // Align the start date to UTC midnight (00:00:00)
+        startDate.setUTCHours(0, 0, 0, 0);
+        // Align the end date to UTC midnight minus 1 milliseconds (59:59:59:999)
         endDate.setUTCHours(0, 0, 0, 0);
+        endDate.setUTCMilliseconds(-1);
         this.$data.monthlyDownloads = resp.data;
         this.$data.monthlyDownloads.downloads = util.fillMissingDates(resp.data.downloads, startDate, endDate);
       } catch (error) {
