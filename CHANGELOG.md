@@ -1,3 +1,10 @@
+## [1.54.1](https://github.com/openupm/openupm/compare/1.54.0...1.54.1) (2023-06-01)
+
+
+### Bug Fixes
+
+* **website:** make sure the install counts clamp to a full day ([67dc40e](https://github.com/openupm/openupm/commit/67dc40efd4e0de476472974ce6b23134b22a4fb4))
+
 # [1.54.0](https://github.com/openupm/openupm/compare/1.53.12...1.54.0) (2023-06-01)
 
 
