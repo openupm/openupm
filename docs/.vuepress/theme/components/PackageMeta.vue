@@ -12,7 +12,7 @@
             </span>
           </div>
           <div v-if="parentRepoNavLink" class="fork">
-            {{ $t("forked-from") }}
+            {{ $t("upstream") }}
             <NavLink :item="parentRepoNavLink" />
           </div>
         </section>
@@ -271,7 +271,7 @@ export default {
 
   section {
     border-bottom: 1px solid $borderColor;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.5rem;
     margin-bottom: 0.7rem;
     span {
       font-size: 0.85rem;

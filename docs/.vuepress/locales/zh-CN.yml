@@ -52,7 +52,6 @@ field-none: 无
 fill-the-package-form: 填写软件包表单
 fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合OpenUPM的软件包标准，请参考
 footer-copyright: 版权所有 © 2019-2020 Favo Yang
-forked-from: 分叉自
 frameworks: 框架
 get: 获取
 git-deps-missing: 请手动安装这个缺失的Git依赖。

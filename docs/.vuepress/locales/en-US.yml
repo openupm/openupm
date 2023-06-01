@@ -44,7 +44,6 @@ fill-the-package-form-desc: >-
   Please fill the form to provide the package information. The package must
   conform to OpenUPM's package criteria. Learn more at
 footer-copyright: Copyright © 2019-2022 Favo Yang
-forked-from: forked from
 get: Get
 git-deps-missing: Please install the Git dependency manually.
 git-deps-nuget: The package may exist in the uplinked UnityNuGet registry.
