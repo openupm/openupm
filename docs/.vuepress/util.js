@@ -108,13 +108,6 @@ const _urlUtils = {
 
   // OpenUPM repository URL
   openupmRepoUrl: "https://github.com/openupm/openupm",
-
-  // Tweet URL
-  tweetUrl:
-    "https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&via=openupmupdate&hashtags=unity3d,openupm,upm,gamedev",
-
-  // Weibo URL
-  weiboUrl: "https://service.weibo.com/share/share.php?url=https://openupm.cn"
 };
 
 const _pageUtils = {

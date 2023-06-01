@@ -9,18 +9,6 @@
         <a href="https://www.patreon.com/openupm" class="btn btn-sm"
           ><i class="fab fa-patreon"></i> {{ $t("donate") }}</a
         >
-        <a
-          v-if="$site.themeConfig.region != 'cn'"
-          :href="tweetUrl"
-          class="btn btn-sm"
-          ><i class="fab fa-twitter"></i> {{ $t("tweet") }}</a
-        >
-        <a
-          v-if="$site.themeConfig.region == 'cn'"
-          :href="weiboUrl"
-          class="btn btn-sm"
-          ><i class="fab fa-weibo"></i> {{ $t("weibo-share") }}</a
-        >
       </div>
     </div>
   </div>
@@ -37,12 +25,6 @@ export default {
   computed: {
     stars() {
       return this.$store.getters.siteInfo.stars || "...";
-    },
-    tweetUrl() {
-      return util.tweetUrl;
-    },
-    weiboUrl() {
-      return util.weiboUrl;
     },
     gitHubUrl() {
       if (this.$site.themeConfig.region == "cn")
