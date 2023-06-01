@@ -123,7 +123,7 @@
                   'column',
                   preferHorizontalLayout
                     ? 'col-12'
-                    : 'col-3 col-xl-4 col-lg-6 col-md-6 col-sm-12'
+                    : 'col-custom'
                 ]"
               >
                 <LazyPackageCard
@@ -394,4 +394,16 @@ export default {
   .mainview
     .breadcrumb-action-wrap
       padding-top 0.34rem
+    .col-custom
+      width: 15.8rem;
+      -ms-flex: none;
+      flex: none;
+
+@media (max-width: $MQMobileNarrow)
+  .package-list
+    .mainview
+      .col-custom
+        width: 100%;
+        -ms-flex: none;
+        flex: none;
 </style>
