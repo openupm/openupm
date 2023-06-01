@@ -36,6 +36,7 @@ const aggregateExtraData = async function() {
     data.ver = version || undefined;
     const repoUnavailable = await PackageExtra.getRepoUnavailable(packageName);
     data.repoUnavailable = repoUnavailable || undefined;
+    data.dl30d = await PackageExtra.getMonthlyDownloads(packageName);
     aggData[packageName] = data;
   }
   await PackageExtra.setAggregatedExtraData(aggData);

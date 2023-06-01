@@ -52,6 +52,7 @@ const fetchExtraData = async function (packageNames, force) {
     await _fetchReadme(pkg, packageName);
     await _cacheImage(pkg, packageName, force);
     await _cacheAvatarImage(pkg, packageName, force);
+    await _fetchPackageInstallCount(packageName);
   }
 };
 
@@ -87,7 +88,6 @@ const getLatestVersion = function (pkgMeta) {
 
 /**
  * Fetch package info from the registry.
- * @param {object} repo
  * @param {string} packageName
  */
 const _fetchPackageInfo = async function (packageName) {
@@ -117,7 +117,6 @@ const _fetchPackageInfo = async function (packageName) {
 
 /**
  * Fetch package scopes for dependencies.
- * @param {object} repo
  * @param {string} packageName
  */
 const _fetchPackageScopes = async function (packageName) {
@@ -419,6 +418,45 @@ const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) 
     logger.error(
       { err: error, pkg: packageName, lang, readmePath },
       "_fetchReadmeForLang"
+    );
+  }
+};
+
+/**
+ * Fetch package meta json.
+ * @param {string} packageName
+ * @returns {Number}
+ */
+const fetchPackageMonthlyInstallCount = async function (packageName) {
+  let resp = null;
+  const source = CancelToken.source();
+  setTimeout(() => {
+    if (resp === null) source.cancel("ECONNTIMEOUT");
+  }, 10000);
+  resp = await AxiosService.create().get(
+    urljoin("https://package.openupm.com/downloads/point/last-month", packageName),
+    {
+      headers: { Accept: "application/json" },
+      cancelToken: source.token
+    }
+  );
+  return resp.data;
+};
+
+/**
+ * Fetch package install count.
+ * @param {string} packageName
+ */
+const _fetchPackageInstallCount = async function (packageName) {
+  logger.info({ pkg: packageName }, "_fetchPackageInstallCount");
+  try {
+    const result = await fetchPackageMonthlyInstallCount(packageName);
+    const count = result.downloads || 0;
+    await PackageExtra.setMonthlyDownloads(packageName, count);
+  } catch (error) {
+    logger.error(
+      httpErrorInfo(error, { pkg: packageName }),
+      "fetch package install count error"
     );
   }
 };

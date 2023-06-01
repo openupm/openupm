@@ -31,6 +31,7 @@ const propKeys = {
   unityVersion: "unity",
   updatedTime: "updatedTime",
   version: "ver",
+  monthlyDownloads: "dl30d",
 };
 
 /**
@@ -233,6 +234,26 @@ const getUpdatedTime = async function (packageName) {
   return parseInt(value) || 0;
 };
 
+/**
+ * Get monthly downloads for a package.
+ * @param {string} packageName - The name of the package.
+ * @returns {Promise<number>} - A Promise that resolves to the number of downloads.
+ */
+const getMonthlyDownloads = async function (packageName) {
+  const value = await getValue(packageName, propKeys.monthlyDownloads);
+  return parseInt(value) || 0;
+};
+
+/**
+ * Set monthly downloads for a package.
+ * @param {string} packageName - The name of the package.
+ * @param {number} downloads - The number of downloads to set.
+ * @returns {Promise<void>} - A Promise that resolves when the downloads have been set.
+ */
+const setMonthlyDownloads = async function (packageName, downloads) {
+  await setValue(packageName, propKeys.monthlyDownloads, downloads);
+};
+
 const setValue = async function (packageName, propKey, propVal) {
   const key = packageKey + packageName;
   await redis.client.hset(key, propKey, propVal);
@@ -284,6 +305,7 @@ module.exports = {
   getImageQueryForPackage,
   getImageUrl,
   getInvalidTags,
+  getMonthlyDownloads,
   getOGImageCacheKey,
   getParentStars,
   getPropKeyForLang,
@@ -303,6 +325,7 @@ module.exports = {
   setAggregatedExtraData,
   setImageUrl,
   setInvalidTags,
+  setMonthlyDownloads,
   setOGImageCacheKey,
   setParentStars,
   setReadme,
