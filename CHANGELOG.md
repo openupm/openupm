@@ -1,3 +1,10 @@
+## [1.55.2](https://github.com/openupm/openupm/compare/1.55.1...1.55.2) (2023-06-02)
+
+
+### Bug Fixes
+
+* **website:** replace the package card svg image with normal span tag ([aaec5ee](https://github.com/openupm/openupm/commit/aaec5ee185f883cdd754b6762c8b2ffa45b3ba31))
+
 ## [1.55.1](https://github.com/openupm/openupm/compare/1.55.0...1.55.1) (2023-06-01)
 
 
