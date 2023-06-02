@@ -1,7 +1,6 @@
 <template>
   <div>
     <ParentLayout @toggle-sidebar="$emit('toggle-sidebar')"></ParentLayout>
-    <div class="wip label label-secondary label-rounded">beta</div>
   </div>
 </template>
 
@@ -69,12 +68,6 @@ export default {
   .nav-links
     a.repo-link
       display none
-
-.wip
-  position fixed
-  z-index 1000
-  left 200px
-  top 8px
 
 .region-cn
   .wip
