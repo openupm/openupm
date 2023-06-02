@@ -1,0 +1,19 @@
+name: com.tf.scenebrowser
+displayName: Scenes Browser
+description: Faster and more efficient way to switch between scenes in Unity Editor.
+repoUrl: 'https://github.com/Theo-Farnole/Unity-SceneBrowser'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - editor-enhancement
+hunter: Theo-Farnole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685691762878
