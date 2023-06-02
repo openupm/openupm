@@ -29,7 +29,7 @@
               {{ pkg.description }}
             </div>
             <div class="card-footer">
-              <div>
+              <div class="row1">
                 <!-- <span v-if="pkg.parentOwner" class="chip">
                   <LazyImage
                     v-if="pkg.parentOwnerAvatarUrl"
@@ -51,9 +51,13 @@
                   <i :class="timeIcon"></i>{{ pkg.timeAgoText }}
                 </span>
               </div>
-              <div>
-                <span class="chip">
+              <div class="row2">
+                <span v-if="pkg.stars" class="chip">
                   <i class="fa fa-star"></i>{{ pkg.stars }}
+                </span>
+                <span v-if="pkg.dl30d" class="chip">
+                  <i class="fas fa-download"></i>
+                  {{ pkg.dl30d }}/mo
                 </span>
                 <!-- <span v-if="pkg.version" class="chip">
                   <i class="fas fa-tag"></i>{{ pkg.version }}
@@ -256,6 +260,9 @@ export default {
 
     .card-footer
       padding 0.5rem 0.8rem 0.8rem 0.8rem
+
+      .row2
+        height 1.2rem
 
     .chip
       margin-bottom 0.2rem
