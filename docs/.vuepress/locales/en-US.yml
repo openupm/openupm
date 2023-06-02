@@ -99,6 +99,7 @@ medium: Medium
 meta-data: Metadata
 minimal-version-to-build: Minimal version to build
 minimal-version-to-build-placeholder: leave empty to build all versions by default
+monthly-downloads: Monthly Downloads
 name: Name
 name-at-version: Name@version
 needles-package-installer: Needle's package installer
@@ -123,12 +124,11 @@ prerequisites: Prerequisites
 privacy-policy: Privacy Policy
 project: Project
 promote: Promote
-published: Published
 published-time: Published time
 readme: Readme
 readme-to-found: Readme is not available, please try again later.
 ready-to-use: Ready to Use
-recently-updated: Recently Updated
+last-publish: Last Publish
 region: Region
 region-cn: China
 region-us: United States

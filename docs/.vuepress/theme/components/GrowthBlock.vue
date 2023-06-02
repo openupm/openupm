@@ -5,7 +5,7 @@
         <div class="btn-group">
           <NavLink :item="packagesLink" class="btn btn-sm" />
           <a :href="gitHubUrl" class="btn btn-sm"
-            ><i class="fa fa-star"></i> {{ $t("star") }} <span>|</span>
+            ><i class="fa fa-star"></i> GitHub Stars <span>|</span>
             <span class="stars">{{ stars }}</span></a
           >
           <a href="https://www.patreon.com/openupm" class="btn btn-sm"

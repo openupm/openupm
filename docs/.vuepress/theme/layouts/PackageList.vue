@@ -167,8 +167,9 @@ export default {
       topicValue: "",
       sortList: [
         { text: this.$t("name"), value: SortType.name },
-        { text: this.$t("popularity"), value: SortType.pop },
-        { text: this.$t("recently-updated"), value: SortType.updatedAt }
+        { text: "GitHub Stars", value: SortType.pop },
+        { text: this.$t("last-publish"), value: SortType.updatedAt },
+        { text: this.$t("monthly-downloads"), value: SortType.downloads }
       ],
       unity: ""
     };
@@ -226,6 +227,8 @@ export default {
         pkgs = orderBy(pkgs, ["stars"], ["desc"]);
       else if (this.sort == SortType.name)
         pkgs = orderBy(pkgs, ["sortName"], ["asc"]);
+      else if (this.sort == SortType.downloads)
+        pkgs = orderBy(pkgs, ["dl30d"], ["desc"]);
       return pkgs;
     },
 

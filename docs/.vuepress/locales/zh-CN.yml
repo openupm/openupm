@@ -105,6 +105,7 @@ medium: Medium
 meta-data: 元数据
 minimal-version-to-build: 可处理的最小版本
 minimal-version-to-build-placeholder: 可不填，则默认处理所有的版本
+monthly-downloads: 月下载量
 mobile: 移动端
 modeling: 建模
 name: 名称
@@ -139,12 +140,11 @@ procedural-generation: 内容生成
 profiling: 优化
 project: 项目
 promote: 推广
-published: 已发行
 published-time: 发行时间
 readme: 简介
 readme-to-found: 暂时未能加载软件包简介，请稍后重试。
 ready-to-use: 可使用
-recently-updated: 最近更新
+last-publish: 最近更新
 region: 区域
 region-cn: 中国区
 region-us: 国际区

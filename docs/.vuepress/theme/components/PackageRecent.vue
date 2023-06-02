@@ -7,7 +7,7 @@
           <a href="#package-recent" aria-hidden="true" class="header-anchor"
             >#</a
           >
-          {{ $t("recently-updated") }}
+          {{ $t("last-publish") }}
           <NavLink :item="moreLink" :class="'btn btn-sm btn-more'" />
         </h3>
       </div>

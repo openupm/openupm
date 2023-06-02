@@ -323,12 +323,12 @@ export default {
     onStart() {
       this.fetchPackageInfo();
       this.fetchRegistryInfo();
-      this.fetchMontlyDownloads();
+      this.fetchMonthlyDownloads();
     },
     /**
      * Fetch monthly downloads.
      */
-    async fetchMontlyDownloads() {
+    async fetchMonthlyDownloads() {
       try {
         let resp = await axios.get(
           urljoin(util.openupmRegistryUrl, 'downloads/range/last-month', this.$package.name),

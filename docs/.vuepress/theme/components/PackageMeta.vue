@@ -37,14 +37,14 @@
           <span>{{ unityVersion || "-" }}</span>
         </section>
         <section class="col-6">
-          <h2>{{ $t("stars") }}</h2>
+          <h2>GitHub Stars</h2>
           <span>
             <i class="fa fa-star"></i>
             {{ pkg.stars }}
           </span>
         </section>
         <section class="col-12">
-          <h2>{{ $t("published") }}</h2>
+          <h2>{{ $t("last-publish") }}</h2>
           <span>{{ publishedAt || "-" }}</span>
         </section>
         <section class="col-6">
