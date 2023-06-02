@@ -239,8 +239,8 @@ export default {
     unityVersion() {
       const versions = this.registryInfo.versions || {};
       const entry = versions[this.version];
-      if (!entry) return null;
-      return entry.unity;
+      if (!entry || !entry.unity) return null;
+      return entry.unity + "+";
     },
     version() {
       const distTags = this.registryInfo["dist-tags"];
