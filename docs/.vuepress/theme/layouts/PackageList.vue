@@ -4,68 +4,28 @@
     <template #sideview>
       <section class="state-section">
         <ul class="menu">
-          <li class="divider" :data-content="$t('state')"></li>
-          <li class="menu-item">
-            <label class="form-switch">
-              <input
-                v-model="active"
-                type="checkbox"
-                @change="updateRouter()"
-              /><i class="form-icon"></i>
-              {{ stateText }}
-            </label>
-          </li>
-          <li
-            class="divider"
-            :data-content="$t('supported-unity-version')"
-          ></li>
+          <li class="divider" :data-content="$t('supported-unity-version')"></li>
           <li class="menu-item">
             <div class="form-group">
-              <select
-                v-model="unity"
-                class="form-select"
-                @change="updateRouter()"
-              >
-                <option
-                  v-for="option in unityOptions"
-                  :key="option.value"
-                  :value="option.value"
-                  >{{ option.text }}</option
-                >
+              <select v-model="unity" class="form-select" @change="updateRouter()">
+                <option v-for="option in unityOptions" :key="option.value" :value="option.value">{{ option.text }}
+                </option>
               </select>
             </div>
           </li>
           <li class="divider show-sm" :data-content="$t('topics')"></li>
           <li class="menu-item show-sm">
             <div class="form-group">
-              <select
-                v-model="topicValue"
-                class="form-select"
-                @change="updateRouter()"
-              >
-                <option
-                  v-for="option in topics"
-                  :key="option.value"
-                  :value="option.value"
-                  >{{ option.text }}</option
-                >
+              <select v-model="topicValue" class="form-select" @change="updateRouter()">
+                <option v-for="option in topics" :key="option.value" :value="option.value">{{ option.text }}</option>
               </select>
             </div>
           </li>
           <li class="divider" :data-content="$t('sort-by')"></li>
           <li class="menu-item">
             <div class="form-group">
-              <select
-                v-model="sort"
-                class="form-select"
-                @change="updateRouter()"
-              >
-                <option
-                  v-for="option in sortOptions"
-                  :key="option.value"
-                  :value="option.value"
-                  >{{ option.text }}</option
-                >
+              <select v-model="sort" class="form-select" @change="updateRouter()">
+                <option v-for="option in sortOptions" :key="option.value" :value="option.value">{{ option.text }}</option>
               </select>
             </div>
           </li>
@@ -75,17 +35,9 @@
         <ul class="menu">
           <li class="divider" :data-content="$t('topics')"></li>
           <div class="columns">
-            <div
-              v-for="item in topics"
-              :key="item.value"
-              class="column col-12 col-sm-6"
-            >
+            <div v-for="item in topics" :key="item.value" class="column col-12 col-sm-6">
               <li class="menu-item">
-                <RouterLink
-                  :class="['nav-link', item.class]"
-                  :to="{ path: item.link, query }"
-                  :exact="false"
-                >
+                <RouterLink :class="['nav-link', item.class]" :to="{ path: item.link, query }" :exact="false">
                   {{ item.text }}
                 </RouterLink>
               </li>
@@ -116,20 +68,13 @@
         <div class="column col-12">
           <section class="package-section">
             <div class="columns">
-              <div
-                v-for="pkg in packages"
-                :key="pkg.name"
-                :class="[
-                  'column',
-                  preferHorizontalLayout
-                    ? 'col-12'
-                    : 'col-custom'
-                ]"
-              >
-                <LazyPackageCard
-                  :item="pkg"
-                  :prefer-horizontal-layout="preferHorizontalLayout"
-                />
+              <div v-for="pkg in packages" :key="pkg.name" :class="[
+                'column',
+                preferHorizontalLayout
+                  ? 'col-12'
+                  : 'col-custom'
+              ]">
+                <LazyPackageCard :item="pkg" :prefer-horizontal-layout="preferHorizontalLayout" />
               </div>
             </div>
           </section>
@@ -163,7 +108,6 @@ export default {
 
   data() {
     return {
-      active: true,
       topicValue: "",
       sortList: [
         { text: this.$t("name"), value: SortType.name },
@@ -219,7 +163,7 @@ export default {
         );
       }
       // Filter by state.
-      pkgs = pkgs.filter(x => x.pending != this.active);
+      pkgs = pkgs.filter(x => !x.pending);
       // Sort
       if (this.sort == SortType.updatedAt)
         pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
@@ -238,7 +182,6 @@ export default {
 
     query() {
       const query = {};
-      query.active = this.active ? 1 : 0;
       if (this.sort) query.sort = this.sort;
       if (this.unity) query.unity = this.unity;
       return query;
@@ -261,10 +204,6 @@ export default {
           class: x.value == this.sort ? "active" : ""
         };
       });
-    },
-
-    stateText() {
-      return this.active ? this.$t("ready-to-use") : this.$t("pending");
     },
 
     topic() {
@@ -327,8 +266,6 @@ export default {
      * Parse query to set initial values.
      */
     parseQuery() {
-      // state
-      this.active = this.$route.query.active != "0";
       // sort
       const sort = this.$route.query.sort;
       if (this.sortList.map(x => x.value).includes(sort) && sort != this.sort)
