@@ -1,8 +1,8 @@
 <template>
   <section class="col-12 install-section">
     <h2 v-if="!isLoading && !version">
-      {{ $t("installation") }}
       <i class="fas fa-exclamation-triangle text-warning"></i>
+      {{ $t("notice") }}
     </h2>
     <div v-if="!isLoading">
       <div v-if="version">
@@ -24,10 +24,7 @@
           </h3>
           <div class="install-cli">
             <CopyWrapper :copy-text="installCli">
-              <code>
-                  <i class="fas fa-angle-double-right"></i>
-                  {{ installCli }}
-                </code>
+              <code><i class="fas fa-angle-double-right"></i>{{ installCli }}</code>
             </CopyWrapper>
           </div>
         </div>
@@ -35,16 +32,20 @@
       </div>
       <div v-else>
         <div>
-          <span v-if="hasNotSucceededBuild">{{ $t("has-not-succeeded-build") }}
-            <RouterLink :to="pipelinesLink" :exact="false">{{
-              $t("has-not-succeeded-build-2")
-            }}</RouterLink>
-          </span>
-          <span v-else>
-            {{ $t("has-no-valid-tag") }}
-            <NavLink :item="repoTagsNavLink" />
-            {{ $t("has-no-valid-tag-2") }}
-          </span>
+          <div v-if="hasNotSucceededBuild">
+            <p>{{ $t("has-not-succeeded-build") }}</p>
+            <p>{{ $t("find-more-at") }}
+              <RouterLink :to="pipelinesLink" :exact="false">{{
+                $t("build-pipelines")
+              }}</RouterLink>
+            </p>
+          </div>
+          <div v-else>
+            <p>{{ $t("has-no-valid-tag") }}<br /></p>
+            <p>{{ $t("find-more-at") }}
+              <NavLink :item="repoTagsNavLink" />
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -103,7 +104,7 @@ export default {
     repoTagsNavLink() {
       return {
         link: urljoin(this.pkg.repoUrl, "tags"),
-        text: this.$t("git-tag"),
+        text: urljoin(this.pkg.repoUrl, "tags").replace("https://github.com/", ""),
       };
     },
   },
@@ -121,6 +122,10 @@ export default {
     margin-bottom: 0.4rem;
   }
 
+  p {
+    margin-bottom: 0.2rem;
+  }
+
   .install-option {
     margin-bottom: 0.6rem;
 
@@ -134,6 +139,7 @@ export default {
       overflow-x: hidden;
       font-size: $fontSizeMD;
     }
+
   }
 
   .package-installer-btn-wrap {
