@@ -80,10 +80,10 @@
           </h2>
           <div class="container">
             <div class="columns">
-              <div class="col-6">
+              <div class="col-6 col-badge">
                 <LazyImage :src="badgeVersionImageUrl" />
               </div>
-              <div class="col-6">
+              <div class="col-6 col-badge">
                 <CopyWrapper :copy-text="badgeVersionHtml">
                   <a>
                     <small> html </small>
@@ -91,6 +91,22 @@
                 </CopyWrapper>
                 <span><small>|</small></span>
                 <CopyWrapper :copy-text="badgeVersionMarkdown">
+                  <a>
+                    <small> markdown </small>
+                  </a>
+                </CopyWrapper>
+              </div>
+              <div class="col-6 col-badge">
+                <LazyImage :src="badgeDownloadsImageUrl" />
+              </div>
+              <div class="col-6 col-badge">
+                <CopyWrapper :copy-text="badgeDownloadsHtml">
+                  <a>
+                    <small> html </small>
+                  </a>
+                </CopyWrapper>
+                <span><small>|</small></span>
+                <CopyWrapper :copy-text="badgeDownloadsMarkdown">
                   <a>
                     <small> markdown </small>
                   </a>
@@ -149,19 +165,30 @@ export default {
   },
 
   computed: {
-    badgeUrl() {
+    badgeLinkUrl() {
       return urljoin(this.$site.themeConfig.domain, this.$page.path);
-    },
-    badgeVersionHtml() {
-      return `<a href="${escape(this.badgeUrl)}"><img src="${escape(
-        this.badgeVersionImageUrl
-      )}" /></a>`;
     },
     badgeVersionImageUrl() {
       return `https://img.shields.io/npm/v/${this.pkg.name}?label=openupm&registry_uri=https://package.openupm.com`;
     },
+    badgeVersionHtml() {
+      return `<a href="${escape(this.badgeLinkUrl)}"><img src="${escape(
+        this.badgeVersionImageUrl
+      )}" /></a>`;
+    },
     badgeVersionMarkdown() {
-      return `[![openupm](${this.badgeVersionImageUrl})](${this.badgeUrl})`;
+      return `[![openupm](${this.badgeVersionImageUrl})](${this.badgeLinkUrl})`;
+    },
+    badgeDownloadsImageUrl() {
+      return `https://img.shields.io/badge/dynamic/json?color=brightgreen&label=downloads&query=%24.downloads&suffix=%2Fmonth&url=https%3A%2F%2Fpackage.openupm.com%2Fdownloads%2Fpoint%2Flast-month%2F${this.pkg.name}`
+    },
+    badgeDownloadsHtml() {
+      return `<a href="${escape(this.badgeLinkUrl)}"><img src="${escape(
+        this.badgeDownloadsImageUrl
+      )}" /></a>`;
+    },
+    badgeDownloadsMarkdown() {
+      return `[![openupm](${this.badgeDownloadsImageUrl})](${this.badgeLinkUrl})`;
     },
     hunterAvatarUrl() {
       return this.pkg.hunter
@@ -291,6 +318,10 @@ export default {
         font-weight: bold;
       }
     }
+  }
+
+  .col-badge {
+    margin-bottom: 0.2rem;  
   }
 
   ul.section-list {
