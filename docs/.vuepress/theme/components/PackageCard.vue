@@ -155,12 +155,7 @@ export default {
       return color;
     },
     packageDisplayName() {
-      const text = this.item.link.text;
-      const maxLen = 30;
-      if (text.length > maxLen)
-        return text.substring(0, maxLen - 3) + '...';
-      else
-        return text;
+      return this.item.link.text;
     },
   }
 };
