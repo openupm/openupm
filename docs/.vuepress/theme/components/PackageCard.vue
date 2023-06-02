@@ -13,13 +13,8 @@
             <div class="card-image-wrapper">
               <div class="card-image">
                 <LazyImage v-if="pkg.image" :src="pkg.image" class="img-responsive" />
-                <div v-else class="i-wrapper">
-                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 150"
-                    :style="cardSvgImageInlineStyle">
-                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white"
-                      font-weight="bold">{{ cardSvgText
-                      }}</text>
-                  </svg>
+                <div v-else class="default-image" :style="defaultImageInlineStyle">
+                  <span>{{ packageDisplayName }}</span>
                 </div>
               </div>
             </div>
@@ -147,7 +142,7 @@ export default {
         ? this.item.createdAt
         : this.item.updatedAt;
     },
-    cardSvgImageInlineStyle() {
+    defaultImageInlineStyle() {
       return `background: linear-gradient(37deg, ${this.stopColor1}, ${this.stopColor2});`
     },
     stopColor1() {
@@ -165,7 +160,7 @@ export default {
       console.log("stopColor2: " + color);
       return color;
     },
-    cardSvgText() {
+    packageDisplayName() {
       const text = this.item.link.text;
       const maxLen = 30;
       if (text.length > maxLen)
@@ -245,16 +240,18 @@ export default {
           object-fit contain
           object-position center center
 
-        .i-wrapper
+        .default-image
           width 100%
           height 100%
           display flex
           align-items center
           justify-content center
 
-          i
-            font-size 5.4rem
-            color #999
+          span
+            font-size 0.9rem
+            font-weight bold
+            color white
+            text-align center
 
     .card-footer
       padding 0.5rem 0.8rem 0.8rem 0.8rem
