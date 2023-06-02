@@ -3,8 +3,8 @@ displayName: Scenes Browser
 description: Faster and more efficient way to switch between scenes in Unity Editor.
 repoUrl: 'https://github.com/Theo-Farnole/Unity-SceneBrowser'
 parentRepoUrl: null
-licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseSpdxId: MIT
+licenseName: MIT
 topics:
   - editor-enhancement
 hunter: Theo-Farnole
