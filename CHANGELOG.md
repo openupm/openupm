@@ -1,3 +1,11 @@
+## [1.56.1](https://github.com/openupm/openupm/compare/1.56.0...1.56.1) (2023-06-02)
+
+
+### Bug Fixes
+
+* **website:** download charts error when the package state is pending ([47314d7](https://github.com/openupm/openupm/commit/47314d7375be9338fc2b9914184a48585b0a4206))
+* **website:** remove ready-to-use state from package list ([661baaf](https://github.com/openupm/openupm/commit/661baaf3b8d81360c0eb59f02f2986891d4ef008))
+
 # [1.56.0](https://github.com/openupm/openupm/compare/1.55.3...1.56.0) (2023-06-02)
 
 
