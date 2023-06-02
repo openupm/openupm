@@ -252,6 +252,7 @@ export default {
             font-weight bold
             color white
             text-align center
+            padding 0 0.5rem
 
     .card-footer
       padding 0.5rem 0.8rem 0.8rem 0.8rem
