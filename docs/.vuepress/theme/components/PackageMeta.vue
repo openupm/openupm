@@ -16,11 +16,11 @@
             <NavLink :item="parentRepoNavLink" />
           </div>
         </section>
-        <section class="col-6">
+        <section class="col-6 col-downloads">
           <h2>Monthly Downloads</h2>
           <span class="monthly-downloads-count">{{ monthlyDownloadsCount }}</span>
         </section>
-        <section class="col-6">
+        <section class="col-6 col-downloads">
           <h2></h2>
           <sparkline v-bind:data="monthlyDownloadsList" class="monthly-downloads-chart"></sparkline>
         </section>
@@ -304,11 +304,6 @@ export default {
       font-size: 0.85rem;
       font-weight: bold;
     }
-    span.monthly-downloads-count {
-      display: block;
-      height: 44px;
-      padding-top: 22px;
-    }
     span.chip {
       font-size: $fontSizeMD;
     }
@@ -317,6 +312,22 @@ export default {
       a {
         font-weight: bold;
       }
+    }
+  }
+
+  section.col-downloads {
+    padding-bottom: 0;
+    span.monthly-downloads-count {
+      display: block;
+      height: 44px;
+      padding-top: 10px;
+    }
+    .monthly-downloads-chart {
+      // margin-bottom: -10px;
+    }
+    span.monthly-downloads-count,
+    .monthly-downloads-chart {
+      margin-bottom: -4px;
     }
   }
 
