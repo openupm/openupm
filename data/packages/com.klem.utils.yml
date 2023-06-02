@@ -1,0 +1,19 @@
+name: com.klem.utils
+displayName: Klem Utils
+description: Stuff I use often
+repoUrl: 'https://github.com/clandais/Klem-Unity-Tool-Belt'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: clandais
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685721227106
