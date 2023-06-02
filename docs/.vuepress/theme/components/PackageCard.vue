@@ -57,7 +57,7 @@
                 </span>
                 <span v-if="pkg.dl30d" class="chip">
                   <i class="fas fa-download"></i>
-                  {{ pkg.dl30d }}/mo
+                  {{ pkg.dl30d }}/month
                 </span>
                 <!-- <span v-if="pkg.version" class="chip">
                   <i class="fas fa-tag"></i>{{ pkg.version }}
