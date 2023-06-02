@@ -347,6 +347,7 @@ export default {
         this.$data.monthlyDownloads.downloads = util.fillMissingDates(resp.data.downloads, startDate, endDate);
       } catch (error) {
         console.error(error);
+        this.$data.monthlyDownloads.downloads = [];
       } finally {
         this.$data.monthlyDownloads.fetched = true;
       }
