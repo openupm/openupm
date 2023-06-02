@@ -17,7 +17,7 @@
           </div>
         </section>
         <section class="col-6 col-downloads">
-          <h2>Monthly Downloads</h2>
+          <h2>{{ $t("monthly-downloads") }}</h2>
           <span class="monthly-downloads-count">{{ monthlyDownloadsCount }}</span>
         </section>
         <section class="col-6 col-downloads">
