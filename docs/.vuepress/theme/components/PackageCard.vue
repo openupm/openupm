@@ -107,14 +107,6 @@ export default {
     preferHorizontalLayout: {
       type: Boolean,
       default: false
-    },
-    timeField: {
-      type: String,
-      default: "updatedAt",
-      validator: function (value) {
-        // The value must match one of these strings
-        return ["createdAt", "updatedAt"].indexOf(value) !== -1;
-      }
     }
   },
   data() {
@@ -142,9 +134,7 @@ export default {
       return "fas fa-clock";
     },
     timeValue() {
-      return this.timeField == "createdAt"
-        ? this.item.createdAt
-        : this.item.updatedAt;
+      return this.item.updatedAt;
     },
     defaultImageInlineStyle() {
       return `background: linear-gradient(37deg, ${this.stopColor1}, ${this.stopColor2});`

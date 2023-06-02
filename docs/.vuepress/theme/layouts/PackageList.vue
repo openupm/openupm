@@ -129,7 +129,6 @@
                 <LazyPackageCard
                   :item="pkg"
                   :prefer-horizontal-layout="preferHorizontalLayout"
-                  :time-field="timeField"
                 />
               </div>
             </div>
@@ -169,7 +168,6 @@ export default {
       sortList: [
         { text: this.$t("name"), value: SortType.name },
         { text: this.$t("popularity"), value: SortType.pop },
-        { text: this.$t("published-date"), value: SortType.createdAt },
         { text: this.$t("recently-updated"), value: SortType.updatedAt }
       ],
       unity: ""
@@ -224,8 +222,6 @@ export default {
       // Sort
       if (this.sort == SortType.updatedAt)
         pkgs = orderBy(pkgs, ["updatedAt"], ["desc"]);
-      else if (this.sort == SortType.createdAt)
-        pkgs = orderBy(pkgs, ["createdAt"], ["desc"]);
       else if (this.sort == SortType.pop)
         pkgs = orderBy(pkgs, ["stars"], ["desc"]);
       else if (this.sort == SortType.name)
@@ -266,13 +262,6 @@ export default {
 
     stateText() {
       return this.active ? this.$t("ready-to-use") : this.$t("pending");
-    },
-
-    timeField() {
-      if (this.sort == SortType.createdAt) {
-        return SortType.createdAt;
-      }
-      return SortType.updatedAt;
     },
 
     topic() {
