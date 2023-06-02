@@ -1,3 +1,11 @@
+## [1.55.3](https://github.com/openupm/openupm/compare/1.55.2...1.55.3) (2023-06-02)
+
+
+### Bug Fixes
+
+* **website:** remove the created_at sort option from the package list ([7c548ad](https://github.com/openupm/openupm/commit/7c548ad96877e682bf327fe8259e6f3aac997888))
+* **website:** show monthly downloads count on the package card (refs [#32](https://github.com/openupm/openupm/issues/32)) ([6fa5c4d](https://github.com/openupm/openupm/commit/6fa5c4d2c95853532c428ac7eb08686ed67c5dc1))
+
 ## [1.55.2](https://github.com/openupm/openupm/compare/1.55.1...1.55.2) (2023-06-02)
 
 
