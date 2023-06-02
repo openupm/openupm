@@ -1,3 +1,10 @@
+# [1.56.0](https://github.com/openupm/openupm/compare/1.55.3...1.56.0) (2023-06-02)
+
+
+### Features
+
+* **website:** add monthly downloads badge to package detail (refs [#32](https://github.com/openupm/openupm/issues/32)) ([de3eeea](https://github.com/openupm/openupm/commit/de3eeea531f38bf33d733c90ad1bd9026799e563))
+
 ## [1.55.3](https://github.com/openupm/openupm/compare/1.55.2...1.55.3) (2023-06-02)
 
 
