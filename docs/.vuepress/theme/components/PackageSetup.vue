@@ -160,7 +160,7 @@ export default {
     display: block;
     white-space: nowrap;
     overflow: hidden;
-    padding: 0.7rem;
+    padding: 0.7rem 0.5rem;
     font-size: 0.75rem;
     background-color: transparent;
     border: 1px solid $borderColor;
@@ -178,6 +178,12 @@ export default {
       position: absolute;
       right: 0.2rem;
       top: 0.1rem;
+    }
+
+    .fa, .fas {
+      margin-right: 0.4rem;
+      position: relative;
+      top: 0.07rem;
     }
   }
 }
