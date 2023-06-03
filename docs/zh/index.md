@@ -8,11 +8,11 @@ actionText: 使用指南
 actionLink: /zh/docs/
 features:
 - title: 开源 UPM 软件包仓库
-  details: 我们的 UPM 软件包仓库托管了超过 ... 个由社区精心筛选的开源软件包。
+  details: 托管超过 ... 个由社区精心筛选的开源软件包。
 - title: 自动化包发布
-  details: 使用 Git 标签跟踪自动化发布过程，确保您的软件包始终是最新的。
+  details: 使用 Git 标签跟踪自动化发布过程，保持软件包更新。
 - title: 命令行界面
-  details: 可选的 <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> 工具，用于管理软件包并与第三方 UPM 软件包管理器交互。
+  details: 可选用 <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> 工具管理软件包并与第三方 UPM 软件包仓库交互。
 noGlobalSocialShare: true
 ---
 

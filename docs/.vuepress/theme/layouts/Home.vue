@@ -87,7 +87,7 @@ export default {
           num += 1;
         }
       }
-      return Math.floor(num / 100) * 100;
+      return numeral(num).format("0,0");
     },
     stars() {
       const value = Number(this.$store.getters.siteInfo.stars);
