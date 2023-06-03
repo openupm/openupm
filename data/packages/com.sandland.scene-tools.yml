@@ -1,0 +1,22 @@
+name: com.sandland.scene-tools
+displayName: Sandland.SceneTools
+description: >-
+  Enhance your Unity scene management workflow with this powerful set of editor
+  tools.
+repoUrl: 'https://github.com/migus88/Sandland.SceneTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: migus88
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1685801000494
