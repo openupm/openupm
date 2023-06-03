@@ -72,8 +72,6 @@ gui: 用户界面
 has-no-valid-tag: OpenUPM跟踪遵循semver约定的Git标签。如果未检测到有效的Git标签，则该软件包将不会列在软件包列表中。
 has-not-succeeded-build: 软件包没有有效的版本。如果有正在进行的构建，请等待它们完成。如果所有构建都失败了，软件包将不会列在软件包列表中，直到构建出一个有效的版本。
 home: 首页
-hosting: 托管
-hosting-2: 个由社区选择的开源UPM软件包
 icpText: 京ICP备18005908号-2
 input-management: 输入管理
 install-openupm-cli: 安装 openupm-cli
@@ -90,7 +88,7 @@ invalid-git-tag-and: 无效的Git标签（非semver或重复的版本）
 latest: 最新
 learn-more: 了解更多
 level-design: 关卡设计
-license: 授权
+license: 软件许可证
 license-name: 开源许可证名称
 license-name-desc: 请指定许可证名称。
 loading-branches: 加载分支...
@@ -143,7 +141,7 @@ promote: 推广
 published-time: 发行时间
 readme: 简介
 readme-to-found: 暂时未能加载软件包简介，请稍后重试。
-last-publish: 最近更新
+last-publish: 最后发布
 region: 区域
 region-cn: 中国区
 region-us: 国际区
@@ -186,8 +184,6 @@ sponsor-service: 服务赞助商 🖥️
 sponsor-silver: 银牌赞助商 🥈
 sponsors: 赞助商
 sprite-management: 精灵管理
-star: 星标
-stars: 星标
 state: 软件包状态
 status: 服务监测
 submit-pr: 提交合并请求

@@ -7,12 +7,12 @@ heroText: Open Source Unity Package Registry
 actionText: Guide
 actionLink: /docs/
 features:
-- title: Open Source UPM Registry
-  details: Hosting community selective open source UPM packages
-- title: Continuous Publishing
-  details: Package publishing automation based on Git tags
+- title: UPM Registry for Open Source Packages
+  details: Hosting over ... open source packages, carefully selected by the community.
+- title: Automated Package Publishing
+  details: Tracking Git tags to automate the publishing process and ensure packages are always up-to-date.
 - title: Command-Line Interface
-  details: <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> for 3rd-party UPM registries
+  details: Optional <a href="https://github.com/openupm/openupm-cli">OpenUPM-CLI</a> tool for managing packages and interacting with 3rd-party UPM registries.
 noGlobalSocialShare: true
 ---
 
@@ -42,7 +42,7 @@ manifest updated, please open unity project to apply changes
 ```
 
 ::: warning DISCLAIMER
-OpenUPM is an open-source service, not an official service provided by Unity Technologies Inc.
+OpenUPM is an independent, open-source service and is not affiliated with Unity Technologies Inc.
 :::
 
 <style lang="stylus">

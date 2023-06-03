@@ -100,6 +100,7 @@
     "marked": "^4.0.10",
     "node-emoji": "^1.10.0",
     "node-tunnel": "^4.0.0",
+    "numeral": "^2.0.6",
     "nunjucks": "^3.2.2",
     "parse-github-url": "^1.0.2",
     "pg": "^7.18.1",

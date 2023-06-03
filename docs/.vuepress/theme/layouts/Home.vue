@@ -6,8 +6,8 @@
           <div>
             <h1 id="main-title">{{ $page.frontmatter.heroText }}</h1>
             <p class="action">
-              <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
               <NavLink class="btn btn-lg" :item="githubLink" />
+              <NavLink class="btn btn-lg btn-primary" :item="actionLink" />
             </p>
           </div>
         </div>
@@ -27,11 +27,11 @@
             <!-- eslint-disable-next-line vue/no-v-html -->
             <p v-if="index != 0" v-html="feature.details"></p>
             <p v-else>
-              {{ $t("hosting") }}
+              {{ hostingDescPart1 }}
               <strong class="pkg-count">{{
                 readyPackageCount || "..."
               }}</strong>
-              {{ $t("hosting-2") }}
+              {{ hostingDescPart2 }}
             </p>
           </div>
         </div>
@@ -46,6 +46,7 @@
 </template>
 
 <script>
+import numeral from 'numeral';
 import ParentLayout from "@theme/layouts/Layout.vue";
 import NavLink from "@theme/components/NavLink.vue";
 import PackageRecent from "@theme/components/PackageRecent.vue";
@@ -66,22 +67,35 @@ export default {
           this.$site.themeConfig.region == "cn"
             ? "https://github.com/openupm/openupm/blob/master/README.zh-cn.md"
             : this.$site.themeConfig.repo,
-        text: "GitHub",
+        text: "Stars " + this.stars,
         icon: "fab fa-github",
         iconLeft: true
       };
     },
+    hostingDescPart1() {
+      return this.$frontmatter.features[0].details.split("...")[0];
+    },
+    hostingDescPart2() {
+      return this.$frontmatter.features[0].details.split("...")[1];
+    },
     readyPackageCount() {
-      var cnt = 0;
+      var num = 0;
       const packagesExtra = this.$store.getters.packagesExtra;
       for (var name in packagesExtra) {
         const pkg = packagesExtra[name];
         if (pkg.ver) {
-          cnt += 1;
+          num += 1;
         }
       }
-      return cnt;
-    }
+      return Math.floor(num / 100) * 100;
+    },
+    stars() {
+      const value = Number(this.$store.getters.siteInfo.stars);
+      if (isNaN(value)) {
+        return "...";
+      }
+      return numeral(value).format("1.1a");
+    },
   }
 };
 </script>

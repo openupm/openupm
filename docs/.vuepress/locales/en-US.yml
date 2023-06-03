@@ -65,8 +65,6 @@ go-to-unity-project: Go to your Unity project directory
 has-no-valid-tag: OpenUPM tracks Git tags that follow the semver convention. If a valid Git tag is not detected, the package will not be listed on the package listing.
 has-not-succeeded-build: The package does not have a valid version. If there are builds in progress, please wait for them to finish. If all builds have failed, the package will not be listed on the package listing until a valid version is built.
 home: Home
-hosting: Hosting
-hosting-2: community selective open source UPM packages and counting
 install-openupm-cli: Install openupm-cli
 install-package: Install package
 install-via-command-line-interface: Install via Command-Line Interface

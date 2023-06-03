@@ -2,20 +2,16 @@
   <div class="nav-links hide-md">
     <div class="nav-item growth">
       <div class="btn-group">
-        <a :href="gitHubUrl" class="btn btn-sm"
-          ><i class="fa fa-star"></i> GitHub Stars <span>|</span>
-          <span class="stars">{{ stars }}</span></a
-        >
-        <a href="https://www.patreon.com/openupm" class="btn btn-sm"
-          ><i class="fab fa-patreon"></i> {{ $t("donate") }}</a
-        >
+        <a :href="gitHubUrl" class="btn btn-sm"><i class="fab fa-github"></i> Stars
+          <span class="stars">{{ stars }}</span></a>
+        <a href="https://www.patreon.com/openupm" class="btn btn-sm"><i class="fab fa-patreon"></i> {{ $t("donate") }}</a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import util from "@root/docs/.vuepress/util";
+import numeral from 'numeral';
 
 export default {
   components: {},
@@ -24,7 +20,11 @@ export default {
   },
   computed: {
     stars() {
-      return this.$store.getters.siteInfo.stars || "...";
+      const value = Number(this.$store.getters.siteInfo.stars);
+      if (isNaN(value)) {
+        return "...";
+      }
+      return numeral(value).format("1.1a");
     },
     gitHubUrl() {
       if (this.$site.themeConfig.region == "cn")

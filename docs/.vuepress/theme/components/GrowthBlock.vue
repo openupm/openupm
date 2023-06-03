@@ -4,13 +4,9 @@
       <div class="column col-12">
         <div class="btn-group">
           <NavLink :item="packagesLink" class="btn btn-sm" />
-          <a :href="gitHubUrl" class="btn btn-sm"
-            ><i class="fa fa-star"></i> GitHub Stars <span>|</span>
-            <span class="stars">{{ stars }}</span></a
-          >
-          <a href="https://www.patreon.com/openupm" class="btn btn-sm"
-            ><i class="fab fa-patreon"></i> Donate</a
-          >
+          <a :href="gitHubUrl" class="btn btn-sm"><i class="fab fa-github"></i> Stars
+            <span class="stars">{{ stars }}</span></a>
+          <a href="https://www.patreon.com/openupm" class="btn btn-sm"><i class="fab fa-patreon"></i> Donate</a>
         </div>
       </div>
     </div>
@@ -18,8 +14,8 @@
 </template>
 
 <script>
+import numeral from 'numeral';
 import NavLink from "@theme/components/NavLink.vue";
-import util from "@root/docs/.vuepress/util";
 
 export default {
   components: { NavLink },
@@ -36,7 +32,11 @@ export default {
       };
     },
     stars() {
-      return this.$store.getters.siteInfo.stars || "...";
+      const value = Number(this.$store.getters.siteInfo.stars);
+      if (isNaN(value)) {
+        return "...";
+      }
+      return numeral(value).format("1.1a");
     },
     gitHubUrl() {
       if (this.$site.themeConfig.region == "cn")

@@ -37,7 +37,7 @@
           <span>{{ unityVersion || "-" }}</span>
         </section>
         <section class="col-6">
-          <h2>GitHub Stars</h2>
+          <h2><i class="fab fa-github"></i> Stars</h2>
           <span>
             <i class="fa fa-star"></i>
             {{ pkg.stars }}
