@@ -1,0 +1,25 @@
+name: com.rest.blockadelabs
+displayName: BlockadeLabs
+description: A Non-Official Blockade Labs Rest Client for Unity (UPM)
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.blockadelabs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - ar-and-vr
+  - editor-enhancement
+  - integration
+  - level-design
+  - procedural-generation
+  - terrain
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Documentation~/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686423024250
