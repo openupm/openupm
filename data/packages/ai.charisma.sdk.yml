@@ -1,0 +1,22 @@
+name: ai.charisma.sdk
+displayName: Charisma.ai SDK
+description: Charisma.ai SDK for Unity
+repoUrl: 'https://github.com/charisma-ai/charisma-sdk-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+  - procedural-generation
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686421358050
