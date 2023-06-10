@@ -1,0 +1,19 @@
+name: ep.u3d.test
+displayName: EP.TEST
+description: Test package.
+repoUrl: 'https://github.com/eframework-cn/EP.TEST'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+topics:
+  - 2d
+hunter: eframework-cn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686374930268
