@@ -1,7 +1,7 @@
 name: ep.u3d.editor.pref
 displayName: EP.U3D.EDITOR.PREF
 description: Preferences tool provides prefs-config's edit and display function.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.PREF'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.PREF'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
