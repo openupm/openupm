@@ -1,11 +1,12 @@
 name: ep.u3d.library.ilr
 displayName: EP.U3D.LIBRARY.ILR
 description: ILRuntime module refers from https://github.com/Ourpalm/ILRuntime.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.ILR'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.ILR'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License License
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu

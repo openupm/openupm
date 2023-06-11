@@ -1,11 +1,12 @@
 name: ep.u3d.editor.proto
 displayName: EP.U3D.EDITOR.PROTO
 description: Protocol tool, generate protocol files(.proto/.h) to scripts(.cs/.lua).
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.PROTO'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.PROTO'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu

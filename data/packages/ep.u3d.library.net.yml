@@ -1,11 +1,12 @@
 name: ep.u3d.library.net
 displayName: EP.U3D.LIBRARY.NET
 description: Network module provides conn/cgi's connect/disconnect, sendmsg/sendcgi function.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.NET'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.NET'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu

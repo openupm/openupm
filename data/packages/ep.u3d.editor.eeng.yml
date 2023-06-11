@@ -1,11 +1,12 @@
 name: ep.u3d.editor.eeng
 displayName: EP.U3D.EDITOR.EENG
 description: Unity engine patcher, compare files' md5 and replace it, dir-tree strict.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.EENG'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.EENG'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu

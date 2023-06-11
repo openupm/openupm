@@ -1,11 +1,12 @@
 name: ep.u3d.editor.plat
 displayName: EP.U3D.EDITOR.PLAT
 description: Platform tool provides plat-config's edit and display function.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.PLAT'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.PLAT'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu

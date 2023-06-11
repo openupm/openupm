@@ -1,11 +1,12 @@
 name: ep.u3d.editor.patch
 displayName: EP.U3D.EDITOR.PATCH
 description: Patch workflow provides patch's bundle and push function.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.PATCH'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.PATCH'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
+  - eframework
   - frameworks
   - utilities
 hunter: wellshsu
