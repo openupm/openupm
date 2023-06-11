@@ -1,14 +1,14 @@
 name: ep.u3d.library.audio
 displayName: EP.U3D.LIBRARY.AUDIO
 description: Audio module provides sound/music's play/stop/pause/resume, base on audiotoolkit.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.AUDIO'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.AUDIO'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''

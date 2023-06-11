@@ -1,14 +1,14 @@
 name: ep.u3d.runtime.lua
 displayName: EP.U3D.RUNTIME.LUA
 description: LUA runtime module provides some library-level interface's wrap.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.RUNTIME.LUA'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.RUNTIME.LUA'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
