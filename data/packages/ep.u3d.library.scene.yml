@@ -1,7 +1,7 @@
 name: ep.u3d.library.scene
 displayName: EP.U3D.LIBRARY.SCENE
 description: Scene module provides scene's managemant, base on state-machine design mode.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.SCENE'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.SCENE'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
