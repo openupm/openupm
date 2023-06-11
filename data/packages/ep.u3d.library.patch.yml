@@ -1,14 +1,14 @@
 name: ep.u3d.library.patch
 displayName: EP.U3D.LIBRARY.PATCH
 description: Patch module provides assets and scripts(ilr/lua)'s diff-comparing, downloading, etc.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.LIBRARY.PATCH'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.PATCH'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''

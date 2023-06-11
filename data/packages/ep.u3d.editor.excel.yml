@@ -1,14 +1,14 @@
 name: ep.u3d.editor.excel
 displayName: EP.U3D.EDITOR.EXCEL
 description: Excel converter, generate excel(xlsx) to struct(cs/ilr/lua) and data(json).
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.EXCEL'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.EXCEL'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''

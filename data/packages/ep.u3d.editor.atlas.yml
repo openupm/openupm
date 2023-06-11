@@ -1,14 +1,14 @@
 name: ep.u3d.editor.atlas
 displayName: EP.U3D.EDITOR.ATLAS
 description: Atlas accelerator provides sprites to atlas function, based on texturepacker-free.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.ATLAS'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.ATLAS'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''

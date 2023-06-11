@@ -1,14 +1,14 @@
 name: ep.u3d.editor.arch
 displayName: EP.U3D.EDITOR.ARCH
 description: Archive accelerator provides build/push patch/archive functions.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.ARCH'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.ARCH'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
 topics:
   - frameworks
   - utilities
-hunter: wellshsu
+hunter: eframework-cn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
