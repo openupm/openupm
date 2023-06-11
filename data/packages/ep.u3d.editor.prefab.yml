@@ -1,7 +1,7 @@
 name: ep.u3d.editor.prefab
 displayName: EP.U3D.EDITOR.PREFAB
 description: Prefab accelerator provides prefab's browsing, editting, searching, etc.
-repoUrl: 'https://github.com/wellshsu/EP.U3D.EDITOR.PREFAB'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.EDITOR.PREFAB'
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0
