@@ -1,0 +1,28 @@
+name: com.rest.huggingface
+displayName: HuggingFace
+description: A Non-Official HuggingFace Rest Client for Unity (UPM)
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.huggingface'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - ai
+  - ar-and-vr
+  - audio
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - services
+  - utilities
+  - video
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:Documentation~/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686464720238
