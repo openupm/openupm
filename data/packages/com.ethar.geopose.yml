@@ -1,0 +1,22 @@
+name: com.ethar.geopose
+displayName: Ethar GeoPose implementation
+description: GeoPose specification V1.0 Unity implementation by Ethar.
+repoUrl: 'https://github.com/EtharInc/Ethar.GeoPose'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - frameworks
+  - integration
+  - utilities
+hunter: SimonDarksideJ
+gitTagPrefix: upm.*
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686599655982
