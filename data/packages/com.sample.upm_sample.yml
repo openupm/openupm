@@ -1,0 +1,19 @@
+name: com.sample.upm_sample
+displayName: DisplayName
+description: upm_sample_des
+repoUrl: 'https://github.com/DeanWen-Jiang/sample_openupm'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: DeanWen-Jiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686540523146
