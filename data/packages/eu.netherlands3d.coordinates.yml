@@ -1,0 +1,20 @@
+name: eu.netherlands3d.coordinates
+displayName: Netherlands 3D - Coordinates Conversion
+description: ''
+repoUrl: 'https://github.com/Netherlands3D/Coordinates'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - data-management
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686669123862
