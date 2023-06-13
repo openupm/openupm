@@ -1,0 +1,21 @@
+name: dev.comradevanti.gameobject-aspect
+displayName: GameObject Aspect
+description: Aspect-oriented programming for Unity GameObject
+repoUrl: 'https://github.com/ComradeVanti/UnityGameObjectAspect'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - code-generation
+  - data-management
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686659666527
