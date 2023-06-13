@@ -1,6 +1,6 @@
 name: com.gsr.tmproplayer
 displayName: TMPro Player
-description: "能够自定义并解析执行富文本标签的Unity打字机插件"
+description: "Custom Rich Text Tag Plugin Based on TextMeshPro"
 repoUrl: 'https://github.com/Giresharu/TMPro-Player'
 parentRepoUrl: null
 licenseSpdxId: ''
@@ -12,8 +12,8 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'master:README.md'
+readme: 'master:README-en.md'
 readme_zhCN: 'master:README.md'
 displayName_zhCN: ''
-description_zhCN: 能够自定义并解析执行富文本标签的Unity打字机插件
+description_zhCN: "基于 TextMeshPro 的自定义富文本标签插件"
 createdAt: 1685453778246
