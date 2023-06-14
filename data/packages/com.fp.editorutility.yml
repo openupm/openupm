@@ -1,0 +1,20 @@
+name: com.fp.editorutility
+displayName: Editor Utility
+description: Common editor utility
+repoUrl: 'https://github.com/FrameProjectTeam/Fp.Unity.EditorUtility'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Kaladrius2trip
+gitTagPrefix: v.
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686730765738
