@@ -9,7 +9,7 @@ topics:
   - editor-enhancement
   - utilities
 hunter: Kaladrius2trip
-gitTagPrefix: v.
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: ''
