@@ -11,7 +11,7 @@ hunter: Giresharu
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://github.com/Giresharu/TMPro-Player/raw/master/Assets/logo.png'
 readme: 'master:README-en.md'
 readme_zhCN: 'master:README.md'
 displayName_zhCN: ''
