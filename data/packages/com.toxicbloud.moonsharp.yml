@@ -1,0 +1,20 @@
+name: com.toxicbloud.moonsharp
+displayName: MoonSharp Unity
+description: A Unity package to embed MoonSharp in modern Unity versions
+repoUrl: 'https://github.com/toxicbloud/MoonSharpUnity'
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+topics:
+  - code-generation
+  - utilities
+hunter: toxicbloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686833174661
