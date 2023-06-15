@@ -107,7 +107,7 @@
     "semver": "^7.1.2",
     "serialize-javascript": "^3.1.0",
     "sharp": "^0.26.3",
-    "simple-git": "^3.5.0",
+    "simple-git": "^3.16.0",
     "spdx-license-list": "^6.1.0",
     "superagent": "^5.1.0",
     "url-join": "^4.0.1",
