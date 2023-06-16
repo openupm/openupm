@@ -12390,10 +12390,10 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.5.tgz#3694b5804567a458d3c8045842a6358632f62654"
   integrity sha512-J+FWzZoynJEXGphVIS+XEh3kFSjZX/1i9gFBaWQcB+/tmpe2qUsSBABpcxqxnAxFdiUFEgAX1bjYGQvIZmoz9Q==
 
-spdx-license-list@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/spdx-license-list/-/spdx-license-list-6.2.0.tgz#f81f6e73cb01535012d8014db375567110c652be"
-  integrity sha512-sHM1eQz+yYrKRIO5j/tzu3yWhbouQc2RYmCn5nNC296nVztW0VSlpJvmgsWPKAMEIqjfghXy3vvIwCbEOJPSHg==
+spdx-license-list@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/spdx-license-list/-/spdx-license-list-6.6.0.tgz#403e1807fd87ef2b4781677bc91896d23eaed4ea"
+  integrity sha512-vLwdf9AWgdJQmG8cai2HKfkInFsliKaCCOwXmdVonClIhdURTX61KdDOoXC1qcQ7gDaZj+CUTcrMJeAdnCtrKA==
 
 spdy-transport@^3.0.0:
   version "3.0.0"
