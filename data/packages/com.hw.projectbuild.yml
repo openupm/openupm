@@ -1,0 +1,19 @@
+name: com.hw.projectbuild
+displayName: ProjectBuild
+description: Project Auto Build
+repoUrl: 'https://github.com/ErkFu/ProjectBuild'
+parentRepoUrl: null
+licenseSpdxId: MulanPSL-2.0
+licenseName: 'Mulan Permissive Software License, Version 2'
+topics:
+  - version-control
+hunter: ErikFu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1686894727982
