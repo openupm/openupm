@@ -1,0 +1,22 @@
+name: com.zbase.foundation.polymorphic-structs
+displayName: ZBase.Foundation.PolymorphicStructs
+description: >-
+  Polymorphism for structs by the help of Source Generator. Inspired by
+  PhilSA/PolymorphicStructs.
+repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.PolymorphicStructs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: grashaar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687026848702
