@@ -1,0 +1,19 @@
+name: com.icosa.cscore
+displayName: CSCore
+description: 'An advanced audio library, written in C#. (Repackaged as Unity UPM package)'
+repoUrl: 'https://github.com/icosa-gallery/com.icosa.cscore'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Microsoft Public License
+topics:
+  - audio
+hunter: andybak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687093402830
