@@ -11,7 +11,7 @@ topics:
   - integration
   - utilities
 hunter: SimonDarksideJ
-gitTagPrefix: upm.*
+gitTagPrefix: upm-
 gitTagIgnore: ''
 minVersion: ''
 image: ''
