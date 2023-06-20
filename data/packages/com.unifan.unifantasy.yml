@@ -1,0 +1,19 @@
+name: com.unifan.unifantasy
+displayName: UniFantasy Core
+description: unifantasy core library
+repoUrl: 'https://github.com/821869798/unifantasy'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: '821869798'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
+displayName_zhCN: UniFantasy Core
+description_zhCN: unifantasy core library
+createdAt: 1687246608876
