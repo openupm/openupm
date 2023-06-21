@@ -1,0 +1,22 @@
+name: game.phonix.datatables
+displayName: DataTables
+description: Embedded Typed Readonly In-Memory Document Database for .NET Core and Unity.
+repoUrl: 'https://github.com/PhonixGame/DataTables'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - data-management
+  - modeling
+  - utilities
+hunter: hqcchina
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687332693731
