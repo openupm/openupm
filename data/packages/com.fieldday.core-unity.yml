@@ -1,0 +1,21 @@
+name: com.fieldday.core-unity
+displayName: Field Day Unity Core
+description: Core Unity3d ECS framework and utilities for Field Day Lab
+repoUrl: 'https://github.com/fielddaylab/core-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - debugging-and-logging
+  - utilities
+hunter: BeauchesneFieldDay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687380075695
