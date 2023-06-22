@@ -1,4 +1,4 @@
-name: com.focus-creative-games.hybridclr_unity
+name: com.code-philosophy.hybridclr
 displayName: HybridCLR
 description: >-
   Unity package for HybridCLR. It includes editor and runtime scripts and assets
@@ -12,7 +12,7 @@ topics:
 hunter: ldr123
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '3.0.0'
 image: ''
 readme: 'main:README.md'
 readme_zhCN: 'main:README.md'
