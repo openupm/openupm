@@ -1,0 +1,20 @@
+name: com.github.xaroth8088.networkstatemanager
+displayName: NetworkStateManager
+description: 'A framework to add server-authoritative, client-predictive physics to Unity'
+repoUrl: 'https://github.com/xaroth8088/NetworkStateManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - physics
+hunter: xaroth8088
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687524544345
