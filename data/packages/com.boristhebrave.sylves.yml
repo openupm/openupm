@@ -1,0 +1,21 @@
+name: com.boristhebrave.sylves
+displayName: Sylves
+description: Sylves is a pure C# utility for working with 2d and 3d grids
+repoUrl: 'https://github.com/BorisTheBrave/sylves'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - level-design
+  - procedural-generation
+  - terrain
+hunter: BorisTheBrave
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/BorisTheBrave/sylves/upm/Documentation%7E/images/logo_cropped.png'
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687613803543
