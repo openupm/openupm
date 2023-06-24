@@ -1,0 +1,19 @@
+name: com.Glib.arunityx
+displayName: Glib
+description: UPM fork of arunityx
+repoUrl: 'https://github.com/VGA-GLAB/G-Lab-Library'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+hunter: VGA-GLAB
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687595947046
