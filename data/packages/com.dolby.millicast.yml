@@ -1,0 +1,22 @@
+name: com.dolby.millicast
+displayName: Millicast
+description: A Unity package to publish and view Millicast streams.
+repoUrl: 'https://github.com/millicast/millicast-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unknown
+topics:
+  - integration
+  - services
+  - utilities
+  - video
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687724883998
