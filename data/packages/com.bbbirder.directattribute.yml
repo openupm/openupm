@@ -1,0 +1,22 @@
+name: com.bbbirder.directattribute
+displayName: Direct Attribute
+description: >-
+  Retrieve Attribute directly on runtime, meanwhile, retrieve target Type or
+  MemberInfo directly via a Attribute
+repoUrl: 'https://github.com/labbbirder/DirectRetrieveAttribute'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: labbbirder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: 快速检索Attribute、子类，通过Attribute获取目标type、memberInfo
+createdAt: 1687693364885
