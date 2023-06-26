@@ -1,0 +1,20 @@
+name: games.effortstar.animation-curve-monitor
+displayName: Animation Curve Monitor
+description: Syncs animation curve names with object renames.
+repoUrl: 'https://github.com/EffortStar/animation-curve-monitor'
+parentRepoUrl: 'https://github.com/gydisme/Unity-Game-Framwork'
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - animation
+  - editor-enhancement
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687764875964
