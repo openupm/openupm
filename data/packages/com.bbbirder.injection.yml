@@ -1,0 +1,23 @@
+name: com.bbbirder.injection
+displayName: Unity Injection
+description: "Unity注入模块，可以运行时改变被注入函数实现。"
+repoUrl: 'https://github.com/labbbirder/UnityInjection'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - debugging-and-logging
+  - integration
+  - profiling
+  - utilities
+hunter: labbbirder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1687861367586
