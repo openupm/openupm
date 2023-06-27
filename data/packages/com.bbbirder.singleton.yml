@@ -1,0 +1,19 @@
+name: com.bbbirder.singleton
+displayName: singleton
+description: "Unity单例模块"
+repoUrl: 'https://github.com/labbbirder/UnitySingleton'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: labbbirder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: unity单例模块
+createdAt: 1687853639532
