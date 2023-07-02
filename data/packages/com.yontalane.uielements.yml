@@ -1,0 +1,21 @@
+name: com.yontalane.uielements
+displayName: UI Elements
+description: A small library for Unity projects.
+repoUrl: 'https://github.com/yontalane/UnityPackages'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Creative Commons Attribution 3.0 United States
+topics:
+  - gui
+  - input-management
+  - utilities
+hunter: yontalane
+gitTagPrefix: com.yontalane.uielements/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.yontalane.uielements/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688282110134
