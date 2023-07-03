@@ -1,0 +1,19 @@
+name: com.skyisland.sdk_core
+displayName: SDKCore
+description: skyisland sdk core
+repoUrl: 'https://github.com/hua65540/SDKCore'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: JJJ
+topics:
+  - utilities
+hunter: hua65540
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: 'master:README.md'
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688368535419
