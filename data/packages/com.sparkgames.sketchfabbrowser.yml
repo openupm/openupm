@@ -1,0 +1,22 @@
+name: com.sparkgames.sketchfabbrowser
+displayName: Sketchfab Browser
+description: Browse & Fetch models from Sketchfab.com
+repoUrl: 'https://github.com/muammar-yacoob/Unity-Sketchfab-Browser'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ar-and-vr
+  - animation
+  - level-design
+  - modeling
+hunter: muammar-yacoob
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688473758500
