@@ -2,7 +2,7 @@ name: com.sparkgames.sketchfabbrowser
 displayName: Sketchfab Browser
 description: Browse & Fetch models from Sketchfab.com
 repoUrl: 'https://github.com/muammar-yacoob/Unity-Sketchfab-Browser'
-parentRepoUrl: null
+parentRepoUrl: 'https://github.com/muammar-yacoob'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
@@ -10,8 +10,7 @@ topics:
   - animation
   - level-design
   - modeling
-hunter: muammar-yacoob
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
