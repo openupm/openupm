@@ -1,0 +1,20 @@
+name: com.gilzoide.gesture-recognizers
+displayName: Gesture Recognizers
+description: Gesture Recognizer scripts based on Input and EventSystem handlers
+repoUrl: 'https://github.com/gilzoide/unity-gesture-recognizers'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - input-management
+  - mobile
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688643335283
