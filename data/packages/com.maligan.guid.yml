@@ -1,0 +1,20 @@
+name: com.maligan.guid
+displayName: GUID Component
+description: Unity GUID Component & Reference
+repoUrl: 'https://github.com/Maligan/unity-guid'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - level-design
+hunter: maligan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688759055724
