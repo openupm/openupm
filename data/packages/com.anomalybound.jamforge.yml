@@ -1,0 +1,25 @@
+name: com.anomalybound.jamforge
+displayName: JamForge
+description: >-
+  JamForge is a light-weight game development framework for Unity that
+  prioritizes usability over performance. While it is specifically designed to
+  excel in game jam environments, it is equally suitable for any game
+  development project.
+repoUrl: 'https://github.com/Anomalybound/jam-forge'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: Anomalybound
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm@0.1.1:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688755037910
