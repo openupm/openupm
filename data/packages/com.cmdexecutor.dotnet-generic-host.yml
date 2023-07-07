@@ -1,0 +1,22 @@
+name: com.cmdexecutor.dotnet-generic-host
+displayName: .NET Generic Host for Unity
+description: >-
+  .NET Generic Host (Microsoft.Extensions.Hosting) DI container adapted for
+  Unity, works with IL2CPP.
+repoUrl: 'https://github.com/amelkor/Microsoft.Extensions.Hosting.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: amelkor
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688748001740
