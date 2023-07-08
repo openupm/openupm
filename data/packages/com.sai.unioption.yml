@@ -1,5 +1,5 @@
 name: com.sai.unioption
-displayName: UniTask
+displayName: UniOption
 description: Option Monad for Unity
 repoUrl: 'https://github.com/Saismirk/UniOption'
 parentRepoUrl: null
