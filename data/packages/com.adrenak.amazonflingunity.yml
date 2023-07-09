@@ -1,0 +1,22 @@
+name: com.adrenak.amazonflingunity
+displayName: Amazon Fling Unity
+description: >-
+  A Unity wrapper over Amazon Fling Android SDK to cast videos to FireTV
+  devices.
+repoUrl: 'https://github.com/adrenak/AmazonFlingUnity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - video
+hunter: adrenak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688941649595
