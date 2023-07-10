@@ -1,0 +1,25 @@
+name: com.ahmadmansy.draco
+displayName: Draco 3D Data Compression
+description: >-
+  Draco is an open-source library for compressing and decompressing 3D geometric
+  meshes and point clouds. It is intended to improve the storage and
+  transmission of 3D graphics. This package allows you to apply Draco
+  compression to meshes, import Draco files and load them at runtime.
+repoUrl: 'https://github.com/AhmadMansy/DracoUnity'
+parentRepoUrl: 'https://github.com/atteneder/DracoUnity'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+  - modeling
+  - utilities
+hunter: AhmadMansy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688976849517
