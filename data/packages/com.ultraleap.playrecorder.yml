@@ -1,0 +1,21 @@
+name: com.ultraleap.playrecorder
+displayName: Ultraleap PlayRecorder
+description: Unity scene logic recorder tool for editor and builds.
+repoUrl: 'https://github.com/ultraleap/PlayRecorder'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - debugging-and-logging
+  - utilities
+  - video
+hunter: rorygames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688989626583
