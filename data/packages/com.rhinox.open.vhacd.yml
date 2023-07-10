@@ -1,0 +1,20 @@
+name: com.rhinox.open.vhacd
+displayName: VHACD
+description: Mesh decomposition algorithm forked from V-HACD
+repoUrl: 'https://github.com/Rhinox-Training/v-hacd-dll'
+parentRepoUrl: 'https://github.com/CW-Jesse/v-hacd-dll'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - procedural-generation
+  - physics
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1688979418730
