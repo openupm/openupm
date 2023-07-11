@@ -1,0 +1,21 @@
+name: com.orbitar.packageslist
+displayName: PackagesList
+description: ''
+repoUrl: 'https://github.com/alvmivan-packages/PackagesList'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - integration
+  - utilities
+  - version-control
+hunter: alvmivan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689092193981
