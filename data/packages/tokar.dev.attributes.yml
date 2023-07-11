@@ -1,0 +1,21 @@
+name: tokar.dev.attributes
+displayName: OT Attributes
+description: Unity editor custom inspector extensions.
+repoUrl: 'https://github.com/Tokars/unity_editor_attributes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: Tokars
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689065241975
