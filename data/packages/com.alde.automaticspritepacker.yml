@@ -1,0 +1,19 @@
+name: com.alde.automaticspritepacker
+displayName: Automatic Sprite Packer
+description: Automatic Sprite Packer allows to pack sprites into a sprite sheet.
+repoUrl: 'https://github.com/AldeRoberge/AutomaticSpritePacker'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+hunter: AldeRoberge
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689055923664
