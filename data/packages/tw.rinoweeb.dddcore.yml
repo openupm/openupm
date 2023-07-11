@@ -1,0 +1,19 @@
+name: tw.rinoweeb.dddcore
+displayName: Rino DDDCore
+description: Framework built based on DDD by Rino
+repoUrl: 'https://github.com/rino3390/UnityPackage'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: rino3390
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689038106233
