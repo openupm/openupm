@@ -1,0 +1,21 @@
+name: com.newrelic.unity
+displayName: NewRelic Unity
+description: NewRelic SDK for Unity
+repoUrl: 'https://github.com/ndesai-newrelic/newrelic-unity-agent'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - debugging-and-logging
+  - integration
+  - mobile
+hunter: ndesai-newrelic
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689179159093
