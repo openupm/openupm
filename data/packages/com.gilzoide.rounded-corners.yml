@@ -1,0 +1,23 @@
+name: com.gilzoide.rounded-corners
+displayName: Rounded Corners
+description: >-
+  UI MaskableGraphic components with rounded corners embedded in their meshes.
+
+  Use RoundedRect for solid graphics, RoundedTexture for rounded textures and
+  RoundedImage for rounded sprites.
+repoUrl: 'https://github.com/gilzoide/unity-rounded-corners'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - gui
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689375735896
