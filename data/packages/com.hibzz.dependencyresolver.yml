@@ -1,0 +1,21 @@
+name: com.hibzz.dependencyresolver
+displayName: hibzz.dependencyresolver
+description: >-
+  A tool used to resolve git dependencies in packages installed with Unity's
+  Package Manager
+repoUrl: 'https://github.com/hibzzgames/Hibzz.DependencyResolver'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-4.0
+licenseName: Creative Commons Attribution 4.0 International
+topics:
+  - package-management
+hunter: gekidoslair
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689454385629
