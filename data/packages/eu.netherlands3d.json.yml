@@ -1,0 +1,22 @@
+name: eu.netherlands3d.json
+displayName: Netherlands3D - JSON Extras
+description: A series of extras for working with JSON in the context of Netherlands3D
+repoUrl: 'https://github.com/Netherlands3D/Json-Extras'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - integration
+  - network
+  - services
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689756692244
