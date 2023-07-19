@@ -1,0 +1,19 @@
+name: com.plumed.avakitsdk
+displayName: Avakit SDK
+description: .
+repoUrl: 'https://github.com/avatokapp/AvakitSDK'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+topics:
+  - ar-and-vr
+hunter: hotsunchip
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689764261602
