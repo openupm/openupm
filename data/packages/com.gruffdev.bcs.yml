@@ -1,0 +1,21 @@
+name: com.gruffdev.bcs
+displayName: BCS
+description: Basic Components and Systems
+repoUrl: 'https://github.com/Clovergruff/bcs-unity'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+hunter: Clovergruff
+gitTagPrefix: com.gruffdev.bcs
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1689757722824
