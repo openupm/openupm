@@ -1,0 +1,25 @@
+name: com.dh.dh_stats
+displayName: DH Stats System
+description: >-
+  This system manages n-many stats in a way that allows m-many modifiers to be
+  applied and removed at random. Supported are stats of the types int, float and
+  bool. For int and float it supports the operations Set, Add and Multiply. It
+  solves the issue of recalculating lists of partially non commutative modifier
+  operations in an efficient way. Effects can be enabled to be stackable. Check
+  Github for full feature list.
+repoUrl: 'https://github.com/dirkhartlage/dh_stats'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: dirkhartlage
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690032833317
