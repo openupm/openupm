@@ -1,6 +1,6 @@
 name: com.matuyuhi.animationpro
 displayName: AnimationPro
-description: This is a UI and other animation system
+description: This is a UI animation system
 repoUrl: 'https://github.com/Matuyuhi/AnimationPro'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -12,7 +12,8 @@ hunter: Matuyuhi
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://user-images.githubusercontent.com/92073990/255220026-cd70e1b7-9630-4094-a000-4a9f8e8a54d4.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
