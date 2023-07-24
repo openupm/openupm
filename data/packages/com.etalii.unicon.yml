@@ -1,0 +1,22 @@
+name: com.etalii.unicon
+displayName: UniCon
+description: >-
+  Replacement of the Unity Console that is fully compatible with structured
+  logging using Serilog. Also heavily influenced by the Seq Centralized Logging
+  solution.
+repoUrl: 'https://github.com/vrenken/EtAlii.UniCon'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: vrenken
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Assets/com.etalii.unicon/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690187121933
