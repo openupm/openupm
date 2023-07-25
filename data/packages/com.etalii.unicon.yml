@@ -14,7 +14,7 @@ hunter: vrenken
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://github.com/vrenken/EtAlii.UniCon/blob/main/Assets/com.etalii.unicon/Documentation~/correlation-id-expression.png?raw=true'
 readme: 'main:Assets/com.etalii.unicon/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
