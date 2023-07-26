@@ -1,0 +1,21 @@
+name: com.revenantx.litenetlib
+displayName: LiteNetLib
+description: >-
+  Lite reliable UDP library for .NET Standard 2.0 (Mono, .NET Core, .NET
+  Framework)
+repoUrl: 'https://github.com/RevenantX/LiteNetLib'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: robinnorth
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.1-upm
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690388307287
