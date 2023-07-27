@@ -1,0 +1,20 @@
+name: eu.netherlands3d.sun
+displayName: 'Netherlands3D - Sun, Time of Day and Shadows'
+description: ''
+repoUrl: 'https://github.com/Netherlands3D/Sun'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - terrain
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690439548345
