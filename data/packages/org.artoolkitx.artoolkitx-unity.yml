@@ -1,0 +1,22 @@
+name: org.artoolkitx.artoolkitx-unity
+displayName: artoolkitX-Unity
+description: The artoolkitX for Unity augmented reality toolkit
+repoUrl: 'https://github.com/artoolkitx/arunityx'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LGPLv3 with optional static linking exception
+topics:
+  - ar-and-vr
+  - camera
+  - mobile
+  - video
+hunter: artoolkitx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690432782481
