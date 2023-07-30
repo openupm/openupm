@@ -1,0 +1,22 @@
+name: com.ale1.splashdown
+displayName: Splashdown
+description: Custom Editor Splash and Icon generator
+repoUrl: 'https://github.com/Ale1/Splashdown'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - mobile
+  - utilities
+hunter: ale1
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690739992476
