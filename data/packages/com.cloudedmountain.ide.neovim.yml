@@ -1,0 +1,22 @@
+name: com.cloudedmountain.ide.neovim
+displayName: Neovim Editor
+description: >-
+  Code editor integration for supporting Neovim as code editor for unity. Adds
+  support for generating csproj files for intellisense purposes, auto discovery
+  of installations, etc.
+repoUrl: 'https://github.com/Domeee/com.cloudedmountain.ide.neovim'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: SushiWaUmai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690712484275
