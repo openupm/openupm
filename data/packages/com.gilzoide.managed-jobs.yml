@@ -1,0 +1,20 @@
+name: com.gilzoide.managed-jobs
+displayName: Managed Jobs
+description: Use classes and other managed types with Unity's Job System
+repoUrl: 'https://github.com/gilzoide/unity-managed-jobs'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - dots-and-ecs
+  - parallelism-and-concurrency
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690745824049
