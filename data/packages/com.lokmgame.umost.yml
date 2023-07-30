@@ -1,0 +1,19 @@
+name: com.lokmgame.umost
+displayName: UMost
+description: "Unityèµ\x84æº\x90å·¥å\N·å\x90\x88é\x9B\x86ï¼\x8Cå\x8C\Nå\x90«ç\x89¹æ\x95\x88ã\x80\x81è´´å\x9B¾ã\x80\x81æ¨¡å\x9E\x8Bã\x80\x81æ\x9D\x90è´¨ã\x80\x81ç\x9D\x80è\x89²å\x99¨ç\x9B¸å\N³å·¥å\N·"
+repoUrl: 'https://github.com/LokmGame/UMost'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - integration
+hunter: LokmGame
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'v1.0.1:README.md'
+readme_zhCN: 'v1.0.1:README.md'
+displayName_zhCN: UMost
+description_zhCN: Unity资源工具合集，包含特效、贴图、模型、材质、着色器相关工具
+createdAt: 1690729077229
