@@ -1,0 +1,22 @@
+name: eu.netherlands3d.periodic-snapshots
+displayName: Netherlands3D - Periodic Snapshots
+description: >-
+  This package provides the means to do take a series of snapshots for specific
+  moments throughout the year
+repoUrl: 'https://github.com/Netherlands3D/PeriodicSnapshots'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - camera
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690784970882
