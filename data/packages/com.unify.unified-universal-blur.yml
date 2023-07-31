@@ -1,0 +1,24 @@
+name: com.unify.unified-universal-blur
+displayName: Unified Universal Blur
+description: >-
+  Unified Universal Blur is a package that allows you to use the blur effect in
+  URP.
+repoUrl: 'https://github.com/lukakldiashvili/Unified-Universal-Blur'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - animation
+  - gui
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690828743313
