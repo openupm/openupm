@@ -1,0 +1,19 @@
+name: org.plunderludics.unityhawk
+displayName: UnityHawk
+description: Run emulated games within Unity via BizHawk
+repoUrl: 'https://github.com/plunderludics/unity-hawk'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: iatenothingbutriceforthreedays
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690787631756
