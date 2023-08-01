@@ -1,0 +1,24 @@
+name: com.vovgou.loxodon-framework-fody-bindingproxy
+displayName: Loxodon Framework Fody BindingProxy
+description: >-
+  This is a plugin for static weaving code that integrates BindingProxy.Fody
+  into a Unity project.
+repoUrl: 'https://github.com/vovgou/loxodon-framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: >-
+  master:Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody/Documentation~/README.md
+readme_zhCN: >-
+  master:Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody/Documentation~/README_CN.md
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1690892929059
