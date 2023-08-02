@@ -12,7 +12,7 @@ hunter: bnjco
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/UCL-VR/ubiq/blob/master/Documentation/docs/images/0f1c2fc3-2615-4f15-93c4-7533af6697eb.png?raw=true'
+image: 'https://raw.githubusercontent.com/UCL-VR/ubiq/master/Documentation/docs/images/0f1c2fc3-2615-4f15-93c4-7533af6697eb.png'
 readme: ''
 readme_zhCN: ''
 displayName_zhCN: ''

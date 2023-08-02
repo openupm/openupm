@@ -14,7 +14,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://sabresaurus.com/PlayerPrefsEditorScreenshot.png'
+image: null
 readme: 'master:README.md'
 createdAt: 1593885964019
 displayName_zhCN: PlayerPrefs编辑器和实用程序

@@ -14,8 +14,7 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
-image: >-
-  https://github.com/FredericRP/PopupHandler/blob/primary/Documentation~/images/popups.gif
+image: https://raw.githubusercontent.com/FredericRP/PopupHandler/primary/Documentation~/images/popups.gif
 readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

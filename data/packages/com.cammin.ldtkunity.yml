@@ -15,8 +15,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://raw.githubusercontent.com/Cammin/LDtkUnity/master/DocImages~/LdtkUnityBanner.png
+image: null
 readme: 'master:README.md'
 createdAt: 1605302431257
 displayName_zhCN: 关卡设计工具包（LDtk）的Unity集成

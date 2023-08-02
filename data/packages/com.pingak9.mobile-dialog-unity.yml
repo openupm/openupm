@@ -15,7 +15,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/PingAK9/Mobile-Dialog-Unity/blob/master/Img/iOSDate.png'
+image: 'https://raw.githubusercontent.com/j1mmyto9/unity-mobile-dialog-popup-native/main/Img/iOSDate.png'
 readme: 'package:README.md'
 createdAt: 1602622171599
 displayName_zhCN: mobile-dialog-unity

@@ -12,8 +12,7 @@ hunter: Luzifix
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/ShadowGroveGames/Webhooks-for-Discord/raw/b616d87437d0101509c9304f24d944fee23023ba/ShadowGroveGames/Webhooks%20for%20Discord/Examples/1.%20Send%20Simple%20Message/Sprites/Icon-Trans.png
+image: null
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

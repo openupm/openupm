@@ -12,8 +12,7 @@ hunter: criedel
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/klanggames/UIForia/raw/0010a12c0af1f736478f95cfa19484890e465475/docs/assets/img/uiforia_logo_black@2x.png
+image: null
 readme: 'master:README.md'
 createdAt: 1590586233469
 displayName_zhCN: UIForia

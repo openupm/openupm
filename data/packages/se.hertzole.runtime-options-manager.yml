@@ -12,8 +12,7 @@ hunter: Hertzole
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/Hertzole/runtime-options-manager/raw/7f7e36624f45bc3775c4e8573f7996252e4b3e84/Packages/se.hertzole.runtime-options-manager/Editor/Icons/SettingsManager%20Icon.png
+image: null
 readme: 'package:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

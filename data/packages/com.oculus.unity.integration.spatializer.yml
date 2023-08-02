@@ -11,8 +11,7 @@ hunter: Morbeavus
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/Trisgram/com.oculus.unity.integration/blob/main/Packages/com.oculus.unity.integration/.OculusIcon.png
+image: https://raw.githubusercontent.com/Trisgram/com.oculus.unity.integration/main/Packages/com.oculus.unity.integration/.OculusIcon.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

@@ -11,8 +11,7 @@ topics:
 hunter: acoppes
 gitTagPrefix: null
 gitTagIgnore: ''
-image: >-
-  https://github.com/acoppes/upmgitpusher/blob/master/images/example.gif?raw=true
+image: https://raw.githubusercontent.com/acoppes/unity-upm-gitpackagepusher/master/images/example.gif
 createdAt: 1587847192972
 displayName_zhCN: UnityPackageManagerGitPusher
 description_zhCN: Unity包管理器的Git Publish插件

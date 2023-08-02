@@ -14,9 +14,7 @@ topics:
 hunter: jeffcampbellmakesgames
 gitTagPrefix: upm/
 gitTagIgnore: ''
-image: >-
-  https://github.com/jeffcampbellmakesgames/unity-package-tools/raw/master/Documentation/Inspector.png
-readme: 'develop:readme.md'
+image: null
 createdAt: 1582441622120
 displayName_zhCN: JCMG打包工具
 description_zhCN: 一组开发人员工具，可简化为原生Unity Package Manager创建和分发软件包的过程。

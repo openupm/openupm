@@ -11,8 +11,7 @@ hunter: favoyang
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/Halodi/halodi-unity-package-registry-manager/raw/master/Resources/halodi-unity-package-registry-manager/halodi-unity-package-registry-manager-screenshot.png
+image: null
 readme: 'master:README.md'
 createdAt: 1590069530684
 displayName_zhCN: Halodi Unity软件包仓库管理器

@@ -14,7 +14,7 @@ hunter: FronkonGames
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/FronkonGames/GameWork-Foundation/blob/main/Media/banner.png'
+image: 'https://raw.githubusercontent.com/FronkonGames/GameWork-Foundation/main/Media/banner.png'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

@@ -12,8 +12,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://raw.githubusercontent.com/Hertzole/gold-player/gh-pages/docs/screenshots/editor.png
+image: null
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: Gold Player

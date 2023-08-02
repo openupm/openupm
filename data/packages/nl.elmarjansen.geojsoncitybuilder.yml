@@ -12,8 +12,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://media.githubusercontent.com/media/ElmarJ/Waterlooplein3D/master/Jodenbreestraat.png
+image: null
 readme: 'master:README.md'
 createdAt: 1591988192052
 displayName_zhCN: GeoJSON 城市构建器
