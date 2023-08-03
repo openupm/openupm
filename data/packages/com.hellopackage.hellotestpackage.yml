@@ -1,0 +1,19 @@
+name: com.hellopackage.hellotestpackage
+displayName: Hello Test Package
+description: testing of package
+repoUrl: 'https://github.com/utkarsh5e/HelloTestPackage'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - utilities
+hunter: utkarsh5e
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691071398893
