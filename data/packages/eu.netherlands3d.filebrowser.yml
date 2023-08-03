@@ -1,0 +1,21 @@
+name: eu.netherlands3d.filebrowser
+displayName: Netherlands 3D - Filebrowser
+description: A file browser for unity standalone and WebGL platforms
+repoUrl: 'https://github.com/Netherlands3D/FileBrowser'
+parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - gui
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691063568577
