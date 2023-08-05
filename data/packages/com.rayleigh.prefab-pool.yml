@@ -1,0 +1,21 @@
+name: com.rayleigh.prefab-pool
+displayName: Prefab Pool
+description: >-
+  Efficient and lazy object pool, designed to use with the prefabs referenced by
+  a component.
+repoUrl: 'https://github.com/s-rayleigh/PrefabPool'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: s-rayleigh
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691192237261
