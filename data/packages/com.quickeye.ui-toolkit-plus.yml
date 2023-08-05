@@ -14,8 +14,7 @@ hunter: ErnSur
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/ErnSur/UI-Toolkit-Plus/blob/0d49e95b5ea020ea22cec67ef7658195c44b152d/Documentation~/tabs.gif
+image: https://raw.githubusercontent.com/ErnSur/UI-Toolkit-Plus/0d49e95b5ea020ea22cec67ef7658195c44b152d/Documentation~/tabs.gif
 readme: 'upm:README.md'
 createdAt: 1592662533723
 displayName_zhCN: QuickEye UI工具包+

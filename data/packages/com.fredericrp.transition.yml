@@ -16,8 +16,7 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.2'
-image: >-
-  https://github.com/FredericRP/ScreenTransitions/blob/primary/Documentation~/images/transition_demo.gif
+image: https://raw.githubusercontent.com/FredericRP/ScreenTransitions/primary/Documentation~/images/transition_demo.gif
 readme: 'primary:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
