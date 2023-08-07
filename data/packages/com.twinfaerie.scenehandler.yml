@@ -1,0 +1,20 @@
+name: com.twinfaerie.scenehandler
+displayName: TwinFaerie Scene-Handler
+description: For standarize scene change behaviour using login scene as overlay
+repoUrl: 'https://github.com/TwinFaerie/twinfaerie-scenehandler'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: CuteRogue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691382870876
