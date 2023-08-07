@@ -24,7 +24,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install
-      run: yarn install
+      uses: nick-fields/retry@v2
+      with:
+        timeout_minutes: 5
+        max_attempts: 3
+        command: yarn install
     - name: yarn test
       run: yarn test
 
@@ -97,7 +101,11 @@ jobs:
       with:
         node-version: '14.x'
     - name: yarn install
-      run: yarn install
+      uses: nick-fields/retry@v2
+      with:
+        timeout_minutes: 5
+        max_attempts: 3
+        command: yarn install
     - name: yarn docs:build
       run: |
         # Set region to us
@@ -130,7 +138,11 @@ jobs:
       with:
         node-version: '14.x'
     - name: yarn install
-      run: yarn install
+      uses: nick-fields/retry@v2
+      with:
+        timeout_minutes: 5
+        max_attempts: 3
+        command: yarn install
     - name: yarn docs:build
       run: |
         # Set region to cn
