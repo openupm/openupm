@@ -1,0 +1,22 @@
+name: com.hibzz.definemanager
+displayName: hibzz.definemanager
+description: >-
+  A tool used to manage #defines in a project to enable/disable optional
+  features to supporting packages and to produce cleaner and more efficient code
+repoUrl: 'https://github.com/hibzzgames/Hibzz.DefineManager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - utilities
+hunter: sliptrixx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691382681743
