@@ -1,0 +1,20 @@
+name: com.twinfaerie.initializer
+displayName: TwinFaerie Initializer
+description: For standarize and easier system initialization on unity
+repoUrl: 'https://github.com/TwinFaerie/twinfaerie-initializer'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: CuteRogue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691372293262
