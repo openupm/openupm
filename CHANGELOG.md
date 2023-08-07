@@ -1,3 +1,10 @@
+## [1.56.2](https://github.com/openupm/openupm/compare/1.56.1...1.56.2) (2023-08-07)
+
+
+### Bug Fixes
+
+* **ci:** add retry for npm installation (refs [#4182](https://github.com/openupm/openupm/issues/4182)) ([0c84f8a](https://github.com/openupm/openupm/commit/0c84f8a902ddb1e4fc372bd16fb2f7eee7e94ae9))
+
 ## [1.56.1](https://github.com/openupm/openupm/compare/1.56.0...1.56.1) (2023-06-02)
 
 
