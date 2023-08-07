@@ -1,0 +1,21 @@
+name: eu.netherlands3d.obj-importer
+displayName: Netherlands 3D - Import .obj files
+description: Package for reading a 3D Model (.obj) and creating a GameObject from it
+repoUrl: 'https://github.com/Netherlands3D/objImporter'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - asset-management
+  - modeling
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691400268914
