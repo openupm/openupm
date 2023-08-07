@@ -18,7 +18,7 @@ jobs:
         redis-version: ${{ matrix.redis }}
     - name: ping redis
       run: redis-cli ping
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - name: set node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -37,7 +37,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: release
       uses: cycjimmy/semantic-release-action@v2
       with:
@@ -95,7 +95,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: set node.js 14.x
       uses: actions/setup-node@v3
       with:
@@ -132,7 +132,7 @@ jobs:
     needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v1
     - name: set node.js 14.x
       uses: actions/setup-node@v3
       with:
