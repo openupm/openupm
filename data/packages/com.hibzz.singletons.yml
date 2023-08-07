@@ -1,0 +1,19 @@
+name: com.hibzz.singletons
+displayName: hibzz.singletons
+description: A library of singletons for Unity
+repoUrl: 'https://github.com/hibzzgames/Hibzz.Singletons'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-4.0
+licenseName: Creative Commons Attribution 4.0 International
+topics:
+  - utilities
+hunter: sliptrixx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691382784453
