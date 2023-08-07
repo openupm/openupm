@@ -1,0 +1,20 @@
+name: com.hibzz.dropl
+displayName: hibzz.dropl
+description: A library used to exeute instructions over a period of time
+repoUrl: 'https://github.com/hibzzgames/Hibzz.Dropl'
+parentRepoUrl: null
+licenseSpdxId: CC-BY-4.0
+licenseName: Creative Commons Attribution 4.0 International
+topics:
+  - frameworks
+  - utilities
+hunter: sliptrixx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691382421439
