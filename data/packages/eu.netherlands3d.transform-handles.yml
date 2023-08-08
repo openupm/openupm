@@ -1,0 +1,22 @@
+name: eu.netherlands3d.transform-handles
+displayName: Netherlands3D - Transform Handles
+description: >-
+  Runtime transform handles, adapted from
+  https://github.com/pshtif/RuntimeTransformHandle
+repoUrl: 'https://github.com/Netherlands3D/Transform-Handles'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - input-management
+  - utilities
+hunter: TomSimons
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691499043082
