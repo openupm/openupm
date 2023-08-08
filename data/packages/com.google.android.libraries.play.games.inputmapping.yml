@@ -1,0 +1,21 @@
+name: com.google.android.libraries.play.games.inputmapping
+displayName: Input Mapping SDK
+description: Input SDK plugin for Google Play Games for PC
+repoUrl: 'https://github.com/playgameservices/play-games-input-sdk-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - input-management
+  - mobile
+  - services
+hunter: f1yingbanana
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691452110054
