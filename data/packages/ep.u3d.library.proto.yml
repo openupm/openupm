@@ -1,0 +1,20 @@
+name: ep.u3d.library.proto
+displayName: EP.U3D.LIBRARY.PROTO
+description: 'Lite and non-gc protobuf-net library, supports cs/ilr runtime.'
+repoUrl: 'https://github.com/eframework-cn/EP.U3D.LIBRARY.PROTO'
+parentRepoUrl: null
+licenseSpdxId: GPL-2.0
+licenseName: GNU General Public License v2.0
+topics:
+  - frameworks
+  - utilities
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://u3d.eframework.cn/Manual/ef-upm.png'
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691559774262
