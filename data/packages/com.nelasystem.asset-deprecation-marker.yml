@@ -1,0 +1,20 @@
+name: com.nelasystem.asset-deprecation-marker
+displayName: Asset Deprecation Marker
+description: Unity package that puts markers on deprecated assets
+repoUrl: 'https://github.com/zacx-z/Asset-Deprecation-Marker'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: zacx-z
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691565224093
