@@ -1,0 +1,21 @@
+name: com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin
+displayName: PlayerLoopAPI Runner Reflex plugin
+description: PlayerLoop customization API Runner Reflex Plugin
+repoUrl: 'https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: skelitheprogrammer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691612005939
