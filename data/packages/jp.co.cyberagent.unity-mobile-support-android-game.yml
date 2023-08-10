@@ -1,0 +1,19 @@
+name: jp.co.cyberagent.unity-mobile-support-android-game
+displayName: Mobile Support - Android Game
+description: Support package to integrate with Android GameMode and GameState APIs.
+repoUrl: 'https://github.com/CyberAgentGameEntertainment/UnityMobileSupport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: qua-iy
+gitTagPrefix: androidgame/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/MobileSupportAndroidGame/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691636174475
