@@ -1,0 +1,20 @@
+name: com.ellyality.random.core
+displayName: Ellyality Random
+description: Provide shader randomness functions
+repoUrl: 'https://github.com/Ellyality/package_randomness'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+  - utilities
+hunter: Elly2018
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'v1.1:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691634889002
