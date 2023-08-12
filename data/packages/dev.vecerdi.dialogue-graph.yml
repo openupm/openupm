@@ -1,4 +1,4 @@
-name: com.github.teodorvecerdi.dialoguegraph
+name: dev.vecerdi.dialogue-graph
 displayName: Dialogue Graph
 description: Open-source node-based tool for developing branching conversation trees
 repoUrl: 'https://github.com/TeodorVecerdi/DialogueGraph'
