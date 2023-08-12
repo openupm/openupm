@@ -1,0 +1,19 @@
+name: net.kaikoga.meshweaver
+displayName: MeshWeaver
+description: Procedurally build mesh data in Unity editor. Build LoD and collider along.
+repoUrl: 'https://github.com/kaikoga/MeshWeaver-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+hunter: kaikoga
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'release:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691878274601
