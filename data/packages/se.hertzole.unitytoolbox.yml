@@ -1,0 +1,20 @@
+name: se.hertzole.unitytoolbox
+displayName: Unity Toolbox
+description: A collection of useful tools and extensions for Unity games.
+repoUrl: 'https://github.com/Hertzole/unity-toolbox'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - frameworks
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'package:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1691935873876
