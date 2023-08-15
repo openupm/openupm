@@ -1,0 +1,23 @@
+name: com.someone-s.witai-webrequest
+displayName: WitAI RestAPI WebRequest Adapter
+description: >-
+  Package to call WitAI RestAPI (currently only TTS) directly without
+  WitAI/Meta-Voice-SDK asset package
+repoUrl: 'https://github.com/someone-s/witai-webrequest'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - audio
+  - integration
+  - network
+hunter: someone-s
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692085225181
