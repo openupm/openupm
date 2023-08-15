@@ -1,0 +1,22 @@
+name: ch.fcbg.eye-tracking
+displayName: Eye Tracking
+description: >-
+  A library package/framework to build a common base for our experiments that
+  use eye tracking.
+repoUrl: 'https://github.com/fcbg-hnp-vr/eye-tracking'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MPL-2.0
+topics:
+  - ar-and-vr
+  - data-management
+hunter: Eyap53
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Unity.EyeTracking/Packages/ch.fcbg.eye-tracking/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692114517929
