@@ -1,0 +1,19 @@
+name: com.poiyomi.toon
+displayName: Poiyomi Toon Shader
+description: Feature-rich shaders for Unity and VRChat.
+repoUrl: 'https://github.com/poiyomi/PoiyomiToonShader'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692218192741
