@@ -1,0 +1,20 @@
+name: com.quickeye.one-asset
+displayName: One Asset
+description: Extended asset loader and the best singleton implementation for Unity.
+repoUrl: 'https://github.com/ErnSur/One-Asset'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - data-management
+hunter: ErnSur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692215712090
