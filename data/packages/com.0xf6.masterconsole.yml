@@ -1,0 +1,21 @@
+name: com.0xf6.masterconsole
+displayName: MasterConsole
+description: >-
+  Master console is a package that adds the developer console, as well as the
+  necessary functionality for registering commands, variables, etc.
+repoUrl: 'https://github.com/0xF6/master.console'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+hunter: '0xF6'
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692247041567
