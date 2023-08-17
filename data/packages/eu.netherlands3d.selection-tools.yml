@@ -1,0 +1,20 @@
+name: eu.netherlands3d.selection-tools
+displayName: Netherlands3D - Selection Tools
+description: 'Tool to draw areas, and make selections'
+repoUrl: 'https://github.com/Netherlands3D/SelectionTools'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - input-management
+  - utilities
+hunter: TomSimons
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692282371417
