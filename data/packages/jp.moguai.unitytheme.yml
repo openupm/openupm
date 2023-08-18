@@ -1,0 +1,20 @@
+name: jp.moguai.unitytheme
+displayName: UnityTheme
+description: Manage Theme in Unity.
+repoUrl: 'https://github.com/YutaMiura/UnityTheme'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - gui
+  - utilities
+hunter: YutaMiura
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692352760551
