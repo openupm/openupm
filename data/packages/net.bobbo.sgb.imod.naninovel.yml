@@ -1,0 +1,22 @@
+name: net.bobbo.sgb.imod.naninovel
+displayName: Icy's SGB Mods - Naninovel Plugin
+description: Naninovel interactions for Icy's SGB mods
+repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.sgb.imod.naninovel'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BOBBO-NET Friendly MIT License
+topics:
+  - editor-enhancement
+  - integration
+  - localization
+  - utilities
+hunter: Iseeicy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692393665633
