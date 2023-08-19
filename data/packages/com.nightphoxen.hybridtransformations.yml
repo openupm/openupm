@@ -1,0 +1,24 @@
+name: com.nightphoxen.hybridtransformations
+displayName: Hybrid Transformations
+description: >-
+  Set of systems & data that allows bidirectional synchronization of
+  UnityEngine.Transform data between MonoBehaviour <-> Entities sides.
+repoUrl: 'https://github.com/VergilUa/EntitiesExt'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - dots-and-ecs
+  - frameworks
+  - parallelism-and-concurrency
+hunter: VergilUa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692450950376
