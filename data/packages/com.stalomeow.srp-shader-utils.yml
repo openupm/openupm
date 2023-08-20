@@ -1,0 +1,20 @@
+name: com.stalomeow.srp-shader-utils
+displayName: Shader Utils for SRP
+description: Utilities for SRP shaders.
+repoUrl: 'https://github.com/stalomeow/ShaderUtilsForSRP'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: stalomeow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692533296958
