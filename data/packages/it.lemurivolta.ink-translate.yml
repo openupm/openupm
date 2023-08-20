@@ -1,0 +1,21 @@
+name: it.lemurivolta.ink-translate
+displayName: Ink Translate
+description: Ink Translate is a Unity package to handle the translation process of ink projects.
+repoUrl: 'https://github.com/lemurivolta/ink-translate'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - integration
+  - localization
+hunter: RedGlow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692532066202
