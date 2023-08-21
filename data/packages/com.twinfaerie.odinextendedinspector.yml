@@ -1,0 +1,19 @@
+name: com.twinfaerie.odinextendedinspector
+displayName: TwinFaerie Odin-Extended-Inspector
+description: More Attribute for Odin Inspector
+repoUrl: 'https://github.com/TwinFaerie/twinfaerie-odinextendedinspector'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: CuteRogue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692623446966
