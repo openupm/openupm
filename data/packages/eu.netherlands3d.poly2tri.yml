@@ -1,0 +1,22 @@
+name: eu.netherlands3d.poly2tri
+displayName: poly2tri
+description: >-
+  Unity Package version of the poly2tri library:
+  https://github.com/Unity-Technologies/poly2tri-cs
+repoUrl: 'https://github.com/Netherlands3D/poly2tri'
+parentRepoUrl: 'https://github.com/Unity-Technologies/poly2tri-cs'
+licenseSpdxId: ''
+licenseName: BSD-3-Clause
+topics:
+  - procedural-generation
+  - utilities
+hunter: TomSimons
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:CHANGELOG.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692609002368
