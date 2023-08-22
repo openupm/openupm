@@ -1,0 +1,19 @@
+name: jp.nobnak.snoise
+displayName: SNoise
+description: Procedural Noise CGINCs
+repoUrl: 'https://github.com/nobnak/HLSLNoise'
+parentRepoUrl: 'https://github.com/ashima/webgl-noise'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692662975487
