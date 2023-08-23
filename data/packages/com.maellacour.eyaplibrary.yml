@@ -1,0 +1,19 @@
+name: com.maellacour.eyaplibrary
+displayName: Eyap Library
+description: My library of common tools and methods for my unity projects.
+repoUrl: 'https://github.com/Eyap53/eyap-library'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MPL-2.0
+topics:
+  - utilities
+hunter: Eyap53
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Unity_EyapLibrary/Packages/com.maellacour.eyap-library/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692802083333
