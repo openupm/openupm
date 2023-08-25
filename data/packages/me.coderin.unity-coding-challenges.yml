@@ -1,0 +1,22 @@
+name: me.coderin.unity-coding-challenges
+displayName: UniCode
+description: >-
+  Learn Unity with coding challenges. Take exercises and challenges based on
+  short, fast-paced scripts.
+repoUrl: 'https://github.com/srichakradhar/unity-coding-challenges'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - code-generation
+  - debugging-and-logging
+hunter: srichakradhar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692962374117
