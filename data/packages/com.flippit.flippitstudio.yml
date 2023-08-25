@@ -1,0 +1,21 @@
+name: com.flippit.flippitstudio
+displayName: Flippit Studio
+description: >-
+  This plugin allows you to quickly and easily convert any NPC Character to
+  Smart NPC with ai personality
+repoUrl: 'https://github.com/FlippitAI/unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ai
+hunter: blackantmaster
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1692945024745
