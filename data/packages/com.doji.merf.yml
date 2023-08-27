@@ -1,0 +1,20 @@
+name: com.doji.merf
+displayName: MERF
+description: An unofficial Unity port of the MERF viewer.
+repoUrl: 'https://github.com/julienkay/MERF-Unity-Viewer'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - editor-enhancement
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:readme.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693142711945
