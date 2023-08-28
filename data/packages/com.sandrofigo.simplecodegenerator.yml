@@ -1,0 +1,21 @@
+name: com.sandrofigo.simplecodegenerator
+displayName: Simple Code Generator
+description: A library for generating source code from templates in Unity
+repoUrl: 'https://github.com/sandrofigo/Simple-Code-Generator-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693228068932
