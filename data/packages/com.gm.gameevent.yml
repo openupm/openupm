@@ -1,0 +1,19 @@
+name: com.gm.gameevent
+displayName: Game Event
+description: Unity Game Event System
+repoUrl: 'https://github.com/Goatman1996/GameEvent'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+hunter: Goatman1996
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693218796683
