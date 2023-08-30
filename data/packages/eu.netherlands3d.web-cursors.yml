@@ -1,0 +1,21 @@
+name: eu.netherlands3d.web-cursors
+displayName: Netherlands3D - Web Cursors
+description: >-
+  MonoBehaviour and plugin allowing to change system cursor on WebGL
+  applications using jslib plugin
+repoUrl: 'https://github.com/Netherlands3D/WebCursors'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - utilities
+hunter: sambaas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693411293574
