@@ -1,0 +1,19 @@
+name: com.scellecs.morpeh
+displayName: Morpeh
+description: Fast and Simple ECS Framework for Unity Game Engine.
+repoUrl: 'https://github.com/scellecs/morpeh'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: skelitheprogrammer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693608264223
