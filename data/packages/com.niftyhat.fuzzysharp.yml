@@ -1,0 +1,20 @@
+name: com.niftyhat.fuzzysharp
+displayName: FuzzySharp Unity
+description: Fork of FuzzySharp by JakeBayer for publishing as a Unity Package
+repoUrl: 'https://github.com/NiftyHat/FuzzySharpUnity'
+parentRepoUrl: 'https://github.com/JakeBayer/FuzzySharp'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: niftyhat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693794460237
