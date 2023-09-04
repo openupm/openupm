@@ -1,0 +1,22 @@
+name: com.github-joc0de.visual-studio-solution-generator
+displayName: Unity Visual Studio Solution Generator
+description: >-
+  Visual Studio Solution Generator with improved developer productivity
+  especially when working with multi-package unity projects
+repoUrl: 'https://github.com/JoC0de/UnityVisualStudioSolutionGenerator'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: JoC0de
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693864056548
