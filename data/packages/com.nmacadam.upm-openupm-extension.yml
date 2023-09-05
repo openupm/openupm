@@ -1,0 +1,21 @@
+name: com.nmacadam.upm-openupm-extension
+displayName: UPM OpenUPM Extension
+description: >-
+  This package adds a custom dropdown menu item to the Package Manager window
+  for installing OpenUPM packages.
+repoUrl: 'https://github.com/nmacadam/com.nmacadam.upm-openupm-extension'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: nmacadam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693879239748
