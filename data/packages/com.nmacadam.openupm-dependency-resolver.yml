@@ -1,0 +1,22 @@
+name: com.nmacadam.openupm-dependency-resolver
+displayName: OpenUPM Dependency Resolver
+description: >-
+  This package adds support for resolving packages hosted on OpenUPM as package
+  dependencies.
+repoUrl: 'https://github.com/nmacadam/com.nmacadam.openupm-dependency-resolver'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - package-management
+hunter: nmacadam
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1693889990520
