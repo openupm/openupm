@@ -1,0 +1,23 @@
+name: com.robproductions.stellarunitybuild
+displayName: Stellar Unity Build
+description: >-
+  Stellar Unity Build is a fork of the powerful automation tool SuperUnityBuild.
+  This extension package adds several new features to provide better control of
+  your automated build pipeline.
+repoUrl: 'https://github.com/RobProductions/StellarUnityBuild'
+parentRepoUrl: 'https://github.com/superunitybuild/buildtool'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: robproductions
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694039270510
