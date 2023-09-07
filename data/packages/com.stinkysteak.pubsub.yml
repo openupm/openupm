@@ -1,0 +1,20 @@
+name: com.stinkysteak.pubsub
+displayName: Pub-Sub Framework
+description: Publish Subscribe framework
+repoUrl: 'https://github.com/StinkySteak/com.stinkysteak.pubsub'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: stinkysteak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694053673833
