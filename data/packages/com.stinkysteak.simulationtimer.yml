@@ -1,0 +1,20 @@
+name: com.stinkysteak.simulationtimer
+displayName: Simulation Timer
+description: Efficient and Scalable Frame Timer
+repoUrl: 'https://github.com/StinkySteak/Unity-Simulation-Timer'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: stinkysteak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694053787633
