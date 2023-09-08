@@ -1,0 +1,24 @@
+name: com.fp.handlerengine
+displayName: Network Handler Engine
+description: >-
+  A framework for organizing data handling and sending. Message types are
+  procedure and request-response. A protocol is generated based on the
+  definition of its interfaces. This is not a network library for communication,
+  it is an extension for organizing an application protocol.
+repoUrl: 'https://github.com/FrameProjectTeam/NetHandlerEngine'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - code-generation
+  - network
+hunter: Kaladrius2trip
+gitTagPrefix: v.
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694156887339
