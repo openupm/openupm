@@ -1,7 +1,7 @@
 name: net.bobbo.camera-manager
 displayName: Camera Manager
 description: Extensible camera management with Cinemachine
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.camera-manager'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License

@@ -1,7 +1,7 @@
 name: net.bobbo.json-data
 displayName: JSON Data
 description: A wrapper for working with JSON Data
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.json-data'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License

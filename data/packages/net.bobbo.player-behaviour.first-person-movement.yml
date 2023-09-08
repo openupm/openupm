@@ -1,7 +1,7 @@
 name: net.bobbo.player-behaviour.first-person-movement
 displayName: Player Behaviour 1st Person Movement
 description: First person movement functionality for the Bobbo-Net Player Controller
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.player-behaviour.first-person-movement'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License

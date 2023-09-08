@@ -1,7 +1,7 @@
 name: net.bobbo.dev-console
 displayName: Development Console
 description: An in-game developer console.
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.dev-console'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License

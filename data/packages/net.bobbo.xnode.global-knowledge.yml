@@ -1,7 +1,7 @@
 name: net.bobbo.xnode.global-knowledge
 displayName: Global Knowledge XNode
 description: 'Globally available player knowledge, exposed through XNode!'
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.xnode.global-knowledge'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
