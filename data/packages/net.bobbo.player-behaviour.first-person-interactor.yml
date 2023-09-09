@@ -2,7 +2,7 @@ name: net.bobbo.player-behaviour.first-person-interactor
 displayName: Player Behaviour 1st Person Interactor
 description: First person interaction functionality for the Bobbo-Net Player Controller
 repoUrl: >-
-  https://github.com/BOBBO-NET/net.bobbo.player-behaviour.first-person-interactor
+  https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License

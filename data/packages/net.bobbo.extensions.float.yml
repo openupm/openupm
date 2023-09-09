@@ -1,7 +1,7 @@
 name: net.bobbo.extensions.float
 displayName: Float Extensions
 description: Extension methods for C#'s float Type
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.extensions.float'
+repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
