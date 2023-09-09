@@ -8,7 +8,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - audio
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.fmod-reverb-manager/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

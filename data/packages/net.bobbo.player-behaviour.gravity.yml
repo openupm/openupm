@@ -8,7 +8,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - input-management
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.player-behaviour.gravity/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

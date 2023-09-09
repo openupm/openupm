@@ -9,7 +9,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - input-management
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.player-behaviour.first-person-interactor/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

@@ -8,7 +8,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - utilities
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.extensions.float/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

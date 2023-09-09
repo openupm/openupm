@@ -9,7 +9,7 @@ topics:
   - gui
   - utilities
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.global-knowledge/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

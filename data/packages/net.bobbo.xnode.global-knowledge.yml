@@ -9,7 +9,7 @@ topics:
   - data-management
   - visual-scripting
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.xnode.global-knowledge/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

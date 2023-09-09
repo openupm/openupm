@@ -8,7 +8,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - camera
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.camera-manager/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

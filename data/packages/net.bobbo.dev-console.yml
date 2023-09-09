@@ -9,7 +9,7 @@ topics:
   - gui
   - testing
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.dev-console/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
