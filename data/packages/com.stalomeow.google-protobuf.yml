@@ -1,4 +1,4 @@
-name: com.google.protobuf
+name: com.stalomeow.google-protobuf
 displayName: Protocol Buffers
 description: >-
   Protocol Buffers (a.k.a., protobuf) are Google's language-neutral,
