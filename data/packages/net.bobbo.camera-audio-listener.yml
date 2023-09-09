@@ -9,7 +9,7 @@ topics:
   - audio
   - camera
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.camera-audio-listener/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

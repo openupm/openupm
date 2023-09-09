@@ -9,7 +9,7 @@ topics:
   - gui
   - utilities
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.dev-console.camera-manager/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''

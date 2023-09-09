@@ -8,7 +8,7 @@ licenseName: BOBBO-NET Friendly MIT License
 topics:
   - editor-enhancement
 hunter: Iseeicy
-gitTagPrefix: ''
+gitTagPrefix: 'net.bobbo.editor.search-window/'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
