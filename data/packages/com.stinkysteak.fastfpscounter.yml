@@ -1,0 +1,19 @@
+name: com.stinkysteak.fastfpscounter
+displayName: Fast FPS Counter
+description: Fast FPS Conter
+repoUrl: 'https://github.com/StinkySteak/fast-fps-counter'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - profiling
+hunter: StinkySteak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694324144993
