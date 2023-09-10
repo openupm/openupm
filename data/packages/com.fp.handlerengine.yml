@@ -13,7 +13,7 @@ topics:
   - code-generation
   - network
 hunter: Kaladrius2trip
-gitTagPrefix: v.
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: ''
