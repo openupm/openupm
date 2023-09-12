@@ -1,0 +1,23 @@
+name: com.abambini.acciaio
+displayName: Acciaio
+description: >-
+  C# library for Unity. It contains various extension methods and serializable types to use in editor and at runtime. It also offers an entire architecture to manage the game flow thorugh the 'Systems'.
+repoUrl: 'https://github.com/ACCIAI0/acciaio'
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+topics:
+  - data-management
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: ACCIAI0
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694527145554
