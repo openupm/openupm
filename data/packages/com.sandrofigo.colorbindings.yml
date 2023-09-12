@@ -1,0 +1,23 @@
+name: com.sandrofigo.colorbindings
+displayName: Color Bindings
+description: >-
+  A Unity extension to store colors that are then automatically applied to UI
+  components
+repoUrl: 'https://github.com/sandrofigo/Color-Bindings-Unity3D'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: sandrofigo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694516387484
