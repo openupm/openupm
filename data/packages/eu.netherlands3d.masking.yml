@@ -1,0 +1,20 @@
+name: eu.netherlands3d.masking
+displayName: Netherlands3D - Masking
+description: Realtime masking of materials for use cases like looking at the underground
+repoUrl: 'https://github.com/Netherlands3D/Masking'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - terrain
+  - utilities
+hunter: sambaas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694605038374
