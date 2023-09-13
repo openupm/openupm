@@ -1,0 +1,21 @@
+name: com.beardphantom.fastnoiselite
+displayName: FastNoiseLite for Unity
+description: A port and customization of FastNoiseLite for Unity.
+repoUrl: 'https://github.com/thebeardphantom/FastNoiseLite_Unity'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+  - integration
+  - procedural-generation
+hunter: thebeardphantom
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.beardphantom.fastnoiselite/LICENSE.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694583416258
