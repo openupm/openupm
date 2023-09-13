@@ -5,6 +5,8 @@ description: >-
   inspectors
 repoUrl: 'https://github.com/needle-tools/shadergraph-markdown'
 parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Custom
 topics:
   - editor-enhancement
   - particles-and-effects
