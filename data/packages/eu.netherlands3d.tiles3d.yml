@@ -1,0 +1,19 @@
+name: eu.netherlands3d.tiles3d
+displayName: Netherlands 3D - 3DTiles
+description: enables the use of 3DTilesets
+repoUrl: 'https://github.com/Netherlands3D/3DTiles'
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+topics:
+  - terrain
+hunter: mvangog
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694608719357
