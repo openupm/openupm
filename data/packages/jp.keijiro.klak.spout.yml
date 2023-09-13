@@ -1,0 +1,19 @@
+name: jp.keijiro.klak.spout
+displayName: KlakSpout
+description: Cross-process texture sharing plugin (Spout protocol)
+repoUrl: 'https://github.com/keijiro/KlakSpout'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - utilities
+hunter: iLinaza
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1694600623964
