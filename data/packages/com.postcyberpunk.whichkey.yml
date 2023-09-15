@@ -1,0 +1,19 @@
+name: com.postcyberpunk.whichkey
+displayName: WhichKey
+description: a sequencer shortcut tool for unity
+repoUrl: 'https://github.com/PostCyberPunk/WhichKey.Unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: PostCyberPunk
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: 'upm:README _ZH.md'
+displayName_zhCN: WhichKey.Unity
+description_zhCN: 一种高效舒适的Unity快捷键管理方式
+createdAt: 1694731061851
