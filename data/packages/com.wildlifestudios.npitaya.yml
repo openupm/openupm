@@ -1,0 +1,19 @@
+name: com.wildlifestudios.npitaya
+displayName: NPitaya
+description: Native pitaya server module for C#
+repoUrl: 'https://github.com/topfreegames/libpitaya-cluster'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - networking
+  - server
+  - pitaya
+gitTagPrefix: ''
+gitTagIgnore: '-master$'
+minVersion: ''
+image: ''
+imageFit: cover
+readme: 'master:README.md'
+hunter: felipejfc
