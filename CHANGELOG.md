@@ -1,3 +1,10 @@
+## [1.56.3](https://github.com/openupm/openupm/compare/1.56.2...1.56.3) (2023-09-18)
+
+
+### Bug Fixes
+
+* fix com.wildlifestudios.npitaya tags ([dc04e3d](https://github.com/openupm/openupm/commit/dc04e3d05e0cea405921c36e97e92cd278fe5978))
+
 ## [1.56.2](https://github.com/openupm/openupm/compare/1.56.1...1.56.2) (2023-08-07)
 
 
