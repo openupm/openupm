@@ -7,9 +7,8 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-  - networking
-  - server
-  - pitaya
+  - network
+  - services
 gitTagPrefix: ''
 gitTagIgnore: '-master$'
 minVersion: ''
