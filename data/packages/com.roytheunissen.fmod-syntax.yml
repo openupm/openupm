@@ -1,0 +1,22 @@
+name: com.roytheunissen.fmod-syntax
+displayName: FMOD Syntax
+description: Generates code to allow invoking FMOD events with a strongly-typed syntax.
+repoUrl: 'https://github.com/RoyTheunissen/FMOD-Syntax'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695223119684
