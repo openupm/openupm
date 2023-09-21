@@ -1,0 +1,24 @@
+name: eu.netherlands3d.simplejson
+displayName: Netherlands 3D - SimpleJSON
+description: >-
+  A fork of https://github.com/Bunny83/SimpleJSON to make it suitable for use
+  with OpenUPM.
+repoUrl: 'https://github.com/Netherlands3D/SimpleJSON'
+parentRepoUrl: 'https://github.com/Bunny83/SimpleJSON'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+  - network
+  - utilities
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:CHANGELOG.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695286947111
