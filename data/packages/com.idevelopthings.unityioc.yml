@@ -1,0 +1,22 @@
+name: com.idevelopthings.unityioc
+displayName: UnityIoc
+description: ''
+repoUrl: 'https://github.com/iDevelopThings/UnityIoc'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - editor-enhancement
+  - frameworks
+  - integration
+hunter: iDevelopThings/UnityIoc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695313885248
