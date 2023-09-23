@@ -10,8 +10,8 @@ topics:
 hunter: TayouVR
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
-image: ''
+minVersion: '8.1.167'
+image: 'https://camo.githubusercontent.com/1e27f22d472ec517e2a109f3ade329de7bd245ac6d27dfea1ea56bf0e5bc1387/68747470733a2f2f7777772e706f69796f6d692e636f6d2f696d672f6c6f676f2e737667'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
