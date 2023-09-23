@@ -1,0 +1,20 @@
+name: com.phwitti.find-editor-tools
+displayName: FindEditorTools
+description: Find Editor Tools (Ctrl+T)
+repoUrl: 'https://github.com/phwitti/unity-find-editor-tools'
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+topics:
+  - editor-enhancement
+  - utilities
+hunter: phwitti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695493568690
