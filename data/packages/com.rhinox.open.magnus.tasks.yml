@@ -1,0 +1,27 @@
+name: com.rhinox.open.magnus.tasks
+displayName: Magnus.Tasks - Task System Integration
+description: Flexible and Procedural Task System with Editor for Unity
+repoUrl: 'https://github.com/Rhinox-Training/magnus-tasks'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - integration
+  - level-design
+  - procedural-generation
+  - services
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695654080845
