@@ -12,7 +12,7 @@ topics:
   - frameworks
   - integration
   - utilities
-  - networking
+  - network
   - services
 hunter: kalambet
 gitTagPrefix: io.chainsafe.web3-unity.web3auth/
