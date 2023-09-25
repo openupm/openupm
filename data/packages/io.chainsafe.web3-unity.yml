@@ -1,0 +1,30 @@
+name: io.chainsafe.web3-unity
+displayName: web3.unity SDK
+description: >-
+  web3.unity is an open-source gaming SDK written in C# and developed by
+  ChainSafe Gaming. It connects games built in the Unity game engine to the
+  blockchain. The library currently supports games built for web browsers
+  (WebGL), iOS/Android mobile, and desktop. web3.unity is compatible with most
+  EVM-based chains such as Ethereum, Polygon, Moonbeam, Cronos, Nervos, and
+  Binance Smart Chain, letting developers easily choose and switch between them
+  to create the best in-game experience.
+repoUrl: 'https://github.com/ChainSafe/web3.unity'
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
+topics:
+  - frameworks
+  - integration
+  - utilities
+  - networking
+  - services
+hunter: kalambet
+gitTagPrefix: io.chainsafe.web3-unity/
+gitTagIgnore: ''
+minVersion: 2.5.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695632274872
