@@ -1,0 +1,21 @@
+name: com.github.kurotu.vrc-quest-tools
+displayName: VRCQuestTools
+description: Editor extension to support uploading VRChat Quest avatars
+repoUrl: 'https://github.com/kurotu/VRCQuestTools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - mobile
+  - utilities
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695625407028
