@@ -1,0 +1,19 @@
+name: com.enter_kratos.gameevents
+displayName: Game Events
+description: A no-frills ScriptableObject-based event system
+repoUrl: 'https://github.com/EnterKratos/com.enter_kratos.gameevents'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Creative Commons Zero v1.0 Universal
+topics:
+  - utilities
+hunter: EnterKratos
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695676393523
