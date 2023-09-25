@@ -1,0 +1,26 @@
+name: io.chainsafe.web3-unity.web3auth
+displayName: web3.unity SDK Web3Auth Plugin
+description: >-
+  Web3Atuh service support for web3.untiy SDK.
+  Easy users onboarding, one of the ways to handle
+  private keys.
+repoUrl: 'https://github.com/ChainSafe/web3.unity'
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
+topics:
+  - frameworks
+  - integration
+  - utilities
+  - networking
+  - services
+hunter: kalambet
+gitTagPrefix: io.chainsafe.web3-unity.web3auth/
+gitTagIgnore: ''
+minVersion: 2.5.0
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695632274872
