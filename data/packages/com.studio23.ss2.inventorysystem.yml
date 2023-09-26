@@ -1,0 +1,23 @@
+name: com.studio23.ss2.inventorysystem
+displayName: Inventory System
+description: >-
+  Streamline and enhance your game's inventory management with our Unity
+  package. This powerful tool simplifies the creation and management of player
+  inventories, making it easy to handle items, equipment, and resources,
+  allowing you to focus on crafting the ultimate gaming experience.
+repoUrl: 'https://github.com/Studio-23-xyz/Inventory-System'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'SS2-145-inventory-system-packaging:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695716345424
