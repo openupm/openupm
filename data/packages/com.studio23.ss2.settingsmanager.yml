@@ -1,0 +1,21 @@
+name: com.studio23.ss2.settingsmanager
+displayName: Settings Manager
+description: >-
+  A package to modify ingame settings such as, graphics, audio and input for
+  HDRP projects.
+repoUrl: 'https://github.com/Studio-23-xyz/HDRP_Settings'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695805631890
