@@ -1,0 +1,22 @@
+name: com.pixelrebels.fdb.components
+displayName: FuryDB Components
+description: Unity Components for integration with FuryDB
+repoUrl: 'https://github.com/ze0nni/FuryDB.Components'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - integration
+  - localization
+  - utilities
+hunter: ze0nni
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695820322091
