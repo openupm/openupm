@@ -1,0 +1,19 @@
+name: com.community.netcode.transport.azure-webpubsub
+displayName: Azure Web PubSub Transport for Netcode for GameObjects
+description: Azure Web PubSub Transport for Netcode for GameObjects
+repoUrl: 'https://github.com/albertxavier100/azure-web-pubsub-transport'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: albertxavier100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1695897050834
