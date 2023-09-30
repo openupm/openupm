@@ -1,0 +1,19 @@
+name: com.jcs090218.prefs
+displayName: Prefs
+description: Retrieve list of EditorPrefs/PlayerPrefs
+repoUrl: 'https://github.com/jcs090218/Unity.Prefs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: jcs090218
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696059275291
