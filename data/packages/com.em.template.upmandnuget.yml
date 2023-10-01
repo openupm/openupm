@@ -1,0 +1,19 @@
+name: com.em.template.upmandnuget
+displayName: EM.Template.UpmAndNuGet
+description: ''
+repoUrl: 'https://github.com/epishev-m/EM.Template.UpmAndNuGet'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696187729783
