@@ -1,0 +1,19 @@
+name: com.jcs090218.mx
+displayName: Mx
+description: M-x for Unity
+repoUrl: 'https://github.com/jcs090218/Unity.Mx'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: jcs090218
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696286263475
