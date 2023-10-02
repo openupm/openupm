@@ -1,0 +1,24 @@
+name: com.studio23.ss2.bettercursormanager
+displayName: Better Cursor Manager
+description: >-
+  Streamline and enhance your game's inventory management with our Unity
+  package. This powerful tool simplifies the creation and management of player
+  inventories, making it easy to handle items, equipment, and resources,
+  allowing you to focus on crafting the ultimate gaming experience.
+repoUrl: 'https://github.com/Studio-23-xyz/Better-Cursor-Manager'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696253468552
