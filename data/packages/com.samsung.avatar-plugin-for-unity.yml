@@ -1,0 +1,24 @@
+name: com.samsung.avatar-plugin-for-unity
+displayName: Avatar Plug-in for Unity
+description: |+
+  Samsung Avatar Plug-in for Unity.
+
+repoUrl: 'https://github.com/Samsung/avatar-plugin-for-unity'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - frameworks
+  - package-management
+  - version-control
+hunter: jeoungjukim
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696399338752
