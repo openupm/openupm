@@ -1,0 +1,21 @@
+name: com.benoitfreslon.vibration
+displayName: Vibration
+description: >-
+  Native free plugin for Unity for Android, iOS and WebGL. Use custom
+  vibrations/haptics on mobile.
+repoUrl: 'https://github.com/mfdeveloper/Vibration'
+parentRepoUrl: 'https://github.com/BenoitFreslon/Vibration'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - mobile
+hunter: mfdeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696409362460
