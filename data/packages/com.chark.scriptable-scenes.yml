@@ -1,0 +1,23 @@
+name: com.chark.scriptable-scenes
+displayName: Scriptable Scenes
+description: >-
+  Simple scene loading and management system for Unity Engine, implemented via
+  scriptable objects.
+repoUrl: 'https://github.com/chark/scriptable-scenes'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: Edvinas01
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696534871238
