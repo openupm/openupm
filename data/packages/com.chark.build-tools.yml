@@ -1,0 +1,22 @@
+name: com.chark.build-tools
+displayName: Build Tools
+description: >-
+  Editor utilities for quickly automating builds by utilizing Scriptable
+  Objects.
+repoUrl: 'https://github.com/chark/build-tools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Edvinas01
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696534708114
