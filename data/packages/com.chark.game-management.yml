@@ -1,0 +1,22 @@
+name: com.chark.game-management
+displayName: Game Management
+description: >-
+  Essential and minimalistic game management tools: messaging, service locator,
+  data-storage and more.
+repoUrl: 'https://github.com/chark/game-management'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: Edvinas01
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696534951373
