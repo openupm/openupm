@@ -1,0 +1,23 @@
+name: com.studio23.ss2.savesystem
+displayName: Save System
+description: >-
+  Save System is a framework to manage local and cloud saves. It provides simple
+  interface to save files and configure cloud saves of Steam or Xbox and other
+  platforms via extenstions
+repoUrl: 'https://github.com/Studio-23-xyz/SaveSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696594445490
