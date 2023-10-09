@@ -1,0 +1,19 @@
+name: com.em.foundation.uniex
+displayName: EM.Foundation.UniEx
+description: ''
+repoUrl: 'https://github.com/epishev-m/EM.Foundation.UniEx'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696854748087
