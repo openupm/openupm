@@ -1,0 +1,23 @@
+name: dev.krajnc.uitoolkittimeline
+displayName: UI Toolkit Timeline
+description: >-
+  Adds support for animating UI Toolkit elements with Timeline.
+
+  Contains clips for animating transform properties (position, rotation, scale),
+  visibility / display, and adding / removing classes.
+repoUrl: 'https://github.com/mihakrajnc/UITTimeline'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696863027268
