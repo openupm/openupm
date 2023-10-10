@@ -1,0 +1,26 @@
+name: com.unity.customlogger
+displayName: Custom Logger
+description: >-
+  The Centralized Enable/Disable Log Plugin is a powerful and versatile tool
+  designed to streamline and optimize the logging process in software
+  applications. This plugin serves as a centralized control hub for managing log
+  output, allowing developers to enable or disable various log levels and
+  categories at runtime without the need for recompilation.
+repoUrl: 'https://github.com/vikaspatel-unity/logger-unity-package'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: vikaspatel-unity
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'master:.github/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696916881537
