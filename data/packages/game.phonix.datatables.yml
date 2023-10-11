@@ -1,7 +1,7 @@
 name: game.phonix.datatables
 displayName: DataTables
 description: Embedded Typed Readonly In-Memory Document Database for .NET Core and Unity.
-repoUrl: 'https://github.com/PhonixGame/DataTables'
+repoUrl: 'https://github.com/ChronosGames/DataTables'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
