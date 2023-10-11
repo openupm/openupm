@@ -1,0 +1,23 @@
+name: com.bdeshi.helpers
+displayName: Bdeshi-dev's helper code
+description: >-
+  Contains misc. helper classes  for singletons, pooling, safe events,
+  extensions etc
+repoUrl: 'https://github.com/BDeshiDev/BDeshiHelpers'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - data-management
+  - input-management
+hunter: BDeshiDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1697023660064
