@@ -1,0 +1,19 @@
+name: com.studio23.ss2.savesystem.steam
+displayName: SaveSystemExtention.Steam
+description: savesystem.steam is an extention product for savesystem.
+repoUrl: 'https://github.com/Studio-23-xyz/SteamSaveSystem'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Assets/Packages/com.studio23.ss2.savesystem.steam/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1697113120471
