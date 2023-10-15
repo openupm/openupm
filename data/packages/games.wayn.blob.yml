@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/WAYN-Games/Blob'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: Unity Companion License
+licenseName: MIT
 topics:
   - data-management
   - dots-and-ecs
@@ -16,7 +16,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'main:README.md'
+readme: 'main:games.wayn.blob/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
