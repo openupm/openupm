@@ -3,7 +3,7 @@ displayName: Better Attributes
 description: >-
   Unity attributes, allows to serialize interfaces, draw handles for
   Vector3/Vector2/Quaternion/Bounds, create read only fields.
-repoUrl: 'https://github.com/uurha/BetterAttributes'
+repoUrl: 'https://github.com/techno-dwarf-works/better-attributes'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
