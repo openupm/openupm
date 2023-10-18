@@ -10,7 +10,7 @@ topics:
   - utilities
   - mobile
 hunter: atteneder
-gitTagPrefix: ''
+gitTagPrefix: 'com.atteneder.gltfast/'
 gitTagIgnore: ''
 image: null
 readme: 'main:README.md'
