@@ -1,0 +1,24 @@
+name: com.undefined.wwise-recorder
+displayName: Wwise Recorder
+description: |-
+  This adds a new recorder type to the Unity Recorder.
+
+  It comes with its own input and enables storing output as a .wav file.
+repoUrl: 'https://github.com/nehvaleem/com.undefined.wwise-recorder'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+  - editor-enhancement
+  - integration
+hunter: nehvaleem
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.MD'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1697823548085
