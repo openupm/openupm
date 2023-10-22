@@ -90,87 +90,16 @@ jobs:
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^app|^config|^data' && pm2 reload add-build-package-job || echo skip pm2 add-build-package-job reload
             git log -m --name-only -1 --pretty="format:" --first-parent master | grep -sqE '^data' && pm2 reload fetch-package-extra || echo skip pm2 fetch-package-extra reload
 
-  build-website-us:
-    runs-on: macos-latest
-    needs: test
-    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
-    steps:
-    - uses: actions/checkout@v1
-    - name: set node.js 14.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14.x'
-    - name: yarn install
-      uses: nick-fields/retry@v2
-      with:
-        timeout_minutes: 5
-        max_attempts: 3
-        command: yarn install
-    - name: yarn docs:build
-      run: |
-        # Set region to us
-        export OPENUPM_REGION=us
-        # Remove CN region content
-        rm -rf docs/zh
-        # Build
-        source env.sh
-        yarn docs:build
-        # Copy netlify.toml
-        cp netlify.toml ./docs/.vuepress/dist/
-    - name: deploy to openupm-website repo
-      uses: JamesIves/github-pages-deploy-action@3.6.2
-      with:
-        REPOSITORY_NAME: openupm/openupm-website
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
-        CLEAN: true
-        SINGLE_COMMIT: true
-        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_ACCESS_TOKEN }}
-
-  build-website-cn:
-    runs-on: macos-latest
-    needs: test
-    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
-    steps:
-    - uses: actions/checkout@v1
-    - name: set node.js 14.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14.x'
-    - name: yarn install
-      uses: nick-fields/retry@v2
-      with:
-        timeout_minutes: 5
-        max_attempts: 3
-        command: yarn install
-    - name: yarn docs:build
-      run: |
-        # Set region to cn
-        export OPENUPM_REGION=cn
-        # Overwrite homepage page
-        cp docs/zh/index.md docs/index.md
-        # Build
-        source env.sh
-        yarn docs:build
-    - name: deploy to openupm-website-cn repo
-      uses: JamesIves/github-pages-deploy-action@3.6.2
-      with:
-        REPOSITORY_NAME: openupm/openupm-website-cn
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
-        CLEAN: true
-        SINGLE_COMMIT: true
-        ACCESS_TOKEN: ${{ secrets.OPENUPM_WEBSITE_CN_ACCESS_TOKEN }}
-
-  deploy-website-cn:
+  build-website:
     runs-on: ubuntu-latest
-    needs: build-website-cn
+    needs: test
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     steps:
-    - name: deploy website
-      uses: JimCronqvist/action-ssh@master
-      with:
-        privateKey: ${{ secrets.PRIVATE_KEY }}
-        hosts: ${{ secrets.USER }}@${{ secrets.HOST_CN }}
-        command: |
-            /home/openupm/openupm-devops/scripts/deploy-website-cn.sh
+      - uses: convictional/trigger-workflow-and-wait@v1.6.5
+        with:
+          owner: openupm
+          repo: openupm-next
+          github_token: ${{ secrets.WORKFLOW_DISPATCH_ACCESS_TOKEN }}
+          workflow_file_name: ci.yml
+          ref: main
+          wait_workflow: false
