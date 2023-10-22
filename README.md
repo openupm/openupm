@@ -16,14 +16,11 @@
   <a href="https://github.com/openupm/openupm/actions">
     <img src="https://github.com/openupm/openupm/workflows/CI/badge.svg" />
   </a>
-  <a href="https://mergify.io">
-    <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/openupm/openupm&style=flat" />
-  </a>
   <a href="https://discord.gg/FnUgWEP">
     <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
   <a href="https://twitter.com/openupmupdate">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/openupmupdate?style=social">
+    <img alt="X Follow" src="https://img.shields.io/twitter/follow/openupmupdate?style=social">
   </a>
 </p>
 <p align="center">
