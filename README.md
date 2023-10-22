@@ -5,9 +5,6 @@
 </p>
 <h1 align="center">
   Open Source Unity Package Registry
-  <a href="https://twitter.com/intent/tweet?text=Get%20600%2B%20open-source%20Unity%20packages%20from%20the%20OpenUPM%20registry&url=https://openupm.com&hashtags=unity3d,openupm,upm,gamedev" alt="Tweet URL">
-    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
-  </a>
 </h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/openupm/deploys">
