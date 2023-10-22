@@ -7,7 +7,7 @@
   Open Source Unity Package Registry
 </h1>
 <p align="center">
-  <a href="https://app.netlify.com/sites/openupm/deploys">
+  <a href="https://app.netlify.com/sites/openupm-v2/deploys">
     <img src="https://api.netlify.com/api/v1/badges/4fe32e36-eacd-48ff-a151-94a3409623f6/deploy-status" />
   </a>
   <a href="https://dev.azure.com/openupm/openupm/_build/latest?definitionId=1&branchName=master">
