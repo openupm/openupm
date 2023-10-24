@@ -11,7 +11,8 @@ hunter: mackysoft
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://raw.githubusercontent.com/mackysoft/Navigathena/89fea0d7aa1b9604d077ebb71eea9d56f06d13d5/Images/Navigathena_Logo_OpenUPM.png
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
