@@ -1,0 +1,17 @@
+name: com.thisisvaze.xrhandinteractionstoolkit
+displayName: XR Hands Interaction Toolkit
+description: Description of your package
+repoUrl: https://github.com/thisisvaze/xr-hand-interactions-toolkit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - ar-and-vr
+hunter: thisisvaze
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698167397820
