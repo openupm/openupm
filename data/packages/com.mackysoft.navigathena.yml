@@ -1,0 +1,19 @@
+name: com.mackysoft.navigathena
+displayName: Navigathena
+description: 'Scene management framework for Unity.'
+repoUrl: 'https://github.com/mackysoft/Navigathena'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: mackysoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1696964511105
