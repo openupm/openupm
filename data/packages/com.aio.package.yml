@@ -1,6 +1,6 @@
 name: com.aio.package
-displayName: AIO Package Manager
-description: AIO Unity Package Manager
+displayName: AIO Unity Common
+description: AIO Unity Common
 repoUrl: https://github.com/AIO-GAME/Common
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -9,9 +9,11 @@ image: ''
 topics:
   - code-generation
   - editor-enhancement
-hunter: xinansky
+hunter: AIO-GAME
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:README.md
+readme: 'main:README.md'
 createdAt: 1698209025926
+displayName_zhCN: AIO Unity Common
+description_zhCN: Unity 通用函数基础库
