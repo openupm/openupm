@@ -13,5 +13,6 @@ hunter: xinansky
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:README.md
+readme: 'main:README.md'
+readme_zhCN: 'main:README.md'
 createdAt: 1698209025926
