@@ -1,0 +1,16 @@
+name: eu.netherlands3d.collada
+displayName: Netherlands3D - Collada Export
+description: StreamWrite a Collada .DAE file export
+repoUrl: https://github.com/Netherlands3D/ColladaExport
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+image: ''
+topics:
+  - utilities
+hunter: sambaas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698219507111
