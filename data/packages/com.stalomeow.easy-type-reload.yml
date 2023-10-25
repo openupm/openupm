@@ -1,0 +1,17 @@
+name: com.stalomeow.easy-type-reload
+displayName: Easy Type Reload
+description: A package helps disabling Domain Reloading in Unity easier.
+repoUrl: https://github.com/stalomeow/EasyTypeReload
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: stalomeow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698244706418
