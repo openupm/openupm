@@ -1,0 +1,15 @@
+name: com.gamesoft.zenject
+description: Dependency Injection Framework for Unity3D
+repoUrl: https://github.com/VTeselkin/zenject
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: UNLICENSED
+image: ''
+topics:
+  - frameworks
+hunter: VTeselkin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698183837156
