@@ -1,0 +1,16 @@
+name: com.gamesoft.tools
+displayName: Game Soft Tools
+description: Support game package
+repoUrl: https://github.com/VTeselkin/tools
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: UNLICENSED
+image: ''
+topics:
+  - mobile
+hunter: VTeselkin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698341389969
