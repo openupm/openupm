@@ -10,7 +10,7 @@ topics:
   - editor-enhancement
   - utilities
 hunter: no-slopes
-gitTagPrefix: v
+gitTagPrefix: upm/v
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
