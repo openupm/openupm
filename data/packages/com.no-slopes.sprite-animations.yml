@@ -12,10 +12,10 @@ topics:
   - sprite-management
   - utilities
 hunter: no-slopes
-gitTagPrefix: v
+gitTagPrefix: upm/v
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://camo.githubusercontent.com/7e790b55ddd2657b4ba29aec243dceff1ea32da0f810332132b0272a38767a46/68747470733a2f2f6e6f2d736c6f7065732e6769746875622e696f2f7370726974652d616e696d6174696f6e732f696d616765732f62616e6e65722e706e67'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
