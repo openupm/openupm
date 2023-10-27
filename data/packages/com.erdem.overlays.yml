@@ -1,6 +1,6 @@
 name: com.erdem.overlays
 displayName: E-Overlays
-description: This is an overlays package
+description: This is an overlays package to make some custom editors.
 repoUrl: https://github.com/erdemkly/EOverlays
 parentRepoUrl: null
 licenseSpdxId: MIT
