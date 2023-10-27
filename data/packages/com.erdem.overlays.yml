@@ -1,0 +1,19 @@
+name: com.erdem.overlays
+displayName: E-Overlays
+description: This is an overlays package
+repoUrl: https://github.com/erdemkly/EOverlays
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: erdemkly
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698387297819
