@@ -1,5 +1,5 @@
 name: com.beardphantom.bootstrap
-displayName: Fabric.Core
+displayName: Bootstrap
 description: A rock-solid mechanism for consistent, testable, and configurable application bootstrapping for Unity.
 repoUrl: 'https://github.com/thebeardphantom/Bootstrap'
 parentRepoUrl: null
