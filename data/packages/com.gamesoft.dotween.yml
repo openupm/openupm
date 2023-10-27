@@ -1,0 +1,18 @@
+name: com.gamesoft.dotween
+displayName: Game Soft DoTween
+description: Support game animation package
+repoUrl: https://github.com/VTeselkin/dotween
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: UNLICENSED
+image: ''
+topics:
+  - animation
+  - mobile
+  - utilities
+hunter: VTeselkin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698393336423
