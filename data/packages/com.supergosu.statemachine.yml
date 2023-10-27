@@ -1,0 +1,16 @@
+name: com.supergosu.statemachine
+displayName: Gosu StateMachine
+description: Simple StateMachine
+repoUrl: https://github.com/SuperGosu/StateMachine
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: SuperGosu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698369022664
