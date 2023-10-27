@@ -1,0 +1,16 @@
+name: eu.netherlands3d.cartesiantiles
+displayName: Netherlands3D - Cartesian Tiles
+description: Loads and unloads datasets in a cartesian coordinateSystem
+repoUrl: https://github.com/Netherlands3D/CartesianTiles
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+image: ''
+topics:
+  - terrain
+hunter: mvangog
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698391118944
