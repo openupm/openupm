@@ -1,0 +1,19 @@
+name: com.gilzoide.back-button-stack
+displayName: Back Button Stack
+description: >-
+  Easily manage a stack of objects that respond to the ESC button / Android back
+  button, so that only the top object handles it.
+repoUrl: https://github.com/gilzoide/unity-back-button-stack
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698464319421
