@@ -1,0 +1,18 @@
+name: com.dexsper.websocketobserver
+displayName: Unity Websockets Observer
+description: >-
+  This is a websocket wrapper for Unity designed to process JSON messages in the
+  handler way
+repoUrl: https://github.com/dexsper/UnityWebsocketsObserver
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dexsper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698763060664
