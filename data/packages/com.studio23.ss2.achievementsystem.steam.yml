@@ -1,0 +1,19 @@
+name: com.studio23.ss2.achievementsystem.steam
+displayName: com.studio23.ss2.achievementsystem.steam
+description: >-
+  This is an extension tool designed to simplify the process of creating folder
+  structures required for Unity packages that are published on  openupm.com.
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem.steam
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - services
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:Assets/Packages/com.studio23.ss2.achievementsystem.steam/README.md
+createdAt: 1698744669614
