@@ -1,0 +1,16 @@
+name: com.supergosu.singleton
+displayName: Gosu Singleton
+description: Gosu Singleton
+repoUrl: https://github.com/SuperGosu/Singleton
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: SuperGosu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698737151937
