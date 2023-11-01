@@ -1,3 +1,10 @@
+## [1.56.4](https://github.com/openupm/openupm/compare/1.56.3...1.56.4) (2023-11-01)
+
+
+### Bug Fixes
+
+* **pipelines:** add ReleaseReason.ConnectionTimeout to the RetryableReleaseReason list ([5271615](https://github.com/openupm/openupm/commit/5271615def0400666ec9f90989bda988afd04cdb))
+
 ## [1.56.3](https://github.com/openupm/openupm/compare/1.56.2...1.56.3) (2023-09-18)
 
 
