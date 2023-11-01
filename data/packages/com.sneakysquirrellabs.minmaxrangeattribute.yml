@@ -1,0 +1,20 @@
+name: com.sneakysquirrellabs.minmaxrangeattribute
+displayName: Min/max range attribute
+description: >-
+  A bounded (i.e., with a minimum and maximum) range attribute for Unity's
+  Vector2 and Vector2Int fields.
+repoUrl: https://github.com/matheusamazonas/min_max_range_attribute
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://matheusamazonas.net/min_max_range_attribute_site/assets/images/header.gif
+topics:
+  - editor-enhancement
+  - utilities
+hunter: matheusamazonas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698851828118
