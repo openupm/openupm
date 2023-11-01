@@ -1,0 +1,16 @@
+name: com.nowsprinting.test-helper.random
+displayName: Random Test Helper
+description: Wrapper and test stubs reference implementation for UnityEngine.Random
+repoUrl: https://github.com/nowsprinting/test-helper.random
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - testing
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698878990125
