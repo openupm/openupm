@@ -54,9 +54,9 @@ const ReleaseReason = new Enum({
   // Fatal clone
   RemoteSubmoduleUnavailable: 808,
   // Connection timeout
-  ConnectionTime: 900,
+  ConnectionTimeout: 900,
   // Connection timeout
-  HeapOutOfMemroy: 901
+  HeapOutOfMemroy: 901,
 });
 
 /* Release reasons that considered as the failure of build service. The
@@ -72,11 +72,11 @@ const RetryableReleaseReason = [
   ReleaseReason.ServiceUnavailable,
   ReleaseReason.GatewayTimeout,
   ReleaseReason.BuildTimeout,
-  ReleaseReason.BuildCancellation
+  ReleaseReason.BuildCancellation,
 ];
 
 module.exports = {
   ReleaseState,
   ReleaseReason,
-  RetryableReleaseReason
+  RetryableReleaseReason,
 };

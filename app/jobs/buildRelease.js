@@ -10,7 +10,7 @@ const sleep = util.promisify(setTimeout);
 const {
   ReleaseState,
   ReleaseReason,
-  RetryableReleaseReason
+  RetryableReleaseReason,
 } = require("../common/constant");
 const Release = require("../models/release");
 const { cleanRepoUrl, loadPackage } = require("../utils/package");
@@ -21,7 +21,7 @@ const {
   queueBuild,
   waitBuild,
   BuildStatus,
-  BuildResult
+  BuildResult,
 } = require("../utils/azure");
 const logger = require("../utils/log")(module);
 
@@ -44,10 +44,10 @@ let buildRelease = async function(packageName, version) {
     // Handle release build.
     await handleReleaseBuild(build, release);
   } catch (err) {
-    // If receives ETIMEDOUT, let it failed with reason ConnectionTime.
+    // If receives ETIMEDOUT, let it failed with reason ConnectionTimeout.
     if (err.code == "ETIMEDOUT") {
       release.state = ReleaseState.Failed.value;
-      release.reason = ReleaseReason.ConnectionTime.value;
+      release.reason = ReleaseReason.ConnectionTimeout.value;
       await Release.save(release);
       logReleaseError(release);
     }
@@ -99,7 +99,7 @@ const updateReleaseBuild = async function(buildApi, pkg, release) {
       repoUrl: cleanRepoUrl(pkg.repoUrl, "https"),
       repoBranch: release.tag,
       packageName: pkg.name,
-      packageVersion: release.version
+      packageVersion: release.version,
     };
     let build = await queueBuild(buildApi, definitionId, parameters);
     // eslint-disable-next-line require-atomic-updates
@@ -114,7 +114,7 @@ const waitReleaseBuild = async function(buildApi, release) {
   logger.debug(
     {
       rel: `${release.packageName}@${release.version}`,
-      buildId: release.buildId
+      buildId: release.buildId,
     },
     "wait build"
   );
@@ -141,7 +141,7 @@ const handleReleaseBuild = async function(build, release) {
     logger.info(
       {
         rel: `${release.packageName}@${release.version}`,
-        build: release.buildId
+        build: release.buildId,
       },
       "build succeeded"
     );
@@ -173,7 +173,7 @@ const logReleaseError = function(release) {
     {
       rel: `${release.packageName}@${release.version}`,
       build: release.buildId,
-      reason: release.reason
+      reason: release.reason,
     },
     "release failed"
   );
@@ -205,17 +205,13 @@ const getReasonFromBuildLogText = function(text) {
     } else {
       return ReleaseReason.BadRequest;
     }
-  } else if (text.includes("code E401"))
-    return ReleaseReason.Unauthorized;
+  } else if (text.includes("code E401")) return ReleaseReason.Unauthorized;
   else if (text.includes("code E403")) return ReleaseReason.Forbidden;
-  else if (text.includes("code E413"))
-    return ReleaseReason.EntityTooLarge;
+  else if (text.includes("code E413")) return ReleaseReason.EntityTooLarge;
   else if (text.includes("code E500")) return ReleaseReason.InternalError;
   else if (text.includes("code E502")) return ReleaseReason.BadGateway;
-  else if (text.includes("code E503"))
-    return ReleaseReason.ServiceUnavailable;
-  else if (text.includes("code E504"))
-    return ReleaseReason.GatewayTimeout;
+  else if (text.includes("code E503")) return ReleaseReason.ServiceUnavailable;
+  else if (text.includes("code E504")) return ReleaseReason.GatewayTimeout;
   else if (text.includes("code EPRIVATE")) return ReleaseReason.Private;
   else if (text.includes("code EJSONPARSE"))
     return ReleaseReason.PackageJsonParsingError;
@@ -224,9 +220,7 @@ const getReasonFromBuildLogText = function(text) {
     text.includes("JavaScript heap out of memory")
   )
     return ReleaseReason.HeapOutOfMemroy;
-  else if (text.includes("Invalid version") ||
-    text.includes("code EBADSEMVER")
-  )
+  else if (text.includes("Invalid version") || text.includes("code EBADSEMVER"))
     return ReleaseReason.InvalidVersion;
   else if (text.includes("Could not read from remote repository"))
     return ReleaseReason.RemoteRepositoryUnavailable;
