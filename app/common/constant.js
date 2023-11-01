@@ -10,7 +10,7 @@ const ReleaseState = new Enum({
   Pending: 0,
   Building: 1,
   Succeeded: 2,
-  Failed: 3
+  Failed: 3,
 });
 
 const ReleaseReason = new Enum({
@@ -73,6 +73,7 @@ const RetryableReleaseReason = [
   ReleaseReason.GatewayTimeout,
   ReleaseReason.BuildTimeout,
   ReleaseReason.BuildCancellation,
+  ReleaseReason.ConnectionTimeout,
 ];
 
 module.exports = {
