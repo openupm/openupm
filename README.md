@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Open Source Unity Package Registry
+  OpenUPM - Open Source Unity Package Registry
 </h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/openupm-v2/deploys">
