@@ -1,0 +1,19 @@
+name: com.rhinox.open.pulse
+displayName: Pulse - Multiplayer Heartbeat
+description: ''
+repoUrl: https://github.com/Rhinox-Training/rhinox-pulse
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+  - frameworks
+  - network
+  - utilities
+hunter: GDGRhinox
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1698915095775
