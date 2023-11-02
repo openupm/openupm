@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://openupm.com/">
-    <img width="180" src="https://raw.githubusercontent.com/openupm/openupm/master/docs/.vuepress/public/images/openupm-icon-256.png" alt="logo">
+    <img width="180" src="https://openupm.com/images/openupm-icon-256.png" alt="logo">
   </a>
 </p>
 <h1 align="center">
