@@ -1,0 +1,16 @@
+name: com.playdarium.serialize-property-serializer
+displayName: Serialize Property Serializer
+description: ''
+repoUrl: https://github.com/playdarium/serialize-property-serializer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: playdarium-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1698988060100
