@@ -1,0 +1,22 @@
+name: com.studio23.ss2.interactionsystem
+displayName: Interaction System
+description: >-
+  An interaction system that supports: Toggleable, Pickups, Inspectable etc.
+  types of interaction
+repoUrl: 'https://github.com/Studio-23-xyz/InteractionSystem'
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+topics:
+  - level-design
+  - utilities
+hunter: BDeshiDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 'v1.1.1'
+image: ''
+readme: 'upm:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1697028625967
