@@ -2,7 +2,7 @@ name: com.playdarium.package-tool
 displayName: Package Tool
 description: Tool for create unity packages
 repoUrl: https://github.com/playdarium/package-tool
-parentRepoUrl: null
+parentRepoUrl: https://github.com/jeffcampbellmakesgames/unity-package-tools
 licenseSpdxId: MIT
 licenseName: MIT License
 image: ''
