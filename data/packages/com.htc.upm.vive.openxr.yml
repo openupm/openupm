@@ -1,0 +1,40 @@
+name: com.htc.upm.vive.openxr
+displayName: VIVE OpenXR Plugin
+description: >-
+  The "VIVE OpenXR Plugin" package enables your application to run on VIVE
+  devices. 
+
+  This package is a bridge between VIVE devides and Unity OpenXR.
+
+  This package complements Unity's "OpenXR Plugin" package, and enables you to
+  use extra features, as listed in the following.
+
+
+  - Controller Input
+
+  - Hand Tracking
+
+  - Wrist Tracking
+
+  - Eye Gaze
+
+  - CompositionLayer
+
+  - Facial Tracking
+
+
+
+  You can view the documentation for additional information.
+repoUrl: https://github.com/ViveSoftware/VIVE-OpenXR
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Copyright 2017-2021, HTC Corporation. All rights reserved.
+image: ''
+topics:
+  - integration
+hunter: bdovaz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1699259654350
