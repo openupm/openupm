@@ -3,6 +3,7 @@ repoUrl: https://github.com/favoyang/unity-addressable-importer
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
+readme: master:README.md
 
 # Package info.
 name: com.littlebigfun.addressable-importer
