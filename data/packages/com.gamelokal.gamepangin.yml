@@ -12,7 +12,7 @@ topics:
   - frameworks
   - utilities
 hunter: RErwandi
-gitTagPrefix: ''
+gitTagPrefix: 'upm'
 gitTagIgnore: ''
 minVersion: ''
 image: ''
