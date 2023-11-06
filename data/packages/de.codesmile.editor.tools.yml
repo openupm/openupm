@@ -1,0 +1,18 @@
+name: de.codesmile.editor.tools
+displayName: CodeSmile EditorTools
+description: An assorted collection of editor-only tools and improvements.
+repoUrl: https://github.com/CodeSmile-0000011110110111/de.codesmile.editor.tools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/CodeSmile-0000011110110111/de.codesmile.editor.tools/blob/main/Media~/openupm-logo-600x300.png?raw=true
+topics:
+  - editor-enhancement
+  - utilities
+hunter: CodeSmile-0000011110110111
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1699292602094
