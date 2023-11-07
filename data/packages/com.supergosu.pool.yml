@@ -1,0 +1,16 @@
+name: com.supergosu.pool
+displayName: Gosu Pool
+description: Simple Gosu Pool
+repoUrl: https://github.com/SuperGosu/Pool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: SuperGosu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1699371570547
