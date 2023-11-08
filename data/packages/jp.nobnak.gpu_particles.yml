@@ -1,0 +1,16 @@
+name: jp.nobnak.gpu_particles
+displayName: GPU Particles
+description: ''
+repoUrl: https://github.com/nobnak/GPUParticles
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - particles-and-effects
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:readme.md
+createdAt: 1699420356118
