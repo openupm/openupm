@@ -1,0 +1,16 @@
+name: com.whynames.typewriterunity
+displayName: TypewriterforTMP
+description: TypeType again
+repoUrl: https://github.com/whynames/TypeWriterUnity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - gui
+hunter: whynames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1699440864474
