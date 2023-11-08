@@ -1,0 +1,17 @@
+name: com.innogames.asset-relations-viewer-addressables
+displayName: Asset Relations Viewer Addressables Addon
+description: Addon for the Asset Relations Viewer to support Unitys addressables system
+repoUrl: https://github.com/innogames/asset-relations-viewer-addressables
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1699458333780
