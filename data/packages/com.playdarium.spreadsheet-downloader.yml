@@ -1,0 +1,16 @@
+name: com.playdarium.spreadsheet-downloader
+displayName: Spreadsheet Downloader
+description: ''
+repoUrl: https://github.com/Playdarium/spreadsheet-downloader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Playdarium
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1699428654258
