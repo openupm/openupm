@@ -1,0 +1,16 @@
+name: com.playdarium.localization
+displayName: Localization
+description: Fast and simple localization utility
+repoUrl: https://github.com/Playdarium/localization
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Playdarium
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1699511345210
