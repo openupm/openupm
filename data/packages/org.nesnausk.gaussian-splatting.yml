@@ -1,0 +1,16 @@
+name: org.nesnausk.gaussian-splatting
+displayName: Gaussian Splatting
+description: 3D Gaussian Splatting rendering and tools
+repoUrl: https://github.com/aras-p/UnityGaussianSplatting
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.8.0
+readme: main:readme.md
+createdAt: 1699535729598
