@@ -1,0 +1,16 @@
+name: today.comes.saintsfield
+displayName: SaintsField
+description: A Unity plugin for field in inspector
+repoUrl: https://github.com/TylerTemp/SaintsField
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: TylerTemp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1699520285629
