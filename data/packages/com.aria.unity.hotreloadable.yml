@@ -1,6 +1,6 @@
 name: com.aria.unity.hotreloadable
 displayName: HotReloadable
-description: null
+description: ''
 repoUrl: 'https://github.com/TK-Aria/DynamicDispatching_Unity'
 parentRepoUrl: null
 licenseSpdxId: MIT

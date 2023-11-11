@@ -1,6 +1,6 @@
 name: com.nrjwolf.autoattachattributes
 displayName: Auto Attach Component Attributes
-description: null
+description: ''
 repoUrl: 'https://github.com/rfadeev/unity-auto-attach-component-attributes'
 parentRepoUrl: 'https://github.com/Nrjwolf/unity-auto-attach-component-attributes'
 licenseSpdxId: MIT

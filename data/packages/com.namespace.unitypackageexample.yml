@@ -1,6 +1,6 @@
 name: com.namespace.unitypackageexample
 displayName: Unity Package Example
-description: null
+description: ''
 repoUrl: 'https://github.com/favoyang/unity-package-example'
 parentRepoUrl: null
 licenseSpdxId: MIT

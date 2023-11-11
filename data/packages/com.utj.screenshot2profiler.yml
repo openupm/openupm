@@ -1,6 +1,6 @@
 name: com.utj.screenshot2profiler
 displayName: Screenshot to Profiler
-description: null
+description: ''
 repoUrl: 'https://github.com/wotakuro/ScreenshotToUnityProfiler'
 parentRepoUrl: null
 licenseSpdxId: MIT

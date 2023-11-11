@@ -1,6 +1,6 @@
 name: com.needle.compilation-visualizer
 displayName: Compilation Visualizer
-description: null
+description: ''
 repoUrl: 'https://github.com/needle-tools/compilation-visualizer'
 parentRepoUrl: null
 licenseSpdxId: MIT

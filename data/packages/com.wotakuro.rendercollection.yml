@@ -1,6 +1,6 @@
 name: com.wotakuro.rendercollection
 displayName: rendercollection
-description: null
+description: ''
 repoUrl: 'https://github.com/wotakuro/RendererToMeshCollection'
 parentRepoUrl: null
 licenseSpdxId: MIT

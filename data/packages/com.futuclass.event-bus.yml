@@ -1,6 +1,6 @@
 name: com.futuclass.event-bus
 displayName: Event Bus
-description: null
+description: ''
 repoUrl: 'https://github.com/Futuclass/EventBus'
 parentRepoUrl: null
 licenseSpdxId: MIT

@@ -1,6 +1,6 @@
 name: com.greenbuttongames.firebase.userdata
 displayName: GBG Firebase User Data
-description: null
+description: ''
 repoUrl: 'https://github.com/Mefodei/UniDataModule'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0

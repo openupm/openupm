@@ -1,6 +1,6 @@
 name: com.qonversion.unity
 displayName: Qonversion
-description: null
+description: ''
 repoUrl: 'https://github.com/qonversion/unity-sdk'
 parentRepoUrl: null
 licenseSpdxId: MIT

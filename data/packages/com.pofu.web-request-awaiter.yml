@@ -1,6 +1,6 @@
 name: com.pofu.web-request-awaiter
 displayName: WebRequsetAwaiter
-description: null
+description: ''
 repoUrl: 'https://github.com/pofulu/WebRequestAwaiter'
 parentRepoUrl: null
 licenseSpdxId: MIT

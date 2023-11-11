@@ -1,6 +1,6 @@
 name: com.pylons.unity.sdk.core
 displayName: Pylons SDK for Unity (Core)
-description: null
+description: ''
 repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'
 parentRepoUrl: null
 licenseSpdxId: MIT

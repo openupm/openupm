@@ -1,6 +1,6 @@
 name: com.namespace.unitypackageexample-subtree
 displayName: Unity Package Example Subtree
-description: null
+description: ''
 repoUrl: 'https://github.com/favoyang/unity-package-example-subtree'
 parentRepoUrl: null
 licenseSpdxId: MIT

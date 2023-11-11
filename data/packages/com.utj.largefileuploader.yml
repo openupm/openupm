@@ -1,6 +1,6 @@
 name: com.utj.largefileuploader
 displayName: largeFileUploader
-description: null
+description: ''
 repoUrl: 'https://github.com/wotakuro/UnityLargeFileUploader'
 parentRepoUrl: null
 licenseSpdxId: MIT

@@ -1,6 +1,6 @@
 name: com.rojo.colormanagement
 displayName: Color Management
-description: null
+description: ''
 repoUrl: 'https://github.com/JoseMiguelPizarro/ColorManager'
 parentRepoUrl: null
 licenseSpdxId: MIT

@@ -1,6 +1,6 @@
 name: io.devdog.general
 displayName: Devdog.io General Library
-description: null
+description: ''
 repoUrl: 'https://github.com/JuanJSAR/devdog-general'
 parentRepoUrl: 'https://github.com/andrea-repetto/devdog-general'
 licenseSpdxId: MIT

@@ -1,6 +1,6 @@
 name: com.unityextensions.dependencyinjection
 displayName: UnityExtensions.DependencyInjection
-description: null
+description: ''
 repoUrl: 'https://github.com/KuraiAndras/UnityExtensions.DependencyInjection'
 parentRepoUrl: null
 licenseSpdxId: MIT

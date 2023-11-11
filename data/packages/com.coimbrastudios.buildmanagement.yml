@@ -1,6 +1,6 @@
 name: com.coimbrastudios.buildmanagement
 displayName: CS Build Management
-description: null
+description: ''
 repoUrl: 'https://github.com/coimbrastudios/buildmanagement'
 parentRepoUrl: null
 licenseSpdxId: MIT

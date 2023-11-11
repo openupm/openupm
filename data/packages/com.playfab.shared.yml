@@ -1,6 +1,6 @@
 name: com.playfab.shared
 displayName: PlayFabShared
-description: null
+description: ''
 repoUrl: 'https://github.com/kamyker/PlayFabUnityShared'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
