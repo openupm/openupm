@@ -8,7 +8,7 @@ licenseName: MIT License
 topics:
   - animation
 hunter: Arno/Cat
-gitTagPrefix:
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-

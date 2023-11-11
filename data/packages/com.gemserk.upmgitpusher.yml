@@ -9,7 +9,7 @@ topics:
   - package-management
   - utilities
 hunter: acoppes
-gitTagPrefix: null
+gitTagPrefix: ''
 gitTagIgnore: ''
 image: https://raw.githubusercontent.com/acoppes/unity-upm-gitpackagepusher/master/images/example.gif
 createdAt: 1587847192972

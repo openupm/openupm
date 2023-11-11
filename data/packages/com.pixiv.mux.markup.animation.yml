@@ -11,7 +11,6 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 image: null
-readme: null
 createdAt: 1588978830744
 displayName_zhCN: Mux.Markup.Animation
 description_zhCN: Mux XAML的Unity Animation包装。

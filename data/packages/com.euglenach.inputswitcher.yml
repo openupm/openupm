@@ -11,4 +11,5 @@ image: null
 readme: 'master:README.md'
 displayName_zhCN: InputSwitcher
 description_zhCN: 使用Rx使输入分支安全且容易的库。
+hunter: favoyang
 createdAt: 1621973669039

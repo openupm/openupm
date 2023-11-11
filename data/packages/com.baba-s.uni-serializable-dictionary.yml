@@ -4,7 +4,7 @@ description: 【Unity】Dictionary を Inspector で設定できるようにす�
 repoUrl: 'https://github.com/baba-s/UniSerializableDictionary'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: null
+licenseName: ''
 topics:
   - utilities
 hunter: JesseTG
