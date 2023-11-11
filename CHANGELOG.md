@@ -1,3 +1,11 @@
+## [1.56.5](https://github.com/openupm/openupm/compare/1.56.4...1.56.5) (2023-11-11)
+
+
+### Bug Fixes
+
+* **data:** cleanup package metadata YAML files ([9c0c1da](https://github.com/openupm/openupm/commit/9c0c1da015456f27710909e7a760a302933beb1d))
+* **data:** cleanup the description field ([4911c18](https://github.com/openupm/openupm/commit/4911c1895512af1a4b496c10218fee747c8b0e57))
+
 ## [1.56.4](https://github.com/openupm/openupm/compare/1.56.3...1.56.4) (2023-11-01)
 
 
