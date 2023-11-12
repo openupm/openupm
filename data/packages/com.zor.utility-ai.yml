@@ -1,0 +1,18 @@
+name: com.zor.utility-ai
+displayName: Utility AI
+description: >-
+  Utility AI for Unity is a good solution for choosing an action based on
+  different utility considerations. Usually, it's used for AI.
+repoUrl: https://github.com/ZorPastaman/UtilityAI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: ZorPastaman
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1699787703277
