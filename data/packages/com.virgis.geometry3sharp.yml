@@ -2,7 +2,7 @@ name: com.virgis.geometry
 displayName: ViRGiS Geometry Package
 description: >-
   Unity library for 2D/3D geometric computation, mesh algorithms, and more.
-repoUrl: 'https://github.com/ViRGIS-Team/geometry3Sharp'
+repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS-Geometry'
 parentRepoUrl: 'https://github.com/ViRGIS-Team/ViRGiS-Geometry'
 licenseSpdxId: BSL-1.0
 licenseName: Boost Software License 1.0
