@@ -8,8 +8,6 @@ licenseSpdxId: BSL-1.0
 licenseName: Boost Software License 1.0
 topics:
   - utilities
-  - geometry
-  - 3D
 hunter: runette
 gitTagPrefix: ''
 gitTagIgnore: ''
