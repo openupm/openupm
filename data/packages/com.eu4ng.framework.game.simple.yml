@@ -1,0 +1,16 @@
+name: com.eu4ng.framework.game.simple
+displayName: Simple Game Framework
+description: Simple Game Framework for Unity
+repoUrl: https://github.com/Eu4ngUnity/unitypackage-simple-game-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: Eu4ng
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1699934710153
