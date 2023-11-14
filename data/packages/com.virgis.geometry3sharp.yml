@@ -1,20 +1,20 @@
-name: com.virgis.geometry3sharp
-displayName: Geometry 3 Sharp
+name: com.virgis.geometry
+displayName: ViRGiS Geometry Package
 description: >-
-  C# library for 2D/3D geometric computation, mesh algorithms, and so on. Boost
-  license.
+  Unity library for 2D/3D geometric computation, mesh algorithms, and more.
 repoUrl: 'https://github.com/ViRGIS-Team/geometry3Sharp'
-parentRepoUrl: 'https://github.com/gradientspace/geometry3Sharp'
+parentRepoUrl: 'https://github.com/ViRGIS-Team/ViRGiS-Geometry'
 licenseSpdxId: BSL-1.0
 licenseName: Boost Software License 1.0
 topics:
-  - utilities
+  - 3d
+  - Geometry
 hunter: runette
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.0.4
+minVersion: 3.0.0
 image: null
 readme: 'master:README.md'
 createdAt: 1604871013551
-displayName_zhCN: Geometry 3 Sharp
+displayName_zhCN: ViRGiS Geometry Package
 description_zhCN: 用于2D/3D几何计算，Mesh算法等的C#库。
