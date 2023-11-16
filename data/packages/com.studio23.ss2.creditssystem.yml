@@ -1,0 +1,16 @@
+name: com.studio23.ss2.creditssystem
+displayName: Credits System
+description: This is a tool to quickly generate credits scene for games
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.creditssystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1700142033707
