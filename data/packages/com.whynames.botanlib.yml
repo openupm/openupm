@@ -1,0 +1,16 @@
+name: com.whynames.botanlib
+displayName: BotanLib
+description: This is a template package, used as a basis to build a bigger one.
+repoUrl: https://github.com/whynames/BotanLib
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: whynames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700349190096
