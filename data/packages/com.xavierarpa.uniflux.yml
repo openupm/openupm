@@ -1,0 +1,17 @@
+name: com.xavierarpa.uniflux
+displayName: UniFlux
+description: Provides Flux flow integration to Unity.
+repoUrl: https://github.com/xavierarpa/UniFlux
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://repository-images.githubusercontent.com/616052596/1a10ad21-e1ef-4a8f-a05a-64df9b02411f
+topics:
+  - frameworks
+hunter: xavierarpa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700301837526
