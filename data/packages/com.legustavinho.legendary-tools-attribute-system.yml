@@ -1,0 +1,16 @@
+name: com.legustavinho.legendary-tools-attribute-system
+displayName: Legendary Tools - Attribute System
+description: ''
+repoUrl: https://github.com/LeGustaVinho/attribute-system
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700484761404
