@@ -1,0 +1,18 @@
+name: com.lowscope.addressablecodegenerator
+displayName: Addressable Code Generator
+description: Tool to automatically create code for addressable names
+repoUrl: https://github.com/whynames/AddressableCodeGenerator
+parentRepoUrl: https://github.com/AlexMeesters/AddressableCodeGenerator
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - code-generation
+  - utilities
+hunter: whynames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700491786572
