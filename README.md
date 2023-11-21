@@ -25,7 +25,7 @@
 </p>
 <p align="center">
   <a href="https://openupm.com/">
-    <img width="80%" src="https://raw.githubusercontent.com/openupm/openupm-next/main/docs/docs/images/openupm-website-screenshot-20231022.png" alt="logo">
+    <img width="80%" src="https://raw.githubusercontent.com/openupm/openupm-next/147b9868692acfac964e16b05ae52701bb933a4c/apps/docs/docs/docs/images/openupm-website-screenshot-20231022.png" alt="screenshot">
   </a>
 </p>
 <p align="center">
