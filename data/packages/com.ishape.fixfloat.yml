@@ -1,0 +1,16 @@
+name: com.ishape.fixfloat
+displayName: iShape.FixFloat
+description: A lightweight library to do fixed-point math.
+repoUrl: https://github.com/iShapeUnity/FixFloat
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700750454713
