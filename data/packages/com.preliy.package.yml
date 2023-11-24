@@ -1,0 +1,16 @@
+name: com.preliy.package
+displayName: Preliy Package
+description: A test package
+repoUrl: https://github.com/Preliy/CustomPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - testing
+hunter: preliy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1700835842737
