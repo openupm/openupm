@@ -1,0 +1,29 @@
+name: com.holoi.netcode.transport.multipeer-connectivity
+displayName: Multipeer Connectivity for Netcode for GameObjects
+description: >-
+  This package implemented the transport layer of Netcode for GameObjects with
+  Apple Multipeer Connectivity, which can enable peer-to-peer communication
+  between nearby devices.
+
+
+  By using Multipeer Connectivity, nearby devices can connect to each other when
+  there is no WiFi or cellular network. Multipeer Connectivity is the technology
+  behind AirDrop, which means it can transfer large file between devices very
+  fast.
+
+
+  Please reference Apple's official document for detailed information:
+  https://developer.apple.com/documentation/multipeerconnectivity.
+repoUrl: https://github.com/holoi/netcode-transport-multipeer-connectivity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: botaohu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1700934765942
