@@ -1,0 +1,17 @@
+name: dev.hai-vr.blendshape-viewer
+displayName: HaÃ¯ ~ Blendshape Viewer
+description: Blendshape Viewer https://docs.hai-vr.dev/docs/products/blendshape-viewer
+repoUrl: https://github.com/hai-vr/blendshape-viewer-vcc
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701028737683
