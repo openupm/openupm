@@ -1,0 +1,19 @@
+name: dev.hai-vr.visual-expressions-editor
+displayName: HaÃ¯ ~ Visual Expressions Editor
+description: >-
+  Visual Expressions Editor
+  https://docs.hai-vr.dev/docs/products/visual-expressions-editor
+repoUrl: https://github.com/hai-vr/visual-expressions-editor-vcc
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701028692806
