@@ -1,0 +1,17 @@
+name: dev.hai-vr.animation-viewer
+displayName: HaÃ¯ ~ Animation Viewer
+description: Animation Viewer https://docs.hai-vr.dev/docs/products/animation-viewer
+repoUrl: https://github.com/hai-vr/animation-viewer-vcc
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701028598674
