@@ -1,0 +1,19 @@
+name: dev.hai-vr.cge
+displayName: HaÃ¯ ~ ComboGestureExpressions
+description: >-
+  ComboGestureExpressions
+  https://docs.hai-vr.dev/docs/products/combo-gesture-expressions
+repoUrl: https://github.com/hai-vr/combo-gesture-expressions-av3
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701028318319
