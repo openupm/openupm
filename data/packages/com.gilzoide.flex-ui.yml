@@ -1,0 +1,16 @@
+name: com.gilzoide.flex-ui
+displayName: Flex UI
+description: Flexbox components for Unity GUI
+repoUrl: https://github.com/gilzoide/unity-flex-ui
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - gui
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701008060855
