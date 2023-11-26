@@ -1,0 +1,16 @@
+name: dev.hai-vr.lightbox-viewer
+displayName: HaÃ¯ ~ Lightbox Viewer
+description: Lightbox Viewer https://docs.hai-vr.dev/docs/products/lightbox-viewer
+repoUrl: https://github.com/hai-vr/lightbox-viewer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701028040626
