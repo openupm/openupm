@@ -1,0 +1,16 @@
+name: com.baba-s.kogane-application-restarter
+displayName: Kogane Application Restarter
+description: 【Unity】アプリケーションを再起動できるパッケージ
+repoUrl: https://github.com/baba-s/Kogane.ApplicationRestarter
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701064234307
