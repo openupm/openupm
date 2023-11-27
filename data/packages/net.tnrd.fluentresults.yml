@@ -1,0 +1,16 @@
+name: net.tnrd.fluentresults
+displayName: FluentResults
+description: FluentResults for Unity3D
+repoUrl: https://github.com/Thundernerd/Unity3D-FluentResults
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701098546681
