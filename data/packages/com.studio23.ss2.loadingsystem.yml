@@ -1,0 +1,19 @@
+name: com.studio23.ss2.loadingsystem
+displayName: Scene Loading System
+description: >-
+  Loading system is used for to load scene, create different type of loading
+  screen between scene switches, create different type of hints to show between
+  loading screen. 
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.loadingsystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:Assets/Packages/com.studio23.ss2.loadingsystem/README.md
+createdAt: 1701083011900
