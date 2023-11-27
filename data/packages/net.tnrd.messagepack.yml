@@ -1,0 +1,17 @@
+name: net.tnrd.messagepack
+displayName: MessagePack
+description: ''
+repoUrl: https://github.com/Thundernerd/Unity3D-MessagePack
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: Thundernerd
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701104646770
