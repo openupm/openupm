@@ -1,0 +1,18 @@
+name: com.lynx.core
+displayName: Lynx Core
+description: Support Lynx-R1
+repoUrl: https://github.com/Lynx-MR/LynxUnitySDK
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+image: ''
+topics:
+  - openxr
+  - ar-and-vr
+  - mobile
+hunter: Lynx-MR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1701184594103
