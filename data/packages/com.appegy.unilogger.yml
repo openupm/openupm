@@ -1,0 +1,16 @@
+name: com.appegy.unilogger
+displayName: 'Appegy: UniLogger'
+description: Simple and flexible but lightweight logger for Unity.
+repoUrl: https://github.com/Appegy/UniLogger
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+hunter: imurashka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701162685246
