@@ -1,0 +1,19 @@
+name: com.walletconnect.modal
+displayName: WalletConnect Modal
+description: >-
+  Simplest and most minimal way to connect your players with WalletConnect
+repoUrl: https://github.com/WalletConnect/WalletConnectUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - integration
+  - services
+hunter: skibitsky
+gitTagPrefix: modal/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.walletconnect.modal/README.md
+createdAt: 1701340079120
