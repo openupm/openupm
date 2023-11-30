@@ -1,0 +1,20 @@
+name: com.walletconnect.core
+displayName: WalletConnectUnity Core
+description: >-
+  This project is an extension of WalletConnectSharp that brings WalletConnect
+  to Unity. 
+repoUrl: https://github.com/WalletConnect/WalletConnectUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - services
+hunter: skibitsky
+gitTagPrefix: core/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701333389211
