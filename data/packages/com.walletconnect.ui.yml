@@ -1,0 +1,17 @@
+name: com.walletconnect.ui
+displayName: WalletConnectUnity UI
+description: >-
+  This is a technical package that provides UI for WalletConnect Modal. It is not intended to be used directly, but rather as a dependency of WalletConnectModal.
+repoUrl: https://github.com/WalletConnect/WalletConnectUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: skibitsky
+gitTagPrefix: ui/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.walletconnect.ui/README.md
+createdAt: 1701339744107
