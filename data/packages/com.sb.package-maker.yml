@@ -1,0 +1,20 @@
+name: com.sb.package-maker
+displayName: SB Package Maker
+description: Will be used to create packages
+repoUrl: https://github.com/shaharbar2/SBtools
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: shaharbar2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.sb.package-maker/README.md
+createdAt: 1701430018686
