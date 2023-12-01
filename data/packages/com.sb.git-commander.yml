@@ -1,0 +1,17 @@
+name: com.sb.git-commander
+displayName: SB Git Commander
+description: Tool for invoking git commands from editor
+repoUrl: https://github.com/shaharbar2/SBtools
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: shaharbar2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.sb.git-commander/README.md
+createdAt: 1701429823199
