@@ -1,7 +1,7 @@
 name: com.sb.package-maker
 displayName: SB Package Maker
 description: Will be used to create packages
-repoUrl: https://github.com/shaharbar2/SBtools
+repoUrl: https://github.com/shaharbar2/SBUnityUPMMaker
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT License
