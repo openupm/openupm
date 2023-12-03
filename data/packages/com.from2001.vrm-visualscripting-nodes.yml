@@ -1,4 +1,4 @@
-name: com.from2001.vrmvisualscriptingnodes
+name: com.from2001.vrm-visualscripting-nodes
 displayName: VRM Visual Scripting Nodes
 description: Unity Visual Scripting node library for VRM
 repoUrl: https://github.com/from2001/VRM_VisualScriptingNodes
@@ -11,6 +11,6 @@ topics:
 hunter: from2001
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.1.0'
 readme: main:README.md
 createdAt: 1701492104638
