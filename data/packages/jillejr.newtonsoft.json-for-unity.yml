@@ -1,7 +1,9 @@
 name: jillejr.newtonsoft.json-for-unity
 displayName: Json.NET 12.0.3 for Unity
-description: Newtonsoft.Json (Json.NET) 12.0.3 for Unity via Unity Package Manager
-repoUrl: 'https://github.com/jilleJr/Newtonsoft.Json-for-Unity'
+description: >-
+  Newtonsoft.Json (Json.NET) 12.0.3 for Unity via Unity Package Manager
+  (Deprecated in favor of com.unity.nuget.newtonsoft-json@3.0)
+repoUrl: 'https://github.com/applejag/Newtonsoft.Json-for-Unity'
 parentRepoUrl: 'https://github.com/JamesNK/Newtonsoft.Json'
 licenseSpdxId: MIT
 licenseName: MIT License
