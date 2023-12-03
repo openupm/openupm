@@ -1,0 +1,16 @@
+name: com.from2001.vrmvisualscriptingnodes
+displayName: VRM Visual Scripting Nodes
+description: Unity Visual Scripting node library for VRM
+repoUrl: https://github.com/from2001/VRM_VisualScriptingNodes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701492104638

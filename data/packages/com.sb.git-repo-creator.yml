@@ -1,0 +1,20 @@
+name: com.sb.git-repo-creator
+displayName: Git Repo Creator
+description: Craeting Git Repo
+repoUrl: https://github.com/shaharbar2/SBGitRepoCreator
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: >-
+  https://github.com/shaharbar2/SBGitRepoCreator/blob/d2cb1ef2ce5bdf2a25e699d200b9ba5da865a5ef/img.png?raw=true
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: shaharbar2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701545150184
