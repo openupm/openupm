@@ -5,7 +5,7 @@ repoUrl: https://github.com/shaharbar2/SBtools
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT License
-image: ''
+image: 'https://github.com/shaharbar2/SBtools/raw/main/Packages/com.sb.git-commander/img_1.png'
 topics:
   - editor-enhancement
   - utilities
