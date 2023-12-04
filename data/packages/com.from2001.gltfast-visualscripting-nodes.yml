@@ -1,0 +1,17 @@
+name: com.from2001.gltfast-visualscripting-nodes
+displayName: glTFast Visual Scripting Nodes
+description: Unity Visual Scripting node library for glTFast
+repoUrl: https://github.com/from2001/glTFast_VisualScriptingNodes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - utilities
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701688300008
