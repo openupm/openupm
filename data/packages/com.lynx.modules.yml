@@ -1,7 +1,7 @@
 name: com.lynx.modules
 displayName: Lynx Modules
 description: Lynx-R1 modules (including handtracking support)
-repoUrl: https://github.com/Lynx-MR/LynxUnitySDK
+repoUrl: https://github.com/Lynx-MR/UnitySDK
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: Apache-2.0
