@@ -1,7 +1,7 @@
 name: com.lynx.core
 displayName: Lynx Core
 description: Support Lynx-R1
-repoUrl: https://github.com/Lynx-MR/LynxUnitySDK
+repoUrl: https://github.com/Lynx-MR/UnitySDK
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: Apache-2.0
