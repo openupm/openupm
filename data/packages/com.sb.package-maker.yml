@@ -5,7 +5,7 @@ repoUrl: https://github.com/shaharbar2/SBUnityUPMMaker
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT License
-image: ''
+image: 'https://raw.githubusercontent.com/shaharbar2/SBUnityUPMMaker/main/img.png'
 topics:
   - asset-management
   - code-generation
