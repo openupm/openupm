@@ -16,4 +16,7 @@ image: null
 readme: 'upm:README.md'
 createdAt: 1589131258967
 displayName_zhCN: 适用于Unity的Json.NET 12.0.3
-description_zhCN: 通过Unity Package Manager for Unity的Newtonsoft.Json (Json.NET) 12.0.3
+description_zhCN: >-
+  通过 Unity 包管理器为 Unity 提供的 Newtonsoft.Json（Json.NET）12.0.3
+  （由于 com.unity.nuget.newtonsoft-json@3.0 而被弃用）
+
