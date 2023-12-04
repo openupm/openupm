@@ -1,0 +1,16 @@
+name: io.ku6ryo.first
+displayName: Ryokuro's First Package
+description: This is just a test package.
+repoUrl: https://github.com/ku6ryo/FirstOpenUpmPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - testing
+hunter: ku6ryo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701699344590
