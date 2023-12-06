@@ -1,0 +1,23 @@
+name: com.annulusgames.alchemy
+displayName: Alchemy
+description: >-
+  Alchemy is a library that provides attribute-based Inspector extensions for
+  Unity. Adds attributes that provide powerful inspector extensions and a source
+  generator that extends Unity's serialization.
+repoUrl: https://github.com/AnnulusGames/Alchemy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/AnnulusGames/Alchemy/main/Alchemy/Assets/Alchemy/Documentation%7E/Header.png
+topics:
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701865083723
