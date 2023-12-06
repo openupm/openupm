@@ -1,0 +1,22 @@
+name: com.coffee.composite-canvas-renderer
+displayName: Composite Canvas Renderer
+description: >-
+  CompositeCanvasRenderer bakes multiple source graphics into a bake-buffer
+  (RenderTexture) and renders it. Additional material modification, mesh
+  modification, and baking effects are supported! Let's enjoy the effects that
+  were difficult to implement with UI shaders, such as blur, soft outline, and
+  soft shadow!
+repoUrl: https://github.com/mob-sakai/CompositeCanvasRenderer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/12690315/278260126-43cde946-7feb-42bc-9e58-1da69477b103.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE4NDA5ODQsIm5iZiI6MTcwMTg0MDY4NCwicGF0aCI6Ii8xMjY5MDMxNS8yNzgyNjAxMjYtNDNjZGU5NDYtN2ZlYi00MmJjLTllNTgtMWRhNjk0NzdiMTAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA2VDA1MzEyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE4ZWI1MzcyNjE0ZWQ1ZDlkNzhlZDIwYTAzYmI5ZmRjNWI4YjZiY2EyNWY4OTQ5OTlhNTJiOTBiZjRhMDIzYjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.-0Vq_SoSqWmyc3tV2I55SfTvLCUaehc0Ho5zE-6Vfg0
+topics:
+  - gui
+hunter: mob-sakai
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:Packages/src/README.md
+createdAt: 1701840740376
