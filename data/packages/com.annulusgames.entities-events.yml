@@ -1,0 +1,16 @@
+name: com.annulusgames.entities-events
+displayName: Entities Events
+description: Provides inter-system messaging functionality to Unity ECS
+repoUrl: https://github.com/AnnulusGames/EntitiesEvents
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701865259013
