@@ -1,0 +1,20 @@
+name: com.annulusgames.magic-tween
+displayName: Magic Tween
+description: >-
+  Extremely fast, GC-free and customizable tween library implemented with Unity
+  ECS
+repoUrl: https://github.com/AnnulusGames/MagicTween
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/AnnulusGames/MagicTween/main/MagicTween/Assets/MagicTween/Documentation%7E/Header.png
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701864837886
