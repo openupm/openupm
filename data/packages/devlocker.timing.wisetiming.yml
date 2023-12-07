@@ -1,0 +1,20 @@
+name: devlocker.timing.wisetiming
+displayName: Wise Timing Coroutines
+description: >-
+  Custom coroutines that you can control and update yourself with your own
+  deltaTime. Compatible with Unity coroutines. Can have multiple timings ticking
+  with different speeds (deltaTimes).
+repoUrl: https://github.com/NibbleByte/UnityWiseTiming
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/NibbleByte/UnityWiseTiming/raw/master/Docs/Logo.png
+topics:
+  - frameworks
+  - utilities
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1701985960029
