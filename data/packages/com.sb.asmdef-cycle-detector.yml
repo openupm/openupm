@@ -1,0 +1,20 @@
+name: com.sb.asmdef-cycle-detector
+displayName: SB Asmdef Cycle Detector
+description: Displaying Cyclic Dependencies of ASMDEF
+repoUrl: https://github.com/shaharbar2/SBAssemblyCycleDetector
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: >-
+  https://github.com/shaharbar2/SBAssemblyCycleDetector/raw/main/Packages%2Fcom.sb.asmdef-cycle-detector%2Fimg.png
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: shaharbar2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1701975029717
