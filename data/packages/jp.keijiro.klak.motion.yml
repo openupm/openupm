@@ -1,0 +1,17 @@
+name: jp.keijiro.klak.motion
+displayName: Procedural Motion Library
+description: A script library for generating procedural motion in Unity.
+repoUrl: https://github.com/keijiro/ProceduralMotion
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - animation
+  - procedural-generation
+hunter: botaohu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1702033763520
