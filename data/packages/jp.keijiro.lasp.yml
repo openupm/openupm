@@ -1,0 +1,16 @@
+name: jp.keijiro.lasp
+displayName: LASP
+description: Low-latency audio signal processing plugin for Unity
+repoUrl: https://github.com/keijiro/Lasp
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - audio
+hunter: botaohu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: v2:README.md
+createdAt: 1702033660689
