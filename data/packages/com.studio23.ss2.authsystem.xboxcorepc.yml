@@ -1,0 +1,16 @@
+name: com.studio23.ss2.authsystem.xboxcorepc
+displayName: Authsystem.XboxCorePC
+description: This is a  package to streamline auth system for XBOX Core PC
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1702039630048
