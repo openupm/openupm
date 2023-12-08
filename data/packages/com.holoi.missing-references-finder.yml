@@ -11,6 +11,6 @@ topics:
 hunter: botaohu
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.0.0'
 readme: master:README.md
 createdAt: 1702042404206
