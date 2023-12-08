@@ -1,0 +1,16 @@
+name: jp.keijiro.burst-wig
+displayName: Burst Wig
+description: '''Wig'' effect with the C# Job System and the Burst compiler'
+repoUrl: https://github.com/keijiro/BurstWig
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unlicense
+image: ''
+topics:
+  - procedural-generation
+hunter: botaohu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1702033558306
