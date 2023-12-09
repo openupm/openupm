@@ -1,0 +1,21 @@
+name: com.yasirkula.speechtotext
+displayName: Speech to Text
+description: >-
+  This plugin helps you convert speech to text on Android (all versions) and iOS
+  10+.
+repoUrl: https://github.com/yasirkula/UnitySpeechToText
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - mobile
+  - utilities
+hunter: yasirkula
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:.github/README.md
+createdAt: 1702131535517
