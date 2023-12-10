@@ -1,0 +1,16 @@
+name: net.narazaka.unity.shadervalueio
+displayName: ShaderValueIO
+description: Shader value IO utility (cginc)
+repoUrl: https://github.com/Narazaka/ShaderValueIO
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - utilities
+hunter: Narazaka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1702192708988
