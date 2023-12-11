@@ -1,0 +1,22 @@
+name: com.nesco.crashreporter
+displayName: Crash Reporter
+description: >-
+  This tool is employed to swiftly detect errors occurring within Unity projects
+  and to save detailed reports of these errors to a remote redis database.
+  (Suitable for beta testing and demo)
+repoUrl: https://github.com/nskrkmz/CrashReporter
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://cdn.discordapp.com/attachments/1183714619106279464/1183714649452052480/CrashReporterbyNesco_CardIMG.png?ex=6589572c&is=6576e22c&hm=2fcc3548847c9994f758befaa3b2019e678e66b35f2cbfa49ab12bace3f85dbc&
+topics:
+  - debugging-and-logging
+  - testing
+  - utilities
+hunter: nskrkmz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:.github/README.md
+createdAt: 1702309038070
