@@ -1,0 +1,21 @@
+name: com.vovgou.loxodon-framework-nlog
+displayName: Loxodon Framework NLog
+description: >-
+  This is a plugin for the logging feature of Loxodon.Framework, which helps you
+  use NLog in your Unity project.
+repoUrl: https://github.com/vovgou/loxodon-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Loxodon.Framework.NLog/README.md
+readme_zhCN: master:Loxodon.Framework.NLog/README_CN.md
+createdAt: 1702471991270
