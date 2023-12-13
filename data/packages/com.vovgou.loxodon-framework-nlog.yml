@@ -15,7 +15,7 @@ topics:
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'v2.6.2'
 readme: master:Loxodon.Framework.NLog/README.md
 readme_zhCN: master:Loxodon.Framework.NLog/README_CN.md
 createdAt: 1702471991270
