@@ -11,7 +11,7 @@ topics:
 hunter: vovgou
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'v2.6.0'
 image: ''
 readme: 'master:Loxodon.Framework.TextMeshPro/README.md'
 readme_zhCN: 'master:Loxodon.Framework.TextMeshPro/README_CN.md'
