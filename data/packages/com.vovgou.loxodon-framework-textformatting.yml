@@ -1,0 +1,22 @@
+name: com.vovgou.loxodon-framework-textformatting
+displayName: Loxodon Framework TextFormatting
+description: >-
+  This is a text formatting plug-in, which is modified based on the C# official
+  library and reduces GC as much as possible.
+repoUrl: https://github.com/vovgou/loxodon-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+  - integration
+  - utilities
+hunter: vovgou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Loxodon.Framework.TextFormatting/README.md
+readme_zhCN: master:Loxodon.Framework.TextFormatting/README_CN.md
+createdAt: 1702472188625
