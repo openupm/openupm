@@ -1,0 +1,16 @@
+name: jp.nobnak.random-xorwow
+displayName: Xorwow random
+description: ''
+repoUrl: https://github.com/nobnak/XorwowUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1702650788392
