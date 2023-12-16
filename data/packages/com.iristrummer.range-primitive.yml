@@ -1,0 +1,17 @@
+name: com.iristrummer.range-primitive
+displayName: Range Primitive
+description: A primitive type for creating ranges of values in Unity
+repoUrl: https://github.com/IrisTrummer/Range-Primitive-Unity3D
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: IrisTrummer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1702746594798
