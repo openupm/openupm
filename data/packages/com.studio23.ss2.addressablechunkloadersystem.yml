@@ -1,0 +1,17 @@
+name: com.studio23.ss2.addressablechunkloadersystem
+displayName: Addressable Chunk Loader System
+description: Addressable Chunk/Room Loader System using addressables we made for SS2
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.addressablechunkloadersystem
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - asset-management
+  - level-design
+hunter: bdeshiDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1702880012313
