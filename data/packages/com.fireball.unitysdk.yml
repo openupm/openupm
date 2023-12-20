@@ -1,0 +1,23 @@
+name: com.fireball.unitysdk
+displayName: Fireball SDK
+description: >-
+  Fireball™ is the world's most high performance and feature rich Remote Games
+  Server built upon almost two decades of hard earned battle experience. It's
+  open architecture allows for game studios to easily deploy and maintain games
+  logic and for operators to simply integrate into the action.
+repoUrl: https://github.com/kauinc/fireball-unity-client-sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kauinc/fireball-unity-client-sdk/assets/6105055/4cd91841-a870-473a-983c-8f408ee4386c
+topics:
+  - frameworks
+  - network
+  - utilities
+hunter: yanyshynv
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.0.1
+readme: main:README.md
+createdAt: 1703088467860
