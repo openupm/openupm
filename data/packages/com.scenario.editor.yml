@@ -1,0 +1,25 @@
+name: com.scenario.editor
+displayName: Scenario Unity Plugin
+description: >-
+  The Scenario Unity Plugin allows you to live the Scenario experience directly
+  into Unity
+repoUrl: https://github.com/scenario-labs/Scenario-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - ai
+  - animation
+  - asset-management
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1703170158094
