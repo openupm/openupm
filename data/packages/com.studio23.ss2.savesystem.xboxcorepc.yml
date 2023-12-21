@@ -1,0 +1,16 @@
+name: com.studio23.ss2.savesystem.xboxcorepc
+displayName: ' SaveSystem.XboxCorePc'
+description: This package is for saving data in xbox core pc
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.savesystem.xboxcorepc
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1703154238090
