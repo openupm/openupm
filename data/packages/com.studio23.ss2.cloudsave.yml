@@ -1,0 +1,16 @@
+name: com.studio23.ss2.cloudsave
+displayName: Cloud Save Core
+description: This system will be used to implement Cloud Save from diffrent platforms
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1703234060455
