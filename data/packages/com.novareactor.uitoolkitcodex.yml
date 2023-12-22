@@ -1,0 +1,19 @@
+name: com.novareactor.uitoolkitcodex
+displayName: UIToolkit Codex
+description: >-
+  Code extensions for UI Toolkit for UIElements editors without uxml's or for
+  cleaner UIE coding
+repoUrl: https://github.com/FColor04/UIToolkitCodex
+parentRepoUrl: null
+licenseSpdxId: LGPL-2.1
+licenseName: GNU Lesser General Public License v2.1
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: fcolor04
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:readme.md
+createdAt: 1703282950655
