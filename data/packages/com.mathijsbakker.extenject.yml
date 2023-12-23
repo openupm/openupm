@@ -1,0 +1,17 @@
+name: com.mathijsbakker.extenject
+displayName: Extenject
+description: Dependency Injection Framework for Unity3D
+repoUrl: https://github.com/rustamkhonoff/extenject-package
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.txt
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: rustamknonoff
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1703317810013
