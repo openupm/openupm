@@ -1,0 +1,17 @@
+name: jp.nobnak.kuramoto_model
+displayName: Kuramoto Model
+description: Kuramoto Model implementation on Unity3D
+repoUrl: https://github.com/nobnak/KuramotoModelForSynchronization
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - particles-and-effects
+  - procedural-generation
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1703401401109
