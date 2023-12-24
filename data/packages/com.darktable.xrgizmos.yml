@@ -1,0 +1,19 @@
+name: com.darktable.xrgizmos
+displayName: XR Gizmos
+description: Set of gizmos that render in AR/VR.
+repoUrl: https://github.com/darktable/XRGizmos
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - ar-and-vr
+  - debugging-and-logging
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1703444891231
