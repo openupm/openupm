@@ -1,0 +1,19 @@
+name: com.studio23.ss2.audiosystem.fmod
+displayName: Audio System FMOD
+description: >-
+  This is a system for managing and utilizing audio using FMOD. It provides an
+  easier way to use FMOD from the get go.
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.audiosystem.fmod
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - localization
+hunter: https://github.com/Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1703744710516
