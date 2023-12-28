@@ -1,0 +1,19 @@
+name: com.bananahemic.mumble
+displayName: Mumble
+description: >-
+  A simple to use Mumble Client made for Unity3D. Easily send low-latency text
+  and voice to a group of other users.
+repoUrl: https://github.com/BananaHemic/Mumble-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - integration
+hunter: bdovaz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1703763944655
