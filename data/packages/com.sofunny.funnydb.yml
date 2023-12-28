@@ -1,0 +1,18 @@
+name: com.sofunny.funnydb
+displayName: FunnyDB
+description: This is SoFunny FunnyDB
+repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnydb
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+  - services
+  - utilities
+hunter: MagicXiaoXiao
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1703742627749
