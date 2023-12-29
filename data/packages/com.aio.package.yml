@@ -15,6 +15,6 @@ hunter: AIO-GAME
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
-readme_zhCN: main:README.md
+readme: main:.github/README.md
+readme_zhCN: main:.github/README.md
 createdAt: 1698209025926
