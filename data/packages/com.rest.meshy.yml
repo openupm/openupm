@@ -1,0 +1,21 @@
+name: com.rest.meshy
+displayName: Meshy
+description: A Non-Official Meshy Rest Client for Unity (UPM)
+repoUrl: https://github.com/RageAgainstThePixel/com.rest.meshy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - asset-management
+  - editor-enhancement
+  - integration
+  - modeling
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:Documentation~/README.md
+createdAt: 1703969675489
