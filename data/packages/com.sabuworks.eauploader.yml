@@ -1,0 +1,20 @@
+name: com.sabuworks.eauploader
+displayName: Easy Avatar Uploader for VRChat
+description: Tools for more concise and easier uploading of avatars. Under development
+repoUrl: https://github.com/Project-EAUploader/EAUploader-for-VRChat
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: >-
+  https://static.wixstatic.com/media/a281f4_9a1a63ea2bf749cfad2d7cf2bb4007a6~mv2.png/v1/fill/w_322,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/EAUploader_BETA_TESTING_Thumbnail.png
+topics:
+  - ar-and-vr
+  - asset-management
+  - data-management
+  - editor-enhancement
+hunter: EAUploader-for-VRChat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.8.2'
+readme: main:README.md
+createdAt: 1704034731866
