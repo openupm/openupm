@@ -1,0 +1,19 @@
+name: com.ltmx.unity.unzip
+displayName: Unity.unzip
+description: Automatic Zip Extractor for Unity
+repoUrl: https://github.com/ltmx/Unity.Unzip
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704035939833
