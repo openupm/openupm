@@ -1,0 +1,19 @@
+name: com.assetsbykai.gameviewfocus
+displayName: Game View Focus
+description: >-
+  Save yourself a click and automatically focus the Game View when entering Play
+  Mode
+repoUrl: https://github.com/assetsbykai/GameViewFocus
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: kaibrueckers
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704151634374
