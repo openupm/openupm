@@ -11,9 +11,9 @@ image: ''
 topics:
   - editor-enhancement
   - utilities
-hunter: kaibrueckers
+hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.1.0'
 readme: main:README.md
 createdAt: 1704151634374
