@@ -5,7 +5,7 @@ repoUrl: https://github.com/IrisTrummer/Range-Primitive-Unity3D
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: 'https://github.com/IrisTrummer/Range-Primitive-Unity3D/blob/main/images/cover.png'
 topics:
   - editor-enhancement
   - utilities
