@@ -1,0 +1,16 @@
+name: games.effortstar.ecslite-di
+displayName: LeoECS Lite DI
+description: Dependency injection for LeoECS Lite
+repoUrl: https://github.com/EffortStar/ecslite-di
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: rhys-vdw
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704341482688
