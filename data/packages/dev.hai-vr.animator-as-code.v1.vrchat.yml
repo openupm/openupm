@@ -1,0 +1,17 @@
+name: dev.hai-vr.animator-as-code.v1.vrchat
+displayName: Animator As Code - VRChat (Alpha)
+description: VRChat Avatars extension functions.
+repoUrl: https://github.com/hai-vr/animator-as-code-vrchat
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - frameworks
+hunter: uhKayla
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704474766927
