@@ -1,0 +1,19 @@
+name: dev.hai-vr.animator-as-code.v1.ndmf-processor
+displayName: Animator As Code - NDMF Processor (Alpha)
+description: >-
+  Execute Animator As Code scripts when an avatar is being processed by NDM
+  Framework.
+repoUrl: https://github.com/hai-vr/animator-as-code-ndmf-processor
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - frameworks
+hunter: uhKayla
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704474680666
