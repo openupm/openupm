@@ -1,0 +1,28 @@
+name: com.vrlabs.fikstub
+displayName: Final IK Stub
+description: >-
+  Stub package for the VRChat-whitelisted Final IK components. This package
+  strips off everything that is not serialized, and only serves to preserve the
+  serialized information in imported prefabs/scenes.
+
+  Source https://github.com/VRLabs/Final-IK-Stub
+
+
+  For issues specifically with package management, please contact me instead of
+  bothering VRLabs
+
+  https://github.com/uhKayla/Final-IK-Stub
+repoUrl: https://github.com/uhKayla/Final-IK-Stub
+parentRepoUrl: https://github.com/VRLabs/Final-IK-Stub
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - package-management
+hunter: uhKayla
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704477132857
