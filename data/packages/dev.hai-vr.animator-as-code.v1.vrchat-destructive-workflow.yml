@@ -1,0 +1,17 @@
+name: dev.hai-vr.animator-as-code.v1.vrchat-destructive-workflow
+displayName: Animator As Code - VRChat (Destructive Workflow)
+description: Animator As Code - VRChat (Destructive Workflow)
+repoUrl: https://github.com/hai-vr/animator-as-code-vrchat-destructive-workflow
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - frameworks
+hunter: uhKayla
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704474820486
