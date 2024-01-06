@@ -1,5 +1,5 @@
 name: com.redsaw.commandline
-displayName: Unity-CLI
+displayName: Inner Game Console
 description: an inner game command line tool
 repoUrl: https://github.com/529324416/UnityCommandLineInterface
 parentRepoUrl: null
