@@ -1,0 +1,18 @@
+name: com.redsaw.commandline
+displayName: Unity-CLI
+description: an inner game command line tool
+repoUrl: https://github.com/529324416/UnityCommandLineInterface
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - testing
+  - utilities
+hunter: '529324416'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704527222061
