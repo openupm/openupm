@@ -1,0 +1,16 @@
+name: com.jvarelaaloisio.health
+displayName: Health System
+description: Basic health system unit-tested to provide a bug-free quick implementation
+repoUrl: https://github.com/jvarelaaloisio/HealthSystem-UnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jvarelaaloisio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704560090633
