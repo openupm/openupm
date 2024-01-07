@@ -1,0 +1,16 @@
+name: com.gilzoide.runtime-preset
+displayName: Runtime Preset
+description: Preset for components that can be applied at runtime
+repoUrl: https://github.com/gilzoide/unity-runtime-preset
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704639920657
