@@ -1,0 +1,19 @@
+name: com.gilzoide.prefab-pool
+displayName: Prefab Pool
+description: >-
+  Prefab instance pool that is configurable in the Inspector, supports any
+  engine Object type and is available as a pure C# class, a MonoBehaviour and a
+  ScriptableObject.
+repoUrl: https://github.com/gilzoide/unity-prefab-pool
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704655854228
