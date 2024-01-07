@@ -1,0 +1,16 @@
+name: com.rickit.ui
+displayName: RicKit UI
+description: An Async UI Manager for Unity, support custom panel loading
+repoUrl: https://github.com/rickytheoldtree/com.rickit.ui
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - gui
+hunter: rickytheoldtree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704616371946
