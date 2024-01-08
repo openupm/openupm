@@ -1,0 +1,20 @@
+name: jp.hadashikick.vitalrouter
+displayName: VitalRouter
+description: >-
+  The zero-allocation message passing tool for Unity (Game Engine). And the very
+  thin layer that encourages MVP (or whatever)-like design.
+repoUrl: https://github.com/hadashiA/VitalRouter
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - debugging-and-logging
+  - utilities
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704743908316
