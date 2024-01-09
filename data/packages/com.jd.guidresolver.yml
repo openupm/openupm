@@ -1,0 +1,21 @@
+name: com.jd.guidresolver
+displayName: GUID Resolver
+description: >-
+  Generate GUID to asset information mapping to be used for the browser
+  extension 'Unity GUID Resolver'
+repoUrl: https://github.com/JohannesDeml/unity-guid-resolver
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/JohannesDeml/unity-guid-resolver/main/docs/preview.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:unity/README.md
+createdAt: 1704794445370
