@@ -1,0 +1,20 @@
+name: com.studio23.ss2.splashscreensystem
+displayName: Splash Screen System
+description: >-
+  Unity UMP's Splash Screen System offers seamless integration, allowing swift
+  implementation of captivating introductory screens. With customizable
+  features, animations, and transitions, it ensures a dynamic and polished
+  introduction to any Unity project
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.splashscreensystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1704790554092
