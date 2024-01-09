@@ -1,0 +1,19 @@
+name: com.jvarelaaloisio.prefs
+displayName: Pref Units
+description: >-
+  A simple extension on Unity's prefs system that allows for easier control and
+  leads to cleaner code.
+repoUrl: https://github.com/jvarelaaloisio/PrefUnits-UnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: jvarelaaloisio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704815400426
