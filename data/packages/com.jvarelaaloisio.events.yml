@@ -1,0 +1,19 @@
+name: com.jvarelaaloisio.events
+displayName: Event Channels System
+description: >-
+  Events extension that allows to have communication between GameObjects and
+  ScriptableObjects that don't live in the same scene.
+repoUrl: https://github.com/jvarelaaloisio/EventChannelsSystem-UnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: jvarelaaloisio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704815002689
