@@ -1,0 +1,24 @@
+name: com.chebanovdd.unityuxmlgenerator
+displayName: Unity Uxml Generator
+description: >-
+  The Unity Uxml Generator allows you to generate 'UxmlFactory' and 'UxmlTraits'
+  source code for a custom 'VisualElement'. Just mark elements with
+  [UxmlElement] and [UxmlAttribute] attributes.
+repoUrl: https://github.com/LibraStack/UnityUxmlGenerator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704858594693
