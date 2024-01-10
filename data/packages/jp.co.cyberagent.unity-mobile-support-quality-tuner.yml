@@ -1,0 +1,16 @@
+name: jp.co.cyberagent.unity-mobile-support-quality-tuner
+displayName: Mobile Support - Quality Tuner
+description: Tools to support deciding quality level by hardware spec of mobile devices.
+repoUrl: https://github.com/CyberAgentGameEntertainment/UnityMobileSupport
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+hunter: qua-iy
+gitTagPrefix: qualitytuner/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/MobileSupportQualityTuner/README.md
+createdAt: 1704908939433
