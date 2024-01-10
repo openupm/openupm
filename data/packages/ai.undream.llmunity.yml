@@ -1,0 +1,20 @@
+name: ai.undream.llmunity
+displayName: LLMUnity
+description: LLMUnity allows to run and distribute LLM models in the Unity engine.
+repoUrl: https://github.com/undreamai/LLMUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704927487629
