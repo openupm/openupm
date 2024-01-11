@@ -1,0 +1,19 @@
+name: com.gilzoide.conditional-objects
+displayName: Conditional Objects
+description: >-
+  Scripts that modify GameObjects and Components at Prefab/Scene import time,
+  based on build configurations
+repoUrl: https://github.com/gilzoide/unity-conditional-objects
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704977634629
