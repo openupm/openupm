@@ -1,0 +1,17 @@
+name: se.hertzole.gamejolt.net
+displayName: GameJolt.NET
+description: A modern C# wrapper around the GameJolt Game API for .NET and Unity
+repoUrl: https://github.com/Hertzole/gamejolt.net
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - network
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1705017081366
