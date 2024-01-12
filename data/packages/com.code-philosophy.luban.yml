@@ -18,4 +18,5 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
+readme_zhCN: 'main:README_zh.md'
 createdAt: 1705073515749
