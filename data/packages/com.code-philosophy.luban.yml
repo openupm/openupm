@@ -1,0 +1,21 @@
+name: com.code-philosophy.luban
+displayName: Luban
+description: >-
+  luban is a powerful, easy-to-use, elegant and stable game configuration
+  solution.
+repoUrl: https://github.com/focus-creative-games/luban_unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/focus-creative-games/luban/main/docs/images/logo.png
+topics:
+  - code-generation
+  - data-management
+  - localization
+hunter: FantasyJony
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705073515749
