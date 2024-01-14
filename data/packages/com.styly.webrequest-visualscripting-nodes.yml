@@ -1,0 +1,17 @@
+name: com.styly.webrequest-visualscripting-nodes
+displayName: WebRequest Visual Scripting
+description: Unity Visual Scripting Node for WebRequest
+repoUrl: https://github.com/styly-dev/WebRequest_VisualScriptingNodes
+parentRepoUrl: https://github.com/adrenak/http
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+  - utilities
+hunter: styly-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705248263249
