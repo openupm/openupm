@@ -1,0 +1,22 @@
+name: com.bennyght.geometry4unity
+displayName: Geometry 4 Sharp
+description: >-
+  Fork of Geometry4Sharp. 2D/3D geometric computation, 
+  mesh algorithms, and so on. Boost license.
+repoUrl: https://github.com/BenNyght/Geometry4Unity
+parentRepoUrl: https://github.com/NewWheelTech/geometry4Sharp
+licenseSpdxId: BSL-1.0
+licenseName: Boost Software License 1.0
+image: https://i.imgur.com/vYkXHRV.png
+topics:
+  - parallelism-and-concurrency
+  - mobile
+  - modeling
+  - procedural-generation
+  - utilities
+hunter: BenNyght
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705312496496
