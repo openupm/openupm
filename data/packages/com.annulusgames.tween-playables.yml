@@ -1,0 +1,17 @@
+name: com.annulusgames.tween-playables
+displayName: Tween Playables
+description: Tween Animation Library for Unity Timeline
+repoUrl: https://github.com/AnnulusGames/TweenPlayables
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/AnnulusGames/TweenPlayables/main/Assets/TweenPlayables/Documentation%7E/Header.png
+topics:
+  - animation
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705371685312
