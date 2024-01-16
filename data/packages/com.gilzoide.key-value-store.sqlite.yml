@@ -1,0 +1,19 @@
+name: com.gilzoide.key-value-store.sqlite
+displayName: Key-Value Store - SQLite
+description: Key-Value Store implementation backed by the SQLite database engine
+repoUrl: https://github.com/gilzoide/unity-key-value-store-sqlite
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - data-management
+  - integration
+  - services
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705400004611
