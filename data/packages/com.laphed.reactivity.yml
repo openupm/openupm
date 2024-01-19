@@ -1,0 +1,16 @@
+name: com.laphed.reactivity
+displayName: LaphedReactivity
+description: Lightweight reactivity for Unity
+repoUrl: https://github.com/laphedhendad/com.laphed.reactivity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: laphedhendad
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705665945057
