@@ -1,0 +1,20 @@
+name: com.codomaster.extensions
+displayName: Unity API Extensions
+description: >-
+  This package contains a lot of extension methods for unity, which make
+  developing more convenient.
+repoUrl: https://github.com/KurbanismailovZaur/Extensions
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/54fd4cc0-d07e-4a6b-8acd-390231dab610.webp
+topics:
+  - editor-enhancement
+  - utilities
+hunter: KurbanismailovZaur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705623026684
