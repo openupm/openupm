@@ -1,0 +1,19 @@
+name: com.gilzoide.sqlite-asset
+displayName: SQLite Asset
+description: >-
+  Import ".sqlite", ".sqlite2" and ".sqlite3" files as read-only SQLite database
+  assets.
+repoUrl: https://github.com/gilzoide/unity-sqlite-asset
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - asset-management
+  - data-management
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705703167827
