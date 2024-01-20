@@ -1,0 +1,16 @@
+name: com.playdarium.build-pipeline
+displayName: Build Pipeline
+description: ''
+repoUrl: https://github.com/Playdarium/build-pipelines
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Playdarium
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1705758223663
