@@ -1,0 +1,16 @@
+name: com.tityx.utilities
+displayName: Utilities
+description: Some utilities functions for faster development
+repoUrl: https://github.com/Tityxx/Utilities
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Tityxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705760343269
