@@ -1,0 +1,16 @@
+name: com.tityx.object-pool
+displayName: Object Pool
+description: Simple object pool based on scriptable object
+repoUrl: https://github.com/Tityxx/ObjectPool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Tityxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705768893413
