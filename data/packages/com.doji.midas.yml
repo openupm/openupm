@@ -1,0 +1,17 @@
+name: com.doji.midas
+displayName: MiDaS
+description: Monocular Depth Estimation with Unity Sentis
+repoUrl: https://github.com/julienkay/com.doji.midas
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705841028453
