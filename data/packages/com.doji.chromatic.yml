@@ -1,0 +1,16 @@
+name: com.doji.chromatic
+displayName: Chromatic
+description: color utility
+repoUrl: https://github.com/julienkay/com.doji.chromatic
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705841551235
