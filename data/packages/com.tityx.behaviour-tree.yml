@@ -1,0 +1,16 @@
+name: com.tityx.behaviour-tree
+displayName: Behaviour Tree
+description: Behaviour tree for AI units
+repoUrl: https://github.com/Tityxx/BehaviourTree
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: Tityxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705820443315
