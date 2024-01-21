@@ -1,0 +1,17 @@
+name: com.appylar.unity-sdk
+displayName: Appylar
+description: >
+  SDK for the Appylar cross promotion service
+repoUrl: https://github.com/appylar/published-unity-sdk
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: GPL
+image: ''
+topics:
+  - utilities
+hunter: indrif
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1705868528495
