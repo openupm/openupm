@@ -1,0 +1,16 @@
+name: com.tityx.formulas
+displayName: Formulas
+description: Formulas system. Supports c# class and unity scriptable object
+repoUrl: https://github.com/Tityxx/Formulas
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Tityxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1705823923950
