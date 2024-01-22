@@ -1,0 +1,18 @@
+name: eu.netherlands3d.webgl-copy-paste
+displayName: Netherlands3D - WebGL Copy Paste
+description: >-
+  A copy paste support plugin for WebGL applications copied from
+  https://github.com/Trisibo/unity-webgl-copy-and-paste
+repoUrl: https://github.com/Netherlands3D/WebGLCopyPaste
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+image: ''
+topics:
+  - utilities
+hunter: sambaas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1705919571708
