@@ -1,5 +1,5 @@
 name: extensions.unity.audioloader
-displayName: Image Loader
+displayName: Audio Loader
 description: >-
   Asynchronous audio loading from remote or local destination. It has two layers
   of configurable cache system: RAM and Disk.
@@ -15,7 +15,7 @@ hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://github.com/IvanMurzak/Unity-AudioLoader/raw/master/Header.jpg?raw=true'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
