@@ -1,0 +1,16 @@
+name: com.cysharp.r3
+displayName: R3
+description: Reactive Extensions for Unity.
+repoUrl: https://github.com/Cysharp/R3
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1706182781923
