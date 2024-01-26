@@ -1,0 +1,23 @@
+name: com.inworld.unity
+displayName: Inworld.AI
+description: >-
+  Elevate NPCs beyond simple dialogue trees with AI characters that can mimic
+  human expression. Give NPCs unscripted dialogue, EQ, and contextual awareness
+  for a much more immersive gaming experience.
+repoUrl: https://github.com/inworld-ai/inworld-unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Inworld.ai Software Development Kit License Agreement
+image: ''
+topics:
+  - ai
+  - integration
+  - procedural-generation
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1706250146638
