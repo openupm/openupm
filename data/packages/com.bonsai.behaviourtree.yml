@@ -1,0 +1,19 @@
+name: com.bonsai.behaviourtree
+displayName: Bonsai Behaviour Tree
+description: Advanced behavior tree solution with a graphical editor
+repoUrl: https://github.com/GariestGary/BonsaiBehaviourTree
+parentRepoUrl: https://github.com/luis-l/BonsaiBehaviourTree
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: GariestGary
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1706353184108
