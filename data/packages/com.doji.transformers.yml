@@ -1,0 +1,19 @@
+name: com.doji.transformers
+displayName: Transformers
+description: >-
+  State-of-the-art transformer models to perform tasks on different modalities
+  such as text, vision, and audio with Unity Sentis
+repoUrl: https://github.com/julienkay/com.doji.transformers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1706572320330
