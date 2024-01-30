@@ -1,0 +1,21 @@
+name: com.am1goo.bloodseeker-unity
+displayName: Bloodseeker
+description: Easy-as-dumb toolkit to prevent any malicious injections in your Android apps. Beware of cheaters!
+repoUrl: 'https://github.com/am1goo/bloodseeker-unity'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - integration
+  - mobile
+hunter: am1goo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1706635046
