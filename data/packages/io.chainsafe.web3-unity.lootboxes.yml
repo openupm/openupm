@@ -12,7 +12,7 @@ topics:
   - data-management
   - network
 hunter: kantagara
-gitTagPrefix: ''
+gitTagPrefix: 'io.chainsafe.web3-unity.lootboxes/'
 gitTagIgnore: ''
 minVersion: ''
 readme: main:Packages/io.chainsafe.web3-unity.lootboxes/README.md
