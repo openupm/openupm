@@ -16,4 +16,5 @@ basement_dist
 config/local.js
 fixtures/fixtures.json
 data/media
+data/openupm-data
 yarn-error.log
