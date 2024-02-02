@@ -1,0 +1,19 @@
+name: com.oyacamp.zoboui
+displayName: ZoboUI
+description: A USS utility class UI framework for Unity's UI Toolkit
+repoUrl: https://github.com/oyacamp/zoboui
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - code-generation
+  - frameworks
+  - gui
+  - utilities
+hunter: damzobridge
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1706837774021
