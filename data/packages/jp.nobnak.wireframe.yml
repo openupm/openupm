@@ -1,0 +1,16 @@
+name: jp.nobnak.wireframe
+displayName: Wireframe shader
+description: ''
+repoUrl: https://github.com/nobnak/WireframeShaderUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - particles-and-effects
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1706854031373
