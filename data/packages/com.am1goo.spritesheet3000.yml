@@ -1,4 +1,4 @@
-name: com.am1goo.unity-plugin-spritesheet-3000
+name: com.am1goo.spritesheet3000
 displayName: Spritesheet 3000
 description: Custom pipeline plugin about how to make work together Adobe Photoshop's files with Unity Engine's sprites.
 repoUrl: 'https://github.com/am1goo/unity-plugin-spritesheet-3000'
