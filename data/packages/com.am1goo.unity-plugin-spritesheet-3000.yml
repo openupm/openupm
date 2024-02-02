@@ -1,0 +1,22 @@
+name: com.am1goo.unity-plugin-spritesheet-3000
+displayName: Spritesheet 3000
+description: Custom pipeline plugin about how to make work together Adobe Photoshop's files with Unity Engine's sprites.
+repoUrl: 'https://github.com/am1goo/unity-plugin-spritesheet-3000'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - animation
+  - asset-management
+  - sprite-management
+hunter: am1goo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1706896624
