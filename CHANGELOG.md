@@ -1,3 +1,10 @@
+# [1.57.0](https://github.com/openupm/openupm/compare/1.56.5...1.57.0) (2024-02-04)
+
+
+### Features
+
+* **ci:** update the openupm data directory on upm-api ([ebe8c04](https://github.com/openupm/openupm/commit/ebe8c0430391b212892dd57277caa34acb964e95))
+
 ## [1.56.5](https://github.com/openupm/openupm/compare/1.56.4...1.56.5) (2023-11-11)
 
 
