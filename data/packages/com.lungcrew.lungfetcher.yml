@@ -1,0 +1,17 @@
+name: com.lungcrew.lungfetcher
+displayName: Lungfetcher
+description: A solution for fetching lung projects in Unity
+repoUrl: https://github.com/lungcrew/unity-lungfetcher
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - localization
+  - services
+hunter: indiegabo
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1707157824748
