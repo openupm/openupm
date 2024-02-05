@@ -3,8 +3,6 @@ items:
     githubUser: adrenak
   - name: Mike Wuetherick
     githubUser: gekidoslair
-  - name: Koji Hasegawa
-    githubUser: nowsprinting
   - name: Andreas Atteneder
     githubUser: atteneder
   - name: 僵尸浩
@@ -13,6 +11,9 @@ items:
     githubUser: ComradeVanti
   - name: Pavel "am1goo" Shestakov
     githubUser: am1goo
+  - name: Koji Hasegawa
+    githubUser: nowsprinting
+    expires: 2024-02-01
   - name: BOBBO-NET
     githubUser: BOBBO-NET
     expires: 2023-08-31
