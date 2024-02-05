@@ -1,0 +1,17 @@
+name: com.bbbirder.shell
+displayName: Unity Shell
+description: Simple and powerful shell runner in UnityEditor
+repoUrl: https://github.com/labbbirder/Unity-Shell
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: labbbirder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707118678194
