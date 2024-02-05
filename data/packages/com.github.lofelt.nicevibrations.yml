@@ -15,5 +15,5 @@ hunter: iDreamsOfGame
 gitTagPrefix: upm/
 gitTagIgnore: ''
 minVersion: ''
-readme: upm:3RD-PARTY-LICENSES.md
+readme: upm:README.md
 createdAt: 1707126123673
