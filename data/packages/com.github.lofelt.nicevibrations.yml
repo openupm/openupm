@@ -1,0 +1,19 @@
+name: com.github.lofelt.nicevibrations
+displayName: Nice Vibrations
+description: >-
+  Nice Vibrations is a simple yet powerful solution for adding high-definition
+  (HD) haptic feedback to your iOS, Android, PC and console games with Unity.
+repoUrl: https://github.com/iDreamsOfGame/NiceVibrations
+parentRepoUrl: https://github.com/Lofelt/NiceVibrations
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:3RD-PARTY-LICENSES.md
+createdAt: 1707126123673
