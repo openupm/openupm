@@ -1,0 +1,16 @@
+name: com.elex.unitask
+displayName: UniTask
+description: Provides an efficient async/await integration to Unity.
+repoUrl: https://github.com/yuyixiaoxiang/UniTask
+parentRepoUrl: https://github.com/Cysharp/UniTask
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: UniTask
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1707210123742
