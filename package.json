@@ -76,5 +76,8 @@
     "spdx-license-list": "^6.6.0",
     "superagent": "^5.1.0",
     "url-join": "^4.0.1"
+  },
+  "volta": {
+    "node": "14.21.3"
   }
 }
