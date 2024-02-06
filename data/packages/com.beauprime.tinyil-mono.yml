@@ -1,0 +1,16 @@
+name: com.beauprime.tinyil-mono
+displayName: TinyIL.Mono
+description: Lightweight code weaver and IL parser.
+repoUrl: https://github.com/BeauPrime/TinyIL.Mono
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: BeauPrime
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707245586107
