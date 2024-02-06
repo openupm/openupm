@@ -1,7 +1,7 @@
-name: com.stalomeow.easy-type-reload
-displayName: Easy Type Reload
-description: A package helps disabling Domain Reloading in Unity easier.
-repoUrl: https://github.com/stalomeow/EasyTypeReload
+name: com.stalomeow.quick-play-mode
+displayName: Quick Play Mode
+description: When entering play mode, automatically resetting static members of dirty types, instead of reloading the domain.
+repoUrl: https://github.com/stalomeow/QuickPlayMode
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
