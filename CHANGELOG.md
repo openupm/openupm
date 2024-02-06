@@ -1,3 +1,10 @@
+## [1.57.2](https://github.com/openupm/openupm/compare/1.57.1...1.57.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* **pipelines:** detect version conflict 409 error for npm v10 ([b5b2a4d](https://github.com/openupm/openupm/commit/b5b2a4d3a90900c7b0c7ddb86560746f0626a16a))
+
 ## [1.57.1](https://github.com/openupm/openupm/compare/1.57.0...1.57.1) (2024-02-06)
 
 
