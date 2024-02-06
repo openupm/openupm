@@ -195,8 +195,7 @@ const getFullBuildLogText = async function(release) {
 const getReasonFromBuildLogText = function(text) {
   if (/fatal: Remote branch .* not found/.test(text))
     return ReleaseReason.RemoteBranchNotFound;
-  else if (text.includes("EPUBLISHCONFLICT"))
-    return ReleaseReason.VersionConflict;
+  else if (text.includes("code E409")) return ReleaseReason.VersionConflict;
   else if (text.includes("ENOENT") && text.includes("error path package.json"))
     return ReleaseReason.PackageNotFound;
   else if (text.includes("code E400")) {

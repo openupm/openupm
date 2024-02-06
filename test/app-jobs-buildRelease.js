@@ -31,7 +31,7 @@ describe("app/jobs/buildRelease.js", function() {
       );
     });
     it("VersionConflict", function() {
-      getReasonFromBuildLogText("EPUBLISHCONFLICT").should.equal(
+      getReasonFromBuildLogText("error code E409").should.equal(
         ReleaseReason.VersionConflict
       );
     });
@@ -91,7 +91,7 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
       );
     });
     it("InvalidVersion", function() {
-      getReasonFromBuildLogText('code EBADSEMVER').should.equal(
+      getReasonFromBuildLogText("code EBADSEMVER").should.equal(
         ReleaseReason.InvalidVersion
       );
     });
