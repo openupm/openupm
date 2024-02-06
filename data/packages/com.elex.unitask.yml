@@ -8,7 +8,7 @@ licenseName: MIT License
 image: ''
 topics:
   - utilities
-hunter: UniTask
+hunter: elex
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
