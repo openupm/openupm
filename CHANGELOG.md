@@ -1,3 +1,10 @@
+## [1.57.1](https://github.com/openupm/openupm/compare/1.57.0...1.57.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* **data:** filename issue introduced in 4aa5a52 ([0741f85](https://github.com/openupm/openupm/commit/0741f853ae170ff95eee70cf9aa861441fd9d91c))
+
 # [1.57.0](https://github.com/openupm/openupm/compare/1.56.5...1.57.0) (2024-02-04)
 
 
