@@ -1,3 +1,10 @@
+## [1.57.3](https://github.com/openupm/openupm/compare/1.57.2...1.57.3) (2024-02-07)
+
+
+### Bug Fixes
+
+* **ci:** force reload pm2 [skip-ci] ([673202e](https://github.com/openupm/openupm/commit/673202effb6180d62c11468864d4a90d10589acc))
+
 ## [1.57.2](https://github.com/openupm/openupm/compare/1.57.1...1.57.2) (2024-02-06)
 
 
