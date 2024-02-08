@@ -1,0 +1,16 @@
+name: com.remae.voxelterrain
+displayName: Voxel Terrain
+description: Voxel like terrain rendering & collision from heightmap
+repoUrl: https://github.com/Remy-Maetz/VoxelTerrain
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: GNU AGPLv3
+image: ''
+topics:
+  - terrain
+hunter: Remy-Maetz
+gitTagPrefix: release/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707390078833
