@@ -1,9 +1,9 @@
 name: com.realitygames.logextractor
 displayName: Log Extractor
 description: Provides a way to extract and share logs from the devices.
-repoUrl: https://github.com/LandlordGame/log-extractor-unity
+repoUrl: https://github.com/RealityGamesLtd/log-extractor-unity
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT
 image: ''
 topics:
