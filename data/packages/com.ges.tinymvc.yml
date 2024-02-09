@@ -1,0 +1,21 @@
+name: com.ges.tinymvc
+displayName: Tiny MVC
+description: Model View Controller initialization system.
+repoUrl: https://github.com/gestiran/TinyMVC
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - profiling
+  - testing
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1707513651429
