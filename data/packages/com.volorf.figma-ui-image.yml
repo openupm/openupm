@@ -1,0 +1,25 @@
+name: com.volorf.figma-ui-image
+displayName: Figma UI Image
+description: Bring your design from Figma to Unity as a UI Image with a few clicks.
+repoUrl: https://github.com/Volorf/figma-ui-image
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - gui
+  - integration
+  - procedural-generation
+  - sprite-management
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707582412935
