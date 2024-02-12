@@ -1,0 +1,22 @@
+name: com.nethereum.unity
+displayName: Nethereum
+description: >-
+  Nethereum 472 AOT runtime dlls, please check Nethereum releases for more
+  information, extra components, or other versions (net461, net35, netstandard) 
+  https://github.com/Nethereum/Nethereum/releases, example can be found at
+  https://github.com/Nethereum/Unity3dSampleTemplate
+repoUrl: https://github.com/Nethereum/Nethereum.Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Nethereum/Nethereum/master/logos/logo512x315.png
+topics:
+  - frameworks
+  - integration
+hunter: juanfranblanco
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707755037583
