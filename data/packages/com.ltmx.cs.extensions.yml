@@ -1,0 +1,20 @@
+name: com.ltmx.cs.extensions
+displayName: C# Extensions
+description: Extension methods for my packages
+repoUrl: https://github.com/ltmx/Unity.CSharp.Extensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707859221304
