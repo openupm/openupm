@@ -1,0 +1,19 @@
+name: com.virtualmaker.filebrowser
+displayName: StandaloneFileBrowser
+description: Native open and save UIs for Windows, MacOS, Linux, WebGL
+repoUrl: https://github.com/virtual-maker-net/unity-file-browser
+parentRepoUrl: https://github.com/ruccho/UnityStandaloneFileBrowser
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - integration
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1707856777437
