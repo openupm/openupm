@@ -1,0 +1,23 @@
+name: com.metalpopgames.uiaccessibility
+displayName: UI Accessibility Plugin (UAP)
+description: >-
+  The UI Accessibility Plugin (UAP) allows you to make your UI accessible to
+  blind and visually impaired players with only a few clicks
+repoUrl: https://github.com/mfdeveloper/UnityAccessibilityPlugin
+parentRepoUrl: https://github.com/mikrima/UnityAccessibilityPlugin
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - audio
+  - gui
+  - input-management
+  - integration
+  - mobile
+  - utilities
+hunter: mfdeveloper
+gitTagPrefix: com.metalpopgames.uiaccessibility/
+gitTagIgnore: '[0-9]\.[0-9]\.[0-9]'
+minVersion: ''
+readme: upm:README.md
+createdAt: 1707936504391
