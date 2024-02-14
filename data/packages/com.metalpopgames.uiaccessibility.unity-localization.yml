@@ -1,0 +1,20 @@
+name: com.metalpopgames.uiaccessibility.unity-localization
+displayName: 'UI Accessibility Plugin (UAP): Unity Localization'
+description: >-
+  The UI Accessibility Plugin (UAP) integration with Unity Localization official
+  UPM package, to translate keys for screen readers
+repoUrl: https://github.com/mfdeveloper/UnityAccessibilityPlugin
+parentRepoUrl: https://github.com/mikrima/UnityAccessibilityPlugin
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - gui
+  - integration
+  - accessibility
+hunter: mfdeveloper
+gitTagPrefix: com.metalpopgames.uiaccessibility.unity-localization/
+gitTagIgnore: '[0-9]\.[0-9]\.[0-9]'
+minVersion: ''
+readme: upm-unity-localization:README.md
+createdAt: 1707936852485
