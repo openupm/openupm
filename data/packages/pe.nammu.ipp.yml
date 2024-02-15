@@ -1,6 +1,6 @@
 name: pe.nammu.ipp
-displayName: InputPadPanel SDK
-description: InputPadPanel SDK Package
+displayName: InputPatternPanel SDK
+description: InputPatternPanel SDK Package
 repoUrl: https://github.com/mod157/ipp.unity
 parentRepoUrl: null
 licenseSpdxId: MIT
