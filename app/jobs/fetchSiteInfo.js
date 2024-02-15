@@ -7,6 +7,7 @@ const SiteInfo = require("../models/siteInfo");
 const { AxiosService, CancelToken, httpErrorInfo } = require("../utils/http");
 const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
+const { getGithubToken } = require("../utils/github");
 
 /**
  * Fetch site info.
@@ -23,8 +24,8 @@ const fetchSiteInfo = async function() {
 const _fetchStars = async function(repo) {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.github.token)
-      headers.authorization = `Bearer ${config.github.token}`;
+    const githubToken = getGithubToken();
+    if (githubToken) headers.authorization = `Bearer ${githubToken}`;
     let resp = null;
     const source = CancelToken.source();
     setTimeout(() => {

@@ -3,12 +3,13 @@
  */
 const config = require("config");
 const { GraphQLClient } = require("graphql-request");
+const { getGithubToken } = require("./github");
 
 const createGqlClient = function() {
   const client = new GraphQLClient(config.github.graphqlEndpoint, {
     timeout: config.github.timeout,
     headers: {
-      authorization: "Bearer " + config.github.token,
+      authorization: "Bearer " + getGithubToken(),
     },
   });
   return client;

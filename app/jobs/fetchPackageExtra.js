@@ -24,6 +24,7 @@ const {
 const { addImage, getImage } = require("../utils/media");
 const { healthCheck } = require("../utils/healthCheck");
 const logger = require("../utils/log")(module);
+const { getGithubToken } = require("../utils/github");
 
 /**
  * Fetch package extra data into redis for given packageNames array.
@@ -188,8 +189,8 @@ const _fetchRepoInfo = async function(repo, packageName) {
   logger.info({ pkg: packageName }, "_fetchRepoInfo");
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.github.token)
-      headers.authorization = `Bearer ${config.github.token}`;
+    const githubToken = getGithubToken();
+    if (githubToken) headers.authorization = `Bearer ${githubToken}`;
     let resp = null;
     const source = CancelToken.source();
     setTimeout(() => {
