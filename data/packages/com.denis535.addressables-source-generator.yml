@@ -17,5 +17,5 @@ hunter: Denis535
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:Packages/com.denis535..addressables-source-generator/Readme.md
+readme: master:Packages/com.denis535.addressables-source-generator/Readme.md
 createdAt: 1707993577059
