@@ -1,0 +1,21 @@
+name: com.denis535.addressables-source-generator
+displayName: Addressables Source Generator
+description: >-
+  This package is addition to Addressables giving you the ability to reference
+  assets in a very convenient way
+repoUrl: https://github.com/Denis535/CleanArchitectureGameFramework
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: >-
+  https://media.githubusercontent.com/media/Denis535/CleanArchitectureGameFramework/master/Images/Icon%20160x160.png
+topics:
+  - asset-management
+  - code-generation
+  - utilities
+hunter: Denis535
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.denis535..addressables-source-generator/Readme.md
+createdAt: 1707993577059
