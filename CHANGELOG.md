@@ -1,3 +1,10 @@
+# [1.58.0](https://github.com/openupm/openupm/compare/1.57.3...1.58.0) (2024-02-15)
+
+
+### Features
+
+* **jobs:** support multiple github tokens ([9dac05c](https://github.com/openupm/openupm/commit/9dac05cf87ead1d7fe11258a8393feaec96dec16))
+
 ## [1.57.3](https://github.com/openupm/openupm/compare/1.57.2...1.57.3) (2024-02-07)
 
 
