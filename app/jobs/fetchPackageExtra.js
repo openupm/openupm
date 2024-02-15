@@ -8,11 +8,7 @@ const urljoin = require("url-join");
 
 const PackageExtra = require("../models/packageExtra");
 const { getCachedAvatarImageFilename } = require("../common/utils");
-const {
-  createGqlClient,
-  gitFileContentGql,
-  openGraphImageUrlGql,
-} = require("../utils/githubGql");
+const { createGqlClient, gitFileContentGql } = require("../utils/githubGql");
 const {
   loadPackageNames,
   loadPackage,
@@ -48,7 +44,6 @@ const fetchExtraData = async function(packageNames, force) {
     await _fetchPackageInfo(packageName);
     await _fetchPackageScopes(packageName);
     await _fetchRepoInfo(pkg.repo, packageName);
-    await _fetchOGImage(pkg, packageName);
     await _fetchReadme(pkg, packageName);
     await _cacheImage(pkg, packageName, force);
     await _cacheAvatarImage(pkg, packageName, force);
@@ -223,68 +218,6 @@ const _fetchRepoInfo = async function(repo, packageName) {
     logger.error(
       httpErrorInfo(error, { pkg: packageName }),
       "fetch stars error"
-    );
-  }
-};
-
-/**
- * Fetch repository og:image.
- * @param {object} repo
- * @param {*} packageName
- */
-const _fetchOGImage = async function(pkg, packageName) {
-  logger.info({ pkg: packageName }, "_fetchOGImage");
-  if (pkg.image) {
-    logger.info(
-      { pkg: packageName },
-      "skip _fetchOGImage because the pkg.image field exists"
-    );
-    return;
-  }
-  const updatedTime = await PackageExtra.getRepoUpdatedTime(packageName);
-  const ogimageCacheKey = `v0:${updatedTime}`;
-  const prevOGImageCacheKey = await PackageExtra.getOGImageCacheKey(
-    packageName
-  );
-  if (ogimageCacheKey == prevOGImageCacheKey) {
-    logger.info(
-      { pkg: packageName },
-      "skip _fetchOGImage because the cache is available"
-    );
-    return;
-  }
-  // Helper method to fetch og:image.
-  const _fetchOGImageForRepo = async function(repo) {
-    try {
-      const [owner, name] = repo.split("/");
-      const data = await createGqlClient().request(openGraphImageUrlGql, {
-        owner,
-        name,
-      });
-      if (data.repository.usesCustomOpenGraphImage)
-        return data.repository.openGraphImageUrl;
-      return "";
-    } catch (error) {
-      if (!isErrorCode(error, 404)) {
-        logger.error({ err: error, pkg: packageName }, "_fetchOGImage error");
-      }
-      return "";
-    }
-  };
-  try {
-    // Fetch from repo.
-    let imageUrl = await _fetchOGImageForRepo(pkg.repo);
-    // Fetch from parent repo.
-    if (!imageUrl && pkg.parentRepo) {
-      imageUrl = await _fetchOGImageForRepo(pkg.parentRepo);
-    }
-    // Save it.
-    await PackageExtra.setImageUrl(packageName, imageUrl);
-    await PackageExtra.setOGImageCacheKey(packageName, ogimageCacheKey);
-  } catch (error) {
-    logger.error(
-      httpErrorInfo(error, { pkg: packageName }),
-      "_fetchOGImage error"
     );
   }
 };

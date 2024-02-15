@@ -14,15 +14,6 @@ const createGqlClient = function() {
   return client;
 };
 
-const openGraphImageUrlGql = `
-  query RepoInfo($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      usesCustomOpenGraphImage,
-      openGraphImageUrl
-    }
-  }
-`;
-
 let gitFileContentGql = `
   query RepoInfo($owner: String!, $name: String!, $tree: String!) {
     repository(owner: $owner, name: $name) {
@@ -37,6 +28,5 @@ let gitFileContentGql = `
 
 module.exports = {
   createGqlClient,
-  openGraphImageUrlGql,
   gitFileContentGql,
 };
