@@ -11,9 +11,10 @@ image: ''
 topics:
   - gui
   - integration
+  - localization
 hunter: mfdeveloper
 gitTagPrefix: com.metalpopgames.uiaccessibility.unity-localization/
-gitTagIgnore: '[0-9]\.[0-9]\.[0-9]'
+gitTagIgnore: ''
 minVersion: ''
 readme: upm-unity-localization:README.md
 createdAt: 1707936852485
