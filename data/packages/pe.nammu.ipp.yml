@@ -1,0 +1,20 @@
+name: pe.nammu.ipp
+displayName: InputPadPanel SDK
+description: InputPadPanel SDK Package
+repoUrl: https://github.com/mod157/ipp.unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - input-management
+  - mobile
+  - services
+  - utilities
+hunter: mod157
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1707993004720
