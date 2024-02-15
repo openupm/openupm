@@ -8,7 +8,7 @@ const defaultJobOptions = {
   backoff: {
     type: "exponential",
     delay: 30000,
-  }
+  },
 };
 
 module.exports = {
@@ -32,11 +32,11 @@ module.exports = {
   queueSettings: {
     pkg: {
       concurrency: 5,
-      defaultJobOptions
+      defaultJobOptions,
     },
     rel: {
       concurrency: 5,
-      defaultJobOptions
+      defaultJobOptions,
     },
   },
 
@@ -52,14 +52,14 @@ module.exports = {
       name: "build-rel",
       timeout: 60000 * 30,
       interval: 30000,
-    }
+    },
   },
 
   // GitHub.
   gitHub: {
-    endpoint: "https://api.github.com/graphql",
+    graphqlEndpoint: "https://api.github.com/graphql",
     timeout: 10000,
-    token: ""
+    token: "",
   },
 
   // Azure devops.
@@ -74,15 +74,15 @@ module.exports = {
       // Repeat check count.
       retries: 5,
       // Repeat interval step - [interval, interval * 2, ..., interval * retries].
-      retryIntervalStep: 10 * 1000
+      retryIntervalStep: 10 * 1000,
     },
     buildUrlBase:
-      "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/"
+      "https://dev.azure.com/openupm/43915a16-5763-427d-8190-b9eccec12894/",
   },
 
   // Feeds
   feeds: {
-    recentUpdateCount: 50
+    recentUpdateCount: 50,
   },
 
   // PackageExtra
@@ -90,8 +90,8 @@ module.exports = {
     image: { width: 600, height: 300, duration: 24 * 3600 * 1000 },
     avatar: {
       small: { size: 48, duration: 24 * 3600 * 1000 },
-      normal: { size: 128, duration: 24 * 3600 * 1000 }
-    }
+      normal: { size: 128, duration: 24 * 3600 * 1000 },
+    },
   },
 
   s3: {
@@ -99,9 +99,9 @@ module.exports = {
       endpoint: "",
       accessKeyId: "",
       secretAccessKey: "",
-      s3ForcePathStyle: true
+      s3ForcePathStyle: true,
     },
-    mediaBucket: "openupm"
+    mediaBucket: "openupm",
   },
 
   healthCheck: {
@@ -112,7 +112,7 @@ module.exports = {
       fetchSiteInfo: "",
       updateFeeds: "",
       fetchBackerData: "",
-      addBuildPackageJob: ""
-    }
-  }
+      addBuildPackageJob: "",
+    },
+  },
 };

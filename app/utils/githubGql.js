@@ -5,11 +5,11 @@ const config = require("config");
 const { GraphQLClient } = require("graphql-request");
 
 const createGqlClient = function() {
-  const client = new GraphQLClient(config.gitHub.endpoint, {
+  const client = new GraphQLClient(config.gitHub.graphqlEndpoint, {
     timeout: config.gitHub.timeout,
     headers: {
-      authorization: "Bearer " + config.gitHub.token
-    }
+      authorization: "Bearer " + config.gitHub.token,
+    },
   });
   return client;
 };
@@ -38,5 +38,5 @@ let gitFileContentGql = `
 module.exports = {
   createGqlClient,
   openGraphImageUrlGql,
-  gitFileContentGql
+  gitFileContentGql,
 };

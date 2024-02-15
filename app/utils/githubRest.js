@@ -1,5 +1,5 @@
 /**
- * GitHub GraphQL rest API
+ * GitHub HTTP Rest API
  */
 const fs = require("fs");
 const config = require("config");
@@ -30,11 +30,11 @@ const createIssue = async function(repoOwner, repoName, issueTitle, issueBody) {
     );
     const postData = {
       title: issueTitle,
-      body: issueBody
+      body: issueBody,
     };
     resp = await AxiosService.create().post(url, postData, {
       headers,
-      cancelToken: source.token
+      cancelToken: source.token,
     });
     const result = resp.data;
     return result;
@@ -70,11 +70,11 @@ const updateIssue = async function(
     );
     const postData = {
       title: issueTitle,
-      body: issueBody
+      body: issueBody,
     };
     resp = await AxiosService.create().patch(url, postData, {
       headers,
-      cancelToken: source.token
+      cancelToken: source.token,
     });
     const result = resp.data;
     return result;
@@ -98,5 +98,5 @@ const loadIssueTemplate = function(name) {
 module.exports = {
   createIssue,
   updateIssue,
-  loadIssueTemplate
+  loadIssueTemplate,
 };
