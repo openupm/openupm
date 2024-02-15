@@ -1,0 +1,19 @@
+name: com.denis535.colorful-project-window
+displayName: Colorful Project Window
+description: This package makes the project window much more convenient.
+repoUrl: https://github.com/Denis535/CleanArchitectureGameFramework
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: >-
+  https://media.githubusercontent.com/media/Denis535/CleanArchitectureGameFramework/master/Images/Icon%20160x160.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: Denis535
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.denis535..colorful-project-window/Readme.md
+createdAt: 1707994131407
