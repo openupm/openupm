@@ -11,19 +11,19 @@ const { getCachedAvatarImageFilename } = require("../common/utils");
 const {
   createGqlClient,
   gitFileContentGql,
-  openGraphImageUrlGql
+  openGraphImageUrlGql,
 } = require("../utils/githubGql");
 const {
   loadPackageNames,
   loadPackage,
-  packageExists
+  packageExists,
 } = require("../utils/package");
 const { renderMarkdownToHtml } = require("../utils/markdown");
 const {
   AxiosService,
   CancelToken,
   httpErrorInfo,
-  isErrorCode
+  isErrorCode,
 } = require("../utils/http");
 const { addImage, getImage } = require("../utils/media");
 const { healthCheck } = require("../utils/healthCheck");
@@ -34,7 +34,7 @@ const logger = require("../utils/log")(module);
  * @param {Array} packageNames
  * @param {Boolean} force
  */
-const fetchExtraData = async function (packageNames, force) {
+const fetchExtraData = async function(packageNames, force) {
   logger.info("fetchExtraData");
   if (!packageNames) packageNames = [];
   for (let packageName of packageNames) {
@@ -60,7 +60,7 @@ const fetchExtraData = async function (packageNames, force) {
  * Fetch package meta json.
  * @param {string} packageName
  */
-const fetchPackageMeta = async function (packageName) {
+const fetchPackageMeta = async function(packageName) {
   let resp = null;
   const source = CancelToken.source();
   setTimeout(() => {
@@ -70,19 +70,19 @@ const fetchPackageMeta = async function (packageName) {
     urljoin("https://package.openupm.com", packageName),
     {
       headers: { Accept: "application/json" },
-      cancelToken: source.token
+      cancelToken: source.token,
     }
   );
   return resp.data;
 };
 
 // Get latest version from the package meta
-const getLatestVersion = function (pkgMeta) {
+const getLatestVersion = function(pkgMeta) {
   if (pkgMeta["dist-tags"] && pkgMeta["dist-tags"]["latest"])
     return pkgMeta["dist-tags"]["latest"];
   else if (pkgMeta.versions)
     return Object.keys(pkgMeta.versions).find(
-      key => pkgMeta.versions[key] == "latest"
+      (key) => pkgMeta.versions[key] == "latest"
     );
 };
 
@@ -90,7 +90,7 @@ const getLatestVersion = function (pkgMeta) {
  * Fetch package info from the registry.
  * @param {string} packageName
  */
-const _fetchPackageInfo = async function (packageName) {
+const _fetchPackageInfo = async function(packageName) {
   logger.info({ pkg: packageName }, "_fetchPackageInfo");
   try {
     const pkgMeta = await fetchPackageMeta(packageName);
@@ -119,7 +119,7 @@ const _fetchPackageInfo = async function (packageName) {
  * Fetch package scopes for dependencies.
  * @param {string} packageName
  */
-const _fetchPackageScopes = async function (packageName) {
+const _fetchPackageScopes = async function(packageName) {
   logger.info({ pkg: packageName }, "_fetchPackageScopes");
   // a list of pending {name, version}
   const pendingList = [{ name: packageName, version: null }];
@@ -131,7 +131,7 @@ const _fetchPackageScopes = async function (packageName) {
   const cachedPackageMetas = {};
   while (pendingList.length > 0) {
     const entry = pendingList.shift();
-    if (processedList.find(x => _.isEqual(x, entry)) === undefined) {
+    if (processedList.find((x) => _.isEqual(x, entry)) === undefined) {
       // add entry to processed list
       processedList.push(entry);
       // skip unity module
@@ -161,16 +161,16 @@ const _fetchPackageScopes = async function (packageName) {
         entry.version = getLatestVersion(pkgMeta);
       // fall back to latest version if version does not existed
       const versions = Object.keys(pkgMeta.versions);
-      if (!versions.find(x => x == entry.version))
+      if (!versions.find((x) => x == entry.version))
         entry.version = getLatestVersion(pkgMeta);
       try {
         // add dependencies to pending list
         const deps = _.toPairs(
           pkgMeta.versions[entry.version]["dependencies"]
-        ).map(x => {
+        ).map((x) => {
           return { name: x[0], version: x[1] };
         });
-        deps.forEach(x => pendingList.push(x));
+        deps.forEach((x) => pendingList.push(x));
       } catch (err) {
         logger.error(
           httpErrorInfo(err, { pkg: packageName, dep: entry.name }),
@@ -189,12 +189,12 @@ const _fetchPackageScopes = async function (packageName) {
  * Fetch repository information like stars and pushed time.
  * @param {object} repo
  */
-const _fetchRepoInfo = async function (repo, packageName) {
+const _fetchRepoInfo = async function(repo, packageName) {
   logger.info({ pkg: packageName }, "_fetchRepoInfo");
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.gitHub.token)
-      headers.authorization = `Bearer ${config.gitHub.token}`;
+    if (config.github.token)
+      headers.authorization = `Bearer ${config.github.token}`;
     let resp = null;
     const source = CancelToken.source();
     setTimeout(() => {
@@ -232,26 +232,34 @@ const _fetchRepoInfo = async function (repo, packageName) {
  * @param {object} repo
  * @param {*} packageName
  */
-const _fetchOGImage = async function (pkg, packageName) {
+const _fetchOGImage = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchOGImage");
   if (pkg.image) {
-    logger.info({ pkg: packageName }, "skip _fetchOGImage because the pkg.image field exists");
+    logger.info(
+      { pkg: packageName },
+      "skip _fetchOGImage because the pkg.image field exists"
+    );
     return;
   }
   const updatedTime = await PackageExtra.getRepoUpdatedTime(packageName);
   const ogimageCacheKey = `v0:${updatedTime}`;
-  const prevOGImageCacheKey = await PackageExtra.getOGImageCacheKey(packageName);
+  const prevOGImageCacheKey = await PackageExtra.getOGImageCacheKey(
+    packageName
+  );
   if (ogimageCacheKey == prevOGImageCacheKey) {
-    logger.info({ pkg: packageName }, "skip _fetchOGImage because the cache is available");
+    logger.info(
+      { pkg: packageName },
+      "skip _fetchOGImage because the cache is available"
+    );
     return;
   }
   // Helper method to fetch og:image.
-  const _fetchOGImageForRepo = async function (repo) {
+  const _fetchOGImageForRepo = async function(repo) {
     try {
       const [owner, name] = repo.split("/");
       const data = await createGqlClient().request(openGraphImageUrlGql, {
         owner,
-        name
+        name,
       });
       if (data.repository.usesCustomOpenGraphImage)
         return data.repository.openGraphImageUrl;
@@ -287,7 +295,7 @@ const _fetchOGImage = async function (pkg, packageName) {
  * @param {string} packageName
  * @param {Boolean} force
  */
-const _cacheImage = async function (pkg, packageName, force) {
+const _cacheImage = async function(pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheImage");
   try {
     const query = await PackageExtra.getImageQueryForPackage(packageName);
@@ -305,7 +313,7 @@ const _cacheImage = async function (pkg, packageName, force) {
     await addImage({
       ...query,
       duration,
-      force
+      force,
     });
   } catch (error) {
     logger.error(
@@ -321,7 +329,7 @@ const _cacheImage = async function (pkg, packageName, force) {
  * @param {string} packageName
  * @param {Boolean} force
  */
-const _cacheAvatarImage = async function (pkg, packageName, force) {
+const _cacheAvatarImage = async function(pkg, packageName, force) {
   logger.info({ pkg: packageName }, "_cacheAvatarImage");
   if (pkg.owner) await cacheAvatarImageForGithubUser(pkg.owner, force);
   if (pkg.parentOwner)
@@ -334,7 +342,7 @@ const _cacheAvatarImage = async function (pkg, packageName, force) {
  * @param {string} username
  * @param {Boolean} force
  */
-const cacheAvatarImageForGithubUser = async function (username, force) {
+const cacheAvatarImageForGithubUser = async function(username, force) {
   for (const [sizeName, entry] of Object.entries(config.packageExtra.avatar)) {
     logger.info(
       { username, width: entry.size, height: entry.size, sizeName },
@@ -365,7 +373,7 @@ const cacheAvatarImageForGithubUser = async function (username, force) {
         ...query,
         duration,
         filename,
-        force
+        force,
       });
     } catch (error) {
       logger.error(
@@ -380,24 +388,33 @@ const cacheAvatarImageForGithubUser = async function (username, force) {
  * Fetch repository readme.
  * @param {object} repo
  */
-const _fetchReadme = async function (pkg, packageName) {
+const _fetchReadme = async function(pkg, packageName) {
   logger.info({ pkg: packageName }, "_fetchReadme");
   const langs = ["en-US", "zh-CN"];
   for (const lang of langs) {
-    const readmePathPropKey = PackageExtra.getPropKeyForLang(PackageExtra.propKeys.readme, lang);
+    const readmePathPropKey = PackageExtra.getPropKeyForLang(
+      PackageExtra.propKeys.readme,
+      lang
+    );
     const readmePath = pkg[readmePathPropKey];
     if (readmePath)
       await _fetchReadmeForLang(pkg, packageName, lang, readmePath);
   }
 };
 
-const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) {
+const _fetchReadmeForLang = async function(pkg, packageName, lang, readmePath) {
   logger.info({ pkg: packageName, lang, readmePath }, "_fetchReadmeForLang");
   const pushedTime = await PackageExtra.getRepoPushedTime(packageName);
   const readmeCacheKey = `v0:${readmePath}:${pushedTime}`;
-  const prevReadmeCacheKey = await PackageExtra.getReadmeCacheKey(packageName, lang);
+  const prevReadmeCacheKey = await PackageExtra.getReadmeCacheKey(
+    packageName,
+    lang
+  );
   if (readmeCacheKey == prevReadmeCacheKey) {
-    logger.info({ pkg: packageName, lang, readmePath }, "skip _fetchReadmeForLang because the cache is available");
+    logger.info(
+      { pkg: packageName, lang, readmePath },
+      "skip _fetchReadmeForLang because the cache is available"
+    );
     return;
   }
   try {
@@ -405,7 +422,7 @@ const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) 
     const data = await createGqlClient().request(gitFileContentGql, {
       owner,
       name,
-      tree: readmePath
+      tree: readmePath,
     });
     let text = "";
     if (data.repository.tree && data.repository.tree.text)
@@ -427,17 +444,20 @@ const _fetchReadmeForLang = async function (pkg, packageName, lang, readmePath) 
  * @param {string} packageName
  * @returns {Number}
  */
-const fetchPackageMonthlyInstallCount = async function (packageName) {
+const fetchPackageMonthlyInstallCount = async function(packageName) {
   let resp = null;
   const source = CancelToken.source();
   setTimeout(() => {
     if (resp === null) source.cancel("ECONNTIMEOUT");
   }, 10000);
   resp = await AxiosService.create().get(
-    urljoin("https://package.openupm.com/downloads/point/last-month", packageName),
+    urljoin(
+      "https://package.openupm.com/downloads/point/last-month",
+      packageName
+    ),
     {
       headers: { Accept: "application/json" },
-      cancelToken: source.token
+      cancelToken: source.token,
     }
   );
   return resp.data;
@@ -447,7 +467,7 @@ const fetchPackageMonthlyInstallCount = async function (packageName) {
  * Fetch package install count.
  * @param {string} packageName
  */
-const _fetchPackageInstallCount = async function (packageName) {
+const _fetchPackageInstallCount = async function(packageName) {
   logger.info({ pkg: packageName }, "_fetchPackageInstallCount");
   try {
     const result = await fetchPackageMonthlyInstallCount(packageName);
@@ -470,11 +490,11 @@ if (require.main === module) {
     .option("--all", "fetch extra package data for all packages")
     .option("-f, --force", "ignore cache and force to fetch stuffs")
     .arguments("[name...]")
-    .action(function (names) {
+    .action(function(names) {
       packageNames = names;
     })
     .parse(process.argv)
-    .run(async function () {
+    .run(async function() {
       if (program.all)
         packageNames = await loadPackageNames({ sortKey: "-mtime" });
       if (packageNames === null || !packageNames.length) program.help();

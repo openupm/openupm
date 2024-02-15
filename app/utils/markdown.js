@@ -9,8 +9,8 @@ const urlWithProtocolRe = /.*:.*/i;
 
 // Convert GitHub URL to GitHub raw URL.
 const convertToGitHubRawUrl = function(url) {
-  const gitHubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
-  if (gitHubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
+  const githubBlobRe = /^https?:\/\/github\.com\/.*\/.*\/blob\//i;
+  if (githubBlobRe.test(url)) url = url.replace(/\/blob\//, "/raw/");
   return url;
 };
 
@@ -19,7 +19,7 @@ const markedRenderer = function({
   linkBaseUrl,
   linkBaseRelativeUrl,
   imageBaseUrl,
-  imageBaseRelativeUrl
+  imageBaseRelativeUrl,
 }) {
   const renderer = new marked.Renderer();
   const originalRendererLink = renderer.link.bind(renderer);
@@ -60,10 +60,10 @@ const markedRenderer = function({
     "<": "&lt;",
     ">": "&gt;",
     '"': "&quot;",
-    "'": "&#39;"
+    "'": "&#39;",
   };
   function escapeForHTML(input) {
-    return input.replace(/([&<>'"])/g, char => escapeMap[char]);
+    return input.replace(/([&<>'"])/g, (char) => escapeMap[char]);
   }
   renderer.code = (code, language) => {
     // Check whether the given language is valid for highlight.js.
@@ -87,14 +87,14 @@ const markedRenderer = function({
 const renderMarkdownToHtml = async function({
   pkg,
   markdown,
-  disableTitleParser
+  disableTitleParser,
 }) {
   // Parse title
   if (!disableTitleParser) {
     markdown = parseTitle({ pkg, markdown });
   }
   // Parse emoji
-  const replacer = match => emoji.emojify(match);
+  const replacer = (match) => emoji.emojify(match);
   markdown = markdown.replace(/(:.*:)/g, replacer);
   // Render markdown
   const linkBaseUrl = urljoin(pkg.repoUrl, "blob/" + pkg.readmeBranch);
@@ -105,7 +105,7 @@ const renderMarkdownToHtml = async function({
     linkBaseUrl,
     linkBaseRelativeUrl,
     imageBaseUrl,
-    imageBaseRelativeUrl
+    imageBaseRelativeUrl,
   });
   const html = marked.parse(markdown, { renderer });
   // post-processing
@@ -144,7 +144,8 @@ const postProcessHtml = function(html, { imageBaseRelativeUrl }) {
       // 1x1 transparent base64 png pixel.
       return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=";
     }
-    if (!urlWithProtocolRe.test(attr)) attr = urljoin(imageBaseRelativeUrl, attr);
+    if (!urlWithProtocolRe.test(attr))
+      attr = urljoin(imageBaseRelativeUrl, attr);
     return attr;
   });
   return $.html()
@@ -156,5 +157,5 @@ module.exports = {
   convertToGitHubRawUrl,
   renderMarkdownToHtml,
   parseTitle,
-  postProcessHtml
+  postProcessHtml,
 };

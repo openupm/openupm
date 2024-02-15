@@ -10,8 +10,8 @@ const { AxiosService, CancelToken, httpErrorInfo } = require("../utils/http");
 const getGithubRateLimit = async function() {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.gitHub.token)
-      headers.authorization = `Bearer ${config.gitHub.token}`;
+    if (config.github.token)
+      headers.authorization = `Bearer ${config.github.token}`;
     let resp = null;
     const source = CancelToken.source();
     setTimeout(() => {

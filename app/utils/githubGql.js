@@ -5,10 +5,10 @@ const config = require("config");
 const { GraphQLClient } = require("graphql-request");
 
 const createGqlClient = function() {
-  const client = new GraphQLClient(config.gitHub.graphqlEndpoint, {
-    timeout: config.gitHub.timeout,
+  const client = new GraphQLClient(config.github.graphqlEndpoint, {
+    timeout: config.github.timeout,
     headers: {
-      authorization: "Bearer " + config.gitHub.token,
+      authorization: "Bearer " + config.github.token,
     },
   });
   return client;

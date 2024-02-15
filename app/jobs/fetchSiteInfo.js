@@ -23,8 +23,8 @@ const fetchSiteInfo = async function() {
 const _fetchStars = async function(repo) {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.gitHub.token)
-      headers.authorization = `Bearer ${config.gitHub.token}`;
+    if (config.github.token)
+      headers.authorization = `Bearer ${config.github.token}`;
     let resp = null;
     const source = CancelToken.source();
     setTimeout(() => {

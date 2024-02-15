@@ -14,8 +14,8 @@ const { AxiosService, CancelToken, httpErrorInfo } = require("./http");
 const createIssue = async function(repoOwner, repoName, issueTitle, issueBody) {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.gitHub.issueToken)
-      headers.authorization = `Bearer ${config.gitHub.issueToken}`;
+    if (config.github.issueToken)
+      headers.authorization = `Bearer ${config.github.issueToken}`;
     else throw new Error("error empty issueToken");
     let resp = null;
     const source = CancelToken.source();
@@ -53,8 +53,8 @@ const updateIssue = async function(
 ) {
   try {
     const headers = { Accept: "application/vnd.github.v3.json" };
-    if (config.gitHub.issueToken)
-      headers.authorization = `Bearer ${config.gitHub.issueToken}`;
+    if (config.github.issueToken)
+      headers.authorization = `Bearer ${config.github.issueToken}`;
     else throw new Error("error empty issueToken");
     let resp = null;
     const source = CancelToken.source();

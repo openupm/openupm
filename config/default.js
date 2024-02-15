@@ -56,7 +56,7 @@ module.exports = {
   },
 
   // GitHub.
-  gitHub: {
+  github: {
     graphqlEndpoint: "https://api.github.com/graphql",
     timeout: 10000,
     token: "",
