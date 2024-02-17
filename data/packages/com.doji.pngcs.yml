@@ -1,0 +1,16 @@
+name: com.doji.pngcs
+displayName: PNGCS
+description: PNG image encoding in C#
+repoUrl: https://github.com/julienkay/com.doji.pngcs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708193764416
