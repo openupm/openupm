@@ -1,0 +1,17 @@
+name: com.svermeulen.uniscon
+displayName: Uniscon
+description: Structure Concurrency for Unity
+repoUrl: https://github.com/svermeulen/uniscon
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - utilities
+hunter: svermeulen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708241667146
