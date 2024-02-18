@@ -1,0 +1,18 @@
+name: com.svermeulen.unifind
+displayName: Unifind
+description: A fuzzy-finder for Unity Editor
+repoUrl: https://github.com/svermeulen/unifind
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: svermeulen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708240095628
