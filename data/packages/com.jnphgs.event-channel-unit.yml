@@ -9,7 +9,7 @@ image: ''
 topics:
   - code-generation
 hunter: jnphgs
-gitTagPrefix: upm@
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 readme: upm:README.md
