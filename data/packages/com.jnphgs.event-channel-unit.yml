@@ -1,0 +1,16 @@
+name: com.jnphgs.event-channel-unit
+displayName: Event Channel Unit
+description: EventUnit for Event Channel
+repoUrl: https://github.com/jnphgs/EventChannelUnit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: jnphgs
+gitTagPrefix: upm@
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1708237959118
