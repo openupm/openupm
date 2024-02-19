@@ -1,4 +1,4 @@
- name: com.rusticisoftware.tincan.net
+name: com.rusticisoftware.tincan.net
 displayName: Rustici Software TinCan.NET - Unity Package
 description: This is a Unity package variant of TinCan.NET by Rustici Software.
 repoUrl: https://github.com/SGoerzen/TinCanUnity
