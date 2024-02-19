@@ -1,0 +1,20 @@
+name: com.pimdewitte.unitymainthreaddispatcher
+displayName: UnityMainThreadDispatcher
+description: >-
+  A thread-safe way of dispatching IEnumerator functions to the main thread in
+  unity. Useful for calling UI functions and other actions that Unity limits to
+  the main thread from different threads. Initially written for Firebase Unity
+  but now used across the board!
+repoUrl: https://github.com/PimDeWitte/UnityMainThreadDispatcher
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - parallelism-and-concurrency
+hunter: SGoerzen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708356726766
