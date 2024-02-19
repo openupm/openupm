@@ -1,0 +1,16 @@
+ name: com.rusticisoftware.tincan.net
+displayName: Rustici Software TinCan.NET - Unity Package
+description: This is a Unity package variant of TinCan.NET by Rustici Software.
+repoUrl: https://github.com/SGoerzen/TinCanUnity
+parentRepoUrl: https://github.com/RusticiSoftware/TinCan.NET
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+hunter: SGoerzen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708338870013
