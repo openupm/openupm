@@ -1,0 +1,23 @@
+name: com.virtualmaker.flexalonui
+displayName: Flexalon UI
+description: Flexalon Layouts
+repoUrl: https://github.com/virtual-maker-net/com.virtualmaker.flexalonui
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - ar-and-vr
+  - animation
+  - editor-enhancement
+  - frameworks
+  - gui
+  - level-design
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708365899028
