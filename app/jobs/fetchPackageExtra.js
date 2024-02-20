@@ -127,7 +127,7 @@ const _fetchPackageScopes = async function(packageName) {
   const cachedPackageMetas = {};
   while (pendingList.length > 0) {
     const entry = pendingList.shift();
-    if (processedList.find((x) => _.isEqual(x, entry)) === undefined) {
+    if (processedList.find((x) => x.name === entry.name) === undefined) {
       // add entry to processed list
       processedList.push(entry);
       // skip unity module
