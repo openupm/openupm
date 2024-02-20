@@ -1,7 +1,7 @@
 name: io.spatial.unitysdk
 displayName: Spatial Creator Toolkit
 description: Build games and experiences in Unity & publish them to Spatial
-repoUrl: 'https://github.com/spatialsys/spatial-unity-sdk'
+repoUrl: 'https://github.com/spatialsys/spatial-creator-toolkit'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
