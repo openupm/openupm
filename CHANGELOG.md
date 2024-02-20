@@ -1,3 +1,10 @@
+## [1.58.1](https://github.com/openupm/openupm/compare/1.58.0...1.58.1) (2024-02-20)
+
+
+### Bug Fixes
+
+* **jobs:** Prevent fetchPackageScopes from looping in certain special cases ([5be814f](https://github.com/openupm/openupm/commit/5be814f0286f8c98a26c956232d1ea207a898891))
+
 # [1.58.0](https://github.com/openupm/openupm/compare/1.57.3...1.58.0) (2024-02-15)
 
 
