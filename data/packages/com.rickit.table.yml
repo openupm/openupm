@@ -1,0 +1,16 @@
+name: com.rickit.table
+displayName: RicKit Table
+description: RicKit Table, CSV, ScriptableObject
+repoUrl: https://github.com/rickytheoldtree/com.rickit.table
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+hunter: rickytheoldtree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708404027749
