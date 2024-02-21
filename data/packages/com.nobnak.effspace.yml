@@ -1,0 +1,18 @@
+name: com.nobnak.effspace
+displayName: Efficient Spatial Data Structure
+description: >-
+  An implementation (for Unity) of efficient spacial data structures from
+  Stackoverflow thread
+repoUrl: https://github.com/nobnak/EffSpaceUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708520900084
