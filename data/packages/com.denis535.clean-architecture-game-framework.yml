@@ -9,7 +9,7 @@ parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
 image: >-
-  https://github.com/Denis535/denis535.github.io/blob/c963ebdd24dcfafb91f7ed3e25c8ac9dab49b89d/Icon.png
+  https://raw.githubusercontent.com/Denis535/denis535.github.io/9e193ce0c80d9886d0d4d3ae7fc5553bc3be19ae/Icon%20160x160.png
 topics:
   - frameworks
   - gui
