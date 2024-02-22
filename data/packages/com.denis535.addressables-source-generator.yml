@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
 image: >-
-  https://media.githubusercontent.com/media/Denis535/CleanArchitectureGameFramework/master/Images/Icon%20160x160.png
+  https://raw.githubusercontent.com/Denis535/denis535.github.io/6dcb4783eaafc1ab814fbdeabb8946dd1d98582a/Icon%20160x160.png
 topics:
   - asset-management
   - code-generation
