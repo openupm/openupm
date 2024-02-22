@@ -1,0 +1,16 @@
+name: com.realitygames.object-destroyer
+displayName: Object Destroyer
+description: Custom tool to destroy objects in more optimized way
+repoUrl: https://github.com/RealityGamesLtd/object-destroyer-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: tallyon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708593402161
