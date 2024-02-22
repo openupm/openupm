@@ -1,0 +1,16 @@
+name: com.elex.webglsupport
+displayName: WebGLSupport
+description: unity webgl support
+repoUrl: https://github.com/yuyixiaoxiang/WebGLSupport
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: yuyixiaoxiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708585428200
