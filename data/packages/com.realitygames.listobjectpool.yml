@@ -1,0 +1,18 @@
+name: com.realitygames.listobjectpool
+displayName: List Object Pool
+description: ''
+repoUrl: https://github.com/RealityGamesLtd/list-object-pool-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - mobile
+  - utilities
+hunter: tallyon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708593281447
