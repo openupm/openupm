@@ -1,0 +1,16 @@
+name: com.crlstudios.blobhashmaps
+displayName: CRL.BlobHashMaps
+description: Implementation of BlobHashMap
+repoUrl: https://github.com/CRLStudios/Unity-BlobHashMaps
+parentRepoUrl: https://github.com/bartofzo/BlobHashMaps
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: coryleach
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1708594774390
