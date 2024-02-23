@@ -1,0 +1,19 @@
+name: ai.natml.vision.blazepalm.detector
+displayName: BlazePalm Detector
+description: Palm detection from Google MediaPipe in Unity Engine.
+repoUrl: https://github.com/natmlx/blazepalm-detector-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/natmlx/blazepalm-detector-unity/main/demo.gif
+topics:
+  - ai
+  - localization
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708704352571
