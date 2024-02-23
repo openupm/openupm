@@ -1,0 +1,18 @@
+name: ai.natml.videokit
+displayName: VideoKit
+description: The only user-generated content solution for Unity Engine.
+repoUrl: https://github.com/natmlx/videokit
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - integration
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708704246433
