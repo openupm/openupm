@@ -1,0 +1,17 @@
+name: jp.keijiro.test-assets
+displayName: Test Assets
+description: Generic placeholder assets for testing/prototyping.
+repoUrl: https://github.com/keijiro/jp.keijiro.test-assets
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: SEE LICENSE IN LICENSE
+image: ''
+topics:
+  - level-design
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708698325234
