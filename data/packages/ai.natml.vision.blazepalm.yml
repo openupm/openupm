@@ -1,0 +1,19 @@
+name: ai.natml.vision.blazepalm
+displayName: BlazePalm
+description: Palm landmark prediction with MediaPipe Hands in Unity Engine.
+repoUrl: https://github.com/natmlx/blazepalm-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://github.com/natmlx/blazepalm-unity/raw/main/demo.gif
+topics:
+  - ai
+  - ar-and-vr
+  - integration
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708704578838
