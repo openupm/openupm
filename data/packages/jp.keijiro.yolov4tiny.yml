@@ -1,0 +1,20 @@
+name: jp.keijiro.yolov4tiny
+displayName: YOLOv4-tiny
+description: YOLOv4 tiny object detection model with Unity Barracuda.
+repoUrl: https://github.com/keijiro/YoloV4TinyBarracuda
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://user-images.githubusercontent.com/343936/125790218-5c33a411-2a8e-4bbc-bbe3-0dd143a18439.gif
+topics:
+  - ai
+  - camera
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708697555121
