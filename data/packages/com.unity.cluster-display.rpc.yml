@@ -1,0 +1,28 @@
+name: com.unity.cluster-display.rpc
+displayName: Cluster Display RPC
+description: >-
+  Allows making builds that run on multiple machines and simulate the same scene
+  in-sync with each other. The result is displayed on a cluster of displays.
+  This feature enables you to deploy your Unity environment to complex
+  multi-screen environments like a video wall, a CAVE, a Dome or any custom
+  layout of multiple displays.
+repoUrl: https://github.com/Unity-Technologies/ClusterDisplay
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: >-
+  https://media.githubusercontent.com/media/Unity-Technologies/ClusterDisplay/main/source/com.unity.cluster-display/Documentation%7E/images/tracking-origin-scene.png
+topics:
+  - ar-and-vr
+  - camera
+  - editor-enhancement
+  - gui
+  - integration
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708701079797
