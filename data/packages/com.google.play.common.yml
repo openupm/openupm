@@ -17,7 +17,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: https://developer.android.com/static/images/logos/google-play.svg
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
