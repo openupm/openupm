@@ -1,0 +1,19 @@
+name: com.ltmx.packageregistry.tools
+displayName: Unity Package Registry Tools
+description: Easily Edit your Package Manager's Scoped Registries
+repoUrl: https://github.com/ltmx/Unity.PackageRegistryTools
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: 'https://github.com/ltmx/Unity.PackageRegistryTools/assets/47640688/55393bf6-0efa-4290-adc6-c7605c4d2cc6'
+topics:
+  - editor-enhancement
+  - network
+  - package-management
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708696281312
