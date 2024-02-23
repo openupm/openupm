@@ -1,0 +1,21 @@
+name: jp.keijiro.mediapipe.facelandmark
+displayName: MediaPipe Face Landmark Detector
+description: MediaPipe face landmark detection neural network model for Unity Barracuda
+repoUrl: https://github.com/keijiro/FaceLandmarkBarracuda
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://camo.githubusercontent.com/3280384467f3e12ba93e7653a545171095a036c35c27d1bc5415501d57d86af0/68747470733a2f2f692e696d6775722e636f6d2f714e5264695a706c2e6a7067
+topics:
+  - ai
+  - animation
+  - camera
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708697970613
