@@ -7,7 +7,7 @@ repoUrl: https://github.com/ltmx/Melon-Tonemapper
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
-image: 'https://github.com/ltmx/Melon-Tonemapper/blob/main/.branding/LTMX_Melon_Banner_Normal.png'
+image: 'https://raw.githubusercontent.com/ltmx/Melon-Tonemapper/main/.branding/LTMX_Melon_Banner_Normal.png'
 topics:
   - camera
   - particles-and-effects
