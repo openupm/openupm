@@ -16,7 +16,7 @@ hunter: LTMX
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://raw.githubusercontent.com/ltmx/Unity.mathx/master/.branding/LTMX_Unity_Mathematics_Mathx_Github_Banner.png'
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
