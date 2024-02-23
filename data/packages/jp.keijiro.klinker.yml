@@ -1,0 +1,18 @@
+name: jp.keijiro.klinker
+displayName: Klinker
+description: DeckLink video capture/playback plugin for Unity
+repoUrl: https://github.com/keijiro/Klinker
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708698045991
