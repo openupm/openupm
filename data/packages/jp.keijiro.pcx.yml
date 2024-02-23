@@ -1,0 +1,17 @@
+name: jp.keijiro.pcx
+displayName: PCX
+description: Point cloud importer & renderer
+repoUrl: https://github.com/keijiro/Pcx
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: >-
+  https://camo.githubusercontent.com/1656c6fa58222bfd6deb845954fce7e5494cdbe8e3c593ad6cf798941845ea66/68747470733a2f2f692e696d6775722e636f6d2f7a6336503936782e676966
+topics:
+  - particles-and-effects
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708697061579
