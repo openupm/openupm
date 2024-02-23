@@ -1,0 +1,22 @@
+name: jp.keijiro.metatex
+displayName: Metatex
+description: Metadata-only texture data importer
+repoUrl: https://github.com/keijiro/Metatex
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: >-
+  https://user-images.githubusercontent.com/343936/157153911-9c396e39-7243-40bc-b8f4-1bebecd2a543.jpg
+topics:
+  - 2d
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - sprite-management
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708697307639
