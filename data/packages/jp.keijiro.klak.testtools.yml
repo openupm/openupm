@@ -1,0 +1,16 @@
+name: jp.keijiro.klak.testtools
+displayName: Test Tools
+description: A small collection of utility scripts for testing.
+repoUrl: https://github.com/keijiro/TestTools
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708697867961
