@@ -1,0 +1,19 @@
+name: ai.natml.vision.blazepose
+displayName: BlazePose
+description: Pose detection with MediaPipe BlazePose.
+repoUrl: https://github.com/natmlx/blazepose-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://github.com/natmlx/blazepose-unity/raw/main/demo.gif
+topics:
+  - ai
+  - ar-and-vr
+  - integration
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708704811562
