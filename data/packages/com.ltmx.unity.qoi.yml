@@ -15,8 +15,7 @@ hunter: LTMX
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/LTMX/Unity.QOI/raw/6b6c5462efa584661f3f36ca32dfb027a8f3be3a/.documentation/Unity.QOI%20Logo.png
+image: 'https://raw.githubusercontent.com/ltmx/Unity.QOI/main/.branding/LTMX_Unity_QOI_Github_Banner.png'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
