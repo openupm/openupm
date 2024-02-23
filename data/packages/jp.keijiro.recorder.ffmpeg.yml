@@ -1,0 +1,17 @@
+name: jp.keijiro.recorder.ffmpeg
+displayName: FFmpeg Recorder
+description: FFmpeg extension for Unity Recorder.
+repoUrl: https://github.com/keijiro/FFmpegRecorder
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unlicense
+image: ''
+topics:
+  - audio
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708697775825
