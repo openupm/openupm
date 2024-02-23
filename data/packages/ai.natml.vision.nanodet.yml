@@ -1,0 +1,19 @@
+name: ai.natml.vision.nanodet
+displayName: NanoDet
+description: Anchor-free ultra-fast object detection.
+repoUrl: https://github.com/natmlx/nanodet-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://github.com/natmlx/nanodet-unity/raw/main/demo.gif
+topics:
+  - ai
+  - integration
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708705544355
