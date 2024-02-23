@@ -1,0 +1,20 @@
+name: ai.natml.vision.blazeface
+displayName: BlazeFace
+description: MediaPipe BlazeFace for realtime face detection in Unity Engine.
+repoUrl: https://github.com/natmlx/blazeface-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://github.com/natmlx/blazeface-unity/raw/main/demo.gif
+topics:
+  - ai
+  - ar-and-vr
+  - integration
+  - utilities
+  - video
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708705112727
