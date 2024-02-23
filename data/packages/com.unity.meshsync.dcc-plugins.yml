@@ -1,0 +1,24 @@
+name: com.unity.meshsync.dcc-plugins
+displayName: MeshSync DCC Plugins
+description: >-
+  This package contains plugin binaries of DCC tools for using MeshSync, which
+  is another package for synchronizing meshes/models editing in DCC tools into
+  Unity in real time.
+repoUrl: https://github.com/Unity-Technologies/MeshSyncDCCPlugins
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: >-
+  https://raw.githubusercontent.com/Unity-Technologies/MeshSyncDCCPlugins/dev/Documentation%7E/images/MeshSyncPreferences.png
+topics:
+  - asset-management
+  - parallelism-and-concurrency
+  - integration
+  - modeling
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:Readme.md
+createdAt: 1708700577408
