@@ -1,0 +1,23 @@
+name: meta.xr.sdk.colocation
+displayName: Meta XR Colocation
+description: >-
+  Colocation Package handles the logic of colocating users in the same space.
+
+  Using the Shared Anchors and interfaces that needs to be implemented with the
+  networking solution of the developpers choosing.
+repoUrl: https://github.com/oculus-samples/Unity-Discover
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+image: ''
+topics:
+  - ar-and-vr
+  - frameworks
+  - integration
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708805990881
