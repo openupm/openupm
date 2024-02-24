@@ -1,0 +1,22 @@
+name: com.meta.utilities
+displayName: Meta Utilities
+description: >-
+  Discover is a showcase of the Meta Quest Mixed Reality APIs. This project
+  demonstrate how to use Passthrough, Spatial Anchors, Scene API, Colocation and
+  Shared Anchors.  The Oculus SDK and other supporting material is subject to
+  the Oculus proprietary license.
+repoUrl: https://github.com/oculus-samples/Unity-Discover
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+image: ''
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708805731743
