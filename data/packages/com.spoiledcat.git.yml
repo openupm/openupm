@@ -1,9 +1,7 @@
 name: com.spoiledcat.git
 displayName: Git for Unity
 description: >-
-  Git for Unity brings [Git](https://git-scm.com/) into
-  [Unity](https://unity3d.com/), integrating source control into your work with
-  friendly and accessible tools and workflows.
+  Git for Unity integrates source control into your work with friendly and accessible tools and workflows.
 repoUrl: 'https://github.com/spoiledcat/git-for-unity'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -11,11 +9,11 @@ licenseName: MIT License
 topics:
   - version-control
 hunter: Jamamuuga
-gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagPrefix: 'com.spoiledcat.git-'
+gitTagIgnore: '-main$'
 minVersion: ''
-image: ''
-readme: 'packages/com.spoiledcat.git/latest:com.unity.editor.tasks/README.md'
+image: 'https://raw.githubusercontent.com/spoiledcat/git-for-unity/main/spinner.gif'
+readme: 'packages/com.spoiledcat.git/latest:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
