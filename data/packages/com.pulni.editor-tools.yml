@@ -1,0 +1,28 @@
+name: com.pulni.editor-tools
+displayName: Pulni's Editor Tools
+description: >-
+  This is a set of useful editor tools for Unity:
+
+  - TypePicker - an attribute for SerializeReference fields of
+  abstract/interface types which allows picking concrete types
+
+  - ExposedProperties - a component that visualizes/groups properties of other
+  components
+
+  - DebugHelper - a set of menu items and APIs that allow you to debug specific
+  object instances
+repoUrl: https://github.com/pulni4kiya/unity-editor-tools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://static.wixstatic.com/media/7cd61f_bbc02b4d55e64b288d39d92175441917~mv2.png
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: pulni4kiya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708907927598
