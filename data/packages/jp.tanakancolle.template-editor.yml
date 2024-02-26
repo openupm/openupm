@@ -1,0 +1,16 @@
+name: jp.tanakancolle.template-editor
+displayName: Template Editor
+description: Template Editor
+repoUrl: https://github.com/Tanakancolle/UnityTemplateEditor
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: tanakancolle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1708947668054
