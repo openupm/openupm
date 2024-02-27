@@ -1,0 +1,17 @@
+name: com.grimbarinteractive.unity-variables
+displayName: Unity Variables
+description: Scriptable object variables.
+repoUrl: https://github.com/Grimbar-Interactive/unity-variables
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - frameworks
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709003177203
