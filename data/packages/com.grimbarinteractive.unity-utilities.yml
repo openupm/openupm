@@ -1,0 +1,16 @@
+name: com.grimbarinteractive.unity-utilities
+displayName: Unity Utilities
+description: Utilities for Unity development.
+repoUrl: https://github.com/Grimbar-Interactive/unity-utilities
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1708999601333
