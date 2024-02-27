@@ -1,0 +1,18 @@
+name: com.grimbarinteractive.unity-attributes
+displayName: Unity Attributes
+description: >-
+  Unity Attributes is an extension for the Unity Inspector. Forked from Denis
+  Rizov's NaughtyAttributes package.
+repoUrl: https://github.com/Grimbar-Interactive/unity-attributes
+parentRepoUrl: https://github.com/dbrizov/NaughtyAttributes
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709002829724
