@@ -1,0 +1,19 @@
+name: com.srichakradhar.unity-skip-splash-screen
+displayName: "â­\x90 Unity Skip Splash Screen â­\x90"
+description: A plugin to skip the Unity logo splash.
+repoUrl: https://github.com/srichakradhar/Unity-skip-splash-screen
+parentRepoUrl: https://github.com/RimuruDev/UnitySkipSplashScreen
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - debugging-and-logging
+  - gui
+  - testing
+hunter: srichakradhar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709074032690
