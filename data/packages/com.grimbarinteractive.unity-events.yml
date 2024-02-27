@@ -1,0 +1,16 @@
+name: com.grimbarinteractive.unity-events
+displayName: Unity Events
+description: Event scriptable objects and listeners.
+repoUrl: https://github.com/Grimbar-Interactive/unity-events
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709010039620
