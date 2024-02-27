@@ -1,0 +1,17 @@
+name: com.grimbarinteractive.unity-ui-components
+displayName: Unity UI Components
+description: Useful MonoBehaviour components for Unity UI.
+repoUrl: https://github.com/Grimbar-Interactive/unity-ui-components
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709011237010
