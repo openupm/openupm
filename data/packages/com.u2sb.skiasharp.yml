@@ -1,0 +1,16 @@
+name: com.u2sb.skiasharp
+displayName: UnitySkiaSharp
+description: SkiaSharp for Unity
+repoUrl: https://github.com/u2sb/UnitySkiaSharp
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - 2d
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709128990281
