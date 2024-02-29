@@ -1,0 +1,17 @@
+name: com.audune.localization
+displayName: Localization
+description: Simple string localization system for Unity 2022.3 LTS or higher
+repoUrl: https://github.com/audunegames/localization
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - asset-management
+  - localization
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709234712799
