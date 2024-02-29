@@ -1,0 +1,17 @@
+name: com.audune.audio.fmod
+displayName: Audio for FMOD
+description: Audio system built on top of FMOD for Unity 2022 LTS or higher.
+repoUrl: https://github.com/audunegames/audio-for-fmod
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - audio
+  - integration
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709229037643
