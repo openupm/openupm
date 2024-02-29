@@ -1,0 +1,17 @@
+name: com.audune.persistence
+displayName: Persistence
+description: Persistent data system for saving games for Unity 2022 LTS or higher.
+repoUrl: https://github.com/audunegames/persistence
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - asset-management
+  - data-management
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709228958763
