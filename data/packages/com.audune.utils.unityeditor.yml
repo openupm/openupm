@@ -1,0 +1,17 @@
+name: com.audune.utils.unityeditor
+displayName: UnityEditor Utilities
+description: UnityEditor utilities for Unity 2022.3 LTS or higher.
+repoUrl: https://github.com/audunegames/unityeditor-utils
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709228495727
