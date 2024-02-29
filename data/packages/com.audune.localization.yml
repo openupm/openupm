@@ -1,6 +1,6 @@
 name: com.audune.localization
 displayName: Localization
-description: Simple string localization system for Unity 2022.3 LTS or higher
+description: Simple string localization system for Unity 2022 LTS or higher
 repoUrl: https://github.com/audunegames/localization
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
