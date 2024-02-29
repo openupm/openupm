@@ -1,4 +1,4 @@
-name: io.holokit.unity
+name: io.holokit.unity-sdk
 displayName: HoloKit Unity SDK
 description: >-
   HoloKit is an Augmented Reality(AR) headset that transforms your iPhone into a
@@ -34,12 +34,12 @@ repoUrl: https://github.com/holoi/holokit-unity-sdk
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: ""
 topics:
   - ar-and-vr
 hunter: yuchenz27
-gitTagPrefix: ''
-gitTagIgnore: ''
-minVersion: '0.5.0'
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: "0.5.0"
 readme: main:README.md
 createdAt: 1700374842406
