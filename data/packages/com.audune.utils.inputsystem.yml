@@ -1,7 +1,7 @@
 name: com.audune.utils.inputsystem
-displayName: Audune Input System Utilities
-description: Utility scripts for Unity's Input System package (1.5.0 or higher).
-repoUrl: 'https://github.com/audunegames/utils-inputsystem'
+displayName: Input System Utilities
+description: Input System utilities for Unity 2022 LTS or higher.
+repoUrl: 'https://github.com/audunegames/inputsystem-utils'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
