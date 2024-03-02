@@ -1,0 +1,16 @@
+name: com.grimbarinteractive.unity-app-management
+displayName: Unity App Management
+description: App management components and utilities for Unity.
+repoUrl: https://github.com/Grimbar-Interactive/unity-app-management
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709410224383
