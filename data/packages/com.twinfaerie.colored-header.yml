@@ -1,0 +1,16 @@
+name: com.twinfaerie.colored-header
+displayName: TwinFaerie Colored-Header
+description: TwinFaerie Colored-Header based on My Hierarchy by inf
+repoUrl: https://github.com/TwinFaerie/twinfaerie-coloredheader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: CuteRogue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709446217354
