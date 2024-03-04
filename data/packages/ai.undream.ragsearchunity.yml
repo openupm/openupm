@@ -1,0 +1,20 @@
+name: ai.undream.ragsearchunity
+displayName: RAGSearchUnity
+description: RAGSearchUnity implements semantic search in the Unity engine.
+repoUrl: https://github.com/undreamai/RAGSearchUnity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - ai
+  - data-management
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709561210271
