@@ -1,0 +1,24 @@
+name: com.ltmx.unity.shaderforge
+displayName: Shader Forge
+description: The ultimate visual node-based shader editor for Unity
+repoUrl: https://github.com/ltmx/ShaderForge
+parentRepoUrl: https://github.com/CuteWaterBeary/ShaderForge
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/ltmx/ShaderForge/refresh/.images/shaderforge2.jpg
+topics:
+  - 2d
+  - animation
+  - editor-enhancement
+  - particles-and-effects
+  - painting
+  - procedural-generation
+  - terrain
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: refresh:README.md
+createdAt: 1709636799812
