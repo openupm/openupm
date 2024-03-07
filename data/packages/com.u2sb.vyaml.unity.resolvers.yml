@@ -1,0 +1,16 @@
+name: com.u2sb.vyaml.unity.resolvers
+displayName: VYaml.UnityResolvers
+description: The UnityResolvers for VYaml
+repoUrl: https://github.com/u2sb/VYaml.UnityResolvers
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709804259536
