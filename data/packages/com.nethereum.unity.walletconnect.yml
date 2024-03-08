@@ -1,0 +1,20 @@
+name: com.nethereum.unity.walletconnect
+displayName: Nethereum.WalletConnect
+description: >-
+  Nethereum WalletConnect runtime integration dlls, please check Nethereum
+  releases for more information,
+  https://github.com/Nethereum/Nethereum/releases, example can be found at
+  https://github.com/Nethereum/Unity3dSampleTemplate
+repoUrl: https://github.com/Nethereum/Nethereum.Unity.WalletConnect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: skibitsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1709863882968
