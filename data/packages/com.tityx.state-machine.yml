@@ -1,0 +1,16 @@
+name: com.tityx.state-machine
+displayName: State Machine
+description: Basic state machine template
+repoUrl: https://github.com/Tityxx/State-Machine
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Tityxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1709999891578
