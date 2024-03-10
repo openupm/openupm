@@ -1,0 +1,16 @@
+name: com.omc.shader-library.urp
+displayName: OMC URP SahderLibrary
+description: ''
+repoUrl: https://github.com/RyutoOhmori0414/OMC-Library
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - particles-and-effects
+hunter: RyutoOhmori0414
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/OMC/OMC.URPShaderLibrary/README.md
+createdAt: 1710059224985
