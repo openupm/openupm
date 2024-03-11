@@ -1,0 +1,20 @@
+name: com.r0bbie.folderobject
+displayName: Folder Object
+description: >-
+  Folder Object component, hides the transform, allowing use of empty GameObjects for
+  organising your scene, avoiding frequent problems associated with accidental
+  offsets.
+repoUrl: https://github.com/r0bbie/unity-folder-object
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: r0bbie
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1710191603252
