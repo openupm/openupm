@@ -1,0 +1,16 @@
+name: com.monaverse.coresdk
+displayName: Mona Core SDK
+description: The Mona Core SDK allows creators to access networked objects in mona spaces.
+repoUrl: https://github.com/monaverse/MonaCoreSDK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: ryangreen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:CHANGELOG.md
+createdAt: 1710196150430
