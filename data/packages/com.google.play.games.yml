@@ -1,0 +1,22 @@
+name: com.google.play.games
+displayName: Google Play Games
+description: >-
+  The Google Play Games plugin for Unity allows you to access the Google Play
+  Games API through Unity's social interface.
+repoUrl: https://github.com/playgameservices/play-games-plugin-for-unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+image: >-
+  https://static.wikia.nocookie.net/logopedia/images/4/4d/Google_Play_Games_%282022%2C_icon%29.svg
+topics:
+  - frameworks
+  - integration
+  - network
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1710245245474
