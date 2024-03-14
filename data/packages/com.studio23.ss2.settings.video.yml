@@ -1,0 +1,19 @@
+name: com.studio23.ss2.settings.video
+displayName: Video Settings System
+description: >-
+  Video Settings System is a framework to configure Video Setings of your games.
+  Render Pipeline Will be installed as dependencies
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.video
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+  - video
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1710419797392
