@@ -1,0 +1,16 @@
+name: com.monaverse.unitygltf
+displayName: MonaUnityGLTF
+description: Import and export glTF 2.0 assets, both in the editor and at runtime.
+repoUrl: https://github.com/monaverse/MonaUnityGLTF
+parentRepoUrl: https://github.com/KhronosGroup/UnityGLTF
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: monaverse/MonaUnityGLTF
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1710542605252
