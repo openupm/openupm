@@ -5,7 +5,7 @@ repoUrl: https://github.com/AnnulusGames/LucidRandom
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: 'https://raw.githubusercontent.com/AnnulusGames/LucidRandom/main/Assets/LucidRandom/Documentation%7E/Header.png'
 topics:
   - utilities
 hunter: MonoLogueChi
