@@ -1,0 +1,16 @@
+name: com.annulusgames.ugui-progress-bar
+displayName: Progress Bar
+description: Simple and robust progress bar components for Unity uGUI.
+repoUrl: https://github.com/AnnulusGames/UnityProgressBar
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1710727422705
