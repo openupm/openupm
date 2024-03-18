@@ -1,0 +1,16 @@
+name: com.annulusgames.lucid-random
+displayName: Lucid Random
+description: Enhanced random number generator for Unity
+repoUrl: https://github.com/AnnulusGames/LucidRandom
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1710728092858
