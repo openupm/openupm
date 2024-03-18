@@ -1,0 +1,18 @@
+name: com.annulusgames.component-cache-generator
+displayName: Component Cache Generator
+description: >-
+  A source generator that automatically generates a cache of components for
+  Unity.
+repoUrl: https://github.com/AnnulusGames/ComponentCacheGenerator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1710727761461
