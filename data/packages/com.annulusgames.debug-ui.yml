@@ -1,0 +1,17 @@
+name: com.annulusgames.debug-ui
+displayName: Debug UI
+description: A framework for building debugging tools built on Unity UI Toolkit.
+repoUrl: https://github.com/AnnulusGames/DebugUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - testing
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1710728463397
