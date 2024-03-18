@@ -5,7 +5,7 @@ repoUrl: https://github.com/AnnulusGames/SceneSystem
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: 'https://raw.githubusercontent.com/AnnulusGames/SceneSystem/main/Assets/SceneSystem/Documentation%7E/Header.png'
 topics:
   - asset-management
 hunter: MonoLogueChi
