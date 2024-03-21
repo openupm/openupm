@@ -1,0 +1,19 @@
+name: link.magic.unity.sdk
+displayName: Magic Unity SDK
+description: >-
+  The Magic Unity SDK provides access to Magic Key Management System and
+  interact with Blockchain.
+repoUrl: https://github.com/magiclabs/magic-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - mobile
+  - services
+hunter: ethella
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1711049278699
