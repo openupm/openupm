@@ -1,0 +1,16 @@
+name: com.threeyes.alivedesktop.sdk
+displayName: AliveDesktopSDK
+description: SDK for AliveDesktop.
+repoUrl: https://github.com/Threeyes/AliveDesktopSDK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Threeyes
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1711102879100
