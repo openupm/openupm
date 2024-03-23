@@ -1,0 +1,17 @@
+name: com.limeblossom.whenever
+displayName: Whenever
+description: Whenever X do Y. A system for building synergistic interactions.
+repoUrl: https://github.com/LimeBlossom/Whenever
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/Package/README.md
+createdAt: 1711162341037
