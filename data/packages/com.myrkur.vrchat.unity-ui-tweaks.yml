@@ -1,0 +1,16 @@
+name: com.myrkur.vrchat.unity-ui-tweaks
+displayName: Unity-UI-Tweaks
+description: A collection of my harmony patches for unity with expected use with vrchat
+repoUrl: https://github.com/Myrkie/Unity-UI-Tweaks
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: mistress:README.md
+createdAt: 1711284619576
