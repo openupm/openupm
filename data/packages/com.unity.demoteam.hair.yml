@@ -1,0 +1,18 @@
+name: com.unity.demoteam.hair
+displayName: Demo Team Hair System
+description: >-
+  An integrated solution for authoring / importing / simulating / rendering
+  strand-based hair in Unity.
+repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.hair
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - particles-and-effects
+hunter: Threeyes
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1711251516288
