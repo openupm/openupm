@@ -1,0 +1,16 @@
+name: eu.netherlands3d.event-containers
+displayName: Netherlands3D - Event Containers
+description: Simple data payload Event Containers
+repoUrl: https://github.com/Netherlands3D/EventContainers
+parentRepoUrl: null
+licenseSpdxId: EUPL-1.2
+licenseName: European Union Public License 1.2
+image: ''
+topics:
+  - frameworks
+hunter: sambaas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1711371444872
