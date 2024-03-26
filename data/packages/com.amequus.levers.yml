@@ -1,0 +1,23 @@
+name: com.amequus.levers
+displayName: Levers
+description: A collection of drawing primitives for use in unity editor scripts
+repoUrl: https://github.com/errorStream/Levers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/errorStream/Levers/master/images/logo.png
+topics:
+  - 2d
+  - animation
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - gui
+  - painting
+  - utilities
+hunter: errorStream
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1711446817671
