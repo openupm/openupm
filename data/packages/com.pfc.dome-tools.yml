@@ -1,0 +1,23 @@
+name: com.pfc.dome-tools
+displayName: pfc Dome Tools
+description: Tools for fulldome content production and viewing.
+repoUrl: https://github.com/prefrontalcortex/DomeTools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - animation
+  - camera
+  - particles-and-effects
+  - integration
+  - testing
+  - utilities
+  - video
+hunter: hybridherbst
+gitTagPrefix: package/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:package/README.md
+createdAt: 1711536651578
