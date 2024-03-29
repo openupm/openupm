@@ -1,0 +1,16 @@
+name: com.u2sb.netcoreserver
+displayName: UnityNetCoreServer
+description: NetCoreServer for Unity
+repoUrl: https://github.com/u2sb/UnityNetCoreServer
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+image: ''
+topics:
+  - network
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1711732462253
