@@ -1,0 +1,19 @@
+name: com.gilzoide.native-collections-stream
+displayName: Native Collections Stream
+description: >-
+  Stream, TextReader and TextWriter implementations backed by Unity Native
+  Collections.
+repoUrl: https://github.com/gilzoide/unity-native-collections-stream
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1711725440553
