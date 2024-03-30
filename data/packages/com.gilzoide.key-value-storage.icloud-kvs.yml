@@ -1,0 +1,19 @@
+name: com.gilzoide.key-value-storage.icloud-kvs
+displayName: Key-Value Store - iCloud KVS
+description: >-
+  Key-Value Store implementation backed by iCloud KVS
+  (NSUbiquitousKeyValueStore).
+repoUrl: https://github.com/gilzoide/unity-key-value-store-icloud-kvs
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - data-management
+  - mobile
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1711830645746
