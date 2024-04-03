@@ -1,0 +1,17 @@
+name: com.studio23.steamnews
+displayName: Steam News For Unity
+description: A Unity Package to Get And Render Content for Steam Apps Public News
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.steamnews
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+  - version-control
+hunter: studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1712153095710
