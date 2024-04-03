@@ -1,0 +1,17 @@
+name: com.selvassets.reflectionsingleton
+displayName: SA - ReflectionSingleton
+description: ReflectionSingleton implementation by SelvAssets
+repoUrl: https://github.com/selvassets/ReflectionSingleton
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Open source
+image: ''
+topics:
+  - services
+  - utilities
+hunter: selvassets
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: v1.0.0:README.md
+createdAt: 1712173109397
