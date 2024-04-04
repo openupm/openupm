@@ -1,56 +1,9 @@
 name: com.lootlocker.lootlockersdk
 displayName: LootLocker SDK
 description: >
-  Use our plug and play tools to manage your game, content and players all in one place. Save time building features from scratch, so you can focus on the gameplay.
+  LootLocker is the plug and play, cross-platform backend for developers to build, ship, and run their best games. Save time building features from scratch, so you can focus on the gameplay.
 
-  Register your free LootLocker account.
-  
-  ## FEATURES
-  
-  ### Manage your game
-  Save time and upgrade your game with leaderboards, progression, and more. Completely off-the-shelf features, built to work with any game and platform.
-  
-  - Achievements
-  - Collectables
-  - Energy
-  - Economy
-  - Crafting (Coming Soon)
-  - Heroes & Classes
-  - Leaderboards
-  - Missions
-  - Progression
-  - Triggers
-  
-  ### Manage your content
-  Take charge of your game's content on all platforms, in one place. Sort, edit and manage everything, from cosmetics to currencies, UGC to DLC. Without breaking a sweat.
-  
-  ### Cosmetics
-  - Cross-Platform DLC
-  - Currencies
-  - Catalogs
-  - Custom Game Config
-  - Drop Tables
-  - In-Game Store
-  - In-App Purchases
-  - Loot Boxes
-  - Rental Items
-  - User-Generated Content
-  
-  ### Manage your players
-  Store your players' data together in one place. Access their profile and friends list cross-platform. Manage reports, messages, refunds and gifts to keep them hooked.
-  
-  - Friends & Clans (Coming Soon)
-  - Gifting & Refunds
-  - Guest Login
-  - Messages
-  - Platform Account Login
-  - Unified Player Accounts
-  - Player Accounts
-  - Player Reporting
-  - Player Search
-  - Reports
-  - Segments
-  - White Label Login
+  LootLocker is packed with features such as leaderboards, progression, economy, in-app purchasing, player accounts, player management, player authorization, user generated content, and much more.
 repoUrl: https://github.com/lootlocker/unity-sdk
 parentRepoUrl: null
 licenseSpdxId: MIT
