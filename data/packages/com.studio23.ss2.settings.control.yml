@@ -1,0 +1,19 @@
+name: com.studio23.ss2.settings.control
+displayName: Control Setting
+description: >-
+  This is control setting for unity. Used for in-game controller ad mouse
+  settings.
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.control
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+  - input-management
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1712583586788
