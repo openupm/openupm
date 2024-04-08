@@ -1,0 +1,21 @@
+name: dev.klebersilva.tools.bitmapfontcreator
+displayName: Bitmap Font Creator
+description: >-
+  A simple tool to create bitmap fonts from a texture sprite sheet to be used
+  with Text component.
+repoUrl: https://github.com/kleber-swf/unity-bitmap-font-creator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kleber-swf/unity-bitmap-font-creator/blob/master/Documentation/cover.png
+topics:
+  - gui
+  - integration
+  - utilities
+hunter: kleber-swf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1712580175057
