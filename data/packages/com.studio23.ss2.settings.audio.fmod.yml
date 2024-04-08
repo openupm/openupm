@@ -1,0 +1,16 @@
+name: com.studio23.ss2.settings.audio.fmod
+displayName: Audio Setting - FMOD
+description: This is an audio setting for FMOD. Used for in-game sound and voice setings.
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.audio.fmod
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1712563580181
