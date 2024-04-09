@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/kleber-swf/unity-bitmap-font-creator/blob/master/Documentation/cover.png
+  https://raw.githubusercontent.com/kleber-swf/unity-bitmap-font-creator/master/Documentation/cover.png
 topics:
   - gui
   - integration
