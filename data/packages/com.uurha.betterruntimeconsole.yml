@@ -1,5 +1,5 @@
 name: com.uurha.betterruntimeconsole
-displayName: Runtime Console
+displayName: (Deprecated) Runtime Console
 description: 'Runtime console, supports any unity logs from any thread'
 repoUrl: 'https://github.com/techno-dwarf-works/better-runtime-console'
 parentRepoUrl: null
