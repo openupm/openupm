@@ -1,0 +1,19 @@
+name: com.partisanprogrammer.script-template-creator
+displayName: Script-Template-Creator
+description: >-
+  Base Package that allows for Script Generation from Templates. Each package
+  need to inherit from this package and have their own
+repoUrl: >-
+  https://github.com/PartisanProgrammer/com.partisanprogrammer.script-template-creator
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - utilities
+hunter: PartisanProgrammer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1712786039114
