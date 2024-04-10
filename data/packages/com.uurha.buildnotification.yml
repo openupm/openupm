@@ -1,5 +1,5 @@
 name: com.uurha.buildnotification
-displayName: Build Notification
+displayName: (Deprecated) Build Notification
 description: Build Notification tool allows developers to receive notificaiton about build completion
 repoUrl: 'https://github.com/techno-dwarf-works/build-notification'
 parentRepoUrl: null
