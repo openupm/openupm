@@ -1,0 +1,16 @@
+name: com.rickit.experiment
+displayName: RicKit Experiment
+description: RicKit Table, CSV, ScriptableObject
+repoUrl: https://github.com/rickytheoldtree/com.rickit.experiment
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - version-control
+hunter: rickytheoldtree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1712816167433
