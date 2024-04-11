@@ -1,0 +1,20 @@
+name: io.vangogih.fastmigrations
+displayName: Fast Migrations
+description: >-
+  The extra fast, minimum code size, unity compatible plugin for data migrations
+  using Newtonsoft Json.Net.
+repoUrl: https://github.com/vangogih/FastMigrations.Json.Net
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - frameworks
+  - utilities
+hunter: vangogih
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1712860361897
