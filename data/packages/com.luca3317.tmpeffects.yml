@@ -1,0 +1,18 @@
+name: com.luca3317.tmpeffects
+displayName: TMPEffects
+description: Easily apply all kinds of effects to your TextMeshPro texts
+repoUrl: https://github.com/Luca3317/TMPEffects
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://i.imgur.com/2Wi970Z.png
+topics:
+  - animation
+  - gui
+  - particles-and-effects
+hunter: Luca3317
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1713455253946
