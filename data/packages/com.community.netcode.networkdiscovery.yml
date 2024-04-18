@@ -1,0 +1,19 @@
+name: com.community.netcode.networkdiscovery
+displayName: Netcode for GameObjects Community Extensions - Network Discovery
+description: >-
+  The Netcode for GameObjects Community Extensions package is a package
+  containing extensions to Netcode for GameObjects. This is a fork of the
+  Network Discovery Extension
+repoUrl: https://github.com/ViRGIS-Team/UnityTransportDiscovery
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - network
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713474263431
