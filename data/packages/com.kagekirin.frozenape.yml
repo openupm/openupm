@@ -1,0 +1,21 @@
+name: com.kagekirin.frozenape
+displayName: "Frozen A-Pose Exporter ð\x9F§\x8Að\x9F¦\x8D"
+description: >-
+  Editor and Runtime exporter for skinned meshes frozen in a specific pose as
+  static mesh
+repoUrl: https://github.com/KageKirin/FrozenAPE
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/KageKirin/FrozenAPE/raw/main/Documentation~/frozenape_logo.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: KageKirin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.0.23
+readme: main:README.md
+createdAt: 1713503816788
