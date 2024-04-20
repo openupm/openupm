@@ -1,0 +1,22 @@
+name: com.espale.ui
+displayName: Espale Studios - UI
+description: >-
+  Espale UI is a comprehensive collection of pre-built user interface tools and
+  components.
+
+
+  www.espalestudios.com
+repoUrl: https://github.com/espale-studios/espale-unity-packages
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/espale-studios/.github/main/profile/img/logo.png
+topics:
+  - gui
+hunter: AtaTrkgl
+gitTagPrefix: ui/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713611942221
