@@ -1,0 +1,22 @@
+name: com.espale.localization
+displayName: Espale Studios - Localization
+description: >-
+  Espale Localization is a full-fledged localization tool built for game
+  development via Unity.
+
+
+  www.espalestudios.com
+repoUrl: https://github.com/espale-studios/espale-unity-packages
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/espale-studios/.github/main/profile/img/logo.png
+topics:
+  - localization
+hunter: AtaTrkgl
+gitTagPrefix: localization/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713611899986
