@@ -1,0 +1,22 @@
+name: com.espale.utilities
+displayName: Espale Studios - Utilities
+description: >-
+  Espale Utilities is a comprehensive collection of pre-built tools and assets
+  designed to expedite and optimize various aspects of 2D game development.
+
+
+  www.espalestudios.com
+repoUrl: https://github.com/espale-studios/espale-unity-packages
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/espale-studios/.github/main/profile/img/logo.png
+topics:
+  - utilities
+hunter: AtaTrkgl
+gitTagPrefix: utilities/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713611751014
