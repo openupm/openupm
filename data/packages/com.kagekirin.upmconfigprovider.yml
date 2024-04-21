@@ -1,0 +1,17 @@
+name: com.kagekirin.upmconfigprovider
+displayName: .upmconfig.toml Provider
+description: Unity Editor extension to configure .upmconfig.toml
+repoUrl: https://github.com/KageKirin/UPMConfigProvider
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: KageKirin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.0.2
+readme: main:README.md
+createdAt: 1713700743416
