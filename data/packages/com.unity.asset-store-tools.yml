@@ -1,0 +1,22 @@
+name: com.unity.asset-store-tools
+displayName: Asset Store Tools
+description: >-
+  Whether you're a programmer, game designer, texture artist or 3D modeler,
+  you're welcome to share your creations with everybody in the Unity developer
+  community!
+repoUrl: https://github.com/OlegVishnivetsky/node-based-dialog-system
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - mobile
+hunter: OlegVishnivetsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713808310795
