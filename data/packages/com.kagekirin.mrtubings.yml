@@ -1,0 +1,19 @@
+name: com.kagekirin.mrtubings
+displayName: Mr. Tubings
+description: >-
+  Visual debugger script to generate a skinned mesh from any transform
+  hierarchy.
+repoUrl: https://github.com/KageKirin/Mr_Tubings
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: CC-BY-NC4.0
+image: https://github.com/KageKirin/Mr_Tubings/raw/main/mr_tubings.png
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: KageKirin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713751793067
