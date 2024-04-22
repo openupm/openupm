@@ -1,0 +1,17 @@
+name: com.sai.globalsettings
+displayName: GlobalSettings
+description: Source-Generated Global Settings for Unity
+repoUrl: https://github.com/Saismirk/GlobalSettings
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: Saismirk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713807762980
