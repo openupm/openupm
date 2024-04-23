@@ -1,0 +1,19 @@
+name: com.realitygames.native.app.settings
+displayName: Native App Settings
+description: >-
+  A plugin that provides easy access to system settings page. Note, that on iOS
+  deep linking is limited to main or notification page.
+repoUrl: https://github.com/RealityGamesLtd/Native-App-Settings
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: matmlyreal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1713861627303
