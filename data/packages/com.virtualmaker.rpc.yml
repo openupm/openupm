@@ -1,0 +1,18 @@
+name: com.virtualmaker.rpc
+displayName: VirtualMaker.RPC
+description: A Bidirectional RPC package for Unity (UPM)
+repoUrl: https://github.com/virtual-maker-net/com.virtualmaker.rpc
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - network
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:Documentation~/README.md
+createdAt: 1713920085519
