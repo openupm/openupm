@@ -1,0 +1,18 @@
+name: com.lizzyfox-code.brg-container
+displayName: BRG Container
+description: A Batch Rendering Group Tool for Unity.
+repoUrl: https://github.com/LizzyFox-code/BrgContainer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+  - parallelism-and-concurrency
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1713962778186
