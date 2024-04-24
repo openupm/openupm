@@ -1,0 +1,16 @@
+name: com.studio23.ss2.cutscenesystem
+displayName: com.studio23.ss2.cutscenesystem
+description: "Cutscenesystem is a utility package where cutscene will display using comic strip style. Unity timeline is being used for the system\r"
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.cutscenesystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: Studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1713964198915
