@@ -1,0 +1,19 @@
+name: io.appmetrica.analytics
+displayName: AppMetrica
+description: >-
+  A Unity plugin for AppMetrica. AppMetrica is an end-to-end app analytics and
+  marketing tool that works for Android and iOS.
+repoUrl: https://github.com/appmetrica/appmetrica-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: flexer1992
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: v6.0:README.md
+createdAt: 1714037779365
