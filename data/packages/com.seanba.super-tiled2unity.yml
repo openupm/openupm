@@ -1,0 +1,18 @@
+name: com.seanba.super-tiled2unity
+displayName: Super Tiled2Unity
+description: Imports Tiled Map Editor assets into Unity
+repoUrl: https://github.com/Seanba/SuperTiled2Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/Seanba/seanba.github.io/master/assets/images/st2u-bar-wide.png'
+topics:
+  - 2d
+  - level-design
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1714035214916
