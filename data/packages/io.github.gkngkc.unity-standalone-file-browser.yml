@@ -1,0 +1,16 @@
+name: io.github.gkngkc.unity-standalone-file-browser
+displayName: Unity Standalone File Browser
+description: A simple wrapper for native file dialogs on Windows/Mac/Linux.
+repoUrl: https://github.com/shiena/UnityStandaloneFileBrowser
+parentRepoUrl: https://github.com/gkngkc/UnityStandaloneFileBrowser
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1714157108528
