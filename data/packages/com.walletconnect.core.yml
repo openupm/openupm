@@ -7,7 +7,7 @@ repoUrl: https://github.com/WalletConnect/WalletConnectUnity
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: https://raw.githubusercontent.com/WalletConnect/WalletConnectUnity/85ee68f8a24a03d2e579894c00246d0c3d44ef58/.github/media/wc-cover.png
 topics:
   - frameworks
   - integration
