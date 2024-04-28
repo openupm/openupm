@@ -1,0 +1,16 @@
+name: com.styly.package-collection-spatial-layer
+displayName: STYLY Package Collection for Spatial Layer
+description: STYLY Package Collection for Spatial Layer
+repoUrl: https://github.com/styly-dev/com.styly.package-collection-spatial-layer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: styly-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1714270645996
