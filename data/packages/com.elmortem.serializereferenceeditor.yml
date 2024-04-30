@@ -1,0 +1,17 @@
+name: com.elmortem.serializereferenceeditor
+displayName: Serialize Reference Editor
+description: Custom serialize reference unity editor
+repoUrl: https://github.com/elmortem/serializereferenceeditor
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1714470578208
