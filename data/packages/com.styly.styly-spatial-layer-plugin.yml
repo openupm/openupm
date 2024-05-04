@@ -1,7 +1,7 @@
-name: com.styly.styly-vision-os-plugin
-displayName: STYLY Vision OS Plugin
+name: com.styly.styly-spatial-layer-plugin
+displayName: STYLY Spatial Layer Plugin for Vision Pro
 description: STYLY Plugin for Unity visionOS version
-repoUrl: https://github.com/styly-dev/STYLY-VisionOS-Plugin
+repoUrl: https://github.com/styly-dev/STYLY-Spatial-Layer-Plugin
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,6 +12,6 @@ topics:
 hunter: styly-dev
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.2.0'
 readme: main:README.md
 createdAt: 1706353552086
