@@ -1,0 +1,17 @@
+name: com.chunkycat.qunity
+displayName: Qunity
+description: Quake (Trenchbroom) map tools
+repoUrl: https://github.com/chunky-cat/Qunity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/chunky-cat/Qunity/raw/main/media/logo.png?raw=true
+topics:
+  - editor-enhancement
+  - level-design
+hunter: chunky-cat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.MD
+createdAt: 1714859001644
