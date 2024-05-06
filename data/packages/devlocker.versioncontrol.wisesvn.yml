@@ -41,7 +41,8 @@ hunter: NibbleByte
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: null
+image: >-
+  https://raw.githubusercontent.com/NibbleByte/UnityWiseSVN/master/Docs/Logo-Round-500x500.png
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
