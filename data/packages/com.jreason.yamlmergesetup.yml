@@ -1,0 +1,19 @@
+name: com.jreason.yamlmergesetup
+displayName: YAML Smart Merge Setup
+description: >-
+  Package which prompts user to setup YAML Merge in their Git config for this
+  project
+repoUrl: https://github.com/j-reason/Unity-YAML-merge-setup
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+  - version-control
+hunter: j-reason
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1714995163204
