@@ -1,0 +1,21 @@
+name: com.sisus.init-args-lite
+displayName: Init(args) Lite
+description: >-
+  Init(args) Lite is a free version of the Init(args) dependency injection
+  framework. It extends the MonoBehaviour class with the ability to receive
+  arguments during initialization.
+repoUrl: https://github.com/SisusCo/init-args-lite
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: Standard Unity Asset Store EULA
+image: >-
+  https://private-user-images.githubusercontent.com/45103521/328020555-b21ffc42-5f2e-4144-b7a4-99c486d51b48.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ5MTU2NDcsIm5iZiI6MTcxNDkxNTM0NywicGF0aCI6Ii80NTEwMzUyMS8zMjgwMjA1NTUtYjIxZmZjNDItNWYyZS00MTQ0LWI3YTQtOTljNDg2ZDUxYjQ4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTA1VDEzMjIyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg1ZDc1OGY1Njg5YTJlZDMzNTk4YWUxOTYwMmNiNWViMDQ1YWZmZDllMjVkOWQ0OGQyZjNmODAwZWIzOTc1YTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.-verGP7ymN_zyVxt2Iw3Vmh_9swmNV-IDO2zmlf40Io
+topics:
+  - testing
+  - utilities
+hunter: SisusCo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1714915489635
