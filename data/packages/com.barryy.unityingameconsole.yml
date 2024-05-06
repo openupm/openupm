@@ -1,0 +1,21 @@
+name: com.barryy.unityingameconsole
+displayName: Unity In-game Console
+description: >-
+  An in-game console for debugging and executing commands during gameplay in
+  Unity
+repoUrl: https://github.com/barryyip0625/Unity-In-game-Console
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/4cf57b9e-4885-4afc-811d-fb5b69aff7a1.jpg
+topics:
+  - gui
+  - testing
+  - utilities
+hunter: barryyip0625
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1714992308785
