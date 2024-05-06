@@ -1,0 +1,19 @@
+name: devlocker.versioncontrol.wisegit
+displayName: WiseGit
+description: >-
+  Simple but powerful Git integration. Provides you with git context menus,
+  overlay icons and takes care of moved or deleted files.
+repoUrl: https://github.com/NibbleByte/UnityWiseGit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/NibbleByte/UnityWiseGit/master/Docs/Logo-Round-500x500.png
+topics:
+  - version-control
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1714988579831
