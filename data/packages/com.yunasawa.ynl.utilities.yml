@@ -1,0 +1,18 @@
+name: com.yunasawa.ynl.utilities
+displayName: YNL - Utilities
+description: >-
+  YNL - Utilities provides you utilities, extensions, addons to help you on your
+  developing progress.
+repoUrl: https://github.com/Yunasawa/YNL-Utilities
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Yunasawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715072149104
