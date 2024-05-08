@@ -1,0 +1,20 @@
+name: com.gilzoide.lottie-player
+displayName: Lottie Player
+description: Player for Lottie animation files, powered by rlottie.
+repoUrl: https://github.com/gilzoide/unity-lottie-player
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - 2d
+  - animation
+  - gui
+  - parallelism-and-concurrency
+  - mobile
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715208011770
