@@ -1,0 +1,19 @@
+name: com.dman.grid-game-tools
+displayName: Grid Game Tools
+description: |-
+  A suite of framework-like tools that aim to make implementing and testing
+  grid-based games easier.
+repoUrl: https://github.com/dsmiller95/GridGameTools
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/Packages/com.dman.grid-game-tools/README.md
+createdAt: 1715191700304
