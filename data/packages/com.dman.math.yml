@@ -1,0 +1,18 @@
+name: com.dman.math
+displayName: Dman's Math
+description: >-
+  A bunch of Math or Vector related utilities too small to go in their own
+  package
+repoUrl: https://github.com/dsmiller95/DmanUtilities
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.math/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/UtilityScripts/com.dman.math/README.md
+createdAt: 1715191153714
