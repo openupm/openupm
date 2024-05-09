@@ -1,0 +1,16 @@
+name: com.theone.bytebrew
+displayName: ByteBrew
+description: ByteBrew Unity plugin
+repoUrl: https://github.com/The1Studio/PackageWrapper
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - services
+hunter: The1Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1715265585756
