@@ -1,0 +1,16 @@
+name: com.styly.styly-xr-rig
+displayName: STYLY XR Rig
+description: STYLY XR Rig
+repoUrl: https://github.com/styly-dev/STYLY-XR-Rig
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: styly-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715270225101
