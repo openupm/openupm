@@ -1,0 +1,20 @@
+name: com.yunasawa.ynl.audio
+displayName: YNL - Audio
+description: YNL - Audio provides you Audio extensions.
+repoUrl: https://github.com/Yunasawa/YNL-Audio
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - editor-enhancement
+  - services
+  - testing
+  - utilities
+hunter: Yunasawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715277053161
