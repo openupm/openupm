@@ -1,0 +1,16 @@
+name: com.frostbun.unit
+displayName: UniT
+description: A lightweight Unity library for common tasks
+repoUrl: https://github.com/frostbun/UniT
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1715331487960
