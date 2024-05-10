@@ -1,0 +1,16 @@
+name: com.frostbun.unit.di
+displayName: UniT Dependency Injection
+description: A minimal dependency container for Unity
+repoUrl: https://github.com/frostbun/UniT.DI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1715332064895
