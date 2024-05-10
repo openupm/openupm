@@ -1,0 +1,16 @@
+name: com.frostbun.unit.easings
+displayName: UniT Easings
+description: Animate Unity using easing functions
+repoUrl: https://github.com/frostbun/UniT.Easings
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1715331987480
