@@ -1,0 +1,16 @@
+name: com.segur.platform-watcher
+displayName: PlatformWatcher
+description: This tool displays an error if the Unity platform is not the specified one.
+repoUrl: https://github.com/segurvita/PlatformWatcher
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+hunter: segurvita
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715411961892
