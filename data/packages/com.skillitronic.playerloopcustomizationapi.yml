@@ -1,7 +1,7 @@
-name: com.skillitronic.playerloopcustomizationapi
-displayName: PlayerLoop customization API
-description: Create your own loop system using interface built on top of Unity's PlayerLoop
-repoUrl: 'https://github.com/skelitheprogrammer/PlayerLoop-Customization-API'
+name: com.skillitronic.playerloopextender
+displayName: PlayerLoop Extender
+description: Project, which extend work player loop capabilities
+repoUrl: 'https://github.com/skelitheprogrammer/PlayerLoopExtender'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
