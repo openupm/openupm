@@ -1,0 +1,21 @@
+name: com.sudotman.betterunity
+displayName: BetterUnity
+description: >-
+  A package consisting of scripts, utils and inspector modifications to aid in
+  development.
+repoUrl: https://github.com/sudotman/BetterUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://repository-images.githubusercontent.com/509443722/183ef41e-d209-42f2-9761-f7c9e0a7c168
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: sudotman
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1715579553010
