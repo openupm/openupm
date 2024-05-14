@@ -1,0 +1,20 @@
+name: com.uwrhnadler.uwr
+displayName: UWRH - Unity Web Request Handler
+description: >-
+  UWRHnadler is a Unity package that handles HTTP requests following SOLID
+  principles, providing a clean, maintainable, and extensible way to manage GET
+  and POST requests with support for custom headers and certificates.
+repoUrl: https://github.com/Sadeqsoli/UWRHnadler
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+  - utilities
+hunter: Sadeqsoli
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:UPM/README.md
+createdAt: 1715719095599
