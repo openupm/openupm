@@ -1,0 +1,16 @@
+name: com.dg-goat.lingjing.cave
+displayName: Lingjing CAVE
+description: "用于灵境的CAVE相机工具，只包含CAVE中对相机的处理部分"
+repoUrl: https://github.com/dg-goat/LingjingUnityPackages
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+hunter: dg-goat
+gitTagPrefix: LingjingCAVE
+gitTagIgnore: ''
+minVersion: ''
+readme: LingjingCAVE:README.md
+createdAt: 1715858642396
