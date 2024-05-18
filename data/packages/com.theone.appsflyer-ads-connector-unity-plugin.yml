@@ -1,0 +1,16 @@
+name: com.theone.appsflyer-ads-connector-unity-plugin
+displayName: AppsFlyer Ads Connector
+description: AppsFlyer Ads Connector Unity plugin
+repoUrl: https://github.com/The1Studio/appsflyer-unity-adrevenue-generic-connector
+parentRepoUrl: https://github.com/AppsFlyerSDK/appsflyer-unity-adrevenue-generic-connector
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - services
+hunter: The1Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1716026828476
