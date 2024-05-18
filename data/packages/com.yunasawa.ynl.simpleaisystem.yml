@@ -1,0 +1,21 @@
+name: com.yunasawa.ynl.simpleaisystem
+displayName: YNL - Simple AI System
+description: >-
+  YNL - Simple AI System provides you a simple system to handle objects'
+  behaviours as an AI.
+repoUrl: https://github.com/Yunasawa-Studio/YNL-Simple-AI-System
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - mobile
+  - utilities
+hunter: Yunasawa-Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1716003311617
