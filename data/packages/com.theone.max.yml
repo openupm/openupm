@@ -1,0 +1,16 @@
+name: com.theone.max
+displayName: Max SDK
+description: Custom Max(Applovin) for The One
+repoUrl: https://github.com/The1Studio/MaxSDK
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - services
+hunter: The1Studo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/MaxSdk/Version.md
+createdAt: 1716017483408
