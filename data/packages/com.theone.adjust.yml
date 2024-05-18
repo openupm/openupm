@@ -1,0 +1,16 @@
+name: com.theone.adjust
+displayName: Adjust
+description: Adjust Unity plugin
+repoUrl: https://github.com/The1Studio/UnityAdjust
+parentRepoUrl: https://github.com/adjust/unity_sdk
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - services
+hunter: The1Studio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1716034782662
