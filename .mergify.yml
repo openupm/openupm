@@ -4,7 +4,9 @@ pull_request_rules:
       - "#files=1"
       - "files~=data/packages/(.*)\\.yml$"
       - "-files~=data/packages/(.*)(com\\.amazonaws|com\\.google|com\\.unity|com\\.microsoft|com\\.apple|com\\.meta|com\\.oculus|com\\.twitter)\\.(.*)\\.yml$"
-      - "#files=1"
+      - "#added-files=1"
+      - "#modified-files=0"
+      - "#deleted-lines=0"
       - -conflict
       - "status-success~=CI"
       - or:
