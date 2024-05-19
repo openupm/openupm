@@ -7,6 +7,7 @@ pull_request_rules:
       - "#added-files=1"
       - "#modified-files=0"
       - "#deleted-lines=0"
+      - "author!=tuha263"
       - -conflict
       - "status-success~=CI"
       - or:
