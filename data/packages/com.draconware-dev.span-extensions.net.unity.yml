@@ -1,0 +1,22 @@
+name: com.draconware-dev.span-extensions.net.unity
+displayName: SpanExtensions.Net.Unity
+description: >-
+  SpanExtensions.Net aims to make ReadOnlySpan<T> and Span<T> more accessible
+  and overall better integrated into the .Net Ecosystem, by providing
+  alternatives for many missing Extension Methods for Span<T>, ranging from
+  string.Split() over Enumerable.Skip() and Enumerable.Take() to an improved
+  ReadOnlySpan<T>.IndexOf().
+repoUrl: https://github.com/laicasaane/SpanExtensions.Net.Unity
+parentRepoUrl: https://github.com/draconware-dev/SpanExtensions.Net
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/laicasaane/SpanExtensions.Net.Unity/upm/icon.png
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1716210576681
