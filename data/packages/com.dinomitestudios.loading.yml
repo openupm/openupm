@@ -1,0 +1,18 @@
+name: com.dinomitestudios.loading
+displayName: Dinomite.Loading
+description: >-
+  A service framework service aiding with smooth scene transitions and loading
+  operations in Unity.
+repoUrl: https://github.com/Dinomite-Studios/com.dinomitestudios.loading
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: Dinomite-Studios
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1716306842888
