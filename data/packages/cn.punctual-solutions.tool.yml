@@ -1,0 +1,17 @@
+name: cn.punctual-solutions.tool
+displayName: PunctualSolutionsTool
+description: Tool
+repoUrl: https://github.com/PunctualSolutions/PunctualSolutionsTool
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MPL-2.0
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: S-xgx1
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1716946047330
