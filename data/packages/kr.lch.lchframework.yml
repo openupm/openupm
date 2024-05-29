@@ -1,0 +1,16 @@
+name: kr.lch.lchframework
+displayName: LCHFramework
+description: LCHFramework
+repoUrl: https://github.com/ckdgus4002/LCHFramework
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+hunter: ckdgus4002
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1716997687437
