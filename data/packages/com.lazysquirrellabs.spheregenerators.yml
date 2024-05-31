@@ -1,0 +1,18 @@
+name: com.lazysquirrellabs.spheregenerators
+displayName: Sphere Generators
+description: Generate sphere meshes procedurally.
+repoUrl: https://github.com/matheusamazonas/sphere_generator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://blog.matheusamazonas.net/assets/images/post22/sphere_display.png
+topics:
+  - modeling
+  - procedural-generation
+  - utilities
+hunter: matheusamazonas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1717176370414
