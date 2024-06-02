@@ -1,5 +1,5 @@
-name: com.lazysquirrellabs.spheregenerators
-displayName: Sphere Generators
+name: com.lazysquirrellabs.spheregenerator
+displayName: Sphere Generator
 description: Generate sphere meshes procedurally.
 repoUrl: https://github.com/matheusamazonas/sphere_generator
 parentRepoUrl: null
@@ -13,6 +13,6 @@ topics:
 hunter: matheusamazonas
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.0.1'
 readme: main:README.md
 createdAt: 1717176370414
