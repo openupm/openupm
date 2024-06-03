@@ -1,0 +1,20 @@
+name: com.greenbamboogames.projectnotes
+displayName: Project Notes!
+description: >-
+  A small tool in Unity Editor to display notes, which can be used to share
+  must-read information within a team.
+repoUrl: https://github.com/SolarianZ/UnityProjectNotes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+readme_zhCN: main:README_CN.md
+createdAt: 1717425058809
