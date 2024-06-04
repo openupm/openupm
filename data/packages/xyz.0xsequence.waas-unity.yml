@@ -1,0 +1,19 @@
+name: xyz.0xsequence.waas-unity
+displayName: Sequence Embedded Wallet SDK
+description: A Unity SDK for the Sequence WaaS API
+repoUrl: https://github.com/0xsequence/sequence-unity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/0xsequence/sequence-unity/master/Images/SequenceLogoWithBackground.png
+topics:
+  - integration
+  - mobile
+  - services
+hunter: BellringerQuinn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/README.md
+createdAt: 1717531841336
