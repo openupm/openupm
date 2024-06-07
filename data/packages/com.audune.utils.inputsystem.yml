@@ -1,6 +1,6 @@
 name: com.audune.utils.inputsystem
-displayName: Input System Utilities
-description: Input System utilities for Unity 2022 LTS or higher.
+displayName: Unity Input System Utilities
+description: Unity Input System utilities for Unity 2022 LTS or higher.
 repoUrl: 'https://github.com/audunegames/inputsystem-utils'
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
