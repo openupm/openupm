@@ -1,6 +1,6 @@
 name: com.audune.utils.unityeditor
-displayName: UnityEditor Utilities
-description: UnityEditor utilities for Unity 2022.3 LTS or higher.
+displayName: Unity IMGUI Editor Utilities
+description: Unity IMGUI Editor utilities for Unity 2022.3 LTS or higher.
 repoUrl: https://github.com/audunegames/unityeditor-utils
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
