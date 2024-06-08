@@ -1,0 +1,18 @@
+name: com.popupasylum.uguivertexeffect
+displayName: UGUI Vertex Effect
+description: >-
+  UGUIVertexEffect is a set of components for Unity UGUI that adds cool effects
+  to your UI!
+repoUrl: https://github.com/markeahogan/UGUIVertexEffect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://i.gyazo.com/b888b4880cd45dc53e6d0b8cc6d1c7ca.png
+topics:
+  - gui
+hunter: markeahogan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1717866877623
