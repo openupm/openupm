@@ -31,13 +31,8 @@
 <p align="center">
   <a href="https://openupm.com/">
     OpenUPM
-  </a> |
-  <a href="https://openupm.cn/">
-    OpenUPM中文网
   </a>
 </p>
-
-*Read this in other languages: [English](README.md), [简体中文](README.zh-cn.md).*
 
 **Table of contents**
 
@@ -64,9 +59,9 @@ Learn more at [our documentations](https://openupm.com/docs/).
 
 ## Sponsors and backers
 OpenUPM is an independent project with its ongoing development made possible entirely thanks to the support by our awesome [sponsors, backers, and contributors](https://openupm.com/contributors/). If you'd like to join them, please consider:
-- [Sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm) comes with exclusive perks
+- [Sponsoring Favo Yang on Patreon](https://www.patreon.com/openupm)
+- [Sponsoring Favo Yang on GitHub](https://github.com/sponsors/openupm)
 - [Exploring other donation options](https://openupm.com/support/)
-- [Exploring region CN donation options](https://openupm.cn/zh/support/)
 
 <!--bronze start
 <h3 align="center">Bronze Sponsors</h3>
@@ -75,8 +70,8 @@ OpenUPM is an independent project with its ongoing development made possible ent
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://github.com/adrenak" target="_blank">
-          <img width="64px" src="https://github.com/adrenak.png?size=128">
+        <a href="https://github.com/someone" target="_blank">
+          <img width="64px" src="https://github.com/someone.png?size=128">
         </a>
       </td>
     </tr>
@@ -110,7 +105,6 @@ bronze end-->
 | Sub-project                                                               | Description                   |
 | ------------------------------------------------------------------------- | ----------------------------- |
 | [package.openupm.com](https://package.openupm.com)                        | UPM registry                  |
-| [package.openupm.cn](https://package.openupm.cn)                          | UPM registry for China Region |
 | [openupm/openupm](https://github.com/openupm/openupm)                     | website, package curated list |
 | [openupm/openupm-pipelines](https://github.com/openupm/openupm-pipelines) | build pipelines               |
 | [openupm/openupm-cli](https://github.com/openupm/openupm-cli)             | command-line tool             |
