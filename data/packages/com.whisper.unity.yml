@@ -1,0 +1,23 @@
+name: com.whisper.unity
+displayName: Whisper
+description: >-
+  Whisper is high-performance automatic speech recognition (ASR) model,
+  developed by OpenAI.
+
+
+  This is Unity bindings of whisper.cpp infrence implementation.
+repoUrl: https://github.com/Macoron/whisper.unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - input-management
+  - utilities
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1718017351345
