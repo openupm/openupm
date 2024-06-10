@@ -1,3 +1,10 @@
+## [1.58.2](https://github.com/openupm/openupm/compare/1.58.1...1.58.2) (2024-06-10)
+
+
+### Bug Fixes
+
+* **ci:** remove target_host HOST_CN ([0bd40bc](https://github.com/openupm/openupm/commit/0bd40bc48b4f6b1b13c49b9bc3d60a4efc8cb826))
+
 ## [1.58.1](https://github.com/openupm/openupm/compare/1.58.0...1.58.1) (2024-02-20)
 
 
