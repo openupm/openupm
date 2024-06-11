@@ -1,0 +1,16 @@
+name: com.medimind.keyboard
+displayName: Keyboard Package
+description: Keyboard Utility for Virtual Contents
+repoUrl: https://github.com/koseungro/com.medimind.keyboard
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: koseungro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1718074996178
