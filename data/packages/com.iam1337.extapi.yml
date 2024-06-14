@@ -1,0 +1,16 @@
+name: com.iam1337.extapi
+displayName: extApi
+description: extApi - Simple Api Server for Unity
+repoUrl: https://github.com/Iam1337/extApi
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: iam1337
+gitTagPrefix: upm/v
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1718357065078
