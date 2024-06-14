@@ -1,0 +1,17 @@
+name: com.aio.timer
+displayName: AIO Unity Timer
+description: unity3d timer system
+repoUrl: https://github.com/AIO-GAME/Unity.Timer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - parallelism-and-concurrency
+hunter: AIO-GAME
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:.github/README.md
+createdAt: 1718325296231
