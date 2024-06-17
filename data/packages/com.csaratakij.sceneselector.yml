@@ -1,0 +1,24 @@
+name: com.csaratakij.sceneselector
+displayName: SceneSelector
+description: >-
+  Play a specific scene in unity playmode and jump back to current edit scene
+  when finish playing.
+repoUrl: https://github.com/CSaratakij/SceneSelector
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - gui
+  - integration
+  - level-design
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1718638356548
