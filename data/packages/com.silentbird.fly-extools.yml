@@ -1,0 +1,16 @@
+name: com.silentbird.fly-extools
+displayName: Fly ExTools
+description: Tools for the Unity Editor.
+repoUrl: https://github.com/silentbird/FlyExTools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: silentbird
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1718698314403
