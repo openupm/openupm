@@ -1,0 +1,16 @@
+name: com.homemade.pattern.singleton
+displayName: com.homemade.pattern.singleton
+description: Small package about controll the audio
+repoUrl: https://github.com/hungpt17102k/com.homemade.pattern.singleton
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1718806261675
