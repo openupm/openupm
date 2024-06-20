@@ -1,0 +1,16 @@
+name: com.frostbun.unit.ui
+displayName: UniT UI
+description: UI Manager for Unity
+repoUrl: https://github.com/frostbun/UniT.UI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1718885059018
