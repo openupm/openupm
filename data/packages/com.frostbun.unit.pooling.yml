@@ -1,0 +1,16 @@
+name: com.frostbun.unit.pooling
+displayName: UniT Pooling
+description: Object Pool Manager for Unity
+repoUrl: https://github.com/frostbun/UniT.Pooling
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1718893713113
