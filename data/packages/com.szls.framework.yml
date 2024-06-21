@@ -1,0 +1,16 @@
+name: com.szls.framework
+displayName: framework
+description: szls framework!
+repoUrl: https://github.com/tuanti/ytls
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: tuanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1718940412078
