@@ -16,5 +16,5 @@ hunter: mob-sakai
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: main:Packages/src/README.md
 createdAt: 1719488369663
