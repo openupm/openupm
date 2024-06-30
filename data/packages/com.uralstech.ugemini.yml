@@ -1,0 +1,17 @@
+name: com.uralstech.ugemini
+displayName: UGemini
+description: 'UGemini: A C# wrapper for the Google Gemini API.'
+repoUrl: https://github.com/Uralstech/UGemini
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - integration
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1719744988955
