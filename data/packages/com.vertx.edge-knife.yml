@@ -1,0 +1,16 @@
+name: com.vertx.edge-knife
+displayName: Edge Knife
+description: "Edge tool for Shader Graph/VFX Graph."
+repoUrl: https://github.com/vertxxyz/Vertx.EdgeKnife
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: vertxxyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1719791407769
