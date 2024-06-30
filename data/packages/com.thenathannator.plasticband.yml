@@ -14,5 +14,5 @@ hunter: TheNathannator
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: main:Packages/com.thenathannator.plasticband/README.md
 createdAt: 1719739122619
