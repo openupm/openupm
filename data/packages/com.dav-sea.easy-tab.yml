@@ -18,5 +18,5 @@ hunter: dav-sea
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:Assets/EasyTab/~Docs/README.md
+readme: 'master:Assets/EasyTab/~Docs/README.md'
 createdAt: 1719269700272
