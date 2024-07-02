@@ -1,0 +1,16 @@
+name: com.frostbun.unit.initializables
+displayName: UniT Initializables
+description: Initializable Manager for Unity
+repoUrl: https://github.com/frostbun/UniT.Initializables
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1719904105744
