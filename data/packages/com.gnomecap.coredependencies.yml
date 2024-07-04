@@ -1,0 +1,16 @@
+name: com.gnomecap.coredependencies
+displayName: Gnome Core
+description: a neat package that grabs external dependencies for the gnomecore
+repoUrl: https://github.com/gnomecap/CoreDependencies
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: KingScroll
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720113669453
