@@ -1,5 +1,5 @@
 name: com.gnomecap.coredependencies
-displayName: Gnome Core
+displayName: Gnome Core Dependencies
 description: a neat package that grabs external dependencies for the gnomecore
 repoUrl: https://github.com/gnomecap/CoreDependencies
 parentRepoUrl: null
