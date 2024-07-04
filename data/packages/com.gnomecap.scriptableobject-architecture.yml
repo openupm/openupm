@@ -1,0 +1,20 @@
+name: com.gnomecap.scriptableobject-architecture
+displayName: GnomeCap's ScriptableObject-Architecture
+description: >-
+  Makes using Scriptable Objects as a fundamental part of your architecture in
+  Unity super easy. Forked from Daniel Everland's codebase
+repoUrl: https://github.com/gnomecap/ScriptableObject-Architecture
+parentRepoUrl: https://github.com/DanielEverland/ScriptableObject-Architecture
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - data-management
+  - utilities
+hunter: KingScroll
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1720109305800
