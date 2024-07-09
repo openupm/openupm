@@ -1,0 +1,25 @@
+name: com.snakelikecoding.snakecore
+displayName: SnakeCore
+description: >-
+  The package that includes core functionality like concurrency and dependency
+  injection.
+repoUrl: https://github.com/tahameg/SnakeCore
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: >-
+  https://media.githubusercontent.com/media/tahameg/SnakeCore/main/SnakeCoreBanner.png
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - input-management
+  - utilities
+hunter: tahameg
+gitTagPrefix: ''
+gitTagIgnore: .*-pre\.\d+$
+minVersion: ''
+readme: main:README.md
+createdAt: 1720562649019
