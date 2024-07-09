@@ -1,0 +1,16 @@
+name: com.psygames.unitywebsocket
+displayName: UnityWebSocket
+description: The Best Unity WebSocket Plugin for All Platforms.
+repoUrl: https://github.com/psygames/UnityWebSocket
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: r4p0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1720512454819
