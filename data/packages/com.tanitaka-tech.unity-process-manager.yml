@@ -1,0 +1,16 @@
+name: com.tanitaka-tech.unity-process-manager
+displayName: Unity Process Manager
+description: Unity Process Manager.
+repoUrl: https://github.com/tanitaka-tech/UnityProcessManager
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: tanitaka-tech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1720560139568
