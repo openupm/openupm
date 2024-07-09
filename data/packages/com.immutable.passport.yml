@@ -1,0 +1,20 @@
+name: com.immutable.passport
+displayName: Immutable Passport
+description: >-
+  The Immutable SDK for Unity helps you integrate your game with Immutable
+  Passport.
+repoUrl: https://github.com/immutable/unity-immutable-sdk
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://camo.githubusercontent.com/1e81daad2d5d1d15017099e50ca569b1bf5565bd0307e0746962fdb563c076de/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313239393333392f73637265656e73686f74732f373133333635372f6d656469612f38333732333764343437643336353831656264353965633336643330646165612e676966
+topics:
+  - integration
+  - services
+hunter: gnodgnuf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720517756443
