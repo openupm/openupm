@@ -1,6 +1,6 @@
 name: com.tanitaka-tech.unity-process-manager
 displayName: Unity Process Manager
-description: Unity Process Manager.
+description: This package provides a framework for managing Unity scene flows and component interactions through a request-based system, eliminating direct dependencies between scene management classes and UI components, thereby improving code maintainability and clarity.
 repoUrl: https://github.com/tanitaka-tech/UnityProcessManager
 parentRepoUrl: null
 licenseSpdxId: MIT
