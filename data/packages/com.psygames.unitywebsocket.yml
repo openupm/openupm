@@ -9,7 +9,7 @@ image: ''
 topics:
   - network
 hunter: r4p0
-gitTagPrefix: ''
+gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 minVersion: ''
 readme: upm:README.md
