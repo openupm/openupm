@@ -1,0 +1,20 @@
+name: com.bedtime.nest-builder
+displayName: NestBuilder
+description: NestBuilder
+repoUrl: https://github.com/BedtimeDigitalGames/NestBuilder
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://repository-images.githubusercontent.com/823275328/31291025-475a-47c3-a692-dfad11b35b33
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: aschtronaut
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720691758185
