@@ -1,0 +1,16 @@
+name: com.lvl3mage.interpolation
+displayName: Interpolation
+description: A package that provides several interpolation-related utility classes.
+repoUrl: https://github.com/Lvl3Mage/Interpolation
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: lvl3mage
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1721152646583
