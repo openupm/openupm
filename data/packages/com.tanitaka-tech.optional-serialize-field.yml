@@ -1,0 +1,19 @@
+name: com.tanitaka-tech.optional-serialize-field
+displayName: Optional Serialize Field
+description: >-
+  Unity plugin that outputs errors for null SerializeFields during runtime, with
+  options to allow exceptions, installable via git URL or OpenUPM.
+repoUrl: https://github.com/tanitaka-tech/OptionalSerializeField
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - testing
+hunter: tanitaka-tech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1721218924488
