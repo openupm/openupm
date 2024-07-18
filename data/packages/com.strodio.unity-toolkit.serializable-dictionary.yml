@@ -1,0 +1,16 @@
+name: com.strodio.serializable-dictionary
+displayName: Serializable Dictionary
+description: Serializable dictionary for Unity
+repoUrl: https://github.com/StromKuo/SerializableDictionary
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: StromKuo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1721318133017
