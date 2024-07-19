@@ -1,0 +1,16 @@
+name: com.clearsky.unityweldkr
+displayName: Unity Weld KR
+description: This is a fork of UnityWeld, a Unity MVVM System made by Real Serious Games
+repoUrl: https://github.com/ClearSky-S/UnityWeldKR
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: SEE LICENSE IN <LICENSE.md>
+image: ''
+topics:
+  - gui
+hunter: ClearSky-S
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1721384522741
