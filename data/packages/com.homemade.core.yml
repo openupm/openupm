@@ -1,0 +1,17 @@
+name: com.homemade.core
+displayName: com.homemade.core
+description: Package must have to add other services
+repoUrl: https://github.com/hungpt17102k/com.homemade.core
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1721640571729
