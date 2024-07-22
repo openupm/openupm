@@ -1,0 +1,16 @@
+name: com.strodio.hybridclr-integration
+displayName: HybridCLR Integration
+description: HybridCLR Integration for Unity
+repoUrl: https://github.com/StromKuo/HybridCLR-Integration
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: StromKuo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1721630720184
