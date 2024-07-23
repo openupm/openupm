@@ -1,0 +1,17 @@
+name: se.hertzole.array-pool-scope
+displayName: Array Pool Scope
+description: Array Pool Scope allows you to use ArrayPool in a scope-like manner.
+repoUrl: https://github.com/Hertzole/array-pool-scope
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: Hertzole
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1721772672764
