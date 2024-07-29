@@ -1,0 +1,16 @@
+name: com.homemade.leanpool
+displayName: com.homemade.leanpool
+description: Pool package
+repoUrl: https://github.com/hungpt17102k/com.homemade.leanpool
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1722245441903
