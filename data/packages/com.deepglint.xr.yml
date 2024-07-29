@@ -15,6 +15,6 @@ topics:
 hunter: ibalpha
 gitTagPrefix: 'upm/'
 gitTagIgnore: ''
-minVersion: v2.4.2
+minVersion: ''
 readme: master:README.md
 createdAt: 1721901520424
