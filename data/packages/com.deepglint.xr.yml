@@ -13,8 +13,8 @@ topics:
   - input-management
   - utilities
 hunter: ibalpha
-gitTagPrefix: ''
-gitTagIgnore: ^v\d+.\d+.\d+-(alpha|beta|upm)\d*$
+gitTagPrefix: 'upm/'
+gitTagIgnore: ''
 minVersion: v2.4.2
 readme: master:README.md
 createdAt: 1721901520424
