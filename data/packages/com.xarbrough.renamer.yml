@@ -1,0 +1,17 @@
+name: com.xarbrough.renamer
+displayName: Renamer
+description: A bulk rename utility for Unity's hierarchy and project view.
+repoUrl: https://github.com/chrisyarbrough/Renamer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/chrisyarbrough/Renamer/blob/main/Media/Renamer.png?raw=true
+topics:
+  - editor-enhancement
+  - utilities
+hunter: chrisyarborugh
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Readme.md
+createdAt: 1722367784049
