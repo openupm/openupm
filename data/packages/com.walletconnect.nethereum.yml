@@ -13,5 +13,5 @@ hunter: skibitsky
 gitTagPrefix: nethereum/
 gitTagIgnore: ''
 minVersion: ''
-readme: main:Packages/con.walletconnect.nethereum/README.md
+readme: main:Packages/com.walletconnect.nethereum/README.md
 createdAt: 1714127564444
