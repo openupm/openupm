@@ -19,5 +19,5 @@ hunter: googleads
 gitTagPrefix: AppLovin/
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: main:AppLovin/README.md
 createdAt: 1722557720456
