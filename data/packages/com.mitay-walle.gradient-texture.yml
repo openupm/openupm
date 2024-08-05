@@ -1,0 +1,22 @@
+name: com.mitay-walle.gradient-texture
+displayName: Gradient Texture
+description: >-
+  Unity Procedural gradient texture generator. Texture2D-Gradient generated dynamicly at Editor-time, by ScriptableObject
+  with Gradient-properties.
+repoUrl: https://github.com/mitay-walle/com.mitay-walle.gradient-texture
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/mitay-walle/com.mitay-walle.gradient-texture/raw/main/Documentation/gradientTexture_srgb_inspector_preview.png
+topics:
+  - editor-enhancement
+  - particles-and-effects
+  - procedural-generation
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1722875298309
