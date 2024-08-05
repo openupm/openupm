@@ -8,8 +8,6 @@ licenseName: MIT
 image: ''
 topics:
   - utilities
-  - events
-  - event-bus
 hunter: indiegabo
 gitTagPrefix: upm/v
 gitTagIgnore: ''
