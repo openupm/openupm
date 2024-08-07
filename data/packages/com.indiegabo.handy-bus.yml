@@ -1,7 +1,7 @@
-name: com.indiegabo.handy-bus
-displayName: Handy Bus
-description: A solution that creates an Event Bus to be used in any project.
-repoUrl: https://github.com/indiegabo/handy-bus
+name: com.indiegabo.handy-tools
+displayName: Handy Tools
+description: A collection of tools for Unity. Mostly scripts.
+repoUrl: https://github.com/indiegabo/handy-tools
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
@@ -11,6 +11,6 @@ topics:
 hunter: indiegabo
 gitTagPrefix: upm/v
 gitTagIgnore: ''
-minVersion: ''
-readme: main:Assets/HandyBus/README.md
+minVersion: 1.1.0
+readme: main:Assets/HandyTools/README.md
 createdAt: 1722881161706
