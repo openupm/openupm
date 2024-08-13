@@ -1,0 +1,16 @@
+name: com.adjust.sdk
+displayName: Adjust
+description: This is the Unity SDK of
+repoUrl: https://github.com/adjust/unity_sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - services
+hunter: ErnSur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1723533963480
