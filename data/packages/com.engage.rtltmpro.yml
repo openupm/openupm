@@ -14,5 +14,5 @@ hunter: BenIVRE
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: develop:UPMPackage/README.md
+readme: develop:README.md
 createdAt: 1723627441371
