@@ -12,7 +12,7 @@ topics:
   - editor-enhancement
   - utilities
 hunter: laicasaane
-gitTagPrefix: ''
+gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 minVersion: ''
 readme: master:README.md
