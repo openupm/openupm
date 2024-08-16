@@ -1,0 +1,21 @@
+name: com.google.ads.mobile.mediation.maio
+displayName: Google Mobile Ads Maio Mediation
+description: >-
+  The Google Mobile Ads mediation plugin for Maio package allows you to load and
+  display ads from Maio using mediation, covering waterfall integrations.
+repoUrl: https://github.com/googleads/googleads-mobile-unity-mediation
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://lh3.googleusercontent.com/D71NOtwLFHvG8WfOO2fmSUTmbhT6ezmC0--7Si2A1BDjTSVcp6fJgAa4H-aVz-sZ2a7tcoXc7f_HBGq27lctq7mrqaOJD7tcfR_lOQ=w770-h734-p-nu-pa
+topics:
+  - integration
+  - mobile
+  - services
+hunter: googleads
+gitTagPrefix: Maio/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Maio/README.md
+createdAt: 1723841014240
