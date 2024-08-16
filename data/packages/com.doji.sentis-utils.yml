@@ -1,0 +1,17 @@
+name: com.doji.sentis-utils
+displayName: Sentis Utils
+description: A small collection of utility scripts and extensions for Unity Sentis
+repoUrl: https://github.com/julienkay/com.doji.sentis-utils
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1723825427944
