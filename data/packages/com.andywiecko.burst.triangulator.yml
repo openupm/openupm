@@ -14,7 +14,7 @@ hunter: andywiecko
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://repository-images.githubusercontent.com/420628520/2eac6d62-7fc0-44c4-b704-f0932addda12'
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
