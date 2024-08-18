@@ -1,0 +1,20 @@
+name: com.ammariqais.skiaforunity
+displayName: Skia For Unity
+description: Skia For Unity With Harfbuzz texts, Skottie Animations, lottie
+repoUrl: https://github.com/ammariqais/SkiaForUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - animation
+  - frameworks
+  - gui
+  - mobile
+hunter: ammariqais
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1723948426298
