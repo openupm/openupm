@@ -1,0 +1,16 @@
+name: com.unity.xr.picoxr
+displayName: PICO Integration
+description: PICO Integration for Unity
+repoUrl: https://github.com/Bertec/PICOUnitySDK
+parentRepoUrl: https://github.com/Pico-Developer/PICO-Unity-Integration-SDK
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - ar-and-vr
+hunter: ToddWilsonBertec
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1724244630638
