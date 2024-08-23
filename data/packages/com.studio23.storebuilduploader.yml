@@ -1,0 +1,16 @@
+name: com.studio23.storebuilduploader
+displayName: Store Build Uploader
+description: Utility Tool to Make Store Build Uploads Convinent
+repoUrl: https://github.com/Studio-23-xyz/com.studio23.storebuilduploader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: studio-23-xyz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1724423733778
