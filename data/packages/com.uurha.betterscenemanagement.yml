@@ -1,5 +1,5 @@
 name: com.uurha.betterscenemanagement
-displayName: Better Scene Management
+displayName: (Deprecated) Better Scene Management
 description: Scene loader with ability to load and serialize SceneAssets
 repoUrl: 'https://github.com/techno-dwarf-works/better-scene-management-legacy'
 parentRepoUrl: null
