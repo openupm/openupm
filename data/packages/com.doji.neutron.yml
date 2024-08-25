@@ -5,7 +5,8 @@ repoUrl: https://github.com/julienkay/com.doji.neutron
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/606251842/39161d35-5274-40fc-a38d-2554b0cc7590
 topics:
   - ai
   - editor-enhancement
