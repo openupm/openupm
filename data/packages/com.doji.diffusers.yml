@@ -5,7 +5,8 @@ repoUrl: https://github.com/julienkay/com.doji.diffusers
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/735426806/4e219fcd-caea-48af-bd69-8a1ee5355677
 topics:
   - ai
   - utilities
