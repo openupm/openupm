@@ -16,7 +16,8 @@ hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/603482535/1342d71b-aa9b-456a-bd1b-7730a908a31d
 readme: 'master:Packages/com.doji.genesis/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
