@@ -5,7 +5,8 @@ repoUrl: https://github.com/julienkay/com.doji.chromatic
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/707451758/371e434d-cbcb-4419-95e7-7714b7dd1ec4
 topics:
   - utilities
 hunter: julienkay
