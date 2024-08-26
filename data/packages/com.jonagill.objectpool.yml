@@ -1,0 +1,16 @@
+name: com.jonagill.objectpool
+displayName: ObjectPool
+description: Provides functionality for pooling Unity GameObjects.
+repoUrl: https://github.com/jonagill/ObjectPool
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT No Attribution
+image: ''
+topics:
+  - utilities
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1724695663587
