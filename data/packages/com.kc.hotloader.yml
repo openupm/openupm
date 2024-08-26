@@ -1,0 +1,16 @@
+name: com.kc.hotloader
+displayName: KC.HotLoader
+description: 框架热更loader
+repoUrl: https://github.com/zkyvette425/com.kc.hotloader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: zkyvette425
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1724655411320
