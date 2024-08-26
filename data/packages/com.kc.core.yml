@@ -1,0 +1,16 @@
+name: com.kc.core
+displayName: KC.Core
+description: "KCæ\_¸å¿\x83,å®\x9Eç\x8E°å\x9Fºç¡\x80å\x8A\x9Fè\x83½"
+repoUrl: https://github.com/zkyvette425/com.kc.core
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: zkyvette425
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1724642740186
