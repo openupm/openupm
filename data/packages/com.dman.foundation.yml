@@ -1,0 +1,19 @@
+name: com.dman.foundation
+displayName: Dman Foundation
+description: A large collection of utilities and tools which integrate deeply into unity.
+repoUrl: https://github.com/dsmiller95/DmanUtilities
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - services
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: com.dman.foundation/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/UtilityScripts/com.dman.foundation/README.md
+createdAt: 1724782677151
