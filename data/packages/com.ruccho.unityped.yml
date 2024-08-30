@@ -1,0 +1,20 @@
+name: com.ruccho.unityped
+displayName: UniTyped
+description: >-
+  A source generator for Unity that provides strongly typed access to serialized
+  data through SerializedObject / SerializedProperty.
+repoUrl: https://github.com/ruccho/UniTyped
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1725010029945
