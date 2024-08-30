@@ -1,0 +1,18 @@
+name: com.ruccho.unityped.manualgenerator
+displayName: UniTyped Manual Generator
+description: Manual generator for UniTyped
+repoUrl: https://github.com/ruccho/UniTyped
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1725010073283
