@@ -1,0 +1,16 @@
+name: com.seep.jolt
+displayName: Jolt Physics
+description: Unity compatible bindings for the Jolt physics library
+repoUrl: https://github.com/seep/JoltPhysicsUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - physics
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v0.4.0
+readme: main:README.md
+createdAt: 1725308468931
