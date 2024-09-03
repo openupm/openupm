@@ -1,0 +1,19 @@
+name: com.virtuesky.sunflower
+displayName: Sunflower
+description: Core ScriptableObject Architecture for building Unity games
+repoUrl: https://github.com/VirtueSky/sunflower
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+  - integration
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725325959189
