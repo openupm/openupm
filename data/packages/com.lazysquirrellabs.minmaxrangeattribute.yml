@@ -3,7 +3,7 @@ displayName: Min/max range attribute
 description: >-
   A bounded (i.e., with a minimum and maximum) range attribute for Unity's
   Vector2 and Vector2Int fields.
-repoUrl: https://github.com/matheusamazonas/min_max_range_attribute
+repoUrl: https://github.com/lazysquirrellabs/min_max_range_attribute
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
