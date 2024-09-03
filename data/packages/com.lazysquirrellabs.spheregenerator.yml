@@ -1,7 +1,7 @@
 name: com.lazysquirrellabs.spheregenerator
 displayName: Sphere Generator
 description: Generate sphere meshes procedurally.
-repoUrl: https://github.com/matheusamazonas/sphere_generator
+repoUrl: https://github.com/lazysquirrellabs/sphere_generator
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
