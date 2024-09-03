@@ -1,0 +1,17 @@
+name: net.narazaka.unity.tiled-number-shader
+displayName: Tiled Number Shader
+description: Shader (+cginc) to handle tiled number textures
+repoUrl: https://github.com/Narazaka/tiled-number-shader
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1725379454064
