@@ -1,5 +1,5 @@
-name: com.holoi.netcode.transport.multipeer-connectivity
-displayName: Multipeer Connectivity for Netcode for GameObjects
+name: org.realitydeslab.netcode.transport.multipeer-connectivity
+displayName: Multipeer Connectivity Transport for Netcode for GameObjects
 description: >-
   This package implemented the transport layer of Netcode for GameObjects with
   Apple Multipeer Connectivity, which can enable peer-to-peer communication
@@ -14,7 +14,7 @@ description: >-
 
   Please reference Apple's official document for detailed information:
   https://developer.apple.com/documentation/multipeerconnectivity.
-repoUrl: https://github.com/holoi/netcode-transport-multipeer-connectivity
+repoUrl: https://github.com/realitydeslab/netcode-transport-multipeer-connectivity
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
