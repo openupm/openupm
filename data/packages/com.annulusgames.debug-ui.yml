@@ -5,7 +5,8 @@ repoUrl: https://github.com/AnnulusGames/DebugUI
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://raw.githubusercontent.com/AnnulusGames/DebugUI/main/docs/images/img1.png
 topics:
   - editor-enhancement
   - testing
