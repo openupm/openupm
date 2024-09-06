@@ -1,0 +1,18 @@
+name: com.uralstech.utils.singleton
+displayName: Utils.Singleton
+description: >-
+  Utils.Singleton: Provides a Unity MonoBehaviour class which makes all
+  inheriting classes singletons.
+repoUrl: https://github.com/Uralstech/Utils.Singleton
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725621611462
