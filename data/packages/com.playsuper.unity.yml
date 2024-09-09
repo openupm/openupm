@@ -1,0 +1,18 @@
+name: com.playsuper.unity
+displayName: PlaySuper
+description: Official Unity SDK for PlaySuper Integration
+repoUrl: https://github.com/PlaySuper/unity-sdk-public
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - integration
+  - mobile
+  - utilities
+hunter: PlaySuper/unity-sdk-public
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725877831082
