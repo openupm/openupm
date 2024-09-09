@@ -3,14 +3,14 @@ displayName: Puerts WebGL Support
 description: >-
   Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment
   and get speed up by JIT.
-repoUrl: 'https://github.com/zombieyang/puerts_unity_webgl_demo'
+repoUrl: 'https://github.com/Tencent/puerts'
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License
 topics:
   - utilities
 hunter: zombieyang
-gitTagPrefix: upm/
+gitTagPrefix: upm/webgl/
 gitTagIgnore: ''
 minVersion: ''
 image: ''

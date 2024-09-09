@@ -1,14 +1,14 @@
 name: com.tencent.puerts.commonjs
 displayName: PuerTS commonjs support
 description: add commonjs support for puerts 1.4.0-rc.0 +
-repoUrl: 'https://github.com/puerts/puerts-commonjs'
-parentRepoUrl: 'https://github.com/Tencent/puerts'
+repoUrl: 'https://github.com/Tencent/puerts'
+parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License
 topics:
   - utilities
 hunter: zombieyang
-gitTagPrefix: upm/
+gitTagPrefix: upm/commonjs/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
