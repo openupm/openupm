@@ -1,0 +1,23 @@
+name: com.karrar.netick
+displayName: Netick
+description: A networking solution for Unity
+repoUrl: https://github.com/NetickNetworking/NetickForUnity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - parallelism-and-concurrency
+  - integration
+  - network
+  - physics
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1726066960943
