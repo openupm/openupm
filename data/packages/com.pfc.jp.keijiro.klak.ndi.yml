@@ -1,0 +1,21 @@
+name: com.pfc.jp.keijiro.klak.ndi
+displayName: KlakNDI (pfc)
+description: NewTek NDI® plugin for Unity with Video and Audio support
+repoUrl: https://github.com/prefrontalcortex/KlakNDI
+parentRepoUrl: https://github.com/keijiro/KlakNDI
+licenseSpdxId: ''
+licenseName: LICENSE
+image: ''
+topics:
+  - audio
+  - camera
+  - input-management
+  - network
+  - utilities
+  - video
+hunter: hybridherbst
+gitTagPrefix: release
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:jp.keijiro.klak.ndi/README.md
+createdAt: 1726145111790
