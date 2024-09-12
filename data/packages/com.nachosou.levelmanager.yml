@@ -1,0 +1,16 @@
+name: com.nachosou.levelmanager
+displayName: Level Manager
+description: This is a simple Level Manager
+repoUrl: https://github.com/nachosou/D3-Assets-Package
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nachosou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726148797982
