@@ -1,0 +1,18 @@
+name: com.github.kurotu.unity-terminal-launcher
+displayName: Unity Terminal Launcher
+description: Add "Open Terminal Here" context menu for Unity
+repoUrl: https://github.com/kurotu/UnityTerminalLauncher
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+  - version-control
+hunter: kurotu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1726219883131
