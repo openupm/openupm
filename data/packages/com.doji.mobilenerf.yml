@@ -14,7 +14,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://repository-images.githubusercontent.com/731232590/1507ae2b-73b4-49a5-b7ed-9fd7a0b57c96
+  https://repository-images.githubusercontent.com/522043058/fe2f1192-d7f0-4f13-b3d8-7bfeb0d7ec8c
 readme: 'master:readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''
