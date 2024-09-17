@@ -1,0 +1,16 @@
+name: io.github.balint-h.mj-unity-extensions
+displayName: Mj Extensions
+description: Scripts for interfacing with a Mujoco Scene
+repoUrl: https://github.com/kezzyhko/mj-unity-extensions-upm
+parentRepoUrl: https://github.com/Balint-H/modular-agents
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - physics
+hunter: kezzyhko
+gitTagPrefix: upm-
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:mj-unity-extensions/README.md
+createdAt: 1726535885358
