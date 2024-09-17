@@ -17,7 +17,7 @@ hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: 'https://repository-images.githubusercontent.com/604283245/32b1d1b1-a6fc-475b-80e1-eb39a2a21bb3'
 readme: 'upm:Documentation~/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
