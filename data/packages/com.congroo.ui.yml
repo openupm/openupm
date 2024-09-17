@@ -1,0 +1,17 @@
+name: com.congroo.ui
+displayName: Congroo UI
+description: Congroo framework ui library.
+repoUrl: https://github.com/chasinghope/Congroo.UI
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - gui
+hunter: chasinghope
+gitTagPrefix: com.congroo.ui
+gitTagIgnore: ''
+minVersion: 0.0.1
+readme: main:README.md
+createdAt: 1726540619562
