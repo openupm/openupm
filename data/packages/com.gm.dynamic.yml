@@ -1,0 +1,17 @@
+name: com.gm.dynamic
+displayName: Dynamic For Unity
+description: Unity Support Dynamic
+repoUrl: https://github.com/Goatman1996/DynamicForUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: Goatman1996
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726730771721
