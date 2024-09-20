@@ -1,0 +1,16 @@
+name: com.doji.flatbuffers
+displayName: FlatBuffers
+description: FlatBuffers package for Unity
+repoUrl: https://github.com/julienkay/com.doji.flatbuffers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1726837733643
