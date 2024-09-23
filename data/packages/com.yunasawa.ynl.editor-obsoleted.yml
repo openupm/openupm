@@ -1,0 +1,19 @@
+name: com.yunasawa.ynl.editor-obsoleted
+displayName: YNL - Editor (Obsoleted)
+description: YNL - Editor (Obsoleted) provides you tools to help you on your developing progress.
+repoUrl: https://github.com/Yunasawa/YNL-Editor--Obsoleted
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - services
+  - utilities
+hunter: Yunasawa
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0'
+readme: main:README.md
+createdAt: 1712666793426
