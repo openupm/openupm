@@ -1,6 +1,6 @@
-name: com.yunasawa.ynl.editor
-displayName: YNL - Editor
-description: YNL - Editor provides you tools to help you on your developing progress.
+name: com.yunasawa.ynl.editor-obsoleted
+displayName: YNL - Editor (Obsoleted)
+description: YNL - Editor (Obsoleted) provides you tools to help you on your developing progress.
 repoUrl: https://github.com/Yunasawa/YNL-Editor
 parentRepoUrl: null
 licenseSpdxId: MIT
