@@ -1,0 +1,17 @@
+name: net.nekobako.editor-patcher
+displayName: Editor Patcher
+description: Tools to enhance the Unity Editor
+repoUrl: https://github.com/nekobako/EditorPatcher
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/4340778/369799493-d39d6d9d-d5d4-46e6-a4b2-0e162e8c8eeb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcxMDUyODIsIm5iZiI6MTcyNzEwNDk4MiwicGF0aCI6Ii80MzQwNzc4LzM2OTc5OTQ5My1kMzlkNmQ5ZC1kNWQ0LTQ2ZTYtYTRiMi0wZTE2MmU4YzhlZWIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDkyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA5MjNUMTUyMzAyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Mjk2NGMxOGE1Y2JjZDRjYzQyOTkzZWZjYzViMGIwMmRiNTMwYTVlMjJmNzMxNjFmNDI5YjdiZjkyMjYzN2RkMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4ad35xLUiMclJASS9hm2ChpBBon8CK7EMIMI13S0NhM
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1727105065906
