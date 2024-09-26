@@ -1,0 +1,19 @@
+name: com.yandex.varioqub
+displayName: Varioqub
+description: >-
+  A Unity plugin for Varioqub. Varioqub is an AB tool that works for Android and
+  iOS.
+repoUrl: https://github.com/appmetrica/varioqub-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: kerradus
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1727270927518
