@@ -1,9 +1,9 @@
-name: com.hryooba.library.animancer
-displayName: HRYoobaLibrary.Animancer
+name: com.hryooba.animancer
+displayName: HRYooba.Animancer
 description: |-
-  Unity HRYooba Library
+  Unity HRYooba
   Animancer Extentions
-repoUrl: 'https://github.com/HRYooba/HRYoobaUnityLibrary.Animancer'
+repoUrl: 'https://github.com/HRYooba/HRYoobaUnity.Animancer'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -13,7 +13,7 @@ topics:
 hunter: hryooba
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.0.0'
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
