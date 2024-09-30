@@ -1,9 +1,9 @@
-name: com.hryooba.library.kinect
-displayName: HRYoobaLibrary.Kinect
+name: com.hryooba.kinect
+displayName: HRYooba.Kinect
 description: |-
-  Unity HRYooba Library
+  Unity HRYooba
   Kinect
-repoUrl: https://github.com/HRYooba/HRYoobaUnityLibrary.Kinect
+repoUrl: https://github.com/HRYooba/HRYoobaUnity.Kinect
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -14,6 +14,6 @@ topics:
 hunter: HRYooba
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.0.0'
 readme: main:README.md
 createdAt: 1725985419576
