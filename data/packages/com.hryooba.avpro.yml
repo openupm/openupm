@@ -1,9 +1,9 @@
-name: com.hryooba.library.avpro
-displayName: HRYoobaLibrary.AVPro
+name: com.hryooba.avpro
+displayName: HRYooba.AVPro
 description: |-
-  Unity HRYooba Library
+  Unity HRYooba
   AVPro Extentions
-repoUrl: 'https://github.com/HRYooba/HRYoobaUnityLibrary.AVPro'
+repoUrl: 'https://github.com/HRYooba/HRYoobaUnity.AVPro'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +12,7 @@ topics:
 hunter: HRYooba
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '3.0.0'
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
