@@ -3,7 +3,7 @@ displayName: HRYooba.Artnet
 description: |-
   Unity HRYooba
   ArtNet
-repoUrl: https://github.com/HRYooba/HRYoobaLibrary.ArtNet
+repoUrl: https://github.com/HRYooba/HRYoobaUnity.ArtNet
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
