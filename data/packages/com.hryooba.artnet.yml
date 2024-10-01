@@ -1,9 +1,9 @@
 name: com.hryooba.artnet
-displayName: HRYooba.Artnet
+displayName: HRYooba.ArtNet
 description: |-
   Unity HRYooba
   ArtNet
-repoUrl: https://github.com/HRYooba/HRYoobaLibrary.ArtNet
+repoUrl: https://github.com/HRYooba/HRYoobaUnity.ArtNet
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
