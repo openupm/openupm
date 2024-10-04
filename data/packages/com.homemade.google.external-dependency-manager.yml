@@ -1,0 +1,19 @@
+name: com.homemade.google.external-dependency-manager
+displayName: External Dependency Manager for Unity
+description: Package must have for Google LLC
+repoUrl: >-
+  https://github.com/hungpt17102k/com.homemade.google.external-dependency-manager
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - asset-management
+  - frameworks
+  - mobile
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1728032175608
