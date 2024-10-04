@@ -1,0 +1,20 @@
+name: com.legustavinho.legendary-tools-scriptable-object-variant
+displayName: Legendary Tools - Scriptable Object Variant
+description: >-
+  Adds a field to any scriptable object tagged with the [SOVariant] attribute
+  that lets you select a parent and override selected fields in the child
+  object.
+repoUrl: https://github.com/LeGustaVinho/ScriptableObjectVariant
+parentRepoUrl: https://github.com/GieziJo/ScriptableObjectVariant
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: LeGustaVinho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1728050138682
