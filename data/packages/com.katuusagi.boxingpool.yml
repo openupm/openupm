@@ -1,0 +1,18 @@
+name: com.katuusagi.boxingpool
+displayName: BoxingPool
+description: |-
+  A system for pooling boxed objects.
+  Unsafe is used to write directly to the boxed object to enable reuse.
+repoUrl: https://github.com/Katsuya100/BoxingPool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver1.3.1:README.md
+createdAt: 1728210099778
