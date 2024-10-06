@@ -1,0 +1,17 @@
+name: com.katuusagi.csharpscriptgenerator
+displayName: CSharpScriptGenerator
+description: A library for generating C# scripts.
+repoUrl: https://github.com/Katsuya100/CSharpScriptGenerator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver2.1.3:README.md
+createdAt: 1728210244901
