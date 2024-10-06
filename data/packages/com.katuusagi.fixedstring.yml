@@ -1,0 +1,16 @@
+name: com.katuusagi.fixedstring
+displayName: FixedString
+description: ''
+repoUrl: https://github.com/Katsuya100/FixedString
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver2.2.0:README.md
+createdAt: 1728210149982
