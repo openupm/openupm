@@ -1,0 +1,17 @@
+name: com.katuusagi.delegatepool
+displayName: DelegatePool
+description: Can implement a pool to cache instances of Delegate and lambda expressions.
+repoUrl: https://github.com/Katsuya100/DelegatePool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver1.1.0:README.md
+createdAt: 1728210349719
