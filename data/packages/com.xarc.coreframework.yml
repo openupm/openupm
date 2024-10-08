@@ -1,0 +1,24 @@
+name: com.xarc.coreframework
+displayName: Xarc Framework
+description: VR Development SDK
+repoUrl: https://github.com/Xarcoffl/com.xarc.coreframework
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - ar-and-vr
+  - animation
+  - frameworks
+  - gui
+  - input-management
+  - integration
+  - level-design
+  - physics
+  - utilities
+hunter: Xarcoffl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Core:README.md
+createdAt: 1728368334923
