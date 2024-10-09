@@ -7,7 +7,7 @@ repoUrl: https://github.com/phrase/unity-plugin
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License
-image: ''
+image: 'https://raw.githubusercontent.com/phrase/unity-plugin/refs/heads/main/docs/cover.png'
 topics:
   - localization
   - utilities
