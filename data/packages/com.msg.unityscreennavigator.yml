@@ -1,0 +1,19 @@
+name: com.msg.unityscreennavigator
+displayName: UnityScreenNavigator
+description: >-
+  Library for screen transitions, transition animations, transition history
+  stacking, and lifecycle management in Unity's uGUI.
+repoUrl: https://github.com/youngmsg5/MSGUnityScreenNavigator
+parentRepoUrl: https://github.com/Haruma-K/UnityScreenNavigator
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - frameworks
+hunter: youngmsg5
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1728877689731
