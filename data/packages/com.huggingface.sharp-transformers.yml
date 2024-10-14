@@ -1,0 +1,17 @@
+name: com.huggingface.sharp-transformers
+displayName: Hugging Face Sharp Transformers
+description: A Unity plugin for using Transformers models in Unity.
+repoUrl: https://github.com/ltmx/sharp-transformers
+parentRepoUrl: https://github.com/huggingface/sharp-transformers
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e023e81-1644-40c3-972d-c1ccd7100bc8_640x360.gif
+topics:
+  - ai
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1728904796305
