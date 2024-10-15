@@ -1,0 +1,18 @@
+name: com.adorkable.eunomia-csharp
+displayName: Eunomia C#
+description: >-
+  The team's go-to utilities for C#, named for the Greek goddess of green
+  pastures, law and legislation
+repoUrl: https://github.com/Adorkable/EunomiaCSharp
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: yoiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1728985507684
