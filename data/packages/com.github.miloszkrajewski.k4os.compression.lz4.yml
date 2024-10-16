@@ -1,0 +1,19 @@
+name: com.github.miloszkrajewski.k4os.compression.lz4
+displayName: K4os.Compression.LZ4
+description: >-
+  This library brings LZ4 to .NET Standard compatible platforms: .NET Core, .NET
+  Framework, Mono, Xamarin, and UWP. Well... theoretically... kind of.
+  Currently, it targets .NET Framework 4.6.2+, .NET Standard 2.0+ and .NET 5.0+.
+repoUrl: https://github.com/iDreamsOfGame/K4os.Compression.LZ4
+parentRepoUrl: https://github.com/MiloszKrajewski/K4os.Compression.LZ4
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1729090215999
