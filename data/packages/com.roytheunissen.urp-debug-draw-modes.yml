@@ -1,0 +1,22 @@
+name: com.roytheunissen.urp-debug-draw-modes
+displayName: URP Debug Draw Modes
+description: >-
+  Adds debug draw modes to let you see gbuffer contents in the scene view like
+  you can in BRP.
+repoUrl: https://github.com/RoyTheunissen/URP-Debug-Draw-Modes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+  - editor-enhancement
+  - profiling
+  - testing
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729283423975
