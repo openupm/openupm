@@ -9,7 +9,7 @@ image: ''
 topics:
   - utilities
 hunter: thestack836
-gitTagPrefix: v0.0.2
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
