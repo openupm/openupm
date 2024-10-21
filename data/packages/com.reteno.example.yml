@@ -1,0 +1,19 @@
+name: com.reteno.example
+displayName: RetenoSDK - Example
+description: >-
+  Make Users Addicted to Your App, turn idle users into habitues with timely and
+  personalized push notifications, in-app, app inbox, email, SMS, and more
+repoUrl: https://github.com/reteno-com/reteno-unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: ValentynRybachuk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:com.reteno.example/README.md
+createdAt: 1729510298536
