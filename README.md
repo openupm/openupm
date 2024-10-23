@@ -19,7 +19,7 @@
   <a href="https://discord.gg/FnUgWEP">
     <img src="https://img.shields.io/discord/662675048884207616.svg" />
   </a>
-  <a href="https://twitter.com/openupmupdate">
+  <a href="https://x.com/openupmupdate">
     <img alt="X Follow" src="https://img.shields.io/twitter/follow/openupmupdate?style=social">
   </a>
 </p>
