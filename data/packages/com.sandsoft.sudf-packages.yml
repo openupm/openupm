@@ -1,0 +1,16 @@
+name: com.sandsoft.sudf-packages
+displayName: SUDF Package container
+description: Sub project for alocate the git project inside sudf
+repoUrl: https://github.com/antoniosandsoft/sudf-packages
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - services
+hunter: antoniosandsoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729680196621
