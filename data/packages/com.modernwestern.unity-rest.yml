@@ -1,0 +1,17 @@
+name: com.modernwestern.unity-rest
+displayName: UnityREST
+description: REST Helper classes to requesting APIs
+repoUrl: https://github.com/ModernWestern/unity.modernwestern.unity-rest-package
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+  - utilities
+hunter: ModernWestern
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729799255856
