@@ -1,10 +1,8 @@
 name: com.denis535.clean-architecture-game-framework
 displayName: Clean Architecture Game Framework
 description: >-
-  This package provides you with the architecture game framework that helping
-  you to develop your project following the best practices (like Clean
-  Architecture and Uber Ribs).
-repoUrl: https://github.com/Denis535/CleanArchitectureGameFramework
+  This package provides you with a framework that helps you develop your projects following best practices.
+repoUrl: https://github.com/Denis535/UnityFramework
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
@@ -15,7 +13,7 @@ topics:
   - gui
   - utilities
 hunter: Denis535
-gitTagPrefix: ''
+gitTagPrefix: 'com.denis535.clean-architecture-game-framework/'
 gitTagIgnore: ''
 minVersion: ''
 readme: master:Packages/com.denis535.clean-architecture-game-framework/Readme.md
