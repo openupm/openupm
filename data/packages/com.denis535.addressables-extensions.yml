@@ -1,9 +1,8 @@
 name: com.denis535.addressables-extensions
 displayName: Addressables Extensions
 description: >-
-  This package is addition to Addressables giving you the ability to manage your
-  assets in more convenient way.
-repoUrl: https://github.com/Denis535/CleanArchitectureGameFramework
+  This package is an addition to Addressables and gives you the ability to manage your assets in a more convenient way.
+repoUrl: https://github.com/Denis535/UnityFramework
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +11,7 @@ topics:
   - asset-management
   - utilities
 hunter: Denis535
-gitTagPrefix: ''
+gitTagPrefix: 'com.denis535.addressables-extensions/'
 gitTagIgnore: ''
 minVersion: ''
 readme: master:Packages/com.denis535.addressables-extensions/Readme.md
