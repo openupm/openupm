@@ -1,0 +1,17 @@
+name: com.thanhdv.addressablesimpl
+displayName: Addressables Implemented
+description: Implement Addressable to load assets. Implement AssetBundle in the future.
+repoUrl: https://github.com/ThanhDang143/UnityStarterKit
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - asset-management
+  - utilities
+hunter: ThanhDang143
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Addressable:Assets/PluginPackages/AddressableImpl/README.md
+createdAt: 1729769770305
