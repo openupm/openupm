@@ -1,14 +1,13 @@
 name: com.denis535.colorful-project-window
 displayName: Colorful Project Window
 description: This package makes the project window much more convenient.
-repoUrl: https://github.com/Denis535/CleanArchitectureGameFramework
+repoUrl: https://github.com/Denis535/UnityFramework
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
 image: >-
   https://raw.githubusercontent.com/Denis535/denis535.github.io/main/Icon.png
 topics:
-  - asset-management
   - editor-enhancement
   - utilities
 hunter: Denis535
