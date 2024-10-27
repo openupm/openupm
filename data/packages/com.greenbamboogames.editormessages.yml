@@ -1,0 +1,19 @@
+name: com.greenbamboogames.editormessages
+displayName: Editor Messages!
+description: Show custom messages in Unity Editor.
+repoUrl: https://github.com/SolarianZ/UnityEditorMessages
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730035978039
