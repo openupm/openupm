@@ -1,0 +1,17 @@
+name: com.ikpil.unirecast
+displayName: UniRecast
+description: navigation mesh toolset for Unity3D using DotRecast
+repoUrl: https://github.com/ikpil/UniRecast
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - terrain
+hunter: ikpil
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730122929561
