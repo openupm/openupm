@@ -1,0 +1,19 @@
+name: com.rmc.rmc-umvcs
+displayName: RMC UMVCS
+description: >-
+  UMVCS (Unity Model View Controller Service) library for Unity Development by
+  Rivello Multimedia Consulting
+repoUrl: https://github.com/SamuelAsherRivello/rmc-umvcs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1730153000818
