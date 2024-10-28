@@ -1,0 +1,17 @@
+name: com.rmc.rmc-web3
+displayName: RMC Web3
+description: Web3 library for Unity Development by Rivello Multimedia Consulting
+repoUrl: https://github.com/SamuelAsherRivello/rmc-web3
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730153636374
