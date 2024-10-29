@@ -15,7 +15,7 @@ image: >-
 topics:
   - utilities
 hunter: laicasaane
-gitTagPrefix: ''
+gitTagPrefix: 'upm/'
 gitTagIgnore: ''
 minVersion: ''
 readme: upm:README.md
