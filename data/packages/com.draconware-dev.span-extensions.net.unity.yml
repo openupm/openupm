@@ -16,7 +16,7 @@ topics:
   - utilities
 hunter: laicasaane
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^v'
 minVersion: ''
 readme: upm:README.md
 createdAt: 1716210576681
