@@ -1,0 +1,23 @@
+name: com.sidequest.banter
+displayName: Banter SDK
+description: >-
+  This Module contains the Banter SDK used for building spaces in the
+  bantaverse.
+repoUrl: https://github.com/SideQuestVR/BanterSDK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - code-generation
+  - frameworks
+  - integration
+  - services
+  - utilities
+hunter: mikeskydev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.2.0
+readme: main:README.md
+createdAt: 1730729605288
