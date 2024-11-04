@@ -1,0 +1,22 @@
+name: com.aceland.library
+displayName: AceLand Library
+description: >-
+  AceLand Library is utilities, editor extension, unity low-level tools, c# and
+  unity implements.  Most AceLand Packages is relying this package to work.
+repoUrl: https://github.com/parsue/com.aceland.library
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - frameworks
+  - services
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1730724709470
