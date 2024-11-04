@@ -1,0 +1,17 @@
+name: com.aceland.input
+displayName: AceLand Input
+description: AceLand Input is a Unity Input System Implement package.
+repoUrl: https://github.com/parsue/com.aceland.input
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - input-management
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1730735570143
