@@ -1,0 +1,22 @@
+name: com.aceland.playerloophack
+displayName: AceLand Player Loop Hack
+description: >-
+  AceLand Player Loop Hack is a tool that supporting a easy and safe method to
+  inject and remove system to Unity low-level Player Loop.  Most AceLand Package
+  is relying on this package.
+repoUrl: https://github.com/parsue/com.aceland.playerloophack
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - services
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1730733492016
