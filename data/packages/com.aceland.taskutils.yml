@@ -1,0 +1,16 @@
+name: com.aceland.taskutils
+displayName: AceLand Task Utils
+description: AceLand Task Utils is a c# Task implement package.
+repoUrl: https://github.com/parsue/com.aceland.taskutils
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730735144736
