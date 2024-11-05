@@ -1,0 +1,20 @@
+name: at.ac.fhstp.apply-material-all
+displayName: ApplyMaterialAll
+description: >-
+  A Unity editor utility for applying a material to all GameObjects in a
+  hierarchy
+repoUrl: https://github.com/fhstp/unity-apply-material-all
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: ComradeVanti
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1730819102823
