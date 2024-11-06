@@ -1,0 +1,20 @@
+name: com.kind-men.uxios
+displayName: Uxios
+description: >-
+  A Unity-native, Axios-inspired HTTP client for streamlined, typed, and
+  extensible networking across platforms.
+repoUrl: https://github.com/kind-men/uxios
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://kind-men.github.io/uxios/images/logo.png
+topics:
+  - debugging-and-logging
+  - network
+  - terrain
+hunter: mvriel
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730928983392
