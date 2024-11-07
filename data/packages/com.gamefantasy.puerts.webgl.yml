@@ -1,0 +1,18 @@
+name: com.gamefantasy.puerts.webgl
+displayName: Puerts WebGL Support
+description: >-
+  Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment
+  and get speed up by JIT.
+repoUrl: https://github.com/jtllab/puerts-unity-upm
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BSD 3-Clause
+image: ''
+topics:
+  - code-generation
+hunter: liasece
+gitTagPrefix: upm/webgl/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:webgl/upm/readme.md
+createdAt: 1730982814691
