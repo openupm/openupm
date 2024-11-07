@@ -1,0 +1,16 @@
+name: com.strodio.pwa-install-manager
+displayName: PWA Install Manager
+description: PWA Install Manager for Unity WebGL
+repoUrl: https://github.com/StromKuo/PWA-Install-Manager
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: StromKuo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730950151015
