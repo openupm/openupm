@@ -1,9 +1,9 @@
 name: com.cleversolutions.ads.unity
 displayName: CleverAdsSolutions
 description: >-
-  The CAS.AI Unity package allows you to easily monetize your Unity apps
-  for iOS and Android using native iOS and Android Mobile SDKs via a
-  unified C# API in Unity.
+  The CAS.AI Unity plugin allows you to easily monetize your apps for 
+  iOS and Android using lot of Ads SDKs in mediation via a unified C# 
+  API in Unity.
 repoUrl: https://github.com/cleveradssolutions/CAS-Unity
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
@@ -16,7 +16,7 @@ topics:
   - integration
 hunter: cleveradssolutions
 gitTagPrefix: ''
-gitTagIgnore: ''
-minVersion: ''
+gitTagIgnore: '-'
+minVersion: '3.1.9'
 readme: master:README.md
 createdAt: 1720077013088
