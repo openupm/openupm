@@ -1,0 +1,16 @@
+name: com.nix.package
+displayName: NIX Package
+description: NIX Package
+repoUrl: https://github.com/tien0702/com.nix.package
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: tien0702
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1731201574822
