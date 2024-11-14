@@ -1,8 +1,7 @@
 name: com.jasonxudeveloper.nino
 displayName: Nino
 description: >-
-  Definite useful and high performance serialization library for any C#
-  projects, including but not limited to .NET Core apps or Unity/Godot games.
+  Ultimate high-performance binary serialization library for C#.
 repoUrl: https://github.com/JasonXuDeveloper/Nino
 parentRepoUrl: null
 licenseSpdxId: MIT
