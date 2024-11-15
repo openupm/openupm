@@ -1,0 +1,18 @@
+name: com.jonagill.conditionalfield
+displayName: Conditional Field
+description: >-
+  A custom attribute to show and hide serialized fields based on other fields
+  and properties.
+repoUrl: https://github.com/jonagill/ConditionalField
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+image: ''
+topics:
+  - editor-enhancement
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1731642610870
