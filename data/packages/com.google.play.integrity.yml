@@ -1,18 +1,21 @@
 name: com.google.play.integrity
 displayName: Google Play Integrity
-description: Provides Play Integrity API support for Unity runtime
-repoUrl: https://github.com/google/play-unity-plugins
+description: >-
+  The Play Integrity API helps protect your apps and games from potentially 
+  risky and fraudulent interactions, allowing you to respond with appropriate
+  actions to reduce attacks and abuse such as fraud, cheating, and unauthorized access.
+repoUrl: 'https://github.com/google/play-integrity-unity'
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: LICENSE.md
-image: https://avatars.githubusercontent.com/u/1342004
+image: 'https://developer.android.com/static/images/logos/google-play.svg'
 topics:
   - network
   - services
   - utilities
-hunter: ltmx
+hunter: google
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:README.md
+readme: 'main:README.md'
 createdAt: 1708682449646
