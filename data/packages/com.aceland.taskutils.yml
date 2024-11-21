@@ -11,6 +11,6 @@ topics:
 hunter: parsue
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 1.0.2
 readme: main:README.md
 createdAt: 1730735144736
