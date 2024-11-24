@@ -1,5 +1,5 @@
 name: com.lazysquirrellabs.minmaxrangeattribute
-displayName: Min/max range attribute
+displayName: Min/max Range Attribute
 description: >-
   A bounded (i.e., with a minimum and maximum) range attribute for Unity's
   Vector2 and Vector2Int fields.
@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://matheusamazonas.net/min_max_range_attribute_site/assets/images/header.gif
+  https://minmax.lslabs.dev/assets/images/header.gif
 topics:
   - editor-enhancement
   - utilities
