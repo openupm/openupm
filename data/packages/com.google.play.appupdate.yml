@@ -1,9 +1,9 @@
 name: com.google.play.appupdate
 displayName: Google Play In-app Updates
 description: >-
-  Play In-App Update lets you keep your app up-to-date on your users’ 
-  devices and enables them to try new features, as well as benefit from
-  performance improvements and bug fixes.
+  Play In-App Updates lets you prompt users to update to the latest version
+  of your game, when a new version is available, without the user needing to
+  visit the Play Store.
 repoUrl: 'https://github.com/google/play-in-app-updates-unity'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0

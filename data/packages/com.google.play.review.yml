@@ -1,8 +1,8 @@
 name: com.google.play.review
 displayName: Google Play In-app Review
 description: >-
-  The Google Play In-App Review package lets you prompt users to submit Play
-  Store ratings and reviews without the inconvenience of leaving your game.
+  Play In-App Reviews lets you prompt users to submit Play Store ratings and
+  reviews without leaving your game.
 repoUrl: 'https://github.com/google/play-in-app-reviews-unity'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0

@@ -1,11 +1,8 @@
 name: com.google.play.common
 displayName: Google Play Common
 description: >-
-  The Google Play Common package provides common files required by some Google
-  Play packages, such as Play Instant.
-
-
-  This package doesn't provide any features when installed separately.
+  The Play Common plugin provides common files required by some other Play plugins,
+  such as Play Asset Delivery, Play Integrity, Play In-app Reviews, and Play In-app Updates.
 repoUrl: 'https://github.com/google/play-common-unity'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
