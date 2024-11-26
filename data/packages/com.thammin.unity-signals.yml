@@ -1,0 +1,16 @@
+name: com.thammin.unity-signals
+displayName: Unity Signals
+description: A minimal state reactivity library for Unity
+repoUrl: https://github.com/thammin/unity-signals
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thammin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1732616949111
