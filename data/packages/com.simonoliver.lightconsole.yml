@@ -1,0 +1,17 @@
+name: com.simonoliver.lightconsole
+displayName: Light Console
+description: Lightweight UIElements based console
+repoUrl: https://github.com/simonoliver/LightConsole
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/simonoliver/LightConsole/main/Docs/LightPanelExample.png
+topics:
+  - debugging-and-logging
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1732812586944
