@@ -1,16 +1,17 @@
 name: com.ltmx.package-manager.tools
 displayName: Unity Package Manager Tools
-description: Enhancements for Unity's Package Manager
-repoUrl: https://github.com/ltmx/Unity.PackageManagerTools
+description: Enhancements for Unitys Package Manager
+repoUrl: 'https://github.com/ltmx/Unity.PackageManagerTools'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LICENSE.md
+licenseSpdxId: MIT
+licenseName: MIT License
 image: 'https://github.com/ltmx/Unity.PackageManagerTools/assets/47640688/3677b97d-2bea-44ff-8bb6-7aee4f27ada2'
 topics:
   - editor-enhancement
   - network
   - package-management
   - utilities
+  - scoped registry
 hunter: ltmx
 gitTagPrefix: ''
 gitTagIgnore: ''
