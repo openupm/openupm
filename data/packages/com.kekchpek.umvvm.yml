@@ -10,7 +10,7 @@ topics:
   - utilities
 hunter: kekchpek
 gitTagPrefix: ''
-gitTagIgnore: 'v[0-9]*\.[0-9]*\.[0-9]*-(raw|dev)'
+gitTagIgnore: '[0-9]*\.[0-9]*\.[0-9]*-(raw|dev)'
 minVersion: ''
 readme: master:README.md
 createdAt: 1724253284770
