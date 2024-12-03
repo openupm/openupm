@@ -1,0 +1,16 @@
+name: com.annulusgames.zero-messenger.vcontainer
+displayName: ZeroMessenger.VContainer
+description: VContainer extensions for ZeroMessenger
+repoUrl: https://github.com/AnnulusGames/ZeroMessenger
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733233797053
