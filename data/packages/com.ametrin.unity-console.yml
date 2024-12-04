@@ -1,0 +1,17 @@
+name: com.ametrin.unity-console
+displayName: Unity Runtime Console
+description: Runtime Console for Unity written by Barion
+repoUrl: https://github.com/BarionLP/UnityConsole
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: BarionLP
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733303101900
