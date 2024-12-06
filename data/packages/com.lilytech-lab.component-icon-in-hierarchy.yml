@@ -1,0 +1,17 @@
+name: com.lilytech-lab.component-icon-in-hierarchy
+displayName: ComponentIconInHierarchy
+description: "An editor application that displays component icons to the hierarchy window.\n\r\nAlso, this app tells a game object has a missing component or a component has a missing field by following means:\r\n- displaying the warning icon to the hierarchy window \r\n- putting error messages on the console window"
+repoUrl: https://github.com/lilytech-lab/ComponentIconInHierarchy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/15377854/392755508-9d4712e0-a645-41cb-9258-5fd4f07e62ef.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM0ODE5MTksIm5iZiI6MTczMzQ4MTYxOSwicGF0aCI6Ii8xNTM3Nzg1NC8zOTI3NTU1MDgtOWQ0NzEyZTAtYTY0NS00MWNiLTkyNTgtNWZkNGYwN2U2MmVmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA2VDEwNDAxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRjODI0NjRiZWYyMGRjNmM1ZjlkN2ZkNTg1NjFkMDM5ZWM4ZTk5M2QwY2ZlNGVmZjE4ZDY0YTlmZmViODczZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.g0-AlzERp-csKZwDimPs0OYBbD59tlD-dTTIbHT2ZbA
+topics:
+  - editor-enhancement
+hunter: masami-sugao
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733482278768
