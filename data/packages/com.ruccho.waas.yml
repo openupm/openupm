@@ -1,0 +1,19 @@
+name: com.ruccho.waas
+displayName: WaaS
+description: >-
+  Stands for WebAssembly as a Script, a language-independent scripting engine
+  for Unity and .NET.
+repoUrl: https://github.com/ruccho/WaaS
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://ruccho.com/images/waas.png
+topics:
+  - code-generation
+  - utilities
+hunter: ruccho
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:WaaS/WaaS/README.md
+createdAt: 1733499541812
