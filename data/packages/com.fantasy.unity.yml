@@ -1,0 +1,20 @@
+name: com.fantasy.unity
+displayName: Fantasy.Unity
+description: Fantasy is a cross platform distributed server framework.
+repoUrl: https://github.com/qq362946/Fantasy.Unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE
+image: ''
+topics:
+  - code-generation
+  - frameworks
+  - network
+  - services
+  - sprite-management
+hunter: qq362946
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733537102767
