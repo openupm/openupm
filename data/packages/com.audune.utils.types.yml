@@ -1,7 +1,7 @@
 name: com.audune.utils.types
 displayName: Serializable Types
-description: Serializable type class for Unity 2022 LTS or higher
-repoUrl: https://github.com/audunegames/serializabletypes
+description: Enables Unity to serialize a reference to a C# type in the editor, made for Unity 2022 LTS or higher.
+repoUrl: https://github.com/audunegames/serializable-types
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
