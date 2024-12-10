@@ -1,0 +1,18 @@
+name: com.engage.rtltmpro
+displayName: RTL Text Mesh Pro
+description: >-
+  This package adds Right-to-left language support to TextMeshPro Unity package.
+  Supports Persian, Arabic and Hebrew.
+repoUrl: https://github.com/engage-xr/RTLTMPro
+parentRepoUrl: https://github.com/hk1ll3r/RTLTMPro
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - localization
+hunter: BenIVRE
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1723627441371

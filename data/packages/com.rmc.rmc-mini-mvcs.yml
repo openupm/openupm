@@ -1,0 +1,19 @@
+name: com.rmc.rmc-mini-mvcs
+displayName: RMC Mini MVCS
+description: >-
+  Mini MVCS (Model View Controller Service) library for Unity Development by
+  Rivello Multimedia Consulting
+repoUrl: https://github.com/SamuelAsherRivello/rmc-mini-mvcs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729979120891

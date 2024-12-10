@@ -1,0 +1,19 @@
+name: com.vikoproductions.fsm_mk2
+displayName: Fsm_Mk2
+description: >-
+  This is a fsm made with the purpose that the states are not monobehaviours and
+  they do not handle the transitions and the Agents do it.
+repoUrl: https://github.com/MateoMonastra/Fsm_Mk2
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: MateoMonastra
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725932741871

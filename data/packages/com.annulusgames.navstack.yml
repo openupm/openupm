@@ -1,0 +1,16 @@
+name: com.annulusgames.navstack
+displayName: NavStack
+description: Asynchronous screen transition/navigation for Unity.
+repoUrl: https://github.com/AnnulusGames/NavStack
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726419625439

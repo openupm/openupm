@@ -1,0 +1,22 @@
+name: com.dav-sea.easy-tab
+displayName: Easy Tab
+description: >-
+  A simple package that allows you to easily implement Tab-key
+  navigation functionality between Selectables. This package is very easy to
+  install and also easy to customize if needed
+repoUrl: https://github.com/dav-sea/EasyTab
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://media.githubusercontent.com/media/dav-sea/EasyTab/c4115f3e1e2c095324e14ca2d48317273fe88e31/Media/tab-key-600x300.png
+topics:
+  - gui
+  - input-management
+  - utilities
+hunter: dav-sea
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'master:Assets/EasyTab/Docs~/README.md'
+createdAt: 1719269700272

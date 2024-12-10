@@ -1,0 +1,17 @@
+name: com.doji.sentencepiece
+displayName: SentencePiece
+description: A Unity package for SentencePiece tokenization
+repoUrl: https://github.com/julienkay/com.doji.sentencepiece
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1723824385325

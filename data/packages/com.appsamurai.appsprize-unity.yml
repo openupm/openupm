@@ -1,0 +1,16 @@
+name: com.appsamurai.appsprize-unity
+displayName: AppsPrizeUnity
+description: Appsprize Playtime SDK
+repoUrl: https://github.com/Netvent/appsprize
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - mobile
+hunter: Netvent
+gitTagPrefix: AppsPrizeUnity-
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1726059598781

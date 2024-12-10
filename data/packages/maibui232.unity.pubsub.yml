@@ -1,0 +1,16 @@
+name: maibui232.unity.pubsub
+displayName: PubSub
+description: Publisher Subscriber Pattern
+repoUrl: https://github.com/maibui232/PubSub
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+hunter: maibui232
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1731828941238

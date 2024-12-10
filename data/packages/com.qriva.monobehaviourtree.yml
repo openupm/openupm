@@ -1,0 +1,19 @@
+name: com.qriva.monobehaviourtree
+displayName: MonoBehaviourTree
+description: Simple event driven behaviour tree based on Unity engine component system.
+repoUrl: https://github.com/Qriva/MonoBehaviourTree
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Qriva/MonoBehaviourTree/master/readme-image.png
+topics:
+  - ai
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: 'upm/'
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1723611928429

@@ -1,0 +1,20 @@
+name: com.zallist.universal-shadergraph-extensions
+displayName: Universal Simple Lit ShaderGraph Target
+description: >-
+  This plugin simply adds a Simple Lit material (SubTarget) to the Universal
+  target for Shader Graph
+repoUrl: >-
+  https://github.com/Zallist/unity.zallist.universal-simple-lit-shadergraph-target
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - particles-and-effects
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.MD
+createdAt: 1720000570003

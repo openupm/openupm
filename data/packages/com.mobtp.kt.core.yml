@@ -1,0 +1,25 @@
+name: com.mobtp.kt.core
+displayName: Kettle Tools Core
+description: >-
+  Tools for scene management, version control, and in-editor documentation for
+  cross-team communication.
+
+
+  Developed for collaboration within Building Virtual Worlds at the
+  Entertainment Technology Center. Ideal for remote teams working on game jams.
+repoUrl: https://github.com/mobiusteapot/KettleTools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/mobiusteapot/KettleTools/dev/Logos/KettleToolsLogo.jpg
+topics:
+  - asset-management
+  - editor-enhancement
+  - version-control
+hunter: mobiusteapot
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: release:README.md
+createdAt: 1723674250327

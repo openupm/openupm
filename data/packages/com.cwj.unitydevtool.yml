@@ -1,0 +1,21 @@
+name: com.cwj.unitydevtool
+displayName: UnityDevTool
+description: >-
+  A comprehensive toolset for Unity developers, enhancing editor capabilities
+  and providing utility functions.
+repoUrl: https://github.com/DevCWJ/cwj.unitydevtool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/DevCWJ/cwj.unitydevtool/blob/main/Runtime/CWJ/UnityDevTool/Icon/CWJ.png
+topics:
+  - code-generation
+  - editor-enhancement
+  - frameworks
+hunter: DevCWJ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733767449985

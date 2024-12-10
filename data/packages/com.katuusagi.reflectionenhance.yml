@@ -1,0 +1,16 @@
+name: com.katuusagi.reflectionenhance
+displayName: ReflectionEnhance
+description: Library for fast Reflection execution.
+repoUrl: https://github.com/Katsuya100/ReflectionEnhance
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver1.0.1:README.md
+createdAt: 1728210466903

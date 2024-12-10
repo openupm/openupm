@@ -1,0 +1,21 @@
+name: com.hryooba.tuio
+displayName: HRYooba.TUIO
+description: |-
+  Unity HRYooba Library
+  TUIO
+repoUrl: 'https://github.com/HRYooba/HRYoobaUnity.TUIO'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+hunter: HRYooba
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '3.0.0'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1655542659266

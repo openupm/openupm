@@ -1,0 +1,20 @@
+name: games.javier.upm.propertyrefs
+displayName: Property Refs
+description: >-
+  PropertyRef allows you to create shortcuts to the values of a prefab and
+  modify them.
+repoUrl: https://github.com/javier-games/upm-propertyrefs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://img.itch.zone/aW1nLzE4NDkxMTk3LnBuZw==/x150/4kEF8z.png
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: javier-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730971497942

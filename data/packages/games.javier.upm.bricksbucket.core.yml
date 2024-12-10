@@ -1,0 +1,17 @@
+name: games.javier.upm.bricksbucket.core
+displayName: Bricks Bucket Core Package
+description: Bucket full of bricks to build something great.
+repoUrl: https://github.com/javier-games/upm-bricks-bucket
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://img.itch.zone/aW1nLzE4MjI0NjQ5LnBuZw==/x150/BI%2FTLn.png
+topics:
+  - frameworks
+  - utilities
+hunter: javier-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729273862292

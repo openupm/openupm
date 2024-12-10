@@ -1,0 +1,17 @@
+name: games.javier.upm.bricksbucket.web.zeplin
+displayName: Zeplin for Unity
+description: Bucket to interact with the Zeplin API.
+repoUrl: https://github.com/javier-games/upm-zeplin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://img.itch.zone/aW1nLzE4MjI0NjQ5LnBuZw==/x150/BI%2FTLn.png
+topics:
+  - frameworks
+  - gui
+hunter: javier-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730096175024

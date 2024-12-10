@@ -1,0 +1,16 @@
+name: jp.nobnak.osc
+displayName: OSC
+description: A minimal OSC receiver implementation for Unity.
+repoUrl: https://github.com/nobnak/unity-osc
+parentRepoUrl: https://github.com/keijiro/unity-osc
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1732033649479

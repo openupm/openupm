@@ -56,7 +56,7 @@ jobs:
     if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
     strategy:
       matrix:
-        target_host: [HOST_UPM_API, HOST_CN]
+        target_host: [HOST_UPM_API]
     steps:
     - name: deploy
       uses: JimCronqvist/action-ssh@master
@@ -65,9 +65,7 @@ jobs:
         hosts: ${{ secrets.USER }}@${{ secrets[matrix.target_host] }}
         command: |
             cd /home/openupm/openupm
-            [ -f /usr/bin/pgit ] && GIT_BIN=pgit || GIT_BIN=git
-            echo "GIT_BIN: $GIT_BIN"
-            $GIT_BIN pull -q
+            git pull -q
 
   deploy-upm-build:
     runs-on: ubuntu-latest

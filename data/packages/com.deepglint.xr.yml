@@ -1,0 +1,20 @@
+name: com.deepglint.xr
+displayName: DGXR Integration SDK
+description: Provides Deepglint XR support
+repoUrl: https://github.com/deepglint/dgxr-integration-sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - ar-and-vr
+  - frameworks
+  - input-management
+  - utilities
+hunter: ibalpha
+gitTagPrefix: 'upm/'
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1721901520424

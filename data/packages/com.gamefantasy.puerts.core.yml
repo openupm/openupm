@@ -1,0 +1,16 @@
+name: com.gamefantasy.puerts.core
+displayName: Puerts
+description: "Write your game with TypeScript in UE4 or Unity. Puerts can be pronounced as pu-erh TSï¼\x88æ\x99®æ´±TSï¼\x89"
+repoUrl: https://github.com/jtllab/puerts-unity-upm
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BSD 3-Clause
+image: ''
+topics:
+  - frameworks
+hunter: liasece
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1730979881140

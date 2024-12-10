@@ -1,0 +1,17 @@
+name: com.mackysoft.mastertools
+displayName: MasterTools
+description: Master data importer for Unity.
+repoUrl: https://github.com/mackysoft/MasterTools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+hunter: mackysoft
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1723739007668

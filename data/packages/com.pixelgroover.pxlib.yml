@@ -1,0 +1,18 @@
+name: com.pixelgroover.pxlib
+displayName: PxLib
+description: Utilities and tools for making games faster
+repoUrl: https://github.com/timpopsuperstar/PxLib
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - animation
+  - utilities
+hunter: dsmiller95
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:com.pixelgroover.pxlib/README.md
+createdAt: 1724602194199

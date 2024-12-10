@@ -1,9 +1,7 @@
 name: com.mygamedevtools.scene-loader
-displayName: Scene Loader
+displayName: Advanced Scene Manager
 description: >-
-  A package that standardizes the scene loading process among many different
-  possibilities, including support for Coroutines, C# Tasks, UniTask and
-  Addressables.
+  Enhance your scene loading experience in Unity.
 repoUrl: 'https://github.com/mygamedevtools/scene-loader'
 parentRepoUrl: null
 licenseSpdxId: MIT

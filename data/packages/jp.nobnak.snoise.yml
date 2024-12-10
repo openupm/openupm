@@ -1,8 +1,8 @@
 name: jp.nobnak.snoise
-displayName: SNoise
-description: Procedural Noise CGINCs
-repoUrl: 'https://github.com/nobnak/HLSLNoise'
-parentRepoUrl: 'https://github.com/ashima/webgl-noise'
+displayName: Noise for Shader Graph (HLSL)
+description: Noise for Shader Graph (HLSL)
+repoUrl: 'https://github.com/nobnak/unity-noise'
+parentRepoUrl: 'https://github.com/stegu/webgl-noise'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

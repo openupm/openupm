@@ -1,0 +1,18 @@
+name: com.rmc.rmc-ai
+displayName: RMC AI
+description: RMC Artificial Intelligence (AI) library
+repoUrl: https://github.com/SamuelAsherRivello/rmc-ai
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730153443756

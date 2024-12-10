@@ -1,0 +1,16 @@
+name: com.katuusagi.ilpostprocessorcommon
+displayName: ILPostProcessorCommon
+description: Useful features for using ILPostProcessor.
+repoUrl: https://github.com/Katsuya100/ILPostProcessorCommon
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver2.3.0:README.md
+createdAt: 1728209671639

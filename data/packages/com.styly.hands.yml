@@ -1,0 +1,17 @@
+name: com.styly.hands
+displayName: STYLY Hands
+description: This pacakge provices utilities for hand tracking.
+repoUrl: https://github.com/styly-dev/STYLY-Hands-Unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - ar-and-vr
+  - utilities
+hunter: styly-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725288431203

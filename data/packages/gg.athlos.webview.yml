@@ -1,0 +1,16 @@
+name: gg.athlos.webview
+displayName: Athlos WebView
+description: Present Athlos in your game via an embdedded webview.
+repoUrl: https://github.com/GritstoneGames/athlos-webview
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: https://gritstone.games/tech/athlos/athlos-webview_600x300.png
+topics:
+  - services
+hunter: GritstoneGames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Documentation~/README.md
+createdAt: 1731934655334

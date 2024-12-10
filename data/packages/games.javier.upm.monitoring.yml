@@ -1,0 +1,17 @@
+name: games.javier.upm.monitoring
+displayName: Monitoring for Unity
+description: This package contains tools for monitoring.
+repoUrl: https://github.com/javier-games/upm-monitoring
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://img.itch.zone/aW1nLzE4NDkwODM1LnBuZw==/x150/MxI4D4.png
+topics:
+  - profiling
+  - utilities
+hunter: javier-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730971302209

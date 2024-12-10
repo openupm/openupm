@@ -1,0 +1,21 @@
+name: com.glitchedcatstudios.shop-system
+displayName: GCS Shop System
+description: >-
+  A simple cart system for your Gorilla Tag Fan Game, made by Glitched Cat
+  Studios!
+repoUrl: https://github.com/Glitched-Cat-Studios/GCS-Shop-System
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: None
+image: >-
+  https://cdn.discordapp.com/attachments/1232075332010508330/1286078420131774554/GCS_Banner.png?ex=66ec995d&is=66eb47dd&hm=8cf3c9fcd47d201a09bdad3b769c76c6f4e3bab9061210de3b57a51af124e621&
+topics:
+  - ar-and-vr
+  - integration
+  - utilities
+hunter: THeTechWiz5305
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726695471677

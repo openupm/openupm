@@ -1,0 +1,17 @@
+name: com.motphys.rigidbody.rawapi
+displayName: Motphys Rigidbody Raw API
+description: Low level data structures and API for the Motphys Rigidbody project.
+repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: SEE LICENSE IN `LICENSE` FILE.
+image: https://www.motphys.com/img/logo.868c1b7b.svg
+topics:
+  - physics
+hunter: Motphys
+gitTagPrefix: com.motphys.rigidbody
+gitTagIgnore: ''
+minVersion: ''
+readme: >-
+  main:MotphysRigidbodyUnitySdk-2021.3-URP/Packages/com.motphys.rigidbody.rawapi/README.md
+createdAt: 1729248729951

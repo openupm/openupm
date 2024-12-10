@@ -1,0 +1,18 @@
+name: com.rmc.rmc-audio
+displayName: RMC Audio
+description: Audio library for Unity Development by Rivello Multimedia Consulting
+repoUrl: https://github.com/SamuelAsherRivello/rmc-audio
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - frameworks
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730153198692

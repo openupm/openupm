@@ -1,0 +1,17 @@
+name: com.katuusagi.constexpressionforunity
+displayName: ConstExpressionForUnity
+description: Library for compile-time function execution in Unity.
+repoUrl: https://github.com/Katsuya100/ConstExpressionForUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: Katsuya100
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: ver3.2.0:README.md
+createdAt: 1728210413511

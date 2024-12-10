@@ -1,0 +1,21 @@
+name: com.cherrydev.awesomeattributes
+displayName: AwesomeAttributes
+description: >-
+  Unity asset designed to speed up and improve your development process. Adds a
+  large number of attributes with which you can make your inspector more
+  beautiful and convenient.
+repoUrl: https://github.com/OlegVishnivetsky/awesome-attributes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/b672f260-273d-4fd7-a259-dfffbb239ed6
+topics:
+  - 2d
+  - editor-enhancement
+hunter: OlegVishnivetsky
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1723109132936

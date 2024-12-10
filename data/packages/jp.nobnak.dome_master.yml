@@ -1,0 +1,19 @@
+name: jp.nobnak.dome_master
+displayName: Dome Master
+description: ''
+repoUrl: https://github.com/nobnak/DomeMaster
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+  - frameworks
+  - integration
+  - utilities
+hunter: nobnak/DomeMaster
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1722194553178

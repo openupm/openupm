@@ -1,0 +1,16 @@
+name: com.homemade.unitask
+displayName: com.homemade.unitask
+description: Unitask package
+repoUrl: https://github.com/hungpt17102k/com.homemade.unitask
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1719033123906

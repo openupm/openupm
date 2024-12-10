@@ -1,0 +1,19 @@
+name: com.thenathannator.hidrogen
+displayName: HIDrogen
+description: >-
+  An add-on for the Unity InputSystem package that provides additional input
+  backends, including proper HID support on Linux, and raw Xbox One controller
+  support via GameInput on Windows.
+repoUrl: https://github.com/TheNathannator/HIDrogen
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - input-management
+hunter: TheNathannator
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.thenathannator.hidrogen/README.md
+createdAt: 1719732063984

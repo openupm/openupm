@@ -1,0 +1,16 @@
+name: com.stack.all-in-one
+displayName: All In One Toolkit
+description: All in one toolkit for Unity game development
+repoUrl: https://github.com/thestack836/all-in-one
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thestack836
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1729240879359

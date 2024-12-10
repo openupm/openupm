@@ -1,0 +1,16 @@
+name: com.jonagill.unitycollections
+displayName: Unity Collections
+description: A library of data types and collections for Unity projects
+repoUrl: https://github.com/jonagill/UnityCollections
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+image: ''
+topics:
+  - data-management
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1727739375293

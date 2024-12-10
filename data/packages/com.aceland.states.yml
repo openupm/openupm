@@ -1,0 +1,16 @@
+name: com.aceland.states
+displayName: AceLand States
+description: AceLand States is state machine framework designed for Unity.
+repoUrl: https://github.com/parsue/com.aceland.states
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1730734576860

@@ -1,0 +1,16 @@
+name: com.gilzoide.webgl-emscripten-settings
+displayName: WebGL Emscripten settings
+description: Adds PlayerSettings.WebGL.emscriptenArgs to the Project Settings UI
+repoUrl: https://github.com/gilzoide/unity-webgl-emscripten-settings
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - editor-enhancement
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725232558149

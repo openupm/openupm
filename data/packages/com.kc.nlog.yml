@@ -1,0 +1,16 @@
+name: com.kc.nlog
+displayName: KC.NLog
+description: ''
+repoUrl: https://github.com/wangrongTXDY/com.kc.nlog
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: wangrongTXDY
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1728816325886

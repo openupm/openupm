@@ -15,5 +15,5 @@ hunter: BellringerQuinn
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:Assets/README.md
+readme: master:Packages/Sequence-Unity/README.md
 createdAt: 1717531841336

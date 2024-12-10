@@ -1,0 +1,16 @@
+name: com.jonagill.unityinternalaccess
+displayName: Unity Internal Access
+description: Helpers that expose access to some internal UnityEngine & UnityEditor APIs.
+repoUrl: https://github.com/jonagill/UnityInternalAccess
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+image: ''
+topics:
+  - utilities
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1727918060388

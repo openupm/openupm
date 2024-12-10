@@ -1,0 +1,16 @@
+name: com.reown.sign
+displayName: Reown.Sign
+description: ''
+repoUrl: https://github.com/reown-com/reown-dotnet
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+hunter: skibitsky
+gitTagPrefix: com.reown.sign/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726560832137

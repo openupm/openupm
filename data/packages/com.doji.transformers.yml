@@ -7,7 +7,8 @@ repoUrl: https://github.com/julienkay/com.doji.transformers
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/735426910/c3ac967a-2039-45a9-89de-a5807c0fa83a
 topics:
   - ai
   - utilities

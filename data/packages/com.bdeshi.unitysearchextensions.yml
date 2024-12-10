@@ -1,0 +1,16 @@
+name: com.bdeshi.unitysearchextensions
+displayName: Bdeshi-dev's unity search extensions
+description: Extensions to unity search package for quick navigation in the editor
+repoUrl: https://github.com/BDeshiDev/UnitySearchExtension
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: BDeshiDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1721294958719

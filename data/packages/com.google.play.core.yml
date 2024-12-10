@@ -1,24 +1,22 @@
 name: com.google.play.core
 displayName: Google Play Core
 description: >-
-  The Google Play Core package provides the Play Core Library required by some
-  Google Play packages, such as Play Asset Delivery.
-
-
-  This package doesn't provide any features when installed separately.
-repoUrl: 'https://github.com/google/play-unity-plugins'
+  The Play Core plugin provides the Play Core Library required by some other
+  Play plugins, such as Play Asset Delivery, Play Integrity, Play In-app Reviews,
+  and Play In-app Updates.
+repoUrl: 'https://github.com/google/play-core-unity'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 topics:
   - integration
   - services
-hunter: JesseTG
+hunter: google
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: https://developer.android.com/static/images/logos/google-play.svg
-readme: 'master:README.md'
+image: 'https://developer.android.com/static/images/logos/google-play.svg'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

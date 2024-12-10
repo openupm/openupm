@@ -1,0 +1,17 @@
+name: com.aio.runner
+displayName: AIO Unity Runner
+description: A unity package that provides a simple and efficient timer system for Unity.
+repoUrl: https://github.com/AIO-GAME/Unity.Runner
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - parallelism-and-concurrency
+hunter: AIO-GAME
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1718325419630

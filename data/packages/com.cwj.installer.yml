@@ -1,0 +1,16 @@
+name: com.cwj.installer
+displayName: CWJ Library Installer
+description: CWJ's personal common library installer
+repoUrl: https://github.com/DevCWJ/cwj.installer
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - editor-enhancement
+hunter: DevCWJ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1733768032878

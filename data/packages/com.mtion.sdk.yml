@@ -1,0 +1,17 @@
+name: com.mtion.sdk
+displayName: Mtion SDK
+description: Tools to create assets and clubhouses for mtion studio.
+repoUrl: https://github.com/mtion-tv/MtionSDK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://lh3.googleusercontent.com/d/15JjdMEvFyNuQl6w3_Qecv690X_4hiBsU
+topics:
+  - frameworks
+  - services
+hunter: mtion-tv
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725990579301

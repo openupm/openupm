@@ -1,0 +1,18 @@
+name: com.greenbamboogames.builtinuiresbrowser
+displayName: Built-in UI Resources Browser!
+description: Browser built-in icons, StyleSheets and VisualTreeAssets in Unity Editor.
+repoUrl: https://github.com/SolarianZ/UnityBuiltinUIResBrowser
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1728828258386

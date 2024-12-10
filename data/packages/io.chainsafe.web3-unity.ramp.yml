@@ -1,0 +1,19 @@
+name: io.chainsafe.web3-unity.ramp
+displayName: web3.unity SDK Ramp
+description: >-
+  This package includes the integration of Ramp's ramp service, which you can
+  use with our Gaming SDK.
+repoUrl: https://github.com/ChainSafe/web3.unity
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
+image: ''
+topics:
+  - integration
+  - services
+hunter: kantagara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720421397102

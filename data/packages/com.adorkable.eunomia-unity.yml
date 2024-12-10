@@ -1,0 +1,18 @@
+name: com.adorkable.eunomia-unity
+displayName: Eunomia Unity
+description: Eunomia general utility library for Unity
+repoUrl: https://github.com/Adorkable/EunomiaUnity
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - gui
+  - utilities
+  - video
+hunter: yoiang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1728985767853

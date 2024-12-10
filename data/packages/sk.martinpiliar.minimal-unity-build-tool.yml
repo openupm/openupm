@@ -1,0 +1,18 @@
+name: sk.martinpiliar.minimal-unity-build-tool
+displayName: Minimal Unity Build Tool
+description: >-
+  Super quick way to build your prototypes into different platforms without the
+  need to swap between them.
+repoUrl: https://github.com/martin-piliar/minimal-unity-build-tool
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: martin-piliar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1721969755219

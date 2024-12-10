@@ -1,0 +1,23 @@
+name: com.google.ads.mobile.mediation.applovin
+displayName: Google Mobile Ads AppLovin Mediation for Unity
+description: >-
+  The Google Mobile Ads mediation plugin for AppLovin package allows you to load
+  and display ads from the AppLovin ad network using mediation, for iOS and
+  Android using Google's native iOS and Android Mobile SDKs via a unified C# API
+  in Unity.
+repoUrl: https://github.com/googleads/googleads-mobile-unity-mediation
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://lh3.googleusercontent.com/D71NOtwLFHvG8WfOO2fmSUTmbhT6ezmC0--7Si2A1BDjTSVcp6fJgAa4H-aVz-sZ2a7tcoXc7f_HBGq27lctq7mrqaOJD7tcfR_lOQ=w770-h734-p-nu-pa
+topics:
+  - integration
+  - mobile
+  - services
+hunter: googleads
+gitTagPrefix: AppLovin/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:AppLovin/README.md
+createdAt: 1722557720456

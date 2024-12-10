@@ -1,0 +1,19 @@
+name: com.santutu.linqtogameobject
+displayName: LINQ To GameObject For Unity
+description: >-
+  LINQ to GameObject is GameObject extensions for Unity that allows traverse
+  hierarchy and append GameObject. The design aims both to get the power of LINQ
+  and performance of iteration.
+repoUrl: https://github.com/santutu/LINQ-to-GameObject-for-Unity
+parentRepoUrl: https://github.com/H-man/LINQ-to-GameObject-for-Unity
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: santutu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1733294084921

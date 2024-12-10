@@ -1,0 +1,19 @@
+name: com.phrase.plugin
+displayName: Phrase Localization Plugin
+description: >-
+  This package provides synchronization with Phrase Strings localization
+  service.
+repoUrl: https://github.com/phrase/unity-plugin
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+image: 'https://raw.githubusercontent.com/phrase/unity-plugin/refs/heads/main/docs/cover.png'
+topics:
+  - localization
+  - utilities
+hunter: jablan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1727699388605

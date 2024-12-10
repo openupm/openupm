@@ -1,0 +1,17 @@
+name: com.lr.jsonui
+displayName: 'lr jsonui '
+description: "æ\x95°æ\x8D®æ\x98¾ç¤ºä¿\x9Då­\x98å\x8A\x9Fè\x83½"
+repoUrl: https://github.com/liaorui-unity/JsonUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - mobile
+hunter: liaorui-unity
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1724835821509

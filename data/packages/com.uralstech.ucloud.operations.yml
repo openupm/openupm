@@ -1,0 +1,17 @@
+name: com.uralstech.ucloud.operations
+displayName: UCloud.Operations
+description: 'UCloud.Operations: A Unity C# wrapper for the google.longrunning API.'
+repoUrl: https://github.com/Uralstech/UCloud.Operations
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - integration
+  - services
+hunter: uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725648389844

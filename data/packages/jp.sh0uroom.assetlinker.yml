@@ -1,0 +1,21 @@
+name: jp.sh0uroom.assetlinker
+displayName: AssetLinker
+description: >-
+  AssetLinker is a package for easily referencing information on
+  external assets used in a project.
+repoUrl: https://github.com/sh0ou/AssetReferLinker
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/sh0ou/AssetReferLinker/main/Packages/jp.sh0uroom.assetlinker/UI/logo.png
+topics:
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: sh0ou
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720689879445

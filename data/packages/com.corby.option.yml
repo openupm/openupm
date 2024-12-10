@@ -1,0 +1,18 @@
+name: com.corby.option
+displayName: Option for unity
+description: Option to replace Nullable as in functional programming for Unity.
+repoUrl: https://github.com/CorbyO/Option
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/CorbyO/Option/assets/17669733/6be717ce-b181-4b86-9238-a5d00fa900b4
+topics:
+  - data-management
+  - utilities
+hunter: CorbyO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1720770052943

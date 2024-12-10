@@ -1,0 +1,18 @@
+name: com.hryooba.artnet
+displayName: HRYooba.ArtNet
+description: |-
+  Unity HRYooba
+  ArtNet
+repoUrl: https://github.com/HRYooba/HRYoobaUnity.ArtNet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: HRYooba
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '3.0.0'
+readme: main:README.md
+createdAt: 1703158512474

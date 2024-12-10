@@ -1,0 +1,16 @@
+name: com.motphys.core
+displayName: Motphys Core
+description: Motphys Engine Core Library
+repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: SEE LICENSE IN `LICENSE` FILE.
+image: https://www.motphys.com/img/logo.868c1b7b.svg
+topics:
+  - physics
+hunter: Motphys
+gitTagPrefix: com.motphys.rigidbody
+gitTagIgnore: ''
+minVersion: ''
+readme: main:MotphysRigidbodyUnitySdk-2021.3-URP/Packages/com.motphys.core/README.md
+createdAt: 1729245600110

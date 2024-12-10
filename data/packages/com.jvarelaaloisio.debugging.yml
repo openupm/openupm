@@ -1,0 +1,19 @@
+name: com.jvarelaaloisio.debugging
+displayName: Debug System
+description: >-
+  A powerful debugging system that allows for command use and runtime data
+  follow.
+repoUrl: https://github.com/jvarelaaloisio/DebugSystem-UnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: jvarelaaloisio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1728704527113

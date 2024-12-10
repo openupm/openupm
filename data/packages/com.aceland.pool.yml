@@ -1,0 +1,16 @@
+name: com.aceland.pool
+displayName: AceLand Pool
+description: AceLand Pool is Unity Pool helper package.
+repoUrl: https://github.com/parsue/com.aceland.pool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1730735791919

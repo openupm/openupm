@@ -1,0 +1,17 @@
+name: com.maligan.unity-zed
+displayName: Zed
+description: Zed editor integration for Unity
+repoUrl: https://github.com/Maligan/unity-zed
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: maligan
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1722179813118

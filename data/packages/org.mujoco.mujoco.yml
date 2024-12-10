@@ -1,0 +1,17 @@
+name: org.mujoco.mujoco
+displayName: MuJoCo
+description: MuJoCo importer and runtime plug-in
+repoUrl: https://github.com/kezzyhko/mujoco-upm
+parentRepoUrl: https://github.com/google-deepmind/mujoco
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/google-deepmind/mujoco/main/doc/images/banner.svg
+topics:
+  - physics
+hunter: kezzyhko
+gitTagPrefix: upm-
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:unity/README.md
+createdAt: 1726451034980

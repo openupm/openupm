@@ -1,6 +1,6 @@
 name: com.coffee.ui-effect
 displayName: UIEffect
-description: 'UIEffect is an effect component for uGUI element in Unity. Let''s decorate your UI with effects!'
+description: 'UIEffect is an open-source package that allows you to intuitively apply rich UI effects directly from the Inspector or via code.\nCombine various filters, such as grayscale, blur, and dissolve, to decorate your UI with a unique visual style!'
 repoUrl: 'https://github.com/mob-sakai/UIEffect'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -12,8 +12,8 @@ hunter: JohannesDeml
 gitTagPrefix: ''
 gitTagIgnore: ^v
 image: >-
-  https://github.com/mob-sakai/UIEffect/raw/5504338d5ebc98fd2f386bc3c817f13c60209769/Samples~/Demo/UIEffect_Demo_Pattern.png
-readme: 'upm:README.md'
+  https://github.com/user-attachments/assets/bce4ddb2-766f-4bed-bad2-fda91bb8133c
+readme: main:Packages/src/README.md
 createdAt: 1588665488110
 displayName_zhCN: UIEffect
 description_zhCN: UIEffect是uGUI元素的效果组件。让我们用效果来装饰你的UI吧！

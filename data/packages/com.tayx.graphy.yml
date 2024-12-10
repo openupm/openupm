@@ -11,8 +11,9 @@ topics: []
 hunter: JesseTG
 gitTagPrefix: v
 gitTagIgnore: ''
-image: 'https://image.ibb.co/dbcDu8/2018_07_15_15_10_05.gif'
-readme: 'upm:README.md'
+image: >-
+  https://camo.githubusercontent.com/a0ccf6d0bbb4055c63fbf8f633ee4fea3e85d7e56a554322db67256056b5e83d/68747470733a2f2f696d6167652e6962622e636f2f6462634475382f323031385f30375f31355f31355f31305f30352e676966
+readme: 'master:.github/README.md'
 createdAt: 1589212676706
 displayName_zhCN: Graphy-Ultimate 统计监视器
 description_zhCN: Graphy是用于Unity项目的终极，易于使用，功能齐全的FPS计数器，统计监控器和调试器。

@@ -1,0 +1,20 @@
+name: games.carter.savemanager
+displayName: Save Manager
+description: >-
+  A free, scriptable object based, local save system for Unity. Works on all
+  platforms using standard JSON Utility.
+repoUrl: https://github.com/CarterGames/SaveManager
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/33253710/285018931-6d3e56ed-feb9-441c-b107-eaee1d74202f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwMTQyMzksIm5iZiI6MTcyOTAxMzkzOSwicGF0aCI6Ii8zMzI1MzcxMC8yODUwMTg5MzEtNmQzZTU2ZWQtZmViOS00NDFjLWIxMDctZWFlZTFkNzQyMDJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE1VDE3Mzg1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljYWQyYzNiZThjNDlkOTMwNTdkNDJiYjlkYjQzZGJiZjViZjM5NTc2ZjczY2JmMTM3MGI0NWMxZDA3Y2EwYzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NwD4z_r4D5GTNAxBksnVZDqtUvx8fJ0zSt_l8TStunY
+topics:
+  - data-management
+  - utilities
+hunter: CarterGames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+readme: main:README.md
+createdAt: 1729013980479

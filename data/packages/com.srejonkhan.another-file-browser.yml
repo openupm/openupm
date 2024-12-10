@@ -1,0 +1,21 @@
+name: com.srejonkhan.another-file-browser
+displayName: Another File Browser
+description: Just another File Dialog for Unity, with easy implementation.
+repoUrl: https://github.com/SrejonKhan/AnotherFileBrowser
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - integration
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725482750969

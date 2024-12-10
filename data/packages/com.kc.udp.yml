@@ -1,0 +1,16 @@
+name: com.kc.udp
+displayName: KC.UDP
+description: udp组件
+repoUrl: https://github.com/wangrongTXDY/com.kc.udp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: wangrongTXDY
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1732185150864

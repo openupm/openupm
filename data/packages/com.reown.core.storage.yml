@@ -1,0 +1,16 @@
+name: com.reown.core.storage
+displayName: Reown.Core.Storage
+description: ''
+repoUrl: https://github.com/reown-com/reown-dotnet
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+hunter: skibitsky
+gitTagPrefix: com.reown.core.storage/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1726560582730

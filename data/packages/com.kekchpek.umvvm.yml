@@ -1,0 +1,16 @@
+name: com.kekchpek.umvvm
+displayName: UnityMvvm
+description: The MVVM pattern core implemented for Unity3d
+repoUrl: https://github.com/kekchpek/UnityMVVM
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+hunter: kekchpek
+gitTagPrefix: ''
+gitTagIgnore: '[0-9]*\.[0-9]*\.[0-9]*-(raw|dev)'
+minVersion: ''
+readme: master:README.md
+createdAt: 1724253284770

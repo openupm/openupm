@@ -1,0 +1,19 @@
+name: com.jasonxudeveloper.nino
+displayName: Nino
+description: >-
+  Ultimate high-performance binary serialization library for C#.
+repoUrl: https://github.com/JasonXuDeveloper/Nino
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - data-management
+  - utilities
+hunter: JasonXuDeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1731484055162

@@ -13,7 +13,8 @@ hunter: julienkay
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
+image: >-
+  https://repository-images.githubusercontent.com/522043058/fe2f1192-d7f0-4f13-b3d8-7bfeb0d7ec8c
 readme: 'master:readme.md'
 readme_zhCN: ''
 displayName_zhCN: ''

@@ -1,0 +1,17 @@
+name: org.pcsoft.commons
+displayName: Unity Commons
+description: Commons for all Unity extensions
+repoUrl: https://github.com/KleinerHacker/unity-commons
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: kleinerhacker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1728485097442

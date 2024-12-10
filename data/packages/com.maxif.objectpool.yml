@@ -1,0 +1,16 @@
+name: com.maxif.objectpool
+displayName: Object Pool
+description: Simple object pool package
+repoUrl: https://github.com/Maxi-F/ObjectPool-UnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Maxi-F
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1725927693894
