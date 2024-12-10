@@ -1,7 +1,7 @@
 name: com.audune.utils.dictionary
 displayName: Serializable Dictionary
-description: Serializable dictionary class for Unity 2022.3 LTS or higher
-repoUrl: https://github.com/audunegames/serializabledictionary
+description: Serializable dictionary class for Unity 2022.3 LTS or higher.
+repoUrl: https://github.com/audunegames/serializable-dictionary
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0

@@ -1,7 +1,7 @@
 name: com.audune.persistence
-displayName: Persistence
-description: Persistent data system for saving games for Unity 2022 LTS or higher.
-repoUrl: https://github.com/audunegames/persistence
+displayName: Object Persistence
+description: Persistent data system using Object Serialization for Unity 2022 LTS or higher.
+repoUrl: https://github.com/audunegames/object-persistence
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
