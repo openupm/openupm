@@ -1,0 +1,23 @@
+name: extensions.unity.bundle.efcore.sqlite
+displayName: EntityFrameworkCore + SQLite bundle
+description: >-
+  Bundle project that includes references on EntityFrameworkCore and SQLite set
+  of packages to provide ready to go solution for Windows, MacOS, Android, iOS
+  platforms.
+repoUrl: https://github.com/IvanMurzak/Unity-EFCore-SQLite
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/IvanMurzak/Unity-EFCore-SQLite/blob/master/efcore_sqlite.jpg?raw=true
+topics:
+  - data-management
+  - frameworks
+  - integration
+  - mobile
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1733978043643
