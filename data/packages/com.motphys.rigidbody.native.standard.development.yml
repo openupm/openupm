@@ -9,7 +9,7 @@ image: https://www.motphys.com/img/logo.868c1b7b.svg
 topics:
   - physics
 hunter: Motphys
-gitTagPrefix: com.motphys.rigidbody.native
+gitTagPrefix: com.motphys.rigidbody.native/
 gitTagIgnore: ''
 minVersion: ''
 readme: >-
