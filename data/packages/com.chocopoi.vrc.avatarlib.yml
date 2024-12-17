@@ -1,0 +1,20 @@
+name: com.chocopoi.vrc.avatarlib
+displayName: AvatarLib
+description: >-
+  Contains a bunch of quick-to-use APIs for plugins and applications to add,
+  modify a VRChat avatar.
+repoUrl: https://github.com/poi-vrc/AvatarLib
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - animation
+  - modeling
+hunter: yuna0x0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1734460331978
