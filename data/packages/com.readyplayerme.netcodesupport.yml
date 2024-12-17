@@ -1,0 +1,23 @@
+name: com.readyplayerme.netcodesupport
+displayName: Ready Player Me Netcode Support
+description: >-
+  NetworkPlayer component that allows to use Ready Player Me avatars in using
+  Unity Netcode for GameObjects.
+repoUrl: https://github.com/readyplayerme/rpm-unity-sdk-netcode-support
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1734407870080
