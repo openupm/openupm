@@ -9,7 +9,7 @@ image: https://www.motphys.com/img/logo.868c1b7b.svg
 topics:
   - physics
 hunter: Motphys
-gitTagPrefix: com.motphys.rigidbody
+gitTagPrefix: com.motphys.rigidbody/
 gitTagIgnore: ''
 minVersion: ''
 readme: main:MotphysRigidbodyUnitySdk-2021.3-URP/Packages/com.motphys.core/README.md
