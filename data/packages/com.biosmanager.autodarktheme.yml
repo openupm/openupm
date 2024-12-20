@@ -1,0 +1,17 @@
+name: com.biosmanager.autodarktheme
+displayName: Auto Dark Theme
+description: Automatically changes the Unity editor theme based on time or system settings.
+repoUrl: https://github.com/biosmanager/AutoDarkTheme
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/biosmanager/AutoDarkTheme/blob/master/preview.png?raw=true
+topics:
+  - editor-enhancement
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1734686096861
