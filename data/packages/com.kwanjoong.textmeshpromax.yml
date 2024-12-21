@@ -1,0 +1,21 @@
+name: com.kwanjoong.textmeshpromax
+displayName: Text Mesh Pro Max
+description: The ultimate Text Mesh Pro helper package.
+repoUrl: https://github.com/kwan3854/TextMeshProMax
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kwan3854/TextMeshProMax/raw/main/Documentation~/Images/logo.png
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - localization
+  - utilities
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1734752953528
