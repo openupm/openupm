@@ -1,0 +1,17 @@
+name: com.annulusgames.lit-motion.animation
+displayName: LitMotion.Animation
+description: Animation component (visual editor) for LitMotion
+repoUrl: https://github.com/AnnulusGames/LitMotion
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: shiena
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1735134948592
