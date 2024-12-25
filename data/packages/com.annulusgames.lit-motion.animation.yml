@@ -5,7 +5,8 @@ repoUrl: https://github.com/AnnulusGames/LitMotion
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: >-
+  https://annulusgames.github.io/LitMotion/images/img-litmotion-animation-inspector.png
 topics:
   - editor-enhancement
   - utilities
