@@ -1,0 +1,26 @@
+name: com.abzorba.artificetoolkit
+displayName: Artifice Toolkit
+description: >-
+  ArtificeToolkit simplifies Unity editor customization by providing intuitive,
+  easy-to-use custom attributes that can be applied directly in your source
+  code. This toolkit allows developers to quickly and effortlessly enhance the
+  look and behavior of Unity’s inspector without requiring specialized knowledge
+  of IMGUI or UI Toolkit libraries.
+
+
+  By using ArtificeToolkit, you can enhance the editor's functionality and
+  customize property displays with minimal effort, reducing the need to maintain
+  separate files or dive deep into complex editor programming.
+repoUrl: https://github.com/AbZorbaGames/artificetoolkit
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - editor-enhancement
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1734506230575

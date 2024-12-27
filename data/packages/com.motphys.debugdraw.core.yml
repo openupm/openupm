@@ -10,7 +10,7 @@ topics:
   - debugging-and-logging
   - physics
 hunter: Motphys
-gitTagPrefix: com.motphys.rigidbody
+gitTagPrefix: com.motphys.rigidbody/
 gitTagIgnore: ''
 minVersion: ''
 readme: >-

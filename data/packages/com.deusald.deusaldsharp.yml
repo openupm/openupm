@@ -1,0 +1,16 @@
+name: com.deusald.deusaldsharp
+displayName: Deusald Sharp
+description: Deusald Sharp unity package.
+repoUrl: https://github.com/Deusald/DeusaldSharp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1734581494361

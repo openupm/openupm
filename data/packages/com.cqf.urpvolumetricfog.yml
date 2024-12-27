@@ -1,0 +1,20 @@
+name: com.cqf.urpvolumetricfog
+displayName: URP Volumetric Fog
+description: >-
+  Volumetric fog integrated into URP's volume system. Supports additional
+  lights, shadows and cookies. Render graph support is available for Unity 6
+repoUrl: https://github.com/CristianQiu/Unity-URP-Volumetric-Light
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+  - particles-and-effects
+  - utilities
+hunter: AtaTrkgl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1734818892400

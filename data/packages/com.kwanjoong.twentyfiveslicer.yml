@@ -1,0 +1,22 @@
+name: com.kwanjoong.twentyfiveslicer
+displayName: Twenty Five Slicer
+description: >-
+  A Unity package that slices a sprite into 25 slices instead of the usual 9,
+  allowing for more flexible UI designs.
+repoUrl: https://github.com/kwan3854/TwentyFiveSlicer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kwan3854/TwentyFiveSlicer/blob/main/Documentation~/Images/9slice_vs_25slice.gif?raw=true
+topics:
+  - 2d
+  - gui
+  - sprite-management
+  - utilities
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1734752470656
