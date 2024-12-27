@@ -3,8 +3,8 @@ displayName: Serializable Types
 description: Enables Unity to serialize a reference to a C# type in the editor, made for Unity 2022 LTS or higher.
 repoUrl: https://github.com/audunegames/serializable-types
 parentRepoUrl: null
-licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
 image: ''
 topics:
   - editor-enhancement
