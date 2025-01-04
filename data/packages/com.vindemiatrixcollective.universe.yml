@@ -1,0 +1,19 @@
+name: com.vindemiatrixcollective.universe
+displayName: Universe
+description: A Unity library of space-related methods for hard sci-fi games.
+repoUrl: https://github.com/TheWand3rer/Universe
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/TheWand3rer/Universe/raw/main/Documentation/Images/Sine%20Fine%20Transfer.png
+topics:
+  - frameworks
+  - physics
+  - utilities
+hunter: TheWand3rer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1735988127579
