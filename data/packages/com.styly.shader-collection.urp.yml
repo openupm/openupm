@@ -1,0 +1,16 @@
+name: com.styly.shader-collection.urp
+displayName: STYLY Shader Collection - URP
+description: STYLY Shader Collection for Universal Render Pipeline
+repoUrl: https://github.com/styly-dev/STYLY-Shader-Collection
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: afjk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:com.styly.shader-collection.urp/README.md
+createdAt: 1736250011120
