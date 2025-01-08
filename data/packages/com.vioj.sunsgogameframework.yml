@@ -1,0 +1,22 @@
+name: com.vioj.sunsgogameframework
+displayName: SunsgoGameFramework
+description: >-
+  A game develop framework for quick creation
+
+  ▪ ActorSystem
+
+  ▪ etc...
+
+repoUrl: https://github.com/matengli/SunsgoGameFramework
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: matengli
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.vioj.sunsgogameframework/README.md
+createdAt: 1736324459373
