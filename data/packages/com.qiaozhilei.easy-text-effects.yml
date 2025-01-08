@@ -1,0 +1,19 @@
+name: com.qiaozhilei.easy-text-effects
+displayName: Easy Text Effects
+description: Easily animate TextMeshPro text with stunning, customizable effects!
+repoUrl: https://github.com/LeiQiaoZhi/Easy-Text-Effects-for-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/LeiQiaoZhi/Easy-Text-Effects-for-Unity/main/Documentation/Images/opening.gif
+topics:
+  - 2d
+  - animation
+  - gui
+hunter: LeiQiaoZhi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736301410783
