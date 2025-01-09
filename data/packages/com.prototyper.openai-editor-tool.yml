@@ -1,0 +1,16 @@
+name: com.prototyper.openai-editor-tool
+displayName: OpenAI Editor Tool
+description: OpenAI-Editor-Tool
+repoUrl: https://github.com/Farl/com.prototyper.openai-editor-tool
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: GPL-3.0
+image: ''
+topics:
+  - ai
+hunter: Farl
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736409569592
