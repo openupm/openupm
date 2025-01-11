@@ -1,0 +1,16 @@
+name: com.deusald.deusaldunitytools
+displayName: Deusald Unity Tools
+description: Deusald Unity Tools unity package.
+repoUrl: https://github.com/Deusald/DeusaldUnityTools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736560383789
