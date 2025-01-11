@@ -1,0 +1,15 @@
+name: jp.adarapata.screensystem
+description: ''
+repoUrl: https://github.com/adarapata/ScreenSystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736611324103
