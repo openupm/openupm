@@ -1,0 +1,21 @@
+name: com.kwanjoong.unityuistoryboard
+displayName: Unity UI Storyboard
+description: A Unity package for structured UI development.
+repoUrl: https://github.com/kwan3854/UnityUIStoryboard
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kwan3854/UnityUIStoryboard/blob/main/Documentation~/Storyboard.png?raw=true
+topics:
+  - 2d
+  - asset-management
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736603622582
