@@ -1,0 +1,19 @@
+name: cat.natsuneko.constraint-by-humanoid
+displayName: Constraint by Humanoid
+description: >-
+  A Unity editor extension that configures IConstraint component based on Unity
+  Humanoid Rules. 
+repoUrl: https://github.com/natsuneko-laboratory/constraint-by-humanoid
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - editor-enhancement
+hunter: mika-f
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736657849166
