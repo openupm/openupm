@@ -1,0 +1,18 @@
+name: com.kwanjoong.screensystem
+displayName: Kwanjoong.ScreenSystem
+description: Wrapper for UnityScreenNavigator, for easy use in Unity UI Storyboard
+repoUrl: https://github.com/kwan3854/Kwanjoong.ScreenSystem
+parentRepoUrl: https://github.com/adarapata/ScreenSystem
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - gui
+  - utilities
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: Kwanjoong:README.md
+createdAt: 1736670847179
