@@ -1,0 +1,19 @@
+name: be.elab.iid
+displayName: IID Index Integer Date
+description: >-
+  Pack and unpack bytes received or to send in bytes format. Allows to defined
+  and demonstrate what is a IID in Unity3D.
+repoUrl: https://github.com/EloiStree/OpenUPM_IID
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - network
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736914147733
