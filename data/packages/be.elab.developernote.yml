@@ -1,0 +1,16 @@
+name: be.elab.developernote
+displayName: Developer Note
+description: Allows to put some developer note in your project.
+repoUrl: https://github.com/EloiStree/OpenUPM_DeveloperNote
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736973811782
