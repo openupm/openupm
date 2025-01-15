@@ -1,0 +1,20 @@
+name: be.elab.wsclientiid
+displayName: Websocket IID Client
+description: >-
+  This package allows to install the package needed to create a Websocket Index
+  Integer client. It make it easy in Unity to connect to APInt IO server or you
+  DIY IID server on PI .
+repoUrl: https://github.com/EloiStree/OpenUPM_WsClientIID
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - network
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736948850948
