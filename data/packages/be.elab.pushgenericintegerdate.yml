@@ -1,0 +1,16 @@
+name: be.elab.pushgenericintegerdate
+displayName: Push Generic Integer as Input to play game
+description: Demo of integer use as input for game and remote control with IID server.
+repoUrl: https://github.com/EloiStree/OpenUPM_PushGenericIID
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736955449099
