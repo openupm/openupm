@@ -1,0 +1,16 @@
+name: be.elab.eloitoolkits
+displayName: Eloi Tool Kits
+description: This package has dependency to all the packages on UPM
+repoUrl: https://github.com/EloiStree/OpenUPM_EloiToolKits
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736976240830
