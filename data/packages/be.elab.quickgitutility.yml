@@ -1,0 +1,16 @@
+name: be.elab.quickgitutility
+displayName: Quick Git Utility
+description: Tools to execute git instructions from command line.
+repoUrl: https://github.com/EloiStree/OpenUPM_QuickGitUtility
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:readme.md
+createdAt: 1736973766191
