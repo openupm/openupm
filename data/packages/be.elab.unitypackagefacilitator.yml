@@ -1,0 +1,16 @@
+name: be.elab.unitypackagefacilitator
+displayName: Unity Package Facilitator
+description: Tools to create the structure of new unity package under 2 minutes.
+repoUrl: https://github.com/EloiStree/OpenUPM_UnityPackageFacilitator
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1736973988343
