@@ -1,0 +1,16 @@
+name: be.elab.tickcollection
+displayName: Tick Collection
+description: Tools to trick actions easily in protyping project.
+repoUrl: https://github.com/EloiStree/OpenUMP_TickCollection
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Beerware
+image: ''
+topics:
+  - utilities
+hunter: EloiStree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1736951554210
