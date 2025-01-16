@@ -1,0 +1,18 @@
+name: com.bugfender.unity
+displayName: Bugfender
+description: Unity bindings for the native Bugfender iOS and Android SDKs
+repoUrl: https://github.com/bugfender/BugfenderSDK-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/bugfender/BugfenderSDK-Unity/refs/heads/main/Editor/Resources/BugfenderLogo.png
+topics:
+  - debugging-and-logging
+  - mobile
+hunter: jgimenez
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1737046595298
