@@ -1,0 +1,17 @@
+name: com.heavycavstudios.core
+displayName: Heavy Cav Studios Core Utilities
+description: A shared utility package for Heavy Cav Studios projects.
+repoUrl: https://github.com/Heavy-Cav-Studios/Core
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: >-
+  https://github.com/Heavy-Cav-Studios/Core/blob/Core-first-version/core-icon.png
+topics:
+  - utilities
+hunter: DeathAdder1999
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Core-first-version:README.md
+createdAt: 1737678096911
