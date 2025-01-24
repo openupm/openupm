@@ -1,0 +1,17 @@
+name: com.openugd.signal
+displayName: Signal
+description: |
+  require .NET 4x
+repoUrl: https://github.com/openugd/upm-signal
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1737736414060
