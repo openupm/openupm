@@ -1,0 +1,16 @@
+name: com.tmd.hierarchy
+displayName: Hierarchy
+description: "hierarchy show"
+repoUrl: https://github.com/nixuejun888/hierarchy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: nixuejun888
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1737710709083
