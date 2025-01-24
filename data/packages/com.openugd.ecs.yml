@@ -1,0 +1,16 @@
+name: com.openugd.ecs
+displayName: ECS
+description: ECS Entity Component System
+repoUrl: https://github.com/openugd/upm-ecs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1737759602691
