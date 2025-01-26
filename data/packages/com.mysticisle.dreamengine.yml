@@ -1,0 +1,16 @@
+name: com.mysticisle.dreamengine
+displayName: DreamEngine
+description: DreamEngine.
+repoUrl: https://github.com/SunnyChin-KnowPlay/DreamEngine
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MysticIsle
+image: ''
+topics:
+  - frameworks
+hunter: MysticIsle
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1737920737168
