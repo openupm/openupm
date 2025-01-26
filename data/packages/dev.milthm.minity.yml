@@ -1,0 +1,25 @@
+name: dev.milthm.minity
+displayName: Minity
+description: >-
+  A Unity extension framework that includes features such as object pooling,
+  scene routing, UI manager, and behavior trees.
+repoUrl: https://github.com/MorizeroDev/Minity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - audio
+  - asset-management
+  - data-management
+  - frameworks
+  - gui
+  - integration
+  - utilities
+hunter: MorizeroDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1737882316817
