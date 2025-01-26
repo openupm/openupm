@@ -1,0 +1,23 @@
+name: com.morizero.milease
+displayName: Milease
+description: >-
+  An advanced UI animation tool with a wide range of easing options to choose
+  from. Perfect for adding dynamic and polished animations to your user
+  interface!
+repoUrl: https://github.com/MorizeroDev/Milease
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/MorizeroDev/Milease/refs/heads/master/logo.svg
+topics:
+  - animation
+  - frameworks
+  - gui
+  - utilities
+hunter: MorizeroDev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1737882502717
