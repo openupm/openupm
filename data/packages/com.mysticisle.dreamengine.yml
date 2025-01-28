@@ -1,7 +1,7 @@
 name: com.mysticisle.dreamengine
 displayName: DreamEngine
 description: DreamEngine.
-repoUrl: https://github.com/SunnyChin-KnowPlay/DreamEngine.git?path=DreamEngine/Assets/Packages/DreamEngine
+repoUrl: https://github.com/SunnyChin-KnowPlay/DreamEngine
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
