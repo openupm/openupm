@@ -4,7 +4,7 @@ description: DreamEngine.
 repoUrl: https://github.com/SunnyChin-KnowPlay/DreamEngine
 parentRepoUrl: null
 licenseSpdxId: ''
-licenseName: MysticIsle
+licenseName: MIT
 image: ''
 topics:
   - frameworks
