@@ -1,0 +1,16 @@
+name: com.openugd.dependency.injection
+displayName: Dependency Injection
+description: Dependency Injection
+repoUrl: https://github.com/openugd/upm-dependency-injection
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1738269194751
