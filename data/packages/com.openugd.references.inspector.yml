@@ -1,0 +1,16 @@
+name: com.openugd.references.inspector
+displayName: References Inspector
+description: Assets/Tools/References
+repoUrl: https://github.com/openugd/upm-references-inspector
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1738258571336
