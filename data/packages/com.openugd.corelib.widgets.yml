@@ -1,0 +1,18 @@
+name: com.openugd.corelib.widgets
+displayName: CoreLib Widgets
+description: |
+  require .NET 4x
+repoUrl: https://github.com/openugd/upm-corelib-widgets
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: The MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1738291665544
