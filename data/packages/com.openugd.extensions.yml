@@ -1,0 +1,17 @@
+name: com.openugd.extensions
+displayName: Extensions
+description: |
+  require .NET 4x
+repoUrl: https://github.com/openugd/upm-extensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1738286949732
