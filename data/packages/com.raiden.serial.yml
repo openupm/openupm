@@ -1,0 +1,17 @@
+name: com.raiden.serial
+displayName: Serial
+description: Unity package for my games
+repoUrl: https://github.com/Raidenxd2/SerialPackage
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - editor-enhancement
+  - mobile
+hunter: Raidenxd2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1738469789167
