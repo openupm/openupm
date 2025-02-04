@@ -1,0 +1,21 @@
+name: com.ikpil.uninetty
+displayName: UniNetty
+description: >-
+  UniNetty project - a port of DotNetty, an event-driven asynchronous network
+  application framework
+repoUrl: https://github.com/ikpil/UniNetty
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - mobile
+  - services
+  - utilities
+hunter: ikpil
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1738673007034
