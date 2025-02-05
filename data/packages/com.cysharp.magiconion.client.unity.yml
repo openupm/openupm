@@ -1,0 +1,16 @@
+name: com.cysharp.magiconion.client.unity
+displayName: MagicOnion.Client.Unity
+description: Unified Realtime/API framework for .NET platform and Unity.
+repoUrl: https://github.com/Cysharp/MagicOnion
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1738742285340
