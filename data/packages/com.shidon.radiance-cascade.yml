@@ -1,0 +1,16 @@
+name: com.shidon.radiance-cascade
+displayName: Radiance Cascade
+description: Adaptation of 2D Radiance Cascade for Unity
+repoUrl: https://github.com/ShidoArima/radiance-cascade
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unlicense
+image: ''
+topics:
+  - 2d
+hunter: ShidoArima
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:readme.md
+createdAt: 1738976369521
