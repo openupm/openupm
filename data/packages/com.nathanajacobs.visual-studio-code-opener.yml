@@ -1,0 +1,19 @@
+name: com.nathanajacobs.visual-studio-code-opener
+displayName: Visual Studio Code Opener
+description: >-
+  This package allows you to explicitly specify which file types to open in
+  Visual Studio Code, while having another default IDE configured in the
+  External Tools settings.
+repoUrl: https://github.com/nathanAjacobs/UnityVisualStudioCodeOpener
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nathanAjacobs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1739269024848
