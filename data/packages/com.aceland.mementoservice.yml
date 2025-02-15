@@ -1,0 +1,23 @@
+name: com.aceland.mementoservice
+displayName: AceLand Memento Service
+description: >-
+  AceLand Memento Service is a local supporting services dependency.
+
+
+  Please visit our [Git
+  Book](https://aceland-workshop.gitbook.io/aceland-unity-packages).
+repoUrl: https://github.com/parsue/com.aceland.mementoservice
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - services
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+readme: main:README.md
+createdAt: 1739604183593
