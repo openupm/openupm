@@ -1,0 +1,19 @@
+name: com.seaeees.simple-folder-icon
+displayName: Simple Folder Icon
+description: >-
+  SimpleFolderIcon enables you to customize the color and the icon label of your
+  folders in the Unity project browser.
+repoUrl: https://github.com/SeaeeesSan/SimpleFolderIcon
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://user-images.githubusercontent.com/68797964/132967661-a6aff48e-4605-417f-8f4c-367d9172ed0f.png
+topics:
+  - editor-enhancement
+hunter: SeaeeesSan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1739765069363
