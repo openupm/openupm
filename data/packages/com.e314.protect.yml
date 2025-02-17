@@ -1,0 +1,16 @@
+name: com.e314.protect
+displayName: E314.Protect
+description: "The E314.Protect module provides methods for validating input data and conditions.\r\nIt prevents errors caused by invalid data by throwing exceptions with informative messages."
+repoUrl: https://github.com/epishev-m/e314-protect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1739806378899
