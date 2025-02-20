@@ -1,0 +1,16 @@
+name: com.nicodrake.event-channels
+displayName: Event Channels
+description: ' '
+repoUrl: https://github.com/NicolasLaure/com.nicodrake.event-channels
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: NicolasLaure
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1740078631586
