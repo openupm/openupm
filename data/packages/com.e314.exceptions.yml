@@ -1,0 +1,21 @@
+name: com.e314.exceptions
+displayName: E314.Exceptions
+description: >-
+  The E314.Exceptions module provides enhanced exception classes that improve
+  standard error handling mechanisms in .NET. These exceptions include
+  additional data such as a unique error code (`ErrorCode`), extra data
+  (`ErrorData`), the file name, method name, and line number where the exception
+  occurred. This makes debugging and logging more informative.
+repoUrl: https://github.com/epishev-m/e314-exceptions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1740242244650
