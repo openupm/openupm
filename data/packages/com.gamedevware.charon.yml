@@ -1,0 +1,24 @@
+name: com.gamedevware.charon
+displayName: 'Charon: Game Data Editor'
+description: >-
+  Charon is a powerful game development tool that streamlines the game
+  development process. It provides a structured approach to designing and
+  modeling game data, with automatic source code generation that reduces the
+  load on programmers and eliminates human errors.
+repoUrl: https://github.com/gamedevware/charon-unity3d
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/gamedevware/charon-unity3d/refs/heads/master/openupm_cover.png
+topics:
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - localization
+hunter: deniszykov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1740251638971
