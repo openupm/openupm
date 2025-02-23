@@ -1,0 +1,22 @@
+name: com.kwanjoong.nestedscrollrect
+displayName: Nested Scroll Rect
+description: >-
+  Nested Scroll Rect Handles user scroll input and passes it to the parent
+  scroll rect if the user is at the top or bottom of the scroll rect.
+repoUrl: https://github.com/kwan3854/Nested-Scroll-Rect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/kwan3854/Nested-Scroll-Rect/blob/main/Documentation/sample.gif?raw=true
+topics:
+  - 2d
+  - gui
+  - input-management
+  - mobile
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1740323170391
