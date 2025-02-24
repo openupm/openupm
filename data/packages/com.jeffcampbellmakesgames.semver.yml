@@ -9,9 +9,9 @@ topics:
   - utilities
   - version-control
 hunter: JesseTG
-gitTagPrefix:upm/
+gitTagPrefix: upm/
 gitTagIgnore: ''
-image:null
+image: null
 readme: 'master:README.md'
 createdAt: 1589238539874
 displayName_zhCN: JCMG SemVer
