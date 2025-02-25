@@ -9,10 +9,9 @@ topics:
   - utilities
   - version-control
 hunter: JesseTG
-gitTagPrefix: ''
+gitTagPrefix: upm/
 gitTagIgnore: ''
-image: >-
-  https://github.com/jeffcampbellmakesgames/unity-semver/raw/183afba88c6344a65ce935077e7549fbb6b6834f/Documentation/Inspector.png
+image: null
 readme: 'master:README.md'
 createdAt: 1589238539874
 displayName_zhCN: JCMG SemVer
