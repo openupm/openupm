@@ -1,0 +1,20 @@
+name: com.brogrammist.jsam
+displayName: Jacky's Simple Audio Manager
+description: >-
+  A decentralized audio playing system for Unity, designed for simplicity and
+  built to scale!
+repoUrl: https://github.com/jackyyang09/Simple-Unity-Audio-Manager
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/jackyyang09/Simple-Unity-Audio-Manager/refs/heads/Media/Media/Homepage%20Promo/JSAM%20card%20image.png
+topics:
+  - audio
+  - asset-management
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1740448877887
