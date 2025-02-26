@@ -1,0 +1,17 @@
+name: com.dman.async-utilities
+displayName: Dman's Async Utilities
+description: A bunch of async utilities too small to go in their own package
+repoUrl: https://github.com/dsmiller95/DmanUtilities
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+  - parallelism-and-concurrency
+hunter: dsmiller95
+gitTagPrefix: com.dman.async-utilities/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/UtilityScripts/com.dman.async-utilities/README.md
+createdAt: 1740593691663
