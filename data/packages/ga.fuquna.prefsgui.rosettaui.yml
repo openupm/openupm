@@ -1,0 +1,16 @@
+name: ga.fuquna.prefsgui.rosettaui
+displayName: PrefsGUI - RosettaUI
+description: RosettaUI implementation of PrefsGUI
+repoUrl: https://github.com/fuqunaga/PrefsGUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/fuqunaga/PrefsGUI/raw/master/Documentation~/PrefsGUI.gif
+topics:
+  - gui
+hunter: fuqunaga
+gitTagPrefix: ga.fuquna.prefsgui.rosettaui-
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1740755884928
