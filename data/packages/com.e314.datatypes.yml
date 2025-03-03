@@ -1,0 +1,16 @@
+name: com.e314.datatypes
+displayName: E314.DataTypes
+description: The `E314.DataTypes` module provides structures and data types.
+repoUrl: https://github.com/epishev-m/e314-datatypes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741016524412
