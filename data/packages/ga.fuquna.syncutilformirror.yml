@@ -1,0 +1,16 @@
+name: ga.fuquna.syncutilformirror
+displayName: SyncUtil For Mirror
+description: Sync Utilities For Mirror
+repoUrl: https://github.com/fuqunaga/SyncUtilForMirror
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: fuqunaga
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1740983081954
