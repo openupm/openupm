@@ -1,0 +1,17 @@
+name: ga.fuquna.prefsgui.postprocessingurp
+displayName: PrefsGUI - PostProcessingURP
+description: PrefsGUI extensions for URP PostProcessing
+repoUrl: https://github.com/fuqunaga/PrefsGUI-PostProcessingURP
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - network
+hunter: fuqunaga
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1740983302605
