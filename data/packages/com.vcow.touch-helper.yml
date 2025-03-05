@@ -1,0 +1,16 @@
+name: com.vcow.touch-helper
+displayName: Touch Helper
+description: Touchscreen input emulator for Unity Editor.
+repoUrl: https://github.com/vcow/lib-touch-helper
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - input-management
+hunter: vcow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.1.0
+readme: upm:README.md
+createdAt: 1741200006222
