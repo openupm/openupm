@@ -1,0 +1,16 @@
+name: com.ligofff.lgf-recents-window
+displayName: Ligofff - LGF Recents Window
+description: Just adds little recents window
+repoUrl: https://github.com/ligofff/lgf-recents-window
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: ligofff
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741192422893
