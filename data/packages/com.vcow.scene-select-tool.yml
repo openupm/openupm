@@ -12,5 +12,5 @@ hunter: vcow
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: upm:README.md
 createdAt: 1740871869340
