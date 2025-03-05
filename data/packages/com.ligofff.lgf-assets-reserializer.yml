@@ -1,0 +1,16 @@
+name: com.ligofff.lgf-assets-reserializer
+displayName: Ligofff - LGF Assets Reserializer
+description: Package, that adds option for reserialize assets in project
+repoUrl: https://github.com/ligofff/lgf-assets-reserializer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: ligofff
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741192873975
