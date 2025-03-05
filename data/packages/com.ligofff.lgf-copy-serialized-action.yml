@@ -1,0 +1,16 @@
+name: com.ligofff.lgf-copy-serialized-action
+displayName: Ligofff - LGF Copy Serialized
+description: Small context menu action, that Copy/Paste component values as serialized data
+repoUrl: https://github.com/ligofff/lgf-copy-serialized-action
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: ligofff
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741192982908
