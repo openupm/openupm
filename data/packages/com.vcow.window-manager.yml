@@ -1,0 +1,18 @@
+name: com.vcow.window-manager
+displayName: Scene Select Tool
+description: >-
+  A simple, full-featured window manager with the necessary and sufficient
+  functionality to solve most tasks.
+repoUrl: https://github.com/vcow/lib-window-manager
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - gui
+hunter: vcow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1741195496171
