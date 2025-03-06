@@ -13,6 +13,6 @@ topics:
 hunter: vcow
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 4.1.0
 readme: upm:README.md
 createdAt: 1741195496171
