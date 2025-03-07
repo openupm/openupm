@@ -1,0 +1,16 @@
+name: com.ktgame.services.scene
+displayName: com.ktgame.services.scene
+description: KTgame Scene Services
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.services.scene
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - services
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741338726992
