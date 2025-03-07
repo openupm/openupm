@@ -1,0 +1,16 @@
+name: com.ktgame.core
+displayName: com.ktgame.core
+description: KTgame Core
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.core
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - services
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741338254714
