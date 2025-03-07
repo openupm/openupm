@@ -1,0 +1,16 @@
+name: com.ktgame.utils.class-type-reference
+displayName: com.ktgame.utils.class-type-reference
+description: Class Type Reference
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.utils.class-type-reference
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741339091104
