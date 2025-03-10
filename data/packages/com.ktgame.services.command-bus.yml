@@ -1,0 +1,16 @@
+name: com.ktgame.services.command-bus
+displayName: com.ktgame.services.command-bus
+description: Command Bus Service
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.services.command-bus
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - services
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741592667664
