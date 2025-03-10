@@ -1,0 +1,20 @@
+name: com.e314.di
+displayName: E314.Di
+description: >-
+  The E314.DI module contains the DiContainer. DiContainer is a dependency
+  injection (DI) container that helps manage object creation and their
+  dependencies. In this guide, you will learn how to configure the container,
+  bind types, resolve dependencies, and manage their lifecycle.
+repoUrl: https://github.com/epishev-m/e314-di
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741620625806
