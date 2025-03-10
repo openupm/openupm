@@ -1,0 +1,16 @@
+name: com.ktgame.config.core
+displayName: com.ktgame.config.core
+description: Config BlueSprint
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.config.core
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741589022031
