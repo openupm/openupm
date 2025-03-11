@@ -1,0 +1,18 @@
+name: com.jonagill.addressablesgenerator
+displayName: Addressables Generator
+description: >-
+  Utility for programatically generating Addressable Groups and managing their
+  dependencies.
+repoUrl: https://github.com/jonagill/AddressablesGenerator
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+image: ''
+topics:
+  - asset-management
+hunter: jonagill
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741655621396
