@@ -1,0 +1,16 @@
+name: com.ktgame.assets.loader.addressables
+displayName: com.ktgame.assets.loader.addressables
+description: Load core assets addressables
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.assets.loader.addressables
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - asset-management
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:CHANGELOG.md
+createdAt: 1741754452612
