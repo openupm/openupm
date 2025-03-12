@@ -1,0 +1,16 @@
+name: com.ktgame.unregister
+displayName: com.ktgame.unregister
+description: KTgame Unregister Package
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.unregister
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:CHANGELOG.md
+createdAt: 1741755831909
