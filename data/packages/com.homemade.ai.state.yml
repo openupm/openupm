@@ -1,0 +1,16 @@
+name: com.homemade.ai.state
+displayName: com.homemade.ai.state
+description: Package for ai state behavior
+repoUrl: https://github.com/hungpt17102k/com.homemade.ai.state
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - ai
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741758299829
