@@ -1,0 +1,16 @@
+name: com.e314.di-uni
+displayName: E314.DiUni
+description: ''
+repoUrl: https://github.com/epishev-m/e314-di-uni
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741759351612
