@@ -1,6 +1,6 @@
 name: com.zhanlehall.pluliter
 displayName: Pluliter
-description: "Pluliter 是一款专为Unity设计的强大对话系统解决方案，由盏乐堂工作室开发维护。它采用节点式的对话编辑器，让编排复杂的对话逻辑变得轻松简单；角色、背景、BGM等配置表完全图形化编辑，无需编写任何代码，降低了学习成本，让开发者能够快速创建自己的对话游戏。"
+description: "Pluliter 专为Unity开发者打造的节点式对话系统框架，让编排复杂的对话逻辑变得轻松简单！"
 repoUrl: https://github.com/DSOE1024/Pluliter
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
