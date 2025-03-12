@@ -1,0 +1,16 @@
+name: com.frostbun.unit.lifecycle
+displayName: UniT Lifecycle
+description: Lifecycle Manager for Unity
+repoUrl: https://github.com/frostbun/UniT.Lifecycle
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: frostbun
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741773303337
