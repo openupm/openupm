@@ -1,0 +1,17 @@
+name: com.ktgame.manager.ui
+displayName: com.ktgame.manager.ui
+description: core ui
+repoUrl: https://github.com/KhanhTQ-hub/com.ktgame.manager.ui
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - gui
+  - level-design
+hunter: KhanhTQ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1741754607061
