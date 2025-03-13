@@ -209,3 +209,22 @@ scopes:
 # https://github.com/techno-dwarf-works/better-components
 - com.tdw.better.components
 
+# The packages that are deprecated by the author and the source repository is no longer available
+- com.ktgame.core
+- com.ktgame.foundation
+- com.ktgame.assets.loader.addressables
+- com.ktgame.assets.loader.core
+- com.ktgame.assets.loader.resources
+- com.ktgame.command-bus
+- com.ktgame.config.core
+- com.ktgame.manager.pool
+- com.ktgame.manager.ui
+- com.ktgame.services.command-bus
+- com.ktgame.services.scene
+- com.ktgame.unitask.extensions
+- com.ktgame.unitask
+- com.ktgame.unregister
+- com.ktgame.utils.asset-overwriter
+- com.ktgame.utils.class-type-reference
+- com.ktgame.utils.time-scale-on-toolbar
+
