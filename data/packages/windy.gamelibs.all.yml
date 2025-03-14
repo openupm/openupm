@@ -1,0 +1,16 @@
+name: windy.gamelibs.all
+displayName: GameLibs
+description: Unity Game Libs
+repoUrl: https://github.com/windyuuy/UnityGameLibs
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache License
+image: ''
+topics:
+  - utilities
+hunter: windyuuy/UnityGameLibs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1741966934623
