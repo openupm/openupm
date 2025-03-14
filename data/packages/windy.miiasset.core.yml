@@ -1,0 +1,16 @@
+name: windy.miiasset.core
+displayName: MiiAsset
+description: Unity Resource and Code hot update
+repoUrl: https://github.com/windyuuy/MiiAsset
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache License
+image: ''
+topics:
+  - asset-management
+hunter: windyuuy/MiiAsset
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1741966934624
