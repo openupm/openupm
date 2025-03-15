@@ -12,5 +12,5 @@ hunter: windyuuy/MiiAsset
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: develop:Packages/windy.miiasset.core/Documentation/README.md
+readme: develop:README.md
 createdAt: 1741966934627
