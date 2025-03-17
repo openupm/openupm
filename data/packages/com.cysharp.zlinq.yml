@@ -1,0 +1,19 @@
+name: com.cysharp.zlinq
+displayName: ZLinq
+description: >-
+  Zero allocation LINQ with Span and LINQ to SIMD, LINQ to Tree(FileSystem,
+  GameObject, etc...) for all .NET platforms and Unity.
+repoUrl: https://github.com/Cysharp/ZLinq
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742202414328
