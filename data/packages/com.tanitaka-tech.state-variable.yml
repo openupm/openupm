@@ -1,0 +1,18 @@
+name: com.tanitaka-tech.state-variable
+displayName: State Variable
+description: A library for managing state variables
+repoUrl: https://github.com/tanitaka-tech/StateVariable
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - frameworks
+  - utilities
+hunter: tanitaka-tech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1742440807485
