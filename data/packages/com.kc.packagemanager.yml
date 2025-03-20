@@ -1,0 +1,16 @@
+name: com.kc.packagemanager
+displayName: KC.PackageManager
+description: KC包体管理器
+repoUrl: https://github.com/zkyvette425/com.kc.packagemanager
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+hunter: zkyvette425
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742467422615
