@@ -1,0 +1,20 @@
+name: games.carter.standalone.notiondata
+displayName: Notion Data (Standalone)
+description: >-
+  A system to import Notion databases into a Unity scriptable object for use in
+  Unity projects. This is a standalone version of the system in the Cart library
+  of the same name.
+repoUrl: https://github.com/CarterGames/NotionToUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://carter.games/storage/2024/09/Banner.webp
+topics:
+  - data-management
+  - utilities
+hunter: CarterGames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742739450906
