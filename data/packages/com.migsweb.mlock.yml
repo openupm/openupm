@@ -1,0 +1,19 @@
+name: com.migsweb.mlock
+displayName: MLock
+description: >-
+  A flexible and efficient lock system for Unity that manages access to gameplay
+  elements based on configurable tags.
+repoUrl: https://github.com/migus88/mlock
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - services
+hunter: migus88
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742853009006
