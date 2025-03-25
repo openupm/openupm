@@ -1,0 +1,53 @@
+name: com.hs-architect.addressable-resources-system
+displayName: Addressables Reosurce Management
+description: >-
+  This is Addressables Wrapping Utility, a powerful wrapper solution for Unity's
+  Addressables system.
+
+
+  This package simplifies the complex Addressables API and streamlines your game
+  development workflow:
+
+
+  - AssetEntry System: Provides safe and consistent access to all addressable
+  assets
+
+  - Automatic Memory Management: Auto-release through MonoBehaviourTracker when
+  instantiating
+
+  - Synchronous and Asynchronous Instantiation: Support for both Instantiate and
+  InstantiateAsync methods
+
+  - Advanced Handle Tracking: Prevents memory leaks with HandleTrackingSystem
+
+  - Efficient Asset Group Management: Optimizes memory usage through proper
+  asset group organization
+
+  - Unity 2023+ Support: High-performance asynchronous instantiation using
+  AsyncInstantiateOperation
+
+
+  This package is the optimal solution for simplifying resource loading
+  management in large game projects, optimizing memory usage, and improving
+  loading performance.
+
+
+  Use this package to systematically manage assets and resources in large-scale
+  projects.
+repoUrl: https://github.com/HuiSungz/Unity-AddressableResourcesSystem
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/f9143cbf-dfe7-4278-9f5d-efc019e8bc7d
+topics:
+  - asset-management
+  - frameworks
+  - integration
+  - mobile
+hunter: HuiSungz
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742888550864
