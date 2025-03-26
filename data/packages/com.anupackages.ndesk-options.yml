@@ -1,0 +1,18 @@
+name: com.anupackages.ndesk-options
+displayName: ANU NDesk.Options
+description: >-
+  Providing NDesk.Options by ANU because of missing original package in Unity
+  PackageManager
+repoUrl: https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.ndesk-options
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1743002977325
