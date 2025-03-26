@@ -1,0 +1,18 @@
+name: com.anupackages.debugconsole
+displayName: ANU Ingame debug console
+description: Provides easy way to create and invoke debug commands in game console
+repoUrl: https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.debugconsole
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.debugconsole/assets/15821105/f550ef6b-0975-4231-8228-fe37b7a222dc
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742982209976
