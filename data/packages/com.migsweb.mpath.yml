@@ -1,0 +1,21 @@
+name: com.migsweb.mpath
+displayName: MPath
+description: >-
+  High-performance, memory-efficient A* pathfinding implementation for
+  grid-based environments with minimal garbage collection overhead
+repoUrl: https://github.com/migus88/MPath
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - services
+  - terrain
+  - utilities
+hunter: migus88
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1743001725864
