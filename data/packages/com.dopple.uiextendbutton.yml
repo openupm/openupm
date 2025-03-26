@@ -1,0 +1,22 @@
+name: com.dopple.uiextendbutton
+displayName: UI Extend Button
+description: >-
+  A Unity UI extension for customizing button visuals, including hover effects,
+  press states, and automatic color adjustments.
+repoUrl: https://github.com/doppleddiggong/UIExtendButton
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/9bd8a5a2-0a01-4d0a-b837-95a290c12097
+topics:
+  - 2d
+  - gui
+  - mobile
+  - utilities
+hunter: doppleddiggong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1742980076309
