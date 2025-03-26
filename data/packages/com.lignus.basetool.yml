@@ -1,0 +1,20 @@
+name: com.lignus.basetool
+displayName: Base Tool
+description: The starter package to your every Unity projects
+repoUrl: https://github.com/DarkRewar/BaseTool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/7771426/327431797-ab5fdd5a-cddf-4418-9973-820091c797f0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMwMDExNjcsIm5iZiI6MTc0MzAwMDg2NywicGF0aCI6Ii83NzcxNDI2LzMyNzQzMTc5Ny1hYjVmZGQ1YS1jZGRmLTQ0MTgtOTk3My04MjAwOTFjNzk3ZjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjZUMTQ1NDI3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjRhMTk4ZWQ4NTc5NGRjNWMyNTA1ZjU0Nzc1ZGIxYjE5YjM0YjFmNTVhYWYzYjUzNjZmNGMxMDA3NmE4YTYyYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.-i81Twg5EVwasRMqMGzPEtmbJNZZxlz-L_Xq-N6Xtds
+topics:
+  - 2d
+  - camera
+  - frameworks
+  - utilities
+hunter: DarkRewar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1743000933974
