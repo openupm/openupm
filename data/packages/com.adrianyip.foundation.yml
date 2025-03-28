@@ -1,0 +1,16 @@
+name: com.adrianyip.foundation
+displayName: AYip Foundation
+description: This is the foundation package for my other packages.
+repoUrl: https://github.com/adrianyip-1222/ayip-package-foundation
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: adrianyip-1222
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1743138689249
