@@ -1,0 +1,16 @@
+name: com.adrianyip.events
+displayName: AYip Events
+description: This is a simplest but robust events package for events and event bus.
+repoUrl: https://github.com/adrianyip-1222/ayip-package-events
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: adrianyip-1222
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1743138746667
