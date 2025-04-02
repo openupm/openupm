@@ -16,5 +16,5 @@ hunter: pavelbalancy
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:Assets/Balancy/README.md
+readme: main:README.md
 createdAt: 1743543965687
