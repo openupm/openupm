@@ -1,6 +1,6 @@
 name: com.kwanjoong.nope
 displayName: Unity NOPE
-description: No Overused Possibly Evil exceptions.
+description: The fastest functional programming library for Unity – the easiest and quickest way to handle exceptions and null values.
 repoUrl: https://github.com/kwan3854/Unity-NOPE
 parentRepoUrl: null
 licenseSpdxId: MIT
