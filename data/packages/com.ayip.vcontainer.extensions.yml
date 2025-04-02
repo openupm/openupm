@@ -1,0 +1,16 @@
+name: com.ayip.vcontainer.extensions
+displayName: AYip VContainer Extensions
+description: This is a simple extension package for VContainer
+repoUrl: https://github.com/adrianyip-1222/ayip-package-vcontainer-extensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: adrianyip-1222
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1743575833319
