@@ -1,4 +1,4 @@
-name: com.ayip.vcontainer.extensions
+name: com.adrianyip.vcontainer.extensions
 displayName: AYip VContainer Extensions
 description: This is a simple extension package for VContainer
 repoUrl: https://github.com/adrianyip-1222/ayip-package-vcontainer-extensions
@@ -11,6 +11,6 @@ topics:
 hunter: adrianyip-1222
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.1.2'
 readme: master:README.md
 createdAt: 1743575833319
