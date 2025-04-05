@@ -1,0 +1,16 @@
+name: jaf.shafir.hotline-camera
+displayName: Hotline Camera
+description: Hotline Miami inspired camera
+repoUrl: https://github.com/JafarovJafar/hotline-camera
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+hunter: JafarovJafar
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1743882142900
