@@ -1,0 +1,21 @@
+name: gg.idem.unity-integration
+displayName: Idem Unity Integration
+description: >-
+  Player-based Idem matchmaking implementation for Unity, both client and server
+  parts
+repoUrl: https://github.com/idem-matchmaking/unity-integration
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - network
+  - services
+hunter: d-fofanov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.0.1
+readme: main:README.md
+createdAt: 1743970698416
