@@ -4,6 +4,7 @@ description: Custom Animator for 2D Sprites!
 repoUrl: https://github.com/biinci/PixelAnimator
 parentRepoUrl: null
 licenseSpdxId: LGPL-2.1
+unity: 2023.2
 licenseName: GNU Lesser General Public License v2.1
 image: ''
 topics:
