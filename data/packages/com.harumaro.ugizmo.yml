@@ -6,7 +6,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github-production-user-asset-6210df.s3.amazonaws.com/43531665/431198118-507b9680-ccab-4b38-b15b-21c0b78f2805.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250408T035337Z&X-Amz-Expires=300&X-Amz-Signature=031e5c71114848ef73dfdd17c043992b18c32045dced794685a363e14818d83a&X-Amz-SignedHeaders=host
+  https://github.com/harumas/UGizmo/blob/main/Image/UGizmo-02.png?raw=true
 topics:
   - debugging-and-logging
   - editor-enhancement
