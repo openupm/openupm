@@ -1,0 +1,19 @@
+name: net.narazaka.unity.under-2022-constraint-activator
+displayName: Under 2022 Constraint Activator (Experimental!)
+description: >-
+  Fix `Constraint.constraintActive` when importing unitypackages from
+  Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)
+repoUrl: https://github.com/Narazaka/under-2022-constraint-activator
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - asset-management
+  - utilities
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744177896677
