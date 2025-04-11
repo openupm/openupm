@@ -1,0 +1,16 @@
+name: com.wrj.utils
+displayName: WRJ Utilities
+description: Stuff I use a lot, and a simple AnimationCurve-based tweening interface.
+repoUrl: https://github.com/williamrjackson/UnityScriptingUtilities
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: williamrjackson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1744352047257
