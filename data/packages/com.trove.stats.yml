@@ -1,0 +1,25 @@
+name: com.trove.stats
+displayName: Trove Stats
+description: >-
+  Trove Stats allows you to define identifiable "numbers" (Stats) on entities,
+  and add/remove "rules" (Modifiers) that affect the evaluation of these
+  numbers' values. Modifiers are reactive, and can make the value of a certain
+  attribute depend on the value of another. This tool can be used to
+  effortlessly setup gameplay mechanics such as RPG character/equipment
+  attributes, buffs, effects, roguelike-style stackable powerups and synergies,
+  etc...
+repoUrl: https://github.com/PhilSA/Trove
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/PhilSA/Trove/refs/heads/main/trove_header.png
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: PhilSA
+gitTagPrefix: com.trove.stats
+gitTagIgnore: ''
+minVersion: ''
+readme: main:com.trove.stats/README.md
+createdAt: 1744371691230
