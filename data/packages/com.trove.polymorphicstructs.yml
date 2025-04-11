@@ -1,0 +1,22 @@
+name: com.trove.polymorphicstructs
+displayName: Trove Polymorphic Structs
+description: >-
+  Trove Polymorphic Structs provides a codegen tool for polymorphic behaviour in
+  burstable unmanaged code. They can be used to solve a variety of problems that
+  are not so obvious to solve in ECS, such as ordered events or state machines
+  without structural changes.
+repoUrl: https://github.com/PhilSA/Trove
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/PhilSA/Trove/refs/heads/main/trove_header.png
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: PhilSA
+gitTagPrefix: com.trove.polymorphicstructs
+gitTagIgnore: ''
+minVersion: ''
+readme: main:com.trove.polymorphicstructs/README.md
+createdAt: 1744371590014
