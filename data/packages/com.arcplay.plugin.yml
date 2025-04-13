@@ -1,0 +1,19 @@
+name: com.arcplay.plugin
+displayName: ArcPlay Plugin for Unity
+description: >-
+  The ArcPlay package allows you to easily monetize your Unity apps for Android
+  via a unified C# API in Unity.
+repoUrl: https://github.com/ArcPlayAi/arcplay-unity-android-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+hunter: MonstrousOgre
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1744584527620
