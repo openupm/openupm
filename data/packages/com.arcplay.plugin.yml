@@ -5,8 +5,8 @@ description: >-
   via a unified C# API in Unity.
 repoUrl: https://github.com/ArcPlayAi/arcplay-unity-android-plugin
 parentRepoUrl: null
-licenseSpdxId: MIT License
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - integration
