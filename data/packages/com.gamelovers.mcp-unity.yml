@@ -1,0 +1,25 @@
+name: com.gamelovers.mcp-unity
+displayName: MCP Unity Server
+description: >-
+  The purpose of this package is to provide a MCP Unity Server for executing
+  Unity operations and request Editor information from AI MCP enabled hosts
+repoUrl: https://github.com/CoderGamester/mcp-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+  - integration
+  - network
+  - procedural-generation
+  - services
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744646608760
