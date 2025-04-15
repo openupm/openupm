@@ -1,0 +1,19 @@
+name: com.ivanmurzak.unity.mcp
+displayName: Unity MCP (Model Context Protocol)
+description: >-
+  Unity MCP (Model Context Protocol) package. It includes server for seamless
+  workflow with LLM
+repoUrl: https://github.com/IvanMurzak/Unity-MCP
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/IvanMurzak/Unity-MCP/blob/main/Docs/Images/AiConnector.png?raw=true
+topics:
+  - ai
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744710744954
