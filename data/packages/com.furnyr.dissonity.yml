@@ -1,0 +1,19 @@
+name: com.furnyr.dissonity
+displayName: Dissonity
+description: Interact with the Discord client inside a Unity activity.
+repoUrl: https://github.com/Furnyr/Dissonity
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://repository-images.githubusercontent.com/782092374/6ce67a6e-e333-4fd3-b148-b008030b71f0
+topics:
+  - frameworks
+  - integration
+  - testing
+hunter: Furnyr
+gitTagPrefix: v
+gitTagIgnore: '@'
+minVersion: 2.0.0
+readme: main:unity/README.md
+createdAt: 1744748432743
