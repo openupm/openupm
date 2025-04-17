@@ -1,0 +1,18 @@
+name: io.github.hatayama.inspectorautoassigner
+displayName: InspectorAutoAssigner
+description: ''
+repoUrl: https://github.com/hatayama/InspectorAutoAssigner
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: hatayama
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744852130038
