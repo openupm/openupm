@@ -1,0 +1,16 @@
+name: com.homemade.serialize.core
+displayName: com.homemade.serialize.core
+description: Small package about serialize
+repoUrl: https://github.com/hungpt17102k/com.homemade.serialize.core
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hungpt17102k
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745033437230
