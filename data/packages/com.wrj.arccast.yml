@@ -1,0 +1,17 @@
+name: com.wrj.arccast
+displayName: Arc Raycast
+description: Arc raycast utility using projectile formulas
+repoUrl: https://github.com/williamrjackson/UnityArcRayCast
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/williamrjackson/UnityArcRayCast/refs/heads/master/OpenUpmCover.png
+topics:
+  - ar-and-vr
+hunter: williamrjackson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1745130006874
