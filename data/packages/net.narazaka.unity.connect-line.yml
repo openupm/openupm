@@ -1,0 +1,17 @@
+name: net.narazaka.unity.connect-line
+displayName: Connect Line
+description: A straight mesh connecting two points.
+repoUrl: https://github.com/Narazaka/ConnectLine
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - ar-and-vr
+  - gui
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745138920851
