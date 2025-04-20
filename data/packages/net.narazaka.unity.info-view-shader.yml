@@ -1,0 +1,17 @@
+name: net.narazaka.unity.info-view-shader
+displayName: Info View Shader
+description: "ã\x82­ã\x83£ã\x83©æ\x83\Nå\_±è¡¨ç¤ºã\x81¿ã\x81\x9Fã\x81\x84ã\x81ªUIã\x82\x92ä½\x9Cã\x82\x8Cã\x82\x8Bã\x82·ã\x82§ã\x83¼ã\x83\x80ã\x83¼"
+repoUrl: https://github.com/Narazaka/InfoViewShader
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - ar-and-vr
+  - gui
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745161703559
