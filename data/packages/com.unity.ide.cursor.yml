@@ -1,0 +1,19 @@
+name: com.unity.ide.cursor
+displayName: Cursor Editor
+description: >-
+  Cursor editor integration for supporting Cursor as code editor for unity. Adds
+  support for generating csproj files for intellisense purposes, auto discovery
+  of installations, etc.
+repoUrl: https://github.com/boxqkrtm/com.unity.ide.cursor
+parentRepoUrl: https://github.com/needle-mirror/com.unity.ide.visualstudio
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: boxqkrtm
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1745237430650
