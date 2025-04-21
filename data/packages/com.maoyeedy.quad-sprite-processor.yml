@@ -1,0 +1,18 @@
+name: com.maoyeedy.quad-sprite-processor
+displayName: Quad-Divisible Sprite Processor
+description: Resizes sprite dimensions to be divisible by 4 for optimal compression
+repoUrl: https://github.com/Maoyeedy/QuadSpriteProcessor
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - sprite-management
+  - utilities
+hunter: Maoyeedy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1745095230316
