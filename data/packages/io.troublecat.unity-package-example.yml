@@ -1,0 +1,17 @@
+name: io.troublecat.unity-package-example
+displayName: Unity Package Example
+description: An example of how to structure a Unity Package Project
+repoUrl: https://github.com/troublecatstudios/unity-package-example
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - frameworks
+  - package-management
+hunter: codeimpossible
+gitTagPrefix: upm/
+gitTagIgnore: '-master$'
+minVersion: 0.1.0
+readme: develop:README.md
+createdAt: 1745317811832
