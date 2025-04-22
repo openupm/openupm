@@ -12,6 +12,6 @@ topics:
 hunter: PereViader
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.0.0
+minVersion: 1.99.99
 readme: main:README.md
 createdAt: 1745270822992
