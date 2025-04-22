@@ -1,5 +1,5 @@
 name: com.pereviader.manualdi.async.unity3d
-displayName: ManualDi
+displayName: ManualDi.Async
 description: Fast C# dependency injection library that uses no reflexion
 repoUrl: https://github.com/PereViader/ManualDi.Unity3d
 parentRepoUrl: null
