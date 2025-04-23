@@ -1,0 +1,16 @@
+name: com.simulanis.unity.ai
+displayName: Simulanis AI
+description: AI Connector for Unity - Based on Unity-MCP by Ivan Murzak
+repoUrl: https://github.com/simulanis-dev-yokesh-j/Unity-MCP-Cursor-2o
+parentRepoUrl: https://github.com/IvanMurzak/Unity-MCP
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://www.simulanis.com/assets/img/Simulanis-Logo.svg
+topics:
+  - ai
+hunter: Yokesh-4040
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745397888392
