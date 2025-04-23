@@ -1,0 +1,19 @@
+name: com.simulanis.unity.mcp
+displayName: Simulanis Unity MCP (Model Context Protocol)
+description: >-
+  Simulanis modified version of Unity MCP. Bridge between LLM and Unity. It
+  expose Unity API to LLM and allows LLM to control Unity. It is based on Model
+  Context Protocol (MCP) and uses SignalR for communication.
+repoUrl: https://github.com/simulanis-dev-yokesh-j/Unity-MCP
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+hunter: Yokesh-4040
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745413268037
