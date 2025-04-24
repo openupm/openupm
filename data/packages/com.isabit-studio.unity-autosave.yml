@@ -1,8 +1,6 @@
 name: com.isabit-studio.unity-autosave
 displayName: Autosave for Unity
-description: >-
-  This is a simple autosave plugin for unity using Editor Coroutines to save
-  scenes at a customizable intervals as well as before entering Play mode.
+description: 'Project auto save plugin'
 repoUrl: https://github.com/Isabit-Studio/Unity-Autosave
 parentRepoUrl: https://github.com/aniruddhahar/Unity-Autosave
 licenseSpdxId: MIT
