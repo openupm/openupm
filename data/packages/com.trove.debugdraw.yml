@@ -1,0 +1,19 @@
+name: com.trove.debugdraw
+displayName: Trove Debug Draw
+description: >-
+  Trove Debug Draw is a GPU-persistent burst-compatible debug line/triangle
+  drawer, making it suitable for drawing millions of lines/triangles.
+repoUrl: https://github.com/PhilSA/Trove
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/PhilSA/Trove/blob/main/trove_header.png?raw=true
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: PhilSA
+gitTagPrefix: com.trove.debugdraw
+gitTagIgnore: ''
+minVersion: ''
+readme: main:com.trove.debugdraw/README.md
+createdAt: 1745461013182
