@@ -1,4 +1,4 @@
-name: com.unity.ide.cursor
+name: com.boxqkrtm.ide.cursor
 displayName: Cursor Editor
 description: >-
   Cursor editor integration for supporting Cursor as code editor for unity. Adds
