@@ -1,0 +1,16 @@
+name: com.kc.zxing
+displayName: KC.Zxing
+description: ''
+repoUrl: https://github.com/zkyvette425/com.kc.zxing
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: zkyvette425
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745490034076
