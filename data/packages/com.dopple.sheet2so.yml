@@ -1,0 +1,22 @@
+name: com.dopple.sheet2so
+displayName: Sheet2SO
+description: >-
+  A lightweight tool to import and manage Google Spreadsheet data as Unity
+  ScriptableObjects. Supports custom data structure, editor integration, and
+  flexible template-based workflows.
+repoUrl: https://github.com/doppleddiggong/Sheet2SO
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/doppleddiggong/ReadMeImage/main/capture2.PNG
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - utilities
+hunter: doppleddiggong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1745582695316
