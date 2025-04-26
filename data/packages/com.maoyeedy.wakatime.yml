@@ -1,0 +1,19 @@
+name: com.maoyeedy.wakatime
+displayName: WakaTime
+description: WakaTime/Wakapi plugin for Unity
+repoUrl: https://github.com/Maoyeedy/Wakatime.Unity
+parentRepoUrl: https://github.com/vanBassum/Wakatime.Unity
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - integration
+  - services
+  - utilities
+hunter: Maoyeedy
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1745684859585
