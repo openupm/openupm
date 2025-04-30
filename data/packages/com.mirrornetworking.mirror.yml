@@ -1,0 +1,17 @@
+name: com.mirrornetworking.mirror
+displayName: Mirror
+description: 'quote from https://github.com/MirrorNetworking/Mirror'
+repoUrl: https://github.com/960208781/UnityMirror
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://mirror-networking.com/wp-content/uploads/2022/07/mirror_icon_1950x1300_M_reviews_SMALL.png
+topics:
+  - network
+hunter: '960208781'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1746014659798
