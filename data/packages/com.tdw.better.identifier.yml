@@ -1,0 +1,16 @@
+name: com.tdw.better.identifier
+displayName: Better Identifier
+description: ' '
+repoUrl: https://github.com/techno-dwarf-works/better-identifier
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: techno-dwarf-works
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1746128329837
