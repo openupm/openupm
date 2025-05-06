@@ -1,0 +1,23 @@
+{
+  "name": "com.conceptfactory.core",
+  "displayName": "Concept Factory Core",
+  "version": "1.0.0",
+  "type": "tool",
+  "unity": "6000.0",
+  "unityRelease": "43f1",
+  "description": "Core package of ConceptFactory, providing essential utilities and components for building robust projects. It includes common system abstractions and data management tools, serving as the foundation for other packages in the collection. Ideal for use in any Unity project for reusable, high-performance solutions.",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "license": "Source-Available \u2013 No Modification",
+  "licensesUrl": "SEE LICENSE FILE",
+  "keywords": [],
+  "author": {
+    "name": "Concept Factory",
+    "email": "conceptfac@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conceptfac/com.conceptfactory.core.git"
+  }
+}
