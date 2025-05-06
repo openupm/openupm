@@ -1,0 +1,19 @@
+name: com.rebeat.openapicodegen
+displayName: OpenApiCodeGen
+description: >-
+  This is a package to make a rest api client c-sharp file from swagger's json
+  and yaml
+repoUrl: https://github.com/rebeat-jp/UnityOpenApiCodeGen
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - network
+hunter: HIROHIRO1224
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: release:README.md
+createdAt: 1746516551639
