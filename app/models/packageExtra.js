@@ -67,6 +67,45 @@ const getReadmeSyncTime = async function(packageName) {
   return parseInt(value) || 0;
 };
 
+/**
+ * Get image query data for a package, return { imageUrl, width, height, fit }
+ * @param {string} packageName
+ */
+const getImageQueryForPackage = async function(packageName) {
+  // get the image url
+  const pkg = await loadPackage(packageName);
+  const imageUrl = pkg.image;
+  if (!imageUrl) return null;
+  const width = config.packageExtra.image.width;
+  const height = config.packageExtra.image.height;
+  const fit = pkg.imageFit == "contain" ? "contain" : "cover";
+  return { imageUrl, width, height, fit };
+};
+
+/**
+ * Get image query data for a GitHub user, return { imageUrl, width, height, fit }
+ * @param {string} username
+ * @param {Number} size
+ */
+const getImageQueryForGithubUser = async function(username, size) {
+  // get the image url
+  const imageUrl = `https://github.com/${username}.png?size=${size}`;
+  return { imageUrl, width: size, height: size, fit: "cover" };
+};
+
+/**
+ * Get the cached image filename
+ * @param {string} packageName
+ */
+const getCachedImageFilename = async function(packageName) {
+  const imageQuery = await getImageQueryForPackage(packageName);
+  if (imageQuery) {
+    const imageData = await getImage(imageQuery);
+    if (imageData) return imageData.filename;
+  }
+  return null;
+};
+
 const setInvalidTags = async function(packageName, tags) {
   const jsonText = JSON.stringify(tags, null, 0);
   await setValue(packageName, propKeys.invalidTags, jsonText);
