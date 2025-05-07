@@ -1,0 +1,18 @@
+name: com.inhumatesystems.rti
+displayName: Inhumate RTI
+description: Inhumate RTI Integration - for co-simulation, networking, prototyping etc
+repoUrl: https://github.com/inhumatesystems/unity-rti
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  http://raw.githubusercontent.com/inhumatesystems/unity-rti/main/images/openupm-cover.jpg
+topics:
+  - integration
+  - network
+hunter: minsulander
+gitTagPrefix: ''
+gitTagIgnore: '-(release|fix.*)$'
+minVersion: 1.0.2
+readme: main:README.md
+createdAt: 1746645307625
