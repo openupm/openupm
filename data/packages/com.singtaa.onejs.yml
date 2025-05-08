@@ -1,0 +1,19 @@
+name: com.singtaa.onejs
+displayName: OneJS
+description: >-
+  OneJS brings JavaScript and many beloved web techs to Unity, seamlessly
+  integrating with UI Toolkit without the need for a browser or webview.
+repoUrl: https://github.com/Singtaa/OneJS
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://camo.githubusercontent.com/86320cd76e3846932bb05aa8f99e2563517a539f022a60173c32d694eae739ac/68747470733a2f2f6f6e656a732e636f6d2f696d616765732f4f6e654a535f42616e6e65722e6a7067
+topics:
+  - gui
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1746723229577
