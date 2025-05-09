@@ -1,0 +1,17 @@
+name: com.fullmetalbagel.overlook-pool
+displayName: Overlook Pool
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: quabug
+gitTagPrefix: overlook-pool/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1746768402970
