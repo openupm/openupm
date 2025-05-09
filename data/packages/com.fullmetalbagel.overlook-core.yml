@@ -1,0 +1,17 @@
+name: com.fullmetalbagel.overlook-core
+displayName: Overlook Core
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: quabug
+gitTagPrefix: overlook-core/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1746768265898
