@@ -1,0 +1,16 @@
+name: com.fullmetalbagel.overlook-ecs
+displayName: Overlook ECS
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: quabug
+gitTagPrefix: overlook-ecs/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1746768371322
