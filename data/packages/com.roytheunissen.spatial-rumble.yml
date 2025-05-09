@@ -1,0 +1,19 @@
+name: com.roytheunissen.spatial-rumble
+displayName: Spatial Rumble
+description: >-
+  System for emitting pre-defined controller vibrations/rumbles in a spatialized
+  way.
+repoUrl: https://github.com/RoyTheunissen/Spatial-Rumble
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - input-management
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1746781542626
