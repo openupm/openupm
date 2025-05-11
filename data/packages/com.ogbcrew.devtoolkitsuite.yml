@@ -1,0 +1,21 @@
+name: com.ogbcrew.devtoolkitsuite
+displayName: DevToolkit Suite
+description: "All-in-one editor toolkit for optimizing your Unity workflow â\x80\x94 from project organization to runtime data inspection."
+repoUrl: https://github.com/slowac/com.ogbcrew.devtoolkitsuite
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: slowac
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747005437591
