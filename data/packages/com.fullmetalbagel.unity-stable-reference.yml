@@ -1,0 +1,18 @@
+name: com.fullmetalbagel.unity-stable-reference
+displayName: Unity Stable Reference
+description: 'A Unity package that provides stable `[SerializeReference]` to objects through source generation, allowing for reliable serialization even after type changes.'
+repoUrl: https://github.com/Full-Metal-Bagel/unity-stable-reference
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: quabug
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747105167188
