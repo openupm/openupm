@@ -80,4 +80,18 @@
   "volta": {
     "node": "14.21.3"
   }
+  {
+    "name": "ch.fcbg.bitalino-reader",
+    "displayName": "Bitalino Reader",
+    "repo": "https://github.com/fcbg-platforms/BitalinoUnityReader",
+    "path": "BitalinoPackage/Packages/ch.fcbg.bitalino-reader",
+    "license": "MIT",
+    "author": {
+      "name": "FCBG VR",
+      "email": "vr@fcbg.ch",
+      "url": "https://vr.fcbg.ch"
+    },
+    "keywords": [ "bitalino", "lsl", "biofeedback" ],
+    "type": "library"
+  }
 }
