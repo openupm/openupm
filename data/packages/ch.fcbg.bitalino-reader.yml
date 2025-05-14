@@ -1,0 +1,16 @@
+name: ch.fcbg.bitalino-reader
+displayName: Bitalino Reader
+description: Package for reading bitalino
+repoUrl: https://github.com/fcbg-platforms/BitalinoUnityReader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: NathanA14
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:BitalinoPackage/Packages/ch.fcbg.bitalino-reader/README.md
+createdAt: 1747234060482
