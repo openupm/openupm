@@ -1,7 +1,7 @@
 name: net.skeyll.synicsugar
 displayName: SynicSugar
-description: No use cost and no CCU Limit Netcode for Unity.
-repoUrl: 'https://github.com/skeyll/SynicSugar'
+description: Free, full-featured Unity netcode with no CCU or hosting costs.
+repoUrl: 'https://github.com/SynicSugar/SynicSugar'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -15,5 +15,5 @@ image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: 'SynicSugar'
-description_zhCN: '免费使用，无ccu限制的全网格网络库'
+description_zhCN: '免费的 Unity 全功能网络库，无 CCU 限制，无托管成本。'
 createdAt: 1681017550891
