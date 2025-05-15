@@ -1,0 +1,20 @@
+name: dev.hypernex.cck.unity.emulator
+displayName: Hypernex.CCK.Unity.Emulator
+description: The Editor Emulator for the Content Creation Kit (CCK) for Hypernex in Unity.
+repoUrl: https://github.com/TigersUniverse/Hypernex.CCK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/TigersUniverse/Hypernex.CCK/refs/heads/main/Packages/dev.hypernex.cck.unity/Resources/Hypernex_CCK.png
+topics:
+  - ar-and-vr
+  - asset-management
+  - editor-enhancement
+  - package-management
+hunter: TigersUniverse
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747275878400
