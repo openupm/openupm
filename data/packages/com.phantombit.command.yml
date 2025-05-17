@@ -1,0 +1,20 @@
+name: com.phantombit.command
+displayName: .Command
+description: >-
+  A powerful in-game command console and log viewer for Unity. View logs,
+  inspect objects, execute commands, and debug on any platform.
+repoUrl: https://github.com/ArtOfSettling/UnityInGameConsoleUPM
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://dotcommand-documentation.readthedocs.io/en/latest/_images/mainwindowoverview.svg
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+hunter: ArtOfSettling
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747522958116
