@@ -1,0 +1,18 @@
+name: com.niikelion.toko.core
+displayName: Toko
+description: State management library for Unity.
+repoUrl: https://github.com/Niikelion/Toko
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/Niikelion/Toko/blob/v1.0.0/Assets~/TokoWide512x1024.png?raw=true
+topics:
+  - data-management
+  - utilities
+hunter: Niikelion
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1747509297340
