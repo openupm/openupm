@@ -32,6 +32,7 @@ const propKeys = {
   updatedTime: "updatedTime",
   version: "ver",
   monthlyDownloads: "dl30d",
+  readmeSyncTime: "readmeSyncTime", // NEW: Key for README sync time
 };
 
 /**
@@ -44,6 +45,65 @@ const getPropKeyForLang = function(propKey, lang) {
   if (!lang || lang == "en-US") return propKey;
   else if (lang == "zh-CN") return propKey + "_zhCN";
   else throw new Error("Not implemented yet");
+};
+
+/**
+ * Set README sync time for a package.
+ * @param {string} packageName - The name of the package.
+ * @param {number} syncTime - The sync time (timestamp) to set.
+ * @returns {Promise<void>} - A Promise that resolves when the sync time has been set.
+ */
+const setReadmeSyncTime = async function(packageName, syncTime) {
+  await setValue(packageName, propKeys.readmeSyncTime, syncTime.toString());
+};
+
+/**
+ * Get README sync time for a package.
+ * @param {string} packageName - The name of the package.
+ * @returns {Promise<number>} - A Promise that resolves to the sync time (timestamp).
+ */
+const getReadmeSyncTime = async function(packageName) {
+  const value = await getValue(packageName, propKeys.readmeSyncTime);
+  return parseInt(value) || 0;
+};
+
+/**
+ * Get image query data for a package, return { imageUrl, width, height, fit }
+ * @param {string} packageName
+ */
+const getImageQueryForPackage = async function(packageName) {
+  // get the image url
+  const pkg = await loadPackage(packageName);
+  const imageUrl = pkg.image;
+  if (!imageUrl) return null;
+  const width = config.packageExtra.image.width;
+  const height = config.packageExtra.image.height;
+  const fit = pkg.imageFit == "contain" ? "contain" : "cover";
+  return { imageUrl, width, height, fit };
+};
+
+/**
+ * Get image query data for a GitHub user, return { imageUrl, width, height, fit }
+ * @param {string} username
+ * @param {Number} size
+ */
+const getImageQueryForGithubUser = async function(username, size) {
+  // get the image url
+  const imageUrl = `https://github.com/${username}.png?size=${size}`;
+  return { imageUrl, width: size, height: size, fit: "cover" };
+};
+
+/**
+ * Get the cached image filename
+ * @param {string} packageName
+ */
+const getCachedImageFilename = async function(packageName) {
+  const imageQuery = await getImageQueryForPackage(packageName);
+  if (imageQuery) {
+    const imageData = await getImage(imageQuery);
+    if (imageData) return imageData.filename;
+  }
+  return null;
 };
 
 const setInvalidTags = async function(packageName, tags) {
@@ -133,45 +193,6 @@ const getReadmeHtml = async function(packageName, lang) {
   const key = getPropKeyForLang(propKeys.readmeHtml, lang);
   const text = await getValue(packageName, key);
   return text;
-};
-
-/**
- * Get image query data for a package, return { imageUrl, width, height, fit }
- * @param {string} packageName
- */
-const getImageQueryForPackage = async function(packageName) {
-  // get the image url
-  const pkg = await loadPackage(packageName);
-  const imageUrl = pkg.image;
-  if (!imageUrl) return null;
-  const width = config.packageExtra.image.width;
-  const height = config.packageExtra.image.height;
-  const fit = pkg.imageFit == "contain" ? "contain" : "cover";
-  return { imageUrl, width, height, fit };
-};
-
-/**
- * Get image query data for a GitHub user, return { imageUrl, width, height, fit }
- * @param {string} username
- * @param {Number} size
- */
-const getImageQueryForGithubUser = async function(username, size) {
-  // get the image url
-  const imageUrl = `https://github.com/${username}.png?size=${size}`;
-  return { imageUrl, width: size, height: size, fit: "cover" };
-};
-
-/**
- * Get the cached image filename
- * @param {string} packageName
- */
-const getCachedImageFilename = async function(packageName) {
-  const imageQuery = await getImageQueryForPackage(packageName);
-  if (imageQuery) {
-    const imageData = await getImage(imageQuery);
-    if (imageData) return imageData.filename;
-  }
-  return null;
 };
 
 const setRepoPushedTime = async function(packageName, value) {
@@ -295,6 +316,7 @@ module.exports = {
   getUnityVersion,
   getUpdatedTime,
   getVersion,
+  getReadmeSyncTime, // NEW: Export method to get README sync time
   propKeys,
   setAggregatedExtraData,
   setInvalidTags,
@@ -312,4 +334,5 @@ module.exports = {
   setUnityVersion,
   setUpdatedTime,
   setVersion,
+  setReadmeSyncTime, // NEW: Export method to set README sync time
 };
