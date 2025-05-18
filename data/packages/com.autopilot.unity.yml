@@ -1,0 +1,17 @@
+name: com.autopilot.unity
+displayName: Unity Autopilot
+description: "Unity Autopilot is an AI-powered tool integrated into the Unity Editor, allowing developers and creators to control the editor using natural language commandsâ\x80\x94speeding up workflows by automating tasks described in plain English."
+repoUrl: https://github.com/bhadrik/unity-autopilot
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/bhadrik/unity-autopilot/refs/heads/main/Info/autopilot-window.png
+topics:
+  - ai
+hunter: bhadrik
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Readme.md
+createdAt: 1747594053078
