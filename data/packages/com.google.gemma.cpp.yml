@@ -1,0 +1,21 @@
+name: com.google.gemma.cpp
+displayName: Gemma.cpp for Unity
+description: Unity integration for Gemma.cpp
+repoUrl: https://github.com/google/gemma-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+  - integration
+  - procedural-generation
+  - utilities
+hunter: StephenHodgson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747708971932
