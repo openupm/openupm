@@ -1,0 +1,50 @@
+name: com.gameframex.unity.entry
+displayName: Game Frame X Entry
+description: "独立游戏前后端一体化解决方案,独立游戏开发者的圆梦大使。文档地址: https://gameframex.doc.alianblank.com"
+repoUrl: https://github.com/GameFrameX/com.gameframex.unity.entry
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://gameframex.doc.alianblank.com/logo.png
+topics:
+  - 2d
+  - ai
+  - ar-and-vr
+  - animation
+  - audio
+  - asset-management
+  - camera
+  - code-generation
+  - data-management
+  - debugging-and-logging
+  - dots-and-ecs
+  - editor-enhancement
+  - frameworks
+  - gui
+  - parallelism-and-concurrency
+  - particles-and-effects
+  - input-management
+  - integration
+  - level-design
+  - localization
+  - mobile
+  - modeling
+  - network
+  - package-management
+  - painting
+  - procedural-generation
+  - profiling
+  - physics
+  - services
+  - sprite-management
+  - terrain
+  - testing
+  - utilities
+  - version-control
+  - video
+hunter: alianblank
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747657888070
