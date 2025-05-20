@@ -7,41 +7,7 @@ licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 image: https://gameframex.doc.alianblank.com/logo.png
 topics:
-  - 2d
-  - ai
-  - ar-and-vr
-  - animation
-  - audio
   - asset-management
-  - camera
-  - code-generation
-  - data-management
-  - debugging-and-logging
-  - dots-and-ecs
-  - editor-enhancement
-  - frameworks
-  - gui
-  - parallelism-and-concurrency
-  - particles-and-effects
-  - input-management
-  - integration
-  - level-design
-  - localization
-  - mobile
-  - modeling
-  - network
-  - package-management
-  - painting
-  - procedural-generation
-  - profiling
-  - physics
-  - services
-  - sprite-management
-  - terrain
-  - testing
-  - utilities
-  - version-control
-  - video
 hunter: alianblank
 gitTagPrefix: ''
 gitTagIgnore: ''
