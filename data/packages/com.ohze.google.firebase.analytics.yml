@@ -1,0 +1,23 @@
+name: com.ohze.google.firebase.analytics
+displayName: Firebase Analytics
+description: >-
+  Google Analytics helps you understand and engage your players by revealing
+  what actions they're taking inside your game, where they spend the most time,
+  and why they churn. From acquisition to app usage, Google Analytics will give
+  you insights to make better decisions about your game. You can even combine
+  your analytics data with Google Ads to make sure you're running campaigns that
+  deliver you high-quality players.
+repoUrl: https://github.com/HungPT-Ohze/com.ohze.google.firebase.analytics
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - frameworks
+  - package-management
+hunter: HungPT-Ohze
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747824580481
