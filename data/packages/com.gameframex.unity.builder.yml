@@ -1,0 +1,17 @@
+name: com.gameframex.unity.builder
+displayName: Game Frame X Builder
+description: "独立游戏前后端一体化解决方案,独立游戏开发者的圆梦大使。文档地址: https://gameframex.doc.alianblank.com"
+repoUrl: https://github.com/GameFrameX/com.gameframex.unity.builder
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: https://gameframex.doc.alianblank.com/logo.png
+topics:
+  - frameworks
+  - utilities
+hunter: alianblank
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747657888070
