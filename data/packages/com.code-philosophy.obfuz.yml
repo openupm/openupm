@@ -1,0 +1,20 @@
+name: com.code-philosophy.obfuz
+displayName: Obfuz
+description: >-
+  Obfuz is an open-source Unity code obfuscation tool designed to provide Unity
+  developers with a powerful, secure, and user-friendly code protection
+  solution.
+repoUrl: https://github.com/focus-creative-games/obfuz
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - procedural-generation
+  - utilities
+hunter: FantasyJony
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747922593491
