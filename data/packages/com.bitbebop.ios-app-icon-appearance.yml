@@ -1,0 +1,21 @@
+name: com.bitbebop.ios-app-icon-appearance
+displayName: iOS App Icon Appearance
+description: >-
+  Adds support for Light, Dark, & Tinted iOS App Icon variants, introduced with
+  Xcode 16.
+repoUrl: https://github.com/artstorm/ios-app-icon-appearance
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/artstorm/ios-app-icon-appearance/main/.github/readme/icon.png
+topics:
+  - editor-enhancement
+  - mobile
+  - utilities
+hunter: artstorm
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747920816020
