@@ -1,0 +1,18 @@
+name: com.watanabe-koya.graphicscapture
+displayName: GraphicsCapture
+description: >-
+  An utility to get window/monitor image as Texture2D through WinRT
+  Windows.Graphics.Capture API
+repoUrl: https://github.com/WatanabeKoya/UnityGraphicsCapture
+parentRepoUrl: https://github.com/ruccho/UnityGraphicsCapture
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - video
+hunter: WatanabeKoya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1748510787577
