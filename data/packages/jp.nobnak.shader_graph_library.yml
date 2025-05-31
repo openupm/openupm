@@ -1,0 +1,17 @@
+name: jp.nobnak.shader_graph_library
+displayName: Shader Graph Library (nobnak)
+description: ''
+repoUrl: https://github.com/nobnak/unity-ShaderGraphLibrary
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - procedural-generation
+  - utilities
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1748421752517

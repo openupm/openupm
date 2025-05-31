@@ -9,7 +9,7 @@ image: >-
   https://raw.githubusercontent.com/iDreamsOfGame/ReflexPlus/refs/heads/main/Graphics/openupm-cover.png
 topics:
   - frameworks
-hunter: iDreamsOfGame/ReflexPlus
+hunter: iDreamsOfGame
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''

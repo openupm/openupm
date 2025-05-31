@@ -1,0 +1,17 @@
+name: com.code-philosophy.obfuz4hybridclr
+displayName: Obfuz4HybridCLR
+description: Obfuz4HybridCLR is a obfuz extension for HybridCLR
+repoUrl: https://github.com/focus-creative-games/obfuz
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - procedural-generation
+  - utilities
+hunter: FantasyJony
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1747922643198
