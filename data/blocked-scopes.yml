@@ -228,3 +228,5 @@ scopes:
 - com.ktgame.utils.class-type-reference
 - com.ktgame.utils.time-scale-on-toolbar
 
+# https://github.com/openupm/openupm/issues/5785
+- com.gameframex
