@@ -9,7 +9,7 @@ image: ''
 topics:
   - code-generation
 hunter: quabug
-gitTagPrefix: overlook-pool/v
+gitTagPrefix: overlook-analyzer/v
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
