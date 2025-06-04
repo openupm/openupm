@@ -1,0 +1,16 @@
+name: com.7thbeat.filebrowser
+displayName: Unity File Browser
+description: File browser related utilities for Unity runtime
+repoUrl: https://github.com/7thbeatgames/UnityFileBrowser
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: paring-chan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1749026945413
