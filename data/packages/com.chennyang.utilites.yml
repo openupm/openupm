@@ -1,0 +1,18 @@
+name: com.chennyang.utilites
+displayName: Utilities
+description: >-
+  This is a collection of utilities and templates for Unity development,
+  including basic templates, UI components, and more.
+repoUrl: https://github.com/gus6615/Test_CustomUnityPackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: gus6615
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:CHANGELOG.md
+createdAt: 1749212645329
