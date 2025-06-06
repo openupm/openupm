@@ -1,0 +1,20 @@
+name: com.yandex.mobileads-vungle-mediation
+displayName: Vungle adapter for Yandex Mobile Ads Unity Plugin
+description: >-
+  This adapter allows to use Vungle ad network in conjuction with Yandex Mobile
+  Ads SDK
+repoUrl: https://github.com/yandexmobile/yandex-ads-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: https://legal.yandex.com/partner_ch
+image: https://s3.mds.yandex.net/users/stefjen/cover-hq.png
+topics:
+  - integration
+  - mobile
+  - services
+hunter: mobile-ads-github
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1749218464036
