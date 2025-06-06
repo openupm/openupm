@@ -1,0 +1,19 @@
+name: io.github.idreamsofgame.pharos
+displayName: Pharos
+description: >-
+  Pharos is a lightweight application framework by using ReflexPlus dependency
+  injection library for creating applications based upon the classic
+  Model-View-Controller design meta-pattern.
+repoUrl: https://github.com/iDreamsOfGame/Pharos
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: iDreamsOfGame
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1749196253021
