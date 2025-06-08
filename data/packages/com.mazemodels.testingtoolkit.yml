@@ -1,0 +1,19 @@
+name: com.mazemodels.testingtoolkit
+displayName: Testing Toolkit
+description: >-
+  A lightweight package containing reusable test utilities and wrappers for
+  common testing libraries designed for integration across multiple Unity
+  projects and packages.
+repoUrl: https://github.com/MazeModels/TestingToolkit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - testing
+hunter: s-pittalis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: develop:README.md
+createdAt: 1749395371826
