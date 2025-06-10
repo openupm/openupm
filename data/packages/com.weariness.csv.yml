@@ -1,0 +1,16 @@
+name: com.weariness.csv
+displayName: CSV Utility
+description: "CSV í\x8C\x8Cì\x8B± for Unity"
+repoUrl: https://github.com/weariness00/MyUnituPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - utilities
+hunter: weariness00
+gitTagPrefix: CSV-v
+gitTagIgnore: ''
+minVersion: ''
+readme: CSV:README.md
+createdAt: 1749534886616
