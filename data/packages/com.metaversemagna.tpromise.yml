@@ -1,5 +1,16 @@
 name: com.metaversemagna.tpromise
 displayName: T Promise
-repoUrl: https://github.com/promiseudomah/com.metaversemagna.tpromise.git
+description: T Promise
+repoUrl: https://github.com/promiseudomah/com.metaversemagna.tpromise
+parentRepoUrl: null
 licenseSpdxId: MIT
-docs: https://github.com/promiseudomah/com.metaversemagna.tpromise#readme
+licenseName: MIT License
+image: null
+topics:
+  - utilities
+hunter: promiseudomah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.metaversemagna.tpromise/README.md
+createdAt: 1744543288713
