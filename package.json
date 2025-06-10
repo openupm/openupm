@@ -1,11 +1,11 @@
 {
-  "name": "com.metaversemagna.tpromise",
-  "displayName": "T Promise",
-  "repoUrl": "https://github.com/promiseudomah/com.metaversemagna.tpromise.git",
-  "licenseSpdxId": "MIT",
-  "docs": "https://github.com/promiseudomah/com.metaversemagna.tpromise#readme"
-}
-,
+  {
+    "name": "com.metaversemagna.tpromise",
+    "displayName": "T Promise",
+    "repoUrl": "https://github.com/promiseudomah/com.metaversemagna.tpromise.git",
+    "licenseSpdxId": "MIT",
+    "docs": "https://github.com/promiseudomah/com.metaversemagna.tpromise#readme"
+  },
   "repository": "https://github.com/openupm/openupm.git",
   "scripts": {
     "gh:ratelimit": "node ./app/jobs/getGithubRateLimit.js",
