@@ -1,0 +1,16 @@
+name: com.weariness.extensions
+displayName: Extensions Utility
+description: "í\x99\x95ì\x9E¥ ë©\x94ì\x84\x9Cë\x93\x9C ê´\x80ë\_¨ ì\x9C\_í\x8B¸ë¦¬í\x8B°"
+repoUrl: https://github.com/weariness00/MyUnituPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - package-management
+hunter: weariness00
+gitTagPrefix: Extensions-v
+gitTagIgnore: ''
+minVersion: ''
+readme: Extensions:README.md
+createdAt: 1749520493978
