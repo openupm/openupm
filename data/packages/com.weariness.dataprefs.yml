@@ -1,0 +1,16 @@
+name: com.weariness.dataprefs
+displayName: DataPrefs Utility
+description: DataPrefs Included In Build
+repoUrl: https://github.com/weariness00/MyUnituPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - utilities
+hunter: weariness00
+gitTagPrefix: DataPrefs-v
+gitTagIgnore: ''
+minVersion: ''
+readme: DataPrefs:README.md
+createdAt: 1749536525642
