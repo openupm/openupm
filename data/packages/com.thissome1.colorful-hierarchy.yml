@@ -3,7 +3,7 @@ displayName: Colorful Hierarchy
 description: >-
   Paints your gameObject window with colorful folders. easy access, removed in
   build, can be removed in play mode too for testing and such.
-repoUrl: https://github.com/ThisSome1/OpenUnityPackages
+repoUrl: https://github.com/ThisSome1/ColorfulHierarchy
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0
@@ -14,5 +14,5 @@ hunter: ThisSome1
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:Assets/Packages/ThisSome1/ColorfulHierarchy/README.md
+readme: main:README.md
 createdAt: 1749546278969
