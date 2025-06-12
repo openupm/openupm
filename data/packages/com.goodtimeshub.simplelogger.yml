@@ -1,0 +1,18 @@
+name: com.goodtimeshub.simplelogger
+displayName: Simple Logger
+description: >-
+  A professional, feature-rich logging solution for Unity with color support,
+  runtime filtering, and editor enhancements.
+repoUrl: https://github.com/promiseudomah/Simple-Logger
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: promiseudomah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1749723145579
