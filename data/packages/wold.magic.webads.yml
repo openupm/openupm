@@ -1,0 +1,23 @@
+name: wold.magic.webads
+displayName: Magic WebAds
+description: >-
+  Magic WebAds is a lightweight and modular Unity package for displaying
+  Web3-compatible ads using a built-in WebView system. It supports any
+  HTML-based ad service and gives full control over layout, behavior, and user
+  interaction without requiring external SDKs.
+repoUrl: https://github.com/Woldsdm/wold.magic.webads
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - package-management
+  - utilities
+hunter: Woldsdm
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1749927655345
