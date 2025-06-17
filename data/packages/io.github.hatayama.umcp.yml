@@ -1,0 +1,16 @@
+name: io.github.hatayama.umcp
+displayName: uMCP
+description: Connect your Unity Editor to LLMs using the Model Context Protocol.
+repoUrl: https://github.com/hatayama/uMCP
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: hatayama
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1750155767488
