@@ -1,0 +1,17 @@
+name: dev.purrnet.purrnet
+displayName: PurrNet
+description: A unity networking framework
+repoUrl: https://github.com/PurrNet/PurrNet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/4602596/391192457-25cdde72-47d3-4510-ba82-7348b8dba792.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTAxNDYwODIsIm5iZiI6MTc1MDE0NTc4MiwicGF0aCI6Ii80NjAyNTk2LzM5MTE5MjQ1Ny0yNWNkZGU3Mi00N2QzLTQ1MTAtYmE4Mi03MzQ4YjhkYmE3OTIuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDYxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA2MTdUMDczNjIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGIxZmRjYTA0ZGU3YWZlYWExNjFjMzI4ZmQxNzdiMzQ3OTAzNzc1N2M5OWY4ZTBkNDM0YjU0NjgyMTVlNjc5NCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.rosCFHRAJEmIpjdNUAZF11GE6RdIkeq56zP9DHQNxZU
+topics:
+  - network
+hunter: blenminer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1750145946669
