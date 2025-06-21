@@ -1,0 +1,20 @@
+name: dev.oxido.openmusicplayer
+displayName: Open Music Player
+description: >-
+  Open and simple music playback system based on Events and ScriptableObjects
+  playlists
+repoUrl: https://github.com/Aestial/Unity-OpenMusicPlayer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - gui
+  - utilities
+hunter: Aestial
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1750541745180
