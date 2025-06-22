@@ -1,0 +1,16 @@
+name: com.unity.xr.openxr.picoxr
+displayName: PICO OpenXR Plugin
+description: Provides display and input support for PICO devices.
+repoUrl: https://github.com/Pico-Developer/PICO-Unity-OpenXR-SDK
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Copyright © 2015-2022 PICO Technology Co., Ltd.All rights reserved.
+image: ''
+topics:
+  - ar-and-vr
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1750563891367
