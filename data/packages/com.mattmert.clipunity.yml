@@ -1,0 +1,19 @@
+name: com.mattmert.clipunity
+displayName: CLIP for Unity
+description: CLIP for Unity allows to use CLIP library by OpenAI in the Unity engine.
+repoUrl: https://github.com/matt-mert/CLIPUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: matt-mert
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: master:README.md
+createdAt: 1750601793329
