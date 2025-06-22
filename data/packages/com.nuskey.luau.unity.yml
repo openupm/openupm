@@ -1,0 +1,18 @@
+name: com.nuskey.luau.unity
+displayName: Luau.Unity
+description: High-level Luau bindings for .NET and Unity
+repoUrl: https://github.com/nuskey8/luau-dotnet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1750591409194
