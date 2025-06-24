@@ -1,0 +1,23 @@
+name: com.lgarczyn.animate-ui-material
+displayName: Animate UI Material
+description: >-
+  Animate UI Materials allows editing and animating materials for a single UI
+  component
+repoUrl: https://github.com/lgarczyn/AnimateUIMaterials_UPM
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/lgarczyn/AnimateUIMaterials/blob/main/images/image-header.png?raw=true
+topics:
+  - 2d
+  - animation
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: lgarczyn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Readme.md
+createdAt: 1750807044748
