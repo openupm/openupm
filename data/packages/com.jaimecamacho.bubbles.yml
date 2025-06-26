@@ -1,9 +1,12 @@
 name: com.jaimecamacho.bubbles
 displayName: Bubbles
 description: Sistema de burbujas modular para Unity.
-repo: https://github.com/JaimeCamachoDev/Bubbles.git
-path: Packages/com.jaimecamacho.bubbles
-license: MIT
-author:
-  name: Jaime Camacho
-  url: https://github.com/JaimeCamachoDev
+repoUrl: https://github.com/JaimeCamachoDev/Bubbles
+licenseSpdxId: MIT
+licenseName: MIT License
+# topics: [opcional, e.g. efectos, utilities, etc si existiera uno adecuado]
+# parentRepoUrl: null  (solo si fuera fork de otro proyecto)
+author: 
+  name: Jaime Camacho 
+  url: https://github.com/JaimeCamachoDev 
+# hunter: JaimeCamachoDev  (opcional, se puede incluir tu usuario de GitHub)
