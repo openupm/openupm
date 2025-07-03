@@ -1,0 +1,18 @@
+name: com.edenrompas.er-inspector
+displayName: ER Inspector
+description: >-
+  Custom Unity tool designed to help developers organize the Inspector view in a
+  cleaner
+repoUrl: https://github.com/EdenRompas/ER-Inspector
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: EdenRompas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1751562463401
