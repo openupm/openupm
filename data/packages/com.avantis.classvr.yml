@@ -1,0 +1,19 @@
+name: com.avantis.classvr
+displayName: ClassVR Plugin
+description: >-
+  The ClassVR Unity Plugin provides utilities and assets to enable development
+  for ClassVR headsets and integration with ClassVR cloud services.
+repoUrl: https://github.com/LearnHub/ClassVR-Unity-Plugin
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ar-and-vr
+  - utilities
+hunter: 2kah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1751556844780
