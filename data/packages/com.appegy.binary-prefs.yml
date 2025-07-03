@@ -1,0 +1,16 @@
+name: com.appegy.binary-prefs
+displayName: 'Appegy: Binary Prefs'
+description: Fast persistant thread-safe binary storage for Unity.
+repoUrl: https://github.com/Appegy/BinaryPrefs
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: imurashka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1751560433012
