@@ -1,0 +1,20 @@
+name: com.natsuneko.modelcontextprotocol.management-tools
+displayName: uMCP - Management Tools
+description: >-
+  uMCP is a server implementation of the MCP protocol, designed for working with
+  the AI in Unity. This package provides management tools for uMCP. Asset
+  Management, Scene Management, Window Management, and more.
+repoUrl: https://github.com/mika-f/uMCP
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+hunter: mika-f
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.0.0-alpha.2
+readme: main:README.md
+createdAt: 1751704076832
