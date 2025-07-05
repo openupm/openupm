@@ -1,0 +1,16 @@
+name: com.palapalco.build_name_git_hash
+displayName: Build Name with Git Hash
+description: Create a copy from the original build name and append the current Git hash.
+repoUrl: https://github.com/Ario92/PalapalUnity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - editor-enhancement
+hunter: Ario92
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Dev:Packages/AddGitHashToBuildName/AddGitHashToBuildName/README.md
+createdAt: 1751709051908
