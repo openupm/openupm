@@ -1,0 +1,16 @@
+name: com.gocd.primetween
+displayName: PrimeTween (Fork)
+description: Fork of PrimeTween for internal UPM use.
+repoUrl: https://github.com/chien25062002/PrimeTween
+parentRepoUrl: https://github.com/KyryloKuzyk/PrimeTween
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: saiken
+gitTagPrefix: com.saiken.primetween
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1751700654625
