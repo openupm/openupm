@@ -1,0 +1,20 @@
+name: com.hackerzhuli.code
+displayName: Visual Studio Code Editor
+description: >-
+  Code editor integration for supporting Visual Studio Code (and its popular
+  forks) as code editor for unity. Adds support for generating csproj files for
+  intellisense purposes, auto discovery of installations, etc.
+repoUrl: https://github.com/hackerzhuli/com.hackerzhuli.code
+parentRepoUrl: https://github.com/needle-mirror/com.unity.ide.visualstudio
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - integration
+hunter: hackerzhuli
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1751691939480
