@@ -1,0 +1,21 @@
+name: com.natsuneko.modelcontextprotocol.core-framework
+displayName: uMCP
+description: >-
+  uMCP is a server implementation of the MCP protocol, designed for working with
+  the AI in Unity. This package is the Core Framework of uMCP. Please install
+  the Management Tools and other packages to use the MCP protocol.
+repoUrl: https://github.com/mika-f/uMCP
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - frameworks
+hunter: mika-f
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1751702670451
