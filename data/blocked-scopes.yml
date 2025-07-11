@@ -204,6 +204,7 @@ scopes:
 
 # The testing purpose packages
 - ^com.danij.testpackage
+- com.g00gle.googleads-mobile-unity
 
 # The packages that are deprecated by the author and the source repository may be still available
 # https://github.com/techno-dwarf-works/better-components
