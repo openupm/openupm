@@ -1,0 +1,19 @@
+name: com.google.xr.extensions
+displayName: Android XR Extensions for Unity
+description: >-
+  Android XR Extensions package. This package provides additional XR features
+  that are not yet supported by Unity OpenXR Android XR and OpenXR Plugin
+  packages.
+repoUrl: https://github.com/android/android-xr-unity-package
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache License 2.0, Unity Companion License
+image: ''
+topics:
+  - ar-and-vr
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1752301335958
