@@ -1,0 +1,19 @@
+name: com.github.mrclaus.uniprefabbinder
+displayName: UniPrefabBinder
+description: >-
+  Library for fast prefab binding. Nice architectural solution through
+  attributes.
+repoUrl: https://github.com/MrClaus/UniPrefabBinder
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - frameworks
+hunter: MrClaus
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1752439449145
