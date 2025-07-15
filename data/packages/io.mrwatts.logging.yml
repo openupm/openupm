@@ -1,0 +1,17 @@
+name: io.mrwatts.logging
+displayName: Mr. Watts Logging
+description: Packages used to easily integrate logging into a unity project
+repoUrl: https://github.com/mr-watts/io.mrwatts.serilog-integration
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - integration
+hunter: NoTuxNoBux
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/unity-serilog-integration/README.md
+createdAt: 1752581245464
