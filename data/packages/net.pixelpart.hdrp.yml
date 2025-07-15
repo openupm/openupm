@@ -1,0 +1,16 @@
+name: net.pixelpart.hdrp
+displayName: Pixelpart HDRP
+description: HDRP materials for the Pixelpart runtime plugin.
+repoUrl: https://github.com/soeren-m/pixelpart-plugin-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://pixelpart.net/wp-content/uploads/2023/03/FavIcon.png
+topics:
+  - particles-and-effects
+hunter: soeren-m
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: 1.8.1
+readme: master:README.md
+createdAt: 1752601233877
