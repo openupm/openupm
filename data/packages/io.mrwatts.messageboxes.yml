@@ -1,0 +1,19 @@
+name: io.mrwatts.messageboxes
+displayName: MessageBoxes
+description: >-
+  This package contains the UI and scripts for conveniently implementing
+  MessageBoxes in projects.
+repoUrl: https://github.com/mr-watts/io.mrwatts.messageboxes
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: NoTuxNoBux
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/MessageBoxes/README.md
+createdAt: 1752581286231
