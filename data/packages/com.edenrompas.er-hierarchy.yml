@@ -1,0 +1,16 @@
+name: com.edenrompas.er-hierarchy
+displayName: ER Hierarchy
+description: "Custom tool designed to enhance the visual organization and management of GameObjects within Unityâ\x80\x99s Hierarchy window"
+repoUrl: https://github.com/EdenRompas/ER-Hierarchy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: EdenRompas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1752582885779
