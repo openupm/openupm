@@ -1,0 +1,19 @@
+name: io.mrwatts.item-containers
+displayName: Item Containers
+description: >-
+  Reduces boilerplate when populating and managing item containers (lists,
+  tables, ...).
+repoUrl: https://github.com/mr-watts/io.mrwatts.item-containers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: NoTuxNoBux
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/Package/README.md
+createdAt: 1752581057584
