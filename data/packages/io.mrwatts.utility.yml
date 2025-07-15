@@ -1,0 +1,19 @@
+name: io.mrwatts.utility
+displayName: Utility Package
+description: >-
+  This package contains various scripts and components that are often reused in
+  multiple projects, but don't belong in a specific package.
+repoUrl: https://github.com/mr-watts/io.mrwatts.utility
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - parallelism-and-concurrency
+  - utilities
+hunter: NoTuxNoBux
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:unity-utility-package/Assets/Utility/README.md
+createdAt: 1752581162283
