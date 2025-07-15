@@ -1,0 +1,16 @@
+name: io.mrwatts.statekeepers
+displayName: StateKeepers
+description: This package contains scripts for conveniently implementing State Keeping.
+repoUrl: https://github.com/mr-watts/io.mrwatts.statekeepers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: NoTuxNoBux
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/StateKeepers/README.md
+createdAt: 1752581093367
