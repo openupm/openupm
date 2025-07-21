@@ -1,7 +1,7 @@
-name: com.nowsprinting.test-helper.monkey
-displayName: Monkey Testing Helper
-description: Monkey testing helper library for Unity Test Framework
-repoUrl: 'https://github.com/nowsprinting/test-helper.monkey'
+name: com.nowsprinting.test-helper.ui
+displayName: UI Test Helper
+description: A library for object-based monkey and UI testing.
+repoUrl: 'https://github.com/nowsprinting/test-helper.ui'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -10,7 +10,7 @@ topics:
 hunter: nowsprinting
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 'v1.0.0'
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
