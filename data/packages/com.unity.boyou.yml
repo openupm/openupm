@@ -1,0 +1,16 @@
+name: com.unity.boyou
+displayName: APathFinding
+description: This is A*PathFindingPRo
+repoUrl: https://github.com/hcmyxconan15/Bayou
+parentRepoUrl: https://github.com/FirstGearGames/Bayou
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1753466607499
