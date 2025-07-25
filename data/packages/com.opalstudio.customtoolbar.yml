@@ -1,0 +1,19 @@
+name: com.opalstudio.customtoolbar
+displayName: CustomToolbar
+description: >-
+  A Unity package that provides a custom toolbar for the Unity Editor, allowing
+  developers to create and manage custom editor tools and functionalities.
+repoUrl: https://github.com/Alaxxxx/CustomToolbar
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Alaxxxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1753468353902
