@@ -1,0 +1,19 @@
+name: com.opalstudio.unityeditoricons
+displayName: Unity Editor Icons
+description: >-
+  A Unity package that provides a window to explore Unity Editor icons and
+  generate a readme file with the icons used in Unity Editor.
+repoUrl: https://github.com/Alaxxxx/UnityEditorIcons
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Alaxxxx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1753516262425
