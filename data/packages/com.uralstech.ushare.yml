@@ -1,0 +1,17 @@
+name: com.uralstech.ushare
+displayName: UShare
+description: Share sheet support for mobile platforms.
+repoUrl: https://github.com/Uralstech/UShare
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - integration
+  - mobile
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1753658791142
