@@ -1,0 +1,17 @@
+name: com.indiegabo.hms-unity-sdk
+displayName: HMS Unity SDK
+description: A Unity package for the HMS Unity SDK.
+repoUrl: https://github.com/indiegabo/hms-unity-sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - network
+hunter: indiegabo
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.0.49
+readme: main:README.md
+createdAt: 1753640918724
