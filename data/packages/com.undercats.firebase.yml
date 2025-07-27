@@ -1,0 +1,16 @@
+name: com.undercats.firebase
+displayName: Firebase
+description: Firebase
+repoUrl: https://github.com/hcmyxconan15/firebase
+parentRepoUrl: https://github.com/TeamAcMong/firebase
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1753645837126
