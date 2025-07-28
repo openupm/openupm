@@ -1,0 +1,18 @@
+name: com.uralstech.umoth
+displayName: UMoth
+description: Google and Apple authentication for mobile.
+repoUrl: https://github.com/Uralstech/UMoth
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - integration
+  - mobile
+  - services
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1753721702740
