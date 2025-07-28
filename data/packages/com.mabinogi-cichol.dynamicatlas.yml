@@ -1,0 +1,20 @@
+name: com.mabinogi-cichol.dynamicatlas
+displayName: DynamicAtlas
+description: A dynamic atlas solution for Unity.
+repoUrl: 'https://github.com/Mabinogi-Cichol/Unity-DynamicAtlas'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: mabinogi-cichol
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://github.com/Mabinogi-Cichol/Unity-DynamicAtlas/blob/main/Image~/LOGO.png
+readme: 'master:README.md'
+readme_zhCN: 'master:README.cn.md'
+displayName_zhCN: ''
+description_zhCN: 支持纹理压缩的Unity动态图集
+createdAt: 1717929600000
