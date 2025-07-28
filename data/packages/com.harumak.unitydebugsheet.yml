@@ -1,0 +1,20 @@
+name: com.harumak.unitydebugsheet
+displayName: Unity Debug Sheet
+description: >-
+  Hierarchical debug menu system for Unity that makes it easy to create
+  intuitive and organized debug menus.
+repoUrl: https://github.com/Haruma-K/UnityDebugSheet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - testing
+  - utilities
+hunter: imurashka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1753705577929
