@@ -12,7 +12,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/Mabinogi-Cichol/Unity-DynamicAtlas/blob/main/Image~/LOGO.png
+  https://raw.githubusercontent.com/Mabinogi-Cichol/Unity-DynamicAtlas/refs/heads/master/Image%7E/LOGO.png
 readme: 'master:README.md'
 readme_zhCN: 'master:README.cn.md'
 displayName_zhCN: ''
