@@ -231,6 +231,3 @@ scopes:
 
 # https://github.com/openupm/openupm/issues/5785
 - com.gameframex
-
-# https://github.com/openupm/openupm/pull/5808#issuecomment-2954167263
-- ^com.yandex.mobileads
