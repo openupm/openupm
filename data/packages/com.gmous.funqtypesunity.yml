@@ -1,0 +1,18 @@
+name: com.gmous.funqtypesunity
+displayName: Funq Types Unity
+description: |-
+  A lightweight funky functional types for Unity.
+  This project is based on https://github.com/dnovhorodov/FunqTypes
+repoUrl: https://github.com/GMous/FunqTypesUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: GMous
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754096776672
