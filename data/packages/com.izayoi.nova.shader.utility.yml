@@ -1,0 +1,16 @@
+name: com.izayoi.nova.shader.utility
+displayName: NOVA Shader Utility
+description: This package is utility scripts to get/set NOVA shader property values.
+repoUrl: https://github.com/izayoijiichan/NovaShaderUtility
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754122547432
