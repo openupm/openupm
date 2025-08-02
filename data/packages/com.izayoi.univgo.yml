@@ -1,0 +1,16 @@
+name: com.izayoi.univgo
+displayName: UniVGO
+description: UniVGO is a package that can handle VGO files in Unity.
+repoUrl: https://github.com/izayoijiichan/VGO
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - modeling
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754122300139
