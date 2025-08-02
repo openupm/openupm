@@ -1,0 +1,18 @@
+name: com.izayoi.unishaders
+displayName: UniShaders
+description: >-
+  UniShaders is utility scripts to get/set Unity shader parameters. (standard,
+  particle, skybox HDRP, URP)
+repoUrl: https://github.com/izayoijiichan/UniShaders
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754121590955
