@@ -1,0 +1,16 @@
+name: com.izayoi.liltoon.shader.utility
+displayName: lilToon Shader Utility
+description: This package is utility scripts to get/set lilToon shader property values.
+repoUrl: https://github.com/izayoijiichan/lilToonShaderUtility
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754122441542
