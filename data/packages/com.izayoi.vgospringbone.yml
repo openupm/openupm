@@ -1,0 +1,16 @@
+name: com.izayoi.vgospringbone
+displayName: VgoSpringBone
+description: VgoSpringBone is a processing-optimized Spring Bone.
+repoUrl: https://github.com/izayoijiichan/VgoSpringBone
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - physics
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754122159568
