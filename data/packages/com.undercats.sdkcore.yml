@@ -1,0 +1,16 @@
+name: com.undercats.sdkcore
+displayName: Sdk Core
+description: ''
+repoUrl: https://github.com/hcmyxconan15/SDK-Core
+parentRepoUrl: https://github.com/TeamAcMong/SDK-Core
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754227767626
