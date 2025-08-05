@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/sxm-sxpxxl/ui-factory/blob/7db0974c32df2f09f3f69af6ee083e7613b68ce5/preview.png
+  https://raw.githubusercontent.com/sxm-sxpxxl/ui-factory/master/preview.png
 topics:
   - 2d
   - gui
