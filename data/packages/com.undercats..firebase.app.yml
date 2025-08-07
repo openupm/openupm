@@ -1,0 +1,16 @@
+name: com.undercats..firebase.app
+displayName: Firebase App (Core)
+description: Firebase App is the core library every Firebase package depends on.
+repoUrl: https://github.com/hcmyxconan15/com.ohze.google.firebase.app
+parentRepoUrl: https://github.com/hungpt-ohze-dev/com.ohze.google.firebase.app
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754589847673
