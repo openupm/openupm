@@ -1,0 +1,16 @@
+name: com.yontalane.dialogugui
+displayName: Dialog UGUI
+description: A dialog system.
+repoUrl: https://github.com/yontalane/UnityPackages
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Creative Commons Attribution 3.0 United States
+image: ''
+topics:
+  - gui
+hunter: yontalane
+gitTagPrefix: com.yontalane.dialogugui/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.yontalane.dialogugui/README.md
+createdAt: 1754554755447
