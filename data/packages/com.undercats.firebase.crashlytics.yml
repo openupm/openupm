@@ -1,0 +1,18 @@
+name: com.undercats.firebase.crashlytics
+displayName: Firebase Crashlytics
+description: >-
+  Crashlytics saves you troubleshooting time by intelligently grouping crashes
+  and highlighting the circumstances that lead up to them.
+repoUrl: https://github.com/hcmyxconan15/com.ohze.google.firebase.crashlytics
+parentRepoUrl: https://github.com/hungpt-ohze-dev/com.ohze.google.firebase.crashlytics
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754589886878
