@@ -1,0 +1,20 @@
+name: com.undercats.firebase.remote-config
+displayName: Firebase Remote Config
+description: >-
+  Firebase Remote Config is a cloud service that lets you change the behavior
+  and appearance of your client app or server without requiring users to
+  download an app update. When using Remote Config, you create in-app default
+  values that control the behavior and appearance of your application.
+repoUrl: https://github.com/hcmyxconan15/com.ohze.google.firebase.remote-config
+parentRepoUrl: https://github.com/hungpt-ohze-dev/com.ohze.google.firebase.remote-config
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: hcmyxconan12
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754589759458
