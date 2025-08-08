@@ -1,0 +1,21 @@
+name: com.woo.actioneditor
+displayName: ActionEditor
+description: ActionEditor
+repoUrl: https://github.com/OnClick9927/ActionEditor
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/2d9a3c6d-9866-4e8b-a00e-2f406efc3ded
+topics:
+  - editor-enhancement
+  - frameworks
+  - gui
+  - procedural-generation
+  - utilities
+hunter: OnClick9927
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1754622102359
