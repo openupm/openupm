@@ -1,0 +1,18 @@
+name: com.mezookan.favorite-assets
+displayName: Favorite Assets
+description: >-
+  A Unity Editor tool that allows you to mark assets and folders as favorites
+  for quick access through a dedicated window with context menu integration.
+repoUrl: https://github.com/Abbabon/favorite-assets
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Abbabon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1754822060099
