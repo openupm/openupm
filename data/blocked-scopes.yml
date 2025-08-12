@@ -206,10 +206,6 @@ scopes:
 - ^com.danij.testpackage
 - com.g00gle.googleads-mobile-unity
 
-# The packages that are deprecated by the author and the source repository may be still available
-# https://github.com/techno-dwarf-works/better-components
-- com.tdw.better.components
-
 # The packages that are deprecated by the author and the source repository is no longer available
 - com.ktgame.core
 - com.ktgame.foundation
@@ -228,6 +224,10 @@ scopes:
 - com.ktgame.utils.asset-overwriter
 - com.ktgame.utils.class-type-reference
 - com.ktgame.utils.time-scale-on-toolbar
+
+# The packages that are deprecated by the author and the source repository is no longer available
+- com.tdw.better.components
+- com.tdw.better.operations
 
 # https://github.com/openupm/openupm/issues/5785
 - com.gameframex
