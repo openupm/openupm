@@ -1,0 +1,20 @@
+name: com.v0lt.editor-attributes
+displayName: EditorAttributes
+description: >-
+  EditorAttributes is a unity package that adds some extra editor attributes to
+  your project to easly customize your editors without having to write any
+  editor code.
+repoUrl: https://github.com/v0lt13/EditorAttributes
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: >-
+  https://github.com/v0lt13/EditorAttributes/blob/main/Samples~/EditorAttributesIcon.png
+topics:
+  - editor-enhancement
+hunter: ThisSome1
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755160730631
