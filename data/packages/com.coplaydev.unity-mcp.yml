@@ -1,0 +1,21 @@
+name: com.coplaydev.unity-mcp
+displayName: Unity MCP
+description: >-
+  A bridge that connects an LLM to Unity via the MCP (Model Context Protocol).
+  This allows MCP Clients like Claude Desktop or Cursor to directly control your
+  Unity Editor.
+repoUrl: https://github.com/CoplayDev/unity-mcp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/CoplayDev/unity-mcp/refs/heads/main/logo.png
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+hunter: msanatan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755213935661
