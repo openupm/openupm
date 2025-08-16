@@ -1,0 +1,17 @@
+name: dev.purrnet.purrdiction
+displayName: Purrdiction
+description: An addon to PurrNet for CSP (client side prediction)
+repoUrl: https://github.com/PurrNet/PurrDiction
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/2f6e1d26-769a-4bf6-a68f-5c7d13ddd200.jpg
+topics:
+  - network
+hunter: BlenMiner
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1755333057882
