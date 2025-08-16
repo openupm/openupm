@@ -1,0 +1,16 @@
+name: com.weariness.util
+displayName: Frequently used Util
+description: "ì\x9E\x90ì£¼ ì\x82¬ì\x9A©í\x95\x98ë\x8A\x94 ì\x9C\_í\x8B¸ë¦¬í\x8B° ëª¨ì\x9D\x8C"
+repoUrl: https://github.com/weariness00/MyUnituPackage
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LICENSE.md
+image: ''
+topics:
+  - utilities
+hunter: weariness00
+gitTagPrefix: Util-v
+gitTagIgnore: ''
+minVersion: ''
+readme: Util:README.md
+createdAt: 1755314907602
