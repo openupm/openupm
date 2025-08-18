@@ -1,0 +1,16 @@
+name: net.narazaka.unity.find-component-in-prefabs
+displayName: Find Component In Prefabs
+description: Find Component In Prefabs
+repoUrl: https://github.com/Narazaka/FindComponentInPrefabs
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - utilities
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755538863465
