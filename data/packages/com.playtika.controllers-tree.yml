@@ -1,0 +1,18 @@
+name: com.playtika.controllers-tree
+displayName: ControllersTree
+description: >-
+  Framework for organising game logic into scalable, maintainable hierarchies of
+  controllers.
+repoUrl: https://github.com/PlaytikaOSS/controllers-tree
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+image: ''
+topics:
+  - frameworks
+hunter: imurashka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755602849921
