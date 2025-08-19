@@ -1,6 +1,6 @@
-name: com.naelstrof.jigglephysics
+name: com.gator-dragon-games.jigglephysics
 displayName: Jiggle Physics
-description: Soft-body squash-and-stretch physics for SkinnedMeshRenderers.
+description: A jobs-based relativistic squash-and-stretch jiggle physics solution for transforms in Unity.
 repoUrl: 'https://github.com/naelstrof/UnityJigglePhysics'
 parentRepoUrl: null
 licenseSpdxId: MIT
