@@ -1,0 +1,19 @@
+name: ga.fuquna.nested-dropdown-menu
+displayName: NestedDropdownMenu
+description: >-
+  Nested dropdown menus built with Unity UI Toolkit's GenericDropdownMenu,
+  supporting runtime operations.
+repoUrl: https://github.com/fuqunaga/NestedDropdownMenu
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/63d5ae62-a187-401b-8803-87b57521eda0
+topics:
+  - gui
+hunter: fuqunaga
+gitTagPrefix: ga.fuquna.nested-dropdown-menu-
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755670165845
