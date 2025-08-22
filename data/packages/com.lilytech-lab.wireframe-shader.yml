@@ -1,0 +1,17 @@
+name: com.lilytech-lab.wireframe-shader
+displayName: WireframeShader
+description: A shader draws polygon wireframe.
+repoUrl: https://github.com/lilytech-lab/WireframeShader
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/15377854/476034839-01ebf94a-2802-4423-b88e-b3d48ba573e4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU4MzY1OTYsIm5iZiI6MTc1NTgzNjI5NiwicGF0aCI6Ii8xNTM3Nzg1NC80NzYwMzQ4MzktMDFlYmY5NGEtMjgwMi00NDIzLWI4OGUtYjNkNDhiYTU3M2U0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODIyVDA0MTgxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkMDdhZmZiMTVkZDU4ODE0Zjc4ZTRlN2I0NTNmNmE2ZWVkODNkNDI3ZDRhMGQ4NGE0Njg1MjA5NTkzMDVhNTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.OHPeLmmurZLhGBOvCOyNxWXA3pbUoJ5T5PBiBXUlElw
+topics:
+  - particles-and-effects
+hunter: masami-sugao
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:ReadMe.md
+createdAt: 1755836897315
