@@ -1,0 +1,17 @@
+name: com.freakshowstudio.buildinfo
+displayName: Build Info
+description: Creates a build info object accessible at runtime
+repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.buildinfo
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755975221821
