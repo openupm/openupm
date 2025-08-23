@@ -1,0 +1,24 @@
+name: com.maxygames.unode
+displayName: uNode 3
+description: Visual Scripting Plugin for Unity.
+repoUrl: https://github.com/wahidrachmawan/uNode
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - 2d
+  - ai
+  - animation
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - utilities
+  - visual-scripting
+hunter: wahidrachmawan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755917336244
