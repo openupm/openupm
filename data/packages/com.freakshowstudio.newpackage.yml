@@ -1,0 +1,17 @@
+name: com.freakshowstudio.newpackage
+displayName: Create New Package Wizard
+description: Wizard to create a new package
+repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.newpackage
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - package-management
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1755959065181
