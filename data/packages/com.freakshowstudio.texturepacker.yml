@@ -1,0 +1,16 @@
+name: com.freakshowstudio.texturepacker
+displayName: Texture Packer
+description: Texture packer
+repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.texturepacker
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1755960838324
