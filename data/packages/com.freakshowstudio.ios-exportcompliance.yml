@@ -1,0 +1,17 @@
+name: com.freakshowstudio.ios-exportcompliance
+displayName: iOS Export Compliance
+description: Automatically set export compliance for iOS builds
+repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.ios-exportcompliance
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1755966722684
