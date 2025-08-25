@@ -1,0 +1,16 @@
+name: com.appsflyer.unity
+displayName: AppsFlyer
+description: AppsFlyer Unity plugin
+repoUrl: https://github.com/AppsFlyerSDK/appsflyer-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: AppsFlyerSDK
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:Windows/AppsFlyerLib.winmd
+createdAt: 1756095464385
