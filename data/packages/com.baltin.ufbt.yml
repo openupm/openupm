@@ -1,0 +1,18 @@
+name: com.baltin.ufbt
+displayName: UnitaskFBT
+description: Async Functional Behavior Tree Design Pattern based on Unitask
+repoUrl: https://github.com/dmitrybaltin/UnitaskFBT
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: dmitrybaltin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1756228605974
