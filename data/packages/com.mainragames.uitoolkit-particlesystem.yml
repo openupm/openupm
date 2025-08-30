@@ -1,0 +1,22 @@
+name: com.mainragames.uitoolkit-particlesystem
+displayName: UI Toolkit Particle System
+description: Particle System for UI Toolkit
+repoUrl: https://github.com/MainraStudio/UI-Toolkit-Particle-System
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/MainraStudio/UI-Toolkit-Particle-System/main/Docs/Logo.svg
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - particles-and-effects
+  - integration
+  - utilities
+hunter: MainraStudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1756548900668
