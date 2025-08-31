@@ -5,7 +5,7 @@ repoUrl: https://github.com/dmitrybaltin/FunctionalBT
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: 'https://github.com/dmitrybaltin/FunctionalBT/blob/main/.docs/fbt_icon.png'
+image: 'https://raw.githubusercontent.com/dmitrybaltin/FunctionalBT/refs/heads/main/.docs/fbt_icon.png'
 topics:
   - ai
   - frameworks
