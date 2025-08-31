@@ -1,0 +1,19 @@
+name: jp.co.cyberagent.instant-replay
+displayName: Instant Replay
+description: >-
+  Instant Replay allows you to constantly record the last N seconds of gameplay
+  and export it as a video at any time.
+repoUrl: https://github.com/CyberAgentGameEntertainment/InstantReplay
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1756677718393
+
