@@ -1,0 +1,21 @@
+name: com.moroshka.xcp
+displayName: Moroshka Xcp
+description: >-
+  The `Moroshka.Xcp` module provides enhanced exception classes that improve
+  standard error handling mechanisms in .NET. These exceptions include
+  additional data such as a unique error code (`ErrorCode`), context information
+  (`Context`), member names (`MemberName`), and line numbers (`LineNumber`).
+  This makes debugging and logging more informative.
+repoUrl: https://github.com/moroshka-game/moroshka-xcp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1756656204631
