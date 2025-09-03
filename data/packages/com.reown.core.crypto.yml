@@ -3,8 +3,8 @@ displayName: Reown.Core.Crypto
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: Apache-2.0
-licenseName: Apache License 2.0
+licenseSpdxId: null
+licenseName: WalletConnect Community License Agreement
 image: ''
 topics:
   - frameworks
