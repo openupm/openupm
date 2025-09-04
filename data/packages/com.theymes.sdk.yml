@@ -1,0 +1,21 @@
+name: com.theymes.sdk
+displayName: Theymes SDK
+description: Theymes SDK for Unity
+repoUrl: https://github.com/theymes/theymes-unity-sdk
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: See LICENSE file
+image: ''
+topics:
+  - ai
+  - frameworks
+  - integration
+  - mobile
+  - services
+  - utilities
+hunter: rekotiira
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1756994286987
