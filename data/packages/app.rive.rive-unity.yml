@@ -1,0 +1,18 @@
+name: app.rive.rive-unity
+displayName: Rive
+description: Create and ship interactive animations to any platform
+repoUrl: https://github.com/rive-app/rive-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - animation
+  - gui
+hunter: afjk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1757060094543
