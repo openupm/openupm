@@ -1,0 +1,30 @@
+name: com.unity.graphtoolkit
+displayName: Graph Toolkit
+description: >-
+  The Graph Toolkit package provides a comprehensive set of APIs that developers
+  can use to create graph editing tools. This framework allows you to create
+  tailored, node-based workflows. It handles the foundational basics so you can
+  spend less time on setup and more time building graph solutions.
+
+
+  By default any graph tools built with this package conform to Unity UI and UX
+  standards, ensuring consistency and quality. However, there is also lots of
+  room for customization to fit the needs of unique projects.
+repoUrl: https://github.com/needle-mirror/com.unity.graphtoolkit
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Unity Package Distribution License
+image: >-
+  https://docs.unity3d.com/Packages/com.unity.graphtoolkit@0.3/manual/images/introduction-overview.png
+topics:
+  - code-generation
+  - editor-enhancement
+  - frameworks
+  - gui
+  - utilities
+hunter: ltmx
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1757262218203
