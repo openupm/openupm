@@ -1,0 +1,20 @@
+name: com.woo.wooasset
+displayName: WooAsset
+description: WooAsset
+repoUrl: https://github.com/OnClick9927/WooAsset
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://onclick9927.github.io/WooAsset/_media/Pics/configasset.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - frameworks
+  - utilities
+  - version-control
+hunter: OnClick9927
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: src:README.md
+createdAt: 1757427761078
