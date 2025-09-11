@@ -1,0 +1,19 @@
+name: com.ramis.visualyaml
+displayName: Visual YAML
+description: YAML diff and visualization tool for Unity projects with Git integration
+repoUrl: https://github.com/RamiShehadeh/visualyaml
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: PaoloOranges
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1757585011840
