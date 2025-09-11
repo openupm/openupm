@@ -1,0 +1,19 @@
+name: com.freakshowstudio.create-gameobject-attribute
+displayName: Create GameObject Attribute
+description: >-
+  An attribute for automatically creating a menu item to create a game object
+  with the component added
+repoUrl: >-
+  https://github.com/freakshowstudio/com.freakshowstudio.create-gameobject-attribute
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1757596389116
