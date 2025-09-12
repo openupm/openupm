@@ -1,12 +1,12 @@
 name: com.bugsnag.unitynotifier
-displayName: UPM release of the Bugsnag Unity Notifier
+displayName: UPM release of the Bugsnag Unity Notifier with EDM4U support
 description: >-
   The Bugsnag Unity Library gives you instant notification of exceptions
   thrown from your Unity games on iOS and Android devices, as well as standalone
   Mac, WebGL and Windows deployments. Exceptions in your Unity code (JS, C# and Boo) as
   well as native crashes (Objective C, Java) are automatically detected and sent
   to Bugsnag.
-repoUrl: 'https://github.com/bugsnag/bugsnag-unity-upm'
+repoUrl: 'https://github.com/bugsnag/bugsnag-unity-upm-edm4u'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
