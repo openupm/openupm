@@ -1,0 +1,17 @@
+name: net.nayaku.unity-excel-importer-x
+displayName: Unity Excel ImporterX
+description: >-
+  Automatically import data from xls, xlsx file into custom ScriptableObject in the Unity Editor.
+repoUrl: https://github.com/nayaku/UnityExcelImporterX
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nayaku
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1757940403557
