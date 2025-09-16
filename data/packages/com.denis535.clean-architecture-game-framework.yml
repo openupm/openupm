@@ -1,7 +1,7 @@
 name: com.denis535.clean-architecture-game-framework
 displayName: Clean Architecture Game Framework
 description: >-
-  This package provides you with a framework that helps you develop your projects following best practices.
+  DEPRECATED: This package is no longer maintained. Please use https://openupm.com/packages/com.denis535.game-framework-pro instead.
 repoUrl: https://github.com/Denis535/UnityFramework
 parentRepoUrl: null
 licenseSpdxId: ''
