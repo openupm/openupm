@@ -1,0 +1,20 @@
+name: com.moroshka.protect
+displayName: Moroshka.Protect
+description: >-
+  The `Moroshka.Protect` module provides methods for validating input data and
+  conditions. It prevents errors caused by invalid data by throwing exceptions
+  with informative messages.
+repoUrl: https://github.com/moroshka-game/moroshka-protect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1758020696717
