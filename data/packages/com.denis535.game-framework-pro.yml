@@ -12,7 +12,7 @@ topics:
   - gui
   - utilities
 hunter: Denis535
-gitTagPrefix: ''
+gitTagPrefix: 'com.denis535.game-framework-pro/'
 gitTagIgnore: ''
 minVersion: ''
 readme: master:Packages/com.denis535.game-framework-pro/README.md
