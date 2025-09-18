@@ -1,0 +1,19 @@
+name: com.ges.tinystats
+displayName: Tiny Stats
+description: >-
+  Additional internal application statistics required to support backward
+  compatibility and track version differences.
+repoUrl: https://github.com/gestiran/TinyStats
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - testing
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1758187421651
