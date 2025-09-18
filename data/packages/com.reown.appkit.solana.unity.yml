@@ -1,0 +1,16 @@
+name: com.reown.appkit.solana.unity
+displayName: Reown.AppKit.Solana.Unity
+description: Reown AppKit adapter for Solana.Unity-SDK
+repoUrl: https://github.com/reown-com/reown-dotnet
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Reown Community License Agreement
+image: ''
+topics:
+  - integration
+hunter: skibitsky
+gitTagPrefix: com.reown.appkit.solana.unity/
+gitTagIgnore: ''
+minVersion: 1.5.0
+readme: main:src/Reown.AppKit.Solana.Unity/README.md
+createdAt: 1758197346304
