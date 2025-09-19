@@ -1,0 +1,20 @@
+name: io.github.pixel-clover.ariko
+displayName: Ariko
+description: A friendly AI assistant for Unity
+repoUrl: https://github.com/pixel-clover/ariko
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/pixel-clover/ariko/refs/heads/main/logo.svg'
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: habedi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1758301405483
