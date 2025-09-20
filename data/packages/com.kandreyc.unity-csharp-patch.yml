@@ -1,0 +1,19 @@
+name: com.kandreyc.unity-csharp-patch
+displayName: Unity CSharp Patch
+description: >-
+  Package allows to set custom (newer) version of C# per AssemblyDefinition
+  (.asmdef).
+repoUrl: https://github.com/kandreyc/unity-csharp-patch
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1758370504960
