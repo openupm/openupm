@@ -1,0 +1,19 @@
+name: com.ripandy.soar
+displayName: SOAR
+description: Scriptable Object Architecture Reactive-extensible with R3
+repoUrl: https://github.com/ripandy/SOAR
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: ripandy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1758410772403
