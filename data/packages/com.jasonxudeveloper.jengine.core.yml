@@ -1,0 +1,17 @@
+name: com.jasonxudeveloper.jengine.core
+displayName: JEngine.Core
+description: The solution that allows unity games update in runtime.
+repoUrl: https://github.com/JasonXuDeveloper/JEngine
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: JasonXuDeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1758450914676
