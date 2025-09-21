@@ -1,0 +1,20 @@
+name: jp.nobnak.master_clock
+displayName: Master Clock
+description: >-
+  High-precision time synchronization system for Unity supporting both
+  standalone and networked environments. Provides EMA-based offset estimation
+  for smooth clock synchronization.
+repoUrl: https://github.com/nobnak/MasterClock
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - network
+hunter: nobnak/MasterClock
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/jp.nobnak.master_clock/README.md
+createdAt: 1758475130913
