@@ -1,0 +1,28 @@
+name: com.unity.scripting.python
+displayName: Python Scripting
+description: >-
+  Optimize Unity Editor workflows for your VFX/animation pipelines using Python
+  scripting:
+
+  - Automate repetitive tasks to speed up your artistic process.
+
+  - Integrate your custom pipeline tools within Unity.
+
+  - Increase interoperability with other software of your pipeline.
+
+  This package includes and uses Python 3.10.6 and Python for .NET 3.0.0.0 and
+  is Editor-only (not available in runtime builds).
+repoUrl: https://github.com/SolarianZ/com.unity.scripting.python
+parentRepoUrl: https://github.com/needle-mirror/com.unity.scripting.python
+licenseSpdxId: ''
+licenseName: Unity Companion License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: SolarianZ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1758554668699
