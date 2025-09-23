@@ -16,5 +16,5 @@ hunter: nobnak/MasterClock
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:Packages/jp.nobnak.master_clock/README.md
+readme: main:README.md
 createdAt: 1758475130913
