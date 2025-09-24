@@ -1,0 +1,20 @@
+name: jp.nobnak.solar
+displayName: Solar Position Calculator
+description: >-
+  A Unity package for calculating solar position (elevation and azimuth angles)
+  in the horizontal coordinate system based on date, time, latitude, and
+  longitude.
+repoUrl: https://github.com/nobnak/SolarPosition
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - terrain
+  - utilities
+hunter: nobnak/SolarPosition
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1758646626621
