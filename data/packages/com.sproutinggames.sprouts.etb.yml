@@ -1,0 +1,16 @@
+name: com.sproutinggames.sprouts.etb
+displayName: SproutsETB
+description: A base for editor tools!
+repoUrl: https://github.com/TheGreenSprout/SETB
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: TheGreenSprout
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1758813961207
