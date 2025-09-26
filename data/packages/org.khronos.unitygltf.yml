@@ -14,7 +14,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: >-
-  https://github.com/KhronosGroup/UnityGLTF/blob/e3797354f8d729156062265cbac98804a109d8f0/unitygltf-logo.png
+  https://raw.githubusercontent.com/KhronosGroup/UnityGLTF/e3797354f8d729156062265cbac98804a109d8f0/unitygltf-logo.png
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: Khronos的GLTF加载机
