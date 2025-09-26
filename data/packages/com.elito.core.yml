@@ -9,7 +9,7 @@ image: ''
 topics:
   - asset-management
 hunter: iLataria
-gitTagPrefix: Elito
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 1.0.0
 readme: master:Assets/com_elito_core/README.md
