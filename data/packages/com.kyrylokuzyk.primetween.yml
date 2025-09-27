@@ -1,0 +1,25 @@
+name: com.kyrylokuzyk.primetween
+displayName: PrimeTween
+description: >-
+  PrimeTween is a high-performance, allocation-free animation library for Unity.
+
+
+  Animate anything with just one line of code, tweak all animation properties
+  directly from the Inspector, and create complex animation sequences. No
+  runtime memory allocations, ever.
+
+
+  Enjoying PrimeTween? Consider leaving an honest review on Asset Store.
+repoUrl: https://github.com/iLataria/prime_tween_open_upm
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT LICENSE
+image: ''
+topics:
+  - animation
+hunter: iLataria
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/PrimeTween/README.md
+createdAt: 1759000705529
