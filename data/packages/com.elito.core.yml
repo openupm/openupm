@@ -12,5 +12,5 @@ hunter: iLataria
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 1.0.0
-readme: master:Assets/com_elito_core/README.md
+readme: main:Assets/com_elito_core/README.md
 createdAt: 1758875660192
