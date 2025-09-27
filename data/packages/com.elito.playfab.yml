@@ -1,0 +1,16 @@
+name: com.elito.playfab
+displayName: PlayFab package
+description: ''
+repoUrl: https://github.com/iLataria/PlayFab
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT LICENSE
+image: ''
+topics:
+  - services
+hunter: iLataria
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/PlayFabSDK/README.md
+createdAt: 1759008554019
