@@ -1,0 +1,19 @@
+name: com.devtodev.sdk.analytics
+displayName: DevToDev Analytics
+description: >-
+  Core module of the DevToDev sdk. DevToDev is a comprehensive solution that
+  analyzes your apps and games and gives you valuable insights. Concentrate on
+  creating great products, and DevToDev will take care of the analytics.
+repoUrl: https://github.com/devtodev-analytics/package_Analytics
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache License
+image: ''
+topics:
+  - utilities
+hunter: iLataria
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759006222652
