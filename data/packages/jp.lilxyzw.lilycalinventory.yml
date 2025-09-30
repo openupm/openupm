@@ -1,0 +1,16 @@
+name: jp.lilxyzw.lilycalinventory
+displayName: lilycalInventory
+description: Modify avatar at build time.
+repoUrl: https://github.com/lilxyzw/lilycalInventory
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://lilxyzw.github.io/lilycalInventory/images/logo.svg
+topics:
+  - utilities
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759264455322
