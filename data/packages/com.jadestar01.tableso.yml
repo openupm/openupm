@@ -1,0 +1,17 @@
+name: com.jadestar01.tableso
+displayName: TableSO
+description: A Unity package for table-driven data management using ScriptableObjects.
+repoUrl: https://github.com/jadestar01/TableSO
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: jadestar01
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759224983367
