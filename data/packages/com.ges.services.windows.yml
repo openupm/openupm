@@ -1,0 +1,16 @@
+name: com.ges.services.windows
+displayName: Tiny Service Windows
+description: Windows management system
+repoUrl: https://github.com/gestiran/TinyServiceWindows
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1759233597737
