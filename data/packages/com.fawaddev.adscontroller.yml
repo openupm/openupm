@@ -1,0 +1,17 @@
+name: com.fawaddev.adscontroller
+displayName: Ads Controller
+description: A simple and easy to use ads controller for Unity that supports AdMob for now
+repoUrl: https://github.com/fawad0dev/Ads-Controller
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - mobile
+  - services
+hunter: fawad0dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759330088659
