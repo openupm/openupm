@@ -1,0 +1,17 @@
+name: com.fawaddev.customattributes
+displayName: Custom Attributes
+description: Some Custom Attributes for Unity
+repoUrl: https://github.com/fawad0dev/Custom-Attributes
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - editor-enhancement
+  - services
+hunter: fawad0dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759330452708
