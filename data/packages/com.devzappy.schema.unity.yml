@@ -1,0 +1,22 @@
+name: com.devzappy.schema.unity
+displayName: Schema Unity
+description: A Unity package for integrating the Schema config system
+repoUrl: https://github.com/zappy-dev/Schema-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/zappy-dev/Schema-Unity/blob/main/docs/schema_brand_600x300.png?raw=true
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - localization
+hunter: zappy-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1759510886065
