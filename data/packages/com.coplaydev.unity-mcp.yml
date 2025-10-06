@@ -1,5 +1,5 @@
 name: com.coplaydev.unity-mcp
-displayName: Unity MCP
+displayName: MCP for Unity
 description: >-
   A bridge that connects an LLM to Unity via the MCP (Model Context Protocol).
   This allows MCP Clients like Claude Desktop or Cursor to directly control your
