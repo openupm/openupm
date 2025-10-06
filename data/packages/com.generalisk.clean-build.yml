@@ -1,0 +1,31 @@
+name: com.generalisk.clean-build
+displayName: Clean Build
+description: >-
+  Clean Build automatically gets rid of unnecessary debug files that are
+  automatically generated during your Unity build.
+
+
+  Examples of files that will be automatically deleted include:
+
+  - Program Debug Files (PDBs) which often get automatically generated due to
+  Managed Stripping among various other things
+
+  - IL2CPP build files
+
+  - Burst compiler reports
+
+
+  Note: This package does not apply to Development builds
+repoUrl: https://github.com/Generalisk/Unity-CleanBuild
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: Generalisk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1759787529449
