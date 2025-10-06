@@ -15,7 +15,7 @@ topics:
   - frameworks
   - localization
 hunter: zappy-dev
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
