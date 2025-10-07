@@ -1,0 +1,20 @@
+name: com.generalisk.loadingscreen
+displayName: Simple Loading Screen
+description: >-
+  Simple Loading Screen is A Unity Package that allows you to easily transition
+  between 2 scenes via A loading screen. Simple Loading Screen allows you to use
+  A custom canvas for the loading screen or opt to use the packages built-in
+  canvas.
+repoUrl: https://github.com/Generalisk/Unity-SimpleLoadingScreen
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Generalisk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1759854974433
