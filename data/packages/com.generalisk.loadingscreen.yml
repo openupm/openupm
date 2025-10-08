@@ -1,11 +1,11 @@
 name: com.generalisk.loadingscreen
-displayName: Simple Loading Screen
+displayName: Easy Loading Screen
 description: >-
-  Simple Loading Screen is A Unity Package that allows you to easily transition
-  between 2 scenes via A loading screen. Simple Loading Screen allows you to use
+  Easy Loading Screen is A Unity Package that allows you to easily transition
+  between 2 scenes via A loading screen. Easy Loading Screen allows you to use
   A custom canvas for the loading screen or opt to use the packages built-in
   canvas.
-repoUrl: https://github.com/Generalisk/Unity-SimpleLoadingScreen
+repoUrl: https://github.com/Generalisk/Unity-EasyLoadingScreen
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
