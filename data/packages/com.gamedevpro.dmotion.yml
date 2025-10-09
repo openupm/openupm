@@ -1,19 +1,18 @@
 name: com.gamedevpro.dmotion
 displayName: DMotion
 description: DMotion is a high level Animation framework and State Machine for DOTS
-repoUrl: 'https://github.com/gamedev-pro/dmotion'
+repoUrl: https://github.com/gamedev-pro/dmotion
 parentRepoUrl: null
 licenseName: Unity Companion License
-licenseSpdxId: LicenseRef-Unity-Companion-License
 topics:
-  - animation
-  - dots-and-ecs
+- animation
+- dots-and-ecs
 hunter: laicasaane
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

@@ -1,24 +1,24 @@
 name: com.blockadelabs.sdk
 displayName: Blockade Labs SDK
-description: Unity package that allows you to generate infinite game assets using AI.
-repoUrl: 'https://github.com/Blockade-Games/BlockadeLabs-SDK-Unity'
+description: Unity package that allows you to generate infinite game assets using
+  AI.
+repoUrl: https://github.com/Blockade-Games/BlockadeLabs-SDK-Unity
 parentRepoUrl: null
 licenseName: Unknown
-licenseSpdxId: LicenseRef-Unknown
 topics:
-  - ai
-  - editor-enhancement
-  - integration
-  - level-design
-  - procedural-generation
-  - services
-  - utilities
+- ai
+- editor-enhancement
+- integration
+- level-design
+- procedural-generation
+- services
+- utilities
 hunter: julienkay
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

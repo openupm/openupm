@@ -4,11 +4,10 @@ description: ReflectionSingleton implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ReflectionSingleton
 parentRepoUrl: null
 licenseName: Open source
-licenseSpdxId: LicenseRef-Open-Source
 image: ''
 topics:
-  - services
-  - utilities
+- services
+- utilities
 hunter: selvassets
 gitTagPrefix: ''
 gitTagIgnore: ''

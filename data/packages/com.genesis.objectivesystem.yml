@@ -4,10 +4,9 @@ description: A custom objective system for managing objectives in your app.
 repoUrl: https://github.com/MohabAbdElMohsen/Genesis-Objective-System
 parentRepoUrl: null
 licenseName: Genesis Creations License
-licenseSpdxId: LicenseRef-Genesis-Creations-License
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: MohabAbdElMohsen
 gitTagPrefix: ''
 gitTagIgnore: ''

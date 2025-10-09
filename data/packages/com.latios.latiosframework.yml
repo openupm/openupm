@@ -1,12 +1,11 @@
 name: com.latios.latiosframework
 displayName: Latios Framework for DOTS
 description: A Unity DOTS framework for my personal projects
-repoUrl: 'https://github.com/Dreaming381/Latios-Framework'
+repoUrl: https://github.com/Dreaming381/Latios-Framework
 parentRepoUrl: null
-licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
-  - dots-and-ecs
+- dots-and-ecs
 hunter: favoyang
 createdAt: 1577039631000
 displayName_zhCN: DOTS的Latios框架

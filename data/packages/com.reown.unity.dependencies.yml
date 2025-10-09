@@ -3,11 +3,10 @@ displayName: Reown.Unity.Dependencies
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: LicenseRef-WalletConnect-Community-License
 licenseName: WalletConnect Community License Agreement
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: skibitsky
 gitTagPrefix: com.reown.unity.dependencies/
 gitTagIgnore: ''

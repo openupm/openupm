@@ -4,10 +4,9 @@ description: Support game package
 repoUrl: https://github.com/VTeselkin/tools
 parentRepoUrl: null
 licenseName: UNLICENSED
-licenseSpdxId: UNLICENSED
 image: ''
 topics:
-  - mobile
+- mobile
 hunter: VTeselkin
 gitTagPrefix: ''
 gitTagIgnore: ''

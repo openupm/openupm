@@ -1,18 +1,17 @@
 name: com.unity.demoteam.attributes
 displayName: Demo Team Attributes
 description: Library of attributes common to packages in com.unity.demoteam.*
-repoUrl: 'https://github.com/Unity-Technologies/com.unity.demoteam.attributes'
+repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.attributes
 parentRepoUrl: null
-licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
-  - particles-and-effects
+- particles-and-effects
 hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: master:README.md
 createdAt: 1595033573132
 displayName_zhCN: Demo Team属性
 description_zhCN: com.unity.demoteam.*中的软件包共有的属性库

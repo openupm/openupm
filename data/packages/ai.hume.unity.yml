@@ -3,7 +3,6 @@ displayName: Hume
 description: Unity SDK for HumeAI
 repoUrl: https://github.com/HumeAI/hume-dotnet-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
 licenseSpdxId: MIT
 image: >-
