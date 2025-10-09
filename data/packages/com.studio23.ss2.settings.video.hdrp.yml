@@ -5,8 +5,8 @@ description: >-
   settings.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.video.hdrp
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: mit
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

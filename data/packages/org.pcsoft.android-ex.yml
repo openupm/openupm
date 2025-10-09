@@ -3,7 +3,7 @@ displayName: Unity Android Extension
 description: Extension for Unity Android usage.
 repoUrl: 'https://github.com/KleinerHacker/unity-android-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - mobile

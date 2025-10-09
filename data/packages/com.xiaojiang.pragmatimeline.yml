@@ -3,8 +3,8 @@ displayName: Pragma Timeline
 description: Pragma Timeline.
 repoUrl: 'https://github.com/Brian-Jiang/PragmaTimeline'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - animation
   - utilities

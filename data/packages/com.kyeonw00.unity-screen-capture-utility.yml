@@ -3,7 +3,7 @@ displayName: Screen Capture Utility
 description: Screen capture utility for unity
 repoUrl: 'https://github.com/kyeonw00/unity-screen-capture-utility'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: MIT
 licenseName: 'MIT'
 topics:
   - utilities

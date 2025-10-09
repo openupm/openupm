@@ -3,8 +3,8 @@ displayName: STYLY NetSync
 description: STYLY NetSync
 repoUrl: https://github.com/styly-dev/STYLY-NetSync
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - ar-and-vr

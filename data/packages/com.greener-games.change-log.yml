@@ -6,7 +6,7 @@ description: >-
   changes we want to save
 repoUrl: 'https://github.com/Greener-Games/Change-Log'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Copyright
 licenseName: copyright
 topics:
   - utilities

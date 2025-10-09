@@ -3,8 +3,8 @@ displayName: Xarc Framework
 description: VR Development SDK
 repoUrl: https://github.com/Xarcoffl/com.xarc.coreframework
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - ar-and-vr

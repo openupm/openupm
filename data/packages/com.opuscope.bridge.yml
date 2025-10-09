@@ -3,8 +3,8 @@ displayName: Opuscope - Bridge
 description: Opuscope Bridge
 repoUrl: 'https://github.com/opuscope/UnityAsyncBridge'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - ar-and-vr
   - frameworks

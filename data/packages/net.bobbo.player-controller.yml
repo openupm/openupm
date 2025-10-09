@@ -3,8 +3,8 @@ displayName: Player Controller
 description: An extensible Player Controller module
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - input-management
 hunter: Iseeicy

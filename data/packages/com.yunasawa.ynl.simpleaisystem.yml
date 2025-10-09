@@ -5,8 +5,8 @@ description: >-
   behaviours as an AI.
 repoUrl: https://github.com/Yunasawa-Studio/YNL-Simple-AI-System
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - ai

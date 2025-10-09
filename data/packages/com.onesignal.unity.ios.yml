@@ -5,8 +5,8 @@ description: >-
   web push, email, and in-app messages.
 repoUrl: https://github.com/OneSignal/OneSignal-Unity-SDK
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

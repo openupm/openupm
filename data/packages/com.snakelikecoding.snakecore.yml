@@ -5,8 +5,8 @@ description: >-
   injection.
 repoUrl: https://github.com/tahameg/SnakeCore
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: >-
   https://media.githubusercontent.com/media/tahameg/SnakeCore/main/SnakeCoreBanner.png
 topics:

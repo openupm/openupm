@@ -3,8 +3,8 @@ displayName: FMOD Reverb Manager
 description: Allows for managing basic FMOD reverb settings
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - audio
 hunter: Iseeicy

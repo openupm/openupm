@@ -7,8 +7,8 @@ description: >-
   gaming experience.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.sdk.facebook
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: GNU General Public License v3.0
+licenseSpdxId: GPL-3.0
 image: ''
 topics:
   - package-management

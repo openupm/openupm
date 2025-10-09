@@ -3,7 +3,7 @@ displayName: Unity Editor Extension
 description: Extension for Editor system of Unity.
 repoUrl: 'https://github.com/KleinerHacker/unity-editor-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - editor-enhancement

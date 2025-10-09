@@ -3,8 +3,8 @@ displayName: ReflexDI
 description: Dependency Injection
 repoUrl: https://github.com/maibui232/ReflexDI
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

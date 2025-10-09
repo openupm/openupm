@@ -3,8 +3,8 @@ displayName: Genesis
 description: An AI-powered world building and prototyping tool.
 repoUrl: 'https://github.com/julienkay/genesis'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - ai
   - editor-enhancement

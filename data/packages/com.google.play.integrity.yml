@@ -7,8 +7,8 @@ description: >-
   access and cheating
 repoUrl: 'https://github.com/google/play-integrity-unity'
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LICENSE.md
+licenseName: MIT License
+licenseSpdxId: MIT
 image: 'https://developer.android.com/static/images/logos/google-play.svg'
 topics:
   - network

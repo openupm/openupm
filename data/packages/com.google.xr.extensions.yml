@@ -6,8 +6,8 @@ description: >-
   packages.
 repoUrl: https://github.com/android/android-xr-unity-package
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache License 2.0, Unity Companion License
+licenseSpdxId: Apache-2.0, Unity-Companion-1.0
 image: ''
 topics:
   - ar-and-vr

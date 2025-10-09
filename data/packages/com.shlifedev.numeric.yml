@@ -3,8 +3,8 @@ displayName: LD.Numeric
 description: '-_-..?'
 repoUrl: https://github.com/shlifedev/LD.Numeric
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

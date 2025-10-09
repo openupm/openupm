@@ -5,8 +5,8 @@ description: >-
   learning training and validation
 repoUrl: 'https://github.com/eugeneteoh/com.eugeneteoh.perception'
 parentRepoUrl: 'https://github.com/Unity-Technologies/com.unity.perception'
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 topics:
   - ai
   - camera

@@ -5,8 +5,8 @@ description: >-
   for Unity Physics
 repoUrl: 'https://github.com/redwyre/com.redwyre.physics-custom-authoring'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Unity Companion License
+licenseSpdxId: LicenseRef-Unity-Companion-License
 topics:
   - physics
 hunter: redwyre

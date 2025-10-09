@@ -3,8 +3,8 @@ displayName: LitJson
 description: Litjson suitable for Package Manager.
 repoUrl: 'https://github.com/Omnilatent/UnityLitJson'
 parentRepoUrl: 'https://github.com/Mervill/UnityLitJson'
-licenseSpdxId: ''
 licenseName: Unlicense
+licenseSpdxId: Unlicense
 topics:
   - utilities
 hunter: Omnilatent

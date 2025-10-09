@@ -3,8 +3,8 @@ displayName: Legendary Tools - Singleton
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/singleton'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

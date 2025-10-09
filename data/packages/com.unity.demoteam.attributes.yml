@@ -3,7 +3,7 @@ displayName: Demo Team Attributes
 description: Library of attributes common to packages in com.unity.demoteam.*
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.demoteam.attributes'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - particles-and-effects

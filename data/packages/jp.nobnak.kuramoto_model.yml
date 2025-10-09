@@ -3,8 +3,8 @@ displayName: Kuramoto Model
 description: Kuramoto Model implementation on Unity3D
 repoUrl: https://github.com/nobnak/KuramotoModelForSynchronization
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - particles-and-effects

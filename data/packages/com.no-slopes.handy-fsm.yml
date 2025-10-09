@@ -3,8 +3,8 @@ displayName: Handy FSM
 description: A solution for working with Finite State Machines in Unity.
 repoUrl: https://github.com/no-slopes/handy-fsm
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - editor-enhancement

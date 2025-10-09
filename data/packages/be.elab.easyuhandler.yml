@@ -3,8 +3,8 @@ displayName: Easy Unity IHandler XR
 description: Tool to make a quick XR interaction from the Unity3D Handler interface.
 repoUrl: https://github.com/EloiStree/OpenUPM_EasyUnityIHandler
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - utilities

@@ -5,8 +5,8 @@ description: >-
   types of interaction
 repoUrl: 'https://github.com/Studio-23-xyz/InteractionSystem'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - level-design
   - utilities

@@ -3,8 +3,8 @@ displayName: Sdk Core
 description: ''
 repoUrl: https://github.com/hcmyxconan15/SDK-Core
 parentRepoUrl: https://github.com/TeamAcMong/SDK-Core
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

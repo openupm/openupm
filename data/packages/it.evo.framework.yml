@@ -3,7 +3,7 @@ displayName: Evo Framework
 description: Evo Framework for Unity3d
 repoUrl: 'https://github.com/evoframework/unity3d_evo_framework'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: CC-BY-NC-SA-4.0
 licenseName: Attribution-NonCommercial-ShareAlike 4.0 International
 topics:
   - 2d

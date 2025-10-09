@@ -3,8 +3,8 @@ displayName: Camera Audio Listener
 description: 'Audio, for the Camera!'
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - audio
   - camera

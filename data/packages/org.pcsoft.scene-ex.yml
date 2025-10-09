@@ -3,7 +3,7 @@ displayName: Scene Management Extension
 description: Extension for Scene Management with support of scene over-blending.
 repoUrl: 'https://github.com/KleinerHacker/unity-scene-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

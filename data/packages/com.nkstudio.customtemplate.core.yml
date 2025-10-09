@@ -3,8 +3,8 @@ displayName: CustomTemplate Core
 description: The core of the Unity custom library.
 repoUrl: 'https://github.com/NK-Studio/CustomTemplate'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - code-generation
 hunter: NK Studio

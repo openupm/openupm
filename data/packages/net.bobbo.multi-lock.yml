@@ -3,8 +3,8 @@ displayName: Multi-Lock
 description: 'A locking utlity, to make interactions easier.'
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: Iseeicy

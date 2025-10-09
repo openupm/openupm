@@ -3,8 +3,8 @@ displayName: Simple Http Client
 description: Provide efficient HttpClient functions using UniTask in Unity.
 repoUrl: https://github.com/coolishbee/simple-http-client-unity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - network

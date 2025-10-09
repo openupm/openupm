@@ -3,7 +3,7 @@ displayName: Build Tooling
 description: Add a build toolbar into unity to create and run build very easy.
 repoUrl: 'https://github.com/KleinerHacker/unity-build-tooling'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

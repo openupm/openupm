@@ -3,8 +3,8 @@ displayName: Datadog Unity
 description: Datadog Plugin for Unity
 repoUrl: https://github.com/DataDog/unity-package
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - debugging-and-logging

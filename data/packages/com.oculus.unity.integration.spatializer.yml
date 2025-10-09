@@ -3,7 +3,7 @@ displayName: Oculus Integration Spatializer
 description: Unofficial mirror of the Oculus Unity-Integration spatializer as package for Unity.
 repoUrl: 'https://github.com/Trisgram/com.oculus.unity.integration.spatializer'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Oculus-SDK-License
 licenseName: Oculus SDK License
 topics:
   - ar-and-vr

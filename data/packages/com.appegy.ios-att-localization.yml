@@ -7,8 +7,8 @@ description: >-
   Advertising Support package.
 repoUrl: 'https://github.com/Appegy/iOS-ATT-Localization'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - editor-enhancement
   - localization

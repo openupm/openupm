@@ -3,8 +3,8 @@ displayName: SA - Object Pool
 description: Object pool implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ObjectPool
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Open source
+licenseSpdxId: LicenseRef-Open-Source
 image: ''
 topics:
   - services

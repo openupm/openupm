@@ -6,8 +6,8 @@ description: >-
   Network Discovery Extension
 repoUrl: https://github.com/ViRGIS-Team/UnityTransportDiscovery
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - network

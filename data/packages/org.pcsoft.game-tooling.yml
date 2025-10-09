@@ -3,7 +3,7 @@ displayName: Game Tooling
 description: Extension for Unity with common tooling for gaming
 repoUrl: 'https://github.com/KleinerHacker/unity-game-tooling'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - camera

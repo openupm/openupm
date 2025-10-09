@@ -3,7 +3,7 @@ displayName: Howl-Uta
 description: (╯°□°)╯⌒ C#
 repoUrl: 'https://github.com/active-logic/uta'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Fair-Source-License
 licenseName: Fair Source License
 topics:
   - frameworks

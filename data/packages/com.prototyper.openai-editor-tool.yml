@@ -3,8 +3,8 @@ displayName: OpenAI Editor Tool
 description: OpenAI-Editor-Tool
 repoUrl: https://github.com/Farl/com.prototyper.openai-editor-tool
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: GPL-3.0
+licenseSpdxId: GPL-3.0
 image: ''
 topics:
   - ai

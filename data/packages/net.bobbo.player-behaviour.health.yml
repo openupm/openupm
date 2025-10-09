@@ -3,8 +3,8 @@ displayName: Player Behaviour Health
 description: Basic health functionality for the Bobbo-Net Player Controller
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - input-management
 hunter: Iseeicy

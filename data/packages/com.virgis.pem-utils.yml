@@ -3,7 +3,7 @@ displayName: PEM Utils
 description: Utility for working with PEM files and DER/ASN.1 encoding
 repoUrl: 'https://github.com/ViRGIS-Team/pem-utils'
 parentRepoUrl: 'https://github.com/huysentruitw/pem-utils'
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache
 topics: []
 hunter: runette

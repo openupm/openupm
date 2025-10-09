@@ -3,7 +3,7 @@ displayName: Animation Extension
 description: Provide a builder for animations based on Coroutines
 repoUrl: 'https://github.com/KleinerHacker/unity-animation'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

@@ -5,8 +5,8 @@ description: >-
   lower resolution. (Forked from yugofujioka's BlendedBufferForURP)
 repoUrl: https://github.com/peeweek/net.peeweek.urp-lowresolutionrenderpass
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Unity Companion License
+licenseSpdxId: LicenseRef-Unity-Companion-License
 image: ''
 topics:
   - particles-and-effects

@@ -3,8 +3,8 @@ displayName: Legendary Tools - Dynamic Scroll View
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/dynamic-scroll-view'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - gui
   - utilities

@@ -3,7 +3,7 @@ displayName: Material Switch
 description: ''
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.material-switch'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - particles-and-effects

@@ -3,8 +3,8 @@ displayName: Voxel Terrain
 description: Voxel like terrain rendering & collision from heightmap
 repoUrl: https://github.com/Remy-Maetz/VoxelTerrain
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: GNU AGPLv3
+licenseSpdxId: AGPL-3.0
 image: ''
 topics:
   - terrain

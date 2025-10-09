@@ -5,8 +5,8 @@ description: |-
   grid-based games easier.
 repoUrl: https://github.com/dsmiller95/GridGameTools
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

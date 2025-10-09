@@ -5,8 +5,8 @@ description: >-
   and get speed up by JIT. Fixed for Unity 6.2
 repoUrl: https://github.com/PhaseTwo-Unity-Public/puerts
 parentRepoUrl: https://github.com/Tencent/puerts
-licenseSpdxId: ''
 licenseName: BSD 3-Clause
+licenseSpdxId: BSD-3-Clause
 image: ''
 topics:
   - frameworks

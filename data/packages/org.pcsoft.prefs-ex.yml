@@ -3,7 +3,7 @@ displayName: Player Preferences Extension
 description: Extension for Unity player preferences system.
 repoUrl: 'https://github.com/KleinerHacker/unity-prefs-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

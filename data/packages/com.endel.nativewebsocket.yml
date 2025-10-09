@@ -5,7 +5,7 @@ description: >-
   Android, iOS, UWP).
 repoUrl: 'https://github.com/endel/NativeWebSocket'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0
 topics:
   - network

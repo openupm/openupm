@@ -3,7 +3,7 @@ displayName: TinaX.XComponent
 description: ''
 repoUrl: 'https://github.com/yomunsam/TinaX.XComponent'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: AGPL-3.0
 licenseName: AGPLv3
 topics:
   - utilities

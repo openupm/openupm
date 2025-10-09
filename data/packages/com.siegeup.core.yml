@@ -5,8 +5,8 @@ description: >-
   serializtion of game objects. Useful for modding and utilities.
 repoUrl: 'https://github.com/SiegeUp/SiegeUp.Core'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Abuksigun SiegeUp
+licenseSpdxId: LicenseRef-Abuksigun-SiegeUp
 topics:
   - asset-management
   - frameworks

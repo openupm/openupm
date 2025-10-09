@@ -3,8 +3,8 @@ displayName: MultiPlay
 description: Helps Multiplayer development by running multiple editors for the same project
 repoUrl: 'https://github.com/muammar-yacoob/MultiPlay'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - network
   - testing

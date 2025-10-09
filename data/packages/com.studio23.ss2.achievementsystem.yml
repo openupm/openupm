@@ -6,8 +6,8 @@ description: >-
   achievements in your games, enhancing player engagement and retention.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - code-generation

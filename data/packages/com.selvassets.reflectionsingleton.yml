@@ -3,8 +3,8 @@ displayName: SA - ReflectionSingleton
 description: ReflectionSingleton implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ReflectionSingleton
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Open source
+licenseSpdxId: LicenseRef-Open-Source
 image: ''
 topics:
   - services

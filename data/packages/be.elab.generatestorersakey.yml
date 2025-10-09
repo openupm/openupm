@@ -3,8 +3,8 @@ displayName: Generate and store RSA Key
 description: Allows to generate a RSA key and store it on your device in Unity3D.
 repoUrl: https://github.com/EloiStree/OpenUPM_StoreGeneretedRsaKeyInUnity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - utilities

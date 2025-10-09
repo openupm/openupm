@@ -5,8 +5,8 @@ description: >-
   functionality and quality of life features.
 repoUrl: https://github.com/Dreadrith/VRCSDKPlus
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: ARR
+licenseSpdxId: LicenseRef-All-Rights-Reserved
 image: ''
 topics:
   - editor-enhancement

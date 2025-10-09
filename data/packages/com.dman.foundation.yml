@@ -3,8 +3,8 @@ displayName: Dman Foundation
 description: A large collection of utilities and tools which integrate deeply into unity.
 repoUrl: https://github.com/dsmiller95/DmanUtilities
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

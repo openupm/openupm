@@ -3,8 +3,8 @@ displayName: DreamEngine
 description: DreamEngine.
 repoUrl: https://github.com/SunnyChin-KnowPlay/DreamEngine
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

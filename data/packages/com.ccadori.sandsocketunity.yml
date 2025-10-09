@@ -5,7 +5,7 @@ description: >-
   Manager).
 repoUrl: 'https://github.com/ccadori/sand-socket-unity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: GPL-3.0
 licenseName: GPLv3
 topics:
   - network

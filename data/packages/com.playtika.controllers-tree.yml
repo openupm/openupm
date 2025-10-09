@@ -5,8 +5,8 @@ description: >-
   controllers.
 repoUrl: https://github.com/PlaytikaOSS/controllers-tree
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - frameworks

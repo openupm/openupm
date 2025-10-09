@@ -6,8 +6,8 @@ description: >-
 repoUrl: >-
   https://github.com/Zallist/unity.zallist.universal-simple-lit-shadergraph-target
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - particles-and-effects

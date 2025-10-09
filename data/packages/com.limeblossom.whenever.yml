@@ -3,8 +3,8 @@ displayName: Whenever
 description: Whenever X do Y. A system for building synergistic interactions.
 repoUrl: https://github.com/LimeBlossom/Whenever
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - ai

@@ -5,8 +5,8 @@ description: >-
   https://github.com/Unity-Technologies/poly2tri-cs
 repoUrl: 'https://github.com/Netherlands3D/poly2tri'
 parentRepoUrl: 'https://github.com/Unity-Technologies/poly2tri-cs'
-licenseSpdxId: ''
 licenseName: BSD-3-Clause
+licenseSpdxId: BSD-3-Clause
 topics:
   - procedural-generation
   - utilities

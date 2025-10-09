@@ -5,8 +5,8 @@ description: >-
   structures required for Unity packages that are published on  openupm.com.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem.xboxcorepc
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

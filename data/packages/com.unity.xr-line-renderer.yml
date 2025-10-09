@@ -5,7 +5,7 @@ description: >-
   using two quads worth of geometry.
 repoUrl: 'https://github.com/Unity-Technologies/XRLineRenderer'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - ar-and-vr

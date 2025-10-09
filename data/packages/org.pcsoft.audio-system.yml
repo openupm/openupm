@@ -3,8 +3,8 @@ displayName: Audio System
 description: Audio System for Unity
 repoUrl: 'https://github.com/KleinerHacker/unity-audio-system'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache 2.0 Licence
+licenseSpdxId: Apache-2.0
 topics:
   - audio
   - frameworks

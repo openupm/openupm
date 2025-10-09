@@ -5,8 +5,8 @@ description: >-
   any of your Scripts.
 repoUrl: 'https://github.com/medallyon/unity-savemanager'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: ISC
+licenseSpdxId: ISC
 topics:
   - data-management
 hunter: medallyon

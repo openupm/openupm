@@ -12,8 +12,8 @@ description: >-
   Enjoying PrimeTween? Consider leaving an honest review on Asset Store.
 repoUrl: https://github.com/iLataria/prime_tween_open_upm
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT LICENSE
+licenseSpdxId: MIT
 image: ''
 topics:
   - animation

@@ -3,8 +3,8 @@ displayName: MessagePack
 description: Extremely Fast MessagePack Serializer for C#.
 repoUrl: https://github.com/MessagePack-CSharp/MessagePack-CSharp
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

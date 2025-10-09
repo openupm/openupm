@@ -3,8 +3,8 @@ displayName: Preliy Package
 description: A test package
 repoUrl: https://github.com/Preliy/CustomPackage
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - testing

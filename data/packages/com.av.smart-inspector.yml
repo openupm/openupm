@@ -3,7 +3,7 @@ displayName: Smart Inspector
 description: 'Keeps your screen real-estate clean with refined, compact UX.'
 repoUrl: 'https://github.com/neon-age/Smart-Inspector'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: GPL-3.0
 licenseName: GPL3.0
 topics:
   - editor-enhancement

@@ -3,8 +3,8 @@ displayName: Legendary Tools - Bragi Audio System
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/bragi-audio'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - audio
   - utilities

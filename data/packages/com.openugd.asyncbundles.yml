@@ -4,8 +4,8 @@ description: |
   A library for managing asynchronous loading and unloading of asset bundles.
 repoUrl: https://github.com/openugd/upm-async-bundles
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - asset-management

@@ -3,8 +3,8 @@ displayName: UnitySkiaSharp
 description: SkiaSharp for Unity
 repoUrl: https://github.com/u2sb/UnitySkiaSharp
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - 2d

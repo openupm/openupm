@@ -3,7 +3,7 @@ displayName: Saltbox
 description: Unity3D Common Scripts and Utils
 repoUrl: 'https://github.com/SaltboxGames/Saltbox'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: MPL-2.0
 licenseName: MPL-2.0
 topics:
   - editor-enhancement

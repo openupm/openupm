@@ -5,7 +5,7 @@ description: >-
   https://github.com/AlexanderVorobyov/simple-light-probe-placer
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - editor-enhancement

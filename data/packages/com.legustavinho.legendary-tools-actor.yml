@@ -3,8 +3,8 @@ displayName: Legendary Tools - Actor System
 description: ''
 repoUrl: https://github.com/LeGustaVinho/actor
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

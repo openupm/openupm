@@ -6,8 +6,8 @@ description: >-
   system outside of Unity3D.
 repoUrl: https://github.com/EloiStree/OpenUPM_pBit4096B58Pkcs1SHA256
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - network

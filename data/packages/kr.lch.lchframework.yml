@@ -3,8 +3,8 @@ displayName: LCHFramework
 description: LCHFramework
 repoUrl: https://github.com/ckdgus4002/LCHFramework
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

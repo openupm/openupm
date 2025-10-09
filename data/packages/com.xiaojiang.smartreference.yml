@@ -5,8 +5,8 @@ description: >-
   other objects in ScriptableObject and MonoBehaviour.
 repoUrl: 'https://github.com/Brian-Jiang/SmartReference'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - data-management
   - utilities

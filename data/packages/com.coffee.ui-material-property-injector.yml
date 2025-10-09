@@ -6,8 +6,8 @@ description: >-
   components.
 repoUrl: https://github.com/mob-sakai/UIMaterialPropertyInjector
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: >-
   https://github.com/mob-sakai/mob-sakai/assets/12690315/ebb88b50-2433-4a1d-8379-cff30c51c5ac
 topics:

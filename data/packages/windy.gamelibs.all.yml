@@ -3,8 +3,8 @@ displayName: GameLibs
 description: Unity Game Libs
 repoUrl: https://github.com/windyuuy/UnityGameLibs
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache License
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - utilities

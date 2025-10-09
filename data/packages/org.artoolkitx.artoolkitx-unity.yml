@@ -3,8 +3,8 @@ displayName: artoolkitX-Unity
 description: The artoolkitX for Unity augmented reality toolkit
 repoUrl: 'https://github.com/artoolkitx/arunityx'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: LGPLv3 with optional static linking exception
+licenseSpdxId: LGPL-3.0-linking-exception
 topics:
   - ar-and-vr
   - camera

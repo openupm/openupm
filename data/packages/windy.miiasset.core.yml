@@ -3,8 +3,8 @@ displayName: MiiAsset
 description: Unity Resource and Code hot update
 repoUrl: https://github.com/windyuuy/MiiAsset
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache License
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - asset-management

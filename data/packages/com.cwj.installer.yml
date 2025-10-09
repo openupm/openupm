@@ -3,8 +3,8 @@ displayName: CWJ Library Installer
 description: CWJ's personal common library installer
 repoUrl: https://github.com/DevCWJ/cwj.installer
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - editor-enhancement

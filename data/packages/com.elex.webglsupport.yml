@@ -3,8 +3,8 @@ displayName: WebGLSupport
 description: unity webgl support
 repoUrl: https://github.com/yuyixiaoxiang/WebGLSupport
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

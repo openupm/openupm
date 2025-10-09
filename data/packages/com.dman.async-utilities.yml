@@ -3,8 +3,8 @@ displayName: Dman's Async Utilities
 description: A bunch of async utilities too small to go in their own package
 repoUrl: https://github.com/dsmiller95/DmanUtilities
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

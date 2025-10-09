@@ -3,8 +3,8 @@ displayName: ObjectPool
 description: Provides functionality for pooling Unity GameObjects.
 repoUrl: https://github.com/jonagill/ObjectPool
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT No Attribution
+licenseSpdxId: MIT-0
 image: ''
 topics:
   - utilities

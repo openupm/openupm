@@ -6,8 +6,8 @@ description: >-
   DIY IID server on PI .
 repoUrl: https://github.com/EloiStree/OpenUPM_WsClientIID
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - network

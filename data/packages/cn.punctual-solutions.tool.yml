@@ -3,8 +3,8 @@ displayName: PunctualSolutionsTool
 description: Tool
 repoUrl: https://github.com/PunctualSolutions/PunctualSolutionsTool
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MPL-2.0
+licenseSpdxId: MPL-2.0
 image: ''
 topics:
   - frameworks

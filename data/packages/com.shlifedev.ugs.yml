@@ -3,8 +3,8 @@ displayName: Uni Google Sheets
 description: Google Sheet Intergration for Unity
 repoUrl: 'https://github.com/shlifedev/uni-google-sheets'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - integration
   - localization

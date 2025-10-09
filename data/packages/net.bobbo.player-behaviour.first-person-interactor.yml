@@ -4,8 +4,8 @@ description: First person interaction functionality for the Bobbo-Net Player Con
 repoUrl: >-
   https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - input-management
 hunter: Iseeicy

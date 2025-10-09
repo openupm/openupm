@@ -3,8 +3,8 @@ displayName: PlayFab package
 description: ''
 repoUrl: https://github.com/iLataria/PlayFab
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT LICENSE
+licenseSpdxId: MIT
 image: ''
 topics:
   - services

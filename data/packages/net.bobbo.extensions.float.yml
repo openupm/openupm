@@ -3,8 +3,8 @@ displayName: Float Extensions
 description: Extension methods for C#'s float Type
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: Iseeicy

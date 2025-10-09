@@ -3,8 +3,8 @@ displayName: Icy's SGB Mods
 description: ''
 repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.sgb.imod'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - frameworks
   - utilities

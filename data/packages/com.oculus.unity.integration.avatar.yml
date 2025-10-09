@@ -3,7 +3,7 @@ displayName: Oculus Integration Avatar
 description: Unofficial mirror of the Oculus Unity-Integration Avatar as a package for Unity.
 repoUrl: 'https://github.com/Trisgram/com.oculus.unity.integration.avatar'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Oculus-SDK-License
 licenseName: Oculus SDK License
 topics:
   - ar-and-vr

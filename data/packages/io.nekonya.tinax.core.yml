@@ -3,7 +3,7 @@ displayName: TinaX.Core
 description: ''
 repoUrl: 'https://github.com/yomunsam/TinaX.Core'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: AGPL-3.0
 licenseName: AGPLv3
 topics:
   - integration

@@ -5,8 +5,8 @@ description: >-
   use eye tracking.
 repoUrl: 'https://github.com/fcbg-hnp-vr/eye-tracking'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MPL-2.0
+licenseSpdxId: MPL-2.0
 topics:
   - ar-and-vr
   - data-management

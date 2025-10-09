@@ -5,8 +5,8 @@ description: >-
   hierarchy.
 repoUrl: https://github.com/KageKirin/Mr_Tubings
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: CC-BY-NC4.0
+licenseSpdxId: CC-BY-NC-4.0
 image: https://github.com/KageKirin/Mr_Tubings/raw/main/mr_tubings.png
 topics:
   - debugging-and-logging

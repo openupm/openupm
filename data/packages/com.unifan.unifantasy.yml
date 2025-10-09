@@ -3,8 +3,8 @@ displayName: UniFantasy Core
 description: unifantasy core library
 repoUrl: 'https://github.com/821869798/unifantasy'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 topics:
   - frameworks
 hunter: '821869798'

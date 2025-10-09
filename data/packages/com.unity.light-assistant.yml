@@ -3,7 +3,7 @@ displayName: Light Assistant
 description: Light Assistant Tool
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.light-assistant'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - editor-enhancement

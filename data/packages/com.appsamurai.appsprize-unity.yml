@@ -3,8 +3,8 @@ displayName: AppsPrizeUnity
 description: Appsprize Playtime SDK
 repoUrl: https://github.com/Netvent/appsprize
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - mobile

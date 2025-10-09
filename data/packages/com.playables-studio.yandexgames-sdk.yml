@@ -3,8 +3,8 @@ displayName: Yandex Games Unity SDK
 description: A Unity plugin for YandexGames integration.
 repoUrl: https://github.com/playables-studio/YandexGamesSDK-Unity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - integration

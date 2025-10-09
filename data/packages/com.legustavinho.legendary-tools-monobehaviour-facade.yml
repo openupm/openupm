@@ -3,8 +3,8 @@ displayName: Legendary Tools - Mono Behaviour Facade
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/monobehaviour-facade'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

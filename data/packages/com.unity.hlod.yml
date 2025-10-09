@@ -7,7 +7,7 @@ description: >-
   draw calls per frame.
 repoUrl: 'https://github.com/Unity-Technologies/HLODSystem'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - particles-and-effects

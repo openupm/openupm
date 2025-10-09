@@ -3,8 +3,8 @@ displayName: Eloi Tool Kits
 description: This package has dependency to all the packages on UPM
 repoUrl: https://github.com/EloiStree/OpenUPM_EloiToolKits
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - utilities

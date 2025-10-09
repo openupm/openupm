@@ -3,8 +3,8 @@ displayName: AudioLink
 description: Audio reactive prefabs for VRChat
 repoUrl: 'https://github.com/llealloo/vrc-udon-audio-link'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: CC-BY-NC-ND 4.0
+licenseSpdxId: CC-BY-NC-ND-4.0
 topics:
   - audio
   - particles-and-effects

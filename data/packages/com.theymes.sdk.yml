@@ -3,8 +3,8 @@ displayName: Theymes SDK
 description: Theymes SDK for Unity
 repoUrl: https://github.com/theymes/theymes-unity-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: See LICENSE file
+licenseSpdxId: LicenseRef-Theymes-SDK
+licenseName: Theymes SDK for Unity
 image: ''
 topics:
   - ai

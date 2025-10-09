@@ -5,8 +5,8 @@ description: >-
   fields
 repoUrl: https://github.com/ligofff/SimpleTools-CustomSOIcons
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - editor-enhancement

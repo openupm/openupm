@@ -5,8 +5,8 @@ description: >-
   need to swap between them.
 repoUrl: https://github.com/martin-piliar/minimal-unity-build-tool
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

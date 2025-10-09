@@ -3,7 +3,7 @@ displayName: Shaders
 description: A shader library.
 repoUrl: 'https://github.com/yontalane/UnityPackages'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: CC-BY-3.0-US
 licenseName: Creative Commons Attribution 3.0 United States
 topics:
   - 2d

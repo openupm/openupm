@@ -3,7 +3,7 @@ displayName: Unity Input Extension
 description: Extension for new Input System of Unity.
 repoUrl: 'https://github.com/KleinerHacker/unity-input-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - input-management

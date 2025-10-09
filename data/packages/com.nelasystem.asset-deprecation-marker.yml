@@ -3,8 +3,8 @@ displayName: Asset Deprecation Marker
 description: Unity package that puts markers on deprecated assets
 repoUrl: 'https://github.com/zacx-z/Asset-Deprecation-Marker'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - asset-management
   - editor-enhancement

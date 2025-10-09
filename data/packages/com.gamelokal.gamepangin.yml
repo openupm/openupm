@@ -3,8 +3,8 @@ displayName: Gamepangin
 description: Bikin game? Ya Gamepangin aja! Solusi bikin game jadi gampang!
 repoUrl: 'https://github.com/RErwandi/Gamepangin'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - asset-management
   - data-management

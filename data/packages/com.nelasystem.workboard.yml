@@ -5,8 +5,8 @@ description: >-
   to assets and so on
 repoUrl: https://github.com/zacx-z/WorkBoard
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - editor-enhancement

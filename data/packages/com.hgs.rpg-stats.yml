@@ -3,8 +3,8 @@ displayName: HGS RPG Stats
 description: Modular stat system to RPG and RPG Like games
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-rpg-stats'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - code-generation
   - data-management

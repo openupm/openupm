@@ -3,8 +3,8 @@ displayName: Length Array
 description: A library for arrays with valid length information.
 repoUrl: https://github.com/santutu/unity-length-array
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

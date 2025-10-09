@@ -3,7 +3,7 @@ displayName: Unity Localization
 description: Localization system for Unity games.
 repoUrl: 'https://github.com/KleinerHacker/unity-localization'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache Licence 2.0
 topics:
   - frameworks

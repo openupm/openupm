@@ -3,8 +3,8 @@ displayName: Eyap Library
 description: My library of common tools and methods for my unity projects.
 repoUrl: 'https://github.com/Eyap53/eyap-library'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MPL-2.0
+licenseSpdxId: MPL-2.0
 topics:
   - utilities
 hunter: Eyap53

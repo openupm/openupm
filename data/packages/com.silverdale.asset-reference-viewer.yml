@@ -3,7 +3,7 @@ displayName: Asset Reference Viewer
 description: A convenient tool to help cleaning and maintaining Unity Projects
 repoUrl: 'https://github.com/Dasparion/AssetReferenceViewer'
 parentRepoUrl: 'https://github.com/ogxd/project-curator'
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Do-Whatever-You-Want
 licenseName: Do whatever you want
 topics:
   - asset-management

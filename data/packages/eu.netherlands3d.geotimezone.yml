@@ -5,8 +5,8 @@ description: >-
   convert your local time to UTC in WebGL
 repoUrl: https://github.com/Netherlands3D/GeoTimeZone
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

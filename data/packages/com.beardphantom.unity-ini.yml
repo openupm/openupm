@@ -3,8 +3,8 @@ displayName: Unity INI
 description: First-class INI file support for Unity.
 repoUrl: https://github.com/thebeardphantom/Unity-INI
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

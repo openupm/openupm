@@ -5,7 +5,7 @@ description: >-
   Editor. Unity 2019.3+ version compatible
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.editoriterationprofiler'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - debugging-and-logging

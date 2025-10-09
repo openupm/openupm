@@ -3,7 +3,7 @@ displayName: CsvHelper
 description: Library to help reading and writing CSV files
 repoUrl: 'https://github.com/yoshida190/CsvHelper'
 parentRepoUrl: 'https://github.com/JoshClose/CsvHelper'
-licenseSpdxId: null
+licenseSpdxId: MS-PL AND Apache-2.0
 licenseName: Dual licensing under MS-PL and Apache 2.0
 topics:
   - data-management

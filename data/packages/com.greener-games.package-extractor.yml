@@ -5,7 +5,7 @@ description: >-
   that need to be within the assets forlder for editing
 repoUrl: 'https://github.com/Greener-Games/PackageExtractor'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Copyright
 licenseName: copyright
 topics:
   - utilities

@@ -3,7 +3,7 @@ displayName: Reown.Sign.Unity
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-WalletConnect-Community-License
 licenseName: WalletConnect Community License Agreement
 image: ''
 topics:

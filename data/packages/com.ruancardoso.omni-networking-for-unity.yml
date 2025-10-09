@@ -5,8 +5,8 @@ description: >-
   the development of multiplayer games.
 repoUrl: https://github.com/RuanCardoso/Omni-Networking-for-Unity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - network

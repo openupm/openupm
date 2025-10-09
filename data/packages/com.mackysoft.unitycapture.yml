@@ -5,8 +5,8 @@ description: >-
   applications as virtual capture device.
 repoUrl: 'https://github.com/mackysoft/UnityCapture-URP'
 parentRepoUrl: 'https://github.com/schellingb/UnityCapture'
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - camera
   - video

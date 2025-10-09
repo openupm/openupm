@@ -5,8 +5,8 @@ description: >-
   dependencies, hints.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.objectivesystem
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - level-design

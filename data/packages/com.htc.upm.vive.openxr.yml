@@ -27,8 +27,8 @@ description: >-
   You can view the documentation for additional information.
 repoUrl: https://github.com/ViveSoftware/VIVE-OpenXR
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Copyright 2017-2021, HTC Corporation. All rights reserved.
+licenseSpdxId: LicenseRef-HTC-Copyright
 image: ''
 topics:
   - integration

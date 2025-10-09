@@ -5,8 +5,8 @@ description: >-
   personalized push notifications, in-app, app inbox, email, SMS, and more
 repoUrl: https://github.com/reteno-com/reteno-unity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - mobile

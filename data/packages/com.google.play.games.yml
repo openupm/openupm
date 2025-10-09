@@ -5,8 +5,8 @@ description: >-
   Games API through Unity's social interface.
 repoUrl: https://github.com/playgameservices/play-games-plugin-for-unity
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LICENSE
+licenseName: MIT License
+licenseSpdxId: MIT
 image: >-
   https://static.wikia.nocookie.net/logopedia/images/4/4d/Google_Play_Games_%282022%2C_icon%29.svg
 topics:

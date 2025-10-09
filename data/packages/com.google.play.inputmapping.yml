@@ -5,8 +5,8 @@ description: >-
   framework
 repoUrl: 'https://github.com/google/play-unity-plugins'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 topics:
   - input-management
   - integration

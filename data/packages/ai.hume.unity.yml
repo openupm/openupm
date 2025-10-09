@@ -5,6 +5,7 @@ repoUrl: https://github.com/HumeAI/hume-dotnet-sdk
 parentRepoUrl: null
 licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: >-
   https://files.buildwithfern.com/hume.docs.buildwithfern.com/2025-08-27T20:43:43.401Z/docs/assets/logo-dark-mode.png
 topics:

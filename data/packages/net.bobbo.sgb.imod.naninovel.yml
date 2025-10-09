@@ -3,8 +3,8 @@ displayName: Icy's SGB Mods - Naninovel Plugin
 description: Naninovel interactions for Icy's SGB mods
 repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.sgb.imod.naninovel'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - editor-enhancement
   - integration

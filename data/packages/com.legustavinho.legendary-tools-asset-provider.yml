@@ -3,8 +3,8 @@ displayName: Legendary Tools - Asset Provider
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/asset-provider'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

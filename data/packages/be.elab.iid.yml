@@ -5,8 +5,8 @@ description: >-
   and demonstrate what is a IID in Unity3D.
 repoUrl: https://github.com/EloiStree/OpenUPM_IID
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - network

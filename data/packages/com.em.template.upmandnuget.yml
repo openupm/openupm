@@ -3,8 +3,8 @@ displayName: EM.Template.UpmAndNuGet
 description: ''
 repoUrl: 'https://github.com/epishev-m/EM.Template.UpmAndNuGet'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - frameworks
 hunter: epishev-m

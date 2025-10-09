@@ -3,7 +3,7 @@ displayName: VFX Toolbox
 description: Additional tools for Visual Effect Artists
 repoUrl: 'https://github.com/Unity-Technologies/VFXToolbox'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - particles-and-effects

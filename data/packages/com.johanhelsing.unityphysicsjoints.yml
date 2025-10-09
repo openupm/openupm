@@ -5,7 +5,7 @@ description: >-
   EntityComponentSystemSamples repo
 repoUrl: 'https://github.com/johanhelsing/unity-physics-joints'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - dots-and-ecs

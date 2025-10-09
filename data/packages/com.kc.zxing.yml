@@ -3,8 +3,8 @@ displayName: KC.Zxing
 description: ''
 repoUrl: https://github.com/zkyvette425/com.kc.zxing
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

@@ -3,8 +3,8 @@ displayName: Legendary Tools - Pool System
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/pool'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

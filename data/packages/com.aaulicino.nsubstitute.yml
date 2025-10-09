@@ -3,8 +3,8 @@ displayName: NSubstitute
 description: A friendly substitute for .NET mocking libraries
 repoUrl: 'https://github.com/AAulicino/Unity3D-NSubstitute'
 parentRepoUrl: 'https://github.com/nsubstitute/NSubstitute'
-licenseSpdxId: ''
 licenseName: BSD
+licenseSpdxId: BSD-3-Clause
 topics:
   - testing
 hunter: AAulicino

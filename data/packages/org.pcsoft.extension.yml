@@ -3,7 +3,7 @@ displayName: Unity Extension
 description: Extension for Unity itself.
 repoUrl: 'https://github.com/KleinerHacker/unity-extension'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

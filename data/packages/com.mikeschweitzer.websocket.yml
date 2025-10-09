@@ -5,8 +5,8 @@ description: >-
   anywhere in your scene.
 repoUrl: https://github.com/mikerochip/unity-websocket
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - network

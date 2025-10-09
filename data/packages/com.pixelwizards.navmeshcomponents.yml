@@ -5,7 +5,7 @@ description: >-
   Unity's Package Manager
 repoUrl: 'https://github.com/PixelWizards/navmesh-components'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-Companion-License
 licenseName: Unity Companion License
 topics:
   - ai

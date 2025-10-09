@@ -3,8 +3,8 @@ displayName: Legendary Tools - Service Locator
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/service-locator'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

@@ -3,8 +3,8 @@ displayName: GameCraftGuild - Unity Extensions
 description: A UPM package with some useful extensions to Unity3d Engine's base classes.
 repoUrl: 'https://github.com/GameCraftGuild/com.gamecraftguild.unity-extensions'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: mitchkm

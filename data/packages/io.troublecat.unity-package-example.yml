@@ -3,8 +3,8 @@ displayName: Unity Package Example
 description: An example of how to structure a Unity Package Project
 repoUrl: https://github.com/troublecatstudios/unity-package-example
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

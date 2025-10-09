@@ -3,8 +3,8 @@ displayName: Editor Search Window
 description: Re-usable search window functionality for the Unity Editor
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - editor-enhancement
 hunter: Iseeicy

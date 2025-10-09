@@ -3,8 +3,8 @@ displayName: Legendary Tools - UI
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/ui-common'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - gui
   - utilities

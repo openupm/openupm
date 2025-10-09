@@ -8,8 +8,8 @@ description: >-
   running builing didimos into your Oculus experiences as quick as possible.
 repoUrl: 'https://github.com/didimoinc/didimo-digital-human-unity-sdk'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Didimo Source Code License
+licenseSpdxId: LicenseRef-Didimo-Source-Code-License
 topics:
   - animation
   - asset-management

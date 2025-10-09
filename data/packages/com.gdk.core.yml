@@ -5,8 +5,8 @@ description: >-
   extensible so that developers can focus on building unique gameplay.
 repoUrl: https://github.com/Association-of-stupid-people/GameFoundation
 parentRepoUrl: https://github.com/GameDevelopmentKit/GameFoundation
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - 2d

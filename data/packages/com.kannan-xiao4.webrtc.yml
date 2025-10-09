@@ -5,8 +5,8 @@ description: >-
   Communications (RTC) capabilities.
 repoUrl: https://github.com/kannan-xiao4/com.unity.webrtc
 parentRepoUrl: https://github.com/Unity-Technologies/com.unity.webrtc
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - audio

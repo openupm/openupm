@@ -3,7 +3,7 @@ displayName: Asset Loader
 description: Extension to give an easy way to load assets from different sources
 repoUrl: 'https://github.com/KleinerHacker/unity-asset-loader'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - asset-management

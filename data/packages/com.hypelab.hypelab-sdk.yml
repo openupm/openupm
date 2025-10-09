@@ -3,8 +3,8 @@ displayName: HypeLab SDK
 description: Integrate HypeLab ads into your Android/iOS Unity project
 repoUrl: https://github.com/gohypelab/hypelab-sdk-unity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - mobile

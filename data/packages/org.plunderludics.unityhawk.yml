@@ -3,8 +3,8 @@ displayName: UnityHawk
 description: Run emulated games within Unity via BizHawk
 repoUrl: 'https://github.com/plunderludics/unity-hawk'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: iatenothingbutriceforthreedays

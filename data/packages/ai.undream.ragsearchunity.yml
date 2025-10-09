@@ -3,8 +3,8 @@ displayName: RAGSearchUnity
 description: RAGSearchUnity implements semantic search in the Unity engine.
 repoUrl: https://github.com/undreamai/RAGSearchUnity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - ai

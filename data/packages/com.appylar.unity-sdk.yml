@@ -4,8 +4,8 @@ description: >
   SDK for the Appylar cross promotion service
 repoUrl: https://github.com/appylar/published-unity-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: GPL
+licenseSpdxId: GPL-3.0
 image: ''
 topics:
   - utilities

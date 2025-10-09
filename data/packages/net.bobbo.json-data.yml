@@ -3,8 +3,8 @@ displayName: JSON Data
 description: A wrapper for working with JSON Data
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - data-management
 hunter: Iseeicy

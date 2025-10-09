@@ -5,8 +5,8 @@ description: >-
   unityevent, sound ...
 repoUrl: https://github.com/EloiStree/OpenUPM_BasicActionIID
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - utilities

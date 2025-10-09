@@ -3,8 +3,8 @@ displayName: Vector3 Extensions
 description: Extension methods for Unity's Vector3 Type
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: Iseeicy

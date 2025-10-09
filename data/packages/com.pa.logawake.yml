@@ -3,8 +3,8 @@ displayName: Log Awake
 description: Log any message in awake
 repoUrl: 'https://github.com/Paul-Auguste/TestOpenUPM1'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - debugging-and-logging
 hunter: paulauguste

@@ -3,8 +3,8 @@ displayName: UnityNetCoreServer
 description: NetCoreServer for Unity
 repoUrl: https://github.com/u2sb/UnityNetCoreServer
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache-2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - network

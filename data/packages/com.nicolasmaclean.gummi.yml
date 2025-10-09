@@ -3,7 +3,7 @@ displayName: Gummi
 description: This is a general use Unity library with C# scripts and other useful assets.
 repoUrl: 'https://github.com/nicolasmaclean/Gummi-Unity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: AGPL-3.0
 licenseName: GNU AFFERO GENERAL PUBLIC LICENSE
 topics:
   - utilities

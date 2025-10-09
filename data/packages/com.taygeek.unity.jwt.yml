@@ -3,8 +3,8 @@ displayName: JWT for Unity
 description: JSON Web Token (JWT) Implementation for Unity (C#)
 repoUrl: https://github.com/AceLam/JWT-for-Unity
 parentRepoUrl: https://github.com/monry/JWT-for-Unity
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

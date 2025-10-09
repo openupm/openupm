@@ -3,7 +3,7 @@ displayName: Hourai Localization
 description: Localization system for Unity3D.
 repoUrl: 'https://github.com/HouraiTeahouse/HouraiLocalization'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unknown
 licenseName: Unknown
 topics:
   - localization

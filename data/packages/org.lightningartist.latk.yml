@@ -3,7 +3,7 @@ displayName: Lightning Artist Toolkit
 description: Pipeline tools for volumetric animation
 repoUrl: 'https://github.com/LightningArtist/latkUnity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache
 topics:
   - ar-and-vr

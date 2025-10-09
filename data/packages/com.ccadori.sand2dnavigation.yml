@@ -5,7 +5,7 @@ description: >-
   Unity games.
 repoUrl: 'https://github.com/ccadori/sand-2d-navigation'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: GPL-3.0
 licenseName: GPLv3
 topics:
   - 2d

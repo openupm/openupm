@@ -5,8 +5,8 @@ description: >-
   draw entities as sprites.
 repoUrl: 'https://github.com/Antoshidza/NSprites'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - 2d
   - dots-and-ecs

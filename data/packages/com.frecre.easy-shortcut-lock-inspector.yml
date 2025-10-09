@@ -3,7 +3,7 @@ displayName: Easy Shortcut Lock Inspector
 description: A shortcut key to toggle Inspector option lock/unlock with Ctrl+L.
 repoUrl: 'https://github.com/SolidAlloy/EasyShortcutLockInspector'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Unity-EULA
 licenseName: Unity EULA
 topics:
   - editor-enhancement

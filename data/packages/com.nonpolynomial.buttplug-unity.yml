@@ -5,7 +5,7 @@ description: >-
   https://buttplug.io.
 repoUrl: 'https://github.com/buttplugio/buttplug-unity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: BSD-3-Clause
 licenseName: 3 clause BSD
 topics:
   - frameworks

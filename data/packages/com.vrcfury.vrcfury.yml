@@ -3,8 +3,8 @@ displayName: VRCFury
 description: Non-Destructive Tools for VRChat Avatars
 repoUrl: 'https://github.com/VRCFury/VRCFury'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: 'CC BY-ND 4.0, CC BY-NC 4.0'
+licenseSpdxId: CC-BY-NC-ND-4.0
 topics:
   - editor-enhancement
 hunter: TayouVR

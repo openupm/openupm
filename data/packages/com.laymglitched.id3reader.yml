@@ -5,8 +5,8 @@ description: >-
   files using ID3 tags (ID3v1 or ID3v2)
 repoUrl: https://github.com/LaymGlitched/id3reader
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: https://github.com/LaymGlitched/id3reader/blob/main/banner.png?raw=true
 topics:
   - audio

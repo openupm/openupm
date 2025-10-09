@@ -6,8 +6,8 @@ description: >-
   and debugging easier.
 repoUrl: https://github.com/yayapipi/YapiBtn
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: >-
   https://github.com/yayapipi/YapiBtn/blob/main/Assets/YapiBtn/Documentation/images/example.png?raw=true
 topics:

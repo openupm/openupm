@@ -5,8 +5,8 @@ description: >-
   and get speed up by JIT.
 repoUrl: https://github.com/jtllab/puerts-unity-upm
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BSD 3-Clause
+licenseSpdxId: BSD-3-Clause
 image: ''
 topics:
   - code-generation

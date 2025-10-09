@@ -5,7 +5,7 @@ description: >-
   application depends on, during testing
 repoUrl: 'https://github.com/Uqido/HttpMock'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: MIT
 licenseName: The MIT License (MIT)
 topics:
   - debugging-and-logging

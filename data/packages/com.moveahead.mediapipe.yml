@@ -3,8 +3,8 @@ displayName: MediaPipe
 description: MediaPipe for Unity
 repoUrl: 'https://github.com/Ale1/tf-lite-unity'
 parentRepoUrl: 'https://github.com/asus4/tf-lite-unity-sample'
-licenseSpdxId: ''
 licenseName: MIT LICENSE
+licenseSpdxId: MIT
 topics:
   - ar-and-vr
 hunter: ale1

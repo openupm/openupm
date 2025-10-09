@@ -5,8 +5,8 @@ description: >-
   ManageXR MDM platform.
 repoUrl: 'https://github.com/ManageXR/mxr-unity-sdk'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: ManageXR SDK License
+licenseSpdxId: LicenseRef-ManageXR-SDK-License
 topics:
   - ar-and-vr
   - integration

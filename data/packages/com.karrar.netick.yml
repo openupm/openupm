@@ -3,8 +3,8 @@ displayName: Netick
 description: A networking solution for Unity
 repoUrl: https://github.com/NetickNetworking/NetickForUnity
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - data-management

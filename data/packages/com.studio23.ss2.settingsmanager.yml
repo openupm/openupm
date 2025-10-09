@@ -5,8 +5,8 @@ description: >-
   HDRP projects.
 repoUrl: 'https://github.com/Studio-23-xyz/HDRP_Settings'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: Studio-23-xyz

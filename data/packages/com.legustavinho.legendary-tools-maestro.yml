@@ -3,8 +3,8 @@ displayName: Legendary Tools - Maestro
 description: Dependecy Tree Resolver
 repoUrl: 'https://github.com/LeGustaVinho/maestro'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 topics:
   - utilities
 hunter: LeGustaVinho

@@ -16,7 +16,7 @@ description: >-
   interface to the Csound API.
 repoUrl: 'https://github.com/rorywalsh/CsoundUnity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LGPL-3.0
 licenseName: LGPL
 topics:
   - audio

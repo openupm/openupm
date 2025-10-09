@@ -5,8 +5,8 @@ description: >-
   functionality and convenience of Unity development.
 repoUrl: https://github.com/Allasstar/data-keeper
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Unlicense license
+licenseSpdxId: Unlicense
 image: ''
 topics:
   - utilities

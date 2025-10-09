@@ -3,8 +3,8 @@ displayName: Imp Rock - JumpTo
 description: A favorites tool for Unity
 repoUrl: https://github.com/improck/jumpto
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Custom BSD-3-clause
+licenseSpdxId: BSD-3-Clause
 image: ''
 topics:
   - editor-enhancement

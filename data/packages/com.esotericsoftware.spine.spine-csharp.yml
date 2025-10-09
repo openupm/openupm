@@ -3,8 +3,8 @@ displayName: spine-csharp Runtime
 description: This plugin provides the spine-csharp core runtime.
 repoUrl: https://github.com/EsotericSoftware/spine-runtimes
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: SEE LICENSE IN LICENSE
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - 2d

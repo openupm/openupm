@@ -3,7 +3,7 @@ displayName: Reown.AppKit.Unity
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: LicenseRef-Reown-Community-License
 licenseName: Reown Community License Agreement
 image: ''
 topics:

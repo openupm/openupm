@@ -3,7 +3,7 @@ displayName: Common Extension for C#
 description: C# extensions for common features.
 repoUrl: 'https://github.com/KleinerHacker/unity-common-ex'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: Apache-2.0
 licenseName: Apache 2.0 Licence
 topics:
   - utilities

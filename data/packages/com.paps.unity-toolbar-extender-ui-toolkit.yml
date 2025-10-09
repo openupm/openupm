@@ -5,8 +5,8 @@ description: >-
   main toolbar (where play buttons are) with UI Toolkit.
 repoUrl: https://github.com/Sammmte/unity-toolbar-extender-ui-toolkit
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - editor-enhancement

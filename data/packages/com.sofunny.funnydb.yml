@@ -3,8 +3,8 @@ displayName: FunnyDB
 description: This is SoFunny FunnyDB
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnydb
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks

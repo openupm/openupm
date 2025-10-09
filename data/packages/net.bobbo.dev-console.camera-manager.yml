@@ -3,8 +3,8 @@ displayName: Camera Manager Console Commands
 description: Console Commands for the CameraManager
 repoUrl: 'https://github.com/BOBBO-NET/netengine4'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: BOBBO-NET Friendly MIT License
+licenseSpdxId: MIT
 topics:
   - gui
   - utilities

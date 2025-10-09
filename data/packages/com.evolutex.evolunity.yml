@@ -3,7 +3,7 @@ displayName: Evolunity
 description: Well-designed package with useful scripting tools for Unity development​
 repoUrl: 'https://github.com/Bodix/Evolunity'
 parentRepoUrl: null
-licenseSpdxId: null
+licenseSpdxId: CC-BY-ND-4.0
 licenseName: CC BY-ND 4.0
 topics:
   - editor-enhancement

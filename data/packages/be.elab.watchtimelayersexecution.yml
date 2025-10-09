@@ -5,8 +5,8 @@ description: >-
   after an other.
 repoUrl: https://github.com/EloiStree/OpenUPM_WatchTimeLayersExecution
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware
+licenseSpdxId: Beerware
 image: ''
 topics:
   - utilities

@@ -6,8 +6,8 @@ description: >-
   creating great products, and DevToDev will take care of the analytics.
 repoUrl: https://github.com/devtodev-analytics/package_Analytics
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache License
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
   - utilities

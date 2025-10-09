@@ -3,8 +3,8 @@ displayName: Sasaki Pixel Finder
 description: A Compute Shader tool for counting pixels
 repoUrl: 'https://github.com/sasakiassociates/unity-tools'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache 2.0
+licenseSpdxId: Apache-2.0
 topics:
   - utilities
 hunter: haitheredavid

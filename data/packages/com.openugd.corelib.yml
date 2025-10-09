@@ -4,8 +4,8 @@ description: |
   require .NET 4x
 repoUrl: https://github.com/openugd/upm-corelib
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: The MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - frameworks
