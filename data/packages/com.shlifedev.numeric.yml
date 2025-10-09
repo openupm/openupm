@@ -1,13 +1,13 @@
 name: com.shlifedev.numeric
 displayName: LD.Numeric
-description: '-_-..?'
+description: -_-..?
 repoUrl: https://github.com/shlifedev/LD.Numeric
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: shlifedev
 gitTagPrefix: ''
 gitTagIgnore: ''

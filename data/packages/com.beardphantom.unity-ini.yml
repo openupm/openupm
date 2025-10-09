@@ -3,12 +3,12 @@ displayName: Unity INI
 description: First-class INI file support for Unity.
 repoUrl: https://github.com/thebeardphantom/Unity-INI
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
-  - integration
+- frameworks
+- integration
 hunter: thebeardphantom
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -4,11 +4,11 @@ description: An extension for Unity that calls into FFmpeg to adjust audio clips
 repoUrl: https://github.com/hungpt17102k/com.homemade.utils.audio-clip-adjuster
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - audio
-  - utilities
+- audio
+- utilities
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''

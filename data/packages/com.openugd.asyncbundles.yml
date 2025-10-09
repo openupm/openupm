@@ -1,15 +1,16 @@
 name: com.openugd.asyncbundles
 displayName: Async Bundles
-description: |
-  A library for managing asynchronous loading and unloading of asset bundles.
+description: 'A library for managing asynchronous loading and unloading of asset bundles.
+
+  '
 repoUrl: https://github.com/openugd/upm-async-bundles
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - asset-management
-  - utilities
+- asset-management
+- utilities
 hunter: dorofiykolya
 gitTagPrefix: ''
 gitTagIgnore: ''

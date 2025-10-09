@@ -3,11 +3,11 @@ displayName: SQLite-net
 description: SQLite-net packaged for Unity
 repoUrl: https://github.com/gilzoide/unity-sqlite-net
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - data-management
+- data-management
 hunter: gilzoide
 gitTagPrefix: ''
 gitTagIgnore: ''

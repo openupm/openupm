@@ -1,16 +1,15 @@
 name: com.studio23.ss2.achievementsystem
 displayName: Achievement System
-description: >-
-  Elevate your game development experience with the Unity Achievements System
-  Package! This powerful Unity package simplifies the creation and management of
-  achievements in your games, enhancing player engagement and retention.
+description: Elevate your game development experience with the Unity Achievements
+  System Package! This powerful Unity package simplifies the creation and management
+  of achievements in your games, enhancing player engagement and retention.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - code-generation
+- code-generation
 hunter: Studio-23-xyz
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -3,11 +3,11 @@ displayName: OpenAI Editor Tool
 description: OpenAI-Editor-Tool
 repoUrl: https://github.com/Farl/com.prototyper.openai-editor-tool
 parentRepoUrl: null
-licenseName: GPL-3.0
+licenseName: GNU General Public License v3.0 only
 licenseSpdxId: GPL-3.0
 image: ''
 topics:
-  - ai
+- ai
 hunter: Farl
 gitTagPrefix: ''
 gitTagIgnore: ''

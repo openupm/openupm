@@ -1,19 +1,19 @@
 name: org.pcsoft.common-ex
 displayName: Common Extension for C#
 description: C# extensions for common features.
-repoUrl: 'https://github.com/KleinerHacker/unity-common-ex'
+repoUrl: https://github.com/KleinerHacker/unity-common-ex
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
-licenseName: Apache 2.0 Licence
+licenseName: Apache License 2.0
 topics:
-  - utilities
+- utilities
 hunter: KleinerHacker
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
-readme_zhCN: 'master:README.md'
+readme: master:README.md
+readme_zhCN: master:README.md
 displayName_zhCN: ''
 description_zhCN: ''
 createdAt: 1636121407870

@@ -1,19 +1,19 @@
 name: net.bobbo.sgb.imod
 displayName: Icy's SGB Mods
 description: ''
-repoUrl: 'https://github.com/BOBBO-NET/net.bobbo.sgb.imod'
+repoUrl: https://github.com/BOBBO-NET/net.bobbo.sgb.imod
 parentRepoUrl: null
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - frameworks
-  - utilities
+- frameworks
+- utilities
 hunter: iseeicy
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

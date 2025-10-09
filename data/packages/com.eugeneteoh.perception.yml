@@ -1,21 +1,20 @@
 name: com.eugeneteoh.perception
 displayName: Perception
-description: >-
-  Tools for generating large-scale data sets for perception-based machine
+description: Tools for generating large-scale data sets for perception-based machine
   learning training and validation
-repoUrl: 'https://github.com/eugeneteoh/com.eugeneteoh.perception'
-parentRepoUrl: 'https://github.com/Unity-Technologies/com.unity.perception'
-licenseName: Apache-2.0
+repoUrl: https://github.com/eugeneteoh/com.eugeneteoh.perception
+parentRepoUrl: https://github.com/Unity-Technologies/com.unity.perception
+licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0
 topics:
-  - ai
-  - camera
+- ai
+- camera
 hunter: eugeneteoh
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

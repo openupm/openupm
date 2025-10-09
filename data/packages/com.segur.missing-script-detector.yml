@@ -1,15 +1,14 @@
 name: com.segur.missing-script-detector
 displayName: Missing Script Detector
-description: >-
-  A Unity Editor tool to detect and remove missing script components from
+description: A Unity Editor tool to detect and remove missing script components from
   GameObjects.
 repoUrl: https://github.com/segurvita/MissingScriptDetector
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: segurvita
 gitTagPrefix: ''
 gitTagIgnore: ''

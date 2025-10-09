@@ -1,19 +1,19 @@
 name: com.opuscope.bridge
 displayName: Opuscope - Bridge
 description: Opuscope Bridge
-repoUrl: 'https://github.com/opuscope/UnityAsyncBridge'
+repoUrl: https://github.com/opuscope/UnityAsyncBridge
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - ar-and-vr
-  - frameworks
+- ar-and-vr
+- frameworks
 hunter: jonathan-opuscope
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:CHANGELOG.md'
+readme: main:CHANGELOG.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

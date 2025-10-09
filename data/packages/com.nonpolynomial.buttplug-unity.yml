@@ -1,21 +1,20 @@
 name: com.nonpolynomial.buttplug-unity
 displayName: Buttplug Unity
-description: >-
-  Buttplug Sex Toy Control Library support for Unity. For more info, see
+description: Buttplug Sex Toy Control Library support for Unity. For more info, see
   https://buttplug.io.
-repoUrl: 'https://github.com/buttplugio/buttplug-unity'
+repoUrl: https://github.com/buttplugio/buttplug-unity
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
-licenseName: 3 clause BSD
+licenseName: BSD 3-Clause "New" or "Revised" License
 topics:
-  - frameworks
-  - integration
+- frameworks
+- integration
 hunter: deviant-dev
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: master:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

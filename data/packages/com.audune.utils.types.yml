@@ -1,14 +1,15 @@
 name: com.audune.utils.types
 displayName: Serializable Types
-description: Enables Unity to serialize a reference to a C# type in the editor, made for Unity 2022 LTS or higher.
+description: Enables Unity to serialize a reference to a C# type in the editor, made
+  for Unity 2022 LTS or higher.
 repoUrl: https://github.com/audunegames/serializable-types
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
-  - editor-enhancement
-  - utilities
+- editor-enhancement
+- utilities
 hunter: danae
 gitTagPrefix: ''
 gitTagIgnore: ''

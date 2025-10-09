@@ -1,19 +1,19 @@
 name: uk.me.paraskos.oliver.scene-selector
 displayName: Scene Selector
 description: Select scenes in the editor
-repoUrl: 'https://github.com/oparaskos/unity-scene-selector'
+repoUrl: https://github.com/oparaskos/unity-scene-selector
 parentRepoUrl: null
 licenseSpdxId: MIT
-licenseName: MIT
+licenseName: MIT License
 topics:
-  - asset-management
-  - editor-enhancement
+- asset-management
+- editor-enhancement
 hunter: oparaskos
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

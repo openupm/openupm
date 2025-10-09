@@ -4,13 +4,13 @@ description: redwyre Core library
 repoUrl: https://github.com/redwyre/com.redwyre.core
 parentRepoUrl: null
 licenseSpdxId: LGPL-2.1
-licenseName: GNU Lesser General Public License v2.1
+licenseName: GNU Lesser General Public License v2.1 only
 image: ''
 topics:
-  - dots-and-ecs
-  - gui
-  - profiling
-  - utilities
+- dots-and-ecs
+- gui
+- profiling
+- utilities
 hunter: redwyre
 gitTagPrefix: ''
 gitTagIgnore: ''

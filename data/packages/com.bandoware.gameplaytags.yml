@@ -3,11 +3,11 @@ displayName: Gameplay Tags
 description: A package to manage gameplay tags for your game.
 repoUrl: https://github.com/BandoWare/GameplayTags
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - data-management
+- data-management
 hunter: felipemcoliveira
 gitTagPrefix: ''
 gitTagIgnore: ''

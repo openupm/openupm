@@ -1,15 +1,14 @@
 name: com.studio23.ss2.achievementsystem.xboxcorepc
 displayName: Achievementsystem XboxCore Pc
-description: >-
-  This is an extension tool designed to simplify the process of creating folder
-  structures required for Unity packages that are published on  openupm.com.
+description: This is an extension tool designed to simplify the process of creating
+  folder structures required for Unity packages that are published on  openupm.com.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem.xboxcorepc
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: Studio-23-xyz
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -4,13 +4,12 @@ description: A simple but advanced, non-destructive cabinet system.
 repoUrl: https://github.com/poi-vrc/DressingTools
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
-image: >-
-  https://raw.githubusercontent.com/poi-vrc/DressingTools/refs/heads/master/logo%7E/png/dt-banner-pink.png
+licenseName: GNU General Public License v3.0 only
+image: https://raw.githubusercontent.com/poi-vrc/DressingTools/refs/heads/master/logo%7E/png/dt-banner-pink.png
 topics:
-  - ar-and-vr
-  - animation
-  - modeling
+- ar-and-vr
+- animation
+- modeling
 hunter: yuna0x0
 gitTagPrefix: ''
 gitTagIgnore: ''

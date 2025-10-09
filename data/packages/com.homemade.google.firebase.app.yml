@@ -4,12 +4,12 @@ description: Firebase App is the core library every Firebase package depends on.
 repoUrl: https://github.com/hungpt17102k/com.homemade.google.firebase.app
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - frameworks
-  - mobile
-  - package-management
+- frameworks
+- mobile
+- package-management
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''

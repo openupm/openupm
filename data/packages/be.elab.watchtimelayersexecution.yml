@@ -1,15 +1,14 @@
 name: be.elab.watchtimelayersexecution
 displayName: Watch Time Layers Execution
-description: >-
-  Tool that allows to watch time of a layer of code that need to execute one
-  after an other.
+description: Tool that allows to watch time of a layer of code that need to execute
+  one after an other.
 repoUrl: https://github.com/EloiStree/OpenUPM_WatchTimeLayersExecution
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

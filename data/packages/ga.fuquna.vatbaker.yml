@@ -3,11 +3,11 @@ displayName: Vat Baker
 description: A tool to bake VAT from AnimationClip with sample shaders for Unity
 repoUrl: https://github.com/fuqunaga/VatBaker
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - animation
+- animation
 hunter: fuqunaga
 gitTagPrefix: ''
 gitTagIgnore: ''

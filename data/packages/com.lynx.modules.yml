@@ -3,12 +3,12 @@ displayName: Lynx Modules
 description: Lynx-R1 modules (including handtracking support)
 repoUrl: https://github.com/Lynx-MR/UnitySDK
 parentRepoUrl: null
-licenseName: Apache-2.0
+licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - ar-and-vr
-  - mobile
+- ar-and-vr
+- mobile
 hunter: Lynx-MR
 gitTagPrefix: ''
 gitTagIgnore: ''

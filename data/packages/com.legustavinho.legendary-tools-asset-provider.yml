@@ -1,18 +1,18 @@
 name: com.legustavinho.legendary-tools-asset-provider
 displayName: Legendary Tools - Asset Provider
 description: ''
-repoUrl: 'https://github.com/LeGustaVinho/asset-provider'
+repoUrl: https://github.com/LeGustaVinho/asset-provider
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - utilities
+- utilities
 hunter: LeGustaVinho
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

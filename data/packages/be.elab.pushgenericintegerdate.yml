@@ -3,11 +3,11 @@ displayName: Push Generic Integer as Input to play game
 description: Demo of integer use as input for game and remote control with IID server.
 repoUrl: https://github.com/EloiStree/OpenUPM_PushGenericIID
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

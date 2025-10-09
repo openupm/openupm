@@ -3,11 +3,11 @@ displayName: ReflexDI
 description: Dependency Injection
 repoUrl: https://github.com/maibui232/ReflexDI
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: maibui232
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -1,15 +1,15 @@
 name: com.thissome1.pro-rename
 displayName: Pro Rename
-description: |-
-  Rename easy and fast, multiple gameObjects and assets.
-  Rename by pattern and many more options.
+description: 'Rename easy and fast, multiple gameObjects and assets.
+
+  Rename by pattern and many more options.'
 repoUrl: https://github.com/ThisSome1/ProRename
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: ThisSome1
 gitTagPrefix: ''
 gitTagIgnore: ''

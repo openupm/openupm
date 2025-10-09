@@ -1,15 +1,14 @@
 name: com.thissome1.colorful-hierarchy
 displayName: Colorful Hierarchy
-description: >-
-  Paints your gameObject window with colorful folders. easy access, removed in
-  build, can be removed in play mode too for testing and such.
+description: Paints your gameObject window with colorful folders. easy access, removed
+  in build, can be removed in play mode too for testing and such.
 repoUrl: https://github.com/ThisSome1/ColorfulHierarchy
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: ThisSome1
 gitTagPrefix: ''
 gitTagIgnore: ''

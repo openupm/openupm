@@ -1,19 +1,19 @@
 name: com.xiaojiang.pragmatimeline
 displayName: Pragma Timeline
 description: Pragma Timeline.
-repoUrl: 'https://github.com/Brian-Jiang/PragmaTimeline'
+repoUrl: https://github.com/Brian-Jiang/PragmaTimeline
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - animation
-  - utilities
+- animation
+- utilities
 hunter: Brian-Jiang
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

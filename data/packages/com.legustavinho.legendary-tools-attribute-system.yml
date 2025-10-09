@@ -3,11 +3,11 @@ displayName: Legendary Tools - Attribute System
 description: ''
 repoUrl: https://github.com/LeGustaVinho/attribute-system
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: LeGustaVinho
 gitTagPrefix: ''
 gitTagIgnore: ''

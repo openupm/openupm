@@ -1,15 +1,14 @@
 name: eu.netherlands3d.geotimezone
 displayName: Netherlands3D - GeoTimeZone
-description: >-
-  Look up an IANA time zone id based on coordinates, look up the offset, and
-  convert your local time to UTC in WebGL
+description: Look up an IANA time zone id based on coordinates, look up the offset,
+  and convert your local time to UTC in WebGL
 repoUrl: https://github.com/Netherlands3D/GeoTimeZone
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: TomSimons
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -3,11 +3,11 @@ displayName: Project Structure
 description: Control the project structure
 repoUrl: https://github.com/Ario92/PalapalUnity
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: Ario92
 gitTagPrefix: ''
 gitTagIgnore: ''

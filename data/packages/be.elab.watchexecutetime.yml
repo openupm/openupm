@@ -1,15 +1,14 @@
 name: be.elab.watchexecutetime
 displayName: 'Watch Execute Time '
-description: >-
-  Small and fast package to track time of action in Unity and debug the at
-  runtime.
+description: Small and fast package to track time of action in Unity and debug the
+  at runtime.
 repoUrl: https://github.com/EloiStree/OpenUPM_WatchExecuteTime
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

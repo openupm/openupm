@@ -3,11 +3,11 @@ displayName: Eloi Tool Kits
 description: This package has dependency to all the packages on UPM
 repoUrl: https://github.com/EloiStree/OpenUPM_EloiToolKits
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

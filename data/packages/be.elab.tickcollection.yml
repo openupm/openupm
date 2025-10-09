@@ -3,11 +3,11 @@ displayName: Tick Collection
 description: Tools to trick actions easily in protyping project.
 repoUrl: https://github.com/EloiStree/OpenUMP_TickCollection
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

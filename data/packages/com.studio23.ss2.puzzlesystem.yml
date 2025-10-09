@@ -1,19 +1,17 @@
 name: com.studio23.ss2.puzzlesystem
 displayName: Puzzle System
-description: >-
-  Puzzle System is a framework designed to manage interactive puzzles in game
-  development. It provides a structured way to create, handle, and solve puzzles
-  within a game environment. The Puzzle System described here includes
-  components for defining puzzles, managing dial interactions, validating
-  solutions, and providing hints to players. Our puzzle system is based on Lock
-  & Key Puzzle Mechanics
+description: Puzzle System is a framework designed to manage interactive puzzles in
+  game development. It provides a structured way to create, handle, and solve puzzles
+  within a game environment. The Puzzle System described here includes components
+  for defining puzzles, managing dial interactions, validating solutions, and providing
+  hints to players. Our puzzle system is based on Lock & Key Puzzle Mechanics
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.puzzlesystem
 parentRepoUrl: null
 licenseSpdxId: MIT
-licenseName: MIT
+licenseName: MIT License
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: Studio-23-xyz
 gitTagPrefix: ''
 gitTagIgnore: ''

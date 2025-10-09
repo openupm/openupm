@@ -1,17 +1,16 @@
 name: com.dreadscripts.hierarchyplus
 displayName: DreadScripts - HierarchyPlus
-description: >-
-  A general improvement to the unity hierarchy such as component icons, guide
-  lines, row coloring and settings for customization.
+description: A general improvement to the unity hierarchy such as component icons,
+  guide lines, row coloring and settings for customization.
 repoUrl: https://github.com/Dreadrith/HierarchyPlus
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - editor-enhancement
-  - gui
-  - utilities
+- editor-enhancement
+- gui
+- utilities
 hunter: TayouVR
 gitTagPrefix: ''
 gitTagIgnore: ''

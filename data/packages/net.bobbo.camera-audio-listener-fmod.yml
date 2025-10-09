@@ -1,19 +1,19 @@
 name: net.bobbo.camera-audio-listener-fmod
 displayName: Camera Audio Listener FMOD
-description: 'Audio, for the Camera - with FMOD!'
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+description: Audio, for the Camera - with FMOD!
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - audio
-  - camera
+- audio
+- camera
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.camera-audio-listener-fmod/'
+gitTagPrefix: net.bobbo.camera-audio-listener-fmod/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

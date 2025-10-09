@@ -4,10 +4,10 @@ description: Small package about controll the audio
 repoUrl: https://github.com/hungpt17102k/com.homemade.modules.audio
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - audio
+- audio
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''

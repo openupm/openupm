@@ -3,12 +3,12 @@ displayName: Generic16K
 description: Tools to prepare native array of 128*128 element to game with 16k player.
 repoUrl: https://github.com/EloiStree/OpenUPM_SNAM16K
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - network
-  - utilities
+- network
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -1,18 +1,18 @@
 name: net.bobbo.multi-lock
 displayName: Multi-Lock
-description: 'A locking utlity, to make interactions easier.'
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+description: A locking utlity, to make interactions easier.
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - utilities
+- utilities
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.multi-lock/'
+gitTagPrefix: net.bobbo.multi-lock/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

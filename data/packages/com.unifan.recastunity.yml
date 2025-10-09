@@ -1,19 +1,19 @@
 name: com.unifan.recastunity
 displayName: RecastUnity
 description: RecastNavigation for Unity3D
-repoUrl: 'https://github.com/821869798/recastnavigation'
-parentRepoUrl: 'https://github.com/recastnavigation/recastnavigation'
+repoUrl: https://github.com/821869798/recastnavigation
+parentRepoUrl: https://github.com/recastnavigation/recastnavigation
 licenseSpdxId: Zlib
-licenseName: MIT License
+licenseName: zlib License
 topics:
-  - ai
-  - frameworks
+- ai
+- frameworks
 hunter: '821869798'
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'recast4unity:RecastCustom/README.md'
+readme: recast4unity:RecastCustom/README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

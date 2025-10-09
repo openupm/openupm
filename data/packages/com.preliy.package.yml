@@ -3,11 +3,11 @@ displayName: Preliy Package
 description: A test package
 repoUrl: https://github.com/Preliy/CustomPackage
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - testing
+- testing
 hunter: preliy
 gitTagPrefix: ''
 gitTagIgnore: ''

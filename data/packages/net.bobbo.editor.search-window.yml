@@ -1,18 +1,18 @@
 name: net.bobbo.editor.search-window
 displayName: Editor Search Window
 description: Re-usable search window functionality for the Unity Editor
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.editor.search-window/'
+gitTagPrefix: net.bobbo.editor.search-window/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

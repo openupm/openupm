@@ -3,11 +3,11 @@ displayName: KC.Zxing
 description: ''
 repoUrl: https://github.com/zkyvette425/com.kc.zxing
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: zkyvette425
 gitTagPrefix: ''
 gitTagIgnore: ''

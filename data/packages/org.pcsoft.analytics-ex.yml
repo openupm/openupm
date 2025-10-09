@@ -1,18 +1,18 @@
 name: org.pcsoft.analytics-ex
 displayName: Unity Analytics Extension
 description: Extension for Unity Analytics usage.
-repoUrl: 'https://github.com/KleinerHacker/unity-analytics-ex'
+repoUrl: https://github.com/KleinerHacker/unity-analytics-ex
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
-licenseName: Apache Licence 2.0
+licenseName: Apache License 2.0
 topics:
-  - utilities
+- utilities
 hunter: KleinerHacker
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: master:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

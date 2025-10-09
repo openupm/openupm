@@ -1,17 +1,16 @@
 name: be.elab.pbit4096b58pkcs1sha256
 displayName: pBit4096B58Pkcs1SHA256
-description: >-
-  The package allows to copy past in url Base 58 RSA key in Pkc s1 SHA256
-  format. It is important if you want the RSA to work as coaster of ETH Web3
-  system outside of Unity3D.
+description: The package allows to copy past in url Base 58 RSA key in Pkc s1 SHA256
+  format. It is important if you want the RSA to work as coaster of ETH Web3 system
+  outside of Unity3D.
 repoUrl: https://github.com/EloiStree/OpenUPM_pBit4096B58Pkcs1SHA256
 parentRepoUrl: null
-licenseName: Beerware
+licenseName: Beerware License
 licenseSpdxId: Beerware
 image: ''
 topics:
-  - network
-  - utilities
+- network
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

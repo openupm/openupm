@@ -1,20 +1,19 @@
 name: com.medallyon.savemanager
 displayName: SaveManager
-description: >-
-  A custom Unity SaveManager that allows easy saving & loading of Variables in
-  any of your Scripts.
-repoUrl: 'https://github.com/medallyon/unity-savemanager'
+description: A custom Unity SaveManager that allows easy saving & loading of Variables
+  in any of your Scripts.
+repoUrl: https://github.com/medallyon/unity-savemanager
 parentRepoUrl: null
-licenseName: ISC
+licenseName: ISC License
 licenseSpdxId: ISC
 topics:
-  - data-management
+- data-management
 hunter: medallyon
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'master:README.md'
+readme: master:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

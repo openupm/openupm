@@ -1,15 +1,14 @@
 name: com.nelasystem.workboard
 displayName: WorkBoard
-description: >-
-  A Unity editor enhancer for designers to organize ideas with the connections
+description: A Unity editor enhancer for designers to organize ideas with the connections
   to assets and so on
 repoUrl: https://github.com/zacx-z/WorkBoard
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: zacx-z
 gitTagPrefix: ''
 gitTagIgnore: ''

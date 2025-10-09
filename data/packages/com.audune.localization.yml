@@ -4,11 +4,11 @@ description: Simple string localization system for Unity 2022 LTS or higher
 repoUrl: https://github.com/audunegames/localization
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
-  - asset-management
-  - localization
+- asset-management
+- localization
 hunter: danae
 gitTagPrefix: ''
 gitTagIgnore: ''

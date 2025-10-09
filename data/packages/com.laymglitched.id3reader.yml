@@ -1,16 +1,15 @@
 name: com.laymglitched.id3reader
 displayName: MP3 Tag Reader
-description: >-
-  a system in Unity 3D for extracting song artist, title, and album from MP3
-  files using ID3 tags (ID3v1 or ID3v2)
+description: a system in Unity 3D for extracting song artist, title, and album from
+  MP3 files using ID3 tags (ID3v1 or ID3v2)
 repoUrl: https://github.com/LaymGlitched/id3reader
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: https://github.com/LaymGlitched/id3reader/blob/main/banner.png?raw=true
 topics:
-  - audio
-  - utilities
+- audio
+- utilities
 hunter: LaymGlitched
 gitTagPrefix: ''
 gitTagIgnore: ''

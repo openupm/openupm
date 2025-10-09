@@ -1,15 +1,14 @@
 name: com.ohze.google.firebase.crashlytics
 displayName: Firebase Crashlytics
-description: >-
-  Crashlytics saves you troubleshooting time by intelligently grouping crashes
-  and highlighting the circumstances that lead up to them.
+description: Crashlytics saves you troubleshooting time by intelligently grouping
+  crashes and highlighting the circumstances that lead up to them.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.google.firebase.crashlytics
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - debugging-and-logging
+- debugging-and-logging
 hunter: HungPT-Ohze
 gitTagPrefix: ''
 gitTagIgnore: ''

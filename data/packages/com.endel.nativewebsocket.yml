@@ -1,20 +1,19 @@
 name: com.endel.nativewebsocket
 displayName: Native WebSockets
-description: >-
-  WebSocket client for Unity - with no external dependencies (WebGL, Native,
+description: WebSocket client for Unity - with no external dependencies (WebGL, Native,
   Android, iOS, UWP).
-repoUrl: 'https://github.com/endel/NativeWebSocket'
+repoUrl: https://github.com/endel/NativeWebSocket
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
-licenseName: Apache 2.0
+licenseName: Apache License 2.0
 topics:
-  - network
+- network
 hunter: mfatihmar
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'upm:README.md'
+readme: upm:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

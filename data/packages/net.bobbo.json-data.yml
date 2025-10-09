@@ -1,18 +1,18 @@
 name: net.bobbo.json-data
 displayName: JSON Data
 description: A wrapper for working with JSON Data
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - data-management
+- data-management
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.json-data/'
+gitTagPrefix: net.bobbo.json-data/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

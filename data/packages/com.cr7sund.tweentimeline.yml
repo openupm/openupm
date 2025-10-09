@@ -1,16 +1,15 @@
 name: com.cr7sund.tweentimeline
 displayName: Tween Timeline
-description: >-
-  Tween TimeLine is an animation design tool for Unity that allows you to easily
-  create UI animations without the need for coding
+description: Tween TimeLine is an animation design tool for Unity that allows you
+  to easily create UI animations without the need for coding
 repoUrl: https://github.com/liuxinjia/TweenTimeline
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
-image: 'https://github.com/liuxinjia/TweenTimeline/blob/master/Document/LogoBanner.png'
+image: https://github.com/liuxinjia/TweenTimeline/blob/master/Document/LogoBanner.png
 topics:
-  - animation
-  - code-generation
+- animation
+- code-generation
 hunter: liuxinjia
 gitTagPrefix: ''
 gitTagIgnore: ''

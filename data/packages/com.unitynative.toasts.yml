@@ -1,13 +1,13 @@
 name: com.unitynative.toasts
 displayName: Unity-Native-Toasts
 description: ''
-repoUrl: 'https://github.com/NicholasSheehan/Unity-Native-Toasts'
+repoUrl: https://github.com/NicholasSheehan/Unity-Native-Toasts
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 topics:
-  - mobile
-  - integration
+- mobile
+- integration
 hunter: NicholasSheehan
 gitTagPrefix: v
 gitTagIgnore: ''

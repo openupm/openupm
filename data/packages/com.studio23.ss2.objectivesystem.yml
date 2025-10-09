@@ -1,15 +1,14 @@
 name: com.studio23.ss2.objectivesystem
 displayName: Objective System
-description: >-
-  Objective System that supports adding/removing objectives, objective task
-  dependencies, hints.
+description: Objective System that supports adding/removing objectives, objective
+  task dependencies, hints.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.objectivesystem
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
 topics:
-  - level-design
+- level-design
 hunter: BDeshiDev
 gitTagPrefix: ''
 gitTagIgnore: ''

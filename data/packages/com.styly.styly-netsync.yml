@@ -3,14 +3,14 @@ displayName: STYLY NetSync
 description: STYLY NetSync
 repoUrl: https://github.com/styly-dev/STYLY-NetSync
 parentRepoUrl: null
-licenseName: Apache-2.0
+licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - ar-and-vr
-  - frameworks
-  - network
-  - utilities
+- ar-and-vr
+- frameworks
+- network
+- utilities
 hunter: styly-dev
 gitTagPrefix: ''
 gitTagIgnore: ''

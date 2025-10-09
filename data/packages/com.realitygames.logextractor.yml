@@ -4,11 +4,11 @@ description: Provides a way to extract and share logs from the devices.
 repoUrl: https://github.com/RealityGamesLtd/log-extractor-unity
 parentRepoUrl: null
 licenseSpdxId: MIT
-licenseName: MIT
+licenseName: MIT License
 image: ''
 topics:
-  - mobile
-  - utilities
+- mobile
+- utilities
 hunter: tallyon
 gitTagPrefix: ''
 gitTagIgnore: ''

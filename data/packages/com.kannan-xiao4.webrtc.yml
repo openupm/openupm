@@ -1,17 +1,16 @@
 name: com.kannan-xiao4.webrtc
 displayName: WebRTC
-description: >-
-  The WebRTC package provides browsers and mobile applications with Real-Time
+description: The WebRTC package provides browsers and mobile applications with Real-Time
   Communications (RTC) capabilities.
 repoUrl: https://github.com/kannan-xiao4/com.unity.webrtc
 parentRepoUrl: https://github.com/Unity-Technologies/com.unity.webrtc
-licenseName: Apache-2.0
+licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - audio
-  - network
-  - video
+- audio
+- network
+- video
 hunter: kannan-xiao4
 gitTagPrefix: ''
 gitTagIgnore: ''

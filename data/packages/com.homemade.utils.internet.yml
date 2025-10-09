@@ -4,10 +4,10 @@ description: Package for checking internet
 repoUrl: https://github.com/hungpt17102k/com.homemade.utils.internet
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''

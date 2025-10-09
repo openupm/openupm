@@ -1,22 +1,22 @@
 name: com.gamelokal.gamepangin
 displayName: Gamepangin
 description: Bikin game? Ya Gamepangin aja! Solusi bikin game jadi gampang!
-repoUrl: 'https://github.com/RErwandi/Gamepangin'
+repoUrl: https://github.com/RErwandi/Gamepangin
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
 topics:
-  - asset-management
-  - data-management
-  - editor-enhancement
-  - frameworks
-  - utilities
+- asset-management
+- data-management
+- editor-enhancement
+- frameworks
+- utilities
 hunter: RErwandi
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

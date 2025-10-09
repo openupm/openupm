@@ -1,16 +1,14 @@
 name: com.segur.poly-spatial-environment-diffuse-shader
 displayName: PolySpatial Environment Diffuse Shader
-description: >-
-  This shader reflects the diffuse light of the environment, captured by the
-  external cameras of Apple Vision Pro, onto the surface.
+description: This shader reflects the diffuse light of the environment, captured by
+  the external cameras of Apple Vision Pro, onto the surface.
 repoUrl: https://github.com/segurvita/PolySpatialEnvironmentDiffuseShader
 parentRepoUrl: null
-licenseName: MIT
+licenseName: MIT License
 licenseSpdxId: MIT
-image: >-
-  https://raw.githubusercontent.com/segurvita/PolySpatialEnvironmentDiffuseShader/main/Documentation/cover.png
+image: https://raw.githubusercontent.com/segurvita/PolySpatialEnvironmentDiffuseShader/main/Documentation/cover.png
 topics:
-  - ar-and-vr
+- ar-and-vr
 hunter: segurvita
 gitTagPrefix: ''
 gitTagIgnore: ''

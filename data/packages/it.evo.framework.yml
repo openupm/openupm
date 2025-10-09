@@ -1,53 +1,53 @@
 name: it.evo.framework
 displayName: Evo Framework
 description: Evo Framework for Unity3d
-repoUrl: 'https://github.com/evoframework/unity3d_evo_framework'
+repoUrl: https://github.com/evoframework/unity3d_evo_framework
 parentRepoUrl: null
 licenseSpdxId: CC-BY-NC-SA-4.0
-licenseName: Attribution-NonCommercial-ShareAlike 4.0 International
+licenseName: Creative Commons Attribution Non Commercial Share Alike 4.0 International
 topics:
-  - 2d
-  - ai
-  - ar-and-vr
-  - animation
-  - audio
-  - asset-management
-  - camera
-  - code-generation
-  - data-management
-  - debugging-and-logging
-  - dots-and-ecs
-  - editor-enhancement
-  - frameworks
-  - gui
-  - parallelism-and-concurrency
-  - particles-and-effects
-  - input-management
-  - integration
-  - level-design
-  - localization
-  - mobile
-  - modeling
-  - network
-  - package-management
-  - painting
-  - procedural-generation
-  - profiling
-  - physics
-  - services
-  - sprite-management
-  - terrain
-  - testing
-  - utilities
-  - version-control
-  - video
-  - visual-scripting
+- 2d
+- ai
+- ar-and-vr
+- animation
+- audio
+- asset-management
+- camera
+- code-generation
+- data-management
+- debugging-and-logging
+- dots-and-ecs
+- editor-enhancement
+- frameworks
+- gui
+- parallelism-and-concurrency
+- particles-and-effects
+- input-management
+- integration
+- level-design
+- localization
+- mobile
+- modeling
+- network
+- package-management
+- painting
+- procedural-generation
+- profiling
+- physics
+- services
+- sprite-management
+- terrain
+- testing
+- utilities
+- version-control
+- video
+- visual-scripting
 hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

@@ -1,12 +1,14 @@
 name: com.unity.uiextensions
 displayName: Unity UI Extensions
-description: The Unity UI Extensions project is a collection of extension scripts / effects and controls to enhance your Unity UI experience. These scripts have been gathered from many sources, combined and improved over time.
-repoUrl: 'https://github.com/Unity-UI-Extensions/com.unity.uiextensions'
-readme: 'release:README.md'
+description: The Unity UI Extensions project is a collection of extension scripts
+  / effects and controls to enhance your Unity UI experience. These scripts have been
+  gathered from many sources, combined and improved over time.
+repoUrl: https://github.com/Unity-UI-Extensions/com.unity.uiextensions
+readme: release:README.md
 licenseSpdxId: BSD-3-Clause
-licenseName: BSD 3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
 topics:
-  - gui
-  - utilities
+- gui
+- utilities
 hunter: simondarksidej
 createdAt: 1576235107000

@@ -1,23 +1,23 @@
 name: com.evolutex.evolunity
 displayName: Evolunity
 description: Well-designed package with useful scripting tools for Unity development​
-repoUrl: 'https://github.com/Bodix/Evolunity'
+repoUrl: https://github.com/Bodix/Evolunity
 parentRepoUrl: null
 licenseSpdxId: CC-BY-ND-4.0
-licenseName: CC BY-ND 4.0
+licenseName: Creative Commons Attribution No Derivatives 4.0 International
 topics:
-  - editor-enhancement
-  - frameworks
-  - input-management
-  - mobile
-  - utilities
+- editor-enhancement
+- frameworks
+- input-management
+- mobile
+- utilities
 hunter: Bodix
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '2018.4'
 image: null
-readme: 'main:README.md'
-readme_zhCN: 'main:README.md'
+readme: main:README.md
+readme_zhCN: main:README.md
 displayName_zhCN: Evolunity
 description_zhCN: 精心设计的软件包以及用于Unity开发的实用脚本工具
 createdAt: 1608669647121

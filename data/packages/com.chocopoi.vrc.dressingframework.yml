@@ -1,17 +1,16 @@
 name: com.chocopoi.vrc.dressingframework
 displayName: DressingFramework
-description: >-
-  A framework that assembles DressingTools and provides interfaces for
+description: A framework that assembles DressingTools and provides interfaces for
   third-party developers.
 repoUrl: https://github.com/poi-vrc/DressingFramework
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
-  - ar-and-vr
-  - animation
-  - modeling
+- ar-and-vr
+- animation
+- modeling
 hunter: yuna0x0
 gitTagPrefix: ''
 gitTagIgnore: ''

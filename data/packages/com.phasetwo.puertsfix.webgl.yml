@@ -1,17 +1,16 @@
 name: com.phasetwo.puertsfix.webgl
 displayName: Modified Puerts WebGL Support to support Unity 6.2
-description: >-
-  Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment
+description: Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment
   and get speed up by JIT. Fixed for Unity 6.2
 repoUrl: https://github.com/PhaseTwo-Unity-Public/puerts
 parentRepoUrl: https://github.com/Tencent/puerts
-licenseName: BSD 3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
 licenseSpdxId: BSD-3-Clause
 image: ''
 topics:
-  - frameworks
-  - integration
-  - utilities
+- frameworks
+- integration
+- utilities
 hunter: cf
 gitTagPrefix: upm-p2/webgl/
 gitTagIgnore: ''

@@ -4,11 +4,11 @@ description: Package must have to add other services
 repoUrl: https://github.com/hungpt17102k/com.homemade.core
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - frameworks
-  - utilities
+- frameworks
+- utilities
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''
