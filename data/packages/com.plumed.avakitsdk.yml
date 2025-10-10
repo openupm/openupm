@@ -3,7 +3,7 @@ displayName: Avakit SDK
 description: .
 repoUrl: 'https://github.com/avatokapp/AvakitSDK'
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE
 topics:
   - ar-and-vr

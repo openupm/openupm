@@ -5,6 +5,7 @@ description: Overrides the VRCSDK Menu & Expression Parameters Editors to provid
 repoUrl: https://github.com/Dreadrith/VRCSDKPlus
 parentRepoUrl: null
 licenseName: ARR
+licenseSpdxId: null
 image: ''
 topics:
 - editor-enhancement

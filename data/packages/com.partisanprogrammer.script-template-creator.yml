@@ -6,7 +6,7 @@ description: >-
 repoUrl: >-
   https://github.com/PartisanProgrammer/com.partisanprogrammer.script-template-creator
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: ''
 topics:

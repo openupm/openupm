@@ -3,7 +3,7 @@ displayName: Noesis Architecture
 description: "ì\x9D¸ì§\x80, ì§\x80ê°\x81, í\x8C\x90ë\x8B¨ ë\x93±ì\x97\x90 ë\x8C\x80í\x95\x9C ê²\x83ì\x9D\x84 êµ¬í\x98\x84 ì£¼ë¡\x9C AIì\x99\x80 Find, Detecting ë\x93±ì\x9D\x84 êµ¬í\x98\x84"
 repoUrl: https://github.com/weariness00/MyUnituPackage
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: ''
 topics:

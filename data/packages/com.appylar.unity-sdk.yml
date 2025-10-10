@@ -1,8 +1,6 @@
 name: com.appylar.unity-sdk
 displayName: Appylar
-description: 'SDK for the Appylar cross promotion service
-
-  '
+description: SDK for the Appylar cross promotion service
 repoUrl: https://github.com/appylar/published-unity-sdk
 parentRepoUrl: null
 licenseName: GNU General Public License v3.0 only

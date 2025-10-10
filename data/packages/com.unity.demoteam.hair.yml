@@ -5,7 +5,7 @@ description: >-
   strand-based hair in Unity.
 repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.hair
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: ''
 topics:

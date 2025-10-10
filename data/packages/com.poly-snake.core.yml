@@ -3,7 +3,7 @@ displayName: Poly-Snake Core
 description: Core
 repoUrl: 'https://github.com/Snaki94/poly-snake-packages-core'
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 topics:
   - utilities
