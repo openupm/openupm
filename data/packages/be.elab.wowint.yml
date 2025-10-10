@@ -1,15 +1,14 @@
 name: be.elab.wowint
 displayName: Wow Integer
-description: >-
-  This package is a enum and utility of the ScratchToWarcraft convention to make
-  keyboard and xbox game using IID package.
+description: This package is a enum and utility of the ScratchToWarcraft convention
+  to make keyboard and xbox game using IID package.
 repoUrl: https://github.com/EloiStree/OpenUPM_WowInt
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

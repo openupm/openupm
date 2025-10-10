@@ -4,10 +4,10 @@ description: This is a code generator package for Unity.
 repoUrl: https://github.com/tien0702/com.nix.editor.codegenerator
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: tientv.0702
 gitTagPrefix: ''
 gitTagIgnore: ''

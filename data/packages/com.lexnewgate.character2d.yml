@@ -3,8 +3,8 @@ displayName: Character2D
 description: This is an example package
 repoUrl: https://github.com/LexUnityLab/CharacterController2D
 parentRepoUrl: https://github.com/prime31/CharacterController2D
-licenseSpdxId: ''
-licenseName: mit
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - 2d

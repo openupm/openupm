@@ -1,15 +1,14 @@
 name: com.gdk.core
 displayName: Game Foundation Core
-description: >-
-  Game Foundation provides pre-built common game systems that are flexible and
-  extensible so that developers can focus on building unique gameplay.
+description: Game Foundation provides pre-built common game systems that are flexible
+  and extensible so that developers can focus on building unique gameplay.
 repoUrl: https://github.com/Association-of-stupid-people/GameFoundation
 parentRepoUrl: https://github.com/GameDevelopmentKit/GameFoundation
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - 2d
+- 2d
 hunter: hungtrinhh
 gitTagPrefix: ''
 gitTagIgnore: ''

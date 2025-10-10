@@ -3,8 +3,8 @@ displayName: TMPro Player
 description: "Custom Rich Text Tag Plugin Based on TextMeshPro"
 repoUrl: 'https://github.com/Giresharu/TMPro-Player'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 topics:
   - gui
 hunter: Giresharu

@@ -3,7 +3,7 @@ displayName: Motphys Rigidbody Raw API
 description: Low level data structures and API for the Motphys Rigidbody project.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: SEE LICENSE IN `LICENSE` FILE.
 image: https://www.motphys.com/img/logo.868c1b7b.svg
 topics:

@@ -1,19 +1,19 @@
 name: com.shlifedev.ugs
 displayName: Uni Google Sheets
 description: Google Sheet Intergration for Unity
-repoUrl: 'https://github.com/shlifedev/uni-google-sheets'
+repoUrl: https://github.com/shlifedev/uni-google-sheets
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - integration
-  - localization
+- integration
+- localization
 hunter: shlifedev
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

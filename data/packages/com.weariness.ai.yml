@@ -1,13 +1,13 @@
 name: com.weariness.ai
 displayName: AI Architecture
-description: "AI ì\x95\x84í\x82¤í\N\x8Dì³\x90ë¡\x9C ì\x97¬ë\x9F¬ AI ì»¨í\x8A¸ë¡¤ ê¸°ë\x8A¥ì\x9D´ ì\x9E\x88ë\x8B¤."
+description: "AI ì\x95\x84í\x82¤í\N\x8Dì³\x90ë¡\x9C ì\x97¬ë\x9F¬ AI ì»¨í\x8A¸ë¡¤ ê¸°ë\x8A\
+  ¥ì\x9D´ ì\x9E\x88ë\x8B¤."
 repoUrl: https://github.com/weariness00/MyUnituPackage
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: LINCESE.md
 image: ''
 topics:
-  - ai
+- ai
 hunter: weariness00
 gitTagPrefix: AI-v
 gitTagIgnore: ''

@@ -4,10 +4,10 @@ description: Firebase App is the core library every Firebase package depends on.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.google.firebase.app
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - asset-management
+- asset-management
 hunter: HungPT-Ohze
 gitTagPrefix: ''
 gitTagIgnore: ''

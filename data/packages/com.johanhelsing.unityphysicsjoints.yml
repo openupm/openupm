@@ -1,15 +1,13 @@
 name: com.johanhelsing.unityphysicsjoints
 displayName: Unity Physics Joints
-description: >-
-  UPM package of the joints components from the official
-  EntityComponentSystemSamples repo
-repoUrl: 'https://github.com/johanhelsing/unity-physics-joints'
+description: UPM package of the joints components from the official EntityComponentSystemSamples
+  repo
+repoUrl: https://github.com/johanhelsing/unity-physics-joints
 parentRepoUrl: null
-licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - dots-and-ecs
-  - physics
+- dots-and-ecs
+- physics
 hunter: johanhelsing
 gitTagPrefix: ''
 gitTagIgnore: ''

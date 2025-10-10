@@ -1,17 +1,15 @@
 name: com.yayapipi.yapibtn
 displayName: YapiBtn
-description: >-
-  The **YapiBtn** package allows you to add custom buttons in the Unity
-  Inspector by attaching the `[YapiBtn]` attribute to methods, making testing
-  and debugging easier.
+description: The **YapiBtn** package allows you to add custom buttons in the Unity
+  Inspector by attaching the `[YapiBtn]` attribute to methods, making testing and
+  debugging easier.
 repoUrl: https://github.com/yayapipi/YapiBtn
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
-image: >-
-  https://github.com/yayapipi/YapiBtn/blob/main/Assets/YapiBtn/Documentation/images/example.png?raw=true
+licenseName: MIT License
+licenseSpdxId: MIT
+image: https://github.com/yayapipi/YapiBtn/blob/main/Assets/YapiBtn/Documentation/images/example.png?raw=true
 topics:
-  - utilities
+- utilities
 hunter: yayapipi
 gitTagPrefix: ''
 gitTagIgnore: ''

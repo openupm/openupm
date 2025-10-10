@@ -3,11 +3,11 @@ displayName: UnitySkiaSharp
 description: SkiaSharp for Unity
 repoUrl: https://github.com/u2sb/UnitySkiaSharp
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - 2d
+- 2d
 hunter: MonoLogueChi
 gitTagPrefix: ''
 gitTagIgnore: ''

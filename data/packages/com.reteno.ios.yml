@@ -1,15 +1,14 @@
 name: com.reteno.ios
 displayName: RetenoSDK - iOS
-description: >-
-  Make Users Addicted to Your App, turn idle users into habitues with timely and
-  personalized push notifications, in-app, app inbox, email, SMS, and more
+description: Make Users Addicted to Your App, turn idle users into habitues with timely
+  and personalized push notifications, in-app, app inbox, email, SMS, and more
 repoUrl: https://github.com/reteno-com/reteno-unity
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: ValentynRybachuk
 gitTagPrefix: ''
 gitTagIgnore: ''

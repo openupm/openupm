@@ -1,19 +1,19 @@
 name: net.bobbo.dev-console.camera-manager
 displayName: Camera Manager Console Commands
 description: Console Commands for the CameraManager
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - gui
-  - utilities
+- gui
+- utilities
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.dev-console.camera-manager/'
+gitTagPrefix: net.bobbo.dev-console.camera-manager/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

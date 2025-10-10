@@ -3,8 +3,8 @@ displayName: Elito Core
 description: Core services and tools
 repoUrl: https://github.com/iLataria/Elito
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - asset-management

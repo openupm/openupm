@@ -1,13 +1,14 @@
 name: com.scenarioinc.scenario
 displayName: Scenario
-description: Craft unique and style-consistent game assets with custom-trained AI models.
+description: Craft unique and style-consistent game assets with custom-trained AI
+  models.
 repoUrl: https://github.com/scenario-labs/Scenario-Unity
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - ai
+- ai
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''

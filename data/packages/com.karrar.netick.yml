@@ -3,18 +3,18 @@ displayName: Netick
 description: A networking solution for Unity
 repoUrl: https://github.com/NetickNetworking/NetickForUnity
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - data-management
-  - editor-enhancement
-  - frameworks
-  - parallelism-and-concurrency
-  - integration
-  - network
-  - physics
-  - utilities
+- data-management
+- editor-enhancement
+- frameworks
+- parallelism-and-concurrency
+- integration
+- network
+- physics
+- utilities
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''

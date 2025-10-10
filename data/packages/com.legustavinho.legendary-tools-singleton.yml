@@ -1,18 +1,18 @@
 name: com.legustavinho.legendary-tools-singleton
 displayName: Legendary Tools - Singleton
 description: ''
-repoUrl: 'https://github.com/LeGustaVinho/singleton'
+repoUrl: https://github.com/LeGustaVinho/singleton
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - utilities
+- utilities
 hunter: LeGustaVinho
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

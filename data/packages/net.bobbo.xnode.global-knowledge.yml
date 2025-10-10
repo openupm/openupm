@@ -1,19 +1,19 @@
 name: net.bobbo.xnode.global-knowledge
 displayName: Global Knowledge XNode
-description: 'Globally available player knowledge, exposed through XNode!'
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+description: Globally available player knowledge, exposed through XNode!
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - data-management
-  - visual-scripting
+- data-management
+- visual-scripting
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.xnode.global-knowledge/'
+gitTagPrefix: net.bobbo.xnode.global-knowledge/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

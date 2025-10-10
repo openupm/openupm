@@ -1,14 +1,15 @@
 name: com.openugd.lifetime
 displayName: Lifetime
-description: |
-  require .NET 4x
+description: 'require .NET 4x
+
+  '
 repoUrl: https://github.com/openugd/upm-lifetime
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: dorofiykolya
 gitTagPrefix: ''
 gitTagIgnore: ''

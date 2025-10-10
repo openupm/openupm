@@ -1,16 +1,15 @@
 name: com.ligofff.simpletools-sapc-pack
 displayName: Simple Tools SAPC Pack
-description: >-
-  SAPC - Serializable Actions, Providers and Conditions. Pack of useful
-  serializable classes for using in game developmnet. Requires Odin Inspector
-  for GUI.
+description: SAPC - Serializable Actions, Providers and Conditions. Pack of useful
+  serializable classes for using in game developmnet. Requires Odin Inspector for
+  GUI.
 repoUrl: https://github.com/ligofff/SimpleTools-SAPC-Pack
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: ligofff
 gitTagPrefix: ''
 gitTagIgnore: ''

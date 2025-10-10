@@ -5,8 +5,8 @@ description: >-
   FPS. Very useful for virtual reality project and build debugging.
 repoUrl: https://github.com/EloiStree/2020_05_28_JimmyScreamFPS
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Beerware License
+licenseSpdxId: Beerware
 image: >-
   https://github.com/EloiStree/ProjectsID/assets/20149493/9091f605-c420-43e6-8eb2-942a153c2079
 topics:

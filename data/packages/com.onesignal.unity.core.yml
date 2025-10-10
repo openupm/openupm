@@ -1,15 +1,14 @@
 name: com.onesignal.unity.core
 displayName: OneSignal Unity SDK - Core
-description: >-
-  OneSignal is the market leader in customer engagement, powering mobile push,
-  web push, email, and in-app messages.
+description: OneSignal is the market leader in customer engagement, powering mobile
+  push, web push, email, and in-app messages.
 repoUrl: https://github.com/OneSignal/OneSignal-Unity-SDK
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''

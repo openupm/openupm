@@ -1,18 +1,17 @@
 name: io.chainsafe.web3-unity.lootboxes
 displayName: web3.unity SDK Lootboxes
-description: >-
-  This additional package provides you with sample scene and sample scripts for
-  opening lootboxes of various types
+description: This additional package provides you with sample scene and sample scripts
+  for opening lootboxes of various types
 repoUrl: https://github.com/ChainSafe/web3.unity
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
-  - data-management
-  - network
+- data-management
+- network
 hunter: kantagara
-gitTagPrefix: 'io.chainsafe.web3-unity.lootboxes/'
+gitTagPrefix: io.chainsafe.web3-unity.lootboxes/
 gitTagIgnore: ''
 minVersion: ''
 readme: main:Packages/io.chainsafe.web3-unity.lootboxes/README.md

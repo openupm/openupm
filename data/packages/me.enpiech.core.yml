@@ -1,18 +1,18 @@
 name: me.enpiech.core
 displayName: Core
 description: This is a core package
-repoUrl: 'https://github.com/enpiech/unity_core'
+repoUrl: https://github.com/enpiech/unity_core
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: GPL-3.0
+licenseName: GNU General Public License v3.0 only
+licenseSpdxId: GPL-3.0
 topics:
-  - utilities
+- utilities
 hunter: enpiech
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'master:README.md'
+readme: master:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

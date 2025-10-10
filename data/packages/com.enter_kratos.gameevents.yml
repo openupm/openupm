@@ -3,8 +3,8 @@ displayName: Game Events
 description: A no-frills ScriptableObject-based event system
 repoUrl: 'https://github.com/EnterKratos/com.enter_kratos.gameevents'
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Creative Commons Zero v1.0 Universal
+licenseSpdxId: CC0-1.0
 topics:
   - utilities
 hunter: EnterKratos

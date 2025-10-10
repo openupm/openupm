@@ -3,11 +3,11 @@ displayName: Developer Note
 description: Allows to put some developer note in your project.
 repoUrl: https://github.com/EloiStree/OpenUPM_DeveloperNote
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

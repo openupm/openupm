@@ -1,18 +1,18 @@
 name: net.bobbo.extensions.vector3
 displayName: Vector3 Extensions
 description: Extension methods for Unity's Vector3 Type
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - utilities
+- utilities
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.extensions.vector3/'
+gitTagPrefix: net.bobbo.extensions.vector3/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

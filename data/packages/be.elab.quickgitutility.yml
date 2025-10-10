@@ -3,11 +3,11 @@ displayName: Quick Git Utility
 description: Tools to execute git instructions from command line.
 repoUrl: https://github.com/EloiStree/OpenUPM_QuickGitUtility
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

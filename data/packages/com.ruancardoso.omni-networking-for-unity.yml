@@ -1,15 +1,14 @@
 name: com.ruancardoso.omni-networking-for-unity
 displayName: Omni-Networking-for-Unity
-description: >-
-  A Unity framework created with a strong focus on achieving high-performance in
-  the development of multiplayer games.
+description: A Unity framework created with a strong focus on achieving high-performance
+  in the development of multiplayer games.
 repoUrl: https://github.com/RuanCardoso/Omni-Networking-for-Unity
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - network
+- network
 hunter: RuanCardoso
 gitTagPrefix: ''
 gitTagIgnore: ''

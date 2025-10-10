@@ -3,11 +3,11 @@ displayName: OMC URP SahderLibrary
 description: ''
 repoUrl: https://github.com/RyutoOhmori0414/OMC-Library
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - particles-and-effects
+- particles-and-effects
 hunter: RyutoOhmori0414
 gitTagPrefix: ''
 gitTagIgnore: ''

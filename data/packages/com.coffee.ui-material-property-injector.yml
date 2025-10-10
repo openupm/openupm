@@ -1,17 +1,14 @@
 name: com.coffee.ui-material-property-injector
 displayName: UI Material Property Injector
-description: >-
-  This package provides a component that allows easy modification of material
-  properties for Unity UI (uGUI) without the need for shader-specific custom
-  components.
+description: This package provides a component that allows easy modification of material
+  properties for Unity UI (uGUI) without the need for shader-specific custom components.
 repoUrl: https://github.com/mob-sakai/UIMaterialPropertyInjector
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
-image: >-
-  https://github.com/mob-sakai/mob-sakai/assets/12690315/ebb88b50-2433-4a1d-8379-cff30c51c5ac
+licenseName: MIT License
+licenseSpdxId: MIT
+image: https://github.com/mob-sakai/mob-sakai/assets/12690315/ebb88b50-2433-4a1d-8379-cff30c51c5ac
 topics:
-  - gui
+- gui
 hunter: mob-sakai
 gitTagPrefix: ''
 gitTagIgnore: ''

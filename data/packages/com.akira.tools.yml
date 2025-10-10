@@ -4,13 +4,13 @@ description: A collection of useful tools for Unity development
 repoUrl: https://github.com/AkiVonAkira/com.akira.tools
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - asset-management
-  - editor-enhancement
-  - package-management
-  - utilities
+- asset-management
+- editor-enhancement
+- package-management
+- utilities
 hunter: AkiVonAkira
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -3,15 +3,15 @@ displayName: ManualDi.Async
 description: Fast C# dependency injection library that uses no reflexion
 repoUrl: https://github.com/PereViader/ManualDi.Unity3d
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - code-generation
-  - utilities
+- code-generation
+- utilities
 hunter: PereViader
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '2.0.0-preview.1'
+minVersion: 2.0.0-preview.1
 readme: main:README.md
 createdAt: 1745270928647

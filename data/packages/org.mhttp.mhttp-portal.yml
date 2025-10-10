@@ -1,18 +1,18 @@
 name: org.mhttp.mhttp-portal
 displayName: MHTTP Portal
 description: Create a portal with the MHTTP portal spec
-repoUrl: 'https://github.com/HungryFoolishHappy/TestUnityPortalSdk'
+repoUrl: https://github.com/HungryFoolishHappy/TestUnityPortalSdk
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache License
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 topics:
-  - utilities
+- utilities
 hunter: bleep-bloop-bloob
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'add-license-1:README.md'
+readme: add-license-1:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

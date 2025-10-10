@@ -1,16 +1,15 @@
 name: com.test.ads.mobile.mediation.adcolony
 displayName: AdColony Mediation for Unity Test
-description: >-
-  The Google Mobile Ads mediation plugin for AdColony package allows you to
-  easily monetize your Unity apps for iOS and Android using Google's native iOS
+description: The Google Mobile Ads mediation plugin for AdColony package allows you
+  to easily monetize your Unity apps for iOS and Android using Google's native iOS
   and Android Mobile SDKs via a unified C# API in Unity.
 repoUrl: https://github.com/srichakradhar/googleads-mobile-unity-mediation
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - testing
+- testing
 hunter: srichakradhar
 gitTagPrefix: ''
 gitTagIgnore: ''

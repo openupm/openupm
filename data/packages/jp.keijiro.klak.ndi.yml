@@ -6,7 +6,7 @@ description: >-
   NDI® (Network Device Interface) is a standard developed by NewTek, Inc that enables applications to deliver video streams via a local area network. Please refer to ndi.tv for further information about the technology.
 repoUrl: https://github.com/keijiro/KlakNDI
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE
 image: >-
   https://camo.githubusercontent.com/10133ba3028eb77568747e58df55318d686e06335dedd509b7ed85711c5c3688/68747470733a2f2f692e696d6775722e636f6d2f49315a4d5359382e676966

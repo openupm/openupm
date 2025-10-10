@@ -3,12 +3,12 @@ displayName: SaintsBuild
 description: A Unity plugin for building (packing) process
 repoUrl: https://github.com/TylerTemp/SaintsBuild
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
-  - utilities
+- editor-enhancement
+- utilities
 hunter: TylerTemp
 gitTagPrefix: ''
 gitTagIgnore: ''

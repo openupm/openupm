@@ -7,7 +7,7 @@ description: >-
   Manager registries.
 repoUrl: https://github.com/DeusExMachina1993/unity-jar-resolver
 parentRepoUrl: https://github.com/googlesamples/unity-jar-resolver
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: ''
 topics:

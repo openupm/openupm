@@ -1,15 +1,14 @@
 name: com.mikeschweitzer.websocket
 displayName: WebSocket Client
-description: >-
-  Simple, flexible WebSocket client. Add the WebSocketConnection MonoBehaviour
+description: Simple, flexible WebSocket client. Add the WebSocketConnection MonoBehaviour
   anywhere in your scene.
 repoUrl: https://github.com/mikerochip/unity-websocket
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache 2.0
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - network
+- network
 hunter: Henry22Chen
 gitTagPrefix: ''
 gitTagIgnore: ''

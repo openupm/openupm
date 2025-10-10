@@ -3,11 +3,11 @@ displayName: Unity Fetch Offset NTP
 description: Fetch the offset of a NTP server.
 repoUrl: https://github.com/EloiStree/OpenUPM_UnityFetchOffsetNTP
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

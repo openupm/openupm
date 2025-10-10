@@ -3,11 +3,11 @@ displayName: GameLibs
 description: Unity Game Libs
 repoUrl: https://github.com/windyuuy/UnityGameLibs
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache License
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: windyuuy/UnityGameLibs
 gitTagPrefix: ''
 gitTagIgnore: ''

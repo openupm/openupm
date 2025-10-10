@@ -3,8 +3,8 @@ displayName: Spatial Personas on Unity
 description: This package makes it easy to use Spatial Personas and Shareplay on Unity
 repoUrl: https://github.com/DglyP/SpatialPersonasUPM
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - ar-and-vr

@@ -1,17 +1,15 @@
 name: be.elab.asymsigner
 displayName: Assymetic Meta Mask Coaster Signer
-description: >-
-  This code provides an interface designed to abstract the asymmetric signature
-  process and act as a bridge to a MetaMask Ethereum account for use with the
-  server.
+description: This code provides an interface designed to abstract the asymmetric signature
+  process and act as a bridge to a MetaMask Ethereum account for use with the server.
 repoUrl: https://github.com/EloiStree/OpenUPM_AsymmetricalClipboardCoaster
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - network
-  - utilities
+- network
+- utilities
 hunter: EloIStree
 gitTagPrefix: ''
 gitTagIgnore: ''

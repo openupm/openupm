@@ -6,7 +6,7 @@ description: >-
   Unity in real time.
 repoUrl: https://github.com/Unity-Technologies/MeshSyncDCCPlugins
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: >-
   https://raw.githubusercontent.com/Unity-Technologies/MeshSyncDCCPlugins/dev/Documentation%7E/images/MeshSyncPreferences.png

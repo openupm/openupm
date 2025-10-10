@@ -3,8 +3,8 @@ displayName: Heavy Cav Studios Core Utilities
 description: A shared utility package for Heavy Cav Studios projects.
 repoUrl: https://github.com/Heavy-Cav-Studios/Core
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LICENSE.md
+licenseName: MIT License
+licenseSpdxId: MIT
 image: >-
   https://github.com/Heavy-Cav-Studios/Core/blob/Core-first-version/core-icon.png
 topics:

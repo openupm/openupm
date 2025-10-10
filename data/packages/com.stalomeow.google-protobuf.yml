@@ -1,21 +1,20 @@
 name: com.stalomeow.google-protobuf
 displayName: Protocol Buffers
-description: >-
-  Protocol Buffers (a.k.a., protobuf) are Google's language-neutral,
-  platform-neutral, extensible mechanism for serializing structured data.
-repoUrl: 'https://github.com/stalomeow/Protobuf-Unity'
+description: Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral,
+  extensible mechanism for serializing structured data.
+repoUrl: https://github.com/stalomeow/Protobuf-Unity
 parentRepoUrl: null
 licenseSpdxId: MIT
-licenseName: Protobuf's License & MIT License
+licenseName: MIT License
 topics:
-  - frameworks
-  - utilities
+- frameworks
+- utilities
 hunter: stalomeow
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

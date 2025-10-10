@@ -1,14 +1,13 @@
 name: com.appylar.unity-sdk
 displayName: Appylar
-description: >
-  SDK for the Appylar cross promotion service
+description: SDK for the Appylar cross promotion service
 repoUrl: https://github.com/appylar/published-unity-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: GPL
+licenseName: GNU General Public License v3.0 only
+licenseSpdxId: GPL-3.0
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: indrif
 gitTagPrefix: ''
 gitTagIgnore: ''

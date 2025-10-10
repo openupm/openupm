@@ -1,17 +1,17 @@
 name: io.nekonya.tinax.xcomponent
 displayName: TinaX.XComponent
 description: ''
-repoUrl: 'https://github.com/yomunsam/TinaX.XComponent'
+repoUrl: https://github.com/yomunsam/TinaX.XComponent
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: AGPLv3
+licenseSpdxId: AGPL-3.0
+licenseName: GNU Affero General Public License v3.0
 topics:
-  - utilities
+- utilities
 hunter: yomunsam
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'master:README.md'
+readme: master:README.md
 createdAt: 1591648596715
 displayName_zhCN: TinaX.XComponent

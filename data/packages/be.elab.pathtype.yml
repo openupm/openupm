@@ -1,15 +1,14 @@
 name: be.elab.pathtype
 displayName: Path Type Read Write
-description: >-
-  I created this tool because I was tired of wondering if a path is: relative
-  absolute forlder or file.
+description: 'I created this tool because I was tired of wondering if a path is: relative
+  absolute forlder or file.'
 repoUrl: https://github.com/EloiStree/OpenUPM_PathTypeReadWrite
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Beerware
+licenseName: Beerware License
+licenseSpdxId: Beerware
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: EloiStree
 gitTagPrefix: ''
 gitTagIgnore: ''

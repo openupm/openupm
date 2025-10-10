@@ -1,15 +1,14 @@
 name: com.micrarriors.data-keeper
 displayName: DataKeeper
-description: >-
-  DataKeeper is a comprehensive package/Unity extension that enhances the
+description: DataKeeper is a comprehensive package/Unity extension that enhances the
   functionality and convenience of Unity development.
 repoUrl: https://github.com/Allasstar/data-keeper
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Unlicense license
+licenseName: The Unlicense
+licenseSpdxId: Unlicense
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: Allasstar
 gitTagPrefix: ''
 gitTagIgnore: ''

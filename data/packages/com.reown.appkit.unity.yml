@@ -3,11 +3,10 @@ displayName: Reown.AppKit.Unity
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: null
 licenseName: Reown Community License Agreement
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: skibitsky
 gitTagPrefix: com.reown.appkit.unity/
 gitTagIgnore: ''

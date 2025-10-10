@@ -1,18 +1,18 @@
 name: net.bobbo.player-behaviour.gravity
 displayName: Player Behaviour Gravity
 description: Basic gravity functionality for the Bobbo-Net Player Controller
-repoUrl: 'https://github.com/BOBBO-NET/netengine4'
+repoUrl: https://github.com/BOBBO-NET/netengine4
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: BOBBO-NET Friendly MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - input-management
+- input-management
 hunter: Iseeicy
-gitTagPrefix: 'net.bobbo.player-behaviour.gravity/'
+gitTagPrefix: net.bobbo.player-behaviour.gravity/
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

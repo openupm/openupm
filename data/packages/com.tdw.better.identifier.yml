@@ -3,11 +3,11 @@ displayName: Better Identifier
 description: ' '
 repoUrl: https://github.com/techno-dwarf-works/better-identifier
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: techno-dwarf-works
 gitTagPrefix: ''
 gitTagIgnore: ''

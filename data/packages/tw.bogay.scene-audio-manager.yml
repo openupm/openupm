@@ -1,18 +1,18 @@
 name: tw.bogay.scene-audio-manager
 displayName: Scene Audio Manager
 description: Simple audio manager for Unity.
-repoUrl: 'https://github.com/Bogay/scene-audio-manager'
+repoUrl: https://github.com/Bogay/scene-audio-manager
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - audio
+- audio
 hunter: Bogay
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'upm:README.md'
+readme: upm:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

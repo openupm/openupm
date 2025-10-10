@@ -3,12 +3,12 @@ displayName: CWJ.YU.Mobility
 description: Yeungnam University Smart Mobility - Mobility Kinematics Class
 repoUrl: https://github.com/DevCWJ/yu.mobility
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
-  - frameworks
+- editor-enhancement
+- frameworks
 hunter: DevCW
 gitTagPrefix: ''
 gitTagIgnore: ''

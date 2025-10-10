@@ -5,8 +5,8 @@ description: >-
   they do not handle the transitions and the Agents do it.
 repoUrl: https://github.com/MateoMonastra/Fsm_Mk2
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - data-management

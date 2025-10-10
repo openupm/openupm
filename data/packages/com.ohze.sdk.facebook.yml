@@ -1,17 +1,15 @@
 name: com.ohze.sdk.facebook
 displayName: Facebook SDK
-description: >-
-  The Facebook SDK for Unity provides a comprehensive collection of Facebook's
-  social features, giving players of your Unity game the ability to share
-  content with their friends and allowing you to create a personal, social
-  gaming experience.
+description: The Facebook SDK for Unity provides a comprehensive collection of Facebook's
+  social features, giving players of your Unity game the ability to share content
+  with their friends and allowing you to create a personal, social gaming experience.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.sdk.facebook
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
+licenseSpdxId: GPL-3.0
 image: ''
 topics:
-  - package-management
+- package-management
 hunter: HungPT-Ohze
 gitTagPrefix: ''
 gitTagIgnore: ''

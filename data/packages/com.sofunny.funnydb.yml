@@ -3,13 +3,13 @@ displayName: FunnyDB
 description: This is SoFunny FunnyDB
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnydb
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
-  - services
-  - utilities
+- frameworks
+- services
+- utilities
 hunter: MagicXiaoXiao
 gitTagPrefix: ''
 gitTagIgnore: ''

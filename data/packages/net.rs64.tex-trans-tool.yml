@@ -3,13 +3,12 @@ displayName: TexTransTool
 description: Non-destructive modification to Texture!
 repoUrl: https://github.com/ReinaS-64892/TexTransTool
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
-image: >-
-  https://ttt.rs64.net/assets/images/sd-PotitionExample-6518cdb89a017029f8c9e12352bf4aa5.png
+licenseName: MIT License
+licenseSpdxId: MIT
+image: https://ttt.rs64.net/assets/images/sd-PotitionExample-6518cdb89a017029f8c9e12352bf4aa5.png
 topics:
-  - editor-enhancement
-  - sprite-management
+- editor-enhancement
+- sprite-management
 hunter: TayouVR
 gitTagPrefix: ''
 gitTagIgnore: ''

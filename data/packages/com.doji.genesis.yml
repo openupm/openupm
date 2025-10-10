@@ -1,24 +1,23 @@
 name: com.doji.genesis
 displayName: Genesis
 description: An AI-powered world building and prototyping tool.
-repoUrl: 'https://github.com/julienkay/genesis'
+repoUrl: https://github.com/julienkay/genesis
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - ai
-  - editor-enhancement
-  - integration
-  - procedural-generation
-  - services
-  - utilities
+- ai
+- editor-enhancement
+- integration
+- procedural-generation
+- services
+- utilities
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://repository-images.githubusercontent.com/603482535/1342d71b-aa9b-456a-bd1b-7730a908a31d
-readme: 'master:Packages/com.doji.genesis/README.md'
+image: https://repository-images.githubusercontent.com/603482535/1342d71b-aa9b-456a-bd1b-7730a908a31d
+readme: master:Packages/com.doji.genesis/README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

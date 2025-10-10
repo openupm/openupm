@@ -3,11 +3,10 @@ displayName: ''
 description: Dependency Injection Framework for Unity3D
 repoUrl: https://github.com/VTeselkin/zenject
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: UNLICENSED
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: VTeselkin
 gitTagPrefix: ''
 gitTagIgnore: ''

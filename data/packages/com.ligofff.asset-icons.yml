@@ -1,15 +1,14 @@
 name: com.ligofff.asset-icons
 displayName: Asset icons
-description: >-
-  Small editor plugin for show icons on ScriptableObject assets in project and
-  fields
+description: Small editor plugin for show icons on ScriptableObject assets in project
+  and fields
 repoUrl: https://github.com/ligofff/SimpleTools-CustomSOIcons
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: ligofff
 gitTagPrefix: ''
 gitTagIgnore: ''

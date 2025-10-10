@@ -4,10 +4,10 @@ description: Steam localization integration for the Audune Localization package
 repoUrl: https://github.com/audunegames/steam-localization-integration
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
-  - localization
+- localization
 hunter: danae
 gitTagPrefix: ''
 gitTagIgnore: ''

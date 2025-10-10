@@ -1,19 +1,19 @@
 name: jp.co.bexide.bxuni.missingfinder
 displayName: BxUni Missing Finder
 description: Missing Reference detection tool
-repoUrl: 'https://github.com/bexide/BxUni-MissingFinder'
+repoUrl: https://github.com/bexide/BxUni-MissingFinder
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - asset-management
-  - editor-enhancement
+- asset-management
+- editor-enhancement
 hunter: bexide
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

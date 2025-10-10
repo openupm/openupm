@@ -3,7 +3,7 @@ displayName: FMOD Occlusion
 description: "FMOD ì\x97\x90ì\x84\x9C Occlusion ì\x8B\x9Cë®¬ë\_\x88ì\x9D´ì\N\x98ì\x9D\x84 êµ¬í\x98\x84"
 repoUrl: https://github.com/weariness00/MyUnituPackage
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE.md
 image: ''
 topics:

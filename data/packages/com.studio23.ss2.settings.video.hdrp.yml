@@ -1,16 +1,15 @@
 name: com.studio23.ss2.settings.video.hdrp
 displayName: Video Setting - HDRP
-description: >-
-  This is an video setting for HDRP. Used for in-game display and graphics
+description: This is an video setting for HDRP. Used for in-game display and graphics
   settings.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.video.hdrp
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: mit
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
-  - video
+- utilities
+- video
 hunter: studio-23-xyz
 gitTagPrefix: ''
 gitTagIgnore: ''

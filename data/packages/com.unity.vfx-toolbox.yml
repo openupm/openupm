@@ -1,12 +1,11 @@
 name: com.unity.vfx-toolbox
 displayName: VFX Toolbox
 description: Additional tools for Visual Effect Artists
-repoUrl: 'https://github.com/Unity-Technologies/VFXToolbox'
+repoUrl: https://github.com/Unity-Technologies/VFXToolbox
 parentRepoUrl: null
-licenseSpdxId: null
 licenseName: Unity Companion License
 topics:
-  - particles-and-effects
+- particles-and-effects
 hunter: favoyang
 gitTagIgnore: ''
 createdAt: 1578205437000

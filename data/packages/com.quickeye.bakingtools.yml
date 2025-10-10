@@ -1,14 +1,14 @@
 name: com.quickeye.bakingtools
 displayName: Baking Tools
-description: 'Unity scene baking toolkit. Lightmapping, NavMesh, OC'
-repoUrl: 'https://github.com/ErnSur/BakingTools'
+description: Unity scene baking toolkit. Lightmapping, NavMesh, OC
+repoUrl: https://github.com/ErnSur/BakingTools
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 topics:
-  - editor-enhancement
-  - modeling
-  - utilities
+- editor-enhancement
+- modeling
+- utilities
 hunter: ErnSur
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -1,18 +1,18 @@
 name: com.av.smart-inspector
 displayName: Smart Inspector
-description: 'Keeps your screen real-estate clean with refined, compact UX.'
-repoUrl: 'https://github.com/neon-age/Smart-Inspector'
+description: Keeps your screen real-estate clean with refined, compact UX.
+repoUrl: https://github.com/neon-age/Smart-Inspector
 parentRepoUrl: null
-licenseSpdxId: null
-licenseName: GPL3.0
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0 only
 topics:
-  - editor-enhancement
+- editor-enhancement
 hunter: JohannesDeml
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: ''
 image: null
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

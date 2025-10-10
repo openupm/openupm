@@ -3,8 +3,8 @@ displayName: Firebase
 description: Firebase
 repoUrl: https://github.com/hcmyxconan15/firebase
 parentRepoUrl: https://github.com/TeamAcMong/firebase
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - asset-management

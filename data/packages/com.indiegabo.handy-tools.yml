@@ -3,11 +3,11 @@ displayName: Handy Tools
 description: A collection of tools for Unity. Mostly scripts.
 repoUrl: https://github.com/indiegabo/handy-tools
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: indiegabo
 gitTagPrefix: upm/v
 gitTagIgnore: ''

@@ -1,15 +1,16 @@
 name: com.openugd.corelib.widgets
 displayName: CoreLib Widgets
-description: |
-  require .NET 4x
+description: 'require .NET 4x
+
+  '
 repoUrl: https://github.com/openugd/upm-corelib-widgets
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: The MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
-  - utilities
+- frameworks
+- utilities
 hunter: dorofiykolya
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -5,8 +5,8 @@ description: >-
   Rizov's NaughtyAttributes package.
 repoUrl: https://github.com/Grimbar-Interactive/unity-attributes
 parentRepoUrl: https://github.com/dbrizov/NaughtyAttributes
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - utilities

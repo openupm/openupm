@@ -3,13 +3,13 @@ displayName: FunnySDK
 description: 真有趣平台账号 SDK 接入包
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnysdk
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
-  - services
-  - utilities
+- frameworks
+- services
+- utilities
 hunter: MagicXiaoXiao
 gitTagPrefix: ''
 gitTagIgnore: ''

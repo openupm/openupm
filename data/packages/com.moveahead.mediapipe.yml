@@ -1,18 +1,18 @@
 name: com.moveahead.mediapipe
 displayName: MediaPipe
 description: MediaPipe for Unity
-repoUrl: 'https://github.com/Ale1/tf-lite-unity'
-parentRepoUrl: 'https://github.com/asus4/tf-lite-unity-sample'
-licenseSpdxId: ''
-licenseName: MIT LICENSE
+repoUrl: https://github.com/Ale1/tf-lite-unity
+parentRepoUrl: https://github.com/asus4/tf-lite-unity-sample
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - ar-and-vr
+- ar-and-vr
 hunter: ale1
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'master:README.md'
+readme: master:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

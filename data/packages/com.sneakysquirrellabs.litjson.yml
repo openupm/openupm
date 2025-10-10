@@ -1,18 +1,18 @@
 name: com.sneakysquirrellabs.litjson
 displayName: LitJSON
 description: A .NET library to handle conversions from and to JSON strings.
-repoUrl: 'https://github.com/matheusamazonas/litjson'
+repoUrl: https://github.com/matheusamazonas/litjson
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 topics:
-  - utilities
+- utilities
 hunter: matheusamazonas
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'main:README.md'
+readme: main:README.md
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''

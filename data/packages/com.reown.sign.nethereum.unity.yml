@@ -3,11 +3,10 @@ displayName: Reown.Sign.Nethereum.Unity
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
-licenseSpdxId: null
 licenseName: WalletConnect Community License Agreement
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: skibitsky
 gitTagPrefix: com.reown.sign.nethereum.unity/
 gitTagIgnore: ''

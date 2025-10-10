@@ -5,8 +5,8 @@ description: >-
   various scenarios.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: SEE LICENSE IN `LICENSE` FILE.
+licenseName: MIT License
+licenseSpdxId: MIT
 image: https://www.motphys.com/img/logo.868c1b7b.svg
 topics:
   - debugging-and-logging

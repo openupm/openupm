@@ -3,11 +3,11 @@ displayName: Barcode
 description: Barcode for Unity
 repoUrl: https://github.com/openugd/upm-barcode
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: The MIT License
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: dorofiykolya
 gitTagPrefix: ''
 gitTagIgnore: ''
