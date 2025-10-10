@@ -1,0 +1,16 @@
+name: com.fullmetalbagel.dope-inventory-ugui
+displayName: Dope Inventory (uGUI)
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/dope-grid
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: quabug
+gitTagPrefix: dope-inventory-ugui/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1760068030564
