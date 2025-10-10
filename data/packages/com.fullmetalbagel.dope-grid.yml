@@ -1,0 +1,16 @@
+name: com.fullmetalbagel.dope-grid
+displayName: Dope Grid
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/dope-grid
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: quabug
+gitTagPrefix: dope-grid/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1760067887429
