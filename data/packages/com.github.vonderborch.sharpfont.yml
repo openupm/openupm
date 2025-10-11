@@ -1,0 +1,16 @@
+name: com.github.vonderborch.sharpfont
+displayName: SharpFont.Editor
+description: The unity editor package project for SharpFont.
+repoUrl: https://github.com/iDreamsOfGame/SharpFont.Editor
+parentRepoUrl: https://github.com/vonderborch/SharpFont
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1760166183561
