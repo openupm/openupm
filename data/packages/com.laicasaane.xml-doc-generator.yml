@@ -1,8 +1,7 @@
 name: com.laicasaane.xml-doc-generator
 displayName: XML Documentation Generator
 description: >-
-  Force Unity to generate XML Documentation for all assemblies from UPM
-  packages.
+  Generate additional compiler options for Unity to produce XML Documentation for UPM packages.
 repoUrl: https://github.com/laicasaane/UnityXmlDocGenerator
 parentRepoUrl: null
 licenseSpdxId: MIT
