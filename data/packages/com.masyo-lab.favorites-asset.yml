@@ -1,0 +1,19 @@
+name: com.masyo-lab.favorites-asset
+displayName: Favorites Asset Window
+description: |-
+  This function allows you to bookmark (register as a favorite) resources.
+  MIT License
+  Copyright (c) 2021 MasyoLab
+repoUrl: https://github.com/MasyoLab/UnityTools-FavoritesAsset
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: guillermomonfort
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1760425019107
