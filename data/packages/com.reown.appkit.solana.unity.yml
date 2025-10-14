@@ -3,6 +3,7 @@ displayName: Reown.AppKit.Solana.Unity
 description: Reown AppKit adapter for Solana.Unity-SDK
 repoUrl: https://github.com/reown-com/reown-dotnet
 parentRepoUrl: null
+licenseSpdxId: null
 licenseName: Reown Community License Agreement
 image: ''
 topics:
