@@ -1,0 +1,16 @@
+name: io.github.idreamsofgame.skiasharp.fontsubset
+displayName: SkiaSharp.FontSubset
+description: Implements font subset feature by SkiaSharp.
+repoUrl: https://github.com/iDreamsOfGame/SkiaSharp.FontSubset
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1760619769678
