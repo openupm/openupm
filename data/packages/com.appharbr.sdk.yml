@@ -1,0 +1,19 @@
+name: com.appharbr.sdk
+displayName: AppHarbr SDK
+description: Ad quality solution for Unity publishers - blocks inappropriate ads and provides enhanced user experience
+repoUrl: 'https://github.com/appharbr/appharbr-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: ''
+topics:
+  - ads
+  - mediation
+  - monetization
+hunter: appharbr
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'master:AppHarbrSDK/README.md'
+readme_zhCN: ''
+package_path: '/AppHarbrSDK'
