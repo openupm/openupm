@@ -6,9 +6,8 @@ parentRepoUrl: null
 licenseSpdxId: null
 licenseName: ''
 topics:
-  - ads
-  - mediation
-  - monetization
+  - integration
+  - utilities
 hunter: appharbr
 gitTagPrefix: ''
 gitTagIgnore: ''
