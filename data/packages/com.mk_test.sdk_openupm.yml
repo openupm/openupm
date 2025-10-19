@@ -1,0 +1,16 @@
+name: com.mk_test.sdk_openupm
+displayName: Test multiplayer SDK
+description: Multiplayer SDK for Unity.
+repoUrl: https://github.com/michaelkolobof/sdk_test_openupm
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - network
+hunter: michaelkolobof
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1760891895221
