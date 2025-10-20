@@ -4,6 +4,7 @@ description: A Unity DOTS framework for my personal projects
 repoUrl: https://github.com/Dreaming381/Latios-Framework
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - dots-and-ecs
 hunter: favoyang

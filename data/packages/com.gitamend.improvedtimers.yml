@@ -4,6 +4,7 @@ description: Improved Timer System for Unity that hooks into the Unity Player Lo
 repoUrl: https://github.com/maoyeedy/Unity-Improved-Timers
 parentRepoUrl: https://github.com/adammyhre/Unity-Improved-Timers
 licenseName: 'Null'
+licenseSpdxId: null
 image: ''
 topics:
 - utilities

@@ -34,6 +34,35 @@ describe("data/packages", async function() {
         should.exist(pkg, "yaml format should be valid");
         should.exist(pkg.repoUrl, "repoUrl is required");
         should.exist(pkg.name, "name is required");
+        should.exist(pkg.displayName, "displayName is required");
+        should.exist(pkg.description, "description is required");
+        should.exist(pkg.licenseName, "licenseName is required");
+
+        pkg.should.have.property("licenseSpdxId");
+        const licenseSpdxTypeValid =
+          pkg.licenseSpdxId === null || typeof pkg.licenseSpdxId === "string";
+        licenseSpdxTypeValid.should.be.true("licenseSpdxId should be null or string");
+        if (typeof pkg.licenseSpdxId === "string") {
+          pkg.licenseSpdxId.length.should.be.above(
+            0,
+            "licenseSpdxId must not be an empty string"
+          );
+        }
+
+        pkg.description.should.be.String();
+        pkg.displayName.should.be.String();
+        pkg.licenseName.should.be.String();
+
+        pkg.should.have.property("topics");
+        pkg.topics.should.be.Array();
+        pkg.topics.forEach(topic => topic.should.be.String());
+
+        pkg.should.have.property("hunter");
+        pkg.hunter.should.be.String();
+
+        pkg.should.have.property("createdAt");
+        pkg.createdAt.should.be.Number();
+
         const [isNameValid, nameValidError] = isValidPackageName(pkg.name);
         // Ignore known invalid names
         if (!knownInvalidNames.includes(pkg.name)) {

@@ -4,6 +4,7 @@ description: This package provide editor extension that can be reused accross pr
 repoUrl: https://github.com/WAYN-Games/WAYN-Editor-Extension
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - editor-enhancement
 - utilities

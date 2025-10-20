@@ -7,6 +7,7 @@ description: It can replace multiple Static Mesh Actors with single, combined St
 repoUrl: https://github.com/Unity-Technologies/HLODSystem
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - asset-management
 - modeling

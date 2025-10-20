@@ -4,6 +4,7 @@ description: ''
 repoUrl: https://github.com/Unity-Technologies/com.unity.selection-groups
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - editor-enhancement
 hunter: JesseTG

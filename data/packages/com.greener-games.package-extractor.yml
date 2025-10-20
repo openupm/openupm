@@ -5,6 +5,7 @@ description: Extract part of a package into the assets folder, usefull for defau
 repoUrl: https://github.com/Greener-Games/PackageExtractor
 parentRepoUrl: null
 licenseName: copyright
+licenseSpdxId: null
 topics:
 - utilities
 hunter: Reddevildragg

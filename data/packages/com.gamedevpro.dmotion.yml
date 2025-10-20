@@ -4,6 +4,7 @@ description: DMotion is a high level Animation framework and State Machine for D
 repoUrl: https://github.com/gamedev-pro/dmotion
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - animation
 - dots-and-ecs

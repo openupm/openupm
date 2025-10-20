@@ -5,6 +5,7 @@ description: Unofficial mirror of the Oculus Unity-Integration Audio Manager as 
 repoUrl: https://github.com/Trisgram/com.oculus.unity.integration.audio-manager
 parentRepoUrl: null
 licenseName: Oculus SDK License
+licenseSpdxId: null
 topics:
 - ar-and-vr
 hunter: Morbeavus

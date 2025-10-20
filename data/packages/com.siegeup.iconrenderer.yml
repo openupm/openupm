@@ -4,6 +4,7 @@ description: Universal extendable icons renderer for items and objects in editor
 repoUrl: https://github.com/SiegeUp/SiegeUp.IconRenderer
 parentRepoUrl: null
 licenseName: Abuksigun SiegeUp
+licenseSpdxId: null
 topics:
 - 2d
 - asset-management

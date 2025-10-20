@@ -4,6 +4,7 @@ description: A Unity package to publish and view Millicast streams.
 repoUrl: https://github.com/millicast/millicast-unity-sdk
 parentRepoUrl: null
 licenseName: Unknown
+licenseSpdxId: null
 topics:
 - integration
 - services

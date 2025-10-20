@@ -4,6 +4,7 @@ description: Renders a line along every edge between every vertex
 repoUrl: https://github.com/ViRGIS-Team/unity-wireframe-shader
 parentRepoUrl: https://github.com/gkjohnson/unity-wireframe-shader
 licenseName: Open
+licenseSpdxId: null
 topics:
 - particles-and-effects
 hunter: runette

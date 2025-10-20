@@ -5,6 +5,7 @@ description: Provides a custom authoring experience for creating rigid bodies an
 repoUrl: https://github.com/redwyre/com.redwyre.physics-custom-authoring
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - physics
 hunter: redwyre

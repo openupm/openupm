@@ -5,6 +5,7 @@ description: Unity package that allows you to generate infinite game assets usin
 repoUrl: https://github.com/Blockade-Games/BlockadeLabs-SDK-Unity
 parentRepoUrl: null
 licenseName: Unknown
+licenseSpdxId: null
 topics:
 - ai
 - editor-enhancement

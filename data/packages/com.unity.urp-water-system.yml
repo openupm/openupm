@@ -4,6 +4,7 @@ description: A water system for use in URP, developed for the Boat Attack demo p
 repoUrl: https://github.com/Unity-Technologies/boat-attack-water
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - particles-and-effects
 hunter: Verasl

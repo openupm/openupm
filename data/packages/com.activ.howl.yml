@@ -4,6 +4,7 @@ description: (╯°□°)╯⌒ C#
 repoUrl: https://github.com/active-logic/uta
 parentRepoUrl: null
 licenseName: Fair Source License
+licenseSpdxId: null
 topics:
 - frameworks
 hunter: JesseTG

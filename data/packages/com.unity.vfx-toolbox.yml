@@ -4,6 +4,7 @@ description: Additional tools for Visual Effect Artists
 repoUrl: https://github.com/Unity-Technologies/VFXToolbox
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - particles-and-effects
 hunter: favoyang

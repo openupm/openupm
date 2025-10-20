@@ -4,6 +4,7 @@ description: Light Assistant Tool
 repoUrl: https://github.com/Unity-Technologies/com.unity.light-assistant
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - editor-enhancement
 hunter: JesseTG

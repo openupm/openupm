@@ -5,6 +5,7 @@ description: Wrapper package for the Unity Navmesh components, designed to work 
 repoUrl: https://github.com/PixelWizards/navmesh-components
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - ai
 hunter: pixelwizards

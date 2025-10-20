@@ -4,6 +4,7 @@ description: The unity sdk for https://www.feed.fm
 repoUrl: https://github.com/feedfm/unity-sdk-3
 parentRepoUrl: null
 licenseName: FeedFM Open Source License
+licenseSpdxId: null
 topics:
 - audio
 - integration

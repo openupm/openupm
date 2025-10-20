@@ -6,6 +6,7 @@ description: 'Package useful to keep track of the major changes done on a projec
 repoUrl: https://github.com/Greener-Games/Change-Log
 parentRepoUrl: null
 licenseName: copyright
+licenseSpdxId: null
 topics:
 - utilities
 hunter: Reddevildragg

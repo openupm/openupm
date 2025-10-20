@@ -10,6 +10,7 @@ description: 'Didimo provides a cloud-based automated service that enables the g
 repoUrl: https://github.com/didimoinc/didimo-digital-human-unity-sdk
 parentRepoUrl: null
 licenseName: Didimo Source Code License
+licenseSpdxId: null
 topics:
 - animation
 - asset-management

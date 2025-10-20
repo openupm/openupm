@@ -4,6 +4,7 @@ description: 'Package Manager wrapper for LightProbe placer from here: https://g
 repoUrl: https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - editor-enhancement
 hunter: PixelWizards

@@ -5,6 +5,7 @@ description: UPM package of the joints components from the official EntityCompon
 repoUrl: https://github.com/johanhelsing/unity-physics-joints
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - dots-and-ecs
 - physics

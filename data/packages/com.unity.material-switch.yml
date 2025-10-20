@@ -4,6 +4,7 @@ description: ''
 repoUrl: https://github.com/Unity-Technologies/com.unity.material-switch
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - particles-and-effects
 hunter: JesseTG
