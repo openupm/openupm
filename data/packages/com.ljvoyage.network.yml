@@ -1,0 +1,19 @@
+name: com.ljvoyage.network
+displayName: LJVoyage Network
+description: >-
+  A lightweight Unity networking toolkit providing API request management,
+  interceptors, and editor-based configuration.
+repoUrl: https://github.com/LJVoyage/LJVNet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+  - utilities
+hunter: LJVoyage
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1761118938228
