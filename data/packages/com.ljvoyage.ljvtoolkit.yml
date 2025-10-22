@@ -4,10 +4,10 @@ description: A general-purpose Unity toolkit containing common utility functions
 repoUrl: https://github.com/LJVoyage/LJVToolkit.git
 licenseSpdxId: MIT
 topics:
-  - unity
   - toolkit
   - utilities
   - editor
+  - runtime
 author:
   name: LJVoyage
   url: https://github.com/LJVoyage
