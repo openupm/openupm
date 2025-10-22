@@ -1,0 +1,17 @@
+name: com.vcow.signal-bus
+displayName: Signal Bus
+description: Multithread Signal Bus for Unity/C#.
+repoUrl: https://github.com/vcow/lib-signal-bus
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - services
+hunter: vcow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1761134381739
