@@ -4,7 +4,7 @@ description: Log4js-like Logging system for Unity
 repoUrl: 'https://github.com/wlgys8/Log4Unity'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
 hunter: JesseTG

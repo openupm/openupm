@@ -4,7 +4,7 @@ description: Provide addressables with support for Play Asset Delivery
 repoUrl: 'https://github.com/danyow/be.khepri.play.assetdelivery.addressables.cn'
 parentRepoUrl: 'https://github.com/thanh-nguyen-kim/be.khepri.play.assetdelivery.addressables'
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - asset-management
 hunter: danyow

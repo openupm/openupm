@@ -4,7 +4,7 @@ description: Command based scriptable build pipeline for Unity 3D
 repoUrl: 'https://github.com/UniGameTeam/UniBuild'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
 hunter: JesseTG

@@ -4,7 +4,7 @@ description: execute shell command in Unity Editor
 repoUrl: 'https://github.com/wlgys8/UnityShell'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
   - integration

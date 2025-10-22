@@ -20,7 +20,7 @@ description: >-
 repoUrl: 'https://github.com/RotaryHeart/SerializableDictionaryLite'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - data-management
   - editor-enhancement

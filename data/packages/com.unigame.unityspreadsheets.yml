@@ -4,7 +4,7 @@ description: Unity3D Google Spreadsheet export/import library
 repoUrl: 'https://github.com/UniGameTeam/UniGame.GoogleSpreadsheetsImporter'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - data-management
   - services

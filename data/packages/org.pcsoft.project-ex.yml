@@ -4,7 +4,7 @@ description: Extension for Unity for better project handling.
 repoUrl: 'https://github.com/KleinerHacker/unity-project-ex'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - asset-management
   - editor-enhancement

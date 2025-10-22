@@ -22,6 +22,16 @@ const { isPackageBlockedByScope } = require("../app/common/utils");
 
 const knownInvalidNames = [];
 
+function assertNonEmptyString(value, fieldName) {
+  should.exist(value, `${fieldName} is required`);
+  value.should.be.String();
+  const trimmedValue = value.trim();
+  trimmedValue.length.should.be.above(
+    0,
+    `${fieldName} must not be an empty string`
+  );
+}
+
 describe("data/packages", async function() {
   const packageNames = await loadPackageNames();
   const validTopics = await loadTopics();
@@ -32,11 +42,13 @@ describe("data/packages", async function() {
         const pkg = await loadPackageSync(packageName);
         // Check required
         should.exist(pkg, "yaml format should be valid");
-        should.exist(pkg.repoUrl, "repoUrl is required");
-        should.exist(pkg.name, "name is required");
+        assertNonEmptyString(pkg.repoUrl, "repoUrl");
+        assertNonEmptyString(pkg.name, "name");
         should.exist(pkg.displayName, "displayName is required");
+        pkg.displayName.should.be.String();
         should.exist(pkg.description, "description is required");
-        should.exist(pkg.licenseName, "licenseName is required");
+        pkg.description.should.be.String();
+        assertNonEmptyString(pkg.licenseName, "licenseName");
 
         pkg.should.have.property("licenseSpdxId");
         const licenseSpdxTypeValid =
@@ -49,16 +61,12 @@ describe("data/packages", async function() {
           );
         }
 
-        pkg.description.should.be.String();
-        pkg.displayName.should.be.String();
-        pkg.licenseName.should.be.String();
-
         pkg.should.have.property("topics");
         pkg.topics.should.be.Array();
         pkg.topics.forEach(topic => topic.should.be.String());
 
         pkg.should.have.property("hunter");
-        pkg.hunter.should.be.String();
+        assertNonEmptyString(pkg.hunter, "hunter");
 
         pkg.should.have.property("createdAt");
         pkg.createdAt.should.be.Number();

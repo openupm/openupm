@@ -4,7 +4,7 @@ description: A simple event subscribe & post library for Unity
 repoUrl: 'https://github.com/wlgys8/EventBus'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: wlgys8

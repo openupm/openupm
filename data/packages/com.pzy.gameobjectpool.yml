@@ -4,7 +4,7 @@ description: 提供按预制件分类的游戏对象池
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: Peng-Zhiyuan

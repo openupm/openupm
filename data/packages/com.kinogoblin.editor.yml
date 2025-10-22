@@ -4,7 +4,7 @@ description: CustomEditor
 repoUrl: 'https://github.com/Kinogoblin/KinogoblinEditor'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
   - utilities

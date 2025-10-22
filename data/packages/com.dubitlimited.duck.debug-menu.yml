@@ -4,7 +4,7 @@ description: A prebuilt Debug Menu that includes typically needed debugging feat
 repoUrl: 'https://github.com/dubit/unity-debug-menu'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
 hunter: JesseTG

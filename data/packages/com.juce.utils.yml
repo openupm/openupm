@@ -4,7 +4,7 @@ description: Utils repo that's part of the Juce Unity framework
 repoUrl: 'https://github.com/Juce-Assets/Juce-Utils'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - 2d
   - gui

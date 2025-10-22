@@ -4,7 +4,7 @@ description: Lightweight dependency injection framework for unity
 repoUrl: 'https://github.com/kkjamie/unity-dependency-injection'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: JesseTG

@@ -4,7 +4,7 @@ description: "sco是c#实现的解释型脚本,是一种高效,轻量,可嵌入�
 repoUrl: 'https://github.com/qingfeng346/upm'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - code-generation
 hunter: qingfeng346

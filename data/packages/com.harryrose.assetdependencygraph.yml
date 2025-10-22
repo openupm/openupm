@@ -4,7 +4,7 @@ description: An Asset Dependency Graph for Unity
 repoUrl: 'https://github.com/Unity-Harry/Unity-AssetDependencyGraph'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - asset-management
 hunter: PixelWizards

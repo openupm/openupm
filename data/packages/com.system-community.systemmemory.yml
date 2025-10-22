@@ -7,7 +7,7 @@ description: >-
 repoUrl: 'https://github.com/system-community/SystemMemory'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: favoyang

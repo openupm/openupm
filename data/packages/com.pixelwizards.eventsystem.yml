@@ -4,7 +4,7 @@ description: Pubsub Event System for Unity
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.eventsystem'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
   - utilities

@@ -4,7 +4,7 @@ description: SceneViewBookmarks
 repoUrl: 'https://github.com/PixelWizards/SceneViewBookmarks'
 parentRepoUrl: 'https://github.com/FredMoreau/SceneViewBookmarks'
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - camera
   - editor-enhancement

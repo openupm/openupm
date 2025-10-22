@@ -4,7 +4,7 @@ description: A tool to help you symbolicate android crashes
 repoUrl: 'https://github.com/brunomikoski/UnitySmartSymbolicate'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
   - editor-enhancement
