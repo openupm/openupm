@@ -1,11 +1,16 @@
-name: com.ljvoyage.ljvtoolkit
-displayName: LJV Toolkit
+name: com.ljvoyage.toolkit
+displayName: LJVoyage Toolkit
 description: A general-purpose Unity toolkit containing common utility functions, extension methods, and editor enhancements.
-repoUrl: https://github.com/LJVoyage/LJVToolkit.git
+repoUrl: https://github.com/LJVoyage/LJVToolkit
+parentRepoUrl: null
 licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
 topics:
   - utilities
-author:
-  name: LJVoyage
-  url: https://github.com/LJVoyage
-createdAt: 1737561600000
+hunter: LJVoyage
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1761111045993
