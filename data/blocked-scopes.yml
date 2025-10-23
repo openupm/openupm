@@ -197,6 +197,7 @@ scopes:
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
 - com.didimo.sdk.assetfitter
+- com.justinpbarnett.unity-mcp
 
 # The packages that are deprecated by the author and the source repository may be still available
 # https://openupm.com/packages/com.miragenet.epic/
