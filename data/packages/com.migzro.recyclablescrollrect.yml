@@ -5,8 +5,8 @@ description: >-
   to improve performance with large data sets.
 repoUrl: https://github.com/Migzro/Recyclable-Scroll-Rect
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - gui
