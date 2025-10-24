@@ -1,0 +1,19 @@
+name: com.migzro.recyclablescrollrect
+displayName: Recyclable Scroll Rect
+description: >-
+  An infinite scroll rect implementation for Unity UI that recycles item views
+  to improve performance with large data sets.
+repoUrl: https://github.com/Migzro/Recyclable-Scroll-Rect
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: Migzro
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1761302168462
