@@ -1,0 +1,16 @@
+name: io.eframework.unity.asset
+displayName: Unity.Asset
+description: "Unity.Asset 提供了一套完整的 Unity 资源管理解决方案，实现了从资源打包发布到运行时加载的全流程管理，支持资源加载、引用计数、自动卸载等特性。"
+repoUrl: https://github.com/eframework-io/Unity.Asset
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1761488210257
