@@ -1,0 +1,16 @@
+name: io.eframework.unity.utility
+displayName: Unity.Utility
+description: "Unity.Utility 提供了基于 Unity 的配置管理、任务调度、日志记录、事件系统、文件处理等基础功能模块。"
+repoUrl: https://github.com/eframework-io/Unity.Utility
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1761486117051
