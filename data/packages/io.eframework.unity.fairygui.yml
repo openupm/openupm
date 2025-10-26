@@ -1,0 +1,16 @@
+name: io.eframework.unity.fairygui
+displayName: Unity.FairyGUI
+description: "Unity.FairyGUI 是一个基于 FairyGUI 的拓展模块，提供了画布组件、资源包管理等核心功能，支持自定义加载器、自动处理包依赖关系以及编辑器扩展等特性。"
+repoUrl: https://github.com/eframework-io/Unity.FairyGUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1761488324869
