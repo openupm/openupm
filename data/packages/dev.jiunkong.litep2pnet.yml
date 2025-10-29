@@ -1,0 +1,16 @@
+name: dev.jiunkong.litep2pnet
+displayName: LiteP2PNet
+description: A lightweight P2P networking library for Unity
+repoUrl: https://github.com/jiunkong/LiteP2PNet
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: jiunkong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1761660186812
