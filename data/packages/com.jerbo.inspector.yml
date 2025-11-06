@@ -1,0 +1,16 @@
+name: com.jerbo.inspector
+displayName: Inspector Tools
+description: A collection of tools for making the workflow in the inspector better.
+repoUrl: https://github.com/tomjerbo/Inspector
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: tomjerbo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:readme.md
+createdAt: 1762416856140
