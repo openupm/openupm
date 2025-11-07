@@ -1,0 +1,17 @@
+name: com.kwanjoong.ait-sdk
+displayName: AppInToss SDK
+description: Unofficial AppInToss SDK for Unity
+repoUrl: https://github.com/kwan3854/AppInToss-Unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - integration
+  - mobile
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1762515988523
