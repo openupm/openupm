@@ -1,0 +1,17 @@
+name: com.initialprefabs.collections
+displayName: NoAlloc Collections
+description: Stack allocated collections for C#
+repoUrl: https://github.com/InitialPrefabs/InitialPrefabs.Collections
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+  - frameworks
+hunter: psuong
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1762483778199
