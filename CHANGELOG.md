@@ -1,3 +1,10 @@
+## [1.58.3](https://github.com/openupm/openupm/compare/1.58.2...1.58.3) (2025-11-08)
+
+
+### Bug Fixes
+
+* use valid topics (ai, editor-enhancement, integration) ([93cb136](https://github.com/openupm/openupm/commit/93cb1361d2bf455bd714ba3f9b2f6801b960ac7e))
+
 ## [1.58.2](https://github.com/openupm/openupm/compare/1.58.1...1.58.2) (2024-06-10)
 
 
