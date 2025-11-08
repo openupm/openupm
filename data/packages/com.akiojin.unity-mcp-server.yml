@@ -1,0 +1,18 @@
+name: com.akiojin.unity-mcp-server
+displayName: Unity MCP Server
+description: >-
+  Unity Editor MCP bridge and tooling for AI-assisted development (screenshots,
+  video capture, scene analysis, input automation).
+repoUrl: https://github.com/akiojin/unity-mcp-server
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: akiojin
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1762614082985
