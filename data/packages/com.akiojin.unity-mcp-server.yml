@@ -11,9 +11,8 @@ licenseName: MIT License
 image: ''
 topics:
   - ai
-  - mcp
-  - editor
-  - automation
+  - editor-enhancement
+  - integration
 hunter: akiojin
 gitTagPrefix: v
 gitTagIgnore: ''
