@@ -1,0 +1,21 @@
+name: com.mnmfullmetal.unity-asset-organiser
+displayName: Unity Asset Organiser
+description: >-
+  An editor tool that automatically sorts imported assets into predefined
+  folders based on file type, keeping your project hierarchy clean.
+repoUrl: https://github.com/mnmfullmetal/Unity-Asset-Organiser
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - sprite-management
+  - utilities
+hunter: mnmfullmetal
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1762684313631
