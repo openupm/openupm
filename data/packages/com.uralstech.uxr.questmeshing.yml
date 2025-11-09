@@ -1,0 +1,18 @@
+name: com.uralstech.uxr.questmeshing
+displayName: UXR.QuestMeshing
+description: >-
+  Real-time environment mesh, navmesh, and collision generation for Unity using
+  the Meta Quest Depth API.
+repoUrl: https://github.com/Uralstech/UXR.QuestMeshing
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ar-and-vr
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1762030759371
