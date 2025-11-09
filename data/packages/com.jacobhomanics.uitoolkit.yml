@@ -1,0 +1,16 @@
+name: com.jacobhomanics.uitoolkit
+displayName: UI Toolkit
+description: A toolkit for working with the Unity UI
+repoUrl: https://github.com/JacobHomanics/ui-toolkit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: jacobhomanics
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1762658073736
