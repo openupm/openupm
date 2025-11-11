@@ -1,0 +1,13 @@
+name: com.clokk.mdmcp-unity
+displayName: MDMCP Server for Unity
+repoUrl: https://github.com/clokk/mdmcp-unity
+license: MIT
+author: clokk
+description: HTTP-based automation bridge for the Unity Editor with extensible actions.
+topics:
+  - unity
+  - editor
+  - automation
+  - http
+  - mcp
+category: editor
