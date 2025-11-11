@@ -1,0 +1,16 @@
+name: com.iraklichkuaseli.uicorner
+displayName: UI Corner
+description: "GPU-accelerated rounded and chamfered corners for Unity UI elements"
+repoUrl: https://github.com/irakli/ui-corner
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: irakli
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '1.0.0'
+readme: main:README.md
+createdAt: 1762895634150
