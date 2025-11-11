@@ -8,11 +8,6 @@ licenseName: MIT License
 image: ''
 topics:
   - gui
-  - ui
-  - ugui
-  - shader
-  - sdf
-  - performance
 hunter: irakli
 gitTagPrefix: 'v'
 gitTagIgnore: ''
