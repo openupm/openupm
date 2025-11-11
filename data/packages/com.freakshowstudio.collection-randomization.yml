@@ -1,0 +1,17 @@
+name: com.freakshowstudio.collection-randomization
+displayName: Collection Randomization Extensions
+description: Randomization extensions for collections
+repoUrl: >-
+  https://github.com/freakshowstudio/com.freakshowstudio.collection-randomization
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1762889818561
