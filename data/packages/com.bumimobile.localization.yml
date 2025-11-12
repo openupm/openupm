@@ -1,0 +1,18 @@
+name: com.bumimobile.localization
+displayName: Bumi Mobile Localization
+description: >-
+  Localization controller, settings, and editor utilities for Bumi Mobile
+  projects.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933866922
