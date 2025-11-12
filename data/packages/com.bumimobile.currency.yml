@@ -1,0 +1,17 @@
+name: com.bumimobile.currency
+displayName: Bumi Mobile Currency
+description: Currency definitions, balances, and helpers for Bumi Mobile projects.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933562892
