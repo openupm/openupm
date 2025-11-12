@@ -1,0 +1,16 @@
+name: com.bumimobile.haptic
+displayName: Bumi Mobile Haptic
+description: Haptic feedback wrappers and initialization module for Bumi Mobile projects.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933776574
