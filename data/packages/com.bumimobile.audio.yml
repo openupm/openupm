@@ -1,0 +1,17 @@
+name: com.bumimobile.audio
+displayName: Bumi Mobile Audio
+description: Audio playback, pooling, and configuration module for Bumi Mobile projects.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762932868219
