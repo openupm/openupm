@@ -1,0 +1,16 @@
+name: com.bumimobile.defines
+displayName: Bumi Mobile Defines
+description: Define attribute helpers for conditional compilation in Bumi Mobile modules.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933669097
