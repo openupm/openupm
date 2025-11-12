@@ -1,0 +1,16 @@
+name: com.bumimobile.monetization
+displayName: Bumi Mobile Monetization
+description: Ads, purchasing, and monetization orchestration for Bumi Mobile projects.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933902770
