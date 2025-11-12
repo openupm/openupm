@@ -1,0 +1,16 @@
+name: com.bumimobile.nativeshare
+displayName: Bumi Mobile Native Share
+description: NativeShare integration wrapper for Android and iOS sharing features.
+repoUrl: https://github.com/Bumi-Studio/BumiMobileCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: thisisfatah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: dev:README.md
+createdAt: 1762933940830
