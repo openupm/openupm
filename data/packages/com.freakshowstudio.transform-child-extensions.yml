@@ -1,0 +1,17 @@
+name: com.freakshowstudio.transform-child-extensions
+displayName: Transform Children Extensions
+description: Transform extension methods for handling child transforms
+repoUrl: >-
+  https://github.com/freakshowstudio/com.freakshowstudio.transform-child-extensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: freakshowstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763120486247
