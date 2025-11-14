@@ -1,0 +1,25 @@
+name: com.edgegap.unity-servers-plugin
+displayName: Edgegap Servers Quickstart
+description: Get started quickly with Edgegap Dedicated Server hosting.
+repoUrl: https://github.com/edgegap/edgegap-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://framerusercontent.com/images/lqRQ6PTjeacJ6zcDxZVRqn3mNo8.png
+topics:
+  - data-management
+  - editor-enhancement
+  - parallelism-and-concurrency
+  - integration
+  - network
+  - profiling
+  - services
+  - testing
+  - utilities
+  - version-control
+hunter: orcist
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: partner/openupm:README.md
+createdAt: 1763134271669
