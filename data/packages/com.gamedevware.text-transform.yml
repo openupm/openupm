@@ -7,7 +7,7 @@ description: >-
   file can be text of any kind, such as resource file, source code or web page.
 repoUrl: https://github.com/deniszykov/t4-templates-unity3d
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: >-
   https://github.com/deniszykov/t4-templates-unity3d/blob/master/openupm_cover.png?raw=true
