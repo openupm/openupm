@@ -1,0 +1,20 @@
+name: com.facebook.unity
+displayName: Facebook SDK for Unity (UPM)
+description: >-
+  Official Facebook SDK for Unity v18.0.0 as UPM package. Forked from Meta's
+  .unitypackage with UPM restructuring.
+repoUrl: https://github.com/LaCreArthur/facebook-unity-sdk-upm
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - integration
+  - services
+  - utilities
+hunter: LaCreArthur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1763233108093
