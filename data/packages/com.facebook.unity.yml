@@ -5,7 +5,7 @@ description: >-
   .unitypackage with UPM restructuring.
 repoUrl: https://github.com/LaCreArthur/facebook-unity-sdk-upm
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: ''
 topics:
