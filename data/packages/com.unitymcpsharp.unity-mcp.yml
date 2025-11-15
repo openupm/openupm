@@ -1,0 +1,19 @@
+name: com.unitymcpsharp.unity-mcp
+displayName: Unity MCP Server
+description: >-
+  Model Context Protocol (MCP) server for Unity Editor integration with AI
+  assistants. Dual-transport server supporting stdio for LLMs and WebSocket for
+  Unity. Enables console logs, compilation, and scene manipulation.
+repoUrl: https://github.com/Abbabon/unity-mcp-sharp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: Abbabon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763242105859
