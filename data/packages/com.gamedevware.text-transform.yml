@@ -8,7 +8,7 @@ description: >-
 repoUrl: https://github.com/deniszykov/t4-templates-unity3d
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
-licenseName: MIT
+licenseName: MIT License
 image: >-
   https://github.com/deniszykov/t4-templates-unity3d/blob/master/openupm_cover.png?raw=true
 topics:
