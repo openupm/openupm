@@ -1,0 +1,24 @@
+name: com.gamedevware.text-transform
+displayName: T4 Text Templates for Unity
+description: >-
+  This Unity editor extension provides T4 text templates processor. T4 template
+  is a mixture of text blocks and control logic that can generate a text file.
+  The control logic is written as fragments of program code in C#. The generated
+  file can be text of any kind, such as resource file, source code or web page.
+repoUrl: https://github.com/deniszykov/t4-templates-unity3d
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: >-
+  https://github.com/deniszykov/t4-templates-unity3d/blob/master/openupm_cover.png?raw=true
+topics:
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: deniszykov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1763119879020
