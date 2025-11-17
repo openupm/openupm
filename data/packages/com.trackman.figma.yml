@@ -5,6 +5,7 @@ description: Figma to Unity uxml/uss converter, utilities for VisualTree managem
 repoUrl: https://github.com/TrackMan/Unity.Package.FigmaForUnity
 parentRepoUrl: null
 licenseName: Apache 2 Custom
+licenseSpdxId: null
 topics:
 - gui
 - utilities

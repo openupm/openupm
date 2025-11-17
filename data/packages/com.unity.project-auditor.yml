@@ -4,6 +4,7 @@ description: Project Auditor is an experimental static analysis tool for Unity P
 repoUrl: https://github.com/Unity-Technologies/ProjectAuditor
 parentRepoUrl: https://github.com/mtrive/ProjectAuditor
 licenseName: Unity Package Distribution License
+licenseSpdxId: null
 topics:
 - utilities
 hunter: favoyang

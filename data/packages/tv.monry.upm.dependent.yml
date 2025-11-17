@@ -4,7 +4,7 @@ description: Dependent package for Unity Package Manager
 repoUrl: 'https://github.com/monry/upm-dependent'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: JesseTG

@@ -4,7 +4,7 @@ description: Android Play Asset Delivery support for Unity Addressables
 repoUrl: 'https://github.com/jelte/be.khepri.play.assetdelivery.addressables'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - asset-management
   - integration

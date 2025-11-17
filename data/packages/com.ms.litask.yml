@@ -4,7 +4,7 @@ description: .Net/Unity lightweight allocation free  Task-like object
 repoUrl: 'https://github.com/wlgys8/LitTask'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: wlgys8

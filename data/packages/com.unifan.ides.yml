@@ -1,0 +1,20 @@
+name: com.unifan.ides
+displayName: Multi AI IDEs
+description: >-
+  Code editor integration for supporting multiple IDEs as code editor for unity.
+  Adds support for generating csproj files for intellisense purposes, auto
+  discovery of installations, etc.
+repoUrl: https://github.com/821869798/com.unifan.ides
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+hunter: '821869798'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763353496604

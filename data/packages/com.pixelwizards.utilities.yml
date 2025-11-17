@@ -5,6 +5,7 @@ description: Some Unity utilities (UV tools, resource checker etc) packaged for 
 repoUrl: https://github.com/PixelWizards/com.pixelwizards.utilities
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - utilities
 hunter: PixelWizards

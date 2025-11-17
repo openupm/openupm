@@ -1,0 +1,18 @@
+name: com.ges.services.network
+displayName: Tiny Service Network
+description: Tiny network management system for Unity game engine.
+repoUrl: https://github.com/gestiran/TinyServiceNetwork
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - network
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1761000309453

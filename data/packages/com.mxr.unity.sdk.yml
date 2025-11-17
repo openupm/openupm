@@ -5,6 +5,7 @@ description: ManageXR Android and Editor System and Utilities for integrating wi
 repoUrl: https://github.com/ManageXR/mxr-unity-sdk
 parentRepoUrl: null
 licenseName: ManageXR SDK License
+licenseSpdxId: null
 topics:
 - ar-and-vr
 - integration

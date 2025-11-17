@@ -4,7 +4,7 @@ description: Editor dropdown for SerializeReference Attribute
 repoUrl: 'https://github.com/AlexeyTaranov/SerializeReferenceDropdown'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
 hunter: JesseTG

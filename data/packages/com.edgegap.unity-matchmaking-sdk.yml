@@ -1,0 +1,22 @@
+name: com.edgegap.unity-matchmaking-sdk
+displayName: Edgegap Matchmaking SDK
+description: Get started quickly with Edgegap Matchmaking Matchmaking.
+repoUrl: https://github.com/edgegap/edgegap-unity-matchmaking-sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://framerusercontent.com/images/RsDRDCzWErgOEIkZqrChiZ9q3M.png
+topics:
+  - data-management
+  - parallelism-and-concurrency
+  - integration
+  - network
+  - services
+  - utilities
+  - version-control
+hunter: orcist
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763136536216

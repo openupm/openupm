@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/needle-tools/needle-console'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
   - editor-enhancement

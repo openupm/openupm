@@ -4,6 +4,7 @@ description: Open Cubism Components for Unity with Cubism Loader.
 repoUrl: https://github.com/grashaar/CubismUnityComponents-CubismLoader
 parentRepoUrl: https://github.com/Live2D/CubismUnityComponents
 licenseName: Live2D Open Software License
+licenseSpdxId: null
 topics:
 - animation
 hunter: grashaar

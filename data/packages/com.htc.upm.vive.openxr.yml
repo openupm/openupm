@@ -9,6 +9,7 @@ description: "The \"VIVE OpenXR Plugin\" package enables your application to run
 repoUrl: https://github.com/ViveSoftware/VIVE-OpenXR
 parentRepoUrl: null
 licenseName: Copyright 2017-2021, HTC Corporation. All rights reserved.
+licenseSpdxId: null
 image: ''
 topics:
 - integration

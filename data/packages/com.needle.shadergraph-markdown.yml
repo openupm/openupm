@@ -5,6 +5,7 @@ description: Markdown-like syntax for ShaderGraph properties, to make better mat
 repoUrl: https://github.com/needle-tools/shadergraph-markdown
 parentRepoUrl: null
 licenseName: Custom
+licenseSpdxId: null
 topics:
 - editor-enhancement
 - particles-and-effects

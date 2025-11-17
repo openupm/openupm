@@ -1,0 +1,18 @@
+name: com.revenuecat.purchases-ui-unity
+displayName: RevenueCat UI SDK for Unity
+description: >-
+  Unity UI components for RevenueCat Paywalls and Customer Center. Supports iOS
+  and Android.
+repoUrl: https://github.com/RevenueCat/purchases-unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+hunter: RevenueCat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 8.4.0
+readme: main:README.md
+createdAt: 1761209975056

@@ -1,0 +1,17 @@
+name: com.nelasystem.flux-console
+displayName: Flux Console
+description: A minimal runtime console.
+repoUrl: https://github.com/zacx-z/flux-console
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - testing
+  - utilities
+hunter: zacx-z
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763038922669

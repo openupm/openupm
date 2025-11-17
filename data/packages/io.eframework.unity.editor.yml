@@ -1,0 +1,16 @@
+name: io.eframework.unity.editor
+displayName: EFramework Editor for Unity
+description: "基于 Unity 编辑器的扩展工具库，提供了任务系统、配置管理、事件系统、快速构建等功能，用于提高开发效率。"
+repoUrl: https://github.com/eframework-io/Unity.Editor
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1761488411305

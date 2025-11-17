@@ -4,6 +4,7 @@ description: TinaX.I18N provides internationalization feature support for TinaX 
 repoUrl: https://github.com/yomunsam/TinaX.I18N
 parentRepoUrl: null
 licenseName: '"Anti 996" License Version 1.0'
+licenseSpdxId: null
 topics:
 - localization
 hunter: yomunsam

@@ -4,7 +4,7 @@ description: A helper to make docfx based document in Unity3D
 repoUrl: 'https://github.com/MacacaGames/UnityDocGenerator'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
 hunter: JesseTG

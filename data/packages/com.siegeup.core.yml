@@ -5,6 +5,7 @@ description: SiegeUp core module includes all base components for construction a
 repoUrl: https://github.com/SiegeUp/SiegeUp.Core
 parentRepoUrl: null
 licenseName: Abuksigun SiegeUp
+licenseSpdxId: null
 topics:
 - asset-management
 - frameworks

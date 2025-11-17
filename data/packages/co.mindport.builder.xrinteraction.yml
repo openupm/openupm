@@ -4,7 +4,7 @@ description: VR Builder default XR interaction component.
 repoUrl: 'https://github.com/MindPort-GmbH/VR-Builder-XR-Interaction-Component'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - ar-and-vr
   - visual-scripting

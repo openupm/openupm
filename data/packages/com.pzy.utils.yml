@@ -4,7 +4,7 @@ description: 提供常用类型的帮助方法
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: Peng-Zhiyuan

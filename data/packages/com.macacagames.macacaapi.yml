@@ -4,7 +4,7 @@ description: 'A native API wrapper to some iOS/Android feature e.g. AlertDialog,
 repoUrl: 'https://github.com/MacacaGames/MacacaAPI'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - mobile
   - services

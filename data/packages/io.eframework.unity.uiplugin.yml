@@ -1,0 +1,16 @@
+name: io.eframework.unity.uiplugin
+displayName: EFramework UIPlugin for Unity
+description: "基于 Unity UI 的拓展插件，提供了丰富的组件扩展和工具集，例如 TexturePacker 图集打包和循环列表视图等，能够有效简化 UI 开发流程。"
+repoUrl: https://github.com/eframework-io/Unity.UIPlugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1761488571415

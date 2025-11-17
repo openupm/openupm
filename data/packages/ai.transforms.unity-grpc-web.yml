@@ -4,7 +4,7 @@ description: 'Allows using https://github.com/grpc/grpc-dotnet/ with Unity WebGL
 repoUrl: 'https://github.com/transformsai/UnityGrpcWeb'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics: []
 hunter: ''
 gitTagPrefix: ''

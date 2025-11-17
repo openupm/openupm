@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/MacacaGames/DesignDataAgent'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
   - utilities

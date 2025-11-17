@@ -1,0 +1,25 @@
+name: com.digitraver.perspec
+displayName: PerSpec Testing Framework
+description: >-
+  Professional Unity TDD framework with UniTask async patterns, DOTS support,
+  and SQLite-based test coordination between Python and Unity. Features
+  intelligent console log capture, background test polling, and comprehensive
+  test execution management.
+repoUrl: https://github.com/thePostFuturist/PerSpec
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - asset-management
+  - code-generation
+  - editor-enhancement
+  - testing
+  - utilities
+hunter: thepostfuturist
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1760917532574

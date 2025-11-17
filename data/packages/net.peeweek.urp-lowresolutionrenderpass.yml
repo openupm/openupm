@@ -5,6 +5,7 @@ description: URP ScriptableRendererPass that enables rendering of transparent ob
 repoUrl: https://github.com/peeweek/net.peeweek.urp-lowresolutionrenderpass
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 image: ''
 topics:
 - particles-and-effects

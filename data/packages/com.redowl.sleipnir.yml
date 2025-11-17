@@ -4,7 +4,7 @@ description: A unity graph editor framework for unity that works with odin inspe
 repoUrl: 'https://github.com/red-owl-games/Sleipnir'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - visual-scripting
 hunter: JesseTG

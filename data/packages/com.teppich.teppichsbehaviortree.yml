@@ -4,7 +4,7 @@ description: A simple behavior tree agent intelligence.
 repoUrl: 'https://github.com/JohannesSpicker/TeppichsBehaviorTree'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - ai
 hunter: ''

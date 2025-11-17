@@ -4,7 +4,7 @@ description: Allows WebGL unity builds to make HttpRequests using Fetch
 repoUrl: 'https://github.com/transformsai/UnityWebGLHttpHandler'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics: []
 hunter: ''
 gitTagPrefix: ''

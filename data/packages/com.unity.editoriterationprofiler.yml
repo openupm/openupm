@@ -5,6 +5,7 @@ description: Assists in capturing frames from the Profiler of Domain Reloads in 
 repoUrl: https://github.com/Unity-Technologies/com.unity.editoriterationprofiler
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - debugging-and-logging
 - editor-enhancement

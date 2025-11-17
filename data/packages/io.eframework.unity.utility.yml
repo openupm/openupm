@@ -1,0 +1,16 @@
+name: io.eframework.unity.utility
+displayName: EFramework Utility for Unity
+description: "基于 Unity 的通用基础类库，集成了首选项管理、多任务调度、日志输出、事件系统与文件处理等核心模块。"
+repoUrl: https://github.com/eframework-io/Unity.Utility
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1761486117051

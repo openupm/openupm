@@ -197,6 +197,7 @@ scopes:
 - com.wayngroup.requirementworkflow
 - com.wayngroup.stm
 - com.didimo.sdk.assetfitter
+- com.justinpbarnett.unity-mcp
 
 # The packages that are deprecated by the author and the source repository may be still available
 # https://openupm.com/packages/com.miragenet.epic/
@@ -231,3 +232,37 @@ scopes:
 
 # https://github.com/openupm/openupm/issues/5785
 - com.gameframex
+
+# The packages that are deprecated by the author and the source repository is no longer available
+- ep.u3d.editor.arch
+- ep.u3d.editor.asset
+- ep.u3d.editor.atlas
+- ep.u3d.editor.audio
+- ep.u3d.editor.base
+- ep.u3d.editor.eeng
+- ep.u3d.editor.excel
+- ep.u3d.editor.ilr
+- ep.u3d.editor.lua
+- ep.u3d.editor.patch
+- ep.u3d.editor.plat
+- ep.u3d.editor.pref
+- ep.u3d.editor.prefab
+- ep.u3d.editor.proto
+- ep.u3d.editor.scene
+- ep.u3d.editor.sim
+- ep.u3d.library.asset
+- ep.u3d.library.audio
+- ep.u3d.library.base
+- ep.u3d.library.evt
+- ep.u3d.library.i18n
+- ep.u3d.library.ilr
+- ep.u3d.library.json
+- ep.u3d.library.lua
+- ep.u3d.library.net
+- ep.u3d.library.patch
+- ep.u3d.library.proto
+- ep.u3d.library.report
+- ep.u3d.library.scene
+- ep.u3d.library.ui
+- ep.u3d.runtime.ilr
+- ep.u3d.runtime.lua

@@ -4,6 +4,7 @@ description: Localization system for Unity3D.
 repoUrl: https://github.com/HouraiTeahouse/HouraiLocalization
 parentRepoUrl: null
 licenseName: Unknown
+licenseSpdxId: null
 topics:
 - localization
 hunter: JesseTG

@@ -1,0 +1,21 @@
+name: com.volumebox.gearbox
+displayName: Gearbox - Async State Machine
+description: A powerful, flexible state machine system for Unity with async/await support.
+repoUrl: https://github.com/GariestGary/Gearbox
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - frameworks
+  - gui
+  - parallelism-and-concurrency
+  - utilities
+hunter: GariestGary
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763121024210

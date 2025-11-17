@@ -3,7 +3,7 @@ displayName: SkiaSharp.FontSubset
 description: Implements font subset feature by SkiaSharp.
 repoUrl: https://github.com/iDreamsOfGame/SkiaSharp.FontSubset
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: MIT
 image: ''
 topics:

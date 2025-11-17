@@ -4,7 +4,7 @@ description: This asset allows users to view debug visuals for all raycast metho
 repoUrl: 'https://github.com/nomnomab/RaycastVisualization'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
   - physics

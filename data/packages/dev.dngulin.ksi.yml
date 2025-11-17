@@ -1,0 +1,18 @@
+name: dev.dngulin.ksi
+displayName: Ksi-Framework for Unity DOTS
+description: This package provides data oriented design framework for Unity DOTS
+repoUrl: https://github.com/dngulin/ksi
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://github.com/dngulin/ksi/raw/master/Documentation~/img/logo.png
+topics:
+  - code-generation
+  - dots-and-ecs
+  - frameworks
+hunter: dngulin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1763381084566

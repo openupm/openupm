@@ -1,0 +1,19 @@
+name: com.tech-cosmos.unitcore
+displayName: Unit Core
+description: >-
+  A modular, data-driven unit entity system for real-time strategy and tactical
+  games. Part of the Tech-Cosmos ecosystem for industrialized game content
+  creation.
+repoUrl: https://github.com/PeterParkers007/Tech-Cosmos.Component.UnitCore
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: PeterParkers007
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1761686293651

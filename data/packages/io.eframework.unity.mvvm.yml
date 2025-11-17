@@ -1,0 +1,16 @@
+name: io.eframework.unity.mvvm
+displayName: EFramework MVVM for Unity
+description: "专为 Unity 设计的模块化 MVVM 框架，解耦业务逻辑与视图，内置模块和场景管理。"
+repoUrl: https://github.com/eframework-io/Unity.MVVM
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: wellshsu
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1761488510925

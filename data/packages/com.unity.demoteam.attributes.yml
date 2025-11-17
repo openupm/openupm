@@ -4,6 +4,7 @@ description: Library of attributes common to packages in com.unity.demoteam.*
 repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.attributes
 parentRepoUrl: null
 licenseName: Unity Companion License
+licenseSpdxId: null
 topics:
 - particles-and-effects
 hunter: JesseTG

@@ -4,6 +4,7 @@ description: Theymes SDK for Unity
 repoUrl: https://github.com/theymes/theymes-unity-sdk
 parentRepoUrl: null
 licenseName: Theymes SDK for Unity
+licenseSpdxId: null
 image: ''
 topics:
 - ai

@@ -4,7 +4,7 @@ description: Simple and extensible event system implemented via ScriptableObject
 repoUrl: 'https://github.com/chark/scriptable-events'
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
   - utilities
