@@ -5,7 +5,7 @@ description: >-
   events, and UA attribution. Based on Meta's .unitypackage.
 repoUrl: https://github.com/LaCreArthur/facebook-unity-sdk-upm
 parentRepoUrl: null
-licenseSpdxId: 'Facebook Platform License'
+licenseSpdxId: null
 licenseName: Facebook Platform License
 image: ''
 topics:
