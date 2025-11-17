@@ -1,0 +1,20 @@
+name: com.lacrearthur.facebook-sdk-for-unity
+displayName: Facebook SDK for Unity (UPM Fork)
+description: >-
+  UPM fork of Facebook SDK for Unity v18.0.0. Supports login, sharing, app
+  events, and UA attribution. Based on Meta's .unitypackage.
+repoUrl: https://github.com/LaCreArthur/facebook-unity-sdk-upm
+parentRepoUrl: null
+licenseSpdxId: null
+licenseName: Facebook Platform License
+image: ''
+topics:
+  - integration
+  - mobile
+  - utilities
+hunter: LaCreArthur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1763380920310
