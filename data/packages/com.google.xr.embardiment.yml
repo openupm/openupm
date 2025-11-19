@@ -1,0 +1,23 @@
+name: com.google.xr.embardiment
+displayName: Embardiment
+description: >-
+  User-friendly Unity Package for adding AI functionality to Unity projects. 
+  Complete documentation available at the **[main Embardiment Github
+  repo](https://github.com/google/embardiment)**
+repoUrl: https://github.com/google/embardiment
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - ar-and-vr
+  - mobile
+  - network
+  - utilities
+hunter: albert
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763577161140
