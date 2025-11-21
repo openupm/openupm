@@ -1,0 +1,17 @@
+name: com.core-bell.custom-drawer
+displayName: Custom Drawer Toolkit
+description: A collection of useful custom property drawers for Unity.
+repoUrl: https://github.com/corle-bell/Unity3d-CustomDrawer
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: corle-bell
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1763711967913
