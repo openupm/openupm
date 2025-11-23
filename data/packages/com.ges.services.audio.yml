@@ -1,0 +1,18 @@
+name: com.ges.services.audio
+displayName: Tiny Service Audio
+description: Audio management system
+repoUrl: https://github.com/gestiran/TinyServiceAudio
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - services
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1763924455923
