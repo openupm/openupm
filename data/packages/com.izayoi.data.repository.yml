@@ -1,0 +1,18 @@
+name: com.izayoi.data.repository
+displayName: Izayoi.Data.Repository
+description: >-
+  This is a database operation repository infrastructure with CRUD
+  functionality.
+repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764070204118
