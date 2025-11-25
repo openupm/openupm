@@ -1,0 +1,16 @@
+name: com.izayoi.collections.observabletimestampeddictionary
+displayName: Izayoi.Collections.ObservableTimestampedDictionary
+description: This is a dictionary that records datetime when data is added.
+repoUrl: https://github.com/izayoijiichan/Izayoi.Collections
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764069691956
