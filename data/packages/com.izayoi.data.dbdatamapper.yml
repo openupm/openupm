@@ -1,0 +1,18 @@
+name: com.izayoi.data.dbdatamapper
+displayName: Izayoi.Data.DbDataMapper
+description: >-
+  This is a fast micro O/R mapper (ORM) that stores data retrieved from a DB
+  into any object.
+repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764069992884
