@@ -1,0 +1,16 @@
+name: com.izayoi.data.comparable
+displayName: Izayoi.Data.Comparable
+description: This is a collection of comparable objects.
+repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: izayoijiichan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764069803590
