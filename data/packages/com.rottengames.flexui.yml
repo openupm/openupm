@@ -1,0 +1,19 @@
+name: com.rottengames.flexui
+displayName: FlexUI
+description: >-
+  A simplified, declarative API for Unity UI Toolkit. Build UI faster with
+  intuitive builders, theming, and common patterns.
+repoUrl: https://github.com/Rotten-Games/FlexUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: enesunal-m
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764186948015
