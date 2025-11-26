@@ -1,0 +1,20 @@
+name: io.github.idreamsofgame.skiaforunity.standalone
+displayName: SkiaForUnity.Standalone
+description: >-
+  SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports.
+  Only support standalone and editor platforms.
+repoUrl: https://github.com/iDreamsOfGame/SkiaForUnity.Standalone
+parentRepoUrl: https://github.com/ammariqais/SkiaForUnity
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - painting
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764140109087
