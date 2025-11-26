@@ -1,0 +1,16 @@
+name: com.ges.services.loading
+displayName: Tiny Service Loading
+description: Scene loading controller system for unity game engine.
+repoUrl: https://github.com/gestiran/TinyServiceLoading
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: gestiran
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1764182356811
