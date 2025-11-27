@@ -1,0 +1,20 @@
+name: com.akiojin.unity.analyzers
+displayName: Unity Analyzers
+description: 'Roslyn Analyzer package that enforces Fail-Fast principle and Unity optimization rules. Detects GetComponent calls outside Awake/Start, forbidden Find methods in Update loops, and null guards after DI injection.'
+repoUrl: 'https://github.com/akiojin/unity-analyzers'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - analyzer
+  - roslyn
+  - fail-fast
+  - performance
+  - code-quality
+hunter: akiojin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.0'
+image: ''
+readme: 'main:README.md'
+createdAt: 1732667400000
