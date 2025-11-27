@@ -1,0 +1,20 @@
+name: com.heroiclabs.nakama-unity
+displayName: Nakama Unity
+description: Unity3D client for Nakama and Satori server written in C#.
+repoUrl: https://github.com/heroiclabs/nakama-unity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: Apache-2.0
+image: ''
+topics:
+  - frameworks
+  - integration
+  - network
+  - services
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/Nakama/README.md
+createdAt: 1764257455537
