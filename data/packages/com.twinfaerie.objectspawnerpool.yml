@@ -1,0 +1,16 @@
+name: com.twinfaerie.objectspawnerpool
+displayName: TwinFaerie Object-Spawner-Pool
+description: For standarize and easier system initialization on unity
+repoUrl: https://github.com/TwinFaerie/twinfaerie-objectspawnerpool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: CuteRogue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1764379033499
