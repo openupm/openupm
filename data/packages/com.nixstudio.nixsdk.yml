@@ -1,0 +1,17 @@
+name: com.nixstudio.nixsdk
+displayName: NIX SDK
+description: ''
+repoUrl: https://github.com/tien0702/com.nixstudio.nixsdk
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0
+image: ''
+topics:
+  - mobile
+  - utilities
+hunter: tientv.0702
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764504828780
