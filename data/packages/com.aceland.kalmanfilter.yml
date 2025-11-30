@@ -1,0 +1,21 @@
+name: com.aceland.kalmanfilter
+displayName: AceLand Kalman Filter
+description: >-
+  AceLand Kalman Filter is Math Model.
+
+
+  Please visit our [Git
+  Book](https://aceland-workshop.gitbook.io/aceland-unity-packages).
+repoUrl: https://github.com/parsue/com.aceland.kalmanfilter
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: parsue
+gitTagPrefix: com.aceland.
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1764463448128
