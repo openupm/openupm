@@ -1,3 +1,10 @@
+# [1.59.0](https://github.com/openupm/openupm/compare/1.58.3...1.59.0) (2025-12-01)
+
+
+### Features
+
+* **package:** add com.akiojin.unity.analyzers ([e1e26c1](https://github.com/openupm/openupm/commit/e1e26c148849632407157bccc2fcde5bf360b6e2))
+
 ## [1.58.3](https://github.com/openupm/openupm/compare/1.58.2...1.58.3) (2025-11-08)
 
 
