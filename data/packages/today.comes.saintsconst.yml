@@ -1,0 +1,16 @@
+name: today.comes.saintsconst
+displayName: SaintsConst
+description: A Unity plugin for const string of tags, layers, etc.
+repoUrl: https://github.com/TylerTemp/SaintsConst
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: TylerTemp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1764582835468
