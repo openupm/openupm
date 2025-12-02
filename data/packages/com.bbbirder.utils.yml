@@ -1,0 +1,16 @@
+name: com.bbbirder.utils
+displayName: Utils
+description: Common module for Unity project
+repoUrl: https://github.com/labbbirder/Utils
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: labbbirder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764686794897
