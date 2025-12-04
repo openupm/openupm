@@ -1,0 +1,16 @@
+name: com.yandex.mobileads.appmetrica.adrevenue.adapter
+displayName: AppMetrica AdRevenue Adapter
+description: AppMetrica adapter for AdRevenue auto collection.
+repoUrl: https://github.com/appmetrica/appmetrica-adrevenue-adapter-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kerradus
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1764843067227
