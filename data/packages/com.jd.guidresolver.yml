@@ -3,12 +3,12 @@ displayName: GUID Resolver
 description: >-
   Generate GUID to asset information mapping to be used for the browser
   extension 'Unity GUID Resolver'
-repoUrl: https://github.com/JohannesDeml/unity-guid-resolver
+repoUrl: https://github.com/JohannesDeml/guid-resolver-for-unity
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://raw.githubusercontent.com/JohannesDeml/unity-guid-resolver/main/docs/preview.png
+  https://raw.githubusercontent.com/JohannesDeml/guid-resolver-for-unity/main/docs/preview.png
 topics:
   - asset-management
   - editor-enhancement
