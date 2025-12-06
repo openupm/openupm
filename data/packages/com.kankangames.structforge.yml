@@ -17,6 +17,6 @@ topics:
 hunter: FurkanKirat
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.4.3'
 readme: main:README.md
 createdAt: 1764958753925
