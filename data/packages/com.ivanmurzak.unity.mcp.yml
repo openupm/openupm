@@ -12,6 +12,12 @@ topics:
   - ai
   - code-generation
   - editor-enhancement
+  - level-design
+  - utilities
+  - integration
+  - package-management
+  - testing
+  - frameworks
 hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''
