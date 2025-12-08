@@ -1,0 +1,18 @@
+name: com.fullmetalbagel.overlook-logging
+displayName: Overlook Logging (Microsoft.Extensions.Logging)
+description: >-
+  Microsoft.Extensions.Logging abstractions for Unity. Provides ILogger,
+  LogLevel, and LoggerMessage attribute for structured logging.
+repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: quabug
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.fullmetalbagel.overlook-logging/README.md
+createdAt: 1765081173082
