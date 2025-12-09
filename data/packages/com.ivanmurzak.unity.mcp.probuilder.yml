@@ -1,0 +1,22 @@
+name: com.ivanmurzak.unity.mcp.probuilder
+displayName: AI ProBuilder
+description: >-
+  MCP Tools for ProBuilder - Enhance your Unity projects with AI-powered
+  ProBuilder tools using the MCP framework.
+repoUrl: https://github.com/IvanMurzak/Unity-AI-ProBuilder
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://github.com/IvanMurzak/Unity-AI-ProBuilder/blob/main/docs/img/ai-probuilder-glitch.gif?raw=true
+topics:
+  - ai
+  - editor-enhancement
+  - level-design
+  - utilities
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1765288183878
