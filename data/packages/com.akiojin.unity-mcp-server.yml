@@ -12,7 +12,6 @@ image: ''
 topics:
   - ai
   - editor-enhancement
-  - integration
 hunter: akiojin
 gitTagPrefix: v
 gitTagIgnore: ''

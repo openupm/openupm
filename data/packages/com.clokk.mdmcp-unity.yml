@@ -10,9 +10,7 @@ licenseName: MIT License
 image: ''
 topics:
   - ai
-  - asset-management
   - code-generation
-  - testing
 hunter: clokk
 gitTagPrefix: ''
 gitTagIgnore: ''

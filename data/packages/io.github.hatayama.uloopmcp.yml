@@ -8,9 +8,6 @@ licenseName: MIT License
 image: ''
 topics:
   - ai
-  - integration
-  - testing
-  - utilities
 hunter: hatayama
 gitTagPrefix: ''
 gitTagIgnore: ''
