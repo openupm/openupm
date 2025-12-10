@@ -12,11 +12,6 @@ topics:
   - ai
   - code-generation
   - editor-enhancement
-  - integration
-  - network
-  - procedural-generation
-  - services
-  - utilities
 hunter: StephenHodgson
 gitTagPrefix: ''
 gitTagIgnore: ''
