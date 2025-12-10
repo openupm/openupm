@@ -1,0 +1,19 @@
+name: com.iraklichkuaseli.glimmer
+displayName: Glimmer
+description: >-
+  GPU-accelerated shimmer loading placeholders for Unity UI. Assign target
+  Graphics, creates animated shimmer overlays.
+repoUrl: https://github.com/irakli/glimmer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - particles-and-effects
+hunter: irakli
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1765366774226
