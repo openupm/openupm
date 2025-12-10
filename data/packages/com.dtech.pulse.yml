@@ -1,0 +1,16 @@
+name: com.dtech.pulse
+displayName: Pulse - Initialization System
+description: Initialization system for Unity.
+repoUrl: https://github.com/DanilChizhikov/pulse
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1765328340944
