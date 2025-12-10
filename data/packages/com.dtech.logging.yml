@@ -8,6 +8,7 @@ licenseName: MIT License
 image: ''
 topics:
   - utilities
+  - debugging-and-logging
 hunter: DanilChizhikov
 gitTagPrefix: ''
 gitTagIgnore: ''
