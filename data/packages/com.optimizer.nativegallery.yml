@@ -1,0 +1,19 @@
+name: com.optimizer.nativegallery
+displayName: Native Gallery
+description: >-
+  This plugin helps you save your images and/or videos to device Gallery on
+  Android and Photos on iOS. It is also possible to pick an image or video from
+  Gallery/Photos.
+repoUrl: https://github.com/phthai1992/UnityNativeGallery
+parentRepoUrl: https://github.com/yasirkula/UnityNativeGallery
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: phthai1992
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:.github/README.md
+createdAt: 1765441950812
