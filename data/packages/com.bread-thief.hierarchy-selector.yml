@@ -1,0 +1,21 @@
+name: com.bread-thief.hierarchy-selector
+displayName: Hierarchy Selector
+description: >-
+  Customize Unity hierarchy view with colors, icons, badges, gradients and text
+  formatting for better scene organization.
+repoUrl: https://github.com/bread-thief/hierarchy-selector
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: bread-thief
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1765530560918
