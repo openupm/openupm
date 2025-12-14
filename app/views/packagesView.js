@@ -1,5 +1,5 @@
 const express = require("express");
-const asyncHandler = require('express-async-handler')
+const asyncHandler = require('express-async-handler');
 
 const router = express.Router();
 var semver = require("semver");
@@ -38,23 +38,38 @@ router.get("/recent", asyncHandler(async function (req, res) {
  */
 router.get("/:name", asyncHandler(async function (req, res) {
   const packageName = req.params.name;
+
   // Get releases sorted by semver
   let releases = await Release.fetchAll(packageName);
   releases = releases.map(x => pick(x, releaseFields));
   releases.sort((a, b) => semver.rcompare(a["version"], b["version"]));
+
   // Get invalid tags
   let invalidTags = await PackageExtra.getInvalidTags(packageName);
   invalidTags = invalidTags.map(x => x.tag);
+
   // Get readme
   const readmeHtml = await PackageExtra.getReadmeHtml(packageName);
   const readmeHtml_zhCN = await PackageExtra.getReadmeHtml(
     packageName,
     "zh-CN"
   );
+
   // Get package scopes
   const scopes = await PackageExtra.getScopes(packageName);
+
+  // Get README sync time
+  const readmeSyncTime = await PackageExtra.getReadmeSyncTime(packageName);
+
   // Return as JSON
-  let data = { releases, invalidTags, readmeHtml, scopes, readmeHtml_zhCN };
+  let data = { 
+    releases, 
+    invalidTags, 
+    readmeHtml, 
+    scopes, 
+    readmeHtml_zhCN, 
+    readmeSyncTime 
+  };
   res.json(data);
 }));
 
