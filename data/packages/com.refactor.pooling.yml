@@ -1,0 +1,17 @@
+name: com.refactor.pooling
+displayName: Refactor Pooling
+description: "对象池."
+repoUrl: https://github.com/refactor-op/com.refactor.pooling
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: refactor-op
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1765707590528
