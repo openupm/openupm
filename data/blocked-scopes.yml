@@ -266,3 +266,9 @@ scopes:
 - ep.u3d.library.ui
 - ep.u3d.runtime.ilr
 - ep.u3d.runtime.lua
+
+# Requested by author
+- cn.refactor.gas
+- cn.refactor.pooling
+- cn.refactor.fsm
+
