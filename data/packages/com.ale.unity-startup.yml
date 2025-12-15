@@ -1,0 +1,19 @@
+name: com.ale.unity-startup
+displayName: Unity Startup Package Installer
+description: >-
+  A Unity tool for compiling and installing a collection of useful Unity
+  packages.
+repoUrl: https://github.com/alexandregaudencio/com.ale.unity-startup
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: none
+image: >-
+  https://github.com/alexandregaudencio/com.ale.unity-startup/blob/main/Resources/print.jpg?raw=true
+topics:
+  - utilities
+hunter: alexandregaudencio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1765798234549
