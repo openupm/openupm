@@ -1,0 +1,16 @@
+name: ch.fcbg.unity-parental-gate
+displayName: Parental Gate
+description: Parental gate sample for unity
+repoUrl: https://github.com/fcbg-platforms/UnityParentalGate
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+hunter: NathanA14
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:ParentalGatePackage/Packages/ch.fcbg.unity-parental-gate/README.md
+createdAt: 1766072848742
