@@ -1,0 +1,21 @@
+name: com.uralstech.uai.litertlm
+displayName: UAI.LiteRTLM
+description: >-
+  LiteRT-LM model inference support for Unity Android and Meta Quest apps.
+  Supports v0.8.0 of the LiteRT-LM Kotlin package for Android.
+repoUrl: https://github.com/Uralstech/UAI.LiteRTLM
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - ar-and-vr
+  - integration
+  - mobile
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1766189631876
