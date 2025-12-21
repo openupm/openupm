@@ -1,0 +1,21 @@
+name: com.palapalco.issue-console
+displayName: Palapal Issue Console
+description: >-
+  Lightweight Issue Console for capturing and resolving project-specific issues
+  inside the Unity Editor. Provides an API for other packages to report issues
+  and register auto-fix actions.
+repoUrl: https://github.com/Ario92/PalapalUnity
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - testing
+hunter: Ario92
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Dev:Packages/IssueConsole/README.md
+createdAt: 1766305073908
