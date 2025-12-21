@@ -1,0 +1,21 @@
+name: com.aceland.serialization
+displayName: AceLand Serialization
+description: >-
+  AceLand Serialization is a Unity package. 
+
+
+  Please visit our [Git
+  Book](https://aceland-workshop.gitbook.io/aceland-unity-packages).
+repoUrl: https://github.com/parsue/com.aceland.serialization
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1766290784801
