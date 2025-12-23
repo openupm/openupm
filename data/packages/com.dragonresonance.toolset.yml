@@ -1,0 +1,34 @@
+name: com.dragonresonance.toolset
+displayName: Dragon Resonance ToolSet
+description: ''
+repoUrl: https://github.com/dragonresonance/unity-toolset
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - 2d
+  - ai
+  - animation
+  - audio
+  - camera
+  - data-management
+  - debugging-and-logging
+  - gui
+  - particles-and-effects
+  - input-management
+  - integration
+  - localization
+  - mobile
+  - network
+  - procedural-generation
+  - physics
+  - services
+  - utilities
+  - video
+hunter: davidtabernerom
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1766449375614
