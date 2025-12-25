@@ -17,4 +17,6 @@ config/local.js
 fixtures/fixtures.json
 data/media
 data/openupm-data
+data/packages-downloads/
+data/packages-releases/
 yarn-error.log
