@@ -1,0 +1,22 @@
+name: com.wallstop-studios.unity-helpers
+displayName: Unity Helpers
+description: Various Unity Helper Library
+repoUrl: https://github.com/wallstop/unity-helpers
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - parallelism-and-concurrency
+  - utilities
+hunter: wallstop
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1766644761384
