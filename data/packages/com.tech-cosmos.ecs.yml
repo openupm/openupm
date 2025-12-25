@@ -1,5 +1,5 @@
-name: com.techcosmos.ecs
-displayName: TechCosmos ECS Framework
+name: com.tech-cosmos.ecs
+displayName: Tech-Cosmos ECS Framework
 description: "é«\x98æ\x80§è\x83½ Entity-Component-System æ¡\x86æ\x9E¶ï¼\x8Cä¸\x93ä¸º Unity æ¸¸æ\x88\x8Få¼\x80å\x8F\x91è®¾è®¡ï¼\x8Cæ\x94¯æ\x8C\x81æ\x95°æ\x8D®é©±å\x8A¨æ\x9E¶æ\x9E\x84å\x92\x8Cé«\x98æ\x95\x88å\x86\Nå­\x98ç®¡ç\x90\x86"
 repoUrl: https://github.com/PeterParkers007/Tech-Cosmos.Framework.ECS
 parentRepoUrl: null
