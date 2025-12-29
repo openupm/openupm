@@ -1,0 +1,17 @@
+name: co.balancy.unity-addressables
+displayName: Balancy Addressables
+description: Addressables module for Balancy, that comes with CDN and hosting.
+repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_addressables
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+hunter: pavelbalancy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767028448700
