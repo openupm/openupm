@@ -1,0 +1,16 @@
+name: today.comes.saintshierarchy
+displayName: SaintsHierarchy
+description: Unity Hierarchy enhancement
+repoUrl: https://github.com/TylerTemp/SaintsHierarchy
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+    - editor-enhancement
+hunter: TylerTemp
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1766992089000
