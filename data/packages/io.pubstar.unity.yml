@@ -1,0 +1,18 @@
+name: io.pubstar.unity
+displayName: PubStar SDK
+description: Ads SDK for Unity (iOS/Android).
+repoUrl: https://github.com/pubstar-io/PubStar-Unity-SDK
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://www.tqcsolution.com/_next/image?url=%2Fassets%2Fimages%2Flogo-TQC.png&w=128&q=75
+topics:
+  - mobile
+  - services
+hunter: Elon-Nguyen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767082436774
