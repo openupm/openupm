@@ -1,0 +1,16 @@
+name: com.github.kurobon.simple_scroll
+displayName: SimpleScroll
+description: SimpleScroll
+repoUrl: https://github.com/kurobon-jp/SimpleScroll
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: kurobon-jp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767236323332
