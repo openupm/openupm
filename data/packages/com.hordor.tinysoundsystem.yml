@@ -1,0 +1,16 @@
+name: com.hordor.tinysoundsystem
+displayName: Tiny Sound System
+description: Reusable audio manager for Unity projects.
+repoUrl: https://github.com/HordorSok/com.hordor.tinysoundsystem
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - audio
+hunter: HordorSok
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767379142569
