@@ -1,0 +1,16 @@
+name: com.github.kurobon.smart_debugger
+displayName: SmartDebugger
+description: SmartDebugger
+repoUrl: https://github.com/kurobon-jp/SmartDebugger
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+hunter: kurobon-jp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767322983798
