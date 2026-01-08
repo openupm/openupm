@@ -1,0 +1,16 @@
+name: com.azathrix.mini-panda
+displayName: Mini Panda
+description: 一个适用于unity的纯c#的解释语言，交互友好
+repoUrl: https://github.com/azathrix/MiniPanda
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: https://github.com/azathrix/MiniPanda/blob/main/public/logo.png?raw=true
+topics:
+  - utilities
+hunter: azathrix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767871480530
