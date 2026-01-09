@@ -1,9 +1,8 @@
 name: extensions.unity.playerprefsex
 displayName: PlayerPrefsEx
 description: >-
-  Lightweight package with optimized advanced version of PlayerPrefs. Under the
-  hood it uses the same PlayerPrefs system, but creates flexible wrapper for
-  default system.
+  Lightweight package with variables, custom data model support and optional encryption.
+  Under the hood it uses the same PlayerPrefs system, but creates flexible wrapper on top.
 repoUrl: 'https://github.com/IvanMurzak/Unity-PlayerPrefsEx'
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -15,8 +14,8 @@ hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: ''
-readme: 'upm:README.md'
+image: 'https://github.com/IvanMurzak/Unity-PlayerPrefsEx/raw/main/docs/img/PlayerPrefsEx-banner.jpg'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
