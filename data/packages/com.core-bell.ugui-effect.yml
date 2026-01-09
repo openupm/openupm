@@ -11,7 +11,7 @@ topics:
   - gui
   - utilities
 hunter: corle-bell
-gitTagPrefix: corle-bell
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
