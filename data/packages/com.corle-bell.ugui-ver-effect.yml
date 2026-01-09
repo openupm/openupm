@@ -1,0 +1,19 @@
+name: com.corle-bell.ugui-ver-effect
+displayName: UGUI Effect
+description: UGUI Vertex Effect
+repoUrl: https://github.com/corle-bell/UGUIEffect
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - gui
+  - mobile
+  - utilities
+hunter: corle-bell
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1767945724603
