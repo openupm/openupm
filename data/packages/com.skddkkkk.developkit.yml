@@ -1,0 +1,16 @@
+name: com.skddkkkk.developkit
+displayName: DevelopKit
+description: 개발 편의 패키지들을 제공합니다
+repoUrl: https://github.com/Parkjung2016/DevelopKit
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: open source
+image: ''
+topics:
+  - utilities
+hunter: Parkjung2016
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1768038585454
