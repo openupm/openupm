@@ -3,7 +3,7 @@ displayName: EMIL Timers
 description: High-performance, memory-safe fluent timer system for Unity.
 repoUrl: https://github.com/damienzemanek/EMILtimers
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT License
 image: ''
 topics:
