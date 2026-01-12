@@ -3,8 +3,8 @@ displayName: DxMessaging
 description: Synchronous Event Bus for Unity
 repoUrl: https://github.com/wallstop/DxMessaging
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - data-management
