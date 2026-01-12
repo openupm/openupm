@@ -1,0 +1,20 @@
+name: com.robproductions.visualterrain
+displayName: Visual Terrain
+description: An open source node-based Terrain generator for Unity.
+repoUrl: https://github.com/RobProductions/VisualTerrain
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/RobProductions/VisualTerrain/refs/heads/main/Documentation%7E/DocAssets/LogoImage.jpg
+topics:
+  - editor-enhancement
+  - level-design
+  - procedural-generation
+  - terrain
+hunter: RobProductions
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1768187116687
