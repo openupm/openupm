@@ -1,0 +1,20 @@
+name: com.elfinik.burst-trace
+displayName: Burst Trace
+description: High-performance, zero-allocation stack trace logger for Unity Mono/DOTS, Burst, and Jobs. Safely capture call chains in multithreaded code.
+repoUrl: 'https://github.com/Elfinik/burst-trace'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/Elfinik/burst-trace/main/Documentation~/Images/Header.png'
+topics:
+  - dots-and-ecs
+  - debugging-and-logging
+  - editor-enhancement
+  - profiling
+  - testing
+  - utilities
+hunter: Elfinik
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'main:README.md'
