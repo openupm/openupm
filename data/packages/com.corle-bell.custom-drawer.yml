@@ -3,8 +3,8 @@ displayName: Custom Drawer Toolkit
 description: A collection of useful custom property drawers for Unity.
 repoUrl: https://github.com/corle-bell/Unity3d-CustomDrawer
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - editor-enhancement
