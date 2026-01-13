@@ -14,7 +14,7 @@ topics:
   - testing
   - utilities
 hunter: Elfinik
-gitTagPrefix: ''
+gitTagPrefix: 'v'
 gitTagIgnore: ''
 minVersion: ''
 readme: 'main:README.md'
