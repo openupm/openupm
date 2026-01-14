@@ -1,0 +1,20 @@
+name: com.moroshka.type-analyzer
+displayName: Moroshka.TypeAnalyzer
+description: >-
+  `TypeAnalyzer` is a tool for analyzing type structures. It provides the
+  ability to extract information about constructors, methods, properties, and
+  fields of a given type. This tool is useful when working with reflection,
+  where you need to dynamically examine types at runtime.
+repoUrl: https://github.com/moroshka-dev/moroshka-type-analyzer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1768418324561
