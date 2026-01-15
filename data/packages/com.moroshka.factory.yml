@@ -1,0 +1,19 @@
+name: com.moroshka.factory
+displayName: Moroshka.Factory
+description: >-
+  Factory is a set of interfaces and implementations of the Factory pattern for
+  creating objects via factory functions. It supports both typed and untyped
+  variants.
+repoUrl: https://github.com/moroshka-dev/moroshka-factory
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1768509327906
