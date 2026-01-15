@@ -1,0 +1,30 @@
+name: com.melchart.mbus
+displayName: MBus - a lightweight message bus
+description: >-
+  MBus is a message bus system for Unity that allows you to communicate between
+  different components of your game using messages that are classes or structs. 
+
+
+  You can use MBus to send and subscribe to messages of any type, and easily
+  manage the lifetime of your subscriptions. You can either manually subscribe
+  and unsubscribe to messages, or use the scope feature to automatically
+  unsubscribe when a MonoBehaviour is destroyed or disabled. 
+
+
+  MBus is lightweight, fast and easy to use, and it helps you keep your code
+  clean and decoupled.
+repoUrl: https://github.com/PMelch/MBus
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/PMelch/my-assets/refs/heads/main/mbus_cover.png
+topics:
+  - data-management
+  - utilities
+hunter: PMelch
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1768497191031
