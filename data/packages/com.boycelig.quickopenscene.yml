@@ -1,0 +1,16 @@
+name: com.boycelig.quickopenscene
+displayName: Quick Open Scene
+description: "此工具为方便Unity工程内有很多场景并且在不同位置，更方便的场景集合切换工具。"
+repoUrl: https://github.com/BoyceLig/QuickOpenScene
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: BoyceLig
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1768709422403
