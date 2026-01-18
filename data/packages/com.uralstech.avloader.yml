@@ -1,0 +1,18 @@
+name: com.uralstech.avloader
+displayName: AvLoader
+description: >-
+  Unity framework for loading 3D avatars of different formats and sources at
+  runtime, currently supports glTF and VRM.
+repoUrl: https://github.com/Uralstech/AvLoader
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+hunter: Uralstech
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1768777176943
