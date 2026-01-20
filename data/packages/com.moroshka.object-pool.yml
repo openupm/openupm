@@ -1,0 +1,20 @@
+name: com.moroshka.object-pool
+displayName: Moroshka.ObjectPool
+description: >-
+  Object Pool — the module provides a mechanism for reusing objects, reducing
+  the overhead of creating and destroying them. It is designed to improve
+  performance and enable more efficient resource management, especially in
+  scenarios where object creation is expensive or occurs frequently.
+repoUrl: https://github.com/moroshka-dev/moroshka-object-pool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1768941369584
