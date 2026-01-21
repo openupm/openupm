@@ -1,0 +1,19 @@
+name: com.moroshka.instance-provider
+displayName: Moroshka.InstanceProvider
+description: >-
+  `InstanceProvider` is designed to manage a single instance of an object. It
+  ensures that the instance will be properly disposed of if it implements the
+  `IDisposable` interface.
+repoUrl: https://github.com/moroshka-dev/motoshka-instance-provider
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1769024241906
