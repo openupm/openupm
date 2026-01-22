@@ -1,0 +1,19 @@
+name: com.licenseseat.sdk
+displayName: LicenseSeat
+description: >-
+  Add license keys to your Unity game. Activation, validation, 
+  entitlements, and offline mode. Pure C# implementation.
+repoUrl: https://github.com/licenseseat/licenseseat-csharp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://assets.rameerez.com/licenseseat/licenseseat-og.jpg
+topics:
+  - integration
+  - services
+hunter: rameerez
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.3.0
+readme: main:README.md
+createdAt: 1769045258887
