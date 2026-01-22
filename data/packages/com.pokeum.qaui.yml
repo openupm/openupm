@@ -1,0 +1,17 @@
+name: com.pokeum.qaui
+displayName: QAUI
+description: A lightweight Unity UI SDK focused on code-driven QA UIs.
+repoUrl: https://github.com/pokeum/QAUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - gui
+hunter: pokeum
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1769082425362
