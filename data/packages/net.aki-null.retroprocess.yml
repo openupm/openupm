@@ -1,0 +1,18 @@
+name: net.aki-null.retroprocess
+displayName: RetroProcess
+description: Retro LCD mono post-processing effect for Universal Render Pipeline (URP).
+repoUrl: https://github.com/aki-null/RetroProcess
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - particles-and-effects
+  - video
+hunter: aki-null
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1769255647778
