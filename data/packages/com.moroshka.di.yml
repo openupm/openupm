@@ -1,0 +1,20 @@
+name: com.moroshka.di
+displayName: Moroshka.Di
+description: >-
+  The DI module contains the DiContainer. DiContainer is a dependency injection
+  (DI) container that helps manage object creation and their dependencies. In
+  this guide, you will learn how to configure the container, bind types, resolve
+  dependencies, and manage their lifecycle.
+repoUrl: https://github.com/moroshka-dev/moroshka-di
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1769452545636
