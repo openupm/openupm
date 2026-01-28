@@ -4,7 +4,7 @@ description: >-
   Bootstrap provides a single entry point for application initialization,
   allowing code execution at all stages of the Unity lifecycle from subsystem
   registration to scene loading.
-repoUrl: https://github.com/epishev-m/moroshka-bootstrap
+repoUrl: https://github.com/moroshka-dev/moroshka-bootstrap
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
