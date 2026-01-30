@@ -1,0 +1,19 @@
+name: io.level3.phoenixsharp
+displayName: PhoenixSharp
+description: >-
+  C# Phoenix Channels client for real-time communication with Phoenix (Elixir)
+  servers. Supports automatic reconnection, presence tracking, and pluggable
+  websocket/serializer implementations.
+repoUrl: https://github.com/Mazyod/PhoenixSharp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: Mazyod
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.0
+readme: master:README.md
+createdAt: 1769772690445
