@@ -1,0 +1,21 @@
+name: com.moroshka.derived-types
+displayName: Moroshka.DerivedTypes
+description: >-
+  Derived Types allows serialization of System.Type for the Unity inspector. It
+  appears as a dropdown list in the Unity inspector. The list contains an
+  enumeration of types inherited from the specified base type, while excluding
+  the current file from the list.
+repoUrl: https://github.com/moroshka-dev/moroshka-derived-types
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+hunter: epishev-m
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:.github/README.md
+createdAt: 1769783676156
