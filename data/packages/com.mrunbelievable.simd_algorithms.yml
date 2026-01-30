@@ -1,0 +1,17 @@
+name: com.mrunbelievable.simd_algorithms
+displayName: SIMD Algorithms
+description: A collection of hand optimized SIMD versions of common array algorithms.
+repoUrl: https://github.com/MrUnbelievable92/SIMD-Algorithms
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1769792984348
