@@ -1,0 +1,18 @@
+name: com.mrunbelievable.csharpdevtools
+displayName: C Sharp Dev Tools
+description: >-
+  C Sharp Dev Tools is a small framework for defensive development with
+  conditionally compiled assertions and logging tools.
+repoUrl: https://github.com/MrUnbelievable92/C-Sharp-Dev-Tools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1769792898864
