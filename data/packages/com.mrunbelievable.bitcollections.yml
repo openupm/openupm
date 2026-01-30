@@ -1,0 +1,20 @@
+name: com.mrunbelievable.bitcollections
+displayName: Bit Collections
+description: >-
+  Bit Collections is all about saving as much RAM and/or network bandwidth as
+  possible, by providing array value types of single bits, aswell as array value
+  types of signed- and unsigned integers with a given number of bits.
+repoUrl: https://github.com/MrUnbelievable92/Bit-Collections
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - dots-and-ecs
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1769793041310
