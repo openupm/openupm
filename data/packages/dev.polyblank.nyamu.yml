@@ -1,0 +1,20 @@
+name: dev.polyblank.nyamu
+displayName: Nyamu
+description: >-
+  Minimal MCP server for Unity designed to give coding agents a tool to check
+  script compilation
+repoUrl: https://github.com/polyblank66/Nyamu
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/polyblank66/Nyamu/main/cover.png
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+hunter: polyblank66
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1769965385669
