@@ -1,0 +1,20 @@
+name: com.bigdra50.unity-bridge
+displayName: Unity Bridge
+description: >-
+  Bridge client enabling CLI and automation tools to control Unity Editor via
+  TCP
+repoUrl: https://github.com/bigdra50/unity-cli
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - debugging-and-logging
+  - utilities
+hunter: bigdra50
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 3.0.0
+readme: main:README.md
+createdAt: 1770036322346
