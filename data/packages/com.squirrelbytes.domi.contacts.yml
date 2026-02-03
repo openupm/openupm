@@ -1,0 +1,16 @@
+name: com.squirrelbytes.domi.contacts
+displayName: Domi Contacts
+description: "Domi Contacts is a subset of features for Domi Nodes involcving optimized collision systems\n\nNetworked node-based authority and physics graph for Unity.\r\n\r\nProvides a deterministic graph system to synchronize ownership, authority transfer, and physical interactions across multiplayer clients. Objects are represented as nodes connected by typed relationships, enabling stable authority resolution, lockable ownership, and conflict-free state propagation.\r\n\r\nWhat Dominode is used for: <b>(WIP)</b>\r\n▪ Decoupling authority logic from Netcode implementations\r\n▪ Deterministic ownership resolution via graph traversal\r\n▪ Built-in support for grabs, attachments, contacts, and custom interaction reasons\r\n▪ Predictable authority stealing with optional protection locks\r\n▪ Designed for multiplayer physics and complex object hierarchies\r\n▪ Extensible API for custom node handles and interaction semantics\r\n▪ Debug visualization tools compatible with both desktop and VR environments\n\n<b>//Currently supporting</b>\n▪ Currently suporting efficient Rigidbody contact pair api"
+repoUrl: https://github.com/Extrys/DomiContacts
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - physics
+hunter: Extrys
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1770129201782
