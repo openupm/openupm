@@ -1,0 +1,22 @@
+name: com.slushyrh.unityexternalconsole
+displayName: Unity External Console
+description: >-
+  A lightweight external CMD console for Unity that mirrors the Debug Logging in
+  real-time, featuring automatic injection and a settings menu. Perfect for
+  off-screen debugging in multi-monitor environments.
+repoUrl: https://github.com/SlushyRH/Unity-External-Console
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/SlushyRH/Unity-External-Console/blob/main/Documentation~/Showcase.gif?raw=true
+topics:
+  - debugging-and-logging
+  - profiling
+  - utilities
+hunter: SlushyRH
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1770091678844
