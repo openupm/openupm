@@ -14,6 +14,6 @@ topics:
 hunter: BernatRosello
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.0.1'
 readme: upm:README.md
 createdAt: 1770223865576
