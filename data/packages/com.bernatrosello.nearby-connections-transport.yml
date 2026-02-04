@@ -1,0 +1,19 @@
+name: com.bernatrosello.nearby-connections-transport
+displayName: Nearby Connections Transport
+description: >-
+  A custom transport implementation with Nearby Connections for Unity Netcode
+  for GameObjects.
+repoUrl: https://github.com/BernatRosello/Unity-NearbyConnections-Transport
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+  - network
+hunter: BernatRosello
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1770223865576
