@@ -13,7 +13,7 @@ topics:
   - utilities
 hunter: JasonXuDeveloper
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '-(alpha|beta|rc)\.'
 minVersion: ''
 readme: main:README.md
 createdAt: 1731484055162
