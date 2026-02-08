@@ -3,7 +3,8 @@ displayName: GenJson
 description: >-
   GenJson is a zero-allocation, high-performance C# Source Generator library
   that automatically creates ToJson() and FromJson() methods for your classes
-  and structs.repoUrl: https://github.com/PereViader/OpenUPM
+  and structs.
+repoUrl: https://github.com/PereViader/OpenUPM
 parentRepoUrl: https://github.com/PereViader/GenJson
 licenseName: MIT License
 licenseSpdxId: MIT
