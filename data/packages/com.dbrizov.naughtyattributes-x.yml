@@ -1,0 +1,16 @@
+name: com.dbrizov.naughtyattributes-x
+displayName: NaughtyAttributes-Next
+description: NaughtyAttributes is an extension for the Unity Inspector.
+repoUrl: https://github.com/HastingsYoung/NaughtyAttributes-X
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: wintbiit
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1770566720858
