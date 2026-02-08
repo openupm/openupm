@@ -1,8 +1,7 @@
 name: dev.polyblank.nyamu
-displayName: Nyamu
+displayName: Nyamu — Unity MCP Server
 description: >-
-  Minimal MCP server for Unity designed to give coding agents a tool to check
-  script compilation
+  Minimal MCP server for Unity, designed to reliably check script compilation
 repoUrl: https://github.com/polyblank66/Nyamu
 parentRepoUrl: null
 licenseSpdxId: MIT
