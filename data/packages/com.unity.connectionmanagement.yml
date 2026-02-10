@@ -1,0 +1,22 @@
+name: com.unity.connectionmanagement
+displayName: Unity Connection Management
+description: >-
+  A connection management system for Unity Multiplayer projects using Netcode
+  for GameObjects. Provides a state-machine-based connection flow supporting
+  direct IP and Unity Relay connections, with built-in reconnection, session
+  management, and connection approval.
+repoUrl: https://github.com/nour-nonsense/Connection-System
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - network
+  - utilities
+hunter: nour-nonsense
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1770715765399
