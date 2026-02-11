@@ -1,3 +1,10 @@
+# [1.60.0](https://github.com/openupm/openupm/compare/1.59.0...1.60.0) (2026-02-11)
+
+
+### Features
+
+* Update package location and add new package ([#6300](https://github.com/openupm/openupm/issues/6300)) ([fbf1321](https://github.com/openupm/openupm/commit/fbf1321b6c6b9bc42498d5040da234ef2cf4e133))
+
 # [1.59.0](https://github.com/openupm/openupm/compare/1.58.3...1.59.0) (2025-12-01)
 
 
