@@ -11,6 +11,6 @@ topics:
 hunter: JianjianGit
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.1.1'
 readme: main:README.md
 createdAt: 1770880351087
