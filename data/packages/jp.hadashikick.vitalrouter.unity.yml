@@ -1,0 +1,18 @@
+name: jp.hadashikick.vitalrouter.unity
+displayName: VitalRouter.Unity
+description: >-
+  The source-generator powered zero-allocation in-memory message passing library
+  for Unity and .NET.
+repoUrl: https://github.com/hadashiA/VitalRouter
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Lowfeye
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.1.0
+readme: main:README.md
+createdAt: 1770969060401
