@@ -1,0 +1,22 @@
+name: com.techdigga.easy-ump
+displayName: Easy UMP
+description: >-
+  Unity wrapper around Google's User Messaging Platform (Android + iOS) with
+  EDM4U dependencies.
+repoUrl: https://github.com/techdigga/easy-ump
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT
+image: https://raw.githubusercontent.com/techdigga/easy-ump/main/Editor/Resources/easy-ump-icon.png
+topics:
+  - data-management
+  - integration
+  - mobile
+  - services
+  - utilities
+hunter: techdigga
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1771006643376
