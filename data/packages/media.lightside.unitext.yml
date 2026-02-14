@@ -1,0 +1,19 @@
+name: media.lightside.unitext
+displayName: UniText
+description: >-
+  Professional Unicode text rendering for Unity with full RTL support, HarfBuzz
+  shaping, and extensible markup system.
+repoUrl: https://github.com/LightSideMeowshop/unitext
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - gui
+hunter: LightSideMeowshop
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 1.0.0:README.md
+createdAt: 1771049758365
