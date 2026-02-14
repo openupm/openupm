@@ -1,0 +1,16 @@
+name: com.audune.utils.random
+displayName: Random Numbers
+description: Seeded random number generator for Unity 2022 LTS or higher.
+repoUrl: https://github.com/audunegames/random-numbers
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0
+image: ''
+topics:
+  - utilities
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1771075911485
