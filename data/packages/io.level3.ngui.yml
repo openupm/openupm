@@ -1,0 +1,19 @@
+name: io.level3.ngui
+displayName: 'NGUI: Next-Gen UI'
+description: >-
+  NGUI is a UI system for Unity, originally created by Tasharen Entertainment in
+  2011. This is a community-maintained fork.
+repoUrl: https://github.com/Mazyod/ngui
+parentRepoUrl: https://github.com/tasharen/ngui
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - gui
+hunter: Mazyod
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1771156709696
