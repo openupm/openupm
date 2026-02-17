@@ -1,0 +1,20 @@
+name: com.akiojin.unity-cli-bridge
+displayName: Unity CLI Bridge
+description: >-
+  Unity Editor bridge package for unity-cli automation (screenshots,
+  video capture, scene analysis, input automation).
+repoUrl: https://github.com/akiojin/unity-cli
+packagePath: UnityCliBridge/Packages/unity-cli-bridge
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+hunter: akiojin
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:UnityCliBridge/Packages/unity-cli-bridge/docs/README.md
+createdAt: 1739808000000
