@@ -12,8 +12,6 @@ image: ''
 topics:
   - ai
   - editor-enhancement
-  - cli
-  - automation
 hunter: akiojin
 gitTagPrefix: v
 gitTagIgnore: ''
