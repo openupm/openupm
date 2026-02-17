@@ -1,3 +1,10 @@
+## [1.60.1](https://github.com/openupm/openupm/compare/1.60.0...1.60.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* use valid OpenUPM topics (ai, editor-enhancement) ([1baf932](https://github.com/openupm/openupm/commit/1baf932313bbbc32a49631163eac9866fb7c3b78))
+
 # [1.60.0](https://github.com/openupm/openupm/compare/1.59.0...1.60.0) (2026-02-11)
 
 
