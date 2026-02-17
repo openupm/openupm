@@ -1,0 +1,19 @@
+# Framewerk UI - Views, Mediators, Popups, Lists
+name: com.dyskotron.framewerk.ui
+displayName: Framewerk UI
+description: UI components including Views, Mediators, Popups, Lists, AssetManager, and ViewConfig.
+repoUrl: 'https://github.com/dyskotron/Framewerk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - framework
+  - ui
+  - mvcs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0-preview.2'
+image: ''
+imageFit: cover
+readme: 'feature/framewerk2.0:README.md'
+hunter: hex-clawd
