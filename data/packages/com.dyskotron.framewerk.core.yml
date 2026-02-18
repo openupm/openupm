@@ -1,0 +1,19 @@
+# Framewerk Core - Pure .NET IoC, Signals, Commands, Promises
+name: com.dyskotron.framewerk.core
+displayName: Framewerk Core
+description: Core package with IoC container, Signals, Commands, and Promises. Pure .NET with no Unity dependencies.
+repoUrl: 'https://github.com/dyskotron/Framewerk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0-preview.2'
+image: ''
+imageFit: cover
+readme: 'feature/framewerk2.0:README.md'
+hunter: hex-clawd
+topics:
+  - frameworks
+  - utilities
+createdAt: 1739843100000

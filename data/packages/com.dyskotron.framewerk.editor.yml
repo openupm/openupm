@@ -1,0 +1,19 @@
+# Framewerk Editor - Wizards, scaffolding, code generation
+name: com.dyskotron.framewerk.editor
+displayName: Framewerk Editor
+description: Editor tools including wizards, scaffolding, and code generation utilities.
+repoUrl: 'https://github.com/dyskotron/Framewerk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0-preview.2'
+image: ''
+imageFit: cover
+readme: 'feature/framewerk2.0:README.md'
+hunter: hex-clawd
+topics:
+  - frameworks
+  - editor-enhancement
+createdAt: 1739843100000

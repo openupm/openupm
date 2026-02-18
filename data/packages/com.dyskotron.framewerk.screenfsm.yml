@@ -1,0 +1,19 @@
+# Framewerk ScreenFSM - Screen-based state machine
+name: com.dyskotron.framewerk.screenfsm
+displayName: Framewerk ScreenFSM
+description: Screen-based finite state machine for application state and view management.
+repoUrl: 'https://github.com/dyskotron/Framewerk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0-preview.2'
+image: ''
+imageFit: cover
+readme: 'feature/framewerk2.0:README.md'
+hunter: hex-clawd
+topics:
+  - frameworks
+  - ai
+createdAt: 1739843100000
