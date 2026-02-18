@@ -6,10 +6,6 @@ repoUrl: 'https://github.com/dyskotron/Framewerk'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-topics:
-  - framework
-  - dependency-injection
-  - architecture
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '2.0.0-preview.2'
@@ -17,4 +13,7 @@ image: ''
 imageFit: cover
 readme: 'feature/framewerk2.0:README.md'
 hunter: hex-clawd
-createdAt: 1771383438000
+topics:
+  - frameworks
+  - utilities
+createdAt: 1739843100000
