@@ -20,3 +20,4 @@ data/openupm-data
 data/packages-downloads/
 data/packages-releases/
 yarn-error.log
+*.log
