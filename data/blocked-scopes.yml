@@ -231,8 +231,8 @@ scopes:
 - co.pokeum.upm
 
 # The packages that are deprecated by the author and the source repository is no longer available
-- com.tdw
-- com.uurha
+- ^com.tdw
+- ^com.uurha
 
 # https://github.com/openupm/openupm/issues/5785
 - com.gameframex
