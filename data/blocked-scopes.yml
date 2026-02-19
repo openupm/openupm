@@ -233,7 +233,7 @@ scopes:
 - co.pokeum.upm
 
 # https://github.com/openupm/openupm/issues/5785
-- com.gameframex
+- ^com.gameframex
 
 # The packages that are deprecated by the author and the source repository is no longer available
 - ep.u3d.editor.arch
@@ -273,4 +273,3 @@ scopes:
 - cn.refactor.gas
 - cn.refactor.pooling
 - cn.refactor.fsm
-
