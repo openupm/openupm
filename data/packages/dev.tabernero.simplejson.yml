@@ -1,6 +1,6 @@
 name: dev.tabernero.simplejson
-displayName: SimpleJSON
-description: A simple JSON parser in C#
+displayName: SimpleJSON for Unity
+description: A simple JSON parser for Unity.
 repoUrl: https://github.com/davidtabernerom/unity-simplejson
 parentRepoUrl: https://github.com/Bunny83/SimpleJSON
 licenseSpdxId: MIT
