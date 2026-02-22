@@ -1,0 +1,22 @@
+name: com.natteens.pluginputpack
+displayName: Plug Input Pack
+description: >-
+  A reusable package that simplifies the setup and usage of the Unity Input
+  System, helping you avoid repetitive code and get your inputs running quickly
+  in any project.
+repoUrl: https://github.com/Natteens/com.natteens.pluginputpack
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/Natteens/com.natteens.pluginputpack/blob/main/Editor/UI/PlugIputIcon.png?raw=true
+topics:
+  - debugging-and-logging
+  - gui
+  - input-management
+hunter: Natteens
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1771731730794
