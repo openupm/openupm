@@ -1,12 +1,14 @@
-name: com.maellacour.eyaplibrary
+name: com.maellacour.eyap-library
 displayName: Eyap Library
 description: My library of common tools and methods for my unity projects.
-repoUrl: https://github.com/Eyap53/eyap-library
+repoUrl: https://github.com/maellacour/eyap-library
 parentRepoUrl: null
 licenseName: Mozilla Public License 2.0
 licenseSpdxId: MPL-2.0
 topics:
 - utilities
+- library
+- random
 hunter: Eyap53
 gitTagPrefix: ''
 gitTagIgnore: ''
