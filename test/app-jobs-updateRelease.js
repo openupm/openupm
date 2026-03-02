@@ -5,6 +5,7 @@ const should = require("should");
 const redis = require("../app/db/redis");
 
 const Release = require("../app/models/release");
+const { ReleaseReason } = require("../app/common/constant");
 const { updateRelease } = require("../app/jobs/updateRelease");
 
 describe("app/jobs/updateRelease.js", function() {
@@ -38,7 +39,7 @@ describe("app/jobs/updateRelease.js", function() {
         state: 1,
       });
 
-      await updateRelease("sample-package", "1.0.0", "reason", "0").should.be
+      await updateRelease("sample-package", "1.0.0", "buildId", "0").should.be
         .rejected();
     });
 
@@ -50,6 +51,37 @@ describe("app/jobs/updateRelease.js", function() {
       });
 
       await updateRelease("sample-package", "1.0.0", "state", "99").should.be
+        .rejected();
+    });
+
+    it("updates reason", async function() {
+      await Release.save({
+        packageName: "sample-package",
+        version: "1.0.0",
+        state: 3,
+        reason: 0,
+      });
+
+      await updateRelease(
+        "sample-package",
+        "1.0.0",
+        "reason",
+        `${ReleaseReason.LfsBudgetExceeded.value}`
+      );
+
+      const rel = await Release.fetchOne("sample-package", "1.0.0");
+      rel.reason.should.equal(ReleaseReason.LfsBudgetExceeded.value);
+    });
+
+    it("rejects unsupported reason value", async function() {
+      await Release.save({
+        packageName: "sample-package",
+        version: "1.0.0",
+        state: 3,
+        reason: 0,
+      });
+
+      await updateRelease("sample-package", "1.0.0", "reason", "999").should.be
         .rejected();
     });
   });
