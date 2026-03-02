@@ -1,3 +1,10 @@
+## [1.60.2](https://github.com/openupm/openupm/compare/1.60.1...1.60.2) (2026-03-02)
+
+
+### Bug Fixes
+
+* **jobs:** add non-retryable LFS budget release reason ([1465b54](https://github.com/openupm/openupm/commit/1465b5452d8b9e75c8090f431a6418a7a8319d95))
+
 ## [1.60.1](https://github.com/openupm/openupm/compare/1.60.0...1.60.1) (2026-02-17)
 
 
