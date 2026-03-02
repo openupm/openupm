@@ -1,3 +1,11 @@
+## [1.60.3](https://github.com/openupm/openupm/compare/1.60.2...1.60.3) (2026-03-02)
+
+
+### Bug Fixes
+
+* **jobs:** add release filter CLI ([1873bab](https://github.com/openupm/openupm/commit/1873bab7998138229b46f584873db02904a84fcf))
+* **jobs:** add release update CLI ([bf98ed1](https://github.com/openupm/openupm/commit/bf98ed17253df4c82a51977557756accb4940d16))
+
 ## [1.60.2](https://github.com/openupm/openupm/compare/1.60.1...1.60.2) (2026-03-02)
 
 
