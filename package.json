@@ -18,6 +18,7 @@
     "pkg:check": "node ./app/jobs/checkPackage.js",
     "pkg:fetch-extra": "node ./app/jobs/fetchPackageExtra.js",
     "rel:remove": "node ./app/jobs/removeRelease.js",
+    "rel:update": "node ./app/jobs/updateRelease.js",
     "server": "cross-env REDIS_ENABLE_OFFLINE_QUEUE=false node server.js",
     "server:dev": "cross-env REDIS_ENABLE_OFFLINE_QUEUE=false nodemon --watch app server.js",
     "semantic-release": "semantic-release",
