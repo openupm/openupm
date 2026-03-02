@@ -5,7 +5,10 @@ const should = require("should");
 const rewire = require("rewire");
 
 const buildReleaseModule = rewire("../app/jobs/buildRelease");
-const { ReleaseReason } = require("../app/common/constant");
+const {
+  ReleaseReason,
+  RetryableReleaseReason,
+} = require("../app/common/constant");
 const getReasonFromBuildLogText = buildReleaseModule.__get__(
   "getReasonFromBuildLogText"
 );
@@ -104,6 +107,13 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
       getReasonFromBuildLogText(
         "fatal: clone of 'https://github.com/some-submodule-repo' into submodule path"
       ).should.equal(ReleaseReason.RemoteSubmoduleUnavailable);
+    });
+    it("LfsBudgetExceeded", function() {
+      getReasonFromBuildLogText(
+        "batch response: This repository exceeded its LFS budget. The account responsible for the budget should increase it to restore access."
+      ).should.equal(ReleaseReason.LfsBudgetExceeded);
+      RetryableReleaseReason.includes(ReleaseReason.LfsBudgetExceeded).should
+        .be.false();
     });
   });
 });

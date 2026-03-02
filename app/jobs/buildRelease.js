@@ -219,6 +219,8 @@ const getReasonFromBuildLogText = function(text) {
     text.includes("JavaScript heap out of memory")
   )
     return ReleaseReason.HeapOutOfMemroy;
+  else if (text.includes("This repository exceeded its LFS budget"))
+    return ReleaseReason.LfsBudgetExceeded;
   else if (text.includes("Invalid version") || text.includes("code EBADSEMVER"))
     return ReleaseReason.InvalidVersion;
   else if (text.includes("Could not read from remote repository"))

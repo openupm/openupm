@@ -57,6 +57,8 @@ const ReleaseReason = new Enum({
   ConnectionTimeout: 900,
   // Connection timeout
   HeapOutOfMemroy: 901,
+  // Repository exceeded its Git LFS budget
+  LfsBudgetExceeded: 902,
 });
 
 /* Release reasons that considered as the failure of build service. The
