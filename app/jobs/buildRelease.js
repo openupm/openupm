@@ -193,6 +193,16 @@ const getFullBuildLogText = async function(release) {
 
 // Get the failure reason from the full build log text.
 const getReasonFromBuildLogText = function(text) {
+  if (
+    text.includes("npm publish") &&
+    /(^|\n)>\s+.+@\S+\s+(prepublishOnly|prepack|prepare|postpack|publish|postpublish)\s*($|\n)/m.test(
+      text
+    ) &&
+    /npm error command failed|sh:\s+\d+:\s+.+:\s+not found|Error: Cannot find module/m.test(
+      text
+    )
+  )
+    return ReleaseReason.NpmHookError;
   if (/fatal: Remote branch .* not found/.test(text))
     return ReleaseReason.RemoteBranchNotFound;
   else if (text.includes("code E409")) return ReleaseReason.VersionConflict;

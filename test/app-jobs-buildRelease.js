@@ -108,6 +108,32 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
         "fatal: clone of 'https://github.com/some-submodule-repo' into submodule path"
       ).should.equal(ReleaseReason.RemoteSubmoduleUnavailable);
     });
+    it("NpmHookError", function() {
+      getReasonFromBuildLogText(`; "publishConfig" from /home/vsts/work/1/s/repo/package.json
+registry = "https://package.***.com"
+/opt/hostedtoolcache/node/22.22.0/x64/bin/npm publish --tag=patch-3.0.0 --registry=https://package.***.com
+sh: 1: markdownlint: not found
+
+npm error code 127
+npm error path /home/vsts/work/1/s/repo
+> com.wallstop-studios.unity-helpers@3.0.0 prepublishOnly
+npm error command failed
+npm error command sh -c npm run validate:content`).should.equal(
+        ReleaseReason.NpmHookError
+      );
+
+      getReasonFromBuildLogText(`; cwd = /home/vsts/work/1/s/repo
+/opt/hostedtoolcache/node/22.22.0/x64/bin/npm publish --tag=patch-1.0.51 --registry=https://package.***.com
+Error: Cannot find module '/home/vsts/work/1/s/repo/Scripts/sync-versions.js'
+> com.indiegabo.hms-unity-sdk@1.0.51 prepare
+> node ./Scripts/sync-versions.js
+npm error code 1
+npm error path /home/vsts/work/1/s/repo
+npm error command failed`).should.equal(ReleaseReason.NpmHookError);
+
+      RetryableReleaseReason.includes(ReleaseReason.NpmHookError).should.be
+        .false();
+    });
     it("SubmoduleFetchingError", function() {
       getReasonFromBuildLogText(
         "fatal: Fetched in submodule path 'ext/iOS/sdk', but it did not contain 875b462e73a2619f4a834bf5a009ed760d4789bd.\nDirect fetching of that commit failed."
