@@ -50,12 +50,24 @@ if (require.main === module) {
   let fieldVal = null;
   let valueVal = null;
   program
+    .description("Update a release field for a package version.")
+    .usage("<packageName> <version> <field> <value>")
     .arguments("<packageName> <version> [field] [value]")
     .action(function(packageName, version, field, value) {
       packageNameVal = packageName;
       versionVal = version;
       fieldVal = field;
       valueVal = value;
+    })
+    .on("--help", function() {
+      console.log("");
+      console.log("Supported fields:");
+      console.log("  state   ReleaseState value (0-3)");
+      console.log("  reason  ReleaseReason value (for example 902)");
+      console.log("");
+      console.log("Examples:");
+      console.log("  $ npm run rel:update -- com.example.app 1.5.0 state 3");
+      console.log("  $ npm run rel:update -- com.example.app 1.5.0 reason 902");
     })
     .parse(process.argv)
     .requiredArgs(2)

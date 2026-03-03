@@ -3,41 +3,83 @@
 const semver = require("semver");
 const redis = require("../db/redis");
 const Release = require("../models/release");
-const { ReleaseState } = require("../common/constant");
+const { ReleaseState, ReleaseReason } = require("../common/constant");
 
 const validStateValues = ReleaseState.enums.map(item => item.value);
+const validReasonValues = ReleaseReason.enums.map(item => item.value);
+const filterSpecs = {
+  state: {
+    key: "stateFilter",
+    validValues: validStateValues,
+    allowNotEqual: false,
+  },
+  reason: {
+    key: "reasonFilter",
+    validValues: validReasonValues,
+    allowNotEqual: false,
+  },
+};
 
-const parseStateFilter = function(arg) {
-  const match = /^state(!=|=)(-?\d+)$/.exec(arg);
+const parseFilterToken = function(arg) {
+  const match = /^([a-zA-Z][a-zA-Z0-9_-]*)(!?=)(-?\d+)$/.exec(arg);
   if (!match) return null;
 
-  const operator = match[1];
-  const value = Number.parseInt(match[2], 10);
-  if (!validStateValues.includes(value))
-    throw new Error(`unsupported state value: ${value}`);
+  const field = match[1];
+  const operator = match[2];
+  const value = Number.parseInt(match[3], 10);
+  const spec = filterSpecs[field];
+  if (!spec) throw new Error(`unsupported filter field: ${field}`);
+  if (operator === "!=" && !spec.allowNotEqual)
+    throw new Error(`${field} filter only supports equality`);
+  if (!spec.validValues.includes(value))
+    throw new Error(`unsupported ${field} value: ${value}`);
 
-  return { operator, value };
+  return {
+    field,
+    key: spec.key,
+    filter: { value },
+  };
+};
+
+const parseStateFilter = function(arg) {
+  const parsed = parseFilterToken(arg);
+  if (!parsed || parsed.field !== "state") return null;
+  return parsed.filter;
+};
+
+const parseReasonFilter = function(arg) {
+  const parsed = parseFilterToken(arg);
+  if (!parsed || parsed.field !== "reason") return null;
+  return parsed.filter;
 };
 
 const parseFilterArgs = function(args) {
-  if (!args.length || args.length > 2)
-    throw new Error("expected one or two filters");
+  if (!args.length || args.length > 3)
+    throw new Error("expected one to three filters");
 
   let packageName = null;
   let stateFilter = null;
+  let reasonFilter = null;
 
   for (const arg of args) {
-    const parsedState = parseStateFilter(arg);
-    if (parsedState) {
-      if (stateFilter) throw new Error("state filter specified more than once");
-      stateFilter = parsedState;
+    const parsedFilter = parseFilterToken(arg);
+    if (parsedFilter) {
+      if (parsedFilter.key === "stateFilter") {
+        if (stateFilter)
+          throw new Error("state filter specified more than once");
+        stateFilter = parsedFilter.filter;
+      } else if (parsedFilter.key === "reasonFilter") {
+        if (reasonFilter)
+          throw new Error("reason filter specified more than once");
+        reasonFilter = parsedFilter.filter;
+      }
     } else {
       if (packageName) throw new Error("package name specified more than once");
       packageName = arg;
     }
   }
 
-  return { packageName, stateFilter };
+  return { packageName, stateFilter, reasonFilter };
 };
 
 const fetchAllReleases = async function() {
@@ -62,8 +104,12 @@ const fetchAllReleases = async function() {
 
 const matchStateFilter = function(release, stateFilter) {
   if (!stateFilter) return true;
-  if (stateFilter.operator === "=") return release.state === stateFilter.value;
-  return release.state !== stateFilter.value;
+  return release.state === stateFilter.value;
+};
+
+const matchReasonFilter = function(release, reasonFilter) {
+  if (!reasonFilter) return true;
+  return release.reason === reasonFilter.value;
 };
 
 const sortReleases = function(releases) {
@@ -74,16 +120,25 @@ const sortReleases = function(releases) {
   });
 };
 
-const filterReleases = async function({ packageName = null, stateFilter = null }) {
+const filterReleases = async function({
+  packageName = null,
+  stateFilter = null,
+  reasonFilter = null,
+}) {
   const releases = packageName
     ? await Release.fetchAll(packageName)
     : await fetchAllReleases();
 
-  return sortReleases(releases.filter(x => matchStateFilter(x, stateFilter)));
+  return sortReleases(
+    releases.filter(
+      x => matchStateFilter(x, stateFilter) && matchReasonFilter(x, reasonFilter)
+    )
+  );
 };
 
 module.exports = {
   parseStateFilter,
+  parseReasonFilter,
   parseFilterArgs,
   fetchAllReleases,
   filterReleases,
@@ -93,9 +148,24 @@ if (require.main === module) {
   const program = require("../utils/commander");
   let filters = [];
   program
+    .description("List releases filtered by package name, state, and reason.")
+    .usage("<filter> [filter] [filter]")
     .arguments("[filters...]")
     .action(function(args) {
       filters = args;
+    })
+    .on("--help", function() {
+      console.log("");
+      console.log("Supported filters:");
+      console.log("  packageName    Optional package name");
+      console.log("  state=VALUE    Match ReleaseState exactly");
+      console.log("  reason=VALUE   Match ReleaseReason exactly");
+      console.log("");
+      console.log("Examples:");
+      console.log("  $ npm run rel:filter -- com.example.app");
+      console.log("  $ npm run rel:filter -- state=0");
+      console.log("  $ npm run rel:filter -- reason=902");
+      console.log("  $ npm run rel:filter -- com.example.app state=3 reason=902");
     })
     .parse(process.argv)
     .run(async function() {
