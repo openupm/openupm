@@ -1,3 +1,10 @@
+## [1.60.8](https://github.com/openupm/openupm/compare/1.60.7...1.60.8) (2026-03-03)
+
+
+### Bug Fixes
+
+* **jobs:** classify timestamped npm hook failures ([5bc7378](https://github.com/openupm/openupm/commit/5bc7378636ea2a580b6c8b6cfd01a6cedba8ca59))
+
 ## [1.60.7](https://github.com/openupm/openupm/compare/1.60.6...1.60.7) (2026-03-03)
 
 
