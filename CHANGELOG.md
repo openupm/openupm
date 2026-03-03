@@ -1,3 +1,10 @@
+## [1.60.7](https://github.com/openupm/openupm/compare/1.60.6...1.60.7) (2026-03-03)
+
+
+### Bug Fixes
+
+* **jobs:** add npm hook release failure reason ([721328b](https://github.com/openupm/openupm/commit/721328b0c60814922d516e0cc8331fc470c9ebd4))
+
 ## [1.60.6](https://github.com/openupm/openupm/compare/1.60.5...1.60.6) (2026-03-03)
 
 
