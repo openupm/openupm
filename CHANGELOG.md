@@ -1,3 +1,11 @@
+## [1.60.4](https://github.com/openupm/openupm/compare/1.60.3...1.60.4) (2026-03-03)
+
+
+### Bug Fixes
+
+* **jobs:** refine release filter and help output ([b09a4ae](https://github.com/openupm/openupm/commit/b09a4ae19f41c848db3201b3616356e6b8c5b98c))
+* **jobs:** support release reason updates ([2f7f347](https://github.com/openupm/openupm/commit/2f7f347f2afac2738976dfe2cbc58861481c4a18))
+
 ## [1.60.3](https://github.com/openupm/openupm/compare/1.60.2...1.60.3) (2026-03-02)
 
 
