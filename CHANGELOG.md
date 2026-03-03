@@ -1,3 +1,10 @@
+## [1.60.5](https://github.com/openupm/openupm/compare/1.60.4...1.60.5) (2026-03-03)
+
+
+### Bug Fixes
+
+* add release reason for missing git lfs object ([d0ecf76](https://github.com/openupm/openupm/commit/d0ecf7677563ed61355477f2d0b9a80b8c3a149d))
+
 ## [1.60.4](https://github.com/openupm/openupm/compare/1.60.3...1.60.4) (2026-03-03)
 
 
