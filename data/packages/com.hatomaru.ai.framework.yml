@@ -5,7 +5,7 @@ repoUrl: https://github.com/hatomaru/AIDrivenFramework
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: https://raw.githubusercontent.com/hatomaru/AIDrivenFramework/main/Banner.png
+image: https://raw.githubusercontent.com/hatomaru/AIDrivenFramework/main/Docs/Banner.png
 topics:
   - ai
   - frameworks
