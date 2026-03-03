@@ -53,6 +53,8 @@ const ReleaseReason = new Enum({
   RemoteRepositoryUnavailable: 807,
   // Fatal clone
   RemoteSubmoduleUnavailable: 808,
+  // Submodule fetch failed
+  SubmoduleFetchingError: 809,
   // Connection timeout
   ConnectionTimeout: 900,
   // Connection timeout

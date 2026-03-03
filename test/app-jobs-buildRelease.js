@@ -108,6 +108,16 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
         "fatal: clone of 'https://github.com/some-submodule-repo' into submodule path"
       ).should.equal(ReleaseReason.RemoteSubmoduleUnavailable);
     });
+    it("SubmoduleFetchingError", function() {
+      getReasonFromBuildLogText(
+        "fatal: Fetched in submodule path 'ext/iOS/sdk', but it did not contain 875b462e73a2619f4a834bf5a009ed760d4789bd.\nDirect fetching of that commit failed."
+      ).should.equal(ReleaseReason.SubmoduleFetchingError);
+      getReasonFromBuildLogText(
+        "fatal: remote error: upload-pack: not our ref 875b462e73a2619f4a834bf5a009ed760d4789bd"
+      ).should.not.equal(ReleaseReason.SubmoduleFetchingError);
+      RetryableReleaseReason.includes(ReleaseReason.SubmoduleFetchingError)
+        .should.be.false();
+    });
     it("LfsBudgetExceeded", function() {
       getReasonFromBuildLogText(
         "batch response: This repository exceeded its LFS budget. The account responsible for the budget should increase it to restore access."
