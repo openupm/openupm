@@ -131,6 +131,14 @@ npm error code 1
 npm error path /home/vsts/work/1/s/repo
 npm error command failed`).should.equal(ReleaseReason.NpmHookError);
 
+      getReasonFromBuildLogText(
+        `2026-03-03T08:58:50.3385328Z [command]/opt/hostedtoolcache/node/22.22.0/x64/bin/npm publish --tag=patch-1.0.50 --registry=https://package.***.com
+2026-03-03T08:58:50.7023120Z Error: Cannot find module '/home/vsts/work/1/s/repo/Scripts/sync-versions.js'
+2026-03-03T08:58:50.7029535Z npm error command failed
+2026-03-03T08:58:50.7031936Z > com.indiegabo.hms-unity-sdk@1.0.50 prepare
+2026-03-03T08:58:50.7032669Z > node ./Scripts/sync-versions.js`
+      ).should.equal(ReleaseReason.NpmHookError);
+
       RetryableReleaseReason.includes(ReleaseReason.NpmHookError).should.be
         .false();
     });
