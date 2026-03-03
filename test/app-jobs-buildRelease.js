@@ -115,5 +115,12 @@ fatal: Remote branch 4.7.1a not found in upstream origin`).should.equal(
       RetryableReleaseReason.includes(ReleaseReason.LfsBudgetExceeded).should
         .be.false();
     });
+    it("LfsObjectNotFound", function() {
+      getReasonFromBuildLogText(
+        "Error downloading object: Assets/NuGet/Editor/NugetForUnity.dll (f595479): Smudge error: Error downloading Assets/NuGet/Editor/NugetForUnity.dll (f595479f6c5d0a3b5f6b909f3b8c48d158cace088f0b0f2a091b5234911e8beb): [f595479f6c5d0a3b5f6b909f3b8c48d158cace088f0b0f2a091b5234911e8beb] Object does not exist on the server: [404] Object does not exist on the server"
+      ).should.equal(ReleaseReason.LfsObjectNotFound);
+      RetryableReleaseReason.includes(ReleaseReason.LfsObjectNotFound).should
+        .be.false();
+    });
   });
 });

@@ -59,6 +59,8 @@ const ReleaseReason = new Enum({
   HeapOutOfMemroy: 901,
   // Repository exceeded its Git LFS budget
   LfsBudgetExceeded: 902,
+  // Git LFS object is missing from the remote server
+  LfsObjectNotFound: 903,
 });
 
 /* Release reasons that considered as the failure of build service. The

@@ -221,6 +221,8 @@ const getReasonFromBuildLogText = function(text) {
     return ReleaseReason.HeapOutOfMemroy;
   else if (text.includes("This repository exceeded its LFS budget"))
     return ReleaseReason.LfsBudgetExceeded;
+  else if (text.includes("Object does not exist on the server"))
+    return ReleaseReason.LfsObjectNotFound;
   else if (text.includes("Invalid version") || text.includes("code EBADSEMVER"))
     return ReleaseReason.InvalidVersion;
   else if (text.includes("Could not read from remote repository"))
