@@ -1,3 +1,10 @@
+## [1.60.6](https://github.com/openupm/openupm/compare/1.60.5...1.60.6) (2026-03-03)
+
+
+### Bug Fixes
+
+* **jobs:** classify submodule fetching failures ([05a933e](https://github.com/openupm/openupm/commit/05a933eb7c12102f5cb34b94f6cf38080f2e9fde))
+
 ## [1.60.5](https://github.com/openupm/openupm/compare/1.60.4...1.60.5) (2026-03-03)
 
 
