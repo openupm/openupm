@@ -1,0 +1,17 @@
+name: jp.andantetribe.debugtoolkit
+displayName: Debug Toolkit
+description: A toolkit for debugging and profiling Unity applications.
+repoUrl: https://github.com/AndanteTribe/DebugToolkit
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - gui
+hunter: AndanteTribe
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772591428615
