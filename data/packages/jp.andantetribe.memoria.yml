@@ -1,0 +1,16 @@
+name: jp.andantetribe.memoria
+displayName: Memoria
+description: Client-side .NET implementation for managing PlayFab rankings and scores.
+repoUrl: https://github.com/AndanteTribe/Memoria
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: K-1873
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772591366742
