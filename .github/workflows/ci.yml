@@ -18,3 +18,17 @@ jobs:
       run: npm install
     - name: npm test
       run: npm test
+
+  build-website:
+    runs-on: ubuntu-latest
+    needs: validate-data
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm'
+    steps:
+      - uses: convictional/trigger-workflow-and-wait@v1.6.5
+        with:
+          owner: openupm
+          repo: openupm-next
+          github_token: ${{ secrets.WORKFLOW_DISPATCH_ACCESS_TOKEN }}
+          workflow_file_name: ci.yml
+          ref: main
+          wait_workflow: false
