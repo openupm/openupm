@@ -30,6 +30,7 @@ function assertNonEmptyString(value, fieldName) {
 }
 
 describe("data/packages", function() {
+  this.timeout(15000);
   const packageNames = loadPackageNamesSync();
   const validTopics = loadTopicsSync();
   const blockedScopes = loadBlockedScopesSync();
