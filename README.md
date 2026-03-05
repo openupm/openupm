@@ -20,11 +20,3 @@ or run only the validation target:
 ```bash
 npm run test:data
 ```
-
-## Runtime ownership
-
-Application/runtime services have moved to `openupm-next`:
-
-- web app: `openupm-next/apps/web`
-- operational jobs: `openupm-next/apps/jobs`
-- build queue services: `openupm-next/apps/queue`
