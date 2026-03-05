@@ -1,24 +1,21 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 const fs = require("fs");
-const assert = require("assert");
 const path = require("path");
 const should = require("should");
-const rewire = require("rewire");
 const { isString } = require("lodash/lang");
-const redis = require("../app/db/redis");
 const spdx = require("spdx-license-list");
 const yaml = require("js-yaml");
 const {
-  loadPackageNames,
+  loadPackageNamesSync,
   loadPackageSync,
-  loadTopics,
-  loadBlockedScopes,
+  loadTopicsSync,
+  loadBlockedScopesSync,
   dataDir,
   packagesDir,
-  isValidPackageName
-} = require("../app/utils/package");
-const { isPackageBlockedByScope } = require("../app/common/utils");
+  isValidPackageName,
+  isPackageBlockedByScope
+} = require("../scripts/data-validator");
 
 const knownInvalidNames = [];
 
@@ -32,10 +29,10 @@ function assertNonEmptyString(value, fieldName) {
   );
 }
 
-describe("data/packages", async function() {
-  const packageNames = await loadPackageNames();
-  const validTopics = await loadTopics();
-  const blockedScopes = await loadBlockedScopes();
+describe("data/packages", function() {
+  const packageNames = loadPackageNamesSync();
+  const validTopics = loadTopicsSync();
+  const blockedScopes = loadBlockedScopesSync();
   describe("verify packages", function() {
     for (const packageName of packageNames) {
       it("verify format: " + packageName, async function() {
