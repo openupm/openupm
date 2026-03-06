@@ -1,0 +1,16 @@
+name: jp.andantetribe.unityextensions
+displayName: Unity Extensions
+description: "Extension methods for Unityâ\x80\x99s core components and types."
+repoUrl: https://github.com/AndanteTribe/UnityExtensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772812528870
