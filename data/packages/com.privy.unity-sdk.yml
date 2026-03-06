@@ -1,0 +1,17 @@
+name: com.privy.unity-sdk
+displayName: Privy SDK
+description: Privy Unity SDK for authentication and embedded wallet functionality.
+repoUrl: https://github.com/privy-io/unity-sdk
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+hunter: andreydobrikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:SDK/README.md
+createdAt: 1772834348613
