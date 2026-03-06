@@ -1,0 +1,17 @@
+name: me.freedee.text-fx
+displayName: TextFx
+description: A TextMeshPro text animation system that enables character-level control.
+repoUrl: https://github.com/kay-af/TextFx
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/kay-af/TextFx/main/Preview.png
+topics:
+  - animation
+  - gui
+hunter: kay-af
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772824417073
