@@ -1,0 +1,21 @@
+name: com.homelessskin.core
+displayName: Core
+description: Core Util Library.
+repoUrl: https://github.com/HomelessSkin/com.homelessskin.core
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - debugging-and-logging
+  - dots-and-ecs
+  - frameworks
+  - parallelism-and-concurrency
+  - utilities
+hunter: HomelessSkin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772877854748
