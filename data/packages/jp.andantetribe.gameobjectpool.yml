@@ -1,0 +1,16 @@
+name: jp.andantetribe.gameobjectpool
+displayName: GameObjectPool
+description: Async-friendly GameObject pool for Unity.
+repoUrl: https://github.com/AndanteTribe/GameObjectPool
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772901890913
