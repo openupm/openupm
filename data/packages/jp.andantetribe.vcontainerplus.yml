@@ -5,7 +5,7 @@ repoUrl: https://github.com/AndanteTribe/VContainerPlus
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: kochounoyume
+image: ''
 topics:
   - utilities
 hunter: kochounoyume
