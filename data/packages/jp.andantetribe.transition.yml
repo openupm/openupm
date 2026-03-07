@@ -1,0 +1,16 @@
+name: jp.andantetribe.transition
+displayName: Transition
+description: Scene transition system built on Addressables.
+repoUrl: https://github.com/AndanteTribe/Transition
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772897414397
