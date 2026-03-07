@@ -1,0 +1,19 @@
+name: com.homelessskin.ui
+displayName: UI
+description: UI base classes Library.
+repoUrl: https://github.com/HomelessSkin/com.homelessskin.ui
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+  - localization
+  - utilities
+hunter: HomelessSkin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772882151720
