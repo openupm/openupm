@@ -1,0 +1,16 @@
+name: jp.andantetribe.unitaskplus
+displayName: UniTask Plus
+description: Additional utilities and extensions for UniTask.
+repoUrl: https://github.com/AndanteTribe/UniTaskPlus
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772870901982
