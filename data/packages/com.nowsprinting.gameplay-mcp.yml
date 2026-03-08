@@ -1,0 +1,19 @@
+name: com.nowsprinting.gameplay-mcp
+displayName: Gameplay MCP
+description: >-
+  Model context protocol (MCP) server for gameplay. Provides tools that AI
+  models play your game via the MCP by embedding in your runtime (player build).
+repoUrl: https://github.com/nowsprinting/gameplay-mcp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - testing
+hunter: nowsprinting
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1772941015262
