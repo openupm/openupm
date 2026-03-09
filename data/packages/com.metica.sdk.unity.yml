@@ -1,0 +1,20 @@
+name: com.metica.sdk.unity
+displayName: Metica SDK
+description: Metica SDK for Unity
+repoUrl: https://github.com/yuri468/upm_test
+parentRepoUrl: null
+licenseSpdxId: ISC
+licenseName: ISC License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - mobile
+  - services
+  - utilities
+hunter: yuri468
+gitTagPrefix: com.metica.sdk.unity
+gitTagIgnore: ''
+minVersion: 2.2.5
+readme: main:packages/com.metica.sdk.unity/README.md
+createdAt: 1773058462009
