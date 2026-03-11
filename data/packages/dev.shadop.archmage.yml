@@ -1,0 +1,22 @@
+name: dev.shadop.archmage
+displayName: Archmage
+description: >-
+  This is the runtime library for the [Archmage](https://archmage.shadop.dev/)
+  game configuration system, which loads and manages configurations from JSON
+  files with support for i18n, cross-table references, durations, and layered
+  overrides.
+repoUrl: https://github.com/shadowopera/sdk-cs
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - code-generation
+  - data-management
+  - localization
+hunter: shadowopera
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: v0.1.0
+readme: main:unity/dev.shadop.archmage/README.md
+createdAt: 1773245725715
