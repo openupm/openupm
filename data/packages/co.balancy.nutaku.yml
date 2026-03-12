@@ -3,7 +3,7 @@ displayName: Balancy Nutaku
 description: Nutaku platform integration for Balancy.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_nutaku
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: ''
 topics:
