@@ -1,0 +1,17 @@
+name: co.balancy.nutaku
+displayName: Balancy Nutaku
+description: Nutaku platform integration for Balancy.
+repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_nutaku
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - integration
+  - services
+hunter: Suvitruf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1773305903725
