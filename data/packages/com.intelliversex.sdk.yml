@@ -1,0 +1,25 @@
+name: com.intelliversex.sdk
+displayName: IntelliVerseX SDK
+description: >-
+  Complete modular game development SDK with 15+ packages: Core, Identity, Auth,
+  Backend, Networking, Localization, Storage, Quiz, QuizUI, UI, Leaderboard,
+  Social, Monetization (IAP, Ads), Analytics, and more. Battle-tested in
+  production. Includes support for Nakama, Photon PUN2, DOTween, LevelPlay,
+  Appodeal, AdMob, and more.
+repoUrl: https://github.com/intelli-verse-x/Intelli-verse-X-SDK
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - integration
+  - network
+  - profiling
+  - services
+hunter: hasanraza31
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/_IntelliVerseXSDK/README.md
+createdAt: 1773340125509
