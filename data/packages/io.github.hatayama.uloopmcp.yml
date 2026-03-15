@@ -1,7 +1,7 @@
 name: io.github.hatayama.uloopmcp
-displayName: uLoopMCP
-description: Connect your Unity Editor to LLMs using the Model Context Protocol.
-repoUrl: https://github.com/hatayama/uLoopMCP
+displayName: Unity CLI Loop
+description: Let AI agents compile, test, and operate your Unity project via CLI.
+repoUrl: https://github.com/hatayama/unity-cli-loop
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
