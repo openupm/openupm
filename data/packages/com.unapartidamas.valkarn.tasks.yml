@@ -1,0 +1,18 @@
+name: com.unapartidamas.valkarn.tasks
+displayName: Valkarn Tasks for Unity
+description: Provides a zero-allocation async/await framework for Unity.
+repoUrl: 'https://github.com/Unapartidamas/valkarn-tasks'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - parallelism-and-concurrency
+  - code-generation
+  - dots-and-ecs
+  - frameworks
+hunter: unapartidamas
+gitTagPrefix: v
+gitTagIgnore: ''
+image: >-
+  https://raw.githubusercontent.com/Unapartidamas/valkarn-tasks/master/Editor/valkarn-tasks-cover.png
+createdAt: 1773703846522
