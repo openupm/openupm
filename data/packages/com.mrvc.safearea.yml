@@ -1,0 +1,21 @@
+name: com.mrvc.safearea
+displayName: Safe Area
+description: >-
+  Apply the current device safe area to a target RectTransform, with bundled
+  editor preview profiles for common devices.
+repoUrl: https://github.com/mrvcmrvc/SafeArea
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - mobile
+  - utilities
+hunter: mrvcmrvc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1773531233830
