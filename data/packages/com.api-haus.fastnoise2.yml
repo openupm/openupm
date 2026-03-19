@@ -1,0 +1,22 @@
+name: com.api-haus.fastnoise2
+displayName: FastNoise2
+description: >-
+  FastNoise2 packaged for Unity Package Manager (UPM). SIMD-accelerated noise
+  generation with a visual graph editor, type-safe builder API, base64
+  encode/decode compatible with C++ NoiseTool, and full Burst/Jobs/IL2CPP
+  compatibility. Cross-platform native libraries for Windows, macOS, Linux,
+  iOS, and Android.
+repoUrl: https://github.com/api-haus/com.api-haus.fastnoise2
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+  - procedural-generation
+hunter: api-haus
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '1.0.0'
+readme: main:README.md
+createdAt: 1773958598815
