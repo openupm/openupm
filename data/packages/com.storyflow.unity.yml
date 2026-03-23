@@ -1,0 +1,20 @@
+name: com.storyflow.unity
+displayName: StoryFlow
+description: >-
+  Import and run StoryFlow Editor projects in Unity. Visual node-based dialogue,
+  branching logic, variables, and character systems.
+repoUrl: https://github.com/storyflow-editor/storyflow-unity-plugin
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: Soulstices
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.1
+readme: master:README.md
+createdAt: 1774236010684
