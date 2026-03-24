@@ -1,0 +1,20 @@
+name: com.nhemdangfugbixs.tooling
+displayName: Nhem Dang Fug Bixs Tooling
+description: >-
+  VContainer Auto-Registration Source Generator and Roslyn Analyzers with
+  Type-Safe Scopes.
+repoUrl: https://github.com/NhomNhem/NhemDangFugBixs.Tooling
+parentRepoUrl: null
+licenseSpdxId: ISC
+licenseName: ISC License
+image: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - integration
+hunter: NhomNhem
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: deploy:README.md
+createdAt: 1774324815247
