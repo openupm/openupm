@@ -1,0 +1,20 @@
+name: com.wrj.fontawesome
+displayName: WRJ Font Awesome
+description: Convenient access to Font Awesome icons in Unity.
+repoUrl: https://github.com/williamrjackson/FontAwesomeUnity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/williamrjackson/FontAwesomeUnity/refs/heads/master/Documentation/images/OpenUpmCover.png
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+  - sprite-management
+hunter: williamrjackson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1774358714170
