@@ -1,0 +1,20 @@
+name: com.appcharge.paymentlinks
+displayName: Appcharge Payment Links SDK
+description: >-
+  Unity SDK for creating and managing Appcharge Payment Links, enabling seamless
+  in-game purchases through secure, customizable checkout links.
+repoUrl: https://github.com/Appcharge/unity-payment-links
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - services
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1774427040039
