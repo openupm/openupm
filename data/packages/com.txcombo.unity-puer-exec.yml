@@ -1,0 +1,20 @@
+name: com.txcombo.unity-puer-exec
+displayName: Unity Puer Exec
+description: >-
+  Unity Editor package and bundled CLI for driving a Puerts host from an
+  external process.
+repoUrl: https://github.com/hwei/unity-puer-exec
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: hwei
+gitTagPrefix: upm/
+gitTagIgnore: -master$
+minVersion: ''
+readme: main:ReadMe.md
+createdAt: 1774506651000
