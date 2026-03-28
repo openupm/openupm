@@ -1,0 +1,19 @@
+name: com.dtech.blackboard
+displayName: Blackboard - Typed Variable System
+description: >-
+  Typed blackboard variable system for Unity with ScriptableObject authoring and
+  runtime access by name or GUID.
+repoUrl: https://github.com/DanilChizhikov/blackboard
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1774708108790
