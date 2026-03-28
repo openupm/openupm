@@ -1,0 +1,20 @@
+name: com.nanora.nanora-unity-mcp
+displayName: nanora-unity-mcp
+description: AI-powered E2E testing and automation for Unity via MCP. Playwright-style selectors, visual regression, performance budgets.
+repoUrl: https://github.com/nanora-sama/nanora-unity-mcp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mcp
+  - ai
+  - testing
+  - e2e
+  - automation
+hunter: nanora-sama
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: '1.0.0'
+readme: master:README.md
+createdAt: 1774667488970
