@@ -1,0 +1,15 @@
+name: com.allow2.sdk                                                                                                                                                                                            
+displayName: Allow2 Parental Freedom SDK                                                                                                                                                                        
+description: Allow2 Parental Freedom enforcement for Unity games and apps. Provides pairing, child identification, permission checks, warnings, block screens, requests, and feedback.                          
+repoUrl: 'https://github.com/Allow2/allow2unity'                                                                                                                                                                
+licenseSpdxId: MIT                                                                                                                                                                                              
+licenseName: MIT License                                                                                                                                                                                        
+topics:                                                                                                                                                                                                         
+  - sdk                                                                                                                                                                                                         
+  - child-safety                                                                                                                                                                                                
+  - parental-controls                                                   
+  - screen-time                                                                                                                                                                                                 
+hunter: Allow2CEO                                                                                                                                                                                               
+gitTagPrefix: 'v'                                                                                                                                                                                               
+gitTagIgnore: ''                                                                                                                                                                                                
+minUnityVersion: '2021.3'
