@@ -16,5 +16,5 @@ hunter: nanora-sama
 gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: '1.0.0'
-readme: master:README.md
+readme: main:README.md
 createdAt: 1774667488970
