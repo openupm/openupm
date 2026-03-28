@@ -1,0 +1,21 @@
+name: jp.nobnak.circle
+displayName: Circle Renderer (URP)
+description: >-
+  Circle and ring patch mesh with tessellation shaders and GPU instancing for
+  URP.
+repoUrl: https://github.com/nobnak/urp-CircleRenderer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - frameworks
+  - gui
+  - particles-and-effects
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1774720761200
