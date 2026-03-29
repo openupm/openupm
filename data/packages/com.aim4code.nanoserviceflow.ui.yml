@@ -1,0 +1,20 @@
+name: com.aim4code.nanoserviceflow.ui
+displayName: NanoServiceFlow - UI
+description: >-
+  A reactive, event-driven UI framework for Unity built on NanoServiceFlow.
+  Features hierarchy-based auto-routing, async UniTask transitions, and
+  multi-canvas support to separate UI state, logic, and views.
+repoUrl: https://github.com/aim4code/nanoserviceflow-ui
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+hunter: aim4code
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1774744067873
