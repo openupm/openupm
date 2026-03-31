@@ -1,0 +1,18 @@
+name: dev.purrnet.ui
+displayName: PurrUI
+description: PurrNet UI
+repoUrl: https://github.com/PurrNet/PurrUI
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://private-user-images.githubusercontent.com/4602596/558561758-d3abc18b-0a5f-4752-9092-c6c233bfbf2d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQ5MzcyODksIm5iZiI6MTc3NDkzNjk4OSwicGF0aCI6Ii80NjAyNTk2LzU1ODU2MTc1OC1kM2FiYzE4Yi0wYTVmLTQ3NTItOTA5Mi1jNmMyMzNiZmJmMmQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDMzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAzMzFUMDYwMzA5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmE1NTI0YmE0OWJlZGJkNmVhNDcxMzk3Yjc2YjZjMWFhMzVhNzgzMzk2MDAzYzUwYzNhYjAyY2EzMzdmNDYxNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.OijPoTMTi36Q7xN4fL13nt_UhYj9O7ITiGwJVnufgWE
+topics:
+  - 2d
+  - gui
+hunter: '960208781'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: release:README.md
+createdAt: 1774937071830
