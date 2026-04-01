@@ -237,6 +237,9 @@ scopes:
 # https://github.com/openupm/openupm/issues/5785
 - ^com.gameframex
 
+# https://github.com/openupm/openupm/issues/6391
+- media.lightside.unitext
+
 # The packages that are deprecated by the author and the source repository is no longer available
 - ep.u3d.editor.arch
 - ep.u3d.editor.asset
