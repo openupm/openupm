@@ -1,0 +1,17 @@
+name: fun.jibbers.map-tools
+displayName: Jibbers Map Tools
+description: Map tooling for Jibbers.
+repoUrl: https://github.com/jibbers-ski/Map-Tools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - level-design
+  - terrain
+hunter: jibbers-ski
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1775107636778
