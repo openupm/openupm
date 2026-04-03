@@ -1,0 +1,19 @@
+name: com.styly.styly-netsync.utility
+displayName: STYLY NetSync Utility
+description: STYLY NetSync Utility
+repoUrl: https://github.com/styly-dev/STYLY-NetSync-Utility
+parentRepoUrl: null
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
+image: ''
+topics:
+- ar-and-vr
+- frameworks
+- network
+- utilities
+hunter: styly-dev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:STYLY-NetSync-Utility-Unity/README.md
+createdAt: 1775193738273
