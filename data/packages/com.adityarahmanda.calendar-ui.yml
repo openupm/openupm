@@ -1,0 +1,18 @@
+name: com.adityarahmanda.calendar-ui
+displayName: Calendar UI
+description: >-
+  A lightweight, customizable Unity calendar UI for displaying and managing
+  dates, with Google Calendar holiday integration.
+repoUrl: https://github.com/adityarahmanda/unity-calendar-ui
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: adityarahmanda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1775881538731
