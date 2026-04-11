@@ -1,0 +1,18 @@
+name: com.adityarahmanda.balinese-calendar-ui
+displayName: Balinese Calendar UI
+description: >-
+  An implementation of the Calendar UI package tailored for the Balinese
+  calendar.
+repoUrl: https://github.com/adityarahmanda/unity-balinese-calendar-ui
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: adityarahmanda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1775891265925
