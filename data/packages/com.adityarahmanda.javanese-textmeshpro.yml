@@ -1,14 +1,14 @@
 name: com.adityarahmanda.javanese-textmeshpro
 displayName: Javanese TextMeshPro
 description: >-
-  Javanese language support for Unity TextMeshPro with additional
-  transliteration tool.
-repoUrl: 'https://github.com/adityarahmanda/javanese-textmeshpro'
+  Javanese language support for Unity TextMeshPro. Javanese-Latin and Latin-Javanese transliteration tool included.
+repoUrl: 'https://github.com/adityarahmanda/unity-javanese-textmeshpro'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - gui
+  - utilities
 hunter: adityarahmanda
 gitTagPrefix: ''
 gitTagIgnore: ''
