@@ -1,0 +1,18 @@
+name: com.gamedevware.serialization
+displayName: JSON & MessagePack Serialization
+description: Ok-performance, AOT-compatible JSON and MessagePack serializers for Unity.
+repoUrl: https://github.com/deniszykov/msgpack-unity3d
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/deniszykov/msgpack-unity3d/refs/heads/master/open_upm_logo.png
+topics:
+  - data-management
+  - utilities
+hunter: deniszykov
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1776082432511
