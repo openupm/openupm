@@ -1,0 +1,23 @@
+name: com.signal-loop.unitycodemcpserver
+displayName: Unity Code MCP Server
+description: >-
+  A powerful MCP server for the Unity Editor that gives AI Agents ability to
+  perform any action using Unity Editor API. This includes scripts, scenes,
+  prefabs and assets manipulation, configuration changes, and more.
+repoUrl: https://github.com/Signal-Loop/UnityCodeMCPServer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Signal-Loop/UnityCodeMCPServer/refs/heads/main/images/OpenUPM.png
+topics:
+  - ai
+  - code-generation
+  - testing
+  - utilities
+hunter: machinedawn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1776152580838
