@@ -1,0 +1,19 @@
+name: com.renkoff.simply-localize
+displayName: Simply Localize
+description: >-
+  A powerful localization system for Unity with pluralization, language
+  profiles, and modular asset loading.
+repoUrl: https://github.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity/tree/main/docs/images/simply-localize-banner_mini.png
+topics:
+  - localization
+hunter: RenKOFFF
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1776553594644
