@@ -1,0 +1,18 @@
+name: com.trecs.serialization
+displayName: Trecs Serialization
+description: Serialization, recording, and playback support for Trecs
+repoUrl: https://github.com/svermeulen/trecs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - dots-and-ecs
+  - frameworks
+hunter: svermeulen
+gitTagPrefix: serialization/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1776485528676
