@@ -1,0 +1,19 @@
+name: com.trecs.core
+displayName: Trecs
+description: A high-performance, deterministic Entity Component System framework for Unity
+repoUrl: https://github.com/svermeulen/trecs
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - dots-and-ecs
+  - frameworks
+  - parallelism-and-concurrency
+hunter: svermeulen
+gitTagPrefix: core/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1776485370693
