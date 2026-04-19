@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity/tree/main/docs/images/simply-localize-banner_mini.png
+  https://raw.githubusercontent.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity/main/docs/images/simply-localize-banner_mini.png
 topics:
   - localization
 hunter: RenKOFFF
