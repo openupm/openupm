@@ -5,7 +5,8 @@ repoUrl: https://github.com/XiaoJingSpace/ZLMediakitPlugin.git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - unity
+  - zlmediakit
+  - wvppro
   - webrtc
   - sip
   - streaming
