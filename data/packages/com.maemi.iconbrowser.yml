@@ -1,0 +1,18 @@
+name: com.maemi.iconbrowser
+displayName: Icon Browser
+description: >-
+  Iconify-powered icon browser for Unity. Search, preview, and import 200K+
+  open-source icons as SVG VectorImage directly in the editor.
+repoUrl: https://github.com/NewMassMedia/unity-icon-browser
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - ui
+hunter: NewMassMedia
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1771690064192
