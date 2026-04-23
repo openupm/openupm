@@ -1,0 +1,22 @@
+name: com.reify.unity
+displayName: Reify
+description: >-
+  Structured state for Unity, for LLMs that reason. 230+ MCP tools plus MCP
+  resources/prompts, with evidence-first design: structured JSON responses,
+  ambiguity rejection, Undo-backed writes, spatial anchor proofs, and ADR-backed
+  write receipts. Editor-side bridge for the Reify MCP server.
+repoUrl: https://github.com/mattebin/reify
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+hunter: mattebin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.0
+readme: main:README.md
+createdAt: 1776902643267
