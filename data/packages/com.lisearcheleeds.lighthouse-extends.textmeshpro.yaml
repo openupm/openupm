@@ -1,0 +1,11 @@
+name: com.lisearcheleeds.lighthouse-extends.textmeshpro
+displayName: Lighthouse Extends - TextMeshPro
+description: Extends TextMeshProUGUI to automatically reflect language and font changes via TextTableService and FontService.
+repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+packageFolder: Client/Assets/LighthouseExtends/TextMeshPro
+licenseSpdxId: MIT
+minUnityVersion: '6000.0'
+topics:
+  - localization
+  - textmeshpro
+hunter: lisearcheleeds
