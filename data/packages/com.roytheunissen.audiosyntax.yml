@@ -1,0 +1,25 @@
+name: com.roytheunissen.audiosyntax
+displayName: Audio Syntax
+description: >-
+  Audio system that generates code to allow playing audio through strongly-typed
+  syntax.
+
+
+  Works with both FMOD and Unity's own native audio solution.
+repoUrl: https://github.com/RoyTheunissen/Audio-Syntax
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - code-generation
+  - frameworks
+  - services
+  - utilities
+hunter: RoyTheunissen
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1777036503817
