@@ -4,6 +4,7 @@ description: In/Out animation clip playback via PlayableGraph for Lighthouse sce
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/Animation
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - animation
 hunter: lisearcheleeds

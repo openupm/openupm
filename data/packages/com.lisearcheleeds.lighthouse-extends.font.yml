@@ -4,6 +4,7 @@ description: Subscribes to ILanguageService and updates the current TMP_FontAsse
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/Font
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - localization
   - gui

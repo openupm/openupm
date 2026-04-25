@@ -4,6 +4,7 @@ description: A Unity scene management framework providing a structured scene tra
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/Lighthouse
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - frameworks
 hunter: lisearcheleeds

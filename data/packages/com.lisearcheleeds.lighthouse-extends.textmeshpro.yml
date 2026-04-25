@@ -4,6 +4,7 @@ description: Extends TextMeshProUGUI to automatically reflect language and font 
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/TextMeshPro
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - localization
   - gui

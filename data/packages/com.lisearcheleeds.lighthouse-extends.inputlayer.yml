@@ -4,6 +4,7 @@ description: Stack-based input dispatch over InputActionAsset. A layer can consu
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/InputLayer
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - input-management
 hunter: lisearcheleeds

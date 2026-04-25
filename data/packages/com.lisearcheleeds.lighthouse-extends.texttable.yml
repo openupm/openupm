@@ -4,6 +4,7 @@ description: Loads per-language TSV files and resolves {param} placeholders at r
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/TextTable
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - localization
 hunter: lisearcheleeds

@@ -4,6 +4,7 @@ description: UI component utilities for Lighthouse-based projects.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/UIComponent
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - gui
 hunter: lisearcheleeds

@@ -4,6 +4,7 @@ description: Reactive language switching service. Registered handlers are called
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
 packageFolder: Client/Assets/LighthouseExtends/Language
 licenseSpdxId: MIT
+licenseName: MIT License
 topics:
   - localization
 hunter: lisearcheleeds
