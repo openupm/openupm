@@ -1,0 +1,11 @@
+name: com.lisearcheleeds.lighthouse-extends.font
+displayName: Lighthouse Extends - Font
+description: Subscribes to ILanguageService and updates the current TMP_FontAsset from LanguageFontSettings on each language change.
+repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+packageFolder: Client/Assets/LighthouseExtends/Font
+licenseSpdxId: MIT
+topics:
+  - localization
+  - gui
+hunter: lisearcheleeds
+createdAt: 1776988800000

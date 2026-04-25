@@ -1,0 +1,10 @@
+name: com.lisearcheleeds.lighthouse
+displayName: Lighthouse
+description: A Unity scene management framework providing a structured scene transition pipeline, camera stack management, and back navigation — built on VContainer and UniTask.
+repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+packageFolder: Client/Assets/Lighthouse
+licenseSpdxId: MIT
+topics:
+  - frameworks
+hunter: lisearcheleeds
+createdAt: 1776988800000
