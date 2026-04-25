@@ -1,3 +1,10 @@
+# [1.61.0](https://github.com/openupm/openupm/compare/1.60.8...1.61.0) (2026-04-25)
+
+
+### Features
+
+* add com.lisearcheleeds.lighthouse and extends packages ([#6422](https://github.com/openupm/openupm/issues/6422)) ([4f54d31](https://github.com/openupm/openupm/commit/4f54d3167ae9484d1aba0889248d5ceb55e75952))
+
 ## [1.60.8](https://github.com/openupm/openupm/compare/1.60.7...1.60.8) (2026-03-03)
 
 
