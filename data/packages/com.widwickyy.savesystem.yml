@@ -1,0 +1,19 @@
+name: com.widwickyy.savesystem
+displayName: Lightweight Save System
+description: >-
+  A simple, extensible save system for Unity with JSON serialization and file
+  storage.
+repoUrl: https://github.com/widwickyy/UnityPackage-Save-System
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - utilities
+hunter: widwickyy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1777344065205
