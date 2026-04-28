@@ -1,0 +1,20 @@
+name: com.widwickyy.sceneswitcher
+displayName: Scene Switcher
+description: >-
+  A powerful editor tool for quick scene switching in Unity. Features include
+  dropdown selection, favorites, recent scenes, keyboard shortcuts, and Scene
+  View toolbar integration.
+repoUrl: https://github.com/widwickyy/UnityPackage-Scene-Switcher
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: widwickyy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1777344283729
