@@ -1,0 +1,11 @@
+name: com.lisearcheleeds.lighthouse-extends.addressable
+displayName: Lighthouse Extends - Addressable
+description: Ref-counted Addressables wrapper with scoped asset management and parallel loading support.
+repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+packageFolder: Client/Assets/LighthouseExtends/Addressable
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+hunter: lisearcheleeds
+createdAt: 1777420800000
