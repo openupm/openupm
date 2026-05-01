@@ -1,0 +1,21 @@
+name: com.google.ads.mobile.mediation.bigo
+displayName: Google Mobile Ads Bigo Mediation
+description: >-
+  The Google Mobile Ads mediation plugin for bigo package allows you to load and
+  display ads from bigo using mediation, covering waterfall integrations.
+repoUrl: https://github.com/googleads/googleads-mobile-unity-mediation
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://lh3.googleusercontent.com/D71NOtwLFHvG8WfOO2fmSUTmbhT6ezmC0--7Si2A1BDjTSVcp6fJgAa4H-aVz-sZ2a7tcoXc7f_HBGq27lctq7mrqaOJD7tcfR_lOQ=w770-h734-p-nu-pa
+topics:
+  - integration
+  - mobile
+  - services
+hunter: googleads
+gitTagPrefix: 'Bigo/'
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Bigo/README.md
+createdAt: 1777598398309
