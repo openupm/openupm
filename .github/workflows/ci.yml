@@ -1,6 +1,8 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
   validate-data:
@@ -32,3 +34,42 @@ jobs:
           workflow_file_name: ci.yml
           ref: main
           wait_workflow: false
+
+  deploy-openupm-data:
+    runs-on: ubuntu-latest
+    needs: validate-data
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm' && github.event_name == 'push'
+    concurrency:
+      group: openupm-data-production
+      cancel-in-progress: false
+    steps:
+      - name: Configure SSH
+        env:
+          OPENUPM_DEPLOY_HOST: ${{ secrets.OPENUPM_DEPLOY_HOST }}
+          OPENUPM_DEPLOY_KNOWN_HOSTS: ${{ secrets.OPENUPM_DEPLOY_KNOWN_HOSTS }}
+          OPENUPM_DEPLOY_SSH_KEY: ${{ secrets.OPENUPM_DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$OPENUPM_DEPLOY_SSH_KEY" > ~/.ssh/openupm_deploy
+          chmod 600 ~/.ssh/openupm_deploy
+          printf '%s\n' "$OPENUPM_DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+          test -n "$OPENUPM_DEPLOY_HOST"
+
+      - name: Update production OpenUPM data checkout
+        env:
+          OPENUPM_DEPLOY_HOST: ${{ secrets.OPENUPM_DEPLOY_HOST }}
+          OPENUPM_DEPLOY_PORT: ${{ secrets.OPENUPM_DEPLOY_PORT }}
+          OPENUPM_DEPLOY_USER: ${{ secrets.OPENUPM_DEPLOY_USER }}
+          OPENUPM_TARGET_REF: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          port="${OPENUPM_DEPLOY_PORT:-22}"
+          user="${OPENUPM_DEPLOY_USER:-ubuntu}"
+          ssh -i ~/.ssh/openupm_deploy \
+            -p "$port" \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            "${user}@${OPENUPM_DEPLOY_HOST}" \
+            "sudo /srv/openupm-services/update-openupm-data.sh '${OPENUPM_TARGET_REF}'"
