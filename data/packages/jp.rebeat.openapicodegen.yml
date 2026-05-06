@@ -1,4 +1,4 @@
-name: com.rebeat.openapicodegen
+name: jp.rebeat.openapicodegen
 displayName: OpenApiCodeGen
 description: >-
   This is a package to make a rest api client c-sharp file from swagger's json
