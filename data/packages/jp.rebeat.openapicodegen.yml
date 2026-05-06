@@ -14,6 +14,6 @@ topics:
 hunter: HIROHIRO1224
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.3.1'
 readme: release:README.md
 createdAt: 1746516551639
