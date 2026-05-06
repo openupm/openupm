@@ -278,3 +278,4 @@ scopes:
 - cn.refactor.gas
 - cn.refactor.pooling
 - cn.refactor.fsm
+- com.no-slopes.handy-fsm
