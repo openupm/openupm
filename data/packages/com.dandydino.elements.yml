@@ -1,0 +1,21 @@
+name: com.dandydino.elements
+displayName: Dandy Dino Elements
+description: >-
+  Unity Inspector and Windows Utilities for Editor - Build UI inspired in
+  Flutter
+repoUrl: https://github.com/AlbertoVosgerau/DDElements
+parentRepoUrl: null
+licenseSpdxId: WTFPL
+licenseName: WTFPL
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+  - gui
+  - utilities
+hunter: AlbertoVosgerau
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778007163947
