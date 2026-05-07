@@ -1,6 +1,7 @@
 items:
   - name: Vatsal Ambastha
     githubUser: adrenak
+    expires: 2026-06-30
   - name: Mike Wuetherick
     githubUser: gekidoslair
   - name: Andreas Atteneder
