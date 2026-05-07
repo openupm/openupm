@@ -4,8 +4,8 @@ description: "MCP (Model Context Protocol) bridge plugin for Unity Editor. Enabl
 repoUrl: https://github.com/AnkleBreaker-Studio/unity-mcp-plugin
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: >-
   https://raw.githubusercontent.com/AnkleBreaker-Studio/unity-mcp-plugin/refs/heads/main/icon.png
 topics:
