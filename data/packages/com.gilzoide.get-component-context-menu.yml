@@ -5,6 +5,7 @@ description: >-
   GetComponent(s), GetComponent(s)InChildren, GetComponent(s)InParent and
   FindObject(s)OfType methods
 repoUrl: 'https://github.com/gilzoide/unity-get-component-context-menu'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

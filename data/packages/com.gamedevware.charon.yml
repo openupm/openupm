@@ -6,6 +6,7 @@ description: >-
   modeling game data, with automatic source code generation that reduces the
   load on programmers and eliminates human errors.
 repoUrl: https://github.com/gamedevware/charon-unity3d
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.pspkurara.localsave
 displayName: LocalSave
 description: Supports Unity's simple local save utility.
 repoUrl: 'https://github.com/pspkurara/localsave'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

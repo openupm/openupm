@@ -2,6 +2,7 @@ name: com.u2sb.netcoreserver
 displayName: UnityNetCoreServer
 description: NetCoreServer for Unity
 repoUrl: https://github.com/u2sb/UnityNetCoreServer
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

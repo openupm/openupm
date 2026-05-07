@@ -4,6 +4,7 @@ description: >-
   Nested dropdown menus built with Unity UI Toolkit's GenericDropdownMenu,
   supporting runtime operations.
 repoUrl: https://github.com/fuqunaga/NestedDropdownMenu
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

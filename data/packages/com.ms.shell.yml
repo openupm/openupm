@@ -2,6 +2,7 @@ name: com.ms.shell
 displayName: Unity Shell
 description: execute shell command in Unity Editor
 repoUrl: 'https://github.com/wlgys8/UnityShell'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

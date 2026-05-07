@@ -5,6 +5,7 @@ description: >-
   developers with a powerful, secure, and user-friendly code protection
   solution.
 repoUrl: https://github.com/focus-creative-games/obfuz
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

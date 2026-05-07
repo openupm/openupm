@@ -2,6 +2,7 @@ name: com.needle.stochastic-texturing
 displayName: Stochastic Texturing
 description: ''
 repoUrl: 'https://github.com/needle-tools/procedural-stochastic-texturing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

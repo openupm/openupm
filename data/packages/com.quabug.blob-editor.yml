@@ -2,6 +2,7 @@ name: com.quabug.blob-editor
 displayName: BlobEditor
 description: Inspector-editor of blob asset
 repoUrl: 'https://github.com/quabug/BlobEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

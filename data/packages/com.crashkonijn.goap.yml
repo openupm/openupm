@@ -2,6 +2,7 @@ name: com.crashkonijn.goap
 displayName: Unity GOAP
 description: An open source GOAP implementation for unity
 repoUrl: 'https://github.com/crashkonijn/GOAP'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

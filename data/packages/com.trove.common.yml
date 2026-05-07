@@ -4,6 +4,7 @@ description: >-
   Trove Common provides various tools and utilities that may be used by other
   packages or projects.
 repoUrl: https://github.com/PhilSA/Trove
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

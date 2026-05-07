@@ -4,6 +4,7 @@ description: >-
   Automatically add in prompt icons to TextMeshPro fields based on Unity's Input
   System
 repoUrl: 'https://github.com/simonoliver/InputSystemActionPrompts'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

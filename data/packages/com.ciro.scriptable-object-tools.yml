@@ -2,6 +2,7 @@ name: com.ciro.scriptable-object-tools
 displayName: Scriptable Object Tools
 description: Useful tools based on Scriptable Objects
 repoUrl: 'https://github.com/ccontinisio/so-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

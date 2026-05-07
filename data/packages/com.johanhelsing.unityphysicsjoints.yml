@@ -3,6 +3,7 @@ displayName: Unity Physics Joints
 description: UPM package of the joints components from the official EntityComponentSystemSamples
   repo
 repoUrl: https://github.com/johanhelsing/unity-physics-joints
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

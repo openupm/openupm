@@ -2,6 +2,7 @@ name: com.vindemiatrixcollective.universe
 displayName: Universe
 description: A Unity library of space-related methods for hard sci-fi games.
 repoUrl: https://github.com/TheWand3rer/Universe
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

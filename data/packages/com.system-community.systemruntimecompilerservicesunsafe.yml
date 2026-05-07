@@ -4,6 +4,7 @@ description: >-
   Provides the System.Runtime.CompilerServices.Unsafe class, which provides
   generic, low-level functionality for manipulating pointers.
 repoUrl: 'https://github.com/system-community/SystemRuntimeCompilerServicesUnsafe'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

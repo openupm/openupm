@@ -2,6 +2,7 @@ name: net.skeyll.synicsugar
 displayName: SynicSugar
 description: Free, full-featured Unity netcode with no CCU or hosting costs.
 repoUrl: 'https://github.com/SynicSugar/SynicSugar'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

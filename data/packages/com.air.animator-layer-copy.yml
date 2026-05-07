@@ -2,6 +2,7 @@ name: com.air.animator-layer-copy
 displayName: Animator Layer Copy
 description: Utility to copy layers from one animator to another
 repoUrl: https://github.com/TheLastRar/AnimatorLayerCopy
+trackingMode: git
 parentRepoUrl: null
 licenseName: GNU Lesser General Public License v3.0 only
 licenseSpdxId: LGPL-3.0

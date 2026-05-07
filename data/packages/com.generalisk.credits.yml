@@ -6,6 +6,7 @@ description: >-
   process by allowing you to customize the contents of the scene within the
   Project Settings & generate the in-game scene on the fly.
 repoUrl: https://github.com/Generalisk/Unity-SimpleCreditsSystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

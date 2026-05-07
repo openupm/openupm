@@ -2,6 +2,7 @@ name: dev.ezsoftbone.unity
 displayName: EZSoftBone
 description: A simple secondary motion bone motion simulator for Unity.
 repoUrl: https://github.com/makeplayhappy/EZSoftBone
+trackingMode: git
 parentRepoUrl: https://github.com/EZhex1991/EZSoftBone
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

@@ -2,6 +2,7 @@ name: com.frostware.result
 displayName: Frostware.Result
 description: A simple implementation of a functional result type in C#
 repoUrl: 'https://github.com/FrostbiteDragon/Frostware.Result'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

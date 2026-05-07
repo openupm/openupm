@@ -2,6 +2,7 @@ name: com.needle.upm-in-unitypackage
 displayName: UPM Packages in .unitypackage
 description: Export UPM packages as .unitypackage files and upload them to the AssetStore
 repoUrl: 'https://github.com/needle-tools/upm-in-unitypackage'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

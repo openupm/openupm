@@ -2,6 +2,7 @@ name: com.gilzoide.gesture-recognizers
 displayName: Gesture Recognizers
 description: Gesture Recognizer scripts based on Input and EventSystem handlers
 repoUrl: 'https://github.com/gilzoide/unity-gesture-recognizers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -4,6 +4,7 @@ description: >-
   Unity port of SimplePatchTool library to add patching support to standalone
   Unity applications
 repoUrl: 'https://github.com/yasirkula/UnitySimplePatchTool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

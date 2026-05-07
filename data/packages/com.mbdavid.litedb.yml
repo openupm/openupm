@@ -2,6 +2,7 @@ name: com.mbdavid.litedb
 displayName: Lite DB
 description: 'Lite Db nosql storage, https://www.litedb.org/'
 repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/LiteDB'
+trackingMode: git
 parentRepoUrl: 'https://github.com/mbdavid/LiteDB'
 licenseSpdxId: MIT
 licenseName: MIT License

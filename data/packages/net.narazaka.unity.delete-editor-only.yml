@@ -2,6 +2,7 @@ name: net.narazaka.unity.delete-editor-only
 displayName: Delete EditorOnly
 description: delete EditorOnly GameObjects from the selected GameObject
 repoUrl: https://github.com/Narazaka/DeleteEditorOnly
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

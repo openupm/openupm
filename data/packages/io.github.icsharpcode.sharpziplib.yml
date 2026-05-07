@@ -4,6 +4,7 @@ description: >-
   #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the
   .NET platform. This is a unity package repository for unity package manager.
 repoUrl: 'https://github.com/iDreamsOfGame/SharpZipLib'
+trackingMode: git
 parentRepoUrl: 'https://github.com/icsharpcode/SharpZipLib'
 licenseSpdxId: MIT
 licenseName: MIT License

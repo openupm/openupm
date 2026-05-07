@@ -4,6 +4,7 @@ description: >-
   Utility for programatically generating Addressable Groups and managing their
   dependencies.
 repoUrl: https://github.com/jonagill/AddressablesGenerator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT-0
 licenseName: MIT No Attribution

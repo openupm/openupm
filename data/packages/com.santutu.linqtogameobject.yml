@@ -5,6 +5,7 @@ description: >-
   hierarchy and append GameObject. The design aims both to get the power of LINQ
   and performance of iteration.
 repoUrl: https://github.com/santutu/LINQ-to-GameObject-for-Unity
+trackingMode: git
 parentRepoUrl: https://github.com/H-man/LINQ-to-GameObject-for-Unity
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   An abstraction layer on top of Texture2D.LoadImage to create Texture2D objects
   at runtime from raw PNG/JPEG data in Unity
 repoUrl: 'https://github.com/yasirkula/UnityRuntimeTexture'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

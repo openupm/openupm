@@ -2,6 +2,7 @@ name: com.seep.jolt
 displayName: Jolt Physics
 description: Unity compatible bindings for the Jolt physics library
 repoUrl: https://github.com/seep/JoltPhysicsUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

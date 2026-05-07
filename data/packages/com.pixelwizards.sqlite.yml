@@ -2,6 +2,7 @@ name: com.pixelwizards.sqlite
 displayName: SQLite Database
 description: SQLite plugin for Unity3D Android and iOS build
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.sqlite'
+trackingMode: git
 parentRepoUrl: 'https://github.com/rizasif/sqlite-unity-plugin'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.leopotam.ecs-ui
 displayName: LeoECS uGui Bindings
 description: Easy uGui event bindings for LeoECS Entity Component System framework.
 repoUrl: 'https://github.com/Leopotam/ecs-ui'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.tmd.customshader
 displayName: Custom Shader
 description: "è\x80\x81å¤«è¦\x81ç\x94¨ç\x9A\x84shaderï¼\x8Cé\x98¿å\x9D¤ä¸\x8Dè¦\x81ä¹±å\x8A¨"
 repoUrl: https://github.com/nixuejun888/UntiyArtTool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

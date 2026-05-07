@@ -2,6 +2,7 @@ name: com.heavycavstudios.core
 displayName: Heavy Cav Studios Core Utilities
 description: A shared utility package for Heavy Cav Studios projects.
 repoUrl: https://github.com/Heavy-Cav-Studios/Core
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

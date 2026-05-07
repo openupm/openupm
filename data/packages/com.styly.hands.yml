@@ -2,6 +2,7 @@ name: com.styly.hands
 displayName: STYLY Hands
 description: This pacakge provices utilities for hand tracking.
 repoUrl: https://github.com/styly-dev/STYLY-Hands-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

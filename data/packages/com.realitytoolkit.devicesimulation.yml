@@ -4,6 +4,7 @@ description: >-
   Development extnsion for the Reality Toolkit implementing simulated controller
   devices and headsets for faster iteration.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.devicesimulation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

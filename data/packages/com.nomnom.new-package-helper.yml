@@ -2,6 +2,7 @@ name: com.nomnom.new-package-helper
 displayName: New Package Helper
 description: This allows assists in the creation of new packages.
 repoUrl: 'https://github.com/nomnomab/New-Package-Helper'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

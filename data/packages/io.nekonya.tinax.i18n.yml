@@ -2,6 +2,7 @@ name: io.nekonya.tinax.i18n
 displayName: TinaX.I18N
 description: TinaX.I18N provides internationalization feature support for TinaX Framework
 repoUrl: https://github.com/yomunsam/TinaX.I18N
+trackingMode: git
 parentRepoUrl: null
 licenseName: '"Anti 996" License Version 1.0'
 licenseSpdxId: null

@@ -3,6 +3,7 @@ displayName: OneSignal Unity SDK - Android
 description: OneSignal is the market leader in customer engagement, powering mobile
   push, web push, email, and in-app messages.
 repoUrl: https://github.com/OneSignal/OneSignal-Unity-SDK
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

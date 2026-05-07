@@ -4,6 +4,7 @@ description: >-
   A collection of prefabs that provide a specific point or area location to
   specify a valid teleport location for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Locomotors.TeleportTargets.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

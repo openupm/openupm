@@ -5,6 +5,7 @@ description: >-
   a screenshot of the current situation in the game, as well as a description
   provided by the player.
 repoUrl: 'https://github.com/GieziJo/GithubIssueBugReporter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

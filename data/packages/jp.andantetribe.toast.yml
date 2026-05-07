@@ -2,6 +2,7 @@ name: jp.andantetribe.toast
 displayName: Toast
 description: Simple toast notification UI for Unity.
 repoUrl: https://github.com/AndanteTribe/Toast
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

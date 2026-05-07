@@ -4,6 +4,7 @@ description: 'A library for managing asynchronous loading and unloading of asset
 
   '
 repoUrl: https://github.com/openugd/upm-async-bundles
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

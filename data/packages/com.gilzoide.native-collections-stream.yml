@@ -4,6 +4,7 @@ description: >-
   Stream, TextReader and TextWriter implementations backed by Unity Native
   Collections.
 repoUrl: https://github.com/gilzoide/unity-native-collections-stream
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

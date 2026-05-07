@@ -2,6 +2,7 @@ name: com.github.xaroth8088.networkstatemanager
 displayName: NetworkStateManager
 description: 'A framework to add server-authoritative, client-predictive physics to Unity'
 repoUrl: 'https://github.com/xaroth8088/NetworkStateManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

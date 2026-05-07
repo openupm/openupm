@@ -2,6 +2,7 @@ name: com.erdem.overlays
 displayName: E-Overlays
 description: This is an overlays package that provides create editor tools & utilities
 repoUrl: https://github.com/erdemkly/EOverlays
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

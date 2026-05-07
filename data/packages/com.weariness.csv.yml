@@ -2,6 +2,7 @@ name: com.weariness.csv
 displayName: CSV Utility
 description: "CSV í\x8C\x8Cì\x8B± for Unity"
 repoUrl: https://github.com/weariness00/MyUnituPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

@@ -2,6 +2,7 @@ name: com.poly-snake.core
 displayName: Poly-Snake Core
 description: Core
 repoUrl: 'https://github.com/Snaki94/poly-snake-packages-core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

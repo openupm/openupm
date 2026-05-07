@@ -2,6 +2,7 @@ name: games.artees.package-manifest-generator
 displayName: Package Manifest Generator
 description: Creates the package manifest file for a Unity package
 repoUrl: 'https://github.com/Artees/Unity-Package-Manifest-Generator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

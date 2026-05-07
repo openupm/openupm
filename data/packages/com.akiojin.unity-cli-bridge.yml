@@ -4,6 +4,7 @@ description: >-
   Unity Editor bridge package for unity-cli automation (screenshots,
   video capture, scene analysis, input automation).
 repoUrl: https://github.com/akiojin/unity-cli
+trackingMode: git
 packagePath: UnityCliBridge/Packages/unity-cli-bridge
 parentRepoUrl: null
 licenseSpdxId: MIT

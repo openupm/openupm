@@ -2,6 +2,7 @@ name: com.indiegabo.ldtk-level-manager
 displayName: LDtk Level Manager
 description: A solution for managing LDtk levels in Unity.
 repoUrl: https://github.com/indiegabo/ldtk-level-manager
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

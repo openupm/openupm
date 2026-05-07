@@ -2,6 +2,7 @@ name: com.playables-studio.yandexgames-sdk
 displayName: Yandex Games Unity SDK
 description: A Unity plugin for YandexGames integration.
 repoUrl: https://github.com/playables-studio/YandexGamesSDK-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

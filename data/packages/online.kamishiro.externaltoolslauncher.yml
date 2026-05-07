@@ -4,6 +4,7 @@ description: "Unityã\x82¨ã\x83\x87ã\x82£ã\x82¿ã\x81®ä¸\x8Aé\x83¨ã\
   ã\x81®ã\x82¢ã\x83\x97ã\x83ªã\x81®èµ·å\x8B\x95ã\x83\x9Cã\x82¿ã\x83³ã\x82\x92è¿½å\x8A\
    ã\x81\x97ã\x81¾ã\x81\x99"
 repoUrl: https://github.com/AoiKamishiro/ExternalToolsLauncher
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

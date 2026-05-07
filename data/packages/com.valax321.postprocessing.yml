@@ -2,6 +2,7 @@ name: com.valax321.postprocessing
 displayName: Post Process Effects
 description: Custom post processing effects for Post Processing Stack V2
 repoUrl: 'https://github.com/Valax321/PostProcessEffects'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

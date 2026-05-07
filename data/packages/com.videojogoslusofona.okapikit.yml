@@ -2,6 +2,7 @@ name: com.videojogoslusofona.okapikit
 displayName: OkapiKit
 description: OkapiKit is a toolkit for creation of simple games without code.
 repoUrl: 'https://github.com/VideojogosLusofona/OkapiKit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

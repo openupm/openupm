@@ -12,6 +12,7 @@ description: >-
   - DebugHelper - a set of menu items and APIs that allow you to debug specific
   object instances
 repoUrl: https://github.com/pulni4kiya/unity-editor-tools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

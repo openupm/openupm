@@ -2,6 +2,7 @@ name: games.javier.upm.bricksbucket.web.postman
 displayName: Postman Collections for Unity
 description: Bucket to interact with the Postman Schema.
 repoUrl: https://github.com/javier-games/upm-postman-collections
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

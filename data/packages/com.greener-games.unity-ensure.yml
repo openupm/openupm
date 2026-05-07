@@ -4,6 +4,7 @@ description: >-
   Package to add functionality to ensure layers, tags, and Define symobols get
   set on compliation of a project
 repoUrl: 'https://github.com/Greener-Games/unity-ensure'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   UGX: UGUI Extended is a high-level library over Unity's inbuilt uGui.
   Currently a work in progress
 repoUrl: 'https://github.com/adrenak/ugx'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

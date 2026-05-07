@@ -2,6 +2,7 @@ name: com.mpewsey.hexagonal-ui
 displayName: HexagonalUI
 description: A hexagonal grid layout group for Unity.
 repoUrl: 'https://github.com/mpewsey/HexagonalUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

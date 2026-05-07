@@ -3,6 +3,7 @@ displayName: WebRTC
 description: The WebRTC package provides browsers and mobile applications with Real-Time
   Communications (RTC) capabilities.
 repoUrl: https://github.com/kannan-xiao4/com.unity.webrtc
+trackingMode: git
 parentRepoUrl: https://github.com/Unity-Technologies/com.unity.webrtc
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

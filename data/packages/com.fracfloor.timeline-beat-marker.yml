@@ -2,6 +2,7 @@ name: com.fracfloor.timeline-beat-marker
 displayName: Timeline Beat Marker
 description: A Unity editor utility for adding beat markers to a Timeline asset
 repoUrl: https://github.com/raii-x/timeline-beat-marker
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

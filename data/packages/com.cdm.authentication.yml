@@ -2,6 +2,7 @@ name: com.cdm.authentication
 displayName: Authentication for Unity
 description: Simple OAuth2 client for Unity.
 repoUrl: 'https://github.com/cdmvision/authentication-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

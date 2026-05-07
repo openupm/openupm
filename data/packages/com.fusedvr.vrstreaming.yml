@@ -4,6 +4,7 @@ description: >-
   This VR Streaming Package contains a minimal SDK & prefabs to implement VR
   Streaming (CloudXR) using WebRTC and Unity Remote Rendering
 repoUrl: 'https://github.com/FusedVR/VRStreaming'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: See LICENSE.md file

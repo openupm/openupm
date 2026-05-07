@@ -4,6 +4,7 @@ description: |-
   Unity HRYooba
   AVPro Extentions
 repoUrl: 'https://github.com/HRYooba/HRYoobaUnity.AVPro'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

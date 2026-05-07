@@ -2,6 +2,7 @@ name: com.litefeel.aligntools
 displayName: AlignTools
 description: Align Tools is just perfect Unity asset plugin to align gui object
 repoUrl: 'https://github.com/litefeel/Unity-AlignTools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.nicodrake.event-channels
 displayName: Event Channels
 description: ' '
 repoUrl: https://github.com/NicolasLaure/com.nicodrake.event-channels
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

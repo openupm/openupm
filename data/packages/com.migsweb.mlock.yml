@@ -4,6 +4,7 @@ description: >-
   A flexible and efficient lock system for Unity that manages access to gameplay
   elements based on configurable tags.
 repoUrl: https://github.com/migus88/mlock
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

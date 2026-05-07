@@ -4,6 +4,7 @@ description: >-
   A way point system built for Unity. Was in the original DUCK core and moved to
   this repo.
 repoUrl: 'https://github.com/dubit/unity-waypoints'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

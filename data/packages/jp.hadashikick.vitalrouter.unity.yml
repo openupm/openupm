@@ -4,6 +4,7 @@ description: >-
   The source-generator powered zero-allocation in-memory message passing library
   for Unity and .NET.
 repoUrl: https://github.com/hadashiA/VitalRouter
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

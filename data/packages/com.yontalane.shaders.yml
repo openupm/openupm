@@ -2,6 +2,7 @@ name: com.yontalane.shaders
 displayName: Shaders
 description: A shader library.
 repoUrl: 'https://github.com/yontalane/UnityPackages'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-3.0-US
 licenseName: Creative Commons Attribution 3.0 United States

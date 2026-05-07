@@ -2,6 +2,7 @@ name: com.comcreate-info.scrmizu
 displayName: Scrmizu
 description: Variable infinite scroll in Unity UI
 repoUrl: 'https://github.com/ToshikiImagawa/Scrmizu'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

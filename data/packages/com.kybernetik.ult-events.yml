@@ -6,6 +6,7 @@ description: >-
   has superior features with fewer restrictions and an improved Inspector
   interface which requires fewer clicks to perform individual tasks.
 repoUrl: 'https://github.com/d4160/UltEvents'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

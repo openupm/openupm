@@ -12,6 +12,7 @@ description: >-
   customize property displays with minimal effort, reducing the need to maintain
   separate files or dive deep into complex editor programming.
 repoUrl: https://github.com/AbZorbaGames/artificetoolkit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

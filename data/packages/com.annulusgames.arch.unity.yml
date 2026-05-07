@@ -2,6 +2,7 @@ name: com.annulusgames.arch.unity
 displayName: Arch.Unity
 description: Arch ECS integration for Unity.
 repoUrl: https://github.com/AnnulusGames/Arch.Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.wwweh.uclicker
 displayName: uClicker
 description: A Unity Clicker Library
 repoUrl: 'https://github.com/philipcass/uClicker'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

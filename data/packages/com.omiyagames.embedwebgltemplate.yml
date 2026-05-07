@@ -5,6 +5,7 @@ description: >-
   create WebGL games that automatically resizes itself to fit within the bounds
   of the web portal embedding, including fullscreen resize support.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-embed-webgl-template'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

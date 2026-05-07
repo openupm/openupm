@@ -2,6 +2,7 @@ name: com.pixelwizards.package-utils
 displayName: PixelWizards - Package Utilities
 description: Utility for Packing assets in Unity's Package Manager format
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.package-utils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

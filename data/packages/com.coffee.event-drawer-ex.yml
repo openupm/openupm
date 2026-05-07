@@ -4,6 +4,7 @@ description: >-
   This plugin extends the UnityEventDrawer to display runtime calls in the
   inspector.
 repoUrl: 'https://github.com/mob-sakai/UnityEventDrawerEx'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.andywiecko.pbd2d
 displayName: PBD2D
 description: Unity Position Based Dynamics in two dimensions.
 repoUrl: 'https://github.com/andywiecko/PBD2D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

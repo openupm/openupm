@@ -9,6 +9,7 @@ description: >-
   the Safe Area. Optionally, add LayoutElement components to children and check
   Ignore Layout for them to be ignored from Safe Area adjustments.
 repoUrl: 'https://github.com/gilzoide/unity-safe-area-layout'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -2,6 +2,7 @@ name: com.activ.howl
 displayName: Howl-Uta
 description: (╯°□°)╯⌒ C#
 repoUrl: https://github.com/active-logic/uta
+trackingMode: git
 parentRepoUrl: null
 licenseName: Fair Source License
 licenseSpdxId: null

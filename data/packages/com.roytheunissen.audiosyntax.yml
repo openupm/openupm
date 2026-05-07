@@ -7,6 +7,7 @@ description: >-
 
   Works with both FMOD and Unity's own native audio solution.
 repoUrl: https://github.com/RoyTheunissen/Audio-Syntax
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

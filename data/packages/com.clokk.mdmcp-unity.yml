@@ -4,6 +4,7 @@ description: >-
   Markdown MCP (MDMCP) Server for Unity Editor: an HTTP-based automation bridge
   with extensible editor actions.
 repoUrl: https://github.com/clokk/mdmcp-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

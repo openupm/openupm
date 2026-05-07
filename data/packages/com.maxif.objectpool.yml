@@ -2,6 +2,7 @@ name: com.maxif.objectpool
 displayName: Object Pool
 description: Simple object pool package
 repoUrl: https://github.com/Maxi-F/ObjectPool-UnityPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

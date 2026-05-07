@@ -2,6 +2,7 @@ name: com.potatointeractive.podato
 displayName: PoDato
 description: Reader/Writer for Unity/C# for easy to hand-write data file format PoDato
 repoUrl: 'https://github.com/tlauterbach/poDato'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

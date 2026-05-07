@@ -2,6 +2,7 @@ name: com.sturfee.vps.core
 displayName: Sturfee VPS Core
 description: Core library for Sturfee VPS SDK
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

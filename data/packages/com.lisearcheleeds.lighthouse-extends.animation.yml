@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.animation
 displayName: Lighthouse Extends - Animation
 description: In/Out animation clip playback via PlayableGraph for Lighthouse scene transitions.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/Animation
 licenseSpdxId: MIT
 licenseName: MIT License

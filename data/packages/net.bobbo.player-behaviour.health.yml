@@ -2,6 +2,7 @@ name: net.bobbo.player-behaviour.health
 displayName: Player Behaviour Health
 description: Basic health functionality for the Bobbo-Net Player Controller
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

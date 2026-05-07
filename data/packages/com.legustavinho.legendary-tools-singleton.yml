@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-singleton
 displayName: Legendary Tools - Singleton
 description: ''
 repoUrl: https://github.com/LeGustaVinho/singleton
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

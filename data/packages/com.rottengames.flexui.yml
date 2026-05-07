@@ -4,6 +4,7 @@ description: >-
   A simplified, declarative API for Unity UI Toolkit. Build UI faster with
   intuitive builders, theming, and common patterns.
 repoUrl: https://github.com/Rotten-Games/FlexUI
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

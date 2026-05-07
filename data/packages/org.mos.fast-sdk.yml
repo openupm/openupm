@@ -4,6 +4,7 @@ description: >-
   A software development kit for museum professionals to quickly develop
   accessible digital tabletop interactives for educational purposes.
 repoUrl: https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

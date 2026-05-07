@@ -3,6 +3,7 @@ displayName: UniLWP.Droid Free
 description: Open-sourced version of UniLWP.Droid, an Android live wallpaper solution
   for Unity 2019.3+
 repoUrl: https://github.com/JustinFincher/UniLWP.Droid.Package.Free
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

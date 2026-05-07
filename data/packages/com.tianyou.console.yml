@@ -2,6 +2,7 @@ name: com.tianyou.console
 displayName: Console
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

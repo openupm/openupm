@@ -2,6 +2,7 @@ name: net.bunnycdn.storage
 displayName: BunnyCDN Storage
 description: The official .NET library used for interacting with the BunnyCDN Storage API.
 repoUrl: https://github.com/LostSignal/BunnyCDN.Net.Storage
+trackingMode: git
 parentRepoUrl: https://github.com/BunnyWay/BunnyCDN.Net.Storage
 licenseSpdxId: MIT
 licenseName: MIT License

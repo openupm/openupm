@@ -2,6 +2,7 @@ name: com.sasaki.viewobjects.mono
 displayName: viewobjects-mono
 description: ViewObjects for Unity
 repoUrl: 'https://github.com/haitheredavid/viewto-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: AFL-1.1
 licenseName: Academic Free License v1.1

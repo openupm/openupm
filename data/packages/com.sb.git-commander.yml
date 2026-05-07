@@ -2,6 +2,7 @@ name: com.sb.git-commander
 displayName: SB Git Commander
 description: Tool for invoking git commands from editor
 repoUrl: https://github.com/shaharbar2/SBtools
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

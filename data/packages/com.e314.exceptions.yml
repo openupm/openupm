@@ -7,6 +7,7 @@ description: >-
   (`ErrorData`), the file name, method name, and line number where the exception
   occurred. This makes debugging and logging more informative.
 repoUrl: https://github.com/epishev-m/e314-exceptions
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

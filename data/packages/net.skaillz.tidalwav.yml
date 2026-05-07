@@ -2,6 +2,7 @@ name: net.skaillz.tidalwav
 displayName: tidalwav WAV Loop Editor
 description: WAV Loop Editor for Unity
 repoUrl: 'https://github.com/SkaillZ/tidalwav'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

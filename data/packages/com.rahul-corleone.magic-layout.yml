@@ -5,6 +5,7 @@ description: >-
   workspace. After installing, just setup your editor layout
   in your favorite way.
 repoUrl: 'https://github.com/r4hulCorleone/unity-magic-layout'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Easy to use, easy to extend and high-performance library for CSV parsing with
   .NET
 repoUrl: 'https://github.com/laicasaane/TinyCsvParser'
+trackingMode: git
 parentRepoUrl: 'https://github.com/bytefish/TinyCsvParser'
 licenseSpdxId: MIT
 licenseName: MIT License

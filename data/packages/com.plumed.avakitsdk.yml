@@ -2,6 +2,7 @@ name: com.plumed.avakitsdk
 displayName: Avakit SDK
 description: .
 repoUrl: 'https://github.com/avatokapp/AvakitSDK'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE

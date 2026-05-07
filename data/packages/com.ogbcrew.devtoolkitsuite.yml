@@ -2,6 +2,7 @@ name: com.ogbcrew.devtoolkitsuite
 displayName: DevToolkit Suite
 description: "All-in-one editor toolkit for optimizing your Unity workflow â\x80\x94 from project organization to runtime data inspection."
 repoUrl: https://github.com/slowac/com.ogbcrew.devtoolkitsuite
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

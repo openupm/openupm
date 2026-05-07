@@ -4,6 +4,7 @@ description: >-
   Adds support for Light, Dark, & Tinted iOS App Icon variants, introduced with
   Xcode 16.
 repoUrl: https://github.com/artstorm/ios-app-icon-appearance
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

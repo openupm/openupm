@@ -4,6 +4,7 @@ description: >-
   A decentralized audio playing system for Unity, designed for simplicity and
   built to scale!
 repoUrl: https://github.com/jackyyang09/Simple-Unity-Audio-Manager
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

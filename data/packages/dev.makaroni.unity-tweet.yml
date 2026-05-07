@@ -2,6 +2,7 @@ name: dev.makaroni.unity-tweet
 displayName: unity-tweet
 description: TweetCapture
 repoUrl: 'https://github.com/saitocastel1900/unity-tweet'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

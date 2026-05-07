@@ -2,6 +2,7 @@ name: com.fredericrp.easyloading
 displayName: FRP Easy Loading
 description: Set of tools to load scenes and monitor its progress.
 repoUrl: 'https://github.com/FredericRP/EasyLoading'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   You can easily download these files to your Unity project or see the recent
   changes made to a file/folder.
 repoUrl: 'https://github.com/yasirkula/UnityEditorGoogleDriveIntegration'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

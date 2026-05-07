@@ -3,6 +3,7 @@ displayName: Clean Architecture Game Framework
 description: 'DEPRECATED: This package is no longer maintained. Please use https://openupm.com/packages/com.denis535.game-framework-pro
   instead.'
 repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

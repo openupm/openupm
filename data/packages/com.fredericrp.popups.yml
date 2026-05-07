@@ -4,6 +4,7 @@ description: >-
   Pile up popups and pop them out as you want. The popup manager allows to show
   and hide popups, and handle going back and forth between opened popups.
 repoUrl: 'https://github.com/FredericRP/PopupHandler'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

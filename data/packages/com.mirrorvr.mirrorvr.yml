@@ -3,6 +3,7 @@ displayName: MirrorVR
 description: A VR system for Mirror Networking, that makes it easier to develop VR
   games with Mirror in Unity.
 repoUrl: https://github.com/MirrorVR/MirrorVR
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

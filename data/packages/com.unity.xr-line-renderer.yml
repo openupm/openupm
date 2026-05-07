@@ -3,6 +3,7 @@ displayName: XR Line Renderer
 description: An XR-Focused line renderer that mimics rendering with 3d capsules while
   only using two quads worth of geometry.
 repoUrl: https://github.com/Unity-Technologies/XRLineRenderer
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

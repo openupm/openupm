@@ -4,6 +4,7 @@ description: >-
   OneJS brings JavaScript and many beloved web techs to Unity, seamlessly
   integrating with UI Toolkit without the need for a browser or webview.
 repoUrl: https://github.com/Singtaa/OneJS
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   This package implements the functionality of Microsoft.Extensions.Logging for
   use with Unity.
 repoUrl: 'https://github.com/cloud-creative-studios/UnityDebugConsoleLogger'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

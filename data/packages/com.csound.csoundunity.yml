@@ -8,6 +8,7 @@ description: "CsoundUnity is a fully integrated audio middleware. It extends Uni
   \ would not have been possible without Richard Henninger's .NET interface to the\
   \ Csound API."
 repoUrl: https://github.com/rorywalsh/CsoundUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

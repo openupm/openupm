@@ -2,6 +2,7 @@ name: com.locus.bundlesystem
 displayName: Locus Bundle System
 description: Simple Unity Addressables Alternative That Supports Synchronized API
 repoUrl: 'https://github.com/locus84/Locus-Bundle-System'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

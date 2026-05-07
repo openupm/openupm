@@ -3,6 +3,7 @@ displayName: DreadTools - VRCSDK+
 description: Overrides the VRCSDK Menu & Expression Parameters Editors to provide
   better functionality and quality of life features.
 repoUrl: https://github.com/Dreadrith/VRCSDKPlus
+trackingMode: git
 parentRepoUrl: null
 licenseName: ARR
 licenseSpdxId: null

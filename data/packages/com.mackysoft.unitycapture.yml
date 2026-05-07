@@ -3,6 +3,7 @@ displayName: UnityCapture for Universal Render Pipeline
 description: Streams Unity (Universal Render Pipeline) rendered output to other Windows
   applications as virtual capture device.
 repoUrl: https://github.com/mackysoft/UnityCapture-URP
+trackingMode: git
 parentRepoUrl: https://github.com/schellingb/UnityCapture
 licenseName: MIT License
 licenseSpdxId: MIT

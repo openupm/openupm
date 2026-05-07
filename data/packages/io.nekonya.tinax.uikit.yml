@@ -2,6 +2,7 @@ name: io.nekonya.tinax.uikit
 displayName: TinaX.UIKit
 description: ''
 repoUrl: https://github.com/yomunsam/TinaX.UIKit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: AGPL-3.0
 licenseName: GNU Affero General Public License v3.0

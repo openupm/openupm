@@ -5,6 +5,7 @@ description: >-
   forks) as code editor for unity. Adds support for generating csproj files for
   intellisense purposes, auto discovery of installations, etc.
 repoUrl: https://github.com/hackerzhuli/com.hackerzhuli.code
+trackingMode: git
 parentRepoUrl: https://github.com/needle-mirror/com.unity.ide.visualstudio
 licenseSpdxId: MIT
 licenseName: MIT License

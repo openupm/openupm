@@ -2,6 +2,7 @@ name: com.cronica.cronicagameutils
 displayName: Cronica Game Utils
 description: A lot of gameMack useful static functions
 repoUrl: https://github.com/Masuzus/cronicaGameUtils
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

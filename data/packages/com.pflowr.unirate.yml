@@ -5,6 +5,7 @@ description: >-
   interval. Preventing battery power consumption and device heat, especially on
   mobile platforms.
 repoUrl: 'https://github.com/renanwolf/UniRate'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

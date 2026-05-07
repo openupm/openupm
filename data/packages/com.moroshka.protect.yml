@@ -5,6 +5,7 @@ description: >-
   conditions. It prevents errors caused by invalid data by throwing exceptions
   with informative messages.
 repoUrl: https://github.com/moroshka-dev/moroshka-protect
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

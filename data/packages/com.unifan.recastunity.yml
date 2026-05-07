@@ -2,6 +2,7 @@ name: com.unifan.recastunity
 displayName: RecastUnity
 description: RecastNavigation for Unity3D
 repoUrl: https://github.com/821869798/recastnavigation
+trackingMode: git
 parentRepoUrl: https://github.com/recastnavigation/recastnavigation
 licenseSpdxId: Zlib
 licenseName: zlib License

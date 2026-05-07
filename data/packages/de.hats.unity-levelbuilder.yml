@@ -2,6 +2,7 @@ name: de.hats.unity-levelbuilder
 displayName: Level Builder Tool
 description: This is a custom tool to speed up prototyping room-based level design.
 repoUrl: 'https://github.com/xVini16x/unity-levelbuilder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   This Module contains the Banter SDK used for building spaces in the
   bantaverse.
 repoUrl: https://github.com/SideQuestVR/BanterSDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.gamebase.sound
 displayName: Gamebase-Sound
 description: ''
 repoUrl: 'https://github.com/hiyorin/Gamebase-Sound'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

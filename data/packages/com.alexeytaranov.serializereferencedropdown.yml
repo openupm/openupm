@@ -2,6 +2,7 @@ name: com.alexeytaranov.serializereferencedropdown
 displayName: SRD
 description: Editor dropdown for SerializeReference Attribute
 repoUrl: 'https://github.com/AlexeyTaranov/SerializeReferenceDropdown'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

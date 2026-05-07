@@ -2,6 +2,7 @@ name: net.narazaka.unity.export-package-advanced
 displayName: Export Package (Advanced)
 description: Advanced "Export Package" (without Scripts etc.)
 repoUrl: https://github.com/Narazaka/ExportPackageAdvanced
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

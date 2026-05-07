@@ -2,6 +2,7 @@ name: com.st.rect-ex
 displayName: RectEx
 description: RectEx improves working with Rect class and drawing pure EditorGUI elements.
 repoUrl: 'https://github.com/Thundernerd/rect-ex'
+trackingMode: git
 parentRepoUrl: 'https://github.com/slavniyteo/rect-ex'
 licenseSpdxId: MIT
 licenseName: MIT License

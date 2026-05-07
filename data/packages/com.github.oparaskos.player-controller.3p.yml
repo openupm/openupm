@@ -2,6 +2,7 @@ name: com.github.oparaskos.player-controller.3p
 displayName: Third Person Player Controller
 description: ''
 repoUrl: 'https://github.com/oparaskos/com.github.oparaskos.player-controller.3p'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

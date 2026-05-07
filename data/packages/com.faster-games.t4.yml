@@ -2,6 +2,7 @@ name: com.faster-games.t4
 displayName: T4 Templates
 description: T4 text template generative importer for Unity3D
 repoUrl: https://github.com/faster-games/t4
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

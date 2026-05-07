@@ -5,6 +5,7 @@ description: >-
   Arithmetic and Fast Robust Geometric Predicates, Shewchuk 1996. This package
   is a port of Govert van Drimmelen's RobustGeometry.NET.
 repoUrl: 'https://github.com/bassmit/robustgeometricpredicates'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

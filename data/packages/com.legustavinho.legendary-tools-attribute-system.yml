@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-attribute-system
 displayName: Legendary Tools - Attribute System
 description: ''
 repoUrl: https://github.com/LeGustaVinho/attribute-system
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

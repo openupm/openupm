@@ -4,6 +4,7 @@ description: >-
   A small tool in Unity Editor to display notes, which can be used to share
   must-read information within a team.
 repoUrl: https://github.com/SolarianZ/UnityProjectNotes
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

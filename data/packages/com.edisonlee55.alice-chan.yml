@@ -2,6 +2,7 @@ name: com.edisonlee55.alice-chan
 displayName: Alice Chan
 description: 'A cute VRoid character, Alice Chan!'
 repoUrl: 'https://github.com/edisonlee55/AliceChan'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-SA-4.0
 licenseName: Creative Commons Attribution Share Alike 4.0 International

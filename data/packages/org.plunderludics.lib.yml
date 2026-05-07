@@ -2,6 +2,7 @@ name: org.plunderludics.lib
 displayName: Plunderludics.lib
 description: tools for making games with emulated games using unity-hawk
 repoUrl: https://github.com/plunderludics/lib
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -4,6 +4,7 @@ description: >-
   An editor extension window that allows you to bookmark not only assets, but
   also various other elements.
 repoUrl: 'https://github.com/zenigane138/AnythingBookmark'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

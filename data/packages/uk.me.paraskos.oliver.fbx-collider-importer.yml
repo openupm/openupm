@@ -3,6 +3,7 @@ displayName: Model Collider Importer
 description: 'Import Unreal-Style colliders from Blender/FBX files into Unity Game
   Engine '
 repoUrl: https://github.com/oparaskos/unity-fbx-collider-importer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

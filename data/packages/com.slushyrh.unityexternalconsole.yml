@@ -5,6 +5,7 @@ description: >-
   real-time, featuring automatic injection and a settings menu. Perfect for
   off-screen debugging in multi-monitor environments.
 repoUrl: https://github.com/SlushyRH/Unity-External-Console
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

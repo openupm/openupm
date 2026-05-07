@@ -4,6 +4,7 @@ description: |-
   packagetest
   hallo
 repoUrl: 'https://github.com/bassmit/packagetest'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

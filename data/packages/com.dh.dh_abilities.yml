@@ -4,6 +4,7 @@ description: >-
   This system provides a framework and some samples to implement abilities.
   Check Github for feature list.
 repoUrl: 'https://github.com/dirkhartlage/dh_abilities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.fairygui.gui
 displayName: FairyGUI
 description: A flexible UI framework for Unity
 repoUrl: 'https://github.com/hqpko/FairyGUI-unity'
+trackingMode: git
 parentRepoUrl: 'https://github.com/fairygui/FairyGUI-unity'
 licenseSpdxId: MIT
 licenseName: MIT License

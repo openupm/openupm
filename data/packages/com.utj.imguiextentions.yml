@@ -2,6 +2,7 @@ name: com.utj.imguiextentions
 displayName: IMGUI Extentions
 description: This package extends GUI/GUILayout/EditorGUI/EditorGUILayout.
 repoUrl: 'https://github.com/katsumasa/IMGUIExtentions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

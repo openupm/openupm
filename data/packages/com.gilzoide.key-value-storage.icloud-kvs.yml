@@ -4,6 +4,7 @@ description: >-
   Key-Value Store implementation backed by iCloud KVS
   (NSUbiquitousKeyValueStore).
 repoUrl: https://github.com/gilzoide/unity-key-value-store-icloud-kvs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

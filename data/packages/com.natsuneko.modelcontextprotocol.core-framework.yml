@@ -5,6 +5,7 @@ description: >-
   the AI in Unity. This package is the Core Framework of uMCP. Please install
   the Management Tools and other packages to use the MCP protocol.
 repoUrl: https://github.com/mika-f/uMCP
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

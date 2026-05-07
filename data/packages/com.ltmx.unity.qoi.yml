@@ -2,6 +2,7 @@ name: com.ltmx.unity.qoi
 displayName: Unity.QOI
 description: Utilities to Import and Export to the QOI Image Format
 repoUrl: 'https://github.com/LTMX/Unity.QOI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

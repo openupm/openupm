@@ -4,6 +4,7 @@ description: >-
   A powerful debugging system that allows for command use and runtime data
   follow.
 repoUrl: https://github.com/jvarelaaloisio/DebugSystem-UnityPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

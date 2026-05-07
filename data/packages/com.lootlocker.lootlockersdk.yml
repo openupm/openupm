@@ -52,6 +52,7 @@ description: >
   - Segments
   - White Label Login
 repoUrl: https://github.com/lootlocker/unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

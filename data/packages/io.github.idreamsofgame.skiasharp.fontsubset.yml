@@ -2,6 +2,7 @@ name: io.github.idreamsofgame.skiasharp.fontsubset
 displayName: SkiaSharp.FontSubset
 description: Implements font subset feature by SkiaSharp.
 repoUrl: https://github.com/iDreamsOfGame/SkiaSharp.FontSubset
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: MIT

@@ -2,6 +2,7 @@ name: com.doji.neutron
 displayName: Neutron
 description: A neural network viewer editor extension built for/with Unity Sentis.
 repoUrl: https://github.com/julienkay/com.doji.neutron
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

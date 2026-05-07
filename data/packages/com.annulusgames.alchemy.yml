@@ -5,6 +5,7 @@ description: >-
   Unity. Adds attributes that provide powerful inspector extensions and a source
   generator that extends Unity's serialization.
 repoUrl: https://github.com/AnnulusGames/Alchemy
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

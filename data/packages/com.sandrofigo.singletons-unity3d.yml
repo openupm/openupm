@@ -2,6 +2,7 @@ name: com.sandrofigo.singletons-unity3d
 displayName: Singletons
 description: Singleton classes for Unity
 repoUrl: 'https://github.com/sandrofigo/Singletons-Unity3D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

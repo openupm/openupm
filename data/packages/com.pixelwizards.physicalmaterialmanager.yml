@@ -2,6 +2,7 @@ name: com.pixelwizards.physicalmaterialmanager
 displayName: PixelWizards - Physical Material Manager
 description: Simple manager for Unity PhysicMaterials in your project
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.physicalmaterialmanager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

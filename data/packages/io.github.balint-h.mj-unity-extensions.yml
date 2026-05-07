@@ -2,6 +2,7 @@ name: io.github.balint-h.mj-unity-extensions
 displayName: Mj Extensions
 description: Scripts for interfacing with a Mujoco Scene
 repoUrl: https://github.com/kezzyhko/mj-unity-extensions-upm
+trackingMode: git
 parentRepoUrl: https://github.com/Balint-H/modular-agents
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

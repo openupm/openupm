@@ -4,6 +4,7 @@ description: >-
   A simple tool to create bitmap fonts from a texture sprite sheet to be used
   with Text component.
 repoUrl: https://github.com/kleber-swf/unity-bitmap-font-creator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

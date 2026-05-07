@@ -2,6 +2,7 @@ name: com.niikelion.ui.lithium
 displayName: Lithium UI
 description: Reactive UI library designed for editor tools creation.
 repoUrl: https://github.com/Niikelion/lithium-ui
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

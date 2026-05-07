@@ -4,6 +4,7 @@ description: >-
   A set of developer tools to make it easier to create and distribute packages
   for the native Unity Package Manager.
 repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-package-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

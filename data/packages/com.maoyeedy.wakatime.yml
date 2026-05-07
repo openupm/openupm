@@ -2,6 +2,7 @@ name: com.maoyeedy.wakatime
 displayName: WakaTime
 description: WakaTime/Wakapi plugin for Unity
 repoUrl: https://github.com/Maoyeedy/Wakatime.Unity
+trackingMode: git
 parentRepoUrl: https://github.com/vanBassum/Wakatime.Unity
 licenseSpdxId: MIT
 licenseName: MIT License

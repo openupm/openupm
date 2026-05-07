@@ -4,6 +4,7 @@ description: >-
   Automatically alter generic field of SerializeReference into its non-generic
   form
 repoUrl: 'https://github.com/quabug/GenericSerializeReference'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

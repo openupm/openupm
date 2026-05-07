@@ -2,6 +2,7 @@ name: com.brandoncoffey.coffeyutils
 displayName: Coffey Utils
 description: This is Brandon Coffey's Utilities Package
 repoUrl: 'https://github.com/BrandonMCoffey/CoffeyUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

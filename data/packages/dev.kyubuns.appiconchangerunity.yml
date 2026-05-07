@@ -2,6 +2,7 @@ name: dev.kyubuns.appiconchangerunity
 displayName: AppIconChangerUnity
 description: Change the app icon dynamically in Unity (iOS only)
 repoUrl: 'https://github.com/kyubuns/AppIconChangerUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

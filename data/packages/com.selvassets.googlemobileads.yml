@@ -2,6 +2,7 @@ name: com.selvassets.googlemobileads
 displayName: SA - Google Mobile Ads
 description: Google Mobile Ads v8.7.0 implementation by SelvAssets
 repoUrl: https://github.com/selvassets/googlemobileads
+trackingMode: git
 parentRepoUrl: null
 licenseName: Open source
 licenseSpdxId: null

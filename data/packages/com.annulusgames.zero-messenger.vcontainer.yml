@@ -2,6 +2,7 @@ name: com.annulusgames.zero-messenger.vcontainer
 displayName: ZeroMessenger.VContainer
 description: VContainer extensions for ZeroMessenger
 repoUrl: https://github.com/AnnulusGames/ZeroMessenger
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

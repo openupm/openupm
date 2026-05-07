@@ -4,6 +4,7 @@ description: >-
   VContainer Auto-Registration Source Generator and Roslyn Analyzers with
   Type-Safe Scopes.
 repoUrl: https://github.com/NhomNhem/NhemDangFugBixs.Tooling
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: ISC
 licenseName: ISC License

@@ -2,6 +2,7 @@ name: com.ultraleap.dependencytoolkit
 displayName: Ultraleap Dependency Toolkit
 description: 'Tools for discovering, navigating and analysing asset dependencies.'
 repoUrl: 'https://github.com/ultraleap/Unity-Dependency-Toolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

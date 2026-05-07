@@ -4,6 +4,7 @@ description: |-
   A suite of framework-like tools that aim to make implementing and testing
   grid-based games easier.
 repoUrl: https://github.com/dsmiller95/GridGameTools
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

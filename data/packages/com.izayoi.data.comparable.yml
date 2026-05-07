@@ -2,6 +2,7 @@ name: com.izayoi.data.comparable
 displayName: Izayoi.Data.Comparable
 description: This is a collection of comparable objects.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

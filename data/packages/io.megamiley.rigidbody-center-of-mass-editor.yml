@@ -2,6 +2,7 @@ name: io.megamiley.rigidbody-center-of-mass-editor
 displayName: Rigidbody Center Of Mass Editor
 description: Allows you to change the center of mass of Rigidbodies within the Unity editor
 repoUrl: 'https://github.com/MileyHollenberg/RigidbodyCenterOfMassEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

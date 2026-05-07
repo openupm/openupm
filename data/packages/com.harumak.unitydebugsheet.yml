@@ -4,6 +4,7 @@ description: >-
   Hierarchical debug menu system for Unity that makes it easy to create
   intuitive and organized debug menus.
 repoUrl: https://github.com/Haruma-K/UnityDebugSheet
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

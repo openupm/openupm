@@ -2,6 +2,7 @@ name: com.e314.ext-uni
 displayName: E314.ExtUni
 description: Extensions for Unity
 repoUrl: https://github.com/epishev-m/e314-ext-uni
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

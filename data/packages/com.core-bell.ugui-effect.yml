@@ -2,6 +2,7 @@ name: com.core-bell.ugui-effect
 displayName: UGUI-EFFECT
 description: UGUI Vertex Effect
 repoUrl: https://github.com/corle-bell/UGUIEffect
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

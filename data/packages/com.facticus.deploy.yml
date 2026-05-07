@@ -4,6 +4,7 @@ description: >-
   A Unity package to help you build and deploy your game remotely with Github
   Actions
 repoUrl: 'https://github.com/mnicolas94/facticus-deploy'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

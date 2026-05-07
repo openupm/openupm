@@ -2,6 +2,7 @@ name: com.dubitlimited.duck.debug-menu
 displayName: Duck Debug Menu
 description: A prebuilt Debug Menu that includes typically needed debugging features.
 repoUrl: 'https://github.com/dubit/unity-debug-menu'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -4,6 +4,7 @@ description: >-
   Generic DOTS runtime spawning for any combination of prefab, components, and
   buffers.
 repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

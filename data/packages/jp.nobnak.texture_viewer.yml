@@ -2,6 +2,7 @@ name: jp.nobnak.texture_viewer
 displayName: Texture viewer
 description: ''
 repoUrl: https://github.com/nobnak/TextureViewer-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

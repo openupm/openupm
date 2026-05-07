@@ -4,6 +4,7 @@ description: >-
   A native Unity plugin to import/export files from/to various document
   providers on Android & iOS
 repoUrl: 'https://github.com/yasirkula/UnityNativeFilePicker'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

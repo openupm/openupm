@@ -2,6 +2,7 @@ name: com.kwanjoong.textmeshpromax
 displayName: Text Mesh Pro Max
 description: The ultimate Text Mesh Pro helper package.
 repoUrl: https://github.com/kwan3854/TextMeshProMax
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

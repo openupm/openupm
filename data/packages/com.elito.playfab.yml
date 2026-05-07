@@ -2,6 +2,7 @@ name: com.elito.playfab
 displayName: PlayFab package
 description: ''
 repoUrl: https://github.com/iLataria/PlayFab
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

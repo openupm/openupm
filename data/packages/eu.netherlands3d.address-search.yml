@@ -4,6 +4,7 @@ description: >-
   An auto-completing dropdown that can find and select Dutch addresses and
   locations
 repoUrl: 'https://github.com/Netherlands3D/AddressSearch'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

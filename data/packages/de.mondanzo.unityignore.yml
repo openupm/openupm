@@ -2,6 +2,7 @@ name: de.mondanzo.unityignore
 displayName: UnityIgnore
 description: A small utility to add a typical ignore format for the unity version control.
 repoUrl: https://github.com/Mondanzo/UnityIgnore
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

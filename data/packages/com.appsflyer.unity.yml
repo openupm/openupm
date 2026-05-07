@@ -2,6 +2,7 @@ name: com.appsflyer.unity
 displayName: AppsFlyer
 description: AppsFlyer Unity plugin
 repoUrl: https://github.com/AppsFlyerSDK/appsflyer-unity-plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

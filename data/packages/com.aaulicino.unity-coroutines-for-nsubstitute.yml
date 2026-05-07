@@ -2,6 +2,7 @@ name: com.aaulicino.unity-coroutines-for-nsubstitute
 displayName: Unity Coroutines for NSubstitute
 description: Mocking Unity3D Coroutines in Unity3D using NSubstitute
 repoUrl: 'https://github.com/AAulicino/Unity-Coroutines-for-NSubstitute'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

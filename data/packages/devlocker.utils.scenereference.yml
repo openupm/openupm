@@ -6,6 +6,7 @@ description: >-
   path strings - it will try to do it for you as best as it can, including when
   building the player.
 repoUrl: 'https://github.com/NibbleByte/UnitySceneReference'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

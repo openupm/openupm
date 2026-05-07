@@ -2,6 +2,7 @@ name: com.smeagolem.pyxis
 displayName: Pyxis
 description: "\U0001F9F0 A box of Unity tools."
 repoUrl: 'https://github.com/denovodavid/pyxis'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

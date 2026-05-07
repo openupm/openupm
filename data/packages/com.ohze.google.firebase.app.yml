@@ -2,6 +2,7 @@ name: com.ohze.google.firebase.app
 displayName: Firebase App (Core)
 description: Firebase App is the core library every Firebase package depends on.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.google.firebase.app
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

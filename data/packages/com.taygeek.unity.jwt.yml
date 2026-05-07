@@ -2,6 +2,7 @@ name: com.taygeek.unity.jwt
 displayName: JWT for Unity
 description: JSON Web Token (JWT) Implementation for Unity (C#)
 repoUrl: https://github.com/AceLam/JWT-for-Unity
+trackingMode: git
 parentRepoUrl: https://github.com/monry/JWT-for-Unity
 licenseName: MIT License
 licenseSpdxId: MIT

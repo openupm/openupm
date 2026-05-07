@@ -3,6 +3,7 @@ displayName: Physics Custom Authoring
 description: Provides a custom authoring experience for creating rigid bodies and
   colliders for Unity Physics
 repoUrl: https://github.com/redwyre/com.redwyre.physics-custom-authoring
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

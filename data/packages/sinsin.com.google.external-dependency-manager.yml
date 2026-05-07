@@ -6,6 +6,7 @@ description: >-
   management of transitive dependencies, and/or management of Unity Package
   Manager registries.
 repoUrl: https://github.com/DeusExMachina1993/unity-jar-resolver
+trackingMode: git
 parentRepoUrl: https://github.com/googlesamples/unity-jar-resolver
 licenseSpdxId: null
 licenseName: LICENSE.md

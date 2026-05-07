@@ -2,6 +2,7 @@ name: jp.pokemori.univrm-extensions
 displayName: UniVRMExtensions
 description: "Directly creates VRM prefab from .fbx without exporting to make it possible configure VRM. Copies settings of UniVRM components between two VRM prefabs."
 repoUrl: 'https://github.com/esperecyan/UniVRMExtensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

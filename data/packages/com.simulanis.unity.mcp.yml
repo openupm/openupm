@@ -5,6 +5,7 @@ description: >-
   expose Unity API to LLM and allows LLM to control Unity. It is based on Model
   Context Protocol (MCP) and uses SignalR for communication.
 repoUrl: https://github.com/simulanis-dev-yokesh-j/Unity-MCP
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

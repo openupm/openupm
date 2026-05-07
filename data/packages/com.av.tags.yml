@@ -2,6 +2,7 @@ name: com.av.tags
 displayName: Tags
 description: Exploring usage of custom tags with ScriptableObjects in Unity
 repoUrl: https://github.com/neon-age/Tags
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

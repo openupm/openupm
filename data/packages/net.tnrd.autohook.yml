@@ -2,6 +2,7 @@ name: net.tnrd.autohook
 displayName: AutoHook
 description: A property drawer that automagically assigns a reference to your field
 repoUrl: 'https://github.com/Thundernerd/Unity3D-AutoHook'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

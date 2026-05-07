@@ -4,6 +4,7 @@ description: >-
   A fork of glTFast for Netherlands3D to be optimized for WebGL; glTFast is used to 
   import and export glTF 3D files efficiently at runtime or in the Editor
 repoUrl: 'https://github.com/Netherlands3D/glTFast'
+trackingMode: git
 parentRepoUrl: 'https://github.com/atteneder/glTFast'
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

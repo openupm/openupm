@@ -2,6 +2,7 @@ name: com.gilzoide.fsharp
 displayName: F#
 description: Support F# scripting in Unity with automatic compilation
 repoUrl: https://github.com/gilzoide/unity-fsharp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

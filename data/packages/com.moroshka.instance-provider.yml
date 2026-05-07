@@ -5,6 +5,7 @@ description: >-
   ensures that the instance will be properly disposed of if it implements the
   `IDisposable` interface.
 repoUrl: https://github.com/moroshka-dev/motoshka-instance-provider
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

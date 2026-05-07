@@ -2,6 +2,7 @@ name: com.karrar.netick
 displayName: Netick
 description: A networking solution for Unity
 repoUrl: https://github.com/NetickNetworking/NetickForUnity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

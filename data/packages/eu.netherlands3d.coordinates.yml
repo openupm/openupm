@@ -2,6 +2,7 @@ name: eu.netherlands3d.coordinates
 displayName: Netherlands 3D - Coordinates Conversion
 description: ''
 repoUrl: 'https://github.com/Netherlands3D/Coordinates'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

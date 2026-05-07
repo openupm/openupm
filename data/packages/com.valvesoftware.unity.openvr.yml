@@ -2,6 +2,7 @@ name: com.valvesoftware.unity.openvr
 displayName: OpenVR XR Plugin
 description: OpenVR plugin for Unity's XR API
 repoUrl: 'https://github.com/ValveSoftware/unity-xr-plugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

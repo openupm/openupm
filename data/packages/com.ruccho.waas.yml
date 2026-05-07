@@ -4,6 +4,7 @@ description: >-
   Stands for WebAssembly as a Script, a language-independent scripting engine
   for Unity and .NET.
 repoUrl: https://github.com/ruccho/WaaS
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

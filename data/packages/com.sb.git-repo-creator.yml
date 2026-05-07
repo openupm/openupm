@@ -2,6 +2,7 @@ name: com.sb.git-repo-creator
 displayName: Git Repo Creator
 description: Craeting Git Repo
 repoUrl: https://github.com/shaharbar2/SBGitRepoCreator
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

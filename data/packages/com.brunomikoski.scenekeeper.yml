@@ -4,6 +4,7 @@ description: >-
   A simple tool that keeps your hierarchy exactly as you left for individual
   scenes in between switching scenes on editor or play mode.
 repoUrl: 'https://github.com/brunomikoski/SceneKeeper'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

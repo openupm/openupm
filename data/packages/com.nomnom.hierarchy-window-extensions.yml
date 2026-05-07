@@ -2,6 +2,7 @@ name: com.nomnom.hierarchy-window-extensions
 displayName: Hierarchy Window Extensions
 description: This aims to improve the usability of the hierarchy window.
 repoUrl: 'https://github.com/nomnomab/Hierarchy-Window-Extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

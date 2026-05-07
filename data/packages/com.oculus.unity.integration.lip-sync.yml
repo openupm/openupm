@@ -3,6 +3,7 @@ displayName: Oculus Integration Lip Sync
 description: Unofficial mirror of the Oculus Unity-Integration Lip Sync as a package
   for Unity.
 repoUrl: https://github.com/Trisgram/com.oculus.unity.integration.lip-sync
+trackingMode: git
 parentRepoUrl: null
 licenseName: Oculus SDK License
 licenseSpdxId: null

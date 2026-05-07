@@ -6,6 +6,7 @@ description: >-
   fields of a given type. This tool is useful when working with reflection,
   where you need to dynamically examine types at runtime.
 repoUrl: https://github.com/moroshka-dev/moroshka-type-analyzer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

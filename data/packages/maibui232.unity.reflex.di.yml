@@ -2,6 +2,7 @@ name: maibui232.unity.reflex.di
 displayName: ReflexDI
 description: Dependency Injection
 repoUrl: https://github.com/maibui232/ReflexDI
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -4,6 +4,7 @@ description: >-
   Unity Design Patterns based in the book: Hands-On Game Development Patterns
   with Unity 2019
 repoUrl: https://github.com/mfdeveloper/UnityPatterns
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

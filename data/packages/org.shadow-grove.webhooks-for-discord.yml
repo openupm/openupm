@@ -2,6 +2,7 @@ name: org.shadow-grove.webhooks-for-discord
 displayName: Webhooks for Discord
 description: The easiest way to send messages to your Discord server from Unity!
 repoUrl: 'https://github.com/ShadowGroveGames/Webhooks-for-Discord'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

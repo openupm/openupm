@@ -4,6 +4,7 @@ description: >-
   The UI Accessibility Plugin (UAP) integration with Unity Localization official
   UPM package, to translate keys for screen readers
 repoUrl: https://github.com/mfdeveloper/UnityAccessibilityPlugin
+trackingMode: git
 parentRepoUrl: https://github.com/mikrima/UnityAccessibilityPlugin
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

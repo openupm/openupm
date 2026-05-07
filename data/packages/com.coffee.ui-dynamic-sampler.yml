@@ -2,6 +2,7 @@ name: com.coffee.ui-dynamic-sampler
 displayName: UI Dynamic Sampler
 description: Dynamic sampler component for anti-aliasing UI elements.
 repoUrl: https://github.com/mob-sakai/UIDynamicSampler
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

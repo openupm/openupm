@@ -3,6 +3,7 @@ displayName: Melon Cinematic Tonemapper
 description: A good looking Tonemapper for Unity HDRP, aimed to fix ACES issues and
   provide a better color grading experience.
 repoUrl: https://github.com/ltmx/Melon-Tonemapper
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

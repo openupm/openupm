@@ -4,6 +4,7 @@ description: >-
   Google ARCore Extensions for AR Foundation. This package provides access to
   ARCore features not covered by AR Foundation's cross platform API.
 repoUrl: 'https://github.com/google-ar/arcore-unity-extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

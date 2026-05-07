@@ -2,6 +2,7 @@ name: net.mirzipan.heist
 displayName: Mirzipan Heist
 description: Simple command pattern implementation for Unity
 repoUrl: 'https://github.com/Mirzipan/Mirzipan.Heist'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

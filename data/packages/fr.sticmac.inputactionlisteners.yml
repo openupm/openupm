@@ -2,6 +2,7 @@ name: fr.sticmac.inputactionlisteners
 displayName: Input Action Listeners
 description: Just a simple system to manage Unity new input system more easily.
 repoUrl: 'https://github.com/sticmac/unity-input-action-listeners'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

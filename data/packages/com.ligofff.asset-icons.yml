@@ -3,6 +3,7 @@ displayName: Asset icons
 description: Small editor plugin for show icons on ScriptableObject assets in project
   and fields
 repoUrl: https://github.com/ligofff/SimpleTools-CustomSOIcons
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

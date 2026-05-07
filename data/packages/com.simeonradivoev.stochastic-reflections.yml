@@ -2,6 +2,7 @@ name: com.simeonradivoev.stochastic-reflections
 displayName: Stochastic Screen Space Reflections
 description: Compute Stochastic Screen Space Reflections for unity post processing
 repoUrl: 'https://github.com/simeonradivoev/ComputeStochasticReflections'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

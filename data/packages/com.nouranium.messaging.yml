@@ -2,6 +2,7 @@ name: com.nouranium.messaging
 displayName: Nouranium Messaging
 description: Fast and simple message system for Unity3d game engine.
 repoUrl: 'https://github.com/nouranium-vault/messaging'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

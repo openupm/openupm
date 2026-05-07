@@ -4,6 +4,7 @@ description: >-
   Provides resource pooling of any type for performance-critical applications
   that allocate and deallocate objects frequently.
 repoUrl: 'https://github.com/system-community/SystemBuffers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

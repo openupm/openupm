@@ -2,6 +2,7 @@ name: com.wrj.arccast
 displayName: Arc Raycast
 description: Arc raycast utility using projectile formulas
 repoUrl: https://github.com/williamrjackson/UnityArcRayCast
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

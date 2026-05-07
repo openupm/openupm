@@ -4,6 +4,7 @@ description: >-
   Providing NDesk.Options by ANU because of missing original package in Unity
   PackageManager
 repoUrl: https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.ndesk-options
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.sai.animatorparameterview
 displayName: AnimatorParameterView
 description: Source Generator for Unity Animator Parameters
 repoUrl: https://github.com/Saismirk/AnimatorParameterView
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

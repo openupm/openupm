@@ -2,6 +2,7 @@ name: com.furnyr.dissonity
 displayName: Dissonity
 description: Interact with the Discord client inside a Unity activity.
 repoUrl: https://github.com/Furnyr/Dissonity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

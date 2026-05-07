@@ -5,6 +5,7 @@ description: >-
   that lets you select a parent and override selected fields in the child
   object.
 repoUrl: https://github.com/LeGustaVinho/ScriptableObjectVariant
+trackingMode: git
 parentRepoUrl: https://github.com/GieziJo/ScriptableObjectVariant
 licenseSpdxId: MIT
 licenseName: MIT License

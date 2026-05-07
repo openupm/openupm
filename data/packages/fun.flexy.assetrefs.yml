@@ -7,6 +7,7 @@ description: >-
   well-suited for small projects where Addressables can create more issues than
   they solve and easily expand to more complex systems later.
 repoUrl: https://github.com/FlexyTools/Flexy.AssetRefs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: jp.andantetribe.backport
 displayName: Backport
 description: Backported .NET APIs for legacy runtimes such as Unity.
 repoUrl: https://github.com/AndanteTribe/Backport
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

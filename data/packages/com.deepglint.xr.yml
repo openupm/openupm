@@ -2,6 +2,7 @@ name: com.deepglint.xr
 displayName: DGXR Integration SDK
 description: Provides Deepglint XR support
 repoUrl: https://github.com/deepglint/dgxr-integration-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

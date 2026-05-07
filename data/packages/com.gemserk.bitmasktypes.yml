@@ -2,6 +2,7 @@ name: com.gemserk.bitmasktypes
 displayName: Unity Bitmask Types by Gemserk
 description: 'Unity Bitmask Types https://github.com/acoppes/unity-bitmasktypes'
 repoUrl: 'https://github.com/acoppes/unity-bitmasktypes'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

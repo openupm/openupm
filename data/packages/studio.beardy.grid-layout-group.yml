@@ -2,6 +2,7 @@ name: studio.beardy.grid-layout-group
 displayName: Beardy's Grid Layout Group
 description: Fixes child-alignment in the grid-layout-group.
 repoUrl: https://github.com/mrbeardy/BeardyGridLayout
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: Unity Companion Package License v1.0

@@ -2,6 +2,7 @@ name: com.weariness.dataprefs
 displayName: DataPrefs Utility
 description: DataPrefs Included In Build
 repoUrl: https://github.com/weariness00/MyUnituPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

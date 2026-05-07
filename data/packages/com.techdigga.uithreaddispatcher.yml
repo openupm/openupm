@@ -4,6 +4,7 @@ description: >-
   A modular, thread-safe dispatcher for marshalling calls to Unity's main thread
   with async/await support.
 repoUrl: https://github.com/techdigga/unity-ui-thread-dispatcher
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

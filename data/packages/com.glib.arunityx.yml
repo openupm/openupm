@@ -2,6 +2,7 @@ name: com.glib.arunityx
 displayName: Glib
 description: UPM fork of arunityx
 repoUrl: 'https://github.com/VGA-GLAB/G-Lab-Library'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

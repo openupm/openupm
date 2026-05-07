@@ -5,6 +5,7 @@ description: >-
   injection library for creating applications based upon the classic
   Model-View-Controller design meta-pattern.
 repoUrl: https://github.com/iDreamsOfGame/Pharos
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

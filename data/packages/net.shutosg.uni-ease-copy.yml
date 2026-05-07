@@ -2,6 +2,7 @@ name: net.shutosg.uni-ease-copy
 displayName: UniEaseCopy
 description: Easing copy and paste tool
 repoUrl: 'https://github.com/shutosg/UniEaseCopy'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: net.bobbo.dev-console.camera-manager
 displayName: Camera Manager Console Commands
 description: Console Commands for the CameraManager
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: dev.kyubuns.animetask
 displayName: AnimeTask
 description: Task Animation Library for Unity
 repoUrl: 'https://github.com/kyubuns/AnimeTask'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

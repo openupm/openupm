@@ -4,6 +4,7 @@ description: >-
   A local persistence library as an alternative to UnityEngine.PlayerPrefs, for
   .NET and Unity.
 repoUrl: https://github.com/AndanteTribe/LocalPrefs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

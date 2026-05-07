@@ -2,6 +2,7 @@ name: com.selvassets.reflectionsingleton
 displayName: SA - ReflectionSingleton
 description: ReflectionSingleton implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ReflectionSingleton
+trackingMode: git
 parentRepoUrl: null
 licenseName: Open source
 licenseSpdxId: null

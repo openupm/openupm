@@ -3,6 +3,7 @@ displayName: Protocol Buffers
 description: Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral,
   extensible mechanism for serializing structured data.
 repoUrl: https://github.com/stalomeow/Protobuf-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

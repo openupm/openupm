@@ -2,6 +2,7 @@ name: jp.keijiro.metamesh
 displayName: Metamesh
 description: Unity primitive mesh generator as an asset importer
 repoUrl: 'https://github.com/keijiro/Metamesh'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

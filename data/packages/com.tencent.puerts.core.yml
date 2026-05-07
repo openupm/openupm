@@ -4,6 +4,7 @@ description: >-
   Write your game with TypeScript in UE4 or Unity. Puerts can be pronounced as
   pu-erh TS（普洱TS）
 repoUrl: 'https://github.com/chexiongsheng/puerts_unity_demo'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

@@ -5,6 +5,7 @@ description: >-
   common testing libraries designed for integration across multiple Unity
   projects and packages.
 repoUrl: https://github.com/MazeModels/TestingToolkit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

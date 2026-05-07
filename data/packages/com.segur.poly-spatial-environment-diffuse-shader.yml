@@ -3,6 +3,7 @@ displayName: PolySpatial Environment Diffuse Shader
 description: This shader reflects the diffuse light of the environment, captured by
   the external cameras of Apple Vision Pro, onto the surface.
 repoUrl: https://github.com/segurvita/PolySpatialEnvironmentDiffuseShader
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

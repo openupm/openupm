@@ -2,6 +2,7 @@ name: com.mackysoft.vision
 displayName: Vision
 description: CullingGroup API for everyone.
 repoUrl: 'https://github.com/mackysoft/Vision'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

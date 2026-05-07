@@ -4,6 +4,7 @@ description: >-
   Material design icons is the official icon set from Google. They can be
   browsed at https://fonts.google.com/icons.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.fonts.material-icons'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

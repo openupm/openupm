@@ -4,6 +4,7 @@ description: >-
   Fix `Constraint.constraintActive` when importing unitypackages from
   Unity>=2022(m_Active) to Unity<=2021(m_IsContraintActive)
 repoUrl: https://github.com/Narazaka/under-2022-constraint-activator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

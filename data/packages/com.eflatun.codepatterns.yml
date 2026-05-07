@@ -2,6 +2,7 @@ name: com.eflatun.codepatterns
 displayName: Eflatun.CodePatterns
 description: Common code pattern utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.CodePatterns'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

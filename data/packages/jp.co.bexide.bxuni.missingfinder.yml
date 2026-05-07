@@ -2,6 +2,7 @@ name: jp.co.bexide.bxuni.missingfinder
 displayName: BxUni Missing Finder
 description: Missing Reference detection tool
 repoUrl: https://github.com/bexide/BxUni-MissingFinder
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

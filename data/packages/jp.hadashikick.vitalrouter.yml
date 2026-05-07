@@ -4,6 +4,7 @@ description: >-
   The zero-allocation message passing tool for Unity (Game Engine). And the very
   thin layer that encourages MVP (or whatever)-like design.
 repoUrl: https://github.com/hadashiA/VitalRouter
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

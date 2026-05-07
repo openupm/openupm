@@ -2,6 +2,7 @@ name: com.harumak.unityuiplayables
 displayName: Unity UI Playables
 description: A set of tracks and clips for controlling the Unity UI (uGUI) with Timeline.
 repoUrl: 'https://github.com/Haruma-K/UnityUIPlayables'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

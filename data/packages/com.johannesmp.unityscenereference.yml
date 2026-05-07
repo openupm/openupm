@@ -5,6 +5,7 @@ description: >-
   custom PropertyDrawer to provide safe, user-friendly scene references in
   scripts.
 repoUrl: 'https://github.com/starikcetin/unity-scene-reference'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

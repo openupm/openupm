@@ -2,6 +2,7 @@ name: com.ericsebesta.toolbelt
 displayName: Unity Toolbelt
 description: An open source package of Unity tools.
 repoUrl: 'https://github.com/ericsebesta/unity-toolbelt'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

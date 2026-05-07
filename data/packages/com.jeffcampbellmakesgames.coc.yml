@@ -5,6 +5,7 @@ description: >-
   defining your Unity projects folder structure and optionally generate code to
   be able to easily retrieve specific folder paths.
 repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-coc'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.tityx.state-machine
 displayName: State Machine
 description: Basic state machine template
 repoUrl: https://github.com/Tityxx/State-Machine
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

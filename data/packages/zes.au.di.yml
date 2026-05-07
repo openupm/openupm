@@ -2,6 +2,7 @@ name: zes.au.di
 displayName: Au Inject Lib
 description: Dependence Inject Library for Au
 repoUrl: 'https://github.com/zhihesoft/zes-unity-au-di'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

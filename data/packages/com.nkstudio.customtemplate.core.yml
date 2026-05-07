@@ -2,6 +2,7 @@ name: com.nkstudio.customtemplate.core
 displayName: CustomTemplate Core
 description: The core of the Unity custom library.
 repoUrl: https://github.com/NK-Studio/CustomTemplate
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

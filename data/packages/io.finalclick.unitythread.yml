@@ -2,6 +2,7 @@ name: io.finalclick.unitythread
 displayName: FinalClick - Unity Thread
 description: Easily run Functions and Tasks on Unitys main thread.
 repoUrl: https://github.com/FinalClick/io.finalclick.unitythread
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'GPL-3.0-only'
 licenseName: 'GNU General Public License v3.0 only'

@@ -4,6 +4,7 @@ description: >-
   Adjust pivot point of an object in Unity without creating an empty parent
   object
 repoUrl: 'https://github.com/yasirkula/UnityAdjustPivot'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 0BSD
 licenseName: BSD Zero Clause License

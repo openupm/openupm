@@ -4,6 +4,7 @@ description: >-
   Allows you to pin commonly used assets on the window, so you can find them
   quickly.
 repoUrl: https://github.com/ArtomStatsenko/unity-project-pin-board
+trackingMode: git
 parentRepoUrl: https://github.com/ichenpipi/unity-project-pin-board
 licenseSpdxId: MIT
 licenseName: MIT License

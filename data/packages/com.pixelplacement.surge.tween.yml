@@ -2,6 +2,7 @@ name: com.pixelplacement.surge.tween
 displayName: Surge Tween
 description: UPM project for Tween features in the Surge toolset by Pixel Placement
 repoUrl: 'https://github.com/adrenak/Surge.Tween'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   This is control setting for unity. Used for in-game controller ad mouse
   settings.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.control
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

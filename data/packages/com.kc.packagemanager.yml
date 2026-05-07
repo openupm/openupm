@@ -2,6 +2,7 @@ name: com.kc.packagemanager
 displayName: KC.PackageManager
 description: KC包体管理器
 repoUrl: https://github.com/zkyvette425/com.kc.packagemanager
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

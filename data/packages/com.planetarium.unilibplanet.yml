@@ -2,6 +2,7 @@ name: com.planetarium.unilibplanet
 displayName: Unilibplanet
 description: Libplanet Extensions for Unity
 repoUrl: https://github.com/planetarium/libplanet-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-2.1
 licenseName: GNU Lesser General Public License v2.1 only

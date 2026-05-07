@@ -2,6 +2,7 @@ name: org.lightningartist.latk
 displayName: Lightning Artist Toolkit
 description: Pipeline tools for volumetric animation
 repoUrl: https://github.com/LightningArtist/latkUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

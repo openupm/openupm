@@ -2,6 +2,7 @@ name: ru.threedisevenzeror.sensorkit
 displayName: Sensor Kit
 description: Utility classes for headache-free raycasting configuration in Unity
 repoUrl: 'https://github.com/3DI70R/SensorKit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

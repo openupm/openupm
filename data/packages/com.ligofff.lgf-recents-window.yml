@@ -2,6 +2,7 @@ name: com.ligofff.lgf-recents-window
 displayName: Ligofff - LGF Recents Window
 description: Just adds little recents window
 repoUrl: https://github.com/ligofff/lgf-recents-window
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

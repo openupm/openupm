@@ -6,6 +6,7 @@ description: >-
   Use this to avoid unwanted diffs in source control for Materials,
   ScriptableObjects or other assets that get modified during gameplay.
 repoUrl: 'https://github.com/gilzoide/unity-reset-after-play-mode'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

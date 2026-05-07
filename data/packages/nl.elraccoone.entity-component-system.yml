@@ -6,6 +6,7 @@ description: >-
   moving from object-oriented to data-oriented design it will be easier for you
   to reuse the code and easier for others to understand and work on it.
 repoUrl: 'https://github.com/jeffreylanters/unity-entity-component-system'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

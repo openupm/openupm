@@ -2,6 +2,7 @@ name: co.mindport.builder.core
 displayName: VR Builder Core
 description: VR Builder core functionality.
 repoUrl: 'https://github.com/VaLiuM09/VPG-Core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

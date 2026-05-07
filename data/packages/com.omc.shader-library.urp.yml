@@ -2,6 +2,7 @@ name: com.omc.shader-library.urp
 displayName: OMC URP SahderLibrary
 description: ''
 repoUrl: https://github.com/RyutoOhmori0414/OMC-Library
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

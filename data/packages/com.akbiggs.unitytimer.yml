@@ -2,6 +2,7 @@ name: com.akbiggs.unitytimer
 displayName: Unity Timer
 description: Powerful and convenient library for running actions after a delay in Unity3D.
 repoUrl: 'https://github.com/akbiggs/UnityTimer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

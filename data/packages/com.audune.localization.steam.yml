@@ -2,6 +2,7 @@ name: com.audune.localization.steam
 displayName: Steam Localization Integration
 description: Steam localization integration for the Audune Localization package
 repoUrl: https://github.com/audunegames/steam-localization-integration
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

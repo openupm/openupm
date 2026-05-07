@@ -4,6 +4,7 @@ description: >-
   Add license keys to your Unity game. Activation, validation, 
   entitlements, and offline mode. Pure C# implementation.
 repoUrl: https://github.com/licenseseat/licenseseat-csharp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

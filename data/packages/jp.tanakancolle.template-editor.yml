@@ -2,6 +2,7 @@ name: jp.tanakancolle.template-editor
 displayName: Template Editor
 description: Template Editor
 repoUrl: https://github.com/Tanakancolle/UnityTemplateEditor
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: |-
   An Open Sound Control (OSC) protocol driver
   (Forked for VirtualCast and Forked for UPM packaging)
 repoUrl: https://github.com/darie-picu/OscCore
+trackingMode: git
 parentRepoUrl: https://github.com/stella3d/OscCore
 licenseSpdxId: MIT
 licenseName: MIT License

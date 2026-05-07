@@ -4,6 +4,7 @@ description: >-
   AceLand Library is utilities, editor extension, unity low-level tools, c# and
   unity implements.  Most AceLand Packages is relying this package to work.
 repoUrl: https://github.com/parsue/com.aceland.library
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

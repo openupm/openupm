@@ -3,6 +3,7 @@ displayName: Figma for Unity
 description: Figma to Unity uxml/uss converter, utilities for VisualTree management
   in runtime.
 repoUrl: https://github.com/TrackMan/Unity.Package.FigmaForUnity
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache 2 Custom
 licenseSpdxId: null

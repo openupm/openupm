@@ -4,6 +4,7 @@ description: >-
   An editor tool that automatically sorts imported assets into predefined
   folders based on file type, keeping your project hierarchy clean.
 repoUrl: https://github.com/mnmfullmetal/Unity-Asset-Organiser
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.vadimskyi.lightningfasttweeners
 displayName: Unity Lightning-Fast UI Tweener
 description: Simple lightweight tweener library for fast and low-gc ui animation.
 repoUrl: https://github.com/Vadimskyi/UnityLightningFastUITweener
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

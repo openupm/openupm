@@ -2,6 +2,7 @@ name: com.rest.huggingface
 displayName: HuggingFace
 description: A Non-Official HuggingFace Rest Client for Unity (UPM)
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.huggingface'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

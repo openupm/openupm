@@ -2,6 +2,7 @@ name: net.bobbo.camera-audio-listener
 displayName: Camera Audio Listener
 description: Audio, for the Camera!
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

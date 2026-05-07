@@ -4,6 +4,7 @@ description: >-
   ScriptableObject architecture with small, easy-to-expand codebase, and simple
   UI.
 repoUrl: 'https://github.com/szunami/GenericScriptableArchitecture'
+trackingMode: git
 parentRepoUrl: 'https://github.com/steve-salmond/GenericScriptableArchitecture'
 licenseSpdxId: MIT
 licenseName: MIT License

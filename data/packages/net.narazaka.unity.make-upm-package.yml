@@ -2,6 +2,7 @@ name: net.narazaka.unity.make-upm-package
 displayName: MakeUPMPackage
 description: "Narazakaが個人用に作ったUPMパッケージのGitリポジトリとかを雑に作るやつ"
 repoUrl: https://github.com/Narazaka/MakeUPMPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

@@ -2,6 +2,7 @@ name: com.strodio.unikinesis-sdk
 displayName: UniKinesis SDK
 description: AWS Kinesis SDK for Unity Native App and WebGL
 repoUrl: https://github.com/StromKuo/UniKinesis
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

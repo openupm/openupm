@@ -3,6 +3,7 @@ displayName: ShaderGraph Markdown
 description: Markdown-like syntax for ShaderGraph properties, to make better material
   inspectors
 repoUrl: https://github.com/needle-tools/shadergraph-markdown
+trackingMode: git
 parentRepoUrl: null
 licenseName: Custom
 licenseSpdxId: null

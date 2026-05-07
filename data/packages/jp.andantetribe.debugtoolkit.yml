@@ -2,6 +2,7 @@ name: jp.andantetribe.debugtoolkit
 displayName: Debug Toolkit
 description: A toolkit for debugging and profiling Unity applications.
 repoUrl: https://github.com/AndanteTribe/DebugToolkit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

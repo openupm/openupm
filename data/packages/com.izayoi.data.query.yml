@@ -2,6 +2,7 @@ name: com.izayoi.data.query
 displayName: Izayoi.Data.Query
 description: This is a library that supports building query (SQL) to manipulate a database.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

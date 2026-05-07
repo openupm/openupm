@@ -2,6 +2,7 @@ name: com.adorkable.eunomia-unity
 displayName: Eunomia Unity
 description: Eunomia general utility library for Unity
 repoUrl: https://github.com/Adorkable/EunomiaUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

@@ -4,6 +4,7 @@ description: >-
   Graphy is the ultimate, easy to use, feature packed FPS counter, stats monitor
   and debugger for your Unity project.
 repoUrl: 'https://github.com/Tayx94/graphy'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

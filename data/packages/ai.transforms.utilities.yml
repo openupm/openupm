@@ -2,6 +2,7 @@ name: ai.transforms.utilities
 displayName: TransformsAI Utilities
 description: Set of utility scripts used by Transitional Forms in Unity
 repoUrl: 'https://github.com/transformsai/UnityUtilities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

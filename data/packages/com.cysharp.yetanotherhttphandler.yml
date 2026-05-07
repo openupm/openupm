@@ -4,6 +4,7 @@ description: >-
   YetAnotherHttpHandler that brings the power of HTTP/2 (and gRPC) to Unity and
   .NET Standard.
 repoUrl: 'https://github.com/Cysharp/YetAnotherHttpHandler'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: be.elab.snam16k
 displayName: Generic16K
 description: Tools to prepare native array of 128*128 element to game with 16k player.
 repoUrl: https://github.com/EloiStree/OpenUPM_SNAM16K
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

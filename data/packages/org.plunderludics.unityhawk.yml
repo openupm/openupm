@@ -2,6 +2,7 @@ name: org.plunderludics.unityhawk
 displayName: UnityHawk
 description: Run emulated games within Unity via BizHawk
 repoUrl: https://github.com/plunderludics/unity-hawk
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -8,6 +8,7 @@ description: 'Didimo provides a cloud-based automated service that enables the g
   your existing software and enable your users to easily generate and load digital
   doubles of themselves directly into your experience, all at runtime.'
 repoUrl: https://github.com/didimoinc/didimo-digital-human-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: Didimo Source Code License
 licenseSpdxId: null

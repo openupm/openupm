@@ -4,6 +4,7 @@ description: >-
   A scriptable render pipeline for emulating Playstation-1-style graphics on
   contemporary hardware.
 repoUrl: 'https://github.com/pastasfuture/com.hauntedpsx.render-pipelines.psx'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

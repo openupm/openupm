@@ -4,6 +4,7 @@ description: >-
   A way to run automated tasks integrated in the Unity Game Engine Editor
   (similar to Grunt or Gulp in the web).
 repoUrl: 'https://github.com/lavaleak/combo'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.laurenth.hdrp-timeline-extensions
 displayName: High Definition RP Timeline Extensions
 description: Timeline tracks for hdrp settings
 repoUrl: 'https://github.com/laurenth-personal/hdrp.timeline.extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

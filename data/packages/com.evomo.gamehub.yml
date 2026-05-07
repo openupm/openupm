@@ -2,6 +2,7 @@ name: com.evomo.gamehub
 displayName: Evomo Gamehub Integration
 description: Package used to integrate your game inside the Gamehub
 repoUrl: 'https://github.com/Evomo/GameHubPlugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.opuscope.bridge
 displayName: Opuscope - Bridge
 description: Opuscope Bridge
 repoUrl: https://github.com/opuscope/UnityAsyncBridge
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

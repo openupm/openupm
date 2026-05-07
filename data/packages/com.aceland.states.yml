@@ -2,6 +2,7 @@ name: com.aceland.states
 displayName: AceLand States
 description: AceLand States is state machine framework designed for Unity.
 repoUrl: https://github.com/parsue/com.aceland.states
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

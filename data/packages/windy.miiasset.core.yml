@@ -2,6 +2,7 @@ name: windy.miiasset.core
 displayName: MiiAsset
 description: Unity Resource and Code hot update
 repoUrl: https://github.com/windyuuy/MiiAsset
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

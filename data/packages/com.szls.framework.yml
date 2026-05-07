@@ -2,6 +2,7 @@ name: com.szls.framework
 displayName: framework
 description: szls framework!
 repoUrl: https://github.com/tuanti/ytls
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

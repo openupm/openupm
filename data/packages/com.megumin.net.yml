@@ -4,6 +4,7 @@ description: |-
   这是一个网络模块的通用解决方案。
   设计目的为应用程序网络模块提供统一的HighLevel接口。
 repoUrl: https://github.com/KumoKyaku/Megumin.Net
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

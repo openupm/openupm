@@ -2,6 +2,7 @@ name: io.troublecat.unity-package-example
 displayName: Unity Package Example
 description: An example of how to structure a Unity Package Project
 repoUrl: https://github.com/troublecatstudios/unity-package-example
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

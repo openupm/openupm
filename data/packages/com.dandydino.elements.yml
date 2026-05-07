@@ -4,6 +4,7 @@ description: >-
   Unity Inspector and Windows Utilities for Editor - Build UI inspired in
   Flutter
 repoUrl: https://github.com/AlbertoVosgerau/DDElements
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: WTFPL
 licenseName: WTFPL

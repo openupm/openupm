@@ -4,6 +4,7 @@ description: >-
   Buildalon is a comprehensive suite of automation tools to help Unity
   developers build, test, and deploy their projects faster.
 repoUrl: https://github.com/buildalon/com.virtualmaker.buildalon
+trackingMode: git
 parentRepoUrl: https://github.com/RageAgainstThePixel/com.utilities.buildpipeine
 licenseSpdxId: MIT
 licenseName: MIT License

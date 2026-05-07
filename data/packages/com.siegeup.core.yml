@@ -3,6 +3,7 @@ displayName: SiegeUp.Core
 description: SiegeUp core module includes all base components for construction and
   serializtion of game objects. Useful for modding and utilities.
 repoUrl: https://github.com/SiegeUp/SiegeUp.Core
+trackingMode: git
 parentRepoUrl: null
 licenseName: Abuksigun SiegeUp
 licenseSpdxId: null

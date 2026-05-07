@@ -5,6 +5,7 @@ description: >-
   This allows MCP Clients like Claude Desktop or Cursor to directly control your
   Unity Editor.
 repoUrl: https://github.com/CoplayDev/unity-mcp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

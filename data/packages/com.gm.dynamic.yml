@@ -2,6 +2,7 @@ name: com.gm.dynamic
 displayName: Dynamic For Unity
 description: Unity Support Dynamic
 repoUrl: https://github.com/Goatman1996/DynamicForUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.unity.material-switch
 displayName: Material Switch
 description: ''
 repoUrl: https://github.com/Unity-Technologies/com.unity.material-switch
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

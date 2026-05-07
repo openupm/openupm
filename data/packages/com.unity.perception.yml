@@ -2,6 +2,7 @@ name: com.unity.perception
 displayName: Perception
 description: Perception toolkit for sim2real training and validation
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.perception'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

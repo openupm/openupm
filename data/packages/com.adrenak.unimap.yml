@@ -2,6 +2,7 @@ name: com.adrenak.unimap
 displayName: UniMap
 description: Google Maps wrapper for Unity
 repoUrl: 'https://github.com/adrenak/unimap'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

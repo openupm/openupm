@@ -2,6 +2,7 @@ name: net.bobbo.sgb.imod
 displayName: Icy's SGB Mods
 description: ''
 repoUrl: https://github.com/BOBBO-NET/net.bobbo.sgb.imod
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

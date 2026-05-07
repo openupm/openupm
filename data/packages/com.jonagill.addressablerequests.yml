@@ -2,6 +2,7 @@ name: com.jonagill.addressablerequests
 displayName: Addressable Requests
 description: Helper API for interfacing with Unity's Addressables system.
 repoUrl: https://github.com/jonagill/AddressableRequests
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT-0
 licenseName: MIT No Attribution

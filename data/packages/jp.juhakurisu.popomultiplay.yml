@@ -2,6 +2,7 @@ name: jp.juhakurisu.popomultiplay
 displayName: popoMultiplay
 description: ''
 repoUrl: 'https://github.com/KurisuJuha/popoMultiplay'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,6 +3,7 @@ displayName: UI Material Property Injector
 description: This package provides a component that allows easy modification of material
   properties for Unity UI (uGUI) without the need for shader-specific custom components.
 repoUrl: https://github.com/mob-sakai/UIMaterialPropertyInjector
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -3,6 +3,7 @@ displayName: Spritesheet Importer
 description: Importer for spritesheets defined in CSV format for Unity 2022 LTS or
   higher.
 repoUrl: https://github.com/audunegames/spritesheet-importer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

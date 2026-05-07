@@ -2,6 +2,7 @@ name: com.woo.localization
 displayName: WooLocalization
 description: localization
 repoUrl: https://github.com/OnClick9927/WooLocalization
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

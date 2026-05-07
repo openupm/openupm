@@ -2,6 +2,7 @@ name: jp.keijiro.rtmidi
 displayName: RtMidi
 description: RtMidi wrapper package for Unity
 repoUrl: 'https://github.com/keijiro/jp.keijiro.rtmidi'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

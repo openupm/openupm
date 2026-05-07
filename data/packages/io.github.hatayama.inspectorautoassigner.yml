@@ -2,6 +2,7 @@ name: io.github.hatayama.inspectorautoassigner
 displayName: InspectorAutoAssigner
 description: ''
 repoUrl: https://github.com/hatayama/InspectorAutoAssigner
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

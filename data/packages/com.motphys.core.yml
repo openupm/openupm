@@ -2,6 +2,7 @@ name: com.motphys.core
 displayName: Motphys Core
 description: Motphys Engine Core Library
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

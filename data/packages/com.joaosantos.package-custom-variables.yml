@@ -2,6 +2,7 @@ name: com.joaosantos.package-custom-variables
 displayName: JS Custom Variable
 description: Package with new variable formats using ScriptableObjects
 repoUrl: https://github.com/JoaoSant0s/unity-custom-packages
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

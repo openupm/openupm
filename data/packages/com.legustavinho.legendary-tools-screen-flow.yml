@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-screen-flow
 displayName: Legendary Tools - Screen Flow
 description: ''
 repoUrl: https://github.com/LeGustaVinho/screen-flow
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

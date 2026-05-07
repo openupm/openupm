@@ -2,6 +2,7 @@ name: com.cysharp.zstring
 displayName: ZString
 description: Zero Allocation StringBuilder for .NET Core and Unity.
 repoUrl: 'https://github.com/Cysharp/ZString'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

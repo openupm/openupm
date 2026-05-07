@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.font
 displayName: Lighthouse Extends - Font
 description: Subscribes to ILanguageService and updates the current TMP_FontAsset from LanguageFontSettings on each language change.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/Font
 licenseSpdxId: MIT
 licenseName: MIT License

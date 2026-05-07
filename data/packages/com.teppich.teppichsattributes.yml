@@ -2,6 +2,7 @@ name: com.teppich.teppichsattributes
 displayName: Teppich's Attributes
 description: Stats and resources for RPGs
 repoUrl: 'https://github.com/JohannesSpicker/ReignCompanySimulator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

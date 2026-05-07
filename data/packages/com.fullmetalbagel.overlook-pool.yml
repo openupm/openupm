@@ -2,6 +2,7 @@ name: com.fullmetalbagel.overlook-pool
 displayName: Overlook Pool
 description: ''
 repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

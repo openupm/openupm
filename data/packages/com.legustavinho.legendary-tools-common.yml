@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-common
 displayName: Legendary Tools - Common
 description: ''
 repoUrl: https://github.com/LeGustaVinho/legendary-tools-common
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

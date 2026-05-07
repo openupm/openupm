@@ -7,6 +7,7 @@ description: >-
   [SerializeReference] attributes to call classes that should show in the Graph
   View.
 repoUrl: 'https://github.com/Gentlymad-Studios/NewGraph'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

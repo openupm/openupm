@@ -2,6 +2,7 @@ name: com.yanyshyn.unity-tools
 displayName: Unity Helper Tools
 description: Unity Helper Tools for help unity developers
 repoUrl: 'https://github.com/yanyshynv/unity-helping-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.omnilatent.litjson
 displayName: LitJson
 description: Litjson suitable for Package Manager.
 repoUrl: https://github.com/Omnilatent/UnityLitJson
+trackingMode: git
 parentRepoUrl: https://github.com/Mervill/UnityLitJson
 licenseName: The Unlicense
 licenseSpdxId: Unlicense

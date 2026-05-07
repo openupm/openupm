@@ -2,6 +2,7 @@ name: com.kwanjoong.unityuistoryboard
 displayName: Unity UI Storyboard
 description: A Unity package for structured UI development.
 repoUrl: https://github.com/kwan3854/UnityUIStoryboard
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

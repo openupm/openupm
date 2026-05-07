@@ -7,6 +7,7 @@ description: >-
   were difficult to implement with UI shaders, such as blur, soft outline, and
   soft shadow!
 repoUrl: https://github.com/mob-sakai/CompositeCanvasRenderer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

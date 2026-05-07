@@ -4,6 +4,7 @@ description: >-
   A tool built in Unity that draws a graph representation of behavior trees
   running in the scene
 repoUrl: 'https://github.com/Yecats/UnityBehaviorTreeVisualizer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC0-1.0
 licenseName: Creative Commons Zero v1.0 Universal

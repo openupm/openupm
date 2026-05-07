@@ -4,6 +4,7 @@ description: >-
   Upgrade Text, InputField, Dropdown and TextMesh objects to their TextMesh Pro
   variants in Unity
 repoUrl: 'https://github.com/yasirkula/UnityTextToTextMeshProUpgradeTool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

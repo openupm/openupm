@@ -2,6 +2,7 @@ name: com.agm.edge-detection
 displayName: Edge Detection
 description: Edge Detect / Outliner for Unity Post-Processing Stack v2
 repoUrl: 'https://github.com/AGM-GR/EdgeDetection'
+trackingMode: git
 parentRepoUrl: 'https://github.com/jean-moreno/EdgeDetect-PostProcessingUnity'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: Tool extension for the Unity Editor that enables easy access to the
   preferences over a simple UI. Allows to view, add, remove and modify entries on
   the development machine.
 repoUrl: https://github.com/Dysman/bgTools-playerPrefsEditor
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

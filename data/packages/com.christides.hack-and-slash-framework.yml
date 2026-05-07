@@ -2,6 +2,7 @@ name: com.christides.hack-and-slash-framework
 displayName: Hack and Slash Framework
 description: HnSF is a Unity framework for developing Hack-and-Slash/Character Action games.
 repoUrl: 'https://github.com/christides11/hack-and-slash-framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

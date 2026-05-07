@@ -2,6 +2,7 @@ name: com.virgis.mdal
 displayName: Mdal
 description: Unity Package for MDAL - Mesh Data Abstraction Layer
 repoUrl: 'https://github.com/ViRGIS-Team/mdal-upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

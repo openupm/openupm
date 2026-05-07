@@ -4,6 +4,7 @@ description: >-
   Instant Replay allows you to constantly record the last N seconds of gameplay
   and export it as a video at any time.
 repoUrl: https://github.com/CyberAgentGameEntertainment/InstantReplay
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

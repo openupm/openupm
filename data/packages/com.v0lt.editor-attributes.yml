@@ -5,6 +5,7 @@ description: >-
   your project to easly customize your editors without having to write any
   editor code.
 repoUrl: https://github.com/v0lt13/EditorAttributes
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

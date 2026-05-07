@@ -4,6 +4,7 @@ description: >-
   A convenient way to edit and compare version numbers according to the Semantic
   Versioning 2.0.0 specification. Also includes a property drawer for Unity.
 repoUrl: 'https://github.com/Artees/Unity-SemVer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: 'require .NET 4x
 
   '
 repoUrl: https://github.com/openugd/upm-signal
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

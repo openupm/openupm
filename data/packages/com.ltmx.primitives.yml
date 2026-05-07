@@ -2,6 +2,7 @@ name: com.ltmx.primitives
 displayName: Custom Primitives
 description: More Primitives For Unity
 repoUrl: https://github.com/ltmx/Unity-Custom-Primitives
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: jp.ikep.unicamex
 displayName: UniCamEx
 description: MacOS virtual camera for using Apple's camera extension with Core Media I/O.
 repoUrl: https://github.com/creativeIKEP/UniCamEx
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

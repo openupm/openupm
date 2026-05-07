@@ -2,6 +2,7 @@ name: com.twinfaerie.colored-header
 displayName: TwinFaerie Colored-Header
 description: TwinFaerie Colored-Header based on My Hierarchy by inf
 repoUrl: https://github.com/TwinFaerie/twinfaerie-coloredheader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

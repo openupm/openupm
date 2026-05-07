@@ -2,6 +2,7 @@ name: com.toorah-games.drawing
 displayName: Drawing Library
 description: A Small library for using Graphics Drawing functions
 repoUrl: 'https://github.com/Toorah/com.toorah-games.drawing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -4,6 +4,7 @@ description: "A Non-Official Mirror of the Oculus Sample-Framework as a UPM pack
   \ for the Unity Game Engine.\r\n\r\nAll copyrights, trademarks, logoes, and assets\
   \ are the property of their respective owners."
 repoUrl: https://github.com/RageAgainstThePixel/com.oculus.sample-framework
+trackingMode: git
 parentRepoUrl: null
 licenseName: Oculus SDK License
 licenseSpdxId: null

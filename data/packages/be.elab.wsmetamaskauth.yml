@@ -3,6 +3,7 @@ displayName: MetaMask Tunneling Auth Client
 description: WebSocket tunnel between Unity3D and a server running ETH/MetaMask for
   claim identification.
 repoUrl: https://github.com/EloiStree/OpenUPM_WsMetaMaskAuth
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

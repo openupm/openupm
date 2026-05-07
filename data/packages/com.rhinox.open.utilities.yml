@@ -2,6 +2,7 @@ name: com.rhinox.open.utilities
 displayName: Utilities Library
 description: Utility code for Unity projects.
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-utilities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

@@ -2,6 +2,7 @@ name: dev.upm-packages.extra-unirx
 displayName: Extra UniRx
 description: ':seedling: Extra Utility for UniRx'
 repoUrl: 'https://github.com/umm/extra_unirx'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

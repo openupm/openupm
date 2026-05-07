@@ -4,6 +4,7 @@ description: >-
   This package contains a lot of extension methods for unity, which make
   developing more convenient.
 repoUrl: https://github.com/KurbanismailovZaur/Extensions
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

@@ -2,6 +2,7 @@ name: com.walletconnect.nethereum
 displayName: WalletConnectUnity Nethereum
 description: WalletConnect v2 and Modal for Unity 🎮
 repoUrl: https://github.com/WalletConnect/WalletConnectUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   An integrated solution for authoring / importing / simulating / rendering
   strand-based hair in Unity.
 repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.hair
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

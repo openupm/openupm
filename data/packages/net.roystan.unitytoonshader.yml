@@ -4,6 +4,7 @@ description: >-
   Source code for Toon Shader tutorial for Unity. Has specular, rim lighting,
   and can cast and receive shadows.
 repoUrl: 'https://github.com/favoyang/UnityToonShader-UPM'
+trackingMode: git
 parentRepoUrl: 'https://github.com/IronWarrior/UnityToonShader'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

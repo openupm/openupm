@@ -4,6 +4,7 @@ description: >-
   Provides additional types that simplify the work of writing concurrent and
   asynchronous code.
 repoUrl: 'https://github.com/system-community/SystemThreadingTasksExtensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

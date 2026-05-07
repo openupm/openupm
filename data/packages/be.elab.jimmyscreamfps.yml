@@ -4,6 +4,7 @@ description: >-
   This tool allows you to see and hear your game scream when FPS are under 55-66
   FPS. Very useful for virtual reality project and build debugging.
 repoUrl: https://github.com/EloiStree/2020_05_28_JimmyScreamFPS
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

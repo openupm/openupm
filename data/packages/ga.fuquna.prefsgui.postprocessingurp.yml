@@ -2,6 +2,7 @@ name: ga.fuquna.prefsgui.postprocessingurp
 displayName: PrefsGUI - PostProcessingURP
 description: PrefsGUI extensions for URP PostProcessing
 repoUrl: https://github.com/fuqunaga/PrefsGUI-PostProcessingURP
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

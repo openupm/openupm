@@ -4,6 +4,7 @@ description: >-
   A lightweight Unity networking toolkit providing API request management,
   interceptors, and editor-based configuration.
 repoUrl: https://github.com/VoyageForge/Bridge
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

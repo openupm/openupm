@@ -2,6 +2,7 @@ name: com.linuxsenpai.multitargetbuilder
 displayName: MultiTarget Builder
 description: Unity Multi-Target Builder Configuration Project Tool
 repoUrl: https://github.com/voldien/UMultiTargetBuilder
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

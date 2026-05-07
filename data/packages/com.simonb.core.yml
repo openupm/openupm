@@ -2,6 +2,7 @@ name: com.simonb.core
 displayName: SimonB Core Package
 description: Core for my projects
 repoUrl: 'https://github.com/capsizedmoose/com.simonb.core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

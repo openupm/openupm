@@ -2,6 +2,7 @@ name: com.grimbarinteractive.unity-variables
 displayName: Unity Variables
 description: Scriptable object variables.
 repoUrl: https://github.com/Grimbar-Interactive/unity-variables
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

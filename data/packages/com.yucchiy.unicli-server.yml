@@ -2,6 +2,7 @@ name: com.yucchiy.unicli-server
 displayName: UniCli Server
 description: Unity Editor plugin - Server for controlling Unity via CLI
 repoUrl: https://github.com/yucchiy/UniCli
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

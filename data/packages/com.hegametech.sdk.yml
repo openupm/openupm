@@ -2,6 +2,7 @@ name: com.hegametech.sdk
 displayName: SDK
 description: ''
 repoUrl: 'https://github.com/hemingfei/unity_sdk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

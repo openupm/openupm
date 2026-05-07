@@ -4,6 +4,7 @@ description: >-
   Unity plugin that outputs errors for null SerializeFields during runtime, with
   options to allow exceptions, installable via git URL or OpenUPM.
 repoUrl: https://github.com/tanitaka-tech/OptionalSerializeField
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

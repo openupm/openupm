@@ -2,6 +2,7 @@ name: net.room127.standarddevset
 displayName: Room127 Standard Dev Set
 description: Collection of useful scripts
 repoUrl: 'https://github.com/yasuta127/ro-standard-dev-set'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

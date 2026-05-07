@@ -2,6 +2,7 @@ name: jp.keijiro.klak.testtools
 displayName: Test Tools
 description: A small collection of utility scripts for testing.
 repoUrl: https://github.com/keijiro/TestTools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

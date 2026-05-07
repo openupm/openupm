@@ -2,6 +2,7 @@ name: com.bigasdev.bigastools
 displayName: Bigas Tools
 description: Tools with my classes for game development
 repoUrl: https://github.com/bigasdev/com.bigasdev.bigastools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

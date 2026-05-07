@@ -4,6 +4,7 @@ description: >-
   The Entity Component System framework for Unity. Ease the pain of decoupling
   data from behaviors
 repoUrl: 'https://github.com/PixeyeHQ/actors'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

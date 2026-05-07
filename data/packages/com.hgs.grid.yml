@@ -2,6 +2,7 @@ name: com.hgs.grid
 displayName: HGS Grid
 description: Grid System with Cube Coordinates
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-grid'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

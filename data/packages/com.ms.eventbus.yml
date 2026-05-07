@@ -2,6 +2,7 @@ name: com.ms.eventbus
 displayName: EventBus
 description: A simple event subscribe & post library for Unity
 repoUrl: 'https://github.com/wlgys8/EventBus'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

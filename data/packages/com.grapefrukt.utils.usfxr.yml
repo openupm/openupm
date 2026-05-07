@@ -2,6 +2,7 @@ name: com.grapefrukt.utils.usfxr
 displayName: usfxr
 description: A Unity port of sfxr/as3sfxr/bfxr
 repoUrl: 'https://github.com/grapefrukt/usfxr'
+trackingMode: git
 parentRepoUrl: 'https://github.com/zeh/usfxr'
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

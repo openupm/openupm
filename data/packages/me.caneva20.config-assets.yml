@@ -4,6 +4,7 @@ description: >-
   Simple & Lightweight solution for creating and loading config assets for Unity
   projects
 repoUrl: 'https://github.com/caneva20/ConfigAssets'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

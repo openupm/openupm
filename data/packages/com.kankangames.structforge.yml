@@ -4,6 +4,7 @@ description: >-
   High-performance, Zero-Allocation, Unsafe data structures for Unity. Includes
   EnumSet, BitArray3D, Grid and more.
 repoUrl: https://github.com/FurkanKirat/StructForge
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

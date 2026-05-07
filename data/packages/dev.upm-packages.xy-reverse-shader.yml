@@ -2,6 +2,7 @@ name: dev.upm-packages.xy-reverse-shader
 displayName: XY Reverse Shader
 description: ↔️ uGUI xy reverse shader
 repoUrl: 'https://github.com/umm/xy_reverse_shader'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

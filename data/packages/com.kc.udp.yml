@@ -2,6 +2,7 @@ name: com.kc.udp
 displayName: KC.UDP
 description: udp组件
 repoUrl: https://github.com/wangrongTXDY/com.kc.udp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

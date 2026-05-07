@@ -4,6 +4,7 @@ description: >-
   Automatically installs a git pre-commit hook to prevent commits with very
   large files
 repoUrl: 'https://github.com/needle-tools/git-hooks'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

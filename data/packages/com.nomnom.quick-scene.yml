@@ -2,6 +2,7 @@ name: com.nomnom.quick-scene
 displayName: Quick Scene
 description: Description
 repoUrl: 'https://github.com/nomnomab/Quick-Scene'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

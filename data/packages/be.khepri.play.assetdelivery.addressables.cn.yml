@@ -2,6 +2,7 @@ name: be.khepri.play.assetdelivery.addressables.cn
 displayName: Google Play Asset Delivery - Addressables
 description: Provide addressables with support for Play Asset Delivery
 repoUrl: 'https://github.com/danyow/be.khepri.play.assetdelivery.addressables.cn'
+trackingMode: git
 parentRepoUrl: 'https://github.com/thanh-nguyen-kim/be.khepri.play.assetdelivery.addressables'
 licenseSpdxId: null
 licenseName: 'TBD'

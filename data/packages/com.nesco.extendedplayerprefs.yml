@@ -4,6 +4,7 @@ description: >-
   About this package introduces additional functionalities for handling various
   data types conveniently in UnityEngine.PlayerPrefs
 repoUrl: https://github.com/nskrkmz/ExtendedPlayerPrefs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

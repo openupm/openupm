@@ -2,6 +2,7 @@ name: ai.hume.unity
 displayName: Hume
 description: Unity SDK for HumeAI
 repoUrl: https://github.com/HumeAI/hume-dotnet-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

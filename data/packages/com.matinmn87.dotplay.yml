@@ -4,6 +4,7 @@ description: >-
   (in development) The Free Framework for Unity game development. Including
   Library, Pre-coded components, samples & ...
 repoUrl: 'https://github.com/matinmn87/Unity-DotPlay'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

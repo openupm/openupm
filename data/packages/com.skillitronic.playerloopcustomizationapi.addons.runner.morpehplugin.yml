@@ -3,6 +3,7 @@ displayName: PlayerLoop customization API Runner Morpeh Plugin
 description: Morpeh Plugin for PlayerLoop customization API Runner
 repoUrl: >-
   https://github.com/skelitheprogrammer/PlayerLoopCustomizationAPI.Runner.Morpeh-Plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

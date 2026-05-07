@@ -2,6 +2,7 @@ name: com.redowl.sleipnir
 displayName: RedOwl - Sleipnir
 description: A unity graph editor framework for unity that works with odin inspector
 repoUrl: 'https://github.com/red-owl-games/Sleipnir'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -2,6 +2,7 @@ name: com.inc8877.right-stats-monitor
 displayName: RightStatsMonitor
 description: Useful tool for displaying FPS with high precision. GC free
 repoUrl: 'https://github.com/inc8877/RightStatsMonitor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

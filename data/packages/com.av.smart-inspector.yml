@@ -2,6 +2,7 @@ name: com.av.smart-inspector
 displayName: Smart Inspector
 description: Keeps your screen real-estate clean with refined, compact UX.
 repoUrl: https://github.com/neon-age/Smart-Inspector
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

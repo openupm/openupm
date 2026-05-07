@@ -2,6 +2,7 @@ name: com.pzy.copy
 displayName: Copy
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

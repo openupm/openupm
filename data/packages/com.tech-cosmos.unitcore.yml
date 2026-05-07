@@ -5,6 +5,7 @@ description: >-
   games. Part of the Tech-Cosmos ecosystem for industrialized game content
   creation.
 repoUrl: https://github.com/PeterParkers007/Tech-Cosmos.Component.UnitCore
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

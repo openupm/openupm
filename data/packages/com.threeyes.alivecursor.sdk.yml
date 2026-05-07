@@ -2,6 +2,7 @@ name: com.threeyes.alivecursor.sdk
 displayName: AliveCursorSDK
 description: SDK for AliveCursor.
 repoUrl: 'https://github.com/Threeyes/AliveCursorSDK'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

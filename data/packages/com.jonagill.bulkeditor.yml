@@ -2,6 +2,7 @@ name: com.jonagill.bulkeditor
 displayName: Bulk Editor
 description: Editor helpers for bulk editing assets in a Unity project.
 repoUrl: https://github.com/jonagill/BulkEditor
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT-0
 licenseName: MIT No Attribution

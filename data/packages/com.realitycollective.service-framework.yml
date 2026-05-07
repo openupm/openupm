@@ -2,6 +2,7 @@ name: com.realitycollective.service-framework
 displayName: RealityCollective.Service-Framework
 description: A powerful service manager for runtime components by the Reality Collective
 repoUrl: 'https://github.com/realitycollective/com.realitycollective.service-framework.git'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

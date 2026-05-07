@@ -4,6 +4,7 @@ description: >-
   Library for screen transitions, transition animations, transition history
   stacking, and lifecycle management in Unity's uGUI.
 repoUrl: 'https://github.com/Haruma-K/UnityScreenNavigator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

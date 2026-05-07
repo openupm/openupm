@@ -2,6 +2,7 @@ name: io.nekonya.tinax.uikit.animation
 displayName: TinaX.UIKit.Animation
 description: UIKit Animation
 repoUrl: 'https://github.com/yomunsam/TinaX.UIKit.Animation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

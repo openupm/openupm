@@ -2,6 +2,7 @@ name: com.aaulicino.nsubstitute
 displayName: NSubstitute
 description: A friendly substitute for .NET mocking libraries
 repoUrl: https://github.com/AAulicino/Unity3D-NSubstitute
+trackingMode: git
 parentRepoUrl: https://github.com/nsubstitute/NSubstitute
 licenseName: BSD 3-Clause "New" or "Revised" License
 licenseSpdxId: BSD-3-Clause

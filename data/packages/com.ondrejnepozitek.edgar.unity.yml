@@ -2,6 +2,7 @@ name: com.ondrejnepozitek.edgar.unity
 displayName: Edgar - Procedural Level Generator
 description: 2D procedural level generator
 repoUrl: 'https://github.com/OndrejNepozitek/Edgar-Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

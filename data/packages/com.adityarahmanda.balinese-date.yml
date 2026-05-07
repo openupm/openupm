@@ -6,6 +6,7 @@ description: >-
   Balinese Date javascript library
   (https://github.com/peradnya/balinese-date-js-lib).
 repoUrl: https://github.com/adityarahmanda/unity-balinese-date
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

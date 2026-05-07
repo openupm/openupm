@@ -2,6 +2,7 @@ name: com.chennyang.developkit
 displayName: DevelopKit
 description: "ì\x9D´ í\x8C¨í\x82¤ì§\x80ë\x8A\x94 ê°\x9Cë°\x9Cì\x97\x90 ì\x9C\_ì\x9A©í\x95\x9C ê¸°ë\x8A¥ì\x9D\x84 ì\_\x9Cê³µí\x95©ë\x8B\x88ë\x8B¤."
 repoUrl: https://github.com/gus6615/Unity6_DevelopKit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

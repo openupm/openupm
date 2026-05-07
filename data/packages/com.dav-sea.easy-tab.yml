@@ -5,6 +5,7 @@ description: >-
   navigation functionality between Selectables. This package is very easy to
   install and also easy to customize if needed
 repoUrl: https://github.com/dav-sea/EasyTab
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

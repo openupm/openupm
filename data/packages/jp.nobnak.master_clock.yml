@@ -5,6 +5,7 @@ description: >-
   standalone and networked environments. Provides EMA-based offset estimation
   for smooth clock synchronization.
 repoUrl: https://github.com/nobnak/MasterClock
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

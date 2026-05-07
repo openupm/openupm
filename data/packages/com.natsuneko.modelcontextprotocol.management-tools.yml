@@ -5,6 +5,7 @@ description: >-
   the AI in Unity. This package provides management tools for uMCP. Asset
   Management, Scene Management, Window Management, and more.
 repoUrl: https://github.com/mika-f/uMCP
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

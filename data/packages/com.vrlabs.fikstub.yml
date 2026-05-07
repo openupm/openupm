@@ -13,6 +13,7 @@ description: >-
 
   https://github.com/uhKayla/Final-IK-Stub
 repoUrl: https://github.com/uhKayla/Final-IK-Stub
+trackingMode: git
 parentRepoUrl: https://github.com/VRLabs/Final-IK-Stub
 licenseSpdxId: MIT
 licenseName: MIT License

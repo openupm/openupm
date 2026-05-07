@@ -2,6 +2,7 @@ name: com.atomknack.uknackbasis
 displayName: UKnack Basis
 description: Set of tools that make working with Unity better and help write cleaner code
 repoUrl: 'https://github.com/atomknack/UKnackBasis'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

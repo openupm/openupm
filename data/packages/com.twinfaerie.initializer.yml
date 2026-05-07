@@ -2,6 +2,7 @@ name: com.twinfaerie.initializer
 displayName: TwinFaerie Initializer
 description: For standarize and easier system initialization on unity
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-initializer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

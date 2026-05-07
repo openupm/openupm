@@ -2,6 +2,7 @@ name: com.trove.eventsystems
 displayName: Trove Event Systems
 description: Event systems for DOTS
 repoUrl: https://github.com/PhilSA/Trove
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

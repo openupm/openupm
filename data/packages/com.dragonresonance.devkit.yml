@@ -2,6 +2,7 @@ name: com.dragonresonance.devkit
 displayName: Dragon Resonance DevKit
 description: ''
 repoUrl: https://github.com/dragonresonance/unity-devkit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

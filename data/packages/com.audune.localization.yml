@@ -2,6 +2,7 @@ name: com.audune.localization
 displayName: Localization
 description: Simple string localization system for Unity 2022 LTS or higher
 repoUrl: https://github.com/audunegames/localization
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

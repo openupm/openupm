@@ -2,6 +2,7 @@ name: com.realitycollective.utilities
 displayName: RealityCollective.Utilities
 description: A collection of useful utilities for Unity Projects by the Reality Collective
 repoUrl: 'https://github.com/realitycollective/com.realitycollective.utilities'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

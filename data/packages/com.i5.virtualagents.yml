@@ -2,6 +2,7 @@ name: com.i5.virtualagents
 displayName: Virtual Agents Framework
 description: A Unity package for creating virtual agents
 repoUrl: 'https://github.com/rwth-acis/Virtual-Agents-Framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

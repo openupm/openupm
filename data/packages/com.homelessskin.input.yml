@@ -2,6 +2,7 @@ name: com.homelessskin.input
 displayName: Input
 description: A framework with extensions for Unity "New Input System".
 repoUrl: https://github.com/HomelessSkin/com.homelessskin.input
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

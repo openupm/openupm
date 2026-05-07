@@ -4,6 +4,7 @@ description: >-
   Find usages of the selected asset(s) and/or Object(s) in your Unity project,
   i.e. list the objects that refer to them
 repoUrl: 'https://github.com/yasirkula/UnityAssetUsageDetector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

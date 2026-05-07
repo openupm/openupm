@@ -7,6 +7,7 @@ description: >-
   compatibility. Cross-platform native libraries for Windows, macOS, Linux,
   iOS, and Android.
 repoUrl: https://github.com/api-haus/com.api-haus.fastnoise2
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

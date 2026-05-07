@@ -2,6 +2,7 @@ name: com.betterplugins.core
 displayName: Better Core
 description: Base package for Better Plugins
 repoUrl: https://github.com/better-plugins/core
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

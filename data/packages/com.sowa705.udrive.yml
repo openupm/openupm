@@ -2,6 +2,7 @@ name: com.sowa705.udrive
 displayName: UDrive
 description: Vehicle simulation system
 repoUrl: https://github.com/sowa705/UDrive
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

@@ -2,6 +2,7 @@ name: com.shiena.openxrruntimejson
 displayName: OpenXR Runtime Selector
 description: Runtime Json Selector for Unity OpenXR
 repoUrl: 'https://github.com/shiena/OpenXRRuntimeSelector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

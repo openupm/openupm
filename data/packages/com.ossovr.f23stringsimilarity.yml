@@ -2,6 +2,7 @@ name: com.ossovr.f23stringsimilarity
 displayName: F23.StringSimilarity
 description: A .NET port of java-string-similarity
 repoUrl: 'https://github.com/OssoVR/StringSimilarity.NET'
+trackingMode: git
 parentRepoUrl: 'https://github.com/feature23/StringSimilarity.NET'
 licenseSpdxId: MIT
 licenseName: MIT License

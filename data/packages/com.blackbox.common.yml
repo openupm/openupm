@@ -2,6 +2,7 @@ name: com.blackbox.common
 displayName: Common
 description: BlackBox Plug-in Common
 repoUrl: 'https://github.com/INFIcer/DevelopmentTool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

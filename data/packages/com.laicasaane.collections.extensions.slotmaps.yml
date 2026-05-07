@@ -4,6 +4,7 @@ description: >-
   A slot map is an associative collection with persistent unique keys to access
   stored values.
 repoUrl: 'https://github.com/laicasaane/collections.extensions.slotmap'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

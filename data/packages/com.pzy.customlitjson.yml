@@ -2,6 +2,7 @@ name: com.pzy.customlitjson
 displayName: Custom Lit Json
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

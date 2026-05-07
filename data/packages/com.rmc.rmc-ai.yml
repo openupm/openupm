@@ -2,6 +2,7 @@ name: com.rmc.rmc-ai
 displayName: RMC AI
 description: RMC Artificial Intelligence (AI) library
 repoUrl: https://github.com/SamuelAsherRivello/rmc-ai
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

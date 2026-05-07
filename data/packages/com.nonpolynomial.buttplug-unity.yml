@@ -3,6 +3,7 @@ displayName: Buttplug Unity
 description: Buttplug Sex Toy Control Library support for Unity. For more info, see
   https://buttplug.io.
 repoUrl: https://github.com/buttplugio/buttplug-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

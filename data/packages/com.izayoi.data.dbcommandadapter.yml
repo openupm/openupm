@@ -4,6 +4,7 @@ description: >-
   This is a database operation support library that includes a fast micro O/R
   mapper (ORM).
 repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

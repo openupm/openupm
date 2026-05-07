@@ -2,6 +2,7 @@ name: com.ruccho.unityped.manualgenerator
 displayName: UniTyped Manual Generator
 description: Manual generator for UniTyped
 repoUrl: https://github.com/ruccho/UniTyped
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

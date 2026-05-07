@@ -4,6 +4,7 @@ description: >-
   A tool used to manage #defines in a project to enable/disable optional
   features to supporting packages and to produce cleaner and more efficient code
 repoUrl: 'https://github.com/hibzzgames/Hibzz.DefineManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

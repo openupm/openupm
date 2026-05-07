@@ -2,6 +2,7 @@ name: com.hiplay.jframework
 displayName: JFramework
 description: Description of your package
 repoUrl: https://github.com/weiweidiy/com.hiplay.jframework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

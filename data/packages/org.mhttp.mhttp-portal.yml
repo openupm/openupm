@@ -2,6 +2,7 @@ name: org.mhttp.mhttp-portal
 displayName: MHTTP Portal
 description: Create a portal with the MHTTP portal spec
 repoUrl: https://github.com/HungryFoolishHappy/TestUnityPortalSdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

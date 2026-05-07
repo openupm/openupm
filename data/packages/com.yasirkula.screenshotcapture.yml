@@ -2,6 +2,7 @@ name: com.yasirkula.screenshotcapture
 displayName: 360° Screenshot Capture
 description: A simple script to capture 360° screenshots in-game with Unity
 repoUrl: 'https://github.com/yasirkula/Unity360ScreenshotCapture'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

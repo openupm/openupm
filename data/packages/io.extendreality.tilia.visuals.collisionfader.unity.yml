@@ -4,6 +4,7 @@ description: >-
   Control fading of scene cameras due to collisions of spatial objects for the
   Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Visuals.CollisionFader.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

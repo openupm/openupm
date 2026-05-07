@@ -2,6 +2,7 @@ name: com.stackray.transforms
 displayName: Stackray Transforms
 description: 'Extending DOTS '
 repoUrl: https://github.com/GilbertoGojira/DOTS-Stackray
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

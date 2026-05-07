@@ -2,6 +2,7 @@ name: com.ms.ugui.viewportedlayouts
 displayName: ViewportedLayouts
 description: high performance large elements layout in rect viewport for unity UGUI
 repoUrl: 'https://github.com/wlgys8/ViewportedLayouts'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

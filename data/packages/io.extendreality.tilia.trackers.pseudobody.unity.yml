@@ -4,6 +4,7 @@ description: >-
   A representation of a collidable body volume that tracks a GameObject in a
   spatial scene for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Trackers.PseudoBody.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

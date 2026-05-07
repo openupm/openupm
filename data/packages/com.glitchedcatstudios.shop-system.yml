@@ -3,6 +3,7 @@ displayName: GCS Shop System
 description: A simple cart system for your Gorilla Tag Fan Game, made by Glitched
   Cat Studios!
 repoUrl: https://github.com/Glitched-Cat-Studios/GCS-Shop-System
+trackingMode: git
 parentRepoUrl: null
 licenseName: None
 licenseSpdxId: null

@@ -3,6 +3,7 @@ displayName: Aseprite Importer
 description: An aseprite-file importer for unity written in C#, built upon the experimental
   AssetImporter API
 repoUrl: https://github.com/martinhodler/unity-aseprite-importer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

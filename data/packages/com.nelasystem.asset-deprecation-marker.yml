@@ -2,6 +2,7 @@ name: com.nelasystem.asset-deprecation-marker
 displayName: Asset Deprecation Marker
 description: Unity package that puts markers on deprecated assets
 repoUrl: https://github.com/zacx-z/Asset-Deprecation-Marker
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

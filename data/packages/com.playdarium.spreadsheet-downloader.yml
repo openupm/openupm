@@ -2,6 +2,7 @@ name: com.playdarium.spreadsheet-downloader
 displayName: Spreadsheet Downloader
 description: ''
 repoUrl: https://github.com/Playdarium/spreadsheet-downloader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

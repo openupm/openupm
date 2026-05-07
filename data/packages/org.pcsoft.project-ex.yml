@@ -2,6 +2,7 @@ name: org.pcsoft.project-ex
 displayName: Project Extension for Unity
 description: Extension for Unity for better project handling.
 repoUrl: 'https://github.com/KleinerHacker/unity-project-ex'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

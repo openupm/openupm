@@ -2,6 +2,7 @@ name: com.nanory.nanoecs
 displayName: NanoECS
 description: 'c#-Unity ECS framework '
 repoUrl: 'https://github.com/SinyavtsevIlya/NanoECS'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

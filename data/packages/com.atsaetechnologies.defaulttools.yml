@@ -6,6 +6,7 @@ description: This Unity editor tool automatically creates a default folder struc
   It also creates subdirectories for each of these top-level folders. This is a great
   way to organize your Unity project and keep it clean.
 repoUrl: https://github.com/53nthamizh/DefaultTools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

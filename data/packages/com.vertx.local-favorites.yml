@@ -4,6 +4,7 @@ description: >-
   Project window favourites that contain the suffixes `(local)`, and `(l)`, are
   removed if they weren't created in the project.
 repoUrl: https://github.com/vertxxyz/Vertx.LocalFavorites
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

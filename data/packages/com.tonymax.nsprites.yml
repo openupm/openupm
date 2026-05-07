@@ -3,6 +3,7 @@ displayName: NSprites
 description: Entities sprite rendering system. Uses GPU instancing with compute buffers
   to draw entities as sprites.
 repoUrl: https://github.com/Antoshidza/NSprites
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -6,6 +6,7 @@ description: >-
   ambiguity rejection, Undo-backed writes, spatial anchor proofs, and ADR-backed
   write receipts. Editor-side bridge for the Reify MCP server.
 repoUrl: https://github.com/mattebin/reify
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

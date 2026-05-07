@@ -6,6 +6,7 @@ description: >-
   https://github.com/Nethereum/Nethereum/releases, example can be found at
   https://github.com/Nethereum/Unity3dSampleTemplate
 repoUrl: https://github.com/Nethereum/Nethereum.Unity.WalletConnect
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

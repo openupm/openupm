@@ -2,6 +2,7 @@ name: net.narazaka.unity.connect-line
 displayName: Connect Line
 description: A straight mesh connecting two points.
 repoUrl: https://github.com/Narazaka/ConnectLine
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

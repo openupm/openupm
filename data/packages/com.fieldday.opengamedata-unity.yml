@@ -2,6 +2,7 @@ name: com.fieldday.opengamedata-unity
 displayName: opengamedata-unity
 description: Unity package for logging with Field Day's OpenGameData servers.
 repoUrl: 'https://github.com/opengamedata/opengamedata-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

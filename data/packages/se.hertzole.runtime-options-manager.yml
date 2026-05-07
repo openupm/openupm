@@ -2,6 +2,7 @@ name: se.hertzole.runtime-options-manager
 displayName: Runtime Options Manager
 description: A drop-in solution for easily managing your runtime game options.
 repoUrl: 'https://github.com/Hertzole/runtime-options-manager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: io.github.hatayama.cleanformerlyserializedas
 displayName: CleanFormerlySerializedAs
 description: Safely removes [FormerlySerializedAs] attributes from serialized fields.
 repoUrl: https://github.com/hatayama/CleanFormerlySerializedAs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

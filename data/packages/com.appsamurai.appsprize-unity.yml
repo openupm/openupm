@@ -2,6 +2,7 @@ name: com.appsamurai.appsprize-unity
 displayName: AppsPrizeUnity
 description: Appsprize Playtime SDK
 repoUrl: https://github.com/Netvent/appsprize
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.unigame.unibuildpipeline
 displayName: UniGame Unity Scriptable Build Pipeline
 description: Command based scriptable build pipeline for Unity 3D
 repoUrl: 'https://github.com/UniGameTeam/UniBuild'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

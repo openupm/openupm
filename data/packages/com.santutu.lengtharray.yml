@@ -2,6 +2,7 @@ name: com.santutu.lengtharray
 displayName: Length Array
 description: A library for arrays with valid length information.
 repoUrl: https://github.com/santutu/unity-length-array
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

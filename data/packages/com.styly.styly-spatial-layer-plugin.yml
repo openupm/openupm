@@ -2,6 +2,7 @@ name: com.styly.styly-spatial-layer-plugin
 displayName: STYLY Spatial Layer Plugin for Vision Pro
 description: STYLY Plugin for Unity visionOS version
 repoUrl: https://github.com/styly-dev/STYLY-Spatial-Layer-Plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

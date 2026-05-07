@@ -3,6 +3,7 @@ displayName: Cinemachine ClipPlane Extension
 description: Extension for Cinemachine to set the camera near and far clip plane.
 repoUrl: >-
   https://github.com/freakshowstudio/com.freakshowstudio.cinemachine-extension-clipplane
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Provides utilities and systems such as Custom Debug, Singleton, and
   Addressable Manager.
 repoUrl: https://github.com/Parkjung2016/DevelopKit_BasicTemplate
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

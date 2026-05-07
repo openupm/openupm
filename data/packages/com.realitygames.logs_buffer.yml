@@ -2,6 +2,7 @@ name: com.realitygames.logs_buffer
 displayName: Logs Buffer
 description: Custom logger implementation for buffering the runtime logs.
 repoUrl: https://github.com/RealityGamesLtd/logs-buffer-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

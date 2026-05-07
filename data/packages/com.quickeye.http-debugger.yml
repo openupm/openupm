@@ -5,6 +5,7 @@ description: |-
   Non UPM dependencies:
   - com.quickeye.ui-toolkit-plus (https://github.com/ErnSur/UI-Toolkit-Plus.git)
 repoUrl: 'https://github.com/ErnSur/Unity-Http-Debugger'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

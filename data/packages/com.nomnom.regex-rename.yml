@@ -4,6 +4,7 @@ description: >-
   This allows for you to bulk rename both project and scene objects with regex
   filtering.
 repoUrl: 'https://github.com/nomnomab/Regex-Rename'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

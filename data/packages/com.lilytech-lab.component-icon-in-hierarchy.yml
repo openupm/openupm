@@ -2,6 +2,7 @@ name: com.lilytech-lab.component-icon-in-hierarchy
 displayName: ComponentIconInHierarchy
 description: "An editor application that displays component icons to the hierarchy window.\n\r\nAlso, this app tells a game object has a missing component or a component has a missing field by following means:\r\n- displaying the warning icon to the hierarchy window \r\n- putting error messages on the console window"
 repoUrl: https://github.com/lilytech-lab/ComponentIconInHierarchy
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

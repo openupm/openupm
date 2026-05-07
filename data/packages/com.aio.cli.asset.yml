@@ -4,6 +4,7 @@ description: AIO Unity CLI Asset
 displayName_zhCN: AIO Unity CLI Asset
 description_zhCN: AIO Unity 资源管理系统 脚手架
 repoUrl: https://github.com/AIO-GAME/Unity.Asset.CLI
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

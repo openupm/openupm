@@ -2,6 +2,7 @@ name: com.greener-games.singletons
 displayName: Unity singleton
 description: Collection of Singleton for use in unity
 repoUrl: 'https://github.com/Greener-Games/Singleton'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

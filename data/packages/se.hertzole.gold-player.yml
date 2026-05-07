@@ -2,6 +2,7 @@ name: se.hertzole.gold-player
 displayName: Gold Player
 description: A first person player controller for Unity.
 repoUrl: 'https://github.com/Hertzole/gold-player'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

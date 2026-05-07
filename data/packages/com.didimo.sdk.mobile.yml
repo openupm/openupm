@@ -6,6 +6,7 @@ description: 'Didimo provides a cloud-based automated service that enables the g
   This module provides a communication layer to make it simpler to communicate between
   the native apps and our SDK, with support for asynchronous calls and callbacks.'
 repoUrl: https://github.com/didimoinc/didimo-digital-human-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: Didimo Source Code License
 licenseSpdxId: null

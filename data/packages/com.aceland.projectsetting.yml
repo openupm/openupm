@@ -7,6 +7,7 @@ description: >-
   Please visit our [Git
   Book](https://aceland-workshop.gitbook.io/aceland-unity-packages).
 repoUrl: https://github.com/parsue/com.aceland.projectsetting
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

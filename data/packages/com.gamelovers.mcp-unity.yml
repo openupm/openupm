@@ -4,6 +4,7 @@ description: >-
   The purpose of this package is to provide a MCP Unity Server for executing
   Unity operations and request Editor information from AI MCP enabled hosts
 repoUrl: https://github.com/CoderGamester/mcp-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

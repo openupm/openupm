@@ -2,6 +2,7 @@ name: com.quabug.blob
 displayName: BLOB
 description: BLOB - an alternative way to build BLOB of Unity.Entities
 repoUrl: 'https://github.com/quabug/BLOB'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

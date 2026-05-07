@@ -6,6 +6,7 @@ description: >-
   enumeration of types inherited from the specified base type, while excluding
   the current file from the list.
 repoUrl: https://github.com/moroshka-dev/moroshka-derived-types
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

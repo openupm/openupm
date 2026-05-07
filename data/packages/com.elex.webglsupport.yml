@@ -2,6 +2,7 @@ name: com.elex.webglsupport
 displayName: WebGLSupport
 description: unity webgl support
 repoUrl: https://github.com/yuyixiaoxiang/WebGLSupport
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

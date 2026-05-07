@@ -9,6 +9,7 @@ description: >-
   Manager, don't forget to remove the old version from the project before
   importing the new one! :)
 repoUrl: 'https://github.com/JohnBaracuda/com.baracuda.thread-dispatcher'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

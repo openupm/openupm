@@ -4,6 +4,7 @@ description: >-
   Ready Player Me Core is responsible for module management and setting up the
   SDK for first time use.
 repoUrl: 'https://github.com/readyplayerme/rpm-unity-sdk-core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

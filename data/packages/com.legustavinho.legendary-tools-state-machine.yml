@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-state-machine
 displayName: Legendary Tools - State Machine
 description: ''
 repoUrl: https://github.com/LeGustaVinho/state-machine
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

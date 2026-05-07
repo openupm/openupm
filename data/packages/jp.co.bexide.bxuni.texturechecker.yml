@@ -2,6 +2,7 @@ name: jp.co.bexide.bxuni.texturechecker
 displayName: BxUni Texture Checker
 description: Texture Check Utility
 repoUrl: https://github.com/bexide/BxUni-TextureChecker
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

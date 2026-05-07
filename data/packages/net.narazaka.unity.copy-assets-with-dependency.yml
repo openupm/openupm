@@ -2,6 +2,7 @@ name: net.narazaka.unity.copy-assets-with-dependency
 displayName: CopyAssetsWithDependency
 description: Copy Assets with dependency
 repoUrl: https://github.com/Narazaka/CopyAssetsWithDependency
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

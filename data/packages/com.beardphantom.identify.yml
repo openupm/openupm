@@ -2,6 +2,7 @@ name: com.beardphantom.identify
 displayName: Identify
 description: A consistent mechanism for uniquely identifying ScriptableObject instances.
 repoUrl: 'https://github.com/thebeardphantom/Identify'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

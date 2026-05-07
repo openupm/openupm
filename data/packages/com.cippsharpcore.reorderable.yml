@@ -4,6 +4,7 @@ description: >-
   An attempt to mimic the ReorderableList within Unity while adding some
   extended functionality.
 repoUrl: 'https://github.com/Cippman/Unity-Reorderable-List'
+trackingMode: git
 parentRepoUrl: 'https://github.com/cfoulston/Unity-Reorderable-List'
 licenseSpdxId: MIT
 licenseName: MIT License

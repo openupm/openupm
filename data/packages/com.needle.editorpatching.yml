@@ -2,6 +2,7 @@ name: com.needle.editorpatching
 displayName: Editor Patching
 description: 'Uses Harmony to patch the Editor. https://github.com/pardeike/Harmony'
 repoUrl: 'https://github.com/needle-tools/editorpatching'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

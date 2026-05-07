@@ -6,6 +6,7 @@ description: >-
   using python, as well as an API to call python nodes from within native C#
   nodes
 repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

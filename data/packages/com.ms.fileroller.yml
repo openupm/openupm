@@ -2,6 +2,7 @@ name: com.ms.fileroller
 displayName: A simple file roller
 description: ''
 repoUrl: 'https://github.com/wlgys8/FileRoller'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

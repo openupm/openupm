@@ -5,6 +5,7 @@ description: >-
   into a Unity project, it can inject code which raises the PropertyChanged
   event into property setters of classes which implement INotifyPropertyChanged.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

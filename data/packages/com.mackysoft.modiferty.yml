@@ -2,6 +2,7 @@ name: com.mackysoft.modiferty
 displayName: Modiferty
 description: Property Modification for Unity.
 repoUrl: 'https://github.com/mackysoft/Modiferty'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.elmortem.serializereferenceeditor
 displayName: Serialize Reference Editor
 description: Custom serialize reference unity editor
 repoUrl: https://github.com/elmortem/serializereferenceeditor
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

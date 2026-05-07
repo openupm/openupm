@@ -4,6 +4,7 @@ description: >-
   Factory of various UI components, from primitives (line, point) to complex
   objects (graph). UI meshes support conversion to uGUI and UIElements formats.
 repoUrl: https://github.com/sxm-sxpxxl/ui-factory
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

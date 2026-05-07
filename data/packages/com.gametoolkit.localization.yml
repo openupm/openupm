@@ -2,6 +2,7 @@ name: com.gametoolkit.localization
 displayName: GameToolkit Localization
 description: Asset localization system for Unity.
 repoUrl: 'https://github.com/ibrahimpenekli/GameToolkit-Localization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

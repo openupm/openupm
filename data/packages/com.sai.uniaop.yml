@@ -2,6 +2,7 @@ name: com.sai.uniaop
 displayName: UniAOP
 description: Source-Generated AOP framework for Unity
 repoUrl: https://github.com/Saismirk/UniAOP
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

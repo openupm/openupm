@@ -5,6 +5,7 @@ description: >-
   engine Object type and is available as a pure C# class, a MonoBehaviour and a
   ScriptableObject.
 repoUrl: https://github.com/gilzoide/unity-prefab-pool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

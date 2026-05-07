@@ -2,6 +2,7 @@ name: com.injecter.unity
 displayName: Injecter.Unity
 description: ''
 repoUrl: 'https://github.com/KuraiAndras/Injecter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

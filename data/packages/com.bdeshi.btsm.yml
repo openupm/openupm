@@ -4,6 +4,7 @@ description: >-
   BTSM is a Behavior Tree + Finite State Machine library that allows you to
   define BT/FSMs entirely through code.
 repoUrl: https://github.com/BDeshiDev/BTSM-Behavior-Tree-FSM-library-for-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

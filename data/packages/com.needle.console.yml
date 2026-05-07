@@ -4,6 +4,7 @@ description: >-
   Better Unity console featuring improved stacktrace readability using
   Ben.Demystifier, filtering of log entries, collapsing of individual logs
 repoUrl: 'https://github.com/needle-tools/needle-console'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

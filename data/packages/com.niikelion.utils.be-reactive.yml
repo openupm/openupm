@@ -4,6 +4,7 @@ description: >-
   Reactive library inspired by System.Reactive that does not require any
   dependency or additional setup.
 repoUrl: https://github.com/Niikelion/BeReactive
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

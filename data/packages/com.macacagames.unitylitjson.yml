@@ -2,6 +2,7 @@ name: com.macacagames.unitylitjson
 displayName: UnityLitJson
 description: 'Macaca Modified UnityLitJson, forked from Mervill/UnityLitJson'
 repoUrl: 'https://github.com/MacacaGames/UnityLitJson'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Mervill/UnityLitJson'
 licenseSpdxId: null
 licenseName: 'TBD'

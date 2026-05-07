@@ -5,6 +5,7 @@ description: >-
   It includes a component copier that makes it a lot easier to reimport your
   avatars, and tools to make your thumbnails nicer.
 repoUrl: 'https://github.com/rurre/PumkinsAvatarTools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   A lightweight finite state machine implementation that supports custom and
   conditional transitions
 repoUrl: 'https://github.com/dubit/unity-fsm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

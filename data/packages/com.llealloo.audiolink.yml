@@ -2,6 +2,7 @@ name: com.llealloo.audiolink
 displayName: AudioLink
 description: Audio reactive prefabs for VRChat
 repoUrl: https://github.com/llealloo/vrc-udon-audio-link
+trackingMode: git
 parentRepoUrl: null
 licenseName: Creative Commons Attribution Non Commercial No Derivatives 4.0 International
 licenseSpdxId: CC-BY-NC-ND-4.0

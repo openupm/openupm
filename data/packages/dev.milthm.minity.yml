@@ -4,6 +4,7 @@ description: >-
   A Unity extension framework that includes features such as object pooling,
   scene routing, UI manager, and behavior trees.
 repoUrl: https://github.com/MorizeroDev/Minity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

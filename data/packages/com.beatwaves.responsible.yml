@@ -2,6 +2,7 @@ name: com.beatwaves.responsible
 displayName: Responsible
 description: Reactive asynchronous automated testing utility for Unity
 repoUrl: 'https://github.com/sbergen/Responsible'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

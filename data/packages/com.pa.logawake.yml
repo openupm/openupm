@@ -2,6 +2,7 @@ name: com.pa.logawake
 displayName: Log Awake
 description: Log any message in awake
 repoUrl: https://github.com/Paul-Auguste/TestOpenUPM1
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

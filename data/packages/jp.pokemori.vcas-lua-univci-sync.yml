@@ -2,6 +2,7 @@ name: jp.pokemori.vcas-lua-univci-sync
 displayName: esperecyan/vcas-lua-univci-sync
 description: "EmbeddedScriptWorkspaceフォルダ内の .lua ファイルが更新されたときに、Unityプロジェクト内のVCIプレハブのLuaデータを更新します。"
 repoUrl: 'https://github.com/esperecyan/vcas-lua-univci-sync'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

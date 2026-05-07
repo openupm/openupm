@@ -7,6 +7,7 @@ description: "The \"VIVE OpenXR Plugin\" package enables your application to run
   - Wrist Tracking\n- Eye Gaze\n- CompositionLayer\n- Facial Tracking\n\n\nYou can\
   \ view the documentation for additional information."
 repoUrl: https://github.com/ViveSoftware/VIVE-OpenXR
+trackingMode: git
 parentRepoUrl: null
 licenseName: Copyright 2017-2021, HTC Corporation. All rights reserved.
 licenseSpdxId: null

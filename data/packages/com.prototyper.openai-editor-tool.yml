@@ -2,6 +2,7 @@ name: com.prototyper.openai-editor-tool
 displayName: OpenAI Editor Tool
 description: OpenAI-Editor-Tool
 repoUrl: https://github.com/Farl/com.prototyper.openai-editor-tool
+trackingMode: git
 parentRepoUrl: null
 licenseName: GNU General Public License v3.0 only
 licenseSpdxId: GPL-3.0

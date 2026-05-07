@@ -2,6 +2,7 @@ name: com.p-chin.github-file-opener
 displayName: GitHubFileOpener
 description: Open a page in your browser for the Asset in your Github-managed UnityProject.
 repoUrl: https://github.com/p-chin/GitHubFileOpener
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.peterxiang.xmlib.am
 displayName: XMLib Action Machine
 description: "XMLib å\x8A¨ä½\x9Cæ¸¸æ\x88\x8Få¼\x80å\x8F\x91å¥\x97ä»¶"
 repoUrl: 'https://github.com/PxGame/XMLib.AM'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

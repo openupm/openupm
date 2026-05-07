@@ -4,6 +4,7 @@ description: >-
   Implementation of statecharts, a formalism for modeling stateful logic that
   extends traditional finite state machines.
 repoUrl: https://github.com/MazeModels/StateFoundry
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

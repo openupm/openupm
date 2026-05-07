@@ -2,6 +2,7 @@ name: com.ripandy.soar
 displayName: SOAR
 description: Scriptable Object Architecture Reactive-extensible with R3
 repoUrl: https://github.com/ripandy/SOAR
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.maellacour.eyap-library.scenemanagement
 displayName: EyapLibrary - Scene Management
 description: A library package to manage scenes using the ScriptableObjects (SO) workflow.
 repoUrl: https://github.com/Eyap53/eyaplibrary.scenemanagement
+trackingMode: git
 parentRepoUrl: null
 licenseName: Mozilla Public License 2.0
 licenseSpdxId: MPL-2.0

@@ -2,6 +2,7 @@ name: io.pubstar.unity
 displayName: PubStar SDK
 description: Ads SDK for Unity (iOS/Android).
 repoUrl: https://github.com/pubstar-io/PubStar-Unity-SDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

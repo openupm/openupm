@@ -5,6 +5,7 @@ description: Provides localization of App Tracking Transparency (ATT) descriptio
   for tracking the user or the iOS device. Perfectly works with Unity's iOS 14 Advertising
   Support package.
 repoUrl: https://github.com/Appegy/iOS-ATT-Localization
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -8,6 +8,7 @@ description: >-
   ▪ etc...
 
 repoUrl: https://github.com/matengli/SunsgoGameFramework
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

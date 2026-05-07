@@ -4,6 +4,7 @@ description: >-
   Runtime Inspector and Hierarchy solution for Unity for debugging and runtime
   editing purposes
 repoUrl: 'https://github.com/yasirkula/UnityRuntimeInspector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

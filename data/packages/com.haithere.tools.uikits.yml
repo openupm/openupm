@@ -2,6 +2,7 @@ name: com.haithere.tools.uikits
 displayName: haithere-UI Kits
 description: 'Simple Unity Ui tools'
 repoUrl: 'https://github.com/haitheredavid/unity-uikits'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

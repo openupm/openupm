@@ -2,6 +2,7 @@ name: trismegistus.unity.mathf-extensions
 displayName: Trismegistus Mathf Ext
 description: Mathf extensions for more RX-ish style
 repoUrl: 'https://github.com/Hermesiss/unity-mathf-extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

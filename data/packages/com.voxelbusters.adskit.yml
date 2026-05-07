@@ -2,6 +2,7 @@ name: com.voxelbusters.adskit
 displayName: Ads Kit
 description: Ads Kit is an open-source Unity plugin that simplifies ad integration across multiple ad networks. With a unified API, you can easily manage Banner, Interstitial, and Rewarded ads, reducing the complexity of handling different SDKs(Google AdMob, AppLovin, Level Play).
 repoUrl: https://github.com/voxelbusters/ads-kit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

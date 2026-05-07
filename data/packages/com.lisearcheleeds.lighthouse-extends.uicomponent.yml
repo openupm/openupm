@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.uicomponent
 displayName: Lighthouse Extends - UIComponent
 description: UI component utilities for Lighthouse-based projects.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/UIComponent
 licenseSpdxId: MIT
 licenseName: MIT License

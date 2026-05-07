@@ -2,6 +2,7 @@ name: kr.lch.lchframework
 displayName: LCHFramework
 description: LCHFramework
 repoUrl: https://github.com/ckdgus4002/LCHFramework
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

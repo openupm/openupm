@@ -2,6 +2,7 @@ name: com.moveahead.tflite.common
 displayName: TensorFlow Lite Common
 description: TensorFlow Lite Common Scripts for Unity
 repoUrl: https://github.com/Ale1/tf-lite-unity
+trackingMode: git
 parentRepoUrl: https://github.com/asus4/tf-lite-unity-sample
 licenseName: MIT License
 licenseSpdxId: MIT

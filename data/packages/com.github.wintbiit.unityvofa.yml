@@ -4,6 +4,7 @@ description: >-
   UnityVofa is an utility package for Unity Engine that providers a external
   connector to Vofa Debugger and send data stream to Vofa Debugger.
 repoUrl: https://github.com/wintbiit/UnityVofa
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

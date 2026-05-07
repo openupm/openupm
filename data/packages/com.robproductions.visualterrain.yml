@@ -2,6 +2,7 @@ name: com.robproductions.visualterrain
 displayName: Visual Terrain
 description: An open source node-based Terrain generator for Unity.
 repoUrl: https://github.com/RobProductions/VisualTerrain
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

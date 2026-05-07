@@ -2,6 +2,7 @@ name: com.valax321.blendablestandardshader
 displayName: Blendable Standard Shader
 description: Unity standard shader with blendable layers
 repoUrl: 'https://github.com/Valax321/BlendableStandardShader'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

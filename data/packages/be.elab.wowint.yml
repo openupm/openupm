@@ -3,6 +3,7 @@ displayName: Wow Integer
 description: This package is a enum and utility of the ScratchToWarcraft convention
   to make keyboard and xbox game using IID package.
 repoUrl: https://github.com/EloiStree/OpenUPM_WowInt
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

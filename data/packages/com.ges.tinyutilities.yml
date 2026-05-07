@@ -2,6 +2,7 @@ name: com.ges.tinyutilities
 displayName: Tiny Utilities
 description: Utilities pack
 repoUrl: https://github.com/gestiran/TinyUtilities
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

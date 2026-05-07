@@ -4,6 +4,7 @@ description: >-
   The Google Play Games plugin for Unity allows you to access the Google Play
   Games API through Unity's social interface.
 repoUrl: https://github.com/playgameservices/play-games-plugin-for-unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

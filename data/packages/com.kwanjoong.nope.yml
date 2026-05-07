@@ -2,6 +2,7 @@ name: com.kwanjoong.nope
 displayName: Unity NOPE
 description: The fastest functional programming library for Unity – the easiest and quickest way to handle exceptions and null values.
 repoUrl: https://github.com/kwan3854/Unity-NOPE
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

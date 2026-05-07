@@ -2,6 +2,7 @@ name: jp.andantetribe.radio
 displayName: Radio
 description: Audio playback for BGM, sound effects, and interactive music for Unity.
 repoUrl: https://github.com/AndanteTribe/Radio
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

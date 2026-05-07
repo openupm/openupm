@@ -4,6 +4,7 @@ description: >-
   Cloud Save interface with implementations for Apple Game Center and Google
   Play Games
 repoUrl: https://github.com/gilzoide/unity-cloud-save
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -2,6 +2,7 @@ name: be.elab.unityfetchoffsetntp
 displayName: Unity Fetch Offset NTP
 description: Fetch the offset of a NTP server.
 repoUrl: https://github.com/EloiStree/OpenUPM_UnityFetchOffsetNTP
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

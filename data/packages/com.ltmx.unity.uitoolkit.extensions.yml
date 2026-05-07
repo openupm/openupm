@@ -2,6 +2,7 @@ name: com.ltmx.unity.uitoolkit.extensions
 displayName: UIToolkit Extensions
 description: Extension methods for my packages
 repoUrl: https://github.com/ltmx/Unity.UIToolkit.Extensions
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

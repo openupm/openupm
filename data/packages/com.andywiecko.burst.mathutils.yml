@@ -2,6 +2,7 @@ name: com.andywiecko.burst.mathutils
 displayName: Burst Math Utils
 description: Burst compatible miscellaneous math related utility functions.
 repoUrl: 'https://github.com/andywiecko/BurstMathUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

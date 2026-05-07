@@ -4,6 +4,7 @@ description: >-
   C Sharp Dev Tools is a small framework for defensive development with
   conditionally compiled assertions and logging tools.
 repoUrl: https://github.com/MrUnbelievable92/C-Sharp-Dev-Tools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

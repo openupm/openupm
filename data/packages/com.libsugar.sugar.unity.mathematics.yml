@@ -2,6 +2,7 @@ name: com.libsugar.sugar.unity.mathematics
 displayName: LibSugar.Mathematics
 description: 'Like syntactic sugar, but is library'
 repoUrl: 'https://github.com/libsugar/SugarUnity.Mathematics'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

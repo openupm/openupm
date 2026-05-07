@@ -2,6 +2,7 @@ name: net.bobbo.player-controller
 displayName: Player Controller
 description: An extensible Player Controller module
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

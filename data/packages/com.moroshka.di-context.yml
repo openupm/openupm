@@ -4,6 +4,7 @@ description: >-
   DI Context module extends E314.DI. Designed for organizing DI through
   hierarchical containers with binding inheritance.
 repoUrl: https://github.com/moroshka-dev/moroshka-di-context
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.github.kurobon.simple_scroll
 displayName: SimpleScroll
 description: SimpleScroll
 repoUrl: https://github.com/kurobon-jp/SimpleScroll
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

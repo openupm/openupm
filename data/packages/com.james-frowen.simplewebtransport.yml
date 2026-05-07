@@ -5,6 +5,7 @@ description: >-
   Websocket server, standalone client, and a WebGL client so that both your
   Server and Client can be build with Unity.
 repoUrl: 'https://github.com/James-Frowen/SimpleWebTransport'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

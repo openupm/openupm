@@ -6,6 +6,7 @@ description: >-
   presentation by Schell Games (but we still prefer our way to handle listener
   with delegates).
 repoUrl: 'https://github.com/FredericRP/EventManagement'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

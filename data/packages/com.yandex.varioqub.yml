@@ -4,6 +4,7 @@ description: >-
   A Unity plugin for Varioqub. Varioqub is an AB tool that works for Android and
   iOS.
 repoUrl: https://github.com/appmetrica/varioqub-unity-plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

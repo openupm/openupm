@@ -2,6 +2,7 @@ name: today.comes.saintsbuild
 displayName: SaintsBuild
 description: A Unity plugin for building (packing) process
 repoUrl: https://github.com/TylerTemp/SaintsBuild
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

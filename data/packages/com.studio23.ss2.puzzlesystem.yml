@@ -6,6 +6,7 @@ description: Puzzle System is a framework designed to manage interactive puzzles
   for defining puzzles, managing dial interactions, validating solutions, and providing
   hints to players. Our puzzle system is based on Lock & Key Puzzle Mechanics
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.puzzlesystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

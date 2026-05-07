@@ -2,6 +2,7 @@ name: dev.purrnet.ui
 displayName: PurrUI
 description: PurrNet UI
 repoUrl: https://github.com/PurrNet/PurrUI
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

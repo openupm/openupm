@@ -5,6 +5,7 @@ description: >-
   assistants. Dual-transport server supporting stdio for LLMs and WebSocket for
   Unity. Enables console logs, compilation, and scene manipulation.
 repoUrl: https://github.com/Abbabon/unity-mcp-sharp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

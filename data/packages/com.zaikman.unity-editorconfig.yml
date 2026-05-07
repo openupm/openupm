@@ -5,6 +5,7 @@ description: >-
   and a collection of text editor plugins that enable editors to read the file
   format and adhere to defined styles.
 repoUrl: 'https://github.com/laicasaane/unity-editorconfig'
+trackingMode: git
 parentRepoUrl: 'https://github.com/zaikman/unity-editorconfig'
 licenseSpdxId: MIT
 licenseName: MIT License

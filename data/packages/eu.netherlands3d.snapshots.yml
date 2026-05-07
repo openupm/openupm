@@ -4,6 +4,7 @@ description: >-
   This package provides the means to do screen captures / snapshots for
   Netherlands3D
 repoUrl: 'https://github.com/Netherlands3D/Snapshots'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

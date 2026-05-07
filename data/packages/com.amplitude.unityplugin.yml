@@ -5,6 +5,7 @@ description: >-
   your Unity project. This repository also contains a sample project with the
   Unity plugin integrated.
 repoUrl: 'https://github.com/amplitude/unity-plugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

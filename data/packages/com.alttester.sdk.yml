@@ -4,6 +4,7 @@ description: AltTester Unity SDK is an open-source UI driven test automation too
   that helps you find objects in your game and interacts with them using tests written
   in C#, Python or Java.
 repoUrl: https://github.com/alttester/AltTester-Unity-SDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

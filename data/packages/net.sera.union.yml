@@ -2,6 +2,7 @@ name: net.sera.union
 displayName: Sera.Union
 description: Tagged union for c#
 repoUrl: https://github.com/sera-net/Sera.Union-for-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

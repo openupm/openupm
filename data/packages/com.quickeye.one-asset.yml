@@ -2,6 +2,7 @@ name: com.quickeye.one-asset
 displayName: One Asset
 description: Extended asset loader and the best singleton implementation for Unity.
 repoUrl: 'https://github.com/ErnSur/One-Asset'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

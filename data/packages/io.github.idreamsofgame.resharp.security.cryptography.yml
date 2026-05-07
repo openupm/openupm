@@ -2,6 +2,7 @@ name: io.github.idreamsofgame.resharp.security.cryptography
 displayName: ReSharp.Security.Cryptography
 description: This repository include CryptoUtility to provide cryptographic service.
 repoUrl: https://github.com/iDreamsOfGame/ReSharp.Security.Cryptography
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

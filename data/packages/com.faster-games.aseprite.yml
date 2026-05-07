@@ -2,6 +2,7 @@ name: com.faster-games.aseprite
 displayName: Aseprite Importer
 description: "An Aseprite importer for Unity3D. ð\x9F\x8E¨ð\x9F\x93¤"
 repoUrl: 'https://github.com/faster-games/aseprite'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

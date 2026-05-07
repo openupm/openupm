@@ -4,6 +4,7 @@ description: >-
   A quick way to create a MonoBehaviour as a child object that includes an
   Initialize method with or without arguments that are type-safe.
 repoUrl: 'https://github.com/dubit/unity-hierarchy-behaviour'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

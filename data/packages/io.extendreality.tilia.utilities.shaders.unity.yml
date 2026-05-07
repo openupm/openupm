@@ -2,6 +2,7 @@ name: io.extendreality.tilia.utilities.shaders.unity
 displayName: Tilia Utilities Shaders Unity
 description: A collection of custom shaders for the Unity Software
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

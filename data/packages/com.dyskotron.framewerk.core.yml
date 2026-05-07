@@ -3,6 +3,7 @@ name: com.dyskotron.framewerk.core
 displayName: Framewerk Core
 description: Core package with IoC container, Signals, Commands, and Promises. Pure .NET with no Unity dependencies.
 repoUrl: 'https://github.com/dyskotron/Framewerk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

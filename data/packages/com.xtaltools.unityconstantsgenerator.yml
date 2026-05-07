@@ -2,6 +2,7 @@ name: com.xtaltools.unityconstantsgenerator
 displayName: Unity Constants Generator
 description: Unity constants values code generator
 repoUrl: 'https://github.com/neptaco/UnityConstantsGenerator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

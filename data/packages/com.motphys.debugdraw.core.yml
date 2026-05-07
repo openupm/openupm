@@ -2,6 +2,7 @@ name: com.motphys.debugdraw.core
 displayName: Motphys Debug Draw Core
 description: Core package of the visualization tools provided by Motphys.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

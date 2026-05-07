@@ -2,6 +2,7 @@ name: com.shlifedev.ugs
 displayName: Uni Google Sheets
 description: Google Sheet Intergration for Unity
 repoUrl: https://github.com/shlifedev/uni-google-sheets
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

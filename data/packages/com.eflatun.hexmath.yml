@@ -2,6 +2,7 @@ name: com.eflatun.hexmath
 displayName: Eflatun.HexMath
 description: Library for hexagonal grid calculations.
 repoUrl: 'https://github.com/starikcetin/Eflatun.HexMath'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.nuskey.luau.unity
 displayName: Luau.Unity
 description: High-level Luau bindings for .NET and Unity
 repoUrl: https://github.com/nuskey8/luau-dotnet
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

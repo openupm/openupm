@@ -2,6 +2,7 @@ name: net.tnrd.histogrammer
 displayName: Histogrammer
 description: A tool for Unity3D to help you pinpoint redundant data
 repoUrl: 'https://github.com/Thundernerd/Unity3D-Histogrammer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

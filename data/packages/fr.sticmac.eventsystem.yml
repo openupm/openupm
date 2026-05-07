@@ -4,6 +4,7 @@ description: >-
   A cross-scene, easy to use event system through observable scriptable objects
   and listener scripts.
 repoUrl: 'https://github.com/sticmac/unity-event-system'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

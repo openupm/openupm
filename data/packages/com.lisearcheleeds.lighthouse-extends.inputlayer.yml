@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.inputlayer
 displayName: Lighthouse Extends - InputLayer
 description: Stack-based input dispatch over InputActionAsset. A layer can consume an event or block all lower layers.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/InputLayer
 licenseSpdxId: MIT
 licenseName: MIT License

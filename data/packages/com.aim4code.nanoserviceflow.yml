@@ -2,6 +2,7 @@ name: com.aim4code.nanoserviceflow
 displayName: NanoServiceFlow
 description: A lightweight, Zustand-inspired, zero-dependency state management and event-driven architecture for modern Unity.
 repoUrl: https://github.com/aim4code/nanoserviceflow
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

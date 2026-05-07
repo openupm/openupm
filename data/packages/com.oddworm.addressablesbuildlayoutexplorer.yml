@@ -8,6 +8,7 @@ description: >-
   You can open the Addressables BuildLayout Explorer window from the main-menu
   under 'Window > Asset Management > Addressables > BuildLayout Explorer'.
 repoUrl: 'https://github.com/pschraut/UnityAddressablesBuildLayoutExplorer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

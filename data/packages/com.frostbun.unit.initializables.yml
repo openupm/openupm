@@ -2,6 +2,7 @@ name: com.frostbun.unit.initializables
 displayName: UniT Initializables
 description: Initializable Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Initializables
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

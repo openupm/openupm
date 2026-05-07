@@ -2,6 +2,7 @@ name: com.bedtime.editor-history
 displayName: Editor History
 description: View and navigate your selection history
 repoUrl: 'https://github.com/BedtimeDigitalGames/Unity-Editor-History'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   to load and display ads from Liftoff Monetize using mediation, covering
   waterfall and bidding integrations.
 repoUrl: https://github.com/googleads/googleads-mobile-unity-mediation
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

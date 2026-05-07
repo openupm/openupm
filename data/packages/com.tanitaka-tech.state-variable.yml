@@ -2,6 +2,7 @@ name: com.tanitaka-tech.state-variable
 displayName: State Variable
 description: A library for managing state variables
 repoUrl: https://github.com/tanitaka-tech/StateVariable
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

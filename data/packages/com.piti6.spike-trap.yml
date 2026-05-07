@@ -6,6 +6,7 @@ description: >-
   filtering, GC allocation tracking, AI-driven profiling automation, and visual
   highlight strips.
 repoUrl: https://github.com/piti6/SpikeTrap
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

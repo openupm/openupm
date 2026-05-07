@@ -4,6 +4,7 @@ description: Elevate your game development experience with the Unity Achievement
   System Package! This powerful Unity package simplifies the creation and management
   of achievements in your games, enhancing player engagement and retention.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.undercats.firebase
 displayName: Firebase
 description: Firebase
 repoUrl: https://github.com/hcmyxconan15/firebase
+trackingMode: git
 parentRepoUrl: https://github.com/TeamAcMong/firebase
 licenseName: MIT License
 licenseSpdxId: MIT

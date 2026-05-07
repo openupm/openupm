@@ -5,6 +5,7 @@ description: >-
   connection between the app UI and the data it displays. This is a simple and
   consistent way to achieve clean separation of business logic from UI.
 repoUrl: 'https://github.com/ChebanovDD/UnityMvvmToolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

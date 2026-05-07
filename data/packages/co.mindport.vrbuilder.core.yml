@@ -2,6 +2,7 @@ name: co.mindport.vrbuilder.core
 displayName: VR Builder
 description: VR Builder core functionality.
 repoUrl: https://github.com/MindPort-GmbH/VR-Builder
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

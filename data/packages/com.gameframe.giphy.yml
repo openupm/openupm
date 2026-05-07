@@ -2,6 +2,7 @@ name: com.gameframe.giphy
 displayName: Gameframe.Giphy
 description: Library for using the GiphyAPI in Unity to get and play random Gifs as MP4s
 repoUrl: 'https://github.com/coryleach/UnityGiphy'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -18,6 +18,7 @@ description: >-
 
   -Custom drawer for key or value
 repoUrl: 'https://github.com/RotaryHeart/SerializableDictionaryLite'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

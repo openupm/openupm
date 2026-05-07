@@ -3,6 +3,7 @@ displayName: Tikim MockScene
 description: >-
   Scene-scoped mock scenario management tools for editor play mode validation.
 repoUrl: 'https://github.com/xhdtn8070/mock-scene'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

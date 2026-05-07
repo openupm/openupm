@@ -4,6 +4,7 @@ description: >-
   Unity Editor package and bundled CLI for driving a Puerts host from an
   external process.
 repoUrl: https://github.com/hwei/unity-puer-exec
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

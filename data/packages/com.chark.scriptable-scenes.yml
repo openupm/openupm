@@ -4,6 +4,7 @@ description: >-
   Simple scene loading and management system for Unity Engine, implemented via
   scriptable objects.
 repoUrl: 'https://github.com/chark/scriptable-scenes'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

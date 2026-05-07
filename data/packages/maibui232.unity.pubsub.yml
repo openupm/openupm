@@ -2,6 +2,7 @@ name: maibui232.unity.pubsub
 displayName: PubSub
 description: Publisher Subscriber Pattern
 repoUrl: https://github.com/maibui232/PubSub
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

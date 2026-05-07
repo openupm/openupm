@@ -2,6 +2,7 @@ name: com.nelasystem.flux-console
 displayName: Flux Console
 description: A minimal runtime console.
 repoUrl: https://github.com/zacx-z/flux-console
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

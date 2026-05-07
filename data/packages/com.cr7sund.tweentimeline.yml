@@ -3,6 +3,7 @@ displayName: Tween Timeline
 description: Tween TimeLine is an animation design tool for Unity that allows you
   to easily create UI animations without the need for coding
 repoUrl: https://github.com/liuxinjia/TweenTimeline
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

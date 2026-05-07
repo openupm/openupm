@@ -2,6 +2,7 @@ name: com.ltmx.unity-prefab-collider-generator
 displayName: Prefab Collider Generator
 description: Generates a collider that encapsulates all sub objects of a parent object
 repoUrl: https://github.com/ltmx/Unity-Prefab-Collider-Generator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

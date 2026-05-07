@@ -2,6 +2,7 @@ name: jp.nobnak.kuramoto_model
 displayName: Kuramoto Model
 description: Kuramoto Model implementation on Unity3D
 repoUrl: https://github.com/nobnak/KuramotoModelForSynchronization
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

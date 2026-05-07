@@ -2,6 +2,7 @@ name: com.unity.selection-groups
 displayName: Selection Groups
 description: ''
 repoUrl: https://github.com/Unity-Technologies/com.unity.selection-groups
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

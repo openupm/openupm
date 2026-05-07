@@ -2,6 +2,7 @@ name: com.vrcfury.vrcfury
 displayName: VRCFury
 description: Non-Destructive Tools for VRChat Avatars
 repoUrl: https://github.com/VRCFury/VRCFury
+trackingMode: git
 parentRepoUrl: null
 licenseName: Creative Commons Attribution Non Commercial No Derivatives 4.0 International
 licenseSpdxId: CC-BY-NC-ND-4.0

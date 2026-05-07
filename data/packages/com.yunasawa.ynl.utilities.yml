@@ -4,6 +4,7 @@ description: >-
   YNL - Utilities provides you utilities, extensions, addons to help you on your
   developing progress.
 repoUrl: https://github.com/Yunasawa/YNL-Utilities
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

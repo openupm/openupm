@@ -2,6 +2,7 @@ name: com.camarent.unity-ecs-navmesh
 displayName: ''
 description: A demo implementation of Unity Entity Component System with NavMesh
 repoUrl: 'https://github.com/Camarent/unity-ecs-navmesh'
+trackingMode: git
 parentRepoUrl: 'https://github.com/CDMayberry/unity-ecs-navmesh'
 licenseSpdxId: MIT
 licenseName: MIT License

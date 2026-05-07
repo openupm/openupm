@@ -2,6 +2,7 @@ name: org.pcsoft.ads-ex
 displayName: Unity Advertisement Extension
 description: Extension for diverse advertisements for Unity.
 repoUrl: 'https://github.com/KleinerHacker/unity-ads-ex'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

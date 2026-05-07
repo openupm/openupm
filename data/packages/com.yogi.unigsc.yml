@@ -4,6 +4,7 @@ description: >-
   Loads data from Google sheets of any structure into Unity and parses it into a
   Json file of any given structure.
 repoUrl: 'https://github.com/dkoleev/UniGSC'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   UniSharper.Data.SaveGame is a save game system for saving and loading game
   data in Unity Engine.
 repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Data.SaveGame'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

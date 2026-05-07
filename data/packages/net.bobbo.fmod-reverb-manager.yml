@@ -2,6 +2,7 @@ name: net.bobbo.fmod-reverb-manager
 displayName: FMOD Reverb Manager
 description: Allows for managing basic FMOD reverb settings
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

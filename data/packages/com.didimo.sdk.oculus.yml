@@ -6,6 +6,7 @@ description: 'Didimo provides a cloud-based automated service that enables the g
   This module contains an example Oculus integration to help you get up and running
   builing didimos into your Oculus experiences as quick as possible.'
 repoUrl: https://github.com/didimoinc/didimo-digital-human-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: Didimo Source Code License
 licenseSpdxId: null

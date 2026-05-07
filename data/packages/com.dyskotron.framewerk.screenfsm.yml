@@ -3,6 +3,7 @@ name: com.dyskotron.framewerk.screenfsm
 displayName: Framewerk ScreenFSM
 description: Screen-based finite state machine for application state and view management.
 repoUrl: 'https://github.com/dyskotron/Framewerk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

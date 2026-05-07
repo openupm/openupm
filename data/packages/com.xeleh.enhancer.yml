@@ -2,6 +2,7 @@ name: com.xeleh.enhancer
 displayName: Editor Enhancer
 description: A collection of utilities to enhance the Unity Editor
 repoUrl: 'https://github.com/xeleh/enhancer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

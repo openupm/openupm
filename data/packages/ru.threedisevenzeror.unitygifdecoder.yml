@@ -2,6 +2,7 @@ name: ru.threedisevenzeror.unitygifdecoder
 displayName: Gif Decoder
 description: Classes and components for reading and decoding .GIF files  in Unity
 repoUrl: 'https://github.com/3DI70R/Unity-GifDecoder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

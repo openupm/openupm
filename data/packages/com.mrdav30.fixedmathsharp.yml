@@ -2,6 +2,7 @@ name: com.mrdav30.fixedmathsharp
 displayName: FixedMathSharp
 description: A high-precision, deterministic fixed-point math library for Unity and .NET.
 repoUrl: https://github.com/mrdav30/FixedMathSharp-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: jp.nobnak.raytracing_experiments
 displayName: Raytracing Experiments
 description: Unity raytracing experiments with soft shadows and temporal blending
 repoUrl: https://github.com/nobnak/RaytracingExperiments
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

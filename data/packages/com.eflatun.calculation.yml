@@ -2,6 +2,7 @@ name: com.eflatun.calculation
 displayName: Eflatun.Calculation
 description: Calculation utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Calculation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

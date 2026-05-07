@@ -2,6 +2,7 @@ name: com.edgegap.unity-servers-plugin
 displayName: Edgegap Servers Quickstart
 description: Get started quickly with Edgegap Dedicated Server hosting.
 repoUrl: https://github.com/edgegap/edgegap-unity-plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

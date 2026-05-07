@@ -4,6 +4,7 @@ description: >-
   A Unity package that provides a window to explore Unity Editor icons and
   generate a readme file with the icons used in Unity Editor.
 repoUrl: https://github.com/Alaxxxx/UnityEditorIcons
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

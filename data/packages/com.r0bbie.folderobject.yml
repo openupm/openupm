@@ -4,6 +4,7 @@ description: Folder Object component, hides the transform, allowing use of empty
   for organising your scene, avoiding frequent problems associated with accidental
   offsets.
 repoUrl: https://github.com/r0bbie/unity-folder-object
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

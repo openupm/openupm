@@ -4,6 +4,7 @@ description: >-
   Design data agent is a table parse tool for unity3D.You can define parse
   method easily, and parse data to unity scriptable object.
 repoUrl: 'https://github.com/MacacaGames/DesignDataAgent'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

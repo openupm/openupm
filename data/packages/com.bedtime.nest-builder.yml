@@ -2,6 +2,7 @@ name: com.bedtime.nest-builder
 displayName: NestBuilder
 description: NestBuilder
 repoUrl: https://github.com/BedtimeDigitalGames/NestBuilder
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

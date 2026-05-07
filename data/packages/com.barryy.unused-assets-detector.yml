@@ -5,6 +5,7 @@ description: >-
   tool helps developers clean up their projects by reducing unnecessary resource
   usage
 repoUrl: https://github.com/barryyip0625/UnusedAssetsDetector
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

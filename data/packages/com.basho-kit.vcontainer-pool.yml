@@ -2,6 +2,7 @@ name: com.basho-kit.vcontainer-pool
 displayName: VContainer object pooling
 description: 'A small extension built on top of vcontainer that introduces a built-in pooling functionality for your gameobjects'
 repoUrl: https://github.com/Valerio-Corso/VContainer-ViewPool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

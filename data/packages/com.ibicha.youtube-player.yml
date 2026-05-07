@@ -2,6 +2,7 @@ name: com.ibicha.youtube-player
 displayName: Youtube Player
 description: Allows playing youtube videos in Unity.
 repoUrl: 'https://github.com/iBicha/UnityYoutubePlayer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

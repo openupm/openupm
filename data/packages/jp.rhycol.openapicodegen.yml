@@ -4,6 +4,7 @@ description: >-
   This is a package to make a rest api client c-sharp file from swagger's json
   and yaml
 repoUrl: https://github.com/rebeat-jp/UnityOpenApiCodeGen
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

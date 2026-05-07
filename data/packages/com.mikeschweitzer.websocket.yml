@@ -3,6 +3,7 @@ displayName: WebSocket Client
 description: Simple, flexible WebSocket client. Add the WebSocketConnection MonoBehaviour
   anywhere in your scene.
 repoUrl: https://github.com/mikerochip/unity-websocket
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

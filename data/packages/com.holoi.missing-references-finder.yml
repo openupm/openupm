@@ -2,6 +2,7 @@ name: com.holoi.missing-references-finder
 displayName: Missing References Finder
 description: This tool finds missing or null references in Unity project assets.
 repoUrl: https://github.com/holoi/missing-references-finder
+trackingMode: git
 parentRepoUrl: https://github.com/AlexeyPerov/Unity-MissingReferences-Hunter
 licenseSpdxId: MIT
 licenseName: MIT License

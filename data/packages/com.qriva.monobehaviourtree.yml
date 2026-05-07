@@ -2,6 +2,7 @@ name: com.qriva.monobehaviourtree
 displayName: MonoBehaviourTree
 description: Simple event driven behaviour tree based on Unity engine component system.
 repoUrl: https://github.com/Qriva/MonoBehaviourTree
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

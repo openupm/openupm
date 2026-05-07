@@ -2,6 +2,7 @@ name: com.katuusagi.memoizationforunity
 displayName: MemoizationForUnity
 description: Libraries supporting Memoization. Powerful optimization features.
 repoUrl: https://github.com/Katsuya100/MemoizationForUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

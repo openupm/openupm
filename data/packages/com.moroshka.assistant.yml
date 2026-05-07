@@ -4,6 +4,7 @@ description: >-
   Assistant window. A centralized workspace for custom editors and other
   capabilities designed to automate and simplify common development workflows.
 repoUrl: https://github.com/moroshka-dev/moroshka-assistant
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: studio.doublecake.umake
 displayName: UMake
 description: This is UMake project
 repoUrl: 'https://github.com/kaznowski/umake'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

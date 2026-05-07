@@ -2,6 +2,7 @@ name: com.sebaslab.svelto.unsafe
 displayName: System.Runtime.CompilerServices.Unsafe.dll
 description: ''
 repoUrl: 'https://github.com/sebas77/com.sebaslab.svelto.unsafe'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

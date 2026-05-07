@@ -4,6 +4,7 @@ description: >-
   SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports.
   Only support standalone and editor platforms.
 repoUrl: https://github.com/iDreamsOfGame/SkiaForUnity.Standalone
+trackingMode: git
 parentRepoUrl: https://github.com/ammariqais/SkiaForUnity
 licenseSpdxId: MIT
 licenseName: MIT License

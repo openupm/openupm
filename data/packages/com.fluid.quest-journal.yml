@@ -4,6 +4,7 @@ description: >-
   A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and
   The Witcher 3's task managment system.
 repoUrl: 'https://github.com/ashblue/unity-quest-journal'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

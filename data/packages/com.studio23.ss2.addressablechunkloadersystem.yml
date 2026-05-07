@@ -2,6 +2,7 @@ name: com.studio23.ss2.addressablechunkloadersystem
 displayName: Addressable Chunk Loader System
 description: Addressable Chunk/Room Loader System using addressables we made for SS2
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.addressablechunkloadersystem
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

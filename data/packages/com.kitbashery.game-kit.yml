@@ -2,6 +2,7 @@ name: com.kitbashery.game-kit
 displayName: Game Kit
 description: A collection of feature rich gameplay systems.
 repoUrl: 'https://github.com/Kitbashery/Game-Kit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

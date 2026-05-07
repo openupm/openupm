@@ -4,6 +4,7 @@ description: >-
   Unity Editor MCP bridge and tooling for AI-assisted development (screenshots,
   video capture, scene analysis, input automation).
 repoUrl: https://github.com/akiojin/unity-mcp-server
+trackingMode: git
 packagePath: UnityMCPServer/Packages/unity-mcp-server
 parentRepoUrl: null
 licenseSpdxId: MIT

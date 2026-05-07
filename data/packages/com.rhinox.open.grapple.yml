@@ -2,6 +2,7 @@ name: com.rhinox.open.grapple
 displayName: Rhinox Grapple
 description: A physics framework for hand tracking applications.
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-grapple'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

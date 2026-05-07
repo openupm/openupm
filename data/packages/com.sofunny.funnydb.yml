@@ -2,6 +2,7 @@ name: com.sofunny.funnydb
 displayName: FunnyDB
 description: This is SoFunny FunnyDB
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnydb
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -6,6 +6,7 @@ description: >-
   work, the goal of ViewSystem is to make UI management more easier and
   flexable.
 repoUrl: 'https://github.com/MacacaGames/MacacaViewSystem'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

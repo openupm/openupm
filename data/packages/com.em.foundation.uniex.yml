@@ -2,6 +2,7 @@ name: com.em.foundation.uniex
 displayName: EM.Foundation.UniEx
 description: ''
 repoUrl: https://github.com/epishev-m/EM.Foundation.UniEx
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.koki-ibukuro.arkitstream
 displayName: ARKit Stream
 description: AR Foundation Remote Debugging Tool for Unity
 repoUrl: 'https://github.com/asus4/ARKitStreamer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

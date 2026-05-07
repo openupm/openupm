@@ -2,6 +2,7 @@ name: com.kc.binder
 displayName: KC.Binder
 description: "ç»\x91å®\x9Aå·¥å\N·ï¼\x8Cè½¬å\x8C\x96unityæ\x8B\x96æ\x8B½ä¸ºç\x9B¸åº\x94ä»£ç\_\x81"
 repoUrl: https://github.com/zkyvette425/com.kc.binder
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

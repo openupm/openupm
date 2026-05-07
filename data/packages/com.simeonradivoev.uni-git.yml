@@ -2,6 +2,7 @@ name: com.simeonradivoev.uni-git
 displayName: UniGit
 description: An open source GIT Unity3D editor plugin.
 repoUrl: https://github.com/simeonradivoev/UniGit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

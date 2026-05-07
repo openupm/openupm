@@ -2,6 +2,7 @@ name: com.fantasy.unity
 displayName: Fantasy.Unity
 description: Fantasy is a cross platform distributed server framework.
 repoUrl: https://github.com/qq362946/Fantasy.Unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.gameworkstore.automation
 displayName: GameWorkstore Automation
 description: Automate your projects with this powerful tool with many build options!
 repoUrl: 'https://github.com/GameWorkstore/automation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

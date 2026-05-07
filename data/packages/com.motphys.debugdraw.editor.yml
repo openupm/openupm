@@ -4,6 +4,7 @@ description: >-
   Visualization tools provided by Motphys, used for visualizing objects in
   various scenarios.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

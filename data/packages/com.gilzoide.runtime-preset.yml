@@ -2,6 +2,7 @@ name: com.gilzoide.runtime-preset
 displayName: Runtime Preset
 description: Preset for components that can be applied at runtime
 repoUrl: https://github.com/gilzoide/unity-runtime-preset
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

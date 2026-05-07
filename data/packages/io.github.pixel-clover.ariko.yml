@@ -2,6 +2,7 @@ name: io.github.pixel-clover.ariko
 displayName: Ariko
 description: A friendly AI assistant for Unity
 repoUrl: https://github.com/pixel-clover/ariko
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

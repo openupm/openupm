@@ -4,6 +4,7 @@ description: >-
   UPM-wrapped copy of Unity.IL2CPP.CompilerServices.Il2CppSetOptionAttribute
   (because Unity makes you copy it from its installation for some reason)
 repoUrl: 'https://github.com/JesseTG/Il2CppSetOptionAttribute'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

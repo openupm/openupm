@@ -2,6 +2,7 @@ name: com.brunomikoski.presetmanager
 displayName: Preset Manager
 description: Applies Preset to folders and objects
 repoUrl: 'https://github.com/brunomikoski/PresetManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

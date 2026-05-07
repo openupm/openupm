@@ -2,6 +2,7 @@ name: eu.netherlands3d.geojson
 displayName: Netherlands3D - GeoJSON
 description: Extra GeoJSON-based features for Netherlands3D
 repoUrl: 'https://github.com/Netherlands3D/GeoJSON'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

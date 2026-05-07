@@ -2,6 +2,7 @@ name: com.ultraleap.playrecorder
 displayName: Ultraleap PlayRecorder
 description: Unity scene logic recorder tool for editor and builds.
 repoUrl: 'https://github.com/ultraleap/PlayRecorder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

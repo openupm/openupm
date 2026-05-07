@@ -2,6 +2,7 @@ name: com.laicasaane.typewrap
 displayName: TypeWrap
 description: C# source generator to simplify the creation of wrapper types.
 repoUrl: https://github.com/laicasaane/TypeWrap
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

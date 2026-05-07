@@ -2,6 +2,7 @@ name: com.seanba.super-tiled2unity
 displayName: Super Tiled2Unity
 description: Imports Tiled Map Editor assets into Unity
 repoUrl: https://github.com/Seanba/SuperTiled2Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

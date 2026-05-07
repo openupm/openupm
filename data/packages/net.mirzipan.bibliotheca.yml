@@ -2,6 +2,7 @@ name: net.mirzipan.bibliotheca
 displayName: Mirzipan Bibliotheca
 description: Various utilities for Unity projects
 repoUrl: 'https://github.com/Mirzipan/Mirzipan.Bibliotheca'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

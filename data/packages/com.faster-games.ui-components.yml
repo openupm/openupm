@@ -2,6 +2,7 @@ name: com.faster-games.ui-components
 displayName: UI Components
 description: "A set of UI components for Unity's new UI Toolkit framework. ð\x9F\x8E\x9Bð\x9F\x96\x8A"
 repoUrl: 'https://github.com/faster-games/ui-components'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

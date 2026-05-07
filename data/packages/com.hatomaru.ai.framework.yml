@@ -2,6 +2,7 @@ name: com.hatomaru.ai.framework
 displayName: AIDrivenFramework
 description: A modular framework for safely integrating local LLMs into Unity projects.
 repoUrl: https://github.com/hatomaru/AIDrivenFramework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

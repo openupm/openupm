@@ -5,6 +5,7 @@ description: >-
   possible, by providing array value types of single bits, aswell as array value
   types of signed- and unsigned integers with a given number of bits.
 repoUrl: https://github.com/MrUnbelievable92/Bit-Collections
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

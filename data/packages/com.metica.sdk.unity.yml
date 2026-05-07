@@ -2,6 +2,7 @@ name: com.metica.sdk.unity
 displayName: Metica SDK
 description: Metica SDK for Unity
 repoUrl: https://github.com/yuri468/upm_test
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: ISC
 licenseName: ISC License

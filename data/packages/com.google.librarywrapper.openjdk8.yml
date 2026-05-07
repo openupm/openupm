@@ -5,6 +5,7 @@ description: Library Wrapper is a code generator that parses Java API and produc
   a trimmed down version of OpenJDK 8, consisting of `java.lang` and `java.util` classes.
   These wrappers allow developers to access common Java data structures easily.
 repoUrl: https://github.com/google/library-wrapper-unity-openjdk8
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-2.0
 licenseName: GNU General Public License v2.0 only

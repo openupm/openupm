@@ -17,6 +17,7 @@ description: >-
 
   Note: This package does not apply to Development builds
 repoUrl: https://github.com/Generalisk/Unity-CleanBuild
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.cathei.rotationmath
 displayName: RotationMath
 description: Commonly used rotation mathematics utility for Unity.
 repoUrl: 'https://github.com/cathei/RotationMath'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

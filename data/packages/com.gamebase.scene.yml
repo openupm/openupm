@@ -5,6 +5,7 @@ description: >-
   Gamebase-SceneManagement is an extension for Gamebase-Core and won't work
   without it.
 repoUrl: 'https://github.com/hiyorin/Gamebase-SceneManagement'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

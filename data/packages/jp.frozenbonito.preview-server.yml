@@ -2,6 +2,7 @@ name: jp.frozenbonito.preview-server
 displayName: Unity Preview Server for WebGL
 description: Local Preview Server for Unity WebGL
 repoUrl: 'https://github.com/frozenbonito/UnityPreviewServer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.coolishbee.http-client
 displayName: Simple Http Client
 description: Provide efficient HttpClient functions using UniTask in Unity.
 repoUrl: https://github.com/coolishbee/simple-http-client-unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.macacagames.macacaapi
 displayName: Macaca APIs
 description: 'A native API wrapper to some iOS/Android feature e.g. AlertDialog, Toast'
 repoUrl: 'https://github.com/MacacaGames/MacacaAPI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

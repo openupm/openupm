@@ -2,6 +2,7 @@ name: com.teppich.teppichsbehaviortree
 displayName: Teppichs Behavior Tree
 description: A simple behavior tree agent intelligence.
 repoUrl: 'https://github.com/JohannesSpicker/TeppichsBehaviorTree'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

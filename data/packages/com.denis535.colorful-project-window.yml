@@ -3,6 +3,7 @@ displayName: Colorful Project Window
 description: The package provides you with a more convenient project window, which
   highlights the most important files and folders in special colors.
 repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

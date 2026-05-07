@@ -4,6 +4,7 @@ description: >-
   Humanizer meets all your .NET needs for manipulating and displaying strings,
   enums, dates, times, timespans, numbers and quantities.
 repoUrl: 'https://github.com/Thundernerd/Unity3D-Humanizr'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.potatointeractive.eval
 displayName: PotatoEval
 description: Expression Parser and Evaluator package for Unity/C#
 repoUrl: 'https://github.com/tlauterbach/potato-eval'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

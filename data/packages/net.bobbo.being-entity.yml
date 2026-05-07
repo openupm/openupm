@@ -2,6 +2,7 @@ name: net.bobbo.being-entity
 displayName: Being Entity
 description: Who needs actors?
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

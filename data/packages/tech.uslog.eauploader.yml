@@ -2,6 +2,7 @@ name: tech.uslog.eauploader
 displayName: Easy Avatar Uploader for VRChat
 description: Tools for more concise and easier uploading of avatars.
 repoUrl: https://github.com/Project-EAUploader/EAUploader-for-VRChat
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

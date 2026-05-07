@@ -4,6 +4,7 @@ description: >-
   #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the
   .NET platform.
 repoUrl: 'https://github.com/icsharpcode/SharpZipLib'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

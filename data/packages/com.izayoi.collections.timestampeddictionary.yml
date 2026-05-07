@@ -2,6 +2,7 @@ name: com.izayoi.collections.timestampeddictionary
 displayName: Izayoi.Collections.TimestampedDictionary
 description: This is a dictionary that records datetime when data is added.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Collections
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

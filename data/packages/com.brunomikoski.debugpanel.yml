@@ -4,6 +4,7 @@ description: >-
   Debug Panel is a runtime tool that enables you to expose fields, methods to be
   changed/activated by it
 repoUrl: 'https://github.com/brunomikoski/Debug-Panel'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

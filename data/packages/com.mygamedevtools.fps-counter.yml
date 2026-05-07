@@ -4,6 +4,7 @@ description: >-
   A lightweight FPS Counter. Tracks average, minimum and maximum frames per
   second of the application.
 repoUrl: 'https://github.com/mygamedevtools/fps-counter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

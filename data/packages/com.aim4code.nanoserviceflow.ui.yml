@@ -5,6 +5,7 @@ description: >-
   Features hierarchy-based auto-routing, async UniTask transitions, and
   multi-canvas support to separate UI state, logic, and views.
 repoUrl: https://github.com/aim4code/nanoserviceflow-ui
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

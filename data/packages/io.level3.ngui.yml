@@ -4,6 +4,7 @@ description: >-
   NGUI is a UI system for Unity, originally created by Tasharen Entertainment in
   2011. This is a community-maintained fork.
 repoUrl: https://github.com/Mazyod/ngui
+trackingMode: git
 parentRepoUrl: https://github.com/tasharen/ngui
 licenseSpdxId: MIT
 licenseName: MIT License

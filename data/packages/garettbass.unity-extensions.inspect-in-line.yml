@@ -4,6 +4,7 @@ description: >-
   Enables you to inspect and edit object references, and easily embed such
   objects as subassets.
 repoUrl: 'https://github.com/d4160/UnityExtensions.InspectInline'
+trackingMode: git
 parentRepoUrl: 'https://github.com/garettbass/UnityExtensions.InspectInline'
 licenseSpdxId: MIT
 licenseName: MIT License

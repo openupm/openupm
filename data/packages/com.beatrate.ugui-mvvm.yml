@@ -4,6 +4,7 @@ description: >-
   Unity3D uGUI mvvm databinding via the standard IXChanged interfaces used in
   wpf (INotifyPropertyChanged, INotifyCollectionChanged, etc)
 repoUrl: 'https://github.com/beatrate/ugui-mvvm'
+trackingMode: git
 parentRepoUrl: 'https://github.com/jbruening/ugui-mvvm'
 licenseSpdxId: MIT
 licenseName: MIT License

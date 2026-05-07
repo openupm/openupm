@@ -2,6 +2,7 @@ name: com.brunomikoski.scriptableobjectcollection
 displayName: Scriptable Object Collection
 description: A utility to improve the usability of Scriptable Objects
 repoUrl: 'https://github.com/brunomikoski/ScriptableObjectCollection'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE

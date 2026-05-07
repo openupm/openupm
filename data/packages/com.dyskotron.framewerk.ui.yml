@@ -3,6 +3,7 @@ name: com.dyskotron.framewerk.ui
 displayName: Framewerk UI
 description: UI components including Views, Mediators, Popups, Lists, AssetManager, and ViewConfig.
 repoUrl: 'https://github.com/dyskotron/Framewerk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

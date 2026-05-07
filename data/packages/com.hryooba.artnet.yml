@@ -4,6 +4,7 @@ description: |-
   Unity HRYooba
   ArtNet
 repoUrl: https://github.com/HRYooba/HRYoobaUnity.ArtNet
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

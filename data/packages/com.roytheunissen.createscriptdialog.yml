@@ -4,6 +4,7 @@ description: >-
   A wizard that lets you create scripts from useful templates, with correct
   namespaces and asmdefs/asmrefs support.
 repoUrl: 'https://github.com/RoyTheunissen/Create-Script-Dialog'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

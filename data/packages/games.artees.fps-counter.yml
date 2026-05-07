@@ -2,6 +2,7 @@ name: games.artees.fps-counter
 displayName: FPS Counter
 description: A simple FPS counter for Unity
 repoUrl: 'https://github.com/Artees/FPSCounter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

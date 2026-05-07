@@ -2,6 +2,7 @@ name: com.stansassets.xcode-project
 displayName: Stans Assets - XCode Project
 description: ''
 repoUrl: 'https://github.com/StansAssets/com.stansassets.xcode-project'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -4,6 +4,7 @@ description: >-
   Circle and ring patch mesh with tessellation shaders and GPU instancing for
   URP.
 repoUrl: https://github.com/nobnak/urp-CircleRenderer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

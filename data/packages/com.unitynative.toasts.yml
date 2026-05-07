@@ -2,6 +2,7 @@ name: com.unitynative.toasts
 displayName: Unity-Native-Toasts
 description: ''
 repoUrl: https://github.com/NicholasSheehan/Unity-Native-Toasts
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

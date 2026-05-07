@@ -3,6 +3,7 @@ displayName: Unity Navmesh Components
 description: Wrapper package for the Unity Navmesh components, designed to work with
   Unity's Package Manager
 repoUrl: https://github.com/PixelWizards/navmesh-components
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

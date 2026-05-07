@@ -2,6 +2,7 @@ name: com.gilzoide.gradient-rect
 displayName: Gradient Rect
 description: Component that draws a Gradient using Unity UI
 repoUrl: 'https://github.com/gilzoide/unity-gradient-rect'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

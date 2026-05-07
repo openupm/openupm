@@ -4,6 +4,7 @@ description: >-
   A menu navigation library that supports both controller and mouse and
   keyboard.
 repoUrl: 'https://github.com/yontalane/UnityPackages'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-3.0-US
 licenseName: Creative Commons Attribution 3.0 United States

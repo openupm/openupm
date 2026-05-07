@@ -2,6 +2,7 @@ name: com.rodrigodzf.jackaudioforunity
 displayName: JackAudioForUnity
 description: Jack audio plugin for unity
 repoUrl: https://github.com/rodrigodzf/Jack-Audio-For-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

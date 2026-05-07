@@ -2,6 +2,7 @@ name: net.tnrd.iconmanager
 displayName: Icon Manager
 description: A small script allowing you to set icons for GameObjects through code
 repoUrl: 'https://github.com/Thundernerd/Unity3D-IconManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.greenbamboogames.editorusersettings
 displayName: Editor User Settings!
 description: Store user settings in Unity Editor.
 repoUrl: https://github.com/SolarianZ/UnityEditorUserSettings
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

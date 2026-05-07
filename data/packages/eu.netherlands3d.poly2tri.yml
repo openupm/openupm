@@ -2,6 +2,7 @@ name: eu.netherlands3d.poly2tri
 displayName: poly2tri
 description: 'Unity Package version of the poly2tri library: https://github.com/Unity-Technologies/poly2tri-cs'
 repoUrl: https://github.com/Netherlands3D/poly2tri
+trackingMode: git
 parentRepoUrl: https://github.com/Unity-Technologies/poly2tri-cs
 licenseName: BSD 3-Clause "New" or "Revised" License
 licenseSpdxId: BSD-3-Clause

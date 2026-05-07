@@ -2,6 +2,7 @@ name: io.nekonya.tinax.xcomponent.ilruntime
 displayName: TinaX.XComponent.ILRuntime
 description: ''
 repoUrl: 'https://github.com/yomunsam/TinaX.XComponent.ILRuntime'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

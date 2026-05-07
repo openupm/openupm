@@ -5,6 +5,7 @@ description: >-
   https://blog.gemserk.com/2022/04/24/refactoring-prefabs-and-unity-objects/ and
   https://github.com/acoppes/unity-refactoring-tools
 repoUrl: 'https://github.com/acoppes/unity-refactoring-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

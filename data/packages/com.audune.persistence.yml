@@ -3,6 +3,7 @@ displayName: Object Persistence
 description: Persistent data system using Object Serialization for Unity 2022 LTS
   or higher.
 repoUrl: https://github.com/audunegames/object-persistence
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

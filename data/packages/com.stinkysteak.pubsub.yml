@@ -2,6 +2,7 @@ name: com.stinkysteak.pubsub
 displayName: Pub-Sub Framework
 description: Publish Subscribe framework
 repoUrl: https://github.com/StinkySteak/com.stinkysteak.pubsub
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

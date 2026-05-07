@@ -4,6 +4,7 @@ description: >-
   Hotkey Scenes is helper editor for using shift + 'numbers' to quickly change
   scenes.
 repoUrl: 'https://github.com/NMeJa/HotkeyScenes'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

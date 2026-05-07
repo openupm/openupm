@@ -2,6 +2,7 @@ name: com.freakshowstudio.ucb-buildnumber
 displayName: UCB Build Number
 description: Automatically set build number for UCB builds
 repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.ucb-buildnumber
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

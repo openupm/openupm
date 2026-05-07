@@ -2,6 +2,7 @@ name: com.ltmx.unity.package-manager.tools
 displayName: Unity Package Manager Tools
 description: Enhancements for Unity's Package Manager
 repoUrl: https://github.com/ltmx/Unity.PackageManagerTools
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

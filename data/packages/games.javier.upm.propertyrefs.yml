@@ -4,6 +4,7 @@ description: >-
   PropertyRef allows you to create shortcuts to the values of a prefab and
   modify them.
 repoUrl: https://github.com/javier-games/upm-propertyrefs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

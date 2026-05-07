@@ -2,6 +2,7 @@ name: com.oculus.unity.sample-framework
 displayName: Oculus Sample Framework
 description: Unofficial Oculus Sample Framework as a package for Unity.
 repoUrl: https://github.com/Trisgram/com.oculus.unity.sample-framework
+trackingMode: git
 parentRepoUrl: null
 licenseName: Oculus SDK License
 licenseSpdxId: null

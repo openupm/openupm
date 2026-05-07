@@ -4,6 +4,7 @@ description: Unity and C# common functions
 displayName_zhCN: AIO Unity Common
 description_zhCN: C# 和 Unity 通用函数库
 repoUrl: https://github.com/AIO-GAME/Common
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

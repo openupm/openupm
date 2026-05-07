@@ -2,6 +2,7 @@ name: com.xtaltools.unienum
 displayName: UniEnum
 description: Enum Utilities for Unity
 repoUrl: 'https://github.com/neptaco/UniEnum'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

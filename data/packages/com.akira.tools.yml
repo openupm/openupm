@@ -2,6 +2,7 @@ name: com.akira.tools
 displayName: Akira's Tools
 description: A collection of useful tools for Unity development
 repoUrl: https://github.com/AkiVonAkira/com.akira.tools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

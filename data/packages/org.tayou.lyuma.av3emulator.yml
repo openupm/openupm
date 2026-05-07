@@ -2,6 +2,7 @@ name: org.tayou.lyuma.av3emulator
 displayName: Av3Emulator
 description: An Emulator for VRChat's Avatar 3.0 System
 repoUrl: https://github.com/TayouVR/Av3Emulator
+trackingMode: git
 parentRepoUrl: https://github.com/lyuma/Av3Emulator
 licenseName: MIT License
 licenseSpdxId: MIT

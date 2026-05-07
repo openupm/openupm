@@ -5,6 +5,7 @@ description: >-
   aims to help developers clean up the look of their Material properties while
   maintaining the built-in style.
 repoUrl: 'https://github.com/RobProductions/OpenGraphGUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

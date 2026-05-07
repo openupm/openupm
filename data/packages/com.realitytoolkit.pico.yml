@@ -2,6 +2,7 @@ name: com.realitytoolkit.pico
 displayName: RealityToolkit.Pico
 description: The Pico platform components for the Reality Toolkit by the Reality Collective. This package enables your Reality Toolkit based project to run on Pico devices.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.pico'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

@@ -4,6 +4,7 @@ description: >-
   A Unity package designed to improve memory usage by using bit fields for
   boolean values.
 repoUrl: https://github.com/chsxf/multibool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

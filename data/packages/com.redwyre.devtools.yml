@@ -2,6 +2,7 @@ name: com.redwyre.devtools
 displayName: redwyre Dev Tools
 description: A some tools for developers. Clear library, burst cache, some toolbar buttons.
 repoUrl: https://github.com/redwyre/com.redwyre.devtools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

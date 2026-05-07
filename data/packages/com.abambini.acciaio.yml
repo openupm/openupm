@@ -4,6 +4,7 @@ description: C# library for Unity. It contains various extension methods and ser
   types to use in editor and at runtime. It also offers an entire architecture to
   manage the game flow thorugh the 'Systems'.
 repoUrl: https://github.com/ACCIAI0/acciaio
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

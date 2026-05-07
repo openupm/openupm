@@ -2,6 +2,7 @@ name: com.github.messagepack-csharp
 displayName: MessagePack
 description: Extremely Fast MessagePack Serializer for C#.
 repoUrl: https://github.com/MessagePack-CSharp/MessagePack-CSharp
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

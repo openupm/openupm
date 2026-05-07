@@ -2,6 +2,7 @@ name: com.gindemit.rlottie
 displayName: Lottie Animation
 description: Lottie Animation Plugin for Unity
 repoUrl: https://github.com/gindemit/unity-rlottie
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

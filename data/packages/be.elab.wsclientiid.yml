@@ -4,6 +4,7 @@ description: This package allows to install the package needed to create a Webso
   Index Integer client. It make it easy in Unity to connect to APInt IO server or
   you DIY IID server on PI .
 repoUrl: https://github.com/EloiStree/OpenUPM_WsClientIID
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

@@ -4,6 +4,7 @@ description: >-
   Pinchable ScrollRect allows users to zoom in and out on the ScrollRect with
   both touches pinching input or mouse scroll input.
 repoUrl: 'https://github.com/LokoSoloGames/Unity_PinchableScrollRect'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

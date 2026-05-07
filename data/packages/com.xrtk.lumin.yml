@@ -2,6 +2,7 @@ name: com.xrtk.lumin
 displayName: XRTK.Lumin
 description: The Lumin platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/Lumin'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

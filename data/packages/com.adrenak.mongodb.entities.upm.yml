@@ -2,6 +2,7 @@ name: com.adrenak.mongodb.entities.upm
 displayName: MongoDB Entities for Unity
 description: A UPM package of MongoDB.Entities for the Unity game engine
 repoUrl: 'https://github.com/adrenak/mongodb.entities.unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

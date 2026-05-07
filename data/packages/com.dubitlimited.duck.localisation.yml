@@ -2,6 +2,7 @@ name: com.dubitlimited.duck.localisation
 displayName: Duck Localisation
 description: Localisation support
 repoUrl: 'https://github.com/dubit/unity-localisation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -4,6 +4,7 @@ description: >-
   This system will be used to check user authentication for validating proper
   digital rights management (DRM) of the game.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

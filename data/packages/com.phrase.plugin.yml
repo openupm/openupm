@@ -4,6 +4,7 @@ description: >-
   This package provides synchronization with Phrase Strings localization
   service.
 repoUrl: https://github.com/phrase/unity-plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

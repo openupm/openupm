@@ -2,6 +2,7 @@ name: com.yontalane.gridnav
 displayName: Grid Nav
 description: A* grid navigation.
 repoUrl: 'https://github.com/yontalane/UnityPackages'
+trackingMode: git
 parentRepoUrl: null
 licenseName: Creative Commons Attribution 3.0 United States
 licenseSpdxId: CC-BY-3.0-US

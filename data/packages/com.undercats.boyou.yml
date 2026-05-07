@@ -2,6 +2,7 @@ name: com.undercats.boyou
 displayName: Boyou
 description: Boyou
 repoUrl: https://github.com/hcmyxconan15/Bayou
+trackingMode: git
 parentRepoUrl: https://github.com/FirstGearGames/Bayou
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.sturfee.vps.networking
 displayName: Sturfee VPS Networking
 description: Networking SDK to Sturfee VPS
 repoUrl: https://github.com/sturfeeinc/com.sturfee.vps.networking
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

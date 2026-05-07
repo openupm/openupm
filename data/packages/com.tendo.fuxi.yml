@@ -2,6 +2,7 @@ name: com.tendo.fuxi
 displayName: fuxi
 description: assetBundle build and load solution!
 repoUrl: 'https://github.com/mistletoeKANO/fuxi'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

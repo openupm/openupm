@@ -2,6 +2,7 @@ name: com.kdmagic.susmachine
 displayName: Simple Unity State Machine
 description: A finite state machine library built for Unity.
 repoUrl: 'https://github.com/JamesYFC/SUSMachine'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

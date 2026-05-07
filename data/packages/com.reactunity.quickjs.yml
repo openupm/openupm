@@ -2,6 +2,7 @@ name: com.reactunity.quickjs
 displayName: React Unity QuickJS
 description: QuickJS Plugin for ReactUnity
 repoUrl: 'https://github.com/ReactUnity/quickjs'
+trackingMode: git
 parentRepoUrl: 'https://github.com/ialex32x/unity-jsb'
 licenseSpdxId: MIT
 licenseName: MIT License

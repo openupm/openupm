@@ -2,6 +2,7 @@ name: com.mariodebono.inspector
 displayName: Helper Inspector
 description: Reusable Quality of Life Attributes and Property Inspectors
 repoUrl: 'https://github.com/mariodebono/Unity-Helper-Inspector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

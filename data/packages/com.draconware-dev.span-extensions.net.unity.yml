@@ -7,6 +7,7 @@ description: >-
   string.Split() over Enumerable.Skip() and Enumerable.Take() to an improved
   ReadOnlySpan<T>.IndexOf().
 repoUrl: https://github.com/laicasaane/SpanExtensions.Net.Unity
+trackingMode: git
 parentRepoUrl: https://github.com/draconware-dev/SpanExtensions.Net
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.raiden.serial
 displayName: Serial
 description: Unity package for my games
 repoUrl: https://github.com/Raidenxd2/SerialPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

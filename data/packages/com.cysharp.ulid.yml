@@ -2,6 +2,7 @@ name: com.cysharp.ulid
 displayName: Ulid
 description: Fast .NET C# Implementation of ULID for .NET Core and Unity.
 repoUrl: 'https://github.com/Cysharp/Ulid'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

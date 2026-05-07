@@ -2,6 +2,7 @@ name: net.narazaka.unity.nopshader
 displayName: NOP Shader
 description: The shader that does nothing. for empty material slots.
 repoUrl: https://github.com/Narazaka/NOPShader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

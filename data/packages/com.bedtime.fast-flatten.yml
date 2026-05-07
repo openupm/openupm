@@ -2,6 +2,7 @@ name: com.bedtime.fast-flatten
 displayName: 'FastFlatten: Hierarchy Collapser'
 description: 'Collapse the currently active hierarchy! '
 repoUrl: https://github.com/BedtimeDigitalGames/FastFlatten
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

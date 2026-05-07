@@ -31,6 +31,7 @@ description: >-
   Upgrading your ARFoundation project to a stereoscopic AR project is
   straightforward with the HoloKit Unity SDK.
 repoUrl: https://github.com/holoi/holokit-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

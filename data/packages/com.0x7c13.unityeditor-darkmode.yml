@@ -4,6 +4,7 @@ description: >-
   A fully working dark mode mod for Unity Editor on Windows (Dark Title Bar +
   Menu Bar + Context Menu)
 repoUrl: https://github.com/laicasaane/UnityEditor-DarkMode
+trackingMode: git
 parentRepoUrl: https://github.com/0x7c13/UnityEditor-DarkMode
 licenseSpdxId: MIT
 licenseName: MIT License

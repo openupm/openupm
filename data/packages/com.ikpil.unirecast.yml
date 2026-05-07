@@ -2,6 +2,7 @@ name: com.ikpil.unirecast
 displayName: UniRecast
 description: navigation mesh toolset for Unity3D using DotRecast
 repoUrl: https://github.com/ikpil/UniRecast
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.zbase.foundation.enum-extensions
 displayName: ZBase.Foundation.EnumExtensions
 description: C# source generator to create extensions for any enum
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.EnumExtensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

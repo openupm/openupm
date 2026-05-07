@@ -4,6 +4,7 @@ description: >-
   A flexible and modular Node Editor Framework for creating node based displays
   and editors in Unity
 repoUrl: 'https://github.com/Seneral/Node_Editor_Framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

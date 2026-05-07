@@ -4,6 +4,7 @@ description: >-
   A Unity UI extension for customizing button visuals, including hover effects,
   press states, and automatic color adjustments.
 repoUrl: https://github.com/doppleddiggong/UIExtendButton
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

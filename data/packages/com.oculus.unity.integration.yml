@@ -2,6 +2,7 @@ name: com.oculus.unity.integration
 displayName: Oculus Integration
 description: Unofficial mirror of the Oculus Unity-Integration as a package for Unity.
 repoUrl: https://github.com/Trisgram/com.oculus.unity.integration
+trackingMode: git
 parentRepoUrl: null
 licenseName: Oculus SDK License
 licenseSpdxId: null

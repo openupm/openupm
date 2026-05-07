@@ -5,6 +5,7 @@ description: >-
   numeric types while adding many new types and functions. Written entirely with
   hardware intrinsics, using Unity.Burst.
 repoUrl: https://github.com/MrUnbelievable92/MaxMath
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

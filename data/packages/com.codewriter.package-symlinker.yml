@@ -2,6 +2,7 @@ name: com.codewriter.package-symlinker
 displayName: Package Symlinker
 description: Tool for maintaining symbolic linked packages for Unity
 repoUrl: 'https://github.com/codewriter-packages/Package-Symlinker'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

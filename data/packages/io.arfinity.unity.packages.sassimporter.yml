@@ -5,6 +5,7 @@ description: |-
 
   Imports .scss files and makes them available for reference from .uxml files.
 repoUrl: 'https://github.com/arfinity-io/unity-sassimporter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

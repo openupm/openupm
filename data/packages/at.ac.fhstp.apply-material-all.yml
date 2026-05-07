@@ -4,6 +4,7 @@ description: >-
   A Unity editor utility for applying a material to all GameObjects in a
   hierarchy
 repoUrl: https://github.com/fhstp/unity-apply-material-all
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

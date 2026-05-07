@@ -2,6 +2,7 @@ name: com.autsoft.unitysupplements.resourcegenerator
 displayName: Resource Generator
 description: Generate path strings for Resources.Load and others
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

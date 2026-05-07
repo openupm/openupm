@@ -2,6 +2,7 @@ name: com.ultraleap.tracking.preview
 displayName: Ultraleap Tracking Preview
 description: Ultraleap Tracking Preview
 repoUrl: 'https://github.com/ultraleap/UnityPlugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

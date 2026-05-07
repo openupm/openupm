@@ -4,6 +4,7 @@ description: >-
   A powerful in-game command console and log viewer for Unity. View logs,
   inspect objects, execute commands, and debug on any platform.
 repoUrl: https://github.com/ArtOfSettling/UnityInGameConsoleUPM
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

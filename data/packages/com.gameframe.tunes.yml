@@ -7,6 +7,7 @@ description: >-
   Intelligently checks if music is playing and remembers if it actually paused
   playing music so that it will unpause only if it paused.
 repoUrl: 'https://github.com/coryleach/UnityTunes'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

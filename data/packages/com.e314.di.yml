@@ -6,6 +6,7 @@ description: >-
   dependencies. In this guide, you will learn how to configure the container,
   bind types, resolve dependencies, and manage their lifecycle.
 repoUrl: https://github.com/epishev-m/e314-di
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

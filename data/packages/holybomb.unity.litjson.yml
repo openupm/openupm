@@ -2,6 +2,7 @@ name: holybomb.unity.litjson
 displayName: LitJSON
 description: LitJson-CSharp
 repoUrl: 'https://github.com/holybomb/LitJson-CSharp'
+trackingMode: git
 parentRepoUrl: 'https://github.com/holybomb/LitJson-CSharp'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

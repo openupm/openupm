@@ -2,6 +2,7 @@ name: com.razensoft.mapper
 displayName: Razensoft.Mapper
 description: Simple mapper library for Unity
 repoUrl: 'https://github.com/Razenpok/Razensoft.Mapper'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

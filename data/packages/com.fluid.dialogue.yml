@@ -5,6 +5,7 @@ description: >-
   ScriptableObject driven with the ability to write custom actions and
   conditions to create complex dialogue workflows.
 repoUrl: 'https://github.com/ashblue/fluid-dialogue'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

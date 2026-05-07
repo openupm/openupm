@@ -2,6 +2,7 @@ name: com.speckle.core
 displayName: Speckle Core
 description: Speckle Core and Converter for Unity
 repoUrl: https://github.com/sasakiassociates/speckle-unity-connector
+trackingMode: git
 parentRepoUrl: https://github.com/specklesystems/speckle-unity
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

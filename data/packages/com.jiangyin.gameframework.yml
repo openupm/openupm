@@ -6,6 +6,7 @@ description: >-
   degree, standardises the process, enhances the development speed and ensures
   the product quality.
 repoUrl: 'https://github.com/EllanJiang/UnityGameFramework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

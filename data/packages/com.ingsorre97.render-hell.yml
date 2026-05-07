@@ -2,6 +2,7 @@ name: com.ingsorre97.render-hell
 displayName: Render Hell
 description: 'A Unity project designed to test my HLSL skills and your GPU patience. '
 repoUrl: https://github.com/IngSorre97/Render-Hell
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

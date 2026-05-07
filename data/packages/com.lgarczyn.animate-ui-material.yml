@@ -4,6 +4,7 @@ description: >-
   Animate UI Materials allows editing and animating materials for a single UI
   component
 repoUrl: https://github.com/lgarczyn/AnimateUIMaterials
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-

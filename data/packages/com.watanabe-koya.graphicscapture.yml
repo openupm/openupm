@@ -4,6 +4,7 @@ description: >-
   An utility to get window/monitor image as Texture2D through WinRT
   Windows.Graphics.Capture API
 repoUrl: https://github.com/WatanabeKoya/UnityGraphicsCapture
+trackingMode: git
 parentRepoUrl: https://github.com/ruccho/UnityGraphicsCapture
 licenseSpdxId: MIT
 licenseName: MIT License

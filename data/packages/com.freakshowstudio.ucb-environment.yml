@@ -2,6 +2,7 @@ name: com.freakshowstudio.ucb-environment
 displayName: UCB Environment
 description: Provides access to Unity Cloud Build Environment
 repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.ucb-environment
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

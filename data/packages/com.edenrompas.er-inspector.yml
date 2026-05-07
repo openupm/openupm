@@ -4,6 +4,7 @@ description: >-
   Custom Unity tool designed to help developers organize the Inspector view in a
   cleaner
 repoUrl: https://github.com/EdenRompas/ER-Inspector
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

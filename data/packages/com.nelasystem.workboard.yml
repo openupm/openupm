@@ -3,6 +3,7 @@ displayName: WorkBoard
 description: A Unity editor enhancer for designers to organize ideas with the connections
   to assets and so on
 repoUrl: https://github.com/zacx-z/WorkBoard
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

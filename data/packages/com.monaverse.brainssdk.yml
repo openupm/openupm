@@ -4,6 +4,7 @@ description: >-
   The Mona Brains SDK allows non-coders to build multi-player interactive games
   on the Mona web platform.
 repoUrl: https://github.com/monaverse/MonaBrainsSDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

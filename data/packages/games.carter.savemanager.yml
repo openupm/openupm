@@ -4,6 +4,7 @@ description: >-
   A free, scriptable object based, local save system for Unity. Works on all
   platforms using standard JSON Utility.
 repoUrl: https://github.com/CarterGames/SaveManager
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

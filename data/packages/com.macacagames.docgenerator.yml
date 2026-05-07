@@ -2,6 +2,7 @@ name: com.macacagames.docgenerator
 displayName: Macaca Doc Generator
 description: A helper to make docfx based document in Unity3D
 repoUrl: 'https://github.com/MacacaGames/UnityDocGenerator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

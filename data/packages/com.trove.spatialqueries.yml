@@ -2,6 +2,7 @@ name: com.trove.spatialqueries
 displayName: Trove Spatial Queries
 description: Trove Spatial Queries provides tools for efficient spatial queries.
 repoUrl: https://github.com/PhilSA/Trove
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

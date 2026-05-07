@@ -5,6 +5,7 @@ description: |-
   system to toggles. DartCore Localization is also fully integrated
   to the assets provided.
 repoUrl: 'https://github.com/AtaTrkgl/DartCore-UI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

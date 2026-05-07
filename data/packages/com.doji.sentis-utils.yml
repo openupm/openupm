@@ -2,6 +2,7 @@ name: com.doji.sentis-utils
 displayName: Sentis Utils
 description: A small collection of utility scripts and extensions for Unity Sentis
 repoUrl: https://github.com/julienkay/com.doji.sentis-utils
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

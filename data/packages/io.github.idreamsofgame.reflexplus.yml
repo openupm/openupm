@@ -2,6 +2,7 @@ name: io.github.idreamsofgame.reflexplus
 displayName: ReflexPlus
 description: Minimal dependency injection framework for Unity based on Reflex framework.
 repoUrl: https://github.com/iDreamsOfGame/ReflexPlus
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

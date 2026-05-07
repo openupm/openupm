@@ -2,6 +2,7 @@ name: jp.keijiro.klak.math
 displayName: KlakMath
 description: ''
 repoUrl: 'https://github.com/keijiro/KlakMath'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

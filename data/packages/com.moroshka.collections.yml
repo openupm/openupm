@@ -4,6 +4,7 @@ description: >-
   The `Moroshka.Collections` module provides high-performance collections and
   capacity management for predictable memory management.
 repoUrl: https://github.com/moroshka-dev/moroshka-collections
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

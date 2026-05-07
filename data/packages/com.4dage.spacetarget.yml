@@ -5,6 +5,7 @@ description: >-
   to track and augment areas and spaces. By using a 4DKK 3D-Camera to create a
   database
 repoUrl: 'https://github.com/mraoge/4DAGE-SpaceTarget'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

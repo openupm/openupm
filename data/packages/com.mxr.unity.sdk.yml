@@ -3,6 +3,7 @@ displayName: ManageXR Unity SDK
 description: ManageXR Android and Editor System and Utilities for integrating with
   the ManageXR MDM platform.
 repoUrl: https://github.com/ManageXR/mxr-unity-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseName: ManageXR SDK License
 licenseSpdxId: null

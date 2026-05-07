@@ -3,6 +3,7 @@ displayName: Interaction System
 description: 'An interaction system that supports: Toggleable, Pickups, Inspectable
   etc. types of interaction'
 repoUrl: https://github.com/Studio-23-xyz/InteractionSystem
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

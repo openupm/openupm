@@ -2,6 +2,7 @@ name: com.needle.animation.timelinemixer
 displayName: Timeline Mixer
 description: allows for overriding timeline animations per animator
 repoUrl: 'https://github.com/needle-tools/timeline-mixer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

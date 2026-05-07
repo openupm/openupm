@@ -5,6 +5,7 @@ description: >-
   Framework, Mono, Xamarin, and UWP. Well... theoretically... kind of.
   Currently, it targets .NET Framework 4.6.2+, .NET Standard 2.0+ and .NET 5.0+.
 repoUrl: https://github.com/iDreamsOfGame/K4os.Compression.LZ4
+trackingMode: git
 parentRepoUrl: https://github.com/MiloszKrajewski/K4os.Compression.LZ4
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.sasaki.pixelfinder
 displayName: Sasaki Pixel Finder
 description: A Compute Shader tool for counting pixels
 repoUrl: https://github.com/sasakiassociates/unity-tools
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

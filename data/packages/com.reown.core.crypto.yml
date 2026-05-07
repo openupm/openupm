@@ -2,6 +2,7 @@ name: com.reown.core.crypto
 displayName: Reown.Core.Crypto
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: WalletConnect Community License Agreement

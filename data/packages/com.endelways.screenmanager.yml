@@ -2,6 +2,7 @@ name: com.endelways.screenmanager
 displayName: Screen Manager
 description: Tool for managing windows and layouts in Unity.
 repoUrl: https://github.com/Endelways/ScreenManager
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0

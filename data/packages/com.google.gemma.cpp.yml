@@ -2,6 +2,7 @@ name: com.google.gemma.cpp
 displayName: Gemma.cpp for Unity
 description: Unity integration for Gemma.cpp
 repoUrl: https://github.com/google/gemma-unity-plugin
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

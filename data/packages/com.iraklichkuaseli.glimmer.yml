@@ -4,6 +4,7 @@ description: >-
   GPU-accelerated shimmer loading placeholders for Unity UI. Assign target
   Graphics, creates animated shimmer overlays.
 repoUrl: https://github.com/irakli/glimmer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

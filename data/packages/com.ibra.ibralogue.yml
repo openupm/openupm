@@ -2,6 +2,7 @@ name: com.ibra.ibralogue
 displayName: Ibralogue
 description: Ibralogue is a dialogue library for the Unity Game Engine.
 repoUrl: 'https://github.com/ibra/Ibralogue'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.sark.common
 displayName: Sark-Common
 description: Common utilities I use in my projects.
 repoUrl: 'https://github.com/sarkahn/common'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

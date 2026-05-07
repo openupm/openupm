@@ -4,6 +4,7 @@ description: >-
   A xNode based tool for designing AI Graphs like Behavior Trees and Finite
   State Machines in Unity
 repoUrl: 'https://github.com/jlreymendez/planilo'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.rickit.rframework
 displayName: RicKit RFramework
 description: An IOC framework for Unity
 repoUrl: https://github.com/rickytheoldtree/com.rickit.rframework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.texttable
 displayName: Lighthouse Extends - TextTable
 description: Loads per-language TSV files and resolves {param} placeholders at runtime. Includes an editor window for editing keys and translations.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/TextTable
 licenseSpdxId: MIT
 licenseName: MIT License

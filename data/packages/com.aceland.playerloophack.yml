@@ -5,6 +5,7 @@ description: >-
   inject and remove system to Unity low-level Player Loop.  Most AceLand Package
   is relying on this package.
 repoUrl: https://github.com/parsue/com.aceland.playerloophack
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   A powerful UI toolbar extension for Unity Editor, providing quick alignment,
   grouping, and component creation features for the Scene view.
 repoUrl: https://github.com/Naipa-Games/unity-ui-toolbar
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

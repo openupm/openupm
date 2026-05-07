@@ -3,6 +3,7 @@ displayName: Basic Action with IID
 description: 'Some code that use IID to trigger basic action like: function, action,
   unityevent, sound ...'
 repoUrl: https://github.com/EloiStree/OpenUPM_BasicActionIID
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

@@ -2,6 +2,7 @@ name: com.vertx.ntexturepreview
 displayName: nTexturePreview
 description: Enhanced Texture Previewer for Unity
 repoUrl: 'https://github.com/vertxxyz/NTexturePreview'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

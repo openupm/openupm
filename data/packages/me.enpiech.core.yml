@@ -2,6 +2,7 @@ name: me.enpiech.core
 displayName: Core
 description: This is a core package
 repoUrl: https://github.com/enpiech/unity_core
+trackingMode: git
 parentRepoUrl: null
 licenseName: GNU General Public License v3.0 only
 licenseSpdxId: GPL-3.0

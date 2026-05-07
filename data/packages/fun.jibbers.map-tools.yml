@@ -2,6 +2,7 @@ name: fun.jibbers.map-tools
 displayName: Jibbers Map Tools
 description: Map tooling for Jibbers.
 repoUrl: https://github.com/jibbers-ski/Map-Tools
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

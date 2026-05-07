@@ -3,6 +3,7 @@ displayName: UIToolkit Codex
 description: Code extensions for UI Toolkit for UIElements editors without uxml's
   or for cleaner UIE coding
 repoUrl: https://github.com/FColor04/UIToolkitCodex
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-2.1
 licenseName: GNU Lesser General Public License v2.1 only

@@ -2,6 +2,7 @@ name: games.wayn.blob
 displayName: WAYN Blob
 description: Repository of additional unity BlobAsset
 repoUrl: https://github.com/WAYN-Games/Blob
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

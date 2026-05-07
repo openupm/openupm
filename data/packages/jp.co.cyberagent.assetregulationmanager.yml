@@ -3,6 +3,7 @@ displayName: Asset Regulation Manager
 description: Tool for Unity to create and run tests of Asset Regulations (texture
   size, number of vertices, etc.), and automate running.
 repoUrl: https://github.com/CyberAgentGameEntertainment/AssetRegulationManager
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.ktools.portals
 displayName: kPortals
 description: A pre-calculated Portal visibility system for Unity.
 repoUrl: 'https://github.com/Kink3d/kPortals'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

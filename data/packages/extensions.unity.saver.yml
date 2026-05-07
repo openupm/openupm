@@ -4,6 +4,7 @@ description: >-
   Multiplatform encrypted database for Unity. Can be integrated in
   MonoBehaviour, ScriptableObject or be used such as simple C# class instance
 repoUrl: 'https://github.com/IvanMurzak/Unity-Saver'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

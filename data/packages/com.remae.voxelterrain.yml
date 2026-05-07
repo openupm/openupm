@@ -2,6 +2,7 @@ name: com.remae.voxelterrain
 displayName: Voxel Terrain
 description: Voxel like terrain rendering & collision from heightmap
 repoUrl: https://github.com/Remy-Maetz/VoxelTerrain
+trackingMode: git
 parentRepoUrl: null
 licenseName: GNU Affero General Public License v3.0
 licenseSpdxId: AGPL-3.0

@@ -5,6 +5,7 @@ description: >-
   running rest-full API's build using the Nest Utilities package with custom
   services and chainable options for complete flexibility.
 repoUrl: 'https://github.com/jeffreylanters/unity-nest-utilities-client'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

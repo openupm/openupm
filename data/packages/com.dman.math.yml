@@ -4,6 +4,7 @@ description: >-
   A bunch of Math or Vector related utilities too small to go in their own
   package
 repoUrl: https://github.com/dsmiller95/DmanUtilities
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

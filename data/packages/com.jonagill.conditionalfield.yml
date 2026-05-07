@@ -4,6 +4,7 @@ description: >-
   A custom attribute to show and hide serialized fields based on other fields
   and properties.
 repoUrl: https://github.com/jonagill/ConditionalField
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT-0
 licenseName: MIT No Attribution

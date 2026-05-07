@@ -5,6 +5,7 @@ description: >-
   application and synchronize it with the iOS/macOS build number and the Android
   bundle version code
 repoUrl: 'https://github.com/Artees/Unity-Application-Version'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

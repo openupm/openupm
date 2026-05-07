@@ -4,6 +4,7 @@ description: >-
   A unified way to check permission status and request permissions for iOS and
   Android in Unity.
 repoUrl: https://github.com/voxelbusters/permissions-kit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

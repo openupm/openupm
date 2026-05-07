@@ -5,6 +5,7 @@ description: >-
   editor for Unity. Adds support for generating csproj files for intellisense
   purposes, auto discovery of installations, etc.
 repoUrl: 'https://github.com/Chizaruu/com.tsk.ide.vscode'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Unity-Technologies/com.unity.ide.vscode'
 licenseSpdxId: MIT
 licenseName: MIT License

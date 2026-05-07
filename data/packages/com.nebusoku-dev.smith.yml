@@ -2,6 +2,7 @@ name: com.nebusoku-dev.smith
 displayName: Smith - Shooter Weapon System for Unity -
 description: Create FPS/TPS weapons & items framework non code
 repoUrl: 'https://github.com/NebusokuDev/Smith'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.duru100470.unibridge
 displayName: UniBridge
 description: Synchronize your unity and google drive
 repoUrl: https://github.com/duru100470/UniBridge
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

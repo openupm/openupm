@@ -4,6 +4,7 @@ description: >-
   A very simple editor tool that allows the cration of any ScriptableObject
   asset you want.
 repoUrl: 'https://github.com/GiovanniZambiasi/ScriptableObjectWizard'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

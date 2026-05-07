@@ -4,6 +4,7 @@ description: >-
   wit-unity is the Unity SDK for Wit.ai. It provides convenience tools for
   activating Wit and processing the responses that are returned.
 repoUrl: 'https://github.com/wit-ai/wit-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: See LICENSE

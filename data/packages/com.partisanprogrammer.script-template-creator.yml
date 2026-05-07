@@ -5,6 +5,7 @@ description: >-
   need to inherit from this package and have their own
 repoUrl: >-
   https://github.com/PartisanProgrammer/com.partisanprogrammer.script-template-creator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

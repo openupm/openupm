@@ -2,6 +2,7 @@ name: com.gilzoide.sqlite-net
 displayName: SQLite-net
 description: SQLite-net packaged for Unity
 repoUrl: https://github.com/gilzoide/unity-sqlite-net
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

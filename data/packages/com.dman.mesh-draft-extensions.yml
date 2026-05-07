@@ -2,6 +2,7 @@ name: com.dman.mesh-draft-extensions
 displayName: Mesh Draft Extensions
 description: extensions to the Mesh draft feature of procedural toolkit
 repoUrl: 'https://github.com/dsmiller95/plantbuilder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

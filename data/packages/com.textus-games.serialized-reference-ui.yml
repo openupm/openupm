@@ -4,6 +4,7 @@ description: >-
   The UI for Unity's SerealizedReference attribute. It allows changing the
   instance type of a field right in the editor.
 repoUrl: 'https://github.com/TextusGames/UnitySerializedReferenceUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

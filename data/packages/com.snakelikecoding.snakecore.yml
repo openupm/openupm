@@ -3,6 +3,7 @@ displayName: SnakeCore
 description: The package that includes core functionality like concurrency and dependency
   injection.
 repoUrl: https://github.com/tahameg/SnakeCore
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

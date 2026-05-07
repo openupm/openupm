@@ -4,6 +4,7 @@ description: >-
   This is a simple autosave plugin for unity using Editor Coroutines to save
   scenes at a customizable intervals as well as before entering Play mode.
 repoUrl: https://github.com/Isabit-Studio/Unity-Autosave
+trackingMode: git
 parentRepoUrl: https://github.com/aniruddhahar/Unity-Autosave
 licenseSpdxId: MIT
 licenseName: MIT License

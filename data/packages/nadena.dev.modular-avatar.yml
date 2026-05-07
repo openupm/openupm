@@ -2,6 +2,7 @@ name: nadena.dev.modular-avatar
 displayName: Modular Avatar
 description: A suite of tools for assembling your avatar out of reusable components
 repoUrl: 'https://github.com/bdunderscore/modular-avatar'
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

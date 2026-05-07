@@ -2,6 +2,7 @@ name: com.hww.xipixeltexteffect
 displayName: XiTextPixelEffect
 description: XiTextPixelEffect is simple text effect for unity Unity 3D.
 repoUrl: 'https://github.com/hww/XiPixelTextEffect'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

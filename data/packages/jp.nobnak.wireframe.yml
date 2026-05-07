@@ -2,6 +2,7 @@ name: jp.nobnak.wireframe
 displayName: Wireframe shader
 description: ''
 repoUrl: https://github.com/nobnak/WireframeShaderUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

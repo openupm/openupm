@@ -2,6 +2,7 @@ name: com.bbbirder.unity-injection
 displayName: Unity Injection V2
 description: "Unity注入模块，可以运行时改变被注入函数实现。"
 repoUrl: https://github.com/labbbirder/UnityInjectionV2
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

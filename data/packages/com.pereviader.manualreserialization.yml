@@ -2,6 +2,7 @@ name: com.pereviader.manualreserialization
 displayName: ManualReserialization
 description: Reserialize the assets in your project quicker
 repoUrl: https://github.com/PereViader/ManualReserialization
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

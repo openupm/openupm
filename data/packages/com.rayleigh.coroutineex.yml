@@ -2,6 +2,7 @@ name: com.rayleigh.coroutineex
 displayName: CoroutineEx
 description: An abstraction over Unity coroutines that behaves similarly to Tasks in C#.
 repoUrl: https://github.com/s-rayleigh/CoroutineEx
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

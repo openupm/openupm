@@ -2,6 +2,7 @@ name: com.miragenet.steamyface
 displayName: Mirage SteamyFaceNG
 description: Facepunch version of steam for mirage
 repoUrl: 'https://github.com/MirageNet/SteamyFaceNG'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

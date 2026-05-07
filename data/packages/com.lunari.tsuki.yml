@@ -2,6 +2,7 @@ name: com.lunari.tsuki
 displayName: Tsuki Suite
 description: A toolsuite created to make Unity development easier
 repoUrl: 'https://github.com/LunariStudios/TsukiSuite'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

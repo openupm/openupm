@@ -2,6 +2,7 @@ name: io.nekonya.tinax.core
 displayName: TinaX.Core
 description: ''
 repoUrl: https://github.com/yomunsam/TinaX.Core
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: AGPL-3.0
 licenseName: GNU Affero General Public License v3.0

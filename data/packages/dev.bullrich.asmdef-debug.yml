@@ -4,6 +4,7 @@ description: >-
   Unity utility to show the time it takes to compile every assembly after a
   reload.
 repoUrl: 'https://github.com/Bullrich/Unity-Assembly-Debugger'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

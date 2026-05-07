@@ -5,6 +5,7 @@ description: >-
   that automatically creates ToJson() and FromJson() methods for your classes
   and structs.
 repoUrl: https://github.com/PereViader/OpenUPM
+trackingMode: git
 parentRepoUrl: https://github.com/PereViader/GenJson
 licenseName: MIT License
 licenseSpdxId: MIT

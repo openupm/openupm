@@ -2,6 +2,7 @@ name: com.mattun.unicon
 displayName: Unicon
 description: Customize Unity Editor dock icon on macOS. Change the dock icon to distinguish between multiple Unity instances running in parallel.
 repoUrl: 'https://github.com/AtaruMatsudaira/Unicon'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

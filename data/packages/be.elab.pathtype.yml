@@ -3,6 +3,7 @@ displayName: Path Type Read Write
 description: 'I created this tool because I was tired of wondering if a path is: relative
   absolute forlder or file.'
 repoUrl: https://github.com/EloiStree/OpenUPM_PathTypeReadWrite
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

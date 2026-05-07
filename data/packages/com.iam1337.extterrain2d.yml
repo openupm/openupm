@@ -2,6 +2,7 @@ name: com.iam1337.extterrain2d
 displayName: extTerrain2D
 description: Small 2D terrain asset.
 repoUrl: 'https://github.com/Iam1337/extTerrain2D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

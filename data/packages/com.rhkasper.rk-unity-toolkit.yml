@@ -4,6 +4,7 @@ description: >-
   An open source library of extension methods and tools that make solving many
   common problems in Unity cleaner, faster, and easier.
 repoUrl: 'https://github.com/RHKasper/com.rhkasper.rk-unity-toolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

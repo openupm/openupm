@@ -2,6 +2,7 @@ name: com.wallstop-studios.unity-helpers
 displayName: Unity Helpers
 description: Various Unity Helper Library
 repoUrl: https://github.com/wallstop/unity-helpers
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

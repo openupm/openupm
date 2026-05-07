@@ -2,6 +2,7 @@ name: com.kongregate.kongregate-iap
 displayName: Kongregate Purchasing
 description: Unity IAP store implementation for the Kongregate website.
 repoUrl: 'https://github.com/kongregate/kongregate-iap'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

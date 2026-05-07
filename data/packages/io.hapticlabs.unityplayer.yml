@@ -4,6 +4,7 @@ description: >-
   Play rich, custom haptic effects, designed in Hapticlabs Studio, on mobile
   devices.
 repoUrl: https://github.com/HapticlabsIO/unity-mobile-player
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

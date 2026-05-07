@@ -4,6 +4,7 @@ description: >-
   Editor extension to improve hierarchy window. Makes the hierarchy more detail,
   but still clean and easy to organize.
 repoUrl: 'https://github.com/d4160/hierarchy-2'
+trackingMode: git
 parentRepoUrl: 'https://github.com/truongnguyentungduy/hierarchy-2'
 licenseSpdxId: MIT
 licenseName: MIT License

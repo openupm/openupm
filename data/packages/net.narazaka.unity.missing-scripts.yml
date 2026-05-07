@@ -2,6 +2,7 @@ name: net.narazaka.unity.missing-scripts
 displayName: Check Missing Scripts
 description: Find Missing Scripts in the current scene.
 repoUrl: 'https://github.com/Narazaka/CheckMissingScripts'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

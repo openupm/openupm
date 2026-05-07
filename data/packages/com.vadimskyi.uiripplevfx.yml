@@ -2,6 +2,7 @@ name: com.vadimskyi.uiripplevfx
 displayName: Unity UI Ripple Vfx
 description: Simple optimized UI effect. Inspired by Marerial Design
 repoUrl: https://github.com/Vadimskyi/Unity-UI-Ripple-Vfx
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

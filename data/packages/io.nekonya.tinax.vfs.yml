@@ -3,6 +3,7 @@ displayName: TinaX.VFS
 description: Virtual Files System - Assets management service package for TinaX Framework
   to Unity
 repoUrl: https://github.com/yomunsam/TinaX.VFS
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: AGPL-3.0
 licenseName: GNU Affero General Public License v3.0

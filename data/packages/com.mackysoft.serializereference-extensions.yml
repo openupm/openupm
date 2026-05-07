@@ -4,6 +4,7 @@ description: >-
   Provide popup to specify the type of the field serialized by the
   [SerializeReference] attribute in the inspector.
 repoUrl: 'https://github.com/mackysoft/Unity-SerializeReferenceExtensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

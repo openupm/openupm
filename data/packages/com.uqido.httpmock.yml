@@ -3,6 +3,7 @@ displayName: HttpMock
 description: HttpMock enables you to mock the behaviour of HTTP services, that your
   application depends on, during testing
 repoUrl: https://github.com/Uqido/HttpMock
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

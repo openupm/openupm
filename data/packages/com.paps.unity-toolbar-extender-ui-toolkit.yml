@@ -3,6 +3,7 @@ displayName: Unity Toolbar Extender UI Toolkit
 description: Unity Toolbar Extender UI Toolkit provides a simple way to customize
   Unity's main toolbar (where play buttons are) with UI Toolkit.
 repoUrl: https://github.com/Sammmte/unity-toolbar-extender-ui-toolkit
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

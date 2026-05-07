@@ -4,6 +4,7 @@ description: >-
   Breaking down timings on compilation, assembly reload and enter/exit Play Mode
   in the simplest way possible. Requires Unity 2019.3 and newer.
 repoUrl: 'https://github.com/pschraut/UnityMiniEditorIterationProfiler'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

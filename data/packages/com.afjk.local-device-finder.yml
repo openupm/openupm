@@ -2,6 +2,7 @@ name: com.afjk.local-device-finder
 displayName: Local Device Finder
 description: A package for finding local devices.
 repoUrl: https://github.com/afjk/LocalDeviceFinder
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

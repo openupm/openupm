@@ -2,6 +2,7 @@ name: com.pluto.xrpk-exporter
 displayName: Pluto XR Package Exporter
 description: Export your Unity Project as a WebXR XR Package
 repoUrl: 'https://github.com/PlutoVR/unity-xrpk-exporter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

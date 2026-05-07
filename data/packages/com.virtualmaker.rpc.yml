@@ -2,6 +2,7 @@ name: com.virtualmaker.rpc
 displayName: VirtualMaker.RPC
 description: A Bidirectional RPC package for Unity (UPM)
 repoUrl: https://github.com/virtual-maker-net/com.virtualmaker.rpc
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

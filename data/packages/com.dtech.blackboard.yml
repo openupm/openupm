@@ -4,6 +4,7 @@ description: >-
   Typed blackboard variable system for Unity with ScriptableObject authoring and
   runtime access by name or GUID.
 repoUrl: https://github.com/DanilChizhikov/blackboard
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,6 +3,7 @@ displayName: RealityToolkit.Boundary
 description: >-
   A boundary system for use with the Reality Toolkit.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.boundary'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

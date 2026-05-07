@@ -2,6 +2,7 @@ name: com.cysharp.messagepipe.zenject
 displayName: MessagePipe.Zenject
 description: MessagePipe Runtime support for Zenject.
 repoUrl: 'https://github.com/Cysharp/MessagePipe'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

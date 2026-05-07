@@ -2,6 +2,7 @@ name: com.doji.genesis
 displayName: Genesis
 description: An AI-powered world building and prototyping tool.
 repoUrl: https://github.com/julienkay/genesis
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

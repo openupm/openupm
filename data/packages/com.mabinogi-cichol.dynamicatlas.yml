@@ -2,6 +2,7 @@ name: com.mabinogi-cichol.dynamicatlas
 displayName: DynamicAtlas
 description: Unity Dynamic Atlas Solution with Texture Compression Support.
 repoUrl: 'https://github.com/Mabinogi-Cichol/Unity-DynamicAtlas'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

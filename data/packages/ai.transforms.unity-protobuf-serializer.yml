@@ -2,6 +2,7 @@ name: ai.transforms.unity-protobuf-serializer
 displayName: UnityProtobufSerializer
 description: Allows unity to use vanilla protobuf as Serialized Fields
 repoUrl: 'https://github.com/transformsai/UnityProtobufSerializer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

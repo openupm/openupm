@@ -2,6 +2,7 @@ name: com.ltmx.cs.extensions
 displayName: C# Extensions
 description: Extension methods for my packages
 repoUrl: https://github.com/ltmx/Unity.CSharp.Extensions
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

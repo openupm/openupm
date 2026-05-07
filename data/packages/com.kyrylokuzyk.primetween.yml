@@ -11,6 +11,7 @@ description: 'PrimeTween is a high-performance, allocation-free animation librar
 
   Enjoying PrimeTween? Consider leaving an honest review on Asset Store.'
 repoUrl: https://github.com/iLataria/prime_tween_open_upm
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

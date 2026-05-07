@@ -2,6 +2,7 @@ name: com.cippsharpcore.osc
 displayName: CippSharp.OneShotCoroutine
 description: A solution to run a Coroutine once (ignoring GameObject active status).
 repoUrl: 'https://github.com/Cippman/Unity-OneShotCoroutine'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

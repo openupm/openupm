@@ -5,6 +5,7 @@ description: Streamline and enhance your game's inventory management with our Un
   making it easy to handle items, equipment, and resources, allowing you to focus
   on crafting the ultimate gaming experience.
 repoUrl: https://github.com/Studio-23-xyz/Inventory-System
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

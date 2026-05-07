@@ -4,6 +4,7 @@ description: >-
   This package provides the means to do take a series of snapshots for specific
   moments throughout the year
 repoUrl: 'https://github.com/Netherlands3D/PeriodicSnapshots'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

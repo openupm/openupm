@@ -2,6 +2,7 @@ name: com.benkuper.oscquery
 displayName: OSCQuery
 description: Seamless OSCQuery integration in Unity.
 repoUrl: https://github.com/benkuper/Unity-OSCQuery
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

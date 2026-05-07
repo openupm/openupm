@@ -8,6 +8,7 @@ description: >-
 
   It can also be used at runtime via scripting.
 repoUrl: 'https://github.com/PatHightree/SpaceNavigator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   customize the color and the icon label of your folders in the Unity project
   browser
 repoUrl: 'https://github.com/ayutaz/SimpleFolderIcon'
+trackingMode: git
 parentRepoUrl: 'https://github.com/SeaeeesSan/SimpleFolderIcon'
 licenseSpdxId: MIT
 licenseName: MIT License

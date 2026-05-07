@@ -2,6 +2,7 @@ name: com.katuusagi.fixedstring
 displayName: FixedString
 description: ''
 repoUrl: https://github.com/Katsuya100/FixedString
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

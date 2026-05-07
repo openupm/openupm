@@ -2,6 +2,7 @@ name: com.lignus.basetool
 displayName: Base Tool
 description: The starter package to your every Unity projects
 repoUrl: https://github.com/DarkRewar/BaseTool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

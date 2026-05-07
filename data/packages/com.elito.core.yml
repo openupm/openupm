@@ -2,6 +2,7 @@ name: com.elito.core
 displayName: Elito Core
 description: Core services and tools
 repoUrl: https://github.com/iLataria/Elito
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

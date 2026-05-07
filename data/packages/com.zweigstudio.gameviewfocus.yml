@@ -4,6 +4,7 @@ description: >-
   Save yourself a click and automatically focus the Game View when entering Play
   Mode
 repoUrl: https://github.com/zweigstudio/GameViewFocus
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

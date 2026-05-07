@@ -2,6 +2,7 @@ name: com.lilytech-lab.wireframe-shader
 displayName: WireframeShader
 description: A shader draws polygon wireframe.
 repoUrl: https://github.com/lilytech-lab/WireframeShader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.zbase.foundation.pooling
 displayName: ZBase.Foundation.Pooling
 description: Object pooling for Unity
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.Pooling'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

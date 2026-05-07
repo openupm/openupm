@@ -2,6 +2,7 @@ name: com.kink3d.normals
 displayName: kNormals
 description: World space normals texture for Unity's Universal Render Pipeline.
 repoUrl: 'https://github.com/Kink3d/kNormals'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

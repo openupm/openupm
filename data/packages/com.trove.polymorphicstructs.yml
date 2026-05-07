@@ -6,6 +6,7 @@ description: >-
   are not so obvious to solve in ECS, such as ordered events or state machines
   without structural changes.
 repoUrl: https://github.com/PhilSA/Trove
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

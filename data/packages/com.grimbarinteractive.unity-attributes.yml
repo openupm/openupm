@@ -4,6 +4,7 @@ description: >-
   Unity Attributes is an extension for the Unity Inspector. Forked from Denis
   Rizov's NaughtyAttributes package.
 repoUrl: https://github.com/Grimbar-Interactive/unity-attributes
+trackingMode: git
 parentRepoUrl: https://github.com/dbrizov/NaughtyAttributes
 licenseName: MIT License
 licenseSpdxId: MIT

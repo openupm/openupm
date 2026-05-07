@@ -4,6 +4,7 @@ description: >-
   Package for taking gameplay screenshots in the Unity Editor across all three
   pipeline types
 repoUrl: 'https://github.com/neon8100/screenshotter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

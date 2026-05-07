@@ -2,6 +2,7 @@ name: com.kinogoblin.editor
 displayName: Kinogoblin Editor
 description: CustomEditor
 repoUrl: 'https://github.com/Kinogoblin/KinogoblinEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

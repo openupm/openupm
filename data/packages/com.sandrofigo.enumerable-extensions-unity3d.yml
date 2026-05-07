@@ -2,6 +2,7 @@ name: com.sandrofigo.enumerable-extensions-unity3d
 displayName: Enumerable Extensions
 description: Extension class for easily working with collections and random elements.
 repoUrl: 'https://github.com/sandrofigo/Enumerable-Extensions-Unity3D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

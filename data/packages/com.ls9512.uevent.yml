@@ -4,6 +4,7 @@ description: >-
   UEvent is a general message event component that can be used in Unity and .Net
   environment.
 repoUrl: 'https://github.com/ls9512/UEvent'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

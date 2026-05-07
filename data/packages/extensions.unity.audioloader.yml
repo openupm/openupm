@@ -4,6 +4,7 @@ description: >-
   Asynchronous audio loading from remote or local destination. It has two layers
   of configurable cache system: RAM and Disk.
 repoUrl: 'https://github.com/IvanMurzak/Unity-AudioLoader'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

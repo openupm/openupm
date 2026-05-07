@@ -2,6 +2,7 @@ name: com.dotsui.core
 displayName: DotsUI Core
 description: Unity engine DOTS UI solution
 repoUrl: 'https://github.com/supron54321/DotsUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

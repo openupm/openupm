@@ -3,6 +3,7 @@ displayName: web3.unity SDK Web3Auth Plugin
 description: Web3Atuh service support for web3.untiy SDK. Easy users onboarding, one
   of the ways to handle private keys.
 repoUrl: https://github.com/ChainSafe/web3.unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

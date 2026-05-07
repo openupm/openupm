@@ -4,6 +4,7 @@ description: >-
   Lite reliable UDP library for .NET Standard 2.0 (Mono, .NET Core, .NET
   Framework)
 repoUrl: 'https://github.com/RevenantX/LiteNetLib'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

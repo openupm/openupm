@@ -2,6 +2,7 @@ name: com.lisearcheleeds.lighthouse-extends.screenstack
 displayName: Lighthouse Extends - ScreenStack
 description: Dialog and overlay stack management with system/default layers, input blocking, and scene suspend/resume support.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'
+trackingMode: git
 packageFolder: Client/Assets/LighthouseExtends/ScreenStack
 licenseSpdxId: MIT
 licenseName: MIT License

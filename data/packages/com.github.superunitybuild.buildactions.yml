@@ -5,6 +5,7 @@ description: >-
   automation tool flexible and powerful. Each one extends the capabilities of
   SuperUnityBuild and can be easily setup and customized to suit your needs
 repoUrl: 'https://github.com/superunitybuild/buildactions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

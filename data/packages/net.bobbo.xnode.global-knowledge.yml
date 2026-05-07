@@ -2,6 +2,7 @@ name: net.bobbo.xnode.global-knowledge
 displayName: Global Knowledge XNode
 description: Globally available player knowledge, exposed through XNode!
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

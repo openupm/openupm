@@ -2,6 +2,7 @@ name: eu.netherlands3d.sun
 displayName: 'Netherlands3D - Sun, Time of Day and Shadows'
 description: ''
 repoUrl: 'https://github.com/Netherlands3D/Sun'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

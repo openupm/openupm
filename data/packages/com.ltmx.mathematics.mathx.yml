@@ -2,6 +2,7 @@ name: com.ltmx.mathematics.mathx
 displayName: Unity.mathx
 description: Extension library for Unity.Mathematics
 repoUrl: 'https://github.com/LTMX/Unity.mathx'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

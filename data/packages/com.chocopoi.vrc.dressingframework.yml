@@ -3,6 +3,7 @@ displayName: DressingFramework
 description: A framework that assembles DressingTools and provides interfaces for
   third-party developers.
 repoUrl: https://github.com/poi-vrc/DressingFramework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

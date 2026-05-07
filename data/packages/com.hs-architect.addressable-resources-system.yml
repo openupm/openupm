@@ -35,6 +35,7 @@ description: >-
   Use this package to systematically manage assets and resources in large-scale
   projects.
 repoUrl: https://github.com/HuiSungz/Unity-AddressableResourcesSystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

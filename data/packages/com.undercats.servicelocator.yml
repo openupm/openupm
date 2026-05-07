@@ -2,6 +2,7 @@ name: com.undercats.servicelocator
 displayName: Unity Service Locator
 description: A lightweight service locator for Unity.
 repoUrl: https://github.com/hcmyxconan15/Unity-Service-Locator
+trackingMode: git
 parentRepoUrl: https://github.com/TeamAcMong/Unity-Service-Locator
 licenseName: MIT License
 licenseSpdxId: MIT

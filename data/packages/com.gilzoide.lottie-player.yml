@@ -2,6 +2,7 @@ name: com.gilzoide.lottie-player
 displayName: Lottie Player
 description: Player for Lottie animation files, powered by rlottie.
 repoUrl: https://github.com/gilzoide/unity-lottie-player
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

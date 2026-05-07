@@ -4,6 +4,7 @@ description: >-
   MonoBehaviour and plugin allowing to change system cursor on WebGL
   applications using jslib plugin
 repoUrl: 'https://github.com/Netherlands3D/WebCursors'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

@@ -2,6 +2,7 @@ name: net.rs64.tex-trans-tool
 displayName: TexTransTool
 description: Non-destructive modification to Texture!
 repoUrl: https://github.com/ReinaS-64892/TexTransTool
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: org.pcsoft.audio-system
 displayName: Audio System
 description: Audio System for Unity
 repoUrl: https://github.com/KleinerHacker/unity-audio-system
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

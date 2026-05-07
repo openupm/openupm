@@ -2,6 +2,7 @@ name: com.gilzoide.managed-jobs
 displayName: Managed Jobs
 description: Use classes and other managed types with Unity's Job System
 repoUrl: 'https://github.com/gilzoide/unity-managed-jobs'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

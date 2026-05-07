@@ -4,6 +4,7 @@ description: The **YapiBtn** package allows you to add custom buttons in the Uni
   Inspector by attaching the `[YapiBtn]` attribute to methods, making testing and
   debugging easier.
 repoUrl: https://github.com/yayapipi/YapiBtn
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

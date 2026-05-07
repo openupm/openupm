@@ -2,6 +2,7 @@ name: com.aceland.eventdriven
 displayName: AceLand Event Driven
 description: AceLand Event Driven is a framework designed for Unity.
 repoUrl: https://github.com/parsue/com.aceland.eventdriven
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

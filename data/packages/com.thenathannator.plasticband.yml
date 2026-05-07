@@ -4,6 +4,7 @@ description: >-
   An add-on for the Unity InputSystem package that adds special bindings for
   Rock Band and Guitar Hero peripherals, such as guitars and drums.
 repoUrl: https://github.com/TheNathannator/PlasticBand-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

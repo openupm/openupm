@@ -4,6 +4,7 @@ description: >-
   Unity's Editor GameObjects Paint Tool for 2D Games. It contains both a custom
   window for objects palette + a customizable brush for paining.
 repoUrl: 'https://github.com/acoppes/unity-gameobject-brush'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

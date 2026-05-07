@@ -2,6 +2,7 @@ name: jp.nobnak.gist2
 displayName: Gist2
 description: ''
 repoUrl: 'https://github.com/nobnak/Gist2'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

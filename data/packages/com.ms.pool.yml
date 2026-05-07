@@ -2,6 +2,7 @@ name: com.ms.pool
 displayName: UniPool
 description: Simple Object Pool Library for Unity
 repoUrl: 'https://github.com/wlgys8/UniPool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

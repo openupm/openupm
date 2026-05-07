@@ -2,6 +2,7 @@ name: com.dotbunny.gdx
 displayName: GDX
 description: Game Development Extensions
 repoUrl: 'https://github.com/dotBunny/GDX'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

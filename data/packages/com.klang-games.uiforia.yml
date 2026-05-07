@@ -2,6 +2,7 @@ name: com.klang-games.uiforia
 displayName: UIForia
 description: High Performance UI Framework for Unity
 repoUrl: 'https://github.com/klanggames/UIForia'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

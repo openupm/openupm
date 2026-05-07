@@ -4,6 +4,7 @@ description: >-
   An implementation of the Calendar UI package tailored for the Balinese
   calendar.
 repoUrl: https://github.com/adityarahmanda/unity-balinese-calendar-ui
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: ga.fuquna.rosettaui.ugui
 displayName: RosettaUI.UGUI
 description: Code-based multi gui interface for UGUI
 repoUrl: 'https://github.com/fuqunaga/RosettaUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

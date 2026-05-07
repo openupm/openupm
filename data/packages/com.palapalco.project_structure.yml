@@ -2,6 +2,7 @@ name: com.palapalco.project_structure
 displayName: Project Structure
 description: Control the project structure
 repoUrl: https://github.com/Ario92/PalapalUnity
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

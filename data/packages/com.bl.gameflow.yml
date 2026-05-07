@@ -2,6 +2,7 @@ name: com.bl.gameflow
 displayName: GameFlow-Toolkit
 description: A Lightweight Flow-Control Toolkit for Gameplay.
 repoUrl: 'https://github.com/balloonfishmollusc/gameflow-toolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

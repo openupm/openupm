@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-ui
 displayName: Legendary Tools - UI
 description: ''
 repoUrl: https://github.com/LeGustaVinho/ui-common
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

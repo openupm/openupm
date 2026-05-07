@@ -5,6 +5,7 @@ description: >-
   is another package for synchronizing meshes/models editing in DCC tools into
   Unity in real time.
 repoUrl: https://github.com/Unity-Technologies/MeshSyncDCCPlugins
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: LICENSE.md

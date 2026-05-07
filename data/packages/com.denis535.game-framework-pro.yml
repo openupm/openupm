@@ -3,6 +3,7 @@ displayName: Game Framework Pro
 description: >-
   The framework that allows you to design high-quality architecture of your game project.
 repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

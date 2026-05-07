@@ -4,6 +4,7 @@ description: >-
   UniTask & IUniTaskAsyncEnumerable baseed pub/sub messaging. this is like the
   UniTask version of UniTask.MessageBroker.
 repoUrl: 'https://github.com/hadashiA/UniTaskPubSub'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.grashaar.unity-objectpooling
 displayName: Unity.ObjectPooling
 description: ''
 repoUrl: 'https://github.com/grashaar/Unity.ObjectPooling'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

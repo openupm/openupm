@@ -2,6 +2,7 @@ name: com.elringus.spritedicing
 displayName: SpriteDicing
 description: Unity extension for reusing sprite texture areas
 repoUrl: 'https://github.com/Elringus/SpriteDicing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

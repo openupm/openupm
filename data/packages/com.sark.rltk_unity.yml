@@ -2,6 +2,7 @@ name: com.sark.rltk_unity
 displayName: RLTK
 description: A framework for developing ascii based "traditional" roguelikes in Unity.
 repoUrl: 'https://github.com/sarkahn/rltk_unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

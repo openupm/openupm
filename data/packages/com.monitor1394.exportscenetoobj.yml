@@ -2,6 +2,7 @@ name: com.monitor1394.exportscenetoobj
 displayName: Export Scene To Obj
 description: Export scene (including objects and terrain ) or fbx to .obj file for Unity.
 repoUrl: 'https://github.com/monitor1394/ExportSceneToObj'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

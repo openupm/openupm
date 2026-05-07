@@ -2,6 +2,7 @@ name: com.saltboxgames.saltbox.terminal
 displayName: Saltbox Terminal
 description: CommandLine Terminal for Unity Games
 repoUrl: 'https://github.com/SaltboxGames/Saltbox.Terminal'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

@@ -4,6 +4,7 @@ description: >-
   Simple but powerful Git integration. Provides you with git context menus,
   overlay icons and takes care of moved or deleted files.
 repoUrl: https://github.com/NibbleByte/UnityWiseGit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

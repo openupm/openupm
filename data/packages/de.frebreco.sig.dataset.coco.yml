@@ -4,6 +4,7 @@ description: >-
   Implements the COCO dataset model with JSON annotations using the SIG.Dataset
   API
 repoUrl: 'https://github.com/FreshlyBrewedCode/SIG'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: be.elab.eloitoolkits
 displayName: Eloi Tool Kits
 description: This package has dependency to all the packages on UPM
 repoUrl: https://github.com/EloiStree/OpenUPM_EloiToolKits
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

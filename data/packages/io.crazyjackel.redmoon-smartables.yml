@@ -2,6 +2,7 @@ name: io.crazyjackel.redmoon-smartables
 displayName: Red Moon Smartables
 description: Smarter Injectable Versions of Common Fixed Patterns
 repoUrl: 'https://github.com/crazyjackel/redmoon-smartables'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

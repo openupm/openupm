@@ -4,6 +4,7 @@ description: >-
   A library which allows you to integrate Colizeum services into your Unity
   app/game
 repoUrl: 'https://github.com/colizeum-com/colizeum-unity-sdk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

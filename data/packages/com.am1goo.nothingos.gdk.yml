@@ -2,6 +2,7 @@ name: com.am1goo.nothingos.gdk
 displayName: NothingOS Glyph Developer Kit
 description: The SDK provides native APIs for all of the essential Glyph features on Nothing Phone.
 repoUrl: 'https://github.com/am1goo/NothingOS.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   A set of classes that allow you to inject your own code into the Package
   Manager Window
 repoUrl: 'https://github.com/Thundernerd/Unity3D-PackageManagerInjectionHelper'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

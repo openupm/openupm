@@ -2,6 +2,7 @@ name: com.louthy.languageext
 displayName: language-ext
 description: C# Functional Programming Language Extensions
 repoUrl: 'https://github.com/HeyZoos/language-ext-openupm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

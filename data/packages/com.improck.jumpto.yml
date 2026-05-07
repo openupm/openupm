@@ -2,6 +2,7 @@ name: com.improck.jumpto
 displayName: Imp Rock - JumpTo
 description: A favorites tool for Unity
 repoUrl: https://github.com/improck/jumpto
+trackingMode: git
 parentRepoUrl: null
 licenseName: BSD 3-Clause "New" or "Revised" License
 licenseSpdxId: BSD-3-Clause

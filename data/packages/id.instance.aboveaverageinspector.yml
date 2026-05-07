@@ -4,6 +4,7 @@ description: >-
   A custom inspector drawer, because I wanted something I could organize into
   groups
 repoUrl: 'https://github.com/instance-id/AboveAverageInspector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

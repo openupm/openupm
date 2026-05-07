@@ -4,6 +4,7 @@ description: >-
   UniSharper.Localization is a serialization data driven text localization for
   Unity application.
 repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Localization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,6 +3,7 @@ displayName: XML Documentation Generator
 description: >-
   Generate additional compiler options for Unity to produce XML Documentation for UPM packages.
 repoUrl: https://github.com/laicasaane/UnityXmlDocGenerator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

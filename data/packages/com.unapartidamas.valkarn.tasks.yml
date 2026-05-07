@@ -2,6 +2,7 @@ name: com.unapartidamas.valkarn.tasks
 displayName: Valkarn Tasks for Unity
 description: Provides a zero-allocation async/await framework for Unity.
 repoUrl: 'https://github.com/Unapartidamas/valkarn-tasks'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

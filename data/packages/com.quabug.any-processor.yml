@@ -3,6 +3,7 @@ displayName: AnyProcessor
 description: >-
   Make it easier to write an ILPostProcessor with AnyProcessor
 repoUrl: 'https://github.com/quabug/AnySerialize'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

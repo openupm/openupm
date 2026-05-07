@@ -2,6 +2,7 @@ name: com.calci.assetlens
 displayName: Asset Lens
 description: This package helps to view references between assets in project.
 repoUrl: 'https://github.com/seonghwan-dev/AssetLens'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

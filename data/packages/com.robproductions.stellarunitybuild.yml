@@ -5,6 +5,7 @@ description: >-
   This extension package adds several new features to provide better control of
   your automated build pipeline.
 repoUrl: 'https://github.com/RobProductions/StellarUnityBuild'
+trackingMode: git
 parentRepoUrl: 'https://github.com/superunitybuild/buildtool'
 licenseSpdxId: MIT
 licenseName: MIT License

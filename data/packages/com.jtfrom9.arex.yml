@@ -2,6 +2,7 @@ name: com.jtfrom9.arex
 displayName: Arex
 description: AR Experiments
 repoUrl: 'https://github.com/jtfrom9/Arex'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

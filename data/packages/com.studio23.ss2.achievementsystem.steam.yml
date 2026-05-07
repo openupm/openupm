@@ -3,6 +3,7 @@ displayName: AchievementSystem.Steam
 description: >-
   This is an extension tool designed to simplify the process of calling SteamAchievementsAPI
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem.steam
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

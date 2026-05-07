@@ -5,6 +5,7 @@ description: >-
   of packages to provide ready to go solution for Windows, MacOS, Android, iOS
   platforms.
 repoUrl: https://github.com/IvanMurzak/Unity-EFCore-SQLite
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

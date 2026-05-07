@@ -2,6 +2,7 @@ name: com.nmacadam.notate
 displayName: Notate
 description: A note component for your inspector
 repoUrl: 'https://github.com/nmacadam/Notate'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   in the horizontal coordinate system based on date, time, latitude, and
   longitude.
 repoUrl: https://github.com/nobnak/SolarPosition
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

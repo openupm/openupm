@@ -3,6 +3,7 @@ displayName: Google Play Input Mapping
 description: Provides tools for exposing keyboard and mouse controls to the Android
   framework
 repoUrl: https://github.com/google/play-unity-plugins
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

@@ -2,6 +2,7 @@ name: com.clearsky.unityweldkr
 displayName: Unity Weld KR
 description: This project is a original fork of UnityWeld(Real-Serious-Games) with the goal of being actively maintained. This project aims to provide a robust and efficient data binding solution for Unity developers, facilitating seamless integration and synchronization between data models and UI components.
 repoUrl: https://github.com/ClearSky-S/UnityWeldKR
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.jcs090218.prefs
 displayName: Prefs
 description: Retrieve list of EditorPrefs/PlayerPrefs
 repoUrl: 'https://github.com/jcs090218/Unity.Prefs'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Reduces boilerplate when populating and managing item containers (lists,
   tables, ...).
 repoUrl: https://github.com/mr-watts/io.mrwatts.item-containers
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,6 +3,7 @@ displayName: Eye Tracking
 description: A library package/framework to build a common base for our experiments
   that use eye tracking.
 repoUrl: https://github.com/fcbg-hnp-vr/eye-tracking
+trackingMode: git
 parentRepoUrl: null
 licenseName: Mozilla Public License 2.0
 licenseSpdxId: MPL-2.0

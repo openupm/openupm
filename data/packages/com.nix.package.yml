@@ -2,6 +2,7 @@ name: com.nix.package
 displayName: NIX Package
 description: NIX Package
 repoUrl: https://github.com/tien0702/com.nix.package
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

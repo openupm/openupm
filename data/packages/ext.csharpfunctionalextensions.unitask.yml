@@ -2,6 +2,7 @@ name: ext.csharpfunctionalextensions.unitask
 displayName: CSharpFunctionalExtensions.UniTask
 description: UniTask extensions for CSharpFunctionalExtensions
 repoUrl: 'https://github.com/Razenpok/CSharpFunctionalExtensions.UniTask'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

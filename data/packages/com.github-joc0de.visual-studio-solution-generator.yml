@@ -4,6 +4,7 @@ description: >-
   Visual Studio Solution Generator with improved developer productivity
   especially when working with multi-package unity projects
 repoUrl: 'https://github.com/JoC0de/UnityVisualStudioSolutionGenerator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

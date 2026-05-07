@@ -4,6 +4,7 @@ description: >-
   The Occlusion Lens Flare package provides the ability to use Unity's builtin
   Lens Flare Component without Physics.
 repoUrl: 'https://github.com/pschraut/UnityOcclusionLensFlare'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

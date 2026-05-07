@@ -2,6 +2,7 @@ name: com.lexnewgate.character2d
 displayName: Character2D
 description: This is an example package
 repoUrl: https://github.com/LexUnityLab/CharacterController2D
+trackingMode: git
 parentRepoUrl: https://github.com/prime31/CharacterController2D
 licenseName: MIT License
 licenseSpdxId: MIT

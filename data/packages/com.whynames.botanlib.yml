@@ -2,6 +2,7 @@ name: com.whynames.botanlib
 displayName: BotanLib
 description: This is a template package, used as a basis to build a bigger one.
 repoUrl: https://github.com/whynames/BotanLib
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

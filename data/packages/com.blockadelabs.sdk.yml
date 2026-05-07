@@ -3,6 +3,7 @@ displayName: Blockade Labs SDK
 description: Unity package that allows you to generate infinite game assets using
   AI.
 repoUrl: https://github.com/Blockade-Games/BlockadeLabs-SDK-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unknown
 licenseSpdxId: null

@@ -2,6 +2,7 @@ name: com.realitytoolkit.metaplatform
 displayName: RealityToolkit.MetaPlatform
 description: The Meta platform components for the Reality Toolkit. This package enables your Reality Toolkit based project to run on Meta devices
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.metaplatform'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

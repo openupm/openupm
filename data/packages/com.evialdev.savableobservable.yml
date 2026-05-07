@@ -2,6 +2,7 @@ name: com.evialdev.savableobservable
 displayName: SavableObservable
 description: MVVM/MVVC framework for Unity with built-in saving/loading support
 repoUrl: https://github.com/alexxtaurus83/unity-savableobservable
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

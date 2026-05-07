@@ -4,6 +4,7 @@ description: >-
   Embeddable expression engine for C# with functions and allocation-free
   execution
 repoUrl: https://github.com/aki-null/epsilon-script-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

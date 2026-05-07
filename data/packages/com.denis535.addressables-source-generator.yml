@@ -3,6 +3,7 @@ displayName: Addressables Source Generator
 description: This package is an add-on to Addressables and gives you the ability to
   reference your assets and labels in a very convenient way with compile-time checking.
 repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

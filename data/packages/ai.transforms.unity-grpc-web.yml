@@ -2,6 +2,7 @@ name: ai.transforms.unity-grpc-web
 displayName: Grpc-Web for Unity
 description: 'Allows using https://github.com/grpc/grpc-dotnet/ with Unity WebGL'
 repoUrl: 'https://github.com/transformsai/UnityGrpcWeb'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

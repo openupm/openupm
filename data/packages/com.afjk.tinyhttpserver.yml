@@ -2,6 +2,7 @@ name: com.afjk.tinyhttpserver
 displayName: Tiny HTTP Server for Unity
 description: A simple HTTP server for Unity.
 repoUrl: https://github.com/afjk/TinyHttpServerForUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

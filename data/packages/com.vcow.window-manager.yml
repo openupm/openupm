@@ -4,6 +4,7 @@ description: >-
   A simple, full-featured window manager with the necessary and sufficient
   functionality to solve most tasks.
 repoUrl: https://github.com/vcow/lib-window-manager
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

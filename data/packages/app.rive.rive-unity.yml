@@ -2,6 +2,7 @@ name: app.rive.rive-unity
 displayName: Rive
 description: Create and ship interactive animations to any platform
 repoUrl: https://github.com/rive-app/rive-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

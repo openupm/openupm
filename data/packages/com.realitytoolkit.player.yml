@@ -4,6 +4,7 @@ description: >-
   The Player service module of the Reality Toolkit by the Reality Collective.
   Use this module to set up a player rig for XR apps and games in no time.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.player'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

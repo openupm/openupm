@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-graphs
 displayName: Legendary Tools - Graphs
 description: ''
 repoUrl: https://github.com/LeGustaVinho/graphs
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

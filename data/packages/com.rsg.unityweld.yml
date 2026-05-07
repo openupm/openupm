@@ -2,6 +2,7 @@ name: com.rsg.unityweld
 displayName: Unity Weld
 description: MVVM-style data-binding system for Unity.
 repoUrl: 'https://github.com/RoryDungan/Unity-Weld-UPM'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

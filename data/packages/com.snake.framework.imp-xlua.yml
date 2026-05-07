@@ -2,6 +2,7 @@ name: com.snake.framework.imp-xlua
 displayName: SnakeFramework-ImpXLua
 description: client framework
 repoUrl: 'https://github.com/ClaineLe/SnakeFramework-ImpXLua'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

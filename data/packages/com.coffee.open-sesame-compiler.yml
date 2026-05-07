@@ -5,6 +5,7 @@ description: >-
   can access to any internals/privates in other assemblies, without reflection.
   Let's say, "Open sesame!"
 repoUrl: 'https://github.com/mob-sakai/OpenSesameCompilerForUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

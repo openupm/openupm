@@ -6,6 +6,7 @@ description: >-
   Your game’s backend server can respond when you detect risky traffic to prevent unauthorized
   access and cheating
 repoUrl: 'https://github.com/google/play-integrity-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -3,6 +3,7 @@ displayName: Addressables Extensions
 description: >-
   This package is an addition to Addressables and gives you the ability to manage your assets in a more convenient way.
 repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

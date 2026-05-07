@@ -4,6 +4,7 @@ description: |-
   A lightweight funky functional types for Unity.
   This project is based on https://github.com/dnovhorodov/FunqTypes
 repoUrl: https://github.com/GMous/FunqTypesUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

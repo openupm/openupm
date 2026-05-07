@@ -5,6 +5,7 @@ description: >-
   inside the Unity Editor. Provides an API for other packages to report issues
   and register auto-fix actions.
 repoUrl: https://github.com/Ario92/PalapalUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT

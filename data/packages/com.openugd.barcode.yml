@@ -2,6 +2,7 @@ name: com.openugd.barcode
 displayName: Barcode
 description: Barcode for Unity
 repoUrl: https://github.com/openugd/upm-barcode
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

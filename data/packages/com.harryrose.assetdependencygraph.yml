@@ -2,6 +2,7 @@ name: com.harryrose.assetdependencygraph
 displayName: Asset Dependency Graph
 description: An Asset Dependency Graph for Unity
 repoUrl: 'https://github.com/Unity-Harry/Unity-AssetDependencyGraph'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

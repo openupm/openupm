@@ -2,6 +2,7 @@ name: com.styly.styly-netsync
 displayName: STYLY NetSync
 description: STYLY NetSync
 repoUrl: https://github.com/styly-dev/STYLY-NetSync
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

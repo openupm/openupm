@@ -2,6 +2,7 @@ name: com.brunomikoski.uimanager
 displayName: UI Manager
 description: ''
 repoUrl: 'https://github.com/brunomikoski/UIManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

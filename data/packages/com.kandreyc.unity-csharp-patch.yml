@@ -4,6 +4,7 @@ description: >-
   Package allows to set custom (newer) version of C# per AssemblyDefinition
   (.asmdef).
 repoUrl: https://github.com/kandreyc/unity-csharp-patch
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

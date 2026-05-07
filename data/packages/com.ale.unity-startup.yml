@@ -4,6 +4,7 @@ description: >-
   A Unity tool for compiling and installing a collection of useful Unity
   packages.
 repoUrl: https://github.com/alexandregaudencio/com.ale.unity-startup
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
 licenseName: MIT License

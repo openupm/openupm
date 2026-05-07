@@ -4,6 +4,7 @@ description: >-
   Graphene is a lightweight and modular framework for building user interfaces
   with Unity UI Toolkit
 repoUrl: 'https://github.com/LudiKha/Graphene'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

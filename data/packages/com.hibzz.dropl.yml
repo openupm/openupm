@@ -2,6 +2,7 @@ name: com.hibzz.dropl
 displayName: hibzz.dropl
 description: A library used to exeute instructions over a period of time
 repoUrl: 'https://github.com/hibzzgames/Hibzz.Dropl'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-4.0
 licenseName: Creative Commons Attribution 4.0 International

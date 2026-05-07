@@ -5,6 +5,7 @@ description: It can replace multiple Static Mesh Actors with single, combined St
   to be rendered for the scene, increasing performance by lowering the number of draw
   calls per frame.
 repoUrl: https://github.com/Unity-Technologies/HLODSystem
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

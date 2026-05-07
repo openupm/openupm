@@ -4,6 +4,7 @@ description: >-
   A comprehensive toolset for Unity developers, enhancing editor capabilities
   and providing utility functions.
 repoUrl: https://github.com/DevCWJ/cwj.unitydevtool
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

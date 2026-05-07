@@ -4,6 +4,7 @@ description: >-
   This package contains the UI and scripts for conveniently implementing
   MessageBoxes in projects.
 repoUrl: https://github.com/mr-watts/io.mrwatts.messageboxes
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: io.fourplayers.odin
 displayName: 4Players ODIN
 description: A Unity integration plugin to add 4Players ODIN technology into your game.
 repoUrl: https://github.com/4Players/odin-sdk-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

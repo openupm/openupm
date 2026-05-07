@@ -2,6 +2,7 @@ name: com.mygamedevtools.extensions
 displayName: Extensions
 description: 'A personal collection of Unity Engine tools, extensions and helpers.'
 repoUrl: 'https://github.com/mygamedevtools/extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

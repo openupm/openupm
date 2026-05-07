@@ -2,6 +2,7 @@ name: com.studio23.storebuilduploader
 displayName: Store Build Uploader
 description: Utility Tool to Make Store Build Uploads Convinent
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.storebuilduploader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

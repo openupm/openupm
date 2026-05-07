@@ -6,6 +6,7 @@ description: >-
   HTML-based ad service and gives full control over layout, behavior, and user
   interaction without requiring external SDKs.
 repoUrl: https://github.com/Woldsdm/wold.magic.webads
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

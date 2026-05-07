@@ -2,6 +2,7 @@ name: com.homelessskin.core
 displayName: Core
 description: Core Util Library.
 repoUrl: https://github.com/HomelessSkin/com.homelessskin.core
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

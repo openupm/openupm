@@ -2,6 +2,7 @@ name: com.kyusque.galahad
 displayName: Galahad
 description: ''
 repoUrl: 'https://github.com/kyusque/Galahad'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

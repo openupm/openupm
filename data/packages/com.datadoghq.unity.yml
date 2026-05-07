@@ -2,6 +2,7 @@ name: com.datadoghq.unity
 displayName: Datadog Unity
 description: Datadog Plugin for Unity
 repoUrl: https://github.com/DataDog/unity-package
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

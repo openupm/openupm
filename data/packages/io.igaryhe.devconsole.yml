@@ -2,6 +2,7 @@ name: io.igaryhe.devconsole
 displayName: DevConsole
 description: Extensible in-game dev console
 repoUrl: 'https://github.com/igaryhe/DevConsole'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -4,6 +4,7 @@ description: >-
   Automatically generates grid-based area partitions for VRChat worlds, with
   support for occlusion culling meshes and colliders.
 repoUrl: https://github.com/Narazaka/AreaPartition
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

@@ -4,6 +4,7 @@ description: >-
   High-performance, memory-efficient A* pathfinding implementation for
   grid-based environments with minimal garbage collection overhead
 repoUrl: https://github.com/migus88/MPath
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

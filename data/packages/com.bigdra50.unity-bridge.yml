@@ -4,6 +4,7 @@ description: >-
   Bridge client enabling CLI and automation tools to control Unity Editor via
   TCP
 repoUrl: https://github.com/bigdra50/unity-cli
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

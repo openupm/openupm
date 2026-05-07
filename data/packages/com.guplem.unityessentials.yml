@@ -4,6 +4,7 @@ description: >-
   An extension including a bunch of small features that I personally think that
   Unity should include by default.
 repoUrl: 'https://github.com/guplem/UnityEssentials'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

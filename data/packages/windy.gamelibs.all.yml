@@ -2,6 +2,7 @@ name: windy.gamelibs.all
 displayName: GameLibs
 description: Unity Game Libs
 repoUrl: https://github.com/windyuuy/UnityGameLibs
+trackingMode: git
 parentRepoUrl: null
 licenseName: Apache License 2.0
 licenseSpdxId: Apache-2.0

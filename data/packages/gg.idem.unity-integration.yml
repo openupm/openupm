@@ -4,6 +4,7 @@ description: >-
   Player-based Idem matchmaking implementation for Unity, both client and server
   parts
 repoUrl: https://github.com/idem-matchmaking/unity-integration
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

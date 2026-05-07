@@ -2,6 +2,7 @@ name: jp.andantetribe.unityextensions
 displayName: Unity Extensions
 description: "Extension methods for Unityâ\x80\x99s core components and types."
 repoUrl: https://github.com/AndanteTribe/UnityExtensions
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

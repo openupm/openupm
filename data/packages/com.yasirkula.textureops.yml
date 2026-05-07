@@ -2,6 +2,7 @@ name: com.yasirkula.textureops
 displayName: Texture Ops
 description: A basic image processing plugin for Unity
 repoUrl: 'https://github.com/yasirkula/UnityTextureOps'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

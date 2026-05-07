@@ -4,6 +4,7 @@ description: >-
   A wrapper that allows serialization of interfaces that supports both
   UnityEngine.Object and regular object types
 repoUrl: 'https://github.com/Thundernerd/Unity3D-SerializableInterface'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: jp.juhakurisu.popoutility
 displayName: popoUtility
 description: ''
 repoUrl: 'https://github.com/KurisuJuha/popoUtility'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

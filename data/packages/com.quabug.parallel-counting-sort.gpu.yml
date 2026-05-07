@@ -2,6 +2,7 @@ name: com.quabug.parallel-counting-sort.gpu
 displayName: Parallel Counting Sort (Compute Shader)
 description: Parallel Counting Sort (Compute Shader)
 repoUrl: 'https://github.com/quabug/parallel-counting-sort'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

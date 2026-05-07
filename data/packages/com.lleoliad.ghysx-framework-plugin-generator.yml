@@ -7,6 +7,7 @@ description: >-
   the plugin's basic information, helping developers quickly set up a plugin
   development environment.
 repoUrl: https://github.com/lleoliad/unity-ghysx-framework-plugin-generator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

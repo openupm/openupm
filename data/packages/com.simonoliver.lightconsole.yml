@@ -2,6 +2,7 @@ name: com.simonoliver.lightconsole
 displayName: Light Console
 description: Lightweight UIElements based console
 repoUrl: https://github.com/simonoliver/LightConsole
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

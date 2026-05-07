@@ -7,6 +7,7 @@ description: Google Analytics helps you understand and engage your players by re
   with Google Ads to make sure you're running campaigns that deliver you high-quality
   players.
 repoUrl: https://github.com/hcmyxconan15/com.ohze.google.firebase.analytics
+trackingMode: git
 parentRepoUrl: https://github.com/hungpt-ohze-dev/com.ohze.google.firebase.analytics
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

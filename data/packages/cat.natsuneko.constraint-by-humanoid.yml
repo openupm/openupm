@@ -4,6 +4,7 @@ description: >-
   A Unity editor extension that configures IConstraint component based on Unity
   Humanoid Rules. 
 repoUrl: https://github.com/natsuneko-laboratory/constraint-by-humanoid
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

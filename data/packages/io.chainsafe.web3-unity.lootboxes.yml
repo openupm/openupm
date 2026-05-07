@@ -3,6 +3,7 @@ displayName: web3.unity SDK Lootboxes
 description: This additional package provides you with sample scene and sample scripts
   for opening lootboxes of various types
 repoUrl: https://github.com/ChainSafe/web3.unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only

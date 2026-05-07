@@ -3,6 +3,7 @@ displayName: Demo Team Digital Human
 description: Library of tech features used to realize the digital human from 'The
   Heretic'.
 repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.digital-human
+trackingMode: git
 parentRepoUrl: null
 licenseName: Unity Companion License
 licenseSpdxId: null

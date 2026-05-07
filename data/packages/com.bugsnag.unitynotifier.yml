@@ -7,6 +7,7 @@ description: >-
   well as native crashes (Objective C, Java) are automatically detected and sent
   to Bugsnag.
 repoUrl: 'https://github.com/bugsnag/bugsnag-unity-upm-edm4u'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

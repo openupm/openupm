@@ -2,6 +2,7 @@ name: jp.keijiro.osc-jack
 displayName: OSC Jack
 description: Lightweight implementation of OSC server/client
 repoUrl: 'https://github.com/keijiro/OscJack'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

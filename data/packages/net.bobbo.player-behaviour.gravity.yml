@@ -2,6 +2,7 @@ name: net.bobbo.player-behaviour.gravity
 displayName: Player Behaviour Gravity
 description: Basic gravity functionality for the Bobbo-Net Player Controller
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

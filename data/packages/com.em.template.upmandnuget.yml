@@ -2,6 +2,7 @@ name: com.em.template.upmandnuget
 displayName: EM.Template.UpmAndNuGet
 description: ''
 repoUrl: https://github.com/epishev-m/EM.Template.UpmAndNuGet
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -4,6 +4,7 @@ description: >-
   Position any Transform in world space using normalized viewport coordinates,
   with optional bounds-centering and full editor support.
 repoUrl: https://github.com/lucasfaesa/com.riversoft.viewportpositioner
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: co.mindport.builder.xrinteraction
 displayName: VR Builder XR Interaction Component
 description: VR Builder default XR interaction component.
 repoUrl: 'https://github.com/MindPort-GmbH/VR-Builder-XR-Interaction-Component'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

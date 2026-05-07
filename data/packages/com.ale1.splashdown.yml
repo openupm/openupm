@@ -2,6 +2,7 @@ name: com.ale1.splashdown
 displayName: Splashdown
 description: Custom Editor Splash and Icon generator
 repoUrl: 'https://github.com/Ale1/Splashdown'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

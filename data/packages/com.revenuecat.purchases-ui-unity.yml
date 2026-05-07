@@ -4,6 +4,7 @@ description: >-
   Unity UI components for RevenueCat Paywalls and Customer Center. Supports iOS
   and Android.
 repoUrl: https://github.com/RevenueCat/purchases-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

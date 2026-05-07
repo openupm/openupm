@@ -2,6 +2,7 @@ name: com.fieldday.core-unity
 displayName: Field Day Unity Core
 description: Core Unity3d ECS framework and utilities for Field Day Lab
 repoUrl: 'https://github.com/fielddaylab/core-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

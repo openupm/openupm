@@ -2,6 +2,7 @@ name: com.juce.feedbacks
 displayName: Juce-Feedbacks
 description: Open-source feedbacks library that's part of the Juce Unity tools framework.
 repoUrl: 'https://github.com/Juce-Assets/Juce-Feedbacks'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

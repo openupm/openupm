@@ -4,6 +4,7 @@ description: >-
   User interface button types that can be used within a spatial environment for
   the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Interactions.SpatialButtons.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

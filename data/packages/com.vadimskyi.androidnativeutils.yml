@@ -2,6 +2,7 @@ name: com.vadimskyi.androidnativeutils
 displayName: Android native utilities
 description: Package description
 repoUrl: https://github.com/Vadimskyi/com.vadimskyi.androidnativeutils
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

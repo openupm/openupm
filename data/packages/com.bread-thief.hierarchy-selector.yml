@@ -4,6 +4,7 @@ description: >-
   Customize Unity hierarchy view with colors, icons, badges, gradients and text
   formatting for better scene organization.
 repoUrl: https://github.com/bread-thief/hierarchy-selector
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

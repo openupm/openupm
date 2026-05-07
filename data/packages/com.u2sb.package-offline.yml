@@ -2,6 +2,7 @@ name: com.u2sb.package-offline
 displayName: Unity Package Offline
 description: Convert upm package offline for use on computers without network connectivity
 repoUrl: https://github.com/u2sb/UnityPackageOffline
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

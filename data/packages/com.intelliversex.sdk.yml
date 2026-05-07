@@ -7,6 +7,7 @@ description: >-
   production. Includes support for Nakama, Photon PUN2, DOTween, LevelPlay,
   Appodeal, AdMob, and more.
 repoUrl: https://github.com/intelli-verse-x/Intelli-verse-X-SDK
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

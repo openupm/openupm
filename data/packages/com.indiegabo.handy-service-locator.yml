@@ -2,6 +2,7 @@ name: com.indiegabo.handy-service-locator
 displayName: Handy Bus
 description: A solution that creates a service locator to be used in any project.
 repoUrl: https://github.com/indiegabo/handy-service-locator
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

@@ -2,6 +2,7 @@ name: com.tiennix.codegen
 displayName: Code Generator
 description: This is a code generator package for Unity.
 repoUrl: https://github.com/tien0702/com.nix.editor.codegenerator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only

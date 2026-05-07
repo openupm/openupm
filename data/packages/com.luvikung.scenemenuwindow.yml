@@ -4,6 +4,7 @@ description: >-
   This is plugin that will add new window for switch scene easier with load
   mode.
 repoUrl: 'https://github.com/LuviKunG/SceneMenuWindow'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

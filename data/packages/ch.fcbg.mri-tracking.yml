@@ -4,6 +4,7 @@ description: >-
   MRI tracking system base package with menu, initialization scripts, and fMRI
   entry animation support.
 repoUrl: https://github.com/fcbg-platforms/2026-int-mri-tracking
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

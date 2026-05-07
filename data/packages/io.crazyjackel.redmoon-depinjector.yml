@@ -2,6 +2,7 @@ name: io.crazyjackel.redmoon-depinjector
 displayName: Red Moon Dependency Injector
 description: A Dependency Injector for Unity
 repoUrl: 'https://github.com/Redmoon-Development/redmoon-depInjector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

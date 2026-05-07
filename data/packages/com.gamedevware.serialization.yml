@@ -2,6 +2,7 @@ name: com.gamedevware.serialization
 displayName: JSON & MessagePack Serialization
 description: Ok-performance, AOT-compatible JSON and MessagePack serializers for Unity.
 repoUrl: https://github.com/deniszykov/msgpack-unity3d
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

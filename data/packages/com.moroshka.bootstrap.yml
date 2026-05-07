@@ -5,6 +5,7 @@ description: >-
   allowing code execution at all stages of the Unity lifecycle from subsystem
   registration to scene loading.
 repoUrl: https://github.com/moroshka-dev/moroshka-bootstrap
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

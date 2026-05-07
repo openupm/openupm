@@ -5,6 +5,7 @@ description: >-
   Android and Photos on iOS. It is also possible to pick an image or video from
   Gallery/Photos.
 repoUrl: https://github.com/phthai1992/UnityNativeGallery
+trackingMode: git
 parentRepoUrl: https://github.com/yasirkula/UnityNativeGallery
 licenseSpdxId: MIT
 licenseName: MIT License

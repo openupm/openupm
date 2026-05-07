@@ -2,6 +2,7 @@ name: computer.rhys.dirty-boy
 displayName: Dirty Boy
 description: Editor utility to manage dirty status of assets
 repoUrl: 'https://github.com/rhys-vdw/dirty-boy'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

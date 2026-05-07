@@ -2,6 +2,7 @@ name: ga.fuquna.syncutilformirror
 displayName: SyncUtil For Mirror
 description: Sync Utilities For Mirror
 repoUrl: https://github.com/fuqunaga/SyncUtilForMirror
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

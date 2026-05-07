@@ -2,6 +2,7 @@ name: games.artees.litjson
 displayName: LitJSON
 description: JSON library for the .Net framework
 repoUrl: 'https://github.com/Artees/litjson'
+trackingMode: git
 parentRepoUrl: 'https://github.com/LitJSON/litjson'
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

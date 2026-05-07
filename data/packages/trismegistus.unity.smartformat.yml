@@ -2,6 +2,7 @@ name: trismegistus.unity.smartformat
 displayName: Trismegistus SmartFormat
 description: ''
 repoUrl: 'https://github.com/Hermesiss/unity-smartformat'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'

@@ -2,6 +2,7 @@ name: net.bobbo.global-knowledge
 displayName: Global Knowledge
 description: Globally available player knowledge. Talk about game state!
 repoUrl: https://github.com/BOBBO-NET/netengine4
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

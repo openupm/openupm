@@ -2,6 +2,7 @@ name: com.nextleveldev.sdk
 displayName: NextLevel Dev SDK
 description: ''
 repoUrl: 'https://github.com/karlobencic/nextlevel-dev-sdk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

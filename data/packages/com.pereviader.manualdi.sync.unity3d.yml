@@ -2,6 +2,7 @@ name: com.pereviader.manualdi.sync.unity3d
 displayName: ManualDi.Sync
 description: Fast and extensible C# dependency injection library without reflection. Works seamlessly in both Unity3d and plain C# projects
 repoUrl: https://github.com/PereViader/OpenUPM
+trackingMode: git
 parentRepoUrl: https://github.com/PereViader/ManualDi
 licenseSpdxId: MIT
 licenseName: MIT License

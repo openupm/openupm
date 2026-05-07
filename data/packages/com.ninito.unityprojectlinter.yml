@@ -10,6 +10,7 @@ description: >-
 
   Create > Unity Project Linter > Asset Linting Settings
 repoUrl: 'https://github.com/ninito-ph/UnityProjectLinter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

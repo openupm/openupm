@@ -2,6 +2,7 @@ name: pe.nammu.ipp
 displayName: InputPatternPanel SDK
 description: InputPatternPanel SDK Package
 repoUrl: https://github.com/mod157/ipp.unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

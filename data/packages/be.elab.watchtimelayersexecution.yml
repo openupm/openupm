@@ -3,6 +3,7 @@ displayName: Watch Time Layers Execution
 description: Tool that allows to watch time of a layer of code that need to execute
   one after an other.
 repoUrl: https://github.com/EloiStree/OpenUPM_WatchTimeLayersExecution
+trackingMode: git
 parentRepoUrl: null
 licenseName: Beerware License
 licenseSpdxId: Beerware

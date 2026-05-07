@@ -2,6 +2,7 @@ name: com.kwanjoong.webviewrpc
 displayName: Webview RPC
 description: The webview Remote Procedure Call bridge.
 repoUrl: https://github.com/kwan3854/Unity-WebViewRpc
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

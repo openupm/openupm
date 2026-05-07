@@ -2,6 +2,7 @@ name: com.jaimecamacho.bubbles
 displayName: Bubbles
 description: Sistema de burbujas modular para Unity 6.
 repoUrl: https://github.com/JaimeCamachoDev/Bubbles
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

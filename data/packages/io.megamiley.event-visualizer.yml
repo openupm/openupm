@@ -2,6 +2,7 @@ name: io.megamiley.event-visualizer
 displayName: Event Visualizer
 description: 'Visualize UnityEvent calls within the editor, both incoming and outgoing.'
 repoUrl: 'https://github.com/MileyHollenberg/EventVisualizer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

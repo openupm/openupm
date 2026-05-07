@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-service-locator
 displayName: Legendary Tools - Service Locator
 description: ''
 repoUrl: https://github.com/LeGustaVinho/service-locator
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

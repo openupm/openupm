@@ -4,6 +4,7 @@ description: >-
   This is a database operation repository infrastructure with CRUD
   functionality.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Data
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

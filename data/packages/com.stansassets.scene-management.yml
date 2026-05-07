@@ -4,6 +4,7 @@ description: >-
   Provides a set of tools to organize scene loading and management in the Unity
   project.
 repoUrl: 'https://github.com/StansAssets/com.stansassets.scene-management'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

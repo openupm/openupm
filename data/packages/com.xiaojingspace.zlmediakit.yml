@@ -2,6 +2,7 @@ name: com.xiaojingspace.zlmediakit
 displayName: ZLMediakit Plugin
 description: Unity plugin for WVP PRO SIP port negotiation and ZLMediaKit WebRTC publishing.
 repoUrl: https://github.com/XiaoJingSpace/ZLMediakitPlugin.git
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics: []

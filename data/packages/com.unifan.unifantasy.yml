@@ -2,6 +2,7 @@ name: com.unifan.unifantasy
 displayName: UniFantasy Core
 description: unifantasy core library
 repoUrl: 'https://github.com/821869798/unifantasy'
+trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT

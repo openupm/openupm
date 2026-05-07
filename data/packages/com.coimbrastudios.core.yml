@@ -2,6 +2,7 @@ name: com.coimbrastudios.core
 displayName: Coimbra Framework
 description: ''
 repoUrl: 'https://github.com/coimbrastudios/framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
 licenseName: 'TBD'
