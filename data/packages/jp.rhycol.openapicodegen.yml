@@ -16,5 +16,5 @@ hunter: HIROHIRO1224
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '0.4.0'
-readme: release:README.md
+readme: main:README.md
 createdAt: 1746516551639
