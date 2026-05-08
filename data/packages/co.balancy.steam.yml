@@ -4,7 +4,7 @@ description: Steam platform integration for Balancy.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_steam
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: ''
 topics:
