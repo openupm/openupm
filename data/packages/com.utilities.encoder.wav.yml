@@ -2,7 +2,7 @@ name: com.utilities.encoder.wav
 displayName: Utilities.Encoder.Wav
 description: Simple library for WAV encoding support.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.encoder.wav'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

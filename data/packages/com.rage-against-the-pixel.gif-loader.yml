@@ -1,7 +1,7 @@
 name: com.rage-against-the-pixel.gif-loader
 displayName: gifloader
 description: Loads png gifs
-repoUrl: 'https://github.com/RageAgainstThePixel/com.gif-loader'
+repoUrl: 'https://github.com/RageAgainstThePixel/com.rage.gif-loader'
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT

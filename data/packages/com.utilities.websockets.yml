@@ -2,7 +2,7 @@ name: com.utilities.websockets
 displayName: Utilities.WebSockets
 description: A simple websocket package for Unity (UPM)
 repoUrl: https://github.com/RageAgainstThePixel/com.utilities.websockets
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
