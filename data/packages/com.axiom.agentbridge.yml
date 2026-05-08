@@ -1,0 +1,18 @@
+name: com.axiom.agentbridge
+displayName: Axiom - Diagnostic Bridge
+description: Token-efficient agentic toolset for Unity 6. 22 diagnostic tools, 16 action tools, JSON command gateway, native Unity MCP integration.
+repoUrl: 'https://github.com/UmutBrkt/Axiom'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-tools
+  - utilities
+gitTagPrefix: 'v'
+gitTagIgnore: '-upm$'
+minVersion: '1.0.0'
+image: ''
+imageFit: cover
+readme: 'main:Assets/Axiom/README.md'
+hunter: UmutBrkt
