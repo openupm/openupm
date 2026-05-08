@@ -9,7 +9,7 @@ licenseName: MIT License
 image: ''
 topics:
   - ai
-  - editor-tools
+  - editor-enhancement
   - utilities
 hunter: UmutBrkt
 gitTagPrefix: 'v'
