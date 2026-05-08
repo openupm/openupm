@@ -2,6 +2,7 @@ name: com.flexframework.code-analysis
 displayName: Code Analysis
 description: Microsoft Code Analysis(Roslyn) minimal binaries
 repoUrl: 'https://github.com/flexunity/code-analysis'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

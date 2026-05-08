@@ -6,6 +6,7 @@ description: >-
   features, animations, and transitions, it ensures a dynamic and polished
   introduction to any Unity project
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.splashscreensystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

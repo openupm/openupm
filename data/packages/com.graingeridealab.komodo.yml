@@ -2,6 +2,7 @@ name: com.graingeridealab.komodo
 displayName: KomodoCore
 description: Komodo WebXR Environment
 repoUrl: 'https://github.com/gelic-idealab/komodo-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: NCSA
 licenseName: University of Illinois/NCSA Open Source License

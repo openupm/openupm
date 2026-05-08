@@ -2,6 +2,7 @@ name: com.ar-tracking.dtrack
 displayName: ART DTRACK Plugin
 description: Plugin for ART DTRACK tracking systems.
 repoUrl: 'https://github.com/ar-tracking/UnityDTrackPlugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

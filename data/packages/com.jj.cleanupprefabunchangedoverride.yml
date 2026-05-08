@@ -1,0 +1,17 @@
+name: com.jj.cleanupprefabunchangedoverride
+displayName: CleanUpPrefabUnchangedOverride
+description: Clean up prefab unchanged override to Unity.
+repoUrl: https://github.com/JianjianGit/CleanUpPrefabUnchangedOverride
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: JianjianGit
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.1'
+readme: main:README.md
+createdAt: 1770880351087

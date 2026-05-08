@@ -2,12 +2,13 @@ name: com.legustavinho.legendary-tools-actor
 displayName: Legendary Tools - Actor System
 description: ''
 repoUrl: https://github.com/LeGustaVinho/actor
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: LeGustaVinho
 gitTagPrefix: ''
 gitTagIgnore: ''

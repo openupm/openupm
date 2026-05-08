@@ -5,6 +5,7 @@ description: >-
   rectangle transforms within your canvas for easier navigation and building
   while working on your user interface.
 repoUrl: 'https://github.com/jeffreylanters/unity-canvas-visualizer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -1,0 +1,20 @@
+name: com.clokk.mdmcp-unity
+displayName: MDMCP Server for Unity
+description: >-
+  Markdown MCP (MDMCP) Server for Unity Editor: an HTTP-based automation bridge
+  with extensible editor actions.
+repoUrl: https://github.com/clokk/mdmcp-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - code-generation
+hunter: clokk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1762925741711

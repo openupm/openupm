@@ -2,6 +2,7 @@ name: me.guyl.atoms-vs
 displayName: Unity Atoms Visual Scripting
 description: Atoms nodes for Unity Visual Scripting
 repoUrl: 'https://github.com/bguyl/unity-atoms-vs'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

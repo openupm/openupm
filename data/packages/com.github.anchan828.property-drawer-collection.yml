@@ -2,6 +2,7 @@ name: com.github.anchan828.property-drawer-collection
 displayName: Property Drawer Collection
 description: カスタムプロパティの作品集
 repoUrl: 'https://github.com/d4160/property-drawer-collection'
+trackingMode: git
 parentRepoUrl: 'https://github.com/anchan828/property-drawer-collection'
 licenseSpdxId: MIT
 licenseName: MIT License

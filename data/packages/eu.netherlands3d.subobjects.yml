@@ -2,6 +2,7 @@ name: eu.netherlands3d.subobjects
 displayName: Netherlands3D - Subobjects
 description: Package get acces to Subobjects of loaded tiles
 repoUrl: 'https://github.com/Netherlands3D/Subobjects'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

@@ -4,6 +4,7 @@ description: >-
   A native Unity plugin to interact with Gallery/Photos on Android & iOS (save
   and/or load images/videos)
 repoUrl: 'https://github.com/yasirkula/UnityNativeGallery'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

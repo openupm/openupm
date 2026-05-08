@@ -2,6 +2,7 @@ name: today.comes.saintsdraw
 displayName: SaintsDraw
 description: A Unity plugin for gizmos and LineRenderer drawing in inspector
 repoUrl: https://github.com/TylerTemp/SaintsDraw
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

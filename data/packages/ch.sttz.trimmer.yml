@@ -2,6 +2,7 @@ name: ch.sttz.trimmer
 displayName: Trimmer
 description: 'An editor, build and player configuration framework for the Unity game engine.'
 repoUrl: 'https://github.com/sttz/trimmer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

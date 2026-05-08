@@ -4,6 +4,7 @@ description: >-
   An implementation (for Unity) of efficient spacial data structures from
   Stackoverflow thread
 repoUrl: https://github.com/nobnak/EffSpaceUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.boristhebrave.sylves
 displayName: Sylves
 description: Sylves is a pure C# utility for working with 2d and 3d grids
 repoUrl: 'https://github.com/BorisTheBrave/sylves'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

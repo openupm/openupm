@@ -4,6 +4,7 @@ description: >-
   Runtime transform handles, adapted from
   https://github.com/pshtif/RuntimeTransformHandle
 repoUrl: 'https://github.com/Netherlands3D/Transform-Handles'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: EUPL-1.2
 licenseName: European Union Public License 1.2

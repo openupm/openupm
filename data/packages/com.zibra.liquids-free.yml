@@ -4,6 +4,7 @@ description: >-
   Real-time liquid simulation plugin (GPU), powered by AI. New game mechanics &
   gameplay, graphics refining, game performance improvement. Ease of use.
 repoUrl: 'https://github.com/ZibraAI/com.zibra.liquids-free'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

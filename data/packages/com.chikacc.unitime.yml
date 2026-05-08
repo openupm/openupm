@@ -2,6 +2,7 @@ name: com.chikacc.unitime
 displayName: UniTime
 description: Provides a testable time integration for Unity.
 repoUrl: 'https://github.com/chikacc/UniTime'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.ms.commonutils
 displayName: CommonUtils
 description: some good utils for Unity
 repoUrl: 'https://github.com/wlgys8/MSCommonUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

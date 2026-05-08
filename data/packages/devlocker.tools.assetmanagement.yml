@@ -20,6 +20,7 @@ description: >-
 
   Usage: "Tools/Asset Management/...".
 repoUrl: 'https://github.com/NibbleByte/UnityAssetManagementTools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

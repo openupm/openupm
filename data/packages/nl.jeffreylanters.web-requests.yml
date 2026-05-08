@@ -5,6 +5,7 @@ description: >-
   by implementing a Request model that provides an easy, await-able and
   extendable way to fetch resources asynchronously across the network.
 repoUrl: 'https://github.com/jeffreylanters/unity-web-requests'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

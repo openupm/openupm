@@ -2,6 +2,7 @@ name: com.brogan89.minmaxslider
 displayName: Min Max Slider
 description: Min Max Slider UI Component for Unity
 repoUrl: 'https://github.com/brogan89/MinMaxSlider'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

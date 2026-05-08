@@ -2,6 +2,7 @@ name: com.open.speckleunity
 displayName: SpeckleUnity
 description: Stream live 3D data into Unity with the open data platform for BIM - Speckle!
 repoUrl: 'https://github.com/speckleworks/SpeckleUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

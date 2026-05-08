@@ -4,6 +4,7 @@ description: >-
   Shader Variant Explorer lets you peek into Unity's shader compilation process
   and understand the composition of shader files better.
 repoUrl: 'https://github.com/needle-tools/shader-variant-explorer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

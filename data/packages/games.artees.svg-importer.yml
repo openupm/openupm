@@ -2,6 +2,7 @@ name: games.artees.svg-importer
 displayName: SVG Importer
 description: SVG Importer for Unity
 repoUrl: 'https://github.com/Artees/SVGImporter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

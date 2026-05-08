@@ -2,6 +2,7 @@ name: com.waneta.upmlib
 displayName: UPMLib
 description: UPM Demo Lib!!!
 repoUrl: 'https://github.com/waneta/upmtestlib'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

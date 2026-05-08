@@ -2,6 +2,7 @@ name: dev.upm-packages.sequential-dispatcher
 displayName: Sequential Dispatcher
 description: Dispatch several methods sequentially
 repoUrl: 'https://github.com/umm/sequential_dispatcher'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

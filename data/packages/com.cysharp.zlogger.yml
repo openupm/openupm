@@ -4,6 +4,7 @@ description: >-
   Zero Allocation Text/Strcutured Logger for .NET Core and Unity, built on top
   of a Microsoft.Extensions.Logging.
 repoUrl: 'https://github.com/Cysharp/ZLogger'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

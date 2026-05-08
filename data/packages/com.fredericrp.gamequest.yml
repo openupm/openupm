@@ -4,6 +4,7 @@ description: >-
   GameQuest provides an easy way to create quests for a game, and the management
   of them.
 repoUrl: 'https://github.com/FredericRP/GameQuest'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: at.ac.fhstp.import3d
 displayName: Import3D
 description: An asynchronous runtime 3D-model importer for Unity
 repoUrl: 'https://github.com/fhstp/UnityImport3D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

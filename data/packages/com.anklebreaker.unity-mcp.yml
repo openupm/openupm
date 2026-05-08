@@ -1,0 +1,18 @@
+name: com.anklebreaker.unity-mcp
+displayName: AnkleBreaker Unity MCP
+description: "MCP (Model Context Protocol) bridge plugin for Unity Editor. Enables AI assistants like Claude to control Unity Editor via a local HTTP API â\x80\x94 manage scenes, GameObjects, components, assets, builds, and more."
+repoUrl: https://github.com/AnkleBreaker-Studio/unity-mcp-plugin
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/AnkleBreaker-Studio/unity-mcp-plugin/refs/heads/main/icon.png
+topics:
+  - ai
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778143986634

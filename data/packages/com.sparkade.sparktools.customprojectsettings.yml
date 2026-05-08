@@ -5,9 +5,10 @@ description: >-
   and at runtime.
 repoUrl: >-
   https://github.com/sparkade-games/com.sparkade.sparktools.customprojectsettings
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: KAW0

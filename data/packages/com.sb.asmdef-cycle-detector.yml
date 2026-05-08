@@ -2,9 +2,10 @@ name: com.sb.asmdef-cycle-detector
 displayName: SB Asmdef Cycle Detector
 description: Displaying Cyclic Dependencies of ASMDEF
 repoUrl: https://github.com/shaharbar2/SBAssemblyCycleDetector
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: >-
   https://github.com/shaharbar2/SBAssemblyCycleDetector/raw/main/Packages%2Fcom.sb.asmdef-cycle-detector%2Fimg.png
 topics:

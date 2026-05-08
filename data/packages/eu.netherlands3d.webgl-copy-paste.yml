@@ -4,6 +4,7 @@ description: >-
   A copy paste support plugin for WebGL applications copied from
   https://github.com/Trisibo/unity-webgl-copy-and-paste
 repoUrl: https://github.com/Netherlands3D/WebGLCopyPaste
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

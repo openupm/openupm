@@ -11,6 +11,7 @@ description: >-
   Plugin and the Google Play Billing Library. If you do not agree with the
   licenses, you may not use this package.
 repoUrl: 'https://github.com/google/play-unity-plugins'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

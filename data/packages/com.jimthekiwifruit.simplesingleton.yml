@@ -4,6 +4,7 @@ description: >-
   A simple singleton implementation for Unity in UPM form for easy addition to
   projects.
 repoUrl: 'https://github.com/JimTheKiwifruit/SimpleSingleton'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

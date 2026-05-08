@@ -2,6 +2,7 @@ name: com.gameframe.editorutils
 displayName: Gameframe.EditorUtils
 description: Editor utilities and helpers for creating custom inspectors.
 repoUrl: 'https://github.com/coryleach/UnityEditorUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

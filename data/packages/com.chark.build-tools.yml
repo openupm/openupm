@@ -4,6 +4,7 @@ description: >-
   Editor utilities for quickly automating builds by utilizing Scriptable
   Objects.
 repoUrl: 'https://github.com/chark/build-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

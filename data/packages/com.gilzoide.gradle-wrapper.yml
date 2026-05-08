@@ -9,6 +9,7 @@ description: >-
   The plugin will use the Java and Gradle configured in Unity for generating the
   wrapper, so there's no need to configure anything else.
 repoUrl: 'https://github.com/gilzoide/unity-gradle-wrapper'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

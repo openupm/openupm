@@ -5,6 +5,7 @@ description: |-
 
   It comes with its own input and enables storing output as a .wav file.
 repoUrl: 'https://github.com/nehvaleem/com.undefined.wwise-recorder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

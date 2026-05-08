@@ -4,6 +4,7 @@ description: >-
   Feature rich Unity editor tool to help streamline the process of changing the
   paths of animations.
 repoUrl: 'https://github.com/hfcRed/Animation-Repathing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.twinfaerie.settingmenu
 displayName: TwinFaerie Setting-Menu
 description: For centralize game setting and separate game setting from unity setting
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-settingmenu'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

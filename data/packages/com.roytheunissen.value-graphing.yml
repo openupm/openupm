@@ -4,6 +4,7 @@ description: >-
   Provides a simple syntax for visualizing continuously changing values with
   on-screen graphs.
 repoUrl: 'https://github.com/RoyTheunissen/Value-Graphing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

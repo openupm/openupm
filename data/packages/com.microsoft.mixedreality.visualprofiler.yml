@@ -4,6 +4,7 @@ description: >-
   Provides a drop in solution for viewing your mixed reality Unity application's
   frame rate, scene complexity, and memory usage.
 repoUrl: 'https://github.com/microsoft/VisualProfiler-Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

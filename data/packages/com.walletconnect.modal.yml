@@ -3,6 +3,7 @@ displayName: WalletConnect Modal
 description: >-
   Simplest and most minimal way to connect your players with WalletConnect
 repoUrl: https://github.com/WalletConnect/WalletConnectUnity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

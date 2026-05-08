@@ -5,6 +5,7 @@ description: >-
   ensures that your sensitive data will not be found by the memory scanners and
   searchers.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

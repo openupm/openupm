@@ -2,6 +2,7 @@ name: com.dteruel.toolnity.projectinfo
 displayName: Toolnity Project Info
 description: Tool to centralize all the information about the project.
 repoUrl: 'https://github.com/DTeruel/Toolnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

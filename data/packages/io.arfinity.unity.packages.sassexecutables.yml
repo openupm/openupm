@@ -2,6 +2,7 @@ name: io.arfinity.unity.packages.sassexecutables
 displayName: arfinity - SassExecutables
 description: SassExecutables for Unity
 repoUrl: 'https://github.com/arfinity-io/unity-sassexecutables'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

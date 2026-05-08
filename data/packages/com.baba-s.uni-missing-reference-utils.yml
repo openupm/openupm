@@ -2,9 +2,10 @@ name: com.baba-s.uni-missing-reference-utils
 displayName: UniMissingReferenceUtils
 description: ''
 repoUrl: 'https://github.com/baba-s/UniMissingReferenceUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - asset-management
 hunter: JesseTG

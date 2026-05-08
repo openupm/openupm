@@ -2,6 +2,7 @@ name: com.github-glitchenzo.nugetforunity
 displayName: NuGetForUnity
 description: A NuGet Package Manager for Unity
 repoUrl: 'https://github.com/GlitchEnzo/NuGetForUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

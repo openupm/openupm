@@ -2,6 +2,7 @@ name: com.willykc.templ
 displayName: Templ
 description: Integrates Scriban template engine with the Unity Editor.
 repoUrl: 'https://github.com/willykc/templ'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

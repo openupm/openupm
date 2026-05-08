@@ -4,6 +4,7 @@ description: >-
   Key-Value Store implementation backed by macOS/iOS/tvOS/visionOS data
   protection keychain.
 repoUrl: https://github.com/gilzoide/unity-key-value-store-apple-keychain
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

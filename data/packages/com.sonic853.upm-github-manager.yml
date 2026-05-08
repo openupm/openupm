@@ -2,6 +2,7 @@ name: com.sonic853.upm-github-manager
 displayName: UPM Github Manager
 description: Manage and upgrade Github package versions
 repoUrl: 'https://github.com/Sonic853/UpmGithubManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,6 +3,7 @@ displayName: QuickEye UI Toolkit Plus
 description: >-
   Query utility, new elements, UI Builder addons, extension methods...
 repoUrl: 'https://github.com/ErnSur/UI-Toolkit-Plus'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

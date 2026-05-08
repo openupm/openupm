@@ -2,6 +2,7 @@ name: com.amequus.levers
 displayName: Levers
 description: A collection of drawing primitives for use in unity editor scripts
 repoUrl: https://github.com/errorStream/Levers
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

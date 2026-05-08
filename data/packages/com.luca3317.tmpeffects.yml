@@ -2,6 +2,7 @@ name: com.luca3317.tmpeffects
 displayName: TMPEffects
 description: Easily apply all kinds of effects to your TextMeshPro texts
 repoUrl: https://github.com/Luca3317/TMPEffects
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

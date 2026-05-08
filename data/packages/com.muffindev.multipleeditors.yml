@@ -4,6 +4,7 @@ description: >-
   Unity plugin that allows you to make multiple editors that target the same
   type, and manage them from the editor.
 repoUrl: 'https://github.com/DaCookie/multiple-editors'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-SA-4.0
 licenseName: Creative Commons Attribution Share Alike 4.0 International

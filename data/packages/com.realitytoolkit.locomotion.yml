@@ -4,6 +4,7 @@ description: >-
   The Locomotion System for use with the Reality Toolkit by the Reality
   Collective.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.locomotion'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

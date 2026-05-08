@@ -4,6 +4,7 @@ displayName: Loxodon Framework UIToolkit
 description: >-
   This is a UIToolkit plugin for Loxodon.Framework.  
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

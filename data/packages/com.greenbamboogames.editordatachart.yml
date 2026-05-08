@@ -2,6 +2,7 @@ name: com.greenbamboogames.editordatachart
 displayName: Editor Data Chart!
 description: Draw data chart in Unity Editor.
 repoUrl: 'https://github.com/SolarianZ/UnityEditorDataChartTool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

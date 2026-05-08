@@ -2,6 +2,7 @@ name: dev.kyubuns.auto9slicer
 displayName: Auto9Slicer
 description: Auto 9 slice sprite generator
 repoUrl: 'https://github.com/kyubuns/Auto9Slicer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

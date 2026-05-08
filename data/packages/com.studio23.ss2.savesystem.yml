@@ -5,6 +5,7 @@ description: >-
   interface to save files and configure cloud saves of Steam or Xbox and other
   platforms via extenstions
 repoUrl: 'https://github.com/Studio-23-xyz/SaveSystem'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

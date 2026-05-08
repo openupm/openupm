@@ -2,6 +2,7 @@ name: com.laicasaane.unity-addressables-manager
 displayName: Unity Addressables Manager
 description: Unity Addressables Manager
 repoUrl: 'https://github.com/laicasaane/unity-addressables-manager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

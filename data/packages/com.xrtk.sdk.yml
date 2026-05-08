@@ -2,6 +2,7 @@ name: com.xrtk.sdk
 displayName: XRTK.SDK
 description: The SDK assets for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/SDK'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

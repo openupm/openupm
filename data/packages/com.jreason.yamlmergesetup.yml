@@ -4,6 +4,7 @@ description: >-
   Package which prompts user to setup YAML Merge in their Git config for this
   project
 repoUrl: https://github.com/j-reason/Unity-YAML-merge-setup
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

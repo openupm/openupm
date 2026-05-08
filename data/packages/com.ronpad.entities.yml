@@ -2,6 +2,7 @@ name: com.ronpad.entities
 displayName: Com.RonPad.Entities
 description: 'An entity framework'
 repoUrl: 'https://github.com/rontian/Com.RonPad.Entities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

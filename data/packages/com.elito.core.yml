@@ -1,0 +1,17 @@
+name: com.elito.core
+displayName: Elito Core
+description: Core services and tools
+repoUrl: https://github.com/iLataria/Elito
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+  - asset-management
+hunter: iLataria
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:Assets/com_elito_core/README.md
+createdAt: 1758875660192

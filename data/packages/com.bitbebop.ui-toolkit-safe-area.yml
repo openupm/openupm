@@ -2,6 +2,7 @@ name: com.bitbebop.ui-toolkit-safe-area
 displayName: UI Toolkit Safe Area
 description: A Safe Area Container for UI Toolkit.
 repoUrl: 'https://github.com/artstorm/ui-toolkit-safe-area'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

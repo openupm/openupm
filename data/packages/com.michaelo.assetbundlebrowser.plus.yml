@@ -13,6 +13,7 @@ description: >-
   AssetBundle Browser. The bundle configuration, build functionality, and
   built-bundle inspection are split into three tabs within the new window.
 repoUrl: 'https://github.com/michael811125/AssetBundles-Browser-Plus'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

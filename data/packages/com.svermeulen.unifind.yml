@@ -2,6 +2,7 @@ name: com.svermeulen.unifind
 displayName: Unifind
 description: A fuzzy-finder for Unity Editor
 repoUrl: https://github.com/svermeulen/unifind
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

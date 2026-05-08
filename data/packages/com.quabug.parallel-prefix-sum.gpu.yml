@@ -2,6 +2,7 @@ name: com.quabug.parallel-prefix-sum.gpu
 displayName: Parallel Prefix Sum (Compute Shader)
 description: Parallel Prefix Sum (Compute Shader)
 repoUrl: 'https://github.com/quabug/parallel-prefix-sum'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

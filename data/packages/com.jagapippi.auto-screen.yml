@@ -9,6 +9,7 @@ description: >-
   This is achieved by transforming the RectTransform, but the changes are not
   saved, so version control systems such as git will not make any difference.
 repoUrl: 'https://github.com/su10/AutoScreen-for-Device-Simulator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

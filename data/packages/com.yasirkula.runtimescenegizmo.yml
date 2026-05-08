@@ -2,6 +2,7 @@ name: com.yasirkula.runtimescenegizmo
 displayName: Runtime Scene Gizmo
 description: Interactable runtime scene gizmo for uGUI
 repoUrl: 'https://github.com/yasirkula/UnityRuntimeSceneGizmo'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

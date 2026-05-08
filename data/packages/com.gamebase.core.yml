@@ -2,6 +2,7 @@ name: com.gamebase.core
 displayName: Gamebase-Core
 description: Gamebase core module.
 repoUrl: 'https://github.com/hiyorin/Gamebase-Core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

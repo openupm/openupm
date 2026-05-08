@@ -4,6 +4,7 @@ description: >-
   Steering, obstacle avoidance and path following behaviors for the Unity Game
   Engine
 repoUrl: 'https://github.com/Thundernerd/UnitySteer'
+trackingMode: git
 parentRepoUrl: 'https://github.com/ricardojmendez/UnitySteer'
 licenseSpdxId: MIT
 licenseName: MIT License

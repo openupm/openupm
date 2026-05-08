@@ -2,6 +2,7 @@ name: com.initialprefabs.importoverrides
 displayName: Import Overrides
 description: A visual GUI for Textures similar to the default TextureImporter UI.
 repoUrl: https://github.com/InitialPrefabs/ImportOverrides
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

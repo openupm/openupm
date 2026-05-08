@@ -5,6 +5,7 @@ description: >-
   source code for a custom 'VisualElement'. Just mark elements with
   [UxmlElement] and [UxmlAttribute] attributes.
 repoUrl: https://github.com/LibraStack/UnityUxmlGenerator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

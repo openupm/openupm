@@ -2,6 +2,7 @@ name: com.greenbamboogames.playablegraphmonitor
 displayName: PlayableGraphMonitor!
 description: PlayableGraph monitor.
 repoUrl: 'https://github.com/SolarianZ/UnityPlayableGraphMonitorTool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

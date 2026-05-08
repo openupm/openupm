@@ -2,6 +2,7 @@ name: com.hegametech.gameframework
 displayName: GameFramework
 description: ''
 repoUrl: 'https://github.com/hemingfei/unity_game_framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: pl.apkd.unityasync
 displayName: Apkd.UnityAsync
 description: 'High performance, allocation-free async/await library for Unity.'
 repoUrl: 'https://github.com/apkd/Apkd.UnityAsync'
+trackingMode: git
 parentRepoUrl: 'https://github.com/muckSponge/UnityAsync'
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

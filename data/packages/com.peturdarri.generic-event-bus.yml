@@ -4,9 +4,10 @@ description: >-
   A synchronous event bus for Unity, using strictly typed events and generics to
   reduce runtime overhead.
 repoUrl: 'https://github.com/PeturDarri/GenericEventBus'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: ''

@@ -2,6 +2,7 @@ name: com.hibzz.console
 displayName: hibzz.console
 description: A simple and flexible in-game console
 repoUrl: 'https://github.com/hibzzgames/com.hibzz.console'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

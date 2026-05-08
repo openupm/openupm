@@ -4,6 +4,7 @@ description: >-
   It's a tool for searching asset references on Unity and displaying them on the
   window.
 repoUrl: 'https://github.com/ina-amagami/unity-reference-viewer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

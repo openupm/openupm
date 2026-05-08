@@ -2,6 +2,7 @@ name: com.dh.core
 displayName: DH Core
 description: My Unity core package with base classes and utils
 repoUrl: https://github.com/dirkhartlage/DH.Core
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

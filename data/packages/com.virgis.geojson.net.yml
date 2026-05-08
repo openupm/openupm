@@ -2,6 +2,7 @@ name: com.virgis.geojson.net
 displayName: GeoJSON.Net
 description: .Net library for GeoJSON types & corresponding Json.Net (de)serializers
 repoUrl: 'https://github.com/ViRGIS-Team/GeoJSON.Net'
+trackingMode: git
 parentRepoUrl: 'https://github.com/GeoJSON-Net/GeoJSON.Net'
 licenseSpdxId: MIT
 licenseName: MIT License

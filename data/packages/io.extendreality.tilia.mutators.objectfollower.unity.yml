@@ -4,6 +4,7 @@ description: >-
   A mechanism to make a target GameObject follow a source GameObject in the
   scene for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

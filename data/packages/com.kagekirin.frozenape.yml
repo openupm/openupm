@@ -4,6 +4,7 @@ description: >-
   Editor and Runtime exporter for skinned meshes frozen in a specific pose as
   static mesh
 repoUrl: https://github.com/KageKirin/FrozenAPE
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

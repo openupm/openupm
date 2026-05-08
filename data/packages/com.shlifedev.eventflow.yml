@@ -1,0 +1,18 @@
+name: com.shlifedev.eventflow
+displayName: EventFlow
+description: This package support non-gc unity event broadcast system.
+repoUrl: https://github.com/shlifedev/event-flow
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- data-management
+- frameworks
+hunter: shlifedev
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1739796515206

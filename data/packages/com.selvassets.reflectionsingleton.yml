@@ -2,13 +2,14 @@ name: com.selvassets.reflectionsingleton
 displayName: SA - ReflectionSingleton
 description: ReflectionSingleton implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ReflectionSingleton
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Open source
+licenseSpdxId: null
 image: ''
 topics:
-  - services
-  - utilities
+- services
+- utilities
 hunter: selvassets
 gitTagPrefix: ''
 gitTagIgnore: ''

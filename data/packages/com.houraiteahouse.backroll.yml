@@ -2,6 +2,7 @@ name: com.houraiteahouse.backroll
 displayName: Backroll
 description: Unity C# Port of GGPO built atop Hourai Networking
 repoUrl: 'https://github.com/HouraiTeahouse/Backroll'
+trackingMode: git
 parentRepoUrl: 'https://github.com/pond3r/ggpo'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.phwitti.find-editor-tools
 displayName: FindEditorTools
 description: Find Editor Tools (Ctrl+T)
 repoUrl: 'https://github.com/phwitti/unity-find-editor-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

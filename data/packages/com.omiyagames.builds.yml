@@ -2,6 +2,7 @@ name: com.omiyagames.builds
 displayName: Omiya Games - Multiplatform Build Settings
 description: Tool for one-click multiplatform build operations.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-builds'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

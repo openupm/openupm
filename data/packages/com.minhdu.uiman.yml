@@ -2,6 +2,7 @@ name: com.minhdu.uiman
 displayName: UIMan
 description: Unity package repo for UIMan
 repoUrl: 'https://github.com/grashaar/uiman'
+trackingMode: git
 parentRepoUrl: 'https://github.com/minhdu/uiman'
 licenseSpdxId: MIT
 licenseName: MIT License

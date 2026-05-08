@@ -8,6 +8,7 @@ description: >-
   degrees of granularity and its BuildActions framework which allows additional
   operations to be added into the build process.
 repoUrl: 'https://github.com/superunitybuild/buildtool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

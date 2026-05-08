@@ -2,6 +2,7 @@ name: com.rhinox.open.socket.io
 displayName: Socket.IO
 description: SocketIO implementation for Unity.
 repoUrl: 'https://github.com/Rhinox-Training/unity-socket.io'
+trackingMode: git
 parentRepoUrl: 'https://github.com/fpanettieri/unity-socket.io-DEPRECATED'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: cn.danyow.unitask.cstringfixed
 displayName: UniTask CString Compatible
 description: Provides an efficient async/await integration to Unity. (This is a folk of Cysharp UniTask with several renames aiming to provide compatibility with CString.)
 repoUrl: 'https://github.com/danyow/UniTask'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Cysharp/UniTask'
 licenseSpdxId: MIT
 licenseName: MIT License

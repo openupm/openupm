@@ -2,6 +2,7 @@ name: com.dteruel.toolnity.autos
 displayName: Toolnity Autos
 description: Different automated-actions scripts.
 repoUrl: 'https://github.com/DTeruel/Toolnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

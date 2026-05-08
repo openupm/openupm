@@ -2,6 +2,7 @@ name: io.improbable.worker.sdk
 displayName: SpatialOS Worker SDK
 description: SpatialOS GDK for Unity
 repoUrl: 'https://github.com/spatialos/gdk-for-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

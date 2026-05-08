@@ -2,6 +2,7 @@ name: com.twinfaerie.odinextendedinspector
 displayName: TwinFaerie Odin-Extended-Inspector
 description: More Attribute for Odin Inspector
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-odinextendedinspector'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

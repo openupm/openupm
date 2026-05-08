@@ -2,6 +2,7 @@ name: com.gkngkc.usfb
 displayName: UniStandaloneFileBrowser
 description: A native file browser for unity standalone platforms
 repoUrl: 'https://github.com/adrenak/usfb'
+trackingMode: git
 parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.gwaredd.unium
 displayName: Unium
 description: Automation for Unity games
 repoUrl: 'https://github.com/gwaredd/unium'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

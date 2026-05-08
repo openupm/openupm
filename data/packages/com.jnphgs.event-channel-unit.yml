@@ -2,6 +2,7 @@ name: com.jnphgs.event-channel-unit
 displayName: Event Channel Unit
 description: EventUnit for Event Channel
 repoUrl: https://github.com/jnphgs/EventChannelUnit
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

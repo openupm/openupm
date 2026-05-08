@@ -5,6 +5,7 @@ description: |-
 
   www.espalestudios.com
 repoUrl: https://github.com/espale-studios/espale-unity-packages
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

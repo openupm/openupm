@@ -2,6 +2,7 @@ name: com.coffee.atlas-image
 displayName: ''
 description: ' AtlasImage is a graphic component use SpriteAtlas for uGUI. In addition, add useful sprite selector and border editor to the inspector.'
 repoUrl: 'https://github.com/mob-sakai/AtlasImage'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

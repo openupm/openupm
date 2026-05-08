@@ -1,0 +1,20 @@
+﻿name: com.tanhwan.metamong-protocol
+displayName: Metamong Protocol
+description: Web -> Unity Scene Protocol
+repoUrl: https://github.com/tanhwanYT/MetamongProtocolPackage-MPP-
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - debugging-and-logging
+  - network
+  - testing
+hunter: tanhwanYT
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1769178603958

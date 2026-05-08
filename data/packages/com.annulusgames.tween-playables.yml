@@ -2,6 +2,7 @@ name: com.annulusgames.tween-playables
 displayName: Tween Playables
 description: Tween Animation Library for Unity Timeline
 repoUrl: https://github.com/AnnulusGames/TweenPlayables
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

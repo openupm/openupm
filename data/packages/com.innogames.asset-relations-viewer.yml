@@ -2,6 +2,7 @@ name: com.innogames.asset-relations-viewer
 displayName: Asset Relations Viewer
 description: Editor UI for displaying dependencies between assets in a tree based view
 repoUrl: 'https://github.com/innogames/asset-relations-viewer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

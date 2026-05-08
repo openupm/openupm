@@ -5,6 +5,7 @@ description: >-
   later. That’s called “scheduling a call”. The Timers class helps you to do so
   with a clean and short syntax without having to worry about enumerators.
 repoUrl: 'https://github.com/jeffreylanters/unity-timers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

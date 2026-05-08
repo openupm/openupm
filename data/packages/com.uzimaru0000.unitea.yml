@@ -2,9 +2,10 @@ name: com.uzimaru0000.unitea
 displayName: UniTEA
 description: Implementation of The Elm Architecture for Unity3D
 repoUrl: 'https://github.com/uzimaru0000/UniTEA'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
   - utilities

@@ -4,6 +4,7 @@ description: >-
   Scripts that modify GameObjects and Components at Prefab/Scene import time,
   based on build configurations
 repoUrl: https://github.com/gilzoide/unity-conditional-objects
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

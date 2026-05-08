@@ -2,6 +2,7 @@ name: com.chickengames.uimanager
 displayName: UIManagerForMe
 description: This is an Test package
 repoUrl: 'https://github.com/JongSeonPark/Unity_UIManager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

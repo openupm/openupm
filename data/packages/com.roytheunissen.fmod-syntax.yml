@@ -2,6 +2,7 @@ name: com.roytheunissen.fmod-syntax
 displayName: FMOD Syntax
 description: Generates code to allow invoking FMOD events with a strongly-typed syntax.
 repoUrl: 'https://github.com/RoyTheunissen/FMOD-Syntax'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

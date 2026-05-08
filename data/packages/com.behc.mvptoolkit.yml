@@ -2,6 +2,7 @@ name: com.behc.mvptoolkit
 displayName: MvpToolkit
 description: Lean architecture for rapid UI/Game setup
 repoUrl: 'https://github.com/behcpl/Unity-MvpToolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

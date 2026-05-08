@@ -4,6 +4,7 @@ description: >-
   A Unity wrapper over Amazon Fling Android SDK to cast videos to FireTV
   devices.
 repoUrl: 'https://github.com/adrenak/AmazonFlingUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

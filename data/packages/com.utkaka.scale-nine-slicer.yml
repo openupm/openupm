@@ -2,6 +2,7 @@ name: com.utkaka.scale-nine-slicer
 displayName: Scale Nine Slicer
 description: A tool for automating work with 9 slice scaling in Unity.
 repoUrl: 'https://github.com/utkaka/ScaleNineSlicer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

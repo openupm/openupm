@@ -2,6 +2,7 @@ name: com.vertexcolor.validator
 displayName: Validator
 description: Unity project validator framework.
 repoUrl: 'https://github.com/maxartz15/Validator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

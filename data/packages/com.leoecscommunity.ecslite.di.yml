@@ -2,6 +2,7 @@ name: com.leoecscommunity.ecslite.di
 displayName: LeoECSCommunity Lite Dependency Injection
 description: Dependency injection for LeoECSCommunity Lite.
 repoUrl: 'https://github.com/LeoECSCommunity/ecslite-di'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

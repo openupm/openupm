@@ -4,6 +4,7 @@ description: >-
   Indicate points in world space with a collection of object based pointers for
   the Unity software
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Indicators.ObjectPointers.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

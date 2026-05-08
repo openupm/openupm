@@ -2,6 +2,7 @@ name: dev.upm-packages.extra-zenject
 displayName: Extra Zenject
 description: Extra Utilities for Zenject
 repoUrl: 'https://github.com/umm/extra_zenject'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

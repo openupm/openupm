@@ -2,6 +2,7 @@ name: com.coimbra.pooling
 displayName: Pool System
 description: Quick enable GameObject pooling in any Unity project.
 repoUrl: 'https://github.com/coimbrastudios/object-pool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.jeffcampbellmakesgames.utility
 displayName: JCMG Utility
 description: A utility library for Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/jcmg-utility'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

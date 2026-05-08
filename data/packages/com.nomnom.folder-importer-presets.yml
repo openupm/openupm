@@ -3,6 +3,7 @@ displayName: Folder Importer Presets
 description: |
   Provides the ability to apply custom import presets to a folder structure.
 repoUrl: 'https://github.com/nomnomab/Folder-Importer-Presets'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

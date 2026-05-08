@@ -6,6 +6,7 @@ description: >-
   management of transitive dependencies, and/or management of Unity Package
   Manager registries.
 repoUrl: 'https://github.com/googlesamples/unity-jar-resolver'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

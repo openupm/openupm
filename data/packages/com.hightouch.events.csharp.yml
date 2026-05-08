@@ -2,9 +2,10 @@ name: com.hightouch.events.csharp
 displayName: Hightouch Events for Unity
 description: Hightouch Events SDK for Unity
 repoUrl: https://github.com/ht-sdks/events-sdk-csharp
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LICENSE
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - debugging-and-logging

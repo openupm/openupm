@@ -2,6 +2,7 @@ name: com.ninito.minject
 displayName: MinJect
 description: 'A minimalistic, easy-to-understand dependency injection framework for Unity'
 repoUrl: 'https://github.com/ninito-ph/MinJect'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

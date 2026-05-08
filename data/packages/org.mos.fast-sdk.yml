@@ -1,0 +1,25 @@
+name: org.mos.fast-sdk
+displayName: FAST SDK
+description: >-
+  A software development kit for museum professionals to quickly develop
+  accessible digital tabletop interactives for educational purposes.
+repoUrl: https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/williamrjackson/williamrjackson.github.io/refs/heads/master/FAST_Banner.png
+topics:
+  - asset-management
+  - frameworks
+  - input-management
+  - integration
+  - localization
+  - utilities
+hunter: williamrjackson
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744354599841

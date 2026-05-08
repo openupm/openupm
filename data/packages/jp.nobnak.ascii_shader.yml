@@ -2,6 +2,7 @@ name: jp.nobnak.ascii_shader
 displayName: ASCII Shader
 description: ''
 repoUrl: https://github.com/nobnak/AsciiShader
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

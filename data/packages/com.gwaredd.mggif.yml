@@ -2,6 +2,7 @@ name: com.gwaredd.mggif
 displayName: mgGIF
 description: A unity library to parse GIF files and extract the images as textures
 repoUrl: 'https://github.com/gwaredd/mgGif'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

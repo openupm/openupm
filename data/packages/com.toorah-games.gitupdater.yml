@@ -2,6 +2,7 @@ name: com.toorah-games.gitupdater
 displayName: Git Updater
 description: ''
 repoUrl: 'https://github.com/Toorah/com.toorah-games.gitupdater'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: CC-BY-2.0
 licenseName: Creative Commons Attribution 2.0 Generic

@@ -2,6 +2,7 @@ name: com.eflatun.gridbuilding
 displayName: Eflatun.GridBuilding
 description: Grid building utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.GridBuilding'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.gsr.homo_addressable
 displayName: HomoAddressable
 description: an Addressable auto-release solution
 repoUrl: 'https://github.com/Giresharu/HomoAddressable'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

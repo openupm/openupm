@@ -2,6 +2,7 @@ name: com.frostbun.unit.fbinstant
 displayName: UniT Facebook Instant
 description: Facebook Instant Game SDK for Unity
 repoUrl: https://github.com/frostbun/UniT.FbInstant
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

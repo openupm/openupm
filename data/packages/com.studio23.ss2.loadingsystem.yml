@@ -5,6 +5,7 @@ description: >-
   screen between scene switches, create different type of hints to show between
   loading screen. 
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.loadingsystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

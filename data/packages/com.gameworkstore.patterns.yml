@@ -2,6 +2,7 @@ name: com.gameworkstore.patterns
 displayName: GameWorkstore Patterns
 description: Patterns Library for Unity Projects or C# projects
 repoUrl: 'https://github.com/GameWorkstore/patterns'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

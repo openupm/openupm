@@ -2,13 +2,14 @@ name: com.selvassets.objectpool
 displayName: SA - Object Pool
 description: Object pool implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ObjectPool
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: Open source
+licenseSpdxId: null
 image: ''
 topics:
-  - services
-  - utilities
+- services
+- utilities
 hunter: selvassets
 gitTagPrefix: ''
 gitTagIgnore: ''

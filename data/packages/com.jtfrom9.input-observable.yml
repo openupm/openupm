@@ -2,6 +2,7 @@ name: com.jtfrom9.input-observable
 displayName: Input Observable
 description: Input Handling Utility with UniRx
 repoUrl: 'https://github.com/jtfrom9/InputObservable'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

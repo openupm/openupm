@@ -2,6 +2,7 @@ name: com.canstudio.bullet-storm
 displayName: Bullet Storm
 description: Better particle system for 3d STG games.
 repoUrl: 'https://github.com/SUSTech-CANStudio/bullet-storm-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

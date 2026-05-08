@@ -4,6 +4,7 @@ description: >-
   Transport level library for peer-to-peer networking with multiple backends for
   the Unity.
 repoUrl: 'https://github.com/HouraiTeahouse/HouraiNetworking'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

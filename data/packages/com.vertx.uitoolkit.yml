@@ -2,6 +2,7 @@ name: com.vertx.uitoolkit
 displayName: UIToolkit Additions
 description: Improvements/additions made to UIToolkit fields.
 repoUrl: 'https://github.com/vertxxyz/Vertx.UIToolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

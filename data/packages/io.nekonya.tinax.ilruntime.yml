@@ -4,6 +4,7 @@ description: >-
   VFS.ILRuntime provides C# hotfix capability based on ILRuntime for Unity
   development framework TinaX
 repoUrl: 'https://github.com/yomunsam/TinaX.ILRuntime'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

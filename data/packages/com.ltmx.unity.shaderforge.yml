@@ -2,6 +2,7 @@ name: com.ltmx.unity.shaderforge
 displayName: Shader Forge
 description: The ultimate visual node-based shader editor for Unity
 repoUrl: https://github.com/ltmx/ShaderForge
+trackingMode: git
 parentRepoUrl: https://github.com/CuteWaterBeary/ShaderForge
 licenseSpdxId: MIT
 licenseName: MIT License

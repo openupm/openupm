@@ -5,6 +5,7 @@ description: >-
   editor extension inspired by Twine, like Fungus and Yarn. Diplomata manage
   optionally other contents of a game like characters, inventory and quests.
 repoUrl: 'https://github.com/brunurd/diplomata-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

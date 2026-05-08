@@ -5,6 +5,7 @@ description: >-
   Database. This repository include iBoxDBContext for performing iBoxDB database
   easily.
 repoUrl: 'https://github.com/iDreamsOfGame/ReSharp.Data.iBoxDB'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

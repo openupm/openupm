@@ -3,6 +3,7 @@ displayName: Dialogue System
 description: >-
   A Dialogue system that supportss dialogue trees, branching dialogue, events, localization and FMOD events.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.dialoguesystem
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

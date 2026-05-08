@@ -5,6 +5,7 @@ description: >-
   control object properties based on sequence data contained in a standard MIDI
   file.
 repoUrl: 'https://github.com/goma-recorder/PlayableMidi'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

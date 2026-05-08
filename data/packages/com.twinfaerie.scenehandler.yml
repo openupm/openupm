@@ -2,6 +2,7 @@ name: com.twinfaerie.scenehandler
 displayName: TwinFaerie Scene-Handler
 description: For standarize scene change behaviour using login scene as overlay
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-scenehandler'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   TaskFactory Unity objects plus a collection of TaskSchedulers with optional
   limited concurrency
 repoUrl: 'https://github.com/gilzoide/TaskFactoryObject'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

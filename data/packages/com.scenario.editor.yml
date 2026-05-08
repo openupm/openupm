@@ -4,6 +4,7 @@ description: >-
   The Scenario Unity Plugin allows you to live the Scenario experience directly
   into Unity
 repoUrl: https://github.com/scenario-labs/Scenario-Unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

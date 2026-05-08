@@ -2,6 +2,7 @@ name: com.maligan.unity-zed
 displayName: Zed
 description: Zed editor integration for Unity
 repoUrl: https://github.com/Maligan/unity-zed
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.shaunfong.datatableeditor
 displayName: DataTableEditor
 description: A DataTable Editor
 repoUrl: 'https://github.com/Shaun-Fong/DataTableEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

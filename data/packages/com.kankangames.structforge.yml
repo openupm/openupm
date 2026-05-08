@@ -1,0 +1,23 @@
+name: com.kankangames.structforge
+displayName: StructForge
+description: >-
+  High-performance, Zero-Allocation, Unsafe data structures for Unity. Includes
+  EnumSet, BitArray3D, Grid and more.
+repoUrl: https://github.com/FurkanKirat/StructForge
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/FurkanKirat/StructForge/main/Icons/cover.png
+topics:
+  - data-management
+  - parallelism-and-concurrency
+  - mobile
+  - profiling
+  - utilities
+hunter: FurkanKirat
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.4.3'
+readme: main:README.md
+createdAt: 1764958753925

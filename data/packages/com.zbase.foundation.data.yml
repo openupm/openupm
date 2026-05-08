@@ -4,6 +4,7 @@ description: >-
   A tool to export ScriptableObject database from either Google Spreadsheet,
   CSV, or JSON by utilising cathei/BakingSheet and C# Source Genetor.
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.Data'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

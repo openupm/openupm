@@ -2,6 +2,7 @@ name: com.quabug.parallel-prefix-sum.cpu
 displayName: Parallel Prefix Sum (DOTS)
 description: Parallel Prefix Sum (DOTS)
 repoUrl: 'https://github.com/quabug/parallel-prefix-sum'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Provides a basic implementation for requesting app reviews for mobile apps on
   the Apple AppStore and Google PlayStore.
 repoUrl: 'https://github.com/jeffreylanters/unity-request-review'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

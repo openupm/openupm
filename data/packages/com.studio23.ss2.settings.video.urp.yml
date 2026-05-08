@@ -4,6 +4,7 @@ description: >-
   This is an video setting for URP. Used for in-game display and graphics
   settings.
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.settings.video.urp
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

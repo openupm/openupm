@@ -2,6 +2,7 @@ name: com.facticus.ucharts
 displayName: UCharts
 description: Small library for plotting data in Unity
 repoUrl: 'https://github.com/mnicolas94/UCharts'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

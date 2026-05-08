@@ -2,6 +2,7 @@ name: com.sturfee.digital-twin.cms
 displayName: Sturfee Digital Twin CMS
 description: CMS SDK to load contents for Digital Twin Spaces
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.digital-twin.cms'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

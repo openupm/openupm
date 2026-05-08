@@ -2,6 +2,7 @@ name: com.dbrizov.naughtyattributes
 displayName: NaughtyAttributes
 description: Attribute Extensions for Unity
 repoUrl: 'https://github.com/dbrizov/NaughtyAttributes'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -10,6 +11,6 @@ topics:
 hunter: favoyang
 createdAt: 1576336399000
 image: >-
-  https://raw.githubusercontent.com/dbrizov/NaughtyAttributes/4ea46ce34ae5222bba03def2033326a5b53d47c5/Assets/NaughtyAttributes/Documentation~/ReorderableList_Inspector.gif
+  https://raw.githubusercontent.com/dbrizov/NaughtyAttributes/refs/heads/master/Assets/NaughtyAttributes/Documentation%7E/NaughtyAttributes_Cover_420x280.png
 displayName_zhCN: NaughtyAttributes
 description_zhCN: Unity的属性扩展

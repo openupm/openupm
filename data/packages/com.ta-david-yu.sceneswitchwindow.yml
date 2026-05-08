@@ -2,6 +2,7 @@ name: com.ta-david-yu.sceneswitchwindow
 displayName: DY.SceneSwitchWindow
 description: Scene switching window for Unity Editor
 repoUrl: 'https://github.com/ta-david-yu/Unity-SceneSwitchWindow'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   A fast, light messaging system that can decouple behaviours and keep them
   cohesive
 repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/Unity-Message-Hub'
+trackingMode: git
 parentRepoUrl: 'https://github.com/guerrillacontra/Unity-Message-Hub'
 licenseSpdxId: MIT
 licenseName: MIT License

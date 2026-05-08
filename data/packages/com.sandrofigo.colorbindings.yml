@@ -4,6 +4,7 @@ description: >-
   A Unity extension to store colors that are then automatically applied to UI
   components
 repoUrl: 'https://github.com/sandrofigo/Color-Bindings-Unity3D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

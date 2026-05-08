@@ -2,6 +2,7 @@ name: jp.keijiro.klak.spout
 displayName: KlakSpout
 description: Cross-process texture sharing plugin (Spout protocol)
 repoUrl: 'https://github.com/keijiro/KlakSpout'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -2,12 +2,13 @@ name: com.reown.core.crypto
 displayName: Reown.Core.Crypto
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: Apache-2.0
-licenseName: Apache License 2.0
+licenseSpdxId: null
+licenseName: WalletConnect Community License Agreement
 image: ''
 topics:
-  - frameworks
+- frameworks
 hunter: skibitsky
 gitTagPrefix: com.reown.core.crypto/
 gitTagIgnore: ''

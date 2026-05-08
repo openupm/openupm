@@ -2,6 +2,7 @@ name: com.rhinox.open.guiutils
 displayName: GUIUtils - Editor Graphical UI Extensions
 description: GUI Utils for Unity projects, mostly Editor extensions. (Optional Odin extensions)
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-guiutils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

@@ -6,6 +6,7 @@ description: >-
   browser and a server. It uses a completely different protocol that allows
   bidirectional data flow, making it unique against HTTP.
 repoUrl: 'https://github.com/jeffreylanters/unity-web-sockets'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

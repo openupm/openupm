@@ -4,6 +4,7 @@ description: >-
   Create a script folders (Editor, Runtime, and each Tests) containing assembly
   definition file (.asmdef).
 repoUrl: 'https://github.com/nowsprinting/create-script-folders-with-tests'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

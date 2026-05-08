@@ -2,6 +2,7 @@ name: com.greenbamboogames.assetchecker
 displayName: Asset Checker!
 description: Easy to use and extensible asset checking tool.
 repoUrl: https://github.com/SolarianZ/UnityAssetChecker
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

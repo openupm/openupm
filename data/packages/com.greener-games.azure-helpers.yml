@@ -2,6 +2,7 @@ name: com.greener-games.azure-helpers
 displayName: Azure Helpers
 description: Azure Cloud Services
 repoUrl: 'https://github.com/Greener-Games/Unity_Azure'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

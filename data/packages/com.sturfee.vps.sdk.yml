@@ -21,9 +21,10 @@ description: >-
 
   NOTE: this SDK requires an Access Key for use.
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.sdk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - ar-and-vr
 hunter: kushG

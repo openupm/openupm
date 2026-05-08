@@ -5,6 +5,7 @@ description: >-
   to Androids Constraint layout and other useful utilities. This can be used in 
   GUI and EditorGUI code.
 repoUrl: 'https://github.com/ComradeVanti/UnityRectConstraints'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

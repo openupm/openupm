@@ -2,6 +2,7 @@ name: io.extendreality.tilia.developertools.unity
 displayName: Tilia DeveloperTools Unity
 description: A collection of useful developer tools for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.DeveloperTools.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

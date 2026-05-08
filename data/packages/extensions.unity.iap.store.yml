@@ -2,6 +2,7 @@ name: extensions.unity.iap.store
 displayName: IAP Store
 description: Unity IAP (4.1.2) wrapper for simple usage
 repoUrl: 'https://github.com/IvanMurzak/Unity-IAP-Store'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

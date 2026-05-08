@@ -2,6 +2,7 @@ name: com.cysharp.runtimeunittesttoolkit
 displayName: RuntimeUnitTestToolkit
 description: CLI/GUI Frontend of Unity Test Runner to test on any platform.
 repoUrl: 'https://github.com/Cysharp/RuntimeUnitTestToolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -1,0 +1,20 @@
+name: com.nowsprinting.test-helper.ui
+displayName: UI Test Helper
+description: A library for object-based monkey and UI testing.
+repoUrl: 'https://github.com/nowsprinting/test-helper.ui'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: nowsprinting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 'v1.0.0'
+image: ''
+readme: 'master:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1675209806981

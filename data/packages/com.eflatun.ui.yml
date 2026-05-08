@@ -2,6 +2,7 @@ name: com.eflatun.ui
 displayName: Eflatun.UI
 description: UI utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.UI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.frostware.pipe
 displayName: Frostware.Pipe
 description: A lightweight piping library for C#
 repoUrl: 'https://github.com/FrostbiteDragon/Frostware.Pipe'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

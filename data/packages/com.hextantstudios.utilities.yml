@@ -2,6 +2,7 @@ name: com.hextantstudios.utilities
 displayName: Hextant Utilities
 description: This packages includes helpful runtime and editor additions to Unity.
 repoUrl: 'https://github.com/hextantstudios/com.hextantstudios.utilities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'CC-BY-4.0'
 licenseName: Creative Commons Attribution 4.0 International

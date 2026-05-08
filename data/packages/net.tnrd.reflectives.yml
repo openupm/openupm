@@ -2,6 +2,7 @@ name: net.tnrd.reflectives
 displayName: Reflectives
 description: A set of utility classes to make it easier to access hidden functionality
 repoUrl: 'https://github.com/Thundernerd/Unity3D-Reflectives'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

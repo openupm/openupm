@@ -2,6 +2,7 @@ name: com.doji.mobilesam
 displayName: MobileSAM
 description: Fast Segmentation with Unity Sentis using MobileSAM
 repoUrl: https://github.com/julienkay/com.doji.mobilesam
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

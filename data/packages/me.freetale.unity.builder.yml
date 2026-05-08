@@ -2,6 +2,7 @@ name: me.freetale.unity.builder
 displayName: ''
 description: helper for automation build outside unity ecosystem
 repoUrl: 'https://github.com/freetale/me.freetale.unity.builder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

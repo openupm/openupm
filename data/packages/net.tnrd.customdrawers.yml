@@ -4,6 +4,7 @@ description: >-
   Custom drawers that can be used with regular objects/types instead of
   SerializedObjects
 repoUrl: 'https://github.com/Thundernerd/Unity3D-CustomDrawers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

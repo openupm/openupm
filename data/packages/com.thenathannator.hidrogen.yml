@@ -5,6 +5,7 @@ description: >-
   backends, including proper HID support on Linux, and raw Xbox One controller
   support via GameInput on Windows.
 repoUrl: https://github.com/TheNathannator/HIDrogen
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

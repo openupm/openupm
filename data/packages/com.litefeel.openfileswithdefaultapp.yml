@@ -2,6 +2,7 @@ name: com.litefeel.openfileswithdefaultapp
 displayName: OpenFilesWithDefaultApp
 description: An Unity asset plugin to open file with system default Application.
 repoUrl: 'https://github.com/litefeel/OpenFilesWithDefaultApp'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

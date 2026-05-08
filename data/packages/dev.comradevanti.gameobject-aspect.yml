@@ -2,6 +2,7 @@ name: dev.comradevanti.gameobject-aspect
 displayName: GameObject Aspect
 description: Aspect-oriented programming for Unity GameObject
 repoUrl: 'https://github.com/ComradeVanti/UnityGameObjectAspect'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

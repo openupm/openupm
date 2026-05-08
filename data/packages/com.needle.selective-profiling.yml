@@ -2,6 +2,7 @@ name: com.needle.selective-profiling
 displayName: Selective Profiling
 description: Deep profile single methods
 repoUrl: 'https://github.com/needle-tools/selective-profiling'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   This plugin provides custom type registering method with script and compares
   the difference with other serialization methods.
 repoUrl: 'https://github.com/MS-LIMA/PhotonSerializer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

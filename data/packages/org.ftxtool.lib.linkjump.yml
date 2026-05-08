@@ -2,6 +2,7 @@ name: org.ftxtool.lib.linkjump
 displayName: Link Jump
 description: Try open a url with other app.
 repoUrl: 'https://github.com/XiaochenFTX/LinkJump'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

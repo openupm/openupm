@@ -2,6 +2,7 @@ name: com.cronyx.console
 displayName: Developer Console
 description: A lightweight and extendable in-game developer console
 repoUrl: 'https://github.com/cronyxllc/DeveloperConsole'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

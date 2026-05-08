@@ -2,6 +2,7 @@ name: com.kitbashery.tween-components
 displayName: Tween Components
 description: A component based interpolation system.
 repoUrl: 'https://github.com/Kitbashery/Tween-Components'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

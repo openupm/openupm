@@ -2,6 +2,7 @@ name: com.d4160.gameframework
 displayName: Unity Game Framework
 description: Game Framework to manage all common stuff of your game.
 repoUrl: 'https://github.com/d4160/Unity-GameFramework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

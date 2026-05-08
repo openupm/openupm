@@ -1,0 +1,17 @@
+name: jp.andantetribe.vcontainerplus
+displayName: VContainer Plus
+description: Additional utilities and extensions for VContainer.
+repoUrl: https://github.com/AndanteTribe/VContainerPlus
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772890327489

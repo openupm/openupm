@@ -1,0 +1,17 @@
+name: com.fullmetalbagel.overlook-analyzer
+displayName: Overlook Roslyn Analyzer
+description: ''
+repoUrl: https://github.com/Full-Metal-Bagel/overlook-game-framework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: quabug
+gitTagPrefix: overlook-analyzer/v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1748845083838

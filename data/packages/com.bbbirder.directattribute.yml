@@ -4,6 +4,7 @@ description: >-
   Retrieve Attribute directly on runtime, meanwhile, retrieve target Type or
   MemberInfo directly via a Attribute
 repoUrl: 'https://github.com/labbbirder/DirectRetrieveAttribute'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

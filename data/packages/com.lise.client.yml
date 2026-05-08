@@ -2,6 +2,7 @@ name: com.lise.client
 displayName: LiSe Unity Client
 description: Unity Client for LiSe license management
 repoUrl: 'https://github.com/LiSe-Team/LiSe-Unity-Client'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

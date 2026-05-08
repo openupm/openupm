@@ -2,6 +2,7 @@ name: com.kwnetzwelt.ubs
 displayName: Unity Build System
 description: Provides tooling to automate build processes inside the editor.
 repoUrl: 'https://github.com/kwnetzwelt/unity-build-system'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

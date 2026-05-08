@@ -2,6 +2,7 @@ name: com.zbase.foundation.aliasing
 displayName: ZBase.Foundation.Aliasing
 description: C# source generator to create alias types
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.Aliasing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

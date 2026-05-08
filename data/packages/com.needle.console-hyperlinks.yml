@@ -2,6 +2,7 @@ name: com.needle.console-hyperlinks
 displayName: Console Hyperlinks
 description: Add support for custom console hyperlinks
 repoUrl: 'https://github.com/needle-tools/console-hyperlinks'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

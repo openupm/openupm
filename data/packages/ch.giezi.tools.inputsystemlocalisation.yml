@@ -4,6 +4,7 @@ description: >-
   Localisation for Unity Input keys retrieved when calling
   `InputControlPath.ToHumanReadableString`.
 repoUrl: 'https://github.com/GieziJo/UnityInputSystemLocalisation'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

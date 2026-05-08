@@ -2,6 +2,7 @@ name: com.gigacee.tweetfromunitywebgl
 displayName: Tweet from Unity WebGL
 description: Mobile-ready script for tweeting from Unity WebGL.
 repoUrl: 'https://github.com/gigacee/tweet-from-unity-webgl'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

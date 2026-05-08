@@ -5,9 +5,10 @@ description: >-
   native memory segments and sequences of such segments, along with primitives
   to parse and format UTF-8 encoded text stored in those memory segments.
 repoUrl: 'https://github.com/system-community/SystemMemory'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: favoyang

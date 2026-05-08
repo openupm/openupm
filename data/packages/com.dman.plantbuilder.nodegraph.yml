@@ -2,6 +2,7 @@ name: com.dman.plantbuilder.nodegraph
 displayName: Nodegraph plant creator
 description: Nodegraph tools for the plantbuilder package
 repoUrl: 'https://github.com/dsmiller95/plantbuilder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

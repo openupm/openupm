@@ -2,6 +2,7 @@ name: com.someone-s.web-mic-adapter
 displayName: Web Microphone Adapter
 description: Package to mimick Microphone Class for WebGL
 repoUrl: 'https://github.com/someone-s/web-mic-adapter'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

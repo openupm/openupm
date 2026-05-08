@@ -6,6 +6,7 @@ description: >-
   manage dependancies between systems/components. Make sure to be familiar with
   concept of scriptable objects, because they are the core of this package.
 repoUrl: 'https://github.com/GhooTS/GTScriptableVariable'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

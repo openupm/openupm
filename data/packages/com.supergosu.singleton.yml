@@ -2,6 +2,7 @@ name: com.supergosu.singleton
 displayName: Gosu Singleton
 description: Gosu Singleton
 repoUrl: https://github.com/SuperGosu/Singleton
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

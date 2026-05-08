@@ -2,9 +2,10 @@ name: com.middlemast.core
 displayName: MiddleMast Core
 description: ''
 repoUrl: 'https://github.com/GiovanniZambiasi/middlemast-core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
   - utilities

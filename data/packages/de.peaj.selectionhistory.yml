@@ -4,6 +4,7 @@ description: >-
   Keeps track of previously selected objects and allows selecting previous/next
   objects
 repoUrl: 'https://github.com/Peaj/Unitility'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

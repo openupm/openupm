@@ -2,6 +2,7 @@ name: org.samsarette.ballpoint-unity
 displayName: Ballpoint for Ink
 description: Tools for using Inkle's Ink on Unity
 repoUrl: 'https://github.com/lunarcloud/ballpoint-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

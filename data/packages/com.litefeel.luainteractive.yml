@@ -4,6 +4,7 @@ description: >-
   Lua Interactive is just perfect Unity editor plugin to excute lua on play
   mode.
 repoUrl: 'https://github.com/litefeel/Unity-LuaInteractive'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

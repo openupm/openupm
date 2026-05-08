@@ -2,6 +2,7 @@ name: com.aio.timer
 displayName: AIO Unity Timer
 description: unity3d timer system
 repoUrl: https://github.com/AIO-GAME/Unity.Timer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

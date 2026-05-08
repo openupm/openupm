@@ -2,6 +2,7 @@ name: com.quabug.entities-bt.samples
 displayName: EntitiesBT - Samples
 description: Behavior Tree for Unity Entities - Samples
 repoUrl: 'https://github.com/quabug/EntitiesBT'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

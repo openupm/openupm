@@ -2,6 +2,7 @@ name: org.kumas.simple-kvs
 displayName: Simple KVS
 description: Simple Key Value Store for Unity.
 repoUrl: 'https://github.com/kumaS-nu/Simple-KVS'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

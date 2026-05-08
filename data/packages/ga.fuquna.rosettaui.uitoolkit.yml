@@ -2,6 +2,7 @@ name: ga.fuquna.rosettaui.uitoolkit
 displayName: RosettaUI - UI Toolkit
 description: RosettaUI UI Toolkit bridge
 repoUrl: 'https://github.com/fuqunaga/RosettaUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

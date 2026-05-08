@@ -2,6 +2,7 @@ name: com.kagekirin.unitygcprefresh
 displayName: GCPRefresh
 description: Unity Editor extension to refresh the GCP auth token in .upmconfig.toml
 repoUrl: https://github.com/KageKirin/UnityGCPRefresh
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

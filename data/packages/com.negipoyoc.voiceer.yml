@@ -2,6 +2,7 @@ name: com.negipoyoc.voiceer
 displayName: Voiceer
 description: A package to connect audio clips to Unity editor events.
 repoUrl: 'https://github.com/3ternal/Voiceer'
+trackingMode: git
 parentRepoUrl: 'https://github.com/negipoyoc/Voiceer'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.chunkycat.qunity
 displayName: Qunity
 description: Quake (Trenchbroom) map tools
 repoUrl: https://github.com/chunky-cat/Qunity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

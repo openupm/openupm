@@ -2,6 +2,7 @@ name: com.adamcarballo.multipool
 displayName: MultiPool
 description: "\U0001F5C4 MultiPool - Expandable Object Pooling for Unity"
 repoUrl: 'https://github.com/AdamCarballo/Unity-MultiPool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

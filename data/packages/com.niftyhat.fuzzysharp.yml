@@ -2,6 +2,7 @@ name: com.niftyhat.fuzzysharp
 displayName: FuzzySharp Unity
 description: Fork of FuzzySharp by JakeBayer for publishing as a Unity Package
 repoUrl: 'https://github.com/NiftyHat/FuzzySharpUnity'
+trackingMode: git
 parentRepoUrl: 'https://github.com/JakeBayer/FuzzySharp'
 licenseSpdxId: MIT
 licenseName: MIT License

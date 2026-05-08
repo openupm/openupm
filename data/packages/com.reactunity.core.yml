@@ -2,6 +2,7 @@ name: com.reactunity.core
 displayName: React Unity
 description: React and HTML framework for Unity UI & UIToolkit
 repoUrl: 'https://github.com/ReactUnity/core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

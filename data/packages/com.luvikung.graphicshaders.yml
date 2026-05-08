@@ -5,6 +5,7 @@ description: >-
   shaders, add new shaders, remove shaders, sorting shaders, remove null
   reference or duplicate shaders.
 repoUrl: 'https://github.com/LuviKunG/GraphicShaders'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

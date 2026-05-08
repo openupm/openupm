@@ -6,6 +6,7 @@ description: >-
 
   https://github.com/starikcetin/Eflatun.SceneReference
 repoUrl: 'https://github.com/starikcetin/Eflatun.SceneReference'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

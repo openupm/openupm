@@ -4,6 +4,7 @@ description: >-
   Quick Outline is a world-space outline tool, that adds a solid outline to any
   object.
 repoUrl: https://github.com/SGoerzen/QuickOutline
+trackingMode: git
 parentRepoUrl: https://github.com/chrisnolet/QuickOutline
 licenseSpdxId: MIT
 licenseName: MIT License

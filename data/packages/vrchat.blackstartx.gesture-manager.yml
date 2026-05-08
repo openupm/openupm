@@ -4,6 +4,7 @@ description: >-
   A tool that will help you preview your VRChat Avatar animation directly in
   Unity.
 repoUrl: 'https://github.com/BlackStartx/VRC-Gesture-Manager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.virtualcast.univci
 displayName: VCI
 description: VCI Exporter
 repoUrl: 'https://github.com/virtual-cast/VCI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

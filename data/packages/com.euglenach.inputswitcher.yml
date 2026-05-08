@@ -2,6 +2,7 @@ name: com.euglenach.inputswitcher
 displayName: InputSwitcher
 description: A library that makes input branching safe and easy based on Rx.
 repoUrl: 'https://github.com/euglenach/InputSwitcher'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

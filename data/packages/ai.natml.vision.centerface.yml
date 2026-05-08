@@ -2,6 +2,7 @@ name: ai.natml.vision.centerface
 displayName: CenterFace
 description: CenterFace anchor-free face detection in Unity Engine.
 repoUrl: https://github.com/natmlx/centerface-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

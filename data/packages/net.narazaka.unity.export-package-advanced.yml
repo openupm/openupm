@@ -1,0 +1,19 @@
+name: net.narazaka.unity.export-package-advanced
+displayName: Export Package (Advanced)
+description: Advanced "Export Package" (without Scripts etc.)
+repoUrl: https://github.com/Narazaka/ExportPackageAdvanced
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1743958502619

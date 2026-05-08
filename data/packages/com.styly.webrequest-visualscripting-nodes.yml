@@ -2,6 +2,7 @@ name: com.styly.webrequest-visualscripting-nodes
 displayName: WebRequest Visual Scripting
 description: Unity Visual Scripting Node for WebRequest
 repoUrl: https://github.com/styly-dev/WebRequest_VisualScriptingNodes
+trackingMode: git
 parentRepoUrl: https://github.com/adrenak/http
 licenseSpdxId: MIT
 licenseName: MIT License

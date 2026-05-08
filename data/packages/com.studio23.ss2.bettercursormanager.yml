@@ -6,6 +6,7 @@ description: >-
   inventories, making it easy to handle items, equipment, and resources,
   allowing you to focus on crafting the ultimate gaming experience.
 repoUrl: 'https://github.com/Studio-23-xyz/Better-Cursor-Manager'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

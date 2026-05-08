@@ -2,6 +2,7 @@ name: fr.sticmac.observablemodels
 displayName: Observable Models
 description: Creating variable as observable scriptable object models
 repoUrl: 'https://github.com/sticmac/unity-observable-models'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

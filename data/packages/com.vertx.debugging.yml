@@ -2,6 +2,7 @@ name: com.vertx.debugging
 displayName: Debugging
 description: Debugging Utilities for Unity.
 repoUrl: 'https://github.com/vertxxyz/Vertx.Debugging'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

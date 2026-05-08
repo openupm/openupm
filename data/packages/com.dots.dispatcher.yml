@@ -2,6 +2,7 @@ name: com.dots.dispatcher
 displayName: DOTS Dispatcher
 description: DOTS Entity as Event Dispatcher.
 repoUrl: 'https://github.com/gabrjt/com.dots.dispatcher'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: WTFPL
 licenseName: Do What The F*ck You Want To Public License

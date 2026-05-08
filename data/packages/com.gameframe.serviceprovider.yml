@@ -2,6 +2,7 @@ name: com.gameframe.serviceprovider
 displayName: Gameframe.ServiceProvider
 description: Simplified service provider implementation minus the fancy stuff
 repoUrl: 'https://github.com/coryleach/UnityServiceProvider'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

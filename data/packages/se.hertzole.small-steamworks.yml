@@ -6,6 +6,7 @@ description: >-
   system and a async layer for the API. It also includes a few helper method to
   make it easier to use.
 repoUrl: 'https://github.com/Hertzole/small-steamworks'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

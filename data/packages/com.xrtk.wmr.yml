@@ -2,6 +2,7 @@ name: com.xrtk.wmr
 displayName: XRTK.WindowsMixedReality
 description: The Windows Mixed Reality platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/WindowsMixedReality'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

@@ -5,6 +5,7 @@ description: >-
   and to save detailed reports of these errors to a remote redis database.
   (Suitable for beta testing and demo)
 repoUrl: https://github.com/nskrkmz/CrashReporter
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

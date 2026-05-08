@@ -2,6 +2,7 @@ name: com.originbyte.suiunitysdk
 displayName: SuiUnitySDK
 description: Connecting Unity game developers to Sui and Origin Byte's NFT ecosystem.
 repoUrl: 'https://github.com/Origin-Byte/sui-unity-sdk'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

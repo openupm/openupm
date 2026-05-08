@@ -2,6 +2,7 @@ name: com.abyte.ukit
 displayName: UKit
 description: "Unityå·¥å\N·é\x9B\x86"
 repoUrl: 'https://github.com/AByte-L/UKit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

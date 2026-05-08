@@ -2,6 +2,7 @@ name: com.potatointeractive.serializer
 displayName: PotatoSerializer
 description: A JSON Serializer/Deserializer for Unity/C#
 repoUrl: 'https://github.com/tlauterbach/potato-serializer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

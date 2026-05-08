@@ -2,6 +2,7 @@ name: com.tityx.utilities
 displayName: Utilities
 description: Some utilities functions for faster development
 repoUrl: https://github.com/Tityxx/Utilities
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   in a “tree view” and including extra informations like Components Icons and
   groups/divisors.
 repoUrl: 'https://github.com/febucci/unitypackage-custom-hierarchy'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

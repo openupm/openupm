@@ -2,6 +2,7 @@ name: dev.upm-packages.singleton-audiolistener
 displayName: Singleton AudioListener
 description: Provide automatic installation AudioListener as Singleton
 repoUrl: 'https://github.com/umm/singleton_audiolistener'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

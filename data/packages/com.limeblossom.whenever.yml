@@ -2,13 +2,14 @@ name: com.limeblossom.whenever
 displayName: Whenever
 description: Whenever X do Y. A system for building synergistic interactions.
 repoUrl: https://github.com/LimeBlossom/Whenever
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - ai
-  - utilities
+- ai
+- utilities
 hunter: dsmiller95
 gitTagPrefix: ''
 gitTagIgnore: ''

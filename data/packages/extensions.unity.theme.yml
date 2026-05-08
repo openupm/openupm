@@ -4,6 +4,7 @@ description: >-
   Create palettes of colors and components for change specific color on a
   specific visual element. Very useful to UI.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Theme'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

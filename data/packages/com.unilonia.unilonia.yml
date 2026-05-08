@@ -2,6 +2,7 @@ name: com.unilonia.unilonia
 displayName: Unilonia
 description: Unity plugin which allows running Avalonia on Unity
 repoUrl: 'https://github.com/TheKeyblader/Unilonia'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

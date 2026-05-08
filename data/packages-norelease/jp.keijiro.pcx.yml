@@ -1,18 +1,17 @@
 name: jp.keijiro.pcx
 displayName: PCX
-description: Point cloud importer & renderer for Unity
-repoUrl: 'https://github.com/keijiro/Pcx'
+description: Point cloud importer & renderer
+repoUrl: https://github.com/keijiro/Pcx
 parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: >-
+  https://camo.githubusercontent.com/1656c6fa58222bfd6deb845954fce7e5494cdbe8e3c593ad6cf798941845ea66/68747470733a2f2f692e696d6775722e636f6d2f7a6336503936782e676966
 topics:
-  - asset-management
-  - modeling
-hunter: JesseTG
+  - particles-and-effects
+hunter: ltmx
 gitTagPrefix: ''
 gitTagIgnore: ''
-image: null
-readme: 'master:README.md'
-createdAt: 1588904564889
-displayName_zhCN: PCX
-description_zhCN: 点云导入器和Unity渲染器
+minVersion: ''
+readme: master:README.md
+createdAt: 1708697061579

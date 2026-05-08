@@ -2,6 +2,7 @@ name: com.unityfx.outline.hdrp
 displayName: Screen-space outline (HDRP)
 description: Screen-space outlines for Unity3d.
 repoUrl: 'https://github.com/Arvtesh/UnityFx.Outline'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

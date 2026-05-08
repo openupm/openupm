@@ -4,6 +4,7 @@ description: >-
   A Unity plugin to natively share files (images, videos, documents, etc.)
   and/or plain text on Android & iOS
 repoUrl: 'https://github.com/yasirkula/UnityNativeShare'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.doji.diffusers
 displayName: Diffusers
 description: Run diffusion models for image generation with Unity Sentis
 repoUrl: https://github.com/julienkay/com.doji.diffusers
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

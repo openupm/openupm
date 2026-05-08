@@ -4,6 +4,7 @@ description: >-
   Unity.Mathematics.Random number generators for jobs, including Burst-capable
   ones.
 repoUrl: 'https://github.com/reeseschultz/ReeseUnityDemos'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

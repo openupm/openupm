@@ -2,6 +2,7 @@ name: com.adrenak.tork
 displayName: Tork
 description: Arcade vehicle physics for Unity
 repoUrl: 'https://github.com/adrenak/tork'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

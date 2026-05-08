@@ -1,4 +1,5 @@
 repoUrl: 'https://github.com/BastianBlokland/enum-generator-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

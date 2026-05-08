@@ -2,6 +2,7 @@ name: com.littlebigfun.action-sender
 displayName: Unity Action Sender
 description: A type-safe replacement to SendMessage.
 repoUrl: 'https://github.com/favoyang/unity-action-sender'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

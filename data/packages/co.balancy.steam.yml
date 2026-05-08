@@ -1,0 +1,18 @@
+name: co.balancy.steam
+displayName: Balancy Steam
+description: Steam platform integration for Balancy.
+repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_steam
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+hunter: suvitruf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778249146094

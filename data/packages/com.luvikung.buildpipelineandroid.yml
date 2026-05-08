@@ -4,6 +4,7 @@ description: >-
   Build Pipeline for Android is a build tools for Unity Editor that easier to
   use.
 repoUrl: 'https://github.com/LuviKunG/BuildPipelineAndroid'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

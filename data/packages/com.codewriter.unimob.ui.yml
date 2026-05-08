@@ -2,6 +2,7 @@ name: com.codewriter.unimob.ui
 displayName: UniMob.UI
 description: A declarative library for building reactive user interfaces
 repoUrl: 'https://github.com/codewriter-packages/UniMob.UI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

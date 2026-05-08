@@ -1,0 +1,20 @@
+name: ch.fcbg.mri-tracking
+displayName: MRI Tracking
+description: >-
+  MRI tracking system base package with menu, initialization scripts, and fMRI
+  entry animation support.
+repoUrl: https://github.com/fcbg-platforms/2026-int-mri-tracking
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - camera
+  - utilities
+hunter: maellacour
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Unity_MRITracking/Packages/ch.fcbg.mri-tracking/README.md
+createdAt: 1771944814956

@@ -2,6 +2,7 @@ name: com.laurenth.lightingtools-sunlight
 displayName: Lighting Tools Sunlight
 description: Sunlight entity for unity and HD Render Pipeline
 repoUrl: 'https://github.com/laurenth-personal/LightingTools.Sunlight'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Gameplay Ingredients for your Unity Games - A collection of runtime and editor
   scripts that ease simple tasks while making games and prototypes.
 repoUrl: 'https://github.com/peeweek/net.peeweek.gameplay-ingredients'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

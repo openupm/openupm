@@ -4,6 +4,7 @@ description: >-
   The extra fast, minimum code size, GC-free DI (Dependency Inject) library
   running on Unity (IL2CPP).
 repoUrl: 'https://github.com/hadashiA/VContainer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

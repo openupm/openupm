@@ -4,6 +4,7 @@ description: >-
   Contains utilities for defining a curve or gradient in the inspector and
   automatically generating a texture for that to pass on to shaders.
 repoUrl: 'https://github.com/RoyTheunissen/Curves-And-Gradients-To-Texture'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

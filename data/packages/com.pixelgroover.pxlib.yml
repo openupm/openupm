@@ -2,6 +2,7 @@ name: com.pixelgroover.pxlib
 displayName: PxLib
 description: Utilities and tools for making games faster
 repoUrl: https://github.com/timpopsuperstar/PxLib
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

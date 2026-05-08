@@ -2,6 +2,7 @@ name: com.mefistofiles.handposing
 displayName: HandPosing
 description: Pose authoring using handtracking on Quest
 repoUrl: 'https://github.com/MephestoKhaan/HandPosing'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

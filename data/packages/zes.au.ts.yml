@@ -2,6 +2,7 @@ name: zes.au.ts
 displayName: Au Typescript Lib
 description: Au Typescript Lib
 repoUrl: 'https://github.com/zhihesoft/zes-unity-au-ts'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

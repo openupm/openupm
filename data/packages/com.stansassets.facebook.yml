@@ -2,6 +2,7 @@ name: com.stansassets.facebook
 displayName: Stans Assets - Facebook
 description: Open source product that contains extended access to Facebook API.
 repoUrl: 'https://github.com/StansAssets/com.stansassets.facebook'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

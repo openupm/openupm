@@ -4,6 +4,7 @@ description: >-
   Execute Animator As Code scripts when an avatar is being processed by NDM
   Framework.
 repoUrl: https://github.com/hai-vr/animator-as-code-ndmf-processor
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

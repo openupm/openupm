@@ -2,6 +2,7 @@ name: com.omiyagames.web.security
 displayName: Omiya Games - Web Security
 description: Collection of tools for WebGL security
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-web-security'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,9 +2,10 @@ name: com.ms.async.tween
 displayName: UniTweenAsync
 description: async/await tween function extensions for Unity
 repoUrl: 'https://github.com/wlgys8/UniTweenAsync'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - animation
 hunter: JesseTG

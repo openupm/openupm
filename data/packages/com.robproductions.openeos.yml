@@ -5,6 +5,7 @@ description: >-
   Unity Package format, with minor enhancements to provide a smoother
   integration between Unity and EOS.
 repoUrl: 'https://github.com/RobProductions/OpenEOS'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

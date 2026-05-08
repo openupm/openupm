@@ -4,6 +4,7 @@ description: >-
   UGUIVertexEffect is a set of components for Unity UGUI that adds cool effects
   to your UI!
 repoUrl: https://github.com/markeahogan/UGUIVertexEffect
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

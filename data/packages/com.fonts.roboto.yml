@@ -17,6 +17,7 @@ description: >-
 
   Christian Robertson
 repoUrl: 'https://github.com/RageAgainstThePixel/com.fonts.roboto'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

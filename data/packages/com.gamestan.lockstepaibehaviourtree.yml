@@ -2,6 +2,7 @@ name: com.gamestan.lockstepaibehaviourtree
 displayName: Lockstep.BehaviourTree
 description: BehaviourTree for Lockstep Predict & Rollback
 repoUrl: 'https://github.com/JiepengTan/Lockstep.BehaviourTree'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

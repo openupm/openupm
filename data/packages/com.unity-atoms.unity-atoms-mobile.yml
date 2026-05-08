@@ -2,6 +2,7 @@ name: com.unity-atoms.unity-atoms-mobile
 displayName: Unity Atoms Mobile
 description: ⚛️ Tiny modular pieces utilizing the power of Scriptable Objects
 repoUrl: 'https://github.com/unity-atoms/unity-atoms'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

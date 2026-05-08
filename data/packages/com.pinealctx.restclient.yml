@@ -2,6 +2,7 @@ name: com.pinealctx.restclient
 displayName: Rest Client
 description: Unity3D http rest client
 repoUrl: 'https://github.com/pinealctx/RestClient'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

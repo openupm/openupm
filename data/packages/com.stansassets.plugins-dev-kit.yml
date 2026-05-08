@@ -2,9 +2,10 @@ name: com.stansassets.plugins-dev-kit
 displayName: Stans Assets - Plugin Dev Kit
 description: Plugins Development Kit
 repoUrl: 'https://github.com/StansAssets/com.stansassets.plugins-dev-kit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics: []
 hunter: alexey-yaremenko
 gitTagPrefix: ''

@@ -4,6 +4,7 @@ description: >-
   Utilities for Unity's animation tools. For example to make fixing missing
   animation bindings a drag-drop operation
 repoUrl: 'https://github.com/needle-tools/animation-utils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

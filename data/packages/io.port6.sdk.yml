@@ -3,6 +3,7 @@ displayName: Touch SDK
 description: >-
   Connect Touch SDK compatible wearable controllers to Unity applications over Bluetooth.
 repoUrl: 'https://github.com/doublepointlab/touch-sdk-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

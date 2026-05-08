@@ -2,6 +2,7 @@ name: io.codeblaze.gameframework
 displayName: CodeBlaze Game Framework
 description: CodeBlaze's Packages for Unity
 repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

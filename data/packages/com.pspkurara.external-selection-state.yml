@@ -8,6 +8,7 @@ description: >-
   inherit from components that inherit from Selection classes such as Button and
   Toggle, and implement this library.
 repoUrl: 'https://github.com/pspkurara/external-selecion-state'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.juna8001.hexengine
 displayName: Hex Engine
 description: HexEngine is a library for working with hex coordinates for Unity.
 repoUrl: 'https://github.com/juna8001/HexEngine'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

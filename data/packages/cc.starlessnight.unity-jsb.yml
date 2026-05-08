@@ -2,6 +2,7 @@ name: cc.starlessnight.unity-jsb
 displayName: unity-jsb
 description: ' It brings Javascript runtime capability to Unity3D by integrating QuickJS. It''s highly integrated with Unity3D, and possible to implement MonoBehaviour/ScriptableObject/Editor/EditorWindow in typescript.'
 repoUrl: 'https://github.com/ialex32x/unity-jsb'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

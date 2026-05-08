@@ -4,6 +4,7 @@ description: >-
   A collection of productive prefabs for rapidly building spatial computing
   solutions in the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/VRTK.Prefabs'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

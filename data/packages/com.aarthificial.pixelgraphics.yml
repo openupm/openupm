@@ -2,6 +2,7 @@ name: com.aarthificial.pixelgraphics
 displayName: Pixel Graphics
 description: A collection of pixel art visual effects
 repoUrl: 'https://github.com/aarthificial/pixelgraphics'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

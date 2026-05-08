@@ -4,6 +4,7 @@ description: >-
   Check whether the speed from a velocity tracker or a vector exceeds threshold
   for the Unity software
 repoUrl: 'https://github.com/fight4dream/Fight4Dream.Zinnia.SpeedChecker.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

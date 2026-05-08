@@ -4,6 +4,7 @@ description: >-
   Extremely Fast MessagePack Serializer for C#(.NET, .NET Core, Unity, Xamarin).
   / msgpack.org[C#]
 repoUrl: 'https://github.com/neuecc/MessagePack-CSharp'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

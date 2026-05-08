@@ -2,6 +2,7 @@ name: com.gm.gameevent
 displayName: Game Event
 description: Unity Game Event System
 repoUrl: 'https://github.com/Goatman1996/GameEvent'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.fp.editorutility
 displayName: Editor Utility
 description: Common editor utility
 repoUrl: 'https://github.com/FrameProjectTeam/Fp.Unity.EditorUtility'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

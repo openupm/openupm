@@ -4,6 +4,7 @@ description: >-
   PlayerPrefs Editor & Utilities provide an easy way to see what PlayerPrefs
   your game is using and change them at run-time.
 repoUrl: 'https://github.com/sabresaurus/PlayerPrefsEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

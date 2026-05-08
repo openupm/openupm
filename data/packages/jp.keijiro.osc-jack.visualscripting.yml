@@ -2,6 +2,7 @@ name: jp.keijiro.osc-jack.visualscripting
 displayName: OscJackVS
 description: OSC extension for Visual Scripting
 repoUrl: https://github.com/keijiro/OscJackVS
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -2,13 +2,14 @@ name: cn.punctual-solutions.tool
 displayName: PunctualSolutionsTool
 description: Tool
 repoUrl: https://github.com/PunctualSolutions/PunctualSolutionsTool
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MPL-2.0
+licenseName: Mozilla Public License 2.0
+licenseSpdxId: MPL-2.0
 image: ''
 topics:
-  - frameworks
-  - utilities
+- frameworks
+- utilities
 hunter: S-xgx1
 gitTagPrefix: ''
 gitTagIgnore: ''

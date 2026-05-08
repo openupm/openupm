@@ -1,0 +1,19 @@
+name: com.baltin.fbt
+displayName: FunctionalBT
+description: Functional Behavior Tree Design Pattern
+repoUrl: https://github.com/dmitrybaltin/FunctionalBT
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/dmitrybaltin/FunctionalBT/refs/heads/main/.docs/fbt_icon.png'
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: dmitrybaltin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1756228605974

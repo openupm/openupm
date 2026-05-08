@@ -8,6 +8,7 @@ description: >-
   operations in an efficient way. Effects can be enabled to be stackable. Check
   Github for full feature list.
 repoUrl: 'https://github.com/dirkhartlage/dh_stats'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

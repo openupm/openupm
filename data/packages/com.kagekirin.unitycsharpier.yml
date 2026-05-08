@@ -2,6 +2,7 @@ name: com.kagekirin.unitycsharpier
 displayName: CSharpier for Unity Editor
 description: Unity Editor extension to run CSharpier before recompiling C# source files
 repoUrl: https://github.com/KageKirin/UnityCSharpier
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

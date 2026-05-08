@@ -2,6 +2,7 @@ name: com.example.nuget-consumer
 displayName: ''
 description: An example package that depends on other org.nuget packages
 repoUrl: 'https://github.com/favoyang/com.example.nuget-consumer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: ISC
 licenseName: ISC License

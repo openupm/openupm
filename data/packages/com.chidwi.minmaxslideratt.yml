@@ -2,6 +2,7 @@ name: com.chidwi.minmaxslideratt
 displayName: Min Max Slider Attribute
 description: Min Max Slider Attribute for Unity Inspector
 repoUrl: https://github.com/Chidwi-commits/Unity-Attribute-MinMax-Slider
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.codewriter.expression-parser
 displayName: Expression Parser
 description: Simple expression parser library for Unity
 repoUrl: 'https://github.com/codewriter-packages/Expression-Parser'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

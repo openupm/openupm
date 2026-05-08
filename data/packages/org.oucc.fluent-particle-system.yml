@@ -2,6 +2,7 @@ name: org.oucc.fluent-particle-system
 displayName: FluentParticleSystem
 description: Provides extension methods to write ParticleSystem of Unity with method chains.
 repoUrl: 'https://github.com/OUCC/FluentParticleSystem'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

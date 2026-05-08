@@ -4,6 +4,7 @@ description: >-
   Extremely fast LINQ aggregation operations implementation optimized by Burst
   Compiler
 repoUrl: https://github.com/AnnulusGames/BurstLinq
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

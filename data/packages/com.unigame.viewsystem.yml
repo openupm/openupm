@@ -2,6 +2,7 @@ name: com.unigame.viewsystem
 displayName: UniGame Views System
 description: MVVM Views system for Unity
 repoUrl: 'https://github.com/UnioGame/UniGame.ViewSystem'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

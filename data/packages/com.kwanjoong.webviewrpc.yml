@@ -1,0 +1,20 @@
+name: com.kwanjoong.webviewrpc
+displayName: Webview RPC
+description: The webview Remote Procedure Call bridge.
+repoUrl: https://github.com/kwan3854/Unity-WebViewRpc
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- code-generation
+- frameworks
+- integration
+- utilities
+hunter: kwan3854
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1739440824212

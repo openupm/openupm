@@ -5,6 +5,7 @@ description: >-
   the scene or prefab during OnValidate, rather than using GetComponent*
   functions in Awake/Start/OnEnable at runtime.
 repoUrl: 'https://github.com/KyleBanks/scene-ref-attribute'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.rest.firebase.storage
 displayName: Firebase.Storage
 description: A non-official Firebase Storage RESTful client.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.firebase.storage'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

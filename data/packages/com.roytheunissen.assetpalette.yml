@@ -4,6 +4,7 @@ description: >-
   Allows you to quickly organize assets for certain workflows, such as
   organizing prefabs for level design.
 repoUrl: 'https://github.com/RoyTheunissen/Asset-Palette'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

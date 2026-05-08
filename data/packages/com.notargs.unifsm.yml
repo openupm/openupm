@@ -2,6 +2,7 @@ name: com.notargs.unifsm
 displayName: UniFsm
 description: Simple Fsm framework for Unity
 repoUrl: 'https://github.com/notargs/UniFsm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

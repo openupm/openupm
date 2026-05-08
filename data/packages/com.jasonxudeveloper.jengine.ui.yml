@@ -1,0 +1,19 @@
+name: com.jasonxudeveloper.jengine.ui
+displayName: JEngine.UI
+description: UI utilities for JEngine framework.
+repoUrl: https://github.com/JasonXuDeveloper/JEngine
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - editor-enhancement
+  - gui
+hunter: JasonXuDeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1769737830896

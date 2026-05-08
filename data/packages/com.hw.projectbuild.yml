@@ -2,6 +2,7 @@ name: com.hw.projectbuild
 displayName: ProjectBuild
 description: Project Auto Build
 repoUrl: 'https://github.com/ErkFu/ProjectBuild'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MulanPSL-2.0
 licenseName: 'Mulan Permissive Software License, Version 2'

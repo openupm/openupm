@@ -2,6 +2,7 @@ name: com.utj.screenshot2profiler
 displayName: Screenshot to Profiler
 description: ''
 repoUrl: 'https://github.com/wotakuro/ScreenshotToUnityProfiler'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

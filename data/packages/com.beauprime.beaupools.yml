@@ -5,6 +5,7 @@ description: >-
   pools and a Unity-specific prefab pool, along with utilities for managing
   those prefab pools.
 repoUrl: 'https://github.com/BeauPrime/BeauPools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

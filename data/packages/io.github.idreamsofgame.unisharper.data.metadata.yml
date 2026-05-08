@@ -4,6 +4,7 @@ description: >-
   UniSharper.Data.Metadata is a library for converting data in excel files, and
   read them at runtime in Unity Engine.
 repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Data.Metadata'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

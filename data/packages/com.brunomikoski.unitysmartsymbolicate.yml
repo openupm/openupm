@@ -2,9 +2,10 @@ name: com.brunomikoski.unitysmartsymbolicate
 displayName: Smart Symbolicate
 description: A tool to help you symbolicate android crashes
 repoUrl: 'https://github.com/brunomikoski/UnitySmartSymbolicate'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
   - editor-enhancement

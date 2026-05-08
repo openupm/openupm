@@ -2,6 +2,7 @@ name: com.blaze.dialogue
 displayName: Blaze Dialogue
 description: Lightweight dialogue system
 repoUrl: 'https://github.com/BennyKok/unity-blaze'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

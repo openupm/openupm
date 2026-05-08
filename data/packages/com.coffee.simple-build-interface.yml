@@ -2,6 +2,7 @@ name: com.coffee.simple-build-interface
 displayName: Simple Build Interface
 description: Add simple build interface for CLI.
 repoUrl: 'https://github.com/mob-sakai/SimpleBuildInterface'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

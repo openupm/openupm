@@ -2,9 +2,10 @@ name: com.kkjamie.unity-dependency-injection
 displayName: UnityDependencyInjection
 description: Lightweight dependency injection framework for unity
 repoUrl: 'https://github.com/kkjamie/unity-dependency-injection'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: JesseTG

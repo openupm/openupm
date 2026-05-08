@@ -2,6 +2,7 @@ name: com.jeffcampbellmakesgames.entitasredux
 displayName: JCMG Entitas Redux
 description: ''
 repoUrl: 'https://github.com/jeffcampbellmakesgames/Entitas-Redux'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

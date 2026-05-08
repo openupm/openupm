@@ -2,6 +2,7 @@ name: io.colyseus.sdk
 displayName: Colyseus SDK
 description: Colyseus Multiplayer SDK for Unity
 repoUrl: 'https://github.com/colyseus/colyseus-unity3d'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

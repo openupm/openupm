@@ -32,6 +32,7 @@ description: >-
   menus. "Assets/SVN/Update All" will block Unity while updating, to avoid Unity
   processing assets at the same time.
 repoUrl: 'https://github.com/NibbleByte/UnityWiseSVN'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

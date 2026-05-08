@@ -2,6 +2,7 @@ name: com.andtech.core
 displayName: Andtech
 description: Standard utility assets for Unity
 repoUrl: 'https://github.com/AndrewMJordan/andtech'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

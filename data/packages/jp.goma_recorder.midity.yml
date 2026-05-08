@@ -4,6 +4,7 @@ description: >-
   This is a custom unity package for reading and writing Standard MIDI Files
   (SMF).
 repoUrl: 'https://github.com/goma-recorder/Midity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.lupidan.apple-signin-unity
 displayName: Sign in with Apple
 description: Unity plugin to support Sign In With Apple Id
 repoUrl: 'https://github.com/lupidan/apple-signin-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

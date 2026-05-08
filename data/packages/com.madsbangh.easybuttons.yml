@@ -2,6 +2,7 @@ name: com.madsbangh.easybuttons
 displayName: Easy Buttons
 description: Add buttons to your inspector in Unity super easily with this simple attribute
 repoUrl: 'https://github.com/madsbangh/EasyButtons'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

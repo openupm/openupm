@@ -2,6 +2,7 @@ name: com.github.salyu9.untitledconfigdatabuilder
 displayName: Untitled Config Data Builder
 description: Lightweight config building tool for using excel sheet data in unity 3D.
 repoUrl: 'https://github.com/salyu9/Untitled.ConfigDataBuilder'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

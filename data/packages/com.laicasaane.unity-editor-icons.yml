@@ -2,6 +2,7 @@ name: com.laicasaane.unity-editor-icons
 displayName: Unity Editor Icons
 description: 'Build in unity editor icons '
 repoUrl: 'https://github.com/laicasaane/UnityEditorIcons'
+trackingMode: git
 parentRepoUrl: 'https://github.com/nukadelic/UnityEditorIcons'
 licenseSpdxId: MIT
 licenseName: MIT License

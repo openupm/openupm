@@ -4,6 +4,7 @@ description: >-
   Utility package that allows you to get all prefabs using a certain asset and
   visa versa.
 repoUrl: 'https://github.com/MileyHollenberg/PrefabAssetUtility'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

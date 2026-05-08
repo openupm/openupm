@@ -4,6 +4,7 @@ description: >-
   An easy to setup virtual currency manager: load, save and convert between
   different currencies.
 repoUrl: 'https://github.com/FredericRP/PlayerCurrency'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

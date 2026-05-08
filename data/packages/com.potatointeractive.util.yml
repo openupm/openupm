@@ -2,6 +2,7 @@ name: com.potatointeractive.util
 displayName: PotatoUtil
 description: Potato Interactive's commonly used utilities and helpers for Unity/C#
 repoUrl: 'https://github.com/tlauterbach/potato-util'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

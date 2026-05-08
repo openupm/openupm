@@ -2,6 +2,7 @@ name: com.supergosu.statemachine
 displayName: Gosu StateMachine
 description: Simple StateMachine
 repoUrl: https://github.com/SuperGosu/StateMachine
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

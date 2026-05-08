@@ -4,6 +4,7 @@ description: >-
   Simple C# LZF compression library which attempts to minimize memory
   allocations.
 repoUrl: 'https://github.com/HouraiTeahouse/LZF'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Chaser324/LZF'
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

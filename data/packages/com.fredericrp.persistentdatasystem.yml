@@ -5,6 +5,7 @@ description: >-
   written in binary files to hide the content from users and to enable fast
   loading and saving.
 repoUrl: 'https://github.com/FredericRP/PersistentDataSystem'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

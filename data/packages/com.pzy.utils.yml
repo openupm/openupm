@@ -2,9 +2,10 @@ name: com.pzy.utils
 displayName: Utils
 description: 提供常用类型的帮助方法
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: Peng-Zhiyuan

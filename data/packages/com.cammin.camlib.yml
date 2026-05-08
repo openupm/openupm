@@ -2,6 +2,7 @@ name: com.cammin.camlib
 displayName: CamLib
 description: Cammin's personal Unity utility library.
 repoUrl: 'https://github.com/Cammin/CamLib'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

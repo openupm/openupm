@@ -2,6 +2,7 @@ name: pro.kodep.stator
 displayName: Stator
 description: "\U0001F489IoC container that uses code generation instead of reflection for managing and resolving dependencies as a basis"
 repoUrl: 'https://github.com/k0dep/stator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

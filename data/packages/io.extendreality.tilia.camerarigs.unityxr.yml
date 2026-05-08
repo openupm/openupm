@@ -2,6 +2,7 @@ name: io.extendreality.tilia.camerarigs.unityxr
 displayName: Tilia CameraRigs UnityXR
 description: A camera rig prefab utilizing the UnityXR components
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

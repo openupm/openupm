@@ -1,0 +1,17 @@
+name: com.palapalco.project_structure
+displayName: Project Structure
+description: Control the project structure
+repoUrl: https://github.com/Ario92/PalapalUnity
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- editor-enhancement
+hunter: Ario92
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: Dev:Packages/ProjectStructure/ProjectStructure/README.md
+createdAt: 1749632309347

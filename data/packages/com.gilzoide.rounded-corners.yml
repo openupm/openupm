@@ -6,6 +6,7 @@ description: >-
   Use RoundedRect for solid graphics, RoundedTexture for rounded textures and
   RoundedImage for rounded sprites.
 repoUrl: 'https://github.com/gilzoide/unity-rounded-corners'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

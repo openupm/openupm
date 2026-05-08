@@ -4,6 +4,7 @@ description: >-
   A source generator for Unity that provides strongly typed access to serialized
   data through SerializedObject / SerializedProperty.
 repoUrl: https://github.com/ruccho/UniTyped
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

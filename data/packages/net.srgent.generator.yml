@@ -2,6 +2,7 @@ name: net.srgent.generator
 displayName: SRGEnt
 description: A library providing simple api to work with ECS assisted by roslyn generator.
 repoUrl: 'https://github.com/ArcticFox-Dev/SRGEnt-Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

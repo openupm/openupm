@@ -2,6 +2,7 @@ name: uk.me.paraskos.oliver.rts-cameracontroller
 displayName: RTSCameraController
 description: Simple Drop-in Camera controller to bootstrap Top down / RTS style games
 repoUrl: 'https://github.com/oparaskos/unity-rts-cameracontroller'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

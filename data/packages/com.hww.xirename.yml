@@ -2,6 +2,7 @@ name: com.hww.xirename
 displayName: XiRename
 description: 'XiRename, is a renaming tool Unity.'
 repoUrl: 'https://github.com/hww/XiRename'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.potatointeractive.sheets
 displayName: PotatoSheets
 description: Light-weight GoogleSheets to Unity ScriptableObject importer for Unity
 repoUrl: 'https://github.com/tlauterbach/potato-sheets'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

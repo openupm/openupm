@@ -2,6 +2,7 @@ name: com.hww.xijson
 displayName: XiJSON
 description: 'XiJSON, is a simple serialization for Unity.'
 repoUrl: 'https://github.com/hww/XiJSON'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: jp.nobnak.gpu_uniform_grid
 displayName: GPU Uniform Grid
 description: ''
 repoUrl: https://github.com/nobnak/GPUUniformGrid
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

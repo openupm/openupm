@@ -2,6 +2,7 @@ name: com.codewriter.view-binding
 displayName: View Binding
 description: View binding library for Unity
 repoUrl: 'https://github.com/codewriter-packages/View-Binding'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

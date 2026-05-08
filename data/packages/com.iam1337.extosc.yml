@@ -4,6 +4,7 @@ description: >-
   extOSC is a tool dedicated to simplify creation of applications in Unity with
   OSC protocol usage.
 repoUrl: 'https://github.com/Iam1337/extOSC'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

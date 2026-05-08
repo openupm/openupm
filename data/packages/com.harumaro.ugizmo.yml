@@ -1,0 +1,20 @@
+name: com.harumaro.ugizmo
+displayName: UGizmo
+description: Highly efficient gizmo drawer for Unity.
+repoUrl: https://github.com/harumas/UGizmo
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/harumas/UGizmo/blob/main/Image/UGizmo-02.png?raw=true
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: harumas
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744084737746

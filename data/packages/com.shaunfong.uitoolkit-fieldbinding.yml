@@ -2,6 +2,7 @@ name: com.shaunfong.uitoolkit-fieldbinding
 displayName: com.shaunfong.uitoolkit-fieldbinding
 description: Code generation for ui toolkit fields.
 repoUrl: 'https://github.com/Shaun-Fong/UIToolkit-FieldBinding'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

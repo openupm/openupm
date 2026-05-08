@@ -2,6 +2,7 @@ name: com.fredericrp.simplelocalization
 displayName: FRP Simple Localization
 description: A minimum tool for localization.
 repoUrl: 'https://github.com/FredericRP/SimpleLocalization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

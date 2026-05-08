@@ -2,6 +2,7 @@ name: com.chebanovdd.match3sdk
 displayName: Match3-SDK
 description: Provides an SDK to create a Match 3 game.
 repoUrl: 'https://github.com/ChebanovDD/Match3-SDK'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

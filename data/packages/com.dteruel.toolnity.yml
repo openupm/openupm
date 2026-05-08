@@ -2,6 +2,7 @@ name: com.dteruel.toolnity
 displayName: Toolnity
 description: Editor Tools and Gameplay Utilities for Unity
 repoUrl: 'https://github.com/DTeruel/Toolnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'Unlicense'
 licenseName: 'The Unlicense'

@@ -2,6 +2,7 @@ name: com.tsgcpp.tscubemapgenerator
 displayName: TSCubemapGenerator
 description: Cubemap generation (scene baking) tool.
 repoUrl: 'https://github.com/tsgcpp/TSCubemapGenerator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

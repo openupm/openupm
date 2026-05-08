@@ -4,9 +4,10 @@ description: >-
   YNL - Simple AI System provides you a simple system to handle objects'
   behaviours as an AI.
 repoUrl: https://github.com/Yunasawa-Studio/YNL-Simple-AI-System
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - ai

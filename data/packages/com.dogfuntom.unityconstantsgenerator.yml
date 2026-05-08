@@ -5,6 +5,7 @@ description: >-
   constant-declaration-only classes for Tags, Layers, Sorting layers and Input
   axes. Good for type-safety.
 repoUrl: 'https://github.com/starikcetin/unity-constants-generator'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

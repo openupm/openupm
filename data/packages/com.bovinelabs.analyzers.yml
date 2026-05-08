@@ -2,6 +2,7 @@ name: com.bovinelabs.analyzers
 displayName: BovineLabs Analyzers
 description: A package to easily add Roslyn Analyzers to Unity projects.
 repoUrl: 'https://github.com/tertle/com.bovinelabs.analyzers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

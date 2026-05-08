@@ -2,6 +2,7 @@ name: net.mirzipan.clues
 displayName: Mirzipan.Clues
 description: Simple scriptable object-based definition system for your data-driven project
 repoUrl: 'https://github.com/Mirzipan/Mirzipan.Clues'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.chanuklee.unityexpandtool
 displayName: Unity Expand Tool
 description: This is unity expand tool package. Preview v0.1.0
 repoUrl: 'https://github.com/ChanUkLee/UnityExpandTool-Release'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

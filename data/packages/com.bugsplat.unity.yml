@@ -2,6 +2,7 @@ name: com.bugsplat.unity
 displayName: BugSplat
 description: Unity crash reporting powered by BugSplat
 repoUrl: 'https://github.com/BugSplat-Git/bugsplat-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

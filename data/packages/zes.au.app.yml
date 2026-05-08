@@ -2,6 +2,7 @@ name: zes.au.app
 displayName: Au App
 description: Au App library for Unity3D
 repoUrl: 'https://github.com/zhihesoft/zes-unity-au-app'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

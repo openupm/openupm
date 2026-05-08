@@ -2,6 +2,7 @@ name: com.vovgou.loxodon-framework
 displayName: Loxodon Framework
 description: An MVVM framework that can use C# and Lua to develop games.
 repoUrl: 'https://github.com/vovgou/loxodon-framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

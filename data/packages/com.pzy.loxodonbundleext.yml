@@ -2,9 +2,10 @@ name: com.pzy.loxodonbundleext
 displayName: Loxodon Bundle Ext
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics: []
 hunter: Peng-Zhiyuan
 gitTagPrefix: com.pzy.loxodonbundleext/

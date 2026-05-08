@@ -6,6 +6,7 @@ description: >-
   ShaderGraph and a simple C# API, fast with it's GPU based workflow and
   compatible with all the render pipelines
 repoUrl: 'https://github.com/alelievr/Mixture'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

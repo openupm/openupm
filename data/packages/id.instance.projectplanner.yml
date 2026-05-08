@@ -2,6 +2,7 @@ name: id.instance.projectplanner
 displayName: id.instance.projectplanner
 description: 'A planning tool for Unity inside the editor. '
 repoUrl: 'https://github.com/instance-id/Project-Planner'
+trackingMode: git
 parentRepoUrl: 'https://github.com/LeviMooreDev/Project-Planner'
 licenseSpdxId: MIT
 licenseName: MIT License

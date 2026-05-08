@@ -9,6 +9,7 @@ description: >-
   run before the first command of the first Camera by default, but you can use
   your own CommandBuffers if necessary.
 repoUrl: https://github.com/gilzoide/unity-texture-apply-async
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

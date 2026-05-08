@@ -2,6 +2,7 @@ name: io.nekonya.tinax.tween
 displayName: TinaX.Tween
 description: Tween library for TinaX Framework
 repoUrl: 'https://github.com/yomunsam/TinaX.Tween'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

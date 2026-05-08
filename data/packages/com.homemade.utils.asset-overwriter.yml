@@ -2,12 +2,13 @@ name: com.homemade.utils.asset-overwriter
 displayName: com.homemade.utils.asset-overwriter
 description: Extension to allow overwriting when importing assets.
 repoUrl: https://github.com/hungpt17102k/com.homemade.utils.asset-overwriter
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
-  - utilities
+- utilities
 hunter: hungpt17102k
 gitTagPrefix: ''
 gitTagIgnore: ''

@@ -2,6 +2,7 @@ name: jp.co.cyberagent.unity-mobile-support-thermal
 displayName: Mobile Support - Thermal
 description: Tools to support thermal of mobile like iOS/Android.
 repoUrl: 'https://github.com/CyberAgentGameEntertainment/UnityMobileSupport'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

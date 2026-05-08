@@ -2,9 +2,10 @@ name: com.middlemast.gameplayframework
 displayName: Gio's Gameplay Framework
 description: A solid framework for gameplay architecture.
 repoUrl: 'https://github.com/GiovanniZambiasi/gameplay-framework-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - frameworks
 hunter: giovannizambiasi

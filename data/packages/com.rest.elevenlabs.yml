@@ -2,6 +2,7 @@ name: com.rest.elevenlabs
 displayName: ElevenLabs
 description: A non-official Eleven Labs voice synthesis RESTful client.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.elevenlabs'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

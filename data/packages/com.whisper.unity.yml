@@ -7,6 +7,7 @@ description: >-
 
   This is Unity bindings of whisper.cpp infrence implementation.
 repoUrl: https://github.com/Macoron/whisper.unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: io.extendreality.zinnia.unity
 displayName: Zinnia.Unity
 description: A collection of design patterns for solving common problems.
 repoUrl: 'https://github.com/ExtendRealityLtd/Zinnia.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

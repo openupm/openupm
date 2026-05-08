@@ -4,6 +4,7 @@ description: >-
   ARA is the development suit for asynchronous and reactive C# development. It
   contains classes for convenient data changing and handling management.
 repoUrl: https://github.com/kekchpek/AsyncReactAwait
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +13,7 @@ topics:
   - utilities
 hunter: kekchpek
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '[0-9]*\.[0-9]*\.[0-9]*-(raw|dev)'
 minVersion: ''
 readme: master:README.md
 createdAt: 1724071207535

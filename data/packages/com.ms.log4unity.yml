@@ -2,9 +2,10 @@ name: com.ms.log4unity
 displayName: Log4Unity
 description: Log4js-like Logging system for Unity
 repoUrl: 'https://github.com/wlgys8/Log4Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
 hunter: JesseTG

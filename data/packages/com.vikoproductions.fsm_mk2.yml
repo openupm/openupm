@@ -4,9 +4,10 @@ description: >-
   This is a fsm made with the purpose that the states are not monobehaviours and
   they do not handle the transitions and the Agents do it.
 repoUrl: https://github.com/MateoMonastra/Fsm_Mk2
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
   - data-management

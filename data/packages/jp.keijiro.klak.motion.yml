@@ -2,6 +2,7 @@ name: jp.keijiro.klak.motion
 displayName: Procedural Motion Library
 description: A script library for generating procedural motion in Unity.
 repoUrl: https://github.com/keijiro/ProceduralMotion
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

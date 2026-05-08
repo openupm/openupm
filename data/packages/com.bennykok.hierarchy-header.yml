@@ -2,6 +2,7 @@ name: com.bennykok.hierarchy-header
 displayName: Hierarchy Header
 description: 'Text based simple hierarchy header, no fancy magic, just works'
 repoUrl: 'https://github.com/BennyKok/unity-hierarchy-header'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

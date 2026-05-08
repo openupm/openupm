@@ -7,6 +7,7 @@ description: >-
 
   WebView is mobile only and works in Android and IOS builds.
 repoUrl: 'https://github.com/readyplayerme/rpm-unity-sdk-webview'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

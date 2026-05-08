@@ -2,6 +2,7 @@ name: com.dartcore.localization
 displayName: DartCore Localization
 description: This package allows you to localize strings.
 repoUrl: 'https://github.com/AtaTrkgl/DartCore-Localization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Use the right-click context menu or shortcut to group the selected GameObjects
   under a new parent.
 repoUrl: 'https://github.com/nementic-games/grouping-tool'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

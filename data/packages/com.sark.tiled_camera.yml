@@ -2,6 +2,7 @@ name: com.sark.tiled_camera
 displayName: Tiled Camera
 description: A simple utility for rendering a pixel perfect viewport in terms of "tiles".
 repoUrl: 'https://github.com/sarkahn/tiled_camera'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

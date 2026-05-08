@@ -2,6 +2,7 @@ name: com.xrtk.core
 displayName: XRTK.Core
 description: The Official Mixed Reality Framework for Unity
 repoUrl: 'https://github.com/XRTK/XRTK-Core'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

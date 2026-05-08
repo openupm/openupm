@@ -2,6 +2,7 @@ name: com.kuraiandras.linkergenerator
 displayName: 'Linker Generator'
 description: Generate link.xml file for unity
 repoUrl: 'https://github.com/KuraiAndras/LinkerGenerator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

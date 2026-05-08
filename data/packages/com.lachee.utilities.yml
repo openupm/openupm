@@ -2,6 +2,7 @@ name: com.lachee.utilities
 displayName: Lachee's Utilities
 description: Bunch of utility functionality
 repoUrl: 'https://github.com/Lachee/unity-utilities'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Use this asset to create a HTTP server within Unity to provide an REST API for
   exchanging data with other tools.
 repoUrl: 'https://github.com/ShadowGroveGames/Simple-HTTP-and-REST-Server'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -1,0 +1,18 @@
+name: com.binc.pixel-animator
+displayName: Pixel Animator
+description: Custom Animator for 2D Sprites!
+repoUrl: https://github.com/biinci/PixelAnimator
+parentRepoUrl: null
+licenseSpdxId: LGPL-2.1
+licenseName: GNU Lesser General Public License v2.1
+image: ''
+topics:
+  - 2d
+  - animation
+  - gui
+hunter: biinci
+gitTagPrefix: pixel-animator/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1744184127093

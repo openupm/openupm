@@ -4,6 +4,7 @@ description: >-
   A service framework service aiding with smooth scene transitions and loading
   operations in Unity.
 repoUrl: https://github.com/Dinomite-Studios/com.dinomitestudios.loading
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

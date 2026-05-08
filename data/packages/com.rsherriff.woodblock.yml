@@ -2,6 +2,7 @@ name: com.rsherriff.woodblock
 displayName: Woodblock
 description: A simple and quick manager and UI for games written in INK.
 repoUrl: 'https://github.com/rSherriff/woodblock'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.firenero.asyncio
 displayName: Async IO
 description: .NET library for handling asynchronous file system operations
 repoUrl: 'https://github.com/Reddevildragg/AsyncIO'
+trackingMode: git
 parentRepoUrl: 'https://github.com/firenero/AsyncIO'
 licenseSpdxId: MIT
 licenseName: MIT License

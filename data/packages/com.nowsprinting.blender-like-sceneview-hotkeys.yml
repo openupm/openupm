@@ -2,6 +2,7 @@ name: com.nowsprinting.blender-like-sceneview-hotkeys
 displayName: Blender-like SceneView Hotkeys
 description: Select the viewing direction for a SceneView with the Blender-like hotkeys.
 repoUrl: 'https://github.com/nowsprinting/blender-like-sceneview-hotkeys'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

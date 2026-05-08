@@ -2,12 +2,13 @@ name: io.ku6ryo.first
 displayName: Ryokuro's First Package
 description: This is just a test package.
 repoUrl: https://github.com/ku6ryo/FirstOpenUpmPackage
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - testing
+- testing
 hunter: ku6ryo
 gitTagPrefix: ''
 gitTagIgnore: ''

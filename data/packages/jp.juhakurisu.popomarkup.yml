@@ -2,6 +2,7 @@ name: jp.juhakurisu.popomarkup
 displayName: popoMarkup
 description: ''
 repoUrl: 'https://github.com/KurisuJuha/popoMarkup'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   integrates a large number of commonly used, efficient and convenient extension
   methods, which helps to greatly improve development efficiency.
 repoUrl: 'https://github.com/ls9512/UExtension'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

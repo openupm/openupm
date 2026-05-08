@@ -1,0 +1,18 @@
+name: com.dtech.logging
+displayName: Log System
+description: The package helps for logging in Unity.
+repoUrl: https://github.com/DanilChizhikov/unity-loging
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+  - debugging-and-logging
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.3.6'
+readme: master:README.md
+createdAt: 1765327645605

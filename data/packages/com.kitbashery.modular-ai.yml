@@ -2,6 +2,7 @@ name: com.kitbashery.modular-ai
 displayName: Modular AI
 description: Modular AI is an inspector based visual behaviour designer.
 repoUrl: 'https://github.com/Kitbashery/Modular-AI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

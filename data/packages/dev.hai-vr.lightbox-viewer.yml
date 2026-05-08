@@ -2,6 +2,7 @@ name: dev.hai-vr.lightbox-viewer
 displayName: HaÃ¯ ~ Lightbox Viewer
 description: Lightbox Viewer https://docs.hai-vr.dev/docs/products/lightbox-viewer
 repoUrl: https://github.com/hai-vr/lightbox-viewer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

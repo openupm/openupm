@@ -1,94 +1,36 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
+const assert = require("node:assert/strict");
 const fs = require("fs");
-const assert = require("assert");
 const path = require("path");
-const should = require("should");
-const rewire = require("rewire");
-const { isString } = require("lodash/lang");
-const redis = require("../app/db/redis");
-const spdx = require("spdx-license-list");
-const yaml = require("js-yaml");
-const {
-  loadPackageNames,
-  loadPackageSync,
-  loadTopics,
-  loadBlockedScopes,
-  dataDir,
-  packagesDir,
-  isValidPackageName
-} = require("../app/utils/package");
-const { isPackageBlockedByScope } = require("../app/common/utils");
+const { spawnSync } = require("child_process");
+const { describe, it } = require("node:test");
 
-const knownInvalidNames = [];
+const dataDir = path.resolve(__dirname, "../data");
+const openupmNextPath = path.resolve(
+  process.env.OPENUPM_NEXT_PATH || path.resolve(__dirname, "../../openupm-next")
+);
+const validateDataCli = path.resolve(
+  openupmNextPath,
+  "packages/@openupm/local-data/build/cli/validate-data.js"
+);
 
-describe("data/packages", async function() {
-  const packageNames = await loadPackageNames();
-  const validTopics = await loadTopics();
-  const blockedScopes = await loadBlockedScopes();
-  describe("verify packages", function() {
-    for (const packageName of packageNames) {
-      it("verify format: " + packageName, async function() {
-        const pkg = await loadPackageSync(packageName);
-        // Check required
-        should.exist(pkg, "yaml format should be valid");
-        should.exist(pkg.repoUrl, "repoUrl is required");
-        should.exist(pkg.name, "name is required");
-        const [isNameValid, nameValidError] = isValidPackageName(pkg.name);
-        // Ignore known invalid names
-        if (!knownInvalidNames.includes(pkg.name)) {
-          if (!isNameValid) throw nameValidError;
-        }
-        should.equal(
-          pkg.name,
-          packageName,
-          "pkg.name should be match with filename[.yml]"
-        );
-        // Check blocked scopes
-        for (let scope of blockedScopes) {
-          should.ok(!isPackageBlockedByScope(pkg.name, scope), `${pkg.name} is blocked by scope ${scope}.`);
-        }
-        // check topics
-        if (pkg.topics) {
-          if (isString(pkg.topics)) pkg.topics = [pkg.topics];
-          for (const topic of pkg.topics) {
-            const found = validTopics.find(x => x.slug == topic);
-            should.exist(found, `topic ${topic} should be valid`);
-          }
-        }
-        // check license
-        if (pkg.licenseSpdxId) {
-          should.exist(
-            spdx[pkg.licenseSpdxId],
-            `licenseSpdxId ${pkg.licenseSpdxId} should be valid. See full IDs at https://raw.githubusercontent.com/sindresorhus/spdx-license-list/master/spdx-simple.json`
-          );
-        }
-        // check image
-        if (pkg.image) {
-          should.ok(
-            /https?:\/\//i.test(pkg.image),
-            `image field should be a valid URL.`
-          );
-        }
-      });
-    }
-  });
-  describe("verify packages extention name", function() {
-    const files = fs.readdirSync(packagesDir);
-    for (const file of files) {
-      it("verify extention name: " + file, function() {
-        file.should.endWith(".yml");
-      });
-    }
-  });
-  describe("verify other YAML files", function () {
-    const files = ["backers.yml", "blocked-scopes.yml", "builtin.yml", "sponsors.yml", "topics.yml"];
-    for (const file of files) {
-      let absPath = path.resolve(dataDir, file);
-      it("verify " + file, function() {
-        const result = yaml.safeLoad(fs.readFileSync(absPath, "utf8"));
-        result.should.not.be.undefined();
-      });
-    }
+describe("data/packages", function() {
+  it("validates OpenUPM data with the shared openupm-next validator", function() {
+    assert.ok(
+      fs.existsSync(validateDataCli),
+      [
+        `Missing shared validator CLI at ${validateDataCli}.`,
+        "Build openupm-next first, or set OPENUPM_NEXT_PATH to a built checkout.",
+      ].join(" ")
+    );
+
+    const result = spawnSync(process.execPath, [validateDataCli, dataDir], {
+      encoding: "utf8",
+      stdio: "pipe",
+    });
+    assert.equal(
+      result.status,
+      0,
+      [result.stdout, result.stderr].filter(Boolean).join("\n")
+    );
   });
 });

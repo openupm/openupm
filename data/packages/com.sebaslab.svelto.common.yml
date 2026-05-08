@@ -2,6 +2,7 @@ name: com.sebaslab.svelto.common
 displayName: Svelto Common
 description: Shared code between the Svelto repositories
 repoUrl: 'https://github.com/sebas77/Svelto.Common'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

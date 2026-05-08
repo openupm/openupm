@@ -5,6 +5,7 @@ description: >-
   on structs. Performance, zero/small memory allocations/footprint, no
   dependency on Unity engine - main goals of this project.
 repoUrl: 'https://github.com/LeoECSCommunity/ecslite'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Get strong typed and autocompleted keys like scenes, tags and layers in C#
   Unity projects
 repoUrl: 'https://github.com/M0rph3v5/R.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

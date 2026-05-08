@@ -1,0 +1,21 @@
+name: co.balancy.unity
+displayName: Balancy
+description: LiveOps & monetization workspace for games.
+repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- asset-management
+- data-management
+- editor-enhancement
+- mobile
+- services
+hunter: pavelbalancy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1743543965687

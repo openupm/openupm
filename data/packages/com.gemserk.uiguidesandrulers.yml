@@ -2,6 +2,7 @@ name: com.gemserk.uiguidesandrulers
 displayName: Gemserk UI - Guides And Rulers
 description: 'Just some easy gizmos to draw ui rulers to help implement ui '
 repoUrl: 'https://github.com/acoppes/UnityUIGuidesAndRulers'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

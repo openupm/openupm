@@ -2,6 +2,7 @@ name: com.extenject.microsoft
 displayName: Extenject.Microsoft
 description: ''
 repoUrl: 'https://github.com/KuraiAndras/Extenject.Microsoft'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

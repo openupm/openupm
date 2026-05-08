@@ -4,6 +4,7 @@ description: >-
   A simple but effective IMGUI library for the Unity Engine for when
   EditorGUILayout is unavailable
 repoUrl: 'https://github.com/QFSW/QGUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

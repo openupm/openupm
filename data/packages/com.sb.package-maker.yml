@@ -2,9 +2,10 @@ name: com.sb.package-maker
 displayName: SB Package Maker
 description: Will be used to create packages
 repoUrl: https://github.com/shaharbar2/SBUnityUPMMaker
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT License
+licenseSpdxId: MIT
 image: 'https://raw.githubusercontent.com/shaharbar2/SBUnityUPMMaker/main/img.png'
 topics:
   - asset-management

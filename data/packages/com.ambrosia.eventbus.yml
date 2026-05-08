@@ -2,6 +2,7 @@ name: com.ambrosia.eventbus
 displayName: Ambrosia.EventBus
 description: Generic EventBus for Unity.
 repoUrl: 'https://github.com/DuyguYildirim/Ambrosia.EventBus'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

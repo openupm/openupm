@@ -2,6 +2,7 @@ name: com.shniqq.hierarchy-labels
 displayName: Hierarchy Labels
 description: Rule based labels for the Unity Editor hierarchy window.
 repoUrl: 'https://github.com/shniqq/hierarchy-labels'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.unityextensions.dependencyinjection
 displayName: UnityExtensions.DependencyInjection
 description: ''
 repoUrl: 'https://github.com/KuraiAndras/UnityExtensions.DependencyInjection'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

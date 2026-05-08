@@ -2,6 +2,7 @@ name: dev.upm-packages.event-activator
 displayName: Event Activator
 description: Manage global event activation
 repoUrl: 'https://github.com/umm/event_activator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

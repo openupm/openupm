@@ -2,9 +2,10 @@ name: com.unity-atoms.unity-atoms-vector3int
 displayName: Unity Atoms Vector3Int
 description: Unity Atoms for Vector3Int.
 repoUrl: 'https://github.com/danyow/unity-atoms-vector3int'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - code-generation
   - data-management

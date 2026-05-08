@@ -2,6 +2,7 @@ name: tv.superla.radiancehdr
 displayName: Radiance HDR
 description: Support for the Radiance HDR (RGBE) image format at runtime in Unity.
 repoUrl: 'https://github.com/superlatv/RadianceHDRUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

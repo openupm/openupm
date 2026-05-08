@@ -2,6 +2,7 @@ name: com.dteruel.toolnity.gameevents
 displayName: Toolnity Game Events
 description: Events system to trigger and react in runtime.
 repoUrl: 'https://github.com/DTeruel/Toolnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

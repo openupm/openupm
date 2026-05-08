@@ -8,6 +8,7 @@ description: >-
   can be broken easily, and allows easier unit testing of code by providing a
   layer of abstraction between the UI and your core logic code.
 repoUrl: 'https://github.com/Battlehub0x/UIElementBindings'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

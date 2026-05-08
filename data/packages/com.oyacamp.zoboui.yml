@@ -2,6 +2,7 @@ name: com.oyacamp.zoboui
 displayName: ZoboUI
 description: A USS utility class UI framework for Unity's UI Toolkit
 repoUrl: https://github.com/oyacamp/zoboui
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

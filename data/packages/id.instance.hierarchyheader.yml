@@ -4,6 +4,7 @@ description: >-
   Simply lets you make different colored hierarchy headers to help with scene
   organization
 repoUrl: 'https://github.com/instance-id/HierarchyHeader'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

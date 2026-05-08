@@ -2,6 +2,7 @@ name: com.3d-group.unity-simple-notifications
 displayName: 3D Group - Notifications
 description: Simple UI notifications package for Unity game engine
 repoUrl: 'https://github.com/3d-group/unity-simple-notifications'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

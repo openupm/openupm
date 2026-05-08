@@ -1,0 +1,19 @@
+name: com.nirmalad.easysharedspace
+displayName: Easy Shared Space
+description: >-
+  Simple multiplayer shared spatial space for Unity. Easily share positions,
+  spawn objects, and create persistent anchors in a shared coordinate space.
+repoUrl: https://github.com/nirmalbrj7/EasySharedSpace
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: nirmalbrj7
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1771990702361

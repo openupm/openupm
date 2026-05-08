@@ -9,6 +9,7 @@ description: >-
   0-, -Element 1-, but instead you want to use your own names: for instance Cat,
   dog, unicorn... This is the asset for you.
 repoUrl: 'https://github.com/FredericRP/StringDataList'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

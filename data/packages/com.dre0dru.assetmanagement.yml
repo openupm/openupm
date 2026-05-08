@@ -2,6 +2,7 @@ name: com.dre0dru.assetmanagement
 displayName: Asset Management
 description: Addressables services for async/await workflow using UniTask
 repoUrl: 'https://github.com/dre0dru/AssetManagement'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

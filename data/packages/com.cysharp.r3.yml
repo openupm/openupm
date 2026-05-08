@@ -2,6 +2,7 @@ name: com.cysharp.r3
 displayName: R3
 description: Reactive Extensions for Unity.
 repoUrl: https://github.com/Cysharp/R3
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

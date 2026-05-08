@@ -5,6 +5,7 @@ description: >-
   Note that the icon doesn't automatically change with the device language on
   iOS but it's possible to change it at runtime via scripting API.
 repoUrl: 'https://github.com/yasirkula/UnityMobileLocalizedAppTitle'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

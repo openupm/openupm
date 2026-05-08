@@ -2,6 +2,7 @@ name: com.tityx.tweens
 displayName: Tweens
 description: "Tweens for animation\n\nDependencies:\r\nhttps://github.com/Demigiant/dotween.git"
 repoUrl: https://github.com/Tityxx/Tweens
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

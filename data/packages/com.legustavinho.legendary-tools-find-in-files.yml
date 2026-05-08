@@ -2,6 +2,7 @@ name: com.legustavinho.legendary-tools-find-in-files
 displayName: Legendary Tools - Find In Files
 description: ''
 repoUrl: 'https://github.com/LeGustaVinho/find-in-files'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

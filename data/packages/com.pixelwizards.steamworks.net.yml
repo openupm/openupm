@@ -4,6 +4,7 @@ description: >-
   Steamworks wrapper for Unity / C#, restructured in Unity's Package Manager
   format.
 repoUrl: 'https://github.com/PixelWizards/Steamworks.NET'
+trackingMode: git
 parentRepoUrl: 'https://github.com/rlabrecque/Steamworks.NET'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.zgh.core
 displayName: ZGH.Core
 description: ZGH Framework.
 repoUrl: 'https://github.com/ZGH1204/ZGH.Core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.xrtk.oculus
 displayName: XRTK.Oculus
 description: The Oculus platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/Oculus'
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:

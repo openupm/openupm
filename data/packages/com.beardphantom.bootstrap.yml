@@ -2,6 +2,7 @@ name: com.beardphantom.bootstrap
 displayName: Bootstrap
 description: A rock-solid mechanism for consistent, testable, and configurable application bootstrapping for Unity.
 repoUrl: 'https://github.com/thebeardphantom/Bootstrap'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

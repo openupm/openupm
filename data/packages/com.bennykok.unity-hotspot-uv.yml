@@ -2,6 +2,7 @@ name: com.bennykok.unity-hotspot-uv
 displayName: Hotspot UV
 description: Simple hotspot uv for Unity for ProBuilder
 repoUrl: 'https://github.com/BennyKok/unity-hotspot-uv'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

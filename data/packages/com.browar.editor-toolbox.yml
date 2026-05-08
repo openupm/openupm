@@ -4,6 +4,7 @@ description: >-
   Tools, custom attributes, drawers, hierarchy overlay, and other extensions for
   the Unity Editor.
 repoUrl: 'https://github.com/arimger/Unity-Editor-Toolbox'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

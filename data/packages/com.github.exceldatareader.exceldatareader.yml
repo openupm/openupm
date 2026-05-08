@@ -2,6 +2,7 @@ name: com.github.exceldatareader.exceldatareader
 displayName: ExcelDataReader
 description: Lightweight and fast library written in C# for reading Microsoft Excel files
 repoUrl: 'https://github.com/iDreamsOfGame/ExcelDataReader'
+trackingMode: git
 parentRepoUrl: 'https://github.com/ExcelDataReader/ExcelDataReader'
 licenseSpdxId: MIT
 licenseName: MIT License

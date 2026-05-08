@@ -4,6 +4,7 @@ description: >-
   Unified Universal Blur is a package that allows you to use the blur effect in
   URP.
 repoUrl: 'https://github.com/lukakldiashvili/Unified-Universal-Blur'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

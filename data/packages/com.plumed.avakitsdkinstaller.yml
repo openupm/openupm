@@ -2,8 +2,9 @@ name: com.plumed.avakitsdkinstaller
 displayName: Avakit SDK Installer
 description: .
 repoUrl: 'https://github.com/avatokapp/AvakitSDK'
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: null
 licenseName: LICENSE
 topics:
   - ar-and-vr

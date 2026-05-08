@@ -4,6 +4,7 @@ description: >-
   A horizontal layout group for Unity UI that supports both left-to-right and
   right-to-left.
 repoUrl: 'https://github.com/hk1ll3r/BidirectionalHorizontalLayoutGroup'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

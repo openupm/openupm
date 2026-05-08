@@ -2,6 +2,7 @@ name: com.inc8877.odinlz4extension
 displayName: OdinLZ4Extension
 description: The fastest and most efficient binary compression solution for Odin
 repoUrl: 'https://github.com/inc8877/OdinLZ4Extension'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

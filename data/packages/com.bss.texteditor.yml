@@ -2,6 +2,7 @@ name: com.bss.texteditor
 displayName: BSS Text Editor
 description: Text Editor for Unity
 repoUrl: 'https://github.com/bss1284/texteditor-unity-plugin'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Unity package of ScriptableObjects for building static data info tables.
   Generates enum source code for easy access of table entry ids.
 repoUrl: 'https://github.com/coryleach/UnityInfoTables'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

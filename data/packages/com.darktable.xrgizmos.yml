@@ -2,6 +2,7 @@ name: com.darktable.xrgizmos
 displayName: XR Gizmos
 description: Set of gizmos that render in AR/VR.
 repoUrl: https://github.com/darktable/XRGizmos
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

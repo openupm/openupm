@@ -2,6 +2,7 @@ name: com.mezookan.shell
 displayName: Unity Shell
 description: Unity Shell
 repoUrl: 'https://github.com/Abbabon/UnityShell'
+trackingMode: git
 parentRepoUrl: 'https://github.com/wlgys8/UnityShell'
 licenseSpdxId: MIT
 licenseName: MIT License

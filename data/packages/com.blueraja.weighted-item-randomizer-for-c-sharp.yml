@@ -2,6 +2,7 @@ name: com.blueraja.weighted-item-randomizer-for-c-sharp
 displayName: Weighted Item Randomizer for C#
 description: Library for randomly selecting weighted items in C#
 repoUrl: 'https://github.com/JesseTG/Weighted-Item-Randomizer-for-C-Sharp'
+trackingMode: git
 parentRepoUrl: 'https://github.com/BlueRaja/Weighted-Item-Randomizer-for-C-Sharp'
 licenseSpdxId: MIT
 licenseName: MIT License

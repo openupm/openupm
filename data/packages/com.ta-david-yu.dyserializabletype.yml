@@ -2,6 +2,7 @@ name: com.ta-david-yu.dyserializabletype
 displayName: DY.SerializableType
 description: Serializable Type attribute that exposes Type in inspector for Unity Editor
 repoUrl: 'https://github.com/ta-david-yu/Unity-Serializer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.azixmcaze.unityserializabledictionary
 displayName: Unity Serializable Dictionary
 description: Serializable dictionary class for Unity
 repoUrl: 'https://github.com/starikcetin/Unity-SerializableDictionary'
+trackingMode: git
 parentRepoUrl: 'https://github.com/azixMcAze/Unity-SerializableDictionary'
 licenseSpdxId: MIT
 licenseName: MIT License

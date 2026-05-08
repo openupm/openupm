@@ -2,9 +2,10 @@ name: com.jonagill.promises
 displayName: Promises
 description: A lightweight C# implementation of the promise pattern for asynchronous code.
 repoUrl: 'https://github.com/jonagill/Promises'
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
 licenseName: MIT No Attribution
+licenseSpdxId: MIT-0
 topics:
   - parallelism-and-concurrency
 hunter: jonagill

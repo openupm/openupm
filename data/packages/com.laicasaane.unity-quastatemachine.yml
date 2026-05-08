@@ -2,6 +2,7 @@ name: com.laicasaane.unity-quastatemachine
 displayName: Unity.QuaStateMachine
 description: A Unity package for QuaStateMachine which also contains many improvements.
 repoUrl: 'https://github.com/laicasaane/Unity.QuaStateMachine'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

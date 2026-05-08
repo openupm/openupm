@@ -4,6 +4,7 @@ description: >-
   Script Define Symbols Editor is an Unity Editor Window that able to manage
   script define symbols per build.
 repoUrl: 'https://github.com/LuviKunG/ScriptDefineSymbolsEditor'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.kuraiandras.unitycsprojnuget
 displayName: UnityCsprojNuget
 description: ''
 repoUrl: 'https://github.com/KuraiAndras/UnityCsprojNuget'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   A collection of Unity UIElements standalone animations, new animated elements,
   and examples. 
 repoUrl: 'https://github.com/instance-id/ElementAnimationToolkit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

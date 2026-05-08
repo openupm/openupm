@@ -4,6 +4,7 @@ description: >-
   Import ".sqlite", ".sqlite2" and ".sqlite3" files as read-only SQLite database
   assets.
 repoUrl: https://github.com/gilzoide/unity-sqlite-asset
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

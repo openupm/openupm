@@ -2,6 +2,7 @@ name: io.livekit.unity
 displayName: LiveKit WebGL SDK
 description: LiveKit Unity Bridge for WebGL
 repoUrl: 'https://github.com/livekit/client-sdk-unity-web'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

@@ -2,6 +2,7 @@ name: dev.monry.automatic-publish
 displayName: Automatic Publish
 description: Automatic publish UPM package when tag pushed
 repoUrl: 'https://github.com/monry/Automatic-Publish'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.kink3d.mirrors
 displayName: kMirrors
 description: Planar reflections for Unity's Universal Render Pipeline.
 repoUrl: 'https://github.com/Kink3d/kMirrors'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

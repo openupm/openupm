@@ -17,6 +17,7 @@ description: |-
 
   You can easily add more using the provided API.
 repoUrl: 'https://github.com/coimbrastudios/strongly-typed-strings'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

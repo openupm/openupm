@@ -2,6 +2,7 @@ name: com.kink3d.motion
 displayName: kMotion
 description: Motion Blur for Unity's Universal Render Pipeline.
 repoUrl: 'https://github.com/Kink3d/kMotion'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

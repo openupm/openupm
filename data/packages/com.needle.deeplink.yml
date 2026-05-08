@@ -2,6 +2,7 @@ name: com.needle.deeplink
 displayName: Deeplink
 description: Add custom deeplink support to Unity
 repoUrl: 'https://github.com/needle-tools/unity-deeplink'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

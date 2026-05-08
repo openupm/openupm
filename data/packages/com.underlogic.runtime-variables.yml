@@ -4,6 +4,7 @@ description: >-
   Runtime variables for shared state and reactive behavior between components
   and scenes
 repoUrl: 'https://github.com/UnderLogic/runtime-variables'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.autsoft.unitysupplements.uicomponents
 displayName: UI Components
 description: Handy UI Components
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   The Immutable SDK for Unity helps you integrate your game with Immutable
   Passport.
 repoUrl: https://github.com/immutable/unity-immutable-sdk
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

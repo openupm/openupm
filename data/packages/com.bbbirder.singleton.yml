@@ -2,6 +2,7 @@ name: com.bbbirder.singleton
 displayName: singleton
 description: "Unity单例模块"
 repoUrl: 'https://github.com/labbbirder/UnitySingleton'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

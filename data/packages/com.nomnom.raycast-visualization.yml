@@ -2,9 +2,10 @@ name: com.nomnom.raycast-visualization
 displayName: Nomnom's Raycast Visualization
 description: This asset allows users to view debug visuals for all raycast methods.
 repoUrl: 'https://github.com/nomnomab/RaycastVisualization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - debugging-and-logging
   - physics

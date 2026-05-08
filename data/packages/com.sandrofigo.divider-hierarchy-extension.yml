@@ -4,6 +4,7 @@ description: >-
   An extensions to quickly create empty game objects that act as dividers in the
   hierarchy.
 repoUrl: 'https://github.com/sandrofigo/Divider-Hierarchy-Extension-Unity3D'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

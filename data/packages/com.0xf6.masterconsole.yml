@@ -4,6 +4,7 @@ description: >-
   Master console is a package that adds the developer console, as well as the
   necessary functionality for registering commands, variables, etc.
 repoUrl: 'https://github.com/0xF6/master.console'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

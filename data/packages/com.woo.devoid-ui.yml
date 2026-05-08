@@ -2,6 +2,7 @@ name: com.woo.devoid-ui
 displayName: deVoid UI Framework
 description: deVoid UI Framework package
 repoUrl: 'https://github.com/sgamerw/uiframework'
+trackingMode: git
 parentRepoUrl: 'https://github.com/yankooliveira/uiframework'
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Fast and memory efficient implementation of C#'s ISet for enums, storing data
   as bit masks.
 repoUrl: 'https://github.com/gilzoide/EnumBitSet'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -2,6 +2,7 @@ name: com.mischief.markdownviewer
 displayName: Unity Markdown Viewer
 description: A markdown viewer for unity
 repoUrl: 'https://github.com/gwaredd/UnityMarkdownViewer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

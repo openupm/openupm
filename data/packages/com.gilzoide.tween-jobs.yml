@@ -2,6 +2,7 @@ name: com.gilzoide.tween-jobs
 displayName: Tween Jobs
 description: Tween engine for Unity based on the C# Job System
 repoUrl: https://github.com/gilzoide/unity-tween-jobs
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

@@ -1,0 +1,17 @@
+name: jp.nobnak.gist
+displayName: Gist (nobnak)
+description: ''
+repoUrl: https://github.com/nobnak/Gist
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nobnak/Gist
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: feature/upm:Packages/jp.nobnak.gist/README.md
+createdAt: 1755094022251

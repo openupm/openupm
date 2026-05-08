@@ -4,6 +4,7 @@ description: >-
   A Unity Editor tool used to force StyleCop to ignore specified scripts as it
   checks for style violations in our projects.
 repoUrl: 'https://github.com/innerspacetrainings/unity-stylecop-ignoreutility'
+trackingMode: git
 parentRepoUrl: 'https://github.com/redbluegames/unity-stylecop-ignoreutility'
 licenseSpdxId: MIT
 licenseName: MIT License

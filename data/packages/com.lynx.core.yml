@@ -2,13 +2,14 @@ name: com.lynx.core
 displayName: Lynx Core
 description: Support Lynx-R1
 repoUrl: https://github.com/Lynx-MR/UnitySDK
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: Apache-2.0
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
-  - ar-and-vr
-  - mobile
+- ar-and-vr
+- mobile
 hunter: Lynx-MR
 gitTagPrefix: ''
 gitTagIgnore: ''

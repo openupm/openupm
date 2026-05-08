@@ -2,6 +2,7 @@ name: extensions.unity.network
 displayName: Unity Network REST extension
 description: 'Library for managering Network requests, especially REST API'
 repoUrl: 'https://github.com/IvanMurzak/Unity-Network-REST'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

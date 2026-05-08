@@ -2,6 +2,7 @@ name: dev.kyubuns.akyuiunity
 displayName: AkyuiUnity
 description: Akyui for Unity
 repoUrl: 'https://github.com/kyubuns/AkyuiUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

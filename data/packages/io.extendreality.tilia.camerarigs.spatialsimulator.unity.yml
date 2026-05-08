@@ -2,6 +2,7 @@ name: io.extendreality.tilia.camerarigs.spatialsimulator.unity
 displayName: Tilia CameraRigs SpatialSimulator Unity
 description: A camera rig prefab that simulates spatial hardware for the Unity software
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.CameraRigs.SpatialSimulator.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

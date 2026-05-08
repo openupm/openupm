@@ -2,6 +2,7 @@ name: dev.auros.smartimage
 displayName: SmartImage
 description: A smarter way with dealing with images loaded at runtime in Unity.
 repoUrl: 'https://github.com/Auros/SmartImage'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

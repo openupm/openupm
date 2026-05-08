@@ -2,6 +2,7 @@ name: cn.attolee.m4u2
 displayName: M4u2
 description: M4u 〜 あとがき
 repoUrl: 'https://github.com/attolee/M4u2'
+trackingMode: git
 parentRepoUrl: 'https://github.com/okamura0510/M4u2'
 licenseSpdxId: MIT
 licenseName: MIT License

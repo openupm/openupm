@@ -5,6 +5,7 @@ description: >-
   to real-time weather information. It also provides time information about the
   selected area!
 repoUrl: 'https://github.com/ShadowGroveGames/Real-Weather-and-Time-Events'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

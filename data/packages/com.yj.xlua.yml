@@ -4,6 +4,7 @@ description: >-
   xLua is a lua programming solution for C# (Unity, .Net, Mono), it supports
   android, ios, windows, linux, osx, etc. Add support for UPM.
 repoUrl: 'https://github.com/ZeroKill1024/xLua'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Tencent/xLua'
 licenseSpdxId: MIT
 licenseName: MIT License

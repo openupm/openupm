@@ -2,9 +2,10 @@ name: com.faster-games.editor-tools
 displayName: FasterGames EditorTools
 description: Tools for improving the Unity Editor experience.
 repoUrl: 'https://github.com/faster-games/editor-tools'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - editor-enhancement
 hunter: bengreenier

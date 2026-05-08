@@ -2,6 +2,7 @@ name: com.maligan.guid
 displayName: GUID Component
 description: Unity GUID Component & Reference
 repoUrl: 'https://github.com/Maligan/unity-guid'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

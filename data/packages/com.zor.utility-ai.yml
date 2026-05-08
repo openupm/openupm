@@ -4,6 +4,7 @@ description: >-
   Utility AI for Unity is a good solution for choosing an action based on
   different utility considerations. Usually, it's used for AI.
 repoUrl: https://github.com/ZorPastaman/UtilityAI
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

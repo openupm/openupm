@@ -4,6 +4,7 @@ description: >-
   A library to easily build experiment applications, and manage the inputs and
   outputs files in a standardized and clever way
 repoUrl: 'https://github.com/Eyap53/unity-experiment-library'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0

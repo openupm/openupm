@@ -2,6 +2,7 @@ name: io.crazyjackel.redmoon-reactivekit
 displayName: Red Moon Reactive Kit
 description: A Light Weight Reactive MVVM for Unity
 repoUrl: 'https://github.com/crazyjackel/redmoon-reactiveKit'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

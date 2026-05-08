@@ -1,0 +1,20 @@
+name: com.denis535.game-framework-pro
+displayName: Game Framework Pro
+description: >-
+  The framework that allows you to design high-quality architecture of your game project.
+repoUrl: https://github.com/Denis535/UnityFramework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+  - utilities
+hunter: Denis535
+gitTagPrefix: 'com.denis535.game-framework-pro/'
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.denis535.game-framework-pro/README.md
+createdAt: 1758041659729

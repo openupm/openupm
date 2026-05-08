@@ -2,6 +2,7 @@ name: com.lachee.discordrpc
 displayName: Discord Rich Presence
 description: Implements the RPC Protocol for discord using Discord RPC CSharp
 repoUrl: 'https://github.com/Lachee/discord-rpc-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

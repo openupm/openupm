@@ -2,6 +2,7 @@ name: com.szejkerek.gordonessentials
 displayName: Gordon Essentials
 description: Unity package for starting new project.
 repoUrl: https://github.com/szejkerek/com.szejkerek.gordonessentials
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

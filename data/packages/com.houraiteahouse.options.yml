@@ -2,6 +2,7 @@ name: com.houraiteahouse.options
 displayName: Hourai Options
 description: Simplified and automatic game option creation for Unity3D games.
 repoUrl: 'https://github.com/HouraiTeahouse/HouraiOptions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

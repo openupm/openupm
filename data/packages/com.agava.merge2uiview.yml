@@ -2,6 +2,7 @@ name: com.agava.merge2uiview
 displayName: Merge2 UI View
 description: Template for merge2 UI view.
 repoUrl: 'https://github.com/ArtemVetik/com.agava.merge2uiview'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: ai.natml.vision.movenet-3d
 displayName: MoveNet 3D
 description: Realtime 3D pose detection with MoveNet.
 repoUrl: https://github.com/natmlx/movenet-3d-unity
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

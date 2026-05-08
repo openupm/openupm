@@ -2,6 +2,7 @@ name: com.underlogic.event-channels
 displayName: Event Channels
 description: Event channels for sending and receiving data between components across scenes
 repoUrl: 'https://github.com/UnderLogic/event-channels'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

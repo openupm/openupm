@@ -2,6 +2,7 @@ name: com.underlogic.toml-serialization
 displayName: TOML Serialization
 description: Serialization library for TOML files
 repoUrl: 'https://github.com/UnderLogic/toml-serialization'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

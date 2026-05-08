@@ -2,6 +2,7 @@ name: com.pyriceti.framework
 displayName: Pyriceti Framework
 description: 'All code, tools and resources from Pyriceti framework'
 repoUrl: 'https://github.com/pyriceti/framework'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

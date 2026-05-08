@@ -4,6 +4,7 @@ description: >-
   UniSharper.Core is a unity package that contains scripts, plugins and assets
   for general unity application development.
 repoUrl: 'https://github.com/iDreamsOfGame/UniSharper.Core'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

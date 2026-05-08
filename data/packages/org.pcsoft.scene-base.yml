@@ -2,9 +2,10 @@ name: org.pcsoft.scene-base
 displayName: Unity Scene System Base Module
 description: Scene System Basic Module for Unity
 repoUrl: 'https://github.com/KleinerHacker/unity-scene-base'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: null
-licenseName: ''
+licenseName: 'TBD'
 topics:
   - utilities
 hunter: KleinerHacker

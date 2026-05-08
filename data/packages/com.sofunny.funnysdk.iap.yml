@@ -2,14 +2,15 @@ name: com.sofunny.funnysdk.iap
 displayName: FunnyIAP
 description: 真有趣平台游戏内购 SDK 接入包
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnysdk.iap
+trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseName: MIT License
+licenseSpdxId: MIT
 image: ''
 topics:
-  - frameworks
-  - services
-  - utilities
+- frameworks
+- services
+- utilities
 hunter: MagicXiaoXiao
 gitTagPrefix: ''
 gitTagIgnore: ''

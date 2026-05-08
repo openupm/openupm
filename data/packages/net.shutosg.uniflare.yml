@@ -2,6 +2,7 @@ name: net.shutosg.uniflare
 displayName: UniFlare
 description: ''
 repoUrl: 'https://github.com/shutosg/UniFlare'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

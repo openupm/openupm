@@ -2,6 +2,7 @@ name: com.doji.mobilenerf
 displayName: MobileNeRF
 description: An unofficial Unity port of the MobileNeRF viewer.
 repoUrl: 'https://github.com/julienkay/MobileNeRF-Unity-Viewer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.omiyagames.web
 displayName: Omiya Games - Web
 description: Helper tools for web-related stuff.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-web'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

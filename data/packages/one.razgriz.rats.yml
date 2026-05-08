@@ -4,6 +4,7 @@ description: >-
   RATS - Raz's Animator Tweaks 'n' Such. Unity Animator and Animation window
   bugfixes and tweaks.
 repoUrl: 'https://github.com/rrazgriz/RATS'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

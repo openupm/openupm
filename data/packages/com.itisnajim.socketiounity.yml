@@ -5,6 +5,7 @@ description: >-
   [socket.io-client-csharp](https://github.com/doghappy/socket.io-client-csharp)
   to work with Unity.
 repoUrl: 'https://github.com/itisnajim/SocketIOUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

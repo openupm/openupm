@@ -2,6 +2,7 @@ name: com.bbbirder.shell
 displayName: Unity Shell
 description: Simple and powerful shell runner in UnityEditor
 repoUrl: https://github.com/labbbirder/Unity-Shell
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

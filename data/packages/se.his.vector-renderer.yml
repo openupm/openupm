@@ -2,6 +2,7 @@ name: se.his.vector-renderer
 displayName: Vector Renderer
 description: Render vectors in Unity (works both in Edit and Play Mode)
 repoUrl: 'https://github.com/UniversityOfSkovde/Vector-Renderer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

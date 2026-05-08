@@ -5,6 +5,7 @@ description: >-
   to drag and drop references to assets in the inspector, but really use string
   paths for serialization.
 repoUrl: 'https://github.com/mdlka/com.yellowsquad.assetpath'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.lokesh.color-thief
 displayName: Color Thief
 description: Grab the color palette from an image
 repoUrl: 'https://github.com/needle-tools/ColorThief'
+trackingMode: git
 parentRepoUrl: 'https://github.com/chiutse/ColorThief'
 licenseSpdxId: MIT
 licenseName: MIT License

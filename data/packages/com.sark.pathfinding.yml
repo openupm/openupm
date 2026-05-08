@@ -4,6 +4,7 @@ description: >-
   A simple, fast, and generic solution for pathfinding in Unity that works with
   jobs and burst.
 repoUrl: 'https://github.com/sarkahn/pathfinding'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

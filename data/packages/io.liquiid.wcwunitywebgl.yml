@@ -4,6 +4,7 @@ description: >-
   Package allowing to integrate and use Wax Cloud Wallet
   (https://all-access.wax.io/) within Unity WebGl builds
 repoUrl: 'https://github.com/liquiidio/CloudWalletUnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License

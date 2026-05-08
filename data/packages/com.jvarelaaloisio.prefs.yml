@@ -4,6 +4,7 @@ description: >-
   A simple extension on Unity's prefs system that allows for easier control and
   leads to cleaner code.
 repoUrl: https://github.com/jvarelaaloisio/PrefUnits-UnityPackage
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

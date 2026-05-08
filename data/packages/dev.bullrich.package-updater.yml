@@ -2,6 +2,7 @@ name: dev.bullrich.package-updater
 displayName: Package Updater
 description: Utility to update several packages at once
 repoUrl: 'https://github.com/Bullrich/UnityPackageUpdater'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   deltaTime. Compatible with Unity coroutines. Can have multiple timings ticking
   with different speeds (deltaTimes).
 repoUrl: https://github.com/NibbleByte/UnityWiseTiming
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

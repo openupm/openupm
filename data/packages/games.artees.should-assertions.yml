@@ -2,6 +2,7 @@ name: games.artees.should-assertions
 displayName: Should Assertions
 description: A BDD library for testing C# code.
 repoUrl: 'https://github.com/Artees/ShouldAssertions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

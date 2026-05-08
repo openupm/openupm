@@ -2,6 +2,7 @@ name: dev.ohanaya.ui.safe-area-container
 displayName: SafeAreaContainer
 description: Safe area support in UI Toolkit.
 repoUrl: 'https://github.com/c3-hoge-fuga-piyo/SafeAreaContainer'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

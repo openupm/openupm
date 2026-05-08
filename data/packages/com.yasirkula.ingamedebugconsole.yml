@@ -4,6 +4,7 @@ description: >-
   A uGUI based console to see debug messages and execute commands during
   gameplay in Unity
 repoUrl: 'https://github.com/yasirkula/UnityIngameDebugConsole'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

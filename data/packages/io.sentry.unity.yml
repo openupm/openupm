@@ -2,6 +2,7 @@ name: io.sentry.unity
 displayName: Sentry Unity
 description: Official SDK for Sentry - Open-source error tracking that helps developers monitor and fix crashes in real time.
 repoUrl: 'https://github.com/getsentry/unity'
+trackingMode: git
 parentRepoUrl: 'https://github.com/getsentry/sentry-unity'
 licenseSpdxId: MIT
 licenseName: MIT License

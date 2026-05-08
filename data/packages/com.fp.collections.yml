@@ -2,6 +2,7 @@ name: com.fp.collections
 displayName: FrameProject Collections
 description: New or extended collections for common use
 repoUrl: 'https://github.com/FrameProjectTeam/Collections'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,6 +5,7 @@ description: >-
   applejag/Newtonsoft.Json-for-Unity
   (formerly known as jilleJr/Newtonsoft.Json-for-Unity)
 repoUrl: 'https://github.com/applejag/Newtonsoft.Json-for-Unity.Converters'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

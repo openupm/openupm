@@ -4,6 +4,7 @@ description: >-
   Nice Vibrations is a simple yet powerful solution for adding high-definition
   (HD) haptic feedback to your iOS, Android, PC and console games with Unity.
 repoUrl: https://github.com/iDreamsOfGame/NiceVibrations
+trackingMode: git
 parentRepoUrl: https://github.com/Lofelt/NiceVibrations
 licenseSpdxId: MIT
 licenseName: MIT License

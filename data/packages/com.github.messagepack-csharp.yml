@@ -1,0 +1,17 @@
+name: com.github.messagepack-csharp
+displayName: MessagePack
+description: Extremely Fast MessagePack Serializer for C#.
+repoUrl: https://github.com/MessagePack-CSharp/MessagePack-CSharp
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- utilities
+hunter: MonoLogueChi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1733887051188

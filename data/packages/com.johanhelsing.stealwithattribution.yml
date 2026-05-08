@@ -2,6 +2,7 @@ name: com.johanhelsing.stealwithattribution
 displayName: Steal With Attribution
 description: Tool to download and import assets from free sources
 repoUrl: 'https://github.com/johanhelsing/StealWithAttribution'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

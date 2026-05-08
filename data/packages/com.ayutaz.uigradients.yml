@@ -2,6 +2,7 @@ name: com.ayutaz.uigradients
 displayName: UI Gradients
 description: A small collections of scripts to add gradient effects to UGUI elements.
 repoUrl: 'https://github.com/ayutaz/Unity-UIGradient'
+trackingMode: git
 parentRepoUrl: 'https://github.com/Sov3rain/Unity-UIGradient'
 licenseSpdxId: MIT
 licenseName: MIT License

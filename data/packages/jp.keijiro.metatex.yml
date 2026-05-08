@@ -2,6 +2,7 @@ name: jp.keijiro.metatex
 displayName: Metatex
 description: Metadata-only texture data importer
 repoUrl: https://github.com/keijiro/Metatex
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

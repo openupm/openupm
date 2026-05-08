@@ -2,6 +2,7 @@ name: com.styly.polyspatial-visualscripting-nodes
 displayName: PolySpatial Visual Scripting Nodes
 description: Unity Visual Scripting node library for PolySpatial analyzer
 repoUrl: https://github.com/styly-dev/PolySpatial_VisualScriptingNodes
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -4,6 +4,7 @@ description: >-
   Create your custom serializable class that holds the reference to an
   UnityEngine.Object's MemberInfo
 repoUrl: 'https://github.com/Cippman/Unity-MemberInfoReference'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,6 +2,7 @@ name: com.dteruel.toolnity.collections
 displayName: Toolnity Collections
 description: Tool to create collections and register objects or classes.
 repoUrl: 'https://github.com/DTeruel/Toolnity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Unlicense
 licenseName: The Unlicense

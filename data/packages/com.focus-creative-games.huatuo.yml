@@ -2,6 +2,7 @@ name: com.focus-creative-games.huatuo
 displayName: huatuo unity package
 description: 'This package contains a collection of tools, used to huatuo.'
 repoUrl: 'https://github.com/focus-creative-games/huatuo_upm'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

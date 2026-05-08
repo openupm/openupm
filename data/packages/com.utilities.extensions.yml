@@ -2,6 +2,7 @@ name: com.utilities.extensions
 displayName: Utilities.Extensions
 description: Common extensions for Unity types (UPM)
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.extensions'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

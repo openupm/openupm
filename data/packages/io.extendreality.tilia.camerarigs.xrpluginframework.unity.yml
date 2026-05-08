@@ -2,6 +2,7 @@ name: io.extendreality.tilia.camerarigs.xrpluginframework.unity
 displayName: Tilia CameraRigs XRPluginFramework Unity
 description: A camera rig prefab utilizing the XR Plugin Framework for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.CameraRigs.XRPluginFramework.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

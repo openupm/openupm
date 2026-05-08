@@ -2,6 +2,7 @@ name: io.backtrace.unity
 displayName: Backtrace
 description: First-class error reporting for the Unity game engine.
 repoUrl: 'https://github.com/backtrace-labs/backtrace-unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

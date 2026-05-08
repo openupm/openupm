@@ -2,6 +2,7 @@ name: net.narazaka.unity.material-variant-creator
 displayName: Material Variant Creator
 description: create multiple material variants at once
 repoUrl: https://github.com/Narazaka/MaterialVariantCreator
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Zlib
 licenseName: zlib License

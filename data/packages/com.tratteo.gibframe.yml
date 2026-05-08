@@ -2,6 +2,7 @@ name: com.tratteo.gibframe
 displayName: GibFrame
 description: The Unity framework for gibbon coders
 repoUrl: 'https://github.com/tratteo/GibFrame'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

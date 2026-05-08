@@ -5,6 +5,7 @@ description: >-
   rendering time across different devices and game stages. This plugin will help
   developers integrate Android Performance Tuner into their game.
 repoUrl: 'https://github.com/android/tuningfork'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0

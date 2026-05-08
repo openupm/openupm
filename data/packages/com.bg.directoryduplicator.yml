@@ -2,6 +2,7 @@ name: com.bg.directoryduplicator
 displayName: DirectoryDuplicator
 description: 'This package is possible to duplicate files in directory with guid dependencies.'
 repoUrl: 'https://github.com/k-okawa/DirectoryDuplicator'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

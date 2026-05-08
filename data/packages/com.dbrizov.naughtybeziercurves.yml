@@ -2,6 +2,7 @@ name: com.dbrizov.naughtybeziercurves
 displayName: NaughtyBezierCurves
 description: Bezier Curve Game Object for Unity
 repoUrl: 'https://github.com/dbrizov/NaughtyBezierCurves'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

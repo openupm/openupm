@@ -1,0 +1,20 @@
+name: com.zweigstudio.gameviewfocus
+displayName: Game View Focus
+description: >-
+  Save yourself a click and automatically focus the Game View when entering Play
+  Mode
+repoUrl: https://github.com/zweigstudio/GameViewFocus
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: zweigstudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1704151634374

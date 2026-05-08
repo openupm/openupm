@@ -5,6 +5,7 @@ description: >-
   comes with some predefined types that you can configure in the project
   settings and then call via EditorAudioUtility.PlaySound().
 repoUrl: 'https://github.com/JohannesDeml/EditorAudioUtils'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

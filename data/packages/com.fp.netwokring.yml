@@ -4,6 +4,7 @@ description: >-
   Networking data structures, serialization, interpolation and compression
   utility
 repoUrl: 'https://github.com/FrameProjectTeam/Fp.Unity.Network'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

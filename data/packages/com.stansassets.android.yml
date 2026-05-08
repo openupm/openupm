@@ -2,6 +2,7 @@ name: com.stansassets.android
 displayName: Stans Assets - Android plugins Dev Kit
 description: Android plugins Dev Kit for Unity
 repoUrl: 'https://github.com/StansAssets/com.stansassets.android'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

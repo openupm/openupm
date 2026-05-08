@@ -5,6 +5,7 @@ description: >-
   logging using Serilog. Also heavily influenced by the Seq Centralized Logging
   solution.
 repoUrl: 'https://github.com/vrenken/EtAlii.UniCon'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

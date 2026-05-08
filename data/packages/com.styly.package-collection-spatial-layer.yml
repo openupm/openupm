@@ -2,6 +2,7 @@ name: com.styly.package-collection-spatial-layer
 displayName: STYLY Package Collection for Spatial Layer
 description: STYLY Package Collection for Spatial Layer
 repoUrl: https://github.com/styly-dev/com.styly.package-collection-spatial-layer
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

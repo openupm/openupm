@@ -4,6 +4,7 @@ description: >-
   AssetLinker is a package for easily referencing information on
   external assets used in a project.
 repoUrl: https://github.com/sh0ou/AssetReferLinker
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

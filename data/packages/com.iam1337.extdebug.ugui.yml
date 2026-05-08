@@ -2,6 +2,7 @@ name: com.iam1337.extdebug.ugui
 displayName: extDebug.UGUI
 description: Extension to support Unity UI and TextMeshPro in extDebug
 repoUrl: 'https://github.com/Iam1337/extDebug.UGUI'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

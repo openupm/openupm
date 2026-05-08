@@ -5,6 +5,7 @@ description: >-
   multiple instances of the same component in a scene. It allows also any script
   to access this one wihout requiring a manual link between the two.
 repoUrl: 'https://github.com/FredericRP/GenericSingleton'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

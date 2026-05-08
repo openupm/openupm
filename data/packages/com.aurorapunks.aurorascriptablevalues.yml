@@ -2,6 +2,7 @@ name: com.aurorapunks.aurorascriptablevalues
 displayName: Aurora Scriptable Values
 description: Set up games using Scriptable Objects.
 repoUrl: 'https://github.com/Aurora-Punks/aurora-scriptable-values'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

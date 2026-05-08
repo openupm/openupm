@@ -2,6 +2,7 @@ name: com.maellacour.sfb
 displayName: Standalone File Browser
 description: A simple wrapper for native file dialogs on Windows/Mac/Linux.
 repoUrl: 'https://github.com/Eyap53/UnityStandaloneFileBrowser'
+trackingMode: git
 parentRepoUrl: 'https://github.com/gkngkc/UnityStandaloneFileBrowser'
 licenseSpdxId: MIT
 licenseName: MIT License

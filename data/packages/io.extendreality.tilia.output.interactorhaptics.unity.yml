@@ -4,6 +4,7 @@ description: >-
   Provides the ability to initiate haptic feedback on the controllers connected
   to an interactor for the Unity software.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Output.InteractorHaptics.Unity'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

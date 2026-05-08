@@ -2,6 +2,7 @@ name: com.kagekirin.createurpshaders
 displayName: Create URP Shaders
 description: Editor extension to add menu entries to create new URP Lit/Empty shaders
 repoUrl: https://github.com/KageKirin/CreateURPShaders
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MPL-2.0
 licenseName: Mozilla Public License 2.0
