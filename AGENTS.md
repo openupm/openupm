@@ -39,6 +39,9 @@ Tests use Node's built-in `node:test` module and `node:assert/strict`. Add focus
 Use `chore(data): ...` for package CRUD and metadata-only changes, for example `chore(data): add com.vendor.package` or `chore(data): delist com.vendor.package`. Because package submission PRs are often auto-merged, history may also contain generated subjects such as `Create com.vendor.package.yml` or `Rename package from old.id to new.id`; do not treat those as the preferred manual style.
 
 Pull requests should describe the package or metadata change, link related issues when available, and include validation results. For package additions or renames, mention the package id, repository URL, tracking mode, license, and any localization fields touched. Screenshots are only useful when changing images or display metadata.
+Do not include machine-local absolute paths in PR titles, bodies, comments, or
+issues. Replace local worktree paths with placeholders such as
+`<openupm-next-worktree>` or use repo-relative paths.
 Before opening a PR from a worktree, check `git log --oneline origin/master..HEAD`
 and the changed-file list. The canonical `master` branch may contain local
 operator commits, so feature branches should be rebased onto `origin/master`
