@@ -5,7 +5,7 @@ repoUrl: https://github.com/tomjerbo/Inspector
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
-licenseName: MIT
+licenseName: MIT License
 image: ''
 topics:
   - utilities

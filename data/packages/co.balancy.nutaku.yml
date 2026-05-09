@@ -5,7 +5,7 @@ repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_nutaku
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
-licenseName: MIT
+licenseName: MIT License
 image: ''
 topics:
   - integration

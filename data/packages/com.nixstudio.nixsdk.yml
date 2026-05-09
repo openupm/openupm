@@ -5,7 +5,7 @@ repoUrl: https://github.com/tien0702/com.nixstudio.nixsdk
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
-licenseName: GNU General Public License v3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
   - mobile

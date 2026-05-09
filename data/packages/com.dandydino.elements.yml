@@ -7,7 +7,7 @@ repoUrl: https://github.com/AlbertoVosgerau/DDElements
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: WTFPL
-licenseName: WTFPL
+licenseName: Do What The F*ck You Want To Public License
 image: ''
 topics:
   - editor-enhancement

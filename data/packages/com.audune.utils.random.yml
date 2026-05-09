@@ -5,7 +5,7 @@ repoUrl: https://github.com/audunegames/random-numbers
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
   - utilities
