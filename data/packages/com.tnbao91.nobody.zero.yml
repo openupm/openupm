@@ -1,0 +1,20 @@
+name: com.tnbao91.nobody.zero
+displayName: "Zero — Hybrid Casual Unity Template"
+description: >-
+  Opinionated Unity 6 LTS template for hybrid casual / puzzle games. Reflex DI,
+  UniTask, R3, LitMotion. ~28 services with mock-first defaults; peer
+  Gameplay/UI/Meta layers cross-talk via IEventBus.
+repoUrl: https://github.com/tnbao91/unity_zero
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: tnbao91
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778407799006
