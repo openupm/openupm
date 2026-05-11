@@ -1,0 +1,22 @@
+name: com.dtech.link-guard
+displayName: Link Guard
+description: >-
+  Unity editor tool for scanning assemblies and generating or merging link.xml
+  preservation files.
+repoUrl: https://github.com/DanilChizhikov/link-guard
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - debugging-and-logging
+  - package-management
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1778470707788
