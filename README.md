@@ -9,6 +9,13 @@ data changes.
 - `test/data-packages.js`: data validation test wrapper that runs the shared
   validator from `openupm-next`
 
+## Community and contributions
+
+OpenUPM's [Code of Conduct](https://openupm.com/docs/code-of-conduct.html)
+applies to this repository. Bug reports and feature requests are welcome as
+issues, but unsolicited pull requests to fix bugs or implement feature requests
+are not accepted unless a maintainer explicitly invites them.
+
 ## Validate data
 
 ```bash
