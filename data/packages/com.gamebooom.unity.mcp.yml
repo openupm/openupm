@@ -15,7 +15,7 @@ topics:
   - ai
   - code-generation
   - editor-enhancement
-  - utility
+  - utilities
 hunter: Winlifes
 gitTagPrefix: v
 gitTagIgnore: ''
