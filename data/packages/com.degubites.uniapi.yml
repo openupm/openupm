@@ -1,0 +1,21 @@
+name: com.degubites.uniapi
+displayName: UniAPI
+description: >-
+  Fast, dependency-free HTTP API framework for Unity. Build REST endpoints
+  inside your Unity application with main-thread-safe routing.
+repoUrl: https://github.com/degubites/UniAPI
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://codeberg.org/degubites/UniAPI/media/branch/main/Documentation~/logo.png
+topics:
+  - frameworks
+  - network
+hunter: nicotina04
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778665496856
