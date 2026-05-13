@@ -1,0 +1,24 @@
+name: com.gamebooom.unity.mcp
+displayName: Funplay MCP for Unity
+description: >-
+  MIT-licensed MCP server for Unity Editor with execute_code, prompts/resources,
+  input simulation, screenshots, and play mode automation. Connects AI clients
+  (Claude Code, Cursor, Codex, VS Code) directly to the Unity Editor over a
+  local HTTP MCP server.
+repoUrl: https://github.com/FunplayAI/funplay-unity-mcp
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/FunplayAI/funplay-unity-mcp/main/Documentation%7E/Text+Logo.png
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+  - utilities
+hunter: Winlifes
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778654760705
