@@ -1,0 +1,22 @@
+name: so.daro.unity
+displayName: Daro Unity SDK
+description: >-
+  Daro ad SDK for Unity. Supports Android and iOS.
+repoUrl: 'https://github.com/delightroom/DaroUnitySDK'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - mobile
+  - integration
+gitTagPrefix: 'sdk/'
+gitTagIgnore: '-rc\d*$'
+minVersion: '0.0.2'
+trackingMode: githubRelease
+githubReleaseAssetName: 'so.daro.unity-'
+image: ''
+imageFit: contain
+readme: 'main:README.md'
+hunter: isaac-delightromm
+createdAt: 1778663746000
