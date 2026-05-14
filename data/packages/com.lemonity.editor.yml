@@ -1,0 +1,21 @@
+name: com.lemonity.editor
+displayName: Lemonity Editor
+description: Unity Editor integration for Lemonity hand tracking navigation.
+repoUrl: https://github.com/zorderjohn/lemonity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/zorderjohn/lemonity/refs/heads/master/docs/images/com.lemonity.editor-cover.png
+topics:
+  - ar-and-vr
+  - editor-enhancement
+  - input-management
+  - utilities
+hunter: zorderjohn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1778744106315
