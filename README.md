@@ -124,7 +124,8 @@ You can also:
 
 ## Status
 
-See <https://openupm.github.io/upptime/>.
+See <https://openupm.github.io/upptime/> for public uptime monitoring and
+<https://openupm.com/queue/> for package scan and release queue status.
 
 ## Production data deploy
 
