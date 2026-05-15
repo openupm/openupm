@@ -1,4 +1,5 @@
 name: com.ht.infinitelist
+aliases: []
 displayName: HT Infinitelist
 description: An infinite list scrolling view based on Unity's UGUI.
 repoUrl: https://github.com/FantasyJony/InfiniteList
