@@ -1,4 +1,5 @@
 name: com.ms.commonutils
+aliases: []
 displayName: CommonUtils
 description: some good utils for Unity
 repoUrl: 'https://github.com/wlgys8/MSCommonUtils'

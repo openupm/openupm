@@ -1,4 +1,5 @@
 name: com.naelstrof.skinnedmeshdecals
+aliases: []
 displayName: Skinned Mesh Decals
 description: 'Renders decals on arbitrary meshes, for any pipeline.'
 repoUrl: 'https://github.com/naelstrof/SkinnedMeshDecals'

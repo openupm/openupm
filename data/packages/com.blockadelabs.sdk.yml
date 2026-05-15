@@ -1,4 +1,5 @@
 name: com.blockadelabs.sdk
+aliases: []
 displayName: Blockade Labs SDK
 description: Unity package that allows you to generate infinite game assets using
   AI.

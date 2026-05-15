@@ -1,4 +1,5 @@
 name: com.beauprime.beaupools
+aliases: []
 displayName: BeauPools
 description: >-
   BeauPools is an object pooling library for Unity. It contains both generic

@@ -1,4 +1,5 @@
 name: com.frostbun.unit.extensions
+aliases: []
 displayName: UniT Extensions
 description: Common extension methods for Unity
 repoUrl: https://github.com/frostbun/UniT.Extensions

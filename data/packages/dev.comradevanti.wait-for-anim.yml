@@ -1,4 +1,5 @@
 name: dev.comradevanti.wait-for-anim
+aliases: []
 displayName: Wait for Animation
 description: A custom yield instruction to wait for animations
 repoUrl: 'https://github.com/ComradeVanti/UnityWaitForAnim'

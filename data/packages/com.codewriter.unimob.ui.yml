@@ -1,4 +1,5 @@
 name: com.codewriter.unimob.ui
+aliases: []
 displayName: UniMob.UI
 description: A declarative library for building reactive user interfaces
 repoUrl: 'https://github.com/codewriter-packages/UniMob.UI'

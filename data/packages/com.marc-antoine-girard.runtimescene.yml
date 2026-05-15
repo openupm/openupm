@@ -1,4 +1,5 @@
 name: com.marc-antoine-girard.runtimescene
+aliases: []
 displayName: Runtime Scene
 description: A simple class that lets you reference scenes in the Editor.
 repoUrl: 'https://github.com/marc-antoine-girard/Unity3D-RuntimeScene'

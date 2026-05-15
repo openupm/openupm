@@ -1,4 +1,5 @@
 name: com.utilities.websockets
+aliases: []
 displayName: Utilities.WebSockets
 description: A simple websocket package for Unity (UPM)
 repoUrl: https://github.com/RageAgainstThePixel/com.utilities.websockets

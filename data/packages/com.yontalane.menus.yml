@@ -1,4 +1,5 @@
 name: com.yontalane.menus
+aliases: []
 displayName: Menus
 description: >-
   A menu navigation library that supports both controller and mouse and

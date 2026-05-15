@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.projectinfo
+aliases: []
 displayName: Toolnity Project Info
 description: Tool to centralize all the information about the project.
 repoUrl: 'https://github.com/DTeruel/Toolnity'

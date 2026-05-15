@@ -1,4 +1,5 @@
 name: com.opalstudio.customtoolbar
+aliases: []
 displayName: CustomToolbar
 description: >-
   A Unity package that provides a custom toolbar for the Unity Editor, allowing

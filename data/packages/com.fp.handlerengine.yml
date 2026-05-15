@@ -1,4 +1,5 @@
 name: com.fp.handlerengine
+aliases: []
 displayName: Network Handler Engine
 description: >-
   A framework for organizing data handling and sending. Message types are

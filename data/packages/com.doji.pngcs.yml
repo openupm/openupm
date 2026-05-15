@@ -1,4 +1,5 @@
 name: com.doji.pngcs
+aliases: []
 displayName: PNGCS
 description: PNG image encoding in C#
 repoUrl: https://github.com/julienkay/com.doji.pngcs

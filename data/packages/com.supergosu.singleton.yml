@@ -1,4 +1,5 @@
 name: com.supergosu.singleton
+aliases: []
 displayName: Gosu Singleton
 description: Gosu Singleton
 repoUrl: https://github.com/SuperGosu/Singleton

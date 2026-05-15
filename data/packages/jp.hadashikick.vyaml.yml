@@ -1,4 +1,5 @@
 name: jp.hadashikick.vyaml
+aliases: []
 displayName: VYaml
 description: The extra fast YAML library
 repoUrl: 'https://github.com/hadashiA/VYaml'

@@ -1,4 +1,5 @@
 name: ai.natml.vision.ssd-lite
+aliases: []
 displayName: SSD Lite
 description: Single Shot Detector Lite for object detection in Unity Engine.
 repoUrl: https://github.com/natmlx/ssd-lite-unity

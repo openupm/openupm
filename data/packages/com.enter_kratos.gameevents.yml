@@ -1,4 +1,5 @@
 name: com.enter_kratos.gameevents
+aliases: []
 displayName: Game Events
 description: A no-frills ScriptableObject-based event system
 repoUrl: 'https://github.com/EnterKratos/com.enter_kratos.gameevents'

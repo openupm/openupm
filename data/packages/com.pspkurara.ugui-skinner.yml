@@ -1,4 +1,5 @@
 name: com.pspkurara.ugui-skinner
+aliases: []
 displayName: uGUI Skinner
 description: It is a library that can easily switch the display pattern of UGUI.
 repoUrl: 'https://github.com/pspkurara/ugui-skinner'

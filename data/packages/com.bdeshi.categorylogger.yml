@@ -1,4 +1,5 @@
 name: com.bdeshi.categorylogger
+aliases: []
 displayName: Category Based Logger
 description: >-
   A logger that allows you to filter logs based on a generic enum bitfield

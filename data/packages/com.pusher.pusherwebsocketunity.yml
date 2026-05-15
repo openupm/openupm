@@ -1,4 +1,6 @@
 name: com.pusher.pusherwebsocketunity
+aliases:
+  - lcom.pusher.pusherwebsocketunity
 displayName: PusherWebsocketUnity
 description: Pusher Channels Client for realtime websockets on Unity
 repoUrl: 'https://github.com/pusher/pusher-websocket-unity'

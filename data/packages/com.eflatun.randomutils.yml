@@ -1,4 +1,5 @@
 name: com.eflatun.randomutils
+aliases: []
 displayName: Eflatun.RandomUtils
 description: Random number generation (RNG) utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.RandomUtils'

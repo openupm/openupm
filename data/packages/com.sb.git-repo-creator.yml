@@ -1,4 +1,5 @@
 name: com.sb.git-repo-creator
+aliases: []
 displayName: Git Repo Creator
 description: Craeting Git Repo
 repoUrl: https://github.com/shaharbar2/SBGitRepoCreator

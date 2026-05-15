@@ -1,4 +1,5 @@
 name: com.cippsharpcore.containers
+aliases: []
 displayName: CippSharpCore.Containers
 description: Containers Utils
 repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpCoreContainers'

@@ -1,4 +1,5 @@
 name: com.iam1337.extapi
+aliases: []
 displayName: extApi
 description: extApi - Simple Api Server for Unity
 repoUrl: https://github.com/Iam1337/extApi

@@ -1,4 +1,5 @@
 name: com.gamedevpro.dmotion
+aliases: []
 displayName: DMotion
 description: DMotion is a high level Animation framework and State Machine for DOTS
 repoUrl: https://github.com/gamedev-pro/dmotion

@@ -1,4 +1,5 @@
 name: net.wraithavengames.unityinterfacesupport
+aliases: []
 displayName: Unity Interface Support
 description: >-
   A simply implementation which allows for interface-type fields to be accepted

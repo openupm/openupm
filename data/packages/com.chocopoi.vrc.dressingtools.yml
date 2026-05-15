@@ -1,4 +1,5 @@
 name: com.chocopoi.vrc.dressingtools
+aliases: []
 displayName: DressingTools
 description: A simple but advanced, non-destructive cabinet system.
 repoUrl: https://github.com/poi-vrc/DressingTools

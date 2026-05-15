@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.unity-http
+aliases: []
 displayName: Unity HTTP
 description: A handy wrapper for the Unity WebRequest system.
 repoUrl: 'https://github.com/dubit/unity-http'

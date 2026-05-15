@@ -1,4 +1,5 @@
 name: io.github.hatayama.cleanformerlyserializedas
+aliases: []
 displayName: CleanFormerlySerializedAs
 description: Safely removes [FormerlySerializedAs] attributes from serialized fields.
 repoUrl: https://github.com/hatayama/CleanFormerlySerializedAs

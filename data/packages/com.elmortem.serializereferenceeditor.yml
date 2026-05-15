@@ -1,4 +1,5 @@
 name: com.elmortem.serializereferenceeditor
+aliases: []
 displayName: Serialize Reference Editor
 description: Custom serialize reference unity editor
 repoUrl: https://github.com/elmortem/serializereferenceeditor

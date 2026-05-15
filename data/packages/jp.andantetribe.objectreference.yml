@@ -1,4 +1,5 @@
 name: jp.andantetribe.objectreference
+aliases: []
 displayName: ObjectReference
 description: >-
   Provides a simple interface and implementation for asynchronously loading

@@ -1,4 +1,5 @@
 name: com.mikeschweitzer.websocket
+aliases: []
 displayName: WebSocket Client
 description: Simple, flexible WebSocket client. Add the WebSocketConnection MonoBehaviour
   anywhere in your scene.

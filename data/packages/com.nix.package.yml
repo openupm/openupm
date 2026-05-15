@@ -1,4 +1,5 @@
 name: com.nix.package
+aliases: []
 displayName: NIX Package
 description: NIX Package
 repoUrl: https://github.com/tien0702/com.nix.package

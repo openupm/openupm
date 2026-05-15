@@ -1,4 +1,5 @@
 name: com.unity.hlod
+aliases: []
 displayName: HLOD System
 description: It can replace multiple Static Mesh Actors with single, combined Static
   Mesh Actor at long view distances. This helps reduce the number of Actors that need

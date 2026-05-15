@@ -1,4 +1,5 @@
 name: com.harumak.unitydebugsheet
+aliases: []
 displayName: Unity Debug Sheet
 description: >-
   Hierarchical debug menu system for Unity that makes it easy to create

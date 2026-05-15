@@ -1,4 +1,5 @@
 name: com.needle.deeplink
+aliases: []
 displayName: Deeplink
 description: Add custom deeplink support to Unity
 repoUrl: 'https://github.com/needle-tools/unity-deeplink'

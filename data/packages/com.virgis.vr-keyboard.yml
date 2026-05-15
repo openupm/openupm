@@ -1,4 +1,5 @@
 name: com.virgis.vr-keyboard
+aliases: []
 displayName: Simple VR Keyboard
 description: Unity Keyboard for use in VR
 repoUrl: 'https://github.com/ViRGIS-Team/VR-Keyboard'

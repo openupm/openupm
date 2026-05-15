@@ -1,4 +1,5 @@
 name: com.ges.tinymvc
+aliases: []
 displayName: Tiny MVC
 description: Model View Controller initialization system.
 repoUrl: https://github.com/gestiran/TinyMVC

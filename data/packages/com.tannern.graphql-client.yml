@@ -1,4 +1,5 @@
 name: com.tannern.graphql-client
+aliases: []
 displayName: graphQL-client
 description: A GraphQL client library
 repoUrl: 'https://github.com/rennat/graphQL-client-unity'

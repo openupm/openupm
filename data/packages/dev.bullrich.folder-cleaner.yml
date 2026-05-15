@@ -1,4 +1,5 @@
 name: dev.bullrich.folder-cleaner
+aliases: []
 displayName: Folder Cleaner
 description: Remove empty folders from the Editor
 repoUrl: 'https://github.com/Bullrich/UnityFolderCleaner'

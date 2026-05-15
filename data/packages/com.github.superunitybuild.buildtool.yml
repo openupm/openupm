@@ -1,4 +1,5 @@
 name: com.github.superunitybuild.buildtool
+aliases: []
 displayName: SuperUnityBuild
 description: >-
   SuperUnityBuild is a Unity utility that automates the process of generating

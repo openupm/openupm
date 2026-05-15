@@ -1,4 +1,5 @@
 name: com.gameframe.procgen
+aliases: []
 displayName: Gameframe.Procgen
 description: Library of procedural generation code for use in Unity
 repoUrl: 'https://github.com/coryleach/UnityProcgen'

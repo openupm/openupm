@@ -1,4 +1,5 @@
 name: com.ossovr.f23stringsimilarity
+aliases: []
 displayName: F23.StringSimilarity
 description: A .NET port of java-string-similarity
 repoUrl: 'https://github.com/OssoVR/StringSimilarity.NET'

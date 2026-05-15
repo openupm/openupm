@@ -1,4 +1,5 @@
 name: zes.au.di
+aliases: []
 displayName: Au Inject Lib
 description: Dependence Inject Library for Au
 repoUrl: 'https://github.com/zhihesoft/zes-unity-au-di'

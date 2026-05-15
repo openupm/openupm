@@ -1,4 +1,5 @@
 name: com.pixelplacement.surge.tween
+aliases: []
 displayName: Surge Tween
 description: UPM project for Tween features in the Surge toolset by Pixel Placement
 repoUrl: 'https://github.com/adrenak/Surge.Tween'

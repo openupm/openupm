@@ -1,4 +1,5 @@
 name: com.coffee.simple-build-interface
+aliases: []
 displayName: Simple Build Interface
 description: Add simple build interface for CLI.
 repoUrl: 'https://github.com/mob-sakai/SimpleBuildInterface'

@@ -1,4 +1,5 @@
 name: com.benoitfreslon.vibration
+aliases: []
 displayName: Vibration
 description: >-
   Native free plugin for Unity for Android, iOS and WebGL. Use custom

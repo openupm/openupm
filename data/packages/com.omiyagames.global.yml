@@ -1,4 +1,5 @@
 name: com.omiyagames.global
+aliases: []
 displayName: Omiya Games - Global
 description: >-
   A group of scripts and abstract classes that helps setup a globally-accessible

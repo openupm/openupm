@@ -1,4 +1,5 @@
 name: com.frostbun.unit.logging
+aliases: []
 displayName: UniT Logging
 description: Logger Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Logging

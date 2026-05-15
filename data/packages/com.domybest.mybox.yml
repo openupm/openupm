@@ -1,4 +1,5 @@
 name: com.domybest.mybox
+aliases: []
 displayName: MyBox
 description: 'MyBox is a set of attributes, tools and extensions for Unity '
 repoUrl: 'https://github.com/Deadcows/MyBox'

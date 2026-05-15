@@ -1,4 +1,5 @@
 name: com.google.play.core
+aliases: []
 displayName: Google Play Core
 description: >-
   The Play Core plugin provides the Play Core Library required by some other

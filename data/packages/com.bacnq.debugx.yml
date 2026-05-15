@@ -1,4 +1,5 @@
 name: com.bacnq.debugx
+aliases: []
 displayName: DebugX
 description: "Proper debug for Unity project come with some helpful function\n\nMain features: \nâ\x96ª Proper log. \nâ\x96ª Proper console GUI for multiple platform (On-going)."
 repoUrl: https://github.com/ngqbac/DebugX

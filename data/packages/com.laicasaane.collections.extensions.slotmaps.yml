@@ -1,4 +1,5 @@
 name: com.laicasaane.collections.extensions.slotmaps
+aliases: []
 displayName: Collections.Extensions.SlotMaps
 description: >-
   A slot map is an associative collection with persistent unique keys to access

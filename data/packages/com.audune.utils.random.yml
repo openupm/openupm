@@ -1,4 +1,5 @@
 name: com.audune.utils.random
+aliases: []
 displayName: Random Numbers
 description: Seeded random number generator for Unity 2022 LTS or higher.
 repoUrl: https://github.com/audunegames/random-numbers

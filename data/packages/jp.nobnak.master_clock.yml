@@ -1,4 +1,5 @@
 name: jp.nobnak.master_clock
+aliases: []
 displayName: Master Clock
 description: >-
   High-precision time synchronization system for Unity supporting both

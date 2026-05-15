@@ -1,4 +1,5 @@
 name: com.kagekirin.unitycsharpier
+aliases: []
 displayName: CSharpier for Unity Editor
 description: Unity Editor extension to run CSharpier before recompiling C# source files
 repoUrl: https://github.com/KageKirin/UnityCSharpier

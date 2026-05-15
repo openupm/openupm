@@ -1,4 +1,5 @@
 name: eu.netherlands3d.simplejson
+aliases: []
 displayName: Netherlands 3D - SimpleJSON
 description: >-
   A fork of https://github.com/Bunny83/SimpleJSON to make it suitable for use

@@ -1,4 +1,5 @@
 name: com.unigame.nodessystem
+aliases: []
 displayName: UniGame Nodes System Package
 description: Reactive Node game system for Unity
 repoUrl: 'https://github.com/UniGameTeam/UniGame.GameFlow'

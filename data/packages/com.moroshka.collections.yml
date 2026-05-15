@@ -1,4 +1,5 @@
 name: com.moroshka.collections
+aliases: []
 displayName: Moroshka.Collections
 description: >-
   The `Moroshka.Collections` module provides high-performance collections and

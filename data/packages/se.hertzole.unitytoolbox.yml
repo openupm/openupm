@@ -1,4 +1,5 @@
 name: se.hertzole.unitytoolbox
+aliases: []
 displayName: Unity Toolbox
 description: A collection of useful tools and extensions for Unity games.
 repoUrl: 'https://github.com/Hertzole/unity-toolbox'

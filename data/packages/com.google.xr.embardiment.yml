@@ -1,4 +1,5 @@
 name: com.google.xr.embardiment
+aliases: []
 displayName: Embardiment
 description: >-
   User-friendly Unity Package for adding AI functionality to Unity projects. 

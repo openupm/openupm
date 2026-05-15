@@ -1,4 +1,5 @@
 name: de.frebreco.sig.core
+aliases: []
 displayName: SIG Core
 description: >-
   Implements the core functionality of SIG. This includes the base graph and

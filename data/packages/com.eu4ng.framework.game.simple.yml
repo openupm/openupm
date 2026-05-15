@@ -1,4 +1,5 @@
 name: com.eu4ng.framework.game.simple
+aliases: []
 displayName: Simple Game Framework
 description: Simple Game Framework for Unity
 repoUrl: https://github.com/Eu4ngUnity/unitypackage-simple-game-framework

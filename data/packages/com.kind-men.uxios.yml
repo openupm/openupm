@@ -1,4 +1,5 @@
 name: com.kind-men.uxios
+aliases: []
 displayName: Uxios
 description: >-
   A Unity-native, Axios-inspired HTTP client for streamlined, typed, and

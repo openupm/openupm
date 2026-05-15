@@ -1,4 +1,5 @@
 name: com.coimbra.pooling
+aliases: []
 displayName: Pool System
 description: Quick enable GameObject pooling in any Unity project.
 repoUrl: 'https://github.com/coimbrastudios/object-pool'

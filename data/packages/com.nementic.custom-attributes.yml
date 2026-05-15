@@ -1,4 +1,5 @@
 name: com.nementic.custom-attributes
+aliases: []
 displayName: Custom Attributes
 description: 'A collection of useful attributes, property drawers and utility types.'
 repoUrl: 'https://github.com/nementic-games/custom-attributes'

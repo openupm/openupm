@@ -1,4 +1,5 @@
 name: tokar.dev.ot_custom_extensions
+aliases: []
 displayName: OT Extensions & Utils
 description: C# / Unity types custom extensions and utils.
 repoUrl: 'https://github.com/Tokars/ot_custom_extensions_utils'

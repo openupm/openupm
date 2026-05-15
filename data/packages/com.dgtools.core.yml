@@ -1,4 +1,5 @@
 name: com.dgtools.core
+aliases: []
 displayName: DGTools Core
 description: DGTools are tools created for game developement in Unity. The Core is
   not a tool but it is required by all DGTools. Furthermore it provides a window that

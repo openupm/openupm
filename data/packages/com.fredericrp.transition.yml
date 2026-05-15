@@ -1,4 +1,5 @@
 name: com.fredericrp.transition
+aliases: []
 displayName: FRP Transition prefabs
 description: >-
   Between scenes, to hide loading time, you have to show a transition screen.

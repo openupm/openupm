@@ -1,4 +1,5 @@
 name: com.aceland.states
+aliases: []
 displayName: AceLand States
 description: AceLand States is state machine framework designed for Unity.
 repoUrl: https://github.com/parsue/com.aceland.states

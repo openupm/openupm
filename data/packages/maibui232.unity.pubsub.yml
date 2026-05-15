@@ -1,4 +1,5 @@
 name: maibui232.unity.pubsub
+aliases: []
 displayName: PubSub
 description: Publisher Subscriber Pattern
 repoUrl: https://github.com/maibui232/PubSub

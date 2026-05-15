@@ -1,5 +1,6 @@
   
 name: com.vovgou.loxodon-framework-fody
+aliases: []
 displayName: Loxodon Framework Fody
 description: >-
     This is a plugin for static weaving code that integrates ToString.Fody into a Unity project.

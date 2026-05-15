@@ -1,4 +1,6 @@
 name: com.careboo.unity-algorand-sdk
+aliases:
+  - com.careboo.algorand-sdk-unity
 displayName: Unity Algorand SDK
 description: >-
   Algorand SDK for Unity Game Engine

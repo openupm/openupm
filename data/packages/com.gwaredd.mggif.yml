@@ -1,4 +1,5 @@
 name: com.gwaredd.mggif
+aliases: []
 displayName: mgGIF
 description: A unity library to parse GIF files and extract the images as textures
 repoUrl: 'https://github.com/gwaredd/mgGif'

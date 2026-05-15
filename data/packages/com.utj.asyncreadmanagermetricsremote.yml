@@ -1,4 +1,5 @@
 name: com.utj.asyncreadmanagermetricsremote
+aliases: []
 displayName: AsyncReadManagerMetricsRemote
 description: This package allows you to use AsyncReadManagerMetrics from UnityEditor.
 repoUrl: 'https://github.com/katsumasa/AsyncReadManagerMetricsRemote'

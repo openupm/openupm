@@ -1,4 +1,5 @@
 name: jp.pokemori.vrm-converter-for-vrchat
+aliases: []
 displayName: VRM Converter for VRChat
 description: "This includes the following three tools: Convert VRM prefab to VRChat avatar / Convert VRChat avatar to VRM / Merge meshes and submeshes"
 repoUrl: 'https://github.com/esperecyan/VRMConverterForVRChat'

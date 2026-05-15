@@ -1,4 +1,5 @@
 name: com.ges.tinystats
+aliases: []
 displayName: Tiny Stats
 description: >-
   Additional internal application statistics required to support backward

@@ -1,4 +1,5 @@
 name: jp.andantetribe.debugtoolkit
+aliases: []
 displayName: Debug Toolkit
 description: A toolkit for debugging and profiling Unity applications.
 repoUrl: https://github.com/AndanteTribe/DebugToolkit

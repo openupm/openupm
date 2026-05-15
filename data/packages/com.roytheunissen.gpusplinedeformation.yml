@@ -1,4 +1,5 @@
 name: com.roytheunissen.gpusplinedeformation
+aliases: []
 displayName: GPU Spline Deformation
 description: >-
   Baking spline deformation to a texture then applying it to a mesh via a

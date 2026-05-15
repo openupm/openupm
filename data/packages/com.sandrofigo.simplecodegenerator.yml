@@ -1,4 +1,5 @@
 name: com.sandrofigo.simplecodegenerator
+aliases: []
 displayName: Simple Code Generator
 description: A library for generating source code from templates in Unity
 repoUrl: 'https://github.com/sandrofigo/Simple-Code-Generator-Unity3D'

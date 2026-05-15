@@ -1,4 +1,5 @@
 name: com.appylar.unity-sdk
+aliases: []
 displayName: Appylar
 description: SDK for the Appylar cross promotion service
 repoUrl: https://github.com/appylar/published-unity-sdk

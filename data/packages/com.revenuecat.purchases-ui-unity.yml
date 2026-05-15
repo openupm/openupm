@@ -1,4 +1,5 @@
 name: com.revenuecat.purchases-ui-unity
+aliases: []
 displayName: RevenueCat UI SDK for Unity
 description: >-
   Unity UI components for RevenueCat Paywalls and Customer Center. Supports iOS

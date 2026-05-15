@@ -1,4 +1,5 @@
 name: dev.upm-packages.stopwatch
+aliases: []
 displayName: StopWatch
 description: ':watch: Unity StopWatch logics based on unity frame updates'
 repoUrl: 'https://github.com/umm/stopwatch'

@@ -1,4 +1,5 @@
 name: com.nhemdangfugbixs.tooling
+aliases: []
 displayName: Nhem Dang Fug Bixs Tooling
 description: >-
   VContainer Auto-Registration Source Generator and Roslyn Analyzers with

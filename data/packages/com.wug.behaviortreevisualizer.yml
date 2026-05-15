@@ -1,4 +1,5 @@
 name: com.wug.behaviortreevisualizer
+aliases: []
 displayName: Behavior Tree Visualizer (Beta)
 description: >-
   A tool built in Unity that draws a graph representation of behavior trees

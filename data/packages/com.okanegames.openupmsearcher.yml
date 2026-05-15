@@ -1,4 +1,5 @@
 name: com.okanegames.openupmsearcher
+aliases: []
 displayName: OpenUPMSearcher
 description: OpenUPM package search in the Unity editor. Works without Node.js.
 repoUrl: 'https://github.com/zenigane138/OpenUPMSearcher'

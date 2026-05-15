@@ -1,4 +1,5 @@
 name: com.sai.globalsettings
+aliases: []
 displayName: GlobalSettings
 description: Source-Generated Global Settings for Unity
 repoUrl: https://github.com/Saismirk/GlobalSettings

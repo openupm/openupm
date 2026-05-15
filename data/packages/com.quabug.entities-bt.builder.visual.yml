@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.builder.visual
+aliases: []
 displayName: EntitiesBT - Visual Builder
 description: Behavior Tree for Unity Entities - Visual Builder
 repoUrl: 'https://github.com/quabug/EntitiesBT'

@@ -1,4 +1,5 @@
 name: dev.monry.upm.eventconnector
+aliases: []
 displayName: Event Connector
 description: Connect presentation events
 repoUrl: 'https://github.com/monry/UniFlow'

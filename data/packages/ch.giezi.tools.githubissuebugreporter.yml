@@ -1,4 +1,5 @@
 name: ch.giezi.tools.githubissuebugreporter
+aliases: []
 displayName: Giezi's Github Issue Bug Reporter
 description: >-
   Bug reporter for Unity which automagically creates a new issue on Github with

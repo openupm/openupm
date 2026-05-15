@@ -1,4 +1,5 @@
 name: com.sb.git-commander
+aliases: []
 displayName: SB Git Commander
 description: Tool for invoking git commands from editor
 repoUrl: https://github.com/shaharbar2/SBtools

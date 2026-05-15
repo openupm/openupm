@@ -1,4 +1,5 @@
 name: com.megumin.net
+aliases: []
 displayName: Megumin Net
 description: |-
   这是一个网络模块的通用解决方案。

@@ -1,4 +1,5 @@
 name: com.yandex.varioqub
+aliases: []
 displayName: Varioqub
 description: >-
   A Unity plugin for Varioqub. Varioqub is an AB tool that works for Android and

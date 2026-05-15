@@ -1,4 +1,5 @@
 name: com.reify.unity
+aliases: []
 displayName: Reify
 description: >-
   Structured state for Unity, for LLMs that reason. 230+ MCP tools plus MCP

@@ -1,4 +1,5 @@
 name: com.cippsharp.members
+aliases: []
 displayName: CippSharp.Members
 description: >-
   Create your custom serializable class that holds the reference to an

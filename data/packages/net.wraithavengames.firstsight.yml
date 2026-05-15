@@ -1,4 +1,5 @@
 name: net.wraithavengames.firstsight
+aliases: []
 displayName: FirstSight
 description: A first person controller plugin written for Unity.
 repoUrl: 'https://github.com/TheDudeFromCI/FirstSight'

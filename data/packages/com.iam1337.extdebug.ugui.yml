@@ -1,4 +1,5 @@
 name: com.iam1337.extdebug.ugui
+aliases: []
 displayName: extDebug.UGUI
 description: Extension to support Unity UI and TextMeshPro in extDebug
 repoUrl: 'https://github.com/Iam1337/extDebug.UGUI'

@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.codegen
+aliases: []
 displayName: EntitiesBT - IL CodeGen
 description: Behavior Tree for Unity Entities
 repoUrl: 'https://github.com/quabug/EntitiesBT'

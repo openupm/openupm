@@ -1,4 +1,5 @@
 name: com.gameframe.packages
+aliases: []
 displayName: Gameframe.Packages
 description: Package for creating Unity packages in GitHub! Just like this one!
 repoUrl: 'https://github.com/coryleach/UnityPackages'

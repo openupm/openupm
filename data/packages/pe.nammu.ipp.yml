@@ -1,4 +1,5 @@
 name: pe.nammu.ipp
+aliases: []
 displayName: InputPatternPanel SDK
 description: InputPatternPanel SDK Package
 repoUrl: https://github.com/mod157/ipp.unity

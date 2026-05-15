@@ -1,4 +1,5 @@
 name: jillejr.newtonsoft.json-for-unity.converters
+aliases: []
 displayName: Json.NET Converters of Unity types
 description: >-
   Converters of common Unity types for Newtonsoft.Json. Goes hand in hand with

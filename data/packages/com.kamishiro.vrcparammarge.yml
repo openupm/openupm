@@ -1,4 +1,5 @@
 name: com.kamishiro.vrcparammarge
+aliases: []
 displayName: VRC Parameter Marge System
 description: Parameter Marge System for VRChat Avatars.
 repoUrl: 'https://github.com/AoiKamishiro/VRCParamMargeSystem'

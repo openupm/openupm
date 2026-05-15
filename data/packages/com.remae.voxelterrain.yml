@@ -1,4 +1,5 @@
 name: com.remae.voxelterrain
+aliases: []
 displayName: Voxel Terrain
 description: Voxel like terrain rendering & collision from heightmap
 repoUrl: https://github.com/Remy-Maetz/VoxelTerrain

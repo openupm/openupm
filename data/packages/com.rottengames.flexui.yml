@@ -1,4 +1,5 @@
 name: com.rottengames.flexui
+aliases: []
 displayName: FlexUI
 description: >-
   A simplified, declarative API for Unity UI Toolkit. Build UI faster with

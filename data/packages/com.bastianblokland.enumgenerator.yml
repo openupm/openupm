@@ -4,6 +4,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 name: com.bastianblokland.enumgenerator
+aliases: []
 displayName: Enum Generator
 description: Tool for generating c# enums based on json input files.
 topics:

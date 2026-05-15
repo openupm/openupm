@@ -1,4 +1,5 @@
 name: net.tnrd.packagemanagermodules
+aliases: []
 displayName: Package Manager Modules
 description: A toolkit to create modules for the Package Manager Window
 repoUrl: 'https://github.com/Thundernerd/Unity3D-PackageManagerModules'

@@ -1,4 +1,5 @@
 name: com.firenero.asyncio
+aliases: []
 displayName: Async IO
 description: .NET library for handling asynchronous file system operations
 repoUrl: 'https://github.com/Reddevildragg/AsyncIO'

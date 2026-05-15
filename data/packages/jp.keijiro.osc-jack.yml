@@ -1,4 +1,5 @@
 name: jp.keijiro.osc-jack
+aliases: []
 displayName: OSC Jack
 description: Lightweight implementation of OSC server/client
 repoUrl: 'https://github.com/keijiro/OscJack'

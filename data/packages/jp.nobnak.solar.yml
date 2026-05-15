@@ -1,4 +1,5 @@
 name: jp.nobnak.solar
+aliases: []
 displayName: Solar Position Calculator
 description: >-
   A Unity package for calculating solar position (elevation and azimuth angles)

@@ -1,4 +1,5 @@
 name: com.quabug.any-processor
+aliases: []
 displayName: AnyProcessor
 description: >-
   Make it easier to write an ILPostProcessor with AnyProcessor

@@ -1,4 +1,6 @@
 name: dev.yarnspinner.unity
+aliases:
+  - dev.secretlab.yarnspinner
 displayName: Yarn Spinner
 description: Yarn Spinner is a tool for building interactive dialogue in games!
 repoUrl: 'https://github.com/YarnSpinnerTool/YarnSpinner-Unity'

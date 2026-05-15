@@ -1,4 +1,5 @@
 name: com.whinarn.unitymeshsimplifier
+aliases: []
 displayName: Unity Mesh Simplifier
 description: Mesh simplification for Unity.
 repoUrl: 'https://github.com/Whinarn/UnityMeshSimplifier'

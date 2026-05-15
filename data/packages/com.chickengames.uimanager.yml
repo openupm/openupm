@@ -1,4 +1,5 @@
 name: com.chickengames.uimanager
+aliases: []
 displayName: UIManagerForMe
 description: This is an Test package
 repoUrl: 'https://github.com/JongSeonPark/Unity_UIManager'

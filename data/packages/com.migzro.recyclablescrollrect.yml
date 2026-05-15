@@ -1,4 +1,5 @@
 name: com.migzro.recyclablescrollrect
+aliases: []
 displayName: Recyclable Scroll Rect
 description: >-
   An infinite scroll rect implementation for Unity UI that recycles item views

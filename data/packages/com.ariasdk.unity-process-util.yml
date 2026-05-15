@@ -1,4 +1,5 @@
 name: com.ariasdk.unity-process-util
+aliases: []
 displayName: unity-async-process utilities
 description: asynchronous cli process for unity.
 repoUrl: 'https://github.com/tk-aria/async-process'

@@ -1,4 +1,5 @@
 name: com.bbbirder.utils
+aliases: []
 displayName: Utils
 description: Common module for Unity project
 repoUrl: https://github.com/labbbirder/Utils

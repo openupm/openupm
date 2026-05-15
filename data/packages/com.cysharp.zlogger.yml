@@ -1,4 +1,5 @@
 name: com.cysharp.zlogger
+aliases: []
 displayName: ZLogger
 description: >-
   Zero Allocation Text/Strcutured Logger for .NET Core and Unity, built on top

@@ -1,4 +1,5 @@
 name: com.simonoliver.inputsystemactionprompts
+aliases: []
 displayName: Input System Action Prompts
 description: >-
   Automatically add in prompt icons to TextMeshPro fields based on Unity's Input

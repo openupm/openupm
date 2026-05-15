@@ -1,4 +1,5 @@
 name: com.storyflow.unity
+aliases: []
 displayName: StoryFlow
 description: >-
   Import and run StoryFlow Editor projects in Unity. Visual node-based dialogue,

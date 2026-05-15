@@ -1,4 +1,5 @@
 name: com.annulusgames.lucid-random
+aliases: []
 displayName: Lucid Random
 description: Enhanced random number generator for Unity
 repoUrl: https://github.com/AnnulusGames/LucidRandom

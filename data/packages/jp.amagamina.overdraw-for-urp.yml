@@ -1,4 +1,5 @@
 name: jp.amagamina.overdraw-for-urp
+aliases: []
 displayName: OverdrawForURP
 description: It's scene overdraw view available in Universal Render Pipeline.
 repoUrl: 'https://github.com/ina-amagami/OverdrawForURP'

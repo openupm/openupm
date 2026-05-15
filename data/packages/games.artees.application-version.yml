@@ -1,4 +1,5 @@
 name: games.artees.application-version
+aliases: []
 displayName: Application Version
 description: >-
   A tool for Unity Editor allowing you to update the version number of your

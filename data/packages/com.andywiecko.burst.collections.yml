@@ -1,4 +1,5 @@
 name: com.andywiecko.burst.collections
+aliases: []
 displayName: Burst Collections
 description: Burst friendly (special) native collections for Unity.
 repoUrl: 'https://github.com/andywiecko/BurstCollections'

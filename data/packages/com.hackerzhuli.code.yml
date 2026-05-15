@@ -1,4 +1,5 @@
 name: com.hackerzhuli.code
+aliases: []
 displayName: Visual Studio Code Editor
 description: >-
   Code editor integration for supporting Visual Studio Code (and its popular

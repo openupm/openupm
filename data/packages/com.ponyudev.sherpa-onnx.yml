@@ -1,4 +1,5 @@
 name: com.ponyudev.sherpa-onnx
+aliases: []
 displayName: PonyuDev Sherpa-ONNX
 description: Unity integration for sherpa-onnx — offline TTS, ASR, and VAD with one-click native library install for all platforms.
 repoUrl: 'https://github.com/Ponyu-dev/Unity-Sherpa-ONNX'

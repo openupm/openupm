@@ -1,4 +1,6 @@
 name: com.hww.xigametool
+aliases:
+  - com.hww.xiartmanager
 displayName: XiGameTool
 description: XiGameTool is a art content management for Unity.
 repoUrl: 'https://github.com/hww/XiGameTool'

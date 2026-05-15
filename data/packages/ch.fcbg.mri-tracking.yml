@@ -1,4 +1,5 @@
 name: ch.fcbg.mri-tracking
+aliases: []
 displayName: MRI Tracking
 description: >-
   MRI tracking system base package with menu, initialization scripts, and fMRI

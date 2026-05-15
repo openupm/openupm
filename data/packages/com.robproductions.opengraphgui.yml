@@ -1,4 +1,5 @@
 name: com.robproductions.opengraphgui
+aliases: []
 displayName: Open Graph GUI
 description: >-
   An open-source generic Shader GUI for use with URP ShaderGraphs. This package

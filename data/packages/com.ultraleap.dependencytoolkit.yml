@@ -1,4 +1,5 @@
 name: com.ultraleap.dependencytoolkit
+aliases: []
 displayName: Ultraleap Dependency Toolkit
 description: 'Tools for discovering, navigating and analysing asset dependencies.'
 repoUrl: 'https://github.com/ultraleap/Unity-Dependency-Toolkit'

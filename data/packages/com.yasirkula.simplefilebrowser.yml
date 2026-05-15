@@ -1,4 +1,5 @@
 name: com.yasirkula.simplefilebrowser
+aliases: []
 displayName: Simple File Browser
 description: A uGUI based runtime file browser for Unity 3D (draggable and resizable)
 repoUrl: 'https://github.com/yasirkula/UnitySimpleFileBrowser'

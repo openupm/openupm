@@ -1,4 +1,5 @@
 name: dev.upm-packages.event-activator
+aliases: []
 displayName: Event Activator
 description: Manage global event activation
 repoUrl: 'https://github.com/umm/event_activator'

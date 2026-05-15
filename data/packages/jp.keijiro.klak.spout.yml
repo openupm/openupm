@@ -1,4 +1,5 @@
 name: jp.keijiro.klak.spout
+aliases: []
 displayName: KlakSpout
 description: Cross-process texture sharing plugin (Spout protocol)
 repoUrl: 'https://github.com/keijiro/KlakSpout'

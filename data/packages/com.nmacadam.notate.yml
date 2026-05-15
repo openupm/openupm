@@ -1,4 +1,5 @@
 name: com.nmacadam.notate
+aliases: []
 displayName: Notate
 description: A note component for your inspector
 repoUrl: 'https://github.com/nmacadam/Notate'

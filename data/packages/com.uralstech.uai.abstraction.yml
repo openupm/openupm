@@ -1,4 +1,5 @@
 name: com.uralstech.uai.abstraction
+aliases: []
 displayName: UAI.Abstraction
 description: >-
   Contains abstraction for common AI APIs so that different LLM providers like

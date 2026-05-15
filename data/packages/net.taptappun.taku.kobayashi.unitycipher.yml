@@ -1,4 +1,5 @@
 name: net.taptappun.taku.kobayashi.unitycipher
+aliases: []
 displayName: UnityCipher
 description: 'This is Cipher Libraries in Unity, include the AESCipher and RSACipher.'
 repoUrl: 'https://github.com/TakuKobayashi/UnityCipher'

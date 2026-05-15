@@ -1,4 +1,5 @@
 name: com.lleoliad.ghysx-framework-plugin-generator
+aliases: []
 displayName: GhysX Framework Plugin Generator
 description: >-
   GhysX Framework Plugin Generator is a tool to extend the Unity Editor, capable

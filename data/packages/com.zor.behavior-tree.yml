@@ -1,4 +1,6 @@
 name: com.zor.behavior-tree
+aliases:
+  - com.zor.bahavior-tree
 displayName: Behavior Tree
 description: Behavior Tree for Unity. WIP.
 repoUrl: 'https://github.com/ZorPastaman/Behavior-Tree'

@@ -1,4 +1,5 @@
 name: com.7thbeat.filebrowser
+aliases: []
 displayName: Unity File Browser
 description: File browser related utilities for Unity runtime
 repoUrl: https://github.com/7thbeatgames/UnityFileBrowser

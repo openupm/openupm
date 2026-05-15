@@ -1,4 +1,5 @@
 name: com.zor.event-based-blackboard
+aliases: []
 displayName: Event Based Blackboard
 description: >-
   Event Based Blackboard for Unity is a flexible data storage that can contain

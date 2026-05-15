@@ -1,4 +1,5 @@
 name: com.veriorpies.parrelsync
+aliases: []
 displayName: ParrelSync
 description: (Unity3D) Test multiplayer without building
 repoUrl: 'https://github.com/VeriorPies/ParrelSync'

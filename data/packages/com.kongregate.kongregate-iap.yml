@@ -1,4 +1,5 @@
 name: com.kongregate.kongregate-iap
+aliases: []
 displayName: Kongregate Purchasing
 description: Unity IAP store implementation for the Kongregate website.
 repoUrl: 'https://github.com/kongregate/kongregate-iap'

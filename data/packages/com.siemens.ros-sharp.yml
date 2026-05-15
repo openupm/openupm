@@ -1,4 +1,5 @@
 name: com.siemens.ros-sharp
+aliases: []
 displayName: ros-sharp
 description: >-
   Unity-specific extensions to

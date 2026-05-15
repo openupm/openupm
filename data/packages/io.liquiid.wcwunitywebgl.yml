@@ -1,4 +1,5 @@
 name: io.liquiid.wcwunitywebgl
+aliases: []
 displayName: Wax Cloud Wallet WebGL
 description: >-
   Package allowing to integrate and use Wax Cloud Wallet

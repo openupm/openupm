@@ -1,4 +1,5 @@
 name: com.xiaojiang.smartreference
+aliases: []
 displayName: Smart Reference
 description: Smart Reference is a Unity plugin that allows you to lazy load references
   to other objects in ScriptableObject and MonoBehaviour.

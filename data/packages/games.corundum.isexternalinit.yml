@@ -1,4 +1,5 @@
 name: games.corundum.isexternalinit
+aliases: []
 displayName: IsExternalInit
 description: Enable support for C# 9's record types and the init keyword in Unity.
 repoUrl: 'https://github.com/CorundumGames/IsExternalInit'

@@ -1,4 +1,5 @@
 name: com.appegy.ios-att-localization
+aliases: []
 displayName: iOS ATT Localization
 description: Provides localization of App Tracking Transparency (ATT) description
   - a message that informs the user why an app is requesting permission to use data

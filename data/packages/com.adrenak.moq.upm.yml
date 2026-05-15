@@ -1,4 +1,5 @@
 name: com.adrenak.moq.upm
+aliases: []
 displayName: Moq UPM
 description: A Unity UPM package for Moq
 repoUrl: 'https://github.com/adrenak/moq.upm'

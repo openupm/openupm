@@ -1,4 +1,5 @@
 name: com.nosuchstudio.reversegeocoder
+aliases: []
 displayName: Reverse Geocoder for Unity
 description: CountryReverseGeocoder package for Unity.
 repoUrl: 'https://github.com/hk1ll3r/ReverseGeocoderForUnity'

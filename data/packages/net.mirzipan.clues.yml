@@ -1,4 +1,5 @@
 name: net.mirzipan.clues
+aliases: []
 displayName: Mirzipan.Clues
 description: Simple scriptable object-based definition system for your data-driven project
 repoUrl: 'https://github.com/Mirzipan/Mirzipan.Clues'

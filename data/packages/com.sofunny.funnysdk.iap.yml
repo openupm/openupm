@@ -1,4 +1,5 @@
 name: com.sofunny.funnysdk.iap
+aliases: []
 displayName: FunnyIAP
 description: 真有趣平台游戏内购 SDK 接入包
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnysdk.iap

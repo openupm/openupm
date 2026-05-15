@@ -1,4 +1,5 @@
 name: com.txcombo.unity-puer-exec
+aliases: []
 displayName: Unity Puer Exec
 description: >-
   Unity Editor package and bundled CLI for driving a Puerts host from an

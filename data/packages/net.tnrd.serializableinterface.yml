@@ -1,4 +1,5 @@
 name: net.tnrd.serializableinterface
+aliases: []
 displayName: Serializable Interface
 description: >-
   A wrapper that allows serialization of interfaces that supports both

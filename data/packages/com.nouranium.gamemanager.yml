@@ -1,4 +1,5 @@
 name: com.nouranium.gamemanager
+aliases: []
 displayName: Nouranium Game Manager
 description: A simple game manager useful for hyper casual games.
 repoUrl: 'https://github.com/nouranium-vault/game-manager'

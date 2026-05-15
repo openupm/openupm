@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.nova
+aliases: []
 displayName: NOVA Shader
 description: >-
   Multi-functional shader for the Particle System that supports Universal Render

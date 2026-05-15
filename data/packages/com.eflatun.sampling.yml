@@ -1,4 +1,5 @@
 name: com.eflatun.sampling
+aliases: []
 displayName: Eflatun.Sampling
 description: Sampling utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Sampling'

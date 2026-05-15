@@ -1,4 +1,5 @@
 name: com.homemade.pattern.singleton
+aliases: []
 displayName: com.homemade.pattern.singleton
 description: Small package about controll the audio
 repoUrl: https://github.com/hungpt17102k/com.homemade.pattern.singleton

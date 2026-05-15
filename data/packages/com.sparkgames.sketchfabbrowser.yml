@@ -1,4 +1,5 @@
 name: com.sparkgames.sketchfabbrowser
+aliases: []
 displayName: Sketchfab Browser
 description: Browse & Fetch models from Sketchfab.com
 repoUrl: 'https://github.com/muammar-yacoob/Unity-Sketchfab-Browser'

@@ -1,4 +1,5 @@
 name: io.nekonya.tinax.vfs
+aliases: []
 displayName: TinaX.VFS
 description: Virtual Files System - Assets management service package for TinaX Framework
   to Unity

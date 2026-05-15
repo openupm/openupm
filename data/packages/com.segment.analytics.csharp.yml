@@ -1,4 +1,5 @@
 name: com.segment.analytics.csharp
+aliases: []
 displayName: Segment Analytics for Unity
 description: The hassle-free way to add Segment analytics to your Unity app
 repoUrl: 'https://github.com/segmentio/Analytics-CSharp'

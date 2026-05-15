@@ -1,4 +1,5 @@
 name: at.ac.fhstp.apply-material-all
+aliases: []
 displayName: ApplyMaterialAll
 description: >-
   A Unity editor utility for applying a material to all GameObjects in a

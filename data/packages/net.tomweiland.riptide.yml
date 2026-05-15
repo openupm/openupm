@@ -1,4 +1,6 @@
 name: net.tomweiland.riptide
+aliases:
+  - net.tomweiland.riptidenetworking
 displayName: RiptideNetworking
 description: >-
   RiptideNetworking is a lightweight C# networking library primarily designed

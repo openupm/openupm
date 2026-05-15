@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite.threads.unity
+aliases: []
 displayName: LeoECS Lite Unity Jobs
 description: LeoECS Lite Unity Jobs support for LeoECS Lite.
 repoUrl: 'https://github.com/Leopotam/ecslite-threads-unity'

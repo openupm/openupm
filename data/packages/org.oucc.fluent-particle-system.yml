@@ -1,4 +1,5 @@
 name: org.oucc.fluent-particle-system
+aliases: []
 displayName: FluentParticleSystem
 description: Provides extension methods to write ParticleSystem of Unity with method chains.
 repoUrl: 'https://github.com/OUCC/FluentParticleSystem'

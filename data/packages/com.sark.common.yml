@@ -1,4 +1,5 @@
 name: com.sark.common
+aliases: []
 displayName: Sark-Common
 description: Common utilities I use in my projects.
 repoUrl: 'https://github.com/sarkahn/common'

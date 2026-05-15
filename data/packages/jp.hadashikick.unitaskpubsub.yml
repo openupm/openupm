@@ -1,4 +1,5 @@
 name: jp.hadashikick.unitaskpubsub
+aliases: []
 displayName: UniTaskPubSub
 description: >-
   UniTask & IUniTaskAsyncEnumerable baseed pub/sub messaging. this is like the

@@ -1,4 +1,5 @@
 name: com.valax321.meshsprites
+aliases: []
 displayName: Mesh Sprite
 description: >-
   Component for sprite rendering via mesh renderers. Allows for full unity

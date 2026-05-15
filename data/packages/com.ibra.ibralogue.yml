@@ -1,4 +1,5 @@
 name: com.ibra.ibralogue
+aliases: []
 displayName: Ibralogue
 description: Ibralogue is a dialogue library for the Unity Game Engine.
 repoUrl: 'https://github.com/ibra/Ibralogue'

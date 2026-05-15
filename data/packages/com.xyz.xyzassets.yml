@@ -1,4 +1,5 @@
 name: com.xyz.xyzassets
+aliases: []
 displayName: XyzAssets
 description: |-
   资源打包、加载一体化工具。参考Samples例子。

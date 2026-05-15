@@ -1,4 +1,5 @@
 name: com.unity.xr-line-renderer
+aliases: []
 displayName: XR Line Renderer
 description: An XR-Focused line renderer that mimics rendering with 3d capsules while
   only using two quads worth of geometry.

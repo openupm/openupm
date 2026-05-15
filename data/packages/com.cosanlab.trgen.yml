@@ -1,4 +1,5 @@
 name: com.cosanlab.trgen
+aliases: []
 displayName: TriggerBox CLI
 description: >-
   A Unity library that manages Ethernet socket communication with the CoSANLab

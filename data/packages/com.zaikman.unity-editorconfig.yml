@@ -1,4 +1,5 @@
 name: com.zaikman.unity-editorconfig
+aliases: []
 displayName: Unity EditorConfig
 description: >-
   The EditorConfig project consists of a file format for defining coding styles

@@ -1,4 +1,5 @@
 name: com.rfadeev.unityforge.animcallbacks
+aliases: []
 displayName: Unity Forge Anim Callbacks
 description: >-
   Runtime callbacks for Unity animation clips used in Animator and Animation

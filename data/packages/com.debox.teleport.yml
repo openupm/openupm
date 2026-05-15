@@ -1,4 +1,5 @@
 name: com.debox.teleport
+aliases: []
 displayName: Teleport Networking
 description: 'A fast, lightweight, pure C# Unity realtime-game-networking framework'
 repoUrl: 'https://github.com/debox-dev/Teleport'

@@ -1,4 +1,5 @@
 name: com.spoiledcat.git
+aliases: []
 displayName: Git for Unity
 description: >-
   Git for Unity integrates source control into your work with friendly and accessible tools and workflows.

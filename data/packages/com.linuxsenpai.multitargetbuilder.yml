@@ -1,4 +1,5 @@
 name: com.linuxsenpai.multitargetbuilder
+aliases: []
 displayName: MultiTarget Builder
 description: Unity Multi-Target Builder Configuration Project Tool
 repoUrl: https://github.com/voldien/UMultiTargetBuilder

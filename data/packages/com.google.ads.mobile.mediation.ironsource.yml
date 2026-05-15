@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.ironsource
+aliases: []
 displayName: Google Mobile Ads IronSource Mediation
 description: >-
   The Google Mobile Ads mediation plugin for IronSource package allows you to

@@ -1,4 +1,5 @@
 name: com.trove.spatialqueries
+aliases: []
 displayName: Trove Spatial Queries
 description: Trove Spatial Queries provides tools for efficient spatial queries.
 repoUrl: https://github.com/PhilSA/Trove

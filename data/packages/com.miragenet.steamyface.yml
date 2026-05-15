@@ -1,4 +1,6 @@
 name: com.miragenet.steamyface
+aliases:
+  - com.mirrorng.steamyface
 displayName: Mirage SteamyFaceNG
 description: Facepunch version of steam for mirage
 repoUrl: 'https://github.com/MirageNet/SteamyFaceNG'

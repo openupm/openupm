@@ -1,4 +1,5 @@
 name: com.ramis.visualyaml
+aliases: []
 displayName: Visual YAML
 description: YAML diff and visualization tool for Unity projects with Git integration
 repoUrl: https://github.com/RamiShehadeh/visualyaml

@@ -1,4 +1,5 @@
 name: com.squirrelbytes.ezs
+aliases: []
 displayName: Hybrid EZS
 description: |-
   Streamlines the transition from MonoBehaviour to DOTS

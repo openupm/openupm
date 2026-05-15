@@ -1,4 +1,5 @@
 name: com.vrmc.vrm
+aliases: []
 displayName: VRM-1.0β
 description: VRM-1.0β importer
 repoUrl: 'https://github.com/vrm-c/UniVRM'

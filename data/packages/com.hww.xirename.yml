@@ -1,4 +1,5 @@
 name: com.hww.xirename
+aliases: []
 displayName: XiRename
 description: 'XiRename, is a renaming tool Unity.'
 repoUrl: 'https://github.com/hww/XiRename'

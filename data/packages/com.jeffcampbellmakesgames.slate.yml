@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.slate
+aliases: []
 displayName: JCMG Slate
 description: A UI composition library for Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/jcmg-slate'

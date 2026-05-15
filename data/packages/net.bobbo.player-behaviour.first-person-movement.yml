@@ -1,4 +1,5 @@
 name: net.bobbo.player-behaviour.first-person-movement
+aliases: []
 displayName: Player Behaviour 1st Person Movement
 description: First person movement functionality for the Bobbo-Net Player Controller
 repoUrl: https://github.com/BOBBO-NET/netengine4

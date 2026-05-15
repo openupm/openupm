@@ -1,4 +1,5 @@
 name: com.selvassets.objectpool
+aliases: []
 displayName: SA - Object Pool
 description: Object pool implementation by SelvAssets
 repoUrl: https://github.com/selvassets/ObjectPool

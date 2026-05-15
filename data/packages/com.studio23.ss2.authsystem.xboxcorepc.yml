@@ -1,4 +1,5 @@
 name: com.studio23.ss2.authsystem.xboxcorepc
+aliases: []
 displayName: Authsystem.XboxCorePC
 description: This is a  package to streamline auth system for XBOX Core PC
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc

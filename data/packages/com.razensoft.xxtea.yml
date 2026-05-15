@@ -1,4 +1,5 @@
 name: com.razensoft.xxtea
+aliases: []
 displayName: Razensoft.XXTEA
 description: A simple and fast zero-dependency cryptography cypher for Unity
 repoUrl: 'https://github.com/Razenpok/Razensoft.XXTEA'

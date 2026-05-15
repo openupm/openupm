@@ -1,4 +1,5 @@
 name: com.gilzoide.sqlite-asset.csv
+aliases: []
 displayName: SQLite Asset - CSV
 description: Easily import ".csv" files as read-only SQLite database assets.
 repoUrl: https://github.com/gilzoide/unity-sqlite-asset-csv

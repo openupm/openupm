@@ -1,4 +1,5 @@
 name: com.oculus.unity.sample-framework
+aliases: []
 displayName: Oculus Sample Framework
 description: Unofficial Oculus Sample Framework as a package for Unity.
 repoUrl: https://github.com/Trisgram/com.oculus.unity.sample-framework

@@ -1,4 +1,5 @@
 name: com.sidequest.banter
+aliases: []
 displayName: Banter SDK
 description: >-
   This Module contains the Banter SDK used for building spaces in the

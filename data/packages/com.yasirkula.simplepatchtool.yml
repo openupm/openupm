@@ -1,4 +1,5 @@
 name: com.yasirkula.simplepatchtool
+aliases: []
 displayName: Simple Patch Tool
 description: >-
   Unity port of SimplePatchTool library to add patching support to standalone

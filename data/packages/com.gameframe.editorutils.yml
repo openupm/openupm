@@ -1,4 +1,5 @@
 name: com.gameframe.editorutils
+aliases: []
 displayName: Gameframe.EditorUtils
 description: Editor utilities and helpers for creating custom inspectors.
 repoUrl: 'https://github.com/coryleach/UnityEditorUtils'

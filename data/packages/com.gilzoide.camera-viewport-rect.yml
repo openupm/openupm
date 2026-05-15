@@ -1,4 +1,5 @@
 name: com.gilzoide.camera-viewport-rect
+aliases: []
 displayName: Camera Viewport Rect
 description: >-
   Automatically setup Camera viewports from RectTransforms

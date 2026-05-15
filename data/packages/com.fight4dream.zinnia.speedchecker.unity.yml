@@ -1,4 +1,5 @@
 name: com.fight4dream.zinnia.speedchecker.unity
+aliases: []
 displayName: FIGHT4DREAM Zinnia.SpeedChecker.Unity
 description: >-
   Check whether the speed from a velocity tracker or a vector exceeds threshold

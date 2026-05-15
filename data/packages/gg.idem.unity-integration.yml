@@ -1,4 +1,5 @@
 name: gg.idem.unity-integration
+aliases: []
 displayName: Idem Unity Integration
 description: >-
   Player-based Idem matchmaking implementation for Unity, both client and server

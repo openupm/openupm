@@ -1,4 +1,5 @@
 name: com.evomo.motionai
+aliases: []
 displayName: Evomo MotionAI
 description: Plugin used to classify complex movements and use them as an input method
 repoUrl: 'https://github.com/Evomo/unityMotionAIPlugin'

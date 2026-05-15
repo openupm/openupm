@@ -1,4 +1,5 @@
 name: com.yontalane.gridnav
+aliases: []
 displayName: Grid Nav
 description: A* grid navigation.
 repoUrl: 'https://github.com/yontalane/UnityPackages'

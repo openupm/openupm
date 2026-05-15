@@ -1,4 +1,5 @@
 name: jp.nobnak.snoise
+aliases: []
 displayName: Noise for Shader Graph (HLSL)
 description: Noise for Shader Graph (HLSL)
 repoUrl: 'https://github.com/nobnak/unity-noise'

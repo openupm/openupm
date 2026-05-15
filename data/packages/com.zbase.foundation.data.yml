@@ -1,4 +1,5 @@
 name: com.zbase.foundation.data
+aliases: []
 displayName: ZBase.Foundation.Data
 description: >-
   A tool to export ScriptableObject database from either Google Spreadsheet,

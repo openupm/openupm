@@ -1,4 +1,5 @@
 name: com.graingeridealab.komodo
+aliases: []
 displayName: KomodoCore
 description: Komodo WebXR Environment
 repoUrl: 'https://github.com/gelic-idealab/komodo-unity'

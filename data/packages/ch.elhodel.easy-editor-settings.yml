@@ -1,4 +1,5 @@
 name: ch.elhodel.easy-editor-settings
+aliases: []
 displayName: Easy Editor Settings
 description: This package provides an easy way to create editor Settings for Tools.
 repoUrl: https://github.com/elhodel/EasyEditorSettings

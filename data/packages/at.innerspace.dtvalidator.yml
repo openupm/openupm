@@ -1,4 +1,5 @@
 name: at.innerspace.dtvalidator
+aliases: []
 displayName: DT Validator
 description: >-
   Tool for validating objects (eg. GameObjects, ScriptableObjects, etc) in the

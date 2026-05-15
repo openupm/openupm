@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.runtimescripts
+aliases: []
 displayName: Toolnity Runtime Scripts
 description: Collection of scripts for runtime.
 repoUrl: 'https://github.com/DTeruel/Toolnity'

@@ -1,4 +1,5 @@
 name: com.walletconnect.web3modal
+aliases: []
 displayName: Web3Modal
 description: A single Web3 provider solution for all Wallets
 repoUrl: https://github.com/WalletConnect/Web3ModalUnity

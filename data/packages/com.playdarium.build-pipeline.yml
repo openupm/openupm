@@ -1,4 +1,5 @@
 name: com.playdarium.build-pipeline
+aliases: []
 displayName: Build Pipeline
 description: ''
 repoUrl: https://github.com/Playdarium/build-pipelines

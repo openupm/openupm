@@ -1,4 +1,5 @@
 name: com.deepglint.xr
+aliases: []
 displayName: DGXR Integration SDK
 description: Provides Deepglint XR support
 repoUrl: https://github.com/deepglint/dgxr-integration-sdk

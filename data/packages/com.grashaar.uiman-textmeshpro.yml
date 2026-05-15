@@ -1,4 +1,5 @@
 name: com.grashaar.uiman-textmeshpro
+aliases: []
 displayName: UIMan TextMeshPro
 description: TextMeshPro extensions for UIMan
 repoUrl: 'https://github.com/grashaar/uiman-textmeshpro'

@@ -1,4 +1,5 @@
 name: com.laicasaane.miniexcel
+aliases: []
 displayName: MiniExcel
 description: >-
   Fast, Low-Memory, Easy Excel .NET helper to import/export/template

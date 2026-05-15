@@ -1,4 +1,5 @@
 name: com.gm.httpremoteconnector
+aliases: []
 displayName: Http Remote Connector
 description: Base on http remote connector
 repoUrl: 'https://github.com/Goatman1996/HttpRemoteConnector'

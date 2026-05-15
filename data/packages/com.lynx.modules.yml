@@ -1,4 +1,5 @@
 name: com.lynx.modules
+aliases: []
 displayName: Lynx Modules
 description: Lynx-R1 modules (including handtracking support)
 repoUrl: https://github.com/Lynx-MR/UnitySDK

@@ -1,4 +1,5 @@
 name: com.katuusagi.arraypool
+aliases: []
 displayName: ArrayPool
 description: |-
   A system for pooling boxed objects.

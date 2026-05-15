@@ -1,4 +1,5 @@
 name: com.kagekirin.upmconfigprovider
+aliases: []
 displayName: .upmconfig.toml Provider
 description: Unity Editor extension to configure .upmconfig.toml
 repoUrl: https://github.com/KageKirin/UPMConfigProvider

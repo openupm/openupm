@@ -1,4 +1,5 @@
 name: com.gilzoide.native-collections-stream
+aliases: []
 displayName: Native Collections Stream
 description: >-
   Stream, TextReader and TextWriter implementations backed by Unity Native

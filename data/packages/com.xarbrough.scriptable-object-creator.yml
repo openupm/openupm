@@ -1,4 +1,5 @@
 name: com.xarbrough.scriptable-object-creator
+aliases: []
 displayName: ScriptableObject Creator
 description: Tools to create ScriptableObject assets from a wizard and context menus.
 repoUrl: https://github.com/chrisyarbrough/ScriptableObjectCreator

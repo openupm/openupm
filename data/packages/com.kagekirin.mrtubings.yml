@@ -1,4 +1,5 @@
 name: com.kagekirin.mrtubings
+aliases: []
 displayName: Mr. Tubings
 description: Visual debugger script to generate a skinned mesh from any transform
   hierarchy.

@@ -1,4 +1,5 @@
 name: net.pk1234.node_references_editor
+aliases: []
 displayName: Node references editor
 description: >-
   An editor window node based tool for setting up object references across

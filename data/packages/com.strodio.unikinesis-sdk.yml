@@ -1,4 +1,5 @@
 name: com.strodio.unikinesis-sdk
+aliases: []
 displayName: UniKinesis SDK
 description: AWS Kinesis SDK for Unity Native App and WebGL
 repoUrl: https://github.com/StromKuo/UniKinesis

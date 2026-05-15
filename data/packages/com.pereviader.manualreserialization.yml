@@ -1,4 +1,5 @@
 name: com.pereviader.manualreserialization
+aliases: []
 displayName: ManualReserialization
 description: Reserialize the assets in your project quicker
 repoUrl: https://github.com/PereViader/ManualReserialization

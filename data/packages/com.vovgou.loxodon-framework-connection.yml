@@ -1,4 +1,5 @@
 name: com.vovgou.loxodon-framework-connection
+aliases: []
 displayName: Loxodon Framework Connection
 description: >-
   This is a network connection component, implemented using TcpClient, supports

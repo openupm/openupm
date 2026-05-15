@@ -1,4 +1,5 @@
 name: com.aceland.commandhistory
+aliases: []
 displayName: AceLand Command History
 description: >-
   AceLand Command History is a Unity WebRequest implement package.

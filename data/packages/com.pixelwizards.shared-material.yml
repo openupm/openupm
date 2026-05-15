@@ -1,4 +1,5 @@
 name: com.pixelwizards.shared-material
+aliases: []
 displayName: Shared Material Helper
 description: Shared Material Helper - animate material instances at once!
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.shared-material'

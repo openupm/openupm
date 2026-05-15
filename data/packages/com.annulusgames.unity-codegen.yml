@@ -1,4 +1,5 @@
 name: com.annulusgames.unity-codegen
+aliases: []
 displayName: Unity CodeGen
 description: Code Generation Library for Unity Editor
 repoUrl: 'https://github.com/AnnulusGames/UnityCodeGen'

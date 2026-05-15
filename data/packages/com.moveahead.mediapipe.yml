@@ -1,4 +1,5 @@
 name: com.moveahead.mediapipe
+aliases: []
 displayName: MediaPipe
 description: MediaPipe for Unity
 repoUrl: https://github.com/Ale1/tf-lite-unity

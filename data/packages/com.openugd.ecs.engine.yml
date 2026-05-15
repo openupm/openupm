@@ -1,4 +1,5 @@
 name: com.openugd.ecs.engine
+aliases: []
 displayName: ECS Engine
 description: ECS Engine
 repoUrl: https://github.com/openugd/upm-ecs-engine

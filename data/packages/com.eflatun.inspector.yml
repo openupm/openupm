@@ -1,4 +1,5 @@
 name: com.eflatun.inspector
+aliases: []
 displayName: Eflatun.Inspector
 description: Inspector utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Inspector'

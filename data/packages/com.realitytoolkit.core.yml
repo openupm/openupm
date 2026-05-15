@@ -1,4 +1,5 @@
 name: com.realitytoolkit.core
+aliases: []
 displayName: RealityToolkit.Core
 description: The core framework of the Reality Toolkit by the Reality Collective.
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.core'

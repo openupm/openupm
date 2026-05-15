@@ -1,4 +1,5 @@
 name: com.gameworkstore.automation
+aliases: []
 displayName: GameWorkstore Automation
 description: Automate your projects with this powerful tool with many build options!
 repoUrl: 'https://github.com/GameWorkstore/automation'

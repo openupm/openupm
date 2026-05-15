@@ -1,4 +1,5 @@
 name: com.handzlikchris.fastscriptreload
+aliases: []
 displayName: Fast Script Reload
 description: >-
   Hot Reload implementation for Unity. Iterate on code insanely fast without

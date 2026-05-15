@@ -1,4 +1,5 @@
 name: io.codeblaze.extensions.cinemachine
+aliases: []
 displayName: CodeBlaze Extensions Cinemachine
 description: CodeBlaze's Packages for Unity
 repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'

@@ -1,4 +1,5 @@
 name: com.readyplayerme.core
+aliases: []
 displayName: Ready Player Me Core
 description: >-
   Ready Player Me Core is responsible for module management and setting up the

@@ -1,4 +1,5 @@
 name: com.cippsharpcore.osc
+aliases: []
 displayName: CippSharp.OneShotCoroutine
 description: A solution to run a Coroutine once (ignoring GameObject active status).
 repoUrl: 'https://github.com/Cippman/Unity-OneShotCoroutine'

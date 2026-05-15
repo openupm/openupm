@@ -1,4 +1,5 @@
 name: com.canstudio.bullet-storm
+aliases: []
 displayName: Bullet Storm
 description: Better particle system for 3d STG games.
 repoUrl: 'https://github.com/SUSTech-CANStudio/bullet-storm-unity'

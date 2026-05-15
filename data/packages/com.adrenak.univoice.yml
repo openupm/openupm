@@ -1,4 +1,5 @@
 name: com.adrenak.univoice
+aliases: []
 displayName: Adrenak.UniVoice
 description: Voice chat/VoIP solution for Unity.
 repoUrl: 'https://github.com/adrenak/univoice'

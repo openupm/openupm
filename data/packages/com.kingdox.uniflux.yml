@@ -1,4 +1,5 @@
 name: com.kingdox.uniflux
+aliases: []
 displayName: UniFlux
 description: Provides an method pub/sub flow integration to Unity.
 repoUrl: 'https://github.com/kingdox/UniFlux'

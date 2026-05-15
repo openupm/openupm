@@ -1,4 +1,5 @@
 name: com.erdem.overlays
+aliases: []
 displayName: E-Overlays
 description: This is an overlays package that provides create editor tools & utilities
 repoUrl: https://github.com/erdemkly/EOverlays

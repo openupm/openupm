@@ -1,4 +1,6 @@
 name: com.hryooba.dotween
+aliases:
+  - com.hryooba.library.dotween
 displayName: HRYooba.DOTween
 description: |-
   Unity HRYooba

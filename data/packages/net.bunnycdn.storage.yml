@@ -1,4 +1,5 @@
 name: net.bunnycdn.storage
+aliases: []
 displayName: BunnyCDN Storage
 description: The official .NET library used for interacting with the BunnyCDN Storage API.
 repoUrl: https://github.com/LostSignal/BunnyCDN.Net.Storage

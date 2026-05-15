@@ -1,4 +1,5 @@
 name: com.yasirkula.runtimetexture
+aliases: []
 displayName: Runtime Texture
 description: >-
   An abstraction layer on top of Texture2D.LoadImage to create Texture2D objects

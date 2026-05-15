@@ -1,4 +1,5 @@
 name: com.studio23.ss2.dialoguesystem
+aliases: []
 displayName: Dialogue System
 description: >-
   A Dialogue system that supportss dialogue trees, branching dialogue, events, localization and FMOD events.

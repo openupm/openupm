@@ -1,4 +1,5 @@
 name: nl.elmarjansen.geojsoncitybuilder
+aliases: []
 displayName: GeoJSON City Builder
 description: Unity Package to recreate a 3D-city from a specially crafted geojson file.
 repoUrl: 'https://github.com/ElmarJ/GeoJsonCityBuilder'

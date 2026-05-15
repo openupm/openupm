@@ -1,4 +1,5 @@
 name: com.syomus.proceduraltoolkit
+aliases: []
 displayName: Procedural Toolkit
 description: Procedural generation library for Unity
 repoUrl: 'https://github.com/Syomus/ProceduralToolkit'

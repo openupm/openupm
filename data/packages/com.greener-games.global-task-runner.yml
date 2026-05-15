@@ -1,4 +1,5 @@
 name: com.greener-games.global-task-runner
+aliases: []
 displayName: Global Task Runner
 description: Global Task Runner Script
 repoUrl: 'https://github.com/Greener-Games/TaskRunner'

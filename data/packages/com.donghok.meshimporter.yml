@@ -1,4 +1,5 @@
 name: com.donghok.meshimporter
+aliases: []
 displayName: Unity Mesh Importer
 description: Runtime mesh importer for Unity using AssimpNet
 repoUrl: 'https://github.com/eastskykang/UnityMeshImporter'

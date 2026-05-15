@@ -1,4 +1,5 @@
 name: com.reactunity.jint
+aliases: []
 displayName: React Unity Jint
 description: Jint Plugin for ReactUnity
 repoUrl: 'https://github.com/ReactUnity/jint'

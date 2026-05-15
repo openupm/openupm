@@ -1,4 +1,5 @@
 name: io.mrwatts.messageboxes
+aliases: []
 displayName: MessageBoxes
 description: >-
   This package contains the UI and scripts for conveniently implementing

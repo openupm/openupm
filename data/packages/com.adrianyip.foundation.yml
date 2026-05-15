@@ -1,4 +1,5 @@
 name: com.adrianyip.foundation
+aliases: []
 displayName: AYip Foundation
 description: This is the foundation package for my other packages.
 repoUrl: https://github.com/adrianyip-1222/ayip-package-foundation

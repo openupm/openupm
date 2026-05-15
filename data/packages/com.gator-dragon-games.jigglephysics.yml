@@ -1,4 +1,6 @@
 name: com.gator-dragon-games.jigglephysics
+aliases:
+  - com.naelstrof.jigglephysics
 displayName: Jiggle Physics
 description: A jobs-based relativistic squash-and-stretch jiggle physics solution for transforms in Unity.
 repoUrl: 'https://github.com/naelstrof/UnityJigglePhysics'

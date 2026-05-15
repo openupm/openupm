@@ -1,4 +1,5 @@
 name: com.tsgcpp.tscubemapgenerator
+aliases: []
 displayName: TSCubemapGenerator
 description: Cubemap generation (scene baking) tool.
 repoUrl: 'https://github.com/tsgcpp/TSCubemapGenerator'

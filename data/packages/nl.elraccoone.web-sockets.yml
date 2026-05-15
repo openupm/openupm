@@ -1,4 +1,5 @@
 name: nl.elraccoone.web-sockets
+aliases: []
 displayName: Web Sockets
 description: >-
   Unity Web Sockets provides a wrapper for using Web Sockets, an advanced

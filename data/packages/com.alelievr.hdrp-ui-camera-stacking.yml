@@ -1,4 +1,5 @@
 name: com.alelievr.hdrp-ui-camera-stacking
+aliases: []
 displayName: HDRP UI Camera Stacking
 description: Adds support for camera stacking in HDRP ONLY FOR UI
 repoUrl: 'https://github.com/alelievr/HDRP-UI-Camera-Stacking'

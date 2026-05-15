@@ -1,4 +1,5 @@
 name: com.nowsprinting.test-helper.input
+aliases: []
 displayName: Input Test Helper
 description: Test helper library for Input Manager (UnityEngine.Input).
 repoUrl: 'https://github.com/nowsprinting/test-helper.input'

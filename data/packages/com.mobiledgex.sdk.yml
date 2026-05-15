@@ -1,4 +1,5 @@
 name: com.mobiledgex.sdk
+aliases: []
 displayName: MobiledgeX
 description: >-
   The MobiledgeX Client Library enables an application to register and then

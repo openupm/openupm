@@ -1,4 +1,5 @@
 name: com.10101software.dots.hybridsimulation
+aliases: []
 displayName: DOTS Hybrid Simulation Worlds
 description: >-
   A framework for using FixedUpdate in a simulation world which is linked to a

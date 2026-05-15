@@ -1,4 +1,5 @@
 name: com.adlucem.coreso
+aliases: []
 displayName: Core SO
 description: ScriptableObjects type variables for SO Architecture in Unity
 repoUrl: 'https://github.com/Arzijin/CoreSO'

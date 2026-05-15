@@ -1,4 +1,5 @@
 name: com.jonlevin.worldmap
+aliases: []
 displayName: World Map
 description: Unity3D plugin for level-select/progression maps with Cinemachine
 repoUrl: 'https://github.com/JonLevin25/WorldMap'

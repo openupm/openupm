@@ -1,4 +1,5 @@
 name: id.instance.aboveaverageinspector
+aliases: []
 displayName: instance.id.AboveAverageInspector
 description: >-
   A custom inspector drawer, because I wanted something I could organize into

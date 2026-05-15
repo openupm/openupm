@@ -1,4 +1,5 @@
 name: com.xeleh.enhancer
+aliases: []
 displayName: Editor Enhancer
 description: A collection of utilities to enhance the Unity Editor
 repoUrl: 'https://github.com/xeleh/enhancer'

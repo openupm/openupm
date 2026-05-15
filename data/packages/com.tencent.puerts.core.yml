@@ -1,4 +1,5 @@
 name: com.tencent.puerts.core
+aliases: []
 displayName: Puerts
 description: >-
   Write your game with TypeScript in UE4 or Unity. Puerts can be pronounced as

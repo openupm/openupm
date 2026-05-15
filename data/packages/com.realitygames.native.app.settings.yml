@@ -1,4 +1,5 @@
 name: com.realitygames.native.app.settings
+aliases: []
 displayName: Native App Settings
 description: >-
   A plugin that provides easy access to system settings page. Note, that on iOS

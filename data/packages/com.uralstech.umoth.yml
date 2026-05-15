@@ -1,4 +1,5 @@
 name: com.uralstech.umoth
+aliases: []
 displayName: UMoth
 description: Google and Apple authentication for mobile.
 repoUrl: https://github.com/Uralstech/UMoth

@@ -1,4 +1,5 @@
 name: com.houraiteahouse.backroll
+aliases: []
 displayName: Backroll
 description: Unity C# Port of GGPO built atop Hourai Networking
 repoUrl: 'https://github.com/HouraiTeahouse/Backroll'

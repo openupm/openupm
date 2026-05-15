@@ -1,4 +1,5 @@
 name: com.cysharp.messagepipe
+aliases: []
 displayName: MessagePipe
 description: High performance messaging pipeline.
 repoUrl: 'https://github.com/Cysharp/MessagePipe'

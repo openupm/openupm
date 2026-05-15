@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.essential
+aliases: []
 displayName: EntitiesBT - Essential
 description: Behavior Tree for Unity Entities
 repoUrl: 'https://github.com/quabug/EntitiesBT'

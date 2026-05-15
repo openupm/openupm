@@ -1,4 +1,5 @@
 name: com.utj.remoteconnect
+aliases: []
 displayName: RemoteConnect
 description: This is Connecting the Unity Editor and Unity Player
 repoUrl: 'https://github.com/katsumasa/RemoteConnect'

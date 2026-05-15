@@ -1,4 +1,5 @@
 name: jp.keijiro.metamesh
+aliases: []
 displayName: Metamesh
 description: Unity primitive mesh generator as an asset importer
 repoUrl: 'https://github.com/keijiro/Metamesh'

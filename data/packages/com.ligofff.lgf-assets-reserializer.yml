@@ -1,4 +1,5 @@
 name: com.ligofff.lgf-assets-reserializer
+aliases: []
 displayName: Ligofff - LGF Assets Reserializer
 description: Package, that adds option for reserialize assets in project
 repoUrl: https://github.com/ligofff/lgf-assets-reserializer

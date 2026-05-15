@@ -1,4 +1,5 @@
 name: com.kwanjoong.nestedscrollrect
+aliases: []
 displayName: Nested Scroll Rect
 description: >-
   Nested Scroll Rect Handles user scroll input and passes it to the parent

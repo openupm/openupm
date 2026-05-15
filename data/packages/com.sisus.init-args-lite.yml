@@ -1,4 +1,5 @@
 name: com.sisus.init-args-lite
+aliases: []
 displayName: Init(args) Lite
 description: Init(args) Lite is a free version of the Init(args) dependency injection
   framework. It extends the MonoBehaviour class with the ability to receive arguments

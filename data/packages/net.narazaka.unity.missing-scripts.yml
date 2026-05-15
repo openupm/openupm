@@ -1,4 +1,5 @@
 name: net.narazaka.unity.missing-scripts
+aliases: []
 displayName: Check Missing Scripts
 description: Find Missing Scripts in the current scene.
 repoUrl: 'https://github.com/Narazaka/CheckMissingScripts'

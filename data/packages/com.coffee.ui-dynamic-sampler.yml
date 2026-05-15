@@ -1,4 +1,5 @@
 name: com.coffee.ui-dynamic-sampler
+aliases: []
 displayName: UI Dynamic Sampler
 description: Dynamic sampler component for anti-aliasing UI elements.
 repoUrl: https://github.com/mob-sakai/UIDynamicSampler

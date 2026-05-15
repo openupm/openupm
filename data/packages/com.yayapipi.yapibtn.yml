@@ -1,4 +1,5 @@
 name: com.yayapipi.yapibtn
+aliases: []
 displayName: YapiBtn
 description: The **YapiBtn** package allows you to add custom buttons in the Unity
   Inspector by attaching the `[YapiBtn]` attribute to methods, making testing and

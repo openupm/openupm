@@ -1,4 +1,5 @@
 name: com.lisearcheleeds.lighthouse-extends.language
+aliases: []
 displayName: Lighthouse Extends - Language
 description: Reactive language switching service. Registered handlers are called in parallel before CurrentLanguage updates.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'

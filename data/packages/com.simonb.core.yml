@@ -1,4 +1,5 @@
 name: com.simonb.core
+aliases: []
 displayName: SimonB Core Package
 description: Core for my projects
 repoUrl: 'https://github.com/capsizedmoose/com.simonb.core'

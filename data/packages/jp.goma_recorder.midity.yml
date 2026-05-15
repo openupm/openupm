@@ -1,4 +1,5 @@
 name: jp.goma_recorder.midity
+aliases: []
 displayName: Midity
 description: >-
   This is a custom unity package for reading and writing Standard MIDI Files

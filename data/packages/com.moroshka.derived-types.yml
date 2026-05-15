@@ -1,4 +1,5 @@
 name: com.moroshka.derived-types
+aliases: []
 displayName: Moroshka.DerivedTypes
 description: >-
   Derived Types allows serialization of System.Type for the Unity inspector. It

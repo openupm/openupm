@@ -1,4 +1,5 @@
 name: com.annulusgames.zero-messenger.vcontainer
+aliases: []
 displayName: ZeroMessenger.VContainer
 description: VContainer extensions for ZeroMessenger
 repoUrl: https://github.com/AnnulusGames/ZeroMessenger

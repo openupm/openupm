@@ -1,4 +1,5 @@
 name: com.frokongames.gamework.foundation
+aliases: []
 displayName: 'Game:Work Foundation'
 description: 'Architecture-agnostic code and tools to make Unity based games.'
 repoUrl: 'https://github.com/FronkonGames/GameWork-Foundation'

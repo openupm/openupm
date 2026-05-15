@@ -1,4 +1,5 @@
 name: com.youngchan.roslyn-repl
+aliases: []
 displayName: Unity Roslyn REPL
 description: "Editor-only C# REPL for Unity, powered by Roslyn. Compile and execute arbitrary C# at runtime, inspect any MonoBehaviour / ScriptableObject / singleton in memory, watch expressions live, save named snippets, and review run history \x80\x94 all from a UI Toolkit window inside the Editor. Zero project dependencies."
 repoUrl: https://github.com/djdcks12/UNITY-ROSLYN-REPL

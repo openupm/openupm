@@ -1,4 +1,5 @@
 name: com.bg.directoryduplicator
+aliases: []
 displayName: DirectoryDuplicator
 description: 'This package is possible to duplicate files in directory with guid dependencies.'
 repoUrl: 'https://github.com/k-okawa/DirectoryDuplicator'

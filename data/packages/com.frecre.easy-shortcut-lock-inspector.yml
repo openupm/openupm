@@ -1,4 +1,5 @@
 name: com.frecre.easy-shortcut-lock-inspector
+aliases: []
 displayName: Easy Shortcut Lock Inspector
 description: A shortcut key to toggle Inspector option lock/unlock with Ctrl+L.
 repoUrl: https://github.com/SolidAlloy/EasyShortcutLockInspector

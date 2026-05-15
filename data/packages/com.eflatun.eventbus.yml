@@ -1,4 +1,5 @@
 name: com.eflatun.eventbus
+aliases: []
 displayName: Eflatun.EventBus
 description: Generic event bus for Unity with Extenject.
 repoUrl: 'https://github.com/starikcetin/Eflatun.EventBus'

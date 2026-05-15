@@ -1,4 +1,5 @@
 name: com.virgis.pdal
+aliases: []
 displayName: Pdal
 description: Unity Package for PDAL
 repoUrl: 'https://github.com/ViRGIS-Team/pdal-upm'

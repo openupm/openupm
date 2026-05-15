@@ -1,4 +1,5 @@
 name: com.openugd.ui
+aliases: []
 displayName: UI Elements
 description: |
   require .NET 4x

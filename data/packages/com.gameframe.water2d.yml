@@ -1,4 +1,5 @@
 name: com.gameframe.water2d
+aliases: []
 displayName: Gameframe.Water2D
 description: 2D splashy springy water
 repoUrl: 'https://github.com/coryleach/UnityWater2D'

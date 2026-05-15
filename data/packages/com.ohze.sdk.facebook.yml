@@ -1,4 +1,5 @@
 name: com.ohze.sdk.facebook
+aliases: []
 displayName: Facebook SDK
 description: The Facebook SDK for Unity provides a comprehensive collection of Facebook's
   social features, giving players of your Unity game the ability to share content

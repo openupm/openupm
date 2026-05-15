@@ -1,4 +1,5 @@
 name: com.oddworm.uiculling
+aliases: []
 displayName: UI Culling
 description: >-
   UI Culling for Unity allows to trigger OnBecameVisible & OnBecameInvisible

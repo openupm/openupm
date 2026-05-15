@@ -1,4 +1,5 @@
 name: dev.upm-packages.cafu-core
+aliases: []
 displayName: CAFU Core
 description: Clean Architecture For Unity
 repoUrl: 'https://github.com/umm/cafu_core'

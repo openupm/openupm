@@ -1,4 +1,5 @@
 name: com.dh.dh_stats
+aliases: []
 displayName: DH Stats System
 description: >-
   This system manages n-many stats in a way that allows m-many modifiers to be

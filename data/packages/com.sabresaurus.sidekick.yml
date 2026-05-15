@@ -1,4 +1,5 @@
 name: com.sabresaurus.sidekick
+aliases: []
 displayName: Sidekick
 description: 'Inspect private fields, properties, fire methods and more'
 repoUrl: 'https://github.com/sabresaurus/Sidekick'

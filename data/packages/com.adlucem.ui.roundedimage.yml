@@ -1,4 +1,5 @@
 name: com.adlucem.ui.roundedimage
+aliases: []
 displayName: AdLucem RoundedImage
 description: Rounded image implementation for Unity UI
 repoUrl: 'https://github.com/Arzijin/RoundedImage'

@@ -1,4 +1,5 @@
 name: com.pixelwizards.singleton
+aliases: []
 displayName: PixelWizards - Singleton
 description: Monobehaviour Singleton pattern
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.singleton'

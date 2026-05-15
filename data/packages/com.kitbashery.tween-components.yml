@@ -1,4 +1,5 @@
 name: com.kitbashery.tween-components
+aliases: []
 displayName: Tween Components
 description: A component based interpolation system.
 repoUrl: 'https://github.com/Kitbashery/Tween-Components'

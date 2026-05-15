@@ -1,4 +1,5 @@
 name: com.ges.services.windows
+aliases: []
 displayName: Tiny Service Windows
 description: Windows management system
 repoUrl: https://github.com/gestiran/TinyServiceWindows

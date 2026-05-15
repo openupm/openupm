@@ -1,4 +1,5 @@
 name: com.leopotam.ecs
+aliases: []
 displayName: LeoECS Core
 description: >-
   LeoECS is a fast Entity Component System (ECS) Framework powered by C# with

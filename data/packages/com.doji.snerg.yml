@@ -1,4 +1,5 @@
 name: com.doji.snerg
+aliases: []
 displayName: SNeRG
 description: An unofficial Unity port of the SNeRG viewer.
 repoUrl: 'https://github.com/julienkay/SNeRG-Unity-Viewer'

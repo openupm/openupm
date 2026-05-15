@@ -1,4 +1,5 @@
 name: com.euglenach.inputswitcher
+aliases: []
 displayName: InputSwitcher
 description: A library that makes input branching safe and easy based on Rx.
 repoUrl: 'https://github.com/euglenach/InputSwitcher'

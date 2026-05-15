@@ -1,4 +1,5 @@
 name: holybomb.unity.litjson
+aliases: []
 displayName: LitJSON
 description: LitJson-CSharp
 repoUrl: 'https://github.com/holybomb/LitJson-CSharp'

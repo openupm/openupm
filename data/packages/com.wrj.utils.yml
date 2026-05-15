@@ -1,4 +1,5 @@
 name: com.wrj.utils
+aliases: []
 displayName: WRJ Utilities
 description: Stuff I use a lot, and a simple AnimationCurve-based tweening interface.
 repoUrl: https://github.com/williamrjackson/UnityScriptingUtilities

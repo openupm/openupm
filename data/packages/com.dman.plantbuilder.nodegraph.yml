@@ -1,4 +1,5 @@
 name: com.dman.plantbuilder.nodegraph
+aliases: []
 displayName: Nodegraph plant creator
 description: Nodegraph tools for the plantbuilder package
 repoUrl: 'https://github.com/dsmiller95/plantbuilder'

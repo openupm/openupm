@@ -1,4 +1,5 @@
 name: com.esotericsoftware.spine.spine-csharp
+aliases: []
 displayName: spine-csharp Runtime
 description: This plugin provides the spine-csharp core runtime.
 repoUrl: https://github.com/EsotericSoftware/spine-runtimes

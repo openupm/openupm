@@ -1,4 +1,5 @@
 name: dev.chsxf.autoscene
+aliases: []
 displayName: AutoScene
 description: >-
   AutoScene allows you to work on your Unity scene setup in the editor while

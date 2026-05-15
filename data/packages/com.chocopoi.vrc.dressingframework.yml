@@ -1,4 +1,5 @@
 name: com.chocopoi.vrc.dressingframework
+aliases: []
 displayName: DressingFramework
 description: A framework that assembles DressingTools and provides interfaces for
   third-party developers.

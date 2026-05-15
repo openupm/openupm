@@ -1,4 +1,5 @@
 name: com.izayoi.data.dbcommandadapter
+aliases: []
 displayName: Izayoi.Data.DbCommandAdapter
 description: >-
   This is a database operation support library that includes a fast micro O/R

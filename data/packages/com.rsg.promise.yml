@@ -1,4 +1,5 @@
 name: com.rsg.promise
+aliases: []
 displayName: C# Promise
 description: >-
   Promises library for C# for management of asynchronous operations. Inspired by

@@ -1,4 +1,5 @@
 name: com.denis535.colorful-project-window
+aliases: []
 displayName: Colorful Project Window
 description: The package provides you with a more convenient project window, which
   highlights the most important files and folders in special colors.

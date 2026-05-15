@@ -1,4 +1,5 @@
 name: com.openugd.dependency.injection
+aliases: []
 displayName: Dependency Injection
 description: Dependency Injection
 repoUrl: https://github.com/openugd/upm-dependency-injection

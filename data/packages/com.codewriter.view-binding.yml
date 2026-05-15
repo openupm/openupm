@@ -1,4 +1,5 @@
 name: com.codewriter.view-binding
+aliases: []
 displayName: View Binding
 description: View binding library for Unity
 repoUrl: 'https://github.com/codewriter-packages/View-Binding'

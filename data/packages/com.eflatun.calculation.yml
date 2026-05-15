@@ -1,4 +1,5 @@
 name: com.eflatun.calculation
+aliases: []
 displayName: Eflatun.Calculation
 description: Calculation utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Calculation'

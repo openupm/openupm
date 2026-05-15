@@ -1,4 +1,5 @@
 name: com.praeclarum.sqlite-net
+aliases: []
 displayName: SQLite.net
 description: 'Simple, powerful, cross-platform SQLite client and ORM for .NET'
 repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/sqlite-net'

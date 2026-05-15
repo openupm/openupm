@@ -1,4 +1,5 @@
 name: com.sandrofigo.debug-menu-unity3d
+aliases: []
 displayName: Debug Menu
 description: A debug menu to call methods on active MonoBehaviours in Unity
 repoUrl: 'https://github.com/sandrofigo/Debug-Menu-Unity3D'

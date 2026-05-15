@@ -1,4 +1,5 @@
 name: com.dtech.pulse
+aliases: []
 displayName: Pulse - Initialization System
 description: Initialization system for Unity.
 repoUrl: https://github.com/DanilChizhikov/pulse

@@ -1,4 +1,5 @@
 name: com.kdmagic.susmachine
+aliases: []
 displayName: Simple Unity State Machine
 description: A finite state machine library built for Unity.
 repoUrl: 'https://github.com/JamesYFC/SUSMachine'

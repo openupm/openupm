@@ -1,4 +1,5 @@
 name: com.joshclose.csvhelper
+aliases: []
 displayName: CsvHelper
 description: Library to help reading and writing CSV files
 repoUrl: https://github.com/yoshida190/CsvHelper

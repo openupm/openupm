@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.hierarchy-behaviour
+aliases: []
 displayName: Duck Hierarchy Behaviour
 description: >-
   A quick way to create a MonoBehaviour as a child object that includes an

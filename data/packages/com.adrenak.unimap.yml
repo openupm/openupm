@@ -1,4 +1,5 @@
 name: com.adrenak.unimap
+aliases: []
 displayName: UniMap
 description: Google Maps wrapper for Unity
 repoUrl: 'https://github.com/adrenak/unimap'

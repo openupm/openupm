@@ -1,4 +1,5 @@
 name: com.genesis.objectivesystem
+aliases: []
 displayName: Genesis Objective System
 description: A custom objective system for managing objectives in your app.
 repoUrl: https://github.com/MohabAbdElMohsen/Genesis-Objective-System

@@ -1,4 +1,5 @@
 name: com.anupackages.debugconsole
+aliases: []
 displayName: ANU Ingame debug console
 description: Provides easy way to create and invoke debug commands in game console
 repoUrl: https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.debugconsole

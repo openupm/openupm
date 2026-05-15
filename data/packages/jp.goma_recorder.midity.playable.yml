@@ -1,4 +1,5 @@
 name: jp.goma_recorder.midity.playable
+aliases: []
 displayName: Playable Midi
 description: >-
   This is a custom timeline/playables package that provides functionality to

@@ -1,4 +1,5 @@
 name: com.pwalser.unitaskwebsocket
+aliases: []
 displayName: UniTaskWebSocket
 description: >-
   Wraps a WebSocket (System.Net.WebSockets and jslib-bridged WebSocket) in an

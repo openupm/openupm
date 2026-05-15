@@ -1,4 +1,5 @@
 name: com.realitygames.logextractor
+aliases: []
 displayName: Log Extractor
 description: Provides a way to extract and share logs from the devices.
 repoUrl: https://github.com/RealityGamesLtd/log-extractor-unity

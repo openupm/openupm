@@ -1,4 +1,5 @@
 name: com.amazonaws.gamekit
+aliases: []
 displayName: AWS GameKit
 description: >-
   Use the AWS GameKit package to configure and deploy backend cloud services for

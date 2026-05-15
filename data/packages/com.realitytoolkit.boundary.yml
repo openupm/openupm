@@ -1,4 +1,5 @@
 name: com.realitytoolkit.boundary
+aliases: []
 displayName: RealityToolkit.Boundary
 description: >-
   A boundary system for use with the Reality Toolkit.

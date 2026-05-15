@@ -1,4 +1,5 @@
 name: com.coffee.ui-effect-snapshot
+aliases: []
 displayName: UI Effect Snapshot
 description: >-
   Capture a screenshot of a specific frame with visual effect, and display it.

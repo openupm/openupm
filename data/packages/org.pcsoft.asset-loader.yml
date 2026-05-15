@@ -1,4 +1,5 @@
 name: org.pcsoft.asset-loader
+aliases: []
 displayName: Asset Loader
 description: Extension to give an easy way to load assets from different sources
 repoUrl: https://github.com/KleinerHacker/unity-asset-loader

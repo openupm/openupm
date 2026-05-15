@@ -1,4 +1,5 @@
 name: com.doji.chromatic
+aliases: []
 displayName: Chromatic
 description: color utility
 repoUrl: https://github.com/julienkay/com.doji.chromatic

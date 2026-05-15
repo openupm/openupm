@@ -1,4 +1,5 @@
 name: com.prime31.tweenme
+aliases: []
 displayName: GoKit
 description: Lightweight tween library for Unity
 repoUrl: 'https://github.com/zory/GoKit'

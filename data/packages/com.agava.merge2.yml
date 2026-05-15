@@ -1,4 +1,5 @@
 name: com.agava.merge2
+aliases: []
 displayName: Merge2 Core
 description: Template for merge2 games.
 repoUrl: 'https://github.com/ArtemVetik/com.agava.merge2'

@@ -1,4 +1,5 @@
 name: com.strikervr.strikersdk
+aliases: []
 displayName: StrikerVR StrikerLink SDK
 description: StrikerVR SDK for Unity
 repoUrl: 'https://github.com/StrikerVirtualRecoil/com.strikervr.strikersdk'

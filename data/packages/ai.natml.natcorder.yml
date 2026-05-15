@@ -1,4 +1,5 @@
 name: ai.natml.natcorder
+aliases: []
 displayName: NatCorder
 description: High performance, cross-platform video recording for Unity Engine.
 repoUrl: https://github.com/natmlx/NatCorder

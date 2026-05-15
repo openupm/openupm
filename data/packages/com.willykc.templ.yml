@@ -1,4 +1,5 @@
 name: com.willykc.templ
+aliases: []
 displayName: Templ
 description: Integrates Scriban template engine with the Unity Editor.
 repoUrl: 'https://github.com/willykc/templ'

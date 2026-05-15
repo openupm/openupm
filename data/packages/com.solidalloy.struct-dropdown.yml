@@ -1,4 +1,5 @@
 name: com.solidalloy.struct-dropdown
+aliases: []
 displayName: Struct DropDown
 description: >-
   Create drop-down lists which can contain objects of any type with one simple

@@ -1,4 +1,5 @@
 name: com.fluid.dialogue
+aliases: []
 displayName: Fluid Dialogue
 description: >-
   A Unity dialogue system that features an easy to use drag and drop graph.

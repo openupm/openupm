@@ -1,4 +1,5 @@
 name: com.needle.console
+aliases: []
 displayName: Needle Console
 description: >-
   Better Unity console featuring improved stacktrace readability using

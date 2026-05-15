@@ -1,4 +1,5 @@
 name: com.yasirkula.inspectplus
+aliases: []
 displayName: Inspect+
 description: Speeding up your Inspector workflow in Unity 3D
 repoUrl: 'https://github.com/yasirkula/UnityInspectPlus'

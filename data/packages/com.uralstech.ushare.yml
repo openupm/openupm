@@ -1,4 +1,5 @@
 name: com.uralstech.ushare
+aliases: []
 displayName: UShare
 description: Share sheet support for mobile platforms.
 repoUrl: https://github.com/Uralstech/UShare

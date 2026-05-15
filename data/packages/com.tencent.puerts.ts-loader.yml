@@ -1,4 +1,5 @@
 name: com.tencent.puerts.ts-loader
+aliases: []
 displayName: Puerts TS loader
 description: use typescript with more joy for PuerTS.
 repoUrl: 'https://github.com/zombieyang/puerts-ts-loader'

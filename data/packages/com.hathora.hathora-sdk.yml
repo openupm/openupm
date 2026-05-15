@@ -1,4 +1,5 @@
 name: com.hathora.hathora-sdk
+aliases: []
 displayName: Hathora Unity SDK
 description: >-
   Serverless cloud hosting for multiplayer games: Seamlessly build, deploy, and

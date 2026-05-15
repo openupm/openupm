@@ -1,4 +1,5 @@
 name: com.adrianyip.ddd
+aliases: []
 displayName: AYip DDD
 description: >-
   This is a simplest DDD package for software that implements domain driven

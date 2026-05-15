@@ -1,4 +1,5 @@
 name: com.frostbun.unit.initializables
+aliases: []
 displayName: UniT Initializables
 description: Initializable Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Initializables

@@ -1,4 +1,5 @@
 name: com.u2sb.netcoreserver
+aliases: []
 displayName: UnityNetCoreServer
 description: NetCoreServer for Unity
 repoUrl: https://github.com/u2sb/UnityNetCoreServer

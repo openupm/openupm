@@ -1,4 +1,5 @@
 name: org.authenticexperiences.unityasync
+aliases: []
 displayName: UnityAsync
 description: >-
   An allocation-free, high performance coroutine framework for Unity built

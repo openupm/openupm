@@ -1,4 +1,5 @@
 name: com.juce.tween
+aliases: []
 displayName: Juce-Tween
 description: Open-source tweening library that's part of the Juce Unity tools framework.
 repoUrl: 'https://github.com/Juce-Assets/Juce-Tween'

@@ -1,4 +1,5 @@
 name: com.vertexcolor.validator
+aliases: []
 displayName: Validator
 description: Unity project validator framework.
 repoUrl: 'https://github.com/maxartz15/Validator'

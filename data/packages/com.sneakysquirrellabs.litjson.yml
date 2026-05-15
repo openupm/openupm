@@ -1,4 +1,5 @@
 name: com.sneakysquirrellabs.litjson
+aliases: []
 displayName: LitJSON
 description: A .NET library to handle conversions from and to JSON strings.
 repoUrl: https://github.com/matheusamazonas/litjson

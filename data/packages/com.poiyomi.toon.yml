@@ -1,4 +1,5 @@
 name: com.poiyomi.toon
+aliases: []
 displayName: Poiyomi Toon Shader
 description: Feature-rich shaders for Unity and VRChat.
 repoUrl: https://github.com/poiyomi/PoiyomiToonShader

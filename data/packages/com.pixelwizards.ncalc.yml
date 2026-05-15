@@ -1,4 +1,5 @@
 name: com.pixelwizards.ncalc
+aliases: []
 displayName: com.pixelwizards.ncalc
 description: 'Unity package wrapper for Ncalc '
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.ncalc'

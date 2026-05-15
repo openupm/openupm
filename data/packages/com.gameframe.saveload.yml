@@ -1,4 +1,5 @@
 name: com.gameframe.saveload
+aliases: []
 displayName: Gameframe.SaveLoad
 description: 'Quickly Save/Load data in Binary or Json formats, and Encrypt it in Unity'
 repoUrl: 'https://github.com/coryleach/UnitySaveLoad'

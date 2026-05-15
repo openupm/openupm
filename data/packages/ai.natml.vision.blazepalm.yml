@@ -1,4 +1,5 @@
 name: ai.natml.vision.blazepalm
+aliases: []
 displayName: BlazePalm
 description: Palm landmark prediction with MediaPipe Hands in Unity Engine.
 repoUrl: https://github.com/natmlx/blazepalm-unity

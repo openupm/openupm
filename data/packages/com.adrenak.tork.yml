@@ -1,4 +1,5 @@
 name: com.adrenak.tork
+aliases: []
 displayName: Tork
 description: Arcade vehicle physics for Unity
 repoUrl: 'https://github.com/adrenak/tork'

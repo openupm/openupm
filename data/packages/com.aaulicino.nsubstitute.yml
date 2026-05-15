@@ -1,4 +1,5 @@
 name: com.aaulicino.nsubstitute
+aliases: []
 displayName: NSubstitute
 description: A friendly substitute for .NET mocking libraries
 repoUrl: https://github.com/AAulicino/Unity3D-NSubstitute

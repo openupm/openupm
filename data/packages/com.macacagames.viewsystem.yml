@@ -1,4 +1,5 @@
 name: com.macacagames.viewsystem
+aliases: []
 displayName: Macaca View System
 description: >-
   ViewSystem is a element based UI management system based on Unity GUI. It is

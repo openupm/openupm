@@ -1,4 +1,5 @@
 name: eu.netherlands3d.snapshots
+aliases: []
 displayName: Netherlands3D - Snapshots
 description: >-
   This package provides the means to do screen captures / snapshots for

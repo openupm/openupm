@@ -1,5 +1,6 @@
   
 name: com.vovgou.loxodon-framework-ilruntime
+aliases: []
 displayName: Loxodon Framework ILRuntime
 description: >-
   This is a ILRuntime plugin for Loxodon.Framework.  

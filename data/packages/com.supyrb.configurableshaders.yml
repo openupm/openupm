@@ -1,4 +1,5 @@
 name: com.supyrb.configurableshaders
+aliases: []
 displayName: Configurable Shaders
 description: Showing off the power of shader properties in Unity
 repoUrl: 'https://github.com/supyrb/ConfigurableShaders'

@@ -1,4 +1,5 @@
 name: com.eflatun.tracking2d
+aliases: []
 displayName: Eflatun.Tracking2D
 description: >-
   This was an attempt to replace Unity's built-in 2D physics engine with only

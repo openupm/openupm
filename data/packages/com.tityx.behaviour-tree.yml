@@ -1,4 +1,5 @@
 name: com.tityx.behaviour-tree
+aliases: []
 displayName: Behaviour Tree
 description: Behaviour tree for AI units
 repoUrl: https://github.com/Tityxx/BehaviourTree

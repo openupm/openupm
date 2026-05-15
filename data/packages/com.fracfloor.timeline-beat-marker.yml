@@ -1,4 +1,5 @@
 name: com.fracfloor.timeline-beat-marker
+aliases: []
 displayName: Timeline Beat Marker
 description: A Unity editor utility for adding beat markers to a Timeline asset
 repoUrl: https://github.com/raii-x/timeline-beat-marker

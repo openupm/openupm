@@ -1,4 +1,5 @@
 name: com.rx.unity
+aliases: []
 displayName: Reactive Extensions Enrichment for Unity
 description: A minimalistic MVVM framework for the new Unity UI Toolkit build on EcsRx.
 repoUrl: 'https://github.com/Cosmic-Shores/Rx.Unity'

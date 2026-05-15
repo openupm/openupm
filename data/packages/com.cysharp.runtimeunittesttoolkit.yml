@@ -1,4 +1,5 @@
 name: com.cysharp.runtimeunittesttoolkit
+aliases: []
 displayName: RuntimeUnitTestToolkit
 description: CLI/GUI Frontend of Unity Test Runner to test on any platform.
 repoUrl: 'https://github.com/Cysharp/RuntimeUnitTestToolkit'

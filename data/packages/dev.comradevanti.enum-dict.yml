@@ -1,4 +1,5 @@
 name: dev.comradevanti.enum-dict
+aliases: []
 displayName: EnumDict
 description: Dictionary type with an entry for each value of an enum
 repoUrl: 'https://github.com/ComradeVanti/UnityEnumDict'

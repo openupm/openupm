@@ -1,4 +1,5 @@
 name: com.pzy.clientconfig
+aliases: []
 displayName: Client Config
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'

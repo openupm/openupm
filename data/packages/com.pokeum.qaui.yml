@@ -1,4 +1,5 @@
 name: com.pokeum.qaui
+aliases: []
 displayName: QAUI
 description: A lightweight Unity UI SDK focused on code-driven QA UIs.
 repoUrl: https://github.com/pokeum/QAUI

@@ -1,4 +1,5 @@
 name: com.vertx.edge-knife
+aliases: []
 displayName: Edge Knife
 description: "Edge tool for Shader Graph/VFX Graph."
 repoUrl: https://github.com/vertxxyz/Vertx.EdgeKnife

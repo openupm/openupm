@@ -1,4 +1,5 @@
 name: be.elab.pushgenericintegerdate
+aliases: []
 displayName: Push Generic Integer as Input to play game
 description: Demo of integer use as input for game and remote control with IID server.
 repoUrl: https://github.com/EloiStree/OpenUPM_PushGenericIID

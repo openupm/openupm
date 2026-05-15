@@ -1,4 +1,5 @@
 name: com.yasirkula.imagecropper
+aliases: []
 displayName: Image Cropper
 description: A uGUI based image cropping solution for Unity 3D
 repoUrl: 'https://github.com/yasirkula/UnityImageCropper'

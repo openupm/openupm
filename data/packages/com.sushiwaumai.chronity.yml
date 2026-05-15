@@ -1,4 +1,5 @@
 name: com.sushiwaumai.chronity
+aliases: []
 displayName: Chronity
 description: Library for running functions in Unity after a delay.
 repoUrl: 'https://github.com/SushiWaUmai/Chronity'

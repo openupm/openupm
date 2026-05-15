@@ -1,4 +1,5 @@
 name: com.pixelwizards.physicalmaterialmanager
+aliases: []
 displayName: PixelWizards - Physical Material Manager
 description: Simple manager for Unity PhysicMaterials in your project
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.physicalmaterialmanager'

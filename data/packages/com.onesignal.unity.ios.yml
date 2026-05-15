@@ -1,4 +1,5 @@
 name: com.onesignal.unity.ios
+aliases: []
 displayName: OneSignal Unity SDK - iOS
 description: OneSignal is the market leader in customer engagement, powering mobile
   push, web push, email, and in-app messages.

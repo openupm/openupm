@@ -1,4 +1,5 @@
 name: com.supergosu.statemachine
+aliases: []
 displayName: Gosu StateMachine
 description: Simple StateMachine
 repoUrl: https://github.com/SuperGosu/StateMachine

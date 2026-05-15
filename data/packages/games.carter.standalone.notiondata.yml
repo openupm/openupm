@@ -1,4 +1,5 @@
 name: games.carter.standalone.notiondata
+aliases: []
 displayName: Notion Data (Standalone)
 description: >-
   A system to import Notion databases into a Unity scriptable object for use in

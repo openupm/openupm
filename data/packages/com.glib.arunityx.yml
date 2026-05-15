@@ -1,4 +1,5 @@
 name: com.glib.arunityx
+aliases: []
 displayName: Glib
 description: UPM fork of arunityx
 repoUrl: 'https://github.com/VGA-GLAB/G-Lab-Library'

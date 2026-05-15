@@ -1,4 +1,5 @@
 name: com.srichakradhar.unity-skip-splash-screen
+aliases: []
 displayName: "â­\x90 Unity Skip Splash Screen â­\x90"
 description: A plugin to skip the Unity logo splash.
 repoUrl: https://github.com/srichakradhar/Unity-skip-splash-screen

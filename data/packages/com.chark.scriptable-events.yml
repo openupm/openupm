@@ -1,4 +1,5 @@
 name: com.chark.scriptable-events
+aliases: []
 displayName: Scriptable Events
 description: Simple and extensible event system implemented via ScriptableObject.
 repoUrl: 'https://github.com/chark/scriptable-events'

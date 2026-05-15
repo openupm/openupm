@@ -1,4 +1,5 @@
 name: com.slushyrh.unityexternalconsole
+aliases: []
 displayName: Unity External Console
 description: >-
   A lightweight external CMD console for Unity that mirrors the Debug Logging in

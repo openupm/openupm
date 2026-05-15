@@ -1,4 +1,5 @@
 name: com.trove.stats
+aliases: []
 displayName: Trove Stats
 description: >-
   Trove Stats allows you to define identifiable "numbers" (Stats) on entities,

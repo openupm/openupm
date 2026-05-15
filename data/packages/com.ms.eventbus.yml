@@ -1,4 +1,5 @@
 name: com.ms.eventbus
+aliases: []
 displayName: EventBus
 description: A simple event subscribe & post library for Unity
 repoUrl: 'https://github.com/wlgys8/EventBus'

@@ -1,4 +1,5 @@
 name: com.mobtp.kt.core
+aliases: []
 displayName: Kettle Tools Core
 description: >-
   Tools for scene management, version control, and in-editor documentation for

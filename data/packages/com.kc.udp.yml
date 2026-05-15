@@ -1,4 +1,5 @@
 name: com.kc.udp
+aliases: []
 displayName: KC.UDP
 description: udp组件
 repoUrl: https://github.com/wangrongTXDY/com.kc.udp

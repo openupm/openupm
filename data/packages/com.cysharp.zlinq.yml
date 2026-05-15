@@ -1,4 +1,5 @@
 name: com.cysharp.zlinq
+aliases: []
 displayName: ZLinq
 description: >-
   Zero allocation LINQ with Span and LINQ to SIMD, LINQ to Tree(FileSystem,

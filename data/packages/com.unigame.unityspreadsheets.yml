@@ -1,4 +1,5 @@
 name: com.unigame.unityspreadsheets
+aliases: []
 displayName: UniGames Google Spreadsheets to Unity
 description: Unity3D Google Spreadsheet export/import library
 repoUrl: 'https://github.com/UniGameTeam/UniGame.GoogleSpreadsheetsImporter'

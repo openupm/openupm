@@ -1,4 +1,5 @@
 name: com.alteracia.altmath
+aliases: []
 displayName: altMath
 description: Some Math functions for Unity
 repoUrl: 'https://github.com/Alteracia/AltMath'

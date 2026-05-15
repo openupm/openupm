@@ -1,4 +1,5 @@
 name: com.ruccho.unityped
+aliases: []
 displayName: UniTyped
 description: >-
   A source generator for Unity that provides strongly typed access to serialized

@@ -1,4 +1,5 @@
 name: com.alde.automaticspritepacker
+aliases: []
 displayName: Automatic Sprite Packer
 description: Automatic Sprite Packer allows to pack sprites into a sprite sheet.
 repoUrl: 'https://github.com/AldeRoberge/AutomaticSpritePacker'

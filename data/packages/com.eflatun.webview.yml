@@ -1,4 +1,5 @@
 name: com.eflatun.webview
+aliases: []
 displayName: Eflatun.WebView
 description: WebView for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.WebView'

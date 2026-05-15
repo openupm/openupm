@@ -1,4 +1,5 @@
 name: com.e314.exceptions
+aliases: []
 displayName: E314.Exceptions
 description: >-
   The E314.Exceptions module provides enhanced exception classes that improve

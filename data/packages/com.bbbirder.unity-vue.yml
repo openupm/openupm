@@ -1,4 +1,5 @@
 name: com.bbbirder.unity-vue
+aliases: []
 displayName: Unity Vue
 description: "Unity纯C#版的VUE，运行时0GC。"
 repoUrl: https://github.com/labbbirder/UnityVue

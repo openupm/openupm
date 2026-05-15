@@ -1,4 +1,5 @@
 name: com.seneral.undopro
+aliases: []
 displayName: UndoPro
 description: >-
   UndoPro is a command-based undo system integrated into Unity's default system.

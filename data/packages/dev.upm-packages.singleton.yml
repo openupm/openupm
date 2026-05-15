@@ -1,4 +1,5 @@
 name: dev.upm-packages.singleton
+aliases: []
 displayName: Singleton
 description: Provide Singleton accessor to any class.
 repoUrl: 'https://github.com/umm/singleton'

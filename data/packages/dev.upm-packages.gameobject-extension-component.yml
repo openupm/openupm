@@ -1,4 +1,5 @@
 name: dev.upm-packages.gameobject-extension-component
+aliases: []
 displayName: GameObject Extension Component
 description: Extension class for UnityEngine.GameObject
 repoUrl: 'https://github.com/umm/gameobject_extension_component'

@@ -1,4 +1,5 @@
 name: dev.monry.signalhandler
+aliases: []
 displayName: Signal Handler
 description: Provide utility class to handle signal uses Zenject.SignalBus
 repoUrl: 'https://github.com/monry/SignalHandler'

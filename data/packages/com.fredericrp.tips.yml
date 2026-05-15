@@ -1,4 +1,5 @@
 name: com.fredericrp.tips
+aliases: []
 displayName: FRP Tips
 description: >-
   A simple tool that allows to show random tips to player when a level is

@@ -1,4 +1,5 @@
 name: net.tnrd.autohook
+aliases: []
 displayName: AutoHook
 description: A property drawer that automagically assigns a reference to your field
 repoUrl: 'https://github.com/Thundernerd/Unity3D-AutoHook'

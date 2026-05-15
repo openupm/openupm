@@ -1,4 +1,5 @@
 name: com.google.xr.extensions
+aliases: []
 displayName: Android XR Extensions for Unity
 description: Android XR Extensions package. This package provides additional XR features
   that are not yet supported by Unity OpenXR Android XR and OpenXR Plugin packages.

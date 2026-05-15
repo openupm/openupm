@@ -1,4 +1,5 @@
 name: com.doji.transformers
+aliases: []
 displayName: Transformers
 description: >-
   State-of-the-art transformer models to perform tasks on different modalities

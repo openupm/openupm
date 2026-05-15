@@ -1,4 +1,5 @@
 name: com.katuusagi.reflectionenhance
+aliases: []
 displayName: ReflectionEnhance
 description: Library for fast Reflection execution.
 repoUrl: https://github.com/Katsuya100/ReflectionEnhance

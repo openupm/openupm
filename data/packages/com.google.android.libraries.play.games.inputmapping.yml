@@ -1,4 +1,5 @@
 name: com.google.android.libraries.play.games.inputmapping
+aliases: []
 displayName: Input Mapping SDK
 description: Input SDK plugin for Google Play Games for PC
 repoUrl: 'https://github.com/playgameservices/play-games-input-sdk-unity'

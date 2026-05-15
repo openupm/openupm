@@ -1,4 +1,5 @@
 name: nl.elraccoone.request-review
+aliases: []
 displayName: Request Review
 description: >-
   Provides a basic implementation for requesting app reviews for mobile apps on

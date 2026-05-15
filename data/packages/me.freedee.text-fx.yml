@@ -1,4 +1,5 @@
 name: me.freedee.text-fx
+aliases: []
 displayName: TextFx
 description: A TextMeshPro text animation system that enables character-level control.
 repoUrl: https://github.com/kay-af/TextFx

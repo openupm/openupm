@@ -1,4 +1,6 @@
 name: com.hryooba.kinect
+aliases:
+  - com.hryooba.library.kinect
 displayName: HRYooba.Kinect
 description: |-
   Unity HRYooba

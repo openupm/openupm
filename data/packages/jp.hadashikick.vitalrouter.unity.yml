@@ -1,4 +1,5 @@
 name: jp.hadashikick.vitalrouter.unity
+aliases: []
 displayName: VitalRouter.Unity
 description: >-
   The source-generator powered zero-allocation in-memory message passing library

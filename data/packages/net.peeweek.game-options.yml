@@ -1,4 +1,5 @@
 name: net.peeweek.game-options
+aliases: []
 displayName: Game Options
 description: Game Options UI Elements for your Unity Games. A set of scripts and prefabs in order to add simple graphics, audio and game options in your game.
 repoUrl: 'https://github.com/peeweek/net.peeweek.game-options'

@@ -1,4 +1,5 @@
 name: com.machinmachines.utils
+aliases: []
 displayName: MachinMachines utilities
 description: 'MachinMachines utilities : various useful code snippets'
 repoUrl: 'https://github.com/MachinMachines/com.machinmachines.utils'

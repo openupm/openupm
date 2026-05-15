@@ -1,4 +1,5 @@
 name: com.ltmx.unity.uitoolkit.extensions
+aliases: []
 displayName: UIToolkit Extensions
 description: Extension methods for my packages
 repoUrl: https://github.com/ltmx/Unity.UIToolkit.Extensions

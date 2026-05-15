@@ -1,4 +1,5 @@
 name: com.cammin.camlib
+aliases: []
 displayName: CamLib
 description: Cammin's personal Unity utility library.
 repoUrl: 'https://github.com/Cammin/CamLib'

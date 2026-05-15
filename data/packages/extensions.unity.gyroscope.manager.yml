@@ -1,4 +1,5 @@
 name: extensions.unity.gyroscope.manager
+aliases: []
 displayName: Unity Gyroscope Manager
 description: Unity Gyroscope manager. Base package for helpful Gyroscope tools.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Gyroscope-Manager'

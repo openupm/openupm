@@ -1,4 +1,5 @@
 name: ai.transforms.webgl-threading-fix
+aliases: []
 displayName: WebGL Threading Fix
 description: >-
   Allows singlethreaded ThreadPool for ConfigureAwait(false) and

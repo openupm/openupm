@@ -1,4 +1,5 @@
 name: com.google.ar.core.arfoundation.extensions
+aliases: []
 displayName: ARCore Extensions
 description: >-
   Google ARCore Extensions for AR Foundation. This package provides access to

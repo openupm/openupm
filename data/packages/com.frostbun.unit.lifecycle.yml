@@ -1,4 +1,5 @@
 name: com.frostbun.unit.lifecycle
+aliases: []
 displayName: UniT Lifecycle
 description: Lifecycle Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Lifecycle

@@ -1,4 +1,5 @@
 name: com.vertx.local-favorites
+aliases: []
 displayName: Local Favorites
 description: >-
   Project window favourites that contain the suffixes `(local)`, and `(l)`, are

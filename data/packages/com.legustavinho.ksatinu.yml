@@ -1,4 +1,5 @@
 name: com.legustavinho.ksatinu
+aliases: []
 displayName: Ksatinu (UniTask Fork)
 description: Provides an efficient async/await integration to Unity.
 repoUrl: https://github.com/LeGustaVinho/ksatinu

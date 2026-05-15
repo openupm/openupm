@@ -1,4 +1,5 @@
 name: com.community.netcode.networkdiscovery
+aliases: []
 displayName: Netcode for GameObjects Community Extensions - Network Discovery
 description: The Netcode for GameObjects Community Extensions package is a package
   containing extensions to Netcode for GameObjects. This is a fork of the Network

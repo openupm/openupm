@@ -1,4 +1,5 @@
 name: com.phwitti.find-editor-tools
+aliases: []
 displayName: FindEditorTools
 description: Find Editor Tools (Ctrl+T)
 repoUrl: 'https://github.com/phwitti/unity-find-editor-tools'

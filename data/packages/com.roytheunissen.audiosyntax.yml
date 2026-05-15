@@ -1,4 +1,5 @@
 name: com.roytheunissen.audiosyntax
+aliases: []
 displayName: Audio Syntax
 description: >-
   Audio system that generates code to allow playing audio through strongly-typed

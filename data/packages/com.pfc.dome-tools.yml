@@ -1,4 +1,5 @@
 name: com.pfc.dome-tools
+aliases: []
 displayName: pfc Dome Tools
 description: Tools for fulldome content production and viewing.
 repoUrl: https://github.com/prefrontalcortex/DomeTools

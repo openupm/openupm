@@ -1,4 +1,5 @@
 name: com.omiyagames.saves
+aliases: []
 displayName: Omiya Games - Saves
 description: Tool for handling game saves.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-saves'

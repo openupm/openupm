@@ -1,4 +1,5 @@
 name: com.dman.foundation
+aliases: []
 displayName: Dman Foundation
 description: A large collection of utilities and tools which integrate deeply into unity.
 repoUrl: https://github.com/dsmiller95/DmanUtilities

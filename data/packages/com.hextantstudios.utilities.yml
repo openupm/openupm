@@ -1,4 +1,5 @@
 name: com.hextantstudios.utilities
+aliases: []
 displayName: Hextant Utilities
 description: This packages includes helpful runtime and editor additions to Unity.
 repoUrl: 'https://github.com/hextantstudios/com.hextantstudios.utilities'

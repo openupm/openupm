@@ -1,4 +1,5 @@
 name: net.bobbo.extensions.float
+aliases: []
 displayName: Float Extensions
 description: Extension methods for C#'s float Type
 repoUrl: https://github.com/BOBBO-NET/netengine4

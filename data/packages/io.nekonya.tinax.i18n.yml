@@ -1,4 +1,5 @@
 name: io.nekonya.tinax.i18n
+aliases: []
 displayName: TinaX.I18N
 description: TinaX.I18N provides internationalization feature support for TinaX Framework
 repoUrl: https://github.com/yomunsam/TinaX.I18N

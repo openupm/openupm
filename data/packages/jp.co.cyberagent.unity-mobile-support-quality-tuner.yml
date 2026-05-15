@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.unity-mobile-support-quality-tuner
+aliases: []
 displayName: Mobile Support - Quality Tuner
 description: Tools to support deciding quality level by hardware spec of mobile devices.
 repoUrl: https://github.com/CyberAgentGameEntertainment/UnityMobileSupport

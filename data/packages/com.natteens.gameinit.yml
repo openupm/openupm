@@ -1,4 +1,5 @@
 name: com.natteens.gameinit
+aliases: []
 displayName: GameInit
 description: Uma base com sistemas pra comeÃ§ar projetos novos de forma rÃ¡pida.
 repoUrl: https://github.com/Natteens/com.natteens.gameinit

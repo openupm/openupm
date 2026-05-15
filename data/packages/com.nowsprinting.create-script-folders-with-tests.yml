@@ -1,4 +1,5 @@
 name: com.nowsprinting.create-script-folders-with-tests
+aliases: []
 displayName: Create Script Folders with Tests
 description: >-
   Create a script folders (Editor, Runtime, and each Tests) containing assembly

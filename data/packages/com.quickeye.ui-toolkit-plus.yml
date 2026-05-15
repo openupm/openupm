@@ -1,4 +1,6 @@
 name: com.quickeye.ui-toolkit-plus
+aliases:
+  - com.quickeye.uitoolkitplus
 displayName: QuickEye UI Toolkit Plus
 description: >-
   Query utility, new elements, UI Builder addons, extension methods...

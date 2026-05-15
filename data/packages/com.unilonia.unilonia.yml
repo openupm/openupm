@@ -1,4 +1,5 @@
 name: com.unilonia.unilonia
+aliases: []
 displayName: Unilonia
 description: Unity plugin which allows running Avalonia on Unity
 repoUrl: 'https://github.com/TheKeyblader/Unilonia'

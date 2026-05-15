@@ -1,4 +1,5 @@
 name: be.elab.pbit4096b58pkcs1sha256
+aliases: []
 displayName: pBit4096B58Pkcs1SHA256
 description: The package allows to copy past in url Base 58 RSA key in Pkc s1 SHA256
   format. It is important if you want the RSA to work as coaster of ETH Web3 system

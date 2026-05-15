@@ -1,4 +1,5 @@
 name: com.maoyeedy.quad-sprite-processor
+aliases: []
 displayName: Quad-Divisible Sprite Processor
 description: Resizes sprite dimensions to be divisible by 4 for optimal compression
 repoUrl: https://github.com/Maoyeedy/QuadSpriteProcessor

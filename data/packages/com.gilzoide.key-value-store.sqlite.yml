@@ -1,4 +1,5 @@
 name: com.gilzoide.key-value-store.sqlite
+aliases: []
 displayName: Key-Value Store - SQLite
 description: Key-Value Store implementation backed by the SQLite database engine
 repoUrl: https://github.com/gilzoide/unity-key-value-store-sqlite

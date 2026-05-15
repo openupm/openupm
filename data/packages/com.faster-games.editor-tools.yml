@@ -1,4 +1,5 @@
 name: com.faster-games.editor-tools
+aliases: []
 displayName: FasterGames EditorTools
 description: Tools for improving the Unity Editor experience.
 repoUrl: 'https://github.com/faster-games/editor-tools'

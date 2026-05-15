@@ -1,4 +1,5 @@
 name: com.pixelrebels.fdb.components
+aliases: []
 displayName: FuryDB Components
 description: Unity Components for integration with FuryDB
 repoUrl: 'https://github.com/ze0nni/FuryDB.Components'

@@ -1,4 +1,5 @@
 name: games.javier.upm.bricksbucket.core
+aliases: []
 displayName: Bricks Bucket Core Package
 description: Bucket full of bricks to build something great.
 repoUrl: https://github.com/javier-games/upm-bricks-bucket

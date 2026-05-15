@@ -1,4 +1,5 @@
 name: com.virgis.geometry
+aliases: []
 displayName: ViRGiS Geometry Package
 description: >-
   Unity library for 2D/3D geometric computation, mesh algorithms, and more.

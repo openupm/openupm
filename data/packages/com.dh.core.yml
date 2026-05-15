@@ -1,4 +1,5 @@
 name: com.dh.core
+aliases: []
 displayName: DH Core
 description: My Unity core package with base classes and utils
 repoUrl: https://github.com/dirkhartlage/DH.Core

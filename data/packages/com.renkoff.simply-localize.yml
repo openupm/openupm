@@ -1,4 +1,5 @@
 name: com.renkoff.simply-localize
+aliases: []
 displayName: Simply Localize
 description: >-
   A powerful localization system for Unity with pluralization, language

@@ -1,4 +1,5 @@
 name: com.kwanjoong.twentyfiveslicer
+aliases: []
 displayName: Twenty Five Slicer
 description: >-
   A Unity package that slices a sprite into 25 slices instead of the usual 9,

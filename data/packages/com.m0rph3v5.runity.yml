@@ -1,4 +1,5 @@
 name: com.m0rph3v5.runity
+aliases: []
 displayName: R.Unity
 description: >-
   Get strong typed and autocompleted keys like scenes, tags and layers in C#

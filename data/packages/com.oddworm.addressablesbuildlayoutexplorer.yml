@@ -1,4 +1,5 @@
 name: com.oddworm.addressablesbuildlayoutexplorer
+aliases: []
 displayName: Addressables BuildLayout Explorer
 description: >-
   Addressables BuildLayout Explorer allows you to inspect the 'buildlayout.txt'

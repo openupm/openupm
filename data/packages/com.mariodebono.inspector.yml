@@ -1,4 +1,5 @@
 name: com.mariodebono.inspector
+aliases: []
 displayName: Helper Inspector
 description: Reusable Quality of Life Attributes and Property Inspectors
 repoUrl: 'https://github.com/mariodebono/Unity-Helper-Inspector'

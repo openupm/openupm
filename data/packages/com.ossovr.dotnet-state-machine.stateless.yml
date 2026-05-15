@@ -1,4 +1,5 @@
 name: com.ossovr.dotnet-state-machine.stateless
+aliases: []
 displayName: Stateless
 description: A simple library for creating state machines in C# code
 repoUrl: https://github.com/OssoVR/stateless

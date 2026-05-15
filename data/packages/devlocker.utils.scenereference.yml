@@ -1,4 +1,5 @@
 name: devlocker.utils.scenereference
+aliases: []
 displayName: Scene Reference
 description: >-
   Keeps reference to a scene asset and tracks it's path, so it can be used in

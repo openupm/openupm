@@ -1,4 +1,5 @@
 name: com.reown.core.storage
+aliases: []
 displayName: Reown.Core.Storage
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet

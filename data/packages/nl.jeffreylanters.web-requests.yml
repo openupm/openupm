@@ -1,4 +1,5 @@
 name: nl.jeffreylanters.web-requests
+aliases: []
 displayName: Web Requests
 description: >-
   The WebRequest API provides an easy interface for accessing the HTTP pipeline

@@ -1,4 +1,5 @@
 name: com.shlifedev.ugs
+aliases: []
 displayName: Uni Google Sheets
 description: Google Sheet Intergration for Unity
 repoUrl: https://github.com/shlifedev/uni-google-sheets

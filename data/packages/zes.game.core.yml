@@ -1,4 +1,5 @@
 name: zes.game.core
+aliases: []
 displayName: zes game core lib
 description: core game lib for zhihesoft essential lib
 repoUrl: 'https://github.com/zhihesoft/zes-unity-game-starter'

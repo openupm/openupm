@@ -1,4 +1,5 @@
 name: dev.upm-packages.unirx-observablelifecyclemonobehaviour
+aliases: []
 displayName: UniRx ObservableLifecycleMonoBehaviour
 description: 'Provide UniRx wrapper for MonoBehaviour.Awake(), MonoBehaviour.Start()'
 repoUrl: 'https://github.com/umm/unirx_observablelifecyclemonobehaviour'

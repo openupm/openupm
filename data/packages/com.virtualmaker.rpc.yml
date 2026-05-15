@@ -1,4 +1,5 @@
 name: com.virtualmaker.rpc
+aliases: []
 displayName: VirtualMaker.RPC
 description: A Bidirectional RPC package for Unity (UPM)
 repoUrl: https://github.com/virtual-maker-net/com.virtualmaker.rpc

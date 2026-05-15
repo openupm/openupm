@@ -1,4 +1,5 @@
 name: com.pixelwizards.package-utils
+aliases: []
 displayName: PixelWizards - Package Utilities
 description: Utility for Packing assets in Unity's Package Manager format
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.package-utils'

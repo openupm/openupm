@@ -1,4 +1,5 @@
 name: net.narazaka.unity.export-package-advanced
+aliases: []
 displayName: Export Package (Advanced)
 description: Advanced "Export Package" (without Scripts etc.)
 repoUrl: https://github.com/Narazaka/ExportPackageAdvanced

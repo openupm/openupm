@@ -1,4 +1,5 @@
 name: fr.sticmac.inputactionlisteners
+aliases: []
 displayName: Input Action Listeners
 description: Just a simple system to manage Unity new input system more easily.
 repoUrl: 'https://github.com/sticmac/unity-input-action-listeners'

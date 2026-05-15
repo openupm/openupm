@@ -1,4 +1,5 @@
 name: com.indiegabo.hms-unity-sdk
+aliases: []
 displayName: HMS Unity SDK
 description: A Unity package for the HMS Unity SDK.
 repoUrl: https://github.com/indiegabo/hms-unity-sdk

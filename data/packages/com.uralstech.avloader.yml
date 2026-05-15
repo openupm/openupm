@@ -1,4 +1,5 @@
 name: com.uralstech.avloader
+aliases: []
 displayName: AvLoader
 description: >-
   Unity framework for loading 3D avatars of different formats and sources at

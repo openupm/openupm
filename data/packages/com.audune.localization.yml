@@ -1,4 +1,5 @@
 name: com.audune.localization
+aliases: []
 displayName: Localization
 description: Simple string localization system for Unity 2022 LTS or higher
 repoUrl: https://github.com/audunegames/localization

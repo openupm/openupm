@@ -1,4 +1,5 @@
 name: com.uralstech.ucloud.texttospeech
+aliases: []
 displayName: UCloud.TextToSpeech
 description: A Unity C# wrapper for the Google Cloud Text-To-Speech API.
 repoUrl: https://github.com/Uralstech/UCloud.TextToSpeech

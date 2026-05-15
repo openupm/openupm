@@ -1,4 +1,5 @@
 name: com.shiena.openxrruntimejson
+aliases: []
 displayName: OpenXR Runtime Selector
 description: Runtime Json Selector for Unity OpenXR
 repoUrl: 'https://github.com/shiena/OpenXRRuntimeSelector'

@@ -1,4 +1,5 @@
 name: com.fp.utility
+aliases: []
 displayName: Runtime Utility
 description: Runtime utilities and tools classes
 repoUrl: 'https://github.com/FrameProjectTeam/Fp.Unity.Utility'

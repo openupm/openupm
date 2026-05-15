@@ -1,4 +1,5 @@
 name: org.shadow-grove.real-weather-and-time-events
+aliases: []
 displayName: Real Weather and Time Events
 description: >-
   Real Weather and Time Events implements Unity Events into your game to react

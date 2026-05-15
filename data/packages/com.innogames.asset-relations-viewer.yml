@@ -1,4 +1,5 @@
 name: com.innogames.asset-relations-viewer
+aliases: []
 displayName: Asset Relations Viewer
 description: Editor UI for displaying dependencies between assets in a tree based view
 repoUrl: 'https://github.com/innogames/asset-relations-viewer'

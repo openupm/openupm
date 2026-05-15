@@ -1,4 +1,5 @@
 name: com.cysharp.yetanotherhttphandler
+aliases: []
 displayName: YetAnotherHttpHandler
 description: >-
   YetAnotherHttpHandler that brings the power of HTTP/2 (and gRPC) to Unity and

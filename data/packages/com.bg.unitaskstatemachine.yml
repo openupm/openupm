@@ -1,4 +1,5 @@
 name: com.bg.unitaskstatemachine
+aliases: []
 displayName: UniTaskStateMachine
 description: 'StateMachine for UniTask'
 repoUrl: 'https://github.com/k-okawa/UniTaskStateMachine'

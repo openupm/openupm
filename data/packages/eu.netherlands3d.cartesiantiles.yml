@@ -1,4 +1,5 @@
 name: eu.netherlands3d.cartesiantiles
+aliases: []
 displayName: Netherlands3D - Cartesian Tiles
 description: Loads and unloads datasets in a cartesian coordinateSystem
 repoUrl: https://github.com/Netherlands3D/CartesianTiles

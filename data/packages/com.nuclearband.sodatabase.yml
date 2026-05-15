@@ -1,4 +1,5 @@
 name: com.nuclearband.sodatabase
+aliases: []
 displayName: Scriptable Objest database
 description: Database for scriptable objects in Unity using Odin Inspector
 repoUrl: 'https://github.com/NuclearBand/UnityScriptableObjectDatabase'

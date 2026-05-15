@@ -1,4 +1,5 @@
 name: com.freakshowstudio.cinemachine-extension-clipplane
+aliases: []
 displayName: Cinemachine ClipPlane Extension
 description: Extension for Cinemachine to set the camera near and far clip plane.
 repoUrl: >-

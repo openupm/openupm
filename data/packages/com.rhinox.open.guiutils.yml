@@ -1,4 +1,5 @@
 name: com.rhinox.open.guiutils
+aliases: []
 displayName: GUIUtils - Editor Graphical UI Extensions
 description: GUI Utils for Unity projects, mostly Editor extensions. (Optional Odin extensions)
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-guiutils'

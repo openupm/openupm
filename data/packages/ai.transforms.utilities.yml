@@ -1,4 +1,5 @@
 name: ai.transforms.utilities
+aliases: []
 displayName: TransformsAI Utilities
 description: Set of utility scripts used by Transitional Forms in Unity
 repoUrl: 'https://github.com/transformsai/UnityUtilities'

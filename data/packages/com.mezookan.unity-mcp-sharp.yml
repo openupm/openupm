@@ -1,4 +1,5 @@
 name: com.mezookan.unity-mcp-sharp
+aliases: []
 displayName: Unity MCP Server
 description: >-
   Model Context Protocol (MCP) server for Unity Editor integration with AI

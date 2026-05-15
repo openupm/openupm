@@ -1,4 +1,5 @@
 name: com.santutu.linqtogameobject
+aliases: []
 displayName: LINQ To GameObject For Unity
 description: >-
   LINQ to GameObject is GameObject extensions for Unity that allows traverse

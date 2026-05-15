@@ -1,4 +1,5 @@
 name: dev.kyubuns.auto9slicer
+aliases: []
 displayName: Auto9Slicer
 description: Auto 9 slice sprite generator
 repoUrl: 'https://github.com/kyubuns/Auto9Slicer'

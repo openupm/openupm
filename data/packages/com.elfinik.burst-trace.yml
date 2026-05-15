@@ -1,4 +1,5 @@
 name: com.elfinik.burst-trace
+aliases: []
 displayName: Burst Trace
 description: >-
   High-performance, zero-allocation stack trace logger for Unity Mono/DOTS,

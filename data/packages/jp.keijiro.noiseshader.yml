@@ -1,4 +1,5 @@
 name: jp.keijiro.noiseshader
+aliases: []
 displayName: Noise Shader
 description: >-
   Noise Shader provides lightweight 2D/3D gradient noise functions for shader

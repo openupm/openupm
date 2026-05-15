@@ -1,4 +1,5 @@
 name: be.elab.wowint
+aliases: []
 displayName: Wow Integer
 description: This package is a enum and utility of the ScratchToWarcraft convention
   to make keyboard and xbox game using IID package.

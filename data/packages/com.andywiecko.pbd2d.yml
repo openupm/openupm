@@ -1,4 +1,5 @@
 name: com.andywiecko.pbd2d
+aliases: []
 displayName: PBD2D
 description: Unity Position Based Dynamics in two dimensions.
 repoUrl: 'https://github.com/andywiecko/PBD2D'

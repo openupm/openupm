@@ -1,4 +1,5 @@
 name: com.hww.xidebugmenu
+aliases: []
 displayName: XiDebugMenu
 description: XiDebugMenu is a debug menu for Unity.
 repoUrl: 'https://github.com/hww/XiDebugMenu'

@@ -1,4 +1,5 @@
 name: com.xrtk.core
+aliases: []
 displayName: XRTK.Core
 description: The Official Mixed Reality Framework for Unity
 repoUrl: 'https://github.com/XRTK/XRTK-Core'

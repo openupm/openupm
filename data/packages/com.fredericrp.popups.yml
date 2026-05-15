@@ -1,4 +1,5 @@
 name: com.fredericrp.popups
+aliases: []
 displayName: FRP Popups
 description: >-
   Pile up popups and pop them out as you want. The popup manager allows to show

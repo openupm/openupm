@@ -1,4 +1,5 @@
 name: com.zibra.liquids-free
+aliases: []
 displayName: Zibra AI - Liquids Free
 description: >-
   Real-time liquid simulation plugin (GPU), powered by AI. New game mechanics &

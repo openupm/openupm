@@ -1,4 +1,5 @@
 name: com.rickit.ui
+aliases: []
 displayName: RicKit UI
 description: An Async UI Manager for Unity, support custom panel loading
 repoUrl: https://github.com/rickytheoldtree/com.rickit.ui

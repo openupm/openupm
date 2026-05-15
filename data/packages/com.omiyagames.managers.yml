@@ -1,4 +1,5 @@
 name: com.omiyagames.managers
+aliases: []
 displayName: Omiya Games - Managers
 description: A series of common singleton scripts.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-managers'

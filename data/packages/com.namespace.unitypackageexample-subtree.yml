@@ -1,4 +1,5 @@
 name: com.namespace.unitypackageexample-subtree
+aliases: []
 displayName: Unity Package Example Subtree
 description: ''
 repoUrl: 'https://github.com/favoyang/unity-package-example-subtree'

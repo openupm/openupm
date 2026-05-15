@@ -1,4 +1,5 @@
 name: io.mrwatts.fuelinject
+aliases: []
 displayName: Fuel Inject
 description: Adds dependency injection support to Unity (currently through Autofac).
 repoUrl: https://github.com/mr-watts/io.mrwatts.fuelinject

@@ -1,4 +1,5 @@
 name: ai.natml.vision.meet
+aliases: []
 displayName: Meet
 description: MediaPipe Meet Segmentation for human matting in Unity Engine.
 repoUrl: https://github.com/natmlx/meet-unity

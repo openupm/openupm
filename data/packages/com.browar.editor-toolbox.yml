@@ -1,4 +1,6 @@
 name: com.browar.editor-toolbox
+aliases:
+  - com.arimger.editor-toolbox
 displayName: Editor Toolbox
 description: >-
   Tools, custom attributes, drawers, hierarchy overlay, and other extensions for

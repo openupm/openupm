@@ -1,4 +1,5 @@
 name: com.macacagames.designdataagent
+aliases: []
 displayName: Design Data Agent
 description: >-
   Design data agent is a table parse tool for unity3D.You can define parse

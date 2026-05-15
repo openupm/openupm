@@ -1,4 +1,5 @@
 name: dev.upm-packages.xy-reverse-shader
+aliases: []
 displayName: XY Reverse Shader
 description: ↔️ uGUI xy reverse shader
 repoUrl: 'https://github.com/umm/xy_reverse_shader'

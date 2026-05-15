@@ -1,4 +1,5 @@
 name: com.inspiaaa.unityhfsm
+aliases: []
 displayName: UnityHFSM
 description: >-
   A simple yet powerful class based hierarchical finite state machine for

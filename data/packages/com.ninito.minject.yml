@@ -1,4 +1,5 @@
 name: com.ninito.minject
+aliases: []
 displayName: MinJect
 description: 'A minimalistic, easy-to-understand dependency injection framework for Unity'
 repoUrl: 'https://github.com/ninito-ph/MinJect'

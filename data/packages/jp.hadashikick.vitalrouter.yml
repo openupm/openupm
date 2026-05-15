@@ -1,4 +1,5 @@
 name: jp.hadashikick.vitalrouter
+aliases: []
 displayName: VitalRouter
 description: >-
   The zero-allocation message passing tool for Unity (Game Engine). And the very

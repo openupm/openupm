@@ -1,4 +1,5 @@
 name: dev.ezsoftbone.unity
+aliases: []
 displayName: EZSoftBone
 description: A simple secondary motion bone motion simulator for Unity.
 repoUrl: https://github.com/makeplayhappy/EZSoftBone

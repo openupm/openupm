@@ -1,4 +1,5 @@
 name: com.fawaddev.adscontroller
+aliases: []
 displayName: Ads Controller
 description: A simple and easy to use ads controller for Unity that supports AdMob for now
 repoUrl: https://github.com/fawad0dev/Ads-Controller

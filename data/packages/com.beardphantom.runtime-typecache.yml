@@ -1,4 +1,5 @@
 name: com.beardphantom.runtime-typecache
+aliases: []
 displayName: Runtime TypeCache
 description: Extending Unity's UnityEditor.TypeCache support to player builds.
 repoUrl: https://github.com/thebeardphantom/Runtime-TypeCache

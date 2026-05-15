@@ -1,4 +1,5 @@
 name: com.datadoghq.unity
+aliases: []
 displayName: Datadog Unity
 description: Datadog Plugin for Unity
 repoUrl: https://github.com/DataDog/unity-package

@@ -1,4 +1,5 @@
 name: com.omnilatent.litjson
+aliases: []
 displayName: LitJson
 description: Litjson suitable for Package Manager.
 repoUrl: https://github.com/Omnilatent/UnityLitJson

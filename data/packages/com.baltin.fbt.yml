@@ -1,4 +1,5 @@
 name: com.baltin.fbt
+aliases: []
 displayName: FunctionalBT
 description: Functional Behavior Tree Design Pattern
 repoUrl: https://github.com/dmitrybaltin/FunctionalBT

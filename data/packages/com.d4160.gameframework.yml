@@ -1,4 +1,5 @@
 name: com.d4160.gameframework
+aliases: []
 displayName: Unity Game Framework
 description: Game Framework to manage all common stuff of your game.
 repoUrl: 'https://github.com/d4160/Unity-GameFramework'

@@ -1,4 +1,5 @@
 name: ga.fuquna.prefsguisyncformirror
+aliases: []
 displayName: PrefsGUISync for Mirror
 description: PrefsGUI subset for synchronization over Mirror
 repoUrl: https://github.com/fuqunaga/PrefsGUISyncForMirror

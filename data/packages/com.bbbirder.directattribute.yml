@@ -1,4 +1,5 @@
 name: com.bbbirder.directattribute
+aliases: []
 displayName: Direct Attribute
 description: >-
   Retrieve Attribute directly on runtime, meanwhile, retrieve target Type or

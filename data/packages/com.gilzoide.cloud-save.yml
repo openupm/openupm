@@ -1,4 +1,5 @@
 name: com.gilzoide.cloud-save
+aliases: []
 displayName: Cloud Save
 description: >-
   Cloud Save interface with implementations for Apple Game Center and Google

@@ -1,4 +1,5 @@
 name: com.kitbashery.3d-pixel-graphics-toolkit
+aliases: []
 displayName: 3D Pixel Graphics Toolkit
 description: HDRP shader graphs for creating 3D pixel-style graphics.
 repoUrl: 'https://github.com/Kitbashery/3D-Pixel-Graphics-Toolkit'

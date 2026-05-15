@@ -1,4 +1,5 @@
 name: com.autsoft.unitysupplements.licensegenerator
+aliases: []
 displayName: License Generator
 description: Generate a merged license asset from packages and other assets.
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'

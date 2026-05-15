@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.genesis
+aliases: []
 displayName: JCMG Genesis
 description: A general purpose code generator library for Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/Genesis'

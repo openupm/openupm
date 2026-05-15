@@ -1,4 +1,5 @@
 name: com.codewriter.unimob
+aliases: []
 displayName: UniMob
 description: Reactive state management for Unity
 repoUrl: 'https://github.com/codewriter-packages/UniMob'

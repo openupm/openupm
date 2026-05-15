@@ -1,4 +1,5 @@
 name: com.adrenak.mediaplayer
+aliases: []
 displayName: Unity Media Player
 description: A standardised media player interface for Unity.
 repoUrl: 'https://github.com/adrenak/mediaplayer'

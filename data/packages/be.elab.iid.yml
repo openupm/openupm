@@ -1,4 +1,5 @@
 name: be.elab.iid
+aliases: []
 displayName: IID Index Integer Date
 description: Pack and unpack bytes received or to send in bytes format. Allows to
   defined and demonstrate what is a IID in Unity3D.

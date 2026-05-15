@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.mintegral
+aliases: []
 displayName: Google Mobile Ads Mintegral Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Mintegral package allows you to

@@ -1,4 +1,5 @@
 name: com.andrewraphaellukasik.iopaths
+aliases: []
 displayName: IO Paths
 description: Utility structures to help working with file paths in Unity
 repoUrl: 'https://github.com/andrew-raphael-lukasik/IOPaths'

@@ -1,4 +1,5 @@
 name: com.revenantx.litenetlib
+aliases: []
 displayName: LiteNetLib
 description: >-
   Lite reliable UDP library for .NET Standard 2.0 (Mono, .NET Core, .NET

@@ -1,4 +1,5 @@
 name: com.ionic.zlib
+aliases: []
 displayName: com.ionic.zlib
 description: Unity package for the Ionic.zlib library
 repoUrl: 'https://github.com/PixelWizards/com.ionic.zlib'

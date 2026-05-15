@@ -1,4 +1,5 @@
 name: com.jeffbert.unity-component-pool
+aliases: []
 displayName: Component Pool
 description: >-
   Pooling system designed to work with Unity components. Reduces memory

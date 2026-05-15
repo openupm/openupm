@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.sdk.oculusintegration.unity
+aliases: []
 displayName: Tilia SDK OculusIntegration Unity
 description: SDK Wrappers for the Oculus Integration Unity asset.
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.SDK.OculusIntegration.Unity'

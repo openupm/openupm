@@ -1,4 +1,5 @@
 name: com.santutu.lengtharray
+aliases: []
 displayName: Length Array
 description: A library for arrays with valid length information.
 repoUrl: https://github.com/santutu/unity-length-array

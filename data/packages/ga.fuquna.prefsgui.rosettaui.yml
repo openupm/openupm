@@ -1,4 +1,5 @@
 name: ga.fuquna.prefsgui.rosettaui
+aliases: []
 displayName: PrefsGUI - RosettaUI
 description: RosettaUI implementation of PrefsGUI
 repoUrl: https://github.com/fuqunaga/PrefsGUI

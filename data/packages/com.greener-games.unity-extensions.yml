@@ -1,4 +1,5 @@
 name: com.greener-games.unity-extensions
+aliases: []
 displayName: Unity Extensions
 description: Collection of extensions for use in unity
 repoUrl: 'https://github.com/Greener-Games/Unity_Extensions'

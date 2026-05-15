@@ -1,4 +1,5 @@
 name: com.redwyre.custom-toolbar
+aliases: []
 displayName: Custom Toolbar
 description: A customisable and extendable toolbar for Unity
 repoUrl: https://github.com/redwyre/com.redwyre.custom-toolbar

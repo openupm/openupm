@@ -1,4 +1,5 @@
 name: com.snake.framework.core
+aliases: []
 displayName: SnakeFramework-Core
 description: client framework
 repoUrl: 'https://github.com/ClaineLe/SnakeFramework-Core'

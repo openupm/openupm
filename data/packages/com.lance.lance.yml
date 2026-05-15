@@ -1,4 +1,5 @@
 name: com.lance.lance
+aliases: []
 displayName: Lance
 description: Lance Engine
 repoUrl: 'https://github.com/yenmoc/lance'

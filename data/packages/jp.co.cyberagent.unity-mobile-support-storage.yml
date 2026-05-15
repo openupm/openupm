@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.unity-mobile-support-storage
+aliases: []
 displayName: Mobile Support - Storage
 description: Tools to support storage of mobile like iOS/Android.
 repoUrl: 'https://github.com/CyberAgentGameEntertainment/UnityMobileSupport'

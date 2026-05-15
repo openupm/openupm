@@ -1,4 +1,5 @@
 name: com.textus-games.serialized-reference-ui
+aliases: []
 displayName: Serialize Reference UI
 description: >-
   The UI for Unity's SerealizedReference attribute. It allows changing the

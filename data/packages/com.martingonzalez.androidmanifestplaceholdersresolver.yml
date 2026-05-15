@@ -1,4 +1,5 @@
 name: com.martingonzalez.androidmanifestplaceholdersresolver
+aliases: []
 displayName: AndroidManifest Placeholders Resolver
 description: >-
   A postprocess to inject values to placeholders in AndroidManifest using

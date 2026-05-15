@@ -1,4 +1,5 @@
 name: com.stella3d.sharedarray
+aliases: []
 displayName: Shared Array
 description: Zero-copy sharing between managed and native arrays in Unity
 repoUrl: 'https://github.com/stella3d/SharedArray'

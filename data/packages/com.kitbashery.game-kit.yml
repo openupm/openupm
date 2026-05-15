@@ -1,4 +1,5 @@
 name: com.kitbashery.game-kit
+aliases: []
 displayName: Game Kit
 description: A collection of feature rich gameplay systems.
 repoUrl: 'https://github.com/Kitbashery/Game-Kit'

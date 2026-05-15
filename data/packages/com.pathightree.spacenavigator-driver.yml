@@ -1,4 +1,5 @@
 name: com.pathightree.spacenavigator-driver
+aliases: []
 displayName: SpaceNavigator Driver
 description: >-
   Driver for 3DConnexion devices

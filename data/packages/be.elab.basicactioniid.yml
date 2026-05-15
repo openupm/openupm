@@ -1,4 +1,5 @@
 name: be.elab.basicactioniid
+aliases: []
 displayName: Basic Action with IID
 description: 'Some code that use IID to trigger basic action like: function, action,
   unityevent, sound ...'

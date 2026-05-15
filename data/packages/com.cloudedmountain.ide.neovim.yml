@@ -1,4 +1,5 @@
 name: com.cloudedmountain.ide.neovim
+aliases: []
 displayName: Neovim Editor
 description: >-
   Code editor integration for supporting Neovim as code editor for unity. Adds

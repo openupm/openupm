@@ -1,4 +1,5 @@
 name: com.leoecscommunity.ecslite.di
+aliases: []
 displayName: LeoECSCommunity Lite Dependency Injection
 description: Dependency injection for LeoECSCommunity Lite.
 repoUrl: 'https://github.com/LeoECSCommunity/ecslite-di'

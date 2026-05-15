@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-bigoads-mediation
+aliases: []
 displayName: BigoAds adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use BigoAds ad network in conjuction with Yandex Mobile

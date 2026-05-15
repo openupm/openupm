@@ -1,4 +1,6 @@
 name: com.siegeup.iconrenderer
+aliases:
+  - com.siegeup.icon-renderer
 displayName: SiegeUp.IconRenderer
 description: Universal extendable icons renderer for items and objects in editor mode.
 repoUrl: https://github.com/SiegeUp/SiegeUp.IconRenderer

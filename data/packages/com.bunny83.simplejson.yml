@@ -1,4 +1,5 @@
 name: com.bunny83.simplejson
+aliases: []
 displayName: SimpleJSON
 description: A simple JSON parser in C#
 repoUrl: 'https://github.com/walaoRIKI/SimpleJSON'

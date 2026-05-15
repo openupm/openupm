@@ -1,4 +1,5 @@
 name: com.yasirkula.simpleinput
+aliases: []
 displayName: Simple Input System
 description: >-
   An improvement over Unity's standard Input system that allows you to use

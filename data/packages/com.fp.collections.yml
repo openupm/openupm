@@ -1,4 +1,5 @@
 name: com.fp.collections
+aliases: []
 displayName: FrameProject Collections
 description: New or extended collections for common use
 repoUrl: 'https://github.com/FrameProjectTeam/Collections'

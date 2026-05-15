@@ -1,4 +1,5 @@
 name: com.vcow.touch-helper
+aliases: []
 displayName: Touch Helper
 description: Touchscreen input emulator for Unity Editor.
 repoUrl: https://github.com/vcow/lib-touch-helper

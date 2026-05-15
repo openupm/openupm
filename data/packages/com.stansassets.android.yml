@@ -1,4 +1,5 @@
 name: com.stansassets.android
+aliases: []
 displayName: Stans Assets - Android plugins Dev Kit
 description: Android plugins Dev Kit for Unity
 repoUrl: 'https://github.com/StansAssets/com.stansassets.android'

@@ -1,4 +1,5 @@
 name: com.shidon.radiance-cascade
+aliases: []
 displayName: Radiance Cascade
 description: Adaptation of 2D Radiance Cascade for Unity
 repoUrl: https://github.com/ShidoArima/radiance-cascade

@@ -1,4 +1,5 @@
 name: com.nmj.hotkeyscene
+aliases: []
 displayName: HotkeyScene
 description: >-
   Hotkey Scenes is helper editor for using shift + 'numbers' to quickly change

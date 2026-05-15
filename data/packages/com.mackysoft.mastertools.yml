@@ -1,4 +1,5 @@
 name: com.mackysoft.mastertools
+aliases: []
 displayName: MasterTools
 description: Master data importer for Unity.
 repoUrl: https://github.com/mackysoft/MasterTools

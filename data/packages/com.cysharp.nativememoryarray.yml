@@ -1,4 +1,5 @@
 name: com.cysharp.nativememoryarray
+aliases: []
 displayName: NativeMemoryArray
 description: Utilized native-memory backed array.
 repoUrl: 'https://github.com/Cysharp/NativeMemoryArray'

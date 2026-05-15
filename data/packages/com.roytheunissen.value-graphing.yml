@@ -1,4 +1,5 @@
 name: com.roytheunissen.value-graphing
+aliases: []
 displayName: Value Graphing
 description: >-
   Provides a simple syntax for visualizing continuously changing values with

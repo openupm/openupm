@@ -1,4 +1,5 @@
 name: com.virgis.wireframe-shader
+aliases: []
 displayName: UCLA Game Lab Wireframe Shader
 description: Renders a line along every edge between every vertex
 repoUrl: https://github.com/ViRGIS-Team/unity-wireframe-shader

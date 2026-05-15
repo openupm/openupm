@@ -1,4 +1,5 @@
 name: com.dartcore.localization
+aliases: []
 displayName: DartCore Localization
 description: This package allows you to localize strings.
 repoUrl: 'https://github.com/AtaTrkgl/DartCore-Localization'

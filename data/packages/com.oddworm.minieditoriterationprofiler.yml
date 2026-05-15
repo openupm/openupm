@@ -1,4 +1,5 @@
 name: com.oddworm.minieditoriterationprofiler
+aliases: []
 displayName: Mini Editor Iteration Profiler
 description: >-
   Breaking down timings on compilation, assembly reload and enter/exit Play Mode

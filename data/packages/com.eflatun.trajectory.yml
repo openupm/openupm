@@ -1,4 +1,5 @@
 name: com.eflatun.trajectory
+aliases: []
 displayName: Eflatun.Trajectory
 description: Trajectory calculation and visualizaiton utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Trajectory'

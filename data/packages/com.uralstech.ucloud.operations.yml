@@ -1,4 +1,5 @@
 name: com.uralstech.ucloud.operations
+aliases: []
 displayName: UCloud.Operations
 description: 'UCloud.Operations: A Unity C# wrapper for the google.longrunning API.'
 repoUrl: https://github.com/Uralstech/UCloud.Operations

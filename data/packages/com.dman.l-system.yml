@@ -1,4 +1,5 @@
 name: com.dman.l-system
+aliases: []
 displayName: L-system
 description: >-
   An implementation of the features present in L-systems described by

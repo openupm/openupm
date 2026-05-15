@@ -1,4 +1,5 @@
 name: com.anatawa12.custom-localization-for-editor-extension
+aliases: []
 displayName: CustomLocalization4EditorExtension
 description: >-
   The library for Unity extensions which want to have custom locale

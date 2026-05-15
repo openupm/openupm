@@ -1,4 +1,5 @@
 name: com.mirage.miragesdk
+aliases: []
 displayName: MirageSDK
 description: Provides an easy way to interact with Web3 and possibility to work with
   contracts deployed on the blockchain.

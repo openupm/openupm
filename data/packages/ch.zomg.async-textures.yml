@@ -1,4 +1,5 @@
 name: ch.zomg.async-textures
+aliases: []
 displayName: Asynchronous Textures
 description: >-
   Enables loading (and uploading to GPU) textures asynchronously using compute

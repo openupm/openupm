@@ -1,4 +1,5 @@
 name: com.techdigga.uithreaddispatcher
+aliases: []
 displayName: UI Thread Dispatcher
 description: >-
   A modular, thread-safe dispatcher for marshalling calls to Unity's main thread

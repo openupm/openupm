@@ -1,4 +1,5 @@
 name: com.hww.xidebugdraw
+aliases: []
 displayName: XiDebugDraw
 description: XiDebugDraw is a debug draw librayr for Unity.
 repoUrl: 'https://github.com/hww/XiDebugDraw'

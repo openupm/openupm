@@ -1,4 +1,5 @@
 name: com.utj.imguiextentions
+aliases: []
 displayName: IMGUI Extentions
 description: This package extends GUI/GUILayout/EditorGUI/EditorGUILayout.
 repoUrl: 'https://github.com/katsumasa/IMGUIExtentions'

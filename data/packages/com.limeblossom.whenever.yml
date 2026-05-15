@@ -1,4 +1,5 @@
 name: com.limeblossom.whenever
+aliases: []
 displayName: Whenever
 description: Whenever X do Y. A system for building synergistic interactions.
 repoUrl: https://github.com/LimeBlossom/Whenever

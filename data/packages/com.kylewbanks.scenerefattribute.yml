@@ -1,4 +1,5 @@
 name: com.kylewbanks.scenerefattribute
+aliases: []
 displayName: Scene Reference Attribute
 description: >-
   Unity C# attribute for serializing component and interface references within

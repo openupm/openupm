@@ -1,4 +1,5 @@
 name: com.cathei.rotationmath
+aliases: []
 displayName: RotationMath
 description: Commonly used rotation mathematics utility for Unity.
 repoUrl: 'https://github.com/cathei/RotationMath'

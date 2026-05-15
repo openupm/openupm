@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite
+aliases: []
 displayName: LeoECS Lite
 description: >-
   LeoECS Lite is lightweight C# Entity Component System framework based on

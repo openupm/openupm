@@ -1,4 +1,5 @@
 name: com.iam1337.extdebug
+aliases: []
 displayName: extDebug
 description: extDebug is a debug tools for Unity.
 repoUrl: 'https://github.com/Iam1337/extDebug'

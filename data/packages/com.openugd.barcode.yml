@@ -1,4 +1,5 @@
 name: com.openugd.barcode
+aliases: []
 displayName: Barcode
 description: Barcode for Unity
 repoUrl: https://github.com/openugd/upm-barcode

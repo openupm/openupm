@@ -1,4 +1,5 @@
 name: com.middlemast.scriptableobjectwizard
+aliases: []
 displayName: ScriptableObject Wizard
 description: >-
   A very simple editor tool that allows the cration of any ScriptableObject

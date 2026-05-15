@@ -1,4 +1,5 @@
 name: co.mindport.builder.xrinteraction
+aliases: []
 displayName: VR Builder XR Interaction Component
 description: VR Builder default XR interaction component.
 repoUrl: 'https://github.com/MindPort-GmbH/VR-Builder-XR-Interaction-Component'

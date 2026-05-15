@@ -1,4 +1,5 @@
 name: com.facticus.deploy
+aliases: []
 displayName: Deploy
 description: >-
   A Unity package to help you build and deploy your game remotely with Github

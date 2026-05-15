@@ -1,4 +1,5 @@
 name: com.quabug.generic-serialize-reference
+aliases: []
 displayName: GenericSerializeReference
 description: >-
   Automatically alter generic field of SerializeReference into its non-generic

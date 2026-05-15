@@ -1,4 +1,5 @@
 name: com.nmacadam.upm-openupm-extension
+aliases: []
 displayName: UPM OpenUPM Extension
 description: >-
   This package adds a custom dropdown menu item to the Package Manager window

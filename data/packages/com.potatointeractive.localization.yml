@@ -1,4 +1,5 @@
 name: com.potatointeractive.localization
+aliases: []
 displayName: PotatoLocalization
 description: Potato Interactive's Unity/C# Localization package
 repoUrl: 'https://github.com/tlauterbach/potato-localization'

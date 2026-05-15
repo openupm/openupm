@@ -1,4 +1,5 @@
 name: com.pfc.jp.keijiro.klak.ndi
+aliases: []
 displayName: KlakNDI (pfc)
 description: NewTek NDI® plugin for Unity with Video and Audio support
 repoUrl: https://github.com/prefrontalcortex/KlakNDI

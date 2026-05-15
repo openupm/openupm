@@ -1,4 +1,5 @@
 name: io.level3.phoenixsharp
+aliases: []
 displayName: PhoenixSharp
 description: >-
   C# Phoenix Channels client for real-time communication with Phoenix (Elixir)

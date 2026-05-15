@@ -1,4 +1,5 @@
 name: net.narazaka.unity.tiled-number-shader
+aliases: []
 displayName: Tiled Number Shader
 description: Shader (+cginc) to handle tiled number textures
 repoUrl: https://github.com/Narazaka/tiled-number-shader

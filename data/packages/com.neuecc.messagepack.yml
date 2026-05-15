@@ -1,4 +1,5 @@
 name: com.neuecc.messagepack
+aliases: []
 displayName: MessagePack
 description: >-
   Extremely Fast MessagePack Serializer for C#(.NET, .NET Core, Unity, Xamarin).

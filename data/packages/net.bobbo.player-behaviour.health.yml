@@ -1,4 +1,5 @@
 name: net.bobbo.player-behaviour.health
+aliases: []
 displayName: Player Behaviour Health
 description: Basic health functionality for the Bobbo-Net Player Controller
 repoUrl: https://github.com/BOBBO-NET/netengine4

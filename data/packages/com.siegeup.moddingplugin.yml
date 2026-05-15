@@ -1,4 +1,5 @@
 name: com.siegeup.moddingplugin
+aliases: []
 displayName: SiegeUp Modding Plugin
 description: This package provides basic tools and instruments for creating SiegeUp mods.
 repoUrl: 'https://github.com/SiegeUp/SiegeUp-Modding-Plugin'

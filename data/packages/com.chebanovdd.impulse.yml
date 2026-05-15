@@ -1,4 +1,5 @@
 name: com.chebanovdd.impulse
+aliases: []
 displayName: Impulse
 description: Powerful camera shake system for Unity with customizable presets.
 repoUrl: https://github.com/ChebanovDD/Impulse

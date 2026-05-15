@@ -1,4 +1,5 @@
 name: net.sera.union
+aliases: []
 displayName: Sera.Union
 description: Tagged union for c#
 repoUrl: https://github.com/sera-net/Sera.Union-for-Unity

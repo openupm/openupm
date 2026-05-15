@@ -1,4 +1,5 @@
 name: com.github.jlreymendez.planilo
+aliases: []
 displayName: planilo
 description: >-
   A xNode based tool for designing AI Graphs like Behavior Trees and Finite

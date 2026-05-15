@@ -1,4 +1,5 @@
 name: com.em.configs
+aliases: []
 displayName: EM.Configs
 description: ''
 repoUrl: 'https://github.com/epishev-m/EM.Configs'

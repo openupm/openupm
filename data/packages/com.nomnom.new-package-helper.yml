@@ -1,4 +1,5 @@
 name: com.nomnom.new-package-helper
+aliases: []
 displayName: New Package Helper
 description: This allows assists in the creation of new packages.
 repoUrl: 'https://github.com/nomnomab/New-Package-Helper'

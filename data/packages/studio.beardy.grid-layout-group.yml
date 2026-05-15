@@ -1,4 +1,5 @@
 name: studio.beardy.grid-layout-group
+aliases: []
 displayName: Beardy's Grid Layout Group
 description: Fixes child-alignment in the grid-layout-group.
 repoUrl: https://github.com/mrbeardy/BeardyGridLayout

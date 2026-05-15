@@ -1,4 +1,6 @@
 name: com.hryooba.artnet
+aliases:
+  - com.hryooba.library.artnet
 displayName: HRYooba.ArtNet
 description: |-
   Unity HRYooba

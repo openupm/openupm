@@ -1,4 +1,5 @@
 name: com.ms.quickcapture
+aliases: []
 displayName: Quick Screen Capture
 description: quick screen capture for unity editor
 repoUrl: 'https://github.com/wlgys8/QuickScreenCapture'

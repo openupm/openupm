@@ -1,4 +1,5 @@
 name: com.azesmway.react-native-unity
+aliases: []
 displayName: react-native-unity
 description: ReactNative <-> Unity Integration
 repoUrl: 'https://github.com/Mythologi-XR/react-native-unity-play-upm'

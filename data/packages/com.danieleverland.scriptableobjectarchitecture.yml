@@ -1,4 +1,5 @@
 name: com.danieleverland.scriptableobjectarchitecture
+aliases: []
 displayName: ScriptableObject-Architecture
 description: >-
   Makes using Scriptable Objects as a fundamental part of your architecture in

@@ -1,4 +1,5 @@
 name: com.macawls.oceanfsm
+aliases: []
 displayName: Ocean FSM
 description: >-
   A code-only, simple and easy to use Finite State Machine for your Unity

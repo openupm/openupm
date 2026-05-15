@@ -1,4 +1,5 @@
 name: com.rozhovetskyi.arsupportchecker
+aliases: []
 displayName: AR Support Checker
 description: Unity plugin for ARCore / ARKit / AR Foundation supported devices detection.
 repoUrl: 'https://github.com/Rozhovetskyi/AR-Support-Checker'

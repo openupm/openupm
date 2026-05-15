@@ -1,4 +1,5 @@
 name: com.hww.xicore
+aliases: []
 displayName: XiCore
 description: XiCore is a collection of libraries for Unity.
 repoUrl: 'https://github.com/hww/XiCore'

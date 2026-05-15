@@ -1,4 +1,6 @@
 name: com.sasaki.viewobjects.mono
+aliases:
+  - com.sasaki.viewto.objects
 displayName: viewobjects-mono
 description: ViewObjects for Unity
 repoUrl: 'https://github.com/haitheredavid/viewto-unity'

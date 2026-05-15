@@ -1,4 +1,5 @@
 name: com.aaulicino.unity-coroutines-for-nsubstitute
+aliases: []
 displayName: Unity Coroutines for NSubstitute
 description: Mocking Unity3D Coroutines in Unity3D using NSubstitute
 repoUrl: 'https://github.com/AAulicino/Unity-Coroutines-for-NSubstitute'

@@ -1,4 +1,5 @@
 name: com.studio23.ss2.cutscenesystem
+aliases: []
 displayName: com.studio23.ss2.cutscenesystem
 description: "Cutscenesystem is a utility package where cutscene will display using comic strip style. Unity timeline is being used for the system\r"
 repoUrl: https://github.com/Studio-23-xyz/com.studio23.ss2.cutscenesystem

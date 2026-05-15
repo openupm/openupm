@@ -1,4 +1,5 @@
 name: com.boundfoxstudios.fluentassertions
+aliases: []
 displayName: FluentAssertions
 description: FluentAssertions for Unity
 repoUrl: 'https://github.com/BoundfoxStudios/fluentassertions-unity'

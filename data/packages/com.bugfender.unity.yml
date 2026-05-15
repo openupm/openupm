@@ -1,4 +1,5 @@
 name: com.bugfender.unity
+aliases: []
 displayName: Bugfender
 description: Unity bindings for the native Bugfender iOS and Android SDKs
 repoUrl: https://github.com/bugfender/BugfenderSDK-Unity

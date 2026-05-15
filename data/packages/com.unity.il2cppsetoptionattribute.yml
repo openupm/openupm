@@ -1,4 +1,5 @@
 name: com.unity.il2cppsetoptionattribute
+aliases: []
 displayName: Il2CppSetOptionAttribute
 description: >-
   UPM-wrapped copy of Unity.IL2CPP.CompilerServices.Il2CppSetOptionAttribute

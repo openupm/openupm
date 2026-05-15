@@ -1,4 +1,5 @@
 name: com.yasirkula.ingamedebugconsole
+aliases: []
 displayName: In-game Debug Console
 description: >-
   A uGUI based console to see debug messages and execute commands during

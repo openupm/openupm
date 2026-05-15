@@ -1,4 +1,5 @@
 name: com.aim4code.nanoserviceflow.ui
+aliases: []
 displayName: NanoServiceFlow - UI
 description: >-
   A reactive, event-driven UI framework for Unity built on NanoServiceFlow.

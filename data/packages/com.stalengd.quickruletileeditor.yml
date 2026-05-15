@@ -1,4 +1,5 @@
 name: com.stalengd.quickruletileeditor
+aliases: []
 displayName: Quick Rule Tile Editor
 description: Easily and quickly create rule tiles in Unity.
 repoUrl: 'https://github.com/stalengd/QuickRuleTileEditor'

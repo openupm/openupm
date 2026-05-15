@@ -1,4 +1,5 @@
 name: com.studio23.ss2.audiosystem.fmod
+aliases: []
 displayName: Audio System FMOD
 description: >-
   This is a system for managing and utilizing audio using FMOD. It provides an

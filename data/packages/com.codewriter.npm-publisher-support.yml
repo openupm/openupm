@@ -1,4 +1,5 @@
 name: com.codewriter.npm-publisher-support
+aliases: []
 displayName: Npm Publisher Support
 description: Publish Npm packages to your registry directly from the Unity
 repoUrl: 'https://github.com/codewriter-packages/NpmPublisherSupport'

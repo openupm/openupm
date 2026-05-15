@@ -1,4 +1,5 @@
 name: com.vertx.debugging
+aliases: []
 displayName: Debugging
 description: Debugging Utilities for Unity.
 repoUrl: 'https://github.com/vertxxyz/Vertx.Debugging'

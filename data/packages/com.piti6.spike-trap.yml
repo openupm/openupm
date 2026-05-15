@@ -1,4 +1,5 @@
 name: com.piti6.spike-trap
+aliases: []
 displayName: SpikeTrap
 description: >-
   Set traps, catch bad frames. An enhanced CPU profiler module for the Unity

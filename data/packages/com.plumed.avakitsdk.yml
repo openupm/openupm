@@ -1,4 +1,5 @@
 name: com.plumed.avakitsdk
+aliases: []
 displayName: Avakit SDK
 description: .
 repoUrl: 'https://github.com/avatokapp/AvakitSDK'

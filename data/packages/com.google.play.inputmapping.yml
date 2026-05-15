@@ -1,4 +1,5 @@
 name: com.google.play.inputmapping
+aliases: []
 displayName: Google Play Input Mapping
 description: Provides tools for exposing keyboard and mouse controls to the Android
   framework

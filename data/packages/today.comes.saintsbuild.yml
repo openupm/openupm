@@ -1,4 +1,5 @@
 name: today.comes.saintsbuild
+aliases: []
 displayName: SaintsBuild
 description: A Unity plugin for building (packing) process
 repoUrl: https://github.com/TylerTemp/SaintsBuild

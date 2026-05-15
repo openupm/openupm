@@ -1,4 +1,5 @@
 name: com.strodio.pwa-install-manager
+aliases: []
 displayName: PWA Install Manager
 description: PWA Install Manager for Unity WebGL
 repoUrl: https://github.com/StromKuo/PWA-Install-Manager

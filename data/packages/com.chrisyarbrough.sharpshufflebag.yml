@@ -1,4 +1,5 @@
 name: com.chrisyarbrough.sharpshufflebag
+aliases: []
 displayName: Sharp Shuffle Bag
 description: An efficient and convenient shuffle bag implementation.
 repoUrl: https://github.com/chrisyarbrough/SharpShuffleBag

@@ -1,4 +1,5 @@
 name: com.izayoi.nova.shader.utility
+aliases: []
 displayName: NOVA Shader Utility
 description: This package is utility scripts to get/set NOVA shader property values.
 repoUrl: https://github.com/izayoijiichan/NovaShaderUtility

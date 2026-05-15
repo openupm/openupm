@@ -1,4 +1,5 @@
 name: io.github.idreamsofgame.unisharper.data.metadata
+aliases: []
 displayName: UniSharper.Data.Metadata
 description: >-
   UniSharper.Data.Metadata is a library for converting data in excel files, and

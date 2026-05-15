@@ -1,4 +1,5 @@
 name: com.houraiteahouse.config
+aliases: []
 displayName: Hourai Config
 description: >-
   A Unity3D system for effectively authoring and editing global game

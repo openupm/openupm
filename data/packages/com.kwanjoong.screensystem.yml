@@ -1,4 +1,5 @@
 name: com.kwanjoong.screensystem
+aliases: []
 displayName: Kwanjoong.ScreenSystem
 description: Wrapper for UnityScreenNavigator, for easy use in Unity UI Storyboard
 repoUrl: https://github.com/kwan3854/Kwanjoong.ScreenSystem

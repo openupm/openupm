@@ -1,4 +1,5 @@
 name: com.greener-games.sharp-zip-lib
+aliases: []
 displayName: Sharp Zip Lib For Unity
 description: Unity utility wrapper for Sharp lib Zip
 repoUrl: 'https://github.com/Greener-Games/SharpZipLib-For-Unity'

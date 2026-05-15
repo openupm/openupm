@@ -1,4 +1,5 @@
 name: com.virgis.mdal
+aliases: []
 displayName: Mdal
 description: Unity Package for MDAL - Mesh Data Abstraction Layer
 repoUrl: 'https://github.com/ViRGIS-Team/mdal-upm'

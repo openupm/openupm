@@ -1,4 +1,5 @@
 name: com.tityx.state-machine
+aliases: []
 displayName: State Machine
 description: Basic state machine template
 repoUrl: https://github.com/Tityxx/State-Machine

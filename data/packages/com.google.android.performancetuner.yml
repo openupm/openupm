@@ -1,4 +1,5 @@
 name: com.google.android.performancetuner
+aliases: []
 displayName: Android Performance Tuner
 description: >-
   Android Performance Tuner is a library to help developers measure frame

@@ -1,4 +1,5 @@
 name: org.pcsoft.ide-ex
+aliases: []
 displayName: IDE Extension for Unity
 description: Extension for Unity for a better IDE.
 repoUrl: 'https://github.com/KleinerHacker/unity-ide-ex'

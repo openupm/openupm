@@ -1,4 +1,5 @@
 name: com.studio23.ss2.settings.control
+aliases: []
 displayName: Control Setting
 description: >-
   This is control setting for unity. Used for in-game controller ad mouse

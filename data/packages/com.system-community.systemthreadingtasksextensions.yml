@@ -1,4 +1,6 @@
 name: com.system-community.systemthreadingtasksextensions
+aliases:
+  - com.worldreaver.systemthreadingtasksextensions
 displayName: SystemThreadingTasksExtensions
 description: >-
   Provides additional types that simplify the work of writing concurrent and

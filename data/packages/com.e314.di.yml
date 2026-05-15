@@ -1,4 +1,5 @@
 name: com.e314.di
+aliases: []
 displayName: E314.Di
 description: >-
   The E314.DI module contains the DiContainer. DiContainer is a dependency

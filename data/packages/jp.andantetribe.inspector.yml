@@ -1,4 +1,5 @@
 name: jp.andantetribe.inspector
+aliases: []
 displayName: Inspector
 description: "Custom inspectors that enhance Unityâ\x80\x99s built-in component inspectors."
 repoUrl: https://github.com/AndanteTribe/Inspector

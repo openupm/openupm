@@ -1,4 +1,5 @@
 name: com.seemba.unitysdk-vertical
+aliases: []
 displayName: SeembaSDK Vertical
 description: 'Seemba, the last and only in game monetization system you will ever need.'
 repoUrl: 'https://github.com/Seemba-Gaming/unity-sdk'

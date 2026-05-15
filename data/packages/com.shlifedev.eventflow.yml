@@ -1,4 +1,5 @@
 name: com.shlifedev.eventflow
+aliases: []
 displayName: EventFlow
 description: This package support non-gc unity event broadcast system.
 repoUrl: https://github.com/shlifedev/event-flow

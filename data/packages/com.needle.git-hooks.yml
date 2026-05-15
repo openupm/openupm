@@ -1,4 +1,5 @@
 name: com.needle.git-hooks
+aliases: []
 displayName: Needle Git Hooks
 description: >-
   Automatically installs a git pre-commit hook to prevent commits with very

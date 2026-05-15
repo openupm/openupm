@@ -1,4 +1,5 @@
 name: com.pylons.unity.sdk.itemtools
+aliases: []
 displayName: Pylons SDK for Unity (ItemTools)
 description: >-
   Tools for parsing native blockchain objects into C# types and interacting with

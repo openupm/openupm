@@ -1,4 +1,5 @@
 name: com.jvarelaaloisio.events
+aliases: []
 displayName: Event Channels System
 description: >-
   Events extension that allows to have communication between GameObjects and

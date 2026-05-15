@@ -1,4 +1,5 @@
 name: io.github.idreamsofgame.skiasharp.fontsubset
+aliases: []
 displayName: SkiaSharp.FontSubset
 description: Implements font subset feature by SkiaSharp.
 repoUrl: https://github.com/iDreamsOfGame/SkiaSharp.FontSubset

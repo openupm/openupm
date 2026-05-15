@@ -1,4 +1,5 @@
 name: com.edenrompas.er-hierarchy
+aliases: []
 displayName: ER Hierarchy
 description: "Custom tool designed to enhance the visual organization and management of GameObjects within Unityâ\x80\x99s Hierarchy window"
 repoUrl: https://github.com/EdenRompas/ER-Hierarchy

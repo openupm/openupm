@@ -1,4 +1,5 @@
 name: com.generalisk.clean-build
+aliases: []
 displayName: Clean Build
 description: >-
   Clean Build automatically gets rid of unnecessary debug files that are

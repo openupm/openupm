@@ -1,4 +1,5 @@
 name: com.adjust.sdk
+aliases: []
 displayName: Adjust
 description: This is the Unity SDK of
 repoUrl: https://github.com/adjust/unity_sdk

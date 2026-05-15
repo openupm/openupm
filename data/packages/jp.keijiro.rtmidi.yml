@@ -1,4 +1,5 @@
 name: jp.keijiro.rtmidi
+aliases: []
 displayName: RtMidi
 description: RtMidi wrapper package for Unity
 repoUrl: 'https://github.com/keijiro/jp.keijiro.rtmidi'

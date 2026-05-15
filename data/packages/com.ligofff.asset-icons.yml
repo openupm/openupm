@@ -1,4 +1,5 @@
 name: com.ligofff.asset-icons
+aliases: []
 displayName: Asset icons
 description: Small editor plugin for show icons on ScriptableObject assets in project
   and fields

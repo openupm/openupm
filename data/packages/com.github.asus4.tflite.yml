@@ -1,4 +1,5 @@
 name: com.github.asus4.tflite
+aliases: []
 displayName: TensorFlow Lite
 description: TensorFlow Lite Samples on Unity
 repoUrl: 'https://github.com/asus4/tf-lite-unity-sample'

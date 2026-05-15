@@ -1,4 +1,6 @@
 name: com.realitytoolkit.player
+aliases:
+  - com.realitytoolkit.camera
 displayName: RealityToolkit.Player
 description: >-
   The Player service module of the Reality Toolkit by the Reality Collective.

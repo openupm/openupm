@@ -1,4 +1,5 @@
 name: com.openugd.references.inspector
+aliases: []
 displayName: References Inspector
 description: Assets/Tools/References
 repoUrl: https://github.com/openugd/upm-references-inspector

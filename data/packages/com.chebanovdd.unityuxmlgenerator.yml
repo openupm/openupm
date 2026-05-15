@@ -1,4 +1,5 @@
 name: com.chebanovdd.unityuxmlgenerator
+aliases: []
 displayName: Unity Uxml Generator
 description: >-
   The Unity Uxml Generator allows you to generate 'UxmlFactory' and 'UxmlTraits'

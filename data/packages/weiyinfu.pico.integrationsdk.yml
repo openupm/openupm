@@ -1,4 +1,5 @@
 name: weiyinfu.pico.integrationsdk
+aliases: []
 displayName: PICO Integration
 description: Provides display and input support for PICO devices.
 repoUrl: 'https://github.com/weiyinfu/PicoIntegrationSdk'

@@ -1,4 +1,5 @@
 name: dev.comradevanti.opt-unity
+aliases: []
 displayName: Unity Opt extensions
 description: Unity extensions and utilities for Opt
 repoUrl: 'https://github.com/ComradeVanti/UnityOptExtensions'

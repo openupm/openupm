@@ -1,4 +1,5 @@
 name: com.ta-david-yu.sceneswitchwindow
+aliases: []
 displayName: DY.SceneSwitchWindow
 description: Scene switching window for Unity Editor
 repoUrl: 'https://github.com/ta-david-yu/Unity-SceneSwitchWindow'

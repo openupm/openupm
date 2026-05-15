@@ -1,4 +1,5 @@
 name: com.voxelbusters.permissionskit
+aliases: []
 displayName: Permissions Kit
 description: >-
   A unified way to check permission status and request permissions for iOS and

@@ -1,4 +1,5 @@
 name: dev.monry.unirx-observabletween
+aliases: []
 displayName: UniRx Observable Tween
 description: Tweener library based on UniRx
 repoUrl: 'https://github.com/monry/UniRx-ObservableTween'

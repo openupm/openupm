@@ -1,4 +1,5 @@
 name: games.javier.upm.propertyrefs
+aliases: []
 displayName: Property Refs
 description: >-
   PropertyRef allows you to create shortcuts to the values of a prefab and

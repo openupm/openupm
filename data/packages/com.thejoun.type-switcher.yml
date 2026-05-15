@@ -1,4 +1,5 @@
 name: com.thejoun.type-switcher
+aliases: []
 displayName: Type Switcher
 description: Easily switch the type of a component between derived classes
 repoUrl: 'https://github.com/thejoun/type-switcher'

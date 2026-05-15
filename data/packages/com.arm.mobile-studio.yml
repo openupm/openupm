@@ -1,4 +1,5 @@
 name: com.arm.mobile-studio
+aliases: []
 displayName: Mobile Studio
 description: Unity C# bindings for Mobile Studio.
 repoUrl: 'https://github.com/ARM-software/mobile-studio-integration-for-unity'

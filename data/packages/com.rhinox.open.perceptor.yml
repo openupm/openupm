@@ -1,4 +1,5 @@
 name: com.rhinox.open.perceptor
+aliases: []
 displayName: 'Perceptor - Unity Logging Framework'
 description: Unity Logging Framework built by Rhinox
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-perceptor'

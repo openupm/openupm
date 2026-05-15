@@ -1,4 +1,5 @@
 name: com.quabug.blob-editor
+aliases: []
 displayName: BlobEditor
 description: Inspector-editor of blob asset
 repoUrl: 'https://github.com/quabug/BlobEditor'

@@ -1,4 +1,5 @@
 name: com.yasirkula.speechtotext
+aliases: []
 displayName: Speech to Text
 description: >-
   This plugin helps you convert speech to text on Android (all versions) and iOS

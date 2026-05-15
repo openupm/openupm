@@ -1,4 +1,5 @@
 name: com.beardphantom.fastnoiselite
+aliases: []
 displayName: FastNoiseLite for Unity
 description: A port and customization of FastNoiseLite for Unity.
 repoUrl: https://github.com/thebeardphantom/FastNoiseLite_Unity

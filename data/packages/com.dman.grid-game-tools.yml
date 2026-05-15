@@ -1,4 +1,5 @@
 name: com.dman.grid-game-tools
+aliases: []
 displayName: Grid Game Tools
 description: |-
   A suite of framework-like tools that aim to make implementing and testing

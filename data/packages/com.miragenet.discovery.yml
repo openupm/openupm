@@ -1,4 +1,5 @@
 name: com.miragenet.discovery
+aliases: []
 displayName: MirageNet Discovery
 description: Network discovery for MirageNet
 repoUrl: 'https://github.com/MirageNet/Discovery'

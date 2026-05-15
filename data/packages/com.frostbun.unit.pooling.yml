@@ -1,4 +1,5 @@
 name: com.frostbun.unit.pooling
+aliases: []
 displayName: UniT Pooling
 description: Object Pool Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Pooling

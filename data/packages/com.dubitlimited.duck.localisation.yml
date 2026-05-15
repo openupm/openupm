@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.localisation
+aliases: []
 displayName: Duck Localisation
 description: Localisation support
 repoUrl: 'https://github.com/dubit/unity-localisation'

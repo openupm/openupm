@@ -1,4 +1,5 @@
 name: com.lvl3mage.interpolation
+aliases: []
 displayName: Interpolation
 description: A package that provides several interpolation-related utility classes.
 repoUrl: https://github.com/Lvl3Mage/Interpolation

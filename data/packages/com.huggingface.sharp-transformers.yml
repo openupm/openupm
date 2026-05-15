@@ -1,4 +1,5 @@
 name: com.huggingface.sharp-transformers
+aliases: []
 displayName: Hugging Face Sharp Transformers
 description: A Unity plugin for using Transformers models in Unity.
 repoUrl: https://github.com/ltmx/sharp-transformers

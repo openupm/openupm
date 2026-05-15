@@ -1,4 +1,5 @@
 name: com.zbase.unityscreennavigator
+aliases: []
 displayName: ZBase.UnityScreenNavigator
 description: >-
   Library for screen transitions, transition animations, transition history

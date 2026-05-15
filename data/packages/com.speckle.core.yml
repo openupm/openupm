@@ -1,4 +1,6 @@
 name: com.speckle.core
+aliases:
+  - com.speckle.converters
 displayName: Speckle Core
 description: Speckle Core and Converter for Unity
 repoUrl: https://github.com/sasakiassociates/speckle-unity-connector

@@ -1,4 +1,5 @@
 name: com.fullmetalbagel.unity-lang-version
+aliases: []
 displayName: Unity LangVersion
 description: >-
   replace project's `<LangVersion>` based on `-langVersion` option of "csc.rsp"

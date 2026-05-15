@@ -1,4 +1,5 @@
 name: com.audune.utils.inputsystem
+aliases: []
 displayName: Unity Input System Utilities
 description: Unity Input System utilities for Unity 2022 LTS or higher.
 repoUrl: https://github.com/audunegames/inputsystem-utils

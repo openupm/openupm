@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.avatar
+aliases: []
 displayName: Oculus Integration Avatar
 description: Unofficial mirror of the Oculus Unity-Integration Avatar as a package
   for Unity.

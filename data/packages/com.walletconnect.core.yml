@@ -1,4 +1,5 @@
 name: com.walletconnect.core
+aliases: []
 displayName: WalletConnectUnity Core
 description: >-
   This project is an extension of WalletConnectSharp that brings WalletConnect

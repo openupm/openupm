@@ -1,4 +1,5 @@
 name: com.jfranmora.editorextensions.compile-before-play
+aliases: []
 displayName: JfranMora - Compile Before Play
 description: >-
   Add this script to compile your scripts automatically before entering play

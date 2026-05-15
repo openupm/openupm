@@ -1,4 +1,5 @@
 name: com.trackman.figma
+aliases: []
 displayName: Figma for Unity
 description: Figma to Unity uxml/uss converter, utilities for VisualTree management
   in runtime.

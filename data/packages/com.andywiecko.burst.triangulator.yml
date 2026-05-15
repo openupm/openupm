@@ -1,4 +1,5 @@
 name: com.andywiecko.burst.triangulator
+aliases: []
 displayName: Burst Triangulator
 description: >-
   A single-file package which provides simple Delaunay triangulation of the

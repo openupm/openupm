@@ -1,4 +1,5 @@
 name: com.homemade.core
+aliases: []
 displayName: com.homemade.core
 description: Package must have to add other services
 repoUrl: https://github.com/hungpt17102k/com.homemade.core

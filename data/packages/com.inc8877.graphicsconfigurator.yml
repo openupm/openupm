@@ -1,4 +1,5 @@
 name: com.inc8877.graphicsconfigurator
+aliases: []
 displayName: GraphicsConfigurator
 description: >-
   API for managing URP asset parameters, including hacking of parameters that

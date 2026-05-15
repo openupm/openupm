@@ -1,4 +1,5 @@
 name: com.autsoft.unitysupplements.timeline
+aliases: []
 displayName: Timeline
 description: Timeline for controlling objects based on time
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'

@@ -1,4 +1,5 @@
 name: com.hathora.client
+aliases: []
 displayName: Hathora Client SDK
 description: ''
 repoUrl: 'https://github.com/hathora/buildkits'

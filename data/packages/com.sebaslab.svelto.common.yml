@@ -1,4 +1,5 @@
 name: com.sebaslab.svelto.common
+aliases: []
 displayName: Svelto Common
 description: Shared code between the Svelto repositories
 repoUrl: 'https://github.com/sebas77/Svelto.Common'

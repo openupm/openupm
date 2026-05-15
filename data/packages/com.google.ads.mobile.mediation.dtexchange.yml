@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.dtexchange
+aliases: []
 displayName: Google Mobile Ads DT Exchange Mediation
 description: >-
   The Google Mobile Ads mediation plugin for DT Exchange package allows you to

@@ -1,4 +1,5 @@
 name: io.megamiley.change-camera-aim-on-start
+aliases: []
 displayName: Change Camera Aim On Start
 description: >-
   Ever wanted to start your game from the scene views position instead of the

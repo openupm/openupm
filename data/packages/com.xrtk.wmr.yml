@@ -1,4 +1,5 @@
 name: com.xrtk.wmr
+aliases: []
 displayName: XRTK.WindowsMixedReality
 description: The Windows Mixed Reality platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/WindowsMixedReality'

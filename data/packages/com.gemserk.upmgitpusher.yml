@@ -1,4 +1,5 @@
 name: com.gemserk.upmgitpusher
+aliases: []
 displayName: UnityPackageManagerGitPusher
 description: Unity Package Manager Git Publish Plugin
 repoUrl: 'https://github.com/acoppes/upmgitpusher'

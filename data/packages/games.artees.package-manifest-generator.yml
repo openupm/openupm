@@ -1,4 +1,5 @@
 name: games.artees.package-manifest-generator
+aliases: []
 displayName: Package Manifest Generator
 description: Creates the package manifest file for a Unity package
 repoUrl: 'https://github.com/Artees/Unity-Package-Manifest-Generator'

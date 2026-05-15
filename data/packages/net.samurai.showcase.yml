@@ -1,4 +1,5 @@
 name: net.samurai.showcase
+aliases: []
 displayName: Samurai.Showcase
 description: A simple UI system for Unity.
 repoUrl: 'https://github.com/FrostySamurai/Showcase'

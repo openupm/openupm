@@ -1,4 +1,5 @@
 name: com.solidalloy.generic-scriptable-architecture
+aliases: []
 displayName: Generic ScriptableObject Architecture
 description: >-
   ScriptableObject architecture with small, easy-to-expand codebase, and simple

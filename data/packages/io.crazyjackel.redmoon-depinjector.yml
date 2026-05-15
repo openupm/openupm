@@ -1,4 +1,5 @@
 name: io.crazyjackel.redmoon-depinjector
+aliases: []
 displayName: Red Moon Dependency Injector
 description: A Dependency Injector for Unity
 repoUrl: 'https://github.com/Redmoon-Development/redmoon-depInjector'

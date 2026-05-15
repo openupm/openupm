@@ -1,4 +1,5 @@
 name: com.trecs.serialization
+aliases: []
 displayName: Trecs Serialization
 description: Serialization, recording, and playback support for Trecs
 repoUrl: https://github.com/svermeulen/trecs

@@ -1,4 +1,5 @@
 name: jp.andantetribe.unityextensions
+aliases: []
 displayName: Unity Extensions
 description: "Extension methods for Unityâ\x80\x99s core components and types."
 repoUrl: https://github.com/AndanteTribe/UnityExtensions

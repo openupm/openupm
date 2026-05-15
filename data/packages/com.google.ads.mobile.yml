@@ -1,4 +1,5 @@
 name: com.google.ads.mobile
+aliases: []
 displayName: Google Mobile Ads for Unity
 description: >-
   The Google Mobile Ads package allows you to easily monetize your Unity apps

@@ -1,4 +1,5 @@
 name: com.hgs.local-storage
+aliases: []
 displayName: HGS Local Storage
 description: Manage local files and cache using Scriptable Objects
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-local-storage'

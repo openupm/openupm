@@ -1,4 +1,5 @@
 name: com.rhinox.open.grpl2
+aliases: []
 displayName: Grapple 2.0
 description: Hand tracking game framework for Unity
 repoUrl: https://github.com/Rhinox-Training/grpl-2.0

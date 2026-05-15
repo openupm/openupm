@@ -1,4 +1,5 @@
 name: com.unity.perception
+aliases: []
 displayName: Perception
 description: Perception toolkit for sim2real training and validation
 repoUrl: 'https://github.com/Unity-Technologies/com.unity.perception'

@@ -1,4 +1,5 @@
 name: com.yontalane.aseprite
+aliases: []
 displayName: Aseprite
 description: Extras for the Aseprite-to-Unity pipeline.
 repoUrl: https://github.com/yontalane/UnityPackages

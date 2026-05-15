@@ -1,4 +1,5 @@
 name: com.ges.tinyreactive
+aliases: []
 displayName: Tiny Reactive
 description: Reactive fields and extensions.
 repoUrl: https://github.com/gestiran/TinyReactive

@@ -1,4 +1,5 @@
 name: com.google.librarywrapper.java
+aliases: []
 displayName: Library Wrapper Unity Common
 description: >-
   Library Wrapper is a code generator that parses Java API and produces wrapper

@@ -1,4 +1,5 @@
 name: com.svermeulen.unifind
+aliases: []
 displayName: Unifind
 description: A fuzzy-finder for Unity Editor
 repoUrl: https://github.com/svermeulen/unifind

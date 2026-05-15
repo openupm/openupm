@@ -1,4 +1,5 @@
 name: com.aio.runner
+aliases: []
 displayName: AIO Unity Runner
 description: A unity package that provides a simple and efficient timer system for Unity.
 repoUrl: https://github.com/AIO-GAME/Unity.Runner

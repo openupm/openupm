@@ -1,4 +1,5 @@
 name: com.abxy.roslyn
+aliases: []
 displayName: NET Compiler Platform (Roslyn)
 description: The Microsoft C# binaries compiled for Unity
 repoUrl: 'https://github.com/mwahnish/Unity-Roslyn'

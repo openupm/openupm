@@ -1,4 +1,5 @@
 name: com.cysharp.unitask
+aliases: []
 displayName: UniTask
 description: Provides an efficient async/await integration to Unity.
 repoUrl: 'https://github.com/Cysharp/UniTask'

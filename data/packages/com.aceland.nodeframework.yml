@@ -1,4 +1,5 @@
 name: com.aceland.nodeframework
+aliases: []
 displayName: AceLand Node Framework
 description: AceLand Node Framework is a framework designed for Unity.
 repoUrl: https://github.com/parsue/com.aceland.nodeframework

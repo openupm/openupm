@@ -1,4 +1,5 @@
 name: ai.hume.unity
+aliases: []
 displayName: Hume
 description: Unity SDK for HumeAI
 repoUrl: https://github.com/HumeAI/hume-dotnet-sdk

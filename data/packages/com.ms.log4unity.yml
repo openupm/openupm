@@ -1,4 +1,5 @@
 name: com.ms.log4unity
+aliases: []
 displayName: Log4Unity
 description: Log4js-like Logging system for Unity
 repoUrl: 'https://github.com/wlgys8/Log4Unity'

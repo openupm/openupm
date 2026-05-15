@@ -1,4 +1,5 @@
 name: com.unity.springbone
+aliases: []
 displayName: Unity Chan Spring Bone
 description: Sping Bone System for lightweight secondary animations.
 repoUrl: 'https://github.com/unity3d-jp/UnityChanSpringBone'

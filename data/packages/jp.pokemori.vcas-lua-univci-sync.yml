@@ -1,4 +1,5 @@
 name: jp.pokemori.vcas-lua-univci-sync
+aliases: []
 displayName: esperecyan/vcas-lua-univci-sync
 description: "EmbeddedScriptWorkspaceフォルダ内の .lua ファイルが更新されたときに、Unityプロジェクト内のVCIプレハブのLuaデータを更新します。"
 repoUrl: 'https://github.com/esperecyan/vcas-lua-univci-sync'

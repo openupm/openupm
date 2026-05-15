@@ -1,4 +1,5 @@
 name: com.github.superunitybuild.buildactions
+aliases: []
 displayName: SuperUnityBuild BuildActions
 description: >-
   BuildActions are one of the key components that make the SuperUnityBuild build

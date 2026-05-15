@@ -1,4 +1,5 @@
 name: net.nayaku.unity-excel-importer-x
+aliases: []
 displayName: Unity Excel ImporterX
 description: >-
   Automatically import data from xls, xlsx file into custom ScriptableObject in the Unity Editor.

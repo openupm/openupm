@@ -1,4 +1,5 @@
 name: games.corundum.codegen.redux
+aliases: []
 displayName: CorundumGames.Codegen.Redux
 description: Codegen plugins for Entitas Redux
 repoUrl: 'https://github.com/CorundumGames/CorundumGames.Codegen.Redux'

@@ -1,4 +1,5 @@
 name: com.orca.orcavoip
+aliases: []
 displayName: Orca VOIP
 description: VOIP solution for games
 repoUrl: 'https://github.com/shaarawy962/com.orca.voip'

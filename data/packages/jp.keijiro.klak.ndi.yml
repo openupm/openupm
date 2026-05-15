@@ -1,4 +1,5 @@
 name: jp.keijiro.klak.ndi
+aliases: []
 displayName: KlakNDI
 description: >-
   KlakNDI is a Unity plugin that allows sending/receiving video streams between several devices using NDI®.

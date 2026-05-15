@@ -1,4 +1,5 @@
 name: com.annulusgames.entities-events
+aliases: []
 displayName: Entities Events
 description: Provides inter-system messaging functionality to Unity ECS
 repoUrl: https://github.com/AnnulusGames/EntitiesEvents

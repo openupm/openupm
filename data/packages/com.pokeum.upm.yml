@@ -1,4 +1,5 @@
 name: com.pokeum.upm
+aliases: []
 displayName: UPM Practice
 description: Practice project for Unity Package Manager
 repoUrl: https://github.com/pokeum/upm-sample

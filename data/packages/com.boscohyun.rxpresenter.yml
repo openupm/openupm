@@ -1,4 +1,5 @@
 name: com.boscohyun.rxpresenter
+aliases: []
 displayName: RxPresenter
 description: A simple reactive presenter for Unity.
 repoUrl: 'https://github.com/boscohyun/RxPresenter'

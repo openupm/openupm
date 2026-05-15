@@ -1,4 +1,5 @@
 name: com.chikacc.unitime
+aliases: []
 displayName: UniTime
 description: Provides a testable time integration for Unity.
 repoUrl: 'https://github.com/chikacc/UniTime'

@@ -1,4 +1,5 @@
 name: com.ripandy.soar
+aliases: []
 displayName: SOAR
 description: Scriptable Object Architecture Reactive-extensible with R3
 repoUrl: https://github.com/ripandy/SOAR

@@ -1,4 +1,5 @@
 name: com.google.play.common
+aliases: []
 displayName: Google Play Common
 description: >-
   The Play Common plugin provides common files required by some other Play plugins,

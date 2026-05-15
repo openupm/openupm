@@ -1,4 +1,6 @@
 name: com.betterplugins.core
+aliases:
+  - com.better.core
 displayName: Better Core
 description: Base package for Better Plugins
 repoUrl: https://github.com/better-plugins/core

@@ -1,4 +1,5 @@
 name: com.123tris.systempattern
+aliases: []
 displayName: System Pattern
 description: |-
   A library that helps you avoid the singleton pattern and create systems

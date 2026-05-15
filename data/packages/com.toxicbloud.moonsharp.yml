@@ -1,4 +1,5 @@
 name: com.toxicbloud.moonsharp
+aliases: []
 displayName: MoonSharp Unity
 description: A Unity package to embed MoonSharp in modern Unity versions
 repoUrl: 'https://github.com/toxicbloud/MoonSharpUnity'

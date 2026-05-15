@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.imobile
+aliases: []
 displayName: Google Mobile Ads i-mobile Mediation
 description: >-
   The Google Mobile Ads mediation plugin for i-mobile package allows you to load

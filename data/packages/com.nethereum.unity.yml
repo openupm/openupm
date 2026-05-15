@@ -1,4 +1,5 @@
 name: com.nethereum.unity
+aliases: []
 displayName: Nethereum
 description: >-
   Nethereum 472 AOT runtime dlls, please check Nethereum releases for more

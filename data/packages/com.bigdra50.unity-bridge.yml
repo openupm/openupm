@@ -1,4 +1,5 @@
 name: com.bigdra50.unity-bridge
+aliases: []
 displayName: Unity Bridge
 description: >-
   Bridge client enabling CLI and automation tools to control Unity Editor via

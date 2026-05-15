@@ -1,4 +1,5 @@
 name: jillejr.newtonsoft.json-for-unity
+aliases: []
 displayName: Json.NET 12.0.3 for Unity
 description: >-
   Newtonsoft.Json (Json.NET) 12.0.3 for Unity via Unity Package Manager

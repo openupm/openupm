@@ -1,4 +1,5 @@
 name: com.izayoi.univgo
+aliases: []
 displayName: UniVGO
 description: UniVGO is a package that can handle VGO files in Unity.
 repoUrl: https://github.com/izayoijiichan/VGO

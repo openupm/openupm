@@ -1,4 +1,5 @@
 name: com.mattmert.clipunity
+aliases: []
 displayName: CLIP for Unity
 description: CLIP for Unity allows to use CLIP library by OpenAI in the Unity engine.
 repoUrl: https://github.com/matt-mert/CLIPUnity

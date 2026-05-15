@@ -1,4 +1,5 @@
 name: de.peaj.selectionhistory
+aliases: []
 displayName: Selection History
 description: >-
   Keeps track of previously selected objects and allows selecting previous/next

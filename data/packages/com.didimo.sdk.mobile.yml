@@ -1,4 +1,5 @@
 name: com.didimo.sdk.mobile
+aliases: []
 displayName: Didimo SDK - Mobile
 description: 'Didimo provides a cloud-based automated service that enables the generation
   of digital humans from a simple selfie. We call these didimos.

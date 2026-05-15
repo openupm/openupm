@@ -1,4 +1,5 @@
 name: com.pinealctx.restclient
+aliases: []
 displayName: Rest Client
 description: Unity3D http rest client
 repoUrl: 'https://github.com/pinealctx/RestClient'

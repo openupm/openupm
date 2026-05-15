@@ -1,4 +1,5 @@
 name: com.snake.framework.imp-xlua
+aliases: []
 displayName: SnakeFramework-ImpXLua
 description: client framework
 repoUrl: 'https://github.com/ClaineLe/SnakeFramework-ImpXLua'

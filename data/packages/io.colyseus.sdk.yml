@@ -1,4 +1,5 @@
 name: io.colyseus.sdk
+aliases: []
 displayName: Colyseus SDK
 description: Colyseus Multiplayer SDK for Unity
 repoUrl: 'https://github.com/colyseus/colyseus-unity3d'

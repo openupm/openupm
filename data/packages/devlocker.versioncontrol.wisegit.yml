@@ -1,4 +1,5 @@
 name: devlocker.versioncontrol.wisegit
+aliases: []
 displayName: WiseGit
 description: >-
   Simple but powerful Git integration. Provides you with git context menus,

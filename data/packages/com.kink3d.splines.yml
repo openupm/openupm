@@ -1,4 +1,5 @@
 name: com.kink3d.splines
+aliases: []
 displayName: kSplines
 description: A bezier Spline system for Unity.
 repoUrl: 'https://github.com/Kink3d/kSplines'

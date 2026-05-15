@@ -1,4 +1,5 @@
 name: com.akbiggs.unitytimer
+aliases: []
 displayName: Unity Timer
 description: Powerful and convenient library for running actions after a delay in Unity3D.
 repoUrl: 'https://github.com/akbiggs/UnityTimer'

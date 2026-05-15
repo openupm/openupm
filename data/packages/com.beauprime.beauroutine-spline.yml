@@ -1,4 +1,5 @@
 name: com.beauprime.beauroutine-spline
+aliases: []
 displayName: BeauRoutine Splines
 description: Coroutine and tweening framework for Unity3D
 repoUrl: 'https://github.com/BeauPrime/BeauRoutine'

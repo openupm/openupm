@@ -1,4 +1,5 @@
 name: net.tnrd.extensions
+aliases: []
 displayName: Extension Collection
 description: >-
   A simple collection of extensions that I find useful when working with Unity

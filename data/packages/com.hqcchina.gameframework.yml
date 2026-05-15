@@ -1,4 +1,5 @@
 name: com.hqcchina.gameframework
+aliases: []
 displayName: Game Framework
 description: >-
   This is literally a game framework, based on Unity game engine. It

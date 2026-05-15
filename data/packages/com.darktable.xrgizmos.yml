@@ -1,4 +1,5 @@
 name: com.darktable.xrgizmos
+aliases: []
 displayName: XR Gizmos
 description: Set of gizmos that render in AR/VR.
 repoUrl: https://github.com/darktable/XRGizmos

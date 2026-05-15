@@ -1,4 +1,5 @@
 name: com.harumak.upalette
+aliases: []
 displayName: uPalette
 description: Centralized management & batch change of colors in a project.
 repoUrl: 'https://github.com/Haruma-K/uPalette'

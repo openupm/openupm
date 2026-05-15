@@ -1,4 +1,5 @@
 name: com.litefeel.luainteractive
+aliases: []
 displayName: Lua Interactive
 description: >-
   Lua Interactive is just perfect Unity editor plugin to excute lua on play

@@ -1,4 +1,5 @@
 name: com.lunari.tsuki
+aliases: []
 displayName: Tsuki Suite
 description: A toolsuite created to make Unity development easier
 repoUrl: 'https://github.com/LunariStudios/TsukiSuite'

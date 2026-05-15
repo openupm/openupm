@@ -1,4 +1,5 @@
 name: com.bassmit.robustgeometricpredicates
+aliases: []
 displayName: Robust Geometric Predicates
 description: >-
   Burst compatible implementation of Adaptive Precision Floating-Point

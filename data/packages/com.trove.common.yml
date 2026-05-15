@@ -1,4 +1,5 @@
 name: com.trove.common
+aliases: []
 displayName: Trove Common
 description: >-
   Trove Common provides various tools and utilities that may be used by other

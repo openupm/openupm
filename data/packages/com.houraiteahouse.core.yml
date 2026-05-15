@@ -1,4 +1,5 @@
 name: com.houraiteahouse.core
+aliases: []
 displayName: Hourai Teahouse Core Libraries
 description: >-
   A core utilities library underpinning most Hourai Teahouse projects in Unity

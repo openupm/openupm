@@ -1,4 +1,5 @@
 name: com.ges.services.audio
+aliases: []
 displayName: Tiny Service Audio
 description: Audio management system
 repoUrl: https://github.com/gestiran/TinyServiceAudio

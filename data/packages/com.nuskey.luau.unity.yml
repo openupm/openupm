@@ -1,4 +1,5 @@
 name: com.nuskey.luau.unity
+aliases: []
 displayName: Luau.Unity
 description: High-level Luau bindings for .NET and Unity
 repoUrl: https://github.com/nuskey8/luau-dotnet

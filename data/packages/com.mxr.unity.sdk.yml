@@ -1,4 +1,5 @@
 name: com.mxr.unity.sdk
+aliases: []
 displayName: ManageXR Unity SDK
 description: ManageXR Android and Editor System and Utilities for integrating with
   the ManageXR MDM platform.

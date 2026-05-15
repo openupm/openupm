@@ -1,4 +1,5 @@
 name: com.clokk.mdmcp-unity
+aliases: []
 displayName: MDMCP Server for Unity
 description: >-
   Markdown MCP (MDMCP) Server for Unity Editor: an HTTP-based automation bridge

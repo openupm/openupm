@@ -1,4 +1,5 @@
 name: com.rest.meshy
+aliases: []
 displayName: Meshy
 description: A Non-Official Meshy Rest Client for Unity (UPM)
 repoUrl: https://github.com/RageAgainstThePixel/com.rest.meshy

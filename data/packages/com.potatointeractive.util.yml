@@ -1,4 +1,5 @@
 name: com.potatointeractive.util
+aliases: []
 displayName: PotatoUtil
 description: Potato Interactive's commonly used utilities and helpers for Unity/C#
 repoUrl: 'https://github.com/tlauterbach/potato-util'

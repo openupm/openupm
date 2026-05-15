@@ -1,4 +1,5 @@
 name: com.uqido.httpmock
+aliases: []
 displayName: HttpMock
 description: HttpMock enables you to mock the behaviour of HTTP services, that your
   application depends on, during testing

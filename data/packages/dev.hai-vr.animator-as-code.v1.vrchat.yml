@@ -1,4 +1,5 @@
 name: dev.hai-vr.animator-as-code.v1.vrchat
+aliases: []
 displayName: Animator As Code - VRChat (Alpha)
 description: VRChat Avatars extension functions.
 repoUrl: https://github.com/hai-vr/animator-as-code-vrchat

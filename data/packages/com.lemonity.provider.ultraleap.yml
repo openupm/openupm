@@ -1,4 +1,5 @@
 name: com.lemonity.provider.ultraleap
+aliases: []
 displayName: Lemonity Provider - Ultraleap
 description: Ultraleap hand tracking provider for Lemonity.
 repoUrl: https://github.com/zorderjohn/lemonity

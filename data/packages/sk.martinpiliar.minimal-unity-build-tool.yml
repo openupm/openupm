@@ -1,4 +1,5 @@
 name: sk.martinpiliar.minimal-unity-build-tool
+aliases: []
 displayName: Minimal Unity Build Tool
 description: Super quick way to build your prototypes into different platforms without
   the need to swap between them.

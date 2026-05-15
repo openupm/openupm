@@ -1,4 +1,5 @@
 name: me.freetale.unity.builder
+aliases: []
 displayName: ''
 description: helper for automation build outside unity ecosystem
 repoUrl: 'https://github.com/freetale/me.freetale.unity.builder'

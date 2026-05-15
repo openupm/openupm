@@ -1,4 +1,5 @@
 name: com.laicasaane.typewrap
+aliases: []
 displayName: TypeWrap
 description: C# source generator to simplify the creation of wrapper types.
 repoUrl: https://github.com/laicasaane/TypeWrap

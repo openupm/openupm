@@ -1,4 +1,5 @@
 name: com.realitygames.logs_buffer
+aliases: []
 displayName: Logs Buffer
 description: Custom logger implementation for buffering the runtime logs.
 repoUrl: https://github.com/RealityGamesLtd/logs-buffer-unity

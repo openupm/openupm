@@ -1,4 +1,5 @@
 name: com.mygamedevtools.extensions
+aliases: []
 displayName: Extensions
 description: 'A personal collection of Unity Engine tools, extensions and helpers.'
 repoUrl: 'https://github.com/mygamedevtools/extensions'

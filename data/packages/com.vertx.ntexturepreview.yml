@@ -1,4 +1,5 @@
 name: com.vertx.ntexturepreview
+aliases: []
 displayName: nTexturePreview
 description: Enhanced Texture Previewer for Unity
 repoUrl: 'https://github.com/vertxxyz/NTexturePreview'

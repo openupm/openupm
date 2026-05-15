@@ -1,4 +1,5 @@
 name: com.kannan-xiao4.webrtc
+aliases: []
 displayName: WebRTC
 description: The WebRTC package provides browsers and mobile applications with Real-Time
   Communications (RTC) capabilities.

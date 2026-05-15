@@ -1,4 +1,5 @@
 name: com.lavaleakgames.combo
+aliases: []
 displayName: 'Combo: Task Integration Tool'
 description: >-
   A way to run automated tasks integrated in the Unity Game Engine Editor

@@ -1,4 +1,5 @@
 name: com.thammin.unity-signals
+aliases: []
 displayName: Unity Signals
 description: A minimal state reactivity library for Unity
 repoUrl: https://github.com/thammin/unity-signals

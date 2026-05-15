@@ -1,4 +1,5 @@
 name: jp.keijiro.klak.motion
+aliases: []
 displayName: Procedural Motion Library
 description: A script library for generating procedural motion in Unity.
 repoUrl: https://github.com/keijiro/ProceduralMotion

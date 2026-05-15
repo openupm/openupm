@@ -1,4 +1,5 @@
 name: com.elito.core
+aliases: []
 displayName: Elito Core
 description: Core services and tools
 repoUrl: https://github.com/iLataria/Elito

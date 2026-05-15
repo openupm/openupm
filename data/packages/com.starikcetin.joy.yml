@@ -1,4 +1,5 @@
 name: com.starikcetin.joy
+aliases: []
 displayName: Joy
 description: >-
   ECS framework for Unity3D game engine that uses MonoBehaviours as components

@@ -1,4 +1,5 @@
 name: com.omiyagames.audio
+aliases: []
 displayName: Omiya Games - Audio
 description: >-
   A set of frequently-used audio tools, such as volume control with persistent

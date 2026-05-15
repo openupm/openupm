@@ -1,4 +1,5 @@
 name: com.openugd.asyncbundles
+aliases: []
 displayName: Async Bundles
 description: 'A library for managing asynchronous loading and unloading of asset bundles.
 

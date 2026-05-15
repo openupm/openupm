@@ -1,4 +1,5 @@
 name: com.appcharge.paymentlinks
+aliases: []
 displayName: Appcharge Payment Links SDK
 description: >-
   Unity SDK for creating and managing Appcharge Payment Links, enabling seamless

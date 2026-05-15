@@ -1,4 +1,5 @@
 name: com.preliy.package
+aliases: []
 displayName: Preliy Package
 description: A test package
 repoUrl: https://github.com/Preliy/CustomPackage

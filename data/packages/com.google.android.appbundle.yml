@@ -1,4 +1,5 @@
 name: com.google.android.appbundle
+aliases: []
 displayName: Google Android App Bundle
 description: >-
   The Google Android App Bundle package provides access to the latest Android

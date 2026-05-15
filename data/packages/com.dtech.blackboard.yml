@@ -1,4 +1,5 @@
 name: com.dtech.blackboard
+aliases: []
 displayName: Blackboard - Typed Variable System
 description: >-
   Typed blackboard variable system for Unity with ScriptableObject authoring and

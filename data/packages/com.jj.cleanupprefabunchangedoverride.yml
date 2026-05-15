@@ -1,4 +1,5 @@
 name: com.jj.cleanupprefabunchangedoverride
+aliases: []
 displayName: CleanUpPrefabUnchangedOverride
 description: Clean up prefab unchanged override to Unity.
 repoUrl: https://github.com/JianjianGit/CleanUpPrefabUnchangedOverride

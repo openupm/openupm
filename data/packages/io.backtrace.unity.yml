@@ -1,4 +1,5 @@
 name: io.backtrace.unity
+aliases: []
 displayName: Backtrace
 description: First-class error reporting for the Unity game engine.
 repoUrl: 'https://github.com/backtrace-labs/backtrace-unity'

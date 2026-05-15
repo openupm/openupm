@@ -1,4 +1,5 @@
 name: com.refactor.pooling
+aliases: []
 displayName: Refactor Pooling
 description: "对象池."
 repoUrl: https://github.com/refactor-op/com.refactor.pooling

@@ -1,4 +1,5 @@
 name: com.katuusagi.constexpressionforunity
+aliases: []
 displayName: ConstExpressionForUnity
 description: Library for compile-time function execution in Unity.
 repoUrl: https://github.com/Katsuya100/ConstExpressionForUnity

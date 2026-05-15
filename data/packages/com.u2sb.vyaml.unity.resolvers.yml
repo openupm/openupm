@@ -1,4 +1,5 @@
 name: com.u2sb.vyaml.unity.resolvers
+aliases: []
 displayName: VYaml.UnityResolvers
 description: The UnityResolvers for VYaml
 repoUrl: https://github.com/u2sb/VYaml.UnityResolvers

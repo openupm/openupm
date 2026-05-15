@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.coc
+aliases: []
 displayName: JCMG COC
 description: >-
   JCMG CoC is a convention-over-configuration library for Unity that enables

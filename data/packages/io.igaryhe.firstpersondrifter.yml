@@ -1,4 +1,5 @@
 name: io.igaryhe.firstpersondrifter
+aliases: []
 displayName: First Person Drifter
 description: Dead simple first-person character controller.
 repoUrl: 'https://github.com/igaryhe/FirstPersonDrifter'

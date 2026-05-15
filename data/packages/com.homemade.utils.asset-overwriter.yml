@@ -1,4 +1,5 @@
 name: com.homemade.utils.asset-overwriter
+aliases: []
 displayName: com.homemade.utils.asset-overwriter
 description: Extension to allow overwriting when importing assets.
 repoUrl: https://github.com/hungpt17102k/com.homemade.utils.asset-overwriter

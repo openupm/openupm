@@ -1,4 +1,5 @@
 name: com.mezookan.favorite-assets
+aliases: []
 displayName: Favorite Assets
 description: >-
   A Unity Editor tool that allows you to mark assets and folders as favorites

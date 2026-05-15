@@ -1,4 +1,5 @@
 name: com.nomnom.raycast-visualization
+aliases: []
 displayName: Nomnom's Raycast Visualization
 description: This asset allows users to view debug visuals for all raycast methods.
 repoUrl: 'https://github.com/nomnomab/RaycastVisualization'

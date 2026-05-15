@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite.unity.ugui
+aliases: []
 displayName: LeoECS Lite uGui Bindings
 description: uGui bindings for LeoECS Lite.
 repoUrl: 'https://github.com/Leopotam/ecslite-unity-ugui'

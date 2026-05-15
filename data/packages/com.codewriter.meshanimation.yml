@@ -1,4 +1,5 @@
 name: com.codewriter.meshanimation
+aliases: []
 displayName: Mesh Animation
 description: GPU mesh animation library for unity
 repoUrl: 'https://github.com/codewriter-packages/Mesh-Animation'

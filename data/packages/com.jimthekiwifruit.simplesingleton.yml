@@ -1,4 +1,5 @@
 name: com.jimthekiwifruit.simplesingleton
+aliases: []
 displayName: Simple Singleton
 description: >-
   A simple singleton implementation for Unity in UPM form for easy addition to

@@ -1,4 +1,5 @@
 name: dev.upm-packages.cafu-stopwatch
+aliases: []
 displayName: CAFU StopWatch
 description: ⏱Stopwatch logic for cafu
 repoUrl: 'https://github.com/umm/cafu_stopwatch'

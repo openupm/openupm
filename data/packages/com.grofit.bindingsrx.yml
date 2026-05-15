@@ -1,4 +1,5 @@
 name: com.grofit.bindingsrx
+aliases: []
 displayName: BindingsRx
 description: A 2 way binding system for unity using unirx
 repoUrl: 'https://github.com/starikcetin/bindingsrx'

@@ -1,4 +1,5 @@
 name: com.kekchpek.ara
+aliases: []
 displayName: AsyncReactAwait
 description: >-
   ARA is the development suit for asynchronous and reactive C# development. It

@@ -1,4 +1,5 @@
 name: com.ges.services.loading
+aliases: []
 displayName: Tiny Service Loading
 description: Scene loading controller system for unity game engine.
 repoUrl: https://github.com/gestiran/TinyServiceLoading

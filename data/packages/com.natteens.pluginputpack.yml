@@ -1,4 +1,5 @@
 name: com.natteens.pluginputpack
+aliases: []
 displayName: Plug Input Pack
 description: >-
   A reusable package that simplifies the setup and usage of the Unity Input

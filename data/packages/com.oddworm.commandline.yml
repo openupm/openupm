@@ -1,4 +1,5 @@
 name: com.oddworm.commandline
+aliases: []
 displayName: CommandLine
 description: 'A command-line parser for Unity 2019.3 and newer in the style of PlayerPrefs. '
 repoUrl: 'https://github.com/pschraut/UnityCommandLine'

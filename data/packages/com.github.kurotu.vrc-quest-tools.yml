@@ -1,4 +1,5 @@
 name: com.github.kurotu.vrc-quest-tools
+aliases: []
 displayName: VRCQuestTools
 description: Editor extension to support uploading VRChat Quest avatars
 repoUrl: 'https://github.com/kurotu/VRCQuestTools'

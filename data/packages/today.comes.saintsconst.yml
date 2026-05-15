@@ -1,4 +1,5 @@
 name: today.comes.saintsconst
+aliases: []
 displayName: SaintsConst
 description: A Unity plugin for const string of tags, layers, etc.
 repoUrl: https://github.com/TylerTemp/SaintsConst

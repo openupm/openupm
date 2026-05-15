@@ -1,4 +1,5 @@
 name: com.codewriter.npm-package-loader
+aliases: []
 displayName: Npm Package Loader
 description: Load Npm packages directly from the Unity
 repoUrl: 'https://github.com/codewriter-packages/NpmPackageLoader'

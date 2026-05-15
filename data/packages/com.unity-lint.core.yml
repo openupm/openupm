@@ -1,4 +1,5 @@
 name: com.unity-lint.core
+aliases: []
 displayName: UnityLint
 description: Linter for Unity
 repoUrl: 'https://github.com/MeikelLP/UnityLint.Core'

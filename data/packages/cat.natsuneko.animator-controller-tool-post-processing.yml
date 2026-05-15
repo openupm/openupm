@@ -1,4 +1,5 @@
 name: cat.natsuneko.animator-controller-tool-post-processing
+aliases: []
 displayName: Animator Controller Tool Post Processing
 description: >-
   Rewrite the behavior of AnimatorControllerTool to be the default setting

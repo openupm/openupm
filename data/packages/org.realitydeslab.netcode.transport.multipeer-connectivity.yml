@@ -1,4 +1,5 @@
 name: org.realitydeslab.netcode.transport.multipeer-connectivity
+aliases: []
 displayName: Multipeer Connectivity Transport for Netcode for GameObjects
 description: >-
   This package implements the Transport layer of Netcode for GameObjects using Apple Multipeer Connectivity, enabling peer-to-peer communication between nearby Apple devices (macOS, visionOS, iOS). Multipeer Connectivity facilitates real-time communication and data exchange, supporting activities like multiplayer gaming, collaborative work, and data sharing, even without WiFi or cellular networks. It powers technologies like AirDrop, allowing fast large file transfers. For more details, refer to Apple's official documentation of Multipeer Connectivity.

@@ -1,4 +1,5 @@
 name: com.brunomikoski.editorhistorypanel
+aliases: []
 displayName: Unity Editor History Panel
 description: Photoshop Like History panel with shortcut navigation
 repoUrl: 'https://github.com/brunomikoski/UnityHistoryPanel'

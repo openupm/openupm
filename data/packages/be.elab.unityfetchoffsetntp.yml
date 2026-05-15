@@ -1,4 +1,5 @@
 name: be.elab.unityfetchoffsetntp
+aliases: []
 displayName: Unity Fetch Offset NTP
 description: Fetch the offset of a NTP server.
 repoUrl: https://github.com/EloiStree/OpenUPM_UnityFetchOffsetNTP

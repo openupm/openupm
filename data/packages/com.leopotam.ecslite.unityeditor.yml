@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite.unityeditor
+aliases: []
 displayName: LeoECS Lite Unity Integration
 description: UnityEditor integration for LeoECS Lite.
 repoUrl: 'https://github.com/Leopotam/ecslite-unityeditor'

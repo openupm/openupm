@@ -1,4 +1,5 @@
 name: se.hertzole.small-steamworks
+aliases: []
 displayName: Small Steamworks
 description: >-
   Easy to use Steamworks integration for Unity. Based on Steamworks.NET, it

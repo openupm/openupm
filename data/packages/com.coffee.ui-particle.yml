@@ -1,4 +1,5 @@
 name: com.coffee.ui-particle
+aliases: []
 displayName: UI Particle
 description: >-
   This plugin provide a component to render particle effect for uGUI in Unity

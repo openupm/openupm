@@ -1,4 +1,5 @@
 name: com.gameframe.serviceprovider
+aliases: []
 displayName: Gameframe.ServiceProvider
 description: Simplified service provider implementation minus the fancy stuff
 repoUrl: 'https://github.com/coryleach/UnityServiceProvider'

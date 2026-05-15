@@ -1,4 +1,5 @@
 name: com.silentbird.fly-extools
+aliases: []
 displayName: Fly ExTools
 description: Tools for the Unity Editor.
 repoUrl: https://github.com/silentbird/FlyExTools

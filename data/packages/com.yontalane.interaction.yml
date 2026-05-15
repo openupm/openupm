@@ -1,4 +1,5 @@
 name: com.yontalane.interaction
+aliases: []
 displayName: Interaction
 description: A small for basic interaction events in 3D games.
 repoUrl: 'https://github.com/yontalane/UnityPackages'

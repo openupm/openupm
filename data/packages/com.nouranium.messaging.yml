@@ -1,4 +1,5 @@
 name: com.nouranium.messaging
+aliases: []
 displayName: Nouranium Messaging
 description: Fast and simple message system for Unity3d game engine.
 repoUrl: 'https://github.com/nouranium-vault/messaging'

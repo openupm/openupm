@@ -1,4 +1,5 @@
 name: dev.upm-packages.sequential-dispatcher
+aliases: []
 displayName: Sequential Dispatcher
 description: Dispatch several methods sequentially
 repoUrl: 'https://github.com/umm/sequential_dispatcher'

@@ -1,4 +1,5 @@
 name: com.kinogoblin.editor
+aliases: []
 displayName: Kinogoblin Editor
 description: CustomEditor
 repoUrl: 'https://github.com/Kinogoblin/KinogoblinEditor'

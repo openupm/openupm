@@ -1,4 +1,5 @@
 name: extensions.unity.nondrawinggraphic
+aliases: []
 displayName: Non Drawing Graphic
 description: >-
   Unity UI component which doesn't have drawing event at all. But still can

@@ -1,4 +1,5 @@
 name: com.sai.animatorparameterview
+aliases: []
 displayName: AnimatorParameterView
 description: Source Generator for Unity Animator Parameters
 repoUrl: https://github.com/Saismirk/AnimatorParameterView

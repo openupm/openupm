@@ -1,4 +1,5 @@
 name: com.futuclass.event-bus
+aliases: []
 displayName: Event Bus
 description: ''
 repoUrl: 'https://github.com/Futuclass/EventBus'

@@ -1,4 +1,5 @@
 name: com.kyrylokuzyk.primetween
+aliases: []
 displayName: PrimeTween
 description: 'PrimeTween is a high-performance, allocation-free animation library
   for Unity.

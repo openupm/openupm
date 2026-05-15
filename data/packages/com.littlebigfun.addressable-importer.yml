@@ -8,6 +8,7 @@ readme: master:README.md
 
 # Package info.
 name: com.littlebigfun.addressable-importer
+aliases: []
 displayName: Unity Addressable Importer
 displayName_zhCN: Unity可寻址资源导入器
 description: A simple rule based addressable asset importer.

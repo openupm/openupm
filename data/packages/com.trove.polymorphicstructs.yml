@@ -1,4 +1,5 @@
 name: com.trove.polymorphicstructs
+aliases: []
 displayName: Trove Polymorphic Structs
 description: >-
   Trove Polymorphic Structs provides a codegen tool for polymorphic behaviour in

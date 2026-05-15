@@ -1,4 +1,5 @@
 name: com.potatointeractive.pcg
+aliases: []
 displayName: PcgRandom
 description: >-
   C# version of the PCG random number generator that is compatible with Unity

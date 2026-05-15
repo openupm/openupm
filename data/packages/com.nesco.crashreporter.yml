@@ -1,4 +1,5 @@
 name: com.nesco.crashreporter
+aliases: []
 displayName: Crash Reporter
 description: >-
   This tool is employed to swiftly detect errors occurring within Unity projects

@@ -1,4 +1,5 @@
 name: com.jreason.yamlmergesetup
+aliases: []
 displayName: YAML Smart Merge Setup
 description: >-
   Package which prompts user to setup YAML Merge in their Git config for this

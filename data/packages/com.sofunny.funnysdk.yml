@@ -1,4 +1,5 @@
 name: com.sofunny.funnysdk
+aliases: []
 displayName: FunnySDK
 description: 真有趣平台账号 SDK 接入包
 repoUrl: https://github.com/MagicXiaoXiao/com.sofunny.funnysdk

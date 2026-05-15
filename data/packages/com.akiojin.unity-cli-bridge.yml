@@ -1,4 +1,5 @@
 name: com.akiojin.unity-cli-bridge
+aliases: []
 displayName: Unity CLI Bridge
 description: >-
   Unity Editor bridge package for unity-cli automation (screenshots,

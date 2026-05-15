@@ -1,4 +1,5 @@
 name: com.cysharp.magiconion.client.unity
+aliases: []
 displayName: MagicOnion.Client.Unity
 description: Unified Realtime/API framework for .NET platform and Unity.
 repoUrl: https://github.com/Cysharp/MagicOnion

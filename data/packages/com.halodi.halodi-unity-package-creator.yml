@@ -1,4 +1,5 @@
 name: com.halodi.halodi-unity-package-creator
+aliases: []
 displayName: Halodi Unity Package Creator
 description: 'Tools to create, maintain and update packages for Unity'
 repoUrl: 'https://github.com/Halodi/halodi-unity-package-creator'

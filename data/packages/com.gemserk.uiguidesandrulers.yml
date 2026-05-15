@@ -1,4 +1,5 @@
 name: com.gemserk.uiguidesandrulers
+aliases: []
 displayName: Gemserk UI - Guides And Rulers
 description: 'Just some easy gizmos to draw ui rulers to help implement ui '
 repoUrl: 'https://github.com/acoppes/UnityUIGuidesAndRulers'

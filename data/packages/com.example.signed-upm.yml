@@ -1,4 +1,5 @@
 name: com.example.signed-upm
+aliases: []
 displayName: Signed UPM Example
 description: Minimal Unity package demonstrating Unity UPM code signing with GitHub Releases and OpenUPM.
 repoUrl: https://github.com/openupm/com.example.signed-upm

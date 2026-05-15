@@ -1,4 +1,5 @@
 name: ai.natml.vision.nanodet
+aliases: []
 displayName: NanoDet
 description: Anchor-free ultra-fast object detection.
 repoUrl: https://github.com/natmlx/nanodet-unity

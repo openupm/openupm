@@ -1,4 +1,5 @@
 name: com.sai.uniaop
+aliases: []
 displayName: UniAOP
 description: Source-Generated AOP framework for Unity
 repoUrl: https://github.com/Saismirk/UniAOP

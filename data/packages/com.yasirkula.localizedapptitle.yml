@@ -1,4 +1,5 @@
 name: com.yasirkula.localizedapptitle
+aliases: []
 displayName: Localized App Title
 description: >-
   This plugin helps you localize your app's name and/or icon on Android & iOS.

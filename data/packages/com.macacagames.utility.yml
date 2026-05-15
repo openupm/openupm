@@ -1,4 +1,5 @@
 name: com.macacagames.utility
+aliases: []
 displayName: Macaca Utility
 description: Tools to build a game made and use by MacacaGames
 repoUrl: 'https://github.com/MacacaGames/MacacaUtility'

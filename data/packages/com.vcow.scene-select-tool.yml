@@ -1,4 +1,5 @@
 name: com.vcow.scene-select-tool
+aliases: []
 displayName: Scene Select Tool
 description: A simple little Unity Editor tool for quickly switching between scenes.
 repoUrl: https://github.com/vcow/lib-scene-select-tool

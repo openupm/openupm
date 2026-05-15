@@ -1,4 +1,6 @@
 name: jp.nobnak.effspace
+aliases:
+  - com.nobnak.effspace
 displayName: Efficient Spatial Data Structure
 description: >-
   An implementation (for Unity) of efficient spacial data structures from

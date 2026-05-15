@@ -1,4 +1,5 @@
 name: dev.polyblank.nyamu
+aliases: []
 displayName: Nyamu — Unity MCP Server
 description: >-
   Minimal MCP server for Unity, designed to reliably check script compilation

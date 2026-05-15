@@ -1,4 +1,5 @@
 name: com.laicasaane.genesis
+aliases: []
 displayName: JCMG Genesis
 description: A general purpose code generation library for Unity
 repoUrl: 'https://github.com/laicasaane/Genesis'

@@ -1,4 +1,5 @@
 name: com.yontalane.layouttilemap
+aliases: []
 displayName: Layout Tilemap
 description: >-
   Enables creation of prefab-based level layouts using 2D UnityEngine.Tilemap

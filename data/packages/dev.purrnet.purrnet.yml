@@ -1,4 +1,5 @@
 name: dev.purrnet.purrnet
+aliases: []
 displayName: PurrNet
 description: A unity networking framework
 repoUrl: https://github.com/PurrNet/PurrNet

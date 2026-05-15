@@ -1,4 +1,5 @@
 name: com.corby.option
+aliases: []
 displayName: Option for unity
 description: Option to replace Nullable as in functional programming for Unity.
 repoUrl: https://github.com/CorbyO/Option

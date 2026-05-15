@@ -1,4 +1,5 @@
 name: com.guerrillacontra.unitymessagehub
+aliases: []
 displayName: Message hub
 description: >-
   A fast, light messaging system that can decouple behaviours and keep them

@@ -1,4 +1,5 @@
 name: com.greener-games.azure-helpers
+aliases: []
 displayName: Azure Helpers
 description: Azure Cloud Services
 repoUrl: 'https://github.com/Greener-Games/Unity_Azure'

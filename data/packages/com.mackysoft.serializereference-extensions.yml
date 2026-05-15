@@ -1,4 +1,5 @@
 name: com.mackysoft.serializereference-extensions
+aliases: []
 displayName: SerializeReference Extensions
 description: >-
   Provide popup to specify the type of the field serialized by the

@@ -1,4 +1,5 @@
 name: com.monaverse.unitygltf
+aliases: []
 displayName: MonaUnityGLTF
 description: Import and export glTF 2.0 assets, both in the editor and at runtime.
 repoUrl: https://github.com/monaverse/MonaUnityGLTF

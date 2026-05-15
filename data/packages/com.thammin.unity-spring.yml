@@ -1,4 +1,5 @@
 name: com.thammin.unity-spring
+aliases: []
 displayName: Unity Spring
 description: Spring physics that models a damped harmonic oscillator.
 repoUrl: 'https://github.com/thammin/unity-spring'

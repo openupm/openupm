@@ -1,4 +1,5 @@
 name: com.martoniojunior.trinkets
+aliases: []
 displayName: Trinkets
 description: >-
   Trinkets offers a new architecture based on ScriptableObjects for the

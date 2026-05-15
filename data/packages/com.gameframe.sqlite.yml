@@ -1,4 +1,5 @@
 name: com.gameframe.sqlite
+aliases: []
 displayName: Gameframe.SQLite
 description: SQLite Package for Unity
 repoUrl: 'https://github.com/coryleach/UnitySQLite'

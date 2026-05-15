@@ -1,4 +1,5 @@
 name: com.monitor1394.xcharts
+aliases: []
 displayName: XCharts
 description: A charting and data visualization library for Unity.
 repoUrl: 'https://github.com/monitor1394/unity-ugui-XCharts'

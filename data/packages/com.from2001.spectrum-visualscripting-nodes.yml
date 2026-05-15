@@ -1,4 +1,5 @@
 name: com.from2001.spectrum-visualscripting-nodes
+aliases: []
 displayName: Spectrum Visual Scripting Nodes
 description: Unity Visual Scripting node library for audio spectrum analyzer
 repoUrl: https://github.com/from2001/Spectrum_VisualScriptingNodes

@@ -1,4 +1,5 @@
 name: com.endel.nativewebsocket
+aliases: []
 displayName: Native WebSockets
 description: WebSocket client for Unity - with no external dependencies (WebGL, Native,
   Android, iOS, UWP).

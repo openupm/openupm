@@ -1,4 +1,5 @@
 name: com.kadinche.kassets
+aliases: []
 displayName: Kassets
 description: Asynchronous Scriptable Object Architecture
 repoUrl: 'https://github.com/kadinche/Kassets'

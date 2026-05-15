@@ -1,4 +1,5 @@
 name: com.aceland.pool
+aliases: []
 displayName: AceLand Pool
 description: AceLand Pool is Unity Pool helper package.
 repoUrl: https://github.com/parsue/com.aceland.pool

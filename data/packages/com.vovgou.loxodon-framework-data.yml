@@ -1,5 +1,6 @@
   
 name: com.vovgou.loxodon-framework-data
+aliases: []
 displayName: Loxodon Framework Data
 description: >-
     This is a plugin to export Excel data to Json or embedded database.

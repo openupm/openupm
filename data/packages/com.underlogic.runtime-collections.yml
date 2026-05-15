@@ -1,4 +1,5 @@
 name: com.underlogic.runtime-collections
+aliases: []
 displayName: Runtime Collections
 description: >-
   Runtime collections for shared state and reactive behavior between components

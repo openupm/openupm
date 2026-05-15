@@ -1,4 +1,5 @@
 name: net.peeweek.build-frontend
+aliases: []
 displayName: Build Frontend
 description: A Unity GUI Frontend to manage build batches and review build reports
 repoUrl: 'https://github.com/peeweek/net.peeweek.build-frontend'

@@ -1,4 +1,5 @@
 name: com.pylons.unity.sdk.itemschema
+aliases: []
 displayName: Pylons SDK for Unity (ItemSchema)
 description: ''
 repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'

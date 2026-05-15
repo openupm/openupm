@@ -1,4 +1,5 @@
 name: com.walletconnect.nethereum
+aliases: []
 displayName: WalletConnectUnity Nethereum
 description: WalletConnect v2 and Modal for Unity 🎮
 repoUrl: https://github.com/WalletConnect/WalletConnectUnity

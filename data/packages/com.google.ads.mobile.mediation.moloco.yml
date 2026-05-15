@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.moloco
+aliases: []
 displayName: Google Mobile Ads Moloco Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Moloco package allows you to load

@@ -1,4 +1,5 @@
 name: com.nat1wizard.eventsystem
+aliases: []
 displayName: Nat1Wizard Event System
 description: A simple scriptable object based event system to handle passing messages
   across scenes.

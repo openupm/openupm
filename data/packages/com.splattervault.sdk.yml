@@ -1,4 +1,5 @@
 name: com.splattervault.sdk
+aliases: []
 displayName: SplatterVault SDK
 description: >-
   Official Unity SDK for the SplatterVault game session management API. Create,

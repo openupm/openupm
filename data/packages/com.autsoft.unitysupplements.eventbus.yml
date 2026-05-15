@@ -1,4 +1,5 @@
 name: com.autsoft.unitysupplements.eventbus
+aliases: []
 displayName: EventBus
 description: Simple eventbus implementation for Unity
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'

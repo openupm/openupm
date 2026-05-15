@@ -1,4 +1,5 @@
 name: com.utilities.extensions
+aliases: []
 displayName: Utilities.Extensions
 description: Common extensions for Unity types (UPM)
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.extensions'

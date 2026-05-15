@@ -1,4 +1,5 @@
 name: com.eflatun.androidmanifesthook
+aliases: []
 displayName: Eflatun.AndroidManifestHook
 description: Utilites for hooking into AndroidManifest.xml generation in Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.AndroidManifestHook'

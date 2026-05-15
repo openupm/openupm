@@ -1,4 +1,5 @@
 name: com.adrenak.unimic
+aliases: []
 displayName: UniMic
 description: A wrapper for Unity's Microphone class.
 repoUrl: 'https://github.com/adrenak/unimic'

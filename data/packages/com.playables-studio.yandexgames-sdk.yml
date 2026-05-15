@@ -1,4 +1,5 @@
 name: com.playables-studio.yandexgames-sdk
+aliases: []
 displayName: Yandex Games Unity SDK
 description: A Unity plugin for YandexGames integration.
 repoUrl: https://github.com/playables-studio/YandexGamesSDK-Unity

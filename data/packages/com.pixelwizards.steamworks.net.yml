@@ -1,4 +1,5 @@
 name: com.pixelwizards.steamworks.net
+aliases: []
 displayName: Steamworks.NET
 description: >-
   Steamworks wrapper for Unity / C#, restructured in Unity's Package Manager

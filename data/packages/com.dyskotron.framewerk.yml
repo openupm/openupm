@@ -1,5 +1,6 @@
 # Framewerk meta-package
 name: com.dyskotron.framewerk
+aliases: []
 displayName: Framewerk
 description: Meta-package that includes all Framewerk packages - a Unity MVCS framework with IoC, Signals, Commands, and UI components.
 repoUrl: 'https://github.com/dyskotron/Framewerk'

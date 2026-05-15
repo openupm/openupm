@@ -1,4 +1,5 @@
 name: com.gameframe.infotables
+aliases: []
 displayName: Gameframe.InfoTables
 description: >-
   Unity package of ScriptableObjects for building static data info tables.

@@ -1,4 +1,5 @@
 name: com.luvikung.buildpipelinewebgl
+aliases: []
 displayName: Build Pipeline for WebGL
 description: >-
   Build Pipeline for WebGL is a build tools for Unity Editor that able to manage

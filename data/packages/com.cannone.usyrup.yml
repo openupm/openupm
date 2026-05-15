@@ -1,4 +1,5 @@
 name: com.cannone.usyrup
+aliases: []
 displayName: USyrup
 description: A dependency injection framework for Unity
 repoUrl: 'https://github.com/Jeffan207/usyrup'

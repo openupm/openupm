@@ -1,4 +1,5 @@
 name: com.audune.spritesheet
+aliases: []
 displayName: Spritesheet Importer
 description: Importer for spritesheets defined in CSV format for Unity 2022 LTS or
   higher.

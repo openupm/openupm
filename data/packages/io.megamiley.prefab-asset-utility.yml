@@ -1,4 +1,5 @@
 name: io.megamiley.prefab-asset-utility
+aliases: []
 displayName: PrefabAssetUtility
 description: >-
   Utility package that allows you to get all prefabs using a certain asset and

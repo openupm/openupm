@@ -1,4 +1,5 @@
 name: com.ethar.geopose
+aliases: []
 displayName: Ethar GeoPose implementation
 description: GeoPose specification V1.0 Unity implementation by Ethar.
 repoUrl: 'https://github.com/EtharInc/Ethar.GeoPose'

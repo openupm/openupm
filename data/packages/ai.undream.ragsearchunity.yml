@@ -1,4 +1,5 @@
 name: ai.undream.ragsearchunity
+aliases: []
 displayName: RAGSearchUnity
 description: RAGSearchUnity implements semantic search in the Unity engine.
 repoUrl: https://github.com/undreamai/RAGSearchUnity

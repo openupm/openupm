@@ -1,4 +1,5 @@
 name: io.github.balint-h.mj-unity-extensions
+aliases: []
 displayName: Mj Extensions
 description: Scripts for interfacing with a Mujoco Scene
 repoUrl: https://github.com/kezzyhko/mj-unity-extensions-upm

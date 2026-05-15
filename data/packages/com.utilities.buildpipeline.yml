@@ -1,4 +1,5 @@
 name: com.utilities.buildpipeline
+aliases: []
 displayName: Utilities.BuildPipeline
 description: >-
   The Build Pipeline Utilities aims to give developers more tools and options

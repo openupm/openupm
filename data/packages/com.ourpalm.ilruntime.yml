@@ -1,4 +1,5 @@
 name: com.ourpalm.ilruntime
+aliases: []
 displayName: ILRuntime
 description: Unity3D demo project for ILRuntime
 repoUrl: 'https://github.com/Ourpalm/ILRuntimeU3D'

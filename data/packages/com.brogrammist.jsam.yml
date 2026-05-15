@@ -1,4 +1,5 @@
 name: com.brogrammist.jsam
+aliases: []
 displayName: Jacky's Simple Audio Manager
 description: >-
   A decentralized audio playing system for Unity, designed for simplicity and

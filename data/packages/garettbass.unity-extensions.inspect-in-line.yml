@@ -1,4 +1,5 @@
 name: garettbass.unity-extensions.inspect-in-line
+aliases: []
 displayName: UnityExtension.InspectInline
 description: >-
   Enables you to inspect and edit object references, and easily embed such

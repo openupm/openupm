@@ -1,4 +1,5 @@
 name: com.vikoproductions.fsm_mk2
+aliases: []
 displayName: Fsm_Mk2
 description: >-
   This is a fsm made with the purpose that the states are not monobehaviours and

@@ -1,4 +1,5 @@
 name: net.battlehub.simplejson
+aliases: []
 displayName: Simple Json
 description: Simple Json
 repoUrl: 'https://github.com/Battlehub0x/SimpleJSON'

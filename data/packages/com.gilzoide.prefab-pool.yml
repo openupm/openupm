@@ -1,4 +1,5 @@
 name: com.gilzoide.prefab-pool
+aliases: []
 displayName: Prefab Pool
 description: >-
   Prefab instance pool that is configurable in the Inspector, supports any

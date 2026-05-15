@@ -1,4 +1,5 @@
 name: com.lung-interactive.sg-unity-sdk
+aliases: []
 displayName: StreamingGames Unity SDK
 description: A Unity package for the StreamingGames Unity SDK.
 repoUrl: https://github.com/lung-interactive/sg-unity-sdk

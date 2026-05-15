@@ -1,4 +1,5 @@
 name: com.github.siccity.xnode
+aliases: []
 displayName: xNode
 description: Lets you view and edit node graphs inside Unity
 repoUrl: 'https://github.com/Siccity/xNode'

@@ -1,4 +1,5 @@
 name: ai.natml.vision.blazepalm.detector
+aliases: []
 displayName: BlazePalm Detector
 description: Palm detection from Google MediaPipe in Unity Engine.
 repoUrl: https://github.com/natmlx/blazepalm-detector-unity

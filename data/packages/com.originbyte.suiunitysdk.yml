@@ -1,4 +1,5 @@
 name: com.originbyte.suiunitysdk
+aliases: []
 displayName: SuiUnitySDK
 description: Connecting Unity game developers to Sui and Origin Byte's NFT ecosystem.
 repoUrl: 'https://github.com/Origin-Byte/sui-unity-sdk'

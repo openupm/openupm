@@ -1,4 +1,5 @@
 name: com.nition.unity-octree
+aliases: []
 displayName: UnityOctree
 description: 'A dynamic, loose octree implementation for Unity written in C#'
 repoUrl: 'https://github.com/UnityPackages/UnityOctree'

@@ -1,4 +1,5 @@
 name: com.stretchsense.osccore
+aliases: []
 displayName: Open Sound Control Core (VirtualCast fork)
 description: |-
   An Open Sound Control (OSC) protocol driver

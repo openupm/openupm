@@ -1,4 +1,6 @@
 name: dev.comradevanti.totask.asyncoperation
+aliases:
+  - dev.comradevanti.async-op-to-task
 displayName: ToTask.AsyncOperation
 description: A unity package for converting AsyncOperation objects to tasks
 repoUrl: 'https://github.com/ComradeVanti/ToTask.AsyncOperation'

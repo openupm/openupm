@@ -1,4 +1,5 @@
 name: com.vcow.window-manager
+aliases: []
 displayName: Scene Select Tool
 description: >-
   A simple, full-featured window manager with the necessary and sufficient

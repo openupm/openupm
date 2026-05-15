@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-mytarget-mediation
+aliases: []
 displayName: MyTarget adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use MyTarget ad network in conjuction with Yandex

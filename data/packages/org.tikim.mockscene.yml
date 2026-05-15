@@ -1,4 +1,5 @@
 name: org.tikim.mockscene
+aliases: []
 displayName: Tikim MockScene
 description: >-
   Scene-scoped mock scenario management tools for editor play mode validation.

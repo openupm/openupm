@@ -1,4 +1,6 @@
 name: com.hryooba.avpro
+aliases:
+  - com.hryooba.library.avpro
 displayName: HRYooba.AVPro
 description: |-
   Unity HRYooba

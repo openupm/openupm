@@ -1,4 +1,5 @@
 name: fr.sticmac.eventsystem
+aliases: []
 displayName: Scriptable Object Event System
 description: >-
   A cross-scene, easy to use event system through observable scriptable objects

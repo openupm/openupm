@@ -1,4 +1,5 @@
 name: com.testmono.ads.mobile.mediation.applovin
+aliases: []
 displayName: Google Mobile Ads AppLovin Mediation for Unity
 description: The Google Mobile Ads mediation plugin for AppLovin package allows you
   to load and display ads from the AppLovin ad network using mediation, for iOS and

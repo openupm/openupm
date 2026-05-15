@@ -1,4 +1,5 @@
 name: com.codewriter.stylecomponents
+aliases: []
 displayName: Style Components
 description: Library for styling game objects in Unity
 repoUrl: 'https://github.com/codewriter-packages/Style-Components'

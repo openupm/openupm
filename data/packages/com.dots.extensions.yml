@@ -1,4 +1,5 @@
 name: com.dots.extensions
+aliases: []
 displayName: DOTS Extensions
 description: DOTS utilities for testing.
 repoUrl: 'https://github.com/gabrjt/com.dots.extensions'

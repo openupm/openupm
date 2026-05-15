@@ -1,4 +1,5 @@
 name: com.rest.firebase.authentication
+aliases: []
 displayName: Firebase.Authentication
 description: A non-official Firebase authentication RESTful client.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.firebase.authentication'

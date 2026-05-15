@@ -1,4 +1,5 @@
 name: com.harumak.unityscreennavigator
+aliases: []
 displayName: UnityScreenNavigator
 description: >-
   Library for screen transitions, transition animations, transition history

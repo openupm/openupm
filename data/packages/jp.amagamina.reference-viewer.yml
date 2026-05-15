@@ -1,4 +1,5 @@
 name: jp.amagamina.reference-viewer
+aliases: []
 displayName: unity-reference-viewer
 description: >-
   It's a tool for searching asset references on Unity and displaying them on the

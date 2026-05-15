@@ -1,4 +1,5 @@
 name: com.leoecscommunity.ecslite.extendedfilters
+aliases: []
 displayName: LeoECSCommunity Lite Extended filters
 description: Extended filters for LeoECSCommunity Lite.
 repoUrl: 'https://github.com/LeoECSCommunity/ecslite-extendedfilters'

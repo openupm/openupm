@@ -1,4 +1,5 @@
 name: com.github.miloszkrajewski.k4os.compression.lz4
+aliases: []
 displayName: K4os.Compression.LZ4
 description: >-
   This library brings LZ4 to .NET Standard compatible platforms: .NET Core, .NET

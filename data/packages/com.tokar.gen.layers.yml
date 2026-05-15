@@ -1,4 +1,5 @@
 name: com.tokar.gen.layers
+aliases: []
 displayName: Tags Layers Generator
 description: 'Editor generator unity tags, layers & sorting layers for handy use at runtime.'
 repoUrl: 'https://github.com/Tokars/unity_tag_layers_gen'

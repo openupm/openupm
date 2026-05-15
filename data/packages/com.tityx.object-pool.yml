@@ -1,4 +1,5 @@
 name: com.tityx.object-pool
+aliases: []
 displayName: Object Pool
 description: Simple object pool based on scriptable object
 repoUrl: https://github.com/Tityxx/ObjectPool

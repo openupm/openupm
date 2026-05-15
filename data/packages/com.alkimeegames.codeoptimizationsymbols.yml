@@ -1,4 +1,5 @@
 name: com.alkimeegames.codeoptimizationsymbols
+aliases: []
 displayName: Code Optimization Symbols
 description: >-
   Automatically sets preprocessor directives based on the Code Optimization mode

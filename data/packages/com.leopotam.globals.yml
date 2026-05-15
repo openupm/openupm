@@ -1,4 +1,5 @@
 name: com.leopotam.globals
+aliases: []
 displayName: Leopotam Globals
 description: Globals access patterns for LeoECS Entity Component System framework.
 repoUrl: 'https://github.com/Leopotam/globals'

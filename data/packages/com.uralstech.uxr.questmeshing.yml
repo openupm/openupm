@@ -1,4 +1,5 @@
 name: com.uralstech.uxr.questmeshing
+aliases: []
 displayName: UXR.QuestMeshing
 description: >-
   Real-time environment mesh, navmesh, and collision generation for Unity using

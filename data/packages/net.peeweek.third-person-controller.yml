@@ -1,4 +1,5 @@
 name: net.peeweek.third-person-controller
+aliases: []
 displayName: 3rd Person Controller
 description: 3rd Person Controller for Unity
 repoUrl: 'https://github.com/peeweek/net.peeweek.third-person-controller'

@@ -1,4 +1,5 @@
 name: com.bbbirder.shell
+aliases: []
 displayName: Unity Shell
 description: Simple and powerful shell runner in UnityEditor
 repoUrl: https://github.com/labbbirder/Unity-Shell

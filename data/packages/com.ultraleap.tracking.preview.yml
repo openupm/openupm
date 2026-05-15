@@ -1,4 +1,5 @@
 name: com.ultraleap.tracking.preview
+aliases: []
 displayName: Ultraleap Tracking Preview
 description: Ultraleap Tracking Preview
 repoUrl: 'https://github.com/ultraleap/UnityPlugin'

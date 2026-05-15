@@ -1,4 +1,5 @@
 name: com.quabug.one-shot-injection
+aliases: []
 displayName: One Shot Dependency Injection
 description: A single file DI container
 repoUrl: 'https://github.com/quabug/OneShot'

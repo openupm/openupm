@@ -1,4 +1,5 @@
 name: com.jetbrains.lifetimes
+aliases: []
 displayName: JetBrains.Lifetimes
 description: https://www.nuget.org/packages/JetBrains.Lifetimes/
 repoUrl: https://github.com/Ostony/JetBrains.Lifetimes-For-Unity

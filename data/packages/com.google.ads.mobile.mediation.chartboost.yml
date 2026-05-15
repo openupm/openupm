@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.chartboost
+aliases: []
 displayName: Google Mobile Ads Chartboost Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Chartboost package allows you to

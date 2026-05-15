@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.spatializer
+aliases: []
 displayName: Oculus Integration Spatializer
 description: Unofficial mirror of the Oculus Unity-Integration spatializer as package
   for Unity.

@@ -1,4 +1,5 @@
 name: jp.andantetribe.backport
+aliases: []
 displayName: Backport
 description: Backported .NET APIs for legacy runtimes such as Unity.
 repoUrl: https://github.com/AndanteTribe/Backport

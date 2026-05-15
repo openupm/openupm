@@ -1,4 +1,5 @@
 name: com.sark.pathfinding
+aliases: []
 displayName: Pathfinding
 description: >-
   A simple, fast, and generic solution for pathfinding in Unity that works with

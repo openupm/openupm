@@ -1,4 +1,5 @@
 name: com.simonoliver.unityfigma
+aliases: []
 displayName: Unity Figma Bridge
 description: Tool to build Figma documents and Assets as native Unity UI
 repoUrl: 'https://github.com/simonoliver/UnityFigmaBridge'

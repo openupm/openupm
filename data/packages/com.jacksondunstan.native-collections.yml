@@ -1,4 +1,5 @@
 name: com.jacksondunstan.native-collections
+aliases: []
 displayName: Native Collections
 description: Native Collection Types for Unity
 repoUrl: 'https://github.com/jacksondunstan/NativeCollections'

@@ -1,4 +1,5 @@
 name: com.de-panther.webxr-interactions
+aliases: []
 displayName: WebXR Interactions
 description: Develop and export WebXR experiences using Unity
 repoUrl: 'https://github.com/De-Panther/unity-webxr-export'

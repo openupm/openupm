@@ -1,4 +1,5 @@
 name: com.rhinox.open.vhacd
+aliases: []
 displayName: VHACD
 description: Mesh decomposition algorithm forked from V-HACD
 repoUrl: 'https://github.com/Rhinox-Training/v-hacd-dll'

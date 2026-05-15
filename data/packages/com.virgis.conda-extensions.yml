@@ -1,4 +1,5 @@
 name: com.virgis.conda-extensions
+aliases: []
 displayName: Conda Extensions for UPM
 description: Scripts to Help integrate Conda and UPM
 repoUrl: 'https://github.com/ViRGIS-Team/CondaExtensions'

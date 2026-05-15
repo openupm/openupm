@@ -1,4 +1,5 @@
 name: com.inc8877.odinlz4extension
+aliases: []
 displayName: OdinLZ4Extension
 description: The fastest and most efficient binary compression solution for Odin
 repoUrl: 'https://github.com/inc8877/OdinLZ4Extension'

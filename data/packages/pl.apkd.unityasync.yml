@@ -1,4 +1,5 @@
 name: pl.apkd.unityasync
+aliases: []
 displayName: Apkd.UnityAsync
 description: 'High performance, allocation-free async/await library for Unity.'
 repoUrl: 'https://github.com/apkd/Apkd.UnityAsync'

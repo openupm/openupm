@@ -1,4 +1,5 @@
 name: com.moroshka.xcp
+aliases: []
 displayName: Moroshka Xcp
 description: >-
   The `Moroshka.Xcp` module provides enhanced exception classes that improve

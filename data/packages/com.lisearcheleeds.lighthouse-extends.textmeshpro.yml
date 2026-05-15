@@ -1,4 +1,5 @@
 name: com.lisearcheleeds.lighthouse-extends.textmeshpro
+aliases: []
 displayName: Lighthouse Extends - TextMeshPro
 description: Extends TextMeshProUGUI to automatically reflect language and font changes via TextTableService and FontService.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'

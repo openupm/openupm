@@ -1,4 +1,5 @@
 name: com.nethereum.unity.walletconnect
+aliases: []
 displayName: Nethereum.WalletConnect
 description: >-
   Nethereum WalletConnect runtime integration dlls, please check Nethereum

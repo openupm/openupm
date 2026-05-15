@@ -1,4 +1,5 @@
 name: io.spatial.unitysdk
+aliases: []
 displayName: Spatial Creator Toolkit
 description: Build games and experiences in Unity & publish them to Spatial
 repoUrl: 'https://github.com/spatialsys/spatial-unity-sdk'

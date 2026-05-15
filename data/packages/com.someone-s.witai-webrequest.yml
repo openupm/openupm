@@ -1,4 +1,5 @@
 name: com.someone-s.witai-webrequest
+aliases: []
 displayName: WitAI RestAPI WebRequest Adapter
 description: >-
   Package to call WitAI RestAPI (currently only TTS) directly without

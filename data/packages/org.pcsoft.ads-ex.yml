@@ -1,4 +1,5 @@
 name: org.pcsoft.ads-ex
+aliases: []
 displayName: Unity Advertisement Extension
 description: Extension for diverse advertisements for Unity.
 repoUrl: 'https://github.com/KleinerHacker/unity-ads-ex'

@@ -1,4 +1,5 @@
 name: tech.augmenta.augmentaunityclient
+aliases: []
 displayName: Augmenta Websocket Client
 description: Augmenta Unity Client.
 repoUrl: https://github.com/Augmenta-tech/AugmentaUnityWebsocket

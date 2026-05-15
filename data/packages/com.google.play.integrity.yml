@@ -1,4 +1,5 @@
 name: com.google.play.integrity
+aliases: []
 displayName: Google Play Integrity
 description: >-
   Play Integrity API helps you check that your game is unmodified, installed by Google Play,

@@ -1,4 +1,5 @@
 name: com.chebanovdd.unitymvvmtoolkit
+aliases: []
 displayName: Unity MVVM Toolkit
 description: >-
   The Unity Mvvm Toolkit allows you to use data binding to establish a

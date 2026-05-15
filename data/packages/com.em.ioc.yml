@@ -1,4 +1,5 @@
 name: com.em.ioc
+aliases: []
 displayName: EM.IoC
 description: ''
 repoUrl: 'https://github.com/epishev-m/EM.IoC'

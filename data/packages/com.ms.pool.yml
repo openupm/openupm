@@ -1,4 +1,5 @@
 name: com.ms.pool
+aliases: []
 displayName: UniPool
 description: Simple Object Pool Library for Unity
 repoUrl: 'https://github.com/wlgys8/UniPool'

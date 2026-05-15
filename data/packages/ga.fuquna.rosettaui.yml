@@ -1,4 +1,5 @@
 name: ga.fuquna.rosettaui
+aliases: []
 displayName: RosettaUI
 description: Code-based GUI library for development menus for Unity
 repoUrl: 'https://github.com/fuqunaga/RosettaUI'

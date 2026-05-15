@@ -1,4 +1,5 @@
 name: jp.keijiro.klak.testtools
+aliases: []
 displayName: Test Tools
 description: A small collection of utility scripts for testing.
 repoUrl: https://github.com/keijiro/TestTools

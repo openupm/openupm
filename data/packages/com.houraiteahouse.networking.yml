@@ -1,4 +1,5 @@
 name: com.houraiteahouse.networking
+aliases: []
 displayName: Hourai Networking
 description: >-
   Transport level library for peer-to-peer networking with multiple backends for

@@ -1,4 +1,5 @@
 name: com.qfsw.siie
+aliases: []
 displayName: SIIE
 description: Selectable Inversion Image Effect for Unity
 repoUrl: 'https://github.com/QFSW/SIIE'

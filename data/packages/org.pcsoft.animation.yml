@@ -1,4 +1,5 @@
 name: org.pcsoft.animation
+aliases: []
 displayName: Animation Extension
 description: Provide a builder for animations based on Coroutines
 repoUrl: https://github.com/KleinerHacker/unity-animation

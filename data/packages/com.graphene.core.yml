@@ -1,4 +1,6 @@
 name: com.graphene.core
+aliases:
+  - com.cupbearer.graphene
 displayName: Graphene
 description: >-
   Graphene is a lightweight and modular framework for building user interfaces

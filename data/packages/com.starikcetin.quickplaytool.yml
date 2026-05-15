@@ -1,4 +1,5 @@
 name: com.starikcetin.quickplaytool
+aliases: []
 displayName: Quick Play Tool
 description: >-
   Unity3D editor tool to speed up scene switching and playtesting when you are

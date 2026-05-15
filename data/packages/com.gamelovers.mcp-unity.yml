@@ -1,4 +1,5 @@
 name: com.gamelovers.mcp-unity
+aliases: []
 displayName: MCP Unity Server
 description: >-
   The purpose of this package is to provide a MCP Unity Server for executing

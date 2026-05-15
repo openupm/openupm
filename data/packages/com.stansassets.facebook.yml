@@ -1,4 +1,5 @@
 name: com.stansassets.facebook
+aliases: []
 displayName: Stans Assets - Facebook
 description: Open source product that contains extended access to Facebook API.
 repoUrl: 'https://github.com/StansAssets/com.stansassets.facebook'

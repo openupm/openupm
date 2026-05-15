@@ -1,4 +1,5 @@
 name: net.bobbo.extensions.vector3
+aliases: []
 displayName: Vector3 Extensions
 description: Extension methods for Unity's Vector3 Type
 repoUrl: https://github.com/BOBBO-NET/netengine4

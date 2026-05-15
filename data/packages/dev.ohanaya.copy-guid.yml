@@ -1,4 +1,5 @@
 name: dev.ohanaya.copy-guid
+aliases: []
 displayName: Copy GUID
 description: Add a menu item to get the GUID of the selected asset.
 repoUrl: 'https://github.com/c3-hoge-fuga-piyo/CopyGUID'

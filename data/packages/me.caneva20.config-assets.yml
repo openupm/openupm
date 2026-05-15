@@ -1,4 +1,5 @@
 name: me.caneva20.config-assets
+aliases: []
 displayName: Config Assets
 description: >-
   Simple & Lightweight solution for creating and loading config assets for Unity

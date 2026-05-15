@@ -1,4 +1,5 @@
 name: com.richtools.filebasedplayerprefs
+aliases: []
 displayName: File Based Player Prefs
 description: PlayerPrefs substitute that saves player prefs data in a json file.
 repoUrl: 'https://github.com/richardelms/FileBasedPlayerPrefs'

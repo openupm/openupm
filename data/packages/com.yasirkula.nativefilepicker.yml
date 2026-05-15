@@ -1,4 +1,5 @@
 name: com.yasirkula.nativefilepicker
+aliases: []
 displayName: Native File Picker
 description: >-
   A native Unity plugin to import/export files from/to various document

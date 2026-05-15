@@ -1,4 +1,5 @@
 name: com.miragenet.objectpooler
+aliases: []
 displayName: Mirage Object Pooler
 description: A plugin to handle object pooling locally and network in mirage.
 repoUrl: 'https://github.com/MirageNet/ObjectPooler'

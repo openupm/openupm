@@ -1,4 +1,5 @@
 name: com.vrmc.univrm
+aliases: []
 displayName: VRM
 description: Unity package that can import and export VRM format
 repoUrl: 'https://github.com/vrm-c/UniVRM'

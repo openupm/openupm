@@ -1,4 +1,5 @@
 name: io.livekit.unity
+aliases: []
 displayName: LiveKit WebGL SDK
 description: LiveKit Unity Bridge for WebGL
 repoUrl: 'https://github.com/livekit/client-sdk-unity-web'

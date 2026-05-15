@@ -1,4 +1,5 @@
 name: com.gilzoide.easy-project-settings
+aliases: []
 displayName: Easy Project Settings
 description: >-
   Easily create custom Project Settings based on ScriptableObjects

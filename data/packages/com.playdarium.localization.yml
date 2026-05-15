@@ -1,4 +1,5 @@
 name: com.playdarium.localization
+aliases: []
 displayName: Localization
 description: Fast and simple localization utility
 repoUrl: https://github.com/Playdarium/localization

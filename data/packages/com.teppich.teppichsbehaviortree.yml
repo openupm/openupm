@@ -1,4 +1,5 @@
 name: com.teppich.teppichsbehaviortree
+aliases: []
 displayName: Teppichs Behavior Tree
 description: A simple behavior tree agent intelligence.
 repoUrl: 'https://github.com/JohannesSpicker/TeppichsBehaviorTree'

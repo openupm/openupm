@@ -1,4 +1,5 @@
 name: com.vcow.signal-bus
+aliases: []
 displayName: Signal Bus
 description: Multithread Signal Bus for Unity/C#.
 repoUrl: https://github.com/vcow/lib-signal-bus

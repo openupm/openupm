@@ -1,4 +1,5 @@
 name: com.google.play.appupdate
+aliases: []
 displayName: Google Play In-app Updates
 description: >-
   Play In-App Updates lets you prompt users to update to the latest version

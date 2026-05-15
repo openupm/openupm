@@ -1,4 +1,5 @@
 name: com.sandrofigo.delay-unity3d
+aliases: []
 displayName: Delay
 description: Simple delay class to execute code after a certain amount of time
 repoUrl: 'https://github.com/sandrofigo/Delay-Unity3D'

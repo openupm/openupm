@@ -1,4 +1,5 @@
 name: jp.andantetribe.bindings
+aliases: []
 displayName: Bindings
 description: MVVM-based automated UI binding framework built on uGUI.
 repoUrl: https://github.com/AndanteTribe/Bindings

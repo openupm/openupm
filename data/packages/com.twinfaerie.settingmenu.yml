@@ -1,4 +1,5 @@
 name: com.twinfaerie.settingmenu
+aliases: []
 displayName: TwinFaerie Setting-Menu
 description: For centralize game setting and separate game setting from unity setting
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-settingmenu'

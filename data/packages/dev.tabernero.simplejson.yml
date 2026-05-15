@@ -1,4 +1,5 @@
 name: dev.tabernero.simplejson
+aliases: []
 displayName: SimpleJSON for Unity
 description: A simple JSON parser for Unity.
 repoUrl: https://github.com/davidtabernerom/unity-simplejson

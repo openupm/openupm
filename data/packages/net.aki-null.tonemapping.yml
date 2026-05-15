@@ -1,4 +1,5 @@
 name: net.aki-null.tonemapping
+aliases: []
 displayName: Custom Tone Mapping for URP
 description: Custom tone mapping extension for Universal Render Pipeline
 repoUrl: https://github.com/aki-null/CustomToneMappingURP

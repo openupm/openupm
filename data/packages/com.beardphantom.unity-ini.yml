@@ -1,4 +1,5 @@
 name: com.beardphantom.unity-ini
+aliases: []
 displayName: Unity INI
 description: First-class INI file support for Unity.
 repoUrl: https://github.com/thebeardphantom/Unity-INI

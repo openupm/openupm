@@ -1,4 +1,5 @@
 name: com.coimbra.stronglytypedstrings
+aliases: []
 displayName: Strongly Typed Strings
 description: |-
   Tool to generate strongly typed strings.

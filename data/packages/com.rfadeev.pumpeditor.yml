@@ -1,4 +1,5 @@
 name: com.rfadeev.pumpeditor
+aliases: []
 displayName: Pump Editor
 description: Collection of Unity editor helpers to boost productivity.
 repoUrl: 'https://github.com/rfadeev/pump-editor'

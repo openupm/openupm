@@ -1,4 +1,5 @@
 name: com.dotsui.hybrid
+aliases: []
 displayName: DotsUI Hybrid UnityEngine module
 description: Unity engine DOTS UI solution
 repoUrl: 'https://github.com/supron54321/DotsUI'

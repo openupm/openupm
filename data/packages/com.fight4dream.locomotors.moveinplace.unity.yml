@@ -1,4 +1,5 @@
 name: com.fight4dream.locomotors.moveinplace.unity
+aliases: []
 displayName: FIGHT4DREAM Locomotors.MoveInPlace.Unity
 description: Activate and swing the controllers to move.
 repoUrl: 'https://github.com/fight4dream/Fight4Dream.Locomotors.MoveInPlace.Unity'

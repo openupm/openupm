@@ -1,4 +1,5 @@
 name: jp.co.bexide.bxuni.scenariobuilder
+aliases: []
 displayName: BxUni-ScenarioBuilder
 description: A package of functions for executing processes in command form.
 repoUrl: https://github.com/bexide/BxUni-ScenarioBuilder

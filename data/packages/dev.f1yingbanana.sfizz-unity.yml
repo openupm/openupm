@@ -1,4 +1,5 @@
 name: dev.f1yingbanana.sfizz-unity
+aliases: []
 displayName: Sfizz for Unity
 description: >-
   A Unity3D MIDI player with instruments defined in sfz format, using sfizz as

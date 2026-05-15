@@ -1,4 +1,5 @@
 name: com.anklebreaker.unity-mcp
+aliases: []
 displayName: AnkleBreaker Unity MCP
 description: "MCP (Model Context Protocol) bridge plugin for Unity Editor. Enables AI assistants like Claude to control Unity Editor via a local HTTP API â\x80\x94 manage scenes, GameObjects, components, assets, builds, and more."
 repoUrl: https://github.com/AnkleBreaker-Studio/unity-mcp-plugin

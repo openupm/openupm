@@ -1,4 +1,5 @@
 name: com.ligofff.lgf-copy-serialized-action
+aliases: []
 displayName: Ligofff - LGF Copy Serialized
 description: Small context menu action, that Copy/Paste component values as serialized data
 repoUrl: https://github.com/ligofff/lgf-copy-serialized-action

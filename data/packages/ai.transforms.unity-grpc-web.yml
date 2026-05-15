@@ -1,4 +1,5 @@
 name: ai.transforms.unity-grpc-web
+aliases: []
 displayName: Grpc-Web for Unity
 description: 'Allows using https://github.com/grpc/grpc-dotnet/ with Unity WebGL'
 repoUrl: 'https://github.com/transformsai/UnityGrpcWeb'

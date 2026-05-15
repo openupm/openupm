@@ -1,4 +1,5 @@
 name: extensions.unity.base
+aliases: []
 displayName: Unity Extensions
 description: Includes many helper classes.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Extensions'

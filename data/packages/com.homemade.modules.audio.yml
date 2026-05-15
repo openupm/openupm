@@ -1,4 +1,5 @@
 name: com.homemade.modules.audio
+aliases: []
 displayName: Simple Audio
 description: Small package about controll the audio
 repoUrl: https://github.com/hungpt17102k/com.homemade.modules.audio

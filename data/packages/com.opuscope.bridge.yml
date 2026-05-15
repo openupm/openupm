@@ -1,4 +1,5 @@
 name: com.opuscope.bridge
+aliases: []
 displayName: Opuscope - Bridge
 description: Opuscope Bridge
 repoUrl: https://github.com/opuscope/UnityAsyncBridge

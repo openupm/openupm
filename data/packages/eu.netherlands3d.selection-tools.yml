@@ -1,4 +1,5 @@
 name: eu.netherlands3d.selection-tools
+aliases: []
 displayName: Netherlands3D - Selection Tools
 description: 'Tool to draw areas, and make selections'
 repoUrl: 'https://github.com/Netherlands3D/SelectionTools'

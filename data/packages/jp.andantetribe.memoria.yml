@@ -1,4 +1,5 @@
 name: jp.andantetribe.memoria
+aliases: []
 displayName: Memoria
 description: Client-side .NET implementation for managing PlayFab rankings and scores.
 repoUrl: https://github.com/AndanteTribe/Memoria

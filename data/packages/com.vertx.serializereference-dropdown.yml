@@ -1,4 +1,5 @@
 name: com.vertx.serializereference-dropdown
+aliases: []
 displayName: SerializeReference Dropdown
 description: >-
   Adds a type dropdown for SerializeReference fields. Supports custom drawers

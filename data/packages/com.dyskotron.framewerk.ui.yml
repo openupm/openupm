@@ -1,5 +1,6 @@
 # Framewerk UI - Views, Mediators, Popups, Lists
 name: com.dyskotron.framewerk.ui
+aliases: []
 displayName: Framewerk UI
 description: UI components including Views, Mediators, Popups, Lists, AssetManager, and ViewConfig.
 repoUrl: 'https://github.com/dyskotron/Framewerk'

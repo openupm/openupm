@@ -1,4 +1,5 @@
 name: com.seanba.super-tiled2unity
+aliases: []
 displayName: Super Tiled2Unity
 description: Imports Tiled Map Editor assets into Unity
 repoUrl: https://github.com/Seanba/SuperTiled2Unity

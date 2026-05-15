@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.builder.odin
+aliases: []
 displayName: EntitiesBT - Odin Builder
 description: Behavior Tree for Unity Entities - Odin Builder
 repoUrl: 'https://github.com/quabug/EntitiesBT'

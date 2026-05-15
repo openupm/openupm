@@ -1,4 +1,5 @@
 name: com.amplitude.unityplugin
+aliases: []
 displayName: Amplitude Unity SDK
 description: >-
   A plugin to simplify the integration of Amplitude iOS and Android SDKs into

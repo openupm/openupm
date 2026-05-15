@@ -1,4 +1,5 @@
 name: dev.kyubuns.abcconsole
+aliases: []
 displayName: AbcConsole
 description: Mobile-friendly debug console system
 repoUrl: 'https://github.com/kyubuns/AbcConsole'

@@ -1,4 +1,5 @@
 name: com.beauprime.beaudata
+aliases: []
 displayName: BeauData
 description: Unity3d object serialization and deserialization library
 repoUrl: 'https://github.com/BeauPrime/BeauData'

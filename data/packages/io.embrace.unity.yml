@@ -1,4 +1,5 @@
 name: io.embrace.unity
+aliases: []
 displayName: Embrace Unity SDK
 description: Bringing the power of Embrace to your Unity app
 repoUrl: 'https://github.com/embrace-io/embrace-unity-upm'

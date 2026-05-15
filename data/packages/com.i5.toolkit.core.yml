@@ -1,4 +1,5 @@
 name: com.i5.toolkit.core
+aliases: []
 displayName: i5 Toolkit for Unity
 description: >-
   A collection of common tools and features which can be reused in Unity

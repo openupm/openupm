@@ -1,4 +1,5 @@
 name: com.coffee.ui-material-property-injector
+aliases: []
 displayName: UI Material Property Injector
 description: This package provides a component that allows easy modification of material
   properties for Unity UI (uGUI) without the need for shader-specific custom components.

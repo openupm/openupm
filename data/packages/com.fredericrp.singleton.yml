@@ -1,4 +1,5 @@
 name: com.fredericrp.singleton
+aliases: []
 displayName: FRP Singleton
 description: >-
   A generic singleton: a singleton is a development pattern that prevents having

@@ -1,4 +1,5 @@
 name: com.izayoi.unishaders
+aliases: []
 displayName: UniShaders
 description: >-
   UniShaders is utility scripts to get/set Unity shader parameters. (standard,

@@ -1,4 +1,5 @@
 name: com.ltmx.unity.shaderforge
+aliases: []
 displayName: Shader Forge
 description: The ultimate visual node-based shader editor for Unity
 repoUrl: https://github.com/ltmx/ShaderForge

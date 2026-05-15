@@ -1,4 +1,5 @@
 name: com.gemserk.tools.gameobjectbrush
+aliases: []
 displayName: GameObject Paint Tool for 2D Games
 description: >-
   Unity's Editor GameObjects Paint Tool for 2D Games. It contains both a custom

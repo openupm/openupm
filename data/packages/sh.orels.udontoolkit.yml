@@ -1,4 +1,5 @@
 name: sh.orels.udontoolkit
+aliases: []
 displayName: Udon Toolkit
 description: A set of purpose-built Udon Behaviours and tools to make your own
 repoUrl: 'https://github.com/orels1/UdonToolkit'

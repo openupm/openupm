@@ -1,4 +1,5 @@
 name: com.ikpil.unirecast
+aliases: []
 displayName: UniRecast
 description: navigation mesh toolset for Unity3D using DotRecast
 repoUrl: https://github.com/ikpil/UniRecast

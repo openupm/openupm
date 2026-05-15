@@ -1,4 +1,5 @@
 name: com.bastianblokland.componenttask
+aliases: []
 displayName: ComponentTask
 description: Library to run dotnet's 'Task' and 'Task<T>' scoped to Unity components.
 repoUrl: 'https://github.com/BastianBlokland/componenttask-unity'

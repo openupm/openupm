@@ -1,4 +1,5 @@
 name: com.plumed.avakitsdkinstaller
+aliases: []
 displayName: Avakit SDK Installer
 description: .
 repoUrl: 'https://github.com/avatokapp/AvakitSDK'

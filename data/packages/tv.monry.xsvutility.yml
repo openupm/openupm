@@ -1,4 +1,5 @@
 name: tv.monry.xsvutility
+aliases: []
 displayName: XsvUtility
 description: 'XsvUtility has serializer and deserializer for CSV, TSV.'
 repoUrl: 'https://github.com/monry/upm.XsvUtility'

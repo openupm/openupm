@@ -1,4 +1,5 @@
 name: com.gameframe.async
+aliases: []
 displayName: Gameframe.Async
 description: Task and Async helper package for Unity
 repoUrl: 'https://github.com/coryleach/UnityAsync'

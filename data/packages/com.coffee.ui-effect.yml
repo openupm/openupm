@@ -1,4 +1,5 @@
 name: com.coffee.ui-effect
+aliases: []
 displayName: UIEffect
 description: 'UIEffect is an open-source package that allows you to intuitively apply rich UI effects directly from the Inspector or via code.\nCombine various filters, such as grayscale, blur, and dissolve, to decorate your UI with a unique visual style!'
 repoUrl: 'https://github.com/mob-sakai/UIEffect'

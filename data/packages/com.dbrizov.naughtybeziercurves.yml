@@ -1,4 +1,5 @@
 name: com.dbrizov.naughtybeziercurves
+aliases: []
 displayName: NaughtyBezierCurves
 description: Bezier Curve Game Object for Unity
 repoUrl: 'https://github.com/dbrizov/NaughtyBezierCurves'

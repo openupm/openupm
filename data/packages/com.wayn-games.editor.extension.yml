@@ -1,4 +1,5 @@
 name: com.wayn-games.editor.extension
+aliases: []
 displayName: WAYN Editor Extension
 description: This package provide editor extension that can be reused accross projects.
 repoUrl: https://github.com/WAYN-Games/WAYN-Editor-Extension

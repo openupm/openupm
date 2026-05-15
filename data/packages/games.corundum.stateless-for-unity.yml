@@ -1,4 +1,5 @@
 name: games.corundum.stateless-for-unity
+aliases: []
 displayName: Stateless For Unity
 description: A Unity port of Stateless that uses UniTask instead of standard TAP classes.
 repoUrl: 'https://github.com/CorundumGames/Stateless-For-Unity'

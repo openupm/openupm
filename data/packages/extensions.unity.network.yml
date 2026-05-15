@@ -1,4 +1,5 @@
 name: extensions.unity.network
+aliases: []
 displayName: Unity Network REST extension
 description: 'Library for managering Network requests, especially REST API'
 repoUrl: 'https://github.com/IvanMurzak/Unity-Network-REST'

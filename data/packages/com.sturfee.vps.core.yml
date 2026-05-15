@@ -1,4 +1,5 @@
 name: com.sturfee.vps.core
+aliases: []
 displayName: Sturfee VPS Core
 description: Core library for Sturfee VPS SDK
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.vps.core'

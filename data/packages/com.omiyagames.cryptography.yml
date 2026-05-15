@@ -1,4 +1,5 @@
 name: com.omiyagames.cryptography
+aliases: []
 displayName: Omiya Games - Cryptography
 description: Tool to encrypt and decrypt a string.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-cryptography'

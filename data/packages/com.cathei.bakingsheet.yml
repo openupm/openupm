@@ -1,4 +1,5 @@
 name: com.cathei.bakingsheet
+aliases: []
 displayName: BakingSheet
 description: |-
   Easy datasheet management for C# and Unity.

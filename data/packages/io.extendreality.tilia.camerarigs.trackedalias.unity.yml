@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.camerarigs.trackedalias.unity
+aliases: []
 displayName: Tilia CameraRigs TrackedAlias Unity
 description: >-
   A Tracked Alias prefab providing generic aliases to the active camera rig

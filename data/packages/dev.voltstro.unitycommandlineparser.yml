@@ -1,4 +1,5 @@
 name: dev.voltstro.unitycommandlineparser
+aliases: []
 displayName: Unity Command Line Parser
 description: A command line parser designed for Unity.
 repoUrl: 'https://github.com/Voltstro-Studios/UnityCommandLineParser'

@@ -1,4 +1,5 @@
 name: jp.andantetribe.gameobjectpool
+aliases: []
 displayName: GameObjectPool
 description: Async-friendly GameObject pool for Unity.
 repoUrl: https://github.com/AndanteTribe/GameObjectPool

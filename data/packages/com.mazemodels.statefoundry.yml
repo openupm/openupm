@@ -1,4 +1,5 @@
 name: com.mazemodels.statefoundry
+aliases: []
 displayName: State Foundry
 description: >-
   Implementation of statecharts, a formalism for modeling stateful logic that

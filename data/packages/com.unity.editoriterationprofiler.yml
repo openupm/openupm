@@ -1,4 +1,5 @@
 name: com.unity.editoriterationprofiler
+aliases: []
 displayName: Editor Iteration Profiler
 description: Assists in capturing frames from the Profiler of Domain Reloads in the
   Unity Editor. Unity 2019.3+ version compatible

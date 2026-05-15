@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.packagetools
+aliases: []
 displayName: JCMG Package Tools
 description: >-
   A set of developer tools to make it easier to create and distribute packages

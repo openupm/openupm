@@ -1,4 +1,5 @@
 name: com.studio23.ss2.settingsmanager
+aliases: []
 displayName: Settings Manager
 description: A package to modify ingame settings such as, graphics, audio and input
   for HDRP projects.

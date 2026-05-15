@@ -1,4 +1,5 @@
 name: io.midlevel.mlapi.cryptography
+aliases: []
 displayName: ''
 description: >-
   MLAPI.Cryptography is a Unity friendly crypto library to fill the missing

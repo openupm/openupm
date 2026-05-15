@@ -1,4 +1,5 @@
 name: com.dopple.sheet2so
+aliases: []
 displayName: Sheet2SO
 description: >-
   A lightweight tool to import and manage Google Spreadsheet data as Unity

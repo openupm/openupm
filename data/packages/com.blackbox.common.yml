@@ -1,4 +1,5 @@
 name: com.blackbox.common
+aliases: []
 displayName: Common
 description: BlackBox Plug-in Common
 repoUrl: 'https://github.com/INFIcer/DevelopmentTool'

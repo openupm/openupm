@@ -1,4 +1,5 @@
 name: com.mygamedevtools.script-template
+aliases: []
 displayName: Script Templates
 description: >-
   This tool adds custom Script Templates to Unity that will serve as

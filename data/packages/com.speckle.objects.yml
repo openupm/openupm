@@ -1,4 +1,5 @@
 name: com.speckle.objects
+aliases: []
 displayName: Speckle Objects
 description: A set of supported Base Objects converted to Unity
 repoUrl: https://github.com/sasakiassociates/speckle-unity-connector

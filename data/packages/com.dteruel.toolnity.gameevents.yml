@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.gameevents
+aliases: []
 displayName: Toolnity Game Events
 description: Events system to trigger and react in runtime.
 repoUrl: 'https://github.com/DTeruel/Toolnity'

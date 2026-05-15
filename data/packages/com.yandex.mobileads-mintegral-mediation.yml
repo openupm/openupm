@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-mintegral-mediation
+aliases: []
 displayName: Mintegral adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use Mintegral ad network in conjuction with Yandex

@@ -1,4 +1,5 @@
 name: com.voyageforge.depot
+aliases: []
 displayName: Depot
 description: A collection of Unity utility functions and extensions.
 repoUrl: https://github.com/VoyageForge/Depot

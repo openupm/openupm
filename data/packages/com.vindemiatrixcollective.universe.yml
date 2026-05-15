@@ -1,4 +1,5 @@
 name: com.vindemiatrixcollective.universe
+aliases: []
 displayName: Universe
 description: A Unity library of space-related methods for hard sci-fi games.
 repoUrl: https://github.com/TheWand3rer/Universe

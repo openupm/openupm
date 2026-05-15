@@ -1,4 +1,5 @@
 name: com.izayoi.collections.timestampeddictionary
+aliases: []
 displayName: Izayoi.Collections.TimestampedDictionary
 description: This is a dictionary that records datetime when data is added.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Collections

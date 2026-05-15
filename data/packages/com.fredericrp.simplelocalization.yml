@@ -1,4 +1,5 @@
 name: com.fredericrp.simplelocalization
+aliases: []
 displayName: FRP Simple Localization
 description: A minimum tool for localization.
 repoUrl: 'https://github.com/FredericRP/SimpleLocalization'

@@ -1,4 +1,5 @@
 name: com.undercats.servicelocator
+aliases: []
 displayName: Unity Service Locator
 description: A lightweight service locator for Unity.
 repoUrl: https://github.com/hcmyxconan15/Unity-Service-Locator

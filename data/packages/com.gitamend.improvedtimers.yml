@@ -1,4 +1,5 @@
 name: com.gitamend.improvedtimers
+aliases: []
 displayName: Improved Timers
 description: Improved Timer System for Unity that hooks into the Unity Player Loop.
 repoUrl: https://github.com/maoyeedy/Unity-Improved-Timers

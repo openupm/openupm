@@ -1,4 +1,5 @@
 name: zes.au.core
+aliases: []
 displayName: Au Core
 description: Au Core library for Unity3D
 repoUrl: 'https://github.com/zhihesoft/zes-unity-au-core'

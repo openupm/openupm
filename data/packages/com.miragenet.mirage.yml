@@ -1,4 +1,5 @@
 name: com.miragenet.mirage
+aliases: []
 displayName: Mirage
 description: >-
   Mirage is a high level Networking API for Unity, supporting different low

@@ -1,4 +1,5 @@
 name: com.matthewminer.consolation
+aliases: []
 displayName: Consolation
 description: In-game debug console for Unity.
 repoUrl: 'https://github.com/mminer/consolation'

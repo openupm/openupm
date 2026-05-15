@@ -1,4 +1,5 @@
 name: com.appsflyer.unity
+aliases: []
 displayName: AppsFlyer
 description: AppsFlyer Unity plugin
 repoUrl: https://github.com/AppsFlyerSDK/appsflyer-unity-plugin

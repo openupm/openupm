@@ -1,4 +1,5 @@
 name: com.joaosantos.package-custom-variables
+aliases: []
 displayName: JS Custom Variable
 description: Package with new variable formats using ScriptableObjects
 repoUrl: https://github.com/JoaoSant0s/unity-custom-packages

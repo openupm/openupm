@@ -1,4 +1,5 @@
 name: com.dotsui.core
+aliases: []
 displayName: DotsUI Core
 description: Unity engine DOTS UI solution
 repoUrl: 'https://github.com/supron54321/DotsUI'

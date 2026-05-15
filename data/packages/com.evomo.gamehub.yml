@@ -1,4 +1,5 @@
 name: com.evomo.gamehub
+aliases: []
 displayName: Evomo Gamehub Integration
 description: Package used to integrate your game inside the Gamehub
 repoUrl: 'https://github.com/Evomo/GameHubPlugin'

@@ -1,4 +1,5 @@
 name: com.pixelwizards.shotassembly
+aliases: []
 displayName: PixelWizards - Shot Assembly
 description: >-
   Shot Assembly Tool for procedurally generating Timeline sequences from a set

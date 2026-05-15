@@ -1,4 +1,5 @@
 name: com.gilzoide.camera-fov-fit
+aliases: []
 displayName: Camera FOV Fit
 description: Automatically adjust Cameras' FOV to 3D objects bounds.
 repoUrl: https://github.com/gilzoide/unity-camera-fov-fit

@@ -1,4 +1,5 @@
 name: com.tech-cosmos.unitcore
+aliases: []
 displayName: Unit Core
 description: >-
   A modular, data-driven unit entity system for real-time strategy and tactical

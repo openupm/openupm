@@ -1,4 +1,5 @@
 name: com.kc.packagemanager
+aliases: []
 displayName: KC.PackageManager
 description: KC包体管理器
 repoUrl: https://github.com/zkyvette425/com.kc.packagemanager

@@ -1,4 +1,5 @@
 name: com.twinfaerie.scenehandler
+aliases: []
 displayName: TwinFaerie Scene-Handler
 description: For standarize scene change behaviour using login scene as overlay
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-scenehandler'

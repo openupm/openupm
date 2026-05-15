@@ -1,4 +1,5 @@
 name: com.github.miyaji255.inspector-only-fields
+aliases: []
 displayName: InspectorOnlyFields
 description: Unityでシリアライズしたフィールドにコードから書き換えようとすると警告するパッケージです
 repoUrl: 'https://github.com/miyaji255/InspectorOnlyFields'

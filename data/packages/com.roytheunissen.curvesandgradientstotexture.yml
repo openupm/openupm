@@ -1,4 +1,5 @@
 name: com.roytheunissen.curvesandgradientstotexture
+aliases: []
 displayName: Curves & Gradients To Texture
 description: >-
   Contains utilities for defining a curve or gradient in the inspector and

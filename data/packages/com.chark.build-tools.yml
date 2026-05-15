@@ -1,4 +1,5 @@
 name: com.chark.build-tools
+aliases: []
 displayName: Build Tools
 description: >-
   Editor utilities for quickly automating builds by utilizing Scriptable

@@ -1,4 +1,5 @@
 name: com.jcs090218.package-exporter
+aliases: []
 displayName: PackageExporter
 description: 'Export multiple packages by just one click, with no need to uncheck the assets'
 repoUrl: 'https://github.com/jcs090218/PackageExporter'

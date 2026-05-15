@@ -1,4 +1,5 @@
 name: com.realitytoolkit.devtools
+aliases: []
 displayName: RealityToolkit.DevTools
 description: >-
   A collection of services, utilities and tools useful for developing immersive

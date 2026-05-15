@@ -1,4 +1,5 @@
 name: se.hertzole.scriptable-values
+aliases: []
 displayName: Scriptable Values
 description: Set up games using Scriptable Objects.
 repoUrl: 'https://github.com/Hertzole/scriptable-values'

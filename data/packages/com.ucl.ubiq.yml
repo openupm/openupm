@@ -1,4 +1,5 @@
 name: com.ucl.ubiq
+aliases: []
 displayName: Ubiq
 description: Create networked VR experiences with Ubiq
 repoUrl: https://github.com/UCL-VR/ubiq

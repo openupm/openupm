@@ -1,4 +1,5 @@
 name: com.atteneder.gltfast
+aliases: []
 displayName: glTFast
 description: Efficient glTF 3D import / export library for Unity
 repoUrl: 'https://github.com/atteneder/glTFast'

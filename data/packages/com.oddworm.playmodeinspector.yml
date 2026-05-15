@@ -1,4 +1,5 @@
 name: com.oddworm.playmodeinspector
+aliases: []
 displayName: PlayMode Inspector
 description: >-
   PlayMode Inspector for Unity 2019.3 and newer. It allows you to display

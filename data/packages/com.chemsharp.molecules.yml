@@ -1,4 +1,5 @@
 name: com.chemsharp.molecules
+aliases: []
 displayName: ChemSharp Molecules
 description: .NET Library for processing of chemistry related files
 repoUrl: 'https://github.com/ViRGIS-Team/chem-sharp-upm'

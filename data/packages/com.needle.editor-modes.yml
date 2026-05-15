@@ -1,4 +1,5 @@
 name: com.needle.editor-modes
+aliases: []
 displayName: Needle Editor Modes
 description: >-
   Expose Unity Modes API (think Safe Mode) and make it easy to switch between or

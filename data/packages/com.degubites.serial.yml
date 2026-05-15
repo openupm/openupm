@@ -1,4 +1,5 @@
 name: com.degubites.serial
+aliases: []
 displayName: DeguBites Serial
 description: "Cross-platform serial port wrapper for Unity -- supports Windows, Linux, and macOS (Linux and macOS are beta). IL2CPP-compatible: sidesteps System.IO.Ports, which is unavailable under IL2CPP, by P/Invoking kernel32.dll on Windows and libc termios on Linux/macOS. Includes a background-threaded line reader and platform-aware port enumeration."
 repoUrl: https://github.com/degubites/unity-serial

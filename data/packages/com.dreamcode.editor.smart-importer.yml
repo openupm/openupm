@@ -1,4 +1,5 @@
 name: com.dreamcode.editor.smart-importer
+aliases: []
 displayName: SmartImporter
 description: >-
   Allows import Unity packages (.unitypackage) to custom folder, ignoring

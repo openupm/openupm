@@ -1,4 +1,5 @@
 name: dev.milthm.minity
+aliases: []
 displayName: Minity
 description: >-
   A Unity extension framework that includes features such as object pooling,

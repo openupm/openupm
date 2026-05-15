@@ -1,4 +1,5 @@
 name: com.sandrofigo.colorbindings
+aliases: []
 displayName: Color Bindings
 description: >-
   A Unity extension to store colors that are then automatically applied to UI

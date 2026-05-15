@@ -1,4 +1,5 @@
 name: com.stackray.renderer
+aliases: []
 displayName: Stackray Renderer
 description: 'Extending DOTS '
 repoUrl: https://github.com/GilbertoGojira/DOTS-Stackray

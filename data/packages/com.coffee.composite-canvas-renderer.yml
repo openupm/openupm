@@ -1,4 +1,5 @@
 name: com.coffee.composite-canvas-renderer
+aliases: []
 displayName: Composite Canvas Renderer
 description: >-
   CompositeCanvasRenderer bakes multiple source graphics into a bake-buffer

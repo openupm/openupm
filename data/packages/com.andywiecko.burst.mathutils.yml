@@ -1,4 +1,5 @@
 name: com.andywiecko.burst.mathutils
+aliases: []
 displayName: Burst Math Utils
 description: Burst compatible miscellaneous math related utility functions.
 repoUrl: 'https://github.com/andywiecko/BurstMathUtils'

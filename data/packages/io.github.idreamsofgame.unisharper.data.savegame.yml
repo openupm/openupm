@@ -1,4 +1,5 @@
 name: io.github.idreamsofgame.unisharper.data.savegame
+aliases: []
 displayName: UniSharper.Data.SaveGame
 description: >-
   UniSharper.Data.SaveGame is a save game system for saving and loading game

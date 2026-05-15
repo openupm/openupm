@@ -1,4 +1,5 @@
 name: com.miragenet.steamworkssocket
+aliases: []
 displayName: Mirage Steamworks.net Socket
 description: Steam transport for Mirage using Steamworks.net
 repoUrl: https://github.com/MirageNet/MirageSteamworks

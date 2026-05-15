@@ -1,4 +1,5 @@
 name: com.ericsebesta.toolbelt
+aliases: []
 displayName: Unity Toolbelt
 description: An open source package of Unity tools.
 repoUrl: 'https://github.com/ericsebesta/unity-toolbelt'

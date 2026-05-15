@@ -1,4 +1,5 @@
 name: com.andtech.core
+aliases: []
 displayName: Andtech
 description: Standard utility assets for Unity
 repoUrl: 'https://github.com/AndrewMJordan/andtech'

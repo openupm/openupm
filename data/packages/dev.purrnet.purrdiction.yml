@@ -1,4 +1,5 @@
 name: dev.purrnet.purrdiction
+aliases: []
 displayName: Purrdiction
 description: An addon to PurrNet for CSP (client side prediction)
 repoUrl: https://github.com/PurrNet/PurrDiction

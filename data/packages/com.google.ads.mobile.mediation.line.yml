@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.line
+aliases: []
 displayName: Google Mobile Ads Line Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Line package allows you to load and

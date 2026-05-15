@@ -1,4 +1,6 @@
 name: co.mindport.builder.core
+aliases:
+  - com.mindport.builder.core
 displayName: VR Builder Core
 description: VR Builder core functionality.
 repoUrl: 'https://github.com/VaLiuM09/VPG-Core'

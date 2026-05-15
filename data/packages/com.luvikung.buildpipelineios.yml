@@ -1,4 +1,5 @@
 name: com.luvikung.buildpipelineios
+aliases: []
 displayName: Build Pipeline for iOS
 description: >-
   Build Pipeline for iOS is a build tools for Unity Editor that able to manage

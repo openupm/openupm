@@ -1,4 +1,5 @@
 name: com.pspkurara.localsave
+aliases: []
 displayName: LocalSave
 description: Supports Unity's simple local save utility.
 repoUrl: 'https://github.com/pspkurara/localsave'

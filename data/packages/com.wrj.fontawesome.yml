@@ -1,4 +1,5 @@
 name: com.wrj.fontawesome
+aliases: []
 displayName: WRJ Font Awesome
 description: Convenient access to Font Awesome icons in Unity.
 repoUrl: https://github.com/williamrjackson/FontAwesomeUnity

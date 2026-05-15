@@ -1,4 +1,5 @@
 name: dev.cortez.state-machines
+aliases: []
 displayName: State Machines Lite
 description: >-
   A lightweight, extensible set of utilities to build state machines for Unity

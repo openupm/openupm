@@ -1,4 +1,5 @@
 name: games.artees.should-assertions
+aliases: []
 displayName: Should Assertions
 description: A BDD library for testing C# code.
 repoUrl: 'https://github.com/Artees/ShouldAssertions'

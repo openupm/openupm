@@ -1,4 +1,5 @@
 name: com.libsugar.sugar.unity.mathematics
+aliases: []
 displayName: LibSugar.Mathematics
 description: 'Like syntactic sugar, but is library'
 repoUrl: 'https://github.com/libsugar/SugarUnity.Mathematics'

@@ -1,4 +1,5 @@
 name: com.zbase.foundation.fixed-arrays
+aliases: []
 displayName: ZBase.Foundation.FixedArrays
 description: C# source generator to create fixed-size arrays
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.FixedArrays'

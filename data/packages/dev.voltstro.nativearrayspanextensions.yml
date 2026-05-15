@@ -1,4 +1,5 @@
 name: dev.voltstro.nativearrayspanextensions
+aliases: []
 displayName: Native Array Span Extensions
 description: >-
   Provides extensions to Unity's NativeArray that make using .NET's Span<T> with

@@ -1,4 +1,5 @@
 name: ga.fuquna.nested-dropdown-menu
+aliases: []
 displayName: NestedDropdownMenu
 description: >-
   Nested dropdown menus built with Unity UI Toolkit's GenericDropdownMenu,

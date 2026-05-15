@@ -1,4 +1,5 @@
 name: com.annulusgames.arch.unity
+aliases: []
 displayName: Arch.Unity
 description: Arch ECS integration for Unity.
 repoUrl: https://github.com/AnnulusGames/Arch.Unity

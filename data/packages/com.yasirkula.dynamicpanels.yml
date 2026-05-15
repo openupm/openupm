@@ -1,4 +1,5 @@
 name: com.yasirkula.dynamicpanels
+aliases: []
 displayName: Dynamic Panels
 description: 'Draggable, resizable, dockable and stackable UI panel solution for Unity 3D'
 repoUrl: 'https://github.com/yasirkula/UnityDynamicPanels'

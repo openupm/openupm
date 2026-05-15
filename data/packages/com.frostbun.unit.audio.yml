@@ -1,4 +1,5 @@
 name: com.frostbun.unit.audio
+aliases: []
 displayName: UniT Audio
 description: Audio Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Audio

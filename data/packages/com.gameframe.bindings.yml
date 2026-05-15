@@ -1,4 +1,5 @@
 name: com.gameframe.bindings
+aliases: []
 displayName: Gameframe.Bindings
 description: Utility components for quickly binding data values to views.
 repoUrl: 'https://github.com/coryleach/UnityBindings'

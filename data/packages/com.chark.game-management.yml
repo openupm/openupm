@@ -1,4 +1,5 @@
 name: com.chark.game-management
+aliases: []
 displayName: Game Management
 description: >-
   Essential and minimalistic game management tools: messaging, service locator,

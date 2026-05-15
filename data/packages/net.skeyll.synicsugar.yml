@@ -1,4 +1,5 @@
 name: net.skeyll.synicsugar
+aliases: []
 displayName: SynicSugar
 description: Free, full-featured Unity netcode with no CCU or hosting costs.
 repoUrl: 'https://github.com/SynicSugar/SynicSugar'

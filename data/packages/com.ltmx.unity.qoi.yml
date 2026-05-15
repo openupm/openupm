@@ -1,4 +1,5 @@
 name: com.ltmx.unity.qoi
+aliases: []
 displayName: Unity.QOI
 description: Utilities to Import and Export to the QOI Image Format
 repoUrl: 'https://github.com/LTMX/Unity.QOI'

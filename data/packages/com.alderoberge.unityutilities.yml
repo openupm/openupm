@@ -1,4 +1,5 @@
 name: com.alderoberge.unityutilities
+aliases: []
 displayName: Unity Utilities
 description: Collection of Unity Utilities to be shared between projects.
 repoUrl: https://github.com/AldeRoberge/Unity-Utilities

@@ -1,4 +1,5 @@
 name: com.ges.services.network
+aliases: []
 displayName: Tiny Service Network
 description: Tiny network management system for Unity game engine.
 repoUrl: https://github.com/gestiran/TinyServiceNetwork

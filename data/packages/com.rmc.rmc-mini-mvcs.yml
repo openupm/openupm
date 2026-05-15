@@ -1,4 +1,5 @@
 name: com.rmc.rmc-mini-mvcs
+aliases: []
 displayName: RMC Mini MVCS
 description: >-
   Mini MVCS (Model View Controller Service) library for Unity Development by

@@ -1,4 +1,5 @@
 name: com.nomnom.regex-rename
+aliases: []
 displayName: Regex Rename
 description: >-
   This allows for you to bulk rename both project and scene objects with regex

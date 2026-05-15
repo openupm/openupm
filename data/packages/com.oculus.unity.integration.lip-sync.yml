@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.lip-sync
+aliases: []
 displayName: Oculus Integration Lip Sync
 description: Unofficial mirror of the Oculus Unity-Integration Lip Sync as a package
   for Unity.

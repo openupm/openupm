@@ -1,4 +1,5 @@
 name: com.beatrate.ugui-mvvm
+aliases: []
 displayName: uGUI MVVM
 description: >-
   Unity3D uGUI mvvm databinding via the standard IXChanged interfaces used in

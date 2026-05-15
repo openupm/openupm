@@ -1,4 +1,5 @@
 name: com.edenrompas.er-inspector
+aliases: []
 displayName: ER Inspector
 description: >-
   Custom Unity tool designed to help developers organize the Inspector view in a

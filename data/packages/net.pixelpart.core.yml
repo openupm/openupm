@@ -1,4 +1,5 @@
 name: net.pixelpart.core
+aliases: []
 displayName: Pixelpart
 description: Runtime plugin for Pixelpart.
 repoUrl: https://github.com/soeren-m/pixelpart-plugin-unity

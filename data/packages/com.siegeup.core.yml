@@ -1,4 +1,5 @@
 name: com.siegeup.core
+aliases: []
 displayName: SiegeUp.Core
 description: SiegeUp core module includes all base components for construction and
   serializtion of game objects. Useful for modding and utilities.

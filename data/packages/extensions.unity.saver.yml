@@ -1,4 +1,5 @@
 name: extensions.unity.saver
+aliases: []
 displayName: Unity Saver
 description: >-
   Multiplatform encrypted database for Unity. Can be integrated in

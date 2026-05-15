@@ -1,4 +1,5 @@
 name: com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin
+aliases: []
 displayName: PlayerLoopAPI Runner Reflex plugin
 description: PlayerLoop customization API Runner Reflex Plugin
 repoUrl: 'https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin'

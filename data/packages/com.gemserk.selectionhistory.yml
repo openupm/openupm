@@ -1,4 +1,5 @@
 name: com.gemserk.selectionhistory
+aliases: []
 displayName: Selection History by Gemserk
 description: A simple selection history window for Unity.
 repoUrl: 'https://github.com/acoppes/unity-history-window'

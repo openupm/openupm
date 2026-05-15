@@ -1,4 +1,5 @@
 name: dev.auros.auraextensions
+aliases: []
 displayName: AuraExtensions
 description: >-
   Provides useful extensions for common Unity structs like UnityEngine.Vector3

@@ -1,4 +1,5 @@
 name: com.rayleigh.prefab-pool
+aliases: []
 displayName: Prefab Pool
 description: >-
   Efficient and lazy object pool, designed to use with the prefabs referenced by

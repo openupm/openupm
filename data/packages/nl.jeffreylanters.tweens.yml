@@ -1,4 +1,6 @@
 name: nl.jeffreylanters.tweens
+aliases:
+  - nl.elraccoone.tweens
 displayName: Tweens
 description: >-
   An extremely light weight, extendable and customisable tweening engine made

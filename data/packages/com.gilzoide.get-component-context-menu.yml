@@ -1,4 +1,5 @@
 name: com.gilzoide.get-component-context-menu
+aliases: []
 displayName: GetComponent Context Menu
 description: >-
   Context menu items for setting up Component references based on

@@ -1,4 +1,5 @@
 name: com.modernwestern.unity-rest
+aliases: []
 displayName: UnityREST
 description: REST Helper classes to requesting APIs
 repoUrl: https://github.com/ModernWestern/unity.modernwestern.unity-rest-package

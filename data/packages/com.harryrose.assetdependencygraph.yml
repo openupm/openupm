@@ -1,4 +1,5 @@
 name: com.harryrose.assetdependencygraph
+aliases: []
 displayName: Asset Dependency Graph
 description: An Asset Dependency Graph for Unity
 repoUrl: 'https://github.com/Unity-Harry/Unity-AssetDependencyGraph'

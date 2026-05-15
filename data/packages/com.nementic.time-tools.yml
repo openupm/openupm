@@ -1,4 +1,5 @@
 name: com.nementic.time-tools
+aliases: []
 displayName: Time Tools
 description: Utilities for managing game time such as time scale or pausing
 repoUrl: 'https://github.com/nementic-games/time-tools'

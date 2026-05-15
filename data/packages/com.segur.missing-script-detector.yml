@@ -1,4 +1,5 @@
 name: com.segur.missing-script-detector
+aliases: []
 displayName: Missing Script Detector
 description: A Unity Editor tool to detect and remove missing script components from
   GameObjects.

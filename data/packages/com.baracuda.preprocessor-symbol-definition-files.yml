@@ -1,4 +1,5 @@
 name: com.baracuda.preprocessor-symbol-definition-files
+aliases: []
 displayName: Preprocessor Symbol Definition Files
 description: >-
   This package provides an easy way to manage custom #defines in a Unity project

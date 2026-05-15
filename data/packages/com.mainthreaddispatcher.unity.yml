@@ -1,4 +1,5 @@
 name: com.mainthreaddispatcher.unity
+aliases: []
 displayName: Unity Main Thread Dispatcher
 description: Main thread dispatcher implementation for unity
 repoUrl: 'https://github.com/KuraiAndras/MainThreadDispatcher'

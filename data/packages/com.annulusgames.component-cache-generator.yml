@@ -1,4 +1,5 @@
 name: com.annulusgames.component-cache-generator
+aliases: []
 displayName: Component Cache Generator
 description: >-
   A source generator that automatically generates a cache of components for

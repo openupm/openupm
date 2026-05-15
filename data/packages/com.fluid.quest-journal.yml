@@ -1,4 +1,5 @@
 name: com.fluid.quest-journal
+aliases: []
 displayName: Unity Quest Journal
 description: >-
   A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and

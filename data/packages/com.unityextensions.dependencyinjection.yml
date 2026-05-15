@@ -1,4 +1,5 @@
 name: com.unityextensions.dependencyinjection
+aliases: []
 displayName: UnityExtensions.DependencyInjection
 description: ''
 repoUrl: 'https://github.com/KuraiAndras/UnityExtensions.DependencyInjection'

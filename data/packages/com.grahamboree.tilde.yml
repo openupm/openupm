@@ -1,4 +1,5 @@
 name: com.grahamboree.tilde
+aliases: []
 displayName: tilde
 description: A remote developer console for Unity
 repoUrl: 'https://github.com/grahamboree/tilde'

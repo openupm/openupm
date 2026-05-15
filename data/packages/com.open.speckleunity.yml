@@ -1,4 +1,5 @@
 name: com.open.speckleunity
+aliases: []
 displayName: SpeckleUnity
 description: Stream live 3D data into Unity with the open data platform for BIM - Speckle!
 repoUrl: 'https://github.com/speckleworks/SpeckleUnity'

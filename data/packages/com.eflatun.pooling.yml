@@ -1,4 +1,5 @@
 name: com.eflatun.pooling
+aliases: []
 displayName: Eflatun.Pooling
 description: Object pooling utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Pooling'

@@ -1,4 +1,5 @@
 name: com.watanabe-koya.graphicscapture
+aliases: []
 displayName: GraphicsCapture
 description: >-
   An utility to get window/monitor image as Texture2D through WinRT

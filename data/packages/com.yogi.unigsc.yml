@@ -1,4 +1,5 @@
 name: com.yogi.unigsc
+aliases: []
 displayName: UniGSC
 description: >-
   Loads data from Google sheets of any structure into Unity and parses it into a

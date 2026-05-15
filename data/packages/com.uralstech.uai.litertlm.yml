@@ -1,4 +1,5 @@
 name: com.uralstech.uai.litertlm
+aliases: []
 displayName: UAI.LiteRTLM
 description: >-
   LiteRT-LM model inference support for Unity Android and Meta Quest apps.

@@ -1,4 +1,5 @@
 name: com.bennykok.hierarchy-header
+aliases: []
 displayName: Hierarchy Header
 description: 'Text based simple hierarchy header, no fancy magic, just works'
 repoUrl: 'https://github.com/BennyKok/unity-hierarchy-header'

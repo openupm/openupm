@@ -1,4 +1,5 @@
 name: com.beatwaves.responsible
+aliases: []
 displayName: Responsible
 description: Reactive asynchronous automated testing utility for Unity
 repoUrl: 'https://github.com/sbergen/Responsible'

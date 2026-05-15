@@ -1,4 +1,5 @@
 name: com.peturdarri.generic-event-bus
+aliases: []
 displayName: GenericEventBus
 description: >-
   A synchronous event bus for Unity, using strictly typed events and generics to

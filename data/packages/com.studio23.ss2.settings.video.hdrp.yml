@@ -1,4 +1,5 @@
 name: com.studio23.ss2.settings.video.hdrp
+aliases: []
 displayName: Video Setting - HDRP
 description: This is an video setting for HDRP. Used for in-game display and graphics
   settings.

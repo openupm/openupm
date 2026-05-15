@@ -1,4 +1,5 @@
 name: com.mazemodels.testingtoolkit
+aliases: []
 displayName: Testing Toolkit
 description: >-
   A lightweight package containing reusable test utilities and wrappers for

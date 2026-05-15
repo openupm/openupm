@@ -1,4 +1,5 @@
 name: com.tratteo.gibframe
+aliases: []
 displayName: GibFrame
 description: The Unity framework for gibbon coders
 repoUrl: 'https://github.com/tratteo/GibFrame'

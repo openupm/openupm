@@ -1,4 +1,5 @@
 name: com.virgis.gdal
+aliases: []
 displayName: Gdal
 description: Unity Package for GDAL
 repoUrl: 'https://github.com/ViRGIS-Team/gdal-upm'

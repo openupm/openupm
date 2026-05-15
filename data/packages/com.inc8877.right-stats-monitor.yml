@@ -1,4 +1,5 @@
 name: com.inc8877.right-stats-monitor
+aliases: []
 displayName: RightStatsMonitor
 description: Useful tool for displaying FPS with high precision. GC free
 repoUrl: 'https://github.com/inc8877/RightStatsMonitor'

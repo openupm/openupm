@@ -1,4 +1,5 @@
 name: de.thryrallo.vrc.avatar-performance-tools
+aliases: []
 displayName: Thry's Avatar Performance Tools
 description: "Calculated and evaluates some avatar metric not currently taking into account by vrchats ranking system.\r\n\nMost prominently gives a breakdown over VRAM usage of different parts of the avatar."
 repoUrl: 'https://github.com/Thryrallo/VRC-Avatar-Performance-Tools'

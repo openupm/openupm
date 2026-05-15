@@ -1,4 +1,5 @@
 name: com.trove.statemachines
+aliases: []
 displayName: Trove State Machines
 description: Trove State Machines provides templates for state machines in DOTS
 repoUrl: https://github.com/PhilSA/Trove

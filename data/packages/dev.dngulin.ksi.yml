@@ -1,4 +1,5 @@
 name: dev.dngulin.ksi
+aliases: []
 displayName: Ksi-Framework for Unity DOTS
 description: This package provides data oriented design framework for Unity DOTS
 repoUrl: https://github.com/dngulin/ksi

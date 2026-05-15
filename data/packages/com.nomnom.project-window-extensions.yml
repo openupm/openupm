@@ -1,4 +1,5 @@
 name: com.nomnom.project-window-extensions
+aliases: []
 displayName: Project Window Extensions
 description: This aims to improve the usability of the project window.
 repoUrl: 'https://github.com/nomnomab/Project-Window-Extensions'

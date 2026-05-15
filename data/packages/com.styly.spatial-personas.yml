@@ -1,4 +1,5 @@
 name: com.styly.spatial-personas
+aliases: []
 displayName: Spatial Personas on Unity
 description: This package makes it easy to use Spatial Personas and Shareplay on Unity
 repoUrl: https://github.com/DglyP/SpatialPersonasUPM

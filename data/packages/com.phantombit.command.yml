@@ -1,4 +1,5 @@
 name: com.phantombit.command
+aliases: []
 displayName: .Command
 description: >-
   A powerful in-game command console and log viewer for Unity. View logs,

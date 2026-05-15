@@ -1,4 +1,5 @@
 name: com.holyshovelsoft.opensource.log4uni
+aliases: []
 displayName: log4uni
 description: log4net wrapper and UnityEngine.Debug appender for Unity.
 repoUrl: 'https://github.com/HolyShovelSoft/log4uni'

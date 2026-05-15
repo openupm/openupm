@@ -1,4 +1,5 @@
 name: com.realitytoolkit.metaplatform
+aliases: []
 displayName: RealityToolkit.MetaPlatform
 description: The Meta platform components for the Reality Toolkit. This package enables your Reality Toolkit based project to run on Meta devices
 repoUrl: 'https://github.com/realitycollective/com.realitytoolkit.metaplatform'

@@ -1,4 +1,5 @@
 name: com.dre0dru.localstorage
+aliases: []
 displayName: Local Storage
 description: Utility classes for managing local data saved on device
 repoUrl: 'https://github.com/dre0dru/LocalStorage'

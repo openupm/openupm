@@ -1,4 +1,5 @@
 name: com.hww.xijson
+aliases: []
 displayName: XiJSON
 description: 'XiJSON, is a simple serialization for Unity.'
 repoUrl: 'https://github.com/hww/XiJSON'

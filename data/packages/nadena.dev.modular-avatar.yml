@@ -1,4 +1,5 @@
 name: nadena.dev.modular-avatar
+aliases: []
 displayName: Modular Avatar
 description: A suite of tools for assembling your avatar out of reusable components
 repoUrl: 'https://github.com/bdunderscore/modular-avatar'

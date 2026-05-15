@@ -1,4 +1,5 @@
 name: com.coffee.open-sesame-compiler
+aliases: []
 displayName: Open Sesame Compiler
 description: >-
   A Roslyn compiler to access internals/privates for Unity. In other words, you

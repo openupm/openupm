@@ -1,4 +1,5 @@
 name: com.medallyon.savemanager
+aliases: []
 displayName: SaveManager
 description: A custom Unity SaveManager that allows easy saving & loading of Variables
   in any of your Scripts.

@@ -1,4 +1,5 @@
 name: com.twinfaerie.objectspawnerpool
+aliases: []
 displayName: TwinFaerie Object-Spawner-Pool
 description: For standarize and easier system initialization on unity
 repoUrl: https://github.com/TwinFaerie/twinfaerie-objectspawnerpool

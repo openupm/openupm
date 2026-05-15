@@ -1,4 +1,5 @@
 name: com.kekchpek.umvvm
+aliases: []
 displayName: UnityMvvm
 description: The MVVM pattern core implemented for Unity3d
 repoUrl: https://github.com/kekchpek/UnityMVVM

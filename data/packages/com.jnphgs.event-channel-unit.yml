@@ -1,4 +1,5 @@
 name: com.jnphgs.event-channel-unit
+aliases: []
 displayName: Event Channel Unit
 description: EventUnit for Event Channel
 repoUrl: https://github.com/jnphgs/EventChannelUnit

@@ -1,4 +1,5 @@
 name: com.rest.huggingface
+aliases: []
 displayName: HuggingFace
 description: A Non-Official HuggingFace Rest Client for Unity (UPM)
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.huggingface'

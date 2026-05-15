@@ -1,4 +1,5 @@
 name: com.srcnalt.openai-unity
+aliases: []
 displayName: OpenAI Unity
 description: >-
   An unofficial OpenAI Unity Package that aims to help you use OpenAI API

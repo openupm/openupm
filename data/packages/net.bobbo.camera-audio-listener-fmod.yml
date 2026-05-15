@@ -1,4 +1,5 @@
 name: net.bobbo.camera-audio-listener-fmod
+aliases: []
 displayName: Camera Audio Listener FMOD
 description: Audio, for the Camera - with FMOD!
 repoUrl: https://github.com/BOBBO-NET/netengine4

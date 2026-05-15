@@ -1,4 +1,5 @@
 name: com.marijnzwemmer.unity-toolbar-extender
+aliases: []
 displayName: Toolbar Extender
 description: Extend the Unity Toolbar with your own Editor UI code.
 repoUrl: 'https://github.com/marijnz/unity-toolbar-extender'

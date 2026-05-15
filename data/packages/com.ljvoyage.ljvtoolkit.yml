@@ -1,4 +1,5 @@
 name: com.ljvoyage.ljvtoolkit
+aliases: []
 displayName: LJVoyage Toolkit
 description: A collection of Unity utility functions and extensions.
 repoUrl: https://github.com/LJVoyage/LJVToolkit

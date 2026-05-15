@@ -1,4 +1,6 @@
 name: be.elab.jimmyscreamfps
+aliases:
+  - be.eloistree.jimmyscreamfps
 displayName: Jimmy Scream FPS
 description: >-
   This tool allows you to see and hear your game scream when FPS are under 55-66

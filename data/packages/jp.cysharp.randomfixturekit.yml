@@ -1,4 +1,5 @@
 name: jp.cysharp.randomfixturekit
+aliases: []
 displayName: RandomFixtureKit
 description: >-
   Fill random/edge-case value to target type for unit testing, supports both

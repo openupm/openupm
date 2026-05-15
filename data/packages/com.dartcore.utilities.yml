@@ -1,4 +1,5 @@
 name: com.dartcore.utilities
+aliases: []
 displayName: DartCore Utilities
 description: This package contains methods to handle commonly required stuff.
 repoUrl: 'https://github.com/AtaTrkgl/DartCore-Utilities'

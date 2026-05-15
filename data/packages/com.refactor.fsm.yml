@@ -1,4 +1,5 @@
 name: com.refactor.fsm
+aliases: []
 displayName: Refactor Fsm
 description: "有限状态机."
 repoUrl: https://github.com/refactor-op/com.refactor.fsm

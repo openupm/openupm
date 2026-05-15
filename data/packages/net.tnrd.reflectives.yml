@@ -1,4 +1,5 @@
 name: net.tnrd.reflectives
+aliases: []
 displayName: Reflectives
 description: A set of utility classes to make it easier to access hidden functionality
 repoUrl: 'https://github.com/Thundernerd/Unity3D-Reflectives'

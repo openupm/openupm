@@ -1,4 +1,5 @@
 name: com.yasirkula.driveintegration
+aliases: []
 displayName: Google Drive Integration for Unity Editor
 description: >-
   This plugin helps you access your Google Drive files from within Unity editor.

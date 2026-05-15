@@ -1,4 +1,5 @@
 name: com.careboo.burst-delegates
+aliases: []
 displayName: Burst.Delegates
 description: ValueFuncs and ValueActions that are burst compatible
 repoUrl: 'https://github.com/CareBoo/Burst.Delegates'

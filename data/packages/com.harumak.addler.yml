@@ -1,4 +1,5 @@
 name: com.harumak.addler
+aliases: []
 displayName: Addler
 description: 'Preloading, Pooling, Lifetime Management for Unity Addressable Asset System.'
 repoUrl: 'https://github.com/Haruma-K/Addler'

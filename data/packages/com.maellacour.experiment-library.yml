@@ -1,4 +1,5 @@
 name: com.maellacour.experiment-library
+aliases: []
 displayName: Experiment Library
 description: >-
   A library to easily build experiment applications, and manage the inputs and

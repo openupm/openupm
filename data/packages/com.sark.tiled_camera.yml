@@ -1,4 +1,5 @@
 name: com.sark.tiled_camera
+aliases: []
 displayName: Tiled Camera
 description: A simple utility for rendering a pixel perfect viewport in terms of "tiles".
 repoUrl: 'https://github.com/sarkahn/tiled_camera'

@@ -1,4 +1,5 @@
 name: net.bobbo.fmod-reverb-manager
+aliases: []
 displayName: FMOD Reverb Manager
 description: Allows for managing basic FMOD reverb settings
 repoUrl: https://github.com/BOBBO-NET/netengine4

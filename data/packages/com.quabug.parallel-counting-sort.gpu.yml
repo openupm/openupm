@@ -1,4 +1,5 @@
 name: com.quabug.parallel-counting-sort.gpu
+aliases: []
 displayName: Parallel Counting Sort (Compute Shader)
 description: Parallel Counting Sort (Compute Shader)
 repoUrl: 'https://github.com/quabug/parallel-counting-sort'

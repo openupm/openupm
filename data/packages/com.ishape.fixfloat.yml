@@ -1,4 +1,5 @@
 name: com.ishape.fixfloat
+aliases: []
 displayName: iShape.FixFloat
 description: A lightweight library to do fixed-point math.
 repoUrl: https://github.com/iShapeUnity/FixFloat

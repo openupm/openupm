@@ -1,4 +1,5 @@
 name: com.annulusgames.u-pools
+aliases: []
 displayName: uPools
 description: Object Pooling for Unity
 repoUrl: https://github.com/AnnulusGames/uPools

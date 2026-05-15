@@ -1,4 +1,5 @@
 name: com.laurenth.lightingtools-lightmapswitcher
+aliases: []
 displayName: Lightmap Switcher
 description: Allows you to switch lightmaps at runtime.
 repoUrl: 'https://github.com/laurenth-personal/lightmap-switching-tool'

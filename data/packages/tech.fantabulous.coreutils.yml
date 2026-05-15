@@ -1,4 +1,5 @@
 name: tech.fantabulous.coreutils
+aliases: []
 displayName: CoreUtils
 description: Structural systems and tools that make using Unity easier and more productive.
 repoUrl: 'https://github.com/fantabulous-tech/coreutils'

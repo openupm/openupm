@@ -1,4 +1,5 @@
 name: com.jasonxudeveloper.jengine.core
+aliases: []
 displayName: JEngine.Core
 description: The solution that allows unity games update in runtime.
 repoUrl: https://github.com/JasonXuDeveloper/JEngine

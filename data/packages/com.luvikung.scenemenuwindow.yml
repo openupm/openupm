@@ -1,4 +1,5 @@
 name: com.luvikung.scenemenuwindow
+aliases: []
 displayName: Scene Menu Window for Unity
 description: >-
   This is plugin that will add new window for switch scene easier with load

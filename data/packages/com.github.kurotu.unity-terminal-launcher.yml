@@ -1,4 +1,5 @@
 name: com.github.kurotu.unity-terminal-launcher
+aliases: []
 displayName: Unity Terminal Launcher
 description: Add "Open Terminal Here" context menu for Unity
 repoUrl: https://github.com/kurotu/UnityTerminalLauncher

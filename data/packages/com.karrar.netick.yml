@@ -1,4 +1,5 @@
 name: com.karrar.netick
+aliases: []
 displayName: Netick
 description: A networking solution for Unity
 repoUrl: https://github.com/NetickNetworking/NetickForUnity

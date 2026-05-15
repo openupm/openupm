@@ -1,4 +1,5 @@
 name: com.palapalco.issue_console
+aliases: []
 displayName: Palapal Issue Console
 description: >-
   Lightweight Issue Console for capturing and resolving project-specific issues

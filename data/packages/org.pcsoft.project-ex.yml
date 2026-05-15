@@ -1,4 +1,5 @@
 name: org.pcsoft.project-ex
+aliases: []
 displayName: Project Extension for Unity
 description: Extension for Unity for better project handling.
 repoUrl: 'https://github.com/KleinerHacker/unity-project-ex'

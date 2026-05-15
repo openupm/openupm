@@ -1,4 +1,5 @@
 name: net.tnrd.unitysteer
+aliases: []
 displayName: Unity Steer
 description: >-
   Steering, obstacle avoidance and path following behaviors for the Unity Game

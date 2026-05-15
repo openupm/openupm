@@ -1,4 +1,5 @@
 name: games.carter.savemanager
+aliases: []
 displayName: Save Manager
 description: >-
   A free, scriptable object based, local save system for Unity. Works on all

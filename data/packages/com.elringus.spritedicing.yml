@@ -1,4 +1,5 @@
 name: com.elringus.spritedicing
+aliases: []
 displayName: SpriteDicing
 description: Unity extension for reusing sprite texture areas
 repoUrl: 'https://github.com/Elringus/SpriteDicing'

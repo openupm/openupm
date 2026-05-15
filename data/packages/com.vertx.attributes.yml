@@ -1,4 +1,5 @@
 name: com.vertx.attributes
+aliases: []
 displayName: Attributes
 description: Attributes and Property Drawers/Decorators for Unity.
 repoUrl: 'https://github.com/vertxxyz/Vertx.Attributes'
