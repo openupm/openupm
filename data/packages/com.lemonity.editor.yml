@@ -1,4 +1,5 @@
 name: com.lemonity.editor
+aliases: []
 displayName: Lemonity Editor
 description: Unity Editor integration for Lemonity hand tracking navigation.
 repoUrl: https://github.com/zorderjohn/lemonity
