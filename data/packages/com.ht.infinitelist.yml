@@ -1,0 +1,17 @@
+name: com.ht.infinitelist
+displayName: HT Infinitelist
+description: An infinite list scrolling view based on Unity's UGUI.
+repoUrl: https://github.com/FantasyJony/InfiniteList
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: FantasyJony
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1778840428737
