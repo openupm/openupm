@@ -1,4 +1,5 @@
 name: com.vertx.utilities
+aliases: []
 displayName: Utilities
 description: General Utilities for Unity.
 repoUrl: 'https://github.com/vertxxyz/Vertx.Utilities'

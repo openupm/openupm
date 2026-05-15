@@ -1,4 +1,5 @@
 name: de.jochenheckl.unity.databinding
+aliases: []
 displayName: Data Binding
 description: >-
   Data binding for Unity gameobjects. If you like MVVM User Interfaces, this is

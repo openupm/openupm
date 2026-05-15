@@ -1,4 +1,5 @@
 name: games.javier.upm.bricksbucket.web.zeplin
+aliases: []
 displayName: Zeplin for Unity
 description: Bucket to interact with the Zeplin API.
 repoUrl: https://github.com/javier-games/upm-zeplin

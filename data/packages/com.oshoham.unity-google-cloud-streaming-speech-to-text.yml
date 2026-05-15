@@ -1,4 +1,5 @@
 name: com.oshoham.unity-google-cloud-streaming-speech-to-text
+aliases: []
 displayName: Google Cloud Streaming Speech-to-Text
 description: >-
   A Unity plugin for real-time, indefinite speech-to-text transcription from a

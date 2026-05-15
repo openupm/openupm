@@ -1,4 +1,5 @@
 name: com.bl.gameflow
+aliases: []
 displayName: GameFlow-Toolkit
 description: A Lightweight Flow-Control Toolkit for Gameplay.
 repoUrl: 'https://github.com/balloonfishmollusc/gameflow-toolkit'

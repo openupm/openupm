@@ -1,4 +1,5 @@
 name: com.gilzoide.enum-bitset
+aliases: []
 displayName: Enum BitSet
 description: >-
   Fast and memory efficient implementation of C#'s ISet for enums, storing data

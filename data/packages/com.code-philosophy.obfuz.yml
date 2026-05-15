@@ -1,4 +1,5 @@
 name: com.code-philosophy.obfuz
+aliases: []
 displayName: Obfuz
 description: >-
   Obfuz is an open-source Unity code obfuscation tool designed to provide Unity

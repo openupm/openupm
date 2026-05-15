@@ -1,4 +1,5 @@
 name: br.com.expressobits.inventories
+aliases: []
 displayName: EB Inventories
 description: Inventory system for unity
 repoUrl: 'https://github.com/ExpressoBits/Inventories'

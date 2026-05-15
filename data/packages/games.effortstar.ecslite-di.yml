@@ -1,4 +1,5 @@
 name: games.effortstar.ecslite-di
+aliases: []
 displayName: LeoECS Lite DI
 description: Dependency injection for LeoECS Lite
 repoUrl: https://github.com/EffortStar/ecslite-di

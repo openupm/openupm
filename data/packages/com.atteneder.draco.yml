@@ -1,4 +1,5 @@
 name: com.atteneder.draco
+aliases: []
 displayName: Draco 3D Data Compression
 description: Draco 3D Data Compression Unity Package
 repoUrl: 'https://github.com/atteneder/DracoUnity'

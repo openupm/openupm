@@ -1,4 +1,5 @@
 name: com.ciro.scriptable-object-tools
+aliases: []
 displayName: Scriptable Object Tools
 description: Useful tools based on Scriptable Objects
 repoUrl: 'https://github.com/ccontinisio/so-tools'

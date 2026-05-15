@@ -1,4 +1,5 @@
 name: com.zallist.universal-shadergraph-extensions
+aliases: []
 displayName: Universal Simple Lit ShaderGraph Target
 description: This plugin simply adds a Simple Lit material (SubTarget) to the Universal
   target for Shader Graph

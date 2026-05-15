@@ -1,4 +1,5 @@
 name: io.chainsafe.web3-unity.lootboxes
+aliases: []
 displayName: web3.unity SDK Lootboxes
 description: This additional package provides you with sample scene and sample scripts
   for opening lootboxes of various types

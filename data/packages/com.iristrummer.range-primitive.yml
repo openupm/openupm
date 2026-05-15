@@ -1,4 +1,5 @@
 name: com.iristrummer.range-primitive
+aliases: []
 displayName: Range Primitive
 description: A primitive type for creating ranges of values in Unity
 repoUrl: https://github.com/IrisTrummer/Range-Primitive-Unity3D

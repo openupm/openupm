@@ -1,4 +1,5 @@
 name: com.beardphantom.persist
+aliases: []
 displayName: Persist
 description: >-
   A seamless way to uniquely identify scene components and save/load their state

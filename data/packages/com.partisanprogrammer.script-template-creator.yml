@@ -1,4 +1,5 @@
 name: com.partisanprogrammer.script-template-creator
+aliases: []
 displayName: Script-Template-Creator
 description: >-
   Base Package that allows for Script Generation from Templates. Each package

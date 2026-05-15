@@ -1,4 +1,5 @@
 name: com.kandreyc.unity-csharp-patch
+aliases: []
 displayName: Unity CSharp Patch
 description: >-
   Package allows to set custom (newer) version of C# per AssemblyDefinition

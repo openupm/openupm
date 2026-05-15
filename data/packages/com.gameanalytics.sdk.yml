@@ -1,4 +1,5 @@
 name: com.gameanalytics.sdk
+aliases: []
 displayName: GameAnalytics
 description: >-
   GameAnalytics collects and stores your data with no limits.  You can then view

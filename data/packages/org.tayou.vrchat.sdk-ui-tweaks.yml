@@ -1,4 +1,5 @@
 name: org.tayou.vrchat.sdk-ui-tweaks
+aliases: []
 displayName: VSUT - VRChat SDK UI Tweaks
 description: This package is a collection of harmony and reflection based patches
   for the VRChat SDK

@@ -1,4 +1,5 @@
 name: com.annulusgames.debug-ui
+aliases: []
 displayName: Debug UI
 description: A framework for building debugging tools built on Unity UI Toolkit.
 repoUrl: https://github.com/AnnulusGames/DebugUI

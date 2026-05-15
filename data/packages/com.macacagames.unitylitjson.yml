@@ -1,4 +1,5 @@
 name: com.macacagames.unitylitjson
+aliases: []
 displayName: UnityLitJson
 description: 'Macaca Modified UnityLitJson, forked from Mervill/UnityLitJson'
 repoUrl: 'https://github.com/MacacaGames/UnityLitJson'

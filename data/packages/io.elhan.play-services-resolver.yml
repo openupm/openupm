@@ -1,4 +1,5 @@
 name: io.elhan.play-services-resolver
+aliases: []
 displayName: Play Services Resolver (Unofficial)
 description: Packaged version of Google Play Services Resolver for Unity
 repoUrl: 'https://github.com/oae/unity-package-play-services-resolver'

@@ -1,4 +1,5 @@
 name: com.uralstech.uxr.questcamera
+aliases: []
 displayName: UXR.QuestCamera
 description: A Unity package to use the new Meta Quest Passthrough Camera API.
 repoUrl: https://github.com/Uralstech/UXR.QuestCamera

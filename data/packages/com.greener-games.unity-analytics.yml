@@ -1,4 +1,6 @@
 name: com.greener-games.unity-analytics
+aliases:
+  - com.gg.unity-analytics
 displayName: Google Analytics
 description: Fork of googles v4 analytics updated for unity
 repoUrl: 'https://github.com/Reddevildragg-UPM-Forks/google-analytics-plugin-for-unity'

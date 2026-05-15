@@ -1,4 +1,5 @@
 name: com.fredericrp.unitypackagetool
+aliases: []
 displayName: FredericRP Unity Package Tool
 description: Update package.json file to match Assembly definition references
 repoUrl: 'https://github.com/FredericRP/UnityPackageTool'

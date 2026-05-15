@@ -1,4 +1,5 @@
 name: com.mackysoft.vision
+aliases: []
 displayName: Vision
 description: CullingGroup API for everyone.
 repoUrl: 'https://github.com/mackysoft/Vision'

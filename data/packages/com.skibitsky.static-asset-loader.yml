@@ -1,4 +1,5 @@
 name: com.skibitsky.static-asset-loader
+aliases: []
 displayName: Static Asset Loader
 description: Load asset from any project directory by type
 repoUrl: 'https://github.com/skibitsky/static-asset-loader'

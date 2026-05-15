@@ -1,4 +1,5 @@
 name: com.moroshka.instance-provider
+aliases: []
 displayName: Moroshka.InstanceProvider
 description: >-
   `InstanceProvider` is designed to manage a single instance of an object. It

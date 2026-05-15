@@ -1,4 +1,5 @@
 name: com.macacagames.adfactory
+aliases: []
 displayName: Macaca AdFactory
 description: A withdrawable Ad service API wrapper
 repoUrl: 'https://github.com/MacacaGames/AdFactory'

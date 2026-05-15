@@ -1,4 +1,6 @@
 name: com.hryooba.tuio
+aliases:
+  - com.hryooba.library.tuio
 displayName: HRYooba.TUIO
 description: |-
   Unity HRYooba Library

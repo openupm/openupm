@@ -1,4 +1,5 @@
 name: com.openugd.ecs
+aliases: []
 displayName: ECS
 description: ECS Entity Component System
 repoUrl: https://github.com/openugd/upm-ecs

@@ -1,4 +1,5 @@
 name: com.looooong.srp.vxgi
+aliases: []
 displayName: Voxel-based Global Illumination
 description: Voxel-based Global Illumination using Unity Scriptable Render Pipeline
 repoUrl: 'https://github.com/Looooong/Unity-SRP-VXGI'

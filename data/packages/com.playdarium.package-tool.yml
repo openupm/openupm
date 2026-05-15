@@ -1,4 +1,5 @@
 name: com.playdarium.package-tool
+aliases: []
 displayName: Package Tool
 description: Tool for create unity packages
 repoUrl: https://github.com/playdarium/package-tool

@@ -1,4 +1,5 @@
 name: com.realitygames.addressablesloader
+aliases: []
 displayName: AddressablesLoader
 description: Wrapper for Addressables
 repoUrl: https://github.com/RealityGamesLtd/addressables-loader

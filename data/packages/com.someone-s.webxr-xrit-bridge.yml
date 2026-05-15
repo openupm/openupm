@@ -1,4 +1,5 @@
 name: com.someone-s.webxr-xrit-bridge
+aliases: []
 displayName: WebXR Export to XR Interaction Toolkit Bridge
 description: >-
   Package to correspond values from De-Panther's unity-webxr-export to

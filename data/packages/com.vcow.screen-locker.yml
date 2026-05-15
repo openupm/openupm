@@ -1,4 +1,5 @@
 name: com.vcow.screen-locker
+aliases: []
 displayName: Screen Locker
 description: >-
   A simple manager of lock screens that are used to block user input and hide

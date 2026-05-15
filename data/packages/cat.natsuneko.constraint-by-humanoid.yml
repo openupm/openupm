@@ -1,4 +1,5 @@
 name: cat.natsuneko.constraint-by-humanoid
+aliases: []
 displayName: Constraint by Humanoid
 description: >-
   A Unity editor extension that configures IConstraint component based on Unity

@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.assetregulationmanager
+aliases: []
 displayName: Asset Regulation Manager
 description: Tool for Unity to create and run tests of Asset Regulations (texture
   size, number of vertices, etc.), and automate running.

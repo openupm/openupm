@@ -1,4 +1,5 @@
 name: com.hgs.grid
+aliases: []
 displayName: HGS Grid
 description: Grid System with Cube Coordinates
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-grid'

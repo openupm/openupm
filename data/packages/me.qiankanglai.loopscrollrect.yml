@@ -1,4 +1,5 @@
 name: me.qiankanglai.loopscrollrect
+aliases: []
 displayName: LoopScrollRect
 description: make your ScrollRect `Reusable`
 repoUrl: 'https://github.com/qiankanglai/LoopScrollRect'

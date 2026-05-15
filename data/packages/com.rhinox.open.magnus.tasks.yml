@@ -1,4 +1,5 @@
 name: com.rhinox.open.magnus.tasks
+aliases: []
 displayName: Magnus.Tasks - Task System Integration
 description: Flexible and Procedural Task System with Editor for Unity
 repoUrl: 'https://github.com/Rhinox-Training/magnus-tasks'

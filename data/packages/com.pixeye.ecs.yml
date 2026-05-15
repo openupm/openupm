@@ -1,4 +1,5 @@
 name: com.pixeye.ecs
+aliases: []
 displayName: Actors
 description: >-
   The Entity Component System framework for Unity. Ease the pain of decoupling

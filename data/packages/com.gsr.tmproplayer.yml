@@ -1,4 +1,5 @@
 name: com.gsr.tmproplayer
+aliases: []
 displayName: TMPro Player
 description: "Custom Rich Text Tag Plugin Based on TextMeshPro"
 repoUrl: 'https://github.com/Giresharu/TMPro-Player'

@@ -1,4 +1,6 @@
 name: com.ltmx.unity.package-manager.tools
+aliases:
+  - com.ltmx.package-manager.tools
 displayName: Unity Package Manager Tools
 description: Enhancements for Unity's Package Manager
 repoUrl: https://github.com/ltmx/Unity.PackageManagerTools

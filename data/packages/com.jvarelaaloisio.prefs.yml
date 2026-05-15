@@ -1,4 +1,5 @@
 name: com.jvarelaaloisio.prefs
+aliases: []
 displayName: Pref Units
 description: >-
   A simple extension on Unity's prefs system that allows for easier control and

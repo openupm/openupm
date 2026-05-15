@@ -1,4 +1,5 @@
 name: com.jvarelaaloisio.health
+aliases: []
 displayName: Health System
 description: Basic health system unit-tested to provide a bug-free quick implementation
 repoUrl: https://github.com/jvarelaaloisio/HealthSystem-UnityPackage

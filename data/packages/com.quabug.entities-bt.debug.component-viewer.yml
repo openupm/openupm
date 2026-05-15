@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.debug.component-viewer
+aliases: []
 displayName: EntitiesBT - Component Debug Viewer
 description: Behavior Tree for Unity Entities - Component Debug Viewer
 repoUrl: 'https://github.com/quabug/EntitiesBT'

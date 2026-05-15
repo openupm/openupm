@@ -1,4 +1,5 @@
 name: com.edgegap.unity-servers-plugin
+aliases: []
 displayName: Edgegap Servers Quickstart
 description: Get started quickly with Edgegap Dedicated Server hosting.
 repoUrl: https://github.com/edgegap/edgegap-unity-plugin

@@ -1,4 +1,5 @@
 name: com.bustedbunny.mvvmtoolkit
+aliases: []
 displayName: Model-View-ViewModel Toolkit
 description: This package brings MVVM to Unity UI Toolkit.
 repoUrl: 'https://github.com/bustedbunny/com.bustedbunny.mvvmtoolkit'

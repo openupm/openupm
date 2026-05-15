@@ -1,4 +1,5 @@
 name: eu.netherlands3d.poly2tri
+aliases: []
 displayName: poly2tri
 description: 'Unity Package version of the poly2tri library: https://github.com/Unity-Technologies/poly2tri-cs'
 repoUrl: https://github.com/Netherlands3D/poly2tri

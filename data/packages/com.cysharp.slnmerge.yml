@@ -1,4 +1,5 @@
 name: com.cysharp.slnmerge
+aliases: []
 displayName: SlnMerge
 description: >-
   SlnMerge merges the solution files when generating solution file by Unity

@@ -1,4 +1,5 @@
 name: com.sschmid.jenny.plugins.unity
+aliases: []
 displayName: Jenny.Plugins.Unity
 description: A lovely .NET Code Generator
 repoUrl: 'https://github.com/sschmid/com.sschmid.jenny'

@@ -1,4 +1,5 @@
 name: com.jerbo.inspector
+aliases: []
 displayName: Inspector Tools
 description: A collection of tools for making the workflow in the inspector better.
 repoUrl: https://github.com/tomjerbo/Inspector

@@ -1,4 +1,5 @@
 name: com.bencochoco.smc
+aliases: []
 displayName: Simple Menu Controller
 description: >-
   A simple menu controller for Unity that let you Open and Close easily your

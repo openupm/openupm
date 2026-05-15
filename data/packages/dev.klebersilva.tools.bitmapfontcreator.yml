@@ -1,4 +1,5 @@
 name: dev.klebersilva.tools.bitmapfontcreator
+aliases: []
 displayName: Bitmap Font Creator
 description: >-
   A simple tool to create bitmap fonts from a texture sprite sheet to be used

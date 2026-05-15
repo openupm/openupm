@@ -1,4 +1,5 @@
 name: com.grimbarinteractive.unity-events
+aliases: []
 displayName: Unity Events
 description: Event scriptable objects and listeners.
 repoUrl: https://github.com/Grimbar-Interactive/unity-events

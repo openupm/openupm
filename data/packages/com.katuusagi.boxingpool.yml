@@ -1,4 +1,5 @@
 name: com.katuusagi.boxingpool
+aliases: []
 displayName: BoxingPool
 description: |-
   A system for pooling boxed objects.

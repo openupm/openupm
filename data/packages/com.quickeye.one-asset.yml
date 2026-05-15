@@ -1,4 +1,5 @@
 name: com.quickeye.one-asset
+aliases: []
 displayName: One Asset
 description: Extended asset loader and the best singleton implementation for Unity.
 repoUrl: 'https://github.com/ErnSur/One-Asset'

@@ -1,4 +1,5 @@
 name: com.vrmc.vrmshaders
+aliases: []
 displayName: VRM Shaders
 description: Unity package that can import and export VRM format
 repoUrl: 'https://github.com/vrm-c/UniVRM'

@@ -1,4 +1,5 @@
 name: com.pspkurara.singleton
+aliases: []
 displayName: Singleton
 description: Supports Unity's simple Singleton Behavior.
 repoUrl: 'https://github.com/pspkurara/singleton'

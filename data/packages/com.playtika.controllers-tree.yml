@@ -1,4 +1,5 @@
 name: com.playtika.controllers-tree
+aliases: []
 displayName: ControllersTree
 description: Framework for organising game logic into scalable, maintainable hierarchies
   of controllers.

@@ -1,4 +1,5 @@
 name: jp.frozenbonito.preview-server
+aliases: []
 displayName: Unity Preview Server for WebGL
 description: Local Preview Server for Unity WebGL
 repoUrl: 'https://github.com/frozenbonito/UnityPreviewServer'

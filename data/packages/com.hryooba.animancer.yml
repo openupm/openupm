@@ -1,4 +1,6 @@
 name: com.hryooba.animancer
+aliases:
+  - com.hryooba.library.animancer
 displayName: HRYooba.Animancer
 description: |-
   Unity HRYooba

@@ -1,4 +1,5 @@
 name: com.brunomikoski.debugpanel
+aliases: []
 displayName: Debug Panel
 description: >-
   Debug Panel is a runtime tool that enables you to expose fields, methods to be

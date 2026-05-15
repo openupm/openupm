@@ -1,4 +1,5 @@
 name: com.ayutaz.upiper
+aliases: []
 displayName: uPiper
 description: >-
   Text-to-Speech plugin for Unity using Piper-Plus TTS engine. Supports Japanese

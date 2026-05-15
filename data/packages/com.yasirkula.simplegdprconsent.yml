@@ -1,4 +1,5 @@
 name: com.yasirkula.simplegdprconsent
+aliases: []
 displayName: Simple GDPR Consent
 description: A Unity plugin to present GDPR consent dialogs to the users
 repoUrl: 'https://github.com/yasirkula/UnitySimpleGDPRConsent'

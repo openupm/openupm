@@ -1,4 +1,5 @@
 name: app.rive.rive-unity
+aliases: []
 displayName: Rive
 description: Create and ship interactive animations to any platform
 repoUrl: https://github.com/rive-app/rive-unity

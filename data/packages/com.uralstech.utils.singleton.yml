@@ -1,4 +1,5 @@
 name: com.uralstech.utils.singleton
+aliases: []
 displayName: Utils.Singleton
 description: >-
   Utils.Singleton: Provides a Unity MonoBehaviour class which makes all

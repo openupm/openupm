@@ -1,4 +1,5 @@
 name: com.realitygames.apiclient
+aliases: []
 displayName: API Client for Unity
 description: 'ApiClient with REST.API & GraphQl support for Unity'
 repoUrl: https://github.com/RealityGamesLtd/api-client-unity

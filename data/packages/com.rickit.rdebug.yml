@@ -1,4 +1,5 @@
 name: com.rickit.rdebug
+aliases: []
 displayName: RicKit RDebug
 description: Debugging tools for RicKit.
 repoUrl: https://github.com/rickytheoldtree/com.rickit.rdebug

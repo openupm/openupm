@@ -1,4 +1,5 @@
 name: com.proyecto26.restclient
+aliases: []
 displayName: RestClient for Unity
 description: "\U0001F984 Simple HTTP and REST client for Unity based on Promises, also supports Callbacks! \U0001F3AE"
 repoUrl: 'https://github.com/proyecto26/RestClient'

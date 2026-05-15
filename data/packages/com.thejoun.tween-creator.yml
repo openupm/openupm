@@ -1,4 +1,5 @@
 name: com.thejoun.tween-creator
+aliases: []
 displayName: Tween Creator
 description: Create and preview composite tweens in the editor
 repoUrl: 'https://github.com/thejoun/tween-creator'

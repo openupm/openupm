@@ -1,4 +1,5 @@
 name: com.lise.client
+aliases: []
 displayName: LiSe Unity Client
 description: Unity Client for LiSe license management
 repoUrl: 'https://github.com/LiSe-Team/LiSe-Unity-Client'

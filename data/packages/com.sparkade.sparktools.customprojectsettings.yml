@@ -1,4 +1,5 @@
 name: com.sparkade.sparktools.customprojectsettings
+aliases: []
 displayName: 'SparkTools: Custom Project Settings'
 description: >-
   Allows for the creation of custom project settings, usable both in the editor

@@ -1,4 +1,5 @@
 name: com.gameframe.gui
+aliases: []
 displayName: Gameframe.GUI
 description: 'UGUI Panel Systems for navigation, animation and more'
 repoUrl: 'https://github.com/coryleach/UnityGUI'

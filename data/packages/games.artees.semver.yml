@@ -1,4 +1,5 @@
 name: games.artees.semver
+aliases: []
 displayName: Unity SemVer
 description: >-
   A convenient way to edit and compare version numbers according to the Semantic

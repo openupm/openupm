@@ -1,4 +1,5 @@
 name: com.roytheunissen.urp-debug-draw-modes
+aliases: []
 displayName: URP Debug Draw Modes
 description: >-
   Adds debug draw modes to let you see gbuffer contents in the scene view like

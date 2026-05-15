@@ -1,4 +1,5 @@
 name: com.yellowsquad.assetpath
+aliases: []
 displayName: Asset Path
 description: >-
   AssetPath provides an AssetPathAttribute. This attribute is used to allow you

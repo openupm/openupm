@@ -1,4 +1,5 @@
 name: com.ambrosia.eventbus
+aliases: []
 displayName: Ambrosia.EventBus
 description: Generic EventBus for Unity.
 repoUrl: 'https://github.com/DuyguYildirim/Ambrosia.EventBus'

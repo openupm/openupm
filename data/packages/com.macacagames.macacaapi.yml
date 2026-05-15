@@ -1,4 +1,5 @@
 name: com.macacagames.macacaapi
+aliases: []
 displayName: Macaca APIs
 description: 'A native API wrapper to some iOS/Android feature e.g. AlertDialog, Toast'
 repoUrl: 'https://github.com/MacacaGames/MacacaAPI'

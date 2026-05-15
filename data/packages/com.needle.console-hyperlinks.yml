@@ -1,4 +1,5 @@
 name: com.needle.console-hyperlinks
+aliases: []
 displayName: Console Hyperlinks
 description: Add support for custom console hyperlinks
 repoUrl: 'https://github.com/needle-tools/console-hyperlinks'

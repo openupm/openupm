@@ -1,4 +1,5 @@
 name: com.pixelwizards.gametimecontroller
+aliases: []
 displayName: PixelWizards - Game Time Controller
 description: Simple Editor window to control game time in the editor
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.gametimecontroller'

@@ -1,4 +1,5 @@
 name: eu.netherlands3d.periodic-snapshots
+aliases: []
 displayName: Netherlands3D - Periodic Snapshots
 description: >-
   This package provides the means to do take a series of snapshots for specific

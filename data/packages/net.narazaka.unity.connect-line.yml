@@ -1,4 +1,5 @@
 name: net.narazaka.unity.connect-line
+aliases: []
 displayName: Connect Line
 description: A straight mesh connecting two points.
 repoUrl: https://github.com/Narazaka/ConnectLine

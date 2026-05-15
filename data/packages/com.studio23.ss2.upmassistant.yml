@@ -1,4 +1,5 @@
 name: com.studio23.ss2.upmassistant
+aliases: []
 displayName: UPM Assistant
 description: >-
   The Unity Package Manager Structure Generator Tool is an editor extension

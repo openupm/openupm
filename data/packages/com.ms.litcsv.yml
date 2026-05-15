@@ -1,4 +1,5 @@
 name: com.ms.litcsv
+aliases: []
 displayName: Lit CSV
 description: LitCSV for Unity
 repoUrl: 'https://github.com/wlgys8/LitCSV'

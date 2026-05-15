@@ -1,4 +1,5 @@
 name: com.reown.core.network
+aliases: []
 displayName: Reown.Core.Network
 description: ''
 repoUrl: https://github.com/reown-com/reown-dotnet

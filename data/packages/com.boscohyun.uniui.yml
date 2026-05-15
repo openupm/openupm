@@ -1,4 +1,5 @@
 name: com.boscohyun.uniui
+aliases: []
 displayName: UniUI
 description: A simple UI management package for Unity.
 repoUrl: 'https://github.com/boscohyun/UniUI'

@@ -1,4 +1,5 @@
 name: com.lacrearthur.facebook-sdk-for-unity
+aliases: []
 displayName: Facebook SDK for Unity (UPM Fork)
 description: >-
   UPM fork of Facebook SDK for Unity v18.0.0. Supports login, sharing, app

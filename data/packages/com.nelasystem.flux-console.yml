@@ -1,4 +1,5 @@
 name: com.nelasystem.flux-console
+aliases: []
 displayName: Flux Console
 description: A minimal runtime console.
 repoUrl: https://github.com/zacx-z/flux-console

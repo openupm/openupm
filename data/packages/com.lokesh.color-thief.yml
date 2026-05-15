@@ -1,4 +1,5 @@
 name: com.lokesh.color-thief
+aliases: []
 displayName: Color Thief
 description: Grab the color palette from an image
 repoUrl: 'https://github.com/needle-tools/ColorThief'

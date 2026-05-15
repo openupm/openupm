@@ -1,4 +1,5 @@
 name: pro.kodep.stator
+aliases: []
 displayName: Stator
 description: "\U0001F489IoC container that uses code generation instead of reflection for managing and resolving dependencies as a basis"
 repoUrl: 'https://github.com/k0dep/stator'

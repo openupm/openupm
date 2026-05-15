@@ -1,4 +1,5 @@
 name: com.gilzoide.managed-jobs
+aliases: []
 displayName: Managed Jobs
 description: Use classes and other managed types with Unity's Job System
 repoUrl: 'https://github.com/gilzoide/unity-managed-jobs'

@@ -1,4 +1,5 @@
 name: net.bobbo.editor.search-window
+aliases: []
 displayName: Editor Search Window
 description: Re-usable search window functionality for the Unity Editor
 repoUrl: https://github.com/BOBBO-NET/netengine4

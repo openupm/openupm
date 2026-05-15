@@ -1,4 +1,5 @@
 name: com.koki-ibukuro.arkitstream
+aliases: []
 displayName: ARKit Stream
 description: AR Foundation Remote Debugging Tool for Unity
 repoUrl: 'https://github.com/asus4/ARKitStreamer'

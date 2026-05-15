@@ -1,4 +1,5 @@
 name: com.aceland.webrequest
+aliases: []
 displayName: AceLand Web Request
 description: AceLand Web Request is a Unity WebRequest implement package.
 repoUrl: https://github.com/parsue/com.aceland.webrequest

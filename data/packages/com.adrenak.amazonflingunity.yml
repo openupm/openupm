@@ -1,4 +1,5 @@
 name: com.adrenak.amazonflingunity
+aliases: []
 displayName: Amazon Fling Unity
 description: >-
   A Unity wrapper over Amazon Fling Android SDK to cast videos to FireTV

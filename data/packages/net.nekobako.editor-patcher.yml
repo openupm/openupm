@@ -1,4 +1,5 @@
 name: net.nekobako.editor-patcher
+aliases: []
 displayName: Editor Patcher
 description: Tools to enhance the Unity Editor
 repoUrl: https://github.com/nekobako/EditorPatcher

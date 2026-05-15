@@ -1,4 +1,5 @@
 name: com.nkstudio.customtemplate.core
+aliases: []
 displayName: CustomTemplate Core
 description: The core of the Unity custom library.
 repoUrl: https://github.com/NK-Studio/CustomTemplate

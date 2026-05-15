@@ -1,4 +1,5 @@
 name: com.aarthificial.reanimation
+aliases: []
 displayName: Reanimation
 description: An alternative animator for Unity tailored for traditional animation
 repoUrl: 'https://github.com/aarthificial/reanimation'

@@ -1,4 +1,5 @@
 name: eu.netherlands3d.minimap
+aliases: []
 displayName: Netherlands3D - Minimap
 description: A unity canvas minimap for WMTS services
 repoUrl: https://github.com/Netherlands3D/Minimap

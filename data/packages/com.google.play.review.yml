@@ -1,4 +1,5 @@
 name: com.google.play.review
+aliases: []
 displayName: Google Play In-app Review
 description: >-
   Play In-App Reviews lets you prompt users to submit Play Store ratings and

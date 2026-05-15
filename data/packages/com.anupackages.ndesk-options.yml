@@ -1,4 +1,5 @@
 name: com.anupackages.ndesk-options
+aliases: []
 displayName: ANU NDesk.Options
 description: >-
   Providing NDesk.Options by ANU because of missing original package in Unity

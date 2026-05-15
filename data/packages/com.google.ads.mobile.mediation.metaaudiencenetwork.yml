@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.metaaudiencenetwork
+aliases: []
 displayName: Google Mobile Ads Meta Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Meta package allows you to load and

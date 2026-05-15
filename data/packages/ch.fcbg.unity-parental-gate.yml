@@ -1,4 +1,5 @@
 name: ch.fcbg.unity-parental-gate
+aliases: []
 displayName: Parental Gate
 description: Parental gate sample for unity
 repoUrl: https://github.com/fcbg-platforms/UnityParentalGate

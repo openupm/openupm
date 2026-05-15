@@ -1,4 +1,5 @@
 name: com.vladfaust.unitywakatime
+aliases: []
 displayName: Unity WakaTime
 description: WakaTime plugin for Unity ⏱
 repoUrl: 'https://github.com/vladfaust/unity-wakatime'

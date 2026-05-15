@@ -1,4 +1,5 @@
 name: be.elab.quickgitutility
+aliases: []
 displayName: Quick Git Utility
 description: Tools to execute git instructions from command line.
 repoUrl: https://github.com/EloiStree/OpenUPM_QuickGitUtility

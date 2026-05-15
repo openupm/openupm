@@ -1,4 +1,5 @@
 name: com.abambini.acciaio
+aliases: []
 displayName: Acciaio
 description: C# library for Unity. It contains various extension methods and serializable
   types to use in editor and at runtime. It also offers an entire architecture to

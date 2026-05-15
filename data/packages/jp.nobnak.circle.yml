@@ -1,4 +1,5 @@
 name: jp.nobnak.circle
+aliases: []
 displayName: Circle Renderer (URP)
 description: >-
   Circle and ring patch mesh with tessellation shaders and GPU instancing for

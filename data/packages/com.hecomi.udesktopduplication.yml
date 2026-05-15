@@ -1,4 +1,5 @@
 name: com.hecomi.udesktopduplication
+aliases: []
 displayName: uDesktopDuplication
 description: Desktop Duplication API implementation for Unity (only for Windows 8/10)
 repoUrl: 'https://github.com/hecomi/uDesktopDuplication'

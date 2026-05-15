@@ -1,4 +1,5 @@
 name: com.nowsprinting.test-helper
+aliases: []
 displayName: Test Helper
 description: Test helper library for Unity Test Framework.
 repoUrl: 'https://github.com/nowsprinting/test-helper'

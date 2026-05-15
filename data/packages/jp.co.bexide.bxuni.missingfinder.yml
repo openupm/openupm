@@ -1,4 +1,5 @@
 name: jp.co.bexide.bxuni.missingfinder
+aliases: []
 displayName: BxUni Missing Finder
 description: Missing Reference detection tool
 repoUrl: https://github.com/bexide/BxUni-MissingFinder

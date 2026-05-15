@@ -1,4 +1,5 @@
 name: ch.fcbg.eye-tracking
+aliases: []
 displayName: Eye Tracking
 description: A library package/framework to build a common base for our experiments
   that use eye tracking.

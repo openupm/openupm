@@ -1,4 +1,5 @@
 name: com.unity.robotics.ros-tcp-connector
+aliases: []
 displayName: ROS TCP Connector
 description: >-
   Bridge components and message generation allowing Unity to communicate with

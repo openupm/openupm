@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.trackers.pseudobody.unity
+aliases: []
 displayName: Tilia Trackers PseudoBody Unity
 description: >-
   A representation of a collidable body volume that tracks a GameObject in a

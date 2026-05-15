@@ -1,4 +1,5 @@
 name: jp.keijiro.lasp
+aliases: []
 displayName: LASP
 description: Low-latency audio signal processing plugin for Unity
 repoUrl: https://github.com/keijiro/Lasp

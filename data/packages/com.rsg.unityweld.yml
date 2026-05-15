@@ -1,4 +1,5 @@
 name: com.rsg.unityweld
+aliases: []
 displayName: Unity Weld
 description: MVVM-style data-binding system for Unity.
 repoUrl: 'https://github.com/RoryDungan/Unity-Weld-UPM'

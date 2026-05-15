@@ -1,4 +1,5 @@
 name: com.virgis.pem-utils
+aliases: []
 displayName: PEM Utils
 description: Utility for working with PEM files and DER/ASN.1 encoding
 repoUrl: https://github.com/ViRGIS-Team/pem-utils

@@ -1,4 +1,5 @@
 name: com.svermeulen.asyncawaitutil
+aliases: []
 displayName: AsyncAwaitUtil
 description: A bunch of code to make using async-await easier in Unity3D
 repoUrl: 'https://github.com/umfahrem/Unity3dAsyncAwaitUtil'

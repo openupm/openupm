@@ -1,4 +1,5 @@
 name: com.colizeum.colizeum-unity-sdk
+aliases: []
 displayName: Colizeum SDK
 description: >-
   A library which allows you to integrate Colizeum services into your Unity

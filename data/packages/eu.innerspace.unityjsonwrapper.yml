@@ -1,4 +1,5 @@
 name: eu.innerspace.unityjsonwrapper
+aliases: []
 displayName: Unity Json Wrapper
 description: A wrapper built around Json.NET to simplify its use
 repoUrl: 'https://github.com/innerspacetrainings/Unity-Json-Wrapper'

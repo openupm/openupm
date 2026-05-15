@@ -1,4 +1,5 @@
 name: ch.sttz.quicksearch.docs
+aliases: []
 displayName: Quick Search Docs
 description: Search the Unity documentation directly in Unity Quick Search
 repoUrl: 'https://github.com/sttz/unity-quicksearch-docs'

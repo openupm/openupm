@@ -1,4 +1,5 @@
 name: com.mtion.sdk
+aliases: []
 displayName: Mtion SDK
 description: Tools to create assets and clubhouses for mtion studio.
 repoUrl: https://github.com/mtion-tv/MtionSDK

@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.mapgenerator
+aliases: []
 displayName: Toolnity Map Generator
 description: Tool to generate Maps from an image.
 repoUrl: 'https://github.com/DTeruel/Toolnity'

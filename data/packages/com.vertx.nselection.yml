@@ -1,4 +1,5 @@
 name: com.vertx.nselection
+aliases: []
 displayName: nSelection
 description: Simple selection for busy scenes.
 repoUrl: 'https://github.com/vertxxyz/NSelection'

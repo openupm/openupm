@@ -1,4 +1,5 @@
 name: com.sschmid.tcpeasy
+aliases: []
 displayName: TCPeasy
 description: Connecting sockets
 repoUrl: 'https://github.com/sschmid/com.sschmid.tcpeasy'

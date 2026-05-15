@@ -1,4 +1,5 @@
 name: com.sai.unioption
+aliases: []
 displayName: UniOption
 description: Option Monad for Unity
 repoUrl: 'https://github.com/Saismirk/UniOption'

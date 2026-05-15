@@ -1,4 +1,5 @@
 name: com.jasonma.lwgui
+aliases: []
 displayName: LWGUI
 description: 'A Lightweight, Flexible, Powerful Shader GUI System for Unity.'
 repoUrl: 'https://github.com/JasonMa0012/LWGUI'

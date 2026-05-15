@@ -1,4 +1,5 @@
 name: ai.natml.vision.yolox
+aliases: []
 displayName: YOLOX
 description: High performance object detector based on YOLO series for Unity Engine.
 repoUrl: https://github.com/natmlx/yolox-unity

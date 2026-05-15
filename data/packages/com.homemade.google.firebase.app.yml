@@ -1,4 +1,5 @@
 name: com.homemade.google.firebase.app
+aliases: []
 displayName: Firebase App (Core)
 description: Firebase App is the core library every Firebase package depends on.
 repoUrl: https://github.com/hungpt17102k/com.homemade.google.firebase.app

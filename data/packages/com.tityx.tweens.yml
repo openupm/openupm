@@ -1,4 +1,5 @@
 name: com.tityx.tweens
+aliases: []
 displayName: Tweens
 description: "Tweens for animation\n\nDependencies:\r\nhttps://github.com/Demigiant/dotween.git"
 repoUrl: https://github.com/Tityxx/Tweens

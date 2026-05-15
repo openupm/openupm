@@ -1,4 +1,5 @@
 name: com.tiennix.codegen
+aliases: []
 displayName: Code Generator
 description: This is a code generator package for Unity.
 repoUrl: https://github.com/tien0702/com.nix.editor.codegenerator

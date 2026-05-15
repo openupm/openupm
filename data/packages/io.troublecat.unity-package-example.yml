@@ -1,4 +1,5 @@
 name: io.troublecat.unity-package-example
+aliases: []
 displayName: Unity Package Example
 description: An example of how to structure a Unity Package Project
 repoUrl: https://github.com/troublecatstudios/unity-package-example

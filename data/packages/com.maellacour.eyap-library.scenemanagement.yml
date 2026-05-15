@@ -1,4 +1,5 @@
 name: com.maellacour.eyap-library.scenemanagement
+aliases: []
 displayName: EyapLibrary - Scene Management
 description: A library package to manage scenes using the ScriptableObjects (SO) workflow.
 repoUrl: https://github.com/Eyap53/eyaplibrary.scenemanagement

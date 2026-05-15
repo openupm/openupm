@@ -1,4 +1,5 @@
 name: com.unity.project-auditor
+aliases: []
 displayName: Project Auditor
 description: Project Auditor is an experimental static analysis tool for Unity Projects.
 repoUrl: https://github.com/Unity-Technologies/ProjectAuditor

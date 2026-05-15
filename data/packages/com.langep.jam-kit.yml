@@ -1,4 +1,5 @@
 name: com.langep.jam-kit
+aliases: []
 displayName: Langep - Jam Kit
 description: 'Collection of utility methods, design patterns, and extensions for Unity.'
 repoUrl: 'https://github.com/langep/com.langep.jam-kit'

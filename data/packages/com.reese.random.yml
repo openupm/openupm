@@ -1,4 +1,5 @@
 name: com.reese.random
+aliases: []
 displayName: Reese's DOTS Randomization
 description: >-
   Unity.Mathematics.Random number generators for jobs, including Burst-capable

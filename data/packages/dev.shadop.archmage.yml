@@ -1,4 +1,5 @@
 name: dev.shadop.archmage
+aliases: []
 displayName: Archmage
 description: >-
   This is the runtime library for the [Archmage](https://archmage.shadop.dev/)

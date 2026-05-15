@@ -1,4 +1,5 @@
 name: com.dman.plantbuilder
+aliases: []
 displayName: Plant builder
 description: This package procedurally generates plants
 repoUrl: 'https://github.com/dsmiller95/plantbuilder'

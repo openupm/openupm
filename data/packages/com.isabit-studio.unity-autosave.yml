@@ -1,4 +1,5 @@
 name: com.isabit-studio.unity-autosave
+aliases: []
 displayName: Autosave for Unity
 description: >-
   This is a simple autosave plugin for unity using Editor Coroutines to save

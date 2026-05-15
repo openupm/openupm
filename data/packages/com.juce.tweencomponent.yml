@@ -1,4 +1,5 @@
 name: com.juce.tweencomponent
+aliases: []
 displayName: Juce-TweenComponent
 description: Component based Tweening library
 repoUrl: 'https://github.com/Juce-Assets/Juce-TweenPlayer'

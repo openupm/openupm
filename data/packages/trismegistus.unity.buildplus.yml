@@ -1,4 +1,5 @@
 name: trismegistus.unity.buildplus
+aliases: []
 displayName: Trismegistus Build+
 description: Semver utility for Unity projects with changelog / release notes generator
 repoUrl: 'https://github.com/Hermesiss/unity-buildplus'

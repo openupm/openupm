@@ -1,4 +1,5 @@
 name: com.uralstech.ugemini
+aliases: []
 displayName: UGemini
 description: 'UGemini: A C# wrapper for the Google Gemini API.'
 repoUrl: https://github.com/Uralstech/UGemini

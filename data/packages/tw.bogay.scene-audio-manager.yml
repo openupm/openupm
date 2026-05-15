@@ -1,4 +1,5 @@
 name: tw.bogay.scene-audio-manager
+aliases: []
 displayName: Scene Audio Manager
 description: Simple audio manager for Unity.
 repoUrl: https://github.com/Bogay/scene-audio-manager

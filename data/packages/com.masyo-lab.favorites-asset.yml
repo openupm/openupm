@@ -1,4 +1,5 @@
 name: com.masyo-lab.favorites-asset
+aliases: []
 displayName: Favorites Asset Window
 description: |-
   This function allows you to bookmark (register as a favorite) resources.

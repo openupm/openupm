@@ -1,4 +1,5 @@
 name: com.jonagill.conditionalfield
+aliases: []
 displayName: Conditional Field
 description: >-
   A custom attribute to show and hide serialized fields based on other fields

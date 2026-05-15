@@ -1,4 +1,5 @@
 name: com.eu4ng.utility.generic-singleton
+aliases: []
 displayName: UT Generic Singleton
 description: Utilities for Generic Singleton
 repoUrl: https://github.com/Eu4ngUnity/unitypackage-generic-singleton

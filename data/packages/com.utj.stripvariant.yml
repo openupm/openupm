@@ -1,4 +1,5 @@
 name: com.utj.stripvariant
+aliases: []
 displayName: ShaderStripVariant
 description: プロジェクト内にあるShaderVariantCollectionを探してきて、登録されていないVariantはすべてビルドから除外します。
 repoUrl: 'https://github.com/wotakuro/StrippingByVariantCollection'

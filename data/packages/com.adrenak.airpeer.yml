@@ -1,4 +1,5 @@
 name: com.adrenak.airpeer
+aliases: []
 displayName: Adrenak.AirPeer
 description: A WebRTC based networking plugin for Unity
 repoUrl: 'https://github.com/adrenak/airpeer'

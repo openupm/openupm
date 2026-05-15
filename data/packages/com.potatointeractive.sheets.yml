@@ -1,4 +1,5 @@
 name: com.potatointeractive.sheets
+aliases: []
 displayName: PotatoSheets
 description: Light-weight GoogleSheets to Unity ScriptableObject importer for Unity
 repoUrl: 'https://github.com/tlauterbach/potato-sheets'

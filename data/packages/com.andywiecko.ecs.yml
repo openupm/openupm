@@ -1,4 +1,5 @@
 name: com.andywiecko.ecs
+aliases: []
 displayName: ECS
 description: >-
   Custom Entity Component System architecture designed to work with "large"

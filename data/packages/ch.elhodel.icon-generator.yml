@@ -1,4 +1,5 @@
 name: ch.elhodel.icon-generator
+aliases: []
 displayName: Icon Generator
 description: >-
   This package provides an icon generator that generates unique icons when

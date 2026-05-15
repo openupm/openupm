@@ -1,4 +1,5 @@
 name: today.comes.saintsdraw
+aliases: []
 displayName: SaintsDraw
 description: A Unity plugin for gizmos and LineRenderer drawing in inspector
 repoUrl: https://github.com/TylerTemp/SaintsDraw

@@ -1,4 +1,5 @@
 name: com.tityx.formulas
+aliases: []
 displayName: Formulas
 description: Formulas system. Supports c# class and unity scriptable object
 repoUrl: https://github.com/Tityxx/Formulas

@@ -1,4 +1,5 @@
 name: com.hgs.rpg-stats
+aliases: []
 displayName: HGS RPG Stats
 description: Modular stat system to RPG and RPG Like games
 repoUrl: https://github.com/homy-game-studio/hgs-unity-rpg-stats

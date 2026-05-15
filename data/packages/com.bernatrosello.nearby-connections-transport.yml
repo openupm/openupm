@@ -1,4 +1,5 @@
 name: com.bernatrosello.nearby-connections-transport
+aliases: []
 displayName: Nearby Connections Transport
 description: >-
   A custom transport implementation with Nearby Connections for Unity Netcode

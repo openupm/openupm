@@ -1,4 +1,5 @@
 name: ch.giezi.tools.scriptableobjectvariant
+aliases: []
 displayName: Giezi's Scriptable Object Variant
 description: >-
   Adds a field to any scriptable object tagged with the [SOVariant] attribute

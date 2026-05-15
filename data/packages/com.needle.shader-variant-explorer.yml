@@ -1,4 +1,5 @@
 name: com.needle.shader-variant-explorer
+aliases: []
 displayName: Shader Variant Explorer
 description: >-
   Shader Variant Explorer lets you peek into Unity's shader compilation process

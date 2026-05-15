@@ -1,4 +1,5 @@
 name: se.hertzole.gold-player
+aliases: []
 displayName: Gold Player
 description: A first person player controller for Unity.
 repoUrl: 'https://github.com/Hertzole/gold-player'

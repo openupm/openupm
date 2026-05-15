@@ -1,4 +1,5 @@
 name: com.nosuchstudio.ui.bidirectionalhorizontallayoutgroup
+aliases: []
 displayName: Bidirectionl Horizontal Layout Group
 description: >-
   A horizontal layout group for Unity UI that supports both left-to-right and

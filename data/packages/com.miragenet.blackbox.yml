@@ -1,4 +1,5 @@
 name: com.miragenet.blackbox
+aliases: []
 displayName: Mirage BlackBox
 description: A plugin for mirage to allow to send and receive encrypted messages.
 repoUrl: 'https://github.com/MirageNet/BlackBox'

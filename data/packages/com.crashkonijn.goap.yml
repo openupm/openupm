@@ -1,4 +1,5 @@
 name: com.crashkonijn.goap
+aliases: []
 displayName: Unity GOAP
 description: An open source GOAP implementation for unity
 repoUrl: 'https://github.com/crashkonijn/GOAP'

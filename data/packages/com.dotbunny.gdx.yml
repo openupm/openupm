@@ -1,4 +1,5 @@
 name: com.dotbunny.gdx
+aliases: []
 displayName: GDX
 description: Game Development Extensions
 repoUrl: 'https://github.com/dotBunny/GDX'

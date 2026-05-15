@@ -1,4 +1,5 @@
 name: com.jagapippi.auto-screen
+aliases: []
 displayName: AutoScreen for Device Simulator
 description: >-
   This plugin provide a smart solution for Safe Area.

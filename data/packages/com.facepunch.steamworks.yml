@@ -1,4 +1,5 @@
 name: com.facepunch.steamworks
+aliases: []
 displayName: Facepunch Steamworks
 description: Another fucking c# Steamworks implementation
 repoUrl: 'https://github.com/PixelWizards/Facepunch.Steamworks'

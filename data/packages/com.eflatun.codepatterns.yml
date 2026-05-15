@@ -1,4 +1,5 @@
 name: com.eflatun.codepatterns
+aliases: []
 displayName: Eflatun.CodePatterns
 description: Common code pattern utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.CodePatterns'

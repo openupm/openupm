@@ -1,4 +1,5 @@
 name: com.thenathannator.hidrogen
+aliases: []
 displayName: HIDrogen
 description: >-
   An add-on for the Unity InputSystem package that provides additional input

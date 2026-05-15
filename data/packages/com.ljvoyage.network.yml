@@ -1,4 +1,5 @@
 name: com.ljvoyage.network
+aliases: []
 displayName: LJVoyage Network
 description: >-
   A lightweight Unity networking toolkit providing API request management,

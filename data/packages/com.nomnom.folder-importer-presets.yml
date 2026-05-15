@@ -1,4 +1,5 @@
 name: com.nomnom.folder-importer-presets
+aliases: []
 displayName: Folder Importer Presets
 description: |
   Provides the ability to apply custom import presets to a folder structure.

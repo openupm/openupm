@@ -1,4 +1,5 @@
 name: com.someone-s.web-mic-adapter
+aliases: []
 displayName: Web Microphone Adapter
 description: Package to mimick Microphone Class for WebGL
 repoUrl: 'https://github.com/someone-s/web-mic-adapter'

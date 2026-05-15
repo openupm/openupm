@@ -1,4 +1,5 @@
 name: com.roytheunissen.sceneviewpicker
+aliases: []
 displayName: Scene View Picker
 description: >-
   Unity extension that lets you assign any Object field by choosing it from the

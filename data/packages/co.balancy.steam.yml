@@ -1,4 +1,5 @@
 name: co.balancy.steam
+aliases: []
 displayName: Balancy Steam
 description: Steam platform integration for Balancy.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_steam

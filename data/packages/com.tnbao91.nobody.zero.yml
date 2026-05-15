@@ -1,4 +1,5 @@
 name: com.tnbao91.nobody.zero
+aliases: []
 displayName: "Zero — Hybrid Casual Unity Template"
 description: >-
   Opinionated Unity 6 LTS template for hybrid casual / puzzle games. Reflex DI,

@@ -1,4 +1,5 @@
 name: com.laurenth.lightingtools-sunlight
+aliases: []
 displayName: Lighting Tools Sunlight
 description: Sunlight entity for unity and HD Render Pipeline
 repoUrl: 'https://github.com/laurenth-personal/LightingTools.Sunlight'

@@ -1,4 +1,5 @@
 name: com.zor.random-generators
+aliases: []
 displayName: Random Generators
 description: A collection of random generators for Unity.
 repoUrl: 'https://github.com/ZorPastaman/Random-Generators'

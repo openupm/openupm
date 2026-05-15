@@ -1,4 +1,5 @@
 name: extensions.unity.playerprefsex
+aliases: []
 displayName: PlayerPrefsEx
 description: >-
   Lightweight package with variables, custom data model support and optional encryption.

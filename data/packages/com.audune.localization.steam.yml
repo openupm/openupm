@@ -1,4 +1,5 @@
 name: com.audune.localization.steam
+aliases: []
 displayName: Steam Localization Integration
 description: Steam localization integration for the Audune Localization package
 repoUrl: https://github.com/audunegames/steam-localization-integration

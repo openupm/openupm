@@ -1,4 +1,5 @@
 name: ai.natml.vision.movenet-multipose
+aliases: []
 displayName: MoveNet Multipose
 description: MediaPipe MoveNet multiple-pose detection in Unity Engine.
 repoUrl: https://github.com/natmlx/movenet-multipose-unity

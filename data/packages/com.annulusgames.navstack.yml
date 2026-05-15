@@ -1,4 +1,5 @@
 name: com.annulusgames.navstack
+aliases: []
 displayName: NavStack
 description: Asynchronous screen transition/navigation for Unity.
 repoUrl: https://github.com/AnnulusGames/NavStack

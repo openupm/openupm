@@ -1,4 +1,5 @@
 name: com.cysharp.mastermemory
+aliases: []
 displayName: MasterMemory
 description: Embedded Typed Readonly In-Memory Document Database for .NET Core and Unity.
 repoUrl: 'https://github.com/Cysharp/MasterMemory'

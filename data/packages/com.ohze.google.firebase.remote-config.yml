@@ -1,4 +1,5 @@
 name: com.ohze.google.firebase.remote-config
+aliases: []
 displayName: Firebase Remote Config
 description: Firebase Remote Config is a cloud service that lets you change the behavior
   and appearance of your client app or server without requiring users to download

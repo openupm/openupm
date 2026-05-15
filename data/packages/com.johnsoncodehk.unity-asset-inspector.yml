@@ -1,4 +1,5 @@
 name: com.johnsoncodehk.unity-asset-inspector
+aliases: []
 displayName: Asset Inspector
 description: Unity sub-asset editor
 repoUrl: 'https://github.com/johnsoncodehk/unity-asset-inspector'

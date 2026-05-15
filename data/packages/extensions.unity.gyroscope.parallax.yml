@@ -1,4 +1,5 @@
 name: extensions.unity.gyroscope.parallax
+aliases: []
 displayName: Unity Gyroscope Parallax
 description: Unity Parallax based on gyroscope components.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Gyroscope-Parallax'

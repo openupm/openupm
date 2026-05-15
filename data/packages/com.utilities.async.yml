@@ -1,4 +1,5 @@
 name: com.utilities.async
+aliases: []
 displayName: Utilities.Async
 description: A set of utilities to ease the use of async methods in Unity.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.async'

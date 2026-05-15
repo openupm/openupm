@@ -1,4 +1,5 @@
 name: tv.monry.upm.dependent
+aliases: []
 displayName: Monry Dependent
 description: Dependent package for Unity Package Manager
 repoUrl: 'https://github.com/monry/upm-dependent'

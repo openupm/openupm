@@ -1,4 +1,5 @@
 name: com.rodrigodzf.jackaudioforunity
+aliases: []
 displayName: JackAudioForUnity
 description: Jack audio plugin for unity
 repoUrl: https://github.com/rodrigodzf/Jack-Audio-For-Unity

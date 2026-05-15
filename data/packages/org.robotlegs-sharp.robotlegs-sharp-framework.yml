@@ -1,4 +1,5 @@
 name: org.robotlegs-sharp.robotlegs-sharp-framework
+aliases: []
 displayName: Robotlegs-Sharp
 description: An C# application framework. Ported from Robotlegs for ActionScript 3.
 repoUrl: 'https://github.com/iDreamsOfGame/robotlegs-sharp-framework'

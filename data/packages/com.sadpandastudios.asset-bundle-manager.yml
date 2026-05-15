@@ -1,4 +1,5 @@
 name: com.sadpandastudios.asset-bundle-manager
+aliases: []
 displayName: Asset Bundle Manager
 description: An asset bundle manager for Unity.
 repoUrl: 'https://github.com/SadPandaStudios/AssetBundleManager'

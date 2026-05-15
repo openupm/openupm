@@ -1,4 +1,5 @@
 name: com.devzappy.schema.unity
+aliases: []
 displayName: Schema Unity
 description: A Unity package for integrating the Schema config system
 repoUrl: https://github.com/zappy-dev/Schema-Unity

@@ -1,4 +1,5 @@
 name: dev.upm-packages.extraunityengine
+aliases: []
 displayName: Extra UnityEngine
 description: Extensions to extend UnityEngine classes/structs
 repoUrl: 'https://github.com/upm-packages/ExtraUnityEngine'

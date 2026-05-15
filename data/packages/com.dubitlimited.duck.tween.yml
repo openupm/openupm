@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.tween
+aliases: []
 displayName: Duck Tween
 description: A tween library for unity
 repoUrl: 'https://github.com/dubit/duck-tween'

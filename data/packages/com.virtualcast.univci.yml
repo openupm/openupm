@@ -1,4 +1,5 @@
 name: com.virtualcast.univci
+aliases: []
 displayName: VCI
 description: VCI Exporter
 repoUrl: 'https://github.com/virtual-cast/VCI'

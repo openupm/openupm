@@ -1,4 +1,5 @@
 name: com.kuraiandras.numericsconverter
+aliases: []
 displayName: Numerics Converter
 description: Conversion methods between Unity vectory types and System.Numerics.Vector
 repoUrl: 'https://github.com/KuraiAndras/NumericsConverter'

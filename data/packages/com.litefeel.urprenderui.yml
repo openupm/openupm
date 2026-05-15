@@ -1,4 +1,5 @@
 name: com.litefeel.urprenderui
+aliases: []
 displayName: URP Render UI
 description: Render UI on Universal Render Pipeline
 repoUrl: 'https://github.com/litefeel/URPRenderUI'

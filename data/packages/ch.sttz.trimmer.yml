@@ -1,4 +1,5 @@
 name: ch.sttz.trimmer
+aliases: []
 displayName: Trimmer
 description: 'An editor, build and player configuration framework for the Unity game engine.'
 repoUrl: 'https://github.com/sttz/trimmer'

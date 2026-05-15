@@ -1,4 +1,5 @@
 name: io.elhan.firebase.auth
+aliases: []
 displayName: Firebase Auth (Unofficial)
 description: "\U0001F4E6 Packaged version of Firebase Auth for Unity"
 repoUrl: 'https://github.com/oae/unity-package-firebase-auth'

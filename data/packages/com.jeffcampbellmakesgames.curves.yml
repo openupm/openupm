@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.curves
+aliases: []
 displayName: JCMG Curves
 description: A library for Unity to support creating and modifying curves in the editor.
 repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-curves'

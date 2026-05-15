@@ -1,4 +1,5 @@
 name: com.aid.nudge
+aliases: []
 displayName: Nudge
 description: 'Add Comments directly on Unity Objects, Scenes, or Assets.'
 repoUrl: 'https://github.com/stevehalliwell/Nudge'

@@ -1,4 +1,5 @@
 name: com.maligan.unity-zed
+aliases: []
 displayName: Zed
 description: Zed editor integration for Unity
 repoUrl: https://github.com/Maligan/unity-zed

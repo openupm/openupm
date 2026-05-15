@@ -1,4 +1,5 @@
 name: com.rhinox.open.rollbar
+aliases: []
 displayName: Rollbar Integration for Unity
 description: Rollbar.NET Integration for Unity
 repoUrl: 'https://github.com/Rhinox-Training/Rollbar.Unity'

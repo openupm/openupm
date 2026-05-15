@@ -1,4 +1,5 @@
 name: co.balancy.nutaku
+aliases: []
 displayName: Balancy Nutaku
 description: Nutaku platform integration for Balancy.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_nutaku

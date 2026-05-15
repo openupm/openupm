@@ -1,4 +1,5 @@
 name: com.gilzoide.key-value-store
+aliases: []
 displayName: Key-Value Store
 description: Key-Value Store save system interface and implementations
 repoUrl: https://github.com/gilzoide/unity-key-value-store

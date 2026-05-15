@@ -1,4 +1,5 @@
 name: com.freakshowstudio.transform-child-extensions
+aliases: []
 displayName: Transform Children Extensions
 description: Transform extension methods for handling child transforms
 repoUrl: >-

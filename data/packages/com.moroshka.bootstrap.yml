@@ -1,4 +1,5 @@
 name: com.moroshka.bootstrap
+aliases: []
 displayName: Moroshka.Bootstrap
 description: >-
   Bootstrap provides a single entry point for application initialization,

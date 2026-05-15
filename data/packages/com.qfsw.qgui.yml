@@ -1,4 +1,5 @@
 name: com.qfsw.qgui
+aliases: []
 displayName: QGUI
 description: >-
   A simple but effective IMGUI library for the Unity Engine for when

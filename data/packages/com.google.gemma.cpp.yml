@@ -1,4 +1,5 @@
 name: com.google.gemma.cpp
+aliases: []
 displayName: Gemma.cpp for Unity
 description: Unity integration for Gemma.cpp
 repoUrl: https://github.com/google/gemma-unity-plugin

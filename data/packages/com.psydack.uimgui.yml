@@ -1,4 +1,5 @@
 name: com.psydack.uimgui
+aliases: []
 displayName: UImGui
 description: A Unity wrapper for ImGui
 repoUrl: 'https://github.com/psydack/uimgui'

@@ -1,4 +1,5 @@
 name: com.needle.upm-in-unitypackage
+aliases: []
 displayName: UPM Packages in .unitypackage
 description: Export UPM packages as .unitypackage files and upload them to the AssetStore
 repoUrl: 'https://github.com/needle-tools/upm-in-unitypackage'

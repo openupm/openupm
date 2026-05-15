@@ -1,4 +1,5 @@
 name: com.gilzoide.runtime-preset
+aliases: []
 displayName: Runtime Preset
 description: Preset for components that can be applied at runtime
 repoUrl: https://github.com/gilzoide/unity-runtime-preset

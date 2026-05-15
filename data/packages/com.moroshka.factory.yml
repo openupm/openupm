@@ -1,4 +1,5 @@
 name: com.moroshka.factory
+aliases: []
 displayName: Moroshka.Factory
 description: >-
   Factory is a set of interfaces and implementations of the Factory pattern for

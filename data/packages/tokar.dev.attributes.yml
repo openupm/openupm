@@ -1,4 +1,5 @@
 name: tokar.dev.attributes
+aliases: []
 displayName: OT Attributes
 description: Unity editor custom inspector extensions.
 repoUrl: 'https://github.com/Tokars/unity_editor_attributes'

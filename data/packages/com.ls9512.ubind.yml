@@ -1,4 +1,5 @@
 name: com.ls9512.ubind
+aliases: []
 displayName: UBind
 description: >-
   UBind is a value binding component for Unity, which is used to quickly realize

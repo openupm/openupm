@@ -1,4 +1,5 @@
 name: com.zbase.foundation.polymorphic-structs
+aliases: []
 displayName: ZBase.Foundation.PolymorphicStructs
 description: >-
   Polymorphism for structs by the help of Source Generator. Inspired by

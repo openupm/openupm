@@ -1,4 +1,5 @@
 name: com.katuusagi.delegatepool
+aliases: []
 displayName: DelegatePool
 description: Can implement a pool to cache instances of Delegate and lambda expressions.
 repoUrl: https://github.com/Katsuya100/DelegatePool

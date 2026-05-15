@@ -1,4 +1,5 @@
 name: com.rest.elevenlabs
+aliases: []
 displayName: ElevenLabs
 description: A non-official Eleven Labs voice synthesis RESTful client.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rest.elevenlabs'

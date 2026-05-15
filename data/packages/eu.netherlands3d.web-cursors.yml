@@ -1,4 +1,5 @@
 name: eu.netherlands3d.web-cursors
+aliases: []
 displayName: Netherlands3D - Web Cursors
 description: >-
   MonoBehaviour and plugin allowing to change system cursor on WebGL

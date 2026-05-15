@@ -1,4 +1,5 @@
 name: com.quabug.parallel-prefix-sum.cpu
+aliases: []
 displayName: Parallel Prefix Sum (DOTS)
 description: Parallel Prefix Sum (DOTS)
 repoUrl: 'https://github.com/quabug/parallel-prefix-sum'

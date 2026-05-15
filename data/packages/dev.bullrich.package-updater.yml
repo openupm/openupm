@@ -1,4 +1,5 @@
 name: dev.bullrich.package-updater
+aliases: []
 displayName: Package Updater
 description: Utility to update several packages at once
 repoUrl: 'https://github.com/Bullrich/UnityPackageUpdater'

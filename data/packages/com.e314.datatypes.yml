@@ -1,4 +1,5 @@
 name: com.e314.datatypes
+aliases: []
 displayName: E314.DataTypes
 description: The `E314.DataTypes` module provides structures and data types.
 repoUrl: https://github.com/epishev-m/e314-datatypes

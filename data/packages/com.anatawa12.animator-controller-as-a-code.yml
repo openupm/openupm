@@ -1,4 +1,5 @@
 name: com.anatawa12.animator-controller-as-a-code
+aliases: []
 displayName: AnimatorController as a Code
 description: A small Unity Editor Library to generate AnimatorController with C# Code
 repoUrl: 'https://github.com/anatawa12/AnimatorController-as-a-Code'

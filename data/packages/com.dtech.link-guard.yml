@@ -1,4 +1,5 @@
 name: com.dtech.link-guard
+aliases: []
 displayName: Link Guard
 description: >-
   Unity editor tool for scanning assemblies and generating or merging link.xml

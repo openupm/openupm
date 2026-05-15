@@ -1,4 +1,5 @@
 name: com.uralstech.utils.loggers
+aliases: []
 displayName: Utils.Loggers
 description: Custom loggers for Unity.
 repoUrl: https://github.com/Uralstech/Utils.Loggers

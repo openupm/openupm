@@ -1,4 +1,5 @@
 name: com.frostbun.unit.ui
+aliases: []
 displayName: UniT UI
 description: UI Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.UI

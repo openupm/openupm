@@ -1,4 +1,5 @@
 name: nl.elraccoone.promises
+aliases: []
 displayName: Promises
 description: >-
   Promises provide a simpler alternative for executing, composing, and managing

@@ -1,4 +1,5 @@
 name: com.greener-games.unity-cms
+aliases: []
 displayName: Unity Content Manager
 description: Unity CMS system to store a local cms within the project
 repoUrl: 'https://github.com/Greener-Games/Unity-CMS'

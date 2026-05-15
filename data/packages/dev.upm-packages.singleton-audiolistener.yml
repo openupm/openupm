@@ -1,4 +1,5 @@
 name: dev.upm-packages.singleton-audiolistener
+aliases: []
 displayName: Singleton AudioListener
 description: Provide automatic installation AudioListener as Singleton
 repoUrl: 'https://github.com/umm/singleton_audiolistener'

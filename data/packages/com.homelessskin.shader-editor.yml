@@ -1,4 +1,5 @@
 name: com.homelessskin.shader-editor
+aliases: []
 displayName: Shader Editor
 description: Unity's built-in shader code editor that works in play mode.
 repoUrl: https://github.com/HomelessSkin/com.homelessskin.shader-editor

@@ -1,4 +1,5 @@
 name: com.csound.csoundunity
+aliases: []
 displayName: CsoundUnity
 description: "CsoundUnity is a fully integrated audio middleware. It extends Unity's\
   \ audio API by creating Csound-based AudioSource objects that can interact and exist\

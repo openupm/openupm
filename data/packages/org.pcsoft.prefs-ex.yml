@@ -1,4 +1,5 @@
 name: org.pcsoft.prefs-ex
+aliases: []
 displayName: Player Preferences Extension
 description: Extension for Unity player preferences system.
 repoUrl: https://github.com/KleinerHacker/unity-prefs-ex

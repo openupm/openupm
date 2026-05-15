@@ -1,4 +1,6 @@
 name: com.reactunity.core
+aliases:
+  - com.kurtgokhan.react-unity
 displayName: React Unity
 description: React and HTML framework for Unity UI & UIToolkit
 repoUrl: 'https://github.com/ReactUnity/core'

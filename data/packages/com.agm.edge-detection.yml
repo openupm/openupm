@@ -1,4 +1,5 @@
 name: com.agm.edge-detection
+aliases: []
 displayName: Edge Detection
 description: Edge Detect / Outliner for Unity Post-Processing Stack v2
 repoUrl: 'https://github.com/AGM-GR/EdgeDetection'

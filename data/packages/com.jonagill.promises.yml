@@ -1,4 +1,5 @@
 name: com.jonagill.promises
+aliases: []
 displayName: Promises
 description: A lightweight C# implementation of the promise pattern for asynchronous code.
 repoUrl: 'https://github.com/jonagill/Promises'

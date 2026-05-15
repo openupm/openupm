@@ -1,4 +1,5 @@
 name: com.lupidan.apple-signin-unity
+aliases: []
 displayName: Sign in with Apple
 description: Unity plugin to support Sign In With Apple Id
 repoUrl: 'https://github.com/lupidan/apple-signin-unity'

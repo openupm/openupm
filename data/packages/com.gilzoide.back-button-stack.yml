@@ -1,4 +1,5 @@
 name: com.gilzoide.back-button-stack
+aliases: []
 displayName: Back Button Stack
 description: >-
   Easily manage a stack of objects that respond to the ESC button / Android back

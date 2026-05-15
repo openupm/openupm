@@ -1,4 +1,5 @@
 name: jp.andantetribe.transition
+aliases: []
 displayName: Transition
 description: Scene transition system built on Addressables.
 repoUrl: https://github.com/AndanteTribe/Transition

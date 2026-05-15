@@ -1,4 +1,5 @@
 name: com.migsweb.mlock
+aliases: []
 displayName: MLock
 description: >-
   A flexible and efficient lock system for Unity that manages access to gameplay

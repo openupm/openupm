@@ -1,4 +1,5 @@
 name: com.sschmid.sherlog.appenders
+aliases: []
 displayName: Sherlog.Appenders
 description: Flexible logging for C# and Unity
 repoUrl: 'https://github.com/sschmid/com.sschmid.sherlog'

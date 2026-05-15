@@ -1,4 +1,6 @@
 name: com.atsaetechnologies.defaulttools
+aliases:
+  - com.atsaetechnologies.defaultfolders
 displayName: Default Tools
 description: This Unity editor tool automatically creates a default folder structure
   for your Unity project. With just one click, you can create top-level folders such

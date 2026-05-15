@@ -1,4 +1,5 @@
 name: com.febucci.custom-hierarchy
+aliases: []
 displayName: Custom Hierarchy for Unity
 description: >-
   Unity package to help having a clearer Hierarchy view, organizing everything

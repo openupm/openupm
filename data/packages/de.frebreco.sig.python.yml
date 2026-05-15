@@ -1,4 +1,5 @@
 name: de.frebreco.sig.python
+aliases: []
 displayName: SIG Python
 description: >-
   Implements high-level python support using the Python for Unity package. It

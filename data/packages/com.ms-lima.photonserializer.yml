@@ -1,4 +1,5 @@
 name: com.ms-lima.photonserializer
+aliases: []
 displayName: Photon Serializer
 description: >-
   This plugin provides custom type registering method with script and compares

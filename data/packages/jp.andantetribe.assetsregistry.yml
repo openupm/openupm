@@ -1,4 +1,5 @@
 name: jp.andantetribe.assetsregistry
+aliases: []
 displayName: AssetsRegistry
 description: Unity Addressables utility for temporarily caching asset handles during usage.
 repoUrl: https://github.com/AndanteTribe/AssetsRegistry

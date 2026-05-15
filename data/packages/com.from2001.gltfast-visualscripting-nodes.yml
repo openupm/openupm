@@ -1,4 +1,5 @@
 name: com.from2001.gltfast-visualscripting-nodes
+aliases: []
 displayName: glTFast Visual Scripting Nodes
 description: Unity Visual Scripting node library for glTFast
 repoUrl: https://github.com/from2001/glTFast_VisualScriptingNodes

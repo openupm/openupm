@@ -1,4 +1,5 @@
 name: com.jonagill.addressablerequests
+aliases: []
 displayName: Addressable Requests
 description: Helper API for interfacing with Unity's Addressables system.
 repoUrl: https://github.com/jonagill/AddressableRequests

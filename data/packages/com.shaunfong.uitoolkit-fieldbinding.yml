@@ -1,4 +1,5 @@
 name: com.shaunfong.uitoolkit-fieldbinding
+aliases: []
 displayName: com.shaunfong.uitoolkit-fieldbinding
 description: Code generation for ui toolkit fields.
 repoUrl: 'https://github.com/Shaun-Fong/UIToolkit-FieldBinding'

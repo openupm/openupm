@@ -1,4 +1,5 @@
 name: com.cysharp.csprojmodifier
+aliases: []
 displayName: CsprojModifier
 description: Extension to perform additional processing when generating .csproj
 repoUrl: 'https://github.com/Cysharp/CsprojModifier'

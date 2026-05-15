@@ -1,4 +1,5 @@
 name: com.virgis.virgis_v2
+aliases: []
 displayName: ViRGiS v2
 description: 'ViRGiS is a GIS platform for VR. See https://www.vrgis.org for more details.'
 repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS_v2'

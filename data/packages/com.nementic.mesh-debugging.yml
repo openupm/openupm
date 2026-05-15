@@ -1,4 +1,5 @@
 name: com.nementic.mesh-debugging
+aliases: []
 displayName: Mesh Debugging
 description: >-
   A suite of utilities useful for finding issues or simply visualizing

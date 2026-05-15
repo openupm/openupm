@@ -1,4 +1,5 @@
 name: com.ayutaz.uigradients
+aliases: []
 displayName: UI Gradients
 description: A small collections of scripts to add gradient effects to UGUI elements.
 repoUrl: 'https://github.com/ayutaz/Unity-UIGradient'

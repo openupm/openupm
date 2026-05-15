@@ -1,4 +1,5 @@
 name: se.his.vector-renderer
+aliases: []
 displayName: Vector Renderer
 description: Render vectors in Unity (works both in Edit and Play Mode)
 repoUrl: 'https://github.com/UniversityOfSkovde/Vector-Renderer'

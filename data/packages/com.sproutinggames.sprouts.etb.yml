@@ -1,4 +1,5 @@
 name: com.sproutinggames.sprouts.etb
+aliases: []
 displayName: SproutsETB
 description: A base for editor tools!
 repoUrl: https://github.com/TheGreenSprout/SETB

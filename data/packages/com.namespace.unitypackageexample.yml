@@ -1,4 +1,5 @@
 name: com.namespace.unitypackageexample
+aliases: []
 displayName: Unity Package Example
 description: ''
 repoUrl: 'https://github.com/favoyang/unity-package-example'

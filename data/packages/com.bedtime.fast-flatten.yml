@@ -1,4 +1,5 @@
 name: com.bedtime.fast-flatten
+aliases: []
 displayName: 'FastFlatten: Hierarchy Collapser'
 description: 'Collapse the currently active hierarchy! '
 repoUrl: https://github.com/BedtimeDigitalGames/FastFlatten

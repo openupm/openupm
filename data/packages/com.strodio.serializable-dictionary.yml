@@ -1,4 +1,6 @@
 name: com.strodio.serializable-dictionary
+aliases:
+  - com.strodio.unity-toolkit.serializable-dictionary
 displayName: Serializable Dictionary
 description: Serializable dictionary for Unity
 repoUrl: https://github.com/StromKuo/SerializableDictionary

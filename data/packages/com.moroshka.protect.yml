@@ -1,4 +1,5 @@
 name: com.moroshka.protect
+aliases: []
 displayName: Moroshka.Protect
 description: >-
   The `Moroshka.Protect` module provides methods for validating input data and

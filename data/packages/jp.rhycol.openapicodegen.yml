@@ -1,4 +1,5 @@
 name: jp.rhycol.openapicodegen
+aliases: []
 displayName: OpenApiCodeGen
 description: >-
   This is a package to make a rest api client c-sharp file from swagger's json

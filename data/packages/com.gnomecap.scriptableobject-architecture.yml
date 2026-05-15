@@ -1,4 +1,5 @@
 name: com.gnomecap.scriptableobject-architecture
+aliases: []
 displayName: GnomeCap's ScriptableObject-Architecture
 description: >-
   Makes using Scriptable Objects as a fundamental part of your architecture in

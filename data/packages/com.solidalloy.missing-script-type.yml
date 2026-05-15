@@ -1,4 +1,5 @@
 name: com.solidalloy.missing-script-type
+aliases: []
 displayName: Missing Script Type
 description: Find missing scripts more easily.
 repoUrl: https://github.com/SolidAlloy/MissingScriptType

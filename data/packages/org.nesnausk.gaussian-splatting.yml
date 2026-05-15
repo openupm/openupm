@@ -1,4 +1,5 @@
 name: org.nesnausk.gaussian-splatting
+aliases: []
 displayName: Gaussian Splatting
 description: 3D Gaussian Splatting rendering and tools
 repoUrl: https://github.com/aras-p/UnityGaussianSplatting

@@ -1,4 +1,5 @@
 name: jp.andantetribe.toast
+aliases: []
 displayName: Toast
 description: Simple toast notification UI for Unity.
 repoUrl: https://github.com/AndanteTribe/Toast

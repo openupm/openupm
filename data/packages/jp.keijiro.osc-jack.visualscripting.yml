@@ -1,4 +1,5 @@
 name: jp.keijiro.osc-jack.visualscripting
+aliases: []
 displayName: OscJackVS
 description: OSC extension for Visual Scripting
 repoUrl: https://github.com/keijiro/OscJackVS

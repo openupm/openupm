@@ -1,4 +1,5 @@
 name: com.sark.rltk_unity
+aliases: []
 displayName: RLTK
 description: A framework for developing ascii based "traditional" roguelikes in Unity.
 repoUrl: 'https://github.com/sarkahn/rltk_unity'

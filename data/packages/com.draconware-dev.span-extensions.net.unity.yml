@@ -1,4 +1,5 @@
 name: com.draconware-dev.span-extensions.net.unity
+aliases: []
 displayName: SpanExtensions.Net.Unity
 description: >-
   SpanExtensions.Net aims to make ReadOnlySpan<T> and Span<T> more accessible

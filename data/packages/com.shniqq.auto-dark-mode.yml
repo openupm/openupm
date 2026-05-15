@@ -1,4 +1,5 @@
 name: com.shniqq.auto-dark-mode
+aliases: []
 displayName: Auto Dark Mode
 description: >-
   Automatically switches between the light and dark editor themes based on the

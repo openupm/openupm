@@ -1,4 +1,5 @@
 name: com.yontalane.dialog
+aliases: []
 displayName: Dialog
 description: A dialog system.
 repoUrl: 'https://github.com/yontalane/UnityPackages'

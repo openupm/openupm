@@ -1,4 +1,5 @@
 name: com.atomknack.uknackbasis
+aliases: []
 displayName: UKnack Basis
 description: Set of tools that make working with Unity better and help write cleaner code
 repoUrl: 'https://github.com/atomknack/UKnackBasis'

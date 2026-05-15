@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.nodey
+aliases: []
 displayName: JCMG Nodey
 description: Lets you view and edit node graphs inside Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/Nodey'

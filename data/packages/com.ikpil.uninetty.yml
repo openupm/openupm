@@ -1,4 +1,5 @@
 name: com.ikpil.uninetty
+aliases: []
 displayName: UniNetty
 description: >-
   UniNetty project - a port of DotNetty, an event-driven asynchronous network

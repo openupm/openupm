@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.favorites
+aliases: []
 displayName: Toolnity Favorites
 description: |-
   Panel to have quick access to files and folders.

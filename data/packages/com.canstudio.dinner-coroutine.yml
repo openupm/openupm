@@ -1,4 +1,5 @@
 name: com.canstudio.dinner-coroutine
+aliases: []
 displayName: DinnerCoroutine
 description: >-
   Editor coroutine, play mode coroutine, controllable coroutine, parallel

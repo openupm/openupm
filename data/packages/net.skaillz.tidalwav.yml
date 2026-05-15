@@ -1,4 +1,5 @@
 name: net.skaillz.tidalwav
+aliases: []
 displayName: tidalwav WAV Loop Editor
 description: WAV Loop Editor for Unity
 repoUrl: 'https://github.com/SkaillZ/tidalwav'

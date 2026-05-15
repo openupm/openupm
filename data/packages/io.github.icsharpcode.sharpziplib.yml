@@ -1,4 +1,5 @@
 name: io.github.icsharpcode.sharpziplib
+aliases: []
 displayName: SharpZipLib
 description: >-
   #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the

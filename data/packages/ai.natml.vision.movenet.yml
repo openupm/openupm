@@ -1,4 +1,5 @@
 name: ai.natml.vision.movenet
+aliases: []
 displayName: MoveNet
 description: Realtime pose detection with MediaPipe MoveNet.
 repoUrl: https://github.com/natmlx/movenet-unity

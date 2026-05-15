@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-startapp-mediation
+aliases: []
 displayName: StartApp adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use StartApp ad network in conjuction with Yandex

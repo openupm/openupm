@@ -1,4 +1,5 @@
 name: org.pcsoft.audio-system
+aliases: []
 displayName: Audio System
 description: Audio System for Unity
 repoUrl: https://github.com/KleinerHacker/unity-audio-system

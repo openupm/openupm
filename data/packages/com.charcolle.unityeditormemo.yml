@@ -1,4 +1,5 @@
 name: com.charcolle.unityeditormemo
+aliases: []
 displayName: Unity Editor Memo
 description: post notes on unityeditor
 repoUrl: 'https://github.com/charcolle/UnityEditorMemo'

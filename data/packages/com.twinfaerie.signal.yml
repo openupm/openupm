@@ -1,4 +1,5 @@
 name: com.twinfaerie.signal
+aliases: []
 displayName: TwinFaerie Signal
 description: For standarize and easier system initialization on unity
 repoUrl: https://github.com/TwinFaerie/twinfaerie-signal

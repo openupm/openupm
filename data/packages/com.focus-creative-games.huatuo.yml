@@ -1,4 +1,5 @@
 name: com.focus-creative-games.huatuo
+aliases: []
 displayName: huatuo unity package
 description: 'This package contains a collection of tools, used to huatuo.'
 repoUrl: 'https://github.com/focus-creative-games/huatuo_upm'

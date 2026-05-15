@@ -1,4 +1,5 @@
 name: com.annulusgames.scene-system
+aliases: []
 displayName: Scene System
 description: Provides efficient and versatile scene management functionality for Unity.
 repoUrl: https://github.com/AnnulusGames/SceneSystem

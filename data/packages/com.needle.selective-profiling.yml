@@ -1,4 +1,5 @@
 name: com.needle.selective-profiling
+aliases: []
 displayName: Selective Profiling
 description: Deep profile single methods
 repoUrl: 'https://github.com/needle-tools/selective-profiling'

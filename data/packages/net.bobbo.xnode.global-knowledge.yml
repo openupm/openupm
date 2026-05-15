@@ -1,4 +1,5 @@
 name: net.bobbo.xnode.global-knowledge
+aliases: []
 displayName: Global Knowledge XNode
 description: Globally available player knowledge, exposed through XNode!
 repoUrl: https://github.com/BOBBO-NET/netengine4

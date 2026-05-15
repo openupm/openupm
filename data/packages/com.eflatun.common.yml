@@ -1,4 +1,5 @@
 name: com.eflatun.common
+aliases: []
 displayName: Eflatun.Common
 description: >-
   Common utilities for Unity and C#. It mostly consists of useful extension

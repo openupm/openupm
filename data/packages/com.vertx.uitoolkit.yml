@@ -1,4 +1,5 @@
 name: com.vertx.uitoolkit
+aliases: []
 displayName: UIToolkit Additions
 description: Improvements/additions made to UIToolkit fields.
 repoUrl: 'https://github.com/vertxxyz/Vertx.UIToolkit'

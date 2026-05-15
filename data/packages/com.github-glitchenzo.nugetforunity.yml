@@ -1,4 +1,5 @@
 name: com.github-glitchenzo.nugetforunity
+aliases: []
 displayName: NuGetForUnity
 description: A NuGet Package Manager for Unity
 repoUrl: 'https://github.com/GlitchEnzo/NuGetForUnity'

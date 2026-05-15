@@ -1,4 +1,5 @@
 name: com.example.nuget-consumer
+aliases: []
 displayName: ''
 description: An example package that depends on other org.nuget packages
 repoUrl: 'https://github.com/favoyang/com.example.nuget-consumer'

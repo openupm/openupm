@@ -1,4 +1,5 @@
 name: com.luvikung.buildpipelineandroid
+aliases: []
 displayName: Build Pipeline for Android
 description: >-
   Build Pipeline for Android is a build tools for Unity Editor that easier to

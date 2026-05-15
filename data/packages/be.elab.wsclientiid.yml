@@ -1,4 +1,5 @@
 name: be.elab.wsclientiid
+aliases: []
 displayName: Websocket IID Client
 description: This package allows to install the package needed to create a Websocket
   Index Integer client. It make it easy in Unity to connect to APInt IO server or

@@ -1,4 +1,5 @@
 name: com.gm.gameevent
+aliases: []
 displayName: Game Event
 description: Unity Game Event System
 repoUrl: 'https://github.com/Goatman1996/GameEvent'

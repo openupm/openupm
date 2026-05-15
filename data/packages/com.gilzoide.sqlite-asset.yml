@@ -1,4 +1,5 @@
 name: com.gilzoide.sqlite-asset
+aliases: []
 displayName: SQLite Asset
 description: >-
   Import ".sqlite", ".sqlite2" and ".sqlite3" files as read-only SQLite database

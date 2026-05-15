@@ -1,4 +1,5 @@
 name: so.daro.unity
+aliases: []
 displayName: Daro Unity SDK
 description: >-
   Daro ad SDK for Unity. Supports Android and iOS.

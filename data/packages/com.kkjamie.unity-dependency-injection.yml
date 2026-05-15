@@ -1,4 +1,5 @@
 name: com.kkjamie.unity-dependency-injection
+aliases: []
 displayName: UnityDependencyInjection
 description: Lightweight dependency injection framework for unity
 repoUrl: 'https://github.com/kkjamie/unity-dependency-injection'

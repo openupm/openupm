@@ -1,4 +1,5 @@
 name: dev.comradevanti.ear-clip
+aliases: []
 displayName: Ear-clip
 description: Ear-clipping algorithms for triangulating 2D polygons
 repoUrl: 'https://github.com/ComradeVanti/UnityEarClip'

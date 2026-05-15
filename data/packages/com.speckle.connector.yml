@@ -1,4 +1,5 @@
 name: com.speckle.connector
+aliases: []
 displayName: Speckle Unity Connector
 description: AEC Interoperability for Unity through Speckle
 repoUrl: 'https://github.com/sasakiassociates/speckle-unity-connector'

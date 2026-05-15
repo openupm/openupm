@@ -1,4 +1,5 @@
 name: id.instance.extensions
+aliases: []
 displayName: instance.id.Extensions
 description: instance.id Extension repository
 repoUrl: 'https://github.com/instance-id/Extensions'

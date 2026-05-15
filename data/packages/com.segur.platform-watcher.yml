@@ -1,4 +1,5 @@
 name: com.segur.platform-watcher
+aliases: []
 displayName: PlatformWatcher
 description: This tool displays an error if the Unity platform is not the specified one.
 repoUrl: https://github.com/segurvita/PlatformWatcher

@@ -1,4 +1,5 @@
 name: br.com.expressobits.console
+aliases: []
 displayName: EB Console
 description: Free and customizable console in game for Unity
 repoUrl: 'https://github.com/ExpressoBits/EBConsole'

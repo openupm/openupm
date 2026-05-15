@@ -1,4 +1,5 @@
 name: com.lungcrew.lungfetcher
+aliases: []
 displayName: Lungfetcher
 description: A solution for fetching lung projects in Unity
 repoUrl: https://github.com/lungcrew/unity-lungfetcher

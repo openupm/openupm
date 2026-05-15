@@ -1,4 +1,5 @@
 name: io.mrwatts.utility
+aliases: []
 displayName: Utility Package
 description: >-
   This package contains various scripts and components that are often reused in

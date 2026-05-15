@@ -1,4 +1,5 @@
 name: com.needle.compilation-visualizer
+aliases: []
 displayName: Compilation Visualizer
 description: ''
 repoUrl: 'https://github.com/needle-tools/compilation-visualizer'

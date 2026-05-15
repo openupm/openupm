@@ -1,4 +1,5 @@
 name: com.adrianyip.events
+aliases: []
 displayName: AYip Events
 description: This is a simplest but robust events package for events and event bus.
 repoUrl: https://github.com/adrianyip-1222/ayip-package-events

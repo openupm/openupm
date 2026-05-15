@@ -1,4 +1,5 @@
 name: com.ls9512.uextension
+aliases: []
 displayName: UExtension
 description: >-
   UExtension is a basic type extension library for .Net and Unity projects. It

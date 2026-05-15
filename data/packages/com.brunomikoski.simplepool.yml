@@ -1,4 +1,5 @@
 name: com.brunomikoski.simplepool
+aliases: []
 displayName: Simple Pool
 description: Simple pooling system for Unity
 repoUrl: 'https://github.com/brunomikoski/SimplePool'

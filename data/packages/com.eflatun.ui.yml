@@ -1,4 +1,5 @@
 name: com.eflatun.ui
+aliases: []
 displayName: Eflatun.UI
 description: UI utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.UI'

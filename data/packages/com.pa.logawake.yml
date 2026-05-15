@@ -1,4 +1,5 @@
 name: com.pa.logawake
+aliases: []
 displayName: Log Awake
 description: Log any message in awake
 repoUrl: https://github.com/Paul-Auguste/TestOpenUPM1

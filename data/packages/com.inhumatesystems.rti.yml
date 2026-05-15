@@ -1,4 +1,5 @@
 name: com.inhumatesystems.rti
+aliases: []
 displayName: Inhumate RTI
 description: Inhumate RTI Integration - for co-simulation, networking, prototyping etc
 repoUrl: https://github.com/inhumatesystems/unity-rti

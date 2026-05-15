@@ -1,4 +1,5 @@
 name: games.artees.litjson
+aliases: []
 displayName: LitJSON
 description: JSON library for the .Net framework
 repoUrl: 'https://github.com/Artees/litjson'

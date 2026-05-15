@@ -1,4 +1,5 @@
 name: com.reown.appkit.solana.unity
+aliases: []
 displayName: Reown.AppKit.Solana.Unity
 description: Reown AppKit adapter for Solana.Unity-SDK
 repoUrl: https://github.com/reown-com/reown-dotnet

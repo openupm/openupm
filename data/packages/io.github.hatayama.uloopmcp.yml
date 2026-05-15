@@ -1,4 +1,5 @@
 name: io.github.hatayama.uloopmcp
+aliases: []
 displayName: Unity CLI Loop
 description: Let AI agents compile, test, and operate your Unity project via CLI.
 repoUrl: https://github.com/hatayama/unity-cli-loop

@@ -1,4 +1,5 @@
 name: com.audune.utils.types
+aliases: []
 displayName: Serializable Types
 description: Enables Unity to serialize a reference to a C# type in the editor, made
   for Unity 2022 LTS or higher.

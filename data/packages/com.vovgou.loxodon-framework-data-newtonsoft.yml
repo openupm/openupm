@@ -1,5 +1,6 @@
   
 name: com.vovgou.loxodon-framework-data-newtonsoft
+aliases: []
 displayName: Loxodon Framework Data Newtonsoft.JSON
 description: >-
     This is a plugin to export Excel data to Json or embedded database.

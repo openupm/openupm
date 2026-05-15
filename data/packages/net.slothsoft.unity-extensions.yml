@@ -1,4 +1,5 @@
 name: net.slothsoft.unity-extensions
+aliases: []
 displayName: Slothsoft's Unity Extensions
 description: 'C# extension functions, attributes and editor tools for common Unity problems.'
 repoUrl: 'https://github.com/Faulo/UnityExtensions'

@@ -1,4 +1,5 @@
 name: com.sturfee.digital-twin
+aliases: []
 displayName: Sturfee Digital Twin
 description: Digital Twin Spaces SDK to load and create Digital twin tiles
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.digital-twin'

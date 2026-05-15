@@ -1,4 +1,5 @@
 name: com.kc.mqtt
+aliases: []
 displayName: KC.MQTT
 description: "æ\x8F\x90ä¾\x9BMQTTå\x8A\x9Fè\x83½"
 repoUrl: https://github.com/zkyvette425/com.kc.mqtt

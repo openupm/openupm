@@ -1,4 +1,5 @@
 name: com.gamebooom.unity.mcp
+aliases: []
 displayName: Funplay MCP for Unity
 description: >-
   MIT-licensed MCP server for Unity Editor with execute_code, prompts/resources,

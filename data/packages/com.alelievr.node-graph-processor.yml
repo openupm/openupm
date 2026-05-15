@@ -1,4 +1,5 @@
 name: com.alelievr.node-graph-processor
+aliases: []
 displayName: Node Graph Processor
 description: >-
   Node graph editor framework focused on data processing using Unity UIElements

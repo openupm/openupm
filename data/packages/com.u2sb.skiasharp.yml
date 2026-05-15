@@ -1,4 +1,5 @@
 name: com.u2sb.skiasharp
+aliases: []
 displayName: UnitySkiaSharp
 description: SkiaSharp for Unity
 repoUrl: https://github.com/u2sb/UnitySkiaSharp

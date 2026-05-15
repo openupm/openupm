@@ -1,4 +1,5 @@
 name: com.pixelwizards.utilities
+aliases: []
 displayName: PixelWizards - Utilities
 description: Some Unity utilities (UV tools, resource checker etc) packaged for Unity's
   Package Manager

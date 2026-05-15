@@ -1,4 +1,5 @@
 name: com.fredericrp.easyloading
+aliases: []
 displayName: FRP Easy Loading
 description: Set of tools to load scenes and monitor its progress.
 repoUrl: 'https://github.com/FredericRP/EasyLoading'

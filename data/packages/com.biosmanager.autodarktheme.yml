@@ -1,4 +1,5 @@
 name: com.biosmanager.autodarktheme
+aliases: []
 displayName: Auto Dark Theme
 description: Automatically changes the Unity editor theme based on time or system settings.
 repoUrl: https://github.com/biosmanager/AutoDarkTheme

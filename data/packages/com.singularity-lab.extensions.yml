@@ -1,4 +1,5 @@
 name: com.singularity-lab.extensions
+aliases: []
 displayName: Singularity Lab Extensions
 description: Singularity Lab Framework
 repoUrl: 'https://github.com/Silentdesu/SingularityLab-Extensions'

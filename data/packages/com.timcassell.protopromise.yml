@@ -1,4 +1,5 @@
 name: com.timcassell.protopromise
+aliases: []
 displayName: ProtoPromise
 description: Robust and efficient library for management of asynchronous operations.
 repoUrl: 'https://github.com/timcassell/ProtoPromise'

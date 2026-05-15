@@ -1,4 +1,5 @@
 name: com.studio23.ss2.authsystem.steam
+aliases: []
 displayName: Authentication System - Steam
 description: >-
   This is an authentication system for steam. Used for checking and validating

@@ -1,4 +1,5 @@
 name: com.mygamedevtools.fps-counter
+aliases: []
 displayName: FPS Counter
 description: >-
   A lightweight FPS Counter. Tracks average, minimum and maximum frames per

@@ -1,4 +1,5 @@
 name: com.bdeshi.btsm
+aliases: []
 displayName: "BTSM: Behavior Tree + FSM library"
 description: >-
   BTSM is a Behavior Tree + Finite State Machine library that allows you to

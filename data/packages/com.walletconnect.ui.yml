@@ -1,4 +1,5 @@
 name: com.walletconnect.ui
+aliases: []
 displayName: WalletConnectUnity UI
 description: >-
   This is a technical package that provides UI for WalletConnect Modal. It is not intended to be used directly, but rather as a dependency of WalletConnectModal.

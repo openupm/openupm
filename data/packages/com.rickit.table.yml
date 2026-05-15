@@ -1,4 +1,5 @@
 name: com.rickit.table
+aliases: []
 displayName: RicKit Table
 description: RicKit Table, CSV, ScriptableObject
 repoUrl: https://github.com/rickytheoldtree/com.rickit.table

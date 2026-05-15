@@ -1,4 +1,5 @@
 name: com.eastylabs.rosalina
+aliases: []
 displayName: Rosalina
 description: >-
   Rosalina is an UI Toolkit extension tool that generates C# binding scripts

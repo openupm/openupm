@@ -1,4 +1,5 @@
 name: com.amequus.levers
+aliases: []
 displayName: Levers
 description: A collection of drawing primitives for use in unity editor scripts
 repoUrl: https://github.com/errorStream/Levers

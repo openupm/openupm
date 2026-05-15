@@ -1,4 +1,5 @@
 name: com.hecomi.uwindowcapture
+aliases: []
 displayName: uWindowCapture
 description: >-
   This allows you to use Windows Graphics Capture / PrintWindow / BitBlt in

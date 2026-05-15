@@ -1,4 +1,5 @@
 name: com.brogan89.screenswipe
+aliases: []
 displayName: Screen Swipe
 description: ScrollRect that snaps pages to screen size
 repoUrl: 'https://github.com/brogan89/ScreenSwipe'

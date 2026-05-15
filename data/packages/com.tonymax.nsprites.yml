@@ -1,4 +1,5 @@
 name: com.tonymax.nsprites
+aliases: []
 displayName: NSprites
 description: Entities sprite rendering system. Uses GPU instancing with compute buffers
   to draw entities as sprites.

@@ -1,4 +1,5 @@
 name: com.jasonxudeveloper.jengine
+aliases: []
 displayName: JEngine
 description: "JEngine is a streamlined and easy-to-use framework designed for Unity Programmers which contains powerful features, beginners can start up quickly and making hot update-able games easily"
 repoUrl: 'https://github.com/JasonXuDeveloper/JEngine'

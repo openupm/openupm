@@ -1,4 +1,5 @@
 name: com.cysharp.messagepipe.interprocess
+aliases: []
 displayName: MessagePipe.Interprocess
 description: MessagePipe Interprocess Extension.
 repoUrl: 'https://github.com/Cysharp/MessagePipe'

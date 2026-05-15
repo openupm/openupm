@@ -1,4 +1,5 @@
 name: games.effortstar.animation-curve-monitor
+aliases: []
 displayName: Animation Curve Monitor
 description: Syncs animation curve names with object renames.
 repoUrl: https://github.com/EffortStar/animation-curve-monitor

@@ -1,4 +1,5 @@
 name: jp.nobnak.osc
+aliases: []
 displayName: OSC
 description: A minimal OSC receiver implementation for Unity.
 repoUrl: https://github.com/nobnak/unity-osc

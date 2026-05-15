@@ -1,4 +1,5 @@
 name: com.3d-group.unity-simple-localization
+aliases: []
 displayName: 3D Group - Localization
 description: Simple localization package for Unity game engine
 repoUrl: 'https://github.com/3d-group/unity-simple-localization'

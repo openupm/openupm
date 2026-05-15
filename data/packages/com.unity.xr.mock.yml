@@ -1,4 +1,5 @@
 name: com.unity.xr.mock
+aliases: []
 displayName: UnityXRMock XR Plugin
 description: Unity Editor plugin that let's you mock AR environment for development
   & testing on your PC.

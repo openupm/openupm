@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.mutators.objectfollower.unity
+aliases: []
 displayName: Tilia Mutators ObjectFollower Unity
 description: >-
   A mechanism to make a target GameObject follow a source GameObject in the

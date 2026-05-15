@@ -1,4 +1,5 @@
 name: com.miragenet.epicsocket
+aliases: []
 displayName: Epic online service for Mirage
 description: 'Epic online servers for Mirage, includes relay, lobbies and other features'
 repoUrl: 'https://github.com/MirageNet/EpicSocket'

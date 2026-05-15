@@ -1,4 +1,5 @@
 name: com.ligofff.simpletools-sapc-pack
+aliases: []
 displayName: Simple Tools SAPC Pack
 description: SAPC - Serializable Actions, Providers and Conditions. Pack of useful
   serializable classes for using in game developmnet. Requires Odin Inspector for

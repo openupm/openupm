@@ -1,4 +1,5 @@
 name: com.bugsplat.unity
+aliases: []
 displayName: BugSplat
 description: Unity crash reporting powered by BugSplat
 repoUrl: 'https://github.com/BugSplat-Git/bugsplat-unity'

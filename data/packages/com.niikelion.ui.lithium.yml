@@ -1,4 +1,5 @@
 name: com.niikelion.ui.lithium
+aliases: []
 displayName: Lithium UI
 description: Reactive UI library designed for editor tools creation.
 repoUrl: https://github.com/Niikelion/lithium-ui

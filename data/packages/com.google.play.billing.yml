@@ -1,4 +1,5 @@
 name: com.google.play.billing
+aliases: []
 displayName: Google Play Billing Library
 description: >-
   Package contains Google Play Billing Library, which is required to sell

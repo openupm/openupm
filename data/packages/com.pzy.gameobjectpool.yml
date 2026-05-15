@@ -1,4 +1,5 @@
 name: com.pzy.gameobjectpool
+aliases: []
 displayName: Game Object Pool
 description: 提供按预制件分类的游戏对象池
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'

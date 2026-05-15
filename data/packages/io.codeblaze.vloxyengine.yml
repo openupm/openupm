@@ -1,4 +1,5 @@
 name: io.codeblaze.vloxyengine
+aliases: []
 displayName: Vloxy Engine
 description: High performance voxel engine
 repoUrl: 'https://github.com/BLaZeKiLL/VloxyEngine'

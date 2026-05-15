@@ -1,4 +1,5 @@
 name: com.mzaks.flexbuffers
+aliases: []
 displayName: FlexBuffers Support
 description: Unity package bringing FlexBuffers support to your Unity3D projects
 repoUrl: 'https://github.com/mzaks/FlexBuffersUnity'

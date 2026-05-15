@@ -1,4 +1,5 @@
 name: extensions.unity.theme
+aliases: []
 displayName: Unity Theme
 description: >-
   Create palettes of colors and components for change specific color on a

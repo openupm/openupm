@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.bidmachine
+aliases: []
 displayName: Google Mobile Ads BidMachine Mediation
 description: >-
   The Google Mobile Ads mediation plugin for BidMachine package allows you to

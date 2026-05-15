@@ -1,4 +1,5 @@
 name: com.annulusgames.lit-motion
+aliases: []
 displayName: LitMotion
 description: Lightning-fast and Zero Allocation Tween Library for Unity.
 repoUrl: https://github.com/AnnulusGames/LitMotion

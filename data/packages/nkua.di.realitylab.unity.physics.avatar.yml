@@ -1,4 +1,5 @@
 name: nkua.di.realitylab.unity.physics.avatar
+aliases: []
 displayName: NKUA.DI.RealityLab.Physics.Avatar
 description: >-
   A set of tools to help with physical avatar representation in virtual

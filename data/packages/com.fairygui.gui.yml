@@ -1,4 +1,5 @@
 name: com.fairygui.gui
+aliases: []
 displayName: FairyGUI
 description: A flexible UI framework for Unity
 repoUrl: 'https://github.com/hqpko/FairyGUI-unity'

@@ -1,4 +1,5 @@
 name: extensions.unity.ubuilder
+aliases: []
 displayName: UBuilder
 description: Unity command line builder scripts.
 repoUrl: 'https://github.com/IvanMurzak/UBuilder'

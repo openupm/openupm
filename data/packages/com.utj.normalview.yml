@@ -1,4 +1,5 @@
 name: com.utj.normalview
+aliases: []
 displayName: NormalView
 description: >-
   The normal line, tangent line, and binormal line of the Mesh are displayed on

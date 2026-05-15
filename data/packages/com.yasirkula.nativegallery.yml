@@ -1,4 +1,5 @@
 name: com.yasirkula.nativegallery
+aliases: []
 displayName: Native Gallery
 description: >-
   A native Unity plugin to interact with Gallery/Photos on Android & iOS (save

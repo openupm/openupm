@@ -1,4 +1,5 @@
 name: com.roytheunissen.spatial-rumble
+aliases: []
 displayName: Spatial Rumble
 description: >-
   System for emitting pre-defined controller vibrations/rumbles in a spatialized

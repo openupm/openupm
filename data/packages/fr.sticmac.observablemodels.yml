@@ -1,4 +1,5 @@
 name: fr.sticmac.observablemodels
+aliases: []
 displayName: Observable Models
 description: Creating variable as observable scriptable object models
 repoUrl: 'https://github.com/sticmac/unity-observable-models'

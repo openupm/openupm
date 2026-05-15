@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity
+aliases: []
 displayName: Toolnity
 description: Editor Tools and Gameplay Utilities for Unity
 repoUrl: 'https://github.com/DTeruel/Toolnity'

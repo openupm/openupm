@@ -1,4 +1,5 @@
 name: com.tratteo.pury
+aliases: []
 displayName: Pury
 description: A lightweight Unity library for creating editor windows with ease
 repoUrl: 'https://github.com/tratteo/Pury'

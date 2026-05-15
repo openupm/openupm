@@ -1,4 +1,5 @@
 name: com.utilities.rest
+aliases: []
 displayName: Utilities.Rest
 description: This package contains useful RESTful utilities for the Unity Game Engine.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.rest'

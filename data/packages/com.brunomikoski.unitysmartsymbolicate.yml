@@ -1,4 +1,5 @@
 name: com.brunomikoski.unitysmartsymbolicate
+aliases: []
 displayName: Smart Symbolicate
 description: A tool to help you symbolicate android crashes
 repoUrl: 'https://github.com/brunomikoski/UnitySmartSymbolicate'

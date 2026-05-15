@@ -1,4 +1,6 @@
 name: com.hryooba.network
+aliases:
+  - com.hryooba.library.network
 displayName: HRYooba.Network
 description: |-
   Unity HRYooba

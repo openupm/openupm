@@ -1,4 +1,5 @@
 name: com.brewedink.postuss
+aliases: []
 displayName: BrewedInk PostUSS
 description: transpile modern CSS to USS
 repoUrl: 'https://github.com/cdhanna/postUSS'

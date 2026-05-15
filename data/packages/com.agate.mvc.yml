@@ -1,4 +1,5 @@
 name: com.agate.mvc
+aliases: []
 displayName: Agate MVC
 description: MVC Framework for Unity
 repoUrl: 'https://github.com/AgateInternational/MVC'

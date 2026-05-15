@@ -1,4 +1,5 @@
 name: com.gamedevware.text-transform
+aliases: []
 displayName: T4 Text Templates for Unity
 description: >-
   This Unity editor extension provides T4 text templates processor. T4 template

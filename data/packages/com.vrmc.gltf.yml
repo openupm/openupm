@@ -1,4 +1,5 @@
 name: com.vrmc.gltf
+aliases: []
 displayName: UniGLTF
 description: GLTF importer and exporter
 repoUrl: 'https://github.com/vrm-c/UniVRM'

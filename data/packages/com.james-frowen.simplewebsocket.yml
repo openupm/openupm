@@ -1,4 +1,5 @@
 name: com.james-frowen.simplewebsocket
+aliases: []
 displayName: SimpleWebSocket for Mirage
 description: Websocket support for Mirage using SimpleWebTransporet
 repoUrl: 'https://github.com/James-Frowen/SimpleWebSocket'

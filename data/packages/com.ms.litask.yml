@@ -1,4 +1,5 @@
 name: com.ms.litask
+aliases: []
 displayName: ''
 description: .Net/Unity lightweight allocation free  Task-like object
 repoUrl: 'https://github.com/wlgys8/LitTask'

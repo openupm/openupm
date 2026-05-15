@@ -1,4 +1,5 @@
 name: com.gameworkstore.googleprotobufunity
+aliases: []
 displayName: GameWorkstore GoogleProtobuf Unity
 description: Google Protobuf C#/GoLang/Python Library for Unity
 repoUrl: 'https://github.com/GameWorkstore/google-protobuf-unity'

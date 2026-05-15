@@ -1,4 +1,5 @@
 name: io.chainsafe.web3-unity
+aliases: []
 displayName: web3.unity SDK
 description: web3.unity is an open-source gaming SDK written in C# and developed by
   ChainSafe Gaming. It connects games built in the Unity game engine to the blockchain.

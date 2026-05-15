@@ -1,4 +1,5 @@
 name: com.quabug.graph-ext
+aliases: []
 displayName: Graph Ext
 description: A library to help you customize your own Unity3D Graph solution.
 repoUrl: 'https://github.com/quabug/GraphExt'

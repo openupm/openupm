@@ -1,4 +1,5 @@
 name: com.jonagill.unityinternalaccess
+aliases: []
 displayName: Unity Internal Access
 description: Helpers that expose access to some internal UnityEngine & UnityEditor APIs.
 repoUrl: https://github.com/jonagill/UnityInternalAccess

@@ -1,4 +1,5 @@
 name: dev.comradevanti.async-op-to-task.addressables
+aliases: []
 displayName: AsyncOp to Task - Addressables
 description: A unity package for converting addressable-async-op objects to tasks
 repoUrl: 'https://github.com/ComradeVanti/AsyncOpToTask.Addressables'

@@ -1,4 +1,5 @@
 name: com.xrtk.gltf
+aliases: []
 displayName: XRTK.glTF
 description: The glTF components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/glTF'

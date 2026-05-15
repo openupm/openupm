@@ -1,4 +1,5 @@
 name: com.matthewminer.bigimagerecorder
+aliases: []
 displayName: Big Image Recorder
 description: Recorder to capture image sequences that exceed Unity's maximum texture size.
 repoUrl: 'https://github.com/mminer/big-image-recorder'

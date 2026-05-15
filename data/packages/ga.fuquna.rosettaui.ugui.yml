@@ -1,4 +1,5 @@
 name: ga.fuquna.rosettaui.ugui
+aliases: []
 displayName: RosettaUI.UGUI
 description: Code-based multi gui interface for UGUI
 repoUrl: 'https://github.com/fuqunaga/RosettaUI'

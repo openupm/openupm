@@ -1,4 +1,5 @@
 name: com.okanegames.editorusersettings-viewer
+aliases: []
 displayName: EditorUserSettings Viewer
 description: >-
   Editor extension window displaying the contents of EditorUserSettings in

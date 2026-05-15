@@ -1,4 +1,5 @@
 name: com.ms.shell
+aliases: []
 displayName: Unity Shell
 description: execute shell command in Unity Editor
 repoUrl: 'https://github.com/wlgys8/UnityShell'

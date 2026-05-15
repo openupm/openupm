@@ -1,4 +1,5 @@
 name: com.faster-games.t4
+aliases: []
 displayName: T4 Templates
 description: T4 text template generative importer for Unity3D
 repoUrl: https://github.com/faster-games/t4

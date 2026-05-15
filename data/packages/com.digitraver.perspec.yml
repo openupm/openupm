@@ -1,4 +1,5 @@
 name: com.digitraver.perspec
+aliases: []
 displayName: PerSpec Testing Framework
 description: >-
   Professional Unity TDD framework with UniTask async patterns, DOTS support,

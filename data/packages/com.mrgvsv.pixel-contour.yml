@@ -1,4 +1,5 @@
 name: com.mrgvsv.pixel-contour
+aliases: []
 displayName: Pixel Contour
 description: Pixel-art contour detection for Unity
 repoUrl: 'https://github.com/MrGVSV/pixel-contour'

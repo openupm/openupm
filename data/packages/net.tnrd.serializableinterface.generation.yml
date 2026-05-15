@@ -1,4 +1,5 @@
 name: net.tnrd.serializableinterface.generation
+aliases: []
 displayName: Serializable Interface Generation
 description: >-
   An automatic generation addon to Serializable Interface

@@ -1,4 +1,5 @@
 name: com.ivanmurzak.unity.mcp
+aliases: []
 displayName: AI Game Developer — SKILLS, MCP
 description: >-
   AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.

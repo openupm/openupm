@@ -1,4 +1,5 @@
 name: me.guyl.xtags
+aliases: []
 displayName: XTags
 description: Extra tags/keywords for Unity script templates
 repoUrl: 'https://github.com/bguyl/UnityScriptTemplates-XTags'

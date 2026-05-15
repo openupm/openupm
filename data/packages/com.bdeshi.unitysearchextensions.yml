@@ -1,4 +1,5 @@
 name: com.bdeshi.unitysearchextensions
+aliases: []
 displayName: Bdeshi-dev's unity search extensions
 description: Extensions to unity search package for quick navigation in the editor
 repoUrl: https://github.com/BDeshiDev/UnitySearchExtension

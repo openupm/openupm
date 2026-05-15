@@ -1,4 +1,5 @@
 name: com.facebook.witai
+aliases: []
 displayName: Wit.ai
 description: >-
   wit-unity is the Unity SDK for Wit.ai. It provides convenience tools for

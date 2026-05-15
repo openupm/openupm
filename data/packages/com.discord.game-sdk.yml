@@ -1,4 +1,5 @@
 name: com.discord.game-sdk
+aliases: []
 displayName: Discord Game SDK
 description: A Unity Package Manager compatible version of the Discord Game SDK
 repoUrl: https://github.com/HouraiTeahouse/Discord-Game-SDK

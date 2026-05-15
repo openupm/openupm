@@ -1,4 +1,5 @@
 name: com.fullmetalbagel.overlook-logging
+aliases: []
 displayName: Overlook Logging (Microsoft.Extensions.Logging)
 description: >-
   Microsoft.Extensions.Logging abstractions for Unity. Provides ILogger,

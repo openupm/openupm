@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite.threads
+aliases: []
 displayName: LeoECS Lite Threads
 description: LeoECS Lite Threads support for LeoECS Lite.
 repoUrl: 'https://github.com/Leopotam/ecslite-threads'

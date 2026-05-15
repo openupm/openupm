@@ -1,4 +1,5 @@
 name: com.unity.meshsync.dcc-plugins
+aliases: []
 displayName: MeshSync DCC Plugins
 description: >-
   This package contains plugin binaries of DCC tools for using MeshSync, which

@@ -1,4 +1,5 @@
 name: co.mindport.vrbuilder.core
+aliases: []
 displayName: VR Builder
 description: VR Builder core functionality.
 repoUrl: https://github.com/MindPort-GmbH/VR-Builder

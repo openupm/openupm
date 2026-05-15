@@ -1,4 +1,5 @@
 name: com.niikelion.utils.be-reactive
+aliases: []
 displayName: BeReactive
 description: >-
   Reactive library inspired by System.Reactive that does not require any

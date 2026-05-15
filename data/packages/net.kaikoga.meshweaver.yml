@@ -1,4 +1,5 @@
 name: net.kaikoga.meshweaver
+aliases: []
 displayName: MeshWeaver
 description: Procedurally build mesh data in Unity editor. Build LoD and collider along.
 repoUrl: 'https://github.com/kaikoga/MeshWeaver-unity'

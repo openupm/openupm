@@ -1,4 +1,5 @@
 name: com.inc8877.unity-debug-mode-define-symbol
+aliases: []
 displayName: UnityDebugModeDefineSymbol
 description: A useful tool for running specific code
 repoUrl: 'https://github.com/inc8877/UnityDebugModeDefineSymbol'

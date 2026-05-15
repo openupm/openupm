@@ -1,4 +1,5 @@
 name: io.mrwatts.item-containers
+aliases: []
 displayName: Item Containers
 description: >-
   Reduces boilerplate when populating and managing item containers (lists,

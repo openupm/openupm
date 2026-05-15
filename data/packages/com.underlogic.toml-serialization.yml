@@ -1,4 +1,5 @@
 name: com.underlogic.toml-serialization
+aliases: []
 displayName: TOML Serialization
 description: Serialization library for TOML files
 repoUrl: 'https://github.com/UnderLogic/toml-serialization'

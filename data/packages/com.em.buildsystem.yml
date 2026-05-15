@@ -1,4 +1,5 @@
 name: com.em.buildsystem
+aliases: []
 displayName: EM.BuildSystem
 description: ''
 repoUrl: 'https://github.com/epishev-m/EM.BuildSystem'

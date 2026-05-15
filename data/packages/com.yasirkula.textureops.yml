@@ -1,4 +1,5 @@
 name: com.yasirkula.textureops
+aliases: []
 displayName: Texture Ops
 description: A basic image processing plugin for Unity
 repoUrl: 'https://github.com/yasirkula/UnityTextureOps'

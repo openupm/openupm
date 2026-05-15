@@ -1,4 +1,5 @@
 name: com.gameframe.tunes
+aliases: []
 displayName: Gameframe.Tunes
 description: >-
   Automatically pause Music (iTunes/Spotify) on Windows and OSX when entering

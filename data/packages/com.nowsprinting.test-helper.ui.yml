@@ -1,4 +1,6 @@
 name: com.nowsprinting.test-helper.ui
+aliases:
+  - com.nowsprinting.test-helper.monkey
 displayName: UI Test Helper
 description: A library for object-based monkey and UI testing.
 repoUrl: 'https://github.com/nowsprinting/test-helper.ui'

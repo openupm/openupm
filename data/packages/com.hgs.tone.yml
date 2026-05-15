@@ -1,4 +1,5 @@
 name: com.hgs.tone
+aliases: []
 displayName: HGS Tone
 description: Simple tool to play musical notes
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-tone'

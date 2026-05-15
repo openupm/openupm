@@ -1,4 +1,5 @@
 name: com.maoyeedy.wakatime
+aliases: []
 displayName: WakaTime
 description: WakaTime/Wakapi plugin for Unity
 repoUrl: https://github.com/Maoyeedy/Wakatime.Unity

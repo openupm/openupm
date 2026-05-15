@@ -1,4 +1,5 @@
 name: com.lemonity.core
+aliases: []
 displayName: Lemonity Core
 description: >-
   Motion algorithms, gesture recognition, and tracking abstractions for Lemonity.

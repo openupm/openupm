@@ -1,4 +1,5 @@
 name: com.mitay-walle.gradient-texture
+aliases: []
 displayName: Gradient Texture
 description: >-
   Unity Procedural gradient texture generator. Texture2D-Gradient generated dynamicly at Editor-time, by ScriptableObject

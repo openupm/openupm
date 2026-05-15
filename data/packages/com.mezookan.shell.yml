@@ -1,4 +1,5 @@
 name: com.mezookan.shell
+aliases: []
 displayName: Unity Shell
 description: Unity Shell
 repoUrl: 'https://github.com/Abbabon/UnityShell'

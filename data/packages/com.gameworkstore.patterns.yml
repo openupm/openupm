@@ -1,4 +1,5 @@
 name: com.gameworkstore.patterns
+aliases: []
 displayName: GameWorkstore Patterns
 description: Patterns Library for Unity Projects or C# projects
 repoUrl: 'https://github.com/GameWorkstore/patterns'

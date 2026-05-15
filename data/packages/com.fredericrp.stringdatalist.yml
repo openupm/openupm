@@ -1,4 +1,5 @@
 name: com.fredericrp.stringdatalist
+aliases: []
 displayName: FRP String Data List
 description: >-
   Let say you want to allow your designer to edit some string properties in your

@@ -1,4 +1,5 @@
 name: com.serilog.sinks.unity3d
+aliases: []
 displayName: Serilog Sink for Unity 3D
 description: Serilog Sink for unity 3D Debug log
 repoUrl: 'https://github.com/KuraiAndras/Serilog.Sinks.Unity3D'

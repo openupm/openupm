@@ -1,4 +1,5 @@
 name: com.redsaw.commandline
+aliases: []
 displayName: Inner Game Console
 description: an inner game command line tool
 repoUrl: https://github.com/529324416/UnityCommandLineInterface

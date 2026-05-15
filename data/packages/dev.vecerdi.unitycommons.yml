@@ -1,4 +1,6 @@
 name: dev.vecerdi.unitycommons
+aliases:
+  - com.github.teodorvecerdi.unitycommons
 displayName: Unity Commons
 description: Library of project-agnostic & reusable scripts
 repoUrl: 'https://github.com/TeodorVecerdi/UnityCommons'

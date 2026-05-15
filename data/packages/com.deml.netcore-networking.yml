@@ -1,4 +1,5 @@
 name: com.deml.netcore-networking
+aliases: []
 displayName: Net Core Networking Sockets
 description: NetCoreServer Client implementation for Unity
 repoUrl: 'https://github.com/JohannesDeml/Unity-Net-Core-Networking-Sockets'

@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-inmobi-mediation
+aliases: []
 displayName: InMobi adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use InMobi ad network in conjuction with Yandex Mobile

@@ -1,4 +1,5 @@
 name: com.skillitronic.playerloopcustomizationapi.addons.runner
+aliases: []
 displayName: PlayerLoop customization API Runner
 description: Add your own loop runners
 repoUrl: >-

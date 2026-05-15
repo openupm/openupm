@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-pangle-mediation
+aliases: []
 displayName: Pangle adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use Pangle ad network in conjuction with Yandex Mobile

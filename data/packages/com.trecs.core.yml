@@ -1,4 +1,5 @@
 name: com.trecs.core
+aliases: []
 displayName: Trecs
 description: A high-performance, deterministic Entity Component System framework for Unity
 repoUrl: https://github.com/svermeulen/trecs

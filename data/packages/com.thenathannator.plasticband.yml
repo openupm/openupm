@@ -1,4 +1,5 @@
 name: com.thenathannator.plasticband
+aliases: []
 displayName: PlasticBand
 description: >-
   An add-on for the Unity InputSystem package that adds special bindings for

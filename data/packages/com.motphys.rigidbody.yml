@@ -1,4 +1,5 @@
 name: com.motphys.rigidbody
+aliases: []
 displayName: Motphys Rigidbody
 description: Motphys Rigidbody Unity SDK
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk

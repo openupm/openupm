@@ -1,4 +1,5 @@
 name: com.cammin.ldtkunity
+aliases: []
 displayName: LDtk to Unity
 description: >-
   A package for easy Unity-integration with the Level Designer Toolkit, created

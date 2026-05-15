@@ -1,4 +1,5 @@
 name: com.barryy.unused-assets-detector
+aliases: []
 displayName: UnusedAssetsDetector
 description: >-
   a Unity editor tool designed to detect unused assets in your project. This

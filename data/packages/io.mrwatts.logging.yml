@@ -1,4 +1,5 @@
 name: io.mrwatts.logging
+aliases: []
 displayName: Mr. Watts Logging
 description: Packages used to easily integrate logging into a unity project
 repoUrl: https://github.com/mr-watts/io.mrwatts.serilog-integration

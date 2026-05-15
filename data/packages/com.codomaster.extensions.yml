@@ -1,4 +1,5 @@
 name: com.codomaster.extensions
+aliases: []
 displayName: Unity API Extensions
 description: >-
   This package contains a lot of extension methods for unity, which make

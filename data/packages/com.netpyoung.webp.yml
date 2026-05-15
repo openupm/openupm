@@ -1,4 +1,5 @@
 name: com.netpyoung.webp
+aliases: []
 displayName: Unity.WebP
 description: webp made easy for Unity3d.
 repoUrl: 'https://github.com/netpyoung/unity.webp'

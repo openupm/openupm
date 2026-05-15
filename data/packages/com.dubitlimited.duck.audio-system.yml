@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.audio-system
+aliases: []
 displayName: Duck Audio System
 description: A simple and lightweight Audio System designed for 2D sounds playback
 repoUrl: 'https://github.com/dubit/duck-audio-system'

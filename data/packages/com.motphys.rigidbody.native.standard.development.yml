@@ -1,4 +1,5 @@
 name: com.motphys.rigidbody.native.standard.development
+aliases: []
 displayName: Motphys Rigidbody Native Plugin Standard Development Variant
 description: Motphys rigidbody physics engine in Rust, for Unity.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk

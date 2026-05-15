@@ -1,4 +1,5 @@
 name: com.gwaredd.unium
+aliases: []
 displayName: Unium
 description: Automation for Unity games
 repoUrl: 'https://github.com/gwaredd/unium'

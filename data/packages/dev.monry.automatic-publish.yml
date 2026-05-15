@@ -1,4 +1,5 @@
 name: dev.monry.automatic-publish
+aliases: []
 displayName: Automatic Publish
 description: Automatic publish UPM package when tag pushed
 repoUrl: 'https://github.com/monry/Automatic-Publish'

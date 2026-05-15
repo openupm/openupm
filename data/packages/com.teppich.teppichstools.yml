@@ -1,4 +1,5 @@
 name: com.teppich.teppichstools
+aliases: []
 displayName: Teppichs Tools
 description: General purpose C#/Unity tools
 repoUrl: 'https://github.com/JohannesSpicker/TeppichsTools'

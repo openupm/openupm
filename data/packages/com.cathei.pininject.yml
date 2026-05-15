@@ -1,4 +1,5 @@
 name: com.cathei.pininject
+aliases: []
 displayName: PinInject
 description: Minimalistic Dependency Injection tool for Unity
 repoUrl: 'https://github.com/cathei/PinInject'

@@ -1,4 +1,5 @@
 name: com.v0lt.editor-attributes
+aliases: []
 displayName: EditorAttributes
 description: >-
   EditorAttributes is a unity package that adds some extra editor attributes to

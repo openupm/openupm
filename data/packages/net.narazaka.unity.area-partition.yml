@@ -1,4 +1,5 @@
 name: net.narazaka.unity.area-partition
+aliases: []
 displayName: Area Partition
 description: >-
   Automatically generates grid-based area partitions for VRChat worlds, with

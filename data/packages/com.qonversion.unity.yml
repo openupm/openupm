@@ -1,4 +1,5 @@
 name: com.qonversion.unity
+aliases: []
 displayName: Qonversion
 description: ''
 repoUrl: 'https://github.com/qonversion/unity-sdk'

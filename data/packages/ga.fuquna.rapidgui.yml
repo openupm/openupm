@@ -1,4 +1,5 @@
 name: ga.fuquna.rapidgui
+aliases: []
 displayName: RapidGUI
 description: Unity OnGUI(IMGUI) extensions for Rapid prototyping/development
 repoUrl: 'https://github.com/fuqunaga/RapidGUI'

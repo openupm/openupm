@@ -1,4 +1,5 @@
 name: com.aceland.input
+aliases: []
 displayName: AceLand Input
 description: AceLand Input is a Unity Input System Implement package.
 repoUrl: https://github.com/parsue/com.aceland.input

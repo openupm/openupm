@@ -1,4 +1,5 @@
 name: ca.tekly.logger
+aliases: []
 displayName: Tekly Logger
 description: Logger
 repoUrl: 'https://github.com/matt-tekly/tekly-logger'

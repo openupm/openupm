@@ -1,4 +1,5 @@
 name: com.cmdexecutor.dotnet-generic-host
+aliases: []
 displayName: .NET Generic Host for Unity
 description: >-
   .NET Generic Host (Microsoft.Extensions.Hosting) DI container adapted for

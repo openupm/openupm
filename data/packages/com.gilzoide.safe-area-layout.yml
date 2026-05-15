@@ -1,4 +1,5 @@
 name: com.gilzoide.safe-area-layout
+aliases: []
 displayName: Safe Area Layout
 description: >-
   uGUI layout group for respecting the Safe Area, supports children's

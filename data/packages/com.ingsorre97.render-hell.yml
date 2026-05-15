@@ -1,4 +1,5 @@
 name: com.ingsorre97.render-hell
+aliases: []
 displayName: Render Hell
 description: 'A Unity project designed to test my HLSL skills and your GPU patience. '
 repoUrl: https://github.com/IngSorre97/Render-Hell

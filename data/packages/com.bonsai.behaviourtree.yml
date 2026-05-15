@@ -1,4 +1,5 @@
 name: com.bonsai.behaviourtree
+aliases: []
 displayName: Bonsai Behaviour Tree
 description: Advanced behavior tree solution with a graphical editor
 repoUrl: https://github.com/GariestGary/BonsaiBehaviourTree

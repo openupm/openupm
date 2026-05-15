@@ -1,4 +1,5 @@
 name: com.rickit.rframework
+aliases: []
 displayName: RicKit RFramework
 description: An IOC framework for Unity
 repoUrl: https://github.com/rickytheoldtree/com.rickit.rframework

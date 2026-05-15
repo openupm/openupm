@@ -1,4 +1,5 @@
 name: com.ltmx.mathematics.mathx
+aliases: []
 displayName: Unity.mathx
 description: Extension library for Unity.Mathematics
 repoUrl: 'https://github.com/LTMX/Unity.mathx'

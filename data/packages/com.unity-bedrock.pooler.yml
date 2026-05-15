@@ -1,4 +1,5 @@
 name: com.unity-bedrock.pooler
+aliases: []
 displayName: Pooler
 description: Extensible way of pooling objects in Unity.
 repoUrl: 'https://github.com/Unity-Bedrock/Pooler'

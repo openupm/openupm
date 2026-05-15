@@ -1,4 +1,5 @@
 name: com.razensoft.mapper
+aliases: []
 displayName: Razensoft.Mapper
 description: Simple mapper library for Unity
 repoUrl: 'https://github.com/Razenpok/Razensoft.Mapper'

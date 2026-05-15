@@ -1,4 +1,5 @@
 name: com.potatointeractive.podato
+aliases: []
 displayName: PoDato
 description: Reader/Writer for Unity/C# for easy to hand-write data file format PoDato
 repoUrl: 'https://github.com/tlauterbach/poDato'

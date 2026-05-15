@@ -1,4 +1,5 @@
 name: dev.upm-packages.animationevent-dispatcher
+aliases: []
 displayName: AnimationEvent Dispatcher
 description: Dispatch AnimationEvent by Animation
 repoUrl: 'https://github.com/umm/animationevent_dispatcher'

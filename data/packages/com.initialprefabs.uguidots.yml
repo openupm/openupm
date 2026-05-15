@@ -1,4 +1,5 @@
 name: com.initialprefabs.uguidots
+aliases: []
 displayName: UGUIDots
 description: Converting uGUI to be DOTS compliant
 repoUrl: 'https://github.com/InitialPrefabs/UGUIDots'

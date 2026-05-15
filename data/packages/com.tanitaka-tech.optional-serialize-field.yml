@@ -1,4 +1,5 @@
 name: com.tanitaka-tech.optional-serialize-field
+aliases: []
 displayName: Optional Serialize Field
 description: >-
   Unity plugin that outputs errors for null SerializeFields during runtime, with

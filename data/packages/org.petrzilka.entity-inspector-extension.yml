@@ -1,4 +1,5 @@
 name: org.petrzilka.entity-inspector-extension
+aliases: []
 displayName: Entity Inspector Extension
 description: Package for implementing custom entity component inspectors.
 repoUrl: 'https://github.com/OndrejPetrzilka/EntityComponentInspector'

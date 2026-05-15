@@ -1,4 +1,5 @@
 name: io.finalclick.unitythread
+aliases: []
 displayName: FinalClick - Unity Thread
 description: Easily run Functions and Tasks on Unitys main thread.
 repoUrl: https://github.com/FinalClick/io.finalclick.unitythread

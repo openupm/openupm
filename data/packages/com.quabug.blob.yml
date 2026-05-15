@@ -1,4 +1,5 @@
 name: com.quabug.blob
+aliases: []
 displayName: BLOB
 description: BLOB - an alternative way to build BLOB of Unity.Entities
 repoUrl: 'https://github.com/quabug/BLOB'

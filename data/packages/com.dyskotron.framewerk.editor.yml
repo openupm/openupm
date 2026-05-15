@@ -1,5 +1,6 @@
 # Framewerk Editor - Wizards, scaffolding, code generation
 name: com.dyskotron.framewerk.editor
+aliases: []
 displayName: Framewerk Editor
 description: Editor tools including wizards, scaffolding, and code generation utilities.
 repoUrl: 'https://github.com/dyskotron/Framewerk'

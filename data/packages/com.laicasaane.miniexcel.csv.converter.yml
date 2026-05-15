@@ -1,4 +1,5 @@
 name: com.laicasaane.miniexcel.csv.converter
+aliases: []
 displayName: MiniExcel.CSV.Converter
 description: Convert Excel workbooks to CSV files using MiniExcel library
 repoUrl: 'https://github.com/laicasaane/MiniExcel.CSV.Converter'

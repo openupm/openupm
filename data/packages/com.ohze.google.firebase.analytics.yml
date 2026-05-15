@@ -1,4 +1,5 @@
 name: com.ohze.google.firebase.analytics
+aliases: []
 displayName: Firebase Analytics
 description: Google Analytics helps you understand and engage your players by revealing
   what actions they're taking inside your game, where they spend the most time, and

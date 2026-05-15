@@ -1,4 +1,5 @@
 name: com.zbase.csv-reader
+aliases: []
 displayName: ZBase.Csv-Reader
 description: |-
   The fastest way to convert csv to Scriptable Object.

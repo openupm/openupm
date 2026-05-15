@@ -1,4 +1,5 @@
 name: com.wallstop-studios.dxmessaging
+aliases: []
 displayName: DxMessaging
 description: Synchronous Event Bus for Unity
 repoUrl: https://github.com/wallstop/DxMessaging

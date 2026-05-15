@@ -1,4 +1,5 @@
 name: com.twinfaerie.initializer
+aliases: []
 displayName: TwinFaerie Initializer
 description: For standarize and easier system initialization on unity
 repoUrl: 'https://github.com/TwinFaerie/twinfaerie-initializer'

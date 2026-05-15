@@ -1,4 +1,5 @@
 name: com.judahperez.hsvcolorpicker
+aliases: []
 displayName: HSV Color Picker
 description: HSV color picker for Unity UI
 repoUrl: 'https://github.com/judah4/HSV-Color-Picker-Unity'

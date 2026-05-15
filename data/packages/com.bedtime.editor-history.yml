@@ -1,4 +1,5 @@
 name: com.bedtime.editor-history
+aliases: []
 displayName: Editor History
 description: View and navigate your selection history
 repoUrl: 'https://github.com/BedtimeDigitalGames/Unity-Editor-History'

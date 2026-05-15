@@ -1,4 +1,6 @@
 name: com.ar-tracking.dtrack
+aliases:
+  - com.art.dtrack
 displayName: ART DTRACK Plugin
 description: Plugin for ART DTRACK tracking systems.
 repoUrl: 'https://github.com/ar-tracking/UnityDTrackPlugin'

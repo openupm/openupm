@@ -1,4 +1,5 @@
 name: com.adityarahmanda.javanese-textmeshpro
+aliases: []
 displayName: Javanese TextMeshPro
 description: >-
   Javanese language support for Unity TextMeshPro. Javanese-Latin and Latin-Javanese transliteration tool included.

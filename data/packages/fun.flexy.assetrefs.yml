@@ -1,4 +1,5 @@
 name: fun.flexy.assetrefs
+aliases: []
 displayName: Flexy AssetRefs
 description: >-
   Flexy.AssetRefs provides an efficient way to indirectly reference assets and

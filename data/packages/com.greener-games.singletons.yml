@@ -1,4 +1,5 @@
 name: com.greener-games.singletons
+aliases: []
 displayName: Unity singleton
 description: Collection of Singleton for use in unity
 repoUrl: 'https://github.com/Greener-Games/Singleton'

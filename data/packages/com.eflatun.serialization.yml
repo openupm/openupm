@@ -1,4 +1,5 @@
 name: com.eflatun.serialization
+aliases: []
 displayName: Eflatun.Serialization
 description: Serialization utilities for Unity.
 repoUrl: 'https://github.com/starikcetin/Eflatun.Serialization'

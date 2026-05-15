@@ -1,4 +1,5 @@
 name: com.gameframe.postprocessing
+aliases: []
 displayName: Gameframe.PostProcessing
 description: 'Additional effects for Unity''s Post Processing stack. '
 repoUrl: 'https://github.com/coryleach/UnityPostProcessing'

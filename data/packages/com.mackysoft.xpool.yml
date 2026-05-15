@@ -1,4 +1,5 @@
 name: com.mackysoft.xpool
+aliases: []
 displayName: XPool
 description: Object pooling system for Unity.
 repoUrl: 'https://github.com/mackysoft/XPool'

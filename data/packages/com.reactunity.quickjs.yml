@@ -1,4 +1,5 @@
 name: com.reactunity.quickjs
+aliases: []
 displayName: React Unity QuickJS
 description: QuickJS Plugin for ReactUnity
 repoUrl: 'https://github.com/ReactUnity/quickjs'

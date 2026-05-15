@@ -1,4 +1,5 @@
 name: com.tencent.puerts.webgl
+aliases: []
 displayName: Puerts WebGL Support
 description: >-
   Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment

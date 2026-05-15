@@ -1,4 +1,5 @@
 name: com.hibzz.console
+aliases: []
 displayName: hibzz.console
 description: A simple and flexible in-game console
 repoUrl: 'https://github.com/hibzzgames/com.hibzz.console'

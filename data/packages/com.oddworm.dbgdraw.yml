@@ -1,4 +1,5 @@
 name: com.oddworm.dbgdraw
+aliases: []
 displayName: Debug Draw API
 description: >-
   DbgDraw is an API that provides the ability to render various 2D and 3D shapes

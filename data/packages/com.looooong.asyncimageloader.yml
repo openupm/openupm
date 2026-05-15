@@ -1,4 +1,5 @@
 name: com.looooong.asyncimageloader
+aliases: []
 displayName: Asynchronous Image Loader
 description: An asynchronous version of ImageConversion.LoadImage.
 repoUrl: 'https://github.com/Looooong/UnityAsyncImageLoader'

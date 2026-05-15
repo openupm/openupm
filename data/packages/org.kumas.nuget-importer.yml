@@ -1,4 +1,5 @@
 name: org.kumas.nuget-importer
+aliases: []
 displayName: NuGet Importer
 description: Editor extension for importing NuGet packages.
 repoUrl: 'https://github.com/kumaS-nu/NuGet-importer-for-Unity'

@@ -1,4 +1,5 @@
 name: com.macacagames.gamesystem
+aliases: []
 displayName: Macaca Game System
 description: A framework helps you build your games
 repoUrl: 'https://github.com/MacacaGames/GameSystem'

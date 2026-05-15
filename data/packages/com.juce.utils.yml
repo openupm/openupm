@@ -1,4 +1,5 @@
 name: com.juce.utils
+aliases: []
 displayName: Juce-Utils
 description: Utils repo that's part of the Juce Unity framework
 repoUrl: 'https://github.com/Juce-Assets/Juce-Utils'

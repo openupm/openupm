@@ -1,4 +1,5 @@
 name: com.frostbun.unit
+aliases: []
 displayName: UniT
 description: A lightweight Unity library for common tasks
 repoUrl: https://github.com/frostbun/UniT

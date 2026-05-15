@@ -1,4 +1,5 @@
 name: ai.natml.vision.blazepose
+aliases: []
 displayName: BlazePose
 description: Pose detection with MediaPipe BlazePose.
 repoUrl: https://github.com/natmlx/blazepose-unity

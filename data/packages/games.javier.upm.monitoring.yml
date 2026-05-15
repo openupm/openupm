@@ -1,4 +1,5 @@
 name: games.javier.upm.monitoring
+aliases: []
 displayName: Monitoring for Unity
 description: This package contains tools for monitoring.
 repoUrl: https://github.com/javier-games/upm-monitoring

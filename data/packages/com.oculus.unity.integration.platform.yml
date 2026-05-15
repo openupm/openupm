@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.platform
+aliases: []
 displayName: Oculus Integration Platform
 description: Unofficial mirror of the Oculus Unity-Integration Platform as a package
   for Unity.

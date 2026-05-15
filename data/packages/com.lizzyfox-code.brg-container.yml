@@ -1,4 +1,5 @@
 name: com.lizzyfox-code.brg-container
+aliases: []
 displayName: BRG Container
 description: A Batch Rendering Group Tool for Unity.
 repoUrl: https://github.com/LizzyFox-code/BrgContainer

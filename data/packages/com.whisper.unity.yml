@@ -1,4 +1,5 @@
 name: com.whisper.unity
+aliases: []
 displayName: Whisper
 description: >-
   Whisper is high-performance automatic speech recognition (ASR) model,

@@ -1,4 +1,5 @@
 name: com.hauntedpsx.render-pipelines.psx
+aliases: []
 displayName: HauntedPS1 Render Pipeline
 description: >-
   A scriptable render pipeline for emulating Playstation-1-style graphics on

@@ -1,4 +1,5 @@
 name: com.activ.goap
+aliases: []
 displayName: xGOAP
 description: Goal oriented action planning beyond GOAP
 repoUrl: 'https://github.com/active-logic/xgoap'

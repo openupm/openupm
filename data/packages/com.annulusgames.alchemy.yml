@@ -1,4 +1,5 @@
 name: com.annulusgames.alchemy
+aliases: []
 displayName: Alchemy
 description: >-
   Alchemy is a library that provides attribute-based Inspector extensions for

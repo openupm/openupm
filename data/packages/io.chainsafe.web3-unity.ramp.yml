@@ -1,4 +1,5 @@
 name: io.chainsafe.web3-unity.ramp
+aliases: []
 displayName: web3.unity SDK Ramp
 description: This package includes the integration of Ramp's ramp service, which you
   can use with our Gaming SDK.

@@ -1,4 +1,5 @@
 name: computer.rhys.dirty-boy
+aliases: []
 displayName: Dirty Boy
 description: Editor utility to manage dirty status of assets
 repoUrl: 'https://github.com/rhys-vdw/dirty-boy'

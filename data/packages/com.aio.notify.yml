@@ -1,4 +1,5 @@
 name: com.aio.notify
+aliases: []
 displayName: AIO Unity Notify
 description: >-
   a lightweight event notification system that supports event subscription,

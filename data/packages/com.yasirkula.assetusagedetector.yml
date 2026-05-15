@@ -1,4 +1,5 @@
 name: com.yasirkula.assetusagedetector
+aliases: []
 displayName: Asset Usage Detector
 description: >-
   Find usages of the selected asset(s) and/or Object(s) in your Unity project,

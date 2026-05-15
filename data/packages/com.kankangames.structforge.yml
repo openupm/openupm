@@ -1,4 +1,5 @@
 name: com.kankangames.structforge
+aliases: []
 displayName: StructForge
 description: >-
   High-performance, Zero-Allocation, Unsafe data structures for Unity. Includes

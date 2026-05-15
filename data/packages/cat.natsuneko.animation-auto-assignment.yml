@@ -1,4 +1,5 @@
 name: cat.natsuneko.animation-auto-assignment
+aliases: []
 displayName: Animation Auto Assignment
 description: >-
   Unity Editor Extension that tracks changes on hierarchy and automatically

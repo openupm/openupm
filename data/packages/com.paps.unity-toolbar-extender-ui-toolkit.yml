@@ -1,4 +1,5 @@
 name: com.paps.unity-toolbar-extender-ui-toolkit
+aliases: []
 displayName: Unity Toolbar Extender UI Toolkit
 description: Unity Toolbar Extender UI Toolkit provides a simple way to customize
   Unity's main toolbar (where play buttons are) with UI Toolkit.

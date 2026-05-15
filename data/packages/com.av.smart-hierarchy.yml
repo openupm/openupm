@@ -1,4 +1,5 @@
 name: com.av.smart-hierarchy
+aliases: []
 displayName: Smart Hierarchy
 description: Human readable hierarchy with icons and folders for Unity
 repoUrl: https://github.com/neon-age/Smart-Hierarchy

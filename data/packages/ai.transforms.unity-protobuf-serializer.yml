@@ -1,4 +1,5 @@
 name: ai.transforms.unity-protobuf-serializer
+aliases: []
 displayName: UnityProtobufSerializer
 description: Allows unity to use vanilla protobuf as Serialized Fields
 repoUrl: 'https://github.com/transformsai/UnityProtobufSerializer'

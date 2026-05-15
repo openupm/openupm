@@ -1,4 +1,5 @@
 name: com.gsr.homo_addressable
+aliases: []
 displayName: HomoAddressable
 description: an Addressable auto-release solution
 repoUrl: 'https://github.com/Giresharu/HomoAddressable'

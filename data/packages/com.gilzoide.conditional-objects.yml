@@ -1,4 +1,5 @@
 name: com.gilzoide.conditional-objects
+aliases: []
 displayName: Conditional Objects
 description: >-
   Scripts that modify GameObjects and Components at Prefab/Scene import time,

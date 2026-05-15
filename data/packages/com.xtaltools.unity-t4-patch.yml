@@ -1,4 +1,5 @@
 name: com.xtaltools.unity-t4-patch
+aliases: []
 displayName: T4 Template Patch
 description: ''
 repoUrl: 'https://github.com/neptaco/UnityT4TemplatePatch'

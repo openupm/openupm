@@ -1,4 +1,5 @@
 name: com.grimbarinteractive.unity-attributes
+aliases: []
 displayName: Unity Attributes
 description: >-
   Unity Attributes is an extension for the Unity Inspector. Forked from Denis

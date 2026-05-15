@@ -1,4 +1,5 @@
 name: com.oddworm.copylightingsettings
+aliases: []
 displayName: Copy Lighting Settings
 description: >-
   Unity editor extension to copy&paste lighting settings from one scene to

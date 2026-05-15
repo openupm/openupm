@@ -1,4 +1,5 @@
 name: extensions.unity.imageloader
+aliases: []
 displayName: Image Loader
 description: Asynchronous image loading from remote or local destination.
 repoUrl: 'https://github.com/IvanMurzak/Unity-ImageLoader'

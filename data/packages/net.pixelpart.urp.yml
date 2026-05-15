@@ -1,4 +1,5 @@
 name: net.pixelpart.urp
+aliases: []
 displayName: Pixelpart URP
 description: URP materials for the Pixelpart runtime plugin.
 repoUrl: https://github.com/soeren-m/pixelpart-plugin-unity

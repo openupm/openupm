@@ -1,4 +1,5 @@
 name: com.xtaltools.unityconstantsgenerator
+aliases: []
 displayName: Unity Constants Generator
 description: Unity constants values code generator
 repoUrl: 'https://github.com/neptaco/UnityConstantsGenerator'

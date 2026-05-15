@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.utils
+aliases: []
 displayName: Duck Utils
 description: A collection of Unity utils
 repoUrl: 'https://github.com/dubit/duck-utils'

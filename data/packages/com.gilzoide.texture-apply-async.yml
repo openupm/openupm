@@ -1,4 +1,5 @@
 name: com.gilzoide.texture-apply-async
+aliases: []
 displayName: Texture Apply Async
 description: >-
   This package provides an alternative to Texture2D.Apply() that doesn't require

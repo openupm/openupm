@@ -1,4 +1,5 @@
 name: com.bumimobile.core
+aliases: []
 displayName: Bumi Mobile Core
 description: Core runtime and initialization utilities for Bumi Mobile modular stack.
 repoUrl: https://github.com/Bumi-Studio/BumiMobileCore

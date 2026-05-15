@@ -1,4 +1,5 @@
 name: com.realitygames.object-destroyer
+aliases: []
 displayName: Object Destroyer
 description: Custom tool to destroy objects in more optimized way
 repoUrl: https://github.com/RealityGamesLtd/object-destroyer-unity

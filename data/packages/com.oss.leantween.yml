@@ -1,4 +1,5 @@
 name: com.oss.leantween
+aliases: []
 displayName: Leantween
 description: LeanTween is an efficient animation engine for Unity
 repoUrl: 'https://github.com/JohannesDeml/LeanTween'

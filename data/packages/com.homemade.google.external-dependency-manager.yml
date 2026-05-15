@@ -1,4 +1,5 @@
 name: com.homemade.google.external-dependency-manager
+aliases: []
 displayName: External Dependency Manager for Unity
 description: Package must have for Google LLC
 repoUrl: https://github.com/hungpt17102k/com.homemade.google.external-dependency-manager

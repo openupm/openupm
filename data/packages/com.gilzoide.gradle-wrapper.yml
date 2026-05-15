@@ -1,4 +1,5 @@
 name: com.gilzoide.gradle-wrapper
+aliases: []
 displayName: Gradle Wrapper Generator
 description: >-
   Generates a Gradle Wrapper (gradlew) when exporting Android projects.

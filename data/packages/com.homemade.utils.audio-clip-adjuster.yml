@@ -1,4 +1,5 @@
 name: com.homemade.utils.audio-clip-adjuster
+aliases: []
 displayName: com.homemade.utils.audio-clip-adjuster
 description: An extension for Unity that calls into FFmpeg to adjust audio clips quickly.
 repoUrl: https://github.com/hungpt17102k/com.homemade.utils.audio-clip-adjuster

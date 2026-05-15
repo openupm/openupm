@@ -1,4 +1,5 @@
 name: com.monaverse.coresdk
+aliases: []
 displayName: Mona Core SDK
 description: The Mona Core SDK allows creators to access networked objects in mona spaces.
 repoUrl: https://github.com/monaverse/MonaCoreSDK

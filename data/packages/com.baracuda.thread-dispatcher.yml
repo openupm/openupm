@@ -1,4 +1,5 @@
 name: com.baracuda.thread-dispatcher
+aliases: []
 displayName: Thread Dispatcher
 description: >-
   Pass the execution of a Delegate, Coroutine or Task from a background thread

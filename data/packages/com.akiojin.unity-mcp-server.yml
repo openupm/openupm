@@ -1,4 +1,5 @@
 name: com.akiojin.unity-mcp-server
+aliases: []
 displayName: Unity MCP Server
 description: >-
   Unity Editor MCP bridge and tooling for AI-assisted development (screenshots,

@@ -1,4 +1,5 @@
 name: com.aria.unity.referenceinscene
+aliases: []
 displayName: FindReferenceInScene
 description: 'Component, reference search within the hierarchy of GameObject.'
 repoUrl: 'https://github.com/TK-Aria/FindReferenceInScene'

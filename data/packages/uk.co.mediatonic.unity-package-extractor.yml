@@ -1,4 +1,5 @@
 name: uk.co.mediatonic.unity-package-extractor
+aliases: []
 displayName: Unity Package Extractor
 description: >-
   A simple tool to extract .unitypackages outside of Unity's package importer.

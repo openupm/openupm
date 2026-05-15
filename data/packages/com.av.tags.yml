@@ -1,4 +1,5 @@
 name: com.av.tags
+aliases: []
 displayName: Tags
 description: Exploring usage of custom tags with ScriptableObjects in Unity
 repoUrl: https://github.com/neon-age/Tags

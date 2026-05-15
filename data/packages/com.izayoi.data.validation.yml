@@ -1,4 +1,5 @@
 name: com.izayoi.data.validation
+aliases: []
 displayName: Izayoi.Data.Validation
 description: This is a fast validator.
 repoUrl: https://github.com/izayoijiichan/Izayoi.Data

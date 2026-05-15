@@ -1,4 +1,5 @@
 name: com.ccadori.sandsocketunity
+aliases: []
 displayName: Sand Socket Unity
 description: Sand Unity is a Unity3D client for Sand, built as a UPM (Unity Package
   Manager).

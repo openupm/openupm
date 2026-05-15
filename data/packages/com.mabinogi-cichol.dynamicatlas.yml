@@ -1,4 +1,5 @@
 name: com.mabinogi-cichol.dynamicatlas
+aliases: []
 displayName: DynamicAtlas
 description: Unity Dynamic Atlas Solution with Texture Compression Support.
 repoUrl: 'https://github.com/Mabinogi-Cichol/Unity-DynamicAtlas'

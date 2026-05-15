@@ -1,4 +1,5 @@
 name: com.cysharp.observablecollections
+aliases: []
 displayName: ObservableCollections
 description: High performance observable collections and synchronized views.
 repoUrl: 'https://github.com/Cysharp/ObservableCollections'

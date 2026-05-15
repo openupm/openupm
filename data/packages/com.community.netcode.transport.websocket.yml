@@ -1,4 +1,5 @@
 name: com.community.netcode.transport.websocket
+aliases: []
 displayName: WebSocket Transport for Netcode for GameObjects
 description: WebSocket Transport for Netcode for GameObjects
 repoUrl: 'https://github.com/CareBoo/multiplayer-community-contributions'

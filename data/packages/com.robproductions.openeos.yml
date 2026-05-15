@@ -1,4 +1,5 @@
 name: com.robproductions.openeos
+aliases: []
 displayName: OpenEOS
 description: >-
   A lightweight & open-source port of the Epic Online Services (EOS) SDK in

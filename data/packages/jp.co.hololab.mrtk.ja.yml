@@ -1,4 +1,5 @@
 name: jp.co.hololab.mrtk.ja
+aliases: []
 displayName: MRTK Ja
 description: MRTK UI components with Japanese font
 repoUrl: 'https://github.com/HoloLabInc/MixedRealityToolkit-Unity-Ja'

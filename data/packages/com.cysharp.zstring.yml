@@ -1,4 +1,5 @@
 name: com.cysharp.zstring
+aliases: []
 displayName: ZString
 description: Zero Allocation StringBuilder for .NET Core and Unity.
 repoUrl: 'https://github.com/Cysharp/ZString'

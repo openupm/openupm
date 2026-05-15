@@ -1,4 +1,5 @@
 name: com.homelessskin.input
+aliases: []
 displayName: Input
 description: A framework with extensions for Unity "New Input System".
 repoUrl: https://github.com/HomelessSkin/com.homelessskin.input

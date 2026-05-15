@@ -1,4 +1,5 @@
 name: com.coplaydev.unity-mcp
+aliases: []
 displayName: MCP for Unity
 description: >-
   A bridge that connects an LLM to Unity via the MCP (Model Context Protocol).

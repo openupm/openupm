@@ -1,4 +1,5 @@
 name: com.baracuda.runtime-monitoring
+aliases: []
 displayName: Runtime Monitoring
 description: >-
   Runtime Monitoring is an easy way for you to debug the state of your C#

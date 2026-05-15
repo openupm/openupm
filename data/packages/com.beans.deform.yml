@@ -1,4 +1,5 @@
 name: com.beans.deform
+aliases: []
 displayName: Deform
 description: A fully-featured deformer system for Unity.
 repoUrl: 'https://github.com/keenanwoodall/Deform'

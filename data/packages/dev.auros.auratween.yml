@@ -1,4 +1,5 @@
 name: dev.auros.auratween
+aliases: []
 displayName: AuraTween
 description: 'A lightweight, simple, and high performance tweening library for Unity.'
 repoUrl: 'https://github.com/Auros/AuraTween'

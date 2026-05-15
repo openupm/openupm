@@ -1,4 +1,5 @@
 name: be.elab.pathtype
+aliases: []
 displayName: Path Type Read Write
 description: 'I created this tool because I was tired of wondering if a path is: relative
   absolute forlder or file.'

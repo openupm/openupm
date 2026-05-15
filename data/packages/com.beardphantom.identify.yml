@@ -1,4 +1,5 @@
 name: com.beardphantom.identify
+aliases: []
 displayName: Identify
 description: A consistent mechanism for uniquely identifying ScriptableObject instances.
 repoUrl: 'https://github.com/thebeardphantom/Identify'

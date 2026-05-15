@@ -1,4 +1,5 @@
 name: com.dubitlimited.duck.unity-fsm
+aliases: []
 displayName: Duck FSM
 description: >-
   A lightweight finite state machine implementation that supports custom and

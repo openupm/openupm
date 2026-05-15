@@ -1,4 +1,5 @@
 name: com.sparkgames.multiplay
+aliases: []
 displayName: MultiPlay
 description: Helps Multiplayer development by running multiple editors for the same
   project

@@ -1,4 +1,5 @@
 name: com.underlogic.runtime-variables
+aliases: []
 displayName: Runtime Variables
 description: >-
   Runtime variables for shared state and reactive behavior between components

@@ -1,4 +1,5 @@
 name: com.dots.dispatcher
+aliases: []
 displayName: DOTS Dispatcher
 description: DOTS Entity as Event Dispatcher.
 repoUrl: 'https://github.com/gabrjt/com.dots.dispatcher'

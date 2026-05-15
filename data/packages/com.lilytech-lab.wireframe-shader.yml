@@ -1,4 +1,5 @@
 name: com.lilytech-lab.wireframe-shader
+aliases: []
 displayName: WireframeShader
 description: A shader draws polygon wireframe.
 repoUrl: https://github.com/lilytech-lab/WireframeShader

@@ -1,4 +1,5 @@
 name: extensions.unity.mouse.parallax
+aliases: []
 displayName: Unity Mouse Parallax
 description: Unity Parallax based on mouse input.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Mouse-Parallax'

@@ -1,4 +1,5 @@
 name: com.dolby.millicast
+aliases: []
 displayName: Millicast
 description: A Unity package to publish and view Millicast streams.
 repoUrl: https://github.com/millicast/millicast-unity-sdk

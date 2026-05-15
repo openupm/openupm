@@ -1,4 +1,5 @@
 name: com.boristhebrave.sylves
+aliases: []
 displayName: Sylves
 description: Sylves is a pure C# utility for working with 2d and 3d grids
 repoUrl: 'https://github.com/BorisTheBrave/sylves'

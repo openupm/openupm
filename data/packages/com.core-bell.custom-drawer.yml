@@ -1,4 +1,5 @@
 name: com.core-bell.custom-drawer
+aliases: []
 displayName: Custom Drawer Toolkit
 description: A collection of useful custom property drawers for Unity.
 repoUrl: https://github.com/corle-bell/Unity3d-CustomDrawer

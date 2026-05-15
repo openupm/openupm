@@ -1,4 +1,5 @@
 name: com.bg.unitaskobjectpool
+aliases: []
 displayName: UniTaskObjectPool
 description: ObjectPool for UniTask
 repoUrl: 'https://github.com/k-okawa/UniTaskObjectPool'

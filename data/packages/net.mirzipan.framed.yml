@@ -1,4 +1,5 @@
 name: net.mirzipan.framed
+aliases: []
 displayName: Mirzipan Framed
 description: A basic framework for an application or a game in Unity
 repoUrl: 'https://github.com/Mirzipan/Mirzipan.Framed'

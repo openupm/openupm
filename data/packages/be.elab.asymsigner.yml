@@ -1,4 +1,5 @@
 name: be.elab.asymsigner
+aliases: []
 displayName: Assymetic Meta Mask Coaster Signer
 description: This code provides an interface designed to abstract the asymmetric signature
   process and act as a bridge to a MetaMask Ethereum account for use with the server.

@@ -1,4 +1,5 @@
 name: com.vx.unityextensions
+aliases: []
 displayName: Useful Unity Extensions
 description: This package extends some default Unity classes with useful methods and tools.
 repoUrl: 'https://github.com/EarMaster/useful-unity-extensions'

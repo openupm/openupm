@@ -1,4 +1,5 @@
 name: dev.upm-packages.unirx-observablekeyevent
+aliases: []
 displayName: UniRx ObservableKeyEvent
 description: UniRx wrapper for KeyEvent handling.
 repoUrl: 'https://github.com/umm/unirx_observablekeyevent'

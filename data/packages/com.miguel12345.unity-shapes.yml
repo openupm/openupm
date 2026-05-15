@@ -1,4 +1,5 @@
 name: com.miguel12345.unity-shapes
+aliases: []
 displayName: Unity Shapes
 description: 'Draw shapes (circle,line,arrow) with one line of code in Unity'
 repoUrl: 'https://github.com/jtfrom9/UnityShapes'

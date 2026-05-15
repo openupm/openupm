@@ -1,4 +1,5 @@
 name: eu.netherlands3d.filebrowser
+aliases: []
 displayName: Netherlands 3D - Filebrowser
 description: A file browser for unity standalone and WebGL platforms
 repoUrl: 'https://github.com/Netherlands3D/FileBrowser'

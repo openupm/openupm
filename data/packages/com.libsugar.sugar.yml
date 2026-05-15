@@ -1,4 +1,5 @@
 name: com.libsugar.sugar
+aliases: []
 displayName: Sugar
 description: 'Like syntactic sugar, but is library'
 repoUrl: 'https://github.com/libsugar/SugarCs'

@@ -1,4 +1,5 @@
 name: com.gilzoide.key-value-storage.icloud-kvs
+aliases: []
 displayName: Key-Value Store - iCloud KVS
 description: >-
   Key-Value Store implementation backed by iCloud KVS

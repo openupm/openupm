@@ -1,4 +1,5 @@
 name: dev.bolt.addons
+aliases: []
 displayName: Community Addons for Bolt
 description: A community-driven project for extending Unity Bolt
 repoUrl: 'https://github.com/RealityStop/Bolt.Addons.Community'

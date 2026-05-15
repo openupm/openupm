@@ -1,4 +1,5 @@
 name: com.frostbun.unit.fbinstant
+aliases: []
 displayName: UniT Facebook Instant
 description: Facebook Instant Game SDK for Unity
 repoUrl: https://github.com/frostbun/UniT.FbInstant

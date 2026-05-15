@@ -1,4 +1,5 @@
 name: com.alteracia.altweb
+aliases: []
 displayName: altWeb
 description: Some network functions for Unity
 repoUrl: 'https://github.com/Alteracia/AltWeb'

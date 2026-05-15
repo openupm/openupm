@@ -1,4 +1,5 @@
 name: jp.andantetribe.tapeffect
+aliases: []
 displayName: TapEffect
 description: Tap interaction effect for Unity UI (uGUI).
 repoUrl: https://github.com/AndanteTribe/TapEffect

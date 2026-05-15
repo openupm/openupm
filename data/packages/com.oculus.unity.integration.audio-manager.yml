@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.audio-manager
+aliases: []
 displayName: Oculus Integration Audio Manger
 description: Unofficial mirror of the Oculus Unity-Integration Audio Manager as a
   package for Unity.

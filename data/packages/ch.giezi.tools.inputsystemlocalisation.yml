@@ -1,4 +1,5 @@
 name: ch.giezi.tools.inputsystemlocalisation
+aliases: []
 displayName: Giezi's Input System Localisation
 description: >-
   Localisation for Unity Input keys retrieved when calling

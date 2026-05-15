@@ -1,4 +1,5 @@
 name: be.elab.tickcollection
+aliases: []
 displayName: Tick Collection
 description: Tools to trick actions easily in protyping project.
 repoUrl: https://github.com/EloiStree/OpenUMP_TickCollection

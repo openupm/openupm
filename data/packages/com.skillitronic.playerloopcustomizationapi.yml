@@ -1,4 +1,5 @@
 name: com.skillitronic.playerloopcustomizationapi
+aliases: []
 displayName: PlayerLoop customization API
 description: Create your own loop system using interface built on top of Unity's PlayerLoop
 repoUrl: 'https://github.com/skelitheprogrammer/PlayerLoop-Customization-API'

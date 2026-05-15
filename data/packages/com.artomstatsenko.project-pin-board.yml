@@ -1,4 +1,5 @@
 name: com.artomstatsenko.project-pin-board
+aliases: []
 displayName: Project Pin Board
 description: >-
   Allows you to pin commonly used assets on the window, so you can find them

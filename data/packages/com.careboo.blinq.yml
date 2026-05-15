@@ -1,4 +1,5 @@
 name: com.careboo.blinq
+aliases: []
 displayName: Blinq
 description: Burst Compatible Linq Implementations
 repoUrl: 'https://github.com/CareBoo/Blinq'

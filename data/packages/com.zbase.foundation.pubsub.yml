@@ -1,4 +1,5 @@
 name: com.zbase.foundation.pubsub
+aliases: []
 displayName: ZBase.Foundation.PubSub
 description: Zitga Tech - PubSub library
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.PubSub'

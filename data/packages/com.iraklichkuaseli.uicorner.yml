@@ -1,4 +1,5 @@
 name: com.iraklichkuaseli.uicorner
+aliases: []
 displayName: UI Corner
 description: "GPU-accelerated rounded and chamfered corners for Unity UI elements"
 repoUrl: https://github.com/irakli/ui-corner

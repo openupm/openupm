@@ -1,4 +1,5 @@
 name: com.github.interactml.iml-unity
+aliases: []
 displayName: InteractML
 description: >-
   This is an interactive machine learning framework for Unity3D. It allows

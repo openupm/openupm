@@ -1,4 +1,5 @@
 name: jp.andantetribe.radio
+aliases: []
 displayName: Radio
 description: Audio playback for BGM, sound effects, and interactive music for Unity.
 repoUrl: https://github.com/AndanteTribe/Radio

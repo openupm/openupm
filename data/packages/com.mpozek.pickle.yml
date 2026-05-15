@@ -1,4 +1,5 @@
 name: com.mpozek.pickle
+aliases: []
 displayName: Pickle
 description: A better Object picker for Unity
 repoUrl: 'https://github.com/MPozek/Pickle'

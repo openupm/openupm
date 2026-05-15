@@ -1,4 +1,5 @@
 name: com.gkngkc.usfb
+aliases: []
 displayName: UniStandaloneFileBrowser
 description: A native file browser for unity standalone platforms
 repoUrl: 'https://github.com/adrenak/usfb'

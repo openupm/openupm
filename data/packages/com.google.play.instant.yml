@@ -1,4 +1,5 @@
 name: com.google.play.instant
+aliases: []
 displayName: Google Play Instant
 description: >-
   The Google Play Instant package simplifies the conversion of an Android app

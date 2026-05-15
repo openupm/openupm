@@ -1,4 +1,5 @@
 name: com.studio23.ss2.settings.video
+aliases: []
 displayName: Video Settings System
 description: >-
   Video Settings System is a framework to configure Video Setings of your games.

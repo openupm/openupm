@@ -1,4 +1,5 @@
 name: com.dteruel.toolnity.storyboardcreator
+aliases: []
 displayName: Toolnity Storyboard Creator
 description: Tool to generate storyboards using your scenes.
 repoUrl: 'https://github.com/DTeruel/Toolnity'

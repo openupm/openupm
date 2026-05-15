@@ -1,4 +1,5 @@
 name: com.testmono.ads.mobile.mediation.line
+aliases: []
 displayName: LINE Mediation for Unity Test
 description: The Google Mobile Ads mediation plugin for Line package allows you to
   easily monetize your Unity apps for iOS and Android using Google's native iOS and

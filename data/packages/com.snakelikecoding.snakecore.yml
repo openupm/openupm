@@ -1,4 +1,5 @@
 name: com.snakelikecoding.snakecore
+aliases: []
 displayName: SnakeCore
 description: The package that includes core functionality like concurrency and dependency
   injection.

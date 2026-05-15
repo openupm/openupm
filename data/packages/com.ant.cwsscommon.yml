@@ -1,4 +1,5 @@
 name: com.ant.cwsscommon
+aliases: []
 displayName: CwssCommon
 description: 项目通用功能插件包.
 repoUrl: 'https://github.com/AByte-L/cwsslib'

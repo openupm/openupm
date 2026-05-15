@@ -1,4 +1,5 @@
 name: com.chocopoi.vrc.avatarlib
+aliases: []
 displayName: AvatarLib
 description: >-
   Contains a bunch of quick-to-use APIs for plugins and applications to add,

@@ -1,4 +1,5 @@
 name: com.lokosolo.pinchable-scrollrect
+aliases: []
 displayName: Pinchable ScrollRect
 description: >-
   Pinchable ScrollRect allows users to zoom in and out on the ScrollRect with

@@ -1,4 +1,5 @@
 name: com.autsoft.unityresourcegenerator
+aliases: []
 displayName: Unity Resource Generator
 description: Generate path strings for Resources.Load
 repoUrl: 'https://github.com/AutSoft/UnityResourceGenerator'

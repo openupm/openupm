@@ -1,4 +1,5 @@
 name: com.ng.homealonestudios.papae.tools.sceneloader
+aliases: []
 displayName: Scene Loader
 description: A custom scene loader component that makes it really easy to load unity scenes
 repoUrl: 'https://github.com/Home-Alone-Studios/scene-loader'

@@ -1,4 +1,5 @@
 name: com.gilzoide.reset-after-play-mode
+aliases: []
 displayName: Reset After Play Mode
 description: >-
   Utility for reseting asset properties when exiting Play Mode

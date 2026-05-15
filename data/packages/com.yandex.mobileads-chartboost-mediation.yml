@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-chartboost-mediation
+aliases: []
 displayName: ChartBoost adapter for Yandex Mobile Ads Unity Plugin
 description: >-
   This adapter allows to use ChartBoost ad network in conjuction with Yandex

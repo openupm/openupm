@@ -1,4 +1,5 @@
 name: com.rickit.experiment
+aliases: []
 displayName: RicKit Experiment
 description: RicKit Table, CSV, ScriptableObject
 repoUrl: https://github.com/rickytheoldtree/com.rickit.experiment

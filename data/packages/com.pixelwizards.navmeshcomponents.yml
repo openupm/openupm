@@ -1,4 +1,5 @@
 name: com.pixelwizards.navmeshcomponents
+aliases: []
 displayName: Unity Navmesh Components
 description: Wrapper package for the Unity Navmesh components, designed to work with
   Unity's Package Manager

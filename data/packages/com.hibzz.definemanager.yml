@@ -1,4 +1,5 @@
 name: com.hibzz.definemanager
+aliases: []
 displayName: hibzz.definemanager
 description: >-
   A tool used to manage #defines in a project to enable/disable optional

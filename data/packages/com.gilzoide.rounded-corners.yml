@@ -1,4 +1,5 @@
 name: com.gilzoide.rounded-corners
+aliases: []
 displayName: Rounded Corners
 description: >-
   UI MaskableGraphic components with rounded corners embedded in their meshes.

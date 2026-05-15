@@ -1,4 +1,5 @@
 name: com.xarbrough.renamer
+aliases: []
 displayName: Renamer
 description: A bulk rename utility for Unity's hierarchy and project view.
 repoUrl: https://github.com/chrisyarbrough/Renamer

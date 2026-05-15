@@ -1,4 +1,6 @@
 name: com.gametoolkit.localization
+aliases:
+  - hip.gametoolkit.localization
 displayName: GameToolkit Localization
 description: Asset localization system for Unity.
 repoUrl: 'https://github.com/ibrahimpenekli/GameToolkit-Localization'

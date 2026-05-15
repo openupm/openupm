@@ -1,4 +1,5 @@
 name: gg.athlos.webview
+aliases: []
 displayName: Athlos WebView
 description: Present Athlos in your game via an embdedded webview.
 repoUrl: https://github.com/GritstoneGames/athlos-webview

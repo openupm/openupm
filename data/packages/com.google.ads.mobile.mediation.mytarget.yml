@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.mytarget
+aliases: []
 displayName: Google Mobile Ads myTarget Mediation
 description: >-
   The Google Mobile Ads mediation plugin for myTarget package allows you to load

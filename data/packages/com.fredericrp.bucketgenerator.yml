@@ -1,4 +1,5 @@
 name: com.fredericrp.bucketgenerator
+aliases: []
 displayName: FredericRP Bucket Generator
 description: 'a Bucket, or Bean, generator to improve your random set.'
 repoUrl: 'https://github.com/FredericRP/BucketGenerator'

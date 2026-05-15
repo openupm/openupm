@@ -1,4 +1,5 @@
 name: ch.fcbg.bitalino-reader
+aliases: []
 displayName: Bitalino Reader
 description: Package for reading bitalino
 repoUrl: https://github.com/fcbg-platforms/BitalinoUnityReader

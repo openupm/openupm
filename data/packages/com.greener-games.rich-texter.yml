@@ -1,4 +1,5 @@
 name: com.greener-games.rich-texter
+aliases: []
 displayName: Rich Texter
 description: Rich Text Wrapper for unity to quickly support adding rich text
 repoUrl: 'https://github.com/Greener-Games/RichTexter'

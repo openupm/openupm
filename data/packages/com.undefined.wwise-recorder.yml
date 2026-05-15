@@ -1,4 +1,5 @@
 name: com.undefined.wwise-recorder
+aliases: []
 displayName: Wwise Recorder
 description: |-
   This adds a new recorder type to the Unity Recorder.

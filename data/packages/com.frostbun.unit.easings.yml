@@ -1,4 +1,5 @@
 name: com.frostbun.unit.easings
+aliases: []
 displayName: UniT Easings
 description: Animate Unity using easing functions
 repoUrl: https://github.com/frostbun/UniT.Easings

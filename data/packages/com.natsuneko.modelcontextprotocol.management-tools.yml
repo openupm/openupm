@@ -1,4 +1,5 @@
 name: com.natsuneko.modelcontextprotocol.management-tools
+aliases: []
 displayName: uMCP - Management Tools
 description: >-
   uMCP is a server implementation of the MCP protocol, designed for working with

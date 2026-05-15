@@ -1,4 +1,5 @@
 name: com.ogbcrew.devtoolkitsuite
+aliases: []
 displayName: DevToolkit Suite
 description: "All-in-one editor toolkit for optimizing your Unity workflow â\x80\x94 from project organization to runtime data inspection."
 repoUrl: https://github.com/slowac/com.ogbcrew.devtoolkitsuite

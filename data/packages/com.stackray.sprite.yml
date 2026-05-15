@@ -1,4 +1,5 @@
 name: com.stackray.sprite
+aliases: []
 displayName: Stackray Sprite
 description: 'Extending DOTS '
 repoUrl: https://github.com/GilbertoGojira/DOTS-Stackray

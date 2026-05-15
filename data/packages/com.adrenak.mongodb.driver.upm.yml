@@ -1,4 +1,5 @@
 name: com.adrenak.mongodb.driver.upm
+aliases: []
 displayName: MongoDB Driver for Unity
 description: UPM package of the C# MongoDB Driver
 repoUrl: 'https://github.com/adrenak/mongodb.driver.unity'

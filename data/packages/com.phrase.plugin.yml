@@ -1,4 +1,5 @@
 name: com.phrase.plugin
+aliases: []
 displayName: Phrase Localization Plugin
 description: >-
   This package provides synchronization with Phrase Strings localization

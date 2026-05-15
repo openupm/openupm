@@ -1,4 +1,5 @@
 name: be.khepri.play.assetdelivery.addressables.cn
+aliases: []
 displayName: Google Play Asset Delivery - Addressables
 description: Provide addressables with support for Play Asset Delivery
 repoUrl: 'https://github.com/danyow/be.khepri.play.assetdelivery.addressables.cn'

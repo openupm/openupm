@@ -1,4 +1,5 @@
 name: com.tityx.world-ui
+aliases: []
 displayName: World UI
 description: "World UI views\n\nDependencies:\r\nhttps://github.com/starikcetin/Extenject.git#9.1.0"
 repoUrl: https://github.com/Tityxx/WorldUI

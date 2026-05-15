@@ -1,4 +1,5 @@
 name: com.annulusgames.burst-linq
+aliases: []
 displayName: Burst Linq
 description: >-
   Extremely fast LINQ aggregation operations implementation optimized by Burst

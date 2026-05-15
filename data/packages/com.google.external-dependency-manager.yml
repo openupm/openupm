@@ -1,4 +1,5 @@
 name: com.google.external-dependency-manager
+aliases: []
 displayName: External Dependency Manager for Unity
 description: >-
   External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin

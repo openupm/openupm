@@ -1,4 +1,5 @@
 name: com.remzisenel.ide.neovim
+aliases: []
 displayName: Neovim Editor
 description: >-
   The Neovim Editor package provides an integration for using Nvim as a code

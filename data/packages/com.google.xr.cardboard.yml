@@ -1,4 +1,5 @@
 name: com.google.xr.cardboard
+aliases: []
 displayName: Google Cardboard XR Plugin for Unity
 description: Provides rendering and input support for Google Cardboard.
 repoUrl: 'https://github.com/googlevr/cardboard-xr-plugin'

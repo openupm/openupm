@@ -1,4 +1,5 @@
 name: com.natsuneko.modelcontextprotocol.core-framework
+aliases: []
 displayName: uMCP
 description: >-
   uMCP is a server implementation of the MCP protocol, designed for working with

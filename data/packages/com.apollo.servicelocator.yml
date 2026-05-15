@@ -1,4 +1,5 @@
 name: com.apollo.servicelocator
+aliases: []
 displayName: Service Locator Utility
 description: ''
 repoUrl: 'https://github.com/hajimeku/ServiceLocator'

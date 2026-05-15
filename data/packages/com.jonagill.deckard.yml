@@ -1,4 +1,5 @@
 name: com.jonagill.deckard
+aliases: []
 displayName: Deckard
 description: A tool for using Unity's UI system to lay out and export decks of cards
   to PNG files, printable pages, and sprite atlases.

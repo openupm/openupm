@@ -1,4 +1,5 @@
 name: com.volumebox.toolbox
+aliases: []
 displayName: VolumeBox Toolbox
 description: Architecture solution for simplifying process of creating games
 repoUrl: 'https://github.com/GariestGary/Unity-Toolbox'

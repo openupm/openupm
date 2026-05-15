@@ -1,4 +1,5 @@
 name: org.mhttp.mhttp-portal
+aliases: []
 displayName: MHTTP Portal
 description: Create a portal with the MHTTP portal spec
 repoUrl: https://github.com/HungryFoolishHappy/TestUnityPortalSdk

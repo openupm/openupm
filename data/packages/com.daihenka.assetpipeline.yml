@@ -1,4 +1,5 @@
 name: com.daihenka.assetpipeline
+aliases: []
 displayName: Asset Pipeline
 description: Asset Import Pipeline Tools
 repoUrl: 'https://github.com/daihenka/asset-pipeline'

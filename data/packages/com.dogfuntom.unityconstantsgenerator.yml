@@ -1,4 +1,5 @@
 name: com.dogfuntom.unityconstantsgenerator
+aliases: []
 displayName: Unity Constants Generator
 description: >-
   [Unity CodeDom] Editor-time code generator. Generates

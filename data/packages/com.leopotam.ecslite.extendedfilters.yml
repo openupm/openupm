@@ -1,4 +1,5 @@
 name: com.leopotam.ecslite.extendedfilters
+aliases: []
 displayName: LeoECS Lite Extended filters
 description: Extended filters for LeoECS Lite.
 repoUrl: 'https://github.com/Leopotam/ecslite-extendedfilters'

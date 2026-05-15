@@ -1,4 +1,5 @@
 name: com.annulusgames.magic-tween
+aliases: []
 displayName: Magic Tween
 description: >-
   Extremely fast, GC-free and customizable tween library implemented with Unity

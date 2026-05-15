@@ -1,4 +1,5 @@
 name: uk.me.paraskos.oliver.scene-selector
+aliases: []
 displayName: Scene Selector
 description: Select scenes in the editor
 repoUrl: https://github.com/oparaskos/unity-scene-selector

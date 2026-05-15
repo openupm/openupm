@@ -1,4 +1,5 @@
 name: com.qriva.monobehaviourtree
+aliases: []
 displayName: MonoBehaviourTree
 description: Simple event driven behaviour tree based on Unity engine component system.
 repoUrl: https://github.com/Qriva/MonoBehaviourTree

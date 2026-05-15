@@ -1,4 +1,5 @@
 name: com.dinomitestudios.loading
+aliases: []
 displayName: Dinomite.Loading
 description: >-
   A service framework service aiding with smooth scene transitions and loading

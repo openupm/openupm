@@ -1,4 +1,5 @@
 name: com.virtuesky.sunflower
+aliases: []
 displayName: Sunflower
 description: Core ScriptableObject Architecture for building Unity games
 repoUrl: https://github.com/VirtueSky/sunflower

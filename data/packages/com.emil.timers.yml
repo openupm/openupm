@@ -1,4 +1,5 @@
 name: com.emil.timers
+aliases: []
 displayName: EMIL Timers
 description: High-performance, memory-safe fluent timer system for Unity.
 repoUrl: https://github.com/damienzemanek/EMILtimers

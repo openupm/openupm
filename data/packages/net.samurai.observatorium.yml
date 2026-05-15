@@ -1,4 +1,5 @@
 name: net.samurai.observatorium
+aliases: []
 displayName: Samurai.Observatorium
 description: A simple event system for Unity.
 repoUrl: 'https://github.com/FrostySamurai/Observatorium'

@@ -1,4 +1,5 @@
 name: dev.hai-vr.animator-as-code.v1.ndmf-processor
+aliases: []
 displayName: Animator As Code - NDMF Processor (Alpha)
 description: >-
   Execute Animator As Code scripts when an avatar is being processed by NDM

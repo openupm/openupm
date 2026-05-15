@@ -1,4 +1,5 @@
 name: com.seneral.nodeeditorframework
+aliases: []
 displayName: Node Editor Framework
 description: >-
   A flexible and modular Node Editor Framework for creating node based displays

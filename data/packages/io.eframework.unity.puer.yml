@@ -1,4 +1,5 @@
 name: io.eframework.unity.puer
+aliases: []
 displayName: EFramework Puer for Unity
 description: "基于 PuerTS 的扩展模块，提供了易用的 PuerBehaviour 组件和完整的 TypeScript 开发工作流，优化了脚本调试和自动化打包。"
 repoUrl: https://github.com/eframework-io/Unity.Puer

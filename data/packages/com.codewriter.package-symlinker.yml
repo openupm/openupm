@@ -1,4 +1,5 @@
 name: com.codewriter.package-symlinker
+aliases: []
 displayName: Package Symlinker
 description: Tool for maintaining symbolic linked packages for Unity
 repoUrl: 'https://github.com/codewriter-packages/Package-Symlinker'

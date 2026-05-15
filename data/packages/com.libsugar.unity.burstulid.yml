@@ -1,4 +1,5 @@
 name: com.libsugar.unity.burstulid
+aliases: []
 displayName: Burst Ulid
 description: Ulid implemented using burst
 repoUrl: 'https://github.com/libsugar/BurstUlid'

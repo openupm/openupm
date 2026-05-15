@@ -1,4 +1,5 @@
 name: net.narazaka.unity.copy-assets-with-dependency
+aliases: []
 displayName: CopyAssetsWithDependency
 description: Copy Assets with dependency
 repoUrl: https://github.com/Narazaka/CopyAssetsWithDependency

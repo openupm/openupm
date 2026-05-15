@@ -1,4 +1,5 @@
 name: com.unity.robotics.urdf-importer
+aliases: []
 displayName: URDF Importer
 description: URDF importer
 repoUrl: 'https://github.com/Unity-Technologies/URDF-Importer'

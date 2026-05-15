@@ -1,4 +1,5 @@
 name: com.mrvc.safearea
+aliases: []
 displayName: Safe Area
 description: >-
   Apply the current device safe area to a target RectTransform, with bundled

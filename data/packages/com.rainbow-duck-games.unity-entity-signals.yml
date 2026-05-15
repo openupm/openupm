@@ -1,4 +1,5 @@
 name: com.rainbow-duck-games.unity-entity-signals
+aliases: []
 displayName: Entity Signals
 description: >-
   Entity Signals is a library to use pub-sub pattern related to entities. Allows

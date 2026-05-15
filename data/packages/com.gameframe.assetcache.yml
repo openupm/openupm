@@ -1,4 +1,5 @@
 name: com.gameframe.assetcache
+aliases: []
 displayName: Gameframe.AssetCache
 description: Utility classes for caching and unloading assets such like textures
 repoUrl: 'https://github.com/coryleach/UnityAssetCache'

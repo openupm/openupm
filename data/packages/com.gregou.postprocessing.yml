@@ -1,4 +1,5 @@
 name: com.gregou.postprocessing
+aliases: []
 displayName: Gregou Post Processing Collection
 description: Collection of various Post processing effects using PostProcessing Stack V2
 repoUrl: 'https://github.com/gregoiredelzongle/Gregou-PostProcessing'

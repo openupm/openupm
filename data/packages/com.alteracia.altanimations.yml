@@ -1,4 +1,5 @@
 name: com.alteracia.altanimations
+aliases: []
 displayName: altAnimations
 description: Altrernative Animations for Unity. Based on ScriptableObjects and Async/await.
 repoUrl: 'https://github.com/Alteracia/AltAnimations'

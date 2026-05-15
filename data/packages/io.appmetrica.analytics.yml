@@ -1,4 +1,5 @@
 name: io.appmetrica.analytics
+aliases: []
 displayName: AppMetrica
 description: >-
   A Unity plugin for AppMetrica. AppMetrica is an end-to-end app analytics and

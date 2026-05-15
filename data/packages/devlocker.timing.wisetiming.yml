@@ -1,4 +1,5 @@
 name: devlocker.timing.wisetiming
+aliases: []
 displayName: Wise Timing Coroutines
 description: >-
   Custom coroutines that you can control and update yourself with your own

@@ -1,4 +1,5 @@
 name: com.hightouch.events.csharp
+aliases: []
 displayName: Hightouch Events for Unity
 description: Hightouch Events SDK for Unity
 repoUrl: https://github.com/ht-sdks/events-sdk-csharp

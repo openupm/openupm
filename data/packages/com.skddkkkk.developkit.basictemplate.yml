@@ -1,4 +1,5 @@
 name: com.skddkkkk.developkit.basictemplate
+aliases: []
 displayName: DevelopKit BasicTemplate
 description: >-
   Provides utilities and systems such as Custom Debug, Singleton, and

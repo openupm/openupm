@@ -1,4 +1,5 @@
 name: com.yasirkula.nativeshare
+aliases: []
 displayName: Native Share
 description: >-
   A Unity plugin to natively share files (images, videos, documents, etc.)

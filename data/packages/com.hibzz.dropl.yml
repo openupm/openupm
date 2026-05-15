@@ -1,4 +1,5 @@
 name: com.hibzz.dropl
+aliases: []
 displayName: hibzz.dropl
 description: A library used to exeute instructions over a period of time
 repoUrl: 'https://github.com/hibzzgames/Hibzz.Dropl'

@@ -1,4 +1,5 @@
 name: com.bbbirder.singleton
+aliases: []
 displayName: singleton
 description: "Unity单例模块"
 repoUrl: 'https://github.com/labbbirder/UnitySingleton'

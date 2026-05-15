@@ -1,4 +1,5 @@
 name: org.pcsoft.gaming.traffic
+aliases: []
 displayName: Unity Gaming Traffic
 description: Traffic Tools for Unity
 repoUrl: 'https://github.com/KleinerHacker/unity-gaming-traffic'

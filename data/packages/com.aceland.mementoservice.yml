@@ -1,4 +1,5 @@
 name: com.aceland.mementoservice
+aliases: []
 displayName: AceLand Memento Service
 description: >-
   AceLand Memento Service is a local supporting services dependency.

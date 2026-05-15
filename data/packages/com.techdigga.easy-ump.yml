@@ -1,4 +1,5 @@
 name: com.techdigga.easy-ump
+aliases: []
 displayName: Easy UMP
 description: >-
   Unity wrapper around Google's User Messaging Platform (Android + iOS) with

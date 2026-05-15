@@ -1,4 +1,5 @@
 name: com.valvesoftware.unity.openvr
+aliases: []
 displayName: OpenVR XR Plugin
 description: OpenVR plugin for Unity's XR API
 repoUrl: 'https://github.com/ValveSoftware/unity-xr-plugin'

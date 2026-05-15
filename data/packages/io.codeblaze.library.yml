@@ -1,4 +1,5 @@
 name: io.codeblaze.library
+aliases: []
 displayName: CodeBlaze Library
 description: CodeBlaze's Packages for Unity
 repoUrl: 'https://github.com/BLaZeKiLL/CodeBlazeLibrary'

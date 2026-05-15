@@ -1,4 +1,5 @@
 name: ru.threedisevenzeror.sensorkit
+aliases: []
 displayName: Sensor Kit
 description: Utility classes for headache-free raycasting configuration in Unity
 repoUrl: 'https://github.com/3DI70R/SensorKit'

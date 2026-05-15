@@ -1,4 +1,5 @@
 name: dev.upm-packages.canvas-resizer
+aliases: []
 displayName: Canvas Resizer
 description: Automatic resize Canvas by screen resolution
 repoUrl: 'https://github.com/umm/canvas_resizer'

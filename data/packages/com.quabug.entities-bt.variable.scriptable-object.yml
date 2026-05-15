@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.variable.scriptable-object
+aliases: []
 displayName: EntitiesBT - Scriptable Object Variable
 description: Behavior Tree for Unity Entities - Scriptable Object Variable
 repoUrl: 'https://github.com/quabug/EntitiesBT'

@@ -1,4 +1,5 @@
 name: com.devtodev.sdk.analytics
+aliases: []
 displayName: DevToDev Analytics
 description: Core module of the DevToDev sdk. DevToDev is a comprehensive solution
   that analyzes your apps and games and gives you valuable insights. Concentrate on

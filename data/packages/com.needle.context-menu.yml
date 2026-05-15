@@ -1,4 +1,5 @@
 name: com.needle.context-menu
+aliases: []
 displayName: Needle Context Menu
 description: Utility that allows to hide and modify project window context menu items
 repoUrl: 'https://github.com/needle-tools/needle-context-menu'

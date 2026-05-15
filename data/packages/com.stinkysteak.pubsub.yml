@@ -1,4 +1,5 @@
 name: com.stinkysteak.pubsub
+aliases: []
 displayName: Pub-Sub Framework
 description: Publish Subscribe framework
 repoUrl: https://github.com/StinkySteak/com.stinkysteak.pubsub

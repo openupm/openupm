@@ -1,4 +1,5 @@
 name: com.pylons.unity.sdk.core
+aliases: []
 displayName: Pylons SDK for Unity (Core)
 description: ''
 repoUrl: 'https://github.com/Pylons-tech/pylons_unity_sdk'

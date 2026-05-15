@@ -1,4 +1,5 @@
 name: com.sandsoft.sudf-packages
+aliases: []
 displayName: SUDF Package container
 description: Sub project for alocate the git project inside sudf
 repoUrl: https://github.com/antoniosandsoft/sudf-packages

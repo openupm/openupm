@@ -1,4 +1,5 @@
 name: com.axiom.agentbridge
+aliases: []
 displayName: Axiom - Diagnostic Bridge
 description: Token-efficient agentic toolset for Unity 6. 22 diagnostic tools, 16 action tools, JSON command gateway, native Unity MCP integration.
 repoUrl: 'https://github.com/UmutBrkt/Axiom'

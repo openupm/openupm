@@ -1,4 +1,5 @@
 name: com.segur.poly-spatial-environment-diffuse-shader
+aliases: []
 displayName: PolySpatial Environment Diffuse Shader
 description: This shader reflects the diffuse light of the environment, captured by
   the external cameras of Apple Vision Pro, onto the surface.

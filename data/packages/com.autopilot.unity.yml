@@ -1,4 +1,5 @@
 name: com.autopilot.unity
+aliases: []
 displayName: Unity Autopilot
 description: "Unity Autopilot is an AI-powered tool integrated into the Unity Editor, allowing developers and creators to control the editor using natural language commandsâ\x80\x94speeding up workflows by automating tasks described in plain English."
 repoUrl: https://github.com/bhadrik/unity-autopilot

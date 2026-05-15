@@ -1,4 +1,5 @@
 name: games.javier.upm.bricksbucket.web.postman
+aliases: []
 displayName: Postman Collections for Unity
 description: Bucket to interact with the Postman Schema.
 repoUrl: https://github.com/javier-games/upm-postman-collections

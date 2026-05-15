@@ -1,4 +1,5 @@
 name: com.itisnajim.socketiounity
+aliases: []
 displayName: Unity SocketIO
 description: >-
   A Wrapper for

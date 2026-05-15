@@ -1,4 +1,5 @@
 name: com.euglenach.inputasobservable
+aliases: []
 displayName: InputAsObservable
 description: Treat UnityStandardInput as UniRx(IObservable)
 repoUrl: 'https://github.com/euglenach/InputAsObservable'

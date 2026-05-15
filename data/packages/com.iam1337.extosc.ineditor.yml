@@ -1,4 +1,5 @@
 name: com.iam1337.extosc.ineditor
+aliases: []
 displayName: extOSC.InEditor
 description: Allows you to use all features of extOSC directly into the Unity Editor.
 repoUrl: 'https://github.com/Iam1337/extOSC.InEditor'

@@ -1,4 +1,5 @@
 name: io.livekit.livekit-sdk
+aliases: []
 displayName: LiveKit SDK
 description: LiveKit
 repoUrl: https://github.com/livekit/client-sdk-unity

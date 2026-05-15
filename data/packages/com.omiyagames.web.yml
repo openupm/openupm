@@ -1,4 +1,5 @@
 name: com.omiyagames.web
+aliases: []
 displayName: Omiya Games - Web
 description: Helper tools for web-related stuff.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-web'

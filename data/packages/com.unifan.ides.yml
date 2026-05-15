@@ -1,4 +1,5 @@
 name: com.unifan.ides
+aliases: []
 displayName: Multi AI IDEs
 description: >-
   Code editor integration for supporting multiple IDEs as code editor for unity.

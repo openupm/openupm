@@ -1,4 +1,5 @@
 name: com.gilzoide.tween-jobs
+aliases: []
 displayName: Tween Jobs
 description: Tween engine for Unity based on the C# Job System
 repoUrl: https://github.com/gilzoide/unity-tween-jobs

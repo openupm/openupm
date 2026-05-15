@@ -1,4 +1,5 @@
 name: com.pereviader.manualdi.async.unity3d
+aliases: []
 displayName: ManualDi.Async
 description: Fast and extensible C# dependency injection library without reflection. Works seamlessly in both Unity3d and plain C# projects
 repoUrl: https://github.com/PereViader/OpenUPM

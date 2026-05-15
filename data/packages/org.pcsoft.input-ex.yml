@@ -1,4 +1,5 @@
 name: org.pcsoft.input-ex
+aliases: []
 displayName: Unity Input Extension
 description: Extension for new Input System of Unity.
 repoUrl: https://github.com/KleinerHacker/unity-input-ex

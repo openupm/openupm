@@ -1,4 +1,5 @@
 name: com.trackman.poco-sdk
+aliases: []
 displayName: Poco SDK
 description: Unity integration for Poco-SDK.
 repoUrl: 'https://github.com/TrackMan/Unity.Package.Poco-SDK'

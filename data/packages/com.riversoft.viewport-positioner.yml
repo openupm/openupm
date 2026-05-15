@@ -1,4 +1,5 @@
 name: com.riversoft.viewport-positioner
+aliases: []
 displayName: Viewport Positioner
 description: >-
   Position any Transform in world space using normalized viewport coordinates,

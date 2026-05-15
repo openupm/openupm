@@ -1,4 +1,5 @@
 name: com.virtualmaker.filebrowser
+aliases: []
 displayName: StandaloneFileBrowser
 description: Native open and save UIs for Windows, MacOS, Linux, WebGL
 repoUrl: https://github.com/virtual-maker-net/unity-file-browser

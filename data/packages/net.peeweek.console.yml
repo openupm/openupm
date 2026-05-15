@@ -1,4 +1,5 @@
 name: net.peeweek.console
+aliases: []
 displayName: Console
 description: An interactive runtime console for unity available as package
 repoUrl: 'https://github.com/peeweek/net.peeweek.console'

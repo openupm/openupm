@@ -1,4 +1,5 @@
 name: at.innerspace.stylecopignoreutility
+aliases: []
 displayName: StyleCop Ignore Utility
 description: >-
   A Unity Editor tool used to force StyleCop to ignore specified scripts as it

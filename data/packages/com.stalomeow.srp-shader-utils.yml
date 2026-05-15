@@ -1,4 +1,5 @@
 name: com.stalomeow.srp-shader-utils
+aliases: []
 displayName: Shader Utils for SRP
 description: Utilities for SRP shaders.
 repoUrl: 'https://github.com/stalomeow/ShaderUtilsForSRP'

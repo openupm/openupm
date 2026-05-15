@@ -1,4 +1,5 @@
 name: com.openlootbox.editable-assemblies
+aliases: []
 displayName: Editable Assemblies
 description: >+
   Provides a wrapper that allows you to edit AssemblyDefinitionAsset files in

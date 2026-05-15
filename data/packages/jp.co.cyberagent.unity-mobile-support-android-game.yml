@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.unity-mobile-support-android-game
+aliases: []
 displayName: Mobile Support - Android Game
 description: Support package to integrate with Android GameMode and GameState APIs.
 repoUrl: 'https://github.com/CyberAgentGameEntertainment/UnityMobileSupport'

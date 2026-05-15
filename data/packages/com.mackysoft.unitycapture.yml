@@ -1,4 +1,5 @@
 name: com.mackysoft.unitycapture
+aliases: []
 displayName: UnityCapture for Universal Render Pipeline
 description: Streams Unity (Universal Render Pipeline) rendered output to other Windows
   applications as virtual capture device.

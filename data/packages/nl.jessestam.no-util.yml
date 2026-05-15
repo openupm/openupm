@@ -1,4 +1,5 @@
 name: nl.jessestam.no-util
+aliases: []
 displayName: NoUtil
 description: A utility libary with many tools to speed up development
 repoUrl: 'https://github.com/nolimet/Util'

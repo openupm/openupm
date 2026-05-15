@@ -1,4 +1,5 @@
 name: co.balancy.unity-purchasing
+aliases: []
 displayName: Balancy Purchasing
 description: Purchasing module for Balancy, based on the Unity Purchasing.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_purchasing

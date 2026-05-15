@@ -1,4 +1,5 @@
 name: com.radiatoryang.hedera
+aliases: []
 displayName: Hedera
 description: paint 3D ivy in the Unity Editor, watch procedurally generated meshes
   simulate growth and clinging in real-time

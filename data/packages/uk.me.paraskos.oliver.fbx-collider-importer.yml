@@ -1,4 +1,5 @@
 name: uk.me.paraskos.oliver.fbx-collider-importer
+aliases: []
 displayName: Model Collider Importer
 description: 'Import Unreal-Style colliders from Blender/FBX files into Unity Game
   Engine '

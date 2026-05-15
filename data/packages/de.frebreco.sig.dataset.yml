@@ -1,4 +1,5 @@
 name: de.frebreco.sig.dataset
+aliases: []
 displayName: SIG Dataset
 description: >-
   Implements a Unity-friendly dataset base model as well as base nodes to add

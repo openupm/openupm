@@ -1,4 +1,5 @@
 name: com.manefunction.dotween-ui-controller
+aliases: []
 displayName: DOTween UI Controller
 description: >-
   Neat Unity controller component to set up UI DOTween animations without any

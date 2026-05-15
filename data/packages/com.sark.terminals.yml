@@ -1,4 +1,5 @@
 name: com.sark.terminals
+aliases: []
 displayName: Terminals
 description: Utilities for rendering to pixel perfect terminals in Unity.
 repoUrl: 'https://github.com/sarkahn/terminals'

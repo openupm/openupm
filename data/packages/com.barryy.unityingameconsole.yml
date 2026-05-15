@@ -1,4 +1,5 @@
 name: com.barryy.unityingameconsole
+aliases: []
 displayName: Unity In-game Console
 description: >-
   An in-game console for debugging and executing commands during gameplay in

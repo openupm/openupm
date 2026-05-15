@@ -1,4 +1,5 @@
 name: com.nementic.grouping-tool
+aliases: []
 displayName: Grouping Tool
 description: >-
   Use the right-click context menu or shortcut to group the selected GameObjects

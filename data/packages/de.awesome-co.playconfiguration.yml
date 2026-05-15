@@ -1,4 +1,5 @@
 name: de.awesome-co.playconfiguration
+aliases: []
 displayName: Play Configuration
 description: Closes or opens selected scenes when entering playback mode (editor only).
 repoUrl: 'https://github.com/Herb1/PlayConfiguration'

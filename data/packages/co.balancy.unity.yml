@@ -1,4 +1,5 @@
 name: co.balancy.unity
+aliases: []
 displayName: Balancy
 description: LiveOps & monetization workspace for games.
 repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity

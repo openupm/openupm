@@ -1,4 +1,5 @@
 name: com.blaze.dialogue
+aliases: []
 displayName: Blaze Dialogue
 description: Lightweight dialogue system
 repoUrl: 'https://github.com/BennyKok/unity-blaze'

@@ -1,4 +1,5 @@
 name: com.autsoft.unitysupplements.vitamins
+aliases: []
 displayName: Vitamins
 description: Commonly used extension methods and helper classes for Unity
 repoUrl: 'https://github.com/AutSoft/AutSoft.UnitySupplements'

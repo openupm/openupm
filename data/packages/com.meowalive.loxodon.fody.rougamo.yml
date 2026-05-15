@@ -1,4 +1,5 @@
 name: com.meowalive.loxodon.fody.rougamo
+aliases: []
 displayName: Loxodon Framework.Fody Plugin Rougamo
 description: Integrate Rougamo Fody Plugin into Unity Project using Loxodon Framework.
 repoUrl: https://github.com/meowalive/RougamoForUnity

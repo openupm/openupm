@@ -1,4 +1,5 @@
 name: com.baltin.ufbt
+aliases: []
 displayName: UnitaskFBT
 description: Async Functional Behavior Tree Design Pattern based on Unitask
 repoUrl: https://github.com/dmitrybaltin/UnitaskFBT

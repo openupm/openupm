@@ -1,4 +1,5 @@
 name: com.bitbebop.ios-app-icon-appearance
+aliases: []
 displayName: iOS App Icon Appearance
 description: >-
   Adds support for Light, Dark, & Tinted iOS App Icon variants, introduced with

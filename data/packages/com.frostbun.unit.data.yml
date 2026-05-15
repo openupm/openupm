@@ -1,4 +1,5 @@
 name: com.frostbun.unit.data
+aliases: []
 displayName: UniT Data
 description: Data Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Data

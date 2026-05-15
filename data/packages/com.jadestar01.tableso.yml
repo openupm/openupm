@@ -1,4 +1,5 @@
 name: com.jadestar01.tableso
+aliases: []
 displayName: TableSO
 description: A Unity package for table-driven data management using ScriptableObjects.
 repoUrl: https://github.com/jadestar01/TableSO

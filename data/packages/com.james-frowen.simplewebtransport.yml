@@ -1,4 +1,5 @@
 name: com.james-frowen.simplewebtransport
+aliases: []
 displayName: Simple Web Transport
 description: >-
   Low level transport for Unity using the websocket Protocol. Includes a

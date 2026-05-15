@@ -1,4 +1,5 @@
 name: com.walletconnect.modal
+aliases: []
 displayName: WalletConnect Modal
 description: >-
   Simplest and most minimal way to connect your players with WalletConnect

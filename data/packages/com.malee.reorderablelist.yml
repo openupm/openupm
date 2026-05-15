@@ -1,4 +1,5 @@
 name: com.malee.reorderablelist
+aliases: []
 displayName: Reorderable List
 description: Extended version of the Reorderable List in Unity
 repoUrl: 'https://github.com/cfoulston/Unity-Reorderable-List'

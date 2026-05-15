@@ -1,4 +1,5 @@
 name: com.annulusgames.ugui-progress-bar
+aliases: []
 displayName: Progress Bar
 description: Simple and robust progress bar components for Unity uGUI.
 repoUrl: https://github.com/AnnulusGames/UnityProgressBar

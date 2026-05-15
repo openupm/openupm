@@ -1,4 +1,5 @@
 name: com.gameframe.pooling
+aliases: []
 displayName: Gameframe.Pooling
 description: Simple pooling solution for Unity
 repoUrl: 'https://github.com/coryleach/UnityPooling'

@@ -1,4 +1,5 @@
 name: net.peeweek.urp-lowresolutionrenderpass
+aliases: []
 displayName: 'Universal RP : Low Resolution RenderPass'
 description: URP ScriptableRendererPass that enables rendering of transparent objects
   at a lower resolution. (Forked from yugofujioka's BlendedBufferForURP)

@@ -1,4 +1,5 @@
 name: com.cdm.authentication
+aliases: []
 displayName: Authentication for Unity
 description: Simple OAuth2 client for Unity.
 repoUrl: 'https://github.com/cdmvision/authentication-unity'

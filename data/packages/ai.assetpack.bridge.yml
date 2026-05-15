@@ -1,4 +1,5 @@
 name: ai.assetpack.bridge
+aliases: []
 displayName: Asset Pack Bridge
 description: A tool to help you download your asset pack into your Unity project.
 repoUrl: https://github.com/handaptive/UnityAssetPackBridge

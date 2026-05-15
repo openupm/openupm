@@ -1,4 +1,5 @@
 name: org.plunderludics.unityhawk
+aliases: []
 displayName: UnityHawk
 description: Run emulated games within Unity via BizHawk
 repoUrl: https://github.com/plunderludics/unity-hawk

@@ -1,4 +1,5 @@
 name: io.improbable.worker.sdk
+aliases: []
 displayName: SpatialOS Worker SDK
 description: SpatialOS GDK for Unity
 repoUrl: 'https://github.com/spatialos/gdk-for-unity'

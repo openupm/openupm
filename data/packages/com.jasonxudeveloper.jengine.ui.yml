@@ -1,4 +1,5 @@
 name: com.jasonxudeveloper.jengine.ui
+aliases: []
 displayName: JEngine.UI
 description: UI utilities for JEngine framework.
 repoUrl: https://github.com/JasonXuDeveloper/JEngine

@@ -1,4 +1,5 @@
 name: com.ms.nativedialog
+aliases: []
 displayName: Native Dialog
 description: 'Display native dialog in Unity (support Android&iOS) '
 repoUrl: 'https://github.com/wlgys8/UnityNativeDialog'

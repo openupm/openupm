@@ -1,4 +1,5 @@
 name: com.niikelion.toko.core
+aliases: []
 displayName: Toko
 description: State management library for Unity.
 repoUrl: https://github.com/Niikelion/Toko

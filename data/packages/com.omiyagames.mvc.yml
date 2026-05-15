@@ -1,4 +1,5 @@
 name: com.omiyagames.mvc
+aliases: []
 displayName: Omiya Games - MVC
 description: A Model-View-Controller framework implementation by Omiya Games.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-mvc'

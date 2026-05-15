@@ -1,4 +1,5 @@
 name: com.jonagill.autofill
+aliases: []
 displayName: Autofill
 description: A utility to automatically retrieve serializable component references
   on prefabs at edit time.

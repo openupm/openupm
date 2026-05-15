@@ -1,4 +1,5 @@
 name: dev.ohanaya.deeplicate
+aliases: []
 displayName: Deeplicate
 description: Deep copying assets.
 repoUrl: 'https://github.com/c3-hoge-fuga-piyo/Deeplicate.unity'

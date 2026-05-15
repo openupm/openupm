@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.semver
+aliases: []
 displayName: JCMG SemVer
 description: A SemVer 2.0.0 implementation for Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-semver'

@@ -1,4 +1,5 @@
 name: com.gameframe.simplejson
+aliases: []
 displayName: SimpleJSON
 description: A C# json reader/writer in a convenient Unity package format
 repoUrl: 'https://github.com/coryleach/SimpleJSON'

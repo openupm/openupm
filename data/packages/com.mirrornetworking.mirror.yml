@@ -1,4 +1,5 @@
 name: com.mirrornetworking.mirror
+aliases: []
 displayName: Mirror
 description: 'quote from https://github.com/MirrorNetworking/Mirror'
 repoUrl: https://github.com/960208781/UnityMirror

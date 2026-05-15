@@ -1,4 +1,5 @@
 name: com.zbase.collections.pooled
+aliases: []
 displayName: ZBase.Collections.Pooled
 description: >-
   Low-allocation ports of List, Dictionary, HashSet, Stack, and Queue using

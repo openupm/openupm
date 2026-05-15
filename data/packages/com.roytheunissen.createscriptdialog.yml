@@ -1,4 +1,5 @@
 name: com.roytheunissen.createscriptdialog
+aliases: []
 displayName: Create Script Dialog
 description: >-
   A wizard that lets you create scripts from useful templates, with correct

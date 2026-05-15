@@ -1,4 +1,5 @@
 name: com.maligan.guid
+aliases: []
 displayName: GUID Component
 description: Unity GUID Component & Reference
 repoUrl: 'https://github.com/Maligan/unity-guid'

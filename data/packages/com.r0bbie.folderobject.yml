@@ -1,4 +1,5 @@
 name: com.r0bbie.folderobject
+aliases: []
 displayName: Folder Object
 description: Folder Object component, hides the transform, allowing use of empty GameObjects
   for organising your scene, avoiding frequent problems associated with accidental

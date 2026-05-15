@@ -1,4 +1,5 @@
 name: com.pixelwizards.sqlite
+aliases: []
 displayName: SQLite Database
 description: SQLite plugin for Unity3D Android and iOS build
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.sqlite'

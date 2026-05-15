@@ -1,4 +1,5 @@
 name: com.heavycavstudios.core
+aliases: []
 displayName: Heavy Cav Studios Core Utilities
 description: A shared utility package for Heavy Cav Studios projects.
 repoUrl: https://github.com/Heavy-Cav-Studios/Core

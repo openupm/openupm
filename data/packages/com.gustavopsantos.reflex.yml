@@ -1,4 +1,5 @@
 name: com.gustavopsantos.reflex
+aliases: []
 displayName: Reflex
 description: Minimal dependency injection framework for Unity
 repoUrl: 'https://github.com/gustavopsantos/reflex'

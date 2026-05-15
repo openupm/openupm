@@ -1,4 +1,5 @@
 name: com.coffee.git-dependency-resolver
+aliases: []
 displayName: Git Dependency Resolver
 description: >-
   This plugin resolves git url dependencies in the package for Unity Package

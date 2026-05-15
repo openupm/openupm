@@ -1,4 +1,5 @@
 name: com.litefeel.renametools
+aliases: []
 displayName: Rename Tools
 description: 'RenameTools is just perfect Unity asset plugin to rename game object. '
 repoUrl: 'https://github.com/litefeel/Unity-RenameTools'

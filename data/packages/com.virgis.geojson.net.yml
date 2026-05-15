@@ -1,4 +1,5 @@
 name: com.virgis.geojson.net
+aliases: []
 displayName: GeoJSON.Net
 description: .Net library for GeoJSON types & corresponding Json.Net (de)serializers
 repoUrl: 'https://github.com/ViRGIS-Team/GeoJSON.Net'

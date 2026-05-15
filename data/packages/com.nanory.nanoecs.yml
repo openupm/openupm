@@ -1,4 +1,5 @@
 name: com.nanory.nanoecs
+aliases: []
 displayName: NanoECS
 description: 'c#-Unity ECS framework '
 repoUrl: 'https://github.com/SinyavtsevIlya/NanoECS'

@@ -1,4 +1,5 @@
 name: com.redwyre.devtools
+aliases: []
 displayName: redwyre Dev Tools
 description: A some tools for developers. Clear library, burst cache, some toolbar buttons.
 repoUrl: https://github.com/redwyre/com.redwyre.devtools

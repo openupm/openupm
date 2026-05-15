@@ -1,4 +1,5 @@
 name: com.hibzz.devmenu
+aliases: []
 displayName: hibzz.devmenu
 description: >-
   A tool used to add custom commands to a developer menu for quick testing and

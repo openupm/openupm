@@ -1,4 +1,5 @@
 name: com.xrtk.oculus
+aliases: []
 displayName: XRTK.Oculus
 description: The Oculus platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/Oculus'

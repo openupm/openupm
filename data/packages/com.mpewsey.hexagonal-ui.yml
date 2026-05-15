@@ -1,4 +1,5 @@
 name: com.mpewsey.hexagonal-ui
+aliases: []
 displayName: HexagonalUI
 description: A hexagonal grid layout group for Unity.
 repoUrl: 'https://github.com/mpewsey/HexagonalUI'

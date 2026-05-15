@@ -1,4 +1,5 @@
 name: com.frostbun.unit.utilities
+aliases: []
 displayName: UniT Utilities
 description: Utility classes for Unity
 repoUrl: https://github.com/frostbun/UniT.Utilities

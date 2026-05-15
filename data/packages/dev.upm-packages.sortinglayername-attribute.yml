@@ -1,4 +1,5 @@
 name: dev.upm-packages.sortinglayername-attribute
+aliases: []
 displayName: SortingLayerName Attribute
 description: >-
   Provide [SortingLayerName] attribute for render string field as Popup in

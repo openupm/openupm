@@ -1,4 +1,5 @@
 name: com.fredericrp.playercurrency
+aliases: []
 displayName: FRP Player Currency
 description: >-
   An easy to setup virtual currency manager: load, save and convert between

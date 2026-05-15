@@ -1,4 +1,6 @@
 name: com.acegikmo.mathfs
+aliases:
+  - com.freya.mathfs
 displayName: Mathfs
 description: Advanced math functionality for Unity
 repoUrl: 'https://github.com/FreyaHolmer/Mathfs'

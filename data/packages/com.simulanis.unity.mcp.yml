@@ -1,4 +1,5 @@
 name: com.simulanis.unity.mcp
+aliases: []
 displayName: Simulanis Unity MCP (Model Context Protocol)
 description: >-
   Simulanis modified version of Unity MCP. Bridge between LLM and Unity. It

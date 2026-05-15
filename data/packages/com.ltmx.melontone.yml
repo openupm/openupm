@@ -1,4 +1,5 @@
 name: com.ltmx.melontone
+aliases: []
 displayName: Melon Cinematic Tonemapper
 description: A good looking Tonemapper for Unity HDRP, aimed to fix ACES issues and
   provide a better color grading experience.

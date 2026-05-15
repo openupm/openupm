@@ -1,4 +1,5 @@
 name: com.realitystop.linkmerge
+aliases: []
 displayName: Custom Package Link Merger
 description: link.xml files for UPM packages
 repoUrl: 'https://github.com/RealityStop/Unity.CustomPackage.LinkMerge'

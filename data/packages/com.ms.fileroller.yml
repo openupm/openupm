@@ -1,4 +1,5 @@
 name: com.ms.fileroller
+aliases: []
 displayName: A simple file roller
 description: ''
 repoUrl: 'https://github.com/wlgys8/FileRoller'

@@ -1,4 +1,5 @@
 name: ext.csharpfunctionalextensions.unitask
+aliases: []
 displayName: CSharpFunctionalExtensions.UniTask
 description: UniTask extensions for CSharpFunctionalExtensions
 repoUrl: 'https://github.com/Razenpok/CSharpFunctionalExtensions.UniTask'

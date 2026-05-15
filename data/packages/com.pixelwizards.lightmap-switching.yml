@@ -1,4 +1,5 @@
 name: com.pixelwizards.lightmap-switching
+aliases: []
 displayName: Lightmap Switcher
 description: >-
   Tool that allows switching different baked lightmap sets on a unity scene at

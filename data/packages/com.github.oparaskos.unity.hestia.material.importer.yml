@@ -1,4 +1,5 @@
 name: com.github.oparaskos.unity.hestia.material.importer
+aliases: []
 displayName: Hestia | Unity Material Library
 description: unity material loader ui for online sources of materials
 repoUrl: 'https://github.com/oparaskos/unity-material-library'

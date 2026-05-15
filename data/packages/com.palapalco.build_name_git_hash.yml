@@ -1,4 +1,5 @@
 name: com.palapalco.build_name_git_hash
+aliases: []
 displayName: Build Name with Git Hash
 description: Create a copy from the original build name and append the current Git
   hash.

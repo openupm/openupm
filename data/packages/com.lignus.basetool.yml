@@ -1,4 +1,5 @@
 name: com.lignus.basetool
+aliases: []
 displayName: Base Tool
 description: The starter package to your every Unity projects
 repoUrl: https://github.com/DarkRewar/BaseTool

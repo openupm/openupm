@@ -1,4 +1,5 @@
 name: com.locus.bundlesystem
+aliases: []
 displayName: Locus Bundle System
 description: Simple Unity Addressables Alternative That Supports Synchronized API
 repoUrl: 'https://github.com/locus84/Locus-Bundle-System'

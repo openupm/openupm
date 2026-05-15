@@ -1,4 +1,5 @@
 name: com.siccity.gltfutility
+aliases: []
 displayName: GLTFUtility
 description: Lightweight GLTF importer for Unity
 repoUrl: 'https://github.com/Siccity/GLTFUtility'

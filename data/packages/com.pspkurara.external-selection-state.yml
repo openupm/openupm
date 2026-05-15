@@ -1,4 +1,5 @@
 name: com.pspkurara.external-selection-state
+aliases: []
 displayName: External Selection State
 description: >-
   The system allows external access to Selection.SelectionState, which is a

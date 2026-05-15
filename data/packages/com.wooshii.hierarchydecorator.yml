@@ -1,4 +1,5 @@
 name: com.wooshii.hierarchydecorator
+aliases: []
 displayName: HierarchyDecorator
 description: >-
   Lightweight Unity Extension for allowing Headers and GameObject info inside

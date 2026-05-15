@@ -1,4 +1,5 @@
 name: com.greenbamboogames.builtinuiresbrowser
+aliases: []
 displayName: Built-in UI Resources Browser!
 description: Browser built-in icons, StyleSheets and VisualTreeAssets in Unity Editor.
 repoUrl: https://github.com/SolarianZ/UnityBuiltinUIResBrowser

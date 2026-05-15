@@ -1,4 +1,5 @@
 name: com.supyrb.signals
+aliases: []
 displayName: Signals
 description: 'A typesafe, lightweight messaging system for Unity with UPM Support.'
 repoUrl: 'https://github.com/supyrb/signals'

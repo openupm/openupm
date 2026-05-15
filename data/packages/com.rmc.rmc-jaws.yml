@@ -1,4 +1,5 @@
 name: com.rmc.rmc-jaws
+aliases: []
 displayName: RMC Jaws
 description: RMC Jaws (Just Amazon Web Services) Library for Unity
 repoUrl: https://github.com/SamuelAsherRivello/rmc-jaws

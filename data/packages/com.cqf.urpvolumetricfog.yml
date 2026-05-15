@@ -1,4 +1,5 @@
 name: com.cqf.urpvolumetricfog
+aliases: []
 displayName: URP Volumetric Fog
 description: >-
   Volumetric fog integrated into URP's volume system. Supports additional

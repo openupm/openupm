@@ -1,4 +1,5 @@
 name: com.ohze.google.firebase.crashlytics
+aliases: []
 displayName: Firebase Crashlytics
 description: Crashlytics saves you troubleshooting time by intelligently grouping
   crashes and highlighting the circumstances that lead up to them.

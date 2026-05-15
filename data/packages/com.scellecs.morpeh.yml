@@ -1,4 +1,5 @@
 name: com.scellecs.morpeh
+aliases: []
 displayName: Morpeh
 description: Fast and Simple ECS Framework for Unity Game Engine.
 repoUrl: 'https://github.com/scellecs/morpeh'

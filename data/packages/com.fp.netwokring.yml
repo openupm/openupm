@@ -1,4 +1,5 @@
 name: com.fp.netwokring
+aliases: []
 displayName: Network struct and utility
 description: >-
   Networking data structures, serialization, interpolation and compression

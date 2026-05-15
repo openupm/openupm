@@ -1,4 +1,5 @@
 name: ai.natml.vision.mobilenet-v2
+aliases: []
 displayName: MobileNet v2
 description: Realtime image classification in Unity Engine.
 repoUrl: https://github.com/natmlx/mobilenet-v2-unity

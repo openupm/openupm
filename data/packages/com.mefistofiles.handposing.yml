@@ -1,4 +1,5 @@
 name: com.mefistofiles.handposing
+aliases: []
 displayName: HandPosing
 description: Pose authoring using handtracking on Quest
 repoUrl: 'https://github.com/MephestoKhaan/HandPosing'

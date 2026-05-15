@@ -1,4 +1,5 @@
 name: com.aceland.library
+aliases: []
 displayName: AceLand Library
 description: >-
   AceLand Library is utilities, editor extension, unity low-level tools, c# and

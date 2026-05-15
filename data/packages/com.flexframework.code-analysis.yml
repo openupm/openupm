@@ -1,4 +1,5 @@
 name: com.flexframework.code-analysis
+aliases: []
 displayName: Code Analysis
 description: Microsoft Code Analysis(Roslyn) minimal binaries
 repoUrl: 'https://github.com/flexunity/code-analysis'

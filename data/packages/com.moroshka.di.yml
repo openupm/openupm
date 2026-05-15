@@ -1,4 +1,5 @@
 name: com.moroshka.di
+aliases: []
 displayName: Moroshka.Di
 description: >-
   The DI module contains the DiContainer. DiContainer is a dependency injection

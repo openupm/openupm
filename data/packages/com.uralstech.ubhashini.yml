@@ -1,4 +1,5 @@
 name: com.uralstech.ubhashini
+aliases: []
 displayName: UBhashini
 description: 'UBhashini: A C# wrapper for the ULCA Bhashini API.'
 repoUrl: https://github.com/Uralstech/UBhashini

@@ -1,4 +1,5 @@
 name: com.baste.playerloopinterface
+aliases: []
 displayName: Player Loop Interface
 description: A simple interface for interacting with Unity's player loop system
 repoUrl: 'https://github.com/Baste-RainGames/PlayerLoopInterface'

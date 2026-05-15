@@ -1,4 +1,5 @@
 name: com.mixpanel.unity
+aliases: []
 displayName: Mixpanel
 description: Official Mixpanel library for Unity.
 repoUrl: https://github.com/mixpanel/mixpanel-unity

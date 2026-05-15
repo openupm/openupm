@@ -1,4 +1,5 @@
 name: com.johanhelsing.unityphysicsjoints
+aliases: []
 displayName: Unity Physics Joints
 description: UPM package of the joints components from the official EntityComponentSystemSamples
   repo

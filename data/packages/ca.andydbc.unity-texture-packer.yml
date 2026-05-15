@@ -1,4 +1,5 @@
 name: ca.andydbc.unity-texture-packer
+aliases: []
 displayName: Texture Channel Packer
 description: >-
   :hammer: Utility to combine color channels from different textures into a

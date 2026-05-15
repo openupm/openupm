@@ -1,4 +1,5 @@
 name: com.rojo.usunposition
+aliases: []
 displayName: USunPosition
 description: This is an astronomically accurate Sun positioning system for Unity
 repoUrl: 'https://github.com/JoseMiguelPizarro/USunPosition'

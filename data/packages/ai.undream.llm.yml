@@ -1,4 +1,6 @@
 name: ai.undream.llm
+aliases:
+  - ai.undream.llmunity
 displayName: LLMUnity
 description: LLMUnity allows to run and distribute LLM models in the Unity engine.
 repoUrl: https://github.com/undreamai/LLMUnity

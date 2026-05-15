@@ -1,4 +1,5 @@
 name: com.dreadscripts.hierarchyplus
+aliases: []
 displayName: DreadScripts - HierarchyPlus
 description: A general improvement to the unity hierarchy such as component icons,
   guide lines, row coloring and settings for customization.

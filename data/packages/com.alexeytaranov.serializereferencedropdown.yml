@@ -1,4 +1,6 @@
 name: com.alexeytaranov.serializereferencedropdown
+aliases:
+  - com.alexeytaranov.srd
 displayName: SRD
 description: Editor dropdown for SerializeReference Attribute
 repoUrl: 'https://github.com/AlexeyTaranov/SerializeReferenceDropdown'

@@ -1,4 +1,6 @@
 name: com.code-philosophy.hybridclr
+aliases:
+  - com.focus-creative-games.hybridclr_unity
 displayName: HybridCLR
 description: >-
   Unity package for HybridCLR. It includes editor and runtime scripts and assets

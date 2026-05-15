@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.maio
+aliases: []
 displayName: Google Mobile Ads Maio Mediation
 description: >-
   The Google Mobile Ads mediation plugin for Maio package allows you to load and

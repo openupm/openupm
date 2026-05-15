@@ -1,4 +1,5 @@
 name: com.zbase.foundation.pooling
+aliases: []
 displayName: ZBase.Foundation.Pooling
 description: Object pooling for Unity
 repoUrl: 'https://github.com/Zitga-Tech/ZBase.Foundation.Pooling'

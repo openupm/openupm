@@ -1,4 +1,5 @@
 name: com.appegy.binary-prefs
+aliases: []
 displayName: 'Appegy: Binary Prefs'
 description: Fast persistant thread-safe binary storage for Unity.
 repoUrl: https://github.com/Appegy/BinaryPrefs

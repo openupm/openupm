@@ -1,4 +1,5 @@
 name: com.iraklichkuaseli.glimmer
+aliases: []
 displayName: Glimmer
 description: >-
   GPU-accelerated shimmer loading placeholders for Unity UI. Assign target

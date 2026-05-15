@@ -1,4 +1,5 @@
 name: com.houraiteahouse.options
+aliases: []
 displayName: Hourai Options
 description: Simplified and automatic game option creation for Unity3D games.
 repoUrl: 'https://github.com/HouraiTeahouse/HouraiOptions'

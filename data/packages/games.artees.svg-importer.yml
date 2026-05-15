@@ -1,4 +1,5 @@
 name: games.artees.svg-importer
+aliases: []
 displayName: SVG Importer
 description: SVG Importer for Unity
 repoUrl: 'https://github.com/Artees/SVGImporter'

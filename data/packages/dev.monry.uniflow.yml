@@ -1,4 +1,5 @@
 name: dev.monry.uniflow
+aliases: []
 displayName: UniFlow
 description: Connect presentation events
 repoUrl: 'https://github.com/monry/UniFlow'

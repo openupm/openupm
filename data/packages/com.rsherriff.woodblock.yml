@@ -1,4 +1,5 @@
 name: com.rsherriff.woodblock
+aliases: []
 displayName: Woodblock
 description: A simple and quick manager and UI for games written in INK.
 repoUrl: 'https://github.com/rSherriff/woodblock'

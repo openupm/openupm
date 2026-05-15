@@ -1,4 +1,5 @@
 name: com.intelliversex.sdk
+aliases: []
 displayName: IntelliVerseX SDK
 description: >-
   Complete modular game development SDK with 15+ packages: Core, Identity, Auth,

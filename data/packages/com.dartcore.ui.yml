@@ -1,4 +1,5 @@
 name: com.dartcore.ui
+aliases: []
 displayName: DartCore UI
 description: |-
   This package contains various UI tools ranging from a tooltip

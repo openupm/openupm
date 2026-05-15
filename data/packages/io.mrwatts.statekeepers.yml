@@ -1,4 +1,5 @@
 name: io.mrwatts.statekeepers
+aliases: []
 displayName: StateKeepers
 description: This package contains scripts for conveniently implementing State Keeping.
 repoUrl: https://github.com/mr-watts/io.mrwatts.statekeepers

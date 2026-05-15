@@ -1,4 +1,5 @@
 name: com.silverdale.asset-reference-viewer
+aliases: []
 displayName: Asset Reference Viewer
 description: A convenient tool to help cleaning and maintaining Unity Projects
 repoUrl: https://github.com/Dasparion/AssetReferenceViewer

@@ -1,4 +1,5 @@
 name: com.solidalloy.extevents
+aliases: []
 displayName: ExtEvents
 description: UnityEvents, but better.
 repoUrl: https://github.com/SolidAlloy/ExtEvents

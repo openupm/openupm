@@ -1,4 +1,5 @@
 name: com.akiojin.unity.analyzers
+aliases: []
 displayName: Unity Analyzers
 description: 'Roslyn Analyzer package that enforces Fail-Fast principle and Unity optimization rules. Detects GetComponent calls outside Awake/Start, forbidden Find methods in Update loops, and null guards after DI injection.'
 repoUrl: 'https://github.com/akiojin/unity-analyzers'

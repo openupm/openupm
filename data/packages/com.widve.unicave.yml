@@ -1,4 +1,5 @@
 name: com.widve.unicave
+aliases: []
 displayName: UniCAVE Plugin
 description: A Unity3D Plugin for Non-Head Mounted Virtual Reality Display Systems
 repoUrl: 'https://github.com/widVE/UniCAVE'

@@ -1,4 +1,5 @@
 name: com.xavierarpa.uniflux
+aliases: []
 displayName: UniFlux
 description: Provides Flux flow integration to Unity.
 repoUrl: https://github.com/xavierarpa/UniFlux

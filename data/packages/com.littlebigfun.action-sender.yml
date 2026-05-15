@@ -1,4 +1,5 @@
 name: com.littlebigfun.action-sender
+aliases: []
 displayName: Unity Action Sender
 description: A type-safe replacement to SendMessage.
 repoUrl: 'https://github.com/favoyang/unity-action-sender'

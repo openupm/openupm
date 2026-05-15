@@ -1,4 +1,5 @@
 name: org.plunderludics.lib
+aliases: []
 displayName: Plunderludics.lib
 description: tools for making games with emulated games using unity-hawk
 repoUrl: https://github.com/plunderludics/lib

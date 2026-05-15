@@ -1,4 +1,5 @@
 name: com.tendo.fuxi
+aliases: []
 displayName: fuxi
 description: assetBundle build and load solution!
 repoUrl: 'https://github.com/mistletoeKANO/fuxi'

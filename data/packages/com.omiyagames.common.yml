@@ -1,4 +1,5 @@
 name: com.omiyagames.common
+aliases: []
 displayName: Omiya Games - Common
 description: Unity package containing libraries used by various Omiya Games tools
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-common'

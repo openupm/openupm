@@ -1,4 +1,5 @@
 name: com.tanitaka-tech.state-variable
+aliases: []
 displayName: State Variable
 description: A library for managing state variables
 repoUrl: https://github.com/tanitaka-tech/StateVariable

@@ -1,4 +1,5 @@
 name: com.rhinox.open.assetprocessor
+aliases: []
 displayName: Asset Processor - Editor Automation
 description: Editor automation scripts to create a server-based import pipeline
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-assetprocessor'

@@ -1,4 +1,5 @@
 name: com.ametrin.unity-console
+aliases: []
 displayName: Unity Runtime Console
 description: Runtime Console for Unity written by Barion
 repoUrl: https://github.com/BarionLP/UnityConsole

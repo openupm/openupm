@@ -1,4 +1,5 @@
 name: jp.co.cyberagent.instant-replay
+aliases: []
 displayName: Instant Replay
 description: >-
   Instant Replay allows you to constantly record the last N seconds of gameplay

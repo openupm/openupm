@@ -1,4 +1,5 @@
 name: com.fredericrp.eventhandler
+aliases: []
 displayName: FRP Event Handler
 description: >-
   A generic event handler that allows you to subscribe and trigger game events

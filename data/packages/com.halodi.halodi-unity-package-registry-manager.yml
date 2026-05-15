@@ -1,4 +1,5 @@
 name: com.halodi.halodi-unity-package-registry-manager
+aliases: []
 displayName: Halodi Unity Package Registry Manager
 description: Tools for making managing Unity package registries easier
 repoUrl: 'https://github.com/Halodi/halodi-unity-package-registry-manager'

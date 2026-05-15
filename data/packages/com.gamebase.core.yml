@@ -1,4 +1,5 @@
 name: com.gamebase.core
+aliases: []
 displayName: Gamebase-Core
 description: Gamebase core module.
 repoUrl: 'https://github.com/hiyorin/Gamebase-Core'

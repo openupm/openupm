@@ -1,4 +1,5 @@
 name: com.fredericrp.persistentdatasystem
+aliases: []
 displayName: FRP Persistent Data System
 description: >-
   The PersistentDataSystem is a fast and maintenable save system. Data are

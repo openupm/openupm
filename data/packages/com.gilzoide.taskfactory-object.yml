@@ -1,4 +1,5 @@
 name: com.gilzoide.taskfactory-object
+aliases: []
 displayName: Task Factory Object
 description: >-
   TaskFactory Unity objects plus a collection of TaskSchedulers with optional

@@ -1,4 +1,5 @@
 name: eu.netherlands3d.json
+aliases: []
 displayName: Netherlands3D - JSON Extras
 description: A series of extras for working with JSON in the context of Netherlands3D
 repoUrl: 'https://github.com/Netherlands3D/Json-Extras'

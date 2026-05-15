@@ -1,4 +1,5 @@
 name: extensions.unity.bundle.efcore.sqlite
+aliases: []
 displayName: EntityFrameworkCore + SQLite bundle
 description: >-
   Bundle project that includes references on EntityFrameworkCore and SQLite set

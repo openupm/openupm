@@ -1,4 +1,5 @@
 name: com.dtech.logging
+aliases: []
 displayName: Log System
 description: The package helps for logging in Unity.
 repoUrl: https://github.com/DanilChizhikov/unity-loging

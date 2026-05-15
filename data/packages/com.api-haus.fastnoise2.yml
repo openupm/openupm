@@ -1,4 +1,5 @@
 name: com.api-haus.fastnoise2
+aliases: []
 displayName: FastNoise2
 description: >-
   FastNoise2 packaged for Unity Package Manager (UPM). SIMD-accelerated noise

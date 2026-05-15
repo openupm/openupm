@@ -1,4 +1,5 @@
 name: com.joaosantos.package-state-machine
+aliases: []
 displayName: JS State Machine
 description: Package with a state machine scripts
 repoUrl: 'https://github.com/JoaoSant0s/unity-custom-packages'

@@ -1,4 +1,5 @@
 name: eu.netherlands3d.geojson
+aliases: []
 displayName: Netherlands3D - GeoJSON
 description: Extra GeoJSON-based features for Netherlands3D
 repoUrl: 'https://github.com/Netherlands3D/GeoJSON'

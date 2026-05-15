@@ -1,4 +1,5 @@
 name: com.motphys.rigidbody.rawapi
+aliases: []
 displayName: Motphys Rigidbody Raw API
 description: Low level data structures and API for the Motphys Rigidbody project.
 repoUrl: https://github.com/Motphys/motphys-rigidbody-unity-sdk

@@ -1,4 +1,5 @@
 name: com.mefistofiles.unity-event-visualizer
+aliases: []
 displayName: Unity Event Visualizer
 description: A graph editor for viewing all UnityEvents at a glance
 repoUrl: 'https://github.com/MephestoKhaan/UnityEventVisualizer'

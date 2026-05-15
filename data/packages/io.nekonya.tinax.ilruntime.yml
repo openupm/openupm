@@ -1,4 +1,5 @@
 name: io.nekonya.tinax.ilruntime
+aliases: []
 displayName: TinaX.ILRuntime
 description: >-
   VFS.ILRuntime provides C# hotfix capability based on ILRuntime for Unity

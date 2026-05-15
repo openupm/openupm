@@ -1,4 +1,5 @@
 name: com.gameframe.sceneswitcher
+aliases: []
 displayName: Gameframe.SceneSwitcher
 description: Editor extension for quick scene switching.
 repoUrl: 'https://github.com/coryleach/UnitySceneSwitcher'

@@ -1,4 +1,5 @@
 name: com.engage.rtltmpro
+aliases: []
 displayName: RTL Text Mesh Pro
 description: >-
   This package adds Right-to-left language support to TextMeshPro Unity package.

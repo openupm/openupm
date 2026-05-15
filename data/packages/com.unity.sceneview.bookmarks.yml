@@ -1,4 +1,5 @@
 name: com.unity.sceneview.bookmarks
+aliases: []
 displayName: SceneView Bookmarks
 description: SceneViewBookmarks
 repoUrl: 'https://github.com/PixelWizards/SceneViewBookmarks'

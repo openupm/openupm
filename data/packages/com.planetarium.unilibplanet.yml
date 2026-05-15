@@ -1,4 +1,5 @@
 name: com.planetarium.unilibplanet
+aliases: []
 displayName: Unilibplanet
 description: Libplanet Extensions for Unity
 repoUrl: https://github.com/planetarium/libplanet-unity-sdk

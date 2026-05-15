@@ -1,4 +1,5 @@
 name: com.microsoft.mixedreality.visualprofiler
+aliases: []
 displayName: MRTK Visual Profiler
 description: >-
   Provides a drop in solution for viewing your mixed reality Unity application's

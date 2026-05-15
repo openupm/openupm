@@ -1,4 +1,5 @@
 name: com.coffee.internal-accessible-compiler
+aliases: []
 displayName: Internal Accessable Compiler
 description: Compile a c# project to a internal accessible dll (for Unity)
 repoUrl: 'https://github.com/mob-sakai/InternalAccessibleCompilerForUnity'

@@ -1,4 +1,5 @@
 name: com.jonagill.addressablesgenerator
+aliases: []
 displayName: Addressables Generator
 description: >-
   Utility for programatically generating Addressable Groups and managing their

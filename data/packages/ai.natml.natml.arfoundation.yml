@@ -1,4 +1,5 @@
 name: ai.natml.natml.arfoundation
+aliases: []
 displayName: NatML ARFoundation
 description: Unity ARFoundation support library for NatML.
 repoUrl: https://github.com/natmlx/natml-arfoundation

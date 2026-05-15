@@ -1,4 +1,5 @@
 name: org.pcsoft.scene-ex
+aliases: []
 displayName: Scene Management Extension
 description: Extension for Scene Management with support of scene over-blending.
 repoUrl: https://github.com/KleinerHacker/unity-scene-ex

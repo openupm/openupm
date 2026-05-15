@@ -1,4 +1,5 @@
 name: com.zbase.foundation.mvvm
+aliases: []
 displayName: ZBase.Foundation.Mvvm
 description: >-
   An MVVM framework for Unity that utilises C# Source Generator for better

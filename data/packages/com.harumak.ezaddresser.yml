@@ -1,4 +1,5 @@
 name: com.harumak.ezaddresser
+aliases: []
 displayName: EZAddresser
 description: Automatic addressing system for Unity Addressable Asset System.
 repoUrl: 'https://github.com/Haruma-K/EZAddresser'

@@ -1,4 +1,5 @@
 name: com.codewriter.triinspector
+aliases: []
 displayName: Tri Inspector
 description: Better inspector and validator for Unity
 repoUrl: 'https://github.com/codewriter-packages/Tri-Inspector'

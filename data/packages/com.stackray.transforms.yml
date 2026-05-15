@@ -1,4 +1,5 @@
 name: com.stackray.transforms
+aliases: []
 displayName: Stackray Transforms
 description: 'Extending DOTS '
 repoUrl: https://github.com/GilbertoGojira/DOTS-Stackray

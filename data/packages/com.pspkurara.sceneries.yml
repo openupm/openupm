@@ -1,4 +1,5 @@
 name: com.pspkurara.sceneries
+aliases: []
 displayName: Sceneries
 description: A simple uGUI screen transition system.
 repoUrl: 'https://github.com/pspkurara/sceneries'

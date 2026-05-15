@@ -1,4 +1,5 @@
 name: com.endelways.screenmanager
+aliases: []
 displayName: Screen Manager
 description: Tool for managing windows and layouts in Unity.
 repoUrl: https://github.com/Endelways/ScreenManager

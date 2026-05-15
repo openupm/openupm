@@ -1,4 +1,5 @@
 name: com.nowsprinting.gameplay-mcp
+aliases: []
 displayName: Gameplay MCP
 description: >-
   Model context protocol (MCP) server for gameplay. Provides tools that AI

@@ -1,4 +1,5 @@
 name: io.tinu.asepriteimporter
+aliases: []
 displayName: Aseprite Importer
 description: An aseprite-file importer for unity written in C#, built upon the experimental
   AssetImporter API

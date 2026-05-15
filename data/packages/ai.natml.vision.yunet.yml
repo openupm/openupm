@@ -1,4 +1,5 @@
 name: ai.natml.vision.yunet
+aliases: []
 displayName: YuNet
 description: Ultra-high performance face detection in Unity Engine.
 repoUrl: https://github.com/natmlx/yunet-unity

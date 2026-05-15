@@ -1,4 +1,5 @@
 name: com.moroshka.di-context
+aliases: []
 displayName: Moroshka.DiContext
 description: >-
   DI Context module extends E314.DI. Designed for organizing DI through

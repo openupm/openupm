@@ -1,4 +1,5 @@
 name: com.needle.editorpatching
+aliases: []
 displayName: Editor Patching
 description: 'Uses Harmony to patch the Editor. https://github.com/pardeike/Harmony'
 repoUrl: 'https://github.com/needle-tools/editorpatching'

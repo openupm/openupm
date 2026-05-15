@@ -1,4 +1,5 @@
 name: com.widwickyy.savesystem
+aliases: []
 displayName: Lightweight Save System
 description: >-
   A simple, extensible save system for Unity with JSON serialization and file

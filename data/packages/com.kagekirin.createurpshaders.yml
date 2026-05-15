@@ -1,4 +1,5 @@
 name: com.kagekirin.createurpshaders
+aliases: []
 displayName: Create URP Shaders
 description: Editor extension to add menu entries to create new URP Lit/Empty shaders
 repoUrl: https://github.com/KageKirin/CreateURPShaders

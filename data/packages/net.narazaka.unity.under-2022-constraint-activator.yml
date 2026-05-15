@@ -1,4 +1,5 @@
 name: net.narazaka.unity.under-2022-constraint-activator
+aliases: []
 displayName: Under 2022 Constraint Activator (Experimental!)
 description: >-
   Fix `Constraint.constraintActive` when importing unitypackages from

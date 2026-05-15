@@ -1,4 +1,5 @@
 name: com.bravestremers.sg-unity-sdk
+aliases: []
 displayName: StreamingGames Unity SDK
 description: A Unity package for the StreamingGames Unity SDK.
 repoUrl: https://github.com/bravestreamers/sg-unity-sdk

@@ -1,4 +1,5 @@
 name: com.u2sb.package-offline
+aliases: []
 displayName: Unity Package Offline
 description: Convert upm package offline for use on computers without network connectivity
 repoUrl: https://github.com/u2sb/UnityPackageOffline

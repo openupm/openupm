@@ -1,4 +1,5 @@
 name: com.cippsharp.serialization
+aliases: []
 displayName: CippSharp.Serialization
 description: Data Serialization
 repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpSerialization'

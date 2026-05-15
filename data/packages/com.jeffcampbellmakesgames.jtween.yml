@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.jtween
+aliases: []
 displayName: JTween
 description: A job-based tween library for Unity
 repoUrl: 'https://github.com/jeffcampbellmakesgames/unity-jtween'

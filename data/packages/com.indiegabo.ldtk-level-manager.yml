@@ -1,4 +1,5 @@
 name: com.indiegabo.ldtk-level-manager
+aliases: []
 displayName: LDtk Level Manager
 description: A solution for managing LDtk levels in Unity.
 repoUrl: https://github.com/indiegabo/ldtk-level-manager

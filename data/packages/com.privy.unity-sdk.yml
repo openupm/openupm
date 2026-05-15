@@ -1,4 +1,5 @@
 name: com.privy.unity-sdk
+aliases: []
 displayName: Privy SDK
 description: Privy Unity SDK for authentication and embedded wallet functionality.
 repoUrl: https://github.com/privy-io/unity-sdk

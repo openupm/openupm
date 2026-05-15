@@ -1,4 +1,5 @@
 name: com.fieldday.core-unity
+aliases: []
 displayName: Field Day Unity Core
 description: Core Unity3d ECS framework and utilities for Field Day Lab
 repoUrl: 'https://github.com/fielddaylab/core-unity'

@@ -1,4 +1,6 @@
 name: com.system-community.systembuffers
+aliases:
+  - com.worldreaver.systemmemory
 displayName: SystemBuffers
 description: >-
   Provides resource pooling of any type for performance-critical applications

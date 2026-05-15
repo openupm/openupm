@@ -1,4 +1,5 @@
 name: com.muffindev.multipleeditors
+aliases: []
 displayName: MuffinDev - Multiple Editors
 description: >-
   Unity plugin that allows you to make multiple editors that target the same

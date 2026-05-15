@@ -1,4 +1,5 @@
 name: com.mygamedevtools.scene-loader
+aliases: []
 displayName: Advanced Scene Manager
 description: >-
   Enhance your scene loading experience in Unity.

@@ -1,4 +1,5 @@
 name: com.google.play.assetdelivery
+aliases: []
 displayName: Google Play Asset Delivery
 description: >-
   Play Asset Delivery enables AssetBundles and other assets to be packaged into

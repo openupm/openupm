@@ -1,4 +1,5 @@
 name: com.quabug.parallel-prefix-sum.gpu
+aliases: []
 displayName: Parallel Prefix Sum (Compute Shader)
 description: Parallel Prefix Sum (Compute Shader)
 repoUrl: 'https://github.com/quabug/parallel-prefix-sum'

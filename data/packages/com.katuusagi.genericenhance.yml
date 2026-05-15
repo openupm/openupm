@@ -1,4 +1,5 @@
 name: com.katuusagi.genericenhance
+aliases: []
 displayName: GenericEnhancce
 description: A library that enhances C#'s Generic features and helps implementation.
 repoUrl: https://github.com/Katsuya100/GenericEnhance

@@ -1,4 +1,5 @@
 name: com.kwnetzwelt.ubs
+aliases: []
 displayName: Unity Build System
 description: Provides tooling to automate build processes inside the editor.
 repoUrl: 'https://github.com/kwnetzwelt/unity-build-system'

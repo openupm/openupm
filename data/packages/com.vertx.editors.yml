@@ -1,4 +1,5 @@
 name: com.vertx.editors
+aliases: []
 displayName: Editors
 description: Custom Editors and Controls for Unity.
 repoUrl: 'https://github.com/vertxxyz/Vertx.Editors'

@@ -1,4 +1,5 @@
 name: io.nekonya.tinax.tween
+aliases: []
 displayName: TinaX.Tween
 description: Tween library for TinaX Framework
 repoUrl: 'https://github.com/yomunsam/TinaX.Tween'

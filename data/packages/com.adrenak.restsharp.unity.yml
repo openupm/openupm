@@ -1,4 +1,5 @@
 name: com.adrenak.restsharp.unity
+aliases: []
 displayName: RestSharp.Unity
 description: A UPM package for RestSharp with some extensions and extra stuff.
 repoUrl: 'https://github.com/adrenak/RestSharp.Unity'

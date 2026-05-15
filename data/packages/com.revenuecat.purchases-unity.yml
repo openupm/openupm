@@ -1,4 +1,5 @@
 name: com.revenuecat.purchases-unity
+aliases: []
 displayName: RevenueCat SDK for Unity
 description: Unity in-app purchases and subscriptions made easy. Supports iOS and Android.
 repoUrl: 'https://github.com/RevenueCat/purchases-unity'

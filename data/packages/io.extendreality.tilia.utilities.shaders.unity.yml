@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.utilities.shaders.unity
+aliases: []
 displayName: Tilia Utilities Shaders Unity
 description: A collection of custom shaders for the Unity Software
 repoUrl: 'https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity'

@@ -1,4 +1,5 @@
 name: com.lisearcheleeds.lighthouse-extends.addressable
+aliases: []
 displayName: Lighthouse Extends - Addressable
 description: Ref-counted Addressables wrapper with scoped asset management and parallel loading support.
 repoUrl: 'https://github.com/lisearcheleeds/Lighthouse'

@@ -1,4 +1,5 @@
 name: dev.upm-packages.unirx-observabletween
+aliases: []
 displayName: UniRx ObservableTween
 description: Provide UniRx wrapper for Tween
 repoUrl: 'https://github.com/umm/unirx_observabletween'

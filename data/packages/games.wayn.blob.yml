@@ -1,4 +1,7 @@
 name: games.wayn.blob
+aliases:
+  - com.wayn-games.blob
+  - com.wayn-group.blob
 displayName: WAYN Blob
 description: Repository of additional unity BlobAsset
 repoUrl: https://github.com/WAYN-Games/Blob

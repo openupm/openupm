@@ -1,4 +1,5 @@
 name: com.quabug.parallel-counting-sort.cpu
+aliases: []
 displayName: Parallel Counting Sort (DOTS)
 description: Parallel Counting Sort (DOTS)
 repoUrl: 'https://github.com/quabug/parallel-counting-sort'

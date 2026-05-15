@@ -1,4 +1,5 @@
 name: net.sam-tak.nudge
+aliases: []
 displayName: Nudge
 description: Allows for adding comment and tasks to scene objects and project assets.
 repoUrl: 'https://github.com/SAM-tak/Nudge'

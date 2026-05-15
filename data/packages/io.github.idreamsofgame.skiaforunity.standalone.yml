@@ -1,4 +1,5 @@
 name: io.github.idreamsofgame.skiaforunity.standalone
+aliases: []
 displayName: SkiaForUnity.Standalone
 description: >-
   SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports.

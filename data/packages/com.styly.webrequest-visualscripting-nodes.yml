@@ -1,4 +1,5 @@
 name: com.styly.webrequest-visualscripting-nodes
+aliases: []
 displayName: WebRequest Visual Scripting
 description: Unity Visual Scripting Node for WebRequest
 repoUrl: https://github.com/styly-dev/WebRequest_VisualScriptingNodes

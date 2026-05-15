@@ -1,4 +1,5 @@
 name: com.github.mrclaus.uniprefabbinder
+aliases: []
 displayName: UniPrefabBinder
 description: >-
   Library for fast prefab binding. Nice architectural solution through

@@ -1,4 +1,5 @@
 name: com.nowsprinting.test-helper.random
+aliases: []
 displayName: Random Test Helper
 description: Wrapper and test stubs reference implementation for UnityEngine.Random
 repoUrl: https://github.com/nowsprinting/test-helper.random

@@ -1,4 +1,5 @@
 name: com.yasirkula.runtimeinspector
+aliases: []
 displayName: Runtime Inspector & Hierarchy
 description: >-
   Runtime Inspector and Hierarchy solution for Unity for debugging and runtime

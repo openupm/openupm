@@ -1,4 +1,5 @@
 name: com.maxif.objectpool
+aliases: []
 displayName: Object Pool
 description: Simple object pool package
 repoUrl: https://github.com/Maxi-F/ObjectPool-UnityPackage

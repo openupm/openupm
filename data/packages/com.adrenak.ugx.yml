@@ -1,4 +1,5 @@
 name: com.adrenak.ugx
+aliases: []
 displayName: UGUI extended
 description: >-
   UGX: UGUI Extended is a high-level library over Unity's inbuilt uGui.

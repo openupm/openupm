@@ -1,4 +1,5 @@
 name: com.stansassets.scene-management
+aliases: []
 displayName: Stans Assets - Scene Management
 description: >-
   Provides a set of tools to organize scene loading and management in the Unity

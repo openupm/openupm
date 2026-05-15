@@ -1,4 +1,5 @@
 name: com.zestylife.eunet
+aliases: []
 displayName: EuNet
 description: Peer to peer network solution for multiplayer games.
 repoUrl: 'https://github.com/zestylife/EuNet'

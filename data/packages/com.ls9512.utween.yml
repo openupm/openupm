@@ -1,4 +1,5 @@
 name: com.ls9512.utween
+aliases: []
 displayName: UTween
 description: >-
   UTween is an interpolation animation component for Unity. You can quickly

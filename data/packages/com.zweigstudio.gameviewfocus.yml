@@ -1,4 +1,6 @@
 name: com.zweigstudio.gameviewfocus
+aliases:
+  - com.assetsbykai.gameviewfocus
 displayName: Game View Focus
 description: >-
   Save yourself a click and automatically focus the Game View when entering Play

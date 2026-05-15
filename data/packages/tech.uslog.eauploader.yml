@@ -1,4 +1,6 @@
 name: tech.uslog.eauploader
+aliases:
+  - com.sabuworks.eauploader
 displayName: Easy Avatar Uploader for VRChat
 description: Tools for more concise and easier uploading of avatars.
 repoUrl: https://github.com/Project-EAUploader/EAUploader-for-VRChat

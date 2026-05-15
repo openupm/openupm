@@ -1,4 +1,5 @@
 name: com.appegy.unilogger
+aliases: []
 displayName: 'Appegy: UniLogger'
 description: Simple and flexible but lightweight logger for Unity.
 repoUrl: https://github.com/Appegy/UniLogger

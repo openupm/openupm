@@ -1,4 +1,5 @@
 name: com.yasirkula.runtimepreviewgenerator
+aliases: []
 displayName: Runtime Preview Generator
 description: >-
   Generate preview textures (thumbnails) for your GameObject's or materials on

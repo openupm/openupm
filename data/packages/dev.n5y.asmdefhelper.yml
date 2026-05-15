@@ -1,4 +1,5 @@
 name: dev.n5y.asmdefhelper
+aliases: []
 displayName: AsmdefHelper
 description: Unity assembly definition utilities.
 repoUrl: https://github.com/naninunenoy/AsmdefHelper

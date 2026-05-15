@@ -1,4 +1,5 @@
 name: org.mujoco.mujoco
+aliases: []
 displayName: MuJoCo
 description: MuJoCo importer and runtime plug-in
 repoUrl: https://github.com/kezzyhko/mujoco-upm

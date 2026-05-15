@@ -1,4 +1,5 @@
 name: com.sturfee.digital-twin.cms
+aliases: []
 displayName: Sturfee Digital Twin CMS
 description: CMS SDK to load contents for Digital Twin Spaces
 repoUrl: 'https://github.com/sturfeeinc/com.sturfee.digital-twin.cms'

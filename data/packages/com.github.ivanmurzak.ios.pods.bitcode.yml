@@ -1,4 +1,5 @@
 name: com.github.ivanmurzak.ios.pods.bitcode
+aliases: []
 displayName: iOS Pods Bitcode
 description: >-
   Unity iOS post process for forcing Pods to have Bitcode property YES/NO. You

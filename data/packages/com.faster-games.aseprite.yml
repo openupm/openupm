@@ -1,4 +1,5 @@
 name: com.faster-games.aseprite
+aliases: []
 displayName: Aseprite Importer
 description: "An Aseprite importer for Unity3D. ð\x9F\x8E¨ð\x9F\x93¤"
 repoUrl: 'https://github.com/faster-games/aseprite'

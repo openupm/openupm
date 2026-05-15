@@ -1,4 +1,5 @@
 name: br.com.expressobits.pools
+aliases: []
 displayName: EB Pools
 description: Use fast and simple pools in unity
 repoUrl: 'https://github.com/ExpressoBits/Pools'

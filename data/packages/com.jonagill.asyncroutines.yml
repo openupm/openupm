@@ -1,4 +1,5 @@
 name: com.jonagill.asyncroutines
+aliases: []
 displayName: Async Routines
 description: An efficient and feature-rich C# replacement for Unity's coroutine system.
 repoUrl: 'https://github.com/jonagill/AsyncRoutines'

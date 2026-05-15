@@ -1,4 +1,5 @@
 name: com.gamebase.scene
+aliases: []
 displayName: Gamebase-SceneManagement
 description: >-
   Gamebase-SceneManagement is manage scene and make scene lifecycle.

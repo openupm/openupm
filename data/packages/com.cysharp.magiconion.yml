@@ -1,4 +1,5 @@
 name: com.cysharp.magiconion
+aliases: []
 displayName: MagicOnion
 description: Unified Realtime/API framework for .NET platform and Unity.
 repoUrl: 'https://github.com/Cysharp/MagicOnion'

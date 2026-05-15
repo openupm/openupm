@@ -1,4 +1,5 @@
 name: com.greenbamboogames.hiddenobjectfinder
+aliases: []
 displayName: Hidden Object Finder!
 description: Find hidden Objects in the Unity Editor.
 repoUrl: https://github.com/SolarianZ/UnityHiddenObjectFinder

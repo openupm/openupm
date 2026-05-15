@@ -1,4 +1,5 @@
 name: com.jd.editoraudioutils
+aliases: []
 displayName: EditorAudioUtils
 description: >-
   Like EditorApplication.Beep(), but with configurable sounds. This package

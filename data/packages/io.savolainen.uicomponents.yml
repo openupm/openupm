@@ -1,4 +1,5 @@
 name: io.savolainen.uicomponents
+aliases: []
 displayName: UIComponents
 description: "A front-end framework for Unity's UIToolkit powered by source generation."
 repoUrl: 'https://github.com/jonisavo/uicomponents'

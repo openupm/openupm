@@ -1,4 +1,5 @@
 name: nl.elraccoone.timers
+aliases: []
 displayName: Timers
 description: >-
   We may decide to execute a function not right now, but at a certain time

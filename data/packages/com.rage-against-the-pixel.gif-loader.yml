@@ -1,4 +1,5 @@
 name: com.rage-against-the-pixel.gif-loader
+aliases: []
 displayName: gifloader
 description: Loads png gifs
 repoUrl: 'https://github.com/RageAgainstThePixel/com.rage.gif-loader'

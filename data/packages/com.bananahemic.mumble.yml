@@ -1,4 +1,5 @@
 name: com.bananahemic.mumble
+aliases: []
 displayName: Mumble
 description: >-
   A simple to use Mumble Client made for Unity3D. Easily send low-latency text

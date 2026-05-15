@@ -1,4 +1,5 @@
 name: com.cysharp.ulid
+aliases: []
 displayName: Ulid
 description: Fast .NET C# Implementation of ULID for .NET Core and Unity.
 repoUrl: 'https://github.com/Cysharp/Ulid'

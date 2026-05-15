@@ -1,4 +1,5 @@
 name: com.needle.animation.timelinemixer
+aliases: []
 displayName: Timeline Mixer
 description: allows for overriding timeline animations per animator
 repoUrl: 'https://github.com/needle-tools/timeline-mixer'

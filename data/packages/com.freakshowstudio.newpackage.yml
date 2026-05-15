@@ -1,4 +1,5 @@
 name: com.freakshowstudio.newpackage
+aliases: []
 displayName: Create New Package Wizard
 description: Wizard to create a new package
 repoUrl: https://github.com/freakshowstudio/com.freakshowstudio.newpackage

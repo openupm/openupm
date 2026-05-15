@@ -1,4 +1,5 @@
 name: com.gameframe.progressions
+aliases: []
 displayName: Gameframe.Progressions
 description: ScriptableObjects for calculating numerical progressions. Indended for use with role playing game property scaling.
 repoUrl: 'https://github.com/coryleach/UnityProgressions'

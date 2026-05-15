@@ -1,4 +1,6 @@
 name: com.fonts.roboto
+aliases:
+  - com.google.fonts.roboto
 displayName: Roboto Font
 description: >-
   Roboto has a dual nature. It has a mechanical skeleton and the forms are

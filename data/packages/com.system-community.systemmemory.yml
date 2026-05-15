@@ -1,4 +1,5 @@
 name: com.system-community.systemmemory
+aliases: []
 displayName: SystemMemory
 description: >-
   Provides types for efficient representation and pooling of managed, stack, and

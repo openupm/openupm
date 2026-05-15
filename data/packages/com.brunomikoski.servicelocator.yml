@@ -1,4 +1,5 @@
 name: com.brunomikoski.servicelocator
+aliases: []
 displayName: Service Locator
 description: ''
 repoUrl: 'https://github.com/brunomikoski/ServiceLocator'

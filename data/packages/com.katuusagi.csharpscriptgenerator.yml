@@ -1,4 +1,5 @@
 name: com.katuusagi.csharpscriptgenerator
+aliases: []
 displayName: CSharpScriptGenerator
 description: A library for generating C# scripts.
 repoUrl: https://github.com/Katsuya100/CSharpScriptGenerator

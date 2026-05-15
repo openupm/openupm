@@ -1,4 +1,5 @@
 name: com.beauprime.tinyil-mono
+aliases: []
 displayName: TinyIL.Mono
 description: Lightweight code weaver and IL parser.
 repoUrl: https://github.com/BeauPrime/TinyIL.Mono

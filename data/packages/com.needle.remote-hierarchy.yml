@@ -1,4 +1,5 @@
 name: com.needle.remote-hierarchy
+aliases: []
 displayName: Remote Hierarchy
 description: >-
   View Hierarchy and Inspector of scenes on connected Unity players. Uses the

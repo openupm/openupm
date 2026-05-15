@@ -1,4 +1,5 @@
 name: com.freakshowstudio.create-gameobject-attribute
+aliases: []
 displayName: Create GameObject Attribute
 description: >-
   An attribute for automatically creating a menu item to create a game object

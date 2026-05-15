@@ -1,4 +1,5 @@
 name: com.cwj.installer
+aliases: []
 displayName: CWJ Library Installer
 description: CWJ's personal common library installer
 repoUrl: https://github.com/DevCWJ/cwj.installer

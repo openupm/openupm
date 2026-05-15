@@ -1,4 +1,5 @@
 name: com.styly.hands
+aliases: []
 displayName: STYLY Hands
 description: This pacakge provices utilities for hand tracking.
 repoUrl: https://github.com/styly-dev/STYLY-Hands-Unity

@@ -1,4 +1,5 @@
 name: com.bitbebop.ui-toolkit-safe-area
+aliases: []
 displayName: UI Toolkit Safe Area
 description: A Safe Area Container for UI Toolkit.
 repoUrl: 'https://github.com/artstorm/ui-toolkit-safe-area'

@@ -1,4 +1,5 @@
 name: com.srejonkhan.asyncimagelibrary
+aliases: []
 displayName: Async Image Library
 description: >-
   Load Image asynchronously from external environment without blocking

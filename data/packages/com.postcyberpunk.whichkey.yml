@@ -1,4 +1,5 @@
 name: com.postcyberpunk.whichkey
+aliases: []
 displayName: WhichKey
 description: a vim-like shortcut manager for unity
 repoUrl: 'https://github.com/PostCyberPunk/WhichKey.Unity'

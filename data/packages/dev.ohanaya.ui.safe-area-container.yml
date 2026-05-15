@@ -1,4 +1,5 @@
 name: dev.ohanaya.ui.safe-area-container
+aliases: []
 displayName: SafeAreaContainer
 description: Safe area support in UI Toolkit.
 repoUrl: 'https://github.com/c3-hoge-fuga-piyo/SafeAreaContainer'

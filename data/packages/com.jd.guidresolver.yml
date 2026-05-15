@@ -1,4 +1,5 @@
 name: com.jd.guidresolver
+aliases: []
 displayName: GUID Resolver
 description: >-
   Generate GUID to asset information mapping to be used for the browser

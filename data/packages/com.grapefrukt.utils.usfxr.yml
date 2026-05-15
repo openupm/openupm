@@ -1,4 +1,5 @@
 name: com.grapefrukt.utils.usfxr
+aliases: []
 displayName: usfxr
 description: A Unity port of sfxr/as3sfxr/bfxr
 repoUrl: 'https://github.com/grapefrukt/usfxr'

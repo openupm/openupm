@@ -1,4 +1,5 @@
 name: com.euglenach.inputasasyncenumerable
+aliases: []
 displayName: InputAsAsyncEnumerable
 description: Treat InputManager as AsyncEnumerable(IUniTaskAsyncEnumerable)
 repoUrl: 'https://github.com/euglenach/InputAsAsyncEnumerable'

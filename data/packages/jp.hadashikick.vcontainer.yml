@@ -1,4 +1,5 @@
 name: jp.hadashikick.vcontainer
+aliases: []
 displayName: VContainer
 description: >-
   The extra fast, minimum code size, GC-free DI (Dependency Inject) library

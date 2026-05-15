@@ -1,4 +1,5 @@
 name: com.pixelwizards.eventsystem
+aliases: []
 displayName: PixelWizards - Event System
 description: Pubsub Event System for Unity
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.eventsystem'

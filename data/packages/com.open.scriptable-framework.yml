@@ -1,4 +1,5 @@
 name: com.open.scriptable-framework
+aliases: []
 displayName: Scriptable Framework
 description: >-
   A Unity Framework for modular app creation based on ScriptableObject

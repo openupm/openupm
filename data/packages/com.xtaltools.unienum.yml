@@ -1,4 +1,5 @@
 name: com.xtaltools.unienum
+aliases: []
 displayName: UniEnum
 description: Enum Utilities for Unity
 repoUrl: 'https://github.com/neptaco/UniEnum'

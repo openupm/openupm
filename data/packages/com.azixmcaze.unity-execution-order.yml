@@ -1,4 +1,5 @@
 name: com.azixmcaze.unity-execution-order
+aliases: []
 displayName: Unity-ExecutionOrder
 description: >-
   A collection of attributes to control the execution order of your scripts in

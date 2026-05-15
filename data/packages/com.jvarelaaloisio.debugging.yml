@@ -1,4 +1,5 @@
 name: com.jvarelaaloisio.debugging
+aliases: []
 displayName: Debug System
 description: >-
   A powerful debugging system that allows for command use and runtime data

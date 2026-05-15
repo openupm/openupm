@@ -1,4 +1,5 @@
 name: com.bassmit.lineburst
+aliases: []
 displayName: Line Burst
 description: Draw large amounts of lines and shapes in game and scene view 
 repoUrl: 'https://github.com/bassmit/lineburst'

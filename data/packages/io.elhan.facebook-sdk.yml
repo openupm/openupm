@@ -1,4 +1,5 @@
 name: io.elhan.facebook-sdk
+aliases: []
 displayName: Facebook SDK (Unofficial)
 description: "\U0001F4E6 Packaged version of Facebook SDK for Unity"
 repoUrl: 'https://github.com/oae/unity-package-facebook-sdk'

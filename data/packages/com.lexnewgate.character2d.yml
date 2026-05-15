@@ -1,4 +1,5 @@
 name: com.lexnewgate.character2d
+aliases: []
 displayName: Character2D
 description: This is an example package
 repoUrl: https://github.com/LexUnityLab/CharacterController2D

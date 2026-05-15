@@ -1,4 +1,5 @@
 name: com.playsuper.unity
+aliases: []
 displayName: PlaySuper
 description: Official Unity SDK for PlaySuper Integration
 repoUrl: https://github.com/PlaySuper/unity-sdk-public

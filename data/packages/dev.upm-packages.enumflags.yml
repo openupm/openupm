@@ -1,4 +1,5 @@
 name: dev.upm-packages.enumflags
+aliases: []
 displayName: Enum Flags
 description: 'Render listbox in Inspector for [Flags] enum'
 repoUrl: 'https://github.com/upm-packages/EnumFlags'

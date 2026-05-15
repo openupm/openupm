@@ -1,4 +1,5 @@
 name: com.bg.waypointystemfortimeline
+aliases: []
 displayName: WaypointSystemForTimeline
 description: 'Possible to complement the track (Bezier curve) on the Timeline.'
 repoUrl: 'https://github.com/k-okawa/WaypointSystemForTimeline'

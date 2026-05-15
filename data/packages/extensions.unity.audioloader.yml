@@ -1,4 +1,5 @@
 name: extensions.unity.audioloader
+aliases: []
 displayName: Audio Loader
 description: >-
   Asynchronous audio loading from remote or local destination. It has two layers

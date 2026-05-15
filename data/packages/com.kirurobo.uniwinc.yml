@@ -1,4 +1,5 @@
 name: com.kirurobo.uniwinc
+aliases: []
 displayName: UniWindowController
 description: Makes your Unity window transparent and allows files dropping
 repoUrl: 'https://github.com/kirurobo/UniWindowController'

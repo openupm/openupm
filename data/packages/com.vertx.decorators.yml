@@ -1,4 +1,5 @@
 name: com.vertx.decorators
+aliases: []
 displayName: Decorators
 description: Advanced Property Decorators
 repoUrl: 'https://github.com/vertxxyz/Vertx.Decorators'

@@ -1,4 +1,5 @@
 name: com.utilities.audio
+aliases: []
 displayName: Utilities.Audio
 description: A simple package for audio extensions and utilities.
 repoUrl: 'https://github.com/RageAgainstThePixel/com.utilities.audio'

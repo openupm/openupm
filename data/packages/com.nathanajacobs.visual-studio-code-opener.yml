@@ -1,4 +1,5 @@
 name: com.nathanajacobs.visual-studio-code-opener
+aliases: []
 displayName: Visual Studio Code Opener
 description: >-
   This package allows you to explicitly specify which file types to open in

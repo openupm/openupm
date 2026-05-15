@@ -1,4 +1,5 @@
 name: com.devlab.jmespath
+aliases: []
 displayName: JmesPath.net
 description: jmespath.net as UPM
 repoUrl: 'https://github.com/grownith/jmespath.upm'

@@ -1,4 +1,5 @@
 name: ai.natml.vision.movenet-3d
+aliases: []
 displayName: MoveNet 3D
 description: Realtime 3D pose detection with MoveNet.
 repoUrl: https://github.com/natmlx/movenet-3d-unity

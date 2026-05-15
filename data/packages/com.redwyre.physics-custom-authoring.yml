@@ -1,4 +1,5 @@
 name: com.redwyre.physics-custom-authoring
+aliases: []
 displayName: Physics Custom Authoring
 description: Provides a custom authoring experience for creating rigid bodies and
   colliders for Unity Physics

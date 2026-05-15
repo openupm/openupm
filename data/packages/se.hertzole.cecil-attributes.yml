@@ -1,4 +1,5 @@
 name: se.hertzole.cecil-attributes
+aliases: []
 displayName: Cecil Attributes
 description: A set of Unity attributes to automate your workflow.
 repoUrl: 'https://github.com/Hertzole/cecil-attributes'

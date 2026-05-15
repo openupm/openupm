@@ -1,4 +1,5 @@
 name: com.unity.demoteam.attributes
+aliases: []
 displayName: Demo Team Attributes
 description: Library of attributes common to packages in com.unity.demoteam.*
 repoUrl: https://github.com/Unity-Technologies/com.unity.demoteam.attributes

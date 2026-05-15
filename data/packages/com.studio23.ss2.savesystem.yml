@@ -1,4 +1,5 @@
 name: com.studio23.ss2.savesystem
+aliases: []
 displayName: Save System
 description: >-
   Save System is a framework to manage local and cloud saves. It provides simple

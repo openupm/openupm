@@ -1,4 +1,5 @@
 name: com.rhinox.open.lightspeed
+aliases: []
 displayName: Lightspeed - Utility Library
 description: Coding extensions library which adds new basic datatypes, static helper methods and extensions on Unity datatypes 
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-lightspeed'

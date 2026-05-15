@@ -1,4 +1,5 @@
 name: de.frebreco.sig.dataset.coco
+aliases: []
 displayName: SIG Dataset Coco
 description: >-
   Implements the COCO dataset model with JSON annotations using the SIG.Dataset

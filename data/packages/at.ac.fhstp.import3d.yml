@@ -1,4 +1,5 @@
 name: at.ac.fhstp.import3d
+aliases: []
 displayName: Import3D
 description: An asynchronous runtime 3D-model importer for Unity
 repoUrl: 'https://github.com/fhstp/UnityImport3D'

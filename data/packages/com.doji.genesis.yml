@@ -1,4 +1,5 @@
 name: com.doji.genesis
+aliases: []
 displayName: Genesis
 description: An AI-powered world building and prototyping tool.
 repoUrl: https://github.com/julienkay/genesis

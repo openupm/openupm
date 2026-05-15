@@ -1,4 +1,5 @@
 name: com.gameframe.datatypes
+aliases: []
 displayName: Gameframe.DataTypes
 description: Data types for use in Unity
 repoUrl: 'https://github.com/coryleach/UnityDataTypes'

@@ -1,4 +1,5 @@
 name: com.cyanilux.shadergraph-variables
+aliases: []
 displayName: Shader Graph Variables
 description: >-
   Adds Register Variable and Get Variable nodes to Shader Graph, allowing you to

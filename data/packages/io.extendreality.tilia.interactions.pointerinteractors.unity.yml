@@ -1,4 +1,5 @@
 name: io.extendreality.tilia.interactions.pointerinteractors.unity
+aliases: []
 displayName: Tilia Interactions PointerInteractors Unity
 description: >-
   Utilize ObjectPointers to initiate an Interactor grab on an Interactable for

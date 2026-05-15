@@ -1,4 +1,5 @@
 name: com.oddworm.texture3datlasimportpipeline
+aliases: []
 displayName: Texture3D Atlas Import Pipeline
 description: A Texture3D Atlas Import Pipeline for Unity 2019.3 and newer.
 repoUrl: 'https://github.com/pschraut/UnityTexture3DAtlasImportPipeline'

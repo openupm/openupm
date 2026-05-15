@@ -1,4 +1,5 @@
 name: com.mrunbelievable.maxmath
+aliases: []
 displayName: MaxMath
 description: >-
   A supplementary SIMD math library to Unity.Mathematics, extending it to all C#

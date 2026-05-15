@@ -1,4 +1,5 @@
 name: com.aio.package
+aliases: []
 displayName: AIO Unity Common
 description: Unity and C# common functions
 displayName_zhCN: AIO Unity Common

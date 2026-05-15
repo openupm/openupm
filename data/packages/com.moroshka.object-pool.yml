@@ -1,4 +1,5 @@
 name: com.moroshka.object-pool
+aliases: []
 displayName: Moroshka.ObjectPool
 description: >-
   Object Pool — the module provides a mechanism for reusing objects, reducing

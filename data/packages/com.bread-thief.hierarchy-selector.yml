@@ -1,4 +1,5 @@
 name: com.bread-thief.hierarchy-selector
+aliases: []
 displayName: Hierarchy Selector
 description: >-
   Customize Unity hierarchy view with colors, icons, badges, gradients and text

@@ -1,4 +1,5 @@
 name: com.cronyx.console
+aliases: []
 displayName: Developer Console
 description: A lightweight and extendable in-game developer console
 repoUrl: 'https://github.com/cronyxllc/DeveloperConsole'

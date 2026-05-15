@@ -1,4 +1,5 @@
 name: com.kongregate.kongregate-web
+aliases: []
 displayName: Kongregate Web
 description: Bindings to the Kongregate JavaScript API for Unity.
 repoUrl: 'https://github.com/kongregate/kongregate-web'

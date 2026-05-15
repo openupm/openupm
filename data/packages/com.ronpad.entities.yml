@@ -1,4 +1,5 @@
 name: com.ronpad.entities
+aliases: []
 displayName: Com.RonPad.Entities
 description: 'An entity framework'
 repoUrl: 'https://github.com/rontian/Com.RonPad.Entities'

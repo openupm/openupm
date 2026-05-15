@@ -1,4 +1,5 @@
 name: com.cippsharpcore.reorderable
+aliases: []
 displayName: CippSharp.Reorderable
 description: >-
   An attempt to mimic the ReorderableList within Unity while adding some

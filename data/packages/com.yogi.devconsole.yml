@@ -1,4 +1,5 @@
 name: com.yogi.devconsole
+aliases: []
 displayName: DevConsole
 description: Developer console for Unity game engine.
 repoUrl: 'https://github.com/dkoleev/UnityDevConsole'

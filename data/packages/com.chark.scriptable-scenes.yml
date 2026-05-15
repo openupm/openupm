@@ -1,4 +1,5 @@
 name: com.chark.scriptable-scenes
+aliases: []
 displayName: Scriptable Scenes
 description: >-
   Simple scene loading and management system for Unity Engine, implemented via

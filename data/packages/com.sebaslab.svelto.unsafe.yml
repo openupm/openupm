@@ -1,4 +1,5 @@
 name: com.sebaslab.svelto.unsafe
+aliases: []
 displayName: System.Runtime.CompilerServices.Unsafe.dll
 description: ''
 repoUrl: 'https://github.com/sebas77/com.sebaslab.svelto.unsafe'

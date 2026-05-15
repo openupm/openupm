@@ -1,4 +1,5 @@
 name: com.frostbun.unit.di
+aliases: []
 displayName: UniT Dependency Injection
 description: A minimal dependency container for Unity
 repoUrl: https://github.com/frostbun/UniT.DI

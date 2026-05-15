@@ -1,4 +1,5 @@
 name: com.medimind.keyboard
+aliases: []
 displayName: Keyboard Package
 description: Keyboard Utility for Virtual Contents
 repoUrl: https://github.com/koseungro/com.medimind.keyboard

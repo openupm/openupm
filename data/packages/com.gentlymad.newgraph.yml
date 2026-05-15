@@ -1,4 +1,5 @@
 name: com.gentlymad.newgraph
+aliases: []
 displayName: NewGraph
 description: >-
   A general data oriented node graph solution. This is build upon the idea to

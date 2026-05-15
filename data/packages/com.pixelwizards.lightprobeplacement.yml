@@ -1,4 +1,5 @@
 name: com.pixelwizards.lightprobeplacement
+aliases: []
 displayName: PixelWizards - Light Probe Placement Tools
 description: 'Package Manager wrapper for LightProbe placer from here: https://github.com/AlexanderVorobyov/simple-light-probe-placer'
 repoUrl: https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement

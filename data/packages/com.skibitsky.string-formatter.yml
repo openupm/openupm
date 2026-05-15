@@ -1,4 +1,5 @@
 name: com.skibitsky.string-formatter
+aliases: []
 displayName: String Formatter
 description: Format strings with HTML-like tags (Unity's Rich Text) in LINQ fashion
 repoUrl: 'https://github.com/skibitsky/string-formatter'

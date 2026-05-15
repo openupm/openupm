@@ -1,4 +1,5 @@
 name: xyz.0xsequence.waas-unity
+aliases: []
 displayName: Sequence Embedded Wallet SDK
 description: A Unity SDK for the Sequence WaaS API
 repoUrl: https://github.com/0xsequence/sequence-unity

@@ -1,4 +1,5 @@
 name: com.moroshka.type-analyzer
+aliases: []
 displayName: Moroshka.TypeAnalyzer
 description: >-
   `TypeAnalyzer` is a tool for analyzing type structures. It provides the

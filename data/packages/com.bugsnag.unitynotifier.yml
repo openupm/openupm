@@ -1,4 +1,6 @@
 name: com.bugsnag.unitynotifier
+aliases:
+  - com.bugsnag.unity
 displayName: UPM release of the Bugsnag Unity Notifier with EDM4U support
 description: >-
   The Bugsnag Unity Library gives you instant notification of exceptions

@@ -1,4 +1,5 @@
 name: com.aio.timer
+aliases: []
 displayName: AIO Unity Timer
 description: unity3d timer system
 repoUrl: https://github.com/AIO-GAME/Unity.Timer

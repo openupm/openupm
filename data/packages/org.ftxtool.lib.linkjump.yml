@@ -1,4 +1,5 @@
 name: org.ftxtool.lib.linkjump
+aliases: []
 displayName: Link Jump
 description: Try open a url with other app.
 repoUrl: 'https://github.com/XiaochenFTX/LinkJump'

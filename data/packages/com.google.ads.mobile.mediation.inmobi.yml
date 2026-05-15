@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.inmobi
+aliases: []
 displayName: Google Mobile Ads InMobi Mediation
 description: >-
   The Google Mobile Ads mediation plugin for InMobi package allows you to load

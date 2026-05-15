@@ -1,4 +1,5 @@
 name: com.migsweb.mpath
+aliases: []
 displayName: MPath
 description: >-
   High-performance, memory-efficient A* pathfinding implementation for

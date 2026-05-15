@@ -1,4 +1,5 @@
 name: com.seep.jolt
+aliases: []
 displayName: Jolt Physics
 description: Unity compatible bindings for the Jolt physics library
 repoUrl: https://github.com/seep/JoltPhysicsUnity

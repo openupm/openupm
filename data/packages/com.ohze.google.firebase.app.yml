@@ -1,4 +1,5 @@
 name: com.ohze.google.firebase.app
+aliases: []
 displayName: Firebase App (Core)
 description: Firebase App is the core library every Firebase package depends on.
 repoUrl: https://github.com/HungPT-Ohze/com.ohze.google.firebase.app

@@ -1,4 +1,5 @@
 name: net.bobbo.dev-console
+aliases: []
 displayName: Development Console
 description: An in-game developer console.
 repoUrl: https://github.com/BOBBO-NET/netengine4

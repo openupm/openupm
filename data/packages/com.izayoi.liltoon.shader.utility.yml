@@ -1,4 +1,5 @@
 name: com.izayoi.liltoon.shader.utility
+aliases: []
 displayName: lilToon Shader Utility
 description: This package is utility scripts to get/set lilToon shader property values.
 repoUrl: https://github.com/izayoijiichan/lilToonShaderUtility

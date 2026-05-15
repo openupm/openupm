@@ -1,4 +1,5 @@
 name: com.pluto.xrpk-exporter
+aliases: []
 displayName: Pluto XR Package Exporter
 description: Export your Unity Project as a WebXR XR Package
 repoUrl: 'https://github.com/PlutoVR/unity-xrpk-exporter'

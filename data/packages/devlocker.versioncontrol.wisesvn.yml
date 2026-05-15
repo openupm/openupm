@@ -1,4 +1,5 @@
 name: devlocker.versioncontrol.wisesvn
+aliases: []
 displayName: WiseSVN
 description: >-
   Simple but powerful SVN integration.

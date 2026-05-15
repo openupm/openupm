@@ -1,4 +1,5 @@
 name: com.frostbun.unit.entities
+aliases: []
 displayName: UniT Entities
 description: Entity Manager for Unity
 repoUrl: https://github.com/frostbun/UniT.Entities

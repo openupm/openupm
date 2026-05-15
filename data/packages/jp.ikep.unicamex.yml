@@ -1,4 +1,5 @@
 name: jp.ikep.unicamex
+aliases: []
 displayName: UniCamEx
 description: MacOS virtual camera for using Apple's camera extension with Core Media I/O.
 repoUrl: https://github.com/creativeIKEP/UniCamEx

@@ -1,4 +1,5 @@
 name: com.lms.version
+aliases: []
 displayName: Lotte's Versioning System
 description: A SUPER simple auto build version tool
 repoUrl: 'https://github.com/LotteMakesStuff/LMS.Version'

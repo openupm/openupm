@@ -1,4 +1,5 @@
 name: com.unity.goql
+aliases: []
 displayName: GoQL
 description: GameObject Query Language
 repoUrl: https://github.com/Unity-Technologies/com.unity.goql

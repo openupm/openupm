@@ -1,4 +1,5 @@
 name: com.solidalloy.unity-dropdown
+aliases: []
 displayName: Unity Dropdown
 description: A better dropdown window for Unity Editor
 repoUrl: https://github.com/SolidAlloy/UnityDropdown

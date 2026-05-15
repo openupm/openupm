@@ -1,4 +1,5 @@
 name: com.eflatun.geounity
+aliases: []
 displayName: Eflatun.GeoUnity
 description: >-
   Geographical (latitude, longitude) projection and calculation library for

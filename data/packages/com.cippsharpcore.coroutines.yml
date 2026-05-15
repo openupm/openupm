@@ -1,4 +1,5 @@
 name: com.cippsharpcore.coroutines
+aliases: []
 displayName: CippSharp.Coroutines
 description: Coroutines Utils
 repoUrl: 'https://github.com/ZiosTheCloudburster/CippSharpCoreCoroutines'

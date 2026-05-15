@@ -1,4 +1,5 @@
 name: com.legustavinho.legendary-tools-nido-serializer
+aliases: []
 displayName: Legendary Tools - Nido Serializer
 description: Odin Serializer fork compatiple with UPM
 repoUrl: https://github.com/LeGustaVinho/nido-serializer

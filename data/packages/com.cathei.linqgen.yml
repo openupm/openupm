@@ -1,4 +1,5 @@
 name: com.cathei.linqgen
+aliases: []
 displayName: LinqGen
 description: Fast Linq-to-object source generator
 repoUrl: 'https://github.com/cathei/LinqGen'

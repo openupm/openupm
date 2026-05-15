@@ -1,4 +1,5 @@
 name: com.fredericrp.objectpool
+aliases: []
 displayName: FRP Object Pool
 description: >-
   Use ObjectPool to instantiate game objects during loading time and not during

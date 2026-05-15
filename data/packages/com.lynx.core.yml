@@ -1,4 +1,5 @@
 name: com.lynx.core
+aliases: []
 displayName: Lynx Core
 description: Support Lynx-R1
 repoUrl: https://github.com/Lynx-MR/UnitySDK

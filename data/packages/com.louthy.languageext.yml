@@ -1,4 +1,5 @@
 name: com.louthy.languageext
+aliases: []
 displayName: language-ext
 description: C# Functional Programming Language Extensions
 repoUrl: 'https://github.com/HeyZoos/language-ext-openupm'

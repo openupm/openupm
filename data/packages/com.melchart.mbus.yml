@@ -1,4 +1,5 @@
 name: com.melchart.mbus
+aliases: []
 displayName: MBus - a lightweight message bus
 description: >-
   MBus is a message bus system for Unity that allows you to communicate between

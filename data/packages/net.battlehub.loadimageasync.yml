@@ -1,4 +1,5 @@
 name: net.battlehub.loadimageasync
+aliases: []
 displayName: Load Image Async
 description: Load Image Async
 repoUrl: 'https://github.com/Battlehub0x/Texture2D.LoadImageAsync'

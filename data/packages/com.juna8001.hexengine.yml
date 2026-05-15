@@ -1,4 +1,5 @@
 name: com.juna8001.hexengine
+aliases: []
 displayName: Hex Engine
 description: HexEngine is a library for working with hex coordinates for Unity.
 repoUrl: 'https://github.com/juna8001/HexEngine'

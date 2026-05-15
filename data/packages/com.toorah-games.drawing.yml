@@ -1,4 +1,5 @@
 name: com.toorah-games.drawing
+aliases: []
 displayName: Drawing Library
 description: A Small library for using Graphics Drawing functions
 repoUrl: 'https://github.com/Toorah/com.toorah-games.drawing'

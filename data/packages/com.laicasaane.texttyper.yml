@@ -1,4 +1,5 @@
 name: com.laicasaane.texttyper
+aliases: []
 displayName: TextTyper
 description: Text typing effect for Unity uGUI Text components
 repoUrl: 'https://github.com/laicasaane/unity-text-typer'

@@ -1,4 +1,5 @@
 name: se.hertzole.gamejolt.net
+aliases: []
 displayName: GameJolt.NET
 description: A modern C# wrapper around the GameJolt Game API for .NET and Unity
 repoUrl: https://github.com/Hertzole/gamejolt.net

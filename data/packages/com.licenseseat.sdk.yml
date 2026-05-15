@@ -1,4 +1,5 @@
 name: com.licenseseat.sdk
+aliases: []
 displayName: LicenseSeat
 description: >-
   Add license keys to your Unity game. Activation, validation, 

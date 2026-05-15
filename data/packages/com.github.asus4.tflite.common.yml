@@ -1,4 +1,5 @@
 name: com.github.asus4.tflite.common
+aliases: []
 displayName: TensorFlow Lite Common
 description: TensorFlow Lite Common Scripts for Unity
 repoUrl: 'https://github.com/asus4/tf-lite-unity-sample'

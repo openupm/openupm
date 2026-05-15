@@ -1,4 +1,5 @@
 name: com.openugd.extensions
+aliases: []
 displayName: Extensions
 description: |
   require .NET 4x

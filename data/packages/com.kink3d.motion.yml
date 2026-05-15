@@ -1,4 +1,5 @@
 name: com.kink3d.motion
+aliases: []
 displayName: kMotion
 description: Motion Blur for Unity's Universal Render Pipeline.
 repoUrl: 'https://github.com/Kink3d/kMotion'

@@ -1,4 +1,5 @@
 name: com.benkuper.oscquery
+aliases: []
 displayName: OSCQuery
 description: Seamless OSCQuery integration in Unity.
 repoUrl: https://github.com/benkuper/Unity-OSCQuery

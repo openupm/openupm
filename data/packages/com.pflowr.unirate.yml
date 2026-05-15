@@ -1,4 +1,5 @@
 name: com.pflowr.unirate
+aliases: []
 displayName: UniRate
 description: >-
   Unity plugin to easily manage the application frame rate and rendering

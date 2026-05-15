@@ -1,4 +1,5 @@
 name: io.igaryhe.devconsole
+aliases: []
 displayName: DevConsole
 description: Extensible in-game dev console
 repoUrl: 'https://github.com/igaryhe/DevConsole'

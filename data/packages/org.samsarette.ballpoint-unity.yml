@@ -1,4 +1,5 @@
 name: org.samsarette.ballpoint-unity
+aliases: []
 displayName: Ballpoint for Ink
 description: Tools for using Inkle's Ink on Unity
 repoUrl: 'https://github.com/lunarcloud/ballpoint-unity'

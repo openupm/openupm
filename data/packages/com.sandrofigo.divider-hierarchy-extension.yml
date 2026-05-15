@@ -1,4 +1,5 @@
 name: com.sandrofigo.divider-hierarchy-extension
+aliases: []
 displayName: Divider Hierarchy Extension
 description: >-
   An extensions to quickly create empty game objects that act as dividers in the

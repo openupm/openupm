@@ -1,4 +1,5 @@
 name: nadena.dev.ndmf
+aliases: []
 displayName: Non-Destructive Modular Framework
 description: A framework for building non-destructive plugins for VRChat Avatar 3.0
 repoUrl: 'https://github.com/bdunderscore/ndmf'

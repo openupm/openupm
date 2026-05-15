@@ -1,4 +1,5 @@
 name: com.studio23.ss2.achievementsystem.steam
+aliases: []
 displayName: AchievementSystem.Steam
 description: >-
   This is an extension tool designed to simplify the process of calling SteamAchievementsAPI

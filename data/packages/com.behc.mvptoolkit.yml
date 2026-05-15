@@ -1,4 +1,5 @@
 name: com.behc.mvptoolkit
+aliases: []
 displayName: MvpToolkit
 description: Lean architecture for rapid UI/Game setup
 repoUrl: 'https://github.com/behcpl/Unity-MvpToolkit'

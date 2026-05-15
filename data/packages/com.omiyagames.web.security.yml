@@ -1,4 +1,5 @@
 name: com.omiyagames.web.security
+aliases: []
 displayName: Omiya Games - Web Security
 description: Collection of tools for WebGL security
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-web-security'

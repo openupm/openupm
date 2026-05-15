@@ -1,4 +1,5 @@
 name: com.rhinox.open.rendering
+aliases: []
 displayName: Rhinox.Rendering - Rendering Utils for Unity
 description: Rendering Utils for Unity for both Standard rendering and URP.
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-rendering'

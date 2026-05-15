@@ -1,4 +1,5 @@
 name: com.cysharp.messagepipe.vcontainer
+aliases: []
 displayName: MessagePipe.VContainer
 description: MessagePipe Runtime support for VContainer.
 repoUrl: 'https://github.com/Cysharp/MessagePipe'

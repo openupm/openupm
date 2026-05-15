@@ -1,4 +1,5 @@
 name: io.mrwatts.extensions
+aliases: []
 displayName: Extensions
 description: This package contains scripts for several extensions.
 repoUrl: https://github.com/mr-watts/io.mrwatts.extensions

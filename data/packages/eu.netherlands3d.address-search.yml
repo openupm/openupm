@@ -1,4 +1,5 @@
 name: eu.netherlands3d.address-search
+aliases: []
 displayName: Netherlands3D - Address Search
 description: >-
   An auto-completing dropdown that can find and select Dutch addresses and

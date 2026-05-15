@@ -1,4 +1,5 @@
 name: com.camarent.unity-ecs-navmesh
+aliases: []
 displayName: ''
 description: A demo implementation of Unity Entity Component System with NavMesh
 repoUrl: 'https://github.com/Camarent/unity-ecs-navmesh'

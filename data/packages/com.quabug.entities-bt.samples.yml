@@ -1,4 +1,5 @@
 name: com.quabug.entities-bt.samples
+aliases: []
 displayName: EntitiesBT - Samples
 description: Behavior Tree for Unity Entities - Samples
 repoUrl: 'https://github.com/quabug/EntitiesBT'

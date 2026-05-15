@@ -1,4 +1,5 @@
 name: ga.fuquna.prefsgui
+aliases: []
 displayName: PrefsGUI
 description: Accessors and GUIs for persistent preference values using JSON file
 repoUrl: 'https://github.com/fuqunaga/PrefsGUI'

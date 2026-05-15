@@ -1,4 +1,5 @@
 name: com.robproductions.visualterrain
+aliases: []
 displayName: Visual Terrain
 description: An open source node-based Terrain generator for Unity.
 repoUrl: https://github.com/RobProductions/VisualTerrain

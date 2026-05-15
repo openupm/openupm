@@ -1,4 +1,5 @@
 name: com.styly.enterprise-camera-access
+aliases: []
 displayName: Enterprise Camera Access Plugin for Vision Pro and Pico
 description: Unity Enterprise Main Camera Access Plugin for Vision Pro and Pico using Enterprise API
 repoUrl: https://github.com/styly-dev/EnterpriseCameraAccessPlugin

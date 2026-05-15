@@ -1,4 +1,5 @@
 name: com.needle.shadergraph-markdown
+aliases: []
 displayName: ShaderGraph Markdown
 description: Markdown-like syntax for ShaderGraph properties, to make better material
   inspectors

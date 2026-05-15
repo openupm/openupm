@@ -1,4 +1,5 @@
 name: com.google.play.games
+aliases: []
 displayName: Google Play Games
 description: >-
   The Google Play Games plugin for Unity allows you to access the Google Play

@@ -1,4 +1,5 @@
 name: com.rhinox.open.scrapper
+aliases: []
 displayName: Rhinox.Scrapper
 description: Mirrored downloader for Addressables.
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-scrapper'

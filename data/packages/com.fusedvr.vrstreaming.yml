@@ -1,4 +1,5 @@
 name: com.fusedvr.vrstreaming
+aliases: []
 displayName: FusedVR Streaming
 description: >-
   This VR Streaming Package contains a minimal SDK & prefabs to implement VR

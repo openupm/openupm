@@ -1,4 +1,5 @@
 name: com.immutable.passport
+aliases: []
 displayName: Immutable Passport
 description: >-
   The Immutable SDK for Unity helps you integrate your game with Immutable

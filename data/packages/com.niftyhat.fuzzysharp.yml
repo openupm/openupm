@@ -1,4 +1,5 @@
 name: com.niftyhat.fuzzysharp
+aliases: []
 displayName: FuzzySharp Unity
 description: Fork of FuzzySharp by JakeBayer for publishing as a Unity Package
 repoUrl: 'https://github.com/NiftyHat/FuzzySharpUnity'

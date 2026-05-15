@@ -1,4 +1,5 @@
 name: com.vadimskyi.eventmanager
+aliases: []
 displayName: Event Manager
 description: Non-thread-safe event manager. Use only in single thread environment.
   Preferably Unity thread.

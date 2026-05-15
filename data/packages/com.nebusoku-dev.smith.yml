@@ -1,4 +1,5 @@
 name: com.nebusoku-dev.smith
+aliases: []
 displayName: Smith - Shooter Weapon System for Unity -
 description: Create FPS/TPS weapons & items framework non code
 repoUrl: 'https://github.com/NebusokuDev/Smith'

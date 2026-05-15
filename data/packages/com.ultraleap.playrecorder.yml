@@ -1,4 +1,5 @@
 name: com.ultraleap.playrecorder
+aliases: []
 displayName: Ultraleap PlayRecorder
 description: Unity scene logic recorder tool for editor and builds.
 repoUrl: 'https://github.com/ultraleap/PlayRecorder'

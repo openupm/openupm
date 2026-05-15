@@ -1,4 +1,5 @@
 name: com.degubites.uniapi
+aliases: []
 displayName: UniAPI
 description: >-
   Fast, dependency-free HTTP API framework for Unity. Build REST endpoints

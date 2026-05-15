@@ -1,4 +1,5 @@
 name: com.andrewraphaellukasik.uwolframalpha
+aliases: []
 displayName: UWolframAlpha
 description: WolframAlpha inside Unity
 repoUrl: 'https://github.com/andrew-raphael-lukasik/UWolframAlpha'

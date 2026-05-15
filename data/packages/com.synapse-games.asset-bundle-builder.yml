@@ -1,4 +1,5 @@
 name: com.synapse-games.asset-bundle-builder
+aliases: []
 displayName: Asset Bundle Builder
 description: >-
   Structured system for managing and updating asset bundles in Unity 3D

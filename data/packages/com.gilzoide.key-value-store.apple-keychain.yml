@@ -1,4 +1,5 @@
 name: com.gilzoide.key-value-store.apple-keychain
+aliases: []
 displayName: Key-Value Store - Apple Keychain
 description: >-
   Key-Value Store implementation backed by macOS/iOS/tvOS/visionOS data

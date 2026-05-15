@@ -1,4 +1,5 @@
 name: org.shadow-grove.simple-http-and-rest-server
+aliases: []
 displayName: Simple HTTP and REST Server
 description: >-
   Use this asset to create a HTTP server within Unity to provide an REST API for

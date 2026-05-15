@@ -1,4 +1,5 @@
 name: jp.keijiro.mediapipe.facelandmark
+aliases: []
 displayName: MediaPipe Face Landmark Detector
 description: MediaPipe face landmark detection neural network model for Unity Barracuda
 repoUrl: https://github.com/keijiro/FaceLandmarkBarracuda

@@ -1,4 +1,5 @@
 name: com.freshlybrewedcode.unity-mesh-tilesets
+aliases: []
 displayName: Mesh Tilesets
 description: >-
   a Unity plugin to place objects along ProBuilder meshes based on rules from

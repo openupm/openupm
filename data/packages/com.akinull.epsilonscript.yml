@@ -1,4 +1,5 @@
 name: com.akinull.epsilonscript
+aliases: []
 displayName: EpsilonScript
 description: >-
   Embeddable expression engine for C# with functions and allocation-free

@@ -1,4 +1,5 @@
 name: com.minhdu.uiman
+aliases: []
 displayName: UIMan
 description: Unity package repo for UIMan
 repoUrl: 'https://github.com/grashaar/uiman'

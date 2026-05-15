@@ -1,4 +1,5 @@
 name: com.yasirkula.nativecamera
+aliases: []
 displayName: Native Camera
 description: >-
   A native Unity plugin to take pictures/record videos with device camera on

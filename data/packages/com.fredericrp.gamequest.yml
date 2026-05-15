@@ -1,4 +1,5 @@
 name: com.fredericrp.gamequest
+aliases: []
 displayName: FRP Game Quest
 description: >-
   GameQuest provides an easy way to create quests for a game, and the management

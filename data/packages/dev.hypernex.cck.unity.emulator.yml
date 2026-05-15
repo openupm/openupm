@@ -1,4 +1,5 @@
 name: dev.hypernex.cck.unity.emulator
+aliases: []
 displayName: Hypernex.CCK.Unity.Emulator
 description: The Editor Emulator for the Content Creation Kit (CCK) for Hypernex in Unity.
 repoUrl: https://github.com/TigersUniverse/Hypernex.CCK

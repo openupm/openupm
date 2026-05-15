@@ -1,4 +1,5 @@
 name: com.mischief.markdownviewer
+aliases: []
 displayName: Unity Markdown Viewer
 description: A markdown viewer for unity
 repoUrl: 'https://github.com/gwaredd/UnityMarkdownViewer'

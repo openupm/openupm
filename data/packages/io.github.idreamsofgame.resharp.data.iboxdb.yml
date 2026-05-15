@@ -1,4 +1,5 @@
 name: io.github.idreamsofgame.resharp.data.iboxdb
+aliases: []
 displayName: ReSharp.Data.iBoxDB
 description: >-
   iBoxDB is a fast transactional table style document NoSQL Application

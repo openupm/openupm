@@ -1,4 +1,5 @@
 name: com.oculus.unity.integration.vr
+aliases: []
 displayName: Oculus Integration VR
 description: Unofficial mirror of the Oculus Unity-Integration VR as a package.
 repoUrl: https://github.com/Trisgram/com.oculus.unity.integration.vr

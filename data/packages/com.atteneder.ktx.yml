@@ -1,4 +1,5 @@
 name: com.atteneder.ktx
+aliases: []
 displayName: KTX
 description: Load KTX and Basis Universal textures at runtime
 repoUrl: 'https://github.com/atteneder/KtxUnity'

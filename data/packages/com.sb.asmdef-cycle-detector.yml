@@ -1,4 +1,5 @@
 name: com.sb.asmdef-cycle-detector
+aliases: []
 displayName: SB Asmdef Cycle Detector
 description: Displaying Cyclic Dependencies of ASMDEF
 repoUrl: https://github.com/shaharbar2/SBAssemblyCycleDetector

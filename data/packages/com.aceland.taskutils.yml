@@ -1,4 +1,5 @@
 name: com.aceland.taskutils
+aliases: []
 displayName: AceLand Task Utils
 description: AceLand Task Utils is a c# Task implement package.
 repoUrl: https://github.com/parsue/com.aceland.taskutils

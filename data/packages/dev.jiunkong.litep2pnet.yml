@@ -1,4 +1,5 @@
 name: dev.jiunkong.litep2pnet
+aliases: []
 displayName: LiteP2PNet
 description: A lightweight P2P networking library for Unity
 repoUrl: https://github.com/jiunkong/LiteP2PNet

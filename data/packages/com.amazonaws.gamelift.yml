@@ -1,4 +1,5 @@
 name: com.amazonaws.gamelift
+aliases: []
 displayName: Amazon GameLift Plugin for Unity
 description: >-
   The Amazon GameLift Plugin for Unity contains libraries and native UI that

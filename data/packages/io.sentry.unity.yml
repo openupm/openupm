@@ -1,4 +1,5 @@
 name: io.sentry.unity
+aliases: []
 displayName: Sentry Unity
 description: Official SDK for Sentry - Open-source error tracking that helps developers monitor and fix crashes in real time.
 repoUrl: 'https://github.com/getsentry/unity'

@@ -1,4 +1,5 @@
 name: com.github.oparaskos.unity.tube.renderer
+aliases: []
 displayName: Unity Tube Renderer
 description: 'Draw a list of Vector3s as a rope, pipe or tube'
 repoUrl: 'https://github.com/oparaskos/unity-tube-renderer'

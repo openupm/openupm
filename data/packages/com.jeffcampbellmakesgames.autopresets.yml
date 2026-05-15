@@ -1,4 +1,5 @@
 name: com.jeffcampbellmakesgames.autopresets
+aliases: []
 displayName: JCMG AutoPresets
 description: >-
   Auto Preset enables scriptable configuration of assets from the Unity Editor

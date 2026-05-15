@@ -1,4 +1,5 @@
 name: com.eflatun.scenereference
+aliases: []
 displayName: Eflatun.SceneReference
 description: >-
   Scene References for Runtime and Editor. Strongly typed, robust, and reliable.

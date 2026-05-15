@@ -1,4 +1,5 @@
 name: com.ruzd.analytics
+aliases: []
 displayName: ruzd analytics SDK
 description: ruzd analytics SDK for Unity
 repoUrl: 'https://github.com/ruzd-gametech/unity-analytics-sdk'

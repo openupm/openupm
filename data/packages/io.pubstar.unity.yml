@@ -1,4 +1,5 @@
 name: io.pubstar.unity
+aliases: []
 displayName: PubStar SDK
 description: Ads SDK for Unity (iOS/Android).
 repoUrl: https://github.com/pubstar-io/PubStar-Unity-SDK

@@ -1,4 +1,5 @@
 name: com.mirrorng.websocket
+aliases: []
 displayName: MirrorNG Websocket
 description: Websocket transport for MirrorNG
 repoUrl: 'https://github.com/MirrorNG/WebsocketNG'

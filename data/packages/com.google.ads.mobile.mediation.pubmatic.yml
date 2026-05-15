@@ -1,4 +1,5 @@
 name: com.google.ads.mobile.mediation.pubmatic
+aliases: []
 displayName: Google Mobile Ads PubMatic Mediation
 description: >-
   The Google Mobile Ads mediation plugin for PubMatic package allows you to load

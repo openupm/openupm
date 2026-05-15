@@ -1,4 +1,5 @@
 name: com.jnk.tinycontainer
+aliases: []
 displayName: TinyContainer
 description: A simple service locator implementation for Unity.
 repoUrl: 'https://github.com/JanikHelbig/TinyContainer'

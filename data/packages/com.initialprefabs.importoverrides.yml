@@ -1,4 +1,5 @@
 name: com.initialprefabs.importoverrides
+aliases: []
 displayName: Import Overrides
 description: A visual GUI for Textures similar to the default TextureImporter UI.
 repoUrl: https://github.com/InitialPrefabs/ImportOverrides

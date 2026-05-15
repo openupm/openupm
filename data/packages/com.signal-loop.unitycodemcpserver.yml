@@ -1,4 +1,5 @@
 name: com.signal-loop.unitycodemcpserver
+aliases: []
 displayName: Unity Code MCP Server
 description: >-
   A powerful MCP server for the Unity Editor that gives AI Agents ability to

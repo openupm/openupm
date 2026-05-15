@@ -1,4 +1,5 @@
 name: com.sabresaurus.remoteactions
+aliases: []
 displayName: Remote Actions
 description: Call custom code snippets in deployed Unity builds
 repoUrl: 'https://github.com/sabresaurus/Remote-Actions'

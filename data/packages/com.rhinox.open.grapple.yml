@@ -1,4 +1,5 @@
 name: com.rhinox.open.grapple
+aliases: []
 displayName: Rhinox Grapple
 description: A physics framework for hand tracking applications.
 repoUrl: 'https://github.com/Rhinox-Training/rhinox-grapple'

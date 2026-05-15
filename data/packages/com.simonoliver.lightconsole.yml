@@ -1,4 +1,5 @@
 name: com.simonoliver.lightconsole
+aliases: []
 displayName: Light Console
 description: Lightweight UIElements based console
 repoUrl: https://github.com/simonoliver/LightConsole

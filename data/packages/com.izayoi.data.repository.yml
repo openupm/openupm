@@ -1,4 +1,5 @@
 name: com.izayoi.data.repository
+aliases: []
 displayName: Izayoi.Data.Repository
 description: >-
   This is a database operation repository infrastructure with CRUD

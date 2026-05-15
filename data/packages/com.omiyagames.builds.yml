@@ -1,4 +1,5 @@
 name: com.omiyagames.builds
+aliases: []
 displayName: Omiya Games - Multiplatform Build Settings
 description: Tool for one-click multiplatform build operations.
 repoUrl: 'https://github.com/OmiyaGames/omiya-games-builds'

@@ -1,4 +1,5 @@
 name: com.wrj.arccast
+aliases: []
 displayName: Arc Raycast
 description: Arc raycast utility using projectile formulas
 repoUrl: https://github.com/williamrjackson/UnityArcRayCast

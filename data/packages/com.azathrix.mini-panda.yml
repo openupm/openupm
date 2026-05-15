@@ -1,4 +1,5 @@
 name: com.azathrix.mini-panda
+aliases: []
 displayName: Mini Panda
 description: 一个适用于unity的纯c#的解释语言，交互友好
 repoUrl: https://github.com/azathrix/MiniPanda

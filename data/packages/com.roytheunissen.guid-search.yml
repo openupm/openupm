@@ -1,4 +1,6 @@
 name: com.roytheunissen.guid-search
+aliases:
+  - com.roytheunissen.guid-finder
 displayName: GUID Search
 description: >-
   Sometimes you really need to find all the places where an asset is being

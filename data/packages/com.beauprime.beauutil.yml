@@ -1,4 +1,5 @@
 name: com.beauprime.beauutil
+aliases: []
 displayName: BeauUtil
 description: Utility library for Unity3d.
 repoUrl: 'https://github.com/BeauPrime/BeauUtil'

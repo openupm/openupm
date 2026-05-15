@@ -1,4 +1,5 @@
 name: com.popcron.console
+aliases: []
 displayName: Popcron Console
 description: Command parsing API.
 repoUrl: 'https://github.com/popcron/console'

@@ -1,4 +1,5 @@
 name: dev.comradevanti.gameobject-aspect
+aliases: []
 displayName: GameObject Aspect
 description: Aspect-oriented programming for Unity GameObject
 repoUrl: 'https://github.com/ComradeVanti/UnityGameObjectAspect'

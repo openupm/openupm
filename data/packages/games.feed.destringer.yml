@@ -1,4 +1,5 @@
 name: games.feed.destringer
+aliases: []
 displayName: Destringer
 description: Code generation tool to create type safe wrapper for Unity3D's Animator API.
 repoUrl: 'https://github.com/rhys-vdw/unity-destringer'

@@ -1,4 +1,6 @@
 name: com.bgtools.playerprefseditor
+aliases:
+  - com.bgtools.playerpreferenceseditor
 displayName: PlayerPrefs Editor
 description: Tool extension for the Unity Editor that enables easy access to the player
   preferences over a simple UI. Allows to view, add, remove and modify entries on

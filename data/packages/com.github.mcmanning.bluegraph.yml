@@ -1,4 +1,5 @@
 name: com.github.mcmanning.bluegraph
+aliases: []
 displayName: BlueGraph
 description: Visual Scripting Framework for Unity
 repoUrl: 'https://github.com/McManning/BlueGraph'

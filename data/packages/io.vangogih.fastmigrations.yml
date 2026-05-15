@@ -1,4 +1,5 @@
 name: io.vangogih.fastmigrations
+aliases: []
 displayName: Fast Migrations
 description: >-
   The extra fast, minimum code size, unity compatible plugin for data migrations

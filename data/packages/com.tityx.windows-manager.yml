@@ -1,4 +1,5 @@
 name: com.tityx.windows-manager
+aliases: []
 displayName: Windows Manager
 description: Simple windows manager
 repoUrl: https://github.com/Tityxx/Windows-Manager

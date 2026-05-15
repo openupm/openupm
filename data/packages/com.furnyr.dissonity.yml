@@ -1,4 +1,5 @@
 name: com.furnyr.dissonity
+aliases: []
 displayName: Dissonity
 description: Interact with the Discord client inside a Unity activity.
 repoUrl: https://github.com/Furnyr/Dissonity

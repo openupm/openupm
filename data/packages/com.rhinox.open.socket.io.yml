@@ -1,4 +1,5 @@
 name: com.rhinox.open.socket.io
+aliases: []
 displayName: Socket.IO
 description: SocketIO implementation for Unity.
 repoUrl: 'https://github.com/Rhinox-Training/unity-socket.io'

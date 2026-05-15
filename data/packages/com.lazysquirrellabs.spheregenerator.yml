@@ -1,4 +1,6 @@
 name: com.lazysquirrellabs.spheregenerator
+aliases:
+  - com.lazysquirrellabs.spheregenerators
 displayName: Sphere Generator
 description: Generate sphere meshes procedurally.
 repoUrl: https://github.com/lazysquirrellabs/sphere_generator

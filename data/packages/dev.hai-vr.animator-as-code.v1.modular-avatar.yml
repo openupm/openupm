@@ -1,4 +1,5 @@
 name: dev.hai-vr.animator-as-code.v1.modular-avatar
+aliases: []
 displayName: Animator As Code - Modular Avatar (Alpha)
 description: Companion library to create Modular Avatar components.
 repoUrl: https://github.com/hai-vr/modular-avatar-as-code

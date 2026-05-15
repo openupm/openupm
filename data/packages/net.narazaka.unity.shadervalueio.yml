@@ -1,4 +1,5 @@
 name: net.narazaka.unity.shadervalueio
+aliases: []
 displayName: ShaderValueIO
 description: Shader value IO utility (cginc)
 repoUrl: https://github.com/Narazaka/ShaderValueIO

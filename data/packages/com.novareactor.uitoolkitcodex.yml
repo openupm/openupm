@@ -1,4 +1,5 @@
 name: com.novareactor.uitoolkitcodex
+aliases: []
 displayName: UIToolkit Codex
 description: Code extensions for UI Toolkit for UIElements editors without uxml's
   or for cleaner UIE coding

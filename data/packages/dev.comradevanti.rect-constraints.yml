@@ -1,4 +1,5 @@
 name: dev.comradevanti.rect-constraints
+aliases: []
 displayName: Rect-constraints
 description: >-
   This Unity package adds utility methods for layouting Rect objects, similarly

@@ -1,4 +1,5 @@
 name: nunit.analyzers.unity
+aliases: []
 displayName: NUnit.Analyzers for Unity
 description: Include NUnit.Analyzers package
 repoUrl: 'https://github.com/nowsprinting/nunit.analyzers.unity'

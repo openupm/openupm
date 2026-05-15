@@ -1,4 +1,5 @@
 name: org.lightningartist.latk
+aliases: []
 displayName: Lightning Artist Toolkit
 description: Pipeline tools for volumetric animation
 repoUrl: https://github.com/LightningArtist/latkUnity

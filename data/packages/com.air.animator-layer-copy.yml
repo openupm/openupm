@@ -1,4 +1,5 @@
 name: com.air.animator-layer-copy
+aliases: []
 displayName: Animator Layer Copy
 description: Utility to copy layers from one animator to another
 repoUrl: https://github.com/TheLastRar/AnimatorLayerCopy

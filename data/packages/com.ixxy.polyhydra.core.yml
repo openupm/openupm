@@ -1,4 +1,5 @@
 name: com.ixxy.polyhydra.core
+aliases: []
 displayName: Polyhydra Core
 description: >-
   Core mesh library for Polyhydra. Procedural generation of geometric forms in

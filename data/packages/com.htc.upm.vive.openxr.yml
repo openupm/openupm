@@ -1,4 +1,5 @@
 name: com.htc.upm.vive.openxr
+aliases: []
 displayName: VIVE OpenXR Plugin
 description: "The \"VIVE OpenXR Plugin\" package enables your application to run on\
   \ VIVE devices. \nThis package is a bridge between VIVE devides and Unity OpenXR.\n\

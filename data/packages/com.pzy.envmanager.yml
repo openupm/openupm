@@ -1,4 +1,5 @@
 name: com.pzy.envmanager
+aliases: []
 displayName: Env Manager
 description: ''
 repoUrl: 'https://github.com/Peng-Zhiyuan/upm'

@@ -1,4 +1,5 @@
 name: com.trove.eventsystems
+aliases: []
 displayName: Trove Event Systems
 description: Event systems for DOTS
 repoUrl: https://github.com/PhilSA/Trove

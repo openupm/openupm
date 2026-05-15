@@ -1,4 +1,5 @@
 name: com.mnmfullmetal.unity-asset-organiser
+aliases: []
 displayName: Unity Asset Organiser
 description: >-
   An editor tool that automatically sorts imported assets into predefined

@@ -1,4 +1,5 @@
 name: com.izayoi.data.dbdatamapper
+aliases: []
 displayName: Izayoi.Data.DbDataMapper
 description: >-
   This is a fast micro O/R mapper (ORM) that stores data retrieved from a DB

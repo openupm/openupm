@@ -1,4 +1,5 @@
 name: com.alkimeegames.taglayertypegenerator
+aliases: []
 displayName: Tag & Layer Type Generator
 description: Automatically generate statically typed Tags and Layers for Unity Projects.
 repoUrl: 'https://github.com/AlkimeeGames/TagLayerTypeGenerator'

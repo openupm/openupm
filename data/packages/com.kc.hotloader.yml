@@ -1,4 +1,5 @@
 name: com.kc.hotloader
+aliases: []
 displayName: KC.HotLoader
 description: 框架热更loader
 repoUrl: https://github.com/zkyvette425/com.kc.hotloader

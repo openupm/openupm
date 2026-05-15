@@ -1,4 +1,5 @@
 name: com.beauprime.leaf
+aliases: []
 displayName: Leaf
 description: Leaf is a narrative-focused scripting language and runtime for Unity.
 repoUrl: 'https://github.com/BeauPrime/Leaf'

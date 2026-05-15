@@ -1,4 +1,5 @@
 name: com.jonagill.unitycollections
+aliases: []
 displayName: Unity Collections
 description: A library of data types and collections for Unity projects
 repoUrl: https://github.com/jonagill/UnityCollections

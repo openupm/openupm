@@ -1,4 +1,5 @@
 name: com.hw.projectbuild
+aliases: []
 displayName: ProjectBuild
 description: Project Auto Build
 repoUrl: 'https://github.com/ErkFu/ProjectBuild'

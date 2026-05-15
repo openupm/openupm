@@ -1,4 +1,5 @@
 name: io.arfinity.unity.packages.sassexecutables
+aliases: []
 displayName: arfinity - SassExecutables
 description: SassExecutables for Unity
 repoUrl: 'https://github.com/arfinity-io/unity-sassexecutables'

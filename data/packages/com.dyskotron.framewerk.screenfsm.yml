@@ -1,5 +1,6 @@
 # Framewerk ScreenFSM - Screen-based state machine
 name: com.dyskotron.framewerk.screenfsm
+aliases: []
 displayName: Framewerk ScreenFSM
 description: Screen-based finite state machine for application state and view management.
 repoUrl: 'https://github.com/dyskotron/Framewerk'

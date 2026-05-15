@@ -1,4 +1,5 @@
 name: com.rmc.rmc-core
+aliases: []
 displayName: RMC Core
 description: Core library for Unity Development by Rivello Multimedia Consulting
 repoUrl: https://github.com/SamuelAsherRivello/rmc-core

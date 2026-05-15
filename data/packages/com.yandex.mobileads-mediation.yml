@@ -1,4 +1,5 @@
 name: com.yandex.mobileads-mediation
+aliases: []
 displayName: Yandex Mobile Ads Mediation Unity Plugin
 description: >-
   This plugin allows Unity developers to easily integrate Yandex Mobile Ads with

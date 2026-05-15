@@ -1,4 +1,5 @@
 name: com.hgs.call-limiter
+aliases: []
 displayName: HGS Call Limiter
 description: Simple implementation of Throttle and Debounce
 repoUrl: 'https://github.com/homy-game-studio/hgs-unity-call-limiter'

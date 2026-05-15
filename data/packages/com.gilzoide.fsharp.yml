@@ -1,4 +1,5 @@
 name: com.gilzoide.fsharp
+aliases: []
 displayName: F#
 description: Support F# scripting in Unity with automatic compilation
 repoUrl: https://github.com/gilzoide/unity-fsharp

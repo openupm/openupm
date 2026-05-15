@@ -1,4 +1,5 @@
 name: com.srejonkhan.another-file-browser
+aliases: []
 displayName: Another File Browser
 description: Just another File Dialog for Unity, with easy implementation.
 repoUrl: https://github.com/SrejonKhan/AnotherFileBrowser

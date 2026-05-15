@@ -1,4 +1,5 @@
 name: com.pixelwizards.servicelocator
+aliases: []
 displayName: PixelWizards - Service Locator
 description: Service Locator
 repoUrl: 'https://github.com/PixelWizards/com.pixelwizards.servicelocator'

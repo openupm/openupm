@@ -1,4 +1,5 @@
 name: io.port6.sdk
+aliases: []
 displayName: Touch SDK
 description: >-
   Connect Touch SDK compatible wearable controllers to Unity applications over Bluetooth.

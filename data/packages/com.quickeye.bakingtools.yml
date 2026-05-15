@@ -1,4 +1,5 @@
 name: com.quickeye.bakingtools
+aliases: []
 displayName: Baking Tools
 description: Unity scene baking toolkit. Lightmapping, NavMesh, OC
 repoUrl: https://github.com/ErnSur/BakingTools

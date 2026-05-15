@@ -1,4 +1,5 @@
 name: com.ale.unity-startup
+aliases: []
 displayName: Unity Startup Package Installer
 description: >-
   A Unity tool for compiling and installing a collection of useful Unity

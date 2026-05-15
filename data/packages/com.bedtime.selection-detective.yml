@@ -1,4 +1,5 @@
 name: com.bedtime.selection-detective
+aliases: []
 displayName: Selection Detective
 description: A tool for viewing and selecting contents of a GameObject and its children
 repoUrl: 'https://github.com/BedtimeDigitalGames/Unity-Selection-Detective'

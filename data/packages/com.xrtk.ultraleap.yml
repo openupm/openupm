@@ -1,4 +1,5 @@
 name: com.xrtk.ultraleap
+aliases: []
 displayName: XRTK.Ultraleap
 description: The Ultraleap platform components for the Mixed Reality Toolkit
 repoUrl: 'https://github.com/XRTK/Ultraleap'

@@ -1,4 +1,5 @@
 name: com.edinylcnn.hapticbridge
+aliases: []
 displayName: HapticBridge for Unity
 description: "One-line MX Master 4 haptic feedback for Unity games. Unofficial community package — works with a companion Logi Options+ plugin."
 repoUrl: https://github.com/edinylcnn/HapticBridgeForUnity

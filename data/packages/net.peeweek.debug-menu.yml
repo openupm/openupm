@@ -1,4 +1,5 @@
 name: net.peeweek.debug-menu
+aliases: []
 displayName: Debug Menu
 description: >-
   A simple Debug Menu for your games. Can be extended by adding your own items

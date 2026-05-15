@@ -1,4 +1,5 @@
 name: com.tsk.ide.vscode
+aliases: []
 displayName: TSK VSCode Editor
 description: >-
   Unofficial code editor integration for supporting Visual Studio Code as code

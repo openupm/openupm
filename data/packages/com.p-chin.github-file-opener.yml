@@ -1,4 +1,5 @@
 name: com.p-chin.github-file-opener
+aliases: []
 displayName: GitHubFileOpener
 description: Open a page in your browser for the Asset in your Github-managed UnityProject.
 repoUrl: https://github.com/p-chin/GitHubFileOpener

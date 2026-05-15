@@ -1,4 +1,5 @@
 name: com.ultraleap.tracking
+aliases: []
 displayName: Ultraleap Tracking
 description: >-
   Ultraleap's Unity Plugin enables the data produced by Ultraleap tracking

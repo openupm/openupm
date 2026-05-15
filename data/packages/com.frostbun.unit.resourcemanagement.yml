@@ -1,4 +1,5 @@
 name: com.frostbun.unit.resourcemanagement
+aliases: []
 displayName: UniT Resource Management
 description: Resource manager for Unity
 repoUrl: https://github.com/frostbun/UniT.ResourceManagement

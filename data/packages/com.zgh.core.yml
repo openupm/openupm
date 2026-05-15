@@ -1,4 +1,5 @@
 name: com.zgh.core
+aliases: []
 displayName: ZGH.Core
 description: ZGH Framework.
 repoUrl: 'https://github.com/ZGH1204/ZGH.Core'

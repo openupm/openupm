@@ -1,4 +1,5 @@
 name: com.harumaro.ugizmo
+aliases: []
 displayName: UGizmo
 description: Highly efficient gizmo drawer for Unity.
 repoUrl: https://github.com/harumas/UGizmo

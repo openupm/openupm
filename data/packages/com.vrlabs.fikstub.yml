@@ -1,4 +1,5 @@
 name: com.vrlabs.fikstub
+aliases: []
 displayName: Final IK Stub
 description: >-
   Stub package for the VRChat-whitelisted Final IK components. This package

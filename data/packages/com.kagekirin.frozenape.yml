@@ -1,4 +1,5 @@
 name: com.kagekirin.frozenape
+aliases: []
 displayName: "Frozen A-Pose Exporter ð\x9F§\x8Að\x9F¦\x8D"
 description: >-
   Editor and Runtime exporter for skinned meshes frozen in a specific pose as

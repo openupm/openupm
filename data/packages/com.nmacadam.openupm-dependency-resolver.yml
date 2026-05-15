@@ -1,4 +1,5 @@
 name: com.nmacadam.openupm-dependency-resolver
+aliases: []
 displayName: OpenUPM Dependency Resolver
 description: >-
   This package adds support for resolving packages hosted on OpenUPM as package

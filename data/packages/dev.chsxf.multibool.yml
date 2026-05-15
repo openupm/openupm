@@ -1,4 +1,5 @@
 name: dev.chsxf.multibool
+aliases: []
 displayName: MultiBool
 description: >-
   A Unity package designed to improve memory usage by using bit fields for

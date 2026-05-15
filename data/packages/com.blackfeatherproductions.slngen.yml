@@ -1,4 +1,5 @@
 name: com.blackfeatherproductions.slngen
+aliases: []
 displayName: SlnGen
 description: >-
   Unity editor extension that adds additional solution configurations to

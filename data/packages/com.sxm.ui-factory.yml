@@ -1,4 +1,5 @@
 name: com.sxm.ui-factory
+aliases: []
 displayName: UI Factory
 description: >-
   Factory of various UI components, from primitives (line, point) to complex

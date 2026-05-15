@@ -1,4 +1,5 @@
 name: com.brunomikoski.presetmanager
+aliases: []
 displayName: Preset Manager
 description: Applies Preset to folders and objects
 repoUrl: 'https://github.com/brunomikoski/PresetManager'

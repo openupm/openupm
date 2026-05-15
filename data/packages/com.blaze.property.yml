@@ -1,4 +1,5 @@
 name: com.blaze.property
+aliases: []
 displayName: Blaze Property
 description: 'Smart properties with data binding, events, save/load functions for unity'
 repoUrl: 'https://github.com/BennyKok/unity-blaze'

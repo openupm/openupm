@@ -1,4 +1,5 @@
 name: com.trove.debugdraw
+aliases: []
 displayName: Trove Debug Draw
 description: >-
   Trove Debug Draw is a GPU-persistent burst-compatible debug line/triangle

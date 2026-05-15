@@ -1,4 +1,5 @@
 name: com.xsduan.hierarchy-folders
+aliases: []
 displayName: Heirarchy Folders
 description: Specialized folder objects for Unity Hierarchy.
 repoUrl: 'https://github.com/xsduan/unity-hierarchy-folders'

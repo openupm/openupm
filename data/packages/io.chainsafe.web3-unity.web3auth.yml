@@ -1,4 +1,5 @@
 name: io.chainsafe.web3-unity.web3auth
+aliases: []
 displayName: web3.unity SDK Web3Auth Plugin
 description: Web3Atuh service support for web3.untiy SDK. Easy users onboarding, one
   of the ways to handle private keys.

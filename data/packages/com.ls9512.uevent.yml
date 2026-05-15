@@ -1,4 +1,5 @@
 name: com.ls9512.uevent
+aliases: []
 displayName: UEvent
 description: >-
   UEvent is a general message event component that can be used in Unity and .Net

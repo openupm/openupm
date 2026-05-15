@@ -1,4 +1,5 @@
 name: com.realitytoolkit.devicesimulation
+aliases: []
 displayName: RealityToolkit.DeviceSimulation
 description: >-
   Development extnsion for the Reality Toolkit implementing simulated controller

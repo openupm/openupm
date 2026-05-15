@@ -1,4 +1,5 @@
 name: org.khronos.unitygltf
+aliases: []
 displayName: Khronos UnityGLTF
 description: Runtime/Editor importer and exporter for glTF 2.0 files in Unity
 repoUrl: 'https://github.com/KhronosGroup/UnityGLTF'

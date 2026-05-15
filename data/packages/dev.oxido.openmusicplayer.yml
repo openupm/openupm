@@ -1,4 +1,5 @@
 name: dev.oxido.openmusicplayer
+aliases: []
 displayName: Open Music Player
 description: >-
   Open and simple music playback system based on Events and ScriptableObjects

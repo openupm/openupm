@@ -1,4 +1,5 @@
 name: dev.upm-packages.extra-unirx
+aliases: []
 displayName: Extra UniRx
 description: ':seedling: Extra Utility for UniRx'
 repoUrl: 'https://github.com/umm/extra_unirx'

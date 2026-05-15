@@ -1,4 +1,6 @@
 name: com.lazysquirrellabs.minmaxrangeattribute
+aliases:
+  - com.sneakysquirrellabs.minmaxrangeattribute
 displayName: Min/max Range Attribute
 description: >-
   A bounded (i.e., with a minimum and maximum) range attribute for Unity's

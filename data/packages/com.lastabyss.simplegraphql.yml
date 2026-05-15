@@ -1,4 +1,5 @@
 name: com.lastabyss.simplegraphql
+aliases: []
 displayName: SimpleGraphQL
 description: >-
   A simple graphQL client that allows one to use .graphql files (or code) for

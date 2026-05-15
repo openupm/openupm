@@ -1,4 +1,5 @@
 name: com.leoecscommunity.ecslite
+aliases: []
 displayName: LeoECSCommunity Lite
 description: >-
   LeoECSCommunity Lite is lightweight C# Entity Component System framework based

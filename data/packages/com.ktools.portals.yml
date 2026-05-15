@@ -1,4 +1,5 @@
 name: com.ktools.portals
+aliases: []
 displayName: kPortals
 description: A pre-calculated Portal visibility system for Unity.
 repoUrl: 'https://github.com/Kink3d/kPortals'

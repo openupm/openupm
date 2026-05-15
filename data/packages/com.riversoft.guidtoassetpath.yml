@@ -1,4 +1,5 @@
 name: com.riversoft.guidtoassetpath
+aliases: []
 displayName: GUID To Asset Path Tool
 description: Simple Editor Window to convert GUIDs to Asset Paths inside Unity.
 repoUrl: https://github.com/lucasfaesa/com.riversoft.guidtoassetpath
