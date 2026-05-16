@@ -15,3 +15,7 @@ Please read the guideline for [unpublishing a package version](https://openupm.c
 #### Which version(s) you want to unpublish?
 
 #### Have you removed or replaced the related Git tag(s)?
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/

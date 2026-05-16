@@ -25,3 +25,7 @@ If the package violates the [Unity Software Additional Terms](https://unity3d.co
 #### Description of vulnerability
 
 Please include any references, screenshots, commits, or code examples that would be useful in reproducing the security issue.
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/

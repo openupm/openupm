@@ -19,6 +19,6 @@ about: Suggest an idea for this project
 
 #### How should this be implemented in your opinion?
 
-#### Are you a regular backer or sponsor at [patreon.com/openupm](https://www.patreon.com/openupm)?
+---
 
-#### Are you willing to work on this yourself?
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/

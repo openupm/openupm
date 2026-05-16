@@ -22,3 +22,7 @@ about: Create a report to help us improve
 #### What is actually happening?
 
 #### Other relevant information
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/
