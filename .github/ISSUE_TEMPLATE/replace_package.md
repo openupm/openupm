@@ -20,3 +20,7 @@ To replace a published package with another source repository, please provide th
 #### Please provide the new source repository URL on GitHub.
 
 #### Is the new UPM repository has at least one working Git tag? (Please test it with the Unity Editor)
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/

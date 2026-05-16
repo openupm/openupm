@@ -21,3 +21,7 @@ Please read the guideline for [renaming a package](https://openupm.com/docs/modi
 #### Have you renamed the metadata YAML file, updated the `name` field, added the old package name to `aliases`, and set `minVersion`?
 
 #### Have you told users to update their Unity dependencies to the new package name?
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/

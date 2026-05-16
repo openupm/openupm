@@ -13,3 +13,7 @@ Please read the guideline for [unpublishing a package](https://openupm.com/docs/
 #### What's the package name?
 
 #### Have you removed the package meta file and added the package name to the blocked-scopes.yml?
+
+---
+
+OpenUPM is a community-backed project. If this issue is important to you, please consider donating to support the project: https://openupm.com/support/
