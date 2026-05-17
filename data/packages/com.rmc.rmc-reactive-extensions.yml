@@ -1,0 +1,18 @@
+name: com.rmc.rmc-reactive-extensions
+aliases: []
+displayName: RMC Reactive Extensions
+description: RMC's fork of the https://github.com/Cysharp/R3 Reactive Extensions Library.
+repoUrl: https://github.com/SamuelAsherRivello/rmc-reactive-extensions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: ilterbilguven
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779045010801
