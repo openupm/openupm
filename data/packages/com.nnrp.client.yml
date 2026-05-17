@@ -1,0 +1,21 @@
+name: com.nnrp.client
+aliases: []
+displayName: NNRP Client SDK
+description: >-
+  UPM distribution of the NNRP managed client SDK and packaged native bridge
+  assets.
+repoUrl: https://github.com/NagareWorks/nnrp-cs
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - network
+hunter: shipiyouniao
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0-preview.2.20260517.8
+readme: main:README.md
+createdAt: 1779020127002
+githubReleaseAssetName: com.nnrp.client-
