@@ -1,0 +1,24 @@
+name: com.doji.package-authoring
+aliases: []
+displayName: UPM Package Authoring
+description: >-
+  Unity editor tooling for scaffolding UPM packages and their companion sample
+  projects.
+repoUrl: https://github.com/julienkay/com.doji.package-authoring
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://repository-images.githubusercontent.com/603016873/b38f8e44-ed9b-4903-8428-1cf03b6a3347
+topics:
+  - asset-management
+  - editor-enhancement
+  - package-management
+  - utilities
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1779018798590
