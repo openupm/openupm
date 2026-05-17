@@ -1,0 +1,22 @@
+name: com.degubites.herdkv
+aliases: []
+displayName: HerdKV
+description: >-
+  Unity-first embedded key-value store for save data and local game state. Pure
+  C#, no native plugin.
+repoUrl: https://github.com/degubites/herdkv
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: nicotina04
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779017571241
