@@ -1,0 +1,15 @@
+name: com.bluecadet.hap
+displayName: Bluecadet Hap
+description: Hap video playback utilities for Unity.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - video
+  - utilities
+gitTagPrefix: 'hap/v'
+readme: 'main:Packages/com.bluecadet.hap/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692
