@@ -1,0 +1,15 @@
+name: com.bluecadet.spring
+displayName: Bluecadet Spring
+description: Spring animation utilities for Unity.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+gitTagPrefix: 'spring/v'
+readme: 'main:Packages/com.bluecadet.spring/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692

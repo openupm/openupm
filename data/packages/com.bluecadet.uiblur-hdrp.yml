@@ -1,0 +1,15 @@
+name: com.bluecadet.uiblur-hdrp
+displayName: Bluecadet UI Blur (HDRP)
+description: Kawase blur effect for UI elements in HDRP.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+gitTagPrefix: 'uiblur-hdrp/v'
+readme: 'main:Packages/com.bluecadet.uiblur-hdrp/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692

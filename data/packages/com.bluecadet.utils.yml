@@ -1,0 +1,14 @@
+name: com.bluecadet.utils
+displayName: Bluecadet Utils
+description: Utility functions and helpers for Unity projects.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+gitTagPrefix: 'utils/v'
+readme: 'main:Packages/com.bluecadet.utils/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692

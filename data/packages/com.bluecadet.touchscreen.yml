@@ -1,0 +1,15 @@
+name: com.bluecadet.touchscreen
+displayName: Bluecadet Touchscreen
+description: Touchscreen focused input module for Unity's EventSystem.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - gui
+gitTagPrefix: 'touchscreen/v'
+readme: 'main:Packages/com.bluecadet.touchscreen/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692
