@@ -3,6 +3,7 @@ name: CI
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -53,7 +54,7 @@ jobs:
   deploy-openupm-data:
     runs-on: ubuntu-latest
     needs: validate-data
-    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/master' && github.repository == 'openupm/openupm' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     concurrency:
       group: openupm-data-production
       cancel-in-progress: false
