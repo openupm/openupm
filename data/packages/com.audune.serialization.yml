@@ -3,7 +3,7 @@ aliases: []
 displayName: Object Serialization
 description: Custom and extensible object serialization for Unity 2022 LTS or higher.
 repoUrl: https://github.com/audunegames/object-serialization
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only
