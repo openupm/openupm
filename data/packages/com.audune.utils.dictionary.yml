@@ -3,7 +3,7 @@ aliases: []
 displayName: Serializable Dictionary
 description: Serializable dictionary class for Unity 2022.3 LTS or higher.
 repoUrl: https://github.com/audunegames/serializable-dictionary
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0
 licenseName: GNU Lesser General Public License v3.0 only
