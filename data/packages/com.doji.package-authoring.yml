@@ -5,7 +5,7 @@ description: >-
   Unity editor tooling for scaffolding UPM packages and their companion sample
   projects.
 repoUrl: https://github.com/julienkay/com.doji.package-authoring
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
