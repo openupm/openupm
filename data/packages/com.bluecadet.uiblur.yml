@@ -1,0 +1,15 @@
+name: com.bluecadet.uiblur
+displayName: Bluecadet UI Blur
+description: Kawase blur effect for UI elements in URP.
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+gitTagPrefix: 'uiblur/v'
+readme: 'main:Packages/com.bluecadet.uiblur/README.md'
+hunter: claytercek
+aliases: []
+trackingMode: git
+createdAt: 1779130176692
