@@ -7,9 +7,10 @@ licenseName: MIT License
 topics:
   - gui
   - particles-and-effects
-gitTagPrefix: 'uiblur/v'
+gitTagPrefix: 'com.bluecadet.uiblur@'
 readme: 'main:Packages/com.bluecadet.uiblur/README.md'
 hunter: claytercek
 aliases: []
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.bluecadet.uiblur-'
 createdAt: 1779130176692

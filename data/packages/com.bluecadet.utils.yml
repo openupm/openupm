@@ -6,9 +6,10 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - utilities
-gitTagPrefix: 'utils/v'
+gitTagPrefix: 'com.bluecadet.utils@'
 readme: 'main:Packages/com.bluecadet.utils/README.md'
 hunter: claytercek
 aliases: []
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.bluecadet.utils-'
 createdAt: 1779130176692
