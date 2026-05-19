@@ -7,9 +7,10 @@ licenseName: MIT License
 topics:
   - input-management
   - gui
-gitTagPrefix: 'touchscreen/v'
+gitTagPrefix: 'com.bluecadet.touchscreen@'
 readme: 'main:Packages/com.bluecadet.touchscreen/README.md'
 hunter: claytercek
 aliases: []
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.bluecadet.touchscreen-'
 createdAt: 1779130176692

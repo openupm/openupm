@@ -7,9 +7,10 @@ licenseName: MIT License
 topics:
   - video
   - utilities
-gitTagPrefix: 'hap/v'
+gitTagPrefix: 'com.bluecadet.hap@'
 readme: 'main:Packages/com.bluecadet.hap/README.md'
 hunter: claytercek
 aliases: []
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.bluecadet.hap-'
 createdAt: 1779130176692
