@@ -6,6 +6,11 @@ about: Create a report to help us improve
 
 ## Bug report
 
+<!--
+OpenUPM does not accept pull requests for bug fixes unless a maintainer explicitly invites one.
+Please use this issue to share reproduction details, analysis, screenshots, logs, or a high-level fix outline instead of opening a PR.
+-->
+
 #### Bug category
 
 - [ ] Website: issues related to browse or discover packages.
