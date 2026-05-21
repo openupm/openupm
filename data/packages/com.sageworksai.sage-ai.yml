@@ -1,0 +1,21 @@
+name: com.sageworksai.sage-ai
+displayName: Sage AI
+description: Local-first AI coding assistant for Unity. 200+ free models, no API key required.
+repoUrl: 'https://github.com/laynef/sage-unity'
+packageFolder: ''
+readme: README.md
+changelogUrl: ''
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://sageworksai.com/og-image.png'
+readme: ''
+topicList:
+  - ai
+  - coding
+  - assistant
+  - unity
+  - editor-tools
+hunter: sageworksai
+gitTagPrefix: 'v'
+gitTagIgnore: '^(?!v)'
+minVersion: '0.1.0'
