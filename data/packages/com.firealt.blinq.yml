@@ -1,0 +1,21 @@
+name: com.firealt.blinq
+aliases: []
+displayName: FireAlt BLinq
+description: >-
+  Blazingly fast, fully Burst compatible LINQ library. Utilizes an
+  ILPostProcessor to allow LINQ syntax in Bursted methods.
+repoUrl: https://github.com/Fire-Aalt/BLinq
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779454128963
