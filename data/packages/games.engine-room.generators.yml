@@ -1,0 +1,22 @@
+name: games.engine-room.generators
+aliases: []
+displayName: Engine Room Generators
+description: >-
+  A Unity package of Roslyn source generators that take care of the boilerplate
+  around common gameplay patterns.
+repoUrl: https://github.com/Engine-Room-Games/ERG-Generators
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - frameworks
+  - utilities
+hunter: migus88
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779484644851
