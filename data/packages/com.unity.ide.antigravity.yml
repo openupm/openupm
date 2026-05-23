@@ -1,0 +1,24 @@
+name: com.unity.ide.antigravity
+aliases: []
+displayName: Antigravity IDE Editor
+description: |
+  Unity package that integrates Google Antigravity IDE (the VS Code-based code
+  editor in the Antigravity product line) as Unity's External Script Editor.
+  Generates .csproj and .sln files for full C# IntelliSense, supports
+  single-instance window reuse, and reliably distinguishes Antigravity IDE from
+  the standalone Antigravity 2.0 agent app via resources/app/package.json
+  manifest verification.
+repoUrl: https://github.com/BadranRaza/com.unity.ide.antigravity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - integration
+hunter: BadranRaza
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
