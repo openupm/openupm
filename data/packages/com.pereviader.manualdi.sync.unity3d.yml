@@ -13,7 +13,7 @@ topics:
   - code-generation
   - utilities
 hunter: PereViader
-gitTagPrefix: com.pereviader.manualdi.sync.unity3d/
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 3.2.0-preview.1
 readme: main:com.pereviader.manualdi.sync.unity3d/README.md
