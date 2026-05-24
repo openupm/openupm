@@ -20,3 +20,5 @@ gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
 createdAt: 1768644041435
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.particlesystem-'
