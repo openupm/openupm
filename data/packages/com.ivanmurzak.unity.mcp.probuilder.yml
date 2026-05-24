@@ -5,7 +5,8 @@ description: >-
   MCP Tools for ProBuilder - Enhance your Unity projects with AI-powered
   ProBuilder tools using the MCP framework.
 repoUrl: https://github.com/IvanMurzak/Unity-AI-ProBuilder
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.probuilder-'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
@@ -21,5 +22,3 @@ gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
 createdAt: 1765288183878
-trackingMode: githubRelease
-githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.probuilder-'
