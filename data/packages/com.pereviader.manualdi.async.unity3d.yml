@@ -2,9 +2,9 @@ name: com.pereviader.manualdi.async.unity3d
 aliases: []
 displayName: ManualDi.Async
 description: Fast and extensible C# dependency injection library without reflection. Works seamlessly in both Unity3d and plain C# projects
-repoUrl: https://github.com/PereViader/OpenUPM
-trackingMode: git
-parentRepoUrl: https://github.com/PereViader/ManualDi
+repoUrl: https://github.com/PereViader/ManualDi
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.pereviader.manualdi.async.unity3d-'
 licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
@@ -12,8 +12,8 @@ topics:
 - code-generation
 - utilities
 hunter: PereViader
-gitTagPrefix: com.pereviader.manualdi.async.unity3d/
+gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 3.0.0-preview.1
+minVersion: 3.2.0-preview.1
 readme: main:com.pereviader.manualdi.async.unity3d/README.md
 createdAt: 1745270928647
