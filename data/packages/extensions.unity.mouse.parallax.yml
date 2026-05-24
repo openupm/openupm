@@ -3,7 +3,8 @@ aliases: []
 displayName: Unity Mouse Parallax
 description: Unity Parallax based on mouse input.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Mouse-Parallax'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'extensions.unity.mouse.parallax-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

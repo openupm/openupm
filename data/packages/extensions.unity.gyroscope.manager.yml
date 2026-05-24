@@ -3,7 +3,8 @@ aliases: []
 displayName: Unity Gyroscope Manager
 description: Unity Gyroscope manager. Base package for helpful Gyroscope tools.
 repoUrl: 'https://github.com/IvanMurzak/Unity-Gyroscope-Manager'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'extensions.unity.gyroscope.manager-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -5,7 +5,8 @@ description: >-
   Lightweight package with variables, custom data model support and optional encryption.
   Under the hood it uses the same PlayerPrefs system, but creates flexible wrapper on top.
 repoUrl: 'https://github.com/IvanMurzak/Unity-PlayerPrefsEx'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'extensions.unity.playerprefsex-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
