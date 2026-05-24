@@ -21,3 +21,5 @@ gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
 createdAt: 1765288183878
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.probuilder-'
