@@ -1,0 +1,16 @@
+name: com.hungnt.unitask
+aliases: []
+displayName: HungNT UniTask
+description: Efficient async/await integration for Unity (UniTask by Cysharp), repackaged as UPM under com.hungnt scope.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.unitask'
+parentRepoUrl: 'https://github.com/Cysharp/UniTask'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - parallelism-and-concurrency
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
