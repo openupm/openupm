@@ -1,0 +1,14 @@
+name: com.hungnt.rainbowfolder
+aliases: []
+displayName: HungNT Rainbow Folders
+description: Borodar Rainbow Folders editor plugin repackaged as UPM under com.hungnt scope.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.rainbowfolder'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: LicenseRef-AssetStore
+licenseName: Borodar Rainbow Folders Asset Store License
+topics:
+  - editor-enhancement
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
