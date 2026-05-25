@@ -1,0 +1,16 @@
+name: com.hungnt.core
+aliases: []
+displayName: HungNT Core
+description: Core utilities (HungNT.Core), service locator (HungNT), singletons, extensions, and IService.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.core'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - frameworks
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
