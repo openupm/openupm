@@ -1,0 +1,15 @@
+name: com.hungnt.datasave
+aliases: []
+displayName: HungNT Data Save
+description: Multi-domain save/load with BaseSaveData, DatasaveService, and Odin Serialization JSON.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.datasave'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - data
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
