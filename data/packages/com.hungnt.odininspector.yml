@@ -1,0 +1,14 @@
+name: com.hungnt.odininspector
+aliases: []
+displayName: HungNT Odin Inspector
+description: Odin Inspector and Serializer (Sirenix) bundled as a Unity UPM package under com.hungnt scope.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.odininspector'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: LicenseRef-AssetStore
+licenseName: Sirenix Odin Inspector Asset Store License
+topics:
+  - editor-enhancement
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
