@@ -1,0 +1,15 @@
+name: com.hungnt.advertisement
+aliases: []
+displayName: HungNT Advertisement
+description: Ads abstraction (IAdsService), multi-provider implementations (MAX, AdMob, IronSource stubs), and service locator integration.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.advertisement'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - mobile
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
