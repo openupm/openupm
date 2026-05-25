@@ -1,0 +1,15 @@
+name: com.hungnt.database
+aliases: []
+displayName: HungNT Database
+description: ScriptableObject database service, Google Sheet import (editor), and GGSheet attributes.
+repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.database'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - data
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
