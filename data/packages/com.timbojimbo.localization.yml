@@ -1,0 +1,18 @@
+name: com.timbojimbo.localization
+aliases: []
+displayName: Localization
+description: A simple localization package for Unity with a built in AI Transation tool.
+repoUrl: https://github.com/Timbo-Jimbo/Localization
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - localization
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779790086960
