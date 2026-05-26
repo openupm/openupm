@@ -1,7 +1,7 @@
 name: com.timbojimbo.localization
 aliases: []
 displayName: Localization
-description: A simple localization package for Unity with a built in AI Transation tool.
+description: A simple localization package for Unity with a built in AI Translation tool.
 repoUrl: https://github.com/Timbo-Jimbo/Localization
 trackingMode: git
 parentRepoUrl: null
