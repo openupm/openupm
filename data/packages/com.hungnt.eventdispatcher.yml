@@ -2,7 +2,7 @@ name: com.hungnt.eventdispatcher
 aliases: []
 displayName: HungNT Event Dispatcher
 description: Type-safe event dispatcher singleton, extensions, and Odin-backed editor inspector.
-repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.eventdispatcher'
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.eventdispatcher'
 parentRepoUrl: null
 trackingMode: git
 licenseSpdxId: MIT

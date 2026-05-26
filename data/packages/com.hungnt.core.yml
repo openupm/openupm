@@ -2,7 +2,7 @@ name: com.hungnt.core
 aliases: []
 displayName: HungNT Core
 description: Core utilities (HungNT.Core), service locator (HungNT), singletons, extensions, and IService.
-repoUrl: 'https://github.com/HungNT-Packages/com.hungnt.core'
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.core'
 parentRepoUrl: null
 trackingMode: git
 licenseSpdxId: MIT
