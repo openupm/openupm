@@ -1,0 +1,22 @@
+name: co.balancy.hoolipay
+aliases: []
+displayName: Balancy Hoolipay
+description: Hoolipay platform integration for Balancy.
+repoUrl: https://github.com/balancy-liveops/plugin_cpp_unity_hoolipay
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - code-generation
+  - data-management
+  - integration
+  - services
+hunter: suvitruf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1779832151931
