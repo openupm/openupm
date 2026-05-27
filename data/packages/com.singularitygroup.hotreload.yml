@@ -1,0 +1,19 @@
+name: com.singularitygroup.hotreload
+aliases: []
+displayName: 'HungNT: Hot Reload'
+description: Change code and get immediate updates in the Unity Editor or on-device.
+repoUrl: https://github.com/HungNT-UPM/HungNT-HotReload
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779851260049
