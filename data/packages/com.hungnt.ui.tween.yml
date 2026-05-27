@@ -1,0 +1,16 @@
+name: com.hungnt.ui.tween
+aliases: []
+displayName: HungNT UI Tween
+description: UI show/hide animation components using DOTween, UniTask, and TweenPreset ScriptableObjects.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.ui.tween'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - animation
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
