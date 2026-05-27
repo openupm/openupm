@@ -3,7 +3,8 @@ aliases: []
 displayName: Image Loader
 description: Asynchronous image loading from remote or local destination.
 repoUrl: 'https://github.com/IvanMurzak/Unity-ImageLoader'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'extensions.unity.imageloader-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
