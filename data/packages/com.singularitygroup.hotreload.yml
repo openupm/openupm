@@ -1,6 +1,6 @@
 name: com.singularitygroup.hotreload
 aliases: []
-displayName: 'HungNT: Hot Reload'
+displayName: 'Hot Reload'
 description: Change code and get immediate updates in the Unity Editor or on-device.
 repoUrl: https://github.com/HungNT-UPM/HungNT-HotReload
 trackingMode: git
