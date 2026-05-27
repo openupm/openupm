@@ -1,6 +1,6 @@
 name: com.hungnt.datasave
 aliases: []
-displayName: HungNT Data Save
+displayName: HungNT Datasave
 description: Multi-domain save/load with BaseSaveData, DatasaveService, and Odin Serialization JSON.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.datasave'
 parentRepoUrl: null
