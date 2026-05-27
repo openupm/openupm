@@ -1,0 +1,16 @@
+name: com.hungnt.ui
+aliases: []
+displayName: HungNT UI
+description: UIViewBase and UIScaleFeedback for Unity UI elements.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.ui'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - gui
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
