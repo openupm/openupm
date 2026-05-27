@@ -19,7 +19,7 @@ gitTagIgnore: ''
 minVersion: ''
 image: >-
   https://github.com/IvanMurzak/Unity-ImageLoader/raw/d00604bd671838e79e67b3e276dcbcca973d08e0/Test%20Images/ImageA.jpg
-readme: 'master:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
