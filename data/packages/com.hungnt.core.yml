@@ -1,7 +1,7 @@
 name: com.hungnt.core
 aliases: []
 displayName: HungNT Core
-description: Core utilities (HungNT.Core), service locator (HungNT), singletons, extensions, and IService.
+description: Core utilities (HungNT.Core), service locator (HungNT), singletons, general extensions, and IService. Odin is an external dependency.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.core'
 parentRepoUrl: null
 trackingMode: git
