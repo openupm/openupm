@@ -1,0 +1,19 @@
+name: com.alicizax.unity.cysharp.unitask
+aliases: []
+displayName: UniTask
+description: Provides an efficient async/await integration to Unity.
+repoUrl: https://github.com/AlicizaX/com.alicizax.unity.cysharp.unitask
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
+topics:
+  - frameworks
+hunter: AlicizaX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1779963131057
