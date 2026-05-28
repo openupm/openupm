@@ -6,12 +6,13 @@ description: >-
   of packages to provide ready to go solution for Windows, MacOS, Android, iOS
   platforms.
 repoUrl: https://github.com/IvanMurzak/Unity-EFCore-SQLite
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'extensions.unity.bundle.efcore.sqlite-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-EFCore-SQLite/blob/master/efcore_sqlite.jpg?raw=true
+  https://github.com/IvanMurzak/Unity-EFCore-SQLite/raw/main/efcore_sqlite.jpg?raw=true
 topics:
   - data-management
   - frameworks
@@ -21,5 +22,5 @@ hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: master:README.md
+readme: main:README.md
 createdAt: 1733978043643
