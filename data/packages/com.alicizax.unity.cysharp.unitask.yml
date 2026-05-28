@@ -5,7 +5,7 @@ description: Provides an efficient async/await integration to Unity.
 repoUrl: https://github.com/AlicizaX/com.alicizax.unity.cysharp.unitask
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT
 image: >-
   https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
