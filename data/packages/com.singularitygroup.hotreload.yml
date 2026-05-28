@@ -5,8 +5,8 @@ description: Change code and get immediate updates in the Unity Editor or on-dev
 repoUrl: https://github.com/HungNT-UPM/HungNT-HotReload
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - editor-enhancement
