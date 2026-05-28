@@ -1,0 +1,19 @@
+name: com.alicizax.unity.editor.extension
+aliases: []
+displayName: Aliciza X Editor Extension
+description: Aliciza X Editor Extension
+repoUrl: https://github.com/AlicizaX/com.alicizax.unity.editor.extension
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
+topics:
+  - frameworks
+hunter: AlicizaX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1779960303647
