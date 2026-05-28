@@ -6,7 +6,8 @@ description: >-
   can control bitcode status for all pods from single place. Highly usable with
   CI.
 repoUrl: 'https://github.com/IvanMurzak/Unity-iOS-Pods-Bitcode'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.github.ivanmurzak.ios.pods.bitcode-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -17,7 +18,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
 image: ''
-readme: 'master:README.md'
+readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
