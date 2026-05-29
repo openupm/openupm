@@ -1,0 +1,18 @@
+name: com.qq.weixin.minigame
+aliases: []
+displayName: WXSDK
+description: WeChat Mini Game Tuanjie Engine Adapter SDK Package.
+repoUrl: https://github.com/StromKuo/minigame-tuanjie-transform-sdk
+trackingMode: git
+parentRepoUrl: https://github.com/wechat-miniprogram/minigame-tuanjie-transform-sdk
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: StromKuo
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780063820310
