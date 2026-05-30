@@ -1,0 +1,15 @@
+name: com.gamespear.project-designer
+aliases: []
+displayName: Project Designer
+description: A lightweight, zero-dependency Unity Editor extension that enhances the Project window with content-based folder icons, custom folder colors, tree branch connector lines, and alternating row shading.
+repoUrl: 'https://github.com/APTEM591/com.gamespear.project-designer'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: APTEM591
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: ''
+createdAt: 1780179561664
