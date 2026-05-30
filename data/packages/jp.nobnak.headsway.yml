@@ -1,0 +1,20 @@
+name: jp.nobnak.headsway
+aliases: []
+displayName: Head Sway by Lens Shift
+description: >-
+  Head sway via converging lens shift on a fixed camera rig (ViewMotion +
+  ConvergingLensShift).
+repoUrl: https://github.com/nobnak/urp-headsway
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/jp.nobnak.headsway/README.md
+createdAt: 1780149233561
