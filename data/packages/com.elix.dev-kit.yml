@@ -1,0 +1,18 @@
+name: com.elix.dev-kit
+aliases: []
+displayName: Elix Developer Kit
+description: Components, C# extensions & utilities
+repoUrl: 'https://github.com/elix-software/com.elix.dev-kit'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics: 
+  - utilities
+hunter: yurii-lunha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1780253358137
