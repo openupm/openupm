@@ -1,0 +1,19 @@
+name: com.acproject.prettylog
+aliases: []
+displayName: PrettyLog
+description: A simple and pretty logging system for Unity.
+repoUrl: https://github.com/Aleclock/com.acproject.prettylog
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: Aleclock
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1780326064459
