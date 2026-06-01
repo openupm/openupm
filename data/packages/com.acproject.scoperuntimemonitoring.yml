@@ -1,0 +1,21 @@
+name: com.acproject.scoperuntimemonitoring
+aliases: []
+displayName: Scope Runtime Monitoring
+description: Runtime monitoring UI toolkit for debugging variables and components.
+repoUrl: https://github.com/Aleclock/ScopeRuntimeMonitoring
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - profiling
+  - testing
+  - utilities
+hunter: Aleclock
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780327196861
