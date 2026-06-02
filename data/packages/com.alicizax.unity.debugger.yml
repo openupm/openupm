@@ -1,0 +1,19 @@
+name: com.alicizax.unity.debugger
+aliases: []
+displayName: Aliciza X Debugger
+description: Aliciza X Debugger
+repoUrl: https://github.com/AlicizaX/com.alicizax.unity.debugger/
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
+topics:
+  - frameworks
+hunter: AlicizaX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LICENSE.md
+createdAt: 1780366361434
