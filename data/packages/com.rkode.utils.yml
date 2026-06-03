@@ -1,0 +1,15 @@
+repo: rk00717/com.rkode.utils
+branch: main
+packageJsonPath: package.json
+readmePath: ReadMe.md
+licenseName: MIT
+gitTagPrefix: ""
+minVersion: ""
+topics:
+  - utilities
+  - frameworks
+  - debugging-logging
+  - data-management
+  - testing
+  - editor-enhancement
+hunter: rk00717
