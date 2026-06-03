@@ -1,0 +1,20 @@
+name: com.timbojimbo.styling
+aliases: []
+displayName: Styling
+description: A styling system for Unity inspired by CSS.
+repoUrl: https://github.com/Timbo-Jimbo/Styling
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - animation
+  - gui
+  - utilities
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780489005223
