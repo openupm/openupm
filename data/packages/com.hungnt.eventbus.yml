@@ -1,0 +1,16 @@
+name: com.hungnt.eventbus
+aliases: []
+displayName: HungNT Event Bus
+description: Type-safe event bus singleton, extensions, and Odin-backed editor inspector.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.eventbus'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - frameworks
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
