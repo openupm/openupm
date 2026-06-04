@@ -1,10 +1,9 @@
-repo: rk00717/com.rkode.utils
-branch: main
-packageJsonPath: package.json
-readmePath: ReadMe.md
-licenseName: MIT
-gitTagPrefix: ""
-minVersion: ""
+name: com.rkode.utils
+displayName: RKode Utility
+description: Foundation utilities for the RKode ecosystem — Singleton, StateMachine, ObjectPool, SceneLoader, SaveDataHelper and more.
+repoUrl: https://github.com/rk00717/com.rkode.utils
+aliases: []
+licenseSpdxId: MIT
 topics:
   - utilities
   - frameworks
@@ -13,3 +12,5 @@ topics:
   - testing
   - editor-enhancement
 hunter: rk00717
+createdAt: 1748908800
+trackingMode: git
