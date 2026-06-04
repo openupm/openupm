@@ -10,8 +10,7 @@ githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.probuilder-'
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
-image: >-
-  https://github.com/IvanMurzak/Unity-AI-ProBuilder/blob/main/docs/img/ai-probuilder-glitch.gif?raw=true
+image: https://github.com/IvanMurzak/Unity-AI-ProBuilder/raw/main/docs/promo/promo-probuilder.gif
 topics:
   - ai
   - editor-enhancement
