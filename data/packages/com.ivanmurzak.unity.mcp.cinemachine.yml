@@ -14,7 +14,6 @@ image: >-
   https://github.com/IvanMurzak/Unity-AI-Cinemachine/raw/main/docs/img/ai-game-dev.gif
 topics:
   - ai
-  - cinemachine
   - camera
   - editor-enhancement
   - integration
