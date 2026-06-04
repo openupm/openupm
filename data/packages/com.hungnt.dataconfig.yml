@@ -1,0 +1,16 @@
+name: com.hungnt.dataconfig
+aliases: []
+displayName: com.hungnt.dataconfig
+description: ScriptableObject data config service, Google Sheet import (editor), and GGSheet attributes.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.dataconfig'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - data-management
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
