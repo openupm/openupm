@@ -1,6 +1,6 @@
 name: com.hungnt.ui.tween
 aliases: []
-displayName: HungNT UI Tween
+displayName: com.hungnt.ui.tween
 description: UI show/hide animation components using DOTween, UniTask, and TweenPreset ScriptableObjects.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.ui.tween'
 parentRepoUrl: null
