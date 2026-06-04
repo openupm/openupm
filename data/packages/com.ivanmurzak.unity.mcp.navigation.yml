@@ -1,0 +1,25 @@
+name: com.ivanmurzak.unity.mcp.navigation
+aliases: []
+displayName: AI Navigation
+description: >-
+  MCP Tools for AI Navigation - Enhance your Unity projects with AI-powered
+  NavMesh tools using the MCP framework.
+repoUrl: https://github.com/IvanMurzak/Unity-AI-Navigation
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.navigation-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/IvanMurzak/Unity-AI-Navigation/raw/main/docs/img/ai-game-dev.gif
+topics:
+  - ai
+  - level-design
+  - editor-enhancement
+  - integration
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780539094065
