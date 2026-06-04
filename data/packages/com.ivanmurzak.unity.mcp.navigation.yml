@@ -10,8 +10,7 @@ githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.navigation-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://github.com/IvanMurzak/Unity-AI-Navigation/raw/main/docs/img/ai-game-dev.gif
+image: https://github.com/IvanMurzak/Unity-AI-Navigation/raw/main/docs/promo/promo-navigation.gif
 topics:
   - ai
   - level-design
