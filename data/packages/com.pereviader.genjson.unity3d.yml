@@ -5,9 +5,9 @@ description: >-
   GenJson is a zero-allocation, high-performance C# Source Generator library
   that automatically creates ToJson() and FromJson() methods for your classes
   and structs.
-repoUrl: https://github.com/PereViader/OpenUPM
-trackingMode: git
-parentRepoUrl: https://github.com/PereViader/GenJson
+repoUrl: https://github.com/PereViader/GenJson
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.pereviader.genjson.unity3d-'
 licenseName: MIT License
 licenseSpdxId: MIT
 image: ''
@@ -15,8 +15,8 @@ topics:
 - code-generation
 - utilities
 hunter: PereViader
-gitTagPrefix: com.pereviader.genjson.unity3d/
+gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
-readme: main:com.pereviader.genjson.unity3d/README.md
+minVersion: 1.4.0
+readme: main:README.md
 createdAt: 1770577179403
