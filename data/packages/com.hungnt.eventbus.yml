@@ -1,6 +1,6 @@
 name: com.hungnt.eventbus
 aliases: []
-displayName: HungNT Event Bus
+displayName: com.hungnt.eventbus
 description: Type-safe event bus singleton, extensions, and Odin-backed editor inspector.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.eventbus'
 parentRepoUrl: null

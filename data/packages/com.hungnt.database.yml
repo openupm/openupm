@@ -1,6 +1,6 @@
 name: com.hungnt.database
 aliases: []
-displayName: HungNT Database
+displayName: com.hungnt.database
 description: ScriptableObject database service, Google Sheet import (editor), and GGSheet attributes.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.database'
 parentRepoUrl: null
