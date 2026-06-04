@@ -1,0 +1,25 @@
+name: com.ivanmurzak.unity.mcp.tilemap
+aliases: []
+displayName: AI Tilemap
+description: >-
+  MCP Tools for Tilemap - Enhance your Unity projects with AI-powered 2D
+  Tilemap tools using the MCP framework.
+repoUrl: https://github.com/IvanMurzak/Unity-AI-Tilemap
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.tilemap-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/IvanMurzak/Unity-AI-Tilemap/raw/main/docs/img/ai-game-dev.gif
+topics:
+  - ai
+  - 2d
+  - editor-enhancement
+  - integration
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780539094065
