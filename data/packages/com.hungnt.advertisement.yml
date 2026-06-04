@@ -1,6 +1,6 @@
 name: com.hungnt.advertisement
 aliases: []
-displayName: HungNT Advertisement
+displayName: com.hungnt.advertisement
 description: Ads abstraction (IAdsService), multi-provider implementations (MAX, AdMob, IronSource stubs), and service locator integration.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.advertisement'
 parentRepoUrl: null
