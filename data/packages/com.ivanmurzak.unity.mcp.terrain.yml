@@ -1,0 +1,26 @@
+name: com.ivanmurzak.unity.mcp.terrain
+aliases: []
+displayName: AI Terrain
+description: >-
+  MCP Tools for Unity Terrain - Enhance your Unity projects with AI-powered
+  terrain authoring tools using the MCP framework.
+repoUrl: https://github.com/IvanMurzak/Unity-AI-Terrain
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.terrain-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/IvanMurzak/Unity-AI-Terrain/raw/main/docs/img/ai-game-dev.gif
+topics:
+  - ai
+  - terrain
+  - procedural-generation
+  - editor-enhancement
+  - integration
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780559770843
