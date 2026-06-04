@@ -4,6 +4,7 @@ description: Foundation utilities for the RKode ecosystem — Singleton, StateMa
 repoUrl: https://github.com/rk00717/com.rkode.utils
 aliases: []
 licenseSpdxId: MIT
+licenseName: MIT
 topics:
   - utilities
   - frameworks
