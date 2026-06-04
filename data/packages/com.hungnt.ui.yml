@@ -1,6 +1,6 @@
 name: com.hungnt.ui
 aliases: []
-displayName: HungNT UI
+displayName: com.hungnt.ui
 description: UIViewBase and UIScaleFeedback for Unity UI elements.
 repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.ui'
 parentRepoUrl: null
