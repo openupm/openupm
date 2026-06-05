@@ -10,8 +10,7 @@ githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.inputsystem-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://github.com/IvanMurzak/Unity-AI-InputSystem/raw/main/docs/img/ai-game-dev.gif
+image: https://github.com/IvanMurzak/Unity-AI-InputSystem/raw/main/docs/promo/promo-inputsystem.gif
 topics:
   - ai
   - input-management
