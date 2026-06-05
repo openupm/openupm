@@ -12,7 +12,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-Splines/raw/main/docs/img/ai-game-dev.gif
+  https://github.com/IvanMurzak/Unity-AI-Splines/raw/main/docs/promo/promo-splines.gif
 topics:
   - ai
   - editor-enhancement
