@@ -1,0 +1,17 @@
+name: com.hungnt.ui.panel
+version: 1.0.0
+aliases: []
+displayName: HungNT UI Panel
+description: HungNT UI Panel Manager (HungNT.UI.Panel) — layer-based panel spawning, caching, and lifecycle management.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.ui.panel'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - gui
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1748188800000
