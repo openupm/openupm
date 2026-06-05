@@ -9,7 +9,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-ParticleSystem/blob/main/docs/img/GitHub%20Promo.jpg?raw=true
+  https://github.com/IvanMurzak/Unity-AI-ParticleSystem/raw/main/docs/img/particle-system-glitch.gif
 topics:
   - ai
   - editor-enhancement
