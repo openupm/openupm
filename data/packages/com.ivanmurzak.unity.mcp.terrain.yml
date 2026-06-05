@@ -11,7 +11,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-Terrain/raw/main/docs/img/ai-game-dev.gif
+  https://github.com/IvanMurzak/Unity-AI-Terrain/raw/main/docs/promo/promo-terrain.gif
 topics:
   - ai
   - terrain
