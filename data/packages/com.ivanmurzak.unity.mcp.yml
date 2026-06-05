@@ -10,7 +10,7 @@ parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 image: >-
-  https://github.com/IvanMurzak/Unity-MCP/blob/main/docs/img/promo/ai-developer-banner.jpg?raw=true
+  https://github.com/IvanMurzak/Unity-MCP/raw/main/docs/img/promo/ai-developer-banner-glitch.gif
 topics:
   - ai
   - code-generation
