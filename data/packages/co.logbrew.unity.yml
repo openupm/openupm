@@ -1,0 +1,24 @@
+name: co.logbrew.unity
+aliases: []
+displayName: LogBrew Unity SDK
+description: Unity SDK for building, validating, previewing, and flushing LogBrew event batches.
+repoUrl: 'https://github.com/LogBrewCo/sdk'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - integration
+  - services
+  - testing
+  - utilities
+hunter: 'furkanerday'
+gitTagPrefix: 'co.logbrew.unity/'
+gitTagIgnore: ''
+minVersion: '0.1.0'
+image: ''
+readme: 'main:unity/logbrew-unity/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
