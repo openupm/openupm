@@ -3,7 +3,7 @@ aliases: []
 displayName: Gdal
 description: Unity Package for GDAL
 repoUrl: 'https://github.com/ViRGIS-Team/gdal-upm'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
