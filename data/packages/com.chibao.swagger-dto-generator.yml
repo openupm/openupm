@@ -1,0 +1,18 @@
+name: com.chibao.swagger-dto-generator
+aliases: []
+displayName: Swagger DTO Generator
+description: An editor tool to parse OpenAPI/Swagger schemas and generate C# DTOs in Unity.
+repoUrl: https://github.com/365chibao/unity-swagger-generator
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - utilities
+hunter: 365chibao
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1780889310285
