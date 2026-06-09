@@ -1,0 +1,22 @@
+name: com.gamebayoumy.zed-unity
+aliases: []
+displayName: Zed Editor Integration
+description: >-
+  Integrates Zed as an external code editor for Unity with project setup, file
+  sync, and C# project generation for Zed language tooling
+repoUrl: https://github.com/GameBayoumy/zed-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - integration
+  - utilities
+hunter: gamebayoumy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.0
+readme: main:packages/com.gamebayoumy.zed-unity/README.md
+createdAt: 1780927457996
