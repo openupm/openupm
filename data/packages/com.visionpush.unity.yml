@@ -1,0 +1,38 @@
+# OpenUPM registry manifest for the VisionPush Unity SDK.
+#
+# This is NOT consumed from this repo — it is the file to add to the OpenUPM
+# registry so `com.visionpush.unity` becomes LISTED + searchable on openupm.com
+# (today it is only installable by git URL, not discoverable). Submit it as a PR:
+#
+#   1. Fork https://github.com/openupm/openupm
+#   2. Copy this file to:  data/packages/com.visionpush.unity.yml
+#   3. Open a PR. OpenUPM's CI validates it, then builds EVERY git tag (1.0.0, …)
+#      from the repo and indexes the package. Consumers then either
+#      `openupm add com.visionpush.unity` or find it via search on openupm.com.
+#
+# Before opening the PR, double-check:
+#   • `hunter` — your GitHub username (the PR author). Pre-filled with bjoern2610.
+#   • the mirror's default branch is `main` (what the publish script pushes to),
+#     so `readme: main:README.md` is correct.
+# `topics` are already verified against OpenUPM's data/topics.yml (2026-06-09):
+# `network` + `mobile` are valid slugs (note: there is NO 'notification' slug).
+
+name: com.visionpush.unity
+displayName: VisionPush
+description: >-
+  VisionPush SDK for Unity — device registration, event tracking,
+  tags/segmentation, and the owned-transport realtime WebSocket channel for
+  low-latency in-game delivery. Hand it your APNs/FCM token; it does the rest.
+repoUrl: 'https://github.com/VisionLab-de/visionpush-unity-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - mobile
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.0.0'
+image: ''
+readme: 'main:README.md'
+hunter: bjoern2610
