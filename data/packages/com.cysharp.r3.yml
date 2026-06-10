@@ -1,6 +1,6 @@
 name: com.cysharp.r3
 aliases: []
-displayName: R3
+displayName: R3.Unity
 description: Reactive Extensions for Unity.
 repoUrl: https://github.com/Cysharp/R3
 trackingMode: git
