@@ -1,0 +1,23 @@
+name: com.arcforge.hades
+aliases: []
+displayName: Hades
+description: >-
+  Unity-aware AI infrastructure: project knowledge graph, observability, memory,
+  and skills for Claude Code.
+repoUrl: https://github.com/TheArcForge/Hades
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/TheArcForge/Hades/main/Documentation/openupm-cover.png
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+hunter: mikeKuharuk
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781092349315
