@@ -1,6 +1,6 @@
 name: com.cysharp.zlinq
 aliases: []
-displayName: ZLinq
+displayName: ZLinq.Unity
 description: >-
   Zero allocation LINQ with Span and LINQ to SIMD, LINQ to Tree(FileSystem,
   GameObject, etc...) for all .NET platforms and Unity.
