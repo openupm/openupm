@@ -6,7 +6,7 @@ repoUrl: https://github.com/longbombus/FullScreenUnityEditor
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSL-1.0
-licenseName: BSL-1.0
+licenseName: Boost Software License 1.0
 image: ''
 topics:
   - editor-enhancement
