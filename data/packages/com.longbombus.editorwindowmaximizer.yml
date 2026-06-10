@@ -1,0 +1,18 @@
+name: com.longbombus.editorwindowmaximizer
+aliases: []
+displayName: Editor Window Maximizer
+description: Adds full screen mode for Windows Unity Editor (F11).
+repoUrl: https://github.com/longbombus/FullScreenUnityEditor
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: BSL-1.0
+licenseName: Boost Software License 1.0
+image: ''
+topics:
+  - editor-enhancement
+hunter: longbombus
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1781081085951
