@@ -1,6 +1,6 @@
 name: com.cysharp.memorypack
 aliases: []
-displayName: MemoryPack
+displayName: MemoryPack.Unity
 description: Zero encoding extreme performance binary serializer for C#.
 repoUrl: 'https://github.com/Cysharp/MemoryPack'
 trackingMode: git
