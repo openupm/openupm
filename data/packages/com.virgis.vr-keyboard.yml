@@ -3,7 +3,7 @@ aliases: []
 displayName: Simple VR Keyboard
 description: Unity Keyboard for use in VR
 repoUrl: 'https://github.com/ViRGIS-Team/VR-Keyboard'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
