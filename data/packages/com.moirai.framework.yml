@@ -1,0 +1,21 @@
+name: com.moirai.framework
+aliases: []
+displayName: Moirai Framework
+description: >-
+  Unity development framework integrating HybridCLR for high-performance hot
+  updates, Obfuz for code obfuscation and hardening, and YooAssets for
+  enterprise-grade resource management.
+repoUrl: https://github.com/Lx34r/com.moirai.framework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: Lx34r
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781141907063
