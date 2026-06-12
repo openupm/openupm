@@ -5,7 +5,7 @@ description: >-
   Unity development framework integrating HybridCLR for high-performance hot
   updates, Obfuz for code obfuscation and hardening, and YooAssets for
   enterprise-grade resource management.
-repoUrl: https://github.com/Lx34r/com.moirai.framework
+repoUrl: https://github.com/TeamMoirai/com.moirai.framework
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -13,7 +13,7 @@ licenseName: MIT License
 image: ''
 topics:
   - frameworks
-hunter: Lx34r
+hunter: Team Moirai
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
