@@ -1,0 +1,24 @@
+name: com.gamelattice.lattice
+aliases: []
+displayName: Game Lattice
+description: >-
+  Engine-agnostic, JSON-driven RPG framework: def registry, event bus, formulas
+  with dice, deterministic RNG, RPG systems, Yarn dialogue and quests, five-tier
+  AI (FSM to GOAP/HTN), world clock/weather/pathfinding. Pure netstandard2.1
+  managed plugins.
+repoUrl: https://github.com/Toxic-Cookie/game-lattice
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: >-
+  https://raw.githubusercontent.com/Toxic-Cookie/game-lattice/main/media/thumbnail-600x300.png
+topics:
+  - ai
+  - frameworks
+hunter: Toxic-Cookie
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: 0.1.1
+readme: upm:README.md
+createdAt: 1781297803335
