@@ -1,0 +1,20 @@
+name: com.virgis.ui
+aliases: []
+displayName: ViRGiS UI Components
+description: ViRGiS is a GIS platform for VR. See https://www.vrgis.org for more details.
+repoUrl: https://github.com/ViRGIS-Team/ViRGiS.UI
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/ViRGIS-Team/virgis.org/raw/main/images/virgis_swallow_72.png
+topics:
+  - data-management
+  - frameworks
+hunter: runette
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781271721379
