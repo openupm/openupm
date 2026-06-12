@@ -17,7 +17,7 @@ hunter: 'furkanerday'
 gitTagPrefix: 'co.logbrew.unity/'
 gitTagIgnore: ''
 minVersion: '0.1.0'
-image: ''
+image: 'https://raw.githubusercontent.com/LogBrewCo/sdk/main/assets/brand/logbrew-logo-espresso-bg-512.png'
 readme: 'main:unity/logbrew-unity/README.md'
 createdAt: 1780778637391
 readme_zhCN: ''
