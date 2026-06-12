@@ -1,5 +1,5 @@
 name: com.virgis.core
-aliases: []
+aliases: ['com.virgis.virgis_v2']
 displayName: ViRGiS Core Components
 description: 'ViRGiS is a GIS platform for VR. See https://www.vrgis.org for more details.'
 repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS'
