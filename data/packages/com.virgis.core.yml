@@ -11,9 +11,9 @@ topics:
   - frameworks
   - utilities
 hunter: runette
-gitTagPrefix: 2.1.3
+gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 2.1.3
+minVersion: 2.1.5
 image: >-
   https://github.com/ViRGIS-Team/virgis.org/blob/raw/images/virgis_swallow_72.png
 readme: 'version_2:README.md'
