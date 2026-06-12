@@ -17,3 +17,4 @@ image: 'https://github.com/whimwindgames/EasyFramework-Unity/raw/main/docs/brand
 readme: 'main:README.md'
 displayName_zhCN: EasyFramework
 description_zhCN: 开箱即用的 Unity 2D 移动游戏复用底座。VContainer 依赖注入内核 + 静态门面,服务层全部接口化,商业化层(广告/内购/统计)可整体替换而不改业务代码。
+createdAt: 1781294348466
