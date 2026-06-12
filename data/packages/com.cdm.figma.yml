@@ -1,0 +1,20 @@
+name: com.cdm.figma
+aliases: []
+displayName: Unity Figma Importer
+description: >-
+  Unity Figma Importer turns your Figma design into Unity UI and can generate
+  code and layout files to create Unity apps.
+repoUrl: https://github.com/cdmvision/unity-figma-importer
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: IvanMurzak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1781307642392
