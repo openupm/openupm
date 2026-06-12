@@ -1,9 +1,9 @@
-name: com.virgis.virgis_v2
-aliases: []
-displayName: ViRGiS v2
+name: com.virgis.core
+aliases: ['com.virgis.virgis_v2']
+displayName: ViRGiS Core Components
 description: 'ViRGiS is a GIS platform for VR. See https://www.vrgis.org for more details.'
-repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS_v2'
-trackingMode: git
+repoUrl: 'https://github.com/ViRGIS-Team/ViRGiS'
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -15,7 +15,7 @@ gitTagPrefix: 2.1.3
 gitTagIgnore: ''
 minVersion: 2.1.3
 image: >-
-  https://github.com/ViRGIS-Team/ViRGiS_v2/raw/4943857af6c2a5fb3a776891beef9ef83c249851/Runtime/Images/180x/Bird%20with%20white%20keyline%20180x180.png
+  https://github.com/ViRGIS-Team/virgis.org/blob/raw/images/virgis_swallow_72.png
 readme: 'version_2:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
