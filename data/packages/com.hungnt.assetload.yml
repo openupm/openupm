@@ -1,0 +1,17 @@
+name: com.hungnt.assetload
+version: 1.0.0
+aliases: []
+displayName: HungNT Asset Load
+description: Addressable asset loading service with caching, auto-release on scene change, SpriteAtlas/prefab helpers, and source generator for type-safe Addressable addresses.
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.assetload'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - frameworks
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1781308800000
