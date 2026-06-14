@@ -1,0 +1,21 @@
+name: com.achieve.infinity-value
+aliases: []
+displayName: Infinity Value
+description: >-
+  It is a structure that sets custom units commonly used in unattended RPGs so
+  that they have infinite numbers.
+repoUrl: https://github.com/achieveonepark/infinity-value
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: LINCENSE
+image: ''
+topics:
+  - data-management
+  - frameworks
+hunter: achieveonepark
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781397528324
