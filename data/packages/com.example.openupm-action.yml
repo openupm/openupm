@@ -1,0 +1,18 @@
+name: com.example.openupm-action
+aliases: []
+displayName: OpenUPM Action Example
+description: Minimal Unity package demonstrating the OpenUPM publish wait GitHub Action.
+repoUrl: https://github.com/openupm/com.example.openupm-action
+trackingMode: git
+parentRepoUrl: null
+licenseName: MIT License
+licenseSpdxId: MIT
+image: ''
+topics:
+- package-management
+hunter: favoyang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1781395200000
