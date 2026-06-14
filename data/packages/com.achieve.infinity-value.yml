@@ -7,8 +7,8 @@ description: >-
 repoUrl: https://github.com/achieveonepark/infinity-value
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: LINCENSE
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - data-management
