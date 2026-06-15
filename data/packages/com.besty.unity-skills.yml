@@ -1,0 +1,18 @@
+name: com.besty.unity-skills
+aliases: []
+displayName: UnitySkills
+description: AI automation skills specifically designed for Unity
+repoUrl: https://github.com/Besty0728/Unity-Skills
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: Lowfeye
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781516647324
