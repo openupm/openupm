@@ -3,7 +3,7 @@ aliases: []
 displayName: 'Appegy: Union'
 description: Struct union for Unity.
 repoUrl: https://github.com/Appegy/Union
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
