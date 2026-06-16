@@ -3,7 +3,7 @@ aliases: []
 displayName: Scriptable Values
 description: Set up games using Scriptable Objects.
 repoUrl: 'https://github.com/Hertzole/scriptable-values'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
