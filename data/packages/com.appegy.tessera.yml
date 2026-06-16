@@ -1,0 +1,19 @@
+name: com.appegy.tessera
+aliases: []
+displayName: 'Appegy: Tessera'
+description: '2D grid geometry for Unity: square and hex tessellations.'
+repoUrl: https://github.com/Appegy/Tessera
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - procedural-generation
+hunter: imurashka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781625753671
