@@ -1,0 +1,21 @@
+name: com.jtfrom9.naughtyattributes.required-guard
+aliases: []
+displayName: NaughtyAttributes Required Field Guard
+description: >-
+  Blocks entering Play mode and fails builds when a [Required]
+  (NaughtyAttributes) ObjectReference field is left unassigned. Opt-in
+  extension; does not modify NaughtyAttributes itself.
+repoUrl: https://github.com/jtfrom9/Naughtyattributes.RequiredGuard
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: jtfrom9
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1781720057992
