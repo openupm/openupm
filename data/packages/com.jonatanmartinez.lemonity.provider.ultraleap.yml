@@ -1,5 +1,6 @@
-name: com.lemonity.provider.ultraleap
-aliases: []
+name: com.jonatanmartinez.lemonity.provider.ultraleap
+aliases:
+  - com.lemonity.provider.ultraleap
 displayName: Lemonity Provider - Ultraleap
 description: Ultraleap hand tracking provider for Lemonity.
 repoUrl: https://github.com/zorderjohn/lemonity
@@ -16,6 +17,6 @@ topics:
 hunter: zorderjohn
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.1.0'
 readme: master:README.md
 createdAt: 1778597905902

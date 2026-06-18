@@ -1,5 +1,6 @@
-name: com.lemonity.core
-aliases: []
+name: com.jonatanmartinez.lemonity.core
+aliases:
+  - com.lemonity.core
 displayName: Lemonity Core
 description: >-
   Motion algorithms, gesture recognition, and tracking abstractions for Lemonity.
@@ -18,6 +19,6 @@ topics:
 hunter: zorderjohn
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.1.0'
 readme: master:README.md
 createdAt: 1778658076520
