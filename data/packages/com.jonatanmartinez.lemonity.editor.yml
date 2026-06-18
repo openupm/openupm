@@ -1,5 +1,6 @@
-name: com.lemonity.editor
-aliases: []
+name: com.jonatanmartinez.lemonity.editor
+aliases:
+  - com.lemonity.editor
 displayName: Lemonity Editor
 description: Unity Editor integration for Lemonity hand tracking navigation.
 repoUrl: https://github.com/zorderjohn/lemonity
@@ -17,6 +18,6 @@ topics:
 hunter: zorderjohn
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.1.0'
 readme: master:README.md
 createdAt: 1778744106315
