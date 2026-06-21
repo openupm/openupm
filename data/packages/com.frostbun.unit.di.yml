@@ -2,8 +2,8 @@ name: com.frostbun.unit.di
 aliases: []
 displayName: UniT Dependency Injection
 description: A minimal dependency container for Unity
-repoUrl: https://github.com/frostbun/UniT.DI
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.DI
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

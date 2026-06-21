@@ -2,8 +2,8 @@ name: com.frostbun.unit.entities
 aliases: []
 displayName: UniT Entities
 description: Entity Manager for Unity
-repoUrl: https://github.com/frostbun/UniT.Entities
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Entities
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

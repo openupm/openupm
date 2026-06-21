@@ -2,8 +2,8 @@ name: com.frostbun.unit.pooling
 aliases: []
 displayName: UniT Pooling
 description: Object Pool Manager for Unity
-repoUrl: https://github.com/frostbun/UniT.Pooling
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Pooling
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

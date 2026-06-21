@@ -2,8 +2,8 @@ name: com.frostbun.unit.easings
 aliases: []
 displayName: UniT Easings
 description: Animate Unity using easing functions
-repoUrl: https://github.com/frostbun/UniT.Easings
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Easings
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
