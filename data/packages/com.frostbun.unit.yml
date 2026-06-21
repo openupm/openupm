@@ -2,8 +2,8 @@ name: com.frostbun.unit
 aliases: []
 displayName: UniT
 description: A lightweight Unity library for common tasks
-repoUrl: https://github.com/frostbun/UniT
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

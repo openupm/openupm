@@ -2,8 +2,8 @@ name: com.frostbun.unit.extensions
 aliases: []
 displayName: UniT Extensions
 description: Common extension methods for Unity
-repoUrl: https://github.com/frostbun/UniT.Extensions
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Extensions
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

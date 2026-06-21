@@ -2,8 +2,8 @@ name: com.frostbun.unit.logging
 aliases: []
 displayName: UniT Logging
 description: Logger Manager for Unity
-repoUrl: https://github.com/frostbun/UniT.Logging
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Logging
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -2,8 +2,8 @@ name: com.frostbun.unit.ui
 aliases: []
 displayName: UniT UI
 description: UI Manager for Unity
-repoUrl: https://github.com/frostbun/UniT.UI
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.UI
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

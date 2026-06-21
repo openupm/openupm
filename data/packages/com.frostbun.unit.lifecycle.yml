@@ -2,8 +2,8 @@ name: com.frostbun.unit.lifecycle
 aliases: []
 displayName: UniT Lifecycle
 description: Lifecycle Manager for Unity
-repoUrl: https://github.com/frostbun/UniT.Lifecycle
-trackingMode: git
+repoUrl: https://github.com/HNVW/UniT.Lifecycle
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
