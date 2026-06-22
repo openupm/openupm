@@ -1,0 +1,26 @@
+name: com.burakk.unity-editor-mcp
+aliases: []
+displayName: Unity Editor MCP
+description: >-
+  Unity Editor integration with Model Context Protocol (MCP) for AI-assisted
+  development
+repoUrl: 'https://github.com/burakaydinofficial/unity-editor-mcp'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - asset-management
+  - debugging-and-logging
+  - editor-enhancement
+  - integration
+  - testing
+  - utilities
+hunter: burakaydinofficial
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.19.0
+readme: 'main:README.md'
+createdAt: 1782107017937
