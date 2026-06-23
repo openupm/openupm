@@ -12,8 +12,5 @@
     "test": "npm run test:data",
     "test:data": "NODE_ENV=test node --test test/data-packages.js"
   },
-  "license": "BSD 3-Clause",
-  "volta": {
-    "node": "22.19.0"
-  }
+  "license": "BSD 3-Clause"
 }
