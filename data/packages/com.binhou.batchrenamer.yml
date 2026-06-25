@@ -1,0 +1,22 @@
+name: com.binhou.batchrenamer
+aliases: []
+displayName: Batch Renamer
+description: >-
+  A lightweight Unity editor tool for batch renaming objects in Hierarchy or
+  Project views. Supports prefixes, suffixes, numbering padding, alphabetical
+  index, sorting order, and undo function.
+repoUrl: https://github.com/BinhouOuO/binhou-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - utilities
+hunter: BinhouOuO
+gitTagPrefix: rename/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1782374840150
