@@ -3,7 +3,7 @@ aliases: []
 displayName: SaintsField
 description: A Unity plugin for field in inspector
 repoUrl: https://github.com/TylerTemp/SaintsField
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
