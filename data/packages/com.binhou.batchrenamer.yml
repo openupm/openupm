@@ -8,7 +8,7 @@ description: >-
 repoUrl: https://github.com/BinhouOuO/binhou-tools
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT
 image: ''
 topics:
