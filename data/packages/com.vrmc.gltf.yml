@@ -1,7 +1,7 @@
 name: com.vrmc.gltf
 aliases: []
 displayName: UniGLTF
-description: GLTF importer and exporter
+description: glTF 2.0 importer and exporter for Unity.
 repoUrl: 'https://github.com/vrm-c/UniVRM'
 trackingMode: git
 parentRepoUrl: null
@@ -10,7 +10,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
   - modeling
-hunter: esperecyan
+hunter: vrm-c
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: v0.81.0
