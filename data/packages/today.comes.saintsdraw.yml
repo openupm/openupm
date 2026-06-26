@@ -3,7 +3,7 @@ aliases: []
 displayName: SaintsDraw
 description: A Unity plugin for gizmos and LineRenderer drawing in inspector
 repoUrl: https://github.com/TylerTemp/SaintsDraw
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
