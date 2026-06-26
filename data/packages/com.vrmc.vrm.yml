@@ -10,7 +10,7 @@ licenseName: MIT License
 topics:
   - ar-and-vr
   - modeling
-hunter: vrm-c
+hunter: esperecyan
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: v0.81.0
