@@ -3,7 +3,7 @@ aliases: []
 displayName: SaintsHierarchy
 description: Unity Hierarchy enhancement
 repoUrl: https://github.com/TylerTemp/SaintsHierarchy
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
