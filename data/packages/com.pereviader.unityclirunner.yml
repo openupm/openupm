@@ -1,0 +1,24 @@
+name: com.pereviader.unityclirunner
+aliases: []
+displayName: Unity CLI Runner
+description: >-
+  A lightweight, high-performance tool that bridges external command line
+  interfaces (and AI coding agents) with the Unity Editor. It enables sub-second
+  compilation loops, clean test execution, and static method invocations by
+  communicating with a running Unity Editor (or headless background instance)
+  via loopback TCP sockets.
+repoUrl: https://github.com/PereViader/UnityCliRunner
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+hunter: PereViader
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1782514311076
+githubReleaseAssetName: com.pereviader.unityclirunner
