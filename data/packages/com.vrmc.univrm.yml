@@ -1,7 +1,7 @@
 name: com.vrmc.univrm
 aliases: []
-displayName: VRM
-description: Unity package that can import and export VRM format
+displayName: UniVRM VRM 0.x
+description: VRM 0.x importer and exporter for Unity.
 repoUrl: 'https://github.com/vrm-c/UniVRM'
 trackingMode: git
 parentRepoUrl: null

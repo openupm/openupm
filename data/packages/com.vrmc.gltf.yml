@@ -1,7 +1,7 @@
 name: com.vrmc.gltf
 aliases: []
 displayName: UniGLTF
-description: GLTF importer and exporter
+description: glTF 2.0 importer and exporter for Unity.
 repoUrl: 'https://github.com/vrm-c/UniVRM'
 trackingMode: git
 parentRepoUrl: null
