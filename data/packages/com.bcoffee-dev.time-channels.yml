@@ -1,0 +1,21 @@
+name: com.bcoffee-dev.time-channels
+aliases: []
+displayName: Time Channels
+description: >-
+  Modular Time Channel System for Unity — fine-grained control over time flow
+  across systems.
+repoUrl: https://github.com/BcoffeeDev/game-core-time-channels
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: bcoffee0630
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1782548031277
