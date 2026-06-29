@@ -18,5 +18,5 @@ hunter: BinhouOuO
 gitTagPrefix: rename/
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: main:Packages/com.binhou.batchrenamer/README.md
 createdAt: 1782374840150
