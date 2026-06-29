@@ -1,0 +1,20 @@
+name: com.laicasaane.unityeditor-darkmode
+aliases: []
+displayName: UnityEditor Dark Mode
+description: A fully working dark mode mod for Unity Editor on Windows.
+repoUrl: https://github.com/laicasaane/UnityEditor-DarkMode
+trackingMode: githubRelease
+parentRepoUrl: https://github.com/0x7c13/UnityEditor-DarkMode
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/laicasaane/UnityEditor-DarkMode/refs/heads/unity_6_3/imgs/screenshot.jpg
+topics:
+  - editor-enhancement
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: unity_6_3:Packages/com.laicasaane.unityeditor-darkmode/README.md
+createdAt: 1782759351927
