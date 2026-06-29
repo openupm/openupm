@@ -1,0 +1,21 @@
+name: com.laicasaane.bakingsheet
+aliases: []
+displayName: BakingSheet
+description: Easy datasheet management for C# and Unity. Supports Excel, Google Sheet, JSON and CSV format.
+repoUrl: https://github.com/laicasaane/BakingSheet
+trackingMode: githubRelease
+parentRepoUrl: https://github.com/cathei/BakingSheet
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/laicasaane/BakingSheet/4d79e43d4d83c3a5cec02d234795878d27c38735/.github/images/concept.png
+topics:
+  - data-management
+  - integration
+  - utilities
+hunter: laicasaane
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: unity_6_3:README.md
+createdAt: 1782709417861
