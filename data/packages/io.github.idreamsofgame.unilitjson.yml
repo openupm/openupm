@@ -1,0 +1,20 @@
+name: io.github.idreamsofgame.unilitjson
+aliases: []
+displayName: UniLitJson
+description: >-
+  A Unity package to handle conversions from and to JSON (JavaScript Object
+  Notation) strings.
+repoUrl: https://github.com/iDreamsOfGame/UniLitJson
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: iDreamsOfGame
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Assets/UniLitJson/README.md
+createdAt: 1782897347065
