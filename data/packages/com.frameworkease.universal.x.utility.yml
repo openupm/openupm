@@ -1,0 +1,17 @@
+name: com.frameworkease.universal.x.utility
+aliases: []
+displayName: FrameworkEase Universal Utility Extensions
+description: "https://deepwiki.com/frameworkease/Universal.X.Utility"
+repoUrl: https://github.com/frameworkease/Universal.X.Utility
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: Yaoner
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
