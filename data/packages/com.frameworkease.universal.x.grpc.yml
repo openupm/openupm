@@ -1,0 +1,18 @@
+name: com.frameworkease.universal.x.grpc
+aliases: []
+displayName: FrameworkEase Universal gRPC Extensions
+description: "https://deepwiki.com/frameworkease/Universal.X.gRPC"
+repoUrl: https://github.com/frameworkease/Universal.X.gRPC
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: Yaoner
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1782916910849
