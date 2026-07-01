@@ -1,5 +1,5 @@
 name: com.edgegap.unity-sdk
-aliases: []
+aliases: ['com.edgegap.unity-matchmaking-sdk']
 displayName: Edgegap SDK
 description: Get started quickly with Edgegap Matchmaking and Server Browser.
 repoUrl: https://github.com/edgegap/edgegap-unity-sdk
