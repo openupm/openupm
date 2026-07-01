@@ -1,8 +1,8 @@
-name: com.edgegap.unity-matchmaking-sdk
+name: com.edgegap.unity-sdk
 aliases: []
-displayName: Edgegap Matchmaking SDK
-description: Get started quickly with Edgegap Matchmaking Matchmaking.
-repoUrl: https://github.com/edgegap/edgegap-unity-matchmaking-sdk
+displayName: Edgegap SDK
+description: Get started quickly with Edgegap Matchmaking and Server Browser.
+repoUrl: https://github.com/edgegap/edgegap-unity-sdk
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
