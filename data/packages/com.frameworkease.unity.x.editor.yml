@@ -1,0 +1,18 @@
+name: com.frameworkease.unity.x.editor
+aliases: []
+displayName: FrameworkEase Unity Editor Extensions
+description: "https://deepwiki.com/frameworkease/Unity.X.Editor"
+repoUrl: https://github.com/frameworkease/Unity.X.Editor
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ""
+topics:
+  - frameworks
+hunter: Yaoner
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
+readme: master:README.md
+createdAt: 1782965382927
