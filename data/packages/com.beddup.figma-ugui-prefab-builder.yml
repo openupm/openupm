@@ -1,0 +1,22 @@
+name: com.beddup.figma-ugui-prefab-builder
+aliases: []
+displayName: Figma uGUI Prefab Builder
+description: >-
+  Build Unity uGUI prefabs from Figma node data and a declarative prefab
+  hierarchy, with TextMeshPro styling and automatic sprite download and caching.
+repoUrl: https://github.com/beddup/FigmaUGUIPrefabBuilder
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: beddup
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1782973067230
