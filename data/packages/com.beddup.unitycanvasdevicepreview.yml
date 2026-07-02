@@ -1,0 +1,22 @@
+name: com.beddup.unitycanvasdevicepreview
+aliases: []
+displayName: Canvas Device Preview
+description: >-
+  Preview Unity UI canvases across multiple device resolutions with overlays,
+  safe-area helpers, and quick UI adjustment tools.
+repoUrl: https://github.com/beddup/UnityCanvasDevicePreview
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - utilities
+hunter: beddup
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1782970924189
