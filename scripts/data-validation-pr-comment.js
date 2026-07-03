@@ -101,11 +101,50 @@ function parseArgs(argv) {
 }
 
 function parseValidationIssues(output) {
-  return output
+  const lines = output
     .split(/\r?\n/)
+    .map(stripGitHubLogPrefix)
     .map((line) => line.trim())
-    .map(parseValidationIssueLine)
-    .filter(Boolean)
+    .filter(Boolean);
+  const issues = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const directIssue = parseValidationIssueLine(lines[index]);
+    if (directIssue) {
+      issues.push(directIssue);
+      continue;
+    }
+
+    const metadataStart = lines[index].match(
+      /^(?:(?<path>packages\/\S+\.yml):\s*)?(?<metadataPath>packages\/\S+\.yml) metadata should be valid: \[$/
+    );
+    if (!metadataStart) continue;
+
+    const block = [lines[index]];
+    for (let end = index + 1; end < lines.length; end += 1) {
+      block.push(lines[end]);
+      if (lines[end] === "] [package-metadata-invalid]") {
+        const fields = metadataRequiredFields.filter((candidate) =>
+          block.some((line) => new RegExp(`"PATH",\\s*"${candidate}"`, "i").test(line)) ||
+            block.some((line) => new RegExp(`"${candidate}"`, "i").test(line))
+        );
+        issues.push({
+          path: metadataStart.groups.path || metadataStart.groups.metadataPath,
+          message: `metadata should be valid: ${fields.join(", ") || "schema"}: Required`,
+          metadataFields: fields,
+          code: "package-metadata-invalid",
+        });
+        index = end;
+        break;
+      }
+    }
+  }
+
+  return issues;
+}
+
+function stripGitHubLogPrefix(line) {
+  return line.replace(/^[^\t]+\t[^\t]+\t\d{4}-\d{2}-\d{2}T\S+Z\s*/, "");
 }
 
 function parseValidationIssueLine(line) {
@@ -145,14 +184,24 @@ function parseValidationIssueLine(line) {
 
 function metadataGuidance(issue) {
   if (issue.code !== "package-metadata-invalid") return null;
-  const field = metadataRequiredFields.find((candidate) =>
-    new RegExp(`\\b${candidate}\\b`, "i").test(issue.message)
-  );
-  if (!field) return null;
+  const fields =
+    issue.metadataFields ||
+    metadataRequiredFields.filter((candidate) =>
+      new RegExp(`\\b${candidate}\\b`, "i").test(issue.message)
+    );
+  if (fields.length === 0) return null;
+  if (fields.length === 1) {
+    const [field] = fields;
+    return {
+      title: `Fix package metadata field \`${field}\``,
+      guidance: `The package YAML is missing or has an invalid \`${field}\` value. Please update that field in the submitted package file.`,
+      duplicateTerms: [field.toLowerCase()],
+    };
+  }
   return {
-    title: `Fix package metadata field \`${field}\``,
-    guidance: `The package YAML is missing or has an invalid \`${field}\` value. Please update that field in the submitted package file.`,
-    duplicateTerms: [field.toLowerCase()],
+    title: "Fix required package metadata fields",
+    guidance: `The package YAML is missing or has invalid values for ${fields.map((field) => `\`${field}\``).join(", ")}. Please update those fields in the submitted package file.`,
+    duplicateTerms: fields.map((field) => field.toLowerCase()),
   };
 }
 

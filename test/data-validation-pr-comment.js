@@ -43,6 +43,57 @@ describe("data-validation-pr-comment", function() {
     ]);
   });
 
+  it("parses GitHub log-prefixed validator issue lines", function() {
+    const issues = parseValidationIssues(
+      "Data validation\tUNKNOWN STEP\t2026-06-26T12:51:58.4703138Z         packages/com.woo.iframework.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]"
+    );
+
+    assert.deepEqual(issues, [
+      {
+        path: "packages/com.woo.iframework.yml",
+        message: "licenseSpdxId must not be an empty string",
+        code: "package-license-spdx-id-empty",
+      },
+    ]);
+  });
+
+  it("parses GitHub log-prefixed multi-line metadata validator issues", function() {
+    const issues = parseValidationIssues(
+      [
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2120147Z         packages/com.visionpush.unity.yml: packages/com.visionpush.unity.yml metadata should be valid: [",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2124107Z             \"message\": \"Required\"",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2126803Z               \"createdAt\"",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2131577Z         ] [package-metadata-invalid]",
+      ].join("\n")
+    );
+
+    assert.deepEqual(issues, [
+      {
+        path: "packages/com.visionpush.unity.yml",
+        message: "metadata should be valid: createdAt: Required",
+        metadataFields: ["createdAt"],
+        code: "package-metadata-invalid",
+      },
+    ]);
+  });
+
+  it("builds multi-field metadata guidance from GitHub log-prefixed validator issues", function() {
+    const issues = parseValidationIssues(
+      [
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2120147Z         packages/com.visionpush.unity.yml: packages/com.visionpush.unity.yml metadata should be valid: [",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2124107Z             \"message\": \"Required\"",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2126803Z               \"aliases\"",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2126803Z               \"createdAt\"",
+        "Data validation\tUNKNOWN STEP\t2026-06-09T11:10:18.2131577Z         ] [package-metadata-invalid]",
+      ].join("\n")
+    );
+
+    const body = buildCommentBody(issues);
+
+    assert.ok(body.includes("Fix required package metadata fields"));
+    assert.ok(body.includes("`aliases`, `createdAt`"));
+  });
+
   it("builds one contributor-facing comment for common package fixes", function() {
     const issues = parseValidationIssues(
       [
