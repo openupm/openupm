@@ -10,7 +10,7 @@
   "repository": "https://github.com/openupm/openupm.git",
   "scripts": {
     "test": "npm run test:data",
-    "test:data": "NODE_ENV=test node --test test/data-packages.js"
+    "test:data": "NODE_ENV=test node --test test/*.js"
   },
   "license": "BSD 3-Clause"
 }
