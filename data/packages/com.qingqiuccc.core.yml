@@ -1,0 +1,18 @@
+name: com.qingqiuccc.core
+aliases: []
+displayName: Core
+description: 核心模块
+repoUrl: https://github.com/qingqiuCcc/MyCustomUPM
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: qingqiuCcc
+gitTagPrefix: core/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1783065909759
