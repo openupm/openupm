@@ -6,7 +6,7 @@ repoUrl: https://github.com/improck/choose-your-own-inspector
 trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
-licenseName: BSD-3-Clause
+licenseName: 'BSD 3-Clause "New" or "Revised" License'
 image: ''
 topics:
   - editor-enhancement
