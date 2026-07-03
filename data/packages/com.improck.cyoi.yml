@@ -5,7 +5,7 @@ description: An Editor List for Unity
 repoUrl: https://github.com/improck/choose-your-own-inspector
 trackingMode: githubRelease
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: BSD-3-Clause
 licenseName: BSD-3-Clause
 image: ''
 topics:
