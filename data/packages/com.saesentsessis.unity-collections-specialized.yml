@@ -1,0 +1,22 @@
+name: com.saesentsessis.unity-collections-specialized
+aliases: []
+displayName: Unity Collections Specialized
+description: >-
+  Specialized collection types with stable index handles for Unity.Collections
+  and Burst, including StableIndexList, NativeStableIndexList, and
+  UnsafeStableIndexList.
+repoUrl: https://github.com/Saesentsessis/Unity-Collections-Specialized
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.1
+readme: main:Unity-Collections-Specialized/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.unity-collections-specialized-
+createdAt: 1783116462779
