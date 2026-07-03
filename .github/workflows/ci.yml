@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, 'skip ci') }}
     name: Data validation
+    permissions:
+      contents: read
+      issues: write
     steps:
     - uses: actions/checkout@v4
     - name: checkout openupm-next validator source
@@ -35,7 +38,22 @@ jobs:
       run: npm run build -- --filter @openupm/local-data
       working-directory: tmp-openupm-next
     - name: npm test
-      run: OPENUPM_NEXT_PATH=tmp-openupm-next npm test
+      id: data_validation
+      run: |
+        set +e
+        OPENUPM_NEXT_PATH=tmp-openupm-next npm test > data-validation-output.txt 2>&1
+        status=$?
+        cat data-validation-output.txt
+        exit "$status"
+    - name: Comment on data validation failures
+      if: ${{ failure() && steps.data_validation.outcome == 'failure' && github.event_name == 'pull_request' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        node scripts/data-validation-pr-comment.js \
+          --validation-output data-validation-output.txt \
+          --repo "$GITHUB_REPOSITORY" \
+          --issue "${{ github.event.pull_request.number }}"
 
   build-website:
     runs-on: ubuntu-latest
