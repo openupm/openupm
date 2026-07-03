@@ -19,6 +19,7 @@ describe("data-validation-pr-comment", function() {
     const issues = parseValidationIssues(
       [
         "packages/com.example.tool.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]",
+        "packages/com.example.tool.yml metadata should be valid: createdAt: Required [package-metadata-invalid]",
         "topics.yml should be valid YAML: bad indentation [top-level-yaml-invalid]",
       ].join("\n")
     );
@@ -28,6 +29,11 @@ describe("data-validation-pr-comment", function() {
         path: "packages/com.example.tool.yml",
         message: "licenseSpdxId must not be an empty string",
         code: "package-license-spdx-id-empty",
+      },
+      {
+        path: "packages/com.example.tool.yml",
+        message: "metadata should be valid: createdAt: Required",
+        code: "package-metadata-invalid",
       },
       {
         path: undefined,
