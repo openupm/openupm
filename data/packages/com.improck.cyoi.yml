@@ -1,0 +1,19 @@
+name: com.improck.cyoi
+aliases: []
+displayName: Imp Rock - Choose Your Own Inspector
+description: An Editor List for Unity
+repoUrl: https://github.com/improck/choose-your-own-inspector
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: BSD-3-Clause
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: improck
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1783099036832
