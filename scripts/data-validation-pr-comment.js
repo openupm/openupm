@@ -104,17 +104,43 @@ function parseValidationIssues(output) {
   return output
     .split(/\r?\n/)
     .map((line) => line.trim())
-    .map((line) =>
-      line.match(
-        /^(?:(?<path>packages\/[^:]+|[A-Za-z0-9_.-]+\.ya?ml|packages): )?(?<message>.+) \[(?<code>[a-z0-9-]+)\]$/
-      )
-    )
+    .map(parseValidationIssueLine)
     .filter(Boolean)
-    .map((match) => ({
-      path: match.groups.path,
-      message: match.groups.message,
-      code: match.groups.code,
-    }));
+}
+
+function parseValidationIssueLine(line) {
+  const match = line.match(/^(?<message>.+) \[(?<code>[a-z0-9-]+)\]$/);
+  if (!match) return null;
+
+  const issue = {
+    path: undefined,
+    message: match.groups.message,
+    code: match.groups.code,
+  };
+
+  const metadataMatch = issue.message.match(
+    /^(?<path>packages\/\S+\.yml) metadata should be valid: (?<detail>.+)$/
+  );
+  if (metadataMatch) {
+    return {
+      ...issue,
+      path: metadataMatch.groups.path,
+      message: `metadata should be valid: ${metadataMatch.groups.detail}`,
+    };
+  }
+
+  const pathMatch = issue.message.match(
+    /^(?<path>packages\/\S+|[A-Za-z0-9_.-]+\.ya?ml|packages): (?<detail>.+)$/
+  );
+  if (pathMatch) {
+    return {
+      ...issue,
+      path: pathMatch.groups.path,
+      message: pathMatch.groups.detail,
+    };
+  }
+
+  return issue;
 }
 
 function metadataGuidance(issue) {
@@ -276,7 +302,7 @@ async function run(argv = process.argv) {
 
   if (args.dryRun || !args.repo || !args.issue) {
     if (body) console.log(body);
-    else console.log("No contributor-fixable data validation comment generated.");
+    else console.log("No data validation comment generated.");
     return;
   }
 
