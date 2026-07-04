@@ -1,0 +1,24 @@
+name: com.suvitruf.box3d
+aliases: []
+displayName: Box3d for Unity
+description: >-
+  Unity bindings for Box3d, Erin Catto's 3D physics engine. Full C API coverage
+  via P/Invoke: rigid bodies, six shape types, nine joint types, queries,
+  contact/sensor events, a character mover toolkit and debug drawing — with
+  deterministic simulation and strong multithreaded performance.
+repoUrl: https://github.com/Suvitruf/box3d-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: https://projects.cdn.aapanasik.com/box3d-unity/box3d-unity.png
+topics:
+  - level-design
+  - procedural-generation
+  - physics
+hunter: Suvitruf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1783173856642
