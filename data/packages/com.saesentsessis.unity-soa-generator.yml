@@ -1,0 +1,20 @@
+name: com.saesentsessis.unity-soa-generator
+aliases: []
+displayName: Unity SoA Generator
+description: >-
+  Unity HPC# Structure of Arrays (SoA) Source Generator.
+repoUrl: https://github.com/Saesentsessis/Unity-SoA-Generator
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:Unity-SoA-Generator/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.unity-soa-generator-
+createdAt: 1783133989763
