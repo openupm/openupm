@@ -1,0 +1,21 @@
+name: com.pidan-workshop.unity-zed
+aliases: []
+displayName: Zed Editor
+description: >-
+  Code editor integration for supporting Zed as code editor for Unity. Adds
+  support for generating csproj/sln files, auto discovery of installations, and
+  script opening with line/column navigation.
+repoUrl: https://github.com/Pidan-Workshop/UnityZedIntegration
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: Cloud-W
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.pidan-workshop.unity-zed/README.md
+createdAt: 1783251904868
