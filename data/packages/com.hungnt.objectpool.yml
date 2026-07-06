@@ -1,0 +1,16 @@
+name: com.hungnt.objectpool
+version: 1.0.0
+aliases: []
+displayName: HungNT Object Pool
+description: 'Lightweight GameObject pooling service (HungNT.ObjectPool, IService): Spawn/Despawn with delay, prewarm, capacity limit, IPoolable callbacks, auto-pool per prefab, scene-scoped or persistent pools.'
+repoUrl: 'https://github.com/HungNT-UPM/com.hungnt.objectpool'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: NgTienHungg
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1783334833656
