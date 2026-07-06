@@ -276,11 +276,11 @@ describe("data-validation-pr-comment", function() {
     assert.equal(JSON.parse(calls[1].body).body, `${marker}\nbody`);
   });
 
-  it("updates one bot marker comment and deletes duplicate bot markers", async function() {
+  it("updates one marker comment and deletes duplicate markers", async function() {
     const calls = mockFetch([
       {
         response: [
-          { id: 1, body: `${marker}\nold`, user: { type: "Bot" } },
+          { id: 1, body: `${marker}\nold`, user: { type: "User" } },
           { id: 2, body: `${marker}\nduplicate`, user: { type: "Bot" } },
         ],
       },
@@ -297,9 +297,9 @@ describe("data-validation-pr-comment", function() {
     assert.equal(calls[2].url, "https://api.github.com/repos/openupm/openupm/issues/comments/2");
   });
 
-  it("deletes stale bot marker comments when no supported guidance remains", async function() {
+  it("deletes stale marker comments when no supported guidance remains", async function() {
     const calls = mockFetch([
-      { response: [{ id: 1, body: `${marker}\nold`, user: { type: "Bot" } }] },
+      { response: [{ id: 1, body: `${marker}\nold`, user: { type: "User" } }] },
       { status: 204, response: null },
     ]);
 
@@ -309,9 +309,9 @@ describe("data-validation-pr-comment", function() {
     assert.equal(calls[1].method, "DELETE");
   });
 
-  it("does not update or delete a human marker comment", async function() {
+  it("creates a new comment when no marker comment exists", async function() {
     const calls = mockFetch([
-      { response: [{ id: 1, body: `${marker}\nhuman note`, user: { type: "User" } }] },
+      { response: [{ id: 1, body: "human note", user: { type: "User" } }] },
       { response: { id: 2 } },
     ]);
 

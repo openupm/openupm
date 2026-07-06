@@ -312,9 +312,7 @@ async function listComments(repo, issue, token) {
 async function upsertComment(repo, issue, token, body) {
   const comments = await listComments(repo, issue, token);
   const markerComments = comments.filter((comment) =>
-    String(comment.body || "").includes(marker) &&
-    comment.user &&
-    comment.user.type === "Bot"
+    String(comment.body || "").includes(marker)
   );
 
   if (!body) {
