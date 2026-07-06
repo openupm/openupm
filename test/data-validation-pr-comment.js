@@ -3,6 +3,7 @@ const { afterEach, describe, it } = require("node:test");
 
 const {
   buildCommentBody,
+  formatValidationDetail,
   marker,
   parseValidationIssues,
   upsertComment,
@@ -107,10 +108,13 @@ describe("data-validation-pr-comment", function() {
     const body = buildCommentBody(issues);
 
     assert.ok(body.includes(marker));
+    assert.ok(body.includes("Data validation found package metadata issues that can be fixed in this PR:"));
+    assert.equal(body.includes("look contributor-fixable"), false);
     assert.ok(body.includes("Fill in `licenseSpdxId`"));
     assert.ok(body.includes("Use an existing topic slug"));
     assert.ok(body.includes("Make the filename match `name`"));
     assert.ok(body.includes("Fix package metadata field `createdAt`"));
+    assert.ok(body.includes("(validation error code: `package-license-spdx-id-empty`)"));
   });
 
   it("covers every explicitly supported contributor-fixable validator code", function() {
@@ -130,8 +134,9 @@ describe("data-validation-pr-comment", function() {
     const body = buildCommentBody(parseValidationIssues(supportedLines.join("\n")));
 
     assert.ok(body.includes("Fill in `licenseSpdxId`"));
-    assert.ok(body.includes("Use a valid SPDX license id"));
+    assert.ok(body.includes("Use a valid SPDX license ID"));
     assert.ok(body.includes("Match `licenseName` to `licenseSpdxId`"));
+    assert.ok(body.includes("https://spdx.org/licenses/"));
     assert.ok(body.includes("Use an existing topic slug"));
     assert.ok(body.includes("Choose a package name outside blocked scopes"));
     assert.ok(body.includes("Make the filename match `name`"));
@@ -185,6 +190,19 @@ describe("data-validation-pr-comment", function() {
 
     assert.ok(body.includes("does not have specific guidance"));
     assert.ok(body.includes("Data validation` CI report"));
+  });
+
+  it("formats SPDX license mismatch details with quoted values and a labeled CI code", function() {
+    const [issue] = parseValidationIssues(
+      "packages/com.example.tool.yml: licenseName should be MIT License for licenseSpdxId MIT [package-license-name-spdx-mismatch]"
+    );
+
+    const detail = formatValidationDetail(issue);
+
+    assert.equal(
+      detail,
+      "`licenseName` should be `MIT License` for `licenseSpdxId` `MIT` (validation error code: `package-license-name-spdx-mismatch`)"
+    );
   });
 
   it("does not duplicate equivalent human guidance", function() {

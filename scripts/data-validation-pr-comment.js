@@ -8,19 +8,19 @@ const fixableIssues = {
   "package-license-spdx-id-empty": {
     title: "Fill in `licenseSpdxId` or set it to `null`",
     guidance:
-      "`licenseSpdxId` cannot be an empty string. Use a valid SPDX id such as `MIT`, or use `null` for a custom/non-SPDX license.",
+      "`licenseSpdxId` cannot be an empty string. Use a valid SPDX license ID such as `MIT`, or use `null` for a custom/non-SPDX license. You can find SPDX license IDs and canonical names in the [SPDX License List](https://spdx.org/licenses/).",
     duplicateTerms: ["licensespdxid", "empty string"],
   },
   "package-license-spdx-id-invalid": {
-    title: "Use a valid SPDX license id",
+    title: "Use a valid SPDX license ID",
     guidance:
-      "`licenseSpdxId` must match an SPDX license id, for example `MIT`, `Apache-2.0`, or `BSD-3-Clause`.",
+      "`licenseSpdxId` must match an SPDX license ID, for example `MIT`, `Apache-2.0`, or `BSD-3-Clause`. You can find SPDX license IDs and canonical names in the [SPDX License List](https://spdx.org/licenses/).",
     duplicateTerms: ["licensespdxid", "spdx"],
   },
   "package-license-name-spdx-mismatch": {
     title: "Match `licenseName` to `licenseSpdxId`",
     guidance:
-      "When `licenseSpdxId` is set, `licenseName` must use the canonical SPDX license name reported by validation.",
+      "When `licenseSpdxId` is set, `licenseName` must use the canonical SPDX license name for that ID. You can find SPDX license IDs and canonical names in the [SPDX License List](https://spdx.org/licenses/).",
     duplicateTerms: ["licensename", "licensespdxid"],
   },
   "package-topic-invalid": {
@@ -238,7 +238,7 @@ function buildCommentBody(issues, comments = []) {
   const lines = [
     marker,
     fixable.length > 0
-      ? "Data validation found package metadata issues that look contributor-fixable:"
+      ? "Data validation found package metadata issues that can be fixed in this PR:"
       : "Data validation failed, but this bot does not have specific guidance for the reported reason.",
     "",
   ];
@@ -246,7 +246,7 @@ function buildCommentBody(issues, comments = []) {
   for (const { issue, fix } of fixable.slice(0, 8)) {
     const location = issue.path ? ` in \`${issue.path}\`` : "";
     lines.push(`- ${fix.title}${location}: ${fix.guidance}`);
-    lines.push(`  Validation detail: ${issue.message} \`${issue.code}\``);
+    lines.push(`  Validation detail: ${formatValidationDetail(issue)}`);
   }
 
   if (fixable.length > 8) {
@@ -263,6 +263,23 @@ function buildCommentBody(issues, comments = []) {
   lines.push("");
   lines.push("Please update the package data and push another commit to rerun validation.");
   return lines.join("\n");
+}
+
+function formatValidationDetail(issue) {
+  const detail = formatValidationMessage(issue);
+  return `${detail} (validation error code: \`${issue.code}\`)`;
+}
+
+function formatValidationMessage(issue) {
+  if (issue.code === "package-license-name-spdx-mismatch") {
+    const match = issue.message.match(
+      /^licenseName should be (?<licenseName>.+) for licenseSpdxId (?<licenseSpdxId>\S+)$/
+    );
+    if (match) {
+      return `\`licenseName\` should be \`${match.groups.licenseName}\` for \`licenseSpdxId\` \`${match.groups.licenseSpdxId}\``;
+    }
+  }
+  return issue.message;
 }
 
 async function githubRequest(method, path, token, body) {
@@ -370,6 +387,7 @@ if (require.main === module) {
 
 module.exports = {
   buildCommentBody,
+  formatValidationDetail,
   marker,
   parseValidationIssues,
   upsertComment,
