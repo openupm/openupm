@@ -73,7 +73,7 @@ jobs:
       - name: Comment on data validation failures
         if: ${{ steps.pull_request.outputs.found == 'true' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_DISPATCH_ACCESS_TOKEN }}
           PR_NUMBER: ${{ steps.pull_request.outputs.number }}
         run: |
           set -euo pipefail
