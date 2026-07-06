@@ -15,7 +15,6 @@ jobs:
     name: Data validation
     permissions:
       contents: read
-      issues: write
     steps:
     - uses: actions/checkout@v4
     - name: checkout openupm-next validator source
@@ -45,15 +44,14 @@ jobs:
         status=$?
         cat data-validation-output.txt
         exit "$status"
-    - name: Comment on data validation failures
+    - name: Upload data validation output
       if: ${{ failure() && steps.data_validation.outcome == 'failure' && github.event_name == 'pull_request' }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        node scripts/data-validation-pr-comment.js \
-          --validation-output data-validation-output.txt \
-          --repo "$GITHUB_REPOSITORY" \
-          --issue "${{ github.event.pull_request.number }}"
+      uses: actions/upload-artifact@v4
+      with:
+        name: data-validation-output
+        path: data-validation-output.txt
+        if-no-files-found: error
+        retention-days: 7
 
   build-website:
     runs-on: ubuntu-latest

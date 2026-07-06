@@ -1,0 +1,25 @@
+name: com.sinanata.designsystem
+aliases: []
+displayName: Design System
+description: >-
+  A drop-in design system for Unity 6 UI Toolkit (UIDocument/PanelRenderer +
+  UXML + USS). Tokens, components, icons, mobile responsiveness, and a runtime
+  helper — all themed dark, all keyboard-and-touch-ready, all editable from one
+  stylesheet.
+repoUrl: https://github.com/sinanata/unity-ui-document-design-system
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/sinanata/unity-ui-document-design-system/refs/heads/main/docs/screenshots/showcase.png
+topics:
+  - ar-and-vr
+  - gui
+  - mobile
+hunter: sinanata
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1783346042769
