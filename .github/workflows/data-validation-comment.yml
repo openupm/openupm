@@ -1,0 +1,62 @@
+name: Data validation comment
+
+on:
+  workflow_run:
+    workflows:
+      - CI
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  comment:
+    name: Comment on data validation failures
+    runs-on: ubuntu-latest
+    if: >-
+      ${{
+        github.event.workflow_run.event == 'pull_request' &&
+        github.event.workflow_run.conclusion == 'failure' &&
+        github.event.workflow_run.pull_requests[0]
+      }}
+    permissions:
+      actions: read
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: set node.js 22
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: Download data validation output
+        id: validation_output
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          mkdir -p data-validation-artifact
+          if gh run download "$RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" \
+            --name data-validation-output \
+            --dir data-validation-artifact; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment on data validation failures
+        if: ${{ steps.validation_output.outputs.found == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+        run: |
+          set -euo pipefail
+          node scripts/data-validation-pr-comment.js \
+            --validation-output data-validation-artifact/data-validation-output.txt \
+            --repo "$GITHUB_REPOSITORY" \
+            --issue "$PR_NUMBER"
