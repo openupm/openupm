@@ -1,0 +1,18 @@
+name: com.timbojimbo.sequencer
+aliases: []
+displayName: Sequencer
+description: An extensible timeline-based sequencing tool for Unity.
+repoUrl: https://github.com/Timbo-Jimbo/Sequencer
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - animation
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1783297492806
