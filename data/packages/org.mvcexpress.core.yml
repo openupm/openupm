@@ -1,0 +1,23 @@
+name: org.mvcexpress.core
+aliases: []
+displayName: mvcExpress
+description: >-
+  Lightweight MVC framework for Unity focusing on performance and ease of use.
+  Includes dependency injection, messaging, and a modular architecture.
+repoUrl: https://github.com/MindScriptAct/mvcExpress-framework-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/MindScriptAct/mvcExpress.org/b3fae08ca2b87c6a1d98ce4f7c407ed4bef1cb56/images/mvcExpress-logo-600.png
+topics:
+  - frameworks
+  - code-generation
+  - editor-enhancement
+hunter: MindScriptAct
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.9.2
+readme: main:Packages/org.mvcexpress.core/README.md
+createdAt: 1783326621770
