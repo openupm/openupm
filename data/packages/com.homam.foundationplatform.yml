@@ -1,0 +1,26 @@
+name: com.homam.foundationplatform
+aliases: []
+displayName: Foundation Platform
+description: >-
+  Core foundation layer for the HOMAM project: attributes, messaging/event bus,
+  patterns, extensions, gizmos, identity, coroutines, DebugX console, framework
+  inspector, and shared editor tooling. Leaf dependency for all gameplay
+  frameworks.
+repoUrl: https://github.com/wajahatdeveloper/FoundationPlatform
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - debugging-and-logging
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: wajahatdeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1783405543698
