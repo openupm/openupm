@@ -1,0 +1,25 @@
+name: com.homam.uiwidgets
+aliases: []
+displayName: UI Widgets
+description: >-
+  General-purpose Unity UGUI widget library: modal dialogs, virtualized scroll
+  lists, enhanced buttons (ButtonX), context menus, tabs, sliders, card UI,
+  tooltips, toasts, procedural graphic primitives, UI effects, and an in-house
+  layout engine (LayoutX). Built on FoundationPlatform.
+repoUrl: https://github.com/wajahatdeveloper/UIWidgets
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+  - gui
+  - utilities
+hunter: wajahatdeveloper
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1783408757802
