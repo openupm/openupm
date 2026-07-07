@@ -14,9 +14,6 @@ licenseName: MIT License
 image: ''
 topics:
   - frameworks
-  - ecs
-  - unity
-  - job-system
 hunter: NormanYUE
 gitTagPrefix: 'v'
 gitTagIgnore: ''
