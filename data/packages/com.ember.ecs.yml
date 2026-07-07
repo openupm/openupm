@@ -1,0 +1,22 @@
+name: com.ember.ecs
+aliases: []
+displayName: Ember ECS
+description: >-
+  High-performance archetype-based ECS framework for Unity. SOA chunk storage,
+  parallel job scheduling with automatic dependency resolution, source-generated
+  component registration, zero-allocation hot paths, and integrated MCP
+  diagnostics for AI-assisted debugging and profiling.
+repoUrl: https://github.com/NormanYUE/Ember-Framework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: NormanYUE
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README_EN.md
+createdAt: 1783397968052
