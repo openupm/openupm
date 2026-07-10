@@ -1,0 +1,18 @@
+name: jp.nobnak.gpu_image_statistics
+aliases: []
+displayName: GPU Image Statistics
+description: GPU Image Statistics library for Unity
+repoUrl: https://github.com/nobnak/GPUImageStatistics
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/jp.nobnak.gpu_image_statistics/README.md
+createdAt: 1783673305632
