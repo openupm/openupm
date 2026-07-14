@@ -1,0 +1,24 @@
+name: com.jelewow.unity-sheets-localization
+aliases: []
+displayName: Sheets Localization Sync
+description: >-
+  Editor tool that imports and synchronizes localized strings and audio from
+  Google Sheets and Google Drive into Unity Localization string/asset tables,
+  with optional Addressables group assignment. Supports API key and
+  service-account authentication and a pluggable, ScriptableObject-based parsing
+  pipeline.
+repoUrl: https://github.com/Jelewow/unity-google-localization
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - localization
+hunter: jelewow
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784033920756
