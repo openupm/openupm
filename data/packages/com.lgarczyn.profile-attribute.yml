@@ -1,0 +1,22 @@
+name: com.lgarczyn.profile-attribute
+aliases: []
+displayName: Profile Attribute
+description: >-
+  Weaves a Unity ProfilerMarker around any method tagged [Profile], at compile
+  time, via an ILPostProcessor. The marker is gated so it costs nothing while
+  nothing is recording, and release builds are left untouched.
+repoUrl: https://github.com/lgarczyn/UnityProfileAttribute
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - profiling
+  - code-generation
+hunter: lgarczyn
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784041603780
