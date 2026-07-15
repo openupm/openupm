@@ -1,0 +1,21 @@
+name: com.appstack.unity-sdk
+aliases: []
+displayName: Appstack SDK
+description: Unity wrapper for the Appstack native attribution SDKs on iOS and Android.
+repoUrl: https://github.com/appstack-tech/appstack-unity-sdk
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/appstack-tech/appstack-unity-sdk/main/.openupm/cover.png
+topics:
+  - integration
+  - mobile
+  - services
+hunter: jsantelys-as
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784129929903
