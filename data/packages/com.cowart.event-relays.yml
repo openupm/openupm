@@ -1,0 +1,18 @@
+name: com.cowart.event-relays
+aliases: []
+displayName: Event Relays
+description: 提供碰撞、触发器和指针事件转发组件，便于通过统一入口处理交互事件。
+repoUrl: https://github.com/liuyan7669/unity-event-relays
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784187473674
