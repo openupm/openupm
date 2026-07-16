@@ -8,7 +8,7 @@ description: >-
   service-account authentication and a pluggable, ScriptableObject-based parsing
   pipeline.
 repoUrl: https://github.com/Jelewow/unity-google-localization
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -22,3 +22,4 @@ gitTagIgnore: ''
 minVersion: ''
 readme: main:README.md
 createdAt: 1784033920756
+
