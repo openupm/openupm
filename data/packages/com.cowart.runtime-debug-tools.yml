@@ -1,0 +1,22 @@
+name: com.cowart.runtime-debug-tools
+aliases: []
+displayName: Runtime Debug Tools
+description: >-
+  提供常用的运行时调试辅助功能，包括通过快捷键临时加速或恢复游戏时间，以及检查当前打开的 UI、查看交互状态、定位并快捷触发 Button、Toggle
+  和自定义交互组件，提升界面流程与功能测试效率。
+repoUrl: https://github.com/liuyan7669/unity-runtime-debug-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - gui
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.1
+readme: main:README.md
+createdAt: 1784179791037
