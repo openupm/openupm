@@ -1,0 +1,18 @@
+name: com.cowart.navigation-marker
+aliases: []
+displayName: Navigation Marker
+description: 基于 Unity NavMesh 路径绘制带滚动箭头效果的运行时导航线。
+repoUrl: https://github.com/liuyan7669/unity-navigation-marker
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.1
+readme: main:README.md
+createdAt: 1784185796418
