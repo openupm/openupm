@@ -1,0 +1,19 @@
+name: com.cowart.animation-tools
+aliases: []
+displayName: Animation Tools
+description: 提供 Animator 播放控制、动画事件回调和 Humanoid 骨骼节点管理功能。
+repoUrl: https://github.com/liuyan7669/unity-animation-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784188316231
