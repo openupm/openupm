@@ -1,13 +1,14 @@
 name: com.playsmart.uitoolkit-extensions
-displayName: Playsmart UI Toolkit Extensions
-description: Permissive, performance-safe custom VisualElements and styling extensions for Unity UI Toolkit (including Gap, Skew, and SkewButton).
-repo: 'https://github.com/Drwuu/playsmart-unity-uitoolkit-extensions'
-gitTagPrefix: ''
-gitTagIgnore: ''
-minVersion: ''
-image: null
+aliases: []
+repoUrl: https://github.com/Drwuu/playsmart-unity-uitoolkit-extensions
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+trackingMode: git
 topics:
   - gui
   - utilities
-license: MIT
-createdAt: 1784286685000
+hunter: Drwuu
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: ""
