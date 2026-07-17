@@ -1,0 +1,20 @@
+name: com.cowart.video-player
+aliases: []
+displayName: Video Player
+description: 提供基于 Unity VideoPlayer 和 UGUI 的视频播放、进度、音量及全屏控制组件。
+repoUrl: https://github.com/liuyan7669/unity-video-player
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - utilities
+  - video
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784258084908
