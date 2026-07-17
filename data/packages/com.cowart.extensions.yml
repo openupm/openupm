@@ -1,0 +1,18 @@
+name: com.cowart.extensions
+aliases: []
+displayName: Extensions
+description: 提供常用的集合、字符串、Unity 对象和 UI 布局扩展方法。
+repoUrl: https://github.com/liuyan7669/unity-extensions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784251480206
