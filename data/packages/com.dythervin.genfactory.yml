@@ -1,0 +1,22 @@
+name: com.dythervin.genfactory
+aliases: []
+displayName: GenFactory
+description: >-
+  Source-generated DI factories. [GenerateFactory] emits an
+  interface/implementation factory pair per decorated class plus a DI-agnostic
+  registry, with generated bridges for VContainer,
+  Microsoft.Extensions.DependencyInjection and Zenject.
+repoUrl: https://github.com/dythervin/GenFactory
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+hunter: dythervin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784401699319
