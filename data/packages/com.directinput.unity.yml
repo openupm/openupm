@@ -1,0 +1,19 @@
+name: com.directinput.unity
+aliases: []
+displayName: DirectInput
+description: A native DirectInput plugin to expose DirectX Input & ForceFeedback for Unity
+repoUrl: https://github.com/imDanoush/Unity-DirectInput
+trackingMode: git
+parentRepoUrl: https://github.com/ATG-Simulator/Unity-DirectInput
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0 only
+image: ''
+topics:
+  - input-management
+  - integration
+hunter: imDanoush
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.1
+readme: main:README.md
+createdAt: 1784486950356
