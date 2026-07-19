@@ -6,7 +6,7 @@ repoUrl: https://github.com/imDanoush/Unity-DirectInput
 trackingMode: git
 parentRepoUrl: https://github.com/ATG-Simulator/Unity-DirectInput
 licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: ''
 topics:
   - input-management
