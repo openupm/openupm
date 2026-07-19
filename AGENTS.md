@@ -53,7 +53,7 @@ Before creating GitHub issues or opening PRs that manipulate package data, read 
 
 Treat tokens and deploy settings as sensitive. Do not introduce secrets into tracked files; prefer environment variables or ignored local configuration.
 
-# Pull Request Delivery Workflow
+## Pull Request Delivery Workflow
 
 Deliver repository changes through pull requests by default, regardless of
 size. Do not make changes directly in the main checkout unless the user
