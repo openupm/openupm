@@ -1,0 +1,22 @@
+name: com.voyageforge.netlink
+aliases: []
+displayName: NetLink
+description: |-
+  可替换协议的二进制消息编解码框架。
+  - 双字节起止符默认协议
+  - 泛型 Payload + 回调注册
+  - FrameCodec/BodyCodec 可替换组件
+repoUrl: https://github.com/VoyageForge/NetLink
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - network
+hunter: yunshu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784518600262
