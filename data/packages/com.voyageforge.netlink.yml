@@ -9,7 +9,7 @@ description: |-
 repoUrl: https://github.com/VoyageForge/NetLink
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT
 image: ''
 topics:
