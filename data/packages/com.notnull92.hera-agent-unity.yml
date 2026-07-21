@@ -1,0 +1,23 @@
+name: com.notnull92.hera-agent-unity
+aliases: []
+displayName: Hera Agent Unity
+description: >-
+  Low-token CLI bridge that lets AI coding agents inspect, control, and verify a
+  live Unity Editor.
+repoUrl: https://github.com/NotNull92/hera-agent-unity
+trackingMode: git
+packagePath: AgentConnector
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/NotNull92/hera-agent-unity/main/docs/assets/hera_logo.png
+topics:
+  - ai
+  - editor-enhancement
+  - code-generation
+hunter: NotNull92
+gitTagPrefix: connector-
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1784617200000
