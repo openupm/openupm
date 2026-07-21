@@ -1,0 +1,16 @@
+name: com.plumvery.unilfs
+displayName: UniLFS
+description: Store large Unity assets in your own external storage (Cloudflare R2 / any S3-compatible service / Google Drive) instead of Git LFS. Tracked files are gitignored and restored from a committed SHA-256 manifest.
+repoUrl: 'https://github.com/Plumvery/UniLFS'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: Plumvery
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1784645572000
