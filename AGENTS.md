@@ -72,14 +72,40 @@ Follow this delivery sequence:
 6. Create or update the GitHub pull request with a brief summary and the
    validation commands that were run.
 7. Verify required checks and merge when there is no blocking reason.
-8. Monitor deployment when applicable, then clean up the worktree and branch.
+8. Monitor any explicitly authorized deployment when applicable, then remove
+   the clean merged worktree and delete its merged local and remote topic
+   branches. Ordinary remote deletion is authorized after confirming that the
+   exact pull request is merged and the remote ref matches its recorded head.
+   After a squash merge, `git branch -D` is authorized only for the local topic
+   branch after confirming that its tip also matches the recorded head and its
+   tree matches the merge commit's tree.
 
-Do not interpret short requests such as "commit", "publish the change", "ship
-it", "push it", or "merge it" as approval to bypass this workflow. Unless the
-user explicitly says to work directly on the default branch, skip the pull
-request workflow, or make a direct-default-branch exception, continue the
-normal flow on the dedicated topic branch, using a separate worktree when
-applicable.
+Treat a request to `deploy`, `ship`, `publish`, or `deliver` the current
+requested repository change set as authorization to complete this normal
+topic-branch workflow: commit reviewed in-scope changes, push the topic branch,
+create or update its pull request, monitor required checks, make narrowly scoped
+fixes for failures caused by the change, merge when all gates pass, and remove
+the clean merged worktree and merged topic branches under the cleanup checks
+above. Apply required validation and review to every fix. Do not ask for
+separate approval for each ordinary step.
+
+This authorization applies only to the current requested repository change
+set. It does not authorize force pushes; bypassing reviews, checks, or branch
+protections; direct-default-branch commits; releases or package publication;
+access to or disclosure of secrets; destructive repository operations;
+unrelated pull requests; or material scope expansion. Cleanup does not include
+removing a dirty worktree, using `git branch -D` for any other local branch, any
+forced remote operation, or other destructive operations. In this section,
+`deploy` authorizes repository delivery; it authorizes a service or
+infrastructure deployment only when the current request specifically identifies
+that deployment. More-specific repository approval rules, including final
+content or product publication, still apply.
+
+When requesting platform approval for an authorized step, quote the user's
+delivery request and this shared instruction in the justification. If a
+platform reviewer rejects the action, ask the user once and wait. Do not retry
+an equivalent escalation or repeat the prompt during automatic continuations
+unless the user provides new authorization or relevant context.
 
 Direct-default-branch exceptions still need a clean scope check before
 committing. When an exception is approved, state that the normal pull request
