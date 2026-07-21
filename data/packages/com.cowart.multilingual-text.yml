@@ -1,0 +1,19 @@
+name: com.cowart.multilingual-text
+aliases: []
+displayName: Multilingual Text System
+description: 提供多语言文本与提示音频配置、运行时查询、语言切换和 Text/TMP_Text 自动刷新。
+repoUrl: https://github.com/liuyan7669/unity-multilingual-text
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784629964489
