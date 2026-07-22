@@ -1,0 +1,19 @@
+name: com.cowart.audio-player
+aliases: []
+displayName: Audio Player
+description: 提供统一音频播放控制、状态与采样时间、自然结束回调、外部音频加载、播放进度、频谱及波形数据。
+repoUrl: https://github.com/liuyan7669/unity-audio-player
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1784709327449
