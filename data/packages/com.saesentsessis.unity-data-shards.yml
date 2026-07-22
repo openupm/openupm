@@ -1,0 +1,22 @@
+name: com.saesentsessis.unity-data-shards
+aliases: []
+displayName: Unity Data Shards
+description: >-
+  Performance-first save-system abstraction. Save data is modeled as a flat set of shards
+  — GUID-identified units serialized independently — flowing through a zero-copy arena
+  pipeline into pluggable serializers, layouts, and storage backends.
+repoUrl: https://github.com/Saesentsessis/Unity-Data-Shards
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:Unity-Data-Shards/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.unity-data-shards-
+createdAt: 1784479227426
