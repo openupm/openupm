@@ -9,7 +9,7 @@ repoUrl: https://github.com/Saesentsessis/Unity-Data-Shards
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: 'https://raw.githubusercontent.com/Saesentsessis/Unity-Data-Shards/main/resources/images/Logo.png'
 topics:
   - data-management
 hunter: Saesentsessis
