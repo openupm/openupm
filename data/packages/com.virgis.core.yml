@@ -15,7 +15,7 @@ gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 2.1.5
 image: >-
-  https://github.com/ViRGIS-Team/virgis.org/blob/raw/images/virgis_swallow_72.png
+  https://raw.githubusercontent.com/ViRGIS-Team/virgis.org/raw/images/virgis_swallow_72.png
 readme: 'version_2:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

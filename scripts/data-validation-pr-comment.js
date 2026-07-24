@@ -62,6 +62,12 @@ const fixableIssues = {
       "`hunter` is required and should be the GitHub user who submitted or maintains the package metadata. It does not have to match the package repository owner.",
     duplicateTerms: ["hunter"],
   },
+  "package-image-github-blob-url-invalid": {
+    title: "Use a raw GitHub image URL",
+    guidance:
+      "A plain `github.com/.../blob/...` URL points to a GitHub HTML page instead of image bytes. Use `raw.githubusercontent.com`, a GitHub `/raw/` URL, or add `?raw=true` to the blob URL.",
+    duplicateTerms: ["github.com", "blob", "raw"],
+  },
 };
 
 const metadataRequiredFields = [

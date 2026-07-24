@@ -118,30 +118,68 @@ describe("data-validation-pr-comment", function() {
   });
 
   it("covers every explicitly supported contributor-fixable validator code", function() {
-    const supportedLines = [
-      "packages/com.example.tool.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]",
-      "packages/com.example.tool.yml: licenseSpdxId Nope should be valid [package-license-spdx-id-invalid]",
-      "packages/com.example.tool.yml: licenseName should be MIT License for licenseSpdxId MIT [package-license-name-spdx-mismatch]",
-      "packages/com.example.tool.yml: topic unknown should be valid [package-topic-invalid]",
-      "packages/com.example.tool.yml: com.example.tool is blocked by scope ^com.example. [package-scope-blocked]",
-      "packages/com.example.tool.yml: pkg.name should match filename without .yml [package-name-filename-mismatch]",
-      "packages/com.example.tool.yml: repoUrl is required and must not be empty [package-repo-url-empty]",
-      "packages/com.example.tool.yml: name is required and must not be empty [package-name-empty]",
-      "packages/com.example.tool.yml: licenseName is required and must not be empty [package-license-name-empty]",
-      "packages/com.example.tool.yml: hunter is required and must not be empty [package-hunter-empty]",
+    const supportedIssues = [
+      [
+        "packages/com.example.tool.yml: image field must not use a plain github.com blob URL [package-image-github-blob-url-invalid]",
+        "Use a raw GitHub image URL",
+      ],
+      [
+        "packages/com.example.tool.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]",
+        "Fill in `licenseSpdxId`",
+      ],
+      [
+        "packages/com.example.tool.yml: licenseSpdxId Nope should be valid [package-license-spdx-id-invalid]",
+        "Use a valid SPDX license ID",
+      ],
+      [
+        "packages/com.example.tool.yml: licenseName should be MIT License for licenseSpdxId MIT [package-license-name-spdx-mismatch]",
+        "Match `licenseName` to `licenseSpdxId`",
+      ],
+      [
+        "packages/com.example.tool.yml: topic unknown should be valid [package-topic-invalid]",
+        "Use an existing topic slug",
+      ],
+      [
+        "packages/com.example.tool.yml: com.example.tool is blocked by scope ^com.example. [package-scope-blocked]",
+        "Choose a package name outside blocked scopes",
+      ],
+      [
+        "packages/com.example.tool.yml: pkg.name should match filename without .yml [package-name-filename-mismatch]",
+        "Make the filename match `name`",
+      ],
+      [
+        "packages/com.example.tool.yml: repoUrl is required and must not be empty [package-repo-url-empty]",
+        "Add `repoUrl`",
+      ],
+      [
+        "packages/com.example.tool.yml: name is required and must not be empty [package-name-empty]",
+        "Add `name`",
+      ],
+      [
+        "packages/com.example.tool.yml: licenseName is required and must not be empty [package-license-name-empty]",
+        "Add `licenseName`",
+      ],
+      [
+        "packages/com.example.tool.yml: hunter is required and must not be empty [package-hunter-empty]",
+        "Add `hunter`",
+      ],
     ];
 
-    const body = buildCommentBody(parseValidationIssues(supportedLines.join("\n")));
+    for (const [line, title] of supportedIssues) {
+      const body = buildCommentBody(parseValidationIssues(line));
+      assert.ok(body.includes(title));
+    }
+  });
 
-    assert.ok(body.includes("Fill in `licenseSpdxId`"));
-    assert.ok(body.includes("Use a valid SPDX license ID"));
-    assert.ok(body.includes("Match `licenseName` to `licenseSpdxId`"));
-    assert.ok(body.includes("https://spdx.org/licenses/"));
-    assert.ok(body.includes("Use an existing topic slug"));
-    assert.ok(body.includes("Choose a package name outside blocked scopes"));
-    assert.ok(body.includes("Make the filename match `name`"));
-    assert.ok(body.includes("Add `repoUrl`"));
-    assert.ok(body.includes("Add `name`"));
+  it("guides contributors away from plain GitHub blob image URLs", function() {
+    const body = buildCommentBody(
+      parseValidationIssues(
+        "packages/com.example.tool.yml: image field must not use a plain github.com blob URL [package-image-github-blob-url-invalid]"
+      )
+    );
+
+    assert.ok(body.includes("Use a raw GitHub image URL"));
+    assert.ok(body.includes("raw.githubusercontent.com"));
   });
 
   it("covers supported metadata schema field guidance", function() {
