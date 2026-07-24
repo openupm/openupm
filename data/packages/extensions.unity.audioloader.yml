@@ -18,7 +18,7 @@ hunter: IvanMurzak
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://github.com/IvanMurzak/Unity-AudioLoader/raw/main/Header.jpg?raw=true'
+image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

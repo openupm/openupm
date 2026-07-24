@@ -7,8 +7,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://raw.githubusercontent.com/iDreamsOfGame/ReflexPlus/refs/heads/main/Graphics/openupm-cover.png
+image: ''
 topics:
   - frameworks
 hunter: iDreamsOfGame

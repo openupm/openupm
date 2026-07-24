@@ -7,8 +7,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://raw.githubusercontent.com/AlicizaX/public-github-actions-Public/main/238003343.png
+image: ''
 topics:
   - frameworks
 hunter: AlicizaX

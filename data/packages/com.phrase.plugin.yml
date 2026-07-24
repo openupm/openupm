@@ -9,7 +9,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: BSD 3-Clause "New" or "Revised" License
-image: 'https://raw.githubusercontent.com/phrase/unity-plugin/refs/heads/main/docs/cover.png'
+image: ''
 topics:
   - localization
   - utilities

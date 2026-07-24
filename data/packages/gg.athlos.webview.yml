@@ -7,7 +7,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
 licenseName: GNU General Public License v3.0 only
-image: https://gritstone.games/tech/athlos/athlos-webview_600x300.png
+image: ''
 topics:
 - services
 hunter: GritstoneGames

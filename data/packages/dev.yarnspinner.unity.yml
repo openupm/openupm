@@ -14,7 +14,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: '-beta'
 minVersion: 1.2.2
-image: 'https://yarnspinner.dev/img/YarnSpinnerLogo.png'
+image: ''
 readme: 'master:README.md'
 createdAt: 1588965131408
 displayName_zhCN: Yarn Spinner

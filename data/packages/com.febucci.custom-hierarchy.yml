@@ -15,8 +15,7 @@ hunter: JesseTG
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://www.febucci.com/assets/uploads/2020/febucci-custom-hierarchy-for-unity-preview.gif
+image: ''
 readme: 'main:README.md'
 createdAt: 1604091977037
 displayName_zhCN: Unity的自定义层级结构
