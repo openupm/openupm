@@ -14,8 +14,7 @@ hunter: alex-puchka
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/ZibraAI/com.zibra.liquids-free/raw/699a0acd6628a8eeb9e6fe03fbe7953fdc93c876/Editor/Art/Icons/About/za_logo_simple.png
+image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

@@ -10,7 +10,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: https://raw.githubusercontent.com/CoplayDev/unity-mcp/refs/heads/main/logo.png
+image: ''
 topics:
   - ai
   - code-generation

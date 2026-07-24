@@ -40,8 +40,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://github.com/user-attachments/assets/f9143cbf-dfe7-4278-9f5d-efc019e8bc7d
+image: ''
 topics:
   - asset-management
   - frameworks

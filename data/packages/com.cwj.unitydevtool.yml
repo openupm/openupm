@@ -9,8 +9,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://raw.githubusercontent.com/DevCWJ/cwj.unitydevtool/main/Runtime/CWJ/UnityDevTool/Icon/CWJ.png
+image: ''
 topics:
   - code-generation
   - editor-enhancement

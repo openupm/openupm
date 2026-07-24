@@ -16,8 +16,7 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/NebusokuDev/Smith/raw/55fe020bc309463e3accda1cd0488daff333dabd/img/icons/SmithLogo.png
+image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

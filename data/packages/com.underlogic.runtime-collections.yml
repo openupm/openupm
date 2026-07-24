@@ -16,7 +16,7 @@ hunter: ewrogers
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: 'https://raw.githubusercontent.com/UnderLogic/runtime-collections/main/Documentation~/src/images/cover.png'
+image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

@@ -16,8 +16,7 @@ hunter: ''
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://raw.githubusercontent.com/naelstrof/UnityJigglePhysics/main/squashNstretch.gif
+image: ''
 readme: 'upm:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''

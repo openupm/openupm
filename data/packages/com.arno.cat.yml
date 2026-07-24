@@ -13,8 +13,7 @@ hunter: Arno/Cat
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-image: >-
-  https://github.com/ArnoZh/Cat/raw/81791492de68ba31d696e75837033d196298434c/Runtime/Core/Picture/doraemon.png
+image: ''
 readme: 'main:README.md'
 readme_zhCN: 'main:CHANGELOG.md'
 displayName_zhCN: Arno's Cat

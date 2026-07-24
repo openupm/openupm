@@ -10,8 +10,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: >-
-  https://raw.githubusercontent.com/AnnulusGames/Alchemy/main/Alchemy/Assets/Alchemy/Documentation%7E/Header.png
+image: ''
 topics:
   - code-generation
   - data-management

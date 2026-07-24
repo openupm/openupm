@@ -9,7 +9,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: 'https://irak.li/assets/images/glimmer/cover.gif'
+image: ''
 topics:
   - gui
   - particles-and-effects

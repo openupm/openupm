@@ -14,8 +14,7 @@ hunter: runette
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: 2.1.5
-image: >-
-  https://raw.githubusercontent.com/ViRGIS-Team/virgis.org/raw/images/virgis_swallow_72.png
+image: ''
 readme: 'version_2:README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
