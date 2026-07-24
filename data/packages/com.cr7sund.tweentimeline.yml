@@ -8,7 +8,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT
-image: https://github.com/liuxinjia/TweenTimeline/blob/master/Document/LogoBanner.png
+image: https://raw.githubusercontent.com/liuxinjia/TweenTimeline/master/Document/LogoBanner.png
 topics:
 - animation
 - code-generation

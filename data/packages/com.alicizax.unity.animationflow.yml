@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
 image: >-
-  https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
+  https://raw.githubusercontent.com/AlicizaX/public-github-actions-Public/main/238003343.png
 topics:
   - frameworks
 hunter: AlicizaX

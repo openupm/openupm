@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseName: MIT License
 licenseSpdxId: MIT
 image: >-
-  https://github.com/Heavy-Cav-Studios/Core/blob/Core-first-version/core-icon.png
+  https://raw.githubusercontent.com/Heavy-Cav-Studios/Core/Core-first-version/core-icon.png
 topics:
   - utilities
 hunter: DeathAdder1999

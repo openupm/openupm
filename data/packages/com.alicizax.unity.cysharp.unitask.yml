@@ -8,7 +8,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/AlicizaX/public-github-actions-Public/blob/main/238003343.png
+  https://raw.githubusercontent.com/AlicizaX/public-github-actions-Public/main/238003343.png
 topics:
   - frameworks
 hunter: AlicizaX
