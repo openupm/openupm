@@ -2,7 +2,7 @@ name: com.reactunity.quickjs
 aliases: []
 displayName: React Unity QuickJS
 description: QuickJS Plugin for ReactUnity
-repoUrl: 'https://github.com/ReactUnity/quickjs'
+repoUrl: 'https://github.com/ReactUnity/core'
 trackingMode: git
 parentRepoUrl: 'https://github.com/ialex32x/unity-jsb'
 licenseSpdxId: MIT
@@ -11,11 +11,11 @@ topics:
   - frameworks
   - gui
 hunter: KurtGokhan
-gitTagPrefix: ''
+gitTagPrefix: 'upm/quickjs/'
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://avatars2.githubusercontent.com/u/62178684'
-readme: 'main:README.md'
+readme: 'main:unity/quickjs/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
