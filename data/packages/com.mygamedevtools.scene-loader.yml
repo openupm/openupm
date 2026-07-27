@@ -15,7 +15,7 @@ topics:
   - utilities
 hunter: joaoborks
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^upm/'
 minVersion: 4.1.2
 image: ''
 readme: 'main:README.md'
