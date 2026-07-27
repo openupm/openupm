@@ -1,0 +1,22 @@
+name: com.beddup.hierarchyinspector
+aliases: []
+displayName: Runtime Hierarchy Inspector
+description: >-
+  Runtime GameObject hierarchy inspector for Unity UGUI. Navigate scene
+  hierarchy, inspect components and their properties on-device without Editor
+  dependencies.
+repoUrl: https://github.com/beddup/UnityRuntimeHierarchyInspector
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: beddup
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785141939228
