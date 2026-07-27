@@ -4,7 +4,8 @@ displayName: Advanced Scene Manager
 description: >-
   Enhance your scene loading experience in Unity.
 repoUrl: 'https://github.com/mygamedevtools/scene-loader'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.mygamedevtools.scene-loader-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -15,7 +16,7 @@ topics:
 hunter: joaoborks
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: 1.2.0
+minVersion: 4.1.2
 image: ''
 readme: 'main:README.md'
 readme_zhCN: ''
