@@ -1,0 +1,18 @@
+name: com.cowart.coroutine-runner
+aliases: []
+displayName: Coroutine Runner
+description: 提供无需继承 MonoBehaviour 的统一协程入口、场景与跨场景生命周期管理、常用等待调用及异步数据读取功能。
+repoUrl: https://github.com/liuyan7669/unity-coroutine-runner
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1785138882850
