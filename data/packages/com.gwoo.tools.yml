@@ -1,7 +1,7 @@
 name: com.gwoo.tools
 aliases: []
-displayName: Unity Editor Tools
-description: All-in-one Unity editor tools package containing Material Manager, Animator Previewer, and their shared editor support code.
+displayName: GWOO DevStack
+description: All-in-one Unity editor tooling bundle containing Material Manager, Animator Previewer, and their shared DevStack support code.
 repoUrl: 'https://github.com/TheGWOO/GWOO_UnityPackages'
 trackingMode: git
 parentRepoUrl: null
@@ -14,7 +14,7 @@ topics:
 hunter: TheGWOO
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '0.1.6'
+minVersion: '0.1.7'
 image: 'https://raw.githubusercontent.com/TheGWOO/GWOO_UnityPackages/main/packages/com.gwoo.material-manager/Documentation~/material-manager.png'
 readme: 'main:packages/com.gwoo.tools/README.md'
 createdAt: 1785196800000
