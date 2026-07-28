@@ -15,7 +15,7 @@ topics:
 hunter: TheGWOO
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '0.1.8'
+minVersion: '0.1.10'
 image: 'https://raw.githubusercontent.com/TheGWOO/GWOO_UnityPackages/main/packages/com.gwoo.animator-previewer/Documentation~/animator-previewer.png'
 readme: 'main:packages/com.gwoo.animator-previewer/README.md'
 createdAt: 1785196800000
