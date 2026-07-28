@@ -1,0 +1,21 @@
+name: com.gwoo.editor-particles
+aliases: []
+displayName: Editor Particle System Driver
+description: Deterministic editor-only ParticleSystem preview driver for animation and FX preview tools.
+repoUrl: 'https://github.com/TheGWOO/GWOO_UnityPackages'
+packagePath: packages/com.gwoo.editor-particles
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - editor-enhancement
+  - utilities
+hunter: TheGWOO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.11'
+image: ''
+readme: 'main:packages/com.gwoo.editor-particles/README.md'
+createdAt: 1785196800000
