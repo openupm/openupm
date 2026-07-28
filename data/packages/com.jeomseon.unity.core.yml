@@ -1,0 +1,20 @@
+name: com.jeomseon.unity.core
+aliases: []
+displayName: Jeomseon Unity Core
+description: >-
+  Core collections, extensions, helpers, serialization utilities, and state
+  machine types for Unity projects.
+repoUrl: https://github.com/jeomseon0516/Unity.Core
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785209294226
