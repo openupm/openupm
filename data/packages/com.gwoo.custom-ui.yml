@@ -1,0 +1,20 @@
+name: com.gwoo.custom-ui
+aliases: []
+displayName: GWOO Custom UI
+description: Shared UI Toolkit controls, editor styling helpers, and resources for GWOO Unity tools.
+repoUrl: 'https://github.com/TheGWOO/GWOO_UnityPackages'
+packagePath: packages/com.gwoo.custom-ui
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: TheGWOO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.11'
+image: ''
+readme: 'main:packages/com.gwoo.custom-ui/README.md'
+createdAt: 1785196800000
