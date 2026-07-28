@@ -2,7 +2,7 @@ name: com.reactunity.jint
 aliases: []
 displayName: React Unity Jint
 description: Jint Plugin for ReactUnity
-repoUrl: 'https://github.com/ReactUnity/jint'
+repoUrl: 'https://github.com/ReactUnity/core'
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -11,11 +11,11 @@ topics:
   - frameworks
   - gui
 hunter: KurtGokhan
-gitTagPrefix: ''
+gitTagPrefix: 'upm/jint/'
 gitTagIgnore: ''
 minVersion: ''
 image: 'https://avatars2.githubusercontent.com/u/62178684'
-readme: 'main:README.md'
+readme: 'main:unity/jint/README.md'
 readme_zhCN: ''
 displayName_zhCN: ''
 description_zhCN: ''
