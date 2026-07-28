@@ -1,0 +1,21 @@
+name: com.gwoo.animator-previewer
+aliases: []
+displayName: Animator Previewer
+description: Unity editor tooling for deterministic clip/controller animation preview, event editing, and particle-aware timeline scrubbing.
+repoUrl: 'https://github.com/TheGWOO/GWOO_UnityPackages'
+packagePath: packages/com.gwoo.animator-previewer
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - editor-enhancement
+  - utilities
+hunter: TheGWOO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.11'
+image: 'https://raw.githubusercontent.com/TheGWOO/GWOO_UnityPackages/main/packages/com.gwoo.animator-previewer/Documentation~/animator-previewer.png'
+readme: 'main:packages/com.gwoo.animator-previewer/README.md'
+createdAt: 1785196800000
