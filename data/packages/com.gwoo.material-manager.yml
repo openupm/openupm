@@ -1,0 +1,20 @@
+name: com.gwoo.material-manager
+aliases: []
+displayName: Material Manager
+description: Unity editor tooling for shader material search, variant cleanup, shader property rebinding, and material migration.
+repoUrl: 'https://github.com/TheGWOO/GWOO_UnityPackages'
+packagePath: packages/com.gwoo.material-manager
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - utilities
+hunter: TheGWOO
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.11'
+image: 'https://raw.githubusercontent.com/TheGWOO/GWOO_UnityPackages/main/packages/com.gwoo.material-manager/Documentation~/material-manager.png'
+readme: 'main:packages/com.gwoo.material-manager/README.md'
+createdAt: 1785196800000
