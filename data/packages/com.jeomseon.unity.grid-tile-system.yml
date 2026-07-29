@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.grid-tile-system
+aliases: []
+displayName: Jeomseon Unity Grid Tile System
+description: 육각형 그리드 좌표, 타일 상호작용 및 URP 데칼 기반 시각화를 제공하는 Unity 패키지입니다.
+repoUrl: https://github.com/jeomseon0516/Unity.GridTileSystem
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - level-design
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785304068704
