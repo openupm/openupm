@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.safe-area
+aliases: []
+displayName: Jeomseon Unity Safe Area
+description: >-
+  Safe-area layout components, runtime canvas patching, and editor preview tools for Unity UI.
+repoUrl: https://github.com/jeomseon0516/Unity.SafeArea
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785288978287
