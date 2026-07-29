@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.attributes
+aliases: []
+displayName: Jeomseon Unity Attributes
+description: Lightweight inspector attribute declarations for Unity projects.
+repoUrl: https://github.com/jeomseon0516/Unity.Attributes
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785293500373
