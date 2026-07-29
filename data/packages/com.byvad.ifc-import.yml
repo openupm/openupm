@@ -7,7 +7,7 @@ description: >-
 repoUrl: https://github.com/byvad/ifc-converter
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: >-
   https://github.com/byvad/ifc-converter/blob/main/img/ifc-import-cover.png?raw=true
