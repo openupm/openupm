@@ -1,0 +1,21 @@
+name: com.txcombo.unity-git-worktree-label
+aliases: []
+displayName: Unity Git Worktree Label
+description: >-
+  Unity Editor toolbar button that identifies the current git worktree/branch,
+  so multiple parallel Editor instances are easy to tell apart.
+repoUrl: https://github.com/hwei/unity-git-worktree-label
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - version-control
+hunter: hwei
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785315443457
