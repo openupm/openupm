@@ -12,9 +12,10 @@ licenseName: MIT License
 image: ''
 topics:
   - editor-enhancement
+  - version-control
 hunter: hwei
 gitTagPrefix: upm/
 gitTagIgnore: ''
 minVersion: ''
-readme: upm:README.md
+readme: main:README.md
 createdAt: 1785315443457
