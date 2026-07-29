@@ -1,8 +1,8 @@
-name: com.dragonresonance.toolset
+name: com.praenaris.toolset
 aliases: []
-displayName: Dragon Resonance ToolSet
+displayName: Praenaris ToolSet
 description: ''
-repoUrl: https://github.com/dragonresonance/unity-toolset
+repoUrl: https://github.com/Praenaris/Unity-ToolSet
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
