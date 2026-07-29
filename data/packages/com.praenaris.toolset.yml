@@ -1,5 +1,6 @@
 name: com.praenaris.toolset
-aliases: []
+aliases:
+  - com.dragonresonance.toolset
 displayName: Praenaris ToolSet
 description: ''
 repoUrl: https://github.com/Praenaris/Unity-ToolSet
@@ -31,6 +32,6 @@ topics:
 hunter: davidtabernerom
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 3.6.6
 readme: master:README.md
 createdAt: 1766449375614
