@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.json
+aliases: []
+displayName: Jeomseon Unity JSON
+description: >-
+  JSON data container utilities using Newtonsoft.Json for Unity projects.
+repoUrl: https://github.com/jeomseon0516/Unity.Json
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785289177964

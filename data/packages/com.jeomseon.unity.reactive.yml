@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.reactive
+aliases: []
+displayName: Jeomseon Unity Reactive
+description: >-
+  Reactive values, lists, events, and Unity-facing reactive fields.
+repoUrl: https://github.com/jeomseon0516/Unity.Reactive
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785289168530

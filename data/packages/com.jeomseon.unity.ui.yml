@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.ui
+aliases: []
+displayName: Jeomseon Unity UI
+description: >-
+  Reusable uGUI and TextMesh Pro controls, popups, and interaction components.
+repoUrl: https://github.com/jeomseon0516/Unity.UI
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785289215637

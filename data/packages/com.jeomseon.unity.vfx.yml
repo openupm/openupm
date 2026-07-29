@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.vfx
+aliases: []
+displayName: Jeomseon Unity VFX
+description: >-
+  Pooled particle and visual-effect lifecycle components for Unity projects.
+repoUrl: https://github.com/jeomseon0516/Unity.VFX
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785289207287
