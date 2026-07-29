@@ -1,5 +1,6 @@
 name: com.praenaris.devkit
-aliases: []
+aliases:
+  - com.dragonresonance.devkit
 displayName: Praenaris DevKit
 description: ''
 repoUrl: https://github.com/Praenaris/Unity-DevKit
@@ -31,6 +32,6 @@ topics:
 hunter: davidtabernerom
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: 3.12.4
 readme: master:README.md
 createdAt: 1766449377474
