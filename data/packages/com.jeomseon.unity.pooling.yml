@@ -10,6 +10,25 @@ licenseSpdxId: MIT
 licenseName: MIT License
 image: ''
 topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1785286430062
+name: com.jeomseon.unity.pooling
+aliases: []
+displayName: Jeomseon Unity Pooling
+description: >-
+  Reusable pools and disposable pooling scopes for Unity projects.
+repoUrl: https://github.com/jeomseon0516/Unity.Pooling
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
   - pooling
   - utilities
 hunter: jeomseon0516
