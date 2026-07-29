@@ -1,8 +1,8 @@
-name: com.dragonresonance.devkit
+name: com.praenaris.devkit
 aliases: []
-displayName: Dragon Resonance DevKit
+displayName: Praenaris DevKit
 description: ''
-repoUrl: https://github.com/dragonresonance/unity-devkit
+repoUrl: https://github.com/Praenaris/Unity-DevKit
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
