@@ -1,0 +1,8 @@
+name: com.asynsstudio.homeui
+displayName: HomeUI
+description: Repository of UI prefabs for navigation, panels, and buttons
+repoUrl: https://github.com/asyns/HomeUI
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
