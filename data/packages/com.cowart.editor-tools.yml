@@ -1,0 +1,19 @@
+name: com.cowart.editor-tools
+aliases: []
+displayName: Editor Tools
+description: Unity 编辑器工具集，提供模型文件导出、运行时类调试、源码提取、Text/TMP 字体检查和贴图压缩功能。
+repoUrl: https://github.com/liuyan7669/unity-editor-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1785460973392
