@@ -1,0 +1,19 @@
+name: com.jeomseon.core
+aliases: []
+displayName: Jeomseon Core
+description: >-
+  Collections and reflection APIs distributed for Unity through UPM.
+repoUrl: https://github.com/jeomseon0516/Jeomseon.Core
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: '0.1.0'
+readme: main:README.md
+createdAt: 1785499208926
