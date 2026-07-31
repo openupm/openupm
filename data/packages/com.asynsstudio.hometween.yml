@@ -1,0 +1,12 @@
+name: com.asynsstudio.hometween
+displayName: HomeTween
+description: High-performance tweening engine for Unity
+repoUrl: https://github.com/asyns/HomeTween
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+trackingMode: git
+aliases: []
+createdAt: 1775059200000
