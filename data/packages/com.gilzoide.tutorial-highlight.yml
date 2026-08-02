@@ -1,0 +1,19 @@
+name: com.gilzoide.tutorial-highlight
+aliases: []
+displayName: Tutorial Highlight
+description: ''
+repoUrl: https://github.com/gilzoide/unity-tutorial-highlight
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: gilzoide
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785684016949
