@@ -1,0 +1,20 @@
+name: com.acharad.richhaptic
+aliases: []
+displayName: RichHaptic
+description: >-
+  Zero-dependency Unity haptics bridge for iOS Core Haptics and Android
+  VibrationEffect, with live modulation support.
+repoUrl: 'https://github.com/Acharad/RichHaptic'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: Acharad
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+createdAt: 1785683561853
