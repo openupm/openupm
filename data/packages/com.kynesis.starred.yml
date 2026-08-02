@@ -1,0 +1,24 @@
+name: com.kynesis.starred
+aliases: []
+displayName: Starred
+description: >-
+  A compact favorites tray plus selection history for the Unity Editor. Star
+  assets and scene objects, jump back to recently-used items, and see
+  at-a-glance which things are starred from the Project window and the
+  Hierarchy.
+repoUrl: https://github.com/landosilva/starred
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://assetstorev1-prd-cdn.unity3d.com/key-image/d3e6281d-6b81-4cef-a04b-3c08fa78fece.webp
+topics:
+  - asset-management
+  - utilities
+hunter: landosilva
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785689608743
