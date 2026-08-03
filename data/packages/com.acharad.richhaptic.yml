@@ -1,6 +1,6 @@
 name: com.acharad.richhaptic
 aliases: []
-displayName: RichHaptic
+displayName: Rich Haptic for Unity
 description: >-
   Zero-dependency Unity haptics bridge for iOS Core Haptics and Android
   VibrationEffect, with live modulation support.
