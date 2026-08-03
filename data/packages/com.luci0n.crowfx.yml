@@ -1,0 +1,20 @@
+name: com.luci0n.crowfx
+aliases: []
+displayName: CrowFX
+description: Free CRT, VHS, film, glitch, dithering, and retro post-processing for Unity Built-in, URP, and HDRP.
+repoUrl: https://github.com/Luci0n/CrowFX-Unity-Image-Effects
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/Luci0n/CrowFX-Unity-Image-Effects/main/Documentation/Images/crowfx-inspector-top.png
+topics:
+  - camera
+  - particles-and-effects
+  - video
+hunter: Luci0n
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785720863548
