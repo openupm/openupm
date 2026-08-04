@@ -1,0 +1,20 @@
+name: games.carter.audiomanager
+aliases: []
+displayName: Audio Manager
+description: >-
+  A free audio/sound management system for Unity with automatic library
+  management & more!
+repoUrl: https://github.com/CarterGames/AudioManager
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0 only
+image: ''
+topics:
+  - audio
+hunter: rokneer
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785872040591
