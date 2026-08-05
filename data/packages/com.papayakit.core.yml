@@ -1,0 +1,22 @@
+name: com.papayakit.core
+aliases: []
+displayName: PapayaKit Core - Lite Architecture
+description: >-
+  Lightweight architecture framework providing Service Locator, Event Bus,
+  Auto-Bootstrapper, and Script Templates for modular Unity development.
+repoUrl: https://github.com/fadhlihh/papayakit-core
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - frameworks
+  - utilities
+hunter: fadhlihh
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1785927529618
