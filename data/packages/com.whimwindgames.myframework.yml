@@ -1,0 +1,25 @@
+name: com.whimwindgames.myframework
+aliases: []
+displayName: MyFramework
+description: >-
+  A reusable Unity game framework with UI, networking, resources, HybridCLR hot
+  update and transactional release tooling.
+repoUrl: 'https://github.com/whimwindgames/MyFramework'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - gui
+  - network
+  - asset-management
+hunter: whimwindgames
+gitTagPrefix: 'com.whimwindgames.myframework/'
+gitTagIgnore: ''
+minVersion: '1.1.0-preview.1'
+image: ''
+readme: 'master:Packages/com.whimwindgames.myframework/README.md'
+displayName_zhCN: MyFramework
+description_zhCN: 一个包含 UI、网络、资源管理、HybridCLR 热更新和事务式发布工具的可复用 Unity 游戏框架。
+createdAt: 1785913676000
