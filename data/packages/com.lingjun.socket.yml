@@ -1,0 +1,21 @@
+name: com.lingjun.socket
+aliases: []
+displayName: LSocket
+description: >-
+  A low-level Unity TCP socket package that provides abstract client/server
+  bases, raw or header-framed receive parsers, heartbeat/reconnect support,
+  encoding helpers, and main-thread callback dispatching.
+repoUrl: https://github.com/ifnofi/LSocket
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - network
+hunter: ifnofi
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.lingjun.socket/README.md
+createdAt: 1785995053581
