@@ -18,5 +18,6 @@ hunter: googleads
 gitTagPrefix: 'Verve/'
 gitTagIgnore: ''
 minVersion: ''
+trackingMode: git
 readme: main:Verve/README.md
 createdAt: 1722989535000
