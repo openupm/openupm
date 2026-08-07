@@ -7,6 +7,7 @@ description: >-
   workflows.
 repoUrl: https://github.com/german-krasnikov/unity-biome-mcp
 parentRepoUrl: null
+trackingMode: git
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
