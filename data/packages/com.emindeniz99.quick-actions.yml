@@ -1,0 +1,25 @@
+name: com.emindeniz99.quick-actions
+aliases: []
+displayName: Home-Screen Quick Actions
+description: >-
+  Home-screen quick actions (the shortcuts revealed by long-pressing the app
+  icon) for Unity, on iOS (UIApplicationShortcutItem) and Android
+  (ShortcutManager). Create and remove shortcuts at runtime and get a callback
+  with the action id on launch or resume. Zero native edits required. Unity 2021
+  LTS and newer (incl. Unity 6).
+repoUrl: https://github.com/emindeniz99/unity-quick-actions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/emindeniz99/unity-quick-actions/main/store~/social.png
+topics:
+  - integration
+  - mobile
+hunter: emindeniz99
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1786107538815
