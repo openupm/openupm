@@ -1,0 +1,17 @@
+name: com.bluecadet.launchpad
+displayName: Bluecadet Launchpad
+description: "Client for the Launchpad controller: version tracking, staged sync, and gated hot-swap."
+repoUrl: 'https://github.com/bluecadet/unity-packages'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - network
+  - utilities
+gitTagPrefix: com.bluecadet.launchpad@
+readme: main:Packages/com.bluecadet.launchpad/README.md
+hunter: claytercek
+aliases: []
+trackingMode: githubRelease
+githubReleaseAssetName: com.bluecadet.launchpad-
+createdAt: 1786109716564
