@@ -1,0 +1,22 @@
+name: com.unity-biome-mcp.editor
+aliases: []
+displayName: Unity Biome MCP
+description: >-
+  Control Unity Editor from Claude, Codex, Cursor, Windsurf, and other AI
+  assistants via MCP for scene editing, playtests, screenshots, and batch
+  workflows.
+repoUrl: https://github.com/german-krasnikov/unity-biome-mcp
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - integration
+  - utilities
+hunter: german-krasnikov
+gitTagPrefix: v
+gitTagIgnore: ""
+minVersion: ""
+image: null
+readme: master:README.md
+createdAt: 1723036800000
