@@ -3,7 +3,7 @@ aliases: []
 displayName: Imp Rock - Choose Your Own Inspector
 description: An Editor List for Unity
 repoUrl: https://github.com/improck/choose-your-own-inspector
-trackingMode: githubRelease
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: BSD-3-Clause
 licenseName: 'BSD 3-Clause "New" or "Revised" License'
