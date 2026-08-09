@@ -1,0 +1,20 @@
+name: com.takayama.audiometadataextension
+aliases: []
+displayName: Audio Metadata Extension
+description: >-
+  Audio Metadata Extractor is a project which intend to extract metadata of audio file using TagLib and parse it to game engine using Native Binding.
+repoUrl: 'https://github.com/ProjectGrinder/audio-metadata-extractor'
+trackingMode: releaseAsset
+releaseAssetName: com.takayama.audiometadataextension
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/ProjectGrinder/audio-metadata-extractor/main/icon.png'
+topics:
+  - audio
+  - utilities
+hunter: ProjectGrinder
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'main:README.md'
