@@ -16,6 +16,6 @@ topics:
 hunter: ProjectGrinder
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '2.0.0'
 readme: 'main:README.md'
 createdAt: 1788890000000
