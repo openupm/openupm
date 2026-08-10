@@ -1,0 +1,21 @@
+name: ai.localkeep.unity
+aliases: []
+displayName: Local Keep AI
+description: >-
+  Local-first AI coding assistant for the Unity Editor — explain C# scripts,
+  generate NUnit tests, and run agentic tasks against 1,000+ free models.
+  Requires the lk CLI (pip install local-keep-ai-cli).
+repoUrl: https://github.com/laynef/localkeep-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/laynef/localkeep-unity/main/cover.png
+topics:
+  - ai
+hunter: laynef
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786385513599
