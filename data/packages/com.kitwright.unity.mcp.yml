@@ -1,0 +1,27 @@
+name: com.kitwright.unity.mcp
+aliases: []
+displayName: KitWright MCP for Unity
+description: >-
+  An MCP (Model Context Protocol) server that runs inside the Unity Editor, so
+  MCP clients like Claude Code, Cursor, LM Studio, Windsurf, Codex and VS Code
+  Copilot can inspect and modify the open project directly. Ships 150 editor
+  tools for scenes, scripts, prefabs, assets, play mode automation, input
+  simulation, screenshots and profiling, plus in-editor C# execution, MCP
+  resources and workflow prompts.
+repoUrl: https://github.com/kitwright/unity-mcp
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - code-generation
+  - editor-enhancement
+hunter: loggzix
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+readme_zhCN: main:README_CN.md
+createdAt: 1786483778696
