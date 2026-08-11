@@ -1,0 +1,19 @@
+name: com.cowart.webgl-input
+aliases: []
+displayName: WebGL Input
+description: 为 Unity WebGL 的 TMP_InputField 和 UGUI InputField 提供中文 IME、剪贴板、文本选区与全屏输入桥接。
+repoUrl: https://github.com/liuyan7669/unity-webgl-input
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - input-management
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786464556736
