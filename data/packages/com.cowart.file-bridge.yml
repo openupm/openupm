@@ -1,0 +1,20 @@
+name: com.cowart.file-bridge
+aliases: []
+displayName: File Bridge
+description: >-
+  在 Unity Editor、Windows、Android 与 WebGL 中选择本地文件、读取完整字节，并通过系统保存或浏览器下载将 Unity
+  字节保存到本地。此包不包含远程服务器上传协议。
+repoUrl: https://github.com/liuyan7669/unity-file-bridge
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786550657014
