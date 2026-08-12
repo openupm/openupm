@@ -1,0 +1,19 @@
+name: com.cowart.flow-framework
+aliases: []
+displayName: Flow Framework
+description: 提供基于状态模式的轻量同步流程管理、状态生命周期、共享上下文、运行记录、有效用时统计、快照导出和编辑器调试窗口。
+repoUrl: https://github.com/liuyan7669/unity-flow-framework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786529055448
