@@ -3,7 +3,8 @@ aliases: []
 displayName: Aliciza X Framework
 description: Aliciza X Core Framework
 repoUrl: https://github.com/AlicizaX/com.alicizax.unity.framework
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: com.alicizax.unity.framework-
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
