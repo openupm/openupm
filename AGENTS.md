@@ -71,14 +71,24 @@ Follow this delivery sequence:
 5. Close the plan when appropriate, then commit and push the reviewed change.
 6. Create or update the GitHub pull request with a brief summary and the
    validation commands that were run.
-7. Verify required checks and merge when there is no blocking reason.
+7. Verify required checks and merge when there is no blocking reason. When a
+   repository uses Conventional Commits to determine semantic releases, give
+   the pull request and squash merge a valid Conventional Commit title that
+   reflects the intended release type (for example, `fix:` or `feat:`).
 8. Monitor any explicitly authorized deployment when applicable, then remove
    the clean merged worktree and delete its merged local and remote topic
    branches. Ordinary remote deletion is authorized after confirming that the
    exact pull request is merged and the remote ref matches its recorded head.
    After a squash merge, `git branch -D` is authorized only for the local topic
-   branch after confirming that its tip also matches the recorded head and its
-   tree matches the merge commit's tree.
+   branch after confirming that its tip matches the recorded head and either
+   its tree matches the squash commit's tree, or, when the base advanced, both
+   the `git patch-id --verbatim` of its aggregate diff from the merge base
+   matches the verbatim patch ID of the squash commit's first-parent diff and
+   applying that exact aggregate diff to the first-parent tree produces the
+   squash commit's tree. Exact whole-tree equality normally fails when another
+   pull request merges first; the combined second proof establishes the
+   squashed aggregate change without ignoring whitespace or patch locations.
+   Retain the branch if neither proof succeeds.
 
 Treat a request to `deploy`, `ship`, `publish`, or `deliver` the current
 requested repository change set as authorization to complete this normal
@@ -91,15 +101,18 @@ separate approval for each ordinary step.
 
 This authorization applies only to the current requested repository change
 set. It does not authorize force pushes; bypassing reviews, checks, or branch
-protections; direct-default-branch commits; releases or package publication;
+protections; direct-default-branch commits; manual releases or package
+publication outside the repository's existing merge-triggered automation;
 access to or disclosure of secrets; destructive repository operations;
-unrelated pull requests; or material scope expansion. Cleanup does not include
-removing a dirty worktree, using `git branch -D` for any other local branch, any
-forced remote operation, or other destructive operations. In this section,
+unrelated pull requests; or material scope expansion. Authorization to merge a
+pull request includes any package version and publication performed
+automatically by the repository's existing merge workflow. In this section,
 `deploy` authorizes repository delivery; it authorizes a service or
 infrastructure deployment only when the current request specifically identifies
 that deployment. More-specific repository approval rules, including final
-content or product publication, still apply.
+content or product publication, still apply. Cleanup does not include removing
+a dirty worktree, using `git branch -D` for any other local branch, any forced
+remote operation, or other destructive operations.
 
 When requesting platform approval for an authorized step, quote the user's
 delivery request and this shared instruction in the justification. If a
