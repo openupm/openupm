@@ -1,0 +1,24 @@
+name: com.gamevocal.plugin
+aliases: []
+displayName: GameVocal
+description: >-
+  Syncs dialogue audio, lip-sync data, and localization from the GameVocal cloud
+  directly into your Unity project. Includes a runtime GameVocalCharacter
+  component with ARKit52 blendshape animation and an editor window for one-click
+  asset syncing.
+repoUrl: https://github.com/EsstafaUni/gamevocal-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - asset-management
+  - localization
+hunter: EsstafaUni
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1786636604101
