@@ -1,0 +1,18 @@
+name: com.grimbarinteractive.unity-saves
+aliases: []
+displayName: Unity Saves
+description: Generic, versioned save system with migration and backup/restore for Unity.
+repoUrl: https://github.com/Grimbar-Interactive/unity-saves
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: Grimbar-Interactive
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1786733269083
