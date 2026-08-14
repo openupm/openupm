@@ -3,7 +3,7 @@ aliases: []
 displayName: Appstack SDK
 description: Unity wrapper for the Appstack native attribution SDKs on iOS and Android.
 repoUrl: https://github.com/appstack-tech/appstack-unity-sdk
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
