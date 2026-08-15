@@ -1,0 +1,18 @@
+name: com.ruccho.texpix
+aliases: []
+displayName: Texpix
+description: A Pixel Font Rendering System for Unity
+repoUrl: https://github.com/ruccho/Texpix
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1786794273674
