@@ -1,0 +1,23 @@
+name: com.pereviader.unitystatessnapshot
+aliases: []
+displayName: Unity State Snapshot
+description: >-
+  Deterministic, zero-dependency snapshot testing and state extraction framework
+  for Unity objects, UI, and scenes. Captures complex Unity object graphs and
+  game states into structured verified baselines with Git-style unified diffs.
+repoUrl: https://github.com/PereViader/UnityStateSnapshot
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - testing
+  - utilities
+hunter: PereViader
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'main:README.md'
+githubReleaseAssetName: com.pereviader.unitystatessnapshot
+createdAt: 1786833919707
