@@ -1,0 +1,21 @@
+name: com.zzamjak.cateditor
+aliases: []
+displayName: CATEditor
+description: >-
+  A collection of Unity editor productivity tools: Hierarchy utilities (batch
+  rename, reference markers, prefab preset menu), Animation Window extensions
+  (auto-save, selection sync, loop offset, particle simulation), shape texture
+  generator, scene toolbar, favorite folders, and Transform/TMP copy-paste
+  shortcuts.
+repoUrl: 'https://github.com/zzamjak-cloud/CATEditor'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1786754048000
+readme: 'main:Packages/com.zzamjak.cateditor/README.md'
