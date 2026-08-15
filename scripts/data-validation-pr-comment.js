@@ -69,10 +69,10 @@ const fixableIssues = {
     duplicateTerms: ["github.com", "blob", "raw"],
   },
   "package-github-release-asset-name-empty": {
-    title: "Remove an empty `githubReleaseAssetName`",
+    title: "Remove or fill in `githubReleaseAssetName`",
     guidance:
-      "`githubReleaseAssetName` is optional, but it cannot be an empty string when present. Remove the field for Git tracking, or provide the release asset filename when using GitHub Release tracking.",
-    duplicateTerms: ["githubreleaseassetname", "empty string"],
+      "With GitHub Release tracking, `githubReleaseAssetName` is optional but cannot be an empty string when present. Remove the empty field to use automatic asset selection, or provide the release asset filename.",
+    duplicateTerms: ["githubreleaseassetname", "release asset"],
   },
 };
 

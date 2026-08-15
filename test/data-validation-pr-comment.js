@@ -125,7 +125,7 @@ describe("data-validation-pr-comment", function() {
       ],
       [
         "packages/com.example.tool.yml: githubReleaseAssetName must not be empty when set [package-github-release-asset-name-empty]",
-        "Remove an empty `githubReleaseAssetName`",
+        "Remove or fill in `githubReleaseAssetName`",
       ],
       [
         "packages/com.example.tool.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]",
@@ -186,15 +186,16 @@ describe("data-validation-pr-comment", function() {
     assert.ok(body.includes("raw.githubusercontent.com"));
   });
 
-  it("guides contributors to remove or populate githubReleaseAssetName", function() {
+  it("guides GitHub Release contributors to remove or populate githubReleaseAssetName", function() {
     const body = buildCommentBody(
       parseValidationIssues(
         "packages/com.example.tool.yml: githubReleaseAssetName must not be empty when set [package-github-release-asset-name-empty]"
       )
     );
 
-    assert.ok(body.includes("Remove the field for Git tracking"));
-    assert.ok(body.includes("provide the release asset filename when using GitHub Release tracking"));
+    assert.ok(body.includes("With GitHub Release tracking"));
+    assert.ok(body.includes("Remove the empty field to use automatic asset selection"));
+    assert.ok(body.includes("provide the release asset filename"));
   });
 
   it("covers supported metadata schema field guidance", function() {
