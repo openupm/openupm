@@ -1,0 +1,24 @@
+name: com.hhhnnnk4.techarttools
+aliases: []
+displayName: TechArt Tools
+description: Editor-only technical-art toolset for Unity - asset audit (textures/meshes/materials/scenes/prefabs), one-click fixes, batch utilities, report export, duplicate finder and shader usage analysis. URP friendly, zero runtime cost.
+repoUrl: 'https://github.com/hhhnnnk4-sudo/unity-techart-tools'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - asset-management
+  - painting
+  - utilities
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.5.0'
+trackingMode: git
+githubReleaseAssetName: ''
+image: ''
+imageFit: cover
+readme: 'main:README.md'
+hunter: hhhnnnk4-sudo
+createdAt: 1786693120783
+
