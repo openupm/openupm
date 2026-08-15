@@ -1,0 +1,20 @@
+name: com.zzamjak.windable
+aliases: []
+displayName: Windable
+description: >-
+  Noise-texture based wind effect component. Auto-detects SpriteRenderer and UI
+  Graphic targets and renders both with a single shader, with Sprite Atlas UV
+  correction and ClipRect (ScrollView) clipping support. Mobile-optimized.
+repoUrl: 'https://github.com/zzamjak-cloud/Windable'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - particles-and-effects
+  - 2d
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1786754048000
+readme: 'main:Packages/com.zzamjak.windable/README.md'
