@@ -68,6 +68,12 @@ const fixableIssues = {
       "A plain `github.com/.../blob/...` URL points to a GitHub HTML page instead of image bytes. Use `raw.githubusercontent.com`, a GitHub `/raw/` URL, or add `?raw=true` to the blob URL.",
     duplicateTerms: ["github.com", "blob", "raw"],
   },
+  "package-github-release-asset-name-empty": {
+    title: "Remove an empty `githubReleaseAssetName`",
+    guidance:
+      "`githubReleaseAssetName` is optional, but it cannot be an empty string when present. Remove the field for Git tracking, or provide the release asset filename when using GitHub Release tracking.",
+    duplicateTerms: ["githubreleaseassetname", "empty string"],
+  },
 };
 
 const metadataRequiredFields = [

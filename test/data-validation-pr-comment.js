@@ -124,6 +124,10 @@ describe("data-validation-pr-comment", function() {
         "Use a raw GitHub image URL",
       ],
       [
+        "packages/com.example.tool.yml: githubReleaseAssetName must not be empty when set [package-github-release-asset-name-empty]",
+        "Remove an empty `githubReleaseAssetName`",
+      ],
+      [
         "packages/com.example.tool.yml: licenseSpdxId must not be an empty string [package-license-spdx-id-empty]",
         "Fill in `licenseSpdxId`",
       ],
@@ -180,6 +184,17 @@ describe("data-validation-pr-comment", function() {
 
     assert.ok(body.includes("Use a raw GitHub image URL"));
     assert.ok(body.includes("raw.githubusercontent.com"));
+  });
+
+  it("guides contributors to remove or populate githubReleaseAssetName", function() {
+    const body = buildCommentBody(
+      parseValidationIssues(
+        "packages/com.example.tool.yml: githubReleaseAssetName must not be empty when set [package-github-release-asset-name-empty]"
+      )
+    );
+
+    assert.ok(body.includes("Remove the field for Git tracking"));
+    assert.ok(body.includes("provide the release asset filename when using GitHub Release tracking"));
   });
 
   it("covers supported metadata schema field guidance", function() {
