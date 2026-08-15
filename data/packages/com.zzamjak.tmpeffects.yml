@@ -1,0 +1,19 @@
+name: com.zzamjak.tmpeffects
+aliases: []
+displayName: TMP Effects
+description: >-
+  Adds mobile-optimized effects to TextMeshPro: Outline, Glow, Animation,
+  Curve, MaskFlow and more.
+repoUrl: 'https://github.com/zzamjak-cloud/TMPEffect'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - animation
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1786754048000
+readme: 'main:README.md'
