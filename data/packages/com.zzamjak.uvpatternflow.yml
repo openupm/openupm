@@ -1,0 +1,20 @@
+name: com.zzamjak.uvpatternflow
+aliases: []
+displayName: UVPatternFlow
+description: >-
+  UV pattern scroll/rotation effects for RawImage, Image and SpriteRenderer,
+  plus a sprite-sheet based grid flow effect. Supports sprite atlases and UGUI
+  Mask/RectMask2D. Mobile-optimized (no per-frame GC, branchless shaders).
+repoUrl: 'https://github.com/zzamjak-cloud/UVPatternFlow'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - particles-and-effects
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1786754048000
+readme: 'main:Packages/com.zzamjak.uvpatternflow/README.md'
