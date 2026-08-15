@@ -1,0 +1,20 @@
+name: com.zzamjak.uishining
+aliases: []
+displayName: UIShining
+description: A mobile-optimized shine (gloss sweep) loop effect for uGUI Image (atlas sprites) and RawImage. The shine band sweeps across as a convex-lens-like curved band, composited with additive + burn blending.
+repoUrl: 'https://github.com/zzamjak-cloud/UIShining'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - gui
+  - particles-and-effects
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.zzamjak.uishining/README.md'
+createdAt: 1786758468000
