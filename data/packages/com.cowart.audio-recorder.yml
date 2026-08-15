@@ -1,0 +1,21 @@
+name: com.cowart.audio-recorder
+aliases: []
+displayName: Audio Recorder
+description: >-
+  通过唯一静态入口在 Unity Editor、Windows、Android 与 WebGL 中录制语音，交付完整 PCM16 WAV 与实时 PCM
+  块，并提供异步分帧 AudioClip 转换和原生实时流式 Clip 会话。
+repoUrl: https://github.com/liuyan7669/unity-audio-recorder
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786785011107
