@@ -1,0 +1,18 @@
+name: com.zzamjak.colorreplace
+displayName: ColorReplace
+description: A mobile-optimized effect component that replaces a specific HSV color range in real time. Supports both SpriteRenderer and uGUI Graphic (Image, RawImage), preserving batching via MaterialPropertyBlock and material caching.
+repoUrl: 'https://github.com/zzamjak-cloud/ColorReplace'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - gui
+  - particles-and-effects
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:Packages/com.zzamjak.colorreplace/README.md'
+createdAt: 1786758468000
