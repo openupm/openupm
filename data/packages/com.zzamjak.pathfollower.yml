@@ -1,0 +1,20 @@
+name: com.zzamjak.pathfollower
+aliases: []
+displayName: PathFollower
+description: >-
+  Bezier curve path-following component with runtime-editable paths. Provides
+  path presets (circle/polygon/star), snapshot morphing, independently timed
+  agents, and a tiling sprite ribbon (PathRibbon).
+repoUrl: 'https://github.com/zzamjak-cloud/PathFollower'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - utilities
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1786754048000
+readme: 'main:README.md'
