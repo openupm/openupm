@@ -1,0 +1,19 @@
+name: com.cowart.raycast-tools
+aliases: []
+displayName: Raycast Tools
+description: 提供以物体本地 Z 轴为基准的前后左右直线射线、平面/立体扇形射线与方块射线，并支持 Scene 视图预览。
+repoUrl: https://github.com/liuyan7669/unity-raycast-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - physics
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1786889567621
