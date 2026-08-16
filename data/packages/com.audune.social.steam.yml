@@ -1,0 +1,18 @@
+name: com.audune.social.steam
+aliases: []
+displayName: Steam Social Integration Provider
+description: Provider for connecting the Steamworks SDK to the social integration.
+repoUrl: https://github.com/audunegames/steam-social-integration-provider
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0
+licenseName: GNU Lesser General Public License v3.0 only
+image: ''
+topics:
+  - integration
+hunter: danae
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1786909140350
