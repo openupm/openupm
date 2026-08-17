@@ -1,0 +1,17 @@
+name: dev.rekonops.rekon
+displayName: Rekon
+description: >-
+  Bug reporting infrastructure for Unity game dev teams. Auto-capture
+  video/screenshots/logs from play mode, then route them to a web dashboard and
+  Jira.
+repoUrl: 'https://github.com/RekonOps/Rekon-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+  - debugging-and-logging
+  - integration
+hunter: Coffee-Jhin
+gitTagPrefix: ''
+gitTagIgnore: '^v0'
+readme: 'main:README.md'
