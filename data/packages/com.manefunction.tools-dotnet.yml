@@ -1,0 +1,22 @@
+name: com.manefunction.tools-dotnet
+aliases: []
+displayName: Mane Tools for .NET
+description: >-
+  Tools and extensions for built-in .NET types, with no Unity engine
+  dependencies. Useful for domain-driven design and for separating core logic
+  code from Unity.
+repoUrl: https://github.com/ManeFunction/ManeTools-dotNET
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: ManeFunction
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1787051855928
