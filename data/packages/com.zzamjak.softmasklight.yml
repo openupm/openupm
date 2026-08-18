@@ -1,0 +1,20 @@
+name: com.zzamjak.softmasklight
+aliases: []
+displayName: SoftMaskLight
+description: >-
+  Mobile-optimized single-pass soft mask for uGUI without RenderTexture. Zero
+  extra draw calls and texture memory, per-frame GC free. Supports Image types
+  (Simple/Sliced/Tiled/Filled with animated fillAmount), 2-level nesting,
+  sprite atlas, TextMeshPro, UIParticle and UIEffect integration.
+repoUrl: 'https://github.com/zzamjak-cloud/SoftMaskLight'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1787014735000
+readme: 'main:Packages/com.zzamjak.softmasklight/README.md'
