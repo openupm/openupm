@@ -1,0 +1,21 @@
+name: com.zzamjak.imagedeform
+aliases: []
+displayName: ImageDeform
+description: >-
+  Puppet-pin mesh deformation for Unity. Place pins on a UI Image/RawImage or
+  SpriteRenderer, then drag them or keyframe them in animation clips — the
+  auto-subdivided mesh deforms smoothly using precomputed weights.
+  Mobile-optimized: change-detection updates, zero per-frame GC allocation,
+  centralized update manager.
+repoUrl: 'https://github.com/zzamjak-cloud/ImageDeform'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1787062906000
+readme: 'main:Packages/com.zzamjak.imagedeform/README.md'
