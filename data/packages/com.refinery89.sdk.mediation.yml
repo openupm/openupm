@@ -1,0 +1,20 @@
+name: com.refinery89.sdk.mediation
+aliases: []
+displayName: Refinery89 Mediation SDK
+description: >-
+  Refinery89 Google Mobile Ads Mediation adapter bridge for Unity. Includes
+  EDM4U dependency resolution for Android and iOS native libraries.
+repoUrl: https://github.com/R89SDK/R89MediationAdapterUnity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - mobile
+hunter: R89SDK
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1787219299058
