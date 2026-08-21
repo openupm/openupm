@@ -1,0 +1,24 @@
+name: xyz.magicweave.sdk
+aliases: []
+displayName: Magicweave
+description: >-
+  Game backend for Unity — wallets, currencies, inventory, shop, leaderboards,
+  spin wheels and realtime. Offline-safe writes, environment switching from the
+  inspector, no plumbing to write.
+repoUrl: https://github.com/FortuneCasablancas/magicweave-sdks
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+- data-management
+- integration
+- network
+- services
+hunter: rahulnema0411
+gitTagPrefix: unity-v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:unity/README.md
+createdAt: 1787317290261
