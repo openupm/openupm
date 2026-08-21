@@ -1,0 +1,28 @@
+name: com.opengameagent.runtime
+aliases: []
+displayName: OpenGameAgent
+description: >-
+  A provider-neutral agent runtime for AI-native Unity games, with structured
+  context, typed tools, streaming, steering, durable actions, and multi-NPC
+  coordination.
+repoUrl: 'https://github.com/EricSun0218/OpenGameAgent'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - frameworks
+  - integration
+hunter: EricSun0218
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: '0.3.0-alpha.3'
+image: 'https://raw.githubusercontent.com/EricSun0218/OpenGameAgent/main/docs/store-listings/artwork/rendered/opengameagent-store-hero.png'
+imageFit: contain
+readme: 'upm:README.md'
+createdAt: 1787316539134
+displayName_zhCN: OpenGameAgent
+description_zhCN: >-
+  面向 AI 原生 Unity 游戏的模型无关 Agent Runtime，支持结构化上下文、类型化工具、
+  流式输出、运行中引导、持久动作和多 NPC 协调。
