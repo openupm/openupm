@@ -1,0 +1,25 @@
+name: com.zzamjak.catsprite
+aliases: []
+displayName: CATSprite
+description: >-
+  SpriteRenderer effect components for Unity: color lerp and dissolve for a
+  single renderer (SpriteEffect) or a whole sprite group with group-local
+  dissolve UV (SpriteGroupEffect), two-color gradient multiply (SpriteGradient)
+  and group tinting that preserves each child's original color (SpriteGroupTint).
+  Mobile-first design with shared materials, MaterialPropertyBlock, shader
+  keyword branching and no per-frame cost while effects are off. Supports sprite
+  atlases and animation clip driven properties.
+repoUrl: 'https://github.com/zzamjak-cloud/CATSprite'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - particles-and-effects
+  - sprite-management
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1787400667982
