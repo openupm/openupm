@@ -1,0 +1,17 @@
+name: com.zzamjak.catui
+aliases: []
+displayName: CATUI
+description: 'UGUI extension components for Unity: MultiSliceImage (multi-cut sliced image), MirrorSliceImage (symmetric mirrored image with gradient), UIFlip (graphic mesh flip) and UIImageFollow (sprite synchronization). Designed for mobile with bounded vertex counts and GC-free mesh rebuilds.'
+repoUrl: 'https://github.com/zzamjak-cloud/CATUI'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - 2d
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:Packages/com.zzamjak.catui/README.md'
+createdAt: 1787360197197
