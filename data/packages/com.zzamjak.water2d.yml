@@ -1,0 +1,30 @@
+name: com.zzamjak.water2d
+aliases: []
+displayName: Water2D
+description: >-
+  Vertex-based 2D water simulation for Unity. Water2D renders in world space
+  (MeshRenderer) and UIWater2D renders inside a UI Canvas (MaskableGraphic),
+  both sharing one simulation core so behavior and values stay identical. The
+  surface keeps rippling without any collision through an analytic ambient wave
+  (stacked sines plus value noise) whose strength, frequency and randomness are
+  exposed as numbers. Physics is opt-in: collision splash, buoyancy and pointer
+  input are off by default and the collider is disabled while they all are, and
+  the spring simulation only wakes on events and sleeps automatically once the
+  surface settles. The underwater shader uses procedural caustics, refraction
+  and foam with no texture fetch by default, keyword-stripped features and no
+  branching, for a mobile-first cost profile. UIWater2D supports Mask, RectMask2D
+  and CanvasGroup alpha through standard UGUI mechanisms.
+repoUrl: 'https://github.com/zzamjak-cloud/Water2D'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - particles-and-effects
+  - gui
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1787478637650
