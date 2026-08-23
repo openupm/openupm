@@ -7,8 +7,8 @@ description: >-
   agents, and a tiling sprite ribbon (PathRibbon).
 repoUrl: 'https://github.com/zzamjak-cloud/PathFollower'
 trackingMode: git
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
 topics:
   - animation
   - utilities
