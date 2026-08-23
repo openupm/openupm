@@ -1,0 +1,23 @@
+name: com.tesseractsoftwares.praxsuite
+aliases: []
+displayName: Praxsuite SDK
+description: >-
+  Backend-as-a-service for Unity games - player accounts, saves, leaderboards,
+  inventories, files and server-authoritative logic, with no server code to
+  write. Zero dependencies.
+repoUrl: 'https://github.com/TesseractSoftwares/Praxsuite-SDK-Unity'
+trackingMode: git
+parentRepoUrl: null
+licenseName: Praxsuite Open SDK Licence v1.0
+licenseSpdxId: null
+image: null
+topics:
+  - services
+  - network
+  - data-management
+hunter: VinsDepassier
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: 'master:README.md'
+createdAt: 1787508641108
