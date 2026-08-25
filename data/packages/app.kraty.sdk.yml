@@ -1,0 +1,20 @@
+name: app.kraty.sdk
+displayName: Kraty SDK
+description: >-
+  C# client SDK for the Kraty game-events platform. Targets the public /sdk/v1
+  surface: events, leaderboards, grants, crates, lobbies. Built on .NET Standard
+  2.1 for Unity 2022 LTS+ and any modern .NET runtime.
+repoUrl: 'https://github.com/Kraty-Org/kraty-sdk-unity'
+parentRepoUrl: null
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - leaderboard
+  - live-ops
+  - events
+hunter: gbanha
