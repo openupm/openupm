@@ -14,8 +14,7 @@ readme: 'main:README.md'
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - leaderboard
-  - live-ops
-  - events
+  - network
+  - services
 hunter: gbanha
 createdAt: 1787675633000
