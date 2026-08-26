@@ -1,0 +1,19 @@
+name: com.cowart.measurement-tools
+aliases: []
+displayName: Measurement Tools
+description: 面向 Unity 仿真软件的几何测量、单位换算、比例标定、交互取点、可视化、公差判定与结果导出工具包。
+repoUrl: https://github.com/liuyan7669/unity-measurement-tools
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - physics
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1787756215881
