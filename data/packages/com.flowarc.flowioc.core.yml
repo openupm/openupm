@@ -1,0 +1,23 @@
+name: com.flowarc.flowioc.core
+aliases: []
+displayName: FlowIoC
+description: >-
+  Signal-driven IoC framework for Unity. Provides contexts, signals, commands,
+  models and view/mediator binding, plus an editor code generator for
+  scaffolding modules.
+repoUrl: https://github.com/FlowArc/FlowIoC
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - editor-enhancement
+  - frameworks
+hunter: cnyt-ezka
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.0
+readme: master:README.md
+createdAt: 1787852061864
