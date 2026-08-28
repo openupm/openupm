@@ -1,0 +1,26 @@
+name: com.manefunction.unity-text
+aliases: []
+displayName: Mane Text
+description: >-
+  Text rendering component for your Unity games. Creates a mesh for your label
+  and renders it with a simple shader. Built on top of the Unity dynamic font
+  atlas.
+
+
+  Can be found in 'Add Component -> Mane Tools -> Components -> Mane Text'
+repoUrl: https://github.com/ManeFunction/ManeTools-Text
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - gui
+  - utilities
+hunter: ManeFunction
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1787933798487
