@@ -1,0 +1,24 @@
+name: com.zzamjak.tilemapmaker
+aliases: []
+displayName: CAT TileMapMaker
+description: >-
+  Unity editor tool that turns a StyleStudio tileset folder into a working
+  tilemap in one pass: batch sprite import settings (PPU, FullRect, extrude 0,
+  clamp, no mipmap), blob-47 Rule Tile generation from IMPORT_GUIDE.txt with
+  variant tiles grouped as random output, a base Tile asset, a Tile Palette
+  prefab with its GridPalette sub-asset, and a Grid / Ground / Terrain scene
+  hierarchy with optional CompositeCollider2D.
+repoUrl: 'https://github.com/zzamjak-cloud/TileMapMaker'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - 2d
+  - level-design
+  - editor-enhancement
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:Packages/com.zzamjak.tilemapmaker/README.md'
+createdAt: 1787879235000
