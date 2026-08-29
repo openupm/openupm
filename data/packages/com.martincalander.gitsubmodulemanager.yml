@@ -1,0 +1,24 @@
+name: com.martincalander.gitsubmodulemanager
+aliases: []
+displayName: Git Submodule Manager
+description: >-
+  Manage Git-hosted UPM packages in Unity as editable submodules or read-only
+  dependencies.
+repoUrl: https://github.com/martincalander/GitSubmoduleForUnity
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/martincalander/GitSubmoduleForUnity/main/Documentation~/Images/GitSubmoduleManagerCover.png
+topics:
+  - package-management
+  - utilities
+  - version-control
+hunter: martincalander
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788031329005
+githubReleaseAssetName: com.martincalander.gitsubmodulemanager-
