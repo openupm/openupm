@@ -1,0 +1,23 @@
+name: com.martincalander.editordarkmode
+aliases: []
+displayName: Editor Dark Mode
+description: >-
+  Jiaqi Liu's Windows-only dark mode mod for the Unity Editor, packaged for UPM.
+  It darkens the title bar, menu bar, and context menus.
+repoUrl: https://github.com/martincalander/UnityEditorDarkModeUPM
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/martincalander/UnityEditorDarkModeUPM/main/Documentation~/Images/EditorDarkModeCover.png
+topics:
+  - editor-enhancement
+  - gui
+hunter: martincalander
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788073634752
+githubReleaseAssetName: com.martincalander.editordarkmode-
