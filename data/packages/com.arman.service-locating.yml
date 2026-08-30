@@ -1,0 +1,20 @@
+name: com.arman.service-locating
+aliases: []
+displayName: Service Locating
+description: >-
+  A static service locator for Unity. Register implementations against an interface,
+  resolve them anywhere with Find<T>(), and replace or clear registrations for testing.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.service-locating/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/ServiceLocating/README.md
+createdAt: 1788091545347
