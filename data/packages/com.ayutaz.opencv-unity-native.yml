@@ -1,0 +1,28 @@
+name: com.ayutaz.opencv-unity-native
+aliases: []
+displayName: OpenCV Unity Native
+description: >-
+  OpenCV 5 for Unity through a project-owned C ABI. Ships prebuilt native
+  binaries for Windows x64, macOS arm64 and Linux x64 in a single package, so
+  one dependency covers the editor and the build target.
+
+
+  Not a wrapper around OpenCvSharp. The C ABI is versioned, IL2CPP-safe and
+  built reproducibly by CI; ownership, stride and error handling are contract
+  tested. Requires Unity 6000.3 or newer.
+repoUrl: https://github.com/ayutaz/OpenCVUnityNative
+trackingMode: githubRelease
+githubReleaseAssetName: com.ayutaz.opencv-unity-native.tgz
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - integration
+  - utilities
+hunter: ayutaz
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '0.2.0'
+readme: main:README.md
+createdAt: 1788065874335
