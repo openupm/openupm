@@ -1,0 +1,22 @@
+name: com.yuna0x0.basis.convert
+aliases: []
+displayName: Basis Convert
+description: >-
+  Convert avatars, clothing and props from other social VR platforms for use
+  with Basis: physics, constraints, the avatar descriptor and menu toggles.
+repoUrl: https://github.com/yuna0x0/basis-convert
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - animation
+  - editor-enhancement
+hunter: yuna0x0
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788106805852
