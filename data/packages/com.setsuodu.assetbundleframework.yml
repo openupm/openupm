@@ -1,0 +1,20 @@
+name: com.setsuodu.assetbundleframework
+aliases: []
+displayName: AssetBundle Framework
+description: >-
+  Traditional AssetBundle loader with UniTask: ref-count, dedupe load,
+  CancellationToken, hot-update via StreamingAssets ab_config.json.
+repoUrl: https://github.com/setsuodu/AssetBundleFramework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: setsuodu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.setsuodu.assetbundleframework/README.md
+createdAt: 1788201381110
