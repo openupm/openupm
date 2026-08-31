@@ -1,0 +1,20 @@
+name: com.arman.inventory-system
+aliases: []
+displayName: Inventory System
+description: >-
+  Generic item tracking with quantity management, constraint-based validation (min/max), and
+  subscription callbacks for change notifications.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.inventory-system/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/InventorySystem/README.md
+createdAt: 1788160312088
