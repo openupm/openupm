@@ -1,0 +1,22 @@
+name: com.arman.configuration-management
+aliases: []
+displayName: Configuration Management
+description: >-
+  Applies configuration to objects through registered configurers. A configuration manager
+  resolves the configurer for a target type and configures it; composite and dynamic
+  configurers combine behaviour, and ScriptableObject-backed configurers let data designers
+  author values in the Editor.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - data-management
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.configuration-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/ConfigurationManagement/README.md
+createdAt: 1788160312088
