@@ -1,0 +1,21 @@
+name: com.arman.update-management
+aliases: []
+displayName: Update Management
+description: >-
+  Channel-based update loop management. Register IUpdatable objects against named channels,
+  nest channels inside one another, then pause, resume or time-scale a channel and everything
+  below it. A MonoBehaviour adapter drives the whole thing from Unity’s update loop.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.update-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/UpdateManagement/README.md
+createdAt: 1788160312088
