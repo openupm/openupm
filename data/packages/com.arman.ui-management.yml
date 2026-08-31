@@ -1,0 +1,20 @@
+name: com.arman.ui-management
+aliases: []
+displayName: UI Management
+description: >-
+  Canvas-based UI framework with MainWindow/Popup Window stack hierarchy, back-button
+  navigation, and focus-aware panel layering.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - frameworks
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.ui-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: "master:Packages/UI Management/README.md"
+createdAt: 1788160312088
