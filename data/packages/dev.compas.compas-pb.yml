@@ -1,0 +1,24 @@
+name: dev.compas.compas-pb
+aliases: []
+displayName: COMPAS Protobuf
+description: >-
+  Serialize and deserialize COMPAS Data types with Protocol Buffers. Provides
+  the compas_pb 1.2 wire format bindings and runtime, so Unity projects can
+  exchange geometry and data structures with COMPAS applications written in
+  Python.
+repoUrl: https://github.com/gramaziokohler/compas_pb_csharp
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - utilities
+hunter: gonzalocasas
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1788202065443
