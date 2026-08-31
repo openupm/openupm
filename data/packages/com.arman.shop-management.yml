@@ -1,0 +1,21 @@
+name: com.arman.shop-management
+aliases: []
+displayName: Shop Management
+description: >-
+  Storefront and purchasing logic for in-game shops. Models shop packages (including composite
+  bundles), routes purchases through pluggable purchase handlers, applies the package on
+  success, and reports success or failure results.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - frameworks
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.shop-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/ShopManagement/README.md
+createdAt: 1788160312088

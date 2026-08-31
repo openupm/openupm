@@ -1,0 +1,21 @@
+name: com.arman.development-console
+aliases: []
+displayName: Development Console
+description: >-
+  An in-game development console. Methods marked with [DevOption] are discovered by reflection
+  and surfaced as grouped, clickable commands with optional key-combination shortcuts and
+  typed argument prompts. Includes an on-screen FPS profiler.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.development-console/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/DevelopmentConsole/README.md
+createdAt: 1788160312088

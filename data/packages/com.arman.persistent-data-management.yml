@@ -1,0 +1,20 @@
+name: com.arman.persistent-data-management
+aliases: []
+displayName: Persistent Data Management
+description: >-
+  Serializable data persistence layer with JSON wrapper, PlayerPrefs storage, file I/O via
+  custom streams, and per-channel serialization support.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - frameworks
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.persistent-data-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/PersistentDataManagement/README.md
+createdAt: 1788160312088

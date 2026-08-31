@@ -1,0 +1,21 @@
+name: com.arman.http-connection
+aliases: []
+displayName: Http Connection
+description: >-
+  A UnityWebRequest wrapper. Build a request with a fluent builder (method, URL, headers,
+  query parameters, body, timeout) and send it through a service that reports the result via
+  success and failure callbacks.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - network
+  - integration
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.http-connection/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/HttpConnection/README.md
+createdAt: 1788160312088

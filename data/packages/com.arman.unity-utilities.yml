@@ -1,0 +1,21 @@
+name: com.arman.unity-utilities
+aliases: []
+displayName: Unity Utilities
+description: >-
+  Assorted Unity helpers used across the Arman packages: a coroutine-based delay timer, legacy
+  Animation playback and animator event plumbing, a UnityEvent delegator, and serializable
+  UnityEvent variants for bool, int, float and string.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - frameworks
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.unity-utilities/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/UnityUtilities/README.md
+createdAt: 1788160312088
