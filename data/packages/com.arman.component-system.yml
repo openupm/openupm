@@ -1,0 +1,21 @@
+name: com.arman.component-system
+aliases: []
+displayName: Component System
+description: >-
+  A lightweight composition framework for building entities out of interchangeable components.
+  Provides entity/component abstractions, specialized single-component entities, and a caching
+  entity that avoids repeated component lookups.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.component-system/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/ComponentSystem/README.md
+createdAt: 1788160312088
