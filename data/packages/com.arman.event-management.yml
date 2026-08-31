@@ -1,0 +1,21 @@
+name: com.arman.event-management
+aliases: []
+displayName: Event Management
+description: >-
+  Pub-sub event broadcasting with typed listener registration. Events are dispatched over a
+  snapshot of the listener list, so handlers may register or unregister while an event is
+  being delivered.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.event-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/EventManagement/README.md
+createdAt: 1788160312088
