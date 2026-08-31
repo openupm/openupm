@@ -1,0 +1,20 @@
+name: com.arman.package-basics
+aliases: []
+displayName: Package Basics
+description: >-
+  Pure C# utility abstractions for container types, channel interfaces, and serialization
+  without Unity dependencies.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.package-basics/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/PackageBasics/README.md
+createdAt: 1788160312088
