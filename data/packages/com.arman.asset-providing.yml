@@ -1,0 +1,21 @@
+name: com.arman.asset-providing
+aliases: []
+displayName: Asset Providing
+description: >-
+  Loads Unity assets through pluggable providers, by id or by type, synchronously or
+  asynchronously. Providers can be chained so a lookup falls through to the next one, and
+  configured as ScriptableObject assets in the Editor.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - asset-management
+  - frameworks
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.asset-providing/
+gitTagIgnore: ''
+minVersion: ''
+readme: "master:Packages/Asset Providing/README.md"
+createdAt: 1788160312088
