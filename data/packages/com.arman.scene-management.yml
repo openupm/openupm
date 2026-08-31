@@ -1,0 +1,21 @@
+name: com.arman.scene-management
+aliases: []
+displayName: Scene Management
+description: >-
+  A scene loading helper plus SceneInitilizer, an abstract MonoBehaviour that runs a per-scene
+  Init() from Awake at an early execution order, giving each scene a deterministic bootstrap
+  point.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - utilities
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.scene-management/
+gitTagIgnore: ''
+minVersion: ''
+readme: "master:Packages/Scene Management/README.md"
+createdAt: 1788160312088
