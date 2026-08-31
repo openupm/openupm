@@ -1,10 +1,10 @@
 name: com.yuna0x0.basis.convert
 aliases: []
-displayName: Basis Convert
+displayName: Watari (Converter for Basis)
 description: >-
   Convert avatars, clothing and props from other social VR platforms for use
   with Basis: physics, constraints, the avatar descriptor and menu toggles.
-repoUrl: https://github.com/yuna0x0/basis-convert
+repoUrl: https://github.com/yuna0x0/watari-basis
 trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
