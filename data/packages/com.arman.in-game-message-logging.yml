@@ -1,0 +1,20 @@
+name: com.arman.in-game-message-logging
+aliases: []
+displayName: In Game Message Logging
+description: >-
+  Displays log messages inside a running game as a capped, self-expiring on-screen list, so
+  issues can be diagnosed on device without attaching an editor or an external debugger.
+repoUrl: https://github.com/jahandideh-iman/unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - gui
+hunter: jahandideh-iman
+gitTagPrefix: com.arman.in-game-message-logging/
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/InGameMessageLogging/README.md
+createdAt: 1788160312088
