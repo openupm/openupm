@@ -1,0 +1,24 @@
+name: com.vegetaalpha.pool
+aliases: []
+displayName: VegetaPool
+description: >-
+  Framework-agnostic object pooling: Register/GetObj/ReleaseObj/DestroyPool over
+  any ISpawner. No dependencies — use the static Pool facade or construct/inject
+  your own PoolSystem. Prefabs are supplied by you: SO_AllPoolData is included
+  and works out of the box, or call Register() with a prefab from anywhere
+  (Addressables, Resources, a factory). Import a sample for a runnable demo
+  scene.
+repoUrl: https://github.com/VegetaAlpha/VegetaPool
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - utilities
+hunter: VegetaAlpha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788233307956
