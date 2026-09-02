@@ -2,8 +2,9 @@ name: com.yuna0x0.basis.convert
 aliases: []
 displayName: Watari (Converter for Basis)
 description: >-
-  Convert avatars, clothing and props from other social VR platforms for use
-  with Basis: physics, constraints, the avatar descriptor and menu toggles.
+  Converts VRChat, VRM and Dynamic Bone components on an avatar into their Basis
+  equivalents: jiggle physics, constraints, the avatar descriptor, HVR Vixxy
+  controls and authored motion.
 repoUrl: https://github.com/yuna0x0/watari-basis
 trackingMode: githubRelease
 parentRepoUrl: null
