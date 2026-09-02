@@ -7,8 +7,8 @@ description: >-
   Mask/RectMask2D. Mobile-optimized (no per-frame GC, branchless shaders).
 repoUrl: 'https://github.com/zzamjak-cloud/UVPatternFlow'
 trackingMode: git
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
 topics:
   - gui
   - particles-and-effects
