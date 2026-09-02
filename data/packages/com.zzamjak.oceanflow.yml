@@ -1,0 +1,30 @@
+name: com.zzamjak.oceanflow
+aliases: []
+displayName: OceanFlow
+description: >-
+  Cartoon-style 3D water for Unity URP, designed mobile-first. OceanFlowSurface
+  (XZ grid for oceans and lakes) and OceanFlowRiver (Bezier-path ribbon for
+  rivers) share one shader. Shore foam and depth-tinted color are derived from
+  the scene depth difference. The surface noise is cross-faded between two
+  half-cycle phases that are re-seeded with a random offset and rotation each
+  cycle, so the pattern keeps being born and dissolving instead of sliding as a
+  whole; the per-frame phase constants are computed on the CPU. Vertex Gerstner
+  waves with analytic normals, cel-shaded highlights, and a two-channel UV flow
+  system with 31 DOTween-compatible easings. Large oceans use a camera-following
+  high-density patch plus a coarse far plane with a matching hole; long rivers
+  chain several segments with continuous UV. Per-frame CPU cost is a handful of
+  SetVector calls with zero GC.
+repoUrl: 'https://github.com/zzamjak-cloud/OceanFlow'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+  - level-design
+  - mobile
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1788360770118
