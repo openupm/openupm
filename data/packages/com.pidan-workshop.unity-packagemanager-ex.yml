@@ -1,0 +1,20 @@
+name: com.pidan-workshop.unity-packagemanager-ex
+aliases: []
+displayName: Pidan Workshop - Package Manager Ex
+description: >-
+  自定义包管理窗口（Tools → Pidan Workshop → 包管理器Ex）。列出项目中的包并显示版本，支持在嵌入
+  /Packages、本机路径（file:）和远端 registry 三种安装状态之间一键切换，可查询远端可用版本并切回缓存的本机路径。
+repoUrl: https://github.com/Pidan-Workshop/UnityPackageManagerEx
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - package-management
+hunter: Pidan-Workshop
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788319310037
