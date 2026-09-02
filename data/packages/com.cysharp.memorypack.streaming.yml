@@ -1,0 +1,19 @@
+name: com.cysharp.memorypack.streaming
+aliases: []
+displayName: MemoryPack.Streaming
+description: Zero encoding extreme performance binary serializer for C#.
+repoUrl: https://github.com/iDreamsOfGame/MemoryPack
+trackingMode: git
+parentRepoUrl: https://github.com/Cysharp/MemoryPack
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - data-management
+hunter: iDreamsOfGame
+gitTagPrefix: com.cysharp.memorypack.streaming/
+gitTagIgnore: ''
+minVersion: 1.21.4
+readme: main:README.md
+createdAt: 1788322088912
