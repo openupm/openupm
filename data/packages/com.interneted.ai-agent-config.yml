@@ -1,0 +1,21 @@
+name: com.interneted.ai-agent-config
+aliases: []
+displayName: AI Agent Config
+description: Maintain MCP servers and Agent Skills once for Claude Code and Codex.
+repoUrl: 'https://github.com/InternetED/ai-agent-config'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+  - utilities
+gitTagPrefix: ''
+gitTagIgnore: '-master$'
+minVersion: '0.1.0'
+image: null
+createdAt: 1788372085145
+readme: 'main:README.md'
+hunter: InternetED
