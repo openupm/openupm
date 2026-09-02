@@ -17,8 +17,8 @@ description: >-
 repoUrl: 'https://github.com/zzamjak-cloud/Water2D'
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
 topics:
   - 2d
   - particles-and-effects
