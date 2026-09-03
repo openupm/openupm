@@ -1,0 +1,20 @@
+name: com.jeomseon.unity.projector
+aliases: []
+displayName: Jeomseon Unity Projector
+description: >-
+  Experimental URP mesh projection primitives for Unity 6000.6. The projection
+  driver (C#) is pipeline-agnostic; bundled shaders target URP 17.6.
+repoUrl: https://github.com/jeomseon0516/Unity.Projector
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.1
+readme: main:README.md
+createdAt: 1788414806384
