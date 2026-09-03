@@ -1,0 +1,33 @@
+
+name: com.zzamjak.toonshading
+aliases: []
+displayName: ToonShading
+description: >-
+  Cartoon shading for Unity URP, designed mobile-first. The ToonLit shader
+  splits half-Lambert diffuse into two tones (optionally three) with a tinted
+  shade color, stepped toon specular, view-based rim light, and screen-space
+  sketch hatching that cross-hatches in the darkest band. A full-screen outline
+  renderer feature runs Roberts cross edge detection over the camera depth and
+  normals textures; depth edges are normalized by center depth so line weight
+  stays constant with distance, normal edges catch interior creases, and a
+  grazing-angle suppressor removes false lines on floors and walls. The outline
+  composites by blending only, without copying scene color, so it needs no extra
+  render target, and its thickness is converted against a reference height so
+  line weight survives viewport resizes. Turning normal edges off avoids the URP
+  DepthNormals prepass entirely and detects silhouettes from depth alone. Color,
+  thickness, and sketch jitter can be overridden at runtime through a static API
+  or a scene component with a hit-flash helper.
+repoUrl: 'https://github.com/zzamjak-cloud/ToonShading'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+  - camera
+  - mobile
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1788478973000
