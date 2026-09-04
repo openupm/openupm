@@ -3,7 +3,7 @@ aliases: []
 displayName: SimpleScroll
 description: SimpleScroll
 repoUrl: https://github.com/kurobon-jp/SimpleScroll
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
