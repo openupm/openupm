@@ -3,7 +3,7 @@ aliases: []
 displayName: SmartDebugger
 description: SmartDebugger
 repoUrl: https://github.com/kurobon-jp/SmartDebugger
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
