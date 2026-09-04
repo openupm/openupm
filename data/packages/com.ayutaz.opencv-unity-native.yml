@@ -3,8 +3,9 @@ aliases: []
 displayName: OpenCV Unity Native
 description: >-
   OpenCV 5 for Unity through a project-owned C ABI. Ships prebuilt native
-  binaries for Windows x64, macOS arm64 and Linux x64 in a single package, so
-  one dependency covers the editor and the build target.
+  binaries for Windows x64, macOS arm64, Linux x64, Android arm64-v8a, iOS
+  arm64 and Web (WebGL) in a single package, so one dependency covers the
+  editor and the build target.
 
 
   Not a wrapper around OpenCvSharp. The C ABI is versioned, IL2CPP-safe and
