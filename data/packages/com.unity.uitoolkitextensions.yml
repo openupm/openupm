@@ -1,0 +1,22 @@
+name: com.unity.uitoolkitextensions
+aliases: []
+displayName: Unity UI Toolkit Extensions
+description: >-
+  An extension project for the Unity3D UI Toolkit system, all crafted and
+  contributed by the awesome Unity community
+repoUrl: https://github.com/Unity-UI-Extensions/com.unity.uitoolkitextensions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: >-
+  https://raw.githubusercontent.com/Unity-UI-Extensions/Unity-UI-Extensions.GitHub.io/refs/heads/main/assets/img/presskit/unity-store-hero-uitoolkit.svg
+topics:
+  - 2d
+  - gui
+hunter: SimonDarksideJ
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788608540787
