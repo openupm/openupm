@@ -1,0 +1,21 @@
+name: devlocker.utils.wiseserializereferencedrawer
+aliases: []
+displayName: Wise Serialize Reference Drawer
+description: >-
+  SerializeReference drawer that allows you to populate the property with
+  instance inheriting the given type.
+repoUrl: https://github.com/NibbleByte/UnityWiseSerializeReference
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/NibbleByte/UnityWiseSerializeReference/blob/master/Docs/PublishImages/CardImage.png
+topics:
+  - editor-enhancement
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1788598998480
