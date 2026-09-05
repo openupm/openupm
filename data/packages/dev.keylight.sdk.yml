@@ -1,0 +1,24 @@
+name: dev.keylight.sdk
+aliases: []
+displayName: Keylight
+description: >-
+  Offline-first licensing for Unity — signed Ed25519 leases, activations and
+  entitlements, with a trial and free tier that keep working without a network.
+repoUrl: 'https://github.com/keylight-dev/keylight-csharp'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - integration
+hunter: halloweedev
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '0.3.0'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1788700000000
