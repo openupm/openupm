@@ -10,7 +10,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/NibbleByte/UnityWiseSerializeReference/blob/master/Docs/PublishImages/CardImage.png
+  https://raw.githubusercontent.com/NibbleByte/UnityWiseSerializeReference/refs/heads/master/Docs/PublishImages/CardImage.png
 topics:
   - editor-enhancement
 hunter: NibbleByte
