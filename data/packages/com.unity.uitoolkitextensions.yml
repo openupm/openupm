@@ -7,8 +7,8 @@ description: >-
 repoUrl: https://github.com/Unity-UI-Extensions/com.unity.uitoolkitextensions
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
 image: >-
   https://raw.githubusercontent.com/Unity-UI-Extensions/Unity-UI-Extensions.GitHub.io/refs/heads/main/assets/img/presskit/unity-store-hero-uitoolkit.svg
 topics:
