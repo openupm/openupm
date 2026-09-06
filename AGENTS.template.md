@@ -11,7 +11,7 @@ This repository stores curated OpenUPM package data and the validation wrapper u
 
 ## Build, Test, and Development Commands
 
-- `npm install`: install dependencies from `package-lock.json`.
+- `npm ci`: install dependencies from `package-lock.json` without rewriting it.
 - `npm test`: run the full repository test suite. Currently this aliases `npm run test:data`.
 - `npm run test:data`: validate `data/` with the built validator from `openupm-next`.
 
@@ -19,8 +19,6 @@ The data test expects a built `openupm-next` checkout next to this repository at
 When validating against an `openupm-next` feature worktree, set
 `OPENUPM_NEXT_PATH` to that worktree and ensure its
 `packages/@openupm/local-data/build/cli/validate-data.js` has been rebuilt.
-
-When searching, remember `rg` skips hidden paths by default. Use `rg --hidden ...` when hidden project directories need to be included.
 
 When staging the `openupm-next/apps/docs` dev server for browser testing, bind to `0.0.0.0` so LAN users can visit it.
 
