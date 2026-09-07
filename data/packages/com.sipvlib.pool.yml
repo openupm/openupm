@@ -1,0 +1,22 @@
+name: com.sipvlib.pool
+aliases: []
+displayName: SiPVLib Pool
+description: >-
+  Object pooling for prefabs (bullets, VFX, UI views, enemies) behind a single
+  static PoolManager facade, with per-prefab prewarm/max-size/auto-cleanup
+  tuning via a PoolConfig asset.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.pool
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - asset-management
+  - frameworks
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788797339700
