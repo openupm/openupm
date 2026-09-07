@@ -1,0 +1,22 @@
+name: com.sipvlib.vibrate
+aliases: []
+displayName: SiPVLib Vibrate
+description: >-
+  A haptic feedback facade (VibrateManager) with config-driven presets, a
+  persisted on/off switch, and a UI pointer-interaction component, with optional
+  integration with the paid Solo MOST_IN_ONE Haptic Feedback Asset Store plugin.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.vibrate
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788798287974
