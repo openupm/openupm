@@ -1,0 +1,22 @@
+name: com.sipvlib.providers
+aliases: []
+displayName: SiPVLib Providers
+description: >-
+  Editor window and registry for managing third-party providers (ad networks,
+  storage backends) used by SiPVLib. Installs/removes provider packages via
+  Package Manager and toggles the scripting defines that gate each provider's
+  code, so unused SDKs never end up in a build.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.providers
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - package-management
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788739442207
