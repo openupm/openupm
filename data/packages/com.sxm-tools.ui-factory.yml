@@ -1,9 +1,11 @@
-name: com.sxm.ui-factory
-aliases: []
+name: com.sxm-tools.ui-factory
+aliases:
+  - com.sxm.ui-factory
 displayName: UI Factory
 description: >-
-  Factory of various UI components, from primitives (line, point) to complex
-  objects (graph). UI meshes support conversion to uGUI and UIElements formats.
+  Mesh builder for custom UI Toolkit controls: describe a line, a point marker,
+  a series of points or a whole graph, and the factory builds and caches the
+  mesh for generateVisualContent. Geometry is Burst-compiled.
 repoUrl: https://github.com/sxm-sxpxxl/ui-factory
 trackingMode: git
 parentRepoUrl: null
@@ -18,6 +20,6 @@ topics:
 hunter: sxm-sxpxxl
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '3.0.0'
 readme: master:README.md
 createdAt: 1754400408639
