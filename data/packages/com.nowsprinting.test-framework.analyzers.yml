@@ -1,7 +1,7 @@
 name: com.nowsprinting.test-framework.analyzers
 aliases: []
-displayName: UTF.Analyzers
-description: Roslyn analyzers that help you write unit tests using the Unity Test Framework
+displayName: UTF Analyzers
+description: Roslyn analyzers to help you write safer unit tests with the Unity Test Framework
 repoUrl: https://github.com/nowsprinting/test-framework.analyzers
 trackingMode: git
 parentRepoUrl: null
