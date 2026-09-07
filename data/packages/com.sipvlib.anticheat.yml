@@ -1,0 +1,24 @@
+name: com.sipvlib.anticheat
+aliases: []
+displayName: SiPVLib AntiCheat
+description: >-
+  Server-verified game time (GameTime, fetched from a fallback chain of public
+  time APIs instead of the device clock) plus lightweight heuristic runtime
+  integrity checks (IntegrityChecker: debugger, root/jailbreak, emulator, and
+  clock-tamper detection).
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.anticheat
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - services
+  - utilities
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788797244142
