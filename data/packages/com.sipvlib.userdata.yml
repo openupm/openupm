@@ -1,0 +1,26 @@
+name: com.sipvlib.userdata
+aliases: []
+displayName: SiPVLib UserData
+description: >-
+  A player save-data layer behind one facade (UserDataManager), persisted
+  through pluggable IStorageProviders (PlayerPrefs/LocalFile/Firestore), with
+  versioned schemas, automatic migration, opt-in write batching for hot-path
+  counters, and an optional Odin Inspector-powered editor window for
+  inspecting/editing saved data.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.userdata
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+  - frameworks
+  - integration
+  - services
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788798001392
