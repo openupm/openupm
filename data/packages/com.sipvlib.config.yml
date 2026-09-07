@@ -1,0 +1,25 @@
+name: com.sipvlib.config
+aliases: []
+displayName: SiPVLib Config
+description: >-
+  A ScriptableObject-based game config system
+  (GameConfig/ConfigManager/ConfigRoot) supporting
+  Local/Resources/Addressable/RemoteConfig-backed data sources, with an optional
+  Odin Inspector-powered editor tool (MasterWindow) for authoring configs.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.config
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - asset-management
+  - frameworks
+  - services
+  - utilities
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788747833854
