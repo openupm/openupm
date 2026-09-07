@@ -1,0 +1,24 @@
+name: com.sipvlib.ads
+aliases: []
+displayName: SiPVLib Ads
+description: >-
+  A mediation-agnostic facade (AdsManager/AdsPlatformController) over AdMob,
+  AppLovin MAX, and Unity LevelPlay ad networks, with config-driven
+  rate-limiting, unlock-condition gating, and reward-fraud checks, where each
+  network's real SDK calls are conditionally compiled via versionDefines based
+  on installed ad SDK packages.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.ads
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788798369304
