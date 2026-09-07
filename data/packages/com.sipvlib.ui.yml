@@ -1,0 +1,22 @@
+name: com.sipvlib.ui
+aliases: []
+displayName: SiPVLib UI
+description: >-
+  Screen/Window/Popup/Top/Tutorial UI view management behind a single UIManager
+  facade, with views pooled via SiPV.Pool, tuned via SiPV.Config (ViewConfig),
+  and lifecycle (Show/Hide/Complete) broadcasts over SiPV.Event.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.ui
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - gui
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788797786597
