@@ -1,0 +1,20 @@
+name: com.sipvlib.debugging
+aliases: []
+displayName: SiPVLib Debugging
+description: >-
+  Log wrapper for SiPVLib, toggleable via the LOGGING_DISABLE scripting define
+  symbol.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.debugging
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788738726931
