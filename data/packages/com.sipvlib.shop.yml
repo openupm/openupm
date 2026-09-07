@@ -1,0 +1,23 @@
+name: com.sipvlib.shop
+aliases: []
+displayName: SiPVLib Shop
+description: >-
+  A store-agnostic in-game shop layer (ShopManager/IShopManager) on top of Unity
+  IAP v5, supporting IAP, currency-conversion, rewarded-ad, and free shop items
+  with purchase/restore orchestration, reward granting, and event broadcasting.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.shop
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - data-management
+  - frameworks
+  - mobile
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788798582485
