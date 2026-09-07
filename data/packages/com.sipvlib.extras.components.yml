@@ -1,0 +1,26 @@
+name: com.sipvlib.extras.components
+aliases: []
+displayName: SiPVLib Extras Components
+description: >-
+  Drop-in MonoBehaviour components used across SiPVLib games: ButtonHandler (tap
+  + repeating hold with SFX and haptics), TMPEffect (SDF outline/shadow plus
+  vertex-colour gradient for TextMeshPro, no extra draw calls), EmptyGraphic
+  (raycast target with zero draw cost), SafeArea (notch-aware RectTransform
+  driver), BackgroundCapture (flattens the render behind it into a RenderTexture
+  to cut UI overdraw), plus SortingLayerSetter, AspectRatioFitterPlus and
+  ScreenOrientationLock.
+repoUrl: https://github.com/phajmvawnsix/com.sipvlib.extras.components
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: phajmvawnsix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1788798671950
