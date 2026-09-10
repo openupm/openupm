@@ -1,0 +1,22 @@
+name: com.setsuodu.excelconfigcompiler
+aliases: []
+displayName: Excel Config Compiler
+description: >-
+  Lightweight Excel → C# code + binary config compiler for Unity. EPPlus read
+  tables, generate explicit Read/Write (no reflection), runtime ByteReader is
+  ref struct (0 GC numeric path). Similar to Luban code-gen approach but
+  minimal.
+repoUrl: https://github.com/setsuodu/ExcelConfigCompiler
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - data-management
+hunter: setsuodu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.setsuodu.excelconfigcompiler/README.md
+createdAt: 1789054167764
