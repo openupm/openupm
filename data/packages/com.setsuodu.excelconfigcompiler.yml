@@ -9,7 +9,7 @@ description: >-
 repoUrl: https://github.com/setsuodu/ExcelConfigCompiler
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: ''
 topics:
