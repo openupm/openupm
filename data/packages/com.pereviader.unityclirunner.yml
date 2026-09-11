@@ -1,13 +1,12 @@
-name: com.pereviader.unityclirunner
-aliases: []
-displayName: Unity CLI Runner
+name: com.pereviader.unityleanmcp
+aliases:
+  - com.pereviader.unityclirunner
+displayName: Unity Lean MCP
 description: >-
-  A lightweight, high-performance tool that bridges external command line
-  interfaces (and AI coding agents) with the Unity Editor. It enables sub-second
-  compilation loops, clean test execution, and static method invocations by
-  communicating with a running Unity Editor (or headless background instance)
-  via loopback TCP sockets.
-repoUrl: https://github.com/PereViader/UnityCliRunner
+  A lightweight, zero-bloat Unity MCP server.
+  Designed from the ground up for TDD with AI agents.
+  No redundant tools. No context window bloat.
+repoUrl: https://github.com/PereViader/UnityLeanMcp
 trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
@@ -18,7 +17,7 @@ topics:
 hunter: PereViader
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.8.0-preview.9'
 readme: main:README.md
 createdAt: 1782514311076
-githubReleaseAssetName: com.pereviader.unityclirunner
+githubReleaseAssetName: com.pereviader.unityleanmcp
