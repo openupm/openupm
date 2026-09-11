@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.game-object-pooling.ownership
+aliases: []
+displayName: Jeomseon Unity GameObject Pooling Ownership
+description: >-
+  Generated owner-lifetime management for pooled GameObjects and Components.
+repoUrl: https://github.com/jeomseon0516/Unity.GameObjectPooling.Ownership
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1789140246941
