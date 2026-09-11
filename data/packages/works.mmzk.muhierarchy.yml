@@ -1,0 +1,22 @@
+name: works.mmzk.muhierarchy
+aliases: []
+displayName: muHierarchy
+description: >-
+  Unity editor extensions (Hierarchy enhancements: prefab/component icons, tag
+  background coloring, etc.)
+repoUrl: https://github.com/uisawara/mmzkworks-unitypackages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/uisawara/mmzkworks-unitypackages/blob/main/Assets/UnityPackages/works.mmzk.muhierarchy/Documentation~/img/banner-600x300.png?raw=true
+topics:
+  - editor-enhancement
+  - utilities
+hunter: uisawara
+gitTagPrefix: works.mmzk.muhierarchy/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/UnityPackages/works.mmzk.muhierarchy/README.md
+createdAt: 1789089541552
