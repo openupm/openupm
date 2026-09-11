@@ -1,0 +1,16 @@
+name: com.superherounite.ui
+aliases: []
+displayName: Super Hero UI
+description: Editor-only style recipes that bake shared UI styles into Unity prefabs.
+repoUrl: https://github.com/superherounite/com.superherounite.ui
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+hunter: JunsuKim-Super-Hero
+gitTagPrefix: v
+minVersion: 0.1.0-preview.5
+readme: main:README.md
+createdAt: 1789151026218
