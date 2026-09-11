@@ -1,0 +1,19 @@
+name: com.jeomseon.unity.addressables.ownership
+aliases: []
+displayName: Jeomseon Unity Addressables Ownership
+description: >-
+  Generated owner-lifetime management for Addressables assets, collections, and instances.
+repoUrl: https://github.com/jeomseon0516/Unity.Addressables.Ownership
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: jeomseon0516
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.1
+readme: main:README.md
+createdAt: 1789140246941
