@@ -1,0 +1,20 @@
+name: com.setsuodu.mail
+aliases: []
+displayName: Mail
+description: >-
+  In-game mail / compensation client for Unity. Fetch inbox, mark read, claim
+  attachments, delete.
+repoUrl: https://github.com/setsuodu/Mail
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: setsuodu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:client/Packages/com.setsuodu.mail/README.md
+createdAt: 1789227729187
