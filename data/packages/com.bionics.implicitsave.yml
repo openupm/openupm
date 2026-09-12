@@ -1,0 +1,19 @@
+name: com.bionics.implicitsave
+aliases: []
+displayName: ImplicitSave
+description: Zero-config save system for Unity. Declaring a class is enough - no central ScriptableObject, no manual registration, no references to maintain.
+repoUrl: 'https://github.com/bionics07/Implicit-Save'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - data-management
+  - utilities
+  - editor-enhancement
+hunter: bionics07
+gitTagPrefix: ''
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/bionics07/Implicit-Save/main/.github/media/openupm-cover.png'
+readme: 'main:README.md'
+createdAt: 1789232427186
