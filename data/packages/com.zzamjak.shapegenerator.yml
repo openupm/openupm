@@ -1,0 +1,24 @@
+name: com.zzamjak.shapegenerator
+aliases: []
+displayName: ShapeGenerator
+description: >-
+  Editor window that generates shape PNG textures for Unity. Create circle,
+  polygon and star shapes in fill, outline and fill+outline variants, plus
+  gradient (color/alpha) and noise (Perlin/Billow/Ridged) textures with a live
+  preview. Saved PNGs are auto-imported as sprites with 9-slice sprite borders
+  and Android/iOS ASTC 4x4 compression settings applied.
+repoUrl: 'https://github.com/zzamjak-cloud/ShapeGenerator'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - editor-enhancement
+  - sprite-management
+  - procedural-generation
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: null
+createdAt: 1789250653092
+readme: 'main:README.md'
