@@ -7,8 +7,8 @@ description: >-
 repoUrl: https://github.com/setsuodu/Mail
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: 'MIT'
+licenseName: MIT License
 image: ''
 topics:
   - frameworks
