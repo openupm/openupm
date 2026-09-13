@@ -1,0 +1,30 @@
+name: com.gatongone.gneedle.aspect
+aliases: []
+displayName: Gneedle.Aspect
+description: >-
+  Gneedle.Aspect is the aspect weaver of Gneedle: an IL post processor, which
+  the compilation pipeline runs on an assembly as it is compiled, before it is
+  written and loaded. It applies the injectors which the assembly declares, and
+  an injector is an attribute which implements one of the interfaces of
+  Gneedle.Inject and says what to do with the member it is put on. The template
+  which an injector applies is usually a lambda which captures what the
+  attribute was given, and what it captured is written into the assembly which
+  is woven as the value itself. The attributes, and the reference to the weaver
+  which they name, are taken back out of the assembly once they have been
+  applied.
+repoUrl: https://github.com/Gatongone/Gneedle
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - procedural-generation
+  - utilities
+hunter: Gatongone
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Aspect/Unity/README.md
+createdAt: 1789258026082
