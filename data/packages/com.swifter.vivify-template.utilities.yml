@@ -5,8 +5,8 @@ description: Shader utilities and development tools for Vivify maps.
 repoUrl: https://github.com/Swifter1243/VivifyTemplate
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: ''
 topics:
   - ar-and-vr
