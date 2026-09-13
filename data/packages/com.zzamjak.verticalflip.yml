@@ -1,0 +1,35 @@
+name: com.zzamjak.verticalflip
+aliases: []
+displayName: VerticalFlip
+description: >-
+  Split-flap style vertical flip animation for Unity. VerticalFlip alternates
+  between two sprites by rotating vertical slices one after another, the way an
+  outdoor billboard or an airport departure board turns over. A single component
+  drives both world-space SpriteRenderer and uGUI Image inside a Canvas, picking
+  the mode automatically from whichever renderer is present. All rotation happens
+  in the shader, so no mesh is rebuilt and no UI layout pass is triggered while
+  the animation runs. Slice count, flip duration, per-slice delay and the idle
+  interval between flips are exposed in the inspector, along with optional slice
+  separator lines whose width stays constant in UV space regardless of slice
+  count; turning the lines off strips the line math from the shader variant
+  entirely through a shader keyword. Sprite atlas regions are detected and passed
+  to the shader, so atlased sprites sample the correct rect without extra setup.
+  A mobile low-quality mode caps the slice count without mutating the serialized
+  value, and the custom inspector plays the animation live in the scene view with
+  a scrubbable progress slider, so the effect can be tuned without entering play
+  mode. Shaders ship under Runtime/Resources and are also referenced by
+  serialized fields, so they survive player build stripping.
+repoUrl: 'https://github.com/zzamjak-cloud/VerticalFlip'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - 2d
+  - sprite-management
+  - gui
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1789268533603
