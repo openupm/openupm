@@ -1,0 +1,29 @@
+name: com.zzamjak.christmaslights
+aliases: []
+displayName: ChristmasLights
+description: >-
+  Randomised per-bulb colour cycling for a single sprite or UI image, driven by
+  one black-and-white mask. Instead of painting a separate mask per RGBA
+  channel, paint each bulb white on one texture and the editor baker flood-fills
+  it into an ID map that stores a random id, the blob centroid and a soft mask.
+  Colours come from a single Unity Gradient baked to a LUT, so there is no limit
+  on the number of colours, and Fixed/Blend mode switches between hard and
+  smooth transitions. Ships Random, Chase, Wave and Sync motions plus per-bulb
+  twinkle, HDR emissive output for URP Bloom, and a 60-second edit-mode preview
+  that runs without entering Play mode. Time is advanced in the shader, so the
+  runtime CPU cost per frame is zero.
+repoUrl: 'https://github.com/zzamjak-cloud/ChristmasLights'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+  - sprite-management
+  - gui
+  - mobile
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1789262433987
