@@ -1,0 +1,20 @@
+name: com.atticar.deep-clone-lite
+aliases: []
+displayName: Deep Clone Lite
+description: Minimal ScriptableObject deep-cloning utility for Unity.
+repoUrl: https://github.com/Culzean/unity-scriptableobject-deep-clone
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Culzean/unity-scriptableobject-deep-clone/main/Images~/DeepClone_OpenUPM_600x300.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: culzean
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: v1.0.0
+readme: main:README.md
