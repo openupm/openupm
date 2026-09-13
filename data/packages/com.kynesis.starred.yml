@@ -7,7 +7,7 @@ description: >-
   at-a-glance which things are starred from the Project window and the
   Hierarchy.
 repoUrl: https://github.com/landosilva/starred
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
