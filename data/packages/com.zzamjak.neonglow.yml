@@ -1,0 +1,34 @@
+name: com.zzamjak.neonglow
+aliases: []
+displayName: NeonGlow
+description: >-
+  SDF-based neon sign glow effect for Unity. Bake a plain black-and-white mask
+  into a signed distance field with the bundled Neon SDF Baker, then drop the
+  result on a SpriteRenderer or a UI Graphic and add the NeonGlow component. The
+  glass tube, the bright inner core, the tight inner glow and the wide outer
+  glow are all generated procedurally from the distance field, so there is no
+  need to hand-paint channels or author noise textures. One shader core serves
+  both world-space sprites and UI canvases, so identical values give identical
+  results in either context. Flicker is built in with three looks — Hum for the
+  fine tremble of a gas tube, Broken for an erratic bad-starter blink, and
+  Warmup for the stutter right after ignition — and can be limited to the glow
+  so the tube body stays steady. Six color presets are included. Signs that
+  share settings can share one material through the Use Shared Material option
+  so their draw calls batch. The shaders use half precision and branch-free math
+  throughout for a mobile-first cost profile. Bloom is left to the render
+  pipeline: raise Exposure above 1 and enable camera HDR with a URP Volume to
+  spread the light across the screen.
+repoUrl: 'https://github.com/zzamjak-cloud/NeonGlow'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+  - 2d
+  - gui
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1789340832094
