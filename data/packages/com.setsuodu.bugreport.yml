@@ -13,7 +13,7 @@ image: ''
 topics:
   - editor-enhancement
 hunter: setsuodu
-gitTagPrefix: ''
+gitTagPrefix: 'com.setsuodu.bugreport/'
 gitTagIgnore: ''
 minVersion: ''
 readme: main:client/Packages/com.setsuodu.bugreport/README.md
