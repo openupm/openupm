@@ -1,0 +1,20 @@
+name: com.swifter.vivify-template.exporter
+aliases: []
+displayName: VivifyTemplate Exporter
+description: AssetBundle exporter for Vivify maps.
+repoUrl: https://github.com/Swifter1243/VivifyTemplate
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+  - asset-management
+  - testing
+hunter: Swifter1243
+gitTagPrefix: com.swifter.vivify-template.exporter/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm-packages:README.md
+createdAt: 1789256532950
