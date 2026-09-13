@@ -1,0 +1,33 @@
+name: com.gatongone.gneedle.inject
+aliases: []
+displayName: Gneedle.Inject
+description: >-
+  Gneedle.Inject is the weaver of Gneedle: it rewrites the IL of an assembly
+  through Mono.Cecil and weaves a body into it from a template, which is an
+  ordinary C# method. Around advice keeps the body which the method already held
+  and lets the template proceed into it, either with a signature which the
+  template names or with the arguments which the template itself was given. The
+  template reaches the members of the type it is woven into through the
+  placeholders This, Base, Object, Static and Proceed, and names a generic
+  parameter of that type through the tokens T_0 to T_20 and M_0 to M_20. A
+  template which is written as a lambda may capture what it is written among,
+  and what it captured is written into the assembly which is woven as the value
+  itself. The weaver is carried as a plugin of the project, so that the
+  assemblies of the project can be woven by a tool of your own or by the aspect
+  weaver beside this package.
+repoUrl: https://github.com/Gatongone/Gneedle
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - procedural-generation
+  - utilities
+hunter: Gatongone
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Inject/Unity/README.md
+createdAt: 1789258418814
