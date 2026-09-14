@@ -1,0 +1,18 @@
+name: com.zzamjak.oldtveffect
+aliases: []
+displayName: OldTVEffect
+description: >-
+  OldTVEffect adds reusable retro CRT television distortion, scan lines, noise,
+  jitter, and color bleed to SpriteRenderer and uGUI targets.
+repoUrl: 'https://github.com/zzamjak-cloud/OldTVEffect'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - particles-and-effects
+hunter: zzamjak-cloud
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: 'main:README.md'
+createdAt: 1789393000000
