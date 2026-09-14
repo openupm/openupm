@@ -1,0 +1,22 @@
+name: com.atelierai.unity.copilot
+aliases: []
+displayName: Unity Co-Pilot
+description: >-
+  uco — Unity Co-Pilot: AI Skills, Tools, and CLI for the Unity Engine, driven
+  over plain REST + WebSocket. Any C# method may be turned into a tool by a
+  single line. Derived from IvanMurzak/Unity-MCP (Apache-2.0).
+repoUrl: https://github.com/DumoeDss/uco-plugin
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ai
+  - editor-enhancement
+hunter: DumoeDss
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:uco-unity-project/Packages/com.atelierai.unity.copilot/README.md
+createdAt: 1789402559664
