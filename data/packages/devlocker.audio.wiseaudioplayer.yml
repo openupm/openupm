@@ -1,0 +1,20 @@
+name: devlocker.audio.wiseaudioplayer
+aliases: []
+displayName: Wise Audio Player
+description: >-
+  Simple audio framework that replaces the traditional Unity AudioSource
+  component with a similar one that offers more features and customization.
+repoUrl: https://github.com/NibbleByte/UnityWiseAudioPlayer
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+hunter: NibbleByte
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1789498395658
