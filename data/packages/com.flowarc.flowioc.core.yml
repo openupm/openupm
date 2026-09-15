@@ -6,7 +6,7 @@ description: >-
   models and view/mediator binding, plus an editor code generator for
   scaffolding modules.
 repoUrl: https://github.com/FlowArc/FlowIoC
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
