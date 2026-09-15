@@ -1,0 +1,18 @@
+name: com.dotline.exceldatareader
+aliases: []
+displayName: ExcelDataReader
+description: ExcelDataReader 3.9.0 library packaged for Unity.
+repoUrl: https://github.com/Avlorayne/ExcelDataReader_for_unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Avlorayne
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789454839043
