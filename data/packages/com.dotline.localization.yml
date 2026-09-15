@@ -1,0 +1,20 @@
+name: com.dotline.localization
+aliases: []
+displayName: Localization
+description: >-
+  Runtime and editor tooling for project localization data, source import, and
+  Addressables-backed language data loading.
+repoUrl: https://github.com/Avlorayne/Localization
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - localization
+hunter: Avlorayne
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1789454139023
