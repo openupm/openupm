@@ -1,0 +1,21 @@
+name: com.dotline.localization.tmp_extra
+aliases: []
+displayName: Localization TMP Extra
+description: >-
+  Runtime and editor tooling for project localization data, source import, and
+  Addressables-backed language data loading.
+repoUrl: https://github.com/Avlorayne/Localization_TMP_Extra
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - localization
+hunter: Avlorayne
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789456814447
