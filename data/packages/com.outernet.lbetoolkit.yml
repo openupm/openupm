@@ -1,0 +1,20 @@
+name: com.outernet.lbetoolkit
+aliases: []
+displayName: LBE Toolkit
+description: ''
+repoUrl: https://github.com/outernet-foundation/lbe-toolkit
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ar-and-vr
+  - frameworks
+  - network
+hunter: epjecha
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789490805226
