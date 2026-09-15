@@ -1,0 +1,25 @@
+name: com.xiqima.meshtextbaker
+aliases: []
+displayName: Mesh Text Baker
+description: >-
+  Bake localized TMP text/images onto mesh albedo/PBR maps. Optional
+  Unity/I2/custom provider adapters, mod-friendly external overrides and
+  baseline export for books and props. Requires TextMeshPro incl. TMP Essential
+  Resources; works with Built-in, URP and HDRP. Example scenes included:
+  flippable book + feature showcase (Package Manager > Samples).
+repoUrl: https://github.com/xiqima/MeshTextBaker
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/xiqima/MeshTextBaker/refs/heads/main/.github/MTB%20cover.png
+topics:
+  - localization
+  - utilities
+hunter: xiqima
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789512456928
