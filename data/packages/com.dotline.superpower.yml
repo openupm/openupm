@@ -1,0 +1,18 @@
+name: com.dotline.superpower
+aliases: []
+displayName: Superpower
+description: Superpower 3.2.1 parser library packaged for Unity.
+repoUrl: https://github.com/Avlorayne/SuperPower_for_Unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Avlorayne
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789454971508
