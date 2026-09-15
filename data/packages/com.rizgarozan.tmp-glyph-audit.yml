@@ -1,0 +1,24 @@
+name: com.rizgarozan.tmp-glyph-audit
+aliases: []
+displayName: TMP Glyph Audit
+description: >-
+  Find every TextMeshPro text your fonts cannot draw - scenes, prefabs and
+  runtime text, through TMP's real fallback chain. Editor window + CI exit
+  codes.
+repoUrl: https://github.com/RizgarOzan/tmp-glyph-audit
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/RizgarOzan/tmp-glyph-audit/main/docs/missing-glyphs.png
+topics:
+  - editor-enhancement
+  - localization
+  - gui
+hunter: RizgarOzan
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789495514831
