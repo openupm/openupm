@@ -1,0 +1,22 @@
+name: com.aceland.licensing
+aliases: []
+displayName: AceLand Licensing
+description: >-
+  Shared Editor-only licensing core for AceLand paid packages. Provides offline
+  signed-token verification, machine-id seat binding, backend verify / trial
+  calls, and a reusable license UI. Products register a LicenseProductDescriptor
+  and consume a per-product LicenseHandle. Runtime and builds are never gated.
+repoUrl: https://github.com/parsue/com.aceland.licensing
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT License
+image: ''
+topics:
+  - package-management
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.1
+readme: main:README.md
+createdAt: 1789601430535
