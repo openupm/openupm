@@ -10,7 +10,7 @@ trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: ''
+image: 'https://raw.githubusercontent.com/maximivanov59540/machine-eyes/main/docs/images/cover.png'
 topics:
   - editor-enhancement
   - gui
