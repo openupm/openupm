@@ -1,0 +1,23 @@
+name: com.machine-eyes.ui-eye
+aliases: []
+displayName: ui-eye
+description: >-
+  Machine eye for UI Toolkit panels: one cold batch run of the Unity editor
+  shoots a panel in every requested state and screen size and returns a verdict
+  in numbers, with frames, element trees and a contact sheet.
+repoUrl: https://github.com/maximivanov59540/machine-eyes
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - testing
+hunter: maximivanov59540
+gitTagPrefix: ui-eye/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789577873442
