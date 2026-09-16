@@ -1,0 +1,26 @@
+name: com.aceland.lifecycle
+aliases: []
+displayName: AceLand Lifecycle
+description: >-
+  Deterministic, dependency-ordered global initialization for Unity packages.
+
+
+  Attributes only register; a topological sorter decides the real execution
+  order.
+repoUrl: https://github.com/parsue/com.aceland.lifecycle
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - profiling
+  - services
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+readme: main:README.md
+createdAt: 1789602464594
