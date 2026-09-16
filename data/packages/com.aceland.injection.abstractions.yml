@@ -1,0 +1,22 @@
+name: com.aceland.injection.abstractions
+aliases: []
+displayName: AceLand Injection Abstractions
+description: >-
+  Attributes and interfaces for AceLand Injection. Reference this from packages
+  that publish services: no container, no engine dependency, ~15 KB.
+repoUrl: https://github.com/parsue/com.aceland.injection.abstractions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - services
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1789602660314
