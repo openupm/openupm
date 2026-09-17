@@ -1,0 +1,20 @@
+name: com.playserv.sdk
+aliases: []
+displayName: PlayServ SDK
+description: PlayServ multiplayer SDK for Unity (runtime, editor tooling, and samples).
+repoUrl: https://github.com/playserv1/playserv-unity-sdk
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - integration
+  - network
+hunter: d-huch
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789627790288
