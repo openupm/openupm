@@ -1,0 +1,19 @@
+name: org.outernet.placeframe
+aliases: []
+displayName: Placeframe
+description: Visual Localization System for Unity
+repoUrl: https://github.com/outernet-foundation/placeframe
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - ar-and-vr
+  - frameworks
+hunter: epjecha
+gitTagPrefix: placeframe-core-
+gitTagIgnore: ''
+minVersion: ''
+readme: main:packages/unity/Placeframe/SPEC.md
+createdAt: 1789668870521
