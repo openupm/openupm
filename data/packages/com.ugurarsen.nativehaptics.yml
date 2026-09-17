@@ -5,8 +5,8 @@ description: Modern, zero-dependency native haptics for Unity. Drop-in replaceme
 repoUrl: 'https://github.com/ugurarsen/NativeHaptics'
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: LGPL-3.0
-licenseName: GNU Lesser General Public License v3
+licenseSpdxId: LGPL-3.0-only
+licenseName: GNU Lesser General Public License v3.0 only
 topics:
   - mobile
   - integration
