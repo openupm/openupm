@@ -1,0 +1,18 @@
+name: com.ugurarsen.nativehaptics
+displayName: Native Haptics
+repoUrl: 'https://github.com/ugurarsen/NativeHaptics'
+parentRepoUrl: null
+licenseSpdxId: LGPL-3.0-only
+licenseName: GNU Lesser General Public License v3.0
+topics:
+  - mobile
+  - integration
+  - input-management
+  - utilities
+hunter: ugurarsen
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minTag: '1.0.0'
+image: 'https://raw.githubusercontent.com/ugurarsen/NativeHaptics/main/Documentation~/cover.png'
+readme: 'main:README.md'
+createdAt: 1726600000000
