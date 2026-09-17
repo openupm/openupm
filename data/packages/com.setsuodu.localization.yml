@@ -1,0 +1,21 @@
+name: com.setsuodu.localization
+aliases: []
+displayName: Localization
+description: >-
+  Pure Excel-driven localization core for Unity. No ScriptableObject. Key-based.
+  Binary hot-update friendly. UI bindings as Samples (legacy uGUI Text + UI
+  Toolkit with UXML demo).
+repoUrl: https://github.com/setsuodu/Localization
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - localization
+hunter: setsuodu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.setsuodu.localization/README.md
+createdAt: 1789608671285
