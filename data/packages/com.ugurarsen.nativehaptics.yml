@@ -8,7 +8,7 @@ repoUrl: https://github.com/ugurarsen/NativeHaptics
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: LGPL-3.0-only
-licenseName: GNU Lesser General Public License v3.0
+licenseName: GNU Lesser General Public License v3.0 only
 image: https://raw.githubusercontent.com/ugurarsen/NativeHaptics/main/Documentation~/cover.png
 topics:
   - input-management
