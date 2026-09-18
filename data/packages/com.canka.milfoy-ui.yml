@@ -1,10 +1,12 @@
 name: com.canka.milfoy-ui
+aliases: []
 displayName: Milfoy UI - 3D Depth Inspector
 description: Interactive 3D exploded viewport for debugging uGUI Canvas draw order, raycast blockers, and mask boundaries directly inside the Unity Editor.
 repoUrl: https://github.com/Canka76/milfoy-ui
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
+image: ''
 topics:
   - ui
   - ugui
@@ -13,6 +15,9 @@ topics:
   - editor
   - depth
 hunter: Canka76
-gitTagPrefix: v
+gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
+trackingMode: git
+readme: main:README.md
+createdAt: 1773842073000
