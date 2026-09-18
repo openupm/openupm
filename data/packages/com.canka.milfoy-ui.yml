@@ -8,12 +8,9 @@ licenseSpdxId: MIT
 licenseName: MIT License
 image: ''
 topics:
-  - ui
-  - ugui
-  - canvas
-  - debug
-  - editor
-  - depth
+  - gui
+  - editor-enhancement
+  - debugging-and-logging
 hunter: Canka76
 gitTagPrefix: ''
 gitTagIgnore: ''
