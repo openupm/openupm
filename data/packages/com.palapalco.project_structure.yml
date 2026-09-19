@@ -11,7 +11,7 @@ image: ''
 topics:
 - editor-enhancement
 hunter: Ario92
-gitTagPrefix: ''
+gitTagPrefix: 'ProjectStructure/v'
 gitTagIgnore: ''
 minVersion: ''
 readme: Dev:Packages/ProjectStructure/ProjectStructure/README.md
