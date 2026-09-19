@@ -1,0 +1,22 @@
+name: com.wagenheimer.packagehub
+aliases: []
+displayName: Wagenheimer Package Hub
+description: >-
+  Unified package manager, update checker, and ecosystem catalog for
+  Wagenheimer Unity packages. Automatically discovers installed packages,
+  checks for remote updates, renders rich multi-version changelogs, and
+  enables one-click installs and updates via Unity Package Manager.
+repoUrl: https://github.com/wagenheimer/UnityPackageHub
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - editor-enhancement
+hunter: wagenheimer
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1789777221481
