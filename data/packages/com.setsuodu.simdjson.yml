@@ -1,0 +1,22 @@
+name: com.setsuodu.simdjson
+aliases: []
+displayName: SimdJSON for Unity
+description: >-
+  High-performance SIMD-accelerated JSON parser for Unity, powered by the
+  simdjson C++ library. Provides a complete runtime C# API with native plugin,
+  samples demonstrating all methods, and benchmarks against Newtonsoft.Json
+  (com.unity.nuget.newtonsoft-json).
+repoUrl: https://github.com/setsuodu/simdjson
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+hunter: setsuodu
+gitTagPrefix: com.setsuodu.simdjson/
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.setsuodu.simdjson/README.md
+createdAt: 1789934878980
