@@ -1,0 +1,18 @@
+name: com.timbojimbo.ui
+aliases: []
+displayName: UI
+description: 'Additional UGUI components: SDF rounded boxes, drop shadows and borders.'
+repoUrl: https://github.com/Timbo-Jimbo/UI
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - gui
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789875273285
