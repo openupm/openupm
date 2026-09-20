@@ -1,0 +1,22 @@
+name: com.timbojimbo.ui.text
+aliases: []
+displayName: UI Text
+description: >-
+  A UGUI text component rendered by Unity's Advanced Text Generator: HarfBuzz
+  shaping, ICU line breaking and bidi, OS font fallback and colour emoji, with
+  no native plugins. Markdown, font stacks and inline prefabs; backgrounds drawn
+  with the UI package's Box.
+repoUrl: https://github.com/Timbo-Jimbo/UI.Text
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - gui
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789875289409
