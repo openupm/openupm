@@ -1,0 +1,22 @@
+name: com.riseon.adimpression
+aliases: []
+displayName: AdImpression
+description: >-
+  Unified ad impression revenue data with adapters for AppLovin MAX, AdMob,
+  NativeAdMob and AppsFlyer
+repoUrl: https://github.com/riseongamestudio/AdImpression
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - services
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789983219726
