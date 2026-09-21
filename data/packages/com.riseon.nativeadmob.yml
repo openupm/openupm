@@ -1,0 +1,22 @@
+name: com.riseon.nativeadmob
+aliases: []
+displayName: NativeAdMob
+description: >-
+  Native AdMob ads for Unity with full-screen, half-screen (collapsible) and
+  in-feed layouts
+repoUrl: https://github.com/riseongamestudio/NativeAdMob
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - services
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1789982742221
