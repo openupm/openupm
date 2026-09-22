@@ -1,0 +1,15 @@
+name: com.wayward.scalecalc
+aliases: []
+displayName: ScaleCalc
+description: 复刻 UGUI CanvasScaler 的换算链为纯函数，与引擎真值对账，并提供选型对照台。
+repoUrl: 'https://github.com/UniversalWall/ScaleCalc'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - gui
+readme: 'main:README.md'
+hunter: UniversalWall
+createdAt: 1790090490000
