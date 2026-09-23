@@ -10,7 +10,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/KurbanismailovZaur/Uniject/blob/master/Documentation~/Images/Uniject%20wide%20logo.png
+  https://raw.githubusercontent.com/KurbanismailovZaur/Uniject/master/Documentation~/Images/Uniject%20wide%20logo.png
 topics:
   - frameworks
 hunter: KurbanismailovZaur
