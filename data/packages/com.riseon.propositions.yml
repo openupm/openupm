@@ -1,0 +1,22 @@
+name: com.riseon.propositions
+aliases: []
+displayName: Propositions
+description: >-
+  Logic propositions composed in the Inspector: formulas with
+  And/Or/AtLeast/AtMost, negation, constants and external sources
+repoUrl: https://github.com/riseongamestudio/Propositions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - editor-enhancement
+  - utilities
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790155418976
