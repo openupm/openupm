@@ -2,7 +2,9 @@ name: com.riseon.serializables
 aliases: []
 displayName: Serializables
 description: >-
-  Serializable wrappers with Odin drawers: EnumMap, SerObject (interface references to Unity objects), SerRef (managed references with type picker) and SerMoment (timestamps)
+  Serializable wrappers with Odin drawers: EnumMap, SerObject (interface
+  references to Unity objects), SerRef (managed references with type picker) and
+  SerMoment (timestamps)
 repoUrl: https://github.com/riseongamestudio/Serializables
 trackingMode: git
 parentRepoUrl: null
@@ -12,6 +14,7 @@ image: ''
 topics:
   - data-management
   - editor-enhancement
+  - utilities
 hunter: riseon-admin
 gitTagPrefix: ''
 gitTagIgnore: ''
