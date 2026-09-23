@@ -1,0 +1,22 @@
+name: com.riseon.wipe2d
+aliases: []
+displayName: Wipe 2D
+description: >-
+  Wipe or reveal sprites and UI images with a brush, with GPU masks, progress
+  tracking, auto-finish threshold and SpriteMask/Mask support
+repoUrl: https://github.com/riseongamestudio/Wipe2D
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - painting
+  - sprite-management
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790155418977
