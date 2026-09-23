@@ -1,0 +1,22 @@
+name: com.riseon.utils.renderers
+aliases: []
+displayName: Utils Renderers
+description: >-
+  Renderer utilities: RendererAnchorer, RendererExt, RenderOrder2DRaycaster,
+  SpriteRenderer color utilities
+repoUrl: https://github.com/riseongamestudio/Utils
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - sprite-management
+  - utilities
+hunter: riseon-admin
+gitTagPrefix: 'com.riseon.utils.renderers/'
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Renderers/README.md
+createdAt: 1790155418973
