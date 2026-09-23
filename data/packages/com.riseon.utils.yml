@@ -2,7 +2,9 @@ name: com.riseon.utils
 aliases: []
 displayName: Utils
 description: >-
-  Extensions and utilities shared by RiseOn packages: Singleton, Bounds2D, undo and math utils, EnumLabel, ForwardAttributesTo, editor tools and search windows
+  Extensions and utilities shared by RiseOn packages: Singleton, Bounds2D, undo
+  and math utils, EnumLabel, ForwardAttributesTo, editor tools and search
+  windows
 repoUrl: https://github.com/riseongamestudio/Utils
 trackingMode: git
 parentRepoUrl: null
@@ -12,6 +14,7 @@ image: ''
 topics:
   - utilities
   - editor-enhancement
+  - frameworks
 hunter: riseon-admin
 gitTagPrefix: 'com.riseon.utils/'
 gitTagIgnore: ''
