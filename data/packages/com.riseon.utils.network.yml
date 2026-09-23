@@ -2,7 +2,8 @@ name: com.riseon.utils.network
 aliases: []
 displayName: Utils Network
 description: >-
-  Network utilities: current time from NTP with an HTTP Date fallback, and a real internet connectivity check
+  Network utilities: current time from NTP with an HTTP Date fallback, and a
+  real internet connectivity check
 repoUrl: https://github.com/riseongamestudio/Utils
 trackingMode: git
 parentRepoUrl: null
@@ -11,6 +12,7 @@ licenseName: MIT License
 image: ''
 topics:
   - network
+  - services
   - utilities
 hunter: riseon-admin
 gitTagPrefix: 'com.riseon.utils.network/'
