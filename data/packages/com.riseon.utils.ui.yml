@@ -1,0 +1,22 @@
+name: com.riseon.utils.ui
+aliases: []
+displayName: Utils UI
+description: >-
+  UGUI utilities: AspectRatioFitterElement, RebuildLayoutFixer and Image color
+  utilities
+repoUrl: https://github.com/riseongamestudio/Utils
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - utilities
+  - 2d
+hunter: riseon-admin
+gitTagPrefix: 'com.riseon.utils.ui/'
+gitTagIgnore: ''
+minVersion: ''
+readme: main:UI/README.md
+createdAt: 1790155418972
