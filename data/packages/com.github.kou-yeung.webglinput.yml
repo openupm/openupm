@@ -1,0 +1,19 @@
+name: com.github.kou-yeung.webglinput
+aliases: []
+displayName: WebGLInput
+description: IME for Unity WebGL
+repoUrl: https://github.com/kou-yeung/WebGLInput
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - input-management
+hunter: JohannesDeml
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1790165422999
