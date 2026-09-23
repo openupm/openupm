@@ -1,0 +1,21 @@
+name: com.codomaster.uniject
+aliases: []
+displayName: Uniject
+description: >-
+  Uniject is a dependency injection framework for Unity. It allows you to easily
+  manage dependencies and improve the modularity of your code.
+repoUrl: https://github.com/KurbanismailovZaur/Uniject
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/KurbanismailovZaur/Uniject/blob/master/Documentation~/Images/Uniject%20wide%20logo.png
+topics:
+  - frameworks
+hunter: KurbanismailovZaur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1790191459133
