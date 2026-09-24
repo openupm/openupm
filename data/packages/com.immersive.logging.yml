@@ -1,0 +1,17 @@
+name: com.immersive.logging
+aliases: []
+displayName: Immersive Logging
+description: Structured and configurable logging primitives for Immersive Unity packages.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersive.logging'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.2.2'
+trackingMode: git
+image: ''
+readme: 'main:README.md'
+hunter: rinnocenti
