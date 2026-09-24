@@ -1,0 +1,17 @@
+name: com.immersive.foundation
+aliases: []
+displayName: Immersive Foundation
+description: Reusable validation, event and finite-state-machine primitives for Immersive Unity packages.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersive.foundation'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.2.1'
+trackingMode: git
+image: ''
+readme: 'main:README.md'
+hunter: rinnocenti
