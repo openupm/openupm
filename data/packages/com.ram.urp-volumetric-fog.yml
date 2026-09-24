@@ -9,8 +9,8 @@ description: >-
 repoUrl: https://github.com/ramalingamthangamani/URP-Volumetric-Fog
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MIT
+licenseSpdxId: MIT
+licenseName: MIT License
 image: >-
   https://raw.githubusercontent.com/ramalingamthangamani/URP-Volumetric-Fog/main/cover.png
 topics:
@@ -21,7 +21,7 @@ topics:
   - particles-and-effects
   - package-management
 hunter: ramalingamthangamani
-gitTagPrefix: v1.1.0
+gitTagPrefix: v
 gitTagIgnore: ''
 minVersion: 1.1.0
 readme: main:README.md
