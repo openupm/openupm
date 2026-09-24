@@ -1,0 +1,28 @@
+name: com.ram.urp-volumetric-fog
+aliases: []
+displayName: URP Volumetric Fog
+description: >-
+  Raymarched volumetric fog and light shafts for URP 17 / Unity 6.
+  RenderGraph-only, XR single-pass instanced safe, half-resolution marching with
+  a depth-aware upsample. Main directional light shadows produce true god rays;
+  point/spot lights opt in per-light via VolumetricFogLight.
+repoUrl: https://github.com/ramalingamthangamani/URP-Volumetric-Fog
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT
+image: >-
+  https://raw.githubusercontent.com/ramalingamthangamani/URP-Volumetric-Fog/main/cover.png
+topics:
+  - ai
+  - ar-and-vr
+  - camera
+  - gui
+  - particles-and-effects
+  - package-management
+hunter: ramalingamthangamani
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 1.1.0
+readme: main:README.md
+createdAt: 1790246776567
