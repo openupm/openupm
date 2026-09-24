@@ -11,7 +11,8 @@ topics:
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '0.2.1'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.immersive.foundation-'
 image: ''
 readme: 'main:README.md'
 hunter: rinnocenti
