@@ -11,7 +11,8 @@ topics:
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '0.2.2'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.immersive.audio-'
 image: ''
 readme: 'main:README.md'
 hunter: rinnocenti
