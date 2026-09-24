@@ -1,0 +1,17 @@
+name: com.immersive.pooling
+aliases: []
+displayName: Immersive Pooling
+description: Generic Unity pooling primitives for Immersive packages.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersive.pooling'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.2.1'
+trackingMode: git
+image: ''
+readme: 'main:README.md'
+hunter: rinnocenti
