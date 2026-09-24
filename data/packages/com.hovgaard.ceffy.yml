@@ -5,7 +5,7 @@ description: >-
   Embeds a CEF (Chromium Embedded Framework) browser inside Unity via a native
   C++ plugin.
 repoUrl: https://github.com/hovgaardgames/ceffy
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
