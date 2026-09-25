@@ -1,0 +1,20 @@
+name: com.immersive.framework
+aliases: []
+displayName: Immersive Framework
+description: Runtime, authoring, diagnostics and validation surfaces for Unity projects.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersive.framework'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - camera
+  - input-management
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.0.2'
+trackingMode: git
+image: ''
+readme: 'master:README.md'
+hunter: rinnocenti
+createdAt: 1790264326627

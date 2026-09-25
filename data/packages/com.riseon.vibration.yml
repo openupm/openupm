@@ -1,0 +1,21 @@
+name: com.riseon.vibration
+aliases: []
+displayName: Vibration
+description: >-
+  Short vibrations for Android and iOS through one static call: light, medium
+  and heavy levels, or your own pulses and patterns
+repoUrl: https://github.com/riseongamestudio/Vibration
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - mobile
+  - input-management
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790321536889
