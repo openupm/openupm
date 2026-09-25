@@ -1,0 +1,23 @@
+name: com.riseon.outline2d
+aliases: []
+displayName: Outline 2D
+description: >-
+  Outline the merged silhouette of a group of sprites or UI Images, expanded
+  exactly like Select > Modify > Expand, with a fixed texel budget and the
+  distance transform on worker threads
+repoUrl: https://github.com/riseongamestudio/Outline2D
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - particles-and-effects
+  - sprite-management
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790321536889
