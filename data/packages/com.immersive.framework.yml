@@ -13,7 +13,8 @@ topics:
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.0.2'
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.immersive.framework-'
 image: ''
 readme: 'master:README.md'
 hunter: rinnocenti
