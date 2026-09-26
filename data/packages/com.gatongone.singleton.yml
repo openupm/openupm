@@ -1,0 +1,19 @@
+name: com.gatongone.singleton
+aliases: []
+displayName: Singleton
+description: Build your singleton without base type.
+repoUrl: https://github.com/Gatongone/Singleton
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: Gatongone
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790387203142
