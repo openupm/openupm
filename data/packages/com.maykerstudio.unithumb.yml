@@ -1,0 +1,24 @@
+name: com.maykerstudio.unithumb
+aliases: []
+displayName: UniThumb
+description: >-
+  Editor tool that renders thumbnails of scenes and draws them on the scene
+  assets in the Unity Project window, so scenes are visually identifiable at a
+  glance.
+repoUrl: https://github.com/MaykerStudio/uni-thumb
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: BSD-3-Clause
+licenseName: BSD 3-Clause "New" or "Revised" License
+image: >-
+  https://raw.githubusercontent.com/MaykerStudio/uni-thumb/refs/heads/main/Documentation%7E/images/thumbnails-comparison.png
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: MaykerStudio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790426429871
