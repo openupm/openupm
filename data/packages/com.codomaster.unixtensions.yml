@@ -1,0 +1,22 @@
+name: com.codomaster.unixtensions
+aliases:
+  - com.codomaster.extensions
+displayName: Unixtensions
+description: >-
+  Unixtensions is a package that contains many extension methods for popular classes in Unity that you can use to write more expressive and concise code.
+repoUrl: https://github.com/KurbanismailovZaur/Unixtensions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/KurbanismailovZaur/Unixtensions/master/Documentation~/Images/Unixtensions%20wide%20logo.png
+imageFit: contain
+topics:
+  - editor-enhancement
+  - utilities
+hunter: KurbanismailovZaur
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '2.0.0'
+readme: master:README.md
+createdAt: 1705623026684
