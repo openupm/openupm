@@ -1,0 +1,21 @@
+name: com.entropyreductionservices.singleton
+aliases: []
+displayName: Unity Singletons
+description: >-
+  MonoBehaviour singleton base class that survives domain reload, scene loads
+  and application shutdown, with Roslyn analyzers that enforce its contract in
+  consuming assemblies.
+repoUrl: https://github.com/MatthewMaker/EntropyReductionServices-Singleton
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: MatthewMaker
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 3.0.0
+readme: main:README.md
+createdAt: 1790492845410
