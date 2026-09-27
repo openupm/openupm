@@ -11,7 +11,7 @@ licenseName: MIT License
 image: ''
 topics:
   - utilities
-hunter: Danil Chizhikov
+hunter: DanilChizhikov
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: "1.2.1"
