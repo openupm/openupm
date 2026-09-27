@@ -1,0 +1,19 @@
+name: com.sagittaras.gamedevkit.messaging
+aliases: []
+displayName: Sagittaras Mediator
+description: Mediator Pattern created for game development.
+repoUrl: https://github.com/sagittaras/gamedev-kit
+trackingMode: githubRelease
+githubReleaseAssetName: com.sagittaras.gamedevkit.messaging-
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+hunter: JZechy
+gitTagPrefix: messaging/
+gitTagIgnore: ''
+minVersion: '1.1.2'
+readme: main:.docs/messaging/index.md
+createdAt: 1790518210674
