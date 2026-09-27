@@ -1,5 +1,6 @@
 name: com.dtech.constantdropdown
-aliases: []
+aliases:
+  - com.danilchizhikov.constantdropdown
 displayName: Constant Dropdown
 description: Custom inspector for constant values
 repoUrl: https://github.com/DanilChizhikov/ConstantDropdown
@@ -10,9 +11,9 @@ licenseName: MIT License
 image: ''
 topics:
   - utilities
-hunter: DanilChizhikov
+hunter: Danil Chizhikov
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: "1.2.1"
 readme: master:README.md
 createdAt: 1790312308681
