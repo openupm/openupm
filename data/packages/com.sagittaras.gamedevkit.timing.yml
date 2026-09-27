@@ -1,0 +1,19 @@
+name: com.sagittaras.gamedevkit.timing
+aliases: []
+displayName: Sagittaras Timing API
+description: Lightweight timer primitives for interval tracking, cooldown management, and callback scheduling in game loops.
+repoUrl: https://github.com/sagittaras/gamedev-kit
+trackingMode: githubRelease
+githubReleaseAssetName: com.sagittaras.gamedevkit.timing-
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+hunter: JZechy
+gitTagPrefix: timing/
+gitTagIgnore: ''
+minVersion: '1.1.3'
+readme: main:.docs/timing/index.md
+createdAt: 1790516270447
