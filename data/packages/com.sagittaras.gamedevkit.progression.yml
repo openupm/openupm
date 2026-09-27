@@ -1,0 +1,19 @@
+name: com.sagittaras.gamedevkit.progression
+aliases: []
+displayName: Sagittaras Progression
+description: Level and experience progression for games.
+repoUrl: https://github.com/sagittaras/gamedev-kit
+trackingMode: githubRelease
+githubReleaseAssetName: com.sagittaras.gamedevkit.progression-
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+hunter: JZechy
+gitTagPrefix: progression/
+gitTagIgnore: ''
+minVersion: '1.1.3'
+readme: main:.docs/progression/index.md
+createdAt: 1790516266085
