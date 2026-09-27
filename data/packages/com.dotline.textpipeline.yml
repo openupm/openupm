@@ -1,0 +1,19 @@
+name: com.dotline.textpipeline
+aliases: []
+displayName: Text Pipeline
+description: 面向 TextMeshPro 的标记语言后处理管线：以类 HTML 的标签声明文本效果，经解析树构建与依赖注入驱动 ITextSink 执行。
+repoUrl: https://github.com/Avlorayne/TextPipeline
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - gui
+hunter: Avlorayne
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790537573139
