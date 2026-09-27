@@ -1,5 +1,6 @@
-name: com.danilchizhikov.constantdropdown
-aliases: []
+name: com.dtech.constantdropdown
+aliases:
+  - com.danilchizhikov.constantdropdown
 displayName: Constant Dropdown
 description: Custom inspector for constant values
 repoUrl: https://github.com/DanilChizhikov/ConstantDropdown
@@ -13,6 +14,6 @@ topics:
 hunter: DanilChizhikov
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: "1.2.1"
 readme: master:README.md
 createdAt: 1790312308681
