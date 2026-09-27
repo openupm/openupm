@@ -17,5 +17,5 @@ hunter: Team Moirai
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:README.md
+readme: master:README.md
 createdAt: 1781141907063
