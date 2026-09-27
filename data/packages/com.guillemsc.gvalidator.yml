@@ -1,0 +1,23 @@
+name: com.guillemsc.gvalidator
+aliases: []
+displayName: GValidator
+description: A generic validation framework for Unity projects.
+repoUrl: https://github.com/Guillemsc/UnityValidator
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - data-management
+  - debugging-and-logging
+  - editor-enhancement
+  - testing
+  - utilities
+hunter: Guillemsc
+gitTagPrefix: ''
+gitTagIgnore: '-preview\.[1-9][0-9]*$'
+minVersion: ''
+readme: main:README.md
+createdAt: 1790504743140
