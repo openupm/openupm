@@ -1,0 +1,22 @@
+name: com.permitcore.sdk
+aliases: []
+displayName: PermitCore License SDK
+description: >-
+  Official PermitCore client for Unity — validate, activate, meter, and
+  floating-checkout license keys, with offline grace caching and signed offline
+  activation tokens. Zero external package dependencies.
+repoUrl: https://github.com/permitCore-spec/permitcore-sdk-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - network
+hunter: permitCore-spec
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790615736327
