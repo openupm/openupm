@@ -1,0 +1,18 @@
+name: today.comes.saintsproject
+aliases: []
+displayName: SaintsProject
+description: A Unity plugin for project tab customize
+repoUrl: https://github.com/TylerTemp/SaintsProject
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: TylerTemp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1790589516978
