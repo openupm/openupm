@@ -1,0 +1,24 @@
+name: com.bionics.implicitui
+aliases: []
+displayName: Implicit UI
+description: >-
+  Small, practical UI improvements for uGUI, where adding the component is the
+  whole setup: fill a Sliced image, gray out a disabled button, grow a touch
+  target to a finger-friendly size, share one font size between labels, and swap
+  fonts across scenes and prefabs.
+repoUrl: https://github.com/bionics07/Implicit-UI
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+  - mobile
+hunter: bionics07
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790620800340
