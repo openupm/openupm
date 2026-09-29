@@ -1,0 +1,22 @@
+name: com.com2usplatform.hiveaxyl.payments.addon.apple
+aliases: []
+displayName: 'Hive Axyl Payments Addon - Apple StoreKit'
+description: 'Apple StoreKit2 in-app purchase addon for Hive Axyl SDK. Wraps Product / Transaction / AppStore to expose raw StoreKit2 product, purchase, and transaction fields (including the signed JWS) on iOS 17.0+ and macOS 15.0+.'
+repoUrl: 'https://github.com/com2usplatform/hiveaxyl-sdk-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+hunter: cocororo-platform
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.com2usplatform.hiveaxyl.payments.addon.apple/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790687310589
