@@ -1,0 +1,22 @@
+name: com.com2usplatform.hiveaxyl.payments.addon.steam
+aliases: []
+displayName: 'Hive Axyl Payments Addon - Steam'
+description: 'Steam Microtransactions addon for Hive Axyl SDK. Wraps the Steamworks SDK MicroTxnAuthorizationResponse_t callback so the App receives raw Steam payment-authorization responses on Windows and macOS.'
+repoUrl: 'https://github.com/com2usplatform/hiveaxyl-sdk-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+hunter: cocororo-platform
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.com2usplatform.hiveaxyl.payments.addon.steam/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790687310589
