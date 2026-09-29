@@ -1,0 +1,22 @@
+name: com.com2usplatform.hiveaxyl.push.addon.applenotification
+aliases: []
+displayName: 'Hive Axyl Push Addon - Apple Local Notification'
+description: 'macOS local-notification addon (UNUserNotificationCenter scheduling via UNTimeIntervalNotificationTrigger / UNCalendarNotificationTrigger + cancel / query) for Hive Axyl. Raw, non-orchestrating, stateless.'
+repoUrl: 'https://github.com/com2usplatform/hiveaxyl-sdk-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+hunter: cocororo-platform
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790687310589
