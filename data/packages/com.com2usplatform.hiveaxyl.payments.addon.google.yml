@@ -1,0 +1,22 @@
+name: com.com2usplatform.hiveaxyl.payments.addon.google
+aliases: []
+displayName: 'Hive Axyl Payments Addon - Google Play Billing'
+description: 'Android Google Play Billing addon (raw Billing Library 9 BillingClient surface: product query, purchase flow, query purchases, acknowledge/consume) for Hive Axyl Payments.'
+repoUrl: 'https://github.com/com2usplatform/hiveaxyl-sdk-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+hunter: cocororo-platform
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790687310589
