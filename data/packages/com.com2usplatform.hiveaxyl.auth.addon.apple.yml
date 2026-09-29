@@ -1,0 +1,22 @@
+name: com.com2usplatform.hiveaxyl.auth.addon.apple
+aliases: []
+displayName: 'Hive Axyl Auth Addon - Apple'
+description: 'Apple Sign-In authentication addon for Hive Axyl SDK. Wraps ASAuthorizationAppleIDProvider / ASAuthorizationController to return raw ASAuthorizationAppleIDCredential fields on iOS 17.0+ and macOS 15.0+.'
+repoUrl: 'https://github.com/com2usplatform/hiveaxyl-sdk-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+hunter: cocororo-platform
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.com2usplatform.hiveaxyl.auth.addon.apple/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790687310589
