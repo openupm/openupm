@@ -1,0 +1,22 @@
+name: com.dtech.omnidebugger
+aliases: []
+displayName: OmniDebugger
+description: Runtime cheat and debug panel for Unity, built on UI Toolkit.
+repoUrl: https://github.com/DanilChizhikov/OmniDebugger
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - frameworks
+  - mobile
+  - testing
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1790698745268
