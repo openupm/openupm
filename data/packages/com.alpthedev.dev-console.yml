@@ -1,0 +1,19 @@
+name: com.alpthedev.dev-console
+aliases: []
+displayName: Dev Console
+description: A drop-down developer console for editor and development builds, with self-registering typed commands and prefix suggestions.
+repoUrl: https://github.com/kureysalp/Unity-Dev-Console
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - debugging-and-logging
+  - utilities
+hunter: kureysalp
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: main:README.md
+createdAt: 1790798888000
