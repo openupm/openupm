@@ -1,0 +1,23 @@
+name: com.timbojimbo.ui.layout
+aliases: []
+displayName: UI Layout
+description: >-
+  Layout and motion for UGUI in one system, modelled on Clay: a layout pass that
+  says where every node goes, and nodes that get there with velocity, on
+  springs. Wrapping and grids, the safe area, show and hide effects, matched
+  names that fly between places, and scrolling with nested drags, paging and
+  indicators.
+repoUrl: https://github.com/Timbo-Jimbo/UI.Layout
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
+image: ''
+topics:
+  - gui
+hunter: timbo-tj
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1790809450176
