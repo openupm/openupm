@@ -1,5 +1,6 @@
-name: com.github.kou-yeung
-aliases: []
+name: com.github.kou-yeung.webglinput
+aliases:
+  - com.github.kou-yeung
 displayName: WebGLInput
 description: IME for Unity WebGL
 repoUrl: https://github.com/kou-yeung/WebGLInput
@@ -14,6 +15,6 @@ topics:
 hunter: JohannesDeml
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '1.5.0'
 readme: master:README.md
 createdAt: 1790165422999
