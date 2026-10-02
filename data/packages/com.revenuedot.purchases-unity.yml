@@ -1,0 +1,25 @@
+name: com.revenuedot.purchases-unity
+aliases: []
+displayName: RevenueDot Purchases SDK for Unity
+description: >-
+  Unity in-app purchases and subscriptions for iOS and Android, talking to
+  RevenueDot, the open-source subscription server. Fork of RevenueCat's MIT
+  SDK, maintained by RevenueDot, not affiliated with RevenueCat. C# namespaces
+  are unchanged.
+repoUrl: 'https://github.com/revenuedot/purchases-unity'
+trackingMode: git
+parentRepoUrl: 'https://github.com/RevenueCat/purchases-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: ShadowWalker2014
+gitTagPrefix: ''
+gitTagIgnore: '^(?!.*-revenuedot$)'
+minVersion: '9.11.1'
+image: ''
+readme: 'revenuedot/main-patches:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790904605423
