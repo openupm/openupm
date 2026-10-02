@@ -1,0 +1,25 @@
+name: com.revenuedot.purchases-ui-unity
+aliases: []
+displayName: RevenueDot Purchases UI SDK for Unity
+description: >-
+  Unity UI components for paywalls and customer center on iOS and Android,
+  for apps that use com.revenuedot.purchases-unity with RevenueDot, the
+  open-source subscription server. Fork of RevenueCat's MIT SDK, maintained by
+  RevenueDot, not affiliated with RevenueCat. C# namespaces are unchanged.
+repoUrl: 'https://github.com/revenuedot/purchases-unity'
+trackingMode: git
+parentRepoUrl: 'https://github.com/RevenueCat/purchases-unity'
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+hunter: ShadowWalker2014
+gitTagPrefix: 'upm/'
+gitTagIgnore: ''
+minVersion: '9.11.1'
+image: ''
+readme: 'revenuedot/main-patches:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1790973752000
