@@ -1,0 +1,24 @@
+name: com.coolishbee.google-signin
+aliases: []
+displayName: Google Sign-In for Unity
+description: >-
+  Google Sign-In for Unity. Android uses CredentialManager +
+  AuthorizationClient, iOS uses GIDSignIn, and Editor/Standalone uses a loopback
+  OAuth flow.
+repoUrl: https://github.com/coolishbee/google-signin-unity
+trackingMode: git
+parentRepoUrl: https://github.com/googlesamples/google-signin-unity
+licenseSpdxId: ''
+licenseName: Apache-2.0
+image: ''
+topics:
+  - integration
+  - mobile
+  - services
+  - utilities
+hunter: coolishbee
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.coolishbee.google-signin/README.md
+createdAt: 1791018158828
