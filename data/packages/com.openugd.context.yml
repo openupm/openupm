@@ -1,0 +1,23 @@
+name: com.openugd.context
+aliases: []
+displayName: Context
+description: >-
+  A composition root, not a framework: BuildAsync validates the whole graph
+  before constructing anything, reports every problem at once, constructs in
+  dependency order and either returns a fully built Context or disposes
+  everything it made. Scoped by Lifetime; no UnityEngine dependency.
+repoUrl: https://github.com/openugd/upm-context
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: dorofiykolya
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1791039586820
