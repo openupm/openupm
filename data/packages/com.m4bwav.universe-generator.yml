@@ -1,0 +1,23 @@
+name: com.m4bwav.universe-generator
+aliases: []
+displayName: Universe Generator
+description: >-
+  Seeded universe, galaxy, star system, planet and moon generator for games and
+  fiction. One seed gives the same galaxy on every platform: names, star types,
+  planets, lanes, regions, danger and story tags, as plain C# data with no
+  engine dependencies.
+repoUrl: https://github.com/m4bwav/UniverseGenerator
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/m4bwav/UniverseGenerator/6e87ad4586ce6e32986bb3619d2cc25e3e8656db/docs/images/openupm-cover.png
+topics:
+  - procedural-generation
+hunter: m4bwav
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: master:README.md
+createdAt: 1791126280163
