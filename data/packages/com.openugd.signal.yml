@@ -1,9 +1,8 @@
 name: com.openugd.signal
 aliases: []
 displayName: Signal
-description: 'require .NET 4x
-
-  '
+description: >-
+  Typed events whose subscriptions are bound to a Lifetime, so a handler cannot outlive its subscriber. Plain C#, Unity 6000.0 or newer.
 repoUrl: https://github.com/openugd/upm-signal
 trackingMode: git
 parentRepoUrl: null

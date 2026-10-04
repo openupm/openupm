@@ -1,9 +1,8 @@
 name: com.openugd.lifetime
 aliases: []
 displayName: Lifetime
-description: 'require .NET 4x
-
-  '
+description: >-
+  Scopes with deterministic, reverse-order clean-up: register actions and nested scopes on a Lifetime, and terminating it runs them once. Plain C#, Unity 6000.0 or newer.
 repoUrl: https://github.com/openugd/upm-lifetime
 trackingMode: git
 parentRepoUrl: null
