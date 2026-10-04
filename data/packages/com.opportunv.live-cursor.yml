@@ -1,0 +1,24 @@
+name: com.opportunv.live-cursor
+aliases: []
+displayName: Live Cursor
+description: >-
+  Animated hardware (OS) cursors with zero added input lag. Looping cursor
+  states, authored transitions that play in reverse and turn around mid-way,
+  per-state click points, and a builder that turns a folder of frames into a
+  cursor set.
+repoUrl: https://github.com/OpportunV/LiveCursor
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/OpportunV/LiveCursor/blob/main/Tools/Branding/social-preview.png?raw=true
+topics:
+  - gui
+  - utilities
+hunter: OpportunV
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:Packages/com.opportunv.live-cursor/README.md
+createdAt: 1791121494625
