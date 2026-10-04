@@ -7,8 +7,8 @@ description: 'require .NET 4x
 repoUrl: https://github.com/openugd/upm-corelib-widgets
 trackingMode: git
 parentRepoUrl: null
-licenseName: MIT License
-licenseSpdxId: MIT
+licenseName: Apache License 2.0
+licenseSpdxId: Apache-2.0
 image: ''
 topics:
 - frameworks

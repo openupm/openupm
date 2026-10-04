@@ -6,8 +6,8 @@ description: |
 repoUrl: https://github.com/openugd/upm-ui
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: MIT
-licenseName: MIT License
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
 image: ''
 topics:
   - gui
