@@ -1,0 +1,24 @@
+name: com.lucasncs.scriptable-object-creator
+aliases: []
+displayName: ScriptableObject Creator
+description: >-
+  Create ScriptableObject assets of any class from the Project window, without
+  adding a [CreateAssetMenu] attribute to each one. Pick the class from a
+  searchable list grouped by namespace, and choose which assemblies it lists in
+  the project settings.
+repoUrl: https://github.com/lucasncs/scriptable-object-creator
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Unlicense
+licenseName: The Unlicense
+image: ''
+topics:
+  - asset-management
+  - editor-enhancement
+  - utilities
+hunter: lucasncs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1791212055169
