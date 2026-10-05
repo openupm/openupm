@@ -1,9 +1,8 @@
 name: com.openugd.corelib
 aliases: []
-displayName: Core Lib
-description: 'require .NET 4x
-
-  '
+displayName: CoreLib
+description: >-
+  The Unity boundary of the OpenUGD family: ContextBehaviour boots a com.openugd.context Context in a scene; presenters, commands and tagged logging. Unity 6000.0 or newer.
 repoUrl: https://github.com/openugd/upm-corelib
 trackingMode: git
 parentRepoUrl: null

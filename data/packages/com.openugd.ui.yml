@@ -1,8 +1,8 @@
 name: com.openugd.ui
 aliases: []
-displayName: UI Elements
-description: |
-  require .NET 4x
+displayName: OpenUGD uGUI Components
+description: >-
+  Three uGUI components that need no shader: UIFlippable mirrors a graphic, GradientMeshEffect writes gradients into vertex colours, EmptyGraphic is an invisible hit area. Unity 6000.0 or newer.
 repoUrl: https://github.com/openugd/upm-ui
 trackingMode: git
 parentRepoUrl: null
