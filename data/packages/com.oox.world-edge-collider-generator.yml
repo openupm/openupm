@@ -1,0 +1,23 @@
+name: com.oox.world-edge-collider-generator
+aliases: []
+displayName: World Edge Collider Generator
+description: >-
+  Wall off the edges of your levels in seconds. Click around your level in the
+  Scene view to place points, and the tool generates a chain of box colliders
+  along them so players can't fall off the world.
+repoUrl: 'https://github.com/ooxcit/world-edge-collider-generator'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - level-design
+  - physics
+  - editor-enhancement
+hunter: lukamiljus123
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'master:README.md'
+createdAt: 1791208414960
