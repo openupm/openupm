@@ -1,0 +1,20 @@
+name: "jp.rhycol.openapicodegen.source-generator"
+aliases: []
+displayName: "OpenApiCodeGen Source Generator (Beta)"
+description: "Source Generator generation is in beta. Review the supported features before use. Incremental Roslyn generation from local and URL multi-document OpenAPI specifications."
+repoUrl: "https://github.com/rebeat-jp/UnityOpenApiCodeGen"
+parentRepoUrl: null
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics:
+  - "code-generation"
+gitTagPrefix: ""
+gitTagIgnore: ""
+minVersion: "0.5.0"
+trackingMode: "githubRelease"
+githubReleaseAssetName: "jp.rhycol.openapicodegen.source-generator-"
+image: null
+imageFit: "cover"
+readme: "main:Packages/OpenApiCodeGen.SourceGenerator/README.md"
+hunter: "HIROHIRO1224"
+createdAt: 1791286380682
