@@ -1,0 +1,22 @@
+name: com.mygamedevtools.fixed-input
+aliases: []
+displayName: My Fixed Tick
+description: A deterministic fixed-step tick and one-shot input intents for Unity.
+repoUrl: 'https://github.com/mygamedevtools/fixed-input'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.mygamedevtools.fixed-input-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - dots-and-ecs
+  - utilities
+hunter: thatjoaoguy
+gitTagPrefix: ''
+gitTagIgnore: '^upm/'
+minVersion: '0.1.1'
+image: 'https://raw.githubusercontent.com/mygamedevtools/fixed-input/main/docs/img/banner-light.png'
+imageFit: contain
+readme: 'main:README.md'
+createdAt: 1791431960992
