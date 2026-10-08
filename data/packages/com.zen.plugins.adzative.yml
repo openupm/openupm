@@ -1,0 +1,24 @@
+name: com.zen.plugins.adzative
+aliases: []
+displayName: AdZative
+description: >-
+  AdMob native ads (GMA Next-Gen SDK) in 5 formats drawn over the Unity view
+  without losing focus: banner, MREC, interstitial, app open, rewarded. Pools,
+  slots on Canvas RectTransforms, 15 layouts, per-placement analytics. Can run
+  under a host waterfall (manualLoad + externalSdkInit), e.g. zen-unity Base
+  AdZative.
+repoUrl: https://github.com/zendios/base
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: zendios
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1791433652387
