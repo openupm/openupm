@@ -1,0 +1,24 @@
+name: com.zen.core
+aliases: []
+displayName: Zen Core
+description: >-
+  Base for Unity games in one package: Base.dll, DataManager, UI, currency,
+  extensions, vibration, ads (AdMob + AdZative native waterfall, UMP, ATT,
+  AppsFlyer, Taichi, review / update, splash, debug tools), IAP (Unity IAP),
+  Firebase (Analytics, Remote Config, Crashlytics), screens (ScreenUtils) and
+  Base > Hub. Optional SDKs switch their part off when missing.
+repoUrl: https://github.com/zendios/base
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - mobile
+hunter: zendios
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:com.zen.core/README.md
+createdAt: 1791433641131
