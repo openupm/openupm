@@ -1,5 +1,6 @@
 name: com.birrstudio.flowioc.core
-aliases: []
+aliases:
+  - com.flowarc.flowioc.core
 displayName: FlowIoC
 description: >-
   Signal-driven IoC framework for Unity. Provides contexts, signals, commands,
