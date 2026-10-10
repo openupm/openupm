@@ -1,0 +1,16 @@
+name: com.satisvizion.admob-ads
+displayName: AdMob Ads for Unity
+description: Rewarded, interstitial and banner ads for the Google Mobile Ads Unity plugin behind one async API, with Google UMP consent before initialization, interstitial pacing and caps, a remove-ads hook, revenue events and an in-editor mock backend.
+repoUrl: 'https://github.com/satisvizion/unity-admob-ads'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - services
+hunter: satisvizion
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: ''
+readme: 'main:README.md'
+createdAt: 1791288499703
