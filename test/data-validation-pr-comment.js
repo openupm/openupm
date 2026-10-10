@@ -58,6 +58,71 @@ describe("data-validation-pr-comment", function() {
     ]);
   });
 
+  it("preserves adjacent multiline YAML errors and their locations in raw and GitHub logs", function() {
+    const paths = ["packages/com.example.events.yml", "packages/com.example.states.yml"];
+    const lines = paths.flatMap((path) => [
+      `${path}: ${path} should be valid YAML: bad indentation of a mapping entry (2:12)`,
+      "",
+      " 1 | name: com.example.tool",
+      " 2 |     aliases: []",
+      "----------------^",
+      " 3 |     displayName: Example",
+      " 4 |     description: Example [package-yaml-invalid]",
+    ]);
+    lines.push("packages/com.example.other.yml: topic unknown should be valid [package-topic-invalid]");
+    for (const prefix of ["", "Data validation\tUNKNOWN STEP\t2026-10-10T00:00:00.000Z "]) {
+      const issues = parseValidationIssues(lines.map((line) => prefix + line).join("\n"));
+      assert.deepEqual(issues.slice(0, 2), paths.map((path) => ({
+        path,
+        message: "should be valid YAML: bad indentation of a mapping entry (2:12)",
+        code: "package-yaml-invalid",
+      })));
+      assert.equal(issues.length, 3);
+      const body = buildCommentBody(issues);
+      for (const path of paths) assert.ok(body.includes(`\`${path}\``));
+      assert.ok(body.includes("bad indentation of a mapping entry (2:12)"));
+      assert.ok(body.includes("align top-level fields"));
+      assert.equal(body.includes("Other validation failure details"), false);
+    }
+  });
+
+  it("parses single-line YAML errors with and without the repeated path", function() {
+    const path = "packages/com.example.tool.yml";
+    for (const prefix of ["", `${path}: `]) {
+      assert.deepEqual(parseValidationIssues(`${prefix}${path} should be valid YAML: unexpected end (1:1) [package-yaml-invalid]`), [{
+        path,
+        message: "should be valid YAML: unexpected end (1:1)",
+        code: "package-yaml-invalid",
+      }]);
+    }
+  });
+
+  it("does not consume later issues when a YAML excerpt is incomplete", function() {
+    const issues = parseValidationIssues([
+      "packages/com.example.tool.yml should be valid YAML: bad indentation (2:12)",
+      "2 | aliases: []",
+      "packages/com.example.other.yml: topic unknown should be valid [package-topic-invalid]",
+    ].join("\n"));
+    assert.equal(issues.length, 1);
+    assert.equal(issues[0].code, "package-topic-invalid");
+  });
+
+  it("only suppresses YAML guidance for the file named in human guidance", function() {
+    const paths = ["packages/com.example.events.yml", "packages/com.example.states.yml"];
+    const issues = parseValidationIssues(paths.map((path) =>
+      `${path} should be valid YAML: bad indentation (2:12) [package-yaml-invalid]`
+    ).join("\n"));
+    const comments = [{
+      body: `Please fix YAML syntax in ${paths[0]}.`,
+      user: { type: "User" },
+    }];
+    const body = buildCommentBody(issues, comments);
+    assert.equal(body.includes(paths[0]), false);
+    assert.ok(body.includes(paths[1]));
+    assert.ok(body.includes("bad indentation (2:12)"));
+    assert.equal(buildCommentBody([issues[0]], comments), null);
+  });
+
   it("parses GitHub log-prefixed multi-line metadata validator issues", function() {
     const issues = parseValidationIssues(
       [

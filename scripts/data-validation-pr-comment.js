@@ -5,6 +5,12 @@ const marker = "<!-- openupm-data-validation-comment -->";
 const githubApiBase = process.env.GITHUB_API_URL || "https://api.github.com";
 
 const fixableIssues = {
+  "package-yaml-invalid": {
+    title: "Fix package YAML syntax",
+    guidance:
+      "Correct the YAML syntax at the reported line and column. For indentation errors, align top-level fields such as `name` and `aliases` at the same indentation level; keep nested list entries indented beneath their field.",
+    duplicateTerms: ["yaml", "syntax"],
+  },
   "package-license-spdx-id-empty": {
     title: "Fill in `licenseSpdxId` or set it to `null`",
     guidance:
@@ -121,6 +127,27 @@ function parseValidationIssues(output) {
   const issues = [];
 
   for (let index = 0; index < lines.length; index += 1) {
+    const yamlStart = lines[index].match(
+      /^(?:(?<path>packages\/\S+\.yml):\s*)?(?<yamlPath>packages\/\S+\.yml) should be valid YAML: (?<detail>.+)$/
+    );
+    if (yamlStart && !lines[index].endsWith("[package-yaml-invalid]")) {
+      for (let end = index + 1; end < lines.length; end += 1) {
+        // YAML parser excerpts contain numbered source lines and a caret.
+        // Stop at unrelated output so an incomplete block cannot consume
+        // another validation issue.
+        if (!/^(?:\d+ \||-+\^)/.test(lines[end])) break;
+        if (lines[end].endsWith(" [package-yaml-invalid]")) {
+          issues.push({
+            path: yamlStart.groups.path || yamlStart.groups.yamlPath,
+            message: `should be valid YAML: ${yamlStart.groups.detail}`,
+            code: "package-yaml-invalid",
+          });
+          index = end;
+          break;
+        }
+      }
+      continue;
+    }
     const directIssue = parseValidationIssueLine(lines[index]);
     if (directIssue) {
       issues.push(directIssue);
@@ -172,6 +199,16 @@ function parseValidationIssueLine(line) {
   const metadataMatch = issue.message.match(
     /^(?<path>packages\/\S+\.yml) metadata should be valid: (?<detail>.+)$/
   );
+  const yamlMatch = issue.message.match(
+    /^(?:(?<path>packages\/\S+\.yml):\s*)?(?<yamlPath>packages\/\S+\.yml) should be valid YAML: (?<detail>.+)$/
+  );
+  if (yamlMatch) {
+    return {
+      ...issue,
+      path: yamlMatch.groups.path || yamlMatch.groups.yamlPath,
+      message: `should be valid YAML: ${yamlMatch.groups.detail}`,
+    };
+  }
   if (metadataMatch) {
     return {
       ...issue,
@@ -225,12 +262,14 @@ function normalizeBody(body) {
   return String(body || "").toLowerCase();
 }
 
-function hasExistingMaintainerGuidance(comments, fix) {
+function hasExistingMaintainerGuidance(comments, fix, issue) {
   return comments.some((comment) => {
     const body = normalizeBody(comment.body);
     if (body.includes(marker)) return false;
     const userType = comment.user && comment.user.type;
     if (userType === "Bot") return false;
+    if (issue.code === "package-yaml-invalid" &&
+        (!issue.path || !body.includes(issue.path.toLowerCase()))) return false;
     return fix.duplicateTerms.every((term) => body.includes(term.toLowerCase()));
   });
 }
@@ -242,7 +281,7 @@ function buildCommentBody(issues, comments = []) {
   }));
   const fixable = analyzed
     .filter((entry) => entry.fix)
-    .filter((entry) => !hasExistingMaintainerGuidance(comments, entry.fix));
+    .filter((entry) => !hasExistingMaintainerGuidance(comments, entry.fix, entry.issue));
   const unsupported = analyzed.filter((entry) => !entry.fix);
 
   if (fixable.length === 0 && unsupported.length === 0) return null;
