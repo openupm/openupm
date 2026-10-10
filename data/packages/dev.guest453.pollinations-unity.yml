@@ -1,0 +1,18 @@
+name: dev.guest453.pollinations-unity
+aliases: []
+displayName: Pollinations for Unity
+description: Async C# helpers that add Pollinations text, image and speech generation to Unity games, with dev-key mode and a device flow so players pay with their own Pollen.
+repoUrl: 'https://github.com/Guest453/pollinations-unity'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - text-generation
+  - image-generation
+  - text-to-speech
+hunter: Guest453
+gitTagPrefix: ''
+gitTagIgnore: ''
+createdAt: 1789000000000
+readme: 'main:README.md'
