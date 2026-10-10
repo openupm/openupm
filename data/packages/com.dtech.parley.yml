@@ -1,0 +1,28 @@
+name: com.dtech.parley
+aliases: []
+displayName: Parley
+description: >-
+  AI chat editor window for Unity: drives Claude Code (every sign-in method) and
+  Codex, and runs local models (LM Studio, Ollama, llama.cpp, vLLM) through its
+  own agent, with tool approvals, clarifying questions, plan review, per-chat
+  MCP servers and skills, and Unity editor tools.
+repoUrl: https://github.com/DanilChizhikov/parley
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - code-generation
+  - debugging-and-logging
+  - editor-enhancement
+  - integration
+  - testing
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1791645191619
