@@ -1,0 +1,23 @@
+name: com.pairiquium.sdk
+aliases: []
+displayName: Pairiquium Matchmaking SDK
+description: >-
+  Official Unity SDK for the Pairiquium matchmaking engine. Implements the
+  ticket/WebSocket protocol described in Pairiquium/API-Specs.
+repoUrl: https://github.com/Pairiquium/UnitySDK
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+  - integration
+  - network
+  - services
+hunter: ashmoreinc
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1791660285696
