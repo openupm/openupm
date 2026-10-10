@@ -1,19 +1,19 @@
 name: com.rogueliketoolkit.event-aggregator
-    aliases: []
-    displayName: RoguelikeToolkit EventAggregator
-    description: Lightweight synchronous in-process event aggregator (publish/subscribe messaging)
-    repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.Shared'
-    parentRepoUrl: null
-    licenseSpdxId: Apache-2.0
-    licenseName: Apache License 2.0
-    topics:
-      - frameworks
-      - event-aggregator
-    gitTagPrefix: 'event-aggregator-v'
-    gitTagIgnore: ''
-    minVersion: ''
-    trackingMode: githubRelease
-    githubReleaseAssetName: 'com.rogueliketoolkit.event-aggregator-'
-    image: ''
-    readme: 'master:README.md'
-    hunter: myarichuk
+aliases: []
+displayName: RoguelikeToolkit EventAggregator
+description: Lightweight synchronous in-process event aggregator (publish/subscribe messaging)
+repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.Shared'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - frameworks
+gitTagPrefix: 'event-aggregator-v'
+gitTagIgnore: ''
+minVersion: ''
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.rogueliketoolkit.event-aggregator-'
+image: ''
+readme: 'master:README.md'
+hunter: myarichuk
+createdAt: 1791665356292
