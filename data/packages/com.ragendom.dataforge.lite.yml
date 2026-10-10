@@ -1,0 +1,16 @@
+name: com.ragendom.dataforge.lite
+displayName: DataForge LITE
+description: Edit ScriptableObjects like a spreadsheet in the Unity Editor. Every asset of a type becomes a row and every serialized field a column, with inline editing, full Undo, search, sort and filter. Editor-only, no dependencies.
+repoUrl: 'https://github.com/Ragendom69/dataforge-lite'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - data-management
+hunter: Ragendom69
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: ''
+readme: 'main:README.md'
+createdAt: 1791288467006
