@@ -1,0 +1,14 @@
+name: com.tbstudio.tools
+displayName: TB Studio Tools
+description: Unity Dev tools and essential components.
+repoUrl: https://github.com/TBStudio-TB/TBStudio.Unity-Tools
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - editor-enhancement
+hunter: TimmyBoyen
+createdAt: 1728552000000
+trackingMode: git
+aliases: []
