@@ -1,0 +1,24 @@
+name: com.dannyarnold.clever-clogs
+aliases: []
+displayName: Clever Clogs
+description: >-
+  Typed element access for Unity UI Toolkit. Generates a helper class from a
+  UXML file, with an enum of the named elements and a typed property for each,
+  and keeps it up to date when the UXML changes.
+repoUrl: 'https://github.com/dannyarnoldcom/CleverClogs'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - code-generation
+  - gui
+  - editor-enhancement
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+trackingMode: git
+image: 'https://github.com/dannyarnoldcom/CleverClogs/raw/main/Documentation/images/clever-clogs-before-after.gif'
+imageFit: contain
+readme: 'main:README.md'
+hunter: pinnet
+createdAt: 1791695934660
