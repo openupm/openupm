@@ -1,0 +1,23 @@
+name: com.dtech.actor-framework
+aliases: []
+displayName: Actor Framework
+description: >-
+  ECS-like actor framework for Unity: struct features in sparse-set pools,
+  cached queries, Update / FixedUpdate / LateUpdate systems and an Actor
+  Debugger window for the Editor and Development Builds.
+repoUrl: https://github.com/DanilChizhikov/ActorFramework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - dots-and-ecs
+  - frameworks
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1791701916753
