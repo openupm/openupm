@@ -1,0 +1,20 @@
+name: com.rogueliketoolkit.entities
+aliases: []
+displayName: RoguelikeToolkit Entities
+description: Data-driven entity templates (YAML/JSON) for DefaultEcs with inheritance, embedded entities, dice components and shared Jint script support
+repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.Entities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '5.1.0'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.rogueliketoolkit.entities-'
+image: ''
+readme: 'main:README.md'
+hunter: myarichuk
+createdAt: 1791739983214
