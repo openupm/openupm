@@ -11,7 +11,7 @@ topics:
   - frameworks
 gitTagPrefix: 'state-machine-v'
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.4.0'
 trackingMode: githubRelease
 githubReleaseAssetName: 'com.rogueliketoolkit.state-machine-'
 image: ''
