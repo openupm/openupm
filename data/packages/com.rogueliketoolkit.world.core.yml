@@ -1,0 +1,20 @@
+name: com.rogueliketoolkit.world.core
+aliases: []
+displayName: RoguelikeToolkit World Core
+description: Deterministic procedural planets on a hex sphere with tectonics, climate, erosion, hydrology, biomes, region/local zoom and a pluggable generation pipeline
+repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.World'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+  - terrain
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '0.3.0'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.rogueliketoolkit.world.core-'
+image: ''
+readme: 'main:README.md'
+hunter: myarichuk
+createdAt: 1791739983214

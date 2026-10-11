@@ -1,0 +1,19 @@
+name: com.rogueliketoolkit.world.scripting.jint
+aliases: []
+displayName: RoguelikeToolkit World Scripting (Jint)
+description: Sandboxed JavaScript (Jint) world generation stages for RoguelikeToolkit World Core
+repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.World'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - procedural-generation
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '0.3.0'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.rogueliketoolkit.world.scripting.jint-'
+image: ''
+readme: 'main:README.md:docs/PLUGINS.md'
+hunter: myarichuk
+createdAt: 1791739983214
