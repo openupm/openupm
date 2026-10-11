@@ -14,6 +14,6 @@ topics:
 hunter: hatayama
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '3.15.0'
 readme: main:README.md
 createdAt: 1752243020876
