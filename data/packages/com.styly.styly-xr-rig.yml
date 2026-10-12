@@ -3,7 +3,8 @@ aliases: []
 displayName: STYLY XR Rig
 description: STYLY XR Rig
 repoUrl: https://github.com/styly-dev/STYLY-XR-Rig
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: com.styly.styly-xr-rig-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
