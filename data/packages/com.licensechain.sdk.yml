@@ -1,0 +1,18 @@
+name: com.licensechain.sdk
+aliases: []
+displayName: LicenseChain SDK
+description: Official LicenseChain Unity SDK for license management and validation
+repoUrl: 'https://github.com/LicenseChain/LicenseChain-Unity-SDK'
+parentRepoUrl: null
+licenseSpdxId: Elastic-2.0
+licenseName: Elastic License 2.0
+topics:
+  - network
+  - utilities
+hunter: VoxHash
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.3
+image: null
+readme: 'main:README.md'
+createdAt: 1791808098877
