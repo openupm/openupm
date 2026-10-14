@@ -1,0 +1,25 @@
+name: com.veerdonk.projectile-system
+aliases: []
+displayName: Projectile System
+description: >-
+  Kinematic projectile simulation for Unity 6: spawn, tick, pool, hits, and
+  six-stage Recipe modifiers (pierce, bounce, multiply, authored multiply grids,
+  multicast, homing, combat scales, area, ground fields, ballistic aim, Delivery
+  Straight / Arc / Hitscan / Beam).
+repoUrl: https://github.com/veerdonk/Projectile-System
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - dots-and-ecs
+  - frameworks
+  - physics
+hunter: veerdonk
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.veerdonk.projectile-system/README.md
+createdAt: 1792021770541
