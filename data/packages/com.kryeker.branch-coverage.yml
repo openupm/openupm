@@ -1,0 +1,25 @@
+name: com.kryeker.branch-coverage
+aliases: []
+displayName: Branch Coverage
+description: >-
+  Wrapper over com.unity.testtools.codecoverage that synthesizes OpenCover
+  BranchPoints from IL and backfills branch summaries, so HTML/Cobertura/SonarQube
+  reports show branch coverage.
+repoUrl: 'https://github.com/Kryeker/unity-branch-coverage'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - testing
+hunter: kryeker
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/Kryeker/unity-branch-coverage/refs/heads/main/Documentation%7E/branch-coverage-report.png
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1792105413240
