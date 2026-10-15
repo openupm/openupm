@@ -2,6 +2,8 @@ name: com.google.external-dependency-manager
 aliases: []
 displayName: External Dependency Manager for Unity
 description: >-
+  Note, this package is deprecated. We recommend using the official
+  External Dependency Manager Unity Package instead for future support.
   External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin
   that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version
   management of transitive dependencies, and/or management of Unity Package
