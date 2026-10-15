@@ -1,0 +1,19 @@
+name: com.severnbli.localization-codegen
+aliases: []
+displayName: Localization Codegen
+description: C# classes and properties generator from Unity Localization tables
+repoUrl: https://github.com/Severnbli/localization-codegen
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/user-attachments/assets/6d1ab63f-b0d2-4540-a17f-e6964cad5e07
+topics:
+  - code-generation
+hunter: Severnbli
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Unity-Package/Assets/root/README.md
+createdAt: 1792090874345
