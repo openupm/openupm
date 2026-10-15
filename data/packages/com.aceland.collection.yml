@@ -1,0 +1,20 @@
+name: com.aceland.collection
+aliases: []
+displayName: AceLand Collection
+description: AceLand Collection is a high performance collection library.
+repoUrl: https://github.com/parsue/com.aceland.collection
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - dots-and-ecs
+  - utilities
+hunter: parsue
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1792033057279
