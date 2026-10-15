@@ -9,7 +9,7 @@ repoUrl: https://github.com/Suvitruf/unity-sprite-editor
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: 'MIT'
-licenseName: MIT
+licenseName: MIT License
 image: >-
   https://projects.cdn.aapanasik.com/better-sprite-editor/better-sprite-editor.png
 topics:
