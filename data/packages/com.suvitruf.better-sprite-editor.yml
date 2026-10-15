@@ -1,0 +1,24 @@
+name: com.suvitruf.better-sprite-editor
+aliases: []
+displayName: Better Sprite Editor
+description: >-
+  Sprite metadata editing for Unity: multi-select and multi-edit, slicing,
+  region combining and splitting, batch renaming, undo history, shape editing,
+  and customizable input.
+repoUrl: https://github.com/Suvitruf/unity-sprite-editor
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: >-
+  https://projects.cdn.aapanasik.com/better-sprite-editor/better-sprite-editor.png
+topics:
+  - 2d
+  - editor-enhancement
+  - painting
+hunter: Suvitruf
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1792094957321
