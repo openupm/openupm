@@ -17,7 +17,7 @@ topics:
   - editor-enhancement
 hunter: IvanMurzak
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '^com\.ivanmurzak\.unity\.mcp\.'
 minVersion: ''
 readme: main:README.md
 createdAt: 1744710744954

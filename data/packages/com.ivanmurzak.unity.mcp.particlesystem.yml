@@ -2,22 +2,22 @@ name: com.ivanmurzak.unity.mcp.particlesystem
 aliases: []
 displayName: AI Particle System
 description: "AI-powered tools for Unity ParticleSystem workflow. Inspect and modify ParticleSystem components via natural language commandsâ\x80\x94configure emission, shape, velocity curves, color gradients, and all modules without manual inspector navigation. Ideal for rapid prototyping and procedural effects generation. Built on top of the AI Game Developer (Unity-MCP) platform."
-repoUrl: https://github.com/IvanMurzak/Unity-AI-ParticleSystem
+repoUrl: https://github.com/IvanMurzak/Unity-MCP
 trackingMode: githubRelease
 githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.particlesystem-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-ParticleSystem/raw/main/docs/img/particle-system-glitch.gif
+  https://github.com/IvanMurzak/Unity-MCP/raw/main/extensions/ParticleSystem/docs/img/particle-system-glitch.gif
 topics:
   - ai
   - editor-enhancement
   - particles-and-effects
   - integration
 hunter: IvanMurzak
-gitTagPrefix: ''
+gitTagPrefix: 'com.ivanmurzak.unity.mcp.particlesystem/'
 gitTagIgnore: ''
-minVersion: ''
-readme: main:README.md
+minVersion: '2.0.1'
+readme: main:extensions/ParticleSystem/README.md
 createdAt: 1768644041435

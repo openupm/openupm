@@ -5,22 +5,22 @@ description: >-
   MCP Tools for Unity Splines - Author and edit Splines with AI through the MCP
   framework. Create SplineContainers, add and edit knots and tangents, and
   evaluate splines via natural language.
-repoUrl: https://github.com/IvanMurzak/Unity-AI-Splines
+repoUrl: https://github.com/IvanMurzak/Unity-MCP
 trackingMode: githubRelease
 githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.splines-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-Splines/raw/main/docs/promo/promo-splines.gif
+  https://github.com/IvanMurzak/Unity-MCP/raw/main/extensions/Splines/docs/promo/promo-splines.gif
 topics:
   - ai
   - editor-enhancement
   - integration
   - level-design
 hunter: IvanMurzak
-gitTagPrefix: ''
+gitTagPrefix: 'com.ivanmurzak.unity.mcp.splines/'
 gitTagIgnore: ''
-minVersion: ''
-readme: main:README.md
+minVersion: '2.0.1'
+readme: main:extensions/Splines/README.md
 createdAt: 1780539094065
