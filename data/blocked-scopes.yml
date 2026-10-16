@@ -279,3 +279,12 @@ scopes:
 - cn.refactor.pooling
 - cn.refactor.fsm
 - com.no-slopes.handy-fsm
+
+# https://github.com/openupm/openupm/issues/7080
+- com.hryooba.library.animancer
+- com.hryooba.library.artnet
+- com.hryooba.library.avpro
+- com.hryooba.library.dotween
+- com.hryooba.library.kinect
+- com.hryooba.library.network
+- com.hryooba.library.tuio
