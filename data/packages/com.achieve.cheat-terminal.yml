@@ -1,0 +1,20 @@
+name: com.achieve.cheat-terminal
+aliases: []
+displayName: Cheat Terminal
+description: >-
+  Unity runtime developer terminal for explicit cheat commands, debugging, data
+  lookup and live tooling.
+repoUrl: https://github.com/achieveonepark/cheat-terminal
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: achieveonepark
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.0
+readme: main:README.md
+createdAt: 1792195650637
