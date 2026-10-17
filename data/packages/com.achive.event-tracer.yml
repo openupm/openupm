@@ -1,0 +1,20 @@
+name: com.achive.event-tracer
+aliases: []
+displayName: Event Tracer
+description: >-
+  Bounded event capture with payload snapshots, causal links, optional call
+  stacks, and a UI Toolkit event browser.
+repoUrl: https://github.com/achieveonepark/event-tracer
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: achieveonepark
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1792200724879
