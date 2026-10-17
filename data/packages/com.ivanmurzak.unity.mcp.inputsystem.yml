@@ -4,21 +4,21 @@ displayName: AI InputSystem
 description: >-
   MCP Tools for the Unity Input System - Enhance your Unity projects with
   AI-powered Input System tools using the MCP framework.
-repoUrl: https://github.com/IvanMurzak/Unity-AI-InputSystem
+repoUrl: https://github.com/IvanMurzak/Unity-MCP
 trackingMode: githubRelease
 githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.inputsystem-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
-image: https://github.com/IvanMurzak/Unity-AI-InputSystem/raw/main/docs/promo/promo-inputsystem.gif
+image: https://github.com/IvanMurzak/Unity-MCP/raw/main/extensions/InputSystem/docs/promo/promo-inputsystem.gif
 topics:
   - ai
   - input-management
   - editor-enhancement
   - integration
 hunter: IvanMurzak
-gitTagPrefix: ''
+gitTagPrefix: 'com.ivanmurzak.unity.mcp.inputsystem/'
 gitTagIgnore: ''
-minVersion: ''
-readme: main:README.md
+minVersion: '2.0.1'
+readme: main:extensions/InputSystem/README.md
 createdAt: 1780555125933
