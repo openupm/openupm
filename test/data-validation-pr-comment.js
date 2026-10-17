@@ -429,6 +429,33 @@ describe("data-validation-pr-comment", function() {
     assert.equal(body.includes("additional fixable validation issue(s) were omitted"), false);
   });
 
+  it("bounds large summaries and reports the exact omitted count", function() {
+    const issues = Array.from({ length: 1000 }, (_, index) => ({
+      path: `packages/com.example.tool${index}.yml`,
+      message: "must not be an empty string",
+      code: "package-license-spdx-id-empty",
+    }));
+    const body = buildCommentBody(issues);
+    const shown = (body.match(/Fill in `licenseSpdxId`/g) || []).length;
+    assert.ok(shown > 8 && shown < issues.length);
+    assert.ok(Buffer.byteLength(body) <= 60000);
+    assert.ok(body.includes(`${issues.length - shown} additional fixable validation issue(s)`));
+    assert.ok(body.includes("Open the `Data validation` check for the full log."));
+    assert.ok(body.endsWith("Please update the package data and push another commit to rerun validation."));
+  });
+
+  it("omits oversized Unicode entries without truncating them and retains unsupported guidance", function() {
+    const body = buildCommentBody([
+      { path: "packages/tool.yml", message: "😀".repeat(20000), code: "package-license-spdx-id-empty" },
+      { path: "packages/other.yml", message: "unknown failure", code: "unknown-code" },
+    ]);
+    assert.ok(Buffer.byteLength(body) <= 60000);
+    assert.ok(body.startsWith(marker));
+    assert.ok(body.includes("1 additional fixable validation issue(s)"));
+    assert.ok(body.includes("Other validation failure details"));
+    assert.ok(!body.includes("😀"));
+  });
+
   it("deletes stale marker comments when no supported guidance remains", async function() {
     const calls = mockFetch([
       { response: [{ id: 1, body: `${marker}\nold`, user: { type: "User" } }] },

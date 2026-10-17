@@ -294,21 +294,32 @@ function buildCommentBody(issues, comments = []) {
     "",
   ];
 
-  for (const { issue, fix } of fixable) {
-    const location = issue.path ? ` in \`${issue.path}\`` : "";
-    lines.push(`- ${fix.title}${location}: ${fix.guidance}`);
-    lines.push(`  Validation detail: ${formatValidationDetail(issue)}`);
-  }
-
+  // Leave headroom below GitHub's comment limit, including for Unicode text.
+  const maxBodyBytes = 60000;
+  const footer = [];
   if (unsupported.length > 0) {
-    if (fixable.length > 0) lines.push("");
-    lines.push(
+    if (fixable.length > 0) footer.push("");
+    footer.push(
       "Other validation failure details are only available in the `Data validation` CI report. Please open that check and review the full log."
     );
   }
-
-  lines.push("");
-  lines.push("Please update the package data and push another commit to rerun validation.");
+  footer.push("", "Please update the package data and push another commit to rerun validation.");
+  const omission = (count) =>
+    `- ${count} additional fixable validation issue(s) were omitted to keep this comment within GitHub's size limit. Open the \`Data validation\` check for the full log.`;
+  const reservedBytes = Buffer.byteLength([omission(fixable.length), ...footer].join("\n")) + 2;
+  let bodyBytes = Buffer.byteLength(lines.join("\n"));
+  let shown = 0;
+  for (const { issue, fix } of fixable) {
+    const location = issue.path ? ` in \`${issue.path}\`` : "";
+    const entry = `- ${fix.title}${location}: ${fix.guidance}\n  Validation detail: ${formatValidationDetail(issue)}`;
+    const entryBytes = Buffer.byteLength(entry) + 1;
+    if (bodyBytes + entryBytes + reservedBytes > maxBodyBytes) break;
+    lines.push(entry);
+    bodyBytes += entryBytes;
+    shown += 1;
+  }
+  if (shown < fixable.length) lines.push(omission(fixable.length - shown));
+  lines.push(...footer);
   return lines.join("\n");
 }
 
