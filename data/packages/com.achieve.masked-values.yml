@@ -1,0 +1,21 @@
+name: com.achieve.masked-values
+aliases: []
+displayName: Masked Values
+description: >-
+  Low-allocation runtime value masking and optional lightweight tamper detection
+  for Unity. Not cryptographic encryption or authentication.
+repoUrl: https://github.com/achieveonepark/masked-value
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - frameworks
+hunter: achieveonepark
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1792200778934
