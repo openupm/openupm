@@ -4,14 +4,14 @@ displayName: AI Animation
 description: >-
   MCP Tools for Animation - Enhance your Unity projects with AI-powered
   Animation tools using the MCP framework.
-repoUrl: https://github.com/IvanMurzak/Unity-AI-Animation
+repoUrl: https://github.com/IvanMurzak/Unity-MCP
 trackingMode: githubRelease
 githubReleaseAssetName: 'com.ivanmurzak.unity.mcp.animation-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://github.com/IvanMurzak/Unity-AI-Animation/raw/main/docs/img/ai-animation-glitch.gif
+  https://github.com/IvanMurzak/Unity-MCP/raw/main/extensions/Animation/docs/img/ai-animation-glitch.gif
 topics:
   - ai
   - animation
@@ -19,8 +19,8 @@ topics:
   - editor-enhancement
   - integration
 hunter: IvanMurzak
-gitTagPrefix: ''
+gitTagPrefix: 'com.ivanmurzak.unity.mcp.animation/'
 gitTagIgnore: ''
-minVersion: ''
-readme: main:README.md
+minVersion: '2.0.1'
+readme: main:extensions/Animation/README.md
 createdAt: 1766489712632
