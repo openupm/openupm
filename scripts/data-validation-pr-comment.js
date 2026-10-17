@@ -294,14 +294,10 @@ function buildCommentBody(issues, comments = []) {
     "",
   ];
 
-  for (const { issue, fix } of fixable.slice(0, 8)) {
+  for (const { issue, fix } of fixable) {
     const location = issue.path ? ` in \`${issue.path}\`` : "";
     lines.push(`- ${fix.title}${location}: ${fix.guidance}`);
     lines.push(`  Validation detail: ${formatValidationDetail(issue)}`);
-  }
-
-  if (fixable.length > 8) {
-    lines.push(`- ${fixable.length - 8} additional fixable validation issue(s) were omitted from this summary.`);
   }
 
   if (unsupported.length > 0) {

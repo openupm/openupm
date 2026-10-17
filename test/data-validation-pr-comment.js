@@ -416,6 +416,19 @@ describe("data-validation-pr-comment", function() {
     assert.equal(calls[2].url, "https://api.github.com/repos/openupm/openupm/issues/comments/2");
   });
 
+  it("omits limit of 8 for fixable validation issues summary", function() {
+    const issues = Array.from({ length: 10 }, (_, index) => ({
+      path: `packages/com.example.tool${index}.yml`,
+      message: "must not be an empty string",
+      code: "package-license-spdx-id-empty",
+    }));
+
+    const body = buildCommentBody(issues);
+
+    assert.equal((body.match(/Fill in `licenseSpdxId`/g) || []).length, 10);
+    assert.equal(body.includes("additional fixable validation issue(s) were omitted"), false);
+  });
+
   it("deletes stale marker comments when no supported guidance remains", async function() {
     const calls = mockFetch([
       { response: [{ id: 1, body: `${marker}\nold`, user: { type: "User" } }] },
