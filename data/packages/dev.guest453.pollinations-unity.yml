@@ -8,9 +8,6 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - ai
-  - text-generation
-  - image-generation
-  - text-to-speech
 hunter: Guest453
 gitTagPrefix: ''
 gitTagIgnore: ''
