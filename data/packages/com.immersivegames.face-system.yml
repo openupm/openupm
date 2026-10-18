@@ -8,8 +8,7 @@ licenseSpdxId: MIT
 licenseName: MIT License
 topics:
   - animation
-  - character
-  - unity
+  - sprite-management
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '1.1.0'
