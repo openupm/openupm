@@ -1,0 +1,20 @@
+name: com.rogueliketoolkit.entities.scripting.jint
+aliases: []
+displayName: RoguelikeToolkit Entities Scripting (Jint)
+description: JavaScript (Jint) scripts for RoguelikeToolkit Entities templates, with pre-parsed shared script components and IL2CPP-safe component interop
+repoUrl: 'https://github.com/myarichuk/RoguelikeToolkit.Entities'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - dots-and-ecs
+  - frameworks
+gitTagPrefix: 'v'
+gitTagIgnore: ''
+minVersion: '6.0.2'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.rogueliketoolkit.entities.scripting.jint-'
+image: ''
+readme: 'main:README.md'
+hunter: myarichuk
+createdAt: 1792308801000
