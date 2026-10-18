@@ -1,0 +1,15 @@
+name: com.stellarnox.skykeyyuyan.unity
+aliases: []
+displayName: "SkyKeyYuyan Unity"
+description: "Unity 转换核心，以及 UGUI、TMP、Legacy Input、Input System 接入。"
+repoUrl: "https://github.com/magicskysword/SkyKeyYuyan"
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+trackingMode: githubRelease
+githubReleaseAssetName: "com.stellarnox.skykeyyuyan.unity-"
+readme: "main:docs/README.md"
+minVersion: "0.1.0"
+hunter: "magicskysword"
+createdAt: 1792318102176
