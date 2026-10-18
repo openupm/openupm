@@ -7,8 +7,8 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
-  - composition
-  - unity
+  - frameworks
+  - integration
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: '0.1.0-preview.3'
