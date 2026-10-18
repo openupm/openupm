@@ -1,0 +1,20 @@
+name: com.immersive.composition
+aliases: []
+displayName: Immersive Composition
+description: Engine-independent keyed content composition kernel for Immersive packages.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersive.composition'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - integration
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.0-preview.3'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.immersive.composition-'
+image: ''
+readme: 'main:README.md'
+hunter: rinnocenti
+createdAt: 1792358530000

@@ -1,0 +1,20 @@
+name: com.immersivegames.face-system
+aliases: []
+displayName: Immersive Face System
+description: Reusable voxel face expression system for Unity.
+repoUrl: 'https://github.com/ImmersiveGames/com.immersivegames.face-system'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - animation
+  - sprite-management
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.1.0'
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.immersivegames.face-system-'
+image: ''
+readme: 'main:README.md'
+hunter: rinnocenti
+createdAt: 1792358530000
