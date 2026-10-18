@@ -1,0 +1,15 @@
+name: com.stellarnox.skykeyyuyan.korean
+aliases: []
+displayName: "SkyKeyYuyan Korean"
+description: "韩语两套式语言引擎与规则资源。"
+repoUrl: "https://github.com/magicskysword/SkyKeyYuyan"
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+trackingMode: githubRelease
+githubReleaseAssetName: "com.stellarnox.skykeyyuyan.korean-"
+readme: "main:docs/README.md"
+minVersion: "0.1.0"
+hunter: "magicskysword"
+createdAt: 1792318102176
