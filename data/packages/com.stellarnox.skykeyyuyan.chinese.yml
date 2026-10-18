@@ -1,0 +1,15 @@
+name: com.stellarnox.skykeyyuyan.chinese
+aliases: []
+displayName: "SkyKeyYuyan Chinese"
+description: "简体中文全拼语言引擎与语言资源。"
+repoUrl: "https://github.com/magicskysword/SkyKeyYuyan"
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+trackingMode: githubRelease
+githubReleaseAssetName: "com.stellarnox.skykeyyuyan.chinese-"
+readme: "main:docs/README.md"
+minVersion: "0.1.0"
+hunter: "magicskysword"
+createdAt: 1792318102176
