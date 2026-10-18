@@ -1,0 +1,15 @@
+name: com.stellarnox.skykeyyuyan.fairygui
+aliases: []
+displayName: "SkyKeyYuyan FairyGUI"
+description: "FairyGUI GTextInput 接入；FairyGUI SDK 由宿主提供。"
+repoUrl: "https://github.com/magicskysword/SkyKeyYuyan"
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+trackingMode: githubRelease
+githubReleaseAssetName: "com.stellarnox.skykeyyuyan.fairygui-"
+readme: "main:docs/README.md"
+minVersion: "0.1.0"
+hunter: "magicskysword"
+createdAt: 1792318102176
