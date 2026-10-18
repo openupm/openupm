@@ -1,0 +1,15 @@
+name: com.stellarnox.skykeyyuyan.ui.ugui
+aliases: []
+displayName: "SkyKeyYuyan UGUI Default UI"
+description: "UGUI 默认输入面板、虚拟键盘和草稿框。"
+repoUrl: "https://github.com/magicskysword/SkyKeyYuyan"
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+trackingMode: githubRelease
+githubReleaseAssetName: "com.stellarnox.skykeyyuyan.ui.ugui-"
+readme: "main:docs/README.md"
+minVersion: "0.1.0"
+hunter: "magicskysword"
+createdAt: 1792318102176
