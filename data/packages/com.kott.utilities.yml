@@ -1,0 +1,21 @@
+name: com.kott.utilities
+aliases: []
+displayName: Kott Utilities
+description: >-
+  Generic runtime and editor helpers for Unity: JSON.NET converters for Unity
+  types, composable progress reporting, object pooling, a serializable
+  dictionary, scroll-view UI helpers and small math/transform extensions.
+repoUrl: https://github.com/Kott-Games/package-utilities
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: null
+topics:
+  - utilities
+hunter: DieterDerVermieter
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1792443716000
