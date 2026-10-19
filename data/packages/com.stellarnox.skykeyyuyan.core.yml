@@ -9,7 +9,7 @@ topics:
   - utilities
 trackingMode: githubRelease
 githubReleaseAssetName: "com.stellarnox.skykeyyuyan.core-"
-readme: "main:docs/README.md"
+readme: "main:README.md"
 minVersion: "0.1.0"
 hunter: "magicskysword"
 createdAt: 1792318102176
