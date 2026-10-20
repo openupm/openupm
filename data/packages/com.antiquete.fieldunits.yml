@@ -1,0 +1,20 @@
+name: com.antiquete.fieldunits
+aliases: []
+displayName: Field Units
+description: Add readable units to Inspector field labels with the [FieldUnit] attribute.
+repoUrl: https://github.com/Antiquete/FieldUnitsAttribute
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Antiquete/FieldUnitsAttribute/master/Cover.png
+topics:
+  - editor-enhancement
+  - utilities
+hunter: Antiquete
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1792505740058
