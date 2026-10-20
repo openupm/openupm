@@ -1,0 +1,21 @@
+name: com.vcu-swim-lab.vr-emotion-detection
+aliases: []
+displayName: VR Emotion Detector
+description: >-
+  Predicts seven emotions from Meta Quest Pro face tracking with an on-device
+  MoE–TCN model trained on acted emotional-expression data or Typesafe's Jev
+  model, with optional per-player calibration.
+repoUrl: https://github.com/vcu-swim-lab/VREmotionDetection
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ar-and-vr
+hunter: vcu-swim-lab
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1792521868583
