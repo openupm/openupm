@@ -1,0 +1,23 @@
+name: com.dtech.quorum
+aliases: []
+displayName: Quorum
+description: >-
+  Utility AI for Unity: actions scored by considerations and response formulas,
+  picked per brain, with DI adapters, a validator, a live debugger and a scoring
+  matrix.
+repoUrl: https://github.com/DanilChizhikov/quorum
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - frameworks
+  - utilities
+hunter: DanilChizhikov
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1792600395761
