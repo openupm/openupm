@@ -1,4 +1,5 @@
 name: gg.glitchless.sdk
+aliases: []
 displayName: Glitchless
 description: >-
   Game observability for Unity: frame times and stutter with their likely
@@ -6,6 +7,7 @@ description: >-
   quit. Anonymous by default. An MCP server lets coding agents read the data
   and fix the game.
 repoUrl: 'https://github.com/glitchless-gg/glitchless'
+trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
