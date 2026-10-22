@@ -1,0 +1,15 @@
+name: com.intelliorigins.shaderfarm
+aliases: []
+displayName: ShaderFarm
+description: Distributed Shader compilation and cache validation for Unity YooAsset/SBP builds.
+repoUrl: https://github.com/h34tn/shaderfarm-unity
+trackingMode: git
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - utilities
+gitTagPrefix: upm/
+minVersion: 0.2.0
+readme: main:README.md
+hunter: h34tn
+createdAt: 1792641712745
