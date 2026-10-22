@@ -1,0 +1,21 @@
+name: com.pushizo.unity
+aliases: []
+displayName: Pushizo
+description: >-
+  Unity package for push notifications, in-app messages, notification inbox,
+  users, tags and aliases, and email and SMS subscriptions. Wraps the native
+  Pushizo Android and iOS SDKs. Unity 2021.3+.
+repoUrl: https://github.com/pushizo/pushizo-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - integration
+hunter: exec0de
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:README.md
+createdAt: 1792678591441
