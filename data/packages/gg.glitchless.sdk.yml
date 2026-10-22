@@ -1,0 +1,24 @@
+name: gg.glitchless.sdk
+displayName: Glitchless
+description: >-
+  Game observability for Unity: frame times and stutter with their likely
+  causes, errors and exceptions, scenes as levels, deaths and where players
+  quit. Anonymous by default. An MCP server lets coding agents read the data
+  and fix the game.
+repoUrl: 'https://github.com/glitchless-gg/glitchless'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - profiling
+  - debugging-and-logging
+  - services
+  - ai
+hunter: banjtheman
+gitTagPrefix: gg.glitchless.sdk/
+gitTagIgnore: ''
+minVersion: ''
+image: >-
+  https://raw.githubusercontent.com/glitchless-gg/glitchless/main/assets/brand/glitchless/openupm/cover.png
+readme: 'main:unity/Packages/gg.glitchless.sdk/README.md'
+createdAt: 1792642419764
