@@ -1,0 +1,22 @@
+name: com.revnix.sdk
+aliases: []
+displayName: Revnix
+description: >-
+  Revnix subscriptions and entitlements for Unity: offline-resilient entitlement
+  checks, placements, purchase registration with a durable retry queue, and an
+  optional Unity IAP bridge.
+repoUrl: https://github.com/Oth-tech/RevnixSDK-Unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+hunter: shanjaved468-lang
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1792670947398
