@@ -1,0 +1,21 @@
+name: com.mumble-speech.unity
+aliases: []
+displayName: Mumble Speech
+description: >-
+  Video-game mumble speech generated at runtime: beep (Undertale), grunt
+  (Banjo-Kazooie) and alphabet (Animal Crossing) styles, with typewriter
+  dialogue support. Same output as the web, C and Godot bindings.
+repoUrl: https://github.com/basteez/mumble-speech
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - audio
+hunter: basteez
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm:README.md
+createdAt: 1792845195334
