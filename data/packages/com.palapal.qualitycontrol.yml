@@ -1,0 +1,20 @@
+name: com.palapal.qualitycontrol
+aliases: []
+displayName: Palapal Quality Control
+description: >-
+  Project asset and MonoBehaviour conventions, shared by Unity Editor tools and
+  CI validation.
+repoUrl: https://github.com/PalaPlay/quality-control
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+hunter: Ario92
+gitTagPrefix: QualityControl
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1792916259579
