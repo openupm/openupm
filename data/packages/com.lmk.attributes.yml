@@ -1,0 +1,21 @@
+name: com.lmk.attributes
+aliases: []
+displayName: LMK Attributes
+description: >-
+  Inspector attributes for Unity. [InlineInstanced] adds a searchable type
+  picker to [SerializeReference] fields, lists and arrays.
+repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: DavidHo1801004
+gitTagPrefix: com.lmk.attributes/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm/com.lmk.attributes:README.md
+createdAt: 1792941164429
