@@ -1,0 +1,21 @@
+name: com.lmk.editor
+aliases: []
+displayName: LMK Editor
+description: >-
+  Shared UI Toolkit editor library for LMK packages: colour theme, searchable
+  hierarchical dropdown, search query syntax and reusable editor controls.
+repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: DavidHo1801004
+gitTagPrefix: com.lmk.editor/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm/com.lmk.editor:README.md
+createdAt: 1792941057794
