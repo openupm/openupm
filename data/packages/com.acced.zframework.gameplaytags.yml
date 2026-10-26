@@ -1,0 +1,18 @@
+name: com.acced.zframework.gameplaytags
+aliases: []
+displayName: ZFramework Gameplay Tags
+description: Hierarchical gameplay tags with source counts, requirements, events, and Unity editor tooling.
+repoUrl: 'https://github.com/acced/ZFramework.GameplayTags'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+  - editor-enhancement
+hunter: acced
+createdAt: 1792998023959
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '1.0.0'
+readme: 'main:README.md'
