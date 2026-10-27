@@ -1,0 +1,19 @@
+name: com.alicizax.unity.localization
+aliases: []
+displayName: Aliciza X Localization
+description: Luban-backed localization runtime, UI bindings and editor preview tools.
+repoUrl: https://github.com/AlicizaX/com.alicizax.unity.localization
+trackingMode: githubRelease
+githubReleaseAssetName: com.alicizax.unity.localization-
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - frameworks
+hunter: AlicizaX
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793083302724
