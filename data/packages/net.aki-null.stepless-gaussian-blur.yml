@@ -1,0 +1,21 @@
+name: net.aki-null.stepless-gaussian-blur
+aliases: []
+displayName: Stepless Gaussian Blur
+description: >-
+  Fast, motion-stable near-Gaussian blur for URP RenderGraph, with consistent
+  GPU time at any strength.
+repoUrl: https://github.com/aki-null/SteplessGaussianBlur
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+  - utilities
+hunter: aki-null
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793108355771
