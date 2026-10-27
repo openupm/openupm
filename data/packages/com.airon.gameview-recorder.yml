@@ -1,0 +1,19 @@
+name: com.airon.gameview-recorder
+aliases: []
+displayName: Game View Recorder
+description: Records the Game view in Play Mode, with audio (Unity or Wwise) and optionally the cursor and clicks, to an MKV or MP4 file at the Game view's resolution. Encodes with ffmpeg.
+repoUrl: https://github.com/tosiabunio/unity-gameview-recorder
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 0BSD
+licenseName: BSD Zero Clause License
+topics:
+  - editor-enhancement
+  - video
+hunter: tosiabunio
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: main:README.md
+createdAt: 1793106736080
