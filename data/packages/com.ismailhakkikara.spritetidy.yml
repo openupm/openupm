@@ -1,0 +1,24 @@
+name: com.ismailhakkikara.spritetidy
+aliases: []
+displayName: Sprite Tidy
+description: >-
+  Editor tool that cleans up AI-generated sprites (ChatGPT and others): removes
+  plain and fake-checkerboard backgrounds, fixes not-quite-opaque alpha, puts
+  every object on a sprite of the same size, and keeps sprite sheet frames from
+  moving.
+repoUrl: https://github.com/ismailhakkikara/sprite-tidy
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - sprite-management
+  - ai
+hunter: ismailhakkikara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.3.0
+readme: main:README.md
+createdAt: 1793210637354
