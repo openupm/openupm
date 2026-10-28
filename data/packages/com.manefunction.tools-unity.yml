@@ -1,0 +1,25 @@
+name: com.manefunction.tools-unity
+aliases: []
+displayName: Mane Tools for Unity
+description: |-
+  Editor enhancements and class extensions for Unity.
+
+  All extensions can be found under 'Mane.Unity' namespace.
+
+  All components are under Add 'Component -> Mane Tools' section.
+repoUrl: https://github.com/ManeFunction/ManeTools-Unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+  - editor-enhancement
+  - utilities
+hunter: ManeFunction
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793230633681
