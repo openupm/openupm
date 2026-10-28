@@ -1,0 +1,25 @@
+name: com.dawaniyahgames.uiframework
+aliases: []
+displayName: UI Framework
+description: >-
+  Smooth, organized game UI for Unity, AI-ready. Build game UI from Addressable
+  scenes on a state stack, with shared elements, built-in animations and an
+  editor that generates the scripts, scenes and config for you.
+repoUrl: https://github.com/dawaniyah-games/UiFramework
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/dawaniyah-games/UiFramework/main/docs/images/editor-overview.png
+topics:
+  - editor-enhancement
+  - frameworks
+  - gui
+  - mobile
+hunter: dawaniyah-games
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.3.6
+readme: main:README.md
+createdAt: 1793163460395
