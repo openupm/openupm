@@ -1,0 +1,26 @@
+name: com.manefunction.sound-maneger
+aliases: []
+displayName: Sound Maneger
+description: >-
+  Just a neat sound manager for Unity: separate music and SFX channels,
+  crossfaded playlists, ducking, and async clip loading from Resources or
+  Addressables.
+
+
+  Drop the 'SoundManeger' prefab into your first scene, add it with 'GameObject
+  -> Add SoundManeger', or find the component in 'Add Component -> Mane Tools ->
+  Audio -> Sound Maneger'.
+repoUrl: https://github.com/ManeFunction/sound-maneger
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - audio
+hunter: ManeFunction
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793231174571
