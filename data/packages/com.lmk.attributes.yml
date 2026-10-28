@@ -5,7 +5,7 @@ description: >-
   Inspector attributes for Unity. [InlineInstanced] adds a searchable type
   picker to [SerializeReference] fields, lists and arrays.
 repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
