@@ -1,0 +1,24 @@
+name: com.manefunction.tools-unity-ui
+aliases: []
+displayName: Mane Tools for Unity UI
+description: |-
+  Some controls and extensions for uGUI package.
+
+  All extensions can be found under 'Mane.Unity.UI' namespace.
+
+  All components are under Add 'Component -> Mane Tools -> UI' section.
+repoUrl: https://github.com/ManeFunction/ManeTools-UnityUI
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - gui
+hunter: ManeFunction
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793230972958
