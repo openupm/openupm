@@ -1,0 +1,24 @@
+name: com.rickit.autoui
+aliases: []
+displayName: RicKit Auto UI
+description: >-
+  Editor tools for Auto UI: apply import plans generated from PSD exports
+  (sprites placed by project profile, prefabs, page manifests, project
+  validators), dump existing UI prefabs as data and render previews. Editor
+  only; generated prefabs do not depend on this package.
+repoUrl: https://github.com/rickytheoldtree/com.rickit.autoui
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - 2d
+  - ai
+  - editor-enhancement
+hunter: rickytheoldtree
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Assets/RicKit/AutoUI/README.md
+createdAt: 1793209093577
