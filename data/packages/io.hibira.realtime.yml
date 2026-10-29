@@ -1,0 +1,23 @@
+name: io.hibira.realtime
+aliases: []
+displayName: Hibira Realtime
+description: >-
+  Realtime WebSocket channels for Unity on Hibira and other Pusher-compatible
+  servers: public, private and presence channels, client events, and game rooms
+  (seats, host, ready, chat) that share rooms with @hibira-io/lobby browser
+  players. Works in WebGL builds.
+repoUrl: https://github.com/hibira-io/unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - network
+hunter: deflinhec
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793265977421
