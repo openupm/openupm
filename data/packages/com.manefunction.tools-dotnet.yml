@@ -6,7 +6,7 @@ description: >-
   dependencies. Useful for domain-driven design and for separating core logic
   code from Unity.
 repoUrl: https://github.com/ManeFunction/ManeTools-dotNET
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

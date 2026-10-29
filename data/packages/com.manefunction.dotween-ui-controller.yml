@@ -5,7 +5,7 @@ description: >-
   Neat Unity controller component to set up UI DOTween animations without any
   code. DOTween Pro is not required, but supported!
 repoUrl: https://github.com/ManeFunction/DOTween-UI-controller
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

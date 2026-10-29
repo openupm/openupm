@@ -8,7 +8,7 @@ description: |-
 
   All components are under Add 'Component -> Mane Tools' section.
 repoUrl: https://github.com/ManeFunction/ManeTools-Unity
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
