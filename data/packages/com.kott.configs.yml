@@ -1,0 +1,22 @@
+name: com.kott.configs
+aliases: []
+displayName: Kott Configs
+description: >-
+  Typed game config data for Unity. Author templates as ScriptableObjects (and
+  JSON files) with typed cross-references, validate and bake them per config
+  set, publish them to files or Unity Remote Config, and load them at runtime
+  from layered sources with typed lookups.
+repoUrl: https://github.com/Kott-Games/package-configs
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: null
+topics:
+  - data-management
+hunter: DieterDerVermieter
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793287703000
