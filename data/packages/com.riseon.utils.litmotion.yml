@@ -1,0 +1,22 @@
+name: com.riseon.utils.litmotion
+aliases: []
+displayName: RiseOn Utils LitMotion
+description: >-
+  LitMotion utilities: EaseExt, an ease or a hand-drawn curve, drawn on one row
+  in the Inspector
+repoUrl: https://github.com/riseongamestudio/Utils
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - utilities
+  - editor-enhancement
+hunter: riseon-admin
+gitTagPrefix: 'com.riseon.utils.litmotion/'
+gitTagIgnore: ''
+minVersion: ''
+readme: main:LitMotion/README.md
+createdAt: 1793265895797
