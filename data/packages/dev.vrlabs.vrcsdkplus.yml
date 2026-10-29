@@ -1,13 +1,13 @@
-name: com.dreadscripts.vrcsdkplus
+name: dev.vrlabs.vrcsdkplus
 aliases: []
-displayName: DreadTools - VRCSDK+
+displayName: VRCSDK+
 description: Overrides the VRCSDK Menu & Expression Parameters Editors to provide
   better functionality and quality of life features.
-repoUrl: https://github.com/Dreadrith/VRCSDKPlus
+repoUrl: https://github.com/VRLabs/VRCSDKPlus
 trackingMode: git
 parentRepoUrl: null
-licenseName: ARR
-licenseSpdxId: null
+licenseSpdxId: GPL-3.0
+licenseName: GNU General Public License v3.0 only
 image: ''
 topics:
 - editor-enhancement
@@ -15,5 +15,5 @@ hunter: TayouVR
 gitTagPrefix: ''
 gitTagIgnore: ''
 minVersion: ''
-readme: main:com.dreadscripts.vrcsdkplus/Documentation~/com.dreadscripts.vrcsdkplus.md
+readme: main:README.md
 createdAt: 1701112407617

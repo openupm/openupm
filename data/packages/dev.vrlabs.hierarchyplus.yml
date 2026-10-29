@@ -1,9 +1,9 @@
-name: com.dreadscripts.hierarchyplus
+name: dev.vrlabs.hierarchyplus
 aliases: []
-displayName: DreadScripts - HierarchyPlus
+displayName: HierarchyPlus
 description: A general improvement to the unity hierarchy such as component icons,
   guide lines, row coloring and settings for customization.
-repoUrl: https://github.com/Dreadrith/HierarchyPlus
+repoUrl: https://github.com/VRLabs/HierarchyPlus
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: GPL-3.0
