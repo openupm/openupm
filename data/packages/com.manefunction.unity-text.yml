@@ -9,7 +9,7 @@ description: >-
 
   Can be found in 'Add Component -> Mane Tools -> Components -> Mane Text'
 repoUrl: https://github.com/ManeFunction/ManeTools-Text
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

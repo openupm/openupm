@@ -11,7 +11,7 @@ description: >-
   -> Add SoundManeger', or find the component in 'Add Component -> Mane Tools ->
   Audio -> Sound Maneger'.
 repoUrl: https://github.com/ManeFunction/sound-maneger
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
