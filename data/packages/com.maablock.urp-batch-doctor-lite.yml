@@ -1,0 +1,20 @@
+name: com.maablock.urp-batch-doctor-lite
+aliases: []
+displayName: URP Batch & Resident Doctor Lite
+description: Instant SRP Batcher & Unity 6 GPU Resident Drawer readiness scanner. Pinpoints exact CBuffer shader breaks, MaterialPropertyBlock culprits, Forward+ cluster loop blockers, and Static Batching conflicts.
+repoUrl: https://github.com/MaaBlock/urp-batch-resident-doctor-lite
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - profiling
+  - editor-enhancement
+  - debugging-and-logging
+hunter: MaaBlock
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.0.0
+readme: main:README.md
+createdAt: 1793547296244
