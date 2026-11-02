@@ -1,0 +1,16 @@
+name: com.keronlabs.blip
+displayName: Blip Analytics
+description: Drop-in analytics for Unity games. Tracks sessions and your events; ask questions about them in plain English.
+repoUrl: 'https://github.com/kalashshah/blip-sdk'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - integration
+hunter: kalashshah
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
