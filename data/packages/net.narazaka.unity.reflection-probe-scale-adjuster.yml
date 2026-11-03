@@ -1,0 +1,18 @@
+name: net.narazaka.unity.reflection-probe-scale-adjuster
+aliases: []
+displayName: Reflection Probe Scale Adjuster
+description: Reflection Probe のサイズを親のスケールに追従するようにするやつ
+repoUrl: https://github.com/Narazaka/ReflectionProbeScaleAdjuster
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Zlib
+licenseName: zlib License
+image: ''
+topics:
+  - utilities
+hunter: Narazaka
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793699870149
