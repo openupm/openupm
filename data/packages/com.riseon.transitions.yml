@@ -1,0 +1,22 @@
+name: com.riseon.transitions
+aliases: []
+displayName: Transitions
+description: >-
+  Transitions set up in the Inspector or in code as pure functions of one 0-1
+  clock: targets, properties and branches changed by modifiers over sources
+repoUrl: https://github.com/riseongamestudio/Transitions
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - animation
+  - gui
+  - editor-enhancement
+hunter: riseon-admin
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793705003693
