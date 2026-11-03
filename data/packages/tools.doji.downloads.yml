@@ -1,0 +1,21 @@
+name: tools.doji.downloads
+aliases: []
+displayName: Download Utils
+description: >-
+  A download utility for asynchronous, resumable background downloads
+repoUrl: https://github.com/julienkay/tools.doji.downloads
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://repository-images.githubusercontent.com/1227348219/9706a9f2-1e67-420c-968d-d7f728900b74
+topics:
+  - utilities
+  - network
+hunter: julienkay
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793736148169
