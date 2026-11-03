@@ -1,0 +1,23 @@
+name: com.unitywaxkit.core
+aliases: []
+displayName: Unity WAX Kit
+description: >-
+  WAX and Antelope wallet login (Anchor, My Cloud Wallet, pluggable wallets),
+  transactions, table reads and AtomicAssets reads for Unity games on WebGL,
+  Windows and Android.
+repoUrl: https://github.com/gulkonster/unity-wax-kit
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - network
+hunter: gulkonster
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.unitywaxkit.core/README.md
+createdAt: 1793748822620
