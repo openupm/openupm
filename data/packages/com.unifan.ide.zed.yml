@@ -1,0 +1,21 @@
+﻿name: com.unifan.ide.zed
+aliases: []
+displayName: Zed Editor
+description: >-
+  Code editor integration for supporting Zed as code editor for Unity.
+  Adds support for SDK-style csproj generation, Unity Roslyn analyzers,
+  auto discovery of Zed installations, and automatic .zed configurations.
+repoUrl: 'https://github.com/821869798/zed-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: '821869798'
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: 'main:unity-zed-ide/README.md'
+createdAt: 1793695117160
