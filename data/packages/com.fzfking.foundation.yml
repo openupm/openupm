@@ -1,0 +1,28 @@
+name: com.fzfking.foundation
+aliases: []
+displayName: Foundation
+description: >-
+  A reusable Unity application foundation with dependency injection,
+  messaging, save and content systems, UI, audio, localization, and optional
+  integrations.
+repoUrl: https://github.com/fzfking/foundation
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://github.com/fzfking/foundation/blob/main/Documentation~/website/static/img/FoundationLogo.png?raw=true
+topics:
+  - asset-management
+  - debugging-and-logging
+  - frameworks
+  - gui
+  - integration
+  - mobile
+  - utilities
+hunter: fzfking
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793716274270
