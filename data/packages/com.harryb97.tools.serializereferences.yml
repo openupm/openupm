@@ -1,0 +1,21 @@
+name: com.harryb97.tools.serializereferences
+aliases: []
+displayName: 'Serialize References'
+description: 'Desplegable para elegir el tipo de los campos con [SerializeReference], corrección automática de referencias duplicadas y explorador de referencias de las escenas abiertas'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: HarryB977
+gitTagPrefix: 'serializereferences/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.serializereferences/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508719
