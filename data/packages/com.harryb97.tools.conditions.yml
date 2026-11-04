@@ -1,0 +1,21 @@
+name: com.harryb97.tools.conditions
+aliases: []
+displayName: 'Conditions'
+description: 'Condiciones modulares configurables desde el inspector con [SerializeReference]. Se combinan con listas (Todas / Alguna) y operadores lógicos'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'conditions/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.conditions/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508695
