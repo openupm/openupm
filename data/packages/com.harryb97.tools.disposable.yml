@@ -1,0 +1,21 @@
+name: com.harryb97.tools.disposable
+aliases: []
+displayName: 'Disposable'
+description: 'Atributo que al ser colocado sobre un método estático, lo ejecuta al salir del Modo Play en el Editor'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: HarryB977
+gitTagPrefix: 'disposable/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.disposable/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508697
