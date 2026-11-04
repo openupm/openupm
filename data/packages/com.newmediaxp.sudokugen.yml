@@ -1,0 +1,23 @@
+name: com.newmediaxp.sudokugen
+aliases: []
+displayName: Sudoku Gen
+description: >-
+  Sudoku generator and solver: unique-solution puzzle creation (optionally
+  seeded), solving, validation, conflict reporting and isomorphic shuffling. The
+  C# library NMX.SudokuGen.Library as a prebuilt DLL.
+repoUrl: https://github.com/newmediaxp/sudokugen
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: https://raw.githubusercontent.com/newmediaxp/sudokugen/main/icon.png
+topics:
+  - procedural-generation
+  - utilities
+hunter: newmediaxp
+gitTagPrefix: csharp-v
+gitTagIgnore: ''
+minVersion: 1.2.1
+readme: main:unity/com.newmediaxp.sudokugen/README.md
+createdAt: 1793819006185
+githubReleaseAssetName: com.newmediaxp.sudokugen
