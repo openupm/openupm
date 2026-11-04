@@ -1,0 +1,22 @@
+name: com.harryb97.tools.fps3dcontroller
+aliases: []
+displayName: 'FPS 3D Controller'
+description: 'Herramienta que añade un controlador de movimiento en 3D para juegos en primera persona'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - physics
+  - input-management
+hunter: HarryB977
+gitTagPrefix: 'fps3dcontroller/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.fps3dcontroller/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508700
