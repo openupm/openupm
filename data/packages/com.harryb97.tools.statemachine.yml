@@ -1,0 +1,21 @@
+name: com.harryb97.tools.statemachine
+aliases: []
+displayName: 'State Machine'
+description: 'Herramienta que añade una máquina de estado con interfaces para estados, transiciones y predicados personalizados'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'statemachine/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.statemachine/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508724
