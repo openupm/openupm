@@ -1,0 +1,21 @@
+name: com.harryb97.harryutils
+aliases: []
+displayName: 'HarryUtils'
+description: 'Utilidades que uso en mis proyectos de Unity: extensiones, singletons, temporizadores, pools de objetos, máquina de estados y componentes de UI'
+repoUrl: 'https://github.com/HarryB977/HarryUtils'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: HarryB977
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508727
