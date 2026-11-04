@@ -1,0 +1,21 @@
+name: com.harryb97.tools.gameloop
+aliases: []
+displayName: 'Game Loop'
+description: 'Permite crear varias ramas de loop de juego, a las que se puede suscribir cualquier clase'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'gameloop/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.gameloop/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508702
