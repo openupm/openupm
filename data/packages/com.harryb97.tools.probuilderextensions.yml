@@ -1,0 +1,22 @@
+name: com.harryb97.tools.probuilderextensions
+aliases: []
+displayName: 'ProBuilder Extensions'
+description: 'Herramientas que amplían ProBuilder. Hotspot UV asigna a cada cara el rectángulo de un atlas que mejor encaja con su forma y tamaño; el generador crea esos atlas (color, normal, máscara y oclusión para URP) a partir de dos texturas y un layout'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - modeling
+  - level-design
+hunter: HarryB977
+gitTagPrefix: 'probuilderextensions/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.probuilderextensions/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508715
