@@ -1,0 +1,14 @@
+name: com.kano.ylframework.dotween
+displayName: YLFramework DOTween Integration
+description: Optional DOTween adapter for YLFramework. DOTween must be supplied separately.
+repoUrl: https://github.com/KONOK-A/YLFramework-dev
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: 0.1.0-preview.1
+readme: main:PackageSources/com.kano.ylframework.dotween/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.kano.ylframework.dotween-
