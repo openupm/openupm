@@ -1,6 +1,6 @@
 name: com.harryb97.tools.platformer3dcontroller
 aliases: []
-displayName: 'Platformer 3D Controller'
+displayName: 'HarryTools Platformer 3D Controller'
 description: 'Herramienta que añade un controlador de movimiento en 3D basado en físicas (cápsula flotante) para juegos de plataformas'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

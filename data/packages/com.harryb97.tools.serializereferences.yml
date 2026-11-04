@@ -1,6 +1,6 @@
 name: com.harryb97.tools.serializereferences
 aliases: []
-displayName: 'Serialize References'
+displayName: 'HarryTools Serialize References'
 description: 'Desplegable para elegir el tipo de los campos con [SerializeReference], corrección automática de referencias duplicadas y explorador de referencias de las escenas abiertas'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

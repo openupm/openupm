@@ -1,6 +1,6 @@
 name: com.harryb97.tools.ui
 aliases: []
-displayName: 'UI'
+displayName: 'HarryTools UI'
 description: 'Sistema de interfaces basado en PurrUI: vistas, popups y overlays por capas, paleta de colores con temas, iconos en texto y gráficos procedurales para uGUI.'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

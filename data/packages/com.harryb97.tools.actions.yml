@@ -1,6 +1,6 @@
 name: com.harryb97.tools.actions
 aliases: []
-displayName: 'Actions'
+displayName: 'HarryTools Actions'
 description: 'Acciones modulares asíncronas configurables desde el inspector con [SerializeReference]. Se ejecutan en orden, con condiciones, ramas, paralelos, esperas y cancelación'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

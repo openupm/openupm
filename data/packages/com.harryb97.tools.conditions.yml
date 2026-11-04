@@ -1,6 +1,6 @@
 name: com.harryb97.tools.conditions
 aliases: []
-displayName: 'Conditions'
+displayName: 'HarryTools Conditions'
 description: 'Condiciones modulares configurables desde el inspector con [SerializeReference]. Se combinan con listas (Todas / Alguna) y operadores lógicos'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

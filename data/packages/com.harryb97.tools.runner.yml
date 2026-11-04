@@ -1,6 +1,6 @@
 name: com.harryb97.tools.runner
 aliases: []
-displayName: 'Runner'
+displayName: 'HarryTools Runner'
 description: 'Centraliza el loop de juego y permite añadir clases al mismo sin necesidad de MonoBehaviour'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

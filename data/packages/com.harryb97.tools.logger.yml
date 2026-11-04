@@ -1,6 +1,6 @@
 name: com.harryb97.tools.logger
 aliases: []
-displayName: 'Logger'
+displayName: 'HarryTools Logger'
 description: 'Herramienta que expande el uso de ''Debug.Log'''
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git
