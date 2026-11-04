@@ -1,0 +1,21 @@
+name: com.harryb97.tools.serviceprovider
+aliases: []
+displayName: 'Service Provider'
+description: 'Integración simple de un sistema que provee servicios'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'serviceprovider/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.serviceprovider/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508720
