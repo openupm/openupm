@@ -1,0 +1,21 @@
+name: com.harryb97.tools.domainreload
+aliases: []
+displayName: 'Domain Reload'
+description: 'Atributos para limpiar campos estáticos y ejecutar métodos estáticos al entrar en el Modo Play con la recarga de dominio desactivada'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+hunter: HarryB977
+gitTagPrefix: 'domainreload/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.domainreload/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508699
