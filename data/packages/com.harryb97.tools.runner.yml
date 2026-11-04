@@ -1,0 +1,21 @@
+name: com.harryb97.tools.runner
+aliases: []
+displayName: 'Runner'
+description: 'Centraliza el loop de juego y permite añadir clases al mismo sin necesidad de MonoBehaviour'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+hunter: HarryB977
+gitTagPrefix: 'runner/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.runner/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508717
