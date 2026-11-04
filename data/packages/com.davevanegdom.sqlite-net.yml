@@ -1,0 +1,20 @@
+name: com.davevanegdom.sqlite-net
+aliases: []
+displayName: SQLite-net
+description: >-
+  SQLite-net for Unity, supports Windows, Linux, macOS, iOS, tvOS, visionOS,
+  Android and WebGL
+repoUrl: https://github.com/davevanegdom/unity-sqlite-net
+trackingMode: git
+parentRepoUrl: https://github.com/gilzoide/unity-sqlite-net
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: davevanegdom
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1793786907468
