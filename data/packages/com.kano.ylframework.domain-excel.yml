@@ -1,0 +1,14 @@
+name: com.kano.ylframework.domain-excel
+displayName: YLFramework Domain Excel
+description: Domain data authoring and Excel integration for YLFramework.
+repoUrl: https://github.com/KONOK-A/YLFramework-dev
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - utilities
+gitTagPrefix: upm/
+gitTagIgnore: ''
+minVersion: 0.1.0-preview.1
+readme: main:PackageSources/com.kano.ylframework.domain-excel/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.kano.ylframework.domain-excel-
