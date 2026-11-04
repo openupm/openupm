@@ -1,6 +1,6 @@
 name: com.newmediaxp.sudokugen
 aliases: []
-displayName: Sudoku Gen
+displayName: SudokuGen
 description: >-
   Sudoku generator and solver: unique-solution puzzle creation (optionally
   seeded), solving, validation, conflict reporting and isomorphic shuffling. The
@@ -11,6 +11,7 @@ parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: https://raw.githubusercontent.com/newmediaxp/sudokugen/main/icon.png
+imageFit: contain
 topics:
   - procedural-generation
   - utilities
