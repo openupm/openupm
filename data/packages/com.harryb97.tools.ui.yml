@@ -1,0 +1,21 @@
+name: com.harryb97.tools.ui
+aliases: []
+displayName: 'UI'
+description: 'Sistema de interfaces basado en PurrUI: vistas, popups y overlays por capas, paleta de colores con temas, iconos en texto y gráficos procedurales para uGUI.'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: HarryB977
+gitTagPrefix: 'ui/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.ui/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1793793508726
