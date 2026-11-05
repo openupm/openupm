@@ -1,6 +1,6 @@
 name: com.harryb97.tools.platformer2dcontroller
 aliases: []
-displayName: 'Platformer 2D Controller'
+displayName: 'HarryTools Platformer 2D Controller'
 description: 'Herramienta que añade un controlador de movimiento en 2D para juegos de plataformas'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

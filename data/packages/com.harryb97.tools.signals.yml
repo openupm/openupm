@@ -1,6 +1,6 @@
 name: com.harryb97.tools.signals
 aliases: []
-displayName: 'Signals'
+displayName: 'HarryTools Signals'
 description: 'Sistema similar a Event System, pero que usa una clase central para contener los eventos, evitando dependencias entre clases'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

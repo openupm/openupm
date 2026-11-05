@@ -1,6 +1,6 @@
 name: com.harryb97.tools.domainreload
 aliases: []
-displayName: 'Domain Reload'
+displayName: 'HarryTools Domain Reload'
 description: 'Atributos para limpiar campos estáticos y ejecutar métodos estáticos al entrar en el Modo Play con la recarga de dominio desactivada'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

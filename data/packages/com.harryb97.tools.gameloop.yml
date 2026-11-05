@@ -1,6 +1,6 @@
 name: com.harryb97.tools.gameloop
 aliases: []
-displayName: 'Game Loop'
+displayName: 'HarryTools Game Loop'
 description: 'Permite crear varias ramas de loop de juego, a las que se puede suscribir cualquier clase'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

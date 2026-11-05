@@ -1,6 +1,6 @@
 name: com.harryb97.tools.localization
 aliases: []
-displayName: 'Localization'
+displayName: 'HarryTools Localization'
 description: 'Herramientas para facilitar el uso del paquete de localización de Unity'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

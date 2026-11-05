@@ -1,6 +1,6 @@
 name: com.harryb97.tools.statemachine
 aliases: []
-displayName: 'State Machine'
+displayName: 'HarryTools State Machine'
 description: 'Herramienta que añade una máquina de estado con interfaces para estados, transiciones y predicados personalizados'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

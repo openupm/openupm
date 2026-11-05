@@ -1,6 +1,6 @@
 name: com.harryb97.tools.serviceprovider
 aliases: []
-displayName: 'Service Provider'
+displayName: 'HarryTools Service Provider'
 description: 'Integración simple de un sistema que provee servicios'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

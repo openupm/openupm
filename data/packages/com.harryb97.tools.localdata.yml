@@ -1,6 +1,6 @@
 name: com.harryb97.tools.localdata
 aliases: []
-displayName: 'Local Data'
+displayName: 'HarryTools Local Data'
 description: 'Herramienta que permite guardar y cargar datos en archivos locales'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git
