@@ -1,0 +1,19 @@
+name: com.ningfeng.mixedspace
+aliases: []
+displayName: MixedSpaceVPS
+description: Visual positioning SDK for Unity with cloud and on-device localization, map management, and pose fusion.
+repoUrl: 'https://github.com/MixedSpace/MixedSpaceVPS'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - mobile
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: '2.0.0'
+trackingMode: git
+image: null
+readme: 'main:README.md'
+hunter: MixedSpace
+createdAt: 1793864016702
