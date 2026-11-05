@@ -1,0 +1,21 @@
+name: com.prpr.accessking
+aliases: []
+displayName: AccessKing
+description: >-
+  PeroTools2's access bus for cross-domain service access: event bus, command
+  bus and theme keyed schedules.
+repoUrl: https://github.com/peroperogames/AccessKing
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+  - utilities
+hunter: peroperogames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793875148340
