@@ -7,7 +7,7 @@ description: >-
   multicast, homing, combat scales, area, ground fields, ballistic aim, Delivery
   Straight / Arc / Hitscan / Beam).
 repoUrl: https://github.com/veerdonk/Projectile-System
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
