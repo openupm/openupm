@@ -1,4 +1,4 @@
-name: com.ningfeng.mixedspace
+name: com.njyjxr.mixedspace
 aliases: []
 displayName: MixedSpaceVPS
 description: Visual positioning SDK for Unity with cloud and on-device localization, map management, and pose fusion.
@@ -9,7 +9,7 @@ licenseName: Apache License 2.0
 topics:
   - ar-and-vr
   - mobile
-gitTagPrefix: v
+gitTagPrefix: upm/
 gitTagIgnore: ''
 minVersion: '2.0.0'
 trackingMode: git
