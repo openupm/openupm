@@ -1,6 +1,6 @@
 name: com.harryb97.tools.fps3dcontroller
 aliases: []
-displayName: 'FPS 3D Controller'
+displayName: 'HarryTools FPS 3D Controller'
 description: 'Herramienta que añade un controlador de movimiento en 3D para juegos en primera persona'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

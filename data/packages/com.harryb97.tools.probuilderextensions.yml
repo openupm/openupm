@@ -1,6 +1,6 @@
 name: com.harryb97.tools.probuilderextensions
 aliases: []
-displayName: 'ProBuilder Extensions'
+displayName: 'HarryTools ProBuilder Extensions'
 description: 'Herramientas que amplían ProBuilder. Hotspot UV asigna a cada cara el rectángulo de un atlas que mejor encaja con su forma y tamaño; el generador crea esos atlas (color, normal, máscara y oclusión para URP) a partir de dos texturas y un layout'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

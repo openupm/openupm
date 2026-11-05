@@ -1,6 +1,6 @@
 name: com.harryb97.tools.disposable
 aliases: []
-displayName: 'Disposable'
+displayName: 'HarryTools Disposable'
 description: 'Atributo que al ser colocado sobre un método estático, lo ejecuta al salir del Modo Play en el Editor'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git

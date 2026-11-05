@@ -1,6 +1,6 @@
 name: com.harryb97.tools.addressablestool
 aliases: []
-displayName: 'Addressables Tool'
+displayName: 'HarryTools Addressables Tool'
 description: 'Herramienta que ayuda a cargar Addressables usando los Labels'
 repoUrl: 'https://github.com/HarryB977/HarryTools'
 trackingMode: git
