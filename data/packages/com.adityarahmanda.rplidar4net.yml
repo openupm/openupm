@@ -1,0 +1,20 @@
+name: com.adityarahmanda.rplidar4net
+aliases: []
+displayName: RPLidar4Net
+description: >-
+  RPLidar4Net for Unity. It allows you to connect to and process data from the
+  RPLidar sensor.
+repoUrl: https://github.com/adityarahmanda/rplidar4net-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: adityarahmanda
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793986935452
