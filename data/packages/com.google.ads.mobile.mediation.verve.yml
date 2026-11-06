@@ -18,6 +18,7 @@ hunter: googleads
 gitTagPrefix: 'Verve/'
 gitTagIgnore: ''
 minVersion: ''
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: com.google.ads.mobile.mediation.verve-
 readme: main:Verve/README.md
 createdAt: 1722989535000
