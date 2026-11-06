@@ -1,0 +1,21 @@
+name: com.prpr.serde
+aliases: []
+displayName: PeroSerde
+description: >-
+  Universal Serializer & Deserializer For Unity, Aims To Be Efficient, Generic
+  And Easy To Use.
+repoUrl: https://github.com/peroperogames/PeroSerde
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: peroperogames
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1793961995063
