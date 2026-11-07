@@ -280,6 +280,9 @@ scopes:
 - cn.refactor.fsm
 - com.no-slopes.handy-fsm
 
+# https://github.com/openupm/openupm/issues/7140
+- com.playserv.sdk
+
 # https://github.com/openupm/openupm/issues/7080
 - com.hryooba.library.animancer
 - com.hryooba.library.artnet
