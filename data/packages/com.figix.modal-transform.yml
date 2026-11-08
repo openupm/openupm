@@ -1,0 +1,18 @@
+name: com.figix.modal-transform
+aliases: []
+displayName: Figix Modal Transform
+description: Keyboard-first W/E/R modal transforms for the Unity Scene view.
+repoUrl: https://github.com/Figix/ModalTransformUnity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: Figix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.3
+readme: main:README.md
+createdAt: 1794175164059
