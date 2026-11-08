@@ -283,6 +283,9 @@ scopes:
 # https://github.com/openupm/openupm/issues/7140
 - com.playserv.sdk
 
+# Requested by author; unmaintained and source repository deleted: https://github.com/openupm/openupm/pull/7199
+- com.cowart.event-relays
+
 # https://github.com/openupm/openupm/issues/7080
 - com.hryooba.library.animancer
 - com.hryooba.library.artnet
