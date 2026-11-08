@@ -1,0 +1,24 @@
+name: com.martincalander.githubpackagemanager
+aliases:
+  - com.martincalander.gitsubmodulemanager
+displayName: Github Package Manager
+description: >-
+  Show installed package sources and Git submodule status in Unity Package Manager.
+repoUrl: https://github.com/martincalander/Githubpackagemanager
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/martincalander/Githubpackagemanager/main/Documentation~/Images/GithubPackageManagerCover.png
+topics:
+  - package-management
+  - utilities
+  - version-control
+hunter: martincalander
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.9.0'
+readme: main:README.md
+createdAt: 1788031329005
+githubReleaseAssetName: com.martincalander.githubpackagemanager-
