@@ -3,7 +3,7 @@ aliases: []
 displayName: UniTask Plus
 description: Additional utilities and extensions for UniTask.
 repoUrl: https://github.com/AndanteTribe/UniTaskPlus
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
