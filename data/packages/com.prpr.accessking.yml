@@ -15,7 +15,7 @@ topics:
   - utilities
 hunter: peroperogames
 gitTagPrefix: ''
-gitTagIgnore: ''
+gitTagIgnore: '(-base|-variant)$'
 minVersion: ''
 readme: master:README.md
 createdAt: 1793875148340
