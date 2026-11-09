@@ -1,0 +1,21 @@
+name: com.orcapafea.daedalus
+aliases: []
+displayName: Daedalus Platformer Maker
+description: >-
+  Build a 2D platformer in the Unity Editor without code: place objects, add
+  Daedalus components and tune their settings.
+repoUrl: https://github.com/brisa0730/game_daedalus
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: ''
+licenseName: MIT
+image: ''
+topics:
+  - 2d
+  - level-design
+hunter: brisa0730
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.orcapafea.daedalus/README.md
+createdAt: 1794224433811
