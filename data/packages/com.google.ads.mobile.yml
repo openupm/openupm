@@ -6,7 +6,8 @@ description: >-
   for iOS and Android using Google's native iOS and Android Mobile SDKs via a
   unified C# API in Unity.
 repoUrl: https://github.com/googleads/googleads-mobile-unity
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: com.google.ads.mobile-
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
 licenseName: Apache License 2.0
