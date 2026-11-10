@@ -4,7 +4,6 @@ displayName: UniTask Plus
 description: Additional utilities and extensions for UniTask.
 repoUrl: https://github.com/AndanteTribe/UniTaskPlus
 trackingMode: githubRelease
-githubReleaseAssetName: jp.andantetribe.unitaskplus-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

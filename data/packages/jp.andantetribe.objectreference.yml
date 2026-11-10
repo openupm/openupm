@@ -6,7 +6,6 @@ description: >-
   Unity objects.
 repoUrl: https://github.com/AndanteTribe/ObjectReference
 trackingMode: githubRelease
-githubReleaseAssetName: jp.andantetribe.objectreference-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
