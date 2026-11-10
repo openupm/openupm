@@ -3,7 +3,7 @@ aliases: []
 displayName: Toast
 description: Simple toast notification UI for Unity.
 repoUrl: https://github.com/AndanteTribe/Toast
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

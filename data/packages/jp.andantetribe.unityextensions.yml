@@ -3,7 +3,7 @@ aliases: []
 displayName: Unity Extensions
 description: "Extension methods for Unityâ\x80\x99s core components and types."
 repoUrl: https://github.com/AndanteTribe/UnityExtensions
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

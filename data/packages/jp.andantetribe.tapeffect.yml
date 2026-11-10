@@ -3,7 +3,7 @@ aliases: []
 displayName: TapEffect
 description: Tap interaction effect for Unity UI (uGUI).
 repoUrl: https://github.com/AndanteTribe/TapEffect
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

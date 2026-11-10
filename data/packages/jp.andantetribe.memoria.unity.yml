@@ -3,7 +3,8 @@ aliases: []
 displayName: Memoria.Unity
 description: Client-side .NET implementation for managing PlayFab rankings and scores.
 repoUrl: https://github.com/AndanteTribe/Memoria
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.memoria.unity-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

@@ -3,7 +3,7 @@ aliases: []
 displayName: AssetsRegistry
 description: Unity Addressables utility for temporarily caching asset handles during usage.
 repoUrl: https://github.com/AndanteTribe/AssetsRegistry
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
