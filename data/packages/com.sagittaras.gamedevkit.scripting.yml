@@ -1,0 +1,20 @@
+name: com.sagittaras.gamedevkit.scripting
+aliases: []
+displayName: Sagittaras Scripting System
+description: Extensible hook-points allowing custom scripts to alter the behavior of core game modules.
+repoUrl: https://github.com/sagittaras/gamedev-kit
+trackingMode: githubRelease
+githubReleaseAssetName: com.sagittaras.gamedevkit.scripting-
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+image: ''
+topics:
+  - utilities
+  - frameworks
+hunter: JZechy
+gitTagPrefix: scripting/
+gitTagIgnore: ''
+minVersion: '1.0.1'
+readme: main:.docs/scripting/index.md
+createdAt: 1794327257758
