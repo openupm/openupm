@@ -3,7 +3,8 @@ aliases: []
 displayName: Bindings
 description: MVVM-based automated UI binding framework built on uGUI.
 repoUrl: https://github.com/AndanteTribe/Bindings
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.bindings-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

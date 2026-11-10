@@ -3,7 +3,8 @@ aliases: []
 displayName: VContainer Plus
 description: Additional utilities and extensions for VContainer.
 repoUrl: https://github.com/AndanteTribe/VContainerPlus
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.vcontainerplus-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

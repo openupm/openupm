@@ -5,7 +5,8 @@ description: >-
   Provides a simple interface and implementation for asynchronously loading
   Unity objects.
 repoUrl: https://github.com/AndanteTribe/ObjectReference
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.objectreference-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

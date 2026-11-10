@@ -5,7 +5,8 @@ description: >-
   A long-form text UI library for Unity, purpose-built for high-performance
   document rendering.
 repoUrl: https://github.com/AndanteTribe/Lengthy
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.lengthy-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

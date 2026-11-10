@@ -3,7 +3,8 @@ aliases: []
 displayName: Transition
 description: Scene transition system built on Addressables.
 repoUrl: https://github.com/AndanteTribe/Transition
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: jp.andantetribe.transition-
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
