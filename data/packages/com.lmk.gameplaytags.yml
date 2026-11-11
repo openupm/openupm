@@ -1,0 +1,22 @@
+name: com.lmk.gameplaytags
+aliases: []
+displayName: LMK Gameplay Tags
+description: >-
+  Hierarchical gameplay tags (e.g. "Status.Debuff.Stun") for Unity, identified
+  by ID and stored in registry files, with tag and tag-container fields, a tag
+  manager window, reference tools, package registries, tag file import and
+  export, generated tag constants and CI checks.
+repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - data-management
+hunter: DavidHo1801004
+gitTagPrefix: com.lmk.gameplaytags/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm/com.lmk.gameplaytags:README.md
+createdAt: 1794367290478
