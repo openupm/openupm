@@ -4,13 +4,13 @@ aliases:
 displayName: Github Package Manager
 description: >-
   Show installed package sources and Git submodule status in Unity Package Manager.
-repoUrl: https://github.com/martincalander/Githubpackagemanager
+repoUrl: https://github.com/martincalander/GithubPackageManager
 trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
 image: >-
-  https://raw.githubusercontent.com/martincalander/Githubpackagemanager/main/Documentation~/Images/GithubPackageManagerCover.png
+  https://raw.githubusercontent.com/martincalander/GithubPackageManager/main/Documentation~/Images/GithubPackageManagerCover.png
 topics:
   - package-management
   - utilities
