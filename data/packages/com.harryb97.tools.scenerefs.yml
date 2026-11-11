@@ -1,0 +1,21 @@
+name: com.harryb97.tools.scenerefs
+aliases: []
+displayName: 'HarryTools SceneRefs'
+description: 'Referencias a objetos de escena por un ID único y legible, desde cualquier escena o asset.'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'scenerefs/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.scenerefs/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1794391329000
