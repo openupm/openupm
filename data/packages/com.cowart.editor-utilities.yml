@@ -1,0 +1,20 @@
+name: com.cowart.editor-utilities
+aliases:
+  - com.cowart.editor-tools
+displayName: Editor Utilities
+description: "Unity 编辑器工具集，提供引用与场景诊断、Prefab 管理、选择收藏、材质替换、组件剪贴板及资源批处理。"
+repoUrl: https://github.com/liuyan7669/unity-editor-utilities
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+readme: main:README.md
+createdAt: 1785460973392

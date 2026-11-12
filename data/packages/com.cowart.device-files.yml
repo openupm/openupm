@@ -1,0 +1,19 @@
+name: com.cowart.device-files
+aliases:
+  - com.cowart.file-bridge
+displayName: Device Files
+description: "在 Unity Editor、Windows、Android 与 WebGL 中选择本地文件，并把 byte[]、SelectedFile、应用可访问路径或 HTTP(S) URL 保存到用户设备。"
+repoUrl: https://github.com/liuyan7669/unity-device-files
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+readme: main:README.md
+createdAt: 1786550657014
