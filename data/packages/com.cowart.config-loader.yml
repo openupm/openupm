@@ -1,0 +1,19 @@
+name: com.cowart.config-loader
+aliases:
+  - com.cowart.configuration-tools
+displayName: Config Loader
+description: "提供通用文本与 JSON 配置加载，以及对话、题目和提示配置的数据结构与查询接口。"
+repoUrl: https://github.com/liuyan7669/unity-config-loader
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: liuyan7669
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 2.0.0
+readme: main:README.md
+createdAt: 1784268697668
