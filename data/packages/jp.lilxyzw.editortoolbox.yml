@@ -1,0 +1,18 @@
+name: jp.lilxyzw.editortoolbox
+aliases: []
+displayName: lilEditorToolbox
+description: Extensions for Unity Editor.
+repoUrl: https://github.com/lilxyzw/lilEditorToolbox
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1794563499032
