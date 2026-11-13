@@ -1,0 +1,21 @@
+name: com.harryb97.tools.flags
+aliases: []
+displayName: 'HarryTools Flags'
+description: 'Flags booleanos de estado del mundo, globales y locales por escena, con condiciones y acciones listas para usar.'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: HarryB977
+gitTagPrefix: 'flags/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.flags/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1794582221000
