@@ -1,0 +1,23 @@
+name: com.lmk.registry
+aliases: []
+displayName: LMK Registry
+description: >-
+  Shared core for ID-based registries in Unity: stable (registry, row) identity,
+  registry files, a baked runtime database, staged editing with Undo, locking,
+  package registries, reference tools, build checks and generated constants.
+  Used by com.lmk.gameplaytags and com.lmk.abilitysystem.
+repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - asset-management
+  - data-management
+hunter: DavidHo1801004
+gitTagPrefix: com.lmk.registry/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm/com.lmk.registry:README.md
+createdAt: 1794545365456
