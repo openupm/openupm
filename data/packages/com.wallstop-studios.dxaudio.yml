@@ -1,0 +1,24 @@
+name: com.wallstop-studios.dxaudio
+aliases: []
+displayName: DxAudio
+description: >-
+  Data-driven sound effects and music for Unity: cue and music libraries as
+  assets, a pooled voice player with priority and rate limits, and music per
+  context with fades, overrides and ducks.
+repoUrl: 'https://github.com/Ambiguous-Interactive/DxAudio'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT-0
+licenseName: MIT No Attribution
+topics:
+  - audio
+hunter: wallstop
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.1.2'
+image: ''
+readme: 'main:README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1794700237325
