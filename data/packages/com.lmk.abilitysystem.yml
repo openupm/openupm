@@ -1,0 +1,21 @@
+name: com.lmk.abilitysystem
+aliases: []
+displayName: LMK Ability System
+description: >-
+  Gameplay ability system for Unity modelled on Unreal Engine 5 GAS:
+  registry-defined gameplay attributes, gameplay effects, abilities and cues,
+  driven by gameplay tags.
+repoUrl: https://github.com/DavidHo1801004/unity-lmk-packages
+trackingMode: githubRelease
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - frameworks
+hunter: DavidHo1801004
+gitTagPrefix: com.lmk.abilitysystem/
+gitTagIgnore: ''
+minVersion: ''
+readme: upm/com.lmk.abilitysystem:README.md
+createdAt: 1794630079425
