@@ -305,3 +305,25 @@ scopes:
 - com.cowart.object-tools
 - com.cowart.raycast-tools
 - com.cowart.runtime-debug-tools
+
+# All current Cowart packages: complete withdrawal requested by their owner, liuyan7669.
+- com.cowart.animator-player
+- com.cowart.audio-player
+- com.cowart.audio-recorder
+- com.cowart.config-loader
+- com.cowart.coroutine-runner
+- com.cowart.cw-extensions
+- com.cowart.device-files
+- com.cowart.editor-utilities
+- com.cowart.flow-framework
+- com.cowart.inspector-groups
+- com.cowart.measure-kit
+- com.cowart.multilingual-text
+- com.cowart.navigation-marker
+- com.cowart.object-utilities
+- com.cowart.raycast-utilities
+- com.cowart.runtime-debugger
+- com.cowart.ui-framework
+- com.cowart.video-player
+- com.cowart.webgl-input
+- com.cowart.xunfei-speech-recognition
