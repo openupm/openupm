@@ -294,3 +294,14 @@ scopes:
 - com.hryooba.library.kinect
 - com.hryooba.library.network
 - com.hryooba.library.tuio
+
+# Renamed legacy package IDs; unpublish request: https://github.com/openupm/openupm/issues/7222
+- com.cowart.animation-tools
+- com.cowart.configuration-tools
+- com.cowart.editor-tools
+- com.cowart.extensions
+- com.cowart.file-bridge
+- com.cowart.measurement-tools
+- com.cowart.object-tools
+- com.cowart.raycast-tools
+- com.cowart.runtime-debug-tools
