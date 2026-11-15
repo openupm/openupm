@@ -1,0 +1,30 @@
+name: ru.tottenhurt.vortex
+aliases: []
+displayName: Vortex Framework
+description: >-
+  Strict architectural framework for Unity (C#): modular systems, data/logic
+  separation, data bus instead of DI, custom serializer, batched async
+  initialization. Requires Odin Inspector and UniTask (not installed
+  automatically).
+repoUrl: https://github.com/RexWolf163/Vortex
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/RexWolf163/Vortex/main/Documentation~/cover@2x.png
+topics:
+  - asset-management
+  - data-management
+  - editor-enhancement
+  - frameworks
+  - gui
+  - input-management
+  - integration
+  - localization
+hunter: RexWolf163
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.261115
+readme: main:README.en.md
+createdAt: 1794737885664
