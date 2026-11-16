@@ -1,0 +1,21 @@
+name: com.harryb97.tools.texteffects
+aliases: []
+displayName: 'HarryTools Text Effects'
+description: 'Typewriter y efectos de texto para TextMeshPro: marcado en el propio texto, presets de efectos, pausas, eventos y voces de tecleo.'
+repoUrl: 'https://github.com/HarryB977/HarryTools'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+hunter: HarryB977
+gitTagPrefix: 'texteffects/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:Packages/com.harryb97.tools.texteffects/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1794838822000
