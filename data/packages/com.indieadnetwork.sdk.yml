@@ -7,7 +7,8 @@ description: >-
   third-party SDK. The Unity package of the Indie Ad Network SDK.
 repoUrl: 'https://github.com/Indie-Ad-Network/sdk'
 parentRepoUrl: null
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: com.indieadnetwork.sdk-
 licenseSpdxId: MIT
 licenseName: MIT License
 topics:
