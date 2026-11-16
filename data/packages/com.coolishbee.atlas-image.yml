@@ -1,0 +1,21 @@
+name: com.coolishbee.atlas-image
+aliases: []
+displayName: UI Atlas Image
+description: 스프라이트 아틀라스와 이름으로 이미지를 표시하고, 스프라이트 선택기·테두리 편집기·이미지 변환 도구를 제공하는 유니티 UI 패키지입니다.
+repoUrl: https://github.com/coolishbee/atlas-image
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - 2d
+  - asset-management
+  - gui
+  - sprite-management
+hunter: coolishbee
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.coolishbee.atlas-image/README.md
+createdAt: 1794844974842
