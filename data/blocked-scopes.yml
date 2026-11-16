@@ -327,3 +327,6 @@ scopes:
 - com.cowart.video-player
 - com.cowart.webgl-input
 - com.cowart.xunfei-speech-recognition
+
+# Requested by author; RiseOn packages are published from https://upm.riseongamestudio.com
+- ^com.riseon
