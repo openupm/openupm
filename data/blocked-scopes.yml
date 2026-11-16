@@ -329,4 +329,16 @@ scopes:
 - com.cowart.xunfei-speech-recognition
 
 # Requested by author; RiseOn packages are published from https://upm.riseongamestudio.com
-- ^com.riseon
+- com.riseon.adimpression
+- com.riseon.nativeadmob
+- com.riseon.outline2d
+- com.riseon.propositions
+- com.riseon.serializables
+- com.riseon.transitions
+- com.riseon.utils
+- com.riseon.utils.litmotion
+- com.riseon.utils.network
+- com.riseon.utils.renderers
+- com.riseon.utils.ui
+- com.riseon.vibration
+- com.riseon.wipe2d
