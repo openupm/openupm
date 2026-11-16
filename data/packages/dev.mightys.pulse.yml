@@ -1,0 +1,24 @@
+name: dev.mightys.pulse
+aliases: []
+displayName: MightyS Pulse
+description: >-
+  Privacy-first analytics for Unity games and apps. Send named events with one
+  call and see them in the MightyS Pulse dashboard. No advertising or device
+  identifiers, an offline queue that survives restarts, built-in opt-out, no
+  external dependencies.
+repoUrl: https://github.com/MightyS-dev/pulse-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+  - services
+hunter: mightys-team
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1794753220355
