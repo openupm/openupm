@@ -1,0 +1,23 @@
+name: com.indieadnetwork.sdk
+aliases: []
+displayName: Indie Ads
+description: >-
+  Rewarded and interstitial ads swapped between indie games: videos and MRAID
+  playables in the system's own web view, with no advertising id and no
+  third-party SDK. The Unity package of the Indie Ad Network SDK.
+repoUrl: 'https://github.com/Indie-Ad-Network/sdk'
+parentRepoUrl: null
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - services
+hunter: VoxelMatt
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.6.0
+image: ''
+imageFit: cover
+readme: 'main:unity/README.md'
+createdAt: 1794868468609
