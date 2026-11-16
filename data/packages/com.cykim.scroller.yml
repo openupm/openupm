@@ -1,0 +1,23 @@
+name: com.cykim.scroller
+aliases: []
+displayName: CyKim Scroller
+description: >-
+  Virtualized uGUI ScrollRect with cell view recycling, variable cell sizes,
+  jumping with tweens, looping and snapping. Only the visible cells exist;
+  everything else is empty scroll extent.
+repoUrl: https://github.com/cyKim0115/cyKimScroller
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/cyKim0115/cyKimScroller/master/docs/images/overview.png
+topics:
+  - gui
+  - utilities
+hunter: cyKim0115
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:Packages/com.cykim.scroller/README.md
+createdAt: 1794836985830
