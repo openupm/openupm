@@ -1,4 +1,6 @@
 name: com.goome-ui.goome
+aliases: []
+trackingMode: git
 repoUrl: 'https://github.com/goome-ui/csharp-goome'
 displayName: goome
 description: >-
