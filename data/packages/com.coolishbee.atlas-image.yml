@@ -5,7 +5,7 @@ description: 스프라이트 아틀라스와 이름으로 이미지를 표시하
 repoUrl: https://github.com/coolishbee/atlas-image
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: MIT
 licenseName: MIT
 image: ''
 topics:
