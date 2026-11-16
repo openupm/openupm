@@ -9,7 +9,7 @@ description: >-
 licenseSpdxId: GPL-3.0-only
 licenseName: GNU General Public License v3.0 only
 topics:
-  - ui
+  - gui
   - utilities
 hunter: sevvy-wevvy
 gitTagPrefix: ''
