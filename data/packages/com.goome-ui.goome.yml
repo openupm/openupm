@@ -1,0 +1,20 @@
+name: com.goome-ui.goome
+aliases: []
+trackingMode: git
+repoUrl: 'https://github.com/goome-ui/csharp-goome'
+displayName: goome
+description: >-
+  goome's immediate mode ui inside your game, drawn offscreen into a texture,
+  plus real see-through desktop overlays from a standalone build.
+licenseSpdxId: GPL-3.0-only
+licenseName: GNU General Public License v3.0 only
+topics:
+  - gui
+  - utilities
+hunter: sevvy-wevvy
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: 'https://raw.githubusercontent.com/goome-ui/csharp-goome/main/docs/screenshot.png'
+readme: 'main:unity/com.goome-ui.goome/README.md'
+createdAt: 1794845302104
