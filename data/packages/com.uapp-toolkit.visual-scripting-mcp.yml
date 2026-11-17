@@ -1,0 +1,24 @@
+name: com.uapp-toolkit.visual-scripting-mcp
+aliases: []
+displayName: UAppToolKit Visual Scripting MCP
+description: >-
+  Editor-only tools for Unity Visual Scripting with optional CoplayDev MCP and
+  Unity CLI / Pipeline adapters.
+repoUrl: https://github.com/vovkasu/uapp-toolkit-visual-scripting-mcp
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - ai
+  - debugging-and-logging
+  - editor-enhancement
+  - integration
+  - testing
+hunter: vovkasu
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:Packages/com.uapp-toolkit.visual-scripting-mcp/README.md
+createdAt: 1794955345591
