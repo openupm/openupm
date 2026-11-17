@@ -1,0 +1,18 @@
+name: com.coffee.ui-effect.shadergraph-urp
+aliases: []
+displayName: UI Effect - ShaderGraph Support (Unity 6 URP)
+description: An extension for UI Effect that adds ShaderGraph support (Unity 6 URP).
+repoUrl: https://github.com/mob-sakai/UIEffect
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+hunter: mob-sakai
+gitTagPrefix: ''
+gitTagIgnore: ^v
+minVersion: ''
+readme: main:Packages/src/README.md
+createdAt: 1794958308000
