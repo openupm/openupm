@@ -12,8 +12,9 @@ licenseName: MIT License
 image: ''
 topics:
   - ai
-  - debugging-and-logging
+  - visual-scripting
   - editor-enhancement
+  - debugging-and-logging
   - integration
   - testing
 hunter: vovkasu
