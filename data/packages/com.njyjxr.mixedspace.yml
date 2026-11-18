@@ -9,7 +9,7 @@ licenseName: Apache License 2.0
 topics:
   - ar-and-vr
   - mobile
-gitTagPrefix: upm/
+gitTagPrefix: release/
 gitTagIgnore: ''
 minVersion: '2.0.0'
 trackingMode: git
