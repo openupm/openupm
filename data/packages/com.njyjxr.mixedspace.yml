@@ -14,6 +14,6 @@ gitTagIgnore: ''
 minVersion: '2.0.0'
 trackingMode: git
 image: null
-readme: 'main:README.md'
+readme: 'release/2.0.0-20261118:README.md'
 hunter: MixedSpace
 createdAt: 1793864016702
