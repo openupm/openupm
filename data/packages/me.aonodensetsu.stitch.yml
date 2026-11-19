@@ -5,7 +5,7 @@ description: Controller Logic Helper for Parameter Interactions
 repoUrl: https://github.com/Aonodensetsu/stitch
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'GPL-3.0-only'
 licenseName: GPL-3.0
 image: ''
 topics:
