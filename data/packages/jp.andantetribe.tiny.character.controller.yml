@@ -1,0 +1,24 @@
+name: jp.andantetribe.tiny.character.controller
+aliases: []
+displayName: Tiny Character Controller
+description: >-
+  This package is a toolkit designed to provide flexible and powerful support
+  for character control in games. 
+
+  It consists of four main components: coordinate updates, movement through user
+  input, movement triggered by external factors,
+   and sensors for determining movement. Visual Scripting integration is optional.
+repoUrl: https://github.com/AndanteTribe/Project_TCC
+trackingMode: githubRelease
+parentRepoUrl: https://github.com/unity3d-jp/Project_TCC
+licenseSpdxId: null
+licenseName: Unity Companion License v.1.3
+image: ''
+topics:
+  - utilities
+hunter: kochounoyume
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795112452880
