@@ -1,0 +1,19 @@
+name: me.aonodensetsu.stitch
+aliases: []
+displayName: Stitch
+description: Controller Logic Helper for Parameter Interactions
+repoUrl: https://github.com/Aonodensetsu/stitch
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'GPL-3.0-only'
+licenseName: 'GNU General Public License v3.0 only'
+image: ''
+topics:
+  - animation
+  - utilities
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795096952732
