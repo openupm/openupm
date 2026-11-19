@@ -1,0 +1,19 @@
+name: com.njyjxr.mixedspaceharmony
+aliases: []
+displayName: MixedSpaceHarmonyVPS
+description: Visual positioning SDK for HarmonyOS on Tuanjie with AR Engine integration, cloud and on-device localization, map management, and pose fusion.
+repoUrl: 'https://github.com/MixedSpace/MixedSpaceHarmonyVPS'
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - ar-and-vr
+  - mobile
+gitTagPrefix: mixedspaceharmony/
+gitTagIgnore: ''
+minVersion: '2.0.0'
+trackingMode: git
+image: null
+readme: 'main:README.md'
+hunter: MixedSpace
+createdAt: 1795071257007
