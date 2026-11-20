@@ -1,0 +1,20 @@
+name: com.saesentsessis.unity-meshgen
+aliases: []
+displayName: Unity Mesh Generation
+description: >-
+  Pretty fast mesh generation library for Unity.
+repoUrl: https://github.com/Saesentsessis/Unity-MeshGen
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - procedural-generation
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.2.0
+readme: main:Unity-MeshGen/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.unity-meshgen-
+createdAt: 1795137707090
