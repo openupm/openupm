@@ -3,7 +3,7 @@ aliases: []
 displayName: NoUtil
 description: A utility libary with many tools to speed up development
 repoUrl: 'https://github.com/nolimet/Util'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -12,7 +12,7 @@ topics:
 hunter: nolimet
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: '2020.3'
+minVersion: '1.2.0'
 image: ''
 readme: 'master:README.md'
 readme_zhCN: ''
