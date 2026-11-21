@@ -1,0 +1,16 @@
+name: "com.yvsim.raycast-utilities"
+displayName: "Raycast Utilities"
+description: "面向 Unity 3D Physics 的可视化射线检测组件，适合交互探测、视野采样、障碍检查和具有厚度的范围投射。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.raycast-utilities"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["physics", "input-management"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634667
+aliases: []

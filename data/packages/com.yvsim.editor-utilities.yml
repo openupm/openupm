@@ -1,0 +1,16 @@
+name: "com.yvsim.editor-utilities"
+displayName: "Editor Utilities"
+description: "面向 Unity 项目检查、整理和批处理的编辑器工具集，适合定位引用问题、维护 Prefab 和减少重复资源操作。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.editor-utilities"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["editor-enhancement"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634663
+aliases: []

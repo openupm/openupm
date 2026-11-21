@@ -1,0 +1,16 @@
+name: "com.yvsim.object-utilities"
+displayName: "Object Utilities"
+description: "组合运行时对象管理与编辑器物体整理工具，适合场景对象定位、动态生成、朝向控制及批量维护层级。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.object-utilities"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["utilities"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634666
+aliases: []

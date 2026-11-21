@@ -1,0 +1,16 @@
+name: "com.yvsim.audio-recorder"
+displayName: "Audio Recorder"
+description: "通过统一静态入口进行麦克风录音、录音试听和 PCM16 音频转换，提供 Editor、Windows、Android 与 WebGL 平台实现。适合语音采集、录音提交和实时音频处理。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.audio-recorder"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["audio"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634661
+aliases: []

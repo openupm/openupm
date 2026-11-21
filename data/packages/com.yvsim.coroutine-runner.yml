@@ -1,0 +1,16 @@
+name: "com.yvsim.coroutine-runner"
+displayName: "Coroutine Runner"
+description: "为普通 C# 类提供统一协程入口，无需继承或手动持有 MonoBehaviour，适合延迟操作、定时任务、条件等待与异步资源读取。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.coroutine-runner"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["utilities"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634662
+aliases: []

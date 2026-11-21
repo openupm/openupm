@@ -1,0 +1,16 @@
+name: "com.yvsim.flow-framework"
+displayName: "Flow Framework"
+description: "基于状态模式的轻量流程框架，适合虚拟实验、操作培训、设备步骤和需要记录执行结果的仿真流程。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.flow-framework"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["frameworks"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634664
+aliases: []

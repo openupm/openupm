@@ -1,0 +1,16 @@
+name: "com.yvsim.config-loader"
+displayName: "Config Loader"
+description: "轻量文本与 JSON 配置读取工具，适合外部配置、题目表、对话脚本和文字/音频提示数据。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.config-loader"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["data-management"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634661
+aliases: []
