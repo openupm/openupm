@@ -1,0 +1,15 @@
+name: "com.yvsim.measure-kit"
+displayName: "Measure Kit"
+description: "面向虚拟仿真、工业教学和数字孪生的测量工具，覆盖交互取点、几何计算、单位换算、比例标定、公差判断、可视化和结果导出。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.measure-kit"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["utilities"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634665

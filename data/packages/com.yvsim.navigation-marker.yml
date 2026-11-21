@@ -1,0 +1,15 @@
+name: "com.yvsim.navigation-marker"
+displayName: "Navigation Marker"
+description: "基于 Unity NavMesh 与 LineRenderer 的运行时导航指引，用连续滚动的箭头线显示当前位置到目标点的可行路径，适合展馆导览、场景任务指引和仿真路线展示。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.navigation-marker"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["gui"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634666

@@ -1,0 +1,15 @@
+name: "com.yvsim.animator-player"
+displayName: "Animator Player"
+description: "用于控制 Unity Animator 状态播放和动画事件，适合角色动作、设备操作演示及按步骤播放的仿真动画。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.animator-player"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["animation"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634648

@@ -1,0 +1,15 @@
+name: "com.yvsim.video-player"
+displayName: "Video Player"
+description: "基于 Unity VideoPlayer 与 UGUI 的视频播放组件，适合教学视频、操作演示和仿真系统中的内嵌播放器。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.video-player"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["video"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634668

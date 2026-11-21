@@ -1,0 +1,15 @@
+name: "com.yvsim.webgl-input"
+displayName: "WebGL Input"
+description: "为桌面浏览器中的 Unity WebGL 输入框提供 HTML 输入桥，适合需要中文输入、复制粘贴、文本选择及全屏编辑的 UGUI/TMP 界面。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.webgl-input"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["input-management"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634669

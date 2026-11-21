@@ -1,0 +1,15 @@
+name: "com.yvsim.inspector-groups"
+displayName: "Inspector Groups"
+description: "通过 C# 特性组织和增强 Unity Inspector，适合制作清晰的组件配置面板、只读运行状态和编辑器业务操作入口。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.inspector-groups"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["editor-enhancement"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634664

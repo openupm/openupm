@@ -1,0 +1,15 @@
+name: "com.yvsim.xunfei-speech-recognition"
+displayName: "Xunfei Speech Recognition"
+description: "通过讯飞 IAT WebSocket 服务将音频转换为文字，适合语音指令、录音转写及实时语音识别；提供 Editor、Windows、Android 和 WebGL 平台实现。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.xunfei-speech-recognition"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["audio", "integration"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634669

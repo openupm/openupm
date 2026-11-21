@@ -1,0 +1,15 @@
+name: "com.yvsim.device-files"
+displayName: "Device Files"
+description: "为 Unity 提供统一的设备文件选择、完整字节读取和保存入口，适合导入用户文件、下载报告、导出截图或保存录音数据。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.device-files"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["utilities"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634663

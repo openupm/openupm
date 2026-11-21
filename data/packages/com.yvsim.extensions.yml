@@ -1,0 +1,15 @@
+name: "com.yvsim.extensions"
+displayName: "Yvsim Extensions"
+description: "统一使用 Yv 前缀的 Unity/C# 扩展方法集合，适合集中处理常见数据、物体、层级和 UGUI 操作。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.extensions"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["utilities"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634663

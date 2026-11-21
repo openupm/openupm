@@ -1,0 +1,15 @@
+name: "com.yvsim.multilingual-text"
+displayName: "Multilingual Text"
+description: "基于 JSON 的多语言文本管理工具，适合界面文案、培训提示和需要运行时切换语言的 Unity 应用。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.multilingual-text"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["localization", "gui"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634665

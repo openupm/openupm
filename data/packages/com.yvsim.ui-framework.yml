@@ -1,0 +1,15 @@
+name: "com.yvsim.ui-framework"
+displayName: "UI Framework"
+description: "基于 Unity UGUI 的轻量界面管理框架，适合主界面、弹窗、提示、加载页和多层面板的统一生命周期管理。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.ui-framework"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["gui", "frameworks"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634668

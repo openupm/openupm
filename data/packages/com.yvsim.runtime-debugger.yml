@@ -1,0 +1,15 @@
+name: "com.yvsim.runtime-debugger"
+displayName: "Runtime Debugger"
+description: "面向开发与功能测试的运行时快捷调试工具，包含时间变速和可定位、可触发交互的 UGUI 检查器。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.runtime-debugger"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["debugging-and-logging"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634667

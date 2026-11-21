@@ -1,0 +1,15 @@
+name: "com.yvsim.audio-player"
+displayName: "Audio Player"
+description: "基于 Unity AudioSource 的单音频播放组件，适合背景音乐、提示音、语音解说和需要播放进度反馈的界面。"
+repoUrl: "https://github.com/liuyan7669/com.yvsim.audio-player"
+licenseSpdxId: "MIT"
+licenseName: "MIT License"
+topics: ["audio"]
+hunter: "liuyan7669"
+gitTagPrefix: "v"
+gitTagIgnore: ""
+minVersion: "1.0.0"
+trackingMode: "git"
+image: ""
+readme: "main:README.md"
+createdAt: 1795244634660
