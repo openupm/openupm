@@ -1,0 +1,19 @@
+name: com.poiyomi.thryeditor
+aliases: []
+displayName: ThryEditor
+description: General Unity Shader Inspector/Editor for Poiyomi Shaders.
+repoUrl: https://github.com/poiyomi/ThryEditor
+trackingMode: git
+parentRepoUrl: https://github.com/Thryrallo/ThryEditor
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - gui
+  - utilities
+hunter: TayouVR
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: master:README.md
+createdAt: 1795368912008
