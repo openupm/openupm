@@ -221,6 +221,10 @@ describe("data-validation-pr-comment", function() {
         "Add `repoUrl`",
       ],
       [
+        "packages/com.example.tool.yml: repoUrl must point to the repository root without a #branch fragment or query string [package-repo-url-invalid]",
+        "Use the repository root URL in `repoUrl`",
+      ],
+      [
         "packages/com.example.tool.yml: name is required and must not be empty [package-name-empty]",
         "Add `name`",
       ],
@@ -371,6 +375,26 @@ describe("data-validation-pr-comment", function() {
     assert.ok(body.includes("Use an existing topic slug"));
     assert.ok(body.includes("Other validation failure details"));
     assert.equal(body.includes("alias com.example.old"), false);
+  });
+
+  it("provides guidance for invalid repoUrl values with branch fragments or subpaths", function() {
+    const issues = parseValidationIssues(
+      "packages/com.example.tool.yml: repoUrl must point to the repository root without a #branch fragment or query string [package-repo-url-invalid]"
+    );
+
+    const body = buildCommentBody(issues);
+
+    assert.ok(body.includes("Use the repository root URL in `repoUrl`"));
+    assert.ok(body.includes("without a `#branch` fragment"));
+    assert.ok(body.includes("validation error code: `package-repo-url-invalid`"));
+
+    const suppressed = buildCommentBody(issues, [
+      {
+        body: "Please remove the branch fragment from repoUrl; OpenUPM builds from tags rather than branches.",
+        user: { type: "User" },
+      },
+    ]);
+    assert.equal(suppressed, null);
   });
 
   it("does not treat hunter and repository owner differences as an issue", function() {
