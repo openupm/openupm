@@ -3,7 +3,7 @@ aliases: []
 displayName: Native WebSockets
 description: WebSocket client for Unity - with no external dependencies (WebGL, Native,
   Android, iOS, UWP).
-repoUrl: https://github.com/endel/NativeWebSocket
+repoUrl: https://github.com/endel/NativeWebSocket.git#upm-2
 trackingMode: git
 parentRepoUrl: null
 licenseSpdxId: Apache-2.0
