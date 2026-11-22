@@ -52,6 +52,12 @@ const fixableIssues = {
     guidance: "`repoUrl` is required and must point to the package source repository.",
     duplicateTerms: ["repourl"],
   },
+  "package-repo-url-invalid": {
+    title: "Use the repository root URL in `repoUrl`",
+    guidance:
+      "`repoUrl` must point to the repository root (for example `https://github.com/owner/repo`) without a `#branch` fragment, query string, or subpath such as `/tree/branch`. OpenUPM tracks and builds packages from versioned Git tags rather than branches; see [Handling Custom Build Tasks](https://openupm.com/docs/adding-upm-package#handling-custom-build-tasks) if your package builds into a separate branch.",
+    duplicateTerms: ["repourl", "branch"],
+  },
   "package-name-empty": {
     title: "Add `name`",
     guidance: "`name` is required and must contain the Unity package id.",
