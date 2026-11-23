@@ -342,3 +342,8 @@ scopes:
 - com.riseon.utils.ui
 - com.riseon.vibration
 - com.riseon.wipe2d
+
+# Requested by author; unpublish request: https://github.com/openupm/openupm/issues/7266
+- com.jeomseon.unity.scopes
+- com.jeomseon.unity.pooling
+- com.jeomseon.unity.dispatcher
