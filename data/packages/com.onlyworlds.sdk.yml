@@ -1,0 +1,27 @@
+name: com.onlyworlds.sdk
+aliases: []
+displayName: OnlyWorlds SDK
+description: >-
+  A Unity SDK for OnlyWorlds, an open worldbuilding standard: a world's
+  characters, locations and laws as objects in your game. Reads and writes
+  worlds through the OnlyWorlds API and as world folders on disk, with typed C#
+  models for all 22 element types and a world cache you can browse in the
+  Editor.
+repoUrl: 'https://github.com/OnlyWorlds/unity-sdk'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - data-management
+hunter: tmoosting
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '0.49.1'
+image: 'https://media.onlyworlds.com/onlyworlds/readme/unity-world-browser-2.webp'
+readme: 'main:Packages/com.onlyworlds.sdk/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1795462713284
