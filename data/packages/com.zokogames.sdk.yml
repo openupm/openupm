@@ -1,0 +1,19 @@
+name: com.zokogames.sdk
+aliases: []
+displayName: ZokoGames SDK
+description: 'ZokoGames SDK for Unity WebGL: ads, cloud saves, leaderboards, achievements and rooms for games published on zokogames.com'
+repoUrl: https://github.com/zokogames/zokogames-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - services
+  - integration
+hunter: idimetrix
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795459200000
