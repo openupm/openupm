@@ -1,0 +1,21 @@
+name: com.saesentsessis.unity-shaderworks
+aliases: []
+displayName: ShaderWorks
+description: >-
+  Editor tools for Unity shaders. Shader variant stripping driven by keyword schemas: Automatic and Custom
+  modes, excluded combinations, a variant count preview and build reports.
+repoUrl: https://github.com/Saesentsessis/unity-shaderworks
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:unity-shaderworks/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.unity-shaderworks-
+createdAt: 1795482157512
