@@ -1,0 +1,25 @@
+name: com.hydracept.unity
+aliases: []
+displayName: Hydracept
+description: >-
+  Editor-only Hydracept integration for image generation, Sheet & Slice,
+  and artifact import.
+repoUrl: 'https://github.com/zencodeinc/hydracept-public'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - ai
+  - editor-enhancement
+  - integration
+hunter: jklappstein
+gitTagPrefix: 'com.hydracept.unity/'
+gitTagIgnore: ''
+minVersion: ''
+image: ''
+readme: 'main:packages/unity/README.md'
+readme_zhCN: ''
+displayName_zhCN: ''
+description_zhCN: ''
+createdAt: 1795534519548
