@@ -1,0 +1,21 @@
+name: com.saesentsessis.fuluma
+aliases: []
+displayName: Fuluma
+description: >-
+  Fuluma stands for Fake Unity Voluma. It is a high-performance, drop in render feature for URP that brings cheap
+  analytical (fake) volumetry to your scenes.
+repoUrl: https://github.com/Saesentsessis/Fuluma
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: 'https://raw.githubusercontent.com/Saesentsessis/Fuluma/main/resources/images/Logo.png'
+topics:
+  - particles-and-effects
+hunter: Saesentsessis
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.1.0
+readme: main:Fuluma/Assets/root/README.md
+trackingMode: githubRelease
+githubReleaseAssetName: com.saesentsessis.fuluma-
+createdAt: 1795495881134
