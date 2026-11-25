@@ -1,0 +1,19 @@
+name: com.nuskey8.lua.unity
+aliases: []
+displayName: Lua.Unity
+description: Lua-CSharp extension for Unity
+repoUrl: https://github.com/nuskey8/Lua-CSharp
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - code-generation
+  - utilities
+hunter: from2001
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795610039738
