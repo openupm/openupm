@@ -1,0 +1,25 @@
+name: pro.neocrom.crom-pulse
+aliases: []
+displayName: Crom Pulse
+description: >-
+  Lightweight, modular, privacy-first game analytics and telemetry SDK for
+  Unity, part of the Neocrom ecosystem (neocrom.pro).
+repoUrl: https://github.com/neocrom-team/crom-pulse
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/neocrom-team/crom-pulse/b4161576296f1899ee307baa5f0f605535d08d88/addons/crom_pulse/icon.png
+topics:
+  - debugging-and-logging
+  - integration
+  - profiling
+  - services
+  - utilities
+hunter: letward
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:sdk/unity/README.md
+createdAt: 1795639518554
