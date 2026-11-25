@@ -1,0 +1,22 @@
+name: com.onetext.core
+aliases: []
+displayName: OneText
+description: >-
+  A free, MIT-licensed text engine for Unity uGUI. HarfBuzz shaping, full bidi,
+  SDF atlas in one draw call. Rich text, colour emoji, animation and an
+  IME-correct input field in the box.
+repoUrl: 'https://github.com/CodeOneLabs/OneText'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - localization
+hunter: CodeOneLabs
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 0.3.2
+image: 'https://raw.githubusercontent.com/CodeOneLabs/OneText/main/page~/assets/vs-tmp.png'
+readme: 'main:README.md'
+createdAt: 1795610614546
