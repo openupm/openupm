@@ -1,0 +1,23 @@
+name: com.strybok.sdk
+aliases: []
+displayName: Strybok SDK
+description: >-
+  Deep links for iOS and Android: receives Universal Links and App Links,
+  resolves them through the Strybok API to an in-app route and payload, and
+  delivers each link exactly once.
+repoUrl: 'https://github.com/strybok/strybok-unity'
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - mobile
+  - integration
+  - services
+hunter: olesfalcon
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: null
+readme: 'main:README.md'
+createdAt: 1795537628000
