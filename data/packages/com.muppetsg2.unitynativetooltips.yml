@@ -14,7 +14,7 @@ description: >-
 repoUrl: https://github.com/Muppetsg2/UnityNativeTooltips
 trackingMode: git
 parentRepoUrl: null
-licenseSpdxId: ''
+licenseSpdxId: 'MIT'
 licenseName: MIT
 image: >-
   https://raw.githubusercontent.com/Muppetsg2/UnityNativeTooltips/main/.github/unity-native-tooltips.svg
