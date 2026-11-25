@@ -1,0 +1,21 @@
+name: com.mrtorex.logline
+aliases: []
+displayName: LogLine
+description: High-performance, zero-allocation, user-friendly logging framework for Unity
+repoUrl: https://github.com/MrTorex/LogLine
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/MrTorex/LogLine/main/Documentation~/images/logo.svg
+topics:
+  - debugging-and-logging
+  - editor-enhancement
+  - utilities
+hunter: MrTorex
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795642679075
