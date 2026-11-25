@@ -1,0 +1,21 @@
+name: com.garabandic.uicdn
+aliases: []
+displayName: UiCdn
+description: An Editor installer for project-owned runtime UI Toolkit components, game themes and fonts.
+repoUrl: https://github.com/kantagara/UI-CDN
+trackingMode: githubRelease
+githubReleaseAssetName: com.garabandic.uicdn-
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - editor-enhancement
+hunter: kantagara
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+image: https://raw.githubusercontent.com/kantagara/UI-CDN/main/Packages/com.garabandic.uicdn/Documentation~/Images/theme-gallery.png
+imageFit: contain
+readme: main:README.md
+createdAt: 1795634106461
