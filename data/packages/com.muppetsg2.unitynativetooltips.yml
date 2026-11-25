@@ -1,0 +1,30 @@
+name: com.muppetsg2.unitynativetooltips
+aliases: []
+displayName: Unity Native Tooltips
+description: >-
+  Native, operating-system tooltips for Unity apps: Win32 (comctl32), macOS
+  (AppKit), Linux (GTK 3), Android (framework tooltip style), iOS (UIKit
+  popover) and WebGL (browser title attribute). Includes a component for UGUI /
+  physics objects (works with Button - TextMeshPro) and a UI Toolkit
+  manipulator. Customizable via TooltipStyle (font, padding, colors, placement,
+  offset, title, delay) and Unity-style rich text (<b>, <color>, <size>…) with a
+  native-looking custom bubble on macOS and WebGL (on WebGL styled after the
+  user's browser, e.g. Chrome, Edge, Firefox, Opera GX). The Editor and
+  unsupported platforms use a simple IMGUI fallback.
+repoUrl: https://github.com/Muppetsg2/UnityNativeTooltips
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: 'MIT'
+licenseName: MIT License
+image: >-
+  https://raw.githubusercontent.com/Muppetsg2/UnityNativeTooltips/main/.github/unity-native-tooltips.svg
+topics:
+  - gui
+  - integration
+  - utilities
+hunter: Muppetsg2
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1795620938789
