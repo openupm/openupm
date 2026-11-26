@@ -1,0 +1,20 @@
+name: net.empower.mobile.ads
+aliases: []
+displayName: Empower Mobile Ads
+description: >-
+  Empower Mobile Ads SDK for Unity. Banner, interstitial, rewarded, app open
+  and preroll ads with built in mediation.
+repoUrl: 'https://github.com/empowernet/empower-mobile-ads-unity'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - mobile
+  - services
+  - integration
+hunter: mertrkaradeniz
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: ''
+readme: 'master:README.md'
+createdAt: 1795711920125
