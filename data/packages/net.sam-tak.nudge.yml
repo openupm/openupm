@@ -3,7 +3,7 @@ aliases: []
 displayName: Nudge
 description: Allows for adding comment and tasks to scene objects and project assets.
 repoUrl: 'https://github.com/SAM-tak/Nudge'
-trackingMode: git
+trackingMode: githubRelease
 parentRepoUrl: 'https://github.com/stevehalliwell/Nudge'
 licenseSpdxId: MIT
 licenseName: MIT License
@@ -13,7 +13,7 @@ topics:
 hunter: SAM-tak
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.4.6'
 image: 'https://raw.githubusercontent.com/SAM-tak/Nudge/master/Media/nudge_logo.png'
 readme: 'upm:README.md'
 readme_zhCN: ''
