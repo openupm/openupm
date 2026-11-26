@@ -1,0 +1,20 @@
+name: com.van-unity.zep
+aliases: []
+displayName: Zep Asset Browser
+description: >-
+  A fast, keyboard-friendly asset browser for the Unity editor, with split
+  view, dockable folder and tag windows, tags, Quick Look previews, themes and
+  a powerful search.
+repoUrl: 'https://github.com/van-unity/zep'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - editor-enhancement
+  - asset-management
+hunter: van-unity
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: 'https://raw.githubusercontent.com/van-unity/zep/main/.github/brand/asset-store/zep-social-1200x630.png'
+readme: 'main:README.md'
+createdAt: 1795721160000
