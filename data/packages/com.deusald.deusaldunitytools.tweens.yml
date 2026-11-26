@@ -1,0 +1,19 @@
+name: com.deusald.deusaldunitytools.tweens
+aliases: []
+displayName: Deusald Unity Tools - Tweens
+description: 'Lightweight, strictly typed tweening engine for Transforms, UI, UI Toolkit, lights, audio and sprites.'
+repoUrl: https://github.com/Deusald/DeusaldUnityTools
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldunitytools.tweens-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '4.0.1'
+readme: main:README.md
+createdAt: 1795713947000
