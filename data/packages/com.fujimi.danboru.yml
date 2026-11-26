@@ -1,0 +1,19 @@
+name: com.fujimi.danboru
+displayName: Danboru SDK
+description: >-
+  Live ops for your game from Metaru: consent, analytics events with an offline
+  queue, remote settings, Locations, shops and live events; plus optional player
+  accounts.
+repoUrl: 'https://github.com/Fujimi-Games/danboru'
+licenseSpdxId: Apache-2.0
+licenseName: Apache License 2.0
+topics:
+  - services
+  - integration
+  - network
+hunter: Kahl84
+gitTagPrefix: com.fujimi.danboru/
+gitTagIgnore: ''
+image: ''
+readme: 'main:unity/com.fujimi.danboru/README.md'
+createdAt: 1795692015905
