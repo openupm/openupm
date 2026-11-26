@@ -13,7 +13,7 @@ topics:
 hunter: SAM-tak
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '0.4.6'
 image: 'https://raw.githubusercontent.com/SAM-tak/Nudge/master/Media/nudge_logo.png'
 readme: 'upm:README.md'
 readme_zhCN: ''
