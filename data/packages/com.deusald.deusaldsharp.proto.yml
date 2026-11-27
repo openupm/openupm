@@ -1,0 +1,19 @@
+name: com.deusald.deusaldsharp.proto
+aliases: []
+displayName: Deusald Sharp - Proto
+description: 'Proto-style binary messages (ProtoMsgBase / ProtoField). The source generator is not included in the Unity package.'
+repoUrl: https://github.com/Deusald/DeusaldSharp
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldsharp.proto-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '11.1.0'
+readme: master:README.md
+createdAt: 1795742141000

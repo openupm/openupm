@@ -1,0 +1,19 @@
+name: com.deusald.deusaldsharp.messages
+aliases: []
+displayName: Deusald Sharp - Messages
+description: 'Lightweight message bus with pooled messages.'
+repoUrl: https://github.com/Deusald/DeusaldSharp
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldsharp.messages-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '11.1.0'
+readme: master:README.md
+createdAt: 1795742141000
