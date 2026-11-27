@@ -6,7 +6,7 @@ description: >-
 repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
 parentRepoUrl: null
 licenseSpdxId: MIT
-licenseName: MIT License (MessagePack, StringTools, Immutable), with lz4net BSD and Apache-2.0 notices
+licenseName: MIT License
 topics:
   - data-management
 hunter: GeorgeRontoulis
@@ -16,3 +16,4 @@ trackingMode: git
 image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
 imageFit: contain
 readme: 'main:Packages/com.threadforge.dependencies.messagepack/README.md'
+createdAt: 1795752410454
