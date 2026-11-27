@@ -1,0 +1,18 @@
+name: com.threadforge.threadlink.starter
+aliases: []
+displayName: Threadlink Starter
+description: >-
+  A small complete game on Threadlink: menu and gameplay scenes, saves with recovery, settings with rebinding, audio and screens.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.starter/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.starter/README.md'
