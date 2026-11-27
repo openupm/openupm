@@ -1,9 +1,10 @@
 name: com.deusald.deusaldunitytools
 aliases: []
 displayName: Deusald Unity Tools
-description: Deusald Unity Tools unity package.
+description: 'Deusald Unity Tools meta-package: installs every Deusald Unity Tools module.'
 repoUrl: https://github.com/Deusald/DeusaldUnityTools
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldunitytools-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

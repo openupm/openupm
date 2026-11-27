@@ -1,0 +1,19 @@
+name: com.deusald.deusaldunitytools.mobile
+aliases: []
+displayName: Deusald Unity Tools - Mobile
+description: 'Native Android and iOS tools: share, store pages, app settings, haptics and Game Center auth.'
+repoUrl: https://github.com/Deusald/DeusaldUnityTools
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldunitytools.mobile-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '4.0.1'
+readme: main:README.md
+createdAt: 1795713947000
