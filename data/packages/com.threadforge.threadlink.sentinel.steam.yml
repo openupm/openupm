@@ -1,0 +1,20 @@
+name: com.threadforge.threadlink.sentinel.steam
+aliases: []
+displayName: Threadlink Sentinel Steam
+description: >-
+  Steam accounts, achievements, statistics, leaderboards, presence, friends, invites, DLC, join intents and Steam Cloud, through Unity's Steamworks package or Steamworks.NET.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - integration
+  - services
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.sentinel.steam/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.sentinel.steam/README.md'
+createdAt: 1795752410454
