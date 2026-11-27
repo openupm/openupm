@@ -1,0 +1,18 @@
+name: com.threadforge.threadlink.aura
+aliases: []
+displayName: Threadlink Aura
+description: >-
+  Audio cues with variations, categories, voice limits, fades and a crossfading music channel, with scene music as designer data.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - audio
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.aura/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.aura/README.md'
