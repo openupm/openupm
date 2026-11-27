@@ -1,0 +1,19 @@
+name: com.threadforge.threadlink.nexus
+aliases: []
+displayName: Threadlink Nexus
+description: >-
+  Scene transitions that load and prepare the next scene before presenting it and keep the current scene on failure, for Build Profile and Addressables scenes.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.nexus/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.nexus/README.md'
+createdAt: 1795752410454
