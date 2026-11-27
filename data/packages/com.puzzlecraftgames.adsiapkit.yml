@@ -1,0 +1,23 @@
+name: com.puzzlecraftgames.adsiapkit
+aliases: []
+displayName: Ads & IAP Kit
+description: >-
+  One API for mobile ads and in-app purchases: AdMob or Unity LevelPlay, with
+  Meta Audience Network through mediation, Unity IAP 5, a product catalog
+  editor, a ready-made shop UI, Google UMP consent and iOS App Tracking
+  Transparency.
+repoUrl: https://github.com/kuntal-gupta/adsiapkit
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - services
+  - mobile
+  - integration
+hunter: kuntal-gupta
+gitTagPrefix: ''
+gitTagIgnore: ''
+readme: main:README.md
+createdAt: 1795757508197
