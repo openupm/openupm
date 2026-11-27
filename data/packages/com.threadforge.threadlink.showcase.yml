@@ -1,0 +1,18 @@
+name: com.threadforge.threadlink.showcase
+aliases: []
+displayName: Threadlink Showcase
+description: >-
+  A gallery of runnable demos for every Threadlink feature, opened from the Threadlink Hub.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.showcase/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.showcase/README.md'
