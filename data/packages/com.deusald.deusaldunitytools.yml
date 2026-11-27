@@ -14,6 +14,6 @@ topics:
 hunter: Deusald
 gitTagPrefix: ''
 gitTagIgnore: ''
-minVersion: ''
+minVersion: '4.0.1'
 readme: main:README.md
 createdAt: 1736560383789
