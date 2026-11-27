@@ -1,0 +1,17 @@
+name: com.pattarapol.smart-tooltip
+aliases: []
+displayName: Smart Tooltip
+description: Tutorial tooltips that point at anything, including UI, 2D sprites, 3D objects, and things off screen or behind the camera. Rules pick which tip to show.
+repoUrl: 'https://github.com/MidasCE/unity-smart-tooltip'
+trackingMode: git
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - gui
+  - utilities
+hunter: MidasCE
+gitTagPrefix: ''
+gitTagIgnore: ''
+image: ''
+createdAt: 1795769105000
+readme: 'main:README.md'
