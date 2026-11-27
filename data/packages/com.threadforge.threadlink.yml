@@ -1,0 +1,20 @@
+name: com.threadforge.threadlink
+aliases: []
+displayName: Threadlink
+description: >-
+  The Threadlink core: the subsystem runtime that deploys before the first scene, Iris events, content loading by generated ID through Addressables, Vault typed definitions, generated IDs, engineering settings, memory toolkits and the Editor Workspace with the Runtime monitor, Code Generation and Content pages.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - frameworks
+  - code-generation
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink/README.md'
+createdAt: 1795752410454
