@@ -1,9 +1,10 @@
 name: com.deusald.deusaldsharp
 aliases: []
 displayName: Deusald Sharp
-description: Deusald Sharp unity package.
+description: 'Deusald Sharp meta-package: installs every Deusald Sharp module.'
 repoUrl: https://github.com/Deusald/DeusaldSharp
-trackingMode: git
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldsharp-'
 parentRepoUrl: null
 licenseSpdxId: MIT
 licenseName: MIT License

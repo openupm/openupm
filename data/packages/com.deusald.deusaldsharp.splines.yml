@@ -1,0 +1,19 @@
+name: com.deusald.deusaldsharp.splines
+aliases: []
+displayName: Deusald Sharp - Splines
+description: '2D splines for paths and curves.'
+repoUrl: https://github.com/Deusald/DeusaldSharp
+trackingMode: githubRelease
+githubReleaseAssetName: 'com.deusald.deusaldsharp.splines-'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - utilities
+hunter: Deusald
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: '11.1.0'
+readme: master:README.md
+createdAt: 1795742141000
