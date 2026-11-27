@@ -1,0 +1,23 @@
+name: com.trackinglog.sdk
+aliases: []
+displayName: Tracking Log SDK
+description: >-
+  Lightweight, zero-dependency Unity SDK for session_track, level_track (start,
+  retry, in_progress, end), and custom telemetry events across Standalone,
+  Mobile, and WebGL.
+repoUrl: https://github.com/Sperush/TrackingLogSDK
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - debugging-and-logging
+  - services
+  - utilities
+hunter: Sperush
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: 1.1.1
+readme: main:README.md
+createdAt: 1795756220846
