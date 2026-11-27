@@ -1,0 +1,19 @@
+name: com.threadforge.threadlink.sentinel
+aliases: []
+displayName: Threadlink Sentinel
+description: >-
+  Accounts and platform capabilities routed to the installed provider, and per-account saves that are transactional, versioned and recoverable.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - services
+  - data-management
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.sentinel/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.sentinel/README.md'
