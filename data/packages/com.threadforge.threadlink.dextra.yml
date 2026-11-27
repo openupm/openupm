@@ -1,0 +1,19 @@
+name: com.threadforge.threadlink.dextra
+aliases: []
+displayName: Threadlink Dextra
+description: >-
+  Per-player input with saved rebinding and prompts, layered screens that block gameplay input while open, and interaction targeting.
+repoUrl: 'https://github.com/GeorgeRontoulis/Threadlink'
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+topics:
+  - input-management
+  - gui
+hunter: GeorgeRontoulis
+gitTagPrefix: 'com.threadforge.threadlink.dextra/'
+gitTagIgnore: ''
+trackingMode: git
+image: 'https://raw.githubusercontent.com/GeorgeRontoulis/Threadlink/main/Threadforge/Threadlink_Banner.png'
+imageFit: contain
+readme: 'main:Packages/com.threadforge.threadlink.dextra/README.md'
