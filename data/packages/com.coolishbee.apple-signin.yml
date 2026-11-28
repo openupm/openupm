@@ -1,0 +1,21 @@
+name: com.coolishbee.apple-signin
+aliases: []
+displayName: Apple Sign-In for Unity
+description: >-
+  Sign in with Apple for Unity using AppleAuth and Unity External Dependency
+  Manager.
+repoUrl: https://github.com/coolishbee/apple-signin-unity
+trackingMode: git
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - integration
+  - mobile
+hunter: coolishbee
+gitTagPrefix: v
+gitTagIgnore: ''
+minVersion: 0.2.0
+readme: main:Packages/com.coolishbee.apple-signin/README.md
+createdAt: 1795860780307
